@@ -1,0 +1,48 @@
+{
+  "modId": 1009.0,
+  "modName": "Faster Arrows",
+  "summary": "Increases flight speed and flattens trajectory",
+  "descriptionHtml": "Just a quick mod I put together using TESsnip. \r<br />\r<br />I&#39;ve increased the speed of arrows in flight, though not a huge amount and slightly reduced the effect of gravity on them. The result is faster arrows with a flatter trajectory. \r<br />\r<br />This means you don&#39;t have to aim 6 feet above your target to hit it and arrows are much harder to miss (and dodge&#33;) with.\r<br />\r<br />I recommend adding these lines to Skyrim.ini in your documents/my games/skyrim/ directory:\r<br />\r<br />[Actor]\r<br />fVisibleNavmeshMoveDist=12288.0000\r<br />[Combat]\r<br />f1PArrowTiltUpAngle=0.7\r<br />f3PArrowTiltUpAngle=0.7\r<br />\r<br />The first line under [Actor] increases the distance your arrows can fly (no more disappearing arrows&#33;)\r<br />\r<br />The other two lines shift the point of aim to the center of the aiming reticle (with this setting you&#39;ll hit targets dead on where you aim at around 100 feet (rough guess), the arrow \r<br />\r<br />begins to drop after that. But feel free to experiment with what suits you.\r<br />\r<br />I&#39;ve made 4 esp files to suit different tastes. Each increases the arrow flight speed by the percentage in the name, ex. FasterArrows50.esp increases the speed by %50. I&#39;ve also fixed the \r<br />\r<br />name issue when picking up missed arrows. Enjoy&#33; :)",
+  "categoryId": "77",
+  "version": "1.01",
+  "author": "FordPerfect",
+  "createdUnix": "1321934269",
+  "updatedUnix": "1321972234",
+  "containsAdultContent": false,
+  "uploadedBy": "FordPerfect",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "2610",
+      "name": "Faster Arrows",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Faster Arrows-1009.rar",
+      "uploadedUnix": "1321934415",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/e23bcfe4bb41fffdb43089911812e18ab4e81d20a9307cef80b0c2429c1d2f50/analysis/1406432522/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Faster%20Arrows-1009.rar?fid=2610&ttl=1535754307&ri=8192&rs=8192&setec=eff3fc71d93636880c4f8c38e9a4b9bc"
+    },
+    {
+      "fileId": "2737",
+      "name": "Faster Arrows v1_01",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Faster Arrows v1_01-1009-1-01.rar",
+      "uploadedUnix": "1321972234",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/cecb6c387dd320d6a4d073b05fc295f5b12c63deac3acb5f68ad98a9d22e1541/analysis/1406433789/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Faster%20Arrows%20v1_01-1009-1-01.rar?fid=2737&ttl=1535754307&ri=8192&rs=8192&setec=6f98cb5b94f36640f9b66d9cf3b5e1e8"
+    }
+  ]
+}

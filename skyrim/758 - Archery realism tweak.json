@@ -1,0 +1,15 @@
+{
+  "modId": 758.0,
+  "modName": "Archery realism tweak",
+  "summary": "A small ini tweak, that adjusts the autoaim and increases the range, at which you can hit targets for damage.",
+  "descriptionHtml": "Is the auto-aim \\\"feature\\\" and the limited range taking away from you enjoying the game? Then simply open and edit the skyrim.ini under documents/my games/skyrim with notepad \r\nand adjust the following settings:\r\n\r\n\r\n[Combat]\r\nf1PArrowTiltUpAngle=0.7\r\nf3PArrowTiltUpAngle=0.7\r\n\r\nThis setting will force the arrow to start from the middle\r\nof the cross hair, then drop down from gravity. \r\n\r\nThe 0 setting starts the arrow below the cross hair.\r\n\r\n\r\n[Actor]\r\nfVisibleNavmeshMoveDist=14000.0000\r\n\r\nThis setting increases the range at which you will be able hit.\r\n\r\n\r\nPS: I have no idea, if this tweak has any other side effects,\r\nbut so far i did not notice anything. \r\n\r\nSo please use it with care.",
+  "categoryId": "77",
+  "version": "1.0",
+  "author": "Nadimos",
+  "createdUnix": "1321777851",
+  "updatedUnix": "1321777851",
+  "containsAdultContent": false,
+  "uploadedBy": "Nadimos",
+  "primaryFile": null,
+  "files": []
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 950.0,
+  "modName": "Voice file extractor",
+  "summary": "This command-line-tool allows you to extract the contents of a voicefile (.fuz) and create completly new ones!",
+  "descriptionHtml": "The Fuz-Extractor is a little tool to extract the audio-part (xWMA) and the lipsynch-part (LIP) of a .FUZ file (in \\\"Skyrim - Voices.bsa\\\").\r\n\r\nIt can be used to extract the audio file:\r\ne.g.:\r\nfuz_extractor -e <fuz-file>\r\nfuz_extractor -e mqsovngardeconv2__000f1c7b_1.fuz\r\n\r\nFuz-Exctractor is also capable of creating a completly new FUZ-File out of a given lip- and xwm-file.\r\nfuz_extractor -c <fuz-file> <xwm-file> <lip-file>\r\n\r\nFuz-Extractor can be used to insert a audio-file (xwm) in the given fuz-file. The orignal audio-part is overwritten.\r\ne.g.:\r\nfuz_extractor -c <fuz-file> <xwm-file>\r\nfuz_extractor -c mqsovngardeconv2__000f1c7b_1.fuz mqsovngardeconv2__000f1c7b_1_new.xwm\r\n\r\nThe other case is also possible: You can insert a new lip-file in the given fuz-file. The orignal lipsync-part is overwritten.\r\ne.g.:\r\nfuz_extractor -c <fuz-file> <lip-file>\r\nfuz_extractor -c mqsovngardeconv2__000f1c7b_1.fuz mqsovngardeconv2__000f1c7b_1_new.lip\r\n\r\nIn this case, both files have to exist.\r\n\r\n\r\nThe extracted audio-file (xwm) is in xWMA-format and you may use the command-line tool \\\"xWMAEncode\\\" to decode it to WAVE. (and then use the file as you please). That tool may be used to covert a WAVE (with some restrictions) to xWMA.\r\n\t- xWMAEncode is part of the DirectX SDK: http://www.microsoft.com/download/en/details.aspx?id=3035\r\n\t- Usage of xWMAEncode http://msdn.microsoft.com/en-us/library/ee415930.aspx\r\n\t- More Info on xWMA: http://msdn.microsoft.com/en-us/library/ee415832.aspx\r\n\r\nThe extracted lip-file has the same format as in oblivion (maybe other bethesda games too). So you could possibly generate a lip file using the construction set of oblivion and pack it and the audio-file (after conversion) to a new fuz-file.\r\n\r\nI tested the insertion with audio-files that were longer and shorter than the original audio-part. Both cases worked for me, the text of the dialog was shown as long as the audio-file played. If you insert a audio-file that doesn\\'t match the original text (and speech tempo) the lip-movments and shown text won\\'t match yput file. You are just replacing what sound is played. \r\n\r\nIf you find a bug please tell me. \r\nagnahim12345 hates-spam @ yahoo.de\r\n\r\n\r\nThanks to TillEulenspiegel for the Hint (http://www.rockpapershotgun.com/forums/showthread.php?1876-Shall-we-talk-about-Skyrim&p=57691&viewfull=1#post57691)\r\n\r\nVersion 1.0\r\nCreated by Agnahim (2011)",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "Agnahim",
+  "createdUnix": "1321902339",
+  "updatedUnix": "1322163647",
+  "containsAdultContent": false,
+  "uploadedBy": "Agnahim",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "2433",
+      "name": "fuz_extractor",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "fuz_extractor-950-1-0.zip",
+      "uploadedUnix": "1321902452",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/11c0e7c4474de4bbbe9af4c16f19c174bdc1b633f2b5ff0138a39bd74a0dc724/analysis/1406430364/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/fuz_extractor-950-1-0.zip?fid=2433&ttl=1535754208&ri=8192&rs=8192&setec=9371a1597fd666c5f72a930aefbfcb85"
+    },
+    {
+      "fileId": "3538",
+      "name": "extractall_fuz",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "extractall_fuz-950-1-0.zip",
+      "uploadedUnix": "1322163647",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/05094938a9cc58024bf2aa41c51de6aa5c4f519515f75493ad527b44f83a5be0/analysis/1406442862/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/extractall_fuz-950-1-0.zip?fid=3538&ttl=1535754209&ri=8192&rs=8192&setec=7195648c3598427ed9cd62fe8598d45d"
+    }
+  ]
+}

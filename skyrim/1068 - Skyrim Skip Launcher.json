@@ -1,0 +1,32 @@
+{
+  "modId": 1068.0,
+  "modName": "Skyrim Skip Launcher",
+  "summary": "Simulate a click on the \\\"start game\\\"-Button on the Skyrim Launcher",
+  "descriptionHtml": "This program starts Skyrim, wait for the Launcher and then simulate a mouseclick on the \\\"Start\\\"-Button.\r\n\r\nYou can change some parameters (parameters are optional, the default-values should fit in the most cases).\r\n\r\nSkyrimSkipLauncher.exe <programtostart> <WindowClass> <WindowTitle> <Childnumber>\r\n\r\n<programtostart>\r\nDefault: \\\"steam://rungameid/72850\\\"\r\nThis starts Steam-ID 72850 = Skyrim. You can also enter the path to a exe. When you enter \\\"nostart\\\" no program will started.\r\n\r\n<WindowClass>\r\nDefault: \\\"#32770\\\"\r\nSkyrim-Launcher Window-Class Name. Needed for finding the Launcher-Window.\r\n\r\n<WindowTitle>\r\nDefault: \\\"Skyrim\\\"\r\nSkyrim-Launcher Window-Title. Needed for finding the Launcher-Window.\r\n\r\n<Childnumber>\r\nDefault: \\\"5\\\"\r\nThe 5th button is the Start-Button (Option would be 4)",
+  "categoryId": "39",
+  "version": "1",
+  "author": "GPI",
+  "createdUnix": "1321979516",
+  "updatedUnix": "1321991651",
+  "containsAdultContent": false,
+  "uploadedBy": "GPI",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "2860",
+      "name": "Skip Launcher 1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Skip Launcher 1_1-1068.7z",
+      "uploadedUnix": "1321991651",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/62531b0eb5e791e4e0a2402931bbf595a72e0f4062ca22de6e8e6e50a448f09f/analysis/1406435284/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skip%20Launcher%201_1-1068.7z?fid=2860&ttl=1535754420&ri=8192&rs=8192&setec=a29bf4a26a500b851474ba148fe134b5"
+    }
+  ]
+}

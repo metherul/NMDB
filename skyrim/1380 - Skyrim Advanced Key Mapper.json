@@ -1,0 +1,32 @@
+{
+  "modId": 1380.0,
+  "modName": "Skyrim Advanced Key Mapper",
+  "summary": "An easy wizard to configure hard-coded keys for game Skyrim version 1.2.",
+  "descriptionHtml": " An easy wizard to configure hard-coded keys for game Skyrim.\r\n\r\n If a custom keys configuration is already present on pc\r\n it will be lost and replaced with a new one.\r\n\r\n A configuration created with this tool will be mantained.\r\n\r\n You can set the following keys :\r\n - Items\r\n\tZoom Item\r\n - Map\r\n\tLocal Map\r\n\tPlayer Position\r\n - Various\r\n\tHot Keys 1-8\r\n\tTake Screenshot\r\n\tOpen Console\r\n\r\n All the remaining keys (except those configured in game) will be setted to default values.\r\n\r\n When you finish this wizard two files will be created :\r\n - controlmap.txt\r\n \tLocated in ...\\\\Steam\\\\SteamApps\\\\common\\\\skyrim\\\\Data\\\\Interface\\\\controls\\\\pc\r\n\tis the Skyrim file for keys configuration\r\n\r\n \tIf Steam installation path is not found configuration file\r\n     \twill be created where SkyrimAdvancedKeyMapper.exe has been executed\r\n\r\n - LastConfiguration.cfg\r\n\tLocated where SkyrimAdvancedKeyMapper.exe has been executed\r\n\tis a data file this utility use to reload configured keys\r\n\r\n To remove key configuration delete \\\\controls\\\\pc path or controlmap.txt file\r\n\r\n Utility created by Mursey - Nov-Dec 2011",
+  "categoryId": "39",
+  "version": "1.4",
+  "author": "Mursey",
+  "createdUnix": "1322173101",
+  "updatedUnix": "1323206729",
+  "containsAdultContent": false,
+  "uploadedBy": "Mursey",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "7708",
+      "name": "SkyrimAdvancedKeyMapper",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "376",
+      "fileName": "SkyrimAdvancedKeyMapper-1380-1-4.zip",
+      "uploadedUnix": "1323206729",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/4b1b47482a7cd552511d6915f2d921ca5e4f0b80e2412c3b3184deaae71abccb/analysis/1406487512/",
+      "changelogHtml": " \\'Zoom Item\\' key added <br/> \n \\'Player Position\\' key added <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimAdvancedKeyMapper-1380-1-4.zip?fid=7708&ttl=1535754930&ri=8192&rs=8192&setec=5209bf4c103254b638f980a2b57f38cf"
+    }
+  ]
+}

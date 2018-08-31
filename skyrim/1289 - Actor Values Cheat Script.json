@@ -1,0 +1,32 @@
+{
+  "modId": 1289.0,
+  "modName": "Actor Values Cheat Script",
+  "summary": "Makes for a godlike character, saves the time needed to type in console commands.",
+  "descriptionHtml": "Contained is a regular .txt file with console commands, which should be placed in the Skyrim root directory (the place where TESV.exe resides). These files can be run using the Skyrim in-game console by typing:\r\n\r\nbat ScriptName\r\n\r\nThe console is usually opened by the ~ (tilde) key. Since the name of this text file is CS.txt, the command to execute the described console commands becomes \\\"bat CS\\\".\r\n\r\nContents of CS.txt:\r\nplayer.setav HealRate 1000\r\nplayer.setav MagickaRate 1000\r\nplayer.setav StaminaRate 1000\r\nplayer.setav SpeedMult 300\r\nplayer.setav CarryWeight 100000\r\nplayer.setav CritChance 100\r\nplayer.setav MeleeDamage 1000\r\nplayer.setav UnarmedDamage 1000\r\nplayer.setav DetectLifeRange 1000\r\nplayer.setav BowSpeedBonus 0\r\nplayer.setav WeaponSpeedMult 5\r\nplayer.setav LeftWeaponSpeedMult 5\r\nplayer.setav ShoutRecoveryMult 0\r\nplayer.setav MovementNoiseMult 0\r\nplayer.setav CombatHealthRegenMult 1\r\nplayer.setav Invisibility  1\r\ntim\r\n\r\nEffects of the commands, in order:\r\n- Player\\'s healing rate increased to 1000.\r\n- Player\\'s magicka regeneration rate increased to 1000.\r\n- Player\\'s stamina regeneration rate increased to 1000.\r\n- Player\\'s movement speed increased three-fold. (300%)\r\n- Player\\'s maximum carry weight increased to 100000.\r\n- Player\\'s critical hit chance set to 100%.\r\n- Player\\'s bonus melee damage set to 1000.\r\n- Player\\'s bonus unarmed damage set to 1000.\r\n- Player\\'s detect life spell range set to 1000.\r\n- Using the right mouse button to aim freezes time.\r\n- Player\\'s weapon speed multiplier set to 5.\r\n- Player\\'s left hand weapon speed multiplier set to 5.\r\n- Player\\'s shouts recharge instantly.\r\n- Player\\'s movement makes no noise.\r\n- Player\\'s heath regeneration does not change in combat.\r\n- Player is rendered undetectable to NPC AI.\r\n- Player is rendered immortal. (can not die from HP loss)\r\n\r\nMore about the console here:\r\nhttp://uesp.net/wiki/Skyrim:Console\r\n\r\nMore about actor values here:\r\nhttp://uesp.net/wiki/Tes5Mod:Actor_Value_Indices\r\n",
+  "categoryId": "40",
+  "version": "1.0",
+  "author": "Lauri Elias",
+  "createdUnix": "1322110475",
+  "updatedUnix": "1322110566",
+  "containsAdultContent": false,
+  "uploadedBy": "Lauriy",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "3369",
+      "name": "CheatScript",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "CheatScript-1289-1-0.zip",
+      "uploadedUnix": "1322110566",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/29978d7c901b61d46c29176481d2aeab90e7b9912305e9bd7267d82389bac685/analysis/1406441042/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CheatScript-1289-1-0.zip?fid=3369&ttl=1535754780&ri=8192&rs=8192&setec=3dd431e9d069ac8adef6d34159c90329"
+    }
+  ]
+}

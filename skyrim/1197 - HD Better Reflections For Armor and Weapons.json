@@ -1,0 +1,48 @@
+{
+  "modId": 1197.0,
+  "modName": "HD Better Reflections For Armor and Weapons",
+  "summary": "HD Better Reflections on Reflective Metal Armor & Weapons (Ebony / Elven / Dwarven / Glass )",
+  "descriptionHtml": "First and Foremost : Screenshots do no justice, please judge it for yourself in game. \r\n\r\n==========\r\nDescription\r\n==========\r\n\r\nThis pack replaces the current in games reflection with my own made HD reflections. If you\\'re like me and you like to dress up your companions in Ebony Armour or similar, this makes it look that much more better. \r\n\r\n\r\n\r\n\r\n=============================\r\nInfo : Environmental Cube Maps\r\n=============================\r\n\r\nSkyrim\\'s engine uses environmental cubemaps for reflections and spec on most shiny objects, but the maps are low rez and don\\'t really contain a proper image.\r\nThis serves an OK purpose in the sense that the reflection will always remain neutral whether indoors or out, but I prefer to see something in my reflections instead of an ambiguous shape. Another benefit is they don\\'t have to create spec maps for every item, they can just link it to the cube map. \r\n\r\n======================\r\nInstallation Instructions\r\n======================\r\nUnpack the .dds files into skyrim/Data/texture/cubemaps/\r\n\r\nTo remove, simply delete the files. \r\n\r\n\r\n====\r\nPros \r\n====\r\n- Boosts metal armours that currently have reflections (Ebony / Dwarven / Elven / Glass)  Metal Armor looks nicer, has an actual reflection. \r\n- HD : The current in game cubemaps are 32x32pixels which is quite horrible for PC unless you\\'re playing at a low resolution, the ones I uploaded are 256x256pixels which is more than enough for this game. \r\n====\r\nCons \r\n====\r\n- Always reflects the same image so it will still show a sky and buildings even if you\\'re indoors, but it\\'s only noticable if you\\'re zoomed right in and staring at the armor. (no way to fix this unless someone can program texture swapping depending on location). \r\n\r\n\r\n\r\n===============\r\nAdditional Notes\r\n===============\r\n- Some people are noticing that ebony is too purple. I released a fix for this, but someone else also mentioned that the mod \\\"Armor Improvement\\\" has a more purple retexture so that could also be why.\r\n\r\n-Some people mentioned their weapons have a weird purple glow. This is because you have glowing ore veins installed. \r\n\r\n- Some doors and potions and other misc objects in the game world also use cube maps so it will affect them too. This is a \\\"happy accident\\\" :) \r\n\r\n- Glass armor\\'s normal maps are horrible, especially the shield. The normal maps affect the detail on the models/textures so the Glass Armour might look worse afterwards depending on your taste. If you don\\'t like how it looks , remove \\\"shinybright_e.dds\\\"\r\n\r\n- Steel / Iron armour etc don\\'t reflect. There are only a few armours that have proper reflection in them, the rest just use specular maps to add a shine to them. \r\n\r\n-If you\\'re a programmer and you know how to tell the game to change which cubemap to look at depending on location , feel free to write up a mod and I will help by creating indoor cubemaps. ",
+  "categoryId": "29",
+  "version": "1.0",
+  "author": "wafiks",
+  "createdUnix": "1322067519",
+  "updatedUnix": "1323387152",
+  "containsAdultContent": false,
+  "uploadedBy": "wafiks",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "3153",
+      "name": "HD_ReflectionsForArmor",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "776",
+      "fileName": "HD_ReflectionsForArmor-1197-1-0.rar",
+      "uploadedUnix": "1322067701",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2f2cbcbb759508288fdef3a621c51e1c00a9dbb08017a77029a04f0b40b178b6/analysis/1406438405/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HD_ReflectionsForArmor-1197-1-0.rar?fid=3153&ttl=1535754631&ri=8192&rs=8192&setec=fdaefea391e2e565c4bd76225343c230"
+    },
+    {
+      "fileId": "8373",
+      "name": "FIX for Ebony purple tint",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "220",
+      "fileName": "FIX for Ebony purple tint-1197-1-0.rar",
+      "uploadedUnix": "1323387152",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9205a82d8df186eb493f04ef1519163ce38eec7d17329b3553a9654d6f273394/analysis/1406495403/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FIX%20for%20Ebony%20purple%20tint-1197-1-0.rar?fid=8373&ttl=1535754632&ri=8192&rs=8192&setec=754e37a8d9588827cfebab5abea9e903"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 861.0,
+  "modName": "TRS Companions Mod",
+  "summary": "Brings back to life any NPC/s you spawn through console and/or any other NPC already dead around your vicinity to fight for you.",
+  "descriptionHtml": "[center][b][color=ffe691][size=15]TRS Companions Mod[/size][/color][/b]\r\n\r\n[b][color=bb0832][size=15][url=http://www.youtube.com/watch?v=iU_PqF6Enps]Click Here For Video Demonstration or Watch Below![/url][/size][/color][/b]\r\n\r\n[youtube]iU_PqF6Enps[/youtube]\r\n\r\n[b][color=5781bb]_info[/color][/b]:\r\nBrings back to life any NPC/s you spawn through console (after you use \\'kill\\' on them) and/or any other NPC already dead around your vicinity to fight for you.\r\n\r\n[img]http://uploadingit.com/file/qplzixoiksbeqdcn/trsfm.png[/img]\r\n\r\n[b][color=5781bb]_how to use[/color][/b]:\r\nUnfortunately, without the Creation Kit this mod is limited and this mod is the closest I\\'ve come to have more than 1 follower and 1 pet.[/center]\r\n\r\n[b][color=red]IMPORTANT STEP BEFORE ANY: The Ritual Stone needs to be activated East of Whiterun in order for \\'The Ritual Stone\\' power to work. I just figured that out. I will try to find a fix to modify that but till then that\\'s how it works. The creation kit would help even more but it\\'s not out yet![/color][/b]\r\n\r\n[b][color=7781bb]Step I Spawning The Team[/color][/b]: Open your console and start spawning NPCs that you want to have as companions. (player.placeatme NPC ID \\\"x\\\") (NPC ID: Their form ID, x: how many) (Since there are WAY too many NPCs for me to list on here I suggest typing this in console: help \\\"name of NPC (Example: Werewolf, Giant, Hagraven, Lydia, etc..)\\\" 0, That will show their NPC form ID and then you can use that ID to spawn them. Some NPCs are essential so this won\\'t work on them.\r\n\r\n[b][color=7781bb]Step II Getting Them Ready[/color][/b]: Kill them! (Console command: kill) or (Console command: killall) (I suggest individual kills.)\r\n\r\n[b][color=7781bb]Step III Select TRS[/color][/b]: Go to your powers and select \\'The Ritual Stone\\'[s], if you don\\'t have it add it to your spells through console. (Console command: player.addspell E7329)[/s]\r\n\r\n[center][b][color=red]READ IMPORTANT STEP BEFORE READING ON![/color][/b][/center]\r\n\r\n[b][color=7781bb]Step IV Bring Them To Life![/color][/b]: Use \\'The Ritual Stone\\' after you\\'ve spawned and killed the NPCs you want to have as companions. They will follow you around like the other companions and they will attack anything that wants to kill you. I recommend giving them high Health with (Console command: setav health 10000) Make sure you highlight the NPC while doing this.\r\n\r\n[b][color=7781bb]Step V Enjoy[/color][/b]: Have fun! and be creative who you spawn for your team.\r\n\r\n[center]-- [b][color=ffe691]Optional steps[/color][/b] --[/center]\r\n\r\n[b][color=7781bb]Step V Giving Them Commands[/color][/b]: Maybe you want to make your dead companions do something? Attack? Steal? Sit?? (Console command: Setplayerteammate 1) Open your console and type that command and after it will allow you to give them specific commands like when you tell your regular companions that you want them to do something for you.\r\n\r\n[b][color=7781bb]Step VI Making Them Sexy[/color][/b]: Their equipment sucks sometimes and you want to make them all sexy right? (Console command: openactorcontainer 1) Use that console command to open their inventory. After, you may drop some weapons and armor into their inventory to spice them up. Some NPCs just like Lydia for example won\\'t equip some things, you just have to experiment.\r\n\r\n[b][color=7781bb]Step VII Okay GTFO!![/color][/b]: Okay so you\\'ve become tired of one of your NPCs and you want to kill them but you don\\'t want their body laying about and having multiple/double NPCs (example: having 2 Lydias?). Use (Console command: Markfordelete) this will delete anything in the game. Make sure if you use this to select the NPC you spawned through console and not anything else, since you might really mess up your game by doing so.\r\n\r\n[center][b][color=5781bb]_bugs[/color][/b]:\r\nThere are some bugs for this unfortunately but nothing serious.[/center]\r\n\r\n[b][color=7781bb]Bug I[/color][/b]: Having more than 4 NPCs or so sometimes makes it difficult to travel with Fast Travel or entering certain places.\r\n\r\n[b][color=7781bb]Bug II[/color][/b]: The description on \\'The Ritual Stone\\' is borked. (Not sure how to fix that, not a big deal to me really.)\r\n\r\n[b][color=7781bb]Bug III[/color][/b]: Not really a bug but sometimes some of your companions will become hostile against each other if they accidently hit each other during combat. It\\'s hilarious but yeah.......LOL!\r\n\r\n[b][color=7781bb]Bug IV[/color][/b]: Spawning children is useless! lol! Experiment for yourself.\r\n\r\n[center][b][color=5781bb]_install[/color][/b]:\r\nDrop the .esp into your main Skyrim directory.\r\n\r\n[b][color=5781bb]_uninstall[/color][/b]:\r\nDelete the file from directory.\r\n\r\n[b][color=5781bb]_version history[/color][/b]:\r\nVersion 1.0 - 11/20/2011 - Main version release\r\nModifies the power \\'The Ritual Stone\\' to have a larger area of effect and a max duration.\r\n\r\nVersion 1.1 - 11/20/2011 - Updated version release\r\nCompanions will now stay next to the main player at a much closer proximity.\r\n\r\n[b][color=5781bb]_done[/color][/b].\r\n\r\nCheck out the \\'[b][color=ffe691][url=http://www.skyrimnexus.com/downloads/file.php?id=426]Grand Healing[/url][/color][/b]\\' mod!\r\n\r\nCheck out the \\'[b][color=ffe691][url=http://www.skyrimnexus.com/downloads/file.php?id=509]Heal Other[/url][/color][/b]\\' mod![/center]",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "focker7",
+  "createdUnix": "1321837525",
+  "updatedUnix": "1321860736",
+  "containsAdultContent": false,
+  "uploadedBy": "focker7",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "2193",
+      "name": "TRS Companions Mod",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "TRS Companions Mod-861-1-0.zip",
+      "uploadedUnix": "1321837590",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c58289e5532d92f3f6cdd98639f574f4cf2e8da7b3796ed8dfccf46349246d22/analysis/1406427483/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TRS%20Companions%20Mod-861-1-0.zip?fid=2193&ttl=1535754078&ri=8192&rs=8192&setec=f7ab78d65b609c32c8f03ba11e89f811"
+    },
+    {
+      "fileId": "2285",
+      "name": "TRS Companions Mod Update 1",
+      "version": "1.1",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "TRS Companions Mod Update 1-861-1-1.zip",
+      "uploadedUnix": "1321860736",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d1237046b292e3b7106a4cd3adc77c7dbdd04871e0735b07eae6fb062c29ef22/analysis/1406428502/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TRS%20Companions%20Mod%20Update%201-861-1-1.zip?fid=2285&ttl=1535754078&ri=8192&rs=8192&setec=c4daa94bebe7caf951f8b96e7faf9dc6"
+    }
+  ]
+}

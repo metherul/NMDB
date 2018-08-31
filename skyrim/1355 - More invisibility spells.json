@@ -1,0 +1,48 @@
+{
+  "modId": 1355.0,
+  "modName": "More invisibility spells",
+  "summary": "Adds two lower level/duration invisibility spells to the illusion line, for thief/mage characters.",
+  "descriptionHtml": "This mod alters invisibility spells in the game, adding two new and a revised existent one (for one version).\r\n\r\n----------------------------------------------------------------\r\nNormal version\r\n----------------------------------------------------------------\r\n\r\nApprentice level: Brief Invisibility, 10 seconds duration.\r\nAdept Level: Extended Invisibility, 20 seconds duration.\r\nExpert Level: Prolonged Invisibility, 30 seconds duration (normal).\r\n\r\n----------------------------------------------------------------\r\nPlus version\r\n----------------------------------------------------------------\r\n\r\nApprentice level: Brief Invisibility, 15 seconds duration.\r\nAdept Level: Extended Invisibility, 30 seconds duration.\r\nExpert Level: Prolonged Invisibility, 60 seconds duration.\r\n\r\n\r\nBoth versions are interchangeable, you can use one first then switch it to the other, but use only one at a time.\r\n\r\nThe tomes of the spells can be bought by vendors (as Drevis). \r\n\r\n----------------------------------------------------------------\r\nKnow Bugs\r\n----------------------------------------------------------------\r\n\r\nThe display will indicate the spells as Expert level, but it is only a display bug, they will behave and cost in a way appropriate to their levels, appropriate illusion perks will halven their costs and vendors will sell the tomes at the right moment. The bug is an hassle to remove for the way Bethesda managed strings. It would require modding of certain files I don\\'t want to mod.\r\n\r\n\r\n----------------------------------------------------------------\r\nVersions log\r\n----------------------------------------------------------------\r\n\r\n- 1.04: corrected bug where apprentice and adept illusion perks didn\\'t decrease costs of spells accordingly\r\n- 1.03: made spells castable also with only one hand and made secondary version with more lasting duration.\r\n- 1.02: upped a bit duration on apprentice level, 5 seconds was too low to do anything, at that point better nothing.\r\n- 1.01: corrected bug that made tomes not cost appropriately to their levels.\r\n- 1.00: first version of the mod.\r\n\r\n----------------------------------------------------------------\r\nHow to install\r\n----------------------------------------------------------------\r\n\r\nExtract the archive somewhere\r\nGo to: Drive Letter:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data\\\\\r\nFor those who don\\'t have \\\"bought\\\" the game on steam put the files in the Data dir where you installed the game\r\n\r\n1. Drop the Invisibility_Spells.ESP in the above folder\r\n2. Launch the Skyrim Launcher, and click on \\'Data Files\\'\r\n3. Tick the aforementioned ESP and click \\'Ok\\'\r\n\r\n\r\n----------------------------------------------------------------\r\nData Files grayed out?\r\n----------------------------------------------------------------\r\nGo to: Drive Letter:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Skyrim\\\\SkyrimPrefs.ini\r\n\r\nFor those who don\\'t have \\\"bought\\\" the game on steam, the SkyrimPrefs.ini file is located in Drive Letter:\\\\Users\\\\<USERNAME>\\\\Documents\\\\My Games\\\\Skyrim\r\n\r\nAdd these lines, or change them if they already exist so they match the below:\r\n [Launcher]\r\n bEnableFileSelection=1\r\n\r\nIf that fails:\r\n Go to: Drive Letter:\\\\Users\\\\[USERNAME]\\\\AppData\\\\Local\\\\Skyrim\r\n Make the Skyrim folder un-read only.",
+  "categoryId": "93",
+  "version": "1.04",
+  "author": "Lautreamont",
+  "createdUnix": "1322164510",
+  "updatedUnix": "1322480379",
+  "containsAdultContent": false,
+  "uploadedBy": "Lautreamont",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "4835",
+      "name": "Invisibility Spells",
+      "version": "1.04",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Invisibility Spells-1355.7z",
+      "uploadedUnix": "1322480337",
+      "modVersion": "1.04",
+      "virusScanUrl": "https://www.virustotal.com/file/2443fe2e728704a6f80e8359274d4fe1aed4887fc2640844382d811c2d16deda/analysis/1406458683/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Invisibility%20Spells-1355.7z?fid=4835&ttl=1535754878&ri=8192&rs=8192&setec=9d9167a383096940099d0b5e61f66bd4"
+    },
+    {
+      "fileId": "4836",
+      "name": "Invisibility Spells Plus",
+      "version": "1.04",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Invisibility Spells Plus-1355.7z",
+      "uploadedUnix": "1322480379",
+      "modVersion": "1.04",
+      "virusScanUrl": "https://www.virustotal.com/file/509626b8e0ca08447c1e69b5cf62ba8ad26c65de49ef08be12b88a09194896c7/analysis/1406458683/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Invisibility%20Spells%20Plus-1355.7z?fid=4836&ttl=1535754878&ri=8192&rs=8192&setec=f68111d0f031261bdadc633d2dac19de"
+    }
+  ]
+}

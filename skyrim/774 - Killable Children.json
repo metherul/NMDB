@@ -1,0 +1,48 @@
+{
+  "modId": 774.0,
+  "modName": "Killable Children",
+  "summary": "Allows the children of Skyrim to die. Affects the Breton, Imperial, Nord and Redguard children.",
+  "descriptionHtml": "---------------------------------\r\nDescription\r\n---------------------------------\r\nAllows the children of Skyrim to die. Affects the Breton, Imperial, Nord and Redguard children.\r\n\r\nAlso lets you play as them if you create a new character as a child with the mod enabled, a funny, unintentional bug. :P\r\n\r\n---------------------------------\r\nInstall\r\n---------------------------------\r\nGo to: Drive Letter:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data\\\\\r\n\r\n1. Drop the \\'killable_children.esp\\' in that folder\r\n2. Launch the Skyrim Launcher, and click on \\'Data Files\\'\r\n3. Tick \\'killable_children.esp\\' and click \\'Ok\\'\r\n\r\n---------------------------------\r\nData Files grayed out?\r\n---------------------------------\r\nGo to: Drive Letter:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Skyrim\\\\SkyrimPrefs.ini\r\n\r\nAdd these lines, or change them if they already exist so they match the below:\r\n\t[Launcher]\r\n\tbEnableFileSelection=1\r\n\r\nIf that fails:\r\n\tGo to: Drive Letter:\\\\Users\\\\<USERNAME>\\\\AppData\\\\Local\\\\Skyrim\r\n\tMake the Skyrim folder un-read only.\r\n",
+  "categoryId": "33",
+  "version": "1.01",
+  "author": "Xylozi",
+  "createdUnix": "1321786809",
+  "updatedUnix": "1328809701",
+  "containsAdultContent": true,
+  "uploadedBy": "Xylozi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "2053",
+      "name": "Killable Children - Quest Protected",
+      "version": "1.00",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Killable Children - Quest Protected-774.zip",
+      "uploadedUnix": "1321815757",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/7da89dd8352dc759aa78dfa36b1722c0661a26669863a083ce4fcc71fe47b92a/analysis/1406426043/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Killable%20Children%20-%20Quest%20Protected-774.zip?fid=2053&ttl=1535753911&ri=8192&rs=8192&setec=c1c879f3b8f7a2149ceea0c9a22b47ce"
+    },
+    {
+      "fileId": "27840",
+      "name": "Killable Children - BOSS Compatible",
+      "version": "2.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "26",
+      "fileName": "Killable Children - BOSS Compatible-774-2-2.zip",
+      "uploadedUnix": "1328809701",
+      "modVersion": "2.2",
+      "virusScanUrl": "https://www.virustotal.com/file/723b9256fbea782cb37a3e8f613557cffd7861965adf123a901a7a4071c39af7/analysis/1406664497/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Killable%20Children%20-%20BOSS%20Compatible-774-2-2.zip?fid=27840&ttl=1535753912&ri=8192&rs=8192&setec=c383ca10e5b8461471d5adf58f2a3c57"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 960.0,
+  "modName": "Skyrim Save Helper",
+  "summary": "Skyrim Save Helper main features:\r\n\r\n  Character manager\r\n  Auto-save\r\n  Archives\r\n  Backup",
+  "descriptionHtml": "Skyrim Save Helper 1.1.1\r\n------------------------\r\n\r\nFeatures\r\n---------\r\n\r\nCharacter manager\r\n\r\n\tChoose a character and start the game, only selected\r\n\tcharacter saves will be listed in game save/load menu.\r\n\r\n\tAll other characters saves will be moved to a subdirectory\r\n\t\\\"characters\\\" in your main save directory\r\n\r\nAuto-save\r\n\t\r\n\tCreate save from quick saves\r\n\r\n\t\tEach new quicksave will be copied as a normal\r\n\t\tsave in your save directory\r\n\r\n\t\tYou no longer need to use the save menu\r\n\r\n\tRename auto saves\r\n\r\n\t\tRename autosaves in normal save format.\r\n\t\tSo they won\\'t be deleted.\r\n\r\nArchives\r\n\t\r\n\tDelete old saves (move to trash)\r\n\r\n\tCompress old saves (gzip)\r\n\r\n\tMove old saves to specified directory\r\n\r\nBackup\r\n\r\n\tWhen a new save file is detected\r\n\t\r\n\t\tCopy it to specified directory\r\n\r\n\t\tSend to FTP\r\n\r\n\r\nChangelog\r\n---------\r\n\r\n1.1.1\r\n\r\n\tAs suggested by\tallas, I added race and level in character manager\r\n\tMore files check to prevent error with slow process such ftp backup\r\n\r\n\r\n1.1.0\r\n\r\n\tFTP backup feature is now available\r\n\tGame running detection fix, now checking for TESV.exe and TESV.exe.4gb. If there is other mods that change the main exe, just let me know, I\\'ll add these in this helper.\r\n\tModified UI, log window is now a part of the main window\r\n\tNew feature: play a sound if an error occurs\r\n\tminor bug fixes\r\n\r\n1.0.6\r\n\t\r\n\tFix characters/<name> directories with special chars in name\r\n\r\n1.0.5\r\n\t\r\n\tSmall bug fix\r\n\r\n1.0.4\r\n\t\r\n\tGame running detection fix\r\n\r\n1.0.3\r\n\t\r\n\tCharacters manager bug fix\r\n\r\n1.0.1\r\n\t\r\n\tBug fix with Auto-saves\r\n\r\n1.0\r\n\t\r\n\tFirst release\r\n\r\n\r\nContact\r\n-------\r\n\r\nSkyrim Save Helper, by Woutre (sebeuu@gmail.com)\r\n\r\nFeel free to report any bug, idea, ...\r\n",
+  "categoryId": "39",
+  "version": "1.1.1",
+  "author": "Woutre",
+  "createdUnix": "1321909164",
+  "updatedUnix": "1323038664",
+  "containsAdultContent": false,
+  "uploadedBy": "Woutre",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "7032",
+      "name": "SkyrimSaveHelper",
+      "version": "1.1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "21",
+      "fileName": "SkyrimSaveHelper-960-1-1-1.zip",
+      "uploadedUnix": "1323038664",
+      "modVersion": "1.1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/47f13e2d58556a2dc92876c3dd722bc37ef469989b2b08a4f54669fb1e7e758d/analysis/1406479024/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimSaveHelper-960-1-1-1.zip?fid=7032&ttl=1535754224&ri=8192&rs=8192&setec=d2d97eda2f8378c993513bb425f4a842"
+    }
+  ]
+}

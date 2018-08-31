@@ -1,0 +1,32 @@
+{
+  "modId": 1441.0,
+  "modName": "Mage Tweaks Per Level",
+  "summary": "This is simply my attempt to create a better high end Mage build without it becoming God-like.",
+  "descriptionHtml": "Mage Tweaks Per Level (MTPL)\r\n=========================================================================================\r\n\r\nAfter seeing a few of complaints regarding how weak Mages were at the high end of the game, I started looking into how to make one more powerful without overdoing it.  Not an easy task without the CK but I thought I would give it a try and see. After doing some testing I discovered the variable that increases the power of spells, <school>PowerMod, (which potions modify, btw) also affect items in your inventory.  IMHO, Enchantments should not get any stronger from the time they were created, so that wouldn\\'t do.  I decided instead to change other variables.\r\n\r\n=========================================================================================\r\n******************************************************* NOTICE **********************************************************\r\n=========================================================================================\r\n\r\n************************** THIS IS A MANUAL TWEAKING OF THE GAME VARIABLES *******************************\r\n\r\nIf you DO NOT feel comfortable making changes to game variables with the in-game console, this mod is not for you.\r\n\r\nHowever, they ARE PERFECTLY REVERSIBLE.\r\n\r\nDisclaimer: I take absolutely no responsibility for \\\"Game Breaking\\\" of ANY KIND that might occur by using my tweaks. You use them at YOUR OWN RISK.  However, I have thoroughly tested them and have found no problems, but anything can happen.\r\n\r\n=========================================================================================\r\nWhat it does\r\n=========================================================================================\r\n\r\nAt each level, the Magicka cost for one school of magic (User choice) will decrease by 1%, all other schools decreases by 0.25%, your Base (unbuffed) Magicka Regeneration Rate increases 0.25% and you gain a natural (unbuffed) Magic Resistance of 1%.\r\n\r\nYou choose which school gets increased each level, so you can specialize in one school or spread it around if you like.\r\n\r\nThese tweaks DO NOT nullify any other buff, natural or otherwise, they stack.  So your perks, apparel, potions, etc., simply add to this.\r\n\r\nThe effect is, your spells don\\'t get stronger but you get tougher against magic, your magicka regenerates faster and your magicka cost goes down, it has the potentially to become 0.  That Fireball spell may not do more damage but when you can spam the heck out of it while backpedalling away from that chump with the 2 handed axe, you just may survive. It\\'s a slow, leveling, progression too, not an \\\"all of a sudden\\\" increase.  The really big one though, to me anyway, is that your items aren\\'t affected.\r\n\r\n=========================================================================================\r\nWhat\\'s included\r\n=========================================================================================\r\n\r\n1stReadME.txt\r\n\r\n---The Skyrim Console Batch Files (.txt)---\r\n\r\nListVal.txt\r\nMageAltLvl.txt\r\nMageConjLvl.txt\r\nMageDestLvl.txt\r\nMageIlluLvl.txt\r\nMageRestLvl.txt\r\nRetro.txt\r\nRevert.txt\r\nRevertBreton.txt\r\n\r\n========================================================================================\r\nCOMPLETE and DETAILED instructions for Installation, Retroactive adjustments, Use and Uninstallation are in the 1stReadME.txt file. READ IT!\r\n\r\nI just thought some might benefit from my findings and I decided to share.  All feedback is welcome.  So please comment! Ranting and trolling will simply be ignored or reported (depending on the severity).\r\n\r\nYou are more than welcome to play around with the variables as you see fit. It\\'s your game! Have fun! :D\r\n\r\nThank you for downloading! And Enjoy!\r\n\r\n-WabbitTwaks",
+  "categoryId": "93",
+  "version": "1.0",
+  "author": "WabbitTwaks",
+  "createdUnix": "1322199919",
+  "updatedUnix": "1322200155",
+  "containsAdultContent": false,
+  "uploadedBy": "WabbitTwaks",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "3739",
+      "name": "MageTweaksPerLevel",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "MageTweaksPerLevel-1441-1-0.7z",
+      "uploadedUnix": "1322200155",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/055b1ac6d2ebd5f351d53f6e5881ed7b14df4a66b69692ff3362a2cb38cded2b/analysis/1406445127/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MageTweaksPerLevel-1441-1-0.7z?fid=3739&ttl=1535755039&ri=8192&rs=8192&setec=037f56793c9b2d6455c3b86b9d855ff8"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 1094.0,
+  "modName": "Level Curve Rebalance - Higher Level Cap",
+  "summary": "makes leveling slower from 1-10 and slightly faster thereafter. Old 50 is roughly equiv to modded 60. Difference should be most apparent in endgame, should make playing high level characters more fun.",
+  "descriptionHtml": "makes leveling slower from 1-10 and slightly faster thereafter. Old 50 is roughly equiv to modded 60. Difference should be most apparent in endgame, should make playing high level characters more fun.\r\n\r\nThis mod affects the rate at which your character gains perks and health through leveling. It does not affect skill leveling in any way. It is compatable with mods that affect skill gain (like http://www.skyrimnexus.com/downloads/file.php?id=49). \r\n\r\nFor slower level gain, try this mod: http://www.skyrimnexus.com/downloads/file.php?id=175\r\n\r\nAs said by HiFiSi in the comments:\r\n\r\n\\\"The end result of this is that you get you access to 20 or 21 more usable perk points by the time you hit the level cap, and that\\'s pretty much it. The increase in your level from 81 to ~100 will not make much difference in your game play or make the monsters any harder. Your enchantments and smithing may be slightly more powerful because of the extra 20 levels, but that\\'s it. Given the exp cap imposed with the mod is nearly the same as default, hitting max level will take pretty much the same amount of time as normally.\\\"\r\n\r\nThe game\\'s level scaling caps at 50 as far as I can tell from twiddling with things in tesnip. This means very little, as player combat effectiveness doesn\\'t really scale that high as you increase in level at that point except via health / stamina increases. It does mean that the big bonus you get in endgame leveling speed won\\'t make the game impossible on higher difficulties. It shouldn\\'t make content much easier than playing a character at the corresponding vanilla level on a similar difficulty unless you were previously really, really, really bad at selecting useful perks.\r\n\r\n*** PLEASE READ THIS TO THE END IF INSTALLING ON AN EXISTING CHARACTER *****\r\n\r\nSome rough equivs:\r\n\r\nit previously took 100 xp to get to level 1. With this mod it takes 150 (more)\r\nit previously took 2475 xp to get to level 11. With this mod it takes 2475 (the same)\r\nit previously took 35635 xp to get to level 50. With this mod it takes 25875. With 35635 xp + this mod, you should be level 60.\r\n\r\nold mathematical level cap was about 81 (all skills maxed). Modded, it should be about 100 (all skills maxed)\r\n\r\nIF YOU INSTALL THIS MOD ON AN EXISTING CHARACTER, IT MAY SCREW UP THINGS AND MAKE YOU UNABLE TO LEVEL. USING THE CONSOLE SETLEVEL COMMAND (player.setlevel x) TO CHANGE YOUR LEVEL UP AND THEN DOWN ONE MAY HELP THINGS. BEAR IN MIND THIS DOES NOT CHANGE YOUR PERKS / ATTRIBUTES. The mod does not retroactively give you perks / attributes or level you up or anything either.\r\n\r\nI would honestly recommend just writing down all your skill values, removing all your perks (someone posted a bat file that makes this easy), setting your level to 1, resetting your health / magicka / stamina (showracemenu should do this if you hit okay and change something significant, otherwise player.setav), and then advskilling your skills until they were where they were. It\\'s possible to give yourself perks and attributes and such without doing this, but I think this is the most effective method of not screwing things up.\r\n\r\ninb4 i broke something / was wrong\r\n\r\nCheck out my other mods from my profile here:\r\nhttp://www.skyrimnexus.com/modules/members/index.php?id=3056619",
+  "categoryId": "73",
+  "version": "0",
+  "author": "tmonet",
+  "createdUnix": "1321992562",
+  "updatedUnix": "1322009503",
+  "containsAdultContent": false,
+  "uploadedBy": "mongolrainbows2",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "2956",
+      "name": "core mod with updated readme",
+      "version": "0.",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "core mod with updated readme-1094-0-.7z",
+      "uploadedUnix": "1322009503",
+      "modVersion": "0.",
+      "virusScanUrl": "https://www.virustotal.com/file/c4aec6a319f24f8f57ed802bceae386aeb31905d1b1edd428a5b6a171270f320/analysis/1406436302/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/core%20mod%20with%20updated%20readme-1094-0-.7z?fid=2956&ttl=1535754464&ri=8192&rs=8192&setec=de0891efa13f307514f160da35049c78"
+    }
+  ]
+}

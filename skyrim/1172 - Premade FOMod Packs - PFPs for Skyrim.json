@@ -1,0 +1,48 @@
+{
+  "modId": 1172.0,
+  "modName": "Premade FOMod Packs - PFPs for Skyrim",
+  "summary": "Evidently you can jerry rig the Fallout Mod Manager (FOMM) to work with Skyrim (Thanks Samutz!)\r\nThese are PFPs for a few mods I’m using that have various install options which the NMM can’t handle as of yet. \r\n\r\nNote: These are really primitive PFPs. I\\'ve got no background in scripting/programming so getting these to work has been pretty touch an",
+  "descriptionHtml": "[b]Disclaimer[/b]: I take no credit for creation of the mods I created PFPs for. They are the collective property of those that uploaded them.\r\n\r\nYou download a PFP (the files I uploaded) - then you download the actual mod from the author\\'s page.\r\nThe PFP then tells the FOMM *how* to install those files and give you more customization if you so wish. I\\'ve provided links to the amods themselves under each PFP on the files page.\r\n\r\nEvidently you can jury rig the Fallout Mod Manager (FOMM) to work with Skyrim (Thanks Samutz!)\r\nThese are PFPs for a few mods I’m using that have various install options which the NMM can’t handle as of yet. \r\n\r\nNote: These are really primitive PFPs. I\\'ve got no background in scripting/programming so I\\'m definitely not taking full advantage of what the FOMM can do. Sorry for that. I welcome any requests for other PFPs or pointers on how to improve from those with experience with them, however.\r\n\r\nTweaking to get the FOMM to work with Skyrim:\r\n1. Open your Skyrim install folder and make a copy of TESV.exe. Rename the new copy falloutnv.exe.\r\n2. Download and install FOMM: http://sourceforge.net/projects/fomm/\r\n3. After installing FOMM, run FOMM and it will ask you to select a Fallout game. Select New Vegas.\r\n4. When FOMM asks you for the game directory, select your Skyrim folder (where falloutnv.exe is located).\r\nNote: FOMM will pop up an error about missing an INI file when you run it. You can ignore this error and continue.\r\nOtherwise, installation and management of mods should be identical to how it was with the Fallout games.\r\n\r\nFor instructions on how to use a PFP, check the mid - > bottom of the page at\r\n\r\nhttp://www.newvegasnexus.com/downloads/file.php?id=43418\r\n",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "Metz",
+  "createdUnix": "1322040278",
+  "updatedUnix": "1322040898",
+  "containsAdultContent": false,
+  "uploadedBy": "Metz32",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "3089",
+      "name": "Nicer Snowflakes",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "857",
+      "fileName": "Nicer Snowflakes-1172.7z",
+      "uploadedUnix": "1322040445",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c833ddae2cf46d321d6f22f8584400bad9bfa14c41855b0e1e44eabb63ddc736/analysis/1406437445/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Nicer%20Snowflakes-1172.7z?fid=3089&ttl=1535754594&ri=8192&rs=8192&setec=a4fbd7532eb771072927a8e570ecb813"
+    },
+    {
+      "fileId": "3090",
+      "name": "Skyrim Respawn",
+      "version": "",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Skyrim Respawn-1172.7z",
+      "uploadedUnix": "1322040898",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/3dc3bbcb7c1eb3d2108e44ca3d73bb4ea661a7f306efacdd4f5fb5a213d0ba41/analysis/1406437502/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Respawn-1172.7z?fid=3090&ttl=1535754595&ri=8192&rs=8192&setec=97de76bf46ba1a8c884366d0ffc054e4"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 952.0,
+  "modName": "Tougher Traps",
+  "summary": "Traps across Skyrim are now far more powerful!",
+  "descriptionHtml": "========================\r\nTraps Overhaul\r\n========================\r\nAuthor: Xylozi\r\nVersion: 2.1\r\nSteam Alias: xylozi\r\n\r\nTraps across Skyrim are now far more powerful!\r\n\r\n**********************\r\nWorking on\r\n**********************\r\n\r\nPreventing followers activating pressure plates.\r\nAdding new diseases.\r\nAllowing pressure plates to be disarmed.\r\n\r\n**********************\r\nChanges\r\n**********************\r\n\r\nDamage values have been re-balanced so the damage percentage taken is mantained throughout leveling up.\r\nSpears/Swinging Blades/Maces now cause visual stagger.\r\nDarts, are now poisoned. \r\nRegular Spear, Disease Chance: 15%\r\nDwemer Spear, Disease Chance: 10%\r\nFalmer Spear, Disease Chance: 20%\r\nNotification on game load that the mod is active.\r\n\r\n**********************\r\nNotes on Changes\r\n**********************\r\n\r\nAssumptions:\r\n\r\nHealth is assumed static, only changes at the level thresholds\r\nLevel thresholds are:\r\n\r\nLv. 10 and below (represented by 1.)\r\nLv. 11 to 20 (represented by 2.)\r\nLv. 21 to 30 (represented by 3.)\r\nLv. 31 to 50 (represented by 4.)\r\nLv. 51 to 70 (represented by 5.)\r\nLv. 71 and above (represented by 6.)\r\n\r\nArmour is accounted for in terms of damage reduction:\r\n\r\nLv. 0, Armour = 0%\r\nLv. 10, Armour = 10%\r\nLv. 20, Armour = 20%\r\nLv. 30, Armour = 30%\r\nLv. 50, Armour = 40%\r\nLv. 70, Armour = 50%\r\n\r\nHealth is assumed as:\r\n1. 100\r\n2. 140\r\n3. 180\r\n4. 220\r\n5. 290\r\n6. 360\r\n\r\nThe values are the damage values, scaling with player level. (e.g. 200 is the damage when you are Lv. 10 or less with the Battering Ram, whilst 720 is the damage when you are Lv. 71 plus)\r\nDamage is per hit, and effect damage in not counted in the initial hit damage.\r\n\r\n[Battering Ram]\r\n 2000.0 \r\n \r\n[Ballista Bolt]\r\n 200.0 \r\n 280.0 \r\n 360.0 \r\n 440.0 \r\n 580.0 \r\n 720.0 \r\n\r\n[Ballista Explosion]\r\n 50.0 \r\n 70.0 \r\n 90.0 \r\n 110.0 \r\n 145.0 \r\n 180.0 \r\n\r\n[Dwemer Thresher]\r\n 100.0 \r\n 140.0 \r\n 180.0 \r\n 220.0 \r\n 290.0 \r\n 360.0 \r\n\r\n[Large Falling Rocks]\r\n[Small Falling Rocks]\r\n 50.0 \r\n 70.0 \r\n 90.0 \r\n 110.0 \r\n 145.0 \r\n 180.0 \r\n\r\n[Skull Ram]\r\n 2000.0 \r\n\r\n[Regular Spear]\r\n[Dwemer Spear]\r\n[Falmer Spear]\r\n 33.3 \r\n 46.7 \r\n 60.0 \r\n 73.3 \r\n 96.7 \r\n 120.0 \r\n \r\nDisease Chance: 15%/10%/20%\r\n\r\n[Dwemer Wall]\r\n[Falmer Wall]\r\n[Regular Wall]\r\n 2000.0 \r\n\r\n[Swinging Blade]\r\n 50.00 \r\n 70.00 \r\n 90.00 \r\n 110.00 \r\n 145.00 \r\n 180.00  \r\n\r\n[Explosive Gas]\r\n[Falling Oil]\r\n 25.00 \r\n 35.00 \r\n 45.00 \r\n 55.00 \r\n 72.50 \r\n 90.00 \r\n\r\nDuration: 2 seconds\r\n\r\n[Mace]\r\n 100.00 \r\n 140.00 \r\n 180.00 \r\n 220.00 \r\n 290.00 \r\n 360.00 \r\n\r\n[Fireball]\r\n[Chain Lightning]\r\n[Ice Spike]\r\n 50.00 \r\n 70.00 \r\n 90.00 \r\n 110.00 \r\n 145.00 \r\n 180.00 \r\n\r\n[Flames]\r\n[Sparks]\r\n[Frostbite]\r\n 25.00 \r\n 35.00 \r\n 45.00 \r\n 55.00 \r\n 72.50 \r\n 90.00 \r\n\r\nDuration: 2 seconds\r\nEffect: #/#/Slow\r\n\r\n[Firebolt]\r\n[Lightning Bolt]\r\n[Ice Storm]\r\n 100.00 \r\n 140.00 \r\n 180.00 \r\n 220.00 \r\n 290.00 \r\n 360.00 \r\n\r\n[Wood Spikes]\r\n 50.00 \r\n 70.00 \r\n 90.00 \r\n 110.00 \r\n 145.00 \r\n 180.00 \r\n\r\n[Regular Darts]\r\n[Dwemer Darts]\r\n 16.67 \r\n 23.33 \r\n 30.00 \r\n 36.67 \r\n 48.33 \r\n 60.00 \r\n\r\nPoison: 10 seconds\r\n 10.00 \r\n 14.00 \r\n 18.00 \r\n 22.00 \r\n 29.00 \r\n 36.00 \r\n\r\n[Nordic Flamethrower]\r\n[Dwemer Flamethrower]\r\n[Nordic Fireplate]\r\n 25.00 \r\n 35.00 \r\n 45.00 \r\n 55.00 \r\n 72.50 \r\n 90.00 \r\n\r\nDuration: 4 seconds\r\n\r\n[Dwemer Flame Pillar]\r\n 50.00 \r\n 70.00 \r\n 90.00 \r\n 110.00 \r\n 145.00 \r\n 180.00 \r\n\r\n[Oil Pool]\r\n 200.00\r\n\r\n[Bear Trap]\r\n 25.00 \r\n 35.00 \r\n 45.00 \r\n 55.00 \r\n 72.50 \r\n 90.00 \r\n\r\nDisease Chance: 5%\r\n\r\n[Poison Gas]\r\n 5.00 \r\n 7.00 \r\n 9.00 \r\n 11.00 \r\n 14.50 \r\n 18.00 \r\n\r\nDuration: 30 seconds",
+  "categoryId": "24",
+  "version": "2.1",
+  "author": "Xylozi",
+  "createdUnix": "1321903947",
+  "updatedUnix": "1329172493",
+  "containsAdultContent": false,
+  "uploadedBy": "Xylozi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "30631",
+      "name": "Tougher Traps",
+      "version": "2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "17",
+      "fileName": "Tougher Traps-952.zip",
+      "uploadedUnix": "1329172493",
+      "modVersion": "2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/301a71b1888edb8ba608cafac043e5a3dc50af9a455c0f52d33b3ff47b75483b/analysis/1406679723/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Tougher%20Traps-952.zip?fid=30631&ttl=1535754213&ri=8192&rs=8192&setec=b6283193286d56023c97859435509f85"
+    }
+  ]
+}

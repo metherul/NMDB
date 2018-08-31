@@ -1,0 +1,48 @@
+{
+  "modId": 1183.0,
+  "modName": "no-burden",
+  "summary": "No more \\\"I am sworn to carry your burdens.\\\" from NPC.",
+  "descriptionHtml": "I got tired of hearing \\\"I am sworn to carry your burdens.\\\" everytime I wanted to give items to Lidya.\r\n\r\nRight now it only supports Lidya. I will add more if anyone really cares.\r\n\r\nI have had some people ask about how I found the correct file.\r\n\r\nI extracted the .fuz files from Skyrim - Voices.bsa using BSAUnpack ( http://www.tesnexus.com/downloads/file.php?id=3117 )\r\n\r\nI wrote a simple python script to extract the .xwm audio file out of the .fuz file and save it to .xmw file and run vlc.\r\n\r\nThe code is here http://www.privatepaste.com/76d3aafbd5\r\n\r\nI would use py2exe and turn this python script into an executable then, have .fuz files associated with the executable, this will allow you to just double click and play the audio file.",
+  "categoryId": "33",
+  "version": "0.1",
+  "author": "646877",
+  "createdUnix": "1322056345",
+  "updatedUnix": "1322098001",
+  "containsAdultContent": false,
+  "uploadedBy": "0x646877",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "3129",
+      "name": "no-burden",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "no-burden-1183-0-1.rar",
+      "uploadedUnix": "1322056502",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/6eac85632a53e6139049763f26bcc14e912da7b0eb917627137d27a5441a8fa7/analysis/1406437862/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/no-burden-1183-0-1.rar?fid=3129&ttl=1535754612&ri=8192&rs=8192&setec=aeb7984b0bbac0c79ce55ce4b8c545c7"
+    },
+    {
+      "fileId": "3319",
+      "name": "PlayFuz",
+      "version": "0.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1642",
+      "fileName": "PlayFuz-1183-0-1.rar",
+      "uploadedUnix": "1322098001",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/575eb70e639ebc1554a4c9ef6775775688cf4dcdd38bf6c15bfd29a24bb828fe/analysis/1406440326/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PlayFuz-1183-0-1.rar?fid=3319&ttl=1535754612&ri=8192&rs=8192&setec=2fca25c37517299199bf93f38abe14c7"
+    }
+  ]
+}

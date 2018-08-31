@@ -1,0 +1,32 @@
+{
+  "modId": 1231.0,
+  "modName": "Ice Storm Axe _new weapon_",
+  "summary": "New .esp plugin made by me that add a new war axe to Skyrim.",
+  "descriptionHtml": "New .esp plugin made by me that add a new war axe to Skyrim.\r\nI made this plugin using FOMM(TesSnip),this adds a completly NEW weapons, not only a retexture.\r\nThe weapon is a retextured ench. Orcish war axe(1 hand) with:\r\n+30 ice damage\r\n1500 charge value\r\nTo make avaible Data Files in SkyrimLauncher follow this guide(MADE BY VOLEK):\r\n\r\n* Locate the file C:\\\\Users\\\\{your user name}\\\\Documents\\\\My Games\\\\Skyrim\\\\SkyrimPrefs.ini. Open it and search for the [Launcher] section. Add this line: \\\"bEnableFileSelection=1\\\" (without quotes). Then start the Skyrim launcher, the previously greyed out \\\"Data Files\\\" option is now available and you can select the plugin(s) that you wanna use from the list.\r\n\r\nIf this somehow doesn\\'t work, use this workaround:\r\n\r\n* Locate the file C:\\\\Users\\\\{your user name}\\\\AppData\\\\Local\\\\Skyrim\\\\plugins.txt. The Appdata folder is hidden so make sure that your OS shows hidden files. Edit plugins.txt and insert a new line that contains the name of the plugin you want use,edit the plugins.txt like this:\r\n\r\n\r\n# This file is used by Skyrim to keep track of your downloaded content.\r\n# Please do not modify this file.\r\nSkyrim.esm\r\nEnchOrchishWarAxeCustom01.esp\r\n\r\nIgnore the comment about modifying this file and save it. Then right-click the file, select Properties, and enable Read-Only. If you wanna use other plugins too, disable read-only and add their names to the list, then re-enable Read-Only.\r\nTHANKS TO VOLEK...\r\n\r\nThan Extract the content of \\\"EnchOrchishWarAxeCustom01\\\" folder to your Steam\\\\SteamApps\\\\common\\\\Skyrim\\\\Data\r\nAnd when in game open console and write:\r\nplayer.additem 000ca1d2 1\r\nenjoy new axe :)\r\n\r\ncoming soon:\r\n-new texture\r\n-new enchantments\r\n-screenshoots\r\n\r\nIF ANYONE IS INTERESTED I CAN MAKE A GUIDE TO CREATE SIMPLE PLUGINS WITHOUT USING ANY SKYRIM CONSTRUCTION SET THAT RELEASE DATE IS NOT YET SURE. \r\n\r\nsorry for my awful english :(\r\n \r\n",
+  "categoryId": "55",
+  "version": "1.0",
+  "author": "i3vdone",
+  "createdUnix": "1322079903",
+  "updatedUnix": "1322080698",
+  "containsAdultContent": false,
+  "uploadedBy": "i3vdone",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "3231",
+      "name": "EnchOrchishWarAxeCustom01",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3636",
+      "fileName": "EnchOrchishWarAxeCustom01-1231-1-0.rar",
+      "uploadedUnix": "1322080698",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7e3ea9a0bc39e905d775b15e9d8272bb7e4119d945ee80230fe5a4754043ec01/analysis/1406439304/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/EnchOrchishWarAxeCustom01-1231-1-0.rar?fid=3231&ttl=1535754686&ri=8192&rs=8192&setec=958919539fb1ca4c2aff52eaa9ff56e4"
+    }
+  ]
+}

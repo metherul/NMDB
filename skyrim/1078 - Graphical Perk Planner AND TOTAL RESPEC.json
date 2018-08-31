@@ -1,0 +1,48 @@
+{
+  "modId": 1078.0,
+  "modName": "Graphical Perk Planner AND TOTAL RESPEC",
+  "summary": "Plan out your perks , save and load builds with almost the same visuals as in-game!\r\nAlso allows you to reset your perks or set your perks to anything you want with a batch file creator!!! NEW NEW Will also respec stats. Simply run the batch file in game.",
+  "descriptionHtml": "****If this doesn\\'t save your bat files right (Run program as administrator)\r\nhttp://www.sevenforums.com/tutorials/11841-run-administrator.html\r\nNew Smaller File size, Easier install (can now run as administrator)\r\n.Net Framework MUST be installed for this to work.\r\n[youtube]518mSXAVY7s[/youtube]\r\nSource file uploaded\r\nVersion 1.17\r\nAttempt to fix skills not creating bat file.\r\n\r\nVersion 1.16\r\nCan now edit skill levels\r\n\r\nVersion 1.14\r\nChanged Icons for perks\r\nUpdated Read-me\r\nNow provided Dialog for install\r\n\r\nVersion 1.12\r\nComplete Respec Mode! (or cheat mode if you\\'re into that)\r\nWill help you keep track of just how many and what perk points you can spend\r\nFrom in-game Console \\'\r\nbat remove   (gets all perks ready for changing)\r\nbat add (sets all perks to current build)\r\nbat stats (respecs stats to current build)\r\n\r\nVersion 1.9\r\nAUTOSAVE (Create batch file label is remove, it autosaves everything now)\r\nIf it can not find your skyrim game folder (IE non english version) It will ask you to locate TESV.exe manually.\r\nbat remove\r\nbat add\r\n\r\n\r\nVersion 1.7\r\nBAT ISSUES FIXED\r\nto actually reset your talents in game ABSOLUTELY ALL YOU NEED TO TYPE IS\r\nbat remove\r\nbat add\r\nIn the console that is IT. Do this from the main game HAVE NO MENUS OPEN.\r\n\r\n\r\n\r\nIncludes perkPlannerInstaller.exe and source code.\r\nTo Install,\r\nExtract all files into a folder of your choosing and run perkPlannerInstaller.exe\r\n\r\ncontact tw1sted_trans1st0r(a.t)yahoo.com with bug reports/suggestions\r\nADDED README FILE TO DOWNLOAD\r\n\r\nThis was written in Vb.net so the .net framework IS necessary for this.\r\nI know there are a lot of Perk Planners out there, but this is the first I\\'ve seen that lets you actually create a file to reset your perks to the existing tree (yes I know this can be used to cheat and get any perks you want, but so can  just console commands.)\r\nCan be used as just a planner. \r\n\r\n\r\n\r\nTo Do\r\n-Get hotkey working to automatically run batch file in game (Hotkey hook works, just can\\'t get appllicaiton to send \\\"`\\\" key for the command console, so if anyone knows how to do that in VB let me know :)\r\n-Replace circles with nicer looking stars much like in game.\r\n-Center Circles for better over-all visual eye candy.\r\n\r\nIf you like it, please endorse it. :)\r\n\r\n\r\nLink to virus total showing my .exe scan\r\n\r\nhttp://www.virustotal.com/file-scan/report.html?id=b41115b057ddc8474acdca7894b21ecc40a3724a0bce892568c48d317fb9e1a9-1321981233\r\n\r\n",
+  "categoryId": "73",
+  "version": "1.17",
+  "author": "PsychoHampster",
+  "createdUnix": "1321982362",
+  "updatedUnix": "1323387019",
+  "containsAdultContent": false,
+  "uploadedBy": "psychohampster",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "7481",
+      "name": "Source",
+      "version": "1.16",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3955",
+      "fileName": "Source-1078-1-16.rar",
+      "uploadedUnix": "1323139195",
+      "modVersion": "1.16",
+      "virusScanUrl": "https://www.virustotal.com/file/bd0547af72a812b2b7d9cb8d0cfc4d4690f526c2aff828bfaa2e1170e32ec61b/analysis/1406484610/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Source-1078-1-16.rar?fid=7481&ttl=1535754438&ri=8192&rs=8192&setec=5a143443d3e6a0546b72d55979168700"
+    },
+    {
+      "fileId": "8371",
+      "name": "PerkPlannerInstaller",
+      "version": "1.17",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "526",
+      "fileName": "PerkPlannerInstaller-1078.exe",
+      "uploadedUnix": "1323387019",
+      "modVersion": "1.17",
+      "virusScanUrl": "https://www.virustotal.com/file/b4572e177df687b742695d980d5ccfe92019d6cb18b4b73fefc065673d6f38cd/analysis/1406495347/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PerkPlannerInstaller-1078.exe?fid=8371&ttl=1535754438&ri=8192&rs=8192&setec=138a233b6b491a84f095a08dc6cdcd3c"
+    }
+  ]
+}

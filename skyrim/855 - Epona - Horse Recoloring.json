@@ -1,0 +1,32 @@
+{
+  "modId": 855.0,
+  "modName": "Epona - Horse Recoloring",
+  "summary": "A horse recoloring mod that replaces the brown/white-markings horse with a The Legend of Zelda: Twilight Princess-colored Epona.",
+  "descriptionHtml": ">> Epona: Horse Recoloring by cicatrice\r\n\r\n   This mod, by default, replaces the Windhelm/carriage horses (bay with white blaze and socks) with a The Legend of Zelda: Twilight Princess-colored Epona.\r\n\r\n>> Install\r\n\r\n   Use an unzipping program (e.g. 7zip, WinRar) to extract the files/folders into your Skyrim\\'s data folder (within your Skyrim install directory).\r\n\r\n   * For Steam users: C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data\r\n\r\n>> Uninstall\r\n\r\n   Remove the following files:\r\n\r\n   * Data\\\\textures\\\\actors\\\\horse\\\\horse01.dds\r\n   * Data\\\\textures\\\\actors\\\\horse\\\\horsemanetail.dds\r\n\r\n>> Notes\r\n  \r\n   * Currently, without the Creation Kit, all horse manes and tails will be white if you use this mod as presented.\r\n   * Not compatible with other horse recolor/texture mods.\r\n\r\nIf you want to change a particular horse to use Epona: Horse Recoloring, then change the \\'horse01.dds\\' filename (included with this mod) to the target horse\\'s filename according to the list below:\r\n\r\nDEFAULT TEXTURE NAMES & HORSE TYPE (within the .bsa):\r\nhorse01.dds = [Windhelm] - Bay with white blaze and socks (carriage horse)\r\nhorse02.dds = [Solitude] - Palomino\r\nhorse03.dds = [Riften] - Dapple Grey\r\nhorse04.dds = [Whiterun] - Black\r\nhorse05.dds = [Markarth] - Pinto\r\n\r\nFor example, if you have a Markarth horse already bought and want its colors to be Epona\\'s, then rename the \\'horse01.dds\\' file included with this mod to \\'horse05.dds\\'.\r\n\r\nDEFAULT TEXTURE & MANE/TAIL TYPE (within the .bsa):\r\nhorsemanetail.dds = black/dark brown\r\nhorsemanetail02.dds = white/cream\r\n\r\nEPONA - HORSE RECOLORING CHANGED THE FOLLOWING:\r\n* \\'horse01.dds\\' is a recolored version (Epona) of the Windhelm texture (Bay with white blaze and socks)\r\n* \\'horsemanetail.dds\\' (as it appears in this mod) is actually just \\'horsemanetail02.dds\\' (white/cream) -- if you want a dark mane/tail on your Epona-colored horse, just remove the \\'horsemanetail.dds\\' included with this mod (this would also make all horse types have their \\\"correct\\\" mane/tail colors).",
+  "categoryId": "29",
+  "version": "",
+  "author": "cicatrice",
+  "createdUnix": "1321835161",
+  "updatedUnix": "1321835253",
+  "containsAdultContent": false,
+  "uploadedBy": "cicatrice",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "2176",
+      "name": "Epona - Horse Recoloring",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1106",
+      "fileName": "Epona - Horse Recoloring-855-1.zip",
+      "uploadedUnix": "1321835253",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/49d42a8b6ab728d7b8b3ac3d4c6e094b58f45cd8fb5ac49b6ead89f97826e18d/analysis/1406427245/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Epona%20-%20Horse%20Recoloring-855-1.zip?fid=2176&ttl=1535754067&ri=8192&rs=8192&setec=b0db084f90b23f3cc7d8399b30f84969"
+    }
+  ]
+}
