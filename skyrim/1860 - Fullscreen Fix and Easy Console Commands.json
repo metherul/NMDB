@@ -1,0 +1,32 @@
+{
+  "modId": 1860.0,
+  "modName": "Fullscreen Fix and Easy Console Commands",
+  "summary": "A small executable file that will give you a fullscreen windowed mode, and access to easy console commands.",
+  "descriptionHtml": "This is a small executable that I\\'ve created to fix the annoying \\\"Tab back into skyrim twice\\\" deal. However, while making this, I noticed that on my character that I don\\'t mind using console commands on, it was a pain in the ass to find and remember the item codes and such. So I put in a small window on the bottom that will allow you to quickly run your favorite console commands.\r\n\r\n[size=+3][color=blue]UPDATE:[/color][/size]\r\n\r\nI\\'ve removed the frame at the bottom, as it was annoying. For now, this is just a fullscreen mod. I\\'ve basically stopped working on this until the Creation Kit comes out.\r\n\r\n[size=+3][color=red]WARNING:[/color][/size]\r\n\r\nFirst off, this is something I quickly threw together in one night. It may be buggy; I [b]WILL[/b] be rewriting the code, and updating this very often, if people like/use it.\r\n\r\nThere are only four console commands at this point, which are; Give 100 gold, Kill target, Resurrect target, and Toggle God Mode. I do plan on putting together a full UI to be able to change your commands, and an item database to search for items you want to add.\r\n\r\n\r\n[size=+3]How to use:[/size]\r\n\r\nFirst, you\\'ll want to change your Skyrim resolution to your screen\\'s resolution, and set to windowed mode. Then after starting up the game, open the executable [b][color=red]IN ADMINISTRATOR MODE[/color][/b] (Failure to do so will not hide the taskbar, and will cover the Easy Console panel.) and everything should be in working order!\r\n\r\nHotkeys right now are F1-F4. I will be using F1-F10 eventually, and most likely will allow modifiers.\r\n\r\n[size=+3]Bugs \\'n\\' Stuff:[/size]\r\n\r\nIf running Skyrim through Steam, when tabbing back into skyrim and running a command, it may open the steam overlay. I\\'m not 100% sure why it does this, but I do plan on fixing it very soon.\r\n\r\nTo run the commands, the program just sends ` command `, so if used while console IS up, it\\'ll open your inventory, or do other weird things.\r\n\r\nWHEN USING RESURRECT OR KILL, IT WILL OPEN THE CONSOLE, AND YOU NEED TO CLICK YOUR TARGET TO KILL/RESURRECT, OR IT\\'LL GO STUPID UNTIL YOU DO CLICK.\r\n\r\n\r\n[b] User feedback would be greatly appreciated, as I\\'m willing to continue this and make it much  better![/b]",
+  "categoryId": "24",
+  "version": "0.2",
+  "author": "Henzl0l",
+  "createdUnix": "1322476863",
+  "updatedUnix": "1325642428",
+  "containsAdultContent": false,
+  "uploadedBy": "Henzl0l",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "16398",
+      "name": "Skyrim_Fullscreen_and_EasyConsole_V0_2",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "339",
+      "fileName": "Skyrim_Fullscreen_and_EasyConsole_V0_2-1860-0-2.zip",
+      "uploadedUnix": "1325642428",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/3dce393a44d36ecabf83bd7b4213cab137fe588cde0c90a582c526c809557139/analysis/1406580917/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim_Fullscreen_and_EasyConsole_V0_2-1860-0-2.zip?fid=16398&ttl=1535755713&ri=8192&rs=8192&setec=5af74e8e244369c66ef5222add419be3"
+    }
+  ]
+}

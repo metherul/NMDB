@@ -1,0 +1,48 @@
+{
+  "modId": 2587.0,
+  "modName": "Interface Control Bugs FIX",
+  "summary": "Fixes Interface Bugs such as not being able to exit books or use R for inventory uses...",
+  "descriptionHtml": "****UPDATE 12/10/11****\r\nI just added the ORIGINAL \\\"Skyrim - Interface.bsa\\\" and \\\"Update.esm\\\". These -as if you wouldn\\'t already know this- go inside the \\\"Data\\\" folder...I\\'m pretty sure I got the DIR structure correct so just extract and combine blah blah blah...\r\n\r\nI noticed when I went to play today, nothing worked AGAIN!!! >:(... so that\\'s why I re-did everything described below. And, just in case someone didn\\'t have these files, here they are.\r\n\r\n===***===\r\n\r\n***IMPORTANT\r\nInside your Skyrim root folder (the folder containing TESV.exe), there is more than likely 2 .txt files that contain the words \\\"control\\\" or \\\"control map\\\"...DELETE THESE! then, \r\n\r\nand ONLY then, follow below steps:\r\n\r\n1. IF you have any sort of \\\"user interface inventory mod\\\", cut and paste it OR the folder containing it to the desktop\r\n2. Find any \\\"control map\\\" or \\\"custom control\\\" whatever its called text files in your Skyrim root folder, then DELETE it\r\n3. Extract Interface_Bug_FIX_12-10-11_UPDATE.zip to your \\\\Skryim root folder (the one containing TESV.exe)\r\n4. Start game\r\n5. Move around little bit, \r\n   5a. open inventory, \r\n   5b. close it,  \r\n   5c. SAVEGAME\r\n6. QUIT GAME\r\n7. IF you had an interface mod, cut it back from the desktop, and paste back where it belongs. Otherwise skip to 8\r\n8. Reload Game\r\n9. Enjoy :)\r\n\r\nand... if you did ALL THAT lol, everything should work again. it did for me, but it wasn\\'t before I did all that above stuff.\r\n\r\n===***===\r\n\r\nIf you\\'re having a problem with not being able to even access the MAIN MENU, you will have to download a copy of the original TESV.exe. I will not upload that simply because i\\'m \r\n\r\nnot quite sure if I\\'m even allowed to do so. If I am, and someone really want\\'s the UNPATCHED LAA TESV.EXE, pm me or comment.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nControls Fix\r\n====================\r\n\r\nI was having TONS of interface glitches:\r\n\r\n*Couldn\\'t leave a book once opening it\r\n*Couldn\\'t leave \\\"showracemenu\\\" screen\r\n*Couldn\\'t click [YES] [NO] for WAY TOO MANY SCREENS!! >:(\r\n*Couldn\\'t give/take to/from companions\r\n*Couldn\\'t assign any functions to M1 because it would f*ing just close the menu so i would have to assign it a num key the change to it twice then assign alt function only to    \r\n\r\n       M2... \r\n*Couldn\\'t F*ing Fast Travel... errrg\r\nand so on and so on...\r\n\r\n====================\r\n\r\nTESTING:\r\n\r\nSo far I\\'ve Only tested it for the book menu & companion trade.\r\nIt works perfect for me.\r\n\r\n====================\r\n\r\nORIGIN\r\n=======\r\n\r\nI was so sick of thread-combing, random mod off\\\\on variations, troubleshoots that just wasted my time and didn\\'t work and such forth...\r\n\r\nSo, i used FOMM to extract the controlmap.txt file from the original skyrim -Interfaces.bsa.\r\n\r\nI\\'m not sure why reverting to the 1.1 \\\"Skyrim - Interface.bsa\\\" didn\\'t solve the problem, but extracting it and placing it in the corresponding Data\\\\* folder fixed this \r\n\r\nproblem... whatever\r\n\r\n========\r\n\r\nI wanted to share this with anyone else having this/these problems... Assuming that since none of the \\\"fixes\\\" researched from hours of googleing working for me, there is bound \r\n\r\nto be at least ONE other person out there with that/this problem, this file is for YOU!\r\n\r\n============================\r\n\r\nfeel free to do whatever the hell you like to this file, mod it claim it as your own for all i care...it\\'s not mine it\\'s Bethesda\\'s I did nothing except extract it and upload it \r\n\r\nhere.\r\n\r\n\r\n=========\r\n\r\nINSTALLATION:\r\n\r\nExtract the \\\"Data\\\" folder from the .zip to your \\\"*:\\\\Program Files (x86)\\\\Steam\\\\SteamApps\\\\common\\\\skyrim\\\\\\\" or wherever your Skryrim happens to be installed",
+  "categoryId": "95",
+  "version": "V1.5",
+  "author": "MrGrimm73",
+  "createdUnix": "1322999008",
+  "updatedUnix": "1323506017",
+  "containsAdultContent": false,
+  "uploadedBy": "MrGrimm73",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "6838",
+      "name": "Interface_Bug_FIX",
+      "version": "V1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Interface_Bug_FIX-2587.zip",
+      "uploadedUnix": "1322999387",
+      "modVersion": "V1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9ff5d7c8e018d1531e330ca68cd1815af6195344270c609523f9c4a3683e1c31/analysis/1406476563/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Interface_Bug_FIX-2587.zip?fid=6838&ttl=1535756910&ri=8192&rs=8192&setec=13b1a8e0a314e68980e0e45658c9592c"
+    },
+    {
+      "fileId": "8843",
+      "name": "Interface_Bug_FIX_12-10-11_UPDATE",
+      "version": "V1.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13988",
+      "fileName": "Interface_Bug_FIX_12-10-11_UPDATE-2587.zip",
+      "uploadedUnix": "1323506017",
+      "modVersion": "V1.5",
+      "virusScanUrl": "https://www.virustotal.com/file/8af99d342c34972d50a1f5b0e04dd5cef9510459e7c9b6b68bc964453c523a91/analysis/1406500762/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Interface_Bug_FIX_12-10-11_UPDATE-2587.zip?fid=8843&ttl=1535756910&ri=8192&rs=8192&setec=15d6d4b616827f214d3e55e9ffab9ede"
+    }
+  ]
+}

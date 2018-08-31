@@ -1,0 +1,32 @@
+{
+  "modId": 2639.0,
+  "modName": "Levelling pace",
+  "summary": "This is just a variant of some other levelling mods.  This differs in that each esp version\r\nretain the same level 81 cap as vanilla.",
+  "descriptionHtml": "[u]Levelling pace mod[/u]\r\n\r\nThis is just a variant of some other levelling mods. Credits to their respective\r\nauthors (none mentioned, none forgotten). This mod differs in that each esp version\r\nretain the same level 81 cap as vanilla.\r\n\r\nTo be more precise, they coincide at 89100XP which would be level 82, but reaching\r\n100 in all skills will give you exactly 88085XP, so level 82 is just out of reach.\r\n\r\nThe level 81 level cap can of course be broken by using a skill uncapper mod.\r\nYou will level slower than vanilla up to level 82, and faster above level 82.\r\nThe difference is more noticable the more numbers differ from vanilla.\r\n\r\nThis mod modifies the GMST variables fXPLevelUpBase and fXPLevelUpMult.\r\n\r\nHere are the different versions: \r\n\r\n[code]\r\nesp        |      Base      |     Mult\r\n\r\n A     .....      75   ....   25\r\n B\t....\t   116   ....   24\r\n C\t....      198   ....   22\r\n D\t....\t   280   ....   20\r\n E\t....\t   485   ....   15\r\n F\t....\t   690   ....   10\r\n G\t....\t   895   .....   5\r\n H     ...\t 1100   .....   0\r\n[/code]\r\n\r\nUse only one of B to H. A is only included for reference, it\\'s the same as Skyrims default.\r\nBe aware that the higher the base, the longer it takes to level in the beginning. This means\r\nyou will be able to powerlevel a few skills while retaining a low level, which can make the\r\ngame a lot easier (although the lack of perks counters this somewhat). It\\'s up to you to\r\nselect the esp with the best balance for your style of play.\r\n\r\n\r\n[u]Installation[/u]\r\n\r\nPut the esp file in Skyrim/Data. Open Skyrim Launcher. Click DATA FILES. Make sure all\r\ndesired esps and \\\"Load Loose files\\\" box are ticked. PLAY (or EXIT and launch 4GB loader).\r\n\r\nNow, if you want to use this with an existing character, load it up and check which level\r\nit currently is. Pause, ALT-tab and open level_comparison.htm. The vanilla levels are in\r\nthe first column. Remember which column your selected esp (B,C,D,E,F,G,H) is in, then scroll\r\ndown until you find your current vanilla level. Note down the level your character should\r\nreally be, and double-ALT-tab back into the game. Open the console and write:\r\n\r\nplayer.setlevel (new level)\r\n\r\nHopefully, that should be enough. Now, depending on how much you like to cheat, you may\r\nlike to remove/undo the extra perks and stats you already got from the extra levels.\r\n\r\nhttp://elderscrolls.wikia.com/wiki/Console_Commands_%28Skyrim%29\r\n\r\nSearch for:\r\nplayer.removeperk <variable>\r\nplayer.modav <attribute> <amount>\r\n",
+  "categoryId": "73",
+  "version": "1.0",
+  "author": "moonballz",
+  "createdUnix": "1323028858",
+  "updatedUnix": "1323029026",
+  "containsAdultContent": false,
+  "uploadedBy": "moonballz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "6962",
+      "name": "Levelling pace",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "22",
+      "fileName": "Levelling pace-2639-1-0.rar",
+      "uploadedUnix": "1323029026",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/180debf9930076a33000c9859df834d8d895d4db4a8fe764856b90c307970dcd/analysis/1406478243/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Levelling%20pace-2639-1-0.rar?fid=6962&ttl=1535757002&ri=8192&rs=8192&setec=cd04afe2fc547fec1339c2be97a88782"
+    }
+  ]
+}

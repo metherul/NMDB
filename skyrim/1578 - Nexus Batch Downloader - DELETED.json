@@ -1,0 +1,32 @@
+{
+  "modId": 1578.0,
+  "modName": "Nexus Batch Downloader - DELETED",
+  "summary": "A command line tool (with source) that will download a list of files from any of the Nexus sites.",
+  "descriptionHtml": "This is a command line program that facilitates the batch downloading of mods. I made it because the Nexus Mod Manager has horrific download support, and I wanted to see if I could one-up it in less than a day. You be the judge on that.\r\n\r\nIt downloads files sequentially and only from one Nexus at a time, but it supports all of them. It only ever downloads the first main file- Again, I couldn\\'t see any use for it myself, so I didn\\'t add it (It would also be a lot of work, maybe. Or just keeping track of another number.)\r\n\r\nUSAGE:\r\n\r\nThe first argument is the Nexus you\\'re downloading from- \\\"skyrim\\\", \\\"tes\\\", or what have you. Only works on one Nexus at a time.\r\nThe second is your username. I don\\'t steal it, and its exactly as secure as it is over the web browser- You can check this in the source, and with a HTTP sniffer in your browser.\r\nThe third is your password. See the above argument for username.\r\nAfter follows a list of file IDs that you want to download. The program will download them all sequentially. It doesn\\'t make use of premium servers, mostly because I don\\'t have premium and therefore my 6 hours of C coding didn\\'t necessitate it.\r\n\r\nAn example:\r\n    NexusBatchDownloader.exe skyrim whitewater this_isnt_really_my_password_or_is_it 1578\r\n\r\nAll source is under the BSD license. PCRE is additionally under the BSD license, and I believe it doesn\\'t matter what license wget is under as it isn\\'t linked to my program in any way.",
+  "categoryId": "39",
+  "version": "b1",
+  "author": "Whitewater",
+  "createdUnix": "1322287371",
+  "updatedUnix": "1322287420",
+  "containsAdultContent": false,
+  "uploadedBy": "Whitewater",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "4077",
+      "name": "NexusBatchDownloader b1",
+      "version": "b1",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "839",
+      "fileName": "NexusBatchDownloader b1-1578-b1.zip",
+      "uploadedUnix": "1322287420",
+      "modVersion": "b1",
+      "virusScanUrl": "https://www.virustotal.com/file/f62223d8ad6e41451f54712b400c6e893d4a296c3df8caf87770ba920ea8f8ab/analysis/1406449083/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NexusBatchDownloader%20b1-1578-b1.zip?fid=4077&ttl=1535755245&ri=8192&rs=8192&setec=10f27b020b5670950b89d75c0f839010"
+    }
+  ]
+}

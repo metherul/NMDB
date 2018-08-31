@@ -1,0 +1,48 @@
+{
+  "modId": 2126.0,
+  "modName": "Awesome Mod Installer Creator",
+  "summary": "This tool is mostly for modders, alows you to create advanced compatibility self installing mods.",
+  "descriptionHtml": "Just a little something i wanted to write, this should alow modders to create easy to use idiot proof installers for thair mods, with many oprions and advanced compatibility.\r\n\r\nYes there is NMM and i recomend using it, but if this going to be popular, ill probably try to make it totaly compatible with NMM.\r\n\r\n\r\n[b]First of all it is an alpha version and should be used, also my other tool \\\"Skyrim Mod Manager Lite\\\" should be totaly compatible and can be used to check if the mod was installed right way and if all esm and esp were activated. Your feedback is very much appreciated.[/b]\r\n\r\n\r\n\r\nWhat it does ?\r\n\r\nFirst of all it converts a directory with your mod into one exe that them can be redistributed easily, this way you can make your mods idiot proof.\r\n\r\n\r\nAlso there is a new function that i called \\\"Awesome order request\\\", i think it should be included in NMM somehow.\r\nIt is the ability to request a specific load order for your esp and esm files.\r\n\r\nSimply you create a file order.txt in your mods main directory and then you write in it how you want your esp and esm files to be placed, like\r\n\r\nSkyrim.esp\r\nstartrekmount.esp\r\napplejack.esp\r\nrarity.esp\r\npinkie.esp\r\nsomeothermods.esp\r\n\r\nno matter if some of those files are present in game or not, your selected files will be alway placed in right order you can also write in files of other mods to increase compatibility with them.\r\n\r\n\r\n\r\nThis exe going to be a set of selections that user can select and install.\r\n\r\n\r\nHow to use it ?\r\n\r\nSimpliest way\r\n1 \r\nCreate a directory and call it as you want your mod to be called, but make sure it is a realy unique name like \\\"Retexture Mod by Dashie i1200\\\", i1200 is your mods nexus id, so it is 100% unique.\r\n2\r\nNow create a subdirectory in your mod directory and call it \\\"Settings\\\"\r\n3\r\nNext create a subdirectory in directory \\\"settings\\\" and call it however you want to call whatever you are installing, like \\\"Main Texture Pack\\\", i call it selection directory.\r\n4\r\nnow you want it to be selected and installed by default, so create a text file (.txt) in \\\"Main Texture Pack\\\" and call it \\\"selected\\\"\r\n5\r\nNow the mod files, create a subdirectory inside of \\\"Main Texture Pack\\\" and call it \\\"files\\\", put all your mod files inside, same way you would put them into skyrim directory.\r\n6\r\nalmost done, now run AMIC and drag and drop you main mod directory inside (one that is called like \\\"Retexture Mod by Dashie i1200\\\"), now choice where you want to save your new shiny mod installer.\r\n7\r\nClose tool before reusing.\r\n\r\n\r\n\r\nThere arealso more advanced ways of creating an installer.\r\n\r\nLike you can create settings.txt in main directory and set it up like:\r\n\r\ndisplaywidth 500 // size of display width duh\r\ndisplayheight 250 //size of display height\r\ndescription stuff // \\\"stuff\\\" will be shown as description\r\nby dashie // guess what, it shows that it was done by \\\"dashie\\\"\r\nshow details // shows details tab in installation\r\nshow welcome // shows welcome tab in installation (put image in main directory and call it \\\"preview.jpg\\\")\r\nshow single options // write this if you want to menu being displayed even if your mod has only one setting\r\n\r\n\r\nPlus, to macke your selection menu look better you can create a \\\"preview.jpg\\\" in your \\\"Main Texture Pack\\\" selection directory.\r\n\r\nPlus, you can create more selection directories in your settings directory, however dont forget to create selected.txt inside of selection directories that you want to be selected by default.\r\n\r\nPlus, you can select only one selection directory by default, if you want yout selection directory to be always selectable then create a text file inside of it and call it \\\"extra\\\".\r\n\r\n\r\nif people gona like this ill create more functions and maybe a better interface as well.\r\n\r\n\r\n\r\n\r\n\r\nInstall ? not realy.\r\n\r\njust put it in your skyrim folder and run.\r\nIt uses Framework 2.0, if youre using win7 or winxp sp3, you should be fine.\r\nAlso, you can set this tool to only access skyrim folder and itself, it should not access anything else, except stuff that you drag and drop in there.",
+  "categoryId": "39",
+  "version": "1.1",
+  "author": "Me",
+  "createdUnix": "1322666759",
+  "updatedUnix": "1323019174",
+  "containsAdultContent": false,
+  "uploadedBy": "FireBug3",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "5570",
+      "name": "AMIC",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "99",
+      "fileName": "AMIC-2126.zip",
+      "uploadedUnix": "1322667891",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4b4ea1a2acf75976109319bd5afd90784219ec136f16493de0c406507a919ee4/analysis/1406460976/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AMIC-2126.zip?fid=5570&ttl=1535756220&ri=8192&rs=8192&setec=44ff378db8cccf48ca4e44e284d58985"
+    },
+    {
+      "fileId": "6922",
+      "name": "AMIC 1 dot 1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "99",
+      "fileName": "AMIC 1 dot 1-2126-1-1.zip",
+      "uploadedUnix": "1323019174",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/f6c70c0faba324c111e047d05c30591eb91111b774f649395e42d67cf1278397/analysis/1406477762/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AMIC%201%20dot%201-2126-1-1.zip?fid=6922&ttl=1535756221&ri=8192&rs=8192&setec=a4970941cd80a238d3a23f3db7e1ff59"
+    }
+  ]
+}

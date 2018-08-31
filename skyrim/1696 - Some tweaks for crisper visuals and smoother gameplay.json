@@ -1,0 +1,48 @@
+{
+  "modId": 1696.0,
+  "modName": "Some tweaks for crisper visuals and smoother gameplay",
+  "summary": "Here are some tweaks I am using.",
+  "descriptionHtml": "First of all disable FXAA as it just tends to blur things.\r\n\r\nUse the 4gb enabler.\r\n\r\nUse d3doverrider  and add the 4gb skyrim launcher exe file to the list.\r\nThen set detection to high and force tripple buffering. This smoothed out gameplay for me.\r\n\r\nThen using nvidia inspector, set ..\r\nAA compatibility mode to oblivion, fallout\r\nSet mode to override any application setting\r\nAA setting to application controlled/off(select whatever your pc can handle here.)\r\nsupersampling to 8x\r\nAF to user defined/off and 16x\r\ntexture filtering LOD bias to -3 (this really sharpens things up)\r\n\r\n(-3 bias if you are using any sharpening filters might be too sharp for you. I like it but tastes vary, so try -1 if it\\'s too sharp)\r\n\r\nI have not seen anyone else mention the lod bias tip so I thought I\\'d share that one as it made the biggest difference in image sharpness for me.\r\nI used to use it all the time in s.t.a.l.k.e.r via the config file so thought I\\'d try forcing it via inspector for Skyrim and it worked a treat.\r\n(Negative values sharpen more positive ones blur more.)\r\n\r\nI am also using \\\"Realistic Skyrim V3 - Custom Settings Hunins FXAA by MrCooper\\\"\r\n\r\nhttp://www.skyrimnexus.com/downloads/file.php?id=191\r\n\r\nIt provides a subtle tone shift to make things look a little more realistic in colour without messing up the bloom and getting overexposure on clouds etc. It also darkens things a lot, so now nights are properly dark.\r\n I found most tweaks are too exaggerated so this is subtle and more to my liking.\r\n\r\nIf you use this make sure to edit the skyrimPerfs.ini and change this value..  fGamma=1.0000\r\nIf you don\\'t change this things will be far too dark.\r\n\r\nEDIT:- I\\'m now using my own tweaked PPI to get the same look as Realistic Skyrim V3 but without the performance hit I was getting with that. I also added some more sharpening to it. \r\nI have attached that file also now if anyone wants to give it a try. \r\n\r\nDrop a comment back to see how these tweaks go for you.\r\n\r\n\r\nEDIT:- Just added some screenshots of the PPI with the tweaked settings I\\'m using. There are before and after shots.",
+  "categoryId": "62",
+  "version": "",
+  "author": "marcusarillius",
+  "createdUnix": "1322362450",
+  "updatedUnix": "1322442759",
+  "containsAdultContent": false,
+  "uploadedBy": "marcusarillius",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "4721",
+      "name": "Marks_Shader_Tweak",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "82",
+      "fileName": "Marks_Shader_Tweak-1696.zip",
+      "uploadedUnix": "1322439202",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/0e2c63f8df03babcf33c87456a61a8397549555cada2936c92d15cbf2c12fb61/analysis/1406457122/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Marks_Shader_Tweak-1696.zip?fid=4721&ttl=1535755446&ri=8192&rs=8192&setec=257cde33621802b89dd1e2d030154e0b"
+    },
+    {
+      "fileId": "4740",
+      "name": "My config files",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "My config files-1696-1.zip",
+      "uploadedUnix": "1322442759",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/958ff7b1660b61a6824ae6ce42bff35c8704835bd80c25d965a518e65be0d259/analysis/1406457304/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/My%20config%20files-1696-1.zip?fid=4740&ttl=1535755446&ri=8192&rs=8192&setec=7e40311692eca83c334d4e7ee67f144a"
+    }
+  ]
+}

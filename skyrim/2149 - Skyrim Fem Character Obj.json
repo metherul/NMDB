@@ -1,0 +1,32 @@
+{
+  "modId": 2149.0,
+  "modName": "Skyrim Fem Character Obj",
+  "summary": "Complete Female Character quadrangulated and exported as OBJ.",
+  "descriptionHtml": "As requested, Ive exported the female character meshes from the game and converted it into an .Obj format.\r\nSince im a Maya and Mudbox user I also went ahead and got rid of most of the triangles leaving a (nearly) clean quads mesh. UVs are still the same and This is now ready for getting imported to any 3D application you want for painting own custom texture maps such as diffuse, spec, normal, etc. etc...\r\nYou are not allowed to use this file for other purposes than for texture painting.\r\nAll rights belong to Bethesda game studios.\r\nNote that this objs are saved with Y-Up. Not Z-Up as usual for games..\r\nDue to the single parts having different UV sets (Head, Body, Feet and Hands) I uploaded them all in their own file, you can easily import them, they will match up fine)\r\nFor those who dont know how to use this after importing into something like zBrush,Mari or Mudbox:\r\nAfter painting your texture maps you will need to export them into the so called .DDS format. Some applications dont support that file type so that you will need to export as a .png or .tga or something similar.. Open that in Photoshop and then export from there as .DDS.\r\nPS: You can use the default export optins - theyll work fine. After that just rename the files properly and place them into the right place inside your skyrim data folder...\r\nPPS: Normalmaps for characters have the 3Ds Max and NOT the Maya compatibility. Keep that in mind if you plan on doing normal maps... \r\nPPPS: It was kinda hard to edit the triangles on complex edgeflows so that I left some triangles at the mouth area, hands and some other smaller parts. Keep that in mind if you plan to subdivde the meshes...",
+  "categoryId": "82",
+  "version": "",
+  "author": "Adepts",
+  "createdUnix": "1322680360",
+  "updatedUnix": "1322681100",
+  "containsAdultContent": false,
+  "uploadedBy": "AdeptusAstrates",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "5643",
+      "name": "Female Character Obj",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "87",
+      "fileName": "Female Character Obj-2149-1.rar",
+      "uploadedUnix": "1322681100",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/3ef0719d03d4d1267617efc89f26698a081e056b72041ec33043505245e02541/analysis/1406462102/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Female%20Character%20Obj-2149-1.rar?fid=5643&ttl=1535756260&ri=8192&rs=8192&setec=2a9af022d085a9a8ef1e1278cbb40ba8"
+    }
+  ]
+}

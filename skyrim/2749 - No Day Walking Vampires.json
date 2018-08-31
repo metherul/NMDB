@@ -1,0 +1,48 @@
+{
+  "modId": 2749.0,
+  "modName": "No Day Walking Vampires",
+  "summary": "vampires burst into flames in the sun",
+  "descriptionHtml": "The file has gone through a transformation due to limitations of using tessnip, now if your a vampire you burst into flames and lose most of your health/magicka/stam...but it isnt constant drain anymore.\r\n\r\nstill trying to emplement making everyone run in fear during the day when your on fire.\r\n\r\n-stay tuned for my other vamp mods to help balance this one out, and when ck drops i will make many many many changes.\r\n\r\n\r\nversion 0.04b -Fixed descriptions in active abilities tab (still looking into the hidden one at the top) \r\n\r\n\r\nversion 0.03b -Removed constant health drain. as of right now without ck it breaks wait/travel because of how the script is run...it never stops running it just negates the effects, but game still sees it as a negative health effect on the character and blocks it...so i would have to rescript to prevent that....so need to wait for ck\r\n\r\nversion 0.02b- Lowered the damage speed enough for you to be able to run and get inside...lol",
+  "categoryId": "24",
+  "version": "0.04b",
+  "author": "Phorgotten99",
+  "createdUnix": "1323110541",
+  "updatedUnix": "1323397537",
+  "containsAdultContent": false,
+  "uploadedBy": "phorgotten99",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "7477",
+      "name": "VPNS",
+      "version": "0.04b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "VPNS-2749-0-04b.zip",
+      "uploadedUnix": "1323136591",
+      "modVersion": "0.04b",
+      "virusScanUrl": "https://www.virustotal.com/file/f99354ac8b549755a54a5dbf34510f0e87678a747c5d64382eff0d29f896b7bf/analysis/1406484543/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VPNS-2749-0-04b.zip?fid=7477&ttl=1535757225&ri=8192&rs=8192&setec=0ea27dee3a1649fb8bc79c9f1603830c"
+    },
+    {
+      "fileId": "8422",
+      "name": "VPNS_DEATH",
+      "version": "00",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "VPNS_DEATH-2749-00.zip",
+      "uploadedUnix": "1323397537",
+      "modVersion": "00",
+      "virusScanUrl": "https://www.virustotal.com/file/77ac583f37748a479d35d48e379b004280a3d19dbe2c9378156c5e3a5ee734bc/analysis/1406495910/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VPNS_DEATH-2749-00.zip?fid=8422&ttl=1535757225&ri=8192&rs=8192&setec=294378258d06f1e2f46063bbadced6b1"
+    }
+  ]
+}

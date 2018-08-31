@@ -1,0 +1,48 @@
+{
+  "modId": 1928.0,
+  "modName": "Less Talkative NPCs",
+  "summary": "Reduces the idle chatter and social conversations NPCs have between you, and themselves. \r\n",
+  "descriptionHtml": "---------------------------------\r\nDescription\r\n---------------------------------\r\n\r\nReduces the idle chatter and social conversations NPCs have between you, and themselves. \r\n\r\nThe game settings changed were:\r\n\r\nfCombatDialogueTauntMaxElapsedTime\r\n\t30 to 60\r\nfCombatDialogueTauntMinElapsedTime\r\n\t10 to 30\r\nfAISocialRadiusToTriggerConversation\r\n\t500 to 50\r\nfAIGreetingTimer\r\n\t5 to 40\r\nfAIExclusiveGreetingTimer\r\n\t2.5 to 30\r\nfAIForceGreetingTimer\r\n\t3 to 40\r\nfAIInDialogueModeWithPlayerDistance\t\r\n\t500 to 50\r\niAISocialDistanceToTriggerEvent\r\n\t200 to 50\r\nfIdleChatterCommentTimerMax\r\n\t20 to 60\r\nfIdleChatterCommentTimer\r\n\t10 to 30\r\nfCommentOnPlayerActionsTimer\r\n\t20 to 40\r\nfCombatDialogueAttackMinElapsedTime\r\n\t5 to 30\r\nfCombatDialogueAttackMaxElapsedTime\r\n\t10 to 60\r\nfAISocialTimerForConversationsMin\r\n\t10 to 30\r\nfAISocialTimerForConversationsMax\r\n\t30 to 90\r\nfAISocialRadiusToTriggerConversationInterior\r\n\t500 to 50\r\n\r\n---------------------------------\r\nInstall\r\n---------------------------------\r\nGo to: Drive Letter:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data\\\\\r\nFor those who don\\'t have bought the game on steam, the SkyrimPrefs.ini file is located in Drive Letter:\\\\Users\\\\[USERNAME]\\\\Documents\\\\My Games\\\\Skyrim\r\n\r\n1. Drop the chosen ESPs in that folder (I recommend storing the excess ones in their own folder, to stop clutter in the Data folder)\r\n2. Launch the Skyrim Launcher, and click on \\'Data Files\\'\r\n3. Tick the chosen ESPs and click \\'Ok\\'\r\n\r\n---------------------------------\r\nData Files grayed out?\r\n---------------------------------\r\nGo to: Drive Letter:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Skyrim\\\\SkyrimPrefs.ini\r\n\r\nFor those who don\\'t have bought the game on steam, the SkyrimPrefs.ini file is located in Drive Letter:\\\\Users\\\\<USERNAME>\\\\Documents\\\\My Games\\\\Skyrim\r\n\r\nAdd these lines, or change them if they already exist so they match the below:\r\n\t[Launcher]\r\n\tbEnableFileSelection=1\r\n\r\nIf that fails:\r\n\tGo to: Drive Letter:\\\\Users\\\\[USERNAME]\\\\AppData\\\\Local\\\\Skyrim\r\n\tMake the Skyrim folder un-read only.\r\n",
+  "categoryId": "33",
+  "version": "1.0",
+  "author": "Xylozi",
+  "createdUnix": "1322516481",
+  "updatedUnix": "1322587138",
+  "containsAdultContent": false,
+  "uploadedBy": "Xylozi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "4981",
+      "name": "Less Talkative NPCs",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Less Talkative NPCs-1928-1-0.zip",
+      "uploadedUnix": "1322516537",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0fb3613f31d0c80d30dee7d50f27d624e030fbd974f6d3036c7d50f0c4fa2b3a/analysis/1406327350/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Less%20Talkative%20NPCs-1928-1-0.zip?fid=4981&ttl=1535755819&ri=8192&rs=8192&setec=a235836bcc912eefa251c65eba38e238"
+    },
+    {
+      "fileId": "5237",
+      "name": "Less Talkative NPCs - No Combat Changes",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Less Talkative NPCs - No Combat Changes-1928.zip",
+      "uploadedUnix": "1322587138",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/535d573f2e2088193b85e8d28ec0f55d0fd797cb28ee2da9599911df50d907f4/analysis/1406329083/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Less%20Talkative%20NPCs%20-%20No%20Combat%20Changes-1928.zip?fid=5237&ttl=1535755820&ri=8192&rs=8192&setec=44bf40f211af8d1a109f84da06805708"
+    }
+  ]
+}

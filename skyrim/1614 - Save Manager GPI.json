@@ -1,0 +1,48 @@
+{
+  "modId": 1614.0,
+  "modName": "Save Manager GPI",
+  "summary": "Simple tool to manage multiple characters. Controlable with Pad, Mouse & Keyboard",
+  "descriptionHtml": "A simple tool to manage multiple characters. Simply start the program, check the settings and the program will do the rest\r\n\r\n[b]Control:[/b]\r\n\r\nPad: Select with the Stick, any button will start the game\r\n\r\nMouse: Select with move in any direction, left button will start the game\r\n\r\nKeyboard: Select with the cursor keys. Space/Return wil start the game\r\npress delete twice to delete a character\r\npress c twice to clone a character\r\n\r\n[b]Install:[/b]\r\n\r\nSimple decompress the 7z in any folder and start the SaveManager.exe\r\nThe Program will first ask for a Save-Game (you should found it under \\\\my documents\\\\my games\\\\skyrim\\\\saves), then for the game-execute (c:\\\\program files\\\\steam\\\\steamapps\\\\common\\\\skyrim\\\\TESV.exe).\r\n\r\n[b]Additional Settings:[/b]\r\n\r\nOpen the SaveManager.ini:\r\n\r\n; Needed Parameters:\r\n\r\nSaveFolder = D:\\\\Eigene Dateien\\\\My Games\\\\Skyrim\r\n\r\n; This is the folder, where all the save games are located\r\n\r\nStartProgram = steam://rungameid/72850\r\n\r\n; This Commandline will be launched, when you start a game. This can be a exe, a \r\n; link, a bat-file. In this example it start the Steam-Game 72850 (Skyrim)\r\n\r\n;Optional Parameters:\r\n\r\nStartPath = C:\\\\Spiele\\\\skyrim\\\\\r\n\r\n; When you have problem with skse_loader, add the path to skse_loader/skyrim \r\n\r\nFontTitle = Baby Kruffy\r\nFontText = Asimov\r\n\r\n; Change the Font for the Title/Name of the save and the text\r\n\r\nPackFiles = 10\r\n\r\n; When on launch in a Directory found more than (10+2) SaveGames, all older \r\n; Savegames will be packed in a saves.7z, only the latest 10 Savegames (without\r\n; autosave and quicksave) will remain. This will save much space.\r\n\r\nBackupSaves = 1\r\n\r\n; Every time, when a autosave or a quicksave is created, this save will be\r\n; backuped. Warning: You need much space on your HDD!\r\n\r\nBackupSavesDelete=3\r\n\r\n; What should happend with the Backup after the Game is closed?\r\n; 1= Delete the backup from autosaves, keep all Quicksaves-Backups\r\n; 2= Delete the backup from quicksaves, keep all autosaves-Backups\r\n; 3= Delete all backups\r\n; 4= Keep all backups (default)\r\n\r\nSkipLauncher = 1\r\n\r\n; This option should automatic press the start-button on the Skyrim-Launcher\r\n\r\n;SkipLauncherClass = #32770\r\n;SkipLauncherWindow = Skyrim\r\n;SkipLauncherChild = 5\r\n\r\n; This values identified the Launcher-Window-Name, Class and the number\r\n; of the Start-Button. Normaly you don\\'t need this values.\r\n\r\n[b]Optional Install:[/b]\r\n\r\nWhen you copy a \\\"SkyrimBooks_Gaelic.ttf\\\" in the directory of the save manager, this font will be used for headlines (Font can be found here: http://www.skyrimnexus.com/downloads/file.php?id=482)\r\nYou can modified the Background, when you edit the background.jpg.\r\n\r\n[b]How it work:[/b]\r\n\r\nThe program renames the folder simply \\\"Skyrim / saves\\\" according to the selected character, so the game can only see the savegames of the current character.\r\n",
+  "categoryId": "39",
+  "version": "1.6",
+  "author": "GPI",
+  "createdUnix": "1322314807",
+  "updatedUnix": "1326560964",
+  "containsAdultContent": false,
+  "uploadedBy": "GPI",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "14293",
+      "name": "SaveManager",
+      "version": "",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "168",
+      "fileName": "SaveManager-1614.7z",
+      "uploadedUnix": "1325000717",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/2c0a089843a5cccad166e1b861a97c7bc556b0e709444138bd7a0ac5fda3c3e9/analysis/1406562962/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SaveManager-1614.7z?fid=14293&ttl=1535755313&ri=8192&rs=8192&setec=6e79f07a3274c899458f35fa15992778"
+    },
+    {
+      "fileId": "19747",
+      "name": "SaveManger",
+      "version": "1.6",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "457",
+      "fileName": "SaveManger-1614.7z",
+      "uploadedUnix": "1326560964",
+      "modVersion": "1.6",
+      "virusScanUrl": "https://www.virustotal.com/file/daf8854750ecdc7e80b29e1b97f553bd1cc6b6fde2ec3b196251799b5483c36d/analysis/1406610605/",
+      "changelogHtml": " Mouse control changed - click on the save or use the mousewheel to scroll <br/> \n Change of rename: saves.<number>.<charactername> <br/> \n New Ini-Parameter: FontTitle and FontText <br/> \n New Parameter StartPath <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SaveManger-1614.7z?fid=19747&ttl=1535755314&ri=8192&rs=8192&setec=164e251f42cb2fefa9a054ad42666b96"
+    }
+  ]
+}

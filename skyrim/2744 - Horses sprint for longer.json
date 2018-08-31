@@ -1,0 +1,48 @@
+{
+  "modId": 2744.0,
+  "modName": "Horses sprint for longer",
+  "summary": "Makes horses sprint for a lot longer than normal before slowing down. Also they recover their strength quickly to sprint again.",
+  "descriptionHtml": "Horses sprint for longer for Skyrim\r\nVersion 1\r\n5.12.11\r\nby JPro6.\r\n\r\n\r\nABOUT\r\n\r\nThis mod makes Skyrim horses sprint for over 3 minutes at a time, compared with the default sprint time of a 18 seconds. Also, they recover their full sprint ability after only 10 seconds of not sprinting.\r\n\r\nThis mod works partly by increasing all horses to level 255, so a side effect is that horses have a bit more health than usual.\r\n\r\nThis mod is compatible with WheresMyPocket\\'s Faster Horses sprint speed mod but it\\'s not compatible with my Cowardly horses mod. For this reason there is a version of this mod which makes horses cowardly as well as making them sprint for longer (cowardly horses will flee when attacked instead of fighting). You can find it in the downloads section for this mod.\r\n\r\nPLEASE NOTE: This mod will only work on horses spawned using the console (or maybe if you start a new game). See under USAGE below for details of how to spawn horses.\r\n\r\n(An alternative to using this mod is to open the console, click your horse and type modav stamina 9999. This has the advantage of working with your current horse. I didn\\'t know about this before making this mod.)\r\n\r\n\r\nINSTALLATION\r\n\r\nCopy the file \\\"Horses sprint further.esp\\\" to your Skyrim\\\\Data folder. It should automatically be enabled but you can verify this by clicking the Data Files link in the Skyrim launcher and making sure it is checked.\r\n\r\nThis mod should also be installable with the Nexus Mod Manager.\r\n\r\n\r\nUSAGE\r\n\r\nPLEASE NOTE: This mod will not work with pre-existing horses. You must spawn a new horse at the console for it to work. (It may also work if you start a new game, I haven\\'t tried that).\r\n\r\nI have added the AI package \\\"DefaultStayatLocation\\\" to all the horses so they won\\'t wander off as they normally do when you spawn them via the console. They should stay where you leave them and also fast travel with you even if you are not on them, in other words behave exactly like owned horses.\r\n\r\nTo spawn horses open the console and type\r\n\r\nplayer.placeatme #####\r\n\r\nWhere ##### is one of the following codes:\r\n\r\n23ab2 Brown horse (saddled)\r\n68cfa Black horse (saddled)\r\n68d02 Black and white horse (saddled)\r\n68d03 Grey horse (saddled)\r\n68d04 Palomino horse (saddled)\r\n68d07 Black horse\r\n68d5b Brown horse\r\n68d6b Black and white horse\r\n68d6d Grey horse\r\n68d6e Palomino horse\r\n5f865 Karinda\r\n97e1e Frost\r\n9ccd7 Shadowmere\r\n\r\nIf you already own Frost or Shadowmere you might want to delete them before respawning them so you won\\'t have two copies of them. To delete a horse, open the console, click the horse, and type disable.\r\n\r\nNote: it is not advisable to have this mod active while you are doing the quest where you get Frost as it may break that quest. Install it afterwards or deactivate it before starting that quest (Promises to Keep, given by Louis Letrush in Riften).\r\n\r\nOne side effect of using a horse spawned via the console is that if it sees you being attacked it will not come to your aid as in the vanilla game. It will more likely just run away. However if someone attacks the horse itself it will defend itself. Also if you accidentally hit your horse it will attack you and won\\'t stop, so you will have to kill it and spawn another one. (If you want to avoid this happening, use the Cowardly version of this mod found in the downloads section).\r\n",
+  "categoryId": "24",
+  "version": "1",
+  "author": "JPro6",
+  "createdUnix": "1323107024",
+  "updatedUnix": "1323124778",
+  "containsAdultContent": false,
+  "uploadedBy": "jpro6",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "7428",
+      "name": "Horses sprint for longer",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Horses sprint for longer-2744.7z",
+      "uploadedUnix": "1323124751",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/0e34af213fec2f0d334eb1986a2094ec979bbbc1110e03b92d248f10d3e59fd3/analysis/1406483886/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Horses%20sprint%20for%20longer-2744.7z?fid=7428&ttl=1535757218&ri=8192&rs=8192&setec=fe1faece48727f160e5fdc1386ea966e"
+    },
+    {
+      "fileId": "7429",
+      "name": "Cowardly horses sprint for longer",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Cowardly horses sprint for longer-2744.7z",
+      "uploadedUnix": "1323124778",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/579be7323b83090a8159f18c5f18728fb24b869e299cdf39b59009e6ef611033/analysis/1406484003/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Cowardly%20horses%20sprint%20for%20longer-2744.7z?fid=7429&ttl=1535757219&ri=8192&rs=8192&setec=1408fcb48f82e8b6286462bd7b87cf0e"
+    }
+  ]
+}

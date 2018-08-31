@@ -1,0 +1,32 @@
+{
+  "modId": 1779.0,
+  "modName": "Eisen Platte Armor from TES4",
+  "summary": "porting a famous outfit in TES4",
+  "descriptionHtml": "** All credits give to the original TES4 mod author NPR (and his open license), I just port it from TES4.\r\n\r\n== INFORMATION ==\r\n  This mod now(V1.1) contains two version of the Eisen armor(black and white) and a customized esp file for not overwriting the vanilla ebony armor. Some minor rendering error still present, the problems will be solved once I figure out how the shader setting works in NIF records. \r\n*UPDATE FROM V1.0: fix the 1st-persion issue of hand display\r\n\r\n== HOW TO INSTALL ==\r\n1. just extract the archive to your data folder (for example: D:\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data)\r\n\r\n2. remember to enable armor_eisen.esp in Skyrim launcher, and then launch the game.\r\n\r\n3. in game, type \\'~\\' for entering the console\r\ntype some of follwoing lines for acquiring outfits by your favors\r\n\r\nNOTE: XX is usually 02 is you haven\\'t installed any other mods yet. If you get nothing by typing like \\\"player.additem 02000800 1\\\", try XX = 03, 04.....09, 0a,0b....0f, 10,11.....  until you get the Eisen stuff.\r\n\r\nplayer.additem XX000800 1                            => invisible boots used to hide vanilla feet \r\nplayer.additem XX000801 1                            => black cuirass\r\nplayer.additem XX000802 1                            => gauntlet\r\nplayer.additem XX000803 1                            => to wear white version cuirass\r\nplayer.additem XX000804 1                            => white version gauntlets\r\n\r\n4. wear these three items, then you will see it.\r\n\r\nOriginal TES4 mod link\r\nhttp://www.tesnexus.com/downloads/file.php?id=36939\r\n",
+  "categoryId": "54",
+  "version": "1.1",
+  "author": "NPR and invalidfate",
+  "createdUnix": "1322421408",
+  "updatedUnix": "1323192870",
+  "containsAdultContent": false,
+  "uploadedBy": "invalidfate",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "7639",
+      "name": "EisenArmorV11",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3317",
+      "fileName": "EisenArmorV11-1779-1-1.7z",
+      "uploadedUnix": "1323192870",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/3092a3bd1f9ebaaadc942183415778853ffb192fda36280ff711e91b0c70854b/analysis/1406486768/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/EisenArmorV11-1779-1-1.7z?fid=7639&ttl=1535755572&ri=8192&rs=8192&setec=68121a698f9b769b98943782ec3654d4"
+    }
+  ]
+}

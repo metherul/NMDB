@@ -1,0 +1,48 @@
+{
+  "modId": 2075.0,
+  "modName": "No Fast Travel",
+  "summary": "Not everyone has a strong willpower. This mod helps those of us who would rather fast travel wasn\\'t even an option.",
+  "descriptionHtml": "[b]= Description =[/b]\r\nThis mod disables fast travel, and monitors in the background to make sure it cannot be re-enabled. \r\n\r\n[b]= Requirements =[/b]\r\nThis plugin requires [url=http://alexander.sannybuilder.com/?category=other&altname=skyrim_script_dragon]Script Dragon[/url] in order to function.\r\n\r\n[b]= Installation =[/b]\r\nCopy the .asi file into your <skyrim>\\\\asi folder, NOT into your data folder.\r\nThat\\'s it!\r\n\r\n[b]= Uninstalling =[/b]\r\nDelete nofasttravel.asi from the install directory.\r\n\r\nSkyrim should probably reenable Fast Travel for you, but you can manually reenable it with:\r\n\\\"EnableFastTravel 1\\\"\r\n\r\n[b]= Frequently Asked Questions =[/b]\r\nQ: Is Script Dragon/this mod compatible with Skyrim Script Extender (SKSE)?\r\nA: Yes, 100%. Keep in mind that this mod requires Script Dragon, not SKSE.\r\n\r\nQ: This mod doesn\\'t work!\r\nA: Post in the comments and I\\'ll try to help you. Please post the version of Skyrim you are using, the version of the mod that you are using (please update to the latest! Redownload if you are unsure), and any relevant information.\r\n\r\n[b]= Credits =[/b]\r\nAlexander Blade, for authoring Script Dragon.\r\n\r\n[b]= Contact =[/b]\r\nNullCascade on the [url=http://www.bethsoft.com/bgsforums]Bethesda forums[/url] or Lordrea on the Nexus sites. Please let me know of any bugs or improvements.\r\n\r\n[b]= Source =[/b]\r\nAll of my modifications are released under public domain, except where another\\'s code is embedded. If you have a question, please feel free to contact me.\r\n\r\nThe source files can be found at [url=https://github.com/NullCascade/Null-s-Elder-Scrolls-Modifications]my GitHub page[/url].\r\n\r\n[b]= Change Log =[/b]\r\n1.0 - Initial release.\r\n1.1 - Updated for Script Dragon for Skyrim v1.2. Optimized.",
+  "categoryId": "78",
+  "version": "1.1",
+  "author": "NullCascade",
+  "createdUnix": "1322626308",
+  "updatedUnix": "1322886045",
+  "containsAdultContent": false,
+  "uploadedBy": "Lordrea",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "5443",
+      "name": "No Fast Travel v1-0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "25",
+      "fileName": "No Fast Travel v1-0-2075.zip",
+      "uploadedUnix": "1322626409",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3d394f80434f606febc6307ad8351114028bb24099eda99a88576319fcdc3a39/analysis/1406459653/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20Fast%20Travel%20v1-0-2075.zip?fid=5443&ttl=1535756136&ri=8192&rs=8192&setec=d1cdfece6f2b99f1ea1ae43a942ecc2f"
+    },
+    {
+      "fileId": "6421",
+      "name": "noFastTravel_v1-1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "32",
+      "fileName": "noFastTravel_v1-1-2075.zip",
+      "uploadedUnix": "1322886045",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/193b60030017d950423a2ba14a5070885c08405971eda4477d7edd1b31cf05c3/analysis/1406471643/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/noFastTravel_v1-1-2075.zip?fid=6421&ttl=1535756137&ri=8192&rs=8192&setec=510ba39170ee5dbe7ef59bf82d788250"
+    }
+  ]
+}

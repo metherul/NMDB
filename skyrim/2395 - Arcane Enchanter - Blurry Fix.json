@@ -1,0 +1,32 @@
+{
+  "modId": 2395.0,
+  "modName": "Arcane Enchanter - Blurry Fix",
+  "summary": "HD Fix to the blurry arcane enchanter texture.",
+  "descriptionHtml": "Every time I used an Arcane Enchanter I got bothered about that ugly blurry texture. The original texture is so blurred that the wood grains are almost unnoticeable making it look like a painted cardboard.\r\n\r\nThis quick mod fixes that by adding some detail in an upscaled normal map and by using a bigger diffuse texture, maintaining the original look and \\'spirit\\' of the enchanted wood table.\r\n\r\nP.S.: The real problem of the model is the shoddy UV mapping, the biggest surface, the table lid, is only 256x256 inside a 512x512 texture, which is a big no no. \r\nMy fix was done entirely by texture work, the blurry texture didn\\'t bother me enough to re-map the model again to preserve the original 512x512 texture size. It\\'s a 2048x2048 size texture now, a bit overkill for a table, but it works well.\r\n",
+  "categoryId": "85",
+  "version": "1",
+  "author": "TonyNinja",
+  "createdUnix": "1322861550",
+  "updatedUnix": "1323003011",
+  "containsAdultContent": false,
+  "uploadedBy": "TonyNinja",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "6848",
+      "name": "Arcane Enchanter - Blurry Fix",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6282",
+      "fileName": "Arcane Enchanter - Blurry Fix-2395-1-1.rar",
+      "uploadedUnix": "1323003011",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/9761e853144c5d0e60dc9f1fa5a0ec0154f1c822524e81c78191a880fd829d39/analysis/1406476689/",
+      "changelogHtml": " - Added Install instructions to .rar. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Arcane%20Enchanter%20-%20Blurry%20Fix-2395-1-1.rar?fid=6848&ttl=1535756624&ri=8192&rs=8192&setec=b24be23e74d1c6d4f13cbd78b598b6dc"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 2294.0,
+  "modName": "Jackalheads Monster Camera Fix",
+  "summary": "Fixes the camera when using player.setrace on monster races.",
+  "descriptionHtml": "NEW VERSION AVAILABLE:\r\nTo get the new version, which not only fixes the camera but also allows monsters to attack, go to:\r\n\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=8784\r\n\r\nOVERVIEW:\r\n\r\nAlright, so I decided to put together a compilation of camera fixes for every\r\nsingle creature in the game.  This allows you to use the player.setrace console\r\ncommand to transform into any creature you can think of.\r\n\r\nIf you\\'re unsure of the specific name of the monster you wish to turn into, simply\r\ntype in \\'FindForm Race (keyword, such as spider)\\'.  When you press ENTER, this\r\nwill return a list of races with that keyword in it such as \r\nFrostbiteSpiderRaceLarge.\r\n\r\nTo transform back into yourself, simply use the console to enter player.setrace\r\n(imperial, nord, argonian, etc).  Just enter whatever race you were to start with.\r\n\r\n\r\nINSTALLATION:\r\n\r\nInstallation is extremely simple.  Just extract the contents of the .RAR file\r\ninto your Data directory.\r\n\r\n\r\nIMPORTANT NOTES:\r\n\r\nIf you want to play as a skeleton, do skeletonrigidrace.  Not the original skeleton race, because that didn\\'t have camera fix.  They look exactly the same.\r\n\r\nAlso, if you want to be a skeleton or a draugr and have the camera work, you have to be male in this version.  Female versions don\\'t have the camera fix apply to them for some reason.  I\\'m hoping to fix this in the next version.  If you need to change your gender to male, enter showracemenu in the console.\r\n\r\nAt this point in development, non-bipedal monsters CAN NOT use their melee \r\nattacks!  The list of monsters with working melee attacks are below.\r\n\r\nDraugr\r\nGiant\r\nSkeleton\r\n\r\nThe list of creatures with working spell casting animations are below.\r\n\r\nFlame Atronach\r\nStorm Atronach\r\nDragon Priest\r\nChaurus (yes, you can cast spells from your mouth as a chaurus)\r\n\r\nThere may be more to each list, but I have not discovered them if there are.\r\nOnce the Construction Kit comes out, I\\'ll be releasing an updated version that\r\nalso allows ALL monsters to do melee attacks and possibly spell casting.\r\n\r\nBy the way, if you want to play as a Dragon, the only attacks you\\'ll be able to \r\ndo are Shouts at this point in development.  Simply equip a shout and use it to your\r\nheart\\'s content.  In the console, enter PSB to give yourself every spell and shout\r\nin the game.  This will enable you to use the DRAGON ONLY shouts, such as breathing\r\nfire.\r\n\r\nEQUIPPING SPELLS:\r\n\r\nThe spells *do* work.  There\\'s just a trick to it.\r\n\r\nFirst you have to set your race to whatever your original race was and unequip all weapons, spells and armor that are incompatible with the race you want to be.  Then you have to go into neutral stance (not attack mode).\r\n\r\nThen do player.setrace dragonpriest, for example.  While still in neutral stance, equip whatever spells you want to whichever hands you want.  THEN go into attack stance and your spells should show up.  To change spells, you MUST go into neutral stance first.\r\n\r\nSWITCHING VARIANTS OF THE MONSTERS YOU ARE PLAYING AS:\r\n\r\nIf you wish to play as a different variant of any monster, simply go under their\r\nfolder in meshes and rename whichever variant of the monster you want to appear as\r\nto the name of base nif file.  \r\n\r\nFor example, if you want to play as Alduin instead of the normal dragon, rename\r\nAlduin.NIF to dragon.NIF.  First, however, you\\'ll need to delete the original \r\ndragon.nif file.  ALWAYS MAKE A BACK UP!  ",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Jackalhead",
+  "createdUnix": "1322786981",
+  "updatedUnix": "1322794631",
+  "containsAdultContent": false,
+  "uploadedBy": "jackalhead",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "6100",
+      "name": "Jackalheads Monster Camera Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "368338",
+      "fileName": "Jackalheads Monster Camera Fix-2294-1-0.rar",
+      "uploadedUnix": "1322794631",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f0d73f9efeeac38591fd8b3204b02981e509732bdb6ee20e5277f014c5e7e1d1/analysis/1408369579/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jackalheads%20Monster%20Camera%20Fix-2294-1-0.rar?fid=6100&ttl=1535756493&ri=8192&rs=8192&setec=add32812755b40ae3a8077bf56f80378"
+    }
+  ]
+}

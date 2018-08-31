@@ -1,0 +1,48 @@
+{
+  "modId": 2318.0,
+  "modName": "Shout Combat and Skill System",
+  "summary": "This script causes Shouting to slowly raise the Speech skill, and causes the Speech skill to grant a small bonus to Shout recovery time.  It also adds 3 special Shout-related abilities that can be acquired by taking the Bribery, Persuasion, or Intimidation perks.",
+  "descriptionHtml": "[u][B]-Description-[/B][/u]\r\nThis script changes the way you\\'ll think about Shouting in combat -- now it\\'s a skill you can hone and focus on.  Shouting increases Speech, and Speech makes Shouts recover faster.  Additionally, those three unimpressive Speech perks, Bribery, Persuasion, and Intimidate, now have a use; they allow you to convert Health, Stamina, and Magicka (respectively) into Shout recovery.\r\n\r\n[u][B]-Detailed Changelist-[/B][/u]\r\n+ Every Shout increments your Speech skill by a small amount (6 * recovery time by default).  The amount is based on the Shout\\'s recovery time; two Shouts with 15 recovery time and one Shout of 30 recovery time increment Speech the same (small) amount.\r\n\r\n+ Speech affects your Shout recovery time -- a high Speech means you recover faster.  Using the default settings, your Shout recovery time reaches the maximum possible bonus of 50% when your Speech reaches 200.  As an example, a Speech of 40 is approximately a 10% recovery time bonus.\r\n\r\n+ If you have the Bribery perk, you can press \\'/\\' to convert Health directly to Shout recovery at a 6:1 ratio.  (The hotkey and the ratio can be configured in the .ini file.)  Until you press \\'/\\' again, while you have extra Health (it won\\'t go below 1) your Shouts will recover immediately.\r\n\r\n+ If you have the Persuasion perk, you can press \\'>\\' to convert Stamina directly to Shout recovery at a 6:1 ratio.\r\n\r\n+ If you have the Intimidation perk, you can press \\'<\\' to convert Magicka directly to Shout recovery at a 6:1 ratio.\r\n\r\nTo change the hotkeys, Speech skill gain rate, maximum shout recovery bonus, speech to shout recovery bonus ratio, or magicka/stamina/health conversion ratio, edit the shoutCombat.ini file.\r\n\r\nTo disable perk requirements for the abilities, set requirePerks=0 in the .ini file.  To disable the abilities entirely, set speechAbilities=0 in the .ini file.\r\n\r\n[u][B]-Disclaimer-[/B][/u]\r\nThis mod may be unbalanced, particularly at higher levels.  Please let me know what your opinions are and I may tweak the default values to be fairer.\r\n\r\n[u][B]-Changelog-[/B][/u]\r\n1.1 - speech skill increase now ignores speech-based skill bonuses when incrementing speech skill\r\nspeech increase rate set from 5 to 6\r\nadded .ini setting for abilities\r\nfixed a bug where you could shout yourself to death with health -> shout conversion when at full HP.\r\n1.0 - original version.\r\n\r\n[u][B]-Requirements-[/B][/u]\r\nRequires Script Dragon, found here: http://alexander.sannybuilder.com/?category=other&altname=skyrim_script_dragon\r\n\r\n[u][B]-Installation-[/B][/u]\r\n1. Install Script Dragon from the above link.\r\n2. Place shoutCombat.asi and shoutCombat.ini into your root Skyrim folder, alongside TESV.exe. Not the Data folder.\r\n\r\n[u][B]-Uninstalling-[/B][/u]\r\nDelete shoutCombat.asi and shoutCombat.ini.\r\n\r\n[u][B]-Credit-[/B][/u]\r\nThanks to Alexander Blade for Script Dragon. ",
+  "categoryId": "77",
+  "version": "1.1",
+  "author": "Eldiran",
+  "createdUnix": "1322804298",
+  "updatedUnix": "1323218968",
+  "containsAdultContent": false,
+  "uploadedBy": "Eldiran",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "6128",
+      "name": "Shout Combat and Skill System v1",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "45",
+      "fileName": "Shout Combat and Skill System v1-2318.zip",
+      "uploadedUnix": "1322804359",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8319bd130cd78d8830e48e7d8ab5999b5a2960f1d746cd78fa57215bcbafbca8/analysis/1406468229/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Shout%20Combat%20and%20Skill%20System%20v1-2318.zip?fid=6128&ttl=1535756524&ri=8192&rs=8192&setec=4462815eb04a91aece5cc460e13fceae"
+    },
+    {
+      "fileId": "7764",
+      "name": "Shout Combat and Skill System v11",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "45",
+      "fileName": "Shout Combat and Skill System v11-2318.zip",
+      "uploadedUnix": "1323218968",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/ae325e70ad19cb8edfea766db51f503030578ea0b35404ff216270635a620d24/analysis/1406488322/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Shout%20Combat%20and%20Skill%20System%20v11-2318.zip?fid=7764&ttl=1535756524&ri=8192&rs=8192&setec=8a9468c2c1da56be5ec2679a32b6e0fa"
+    }
+  ]
+}

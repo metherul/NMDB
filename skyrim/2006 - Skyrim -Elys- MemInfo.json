@@ -1,0 +1,32 @@
+{
+  "modId": 2006.0,
+  "modName": "Skyrim -Elys- MemInfo",
+  "summary": "This SKSE plugin will display Memory Usage and Frames per Seconds information on the top right corner of your screen.",
+  "descriptionHtml": "==========================================\r<br />Skyrim -Elys- MemInfo v0.9.8.4 pre-release\r<br />==========================================\r<br />\r<br />1. Description\r<br />2. Requirements\r<br />3. Installing\r<br />4. Optional Settings\r<br />5. Uninstalling\r<br />6. Backup\r<br />7. Conflicts/Known Errors\r<br />8. Credits\r<br />9. Contact and Information\r<br />10. Disclaimer\r<br />\r<br />\r<br />===============\r<br />1. DESCRIPTION\r<br />===============\r<br />\r<br />This plugin will display Memory Usage and Frames per Second information on the top right corner of your screen.\r<br />Use the ScrollLock key (or optionally the NumLock or CapsLock key) to show or hide the following values on your screen:\r<br />\r<br />VM : The maximum Virtual Memory Skyrim can address. \r<br />\r<br />MEM : The current amount in megabytes of physical memory used by Skyrim.\r<br />PF : The current amout in megabytes used by Skyrim in the Windows Pagefile.\r<br />\r<br />MEM PK: The highest value of MEM reached during the session.\r<br />PF PK: The highest value of PF reached during the session.\r<br />\r<br />FPS: Frames per Seconds.\r<br />\r<br />You also the possibility to display the MemInfo, Skyrim and SKSE versions, the open handles count, and a clock by tweaking the settings (See 4. Optional Settings section below)\r<br />\r<br />This plugin is mostly intented for testing purpose while tweaking Skyrim settings.\r<br />\r<br />================\r<br />2. REQUIREMENTS\r<br />================\r<br />\r<br />Skyrim version 1.1.21 or above is required.\r<br />Skyrim Script Extender ( http://skse.silverlock.org/download/skse_1_02_01.7z ) version 1.1 or above.\r<br />At least Windows XP SP1.\r<br />\r<br />==============\r<br />3. INSTALLING\r<br />==============\r<br />\r<br />Extract the content of this archive into your Skyrim folder.  ( by default the folder is &#34;C:&#92;Program Files (x86)&#92;Steam&#92;SteamApps&#92;common&#92;skyrim&#34; )\r<br />If correctly extracted you should find SKSE_Elys_MemInfo.dll inside your &#34;&lt;Skyrim installation folder&gt;&#92;DATA&#92;SKSE&#92;Plugins&#92;&#34;\r<br />\r<br />\r<br />==========================\r<br />4. OPTIONAL SETTINGS\r<br />==========================\r<br />\r<br />You have the possibility to set various details such as the toggle key, positions, fonts, colors, names and sizes by modifying SKSE_Elys_MemInfo.ini with a basic text editor such as Notepad.\r<br />\r<br />================\r<br />5. UNINSTALLING\r<br />================\r<br />\r<br />Delete SKSE_Elys_MemInfo.dll and SKSE_Elys_Uncapper.ini from your &#34;&lt;Skyrim installation folder&gt;&#92;DATA&#92;SKSE&#92;Plugins&#92;&#34;\r<br /> ( by default &#34;C:&#92;Program Files (x86)&#92;Steam&#92;SteamApps&#92;common&#92;skyrim&#92;DATA&#92;SKSE&#92;Plugins&#92;&#34; )\r<br />And then delete this SKSE_Elys_MemInfo_README.txt.\r<br />\r<br />===============\r<br />6. BACKUP\r<br />===============\r<br />\r<br />As a surviving golden rule, always backup all your save games before trying a new mod. Better safe than sorry. It applies to this mod as well.\r<br />\r<br />============================\r<br />7. CONFLICTS / KNOWN ERRORS\r<br />============================\r<br />\r<br />Some custom DirectX or DirectInput proxies/hooks used by game plugins or screen tools may conflict with this plugin.\r<br />\r<br />\r<br />===========\r<br />8. CREDITS\r<br />===========\r<br />\r<br /> Thanks to SKSE team for their nice work on Skyrim Script Extender :)\r<br /> Thanks to Bethesda for allowing us to mod Skyrim.\r<br />\r<br />===========================\r<br />9. CONTACT AND INFORMATION\r<br />===========================\r<br />\r<br />Elys on Bethesda Forums ( http://forums.bethsoft.com/ )\r<br />\r<br />===========================\r<br />10. DISCLAIMER\r<br />===========================\r<br />\r<br />This software is provided &#39;as-is&#39;, without any express or implied\r<br />warranty. In no event shall the authors be held liable for any damages\r<br />arising from the use of this software.",
+  "categoryId": "39",
+  "version": "0.9.8.4",
+  "author": "Elys",
+  "createdUnix": "1322579587",
+  "updatedUnix": "1337340062",
+  "containsAdultContent": false,
+  "uploadedBy": "Elys",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "62048",
+      "name": "Skyrim -Elys- MemInfo v0_9_8_4_PR",
+      "version": "0.9.8.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "119",
+      "fileName": "Skyrim -Elys- MemInfo v0_9_8_4_PR-2006-0-9-8-4.rar",
+      "uploadedUnix": "1337340062",
+      "modVersion": "0.9.8.4",
+      "virusScanUrl": "https://www.virustotal.com/file/9b584023299bff0dd782d8a6d4ead60c33e91a26501a257ea84b855d77f15a30/analysis/1406899922/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20-Elys-%20MemInfo%20v0_9_8_4_PR-2006-0-9-8-4.rar?fid=62048&ttl=1535755999&ri=8192&rs=8192&setec=d7b7e5d6820b371ae06ce7c657873bad"
+    }
+  ]
+}

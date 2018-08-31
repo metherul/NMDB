@@ -1,0 +1,15 @@
+{
+  "modId": 2108.0,
+  "modName": "Ambient Occlusion Trick",
+  "summary": "A small trick enables ambient occlusion on NVIDIA cards. Greatly improves the look of Skyrim.",
+  "descriptionHtml": "There is a simply trick to enforce ambient occlusion on nvidia cards: Download the newest beta driver and enable it in the nvidia control center. Or use nvidia Inspector to edit the Skyrim-profile and enable ambient occlusion there. You might want to change your bTreesReceiveShadows setting afterwards. See images for details.\r\n\r\nThis trick was not my idea. I am just spreading this here because I found this very helpful and this technique seem not to be overly well known. I hope others might find this useful, like I did.\r\n\r\nSee original author\\'s description decription of this video:\r\nhttp://www.youtube.com/watch?v=i7Z8RKcCnJA\r\n\r\nRemarks:\r\n-Works fine with post process injector.\r\n-If someone know how to do this on ATI cards, please post in comments and I will change description accordingly.\r\n-An excellent in-depth description of this and other teaks can be found at (thx ActiusRex):\r\nhttp://www.geforce.com/Optimize/Guides/five-fast-elder-scrolls-v-skyrim-tweaks-guaranteed-to-make-your-game-look-even-better\r\n- In spots such as foggy caves, ambient occlusion can look bad.",
+  "categoryId": "62",
+  "version": "",
+  "author": "McLoud",
+  "createdUnix": "1322650140",
+  "updatedUnix": "1322650140",
+  "containsAdultContent": false,
+  "uploadedBy": "McLoud",
+  "primaryFile": null,
+  "files": []
+}

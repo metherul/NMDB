@@ -1,0 +1,32 @@
+{
+  "modId": 2580.0,
+  "modName": "Smooth Dragon Runes",
+  "summary": "Get rid of nasty pixelated edges on yer Dragon Runes!",
+  "descriptionHtml": "Smooth Dragon Runes 1.0\r\n\r\n\r\n---Description---\r\n\r\nA very simple tiny adjustment to the alpha-channel of Dragon Runes texture, in order to get rid of nasty pixelated edges ingame. Texture was also upscaled from 1024 to 2048 in order to smooth edges even more. Color/normal/specular is not touched.\r\n\r\nI know, it\\'s a tiny detail, but it\\'s something that has been bothering me since the first time I walked up to one of these walls. So now there\\'s at least something of a fix available for anyone else who feels the same (:\r\n\r\n\r\n---Install/uninstall---\r\n\r\nExtract into your data-folder or use Nexus Mod Manager. Uninstall by deleting data/textures/dungeons/dragonrunealphabet.dds or deactivate and delete package in Nexus Mod Manager.\r\n\r\n[color=red][b][u]IMPORTANT STEP FOR ANYONE USING THE OFFICIAL TEXTURE-PACK:[/u][/b][/color]\r\n\r\nHow to use the new Official Hi-Res texture pack with user created mods: \r\n\r\n1. Disable or delete the esps that came with the official texture pack. \r\n\r\n2. Backup then open \r\nSteamAppsCommonSkyrimSkyrim_default.ini \r\n& \r\nDocumentsMy GamesSkyrimSkyrim.ini \r\n\r\n3. Change this in both files: \r\n[Archive] \r\nsResourceArchiveList=Skyrim - Misc.bsa, Skyrim - Shaders.bsa, Skyrim - Textures.bsa, Skyrim - Interface.bsa, Skyrim - Animations.bsa, Skyrim - Meshes.bsa, Skyrim - Sounds.bsa\r\n \r\nTo this: \r\n[Archive] \r\nsResourceArchiveList=Skyrim - Misc.bsa, Skyrim - Shaders.bsa, Skyrim - Textures.bsa, Skyrim - Interface.bsa, Skyrim - Animations.bsa, Skyrim - Meshes.bsa, Skyrim - Sounds.bsa, HighResTexturePack01.bsa, HighResTexturePack02.bsa\r\n \r\n4. Save both files. \r\n\r\n\r\nNow user created mods will be able to override what they need to override in the official texture pack.\r\n\r\n(Thanks to TheOutlander for this quote)\r\n\r\n\r\n---Permissions/Contact---\r\n\r\nAnyone can use this in their mod/package as long as I\\'m notified and given proper credits in readme. Just throw me (Mr. Bravo) a PM here on Skyrimnexus. Do not upload this on any other site than skyrimnexus without permission!\r\n",
+  "categoryId": "29",
+  "version": "1.0",
+  "author": "Mr Bravo",
+  "createdUnix": "1322990381",
+  "updatedUnix": "1322990682",
+  "containsAdultContent": false,
+  "uploadedBy": "Mr. Bravo",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "6819",
+      "name": "Smooth Dragon Runes",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2025",
+      "fileName": "Smooth Dragon Runes-2580.rar",
+      "uploadedUnix": "1322990682",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6fbeb609718a97976f0f605334315d28a4d15758ba1c019f5fc55a4f8defda30/analysis/1406476402/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Smooth%20Dragon%20Runes-2580.rar?fid=6819&ttl=1535756898&ri=8192&rs=8192&setec=462f5254bc1fa60bf6890966ad4aa057"
+    }
+  ]
+}

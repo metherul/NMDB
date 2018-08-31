@@ -1,0 +1,32 @@
+{
+  "modId": 2345.0,
+  "modName": "Reduce Grass Density",
+  "summary": "A simple edit to your skyrim.ini file to change the density of grass. May slightly raise your FPS in outside areas.",
+  "descriptionHtml": "Locate your skyrim.ini file. It should be in your My Documents\\\\My Games\\\\Skyrim\\\\ folder.\r\n\t\tBackup this file before editing if you have little experiance in editing ini files.\t\t\r\n\t\tDo not replace your skyrim.ini file with included file, it only contains the grass info.\r\n\t\tLocate the [Grass] header and insert the following text so it will look like this...\r\n\r\n\t\t[Grass]\r\n\t\tb30GrassVS=0\r\n\t\tbAllowCreateGrass=1\r\n\t\tbAllowLoadGrass=0\r\n\t\tiMinGrassSize=100\r\n\r\n\t\tYou can change the iMinGrassSize to show more or less grass.\r\n\t\tHigher numbers = less grass. Try between 50 and 150 and see what works best for you.",
+  "categoryId": "74",
+  "version": "1.0",
+  "author": "Kronixx",
+  "createdUnix": "1322835592",
+  "updatedUnix": "1322836026",
+  "containsAdultContent": false,
+  "uploadedBy": "kronixx",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "6240",
+      "name": "Grass_Density",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "241",
+      "fileName": "Grass_Density-2345-1-0.rar",
+      "uploadedUnix": "1322836026",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/98e5e3bde0ca7edbcfeec67ea277feb37d1b36b96de1edf3ff488c2b44bea58d/analysis/1406469423/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Grass_Density-2345-1-0.rar?fid=6240&ttl=1535756568&ri=8192&rs=8192&setec=845c55bdc65d1bc51b8ee6e5046857f8"
+    }
+  ]
+}

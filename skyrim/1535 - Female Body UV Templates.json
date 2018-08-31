@@ -1,0 +1,32 @@
+{
+  "modId": 1535.0,
+  "modName": "Female Body UV Templates",
+  "summary": "This package contains a set of UV Texture Templates for the (humanoid) female in layered .psd format. The templates are based on the \\\"femalebodyastrid\\\" mesh, which is being used for various \\'nude\\' patches, but is the same template that would be used for clothed models (ie. the \\\"femalebody.dds\\\" texture(s)).",
+  "descriptionHtml": "Female Body UV Templates - by Phygit\r\n========================================\r\n\r\nDetails:\r\n------------\r\nThis package contains a set of UV Texture Templates for the (humanoid) female in layered .psd format. The templates are based on the \\\"femalebodyastrid\\\" mesh, which is being used for various \\'nude\\' patches, but is the same template that would be used for clothed models (ie. the \\\"femalebody.dds\\\" texture(s)).\r\n\r\nRequirements:\r\n------------\r\nA paint program that can read .psd (PhotoShop) files.\r\n\r\nContents:\r\n------------\r\nThere are 2 resolutions for each template - the size used by default in the game and another that is 2x as large...\r\n\r\n- femalebody_1k_txtmpl.psd\r\n- femalebody_2k_txtmpl.psd\r\n\r\n- femalehead_base_512_txtmpl.psd\r\n- femalehead_base_1k_txtmpl.psd\r\n\r\n- femalehands_1024x512_txtmpl.psd\r\n- femalehands_2048x1024_txtmpl.psd\r\n\r\n...I purposely did not include any 4k-sized templates (or 2k head templates) because I don\\'t want to encourage anyone to make such resource-hogging textures (feel free to scale these up if you really feel the need).\r\n\r\nUsage:\r\n------------\r\nDownload/move the archive somewhere useful to you and unzip it there. Each .psd file has 3 layers...\r\n\r\nUV Template - this is the actual mesh UV template, that shows where the individual polygons get the pixels.\r\nTexture     - this layer is just a stand-in for your texture (it\\'s a solid color-fill, that is expanded a few pixels outside the UV borders).\r\nBackground  - this layer is just another solid color-fill layer.\r\n\r\n...basically, you can do whatever you want with the files and/or layers - they are just meant to help as a guide/template.\r\n\r\n{NOTE: The files also have an alpha/mask channel set to the UV-lines-only, so you can load a selection from alpha-channel, etc.}\r\n\r\nPermissions:\r\n------------\r\nDo whatever you want with the files.\r\n",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "Phygit",
+  "createdUnix": "1322260546",
+  "updatedUnix": "1322260747",
+  "containsAdultContent": false,
+  "uploadedBy": "Phygit",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "3973",
+      "name": "Female_Templates_v1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2784",
+      "fileName": "Female_Templates_v1-1535.zip",
+      "uploadedUnix": "1322260747",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3eab2a3d72a2344438cbfd4f6f38ab2f6a14436bdcfe0ee36b932628d09d6c50/analysis/1406447884/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Female_Templates_v1-1535.zip?fid=3973&ttl=1535755176&ri=8192&rs=8192&setec=e216ccb508ac927824350f7cfc056dcb"
+    }
+  ]
+}

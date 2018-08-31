@@ -1,0 +1,48 @@
+{
+  "modId": 1767.0,
+  "modName": "Horse Whistle",
+  "summary": "Gives you the ability to \\\"whistle\\\" for your horse!",
+  "descriptionHtml": "Horse Whistle 0.0.2\r\n---------------------------\r\n\r\nCurrently this mod is incredibly basic. All it does is attempt to find a reference to your last ridden horse, and tell the game to have it path to your current location. I\\'m not sure what happens when the horse is in an unloaded cell, but it works with horses in the same cell.\r\n\r\nKnown Issues\r\n-------------------\r\n\r\nCurrently I cannot find a way to make the horse path to the player at more than the slow-walk speed. \r\n\r\nRequirements\r\n-------------------------\r\n\r\nScriptDragon 1.1.21 (get it here: http://forums.bethsoft.com/index.php?/topic/1292671-rel-script-dragon/)\r\n\r\nInstallation\r\n---------------------\r\n\r\nUnzip and copy \\'horsewhistle.asi\\' and \\'horsewhistle.ini\\' to your Skyrim install folder (not the Data folder).\r\n\r\n(Optional) Change the keybind in the horsewhistle.ini (default is Numpad 4).\r\n\r\nChangelog\r\n-------------------\r\n\r\n0.0.2: Added INI options for disabling messages and/or error messages (messages are disabled by default, set print_messages in [misc] to 1 to enable).",
+  "categoryId": "24",
+  "version": "0.0.2",
+  "author": "n00854180t",
+  "createdUnix": "1322414621",
+  "updatedUnix": "1322422780",
+  "containsAdultContent": false,
+  "uploadedBy": "n00854180t",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "4618",
+      "name": "horsewhistle0_0_1",
+      "version": "0.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "44",
+      "fileName": "horsewhistle0_0_1-1767-0-0-1.zip",
+      "uploadedUnix": "1322414758",
+      "modVersion": "0.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/de46a9adee992423b221c4bdf9965084cbc2cea863e979658c0aa691865cbfe8/analysis/1406455873/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/horsewhistle0_0_1-1767-0-0-1.zip?fid=4618&ttl=1535755556&ri=8192&rs=8192&setec=b5d3ea95a8d7e598697dda0f742b39c6"
+    },
+    {
+      "fileId": "4653",
+      "name": "horsewhistle0_0_2",
+      "version": "0.0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "44",
+      "fileName": "horsewhistle0_0_2-1767-0-0-2.zip",
+      "uploadedUnix": "1322422780",
+      "modVersion": "0.0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/ebb70d26c22ea15ae173cef3bfb728682995ea82a7921ffc4922f12be18c9131/analysis/1406456402/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/horsewhistle0_0_2-1767-0-0-2.zip?fid=4653&ttl=1535755557&ri=8192&rs=8192&setec=ca9d46591db77dc02b441408ad759397"
+    }
+  ]
+}

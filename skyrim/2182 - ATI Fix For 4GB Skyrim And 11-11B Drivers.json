@@ -1,0 +1,32 @@
+{
+  "modId": 2182.0,
+  "modName": "ATI Fix For 4GB Skyrim And 11-11B Drivers",
+  "summary": "Are you an ATI user whose Skyrim performance depends on 11.11B or later ATI drivers?\r\n\r\nDo you also depend on 4GB Skyrim for max settings or mods?\r\n\r\nFeel forced to choose? This file is for you! You are no longer forced to choose between high settings + mods or good performance.",
+  "descriptionHtml": "As it is, 4GB Skyrim conflicts with the latest ATI drivers. When launching via the new launcher, the drivers will not recognize Skyrim as Skyrim. This fix aliases TESV.exe.4gb into TESV.exe as far as the graphics drivers are concerned, enabling the performance optimizations of the updated drivers with the stability fix from the LAA launcher. This is not the same atiumdag.dll that circulated when Skyrim launched, though it was created using RadeonPRO. \r\n\r\nI do not recommend using RadeonPRO or other per-application GPU settings changers with this fix, although you are welcome to try and report your failure / success in the comments. I strongly suspect RadeonPRO would either delete or try to overwrite this file. \r\n\r\nTo install, simply extract to your main Skyrim folder (the one with TESV.exe).\r\n\r\n===IMPORTANT===\r\n\r\nThis fix will do absolutely NOTHING for you if you are not running optimized drivers! That means Catalyst 11.11A or later! All this does is trick the driver into treating the 4GB exe as the original! If you are not running these new drivers, this will do nothing for you. if you are it still might do very little. \r\n\r\nFORWARD COMPATIBLE! Unless something radical changes at ATI this is forward compatible. It may eventually break if ATI changes the way their drivers detect games. Also, there is now a way to fix the issue with just the latest Skyrim4GB Loader.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Myounage",
+  "createdUnix": "1322702761",
+  "updatedUnix": "1322702825",
+  "containsAdultContent": false,
+  "uploadedBy": "myounage",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "5745",
+      "name": "Driver Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1668",
+      "fileName": "Driver Fix-2182-1-0.zip",
+      "uploadedUnix": "1322702825",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e378f54311d0bcee49c27dff6c343c3fa7d449210b292741924b44cbcaa9eb11/analysis/1406463183/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Driver%20Fix-2182-1-0.zip?fid=5745&ttl=1535756303&ri=8192&rs=8192&setec=abdd4c8761d237f2f1dc0c6bedab0692"
+    }
+  ]
+}

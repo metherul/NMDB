@@ -1,0 +1,48 @@
+{
+  "modId": 2266.0,
+  "modName": "Enable Kill Moves Only For Player",
+  "summary": "This script sets KillMove to 0 at all times except for when the player is swinging a weapon.  This means that, effectively, only the player may make cinematic kill moves.",
+  "descriptionHtml": "-Description-\r\nThis script sets KillMove to 0 at all times except for when the player is swinging a weapon or bashing with a shield.  This means that, effectively, only the player may make cinematic kill moves.\r\n\r\nKeep in mind that you may still, rarely, be hit by a kill move if you are in the middle of an attack (swinging your weapon or having an arrow notched in your bow).\r\n\r\n-Requirements-\r\nRequires Script Dragon, found here: http://alexander.sannybuilder.com/?category=other\r\n\r\n-Installation-\r\n1. Install Script Dragon from the above link.\r\n2. Place killmovesAttack.asi into your root Skyrim folder, alongside TESV.exe. Not the Data folder.\r\n\r\n-Uninstalling-\r\nDelete killmovesAttack.asi.\r\n\r\n-Credit-\r\nThanks to Alexander Blade for Script Dragon. ",
+  "categoryId": "77",
+  "version": "1.0",
+  "author": "Eldiran",
+  "createdUnix": "1322772898",
+  "updatedUnix": "1324331184",
+  "containsAdultContent": false,
+  "uploadedBy": "Eldiran",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "5988",
+      "name": "Kill Moves Only for Player",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "34",
+      "fileName": "Kill Moves Only for Player-2266.zip",
+      "uploadedUnix": "1322772983",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/aa9731f3fa4a8f67d969fd698ee3352e026471e1958fb617cf33156c6697c50b/analysis/1406466543/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Kill%20Moves%20Only%20for%20Player-2266.zip?fid=5988&ttl=1535756448&ri=8192&rs=8192&setec=00b69222236becbe28c74da691529407"
+    },
+    {
+      "fileId": "12114",
+      "name": "Kill Moves Only for Player - Sneaking",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "34",
+      "fileName": "Kill Moves Only for Player - Sneaking-2266.zip",
+      "uploadedUnix": "1324331184",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7d84edecf1dcf3e2f847009fed54d2ceb3605a9f89dfe977620c78516bb3ad58/analysis/1406537642/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Kill%20Moves%20Only%20for%20Player%20-%20Sneaking-2266.zip?fid=12114&ttl=1535756449&ri=8192&rs=8192&setec=cb1b962304be347a50aa31e61d46ed0f"
+    }
+  ]
+}

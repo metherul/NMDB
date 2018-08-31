@@ -1,0 +1,32 @@
+{
+  "modId": 2808.0,
+  "modName": "Ancient Nord Armor 1st Person Fix",
+  "summary": "Fixes the missing armbands of the Ancient Nord Armor in first person.",
+  "descriptionHtml": "There is a serious corruption of data with the mesh 1stpersondraugrarmormale_0 in which the arm bands of the armor simply do not render in game if you play a male with any body weight other than maximum. \r\n\r\n It is probably a UV or skin issue, but the ONLY way I could fix it was to copy and paste the armband mesh from the functional 1stpersondraugrarmormale_1 mesh (the one that governs a body set to maximum weight).   With Nifskope in its current state, it is impossible to resize or move the armbands (again the data is corrupted immediately upon doing this).  \r\n\r\nAs a result, you can see that the armbands are a little large in first person on the skinny arm, but this is the best I can do.  I\\'d much rather play with this than a missing section of arm and I hope you all agree!  \r\n\r\nMy other mods:\r\nLinwe Armor First Person Fix - http://skyrimnexus.com/downloads/file.php?id=1956\r\nBarbarian Thief armor - http://skyrimnexus.com/downloads/file.php?id=2094\r\nGil Hibben Dagger Replacements - http://skyrimnexus.com/downloads/file.php?id=4950\r\nSpartan Armor - http://skyrimnexus.com/downloads/file.php?id=2198",
+  "categoryId": "54",
+  "version": "",
+  "author": "Solidus2845",
+  "createdUnix": "1323154362",
+  "updatedUnix": "1323154414",
+  "containsAdultContent": false,
+  "uploadedBy": "solidus2845",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "7532",
+      "name": "Ancient Nord Armor Fix",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "33",
+      "fileName": "Ancient Nord Armor Fix-2808-1.rar",
+      "uploadedUnix": "1323154414",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/96e08d8a36cf44a29f0dec54a908e98926cb638cbb5219cc94610f039d0c696e/analysis/1406485262/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ancient%20Nord%20Armor%20Fix-2808-1.rar?fid=7532&ttl=1535757309&ri=8192&rs=8192&setec=a8436e3e03a1dd84b7eec19db32f552a"
+    }
+  ]
+}

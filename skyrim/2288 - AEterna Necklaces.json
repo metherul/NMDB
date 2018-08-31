@@ -1,0 +1,48 @@
+{
+  "modId": 2288.0,
+  "modName": "AEterna Necklaces",
+  "summary": "Here I will try to modify standard necklaces used in Skyrim game.",
+  "descriptionHtml": "AEterna Neckleces\r\n---------------------------\r\n\r\n( If you are looking for baubles look also here: http://skyrimnexus.com/downloads/file.php?id=1994\r\nand here: http://skyrimnexus.com/downloads/file.php?id=2721 )\r\n\r\nThis is a modification of standard necklaces you can find everywhere in game. After installing this mod there will be few standard necklaces with my ornament engraved on their medallions. They have been made in increased resolution (1024x1024) and they have their own light maps.\r\n\r\nTechnically there is only one type of so called \\\"standard\\\" necklace. Here I created nothing new, only modified the standard item. Those necklaces are everywhere in the game world. if you want to see them now you can use the console and enter:\r\n\r\nplayer.additem XXXXX 1\r\n\r\nwhere XXXXX is of course the code of some necklace you want to have in your inventory and \\'1\\' of course means you want one such item. (My version of necklace is not unique) Look here: http://skyrimnexus.com/downloads/file.php?id=35 to find PDF file with all item codes. For necklaces search the contents using \\\"neck\\\" phrase ;-) ( I did it myself to check whether every \\\"standard\\\" necklace looked proper after my modification )  Generally \\\"standard\\\" necklaces only differ in chain color, ornament color and medallion background color (the surface of the medallion) and one or three jewels can be attached to them. Actually the game itself chooses the necklace color, the gem color and their number in case of different kind of \\\"standard\\\" amulets.\r\n\r\nDue to above limitations and lack of Bethesda Construction Kit you can use one file at a time.\r\nFor now at least I don\\'t see the manner to use them simultaneously in the game without mentioned CS.\r\n\r\nInstallation\r\n----------------\r\nThere are two methods:\r\n\r\n1. if you don\\'t use Nexus Mod Manager, simply download one of the ZIP files, extract it and copy the contents to your Skyrim installation folder. But be aware: if you have another necklace mod already installed and you don\\'t want to lose it then better backup two files in the folder ..\\\\Data\\\\textures\\\\armor\\\\amuletsandrings. Those files are: \r\ngenericamulets.dds \r\ngenericamulets_n.dds.\r\n\r\n2. If you use Nexus Mod Manager, click \\'Download with Manager\\'. The rest you should know.\r\n\r\nUninstallation\r\n---------------------\r\nFor those who use Nexus Mod Manager I will not explain what to do :-)\r\n\r\nTo uninstall the mod manually:\r\na) From the folder ..\\\\Data\\\\textures\\\\armor\\\\amuletsandrings remove following files:\r\ngenericamulets.dds \r\ngenericamulets_n.dds\r\nb) If you made backup of your previous files put them back into ..\\\\Data\\\\textures\\\\armor\\\\amuletsandrings folder.\r\n\r\nAEterna\r\n(aeterna826) ",
+  "categoryId": "54",
+  "version": "1.0",
+  "author": "aeterna826",
+  "createdUnix": "1322780929",
+  "updatedUnix": "1322781465",
+  "containsAdultContent": false,
+  "uploadedBy": "aeterna826",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "6038",
+      "name": "Gold or silver dragon on dark background",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1106",
+      "fileName": "Gold or silver dragon on dark background-2288.zip",
+      "uploadedUnix": "1322781242",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d388307c391b582446f3671ab29eff4d087142467a4412942726e4dfdb6f8d8b/analysis/1406467209/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Gold%20or%20silver%20dragon%20on%20dark%20background-2288.zip?fid=6038&ttl=1535756484&ri=8192&rs=8192&setec=d6577a1864a8f57e9e10059ae0e399d8"
+    },
+    {
+      "fileId": "6039",
+      "name": "Dark dragon on gold or silver background",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1143",
+      "fileName": "Dark dragon on gold or silver background-2288-1-0.zip",
+      "uploadedUnix": "1322781465",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/14b3182fc154ace53cab348e8dc7c0eaef11ec3a8c507507d28b8982a32d1c2e/analysis/1406467211/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dark%20dragon%20on%20gold%20or%20silver%20background-2288-1-0.zip?fid=6039&ttl=1535756485&ri=8192&rs=8192&setec=a499b76b5a20a00bad63bbc46d67b926"
+    }
+  ]
+}

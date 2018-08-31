@@ -1,0 +1,48 @@
+{
+  "modId": 2801.0,
+  "modName": "Bard music replacement by Malukah",
+  "summary": "An in-game replacement of the female bard\\'s \\'The Dragonborn Comes\\' songs with a shortened version of Malukah\\'s brilliant song",
+  "descriptionHtml": "[color=orange]This song was performed by Malukah and not by myself. See the link below for the original video. She has granted permission for the use of her song, in this mod. (citation: [url=https://twitter.com/#!/malukah/status/141823763523178496]twitter post[/url]) [/color]\r\n\r\nDue to the popular request of replacing the in-game female bard\\'s \\\"The Dragonborn Comes\\\" songs with Malukah\\'s cover, I\\'ve created this mod to fulfill that need. You\\'ll find the cited requests and discussion on this mod/thread in [url=http://www.skyrimnexus.com/downloads/file.php?id=2101]Intro music replacement by Malukah[/url].\r\n\r\nYou can use either the Nexus Mod Manager (give it time), or manually download the file and extract the contents to your Data\\\\ folder.\r\n\r\nThe process to include this masterpiece was [b]not as simple as I thought it would be[/b]. I extracted the .FUZ files from Skyrim - Voices.bsa, converted Malukah\\'s official .MP3 to .WAV, shortened it to just \\\"The Dragonborn Comes\\\" section, increased the volume levels and ran it through a compressor to avoid clipping, then converted it to .XWM, and injected it into the proper .FUZ files. See the [color=yellow]Bugs: Detailed[/color] section for more information.\r\n\r\n[color=green]Update 0.9a[/color] - I\\'ve reduced her song volume by 15 db and did not pass it through a compressor. For whatever reason the playback volume for music and voice files is very different and somehow I didn\\'t catch that the first time. The bards should now sing sweetly without FUS RO DAH\\'ing your ears off.\r\n\r\n[color=yellow]Bugs: Simplified[/color]\r\nThe bard\\'s lips will not synch to the new audio file. Those of you who have subtitles enabled will see a short spam of song text after it is completed, but with no lasting or audible effects. Those of you without subtitles will not see the spam.\r\n\r\n[color=yellow]Bugs: Detailed[/color]\r\nThe bard songs are split into multiple .FUZ files, per verse of the song, and each .FUZ has a combined. XWMA audo file and a .LIP lip-synching file. Currently I do not know how to make new .LIPs so the injected song does not synch up to the original .LIP file. As for the song replacement itself, I swapped the first verse of the bard song with the entirety of Malukah\\'s because splitting a reverb-heavy song sounds [b]ghastly[/b]. Because of this, when the first \\\"Verse\\\" finishes and Malukah\\'s song ends, the game still plays the next audio files as defined ... somewhere. Because of this I\\'ve replaced the remaining The Dragonborn Comes verses with very short silence. This avoids the problem of the bard continuing after Malukah\\'s song is completed, but we\\'re left with text spam on subtitles as the game rushes through the now-empty verse .FUZ files. For both the new .LIP and subtitle text spam, I have no solution and am open to suggestions from those wiser than I.\r\n\r\n[url=http://youtu.be/4z9TdDCWN7g?hd=1]Her video, showcasing the original song[/url]\r\n[color=orange]I also want to thank [url=http://www.thenexusforums.com/index.php?/user/2802927-agnahim]Agnahim[/url] for his research on .FUZ hacking[/color]",
+  "categoryId": "61",
+  "version": "0.9a",
+  "author": "Malukah for the song and Nodus Cursorius for everything else",
+  "createdUnix": "1323140770",
+  "updatedUnix": "1323205882",
+  "containsAdultContent": false,
+  "uploadedBy": "NodusCursorius",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "7486",
+      "name": "Bard music replacement by Malukah",
+      "version": "0.9",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "430",
+      "fileName": "Bard music replacement by Malukah-2801.7z",
+      "uploadedUnix": "1323140885",
+      "modVersion": "0.9",
+      "virusScanUrl": "https://www.virustotal.com/file/e885e5bdf1acec1dadf656eda9e3b0cae9d78b6b041b9a5434bd274ca5038c33/analysis/1406484748/",
+      "changelogHtml": " Malukah\\'s Song has been shortened to just The Dragonborn Comes <br/> \n The song has also been increased in volume, compressed, and converted to .WAV then .XWM <br/> \n Replaced the first verse of the female bard\\'s .FUZ \\\"The Dragonborn Comes\\\" with the above Malukah\\'s song <br/> \n Replaced all other .FUZ files related to the female bard\\'s \\\"The Dragonborn Comes\\' with silence to prevent silliness <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bard%20music%20replacement%20by%20Malukah-2801.7z?fid=7486&ttl=1535757300&ri=8192&rs=8192&setec=61ebd612f1778bd1452a29c31f498dcd"
+    },
+    {
+      "fileId": "7700",
+      "name": "Bard music replacement by Malukah SOFTER",
+      "version": "0.9a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "428",
+      "fileName": "Bard music replacement by Malukah SOFTER-2801.7z",
+      "uploadedUnix": "1323205882",
+      "modVersion": "0.9a",
+      "virusScanUrl": "https://www.virustotal.com/file/08ac47f0a4f4944c5d6befcab61d84916575b754878dfd0b21c256d491e363c6/analysis/1406487422/",
+      "changelogHtml": " Reduced the song volume by 15 db, since Skyrim plays audio sounds somewhat inconsistently. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bard%20music%20replacement%20by%20Malukah%20SOFTER-2801.7z?fid=7700&ttl=1535757300&ri=8192&rs=8192&setec=16426bf46e011ac0b1bbe6014d6236ea"
+    }
+  ]
+}

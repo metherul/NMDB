@@ -1,0 +1,48 @@
+{
+  "modId": 2605.0,
+  "modName": "Arwene",
+  "summary": "This is my character\\'s save requested by [url=http://www.thenexusforums.com/index.php?/user/912959-wicknap]Wicknap[/url].\r\n",
+  "descriptionHtml": "It\\'s a lvl14 save, so all it\\'s good for is face import.\r\nIf you like her looks, be my guest and use it as your template.\r\n\r\nShe\\'s a nice girl, like\\'s big swords, and fancy hats.\r\nShe\\'s Nord, so she can get away wearing Forsworn Headdress in the middle of a blizzard...\r\n\r\nIf you use that save, remember to treat her nicely.\r\nPretty please!\r\n\r\nThis is a request by [url=http://www.thenexusforums.com/index.php?/user/912959-wicknap]Wicknap[/url]\r\n\r\n------------------------------------------------------------------------------------------\r\nAll of you fellow players who for whatever reason use unmodded\r\nskyrim.ini file will crash to desktop each time you try to load this save.\r\n\r\nThere is a workaround to it, and it\\'s explained below:\r\n\r\nOpen your skyrim.ini file (located in your \\\"..\\\\Documents\\\\My Games\\\\Skyrim\\\" folder)\r\nand add those two lines to [general] section at the top of the file:\r\n\r\nuExterior Cell Buffer=64\r\nuGridsToLoad=7\r\n\r\nuGridsToLoad determines how far away from the player world is drawn in full detail.\r\nuExterior Cell Buffer is just that, a buffer filled with preloaded cells, it\\'s value should\r\nalways be: (uGridsToLoad+1)squared.\r\ni.e. (7+1)*8\r\n\r\nSave skyrim.ini file\r\nplay!\r\n\r\n\\\"But I want my uGridsToLoad away from my ini file. I wan\\'t it unmodded!\r\nAnd my game now crashes all the time after I deleted it!\\\"\r\nNo worries!\r\nHere\\'s what to do:\r\n\r\n-Put that \\\"uGridsToLoad\\\" back at 7,\r\n\r\n-Run your game in windowed mode\r\n(you can set that in start up options, it\\'s better to alt-tab that way),\r\n\r\n-Now while game is running change\r\nyour \\\"uGridsToLoad\\\" to 5 in skyrim.ini\r\n(this is the default value used with vanilla skyrim.ini)\r\n\r\n-Save \\\"skyrim.ini\\\" file\r\n\r\n-Get back to game\r\n\r\n-Open console (hit that key above \\\"TAB\\\")\r\n\r\n-Type \\\"refini\\\" game will confirm command\r\n\r\n-Close console.\r\n-Save your game\r\n\r\nThere you go!\r\nBack to normal.\r\nWorks exactly the same way as in Oblivion, Fallout 3, Fallout NV...\r\nAnd they said it\\'s a kick-ass new \\\"Creation\\\" engine...\r\nGood old GameBryo on steroids if you ask me :D\r\n",
+  "categoryId": "43",
+  "version": "1.0",
+  "author": "Vereena",
+  "createdUnix": "1323006260",
+  "updatedUnix": "1348769741",
+  "containsAdultContent": false,
+  "uploadedBy": "vereena",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "6864",
+      "name": "Arwene lvl14",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2399",
+      "fileName": "Arwene lvl14-2605-1-0.rar",
+      "uploadedUnix": "1323006351",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b03f388116683e95ad0c0c40c785b2a4c68b74b9ecf3d666ef85ff01cb3420b1/analysis/1406476987/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Arwene%20lvl14-2605-1-0.rar?fid=6864&ttl=1535756946&ri=8192&rs=8192&setec=367c827c233b872cc89a98d8fb4e0519"
+    },
+    {
+      "fileId": "90726",
+      "name": "Closer Quivers",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "Closer Quivers-2605-1-0.rar",
+      "uploadedUnix": "1348769741",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/fa823bd127cb6d72625f325e63456fe1672e1045c545781bfff370e4ffc05ad4/analysis/1407190272/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Closer%20Quivers-2605-1-0.rar?fid=90726&ttl=1535756946&ri=8192&rs=8192&setec=bc4a9b97dac41e0ae086e0e3327eb5fc"
+    }
+  ]
+}

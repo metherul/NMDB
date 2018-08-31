@@ -1,0 +1,48 @@
+{
+  "modId": 2036.0,
+  "modName": "All Alchemy Ingredients in Inventory",
+  "summary": "Adds 100 of each ingredient for alchemy.",
+  "descriptionHtml": "Adds 100 of each ingredient to your inventory. Make sure you are by a container when you use this, as you WILL be overweight.\r\n\r\nThere are two versions. 1 includes Crimson Ninroot (add-reagents) that automatically starts a quest pertaining to collecting them, so use this one at your own discretion. The other (add-reagentsnocrimson) doesn\\'t include Crimson Ninroot, and the quest will not automatically be started, and you\\'ll have to find it yourself. =P\r\n\r\nI, for one, love alchemy, but I can\\'t seem to find enough ingredients, and find the hunting tedious and not at all game-enhancing. I looked around the Skyrim Nexus,  but was unable to find anything, so I decided to make my own! Hope this helps all of you aspiring alchemists reach your goals. =]\r\n\r\nTO INSTALL:\r\nSimply extract to your Skyrim folder. (C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim) \r\n\r\nTO USE:\r\nIn game, press ` to open the console, and type \\\"bat add-reagents\\\" or \\\"bat add-reagentsnocrimson\\\" depending on which you decide to use, without the quotes. That\\'s it! =]\r\n\r\nI\\'m horrible at modding, so these console command files are the only way I have to contribute to the Skyrim Nexus community. Thank you all who make mods for us! I wish I had better ways to repay you, but for now, this is what I have to offer. <3",
+  "categoryId": "94",
+  "version": "1.0.1",
+  "author": "Burasta",
+  "createdUnix": "1322598341",
+  "updatedUnix": "1322600775",
+  "containsAdultContent": false,
+  "uploadedBy": "Burasta",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "5307",
+      "name": "add-reagents",
+      "version": "1.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "add-reagents-2036-1-0-1.zip",
+      "uploadedUnix": "1322600733",
+      "modVersion": "1.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c7f1acf90f7eba57c87ff6943337c80fa150ec78ac47edfb7297201f2d1a5e71/analysis/1406329467/",
+      "changelogHtml": " Removed Crimson Ninroot so quest isn\\'t automatically started. <br/> \n Added values to first three reagents that lacked 100 afterwards, resulting in not getting these three reagents. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/add-reagents-2036-1-0-1.zip?fid=5307&ttl=1535756068&ri=8192&rs=8192&setec=4dd28aaf881c901418306a73b8a38ab8"
+    },
+    {
+      "fileId": "5308",
+      "name": "add-reagentsnocrimson",
+      "version": "1.0.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "add-reagentsnocrimson-2036-1-0-0.zip",
+      "uploadedUnix": "1322600775",
+      "modVersion": "1.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9a7178ff05c9661f1bbca9bf68063466be44f95a29f3dcf301ade3a79b0c9fce/analysis/1406329467/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/add-reagentsnocrimson-2036-1-0-0.zip?fid=5308&ttl=1535756069&ri=8192&rs=8192&setec=443b55b5d7a7de5401e010f138b9bed3"
+    }
+  ]
+}

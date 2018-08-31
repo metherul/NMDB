@@ -1,0 +1,32 @@
+{
+  "modId": 2037.0,
+  "modName": "Portable Bedroll",
+  "summary": "Portable Bedroll allows you to configure a hotkey to place a bedroll at your current location!",
+  "descriptionHtml": "PORTABLE BEDROLL by ChairGraveyard \r\nA Script Dragon Plugin \r\n------------------------------------\r\n\r\nWhat Is It?\r\nPortableBedroll, as the name implies, is a simple script that allows you to place a bedroll at your current location using a (configurable) hotkey. There are actually two hotkeys that PortableBedroll uses, one for placing a bedroll (a second press will delete the present bedroll and make a new one) and one for picking up a placed bedroll. You can only have one bedroll at a time.\r\n\r\nThe default keys are:\r\n\r\nPlace Bedroll: Numpad 0\r\nPickup Bedroll: Numpad 1\r\n\r\n\r\nRequirements\r\nScript Dragon by Alexander Blade (copy dinput8.dll and ScriptDragon.dll from the /bin folder to your Skyrim install directory) - http://forums.bethsoft.com/index.php?/topic/1292671-rel-script-dragon/\r\n\r\nInstallation\r\nAfter installing Script Dragon, copy the contents of the zip file to your Skyrim install directory (portablebedroll.asi and portablebedroll.ini). You\\'ll want to change the hotkeys specified in portablebedroll.ini before copying to your Skyrim install directory (because otherwise you will need to run Notepad or some other editor as administrator, if your Steam install is in Program Files or another UAC protected area).\r\n\r\nUsage\r\nPress Numpad 0 (or your preferred configured key) to place a bedroll. Press Numpad 1 (or your preferred configured key) to pick up a placed bedroll.\r\n\r\nKnown Issues\r\nSkyrim\\'s PlaceAt functionality uses the current look angle for the angle of the bedroll. If you want it to be roughly flat on the ground, you must look to the horizon before pressing the hotkey.\r\n\r\nCredits\r\nAlexander Blade for making Script Dragon.",
+  "categoryId": "24",
+  "version": "0.0.1",
+  "author": "n00854180t",
+  "createdUnix": "1322598447",
+  "updatedUnix": "1322598506",
+  "containsAdultContent": false,
+  "uploadedBy": "n00854180t",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "5294",
+      "name": "portablebedroll_0_0_1",
+      "version": "0.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "36",
+      "fileName": "portablebedroll_0_0_1-2037-0-0-1.zip",
+      "uploadedUnix": "1322598506",
+      "modVersion": "0.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/111b2d7bf5cb1b245ccf2baad22896db35a0df0d02710134aa93377f7928938e/analysis/1406329377/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/portablebedroll_0_0_1-2037-0-0-1.zip?fid=5294&ttl=1535756071&ri=8192&rs=8192&setec=50e4d1b958155031371af772da4cbbce"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 2055.0,
+  "modName": "War Scripter",
+  "summary": "This little Tool creates custom battles for Skyrim easily by using sliders and buttons (no scripting required).",
+  "descriptionHtml": "[size=\\\"5\\\"][color=green]Tool:[/color][color=darkred][b] War Scripter[/b][/color] (Dual Language English / Deutsch)[/size]\r\n\r\n[color=\\\"#FFFFFa\\\"]This little Tool creates custom battles for Skyrim easily by using sliders and buttons (no scripting required).\r\nThe tool is multilingual in english and german (deutsch), also you can tweak some ingame options and change the enviroment\r\nto get more processingpower for older systems or add some funny things.\r\n\r\nWorks very fine, while the game is running if you use ALT+TAB or a borderless window to change the script while playing.\r\n\r\nNew: Now you can create randomized spawns of NPC from time to time, select the \\\"automatic\\\" TAB, check the NPC\\'s you want to spawn at a random time, change the seed if you like 0 means nearly always every 5 seconds just one of the selected NPC will spawn near you if you select a higher value this will happen only from time to time. The automatic is creating an extra batch file called \\\"autowar\\\". To make it work read below.\r\n\r\nThe automatic Option is pure optional, if you dont want to create random battles from time to time and just want to use the main functions you dont need Script Dragon and not the ZAutoexec Script!\r\n\r\n[/color]\r\n\r\n[color=white][b][u]Installation and Usage[/u][/b]\r\n\r\n1. Extract the archive and put the tool into your skyrim folder \r\n    example (C: \\\\ Program Files (x86) \\\\ Steam \\\\ steamapps \\\\ common \\\\ skyrim)\r\n2. Start the Tool (icc. with admin rights / right click on it \\\"Start as administrator\\\")\r\n3. Select the entrys you want or for a randomized battle \\\"random war\\\" at the presets.\r\n4. Press \\\"Create War\\\".\r\n5. Go into Skyrim and go into the console (normaly using ^)\r\n6. Enter \\\"bat mywar\\\" (without the \\\") and press enter.\r\n7. prepare for battle :-)\r\n\r\n[b][u]\\\"Automatic\\\" Installation (Optional)[/u][/b] \r\n\r\n1. Get \\\"Script Dragon\\\" and install it if not already done \r\n(http://alexander.sannybuilder.com/?category=other&altname=skyrim_script_dragon)\r\n2. Get \\\"ZAutoExec\\\" by Kvalyr and install it\r\n(http://www.skyrimnexus.com/downloads/file.php?id=5217)\r\n3. Open \\\"ZAutoExec.ini\\\" inside your Skyrim Folder and add the following:\r\n   batch = autowar\r\n   interval = 5000\r\n4. Start War Scripter inside the Skyrim Folder (this time really in the Skyrim folder, the Nexus Manager might put it into the Skyrim/data folder so move it directly into the Skyrim Folder).\r\n5. Inside War Scripter go to the \\\"Automatic\\\" Tab, select your values and check \\\"Enable Automatic\\\" if it is running the Text will be yellow there. Minimize War Scripter and start your Game, and now have fun :)\r\n\r\nSo far the theory,.. i\\'m to tired to test it right now by myself, please add Bugreports to the discussion, good night.. :)\r\n\r\n[b][u]Videos[/u][/b]\r\n\r\nNote: Some people have created video\\'s with War Scripter in action.\r\nTo take a look visit the links:\r\n\r\nhttp://www.youtube.com/watch?v=yVE0j6R0UFw\r\nhttp://www.youtube.com/watch?v=ushefwmvAbo\r\n\r\n[b][u]Usefull Mods[/u][/b]\r\n\r\nBattle Island by YikesPSN\r\n..To have a lore friendly playground for this mods but dont brakes your regular game.\r\nhttp://steamcommunity.com/sharedfiles/filedetails/?id=13850\r\n\r\nPersonal Notebook for Skyrim - PNFS\r\n..Can start this Tool from the Editor Interface.\r\nhttp://skyrim.nexusmods.com/mods/8892\r\n\r\n[/color]\r\n\r\n\r\n[i]Have fun, triplex2011[/i]\r\n\r\n\r\n[u]Versions / Changelog[/u]\r\n\r\n[color=yellow]\r\n2012-01-14 v3.5\r\n- Automatic NPC creation added (requires ScriptDragon and ZAutoExec.asi)\r\n\r\n2011-12-13 v3.2\r\n- More NPCs added\r\n- Minor bugfixes\r\n- Minor changes to random Presets\r\n- Categories changed\r\n\r\n2011-12-13 v3.1\r\n- Preview added to Weather Control\r\n- Language selector for the tool English / German (Deutsch)\r\n- Minor Tweaks / changes at Options Page\r\n- Toggle (Grass, Sky..) now also disable Trees\r\n- Toggle to Autosave the Game before the battle starts added\r\n\r\n2011-12-10 v3.0\r\n- Weather Control added\r\n- New design/layout\r\n- Jump to Location control (implemented, but currently disabled)\r\n\r\n2011-12-10 v2.14\r\n- Minor bug fixes\r\n- Presets changed / added\r\n- Option to change the field of view to widescreen mode\r\n- Exit Button added\r\n- Minor optical tweaks\r\n\r\n2011-12-08 v2.0\r\n- Minor bug fixes\r\n- Path for the tool could now be the game OR the data folder\r\n- Some NPCs added\r\n- Fun & Modes section added\r\n- More presets added\r\n- Maximum NPC scale extend to 20\r\n\r\n2011-11-30 v1.1\r\n- Minor bug fixes\r\n- Some NPCs changed\r\n\r\n2011-11-30 v1.0\r\n- Initialrelease V1.0[/color]",
+  "categoryId": "39",
+  "version": "3.5",
+  "author": "triplex2011",
+  "createdUnix": "1322607654",
+  "updatedUnix": "1326519030",
+  "containsAdultContent": false,
+  "uploadedBy": "triplex2011",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "19598",
+      "name": "WarScripter35",
+      "version": "3.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "114",
+      "fileName": "WarScripter35-2055.7z",
+      "uploadedUnix": "1326519030",
+      "modVersion": "3.5",
+      "virusScanUrl": "https://www.virustotal.com/file/1986f82ed7c1528f100810dcf400516ed1cad572e3e14ee5b551e3e18de1257d/analysis/1406609583/",
+      "changelogHtml": " Automatic NPC creation added (requires ScriptDragon and ZAutoExec.asi) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/WarScripter35-2055.7z?fid=19598&ttl=1535756097&ri=8192&rs=8192&setec=9bb36bd305f34fbd90b9d106581e4eda"
+    }
+  ]
+}

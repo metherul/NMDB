@@ -1,0 +1,48 @@
+{
+  "modId": 1744.0,
+  "modName": "TesSnip Skyrim Simple Plugins Guide",
+  "summary": "TesSnip Skyrim Simple Plugins Guide",
+  "descriptionHtml": "[size=\\\"5\\\"][font=\\\"Arial Black\\\"][b][color=\\\"#FF8C00\\\"]TesSnip Skyrim Simple Plugins Guide[/color]:[/b][/font][/size]\r\n\r\n[size=\\\"5\\\"][font=\\\"Arial Black\\\"][b][color=\\\"#FF8C00\\\"]EDIT-I\\'D FOUND A VERY USEFUL PAGE IN WICH IS A LIST OF ALL FORMATS CONTAINED IN ESP/ESM MODS >>>>>http://newcontent1.uesp.net/wiki/Tes5Mod:Mod_File_Format<<<<<<  \r\n[/color]:[/b][/font][/size]\r\n\r\nIn this tutorial i\\'ll describe how to make easy skyrim .esp plugins using TesSnip(FOMM).\r\nfor this you need:\r\n-Fallout mod manager (FOMM) =>[b]TesSnip[/b]\r\n-useful Skyrim.esm IDS list =>http://www.skyrimnexus.com/downloads/file.php?id=204\r\n\r\ni\\'ll show you how i make this custom axe=> http://www.skyrimnexus.com/downloads/file.php?id=1231\r\n\r\nLet\\'s start:\r\n[b][color=\\\"#FF8C00\\\"]1)[/color][/b]Open FOMM>tools>TESsnip.\r\n    In TESsnip: file>open and open your [b]Skyrim.esm[/b] (located in your Skyrim\\'s Data folde) PS-it can take a bit long time be patient...\r\n\r\n[b][color=\\\"#FF8C00\\\"]2)[/color][/b]When [b]Skyrim.esm[/b] finished to load open [b]TestPlugin01.esp[/b] in this archive that\\'s an empty plugin ready to be edited(ther\\'s another way, creating a new plugin but i\\'ll explain it later.)now you my have a situation like in [b]image 1[/b].\r\n[2b)you can also use a fallout or oblivion plugin,delete all groups and edit MAST(>skyrim.esm) and HEDR (>file version 0.94)]\r\n\r\n[b][color=\\\"#FF8C00\\\"]3)[/color][/b]now click on + TestPlugin01.esp and than go on TES4:now we can edit\r\n[b]-CNAM[/b]-plugin\\'s author name\r\n[b]-MAST[/b]-master file(Skyrim.esm)\r\n[b]-HEDR[/b]-file version(must be 0.94 for skyrim)\r\n Look [b]Image 1b[/b].\r\n\r\n[b][color=\\\"#FF8C00\\\"]4)[/color][/b]Now we want to create a new weapon, to do this we copy a pre-existent weapon from Skyrim.esm to our plugin and later we\\'ll edit this to make different.\r\nIn [b]Skyrim.esm[/b] we have to look for weapon\\'s group that\\'s named [b]GROUP (WEAP)[/b].now we can see all weapons in game.[b]Image 2[/b]\r\nfor this tutorial we use an enchanted (stamina absorb)Orcish 1 Hand WarAxe it ID is:\r\n[b](WEAP)EnchOrcishWarAxeStamina03[/b]\r\nselect this and copy it [b]edit>copy[/b] [b]Image 3[/b]\r\n\r\n[b][color=\\\"#FF8C00\\\"]5)[/color][/b]Now go in your plugin select clicking on it[b](TestPlugin01.esp)[/b]go in \r\n[b]edit>paste[/b]\r\nyou may obtain this [b]image 4[/b]\r\n\r\n[b][color=\\\"#FF8C00\\\"]6)[/color][/b]start editing our new weapon...select [b](WEAP)EnchOrcishWarAxeStamina03[/b] in our plugin and edit like you want:\r\n[b]-EDID[/b] Editor ID (i edit it like this => EnchOrcishWarAxeCustom01)\r\n          be sure that is unique in game i add...\\\"Custom01\\\"to existing weapon\r\n          editor id.\r\n[b]-FULL[/b] Object name\r\n[b]-MODL[/b] nif.model directory (...Data\\\\meshes\\\\Weapons\\\\Test\\\\Test.nif)\r\n             with FOMM extract textures.bsa and meshes.bsa and look      \r\n             the structure they have. In my mod i used pre-existent nif in game.be sure  \r\n             that texture of your item has same name that the .nif file and same \r\n             directory.\r\n                  1)   ...Data\\\\meshes\\\\Weapons\\\\Test\\\\Test.nif\r\n                  2)   ...Data\\\\textures\\\\Weapons\\\\Test\\\\Test.dds\r\n\r\n\r\n[b]-EAMT[/b] Object enchantment\r\n             when you edit this with skyrim.esm opend you can select enchs. from   \r\n             a list [b](Image 5)[/b]\r\n[b]-ETYP[/b] Object type ID \r\nPS_i dont\\' yet know what [b]OBND,MODT,BAMT[/b]...ecc are.\r\n\r\n[b][color=\\\"#FF8C00\\\"]7)[/color][/b]Now we have to make your item unique so we must chenage our item\\'s  [b]form ID[/b].\r\nDouble-click on [b](WEAP)EnchOrcishWarAxe[/b]...in our plugin,than edit form ID like in [b]image 6[/b].\r\ni used it [b]000ca1d2[/b]\r\nNow is time to use \r\n[b]Skyrim.esm IDS list[/b] =>http://www.skyrimnexus.com/downloads/file.php?id=204\r\ndownload it and extract in a folder, than open [b]WEAP.txt[/b] and search for [b]000ca1d2[/b](you may search for ID you want to use it\\'s for my axe)[b]TO BE SURE IT\\'S UNIQUE ID[/b]. [b]Image 7[/b]\r\n\r\n[b][color=\\\"#FF8C00\\\"]8 )[/color][/b] now we have to save our plugin,select the plugin than file>save and save it in Skyrim\\'s Data folder.\r\n\r\n[b][color=\\\"#FF8C00\\\"]9)[/color][/b]To make avaible Data Files in SkyrimLauncher follow this guide([b]MADE BY VOLEK[/b]):\r\n\r\n* Locate the file C:\\\\Users\\\\{your user name}\\\\Documents\\\\My Games\\\\Skyrim\\\\SkyrimPrefs.ini. Open it and search for the [Launcher] section. Add this line: \\\"bEnableFileSelection=1\\\" (without quotes). Then start the Skyrim launcher, the previously greyed out \\\"Data Files\\\" option is now available and you can select the plugin(s) that you wanna use from the list.\r\n\r\nIf this somehow doesn\\'t work, use this workaround:\r\n\r\n* Locate the file C:\\\\Users\\\\{your user name}\\\\AppData\\\\Local\\\\Skyrim\\\\plugins.txt. The Appdata folder is hidden so make sure that your OS shows hidden files. Edit plugins.txt and insert a new line that contains the name of the plugin you want use,edit the plugins.txt like this:\r\n\r\n\r\n# This file is used by Skyrim to keep track of your downloaded content.\r\n# Please do not modify this file.\r\nSkyrim.esm\r\nTestPlugin01.esp\r\n\r\nIgnore the comment about modifying this file and save it. Then right-click the file, select Properties, and enable Read-Only. If you wanna use other plugins too, disable read-only and add their names to the list, then re-enable Read-Only.\r\n[b]THANKS TO VOLEK...[/b]\r\n\r\n[b][color=\\\"#FF8C00\\\"]10)[/color][/b]In game open console and use [b]player.additem 000ca1d2 1[/b]  to add this weapon.\r\n[b]player.additem (itemFormID) (NumberItemsYouWant)[/b]\r\nenjoy your new item!!\r\n\r\nIn this gude i show you how to make a simple weapon but you can use same method to make other type of item,and you can make enchantments too.\r\n[b][color=\\\"#FF8C00\\\"]by i3vdone[/color][/b]\r\ncredits:\r\nVolek\r\n\r\nPS-sorry for my bad english :)",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "i3vdone",
+  "createdUnix": "1322399213",
+  "updatedUnix": "1322494371",
+  "containsAdultContent": false,
+  "uploadedBy": "i3vdone",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "4572",
+      "name": "Test01",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1279",
+      "fileName": "Test01-1744-1-0.rar",
+      "uploadedUnix": "1322404001",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/971ecebac1a9c6b44336e0df65001568c012ffaee5d46fccd772ebb8925377ed/analysis/1406455203/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Test01-1744-1-0.rar?fid=4572&ttl=1535755519&ri=8192&rs=8192&setec=c1afc17580e98e87657d1a6f6dd24150"
+    },
+    {
+      "fileId": "4886",
+      "name": "PDFformats",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "833",
+      "fileName": "PDFformats-1744.rar",
+      "uploadedUnix": "1322494371",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c49de959c609b11b1b57956aba6a624e46886609a806949ad3b31871bc95f9a0/analysis/1406459286/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PDFformats-1744.rar?fid=4886&ttl=1535755519&ri=8192&rs=8192&setec=0b22e4912cfdde1ec6219c371b259c5b"
+    }
+  ]
+}

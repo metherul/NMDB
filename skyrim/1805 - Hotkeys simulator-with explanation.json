@@ -1,0 +1,32 @@
+{
+  "modId": 1805.0,
+  "modName": "Hotkeys simulator-with explanation",
+  "summary": "Hotkey simulator by Broodmes. I\\'m just explaining how it works and how to use it.",
+  "descriptionHtml": "This is a small program you can use to make macros for things such as equipping a weapon/shield, or two spells at once by using a single hotkey. You can also use this for one button power attacks (great for dual wielding), charging spells, and drawing your bow for a certain period of time. Basically, you can use this to create combos to do a range of things (mostly in combat), such as pull up spells to heal yourself, cast runes, and switch to specific combinations of spells quickly by using a single hotkey instead of fumbling around while getting your face knocked offa your face by a P-O\\'d giant.\r\n\r\n-Installation- \r\nSimply extract the files to any folder of your choosing and run the application. Leave the program running in the background while you play.\r\n\r\n-How to use-\r\nThe column on the left side is used to set your bind keys. I will use Shift-1 as a reference, but you can use any key as long as it isn\\'t already bound in-game. The column on the right is used to add commands to the macro and will determine what happens when you press the hotkey.\r\n\r\nThe commands are as follows:\r\nNumbers 1-8 (with no letters in front) are used to equip/use whatever you may have bound to that number in game, and they may be combined (such as 1,2...1 having a sword bound to it, and 2 having a shield). The program will activate them simultaneously.\r\n\r\nL and R refer to the Left Mouse Button, and Right Mouse button, respectively. If I wanted to perform a power attack with my Right hand, then immediately follow it with a power attack with my left hand i would use \\\" L2,R2 \\\" in the command line.\r\n\r\nD refers to holding both mouse buttons down simultaneously, great for charging dual wield spells, or performing power attacks with a weapon in each hand. I would use \\\"D400\\\" to charge a dual wield spell for 4 seconds, then it will automatically release.\r\n\r\nW refers to a wait time between actions in the command line. So if I wanted to use a left hand power attack, wait 2 seconds, then use a right hand power attack, I would use \\\"R2,W200,L2\\\" in the command line. \r\n\r\nIt appears that the number following the command, i.e. W200, is measured in hundredths of a second, so for a 2 second command you would use the number 200, 300 for 3 seconds, and so on. There have been times where I have had to use a single number (D3) to get a 3 second command to work properly, so be patient and keep testing different combinations to get your command working right.\r\n\r\nA command I made and tested is one with which I can equip a bow, draw it for 4 seconds, release, then re-equip a weapon and shield is as follows:\r\nWith an axe bound to the number 1, a shield bound to number 2, and a bow bound to number 3 in-game, you can use the command \\\"3,W20,L400,1,2\\\" to perform this task just by using the hotkey Shift-1.\r\n\r\nI hope this helps anyone who was confused by the original upload as the author did not explain what this program does, or how to use it. Also if anyone knows more about this program than me, feel free to send me a message, or send some cool commands that you have created and I will share it.\r\n\r\nSome cool commands:\r\n-To equip two of the same spell at once simply enter the number that the spell is bound to twice into the command line. e.g. 55 or 5,5 (both will work)\r\n-To equip dual-wield spells, charge and cast, then switch back to weapon/shield enter this code : 55,W2,D400,1,2 (assuming the spell is bound to 5 and the weapon and shield are bound to 1 and 2)\r\n-You can use this program to use several potions simultaneously as well, or use the same one at specific intervals.\r\n-Use it to set up different spell combinations at the touch of a button.\r\n-Use it to cast dual firebolts (or any spell of your choice) then immediately use a magicka potion with a single button.\r\n-Set up a combo of Power attacks and use a stamina potion at the end - or in the middle - of the onslaught!\r\n\r\n*Unfortunately the game will equip single handed weapons in the right hand by default, so this can\\'t be used to set up a macro to equip two weapons :( *\r\n\r\nBroodmes has given full permission for anyone to re-submit, modify, or do whatever they may, as he will not be offering any support, or updates for this file\r\n\r\nThanks goes out to:\r\ncalyps and Carenzi for testing and help figuring this thing out\r\nadhome, the original creator of this program\r\nand Broodmes for modifying this powerful tool\r\n",
+  "categoryId": "39",
+  "version": "3",
+  "author": "Broodmes",
+  "createdUnix": "1322438122",
+  "updatedUnix": "1322438302",
+  "containsAdultContent": false,
+  "uploadedBy": "Jethu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "4718",
+      "name": "Hotkeys simulator",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "375",
+      "fileName": "Hotkeys simulator-1805-1.zip",
+      "uploadedUnix": "1322438302",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/3c838334eb2cc14a21043c34f5a3ca708baf8cdda2fc823236775f50207c8eeb/analysis/1406457065/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hotkeys%20simulator-1805-1.zip?fid=4718&ttl=1535755612&ri=8192&rs=8192&setec=98651ae232e8a2c72fc1e3c56ce18531"
+    }
+  ]
+}

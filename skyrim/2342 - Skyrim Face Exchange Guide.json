@@ -1,0 +1,48 @@
+{
+  "modId": 2342.0,
+  "modName": "Skyrim Face Exchange Guide",
+  "summary": "A guide to swapping faces in Skyrim. No program, must be done manually. Text file included.",
+  "descriptionHtml": "In the old version of this guide, the player had to save their face as a text file via a console command and trial and error was required to some extent. In this version, it\\'s done a simpler and more logical way that I\\'m surprised I didn\\'t think of to begin with.\r\n\r\n[b]Step 1)[/b] Launch Skyrim in windowed mode and load up the character that has the face you want.\r\n[b]Step 2)[/b] Type showracemenu into the console and record all of the slider levels into Notepad. Sometimes the race menu will bug out and show the slider in the wrong spot after you move it. Don\\'t worry about this, just move it all the way to the left and count the amount of notches you move it, then record the number in Notepad.\r\n[b]Step 3)[/b] Load up the character you want the face on and input all the slider levels from your Notepad file.\r\n\r\n[color=red][b]Warning:[/b][/color] showracemenu has some undesired side effects. Namely, it gets rid of some passive buffs even if you don\\'t change your race. If you do change your race, it screws with skills a bit. You can combat this by recording all of your skill levels before changing races and setting them back after. For the passive stuff, record the non-racial stuff and add them back using addspell and look up the racial stuff you should have and add that as well.\r\n\r\n\r\nFor those interested in the SavePCFace(spf) command and what the numbers it generates mean, here you go:\r\n\r\nSex:\t\tSex\r\nRace:\t\tRace\r\nSlider0:\tNose Length\r\nSlider1:\tNose Height\r\nSlider2:\tJaw Height\r\nSlider3:\tJaw Width\r\nSlider4:\tJaw Forward\r\nSlider5:\tCheekbone Height\r\nSlider6:\tCheekbone Width\r\nSlider7:\tEye Height\r\nSlider8:\tEye Width\r\nSlider9:\tBrow Height\r\nSlider10:\tBrow Width\r\nSlider11:\tBrow Forward\r\nSlider12:\tMouth Height\r\nSlider13:\tMouth Forward\r\nSlider14:\tChin Width\r\nSlider15:\tChin Length\r\nSlider16:\tChin Forward\r\nSlider17:\tEye Depth\r\nSlider18:\tUnknown, always the same extremely high number\r\nPreset0:\tNose Type\r\nPreset1:\tUnknown\r\nPreset2:\tEye Shape\r\nPreset3:\tMouth Shape\r\nHairColor:\tHair Color\r\nWeight:\t\tWeight\r\nHeight:\t\tHeight\r\nComplexion:\tComplexion\r\nHeadPart:\tUnknown\r\nHeadPart:\tUnknown\r\nHeadPart:\tUnknown\r\nHeadPart:\tWar Paint\r\nHeadPart:\tScars\r\nHeadPart:\tBrow Shape\r\nTintMask0:\tUnknown\r\nTintMask1:\tEyeshadow\r\nTintMask2:\tEye Tint\r\nTintMask3:\tCheek Color\r\nTintMask4:\tCheek Color Lower\r\nTintMask5:\tLaugh Lines\r\nTintMask6:\tLip Color\r\nTintMask7:\tNose Color\r\nTintMask8:\tForehead Color\r\nTintMask9:\tChin Color\r\nTintMask10:\tNeck Color\r\nTintMask11:\tWar Paint Color\r\nTintMask12:\t|\r\nTintMask13:\t|\r\nTintMask14:\t|\r\nTintMask15:\t|\r\nTintMask16:\t|\tSame as 11\r\nTintMask17:\t|\r\nTintMask18:\t|\r\nTintMask19:\t|\r\nTintMask20:\t|\r\nTintMask21:\t-\r\nTintMask22:\tUnknown, possibly something similar to War Paint Color on a different race\r\nTintMask23:\t|\r\nTintMask24:\t|\r\nTintMask25:\t|\r\nTintMask26:\t|\tSame as 22\r\nTintMask27:\t|\r\nTintMask28:\t|\r\nTintMask29:\t|\r\nTintMask30:\t-\r\nTintMask31:\tEyeliner Color\r\nTintMask32:\tDirt Color(sometimes)\r\nTintMask33:\tDirt Color:Dirt\r\nTintMask34:\tEye Color (Possibly, this was very unclear)",
+  "categoryId": "28",
+  "version": "1",
+  "author": "Bergtau",
+  "createdUnix": "1322830790",
+  "updatedUnix": "1322893564",
+  "containsAdultContent": false,
+  "uploadedBy": "Bergtau",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "6222",
+      "name": "Skyrim Face Exchange Guide---Old",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Skyrim Face Exchange Guide---Old-2342.7z",
+      "uploadedUnix": "1322831378",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/d0a16a25e20d1f068fbccb532bd45634dcdd60f1b723df660e2c762d6c86c7c5/analysis/1406469187/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Face%20Exchange%20Guide---Old-2342.7z?fid=6222&ttl=1535756565&ri=8192&rs=8192&setec=1587121c7aa5db2687d0f8f36cb3c5d2"
+    },
+    {
+      "fileId": "6454",
+      "name": "Skyrim Face Exchange Guide",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Skyrim Face Exchange Guide-2342-2.7z",
+      "uploadedUnix": "1322893564",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/9c010e3c2ad1f245c7e0287df5640e734cac36a6b996989b9dd53de6acdc8406/analysis/1406472244/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Face%20Exchange%20Guide-2342-2.7z?fid=6454&ttl=1535756566&ri=8192&rs=8192&setec=942730a657ed7123fd9f3bc109e42da4"
+    }
+  ]
+}

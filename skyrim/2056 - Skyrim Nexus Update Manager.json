@@ -1,0 +1,32 @@
+{
+  "modId": 2056.0,
+  "modName": "Skyrim Nexus Update Manager",
+  "summary": "A program that saves and tracks requested mods, and alerts you if there is an update to a mod you have installed.",
+  "descriptionHtml": "Changelog:\r\n1.0.6 - bugfixes: error loading website bug, adult only content will now not be accepted.\r\n       - features added: autosave whenever a mod is added or changed\r\n1.0.5 - bug fixes: error when there is no version number, random \\\"changelog error\\\" warning\r\n       - features added: loading screen (will get more advanced in the future), lists mods that need updates at the top. \r\n1.0.4 - fixed rare bug that caused version numbers to not load properly\r\n1.0.3 - added features: ability to add urls just by the mod id number (11,4,etc).  Added a button to take you to the mods page, not just download page.\r\n1.0.2 - screwed up release, fixed program\r\n1.0.1 - release\r\n\r\n[SIZE=15][U][B]Due to some issues this program will NOT work with adult only content![/B][/U][/SIZE]\r\n\r\nI was getting annoyed with having to constantly check each individual mod I had installed to see if the version I had was different or if I needed to upgrade.  I also couldn\\'t always remember what version of the mod I had installed.  So I looked and looked for a solution, but couldn\\'t find one so I figured I\\'d break out my Java skills and see what I can do.  After a couple of days of work this is the result!\r\n\r\nFeatures:\r\n- Allows dynamic adding/removal of mods\r\n- Allows dynamic setting of currently installed version numbers\r\n- Compares the currently installed version numbers of added mods to the SkyrimNexus website and determines whether or not an upgrade is in order.\r\n- Shows 20 most recent changes to each mod\r\n- Provides link to download page for each mod\r\n- Saves added mods\r\n- Loads saved mods and checks for updates each time the program is run\r\n\r\nTutorial:\r\n-Open the mod manager\r\n[IMG]http://i.imgur.com/Uf1Dw.png[/IMG]\r\n-Click Add Mod and copy the link to the mod from the skyrimnexus website\r\n[IMG]http://i.imgur.com/uGSIA.png[/IMG]\r\n-Type in the version number you currently have installed (in this case it was the most recent version: 12) [B]MAKE SURE YOU TYPE IT IN EXACTLY AS IT APPEARS IN THE LATEST VERSION BOX LIKE THE ONE BELOW[/B]\r\n[IMG]http://i.imgur.com/nMyx6.png[/IMG]\r\n[IMG]http://i.imgur.com/B7HSK.png[/IMG]\r\n-The mod is now added!  Be sure to hit save!\r\n[IMG]http://i.imgur.com/gXw9D.png[/IMG]\r\n-I added another mod (The great STEP guide) but I have the old version installed.  After hitting Check Updates I get this message...\r\n[IMG]http://i.imgur.com/8AT2T.png[/IMG]\r\n-...and a * appears next to the mod(s) that need updating\r\n[IMG]http://i.imgur.com/eMVFI.png[/IMG]\r\n-On the side it shows the version number of the mod and the one I have installed\r\n[IMG]http://i.imgur.com/hJBE5.png[/IMG]\r\n-After downloading and installing the latest version I hit the \\\"Set Version\\\" button and update the version I have installed to the one I just installed (in this case 1.79)\r\n[IMG]http://i.imgur.com/qQc7F.png[/IMG]\r\n-Done!  Now all I have to do is Save and open this up the next time I want to check for updates.\r\n[IMG]http://i.imgur.com/dzgmf.png[/IMG]",
+  "categoryId": "82",
+  "version": "1.0.6",
+  "author": "superdean",
+  "createdUnix": "1322608430",
+  "updatedUnix": "1322887242",
+  "containsAdultContent": false,
+  "uploadedBy": "superdean",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "6434",
+      "name": "Skyrim Nexus 1_0_6",
+      "version": "1.0.6",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "20",
+      "fileName": "Skyrim Nexus 1_0_6-2056-1-0-6.zip",
+      "uploadedUnix": "1322887242",
+      "modVersion": "1.0.6",
+      "virusScanUrl": "https://www.virustotal.com/file/e4af63ecbaeb1b2d196d940d13aade1fb4bd117ef58720f45701287429a1510a/analysis/1406471946/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Nexus%201_0_6-2056-1-0-6.zip?fid=6434&ttl=1535756099&ri=8192&rs=8192&setec=abb8bfe1eedb94377655a184cbaa1993"
+    }
+  ]
+}
