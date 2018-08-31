@@ -1,0 +1,48 @@
+{
+  "modId": 298.0,
+  "modName": "Precog FXAA and INI Perfect Colors Beautiful Visuals Smooth",
+  "summary": "Modified ini\\'s with vsync disabled, better shadows, moderate AA, and other misc settings that are ultra or greater. FXAA filter that keeps the AA looking sharp, with more rich colors but not a lot of saturation so it looks really good. Result of 6 days tweaking Skyrim. Runs and looks extremely well. Try it out.",
+  "descriptionHtml": "Check out the 1080p video file attached above.\r\n\r\nAfter tweaking Skyrim ini\\'s, and other files since release I have really nice settings that work well with a GTX 560 Ti or Radeon 6950 with 4GB ram, and a quad cpu that is running at 3.3ghz or greater.\r\n\r\nWith this new INI and FXAA in version 1.3 I changed the colors again, and removed more of the blur. When using this in conjunction with the ini\\'s provided it looks a lot better because of the detail that was taken away by blurring. The ini\\'s have a mix of settings that I believe make the game look extremely well and run extremely well, around 55fps smooth. I recommend messing around with nvidia inspector as well, you may be able to increase performance further.\r\n\r\n\r\n*NOTE* - I would just copy over the FXAA to begin with and see how it looks with your current ini\\'s, then if you want check out the inis provided.\r\n\r\n*INSTRUCTIONS* - For the FXAA all you have to do is extract the contents of that folder to the root directory of your Skyrim folder. \r\nWhich would be where steam is installed, example (C:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\Skyrim\\\\).  \r\n\r\nFor the two INI files I\\'m going to do some more modifications but basically all you have to do is put those two files where your savegames are, which should be in your (My Documents\\\\My Games\\\\Skyrim) folder. And in order for the game to use those inis you have to modify one of the fields within SkyrimPrefs.ini. \r\n\r\nYou need to look in your own SkyrimPrefs.ini and copy the line sD3DDevice=\\\"NVIDIA GeForce GTX 560 Ti\\\" and replace it with your own graphics adapter. \r\nYou also may want to modify the height and width to your own, which is iSize H=1080 and iSize W=1920.\r\n\r\nLet me know how these settings work for you, and expect something better as time passes.",
+  "categoryId": "62",
+  "version": "1.3",
+  "author": "Precog",
+  "createdUnix": "1321422911",
+  "updatedUnix": "1321611398",
+  "containsAdultContent": false,
+  "uploadedBy": "Precog29",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "899",
+      "name": "highway_altcontrol_nim",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "77",
+      "fileName": "Precog FXAA and INI Sharp AA and Color 2-298.rar",
+      "uploadedUnix": "1321499267",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/e756b4a20599e96010f92cd120c267bf287e63563999f114f86afc67ab2dbd7d/analysis/1406412183/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Precog%20FXAA%20and%20INI%20Sharp%20AA%20and%20Color%202-298.rar?fid=899&ttl=1535753046&ri=8192&rs=8192&setec=3a6417e98a5c3f70178c8f9ab2dc3335"
+    },
+    {
+      "fileId": "1265",
+      "name": "FXAA More Natural Color and a spec of AA blur",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "77",
+      "fileName": "FXAA More Natural Color and a spec of AA blur-298-1-3.rar",
+      "uploadedUnix": "1321611398",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/15d0adb27e8448bef10dfb94f2370f331170a18a5e2a19ad288b0f9a92709e0e/analysis/1406416742/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FXAA%20More%20Natural%20Color%20and%20a%20spec%20of%20AA%20blur-298-1-3.rar?fid=1265&ttl=1535753046&ri=8192&rs=8192&setec=5808396edcc81db924b6cf17b301641c"
+    }
+  ]
+}

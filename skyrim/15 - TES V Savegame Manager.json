@@ -1,0 +1,48 @@
+{
+  "modId": 15.0,
+  "modName": "TES V Savegame Manager",
+  "summary": "A simple savegame manager for Skyrim.",
+  "descriptionHtml": "Skyrim: The Elder Scrolls V Savegame Manager by RedawgTS\r<br />\r<br />\r<br />For a save manager for Skyrim Special Edition try the [url=https://www.nexusmods.com/skyrimspecialedition/mods/8980/?]Skyrim SE Savegame Manager[/url] by [url=https://www.nexusmods.com/skyrimspecialedition/users/30766720]askedal[/url].\r<br />\r<br />\r<br />Quickstart:\r<br />***********\r<br />*Unpack to your harddrive.\r<br />*run TESVSGM.exe\r<br />*select &#34;Advanced&#34; -&gt; &#34;Change play-button link&#34; to browse to your Skyrim executable if necessary.\r<br />*select &#34;Savegames&#34; -&gt; &#34;Scan For New Profiles&#34;.\r<br />*select the profile you want to play from the dropdown list\r<br />*click &#34;Play&#34; button to lunch Skyrim: The Elder Scrolls V and play with the active profile\r<br />\r<br />Note #1: Quicksaves and Autosaves are not copied over when scanning for new profiles. If you want to keep them you should either copy them over manually or load them in the game and create a proper save.\r<br />\r<br />Note #2: While they are not copied over, any new quicksaves and autosaves made will be associated with their appropriate profile.\r<br />\r<br />\r<br />How to uninstall:\r<br />****************\r<br />*If you&#39;ve saved any games since using this program:\r<br /> -select &#34;Savegames&#34; -&gt; &#34;Open Active Profile Folder&#34;\r<br /> -select &#34;Savegame&#34; -&gt; &#34;Open Skyrim: The Elder Scrolls V Savegame Folder&#34;\r<br /> -copy all files in the active profile folder to the original savegame folder. you&#39;re saves from before using TESVSGM still exist in the original &#39;standard&#39; saves folder.\r<br /> -switch your profile to STANDARD.\r<br /> -delete the savegame manager and it&#39;s ini file.\r<br />\r<br />*If you haven&#39;t saved any game since using this program:\r<br /> -switch your profile to STANDARD. you&#39;re saves from before using TESVSGM still exist in the original &#39;standard&#39; saves folder.\r<br /> -delete the savegame manager and it&#39;s ini file.\r<br />\r<br />\r<br />This program is based on digitalfun&#39;s Fallout 3 Savegame Manager so special thanks to him for releasing the source code. digitalfun&#39;s original tool can be found here: http://www.fallout3nexus.com/downloads/file.php?id=708\r<br />\r<br />\r<br />Version 1.1\r<br />-----------\r<br />- Any character named &#39;Prisoner&#39; will no longer be sorted. This is to deal with \r<br />  any saves made before character creation.\r<br />- SkyrimLauncher.exe should now be automatically selected during the first use\r<br />  of the program.\r<br />\r<br />\r<br />Version 1.0\r<br />-----------\r<br />- Initial release.",
+  "categoryId": "39",
+  "version": "1.1",
+  "author": "RedawgTS",
+  "createdUnix": "1320986302",
+  "updatedUnix": "1322115532",
+  "containsAdultContent": false,
+  "uploadedBy": "redawgts",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "17",
+      "name": "Savegame Manager v1_0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "251",
+      "fileName": "Savegame Manager v1_0-15.zip",
+      "uploadedUnix": "1320986393",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/424c11fa3d630c8f406d47966b0740ae4a714ff5792d81ee3fe257c4b6858b36/analysis/1406401562/",
+      "changelogHtml": " Initial release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Savegame%20Manager%20v1_0-15.zip?fid=17&ttl=1535752515&ri=8192&rs=8192&setec=254f2cdafce3793bd091c49f15b205cc"
+    },
+    {
+      "fileId": "3381",
+      "name": "Savegame Manager v1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "252",
+      "fileName": "Savegame Manager v1_1-15-1-1.zip",
+      "uploadedUnix": "1322115532",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/4889bd1824c88c1893ef3ea7780a8cba2157743f8f76cbff3a4e632c73e7a014/analysis/1406441166/",
+      "changelogHtml": " Any character named &#39;Prisoner&#39; will no longer be sorted. This is to deal with  any saves made before character creation <br/> \n SkyrimLauncher.exe should now be automatically selected during the first use of the program <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Savegame%20Manager%20v1_1-15-1-1.zip?fid=3381&ttl=1535752515&ri=8192&rs=8192&setec=698e837255f21d1362c73d0f021f9eab"
+    }
+  ]
+}

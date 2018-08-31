@@ -1,0 +1,32 @@
+{
+  "modId": 134.0,
+  "modName": "Skyrim 4GB Tutorial",
+  "summary": "How to make skyrim use >2GB",
+  "descriptionHtml": "*NOTE* This is no longer needed but i am still keeping this up as a tutorial so people can use this on basically anything*NOTE*\r\n   Download and install CFF Explorer. http://www.ntcore.com/exsuite.php\r\n    Make a backup of your original exe just in case something goes wrong.\r\n    Run CFF Explorer (as administrator if on win vista or 7).\r\n    Click the folder icon or go to File -> Open and browse your PC for TESV.exe.\r\n    \r\n\r\n    Click on File Header at the left, find Characteristics at the right, and click the Click here blue button.\r\n    \r\n\r\n    Tick App can handle >2GB address space.\r\n  \r\n\r\n    Click OK.\r\n    Save by clicking the disk icon or going to \\'File -> Save.\r\n   \r\n\r\n    Overwrite the file when it asks you to. \r\n\r\n\r\nNOTE: If you use this method, you need to keep the backup of the exe file you changed with CFF Explorer.\r\nWhen you update your game, you will need to copy the backup exe back to folder and replace the edited exe file.\r\n\r\n    Go to the folder which has the executable file you changed.\r\n    Delete the current *.exe file.\r\n    Rename the backup executable back to the original name, now you can safely update/upgrade. ",
+  "categoryId": "82",
+  "version": "",
+  "author": "Mochtroid245",
+  "createdUnix": "1321218867",
+  "updatedUnix": "1321221422",
+  "containsAdultContent": false,
+  "uploadedBy": "Mochtroid245",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "236",
+      "name": "Skrim readme and images",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "568",
+      "fileName": "Skrim readme and images-134-1-0.rar",
+      "uploadedUnix": "1321221422",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/58057c93d62ac228676ad7ed529dcb1d2e7f842f87a63fe03b21769e2db5b914/analysis/1406329340/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skrim%20readme%20and%20images-134-1-0.rar?fid=236&ttl=1535752718&ri=8192&rs=8192&setec=7a631ba1fc1f15e57bc4b1709a6d197f"
+    }
+  ]
+}

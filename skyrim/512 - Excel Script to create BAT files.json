@@ -1,0 +1,32 @@
+{
+  "modId": 512.0,
+  "modName": "Excel Script to create BAT files",
+  "summary": "This is a vba script to help you create the BAT files",
+  "descriptionHtml": "Description\r\nhi guys \r\nthis is a excel vbascript that ive created to save time\r\n1. searching the ids \r\n2. typing the player.additems\r\nwith this script, you just have to type bat txtname and you all items inside your txt file\r\n\r\nto use this script you need to download <b>Skyrim ESM IDs and Strings from evretibia</b>. \r\n\r\nHere is the link :\r\nhttp://www.skyrimnexus.com/downloads/file.php?id=204\r\n\r\nInstructions\r\n1. extract Skyrim_ESM_IDs_and_Strings-204-1-0.zip\r\n2. create new excel and copy the script to sheet1 in the vba screen (alt+f11) \r\n3. change folder location (C:\\\\WEAP.TXT) to where you extract the zip\r\n4. change search item (SearchChar = \\\"dragonbane\\\") to what you want to search for\r\n5. run script using the f5 key\r\n6. go back to spreadsheets screen and copy ids from first column\r\n7. create a new txt document and copy the ids to it\r\n7. puy your txt document in skyrim folder (*\\\\Bethesda Softworks\\\\Skyrim)\r\n8. run game, open the console (~), type bat txtname\r\n9. enjoy your new armor/weapon",
+  "categoryId": "40",
+  "version": "1",
+  "author": "Westfire",
+  "createdUnix": "1321578245",
+  "updatedUnix": "1321578322",
+  "containsAdultContent": false,
+  "uploadedBy": "westfire",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1186",
+      "name": "vbascript",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "vbascript-512-1.zip",
+      "uploadedUnix": "1321578322",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/1837dcfb12b156dad133d3375649355433d35b896712eb424b7f19a5f6920a3b/analysis/1406415664/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/vbascript-512-1.zip?fid=1186&ttl=1535753457&ri=8192&rs=8192&setec=c98b841741d85d3434014fac960e4bce"
+    }
+  ]
+}

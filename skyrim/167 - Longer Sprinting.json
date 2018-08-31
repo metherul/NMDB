@@ -1,0 +1,32 @@
+{
+  "modId": 167.0,
+  "modName": "Longer Sprinting",
+  "summary": "Sprinting uses less Stamina, so you can sprint longer. I included 7 different options for you to choose from, each with its own ESP plugin.\r\n",
+  "descriptionHtml": "[size=3]\r\n[color=lightblue]Longer Sprinting (by Volek)[/color][/size]\r\n\r\nSprinting uses less Stamina, so you can sprint longer. I included 7 different options for you to choose from, each with its own ESP plugin.\r\n\r\nThe original value for stamina use while sprinting is 7. Here are some examples how you can choose another value.\r\n\r\n* Sprint6.esp reduces stamina use a bit \r\n* Sprint3.esp reduces stamina use significantly\r\n* Sprint1.esp reduces stamina use to a minimum\r\n* Sprint0.esp disables stamina use completely. \r\n\r\nThis mod only affects the stamina use while sprinting. Recharge rates and other stamina uses (eg. while fighting) are untouched.\r\n\r\n\r\nInstallation:\r\n\r\n* Extract the content of the zip file to your Steam\\\\SteamApps\\\\common\\\\Skyrim\\\\Data folder (or extract only the plugin you really want)\r\n\r\n* Locate the file C:\\\\Users\\\\{your user name}\\\\Documents\\\\My Games\\\\Skyrim\\\\SkyrimPrefs.ini. Open it and search for the [Launcher] section. Add this line: \\\"bEnableFileSelection=1\\\" (without quotes). Then start the Skyrim launcher, the previously greyed out \\\"Data Files\\\" option is now available and you can select the plugin(s) that you wanna use from the list.\r\n\r\nIf this somehow doesn\\'t work, use this workaround:\r\n\r\n* Locate the file C:\\\\Users\\\\{your user name}\\\\AppData\\\\Local\\\\Skyrim\\\\plugins.txt. The Appdata folder is hidden so make sure that your OS shows hidden files. Edit plugins.txt and insert a new line that contains the name of the plugin that you wanna use, like this:\r\n\r\n\r\n# This file is used by Skyrim to keep track of your downloaded content.\r\n# Please do not modify this file.\r\nSkyrim.esm\r\nSprint4.esp\r\n\r\nIgnore the comment about modifying this file and save it. Then right-click the file, select Properties, and enable Read-Only. If you wanna use other plugins too, disable Read-Only and add their names to the list, then re-enable Read-Only.\r\n\r\n\r\n\r\nConsider this file a modder\\'s resource, do whatever you want with it. Credits would be nice :)",
+  "categoryId": "24",
+  "version": "2",
+  "author": "Volek",
+  "createdUnix": "1321268798",
+  "updatedUnix": "1321519473",
+  "containsAdultContent": false,
+  "uploadedBy": "Volek",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "981",
+      "name": "Hull Engineer",
+      "version": ".60",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "LongerSprinting-167-2.zip",
+      "uploadedUnix": "1321519473",
+      "modVersion": ".60",
+      "virusScanUrl": "https://www.virustotal.com/file/d02fc9f869130a3607ee561e00b114ccb7d4b2a28b7e546819aa7d22b52b0afa/analysis/1406413023/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LongerSprinting-167-2.zip?fid=981&ttl=1535752784&ri=8192&rs=8192&setec=ac1733534334c6e5f0a65a1535319f9a"
+    }
+  ]
+}

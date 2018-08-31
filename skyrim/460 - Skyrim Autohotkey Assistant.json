@@ -1,0 +1,48 @@
+{
+  "modId": 460.0,
+  "modName": "Skyrim Autohotkey Assistant",
+  "summary": "Allows Skyrim to be easily used with multiple autohotkey scripts. Includes Character Menu Gesture Control for a swishy glidey interface experience.",
+  "descriptionHtml": "Skyrim Autohotkey Assistant\r\nversion 101\r\n\r\nOff the Rails\r\n===========================\r\n\r\nAutohotkey is a handy program to remap and automate your computer\\'s input. There are thousands of possible uses, from remapping your controls on-the-fly, to changing the behaviour of the interface, \r\n\r\nThis script:\r\n\r\n1. Starts your scripts, and then starts Skyrim\r\n2. Waits for you to quit Skyrim\r\n3. Closes down every script it started\r\n4. Closes itself down and disappears from your life\r\n\r\nIt also:\r\n\r\n* Can itself be shortcutted, launched by Nexus Mod Manager, and used as a shortcut to start Skyrim. Or NMM.\r\n* Won\\'t open pod bay doors when instructed\r\n* Is better than teh secks\r\n* No longer requires that Skyrim be launched through Steam\r\n\r\nTo install, just extract the archive anywhere. If you want it to be compatible with NMM, create a shortcut to Skyrim Autohotkey Assistant.ahk and place it in your root Skyrim folder, then enter the name of the shortcut (for example \\\"Shortcut to Skyrim Autohotkey Assistant.lnk\\\") in NMM\\'s Custom Launch Command setting.\r\n\r\nTo run, just double-click Skyrim Autohotkey Assistant.ahk. All your scripts, and then Skyrim, will be launched like arrows at Agincourt.\r\n\r\nIf you add the full path of your Skyrim executable (or NMM, or some other Skyrim launcher) to the ini file, the script will launch that insted of using the Steam \\\"run\\\" command. You can use this method to launch Nexus Mod Manager if you like, or you could go straight to TESV.exe and bypass the splash screen. You can even launch the .ahk file from Nexus Mod Manager, if that\\'s your particular bag of cheese.\r\n\r\nThe archive includes this readme, the launcher, the ini file, a copy of autohotkey.exe and a Scripts folder. Put any ahk scripts you want to use in this folder. Delete or move them when you want to stop using them. By default, SAA includes the latest version of my Character Menu Gesture Control (http://www.skyrimnexus.com/downloads/file.php?id=102), as well as a small script to non-destructively disable the Bethesda logo movie. Delete either or both if you don\\'t want to use them. You can add more scripts to this folder; just place the file in there and the Assistant will detect them all. I recommend XunAmarox\\'s Borderless Windowed Fullscreen (http://www.skyrimnexus.com/downloads/file.php?id=24) at the very least.\r\n\r\nCH-CH-CH-CHANGES\r\n================\r\n\r\n101\r\nAdded the NoLogo Script. Added the .ini file.",
+  "categoryId": "39",
+  "version": "101",
+  "author": "Off the Rails",
+  "createdUnix": "1321542800",
+  "updatedUnix": "1321900111",
+  "containsAdultContent": false,
+  "uploadedBy": "Offtherails",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1048",
+      "name": "Version 100",
+      "version": "100",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "237",
+      "fileName": "Version 100-460.7z",
+      "uploadedUnix": "1321542894",
+      "modVersion": "100",
+      "virusScanUrl": "https://www.virustotal.com/file/fd7d9f7178f97e0b1e8a9835717675193db7211bb35c5d1464d3643b21f6c3d1/analysis/1406413924/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Version%20100-460.7z?fid=1048&ttl=1535753359&ri=8192&rs=8192&setec=cef28ae37c79cb0f733d8941e024fc7e"
+    },
+    {
+      "fileId": "2422",
+      "name": "Version 101",
+      "version": "101",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "239",
+      "fileName": "Version 101-460-101.7z",
+      "uploadedUnix": "1321900111",
+      "modVersion": "101",
+      "virusScanUrl": "https://www.virustotal.com/file/6bb2b71ce14aa3702b6339d01712b8e48189c18f708a3c63620f77240ff1acf7/analysis/1406430243/",
+      "changelogHtml": " Added the NoLogo Script. Added the .ini file. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Version%20101-460-101.7z?fid=2422&ttl=1535753359&ri=8192&rs=8192&setec=dbaefdf9004af8f4562edbc2d8fba6e9"
+    }
+  ]
+}

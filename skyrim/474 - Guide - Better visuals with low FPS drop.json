@@ -1,0 +1,32 @@
+{
+  "modId": 474.0,
+  "modName": "Guide - Better visuals with low FPS drop",
+  "summary": "A short guide on how to improve the visuals of the game without losing too much FPS.",
+  "descriptionHtml": "This guide was made using Ultra as the default settings, feel free to follow it if you play in High or lower but I can\\'t guarantee the results. It\\'s something I spent a lot of time on, not making the guide but finding the corrects values and tweaks to enhance my game without loosing too much FPS. \r\n\r\nThe guide is divided in several steps :\r\n1. Game settings\r\n2. .ini Tweaks\r\n3. GPU tweaks (nvidia oriented, sorry ATI users :( )\r\n4. Mods and tools by the community\r\n\r\n\r\n[b]STEP 1 : GAME SETTINGS[/b]\r\n--------------------------------------------------\r\nOn the launcher, click \\\"Options\\\" to open the Options window.\r\nSet your settings as you wish and click \\\"Advanced\\\", in the adavanced window, make sure that FXAA is disabled as it makes the whole game blurry, think of it as a cheap anti-aliasing method.\r\nTo change your fov and enhance the visibility of your surroundings, start your game and open the console with ~ then type \\\"fov xx\\\" (without \\\"\\\") in which xx is the fov you want. Most of my screenshots were taken with a fov of 90 except one with a fov of 120.\r\n\r\n\r\n[b]STEP 2 : .ini TWEAKS[/b]\r\n--------------------------------------------------\r\nGo into /Documents/My Games/Skyrim and open SkyrimPrefs.ini with the Notepad.\r\nLooks for these lines and change them as followed :\r\nbTreesReceiveShadows=1\r\nbDrawLandShadows=1\r\nfInteriorShadowDistance=2000.0000\r\nfShadowDistance=5000.0000\r\niMultiSample=4 (This will set MSAAx4 instead of x8, the difference is barely noticeable and your framerate will skyrocket)\r\n\r\nWhen you\\'re done, save, right-click \\\"properties\\\" and set the file as \\\"Read Only\\\", untick if you want to modify again.\r\n\r\n\r\n[b]STEP 3 : GPU TWEAKS (Nvidia guide)[/b]\r\n--------------------------------------------------\r\nDownload the latest Nvidia drivers 285.79 and download [url=http://www.01net.com/telecharger/windows/Utilitaire/systeme/fiches/106019.html]NvidiaInspector[/url]\r\nStart NvidiaInspector and click the tools on the right side of the \\\"Driver Version\\\" line.\r\nOn the top left hand corner, in front of \\\"Profiles\\\", scroll down the list and select \\\"Elder Scrolls 5: Skyrim\\\".\r\nSet the settings as shown on [url=http://www.skyrimnexus.com/downloads/images/474-1-1322224484.jpg]this picture[/url] and click \\\"Apply Changes\\\" in the top right hand corner.\r\nNote that Triple Buffering shouldn\\'t work on this game unless you follow another step that I haven\\'t tested myself, [url=http://www.tweakguides.com/NVFORCE_10.html]read the bottom of this page for more informations and feel free to experiment[/url].\r\nIf you notice a huge FPS drop, simply revert the Antialiasing part to default in NvidiaInspector or try enabling Transparency Multisampling instead of supersampling.\r\n\r\n\r\n[b]STEP 4: MODS AND TOOLS BY THE COMMUNITY[/b]\r\n--------------------------------------------------\r\nLast but not least, and because it\\'s great to have such an active community, we will use some mods to make our game looks better. Feel free to use other mods as well.\r\n\r\nFXAA Post Processing Injector created by some_dude\r\nI uploaded my own tweak of this wonderful tool and it plays a lot in the final result. My version only uses the Pre-sharpen and Anti-Aliasing effects of this tools so it doesn\\'t alter the wonderful palette of Skyrim. Put these files in your HD://Program Files(x86)/Steam/steamapps/common/Skyrim and simply delete them to remove this mod.\r\nPress PAUSE ingame to toggle Off the effects.\r\n\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=85]Enhanced Night Skyrim[/url] by CptJoker71\r\nIt will make the night sky in skyrim much more realistic and complex. I recommend it!\r\n\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=141]Vurts Skyrim Flora Overhaul[/url] by vurt\r\nA great mod you should follow closely, greatly enhance the visual of the flora.\r\n\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=60]Enhanced Blood Textures[/url] by dDefinder\r\nThere is blood everywhere in this game so why not make it better ?\r\n\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=849]Improved rock and mountain textures - 4096x4096[/url] by 747823\r\nAwesome retexture of the rocks, FPS drop may vary depending on your GPU, use the 2048x2048 if it\\'s too heavy.\r\n\r\n\r\nAnd this is the end of my guide. I hope you like it.\r\nI will update it as I find new tweaks and stuff. In the meantime, don\\'t forget to rate and comment. I\\'ll try to answer all your questions.\r\n\r\n[i]Edits:\r\n- Added Triple-buffered Vsync option (thank you nic1357890)\r\n- Added link to Tweakguides about Triple Buffering (thank you VoidNull0)\r\n- Removed the 4GB guide until a new solution pops out\r\n- Added Improved rock and mountain by 747823\r\n- Added transparency SSAA instead of transparency MSAA\r\n- MSAAx4 instead of x8\r\n- Removed Vsync removal\r\n[/i]",
+  "categoryId": "62",
+  "version": "0.3b",
+  "author": "Krag",
+  "createdUnix": "1321553360",
+  "updatedUnix": "1321553516",
+  "containsAdultContent": false,
+  "uploadedBy": "Krageesh",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1088",
+      "name": "Tweaked FXAA Post Processing Injector",
+      "version": "0.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "79",
+      "fileName": "Tweaked FXAA Post Processing Injector-474-0-1.rar",
+      "uploadedUnix": "1321553516",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/fdaaabbce943f4314c125ea2f5c1df0b8f68da608a56e0aafadaa3fb16931342/analysis/1406414523/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Tweaked%20FXAA%20Post%20Processing%20Injector-474-0-1.rar?fid=1088&ttl=1535753381&ri=8192&rs=8192&setec=438bdffb037fbf0714464a4c17ddde6a"
+    }
+  ]
+}

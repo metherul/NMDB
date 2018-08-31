@@ -1,0 +1,32 @@
+{
+  "modId": 183.0,
+  "modName": "Timescales modified",
+  "summary": "This changes the time scale somewhere in between  1-1280 ingame minutes per real life minute.",
+  "descriptionHtml": "[b]Warning: !!!There are 12 files, choose only one.!!![/b]\r\n\r\n[b]News:[/b]\r\n\r\nI have fixed the files randomly not working for some people. I\\'ve forgot to put in a master dependencie on the .esp. In fact they shouldn\\'t have worked at all. It seems like it worked for people that had another Bethesda title installed, like Oblivion, Fallout or New Vegas. Please test again and let me know if there are any problems.\r\n\r\nI\\'ve added 8 new files now totally ranging from timescale 1-1280. I recommend to use timescale 4 or 5. Timescale 5 is reported to be mostly bug free, while everything below timescale 5 seems to break some quests. Timescale 40 is for people who like to have a even faster day, while timescale 1280 is for mod testing and video making purposes.\r\n\r\n[b]Description:[/b] By default the timescale in Skyrim is set to 20, which means that 1 minute in real life are 20 minutes ingame. This means a day in Skyrim lasts for 1 hour and 12 minutes compared to real life. With time scale 10 it lasts 2 hours and 4 minutes, with time scale 5 it lasts 4 hours and 48 minutes, with time scale 3 it lasts 8 hours and with time scale 1 it matches real life time.\r\n\r\n[b]Installation:[/b]\r\n\r\n1. Put one of the files into X:/.../Steam/Steamapps/common/Skyrim/Data or into X:/...Skyrim/Data if you don\\'t have installed Skyrim in Steam directory.\r\n2. Activate the file through the launch up menu.\r\n3. Play and enjoy\r\n\r\nIt\\'s recommended but not necessary to start a new game, otherwise strange bugs may occur. On a positive site I should mention that with lower time scales the exterior shadow bug, which occurs from moving sun, is less recognizable.\r\n\r\n[b]Troubleshooting:[/b]\r\n\r\nIf your datafiles are greyed out in Skyrim launcher:\r\n\r\nGo to: X:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Skyrim\r\n\r\nAdd these lines to [b]SkyrimPrefs.ini[/b], or change them if they already exist so they match the below:\r\n\r\n[Launcher]\r\nbEnableFileSelection=1\r\n\r\n[b]Changelog:[/b]\r\n\r\nVersion 1.0: \r\n\r\n- initial release\r\n\r\nVersion 1.01:\r\n\r\n- fixed mod files randomly not working for some people\r\n- added 8 more timescales\r\n\r\n",
+  "categoryId": "24",
+  "version": "1.01",
+  "author": "Frontsalat",
+  "createdUnix": "1321292733",
+  "updatedUnix": "1322409621",
+  "containsAdultContent": false,
+  "uploadedBy": "Frontsalat",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "4598",
+      "name": "TimescalesModified",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "TimescalesModified-183-1-01.7z",
+      "uploadedUnix": "1322409621",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/1c4027ff2fd300e7f00cf9955c24e2f767ccfe03a55919f5aeec8ef21cb1e463/analysis/1406455503/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TimescalesModified-183-1-01.7z?fid=4598&ttl=1535752820&ri=8192&rs=8192&setec=9c233df5cfd888a3b9fe4c5078c28936"
+    }
+  ]
+}

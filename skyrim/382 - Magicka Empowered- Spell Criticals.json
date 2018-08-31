@@ -1,0 +1,32 @@
+{
+  "modId": 382.0,
+  "modName": "Magicka Empowered- Spell Criticals",
+  "summary": "Big Bug Fix and Rework\r\nDestruction spells can now critical have a 10% chance to crit, and Lightning/Ice/Fire End tier perks give chance to Special crit once health is reduced to 40-50%. Instead of when enemies are already almost dead.",
+  "descriptionHtml": "Designed to spice Destruction and spell casting up a bit, without getting in the way of most other mods.\r\n\r\nEffects \r\nMajor rework including bug fix.\r\nReworked crit effects, how I had implemented it caused Kill cam to turn on by detecting the Critical damage even when it wasnt activating causing kill cams without kills.\r\nFixed bugs with spells I messed up(CHain Lightning casting Force push.. whoops).\r\nStagger actually DOES only work 50% of the time like its supposed too.\r\n\r\nME_MAIN.ESP\r\n\r\n1. All main destruction spells(only cloaks dont) now have a 10% chance to Crit for double damage.\r\nMaster spells also get an extra effect.\r\n\r\nMaster spells improved.\r\nLightning Storm \r\n5% chance to knock back\r\n\r\nIce Storm\r\n10% chance to freeze targets for 10 seconds\r\n+50% damage increase(balance)\r\nSlow effect added like all other ice spells(balance).\r\n\r\nFireStorm\r\nCast time reduced in half.\r\n100% chance to knock back in a area 1/4 as small as the primary blaze.\r\n\r\nEnd Tier perks deep freeze/Disintergrate/Intense Flames reworked.\r\nInstead of working on targets at 20-15% health or less.\r\nDeep Freeze 25% chance for ice spells to freeze targets with less then 40% health\r\nIntense Flames 15% chance to cause fear in targets with 50% health or less.\r\nDisintergrate 10% chance to instantly kill targets with 33% health or less.\r\n\r\nSecondary effect, Destruction spells will level slightly faster, critical hits count as 5 times a normal hit for skill increases.\r\nThis works out to about 50% faster destruction leveling.\r\n\r\nEM_Secondary.ESP\r\n\r\n1.Once you get impact perk destruction spells get a damage bonus based on your destruction skill level.\r\nEach level of Destruction increases damage by 1%.\r\n\r\n2.Impact only has a 50% chance to cause stagger.\r\n\r\n3.Spell cost reduction enchantments halved in effectiveness to reduce the ability to cast free spells.\r\n\r\n4.Dual casting takes 3 seconds does 2.5* damage and takes 1.5* mana.\r\nThis makes it more mana efficent then single casting damage wise, but makes it do less total DPS.. and makes attempting to chain stagger harder.\r\nReason why its made more efficent is because NOT dual casting bust casting 2 spells at a time increases chances for crits and for things like fire effects actually does more damage.\r\n\r\n5.Magicka restore potions increased in base effectiveness to make them worthwhile in combat.\r\n\r\n\r\nBretonRestored.ESP\r\nGives Bretons 50% magic resistance like oblivion and morrowind, and like it states they should have in Skyrim loading menus, aswell as turning there power into 80% physical damage resistance.\r\n\r\nThings that conflict with other mods\r\nMain file\r\nDeep freeze/Intense Flames/Disintergrate Perks\r\nAll destruction spells.\r\n\r\nSecondary file.\r\nDestruction Dual casting perk\r\nDual casting power and cost modifiers.\r\nAnything that edits mana restore potions.\r\nAnything that edits spell reduction enchantments\r\n\r\nBetterwards\r\nAny thing that edits wards spells.\r\n\r\nBretonRestored\r\nAnything that edits Breton race powers.\r\n\r\nShould be bug free.. completely, need feed back on balance.",
+  "categoryId": "24",
+  "version": "1.6",
+  "author": "Phoynix",
+  "createdUnix": "1321491461",
+  "updatedUnix": "1336895146",
+  "containsAdultContent": false,
+  "uploadedBy": "Phoynix",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "60948",
+      "name": "Main file",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Main file-382-1-1.rar",
+      "uploadedUnix": "1336895146",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/475abdca1c821d25ac73c8d351fb04dc9d61a10ebe99dfcbfc197a4efd666096/analysis/1406889007/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Main%20file-382-1-1.rar?fid=60948&ttl=1535753216&ri=8192&rs=8192&setec=640350648e908e06dbfcb8d284ec62c5"
+    }
+  ]
+}

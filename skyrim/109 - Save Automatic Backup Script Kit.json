@@ -1,0 +1,32 @@
+{
+  "modId": 109.0,
+  "modName": "Save Automatic Backup Script Kit",
+  "summary": "Highly configurable Windows batch scripts to automatically backup quicksaves when modified and to restore on command.",
+  "descriptionHtml": "Automatically backs up your quicksaves up to a default of 1000 times (configurable to any number), deleting old ones, and names the backups according to your character name and location (man was that hard to do), along with date & time. \r\n\r\n- To change settings, simply open the batch files in Notepad.\r\n\r\n- It waits until Skyrim is running, then doesn\\'t exit until Skyrim exits.\r\n\r\n- Also puts the latest 5 quicksaves in the main Save directory so you can load them up in Skyrim through the regular Save/Load menu.\r\n\r\n- Can be configured to monitor any file.\r\n-----------------------------\r\nFor users of the 4GB Launcher\r\n-----------------------------\r\nThe 4GB Launcher changes the process name from tesv.exe to tesv.exe.4gb. As the script is highly configurable you just need to change one line:\r\n\r\nSET PROCESSNAME=tesv.exe\r\nto\r\nSET PROCESSNAME=tesv.exe.4gb\r\n\r\nAnd you\\'re done.\r\n-----------------------------\r\nNEW in Version 2\r\n-----------------------------\r\n- Updated Save Info parser regexp. Now it grabs names with spaces and the location.\r\n\r\n- New backup format is Save - Character Name - Character Location - Backup Date - Time.ess\r\n\r\n- Your latest 5 quicksaves will be copied to the default Save directory as well, so you can easily load them up within Skyrim. Because of this, the \\\"Restore\\\" batch file is no longer needed. The default max is 5.\r\n\r\n- The batch file will no longer exit immediately when Skyrim exits, instead it\\'ll wait up to 15 minutes, then exit if Skyrim wasn\\'t restarted.\r\n\r\n- New configuration options for new features.\r\n------------------------\r\nThe batch scripts are public domain. I only request you tell me if you\\'re distributing modified versions :)\r\n\r\nThe kit comes with a version of sed from GNU for Windows, but can work without it. sed.exe and its accompanying files are, of course, under GNU\\'s license. More information found here: http://gnuwin32.sourceforge.net/license.html",
+  "categoryId": "39",
+  "version": "2",
+  "author": "generalmx",
+  "createdUnix": "1321171661",
+  "updatedUnix": "1321367282",
+  "containsAdultContent": false,
+  "uploadedBy": "generalmx",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "509",
+      "name": "Save Automatic Backup Script v2_1",
+      "version": "2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "829",
+      "fileName": "Save Automatic Backup Script v2_1-109-2-1.zip",
+      "uploadedUnix": "1321367282",
+      "modVersion": "2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/f9a5538351c84dc408f7eb81482adb595e3f4c844f11b28e4ecd44010c05e592/analysis/1406406608/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Save%20Automatic%20Backup%20Script%20v2_1-109-2-1.zip?fid=509&ttl=1535752688&ri=8192&rs=8192&setec=8d083edce7a44c3f2e7d1385c57d3ded"
+    }
+  ]
+}

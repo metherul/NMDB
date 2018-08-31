@@ -1,0 +1,48 @@
+{
+  "modId": 148.0,
+  "modName": "Fix Shadows",
+  "summary": "A temporary fix for the flickering, blocky shadows, until Bethesda gets their act together and patches this mess. ",
+  "descriptionHtml": "This might not be the end-all be-all to shadow fixes, but it should improve your shadows significantly. This blurs the shadows and lowers the draw distance, because the shadow res and draw distance are linked. Change these values in the SkyrimPrefs.ini file located in your C:\\\\Users\\\\*USER*\\\\Documents\\\\My Games\\\\Skyrim\\\\ directory. Shadows WILL look bad in some locations, and will look good in others, but an overall improvement should be obvious.\r\n\r\n[Display]\r\niBlurDeferredShadowMask=2 <--------------------------------raising this (max 5) blurs the shadows at a distance\r\nfInteriorShadowDistance=2000.0000 <-------------------------------raising these will give you shadows at a further-\r\nfShadowDistance=1000.0000 <-----------------------------------------distance, but you will lose resolution up close.\r\niShadowMapResolutionSecondary=4096 <-----------------------------half all \\\"4096\\\" values if you have FPS issues\r\niShadowMapResolutionPrimary=4096 <----------------------------------(4096)-(2048)-(1024)-(512)-(256)-(128)\r\n-------------------------------\r\nfShadowLODStartFade=400.0000 <----------------------------this value is the distance that shadows begin to blur at\r\n-------------------------------\r\niShadowMapResolution=4096 <--------------------------------------------(4096)-(2048)-(1024)-(512)-(256)-(128)\r\nfShadowBiasScale=0.3000\r\niShadowMaskQuarter=4\r\n-------------------------------\r\nbDrawShadows=1\r\n\r\n\r\n\r\nNote: Due to other engagements (and other games) I do not plan on updating this or any of my other mods, indefinitely. At a later date, my interest in Skyrim may come back but until then, please do not leave impatient comments about updates or fixes.",
+  "categoryId": "62",
+  "version": "0.1",
+  "author": "Valstein0",
+  "createdUnix": "1321231938",
+  "updatedUnix": "1321248608",
+  "containsAdultContent": false,
+  "uploadedBy": "Valstein0",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "281",
+      "name": "Fix Shadows_v0_1",
+      "version": "0.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Fix Shadows_v0_1-148-0-1.rar",
+      "uploadedUnix": "1321246158",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/9d84cc10b6ac62dcfc1be6f3fe3ed4d402e5cd681869ceb73ab4a6fa246e936a/analysis/1406403364/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fix%20Shadows_v0_1-148-0-1.rar?fid=281&ttl=1535752752&ri=8192&rs=8192&setec=07766dd4fc69d05c215d340801a3b9e0"
+    },
+    {
+      "fileId": "292",
+      "name": "High Mid and Low values",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "High Mid and Low values-148-0-1.rar",
+      "uploadedUnix": "1321248608",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/903583309ab57b004e3dbfed1979b11128183f3c18fc35896d023c8105f7ca0e/analysis/1406403543/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/High%20Mid%20and%20Low%20values-148-0-1.rar?fid=292&ttl=1535752753&ri=8192&rs=8192&setec=a2088d7ee9dc12ac65cbb9153a63b653"
+    }
+  ]
+}

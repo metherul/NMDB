@@ -1,0 +1,48 @@
+{
+  "modId": 256.0,
+  "modName": "Detailed Bodies",
+  "summary": "",
+  "descriptionHtml": "[center][b][url=http://xeniusmods.tumblr.com/]Follow my blog on Tumblr for the latest news on upcoming releases, progress reports, beta releases, and more&#33;[/url][/b][/center]\r<br />\r<br />[center]\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=2356][img]http://www.skyrimnexus.com/imageshare/images/726673-1322753980.png[/img][/url]\r<br />\r<br />*****\r<br />\r<br />My Skyrim mods:\r<br />\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=4489]Weathered Warpaint and Improved Dirt[/url]\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=2356]XCE - Xenius Character Enhancement[/url]\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=26]Detailed Faces[/url]\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=256]Detailed Bodies[/url]\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=689]Detailed Lips[/url]\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=30]No More Blocky Faces[/url]\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=498]High Quality Eyes[/url]\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=944]Better Beast Races[/url]\r<br />\r<br />Articles featuring my mods:\r<br />\r<br />[url=http://www.pcgamer.com/2011/11/14/the-10-best-skyrim-mods-so-far]PC Gamer[/url]\r<br />[url=http://www.pcgamer.com/2011/11/25/skyrim-mods-the-20-best-so-far]PC Gamer II[/url]\r<br />[url=http://blog.fileplanet.com/2011/11/14/monday-mod-elder-scrolls-v-skyrim-detailed-faces]FilePlanet[/url]\r<br />[url=http://www.topofthegames.com/3638/special-die-besten-skyrim-mods]topoftheGAMES[/url]\r<br />[url=http://www.gamefront.com/top-10-best-skyrim-mods/2]GameFront[/url]\r<br />[b]Gameranx[/b]\r<br />http://www.gameranx.com/features/id/3679/article/top-5-visual-mods-for-skyrim/\r<br />[url=http://www.dualshockers.com/2011/11/23/the-skyrim-mod-forge-%E2%80%93-episode-1-%E2%80%93-large-address-and-steady-growth]DualShockers[/url]\r<br />\r<br />*****[/center]\r<br />\r<br />Detailed Bodies\r<br />- by Xenius\r<br />\r<br />&gt;&gt; Description\r<br />\r<br />I made this mod to match the bodies to my Detailed Faces mod.\r<br />\r<br />The method I used is identical to that mod. Body textures and specular maps\r<br />have been increased in detail and size (4096 vs the old 2048 ones). \r<br />Specular maps (these determine the glossiness), have been made the same way as\r<br />Bethesda&#39;s, using slightly blurred noise, I did this at a higher resolution.\r<br />\r<br />Detail of the skin textures has been increased by using a seamless human skin\r<br />texture resource. I filled an 8192x8192 image with this resource, then decreased \r<br />the size  to 4096x4096 and applied it to the original body and hand textures.\r<br />Due to the added layers the amount of dirt on the skin has been slightly\r<br />decreased, but not completely removed.\r<br />\r<br />On the comparison images you&#39;ll notice a slight difference in color, don&#39;t \r<br />worry about this, if you use &#34;Detailed Faces&#34; it will match fine.\r<br />\r<br />I know it&#39;s quite hard to see the difference on some of the images, if you\r<br />open them in a new tab in your browser and zoom them in you&#39;ll see it better.\r<br />\r<br />While looking at the comparison images, I noticed the female body has \r<br />blocky parts similar to the faces, artifacts caused by compression of the object\r<br />space normal maps. I have smoothed the normal map of the female body and the\r<br />hands of both genders. The male body was not necessary, the artifacts only\r<br />appear on parts that should be smooth, when there are many tiny details, like\r<br />on the male body, the artifacts do not occur.\r<br />\r<br />This mod affects the following races, male and female including\r<br />old characters:\r<br />\r<br />Imperial\r<br />Nord\r<br />Breton\r<br />Redguard\r<br />Dark Elf\r<br />High Elf\r<br />Wood Elf\r<br />Orc\r<br />\r<br />Also note that:\r<br />\r<br />- This is not a nude mod\r<br />- This is not a cleaner skin mod\r<br />\r<br />&gt;&gt; Installation\r<br />\r<br />Use 7zip or WinRar to extract the files.\r<br />Move the Data folder to your Skyrim folder.\r<br />\r<br />You can find the Skyrim folder here: Steam&#92;steamapps&#92;common&#92;skyrim\r<br />\r<br />To those who are new to using Elder Scrolls mods:\r<br />\r<br />- You do not have to extract the .bsa archives. The folder provided by\r<br /> this mod has the same structure as the inside of the .bsa archive, it will\r<br /> override the textures that are included in the .bsa file.\r<br />- Do not worry about the Data folder that already exists, the folder provided\r<br />by this mod will be merged with the existing folder, it will not be overwritten.\r<br />\r<br />&gt;&gt; Uninstallation\r<br />\r<br />Remove the following files:\r<br />\r<br />Data&#92;textures&#92;actors&#92;character&#92;female&#92;femalebody_1.dds\r<br />Data&#92;textures&#92;actors&#92;character&#92;female&#92;femalebody_1_msn.dds\r<br />Data&#92;textures&#92;actors&#92;character&#92;female&#92;femalebody_1_s.dds\r<br />Data&#92;textures&#92;actors&#92;character&#92;female&#92;femalehands_1.dds\r<br />Data&#92;textures&#92;actors&#92;character&#92;female&#92;femalehands_1_s.dds\r<br />Data&#92;textures&#92;actors&#92;character&#92;female&#92;femalehands_1_msn.dds\r<br />Data&#92;textures&#92;actors&#92;character&#92;male&#92;malebody_1.dds\r<br />Data&#92;textures&#92;actors&#92;character&#92;male&#92;malebody_1_s.dds\r<br />Data&#92;textures&#92;actors&#92;character&#92;male&#92;malehands_1.dds\r<br />Data&#92;textures&#92;actors&#92;character&#92;male&#92;malehands_1_s.dds\r<br />Data&#92;textures&#92;actors&#92;character&#92;male&#92;malehands_1_msn.dds\r<br />\r<br />&gt;&gt; Compatibility\r<br />\r<br />The following mods are all compatible with each other:\r<br />\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=26]Detailed Faces[/url]\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=256]Detailed Bodies[/url]\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=689]Detailed Lips[/url]\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=30]No More Blocky Faces[/url]\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=498]High Quality Eyes[/url]\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=944]Better Beast Races[/url]\r<br />[url=http://www.skyrimnexus.com/downloads/file.php?id=4489]Weathered Warpaint and Improved Dirt[/url]\r<br />\r<br />&gt;&gt; Requirements\r<br />\r<br />Skyrim.\r<br />\r<br />&gt;&gt; Version History\r<br />\r<br />[15-11-11] 1.0 Release\r<br />[16-11-11] 1.1 Update - Slightly edited to fit Detailed Faces v2.0 better\r<br />[25-11-11] 1.2 Update - Improved nails, hand specular made to fit the rest of the body better\r<br />[25-11-11] 1.3 Update - Less shiny nails\r<br />[30-11-11] Added optional lite version\r<br />\r<br />&gt;&gt; Credits\r<br />\r<br />Thanks to [url=http://borysses.deviantart.com/gallery/5901662#/d1l0m4h]borysses for the seamless skin resource[/url]\r<br />Thanks to Bethesda - for creating Skyrim\r<br />\r<br />&gt;&gt; Distribution Permission\r<br />\r<br />The content of this mod is open source and can be used freely on the following conditions:\r<br />\r<br />- Credit me\r<br />- Notify me\r<br />- Skyrim only",
+  "categoryId": "29",
+  "version": "1.3",
+  "author": "Xenius",
+  "createdUnix": "1321391842",
+  "updatedUnix": "1322680097",
+  "containsAdultContent": false,
+  "uploadedBy": "Xenius",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "3964",
+      "name": "Detailed_Bodies-1_30",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "24166",
+      "fileName": "Detailed_Bodies-1_30-256-1-3.7z",
+      "uploadedUnix": "1322258746",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/f94eb3a44e04ae4b5d4481d42cf96470c5bd370fa25533f1f8b9719d0b388ead/analysis/1406447709/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Detailed_Bodies-1_30-256-1-3.7z?fid=3964&ttl=1535752969&ri=8192&rs=8192&setec=69b260b69a4b91d980f9fdcb5e952c5d"
+    },
+    {
+      "fileId": "5636",
+      "name": "Detailed_Bodies-1_30-Lite",
+      "version": "1.3L",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11319",
+      "fileName": "Detailed_Bodies-1_30-Lite-256-1-3L.7z",
+      "uploadedUnix": "1322680097",
+      "modVersion": "1.3L",
+      "virusScanUrl": "https://www.virustotal.com/file/87f8b065ddb480aafeee229f95b36515fabcac5c2b24d3f46ecdfe660bd1f9ed/analysis/1406461945/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Detailed_Bodies-1_30-Lite-256-1-3L.7z?fid=5636&ttl=1535752969&ri=8192&rs=8192&setec=f04a3bc9b13e4a4efddd77b293a43de5"
+    }
+  ]
+}

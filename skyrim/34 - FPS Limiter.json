@@ -1,0 +1,32 @@
+{
+  "modId": 34.0,
+  "modName": "FPS Limiter",
+  "summary": "This is a FPS Limiter that will cap your FPS to any set number you choose",
+  "descriptionHtml": "FPS Limiter\r\n\r\n\r\n\r\n\r\nDescription:\r\nFPS Limiter is a utility which enables you to cap your Frames Per Second to any set number you choose. \r\n\r\n\r\n\r\nInstallation:\r\n\r\nSimply extract antilag.cfg and d3d9.ddl to your skyrim folder: C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\\r\n\r\n[color=red]Please force v-sync on in your GPU control panel if you don\\'t want screen tearing. Thank you...[/color]\r\n\r\nAmd cards may not be able to force v-sync the same way as Nvidia cards can. Optimus cards are not supported.\r\n\r\n\r\n\r\nRenderAheadLimit: Limit how many frames ahead are rendered to reduce input lag.(default is 0)\r\n\r\nFPSlimit: Limit framerate for smoother gameplay and reduced cpu/gpu use. 0 to disable.(default is 30)\r\n\r\n\r\n\r\nYou can make this file work in conjunction with ENBSeries.ini:\r\n1. Rename the FPS Limiter\\'s D3D9.dll to D3D9FL.dll, now drop it into your Skyrim folder.\r\n\r\n2. Now open up ENBSeries.ini and edit \\\"ProxyLibrary=PathToDLL\\\" edit it so it leads straight to \\\"D3D9FL.dll\\\", also remember to have \\\"EnableProxyLibrary=xx\\\" & \\\"InitProxyFunctions=xx\\\" set to \\\"true\\\", or it won\\'t load the additional DLL.\r\n\r\nExample:\r\n[PROXY]\r\nEnableProxyLibrary=true\r\nInitProxyFunctions=true\r\nProxyLibrary=\\\"C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\D3D9FL.dll\\\" \r\n\r\nThanks to Kegetys (Original creator) & Ox30 (F:NV Uploader)\r\n\r\n",
+  "categoryId": "39",
+  "version": "v1.01",
+  "author": "GriefReaper ",
+  "createdUnix": "1321050442",
+  "updatedUnix": "1321050620",
+  "containsAdultContent": false,
+  "uploadedBy": "GriefReaper",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "54",
+      "name": "FPS Limiter",
+      "version": "V1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "FPS Limiter-34-V1-01.rar",
+      "uploadedUnix": "1321050620",
+      "modVersion": "V1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/0facde8df3c0108ed5152903e1a7e2345eedafe1de8351839361308cc6684713/analysis/1406402463/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FPS%20Limiter-34-V1-01.rar?fid=54&ttl=1535752548&ri=8192&rs=8192&setec=823d557abe72e3ec251fe9e10d98ff53"
+    }
+  ]
+}

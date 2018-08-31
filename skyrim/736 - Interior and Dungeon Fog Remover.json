@@ -1,0 +1,32 @@
+{
+  "modId": 736.0,
+  "modName": "Interior and Dungeon Fog Remover",
+  "summary": "",
+  "descriptionHtml": "Note: I\\'m not creating or updating mods anymore. Because of this, I give anyone permission to continue this project, make variations of it, or include it in their own files. \r\n\r\nReplaces most default \\\"fog\\\" meshes with blank ones. (This means the fog meshes actually contain no polygons, not just lowered alpha channel.)\r\n\r\nTo avoid confusion, there is another mod called \\\"Remove Ambient Interior Fog\\\". They do different things. This mod removes the 3D \\\"dust\\\" that floats around, while the other mod removes the depth fog of the whole scene that causes all distant objects to be less visible.\r\n\r\nSeveral people have commented saying they are getting better performance in specific areas, so if you notice unusual performance drops in the presence of fog, this might help you.\r\n\r\n[b]Install:[/b]\r\nCopy the downloaded meshes folder into the Skyrim Data folder. This is usually found in a place like \\\"C:\\\\Program Files\\\\Bethesda Softworks\\\\The Elder Scrolls V Skyrim\\\". \r\n\r\n[b]Uninstall[/b]\r\nDelete the following files from the Data\\\\meshes\\\\effects\\\\ambient folder:\r\nhttp://i.imgur.com/8mktG.gif",
+  "categoryId": "74",
+  "version": "1.0",
+  "author": "747823",
+  "createdUnix": "1321750602",
+  "updatedUnix": "1321750646",
+  "containsAdultContent": false,
+  "uploadedBy": "747823",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1844",
+      "name": "Fog Mesh Remover",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "253",
+      "fileName": "Fog Mesh Remover-736.zip",
+      "uploadedUnix": "1321750646",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0ccbac1f5585d7416322c6c789696ff6b052fc34de405eab3e2bd14a6ca3e392/analysis/1406423601/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fog%20Mesh%20Remover-736.zip?fid=1844&ttl=1535753840&ri=8192&rs=8192&setec=51788952e372f5c435dbf561498cd319"
+    }
+  ]
+}

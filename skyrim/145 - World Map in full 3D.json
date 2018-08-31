@@ -1,0 +1,48 @@
+{
+  "modId": 145.0,
+  "modName": "World Map in full 3D",
+  "summary": "Allows to zoom in and explore map very closely",
+  "descriptionHtml": "[color=#00df00][size=4]Mod is no longer maintained[/size][/color]\r\n\r\nThis mod changes camera controls in ingame map view so it becomes possible to zoom in almost to the ground.\r\nWatch video to see the result of this mod.\r\n\r\n[u]Installation:[/u]\r\n\r\n[color=#df0000]Only manually! NMM won\\'t work.[/color]\r\n\r\n1. Open file [b]C:\\\\Users\\\\USERNAME\\\\Documents\\\\My Games\\\\Skyrim\\\\Skyrim.ini[/b]\r\n\r\n2. Append lines from Skyrim.ini.txt (if there is no MapMenu section) or change existing values to match them.\r\n\r\n3. Copy WorldMapInFull3D.esp and WorldMapInFull3D.bsa to your game\\'s Data folder and check WorldMapInFull3D.esp in launcher or NMM.\r\n\r\n4. While browsing ingame map use WASD for slow scrolling (at low heights) and mouse for fast. Hold RMB to rotate camera. Zoom with mouse wheel.\r\n\r\n[u]Troubleshooting and tweaks[/u]\r\n\r\n1. If the game crashes on save load, change value of [i]uLockedObjectMapLOD[/i] and [i]uLockedTerrainLOD[/i] to 16 and 32 respectivly (this will lower objects and terrain detail on the map while indoors)\r\n\r\n2. To make camera look straight down add line:\r\n[i]fMapWorldInitialPitch=90.0000[/i]\r\n\r\n3. Love clouds? Then remove line that contains [i]sMapCloudNIF[/i]\r\nFuriously hate clouds? Remove line with [i]sMapCloudNIF[/i] and use A Clear World Map mod instead:\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=6411\r\n\r\n4. Full detail map renders in realtime with the current weather. To clear fog from the map enter console command \\\"fw 15e\\\" and then open the map (thanks to [url=http://www.skyrimnexus.com/modules/members/index.php?id=424083]Graxster[/url] for pointing that out)\r\n\r\n5. If you are using other map mods, e.g. Quality World Map with roads, change uLockedTerrainLOD to 32 to display them (only indoors)\r\n\r\n6. [url=http://skyrim.nexusmods.com/downloads/file.php?id=16619]Use this mod to remove map\\'s boundaries[/url].\r\n\r\n[u]Known issues[/u]\r\n\r\nOnly area around character can be viewed in greater detail, and some parts of map can be missing entirely",
+  "categoryId": "24",
+  "version": "1.2",
+  "author": "Mikanoshi",
+  "createdUnix": "1321228421",
+  "updatedUnix": "1329961715",
+  "containsAdultContent": false,
+  "uploadedBy": "Mikanoshi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "32100",
+      "name": "World Map in Full 3D - Limited",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "World Map in Full 3D - Limited-145.rar",
+      "uploadedUnix": "1329406621",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/dff2f3659edb809657be5dab9d90e8e27784ca14262324f951b784b2fe2ac3cc/analysis/1406687358/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/World%20Map%20in%20Full%203D%20-%20Limited-145.rar?fid=32100&ttl=1535752747&ri=8192&rs=8192&setec=8ce8ef1a74dd954578c2e109919887de"
+    },
+    {
+      "fileId": "35510",
+      "name": "World Map in Full 3D - Full",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "World Map in Full 3D - Full-145.rar",
+      "uploadedUnix": "1329961715",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/9495411e40c40ca3de094065aeb9a11a1fe94c33dd3fbadc3c50067ae122f250/analysis/1406706603/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/World%20Map%20in%20Full%203D%20-%20Full-145.rar?fid=35510&ttl=1535752747&ri=8192&rs=8192&setec=52cb119a619a448700d537f04a14bb0d"
+    }
+  ]
+}

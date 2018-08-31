@@ -1,0 +1,32 @@
+{
+  "modId": 576.0,
+  "modName": "Sell any item to any merchant",
+  "summary": "Just a little trick to be able to sell any item (including or not stolen items) to any merchant, without having to get the Speech perks.",
+  "descriptionHtml": "EDITED a few million typos everywhere, sorry, kinda rushed this xD\r\n\r\nHave you ever wanted to be able to just sell all your unwanted stuff to the same merchant, rather than having to walk around town finding every merchant possible? Or maybe just wanted to steal anything you feel like, without worrying about having to keep it for a long time only to get caught later to lose it? \r\nNot everyone wants to actually spend perks in a skill with such limited use, or perhaps you just like roleplaying and consider your character isn\\'t really such a merchant as to have so many perks related.\r\n\r\nWell, if any of the above is your case, then this is just the thing for you. It\\'s just a little Actor Value modification which won\\'t affect anything else than that (as far as I could test), and as such there\\'s no real file to download. You just need the ability to open the console. On it, there\\'s 2 lines you can write:\r\n\r\nplayer.modav BypassVendorStolenCheck 1\r\n\r\nThis will let you sell stolen items to any merchant, still respecting what kind of item each merchant buys.\r\n\r\nplayer.modav BypassVendorKeywordCheck 1\r\n\r\nAnd this one will let you sell any non-stolen item to any merchant.\r\nSimply enough, you just need to use both to be able to sell any item to any merchant at all. Of course, you still gotta be aware of how much money the merchant has.\r\n\r\nIf you ever wanna undo these changes, you just need to write the previous lines again, but changing the 1 for a 0. That\\'s all there is to it, hope you found this useful.\r\n\r\nP.D: The file is just there because I read it\\'s needed for some functionality, it\\'s just this same text on a file. Sorry if I did something wrong, I\\'m no modder and I\\'m new to uploading stuff here xD",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Rangaros",
+  "createdUnix": "1321636772",
+  "updatedUnix": "1321638003",
+  "containsAdultContent": false,
+  "uploadedBy": "Rangaros",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1373",
+      "name": "Txt tutorial",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Txt tutorial-576-1-0.rar",
+      "uploadedUnix": "1321638003",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d83c9ef03e300c0768aa112d0c22fcb7b0893db4653e40ee14449ed2865b11fa/analysis/1406417883/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Txt%20tutorial-576-1-0.rar?fid=1373&ttl=1535753566&ri=8192&rs=8192&setec=def9151a2110cbac25a9cd7836bbb729"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 317.0,
+  "modName": "Bobs Alchemy Database",
+  "summary": "A database that allows you to create potions by choosing compatible effects or by choosing an ingredient then selecting from ingredients with matching effects.  Favorite potions can be saved.  Requires Microsoft Access 2002 or newer.",
+  "descriptionHtml": "NOTES: \r\n-This works well with \\\"Simple Borderless Window\\\" script on SkyrimNexus.  That will allow you to easily alt-tab between the game and the database.\r\n\r\n-If anyone knows the formula for determining the price of a created potion let me know and I\\'ll try to add it to the database.\r\n\r\nThis is a database in Microsoft Access 2010 that allows you to create potions in one of two ways.\r\n\r\nCreate Potion by Effect:\r\nChoose one or more effects and the DB will show you all the possible ingredient combinations that will create a potion with those effects.  Want to make a potion with: Damage Health, Damage Magicka, Damage Magicka Regen, Damage Stamina, and Frenzy?  No problem. (It\\'s Blisterwort, Human Heart, and Jarrin Root).  \r\nFiltering options include: \r\n-Only show effect combinations that end up creating potions with only positive effects or only negative effects\r\n-Only show effect combinations that end with a potion with X or greater number of effects.  For example, only show combinations that can result in potions having 4 or more effects.\r\n\r\nCreate Potion by Ingredient:\r\nHave a limited number of ingredients?  Just practicing alchemy for profit?  This tool allows you to choose an ingredient and it will list all matching ingredients.  You can optionally choose a third ingredient as well.  It will show the base effects of each ingredient along with the resulting potion.  This tool can also filter by type (positive/negative) and number of desired effects.  Setting effects to 4+ and creating potions out of your on-hand ingredients is a great way to make gold.\r\n\r\nFavorites Tool:\r\nAny potion you create in either of the above two tools can be added to a list of favorites.  Your favorites can have a nickname and the ingredients & effects are easy to see at a glance.\r\n\r\nDISCLAIMER:\r\nThis is a Microsoft Access 2002 database.  It will work fine if you have Office 2002 or higher installed.  This database makes extensive use of macros (VBA code technically) to operate.  You must enable macros for this database to work.  The code is freely visible in the VBA editor (Alt+F11 with Access open) if you\\'re the (understandably) paranoid type.  There\\'s no code in this download that does anything other than calculate the potion combos.  No malware, no attempts to connect to the Internet, etc.",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "AlmtyBob",
+  "createdUnix": "1321439419",
+  "updatedUnix": "1321439489",
+  "containsAdultContent": false,
+  "uploadedBy": "almtybob",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "687",
+      "name": "Bobs Alchemy Database",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2168",
+      "fileName": "Bobs Alchemy Database-317-1.zip",
+      "uploadedUnix": "1321439489",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/6be1a2536ee56fffcb736d045ff052be5b09b91708de02a90bb34889a93ea264/analysis/1406408825/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bobs%20Alchemy%20Database-317-1.zip?fid=687&ttl=1535753080&ri=8192&rs=8192&setec=8561a1bcab4a13b133b9ee6754b57d72"
+    }
+  ]
+}

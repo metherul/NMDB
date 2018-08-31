@@ -1,0 +1,32 @@
+{
+  "modId": 164.0,
+  "modName": "Higher Jumping",
+  "summary": "OBSOLETE! Look for ATHLETICS TRAINING instead!\r\n\r\nThis mod is useful for agile characters like Khajiits. I included 8 different jumping heights for you to choose from, each with its own ESP plugin.",
+  "descriptionHtml": "[size=5]This mod is obsolete, now [url=http://skyrim.nexusmods.com/mods/30968[/url]Athletics Training[/url] is available![/size]\r\n\r\n\r\n[size=3]\r\n[color=lightblue]Higher Jumping (by Volek)[/color][/size]\r\n\r\nThis mod is useful for agile characters like Khajiits. I included 8 different jumping heights for you to choose from, each with its own ESP plugin.\r\n\r\nVanilla height is 76 units. Jump85.esp let\\'s you jump slightly higher, Jump150.esp about twice as high, jump300.esp about four times higher, and so on.\r\n\r\nThe height that you can fall without taking damage increases with jumping height, but you will still die from very deep falls. \r\n\r\nAny jumping height around 400 or above results in hitting an invisible ceiling and then standing/walking in the air before falling down, so the maximum option is 350, which is fine for Super-Ninja characters ;)\r\n\r\nIf you want an immersive mod that changes jump height depending on your race, level, stamina and inventory weight, check out my new mod SKSE Athletics.\r\n[url=http://skyrim.nexusmods.com/mods/28675/]http://skyrim.nexusmods.com/mods/28675/[/url]\r\n\r\nIf you want to jump higher than 350, install this mod by Graxster:\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=348]www.skyrimnexus.com/downloads/file.php?id=348[/url]\r\n\r\n\r\nInstallation:\r\n\r\n* Extract the content of the zip file to your Steam\\\\SteamApps\\\\common\\\\Skyrim\\\\Data folder (or extract only the plugin you really want)\r\n\r\n* Locate the file C:\\\\Users\\\\{your user name}\\\\Documents\\\\My Games\\\\Skyrim\\\\SkyrimPrefs.ini. Open it and search for the [Launcher] section. Add this line: \\\"bEnableFileSelection=1\\\" (without quotes). Then start the Skyrim launcher, the previously greyed out \\\"Data Files\\\" option is now available and you can select the plugin(s) that you wanna use from the list.\r\n\r\nIf this somehow doesn\\'t work, use this workaround:\r\n\r\n* Locate the file C:\\\\Users\\\\{your user name}\\\\AppData\\\\Local\\\\Skyrim\\\\plugins.txt. The Appdata folder is hidden so make sure that your OS shows hidden files. Edit plugins.txt and insert a new line that contains the name of the plugin that you wanna use, for example if you wanna Jump 125 units high, edit the plugins.txt like this:\r\n\r\n[code]\r\n# This file is used by Skyrim to keep track of your downloaded content.\r\n# Please do not modify this file.\r\nSkyrim.esm\r\njump125.esp\r\n[/code]\r\n\r\nIgnore the comment about modifying this file and save it. Then right-click the file, select Properties, and enable Read-Only. If you wanna use other plugins too, disable read-only and add their names to the list, then re-enable Read-Only.\r\n\r\n\r\n\r\nConsider this file a modder\\'s resource, do whatever you want with it. Credits would be nice :)",
+  "categoryId": "24",
+  "version": "",
+  "author": "Volek",
+  "createdUnix": "1321265109",
+  "updatedUnix": "1321265827",
+  "containsAdultContent": false,
+  "uploadedBy": "Volek",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "311",
+      "name": "HigherJumping",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "HigherJumping-164-1.zip",
+      "uploadedUnix": "1321265827",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/3fb42d83ef7c248981c35606ad57a9e8e786739031a7ecd0946b5382f04f8c50/analysis/1406403782/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HigherJumping-164-1.zip?fid=311&ttl=1535752779&ri=8192&rs=8192&setec=db5b268e87e79703de03a7b778beeeb0"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 456.0,
+  "modName": "Elemental Fury - Sound BUG - Solution",
+  "summary": "Is the elemental fury sound driving you mad ?! Try this :)",
+  "descriptionHtml": "Is the elemental fury BUG driving you nuts ?! This is something for you.\r\n\r\n\r\n\r\n[b] =============== BUG Description & optional fix =============== [/b]\r\n\r\nSometimes the elemental fury sound is getting in a loop and can\\'t be stoped even through restarting the game. The only way to remove it, is to load a save before the bug or type \\\"sexchange\\\" into console (if you do it twice, your apperance won\\'t change). However bug will return after loading a save.\r\n\r\n\r\n\r\n[b] =============== BUG observation and conclusion =============== [/b]\r\n\r\nI like elemental fury sound so I didn\\'t gave up on proper fix, but there is a place where I kind of stuck. There were many reports from peoples, that fixed the issue with continuing a main quest ... so I followed this lead. After few hours of gameplay I arrived to a tomb, where I got an \\\"FOS-RO-DAH !!!\\\" into my face and after that the sound stopped. Repeatedly tomb runs revealed, that after getting an \\\"Unrelenting Force\\\" which knocks you out, the sound stays where you were pushed back ! \r\n\r\nI would fix this properly if I knew what should be changed in order to fix the issue. I suppose, it\\'s somewhere in \\\"SOUN\\\", \\\"SPEL\\\", \\\"STAT\\\", \\\"IDLE\\\", \\\"SHOU\\\" or \\\"SOPM\\\" -section of main skyrim.esm, but I lack of time and tools to fix it.\r\n\r\nThis is also working with other sound bugs I suffered (for example dragonpriest breathe).\r\nI don\\'t have sound bugs since.\r\n\r\n\r\n\r\n[b] =============== WHAT IS IT ? =============== [/b]\r\n\r\nThis file will replace the standard \\\"Elemental Fury\\\" sound with ... silence :) It shall help to play normaly untill bethesda release a proper FIX or you\\'ll get an \\\"Unrelenting Force\\\" in your face (it must knock you out!).\r\n\r\n\r\n\r\n[b] =============== INSTALATION =============== [/b]\r\n\r\nPlace the content of this archive into your \\\"data\\\" folder in Skyrim installation directory.\r\n\r\n\r\n\r\n[b] =============== UNINSTALATION =============== [/b]\r\n\r\nRemove \\\"mag_shout_elementalfury_enchantment_lp.wav\\\" from \\\"\\\\The Elder Scrolls V Skyrim\\\\Data\\\\sound\\\\fx\\\\voc\\\\shout\\\\fx\\\\elementalfury\\\" or if you don\\'t use any other custom sounds just delete whole \\\"sound\\\" folder.\r\n\r\n\r\n\r\n\r\n\r\nHave Fun !\r\nIn silence !!!",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "1GurU9",
+  "createdUnix": "1321539041",
+  "updatedUnix": "1321539110",
+  "containsAdultContent": false,
+  "uploadedBy": "1GurU9",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1030",
+      "name": "XRMM",
+      "version": "1.00",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "SilenceAtLast-456-1-0.zip",
+      "uploadedUnix": "1321539110",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/cab69be3b970862df7844d1cb0dabead124250cca1f46d05245fd8bb78244357/analysis/1406413682/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SilenceAtLast-456-1-0.zip?fid=1030&ttl=1535753352&ri=8192&rs=8192&setec=4763c580dca72a18edc2ba416d21edcc"
+    }
+  ]
+}

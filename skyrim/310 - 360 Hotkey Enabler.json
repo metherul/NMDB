@@ -1,0 +1,48 @@
+{
+  "modId": 310.0,
+  "modName": "360 Hotkey Enabler",
+  "summary": "Allows keyboard hot keys to be used while using the 360 controller.",
+  "descriptionHtml": "NOTE: Unless you have a use for using the shout key from the keyboard (like some kind of macro) there is no need to update to 1.0.1. It shouldn\\'t harm anything either though.\r\n\r\n360 Keyboard Hotkey Enabler\r\nCreated by: NVShacker\r\n12/10/11\r\n\r\nDescription:\r\nAllows hotkeys 1-8 in the favorites menu to be used from the keyboard while using an Xbox 360 controller with Skyrim. The keyboard key for shout is also enabled.\r\n\r\nNOTE: Though 1 and 2 can be used with the keyboard with this, a somewhat less known feature is that they can also be used by holding D-PAD LEFT or D-PAD RIGHT in the favorites menu.\r\n\r\nInstallation Instructions:\r\nExtract the contents of the archive to your Skyrim folder. For Steam users, that\\'ll be your Steam\\\\steamapps\\\\common\\\\skyrim folder.\r\n\r\nKnown Bugs:\r\nNone I\\'ve had in play thus far, though it is possible you\\'ll be able to use the favorite keys at times you\\'re not supposed to.\r\n\r\nCompatability:\r\nThis mod will override controlmap.txt, in Skyrims\\\\Data\\\\Interface\\\\PC\\\\controls so anything that changes that will be overridden. At present, that would be the excellent Interface Hard Coded Key Tweaks by crazy-g. If you wish to use both mods at once, manually editing controlmap.txt and replacing the lines between Hotkey1 and Hotkey8 with:\r\nHotkey1\t\t\t\t0x02,0x4f\t\t\t0xff\t0x0004\t\t\t\t0\t0\t0\t\r\nHotkey2\t\t\t\t0x03,0x50\t\t\t0xff\t0x0008\t\t\t\t0\t0\t0\t\r\nHotkey3\t\t\t\t0x04,0x51\t\t\t0xff\t0xff\t\t\t\t1\t0\t0\t\r\nHotkey4\t\t\t\t0x05,0x4b\t\t\t0xff\t0xff\t\t\t\t1\t0\t0\t\r\nHotkey5\t\t\t\t0x06,0x4c\t\t\t0xff\t0xff\t\t\t\t1\t0\t0\t\r\nHotkey6\t\t\t\t0x07,0x4d\t\t\t0xff\t0xff\t\t\t\t1\t0\t0\t\r\nHotkey7\t\t\t\t0x08,0x47\t\t\t0xff\t0xff\t\t\t\t1\t0\t0\t\r\nHotkey8\t\t\t\t0x09,0x48\t\t\t0xff\t0xff\t\t\t\t1\t0\t0\r\nWill allow hotkeys to be used with the 360 controller while it\\'s in use.\r\n\r\nThanks:\r\ncrazy-g, for his interface mod, which made me aware of the existence of controlmap.txt\r\n\r\nChangelog:\r\n1.0.1 - enabled shout key\r\n1.0.0 - initial release",
+  "categoryId": "42",
+  "version": "1.0.1",
+  "author": "NVShacker",
+  "createdUnix": "1321434433",
+  "updatedUnix": "1323574500",
+  "containsAdultContent": false,
+  "uploadedBy": "NVShacker",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "671",
+      "name": "360 Hotkey Enabler",
+      "version": "1.0.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "360 Hotkey Enabler-310-1-0-0.zip",
+      "uploadedUnix": "1321434524",
+      "modVersion": "1.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8ebd5e83438c7aa880da131fafdc6727ffb0c28c39f20f1c3c2fef82f61cff93/analysis/1406408584/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/360%20Hotkey%20Enabler-310-1-0-0.zip?fid=671&ttl=1535753069&ri=8192&rs=8192&setec=4515eda91622c4fde88942db5590188d"
+    },
+    {
+      "fileId": "9143",
+      "name": "360 Hotkey Enabler and Shouts",
+      "version": "1.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "360 Hotkey Enabler and Shouts-310-1-0-1.zip",
+      "uploadedUnix": "1323574500",
+      "modVersion": "1.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d45fa9cf0f11e2414115c472b147f3c758e9b0a8f38c30b6912d9f3c801227aa/analysis/1406504468/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/360%20Hotkey%20Enabler%20and%20Shouts-310-1-0-1.zip?fid=9143&ttl=1535753070&ri=8192&rs=8192&setec=aa84c585af57c004876b8d3d5db7b2de"
+    }
+  ]
+}

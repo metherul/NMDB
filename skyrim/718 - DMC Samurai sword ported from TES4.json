@@ -1,0 +1,32 @@
+{
+  "modId": 718.0,
+  "modName": "DMC Samurai sword ported from TES4",
+  "summary": "Ported a Samurai sword Yamato of Devil May Cry series from TES4.",
+  "descriptionHtml": "** All the credits give to the original TES4 mod author Shokkimonkii (and his open license), and I just port some of his work to Skyrim.\r\n\r\n[img]http://www.skyrimnexus.com/downloads/images/718-1-1321744244.jpg[/img]\r\n\r\n== HOW TO INSTALL ==\r\n1. just extract the archive to your data folder (for example: D:\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data)\r\n2. active \\\"sword_yamato.esp\\\" from the \\\"data files\\\" option of Skyrim lanucher or any other mod manager.\r\n\r\n== HOW TO OBTAIN ==\r\n** Since Skyrim has no official modding tool available, I\\'m afraid that you can only obtain these weapons from console for now.\r\n1. type ~ to enter the console mode\r\n2. type \\\"player.additem [itemcode] 1\\\" to obtain the corresponding weapon\r\n** NOTE: please replace your mod index with 0X\r\n    itemcode = 0X000800   =>  the Samurai sword Yamato\r\n    itemcode = 0X000801   =>  the Samurai sword Yamato without scabbard\r\n( for most of users, try 02000800 and 02000801, otherwise try any number > 02)\r\n\r\noriginal TES4 mod link\r\nhttp://www.tesnexus.com/downloads/file.php?id=21546",
+  "categoryId": "55",
+  "version": "1.0",
+  "author": "Shokkimonkii and invalidfate",
+  "createdUnix": "1321742929",
+  "updatedUnix": "1321743460",
+  "containsAdultContent": false,
+  "uploadedBy": "invalidfate",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1811",
+      "name": "Yamato",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2067",
+      "fileName": "Yamato-718-1-0.7z",
+      "uploadedUnix": "1321743460",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6811476432ec32aa2a9c65315d9fd362b7d9672f39afdb06132954ed1276f436/analysis/1406423164/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Yamato-718-1-0.7z?fid=1811&ttl=1535753816&ri=8192&rs=8192&setec=13413f0d68d97c863e11d9daa1935f39"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "modId": 96.0,
+  "modName": "Heal Rate Regen Walk Run Speed Mult - Change em",
+  "summary": "Change your Speed and your Regen",
+  "descriptionHtml": "Currently, I can\\'t seem to attach scripts to quest files - in fact, it appears that Skyrim doesn\\'t even have scripts (in the previous Beth games sense; the SCPT group is empty, and quests don\\'t have a SCRI pointer).  This means that, for now, I can\\'t change actor values - oddly enough, it appears that the walk/run speed and regen are just actor values, as opposed to game settings.  Bah!  (It will make them easier to use in scripts and mods, though)\r\n\r\nSo until I make a mod, which actually currently takes more effort to install, anyway\r\nHERE ARE THE TRICKS:\r\n\r\nIn-game: open the console with the tilde (~) key (left of the 1 key), and type:\r\nplayer.setav healrate 0.0\r\n\r\nPress tilde again to return to the game.  The standard healrate is 0.7.  You can check an AV with player.getav.\r\n\r\nFor your speed, it\\'s SpeedMult, which is 100 at default, so:\r\nplayer.setav speedmult 120\r\n\r\nTo run/walk/sneak 20% faster.  Note that this only affects you, so it does affect game balance.  Also, you have to go into and out of sneak mode in order to make the game realize (by checking) that you\\'ve changed this value (changing between walk/run/sprint would probably also work).\r\n\r\nI\\'m still tinkering around and looking at quite a few things.  Trying to change perks per level, though I\\'m at a loss without scripting... so far.",
+  "categoryId": "24",
+  "version": "",
+  "author": "Xodarap777",
+  "createdUnix": "1321153535",
+  "updatedUnix": "1321153535",
+  "containsAdultContent": false,
+  "uploadedBy": "Xodarap777",
+  "primaryFile": null,
+  "files": []
+}

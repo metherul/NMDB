@@ -1,0 +1,48 @@
+{
+  "modId": 159.0,
+  "modName": "Perk Planner",
+  "summary": "Perk Planner Spreadsheet ",
+  "descriptionHtml": "A simple perk / character planning spreadsheet.\r\n\r\nFile contains 2 versions:\r\nPerk Planner.ods (Open Office)\r\nPerk Planner.xls (Microsoft Excel)\r\n\r\nThis is version 1.1. I have made quite a few changes. Barring any gross inaccuracies this should be the final version. The reset button still does not work in the Excel version. Please see change notes for more details.\r\n\r\n____________________________________________________________________________\r\n[size=5][b]Changelog for Version 1.1[/b][/size][list]\r\n\r\n[size=4][b]General Changes[/b][/size]\r\n[*]Embedded the macros in the file so the reset button should now function (Open Office version ONLY). Please let me know if there are still problems.\r\n[*]The reset button still will not function correctly on the Excel version. Saving the file in xls format via Open Office does not retain the macro even if editing the xls file. If someone with Excel would be kind enough to embed the macro linked to the button, PM me the file and I will update the upload. This will most likley be the final version unless there are any gross inaccuracies found. Thanks.\r\n[*]Removed the rumor of perks being awarded as quest rewards in the notes. I saw this on the wiki which has since been edited and removed. I can also find no confirmation to support this, so I removed it from the note for now. The guaranteed number of max perks via normal skill gain is 80 perks.\r\n[*]changed the coloring of \\\"Level Needed\\\" number to turn red after reaching 82 to better reflect the soft cap & hard cap.\r\n[*]Added the ability to distribute your attributes (Magika, Health, Stamina)\r\n[*]Added Thief / Mage to the archetype headers, originally only warrior was there. \r\n[*]Fixed several typos\r\n\r\n[size=4][b]Heavy Armor[/b][/size]\r\n[*]Heavy Armor - Fists of Steel: changed description to indicate only Rank 1 of Juggernaut is needed.\r\n[*]Heavy Armor - Well Fitted: changed description to indicate only Rank 1 of Juggernaut is needed.\r\n\r\n[size=4][b]Block[/b][/size]\r\n[*]Block - Deflect Arrows: changed description to indicate only Rank 1 of Shield Wall is needed.\r\n[*]Block - Power Bash: changed description to indicate only Rank 1 of Shield Wall is needed.\r\n[*]Block - Quick Reflexes: changed description to indicate only Rank 1 of Shield Wall is needed.\r\n\r\n[size=4][b]Two-Handed[/b][/size]\r\n[*]Two Handed - Champion\\'s Stance: changed description to indicate only Rank 1 of Barbarian is needed.\r\n[*]Two Handed - Deep Wounds: changed description to indicate requirements for ranks.\r\n[*]Two Handed - Limbsplitter: changed description to indicate requirements for ranks.\r\n[*]Two Handed - Skull Crusher: changed description to indicate requirements for ranks.\r\n\r\n[size=4][b]One-Handed[/b][/size]\r\n[*]One-Handed - Fighting Stance: Changed description from 20% to 25%\r\n[*]One Handed - Fighting Stance: changed description to indicate only Rank 1 of Armsman is needed.\r\n[*]One Handed - Bladesman: changed description to indicate requirements for ranks\r\n[*]One Handed - Bone Breaker: changed description to indicate requirements for ranks\r\n[*]One Handed - Hack & Slash: changed description to indicate requirements for ranks\r\n[*]One Handed - Dual Flurry: changed description to indicate requirements for ranks\r\n[*]One Handed - Savage Strike: changed description to from 25 bonus damage to 25% bonus damage\r\n[*]One Handed - Dual Savagery: changed description to indicate only Rank 1 of Dual Flurry is needed.\r\n\r\n[size=4][b]Archery[/b][/size]\r\n[*]Archery - Critical Shot: Reworded entire tool tip for each rank\r\n[*]Archery - Eagle Eye: changed description to indicate only Rank 1 of Overdraw is needed.\r\n[*]Archery - Steady Hand: Changed the requirements for different ranks\r\n[*]Archery - Hunter\\'s Discipline: changed description to indicate only Rank 1 of Critical Shot is needed.\r\n[*]Archery - Bullseye: Updated duration from a few seconds to 10 seconds\r\n\r\n[size=4][b]Light Armor[/b][/size]\r\n[*]Light Armor - Custom Fit: changed description to indicate only Rank 1 of Agile Defender is needed.\r\n\r\n[size=4][b]Sneak[/b][/size]\r\n[*]Sneak - Backstab: changed description to indicate only Rank 1 of Stealth is needed.\r\n[*]Sneak - Muffled Movement: changed description to indicate only Rank 1 of Stealth is needed.\r\n\r\n[size=4][b]Pickpocket[/b][/size]\r\n[*]Pickpocket - Night Thief: changed description to indicate only Rank 1 of Light Fingers is needed.\r\n\r\n\r\n[size=4][b]Speech[/b][/size]\r\n[*]Speech - Allure: changed description to indicate only Rank 1 of Haggling is needed.\r\n[*]Speech - Bribery: changed description to indicate only Rank 1 of Haggling is needed.\r\n\r\n[size=4][b]Alchemy[/b][/size]\r\n[*]Alchemy - Physician: changed description to indicate only Rank 1 of Alchemist is needed.\r\n[*]Alchemy - Experimenter: Changed the requirements for different ranks\r\n[*]Alchemy - Snakeblood: changed description to indicate only Rank 1 of Experimenter is needed.\r\n\r\n[size=4][b]Conjuration[/b][/size]\r\n[*]Conjuration - Summoner: Changed the requirements for different ranks\r\n[*]Conjuration - Atromancy: changed description to indicate only Rank 1 of Summoner is needed.\r\n\r\n[size=4][b]Destruction[/b][/size]\r\n[*]Destruction - Augmented Flames: Changed the requirements for different ranks\r\n[*]Destruction - Augmented Frost: Changed the requirements for different ranks\r\n[*]Destruction - Augmented Shock: Changed the requirements for different ranks\r\n[*]Destruction - Intense Flames: changed description to indicate only Rank 1 of Augmented Flames is needed.\r\n[*]Destruction - Deep Freeze: changed description to indicate only Rank 1 of Augmented Frost is needed.\r\n[*]Destruction - Disintegrate: changed description to indicate only Rank 1 of Augmented Shock is needed.\r\n\r\n[size=4][b]Restoration[/b][/size]\r\n[*]Restoration - Recovery: Changed the requirements for different ranks\r\n[*]Restoration - Avoid Death: changed the requirements from Respite to Recovery Rank 1\r\n\r\n[size=4][b]Alteration[/b][/size]\r\n[*]Alteration - Mage Armor: Changed the requirements for different ranks\r\n[*]Alteration - Magic Resistance: Changed the requirements for different ranks\r\n\r\n[size=4][b]Enchanting[/b][/size]\r\n[*]Enchanting - Soul Squeezer: changed description to indicate only Rank 1 of Enchanter is needed.\r\n[*]Enchanting - Fire Enchanter: changed description to indicate only Rank 1 of Enchanter is needed.\r\n[*]Enchanting - Insightful Enchanter: changed description to indicate only Rank 1 of Enchanter is needed.\r\n\r\n[/list]\r\n",
+  "categoryId": "28",
+  "version": "1.1",
+  "author": "Shiloh",
+  "createdUnix": "1321252386",
+  "updatedUnix": "1321415157",
+  "containsAdultContent": false,
+  "uploadedBy": "cmaher75",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "299",
+      "name": "Perk Planner 1_0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "52",
+      "fileName": "Perk Planner 1_0-159.rar",
+      "uploadedUnix": "1321252450",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/76a382041d73e763fdf85d4f79e10a3d5772df0da2c487b14ef586fc3f8cbfa4/analysis/1406403663/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Perk%20Planner%201_0-159.rar?fid=299&ttl=1535752770&ri=8192&rs=8192&setec=077d78bcae1126cb34ed3c3acfc65a88"
+    },
+    {
+      "fileId": "611",
+      "name": "Perk Planner",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "60",
+      "fileName": "Perk Planner-159.rar",
+      "uploadedUnix": "1321415157",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/cbb1dd4cca1dbbdc0121c1fd402471eb558c387e89d0b838a2c6ea02d402bba8/analysis/1406407744/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Perk%20Planner-159.rar?fid=611&ttl=1535752771&ri=8192&rs=8192&setec=3f07f9d447a5cc3e53d562699ebfeff3"
+    }
+  ]
+}

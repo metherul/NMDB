@@ -1,0 +1,32 @@
+{
+  "modId": 205.0,
+  "modName": "Macros with AutoIt",
+  "summary": "Define own Macros for 0-9 Keys to switch Spells",
+  "descriptionHtml": "with this tool you can define own macros and start them by pressing SHIFT + 0-9\r\n\r\nThe tool will simulate key strokes and mouse clicks to switch and cast.\r\n\r\nExample: Define this Quicklinks (Hotkeys) ingame:\r\n1 : Firebolt\r\n2 : Heeling\r\n3 : Summon sword\r\n4 : 1H.sword\r\n5 : Shiled\r\n \r\nNow tell the macro program:\r\n3,C3,1,1  \r\nresults in: Switch to summon sword\r\ncast 3 sec summon (Mouse1)\r\nswitch both hands to Firebolt\r\n\r\nGeneral:\r\n0-9 = Pressing this key on your Keyboard\r\nCx = Press Left Mousebutton x sec\r\nMx = Press Right Mousebutton x sec\r\nDx = Press both buttons (dualwield cast) x sec\r\n\r\nP= last macro (previous macro)\r\nP will be replaced by the last executed macro\r\n\r\nExample:\r\nShift+1 = 1,1\r\nShift+2 = 2,2\r\nShift+3 = 3,P\r\nWith this, he switch with SHIFT+3 back to firebolt or healing, depends on what you used last\r\n\r\nExample2:\r\n5,5,4  :  You hold 1.Hand Sword right and Shild left\r\n4,4,5 : You hold 1.Hand Sword left and Shild right\r\n1,1,C4,P : You cast a firebolt 4sec and switch back to 1.Hand Sword left and Shild right\r\n\r\nWhat you will hand left, you must cast 2x and then the right hand (If you cast left hand with left mouse)\r\nLittle confusing, but the game is so grml....\r\n\r\n[img]http://adhome.kilu.de/ScreenMacroSkyrim.jpg[/img]\r\n\r\nPress save to save your Macros in ini file\r\nThis tool ist written with AutoIt. A Scripting tool.\r\nI included the source code. You are free to change the code.\r\n\r\nPlease [B]give feedback[/B], what can be make better\r\n\r\nUpdate 1.3:\r\n- Changed pause after cast from 330ms->550ms to avoid problems with some spells\r\n",
+  "categoryId": "93",
+  "version": "1.3",
+  "author": "adhome",
+  "createdUnix": "1321310597",
+  "updatedUnix": "1321570392",
+  "containsAdultContent": false,
+  "uploadedBy": "adhome",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1155",
+      "name": "CasterMacros",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "273",
+      "fileName": "CasterMacros-205.rar",
+      "uploadedUnix": "1321570392",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/5629361c6e5e49229432156538cab7f49592be961d3343cd2cd2303c250b762d/analysis/1406415248/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CasterMacros-205.rar?fid=1155&ttl=1535752860&ri=8192&rs=8192&setec=22a0a64664984829e8e4df0c86439d42"
+    }
+  ]
+}
