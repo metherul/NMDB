@@ -1,0 +1,48 @@
+{
+  "modId": 7461.0,
+  "modName": "Performance Tweaks For Smooth Gameplay",
+  "summary": "My INI settings, display settings, perf mods and Nvidia hidden tweaks for the smoothest Skyrim I could ever experience.",
+  "descriptionHtml": "Update. Check out my INI tweaks for Shadow Striping here: http://skyrim.nexusmods.com/mods/22866/\r\n\r\nReadme.txt contains this text in full.\r\n\r\n***WARNING*** ACCORDING TO THE POSTER karri0n, IF YOUR CPU IS DUAL CORE _WITHOUT_ HYPERTHREADING, THE MULTITHREADING (*HWThread*) SETTINGS MAY NOT WORK AS INTENDED AND MAY ACTUALLY REDUCE PERFORMANCE, AND IT MAY BE BETTER TO LEAVE THESE SETTTINGS AT THEIR DEFAULT VALUE. However, if your CPU is dual core _WITH_ hyperthreading support, it might still work.\r\n\r\nMy INI settings, display settings, perf mods and Nvidia hidden tweaks for the smoothest Skyrim I could ever experience.\r\n\r\n\r\nv3 New INI settings. Faster. Smoother.\r\n\r\n===============================\r\n\r\nDetails of the new ini settings. I list only the settings I changed that have the most significant effect on performance and smoothness.\r\n\r\nSkyrim.ini:\r\n\r\n[General]\r\niNumHWThreads=4\r\niHWThread6=3\r\niHWThread5=3\r\niHWThread4=3\r\niHWThread3=2\r\niHWThread2=2\r\niHWThread1=2\r\niAIThread2HWThread=3\r\niAIThread1HWThread=2\r\niRenderingThread2HWThread=1\r\niRenderingThread1HWThread=0\r\n\r\nbMultiThreadMovement=1\r\nbUseThreadedParticleSystem=1\r\nbUseThreadedBlood=1\r\nbUseThreadedMorpher=1\r\nbUseThreadedTempEffects=1\r\nbUseThreadedParticleSystem=1\r\nbUseThreadedTextures=1\r\nbUseThreadedMeshes=1\r\nbUseThreadedLOD=1\r\nbUseThreadedAI=1\r\nbUseHardDriveCache=0\r\n\r\n[HAVOK]\r\niNumThreads=2\r\n\r\nThe rationale for these changes come from the idea that the HWThread settings may be related to logical CPU affinity. For example, iNumHWThreads is known to specify the number of logical CPUs that Skyrim should see. I have the i5 750 so I set mine to 4. The other HWThread settings appear to assign specific jobs to each individual logical CPUs. For example, iRenderingThreadxHWThread settings each are assigned to logical CPUs 0 and 1. The other HWThread settings are equally divided between the remaining logical CPUs. What this hopefully means is I now have two logical CPUs dedicated to processing rendering data (geometry and stuff), and the other two logical CPUs dedicated to everything else. In my tests, the settings above are not only more effective than my original settings, but changeing them further either makes no difference or is worse.\r\n\r\nSpeculation. If you have a different kind of processor like the i3 with hyperthreading for example, you\\'d set iNumHWThreads to 4, and the rest divided equally amongst the rest while still dedicating two logical CPUs to rendering work. If you have a dual core processor, you\\'d set iNumHWThreads to 2 then dedicate one logical CPU to the rendering work (both rendering settings to 0 for example), and the other for everything else.\r\n\r\nThe iNumThreads=2 setting under [HAVOK] comes from the idea that I now have two logical CPUs doing non-rendering work. If I set it to 3 for example, then one of the rendering CPUs would have to do non-rendering work, and performance would probably suffer.\r\n\r\nThe other UseMultiThreading settings simply make sure that they will take full advantage of the logical CPU assignments.\r\n\r\nI am only speculating on the true nature of these settings so if somebody could confirm or refute it, I\\'d be much obliged. But to give you an idea of how effective these changes truly are, fps now stays above 40 outside and stays firmly at 60 inside. Even at more than 3 years old, my rig can still kick some serious butt. With the right settings, of course.\r\n\r\nIncidentally, if you also play Fallout: New Vegas or Oblivion, these ini settings above will work just as well.\r\n\r\n================================\r\n\r\nMy rig:\r\n\r\nGigabyte GA-P55A-UD3\r\ni5 750 @ 4.0 Ghz\r\n4GB ram @ 2.0 Ghz\r\nGTX 285 2GB stock clocks\r\nScreen resolution: 1920x1080@60Hz (native)\r\n\r\n================================\r\n\r\nNvidia control panel 3D settings:\r\n\r\nAmbient occlusions: Performance\r\nAnisotropic filtering: 16x\r\nAA gamma corr: ON\r\nAA mode: Enhance\r\nAA setting: 4x\r\nAA transparancy: OFF\r\nCUDA: All\r\nPre-rendered frames: 0\r\nMulti-display: Single\r\nPower man: Max perf\r\nTex filtering aniso opt: OFF\r\nTex Negative LOD: Allow\r\nTex quality: High quality\r\nTex tri opt: OFF\r\nThread opt: ON\r\nTrip buff: ON\r\nVsync: Force ON\r\n\r\n===============================\r\n\r\nSkyrim options settings:\r\n\r\nULTRA, then set the following:\r\n\r\nAA: 4x\r\nFXAA: ON (check the box)\r\nShadows: Medium\r\n\r\n===============================\r\n\r\nNvidia registry tweaks:\r\n\r\nUse Nvidia Inspector and set the following:\r\n\r\nNVIDIA Predefined FXAA Usage: FXAA_ALLOW_DEFAULT (0x00000001)\r\nToggle FXAA Indicator on or off: FXAA_INDICATOR_ENABLE_DEFAULT (0x00000000)\r\nFXAA toggle on or off: FXAA_ENABLE_ON (0x00000001)\r\n\r\n===============================\r\n\r\nPerformance mods:\r\n\r\nSkyboost\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=6058 (UPDATE: Skyrim update 1.4.21.0 is incompatible with SkyBoost, but the performance improvements of the update are superior to SkyBoost)\r\n\r\nFPS Limiter\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=34\r\n\r\nConfig for FPS Limiter:\r\n[config]\r\nRenderAheadLimit=0\r\nFPSlimit=0\r\n\r\n===============================\r\n\r\nINI files included:\r\n\r\n***WARNING***: FILES PROVIDED FOR REFERENCE ONLY! DO NOT USE MY INI FILES DIRECTLY UNLESS YOU HAVE THE EXACT SAME RIG I HAVE! EVEN THEN BACKUP YOUR OWN INI FILES BEFORE MESSING AROUND!\r\n\r\nPay special attention to the multithreading, background loading and memory options.\r\n\r\n===============================\r\n\r\nLinks to discussions on FXAA and INI tweaks:\r\n\r\nINI tweaks:\r\nhttp://www.overclock.net/t/1164975/low-gpu-usage-on-skyrim-gtx-570-tfiii/40\r\nhttp://deathborn-empire.de/showthread.php/1450-Skyrim-Tuning-%28Stability-Graphics-Performance%29\r\n\r\nFXAA:\r\nhttp://www.overclock.net/t/1080779/anti-aliasing-injection-mods\r\n\r\nThere\\'s tons more info on the net.\r\n\r\n===============================\r\n\r\nDiscussion\r\n\r\nNote that I set FPSlimit to 0 in FPS Limiter, yet I set vsync to ON in both display panel and Skyrim options. Also note that I set pre-rendered frames in FPS Limiter to 1 in FPS limiter, yet set the same option to 0 in Nvidia display control panel. FXAA is not a performance tweak per se, but it provides a beautiful image quality at a very cheap performance cost. I was experiencing microstuttering, inconsistent frame rates, funky shadow effects, and general mouse lag in the menu and the game. All of this is gone completely. However, I now experience a much more noticable hang when I save the game. I can live with that small detail. I can finally experience Skyrim as I should have from the start.\r\n\r\nI did not mention all the small tweaks I did in Windows, but if you\\'re looking for more performance in Skyrim, you should look at what you can do in Windows as well.\r\n\r\n===============================\r\n\r\nVideo samples of what I now see:\r\n\r\nhttp://youtu.be/RKhKt7PLzzc\r\nhttp://youtu.be/g1VFcbE5gZc\r\n\r\n===============================\r\n\r\nCredits:\r\n\r\nCredits go to all those mentioned in the links above, and myself for putting it all together on my rig.\r\n\r\n===============================\r\n\r\n2012-01-31\r\n\r\nMartin Levac",
+  "categoryId": "24",
+  "version": "v3",
+  "author": "Martin Levac and various see readme",
+  "createdUnix": "1327992482",
+  "updatedUnix": "1328107605",
+  "containsAdultContent": false,
+  "uploadedBy": "JookyThingy",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "24578",
+      "name": "Performance Tweaks For Smooth Gameplay v2",
+      "version": "v2final",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Performance Tweaks For Smooth Gameplay v2-7461.zip",
+      "uploadedUnix": "1328002288",
+      "modVersion": "v2final",
+      "virusScanUrl": "https://www.virustotal.com/file/ebbd261ee876478cc52295358f5b517013fce9ae3f7973009f8e6cf020d2d5de/analysis/1406646542/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Performance%20Tweaks%20For%20Smooth%20Gameplay%20v2-7461.zip?fid=24578&ttl=1535765511&ri=8192&rs=8192&setec=54ff83e6d9794c01556b4a58577dcdc9"
+    },
+    {
+      "fileId": "24956",
+      "name": "Performance Tweaks For Smooth Gameplay v3",
+      "version": "v3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Performance Tweaks For Smooth Gameplay v3-7461-v3.zip",
+      "uploadedUnix": "1328107605",
+      "modVersion": "v3",
+      "virusScanUrl": "https://www.virustotal.com/file/ca82be0168449481440686cc3fcc6ed0649da16557d8fc8c304334ef18c092a4/analysis/1406648385/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Performance%20Tweaks%20For%20Smooth%20Gameplay%20v3-7461-v3.zip?fid=24956&ttl=1535765511&ri=8192&rs=8192&setec=62398f68a29509b6a7e8df8ee7ed6f29"
+    }
+  ]
+}

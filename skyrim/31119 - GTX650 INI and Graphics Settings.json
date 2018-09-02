@@ -1,0 +1,32 @@
+{
+  "modId": 31119.0,
+  "modName": "GTX650 INI and Graphics Settings",
+  "summary": "Backup of my settings.May be useful to others with similar system.",
+  "descriptionHtml": "Backing up my settings,incase I need to reinstall,so I don't forget.It should work for other NVIDIA cards,and ini's should be ok for other types.If you wanna use it for yourself,please change the iSize W and iSizeH to your resolution,and change the sD3DDevice to your card(copy line from your's before replacing) before running launcher or Skyrim.\r\n\r\nUpdate 1: I added the skyrim.ini you put in same place as the prefs,and the skyrim_default.ini you put in your main folder where Skyrim is installed.\r\n\r\nUpdate 2:Changes image for new videocard settings for the 314 drivers.Basically use Supersampling at 2x-8x,instead of Multisampling.\r\n\r\nUpdate 3:Use latest 331.65 drivers or better.Pretty much set Skyrim to Ultra with a few tweaks(you can use 4xAA but might have a small performance hit in open areas,also newer driver settings.It's balanced for a higher quality,and steady 30FPS,which keeps the card temps at about 45-50C.I also updated my PC specs,since things changed.You will notice mouse is a tiny bit laggy in menu,but it is fine ingame.\r\n\r\nWhat I use/recommend...\r\n\r\nOfficial Elder Scrolls HD pack (for any videocard with 2GB+ RAM preferably)\r\nhttp://store.steampowered.com/dlc/72850/\r\nSeems to work better for me on windows 8 64bit and a 1GB card,possibly cause it has metter memory management  on the OS.If you have issues like crashing,insert HighResTexturePack01.bsa, HighResTexturePack02.bsa, HighResTexturePack03.bsa to the sResourceArchiveList= line in your Skyrim_default.ini ,after Skyrim - Textures.bsa and disable(or delete) the ESP files for the HighRes packs.It'll fix the few glitches(firepit,chop block,and a few others),and let you use other packs without issues.\r\n\r\nUnofficial Skyrim Patches:\r\nhttp://skyrim.nexusmods.com/mods/19 (Skyrim)\r\nhttp://skyrim.nexusmods.com/mods/25127 (Hearthfire)\r\nhttp://skyrim.nexusmods.com/mods/23491 (Dawnguard)\r\nhttp://skyrim.nexusmods.com/mods/31083 (Dragonborn)\r\nhttp://skyrim.nexusmods.com/mods/31255 (HighRes pack)\r\n\r\nLoad Order in Data Files:\r\nUnofficial Skyrim Patch.esp\r\nHearthfires.esm\r\nUnofficial Hearthfire Patch.esp\r\nDawnguard.esm\r\nUnofficial Dawnguard Patch.esp\r\n\r\nOther:\r\nmy own mountain texture replacer http://skyrim.nexusmods.com/mods/30920\r\n\r\nMy PC Specs (11-16-2013):\r\nAthlon II X4 640\r\n4GB RAM\r\nEVGA GTX650 1GB\r\nWindows 8.1 Preview",
+  "categoryId": "28",
+  "version": "1.3",
+  "author": "Belial666",
+  "createdUnix": "1360175092",
+  "updatedUnix": "1384616740",
+  "containsAdultContent": false,
+  "uploadedBy": "Belial666",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000079619",
+      "name": "GTX650 INIs",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "70",
+      "fileName": "GTX650 INIs-31119-1-3.rar",
+      "uploadedUnix": "1384616740",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/ce3820cfa2f8ceb2a779fdedb98d0173c780394817d30eab7e13981da3924c22/analysis/1407794548/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/GTX650%20INIs-31119-1-3.rar?fid=1000079619&ttl=1535806458&ri=8192&rs=8192&setec=efb7d7ee1a0287092c3f3a560ae22f2a"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 92684.0,
+  "modName": "Thieves Guild Vault Key",
+  "summary": "Three new keys are forged for the vault: one for you, and two others for Delvin and Brynjolf. Each key can open the vault's door — or lock it — at will.",
+  "descriptionHtml": "Adds three vault keys: one for you, and two others for Delvin Mallory and Brynjolf. If you open your inventory and activate your key, the vault door will automatically close and lock. As soon as you load your game, the changes should come into effect.\n<br />\n<br />[b]Features[/b]\n<br />[list]\n<br />[*]Three keys, as mentioned in the game's lore: one for Brynjolf, one for Delvin, and one for you\n<br />[*]To close and lock the vault's door, activate the key in your inventory.\n<br />[*]Your copy of key will be above your desk.\n<br />[*]Any of the three keys can unlock the vault.\n<br />[*]A fancy chair has been added behind the guild master's desk.\n<br />[/list]\n<br />[b]Installation[/b]\n<br />Download and install through Nexus Mod Manager.\n<br />Unzip the folder and copy [i]TGVaultKey.esp[/i] to [i]Steamapps/.../Skyrim/Data.\n<br />[/i]Copy [i]TGVaultDoorScript.pex[/i] to [i]Steamapps/.../Skyrim/Data/Scripts[/i].\n<br />Additionaly, simply merge the \"Data\" folders.\n<br />\n<br />[b]Thieves guild vault key[/b][i] [/i]has been tested in the three cases below:\n<br />[list]\n<br />[*]A heavily modded save\n<br />[*]A save without mods, in which the Thieves Guild questline has been completed.\n<br />[*]A heavily modded save during [i]The Pursuit[/i], when Delvin, Brynjolf and Vex finally discover Mercer's betrayal.\n<br />[/list]\n<br />I recommend you complete [i]The Pursuit[/i]. I've made slight changes to the Thieves Guild vault door. Apparently, Brynjolf can still unlock the door, so the scene should proceed normally. If you can't find the Vault Key in the guild master's desk, either pickpocket a copy from Delvin or Brynjolf, or open the tidle key (~) and type: [code]help vault[/code]. Add the object named [u]Vault Key[/u] with [code]player.additem [ID] 1\n<br />[/code]If there are any issues, please report in the comments.\n<br />\n<br />[b]Uninstall[/b]\n<br />Leave the Cistern and/or the Ragged Flagon, disable or delete [i]TGVaultKey.esp[/i] from your [i]Data[/i] folder, and delete [i]TGVaultDoorScript.pex[/i] from your [i]Scripts[/i] folder. Load the game and overwrite your save. If possible, clean your save from unused script forms using a specialized tool.",
+  "categoryId": "25",
+  "version": "1.0",
+  "author": "tesprogrammer",
+  "createdUnix": "1532389519",
+  "updatedUnix": "1532389519",
+  "containsAdultContent": false,
+  "uploadedBy": "tesprogrammer",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000278153",
+      "name": "Thieves Guild Vault",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "TGVaultKey-92684-1-0.zip",
+      "uploadedUnix": "1532388749",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/cef1e8bd3dd90f086abd59f37390bb21a42a9388956a61a272531c1541021946/analysis/1532388963/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TGVaultKey-92684-1-0.zip?fid=1000278153&ttl=1535883795&ri=8192&rs=8192&setec=8723914b165112f2ad9b845622377d8f"
+    }
+  ]
+}

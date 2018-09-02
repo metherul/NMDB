@@ -1,0 +1,32 @@
+{
+  "modId": 58149.0,
+  "modName": "Nightingale Shadowcloak Redux",
+  "summary": "Adds a cosmetic obscurement aura to the Nightingale Armor which is activated when stealthed.",
+  "descriptionHtml": "[color=red]This is a reworking of the [url=http://www.nexusmods.com/skyrim/mods/22652/]Nightingale Shadowcloak mod by pennox.[/url]  This does not require the original mod.[/color]\r<br />[color=red]\r<br />NOTE: \r<br />This is not intended to take over the original author&#39;s mod; this is simply an alternative vision. I have attempted to contact [url=http://www.nexusmods.com/skyrim/users/282918/?]pennox[/url], suggesting this could be an alternative download for his mod in lieu of a separate entry here.  If that&#39;s what he wants to do, I&#39;ll pull this entry.  As yet I have not received a response.  Given the last visible activity from pennox was in August 2012, I may not get one.  As such, permission to modify the original mod is pending.\r<br />[/color]\r<br />The original mod adds an inky black cosmetic aura affect to the Nightingale Armor which activates around the character when stealthed.\r<br />\r<br />I like the idea of that mod, but there are a few things I wish were done differently:\r<br />\r<br /> * I don&#39;t think a fickle deity that grants and revokes luck would provide a sure fire blanket of darkness for her followers to hide in; instead, it should be more vague yet still able to be spotted by someone who&#39;s really looking carefully.  Gotta keep those followers on their toes&#33;\r<br /> * The current aura completely obscures the very cool Nightingale armor.\r<br /> * It didn&#39;t have enough of a nod to Nocturnal in the color scheme.\r<br /> * The aura was moving way too fast for my liking (if you&#39;re in the shadows, you don&#39;t want to display lots of quick movement to catch the eye).\r<br /> * The smoke seemed to be very thick and wispy, again an obvious attention getter.\r<br /> * The black aura overall seems too glossy for me, kind of shiny.  I wanted to have something a bit more dull and able to hide in half-light better.\r<br />\r<br />This is my patch to pennox&#39;s mod.  Here are the differences:\r<br /> 1. New black and purple Membrane Shader texture, adding transparency to allow the dark armor to peek through.\r<br /> 2. Adjusted the settings to slow down the animation speed across the player.\r<br /> 3. Reduced the smoke&#39;s particle density to 1/4 of the previous value and altered the colors somewhat.\r<br />\r<br />[size=4]CREDIT:[/size]\r<br />All credit for the idea of this mod goes to [url=http://www.nexusmods.com/skyrim/users/282918/?]pennox[/url], I just patched it to get it looking right for me.\r<br />\r<br />[size=4]COMPATIBILITY:[/size]\r<br />This mod has no reliance on any DLCs or other mods; as [url=http://www.nexusmods.com/skyrim/users/282918/?]pennox&#39;s [/url]mod, it just adds a cloaking effect to the Nightingale Armor. As such, any other mod that modifies the target armor could conflict, unless this is last in the load order.  (I&#39;m using this in conjunction with the [url=http://www.nexusmods.com/skyrim/mods/1689/]Accented Nightingale Armor[/url] without issue).\r<br />\r<br />[size=4]INSTALLATION:[/size]\r<br />NMM/MO:\r<br />Download with Manager and activate.\r<br />\r<br />Manual:\r<br />Extract the esp file, Meshes folder and the Texture folder into the Data folder.\r<br />\r<br />[size=4]UNINSTALLATION:[/size]\r<br />NMM/MO:\r<br />Simply deactivate the mod.\r<br />\r<br />Manual:\r<br />Remove the following files:\r<br />%GameFolder%&#92;Data&#92;NightingaleShadowcloak.esp\r<br />%GameFolder%&#92;Data&#92;Meshes&#92;maic&#92;nightingalecloak.nif \r<br />%GameFolder%&#92;Data&#92;Textures&#92;effects&#92;gradients&#92;_gradnightingaleshadow.dds\r<br />%GameFolder%&#92;Data&#92;Textures&#92;effects&#92;gradients&#92;gradnightingalearmorshadow.dds\r<br />\r<br />[size=4]PLANS:[/size]\r<br />The colors of the smoke effect aren&#39;t yet to my liking... looking to tweak them some more to match the aura when I learn more about the Particle Shader.\r<br />\r<br />\r<br />\r<br />\r<br />This is my first foray into Skyrim modding; please feel free to leave (constructive) criticism in the comments.  Flames and unicorn bait will be received in the spirit they are given.\r<br />\r<br />Enjoy&#33;\r<br />\r<br />-=Janrith",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "Janrith",
+  "createdUnix": "1410734954",
+  "updatedUnix": "1410734750",
+  "containsAdultContent": false,
+  "uploadedBy": "Janrith",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000126910",
+      "name": "Nightingale Shadowcloak Redux",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "16",
+      "fileName": "Nightingale Shadowcloak Redux-58149-1-0.7z",
+      "uploadedUnix": "1410734750",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d4384ebe64a50e38a80ea6b5d7adb8efe7b2653ed68fd22b5cb49565343684f1/analysis/1410734822/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Nightingale%20Shadowcloak%20Redux-58149-1-0.7z?fid=1000126910&ttl=1535844606&ri=8192&rs=8192&setec=d8ddbdb4fb025fc9cb4bed0fc53b05cb"
+    }
+  ]
+}

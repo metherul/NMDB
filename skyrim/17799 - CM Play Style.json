@@ -1,0 +1,32 @@
+{
+  "modId": 17799.0,
+  "modName": "CM Play Style",
+  "summary": "Adds three new style stones, Stealth Stone, Fight Stone, and Magic Stone to the crossroads just north of Helgen.  Pick one stone, activate, and receive three novice level perks compatible with your chosen play style.",
+  "descriptionHtml": "CM Play Styles\r\n\r\nDescription\r\n============\r\n\r\nAdds three new style stones, Stealth Stone, Fight Stone, and Magic Stone to the crossroads just north of Helgen.  Pick one stone, activate, and receive three novice level perks compatible with your chosen play style.  Only one stone can be selected, so choose wisely before activating a stone.\r\n\r\nStealth - Stealth00 (Sneak), AgileDefender00 (Light Armor), and Armsman00 (1H)\r\nFight - Juggernaut00 (Heavy Armor), Barbarian00 (2H), SheildWall00 (Blocking).\r\nMagic - AlterationNovice00, ConjugationNovice00, DestructionNovice00.\r\n\r\nThese can be edited easily in the CK, by opening the CMDoomstoneStealth, CMDoomstoneMagic, and CMDoomstoneFight objects from the Activator list in the Object Window.  Click on the script shown in the list box on the right hand side of the window, and clicking the button Properties.  On the Properties window, highlight one of the perks, and click on the down arrow in the description to the right, and choose a different perk from the popup list.  It is recommended that only novice perks be selected to avoid overpowering your character early on.  \r\n\r\n\r\nChange Log\r\n============\r\n\r\nVersion 1.0 - Initial Release\r\n\r\n\r\nInstallation\r\n==============\r\n\r\nIf you use a mod manager, use it to install CM Play Styles.  To install manually, extract the files into the Skyrim/Data folder and allow Scripts folder to overwrite your present Scripts folder.  No game scripts will be changed.  \r\n\r\n\r\nUninstallation\r\n===============\r\n\r\nIf you use a mod manager, use it to uninstalled.  To uninstall manually, just remove CMPlayStyle.esp from your Data folder.  \r\n\r\nIncompatabilities\r\n===================\r\n\r\nCM Play Styles should not cause conflicts unless another mod places items in the Helgen area where the stones are located.\r\n\r\nPermissions\r\n============\r\n\r\nThe CM Play Styles mod was created by Cutthroat Mods and is furnished as is without promises or guarantees to be bug free or conflict free.  Any bugs inherent in the game engine or Creation Kit are not the responsibility of Cutthroat Mods. \r\n\r\nDo not upload this mod to any website without permission from Cutthroat Mods.  Uploads to Steam Workshop are not permitted and will never be approved.  Translations into other languages are permitted  provided this Readme is included as is in English along with any translated versions.  Translated files can be uploaded to any website except Steam Workshop.  Permissions to do translations are not required.  If you have any questions or concerns please send email to cutthroatmods@hotmail.com.\r\n \r\n\r\n\r\n",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Cutthroat Mods",
+  "createdUnix": "1338219652",
+  "updatedUnix": "1338219836",
+  "containsAdultContent": false,
+  "uploadedBy": "Blackie",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "64211",
+      "name": "CM Play Style 1_0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "CM Play Style 1_0-17799-1-0.7z",
+      "uploadedUnix": "1338219836",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ce60877d87fc2e24dde398e8c2ad20c9912ff86c509b9552e649a3eea2a27bed/analysis/1406921358/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CM%20Play%20Style%201_0-17799-1-0.7z?fid=64211&ttl=1535784162&ri=8192&rs=8192&setec=6838ad851c626aebdda1a7f247ef2fd1"
+    }
+  ]
+}

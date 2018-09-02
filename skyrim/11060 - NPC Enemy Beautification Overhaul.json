@@ -1,0 +1,48 @@
+{
+  "modId": 11060.0,
+  "modName": "NPC Enemy Beautification Overhaul",
+  "summary": "Beautified all the Female Forsworn/Bandit/Necromencer hair",
+  "descriptionHtml": "Title: NPC Enemy Beautification Overhaul\r\nCategory: NPC\r\n\r\n\r\n==========\r\nUPDATE\r\n==========\r\nv1.3 add some missing NPC like ice mage, hag and witch.. overwrite the old file\r\nv1.3 Fix head and body texture mismatch now head texture looking better\r\n\r\n===========\r\nDescription\r\n===========\r\n\r\nThis mod beautified [b]all[/b] female bandit, forsworn, necromancer, witch, hag [Human Race Only]  \r\n\r\nDLC Dawnguard is not included \r\n\r\n\r\nIMPORTANT: put the both .esp file in the last load order to prevent grey face.\r\n\r\nBUG: Incompatible with latest apachii hair, some of npc will have purple texture. To fix that just download apachii hair v1.1, rename the .esp (eg. ApachiiHairV1.1.esp) and put in the data folder (.esp file ONLY, not the texture,meshes and .esm files!!). Also, I forgot to remove some of non enemy npc (some follower, about 10 npc) and will conflict with other npc mod (npc will have crappy face). To fix, disable other npc mod.\r\n\r\n==============\r\nRequired File\r\n==============\r\n[Apachii Hair]\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=10168 (download apachii hair v1.1)\r\n[Coolsims Hair]\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=3809\r\n[Coverwomen]\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=3563\r\n[UNP body]\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=6709\r\n\r\n\r\n============\r\nInstallation\r\n============\r\n\r\nsimply put meshes, textures and .esp file into your Skyrim data folder then check the .esp file\r\n\r\n============\r\nUninstall\r\n============\r\n\r\ngo to---> data/textures/actors/character/FaceGenData [Delete \\\"FaceGenData\\\" folder]\r\ngo to---> Data/meshes/actors/character/FaceGenData [Delete \\\"FaceGenData\\\" Folder]\r\nDelete NPC_Hair_Replace_Necro.esp, and NPC_Hair_Replace_Bandit_Forsworn.esp\r\n\r\n===========\r\nCredits\r\n===========\r\nApachii for the nice Apachii hair\r\nCoolsims hair\r\nBethesda\r\nCK tools\r\n\r\n",
+  "categoryId": "33",
+  "version": "1.3",
+  "author": "icikiro",
+  "createdUnix": "1330097387",
+  "updatedUnix": "1331496684",
+  "containsAdultContent": false,
+  "uploadedBy": "icikiro",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "41946",
+      "name": "NPC_Hair_Replacer_FULL_v1_3",
+      "version": "1.3",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "83226",
+      "fileName": "NPC_Hair_Replacer_FULL_v1_3-11060-1-3.7z",
+      "uploadedUnix": "1331375931",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/649d403bfef6ef42f6c3f3abbd83a6c5841919131f44a8c5756fc718ddc990e2/analysis/1406741424/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NPC_Hair_Replacer_FULL_v1_3-11060-1-3.7z?fid=41946&ttl=1535771971&ri=8192&rs=8192&setec=e9d0878e39e5c6104627ce706b4b3e94"
+    },
+    {
+      "fileId": "42410",
+      "name": "Npc_Hair_Replace_some_missing",
+      "version": "1.3",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "4602",
+      "fileName": "Npc_Hair_Replace_some_missing-11060-1-3.7z",
+      "uploadedUnix": "1331496684",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/35ea374644630cda0809f454a6a701beb9a06ef85e1c5ff2408f68676605ba34/analysis/1406743875/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Npc_Hair_Replace_some_missing-11060-1-3.7z?fid=42410&ttl=1535771972&ri=8192&rs=8192&setec=da45ca317b6cba5d4da7018098fd90a3"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 29183.0,
+  "modName": "Dawnguard Rune Axe Enchantment",
+  "summary": "For all those who want to kill undead more effectively, but are not fans of war axes.",
+  "descriptionHtml": "This micro mod makes Dawnguard Rune Axe (the one that progressively deals more damage) disenchantable.\r\n\r\nScreen shows it on Lustmord Crossbow from Lustmord Vampire Armor by AmethystDeceiver, mildly changed to my needs (half weight, 50% armor penetration added. Damage is high because I\\'m specializing in Archery (modded by ACE combat skills), have like +75% damage from enchants and even more from perks, maybe that\\'s why I was 1hitting every draugr on sight with it on Master difficulty..\r\n\r\nAs double damage effect vs undead is actually a script applied to the actual weapon, I can\\'t replicate it in enchant (unless giving enchant ~10 new effects), so for now it should deal static 25 Sun Damage against undead. Maybe later I\\'ll try making a full version of it, but 200 Sun Damage against undead will be fairly OP..\r\n\r\nThe enchantment itself has no cost and therefore never depletes, and you get the same values of it at enchanting lvl 1 or lvl 100. Which would normally be undesirable, but since damage scales with number of undead killed, it doesn\\'t matter that much.\r\n\r\nundead killed vs damage:\r\n0-9 - 10 Sun Damage\r\n10-19 - 20 Sun Damage\r\n20-29 - 30 Sun Damage\r\n30-39 - 40 Sun Damage\r\n.....\r\n80-89 - 90 Sun Damage\r\n90+ - 100 Sun Damage\r\n\r\nEnchant counts number of undead killed correctly, so it theoretically SHOULD work correctly, but because the actual damage done is not shown, you can only guess if it\\'s stacking.\r\n\r\nI was testing it in Volenruud, there is about 17 undead there only, most of them getting 1-shot in Master difficulty anyway, so can\\'t really tell if it has increased the damage or not. But 25 bonus damage (or other SUN damage) does NOT seem to work on boss of that dungeon - ghosts are apparently not Undead according to Bethesda :)\r\n\r\nInstalling\r\n- copy esp file to your Data folder\r\n- use only 1 of the files!\r\n\r\nCompatibility\r\n- works well with Artifact Disenchanting & Artifact Disenchanting - Dawnguard (both by xEightballx)\r\n\r\nPS\r\nDO NOT USE if you use Serana as follower and you want her to help you fight :D Enchant has 15 yards AoE effect, and it hits her HARD if she\\'s close to your target. Same applies to standard Dawnguard Rune Axe. Well at least AoE spells like this don\\'t hurt the caster, I would be soooo dead as I\\'m playing as vampire lord :)",
+  "categoryId": "75",
+  "version": "0",
+  "author": "peregrine111",
+  "createdUnix": "1356948160",
+  "updatedUnix": "1356952983",
+  "containsAdultContent": false,
+  "uploadedBy": "peregrine111",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "108652",
+      "name": "Dawnguard Rune Axe Enchantment",
+      "version": "beta",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Dawnguard Rune Axe Enchantment-29183-beta.rar",
+      "uploadedUnix": "1356948401",
+      "modVersion": "beta",
+      "virusScanUrl": "https://www.virustotal.com/file/df49dfb9df66b33271e23f78bf4e5950469347fc40a4663e69e8c9a6f2ca9bc9/analysis/1407330410/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dawnguard%20Rune%20Axe%20Enchantment-29183-beta.rar?fid=108652&ttl=1535803089&ri=8192&rs=8192&setec=067f0c675300c35994bb6fd431aa9acb"
+    },
+    {
+      "fileId": "108667",
+      "name": "Rune Axe true doubledamage enchantment",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Rune Axe true doubledamage enchantment-29183-1-0.rar",
+      "uploadedUnix": "1356952983",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7549aef22a785f2a2abf0eab3220fb5cd50e09f8791fda25d4503e45bad5fcc3/analysis/1407330503/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Rune%20Axe%20true%20doubledamage%20enchantment-29183-1-0.rar?fid=108667&ttl=1535803090&ri=8192&rs=8192&setec=91071c6252daa7a8c1ece0ad66c1eca8"
+    }
+  ]
+}

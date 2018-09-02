@@ -1,0 +1,32 @@
+{
+  "modId": 52670.0,
+  "modName": "Example Implementation of Scripted Armorsets",
+  "summary": "A Modders Resource adding 3 fully scripted &#34;Armorsets&#34;, these garant greater boni if worn together.",
+  "descriptionHtml": "Contens:\r<br />3 Sets with diffent set boni:\r<br />One Assissine/Thiefset garanting 2 activationable boni: (usinge the vanilla Leatherarmormeshes)\r<br />\r<br />A toggleable Nightvision constantly taking away some magika.(gained by the helmet aditional setparts reduce its costs)\r<br />It ends automatically if: You disable it, can&#39;t affort the magika, or unequip the helmet.\r<br />\r<br />A toggleable cloak, which hides you and makes you invulnerable, but takes away your health, (but it&#39;s still save to use, gained by any setpart, additional parts reduce its costs)\r<br />It ends automatically if: You disable it, end up with low health, activate or attack something, use a spell, or unequip the completeset.\r<br />\r<br />One enchanted Mage Clothing: (using different vanilla models)\r<br />The enchantments of each part increase if you equip the other parts.\r<br />\r<br />And one Warriorset: (using the ironarmormeshes)\r<br />This adds a damage migrating perk, which becomes stronger the more parts you equip.\r<br />\r<br />\r<br />The main work is done via keywords and conditions.\r<br />You gain these sets directly after load, as this makes testing easier.\r<br />There is no Problem to replasce the vanilla armor meshes by a custom one.\r<br />All Scriptscources inside.\r<br />You can use this freely in any file as log as you credit me.",
+  "categoryId": "82",
+  "version": "1",
+  "author": "ubuntufreakdragon",
+  "createdUnix": "1396588183",
+  "updatedUnix": "1396588176",
+  "containsAdultContent": false,
+  "uploadedBy": "ubuntufreakdragon",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000103614",
+      "name": "armorsets",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "armorsets-52670-1.7z",
+      "uploadedUnix": "1396588176",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/691ac680355710c039d9b920c921b33148fddcce81ca2eb7b2781bde6ed84637/analysis/1408006520/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/armorsets-52670-1.7z?fid=1000103614&ttl=1535835812&ri=8192&rs=8192&setec=168125133f9f84e6c939a39c933aa464"
+    }
+  ]
+}

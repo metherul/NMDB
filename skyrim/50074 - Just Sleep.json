@@ -1,0 +1,48 @@
+{
+  "modId": 50074.0,
+  "modName": "Just Sleep",
+  "summary": "Adds more immersive sleep effects.",
+  "descriptionHtml": "Just sleep adds some more immersive effects to sleeping and to the lack of it. \r<br />\r<br />There are five stages of tiredness: \r<br />\r<br />Well Rested - Skill improve 10% faster. \r<br />Content - No Effect \r<br />Tired - Skill improve 25% slower, carry weight -30. \r<br />Very Tired - Skills improve 50% slower, carry weight -60, movement speed -20%. \r<br />Exhausted - Skills improve 75% slower, carry weight -90, movement speed - 30%. \r<br />\r<br />You get a notification when the stages change, and you can see your current stage in your active effects menu.\r<br />For stages tired through exhausted there&#39;s also an optional screen effect, getting progressively harsher on each stage. The chance for these can be changed through the configuration menu, or be disabled completely.\r<br />\r<br />The way it works is by having tiredness points, and those accumulate automatically as time passes and decrease while sleeping. The points go from 0 to 140, where 0 is fully rested. The stages start at: \r<br />\r<br />0 - Well Rested \r<br />25 - Content \r<br />45 - Tired \r<br />65 - Very tired \r<br />90 - Exhausted \r<br />\r<br />By default you get 4 points per hour, which means going from fully rested (0) to tired (45) takes just over 11 game hours. Recovery rate is almost double the exhaustion rate, so you don&#39;t need to sleep as long as it takes to get tired. \r<br />\r<br />You can change the exhaustion and recovery rates through the MCM menu.\r<br />Or, the exhaustion rate can also be changed through console:\r<br />set JS_ExhaustionRate to 4\r<br />where 4 is the default rate of 4 points per hour in this case.\r<br />\r<br />Versions 1.1 and up require SkyUI and SKSE.\r<br />Version 1.0 doesn&#39;t have the MCM menu and works without either, and will stay available alongside newer versions. You can still use the console command to change the exhaustion rate with it.\r<br />\r<br />--------------------------------- \r<br />\r<br />I recommend getting Realistic needs and diseases instead if you want to have hunger as well in your game. I preferred to just have the sleep effects, so I made this mod instead, though the sleep effects are pretty much the same.\r<br />\r<br />--------------------------------- \r<br />\r<br />My other mods:\r<br />- [url=http://www.nexusmods.com/skyrim/mods/43153/?]Rotating Quicksave[/url] - multiple per character quicksaves\r<br />- [url=http://www.nexusmods.com/skyrim/mods/16810/?]Ruined Prison[/url] - A new dungeon in the Reach",
+  "categoryId": "78",
+  "version": "1.3b",
+  "author": "BuGi",
+  "createdUnix": "1390133559",
+  "updatedUnix": "1391701671",
+  "containsAdultContent": false,
+  "uploadedBy": "BuGi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000092159",
+      "name": "Just sleep",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Just sleep-50074-1-0.7z",
+      "uploadedUnix": "1390133532",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/41ae4dce42e1bcbdebca56a4bce7e22895262510f17e44db81d1527d636f9571/analysis/1407892280/",
+      "changelogHtml": " Initial release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Just%20sleep-50074-1-0.7z?fid=1000092159&ttl=1535831552&ri=8192&rs=8192&setec=f407950f8b29c18171da829b3dd0c5d3"
+    },
+    {
+      "fileId": "1000095606",
+      "name": "Just Sleep",
+      "version": "1.3b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "Just Sleep-50074-1-3b.7z",
+      "uploadedUnix": "1391701671",
+      "modVersion": "1.3b",
+      "virusScanUrl": "https://www.virustotal.com/file/4afc977229c979096a7411571f927065b717d832f97ca1de28286abacdf0bb98/analysis/1407920957/",
+      "changelogHtml": " Fixed MCM menu not appearing <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Just%20Sleep-50074-1-3b.7z?fid=1000095606&ttl=1535831552&ri=8192&rs=8192&setec=b3fd5b358db92b0badf7bd901aee9bf1"
+    }
+  ]
+}

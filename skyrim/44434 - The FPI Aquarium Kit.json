@@ -1,0 +1,48 @@
+{
+  "modId": 44434.0,
+  "modName": "The FPI Aquarium Kit",
+  "summary": "The FPI Aquarium Kit is a modder's resource containing the aquaria, fish, decorations, and scripts needed to set up a working aquarium that will spawn its own tropical fish.\r\n",
+  "descriptionHtml": "==================\r\nRequirements:\r\n==================\r\n\r\nSkyrim 1.9.32\r\n\r\n==================\r\nDetails:\r\n==================\r\n\r\nWho doesn't love a nice, relaxing aquarium with peaceful little fishies swimming around among the plants and rocks?\r\n\r\nBut, if you want one of these in Skyrim, you need to search for a suitable container, add a water plane that is a jillion times the size you need, and then try to juggle a bunch of FXAmbWaterSalmon effects into it, adjusting size and height and rotation so the fish aren't all swimming in sync or counter-sync. And, by the time you're done, all you have is a tank full of salmon that are hardly bigger than bacteria.\r\n\r\nWell, we at FPI said BAH (or words to that effect) to that, and the research department swung into scientific action. As a result, we now offer to the world a kit that will allow modders to easily set up an aquarium that will ... wait for it ... spawn its own fish! Yes, the team tore apart the vanilla CritterSpawn system, threw out the trash, and wrote a custom version designed specifically for aquaria. In fact, it will work with any volume, large or small, that can be defined as an imaginary box with four to eight corners.\r\n\r\nBut, we didn't stop there. Oh, no! Because salmon are just boring in a small aquarium. A real aquarium demands color! So we scoured the southern reaches of Tamriel, from Cyrodiil to Elswyer to Black Marsh, in search of suitable tropicals. We made Herbert Axelrod look like a wimp. The FPI Aquarium Kit can not only spawn salmon and pond fish, it can spawn 12 different colorful variations. Marbled, koi-patterned, neon ... our finds are sure to grab the attention of your little adoptees and keep them enthralled for hours as they watch the fish swim and stop to nibble at the surface of the water. And they are all cold-hardy enough to survive the environment of Skyrim, even in Winterhold.\r\n\r\nBut, we STILL didn't stop there. Oh, no! Because kelp is just boring in an aquarium. A real aquarium demands a variety of plants to provide a natural environment. So, again we sent out teams to scour Tamriel until they ran out of waterbreathing potions (and we gave them plenty before they left). And again they brought home the vegetarian bacon, along with some interesting decorations to adorn the bottom of the tank.\r\n\r\nThe Aquarium Kit from the Fuzzy Physics Institute research labs contains the following:\r\n\r\n1) Six variations of a basic tabletop aquarium tank with a built-in water plane and gravel terrain.\r\n\r\nThree tanks have a base platform and three do not. For each type, options are: glass top / glass back, solid top / glass back, and solid top / solid back. The solid-back aquarium may be given the modder's choice of background textures. There is a choice of three different textures for the gravel: gray, black, and brown.\r\n\r\n2) A selection of 57 assorted decorations, including plants, rocks, and theme decorations (Dwemer, Nordic, Imperial, and nautical).\r\n\r\nAll decorations have been scaled to fit the aquarium. Most decorations are simply scaled-down versions of ordinary Bethesda assets, though the collection includes some custom items, and some of the scaled items have been adjusted to reduce their poly count and/or the number of textures used. Some of the Dwemer items are animated, such as the aquarium circulating fan.\r\n\r\n3) Twelve \"tropical fish\" variants created from standard salmon and pond fish.\r\n\r\n4) Custom scripts for spawning fish and controlling their behavior in an aquarium environment. These don't just work in our aquaria, but in any other suitable container, fountain, or body of water where you care to use them.\r\n\r\nThe documentation package includes notes and screen shots illustrating the proper setup of the fish and aquarium, and discussing variations.\r\n\r\n=========================\r\nInstallation (Manual):\r\n=========================\r\n\r\n1) Extract the contents of the archive to the Skyrim Data folder.\r\n2) Use the assets in your projects.\r\n\r\n============================\r\nUn-Installation (Manual):\r\n============================\r\n\r\n1) Remove the assets from your projects.\r\n2) Delete the files installed by the Aquarium Kit.\r\n\r\n==================\r\nIncompatible:\r\n==================\r\n\r\nNone known\r\n\r\n==================\r\nKnown Issues:\r\n==================\r\n\r\nThe SplineTransferTo function controlling the movement of the fish can be a little quirky, and does not honor real or imagined boundaries of any sort, including the collision meshes of the tank and the fish. Sometimes it will choose a path that takes a fish through the top, bottom, or sides of the tank. This is very rare, fortunately, and the paths are guaranteed to end at a point inside the tank.\r\n\r\nAquarium plants defined as Tree objects rather than Static will be animated. However, the motion may be nearly imperceptible and very jerky on some systems, probably because the fish animations are taking priority.\r\n\r\n\r\n==================\r\nChange log:\r\n==================\r\n\r\n2013.10.13 - Initial Release\r\n\r\n2013.11.12 - Added missing texture files\r\n\r\n===================\r\nContact Details:\r\n===================\r\n\r\nBrettM @ http://tesalliance.org.\r\n\r\n==================\r\nCredits:\r\n==================\r\n\r\n[url=http://www.latech.edu/~bmcgehee/untype/index.htm]\"Touch of Nature\"[/url] font by Ben McGehee of Unauthorized Type \r\n\r\n[url=http://scully7491.deviantart.com]\"Spots and Stripes Brushes\"[/url] by Scully7491 at DeviantArt \r\n\r\n[url=http://tanathe.deviantart.com]\"Lazy Brush Set\"[/url] by Tanathe at DeviantArt \r\n\r\nThanks to Bethesda for creating Skyrim.\r\n\r\nThanks to the inspiration provided by SilverSongM, who used one of my display boxes from [url=http://skyrim.nexusmods.com/mods/43143]FPI Experiment Pack 1[/url] as a makeshift aquarium in her Light Creek Manor mod (WIP), which stirred me into making a version specifically designed for aquarium use.\r\n\r\nThanks to the modding community at the TES Alliance for all-around goodness.\r\n\r\n==================\r\nTools Used:\r\n==================\r\n\r\nCreation Kit\r\nNifSkope\r\nNifUtils Suite\r\nPaintShop Pro X5\r\nnvidia DDS plug-in\r\nBlender\r\nInsanitySorrow's ReadMe Generator\r\n\r\n==================\r\nPermissions:\r\n==================\r\n\r\nThis file will be hosted at Skyrim Nexus and TESA. Do not upload to any other sites.\r\n\r\nThe assets may not be converted for other games.\r\n\r\nYou are free to use any asset or derivative in creating mods for players, provided that you credit me and no money is charged.\r\n\r\nYou are free to create add-on mods intended to work with the assets in this resource, such as new fish models or textures, but you may not distribute any of the original assets as part of your mod without explicit permission.\r\n\r\nAny other use of these assets or their derivatives requires my explicit permission.\r\n\r\n==================\r\nModder's Will:\r\n==================\r\n\r\nIf I am offline for six months or longer and do not respond to any attempts made at contacting me, I give full Ownership of this Project to TES Alliance.\r\n\r\nTES Alliance are free to modify/redistribute/remove as they see fit.",
+  "categoryId": "82",
+  "version": "1.1",
+  "author": "The Fuzzy Physics Institute",
+  "createdUnix": "1381730110",
+  "updatedUnix": "1384312835",
+  "containsAdultContent": false,
+  "uploadedBy": "BrettM",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000065529",
+      "name": "The FPI Aquarium Kit",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "12139",
+      "fileName": "The FPI Aquarium Kit-44434-1-0.zip",
+      "uploadedUnix": "1381730006",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b11f7ef229751250d85e730a768ae40a6d0e39b2b8871bd7df581d0f2789200a/analysis/1407755700/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/The%20FPI%20Aquarium%20Kit-44434-1-0.zip?fid=1000065529&ttl=1535825051&ri=8192&rs=8192&setec=8482909dca8b8c10cd921a16ad433fa2"
+    },
+    {
+      "fileId": "1000078366",
+      "name": "The FPI Aquarium Kit",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "23042",
+      "fileName": "The FPI Aquarium Kit-44434-1-1.zip",
+      "uploadedUnix": "1384312835",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/ef5e499f00a6ebe2cfa43eff52b3adc6bb0dd2c0b110a324795666e3878a44de/analysis/1407790766/",
+      "changelogHtml": " Added missing texture files. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/The%20FPI%20Aquarium%20Kit-44434-1-1.zip?fid=1000078366&ttl=1535825051&ri=8192&rs=8192&setec=a039ea9395a65086b793a461fb7462e0"
+    }
+  ]
+}

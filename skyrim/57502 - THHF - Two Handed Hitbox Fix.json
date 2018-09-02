@@ -1,0 +1,32 @@
+{
+  "modId": 57502.0,
+  "modName": "THHF - Two Handed Hitbox Fix",
+  "summary": "This mods makes two handed weapons worth it by allowing you to hit several opponents with one single blow, instead of just the one in front of you.",
+  "descriptionHtml": "[center][b]﻿[/b][/center][center][b][color=green][size=5]Two Handed Hitbox Fix[/size][/color][/b]\r<br />\r<br />[line]\r<br />\r<br />[b]Hello. \r<br />I always found stupid and unrealistic the way you have to aim with a big weapons in Skyrim.[/b] There is of course a perk that allows you to hit several target at once, but only with one type of power attack and with big requirements. So I created this little mod to fix this. Now you can hit several enemies with normal attacks, since the beginning of the game, and eventually expand this feature to  two types of power attacks with the sweep perk.\r<br />\r<br />You may think this is overpowered, but think about this : realistic hitbox means realistic &#34;friendly fire&#34;. So now using a two handed weapon when you fight with allies at your sides is quite dangerous for them and not recommanded. Seems fair to me.\r<br />\r<br />For now, however, NPCs cannot use this. I did not even try to add this feature, because it may break the game by making them fight each other for nothing. I might look into it, though.\r<br />\r<br />[line]\r<br />[size=4][color=yellow]INSTALLATION[/color][/size][/center][size=2][center]﻿[size=2][line][/size][/center][/size]\r<br />[size=4][center][size=2]\r<br />[/size][size=3][size=2]Installation is simple : just drag the esp file tou your Data folder and activate it, or use any mod manager to do so. No requirements except maybe latest version of the game. However, there is something you will need to do in game to use the mod.[/size] [size=2]That is because I used a Perk to make this mod[size=3]. [/size]Easier to make, and safer. \r<br />[color=red]I AM STILL LOOKING FOR A WAY TO ADD THE PERK AUTOMATICALLY. IF YOU GUYS CAN HELP ME, YOU ARE WELCOME.[/color][/size]\r<br />\r<br />\r<br />[size=2]1) After installing the mod, open the console by pressing ²[/size]\r<br />[size=2]2) You need to get the perk&#39;s ID. It depends on your load order. To do so, you have to type : help &#34;hitbox&#34; [/size]\r<br />[size=2]3) This will show you one single perk with an ID. Now, to get the perk, type : player.addperk &lt;ID&gt; (of course, replace &lt;ID&gt; with the one you found)\r<br />4) A confirmation message should be displayed in the console. Now you can close it and save your game. If you want to remove the perk, use the same id with player.removeperk instead. I recommand you remove the perk before uninstalling, even though it should be ok without that.[/size]\r<br />\r<br />[line]\r<br />[size=4][color=yellow]COMPATIBILITY[/color][/size][size=2]\r<br />﻿[line][/size]\r<br />\r<br />[/size][size=2]I edited the Sweep perk in this mod, so if you have another mod that edit the same one, it will most likely bring troubles.[/size][/center][/size]",
+  "categoryId": "77",
+  "version": "1.0",
+  "author": "Kastanye",
+  "createdUnix": "1408977899",
+  "updatedUnix": "1408977252",
+  "containsAdultContent": false,
+  "uploadedBy": "Barahl",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000123862",
+      "name": "THHF v1.0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "THHF v1.0-57502-1-0.rar",
+      "uploadedUnix": "1408977252",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c0ed724fc9efeb178753fecad835b98f7ef74b8565d841f0ff67fae679850c5e/analysis/1408977362/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/THHF%20v1.0-57502-1-0.rar?fid=1000123862&ttl=1535843556&ri=8192&rs=8192&setec=3306601a907e2f3a7e06882037d8a7a4"
+    }
+  ]
+}

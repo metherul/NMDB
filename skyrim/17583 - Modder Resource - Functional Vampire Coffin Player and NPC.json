@@ -1,0 +1,32 @@
+{
+  "modId": 17583.0,
+  "modName": "Modder Resource - Functional Vampire Coffin Player and NPC",
+  "summary": "Resource file (Nif model) for a fully functional player-usable vampire coffin (sleep like a bed) as well as support for NPC use as well (they lie on it like a vampire, not a regular bed)",
+  "descriptionHtml": "Resource file (Nif model) for a fully functional player-usable vampire coffin (sleep like a bed) as well as support for NPC use as well (they lie on it like a vampire, not a regular bed)\r\n\r\nDirections:\r\n\r\nExtract the nif file, and place it into any folder of your choice inside Data/Meshes. you will need to pack this nif with your mod when you release it, so put it somewhere you can find it.\r\n\r\n\r\nIn the CK:\r\n\r\nThe easiest way to get this thing working is to search for Coffin in Furniture in the object window. find the object called VampireCoffin01\r\n\r\nduplicate it and name your coffin. (leave the original one intact, do not edit it or else the vampire quest in Morthal may be affected negatively)\r\n\r\nDONT FORGET to give your coffin a visible name, not just the editor ID\r\n\r\ndouble click your new coffin to open the edit window. \r\n\r\nunder Model click Edit, and select the nif file from the folder you put it in.\r\n\r\ndrag and drop your coffin into the render window.\r\n\r\n\r\nyou are free to use this however you please. no credit is necessary but always appreciated.",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "AmethystDeceiver",
+  "createdUnix": "1337859767",
+  "updatedUnix": "1337859916",
+  "containsAdultContent": false,
+  "uploadedBy": "AmethystDeceiver",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "63342",
+      "name": "Coffin nif file",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "16",
+      "fileName": "Coffin nif file-17583-1-0.7z",
+      "uploadedUnix": "1337859916",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b2316242fc3cb3b667def2cfc70f1b1ff82964ff6eb206659fa371e2854bc40d/analysis/1406912404/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Coffin%20nif%20file-17583-1-0.7z?fid=63342&ttl=1535783742&ri=8192&rs=8192&setec=4a4de61f432c1c34775ab4913724fb1e"
+    }
+  ]
+}

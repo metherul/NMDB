@@ -1,0 +1,15 @@
+{
+  "modId": 80395.0,
+  "modName": "Performance Tweak - Remove Shine",
+  "summary": "A quick performance tweak to boost your FPS by removing shine/specularity. Version that only halves settings instead of removing also available.",
+  "descriptionHtml": "[size=3][LightingShader] - Performance[/size][size=3]\r<br />[/size][size=3]fEnvmapLODFadeEnd=0.0\r<br />[/size][size=3]fEnvmapLODFadeStart=0.0\r<br />[/size][size=3]fEyeEnvmapLODEnd=0.0\r<br />[/size][size=3]fRefractionLODFadeEnd=0.0[/size]\r<br />[size=3]fRefractionLODFadeStart=0.0[/size]\r<br />[size=3]fSpecularLODFadeEnd=0.0\r<br />[/size][size=3]fSpecularLODFadeStart=0.0\r<br />\r<br />[size=3][LightingShader] - Balanced[/size][size=3]\r<br />[/size][size=3]fEnvmapLODFadeEnd=0.0500\r<br />[/size][size=3]fEnvmapLODFadeStart=0.0450\r<br />[/size][size=3]fEyeEnvmapLODEnd=0.0250\r<br />[/size][size=3]fRefractionLODFadeEnd=0.0150[/size]\r<br />[size=3]fRefractionLODFadeStart=0.0125[/size]\r<br />[size=3]fSpecularLODFadeEnd=0.0500\r<br />[/size][size=3]fSpecularLODFadeStart=0.0450[/size]\r<br />\r<br />[LightingShader] - Quality (default settings)\r<br />fEnvmapLODFadeEnd=0.1000\r<br />fEnvmapLODFadeStart=0.0900\r<br />fEyeEnvmapLODEnd=0.0500\r<br />fRefractionLODFadeEnd=0.0300\r<br />fRefractionLODFadeStart=0.0250\r<br />fSpecularLODFadeEnd=0.1000\r<br />fSpecularLODFadeStart=0.0900[/size]",
+  "categoryId": "62",
+  "version": "0.1",
+  "author": "Nvrphz",
+  "createdUnix": "1479778184",
+  "updatedUnix": "1479778184",
+  "containsAdultContent": false,
+  "uploadedBy": "nvrphz",
+  "primaryFile": null,
+  "files": []
+}

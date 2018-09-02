@@ -1,0 +1,48 @@
+{
+  "modId": 5657.0,
+  "modName": "Tsun Armor Replacer",
+  "summary": "Replaces steel plate and/or scaled armor with Tsun\\'s armor",
+  "descriptionHtml": "This mod swaps the graphics for either the Scaled armors or Steel Plate armors with Tsun\\'s armor & the steel nordic gauntlets + steel cuffed boots.\r\n\r\nOnly works for males (tsun\\'s armor doesnt have a female mesh or graphic, sorry).\r\n\r\nWhy did I make this mod? : I wanted to make a 2-handed weapon wielding character reminiscent of Schwarzenegger\\'s portrayal of Conan the Barbarian.\r\n\r\nWhy use this particular Tsun\\'s armor mod, and not another? : Several reasons :\r\n1) This mod functions correctly in 1st-person and 3rd-person views, other mods do not.\r\n2) This mod allows Tsun\\'s armor to function as either heavy or light armor, which ever you prefer.\r\n3) This mod treats Tsun\\'s armor as being part of either the Scaled armor or Steel Plate armor sets, allowing you to benefit from matching set perks.\r\n4) Added boots & gauntlets that match the armor well, an important factor since other handwear has graphical glitches when combined with Tsun\\'s armor.\r\n\r\nI chose to keep the inventory / object graphics for these changed armors the same as their defaults, for ease of identification when looting / crafting since they retain the same stats and value as scaled or steel plate armors respectively.\r\n\r\nInstallation: Extract archive/s into the \\\\skyrim\\\\data\\\\meshes\\\\armor\\\\ directory\r\n\r\nYou can obtain or craft these armors normally through crafting or looting, or use the following console commands to add them to your inventory:\r\n\r\n(scaled armor, boots & bracers)\r\nplayer.additem 1b3a3 1\r\nplayer.additem 1b39f 1\r\nplayer.additem 1b3a0 1\r\n\r\n(steel plate armor, boots & gauntlets)\r\nplayer.additem 1395c 1\r\nplayer.additem 1395b 1\r\nplayer.additem 1395d 1\r\n\r\nI use the following mods in conjunction with this mod, which I strongly recommend:\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=4442]Tsun armor without steelwire[/url]\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=4405]Light and heavy armor circlets[/url]",
+  "categoryId": "54",
+  "version": "1.0",
+  "author": "QuickFox",
+  "createdUnix": "1326024006",
+  "updatedUnix": "1326024158",
+  "containsAdultContent": false,
+  "uploadedBy": "QuickFox",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "17839",
+      "name": "Tsun Light",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1079",
+      "fileName": "Tsun Light-5657-1-0.zip",
+      "uploadedUnix": "1326024095",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c49285413c72cec4378efafb5af809f368c15655148232bbb09f13bd0e88ce44/analysis/1406593565/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Tsun%20Light-5657-1-0.zip?fid=17839&ttl=1535762541&ri=8192&rs=8192&setec=14e15c3ccbea15873836bc85538ca330"
+    },
+    {
+      "fileId": "17840",
+      "name": "Tsun Heavy",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "855",
+      "fileName": "Tsun Heavy-5657-1-0.zip",
+      "uploadedUnix": "1326024158",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/585381540f66abe211edd9c42060eb5f0ceffe400d6ef89e8b95b8cb4d2949d7/analysis/1406593567/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Tsun%20Heavy-5657-1-0.zip?fid=17840&ttl=1535762542&ri=8192&rs=8192&setec=e360dd8e4114f5622b4ee6043af154eb"
+    }
+  ]
+}

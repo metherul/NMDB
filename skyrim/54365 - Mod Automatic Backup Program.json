@@ -1,0 +1,48 @@
+{
+  "modId": 54365.0,
+  "modName": "Mod Automatic Backup Program",
+  "summary": "Have you ever been working on a mod and you messed up something on it and you have to start all over. Sucks doesn&#39;t it. Well this program fixes that frustration by making backups of the esp file every defined interval. \r<br />\r<br />Read the Long description for more info.",
+  "descriptionHtml": "[size=4]Wanna help support my modding efforts? Look at the main page of my website [url=http://darkwolfmodding.wix.com/darkwolfmodding] here [/url] and read the text on the home page about it.[/size]\r<br />\r<br />[center][size=5][Description][/size][/center][size=3]\r<br />Have you ever been working on a mod and you messed up something on it and you have to start all over. Sucks doesn&#39;t it. Well this program fixes that frustration by making backups of the esp file every defined interval. \r<br />\r<br />The program creates a text file for each backup esp file telling you the date and time it was created.\r<br />\r<br />Basically the program copies the esp file to the backup location every defined time in seconds.\r<br />[/size]\r<br />[center][size=5][Installation][/size][/center]\r<br />[size=3]Put the EXE wherever you want and create a shortcut on your desktop to the program.[/size]\r<br />[center][size=5][Requirements][/size][/center]\r<br />[size=3].NET Framework 4.0 or higher[/size]\r<br />\r<br />[center][size=5][Info on the program][/size][/center][size=3]\r<br />[ESP/ESM File to backup section]\r<br />File Location: Folder location of the file\r<br />File: File name with extension\r<br />Pick file button: Pick the esp or esm file from the selected file location.\r<br />\r<br />[ESP/ESM Backup Location Section]\r<br />Backup Location: This is the location of the backup directory\r<br />Filename: the filename of the backup file (this will show up with a extension of the file with the file name after you select the backup directory. Delete the file extension in the filename text box after it shows up the program will automatically add the extension to the copied file at runtime)\r<br />\r<br />{Options Section]\r<br />Time interval: Set the amount of seconds the backup process will happen (example 60 Seconds)\r<br />Set Timer Interval button: Sets your defined time as the interval the backup process will happen.\r<br />\r<br />[Start/Stop section]\r<br />Start Automated backup Button: Starts the timer and automatic backup process\r<br />Stop Automated Backup Button: Stops the timer and automatic backup process\r<br />[/size]\r<br />[center][size=5][Videos][/size][/center]\r<br />[youtube]wa7PMNML2f4[/youtube]\r<br />[size=3]Demo Video[/size]",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "DarkWolfModding",
+  "createdUnix": "1401065933",
+  "updatedUnix": "1401065929",
+  "containsAdultContent": false,
+  "uploadedBy": "DarkWolfModding",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000110522",
+      "name": "Mod Backup automation program",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "63",
+      "fileName": "Mod Backup automation program-54365-1-0.rar",
+      "uploadedUnix": "1401065804",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/90a044f1ddbe4c4c4a916fef1629d43a5f0529fbbe2355d60af4ef01526d65e3/analysis/1408097238/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Mod%20Backup%20automation%20program-54365-1-0.rar?fid=1000110522&ttl=1535838496&ri=8192&rs=8192&setec=7e72013890a1d1d3dc2181b2ce955677"
+    },
+    {
+      "fileId": "1000110523",
+      "name": "Program Source Code V 1.0",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "494",
+      "fileName": "Program Source Code V 1.0-54365-1-0.rar",
+      "uploadedUnix": "1401065929",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c4aa4117a6dbd011c23306990ccc50b4cad345c5806e725a31a916001ec1d662/analysis/1408097240/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Program%20Source%20Code%20V%201.0-54365-1-0.rar?fid=1000110523&ttl=1535838496&ri=8192&rs=8192&setec=f7539d0704abd8e531ea6e0fefc48539"
+    }
+  ]
+}

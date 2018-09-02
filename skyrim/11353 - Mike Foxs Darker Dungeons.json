@@ -1,0 +1,48 @@
+{
+  "modId": 11353.0,
+  "modName": "Mike Foxs Darker Dungeons",
+  "summary": "Reduces the light values of all light templates und dungeons which override them. So essentially all interiors become darker.",
+  "descriptionHtml": "I\\'m with the general lighting in Skyrim completely satisfied, but as soon as the lights went out was something wrong. So I have dealt with the creation kit and found the necessary buttons to make the \\\"Luminous Cave\\\", a dark cave.\r\nI modified all templates and overriden interior values in so far that the dark templates have been obscured by more than 90%. Brighter templates were reduced by a fixed value. 90% I found a bit steep for templates, which were apparently intended for brighter environments.\r\n\r\nWorks great with my new project \\\"Correct Lighting\\\" http://skyrim.nexusmods.com/downloads/file.php?id=12762\r\n\r\nV 1.0: Changed the brightness values of all lightning templates -> Many dungeons get darker now.\r\n\r\nV 2.0: Changed the brightness values of all dungeons that are not using the lightning templates. -> All dungeons are now darker.",
+  "categoryId": "74",
+  "version": "2.0",
+  "author": "Mike Fox",
+  "createdUnix": "1330274767",
+  "updatedUnix": "1330769574",
+  "containsAdultContent": false,
+  "uploadedBy": "Daos85",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "37141",
+      "name": "Darker Light Templates",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Darker Light Templates-11353.rar",
+      "uploadedUnix": "1330274980",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f5681162252a66ac5180cdaef5c2d98e5aa682aefd46dc40ffcf969f9ef8e1d2/analysis/1406714883/",
+      "changelogHtml": " Lighting templates become darker -> Many dungeons become dark(er) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Darker%20Light%20Templates-11353.rar?fid=37141&ttl=1535772433&ri=8192&rs=8192&setec=743bb5e3f53df791f13c1af311099c3b"
+    },
+    {
+      "fileId": "39520",
+      "name": "Mike Foxs Darker Dungeons",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "30",
+      "fileName": "Mike Foxs Darker Dungeons-11353-2-0.rar",
+      "uploadedUnix": "1330769574",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2a19dcb2df671dc83c4f0c5a443e304252f3ca766aa300e1b6c8d647aa6de5fe/analysis/1406726892/",
+      "changelogHtml": " Dungeon specific lighting values reduced -> All dungeons are now dark(er) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Mike%20Foxs%20Darker%20Dungeons-11353-2-0.rar?fid=39520&ttl=1535772433&ri=8192&rs=8192&setec=9a0ab97310d0dd0a502af11e8551adc4"
+    }
+  ]
+}

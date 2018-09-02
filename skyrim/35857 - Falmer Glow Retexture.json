@@ -1,0 +1,48 @@
+{
+  "modId": 35857.0,
+  "modName": "Falmer Glow Retexture",
+  "summary": "A small retexture of the falmer glowing crystals that are in shimmermistcave and other falmer locations. The textures aim to make the crystals less intrusive when using certain lighting overhauls, and/or ENB presets. ",
+  "descriptionHtml": "[size=10]Falmer Glow Retexture [/size]\r\n\r\n[size=2]By Aiyen  [/size]\r\n\r\n\r\n[size=5]Description:  [/size]\r\nA while ago a user on the STEP forum came with an issue that there where some ugly colors on the ceiling of Shimmermist Cave. I went to investigate and true enough there was something that looked like a texture that had not loaded properly! It turned out to be a real texture meant to be used in that particular cave when using vanilla lighting. \r\n\r\nHowever when using ENB´s and/or any lighting overhauls that alter the imagespace then the texture starts to stand out like a really bad eyesore. I remade the original texture so that it would look nicer under the conditions ENB and lighting overhauls bring to the game. \r\nThe result can be seen in the screenshots! \r\nI have also included how the new textures look with just vanilla lighting, with and without ENB. \r\n\r\nI have provided two versions. One darker then the other. This is because I think that a single texture cannot look good for all ENB presets and/or lighting mods. Perhaps these two are not enough and I have to make more down the road! But for now these two will suffice. \r\nThat said then any feedback is of course much appreciated!\r\n\r\n[size=5]Installation:  [/size]\r\n\r\nThe folder structure is setup so that it will work when using Mod Organizer, and I expect it would also work if you use NMM or Wrye Bash. It is after all just a pair of textures. \r\nFor clarity here is the path again. \r\n...\\Textures\\clutter\r\n\r\nTo quickly test out the texture ingame. \r\nOpen the console in the main menu. \r\nType \r\ncoc shimmermistcave01\r\n\r\n\r\n[size=5]FAQ [/size]\r\nQ: Is this compatible with mod X? \r\nA: It is just a texture replacer, so the only thing it is not compatible with is another version of the exact same texture! \r\n\r\nQ: Do I need to rerun bashed patch or the like? \r\nA: No! \r\n\r\nQ: Will this corrupt my savegames ?  Or will I need to start a new game to use it? \r\nA: No! \r\n\r\nQ: Will you make a higher resolution version? \r\nA: I tried to make versions up to 4k but the only thing that changed was the amount of memory required to load in the texture. So I do not see a point in a higher resolution version. \r\n\r\nQ: Is this texture only used in that cave? \r\nA: It is also used in many other falmer locations, such as blackreach! \r\n\r\nQ: I do not like either of the versions, will you make another just for me? \r\nA: You can try to ask...\r\n\r\nCredits: \r\nBethesda for the game, and the original texture upon which this is based.  \r\nThanks to Solist on the STEP forums for making me aware of this issue! \r\n\r\nPermissions: \r\nIf you want to use these textures in your own mod, or texture package, please ask me first! \r\nI do not give permission for these textures to be redistributed to other sites then the Nexus. \r\n\r\n",
+  "categoryId": "29",
+  "version": "1.0",
+  "author": "Aiyen",
+  "createdUnix": "1368140712",
+  "updatedUnix": "1368134208",
+  "containsAdultContent": false,
+  "uploadedBy": "Aiyeen",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000029041",
+      "name": "FalmerGlowBright",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "212",
+      "fileName": "FalmerGlowBright-35857-1-0.rar",
+      "uploadedUnix": "1368134176",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d873c08d3bb89529a3ee5c16bf999f5b66911cd1413370bea9fa31c661d8dff0/analysis/1407562928/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FalmerGlowBright-35857-1-0.rar?fid=1000029041&ttl=1535814674&ri=8192&rs=8192&setec=4f18612da961ab1644e41719016d2683"
+    },
+    {
+      "fileId": "1000029042",
+      "name": "FalmerGlowDark",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "159",
+      "fileName": "FalmerGlowDark-35857-1-0.rar",
+      "uploadedUnix": "1368134208",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/01e83a3fd090d9f385a6c82f3e2179a984e59d958b8f4c61681f103b83ddcfce/analysis/1407562928/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FalmerGlowDark-35857-1-0.rar?fid=1000029042&ttl=1535814674&ri=8192&rs=8192&setec=912aaf6b5cf1ba69ec90734aa937b185"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 49797.0,
+  "modName": "Courier and Fugitive Combat Check Beta",
+  "summary": "Adds a check for Player Combat State before Couriers and Fugitives initiate dialogue",
+  "descriptionHtml": "Note: The USKP http://www.nexusmods.com/skyrim/mods/19/? now includes a fix for this problem according to this thread: http://afkmods.iguanadons.net/index.php?/topic/3636-mods-made-obsolete-by-unofficial-patches/\r<br />This mod should no longer be necessary. Thanks to all who downloaded and endorsed and to Mookeylama for pointing it out to me.\r<br />\r<br />I can&#39;t use a Crafting Table if a Dragon spotted me on my way to Dawnstar, but some random fugitive can force me into conversation while same Dragon IS BREATHING FIRE AT ME.\r<br />Hopefully this will fix the problem.\r<br />I added a GetCombatState == 0 (player) test to the initial dialogue of Couriers and Fugitives (the guys that hand you stolen items) to prevent them from initiating their dialogue while the player is fighting.\r<br />I am relatively new to modding Skyrim, so I am not certain if this will work. Additionally, since it blocks behavior that is rare (but incredibly annoying- maybe lethal) and impossible to force, I can&#39;t really test this. Hence, the BETA designation.\r<br />I would appreciate anyone willing to try this out and troubleshoot it with me.\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/83395/?tab=4&&navtag=http%3A%2F%2Fwww.nexusmods.com%2Fskyrim%2Fajax%2Fcomments%2F%3Fmod_id%3D83395%26page%3D1%26sort%3DDESC%26pid%3D0%26thread_id%3D5560107&pUp=1]This mod[/url] by delgathar appears to do the same thing by disabling [i]all [/i]forced greets.",
+  "categoryId": "28",
+  "version": "beta",
+  "author": "EgoAltar",
+  "createdUnix": "1389486792",
+  "updatedUnix": "1389486610",
+  "containsAdultContent": false,
+  "uploadedBy": "EgoAltar",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000090999",
+      "name": "CourierFugitiveCombatCheck",
+      "version": "beta",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "CourierFugitiveCombatCheck-49797-beta.rar",
+      "uploadedUnix": "1389486610",
+      "modVersion": "beta",
+      "virusScanUrl": "https://www.virustotal.com/file/e6a08953272d8e6a6ac0afb243ac4db6d33c6ee3daea03aeb38f96b4c0f7ba3c/analysis/1407882427/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CourierFugitiveCombatCheck-49797-beta.rar?fid=1000090999&ttl=1535831064&ri=8192&rs=8192&setec=93f9db31895b8c15641081519837681e"
+    }
+  ]
+}

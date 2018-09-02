@@ -1,0 +1,32 @@
+{
+  "modId": 34095.0,
+  "modName": "Tribunal Robes Patch - Fixes and SkyRe Reproccer Compatibility",
+  "summary": "Fixes some small problems with Tribunal robes crafting recipes, adds SkyRe/Reproccer compatibility",
+  "descriptionHtml": "A simple ESP file fix that corrects some small problems with the original Tribunal Robes ESP file.\r\n\r\nYOU STILL NEED TO DOWNLOAD THE ORIGINAL TRIBUNAL ROBES MOD FOR THIS TO WORK.\r\n\r\nYOU CAN DOWNLOAD IT HERE:\r\n\r\nTribunal robes and masks by Zairaam\r\nhttp://skyrim.nexusmods.com/mods/20077\r\n\r\nIF THE AUTHOR OF TRIBUNAL ROBES ASKS ME TO REMOVE THIS MOD I WILL DO SO, NO QUESTIONS ASKED.\r\n\r\nWith that out of the way, here are the changes made:\r\n\r\n          - Fixed Tribunal Robes Black LIGHT Boots crafting recipe (now actually uses things!)\r\n          - Fixed double leather strips crafting requirements on NONARMOR pieces.\r\n          - Changed crafting requirements on NONARMOR pieces (now requires linen wraps instead of ebony ingots).\r\n          - Changed vendor value of NONARMOR pieces (halved).\r\nCorrected incorrect keywords on LIGHT armor pieces (removed \\\\\\\"vendoritemclothing\\\\\\\", replaced with \\\\\\\"vendoritemarmor\\\\\\\" and added keyword \\\\\\\"armorglass\\\\\\\")\r\n          - Corrected incorrect keywords on HEAVY armor pieces (removed \\\\\\\"vendoritemclothing\\\\\\\", replaced with \\\\\\\"vendoritemarmor\\\\\\\" and added keyword \\\\\\\"armorebony\\\\\\\")\r\n\r\nInstallation: \r\n\r\nSimply install this mod after installing Tribunal Robes and overwrite the ESP file.\r\n\r\nFOR SKYRE/REPROCCER COMPATIBILITY:\r\n\r\nAt this time ReProccer currently contains no code to make Tribunal robes as it should be (equal to glass/ebony in armor values). YOU WILL NEED TO ADD THE FOLLOWING CODE TO THE STATS.XML REPROCCER FILE FOR COMPATIBILITY. You will likely need Notepad++ to do so easily.\r\n\r\n1. Find Stats.xml in the ReProccer folder (normally \\\\\\\\Steam\\\\\\\\SteamApps\\\\\\\\common\\\\\\\\Skyrim\\\\\\\\Data\\\\\\\\SkyProc Patchers\\\\\\\\T3nd0_ReProccer\\\\\\\\ReProccer)\r\n2. Right Click and select \\\\\\\"Edit with Notepad++\\\\\\\"\r\n3. CTRL+F and search for \\\\\\\"Nordic Iron Curiass\\\\\\\"\r\n4. You should see the following:\r\n\r\n                <armor_material>\r\n\t\t\t<iArmor>24</iArmor>\r\n\t\t\t<sMaterialName>Nordic Iron Cuirass</sMaterialName>\r\n\t\t</armor_material>\r\n\r\n5. Just after </armor_material> add the following:\r\n\r\n<armor_material> \r\n<iArmor>33</iArmor> \r\n<sMaterialName>Tribunal Robes Black LIGHT</sMaterialName> \r\n</armor_material> \r\n<armor_material> \r\n<iArmor>33</iArmor> \r\n<sMaterialName>Tribunal Robes Blue LIGHT</sMaterialName> \r\n</armor_material>\r\n<armor_material> \r\n<iArmor>33</iArmor> \r\n<sMaterialName>Tribunal Robes Red LIGHT</sMaterialName> \r\n</armor_material>\r\n<armor_material> \r\n<iArmor>33</iArmor> \r\n<sMaterialName>Tribunal Robes Green LIGHT</sMaterialName> \r\n</armor_material>\r\n<armor_material> \r\n<iArmor>33</iArmor> \r\n<sMaterialName>Tribunal Robes White LIGHT</sMaterialName> \r\n</armor_material>\r\n<armor_material> \r\n<iArmor>44</iArmor> \r\n<sMaterialName>Tribunal Robes Black HEAVY</sMaterialName> \r\n</armor_material> \r\n<armor_material> \r\n<iArmor>44</iArmor> \r\n<sMaterialName>Tribunal Robes Blue HEAVY</sMaterialName> \r\n</armor_material>\r\n<armor_material> \r\n<iArmor>44</iArmor> \r\n<sMaterialName>Tribunal Robes Red HEAVY</sMaterialName> \r\n</armor_material>\r\n<armor_material> \r\n<iArmor>44</iArmor> \r\n<sMaterialName>Tribunal Robes Green HEAVY</sMaterialName> \r\n</armor_material>\r\n<armor_material> \r\n<iArmor>44</iArmor> \r\n<sMaterialName>Tribunal Robes White HEAVY</sMaterialName> \r\n</armor_material>\r\n\r\n6. Save\r\n7. Your ReProccer file is now compatible with Tribunal Robes and thus SkyRe.\r\n8. Enjoy!\r\n\r\nCREDITS:\r\n\r\nIf you haven\\'t endorsed these fine folks, please do so!\r\n\r\nAll credit for one of my favorite, and most beautiful mods out there, Tribunal Robes belongs to Zairaam.\r\n\r\nYou can download tribunal Robes here: http://skyrim.nexusmods.com/mods/20077\r\n\r\nA shoutout to Tend0 for making SkyRe, for all the changes he makes that I like and don\\'t like, I wouldn\\'t play without it.\r\n\r\nYou can download SkyRe here: http://skyrim.nexusmods.com/mods/9286\r\n...and Reproccer here: http://skyrim.nexusmods.com/mods/28467\r\n\r\nAnd special thanks to Balbor-Steelsouls for making the Reproccer compatibility patch fixes. You guys seriously rock!\r\n\r\nYou can download Balbor-Steelsouls Reproccer patch here: http://skyrim.nexusmods.com/mods/27092",
+  "categoryId": "54",
+  "version": "1",
+  "author": "tiamat114 with original mod by Zairaam",
+  "createdUnix": "1364597411",
+  "updatedUnix": "1364599791",
+  "containsAdultContent": false,
+  "uploadedBy": "tiamat114",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000021015",
+      "name": "Tribunal Robes by Zairaam Fix v1",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Tribunal Robes by Zairaam Fix v1-34095-1.rar",
+      "uploadedUnix": "1364599791",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/f4fa2bc3c24005a9e875cafebb94b33a4a8ee41536c90a128d94eac3236d786d/analysis/1407494584/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Tribunal%20Robes%20by%20Zairaam%20Fix%20v1-34095-1.rar?fid=1000021015&ttl=1535811618&ri=8192&rs=8192&setec=e0c53a99d9b967d6559ca2a2ba7978c6"
+    }
+  ]
+}

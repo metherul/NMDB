@@ -1,0 +1,48 @@
+{
+  "modId": 77720.0,
+  "modName": "Enlightened Magic",
+  "summary": "A mishmash of spells and edits that I created for myself, but now want to release. Includes Light magic spells, Dual Casting, and Vampiric Drain reworks, along with a few other random spells.",
+  "descriptionHtml": "[color=#3c78d8][size=4][center]--INTRODUCTION--[/center][/size][/color]\r<br />[size=2]-My first (and likely only) Skyrim mod, as I feel that I&#39;m basically done with this game and should release this mod. Maybe I&#39;ll return when other WIP large-scale mods (looking at you, Beyond Skyrim) are released, but probably not until then. This is a mishmash of spells and edits that I created for myself, for different reasons:[/size]\r<br />\r<br />[size=2]-The Light magic spells were created because I personally disliked the whole &#34;holy mage&#34; aspect of other Light magic mods (that threw the Light spells into Restoration when clearly the school of Restoration is meant to RESTORE, not damage) and went for a more &#34;methodical&#34; approach with lasers being the main inspiration. (Radiance was created as a hypothetical form of Magelight, a lore-friendly explaination would be that it was created by the College of Winterhold and would discharge all of its energy on impact rather than slowly releasing it over time to create light). [/size]\r<br />\r<br />[size=2]-I had trouble finding a good niche effect for all of the Light magic spells to have, and eventually settled with Light spells being unresistable. In exchange, the spells don&#39;t scale with any Destruction perks that specifically affect elemental spells. (This also solved another issue I had with vanilla magic: Dwarven automatons. Normally, they&#39;re cancerous at best and stupidly hard at worst to fight as a pure Destruction mage, but these Light magic spells pierce through their passive 25% magic resistance)[/size]\r<br />\r<br />[size=2]-Tremor, Ice Volley, and Stormfists were created for fun while I was messing around with the CK and TES5Edit. Stormfists does have a certain purpose, however, to help aspiring mages defend themselves when low on Magicka while not resorting to a melee weapon.[/size]\r<br />\r<br />[size=2]-Vampiric Drain was reworked to add incentive to feed as a vampire, because I didn&#39;t feel quite vampiric enough with my vampire mage character starving herself of juicy, nutritious blood to make her Vampiric Drain stronger.[/size]\r<br />\r<br />[size=2]-Dual Casting reworks were a result of feeling punished rather than rewarded for wanting to have cool kamehameha-style casting animations because the [/size]\r<br />[size=2]vanilla cost/benefit ratio was just abhorrent.[/size]\r<br />[size=4]\r<br />[/size][color=#3c78d8][size=4][center]--ADDED SPELLS--[/center][/size][/color]\r<br />-Adds Light magic to Destruction School:\r<br /> -Solar Ray (Novice) - Concentration spell, base damage of 8/sec\r<br /> -Radiance (Apprentice) - Fire and forget spell, base damage of 25\r<br /> -Flash Beam (Adept) - Fire and forget spell, chains to 1 additional target, base damage of 40\r<br /> -Solar Storm (Expert) - Concentration spell, slows target movement speed by 50%, base damage of 60/sec\r<br />-Tremor (Alteration Adept) - Staggers enemies in a blast radius.\r<br />-Ice Volley (Destruction Adept) - Frost damage, deals double damage to Stamina. This spell is used by Wispmothers, just made playable.\r<br />-Stormfists (Destruction Novice) - Adds extra physical damage to your Unarmed melee attacks for a duration.\r<br />\r<br />All Spells should be integrated into the vendor leveled lists. Go to Faralda for the Destruction spells, or Tolfdir for the Alteration spells, just as you would for other vanilla spells.\r<br />\r<br />[color=#3c78d8][size=4][center]--REWORKS - REGULAR VERSION ONLY--[/center][/size][/color]\r<br />-Dual Casting cost multipliers have been changed. 1.5x cost for 2.5x magnitude (vs 2.8x cost for 2.2x magnitude for vanilla Dual Casting)\r<br />-Reworked Vampiric Drain. It absorbs much more health (20 base health/sec) when well-fed, but as your thirst for blood grows, the magnitude of Vampiric Drain decreases, down to the regular Vampiric Drain when starved of blood (5 base health/sec). Magicka costs have also been scaled accordingly.\r<br />\r<br />[color=#3c78d8][size=4][center]--INSTALLATION--[/center][/size][/color]\r<br />1. Select ONLY ONE of the files. The &#34;No Reworks&#34; version doesn&#39;t have the changes to Dual Casting or Vampiric Drain, for compatibility or if you just don&#39;t want those changes.\r<br />2. Depending on your preferred installation method:\r<br /> -Manual: Drop the .esp into your Skyrim/Data folder. Done.\r<br /> -NMM: Should work normally.\r<br /> -Mod Manager: Again, should work.\r<br />3. Use LOOT or whatnot to fix the load order. If you&#39;re doing it manually, just put it before the other.\r<br />[color=#ff7700]\r<br />[size=4][center]--WARNINGS--[/center][/size][/color]\r<br />-This mod won&#39;t make vanilla Skyrim magic good alone. It is intended to be used with whatever other magic gameplay overhaul you prefer (and designed to be compatible, to a certain extent)\r<br />-I am not responsible for any damage this mod causes to your saves/game files, because it is practically impossible for this mod to do so. It&#39;s a simple plugin that adds a couple spells and resources that all draw from the Skyrim masterfiles. No fancy scripting and the like, no other requirements.\r<br />-I may take suggestions but remember, I&#39;m basically done with this game. No guarentees.\r<br />\r<br />[size=4][center][color=#ff7700]--PERMISSIONS--[/color][/center][/size]\r<br />-You may use this mod in whatever mod/image/video for Skyrim you want without my permission.\r<br />-You may modify this mod and rerelease it without my permission, but make sure to credit me for the idea.\r<br />-You may NOT release this mod on any other site without my permission.\r<br />\r<br />[size=4][color=#3c78d8][center]--CREDITS--[/center][/color][/size]\r<br />-Bethesda (for creating Skyrim, its vanilla assets and the Creation Kit)\r<br />-Whoever made TES5Edit (seriously, its such a step up from the CK)",
+  "categoryId": "75",
+  "version": "v1.0",
+  "author": "ErialWeitlanz",
+  "createdUnix": "1470607625",
+  "updatedUnix": "1470607220",
+  "containsAdultContent": false,
+  "uploadedBy": "ErialWeitlanz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000216111",
+      "name": "Enlightened Magic - Regular",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Enlightened Magic - Regular-77720-v1-0.7z",
+      "uploadedUnix": "1470607194",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f87906c14c89c39673c84e6da7393a8c5c73d5016b5abbc036303d6457cfd30e/analysis/1470607202/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Enlightened%20Magic%20-%20Regular-77720-v1-0.7z?fid=1000216111&ttl=1535866341&ri=8192&rs=8192&setec=3a6c4184a8d37306caf804e1cc154029"
+    },
+    {
+      "fileId": "1000216112",
+      "name": "Enlightened Magic - No Reworks",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Enlightened Magic - No Reworks-77720-.7z",
+      "uploadedUnix": "1470607220",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/441d85424dd2db9313fcf3b250c5e8d3485a8e29b7e50b35943ef4b55f5a8907/analysis/1470607262/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Enlightened%20Magic%20-%20No%20Reworks-77720-.7z?fid=1000216112&ttl=1535866341&ri=8192&rs=8192&setec=0a0af6e99facdd00eefa82f34c977795"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 59538.0,
+  "modName": "Atmospheric real-like enb",
+  "summary": "Just an enb preset",
+  "descriptionHtml": "[b][color=#6aa84f][size=4]INSTALLATION:\r<br />[/size][/color][/b]\r<br />\r<br />[color=#e69138][b]1.[/b][/color][size=3] Copy and paste into your main game folder. Requires skyrim enb series which can be downloaded from http://enbdev.com/download_mod_tesskyrim.htm[/size]\r<br />\r<br />\r<br />[color=#e69138]2.[/color][size=3] In your SkyrimPrefs.ini ( C:&#92;Users&#92;username&#92;Documents&#92;My Games&#92;Skyrim) change to:[/size]\r<br />[size=3]       bTreesReceiveShadows=1[/size]\r<br />[size=3]       bDrawLandShadows=1[/size]\r<br />[size=3]       bShadowsOnGrass=1[/size]\r<br />[size=3]       bFloatPointRenderTarget=1\r<br />[/size][size=2][color=#b6b6b6]\r<br />   *If you can&#39;t find this lines in your ini, just add them under Display section[/color]\r<br />[/size]\r<br />\r<br />[color=#e69138]3.[/color][size=3] In your enblocal.ini (x:&#92;SteamLibrary&#92;steamapps&#92;common&#92;Skyrim) change to:[/size]\r<br />\r<br />[size=3]       ReservedMemorySizeMb=x       (1GB change to 128, 2-256, 3-512, 4-1024)[/size]\r<br />[size=3]       VideoMemorySizeMb=x             according to your video card memory[/size]\r<br />\r<br />[size=2]   *Edit enblocal and enbseries inies to enable or disable some of the functions or effects if you can&#39;t do this via enb panel (shift+enter)[/size]\r<br />\r<br />\r<br />[size=3]   \r<br />   For more information please visit: http://wiki.step-project.com/Guide:ENB[/size]\r<br />\r<br />[size=3][color=#e69138]4.[/color] Before you start playing, disable game AA and AF via Launcher\r<br />\r<br />\r<br />\r<br />[/size]\r<br />\r<br />[b][color=#6aa84f]OPTIONAL:[/color]\r<br />[color=#b6b6b6]\r<br />[/color][list][*][color=#b6b6b6]To hit a better quality and increase distance view you can add this lines in your skyrim.ini (in the same folder as Skyrim.Pres)\r<br />[/color][/*]\r<br />[/list][/b][color=#b6b6b6]   under [General] section:\r<br />\r<br />      uExterior Cell Buffer=144\r<br />      uGridsToLoad=11\r<br />      iPreloadSizeLimit=126877696\r<br />\r<br />   *note, that this may extremely decrease performance and lower in game frames per second\r<br />[/color]\r<br />[color=#6aa84f]   \r<br />[/color][list][*][color=#6aa84f][/color][color=#b6b6b6]If you are not happy with AA edge and prepixel AA you can download a compatibile SMAA implementation from: [/color][color=#b6b6b6][size=2]http://mrhaandi.blogspot.com/p/injectsmaa.html[/size][/color]\r<br />[/*]\r<br />[/list]\r<br />\r<br />\r<br />\r<br />[u][color=#b6b6b6]Some of the mods I use:[/color][/u]\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/8655]Static Mesh Improvement Mod - SMIM[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/607]Skyrim HD - 2K Textures[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/13268]WATER - Water And Terrain Enhancement Redux[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/40564]SkyFalls and SkyMills - Animated Distant Waterfalls and WindMills[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/3288]Lush Trees and Grass[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/30971]High Definition Ivy[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/42370]Unique Grasses and Groundcovers - Nature and Landscape Enhancement[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/39450]Real Clouds\r<br />[/url][url=http://www.nexusmods.com/skyrim/mods/18916]Lanterns of Skyrim - All In One[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/436]HiRes Legible Road Signs\r<br />[/url][url=http://www.nexusmods.com/skyrim/mods/14308]Riverside Lodge[/url]",
+  "categoryId": "97",
+  "version": "1.0",
+  "author": "bury_wilk",
+  "createdUnix": "1414742664",
+  "updatedUnix": "1414748193",
+  "containsAdultContent": false,
+  "uploadedBy": "burywilk88",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000133336",
+      "name": "AR-L 1.0v",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1314",
+      "fileName": "AR-L 1.0v-59538-v1-0.rar",
+      "uploadedUnix": "1414748193",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2c45495c00ebd474500c4732cc317de0cdbcfbb21e0640c2147b1593a60692bd/analysis/1414748283/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AR-L%201.0v-59538-v1-0.rar?fid=1000133336&ttl=1535846813&ri=8192&rs=8192&setec=40d0dab1ee0eabb8f2ad679379382726"
+    }
+  ]
+}

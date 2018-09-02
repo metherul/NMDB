@@ -1,0 +1,48 @@
+{
+  "modId": 58965.0,
+  "modName": "Archmage Robes - Craft and Improvement",
+  "summary": "Improves the Archmage Robes to be equal to the Master level robes. Also provides a crafting recipe to switch between hooded and non hooded versions.",
+  "descriptionHtml": "[size=3]I always avoided using the Archmage robes because I hated the hood as well as being severely outclassed by the Master Robes of the schools.\r<br />\r<br />[/size]AMR Craft and Improvement enhances the Archmage robes to be equal to the Master level robes in magicka regen. The hooded version has +50 magicka (same as vanilla), the other does not (freedom to apply whatever you want on the head slot).\r<br />\r<br />[color=#ffd966]The &#34;AMRCI Alternate.esp&#34; also increases cost reduction for all schools to 20% up from 15% (Master robes have 22% for a single school). This file requires the main &#34;AMR Craft and Improvement.esp&#34; and should be placed after it in the load order.[/color]\r<br />\r<br />[color=#e06666]This does NOT allow you to craft the enchanted robes.[/color]\r<br />[color=#6aa84f]This DOES let you craft [i]non[/i]-enchanted versions of both hooded, and hoodless Archmage robes, as well as the Archmage boots.\r<br />[/color]\r<br />\r<br />[color=#6d9eeb][size=3]Crafting (All recipes appear after you receive the robes.):[/size]\r<br />[size=2]The Enchanted Archmage Robes (not custom enchanted) can be converted between hooded/hoodless at a tanning rack for free. (uses up one to give you the other.)[/size]\r<br />Non-enchanted Archmage Robes (both):\r<br />[/color][list][*][color=#6d9eeb]1 leather[/color]\r<br />[*][color=#6d9eeb]1 leather strip[/color]\r<br />[*][color=#6d9eeb]2 linen wraps[/color]\r<br />[/list][color=#6d9eeb]Non-enchanted Archmage Boots:\r<br />[/color][list][*][color=#6d9eeb]1 leather[/color]\r<br />[*][color=#6d9eeb]2 leather strips[/color]\r<br />[*][color=#6d9eeb]1 linen wrap[/color]\r<br />[/list][color=#6d9eeb] [/color]\r<br />Khajiit ears can now show through the hood. The poor Khajiit...that must have been really uncomfortable.\r<br />\r<br />Texture replacers will affect these the same as vanilla Archmage robes/boots.\r<br />\r<br />[color=#ffd966]Incompatible with mods that alter the Archmage Robes. (load AMR after to keep my changes. Load AMR first to lose the enchantment and description changes, but keep the craftable ones.)[/color]",
+  "categoryId": "60",
+  "version": "1.0.0",
+  "author": "Himeki",
+  "createdUnix": "1413094933",
+  "updatedUnix": "1413137607",
+  "containsAdultContent": false,
+  "uploadedBy": "Himeki",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000130567",
+      "name": "AMR Craft and Improvement",
+      "version": "1.0.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "AMR Craft and Improvement-58965-1-0-0.zip",
+      "uploadedUnix": "1413093099",
+      "modVersion": "1.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9ce5ff63ceb2720b6c0c15c642734de14362cd01540a4aa3a9c9df0dd477ac61/analysis/1413093121/",
+      "changelogHtml": " Mod Created. <br/> \n Added an optional file &#34;AMRCI Alternate&#34; that increases the cost reduction for all schools to 20%. Place after main file in load order. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AMR%20Craft%20and%20Improvement-58965-1-0-0.zip?fid=1000130567&ttl=1535845905&ri=8192&rs=8192&setec=95c784796b4c95727e4559259ddf641d"
+    },
+    {
+      "fileId": "1000130663",
+      "name": "AMRCI Alternate",
+      "version": "1.0.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "AMRCI Alternate-58965-1-0-0.zip",
+      "uploadedUnix": "1413137607",
+      "modVersion": "1.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/176ab915ff09f8ffa5f3ad88764e3e33b31adb72f36712defabc2797e0654435/analysis/1413137702/",
+      "changelogHtml": " Mod Created. <br/> \n Added an optional file &#34;AMRCI Alternate&#34; that increases the cost reduction for all schools to 20%. Place after main file in load order. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AMRCI%20Alternate-58965-1-0-0.zip?fid=1000130663&ttl=1535845905&ri=8192&rs=8192&setec=ec491790b2452d461602e2e8340bdb25"
+    }
+  ]
+}

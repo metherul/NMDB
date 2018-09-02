@@ -1,0 +1,48 @@
+{
+  "modId": 42218.0,
+  "modName": "Skyrim Saturation and Contrast Boost - no ENB",
+  "summary": "This mod modifies most image spaces so that their saturation and contrast settings are higher.  It is meant as an alternative to using ENB.",
+  "descriptionHtml": "This mod boosts the saturation and contrast of most image spaces that the exterior and interior cells in the game use.  In the Creation Kit, the imagespace is in the SpecialEffect section.\r\n\r\nSaturation: Another mod sets them all to 2.0, which I found to be excessive.  This mod sets them higher based on their default values.  I typically added 0.5 to its default value.\r\n\r\nContrast: I boosted these settings very little, adding 0.05 or 0.1 to the default value.\r\n\r\nI am currently doing my own playthrough with this mod and like the results so far.  So, I may make changes when/if I encounter an imagespace that isn\\\\\\'t to my liking.  \r\n\r\nI do not use ENB.  I have no idea how it will work with ENB,  I made this as an alternative to using ENB.\r\n\r\nYou are free to modify the settings in the CK or TES5EDIT for your own tastes.\r\n\r\nI would also appreciate feedback.\r\n\r\nInstallation - It is just one ESP file.  \r\n\r\nManual - Unzip the esp file to your Skyrim/Data/ directory.\r\nWrye BASH - From the installers tab - right-click the file and select Install.\r\nNMM - Installs with NMM.\r\n\r\nLoad order: Put it near the top, below the Unofficial Patches.  If another mod changes the same imagespace, it will replace the settings in this mod.\r\n\r\nVERSION 1.0 (September 18, 2013) - \r\nFixed two exterior nighttime spaces that had bad contrast settings.\r\nAdjusted several interior spaces to have less saturation.\r\n\r\nVERSION 1.1 (September 30, 2013) -\r\nFixed one space with bad contrast setting.",
+  "categoryId": "62",
+  "version": "1.1",
+  "author": "GamerRick",
+  "createdUnix": "1379117818",
+  "updatedUnix": "1380567538",
+  "containsAdultContent": false,
+  "uploadedBy": "GamerRick",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000056404",
+      "name": "GR - Contrast Saturation Boost V1",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "GR - Contrast Saturation Boost V1-42218-1-0.7z",
+      "uploadedUnix": "1379539086",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e62e6d97b1ede940cafa5491d08b2326e6629d07b7814decad9f4a5bb10b6b2e/analysis/1407727751/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/GR%20-%20Contrast%20Saturation%20Boost%20V1-42218-1-0.7z?fid=1000056404&ttl=1535823076&ri=8192&rs=8192&setec=8023a829a8814bdbd15edaec77658f3c"
+    },
+    {
+      "fileId": "1000059905",
+      "name": "V1-1 Latest",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "V1-1 Latest-42218-1-1.7z",
+      "uploadedUnix": "1380567538",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/188c6b95d203358e466a522cecae92baf29dafc9039d1fec9d885cb882dbc9e6/analysis/1407740522/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/V1-1%20Latest-42218-1-1.7z?fid=1000059905&ttl=1535823076&ri=8192&rs=8192&setec=07147cc33020c489bdd833347e6f8fc9"
+    }
+  ]
+}

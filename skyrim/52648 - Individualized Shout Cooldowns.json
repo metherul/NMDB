@@ -1,0 +1,48 @@
+{
+  "modId": 52648.0,
+  "modName": "Individualized Shout Cooldowns",
+  "summary": "Splits the global shout cooldown into individual cooldowns for each shout, allowing more variety in the shouts you use while the powerful ones cool down.",
+  "descriptionHtml": "[b][b][color=#ff0000][size=3]FYI: I don&#39;t watch comments as much as I should, but it&#39;s not my intention to abandon my mods. I *do*, however, watch PMs. If you come across any issues and I don&#39;t respond to a comment on the comments page (which is actually pretty likely) PLEASE feel free to PM me&#33; I don&#39;t bite and a PM sends me an email notification that a comment doesn&#39;t send.[/size][/color][/b]\r<br />\r<br />[color=#ffff00]Note: This mod requires (and will not function without) SKSE. Get it from http://skse.silverlock.org/[/color][/b]\r<br />\r<br />[size=4]Skyrim[/size]\r<br />[size=5][b]Individualized Shout Cooldowns[/b][/size]\r<br />[img]http://static-2.nexusmods.com/15/mods/110/images/52648-1-1396588742.png[/img]\r<br />[size=1]Version 2.0\r<br />by ShadauxCat\r<br />[/size]\r<br />[size=4][b]POWERED BY SKSE[/b][/size]\r<br />by Ian Patterson, Stephen Abel and Paul Connelly (ianpatt, behippo and scruggsywuggsy the ferret)\r<br />[url=http://skse.silverlock.org/]http://skse.silverlock.org/[/url]\r<br />\r<br />[size=4][b][u]TABLE OF CONTENTS[/u][/b][/size]\r<br />1) REQUIREMENTS\r<br />2) Details\r<br />3) Known Issues\r<br />4) Compatibility\r<br />5) Installation\r<br />6) The Future\r<br />\r<br />[size=4][b][u]REQUIREMENTS[/u][/b][/size]\r<br />This mod requires SKSE. Get it from http://skse.silverlock.org/\r<br />\r<br />Additionally, it&#39;s recommended to use this in conjunction with SkyUI, as that will give you better visual feedback on your cooldowns.\r<br />\r<br />[size=4][b][u]Details[/u][/b][/size]\r<br />\r<br />In vanilla Skyrim, I always felt that shouts were... well, underwhelming, to say the least. Some seemed less powerful than they should be given how ridiculously infrequently they could be cast. Meanwhile, others, like Marked for Death or Slow Time, became so useful to me that, with the cooldowns as they were, they became the only shouts I ever used, and learning other shouts beyond those two was pointless.\r<br />\r<br />To solve this, many people have created mods that reduce the shout cooldowns, or even eliminate them altogether. This, in my opinion, takes the problem in the opposite direction: now instead of shouts being weak and lame, they become almost god-like. The solution, to me, was to take the global cooldown and turn it into separate cooldowns for each shout.\r<br />\r<br />That&#39;s what this mod does.\r<br />\r<br />When you shout Marked For Death, you still have to wait the same amount of time as in vanilla Skyrim before shouting any version of Marked For Death again. But now, while you&#39;re waiting for Marked For Death to become active again, you can go ahead and use Fire Breath, or Ice Form, or Whirlwind Sprint, or whatever other shout suits your fancy.\r<br />\r<br />Now, you can still try to use those shouts - cry your voice out as much as you like. But while that shout is in cooldown, you&#39;ll simply find that your voice doesn&#39;t bring the power with it when you&#39;re using that word.\r<br />\r<br />With this mod alone, there&#39;s no visual indication of your shout cooldowns - the reason for this is that modifying the UI would cause this mod to conflict with SkyUI and other such mods. Instead, I&#39;ve made use of SkyUI&#39;s Active Effects HUD to display cooldowns for your shouts. So if you want that visualization, install SkyUI&#33; (If there are any other UI mods that show your active effects, they&#39;ll probably work as well.)\r<br />\r<br />All cooldown times are the same as in vanilla skyrim. The Amulet and Shrine of Talos *do* correctly shorten those times, as well. This should apply to other mods (perks, gear, etc) that improve shout cooldown time.\r<br />\r<br />Additionally, this mod should now work with all shouts, including shouts added by mods, and should properly take into account all adjustments made to a shout&#39;s cooldowns, powers, effects, etc. It doesn&#39;t modify anything about the shouts, but instead, employs a cooldown manager script that handles all the cooldowns invisibly.\r<br />\r<br />[size=4][b][u]Known Issues[/u][/b][/size]\r<br />\r<br />There are a couple of known issues with the mod as it is:\r<br />\r<br />1) The visualization in SkyUI doesn&#39;t differentiate between different shouts, so you&#39;ll need to keep in mind yourself which cooldown corresponds to which shout. To help with that, when a cooldown finishes, a message appears telling you which shout just finished cooling down.\r<br />\r<br />2) In the vanilla active effects display, all the cooldowns just show &#34;Shout In Cooldown.&#34; I intend to address this later.\r<br />\r<br />\r<br />[size=4][b][u]Compatibility[/u][/b][/size]\r<br />\r<br />ISC should currently be compatible with any and all mods that modify shouts. (Or, well, anything else, too.) If anyone finds any compatibility issues, please let me know&#33;\r<br />\r<br />[size=4][b][u]Installation[/u][/b][/size]\r<br />\r<br />Download and install with NMM, or simply extract the contents of the Data folder into your Skyrim install directory. Done&#33;\r<br />\r<br />[size=4][b][u]The Future[/u][/b][/size]\r<br />\r<br />My plans for the future include the following. This will be updated as I add additional plans for the mod, and I&#39;m open to feedback on these items.\r<br />\r<br />- In the first release of the mod, there was a 4-second global cooldown to prevent spamming. I wanted to get this release out quickly as it has some major bugfixes in it, so I&#39;ve disabled that. I plan to put it back.\r<br />- The new version of the mod brings with it the possibility that this might be capable of being applied to NPCs. I&#39;ll be looking into that idea, probably as a configurable option.",
+  "categoryId": "24",
+  "version": "2.0",
+  "author": "ShadauxCat",
+  "createdUnix": "1396589478",
+  "updatedUnix": "1396759915",
+  "containsAdultContent": false,
+  "uploadedBy": "ShadauxCat",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000103557",
+      "name": "Individualized Shout Cooldowns",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "Individualized Shout Cooldowns-52648-1-0.zip",
+      "uploadedUnix": "1396536501",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f596db1bf32057da051198b80095a787e52eabd8ab214ba8af684d1f8ed3cc43/analysis/1408005915/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Individualized%20Shout%20Cooldowns-52648-1-0.zip?fid=1000103557&ttl=1535835779&ri=8192&rs=8192&setec=463df85e1726320bd4c0626ac33be34e"
+    },
+    {
+      "fileId": "1000103813",
+      "name": "Individualized Shout Cooldowns",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "Individualized Shout Cooldowns-52648-2-0.zip",
+      "uploadedUnix": "1396759915",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d3224d013d002d5a5cd7eab3a84b21b57a3e90734ccb2ef3f799fd0e6428ffd4/analysis/1408008827/",
+      "changelogHtml": " Completely rewrote the entire mod to address some issues with quest objectives not being triggered by shouts. Also addresses an issue with Whirlwind Sprint being abusable. Also fixes a couple of other known issues. Also removes the 4-second global cooldown. And finally, when switching shouts, your cooldown meter at the top updates to the cooldown of the currently equipped shout. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Individualized%20Shout%20Cooldowns-52648-2-0.zip?fid=1000103813&ttl=1535835779&ri=8192&rs=8192&setec=961e342f467588595dc8bb73cf1ceef2"
+    }
+  ]
+}

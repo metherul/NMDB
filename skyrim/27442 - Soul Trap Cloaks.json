@@ -1,0 +1,48 @@
+{
+  "modId": 27442.0,
+  "modName": "Soul Trap Cloaks",
+  "summary": "Adds 3 cloak spells to Conjuration that instead of harming nearby enemies cast Soul Trap on them.",
+  "descriptionHtml": "Are you tired of casting Soul Trap all the time or spending a valuable Enchantment slot on your weapon for it? Then search no longer. I have the perfect solution for you. Why not cast a cloak spell on your self that automatically casts Soul Trap on nearby enemies?\r\n\r\nIt affects all NPCs (except Essentials and Immunes, same as the original spell)\r\nNeither casting the cloak, nor affecting someone will make anyone hostile towards you (that isn\\'t already)\r\nUnlike Soul Trap you gain no experience from casting or affecting because you\\'d max out way too fast.\r\n\r\nNew Version: 2\r\n3 spells (tomes at every vanilla Merch that sells Soul Trap, like Farengar) that cast a cloak with a x feet range and y second duration on you, that cast a z second Soul Trap on NPCs in range.\r\nSoul Trap Cloak: Adept spell, 214 Magicka, x=10, y=60, z=60\r\nLong Duration ST Cloak: Master spell, 1070 Magicka, x=20, y=600, z=120\r\nWide Range ST Cloak: Master spell, 1070 Magicka, x=100, y=120, z=120\r\nYou can Dual cast the Adept spell for double Magicka and double duration.\r\nThe Master spells are two-handed.\r\n\r\nRegarding the pictures:\r\nBuying prices shown are with ZERO Speech perks, Magicka costs with ZERO Conjuration.\r\nThe picture with the guard is to show that you can affect friendlies without any problems.\r\nSo you can cast it anywhere and affect anyone without provoking anyone.\r\n\r\nBugs:\r\nThere is one nasty bug that makes the spells sometimes cost twice as much or show twice the cost in the menu.\r\nThis is not a bug of the Mod, the vanilla cloak spells behave the same way (at least on my PC)\r\nIf you know a way to get rid of this or find any other Bugs, please PM me!\r\n\r\nCompatibility:\r\nSoul Trap Cloaks uses two vanilla scripts and some vanilla resources also used by Soul Trap, only those are really needed for the spells to work. (Even Soul Trap itself can be deleted or changed without any effect on the cloak spells)\r\nBut it also CHANGES 2 files regarding Merchants concerning Adept-Lvl Conjuration spells, if another Mod also changes those, there could be a conflict. (if there is, lower the priority of my Mod and get the tomes with the console)\r\n\r\nOld Version: 1.0 (really just a BETA)\r\nOne spell (without tome) that casts a cloak with a 10 feet range and 60 second duration on you, that casts a 60 second Soul Trap on NPCs in range.\r\nWith a crappy cloak-shader that drove me nuts and the wrong spell symbol.",
+  "categoryId": "75",
+  "version": "2",
+  "author": "Bert",
+  "createdUnix": "1353931126",
+  "updatedUnix": "1354046462",
+  "containsAdultContent": false,
+  "uploadedBy": "bertsinger",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "101738",
+      "name": "Soul Trap Cloak - BETA Version",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "95",
+      "fileName": "Soul Trap Cloak 1_0-27442-1-0.rar",
+      "uploadedUnix": "1353931307",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/cf98e8e1d0b20090cf6dfb7241b0ac811ff10246bcb8792ca636d9f69650b2b6/analysis/1407278763/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Soul%20Trap%20Cloak%201_0-27442-1-0.rar?fid=101738&ttl=1535800170&ri=8192&rs=8192&setec=298779d910bba9d3ad7fd94e9a078e17"
+    },
+    {
+      "fileId": "101967",
+      "name": "Soul Trap Cloaks",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Soul Trap Cloaks-27442-2.rar",
+      "uploadedUnix": "1354046462",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/bc4c1d513b08d27caf52dbb7aacc1313b35144861babae16dd8d724c809e7f26/analysis/1407280875/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Soul%20Trap%20Cloaks-27442-2.rar?fid=101967&ttl=1535800170&ri=8192&rs=8192&setec=06e4e1089de667a41a70f2d330ca97d9"
+    }
+  ]
+}

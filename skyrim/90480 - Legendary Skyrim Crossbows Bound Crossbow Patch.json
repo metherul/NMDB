@@ -1,0 +1,32 @@
+{
+  "modId": 90480.0,
+  "modName": "Legendary Skyrim Crossbows Bound Crossbow Patch",
+  "summary": "There is an existing bug with the Legendary Skyrim Crossbows mod found here https://www.nexusmods.com/skyrim/mods/82171 in which the bound crossbow spell does not function. This mod fixes that re-textures jojo's Deadric model and adjusts some shader functions to make the bow look and behave more like a bound weapon.",
+  "descriptionHtml": "Also working on my own model for the deadric crossbow which will be forthcoming eventually but I digress the reasoning for this patch rather than just installing one of the other bound mods was more or less to avoid any conflicts with regaurd to conflicting ID's etc.\n<br />\n<br />Original mod is found here: [url=https://www.nexusmods.com/skyrim/mods/82171]https://www.nexusmods.com/skyrim/mods/82171[/url]﻿ [b]Legendary Skyrim Crossbows[/b]\n<br />\n<br />This should be standalone since I imported everything to do with the bound crossbow in this patch however it should peacefully override the Legendary Skyrim Crossbows files with the proper ones. The retexture uses the glow shader and alpha properties to give that ghostly vibe along with overall making the spell work as in the bug report. The textures are isolated to this one weapon so as it uses default weapon models in a compilation like the original should not overwrite or derive from any re-textures. Textures can be overriden in Textures/Weapons/Crossbows/Bound if one so desires the assets are packed otherwise.\n<br />\n<br />Original mod and models are not my work by any means just releasing this as a fix to be helpful as this seems to be the most complete crossbow compilation around the nexus at the moment that does not add any other functionality.\n<br />\n<br />[b]All permissions remain the original asset creators as well as the Original Compliation uploader [/b][url=https://www.nexusmods.com/skyrim/users/8128936]Kelsenellenelvian[/url] \n<br />\n<br />I would encourage them to contact me in regards to obtaining permission over this file or having it transferred to the original mod page as an optional patch or to be integrated into the main file if they so desire to do so.",
+  "categoryId": "36",
+  "version": "1",
+  "author": "Elsys656",
+  "createdUnix": "1522619366",
+  "updatedUnix": "1522619366",
+  "containsAdultContent": false,
+  "uploadedBy": "Elsys656",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000269813",
+      "name": "Legendary Skyrim Crossbows Bound Crossbow Fix",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "12107",
+      "fileName": "Legendary Skyrim Crossbows Bound Crossbow Fix-90480-1.7z",
+      "uploadedUnix": "1522619331",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/b518ac4b9f40b062a331cef7fc7e09139ec30f6bc175bdf1503040b1d2f8e430/analysis/1522619444/",
+      "changelogHtml": " Initial release <br/> \n Fixed spell wiring as in bug report filled by evelinarr. <br/> \n Used nifskope and photoshop to modify the existing deadric textures to enable alpha and glow shader properties on boundcrossbow.nif so as to produce translucent effect other subtle changes to lighting and refraction included. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Legendary%20Skyrim%20Crossbows%20Bound%20Crossbow%20Fix-90480-1.7z?fid=1000269813&ttl=1535880633&ri=8192&rs=8192&setec=c83880a25201e41c82ab0045f9634dcf"
+    }
+  ]
+}

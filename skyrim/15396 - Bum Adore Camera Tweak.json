@@ -1,0 +1,32 @@
+{
+  "modId": 15396.0,
+  "modName": "Bum Adore Camera Tweak",
+  "summary": "A little camera tweak that lets you enjoy your character\\'s bum up close.\r\n\r\nv0.2 out now",
+  "descriptionHtml": "A little camera tweak that lets you enjoy your character\\'s bum up close.\r\n\r\n===Installation======================================\r\n1. Open up your Skyrim.ini file in Notepad (look in Documents > My Games > Skyrim folder)\r\n2. Choose your option below, copy the according lines and paste them in the file:\r\na) Standard option (camera more centered, nicer view):\r\n\r\n[Camera]\r\nfOverShoulderCombatAddY=0.0000\r\nfOverShoulderCombatPosZ=-40.0000\r\nfOverShoulderCombatPosX=30.0000\r\nfOverShoulderPosZ=-40.0000\r\nfOverShoulderPosX=30.0000\r\n\r\nb) Better sneaking option (camera more to the side; hand doesn\\'t bother the crosshair)\r\n\r\n[Camera]\r\nfOverShoulderCombatAddY=0.0000\r\nfOverShoulderCombatPosZ=-40.0000\r\nfOverShoulderCombatPosX=40.0000\r\nfOverShoulderPosZ=-40.0000\r\nfOverShoulderPosX=40.0000\r\n\r\n3. Save the changes and close Notepad.\r\n4. Start the game and change the view, as well as draw and holster your weapon for the changes to kick in fully.\r\n\r\n*In case you have any of these exact lines already present in the file, replace them with the ones from this description.\r\n\r\n===Marksman accuracy==============================\r\nIf you usually play in 3rd person (including combat), try adding these lines to Skyrim.ini for better arrow accuracy:\r\n\r\n[Combat]\r\nf1PArrowTiltUpAngle=-0.8\r\nf3PArrowTiltUpAngle=0.1\r\n\r\nNote: you may need to fiddle with the values here; especially if you use any sort of archery tweak. Keep the values somewhere between -1 and 1, though.\r\nThis is only useful if you combat in 3rd person! Your arrows will go off the crosshair while in 1st person view.\r\n\r\n===Suggested / used mods==========================\r\nBody replacer of choice (CBBE v3 in my case)\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=2666\r\n\r\nVictorias High Heel walk Animation\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=13272\r\n\r\nRemodeled Armor CBBEv3\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=13004\r\n\r\n===Changelog======================================\r\nv0.3 - improved description; no other changes\r\nv0.2 - added a more offset version for better sneaking\r\nv0.1 - initial release\r\n\r\n===Advice=========================================\r\n1. Always keep a safe copy of the game files you edit; especially if you\\'ve changed them to your preferences and they work nicely.\r\n2. In case something goes wrong with the values and you forget the defaults - simply delete the edited lines. Skyrim will reset the changes and use default setup.",
+  "categoryId": "24",
+  "version": "0.3",
+  "author": "koijotito",
+  "createdUnix": "1334704458",
+  "updatedUnix": "1334789173",
+  "containsAdultContent": false,
+  "uploadedBy": "koijotito",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "54427",
+      "name": "Bum Adore Camera Tweak v03",
+      "version": "0.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Bum Adore Camera Tweak v03-15396-0-3.zip",
+      "uploadedUnix": "1334789173",
+      "modVersion": "0.3",
+      "virusScanUrl": "https://www.virustotal.com/file/befe248dfb309fc6cd7822e0ad2111020f0591a180a6327a56fb4af04162a827/analysis/1406822943/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bum%20Adore%20Camera%20Tweak%20v03-15396-0-3.zip?fid=54427&ttl=1535779753&ri=8192&rs=8192&setec=15b5aa2d7f83ac612739f531d57dea0d"
+    }
+  ]
+}

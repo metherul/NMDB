@@ -1,0 +1,48 @@
+{
+  "modId": 17974.0,
+  "modName": "Improved Shields",
+  "summary": "Simple mod that makes shield bashing more useful in combat.",
+  "descriptionHtml": "[size=4]Improved Shields, Version 0.9a (Beta)[/size]\r<br />\r<br />&#34;Improved Shields&#34; is a small, simple mod that fixes the problem of static bashing damage by scaling it as is done with other forms of combat in Skyrim. Bashing damage depends on a character&#39;s block skill and the type of shield equipped. An adjustment to lower the amount of stamina used for bashing is also included, five percent regardless of skill or player level.\r<br />\r<br />This mod attempts to replicate the Weapon Damage Formula as well as possible in the interest of balanced combat. Currently, shield bashing damage with &#34;Improved Shields&#34; scales one percent per level. It is determined according to the following formula: [i]damage = bashing base damage * (1.01 * skill) + shield base damage * perk effects[/i] where &#39;perk effects&#39; only applies if the character has Deadly Bash, and &#39;shield base damage&#39; is comparable to a mace&#39;s base damage - or half of a shield&#39;s armour rating.\r<br />\r<br />Future plans for the mod:\r<br />-Scale stamina use for bashing to block skill\r<br />-Make damage determined by armour rating a seperate variable from damage determined by shield material (currently packaged as &#39;shield base damage&#39;)\r<br />-Remove enchanting limitations from shields to include offensive spells activated on bash\r<br />-DOUBLE SHIELDS\r<br />\r<br />[b]This mod is currently in BETA but fully usable. Input on eveness of combat mechanics and bug reports (ex.: missing scaled base damage for certain shields) are appreciated.[/b]\r<br />\r<br />RELEASE NOTES\r<br />31/05/2012 - v0.9 original release\r<br />01/06/2012 - v0.9a fixed bug, damage modifiers did not apply correctly\r<br />27/03/2014 - v0.9b perks are now passive and don&#39;t require scripts, damage modifier simplified, stamina modifier packaged into BetterBash perk",
+  "categoryId": "77",
+  "version": "0.9b",
+  "author": "MrToulouse",
+  "createdUnix": "1338509194",
+  "updatedUnix": "1395953413",
+  "containsAdultContent": false,
+  "uploadedBy": "mrtoulouse",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "65166",
+      "name": "Improved Shields",
+      "version": "0.9a",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Improved Shields-17974-0-9a.rar",
+      "uploadedUnix": "1338583104",
+      "modVersion": "0.9a",
+      "virusScanUrl": "https://www.virustotal.com/file/fe5b288e4a92f103ade3650632495be3041045a32f67a79698f2cd63396f07bd/analysis/1406930463/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Improved%20Shields-17974-0-9a.rar?fid=65166&ttl=1535784444&ri=8192&rs=8192&setec=247f5306fa37c94d1cc4bc7bb6523db3"
+    },
+    {
+      "fileId": "1000102633",
+      "name": "Improved Shields",
+      "version": "0.9b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Improved Shields-17974-0-9b.rar",
+      "uploadedUnix": "1395953413",
+      "modVersion": "0.9b",
+      "virusScanUrl": "https://www.virustotal.com/file/ea9c3c4d038491b10c16f56a14532838f44563880f7a1082f349c0dc63e5dad8/analysis/1407997212/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Improved%20Shields-17974-0-9b.rar?fid=1000102633&ttl=1535784444&ri=8192&rs=8192&setec=c24b3b497c99a4072ed4ceefbd2c43fa"
+    }
+  ]
+}

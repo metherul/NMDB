@@ -1,0 +1,32 @@
+{
+  "modId": 3940.0,
+  "modName": "Streamline-Style Rotating Autosaves",
+  "summary": "Creates full autosaves at regular intervals and cycles through a configurable number of save slots.",
+  "descriptionHtml": "***CURRENTLY CAUSES LOCKUP WHEN SAVING***\r\n***RECOMMEND NOT USING THIS MOD UNTIL PROBLEM IS SOLVED***\r\n\r\n\r\nStreamline-Style Rotating Autosaves\r\nAuthor: finalfrog\r\n\r\n*THIS MOD REQUIRES SCRIPT DRAGON TO WORK*\r\nYou can find the latest version of Script Dragon on the official Bethsoft forums. The current topic as of this writing is:\r\nhttp://forums.bethsoft.com/index.php?/topic/1315020-rel-script-dragon/\r\n\r\nDescription: \r\nThis mod will create full saves at regular intervals. These saves rotate through a configurable number of save slots. The default value is 10 and the\r\nnumber can be set as high as 20 if desired. This differes from an autosave in that each successive save does not overwrite the previous, leaving an \r\narchive of regular saves from recent points in your adventure. This is useful in many cases if a bug occurs in your save, but remains undiscovered\r\nuntil your autosave has overwritten a save before the bug occured. Solving savegame corruption has never been easier!\r\n\r\nNOTES:\r\n*The interval at which saves occur is configurable in rotatingautosave.ini and is set by default to 5 minutes.\r\n*When the script autosaves, a message box will appear and notify the player. Click OK to continue playing. I know this is annoying but it\\'s nessary\r\n to prevent deadlock issues related to creating savegames from a script while the game is running.\r\n*I\\'ve included the source files for this plugin under src/rotatingautosave.\r\n*If you use the 4GB patch for Skyrim, make sure to copy the Dragon Script dlls along with rotatingautosave.asi and rotatingautosave.ini into the \r\n skyrim/exes/ folder.\r\n \r\nInstallation:\r\nExtract the contents of the zip to your Skyrim folder. The files rotatingautosave.asi and rotatingautosave.ini should end up in the same directory \r\nas TESV.exe.\r\n\r\nUninstall:\r\nDelete rotatingautosave.asi and rotatingautosave.ini\r\n\r\nSpecial Thanks:\r\nAlexander Blade for his Script Dragon engine extender.\r\nJaga for his Oblivion tool Streamline which provided the inspiration for this mod.",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "finalfrog",
+  "createdUnix": "1324155553",
+  "updatedUnix": "1324155659",
+  "containsAdultContent": false,
+  "uploadedBy": "FinalFrog",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "11420",
+      "name": "Streamline-Style Rotating Autosaves",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "39",
+      "fileName": "Streamline-Style Rotating Autosaves-3940.zip",
+      "uploadedUnix": "1324155659",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f655b3a96fe07e4962a7ae1d77472920bf046592575f521e350a3b1b68dedbee/analysis/1406530564/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Streamline-Style%20Rotating%20Autosaves-3940.zip?fid=11420&ttl=1535759331&ri=8192&rs=8192&setec=babdd0cb902ab1e49cc53804df2f9cab"
+    }
+  ]
+}

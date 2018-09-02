@@ -1,0 +1,48 @@
+{
+  "modId": 20651.0,
+  "modName": "How to mod Skyrim properly",
+  "summary": "Easy to read and newbie-friendly! Skyrim modding tutorial, installation order, and more.",
+  "descriptionHtml": "How you can help:\r\n1) Find technical errors or way to improve this guide\\'s comprehension.\r\n2) Help other users if they have trouble, and post what fixed your own.\r\n3) Endorse mods you enjoy. Some mods may never be known otherwise.\r\n\r\nChange log:\r\nv1.0: Release\r\nv2.0: Fixed some examples/instructions to be more clear. Updated mod list, accidentally had \\\"Duel - Combat Realism\\\" instead of \\\"Deadly Combat\\\". No longer listing entire mod list in the notepad as it changes too often on the pastebin.\r\n\r\nSkyrim modding tutorial\r\n\r\nInstallation order for programs used in this tutorial:\r\nNMM http://skyrim.nexusmods.com/mods/modmanager/\r\nBOSS http://skyrim.nexusmods.com/mods/6 BOSS\r\nWryeBash http://skyrim.nexusmods.com/mods/1840\r\nSKSE http://skse.silverlock.org/\r\nScript Dragon http://alexander.sannybuilder.com/?altname=skyrim_script_dragon\r\nASIS http://skyrim.nexusmods.com/mods/18436\r\n\r\nEach program\\'s function:\r\n\r\nNMM: Lets you install/uninstall mods* immediately in the right places, and let\\'s you check for mod updates.\r\nSKSE: Lets mods that require advanced scripts to run properly. Put contents of ZIP in Skyrim/Data/ folder.\r\nScript Dragon: Same as above.\r\n\r\nPrograms whose \\\"sorting/patching/merging/etc\\\" functions MUST be rerun after installing new mods (before playing the game):\r\nBOSS: Sorts mods in the proper order* for loading. Use through WryeBash. NMM automatically updates BOSS master lists (the sorting order), but not BOSS itself. To check on BOSS\\'s updates with NMM, keep the boss zip file where you designated the folder to store your mod zip files.\r\nWyreBash: Use to open BOSS after its install, and -bashed patches/merging mods-** for compatibility between mods.\r\nASIS: Allows any spells/perks/etc you\\'ve installed to work with the NPC AI.\r\n\r\n\r\n*NMM installation:\r\n1) Follow the normal steps to installing any type of program.\r\n2) Installation info: For the program to store information on what mods you do have and don\\'t have, along with whether or not they\\'re installed (signified by a check mark). For instance: if you want to back up your folder named \\\"install info\\\" to do a fresh reinstall of Skyrim, rename it \\\"install info2\\\" and NMM will automatically create a new folder named \\\"install info\\\" again, starting you with a blank slate. Otherwise, you will see a bunch of mods activated on your new install of Skyrim that aren\\'t actually activated.\r\n3) Go to skyrim.nexusmods.com/mods and download mods using \\\"Download with manager\\\". Not there? Go to step 5.\r\n3) Mods that have new updates will have a \\\"Warning Sign\\\" next to their blue links that lead to the mod page.\r\n4) If you have already updated all your mods, but it is incorrectly listed as out-of-date with a \\\"Warning Sign\\\", click on \\\"Mod Info\\\" on the left of NMM and change it to the same version number of the mod. You will still be able to receive a \\\"Warning Sign\\\" if the mod actually gets updated.\r\n5) If you have to manually download and put a mod in your \\\"NMM Mod Folder\\\", it appears on NMM and is installable like any other mod. Optional: Use \\\"Mod Info\\\" on the left to generate the info to keep it updated by \\\"Warning Sign\\\" notifications.\r\n\r\n**An example of why \\\"Mod Load Order\\\" is necessary:\r\nYou want a mod that makes 1-handed swords big, but it\\'s file \\\"Big 1-H Swords.esp\\\" is above \\\"Proper 1-H and 2-H Sword Sizes.esp\\\" in your mod list:\r\n\\\"Proper 1-H and 2-H Sword Sizes.esp\\\" would OVERWRITE any 1-handed swords made big by \\\"Big 1-H Swords.esp\\\" in the game.\r\nConclusion: Keep \\\"Big 1-H Swords.esp\\\" below \\\"Proper 1-H and 2-H Sword Sizes.esp\\\" so it loads after for 1-handed swords to be big!\r\n\r\n***Using WryeBash after you\\'ve downloaded and installed mods with NMM:\r\n1) Open it up after installing it for Skyrim\r\n2) Before running ASIS\\'s jar (located in Skyrim\\\\Data\\\\SkyProc Patchers\\\\ASIS), you must create a bashed patch. This requires right clicking on the \\\"Bashed Patch, 0.esp\\\" in your mod list on WryeBash and clicking \\\"Rebuild Patch\\\", hitting OK for any window, then you\\'re finished. This allows for over 255 mods in your list, and increases mod compatibility.\r\n3) Then you go into the ASIS folder (located in Skyrim\\\\Data\\\\SkyProc Patchers\\\\ASIS) and run the .jar file.\r\nNote: Same goes for \\\"Realistic Lighting With Customization\\\", except it\\'s jar is located in Skyrim\\\\Data\r\n4) If you have problems running out of memory with Java, use this guide: http://www.youtube.com/watch?v=P6WUy7Pe3Ng\r\nBasically, increase Java\\'s allocated memory so it doesn\\'t \\\"hang\\\" and stop running. Make sure you have ASIS-Dependancy.esp enabled, and then you\\'re good after you open the jar and create the file!\r\n5) While on your mod list in WyreBash, press CTRL+A and right click and \\\"Mark Mergeable\\\".\r\n\r\nSteps to play the game:\r\n1) If you\\'ve modded textures in the game, add \\\"HighResTexturePack01.bsa, HighResTexturePack02.bsa,\\\" (without quotes) under [Archive] after sResourceArchiveList= in your Skyrim.ini file, located in C:\\\\Users\\\\<YOUR USER NAME>\\\\Documents\\\\My Games\\\\Skyrim\r\n2) http://skyrim.nexusmods.com/mods/814 can help you configure your INI files\r\n3) Play the game using SKSE\r\n\r\nTroubleshooting:\r\n1) If you have a save file: BEFORE uninstalling mods, check the mod page for uninstall info. Otherwise, your save files may have left over scripts running in it, causing errors, and sometimes even CTDs (crash-to-desktops).\r\n2) If you have a problem caused by a mod in the game, uncheck more and more ESP/ESMs until you find the culprit.\r\n3) Above not working: Check online if it\\'s a known problem in the original unmodded Skyrim. Unofficial Skyrim Patch may fix most sillier problems: http://forums.bethsoft.com/topic/1387617-wiprelz-unofficial-skyrim-patch-thread-9/page__st__180 along with http://skyrim.nexusmods.com/mods/4719 if it\\'s weapon/armor related\r\n4) Still not working? Worst comes to worst, reinstall the game and install the mods slowly (don\\'t worry about texture mods, you can install those all at once... unless it\\'s a texture problem of course!) until you figure out which one did it.\r\n\r\nRecommended mods:\r\n\r\nWARNING: ALWAYS READ COMMENTS IN CASE OF INCOMPATIBILITIES OR OLD MOD!\r\n\r\nLegendary mods (SOME MODS ARE NO LONGER USED, DO YOUR RESEARCH/READ COMMENTS):\r\nhttp://skyrim.nexusmods.com/mods/topalltime/?adult=0\r\nhttp://skyrim.nexusmods.com/mods/top/\r\nhttp://skyrim.nexusmods.com/mods/toprecent/\r\nhttp://skyrim.nexusmods.com/mods/modsofthemonth/\r\n\r\nAll categories here:\r\nhttp://skyrim.nexusmods.com/mods/categories/\r\n\r\nMy own selection:\r\nhttp://pastebin.com/Tpzf0vfg\r\n\r\nCredits:\r\nMe, IM24FM42JMY - Only I know my own name. <3\r\nMy lover\r\nhttp://www.foregen.org/\r\nAnd Talos, for making us all. AMEN. ",
+  "categoryId": "82",
+  "version": "2.0",
+  "author": "IM24FM42JMY",
+  "createdUnix": "1342522135",
+  "updatedUnix": "1342547068",
+  "containsAdultContent": false,
+  "uploadedBy": "icemage24",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "74878",
+      "name": "Skyrim modding v1 - TXT file version",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Skyrim modding - TXT file version-20651-1-0.rar",
+      "uploadedUnix": "1342522475",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/43f70bb3b0981f43404abfb4ac687a5fa21f0becb3d08f18710ea976f07a3b25/analysis/1407028385/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20modding%20-%20TXT%20file%20version-20651-1-0.rar?fid=74878&ttl=1535788929&ri=8192&rs=8192&setec=20c7e5695caecc0cde10579bde039c48"
+    },
+    {
+      "fileId": "74931",
+      "name": "Skyrim modding v2 - TXT file version",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Skyrim modding v2 - TXT file version-20651-2-0.rar",
+      "uploadedUnix": "1342547068",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3ab9b1899076468920d14166fcc994095b2254aec268b08e807cc5b7c1845084/analysis/1407028812/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20modding%20v2%20-%20TXT%20file%20version-20651-2-0.rar?fid=74931&ttl=1535788929&ri=8192&rs=8192&setec=06aae01682e2f6a1b75482a1ee9cd86d"
+    }
+  ]
+}

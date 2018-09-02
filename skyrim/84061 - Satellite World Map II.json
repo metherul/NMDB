@@ -1,0 +1,48 @@
+{
+  "modId": 84061.0,
+  "modName": "Satellite World Map II",
+  "summary": "16k texture replacer for the Solstheim World Map\r<br />8k darker version now available too",
+  "descriptionHtml": "[b] [size=15]What does this mod do?[/size] [/b]\r<br />\r<br />[size=5]This mod [b]replaces the Solstheim World Map texture with a 16k quality new one[/b].[/size]\r<br />Skyrim textures [url=http://www.nexusmods.com/skyrim/mods/83972/?]here[/url]\r<br />\r<br />[b]Solstheim 8k, darkened World Map texture[/b]\r<br />now available as an optional file, thanks to xrayy&#33;\r<br />\r<br />\r<br />[u][size=8]Introduction:[/size][/u]\r<br />[size=4]I found an epic satellite Solstheim map [url=https://maps.uesp.net/dbmap/dbmap.html]here[/url]\r<br />and felt like adding it to the game.[/size]\r<br />\r<br />[size=5]The result is now a map where you can even see the crops at farms&#33;[/size]\r<br />\r<br />\r<br />[u][size=8]Compatibility:[/size][/u]\r<br />[size=4]My mod has no .esp and is only 1 texture file,\r<br />so it can be installed during your playthrough and uninstalled savely at any time.\r<br />\r<br />But you may need to put\r<br />[color=green][MapMenu]\r<br />uLockedTerrainLOD=32[/color]\r<br />into your [color=green]Skyrim.ini[/color] for maximum Quality.\r<br />\r<br />Fully functional in Skyrim Special Edition&#33;\r<br />Fully compatible with [url=http://www.nexusmods.com/skyrim/mods/83972/?]Satellite World Map[/url].\r<br />Fully compatible with [url=http://www.nexusmods.com/skyrim/mods/74045/?]Atlas Map Markers[/url] and all other map marker mods,\r<br />Fully compatible with [url=http://www.nexusmods.com/skyrim/mods/73565/?]Simple Colored Map Markers for Skyui 5.1[/url] and all other colored map marker mods.\r<br />Fully compatible with [url=http://www.nexusmods.com/skyrim/mods/16619/?]EzEs -Remove 3D Map Camera Limits[/url] and other .ini edits.\r<br />Fully compatible with [url=http://www.nexusmods.com/skyrim/mods/29877/?]Dynamic snow For Map[/url].\r<br />It is also fully compatible with [url=http://www.nexusmods.com/skyrim/mods/4817/?]High Quality 3D Map[/url],\r<br />only thing you must do, is load my texture after it. (It will overwrite Ethatron´s texture)\r<br />Same goes for [url=http://www.nexusmods.com/skyrim/mods/4929/?]A Quality World Map[/url], overwrite it´s texture.\r<br />\r<br />My screenshots are with all the above mods enabled,\r<br />but you don´t need them for this mod to work.[/size]\r<br />\r<br />\r<br />[u][size=8]Technical stuff:[/size][/u]\r<br />[size=4]Now... I can´t make a fancy SKSE plugin that imports the map automatically.\r<br />But I can put medium work into making the map available oldschool.\r<br />So I zoomed down all the way, then took around 35 screenshots while scrolling through the entire map,\r<br />Combined the screenshots into one big picture (17920x14336),\r<br />Then cut off the unnecessary parts.\r<br />and then added some more size (totalling 16384x16384), so it matches the upscaled size of the vanilla map. (which is only 256x256)\r<br />so my map is 64x the resolution&#33;&#33;[/size]\r<br />\r<br />\r<br />[u][size=8]Optional Skyrim.ini edits:[/u][/size]\r<br />You can further change the looks of the map by playing with the Skyrim.ini.\r<br />Here are the settings I am using:\r<br />\r<br />[MapMenu]\r<br />sMapCloudNIF=0\r<br />fMapWorldTransitionHeight=10000.0000\r<br />fMapWorldMinHeight=50.0000\r<br />fMapWorldMaxHeight=200000.0000\r<br />fMapWorldInitialPitch=90.0000\r<br />fMapWorldMaxPitch=400.0000\r<br />fMapWorldMinPitch=0.0000\r<br />fMapWorldYawRange=3600.0000\r<br />fMapWorldCursorMoveArea=0.9000\r<br />fMapWorldHeightAdjustmentForce=100.0000\r<br />bWorldMapNoSkyDepthBlur=1\r<br />fWorldMapMaximumDepthBlur=0\r<br />fWorldMapNearDepthBlurScale=0\r<br />fWorldMapDepthBlurScale=0\r<br />uLockedObjectMapLOD=8\r<br />uLockedTerrainLOD=32\r<br />fMapWorldZoomSpeed=0.2000\r<br />fMapMoveKeyboardSpeed=0.01\r<br />fMapLookMouseSpeed=4.0000\r<br />fMapZoomMouseSpeed=1.0000\r<br />fMapLocalCursorPanSpeed=300.0000",
+  "categoryId": "79",
+  "version": "1.0",
+  "author": "Dani - Gruberix",
+  "createdUnix": "1495504016",
+  "updatedUnix": "1495539598",
+  "containsAdultContent": false,
+  "uploadedBy": "Gruberix",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000245036",
+      "name": "Satellite World Map II",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "59281",
+      "fileName": "Satellite World Map II-84061-1-0.zip",
+      "uploadedUnix": "1495503467",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/319957311aaf54246b8f626240874dd59e30497e6a41b00c95a9f7113fb81ff4/analysis/1495503676/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Satellite%20World%20Map%20II-84061-1-0.zip?fid=1000245036&ttl=1535872874&ri=8192&rs=8192&setec=d5c3ef792aa9ae95571c7916b775361e"
+    },
+    {
+      "fileId": "1000245060",
+      "name": "Satellite World Map II 8k darkened",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "11359",
+      "fileName": "Satellite World Map II 8k darkened-84061-1-0.7z",
+      "uploadedUnix": "1495539598",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f36c37431895233e88607873caa6f56fc28305b01c32af3bebc6bebc2d0899f4/analysis/1495539881/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Satellite%20World%20Map%20II%208k%20darkened-84061-1-0.7z?fid=1000245060&ttl=1535872875&ri=8192&rs=8192&setec=b77fa63a67e74716e3f81686671a51e5"
+    }
+  ]
+}

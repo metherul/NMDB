@@ -1,0 +1,48 @@
+{
+  "modId": 73565.0,
+  "modName": "Simple Colored Map Markers for Skyui 5.1",
+  "summary": "A small mod to replace the map markers",
+  "descriptionHtml": "[size=3]This is a simple recolor of the map and compass icons compatible for Skyui 5.1+ users.[/size]\r<br />\r<br />\r<br />[size=4][b]This mod requires Skyui 5.1+ in order to work.[/b][/size][size=4]\r<br />\r<br />[/size][size=3]The reason this mod works is because Skyui 5 had a change in the file structure for the map. This means that the file map.swf no longer contains any map icons for Skyui. This is why the error was showing up the map.swf now only contains UI elements like the bottom bar, buttons, search menu, and local map background. The icons where actually changed to a new file called mapmarkerart.swf. After obtaining this information and created my own colored map icons and now I&#39;m sharing them with everyone.\r<br />\r<br />Two versions are available for download. One with colored compass icons and other without the colored compass.\r<br />\r<br />Installation:\r<br />Use NMM to auto install the files for you.\r<br />or\r<br />Manually extract the files and folders into Skyrim&#39;s Data folder.\r<br />\r<br />Uninstall:\r<br />Use NMM and Uninstall/Delete the mod\r<br />or\r<br />Manually open Skyrim folder and inside the Data folder open the interface folder. Look for map.swf and delete it. Then open skyui folder and delete mapmarkerart.swf. If you have the compass icons then you need to open the exported folder located in the interface folder and delete hudmenu.gfx\r<br />\r<br />[size=4]NOTE: The colored UI seen in the pictures are not included with this mod. It&#39;s part of another project I&#39;m working on but can&#39;t currently release to the public. No eta on that project is available at this time.\r<br />\r<br />[size=3][b][size=4]Permission:[/size][/b]\r<br />[/size][/size]Users are allowed to edit and release patched versions of this mod. Do to working on other projects I will not have time to work on this mod nor will I be able to make compatibility patches for other mods. I leave this mod in the hands of the community to maintain. All I ask is that credit is given and not to upload this mod to make money. I released this mod for free and it should stay free always.\r<br />\r<br />[b][size=4]Mods that inspired me to make this:\r<br /> [/size][/b]\r<br />[/size][size=4][url=http://www.nexusmods.com/skyrim/mods/26822/?]NACMIM[/url][/size][size=4]By Shiva64\r<br />[url=http://www.nexusmods.com/skyrim/mods/26556/?]ExEs -Colored Map Markers-[/url][/size] [size=4]By xEightballx[/size]",
+  "categoryId": "42",
+  "version": "V1.0",
+  "author": "exiledalchemist",
+  "createdUnix": "1455605808",
+  "updatedUnix": "1455605802",
+  "containsAdultContent": false,
+  "uploadedBy": "exiledalchemist",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000195816",
+      "name": "Simple Colored Map Markers No Compass",
+      "version": "V1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "79",
+      "fileName": "Simple Colored Map Markers No Compass-73565-V1-0.7z",
+      "uploadedUnix": "1455605746",
+      "modVersion": "V1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ed0686f08e2d75f6e81d4eea19a76511cf688f5f13cba9062ee2247165c0e46a/analysis/1455605765/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Simple%20Colored%20Map%20Markers%20No%20Compass-73565-V1-0.7z?fid=1000195816&ttl=1535862254&ri=8192&rs=8192&setec=8916d2b8703a279c98575ebee9cf6512"
+    },
+    {
+      "fileId": "1000195817",
+      "name": "Simple Colored Map Markers With Compass",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "230",
+      "fileName": "Simple Colored Map Markers With Compass-73565-v1-0.7z",
+      "uploadedUnix": "1455605802",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6036584c39416b1aaae7b1604aef53b49015ff4153dffeaec58808923a17d637/analysis/1455605824/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Simple%20Colored%20Map%20Markers%20With%20Compass-73565-v1-0.7z?fid=1000195817&ttl=1535862254&ri=8192&rs=8192&setec=b733b4e8230615602c13d68c924cba59"
+    }
+  ]
+}

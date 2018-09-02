@@ -1,0 +1,32 @@
+{
+  "modId": 26055.0,
+  "modName": "Cutie Mark Tattoos",
+  "summary": "Has Textures and small description of how to use them to give your character a cutie mark tattoo.",
+  "descriptionHtml": "Cutie Mark Tattoos\r\nVer 1.0\r\n\r\nIntro\r\nIncludes\r\nRequirements.\r\nInstallation/How to\r\nThanks\r\n\r\nINTRO\r\nAlright, so I was looking at some of the tattoo mods, and was suprised no one included one that was of the cutie marks from MLP:FiM. So I made some. Please note, I\\'m not a coder, or designer, or anything so the work is shoddy. Well, the work is fine I suppose, the implementation is shoddy. \r\n\r\nListed as A-O because screens show the rear ends.\r\n\r\nINCLUDES\r\nLeft, right, and duel marks for\r\nTwilight Sparkle, Applejack, Rarity, Fluttershy, Pinkie Pie, RainbowDash, Clestia, and Luna\r\n\r\nREQUIREMENTS\r\nI\\'m not 100% on any of this, but I used the CBBE body type( http://skyrim.nexusmods.com/mods/2666/ ), and I also used the Caliente\\'s Texture Blender (http://skyrim.nexusmods.com/mods/5737 ), which you will need to give your player their cutie mark tattoo. Technically, as far as I recall, this is all that would be needed.\r\nIt\\'s not required, but If you want their hair and skin color to match whatever ponies, get the Extended Slider Colors, by expired6978 (http://skyrim.nexusmods.com/mods/6923 )\r\n\r\n\r\nINSTALLATION/HOW TO IMPLEMENT \r\nFirst, Download the file, and extract it to whatever folder you want. (Also have CBBE and Caliente\\'s Texture Blender installed)\r\nSecond, Go to your skyrim/Data/textures/actors/character/female folder (if you got it off steam its [whatever folder, probably program files]/Steam/steamapps/commom/skyrim/...)  and BACK UP THE FILE CALLED femalebody_1 . Put it somewhere it won\\'t get overwritten. If anything happens to this file you can get it back by re-DLing CBBE. (WARNING : this is the base texture of all player human based vanilla races, and using the Texture Blender will alter it. Also, please note, if you are using a non-human, male, or non-vanilla based character the file will be in a different location, with a different name. It shouldn\\'t be too hard to find. Have I mentioned I\\'m not a modder or coder yet?)\r\nThird, place the Cutie Mark Tattoo files into your Texture blender folder, it will be [wherever your Texture Blender is installed to]/Library/Body and Feet/Color/Tatoos (that\\'s not my typo, that\\'s how its spelt, at least in the version I DL\\'d) \r\n\r\nNext, open up texture blender.\r\nSet = Body and Feet\r\nType = Color\r\nChoose What to Change = Female\r\nThen, in the middle of the program will be a list, go down to tatoos (again, not my typo) and click on one. Click on Preview. You can see what it will look like, and if anything will clip (between source and modification.)  If you don\\'t see overlap or whatever, everything should be fine, and you can hit \\\"Blend Images\\\" (WARNING: Once again, this will change your in use file, and if you don\\'t have that backed up, you will have to find an unaltered version again somewhere.)\r\nFinally, go in game and see how it looks.\r\nSadly, The only way I know to change the Player\\'s look is to put the backed up file into its original place (copy it, dont cut it, so you still have the origional backed up) and overwrite your edited file.\r\n\r\nAnyone is welcome to use these files for anything (making a better, simpler version of this, for example. Also, did I mention I\\'m not a coder or modder or anything?)\r\n\r\nTHANKS\r\nTo Skyrim team and all that,\r\nCaliente for the body mod and texture blender,\r\nAnyone who uses this or enjoys it or improves upon it,\r\nEveryone taking the time to tell me this is good or bad.\r\n",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "Derpy",
+  "createdUnix": "1351298883",
+  "updatedUnix": "1351298948",
+  "containsAdultContent": true,
+  "uploadedBy": "DerpyMod",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "95960",
+      "name": "Cutie Mark Tattoos",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "256",
+      "fileName": "Cutie Mark Tattoos-26055-1-0.zip",
+      "uploadedUnix": "1351298948",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d096c25af4c8309adbafe3a466b1cf1f793b0180f9b94f03448f4b7cf12d59e4/analysis/1407237306/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Cutie%20Mark%20Tattoos-26055-1-0.zip?fid=95960&ttl=1535797847&ri=8192&rs=8192&setec=bedced87d6104d0c7b823be17dc86eaf"
+    }
+  ]
+}

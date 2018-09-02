@@ -1,0 +1,48 @@
+{
+  "modId": 73306.0,
+  "modName": "USKRP Crash on Startup Fix",
+  "summary": "A small fix for people who use USKRP and MO and suffer from periodic startup crashes.",
+  "descriptionHtml": "USKRP Crash on Startup Fix\r<br />\r<br />DESCRIPTION:\r<br />A very small fix for those who use USKRP 2.5.2.* and experience impermanent crashes on startup.\r<br />I did some investigations and it looks like this bug is caused by wrong &#34;Perk condition tab count&#34; value in &#34;Blade Barrier&#34; perk&#39;s modified effects.\r<br />\r<br /> Corrections that I made, most likely solved &#34;crash on startup&#34; problem (several dozens of Skyrim launches  in testing purposes with zero crashes), so this fix COULD help you.\r<br />\r<br />REQUIREMENTS:\r<br />- [url=http://www.nexusmods.com/skyrim/mods/9286]T3nd0s Skyrim Redone[/url] 1.3.01 by T3nd0\r<br />- Unofficial Skyrim Redone Patch 2.5.2.2 (from [url=http://www.nexusmods.com/skyrim/mods/48629]SkyRe Compatibility and ReProccer Patches[/url] by Xathra).\r<br />\r<br />INSTALLATION:\r<br />- Download &#34;USKRP CoS Fix PATCH VERSION&#34;\r<br />- Unpack the archive.\r<br />- Drop SkyRe_USKRP_BB_fix.esp in the same folder where SkyRe_Main.esp is.\r<br />- Activate it via Skyrim Launcher or any other mod manager.\r<br />   OR\r<br />- Download &#34;USKRP CoS Fix MERGED VERSION&#34;\r<br />- Unpack the archive.\r<br />- Replace your SkyRe_Main.esp with modified one from archive.\r<br />\r<br />CREDITS\r<br />All credits goes to T3nd0, Xathra and all who worked on USKRP.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Ingvion",
+  "createdUnix": "1454863925",
+  "updatedUnix": "1454863857",
+  "containsAdultContent": false,
+  "uploadedBy": "Ingvion",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000194647",
+      "name": "USKRP CoS Fix PATCH VERSION",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "181",
+      "fileName": "USKRP CoS Fix PATCH VERSION-73306-1-0.7z",
+      "uploadedUnix": "1454863780",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/be9a1e104cb830baae4f97897adc269560f997f8330ce03708959ad0ce2166ef/analysis/1454863805/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/USKRP%20CoS%20Fix%20PATCH%20VERSION-73306-1-0.7z?fid=1000194647&ttl=1535861981&ri=8192&rs=8192&setec=fae64045d4326c7f7466a1f5989b605b"
+    },
+    {
+      "fileId": "1000194648",
+      "name": "USKRP CoS Fix MERGED VERSION",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "528",
+      "fileName": "USKRP CoS Fix MERGED VERSION-73306-1-0.7z",
+      "uploadedUnix": "1454863857",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a35d65dadb38c040d4957e6418b65c79e3dc7664b403b4d56c7dc05147d52764/analysis/1454863866/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/USKRP%20CoS%20Fix%20MERGED%20VERSION-73306-1-0.7z?fid=1000194648&ttl=1535861982&ri=8192&rs=8192&setec=00fcd38d31d1bc0ab183bc222d0ee1c3"
+    }
+  ]
+}

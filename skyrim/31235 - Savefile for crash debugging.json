@@ -1,0 +1,32 @@
+{
+  "modId": 31235.0,
+  "modName": "Savefile for crash debugging",
+  "summary": "The savefile that crashes with SkyUI",
+  "descriptionHtml": "This is a save file that crashes in my game. At first I thought it was because of SkyUI  since that version at the time had just introduced Status Effect icons on the HUD and I was chugging potions like mad while doing some Enchanting. It has been determined that SkyUI is not the reason it is crashing. Still, this file is for debug purposes. If you think this is a file meant to \\\"fix\\\" crashes you have when using SkyUI, I\\'d suggest posting in the SkyUI forum thread for help.\r\n\r\n-----\r\n\r\nWrye Bash will tell you what mods it had loaded even though they are not enabled beyond three very simple things that shouldn\\'t have anything to do with SkyUI at all.\r\n\r\nCrash steps:\r\n1) Press Tab.\r\n2) Pick either Magic or Items.\r\n3) With my mods and load order the crash is immediate. If it doesn\\'t crash, go to step 4.\r\n4) Tab out then press tab again and reopen either the Magic or Items menu.\r\n5) If it doesn\\'t crash, repeat step 4. Seems the faster you try to open them, the higher the chance of a crash. However, you could sit there on that + compass thing for a while and crash the instant you pick Magic or Items from it.\r\n\r\nNotes:\r\n1) SOMETIMES looking at the skill menu (up) or the Map will help you get into the Magic/Items lists if you view the Skills/Map first. Not sure why it does that. But this was only noticed in my original fully mod-loaded file.\r\n2) I had a thought that changing the icons from the default to say, Straight or Celtic and disabling icon colors would help. It FELT like it helped but I don\\'t know what this had to do with the crashing. In fact it decided to behave itself for just that one test of my hunch. Most other times it continued with its crash-tastic behavior, so it doesn\\'t seem to matter.",
+  "categoryId": "43",
+  "version": "",
+  "author": "MarkusFox",
+  "createdUnix": "1360420131",
+  "updatedUnix": "1360332765",
+  "containsAdultContent": false,
+  "uploadedBy": "MarkusFox",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000008014",
+      "name": "Crashing SkyUI Savefile",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4785",
+      "fileName": "Crashing SkyUI Savefile-31235-.rar",
+      "uploadedUnix": "1360332765",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/910f3235dc393c66eb66033030d40fd828dc295973ced2aee9536558c0bb4ab3/analysis/1407404710/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Crashing%20SkyUI%20Savefile-31235-.rar?fid=1000008014&ttl=1535806652&ri=8192&rs=8192&setec=65738a26c663b1666c1fc197a630d894"
+    }
+  ]
+}

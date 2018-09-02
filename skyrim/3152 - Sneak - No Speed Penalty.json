@@ -1,0 +1,32 @@
+{
+  "modId": 3152.0,
+  "modName": "Sneak - No Speed Penalty",
+  "summary": "A basic modification that removes the movement speed penalty you suffer while sneaking. \r\n\r\n",
+  "descriptionHtml": "A basic modification that removes the movement speed penalty you suffer while sneaking. It\\'s that simple. It is built for simplicity and maximum compatibility. \\'À la carte\\' modding, you could say.\r\n\r\nTechnicals: This mod copies the values from \\\"MOVT>NPC_Default_MT\\\" over to \\\"MOVT>NPC_Sneaking_MT\\\" which makes the movement speed while sneaking identical to the default movement speed while running (not sprinting) with no weapons drawn. Simple. \r\n\r\nCompatibility: The only value adjusted is \\\"NPC_Sneak_MT,\\\" so you only need to worry about mods that mess with sneak skills or player run speeds. Load order shouldn\\'t matter unless you\\'re using the above mentioned type of mods, in which case put this one after those.\r\n\r\nDevelopment: The mod was created with TES Creation Kit 1.9.32, tested on Skyrim 1.9.32.08 (Legendary Edition) with Dawnguard, Hearthfire, Dragonborn, and High Resolution Texture Pack. Works just fine.",
+  "categoryId": "24",
+  "version": "1",
+  "author": "jpsimonetti",
+  "createdUnix": "1323451368",
+  "updatedUnix": "1376256443",
+  "containsAdultContent": false,
+  "uploadedBy": "jpsimonetti",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000046183",
+      "name": "Sneak - No Speed Penalty",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Sneak - No Speed Penalty-3152-1.rar",
+      "uploadedUnix": "1376256443",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/f10b336c661a10e6eb5378eb97ca13f80d6cd15c915b9522b104204bb7c8ab94/analysis/1407678854/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Sneak%20-%20No%20Speed%20Penalty-3152-1.rar?fid=1000046183&ttl=1535757976&ri=8192&rs=8192&setec=211321dda6ab7d36f205e1f3015b4046"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 34348.0,
+  "modName": "Faithful ENB plus SweetFX",
+  "summary": "The goal of this ENB is realism and to stay faithful to Boris Voronstsov\\'s vision of ENB and faithful to Skyrim while adding additional effects that come from the SweetFX Shader suite.\r\n\r\nENB Features:\r\n\r\n-SSAO\r\n-SSIL\r\n-Bloom\r\n-Sunrays\r\n-Skylighting\r\n-Reflection\r\n-Edge AA\r\n\r\nSweetFX Features:\r\n\r\n-SMAA\r\n-Lumasharpen\r\n-Vibrance",
+  "descriptionHtml": "[size=16pt][b]Faithful ENB plus SweetFX [/b][/size]\r\n\r\n\r\nThe goal of this ENB is realism and to stay faithful to Boris Voronstsov\\'s vision of ENB and faithful to Skyrim while adding additional effects that come from the SweetFX Shader suite.\r\n\r\nThis means you get the neat tricked out lighting and special effects of ENB / SweetFX but keep Skyrim\\'s color palettes (but enhanced).  This is very useful if you use mods such as Climates of Tamriel, Enhanced Lights FX, Realistic Lighting Overhaul or any other lighting mods.  They should all be compatible. There is no oversaturation, unbalanced colors, etc.  \r\n\r\nPerformance hit should be minimal to moderate, depending on your rig.  This is an ENB after all.\r\n\r\nCurrent version based on  [url=http://enbdev.com/mod_tesskyrim_v0157.htm]ENB v0.157[/url]\r\nThe Latest version of this mod will always reflect the current ENB it is based on.\r\n\r\n\r\n[size=12pt][center][b]ENB Features:\r\n\r\n-SSAO\r\n-SSIL\r\n-Bloom\r\n-Sunrays\r\n-Skylighting\r\n-Reflection\r\n-Edge AA\r\n\r\nSweetFX Features:\r\n\r\n-SMAA\r\n-Lumasharpen\r\n-Vibrance  [/b][/center][/size]\r\n\r\n\r\nHow to Install:\r\n\r\n1.  Manually download Faithful ENB plus SweetFX and unpack the contents into your SKYRIM main folder (...Steam/steamapps/common/skyrim).   Overwrite when asked.\r\n2.  Download ENB directly from Boris\\'s site.  Link above.\r\n3.  Navigate to the WrapperVersion directory and copy ONLY the d3d9.dll file to your Skyrim main folder (same as step 1)\r\n4.  Modify the below parameters in your SkyrimPrefs.ini file under your MyDocuments/MyGames/Skyrim folder:\r\n\r\nbFloatPointRenderTarget=1 \r\niBlurDeferredShadowMask=5\r\nbTreesReceiveShadows=1\r\nbDrawLandShadows=1\r\nbShadowsOnGrass=1\r\niShadowMapResolution=4096 (if your machine is fast enough, otherwise use 2048)\r\n\r\n5.  Make sure you [b]TURN to OFF :[/b]\r\n\r\nAny game-based or driver-based antialiasing and Anisotropic Filter method. \r\n \r\nENB versions after .119 AA no longer functions correctly.   Faithful ENB plus SweetFX has two different forms of antialaising (Edge AA and SMAA) to compensate.  ENB takes care of AF.\r\n\r\nI highly recommend the below mods in conjunction with mine:\r\n\r\n[url=http://skyrim.nexusmods.com/mods/30450]Realistic Lighting Overhaul[/url] \r\n[url=http://skyrim.nexusmods.com/mods/17802]Project Reality - Climates Of Tamriel - Weather - Lighting - Audio[/url]\r\n\r\n\r\nUPDATES:\r\n\r\n1.1.157 - Tweaked SSAO/Indirect Lightning settings.  Included ENB All in One mesh and texture fixes.\r\n1.0.157 = Initial release\r\n\r\nCredits:\r\n\r\nBoris Voronstsov for his amazing ENB\r\nCeeJay.dk  for his awesome SweetFX Shader Suite\r\n\r\nPlease note I only combined and tweaked parameters, the true credit goes to those individuals.",
+  "categoryId": "62",
+  "version": "1.1.157",
+  "author": "dives41",
+  "createdUnix": "1365022896",
+  "updatedUnix": "1366299674",
+  "containsAdultContent": false,
+  "uploadedBy": "dives41",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000022202",
+      "name": "Faithful ENB plus SweetFX",
+      "version": "1.0.157",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "226",
+      "fileName": "Faithful ENB plus SweetFX-34348-1-057.7z",
+      "uploadedUnix": "1365022827",
+      "modVersion": "1.0.157",
+      "virusScanUrl": "https://www.virustotal.com/file/639721f76c76a071e123438dd07b9e2e7c67117556534f3358c396d89614cfd9/analysis/1407504244/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Faithful%20ENB%20plus%20SweetFX-34348-1-057.7z?fid=1000022202&ttl=1535812135&ri=8192&rs=8192&setec=4c62947510517c4474ace31110ee28b0"
+    },
+    {
+      "fileId": "1000025128",
+      "name": "Faithful ENB plus SweetFX ",
+      "version": "1.1.157",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4459",
+      "fileName": "Faithful ENB plus SweetFX -34348-1-1-157.7z",
+      "uploadedUnix": "1366299674",
+      "modVersion": "1.1.157",
+      "virusScanUrl": "https://www.virustotal.com/file/f33a6e1a30e6feb197aa3ac21b5fb69acb989561dd7156915f0f6d08032468e1/analysis/1407528483/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Faithful%20ENB%20plus%20SweetFX%20-34348-1-1-157.7z?fid=1000025128&ttl=1535812135&ri=8192&rs=8192&setec=e5df32080f02cf7ddd2dd9587b293ec9"
+    }
+  ]
+}

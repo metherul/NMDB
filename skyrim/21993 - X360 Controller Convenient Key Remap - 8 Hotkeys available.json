@@ -1,0 +1,32 @@
+{
+  "modId": 21993.0,
+  "modName": "X360 Controller Convenient Key Remap - 8 Hotkeys available",
+  "summary": "8 Hotkeys made available, along with Quicksave, Quickload, Auto-Move, Screenshot, Quick Map/Magic/Stats/Inventory with MINIMUM disturbance in vanilla control, if at all!\r\n\r\nCompatible with SkyUI.",
+  "descriptionHtml": "Mediafire mirror added, click on Mirrors icon just above.\r\n\r\n###Description###\r\nThis modification alters the key map of your X360 controller to the following:\r\n\r\n///MAPPING\\\\\\\\\\\\\r\nLT ---------> Left Attack/Block*\r\nRT ---------> Right Attack/Block*\r\nLB ---------> Sprint*\r\nRB ---------> Shout*\r\nA+RT -----> Quicksave\r\nA+LT -----> Quickload\r\n\r\nLS ---------> Sneak*\r\nRS ---------> Toggle POV*\r\nLB+LS ------> Auto-Move\r\nA+LS -------> Screenshot\r\n\r\nBack ---------> Quick Map\r\nStart ---------> Journal*\r\nLB+Back -----> Wait\r\nLB+Start ----> Tween Menu\r\n\r\nD-Up ---------> Hotkey1\r\nD-Down -----> Hotkey2\r\nD-Left -------> Hotkey3\r\nD-Right -----> Hotkey4\r\nLB+D-Up ----> Hotkey5\r\nLB+D-Down > Hotkey6\r\nLB+D-Left --> Hotkey7\r\nLB+D-Right > Hotkey8\r\n\r\nX ---------> Ready Weapon*\r\nY ---------> Jump*\r\nA ---------> Activate*\r\nB ---------> Favorites\r\nLB+X ----> Quick Magic\r\nLB+Y ----> Quick Stats\r\nLB+B ----> Quick Inventory\r\n\r\n*denotes vanilla mapped buttons\r\n\r\n\r\n\r\n###Install###\r\n\r\nBackup \\\"ControlMap_Custom.txt\\\" in game\\'s root (if present) and \\\"Skyrim\\\\Data\\\\Interface\\\\Controls\\\\PC\\\\controlmap.txt\\\" to keep your old config if necessary, otherwise just delete.\r\n\r\nThen, use NMM or just extract mod archive the Skyrim root folder.\r\n\r\n-\r\n\r\nIf quicksave do not work, do the following:\r\nIn-game, go to System > Controls and change a button mapping and set it back to what it was. Return to the game. This will create \\\"ControlMap_Custom.txt\\\" in the game\\'s root.\r\n\r\n\r\n\r\n###Usage###\r\nOpen favorites menu, hold hotkey buttons on any item to hotkey it.\r\nEnjoy!\r\n\r\nCompatible with SkyUI.\r\n\r\ne.g. I mapped 1-4 to spells, 5-8 to weaponry.\r\nHotkey1 ---------> Firebolt (Offense)\r\nHotkey2 ---------> Stone (Support)\r\nHotkey3 ---------> Lesser Ward (Defense)\r\nHotkey4 ---------> Reanimate Corpse (Other)\r\nHotkey5 ---------> One-handed weapon\r\nHotkey6 ---------> Shield\r\nHotkey7 ---------> Bow\r\nHotkey8 ---------> Two-handed weapon\r\n\r\n---\r\n\r\nHotkey 1-4, Favorites and Quick Map can now be reconfigured in the in-game Pause menu, but Wait has been hidden.\r\n\r\nYou may easily customise the mod to your liking, just have a look at the \\\"controlmap.txt\\\" inside the archive and map keys to their function based on the codes found here:\r\n\r\n///MAP_CODE\\\\\\\\\\\\\r\nLT ---------> 0x0009\r\nRT ---------> 0x000a\r\nLB ---------> 0x0100\r\nRB ---------> 0x0200\r\nLS ---------> 0x0040\r\nRS ---------> 0x0080\r\nBack ------> 0x0020\r\nStart ------> 0x0010\r\nD-Up ------> 0x0001\r\nD-Down --> 0x0002\r\nD-Left ----> 0x0004\r\nD-Right --> 0x0008\r\nX ----------> 0x4000\r\nY ----------> 0x8000\r\nA ----------> 0x1000\r\nB ----------> 0x2000\r\n\r\nFor instance, to link A+RT to the quicksave function of the game, I just replaced whatever was at the fourth column at the \\\"Quicksave\\\" event by \\\"0x1000+0x000a\\\". In this case 0x1000 is A button and 0x000a is RT.\r\n\r\nThe fourth column is reserved for gamepad mapping. Make sure that no functions are overlapped!\r\n\r\n\r\n\r\n###Manual_Uninstall###\r\nDelete \\\"Skyrim\\\\Data\\\\Interface\\\\Controls\\\\PC\\\\controlmap.txt\\\" and \\\"Skyrim\\\\ControlMap_Custom.txt\\\" or restore previous backups. ",
+  "categoryId": "24",
+  "version": "1.03",
+  "author": "Khayke",
+  "createdUnix": "1344464556",
+  "updatedUnix": "1344475691",
+  "containsAdultContent": false,
+  "uploadedBy": "beteferoce",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "79907",
+      "name": "X360_Controller_Convenient_ Key_Remap_by_Khayke",
+      "version": "1.03",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "X360_Controller_Convenient_ Key_Remap_by_Khayke-21993-1-03.rar",
+      "uploadedUnix": "1344475691",
+      "modVersion": "1.03",
+      "virusScanUrl": "https://www.virustotal.com/file/f06a3846bb30ca7b61fecfe463421d0a46a5f0458c499af43660a0cb5b79f60f/analysis/1407081366/",
+      "changelogHtml": " Mapped Auto-Move from A+LS to LB+LS. <br/> \n Mapped Screenshot from A+RS to A+LS. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/X360_Controller_Convenient_%20Key_Remap_by_Khayke-21993-1-03.rar?fid=79907&ttl=1535791270&ri=8192&rs=8192&setec=6d87c00173619e3a43ad186783824dbb"
+    }
+  ]
+}

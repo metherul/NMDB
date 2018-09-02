@@ -1,0 +1,32 @@
+{
+  "modId": 29119.0,
+  "modName": "My Guide to uGridsToLoad",
+  "summary": "An easier guide to uGridsToLoad.",
+  "descriptionHtml": "Screwing around with .ini files and the command prompt I discovered 2 Key things:\r\n1 Depending on wich keyboard config you have, the console is pretty useless, for an example, in my keyboard the ( \\\" \\' ) key calls the console, wich makes it impossible to reset the uGridsToLoad config without a save backup or a new game.\r\n\r\n2 Depending on wich mods you have installed the saveini console command only dumps a Very Complete .Ini File in the Data folder, doing nothing for the restauration.\r\n\r\nIside the .rar are only some Gifs showing the effects of the uGridsToLoad alteration.\r\n\r\nSo here\\'s my Guide:\r\n\r\n1st: Go to \\\"My Documents\\\" folder into the MyGames folder and you will find the Skyrim folder, wich has your saves and configs.\r\n\r\nBACK UP THAT SH!T!\r\n\r\n2nd:The Files you\\'re going to screw around with are: skyrim.ini and skyprefs.ini, but in this tutorial, only the skyrim.ini\r\n\r\n3rd: Under [General] write (if it\\'s not already there) uGridsToLoad=x (x being the odd number over 5 of your choice), then save the file and start Skyrim to see what happens.\r\n\r\nUndoing the Mod:\r\n\r\nThe catch with this mod is that if you increase the Grids variable, then save the game, you cannot simply decrease it back, you have to break the news to your savefile mano-a-mano, and that is how you do it:\r\n\r\n1st: Open the game, the save, then ingame, alt+tab to your desktop.\r\n\r\n2nd: Go to the skyrim.ini open it with notepad, and change the uGridsToLoad variable back to 5 (or the lesser number you wish), save the file.\r\n\r\n3rd: Then alt+tab back to the game, open the console (with usually the button directly under \\\"Esc\\\") and write: refreshini\r\n\r\n4th: If the game does not crash, save it, else change the uGridsToLoad variable to what it was and try again.\r\n\r\nBooyah! There you have it.",
+  "categoryId": "82",
+  "version": "0.06664269KOK",
+  "author": "Caassapaba",
+  "createdUnix": "1356839630",
+  "updatedUnix": "1356839973",
+  "containsAdultContent": false,
+  "uploadedBy": "Caassapaba",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "108376",
+      "name": "TheGifs",
+      "version": "1.0",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "12185",
+      "fileName": "TheGifs-29119-1-0.rar",
+      "uploadedUnix": "1356839973",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e3e07f82a1f9d359baab7e6e3b5d0e48a61a3d99d0edda4875cfd8b7bad679c8/analysis/1407328523/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TheGifs-29119-1-0.rar?fid=108376&ttl=1535803005&ri=8192&rs=8192&setec=193b0b52a92f40910189a2f3a7f77fdf"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 45175.0,
+  "modName": "Ebony mail black effect fix",
+  "summary": "A little fix for the black shadow effect of ebony mail",
+  "descriptionHtml": "Changes:\r\n1.2  october 23 2013-------------\r\n-make the effect named black aura (which is the visual effect of the black cloak) hidden in skyrim ui, so it will not appear unnecessary in the list of current active effects on player.\r\nI think/hope all is done and there is nothing special to change to this mod now.\r\n1.1.1  october 23 2013----------\r\n-remove the craftable ebony mail from the esp.\r\nAbout what is there inside the esp, know that i let some edits on 2 or 3 magic effect that seems to be for ebony mail but that seems not to be used in game at all.\r\n1.1  october 22 2013------------\r\n-Just noticed the black cloak does not activate when is in combat but only when sneaking.\r\nNow, it should activate when sneaking and when is in combat.\r\n1  october 22 2013--------------\r\n-first release.\r\n---------------------------------------------------------------------------------------------------------------------------\r\nI like Ebony mail, and i like also the armor enchantement, but since i don't wear helm, it s just weird to see the top of the hair not turning black. So i made a little fix that would allow all the head to turn black as well even if no helm is worn.\r\n(I also add a craftable ebony mail without any enchantement at the forge, but since i want Ebony mail to stay \"unique\", the craftable version has same amount of armor than vanilla ebony armor.)\r\n\r\nBasically, it simply adds an alpha channel effect on the body when the armor enchantement activate, so we can see through the eyes and the hair the black body under the normal body.\r\n---------------------------------------------------------------------------------------------------------------------------\r\n-The mod should not conflict with retexturing.\r\n-The mod may conflict with mod altering the enchantement.\r\n-The mod should work fine with mod editing the shader effect.\r\n-The mod should also work with hair mod, but due to the way they are build, some hair style may not turn black completely.\r\n(-You may have a \"useless\" craftable ebony mail at the forge if you use other mod to craft ebony mail that let the ebony mail keep the same stat than vanilla ebony mail, or it can simply conflict with since i didn't give a very special ID to the craftable ebony mail.)\r\n\r\nYou will have to unequip and re equip the ebony mail, in order to update the effect, if you load a savegame where you wear it after installing this mod.",
+  "categoryId": "75",
+  "version": "1.2",
+  "author": "Kctsu",
+  "createdUnix": "1382436380",
+  "updatedUnix": "1382611760",
+  "containsAdultContent": false,
+  "uploadedBy": "Evilou",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000069825",
+      "name": "ebonymaileffectfix1-2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "ebonymaileffectfix1-2-45175-1-2.rar",
+      "uploadedUnix": "1382565069",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/468b83bdebdab14b43dc4f599277fce6817e16f51d3fd7171eec42d36c1d2c1d/analysis/1407766397/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ebonymaileffectfix1-2-45175-1-2.rar?fid=1000069825&ttl=1535825710&ri=8192&rs=8192&setec=f945b0cca966582518d8548cb3e1ac87"
+    },
+    {
+      "fileId": "1000070044",
+      "name": "ebonymaileffectfix1-1-0-1",
+      "version": "1.1.0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "ebonymaileffectfix1-1-0-1-45175-1-1-0-1.rar",
+      "uploadedUnix": "1382611760",
+      "modVersion": "1.1.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/05dbbd59a6937508a4d2d4bcc5ee75e934404e4e6143b9c7d696c7d29b36002a/analysis/1407767174/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ebonymaileffectfix1-1-0-1-45175-1-1-0-1.rar?fid=1000070044&ttl=1535825710&ri=8192&rs=8192&setec=0742c2ce1ef49fd90a09f483c608ed50"
+    }
+  ]
+}

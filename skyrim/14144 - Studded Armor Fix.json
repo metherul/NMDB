@@ -1,0 +1,48 @@
+{
+  "modId": 14144.0,
+  "modName": "Studded Armor Fix",
+  "summary": "fix MatchingSet Perk (LightArmor) when wearing ImperialLight, ImperialStudded, Studded and ElvenGilded Armor also add craft/upgrade-able Studded Helmet, Gauntlets and Boots..",
+  "descriptionHtml": "- add ArmorMaterialImperialLight, ArmorMaterialImperialStudded, ArmorMaterialStudded and ArmorMaterialElvenGilded to MatchingSet PERK (hopefuly fixes MatchingSet Perk when wearing these type of armors)\r\n- add craft/upgrade-able Studded Helmet, Gauntlets and Boots (so they can be matched with Studded Armor, use ScaledArmor mesh/texture, Warning! the Helmet is HiDDEN when worn)\r\n- change StuddedArmor LeveledItem and Outfit, so NPC will have these new armor (no more Hide Helmet/Bracers/Boots)\r\n\r\n HiSTORY\r\n1.1 - fix Studded Helmet/Gauntlets/Boots not showing after loading a gamesave\r\n    - change StuddedArmor LeveledItem and Outfit\r\n    - add optional .esp that show studded helmet when worn\r\n1.0 - initial release\r\n\r\n iNCOMPATiBLE\r\nanything that modify MacthingSetPERK and StuddedArmor LeveledItem/Outfit, if u want still benefit from these fixes place it after d umm.. incompatible one :)\r\n\r\n TOOL\r\n..just TESVSnip!\r\n\r\n THANKs\r\nBethesda, Nexus and TESVSnip..",
+  "categoryId": "95",
+  "version": "1.1",
+  "author": "fREAkX",
+  "createdUnix": "1333288458",
+  "updatedUnix": "1333359062",
+  "containsAdultContent": false,
+  "uploadedBy": "freakX",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "48915",
+      "name": "StuddedArmorFix",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "StuddedArmorFix-14144.rar",
+      "uploadedUnix": "1333288596",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0b71a710f33ba8c44f41c0cbf70c0d14578e2425145b7b9b8d1b68d8ac40d98b/analysis/1406791274/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/StuddedArmorFix-14144.rar?fid=48915&ttl=1535777515&ri=8192&rs=8192&setec=ff3442c3e5861664cdde4b367bbaafd2"
+    },
+    {
+      "fileId": "49282",
+      "name": "StuddedArmorFixes",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "StuddedArmorFixes-14144-1-1.7z",
+      "uploadedUnix": "1333359062",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/1711383ea613dead1ad5033598f9e4ce77bc352d8434abb6e000897dda9959e6/analysis/1406797877/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/StuddedArmorFixes-14144-1-1.7z?fid=49282&ttl=1535777516&ri=8192&rs=8192&setec=a58f57e75f3932a52f0d02efa908ae7f"
+    }
+  ]
+}

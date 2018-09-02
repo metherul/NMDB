@@ -1,0 +1,32 @@
+{
+  "modId": 57038.0,
+  "modName": "New Spell - Rune Shield Shock",
+  "summary": "Adds up to three lightning orbs that follow you around and lock on to random enemy targets and blast them. ",
+  "descriptionHtml": "[center]\r<br />Honestly I have no idea how I finally got this to work, crack open the source script, you wont have any idea either :P\r<br />I plan to do a frost and fire one for discworld but due to the amount of BS I will NOT do the others as stand alone\r<br />Also, can I get a whut whut for a magic missile spell? Can do it now :)\r<br />I fixed the script that was bugging the third orb in the first part of the video\r<br />[youtube]NTnueLKQeRY[/youtube]\r<br />\r<br />As usual discworld trailers, where all these spells will be packed a bit easier in one esp :)\r<br />[youtube]FEBNe8XINd0[/youtube]\r<br />\r<br />[youtube]aPzA_6RBWcg[/youtube]\r<br />\r<br />\r<br />\r<br />Mod adds a spell tome sitting on the bridge outside Riverwood (Dude, look at the script for this, I was just like F&#39;ING YOLO I&#39;M DONE, F Trigonometry)\r<br />The spell will summon up to three shock orbs that hover over the player\r<br />1 Orb at destruction level 50\r<br />2 at Destruction level 75\r<br />3 at Destruction level 100\r<br />The orbs will grab a random actor in range of the player and if they are in combat with the player they fire off and blow them up :)\r<br />The check re-initiates every 3 seconds per orb\r<br />Once fired, you can re-summon the orb, even if you have other orbs left up\r<br />Cost is still the same mana though\r<br />Damage is 40 direct contact (Usually doesnt happen) and 50 I think for the aoe which is decent sized\r<br />I have yet to see them accidentally hit myself so maaaaybe player is immune, no promises\r<br />\r<br />This spell was a absolute bitch, but, I can now kind of track and fire projectiles though making them arc without using gravity is still a mystery to me\r<br />IE instead of a blink spell we can make a lobbed projectile that you can flash to at any point in its arc, like a dual trigger spell, one to throw the arcing projectile and second hand to flash to its location in real time\r<br />Or a spell to throw like a magelight and a second spell in the other hand to explode it\r<br />Lots of useful applications I just wish I hadn&#39;t decided to start at like lvl 100 in difficulty but this scripting is mah bitch son&#33;\r<br />\r<br />\r<br />[/center]",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "darren83",
+  "createdUnix": "1408016534",
+  "updatedUnix": "1408015713",
+  "containsAdultContent": false,
+  "uploadedBy": "Darren83",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000122000",
+      "name": "Rune Shield - Shock",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "19",
+      "fileName": "Rune Shield - Shock-57038-1-0.7z",
+      "uploadedUnix": "1408015713",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/78e23ab1cb1a2ae68d9ee3c0d940a77bc086ad79a134f765fbd5d67aa130fcb4/analysis/1408015795/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Rune%20Shield%20-%20Shock-57038-1-0.7z?fid=1000122000&ttl=1535842768&ri=8192&rs=8192&setec=26a1119c03956590265a94b87b44a01d"
+    }
+  ]
+}

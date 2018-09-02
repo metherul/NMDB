@@ -1,0 +1,32 @@
+{
+  "modId": 38403.0,
+  "modName": "Town - Wilderness - Swimming outfit change",
+  "summary": "This plugin keeps track of 3 sets of armor: Video demonstration inside\r<br />- Adventuring gear\r<br />- Town gear\r<br />- Swim gear",
+  "descriptionHtml": "Description\r<br />================\r<br />This plugin keeps track of 3 sets of armor:\r<br />- Adventuring gear\r<br />- Town gear\r<br />- Swim gear\r<br />\r<br />Town Gear\r<br />- This is gear that will be equipped whenever you enter a major stronghold.\r<br />- Automatically removed once you leave\r<br />\r<br />Swim Gear\r<br />- Equipped when you start swimming\r<br />- Will remain equipped even when wading in shallow water\r<br />- Removed a few seconds after you completely leave the water\r<br />- If in combat, swim gear will not be put on / be removed until combat ends\r<br />\r<br />Adventuring Gear\r<br />- &#34;Normal&#34; gear, which is equipped whenever the other 2 aren&#39;t\r<br />\r<br />\r<br />Requirements\r<br />SKSE\r<br />\r<br />\r<br />How it works\r<br />It works 100% silently, behind the scenes. It watches what you put on and remembers it according to where you were.\r<br />It will not how ever change your equipment if you are in combat&#33;\r<br />\r<br />Note: When first loaded, all the sets are empty -&gt; meaning it thinks you&#39;re naked. So it will unequip your gear, just put on your gear and it will remember it from then on.\r<br />\r<br />\r<br />Uninstallation\r<br />Included is a less power which will toggle the features of this on and off. Be sure to toggle it off before removing the mod. This will prevent save bloat and prevent errors.\r<br />\r<br />Known bugs - Sometimes the mod will think town and wilderness gear are the same, only fix for this is to deactivate the mod ESP file, load your game, wait about 3 hours ingame and re-enable the mod.\r<br />\r<br />Credits - \r<br />All credit for this mod goes to Cmod from loverslab. He created this I&#39;m just making it avaliable on the nexus",
+  "categoryId": "78",
+  "version": "1",
+  "author": "Cmod",
+  "createdUnix": "1373980771",
+  "updatedUnix": "1373980768",
+  "containsAdultContent": false,
+  "uploadedBy": "goldigger1990",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000039218",
+      "name": "Auto Outfit change",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "Auto Outfit change-38403-1.zip",
+      "uploadedUnix": "1373980768",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/ae98204e82b6e32b03075b371167c877094273bd411d49357446cafff16cf1b2/analysis/1407646220/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Auto%20Outfit%20change-38403-1.zip?fid=1000039218&ttl=1535818730&ri=8192&rs=8192&setec=340e91ac5a2218dba8d4f575c529d795"
+    }
+  ]
+}

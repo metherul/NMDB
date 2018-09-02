@@ -1,0 +1,32 @@
+{
+  "modId": 28693.0,
+  "modName": "Eyefinity snowflake fix",
+  "summary": "Fix for snowflake issue with multi-monitor setups like Eyefinity and Surround. This mod simply scales the 16 individual snowflakes by 1/3.",
+  "descriptionHtml": "This mod simply fixes the stretched snowflake issue in the 3x1 multi-monitor setups. All this fix does is alter the DDS image for the snowflakes and scales the individual 16 snowflakes by 1/3 their size. I used evercharmer\\'s \\'realistic\\' snowflakes from his Nicer Snowflakes mod: http://skyrim.nexusmods.com/downloads/file.php?id=296 as a base because I love his higher resolution textures (512x512) which makes each snowflake 128x128 over the default 32x32.\r\n\r\nSo far all I have uploaded is the 3x1 monitor fix and have no intention of going further unless requested to do so.\r\n\r\nWet and Cold users can get a fix for the water drips from the mod\\'s optional downloads section: [url=http://skyrim.nexusmods.com/mods/27563]http://skyrim.nexusmods.com/mods/27563[/url]\r\n\r\nStretched Eyefinity snowflakes:\r\n[img]http://s7.postimage.org/4d2jkp4u3/eyefinity_snowflakes.jpg[/img]\r\n\r\nDefault snowfalkes:\r\n[img=center]http://s8.postimage.org/iyusw1eud/default_snowflakes.jpg[/img]\r\n\r\nFixed Eyefinity snowflakes:\r\n[img]http://s8.postimage.org/6o1ubysth/fixed_eyefinity_snowflakes.jpg[/img]",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "Daimian",
+  "createdUnix": "1356135551",
+  "updatedUnix": "1356135960",
+  "containsAdultContent": false,
+  "uploadedBy": "Daimian",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "106690",
+      "name": "3x1 Monitor fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "99",
+      "fileName": "3x1 Monitor fix-28693-1-0.7z",
+      "uploadedUnix": "1356135960",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3fdc0c94cb68435e661534655a674b0ae7248e34b071dda7c30e28d50060239e/analysis/1407316266/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/3x1%20Monitor%20fix-28693-1-0.7z?fid=106690&ttl=1535802219&ri=8192&rs=8192&setec=b6f9c56c05fc818bac4caa0bd431170f"
+    }
+  ]
+}

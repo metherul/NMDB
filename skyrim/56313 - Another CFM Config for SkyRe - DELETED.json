@@ -1,0 +1,48 @@
+{
+  "modId": 56313.0,
+  "modName": "Another CFM Config for SkyRe - DELETED",
+  "summary": "A config file for favmenumodders Categorized Favorites Menu for SkyRe users.",
+  "descriptionHtml": "This is a config file for favmenumodder&#39;s [url=http://www.nexusmods.com/skyrim/mods/4862/?]Categorized Favorites Menu[/url] for an all-round sort of player. You&#39;ll need to install that mod first if you haven&#39;t already.\r<br />You&#39;ll also need to be using [url=http://www.nexusmods.com/skyrim/mods/9286/?]T3nd0&#39;s Skyrim Redone[/url] for all the renaming it does. If you don&#39;t use the races module a few racial powers may be missing but I can add them back in if requested.\r<br />\r<br />Some popular mods I use and have added support for (if any was needed):\r<br />[url=http://www.nexusmods.com/skyrim/mods/19733/?]Immersive Armors[/url] (up to v7.1) by Hothtrooper44.\r<br />[url=http://www.nexusmods.com/skyrim/mods/16225/?]Apocalypse - Magic of Skyrim[/url] (up to v5.10 i think) by Enai Siaion.\r<br />[url=http://www.nexusmods.com/skyrim/mods/16438/?]Bandolier - Bags and Pouches[/url] (up to v1.2) by Dragten (& [url=http://www.nexusmods.com/skyrim/mods/22119/?]Dawnguard version[/url] (up to v1.0)).\r<br />[url=http://www.nexusmods.com/skyrim/mods/44179/?]Lore Weapon Expansion[/url] (up to v1.3) by InsanitySorrow and Elvarheim.\r<br />[url=http://www.nexusmods.com/skyrim/mods/11163/?]Frostfall - Hypothermia Camping Survival[/url] (up to v2.5) by Chesko.\r<br />[url=http://www.nexusmods.com/skyrim/mods/12092/?]Cloaks of Skyrim[/url] (up to v1.2) by Noodles.\r<br />[url=http://www.nexusmods.com/skyrim/mods/13486/?]Winter Is Coming – Cloaks[/url] (up to v2.3) by [b]Nivea[/b].\r<br />[url=http://www.nexusmods.com/skyrim/mods/14950/?]Convenient Horses[/url] (up to v5.0) by Alek.\r<br />[url=http://www.nexusmods.com/skyrim/mods/12933/?]Extensible Follower Framework[/url] (up to v3.5.6) by Expired.\r<br />All weapons by [url=http://www.nexusmods.com/skyrim/users/5534177/?tb=mods&pUp=1]MAIBATSU[/url] up to and including The Gaddhjalt.\r<br />All weapons by [url=http://www.nexusmods.com/skyrim/users/10204660/?tb=mods&pUp=1]Corvalho[/url] up to including Valiant Nord Bow.\r<br />All weapons by [url=http://www.nexusmods.com/skyrim/users/6460325/?tb=mods&pUp=1]Elvarheim[/url] up to and including the Cyrodilic Steel Dagger.\r<br />[url=http://www.nexusmods.com/skyrim/mods/10171/?]Wulfharths Dragonbone Weapons[/url] (up to v4.0) by Ashking Wulfharth.\r<br />[url=http://www.nexusmods.com/skyrim/mods/48557/?]Ghosu - Horker Weapon Pack[/url] (up to v1.1) by Ghosu.\r<br />[url=http://www.nexusmods.com/skyrim/mods/48707/?]Orcrist the Goblin Cleaver[/url] (up to v1.1.1) by istoleyourface.\r<br />\r<br />Let me know if you find anything incorrectly sorted and i&#39;ll fix it.\r<br />\r<br />Install:\r<br />Use a mod manager or download manually and overwrite your existing favouritesmenu.cfg if you have one. It&#39;s located in your Skyrim folder &gt; Data &gt; Interface. (Maybe make a copy if you&#39;re overwriting so you can just copy it back over if you don&#39;t like mine.\r<br />\r<br />\r<br />Although keyword-wise I rebuilt this config from scratch, I used Okal&#39;s Categorized Favorites Menu Config as a base to work from so credit to him for that. He said he isn&#39;t playing the game anymore so anyone can do whatever they like with his file.\r<br />\r<br />I also give permission for anyone to release different versions of this config file. e.g. with support for Jaysus Swords or whatever. You don&#39;t need to ask me. Just consider that the more &#39;wordy&#39; these files become the more chance you&#39;ll get some lag when exiting the menu.\r<br />\r<br /> If you don&#39;t know how to do it, take a look at the file itself and you&#39;ll see it&#39;s just based on keywords. Therefore it&#39;s simple to add in keywords to support whatever mods you&#39;re using.\r<br />\r<br />As an example... if you download a 2-handed sword called &#39;The Tremendor&#39; you just need to write &#39;Tremendor&#39; in the 2-handed section. \r<br />If it was called &#39;The Tremendor Sword&#39; it would appear in the 1-handed due to the keyword &#39;Sword&#39;. To overcome this you&#39;d also need to add &#39;Tremendor&#39; to the 1-hand excludes.\r<br />\r<br />Change log:\r<br />v1.1 \r<br />- Added a couple of keywords to include hood and glove variants I missed.\r<br />- Added support for some more weapons (listed above).\r<br />- Removed support for animated dragon wings for performance reasons and also one or two keywords that weren&#39;t needed.\r<br />- Switched from Amazing Follower Tweaks to Extensive Follower Framework.\r<br />\r<br />\r<br />Credits:\r<br />Bethesda, everyone already mentioned in the description, Okal for the base.",
+  "categoryId": "42",
+  "version": "v1.1",
+  "author": "Gizard the Lizard Wizard",
+  "createdUnix": "1406247349",
+  "updatedUnix": "1408410204",
+  "containsAdultContent": false,
+  "uploadedBy": "garyman182",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000119100",
+      "name": "Another CFM Config for SkyRe",
+      "version": "v1.0",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Another CFM Config for SkyRe-56313-v1-0.rar",
+      "uploadedUnix": "1406246979",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/078bc93b6c1ee9a79b5239c8b6c4311cc969eb4b1aed19c27d33dda593ce61e8/analysis/1406247054/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Another%20CFM%20Config%20for%20SkyRe-56313-v1-0.rar?fid=1000119100&ttl=1535841589&ri=8192&rs=8192&setec=ebb20b606c30903c516571cabf831a71"
+    },
+    {
+      "fileId": "1000122728",
+      "name": "Another CFM Config for SkyRe v1.1",
+      "version": "v1.1",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Another CFM Config for SkyRe v1.1-56313-v1-1.rar",
+      "uploadedUnix": "1408410204",
+      "modVersion": "v1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/0baf5216a30756b7c5cac40dae120bba41a214404c6e1679dad869efd7bdc85c/analysis/1408436163/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Another%20CFM%20Config%20for%20SkyRe%20v1.1-56313-v1-1.rar?fid=1000122728&ttl=1535841590&ri=8192&rs=8192&setec=12b623c070ba584b2dee38ee471348f3"
+    }
+  ]
+}

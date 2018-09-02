@@ -1,0 +1,48 @@
+{
+  "modId": 41760.0,
+  "modName": "Community Uncapper Config - For Skyrim Enthusiasts",
+  "summary": "This is my configuration file for the awesome mod Skyrim Community Uncapper! \r\n\r\n",
+  "descriptionHtml": "INSTALLATION: \r\n1. Get Community Uncapper by Elys: http://skyrim.nexusmods.com/mods/1175\r\n2. Overwrite the SKSE_Elys_Uncapper.ini file (Usually in the Programs\\\\Steam\\\\steamapps\\\\common\\\\Skyrim\\\\Data\\\\SKSE\\\\Plugins directory) with this one\r\n\r\nWHAT DOES THIS CONFIG ACTUALLY DO?\r\n* The leveling curve has been balanced towards levels 1-50 being more important. Your character will spend more time in that level range. After you complete the game by defeating Alduin, you can continue to level up as much as you like at normal speed from level 50 to 100+\r\n* In Vanilla Skyrim, the rewards for each level were the same. Reaching a specific level like level 30 didn\\'t do anything special. But now when you reach specific levels (10,20,30,40,50,etc) you will receive significant bonuses. Now you can look forward to reaching these specific milestones for your character. \r\n* Skill trees take longer to level up. \r\n* Crafting no longer provides any character experience. If you want to become a high level hero, you can\\'t do it while in the safety of town. Get out there and adventure!\r\n* Crafting skills level up 20% faster. This is done purely to cut down on the drudgery of crafting. \r\n* Gain carrying capacity no matter whether you invest in health, magic, or stamina. Caster characters are no longer forced to invest in stamina just so they can carry a decent amount. \r\n\r\nMods I highly recommend to use in tandem with this uncapper config: \r\nSkyrim Redone by T3nd0: http://skyrim.nexusmods.com/mods/9286\r\nDeadly Dragons by 3JIou: http://skyrim.nexusmods.com/mods/3829",
+  "categoryId": "24",
+  "version": "",
+  "author": "lorenfisher",
+  "createdUnix": "1378529691",
+  "updatedUnix": "1431975146",
+  "containsAdultContent": false,
+  "uploadedBy": "lorenfisher",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000061645",
+      "name": "Community Uncapper Config - For Skyrim Enthusiasts Final",
+      "version": "final",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Community Uncapper Config - For Skyrim Enthusiasts Final-41760-final.zip",
+      "uploadedUnix": "1380931508",
+      "modVersion": "final",
+      "virusScanUrl": "https://www.virustotal.com/file/5563069169514d2f12197f270c0fe82b2ee06678fab4fe7e168009e1c9c08ae9/analysis/1407745448/",
+      "changelogHtml": " adjusted leveling speed to make levels 1-20 quicker. (you will start at -40% experience rather than -60%) <br/> \n increased perks gained at level 10 from 2 to 3. also re balanced perks gained at high levels <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Community%20Uncapper%20Config%20-%20For%20Skyrim%20Enthusiasts%20Final-41760-final.zip?fid=1000061645&ttl=1535822599&ri=8192&rs=8192&setec=a6433942547d31bef2545f6a7d35104a"
+    },
+    {
+      "fileId": "1000160642",
+      "name": "Config for PERKUS MAXIMUS USERS ONLY",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Config for PERKUS MAXIMUS USERS ONLY-41760-.zip",
+      "uploadedUnix": "1431975146",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/c0758469acfd10ec39b19d95c133d4b20967891e8ee7d5e13804f0f5deacf60e/analysis/1431975195/",
+      "changelogHtml": " Added a new file version exclusively for use with PERKUS MAXIMUS. No changes have been made to the non-perkus version <br/> \n Player gets bonus perk points every 5 levels. Hitting a major milestone (10,20,30,40) is roughly twice as rewarding as a smaller milestone (5,15,25,35) <br/> \n Player can once again get xp from crafting <br/> \n Penalty on experience points lessened. Level faster at first (just like a MMO) then it becomes slower later on (just like a MMO) <br/> \n Player gains slightly (5) more HP, Stamina, Magicka upon level up (rebalanced for PERKUS stamina drain during blocking, using a bow, etc). Don&#39;t worry, potions are still VERY much needed.  <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Config%20for%20PERKUS%20MAXIMUS%20USERS%20ONLY-41760-.zip?fid=1000160642&ttl=1535822600&ri=8192&rs=8192&setec=abde70aa9bce31baa5223495baca5365"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 6310.0,
+  "modName": "Werepires",
+  "summary": "This will allow you to remain a vampire if you contract Sanies Lupinus, and be both at the same time. Allows feeding as a werepire!",
+  "descriptionHtml": "This tweak will allow you to contract Sanguinare Vampiris, then get to the companions stage where you contract Sanies Lupinus, and remain a vampire. Should also work vice versa, please test it yourself and let everyone know : )\r\n\r\n------------------------------------------------------\r\nInstructions:\r\n------------------------------------------------------\r\n1. Install the esp to your Data directory\r\n\r\n2. Make sure it\\'s activated in data files on the launcher\r\n\r\n3. At the moment it\\'s best you contract Vampirism first. Sometimes the game won\\'t allow you to contract it again once you\\'ve become a werewolf. This esp should allow you to get vampirism whilst a werewolf, but it can be very iffy.\r\n\r\n4.Then, you become a werewolf in the companions quest.\r\n\r\n5.Finally, to ensure both are active, type :  SetPlayerRace \\'XXXXXXXXX\\'  (XXXX= The race code)\r\n\r\n000A82B9 (Orc) \r\n00088884  (Wood Elf) \r\n00088846  (Redguard) \r\n00088845 (Khajiit) \r\n00088844  (Imperial) \r\n00088840  (High Elf) \r\n0008883D  (Dark Elf) \r\n0008883C (Breton) \r\n0008883A  (Argonian) \r\n00088794  (Nord) \r\n\r\n6.Now you should be playing as a \\'Werepire\\'. What this esp does that\\'s different to just messing with the console is  it allows you to continue feeding whilst you\\'re a \\'werepire\\' after transforming. \r\n\r\n-------------------------------------------\r\n      What it\\'s doing\r\n-------------------------------------------\r\n\r\n\r\nThe esp changes several values and script effects which would trigger the werewolf \\'Cure all diseases\\'. It also removes disease resistance as a werewolf completely, and changes it with a 25% damage reduction instead. If anyone feels this is too overpowered, first change your difficulty to max. If you still find it so, I\\'ll rectify it.\r\nThe tricky part was changing feeding values. Normally your not able to feed as a werewolf, but now you should be able to.\r\n\r\nNote: This isn\\'t a perfect, final version. I made this for myself, and decided to share it. When the CK is out I\\'ll improve this version massively.\r\n\r\n\r\n\r\nHave fun, and feel free to comment. ",
+  "categoryId": "24",
+  "version": "v.0.8",
+  "author": "Ceipher",
+  "createdUnix": "1326667996",
+  "updatedUnix": "1326668212",
+  "containsAdultContent": false,
+  "uploadedBy": "Ceipher",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "20192",
+      "name": "Werepires",
+      "version": "v.0.8",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Werepires-6310-v-0-8.rar",
+      "uploadedUnix": "1326668212",
+      "modVersion": "v.0.8",
+      "virusScanUrl": "https://www.virustotal.com/file/90db85454d74728a3d23e2e203b025060d98769ee086a9b0356153e542133ac3/analysis/1406614274/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Werepires-6310-v-0-8.rar?fid=20192&ttl=1535763631&ri=8192&rs=8192&setec=781a4449757bd872003dd6adb9458cf3"
+    }
+  ]
+}

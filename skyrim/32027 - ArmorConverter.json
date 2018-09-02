@@ -1,0 +1,32 @@
+{
+  "modId": 32027.0,
+  "modName": "ArmorConverter",
+  "summary": "Convert 3rd party armors to Heavy or Light based on NPCs highest available perk levels",
+  "descriptionHtml": "***This is my first published mod.  Please let me know if you encounter installation / NMM issues ***\r\n\r\nThis mod is for all us armor lovers out there.\r\n> Have you ever found the perfect armor, just to discover that it is under-powered and barely usable in game?\r\n> Have you focused on the heavy (or light) perk tree, only to find that your favorite armor is designed for the opposite?\r\n> Have you added Armor \\\"re-balance\\\" mods and suddenly found that all of your 3rd party armors aren\\'t leveled to match?\r\n\r\nIf you\\'ve answered yes to any of these questions, this mod is for you.\r\n\r\nWhat does this mod do?\r\nThis mod provides a runtime method of modifying the stats of any in game 3rd party armor to match your highest available smithing perk level.\r\n> Heavy:  Steel, Dwarven, Orcish, Ebony, Dragon Plate, Daedric\r\n> Light:  Elven, Advanced (Scale), Glass, Dragon Scale\r\n> Armor stats are calculated from the base FORMs above.  If another mod changes the stats on these FORMs, conversions will use those stats (ie. - Stats in pictures are based on Skyrim Redone; which are stronger than standard Skyrim stats)\r\n> Light armor can be converted to heavy; heavy to light.\r\n\r\nHow to use this mod:\r\nThis mod adds a container on the side of the smith in Whiterun.  Place a single piece of standard armor (Boots, Cuirass, Gauntlets, Helmet, or Shield) into this container, and press the related button.  Options will be presented based on your perk level to convert the armor to your highest unlocked heavy and/or light smithing perk.  Conversions will require the amount of gold associated with the target quality.\r\n\r\nRequirements\r\nSkyrim Script Extender (SKSE) is required to make this mod work.  Get the latest version, please.\r\n\r\nFeatures:\r\nOver 1,500 lines of custom scripting\r\n\r\nLimitations: \r\n> Due to papyrus scripting limitations, this mod changes the base FORM of the armor being converted (hence being \\\"beta\\\").  As such, all in game copies of the converted armor will now reflect the target quality.  This is bad because:\r\n1. Enemies / NPCs use these armors.  Improving Leather armor to Daedric quality would suddenly give all enemies wearing Leather armor Daedric Armor protection; causing sudden game imbalances.\r\n2. Target quality is based upon Skyrim base FORMs.  If Daedric Armor was changed to Glass quality, any future conversions to Daedric armor would inherit Glass quality.\r\n> As such, this mod has been limited to converting 3rd party armor.  Attempts to convert standard Skryim armors will throw an error.\r\n> If anyone knows how to pass references into a script so that only the specific instance of an armor is changed, please let me know.  This mod would be ideal if it worked with instances vs FORMs.\r\n> This mod currently handles armor only.  Conversion to/from clothing may be supported in future revisions.\r\n",
+  "categoryId": "54",
+  "version": "0.9beta",
+  "author": "Compucidalusa",
+  "createdUnix": "1361338998",
+  "updatedUnix": "1361338068",
+  "containsAdultContent": false,
+  "uploadedBy": "compucidalusa",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000011418",
+      "name": "ArmorConverter",
+      "version": "0.9beta",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "17",
+      "fileName": "ArmorConverter-32027-0-9beta.7z",
+      "uploadedUnix": "1361338068",
+      "modVersion": "0.9beta",
+      "virusScanUrl": "https://www.virustotal.com/file/71f240e6afc6b0f71c5ce0834083481399216207c3f6127f7d292b7d34f1d4f0/analysis/1407428344/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ArmorConverter-32027-0-9beta.7z?fid=1000011418&ttl=1535808000&ri=8192&rs=8192&setec=360532c1989cf0bb7f2de708b9692d21"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 24046.0,
+  "modName": "Mythgaard Ammo Tweaks",
+  "summary": "Faster Arrows (x3), No Gravity, sorted names (Arrow - Iron), Batch Crafting of arrows with the DG ingredient formula as a base x6 (x6 Firewood + x6 Iron Ingot = 144 Iron Arrow). Optional Dawnguard version, as above plus Bolts. ",
+  "descriptionHtml": "by Mythgaard\r\nv 1.0\r\nhttp://forums.bethsoft.com/topic/1411090-relz-mythgaard-ammo-tweaks/\r\n============================================================\r\n\r\n- Requirements -\r\n\r\nOptional Dawnguard version requires, you guessed it, Dawnguard.\r\n\r\n============================================================\r\n\r\n- Overview -\r\nFaster ammo with no gravity, sorted naming, batch creation of Arrows (and Bolts with the DG version). Tweaks Ancient Nord, Forsworn and Falmer Arrow damage values to make them suck less.\r\n\r\nLast loaded wins, so if you have other mods tweaking arrows load this after them. I didn\\'t change Leveled Lists, drop/recovery, etc. so it just needs to be after anything that alters the arrows/bolts themselves.\r\n\r\n\r\n============================================================\r\n\r\n- Details -\r\n\r\nIncreases Arrow Speed x3 (10800.00)\r\n0 Gravity\r\nSilent (Stealth should break on Arrow Impact, not loosing)\r\nSupersonic (curiously, Iron Arrow is the only one to have this by default. Makes projectiles have a whiz by your head effect).\r\nBatch Crafting - Uses Beths Dawnguard recipe quantities as a base, x6. So 6 Firewood and 6 Iron Ingots yields 144 Iron Arrow. All except Iron require the appropriate smithing material perk.\r\nThe following Arrow Types have had their damage adjusted to make them suck less.\r\nAnicent Nord - 11 (from 10). Added Draugr Weapon Material Type. Available early but limited by drops, this makes them one point better than Steel. Steel 10 > Ancient Nord 11 > Orcish 12\r\nForsworn - 13 (from 7). Added Wood Weapon Material type. In the normal course of things, you aren\\'t going to hit Forsworn in the early game, yet the arrows they have are worse than Iron. Not any more. Orcish 12 > Forsworn 13> Dwemer 14\r\nFalmer - 15 (from 7). Added Falmer Weapon Material Type. As above, didn\\'t like the crap damage, so yeah. Dwemer 14 > Falmer 15 > Elven 16\r\nRenamed arrows to sort thusly: Arrow - Iron, Arrow - Dwemer, etc.\r\n\r\nDawnguard version as above plus;\r\n\r\nIncreased Bolt Speed x3 (16200.00)\r\n0 Gravity\r\nNot Silent\r\nSupersonic (default for DG Bolts)\r\nBatch Crafting of Dwemer and Steel bolts. 10 Firewood + 10 Steel Ingot = 100 Steel Bolt. Craftable at any forge with appropriate perk.\r\nOptional version includes Batch creation of elemental bolts at any forge with appropriate material perk. 100 Steel Bolt + 10 Fire Salts = 100 Bolt - Steel Fire\r\nRenamed Bolts for sorting. Bolt - Dwemer, Bolt - Steel. Also shortened the tech bolts. Bolt - Steel Ice, Bolt - Dwemer Shock, etc.\r\n\r\n\r\nIn case you\\'ve been living under a rock since 11/11/11, heres some .ini tweaks to make Archery less of a pain in the ass. (Skyrim.ini)\r\n\r\n[Combat]\r\nfMagnetismStrafeHeadingMult=0.0\r\nfMagnetismLookingMult=0.0\r\nf1PArrowTiltUpAngle=0.2\r\nf3PArrowTiltUpAngle=0.2\r\n\r\n[Actor]\r\nfVisibleNavmeshMoveDist=12288.0000\r\n\r\nFor DG Bolts, add under the arrow part up there:\r\nf1PBoltTiltUpAngle=0.2\r\nf3PBoltTiltUpAngle=0.2\r\n\r\n============================================================\r\n\r\n- History -\r\n1.0 First Release\r\n\r\n============================================================\r\n\r\n- Tools Used -\r\nCreation Kit\r\nANB ReadMe Generator\r\n\r\n============================================================\r\n\r\n- Credits -\r\nBeth\r\nOther arrow tweak mods (ABT, Faster Arrows No Gravity, etc.)\r\n\r\n============================================================\r\n\r\n- Permissions -\r\nKnock yourself out. Do with it what you will, just remove my name from it if you upload it. Not exactly Rocket Surgery here.\r\n\r\n============================================================\r\n\r\n- Disclaimer -\r\nI\\'m not wearing pants. Not responsible if it trashes your game, PC, etc.\r\n\r\n============================================================",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Mythgaard",
+  "createdUnix": "1347483442",
+  "updatedUnix": "1347483520",
+  "containsAdultContent": false,
+  "uploadedBy": "Mythgaard",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "88083",
+      "name": "Mythgaard Ammo Tweaks",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Mythgaard Ammo Tweaks-24046-1-0.7z",
+      "uploadedUnix": "1347483520",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/39b3a46f376bbdb8938e9e59db84cf41777da56cb20ab72f38fb194e866feaf5/analysis/1407162004/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Mythgaard%20Ammo%20Tweaks-24046-1-0.7z?fid=88083&ttl=1535794670&ri=8192&rs=8192&setec=efbb3e3480f8ac894a3d200c73bf8815"
+    }
+  ]
+}

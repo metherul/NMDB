@@ -1,0 +1,32 @@
+{
+  "modId": 27857.0,
+  "modName": "Dragon Knowledge Spell",
+  "summary": "Convert Excess Dragon Souls Into Perk Points with the Dragon Knowledge Spell. Allowing you to tap into the Vast Knowledge possessed by the Dragons you’ve slain and to convert it into useful Skill Perks. Configurable and Compatible and requiring no third party content.",
+  "descriptionHtml": "[font=Century Gothic][size=2]Convert Excess Dragon Souls Into Perk Points with the Dragon Knowledge Spell. Allowing you to tap into the Vast Knowledge possessed by the Dragons you’ve slain and to convert it into useful Skill Perks. Configurable and Compatible and requiring no third party content.\r<br />\r<br />This Mod adds a Lesser Power to the Player that converts 2 Dragon Souls to a Perk Point. More Perk Points means More Perks.\r<br />\r<br />This Mod does not require ANY third party content. - No Script Extenders of any kind.[/size]\r<br />\r<br />[size=4][color=red]This Mod Requires Skyrim version 1.8 or later.[/color][/size]\r<br />\r<br />[size=2]The Dragon Soul cost of each Perk Point is held in a variable:[/size] [size=3][color=yellow]PerkSoulCost[/color][/size]\r<br />\r<br />[size=2]The default value is 2. If you wish to change the number of Dragon Souls required per Perk Point, simply change the value of [color=yellow]PerkSoulCost[/color] in the Console.\r<br />\r<br />When using the following Console commands, ignore the inverted commas, they are present only to indicate generic field names within the syntax.[/size]\r<br />\r<br />[size=3][color=yellow]To check the current value, use the GetGlobalValue command:[/color][/size]\r<br />[size=2]Syntax: GetGlobalValue PerkSoulCost[/size]\r<br />\r<br />[size=3][color=yellow]To set a new value, use the Set command:[/color][/size]\r<br />[size=2]Syntax: Set PerkSoulCost To ‘value’\r<br />With the ‘value’ being the number of Dragon Souls that each Perk Point will cost.\r<br />\r<br />Once set, the value will be preserved in your savegame and will not change for that character unless you choose to change it again. Any new game will begin with the default value of 2.[/size]\r<br />\r<br />[size=4][color=orange]Installation:[/color][/size]\r<br />\r<br />[size=2]This Mod does NOT require a new game to be started in order to function properly.\r<br />\r<br />For Installation, use [b]Nexus Mod Manager[/b] or unpack the 7-Zip file and just drop the Mod’s .esp and .bsa files into your Data folder.\r<br />\r<br />For Uninstallation, use [b]Nexus Mod Manager[/b] or just delete the Mod’s .esp and .bsa files.[/size]\r<br />\r<br />[size=4][color=orange]Compatibility:[/color][/size]\r<br />\r<br />[size=2]This Mod should be compatible with everything, [color=red]HOWEVER, if you are a SKSE user[/color], you must get the latest version of SKSE (1_06_05 or later) or it will take your Dragon Souls but not give any Perk Points. If you are not a SKSE user, everything should be fine.[/size]\r<br />\r<br />[size=4][color=orange]Load Order:[/color][/size]\r<br />\r<br />[size=2]Put it anywhere you like among your .esp files.[/size]\r<br />\r<br />[size=4][color=orange]Known Issues:[/color][/size]\r<br />\r<br />[size=3]There seems to be a problem with older versions of SKSE. Games that include older versions of SKSE seem to not get the Perk Points when the spell is cast. This is because SKSE needs to be updated to at least version 1_06_05 to work properly with the latest Skyrim v1.8 patch.[/size]\r<br />\r<br />[size=4][color=orange]Final Comments:[/color][/size]\r<br />\r<br />[size=2]Thanks to Steam User [b]worrdvkw[/b] for pointing out that it does work with SKSE version 1_06_05.\r<br />Thanks to Nexus User [b]VashSky[/b] for confirming it.\r<br />\r<br />Thankyou very much to all those who have Endorsed this mod and a special thankyou to all those who have given me Kudos, I really appreciate it&#33; An Extra Special Thankyou to the wonderfully generous user who Donated to me - I&#39;m Overwhelmed.[/size]\r<br />\r<br />[size=5]Enjoy.\r<br />Eck.[/size]\r<br />\r<br />\r<br />[size=3][color=cyan]An Italian translation of the main plugin file is available [url=http://skyrim.nexusmods.com/mods/38071]here[/url] by Cenncroithi.[/color][/size]\r<br />\r<br />\r<br />\r<br />\r<br />[center][size=4][color=orange]This Mod is featured in Brodual&#39;s Video.[/color][/size][/center]\r<br />[center][youtube]Ene9WuXIzfA[/youtube][/center][/font]",
+  "categoryId": "75",
+  "version": "1",
+  "author": "Eckss",
+  "createdUnix": "1354741160",
+  "updatedUnix": "1354742383",
+  "containsAdultContent": false,
+  "uploadedBy": "Eckss",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "103397",
+      "name": "Dragon Knowledge Spell",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Dragon Knowledge Spell-27857-1.7z",
+      "uploadedUnix": "1354742383",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/83797b65ca1ae198c17d575ddabc9e7d323591d86b835d9eec257fa5af015b2c/analysis/1407292563/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dragon%20Knowledge%20Spell-27857-1.7z?fid=103397&ttl=1535800865&ri=8192&rs=8192&setec=d095413e874e9dae589b4e97147a5544"
+    }
+  ]
+}

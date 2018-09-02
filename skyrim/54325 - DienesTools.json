@@ -1,0 +1,32 @@
+{
+  "modId": 54325.0,
+  "modName": "DienesTools",
+  "summary": "An SKSE plugin adding papyrus functions",
+  "descriptionHtml": "Description\r<br />\r<br />This plugin is a collection of functions that I needed to be able to make mods I&#39;ve got in the works fully functional or polish released mods. I figured they could be of use to others. I plan on adding to it as I need and if I&#39;ll consider requests if a modder needs something specific but I&#39;m neither an expert at C++ or the innards of SKSE.\r<br />\r<br /> \r<br />\r<br />Requirements\r<br />\r<br />SKSE 1.7.0 or newer.\r<br />\r<br /> \r<br />\r<br />Contents\r<br />\r<br /> \r<br />\r<br />Functions:\r<br />\r<br />1.0\r<br />\r<br />[code]Function GetAllCOBJThatYieldForm(Form akForm, FormList akList) Global Native\r<br />; adds all COBJs that have akForm as their result to akList. Anything in akList will remain\r<br />\r<br />ConstructibleObject Function TempCOBJ(ConstructibleObject akToCopy) Global Native\r<br />; returns a TempClone of akToCopy that lasts for the skyrim session. Should have all the same\r<br />; data as akToCopy but order my differ. Altering the clone should not alter akToCopy\r<br />\r<br />Function ReplaceKYWD(Form akForm, Keyword akToReplace, Keyword akToAdd) Global Native\r<br />; If akForm has akToReplace directly on it (not attached through an alias or magic effect or the like)\r<br />; and does not have akToAdd directly on it then akToReplace will be swapped with akToAdd.\r<br />; Modifies the base Form. Lasts only a single skyrim game session.\r<br />[/code]\r<br /> \r<br />\r<br />Source:\r<br />\r<br />My source and the visual studio 2008 project used to build the dll is included. Feel free to use code if it is helpful however please do not distribute your own version as that could lead to file conflicts and headaches for all involved.\r<br />\r<br /> \r<br />\r<br />Disclaimer\r<br />\r<br />This is provided as is. I&#39;ve made my best effort to ensure its correct but cannot but sure. Test that it doesn&#39;t burn your house down before releasing a mod that relies on it. Please report any bugs with as much detail as possible to replicate them and I will endeavor to fix them as soon as possible.\r<br />\r<br /> \r<br />\r<br />Credits\r<br />\r<br />The SKSE team of course for making this possible but also for answering questions over many months as I cut my teeth on many levels of modding.\r<br />\r<br />Zatar for his tutorial of writing an SKSE papyrus plugin as I&#39;d never have bumbled my way through setting it up on my own.",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "Dienes",
+  "createdUnix": "1400962064",
+  "updatedUnix": "1400961970",
+  "containsAdultContent": false,
+  "uploadedBy": "Dienes",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000110319",
+      "name": "DienesTools 1_0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2920",
+      "fileName": "DienesTools 1_0-54325-1-0.zip",
+      "uploadedUnix": "1400961970",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/36906f58412b93753476b41a979d5aa44f2692d40d7bc757b10ca752e5432925/analysis/1408095345/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DienesTools%201_0-54325-1-0.zip?fid=1000110319&ttl=1535838422&ri=8192&rs=8192&setec=9e5a5aea789feb3912811ede9ad7d435"
+    }
+  ]
+}

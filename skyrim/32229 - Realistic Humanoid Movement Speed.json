@@ -1,0 +1,48 @@
+{
+  "modId": 32229.0,
+  "modName": "Realistic Humanoid Movement Speed",
+  "summary": "Vanilla playable character walks too slowly, and jog unproportionately fast, and sprints like Usain Bolt across gender.\r<br />This mod refines the actor movement speed to a realistic rate. The speeds have been fine-tuned many times before this release.\r<br />\r<br />",
+  "descriptionHtml": "NO SCRIPT NO WORRY&#33;&#33; REMOVE ANYTIME AT YOUR LEISURE.\r<br />\r<br />[url=http://www.skyrimgems.com][img]http://i.imgur.com/1wXSO.png[/img][/url]\r<br />\r<br />This is basically not a mod. THIS IS HOW IT SHOULD HAVE BEEN.\r<br />The speeds have been FINE-TUNED MANY TIMES before this current release just to get it right. I use it. I hope you enjoy it, if you can&#39;t find one that satisfies you.\r<br />\r<br />MOD FEATURE\r<br />- Movement speed has been configured to a much more fluid and realistic rate.\r<br />- No more walking like a turtle&#33;\r<br />- No more jogging like a gazelle&#33;\r<br />- No more sprinting like Usain Bolt&#33;\r<br />- No more skating when sneak running&#33;\r<br />\r<br />------------Specifically-----------------\r<br />- Walk: 80 to 125 (+56%)\r<br />- Run: 370 to 305 (-17.5%)\r<br />- Sprint: 500 to 450 (-10%)\r<br />- Sneak walk: 47 to 55 (+16.5%)\r<br />- Sneak run: 222 to 122 (-45%) (No more skating at non-human speed)\r<br />\r<br />And also Horses (Optional, in another file)\r<br />- Horse Walk speed (+20%) (No longer jog like you&#39;ve retired, but walk at reasonable speed)\r<br />- Horse Run (no change)\r<br />- Horse Sprint (+8.3%) (Just A little faster, just so the horse doesn&#39;t feel tied down to gravity)\r<br />\r<br />\r<br />VIDEO DEMONSTRATION\r<br />\r<br />[youtube]NU2nNpY4CyY[/youtube][youtube]PXjo7Fiej9s[/youtube]\r<br />\r<br />INSTALLATION\r<br />Using NMM: \r<br />1. Simply load it into NMM. \r<br />2. Install.\r<br />Manual: \r<br />1. Unzip content.\r<br />2. Put RealisticHumanoidMovementSpeed.esp into [Game root folder]/Data\r<br />3. Open SkyrimLauncher.exe, go to &#34;Data Files&#34;, tick &#34;RealisticHumanoidMovementSpeed&#34;\r<br />\r<br />\r<br />UNINSTALLATION\r<br />Using NMM: \r<br />1. Simply uninstall.\r<br />Manual: \r<br />1. Delete RealisticHumanoidMovementSpeed.esp in [Game root folder]/Data\r<br />\r<br />\r<br />LOAD ORDER\r<br />- Preferably put NEAR THE BOTTOM of your load order.\r<br />- But either way, whichever is loaded later overwrites the earlier ones. No problem whatsoever.\r<br />\r<br />\r<br />COMPATIBILITY\r<br />- No matter what, there won&#39;t be, and can&#39;t be any major problem. Mods editing the same variable is simply overwritten by another mod at a later load order (closer to bottom).\r<br />1. Fully compatible with [url=http://skyrim.nexusmods.com/mods/9286]SkyRe[/url]\r<br />- The general speed is modified here, and the addition modifiers to each race and gender are added by SkyRe. No conflict between the two.\r<br />- e.g. With this mod on, Altmer female will still walk faster than Bosmer male in SkyRe.\r<br />2. Fully compatible with [url=http://skyrim.nexusmods.com/mods/14950]Convenient Horse[/url] (Could load this BEFORE Convenient Horse)\r<br />- Whichever is loaded later, dictates the modifiers to Horse speed.\r<br />3. Fully compatible with [url=http://skyrim.nexusmods.com/mods/11163]FrostFall[/url]\r<br />- Temporary speed modifiers by FrostFall will be added on top of the modified speed and be removed correctly.\r<br />\r<br />\r<br />QUEST COMPATIBILITY\r<br />1. Helgen execution scene: Tested. Basically no problem. \r<br />2. Main quest: One of the quest consists of passing through something (spoiler) that relies on speed. Can be passed through with this mod on.\r<br />\r<br />\r<br />VERSION HISTORY\r<br />1.03:\r<br />Walk: 128.5 (+60.5%) to 125 (+56%) (Shouldn&#39;t feel like power walking now)\r<br />1.02:\r<br />Walk: 132 (+65%) to 128.5 (+60.5%)\r<br />Fast Sneak: 120 (-46%) to 122 (-45%)\r<br />Made Horse modifiers optional.\r<br />\r<br />\r<br />Also see my other mods:\r<br />[url=http://skyrim.nexusmods.com/mods/32175]A truly beautiful character - Imperial Female[/url]",
+  "categoryId": "24",
+  "version": "1.03",
+  "author": "brump",
+  "createdUnix": "1361623738",
+  "updatedUnix": "1362936656",
+  "containsAdultContent": false,
+  "uploadedBy": "brump",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000016529",
+      "name": "Realistic Humanoid Movement Speed 1_03",
+      "version": "1.03",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Realistic Humanoid Movement Speed 1_03-32229-1-03.rar",
+      "uploadedUnix": "1362936555",
+      "modVersion": "1.03",
+      "virusScanUrl": "https://www.virustotal.com/file/d36c38f0ce2a2214c9d09fb1ffa6600622712525cb970971d5b664224117fe3f/analysis/1407463310/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Realistic%20Humanoid%20Movement%20Speed%201_03-32229-1-03.rar?fid=1000016529&ttl=1535808359&ri=8192&rs=8192&setec=35955faa7607eb1c0d1aa48a317217bb"
+    },
+    {
+      "fileId": "1000016530",
+      "name": "Realistic Humanoid Movement Speed 1_03 With Horse speed modifiers",
+      "version": "1.03",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Realistic Humanoid Movement Speed 1_03 With Horse speed modifiers-32229-1-03.rar",
+      "uploadedUnix": "1362936656",
+      "modVersion": "1.03",
+      "virusScanUrl": "https://www.virustotal.com/file/b97917119f75a7851e6618a66eae43139599c8a2ed9347826183eb354bac9ce8/analysis/1407463310/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Realistic%20Humanoid%20Movement%20Speed%201_03%20With%20Horse%20speed%20modifiers-32229-1-03.rar?fid=1000016530&ttl=1535808359&ri=8192&rs=8192&setec=3269c244b15e7879b99f0651b3460b21"
+    }
+  ]
+}

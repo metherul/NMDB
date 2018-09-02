@@ -1,0 +1,48 @@
+{
+  "modId": 8636.0,
+  "modName": "Destruction magic skill damage scaling",
+  "summary": "Spell damage scales off your Destruction skill level! No perks required! Install and touch a Standing stone to activate it.",
+  "descriptionHtml": "Just because no one else appears to have done it yet: Magic damage scales off Destruction skill level! Your spell damage will increase by 1% per skill level. In order to load the power onto your character you have only to touch any Standing Stone (Mage Stone etc), you don\\'t have to accept its power and it can even be the one you already have.\r\n\r\nBonuses compared to other spell damage mods? The bonus damage is entirely based on your Destruction level, you don\\'t need to put any points in perks if you don\\'t want. The gradual increase also means that you don\\'t have any dramatic power spikes or pits as you get new perks. No perk tree shenanigans also means that if you uninstall this mod you won\\'t lose any points to perks that cease to exist.\r\n\r\nThe downside is that there is no fiddling with existing spell or perk effects, if you\\'re into that. If not that can totally be another plus!\r\n\r\nYou should be able to install this on top of another magic damage mod, for super overpowered fireballs. Be aware that it appears every seperate magic damage bonus is calculated ingame to stack multiplicatively, not additively, leading to crazy damage values if you do such a thing. But it\\'s singleplayer, no one will judge you.\r\n\r\nUpdate: I have hopefully included the script file that will make the stones add the effect to the character properly, if you don\\'t want to use the console to get the destructionscaling perk. Everything goes in the data folder as usual. (The .pex file should stay in the scripts folder through!)\r\n\r\nThe alternative is to use the console to get the perk id number with \\\"help destructionscaling 4\\\" and then add it with \\\"player.addperk referencenumberhere\\\".",
+  "categoryId": "93",
+  "version": "1.01",
+  "author": "A lazy shiftlessbastard",
+  "createdUnix": "1328845224",
+  "updatedUnix": "1328917924",
+  "containsAdultContent": false,
+  "uploadedBy": "Sloth of Doom",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "28638",
+      "name": "Destruction Scaling",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Destruction Scaling-8636.rar",
+      "uploadedUnix": "1328917341",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0e519fb0ddcfc9da8b7db8ded09920a784e98602ba8983ec0d0f472c7954808c/analysis/1406668190/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Destruction%20Scaling-8636.rar?fid=28638&ttl=1535767552&ri=8192&rs=8192&setec=8c2f5dd16621ec753978387c31f42695"
+    },
+    {
+      "fileId": "28641",
+      "name": "Destruction Scaling script",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Destruction Scaling script-8636-1-01.rar",
+      "uploadedUnix": "1328917924",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/0e519fb0ddcfc9da8b7db8ded09920a784e98602ba8983ec0d0f472c7954808c/analysis/1406671983/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Destruction%20Scaling%20script-8636-1-01.rar?fid=28641&ttl=1535767553&ri=8192&rs=8192&setec=ae678644b8456c692df4bb128aeddb24"
+    }
+  ]
+}

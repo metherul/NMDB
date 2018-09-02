@@ -1,0 +1,32 @@
+{
+  "modId": 73296.0,
+  "modName": "KNN Headtracking",
+  "summary": "Player Headtracking",
+  "descriptionHtml": "Turn player&#39;s face to toward target.  This MOD was another my mod option function.\r<br />\r<br />This has 4 headtracking modes. \r<br />1: &#34;HUD&#34; -&gt; Player is targeting only HUD object.\r<br />2: &#34;HUD + Speaker&#34; -&gt; When player is targeting Object with HUD, ignore speaker.\r<br />3: &#34;Speaker + HUD&#34; -&gt; When player is targeting spaeker, ignore HUD target object.\r<br />4: &#34;Speaker&#34; -&gt; Only speaker. \r<br />This MOD can change player expression by the Object. And Player character expression synchronize to friendship actorexpression.\r<br />You can change expression type with MCM. If edit file(...&#92;data&#92;SKSE&#92;Plugins&#92;KNNHTPlugin.ini), you can aplly a custom expression to the player character.\r<br />Try another Headtracking MOD if you don&#39;t need expression.\r<br />\r<br />Install :\r<br />Put &#34;Data&#34; folder.\r<br />\r<br />Uninstall :\r<br />1. Open MCM\r<br />2. Disable &#34;Enable Headtracking&#34; toggle\r<br />3. Remove files\r<br /> \r<br />Required:\r<br />- [url=http://skse.silverlock.org/]SKSE v1.7.3[/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/3863/]SkyUI v5.1[/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/44596/]MFG Console[/url](Because &#34;Actor.ResetExpressionOverrides()&#34; was not work my PC)\r<br />- Microsoft Visual C++ 2012 Redistributable (x86) has Installed on your PC.\r<br />\r<br />SKSE team, SkyUI team, himika thank you great MOD and tools&#33;",
+  "categoryId": "51",
+  "version": "1.1.1",
+  "author": "gekkou1992",
+  "createdUnix": "1454845216",
+  "updatedUnix": "1487436306",
+  "containsAdultContent": true,
+  "uploadedBy": "gekkou1992",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000236582",
+      "name": "KNN Headtracking",
+      "version": "1.1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "131",
+      "fileName": "KNN Headtracking-73296-1-1-1.7z",
+      "uploadedUnix": "1487436306",
+      "modVersion": "1.1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/1f0b5688cfeb199b2ce53da7eaf5bee3703c8052e38d76591254a6ec7135b08b/analysis/1487436603/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/KNN%20Headtracking-73296-1-1-1.7z?fid=1000236582&ttl=1535861970&ri=8192&rs=8192&setec=cc44c4c2761a2409f6fa25d36848ffc0"
+    }
+  ]
+}

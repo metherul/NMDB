@@ -1,0 +1,32 @@
+{
+  "modId": 52390.0,
+  "modName": "Werewolf Fix",
+  "summary": "This mods fixes the unproper transformation back to normal after the race has been changed via showracemenu. This occurs as a wrong headmorph.",
+  "descriptionHtml": "My mod from the Steam Workshop\r<br />\r<br />Problem:\r<br />Should you ever think about changing your race via the console the werewolf tranformation back to human maybe will be broken.\r<br />This occurs because you will always tranform back into your very first race (at the Companions quest) and not your current one.\r<br />Your head will be a mess&#33;\r<br />\r<br />Solution:\r<br />This mod simply contains an altered script which saves the current race directly before the transformation to a werewolf, every time.\r<br />\r<br />This fix is not contained in the Unofficial Skyrim Patch because it does not cover up cheats (showracemenu).\r<br />\r<br />Imcompabilities:\r<br />Anything which alters the PlayerWerewolfChangeScript will be broken by this mod&#33; I believe many werewolf mods out there will have that script changed.\r<br />\r<br />Content:\r<br />One ESP and one BSA. The BSA holds the script.\r<br />Nothing else will be edited&#33;",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "B01scout",
+  "createdUnix": "1395679517",
+  "updatedUnix": "1395679320",
+  "containsAdultContent": false,
+  "uploadedBy": "B01scout",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000102336",
+      "name": "WerewolfFix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "WerewolfFix-52390-1-0.zip",
+      "uploadedUnix": "1395679320",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/64f498a318cf5c09da761908619c6b0aaa7706b12ce1f2f2891ccad189697464/analysis/1407994330/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/WerewolfFix-52390-1-0.zip?fid=1000102336&ttl=1535835395&ri=8192&rs=8192&setec=d0ef74c0634501d03bc156ba92f4c812"
+    }
+  ]
+}

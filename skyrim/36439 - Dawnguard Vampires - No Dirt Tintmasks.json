@@ -1,0 +1,32 @@
+{
+  "modId": 36439.0,
+  "modName": "Dawnguard Vampires - No Dirt Tintmasks",
+  "summary": "Requires Dawnguard!\r\nA plug-in that removes the Dirt Tintmask on all Vampires in Skyrim.",
+  "descriptionHtml": "!IMPORTANT! THIS IS ONLY FOR DAWNGUARD NPC VAMPIRES. THIS DOES AFFECT THE PLAYER.\r\nTHIS IS NOT A BEAUTIFICATION MOD.\r\n\r\n!READ!\r\nThis mod is incompatible with VTF - Vampire Texture Framework - http://skyrim.nexusmods.com/mods/31136/?\r\n\r\nHello everyone, this is my first modification that I upload here, so if something doesn't work right, I am sorry.\r\n\r\nThe Dawnguard Vampires are some of the coolest vampires that I have ever seen, that is why it pains me that there doesn't seem to be at least one form of fix for the Grey and Discolored faces that some vampires in the game are dragging with.\r\n\r\nI have created several custom vampires in the Creation Kit, and despite exporting FaceGen when I should, only a few came out the way they where made in the creation kit.\r\n\r\nAfter asking around, I found that it was the Dirt Tintmasks that was the cause of this, since there is a new head for vampires to use in Dawnguard, there is something not working with it and other mods or even the game itself.\r\n\r\nSo here I have made a little .esp file that removes all 3 Dirt Tintmasks on vampires, meaning that they will be fairlt clean, but the vampire head with the lip and veins can be seen.\r\n\r\nThis is intended for players who likes the vanilla vampires and doesn't feel the need to beautify them.\r\nThis will ONLY affect the vampires of Dawnguard (or vailla, but this was intended for Dawnguard).\r\n\r\nIf the vampires in your game looked like the vampire to the right in the image above BEFORE you installed this mod, then you don't need to install it. If they look like the vampire to the left though, you might want to give this a try.\r\n\r\nI don't claim that this will fix all the little problems with their appearace.\r\n\r\nA fair warning though, the Dirt Tintmask is still applied and active on non-vampire races, when I tested to have the dirt tintmask on my PC character and then console commanded Player.SetRace HighElfRaceVampire the dirt was still applied and the vampire look was right, so I assume it worked, but I am not a 100% sure so be careful.\r\nMy advice is that if you plan to be a vampire, avoid using the Dirt Tintmasks.\r\n\r\n!READ!\r\nAlso, when installing this make sure to look in Data Files in the Skyrim startup screen so that that \"01VampireNoDirtTintmask\" is active. This is important, since if it's not active, it won't work obviously.\r\n\r\nLet me know if it worked for you if you have a similar problem and have a good day!",
+  "categoryId": "29",
+  "version": "",
+  "author": "Jowain92",
+  "createdUnix": "1369577708",
+  "updatedUnix": "1369575534",
+  "containsAdultContent": false,
+  "uploadedBy": "Jowain92",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000031527",
+      "name": "VampireNoDirtTintmask",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "20",
+      "fileName": "VampireNoDirtTintmask-36439-.rar",
+      "uploadedUnix": "1369575534",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/e5a514a13b70de469376bc375e2f8c3976a68daf0e5bf23248f8c7b5803f7095/analysis/1407582274/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VampireNoDirtTintmask-36439-.rar?fid=1000031527&ttl=1535815624&ri=8192&rs=8192&setec=d78fc8f763ca7e0fbad2ee3fd3d7c288"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 6623.0,
+  "modName": "playing children",
+  "summary": "Playable children with race bonuses, clothes fixed, vampirism possible, some armor available",
+  "descriptionHtml": "THIS MOD IS DEPRECATED!\r\nI recommend using [url=http://skyrim.nexusmods.com/downloads/file.php?id=8234]Higher Magic Children[/url] instead. \r\n\r\nIf you are playing a vampire child, run these console commands after loading with the new mod (replace xxx with your race):\r\nplayer.setrace xxxRaceChild\r\nplayer.setrace xxxRaceChildVampire\r\n\r\n\r\n---- old description ----\r\n\r\nAllows you to select the 4 child races as player race.\r\n\r\nThe child clothes are wearable by the player (6d92c, 467bf, 467c0, e80a8).\r\n\r\nTo have a fully working character, you might have to execute these console commands:\r\n\r\nplayer.forceav healrate .7\r\nplayer.forceav magickarate 3\r\nplayer.forceav carryweight 300\r\n\r\n\r\n== Armor ==\r\n\r\nBlades, Elven, Thieves Guild and Nightingale armor is equippable. It simply uses the male meshes, so if you don\\'t want your character to look like a bully, do \\\"player.setnpcweight 0\\\".\r\n\r\nHelmets are not compatible, if you want to equip them, use this: [url=http://www.skyrimnexus.com/downloads/file.php?id=562]No Helmet Mod[/url]\r\n\r\nIf you want meshes that are optimized for small people, please support this mod: [url=http://www.skyrimnexus.com/downloads/file.php?id=4797]Playable Child Armor[/url] (has some minor issues with clipping, so if you have [i]teh modeling 5killz[/i], please help them)\r\n\r\nIf you want more armor to be available: adding more is very simple, but also time consuming. Contact me if you want to know how or if you added something, so I can put it up here (you get credited, of course).\r\n\r\n\r\n== Vampirism ==\r\n\r\nThis is, to my knowledge, the only mod that allows your child character to become a vampire. It\\'s not that simple, though. Here are the steps:\r\n\r\n1. Get infected (i.e., player.addspell b8780 until console says something like \\\"GetIsId >> 1\\\")\r\n2. Wait three days, walk until vampirism activates.\r\n3. \\\"showracemenu\\\" in console. Do not change the race, just enter your name again.\r\n4. Check that your skill levels are still intact. If not, load and try again from step 2.\r\n5. \\\"player.setrace xxxRaceChildVampire\\\", where \\\"xxx\\\" is your race\r\n6. Check that your skill levels and racial bonuses are intact. If not, load and try again from step 2, or fix them manually.\r\n7. If you get cured, \\\"player.setrace xxxRaceChild\\\"\r\n\r\nIf you face disappears, try this:\r\n\r\nplayer.setrace xxxRaceChild\r\nplayer.setrace xxxRaceChildVampire\r\n\r\nI\\'m not sure why this happens sometimes, but it has to do with how vampirism changes the face, which does not work for children.\r\nYou can store the commands in a text file in the Skyrim directory and execute the file with \\\"bat filename\\\" from the console.\r\n\r\n== Related Mods ==\r\n[url=http://skyrimnexus.com/downloads/file.php?id=4245]Childrens Clothing Retexture[/url] HD(?) clothes\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=6172]new children[/url] better meshes",
+  "categoryId": "34",
+  "version": "99",
+  "author": "derari",
+  "createdUnix": "1327063804",
+  "updatedUnix": "1327067524",
+  "containsAdultContent": false,
+  "uploadedBy": "derari",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "21432",
+      "name": "Playing_Children_v1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Playing_Children_v1-6623.zip",
+      "uploadedUnix": "1327063852",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/571142f69f2e55b5b86afef3473c04c870ecebb9f5fc950989c15530c9ee037e/analysis/1406625338/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Playing_Children_v1-6623.zip?fid=21432&ttl=1535764163&ri=8192&rs=8192&setec=a93a0dffa7af39ab65e25d4d394d1cda"
+    },
+    {
+      "fileId": "21441",
+      "name": "Playing_Children_wArmor_v1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Playing_Children_wArmor_v1-6623-1-0.zip",
+      "uploadedUnix": "1327067524",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/11e14ac8013baf7fd05c7b3aa624f9a2a81ba3b28c9b6ab60176282a58f12d03/analysis/1406625424/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Playing_Children_wArmor_v1-6623-1-0.zip?fid=21441&ttl=1535764163&ri=8192&rs=8192&setec=6730d67c2eb57ef17bd8bcab029739f0"
+    }
+  ]
+}

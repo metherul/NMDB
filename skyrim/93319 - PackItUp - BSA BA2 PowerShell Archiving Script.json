@@ -1,0 +1,32 @@
+{
+  "modId": 93319.0,
+  "modName": "PackItUp - BSA BA2 PowerShell Archiving Script",
+  "summary": "PowerShell script to assist with batch file archive creation of mods.",
+  "descriptionHtml": "[size=6][center][b][color=#ffff00]From the README[/color][/b][/center][/size]\n<br />[size=5][color=#00ff00]What does it do?[/color]\n<br />[/size]\n<br />[list]\n<br />[*]This script is designed to enhance the ability for a mod developer to easily batch pack their mod.\n<br />[*]The original conception was to use a staging location and target the script to that path and have it make the appropriate archive that can then be distributed. It has been further developed to allow for multiple game modes (Skyrim, Skyrim SE, and Fallout 4 currently) as well as script definable and command line specified settings.\n<br />[/list]\n<br />[color=#00ff00][size=5]How does it work?\n<br />[/size]\n<br />[/color][list]\n<br />[*]You can simply edit the script file and change the default parameters in the header and run it. It will then generate a packing list of files and then call the archiver tool for the game you have specified. Thus creating the destination BSA/BA2 as defined in the script defaults.\n<br />[*]The other option is targeting more for the advanced developer who has a use and need for batch scripting. You can use the same script and call with command line arguments to specify: the game type, output path, output bsa file, exclusion filename list, exclusive mod mode, mod data folder (anywhere you want it to be), compression flag for main and/or texture file, option to split textures to separate file.\n<br />[/list]\n<br />[size=5][color=#00ff00]What it doesn't do.[/color]\n<br />[/size]\n<br />[list]\n<br />[*]It will not validate the texture files that are in the texture folder in any way. When packing to separate texture archives if any invalid files are there it will produce an error. You can use the file exclusion variable to help deal with that if they are of certain types, such as Thumbs.db, or alternate versions like *.tga.\n<br />[*]It does not handle conversion to XBox compatible formats. You should use the CreationKit archive menu option to do that. It has a multitude of different things that are done to handle XBox specific changes.\n<br />[/list]\n<br />[size=5][color=#00ff00]Special Credits and Thanks[/color]\n<br />[/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/users/638691]Mytigio[/url] for help making the command line arguments possible.\n<br />[*][url=https://www.nexusmods.com/users/9339507]Coldrifting[/url] for his mod [url=https://www.nexusmods.com/skyrimspecialedition/mods/12229]BSA List Creator for Creation Kit[/url] This gave me the inspiration to make this mod.\n<br />[/list]",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "DM",
+  "createdUnix": "1535399764",
+  "updatedUnix": "1535399764",
+  "containsAdultContent": false,
+  "uploadedBy": "BigAndFlabby",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000280669",
+      "name": "PackItUp - BSA Packer Powershell Script v1_0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "PackItUp - BSA Packer Powershell Script v1_0-93319-1-0.rar",
+      "uploadedUnix": "1535399750",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b10568cc45c155aec8e903dc95caa0d3e32a1a8e12df53dfb629cb66811bb468/analysis/1535399822/",
+      "changelogHtml": " First publish <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PackItUp%20-%20BSA%20Packer%20Powershell%20Script%20v1_0-93319-1-0.rar?fid=1000280669&ttl=1535884669&ri=8192&rs=8192&setec=92ebcad6c5fea8151ded7f4756c6c13a"
+    }
+  ]
+}

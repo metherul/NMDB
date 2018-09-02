@@ -1,0 +1,48 @@
+{
+  "modId": 70465.0,
+  "modName": "Heal over Time",
+  "summary": "Changes the Vanilla Healingspells Fast Healing, Close Wounds and Grand Healing to HoTs. Optionally Respite-Perk does not longer recover Stamina, instead it doubles HoT-duration.",
+  "descriptionHtml": "[center][size=6][u][b]Healing over Time[/b][/u][/size]\r<br />\r<br />\r<br />[size=5][b][u]Description[/u]\r<br />[/b][/size]\r<br />I did this Mod for my self, because in my opinion Healing in Skyrim is kind of overpowered. \r<br />Enemys have to one-hit you, else every amount of damage can be healed in one second. \r<br />\r<br />[size=4][b]This Mod changes the Vanilla Healingspells &#39;Fast Healing&#39;[/b][/size][size=4][b], &#39;Close Wounds&#39; and &#39;Grand Healing&#39; to HoTs\r<br /> (-&gt;Healing over Time). [/b]\r<br />[/size]\r<br />[i]This means they won&#39;t heal their whole amount instantly after releasing the spell. Instead they need 5 seconds to release their whole effect. \r<br />This HoTs can not be stacked&#33; If you cast a second Healingspell before another has finished, it will reset the duration of the spell. \r<br />Your character will have a subtile golden glow, as long as a Healingspell is active.\r<br />Also Sky-UI will show an Icon as long as it is active when its settings are right.[/i]\r<br />\r<br />\r<br />[size=4][b]In addition I changed the Respite-Perk[/b][/size][size=4][b] because it made every form of stamina-managment unnecessary&#33;[/b]\r<br />[/size]\r<br />[i]It now doubles the duration of &#39;Fast Healing&#39;, &#39;Close Wounds&#39; and &#39;Grand Healing&#39;.\r<br />[size=2]For the channeled Novice-Spell &#39;Healing&#39; it now doubles the amount per second. [/size][/i][size=4][b][size=3]\r<br />[/size][/b][size=3](By request I added another file where Respite-Perk is untouched, Spellduration in this version can not be extended, \r<br />instead they will also recover stamina over time)[/size][b][size=3]\r<br />[/size]\r<br />Magicka-Cost is the same as in Vanilla, Healing-amount is also similar to Vanilla [/b][/size][i][size=4][b][/b][/size]\r<br />(a little less without Respite-Perk, a little more if you have it).\r<br />[/i]\r<br />\r<br />[u][b]Respite[/b][/u] [i]Perk[/i]\r<br />Doubles the duration of your loaded Healingspells and the amount of your channeled Healingspell.\r<br />\r<br />[u][b]Healling[/b][/u] [i]Novice Spell[/i]\r<br />Heals 7.5 points per Second. Respite-Perk doubles the amount per second.\r<br />\r<br />[u][b]Fast Healing[/b][/u] [i]Apprentice Spell[/i]\r<br />Heals 10 points of Damage per Second for 5 Seconds. Respite-Perk doubles the duration. \r<br />\r<br />[u][b]Close Wounds[/b][/u] [i]Adept Spell[/i]\r<br />Heals 20 points of Damage per Second for 5 Seconds. Respite-Perk doubles the duration. \r<br />\r<br />[u][b]Grand Healing[/b][/u] [i]Expert Spell[/i]\r<br />Heals 30 points of Damage per Second for 5 Seconds. Respite-Perk doubles the duration. \r<br />(It does not longer heal allies nearby you)\r<br />\r<br />[i]All the other Healingspells in the Game are left untouched, e.g. &#39;Heal Others&#39;[/i]\r<br />[size=4]\r<br />\r<br />[/size][size=5][u][b]Installation, Uninstallation & Compability[/b][/u][/size]\r<br />\r<br />[size=4][b]Use NMM or similar, for manual Installation just drop &#34;healing over time.esp&#34; in your Skyrim/data-folder.[/b][/size]\r<br />\r<br />This Mod is very leightweight and does not use any scripts. \r<br />It can be installed and uninstalled mid-game, even if you already have this spells. \r<br />Since the Respite-Perk does not apply a magic effect by itself, it also doesn&#39;t matter if you already got this perk.\r<br />[i](It is only there for Condition-Check, its mechanics is in the spells, I only changed the displayed description)[/i]\r<br />\r<br />It is also partly compatible with other mods, which change the restoration tree, as long as they don&#39;t change the 4 Spells I editet. \r<br />In this case it is only important that the Respite-Perk is still there and is connected to the Restoration-Novice-Perk.\r<br />It is cleaned with TESVedit.\r<br />\r<br />\r<br />I recommend [url=http://www.nexusmods.com/skyrim/mods/30073/?]Immersive Potions[/url], this mod changes all Potions etc. to an unstackable &#39;-over-Time&#39;-effect. \r<br />[i]Note: Immersive Potions and the HoTs from this [/i][i]Mod can stack\r<br />\r<br />[/i][/center]",
+  "categoryId": "93",
+  "version": "1.0",
+  "author": "JoeKa8",
+  "createdUnix": "1444482109",
+  "updatedUnix": "1444528093",
+  "containsAdultContent": false,
+  "uploadedBy": "JoeKa8",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000180175",
+      "name": "Healing over Time",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Healing over Time-70465-1-0.rar",
+      "uploadedUnix": "1444481790",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b8a8453237028c4520afee00b8fe9b678c7b769c475b130186619cd4205df2c4/analysis/1444481823/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Healing%20over%20Time-70465-1-0.rar?fid=1000180175&ttl=1535858993&ri=8192&rs=8192&setec=34b91f912958de58baa73cb3dc75aacc"
+    },
+    {
+      "fileId": "1000180303",
+      "name": "Healing over Time Stamina",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Healing over Time Stamina-70465-1-0.rar",
+      "uploadedUnix": "1444528093",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/01265bdeebc7547405a63eea48fda34a87cfe7acb106efddfeafeee24744b7eb/analysis/1444528142/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Healing%20over%20Time%20Stamina-70465-1-0.rar?fid=1000180303&ttl=1535858994&ri=8192&rs=8192&setec=828b48cbabfdbc403bdf36b8f0d01e1f"
+    }
+  ]
+}

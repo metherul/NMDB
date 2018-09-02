@@ -1,0 +1,32 @@
+{
+  "modId": 48504.0,
+  "modName": "Consistent Carry Weight",
+  "summary": "Changes the increase in carry weight when increasing your stamina by leveling up from 5 to 30.",
+  "descriptionHtml": "--Description--\r<br />This is a simple mod that changes the increase in your carry weight when you increase your stamina by leveling up from 5 to 30. I thought it was odd that you start the game with 300 carry weight and 100 stamina (a 3:1 ratio), but then only gain 5 carry weight for every 10 points of stamina you gain. This mod makes the 3:1 ratio consistent, and as a result also makes investing in stamina much more worthwhile for players who don&#39;t have much dependency on it but still wish to be able to carry more. Enjoy&#33;\r<br />\r<br />Note: This mod does not work retroactively, as it only changes the amount of carry weight you gain when increasing your stamina rather than changing it based on whatever your base stamina is. If you&#39;ve already put points into stamina, you can use this console command:\r<br />\r<br />player.modav carryweight X\r<br />\r<br />Where &#34;X&#34; is the amount of carry weight you want to add. After doing this you can continue on as normal and it will be as if the mod had been installed from the beginning. The math to figure out how much to add should be simple enough. Just multiply your base stamina by 3 and then subtract your current carry weight from it and that will give you the amount of carry weight to add.\r<br />\r<br />--Conflicts--\r<br />Any mod that changes how much carry weight you gain when increasing stamina by leveling up may conflict with this mod.\r<br />\r<br />--Changelog--\r<br />1.0: Release.",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Marioface5",
+  "createdUnix": "1386210378",
+  "updatedUnix": "1386155692",
+  "containsAdultContent": false,
+  "uploadedBy": "Marioface5",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000085317",
+      "name": "Consistent Carry Weight",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Consistent Carry Weight-48504-1-0.7z",
+      "uploadedUnix": "1386155692",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a28ab6fd1f1fd2de33261cc678172d7d0a7a0993cdb12f5efdb3954c44723bc4/analysis/1407818827/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Consistent%20Carry%20Weight-48504-1-0.7z?fid=1000085317&ttl=1535828663&ri=8192&rs=8192&setec=952275cd74eb7e4ea22619e826bd407e"
+    }
+  ]
+}

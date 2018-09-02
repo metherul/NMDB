@@ -1,0 +1,32 @@
+{
+  "modId": 3088.0,
+  "modName": "Alchemie leicht gemacht - German",
+  "summary": "Auch wenn man bei dem Titel vielleicht an etwas anderes denkt, handelt es sich bei dieser ESP-Mod um ein Re-Balancing aller Zaubertränke. Ich fand das Gewicht von Zaubertränken zu hoch, daher beschloß ich das Gewicht von Tränken und Giften auf 0.1 zu reduzieren. Selbst gemachte Tränke und Gifte wiegen ebenfalls nur noch 0.1. Skoma wiegt weiterhin 0",
+  "descriptionHtml": "This an outdated german only mod. It reweights all potions and poisons, even selfmade to 0.1.\r\n\r\nNew multilingual version (G/E/S/F/I/R/PL/CZ) is [SIZE=4][URL=\\\"http://www.skyrimnexus.com/downloads/file.php?id=3878\\\"]Black® lightened Alchemy ML[/URL][/SIZE]\r\n\r\nAlchemie leicht gemacht 1.01 \r\n\r\n########## This is a german only mod ##############\r\n[COLOR=red][U]Update-Anmerkung: Im ursprünglichen Upload fehlte ein (0-Byte) File weshalb Skyrim beim Start abstürzte. Zip-Datei wurde korrigiert und reupt. Bitte alle Anwender dieser Mod um Entschuldigung wegen den Unannehmlichkeiten. Bitte erneut downloaden![/U][/COLOR]\r\n\r\n\r\n[B]Hallo @ all,[/B]\r\n \r\nAuch wenn man bei dem Titel vielleicht an etwas anderes denkt, handelt es sich bei dieser Mod um ein Re-Balancing aller Zaubertränke. Ich fand das Gewicht von Zaubertränken zu hoch, daher beschloß ich das Gewicht von Tränken und Giften auf 0.1 zu reduzieren. Selbst gemachte Tränke und Gifte wiegen ebenfalls nur noch 0.1. Skoma wiegt weiterhin 0.5. Essen habe ich nicht verändert.\r\n\r\nEs handelt sich um eine ESP-Mod. Diese Mod wurde mit Hilfe der folgenden Tools erstellt:\r\n[LIST]\r\n[*][URL=\\\"http://www.skyrimnexus.com/downloads/file.php?id=2889\\\"]Skyrim String Localizer[/URL],\r\n[*][URL=\\\"http://www.fallout3nexus.com/downloads/file.php?id=34\\\"]FO3 Archive Utility[/URL],\r\n[*][URL=\\\"http://www.fallout3nexus.com/downloads/file.php?id=640\\\"]TESSnip[/URL] (Teil von [URL=\\\"http://www.fallout3nexus.com/downloads/file.php?id=640\\\"]FOMM[/URL]),\r\n[*][URL=\\\"http://www.newvegasnexus.com/downloads/file.php?id=34703\\\"]FNVEdit[/URL],\r\n[/LIST]Mein Dank gilt den jeweiligen Autoren, ohne deren Arbeit dies nicht möglich gewesen wäre.\r\n\r\nWenn euch diese Mod gefällt, dann votet bitte für mich!\r\n \r\nAuch wenn die Mod ziemlich simpel umzusetzten war, war es jedoch eine verdammt harte (weil langweilige) Arbeit. Es mußte nicht etwa eine einzelne globale Variable gesetzt werden, sondern jeder Trank und jedes Gift in jeweils fünf Ausführungen einzeln bearbeitet werden (288 objekte). Wenn ich nur noch einmal den Wert \\\"CD CC CC 3D\\\" (Hex-Entsprechung für 0.1) sehe, dann kotze ich. Außerdem ist dies streng gesehen keine deutsche Mod sondern eine ML-Version mit nur einer Sprache. Sie kann innerhalb von Minuten in eine andere Sprache konvertiert werden, dazu muß man nicht einmal moden können, braucht auch nur ein Tool, den: [URL=\\\"http://www.skyrimnexus.com/downloads/file.php?id=2889\\\"]Skyrim String Localizer[/URL].\r\n\r\n[B]Installation:[/B]\r\n[LIST]\r\n[*]Ordner in einem beliebigen Verzeichnis seiner Wahl aus der Zip-Datei entpacken,\r\n[*]Den Ordner \\\"[B][I]Data[/I][/B]\\\" ins Skyrim-Verzeichnis kopieren,\r\n[*]Frage nach der Integration des Ordners bejahen,\r\n[*]Skyrim Launcher starten,\r\n[*]Datendateien auswählen,\r\n[*]sicherstellen, daß ein Haken vor \\\"[B][I]Alchemie leichtgemacht.esp[/I][/B]\\\" steht,\r\n[*]fertig, Skyrim starten.\r\n[/LIST]\r\n\r\n[B]Deinstallation:[/B]\r\n[LIST]\r\n[*]\\\"[B][I]Alchemie leichtgemacht.esp[/I][/B]\\\" aus dem \\\"DATA\\\"-Verzeichnis löschen,\r\n[*]die Dateien \\\"[B][I]Alchemie leicht gemacht_German.strings[/I][/B]\\\",\r\n[*]\\\"[B][I]Alchemie leicht gemacht_German.ILSTRINGS[/I][/B]\\\" und\r\n[*]\\\"[B][I]Alchemie leicht gemacht_German.DLSTRINGS[/I][/B]\\\" aus dem Verzeichnis \\\"Strings\\\" löschen,\r\n[*]wenn der Ordner \\\"Strings\\\" leer ist, kann er ebenfalls gelöscht werden.\r\n[/LIST]\r\n\r\nInstallation und De-Installation sind unkritisch, irgendwelche Probleme sind nicht zu erwarten, da nur eine einzige Variable (Gewicht) geändert wurde. Andere Mods, die ebenfalls Tränke beinflussen, könnten die Originalwerte zurücksetzten. In diesem Fall die Ladereihenfolge so ändern, daß \\\"Alchemie leicht gemacht\\\" später geladen wird.\r\n \r\n[B][SIZE=5]Viel Spaß in Himmelsrand[/SIZE][/B]\r\n\r\n[SIZE=4][B]Black Widowmaker - Software Unlimited[/B][/SIZE]",
+  "categoryId": "24",
+  "version": "1.01",
+  "author": "Black Widowmaker",
+  "createdUnix": "1323390980",
+  "updatedUnix": "1323441605",
+  "containsAdultContent": false,
+  "uploadedBy": "Black Widowmaker",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "8557",
+      "name": "Alchemie leicht gemacht - German",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "42",
+      "fileName": "Alchemie leicht gemacht - German-3088.zip",
+      "uploadedUnix": "1323441605",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/c647586d4dfd37ff6cbd54b71c91e35059f096e50476692bf8965b70ff05e5ed/analysis/1406497325/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Alchemie%20leicht%20gemacht%20-%20German-3088.zip?fid=8557&ttl=1535757843&ri=8192&rs=8192&setec=0aad9a6df3465b9080ac951d49df31ee"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 83133.0,
+  "modName": "Sneakus Peekus",
+  "summary": "A small experiment I have been working on, allowing the player to lean around corners to peek. Intended mainly for use with immersive first person mods.",
+  "descriptionHtml": "[b][u][center][color=#bf9000][size=5]Sneakus Peekus[/size][/color][/center]\r<br />[/u][/b][color=#ffd966][size=3][b]Update: [/b][/size][/color]\r<br />In a response to some feedback I have made a seperate version which will instead allow you to face the wall you want to lean against, and then you will simply be spun around so that your back is against it when you press the hotkey. I feel this makes it less clunky for me, as I do agree that having to lineup your back was a bit of a task. Let me know :)\r<br />\r<br />Greetings, \r<br />This mod is an experiment but also functional, and allows you the player to lean around objects that you have your back up against. \r<br />\r<br />[u][b][center][color=#fff2cc][size=4]Why…have you… DONE THIS?&#33; YOU MONSTER&#33;[/size][/color][/center]\r<br />[/b][/u]\r<br />Well, this mod was intended for use with immersive first person mods as I personally enjoy not leaving the first person view as much as possible, and disliked having to go third person to get an idea of what was around a corner without exposing my character completely. I.e. sneaking around a corner into the light and being spotted to only go “Oh ok so that’s what’s around the corner...” \r<br />\r<br />As well as just fun roleplay purpose.\r<br />[b][u][color=#fff2cc][size=4]\r<br />[center]The Technicalities[/center][/size][/color][/u][/b]\r<br />\r<br />\r<br />Upon loading your save you will now have an ability in your powers menu “[i]Peeking Around Corners Config[/i]” equip and cast that using the powers key. You will then be prompted by a message box asking for what hotkey you’d like [b]Leaning Left[/b] to be, simply [b][i]hold [/i][/b]the key you’d like and click the button at the same time. A couple seconds will go by and similar message box will open asking for the hotkey for [b]LeaningRight[/b], similarly hold the key whilst you click the button and it’ll bind.\r<br />If you want to change the key binds, simply cast the spell again and wait a moment, you’ll be taken back through the same process again\r<br />shortly.\r<br />[b][size=3]\r<br />[color=#ffff00]How to lean;[/color]\r<br />[/size][/b]\r<br />Now that the keys are bound, simply walk up to any chest-height object, or a wall, and face your character’s back (or front, depending on version) towards it and then press thehotkeys. (You have to be fairly close but there is a bit of legroom)\r<br />\r<br />There are a few things to note though, firstly, the animations I’m using are vanilla animations. The problem is that the animations used allow your character to enter a looped animation which switches between 2 states, one that has your character with their back pressed up against the wall, and one where they’re leaning out from the wall. It will cycle between these 2 animations consistently but also somewhat randomly, and mostly out of your control. You can of course interrupt the animation by hitting space bar. Also, hitting the hotkey whilst the animation is playing will reset the animation… allowing you to tuck your head back in quickly.\r<br />\r<br />If you are sneaking before you lean, you will still count as sneaking. Beyond that there are no bonus stealth benefits, and enemies [i]will see you[/i] if your head is poking out, though as said if you&#39;re sneaking it&#39;ll help. I did think about buffing sneak or even granting an invisibility-like effect while you perform the peeking but quickly realised there was no way to check where the enemies were looking at you from. I.e. someone walking up behind you while peek around a corner would still be at a disadvantage of seeing you because of the buffs.\r<br />\r<br />Due to you being able to do this just about anywhere as long as your back is against an object, it&#39;s up to you to position correctly. :)\r<br />\r<br />[b][color=#ffe599]Why not use [i]just[/i] the leaning out animation on its own?[/color][/b]\r<br />\r<br />Unfortunately I am not an animator and have minimal knowledge about editing .hkx files, but I did try to do this originally, and the animation file does exist to exclusively lean out for both left and right without the in-between back against wall. However, they both make you lean out to the right (yes even the one that says left).\r<br />\r<br />I searched for why this worked this way for quite a while, and why the animation I’m using worked for deciding left or right but the exclusive ones do not. However, in the end could not figure it out even with [url=http://www.nexusmods.com/skyrim/users/8120/? ]Fore’s [/url]Input and help. \r<br />[b]--------------------------------------------------------------------------------------[/b]\r<br />[b][color=#ffd966][size=3]\r<br />Message for those with knowledge about how to edit/dissect skyrim animation and behaviour files and interested\r<br />in helping improve this mod&#33;[/size][/color]\r<br />[/b]\r<br />Through the problems I highlighted above, these prevent this mod from being as good as I’d like it to be, unfortunately these issues are holding it back. If you have experience with animations and think you can figure this out, please take a look at these files in the Skyrim – Animations.bsa\r<br />\r<br />[i]Special_cornerpeekenter.hkx[/i]\r<br />[i]Special_cornerpeekexit.hkx[/i]\r<br />[i]Special_cornerpeekidle.hkx[/i]\r<br />[i]Special_cornerpeekloop.hkx[/i](mainly this one) \r<br />\r<br />As well as [i]IdleWallCornerPeekREnterInstant, IdleWallCornerPeekLEnterInstant[/i], [i]PeekingLoop1Right, [/i][i]PeekingLoop1Left[/i] in the Creation Kit Idle Animations menu, under 0_Master.hkx. \r<br />\r<br />PeekingLoop1left/right both make you lean the same way when played. However IdlewallCornerPeekR/LEnterInstant (which are the ones I’m\r<br />using) go their specified directions. The Peekingloop anims are a part in the IdleWall animation, they are the leaning out part. And if they both went their\r<br />specified ways I’d be able to make this mod much more responsive/smooth. \r<br />\r<br />So if you think you can figure out how these animations work, please have a crack at it and pm me with your findings&#33; Or better yet, make them work :D\r<br />\r<br />[b][u]Bugs\r<br />[/u][/b]None as far as I am aware, but as always if you find issues or what you think may be a bug let me know. I made this in a night so there may very well be some.\r<br />\r<br />[b][u]Credits[/u][/b]\r<br />[url=http://www.nexusmods.com/skyrim/users/8120/? ]Fore[/url] for giving me some better understanding of behaviour files and animations.\r<br />Bethesda for the game.\r<br />\r<br />[b][u]Permissions[/u][/b]\r<br />Do not upload this mod or add it into an uploaded collabelsewhere without my permission, ty.",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "Drazhar753",
+  "createdUnix": "1491331817",
+  "updatedUnix": "1491373843",
+  "containsAdultContent": false,
+  "uploadedBy": "Drazhar753",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000240865",
+      "name": "Sneakus Peakus",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "Sneakus Peakus-83133-1-0.zip",
+      "uploadedUnix": "1491331279",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ffeb72c92378858679893c6ff6a55b8039d6e834bc8953f2ab3bc9855c476e55/analysis/1491331562/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Sneakus%20Peakus-83133-1-0.zip?fid=1000240865&ttl=1535871955&ri=8192&rs=8192&setec=08c6b0767bcfb1b59228109a0eec4489"
+    },
+    {
+      "fileId": "1000240919",
+      "name": "Sneakus Peekus (Front facing activation) (Recommended)",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "Sneakus Peekus (Front facing activation)-83133-1-1.zip",
+      "uploadedUnix": "1491373843",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/29052d1184e33ff41570b0e8b87f667e90c6e8ec370c7b2aa7e1be1d69cc0618/analysis/1491374110/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Sneakus%20Peekus%20%28Front%20facing%20activation%29-83133-1-1.zip?fid=1000240919&ttl=1535871956&ri=8192&rs=8192&setec=ebfbd31b6453be827f683c2fc284980f"
+    }
+  ]
+}

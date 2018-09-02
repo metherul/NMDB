@@ -1,0 +1,32 @@
+{
+  "modId": 50471.0,
+  "modName": "Memory Blocks Log",
+  "summary": "A SKSE plugin to log sizes of memory block 1 and 2",
+  "descriptionHtml": "You know the price for my mods: blood, sweat and tears. Oh, and your first born.\n<br />If you want to help other authors of quality mods then support them directly.\n<br />\n<br />\n<br />[b]This is a utility for users who patch Skyrim according to Skyrim Memory Patch.[/b]\n<br />This SKSE plugin helps finding a good size for the first memory block (DefaultHeap).\n<br />\n<br />See GamerPoets video on the left for installation of Memory Blocks Log and how to use the log it creates to set useful DefaultHeap memory values. Gopher was nice enough to make a video on the right explaining the memory patch in detail.\n<br />\n<br />[youtube]EnmkloC905Q[/youtube] [youtube]37xAMUQc1oY[/youtube]\n<br />\n<br />[url=https://www.youtube.com/channel/UCF1Qkw7OUG4JmIrw1QI-oWg]See GamerPoets channel for more great tutorials.[/url] Please consider supporting Gamerpoets through [url=http://goo.gl/oTXR6P]PayPal[/url] or [url=http://goo.gl/gF9Scn]Patreon[/url] if you find the instructional video useful.\n<br />\n<br />\n<br />[b][size=4]The Question[/size][/b]\n<br />\n<br />Since posting about the patch one important question to answer is, how much memory to pre-allocate for the first block (DefaultHeap). There is no need to pre-allocate a much larger block for the than the game will actually need. In fact doing so can have a negative impact, because other parts of the game need memory as well and the more is pre-allocated to this specific block the less is available to the other processes.\n<br />\n<br />Remember, we are not telling the game to use more memory, we are telling it to pre-allocate the first block (DefaultHeap) in one big continuous chunk instead of the default small chunk and later using additional smaller chunks somewhere else.\n<br />\n<br />[b][size=4]The Answer[/size][/b]\n<br />\n<br />MemoryBlocksLog is a SKSE plugin that writes the sizes of the two memory blocks DefaultHeap and ScrapHeap to a logfile whenever more memory is committed to them. Check the readme.txt in the zip for more info about how to install and how to use it.\n<br />\n<br />After installation and verifying that it writes to the logfile start a game to find the highest needed value for your setup. Find the busy spots with lots of cell data. Windhelm Harbour comes to mind, the Rift or Solitude Harbour. It is typically the exterior spots where you had ILS.\n<br />\n<br />If the reported size reaches the patch value, increase it by 128MB and test again.\n<br />\n<br />If the reported size does not reach the patch value, take the highest value reported for Block1 (DefaultHeap) from the logfile and add a few Megabytes, for example 30 or 60MB, as buffer.\n<br />\n<br />Do not use patch values below the default 256MB.\n<br />\n<br />The size of Block2 (ScrapHeap) is just reported for completeness. It should never go over 256MB unless new patch information is discovered. It is recommended not to change it. If the game doesn't start with high Block 1 (DefaultHeap) values set ExpandSystemMemoryX64=false in enblocal.ini\n<br />\n<br />=================================================================\n<br />\n<br />[b][size=4]Requirements[/size][/b]\n<br />\n<br />This is a plugin for Skyrim Script Extender SKSE so you need SKSE\n<br />http://skse.silverlock.org/\n<br />\n<br />=================================================================\n<br />\n<br />[b][size=4]Installation[/size][/b]\n<br />\n<br />Copy MemoryBlocksLog.dll and MemoryBlocksLog.ini into the SKSE plugin folder. \n<br />../data/skse/plugins/\n<br />\n<br />=================================================================\n<br />\n<br />[b][size=4]Settings[/size][/b]\n<br />\n<br />Edit ../data/skse/plugins/MemoryBlocksLog.ini in notepad to set log location and other things\n<br />\n<br />If using MO and DefaultLogLocation=true check overwrite folder for the logfile.\n<br />\n<br />=================================================================\n<br />\n<br />This is really straight forward and should not require help to use.\n<br />Do not ask me me how to install SKSE or an SKSE plugin. There are already guides for that.\n<br />Do not ask me how to edit or create an ini file. Notepad?\n<br />Do not ask me how to patch your game. The preferred method is to use the official SKSE.ini settings.\n<br />Do not ask me for help with your game or how to find a mate, cook or bind your shoe laces.\n<br />I know you are happy your game works now. I am glad, too and thank you for your first borns.\n<br />\n<br />=================================================================\n<br />\n<br />Not seeing the wood for the trees\n<br />\n<br />[url=http://wiki.step-project.com/Main_Page]S.T.E.P. Project[/url]\n<br />[url=http://www.nexusmods.com/skyrim/mods/50244/]Skyrim Stability Guide[/url]\n<br />[url=http://www.nexusmods.com/skyrim/mods/50214/]Speed and Stability Guide for ENB[/url]\n<br />[url=https://www.youtube.com/channel/UCF1Qkw7OUG4JmIrw1QI-oWg]GamerPoets Youtube Channel[/url]\n<br />[url=http://www.youtube.com/user/GophersVids]Gophers Youtube Channel[/url]\n<br />[url=http://skse.silverlock.org/]Skyrim Script Extender (SKSE)[/url]\n<br />\n<br />=================================================================\n<br />\n<br />Sheson - Holy Cow I fixed Skyrim\n<br />\n<br />=================================================================",
+  "categoryId": "39",
+  "version": "1.2",
+  "author": "Sheson",
+  "createdUnix": "1390961735",
+  "updatedUnix": "1390960536",
+  "containsAdultContent": false,
+  "uploadedBy": "sheson",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000093989",
+      "name": "MemoryBlocksLog",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "377",
+      "fileName": "MemoryBlockLog-50471-1-2.zip",
+      "uploadedUnix": "1390960536",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/93669535c98099fa6af02ea852fa29d836889f4437c3ecadaa860bc2c08c8920/analysis/1407906908/",
+      "changelogHtml": " Cleaned and fixed readme, official release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MemoryBlockLog-50471-1-2.zip?fid=1000093989&ttl=1535832206&ri=8192&rs=8192&setec=e4a878593c37c387f750000d2e53a4a1"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 63775.0,
+  "modName": "Brand new start - Skills at level 0",
+  "summary": "Simple .bat file setting all skills levels to 0.",
+  "descriptionHtml": "[size=3]I was looking for a way to set all skills to 0 or any closer and after analyzing / testing this .bat file [url=http://www.nexusmods.com/skyrim/mods/4121/?]Roleplaying and Harder Start - Skills to Level 1[/url] , I decided to improve it on my own way.\r<br />\r<br />[/size][size=6][u]What has been improved.[/u]\r<br />[/size]\r<br />[size=3]On his .txt file, the skills level is virtually changed for the 1st level up. (For example, for a base skill level of 20, if you need 1000 XP to go to level 21, you will still need 1000 XP to go from level 1 to level 2 before the game recalculate the XP needed)\r<br />[/size]\r<br />[size=3]My version basically add some lines in order to &#34;reset&#34; the needed XP by leveling up every Skills and then setting them back to level 0. (So leveling from 0 to 1 will only ask 50 XP for example)\r<br />[/size]\r<br />[size=6][u]What does it change?\r<br />[/u][/size]\r<br />[size=3]You&#39;ll level up your skills faster and it will be easier to start new skills as they will ask less effort to level up at start.[/size]\r<br />\r<br />[size=6][u]Versions.\r<br />[/u][/size]\r<br />[size=3]For now there&#39;s only 2 versions:\r<br />\r<br />ResetSkill0: Set Player level to 0 with the player XP progression at 18/75 (If you want to start at level 1 simply edit the 1st line to 1, you won&#39;t get a perk point but still have XP progression)\r<br />\r<br />ResetSkill1: Set Player level to 1 with no XP progression and a free perk point. (You&#39;ll have to [b]upgrade your health to get it back to 100 [/b]due to the level up)\r<br />\r<br />UPDATE: Now there&#39;s a .txt file for every races with their main skill at level 18 (instead of 25), secondary skills at 9 (instead of 20) and all the other skills to 0, plus a perk point. (You still have to level up your health to bring it back to 100)\r<br />\r<br />[/size][size=6][u]Install / Uninstall / Compatibility.\r<br />[/u][/size]\r<br />[size=3]To install and use, simply copy the file into the skyrim/data folder, launch the game, open the console using the [²], [~] or [¬] Key depending on your keyboard and write: bat &#34;name of file&#34; (example: bat ResetArgonian). /&#33;&#92; You have to wait to control your caracter before entering the bat command otherwise they&#39;ll come back to default. /&#33;&#92;\r<br />\r<br />To uninstall, simply delete the .txt file from your Skyrim/data folder.\r<br />\r<br />Since this use basic console commands, this should have a 100% compatibility with every mods and have absolutely no requirement other than Skyrim itself of course ;)\r<br />\r<br />[/size][size=6][u]Creditz.\r<br />[/u][/size]\r<br />[size=3]Credits goes to [url=http://www.nexusmods.com/skyrim/users/2210223/?tb=mods&pUp=1]XenonsSpork[/url] for the original idea.\r<br />\r<br />PS: English is not my 1st language so forgive me for the mistakes :)[/size]",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "Taker093",
+  "createdUnix": "1426398816",
+  "updatedUnix": "1426432102",
+  "containsAdultContent": false,
+  "uploadedBy": "TaKer093",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000151567",
+      "name": "ResetSkill Files",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "ResetSkill Files-63775-1-0.rar",
+      "uploadedUnix": "1426398811",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e7daa93141443a612d01216113b966b7ffcfa31350d0372205487e598506f7f4/analysis/1426398842/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ResetSkill%20Files-63775-1-0.rar?fid=1000151567&ttl=1535852460&ri=8192&rs=8192&setec=18c807f3c6bc062753448263938c7d28"
+    },
+    {
+      "fileId": "1000151622",
+      "name": "ResetAll and Specific Races",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "ResetAll and Specific Races-63775-1-1.rar",
+      "uploadedUnix": "1426432102",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/3dd31c97bd6f73f7d818ef391ae654866e8f8f0961fed2a96fc10420ac24c8d4/analysis/1426432142/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ResetAll%20and%20Specific%20Races-63775-1-1.rar?fid=1000151622&ttl=1535852461&ri=8192&rs=8192&setec=419b0604e353a7d5e07d3dada7e1c672"
+    }
+  ]
+}

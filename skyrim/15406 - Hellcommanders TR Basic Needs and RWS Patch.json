@@ -1,0 +1,32 @@
+{
+  "modId": 15406.0,
+  "modName": "Hellcommanders TR Basic Needs and RWS Patch",
+  "summary": "My own simple patch so Real Wildlife - Skyrim food items can effect hunger level etc with TRO_BasicNeeds\r\n",
+  "descriptionHtml": "Name: Hellcommander\\'s TR-Basic Needs & RWS Patch\r\nVersion:\r\nDate: 4/17/2012\r\nCategory: Miscellaneous\r\nRequirements: Player-Created MOD(s): Real Wildlife Skyrim 0.1.esp and TRO_BasicNeeds.esp\r\nAuthor(s): Patch made by Hellcommander711\r\nSource:\r\n\r\nDescription\r\n===========\r\nMy own simple patch so Real Wildlife - Skyrim food items can effect hunger level etc with TRO_BasicNeeds\r\n\r\n\r\nDetails\r\n=======\r\nOf changes food items for Real Wildlife as following:\r\nRaw Bear Meat (FORMID RWSFoodBearMeat) changed have raw food effect\r\nCooked Bear Meat (formid RWSFoodDisBearMeatCooked) median food filling food\r\nRaw Diseased Bear Meat (was called Raw Bear Meat renamed to reduce confusion)(FORMID RWSFoodDisBearMeat) removed healing effect, added raw food effect, added damage health effect 2 pts for 60 seconds til I can create a good script effect to give player random disease.\r\nRaw Diseased Saber Cat Meat (was called Raw Saber Cat Meat renamed to reduce confusion)(FORMID RWSFoodDisSaberCatMeat) removed healing effect, added raw food effect, added damage health effect 2 pts for 60 seconds til I can create a good script effect to give player random disease.\r\nDiseased Wolf Meat (was called Raw Wolf Meat renamed to reduce confusion)(FORMID RWSFoodDisSaberCatMeat) removed healing effect, added raw food effect, added damage health effect 2 pts for 60 seconds til I can create a good script effect to give player random disease.\r\nRoasted Dog Meat (FORMID RWSFoodDogCooked) replaced effect with medium meal effect\r\nElsweyr Stew replaced effects with medium meal effect\r\nHunter\\'s Hotpot (formid RWSFoodHuntersStew) replaced restore stamina part of effect with Filling meal effect since it sounds like it has alot of things in it.\r\nfox meat = raw\r\nfox meat cooked = medium\r\nraw Giant meat = raw\r\nCooked Giant meat = put at medium to be similiar to mammoth\r\nGrouse Breast = raw\r\nGrouse Breast cooked = light\r\nraw hawk meat = raw\r\ncooked hawk meat = light (hawks in Skyrim are small)\r\nraw mammoth meat = raw\r\ncooked mammoth meat = medium (same as effect as basic needs adds)\r\nraw saber meat = raw\r\ncooked saber cat meat = medium\r\ntripe stew = medium\r\nraw wolf meat = raw\r\ncooked wolf meat = medium (I have heard online that wolf meat tastes very bad though :P)\r\n\r\nIf authors of mods this makes match want me to take down I will.\r\nPlans:\r\nMake it possible for actor that eats diseased meat to have chance of catching disease from that the creature can pass.\r\nThis is not the patch released by Shiek200.\r\nThis is a patch I created by self.\r\n\r\n1.Extract somewhere\r\n2.Place in your data folder of Skyrim\r\n3.Use your favorite modding tool to place after TR-Basic Needs & Real wildlife in the following order:\r\nReal Wildlife Skyrim 0.1.esp\r\nTRO_BasicNeeds.esp\r\nTR-Basic Needs & RWS Patch.esp\r\n\r\nUninstall\r\n=========\r\n1. Uncheck TR-Basic Needs & RWS Patch.esp with whatever mod manager you use.\r\n2. Delete the files/folders associated with the mod.\r\n\r\n\r\n\r\nUpgrade\r\n=======\r\nOnly changes effect so if I ever change the mod their shouldn\\'t be any problems I aim for mods I make to have the least conflicts and problems I can.\r\n\r\nIncompatibility\r\n===============\r\nIncompatible with any mod that changes the food/potion category items added by Real Wildlife Skyrim.\r\n\r\nKnown Issues or Bugs\r\n====================\r\nNo issues at time of writing that I know of.\r\n\r\nHistory\r\n=======\r\n1.0, 04/18/12- Initial release.\r\n\r\nContact\r\n=======\r\nPost any comments on the comment section.\r\n\r\nCredits\r\n=======\r\nAll credits for content go to Nedius (author of Real Wildlife - Skyrim) and author of (Total Realism - Basic Needs)\r\n\r\nThanks to Bethesda for creating Skyrim.\r\nThanks to TESNexus.com for the a one-stop-shop resource for authors and players.\r\nThanks to LHammonds for the Readme Generator this file was based on.\r\n\r\nTools Used\r\n==========\r\n7-Zip - http://www.tesnexus.com/downloads/file.php?id=15579\r\nCreation Kit\r\nReadme Generator - http://HammondsLegacy.com/obmm/tools_readme_generator1.asp\r\nWrye Bash - http://wrye.ufrealms.net/Wrye%20Bash.html\r\n\r\nLicensing/Legal\r\n===============\r\nYou can do whatever you want with this mod but don\\'t complain to me if it\r\ndoesn\\'t work or your PC blows up.\r\nAny of the mod authors of the 2 mods it uses to patch can place on their mod page and maintain if they want.",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "Patch Created by Hellcommander711",
+  "createdUnix": "1334718223",
+  "updatedUnix": "1334718441",
+  "containsAdultContent": false,
+  "uploadedBy": "Hellcommander711",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "54150",
+      "name": "Hellcommanders TR Basic Needs and RWS Patch version 1",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Hellcommanders TR Basic Needs and RWS Patch version 1-15406-1.7z",
+      "uploadedUnix": "1334718441",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/412c5aa0073a30a884049862d1dea6ec4a08642f7f6d833843a033d8cb724c50/analysis/1406821172/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hellcommanders%20TR%20Basic%20Needs%20and%20RWS%20Patch%20version%201-15406-1.7z?fid=54150&ttl=1535779764&ri=8192&rs=8192&setec=004e9ca0a4115983dc5be2219513178c"
+    }
+  ]
+}

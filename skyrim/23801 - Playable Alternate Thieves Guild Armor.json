@@ -1,0 +1,48 @@
+{
+  "modId": 23801.0,
+  "modName": "Playable Alternate Thieves Guild Armor",
+  "summary": "You can obtain playable copies of the gray sleeveless armor and the floppy brown hood from the training room in the Ragged Flagon Cistern.",
+  "descriptionHtml": "DESCRIPTION:\r<br />\r<br />Adds the gray sleeveless variety of Thieves Guild armor, and the floppy brown hood (like Cynric wears) to the Ragged Flagon Cistern, in the training room.\r<br />\r<br />You may temper it and guards and other NPCs will recognize it, and Tonilia can even upgrade it for you.\r<br />\r<br />All the armor will respawn in the Cistern if you leave the cell for enough time, allowing you to procure multiple sets.\r<br />\r<br />REQUIREMENTS:\r<br />\r<br />A working copy of the Elder Scrolls V: Skyrim.\r<br />\r<br />INSTALLATION:\r<br />\r<br />Place the contents of the .7z file in your &#34;Data&#34; folder, which is usually located under Steam/steamapps/common/Skyrim.\r<br />\r<br />The ReadMe document and the .bsl file are not required for the mod to run -- you may keep them or discard them.\r<br />\r<br />UNINSTALLATION:\r<br />\r<br />Delete the included .esp and .bsa file.\r<br />\r<br />The nature of Skyrim’s scripting language, Papyrus, means that, even following this procedure, your Papyrus log will continue to throw errors about missing scripts, potentially leading to save game bloat. There is, lamentably, nothing that I can do about this -- you have been warned.\r<br />\r<br />UPDATING:\r<br />\r<br />Replace all older files with newer versions. If in doubt, replace all mod files with the contents of the latest uploaded archive.\r<br />\r<br />No in-game configuration is necessary.\r<br />\r<br />BUGS:\r<br />\r<br />As of yet, none.\r<br />\r<br />The hoods may not show up correctly on vampires, and in first-person while wearing the gray armor with a male character, you&#39;ll notice that you&#39;ve got no arms. As these are both vanilla bugs, I recommend that you install the Unofficial Skyrim Patch (at least version 1.2).\r<br />\r<br />COMPATIBILITY:\r<br />\r<br />This should be compatible with practically any mod that doesn&#39;t alter the quest to upgrade your guild armor, TG04Post.\r<br />\r<br />If something else is altering it, you can still enjoy your other armor options, but upgrading them won&#39;t work properly.\r<br />\r<br />ADD-ONS:\r<br />\r<br />The other file makes the armor worn by NPCs playable (can be taken from their inventory). If you&#39;ve already met the NPC, you&#39;ll have to use the &#34;ResetInventory&#34; console command to update their outfit (take anything you don&#39;t want to lose out of their inventory first&#33;). This file does not extend to the random encounter thief who tries to break into buildings at night, Nightingale ghosts, or Mercer Frey during &#34;Blindsighted&#34;. It could be useful to anyone who has something that allows them to wipe out the Thieves Guild, or another similar mod. People who don&#39;t wish to do that can still get some benefit -- Karliah and Brynjolf will wear enchanted Nightingale armor and so be muffled when they follow you.",
+  "categoryId": "54",
+  "version": "1.4",
+  "author": "PrinceShroob",
+  "createdUnix": "1347060797",
+  "updatedUnix": "1396803757",
+  "containsAdultContent": false,
+  "uploadedBy": "PrinceShroob",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000012696",
+      "name": "Playable Alternate Thieves Guild Armor -- NPC",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "26",
+      "fileName": "Playable Alternate Thieves Guild Armor -- NPC-23801-1-0.7z",
+      "uploadedUnix": "1361690164",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1a22aad4358ff5561a0ab58e34aa0c7a77b130f036319bcd2af91d735c1c3752/analysis/1407436500/",
+      "changelogHtml": " Released <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Playable%20Alternate%20Thieves%20Guild%20Armor%20--%20NPC-23801-1-0.7z?fid=1000012696&ttl=1535794269&ri=8192&rs=8192&setec=4e152f96326136e65931d0d0a48ffe47"
+    },
+    {
+      "fileId": "1000103914",
+      "name": "Playable Alternate Thieves Guild Armor",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "33",
+      "fileName": "Playable Alternate Thieves Guild Armor-23801-1-4.7z",
+      "uploadedUnix": "1396803757",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/fde919c7f38159ae19ffcbb5a7d13b7acc9f0fcf5d433d76883364154f25288c/analysis/1408009744/",
+      "changelogHtml": " Removed extended script to correct issue where Tonilia would randomly not give you back an upgraded piece of armor <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Playable%20Alternate%20Thieves%20Guild%20Armor-23801-1-4.7z?fid=1000103914&ttl=1535794269&ri=8192&rs=8192&setec=234ebfe238f64cc715e2cfd68ef92484"
+    }
+  ]
+}

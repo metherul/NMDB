@@ -1,0 +1,48 @@
+{
+  "modId": 55474.0,
+  "modName": "Jaxonz Lights Please",
+  "summary": "Makes using Candlelight and Magelight spells much easier.",
+  "descriptionHtml": "[center][size=6][color=#F5C908][b]Magic Lighting Convenience[/b][/color][/size]\r<br />[size=4]Cast Candlelight and Magelight with a keystroke[/size][/center] \r<br />\r<br />[color=#F5C908][heading]Description[/heading][/color]\r<br />This is a very simple mod that makes using Candlelight and Magelight spells much easier.\r<br />\r<br />You no longer have to select the Candlelight spell, cast it, and switch back to whatever spell or weapon you had before. Just press a hotkey to toggle Candlelight on or off (default = [ ). It is automatically recast every minute and it will be instantly dispelled if turned off.\r<br />\r<br />You can also instantly cast the Magelight spell simply by striking a hotkey (default = ]).\r<br />\r<br />[color=#F5C908][heading]Features[/heading][/color]\r<br />[list][*]Toggle Candlelight spell off and on[*]Automatic recasting[*]Dispell on command[*]Send Magelight missile with 1 keystroke[*]Never have to disarm to improve lighting[/list]\r<br />[color=#F5C908][heading]Requirements[/heading][/color]\r<br />[list][*][url=http://skse.silverlock.org]SKSE 1.7.1[/url][*][url=http://www.nexusmods.com/skyrim/mods/3863/?]SkyUI[/url][/list]\r<br />[color=#F5C908][heading]Compatibility[/heading][/color]\r<br />[list][*]Fully compatible with DLC and 3rd party mods.[*]No known conflicts.[*]Any load order works.[*]Hot keys are remappable to avoid conflicts.[/list]\r<br />[color=#F5C908][heading]Game Safe[/heading][/color]\r<br />[list][*]Adds no scripts to objects.[*]Safely and easily remove at any time.[*]No game bloat.[/list]\r<br />\r<br />[color=#F5C908][heading]Other Great Mods from Jaxonz[/heading][/color]\r<br />[list]\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/52583]Positioner[/url]: The decorator&#39;s most powerful tool to accurately and easily move/copy/scale any object in-game.\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/57335]Renamer[/url]: Easily rename objects, equipment, containers, people, creatures, horses, pets, player homes, and just about anything.\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/52927]Smart Looter[/url]: Automatically gathers the good stuff and leaves the junk, allowing you to focus on the adventure.\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/53641]Blink Teleport[/url]: Amazingly powerful and fun&#33; Blip to anywhere in the blink of an eye.\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/56545]Subtle Cloak Graphics[/url]: Be able to actually see when using a flame/frost/lightning cloak.\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/55474]Lights Please[/url]: Easily use magical lighting spells without disarming.\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/53365]Archery Focus[/url]: Automatically helps you aim when using bows and crossbows.\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/53268]Archery Perks[/url]: Adds tracer shots and automated arrow collection to the archery perk tree.\r<br />[/list]\r<br />All Jaxonz mods are stable and extremely high quality, coded by professionals.",
+  "categoryId": "93",
+  "version": "2.0",
+  "author": "Jaxonz",
+  "createdUnix": "1404180576",
+  "updatedUnix": "1408735926",
+  "containsAdultContent": false,
+  "uploadedBy": "jaxonz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000115371",
+      "name": "Jaxonz Lights Please",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Jaxonz Lights Please-55474-1-0.zip",
+      "uploadedUnix": "1404180515",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6bd30209c5cf1eb5ec9e0450de3fe2d5f448ba03f6572236d78da68f125e4c9b/analysis/1408155638/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jaxonz%20Lights%20Please-55474-1-0.zip?fid=1000115371&ttl=1535840273&ri=8192&rs=8192&setec=3ba480e9414d2bd2c0b475e5256c6553"
+    },
+    {
+      "fileId": "1000123279",
+      "name": "Jaxonz Lights Please",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Jaxonz Lights Please-55474-2-0.zip",
+      "uploadedUnix": "1408735926",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1fcc7792c14b2929bada9d5368f7e70bfd6eaa217f7bcae430a913627572b535/analysis/1408736042/",
+      "changelogHtml": " Added MCM menu. <br/> \n Changed Candlelight recasting algorithm to better account for game timescale. <br/> \n Added warnings and retry if trying to cast with insufficient magicka. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jaxonz%20Lights%20Please-55474-2-0.zip?fid=1000123279&ttl=1535840274&ri=8192&rs=8192&setec=f1c37b47711a128675953faacdf12259"
+    }
+  ]
+}

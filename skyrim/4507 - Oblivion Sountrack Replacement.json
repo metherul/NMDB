@@ -1,0 +1,32 @@
+{
+  "modId": 4507.0,
+  "modName": "Oblivion Sountrack Replacement",
+  "summary": "Tutorial to replace the Skyrim Soundtrack with the Oblivion Soundtrack.",
+  "descriptionHtml": "Replaces the Skyrim town, combat, and explore music with that of their Oblivion counterpart. In this tutorial I will be using only the explore music but this can be applied to any type of music you want to put into Skyrim.\r\n\r\n\r\n1) Gather all the Oblivion music from your Oblivion Directory (C:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\oblivion\\\\data\\\\music). Select all the .mp3 files in the folder \\\"Explore\\\".\r\n\r\n2) Use a method to change the files into wav. This may include Itunes or recording each song in Audacity and exporting as a wav.\r\n\r\n3) Download the xWMAencode.exe in the files section.\r\n\r\n4) Retrieve the .wav files and put them into a folder with the xWMAencode.exe.\r\n\r\n5) Open Windows Command Processor (cmd; start -> run -> cmd -> enter) and type in \\\"cd /\\\". This will reset the directory to your hdd. By using the cd command, you can navigate your computer by typing \\\"cd <folder>\\\". Using the cd command go to the folder that contains the wav files and exe.\r\n\r\n6) Once you are at the folder destination in command prompt, type \\\"xwmaencode <import>.wav <export>.xwm\\\". Replace the <import> with the name of a wav file and the export will by the name of what you want the xwm file to be called. Repeat this process for every wav file.\r\n\r\n7) Once you have all the wav files in a xwm copy, create a new folder in the skyrim data directory called \\\"Music\\\". In the Music folder, create another folder called \\\"explore\\\". Place all the xwm files in the explore folder.\r\n\r\n8) Using \\\"http://www.uesp.net/wiki/Skyrim:Music\\\" you can choose what songs you want to replace by renaming the xwm files to the name of the corresponding Skyrim song. For the explore songs, I simply renamed all of the xwms in the explore folder to random Skyrim explore file names. Since Skyrim has more explore music than Oblivion, I simply made copies of the created xwms to fit all the Skyrim songs.\r\n\r\n9) If you are to edit music for towns or combat, make another folder in the Music folder called \\\"town\\\" or \\\"combat\\\". I have included a full list of compatible folders in the images section. This was found by extracting the BSA file. Keep in mind, whenever you are replacing a music file, you are simply renaming a custom xwm file with the xwm file that is already in Skyrim.\r\n\r\n10) Congratulations, when you start up Skyrim the music should be changed when exploring.\r\n\r\n\r\n\r\n\r\n\r\n",
+  "categoryId": "61",
+  "version": "1.0.0",
+  "author": "mobby1",
+  "createdUnix": "1324757899",
+  "updatedUnix": "1324764073",
+  "containsAdultContent": false,
+  "uploadedBy": "mobby1",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "13597",
+      "name": "xWMAencode",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "661",
+      "fileName": "xWMAencode-4507-1.exe",
+      "uploadedUnix": "1324764073",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/c6cfc9de445f847e4afc49309fb583e83f20b73ad955d154efb85179dd7ff1e4/analysis/1406555279/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/xWMAencode-4507-1.exe?fid=13597&ttl=1535760335&ri=8192&rs=8192&setec=701a242793d41b58cbf24f52f4d4e258"
+    }
+  ]
+}

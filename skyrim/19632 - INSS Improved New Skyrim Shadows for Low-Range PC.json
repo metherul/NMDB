@@ -1,0 +1,48 @@
+{
+  "modId": 19632.0,
+  "modName": "INSS Improved New Skyrim Shadows for Low-Range PC",
+  "summary": "This set of tweaks makes your Skyrim Low and Medium shadows look more acceptable. It will also disable those very low quality on-character shadows for both, Low and Medium resolution shadows. Besides tweaks, here you can find some additional and useful information about tweaking Skyrim shadows in general.",
+  "descriptionHtml": "Hey everyone!\r\n\r\nAfter finishing my work with Skyrim High and Ultra shadows, I\\'ve decided to tweak Low and Medium shadows and make them more acceptable. I took a different approach for tweaking Low and Medium game shadows, since, let\\'s be honest, you can\\'t squezze good shadow quality out of them. Instead, after many hours of tweaking, I deliever you tweaks that are focused on functionality and performance, rather then quality.\r\nMajor changes and things you may like to know:\r\na) Those very ugly on-character shadows will no longer be visible, those will be disabled,\r\nb) I\\'ve increased shadow draw distance in Low resolution settings, \r\nc) I\\'ve kept shadow draw distance in Medium resolution settings,\r\nd) I\\'ve increased the shadow blurring to make shadow better and more natural looking,\r\ne) With theese setting, Skyrim shadow \\\"aura\\\" effect you may encounter in High or Ultra settings, isn\\'t that noticable,\r\nf) With such a high shadow bias scale, you won\\'t notice any shadow \\\"pop up\\\".\r\ng) To disable on character shadows, I\\'ve increased shadow bias scale, this means that during sunrise or sundows, shadows will slightly detach from your character.\r\n\r\nAlso, I\\'d like to point out that I\\'m not capable of benchmarking those setting properly, if you have any problems with performance, or want to benchmark those setting, please leave a feedback, it would be very much appreciated.\r\nSecond thing, is that the downloadable files aren\\'t necessary, all the information will be posted in this description. This files was made from users request to be able to endorse my tweaks.\r\n\r\n====================================================================================\r\nLINKS:\r\n\r\nHere\\'s a link to a video presentation of Low resolution shadows:\r\nhttp://www.youtube.com/watch?v=O2E570baSpU\r\n\r\nHere\\'s a link to a video presentation of Medium resolution shadows:\r\nhttp://www.youtube.com/watch?v=RXi_nJkyxLA\r\n\r\nHere\\'s a link to my High settings tweak: http://skyrim.nexusmods.com/downloads/file.php?id=283\r\n\r\nHere\\'s a link to my Ultra settings tweak: http://skyrim.nexusmods.com/downloads/file.php?id=7638\r\n\r\n====================================================================================\r\nTWEAKS:\r\n\r\nAs usual, change this values in your SkyrimPrefs.ini file (it can be found in C:\\\\Users\\\\*USERNAME*\\\\Documents\\\\My Games\\\\Skyrim\\\\ directory):\r\n\r\nThose tweaks will make extorior shadows more acceptable, but interior shadows will still stay quite blocky and low detailed. Especially on Low shadow resolution. If you want to disable interior shadows, withouth disabling interior lighting, then please visit TRoaches great mod called\r\n \\\"Colorful Lights - No Shadows - More FPS\\\"\r\nhttp://skyrim.nexusmods.com/mods/10789\r\n\r\nLOW SHADOW RESOLUTION\\\\\\\\NO ON-CHARACTER SHADOWS:\r\niBlurDeferredShadowMask=5\r\nfInteriorShadowDistance=2000.0000\r\nfShadowDistance=3000.0000\r\niShadowMapResolutionSecondary=512\r\niShadowMapResolutionPrimary=512\r\niShadowSplitCount=0\r\nfShadowLODStartFade=1000.0000\r\niShadowMode=3\r\niShadowMapResolution=512\r\nfShadowBiasScale=1.6500\r\niShadowMaskQuarter=4\r\niShadowFilter=0\r\n\r\nMEDIUM SHADOW RESOLUTION\\\\\\\\NO ON-CHARACTER SHADOWS:\r\niBlurDeferredShadowMask=5\r\nfInteriorShadowDistance=2000.0000\r\nfShadowDistance=3000.0000\r\niShadowMapResolutionSecondary=1024\r\niShadowMapResolutionPrimary=1024\r\niShadowSplitCount=2\r\nfShadowLODStartFade=200.0000\r\niShadowMode=3\r\niShadowMapResolution=1024\r\nfShadowBiasScale=1.6500\r\niShadowMaskQuarter=4\r\niShadowFilter=4\r\n\r\nIf you didn\\'t notice any changes after adding my tweak, try setting your .ini file to read-only after adding my tweak and see if it works.\r\nIf you don\\'t have iShadowMapResolutionSecondary and iShadowMapResolutionPrimary in your SkyrimPrefs.ini, you can skip those.\r\n\r\n====================================================================================\r\nADDITIONAL BUGFIXES FOR SHADOWS:\r\n\r\nIf you wat to fix flickering shadows:\r\nShadow flickering is caused by updating sun shadows. When those shadows update, they move around causing visible flickering. This fix is making this update almost instant and takes care of any visible shadow flickering. Shadows from flowers, trees and characters will still have normal and dynamic shadows. If you want to set it to your own liking, remember that fSunUpdateThreshold is responsible for frequency of updates (higher values like 2.0 equals less frequent shadow movement, lower values like 1.0, 0.5, 0.2 or 0.0 equals more frequent shadow movement). Best stick with 1.0 or 2.0. fSunShadowUpdateTime on the other hand, is responsible for shadow movement speed, setting this value to 0 makes change instant, but if you want to shadows move when update, You can use settings like 0.15 or 0.25. Shadow update movement speed will be faster that in vanilla setting, minimizing any visible flickering. To fix this issue, edit your Skyrim.ini file (it can be found in C:\\\\Users\\\\*USERNAME*\\\\Documents\\\\My Games\\\\Skyrim\\\\ directory) and add this two lines at the bottom of:\r\n[DISPLAY]\r\nfSunShadowUpdateTime=0.10\r\nfSunUpdateThreshold=2.0\r\n\r\nIf you want to disable shadows on grass:\r\nIf you want to disable this feature, then edit your SkyrimPrefs.ini file and set the following:\r\nbShadowsOnGrass=0\r\n\r\n====================================================================================\r\nADDITIONAL PERFORMANCE FOR SHADOWS:\r\n\r\nLow or Medium resolution, preformance gain: about 1FPS. Lowers shadow filtering at distance, making them more \\\"fuzzy\\\":\r\niShadowMaskQuarter=3 or 2 (best not to go below 2).\r\n\r\nLow or Medium resolution, preformance gain; about 2FPS. Lowers shadow blurring, and thus lowers overall shadow quality:\r\niBlurDeferredShadowMask=3 or 1 (setting this to 0 disables any shadow blurring).\r\n\r\nMedium resolution, performance gain: about 2FPS. Lowers overall shadow filtering quality:\r\niShadowFilter=0\r\n\r\n====================================================================================\r\nVERSION CHANGES:\r\n\r\nVersion 1.0 (06-29-2012) changes:\r\nRelease of my tweaks with set of helpful images and videos.\r\n\r\nVersion 1.0 (06-29-2012) additional changes:\r\nAdded a link to TRoaches mod called \\\"Colorful Lights - No Shadows - More FPS\\\". Corrected most of the language mistakes in the tweak description. Changed some small things here and there, no changes to the main tweaks where made.\r\n\r\n====================================================================================\r\nFROM ME:\r\n\r\nIf you have any questions or suggestions about my tweaks and Skyrim shadows in general, feel free to send me a message or leave a comment. Also, please tell me if you have any problems or if you like it or hate it :D. You can also share and use for you own tweaking as a good starting point.\r\n\r\n====================================================================================\r\nCREDITS:\r\n\r\nAuthor:\r\ndefosh369 (http://www.skyrimnexus.com/modules/members/index.php?id=3108981)",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "defosh369",
+  "createdUnix": "1341000289",
+  "updatedUnix": "1383435724",
+  "containsAdultContent": false,
+  "uploadedBy": "defosh369",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "81556",
+      "name": "Improved New Skyrim Shadows for Low-Range PC V10",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Improved New Skyrim Shadows for Low-Range PC V10-19632-1-0.rar",
+      "uploadedUnix": "1344961623",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2733ce2c4ca08ba3419cf711bc6b72f09fb9050ebb9ad48eacbef5a6125267ab/analysis/1407096365/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Improved%20New%20Skyrim%20Shadows%20for%20Low-Range%20PC%20V10-19632-1-0.rar?fid=81556&ttl=1535787220&ri=8192&rs=8192&setec=43c64e8fe1c9b1314c4bd97009146fb8"
+    },
+    {
+      "fileId": "1000074264",
+      "name": "Skyrim shadow tweaking guide - Full and updated version",
+      "version": "1.0",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "97528",
+      "fileName": "Skyrim shadow tweaking guide - Full and updated version-19632-1-0.7z",
+      "uploadedUnix": "1383435724",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/14f4c27e95a54f95e65ef04a87bcfbcd0ab3b04da4b0bf4fc0adb09277c5721e/analysis/1407778953/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20shadow%20tweaking%20guide%20-%20Full%20and%20updated%20version-19632-1-0.7z?fid=1000074264&ttl=1535787220&ri=8192&rs=8192&setec=00823bf086cf9c28a169ccbb6cc6fbb1"
+    }
+  ]
+}

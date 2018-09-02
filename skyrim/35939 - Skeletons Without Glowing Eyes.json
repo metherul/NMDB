@@ -1,0 +1,32 @@
+{
+  "modId": 35939.0,
+  "modName": "Skeletons Without Glowing Eyes",
+  "summary": "This mod removes the glow for skeleton eyes only. Draugr or other creatures (such as Shades, Mistmen etc.) using a glow for their eyes will not be affected. Tested with vanilla Skyrim, Dawnguard and Dragonborn. Separate versions for Dawnguard or Vanilla Skyrim available.",
+  "descriptionHtml": "Skeletons Without Glowing Eyes Dawnguard (not affecting any Draugr) 1.1 Readme\r\n\r\nThis mod removes the glow for skeleton eyes only. No Draugr are effected (tested).\r\n\r\nThe following creatures will have the glow removed from their eyes:\r\n\r\nAll Skeletons (including all named or special skeletons if they have the original skeleton model)\r\nAll Armoured Skeletons (including all variations, added with Dawnguard)\r\n\r\nThe following creatures will have their original glow intact:\r\n\r\nDraugr (including all variations)\r\nCorrupted Shade (Imperial)\r\nCorrupted Shade (Stormcloak)\r\nBoneman (Dawnguard only)\r\nKeeper (Dawnguard only)\r\nMistman (Dawnguard only)\r\nWrathman (Dawnguard only)\r\n\r\nInstallation:\r\n-------------\r\n\r\nThere are two folders in the mod archive.\r\n\r\nOne includes a version of the mod for the original (\\\"vanilla\\\") version of the game if you do not have the Dawnguard DLC installed. The other folder includes a version of the mod that also removes the glowing eyes from the skeletons that have been added with the Dawnguard DLC.\r\n\r\nInstructions for \\\"Vanilla Skyrim\\\":\r\n\r\n1. Open the \\\"Vanilla Skyrim Version\\\" folder if you do not have Dawnguard installed.\r\n2. Copy the contents of the \\\"data\\\" folder from the mod archive into your Skyrim \\\"data\\\" folder.\r\n\r\nInstructions for \\\"Dawnguard\\\":\r\n\r\n1. Open the \\\"Dawnguard\\\" folder if you have Dawnguard installed.\r\n2. Copy the contents of the \\\"data\\\" folder from the mod archive into your Skyrim \\\"data\\\" folder.\r\n\r\nAbout the mod:\r\nSkeletons use the same blueish glow as the Draugr creatures. This effect is based on a \\\"spell\\\" every skeleton casts upon itself (as Draugr do). This spell is not a buff, it is simply creating a glowing/smearing effect for eyes. I removed the spell for the glow effect from the list of spells a skeleton casts upon itself. I also found a race tagged as \\\"RigidSkeletonRace\\\", these skeletons use the same spells as draugr on themselves. As the effect is shared by several races in the game, simply removing the glow there would also remove it for Draugr and every other creature that uses the same effect for glowing eyes. Therefore I created a separate set of spells for them without the glow, which works exactly the same except for the glow being removed.\r\n\r\nI always wanted skeletons to look more evil, with pitch black eye holes just as a normal skeleton would. While I also like the glow effect (especially on Draugr) for its ability to actually show that the creature is magically animated, I always felt that it somehow wasn\\'t what I am looking for when imaging a fighting skeleton. So basically I wanted it to look more like this... ;) http://pics.mobygames.com/images/covers/large/1259681554-00.jpg\r\n\r\nAbout the screenshots:\r\nI recommend the \\\"More Bony Skeletons\\\" textures in the \\\"Grimy and Aged\\\" version here on the Nexus which I lightened up a bit to be slightly more bleached (but not too much), you can see the result in the screenshots ;)\r\n\r\n2013, dex909",
+  "categoryId": "78",
+  "version": "1.1",
+  "author": "dex909",
+  "createdUnix": "1368316505",
+  "updatedUnix": "1369777190",
+  "containsAdultContent": false,
+  "uploadedBy": "dex909",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000031881",
+      "name": "Skeletons Without Glowing Eyes",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Skeletons Without Glowing Eyes-35939-1-1.zip",
+      "uploadedUnix": "1369777190",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/02265d79dc5cb06ded52c182155b218f40b804044e8ae8bdc3df0e92bbe5d695/analysis/1407584829/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skeletons%20Without%20Glowing%20Eyes-35939-1-1.zip?fid=1000031881&ttl=1535814806&ri=8192&rs=8192&setec=69d6d6c55f3139cca27d1be2efdf7f99"
+    }
+  ]
+}

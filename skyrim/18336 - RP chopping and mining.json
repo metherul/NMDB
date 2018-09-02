@@ -1,0 +1,32 @@
+{
+  "modId": 18336.0,
+  "modName": "RP chopping and mining",
+  "summary": "This mod makes mining and chopping wood time consuming activities for better immersion and realism.",
+  "descriptionHtml": "In vanilla Skyrim, mining is nearly instant for the player, while NPCs strike the ore veins endlessly. The player can clean a mine in a matter of minutes, which is good for gameplay but not for immersion.\r\nThis mod allows a player to mine and chop wood in a more realistic maner, by needing to spend time working. For a vanilla install it has only advantages and is intented for players using realism mods adding the need to eat, sleep, etc.\r\n\r\nChanges:\r\n- Ore veins are infinite.\r\n- In order to mine ore, click on it and push the wait button to advance time (or look at your screen for an hour, it\\'ll work too).\r\n- Your character is rewarded by a variable number of ore, depending on the metal:\r\n- Iron: 4 per hour\r\n- Orichalcum: 2 per hour\r\n- Corundum: 1.8 per hour\r\n- Quicksilver: 1.6 per hour\r\n- Silver: 1.6 per hour\r\n- Moonstone: 1.5 per hour\r\n- Malachite: 1.5 per hour\r\n- Gold: 1.25 per hour\r\n- Ebony: 1.0 per hour\r\n- Soulgem: 1.0 per hour\r\n- When you have enough, just step back or press e to stop mining.\r\n\r\n- Chopping wood is done the same way and yields 10 firewood per hour.\r\n\r\nThe esp file adjusts the buying price from NPCs who have a dialog option to buy ore and wood. They were buying it for more than you could get at your local smith, which is completely silly.\r\n\r\nNew prices:\r\n- Firewood: 1\r\n- Iron: 2\r\n- Quicksilver & silver: 5\r\n- Orichalcum & Corundum: 8\r\n- Malachite & Moonstone: 10\r\n- Gold: 15\r\n- Ebony: 20\r\n\r\nTogether with the amount of each ore, it\\'s balanced so a miner or wood chopper working for 10 hours can earn around 100-200 gold.\r\n\r\nInstall\r\n=======\r\n\r\nManual Install\r\n--------------\r\n1. Go to your skyrim Data\\\\Scripts folder.\r\n2. Make a backup of theses files:\r\n- MineOreFurnitureScript.pex\r\n- MineOreScript.pex\r\n- ResourceFurnitureScript.pex\r\n3. Extract this archive to any folder and then copy the contents to Skyrim\\'s Data\r\nfolder.\r\n2. Start Skyrim Launcher, click Data Files, and enable the .esp file(s).\r\n\r\nUninstall\r\n=========\r\n\r\nManual Uninstall\r\n----------------\r\n1. Start Oblivion Launcher, click Data Files, uncheck the .esp file(s).\r\n2. Go to your skyrim Data\\\\Scripts folder.\r\n3. Restore these files with the ones your backed up:\r\n- MineOreFurnitureScript.pex\r\n- MineOreScript.pex\r\n- ResourceFurnitureScript.pex\r\n\r\n\r\nIncompatibility\r\n===============\r\nIncompatible with mods changing the same scripts, obviously.\r\nThe esp only change the buying prices for ore and wood from NPCs who buy wood and ore so incompatibilities will be minimal.\r\n\r\n\r\nHistory\r\n=======\r\n1.1, 2012/12/12: Corrected the mining script, it should alway reward the player with ore now.\r\n\r\n1.0,  Initial release.\r\n\r\n[url=\\\"http://www.skyrimgems.com\\\"][img]http://i.imgur.com/hXQSy.png[/img][/url]\r\n\r\nContact\r\n=======\r\nEmail: ponyprincess at issarlk dot net\r\n\r\nTools Used\r\n==========\r\nReadme Generator - http://HammondsLegacy.com/obmm/tools_readme_generator1.asp",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "Issarlk",
+  "createdUnix": "1339015024",
+  "updatedUnix": "1355325992",
+  "containsAdultContent": false,
+  "uploadedBy": "issarlk",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "104805",
+      "name": "RPChoppingAndMining",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "RPChoppingAndMining-18336-1-1.zip",
+      "uploadedUnix": "1355325992",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/588060740cf7f204fd8d6bcd5eb5791ee0cfdfc258dd2cd78d87c6c683bbf4d9/analysis/1407301531/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/RPChoppingAndMining-18336-1-1.zip?fid=104805&ttl=1535785110&ri=8192&rs=8192&setec=c33d2857c4dce364e8991abc9835c000"
+    }
+  ]
+}

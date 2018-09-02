@@ -1,0 +1,32 @@
+{
+  "modId": 22124.0,
+  "modName": "Hush Doggy",
+  "summary": "A simple 2-file animation fix that makes all dogs in the game shut the hell up, without leaving a noticeable silent bark animation. \r\n",
+  "descriptionHtml": "This is a simple 2-file animation fix for all of the game\\'s dogs. Put simply, it replaces the bark animations with other idle animations. As such, your dog companions will no longer bark constantly.\r\n\r\nI made this mod because other \\\"silent dog\\\" mods only modified the sounds, thus creating a weird effect whereby your dog would visibly bark...but emit no noise. (note, this mod works fine with those sound edits, so if you want no barks + quieter general sounds, feel free to use both)\r\n\r\nThis should be compatible with pretty much all mods, as it overrides the game\\'s base animations rather than editing any specific dog in the game.\r\n\r\nThe zip contains the following folder structure:\r\n\r\nMeshes/Actors/canine/animations\r\n\r\nExtract the contents into your data folder, or manually recreate those folders and place the two animation files (dog_spice_bark.hkx and dog_spice_sit_bark.hkx) in the animations folder.\r\n\r\nThere should be no bugs, so if your dog is still barking while idling (either sitting or standing) you put the files in the wrong place :p\r\n\r\n\r\nFeel free to check out my other doggy mod - Give A Dog A Home\r\nhttp://skyrim.nexusmods.com/mods/11789",
+  "categoryId": "65",
+  "version": "1.0",
+  "author": "Luthrael",
+  "createdUnix": "1344613295",
+  "updatedUnix": "1344613364",
+  "containsAdultContent": false,
+  "uploadedBy": "Luthrael",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "80355",
+      "name": "Hush Doggy",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "Hush Doggy-22124-1-0.zip",
+      "uploadedUnix": "1344613364",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b100627e6cea19cf8eee014caec60eca5359286135c63de3a200986c40933f26/analysis/1407085329/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hush%20Doggy-22124-1-0.zip?fid=80355&ttl=1535791479&ri=8192&rs=8192&setec=a7ab541f5c3af9614f285436367049cb"
+    }
+  ]
+}

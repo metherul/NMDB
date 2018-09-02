@@ -1,0 +1,32 @@
+{
+  "modId": 13294.0,
+  "modName": "Scribe_Scroll",
+  "summary": "Redundant Mod: Create spell scrolls in Skyrim.",
+  "descriptionHtml": "Description:\r\nThis was just somthing I was doing while playing around with the CK and Papyrus. \r\nI just wanted to see what I could do with scripting and other things. This mod \r\nwill add a alteration spell that will allow you to create all the magic scrolls \r\nin the game. Your character must have a quill, inkwell, and paper for the spell \r\nto work. The spell will consume one paper for every scroll you create.\r\n\r\nInstall:\r\n\r\nCopy or move the data folder from this file and paste it over to your data folder \r\nin your skyrim folder.\r\n\r\nTo add the spell:\r\n\r\nOpen the console\r\ntype in: player.addspell XX0012e4\r\nXX is the mod load order.\r\nor\r\nOpen the console \r\ntype in: help \\\"Scribe Scroll\\\" 4\r\nlook for the spell id and add it\r\nto the player using the command\r\nplayer.addspell\r\n\r\nUninstall:\r\nDelete the mod from your data folder. Remove the file aaaScribeScroll.pex \r\nfrom your script folder and and also remove the file aaaScribeScroll.psc\r\nfrom the source folder inside your script folder.",
+  "categoryId": "93",
+  "version": "0.01",
+  "author": "Gshinji",
+  "createdUnix": "1332198985",
+  "updatedUnix": "1332199080",
+  "containsAdultContent": false,
+  "uploadedBy": "Gshinji",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "44939",
+      "name": "Scribe_Scroll",
+      "version": "0.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "Scribe_Scroll-13294-0-01.zip",
+      "uploadedUnix": "1332199080",
+      "modVersion": "0.01",
+      "virusScanUrl": "https://www.virustotal.com/file/03582d1d2938fcc3c480d8dd489d378c66efd013cad74f7abc1e0f4ce222e1b2/analysis/1406768710/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Scribe_Scroll-13294-0-01.zip?fid=44939&ttl=1535775943&ri=8192&rs=8192&setec=1c2dcc3c558d606e0715a9bbcc145488"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 37957.0,
+  "modName": "Disable Basic Health Regeneration",
+  "summary": "This ESP add a spell to the \\\"Player\\\" actor to disable the basic health regeneration while keeping all additional magical health regeneration effects intact by modifying a small amount of things in the creation kit. Additionally it is possible to remove the low health warnings the player recieves when at critical health.",
+  "descriptionHtml": "--------------------- Disabled Basic Health Regeneration --------------------\r\nProvided Files:\r\nujDisableBasicHPRegen - NoLowHealthW.esp\r\nujDisableBasicHPRegen.esp\r\nReadme - Disabled Basic Health Regeneration.txt\r\n\r\nCurrent version 1.1 BETA\r\nCreated on July 4th 2013 by Unclejack\r\nBased on Skyrim 1.9.3.08\r\nRequires Skyrim.esm and Update.esm\r\n\r\n----------------------------------------------------------------------------\r\nInstallation:\r\n\r\nPlace/Copy one of the two provided ESP files in the Skyrim/Data folder.\r\nCheck the placed ESP file in the Skyrim Launcher in the Data Files options.\r\nDo not use both ESP files at the same time!\r\n\r\nUninstall:\r\nRemove or delete the placed esp file from the Skyrim/Data folder.\r\n----------------------------------------------------------------------------\r\nWhat it does:\r\n\r\nThe esp files modify the game\\'s data using only the Creation Kit.\r\n\r\nA permanent constantly active spell is added to the player that reduces \r\nthe basic health regeneration of the player to 0. This spell is visible in\r\nthe game under the magic effects tab. In addition, the esp files will also \r\nchange the \\\"Force Without Effort\\\" and \\\"The Fire Within\\\" abilities from the\r\nMeditations on the Words of Power in order to prevent these abilities from \r\nproviding undesired and unintended basic health regeneration. \r\nNext to that the \\\"Sinderion\\'s Serendipity\\\" ability is also modified to \r\nprevent the ability from providing unintended health regeneration as well.\r\nThe esp also alters the Argonian power \\\"Histskin\\\" to grant additional \r\nhealth regeneration in order to compensate for the effects of the disabled\r\nhealth regeneration. Finally, the disabled regeneration will be \r\nremoved if the player is affected by vampirism and affected by daylight in \r\nthe outside world. This is done to prevent stacking of disabled regeneration \r\nwhen the player is affected by vampirism and sunlight.\r\n\r\nFortify/Damage Health Regeneration and Fortify Health potions or spells \r\nshould work as intendend and it should be possible to increase the health \r\nregeneration of the player with other forms of magic as well, such as the\r\n\\\"Ethereal Spirit\\\" Word of Power ability and the Argonian power \\\"Histskin\\\".\r\nNote that it is possible to use the esp that removes the low health\r\nwarnings presented by the HeartBeat and blurry red vision when the player\r\nreaches low health values (use - NoLowHealthW.esp).\r\n\r\nIt does NOT modify the health regeneration of other characters, it only \r\nmodifies the health regeneration of the player and not of followers or \r\nother NPC\\'s in the game.",
+  "categoryId": "24",
+  "version": "v1.1BETA",
+  "author": "Unclejack",
+  "createdUnix": "1372979703",
+  "updatedUnix": "1373739488",
+  "containsAdultContent": false,
+  "uploadedBy": "Unclejack",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000038757",
+      "name": "Disable Basic Health Regeneration",
+      "version": "v1.1BETA",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Disable Basic Health Regeneration-37957-v1-1BETA.rar",
+      "uploadedUnix": "1373739488",
+      "modVersion": "v1.1BETA",
+      "virusScanUrl": "https://www.virustotal.com/file/4ffcff0d1c0598b0f65927d96320df14a5fe00b89d633e3bb66b2d5940d5e63f/analysis/1407642262/",
+      "changelogHtml": " Start using a quest to add the spell to the player.  <br/> \n Bundled both esp files together in one RAR file. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Disable%20Basic%20Health%20Regeneration-37957-v1-1BETA.rar?fid=1000038757&ttl=1535818008&ri=8192&rs=8192&setec=9534ae9fca31cb744de866d8c5da8bcf"
+    }
+  ]
+}

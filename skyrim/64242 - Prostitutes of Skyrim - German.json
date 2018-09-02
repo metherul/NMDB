@@ -1,0 +1,32 @@
+{
+  "modId": 64242.0,
+  "modName": "Prostitutes of Skyrim - German",
+  "summary": "Fügt Prostituierte hinzu. Übersetzung",
+  "descriptionHtml": "Übersicht\r<br />\r<br />Dieser Mod fügt 20 neue NPC hinzu, welche sich Prostituieren. Es gibt Männer, Frauen, unterschiedlichster Rassen.\r<br />Es ist absolut &#34; lore friendly&#34;, immersive, und es ist KEIN Porno-MOD&#33;\r<br />\r<br />Wie geht es?\r<br />[list=1][*]Sprech mit einer/m der neu hinzugefügten Prostituierten[/*]\r<br />[*]Folge ihm/ihr[/*]\r<br />[*]Wenn ihr ein Bereich erreicht habt, wo ihr ungestört seid, wird sich der NPC hinsetzen[/*]\r<br />[*]Spiel blendet aus in\r<br />[/*]\r<br />[*]Spiel blendet wieder ein[/*]\r<br />[*]Er/Sie verabschiedet sich.[/*]\r<br />[/list]Prostituierte innen: Effekt Sexuellebefriedigung\r<br />Prostituierte aussen: Effekt Sexuellebefriedigung(70%) oder Sexuellekrankheit(30% Chance)\r<br />\r<br />Weitere Infos auf Englisch:\r<br />\r<br />* COMPATIBILITY *\r<br />I&#39;ve added some stuff in the interior cells (the inns) and markers in exterior cells where NPCs is in.\r<br />I&#39;ve also added a custom faction on vanilla NPCs.\r<br />For a better compatibilities with loading order use this sequence:\r<br />\r<br />- Unofficial Skyrim Patch (if you have it)\r<br />- Prostitutes of Skyrim\r<br />- Any other mod that modify the same stuff like my mod (ie: RLO and ELFX)\r<br />\r<br />* PATCHES *\r<br />This mod is easily patchable for any your own purposes.\r<br />If you make a patch like adding more NPCs or changing outfits, please PM and send me your patch. I&#39;ll publish it in optional files with your credits.\r<br />\r<br />* TECHNICAL INFOS (for modders) *\r<br />This mod is base on 20 new NPCs and 5 modified vanill NPCs. Every NPC have the faction &#34;manny_POS_Faction&#34;.\r<br />By adding the faction &#34;manny_POS_Faction&#34; on a NPC, the option dialogues are enabled on that NPC.\r<br />If you want to make an NPC a wilderness prostitute, set the LocRefType parameter to &#34;manny_POS_Prostitute_LowPrice&#34;\r<br />\r<br />There are two quests:\r<br />1. manny_POS_QuestDialogues\r<br />The name says all. This quest is for dialogues options. The dialogues are shown on these conditions:\r<br />- getInFaction == manny_POS_Faction\r<br />- getInFaction &#33;= playerMarriedFaction &lt;- this prevent to show the dialogue on your spouse :)\r<br />\r<br />There are 4 topics subdivided in 2 similar groups: one for low prices and one for high prices.\r<br />When you have enough money, the option dialogue script does this:\r<br />- Remove the golds from your inventory\r<br />- Stops and Starts the quest manny_POS_QuestScene to allow to fill the aliases of that quest\r<br />- Starts the scene\r<br />\r<br />2. manny_POS_QuestScene\r<br />This quest contains the scene manny_POS_QuestProstituteScene and the aliases.\r<br />The aliases are:\r<br />- manny_POS_Alias_Actor (the filling method is to closest matching ref faction manny_POS_faction to the player).\r<br />- manny_POS_Alias_Hold_Location (the filling method is to LOADED closest matching ref RefType manny_POS_ProstituteHold to the player).\r<br />- manny_POS_Alias_Furniture (the filling method is to LOADED closest matching ref RefType manny_POS_ProstituteFurniture to the player).\r<br />The scene behavior is:\r<br />1. The NPC travel to the manny_POS_Alias_Hold_Location (it&#39;s an xmarker with the LocRefType manny_POS_ProstituteHold)\r<br />2. Then go to use the furniture manny_POS_Aias_Furniture (it&#39;s a furniture marker with the LocRefType manny_POS_ProstituteFurniture)\r<br />3. Fade to black and fade back from black\r<br />4. scripted phased and talk package (&#34;goodbye&#34;)\r<br />5. Go back to default package\r<br />\r<br />SO, WHAT DO YOU NEED TO MAKE A NEW / MODIFY NPC?\r<br />1. Add to the NPC the faction manny_POS_faction\r<br />2. Set the LocRefType to that NPC the value manny_POS_Prostitute_LowPrice or manny_POS_Prostitute_HighPrice\r<br />3. Add an xmarker near the NPC and set the LocRefType manny_POS_Hold_Position\r<br />4. Add a furniture marker near the above xmarker like a crossed legged marker and set the LocRefType manny_POS_Furniture\r<br />\r<br />* FUTURE PLANS (MAYBE) *\r<br />Brothel house and the Prostitutes&#39; guild\r<br />\r<br />ENJOY&#33;",
+  "categoryId": "78",
+  "version": "1.4",
+  "author": "MannyGT translated by HerrSkyrim",
+  "createdUnix": "1427731337",
+  "updatedUnix": "1427732395",
+  "containsAdultContent": true,
+  "uploadedBy": "HerrSkyrim",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000153629",
+      "name": "Prostitute of Skyrim - Alternative version - GER",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "40",
+      "fileName": "Prostitute of Skyrim - Alternative version GER-64242-1-4.zip",
+      "uploadedUnix": "1427732395",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/261c206e4932b9d61686d3be930ab10bae476c2cb0e14b6aa6056583c8bcc2f4/analysis/1427732407/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Prostitute%20of%20Skyrim%20-%20Alternative%20version%20GER-64242-1-4.zip?fid=1000153629&ttl=1535852915&ri=8192&rs=8192&setec=272b41cae3c773d190e2790d4282b48c"
+    }
+  ]
+}

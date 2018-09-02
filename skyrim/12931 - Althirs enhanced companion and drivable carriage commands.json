@@ -1,0 +1,48 @@
+{
+  "modId": 12931.0,
+  "modName": "Althirs enhanced companion and drivable carriage commands",
+  "summary": "With this mod it becomes possible to command your companions from a distance and to go by cart to every big town in Skyrim (automatically as a passenger or manually by riding the carthorse).",
+  "descriptionHtml": "[size=+2][b]Althirs enhanced companion and drivable carriage commands (CCC)[/b][/size]\r\n\r\nWith this mod it becomes possible to command your companions from a distance and to go by cart to every big town in Skyrim (automatically as a passenger or manually by riding the carthorse).\r\n\r\nYou`ll get three spells (exactly shouts under the Power Tab):\r\n\r\n[size=+1][b]Command companions [/b][/size]\r\n\r\nWith the first one you can command your companion(s) from a distance. You can command them to follow you in two different distances, to wait or to rest (playing animations like sitting and cooking and so on while waiting. Useful in connection with the camping tools). If the player is mounting a horse and rides, the companions will do that too. If the player dismounts, the companions will do it like your Hero. If I get ideas for more commands I will implement them later.\r\n\r\n[size=+1][b]Command horse[/b][/size]\r\n\r\nWith this Spell you can spawn a horse and command it in the same way like the companions.\r\n\r\n[size=+1][b]Command cart [/b][/size]\r\n\r\nWith this spell you can spawn and command a carriage and a horse for this carriage. You can let the cart follow you, waiting for you or get in as a passenger and get driven automatically to any of the big towns of Skyrim. Of course you can mount and ride the cart by your own, too. \r\n\r\nThere is a carriage at the stables in Whiterun, too. This carthorse has saddlebags, so that you can take things (like your camping tools) with you on your journey. \r\n\r\nThe Mod should now be compatible with the multi follower mod.\r\n\r\n[size=+1][b] If you installed a previous version it might be possible that you have to save the game without this mod first, then enabling the mod and save again. [/b][/size]\r\n\r\n[size=+1][b] I made the mod primary for my own needs, but I hope you have fun with it, too! Feel free to use the Mod and the scripts for your own needs and projects. But please mention me in your credits. [/b][/size]\r\n\r\n[size=+1][b]Important:[/b][/size] At the moment the mod is work in progress and I didn`t tested it completely. So it could be possible, that there are some bugs in it.\r\n\r\n[size=+1][b]Known Bugs:[/b][/size][list]\r\n[*] The sound for the cart is working now. But there is one problem: If you got the problem with a flipping cart (this bug can`t be fixed! I think that’s the reason why Bethesda doesn t implement working carriages in the game) the sound never stops again and you have to reload. So I disabled the sound. \r\n\r\n[*] If you load a savegame, the carthorse will be disconnected from the cart. The only way to fix this is to delete the cart and the horse (with the command cart spell) and then spawn them again. To fix this at the Whiterun stables cart you have to ride the horse (slowly!) some meters away from the cart and they will automatically reconnect. But be careful and save the game first. It could be possible that the cart will flip around. Another option to reconnect the cart with the horse is to fast travel to another place and then travel back.\r\n\r\n[*] The pathfinding of the carthorse is not the best, so the carriage ride can get choppy. I will try to fix that in later versions.[/list]\r\n\r\nOther Bugs:\r\n@MaleUser008 : Thanks for your bug tracking!\r\n\r\n-when one of my followers bumped into the cart, occasionally the cart would flip, taking the horse with it into the air and do a complete spin.\r\n\r\nYes I know and at the moment I don`t know how to fix that. Let your Followers follow you in a greater distance and they will bump into the cart less often.\r\n\r\n-after dismounting sometimes I couldn\\'t interact with NPCs, and would have to despawn the cart for it to return to normal.\r\n\r\nYes, this happens, if you drive in the back. Go to 3rd person view and draw your wapon. Then go back to 1st person mode and everything will be fine. But I will have a look at this problem. \r\n\r\n\r\nIf you find other bugs, please let me know.\r\n\r\nThanks go to LtMattmoo for his/her horse saddlebags script, to Jorne aka Spudgunne for his/her packages that allow followers to mount a horse and to foobar92  for his Multiple Followers Mod. And to Bethesda Softworks of course, because they made such wonderful role playing games and give us the possibility to create our own contest (I played their games since Daggerfall andI I\\'ve fallen in love with each game of the TES Series :-)\r\n\r\n[size=+1][b]source directory[/b][/size]\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=10579&navtag=file/images.php?id=10579&tab=3\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=11193&navtag=file/images.php?id=11193&tab=3\r\nhttp://forums.bethsoft.com/topic/1345602-wiprel-multiple-followers/\r\n\r\n[size=+1][b] Update 16.03.2012: Version 1.1 is up![/b][/size]\r\n\r\n[size=+1][b] Update 09.09.2012: Fixed an issue with a dog companion. [/b][/size]",
+  "categoryId": "66",
+  "version": "1.1",
+  "author": "Althir",
+  "createdUnix": "1331770804",
+  "updatedUnix": "1347188609",
+  "containsAdultContent": false,
+  "uploadedBy": "Althir",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "87360",
+      "name": "Althirs Companion and Carriage Command English",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "43",
+      "fileName": "Althirs Companion and Carriage Command English-12931-1-1.rar",
+      "uploadedUnix": "1347188576",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/02d53c05022f142581a55d2a14010625e438a539a9fda2201bb81d5b3572692d/analysis/1407155403/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Althirs%20Companion%20and%20Carriage%20Command%20English-12931-1-1.rar?fid=87360&ttl=1535775262&ri=8192&rs=8192&setec=5e1abb75df31423d2f94d09d281fca2b"
+    },
+    {
+      "fileId": "87361",
+      "name": "Althirs Companion and Carriage Command German",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "44",
+      "fileName": "Althirs Companion and Carriage Command German-12931-1-1.rar",
+      "uploadedUnix": "1347188609",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/8fb90effef499a3385d33fb60826808e3d018d0d2f8d79bd9a1cbb8702ed4922/analysis/1407155404/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Althirs%20Companion%20and%20Carriage%20Command%20German-12931-1-1.rar?fid=87361&ttl=1535775262&ri=8192&rs=8192&setec=f6481cf3920779e407fa2f21602f5d9a"
+    }
+  ]
+}

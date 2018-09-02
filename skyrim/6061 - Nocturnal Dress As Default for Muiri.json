@@ -1,0 +1,48 @@
+{
+  "modId": 6061.0,
+  "modName": "Nocturnal Dress As Default for Muiri",
+  "summary": "Complete new default outfit for Muiri referencing the archmage robe (and DIY  instructions for any other NPC)",
+  "descriptionHtml": "Having Muiri as a wife and the girl being quite high maintenance, I made a very small .esp to assign her with a new default complete outfit ; so that she always wears it when ever i come home late at nite.\r\nThe benefit of having a new default for a npc\\'s outfit is that you don\\'t have to dress it, and the npc always wears it. (and it\\'s a new one, so that no other npc would have the same) \r\n\r\nWanna do it yourself, it\\'s pretty easy, you got all the intel you need in the \\\"spoilers\\\" below. \r\n\r\n[size=\\\"4\\\"]Prerequisites : [/size]\r\n\r\nIn order to get the nocturnal dress, well first... you gotta get it somewhere... :wink: \r\nTHIS MOD DOES NOT CONTAIN ANY MESH OR TEXTURE !!!\r\nIt simply sets a new default clothes package using the arch mage robes (non-hooded version, actually) \r\nSo you gotta get it somewhere... may I recommand the [size=\\\"3\\\"][b]excellent [/b][/size]arch mage robe replacer by Zonzai ?\r\nyou can find it here :http://www.skyrimnexus.com/downloads/file.php?id=1040\r\nOr you can install any other archmage robe replacer of your liking.\r\n(though the Lite blue version of zonzai\\'s really suits her well)\r\n\r\n\r\n[size=\\\"4\\\"]What It does actually :[/size]\r\n\r\n\\\"[i]You\\'re not with your cheap ex-wife in your Whiterun cottage[/i]\\\"  she said...\r\n\r\nSo i had to act :\r\nThe new default outfit comes with Archmage\\'s robe (non hooded version), bride sandals, wedding ring, silver saphire circlet and a silver necklace (with some gem on it)\r\nworth several hundreds of gold coins...\r\n \r\nActually it comes in two different versions, a one referencing a silver necklace form the original game, and an other version referencing a necklace from tytanis\\'s (Moonstone Trinity necklace (cf pictures))\r\n\r\n[size=\\\"4\\\"]Installation :[/size]\r\nManual or with NMM as long as you get the MuiriDefaultClothes.esp file in your data folder\r\n\r\n[size=\\\"4\\\"] Removal :[/size] [size=\\\"6\\\"] !!! IMPORTANT !!! [/size]\r\nPrior to the removal of the esp, if you don\\'t want to relaunch the game with a [b]blank screen[/b] you got 2 options : \r\n1) exit the zone where your modded NPC stands and then save the game, remove the esp, relaunch skyrim and relaod your save without any problems\r\n2) Strip the NPC if you wanna stay in the same area. using the console command \\\"removeallitems\\\"\r\nthen save/remove the esp, relaunch, reload and go on playing\r\n\r\nIf you follow theses instruction you shouldn\\'t have any problems with your saved games.\r\n\r\n\r\n\r\n[size=\\\"4\\\"]Issues / Compatibility :[/size]\r\n[size=\\\"4\\\"]*[/size] Major Issue : see removal instruction !!! \r\n[size=\\\"4\\\"]*[/size] [i]Muiri does not wear the same outfit as in the picture !!![/i]\r\n-> exit the area and come back or use the console and type resetinventory (with the NPC selected). And that\\'s the last time you\\'ll have to do it !\r\n[size=\\\"4\\\"]*[/size] compatibility issues with any other .esp modifying Muiri.\r\n[size=\\\"4\\\"]*[/size][i] I didn\\'t marry Muiri ![/i]\r\n-> Too bad for you i might say, but actually you can do it yourself in a jiffy, it\\'s very easy. Here\\'s how :\r\n[spoiler]All you need is Skyrim NPC Editor and FOMM. \r\n->Using the NPC editor choose your NPC and create an esp of it.\r\n-> Open MuiriDefaultClothes.esp and your newly created esp with FOMM.\r\n-> Copy your NPC and paste it in my mod under the NPC grup.\r\n-> Delete Muiri\r\n-> Edit your npc properties : Down the List, double click on \\\"DOFT\\\" and type \\\"00000002\\\" (or 02000000 in the formID box).\r\n->Save the thingy (under the same name if you don\\'t want to have to delete the previous one)\r\n-> Congrats ! You\\'re done !\r\n[/spoiler]\r\n[size=\\\"4\\\"]*[/size] [i]I Don\\'t like the clothes you chose ![/i]\r\n-> Fairly easy as well :\r\n[spoiler]All you need is FOMM. \r\n-> Open MuiriDefaultClothes.esp with FOMM.\r\n-> Develop the OTFT grup and double click the INAM entry of the OTFT wifeDefaultClothes\r\n-> Replace the formIDs with the ones of your liking (remember to type backwards, ie : for an ID in the game being 12345678 you\\'d have to type in 78 56 34 12)\r\n-> If you wanna reference an Item that\\'s in another esp, use the \\\"Edit\\\" menu to add it as a master for this mod, and then type in the FormID from that mod (and not the one displayed ingame)\r\n->Save the thingy (under the same name if you don\\'t want to have to delete the previous one)\r\n-> Congrats ! You\\'re done !\r\n[/spoiler]\r\n\r\n[size=\\\"4\\\"] Endorsment :[/size]\r\nGo and Endorse your nocturnal dress provider (I endorsed [url=\\\"http://www.skyrimnexus.com/downloads/file.php?id=1040\\\"]Zonzai\\'s[/url]) \r\n\r\n[size=\\\"4\\\"] Thanks :[/size]\r\nTo BGS,\r\nZonzai for 41 HQ Nocturnal Robes,\r\nCaliente for CBBE,\r\nMr Lensky for Coverwomen.\r\nand all the other modders that actually produce new material. (not like i just did ^^)\r\n\r\n(and if someone knows the \\\"spoiler\\\" bbcode or anyotherway to keep it clean, he\\'s wellcome to let me know)  ",
+  "categoryId": "66",
+  "version": "1.0",
+  "author": "CarterDC",
+  "createdUnix": "1326453272",
+  "updatedUnix": "1326454289",
+  "containsAdultContent": false,
+  "uploadedBy": "CarterDC",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "19361",
+      "name": "MuiriDefaultClothes",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "MuiriDefaultClothes-6061-1-0.rar",
+      "uploadedUnix": "1326454216",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8bafc365ffc2dc61cbc4b6862238bfd394b194708866c178f5c395d47814bb84/analysis/1406607363/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MuiriDefaultClothes-6061-1-0.rar?fid=19361&ttl=1535763245&ri=8192&rs=8192&setec=8dc673954f70ecd06c2479e0ace7c838"
+    },
+    {
+      "fileId": "19362",
+      "name": "MuiriDefaultClothes_T",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "MuiriDefaultClothes_T-6061-1-0.rar",
+      "uploadedUnix": "1326454289",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/83915ee961332ac8aed5070167736c4a62ac1e5e384ed28ac1324d4e57070a3e/analysis/1406607363/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MuiriDefaultClothes_T-6061-1-0.rar?fid=19362&ttl=1535763246&ri=8192&rs=8192&setec=682f250b1ddc23dc146911bbdcb6a098"
+    }
+  ]
+}

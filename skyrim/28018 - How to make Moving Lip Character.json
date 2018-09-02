@@ -1,0 +1,32 @@
+{
+  "modId": 28018.0,
+  "modName": "How to make Moving Lip Character",
+  "summary": "This explains what you need to do to make the Lips of NPC\\'s move to lipsync them in a video. Using the Creation Kit. Easy.",
+  "descriptionHtml": "Ok guys here i\\'am \r\n\r\ni\\'m about to make a movie and was wondering how i get the characters to talk different long lipsynched things but not getting into a dialogue menu, so that i could activate them and they would talk. \r\n\r\nOk here is it. Create a normal character in the Creationkit. He don\\'t need anything specia just make him as you want him for your video. 2 Important things. Give the NPC a \\\"GuardVoiceType\\\" That means for example \\\"MaleGuard\\\" (for the video you want to set the dialogue audio to 0 so you don\\'t hear the actual voice but see the lip sync). Then go in the factions tab and do right-click and then new. Now search for GuardDialogue and you will see an option with CWSoldierNoGuardDialogueFaction. This is the faction you need to add. \r\n\r\nNow your character is able to perform the Guards dialogues without any guard behavior. You wont get into a dialogue menu. This is not PERFECT. I\\'m experimenting my self at the moment. But it is the first step to create a Lip-Moving-Character.\r\n\r\nHope it works for you guys. (if it\\'s not working you probably want to add the GuardDialogueFaction, which isn\\'t necessary for the GuardDialogueGeneral quest. Which is the one we are using.) Have fun and try out guys :) \r\n\r\nUse the Mod \\\"Guard Dialogue Overhaul\\\" to get MORE sentences for them to talk :)\r\n\r\nGreetings Dragens :) happy filming :)\r\n\r\nsorry for my bad english. For questions and discussions do it in the comments.\r\n\r\n*UPDATE*\r\n\r\nYES you NEED the GuardDialogueFaction as well :) \r\n\r\n***Summary:***\r\n\r\n- Create own NPC (not follower)\r\n- Give MaleGuard or FemaleGuard Voice\r\n- Add Factions:\r\n\r\n  CWSoldierNoGuardDialogueFaction\r\n\r\n  GuardDialogueFaction \r\n\r\n-(optional) Install http://skyrim.nexusmods.com/mods/23390\r\n___________________________________\r\nand you are good to go :)\r\n\r\nfor the dark face effect. just reload the mod with this npc file and set it active, click on the npc in the actor section and press STRG + F4.\r\nMuch fun ^^\r\n\r\n(tyrannicon used this method of just activating the character, this mod is not introducing you to this method. It\\'s introducing you to how to create a character to use this method. Thanks to Tyrannicon for the ideas) \r\n\r\n\r\nTIPPS:\r\n\r\nIf you thought you create a follower cause he is better equipable than a normal npc then you got the problem you wont get them lip-moving without getting into a dialogue-menu.\r\n\r\nUse this Mod and use the \\\"equipitem\\\" command for this \\\"non-follower\\\" npc.\r\n\r\nFor example.\r\n\r\n- press \\\"~\\\" for the console \r\n- select the character you want to equip with certain item. \r\n- now you want to add a Head-Bandadges to his head.\r\n- write help Bandage\r\n- you will now see (0004F000) \\'Head bandages\\'\r\n- keep the character selected and write: equipitem 0004F000 1\r\n- now the npc has the Head-Bandages on head :) \r\n\r\nNow you are able to equip non follower and make them talk with the \\\"Guard-Dialogue-Method\\\"",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "Dragens",
+  "createdUnix": "1355038042",
+  "updatedUnix": "1355038188",
+  "containsAdultContent": false,
+  "uploadedBy": "Dragens",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "103997",
+      "name": "Lip-Moving-Character",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Lip-Moving-Character-28018-1-0.zip",
+      "uploadedUnix": "1355038188",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b5d1717a4dd66417041f5358aba866b8ce1446b3bf47f481aa0023028908b059/analysis/1407296222/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lip-Moving-Character-28018-1-0.zip?fid=103997&ttl=1535801105&ri=8192&rs=8192&setec=9f1b04bd68353001e25c12bf48468f8c"
+    }
+  ]
+}

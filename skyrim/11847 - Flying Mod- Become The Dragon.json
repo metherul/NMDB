@@ -1,0 +1,48 @@
+{
+  "modId": 11847.0,
+  "modName": "Flying Mod- Become The Dragon",
+  "summary": "Become a dragon and use hotkey controls to fly around in the air and wreak havoc on the citizens and monsters alike of Skyrim!",
+  "descriptionHtml": "Flying Mod: Become the Dragon by ElSte17\r\n\r\nTHIS FILE IS OBSOLETE. DOWNLOAD NEW VERSION HERE \r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=16532\r\n\r\nOr search Flying Mod Become The Dragon 2\r\n\r\nATTENTION:  This is a NEW VIDEO that shows the new 2.0 Version.\r\n[youtube]oFVXJZRmzrI[/youtube]\r\n\r\nUPDATE May 4, 2012\r\nLOOK FOR VERSION 2.0 RELEASE HOPEFULLY TODAY*** (Sorry, still waiting on total permission, though I may go ahead and release it anyways since I think he wouldnt mind seeing as he let me look at the code in the first place.  Of course if he had any issues with that I would remove it right away).  \r\n\r\nWoohoo!  A certain modder has given me a flying script to use that works for humans, and I have tested it and it works successfully with dragons.  Only problem is, the dragon is currently \\\"flying\\\" but it is walking as it flies.  Now what I have to do is adjust the script to play the flight animation while flying and it should be as good as ready for a Beta release (with permission from the modder, seeing as the beginnings of the mod will essentially be a barely adjust version of his mod.)  Nonetheless, this is great news and a step forward for dragon flight capabilities!\r\n\r\n***************************************************************************************************************************************\r\nDescription:\r\nTurn into a dragon and fly around.  Go up, down, left, or right with the help of the authotkey!\r\n\r\nThis mod is developing quickly, having gone from barely getting off the ground to almost total in-flight controls in a mere 2 days!  I will keep the updates coming!\r\n\r\nInstall:\r\n\r\nmerge the data folder from this mod with your skyrim data folder \r\n\r\ninstall autohotkey\r\n\r\ndouble click on all the green autohotkey apps in your skyrim data folder to run them (nothing will appear, they run in the background)\r\n\r\ncheck the .esp file before starting game\r\n**************************************************************************************************************************************\r\nAUTOHOTKEY/BAT FLIGHT CONTROLS ( for first time users you MUST complete the \\\"How it works\\\" process below before running these commands)\r\nNote* If the hotkeys arent writing out the whole \\\"bat x\\\" command in the console, try firmly pressing the keys for a tiny bit longer until it writes the whole command.\r\n\r\nStart flying = control up arrow\t\r\nFly Higher = shift down arrow\t\t\t*Note (with elevation commands, do not enter them too fast or your animation will freeze, let them play out before going higher or lower)\r\nFly Lower = shift up arrow\r\nIntiate Right Turn = alt right arrow\t\t*Note ( the command turns you at set amount, if you want to turn faster or slower you can adjust the speed with the mouse looking up or down)\r\nInitiate Left Turn = alt left arrow\r\nFly Straight Again = alt up arrow\r\nHover (stop moving) = alt down arrow\r\nStart Moving = shift p\r\nLand  = control down arrow\t\t\t(keep trying until the game finds and acceptable spot to land e.g. towns, open fields, towers)\r\n\r\n\r\n\r\nHow it works:\r\n\r\npress \\\"`\\\" (\\\"~\\\") key to enter the console\r\n\r\n\r\nNOTE:  YOU MAY BE REQUIRED TO HAVE JACKALHEAD\\\"S MASTER SHAPESHIFTER MOD INSTALLED IN ORDER FOR THIS TO WORK.  ALL THE TESTING WAS DONE WITH THIS MOD ACTIVE.  ALSO, THIS MOD SHOULD WORK FOR ANY OF\r\nDRAGON TYPES FROM HIS MOD.\r\n\r\n\r\nBACKUP YOUR SAVES BEFORE RUNNING. NEVER SAVE WHILE FLYING. If game goes to a \\\"loading screen\\\" after a command is intiated, load your last save because the game might be glitched.\r\n\r\nFollow these instructions step by step and it should work for you.\r\n1.  Install (recommended) MSS http://skyrim.nexusmods.com/downloads/file.php?id=11601\r\n\r\n2. start skyrim and load a clean save \r\n\r\n3. Type in the console\r\nplayer.setrace dragon\r\n\r\n4. go to 3rd person view (as a dragon now) and open up the console and type:\r\nplayer.setallowflying 1\r\nplayer.setplayeraidriven 1\r\n\r\n5. close the console, (still in 3rd person) and save your game\r\n\r\n6. next load this game that you just saved\r\n\r\n7. if you have it and if you want, use the shapeshifter mod to turn into a different type of dragon, save. then load this file again\r\n\r\n8. go back to console and type this:\r\nplayer.setallowflying 1\r\nplayer.setplayeraidriven 1\r\nbat f\r\n\r\n9. close the console and you will take off\r\n\r\nNOTE: Do not save your game while flying. \r\n\r\n\r\n\r\n\r\nLet me know if this works for you (in the comments section).  Enjoy\r\n\r\n**************************************************************************************************************************************\r\n\r\nEndorsements are good encouragement for me.  Thanks everyone.\r\n\r\n\r\n***PLEASE BACKUP YOUR SAVES BEFORE USING THIS MOD****\r\n\r\n\r\n\r\nNOTE:  YOU MAY BE REQUIRED TO HAVE JACKALHEAD\\\"S MASTER SHAPESHIFTER MOD INSTALLED IN ORDER FOR THIS TO WORK.  ALL THE TESTING WAS DONE WITH THIS MOD ACTIVE.  ALSO, THIS MOD SHOULD WORK FOR ANY OF\r\nDRAGON TYPES FROM HIS MOD.\r\n\r\nI take full credit for figuring out how to control turning and elevation :)\r\n\r\n\r\nPost suggestions, feedback, etc. in comments please. Please do not take credit for my breakthroughs, I would be happy to allow people to implement my mod into theirs so long as they ask me first and give me credit :)\r\nThanks\r\nCredit to Jackalhead and many other (soon to be credited) for all their help!",
+  "categoryId": "83",
+  "version": "1.1",
+  "author": "ElSte17",
+  "createdUnix": "1330668065",
+  "updatedUnix": "1331047641",
+  "containsAdultContent": false,
+  "uploadedBy": "ElSte17",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "39094",
+      "name": "Obsolete version -Get New Version-",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "6943",
+      "fileName": "Obsolete version -Get New Version--11847.rar",
+      "uploadedUnix": "1330668119",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/cbb3a6391616c51cea7f77fb15030fd93483b3b920c163e38c84d8a5191b8f34/analysis/1406724793/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Obsolete%20version%20-Get%20New%20Version--11847.rar?fid=39094&ttl=1535773303&ri=8192&rs=8192&setec=84af26447d0486a5cca74800e12ec5d4"
+    },
+    {
+      "fileId": "40754",
+      "name": "Flying Mod Become The Dragon -OBSOLETE- GET NEW VERSION",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "6943",
+      "fileName": "Flying Mod Become The Dragon -OBSOLETE- GET NEW VERSION-11847.rar",
+      "uploadedUnix": "1331047641",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/8a108f6397234f1ef5d4c2f2b50b88f733c1e8047a9f874ba88526918f4ce74d/analysis/1406734725/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Flying%20Mod%20Become%20The%20Dragon%20-OBSOLETE-%20GET%20NEW%20VERSION-11847.rar?fid=40754&ttl=1535773304&ri=8192&rs=8192&setec=60c15aa5d5cbfc51aaea3fea1f3aa3af"
+    }
+  ]
+}

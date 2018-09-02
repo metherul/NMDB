@@ -1,0 +1,48 @@
+{
+  "modId": 11402.0,
+  "modName": "Dynamic Loot Tutorial",
+  "summary": "Shows you how to make your modded items available as loot without conflicting with other mods, and also allows for enchanted drops.",
+  "descriptionHtml": "So, I figured I\\'d write another script to dynamically make changes to the game to prevent incompatibilities with mods. I also decided to go with loot because I REALLY hate having to craft any new armor mod and because I\\'m not ever a smith. This will show you how to make your modded items be loot-able from mobs, both a normal version, and an enchanted version.\r\n\r\nLevelled lists are the key to making items loot-able, only the problem is that once you edit it in your mod, anyone else who edits that same list in their own mod will now have conflict, this script should solve that by adding to the lists dynamically. The main concept behind levelled lists is that they can contain other levelled lists, so you can randomly acquire an item based on a list of other items, during this tutorial I only used one level of levelled list, but if you plan to offer more enchantments it would be wise to add a levelled list containing each type of enchantment to your first level. The particular levelled list this mod adds to is not entirely top level, its part way so I didn\\'t have to add to hundreds of list as opposed to the current 53.\r\n\r\nThis tutorial assumes you know the basics of creating a plugin in the Creation Kit. It also assumes you already have the GenericRaceController script.",
+  "categoryId": "82",
+  "version": "1",
+  "author": "Expired",
+  "createdUnix": "1330310159",
+  "updatedUnix": "1330310272",
+  "containsAdultContent": false,
+  "uploadedBy": "expired6978",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "37371",
+      "name": "GenericLootController v1",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "GenericLootController v1-11402-1.7z",
+      "uploadedUnix": "1330310221",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/6c8a44f7df132b52c8e073a21879b98c9e4872ddf5cabd582a3664f23c0fff51/analysis/1406716170/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/GenericLootController%20v1-11402-1.7z?fid=37371&ttl=1535772531&ri=8192&rs=8192&setec=e6bf06c5c3cfcfe63ed5a98b39698656"
+    },
+    {
+      "fileId": "37372",
+      "name": "Dynamic Loot Tutorial",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1367",
+      "fileName": "Dynamic Loot Tutorial-11402-1.7z",
+      "uploadedUnix": "1330310272",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/096feb8d39d71cde45a13f8557641502fef24cc2b5b513d187761e3245eaf073/analysis/1406716171/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dynamic%20Loot%20Tutorial-11402-1.7z?fid=37372&ttl=1535772532&ri=8192&rs=8192&setec=273b04dd2791b18b46d26502fe6b0e20"
+    }
+  ]
+}

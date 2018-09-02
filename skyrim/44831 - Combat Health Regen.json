@@ -1,0 +1,32 @@
+{
+  "modId": 44831.0,
+  "modName": "Combat Health Regen",
+  "summary": "Adds an ability so followers can now heal during combat.",
+  "descriptionHtml": "[b][u]What is it?[/b][/u]\r\nNPCs that are equipped with this ability will gain the ability to regenerate health during combat.\r\nThere are 5 options available, with the default (i believe) of being 0.7% health regen per second.\r\n\r\nHalf - Healing rate of 0.35%\r\nNormal - Healing rate of 0.7% (Skyrim NPC Default out of combat)\r\nDouble - Healing rate of 1.4%\r\nTriple - Healing rate of 2.1%\r\nQuadruple - Healing rate of 2.8%\r\n\r\nIf you want a specific rate, tell me and if i\\'m nice i\\'ll add it in for you.\r\n\r\n\r\n[b][u]How to use it?[/b][/u]\r\nDownload the .esp via NMM \r\n--or Manual: pop it in (skyrim/Data) and activate on launch.\r\n\r\n1. In game, open the Skyrim console (~)\r\n2. Type: help \\\"PHR Combat\\\" 4\r\n3. You will see each spell listed, each with its\\' own ID.\r\n4. Click on your target NPC.\r\n5a. To give said ability, type: addspell ([i]spell ID[/i])\r\n5b. To remove said ability, type: removespell ([i]spell ID[/i])\r\n6. Close console (~)\r\n7. Save game and enjoy.\r\n\r\n\r\n[b]SEE ALSO[/b]\r\n[url=http://skyrim.nexusmods.com/mods/44822/?]Passive Health Regeneration - Mortal Follower Fix[/url]\r\n\r\n\r\n[b][u]Notes[/b][/u]\r\n- This ability is not used unless added to NPC via console (or creation kit).\r\n- This does NOT replace current regen rates, merely increases them by said amount.\r\n- 99.99% Compatible with anything you throw with it.\r\n\r\n\r\n[b][u]Change Log[/b][/u]\r\nv1.01 (19/10/2013) - Fixed a potential bug\r\nv1.00 (18/10/2013) - Initial release",
+  "categoryId": "24",
+  "version": "1.01",
+  "author": "Piggles",
+  "createdUnix": "1382094821",
+  "updatedUnix": "1382100627",
+  "containsAdultContent": false,
+  "uploadedBy": "Piggles",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000067482",
+      "name": "Combat Health Regen",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Combat Health Regen-44831-1-01.zip",
+      "uploadedUnix": "1382100627",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/5548d7687bfc92505b08c9e4af15c1c776fcaf27172a5f06c53bf0f1ff4ec941/analysis/1407760148/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Combat%20Health%20Regen-44831-1-01.zip?fid=1000067482&ttl=1535825405&ri=8192&rs=8192&setec=9a6412305dc4b8cbbe17ad1cbfafd05e"
+    }
+  ]
+}

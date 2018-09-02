@@ -1,0 +1,32 @@
+{
+  "modId": 55903.0,
+  "modName": "Shout - Summon Sahrotaar",
+  "summary": "Now you can summon the serpentine dragon Sahrotaar to aid you in your battles&#33;\r<br />\r<br />(REQUIRES DAWNGUARD AND DRAGONBORN DLCs)",
+  "descriptionHtml": "This shout will allow you to summon Sahrotaar. If he expires, just summon him again. He levels up with you, so he gets stronger as you do. He knows the Fire and Frost breath shouts, as well as the Drain Vitality shouts.\r<br />\r<br />The shout has a cooldown time of 300 seconds(5 minutes).\r<br />\r<br />If you have any problems, don&#39;t hesitate to tell me. I&#39;ll try to fix it. I don&#39;t know how to make custom word walls yet, so you have to use the console to get this shout. There&#39;s a text file supplied along with the .esp(you have to edit it based on your load order, it won&#39;t work on it&#39;s initial state due to the placeholder xx in the &#34;load order section&#34; of the ID. To activate it, simply type &#34;bat sahrotaar_shout&#34;).\r<br />\r<br />If you miss the text file somehow, here&#39;s the ID&#39;s:\r<br />\r<br />Shout: xx005902\r<br />The ID&#39;s of the words are xx005903, xx005904, and xx005905 respectively.\r<br />\r<br />xx depends on your load order.\r<br />\r<br />Should be compatible with nearly any mod as this uses a copy of the Sahrotaar/Serpentine Dragon actor.\r<br />\r<br />The reason I made this mod is that many people on the TES fanbase liked Sahrotaar, so why not make him summonable?\r<br />\r<br />Requires both Dawnguard and Dragonborn. Dawnguard is needed as this was based off the Summon Durnehviir shout and shares some scripts with it.\r<br />\r<br />This is my first mod, so don&#39;t be too harsh. Sorry for the lack of images, as I can&#39;t seem to take screenshots in Skyrim for some reason.",
+  "categoryId": "75",
+  "version": "v1",
+  "author": "XxTheSupremeOnexX",
+  "createdUnix": "1405192347",
+  "updatedUnix": "1405192336",
+  "containsAdultContent": false,
+  "uploadedBy": "XxTheSupremeOnexX",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000117175",
+      "name": "summon sahrotaar",
+      "version": "v1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "summon sahrotaar-55903-v1.zip",
+      "uploadedUnix": "1405192336",
+      "modVersion": "v1",
+      "virusScanUrl": "https://www.virustotal.com/file/858fa968753fb6b726a16bd34bcb9f2d3a62b2d38e993374c5e86d33ffec6282/analysis/1405192423/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/summon%20sahrotaar-55903-v1.zip?fid=1000117175&ttl=1535840931&ri=8192&rs=8192&setec=4ea11a86ba7c90f9bcad6b49fec96cca"
+    }
+  ]
+}

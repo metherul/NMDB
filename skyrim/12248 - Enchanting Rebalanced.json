@@ -1,0 +1,48 @@
+{
+  "modId": 12248.0,
+  "modName": "Enchanting Rebalanced",
+  "summary": "Sensibly balances enchanting to bring down late game power.",
+  "descriptionHtml": "[u]Description[/u]:\r\nThere are a number of mods that at least attempt to balance the crafting systems in Skyrim. Likewise this mod tones enchanting down, with some additional changes I feel make a great deal of sense. Care was taken to resemble the original constellation, and the number of points required for all perks is the same as vanilla.\r\n\r\n[u]What It Does[/u]:\r\n[b]Enchanter:[/b] still 5 ranks, increases enchanting by 10% per rank down from 20%.\r\n[b]New, Elementalist:[/b] increases the effect of all fire, frost, and shock enchants (2 ranks, 12%/25%)\r\n[b]Fire, Frost, and Shock Enchanter:[/b] removed and merged into Elementalist.\r\n[b]Insightful Enchanter:[/b] reduced to 20% effect from 25%\r\n[b]Corpus Enchanter:[/b] reduced to 20% effect from 25%\r\n[b]New, Soul Reaper:[/b] combines Soul Stealer and Soul Siphon into one perk. Trap victim\\'s soul is now 10% and works on any target (including humans).\r\n[b]New, Resilience:[/b] passively increases magic resistance by 10%.\r\n[b]New, Dual Enchanter:[/b] can place two enchants on the same item, but at 75% strength.\r\n[b]Extra Effect:[/b] renamed Master Enchanter, same effect as before.\r\n\r\n[u]Version History[/u]:\r\n[b]2.0:[/b] cleaned up the file. I think I finally got rid of any leftover skill-up issues.\r\nSoul Reaper now steals 10% of any soul (including humans). Now requires 30 enchanting.\r\nResilience now increases magic resistance by 10% as intended, rather than giving a 10% chance to absorb spells.\r\n[b]1.2a:[/b] fixed a potential compatibility issue with mods that affect Smithing perks.\r\n[b]1.2:[/b] fixed a major bug introduced with Skyrim Patch 1.5 that was causing inordinate skill ups. \r\nSoul Reaper now traps 25% of the victim\\'s soul.\r\n[b]1.1:[/b] it should no longer be necessary to use the console commands, depending on what perks you had before. Fixed a minor bug with Soul Reaper.\r\n\r\n[u]Installation[/u]:\r\nOpen the zip file, drop and drag the .esp into your Skyrim\\\\Data folder.\r\n\r\n\r\nCheck out these other mods:\r\n[url=http://skyrim.nexusmods.com/downloads/file.php?id=12249]Blacksmithing Rebalanced[/url]\r\n[url=http://skyrim.nexusmods.com/mods/29734]Destruction Rebalanced[/url]\r\n\r\n\r\nOTHER NOTES:\r\nIf you are intending to use this mod with existing characters, you may need to use console commands to add perks. These commands are:\r\nhelp \\\"Mod Name\\\" 4 (ie: help \\\"Enchanter\\\" 4)\r\nplayer.addperk perkID (ie: player.addperk 000BEE97)\r\n* player.removeperk perkID\r\n\r\n* If you need to remove perks for any reason.\r\n\r\n\r\nPlease let me know of any bugs, spelling or grammatical errors you come across.\r\n\r\nSpecial thanks to: Athyra.",
+  "categoryId": "24",
+  "version": "2.0",
+  "author": "Sicom",
+  "createdUnix": "1331004137",
+  "updatedUnix": "1355426703",
+  "containsAdultContent": false,
+  "uploadedBy": "SicomSix",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "40710",
+      "name": "Enchanting Rebalanced",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "EnchantingRebalanced-12248.zip",
+      "uploadedUnix": "1331028685",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/cfe4ddcc38121b02c329fb670ac885b0687c476f6542b53a51a0286a02f34ec2/analysis/1406734519/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/EnchantingRebalanced-12248.zip?fid=40710&ttl=1535773994&ri=8192&rs=8192&setec=e01c9aaecc49c882ced48f8da6e032c2"
+    },
+    {
+      "fileId": "105022",
+      "name": "Enchanting Rebalanced",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "EnchantingRebalanced-12248-2-0.zip",
+      "uploadedUnix": "1355426703",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/27a1658050f5571bb3ed7066d5f72895b68a16b905e43993d4d7e333f4cbefd1/analysis/1407303188/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/EnchantingRebalanced-12248-2-0.zip?fid=105022&ttl=1535773994&ri=8192&rs=8192&setec=004ffa41fe4cdfc80de1739ea22b8d32"
+    }
+  ]
+}

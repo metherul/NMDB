@@ -1,0 +1,48 @@
+{
+  "modId": 42634.0,
+  "modName": "No Spells",
+  "summary": "No Spells keeps you from learning new spells from a school without at least the novice perk in that school.",
+  "descriptionHtml": "[size=9]No Spells is now [url=http://skyrim.nexusmods.com/mods/43057//?]Tomes[/url]. See that mod for future updates.[/size]\r\n\r\n[size=5][center]----------------------------------------------------------------------------------------------------[/center][/size]\r\n\r\n[img]http://static2.nexusmods.com/110/mods/110/images/42634-1-1379815786.png[/img] [size=4]was designed to be a type of immersion mod. I didn\\'t like how anyone could use any spell in Skyrim. Especially since people like Farengar hint at the fact that you need aptitude to be a great wizard. Thus I created a mod that keeps you from being able to learn new spells without at least the novice perk for that school. You can still buy tomes as normal, however without Novice Aptitude you will fumble with the tome and destroy it without learning the spell.\r\n\r\nAs of yet this is just an alpha mod. You will still get a notification that you have learned the spell, but the sound should be different and you should get a second message that says you destroyed the tomb without learning the spell. I also modified the starting player so that you DO NOT start with Flames and Healing. (Again, you need the aptitude to use those spells.)[/size]\r\n\r\n[size=3]NOTE: THIS MOD REQUIRES DAWNGUARD AND DRAGONBORN. I hope to put out a patch for at least SkyRe in the future.[/size]\r\n\r\n[img]http://static2.nexusmods.com/110/mods/110/images/42634-1-1379814503.jpg[/img]\r\n\r\n[size=5][b]Features[/b][/size]\r\n[list][size=3][*]Removes Flames and Healing from all players* (see Known Issues)[/size][/list]\r\n[list][size=3][*]Lore Friendly [/size][/list]\r\n[list][size=3][*]Learn spells only after taking novice perk in desired school [/size][/list]\r\n[list][size=3][*]Tomes are destroyed trying to learn spells [/size][/list]\r\n[list][size=3][*]Tested with [url=http://skse.silverlock.org/]SKSE[/url], [url=http://skyrim.nexusmods.com/mods/3863//?]SkyUi[/url], [url=http://skyrim.nexusmods.com/mods/3222//?]iHUD[/url], [url=http://skyrim.nexusmods.com/mods/11163//?]Frostfall[/url], etc[/size][/list]\r\n[list][size=3][*]Does work with [url=http://skyrim.nexusmods.com/mods/9286//?]SkyRe[/url], [color=red]HOWEVER[/color] the new spells added by that mod will not work. It won\\'t cause conflicts, but you WILL learn the new spells. This will be updated in the future (see below)[/list][/size]\r\n\r\n[size=5][b]KNOWN ISSUES[/b][/size]\r\n[list][size=3][*]Having a problem with certain characters not having Flames and Healing removed. This is with characters who are further along in the game. All the new characters I have made seem to work fine. Hope to fix this in the future. However if you go [url=http://skyrim.nexusmods.com/mods/13994//?]here[/url] DefiniteIntegral seems to have a mod that does that. I personally have not used it, but it seems popular.[/list][/size]\r\n[list][size=3][*]Still does not work with SkyRe spells. Will be releasing an addon for that.[/list][/size]\r\n\r\n[size=5][b]COMING SOON[/b][/size]\r\n[list][size=3][*]Integration with SkyUi so you can turn it off and on inside Skyrim.[/list][/size]\r\n[list][size=3][*]SkyRe addon. This will make it fully compatible with SkyRe spells and tomes.[/list][/size]\r\n[list][size=3][*]Option to enable for all perks and not just novice. (thanks to mogribus for this idea)[/list][/size]\r\n[list][size=3][*]Find a way to get rid of the \\\"LEARNED NEW SPELL\\\" message when reading tomes. If anyone knows of a way to fix this let me know. I will keep looking.[/list][/size]\r\n[list][size=3][*]Find and address bugs.[/list][/size]\r\n\r\n[size=3]I want to thank all of you who have already downloaded and tried my MOD. If you think it is a good idea please endorse it. Also please let me know any ideas you have to make it better.[/size]",
+  "categoryId": "78",
+  "version": "0.5",
+  "author": "Pointed86",
+  "createdUnix": "1379745468",
+  "updatedUnix": "1379819243",
+  "containsAdultContent": false,
+  "uploadedBy": "pointed86",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000056845",
+      "name": "No_Spells_Alpha",
+      "version": "Alpha",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "No_Spells_Alpha-42634-Alpha.zip",
+      "uploadedUnix": "1379745351",
+      "modVersion": "Alpha",
+      "virusScanUrl": "https://www.virustotal.com/file/802cde3dbca9f6a1a9d8db80d813cd479f4acdfdec990cd077649669c0dd08ba/analysis/1407729906/",
+      "changelogHtml": " Initial upload <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No_Spells_Alpha-42634-Alpha.zip?fid=1000056845&ttl=1535823490&ri=8192&rs=8192&setec=0d7f57962244ad2216703f0206896b04"
+    },
+    {
+      "fileId": "1000057043",
+      "name": "No_Spells_0_5",
+      "version": "0.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "No_Spells_0_5-42634-0-5.zip",
+      "uploadedUnix": "1379819243",
+      "modVersion": "0.5",
+      "virusScanUrl": "https://www.virustotal.com/file/02cdf1d8cce39df5a2aad18add22c66263802b73ae2efb757cfc90fab82e6dc8/analysis/1407730811/",
+      "changelogHtml": " Now supported as TOMES <br/> \n Fixed issue with bsa and esp not being named the same <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No_Spells_0_5-42634-0-5.zip?fid=1000057043&ttl=1535823490&ri=8192&rs=8192&setec=14b0778dd6a868a0bd8dea28871e5882"
+    }
+  ]
+}

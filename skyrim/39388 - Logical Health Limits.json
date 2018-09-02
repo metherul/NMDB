@@ -1,0 +1,32 @@
+{
+  "modId": 39388.0,
+  "modName": "Logical Health Limits",
+  "summary": "Opponents in Skyrim have too much health. With this mod, they will only have as much health as they should based on their class and level. ",
+  "descriptionHtml": "Logical Health Limits\r\nBy Tiny Lampe\r\nRequirements: Skyrim 1.9, Dawnguard and Dragonborn. \r\n\r\n\r\n---- 1. Description ----\r\n\r\nAs I started facing higher level opponents in Skyrim, I realized they had too much health. \r\n\r\nCase in point: Draugr Wight (lvl 13, 320HP) vs. Draugr Scourge (lvl 21, 700 HP). How is is possible that, with just 8 level-ups, draugrs gain 380HP? The player would need 38 level-ups to reach a similar improvement and that is assuming he invested all level-ups in health and none in magicka/stamina. opponents in Skyrim can gain health points so quickly because they...cheat. More precisely:  \r\n\r\n1. All NPCs gain +5 bonus health per level. Meaning: if an NPC and the player are both level 10 and they spend all level-ups on health, the NPC will still have 9*5= 45 more HP than the player. \r\n\r\n2. All NPCs benefit from a variable called \\'health offset\\'. This is just a free (and usually large) amount of extra health. A draugr Scourge for instance has a health offset of +450HP. Since his total health was 700, this means that more than half of his HP comes from the \\'health offset\\'\r\n\r\nThis mod sets the \\'bonus health\\' and \\'health offset\\' of each NPC to zero. As a result, all NPCs have exactly as much as health as they should according to their class and level. This means that human-sized opponents will have anywhere between 25 and 300 health instead of between 25 and 1400 health (yes, the mighty draugr deathlord will only have 300HP). Larger opponents will have between 500 and 1000 health instead of between 500 and 4000. \r\n\r\nOnly standard, respawn-able opponents are affected. Unique actors (Alduin etc.) are left untouched. \r\n\r\nIt goes without saying that this mod makes the game easier. Consider however that opponents are still as deadly as ever. Their attacks will hurt you as much or as little as they did before using this mod. The difference is that now you need a more reasonable amount of hits to bring them down. This makes combat a lot less tedius and perhaps a bit more immersive (no more mages in robes that need 20 hits from a warhammer in order to die).    \r\n\r\nUsing smithing and enchanting extensively in combination with this mod will result in you one-shoting everything. Of course, the same was true in the standard game. In a way, this mod is for those who don\\'t want to (ab)use smithing and enchanting and yet don\\'t wish to spend 5 minutes hacking and slashing at an opponent in order to kill it.  \r\n\r\n\r\n---- 2. Compatibility ----\r\n\r\nThis mod modifies over 200 actors by manually editing the hard numbers in the actor window. Any mods that do the same thing will conflict. \r\n\r\n\r\n---- 3. Installation ----\r\n\r\nTwo options are available: \r\n\r\nLogicalHealthLimits_HealthOffsetOnly.esp: sets the health offsets to 0 but doesn\\'t modify the +5 bonus health per level. With this high level enemies (lvl 50+) are still quite resilient (although still less so than in vanilla). \r\n\r\nLogicalHealthLimits_Full.esp: sets both the health offsets and the health bonus to 0. This makes opponents have exactly as much HP as they should based on their class and level.  \r\n\r\nPlace ONLY one of those .esp inside your data folder. Important: f you load the mod on an existing game those actors that have already spwaned will have vanilla health levels. Only those actors that haven\\'t spawned yet will have modded health levels. If you start a new game everything will work as intended from the begining. \r\n",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Tiny Lampe",
+  "createdUnix": "1375379370",
+  "updatedUnix": "1375379291",
+  "containsAdultContent": false,
+  "uploadedBy": "tiny lampe",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000043245",
+      "name": "LogicalHealthLimits",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "109",
+      "fileName": "LogicalHealthLimits-39388-1-0.7z",
+      "uploadedUnix": "1375379291",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/507cd60b391ea74493ea1ff73ae65e774be8910c904f0eb3f9d765d9d3a32bb1/analysis/1407665664/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LogicalHealthLimits-39388-1-0.7z?fid=1000043245&ttl=1535819807&ri=8192&rs=8192&setec=92af5cb32dbec05efc0784a75ca8d783"
+    }
+  ]
+}

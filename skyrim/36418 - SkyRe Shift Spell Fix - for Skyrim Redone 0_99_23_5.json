@@ -1,0 +1,32 @@
+{
+  "modId": 36418.0,
+  "modName": "SkyRe Shift Spell Fix - for Skyrim Redone 0_99_23_5",
+  "summary": "Fixes some issues with the Phase and Combat Shift spells in Skyrim Redone (pre-Dragonborn).",
+  "descriptionHtml": "[B][size=16]Intro[/size][/B]\r\n\r\nSimply put this if a bug fix for T3nd0\\'s awesome work on Skyrim Redone. He plans to implement a similar fix but I am impatient and am unsure if he is going to implement the fix for the latest pre-Dragonborn version (0.99.23.5) so I decided to have some fun and figure out how to fix it myself.\r\n\r\n\r\n[B][size=16]Installation[/size][/B]\r\n\r\n[color=red]Because this is a fix it REQUIRES Skyrim Redone, and must be loaded after SkyRe_main.esp.[/color]\r\n\r\n[color=green]Recommended using SkyRe 0.99.23.5, that is the SkyRe version this fix was built on, it MAY work on newer versions but I have no way of supporting it.[/color]\r\n\r\nAutomatic installation via one of the many mod installers. Load order must be after SkyRe_main.esp.\r\n\r\n[size=3]Manual installation:[/size]\r\n1. Copy the Data directory into your root Skyrim directory (the one with the Skyrim EXE) and merge the directories.\r\n2. Select SkyRe_Shift_Spell_Fix.esp through the Skyrim Launcher and make sure it loads AFTER SkyRe_main.esp.\r\n\r\n[size=3]If you insist on installing it file-by-file:[/size]\r\n1. Place SkyRe_Shift_Spell_Fix.esp in your data directory.\r\n2. Place \\\"xxxCombatShiftScript.pex\\\" and \\\"xxxPhaseShiftScript.pex\\\" into your data/scripts directory.\r\n3. Place \\\"xxxCombatShiftScript.psc\\\" and \\\"xxxPhaseShiftScript.psc\\\" into your data/scripts/source directory.\r\n4. Select SkyRe_Shift_Spell_Fix.esp through the Skyrim Launcher and make sure it loads AFTER SkyRe_main.esp.\r\n\r\n[size=3]Uninstallation:[/size]\r\n1. Remove from Load Order.\r\n2. Delete SkyRe_Shift_Spell_Fix.esp.\r\n3. Delete \\\"xxxCombatShiftScript.pex\\\" and \\\"xxxPhaseShiftScript.pex\\\" from your data/scripts directory.\r\n4. Delete \\\"xxxCombatShiftScript.psc\\\" and \\\"xxxPhaseShiftScript.psc\\\" from your data/scripts/source directory.\r\n\r\n[B][size=16]Description[/size][/B]\r\n\r\n[I][size=3][color=green]So why is this fix needed?[/color][/size][/I]\r\nThe original Shift spells in SkyRe work by creating an invisible actor, moving the player to that actor, then killing that invisible actor. This seems to cause some issues where if used too rapidly you will end up teleporting many screens away from your starting and destination locations, it also causes a slightly annoying bug every time you cast it that causes a male death sound to play.\r\n\r\nCombat Shift was also scripted to turn the characters Z-axis rotation to 180 degrees, unfortunately 180 degrees is always south in Skyrim.\r\n\r\n[I][size=3][color=green]Okay, so what does this fix do?[/color][/size][/I]\r\nThis fix in short gets rid of the above issues.....it does this by causing an explosion at the targetted location that spawns an activator, the activator teleports the player to its location and removes itself from the game (so it doesn\\'t clutter the map with invisible activators). This method is much more reliable and does not cause the male death grunt.\r\n\r\nCombat Shift takes the characters Z-Axis rotation then runs a simple calculation to figure out the rotation it needs to set the character to so they are facing the opposite direction that they were when they cast the spell (this is required because in Skyrim 0 degrees = North and 180 degrees = South). I suppose if you spin the camera fast enough when casting the spell it might be wrong, but in normal circumstances it turns your character around (to face its previous location) like it should.\r\n\r\n[I][size=3][color=green]Can I use this with the latest SkyRe version?[/color][/size][/I]\r\nYou can try, I don\\'t have Dragonborn so I can\\'t test it, as long as the IDs of the spells stayed the same in the newer version it SHOULD work as all my fix does is add 2 new explosions, 2 new activators, then it modifies the current SkyRe combat shift and phase shift effects and spells.\r\n\r\nIt may work or it may not, if you\\'re feeling adventurous try it out and let me know.\r\n\r\nJust remember if you do use this, as soon as T3nd0 fixes it you can remove this fix.\r\n\r\n\r\n[I][size=16]Extra Note[/size][/I]\r\n\r\nI played with this in private for a day or two and I had one case where I teleported to a different location like what happens with SkyRe\\'s shift skills, but I suspect it was because I was using it to climb a mountain side and had a couple casts that were within range but it couldn\\'t find a navmesh to put me on so they didn\\'t move my character...suddenly I teleported to the other side of a large rock on the mountain straight in front of the direction I was going. It wasn\\'t a very far teleport but it was awkward until I realized what had happened.\r\n\r\n\r\n[B][size=16]Credits[/size][/B]\r\n\r\nOriginal Credit goes to T3nd0 for his awesome mod.\r\n\r\nThis fix also wouldn\\'t have been possible without help from EnaiSiaion, who helped me learn enough about Creation Kit scripting to make this fix.",
+  "categoryId": "79",
+  "version": "1.0",
+  "author": "mwpeck",
+  "createdUnix": "1369505224",
+  "updatedUnix": "1369505160",
+  "containsAdultContent": false,
+  "uploadedBy": "mwpeck",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000031413",
+      "name": "SkyRe Shift Spell Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "SkyRe Shift Spell Fix-36418-1-0.zip",
+      "uploadedUnix": "1369505160",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/030801f295cfa514d6b0fdbe8a7cf8476d42704fc3236d90fdced2b8e90168bb/analysis/1407581405/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyRe%20Shift%20Spell%20Fix-36418-1-0.zip?fid=1000031413&ttl=1535815578&ri=8192&rs=8192&setec=c0b81bc73eaa4bd76d88b63dd687c72f"
+    }
+  ]
+}

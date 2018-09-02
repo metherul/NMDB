@@ -1,0 +1,48 @@
+{
+  "modId": 42890.0,
+  "modName": "Healing Spriggan Pet",
+  "summary": "Adds a healing spriggan pet companion to the temple of Kynareth in Whiterun. Her job is to heal you, your followers, companions and allies.",
+  "descriptionHtml": "[right][size=5][color=#C8FE2E]v1.0 Recover Health/Magicka area increased to 100 ft.[/color][/size][/right][right][size=5][color=#C8FE2E]Now with spriggan leaves FX[/color][/size][/right][right][size=5][color=#C8FE2E]Should work with your LIVING non-daedra summons[/color][/size][/right]\r<br />\r<br />[size=5][color=#C8FE2E]Q: Dialogue options don&#39;t work after the fight is over.[/color][/size]\r<br />[size=5][color=#C8FE2E]A: To solve this just cast any beneficial spell on her f.ex. courage, healing hands etc.[/color][/size]\r<br />\r<br />[youtube]eBNpiJK1ILM[/youtube]\r<br />\r<br />[size=6][color=#C8FE2E]Description[/color][/size]\r<br />\r<br />Easy and simple: Danica Pure-Spring has befriended a spriggan which now lives in the temple of Kynareth. You can find the pet in Whiterun wandering about or inside the temple itself. Her name is Vilya and she will follow you if talked to. Her role is to heal you and your followers. Made and tested on master difficulty, though I made her strength  scale with your level. Vilya is meant for legendary difficulty with difficulty enhancing mods like [url=http://skyrim.nexusmods.com/mods/3829]Deadly Dragons[/url], [url=http://skyrim.nexusmods.com/mods/24913]Skyrim Immersive Creatures[/url].\r<br />\r<br />[b]Her special abilities:[/b]\r<br /> - Restore health - once in 20 seconds restores health of you and all your allies in an area of 100 ft. if your health falls below 2/3 of full health\r<br /> - Restore magicka - once in 30 seconds restores magicka of you and all your allies in an area of 100 ft. if your magicka falls below 1/3 of full magicka\r<br /> - Nutrient drain - special nutrient-draining spell known only by the spriggans. Drains enemies of nutrients e.g. health, stamina and  magicka restoring the caster&#39;s own. Scales with Vilya&#39;s level.\r<br />\r<br />I have also removed annoying fly buzz sound the spriggans do all the time, like it comes from a pile of rotten meat, not graceful forest spirit. All spriggans are now silent.\r<br />\r<br />[size=6][color=#C8FE2E]Requirements[/color][/size]\r<br />Skyrim latest patch\r<br />Skyrim Script Extender v1.6.16 or higher\r<br />Dragonborn DLC\r<br />\r<br />[size=6][color=#C8FE2E]Updating[/color][/size]\r<br />1. If Vilya follows you dismiss her.\r<br />2. Deactivate HealingSprigganPet esp in Skyrim data files.\r<br />3. Load your save and make a clean save just in case.\r<br />4. Replace the old files the new ones in Skyrim Data folder - C:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;Skyrim&#92;Data\r<br />5. Activate the new HealingSprigganPet esp in Skyrim data files.\r<br />6. Play\r<br />\r<br />[size=6][color=#C8FE2E]Install/Uninstall[/color][/size]\r<br />\r<br />How to install:\r<br />1.Extract archive into Skyrim data folder - C:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;Skyrim&#92;Data\r<br />2.Activate HealingSprigganPet in skyrim Data files\r<br />\r<br />How to uninstall:\r<br />1.Delete HealingSprigganPet esp from Skyrim data folder - C:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;Skyrim&#92;Data\r<br />2.Delete HealingSprigganPet BSA and BSL files from C:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;Skyrim&#92;Data\r<br />\r<br />[size=6][color=#C8FE2E]FAQ[/color][/size]\r<br />Q: The dialogue commands don&#39;t work after the fight is over.\r<br />A: To solve this just cast any beneficial spell on her f.ex. courage, healing hands etc.\r<br />Q: Why can&#39;t I talk to her?/Why won&#39;t she follow me?\r<br />A: Because your playeranimalcount is not set to 0. It can happen when you had your animal follower mod removed while accompanied by the follower. Always disband your followers before uninstalling follower mods&#33; To cure this open up the console and type set playeranimalcount to 0.\r<br />Q: Why is she fighting?\r<br />A: By &#34;pet&#34; I meant a fully functional follower that can fight as well as yourself.\r<br />Q: Why all the spriggans got their sound removed?\r<br />A: For immersion - never in my life have I heard a tree making such a noise.\r<br />\r<br />[size=6][color=#C8FE2E]Change Log[/color][/size]\r<br />v1.0\r<br />- Removed follow message due to conflicts with AFT\r<br />- Added a miniscule delay to restore ability\r<br />- Increased area effect of restore magicka/health to 100 ft\r<br />- made recover abilities to ignore LOS\r<br />- increased run speed\r<br />- Added Spriggan Leaves FX\r<br />- Increased nutrient drain damage\r<br />\r<br />v0.9\r<br />- Increased movement speed\r<br />- Removed default fly buzz sound\r<br />- Fixed conditions so that the enemies won&#39;t get healed in combat\r<br />- ajusted spell timers\r<br />\r<br />v0.7 Beta\r<br />- Initial release\r<br />\r<br />[size=6][color=#C8FE2E]Compatibility[/color][/size]\r<br />The content of this mod consists of new independent/standalone race, abilities and scripts. They \r<br />should not conflict or interfere with most mods&#39; content.\r<br />\r<br />[size=6][color=#C8FE2E]Issues and bugs[/color][/size]\r<br />v1.0 The dialogue commands don&#39;t work after the fight is over.\r<br />v0.9 Amazing Follower Tweaks will cause the follow message appear every time the pet is talked to///FIXED///\r<br />v0.7 After dismissing Vilja the fly buzz sound is heard ///FIXED///\r<br />v0.7 Sometimes the healing ability restores enemies&#39; health ///FIXED///\r<br />\r<br />*/&#92;*",
+  "categoryId": "65",
+  "version": "1.0",
+  "author": "Noxiousq12",
+  "createdUnix": "1380130172",
+  "updatedUnix": "1380266597",
+  "containsAdultContent": false,
+  "uploadedBy": "noxiousq12",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000058117",
+      "name": "Healing Spriggan Pet v-0-9",
+      "version": "0.9",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "655",
+      "fileName": "Healing Spriggan Pet v-0-9-42890-0-9.rar",
+      "uploadedUnix": "1380130167",
+      "modVersion": "0.9",
+      "virusScanUrl": "https://www.virustotal.com/file/d0f817eb16121753e6940b59e2f046f122e06f1c2e2308ff9a37cf617e99dfd2/analysis/1407734283/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Healing%20Spriggan%20Pet%20v-0-9-42890-0-9.rar?fid=1000058117&ttl=1535823737&ri=8192&rs=8192&setec=0862c8e2480ed51a0892126fe683758d"
+    },
+    {
+      "fileId": "1000059162",
+      "name": "Healing Spriggan Pet v1-0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "660",
+      "fileName": "Healing Spriggan Pet v1-0-42890-1-0.rar",
+      "uploadedUnix": "1380266597",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/dc30a66be02aa01564409fd4387c029520aa452d4e6fd9aa9874303c47db85d6/analysis/1407736985/",
+      "changelogHtml": " - Removed follow message due to conflicts with ATF\r<br />- Added a miniscule delay to restore ability\r<br />- Increased area effect of restore magicka/health to 100 ft\r<br />- made recover abilities to ignore LOS\r<br />- increased run speed\r<br />- Added Spriggan Leaves FX\r<br />- Increased nutrient drain damage <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Healing%20Spriggan%20Pet%20v1-0-42890-1-0.rar?fid=1000059162&ttl=1535823737&ri=8192&rs=8192&setec=ad921728eb078a36bace99e590deb3fa"
+    }
+  ]
+}

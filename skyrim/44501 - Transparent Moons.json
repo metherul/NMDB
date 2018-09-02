@@ -1,0 +1,48 @@
+{
+  "modId": 44501.0,
+  "modName": "Transparent Moons",
+  "summary": "Makes the moons, Masser and Secunda transparent. (as the two halves of the Lorkhan eggshell should be in my interpretation of the lore)",
+  "descriptionHtml": "-Installation:\r<br />Main file:\r<br />The texture goes to &lt;skyrim installation&gt;/Data/Textures/sky/moonshadow.dds  . You can do that by extracting the &#39;textures&#39; directory in the archive inside your Data directory of Skyrim, overwriting.\r<br />Optional File:\r<br />The textures go into &lt;skyrim installation&gt;/Data/Textures/sky/   . The main file is included, for convenience, but overwriting in any direction should pose no problem.\r<br />\r<br />-Description:\r<br />Main file:\r<br />A very simple change, it replaces the background moonshadow applied to the moons with a fully transparent texture (of the same size). Since the &#34;moonshadow&#34; was a tightly fit black disc, set as a background for the moon textures, in the vanilla game you would see Clouds-&gt;Moons-&gt;(fully black) Moonshadow-&gt;Sky. To see a Sky pixel, all the previous pixels in that chain would have to be transparent.\r<br />By making the moonshadow disc transparent, you now can see Clouds-&gt;Moons-&gt;Sky, without the intervening black surface.\r<br />Optional files:\r<br />The optional files change the vanilla Skyrim moon textures to eliminate transparency from coloured pixels - basically, if there is a piece of the moon there, it will be opaque. Some frayed edges do exist, so some expected star winking should occur near the &#39;inner&#39; edge of each moon.\r<br />\r<br />-Issues:\r<br />The default moons do have some transparency in some unfortunate places, and, depending on your star density, you might observe some stars winking through the moons. Therefore, both the default moons and possible moon mods should be changed to have no transparency over the solid areas of the textures - this mod provides those changes as a separate, optional download, for the vanilla moons.\r<br />Also, I would wish to change the textures so the moons turn, not display portions of the same flat texture - they shouldn&#39;t be tidally locked.\r<br />\r<br />-Lore:\r<br />According to the lore (a lore, some lore, my lore, a pinch of lore over your horker steak, sir?, text and context), the gods are infinite planes, which are projected and perceived by most mortals as spheres in the sky. When Lorkhan participated in the creation of the world Nirn[1], he was broken[2], and his remains, the fractured eggshell of his being, remain behind. Most mortals perceive those remains as the two moons, Masser and Secunda, and their fracture is obvious, as neither is a whole sphere. When the moons turn, they show their hollowness, and are not shaded through some geometry among themselves, the sun and Nirn.\r<br />Notes:\r<br />[1]  on which the Elder Scrolls games take place, not counting Oblivion gates and unless you install some mods to travel to Elsweyr\r<br />[2] this involved Trinimac as well",
+  "categoryId": "29",
+  "version": "0.1",
+  "author": "nabazbaka",
+  "createdUnix": "1381782497",
+  "updatedUnix": "1381831435",
+  "containsAdultContent": false,
+  "uploadedBy": "nabazbaka",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000065857",
+      "name": "Transparent Moons",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Transparent Moons-44501-0-1.7z",
+      "uploadedUnix": "1381782491",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c8d693f034c20a85f1848e6300ab84b30bb4e7c8cdc56c6fb7159dd82f8450e4/analysis/1407756363/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Transparent%20Moons-44501-0-1.7z?fid=1000065857&ttl=1535825098&ri=8192&rs=8192&setec=2c5ebe76a27ecaf5f4ba8cbd5400c808"
+    },
+    {
+      "fileId": "1000066122",
+      "name": "Opaque and Hollow Moon Textures",
+      "version": "",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "555",
+      "fileName": "Opaque and Hollow Moon Textures-44501-.7z",
+      "uploadedUnix": "1381831435",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/62367b7a08c2bdc8df9a4993d4821350d0175fd9882dcaf95bbd560f827d7108/analysis/1407756784/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Opaque%20and%20Hollow%20Moon%20Textures-44501-.7z?fid=1000066122&ttl=1535825098&ri=8192&rs=8192&setec=19737bed0afd5e466e2541492622aabc"
+    }
+  ]
+}

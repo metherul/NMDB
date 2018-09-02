@@ -1,0 +1,32 @@
+{
+  "modId": 80233.0,
+  "modName": "MUNCHINIZE ME OLDRIM - All minor racial perks plus followers ignore friendly fire",
+  "summary": "Bat file to add all those minor race perks (Night Eye, Highborn, etc.), plus make followers immune to friendly fire.",
+  "descriptionHtml": "[size=5][b] [/b]What is it?\r<br />[size=3]Just a bat file to give your character all those little racial perks (Night Eye, Highborn, Imperial Luck, etc.), plus make followers immune to friendly fire. (Although they may still complain about it.) See the bottom of the page for a complete list. (This is the exact same file as the one for Skyrim SE, so if you have that one, you don&#39;t need this one. Still, the link to the other one is right [url=http://www.nexusmods.com/skyrimspecialedition/mods/4262/?]here[/url].)[/size]\r<br />[b]\r<br />TO INSTALL:[/b][/size]\r<br /> \r<br /> In case this is your first time using a .bat file, here&#39;s how to do it:\r<br /> \r<br /> 1. Download and extract into your Skyrim folder (NOT data, but the directory that contains Skyrim.exe.)\r<br /> \r<br /> 2. Launch Skyrim and load up your saved game (or start a new one).\r<br /> \r<br /> 3. Type &#34;~&#34; (without the quotation marks) to open the console, then type\r<br /> &#34;bat MIXRACE&#34; (without the quotation marks) Then type &#34;~&#34; again to close\r<br />  the console\r<br /> \r<br /> 4. Your character now has all of the abilities on the list, permanently&#33; Use and enjoy&#33;\r<br /> \r<br /> Here&#39;s the entire contents of the bat file.\r<br /> You can also edit it to exclude abilities you don&#39;t want, add those you do, or simply type in the commands by hand:\r<br /> \r<br /> ;Companion Insight\r<br /> player.addspell 0301e7f5\r<br /> ;Highborn\r<br /> player.addspell 00105f16\r<br /> ;Magic Resistance\r<br /> player.addspell 000aa01f\r<br /> ;Resist Disease and Poison\r<br /> player.addspell 000aa025\r<br /> ;Resist Fire\r<br /> player.addspell 000aa021\r<br /> ;Resist Frost\r<br /> player.addspell 000aa020\r<br /> ;Waterbreathing\r<br /> player.addspell 000aa01b\r<br /> ;Night Eye\r<br /> player.addspell 000aa01d\r<br /> ;Imperial Luck\r<br /> player.addspell 000eb7eb",
+  "categoryId": "40",
+  "version": "1.0",
+  "author": "dhhamm",
+  "createdUnix": "1479165418",
+  "updatedUnix": "1479165414",
+  "containsAdultContent": false,
+  "uploadedBy": "drhamm",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000228182",
+      "name": "MIXRACE - Munchinize Me",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "MIXRACE - Munchinize Me-80233-1-0.7z",
+      "uploadedUnix": "1479165414",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b1aecc2021dac4018f3c6fb6ad3511d4dc9f43f66b4c663850e97c60f9ebbd43/analysis/1479165423/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MIXRACE%20-%20Munchinize%20Me-80233-1-0.7z?fid=1000228182&ttl=1535868868&ri=8192&rs=8192&setec=48aac847fc36cf8f8d6e3e0d55a25b6a"
+    }
+  ]
+}

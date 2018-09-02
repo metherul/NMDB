@@ -1,0 +1,32 @@
+{
+  "modId": 21940.0,
+  "modName": "Skyrim Warehouse Resources",
+  "summary": "Warehouse cells from Skyrim.esm",
+  "descriptionHtml": "[color=RoyalBlue][size=5][b]SKYRIM WAREHOUSE RESOURCES[/b][/size][/color]\r\n\r\n[color=RoyalBlue][size=5][b] DESCRIPTION: [/b][/size][/color]\r\n[size=4][color=lightblue]\r\nI noticed a while back that Bethesda has included a number of warehouse resource cells in Skyrim.esm with a huge number of resources.  They are great for figuring out how things work and how things are put together.  A number of tutorials, including the latest ones on CreationKit.com refer to those warehouse cells and recommend copying resources from them. Unfortunately, copying objects from vanilla cells results in marking the cell and the resource object as modified in the plugin file.  Those modified references can lead to conflicts as other modders access and move things around in these cells.  Removing the references from your mod everytime you access one of the warehouse cells can be tedious and time consuming and more than a little bit hazardous to your mod.  To solve that problem, I have duplicated each of those warehouse cells into a separate file and cleaned up all of the resulting references to the vanilla cells.  You can load this plugin as a resource file for your mod, use, browse and explore the multitude of resources to your heart\\'s content without touching Skyrim.esm or any of the vanilla cells.  Simply delete the master file dependency from your mod when you are done as described below. [/size][/color] \r\n\r\n\r\n[color=RoyalBlue][size=5][b] INSTRUCTIONS: [/b][/size][/color]\r\n[size=4][color=lightblue]\r\nI suggest that you begin the cell names in your mods with 001 so they show up at the top of the cell list.  That makes them easier to find and access as you are working with them.  You can name them anything you want in the cell info as the cell info name is what shows up in the game.  Each of the new warehouse cells included in the resource starts with 002 so they will always be immediately under your working cells in the cell list making them easier to work with.  I have included both ESM and ESP versions so you can choose the version you are comfortable with.  You can install both of them into your data directory and then activate the one you want. You can only activate one or the other.  trying to use both will cause errors in the CK.  I use the ESM version as the master cannot be directly modifed by the Creation Kit but I think either version should work equally well.  Find and copy the resources you want into your mod cell.  I suggest that you refer to the tutorials on CreationKit.com (the tutorial on traps, ambushes and prefabs in particular) for several examples of how you might use the resources in your own mod.  When you are done, you must delete the master file dependency before you publish your mod.  To do that, highlight the name of your mod in the data window and the master files are listed in the box to the right titles as Parent Masters.  Click on the warehouse_resources master in the Parent Masters window and use Ctrl-delete will to remove it. Then save your mod as usual and the master dependency will be gone. [/size][/color] \r\n\r\n\r\n[color=RoyalBlue][size=5][b] NOTES: [/b][/size][/color]\r\n[size=4][color=lightblue]\r\nThere is no way I can even begin to test all of the included resources so don\\'t even think of asking me why they don\\'t work.  As a general rule they are pretty good and look to be the same as actually used in the game, but I am making no warranties or representations that the included resources will actually work for you and I am in no way qualified to explain how to use them.  If you have problems with them, take it up with Bethesda as they built them, not me.  I have already discovered several issues so use at your own risk.  Just for example, the barred doors in Prefabs is missing the collision box that keeps the door from opening when the bar is down.  I am simply packaging them in a manner that makes them easier to use.   When I discover issues, I may take the time to fix them if I can figure out how.  If anyone is aware of any issues with the various resources, it would be very helpful if you would post it in the mod comments - with a solution if you know of one.  I may actually take the time to implement the corrections if I understand them. [/size][/color] \r\n\r\n\r\n[color=RoyalBlue][size=5][b] PERMISSIONS: [/b][/size][/color]\r\n[size=4][color=lightblue]\r\nFeel free to use these resources in your own mods in any manner that is legal and permitted by Bethesda\\'s licenses as they are simply copied resources from the Creation Kit itself.  I\\'m not asking for anything in return or even credit in your mod as I have added very little to what was already there.  That may change in future versions if I put any real time into fixing the issues or into adding things of my own.  \r\n\r\n[/size][/color]\r\n",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "ch0k3h0ld",
+  "createdUnix": "1344401550",
+  "updatedUnix": "1344401674",
+  "containsAdultContent": false,
+  "uploadedBy": "ch0k3h0ld",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "79635",
+      "name": "Skyrim Warehouse Resources",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "217",
+      "fileName": "Skyrim Warehouse Resources-21940-1-0.rar",
+      "uploadedUnix": "1344401674",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/713d4283d0b6f2dcb84268eb15df780632301138af938ed666267b25974a2314/analysis/1407078483/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Warehouse%20Resources-21940-1-0.rar?fid=79635&ttl=1535791171&ri=8192&rs=8192&setec=8e89e256fceb7285bd34ae64b1059204"
+    }
+  ]
+}

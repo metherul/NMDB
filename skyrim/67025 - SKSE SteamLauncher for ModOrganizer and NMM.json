@@ -1,0 +1,48 @@
+{
+  "modId": 67025.0,
+  "modName": "SKSE SteamLauncher for ModOrganizer and NMM",
+  "summary": "Enables you to launch the game via Steam while still being able to use Script Extenders and or Mod Organizer",
+  "descriptionHtml": "[color=#00ffff][size=5][u][b]SteamLauncher for SKSE, Versions for ModOrganizer and Standard[/b][/u][/size][/color]\r<br />\r<br />[color=#ff0000]EDIT:My bad I forgot to change the start application for the mod organizer version, UPDATE will fix this[/color]\r<br />\r<br />[color=#f9cb9c][size=5][u]Purpose:[/u][/size][/color]\r<br />[size=3]This mod enables you to launch SKSE with or without Mod Organizer via Steam without having to touch a thing, ideal for controller users, in-home streaming, big picture or just as a simple shortcut to save time.[/size]\r<br />\r<br />[u][b][color=#f9cb9c][size=4]SKSE Already Do This?[/size][/color][/b][/u][size=3]\r<br />Yes and no, yes it does let you load SKSE through the default launcher\r<br />But no you still need to hit play button on the menu to actually play which is not controller friendly, time waster and also don&#39;t forget the launcher also edits ini files that may contain important presets for ENB&#39;s etc.\r<br />For ModOrganizer users this is the only solution I know of to do so hence why I created this program[/size]\r<br />\r<br />[u][color=#f6b26b][size=5]How it works?[/size][/color][/u]\r<br />[list]\r<br />[*][size=3]It first re-names the executable that Steam uses to launch the game (SkyrimLauncher.exe)[/size]\r<br />[*][size=3]It then re-names itself to (SkyrimLauncher.exe) so that when you click play in steam it opens my loader[/size]\r<br />[*][size=3]At this point my program opens either SKSE or SKSE via ModOrganizer depending on what file you download[/size]\r<br />[/list]\r<br />[color=#ffe599][size=5][u]Mod Organiser Installation:[/u][/size][/color]\r<br />[size=3]It&#39;s a semi automatic install although you have to create the mod organizer links yourself/rename and place them in the correct location[/size][list=1]\r<br />[size=3]\r<br />[/size][*][size=3]Open Mod Organizer, select the SKSE executable from the drop down list[/size]\r<br />[size=3]\r<br />[/size][*][size=3]Then choose Shortcut &gt;&gt; Desktop[/size]\r<br />[size=3]\r<br />[/size][*][size=3]Move the newly created link on your desktop to your Skyrim install folder, Make sure the shortcut is be named (SKSE) if not rename it[/size]\r<br />[size=3]\r<br />[/size][*][size=3]Launch SteamLauncherSKSEMO.exe and it will guide you through setup, once complete you can launch Skyrim normally via Steam[/size]\r<br />[/list]\r<br />[u][color=#ffe599][size=5]FalloutNV Version:[/size]\r<br />[url=http://www.nexusmods.com/newvegas/mods/59352][size=4]SteamLauncher for NVSE and FNV4GB and ModOrganizer[/size][/url]\r<br />[/color][/u][size=3]\r<br />[/size]",
+  "categoryId": "39",
+  "version": "1.2",
+  "author": "thedevil5600",
+  "createdUnix": "1434660034",
+  "updatedUnix": "1434727311",
+  "containsAdultContent": false,
+  "uploadedBy": "thedevil5600",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000164631",
+      "name": "SteamLaunhcer for SKSE",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "SteamLaunhcer for SKSE-67025-1-0.zip",
+      "uploadedUnix": "1434659614",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6a187265db9fdebc19142209e2a332f5d0d04c932de1a51aa3ed392442b5ccb4/analysis/1434659643/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SteamLaunhcer%20for%20SKSE-67025-1-0.zip?fid=1000164631&ttl=1535855467&ri=8192&rs=8192&setec=46d133fd8e8af41527151dcf3d8ea120"
+    },
+    {
+      "fileId": "1000164721",
+      "name": "SteamLauncher for SKSE ModOrganizer",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "SteamLauncher for SKSE ModOrganizer-67025-1-2.zip",
+      "uploadedUnix": "1434727311",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/4e045877198a5de39d11100d409c3ba2a4ca20bab455823374001d628aa872dc/analysis/1434727384/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SteamLauncher%20for%20SKSE%20ModOrganizer-67025-1-2.zip?fid=1000164721&ttl=1535855467&ri=8192&rs=8192&setec=20c5778bbb6b55e8ecbbacd3a93940b2"
+    }
+  ]
+}

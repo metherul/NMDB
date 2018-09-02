@@ -1,0 +1,32 @@
+{
+  "modId": 37992.0,
+  "modName": "Realistic sneak tweak",
+  "summary": "This mod was a redone version of sage2\\'s sneak rebalanced.\r\nSince the author never update new version and it still has some bug.",
+  "descriptionHtml": "This mod was a redone version of sage2\\'s sneak rebalanced.\r\nSince the author never update new version and it still has some bug.\r\nhttp://skyrim.nexusmods.com/mods/819/?\r\n\r\nIf the author didn\\'t want me publish the redone version, please let me know.\r\n\r\nThis mod modify some parameters below:\r\n\r\nfCombatSneak1HDaggerMult  4\r\nfPlayerDetectionSneakBase  10\r\nfSneakSoundsMult   1.25\r\nfPlayerDetectionSneakMult  0.4\r\nfSneakBaseValue   -13\r\nfSneakSoundLosMult   0.28\r\nfSneakLightMult    0.52\r\nfCombatSneak2HAxeMult     1.5\r\nfCombatSneak2HSwordMult   1.5\r\nfCombatSneakBowMult    1.5\r\nfCombatStealthPointRegenDetectedEventWaitTime  20\r\nfCombatStealthPointRegenAttackedWaitTime    60\r\nfDetectionSneakLightMod   50\r\nfSneakMaxDistance   2800\r\nfSneakExteriorDistanceMult    1.875\r\n\r\nDescription:\r\n\r\n      This mod give you more realistic sneak experience in skyrim\r\n      1.You are easy to be detect in enemy\\'s view cone, especially in light area.\r\n      2.The alert time has been prelonged. If enemy saw you they will search you for 20s, If enemy been attacked they will search you for about 60s.\r\n      3. The enemy was more sensitive about sound,try shift button when you are sneaking.\r\n      4. Bow sneak attack mutipler has been nerf and dagger has been buff since it easy to use a bow to do sneak attack.\r\n      5. Some parameter has been removed because it cause friendly npc turn hostility to dragonbron without any reason\r\n      6. This module may annoy somebody, because combat sound may attract more enemy especially in dungeon, and you will find it\\'s very hard to sneak when dragonborn has low sneak skill level or wear heavy armor.\r\n      7. If you encounter CTD, please run BOSS.\r\n\r\nInstall:\r\n       Use NMN or drop esp file to your data fold directly.\r\n\r\nUn-install:\r\n      Use NMN or delete the esp file.\r\n      This mod only change parameter, so after uninstall all parameter will return to vanilla.\r\n\r\n    If you like it, don\\'t forget ENDORSE my mod. thanks\r\n\r\nCompatible:\r\n     This mod only modify the parameter, so it should compatible with everything even compatible with the mod change the same parameter(the load order will decide which one was effective).\r\n",
+  "categoryId": "79",
+  "version": "1.0",
+  "author": "bladenick",
+  "createdUnix": "1373074486",
+  "updatedUnix": "1373074479",
+  "containsAdultContent": false,
+  "uploadedBy": "bladenick",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000037437",
+      "name": "sneak rebalanced redux",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "sneak rebalanced redux-37992-1-0.zip",
+      "uploadedUnix": "1373074479",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/bd79990191c83505f07b7733749273ffa8279282a90d930eae5870bc897f6b9f/analysis/1407632358/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/sneak%20rebalanced%20redux-37992-1-0.zip?fid=1000037437&ttl=1535818068&ri=8192&rs=8192&setec=cc3e5bf2a7dfe7a6b6f6d61196fb4e5c"
+    }
+  ]
+}

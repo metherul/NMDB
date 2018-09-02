@@ -1,0 +1,48 @@
+{
+  "modId": 67170.0,
+  "modName": "Skyrim Requiem Alchemy Calculator (.NET)",
+  "summary": "Skyrim Requiem Overhaul Alchemy Calculator, Early Alpha. Windows .NET application.",
+  "descriptionHtml": "Requiem overhaul for Skyrim changes alchemical ingredient properties, so usual alchemy calculators don&#39;t really work. \r<br />\r<br />This tool is for calculating possible Skyrim Requiem recipes and their effects (power/duration/value). \r<br />\r<br />Simply download and install this program, to run it again you can search for &#34;ReAlchemy&#34; in windows search. Also you can drag it&#39;s icon to your desktop.\r<br />\r<br />If you are updating to new version - remove previous one using &#34;Control Panel -&gt; Uninstall a program -&gt; ReAlchemy&#34; , then install new version.\r<br />\r<br />\r<br />Usage is simple:\r<br />You select ingredients you want to include in calculation (&#34;Set ingredients&#34; button), enter player Alchemy level and perk information, and press &#34;Find Recipes / Update&#34; button. Program will fill the list with  possible potion recipes, displaying potion name, effects, and potion value. You can sort this list by pressing on table column headers. You can also filter the list by pressing on &#34;Show Filters&#34; button. List can be filtered by potion name, Ingredients, Ingredient Count, Effects, Effect Kind, Effect Count and Potion value.\r<br />\r<br />If you want to check potion how potion effects changes with different player attributes, simply change those and click &#34;Find Recipes / Update&#34; - recipe effects will be recalculated.\r<br />\r<br />Project sources and releases also are hosted [url=https://realchemy.codeplex.com/]Here on CodePlex[/url].\r<br />\r<br />It&#39;s early release, might contain bugs, and might display wrong effect/value information. \r<br />Also calculation with all ingredients selected takes some time.",
+  "categoryId": "39",
+  "version": "0.0.0.5",
+  "author": "QuasiMod",
+  "createdUnix": "1435092901",
+  "updatedUnix": "1435153099",
+  "containsAdultContent": false,
+  "uploadedBy": "QuasiMod",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000165212",
+      "name": "SkyrimReAlchemy.zip",
+      "version": "0.0.0.4",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "826",
+      "fileName": "SkyrimReAlchemy.zip-67170-0-0-0-4.zip",
+      "uploadedUnix": "1435092854",
+      "modVersion": "0.0.0.4",
+      "virusScanUrl": "https://www.virustotal.com/file/075e68cf8a72bdf0eda65a0bed448cace152ff018304975925b82749f4607018/analysis/1435092903/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimReAlchemy.zip-67170-0-0-0-4.zip?fid=1000165212&ttl=1535855617&ri=8192&rs=8192&setec=c0109e3a978155fe0d5a2014515fe411"
+    },
+    {
+      "fileId": "1000165275",
+      "name": "SkyrimReAlchemy.zip",
+      "version": "0.0.0.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1282",
+      "fileName": "SkyrimReAlchemy.zip-67170-0-0-0-5.zip",
+      "uploadedUnix": "1435153099",
+      "modVersion": "0.0.0.5",
+      "virusScanUrl": "https://www.virustotal.com/file/9487449684f8aa4e4667155c283bfb884f6df8622662b9eda8d46c4e4aa5fd42/analysis/1435154943/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimReAlchemy.zip-67170-0-0-0-5.zip?fid=1000165275&ttl=1535855617&ri=8192&rs=8192&setec=d40314d4662e63d6c9cac61a67188d0f"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 92817.0,
+  "modName": "Stealth Meter Tweak SSE Port - DELETED",
+  "summary": "A simple SSE Port of the \"Stealth Meter Tweak\" mod by andrelo1, ported by me. I hope this will work for everyone else, I don;t have anyone else to test for me!<br /><br />Original Mod: https://www.nexusmods.com/skyrim/mods/60665?tab=description",
+  "descriptionHtml": "Copied from the original Oldrim mod page\n<br />\n<br />[size=4]Description[/size]\n<br />\n<br />This mod allows you to customize Stealth Meter (Sneak Eye) to fit your own taste, if you don't like original for some reason.\n<br />\n<br />You can change:\n<br />[list]\n<br />[*][size=2]Position.[/size]\n<br />[*][size=2]Size.[/size]\n<br />[*][size=2]Transparency.[/size]\n<br />[/list]\n<br />There are three modes:[list]\n<br />[*][size=2]Standard - default Stealth Meter.[/size]\n<br />[*][size=2]Static - simple Stealth Meter, that only indicates that you are in stealth mode, it will not show you awareness level of the enemies.[/size]\n<br />[*][size=2]Hidden - hidden.[/size]\n<br />[/list]\n<br />I made Static mode for more hardcore and immersive gameplay. I don't like to play with something like 6th sense, that tells you that someone hear you or see you even if you don't know who is it, where is it, because you don't see him. If you feel the same I also recommend to hide compass by setting bShowCompass=0 in SkyrimPrefs.ini.\n<br />\n<br />[size=4]Options[/size]\n<br />\n<br />There are two versions of mod Full and Light:\n<br />[list]\n<br />[*][size=2]Full version allows you all that described above.[/size]\n<br />[*][size=2]Light version has no customizability, you can only select one of the several premade settings. This version intended for those who don't use SKSE and SkyUI for some reasons. And it is not compatible with other mods that changes hudmenu.gfx(.swf).[/size]\n<br />[/list]\n<br />[size=4]Install\n<br />[/size]\n<br />Full version:\n<br />[list=1]\n<br />[*][size=2]Download archive using NMM or manually.[/size]\n<br />[*][size=2]Activate in NMM or extract into Data folder.[/size]\n<br />[/list]\n<br />[size=2]Light version:[/size]\n<br />[list=1]\n<br />[*][size=2]Download archive using NMM or manually.[/size]\n<br />[*][size=2]Activate in NMM and follow instructions or (if you are not using NMM) extract preferable variant of hudmenu.swf and put it in Data&#92;Interface folder.[/size]\n<br />[/list]\n<br />[size=4]Uninstall[/size]\n<br />\n<br />[list=1]\n<br />[*][size=2]Deactivate mod in NMM or delete mod files manually.[/size]\n<br />[/list]\n<br />[size=4]Requirements[/size]\n<br />\n<br />[size=2]Full version:[/size]\n<br />[list]\n<br />[*][size=2][url=http://skse.silverlock.org/]SKSE[/url][/size]\n<br />[*][url=http://www.nexusmods.com/skyrim/mods/3863/][size=2]SkyUI[/size][/url]\n<br />[/list]\n<br />[size=2]Light version:[/size]\n<br />[list]\n<br />[*][size=2]Nothing[/size]\n<br />[/list]\n<br />[size=4]Compatibility[/size]\n<br />\n<br />Full version: I'm not using other UI mods that changes Stealth Meter behaviour, and I know only about compatibility issues, which was reported by users.\n<br />Known issues:\n<br />\n<br />Immersive HUD:\n<br />[list]\n<br />[*][size=2]iHUD hides crosshair in stealth mode, which conflicts with 'Crosshair in stealth' option (patch)[/size]\n<br />[/list][size=2]\n<br />[/size][size=2]Important notes: patch was tested with iHUD v2.4 and v3.0 only. You can try to use it with other versions at your own risk. All depends on whether there are differences in ihudcrosshairscript. If they are identical then patch should work with such version too.\n<br />[/size]\n<br />Less Intrusive HUD II:\n<br />[list]\n<br />[*][size=2]No issues reported[/size]\n<br />[/list]Minimal HUD:\n<br />[list]\n<br />[*][size=2]Not tested[/size]\n<br />[/list]\n<br />Light version: not compatible with mods that changes hudmenu.gfx(.swf).\n<br />\n<br />[size=4]Changes[/size]\n<br />\n<br />27/12/2014 - Added patch that solves one compatibility issue with iHUD.\n<br />\n<br />[size=4]Credits[/size]\n<br />\n<br />[url=http://www.nexusmods.com/skyrim/mods/3863/]SkyUI[/url] Team for great SDKs\n<br />[url=http://skse.silverlock.org/]SKSE[/url] Team for SKSE\n<br />Bethesda for Skyrim",
+  "categoryId": "42",
+  "version": "1.0",
+  "author": "Originally by andrelo1",
+  "createdUnix": "1533020686",
+  "updatedUnix": "1533020686",
+  "containsAdultContent": false,
+  "uploadedBy": "NovaStorm32000",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000278574",
+      "name": "Stealth Meter Tweak SSE Port",
+      "version": "1.0",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "23",
+      "fileName": "Stealth Meter Tweak SSE Port-92817-1-0.7z",
+      "uploadedUnix": "1533020521",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/df89ae0cf32f92e16dc7753922e778f449eb30d4874ac9f9cae16070ac29ff56/analysis/1533020703/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Stealth%20Meter%20Tweak%20SSE%20Port-92817-1-0.7z?fid=1000278574&ttl=1535883951&ri=8192&rs=8192&setec=7b51e9d479ca782f8ed26a3b2bb6ab8d"
+    }
+  ]
+}

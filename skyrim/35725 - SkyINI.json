@@ -1,0 +1,48 @@
+{
+  "modId": 35725.0,
+  "modName": "SkyINI",
+  "summary": "Extended Skyrim INI files with increased readability.",
+  "descriptionHtml": "[b]UPDATE:[/b] Have fixed the line breaks issue in notepad. Sorry, forgot about notepad users.\r\n\r\n[i]These INI files are made purely to make experimenting with tweaks easier for beginners and give advanced users more overview.[/i]\r\n\r\n[b]Techniques used:[/b]\r\n- Whitespace\r\n- Comments\r\n- Categorization\r\n- Commenting out variables with unsafe/unstable/unknown/etc values\r\n- And probably more..\r\n\r\n[b]A small example showing how it\\'s organized:[/b]\r\n[img]http://static.skyrim.nexusmods.com/mods/images/35725-1-1367829236.png[/img]\r\n\r\nThis is a WIP but all standard variables are covered. Note that thou I have used default and \\\"very high\\\" as a reference any variables/values not in those files may have values assigned relative to my system by the game. I use Mod Organizer to run and manage all files so no values should be affected by my configurations (as MO keeps all INI files separated from vanilla game). I try to comment out any variables containing unknown default values.\r\n\r\nIf you find any variables with a value that is relative or in any ways not default post a comment I will correct it. As said for now I will use \\\"very high\\\" as a reference point.",
+  "categoryId": "82",
+  "version": "0.1.1",
+  "author": "KonTrax",
+  "createdUnix": "1367845961",
+  "updatedUnix": "1367903208",
+  "containsAdultContent": false,
+  "uploadedBy": "KonTrax",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000028428",
+      "name": "SkyINI_REFERENCE_VERSION",
+      "version": "0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "SkyINI_REFERENCE_VERSION-35725-0-1.7z",
+      "uploadedUnix": "1367845563",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/b0f7b7982fc5593b60f2d70d30ce14bb495a1c85cbca5435438fd0cced744f8f/analysis/1407557664/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyINI_REFERENCE_VERSION-35725-0-1.7z?fid=1000028428&ttl=1535814434&ri=8192&rs=8192&setec=e7e90f64d1b2bca792be33159c49c577"
+    },
+    {
+      "fileId": "1000028568",
+      "name": "SkyINI_REFERENCE_VERSION",
+      "version": "0.1.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "SkyINI_REFERENCE_VERSION-35725-0-1-1.7z",
+      "uploadedUnix": "1367903208",
+      "modVersion": "0.1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/dde6d4bc42a28a0a8c7a6829a6dd50ea65761a7ff0336031b2ca52d00f458125/analysis/1407558787/",
+      "changelogHtml": " Fixed line breaks for notepad users <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyINI_REFERENCE_VERSION-35725-0-1-1.7z?fid=1000028568&ttl=1535814434&ri=8192&rs=8192&setec=290377d2bd04e7a791606fe34cd6e23f"
+    }
+  ]
+}

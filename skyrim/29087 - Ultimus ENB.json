@@ -1,0 +1,32 @@
+{
+  "modId": 29087.0,
+  "modName": "Ultimus ENB",
+  "summary": "This ENB preset attempts to enhance Skyrim’s original ambience and visuals to produce a brighter more fantasy like setting.",
+  "descriptionHtml": "[img]http://i49.tinypic.com/2mo5hty.png[/img]\r\n\r\n[youtube]3fLixOx_k8o[/youtube]\r\n\r\n[line]\r\n[youtube]D9zboOLVPco[/youtube]\r\nCredit to Hodilton for this video.\r\n[line]\r\n\r\n\r\nDESCRIPTION \r\n\r\nThis ENB preset attempts to enhance Skyrim’s original ambience and visuals by producing a more varied colour palette and enhanced post processing features. This ENB  contains two modes, Quality and Performance. Both modes look similar with the Quality mode containing more modern post processing techniques such as Depth of Field, Bokeh DOF and Ambient Occlusion.\r\n\r\n[line]\r\n[center] [heading][color=green]Setup [/color] [/heading] [/center]\r\n\r\n\r\n[b] It’s recommend to disable Anti Aliasing (AA) and Anisotropic Filtering from Skyrim’s graphical options.  This will provide the most performance with minor graphical loss.\r\n\r\nNvidia Users should force FXAA for Skyrim through the graphic card control panel or through NvidiaInspector.  This will provide a big boost to quality with minimal performance loss. [/b]\r\n\r\n\r\n[center] [heading][color=green]SETTING UP SkyrimPrefs.INI[/color] [/heading] \r\n\r\nGoto your SkyrimPrefs.ini file (typically found in C:/users/(computers name)/mydocuments/mygames/Skyrim/)\r\n\r\nFind and alter the following lines to read.\r\n\r\nbFloatPointRenderTarget=1 \r\nbTreesReceiveShadows=1\r\nbDrawLandShadows=1\r\nbShadowsOnGrass=1\r\n\r\n\r\n [heading][color=green]Installation [/color] [/heading] [/center]\r\n\r\nOpen the Ultimus.Rar file. Open the “Main – Quality setting” folder and extract all the files to your Skyrim folder (ie c:/programfiles/steam/steamapps/common/Skyrim/).\r\n\r\nOption File Installation – Install the files from the “Main-Quality setting” folder first. Open the folder for the optional setting you require (ie “Performance” folder).  Select the file and move  it to the Skyrim folder (ie c:/programfiles/steam/steamapps/common/Skyrim/) overwriting any previous files.\r\n\r\n\r\n[line]\r\n[center] [heading][color=green]Features[/color] [/heading] [/center]\r\n\r\n\r\n[b] Stronger Fantasy vibe with more contrasts in colours[/b]\r\n\r\n[i] Quality Mode [/i]\r\n\r\nNon- Intrusive DOF and Bokeh DOF. The DOF setting in this mod will initiate generally only when the player character is right up to an object or when speaking to a non player character. It will not interfere with short or long combat including Archery.\r\nAmbient Occlusion – Balanced to what I believe gives the best picture quality and performance.\r\n\r\n\r\n[i] Performance Mode [/i]\r\n\r\nperformance mode will include everything which “Quality”  mode incorporates except Anisotropic Filtering, DOF/Bokeh DOF and Ambient Occulision. This will give the best performance.\r\n\r\n[line]\r\n[center] [heading][color=green] Recommend Mods for this ENB Preset[/color] [/heading] [/center]\r\n\r\n[url=http://skyrim.nexusmods.com/mods/17802/]Project Reality – Climates of Tamriel Final version[/url] – I use this mod and it makes the game look a lot better. It also works very nicely with ENB.\r\n\r\n[url=http://skyrim.nexusmods.com/mods/27043/]Enhanced Light and FX[/url] – Recommend for interior lighting.\r\n\r\n[line]\r\n[center] [heading][color=green] FAQ[/color] [/heading] [/center]\r\n\r\n[b] This ENB is too Bright/Dark [/b]\r\n\r\n[i]I recommend adjusting the brightness in-game or through your monitors/GPU settings to suit what you believe is best. Every user’s brightness/contrast setting will be varied depending on their monitor and GPU/Monitor.[/i]\r\n\r\n[b] The Nights are too bright/Dark [/b]\r\n\r\n[i]The nights in this mod are a touch brighter than Vanilla Skyrim’s. This was done to keep the integrity of the original game and also because I believe it’s what looked best. If you would like darker nights in the game there’s many good lighting mods which were created with the construction kit and do not conflict with this ENB which can be used. One example is the mod Project Reality – Climates of Tamriel which can alter nights to make them appear darker.[/i]\r\n\r\n[b] What version of ENB does this preset use? [/b]\r\n\r\nv0.119.\r\n\r\n[line]\r\n\r\n\r\n\r\nENBSeries effect file                  \r\nvisit http://enbdev.com for updates     \r\nCopyright (c) 2007-2011 Boris Vorontsov\r\nAdapted for Ultimus ENB                 \r\nCredit to Matso \r\nCredit to Michael Tichenor (IndigoNeko)\r\n\r\n \r\n",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "Zodd",
+  "createdUnix": "1356784920",
+  "updatedUnix": "1356848006",
+  "containsAdultContent": false,
+  "uploadedBy": "Zodd13",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "108401",
+      "name": "Ultimus ENB",
+      "version": "v1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "743",
+      "fileName": "Ultimus ENB-29087-v1-2.rar",
+      "uploadedUnix": "1356848006",
+      "modVersion": "v1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/bb611ca52916dbfa88b79f3fc4abf8314be16b23f68f91d223df11b0ec4c73b9/analysis/1407328565/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ultimus%20ENB-29087-v1-2.rar?fid=108401&ttl=1535802952&ri=8192&rs=8192&setec=0bbfae75645d980d367423ccdc513720"
+    }
+  ]
+}

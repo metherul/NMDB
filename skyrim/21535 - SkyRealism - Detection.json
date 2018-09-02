@@ -1,0 +1,32 @@
+{
+  "modId": 21535.0,
+  "modName": "SkyRealism - Detection",
+  "summary": "Realistic Stealth and Sneaking Detection Durations for Skyrim.",
+  "descriptionHtml": "[img=center]http://static-2.nexusmods.com/15/mods/110/images/21535-1-1363654821.png[/img]\r<br />[center][i]Stealth and Sneaking Detection Durations for Skyrim[/i][/center][center][color=black][i]by MTichenor[/i][/color][/center]\r<br />\r<br />[color=yellow][b]NOTICE: [/b][/color]If you find a bug, please report it&#33; I can&#39;t fix it if I don&#39;t know about it. Also, send me a PM to contact me quicker if you have problems.\r<br />\r<br />[heading]Overview[/heading]Have you ever wondered how the Dragonborn can shoot someone in the face, and they walk around for 15 seconds before saying &#34;Huh, it must have been nothing&#34;?\r<br />\r<br />I do.\r<br />\r<br />This is an extremely lightweight sneak detection duration mod. If you&#39;re looking for something that completely overhauls the sneak system, this is not for you. This mod changes the durations that NPCs will remain alert for after detecting the player, spotting the player, or being attacked by the player. I have not changed the difficulties or algorithms in sneaking in any way, just the durations. Some of the other upcoming mods will make sneaking much more difficult by virtue of item weight adjustments. This is intended to be used with the other [color=#87CEEB]Sky[/color][color=#C3B091]Realism[/color] mods that I will be releasing.\r<br />\r<br />Alarm durations have been changed as follows:\r<br />[list][*]Alarm for hearing or detecting movement of an enemy is increased from 10 to 30 seconds.\r<br />[*]Alarm for seeing an enemy is increased from 10 to 60 seconds.\r<br />[*]Alarm for being attacked by an enemy is increased from 15 to 90 seconds.\r<br />[*]Alarm after losing an enemy (they ran off) is increased from 10 to 30 seconds.[/list]\r<br />You&#39;ll never see [url=http://www.youtube.com/watch?v=lHbF9ynGZV0]this[/url] again.\r<br />\r<br />[heading]Requirements, Installation, and Load Order[/heading][b]INSTALLATION: [/b]Nexus Mod Manager has (incorrectly) decided that any mod beginning with SkyRealism is the same mod. When installing SkyRealism mods, it may display a message saying: &#34;A different version of SkyRealism - XXX has been detected. The installed version is XXX, the new version is XXX Would you like to upgrade? Selecting No will install the new Mod normally.&#34; You should click &#34;No.&#34;, so that it will install the mod normally. It may give you warnings that certain files will be over-written. You should select &#34;Yes to all&#34; so that it will update any existing files to the latest versions.\r<br />\r<br />[heading]Credits and Thanks[/heading]Thanks to Cordsnwires, Elys, Dogtown1, Dragten, Hothtrooper44, Ironman5000, Is this display name taken?, JaySuS, Nikinoodles, Nivea, MECR, Merilia, PrivateEye, theRoadstroker, and Tupii for giving me permission to use their mods as master file requirements for my own mods.\r<br />\r<br />Thanks to T3nd0, Cordsnwires, and jjc71 for the suggestions, guidance, and support. Thanks to trainwiz, wobbuvahi, and David Brasher for making the mods that kept me hooked on Skyrim long after it should have lost its appeal. \r<br />\r<br />This mod is dedicated in loving memory to all the bandits in Embershard Mine who lost their lives during the testing of this mod.\r<br />\r<br />[heading]Compatibility, Issues, and Troubleshooting[/heading]This mod will conflict with any mods which change the variables listed in the change log.\r<br />\r<br />[heading]Change Log[/heading][b]v1.2:[/b]\r<br />Reduced fCombatStealthPointRegenDetectedEventWaitTime to 60.\r<br />Reduced fCombatStealthPointRegenAttackedWaitTime to 90.\r<br />\r<br />[b]v1.1:[/b]\r<br />fCombatStealthPointRegenLostWaitTime changed from 60 to 30. This will help with followers and quest NPCs spending forever searching for enemies that run off.\r<br />\r<br />[b]v1.0:[/b]\r<br />fCombatStealthPointRegenAlertWaitTime changed from 10 to 30.\r<br />fCombatStealthPointRegenDetectedEventWaitTime changed from 10 to 120.\r<br />fCombatStealthPointRegenAttackedWaitTime changed from 15 to 180.\r<br />fCombatStealthPointRegenLostWaitTime changed from 10 to 60.",
+  "categoryId": "78",
+  "version": "1.2",
+  "author": "MTichenor",
+  "createdUnix": "1343922642",
+  "updatedUnix": "1355299281",
+  "containsAdultContent": false,
+  "uploadedBy": "IndigoNeko",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "104746",
+      "name": "SkyRealism - Detection",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "SkyRealism - Detection Durations-21535-1-2.7z",
+      "uploadedUnix": "1355299281",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/6a736351b6a154fa130a3a26e364a0c3dbc8863e648930ce3a1d730ed82784e2/analysis/1407301030/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyRealism%20-%20Detection%20Durations-21535-1-2.7z?fid=104746&ttl=1535790497&ri=8192&rs=8192&setec=8547651b3bcafac86e70b6682e0c896a"
+    }
+  ]
+}

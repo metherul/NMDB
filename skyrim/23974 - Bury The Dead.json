@@ -1,0 +1,32 @@
+{
+  "modId": 23974.0,
+  "modName": "Bury The Dead",
+  "summary": "Have you ever felt bad about leaving your dead follower\\'s corpse to rot forever? Ever wish you could pay your respects to them by giving them a proper burial? Bury The Dead lets you \\\"bury\\\" corpses, leaving a tombstone behind for posterity that you can read.",
+  "descriptionHtml": "[b]Sorry to anyone still waiting for this mod to update. I\\'ve had some life issues pop up and I haven\\'t been able to do any work on this for months. I am officially abandoning the project because of this. I may pick it up later, but I\\'m more hopeful that someone will come along and make something better. Anyone who wants to use anything from this mod is free to do so.[/b]\r\n\r\n[b]I\\'m aware of the bugs with certain NPC types. It is being dealt with. I don\\'t have a ton of free time to work on this, but I\\'m doing what I can when I can. Thanks for the patience, and all the feedback! I\\'ll have a quick update out when I can to deal with the bugs, and a bigger update a little later to add more features and variety.[/b]\r\n\r\n== Description =================\r\n\r\nHave you ever felt bad about leaving your dead follower\\'s corpse to rot forever? Ever wish you could pay your respects to them by giving them a proper burial? Bury The Dead lets you \\\"bury\\\" corpses, leaving a tombstone behind for posterity that you can read.\r\n\r\n[youtube]IUHyBhKTs7M[/youtube]\r\n\r\n== Usage ======================\r\n\r\nSimply use the \\\"Bury The Dead\\\" spell that is automatically added on the corpse you want to bury. The tombstone will appear automatically.\r\n\r\n== Installation =================\r\n\r\nUse NMM to install, or place contents into your Data directory. [b]SKSE REQUIRED.[/b]\r\n\r\n== Uninstallation ===============\r\n\r\nUse NMM to uninstall or remove BuryTheDead.bsa aqnd BuryTheDead.esp from Data directory.\r\n\r\n== Compatability ===============\r\n\r\nThis mod should work with every other mod. Make sure you have SKSE installed.\r\n\r\n== Future Versions =============\r\n\r\nIf this mod doesn\\'t currently strike your fancy, maybe hold off on downloading for now until I have time to update.\r\n\r\nCurrently planned for 0.9 by popular demand:\r\n\r\n- Spell replaced with equippable shovel\r\n- Pressing E on corpse while holding shovel will put the corpse in your inventory to carry between cells\r\n- Hitting a corpse with shovel will initiate a burial, where you can choose what sort of marker you want as a tombstone (from fancy headstone to sword in the ground)\r\n- SKSE-free version that will cut out SKSE-dependent features (like reading the tombstone)\r\n\r\nFuture features:\r\n\r\n- Ability to change tombstone style after placement\r\n- Ability to exhume the body, removing the tombstone\r\n- More realistic restrictions like not being able to bury the NPC inside a house or on certain ground types (I have to actually look and see if this is possible first)\r\n- Possible ability to write your own epitaph (if it\\'s possible for me to do in CK, I know you can input text like in the race menu, but I don\\'t know if modders have access to that)\r\n\r\nThe scope of this mod is simple and specific. I don\\'t want to make it larger than it needs to be.",
+  "categoryId": "78",
+  "version": "0.8",
+  "author": "Kentoss",
+  "createdUnix": "1347331284",
+  "updatedUnix": "1347331422",
+  "containsAdultContent": false,
+  "uploadedBy": "Kentoss",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "87753",
+      "name": "BuryTheDead-0_8",
+      "version": "0.8",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "BuryTheDead-0_8-23974-0-8.zip",
+      "uploadedUnix": "1347331422",
+      "modVersion": "0.8",
+      "virusScanUrl": "https://www.virustotal.com/file/72b8c1d356d5aa47d8486f2d109a9a635e59a45a4b77275d4dca2aded094e11a/analysis/1407158901/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BuryTheDead-0_8-23974-0-8.zip?fid=87753&ttl=1535794555&ri=8192&rs=8192&setec=22e8867452d2e3640c5700ba2fee9ef6"
+    }
+  ]
+}

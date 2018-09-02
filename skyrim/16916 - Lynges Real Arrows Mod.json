@@ -1,0 +1,32 @@
+{
+  "modId": 16916.0,
+  "modName": "Lynges Real Arrows Mod",
+  "summary": "[sound issues have been fixed] This mod includes 3 files that will make arrows appear more realistic in the game: \\\"Faster Arrows\\\", \\\"No Arrow Hit Stereo Effect\\\" and \\\"No Arrow Trails\\\".",
+  "descriptionHtml": "This mod includes 3 files that will make arrows appear more realistic in the game. \r\nThe 3 files CAN be used together, so you can use all of them at the same time if you wish: \r\n\r\n\\\"Lyn_RealArrows_FasterArrows.esp\\\" \r\nmakes the arrows in the game fly faster, so they\\'re harder (not impossible) to dodge. \r\n\r\n\\\"Lyn_RealArrows_NoArrowHitStereoEffect.esp\\\" \r\nremoves the stereo effect when you hit someone with arrows (the effect was played into your ears even if you hit someone on a long distance). Now the effect will be played where it hits and not directly into the player\\'s ears. \r\nAlso removes the activation fail sound (when you push the \\\"use\\\" key ingame without aiming at anything). \r\nIf you\\'re like... No way dude, I really loved that sound... Then simply read below about why I had to remove it. \r\n\r\n\\\"Lyn_RealArrows_NoArrowTrails\\\" \r\nremoves the trails from arrows in the game. Arrows don\\'t have trails in real life. \r\n\r\nEnjoy!\r\n\r\n__________\r\n\r\nMy mods on Nexus:  \r\n\r\n[url=http://skyrim.nexusmods.com/mods/19019]Lynges Better Destruction Tree Mod[/url]\r\n[url=http://skyrim.nexusmods.com/mods/16913]Lynges Death Reload Time[/url]\r\n[url=http://skyrim.nexusmods.com/mods/16914]Lynges No Loading Screen Text Mod[/url]\r\n[url=http://skyrim.nexusmods.com/mods/16916]Lynges Real Arrows Mod[/url]\r\n\r\n__________\r\n\r\nWhy I had to kill a sound to fix a sound bug: \r\n\r\nLong story:\r\nThe CS has a sound bug that makes the last edited sound in an esp-file play every time the game writes text in the upper left corner of the screen (updates and so on). So if you create a new sound output model to make the arrow hit sound play in directional mono, then it will also play every time a message is displayed. It is impossible to fix this by altering an existing sound output model, since many sounds share the same output models - that would alter them too. \r\nFinally I came up with the idea of making another sound the last edited sound - to see if that sound was played with every message instead. It was! Now I just had to find the most useless sound in the game and set it\\'s playback level to zero... I went looking for the unlucky sound and found the activation fail sound (wich serves no purpose). So...\r\n\r\nShort story (long story continued): \r\n...if I wanted to remove the stereo-effect from the arrow hit sound, without affecting other sounds (like thunder and rain) and without playing the sound every time the game displays a message, I had to kill another sound from the game. So the activation fail sound took one for the team. ",
+  "categoryId": "24",
+  "version": "1.3",
+  "author": "Martin Lynge",
+  "createdUnix": "1336819959",
+  "updatedUnix": "1336941012",
+  "containsAdultContent": false,
+  "uploadedBy": "CapoeiristaDK",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "61103",
+      "name": "Lyn_RealArrows",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "773",
+      "fileName": "Lyn_RealArrows-16916.rar",
+      "uploadedUnix": "1336941012",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/9361e7f91e3294248877936de32790798e5822eec745645eb8c89dc2da5b68b4/analysis/1406890205/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lyn_RealArrows-16916.rar?fid=61103&ttl=1535782652&ri=8192&rs=8192&setec=6ac2831921a27cd129a95033baf57c7c"
+    }
+  ]
+}

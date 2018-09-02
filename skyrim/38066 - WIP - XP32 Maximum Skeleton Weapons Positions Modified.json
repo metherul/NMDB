@@ -1,0 +1,32 @@
+{
+  "modId": 38066.0,
+  "modName": "WIP - XP32 Maximum Skeleton Weapons Positions Modified",
+  "summary": "Modified the default weapons positions in xp32\\'s skeleton.",
+  "descriptionHtml": "Requires: http://skyrim.nexusmods.com/mods/26800/\r\n\r\nI wasn\\'t happy with the default weapons positions when using XP32\\'s Maximum Skeleton, so I tweaked them. Whether it\\'s better now or not is a matter of taste and priority. So far, only the male and female skeletons are done. I\\'ll do beast next. \r\n\r\nYou will likely get increased clipping with some animations. This is a consequence of having the weapons in what I think are more realistic positions (mostly more forward and sometimes higher). I\\'ve also rotated the bow so it looks slung over the shoulder. Unfortunately, there\\'s no way to not have the string clipping through the body like this. I\\'ll also upload another set of meshes with the bow in a more \\\"default\\\" position. And I\\'m thinking of a way to maybe have a longer-ish bow string when the bow is not in the hand to get around this draw back. Maybe something like Dual Sheath Redux using a spell and a separate mesh for the slung position.\r\n\r\nI tested using the vanilla bodies/armor, Sundracon, Favored Soul, CBBE curvy, CBBE++ (my custom body), and UNP/B, and tried to balance between all of them. If you see clipping/floating weapons with non-vanilla armor, you likely need to adjust the armor offset in the armor record. I\\'ve noticed most modders that release esp-based mods don\\'t bother to adjust this from the default, but the positioning should be pretty good with vanilla weapons/armor. So before reporting floating weapons, please try a vanilla armor/weapon and see if the problem occurs with that combination.\r\n\r\nTL;DR: unzip into your data folder and let it overwrite XP32\\'s skeleton.",
+  "categoryId": "29",
+  "version": "1.02",
+  "author": "xp32 with tweaks by narphous",
+  "createdUnix": "1373228431",
+  "updatedUnix": "1384029355",
+  "containsAdultContent": false,
+  "uploadedBy": "narphous",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000077056",
+      "name": "XP32 modified skeleton",
+      "version": "1.02",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "22",
+      "fileName": "XP32 modified skeleton-38066-1-02.7z",
+      "uploadedUnix": "1384029355",
+      "modVersion": "1.02",
+      "virusScanUrl": "https://www.virustotal.com/file/1db1a0245fdceeb86affc0de39d5390792f65a4c37cd6e3b790a405272daf6e6/analysis/1407786604/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/XP32%20modified%20skeleton-38066-1-02.7z?fid=1000077056&ttl=1535818218&ri=8192&rs=8192&setec=d3c6cb17ca3636289ab4a2b4776c12d4"
+    }
+  ]
+}

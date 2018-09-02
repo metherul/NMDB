@@ -1,0 +1,48 @@
+{
+  "modId": 9553.0,
+  "modName": "Same Walk and Run Speeds",
+  "summary": "A very simple mod that sets the walk and run speeds for all NPCs to the same values used by player.",
+  "descriptionHtml": "Sets the walk and run speeds for all NPCs to the same values used by player.\r\n\r\nIt fixes the annoying speed problem, when the player follows a NPC and walks too slow or runs too fast.\r\n\r\nIf you think that the default walk speed is too slow then see Skyrim Speeds (http://skyrim.nexusmods.com/downloads/file.php?id=1603) to adjust the walk/run/sprint speeds for player, NPCs, horses and/or werewolves.\r\n\r\nVersions:\r\n\r\na) Lite - changes only the interpolation values for \\\"fast walk\\\" and \\\"jog\\\" speeds\r\nb) Full Version - changes the interpolation variables, but also sets the height for all playable races to same value (1.00)\r\n\r\nTechnical details:\r\n\r\nThe NPCs have four preferred speeds (walk, fast walk, jog and run), while the players that use keyboard have only two speeds (walk or run). Both versions set fFastWalkInterpolationBetweenWalkAndRun to 0.0 (defaults to 0.15), forcing NPC\\'s \\\"fast walk\\\" to be identical with \\\"walk\\\", and fJogInterpolationBetweenWalkAndRun to 1.0 (defaults 0.65), forcing NPC\\'s \\\"jog\\\" to be same as \\\"run\\\".\r\n\r\nAnother speed difference is caused by characters height, Wood Elf males being the smallest (0.975 as height) and High Elves being the tallest (1.08 as height). The full version also sets the height for all playable races to 1.00 (the default value for Breton, Imperial or Dark Elf), so all have same speeds. Note that this should be incompatible with other mods that change the attributes for playable races, so you may want to use the lite version instead.\r\n\r\nSteam Workshop: http://steamcommunity.com/sharedfiles/filedetails/?id=11290\r\nSteam Workshop for Lite version: http://steamcommunity.com/sharedfiles/filedetails/?id=11291",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Wolfmark",
+  "createdUnix": "1329206478",
+  "updatedUnix": "1329210881",
+  "containsAdultContent": false,
+  "uploadedBy": "Wolfmark",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "30926",
+      "name": "Same Walk and Run Speeds",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "74",
+      "fileName": "Same Walk and Run Speeds-9553.zip",
+      "uploadedUnix": "1329210743",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7a0e4264a63adb1d0f861fbc97bf888c1284437d5b84860864cdf1237412a711/analysis/1406681245/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Same%20Walk%20and%20Run%20Speeds-9553.zip?fid=30926&ttl=1535769227&ri=8192&rs=8192&setec=e45c9f097608a1089c6b18c81c596933"
+    },
+    {
+      "fileId": "30929",
+      "name": "Same Walk and Run Speeds - Lite",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Same Walk and Run Speeds - Lite-9553-1-0.zip",
+      "uploadedUnix": "1329210881",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ff4a1a77156870c4ca212dc139d27718d16288db48319903e86657d732e87294/analysis/1406681248/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Same%20Walk%20and%20Run%20Speeds%20-%20Lite-9553-1-0.zip?fid=30929&ttl=1535769228&ri=8192&rs=8192&setec=e5e5be7a781e9325f6f76f9d8260ac8a"
+    }
+  ]
+}

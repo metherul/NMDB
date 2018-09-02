@@ -1,0 +1,48 @@
+{
+  "modId": 6342.0,
+  "modName": "Move map with x360 D-pad",
+  "summary": "Simple mod that adds the ability to move map with x360 controller directional buttons(D-pad).",
+  "descriptionHtml": "/==================&#92;\r<br />|Move map with D-pad|\r<br />&#92;==================/\r<br />\r<br />Simple mod that adds the ability to move map with x360 \r<br />controller directional buttons(D-pad).\r<br />\r<br />Use optional file if you want to have 8 hotkeys as opposed vanilla 2.\r<br />\r<br /> ==========================================================\r<br />\r<br />Install:  \r<br /> Use Download with Nexus Mod Manager.\r<br /> or\r<br /> Copy Data file to where &#92;Skyrim&#92;Data folder is.\r<br /> It will ask you if you want to overwrite the Data folder.\r<br /> Say yes.  File path should look like this:\r<br />\r<br /> STEAM&#92;SteamApps&#92;common&#92;skyrim&#92;Data&#92;Interface&#92;Controls&#92;pc&#92;\r<br />\r<br />Uninstall: Delete files.\r<br /> ==========================================================\r<br />\r<br />Any way to increase the speed at which it moves the map?\r<br />\r<br />Open skyrim.ini located in &#34;My documents&#92;my games&#92;skyrim&#92;&#34;\r<br />Find line [MapMenu], if non existent, add it.\r<br />Paste this under [MapMenu]:\r<br />fMapMoveKeyboardSpeed=0.025\r<br />You can change value, if you want to move map even faster than my chosen speed.\r<br />\r<br />Hotkey mappings:\r<br />LB+(Y)          ::   open favorites menu\r<br />D-pad Up           ::   Hotkey 1\r<br />D-pad Right       ::   Hotkey 2\r<br />D-pad Down        ::   Hotkey 3\r<br />D-pad Left        ::   Hotkey 4\r<br />Sprint+D-pad Up     ::   Hotkey 5\r<br />Sprint+D-pad Right    ::    Hotkey 6\r<br />Sprint+D-pad Down    ::   Hotkey 7\r<br />Sprint+D-pad Left    ::   Hotkey 8\r<br />L-stick -          ::   navigate favorites menu",
+  "categoryId": "42",
+  "version": "1.0",
+  "author": "Blakrajder",
+  "createdUnix": "1326727287",
+  "updatedUnix": "1327525192",
+  "containsAdultContent": false,
+  "uploadedBy": "blakrajder",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "20372",
+      "name": "Move map with D-pad",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Move map with D-pad-6342-1-0.zip",
+      "uploadedUnix": "1326727854",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/39e9fee0fe8e165c2a9c2441c5fe66c0ab0187df25b9fd1a2cd254f8bb6030b4/analysis/1406615950/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Move%20map%20with%20D-pad-6342-1-0.zip?fid=20372&ttl=1535763689&ri=8192&rs=8192&setec=b9ab2f238e5d0b05f20a3c4dd9a8d865"
+    },
+    {
+      "fileId": "22976",
+      "name": "Hotkey edition - Move map with D-pad",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Hotkey edition - Move map with D-pad-6342-1-0.zip",
+      "uploadedUnix": "1327525192",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/74e42f2fbbb93c3747ef3f5f6bf400cf769ddbc1153365410814cf0b4fb2e401/analysis/1406637166/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hotkey%20edition%20-%20Move%20map%20with%20D-pad-6342-1-0.zip?fid=22976&ttl=1535763689&ri=8192&rs=8192&setec=d11fc09f85591aea83a533456e95ce0b"
+    }
+  ]
+}

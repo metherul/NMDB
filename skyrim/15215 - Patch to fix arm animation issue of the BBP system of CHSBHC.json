@@ -1,0 +1,32 @@
+{
+  "modId": 15215.0,
+  "modName": "Patch to fix arm animation issue of the BBP system of CHSBHC",
+  "summary": "This is patch to fix arm animation issue of the BBP system of CHSBHC.",
+  "descriptionHtml": "[b]===== Content =====[/b]\r\nThis is patch to fix arm animation issue of the BBP system of CHSBHC \r\nthat occurs when you use torch,shield and magic. \r\nI fixed defaultmale.hkx,defaultfemale.hkx.\r\nI\\'m not certain that my fix is correct.\r\nYou must backup save file before install.\r\n\r\nI fixed skeleton.hkx and skeleton_female.hkx also,\r\nbut the skeleton.hkx and skeleton_female.hkx are not necessary for fixing bug.\r\n\r\n[youtube]fxKZ_NUHRWM[/youtube]\r\n\r\n[b]==== Release Note ====[/b]\r\n1.5.0Beta:First Release\r\n1.5.1Beta:Add Forgotten Fix to defaultmale.hkx.thanks xp32.\r\n\r\n[b]==== Warning =====[/b]\r\nThis patch is related to defaultmale.hkx,defaultfemale.hkx files of skyrim v1.5.26.\r\nIf these files are updated by new version of skyrim, this mod will conflict against that.\r\nIf so, you must uninstall this patch.\r\n\r\n[b]==== About conflict =====[/b]\r\nthis mod will conflict against the all mod that edit defaultmale.hkx and defaultfemale.hkx,\r\nfor example FNIS. but this patch contains FNIS Entry. \r\nSo If you install this patch after FNIS, FNIS will work.\r\n\r\n[b]==== How to install ====[/b]\r\nHighly recommended to use NMM or BAIN.\r\nor\r\nunzip archive, then \\\"mesh\\\" folder put into your skyrim\\\\data folder.\r\n\r\n[b]==== How to Uninstall ====[/b]\r\nHighly recommended to use NMM or BAIN.\r\nor\r\nRemove files of this patch from skyrim\\\\data folder.\r\n\r\n[b]==== File List ====[/b]\r\nmeshes\\\\actors\\\\character\\\\character assets\\\\skeleton.hkx\r\nmeshes\\\\actors\\\\character\\\\character assets female\\\\skeleton_female.hkx\r\nmeshes\\\\actors\\\\character\\\\characters\\\\defaultmale.hkx\r\nmeshes\\\\actors\\\\character\\\\characters female\\\\defaultfemale.hkx\r\n",
+  "categoryId": "51",
+  "version": "1.5.1beta",
+  "author": "mirap",
+  "createdUnix": "1334491365",
+  "updatedUnix": "1334509428",
+  "containsAdultContent": false,
+  "uploadedBy": "mirap",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "53480",
+      "name": "chsbhc_bbp_arm_animation_fix_1_5_1",
+      "version": "1.5.1beta",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "30",
+      "fileName": "chsbhc_bbp_arm_animation_fix_1_5_1-15215-1-5-1beta.7z",
+      "uploadedUnix": "1334509428",
+      "modVersion": "1.5.1beta",
+      "virusScanUrl": "https://www.virustotal.com/file/e66365727488764fef7d345d4f2944330cf477debd7e8958a25906908ca1cdae/analysis/1406817154/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/chsbhc_bbp_arm_animation_fix_1_5_1-15215-1-5-1beta.7z?fid=53480&ttl=1535779454&ri=8192&rs=8192&setec=4345b9a37d88d2fbed945de21d45b30c"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 41402.0,
+  "modName": "Kynes Peace Affects Spriggans",
+  "summary": "All types of Spriggans will become pacified by Kyne\\'s Peace",
+  "descriptionHtml": "Spriggans are supposed to be pretty much the concentrated essence of Kyne, so it always bugged me that the Kyne\\'s Peace shout didn\\'t let them know you were a friend like it does for animals, or like the Boots of the Crusader did in Oblivion. This is a simple mod I made to change that. It will work on all types of spriggans, including those added by Dawnguard and Dragonborn, but does not require having Dawnguard.esm or Dragonborn.esm to use.\r\n\r\nA side effect is that in order to make the high level Spriggan Earth Mothers affected by it, I increased the magnitude of the spell effect from 20 to 100. This means that nothing will resist the shout anymore, including mammoths and dog companions. I tested it out with Meeko but it doesn\\'t seem to be an issue as he will still follow you around and attack enemies hostile to the player while he\\'s a follower. If anyone who uses this mod lets me know about any conflicts with companion animals, I can add some more conditions to the shout and see if I can make them excluded from being affected by it. I\\'m not going to bother until I know it\\'s a problem though. Basically all it does is turn your dog blue, which it would even do with the vanilla unaltered version. You just won\\'t get text in the top left saying \\\"Dog is too powerful for Kyne\\'s Peace\\\" anymore.\r\n\r\nInstalling: just put spriggans.esp in your data folder. Place it after any mods in your load order that modify the properites of shouts.",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Gilgamesh",
+  "createdUnix": "1377967976",
+  "updatedUnix": "1406571354",
+  "containsAdultContent": false,
+  "uploadedBy": "guerillamoderno",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000119705",
+      "name": "Spriggans",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Spriggans-41402-1-0.zip",
+      "uploadedUnix": "1406571354",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/265f06d2907e43e63634193fbf4a5cdc3d42cfe609e270ef296709246ee17ac5/analysis/1406571402/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Spriggans-41402-1-0.zip?fid=1000119705&ttl=1535822161&ri=8192&rs=8192&setec=37256978a56df6b7779e18c1818a6608"
+    }
+  ]
+}

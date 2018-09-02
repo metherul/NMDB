@@ -1,0 +1,32 @@
+{
+  "modId": 39671.0,
+  "modName": "Dragonborn Book Bounds Fix",
+  "summary": "Many of the books in the Dragonborn DLC lack proper object bounds, which causes them to glitch out and clip through each other when used with mods like Unlimited Bookshelves and Bookshelves Script SKSE. This adds object bounds so they work correctly. Compatible with Unofficial Dragonborn Patch.",
+  "descriptionHtml": "[size=18][color=red]##NOTE: THIS MOD HAS BEEN INTEGRATED WITH THE LATEST VERSION OF THE [url=http://skyrim.nexusmods.com/mods/31083/?]UNOFFICIAL DRAGONBORN PATCH[/url]&#33;&#33;&#33;##[/color][/size]\r<br />\r<br />If you are using the UDBP there is no reason to use this mod, and in fact I recommend you do NOT use it as it was designed based on an older version of the UDBP. Including it in your load order may introduce conflicts with the current version, though I am not aware of any such conflicts at this time. The only reason I&#39;m even leaving it up is on the off-chance that someone wants to fix this but doesn&#39;t use UDBP for whatever reason. That said, I recommend using UDBP instead of this mod.\r<br />\r<br />##############\r<br /># DESCRIPTION #                 \r<br />##############\r<br />\r<br />Many of the books in the Dragonborn DLC lack proper object bounds, which causes them to glitch out and clip through each other when used with expanded bookshelf mods like Unlimited Bookshelves and Bookshelves Script SKSE. This adds object bounds so they work correctly. More specifically, it adds object bounds identical to those of corresponding vanilla book models to all references in the &#34;books&#34; category in Dragonborn.esp, including all notes and journals. Created entirely in TES5EDIT.\r<br />\r<br />################\r<br />#  REQUIREMENTS #\r<br />################\r<br />\r<br />Most likely none besides Dragonborn itself.\r<br />\r<br />################\r<br /># COMPATIBILITY #\r<br />################\r<br />\r<br />May be incompatible with the [url=http://skyrim.nexusmods.com/mods/31083/?]Unofficial Dragonborn Patch[/url], since it was designed based on an earlier version of that mod, but it has also been integrated into that mod and you should probably just download that instead. Potentially incompatible with any other mod that makes changes to books from the Dragonborn DLC, but as far as I know no such mods exist so don&#39;t worry about it.\r<br />\r<br />Compatible, tested and confirmed to work with both Unlimited Bookshelves and Bookshelves Script SKSE.\r<br />\r<br />###############\r<br /> # INSTALLATION #             \r<br />###############\r<br />\r<br />Simply install using the mod manager of your choice, or unzip into Data folder of your Skyrim directory and enable in the Data Files tab of SkyrimLauncher. \r<br />\r<br />May not work with Nexus Mod Manager, but I had no problem installing it with Mod Organizer.\r<br />\r<br />####################\r<br /># RECOMMENDATIONS #\r<br />####################\r<br />\r<br />[url=http://skyrim.nexusmods.com/mods/24359/?]Bookshelves Script SKSE[/url] - A great, simple and elegant mod that allows you to fill bookshelves totally, as opposed to the vanilla system where the maximum 19 books will rarely completely fill the shelf, leading to an ugly &#39;falling dominoes&#39; effect. The best bookshelf mod there is. Without this the book bounds fix will probably do nothing.\r<br />\r<br />#########\r<br /># CREDIT #\r<br />#########\r<br />\r<br />Includes changes used in the Unofficial Dragonborn Patch by Unofficial Patch Project Team to preserve compatibility with that mod. Created in TES5EDIT.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "lessens",
+  "createdUnix": "1375710096",
+  "updatedUnix": "1375710043",
+  "containsAdultContent": false,
+  "uploadedBy": "lessens",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000044381",
+      "name": "DBBookBounds",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "76",
+      "fileName": "DBBookBounds-39671-1-0.zip",
+      "uploadedUnix": "1375710043",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7da83d77ffa8287dc61483e85a014361d24f56e996c03544c9f58c4c7d1e2876/analysis/1407669845/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DBBookBounds-39671-1-0.zip?fid=1000044381&ttl=1535820124&ri=8192&rs=8192&setec=c78a1dc9709481404d2a6a98f4119253"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 60244.0,
+  "modName": "xMAWARCombatLogic Quick fix - ALPHA",
+  "summary": "Temporary fix for T3nd0&#39;s Perkus Maximus",
+  "descriptionHtml": "[center][color=#ff0000][size=4]Warning: This is a WIP. Backup your scripts folder before using.[/size][/color][/center]\r<br />\r<br />[center][size=3]A patch for T3nd0&#39;s amazing [url=http://www.nexusmods.com/skyrim/mods/59849/?]Perkus Maximus[/url][/size][/center]\r<br />\r<br />\r<br />This patch aims to reduce CTD&#39;s originating from xMAWARCombatLogic.psc log spam.\r<br />\r<br />\r<br />\r<br />\r<br />1.2 : Added some null checking for a few other errors. Reduces a lot of the spam. I&#39;m still getting an occasional error of the type: \r<br />   [u]warning: Assigning None to a non-object variable.[/u] \r<br />\r<br />1.1 : Moved an offending endif to fix lines 275, 287, 316\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />All credit goes to T3nd0. This is only a resourceful idiots attempt to fix something.",
+  "categoryId": "28",
+  "version": "1.2",
+  "author": "Gnaul",
+  "createdUnix": "1416880321",
+  "updatedUnix": "1417979079",
+  "containsAdultContent": false,
+  "uploadedBy": "Gnaul",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000136663",
+      "name": "Quick Fix1.1",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Quick Fix1.1-60244-1-1.7z",
+      "uploadedUnix": "1416888713",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/20364645493a79966f2410afc423a8eef3e968004ddfa5e091813cdeef8c8270/analysis/1416888782/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Quick%20Fix1.1-60244-1-1.7z?fid=1000136663&ttl=1535847917&ri=8192&rs=8192&setec=36256a13ed510ef037344db244204c46"
+    },
+    {
+      "fileId": "1000138095",
+      "name": "CombatLogic 1.2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "CombatLogic 1.2-60244-1-2.7z",
+      "uploadedUnix": "1417979079",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/c56e81cb5d0fc5141f240437515e9e7e70bb539534f05c858f33726104524db3/analysis/1417979103/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CombatLogic%201.2-60244-1-2.7z?fid=1000138095&ttl=1535847917&ri=8192&rs=8192&setec=0175578ca32bc23448f9824ebb60f13f"
+    }
+  ]
+}

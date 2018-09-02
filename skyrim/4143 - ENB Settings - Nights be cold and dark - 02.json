@@ -1,0 +1,48 @@
+{
+  "modId": 4143.0,
+  "modName": "ENB Settings - Nights be cold and dark - 02",
+  "summary": "I have installed the latest ENBseries v0.100 and have been tuning all the new settings in the enbseries.ini for some hours know. Is really fun to do. :) Let me share my settings with you.",
+  "descriptionHtml": "[i]NOTE: Sorry - the screenshots look brighter here then they are in game. [/i]\r\n[i]Credits to: Boris Vorontsov (aka ENB) for his ENBseries shader! [/i]\r\n\r\n[b]What will happen if you use theese settings?[/b]\r\n\r\nThe days might look quite similar to before. I gave the sun a little more power and reduced the global light a bit and reduced colors in the shadows so it looks a little more like in south italy now than in denmark.\r\n \r\nBut the nights - a totally different story. They are quite dark, but you don\\'t feel lost in the darkness. You can see the guards - but you have to look for them really carefully. \r\n\r\nBecause of the nordic setting of skyrim I\\'ve decided to use light, bloom and fog a lot more. It now gives you the feeling that there is a place to get a nice and comfortable shelter. \r\n\r\nYou will not see this forsaken auto-brightness-adjust-thing in effect! What does that mean?\r\n- Sneaking is far more fun again. \r\n- Fast moving dragons are scary at night. \r\n\r\nNow you can definitely decide if it is day or night without looking on the watch. ;)\r\n\r\n---\r\n[b]Installing[/b]\r\n\r\nFirst get the ENBseries v0.100 here:\r\nhttp://enbdev.com/download_en.htm\r\nhttp://enbdev.com/enbseries_skyrim_v0100.zip\r\n\r\nJust extract the ZIP file into c:\\\\Programms\\\\Steam\\\\SteamApps\\\\common\\\\skyrim \r\nso enbseries.ini lies next to TESV.exe\r\n\r\nCheck if it is working in skyrim! If not: Not my problem. ;) But I am sure someone made a NMM-Package with a v0.100 installer.\r\n\r\nIf it is working:\r\n\r\nReplace the content of enbseries.ini with theese settings:\r\n\r\n[code]\r\n[PROXY]\r\nEnableProxyLibrary=false\r\nInitProxyFunctions=true\r\nProxyLibrary=other_d3d9.dll\r\n\r\n[GLOBAL]\r\nAdditionalConfigFile=userconfig.ini\r\nUseEffect=true\r\n\r\n[FIX]\r\nForceSingleCoreCPU=false\r\nIgnoreThreadManagement=true\r\nIgnoreThreadPriority=true\r\nAntiBSOD=true\r\n\r\n[MULTIHEAD]\r\nForceVideoAdapterIndex=false\r\nVideoAdapterIndex=0\r\n\r\n[LIMITER]\r\nWaitBusyRenderer=false\r\nEnableFPSLimit=false\r\nFPSLimit=60.0\r\n\r\n[INPUT]\r\n//back\r\nKeyReadConfig=8\r\n//shift\r\nKeyCombination=16\r\n//f12\r\nKeyUseEffect=123\r\n//home\r\nKeyFPSLimit=36\r\n//num /\r\nKeyShowFPS=106\r\n//insert\r\nKeyScreenshot=45\r\n\r\n[ENGINE]\r\nForceAnisotropicFiltering=false\r\nMaxAnisotropy=8\r\nSkipShaderOptimization=false\r\n\r\n[EFFECT]\r\nUseOriginalPostProcessing=false\r\nEnableBloom=true\r\nEnableAdaptation=true\r\nEnableAmbientOcclusion=true\r\n\r\n[BLOOM]\r\nQuality=1\r\nRadius1=1.8\r\nRadius2=2.8\r\nAmountDay=0.5\r\nAmountNight=1.5\r\nBlueShiftAmountDay=1.0\r\nBlueShiftAmountNight=1.0\r\n\r\n[CAMERAFX]\r\nLenzReflectionIntensityDay=1.0\r\nLenzReflectionIntensityNight=1.0\r\nLenzReflectionPowerDay=8.0\r\nLenzReflectionPowerNight=1.0\r\n\r\n[SSAO_SSIL]\r\nUseIndirectLighting=true\r\nSamplingQuality=1\r\nSamplingRange=0.7\r\nFadeFogRangeDay=7.0\r\nFadeFogRangeNight=7.0\r\nSizeScale=0.35\r\nSourceTexturesScale=0.35\r\nFilterQuality=1\r\nAOAmount=2.0\r\nILAmount=2.5\r\n\r\n[NIGHTDAY]\r\nDetectorDefaultDay=false\r\nDetectorLevelDay=0.65\r\nDetectorLevelNight=0.12\r\nDetectorLevelCurve=0.8\r\n\r\n[ADAPTATION]\r\nForceMinMaxValues=false\r\nAdaptationSensitivity=0.1\r\nAdaptationTime=10.0\r\nAdaptationMin=0.1\r\nAdaptationMax=100.0\r\n\r\n[ENVIRONMENT]\r\nDirectLightingIntensityDay=11.0\r\nDirectLightingIntensityNight=0.2\r\nDirectLightingCurveDay=1.05\r\nDirectLightingCurveNight=1.0\r\nDirectLightingDesaturationDay=0.0\r\nDirectLightingDesaturationNight=0.95\r\n\r\nSpecularAmountMultiplierDay=1.00\r\nSpecularAmountMultiplierNight=0.4\r\nSpecularPowerMultiplierDay=1.00\r\nSpecularPowerMultiplierNight=0.4\r\nSpecularFromLightDay=1.0\r\nSpecularFromLightNight=0.2\r\n\r\nAmbientLightingIntensityDay=1.35\r\nAmbientLightingIntensityNight=0.2\r\nAmbientLightingCurveDay=1.0\r\nAmbientLightingCurveNight=1.0\r\nAmbientLightingDesaturationDay=0.3\r\nAmbientLightingDesaturationNight=1.0\r\n\r\nPointLightingIntensityDay=1.0\r\nPointLightingIntensityNight=3.0\r\nPointLightingCurveDay=1.2\r\nPointLightingCurveNight=1.5\r\nPointLightingDesaturationDay=0.0\r\nPointLightingDesaturationNight=0.0\r\n\r\nFogColorMultiplierDay=0.6\r\nFogColorMultiplierNight=0.3\r\nFogColorCurveDay=1.0\r\nFogColorCurveNight=1.0\r\n\r\nColorPowDay=2.0\r\nColorPowNight=1.7\r\n\r\n[SKY]\r\nEnable=true\r\n\r\nStarsIntensity=0.6\r\nStarsCurve=1.0\r\n\r\nAuroraBorealisIntensity=0.4\r\nAuroraBorealisCurve=1.5\r\n\r\nCloudsIntensityDay=1.0\r\nCloudsIntensityNight=1.0\r\nCloudsCurveDay=1.0\r\nCloudsCurveNight=1.0\r\nCloudsDesaturationDay=0.0\r\nCloudsDesaturationNight=0.0\r\n\r\nGradientIntensity=1.0\r\nGradientDesaturation=0.2\r\n\r\nGradientTopIntensityDay=2.5\r\nGradientTopIntensityNight=0.3\r\nGradientTopCurveDay=1.5\r\nGradientTopCurveNight=1.0\r\n\r\nGradientMiddleIntensityDay=4.0\r\nGradientMiddleIntensityNight=0.5\r\nGradientMiddleCurveDay=1.5\r\nGradientMiddleCurveNight=1.0\r\n\r\nGradientHorizonIntensityDay=7.0\r\nGradientHorizonIntensityNight=0.8\r\nGradientHorizonCurveDay=1.5\r\nGradientHorizonCurveNight=1.0\r\n\r\nSunIntensity=9.0\r\nSunDesaturation=0.0\r\nSunCoronaIntensity=15.0\r\nSunCoronaCurve=1.0\r\nSunCoronaDesaturation=0.0\r\n\r\nMoonIntensity=0.5\r\nMoonCurve=1.0\r\nMoonDesaturation=0.0\r\n\r\n[OBJECT]\r\nSubSurfaceScatteringMultiplierDay=0.9\r\nSubSurfaceScatteringMultiplierNight=0.5\r\nSubSurfaceScatteringPowerDay=1.0\r\nSubSurfaceScatteringPowerNight=0.4\r\n\r\n[LIGHTSPRITE]\r\nIntensityDay=1.0\r\nIntensityNight=3.0\r\nCurveDay=1.0\r\nCurveNight=1.0\r\n\r\n[WINDOWLIGHT]\r\nIntensity=10.0\r\nCurve=1.0\r\n\r\n[VOLUMETRICFOG]\r\nIntensityDay=1.0\r\nIntensityNight=2.0\r\nCurveDay=1.0\r\nCurveNight=1.0\r\n\r\n[FIRE]\r\nIntensityDay=5.0\r\nIntensityNight=20.0\r\nCurveDay=2.0\r\nCurveNight=1.0\r\n\r\n[COLORCORRECTION]\r\nUsePaletteTexture=true\r\n\r\n[SHADOW]\r\nShadowObjectsFix=true\r\n\r\n[/code]\r\n\r\nYou can change theese settings while skyrim is running. (you just have to switch into the skyrim-task two times so it recovers)\r\n\r\nHAVE FUN! SHARE YOUR SETTINGS!\r\n\r\n---\r\nOff-Topic:\r\nSome great mods by other people I\\'d like you to check out:\r\n\r\n4GB Skyrim (Monochrome Wench)\r\nTytanis - The Ultimate Mod (Tytanis)\r\nVurts Skyrim Flora Overhaul (vurt)\r\nSkyrim HD - 2K Textures (NebuLa)\r\nMain Font Replacement - Fertigo Pro Font (Valistar)\r\nKenMOD - Time on loading screen (Kenney)\r\nHigh-Definition bodies for races of Skyrim (Marrano)\r\nFountain of Youth - Beauty Project (Skree000)\r\nTelthalions Finer Hair (Telthalion) \r\nLess Talkative NPCs (Xylozi)\r\nColored Map Markers (Forsaken32)\r\nColorful Dragons 3 HD (Luddemann)\r\nDeadly Spell Impacts (isoku)\r\nIntricate Spider Webs (isoku)\r\nImproved NPC Clothing (BaronDavid)\r\nLush Grass (OpticShooter)\r\nSortiertes Inventar (Tand)",
+  "categoryId": "28",
+  "version": "2",
+  "author": "eurosat7",
+  "createdUnix": "1324336433",
+  "updatedUnix": "1324412175",
+  "containsAdultContent": false,
+  "uploadedBy": "eurosat7",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "12134",
+      "name": "ENB Settings - Nights be cold and dark - 01",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "ENB Settings - Nights be cold and dark - 01-4143-1.zip",
+      "uploadedUnix": "1324336514",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/183cab166f2d78976d75d8eca42fd61580131fb18c59476a2548c3cd9a93deb6/analysis/1406537845/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENB%20Settings%20-%20Nights%20be%20cold%20and%20dark%20-%2001-4143-1.zip?fid=12134&ttl=1535759697&ri=8192&rs=8192&setec=9becd4dec7bb437c9d2d4ae6877e5bab"
+    },
+    {
+      "fileId": "12408",
+      "name": "ENB Settings - Nights be cold and dark - 02",
+      "version": "2",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "ENB Settings - Nights be cold and dark - 02-4143-2.zip",
+      "uploadedUnix": "1324412175",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/c2200d0b5d84c107d9037f1fe2b36e44219531aacb4be37d06fa133b0b920ca7/analysis/1406540824/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENB%20Settings%20-%20Nights%20be%20cold%20and%20dark%20-%2002-4143-2.zip?fid=12408&ttl=1535759697&ri=8192&rs=8192&setec=47b9af86883c5c38e24494d86038a592"
+    }
+  ]
+}

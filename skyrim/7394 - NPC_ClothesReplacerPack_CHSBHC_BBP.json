@@ -1,0 +1,48 @@
+{
+  "modId": 7394.0,
+  "modName": "NPC_ClothesReplacerPack_CHSBHC_BBP",
+  "summary": "This set of files replaces various commonly worn clothes in game with versions that are animated using Cherry Hotaling\\'s CHSBHC mod.  (Breast jiggle / animation mod).\r\nIt won\\'t work without it, so go get it here : http://www.skyrimnexus.com/downloads/file.php?id=4888",
+  "descriptionHtml": "For use with Cherry Hotalings CHSBHC mod, if you don\\'t have it, go here to download & install:\r\nhttp://www.skyrimnexus.com/downloads/file.php?id=4888\r\n\r\nThis file contains multiple mesh replacements for various commonly worn clothes by NPC\\'s.  Thus making your trips around town a little bit more... animated.\r\n\r\nThat being said, this mod creates some really well endowed old ladies, you have been warned.\r\n\r\n[b]This is an ongoing project, and more clothes / armors will be added in the near future.\r\nCheck back for updates from time to time ^^[/b]\r\n\r\nAs always, thanks to Cherry for her help & mod!\r\n\r\n============\r\nA Few Notes\r\n============\r\n\r\nA bit of information about the respective models:\r\n\r\nSome models have a fully complete CHSBHC body inside of them, others do not.\r\nIf you\\'re at all curious which is which, please refer to this list!\r\nThose that do not have the internal body (aka Hollow ) will not function well with transparency textures frequently used by partial nudity re-textures.\r\n\r\n\r\n--HOLLOW MODELS--\r\n\r\nBlacksmith\r\nFarmClothes01\r\nFarmClothes02\r\nMerchantClothes\r\n\r\n\r\n--INTERIOR BODY--\r\n\r\nBarkeeper\r\nFarmClothes04\r\n\r\n\r\nEventually I will create an option for all fully filled models if there is enough demand for it.\r\n\r\n============\r\nCHANGE LOG\r\n++++++++++++\r\nv1.101\r\n-FarmerClothes04- Fixed 6 vertices in the arms that were not weighted to the arms causing zerg-like spikes to grow when the character moved their arms.  (whoops!)\r\n\r\nv1.1\r\n\r\n-Increased the animation effect on Farmclothes01, Farmclothes02, & MerchantClothes\r\n-Changed the animation effect on Blacksmith Apron, when both breasts bounce, the middle section now moves with them rather than staying strangely stationary.\r\n-Fixed collar clipping issue on FarmClothes01\r\n-Fixed two stray vertices that were bobbing up and down on the back of merchant clothes.\r\n\r\n\r\n-----------\r\nKnown Issues\r\n-----------\r\n\r\nDue to the nature of the current skeleton and the limit of my patience, there are some minor clipping issues with these models, as well as some funky seams and odd behavior around the leg portion of the long skirts.  Most issues exist solely when slowly walking backwards and do not affect things in a big way.\r\n\r\nTO OTHER MODDERS::\r\nOriginally the tavern wench outfit & farm clothes 03 were supposed to be a part of this pack as they\\'re completed & weighted and everything.  However they have some horrible texture bug right now where they outfit won\\'t show up with it\\'s image texture (no colors) but the specular and bump maps import perfectly, making them a jet black sheen, with subtle textures, but no color.  I can\\'t seem to figure out what causes this, if anyone knows, please let me know so I can release these too.  It happens even if I import the model, don\\'t alter it in any way, then export it, NIFskope it and drop it in game.",
+  "categoryId": "29",
+  "version": "1.101",
+  "author": "White Rabbit",
+  "createdUnix": "1327919101",
+  "updatedUnix": "1327956729",
+  "containsAdultContent": true,
+  "uploadedBy": "whiterabbit0",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "24284",
+      "name": "NPC_ClothesPack_CHSBHC_BBP_v1-0",
+      "version": "",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "5656",
+      "fileName": "NPC_ClothesPack_CHSBHC_BBP_v1-0-7394.zip",
+      "uploadedUnix": "1327921161",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/b545179c29c4480a4c5fb5871c092e42f9bc7800ed730afdb280c0c983aa8833/analysis/1406645001/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NPC_ClothesPack_CHSBHC_BBP_v1-0-7394.zip?fid=24284&ttl=1535765406&ri=8192&rs=8192&setec=d4065faf66e671c917619ed51b54e187"
+    },
+    {
+      "fileId": "24409",
+      "name": "NPC_ClothesReplacerPack_CHSBHC_v1-101",
+      "version": "1.101",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4828",
+      "fileName": "NPC_ClothesReplacerPack_CHSBHC_v1-101-7394-1-101.zip",
+      "uploadedUnix": "1327956729",
+      "modVersion": "1.101",
+      "virusScanUrl": "https://www.virustotal.com/file/304d441dd6bab70059ee46f15a8e9c594b27898e9bacaa91dc647f5fbd6dbf50/analysis/1406645774/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NPC_ClothesReplacerPack_CHSBHC_v1-101-7394-1-101.zip?fid=24409&ttl=1535765407&ri=8192&rs=8192&setec=25a4ee53f60b77672618e6e49ec8ff37"
+    }
+  ]
+}

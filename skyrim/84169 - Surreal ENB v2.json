@@ -1,0 +1,48 @@
+{
+  "modId": 84169.0,
+  "modName": "Surreal ENB v2",
+  "summary": "A vibrant, fantasy preset that is relatively performance friendly. \r<br />\r<br />Made for vanilla lighting and weather but also compatible with ELFX lighting modules. ",
+  "descriptionHtml": "[color=#ea9999][i]UPDATE: \r<br />\r<br />This preset seems to work fine with both ELFX lighting modules especially the interior one. Its demonstrated in Sinitar Gaming&#39;s video linked below. \r<br />\r<br />Added a second DOF option for a sharper, crisper distant view.   \r<br />[/i][/color]\r<br />\r<br />[b][size=4][u]INTRODUCTION:[/u][/size][/b]\r<br />\r<br />This is a new version of my previous ENB preset - [url=http://www.nexusmods.com/skyrim/mods/78562?]Surreal ENB[/url]. When I released that preset, I wanted to make a higher quality version of it but didn&#39;t have the required hardware back then. Since then I have upgraded my system so I&#39;ve been able to add the effects I wanted. Just like the original, this is was created for vanilla lighting and weather but works pretty well with ELFX interior/exterior modules (not with the weathers module though).\r<br />\r<br />Kindly scroll all the way down (its a relatively short page) and view the resized pics to get an idea how the preset looks. \r<br />\r<br />\r<br />[center]Many thanks to [url=https://forums.nexusmods.com/index.php?/user/30658615-donprotein/]DonProtein[/url]/[url=https://www.youtube.com/channel/UCHEdKzHeo5OiJhhiGG95wkA]Sinitar Gaming[/url] for showcasing my preset (7:12).[/center]\r<br />[center][youtube]aayU9oxUVD0[/youtube][/center]\r<br />\r<br />[center]\r<br />[img]http://i.imgur.com/0qoZ2vf.jpg[/img]\r<br />[img]http://i.imgur.com/dfnT78z.jpg[/img]\r<br />[img]http://i.imgur.com/NM0LGhB.jpg[/img][/center]\r<br />\r<br />[b][size=4][u]MODS:[/u][/size][/b]\r<br />\r<br />[i][size=3]REQUIRED[/size][/i]\r<br />[url=http://enbdev.com/download_mod_tesskyrim.html]ENB Series[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/5587/?]Skyrim Visual Immersion Series ENB Resource[/url] OR [url=http://www.nexusmods.com/skyrim/mods/54553/?]Bokeh Depth of Field for ENB users[/url] \r<br />The [u][b]enbeffectprepass.fx[/b][/u] file from either one of these two mods is needed for the DOF effect. Haven&#39;t included it by default due to unclear permissions.\r<br />Many of these screenshots were taken with Bokeh Depth of Field for ENB users but if you want a sharper, crisper distant image, use Skyrim Visual Immersion Series ENB Resource (vanilla version). \r<br /> \r<br />[i][size=3]RECOMMENDED[/size][/i]\r<br />[url=http://www.nexusmods.com/skyrim/mods/57353/?]Optimized Vanilla Textures[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/49344/?]Vivid Landscapes[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/38491/?]aMidianBorn Whiterun[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/64856/?]Skyrim HD - Terrain Parallax[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/40512/?]Project Parallax Remastered[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/8655/?]SMIM\r<br />[/url][url=http://enbseries.enbdev.com/forum/viewtopic.php?t=1499]Skyrim Particle Patch[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/56877/?]Skysight - Simply Bigger Trees[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/51069/?]Realistic Aspen Trees[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/33582/?]Grass on Steroids[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/41076/?]Realistic Water Two[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/1653/?]Alternate Sun Glare[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/85/?]Enhanced Night Skyrim[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/6387/?]Skyrim Performance Plus[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/32505/?]Skyrim Project Optimization[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/59721/?]DynDOLOD[/url]\r<br />\r<br />[i][size=3]Again, a massive, heartfelt thank you to all these mod authors and the modding community in general without whom Skyrim would not be what it is today.\r<br />\r<br />[center]\r<br />[img]http://i.imgur.com/zGJkGUy.jpg[/img]\r<br />[img]http://i.imgur.com/AsUwnQo.jpg[/img]\r<br />[img]http://i.imgur.com/JgzA7R3.jpg[/img][/center]\r<br />\r<br />[/size][/i][b][u][size=4]INSTALLATION:[/size][/u][/b]\r<br />\r<br />1 - Download the main file, extract it and and copy it to your installation directory. Default location is [color=#ffff00]Steam&#92;steamapps&#92;common&#92;Skyrim.[/color]\r<br />\r<br />2 - Download the latest ENB binary from the ENB series site and copy [color=#ffff00]d3d9.dll[/color] and [color=#ffff00]enbhost.exe[/color] from the wrapper folder to your installation directory.\r<br />     Note - I created this preset with v305 which isn&#39;t available anymore but v308 should work fine.\r<br />\r<br />3 - Download either [u]Skyrim Visual Immersion Series[/u] or [u]Bokeh Depth of Field for ENB users[/u] (both linked above) and overwrite [color=#ffff00]enbeffectprepass.fx\r<br />[/color]     in my preset with the corresponding file from either mod. \r<br />     \r<br />4 - Open SkyrimPrefs.ini located in your My Documents or Mod Organizer profile folder and make the following changes:\r<br />[color=#ffff00][i]     bFloatPointRenderTarget=1\r<br />     bDrawLandShadows=1\r<br />     bTreesReceiveShadows=1[/i][/color]\r<br />     Also set [color=#ffff00][i]fGamma=1.0400[/i][/color]. This is the brightness setting I use but of course you can edit it to what you prefer.\r<br />\r<br />5 - Turn off in game [color=#ffff00]AA[/color]. You could also disable [color=#ffff00]FXAA[/color] if you don&#39;t like the blurriness and/or ENB&#39;s EdgeAA fulfills your AA needs.\r<br />\r<br />6 - Open enblocal.ini and set the [i][color=#ffff00]VideoMemorySizeMb[/color][/i] parameter according to your video card&#39;s memory. \r<br />     Note - There are differing views on what the right formula is but you can use this tool to get a general idea - [url=http://enbdev.com/download_vramsizetest.htm]Vram size test[/url].\r<br />\r<br />[center]\r<br />[img]http://i.imgur.com/JwyHbH9.jpg[/img]\r<br />[img]http://i.imgur.com/flqRjLQ.jpg[/img]\r<br />[img]http://i.imgur.com/hrR1km1.jpg[/img][/center]\r<br />\r<br />[size=4][b][u]PERFORMANCE:[/u][/b] \r<br />[/size]\r<br />This preset works fine on my rig (i5 2500K, 8GB DDR3 RAM, RX 470 4GB). I get 50+ fps in most places so if you got a similar rig or better, you should be good.\r<br /> \r<br />\r<br />[center]\r<br />[img]http://i.imgur.com/Jy1Dic1.jpg[/img]\r<br />[img]http://i.imgur.com/7viTdcG.jpg[/img]\r<br />[img]http://i.imgur.com/8DoasaP.jpg[/img][/center]\r<br />\r<br />[u][b][size=4]CONCLUSION:[/size][/b][/u]\r<br />\r<br />If you have any issues or need help with anything, let me know in the comments section. Thank you for checking out my preset. \r<br />\r<br />\r<br />[center]\r<br />[img]http://i.imgur.com/NL4PR6g.jpg[/img]\r<br />[img]http://i.imgur.com/4SPRjjV.jpg[/img]\r<br />[img]http://i.imgur.com/u4sDIip.jpg[/img][/center]",
+  "categoryId": "97",
+  "version": "1.0",
+  "author": "XenolithicYardZone",
+  "createdUnix": "1495923978",
+  "updatedUnix": "1495918316",
+  "containsAdultContent": false,
+  "uploadedBy": "XenolithicYardZone",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000245439",
+      "name": "Surreal ENB v2",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1013",
+      "fileName": "Surreal ENB v2-84169-1-0.zip",
+      "uploadedUnix": "1495918090",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/036a2c8080c93aeea90bb3be99a98eef2fffa5d0b4c4ec0d7faa8463bf5bec27/analysis/1495918385/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Surreal%20ENB%20v2-84169-1-0.zip?fid=1000245439&ttl=1535872994&ri=8192&rs=8192&setec=8dbe318c3e6fad526c3e617b4b00ecb8"
+    },
+    {
+      "fileId": "1000245440",
+      "name": "Surreal ENB v2 (letterbox version)",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1014",
+      "fileName": "Surreal ENB v2 (letterbox version)-84169-1-0.zip",
+      "uploadedUnix": "1495918316",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/79067c329d9394060692107b248e3718c5a3022bd212a46511febc11f56a5739/analysis/1495918505/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Surreal%20ENB%20v2%20%28letterbox%20version%29-84169-1-0.zip?fid=1000245440&ttl=1535872995&ri=8192&rs=8192&setec=eb0effce2154cfaa023e4a7e7c76eaad"
+    }
+  ]
+}

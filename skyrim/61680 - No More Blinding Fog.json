@@ -1,0 +1,32 @@
+{
+  "modId": 61680.0,
+  "modName": "No More Blinding Fog",
+  "summary": "Reduces the opacity camera-attached fog particles to 33% of original. Prevents conditions where the fog whites out the screen.",
+  "descriptionHtml": "[font=Verdana][size=2]Skyrim uses a system of camera attached particles to create foggy scenes without filling an entire area with fog. This can cause very ugly fog when using ENB. The additive rendering of the fog particles causes blinding whiteness in areas with heavy fog. This is especially annoying in dwarven ruins with lots of Steam, ice caves and snowy areas with lots of blowing snow - The final room in Yngol Barrow is practically unplayable with my Enb. It can also be very jarring as the fog do not appear until the player triggers the particle emitter, and previously dark areas can suddenly fill with very bright fog as the particles fade in and out of existence due to the movement of the player.\r<br />\r<br />Examples of areas where these annoying fog is especially evident are:\r<br />\r<br />[/size][/font][list][*][font=Verdana][size=2][url=http://www.uesp.net/wiki/Skyrim:Yngol_Barrow]Yngol Barrow[/url]\r<br />[/size][/font][/*]\r<br />[*][font=Verdana][size=2][url=http://www.uesp.net/wiki/Skyrim:Winterhold]Winterhold[/url]\r<br />[/size][/font][/*]\r<br />[*][font=Verdana][size=2][url=http://www.uesp.net/wiki/Skyrim:Nchuand-Zel]Nchuand-Zel[/url][/size][/font][/*]\r<br />[/list][font=Verdana][size=2]\r<br />[/size][/font][font=Verdana][size=2]To fix this, I took the particle emitter nifs and changed the opacity of the generated particles to 33% their previous strength. You can check out the differences in the screenshots above. The fog is still there, so the atmospheric effect is preserved, it is just 67% less overwhelming.\r<br />\r<br />This is a very simple mod. There are no esps, no scripts, no textures. You can install or uninstall the mod at any time. This mod simply edits the following nif files:\r<br />\r<br />[/size][/font][list][*][font=Verdana][size=2]data/meshes/effects/fxcameraattachblowingfog.nif\r<br />[/size][/font][/*]\r<br />[*][font=Verdana][size=2]data/meshes/effects/fxcameraattachfog.nif\r<br />[/size][/font][/*]\r<br />[*][font=Verdana][size=2]data/meshes/effects/fxcameraattachgroundfog.nif\r<br />[/size][/font][/*]\r<br />[*][font=Verdana][size=2]data/meshes/effects/fxcameraattachturbulentfog.nif\r<br />[/size][/font][/*]\r<br />[*][font=Verdana][size=2]data/meshes/effects/fxcameraattachwispyfog.nif[/size][/font][/*]\r<br />[/list][font=Verdana][size=2]\r<br />[/size][/font][font=Verdana][size=2]Nifskope 1.1.3 was not able to save the data in the nif files correctly. This mod was created by modifying the values of BSPSysSimpleColorModifier with a hex editor.\r<br />\r<br />[/size][/font]Let me know in the comments if this mod changes the look of an area unexpectedly for the worse, and I&#39;ll look into it.\r<br />\r<br />Note: this mod only changes the in your face fog effects. It doesn&#39;t remove other types of fog and mist, but can be used in conjunction with these mods:\r<br />[list][*][url=http://www.nexusmods.com/skyrim/mods/29253/?]Remove Interior Fog V2[/url] (You can adjust this type of fog with ENB as well)[/*]\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/736/?]Interior and Dungeon Fog Remover[/url][/*]\r<br />[/list]",
+  "categoryId": "74",
+  "version": "1.0",
+  "author": "WankingSkeever",
+  "createdUnix": "1421224949",
+  "updatedUnix": "1421224942",
+  "containsAdultContent": false,
+  "uploadedBy": "theregisteredone",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000142792",
+      "name": "No More Blinding Fog",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "No More Blinding Fog-61680-1-0.rar",
+      "uploadedUnix": "1421224942",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f245e0b6423f5e6852330117276e6fb43839065320a67b47e8f675ab2bea3d87/analysis/1421224982/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20More%20Blinding%20Fog-61680-1-0.rar?fid=1000142792&ttl=1535850170&ri=8192&rs=8192&setec=cf276d1e3bfe047ed1ee2739730eaf5e"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 15697.0,
+  "modName": "Weapon- Ghostly Blade Of Woe __by request__",
+  "summary": "Adds a weapon to Skyrim which can be smithed out of the \\\"Blade of Woe\\\" to possess the ghostly/translucent texture of the spectral draugr weapons.",
+  "descriptionHtml": "[u]Description[/u]\r\nThis is just a little mod that adds a weapon to Skyrim which can be smithed out of the \\\"Blade of Woe\\\" to give it the \\\"ghostly\\\" visual appearance of the spectral draugr weapons (like the Drainspell Bow).\r\n\r\n[u]Install[/u]\r\nExtract the 7zip file into your /Data/ folder in your Skyrim installation.\r\nMakie sure that:\r\n1) \\\"GhostlyBladeOfWoe.esp\\\" is in your /Data/ folder \r\n2) the remaining files (ghostlybladeofwoe.nif and 1stpersonghostlybladeofwoe.nif) are extracted to /Data/meshes/weapons/ghostlybladeofwoe/\r\n\r\n[u]Uninstall[/u]\r\n1) Delete \\\"GhostlyBladeOfWoe.esp\\\"\r\n2) delete the folder /Data/meshes/weapons/ghostlybladeofwoe\r\n\r\n[u]Credits[/u]\r\nCredit goes to Meandmine for coming up with this awesome idea on the forums.\r\n(http://forums.nexusmods.com/index.php?/topic/652814-ghostly-blade-of-woe/)\r\n\r\nMod made by Archerkb using the creation kit, and Nifsfkope (http://niftools.sourceforge.net/wiki/NifSkope), and BSAOpt (http://skyrim.nexusmods.com/downloads/file.php?id=247).\r\n\r\nTextures and weapon designs owned by Bethesda Softworks.\r\n\r\n[u]Feedback[/u]\r\nFeedback is greatly appreciated as I\\'ve only tested this on my own system so far!\r\n\r\n[u]Permissions[/u]\r\nDo anything you like with this! :D\r\n\r\n[u]How it was made[/u]\r\nI just want to state that I had a great deal of difficulty making this work using texturesets, so I gave up and just used nifskope\\'s inbuilt pointers from meshes to textures. The downside to this way of working is that you have to put any textures you use directly into your skyrim data folder while working in nifskope (which I don\\'t like doing because I like keeping my skyrim folders clean and testing in another folder wherever possible ><. oh well.)\r\n\r\nBSAOpt\r\n0) Step 0 is to unpack skyrim\\'s texture and mesh BSA\\'s with BSAOpt.\r\n\r\nNifskope:\r\n1) I used nifskope to take the alpha modifier and the \\\"effect shader property\\\" from one of the draugr weapons and used those to replace (using branch copy and branch paste) the blade of woe\\'s texture for both the hilt+blade the other... (uh, mini-scabbard?) NiTriShape.\r\n2) Within both of the aforementioned NiTriShapes, I replaced the references to the draugr weapon\\'s .dds file, and replaced it with the iron scabbard texture and the blade of woe texture that the blade originally used. Saved the nif file.\r\n\r\nCreation kit:\r\n3) Within the creation kit, I used the objects bladeofwoe, 1stpersonbladeofwoe, temperweaponbladeofwoe (for the tempering ability), and recipeweaponsteeldagger (for the smithing recipe) and duplicated them, and modified the duplicates to become \\\"ghostly blade of woe\\\" variants. \r\n4) Also attached the ghostly nif model to the objects 1stpersonghostlybladeofwoe  and ghostlybladeofwoe. Also within the interface for the \\\"ghostly blade of woe\\\" art and sounds tab, I attached a 1st person weapon object.\r\n5) ???\r\n6) Profit!\r\n\r\nSorry that it\\'s very condensed. This isn\\'t maybe the best place to write out a methodology .. if you need to ask me anything, please feel free to PM or comment or anything like that. :D",
+  "categoryId": "55",
+  "version": "",
+  "author": "Archerkb",
+  "createdUnix": "1335104602",
+  "updatedUnix": "1335104827",
+  "containsAdultContent": false,
+  "uploadedBy": "archerkb",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "55367",
+      "name": "Ghostly Blade of Woe v1",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "28",
+      "fileName": "Ghostly Blade of Woe v1-15697-1.7z",
+      "uploadedUnix": "1335104827",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/38494c4d123834d81623ff5e9390e67b413b0588d08417d3a497d4546ab1878f/analysis/1406828468/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ghostly%20Blade%20of%20Woe%20v1-15697-1.7z?fid=55367&ttl=1535780317&ri=8192&rs=8192&setec=4d1b6b921f32d3cfe36694f0e9eb9d44"
+    }
+  ]
+}

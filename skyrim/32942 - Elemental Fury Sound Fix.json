@@ -1,0 +1,32 @@
+{
+  "modId": 32942.0,
+  "modName": "Elemental Fury Sound Fix",
+  "summary": "A simple esp that will fix the elemental fury sound loop bug without muting or deleting it.",
+  "descriptionHtml": "I searched for bug fixes related to this and only found fixes that simply muted the sound. I wanted to actually create a fix for this annoying bug rather than a bandaid.\r\n\r\nProblem:\r\nStill not 100% sure but I have an idea... When players attempt to apply this shout to their weapon and the weapon is unenchantable occasionally the sound will trigger without the enchant actually being applied and as a result it will not turn off when the enchant turns off because the enchant does not exist.\r\n\r\nHow it\\'s fixed:\r\n1. Created a new keyword MagicEnchElementalFury.\r\n\r\n2. Added keyword \\\"MagicEnchElementalFury\\\" to magic effect VoiceElementalFuryEnchantment and VoiceElementalFury.\r\n\r\n3. Enabled conditions for Sound Descriptor VOCShoutFXElementalFuryEnchantmentLPSD\r\n\r\n4. Added conditions \r\n\\\"HasMagicEffectKeyword Keyword: \\'MagicEnchElementalFury\\' == 1.00 AND\\\"\r\n\r\n5. Added condition to Sound Descriptor (This condition supports the main fix.)\r\n\\\"IsWeaponOut != 0 AND\\\"\r\n\r\n-These steps were updated to show the details for 1.2 and should no longer have any problems. -Completely ready to be integrated with Unofficial Skyrim patch if the authors desired such.",
+  "categoryId": "95",
+  "version": "1.2",
+  "author": "Writhes",
+  "createdUnix": "1362691768",
+  "updatedUnix": "1363073753",
+  "containsAdultContent": false,
+  "uploadedBy": "Writhes",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000016898",
+      "name": "Elemental Fury Sound Fix",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Elemental Fury Sound Fix-32942-1-2.rar",
+      "uploadedUnix": "1363073753",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/b797d514d924c9c91ca78dff988ebe74edc55a0ceeb6b21fffad2623edfd1ffa/analysis/1407465721/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Elemental%20Fury%20Sound%20Fix-32942-1-2.rar?fid=1000016898&ttl=1535809753&ri=8192&rs=8192&setec=33a71dd95e1662e356ee4ac18e0f22f8"
+    }
+  ]
+}

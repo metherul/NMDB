@@ -1,0 +1,32 @@
+{
+  "modId": 47235.0,
+  "modName": "Aesthetic Bolt Quiver Fix",
+  "summary": "Tired of seeing my bolts travelling on my back.",
+  "descriptionHtml": "I made this mod because I started using the crossbow and I was disappointed by the quiver strolling through my back and its distance from the body when crouched.\r\n\r\nI tried several methods to fix the bug but I had various glitches that I could not bring myself.\r\n\r\nFinally I find a sort of solution when i see the mod: [url=http://skyrim.nexusmods.com/mods/5711/?tab=2&navtag=%2Fajax%2Fmodfiles%2F%3Fid%3D5711&pUp=1]Closer Bolts - Closer and Hidden Crossbow Bolts[/url] from [b]EvilDeadAsh34[/b]. \r\n\r\nSo I edited the skeleton.nif to create a new node for a special garment called \"Bolt Quiver\" in game and open the steelbolt.nif and dwarvenbolt.nif to remove the quiver and rework the arrow.\r\n\r\nThis mod hide the \"real\" bolt quiver and add a special garment that you can make at the forge in the misc section.\r\n\r\nNow the quiver is closer to your body and don't go far away when you crouch.\r\n\r\nInstallation:\r\n\r\nRequires Dawnguard\r\nAs usual, copy the content in your Data folder.\r\n\r\nIncompatibilty:\r\n\r\nUnfortunately this mod is incompatible with custom skeleton but this can be easily fixed with nifskope.\r\n\r\n",
+  "categoryId": "95",
+  "version": "",
+  "author": "Inkeri",
+  "createdUnix": "1384605007",
+  "updatedUnix": "1384604772",
+  "containsAdultContent": false,
+  "uploadedBy": "Inkeri",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000079561",
+      "name": "BoltQuiver",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "129",
+      "fileName": "BoltQuiver-47235-.rar",
+      "uploadedUnix": "1384604772",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/6396011cd416dae9d3f8c9ae7663e94aa5fa89450fa11c4a0752a1eeb064c0ec/analysis/1407794459/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BoltQuiver-47235-.rar?fid=1000079561&ttl=1535827510&ri=8192&rs=8192&setec=04477ef4319e025fb2459ecef8fbf934"
+    }
+  ]
+}

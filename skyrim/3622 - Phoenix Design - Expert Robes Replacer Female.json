@@ -1,0 +1,48 @@
+{
+  "modId": 3622.0,
+  "modName": "Phoenix Design - Expert Robes Replacer Female",
+  "summary": "This is a mod to replace the female Expert Robes. It is a phoenix-like design on black robes with gold trim.",
+  "descriptionHtml": "******\r\nUpdates\r\n> Added an alternate color scheme - black trim instead of gold.\r\n> Fixed a problem with folder arrangement in the original.\r\n\r\n*****\r\n\r\n- I am new to modding and decided to make my own design for some female college robes. It\\'s a simple retexture of the Expert Robes, with the robe colors changed to black and gold with a white phoenix design on the front and back. This is my first version.\r\n\r\n- To be clear, *this replaces all female Expert Robes in the game*.\r\n\r\n- To install just place in your Skyrim Data folder. There are two .dds files included (texture and normalmap) and a .nif (mesh). Make sure you put everything in the indicated folders.\r\n\r\n- If you are wondering why I included a .nif file:\r\nTwo sets of robes, Expert and Master Robes, share the same normalmap. I made my own normalmap for my Expert Robes and don\\'t want it to apply on the Master Robes, so I had to modify the mesh file so it points to the correct file. Just include all the files in the folder I provided and everything should work fine.\r\n\r\n- Here\\'s the console command to add a set of Expert Robes to your inventory:\r\n\r\nplayer.additem 0010D662 1\r\n\r\n- This is my first mod so feel free to comment/provide feedback. There shouldn\\'t be any bugs or issues, but please comment if you have questions. If there is any interest I might make more designs. I am open to suggestions. Thanks for checking it out!\r\n",
+  "categoryId": "60",
+  "version": "1.0",
+  "author": "gekks",
+  "createdUnix": "1323828557",
+  "updatedUnix": "1323837947",
+  "containsAdultContent": false,
+  "uploadedBy": "gekks",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "10262",
+      "name": "Phoenix Design - Female Expert Robes Replacer",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "813",
+      "fileName": "Phoenix Design - Female Expert Robes Replacer-3622.zip",
+      "uploadedUnix": "1323837877",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/f3a405797ae275d7c21599900bf95f590e16a1e121e07fdaa749d8bd8f9c05fe/analysis/1406517187/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Phoenix%20Design%20-%20Female%20Expert%20Robes%20Replacer-3622.zip?fid=10262&ttl=1535758811&ri=8192&rs=8192&setec=7d18bb4e9247be19c45794755c529522"
+    },
+    {
+      "fileId": "10263",
+      "name": "Updated Female Black Phoenix Robes",
+      "version": "1.3",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "772",
+      "fileName": "Updated Female Black Phoenix Robes-3622-1-3.zip",
+      "uploadedUnix": "1323837947",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/f0d4567899697e0366889e1e2e59c78a31384460b69502df4716c1900ebc7e85/analysis/1406517243/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Updated%20Female%20Black%20Phoenix%20Robes-3622-1-3.zip?fid=10263&ttl=1535758812&ri=8192&rs=8192&setec=9d96265e977c684782782e39a14d543c"
+    }
+  ]
+}

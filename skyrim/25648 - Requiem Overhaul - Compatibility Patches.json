@@ -1,0 +1,48 @@
+{
+  "modId": 25648.0,
+  "modName": "Requiem Overhaul - Compatibility Patches",
+  "summary": "Compatibility Patches for the Requiem Oldschool Roleplaying Overhaul by Xarrian.",
+  "descriptionHtml": "A collection of patches and fixes I have created for the Requiem Overhaul\r\n\r\n[size=4][b]Requirements for all patches[/b][/size]\r\nDawnguard \r\n[url=http://skyrim.nexusmods.com/mods/19281]Requiem - The Oldschool Roleplaying Overhaul by Xarrian[/url]\r\n\r\n\r\n[center]<<<<<<<<<<<<<<<<<<<<<<<<<<<===========================>>>>>>>>>>>>>>>>>>>>>>>>>>>[/center]\r\n\r\n[size=4][b]Classic Classes and Birthsigns by Kearsage[/b][/size]\r\n[u]Description[/u]: This mod is almost essential in my opinion. Unfortunately it breaks Requiem in several ways due to assumptions by the author. By fixing the scripts it allows CCB to be used with Requiem without issues.\r\nThis will only help with [b]NEW[/b] characters!\r\n[u]Requires[/u]: [url= http://skyrim.nexusmods.com/mods/16736]Classic Classes and Birthsigns by Kearsage[/url]\r\n[u]Install[/u]: Unpack the files into the Skyrim folder overwriting all files. [b]Ensure that ClassicClasses.esp is loaded before Requiem.[/b]\r\n\r\n\r\n[center]<<<<<<<<<<<<<<<<<<<<<<<<<<<===========================>>>>>>>>>>>>>>>>>>>>>>>>>>>[/center]\r\n\r\n[size=4][b]Karliah Armor 2 -Nexus exclusive by Hentai[/b][/size]\r\n[u]Description[/u]: Removed Enchantments from craftable version. Added requirement to recipe and classification to Leather. Replaced thieves guild armour for females.\r\n[u]Requires[/u]: [url=http://skyrim.nexusmods.com/mods/10386]Karliah Armor by Hentai[/url]\r\n[u]Recommend[/u]: [url=http://skyrim.nexusmods.com/mods/24214]Karliah HD Texture by DragonAge7[/url]\r\n[u]Install[/u]: Unpack the files into the Skyrim folder, disable the original plugin and enable KarliahArmor-balanced.esp\r\n\r\n\r\n[center]<<<<<<<<<<<<<<<<<<<<<<<<<<<===========================>>>>>>>>>>>>>>>>>>>>>>>>>>>[/center]\r\n\r\n[size=4][b]A Note on Load Order[/b][/size]\r\n99% of mods should be loaded before Requiem, things such as cosmetic mods will break Requiem in unexpected ways. Mods I have found to be safe to load after Requiem.esp\r\n\r\n...\r\nPC Exclusive Animation Path.esp\r\nPC Exclusive Animation Path - Elder Race.esp\r\nBashed Patch, 0.esp\r\nAutomatic Variants.esp",
+  "categoryId": "84",
+  "version": "0.1",
+  "author": "Shazeal Zar",
+  "createdUnix": "1350547812",
+  "updatedUnix": "1350589401",
+  "containsAdultContent": false,
+  "uploadedBy": "shazealzar",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "94402",
+      "name": "Classic Classes and Birth Signs patch",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "17",
+      "fileName": "Classic Classes and Birth Signs patch-25648-0-1.7z",
+      "uploadedUnix": "1350548009",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/40e734ba435bce3a7fd4716f048e707ce9dc9d3e25f6953a9d7be406d03b8844/analysis/1407227403/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Classic%20Classes%20and%20Birth%20Signs%20patch-25648-0-1.7z?fid=94402&ttl=1535797266&ri=8192&rs=8192&setec=b1da5ba50979786769b97be7790f63fb"
+    },
+    {
+      "fileId": "94497",
+      "name": "Karliah Armor 2 by Hentai - Balanced",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Karliah Armor 2 by Hentai - Balanced-25648-0-1.7z",
+      "uploadedUnix": "1350589401",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/3e0fa0be174958c57cc204cbf950d79a489307a6eb85db7e7a035952cfcf54fc/analysis/1407227909/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Karliah%20Armor%202%20by%20Hentai%20-%20Balanced-25648-0-1.7z?fid=94497&ttl=1535797266&ri=8192&rs=8192&setec=b9a9df3e3bff92a2e4771f1e1eb45afd"
+    }
+  ]
+}

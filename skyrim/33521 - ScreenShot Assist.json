@@ -1,0 +1,48 @@
+{
+  "modId": 33521.0,
+  "modName": "ScreenShot Assist",
+  "summary": "",
+  "descriptionHtml": "&lt;Requirements&gt;\r<br />   Skyrim 1.9.32.0\r<br />   SKSE 1_06_16 +\r<br />   Sky_UI 4.1 +\r<br />\r<br />   Installing Data folder into your Skyrim directory(on your tools or manual install).\r<br />   If you updating from older version, I recommend that make a clean data.(Deactivate &#34;SSAssist.esp&#34; and save your game once)\r<br />\r<br />　When if the keys or MCM configuration(and more) does not work, please put &#34;SSAssist.esp&#34; in upper load order.\r<br />\r<br />&lt;Description&gt;\r<br />   First, I&#39;m not good at English.\r<br />\r<br />   This mod assists for your capture the screen.\r<br />   It applies the following effect when push the key.\r<br />\r<br />[list]\r<br />\t[*]TFC Key  :  Toggle fly camera (default:F1)\r<br />\t[*]TM Key   :  Toggle menu show or hide (default:F2)\r<br />\t[*]FOV Key   :   Adjust Field of View (default:F4)\r<br />\t          Hold down the mouse wheel up and down - Change FOV between 10 to 150.\r<br />\t          Just short press - Reset default FOV.\r<br />        [*]SlowMotion Key  :  Toggle Slowmotion (default:F3)\r<br />\r<br />\t[*]Full Key        :  Fly camera, Hide menu, and Adjust fly camera speed all at once (default:Right Shift)\r<br />\t[*]Full-tfc1 Key  :  Stop time, Fly camera, Hide menu, and Adjust fly camera speed all at once (default:Right Ctrl)\r<br />[/list]\r<br />\r<br />          It will not have to enter the console commands each time for shooting.   :)\r<br />\r<br />          *Important&#33;&#33;\r<br />\tIf you toggle changed by &#34;Full Key&#34;, don&#39;t return it by &#34;Full-tfc1 Key&#34;&#33;&#33;\r<br />\tOf course, opposite pattern too.\r<br />\tIn that case, try reload your game.\r<br />\r<br />          *Details\r<br />\tYou can configure or toggle all keys. And SUCSM select between 1 to 20 from MCM.(10 is 100%)\r<br />        Change your taste.\r<br />\r<br />          *Change log\r<br />      v1.4 - Add key_toggle and SUCSM_slider on MCM. And a few script change\r<br />      v1.31 - Small script fix\r<br />      v1.3 - Fixed UFOCam in first-person-view and a part of script\r<br />      v1.2 - Fixed UFOCam cannot Z-axis move(Thank you himika&#33;&#33;)\r<br />      v1.1 - Small change(Ajust fly cam speed), and support Skyrim1.9.32\r<br />      v1.0 - First upload\r<br />\r<br />    Enjoy&#33;\r<br />\r<br />---------------------------------------------------------------------------\r<br />\r<br />   &#34;Please&#33; You are not allowed to upload files to other sites, under any circumstances.&#34;\r<br />\r<br />---------------------------------------------------------------------------\r<br />\r<br />&lt;Special Thanks&gt;\r<br />   himika - dll compiling, FOV scripting and more.\r<br />   tktk     - Adviced MCM scripting.\r<br />\r<br />   &#34;Without their advices, I could not be completed. Thanks so much&#33;&#34;\r<br /> \r<br />&lt;Credit&gt;\r<br />   Bethesda Softworks\r<br />   SKSE Team - http://skse.silverlock.org/\r<br />   Sky_UI  MCMQuickstart - https://github.com/schlangster/skyui/wiki/MCM-Quickstart\r<br />\r<br />----------------------------------------------------------------------------",
+  "categoryId": "39",
+  "version": "1.4",
+  "author": "saLa",
+  "createdUnix": "1363624351",
+  "updatedUnix": "1387042372",
+  "containsAdultContent": false,
+  "uploadedBy": "ARAKURE",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000071031",
+      "name": "for 1_8_151 Users",
+      "version": "1.4",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "39",
+      "fileName": "for 1_8_151 Users-33521-1-31.7z",
+      "uploadedUnix": "1382815812",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/f1fe85f74473a1ed57f682a7e0d4f018107fd4b5159efb6c736ea9f9a87b9ad3/analysis/1407770045/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/for%201_8_151%20Users-33521-1-31.7z?fid=1000071031&ttl=1535810703&ri=8192&rs=8192&setec=97e9242b6a077538ea2a8aef4e38128b"
+    },
+    {
+      "fileId": "1000086754",
+      "name": "ScreenShot Assist",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "47",
+      "fileName": "ScreenShot Assist-33521-1-4.7z",
+      "uploadedUnix": "1387042372",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/677227252cc2aa6113252f69fadd7398270843e82e2617a076aa0cf632d33a28/analysis/1407837103/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ScreenShot%20Assist-33521-1-4.7z?fid=1000086754&ttl=1535810703&ri=8192&rs=8192&setec=3ce71f3aa465e0f72e3215802ff9c1b0"
+    }
+  ]
+}

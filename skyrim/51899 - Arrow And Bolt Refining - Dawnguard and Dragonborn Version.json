@@ -1,0 +1,48 @@
+{
+  "modId": 51899.0,
+  "modName": "Arrow And Bolt Refining - Dawnguard and Dragonborn Version",
+  "summary": "Allows for the creation of fine, exquisite, superior, flawless, epic and legendary versions of arrows and bolts at the forge.",
+  "descriptionHtml": "Version: 0.4\r<br />\r<br />Changelog:\r<br />V0.4\r<br />-Added a fletching table behind Warmaiden&#39;s in Whiterun, near the smelter.\r<br />-Switched most arrow and bolt refining recipes to the fletching table, except for the crafting of explosive bolts which remain with the Dawnguard forge for the time-being\r<br />-Adjusted the archery skill needed to 14, 23, 40, 57, 74 and 91 for fine, superior, exquisite, flawless, epic and legendary to reflect the equivalent smithing tempering skills needed with perks\r<br />\r<br />V0.3:\r<br />-Added batch upgrading for all arrows and bolts\r<br />-Added reverse ingot crafting from billets for all ingots except daedric\r<br />-Minor bug fix of changing the iron billet crafting recipe from requiring an iron ore to requiring an iron ingot\r<br /> \r<br />V0.2: \r<br />-Added additional crafting recipes (Fine to Exquisite, Fine to Flawless, Fine to Epic, Fine to Legendary, Superior to Flawless, Superior to Epic, Superior to Legendary, Exquisite to Epic, Exquisite to Legendary, Flawless to Legendary, and stock to Superior, Exquisite, Flawless, Epic and Legendary) to eliminiate the need for sequential upgrading. Nord Hero Arrows now upgradeable from the Skyforge. \r<br />-Fixed a few bugs in recipes \r<br />\r<br />Allows for the tempering of Fine, Superior, Exquisite, Flawless, Epic and Legendary versions of each of the vanilla and DLC arrows and bolts available at a fletching table behind Whiterun, except for explosive bolts at the Dawnguard forge. Each arrow and bolt is tempered using billets and fragments of materials used to temper the armour and weapons of the same type and not have left arrows remaining. The levels that can be crafted is dependent on the archery skill you have and what perks you have unlocked for each type of arrow in the Smithing skill tree. \r<br />\r<br />Vanilla: \r<br />Ancient Nord (Steel smithing needed) \r<br />Daedric (Daedric smithing needed) \r<br />Dwarven (Dwarven smithing needed) \r<br />Ebony (Ebony smthing needed) \r<br />Elven (Elven smithing needed) \r<br />Falmer (Elven smithing needed, uses chitin scales) \r<br />Forsworn (Steel smithing needed) \r<br />Glass (Glass smithing needed) \r<br />iron (No smthing perks needed) \r<br />Nord Hero (crafted from the equivalent Ancient Nord equivalents at the Skyforge upon completing the Companion&#39;s Quests storyline, as per the other Nord Hero weapons and armour, also upgradeable at the Skyforge from lower spec arrows) \r<br />Orcish (Orcish smithing needed) \r<br />Steel (Steel smithing needed) \r<br />\r<br />Dawnguard: \r<br />Bloodcursed Elven (Elven smithing and arcane smithing perks needed) \r<br />Dragonbone (Dragon smithing needed) \r<br />Dwarven Bolt (Dwarven smithing needed) \r<br />Dwarven Exploding Bolt (Dwarven smithing needed, craftable only at the Dawnguard forge) \r<br />Steel Bolt (Steel smthing needed) \r<br />Steel Exploding Bolt (Steel smithing needed, craftable only at the Dawnguard forge) \r<br />Sunhallowed Elven (Elven smithing and arcane smithing perks needed) \r<br />\r<br />Dragonborn: \r<br />Nordic (Advanced Armors needed, uses quicksilver billets) \r<br />Riekling Spears (Steel smithing needed, uses steel billets) \r<br />Stahlrim (Ebony smthing needed, uses stahlrim shards) \r<br />\r<br />Archery skill needed: \r<br />Fine - 14 \r<br />Superior - 23\r<br />Exquisite - 40 \r<br />Flawless - 57 \r<br />Epic - 74\r<br />Legendary - 91 \r<br />\r<br />Damage increases: \r<br />Fine - +1 \r<br />Superior - +3 \r<br />Exquisite - +5 \r<br />Flawless - +7 \r<br />Epic - +8 \r<br />Legendary - +10 \r<br />\r<br />Value increases: \r<br />Fine - 15% \r<br />Superior - 30% \r<br />Exquisite - 50% \r<br />Flawless - 65% \r<br />Epic - 82% \r<br />Legendary - 100% \r<br />\r<br />Both damage and value increases are in line with the weapon tempering equivalent levels. Did not want to create ridiculously overpowered arrows, just wanted to keep things nice and simple for the timebeing and not break immersion. \r<br />\r<br />Possible changes:\r<br />-Dedicated fletching table model\r<br />-Replacement of tempering recipes with a script that might possibly be able to accommodate arrows from other mods. Research currently underway.\r<br />-Possible Dawnguard only and Dragonborn only versions of this mod, subject to demand and time constraints. \r<br />-Possible additional levels to reflect the smithing skill beyond 100 using enchantments and alchemy. Current possible titles include Mastered, Perfected and Timeless. \r<br />-Possible enhanced versions of the arrows using enhanced shafts derived from firewood and hagraven feathers. Will have to see what&#39;s possible with the Creation Kit. \r<br />-Somehow finding a way to enable the tempering of arrows and bolts at the grindstone. Try as I might, I could not find a way to enable this at all, hence why they have to be upgraded at the forge. Worst case, maybe include a custom fletching table to craft the upgrades at instead of the forge. \r<br />-Possibly replacing the billets and fragments with arrowheads and boltheads of different types of materials that are craftable at the forge instead of the smelter. Subject to clarification regarding the use of modified stock meshes, particularly the DLC components, but would be more preferable than using the billets and fragments method, IMO. \r<br />\r<br />Notes: The billets and fragments used are currently using the stock meshes of the ingots and tempering materials. Creating custom models for them or for arrow and bolt heads instead will need clarification from a legal use perspective, particularly as this mod requires the DLC components and I do not want to err on this and get on the wrong side of Bethesda&#39;s legal services as a result. \r<br />\r<br />Feedback welcomed.",
+  "categoryId": "55",
+  "version": "V0.4",
+  "author": "Notanon81",
+  "createdUnix": "1394266111",
+  "updatedUnix": "1398419475",
+  "containsAdultContent": false,
+  "uploadedBy": "Notanon81",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000101517",
+      "name": "Arrow And Bolt Refining - Dawnguard and Dragonborn Version",
+      "version": "0.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1784",
+      "fileName": "Arrow And Bolt Refining - Dawnguard and Dragonborn Version-51899-0-3.zip",
+      "uploadedUnix": "1395064197",
+      "modVersion": "0.3",
+      "virusScanUrl": "https://www.virustotal.com/file/b24b3b5925e87b97aac136bb6f281d925b8fe9f59088de0ddecdd37ef2d804e0/analysis/1407985865/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Arrow%20And%20Bolt%20Refining%20-%20Dawnguard%20and%20Dragonborn%20Version-51899-0-3.zip?fid=1000101517&ttl=1535834586&ri=8192&rs=8192&setec=8d04fc666cccbb0980c8e75c1240e2f3"
+    },
+    {
+      "fileId": "1000106467",
+      "name": "Arrow and Bolt Refining - Dawnguard and Dragonborn Version",
+      "version": "V0.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1789",
+      "fileName": "Arrow and Bolt Refining - Dawnguard and Dragonborn Version-51899-V0-4.zip",
+      "uploadedUnix": "1398419475",
+      "modVersion": "V0.4",
+      "virusScanUrl": "https://www.virustotal.com/file/bc577edda39feb33be467ef95832e17d4a20f9574f1a2828f66301ca1f11b3b5/analysis/1408040285/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Arrow%20and%20Bolt%20Refining%20-%20Dawnguard%20and%20Dragonborn%20Version-51899-V0-4.zip?fid=1000106467&ttl=1535834586&ri=8192&rs=8192&setec=103c40f8a9f41a1d8cc8fcdbd0cda275"
+    }
+  ]
+}

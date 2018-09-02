@@ -1,0 +1,48 @@
+{
+  "modId": 22016.0,
+  "modName": "Vampire Kinship",
+  "summary": "Simple mod that adds the player to the vampire factions so vampires will recognize you as one of them and not attack on sight.",
+  "descriptionHtml": "[b]-----Description-----[/b]\r\nIf you\\'ve ever been annoyed by vampires attacking you on sight despite being a vampire yourself, this is the mod for you.\r\nIt adds the player to the vampire faction so they\\'ll recognize you as their ally. All the factions allied with vampires will also be friendly to you.\r\n\r\n[b]-----Installation-----[/b]\r\nEither download and install with the NMM, or download manually, extract, and drop the files in your skyrim data folder.\r\n\r\nTo ensure it works, load it after any other vampire mods.\r\n\r\nIn order for the change to take effect, your vampire stage must go up or down (either feed, or wait a day without feeding).\r\n\r\n[b]-----Conflicts-----[/b]\r\nRight now, this mod will conflict with anything that edits the script that manages the players vampire stage.\r\nIt [i]should[/i] work with dawnguard, though it wasn\\'t built to require it, so there may be a handful of dawnguard locations/vampire dens where this mod has no effect (haven\\'t encountered any in my testing, but I can\\'t promise they don\\'t exist).\r\n\r\n[b]-----Future Plans-----[/b]\r\nI\\'m pretty new at modding, so this mod is most definitely not perfect. Some notable planned changes (as soon as I both have time and can figure out how):\r\n1) Move the changes into their own script to avoid conflicts with other mods.\r\n2) Make the script independent of the vampire stages so you won\\'t have to starve/feed for it to take effect.\r\n3) Prevent vampire allies from being player allies when it doesn\\'t make sense for them to be.\r\n\r\n[b]-----Important Notes-----[/b]\r\nAs mentioned above, I\\'m new at modding, so comments/suggestions/advice is very much appreciated and would be a huge help to improving this mod.",
+  "categoryId": "25",
+  "version": "1.2",
+  "author": "NightCrest",
+  "createdUnix": "1344480544",
+  "updatedUnix": "1344805824",
+  "containsAdultContent": false,
+  "uploadedBy": "NightCrest",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "81131",
+      "name": "Vampire Kinship v1-2 BSA",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Vampire Kinship v1-2 BSA-22016-1-2.7z",
+      "uploadedUnix": "1344805780",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/b7025e2724d6d4d55fec987694a872da3bed69c8f690f06701441432efb32699/analysis/1407092223/",
+      "changelogHtml": " Cleaned up the mod quite a bit, hopefully fixed the issue with thralls. <br/> \n Added a non-bsa version. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vampire%20Kinship%20v1-2%20BSA-22016-1-2.7z?fid=81131&ttl=1535791307&ri=8192&rs=8192&setec=65e49fe5178dea4353dca35b1467f505"
+    },
+    {
+      "fileId": "81132",
+      "name": "Vampire Kinship v1-2 Non-BSA",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Vampire Kinship v1-2-22016-1-2.7z",
+      "uploadedUnix": "1344805824",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/f2b4679e56875cd2b2c4aaf2f553673a196e13530c9eb7f321156b94d8ccd9e9/analysis/1407092223/",
+      "changelogHtml": " Cleaned up the mod quite a bit, hopefully fixed the issue with thralls. <br/> \n Added a non-bsa version. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vampire%20Kinship%20v1-2-22016-1-2.7z?fid=81132&ttl=1535791307&ri=8192&rs=8192&setec=7e49c712c19e73222d02b3e385db1af9"
+    }
+  ]
+}

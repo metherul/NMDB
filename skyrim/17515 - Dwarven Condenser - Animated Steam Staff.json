@@ -1,0 +1,48 @@
+{
+  "modId": 17515.0,
+  "modName": "Dwarven Condenser - Animated Steam Staff",
+  "summary": "Animated custom dwemer staff that shoots the steam from the Centurions.",
+  "descriptionHtml": "Features:\r<br />1. Custom Model with animation for an exciting and unique addition to the game.\r<br />2. Custom enchantment that fires the Dwarven Steam Breath\r<br />3. Balanced and effected for mid-game to late-game play (will make adjustments as needed)\r<br />4. Hand-Placed in the world with custom notes to explain the lore behind the object (locations at end of post, to avoid spoilers)\r<br />\r<br />Updates:\r<br />1.1: Made the staff last longer (it lasts as long as vanilla staffs)\r<br />\r<br />Bugs:\r<br />1. The steam effect disappears after using it for a certain amount of time (a second or two); however, the weapon still works and makes steam where it hits.\r<br />2. It gets a little wonky in kill cams, but this seems to be a problem with Skyrim, as most spells that shoot a damaging stream (like flames) seem to have this problem.\r<br />\r<br />Future Plans: \r<br />New Texture\r<br />\r<br />[youtube]-Jcys2NRoGc[/youtube]\r<br />\r<br />This is the first mod I made and eventually I plan to do a lot more with the model, but for now I am happy with this version and while I want to do more with this staff it will likely be a separate mod.\r<br />\r<br />Note: The steam disappearing is a problem with the original steam effect and I have yet to find a single modder who has found the source and/or fixed it. I did fix a few problems that others ignored though, like the sounds cutting out, and am overall proud of my work adapting the effect to the staff. I think I narrowed the source of the issue to the steam effect&#39;s nif (referenced in the projectile file for the dwarven steam breath) so if anyone who is experienced with nifs would like to check it out that would be great. Also, the current texture is a placeholder and if any experienced texture artists would like to do a texture for it (mainly the spinning bits need work) I can give you the correct texture files to do one (the current version uses the wrong template, but I am a terrible artist and it looks ok enough until I can get a new one).\r<br />\r<br />Locations:\r<br />1. The Museum in Markarth, for thief types.\r<br />2. Blackreach, at the throne above the dwemer city in there\r<br />3. Treva&#39;s Watch, in a room at the top of a spiral stair case, by an enchanter.\r<br />\r<br />[url=http://steamcommunity.com/sharedfiles/filedetails/?id=73200832][img]http://i686.photobucket.com/albums/vv226/Oraln/SteamButton.png[/img][/url]\r<br />\r<br />My other Mod: \r<br />[url=http://skyrim.nexusmods.com/mods/17279][img]http://i686.photobucket.com/albums/vv226/Oraln/DoubleHandAxeButton.png[/img][/url]",
+  "categoryId": "55",
+  "version": "1.1",
+  "author": "Oraln",
+  "createdUnix": "1337734324",
+  "updatedUnix": "1342923987",
+  "containsAdultContent": false,
+  "uploadedBy": "Oraln",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "63075",
+      "name": "Dwarven Condenser",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "85",
+      "fileName": "Dwarven Condenser-17515-1-0.rar",
+      "uploadedUnix": "1337734803",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/eb91c954cfb0f584aab95155c21e7869ae2c57dcafcc987e3725ba38ed2b9a67/analysis/1406910004/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dwarven%20Condenser-17515-1-0.rar?fid=63075&ttl=1535783624&ri=8192&rs=8192&setec=421fb5aab6c44d35b019da7c1a725715"
+    },
+    {
+      "fileId": "75851",
+      "name": "Dwarven Condenser",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "85",
+      "fileName": "Dwarven Condenser-17515-1-1.rar",
+      "uploadedUnix": "1342923987",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c6b86857958446fddb274f4917413a4743623dc5dbaa0743b087c9dea372d256/analysis/1407038105/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dwarven%20Condenser-17515-1-1.rar?fid=75851&ttl=1535783624&ri=8192&rs=8192&setec=4f62d3f0d62f5299ba93b64e4c97fdfd"
+    }
+  ]
+}

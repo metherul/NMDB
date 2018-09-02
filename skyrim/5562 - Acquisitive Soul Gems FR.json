@@ -1,0 +1,48 @@
+{
+  "modId": 5562.0,
+  "modName": "Acquisitive Soul Gems FR",
+  "summary": "Ce plugin va débuguer les gemmes de telle façon que lorsqu’elles sont remplies avec le bon type d\\'âmes.",
+  "descriptionHtml": "Acquisitive Soul Gems FR\r\n\r\nEnglish version of this mod : http://www.skyrimnexus.com/downloads/file.php?id=5312\r\n\r\nLOG :\r\n-------\r\nv2.1 : Ce mod permettait dans sa version 1 aux gemmes de garder les âmes absorbées même lorsqu\\'on les range longtemps dans un coffre où par terre permet maintenant aussi dans sa version 2.1 de mettre les bonnes âmes dans les bonnes gemmes ! Si vous n\\'êtes pas intéressé par cette fonctionnalité , rester en version 1 pour juste régler le bugs des gemmes se déchargeant.\r\n\r\nExplication complète :\r\n--------------------------------\r\n\r\nCe plugin va débuguer les gemmes spirituelles de telle façon que lorsqu’elles sont remplies avec le bon type d\\'âmes ( par exemple une âme commune dans une gemme ordinaire , une âme insignifiante dans une gemme insignifiante  >< par opposé d\\'une âme insignifiante dans une gemme ordinaire .. ),l\\'âme va rester à l\\'intérieure même si vous laisser la gemme longtemps en dehors de votre inventaire ( par exemple sur le sol ou dans un meuble ).\r\n\r\nElles vont correctement s\\'empiler dans l\\'inventaire et auront aussi le même prix que les gemmes remplies que vous pouvez trouver dans le monde de skyrim. \r\n\r\nEn effet , ce que ce plugin fait , c\\'est de remplacer les gemmes remplies par vos soins par celles normalement trouvées dans le jeu et qui ne perdent pas leurs âmes au bout d\\'un certain temps.\r\n\r\nFonctionne très bien avec le mod \\\"smart-souls\\\" qui permet de remplir les gemmes UNIQUEMENT avec les âmes correctes. ( Mais ce mod est rendu désuet par la version 2.1 d\\'acquisitive soul gems qui fait la même chose sans devoir passer par skse ;) ).\r\n\r\nSmart Souls peut être téléchargé ici :\r\n\r\nhttp://forums.bethsoft.com/topic/1300172-rel-smart-souls/\r\n\r\nAttention !\r\n\r\nDepuis la version 2.1 d\\'acquisitive soul gems , il se charge de faire la même chose que smart-souls lui même ! Sans aucuns besoin de skse ;). (il vaut mieux le dire plusieurs fois :p).\r\n\r\nInstallation:\r\n\r\nPlacez les fichiers contenus dans l\\'archive dans votre répertoire Skyrim/Data. Fonctionne avec le Nexus Mod Manager.\r\n\r\nCompatibilité :\r\n\r\nCe mod change les versions vides des gemmes insignifiantes , inférieure , ordinaires et supérieures. Donc tous les mods qui modifient ces objets risquent fortement d\\'être incompatibles. Ce mod ne change pas les version sublimes et noire car elles n\\'ont pas ce problème dans le jeu vanilla.\r\n\r\nAvec la version 2.1 , il est déconseillé d\\'utiliser smart-souls car la fonctionnalité apportée par celui-ci est directement comprise dans acquisitve soul gems 2.1 ;).\r\n\r\nCredits :\r\n\r\nbluedanieru : For this fantastic mod / Pour ce mod fantastique.\r\nHereticus : For his french translation / Pour sa traduction en français.",
+  "categoryId": "95",
+  "version": "2.1",
+  "author": "bluedanieru and Hereticus",
+  "createdUnix": "1325941139",
+  "updatedUnix": "1330506702",
+  "containsAdultContent": false,
+  "uploadedBy": "hereticus",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "17496",
+      "name": "Acquisitive Soul Gems FR",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Acquisitive Soul Gems FR-5562.zip",
+      "uploadedUnix": "1325941256",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/a2e8501ec545404d798a108a88c6d0c5ed54364baa1f56e70455a533f33bcb1b/analysis/1406590297/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Acquisitive%20Soul%20Gems%20FR-5562.zip?fid=17496&ttl=1535762362&ri=8192&rs=8192&setec=3660fe0d5bff0f9820b0e8374c409971"
+    },
+    {
+      "fileId": "38368",
+      "name": "Acquisite soul gems 2-1 FR",
+      "version": "2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Acquisite soul gems 2-1 FR-5562-2-1.7z",
+      "uploadedUnix": "1330506702",
+      "modVersion": "2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/0b4c6bfa015f937a93484e6970f279477435b0709d0150cf2085747f63dd5985/analysis/1406720883/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Acquisite%20soul%20gems%202-1%20FR-5562-2-1.7z?fid=38368&ttl=1535762362&ri=8192&rs=8192&setec=d353b5128088cbdfc605dca99763cd0c"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 27663.0,
+  "modName": "3rd person camera with static zoom for archer",
+  "summary": "## Obsolete get \\'Customizable Camera by Arindel\\' instead: http://skyrim.nexusmods.com/mods/37347/\r\n\r\nStatic zoom, third person camera settings for archers.",
+  "descriptionHtml": "## Obsolete get \\'Customizable Camera by Arindel\\' instead: http://skyrim.nexusmods.com/mods/37347/\r\n\r\nMoves 3rd person camera to approximately eye hight when weapon is sheathed.\r\nStops camera from changing zoom when unsheathing weapon.\r\nWhen weapon is unsheathed, moves the camera approximately above the arrow (line of sight).\r\n\r\nVanilla settings are way off to the left of the actual arrow, resulting in the aim being off by quite a bit horizontally when firing at _very_ close objects, the aim will still be off by a bit on the vertical axis or else the camera would need to be placed behind the player\\'s back in shoulder hight, only remedy for this is to offset the camera to the side of the player, and then you\\'r back to aim being way off for close targets.\r\n\r\nIf you don\\'t like the vanilla arrow trajectory, you might want to try:\r\nProper Aiming by Arindel: http://skyrim.nexusmods.com/mods/13652\r\n\r\n\r\nAdding this to your skyrim.ini is highly recommended if you have not already done so. It allows your arrows to kill stuff further away, instead of the default where they just pass through things far away.:\r\n\r\n[Actor]\r\nfVisibleNavmeshMoveDist=14000.0000",
+  "categoryId": "77",
+  "version": "1",
+  "author": "Andy",
+  "createdUnix": "1354403144",
+  "updatedUnix": "1354403409",
+  "containsAdultContent": false,
+  "uploadedBy": "AndyMan1",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "102651",
+      "name": "3rdPersonArcherStaticZoom",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "3rdPersonArcherStaticZoom-27663-1.rar",
+      "uploadedUnix": "1354403409",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/538e26d54fa389fcdfc48f779b8a040055748562b0a1fdc3716829f89de0328e/analysis/1407287552/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/3rdPersonArcherStaticZoom-27663-1.rar?fid=102651&ttl=1535800547&ri=8192&rs=8192&setec=d82b4947d4fd0ec24765df619bfc23af"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 78826.0,
+  "modName": "Cobb Dialogue Database Processor",
+  "summary": "Tools to create a database of Skyrim dialogue and then search by word and voicetype.\r<br />\r<br />Files are provided as is.",
+  "descriptionHtml": "[color=#DDCCBB][size=5][b]Cobb Dialogue Database Processor[/b][/size][/color]\r<br />\r<br />I built this tool for my own use, so it&#39;s [i]significantly[/i] less polished than my more public-minded works, but I figure people may still get some use out of it. This upload consists of:\r<br />\r<br />[list]\r<br />[*]A TES5Edit script that can export all dialogue in selected quests as an XML dataset. A list of voicetypes used will also be exported.\r<br />\r<br />[*]A web page (though it should run locally on your hard drive) that can load that dataset, and convert it to something indexed as JSON; the tool can then load that JSON and search all INFOs by word and voicetype(s).\r<br />[/list]\r<br />\r<br />[size=4][color=#DDCCBB][b]Caveats[/b][/color][/size]\r<br />\r<br />This is one of my personal tools and as such, it is provided as-is. I may fix bugs or provide support on request, but in general I&#39;m going to be a lot less keen on fixing this thing than I would be for my public works.\r<br />\r<br />These tools were created specifically for Skyrim Classic, and are not guaranteed to work on Fallout 4 or Skyrim Special. Tests with Fallout 4 missed 90% of its dialogue, owing to the different dialogue system used there.\r<br />\r<br />The web page tool was developed for Firefox and has only been tested in that browser. I can&#39;t guarantee stable or accurate behavior on other browsers.\r<br />\r<br />Converting the dataset from XML to JSON is a performance-intensive process and will likely hang Firefox for a little bit. A JSON dataset of all vanilla and DLC dialogue is 34MB, and the conversion process essentially involves telling Firefox to slam all of that data into a single textbox. Jamming huge amounts of data into the DOM is... not nice.\r<br />\r<br />(No, I&#39;m not going to just upload the JSON file for you. I don&#39;t feel comfortable uploading a full dump of all dialogue in a copyrighted AAA game and its paid DLCs.)",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "DavidJCobb",
+  "createdUnix": "1474255891",
+  "updatedUnix": "1474255746",
+  "containsAdultContent": false,
+  "uploadedBy": "DavidJCobb",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000221335",
+      "name": "Cobb Dialogue Database Processor",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "18",
+      "fileName": "Cobb Dialogue Database Processor-78826-1-0.rar",
+      "uploadedUnix": "1474255746",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c8507d07c51b08ffdaae7e6927a4507761a72d1f771de31bd3aa76c876ffcf4e/analysis/1474255803/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Cobb%20Dialogue%20Database%20Processor-78826-1-0.rar?fid=1000221335&ttl=1535867533&ri=8192&rs=8192&setec=2658cc2abae98991da53cf9e38cea4b8"
+    }
+  ]
+}

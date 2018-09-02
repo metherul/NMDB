@@ -1,0 +1,32 @@
+{
+  "modId": 56934.0,
+  "modName": "Disable Heal Rate",
+  "summary": "Effectively disables health regen from the game",
+  "descriptionHtml": "-------*UPDATE 8/31/2014*------\r<br />\r<br /> - I just learned that this mod is ineffective; from somewhere in between level 60 and level 70 (I didn&#39;t notice exactly when) the health regen came back. I tried to fix it several times with no luck, it seems to be hardcoded after you reach a certain number of hitpoints, which judging from the level, would appear to be around 400 hp OR it is reset after the 65 hours of play mark. It could a result of my other mods, I don&#39;t know. Just an FYI.\r<br />\r<br />------------------------------------\r<br />\r<br />This is a file that *should* effectively negate health regeneration effects.\r<br />\r<br />I have thoroughly played through Skyrim with this mod and it works for me. I have tried other mods and eventually the regen comes back at level 50 for some reason. This has stopped that from happening to me, and it should likewise do the same for you.\r<br />\r<br />****Why make health regen stop?****\r<br />None of my enemies regenerate health while hiding behind a rock; why should I?\r<br />\r<br />###IMPORTANT NOTE###\r<br />\r<br />I do NOT RECOMMEND downloading this mod if you play Argonian, as it will 100% break the Histskin greater power. Then again, if you are playing Argy, chances are you wouldn&#39;t be looking here anyways.\r<br />\r<br />This also breaks enchantments that regen health. Regen stamina and Magicka are unaffected.\r<br />\r<br />###ANOTHER IMPORTANT NOTE###\r<br />Restoration spells still work, so, don&#39;t worry about that. I basically play as Paladin on my Skyrim game so trust me; healing spells still work.\r<br />\r<br />***Installation***\r<br />\r<br />Drag and drop the .esp file into your data directory.\r<br />\r<br />Included is a batch file, called &#34;NoHealPlz&#34; Leave this is your MAIN Skyrim directory folder. (Where you see icons like Archive and SkyrimLauncher and stuff like that)\r<br />\r<br />The batch file must be activated in game; luckily, this is super duper easy.\r<br />\r<br />While in game, open up the console command by pressing ` (its next to the 1 key)\r<br />\r<br />You will now enter an alternate dimension where all time stops. Much like using the menu. then, type EXACTLY this:\r<br />\r<br />bat nohealplz\r<br />\r<br />There. Job done.\r<br />\r<br />Enjoy. Thanks for Downloading&#33;",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "DaveEscape",
+  "createdUnix": "1407785293",
+  "updatedUnix": "1407785290",
+  "containsAdultContent": false,
+  "uploadedBy": "DaveEscape",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000121511",
+      "name": "NoHealRate",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "NoHealRate-56934-1-0.rar",
+      "uploadedUnix": "1407785290",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a6be8c9c1a519582f007f7efcb8eafc9eea59d6d7dbc74f0a593f9ecc2b7d5ac/analysis/1407785363/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NoHealRate-56934-1-0.rar?fid=1000121511&ttl=1535842597&ri=8192&rs=8192&setec=8d8af64fbf70ff3c08fa53565b2e4c15"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 36438.0,
+  "modName": "MultiSack",
+  "summary": "With this MOD you can pack items up to multiple knapsack tokens. Easily you can make item groups, extract to any containers, or pack up container into knapsack tokens again. THIS MOD REQUIRES SKSE.",
+  "descriptionHtml": "[u][b]What\\'s This?[/b][/u]\r\nWith this MOD you can pack items up to multiple knapsack tokens. Easily you can make item groups, extract to any containers, or pack up container into knapsack tokens again. THIS MOD REQUIRES SKSE.\r\n\r\n[u][b]How to Use[/b][/u]\r\n[list=1]\r\n[*]Create “Pouch” item at tanning lack from 2 leather and 4 leather strips.\r\n[*]You will get distinguishable Pouch item like “Pouch A” if creation was successful. Drop “Pouch A” to the ground.\r\n[*]Knapsack-form container shows up. Open it and put your items in.\r\n[*]You can see “Pouch A” itself inside “Pouch A” container. If you bring it into your inventory, the knapsack will disappear and total weight will be calculated (it takes a second or so). You will have “Pouch A” again in your inventory, and it has adequate weight of total items inside.\r\n[*]If you bring items other than “Pouch A” from the pouch, the knapsack will still be there on the ground. You can use this knapsack as private container (at least for a while – it might not be safe against cell respawn).\r\n[/list]\r\n\r\n[u][b]Other Uses[/b][/u]\r\n[list]\r\n[*]If you use “Pouch A” in your inventory, “Pouch A” inventory menu will show up after you close main inventory menu. You can manipulate items in it. If you move “Pouch A” itself into “Pouch A” in this situation, items in “Pouch A” will go back into your main inventory.\r\n[*]If you put “Pouch A” into OTHER containers, a prompt will show up asking if you want to extract items in “Pouch A” into the container. If you chose “Yes”, all items in “Pouch A” go into the container and “Pouch A” becomes simple token again. You can merge Pouches and any containers by this function.\r\n[*]If you bring “Pouch A” from OTHER containers, a prompt will show up asking if you want to pack all items in the container into “Pouch A” knapsack. You can pack any containers to one Pouch by this function.\r\n[/list]\r\n\r\n[u][b]Limitations[/b][/u]\r\n[list]\r\n[*]Maximum number of Pouches you can utilize as container is 16. \r\n[*]To calculate weight and reflect inventory change, close inventory menu manually.\r\n[/list]\r\n\r\n[u][b]Lost and Found[/b][/u]\r\nIf you lost Pouch token which contain your items, open console and do [i]COC MultiSackWorldExterior[/i], then find your lost Pouch.\r\nIf you lost Pouch itself somewhere, that\\'s a pity. [i]SQV MultiSackQuest[/i] and one of \\\"ReservedKnapsack\\\" Refs might help.\r\n\r\n[u][b]Modding[/b][/u]\r\nKnapsack mesh file is placed at Meshes\\\\Clutter\\\\Containers\\\\MiscPouch01.nif.\r\nReplace this file if you have nicer mesh of miscellaneous pouch.\r\n\r\n[u][b]Version History[/b][/u]\r\n[list]\r\n[*]2013.5.25 – 1.0: initial.\r\n[/list]\r\n",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "wgstein",
+  "createdUnix": "1369574412",
+  "updatedUnix": "1369574087",
+  "containsAdultContent": false,
+  "uploadedBy": "wgstein",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000031525",
+      "name": "MultiSackV1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "52",
+      "fileName": "MultiSackV1-36438-1-0.zip",
+      "uploadedUnix": "1369574087",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ab539a0b2b7f235046d92b0a63b138d8fb103a76c3ac6cc5b49b1c687f56b2df/analysis/1407582274/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MultiSackV1-36438-1-0.zip?fid=1000031525&ttl=1535815623&ri=8192&rs=8192&setec=7b6a5e8d7dde58cd7469d20b1e57d676"
+    }
+  ]
+}

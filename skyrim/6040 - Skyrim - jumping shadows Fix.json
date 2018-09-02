@@ -1,0 +1,32 @@
+{
+  "modId": 6040.0,
+  "modName": "Skyrim - jumping shadows Fix",
+  "summary": "Skyrim - how to fix the jumping steps the sunshadows do\r\nhere is how to fix them to move smooth... almost realtime !\r\ndownload my comparison clip here and see for your self or:\r\nfor better quality view it here:\r\nhttp://youtu.be/gyo5Cki0hJw",
+  "descriptionHtml": "This is for all of you who do not yet know how smooth the Sunshadows in Skyrim can move...\r\n\r\ni turned the timescale to 2000 so you see it moving faster\r\n\r\nhere is the fix... it has to be addet into your SKYRIM.INI ! (not SkyrimPrefs...!) IMPORTANT!\r\n\r\nOpen your Skyrim.ini with editor (find it in C:\\\\Users\\\\xxxxxxx\\\\Documents\\\\My Games\\\\Skyrim)\r\nand just add this under [Display]:\r\n\r\nfSunShadowUpdateTime=0.0025\r\nfSunUpdateThreshold=0.0025\r\nfShadowBiasScale=0.6\r\n\r\nYou may play with the values yourself... i found this were best for me tough... :)\r\n\r\nthat should be like almost realtime shadow movements now...\r\n-- no FPS loss for me as far as i can tell...\r\nbut keep in mind that this makes the enging render the shadows almost instantly...\r\nyou might need a Highend Rig... -- Please someone comment with low/mid range pc\r\n\r\ni love it these way much more... http://youtu.be/gyo5Cki0hJw\r\n\r\nEDIT: i know this has been in some guides... but still so many do not know this special part of editing the movement of shadows...\r\n\r\ni do not deserve any credit other than telling you folks about how to...\r\ni do not know who \\\"invented\\\" this codelines... guess it was someone over at Bethesta... correct me if i\\'m wrong...",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "Smartman",
+  "createdUnix": "1326424654",
+  "updatedUnix": "1326425045",
+  "containsAdultContent": false,
+  "uploadedBy": "smartman",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "19296",
+      "name": "Skyrim - jumping shadows Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11996",
+      "fileName": "Skyrim - jumping shadows Fix-6040-1-0.rar",
+      "uploadedUnix": "1326425045",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0db5721f0dd55cba11f995508c9ecb4243f51bbc785c91d8fd371ebc53b5d790/analysis/1406606592/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20-%20jumping%20shadows%20Fix-6040-1-0.rar?fid=19296&ttl=1535763215&ri=8192&rs=8192&setec=2ea54e81e7e3c1affceab97b559691c9"
+    }
+  ]
+}

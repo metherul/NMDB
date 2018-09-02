@@ -1,0 +1,48 @@
+{
+  "modId": 8832.0,
+  "modName": "Realistic Eye Lighting",
+  "summary": "This mod gives adds more realistic lighting to the eyes to give life to your characters.",
+  "descriptionHtml": "This mod gives adds more realistic lighting to the eyes to give life to your characters. I made this mod because I always thought the characters\\' eyes were flat and lifeless. I encourage you to install this mod and take note of the difference it makes; it\\'s hard to judge from pictures.\r\n\r\nThis mod covers the following races: human, orc, elf.\r\n\r\nI highly recommend installing [url=http://skyrim.nexusmods.com/downloads/file.php?id=1430]Eyes Skyrim[/url]. I switched around to some of the other eye texture mods and this one really lets the new eye lighting shine. This mod does [i]not[/i] have eye textures included, only normal maps so feel free to experiment with other eye texture mods that are replacers (.esp eye texture mods will need compatibility updates, please report any popular ones that you would like to see work with this mod)\r\n\r\nChange log:\r\n1.3 - Fixed texture set issue in the .esp file - no more invisible Orc eyes.\r\n\r\n1.2 - Regenerated facegendata to fix the infamous blue-beard issue.\r\n\r\n1.1 - Reduced the size of the normal maps for the eyes. Placed the esm file in the data folder and renamed it to make future upgrades easier.\r\n\r\n\r\nInstallation:\r\nCopy and paste in the main skyrim directory. From the launcher, enable: RealisticEyeLighting.esp\r\n\r\nUninstallation:\r\nDelete the esm, meshes, and textures.\r\n\r\nFor the screenshots, I used:\r\n[url=http://skyrim.nexusmods.com/downloads/file.php?id=1430]Eyes Skyrim[/url]\r\n[url=http://skyrim.nexusmods.com/downloads/file.php?id=3563]Coverwomen[/url]\r\n\r\n\r\nCompatibility:\r\nI\\'ve included a smoother version of the standard eye normal map. Other eye texture mods may overwrite it, but that is not the texture used for lighting and can be overwritten without harm if you wish.\r\n\r\nThis mod uses updated facegen data to allow the NPC\\'s to use the new textures. I will try to keep an eye out for other mods that update facegen data, but if anyone sees one, please let me know and I will see what I can do do work with that mod to ensure compatibility.\r\n\r\nAny other modder that needs to update facegen data can load my esm in the creation kit when they get to the export new facegen data phase of their mod. Send me a message and we can work it all out.",
+  "categoryId": "62",
+  "version": "1.3",
+  "author": "Risuun",
+  "createdUnix": "1328930047",
+  "updatedUnix": "1329719935",
+  "containsAdultContent": false,
+  "uploadedBy": "Risuun",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "34105",
+      "name": "RealisticEyeLighting_UPDATE_1_3",
+      "version": "1.3",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "RealisticEyeLighting_UPDATE_1_3-8832-1-3.7z",
+      "uploadedUnix": "1329719743",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/cfe58b9bcff7b3b20aa01db7a0a1eaeb74decfc4746ab5e31dfecedba87a3192/analysis/1406697822/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/RealisticEyeLighting_UPDATE_1_3-8832-1-3.7z?fid=34105&ttl=1535767918&ri=8192&rs=8192&setec=2bdc7fb25aeea545423837f7a2c399da"
+    },
+    {
+      "fileId": "34107",
+      "name": "RealisticEyeLighting_1_3",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "37903",
+      "fileName": "RealisticEyeLighting_1_3-8832-1-3.7z",
+      "uploadedUnix": "1329719935",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/43b35ef1a5357c048a6905da30861bacf6c0f98b4aed0449daa26db53b565b94/analysis/1406697858/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/RealisticEyeLighting_1_3-8832-1-3.7z?fid=34107&ttl=1535767919&ri=8192&rs=8192&setec=63ef1ce80a0d8b76e57690e824f2ae53"
+    }
+  ]
+}

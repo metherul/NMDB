@@ -1,0 +1,32 @@
+{
+  "modId": 78909.0,
+  "modName": "Swiftshader .DLL setup for FPS boost",
+  "summary": "The Swiftshader .DLL streamlines rendering and may give a performance boost to your Skyrim experience.  DLL file only, instructions included.  So simple a skeever could use it.",
+  "descriptionHtml": "What is the Swiftshader .DLL?\r<br />-----------------------------\r<br />The SwiftShader software GPU toolkit is a modular system capable of supporting 3D rendering through a variety of possible APIs and on several different hardware and operating system configurations. For example, the SwiftShader demo build includes support for DirectX® 9 Shader Model 3.0 on 32 and 64 bit Windows®.\r<br />\r<br />\r<br />\r<br />In English please?\r<br />------------------\r<br />Depending on your computer setup it may boost your FPS.  It does this by not drawing things if they are not visible.  It also uses the CPU to do graphics rendering on systems without a lot of VRAM.\r<br />\r<br />\r<br />\r<br />How do I use it?\r<br />----------------\r<br />There are a couple different ways you get the .DLL to load up when you fire up Skyrim.  The .DLL by default was named &#34;d3d9.dll&#34; so if you do not have a .DLL file of this name in your Skyrim folder, you can name it this and it will load when Skyrim does.  Before I got ENBoost this is how I made it work.\r<br />\r<br />You could also rename swiftshader.dll to &#34;d3dx9_42.dll&#34; if you don&#39;t already have a .DLL of this name in your Skyrim folder, this will load it up with Skyrim also.  However if you have any SKSE mods that need to be preloaded when Skyrim runs this file may already exist for you, and you do NOT want to overwrite/replace it.\r<br />\r<br />If you are using ENBoost or an ENB, you can set up the [PROXY] section of your enblocal.ini file (in the Skyrim directory) to look like this:\r<br />\r<br />[PROXY]\r<br />EnableProxyLibrary=true\r<br />InitProxyFunctions=true\r<br />ProxyLibrary=swiftshader.dll\r<br />\r<br />This is how I currently run it and it works great.  I have a very heavily modded Skyrim (350+ plugins, dozens of hires texture mods, etc.) and this .DLL takes me from &#34;slideshow&#34; to &#34;smooth&#34;.  Not sure exactly how much of an FPS boost I&#39;m getting, but it&#39;s significant and noticeable.  I run Skyrim on a Samsung ATIVBook 8, btw. \r<br />\r<br />\r<br />\r<br />It doesn&#39;t seem to do anything for me.\r<br />--------------------------------------\r<br />This is the Swiftshader .DLL file that I use on an 64-bit Windows 10 install.  Use Google if you have a 32-bit system and my .DLL doesn&#39;t work for you, there are several different versions of the Swiftshader .DLL available for download.\r<br />\r<br />\r<br />\r<br />You have saved my life, mel&#33;\r<br />----------------------------\r<br />I know.  Repay me with your soul, or lots of presents.",
+  "categoryId": "28",
+  "version": "3.0",
+  "author": "Melvinius",
+  "createdUnix": "1474603760",
+  "updatedUnix": "1474603757",
+  "containsAdultContent": false,
+  "uploadedBy": "melvinius",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000221752",
+      "name": "Swiftshader .DLL",
+      "version": "3.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2065",
+      "fileName": "Swiftshader .DLL-78909-3-0.zip",
+      "uploadedUnix": "1474603757",
+      "modVersion": "3.0",
+      "virusScanUrl": "https://www.virustotal.com/file/fb87814e357484fdba13f633e40932c7e609ce17b4fa5a2280e0d616656760d3/analysis/1474603803/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Swiftshader%20.DLL-78909-3-0.zip?fid=1000221752&ttl=1535867603&ri=8192&rs=8192&setec=0cb7193e21ae9cb2e6f00eba26859043"
+    }
+  ]
+}

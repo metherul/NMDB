@@ -1,0 +1,48 @@
+{
+  "modId": 51595.0,
+  "modName": "No Enchant Shaders or Sounds",
+  "summary": "Removes the membrane shader and unsheathing sound from generic vanilla enchantments.",
+  "descriptionHtml": "If you&#39;re like me you&#39;re probably attractive, also you probably like things to be simple and straightforward. I&#39;ve seen a mod that does something similar, and I personally used it for a while. Unfortunately it changed much more than what was advertised on the box, which I didn&#39;t like.\r<br />\r<br />This removes the unsightly (in my opinion anyway) generic shader effects from weapons and armors such as you would craft at an enchanting table, and also removes the unsheathing sound (you won&#39;t hear a sizzle from your fire weapon when you draw it for instance). This does not alter any magic effects, spells, sound files, etc. Only the actual shader entries (which also determine the unsheathing sound if you weren&#39;t aware), as such the only compatibility issues this mod should have is with mods that also alter vanilla enchant shaders, in which case I suggest you load this mod before them otherwise it renders them pointless. This mod also does not alter unique shaders like those belonging to Windshear, Dragonbane, Bound Weapons, etc.\r<br />\r<br />This mod also does not change the hit effect art for alchemical effects (like resist fire) or from spells (like Oakflesh), this ONLY applies to weapon and armor enchantments.",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "Loshadt",
+  "createdUnix": "1393566778",
+  "updatedUnix": "1393624384",
+  "containsAdultContent": false,
+  "uploadedBy": "Loshadt",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000099060",
+      "name": "No Enchant Shaders",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "No Enchant Shaders-51595-1-0.zip",
+      "uploadedUnix": "1393566716",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c6620f8181c96ea91e7e2cb278bccbded8b924e80ed50cd64a1473b2af750a87/analysis/1407953000/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20Enchant%20Shaders-51595-1-0.zip?fid=1000099060&ttl=1535834054&ri=8192&rs=8192&setec=aaba9bdaa1677c278d06490846682950"
+    },
+    {
+      "fileId": "1000099172",
+      "name": "Soundless Only Version",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Soundless Only Version-51595-1-0.zip",
+      "uploadedUnix": "1393624384",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f8479a7311c9bd4c14bc8d6a0c03a43894d5876fe01d8c9a0053fe75d67aaa92/analysis/1407954205/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Soundless%20Only%20Version-51595-1-0.zip?fid=1000099172&ttl=1535834054&ri=8192&rs=8192&setec=11d923ac493f4299127222c6130b63e8"
+    }
+  ]
+}

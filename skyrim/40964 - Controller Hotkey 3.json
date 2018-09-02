@@ -1,0 +1,48 @@
+{
+  "modId": 40964.0,
+  "modName": "Controller Hotkey 3",
+  "summary": "A third hotkey for controllers, because two Favorites menu buttons is silly. Now includes an unbound alternative for MCM-enabled mod functionality&#33;",
+  "descriptionHtml": "CONTROLLER HOTKEY BIND 3: BY HOAX (mindinavoid on Skyrim Nexus)\r<br />1. What?\r<br />-An edited controlmap.txt file that implements a third bind slot for 360 controller users on PC.\r<br />-I&#39;ve also placed a &#34;references&#34; folder in the directory with the file reference data for keyboard \r<br />-and 360 controllers for those who like to live dangerously and edit their own control binds outside\r<br />-of what the game allows inside itself.\r<br />-Incidentally, you could use this to build your own completely custom control scheme if you wanted.\r<br />-This does however mean that the D-pad doesn&#39;t move the cursor in the Favorites menu,\r<br />-so you&#39;ll have to use the control stick for that. Otherwise you couldn&#39;t bind the key,\r<br />-and leaving something like that out of the thought would just be silly, wouldn&#39;t it?\r<br />1.5 What else?\r<br />- I&#39;ve now uploaded an alternate file with the three hotkeys unbound, for users of MCM-enabled mods that want to be able to bind one of those buttons to a mod function (where available). For instance, those who wish to bind one of SkyUI&#39;s Group options to one of the keys now can&#33;\r<br />2. Why?\r<br />-Because having two Favorites menu selectors is just plain silly, and I have a better use for that \r<br />-third direction. Also, because I can&#39;t be the only one who just wanted a third hotkey.\r<br />-It also allows a third hotkey to be bound for MCM-enabled functions, simply by replacing\r<br />-the appropriate reference in the controlmap.txt file with &#34;0xff&#34;, a null pointer.\r<br />-And, if someone else has a better use for those keys, well, they should be able to use them.\r<br />3. How?\r<br />-BSAOpt and a little code sense. Notepad++ makes it easier to read this stuff though.\r<br />4. Where?\r<br />-Wherever you want it to be. If someone wants to get this up onto the Workshop, show me how and\r<br />-you&#39;ll earn a coveted spot in the readme. And my thanks. Or, do it yourself, I don&#39;t care.\r<br />-(Credit for the &#34;hard&#34; work would be nice, though.)\r<br />5. Who?\r<br />-Me, for taking the five minutes to do this.\r<br />-You, for taking the five minutes to read this.\r<br />-Nexus, for being a place to put things.\r<br />-The internet, for satisfying my itch to solve this little quandary.\r<br />\r<br />~Sound and fury take me home...~",
+  "categoryId": "42",
+  "version": "1.0",
+  "author": "Hoax",
+  "createdUnix": "1377442651",
+  "updatedUnix": "1377445781",
+  "containsAdultContent": false,
+  "uploadedBy": "mindinavoid",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000049495",
+      "name": "Hotkey Bind 3",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Hotkey Bind 3-40964-1-0.zip",
+      "uploadedUnix": "1377442943",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/48c53e221b52a5483410a2860a74ea2673a9eb567be14dcbb2475849edf77b08/analysis/1407696248/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hotkey%20Bind%203-40964-1-0.zip?fid=1000049495&ttl=1535821669&ri=8192&rs=8192&setec=b62332b98e69c7983290f2ffd63d9eab"
+    },
+    {
+      "fileId": "1000049509",
+      "name": "Controller Hotkeys Unbound",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Controller Hotkeys Unbound-40964-1-0.zip",
+      "uploadedUnix": "1377445781",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4cc66cc1f7b21c7b36b181086ec6f97bdc25efcd0d332568c5c24e5527cb6938/analysis/1407696303/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Controller%20Hotkeys%20Unbound-40964-1-0.zip?fid=1000049509&ttl=1535821669&ri=8192&rs=8192&setec=d86a24d5e9b80e53e5af28bf10e0d51c"
+    }
+  ]
+}

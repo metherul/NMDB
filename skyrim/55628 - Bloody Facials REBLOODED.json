@@ -1,0 +1,48 @@
+{
+  "modId": 55628.0,
+  "modName": "Bloody Facials REBLOODED",
+  "summary": "Adds blood to face and body during combat. Blood splatter probability configurable with MCM.",
+  "descriptionHtml": "[IMG]http://i.imgur.com/PY3JPoG.png[/IMG]\r<br />[IMG]http://i.imgur.com/5kDryi1.png[/IMG]\r<br />\r<br />[size=4][color=white]\r<br />Cerwiden loves it....\r<br />[/size][/color]\r<br />\r<br />[IMG]http://i.imgur.com/opuamI0.png[/IMG]\r<br />\r<br />\r<br />[IMG]http://i.imgur.com/hvzicyH.png[/IMG]\r<br />\r<br />\r<br />[size=4][color=white] Welcome to Bloody Facials REBLOODED. This is a remake of my previous mod Bloody Facials with (most of) the bugs removed and MCM aware. The mod adds blood to the PC and NPC faces (and body) during combat - something that does not occur in the vanilla game. The base probability for a Bloody Facial is now configurable (default is 10%). I felt that these changes are significant enough to warrant a new mod page in the Nexus.[/size][/color]\r<br />\r<br />[IMG]http://i.imgur.com/62hqyn6.png[/IMG]\r<br />[size=4][color=white]Bloody Facials now runs with an MCM menu. Install with NMM or simply drop the .esp and .bsa into the Data folder and make sure the .esp is checked. To activated the mod check &#34;Activate Bloody Facials&#34; in the MCM menu. The scripts are designed to be low impact and so might take a little while to kick in upon installation.\r<br />\r<br />For those upgrading from earlier versions,  first turn off Bloody Facials (via the book) and fully uninstall the mod. Then install Bloody Facials reblooded. You&#39;ll notice that in this verson the Bloody Facials book is no longer available. \r<br />[/size][/color]\r<br />\r<br />\r<br />[IMG]http://i.imgur.com/WuvQf3t.png[/IMG]\r<br />[size=4][color=white] For efficiency, the Bloody Facial textures are in the .bsa file. However if you want to play around with your own textures I have provided the loose files in a separate download. These should be placed in /Data/textures/blood/. You can resize and modify the textures to your heart&#39;s content (for example if you want redder blood). I use gimp with the dds plugin that you can find by googling. The default texture resolution is 1024x1024. If you do resize (e.g., for weaker machines) try to maintain the aspect ratio (e.g. 512x512) otherwise you might get weird results.\r<br />[/size][/color]\r<br />\r<br />[IMG]http://i.imgur.com/PlH28Q5.png[/IMG]\r<br />[size=4][color=white]\r<br />The blood textures should no longer glow in certain lighting situtations or be applied when blacksmithing. However, please let me know if you do find any issues relating to this. Any mods that apply additional shaders (e.g. Wet and Cold) will overwrite the Bloody Facial textures in some situations. This isn&#39;t a show stopper but can make the blood disappear.\r<br />[/size][/color]\r<br />\r<br />\r<br />[IMG]http://i.imgur.com/m2Mwp1D.png[/IMG]\r<br />\r<br />[size=4][color=white]\r<br />...but Sofia&#39;s not so sure....\r<br />[/size][/color]\r<br />\r<br />[size=6][color=mediumvioletred]\r<br />And a big shout out to FunctionX who solved the glowing textures issue &#33;\r<br />[/size][/color]\r<br />\r<br />\r<br />[size=5][color=white]\r<br />Featured Actors: \r<br />\r<br />SKJARN from Interesting NPCs\r<br />Cerwiden from Cerwiden SMART Healer AI Configurable Companion \r<br />Sofia from Sofia The Funny Fully Voiced Follower\r<br />[/size][/color]\r<br />\r<br />\r<br />[size=5][color=white]\r<br />Video review of Bloody Facials from misalen:\r<br />\r<br />[youtube]T4L6r9pdBEQ[/youtube]\r<br />[/size][/color]\r<br />",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Poshpaws",
+  "createdUnix": "1405018204",
+  "updatedUnix": "1405014908",
+  "containsAdultContent": false,
+  "uploadedBy": "Poshpaws",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000116886",
+      "name": "Bloody Facial textures",
+      "version": "",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "2030",
+      "fileName": "Bloody Facial textures-55628-.7z",
+      "uploadedUnix": "1405014349",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/4dee28632eb5114a6c849a5bbe4b3c91c395eec1e53c6091228a83c7083c95c0/analysis/1405014368/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bloody%20Facial%20textures-55628-.7z?fid=1000116886&ttl=1535840506&ri=8192&rs=8192&setec=7d162c98c8c2c2cf66c9c1634a19dcb9"
+    },
+    {
+      "fileId": "1000116890",
+      "name": "Bloody Facials REBLOODED",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3980",
+      "fileName": "Bloody Facials REBLOODED-55628-1-0.7z",
+      "uploadedUnix": "1405014908",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/cfd2845a9009820bc48539ebcc1c43c879735c8cc575493176b7049df1c2cb56/analysis/1405014971/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bloody%20Facials%20REBLOODED-55628-1-0.7z?fid=1000116890&ttl=1535840506&ri=8192&rs=8192&setec=f47aa4aa44fee3a678e3218588c54cce"
+    }
+  ]
+}

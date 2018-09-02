@@ -1,0 +1,32 @@
+{
+  "modId": 39701.0,
+  "modName": "Automatic Night Vision",
+  "summary": "Turns the Night Vision Lesser Powers from Vapires, Werewolfs and Khajiit into abilities that activate automaticly. Also adds an enchantment similar to those Night Vision powers",
+  "descriptionHtml": "-DESCRIPTION-\r\nGetting tired of activating your Vampire\\'s Sight power time after time? Annoyed that your Khajiit\\'s eyes only adjust to the dark when you hit a button? And as Werewolf who can only see in the dark with an inacessible power? This mod aims to fix that. It changes all these Lesser Powers into abilities which activate your Night Vision for you when in dark enveronments. \r\n\r\nAlso added is a Cicrlet of Night Vision for the average man to wear. It can be found as loot across Skyrim. There is also one hidden in the Sightless Pit. Once you found one (or cheated with the console to get it), you can learn the enchantment and put it on other gear. The enchantment works just like the Vampire/Werewolf/Khajiit power. \r\n\r\nYou can change the light level under which the night vision kicks in with the console, type:\r\nset NightEyeThreshold to {your desired light leve} (default 40.0)\r\nYou can check the light level with this command: \r\nplayer.getlightlevel\r\n\r\nWARNING: This mod has a (yet) unresolved bug. If Night Vision activates straight after installing the mod and it doesn\\'t go away and you are not a Vampire, Werewolf, Khajiit or wearing a circlet of Night Vision, disable this mod right away and DO NOT make a new save. If you know what causes it, notify me so I can work on a fix.\r\n\r\n\r\n-IN SHORT-\r\n-Night vision lesser powers are turned into active effects which kick in when the light level gets under a certain value\r\n-Circlet of Night Vision added to Levelled items\r\n-New enchantment called Night Vision added\r\n\r\n-BUGS/KNOW ISSUES-\r\n-When standing near a flickering light where the light level varies around the threshold lightlevel, the night vision will activate and deactivate all the time. Just move away from the spot and it\\\\\\\\\\\\\\'s fine.\r\n-In rare cases when quickly moving from dark to bright to dark areas, the night vision will stop working because it cannot adjust quick enough. Should be fixed but in case: Disable the mod, save, and reenable and it should work again.\r\n-If Night Vision stays on, lower the NightEyeThreshold in the console.\r\n-If Night Vision activates straight after installing the mod and it doesn\\'t go away and you are not a Vampire, Werewolf, Khajiit or wearing a circlet of Night Vision, disable this mod right away and DO NOT make a new save. This is caused by a unknown bug. If you know what causes it, notify me so I can work on a fix.\r\n\r\n-INSTALLATION-\r\nJust extract the files and put them into your steam/steamapps/common/skyrim/data folder.\r\n\r\n-CHANGELOG-\r\nv2: Removed the day-night conditions, only lightlevel counts. Any bugs related to conditions should be removed. \r\n\r\n-Other Mods-\r\n[url=http://skyrim.nexusmods.com/mods/22753/?]Lost Magic Part 1[/url]\r\n[url=http://skyrim.nexusmods.com/mods/37117//?]Lost Magic Part 2[/url]\r\n",
+  "categoryId": "75",
+  "version": "2",
+  "author": "Syfor",
+  "createdUnix": "1375729100",
+  "updatedUnix": "1375912243",
+  "containsAdultContent": false,
+  "uploadedBy": "Syfor",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000045009",
+      "name": "Automatic Night Vision",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Automatic Night Vision-39701-2.zip",
+      "uploadedUnix": "1375912243",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/684b177fa2772437d4e6db2ce3b9b2af9b577474258cb1b68639d7103f50d0e3/analysis/1407673387/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Automatic%20Night%20Vision-39701-2.zip?fid=1000045009&ttl=1535820151&ri=8192&rs=8192&setec=f89391be42942486d61e77b43b58a240"
+    }
+  ]
+}

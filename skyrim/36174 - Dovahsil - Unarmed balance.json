@@ -1,0 +1,48 @@
+{
+  "modId": 36174.0,
+  "modName": "Dovahsil - Unarmed balance",
+  "summary": "Have you ever wanted to just punch things, but at higher levels/difficult you felt left out?\r\nThis mod provides a way to balance the Unarmed Damage with a different scaling. (+ 2 bonus)",
+  "descriptionHtml": "[size=4][center][color=DodgerBlue]Have you ever wanted to just punch things, but at higher levels/difficult you felt left out?\r\nThis mod provides a way to balance the Unarmed Damage with a different scaling[/color][/center][/size]\r\n[size=3][color=orange]Updates:[/color][/size]\r\nAdded a more compatible version (2.0) doesnt modify RACE.\r\nThe main reason is the way how I first added the Ability \\\"Growing Strength\\\" I did it modifying the race (which creates incompatibility with mods who do the same) but I did so that NPCs that is vanilla race will have bonus in unarmed damage by level. Giving a bit more challenge to brawling.\r\n\r\n[size=3][color=teal]Introduction:[/color][/size]\r\nI love Skyrim is such a fun game, but sometimes you can feel things arent exactly ok and your gameplay gets affected or you plainly loose motivation to keep playing. Thats why once I started an unarmed character and finding that there are few mods that deal with rebalancing unarmed damage in a way that suits me that I decided to make my own for my personal use. But since maybe there are others who might find this useful I decided to upload it.\r\n\r\n[size=3][color=teal]Requirements:[/color][/size]\r\nLatest Skyrim update (1.9.29.0.8 up)\r\nTo install: use NMM\r\nTo unistall: uninstall with NMM and load a save prior to using the mod.\r\n\r\n[size=3][color=teal]Comentaries:[/color][/size]\r\nThis is my first mod, so if you have ideas on rebalancing a bug or perhaps wants a more personalized setting, just make a request on the forums.\r\nAlso, this mod use an interesting (and so far unique I think) way of scaling the bonus; Instead of using the most common linear way (each 10 you gain 1 point... etc) im using a logarithmic (Log) way.\r\nExample:[list]\r\n[*]at 5 you gain 1\r\n[*]at 9 you gain 2\r\n[*]at 15 you gain 3[/list]\r\n  etc, etc\r\nWith this scaling you will get the maximum effect once you reach the higher threshold but at lower levels you will only receive some of the bonus, this ensure that you wont be overpowered at lower levels and still being able to dish some damage when you reach the higher levels.\r\n\r\nI will add the scaling in the [url=http://skyrim.nexusmods.com/mods/readmes/Dovahsil_readme.txt][color=orange]readme[/color][/url] so it clarifies things.\r\n\r\nMod has been cleaned with TES5Edit.\r\n\r\n\r\n[size=3][line][color=teal]What does it do?[/color][/size]\r\n\r\nDovahsil means Dragon Soul in dragon language, and so its the main feature of unarmed balance of this mod (+ some small bonus) :\r\n\r\nDraconic Claws - Your hands become deadlier due to the draconic energies infused into you\r\n[list][*]Adds a scalable (Log) unarmed damage 100 max. distributed from 1 up to 50 currently owned Dragon Souls[/list]\r\nDraconic Skin - Your skin infused with the dragon souls gives you some resistance.\r\n[list][*]Adds a scalable (Log) Fire, Frost, Shock and Magic Resistance 10 max. each distributed from 8 up to 50 currently owned Dragon Souls[/list]\r\nDraconic Blood - Your blood infused with the dragon souls gives you a healthier and stronger body.\r\n[list][*]Adds a scalable (Log) Health, Magicka and Stamina Bonus 100 max. distributed from 5 up to 50 currently owned Dragon Souls[/list]\r\n\r\nAlso, the mod adds Unarmed Damage based on:\r\nLevel - Growing Strength - Your body grows stronger with the passing of time.\r\n[list][*]Each 4 levels, you gain 4 points of Unarmed Damage[/list]\r\nSkill (single) - Dexterity - Your Dexterity gained with Smithing, Two-Handed, One-Handed and Archery gives you Unarmed Damage per each skill\r\n[list][*]Adds a scalable (Log) unarmed damage bonus 10 max. per each skill named, distributed from 10 up to 100[/list]\r\nSkill (combined) - Combat Prowess - Your combat Prowess in the 3 skills (Two-Handed, One-Handed and Archery) gives you a bit more of Unarmed Damage\r\n[list][*]Each time your skills of Two-Handed + One-Handed + Archery reach 10 levels, you gain 1 point of Unarmed Damage[/list]\r\n\r\nAnd finally it add 2 more levels to the perk Fist of Steel.\r\n\r\n\r\n[size=3][line][color=teal]Recomendations[/color][/size]\r\n\r\nI would suggest using this mod in tandem with a mod that changes dragon souls into perks and other things. The one that im using is:\r\n[url=http://skyrim.nexusmods.com/mods/27531//?]Dragon Soul Relinquishment[/url] I prefer this one because it has more customization.\r\n\r\n\r\n[size=3][color=teal]Thanks[/color][/size]\r\n\r\nTo Erkeil because his amazing mod [url=http://skyrim.nexusmods.com/mods/26217/?]E.R.S.O[/url] inspired me to (also for his advice)\r\nTo MannyGT for his amazingly useful [url=http://skyrim.nexusmods.com/mods/32657/?]STATUS[/url] mod (it made my life easier)\r\nAnd to all the modders of Skyrim, for making this game much more fun to play.",
+  "categoryId": "24",
+  "version": "2.0a",
+  "author": "Tnyhy",
+  "createdUnix": "1368879604",
+  "updatedUnix": "1369426568",
+  "containsAdultContent": false,
+  "uploadedBy": "Tnyhy",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000030423",
+      "name": "Dovahsil - FoS plus3 and NPCs races affected",
+      "version": "1.0a",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "26",
+      "fileName": "Dovahsil-36174-1-0a.rar",
+      "uploadedUnix": "1368902185",
+      "modVersion": "1.0a",
+      "virusScanUrl": "https://www.virustotal.com/file/d3171443cf42fc96ec8ad02a3be59ca8869d7f3e951cf2f0a65eef8b7119edb9/analysis/1407573853/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dovahsil-36174-1-0a.rar?fid=1000030423&ttl=1535815196&ri=8192&rs=8192&setec=b268fcade1d35c7de1411d1298fec96a"
+    },
+    {
+      "fileId": "1000031271",
+      "name": "Dovahsil - Unarmed Balance",
+      "version": "2.0a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Dovahsil - Unarmed Balance-36174-2-0a.rar",
+      "uploadedUnix": "1369426568",
+      "modVersion": "2.0a",
+      "virusScanUrl": "https://www.virustotal.com/file/fb3bb93da53ca169c85a7e7a23acab9a65549755e3791a50838891c62eaa2f9e/analysis/1407580398/",
+      "changelogHtml": " Changed Growing Strength to quest added spell, so it will be compatible with mods that affect RACE.  <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dovahsil%20-%20Unarmed%20Balance-36174-2-0a.rar?fid=1000031271&ttl=1535815196&ri=8192&rs=8192&setec=09f7eb9fa9280668c3fa9667e8ba52cd"
+    }
+  ]
+}

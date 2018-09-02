@@ -1,0 +1,32 @@
+{
+  "modId": 84761.0,
+  "modName": "Allow Use of Mulltiple Master Files in the Creation Kit",
+  "summary": "",
+  "descriptionHtml": "Why I created this mod:\r<br />Finding true information in this &#39;filter bubble&#39;, many false facts filled internet is difficult nowadays.\r<br />\r<br />The creation kit wouldn&#39;t allow me to open multiple master files. Most of the information on the internet on how to fix this didn&#39;t provide me with the correct information on how to do it. I discovered that most people only talked about putting\r<br />\r<br />bAllowMultipleMasterFiles=1\r<br />bAllowMultipleMasterLoads=1\r<br />\r<br />into the general section of SkyrimEditor.ini.\r<br />\r<br />This isn&#39;t enough to make the creation Kit work properly. There is more to add in the archive section of this ini file. So, after hours and hours of researching I finally found the answer on how to do it. I created this mod in hopes that my findings will help others be able to open multiple master files in the creation kit.\r<br />\r<br />Installation Instructions:\r<br />Insert my ini file into the Skyrim Folder\r<br />\r<br />OR\r<br />\r<br />Insert in SkyrimEditor.ini what&#39;s mentioned in the txt file in my mod.\r<br />\r<br />Requirements:\r<br />You need all of the DLCs to replace your SkyrimEditor.ini with mine. If you don&#39;t have all the DLCS, then get rid of the words for the DLCS that you don&#39;t have in the archive section of my SkyrimEditor.ini.\r<br />\r<br />\r<br />NOTE:\r<br />Do not download with NMM. This is my first mod so I&#39;m not good at making mods yet. For some reason the check box to not let people download my mod with NMM was greyed out. So, I couldn&#39;t check it.",
+  "categoryId": "28",
+  "version": "1.00",
+  "author": "Me",
+  "createdUnix": "1497935397",
+  "updatedUnix": "1497935389",
+  "containsAdultContent": false,
+  "uploadedBy": "endtime00",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000247488",
+      "name": "CreationKitFix",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "CreationKitFix-84761-1-00.rar",
+      "uploadedUnix": "1497935389",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/9f995a2c1e6ef146d8b84779e358c32ac1033ebf39ed1473b1c44935e7762446/analysis/1497935582/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CreationKitFix-84761-1-00.rar?fid=1000247488&ttl=1535873611&ri=8192&rs=8192&setec=847da482192abf8b36ce067eaffba284"
+    }
+  ]
+}

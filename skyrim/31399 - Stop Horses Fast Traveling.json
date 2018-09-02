@@ -1,0 +1,32 @@
+{
+  "modId": 31399.0,
+  "modName": "Stop Horses Fast Traveling",
+  "summary": "Stops the players Last Ridden Horse from fast traveling.",
+  "descriptionHtml": "Stops your last ridden horse from fast traveling with the player. The horse will walk back to it\\'s home stable where you bought it. (or where ever it\\'s editor location is)\r\n\r\nThis is a pretty simple mod, all it does is remove/add the player faction ownership from your last ridden horse.\r\nOnce ownership is removed the horse stops fast traveling with the player, but in order to ride that same horse again you have to regain ownership or it will be considered stealing.\r\n\r\nThe Player will be given an Item, the \\\"Spoon of Horse Dismissal\\\", if you try and equip this spoon you\\'ll get a menu that allows you to dismiss your horse.\r\n\r\nJust Remember, once you dismiss your horse, the player *does not* own it any longer, it *will* be considered stealing to ride that same horse again without using the spoon to regain ownership first. If you forget and ride a *different* horse without regaining ownership on the first, that first horse will be stuck not being owned by the player. (this can be fixed with the console pretty easily)\r\n\r\n[s]This is sort of a \\\"Proof of Concept\\\" mod and still a Work in Progress, as I\\'d like to see how others like it and if it works.[/s] This mod is so simple there is nothing else to do, and after over 100 downloads and only 1 early problem, I\\'d say it\\'s done.\r\nThank you everyone for proving that it does, in fact, work. :)\r\nIt should be compatible with all the other horse mods out there, I looked at each of them and couldn\\'t see a reason why it would *not* be compatible, but as always, please backup! \r\n\r\nTo Use:\r\nDismiss your horse\r\nfast travel a short distance away (notice, no horse :) )\r\nYour horse should be walking back to it\\'s home stable (where you bought it from). you could just regain ownership at this point, and the horse will continue to walk back to it\\'s stable, but if you want to prove to yourself it works, fast travel back to that stable and wait for the horse to get there. Then walk up to it and notice it\\'s stealing if you try to ride it again, regain ownership and she\\'ll be yours again.\r\nThe second you ride your \\\"re-owned\\\" horse, it will start fast traveling with you again, and the process can be repeated over and over.\r\n\r\nv1.1 update:\r\nfixed some typos and forced the unset quest alias to be set. :)",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "ride",
+  "createdUnix": "1360522909",
+  "updatedUnix": "1360568430",
+  "containsAdultContent": false,
+  "uploadedBy": "r1de",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000008935",
+      "name": "Stop Horses From Fast Traveling - 1-1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Stop Horses From Fast Traveling - 1-1-31399-1-1.7z",
+      "uploadedUnix": "1360568430",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/fbb79f1dbb6d61183ac167c89ee8631254e1baa8d178afaeb1b58b47610bd31f/analysis/1407410983/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Stop%20Horses%20From%20Fast%20Traveling%20-%201-1-31399-1-1.7z?fid=1000008935&ttl=1535806910&ri=8192&rs=8192&setec=f83f4f5840d2d7c57fc568ec17767fba"
+    }
+  ]
+}

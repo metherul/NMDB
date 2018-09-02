@@ -1,0 +1,48 @@
+{
+  "modId": 19560.0,
+  "modName": "More Perk Points Per Level by Sjogga",
+  "summary": "Changes how many perks you get per level.",
+  "descriptionHtml": "==================\r\nRequires [url=http://skse.silverlock.org]SKSE v1.5.9[/url] to work.\r\n\r\nSKSE Installation video by Gopher can be found [url=http://www.youtube.com/watch?v=xTGnQIiNVqA&feature=plcp]HERE[/url]\r\n==================\r\n\r\n[b]What this mod does:[/b]\r\nEverytime you level up you gain extra perk points (Default 0.5 bonus point)\r\n\r\nYou can configure the amount by typing:\r\nset _morePerksBonusMult [u]to[/u] <value>\r\nin the console. Note that there is a space between [i]set[/i] and [i]_morePerksBonusMult[/i]\r\n\r\nFor example:\r\n[i]set _morePerksBonusMult to 2.0[/i]\r\ngives you 2 extra perk points per level (for a total of three)\r\n\r\n[i]set _morePerksBonusMult to 0.25[/i]\r\ngives you 1 extra perk point every four level.\r\n\r\n--\r\n\r\n[b]Optional version:[/b]\r\nGives you 0 bonus points between level 1-29.\r\nGives you 1*multiplier bonus points between level 30-49.\r\nGives you 2*multiplier bonus points per level above 50.\r\n\r\n(where multiplier is the value of _morePerksBonusMult)\r\n\r\n--\r\n\r\n[b]This affects existing characters as well![/b]\r\nThe next time you level up with an existing character, the game will add all missing perk points.\r\n\r\n==================\r\n\r\nInstallation:\r\nUse NMM\r\nor\r\nExtract into Skyrim Folder\r\nMake sure SKSE is installed.\r\n\r\nTo install the optional version:\r\n- install the main file\r\n- install the optional file. Hit yes when you are asked if you wish to overwrite.\r\n\r\n================\r\n\r\nKnown Issues:\r\nThe bonus points aren\\\\\\'t added until you leave the leveling screen.\r\n\r\n================\r\n\r\nQuestions, comments and bug reports goes into the comments.\r\n\r\n================\r\n",
+  "categoryId": "24",
+  "version": "0.1.0",
+  "author": "Sjogga90",
+  "createdUnix": "1340900890",
+  "updatedUnix": "1340900978",
+  "containsAdultContent": false,
+  "uploadedBy": "Sjogga",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "70774",
+      "name": "More Perks",
+      "version": "0.1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "More Perks-19560-0-1-0.rar",
+      "uploadedUnix": "1340900936",
+      "modVersion": "0.1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/185efd4fa10b504a7f1410be8199a34d60bc47548a2edb2bdeaa906973e6e100/analysis/1406988064/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/More%20Perks-19560-0-1-0.rar?fid=70774&ttl=1535787102&ri=8192&rs=8192&setec=7b9cff7c51fc29916c0fa095b866bd54"
+    },
+    {
+      "fileId": "70775",
+      "name": "More Perks optional script",
+      "version": "0.1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "More Perks optional script-19560-0-1-0.rar",
+      "uploadedUnix": "1340900978",
+      "modVersion": "0.1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/96179779f02b6d5c27a9a922bfe2a913209e513a90683b9dd53722164536fc5a/analysis/1406988065/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/More%20Perks%20optional%20script-19560-0-1-0.rar?fid=70775&ttl=1535787102&ri=8192&rs=8192&setec=ddb26bc89d7e24dbe7a671a660340455"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 86658.0,
+  "modName": "RaceMenu Preset - Crocodilian Argonian (male and female)",
+  "summary": "A preset for the RaceMenu mod, to make a crocodilian argonian of either sex.",
+  "descriptionHtml": "This mod is a set of two preset file that can be opened up and applied to an argonian character in the character creation menu, if you have the [url=https://www.nexusmods.com/skyrim/mods/29624/?]RaceMenu[/url] mod. There&#39;s now a female version available for download&#33;\r<br />\r<br />The presets consists of slider settings and a custom head sculpt of the male and female argonian head and mouth mesh respectively, created in the [url=https://www.nexusmods.com/skyrim/mods/29624/?]RaceMenu[/url] sculpt mode. It&#39;ll change the shape of your argonian character&#39;s head to look more like a crocodile/alligator. It&#39;s not fantastic, there are lots of nicks, flaws and assymetries if you look closely enough, but I think it looks good enough that someone else might want to use it.\r<br />\r<br />These preset must be applied to your character through the character creation menu, and will not affect all argonians in the game, or any such thing.\r<br />\r<br />I don&#39;t necessarily know if this would be considered lore-friendly or not, but considering there are argonian sub-types resembeling various reptilian and amphibian forms, I don&#39;t think this needs to be considered lore-breaking.\r<br />\r<br />Requirement:\r<br />   All that&#39;s requird is that you have the [url=https://www.nexusmods.com/skyrim/mods/29624/?]RaceMenu[/url] mod up and running correctly, at least assuming it&#39;s not some really old version of it.\r<br />      (Note that this mod in turn requires SKSE)\r<br />\r<br />To note:\r<br />[list]\r<br />[*]There are two separate files to download the presets for a male and female argonian respectively. Applying the wrong preset to the wrong sex won&#39;t work (all it might do mess up their teeth), and obviously it wouldn&#39;t make sense to apply it to any other race. I guess for all I know it might work if you apply it to some sort of custom race that uses a correct argonian head.\r<br />[*]Note that this will change the character&#39;s head to be a bit wider, much flatter, and give a longer snout, which will cause clipping and other cosmetic problems with most headgear. If you wanna play a character without a helmet, but still be able to benefit from armor-related perks that requires a light or heavy helmet, try using the [url=https://www.nexusmods.com/skyrim/mods/64304/?]Invisible Helmets - Air Helm[/url] mod.\r<br />[*]I haven&#39;t really tested it in any real way, but I have reason to believe that the application of different facial expressions could cause problems with clipping and expressions that just look weird. This includes the idle eye movements of the character, it can lead to appearence of the character&#39;s eyes shifting around, and due to the relatively small sockets, this seems more noticable and strange. So be aware that that could be a thing, I guess.\r<br />[*]I&#39;ve heard that having a vampire character that uses this preset causes some issues, since vampirism changes how the character&#39;s teeth look, and this apparently leads to strange results when combined with the altered mesh for the crocodilian mouth.\r<br />[/list]\r<br />Recommended:\r<br />[list]\r<br />[*][url=https://www.nexusmods.com/skyrim/mods/17339/?]BAT - Bigger Argonian Tails[/url]. Since the argonian tails in vanilla Skyrim are very thin, they may look weird on a crocodilian character, since real life crocodiles/alligators have tails almost as thick as their bodies. This mod make the tails of all argonians thicker, which I personally consider an overall improvement, and it works better for making your character look like a crocodilian.\r<br />[*][url=https://www.nexusmods.com/skyrim/mods/64304/?]Invisible Helmets - Air Helm[/url]. Again, since applying this preset this will change the shape of your character&#39;s head, many helmets might not be viable, so you might wanna try this mod, so that you can play a visually helmetless character, whilst still technically wearing ahelmet, thus being able to benefit form armor perks that require helmets.\r<br />[/list]\r<br />Conflicts:\r<br />I imagine this would conflict with anything that changes the mesh of the male or female(whichever one you wann use) argonian head mesh, because trying to apply this preset to anything that isn&#39;t the right kind of argonian head probably won&#39;t work, I presume.\r<br />\r<br />How to use:[list=1]\r<br />[*]Make sure that you have the [url=https://www.nexusmods.com/skyrim/mods/29624/?]RaceMenu[/url] mod working.\r<br />[*]Download the mod version for the sex/gender you&#39;re planning on using(or both), and install it mod using the manager of your choice, or manually put the content of the mod&#39;s data folder in your own Skyrim data folder.\r<br />[*]Start up your game(with SKSE of course).\r<br />[*]Enter the character creation menu, either by starting a new game (or loading up a save file saved right before the character creation screen), or open up the [url=http://elderscrolls.wikia.com/wiki/Console_Commands_(Skyrim)]console[/url] and type the command &#34;showracemenu&#34;, then hit enter and exit the console.\r<br />[*]Set the sex/gender to the one you want, and set race to Argonian (or possibly something else that uses an Argonian head mesh, maybe?).\r<br />[*]Open the &#34;Presets&#34; tab, amongst the tabs in the upper left corner.\r<br />[*]Click the &#34;Load Preset&#34; button on the lower panel, or press the F9 key for the same effect.\r<br />[*]Click the option in the list that says &#34;Crocodilian V1&#34;(this is the male version), or &#34;Crocodilian Female V1&#34;, depending on which one you&#39;ve downloaded and want to use.\r<br />[*]Go to the &#34;Sliders&#34; or &#34;Sculpt&#34; tab if you want to make further adjustments to your character. Not sure how this head sculpt will react to having the sliders changed. You can visit the &#34;Expressions&#34; section of sliders to mess around with his facial expression, if you for example want to try to make your character look more intimidating.\r<br />[*]Finish your character&#33;\r<br />[/list]\r<br />As for future plans, I have a few ideas. I could maybe try to mess around with the shape of the eye sockets, maybe make the snout longer, shrink the back of the skull a little, and perhaps try to make the teeth a little neater, and make more of them outwardly visible, so that you can see teeth sticking out from both jaws. That is, if I&#39;m not just going to be lazy instead, which is pretty likely.",
+  "categoryId": "26",
+  "version": "1",
+  "author": "abborre",
+  "createdUnix": "1505299825",
+  "updatedUnix": "1506272754",
+  "containsAdultContent": false,
+  "uploadedBy": "abborre",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000254564",
+      "name": "Argonian Crocodilian Male Preset for RaceMenu V1",
+      "version": "V1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "19",
+      "fileName": "Argonian Crocodilian Preset for RaceMenu V1-86658-V1.zip",
+      "uploadedUnix": "1505298341",
+      "modVersion": "V1",
+      "virusScanUrl": "https://www.virustotal.com/file/bd7fb8a7d00f08dec2ddf8cc655c286eb4fd8eab5bd8722df7feffa7f38353e9/analysis/1505298482/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Argonian%20Crocodilian%20Preset%20for%20RaceMenu%20V1-86658-V1.zip?fid=1000254564&ttl=1535875578&ri=8192&rs=8192&setec=3e7dd92b7b529b351f4b1ac1eb2a5d83"
+    },
+    {
+      "fileId": "1000255708",
+      "name": "Argonian Crocodilian Female Preset for RaceMenu V1",
+      "version": "V1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "20",
+      "fileName": "Argonian Crocodilian Female Preset for RaceMenu V1-86658-V1.zip",
+      "uploadedUnix": "1506272754",
+      "modVersion": "V1",
+      "virusScanUrl": "https://www.virustotal.com/file/8e0bf3efae5af1d0b35fad88410e6f62dece302fcbfd0130407c5ef548ca1ecf/analysis/1506273003/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Argonian%20Crocodilian%20Female%20Preset%20for%20RaceMenu%20V1-86658-V1.zip?fid=1000255708&ttl=1535875578&ri=8192&rs=8192&setec=d36a4ef5d9692b2218cba27104b24ce6"
+    }
+  ]
+}

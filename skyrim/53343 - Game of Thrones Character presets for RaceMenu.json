@@ -1,0 +1,32 @@
+{
+  "modId": 53343.0,
+  "modName": "Game of Thrones Character presets for RaceMenu",
+  "summary": "A small project that provides preset slots (basically face looks) of Game Of Thrones character, for you to use in character creation, if you have RaceMenu (and a few others) installed.",
+  "descriptionHtml": "Game of Thrones character presets for the RaceMenu mod\r<br />\r<br />[b]&#33;&#33;&#33; NOTE: EVERYTHING about this is very much work in progress - installation instructions, requirements, and actual work on the models&#33; &#33;&#33;&#33;[/b]\r<br />\r<br />[b]Required Mods:[/b]\r<br />\r<br />- [url=http://skse.silverlock.org/]SKSE[/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/3863]SkyUI[/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/29624]RaceMenu[/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/36925]CharGen Extension[/url] (only the CharGen Morphs v2-1-4 and CharGen Morphs v2-1-4 ECE files, CORE already comes with RaceMenu so no need to download it)\r<br />- [url=http://www.nexusmods.com/skyrim/mods/10168]ApachiiSkyHair[/url]\r<br />\r<br />[b]Recommended Mods:[/b]\r<br />\r<br />- [url=http://www.nexusmods.com/skyrim/mods/35092]ApachiiSkyHair natural Retexture[/url] (main files + update + men + women)\r<br />- UNP bodies\r<br />- &#34;Mature skin texture and body for UNP&#34; works well for the older female characters\r<br />- &#34;Real Girls Realistic Body Texture for UNP&#34; works well for the younger female characters\r<br />- ENB + a ENB preset of your choosing that has sub-surface scattering enabled to get more realistic skin (as in my screenshots)\r<br />\r<br />\r<br />\r<br />[b]Instructions:[/b]\r<br />\r<br />- Install the required mods\r<br />- Download one of the files (see below for list of which is for which character)\r<br />- Place file in Skyrim/Data/SKSE/Plugins/CharGen/Presets directory. If it does not exist, create it.\r<br />- If the file already overrides an existing preset there, simply rename the preset to another number (RaceMenu supports 0-50 by default)\r<br />- Load up the game, create new character (or use &#34;showracemenu&#34; command)\r<br />- In the very top of the list of sliders, there should be a slider named &#34;PresetSlot&#34;\r<br />- Select appropriate gender&#33; (see list below to see which slot is for which character)\r<br />- Use slider to select the slot number for the slot you downloaded (e.g. if you downloaded 3.slot, move slider to 3)\r<br />- Press F9 to load preset\r<br />\r<br />NOTE: The presets do not seem to save all the data&#33; For example: face complexion is NOT saved. Neither is body and head size&#33; You will have to edit these manually to obtain the full results. \r<br />\r<br />\r<br />[b]Current Character list (also included in info.txt inside main download[/b]\r<br />\r<br />0 - Ned Stark\r<br />1 - Catelyn Stark\r<br />2 - Robb Stark\r<br />3 - Jon Snow\r<br />4 - Sansa Stark\r<br />5 - Arya Stark\r<br />",
+  "categoryId": "28",
+  "version": "0.1",
+  "author": "ZenonSeth",
+  "createdUnix": "1398294323",
+  "updatedUnix": "1398294296",
+  "containsAdultContent": false,
+  "uploadedBy": "ZenonSeth",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000106304",
+      "name": "presets",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "presets-53343-0-1.rar",
+      "uploadedUnix": "1398294296",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/87ce3bec3a2d31123b41b508a4d23e5ff5667bb5067a8c9d5091505b4e24b8de/analysis/1408037919/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/presets-53343-0-1.rar?fid=1000106304&ttl=1535836842&ri=8192&rs=8192&setec=60f9cee861e1263dddc56452774e4ccc"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 57017.0,
+  "modName": "Dragon Aspect - Toggleable and Unlimited",
+  "summary": "Makes the Dragon Aspect shout from the Dragonborn DLC (required) have an unlimited duration, and removed the annoying &#34;once per day&#34; flag. It also adds a new spell called &#34;Soul Dispersal&#34; to remove the effects at any time. Comes with an optional &#34;More Draconic Dragon Aspect&#34; compatible version&#33;",
+  "descriptionHtml": "[size=5][UPDATE + WARNING]: Apparently the problems people have been experiencing with &#34;More Draconic Dragon Aspect&#34; are due to him keeping separate plugins (.esp&#39;s) for each &#34;color&#34;. I can only assume the problems are due to the records being different between the versions.\r<br />\r<br />I will not be making a version of this mod for every color, so UNLESS YOU USE THE SAME COLORS I CHOSE, DO NOT USE THE &#34;MORE DRACONIC ASPECT&#34; VERSION OF THIS MOD&#33;&#33;&#33; I did go over HOW I made this mod in the comments section *somewhere*, though, so feel free to make you own versions for the color you&#39;d prefer...[/size]\r<br />\r<br />\r<br />[color=#ffff00][[/color][color=#ff7700]WARNING[/color][color=#ffff00]][/color]: [color=#ff0000]ALL VERSIONS REQUIRE THE DRAGONBORN DLC, AND THE[/color] &#34;[url=http://www.nexusmods.com/skyrim/mods/54306/?]More Draconic Dragon Aspect[/url]&#34; [color=#ff0000]VERSION REQUIRES BOTH THAT MOD, AND [/color]&#34;[url=http://www.nexusmods.com/skyrim/mods/53271/?]Animated Dragon Wings[/url]&#34;[color=#ff0000]&#33;\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/65163/?][img]http://i.imgur.com/b7O5gd7.png[/img][/url]\r<br />[/color]\r<br />\r<br />[youtube]nS_VimivFvE[/youtube]\r<br />\r<br />\r<br />[img]http://i.imgur.com/E6uD5Fh.png[/img]\r<br />Another mod I made for Skyrim. It makes the Dragon Aspect shout from the Dragonborn DLC (required) have an unlimited duration, and removed the annoying &#34;once per day&#34; flag. It also adds a new spell called &#34;Soul Dispersal&#34; to remove the effects at any time. There are two versions - the one shown in the video is compatible with &#34;More Draconic Dragon Aspect&#34; (the default &#34;Wings and Tail&#34; version. If you also use the &#34;Powered Edition&#34; plugin, you will probably need to place my mod before that plugin in your load order. I may make a specific patch for that version of enough people want it). The other version just requires the Dragonborn DLC and nothing else&#33;\r<br />\r<br />So if you want to use the version seen here, you&#39;ll also need:\r<br />-[url=http://www.nexusmods.com/skyrim/mods/54306/?]More Draconic Dragon Aspect[/url] by Stania\r<br />-[url=http://www.nexusmods.com/skyrim/mods/53271/?]Animated Dragon Wings[/url] by Anton\r<br />\r<br />Also: the recoloring of the effect shown in the video and screenshots is one of the options for &#34;More Draconic Dragon Aspect&#34;.\r<br />\r<br />\r<br />How it Works:\r<br />\r<br />All I did was add a removal spell, and tag every magic effect from the shout with a new &#34;Keyword&#34;. The spell I added simply removes all magic effects with that keyword when cast (it doesn&#39;t even require a script - there&#39;s a handly little check box above the Keywords box in the Magic Effects dialog box in the CK that says something like &#34;Dispel effects with the following Keywords&#34;. \r<br />\r<br />The only script that mod has is to add the spell to the player after the mod is installed. It will run ONCE, then be disabled, so although there IS a script with this mod, you shouldn&#39;t have any issue removing the mod at any time (but it&#39;s still not a good practice to be removing mods mid-game).\r<br />\r<br />[img]http://i.imgur.com/ozcNx8X.png[/img]\r<br />Either use a mod manager (I HIGHLY recommend Mod Organizer (http://www.nexusmods.com/skyrim/mods/1334/?)), or manually drag DragonAspectToggle_DAT.esp and the Scripts folder into your Skyrim Data directory.\r<br />\r<br />\r<br />[img]http://i.imgur.com/ailxJ0q.png[/img]\r<br />Simply use a mod manager, or delete the following files: DragonAspectToggle_DAT.esp, DAT_PlayerAddSpell_Script.pex, and DAT_PlayerAddSpell_Script.psc\r<br />\r<br />\r<br />[img]http://i.imgur.com/uHMISma.png[/img]\r<br />Please do not edit, or use this mod in another mod without asking my permission. This mod is also not allowed to be uploaded to other sites - I will post it here and on the steam workshop, but that&#39;s it&#33; If you just want to edit this mod for personal use, that&#39;s fine, but don&#39;t upload it without asking me first&#33; :)\r<br />\r<br />Credits:\r<br />\r<br />-Bethesda for Skyrim\r<br />-[b]Stania [/b]for [b][url=http://www.nexusmods.com/skyrim/mods/54306/?]More Draconic Dragon Aspect[/url] [/b][b]- Main file NOT included&#33;\r<br />-[b]Anton [/b]for[b] [url=http://www.nexusmods.com/skyrim/mods/53271/?]Animated Dragon Wings[/url] [/b]- Main file NOT included&#33;[/b]",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "Ulithium_Dragon",
+  "createdUnix": "1407957307",
+  "updatedUnix": "1407957299",
+  "containsAdultContent": false,
+  "uploadedBy": "UlithiumDragon",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000121915",
+      "name": "DAT - Vanilla Version (ONLY CHOOSE ONE)",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "DAT - Vanilla Version (ONLY CHOOSE ONE)-57017-1-0.7z",
+      "uploadedUnix": "1407957240",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e2066cbf00c1fdd701d125eef1fc01752581d9c07948e78b30be11cc99465a5f/analysis/1407957268/",
+      "changelogHtml": " Initial Release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DAT%20-%20Vanilla%20Version%20%28ONLY%20CHOOSE%20ONE%29-57017-1-0.7z?fid=1000121915&ttl=1535842736&ri=8192&rs=8192&setec=915935dc708926c1b76b33ca353de774"
+    },
+    {
+      "fileId": "1000121916",
+      "name": "DAT - More Draconic Dragon Aspect Version (ONLY CHOOSE ONE)",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "DAT - More Draconic Dragon Aspect Version (ONLY CHOOSE ONE)-57017-1-0.7z",
+      "uploadedUnix": "1407957299",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/032eb474a84e888882168639c3e943daf4f71447745e27c1500dfefa1b6debdf/analysis/1407957362/",
+      "changelogHtml": " Initial Release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DAT%20-%20More%20Draconic%20Dragon%20Aspect%20Version%20%28ONLY%20CHOOSE%20ONE%29-57017-1-0.7z?fid=1000121916&ttl=1535842736&ri=8192&rs=8192&setec=05db8b57cb44478642bd8244c1809f96"
+    }
+  ]
+}

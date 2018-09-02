@@ -1,0 +1,48 @@
+{
+  "modId": 57935.0,
+  "modName": "Shift ENB - Performance",
+  "summary": "A performance ENB that improves and corrects skyrims colors and lighting without going overboard on saturation and bloom. Attempts to keep a cool atmosphere. ",
+  "descriptionHtml": "[u][b]This mod is no longer supported.[/b][/u]\r<br />\r<br />This is a performance enb designed to correct and improve vanilla lighting as much as possible without going overboard on bloom/saturation/warmness. In most areas I get only a few fps loss, but in areas with heavy foliage the performance loss with enb is more noticeable. \r<br />\r<br />[color=green] Notes: [/color] Fps comparison images have AA in enb and no AA in vanilla. If you turn off the enb&#39;s anti aliasing it would be an even smaller loss. (For me. Not necessarily for you.) In-game brightness display works as vanilla would so you can make it fit your taste, I leave it in the middle.\r<br />\r<br />If you start turning on settings such as ambient occlusion then don&#39;t expect good performance, or even help when solving problems. If you decide to turn something on then you should read up on exactly what it does and how it works, because I cannot help you with it. \r<br />\r<br />-Included is a blank 2d sunglare texture for both vanilla and CoT. If you don&#39;t use CoT you can ignore the texture, it won&#39;t hurt anything. A bit of work went into the tweaking of the procedural sun so it does not need a fake 2d texture or lens effect.\r<br />\r<br />[color=red] How to install: [/color]\r<br />\r<br />-Download the latest enb files from [url=http://enbdev.com/download_mod_tesskyrim.html] here [/url]\r<br />\r<br />-Place d3d9.dll and enbhost.exe from the wrapper folder into your main skyrim folder. Usually located in C:Program Files (x86)SteamSteamAppscommonSkyrim\r<br />\r<br />-Drop all files from this mod into the same folder, as is. \r<br />\r<br />-Open your SkyrimPrefs.ini located in C:Users____Documents My Games Skyrim\r<br />\r<br />-Change the following lines:\r<br />\r<br />iMultiSample=0\r<br />iMaxAnisotropy0\r<br />bFXAAEnabled=0\r<br />bFloatPointRenderTarget=1\r<br />bTreesReceiveShadows=1   (if running skyrim on potato pc this can be left out)\r<br />bDrawLandShadows=1        (This too. Can also be disabled if you are getting unexplained triangular shadows on the ground)\r<br />bShadowsOnGrass=1           (..and this, but your grass may occasionally be overly bright)\r<br />\r<br />Optional mods that were used in all screenshots: \r<br />\r<br />EDIT: I have stopped using any lighting mods and actually prefer it now over with extra mods. Vanilla will give you bright and vibrant blue nights while Cot will give you slightly darker and red tinted nights. \r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/27043/?]ELFX,[/url] install everything BUT the enhancer (optional)\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/17802/?]Climates of Tamriel,[/url] leave everything on default settings. Be sure to install dlc patches if needed. (again, optional)\r<br />\r<br />\r<br />\r<br />[color=red] Problems: [/color]\r<br />\r<br />-As with many other enb&#39;s, this breaks nighteye. To easily fix this, download [url=http://www.nexusmods.com/skyrim/mods/50731/?]  enhanced enb night eye. [/url]\r<br />\r<br />-I will put any other problems here if they are reported.\r<br />\r<br />\r<br />[color=red] Compatibility [/color]\r<br />\r<br />-Since the lighting is so similar to vanilla you should able to use whatever mods you like. Screenshots were taken with elfx and Cot, but I now recommend going without any lighting or weather mods. Cot will give you red tinted nights, vanilla will give you vibrant blue nights, other weather mods will give different results. See what you like best and leave a comment to let me know if I need to fix something for whatever weather or lighting mod you decided to use.  \r<br />\r<br />\r<br />[color=red] Mods used in screenshots [/color]\r<br />\r<br />-Enhanced lights and Effects\r<br />\r<br />-Climates of Tamriel\r<br />\r<br />-Pure Waters with all addons. (If you prefer a lighter blue and cleaner looking water, use realistic water 2)\r<br />\r<br />-Unique Ground Covers (Perforamnce heavy, ENb makes the plants in the rift slightly too bright. If you use this I recommend lowering the tree and leaf textures slightly in photoshop or gimp)\r<br />\r<br />-Skyrim HD - 2k textures\r<br />\r<br />-SMIM (Custom installl. Opt out of the new fences)\r<br />\r<br />-Real Wood Textures - Farmhouses\r<br />\r<br />-aMidianBorn Textures (all armors, some landscape)",
+  "categoryId": "97",
+  "version": "1.2",
+  "author": "Bretton",
+  "createdUnix": "1410132668",
+  "updatedUnix": "1410245064",
+  "containsAdultContent": false,
+  "uploadedBy": "bretton",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000125957",
+      "name": "Shift ENB - Performance",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "492",
+      "fileName": "Shift ENB - Performance-57935-1-1.rar",
+      "uploadedUnix": "1410137407",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/920ddb2bff9883482af97a7b02eecc20afe705da700ab53d6cab50ffe6cfacf1/analysis/1410137527/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Shift%20ENB%20-%20Performance-57935-1-1.rar?fid=1000125957&ttl=1535844216&ri=8192&rs=8192&setec=30f1e69fe8131c89d54a53467e75e9ae"
+    },
+    {
+      "fileId": "1000126123",
+      "name": "Shift ENB - Performance",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "492",
+      "fileName": "Shift ENB - Performance-57935-1-2.rar",
+      "uploadedUnix": "1410245064",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/5c1368a70d4ff11ffed51d206a629fa1517cd590607a53faeb404b4b55db5888/analysis/1410245162/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Shift%20ENB%20-%20Performance-57935-1-2.rar?fid=1000126123&ttl=1535844217&ri=8192&rs=8192&setec=905c80d14785a54ea562cfab8da741e3"
+    }
+  ]
+}

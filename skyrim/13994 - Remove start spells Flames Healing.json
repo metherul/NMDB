@@ -1,0 +1,32 @@
+{
+  "modId": 13994.0,
+  "modName": "Remove start spells Flames Healing",
+  "summary": "Removes the spells Flames and Healing as starting spells for the player.",
+  "descriptionHtml": "Removes the spells Flames and Healing as starting spells for the player.\r\n\r\nNOTE:\r\n-It does so by editing the Player form, so it won\\'t be compatible with other mods that edit the Player\r\n-Does not add spell books for Flames and Healing so it may be necessary to use console or create mod with spell books\r\n\r\nThis was created as demonstration for a particular user so it is not really intended for serious use nor will I be adding features or updating this file.\r\n\r\nA better way to do this would probably to use a Papyrus script that does Game.GetPlayer().RemoveSpell(SpellForm)\r\n\r\n",
+  "categoryId": "93",
+  "version": "1",
+  "author": "DefiniteIntegral",
+  "createdUnix": "1333083182",
+  "updatedUnix": "1333083237",
+  "containsAdultContent": false,
+  "uploadedBy": "DefiniteIntegral",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "48126",
+      "name": "Remove Flames Healing",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Remove Flames Healing-13994-1.rar",
+      "uploadedUnix": "1333083237",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/e9567fa13e1766363409b8cb7877e2a7d7eab2ad90efe97ae9978099ef5e57d2/analysis/1406787197/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Remove%20Flames%20Healing-13994-1.rar?fid=48126&ttl=1535777252&ri=8192&rs=8192&setec=4f470c0a861b712ed77a21b3538a53ce"
+    }
+  ]
+}

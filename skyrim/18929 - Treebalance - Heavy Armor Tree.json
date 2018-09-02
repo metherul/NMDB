@@ -1,0 +1,48 @@
+{
+  "modId": 18929.0,
+  "modName": "Treebalance - Heavy Armor Tree",
+  "summary": "Improves the Heavy Armor perk tree so it makes a bit more sense.",
+  "descriptionHtml": "[font=verdana]Heavy Armor\\'s perk tree mixed its defense and utility perks together and required some odd prerequisites. This is a small change to that.\r\nAlso available on the [url=http://steamcommunity.com/sharedfiles/filedetails/?id=77272635]Steam Workshop[/url].\r\n\r\n[list][*]Fists of Steel\\'s requirement was dropped to 20 to make it available earlier for unarmed builds, and those who do not wish to use unarmed no longer have to spend a perk on it to unlock anything else.\r\n\r\n[*]Cushioned\\'s requirement dropped to 30 to get it out of the way sooner. Its effect was changed from -50% fall damage to -95% fall damage. You\\'ll still need Ethereal Visage to jump off a mountain, but Cushioned should at least be useful now.\r\n\r\n[*]Tower of Strength was moved to the other side of the tree (between Cushioned and Conditioning) and I\\'ve included a [url=http://skyrim.nexusmods.com/mods/11887/]bugfix[/url] so it actually does something. It now correctly gives you a 50% chance to ignore stagger. I\\'ve also included a fix for Force Without Effort so that it drops stagger chance and stacks with Tower of Strength.\r\n\r\n[*]Matching Set was corrected to give a 25% bonus as it reports (it was erroneously giving 20%) and now works with ebony armor sets as well. It also no longer requires a helmet.\r\n\r\n[*]Reflect Blows now requires a heavy armor chest piece and no light armor. Cushioned requires heavy armor boots and no light armor. Well Fitted no longer requires a helmet.[/list]\r\n\r\n\r\n[color=cyan]Light Armor Tree[/color]\r\nA small optional pack for Light Armor now also exists. It doesn\\'t actually touch the tree structure itself (so it\\'s compatible with [url=http://skyrim.nexusmods.com/mods/19867]Ridin\\' Dirty[/url], for example), instead just slightly modifying a few of the perks to better match how I\\'ve set up their Heavy Armor counterparts.\r\n[list][*]Matching Set was corrected to give a 25% bonus as it reports (it was erroneously giving 20%). It also no longer requires a helmet.\r\n[*]Deft Movement now requires a light armor chest piece and no heavy armor. Wind Walker requires light armor boots and no heavy armor. Custom Fit no longer requires a helmet.[/list]\r\n[/font]",
+  "categoryId": "24",
+  "version": "1.02.1",
+  "author": "Kevin Kidder",
+  "createdUnix": "1339937399",
+  "updatedUnix": "1347148928",
+  "containsAdultContent": false,
+  "uploadedBy": "sushisquid",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "83155",
+      "name": "HeavyArmorTree1021",
+      "version": "1.02.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "HeavyArmorTree1021-18929-1-02-1.zip",
+      "uploadedUnix": "1345526730",
+      "modVersion": "1.02.1",
+      "virusScanUrl": "https://www.virustotal.com/file/573ab3207e31dd849a566e6049f12b2843424fbae9f50e5faa1ecabe6563e34c/analysis/1407111547/",
+      "changelogHtml": " Minor corrections to Tower of Strength and Force Without Effort. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HeavyArmorTree1021-18929-1-02-1.zip?fid=83155&ttl=1535786082&ri=8192&rs=8192&setec=8706fdec98abdc352894c30479d86f62"
+    },
+    {
+      "fileId": "87288",
+      "name": "LightArmorTree100",
+      "version": "1.00",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "LightArmorTree100-18929-1-00.zip",
+      "uploadedUnix": "1347148928",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/2b9f1f098fc78240c5cc85fac152e7ba5bad15d073121e2c93f96dd9a3d09348/analysis/1407154387/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LightArmorTree100-18929-1-00.zip?fid=87288&ttl=1535786083&ri=8192&rs=8192&setec=3ea4ebd7a6c67ac9f814ce26c613c486"
+    }
+  ]
+}

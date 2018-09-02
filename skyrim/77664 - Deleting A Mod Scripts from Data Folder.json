@@ -1,0 +1,32 @@
+{
+  "modId": 77664.0,
+  "modName": "Deleting A Mod Scripts from Data Folder",
+  "summary": "Have you ever tried to uninstall a mod along with it&#39;s script without using Mod Manager? \r<br />Yes, sometimes it&#39;s hard and messy. Especially a mod with bunch of scripts.\r<br />Here&#39;s your guide to delete it quickly once you understand the trick. It also works to delete files within folders such as Meshes/Textures which hard to navigat",
+  "descriptionHtml": "This only a GUIDE to show you how to delete scripts from specified mod. \r<br />Because some mods has uncountable amount of scripts and this could save your time.\r<br />\r<br />\r<br />\r<br />Basically i use windows&#39; Force Delete command by running it with Batch file.\r<br />Remember, your deleted file will be [color=#ff0000][size=3]permanently [/size][/color]deleted.\r<br />These steps will work on ANY file with ANY format. You just need to sort them and follow the step. \r<br />\r<br />For advanced user, you can check [url=http://www.computerhope.com/dirhlp.htm]Windows DIR Command[/url] to see more detailed uses of DIR command.\r<br />\r<br />\r<br />STEPS : \r<br />\r<br />[size=3][b]Make sure game is closed and disable the mod you want to delete/uninstall.[/b][/size]\r<br />\r<br />1. Some mods have lots of scripts, and the worse case is the Author didn&#39;t bother with script&#39;s name for easy sorting. This time, open your Mod package and extract the scripts to any NEW folder. \r<br />[img]http://i1049.photobucket.com/albums/s392/StereoxII/1_zpsvpuhg2qs.png[/img]\r<br />\r<br />2. It should looks like this\r<br />[img]http://i1049.photobucket.com/albums/s392/StereoxII/2_zpsxphwhntb.png[/img]\r<br />\r<br />3. Now we&#39;re creating the list of your extracted files name\r<br />a. Open Command Prompt by clicking it on your Start menu or by pressing Windows+R, then type CMD.\r<br />b. And then change directory to your recently extracted Scripts. For this case it&#39;s &#34;D:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;Skyrim Mods&#92;Bash Installers&#92;Scripts&#34; by using command &#34;cd *file Directory&#34; (without quotation marks)\r<br />c. Then type &#34;dir /b&gt;List.txt&#34; (without quotation marks)\r<br />d. Done &#33; Now you have a &#34;List.txt&#34; text file with the scripts&#39; name on that Directory\r<br />\r<br />[img]http://i1049.photobucket.com/albums/s392/StereoxII/3_zpsf4gb6z6r.png[/img]\r<br />\r<br />4. Open with Microsoft Word (i&#39;m using this because it has special character treatment). It should looks like this:\r<br />\r<br />[img]http://i1049.photobucket.com/albums/s392/StereoxII/4_zpskekeingt.png[/img]\r<br />\r<br />5. Use the Replace feature at top right and type:\r<br />- &#34;^p&#34; (without the quotation marks) on Find box\r<br />- &#34;(space)/f^pdel(space)&#34; (without the quotation marks) on Replace box\r<br />- Click replace All. And it should be like this picture.\r<br />- Notice that the top line doesn&#39;t have &#34;del&#34; on the beginning, you can add it manually\r<br />- Save the file\r<br />\r<br />[img]http://i1049.photobucket.com/albums/s392/StereoxII/5_zps8vrv1szu.png[/img]\r<br />\r<br />6. Open the List.txt file with notepad and Save As it as a .BAT file by renaming it to List.bat. Don&#39;t forget to change the format to All Files.\r<br />\r<br />[img]http://i1049.photobucket.com/albums/s392/StereoxII/6_zpsuqnhxl9i.png[/img]\r<br />\r<br />7. Now you have the main tool to delete your scripts. Just run your recently made batch file at your Directory. And deleting file will began\r<br />\r<br />[img]http://i1049.photobucket.com/albums/s392/StereoxII/7_zpsmuuy4a1q.png[/img]\r<br />\r<br />8. DONE &#33;\r<br />[img]http://i1049.photobucket.com/albums/s392/StereoxII/8_zpsviho8tsn.png[/img]",
+  "categoryId": "39",
+  "version": "2",
+  "author": "Stereox",
+  "createdUnix": "1470459651",
+  "updatedUnix": "1470459646",
+  "containsAdultContent": false,
+  "uploadedBy": "Stereox2nd",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000215838",
+      "name": "Example File",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Example File-77664-1.rar",
+      "uploadedUnix": "1470459646",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/22de1bbf3ba1d4ce68b7a666a5452c1db6e0a0e5114d3330c1ed75552229f1cf/analysis/1470459662/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Example%20File-77664-1.rar?fid=1000215838&ttl=1535866288&ri=8192&rs=8192&setec=f802a1a27b9e18652f533545aa455bfe"
+    }
+  ]
+}

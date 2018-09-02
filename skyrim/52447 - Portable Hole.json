@@ -1,0 +1,32 @@
+{
+  "modId": 52447.0,
+  "modName": "Portable Hole",
+  "summary": "A simple mod that adds a &#34;Portable Hole&#34; spell which accesses a static container from anywhere in the world.",
+  "descriptionHtml": "A simple mod that adds a &#34;Portable Hole&#34; spell which accesses a static container from anywhere in the world. Observant prisoners escaping Helgen may discover the spell tome hidden in the corner of a storeroom, and it will still be there if you didn&#39;t get it the first time. The spell tome also has a chance of appearing in merchant&#39;s inventories, and even looted from chests or bodies. \r<br />\r<br />Be sure to remove all items from the portable hole before disabling the mod as anything left inside will be lost forever. \r<br />\r<br />Anyone wishing to translate this mod into another language is free to do so. Crediting me as the originator would be nice. \r<br />\r<br />For those wanting to add the spell tome via console, the ObjectID changes with the order in which the mod is loaded. You can find it by opening the console with the &#34;~&#34; key and entering the following command: \r<br />\r<br />help &#34;Portable Hole&#34; 4 \r<br />\r<br />Be sure to use the quotation marks&#33; Look for the line reading: \r<br />\r<br />BOOK: (**000D66) &#39;Spell Tome: Portable Hole&#39; \r<br />\r<br />The number in parentheses is the ObjectID to use in the next command: \r<br />\r<br />Player.AddItem ObjectID 1 \r<br />\r<br />Enjoy",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "NiSiSuinegEht",
+  "createdUnix": "1395869526",
+  "updatedUnix": "1395869434",
+  "containsAdultContent": false,
+  "uploadedBy": "SenbeiRoshi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000102561",
+      "name": "Portable Hole",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Portable Hole-52447-1-0.rar",
+      "uploadedUnix": "1395869434",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3579bfc07ceacf6cb99e828120db20795e1b85b58ae1695ae4472ae5e11519af/analysis/1407996516/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Portable%20Hole-52447-1-0.rar?fid=1000102561&ttl=1535835484&ri=8192&rs=8192&setec=330408054a7d27122c3927fd4cd11cf5"
+    }
+  ]
+}

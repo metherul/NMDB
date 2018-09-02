@@ -1,0 +1,48 @@
+{
+  "modId": 32477.0,
+  "modName": "Demon Race",
+  "summary": "Demons, from the planes of Oblivion, have descended upon Tamriel to hunt Man and Mer. Not over-powered.",
+  "descriptionHtml": "Requires Dawnguard.\r\n\r\n\r\n\r\n\r\nUPDATE: V2\r\n\r\nVampire Lord power has now been replaced with a proper Demon. This tranformation uses a custom script, however, it is depended on the Companions quest script. Currently, if you use the transformation prior to acquiring the Beast Form power (from the Underforge), you will NOT change back into the normal form.  If you really don\\'t feel like taking the ±10 minutes to finish the first 3 Companion missions (not counting the radiant ones), then you can use the console to transform back (player.setrace demonrace).\r\n\r\nAlso, vampirism is currently semi-supported. To turn into a vampire, open the console and type \\\"player.setrace demonracevampire\\\" without quotes (not case sensitive), after that it is fully supported. I\\'m working to fix this, but it will likely take some time (real-life issues, sorry).\r\n\r\nNote: credit for the Demon form character model (the meshes and textures) goes to a modder whose name I\\'ve forgotten (sorry). I think it\\'s from one of the many mods that adds creatures, but I could be wrong.\r\n\r\n\r\n\r\n\r\nNote that there is, as of yet, no design for the female of this race, thus they look like a normal Bosmer (only taller).\r\n\r\nAdds a Demonic race to Skyrim. It does have some vampiric attributes, but take note that this is NOT actually a vampire race. The appearance is based on Bosmer, but taller and with blue, black, and red skin colors.\r\n\r\nHailing from the planes of Oblivion, Demons descend upon Tamriel to hunt Man and Mer. Their demonic blood grants complete immunity from all diseases and poisons of this world, invisibility, lifedrain, and the ability to transform into a demon\r\n\r\nBe wary of the effects of Vampirism upon demonic blood.\r\n\r\nJust a Demon race that I made for my own personal use, and decided to upload to Nexus just because I noticed a marked lack of demonic mods (apart from Dremora). I never really liked Dremora because they seem so out of place in normal Skyrim society, so I made this race as an alternative: a demonic race that blends into Skyrim society.\r\n\r\nTo install: Overwrite \\\"\\\\The Elder Scrolls V Skyrim\\\\Data\\\" with the included \\\"Data\\\" folder, and place \\\"DemonicRace.esp\\\" into the data folder.\r\n\r\nCompatibility: Should be compatible with all other mods, except those which change \\\"PlayerVampireQuest\\\" (so, not compatible with mods that alter vampirism, unless you edit the vampire quest script for that mod). Uses the vanilla textures, though, so anything that changes these will have an effect. Semi-vampire and werewolf compatible.\r\n\r\nPermissions: Feel free to edit, FOR YOUR PERSONAL USE ONLY. Feel free to make suggestions, although I make no promises to listen. Please, do not upload to any other sites without my permission.\r\n\r\nIf you like it, please endorse.\r\n\r\nPlease download from the mirror site, if you can.\r\n\r\nPlease remember that this is a work in progress.\r\n\\\\Shadow1808",
+  "categoryId": "34",
+  "version": "V2",
+  "author": "Shadow1808",
+  "createdUnix": "1361981763",
+  "updatedUnix": "1366925659",
+  "containsAdultContent": false,
+  "uploadedBy": "Shadow1808",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000013616",
+      "name": "DemonRace V1",
+      "version": "V1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "48",
+      "fileName": "DemonRace-32477-V1.7z",
+      "uploadedUnix": "1361971822",
+      "modVersion": "V1",
+      "virusScanUrl": "https://www.virustotal.com/file/12dc023a11722c12df24c18fdf1eb1c35f010e7734ca4e8fb317fa6d5320fad7/analysis/1407442205/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DemonRace-32477-V1.7z?fid=1000013616&ttl=1535808979&ri=8192&rs=8192&setec=ed4938b70e5d5ffd31bd0f4c0c97631c"
+    },
+    {
+      "fileId": "1000026458",
+      "name": "DemonRace V2",
+      "version": "V2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "27648",
+      "fileName": "DemonRace-32477-V2.rar",
+      "uploadedUnix": "1366925659",
+      "modVersion": "V2",
+      "virusScanUrl": "https://www.virustotal.com/file/63f307ed773aeb15b8367bcbe98b5264db6d74652a83260223f9cbcd64348cf3/analysis/1407539506/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DemonRace-32477-V2.rar?fid=1000026458&ttl=1535808980&ri=8192&rs=8192&setec=a3f5a075f3f85d984f947c3ed9df5dff"
+    }
+  ]
+}

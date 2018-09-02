@@ -1,0 +1,32 @@
+{
+  "modId": 50064.0,
+  "modName": "TK Children Bigger Head",
+  "summary": "TK Children is really good new morph file mod for children, but heads are unfortunately to small to look natural for kids. To me they look like small adults. So I made relatively simple fix for that.",
+  "descriptionHtml": "[b][u]Meant to be used with[/b][/u]\r<br />[url=http://www.nexusmods.com/skyrim/mods/49756/]TK Children[/url]\r<br />\r<br />[b][u]Short Version[/b][/u]\r<br />- changes head size of tk children so it looks more proportional\r<br />- works with ALL DLC, but requires NONE\r<br />- place bellow all tk children plugins\r<br />\r<br />[b][u]Does not include any files from tk children, though its meant to be used with that mod[/b][/u]\r<br />\r<br />[b][u]Long Version[/b][/u]\r<br />This mod will change head size of children with skeleton. By default children use normal adult skeleton, but since tktk1 changed head mesh the heads are no longer proportional to their body for children that is. I increased head size from 1.0 to 1.12 (in skyrim skeleton scale). \r<br />\r<br />Do not use this mod if you don&#39;t have tktk children, it will work without problem, but sizes of children head will be enormous. \r<br />\r<br />Also this mod includes 0 files from tk children, its just a plugin that changes the race skeleton record. However in load order place my plugin (childskeltonfix) bellow TK children. This ensures game will use my skeleton files (which I separated from vanilla).\r<br />\r<br />Does not work well with xvision.\r<br />\r<br />You can see how sad this child is before and then how happy he is after, because he looks more normal.\r<br />[img]http://static1.nexusmods.com/15/mods/110/images/50064-1-1390089564.gif[/img]\r<br />\r<br />[b][u]Free to use this file[/b][/u]",
+  "categoryId": "99",
+  "version": "1.0",
+  "author": "D4rkAv3ng3r",
+  "createdUnix": "1390083747",
+  "updatedUnix": "1390083642",
+  "containsAdultContent": false,
+  "uploadedBy": "D4rkAv3ng3r",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000092092",
+      "name": "TK ChildrenHeadFix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "TK ChildrenHeadFix-50064-1-0.7z",
+      "uploadedUnix": "1390083642",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/83e512e324e052340d1cb22b98f309319f5d1bd0fcb952f2a220548ca7175a28/analysis/1407891738/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TK%20ChildrenHeadFix-50064-1-0.7z?fid=1000092092&ttl=1535831533&ri=8192&rs=8192&setec=593ff5c5b2c829df3ea3b8e7f50657c0"
+    }
+  ]
+}

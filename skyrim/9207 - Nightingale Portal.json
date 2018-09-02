@@ -1,0 +1,48 @@
+{
+  "modId": 9207.0,
+  "modName": "Nightingale Portal",
+  "summary": "Adds portals connecting Twilight Sepulcher to the Nightingale Hall after the quest Darkness Returns is completed. This also works properly even if you already completed that quest.",
+  "descriptionHtml": "Adds portals connecting Twilight Sepulcher to the Nightingale Hall after the quest Darkness Returns is completed. This also works properly even if you already completed that quest.\r\n\r\nAt the end of Darkness Returns Karliah promises that there will be a portal connecting Nightingale Hall to the Twilight Sepulcher, yet none ever appears in game. This plugin attempts to fix that blunder on the developers\\' part by introducing such portal into the game, but only after the aforementioned quest is completed.\r\n\r\nIn Nightingale Hall the portal is located in the same room where you receive Hightingale Armor during Trinity Restored quest. If you haven\\'t yet completed Darkness Returns quest, the portal will be inactive with just an empty alcove in the wall (can be seen in one of the screenshots). In Twilight Sepulcher the portal exits into Inner Sanctum, replacing one of the three portals that are already there (the type of the portal is auto-load, in contrast to the other two \\'on-activate\\' ones).\r\n\r\nAlso Karliah will now stay at Nightingale Hall after the quest Darkness Returns (you have to exit the Inner Sanctum of Twilight Sepulcher first). Additionally, there is a minor fix to the scripts of The Litany of Larceny quest so that when you pick up the 7th item (usually it is the Left Eye of the Falmer), you will still be able to turn it in with Delvin (but this mod must be installed before you pick the last item in order for that to work).\r\n\r\nThere is also a minor fix in Karliah\\'s dialogue where three options about Nightingale Agent roles started appearing after the quest Blindsighted. These are now only available after you\\'ve returned the Skeleton Key when you have to choose the role.",
+  "categoryId": "95",
+  "version": "1.2",
+  "author": "George1",
+  "createdUnix": "1329063537",
+  "updatedUnix": "1329493595",
+  "containsAdultContent": false,
+  "uploadedBy": "George1",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "31550",
+      "name": "Nigtingale Portal v1-1",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "40",
+      "fileName": "Nigtingale Portal v1-1-9207.rar",
+      "uploadedUnix": "1329322641",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/42335d8ccb7b216f8fe733f51fb829332459863aec82bc99a461be987c2d39c4/analysis/1406684535/",
+      "changelogHtml": " Fixed The Litany of Larceny quest to normally register all 7 items <br/> \n Fixed the three dialogue options with Karliah about the Nightingale Agent roles incorrectly appearing after the quest Blindsigted <br/> \n Fixed Karliah staying at Snow Veil Sanctum after the whole Thieves Guild quest line is completed <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Nigtingale%20Portal%20v1-1-9207.rar?fid=31550&ttl=1535768531&ri=8192&rs=8192&setec=b688ff37228db678e09080da9825d279"
+    },
+    {
+      "fileId": "32628",
+      "name": "Nightingale Portal v1-2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "41",
+      "fileName": "Nightingale Portal v1-2-9207-1-2.rar",
+      "uploadedUnix": "1329493595",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/26881d9dcf690df45667f471f5ba07ed0ccc1a5960d89a40b1107139c36307d7/analysis/1406690222/",
+      "changelogHtml": " Fixed opening animation of Ebonmere not playing sometimes upon entering the Twilight Sepulcher <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Nightingale%20Portal%20v1-2-9207-1-2.rar?fid=32628&ttl=1535768531&ri=8192&rs=8192&setec=eb80b154d13f96bc7465bad6a60580e2"
+    }
+  ]
+}

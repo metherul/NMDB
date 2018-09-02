@@ -1,0 +1,48 @@
+{
+  "modId": 73926.0,
+  "modName": "Atronach&#39;s Allies - helpful ability for characters with Atronach Birthstone",
+  "summary": "Adds an ability and dialogue options to ask your followers and friends to hit you with damaging spells. What would be useless for most, makes a huge difference for characters with Atronach Birthstone, unable to regenerate Magicka on their own. ",
+  "descriptionHtml": "[b][size=6]Atronach&#39;s Allies\r<br />[size=4]a helpful ability for characters with Atronach Birthstone[/size][/size][/b]\r<br />\r<br />This is a simple mod I made for my character, who was a mage born under the Atronach sign. I was using Kryptopyr&#39;s [url=http://www.nexusmods.com/skyrim/mods/63354/?]Disparity[/url] mod, which makes the Atronach Birthsign work like in previous games, completely negating player&#39;s ability to regenerate Magicka and making them rely purely on their spell absorption. My character wasn&#39;t into alchemy either, so he had a [i]bit[/i] of a problem staying alive. \r<br />\r<br />At some point I had to use one of the Nordic pillar traps that spew flames in order to fill up my Magicka, and asked myself this: why do I need to rely on these random occurrences? Can&#39;t I just ask my fellow mage colleagues to do the same, but in a controllable manner? \r<br />\r<br />Well, with this mod you can do that. The mod adds a dialogue option to certain NPCs so that they will start casting a modified Flames spell for about 15-20 seconds. You can ask your followers, as well as priests, court wizards, mages in College of Winterhold, or anyone who is your friend (relationship rank &gt;=1, value that can be modified in the MCM). This will start a short animation package with your ally hitting you with said spell. These spells won&#39;t damage anyone else other than you. I have also implemented a Magicka drain effect, since asking NPCs to cast spells via packages doesn&#39;t actually make them use up their Magicka.\r<br />\r<br />[youtube]Ufl1HzrP3C8[/youtube]\r<br />\r<br />Just in case something bad happens to you, your Ally will stop casting if you interrupt them with dialogue, or start healing yourself. \r<br />\r<br />Another feature is a lesser power which automatically triggers a similar animation, but using Firebolt instead. The power can be used either via a magic menu, or with a key press (set in MCM). This power has a few advantages: first of all, it can be used whilst in battle - it will find a random ally nearby and make them stop whatever they are doing to help you. Secondly, you can also target your certain summoned creatures - Flame and Storm Atronachs, Seekers and Ash Spawns.\r<br />\r<br />The dialogues activate when you are holding a ward, so that you can replenish your Magicka with correct perks. Please note that you won&#39;t get any experience that way. \r<br />\r<br />This mod can easily make your character overpowered, but at the same time I find it much weirder that I couldn&#39;t ask my followers to supply my with Magicka, that [i]one thing[/i] they had the abundance of. \r<br />\r<br />[b]MCM options include:[/b]\r<br />[list]\r<br />[*][size=2]Configurable magnitude of the fake spells (25% - 175%),[/size]\r<br />[*][size=2]configurable optional hotkey of the Atronach Ally Field command,[/size]\r<br />[*][size=2]Configurable[url=http://www.uesp.net/wiki/Skyrim:Disposition] relationship rank[/url] with strangers that could be potential allies,[url=http://www.uesp.net/wiki/Skyrim:Disposition][/url][/size] \r<br />[*][size=2]Debug mode, just in case something goes wrong. [/size]\r<br />[/list] \r<br /> [b][size=4]Troubleshooting[/size][/b]:\r<br />The scenes won&#39;t always play as intended, making your ally stop after saying &#34;of course&#34;. I guess this is a problem with their packages conflicting. In order to prevent any problems: a) whatever action we are attempting will cease itself after 30 seconds, b) if a scene starts playing, it will cease after 15 seconds , c) if a scene started playing, and animation bugged or hasn&#39;t started, you can ask your ally to &#34;Stop that&#33;&#34;, either via dialogue or MCM debug options.\r<br />\r<br />\r<br />[Heading][size=3]Translations [/size][/Heading]\r<br />The mod has been localised in TesVedit, translated in [url=http://www.nexusmods.com/skyrim/mods/29148/?]TesVTranslator[/url]; all of the Strings files are included in the archive. MCM is translatable as well.\r<br />Currently supported languages: [b]English[/b], [b]Polish[/b] and [b]Japanese (1.1 onwards, thanks to BowmoreLover)[/b]. Other languages use English as base. If you are expecting CTDs because of my mod and you are not playing any of the translated languages, contact me. If you would like to translate the mod, contact me, so I can credit you and include your strings in my mod&#33;\r<br />\r<br /> [img width=67,height=45]https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png[/img] [img width=67,height=45]https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/800px-Flag_of_Poland.svg.png[/img] [img width=67,height=45]https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/900px-Flag_of_Japan.svg.png[/img] \r<br />\r<br />Version 1.1 uses [url=http://www.nexusmods.com/skyrim/mods/57308/?]UILIB_1[/url] to make certain notifications translatable.\r<br />\r<br />Mods used in the video:\r<br />[list]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/63354/?]Disparity[/url], by Kryptopyr[/size]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/20861/?]Horns are forever[/url], by Chilean Wolf[/size]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/13486/?]Winter is Coming - cloaks[/url], by nivea[/size]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/19733/?]Immersive armors[/url], by hothtrooper[/size]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/32458/?]Konahriks Accoutrements[/url], by edhelsereg[/size]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/57872/?]Improved Artifacts Collection[/url], by[b] [/b]Zim[/size]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/24806/?]Oblivion Artifact Pack[/url], by Watcherzero[/size]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/3222/?]Immersive Hud[/url], by Gopher [/size]\r<br />                                       [/list] \r<br /> ",
+  "categoryId": "34",
+  "version": "1.1",
+  "author": "piotrmil",
+  "createdUnix": "1456927802",
+  "updatedUnix": "1469810480",
+  "containsAdultContent": false,
+  "uploadedBy": "piotrmil",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000197886",
+      "name": "Atronachs Allies",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "20",
+      "fileName": "Atronachs Allies-73926-1-0.7z",
+      "uploadedUnix": "1456926755",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4e9491c567ee398349362849c5a104019f286d99f4eb63fa8f0bcc3be8f1c2fa/analysis/1456926783/",
+      "changelogHtml": " Initial release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Atronachs%20Allies-73926-1-0.7z?fid=1000197886&ttl=1535862664&ri=8192&rs=8192&setec=6fb4af6428d5fe87e210c799a2bd2de5"
+    },
+    {
+      "fileId": "1000214892",
+      "name": "Atronach Allies version 1.1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "98",
+      "fileName": "Atronach Allies version 1.1-73926-1-1.7z",
+      "uploadedUnix": "1469810480",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/bd467c6822247ca2a3703ad09267873ea02bfbb287b38bf45e50dcf509ac0c5f/analysis/1469810522/",
+      "changelogHtml": " Translatable files. Now includes UILIB_1 library, to make some of the notifications translatable. <br/> \n (29-07-2016) I found a problem with the strings, I have fixed it. Also contains Japanese strings by BowMoreLover <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Atronach%20Allies%20version%201.1-73926-1-1.7z?fid=1000214892&ttl=1535862664&ri=8192&rs=8192&setec=1118d943195978faa5b6af8205a514d7"
+    }
+  ]
+}

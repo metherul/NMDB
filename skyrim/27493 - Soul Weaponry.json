@@ -1,0 +1,32 @@
+{
+  "modId": 27493.0,
+  "modName": "Soul Weaponry",
+  "summary": "Adds 3 new weapons (with multiple tiers) using mashups of ingame models.",
+  "descriptionHtml": "This mod adds 3 new varieties of weapon, for 1h, 2h, and archery respectively.\r\nThese weapons are made from a bond with your soul and a weapon.  They soul trap on hit, and have an enchantment that deals armor-ignoring damage.\r\n\r\nFor 1h, there is the Soul Sword line, with 5 tiers and a unique enchantment and look.\r\nFor 2h, there is the Soul Axe line, also with 5 tiers and a unique enchant.\r\nFor archery, there is the Soul Bow line, again with 5 tiers, etc, etc.\r\n\r\nTo craft them, under the \\\"Draugr\\\" category, you should see at least one recipe for each weapon, the starter for each line.  To craft, you need a basic weapon from that category (longbow/iron sword/iron battleaxe) and a filled petty soul gem.  For each upgrade to the next weapon, you need the previous tier and a filled soul gem of a higher tier than the previous level, i.e. Petty->Lesser->Common->Greater->Grand.  Honing your weapons also take a filled soul gem of the appropriate tier.\r\n\r\nThe complete list is as follows:\r\n\r\nSoul Sword:\r\nSoul Splinter->Soul Shard->Soul Echo->Soul Blade->Soul Ascension\r\n\r\nSoul Axe:\r\nSoul Hacker->Soul Splitter->Soul Cleaver->Soul Ravager->Soul Executioner\r\n\r\nSoul Bow:\r\nSoul Whisper->Soul Breeze->Soul Gust->Soul Whirlwind->Soul Hurricane\r\n\r\nTo craft each tier, you need:\r\n\r\nTier 1: no req\r\nTier 2: Elven/Dwarven Smithing OR be level 10 or higher\r\nTier 3: Advanced Armors/Orcish Smithing OR be level 20 or higher\r\nTier 4: Glass/Ebony Smithing OR be level 30 or higher\r\nTier 5: Dragon Armor/Daedric Smithing OR be level 40 or higher\r\n\r\nThe tier 5 weapons have the same base damage as their ebony counterparts, but their added enchantment brings them above base daedric (the enchant damage is not improved at crafting wheel, so an enchanted, fully smithed daedric weapon is still better).  Been using a T4 sword on a level 35 mage, feels pretty damn balanced.  Feedback is appreciated.\r\n\r\nKnown bugs:  The soul bows all show the initial bound bow anim. when drawn, but then the effect fades.  I am trying to figure out why this happens for the bows exclusively, but I figured I should publish it anyways since it\\'s mostly done.  \r\n\r\nManual Installation:  \r\n1.  Extract SoulWeapon.7z using 7zip.\r\n2.  Inside is a file called SoulWeapon.esp, copy/move this to your Skyrim Data folder (under your Skyrim main directory).\r\n3.  When you launch the game via the launcher, go to Data Files, scroll down to find SoulWeapon.esp, and check it.\r\n4.  Ta Da!  But really, Nexus Mod Manager is much better/easier when you have a lot of mods.\r\nUninstall:\r\n1.  Uncheck SoulWeapon.esp in the launcher\\'s Data Files submenu.\r\n2.  Delete SoulWeapon.esp from the Data folder under the Skyrim folder.\r\n3.  Get Nexus Mod Manager so you can uninstall with 1/2 clicks.\r\n\r\nFor those who want to know what armors are in the screenshots:\r\n1: [url=http://skyrim.nexusmods.com/mods/20077]Tribunal Robes[/url] by Zairaam\r\n2: [url=http://skyrim.nexusmods.com/mods/6249]The Dark Brotherhood Armor TS Edition[/url] by TS/nockchaa\r\n3: [url=http://skyrim.nexusmods.com/mods/23530]Dwemer Power Armor[/url] by lautasantenni",
+  "categoryId": "55",
+  "version": "1.0",
+  "author": "Azeal",
+  "createdUnix": "1354049989",
+  "updatedUnix": "1354050160",
+  "containsAdultContent": false,
+  "uploadedBy": "matthias5770",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "101971",
+      "name": "Soul Weaponry",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Soul Weaponry-27493-1-0.7z",
+      "uploadedUnix": "1354050160",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3a18eb967e28aab12ce7ef46621c833958cb2220cf72fde40a468f03aecafd25/analysis/1407280928/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Soul%20Weaponry-27493-1-0.7z?fid=101971&ttl=1535800267&ri=8192&rs=8192&setec=d38b00bb58def8b747e9166c67784bb8"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 40981.0,
+  "modName": "Storm Call Plus",
+  "summary": "Uses a smarter and more vicious magic effect for the Storm Call shout, that targets enemies and avoids friendly NPCs.",
+  "descriptionHtml": "[b][color=red]Storm Call Plus will no longer be receiving updates.  The project has been moved to [url=http://www.nexusmods.com/skyrim/mods/51166]http://www.nexusmods.com/skyrim/mods/51166[/url].[/color][/b]\r<br />\r<br />Version 2.02\r<br />\r<br />Thanks to everyone who downloaded the mod before. I strongly recommend, however, that you keep up to date by uninstalling the older version of Storm Call Plus, because the latest version addresses issues with any older versions.\r<br />\r<br />Here is a more practical version of the Storm Call (strun bah qo) shout.  The vanilla version is one of the more powerful shouts, but also the most dangerous.  Since it fires randomly, you can end up missing enemies and hitting allies instead, and so they turn against you and die.  Also, in the vanilla game, the shout itself can get you a bounty, even if it doesn&#39;t hit anyone.  So, Storm Call Plus offers a helpful change to the mechanics of the storm so that it won&#39;t kill neutral or allied NPCs, and will instead target enemies.\r<br />\r<br />== GAMEPLAY EFFECTS ==\r<br />Storm Call Plus makes these changes:\r<br />- Just shouting does not count as offensive, and will not automatically earn you a bounty.\r<br />- Nearby and flying enemies are the highest priority target for the lightning bolts.\r<br />- NPCs who are friendly to you will not be directly targeted, however there is a small chance that a stray lightning bolt may hit them.\r<br />\r<br />The recharge and spell durations are the same as before.  I may change this in a later version of the mod.\r<br />\r<br />==REQUIREMENTS==\r<br />[strike]SKSE (Skyrim Script Extender)[/strike]\r<br />No DLC required.\r<br />\r<br />==INSTALLATION==\r<br />First, if you have an older version of Storm Call Plus, remove those files.\r<br />The download should only contain two files, StormCallPlus.esp and StormCallPlus.bsa.\r<br />Then, install the latest version using NMM, or copy StormCallPlus.esp and StormCallPlus.bsa to your Skyrim/Data folder.\r<br />In your load order, Storm Call Plus should go after any mods that affect the player&#39;s dragon shouts.\r<br />\r<br />==UNINSTALLATION==\r<br />Uninstall using NMM, or delete StormCallPlus.esp and StormCallPlus.bsa from your Skyrim/Data folder.\r<br />\r<br />==COMPATIBILITY==\r<br />Any mod that directly changes the Storm Call shout will probably conflict with Storm Call Plus.\r<br />Since Storm Call Plus relies on scripts, it is possible to run into script issues during a shouted\r<br />storm, especially if you start messing around with the console while the storm is active. None were\r<br />found during testing, but I can&#39;t guarantee that some mods out there could interfere.\r<br />\r<br />Known Compatible Mods:\r<br />- Improved Dragon Shouts by Ozram (http://www.nexusmods.com/skyrim/mods/14353).\r<br />- Dragon Shouts Overhaul by Dave1029 (http://www.nexusmods.com/skyrim/mods/31725).\r<br />- Resilient Dragons by Kenomica (http://www.nexusmods.com/skyrim/mods/10591).\r<br />\r<br />(Note: these mods are individually in/compatible with Storm Call Plus. I do not know whether they are all in/compatible with one another.)\r<br />\r<br />Known INcompatible Mods:\r<br />- None (so far)&#33;\r<br />\r<br />If you run into any issues and you suspect that Storm Call Plus is the culprit, please post details\r<br />about the problem on the forums or contact me so that I can address the issue.\r<br />\r<br />Have fun, and please endorse the mod if you like it&#33;\r<br />",
+  "categoryId": "104",
+  "version": "2.02",
+  "author": "Zipzod",
+  "createdUnix": "1377465341",
+  "updatedUnix": "1388389397",
+  "containsAdultContent": false,
+  "uploadedBy": "zipzod",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000049555",
+      "name": "stormcallplus_v1",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "stormcallplus_v1-40981-1-0.zip",
+      "uploadedUnix": "1377465207",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ec63820b06843cda0053d38946519c743d3febc0ac4a8a79d14e2e7f615198cb/analysis/1407696517/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/stormcallplus_v1-40981-1-0.zip?fid=1000049555&ttl=1535821693&ri=8192&rs=8192&setec=2e632d434486381178f764985cdeb2f7"
+    },
+    {
+      "fileId": "1000088918",
+      "name": "StormCallPlus_2_02",
+      "version": "2.02",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "StormCallPlus_2_02-40981-2-02.zip",
+      "uploadedUnix": "1388389397",
+      "modVersion": "2.02",
+      "virusScanUrl": "https://www.virustotal.com/file/c678017f8362b2e8995afb944077462938b139b5f56a93c967b5cb95a24e4ebb/analysis/1407864363/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/StormCallPlus_2_02-40981-2-02.zip?fid=1000088918&ttl=1535821693&ri=8192&rs=8192&setec=3ee2b8b943c5f5ba7f13c1fc645ff4f2"
+    }
+  ]
+}

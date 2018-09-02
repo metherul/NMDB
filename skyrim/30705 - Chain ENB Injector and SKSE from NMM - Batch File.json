@@ -1,0 +1,32 @@
+{
+  "modId": 30705.0,
+  "modName": "Chain ENB Injector and SKSE from NMM - Batch File",
+  "summary": "Just a small batch file you can run from Nexus Mod Manager (or anywhere) that will first check to see if ENBInjector.exe is running, and start it if necessary, before running SKSE and starting Skyrim.",
+  "descriptionHtml": "I was getting awfully tired of having to start the injector before running Skyrim each time, or accidentally opening it multiple times and having multiple redundant processes running.\r\n\r\nThis is designed for people who use [url=http://www.enbdev.com/download_mod_tesskyrim.htm]Boris Vorontsov\\'s ENB\\'s injector version[/url] for post-processing effects and [url=http://skse.silverlock.org/]the Skyrim Script Extender (SKSE)[/url] for script extensions. If you are not using SKSE, it can be modified by changing the line reading \\\"skse_loader.exe\\\" to \\\"TESV.exe\\\" in order to chain ENB and Skyrim directly.\r\n\r\nJust drop this into your main Skyrim directory (NOT .\\\\Data, but the directory above it) and either run it by itself, or use it as a custom command from NMM. Note: This was designed to be run with the injector (not wrapper) version of ENB. I\\'m using [url=http://www.enbdev.com/mod_tesskyrim_v0144.htm]v0.144[/url] (all hail Boris Vorontsov and ENB...), but anything using \\\"ENBInjector.exe\\\" should work. Like I said, it\\'s a very simple batch file, and you can edit it accordingly if you need to, but this might save people some headaches.\r\n\r\n[b]NOTE: NMM will put this under .\\\\Data. Please move it up a directory. With a utility this small, you\\'re likely better off using the manual download anyway.[/b]",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "Marius2k4",
+  "createdUnix": "1359540693",
+  "updatedUnix": "1359539763",
+  "containsAdultContent": false,
+  "uploadedBy": "marius2k4",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000005852",
+      "name": "Chain ENB and SKSE",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Chain ENB and SKSE-30705-1-0.zip",
+      "uploadedUnix": "1359539763",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d263682292205e53ccc0ba83ae59e007ea73a3e5b8a0dfd707abf97993efca93/analysis/1407387099/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Chain%20ENB%20and%20SKSE-30705-1-0.zip?fid=1000005852&ttl=1535805747&ri=8192&rs=8192&setec=7fce409aa0fc34c34be23c2fb535c186"
+    }
+  ]
+}

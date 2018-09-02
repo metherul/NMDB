@@ -1,0 +1,32 @@
+{
+  "modId": 60773.0,
+  "modName": "Serana No Hood After Cure",
+  "summary": "A small script mod to make Serana remove her hood after she is cured. Give her any helmet or circlet and she will equip those, but she will no longer wear her vampire hood.",
+  "descriptionHtml": "[size=2][b]Summary[/b]\r<br />[/size][list][*][size=2]Serana will always equip her hood even after she is cured. Even if you console command &#34;removeitem&#34; her hood away, she will conjure up a new hood later. She needed the hood when she was a vampire, but now you&#39;ve cured her, she still wears it outside for no reason.[/size][/*]\r<br />[*][size=2]This mod aims to fix that&#33; Serana still wears her hood when she is a vampire. But if she is cured, she will no longer wear the hood&#33;[/size][/*]\r<br />[*][size=2]The mod doesn&#39;t override anything in the master files or change any Dawnguard script, so it should be completely conflict free. The only thing it does is adding a small script to remove her hood from her inventory whenever she equips it.[/size][/*]\r<br />[/list][size=2]\r<br />[/size][size=2][b]Details[/b]\r<br />[/size][list][*][size=2]This mod adds an invisible quest with a Serana reference alias.[/size][/*]\r<br />[*][size=2]There is a script attached to the alias that listens to onObjectEquipped.[/size][/*]\r<br />[*][size=2]If the object equipped is Serana&#39;s hood, call removeHoodIfNecessary.[/size][/*]\r<br />[*][size=2]On the reference alias&#39;s init, also call removeHoodIfNecessary.[/size][/*]\r<br />[*][size=2]removeHoodIfNecessary checks to see if Serana has the &#34;Vampire&#34; keyword, and removes her hood from inventory is she doesn&#39;t.[/size][/*]\r<br />[*][size=2]Mod should take into effect immediately after you load your last save if Serana is cured.[/size][/*]\r<br />[*][size=2]If Serana hasn&#39;t been cured, this mod will come into effect when she leaves Falion&#39;s house.[/size][/*]\r<br />[*][size=2]To get Serana to wear different cuirass or boots, you&#39;ll still need to give her something she would wear over her Vampire Royal Armor.[/size][/*]\r<br />[/list][size=2]\r<br />[b]Installation\r<br />[/b][/size][list][*][size=2]Dawnguard is required\r<br />[/size][/*]\r<br />[*][size=2]Install with your mod organizer or extra all contents of .rar file into your Skyrim directory.[/size][/*]\r<br />[*][size=2]Uninstall with your mod organizer or delete &#34;data/SeranaNoHood.esp&#34;, &#34;data/scripts/SeranaHoodRemovalScript.pex&#34;, and &#34;data/scripts/source/SeranaHoodRemovalScript.psc&#34; from your Skyrim directory.[/size][/*]\r<br />[/list][size=2]\r<br />[/size][size=2][b]Compatibility[/b]\r<br />[/size][list][*][size=2]This mod does not alter any original records.[/size][/*]\r<br />[*][size=2]Only conflicts would be if some other mod deletes the original Serana, Serana&#39;s hood, or &#34;Vampire&#34; keyword from the game.[/size][/*]\r<br />[*][size=2]If you are running many script heavy mods, you may have script lag. That will affect this mod, and hood might not disappear quickly.[/size][/*]\r<br />[/list][size=2]\r<br />[b]Mod in Screenshots[/b]\r<br />[/size][list][*][size=2][url=http://www.nexusmods.com/skyrim/mods/37861/?]Skyrim Beautiful Followers - SBF[/url] by hrk1025.[/size][/*]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/22239/?]Dawnguard Vampire Armors CBBEv3 Echo[/url] by Echo 1162[/size][/*]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/4708/?]Triss Armor Retextured CBBE HDT[/url] by Psyke23, oldholo, and ChronoTrigger77[/size][/*]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/12273/?]Caliente&#39;s Vanilla Outfits for CBBE[/url] by Caliente[/size][/*]\r<br />[/list]",
+  "categoryId": "33",
+  "version": "1.0",
+  "author": "WankingSkeever",
+  "createdUnix": "1418598726",
+  "updatedUnix": "1418598364",
+  "containsAdultContent": false,
+  "uploadedBy": "theregisteredone",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000138883",
+      "name": "Serena No Hood After Cure",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Serena No Hood After Cure-60773-1-0.rar",
+      "uploadedUnix": "1418598364",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/bbc79784c67cf23f17840c0eb5b7fd30cb857f73ab9b78150895ab56257d04b6/analysis/1418598422/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Serena%20No%20Hood%20After%20Cure-60773-1-0.rar?fid=1000138883&ttl=1535848736&ri=8192&rs=8192&setec=df345cb8741a337b627ea5c67078cc42"
+    }
+  ]
+}

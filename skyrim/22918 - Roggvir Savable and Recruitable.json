@@ -1,0 +1,32 @@
+{
+  "modId": 22918.0,
+  "modName": "Roggvir Savable and Recruitable",
+  "summary": "Frustrated by the way Roggvir is killed by script, even though you worked so diligently to save him from the chopping block?  Well, be frustrated no longer, friend!  With a few changes to the Solitude Opening quest, you now have a chance to actually save his life.  If you\\'re successful, he\\'ll be quite willing to become a loyal follower, and possi",
+  "descriptionHtml": "FOLLOWER ROGGVIR\r\nFrustrated by the way Roggvir is killed by script, even though you worked so diligently to save him from the chopping block?  Well, be frustrated no longer, friend!  With a few changes to the Solitude Opening quest, you now have a chance to actually save his life.  If you\\'re successful, he\\'ll be quite willing to become a loyal follower, and possibly more.\r\n\r\nINSTALLATION\r\nLocate your SKYRIM installation.  For most users, it will be \\\"c:\\\\program files (x86)\\\\Steam\\\\SteamApps\\\\Common\\\\Skyrim\\\\\\\"\r\n\r\nDrop the ESP and the BSA into your Skyrim\\\\Data folder, and activate the ESP file from the title screen of the game (Or use Nexus Mod Manager).  The script in the Scripts folder of this archive is only included in case the BSA doesn\\'t work for whatever reason.  Beware, this overrides the default script fragments for the SolitudeOpening, but is necessary to make things work.\r\n\r\nUNINSTALL\r\nLocate your SKYRIM installation.  For most users, it will be \\\"c:\\\\program files (x86)\\\\Steam\\\\SteamApps\\\\Common\\\\Skyrim\\\\\\\"\r\n\r\nRemove the script (QF_DialogueSolitudeOpeningSce_000B2FD9.pex) from the Skyrim\\\\Data\\\\Scripts folder, and delete the ESP and BSA(RoggvirFollower.esp and RoggvirFollower.bsa, respectively) from your Skyrim\\\\Data folder.\r\n\r\nSAVING HIM FROM THE CHOPPING BLOCK\r\nThis really shouldn\\'t be attempted unless you have a strong sneak skill.  Magic is probably not a good idea here... noise will cause lots of problems.  You really need to be able to take out the targets with one shot.  Otherwise, you just piss everyone off & end up very dead, very quickly.  Likewise, Captain Aldis, the guard to his left, and the headsman will all immediately gun for Roggvir.  Him being defenceless at this point, he doesn\\'t stand much of a chance.\r\n\r\nTake out the guard at the top of the stairs first.  Stealth kills here, again, like I said.  Then Captain Aldis.  By this point, the headsman will realize something\\'s wrong, but Roggvir now has a chance to survive.  Take out the headsman, and from that point, everyone else will just wander around a bit, confused.  Even with the primary players dead (save for Roggvir, the point of the exercise, no?), the crowd still stands around, since everything\\'s runnng on a timer.\r\n\r\nRoggvir will move back to the headsman\\'s block and stand there, still bound.  Wait until he starts to walk away and eveyrone begins to move back into their default routine.  That\\'s the cue that the quest has finished, and this is when you can talk to Roggvir.  He\\'ll have one option available: Follow.  That\\'s it, that\\'s all.\r\n\r\nPay off any bounty you might have gained during the commission of this escapade, and you\\'re off to the races.  I suggest kitting him out in something more appropriate than the prison garb he\\'s in, but that\\'s up to you.  From this point on, he\\'s essential, and scales to the player.  He has no alliances to the city of Solitude (crime faction, town faction, etc), so no worries about committing crimes in Haafingar and him getting in a twist about it.\r\n\r\nCAVEATS\r\nAlso, as a few people have pointed out, killing the Captain and the headsman will most certainly break several quests, and the quest involving Roggvir\\'s sister is no longer possible (I stop the quest if Roggvir is still alive at the end of the Execution scene).\r\n\r\nAS A FOLLOWER\r\nSince he was a city guard, I\\'ve modified his actor to carry similar stats as one.  I changed his class to CWSoldier class, rather than 1HWarrior, since he will switch between 1H/2H/Bows where appropriate.  He is brave, and will attack threats to the player.  He will commit violence against enemies as well as lesser, naughty things if asked to, but will not attack innocent people.\r\n\r\nAS A SPOUSE\r\nWant something more than just a follower?  Equip an Amulet of Mara (See the priest in the Temple of Mara in Riften and speak to him about marriage), and talk to him.  He\\'s in the PotentialMarriage faction, so it\\'s just a matter of arranging the wedding with Maramal.  Don\\'t be late!\r\n\r\nPOTENTIAL STEWARD (HEARTHFIRE REQUIRED)\r\nIf you have the Hearthfire expansion, you can ask him to become a steward at any of the three properties you own.  Simply speak to him while at one of the houses (Morthal, Falkreath, or Dawnstar).",
+  "categoryId": "66",
+  "version": "1.0",
+  "author": "SteamCanuck",
+  "createdUnix": "1345740815",
+  "updatedUnix": "1345740855",
+  "containsAdultContent": false,
+  "uploadedBy": "steamcanuck",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "83701",
+      "name": "RoggvirFollower",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "RoggvirFollower-22918-1-0.rar",
+      "uploadedUnix": "1345740855",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/828d5cf44ac5f3a1b9ee2f5aeffbece75293ab27fb71d4f76ee4e86c8bcccc64/analysis/1407116847/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/RoggvirFollower-22918-1-0.rar?fid=83701&ttl=1535792795&ri=8192&rs=8192&setec=e0ef309246f5b82990ed7a0a2ccccdad"
+    }
+  ]
+}

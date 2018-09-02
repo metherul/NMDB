@@ -1,0 +1,32 @@
+{
+  "modId": 74968.0,
+  "modName": "FriendLink",
+  "summary": "A Skyrim mod that allows you to appear in other Skyrim worlds as a ball of energy allowing you to share the Skyrim experience with friends. This mod does not synchronize Skyrim games but simply allows you to show up as a ball of energy in other games.",
+  "descriptionHtml": "[size=4][u][b]Requires[/b][/u]\r<br />[/size][list]\r<br />[*][size=3]Skyrim[/size]\r<br />[*][size=3]SKSE - build 1.7.3 - [url=http://skse.silverlock.org/]http://skse.silverlock.org/[/url][/size]\r<br />[*][size=3]ScriptDragon - build v1.9.32.0 - [url=http://www.dev-c.com/skyrim/scriptdragon/]http://www.dev-c.com/skyrim/scriptdragon/[/url][/size]\r<br />[*][size=3]Access to a Friend Link Server - [url=https://github.com/m6jones/FriendLink/raw/master/Downloads/FriendLink-Server.7z]https://github.com/m6jones/FriendLink/raw/master/Downloads/FriendLink-Server.7z[/url][/size]\r<br />[/list]\r<br />[b][u][size=4]Introduction[/size]\r<br />[/u][/b][size=3]The main goal of Friend Link is to give the ability to share in the Skyrim experience in a simple and stable way. This mod currently has one feature, it allows you to show up in other worlds as a ball of energy and have your friends show up in your world as their own ball of energies. These energy balls cannot interact with your game but lead still leads to a sense of community. For example, if someone finds a chest they can easily show everyone where the chest is located.\r<br />\r<br />For the best experience I suggest playing in the same room or have a way to communicate through voice.[/size]\r<br />\r<br />[u][size=4]Features[/size][/u]\r<br />[list]\r<br />[*][size=3]Show up in other Skyrim worlds as a ball of energy.[/size]\r<br />[*][size=3]Easily load a game and stay connected. (Must be connected already.)[/size]\r<br />[*][size=3]Save at anytime.[/size]\r<br />[/list]\r<br />[size=4][u]Usage[/u][/size][size=3]\r<br />[/size][list=1]\r<br />[*][size=3]Start Skryim and load into a character. You should see the message, &#34;Friend Link script launched&#34;. If you don&#39;t not see step 3 of installation.[/size]\r<br />\r<br />[*][size=3]Go to the Sleeping Giant Inn in Riverwood.[/size]\r<br />\r<br />[*][size=3]This should start a quest and give you the spell FriendLink Connect.[/size]\r<br />\r<br />[*][size=3]Cast FriendLink Connect (will not be seen as aggressive to npcs). You will connect to the server described by FriendLinkIP.cfg.[/size]\r<br />\r<br />[*][size=3]To disconnect from the server cast the disconnect spell or exit the game.[/size]\r<br />\r<br />[/list]\r<br />[size=4][u]Install[/u][/size]\r<br />[list=1]\r<br />[*][size=3]Have all the requirements installed.[/size]\r<br />[size=3]\r<br />[/size][*][size=3]Move everything from the zip to your skyrim folder where TESV.exe is located.[/size]\r<br />[size=3]\r<br />[/size][*][size=3]Run Make FriendLink asi link.bat as administrator. This will make a file called FriendLink.asi in &lt;location of skyrim&gt;/Skyrim folder. FriendLink.asi is a soft symbolic link of FriendLink.dll which gives the functions from dragon script.[/size]\r<br />[size=3]\r<br />[/size][*][size=3]Open up FriendLinkIP.cfg with notepad. This information should be gather by the server administrator.[/size]\r<br />[size=3]   \r<br />The first line is the IP of the server. \r<br />\r<br />The second line is the same port as -port1 on the server. Default: 29015. This port requires to be forwarded as UDP protocal.\r<br />\r<br />The third line is the same as -port2 on the server. Default: 29016.\r<br />\r<br />[/size][*][size=3]Forward the -port1 from the the previous step.[/size]\r<br />[size=3]\r<br />[/size][*][size=3]Select Friendlink.esp to be loaded by Skyrim.[/size]\r<br />\r<br />[/list]\r<br />[u][b][size=4]GitHub\r<br />[/size][/b][/u][size=3]https://github.com/m6jones/FriendLink[/size]",
+  "categoryId": "24",
+  "version": "0.1",
+  "author": "Matthew Jones",
+  "createdUnix": "1460578507",
+  "updatedUnix": "1460578044",
+  "containsAdultContent": false,
+  "uploadedBy": "m7jones",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000203008",
+      "name": "FriendLink Client",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "198",
+      "fileName": "FriendLink CLient-74968-0-1.7z",
+      "uploadedUnix": "1460578044",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/635c7ca4c15ef548046bc97f73ffc43d9cf986e93e118d752e5eb3582356e879/analysis/1460578086/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FriendLink%20CLient-74968-0-1.7z?fid=1000203008&ttl=1535863750&ri=8192&rs=8192&setec=b8c8a9ab3ccd8cf226b4d416cb363c1f"
+    }
+  ]
+}

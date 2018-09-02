@@ -1,0 +1,32 @@
+{
+  "modId": 33470.0,
+  "modName": "High and Wood elf skeleton fix",
+  "summary": "Fixes the male and female crashing issue for high and wood elf races using custom skeletons",
+  "descriptionHtml": "Many body models crash when a new skeleton and body are used in place of the vanilla files. If the first person skeleton and third person skeleton differ in the number of bones, the game won\\'t know how to skin the body or armor model. CHSBHC has additional nodes not found in the vanilla skeleton, so some versions of CHSBHC crash when the player tries to open the race menu to make a high elf or wood elf. The vanilla armor addons for the nude bodies have no first person model mapped for the male and female torsos, so they attempt to load the third person mesh on the vanilla skeleton, which lacks the required bones. This is just a fix for the nakedtorso armor addons used by the high and wood elf races. It\\'s important to specify a first person mesh, the default being 1stpersonmale or 1stpersonfemale if the armor or body you create uses bones NOT found on the first person skeleton.",
+  "categoryId": "82",
+  "version": "",
+  "author": "drywater509",
+  "createdUnix": "1363528361",
+  "updatedUnix": "1363528243",
+  "containsAdultContent": false,
+  "uploadedBy": "drywater509",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000018199",
+      "name": "ElfBodyFix",
+      "version": "Final",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "ElfBodyFix-33470-Final.zip",
+      "uploadedUnix": "1363528243",
+      "modVersion": "Final",
+      "virusScanUrl": "https://www.virustotal.com/file/8355636ca89e8bbbd6e4e41f117c8d8d406ca1a3f9f1fe76e5f8caa3e9f3d76b/analysis/1407474077/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ElfBodyFix-33470-Final.zip?fid=1000018199&ttl=1535810617&ri=8192&rs=8192&setec=ea02467c5c621dc29e58240da30cdcb1"
+    }
+  ]
+}

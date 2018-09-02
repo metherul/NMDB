@@ -1,0 +1,32 @@
+{
+  "modId": 24740.0,
+  "modName": "Dawnguard Terrain Object Normal Map Hi-Res Fixed and Improved",
+  "summary": "",
+  "descriptionHtml": "------------------------------------------------------------------\r<br />Dawnguard Terrain Object Normal Map Hi-Res Fixed and Improved v1.1\r<br />------------------------------------------------------------------\r<br />\r<br />by Nico coiN from wiwiland\r<br />\r<br />Note (02/09/2013) : The USKP crew included this in the new [url=http://skyrim.nexusmods.com/mods/31255]Unofficial High Resolution Patch[/url]. You should rather use UHRP, as fixes are much more numerous than the only one provided here.\r<br />\r<br />-------------\r<br />Description :\r<br />-------------\r<br />\r<br />When playing Dawnguard with official HRTexturePacks enabled you are afflicted by missing (thus ugly) textures on the LOD Castle Volkihar. This comes from a conflict with the official HRTexturePacks that are missing the normal-map of the needed LOD textures. Though the one included in Dawnguard is 1024x1024 it is not Hi-Res, so I made this custom normal-map in 2048x2048 (same dimensions as the one in the HRTexturePacks) but including the missing parts for the castle. I also greatly improved some other parts of the LOD normal maps.\r<br />\r<br />Castle Volkihar is now much better viewed from distance : snow deposits on the walls and better roofs, and so are a few other buildings and objects. See provided screenshots for more comparisons and informations.\r<br />\r<br />--------------------\r<br />How did I make it ?\r<br />--------------------\r<br />\r<br />Wow, it&#39;s been a long time from now... Well, if I look at the tools I own (Photoshop and xnormal) and If I had to redo the job I guess I would :\r<br />\r<br />- extract the 2048x2048 &#34;tamriel.objects.dds&#34; texture from Dawnguard.bsa archive (path : textures&#92;terrain&#92;tamriel&#92;objects),\r<br />- set it to greyscale then set it back to rvb, just in order to obtain a greyscale and contrasted &#34;version&#34;.\r<br />- use the xnormal filter, Height to normal options :\r<br />source : color space\r<br />bias : ticked\r<br />smooth : untouched (0.60)\r<br />method : untouched (4samples)\r<br />\r<br />And here&#39;s our normal map &#33; The result is nearly identical to what I&#39;ve done. Then I just copied/pasted the square parts that I found better (and ONLY these ones) to the 2048x2048 normal map embedded in the HighResTexturePack02.bsa archive (path : textures&#92;terrain&#92;tamriel&#92;objects).   \r<br />\r<br />PS : xnormal download link : [url=http://www.xnormal.net/Downloads.aspx]http://www.xnormal.net/Downloads.aspx[/url]\r<br />\r<br />--------------------\r<br />What&#39;s new in v1.1 ?\r<br />--------------------\r<br />\r<br />The alpha layer (as blank and unused) has been deleted, saving 2.7 MBs of VRAM with absolutely no impact on visual quality.\r<br />Thanks to MadCat221 from the Bethsoft&#39; forums for pointing out that and submitting optimization.\r<br />\r<br />\r<br />\r<br />This fix comes from the french elder scrolls fan community.\r<br />\r<br />Best regards and enjoy &#33; :)\r<br />\r<br />Nico coiN from Wiwiland.\r<br />\r<br />[url=http://forum.wiwiland.net/]http://forum.wiwiland.net/[/url]\r<br />\r<br />\r<br />PS : No authorization required if you want to use it in your mods although it may be nice to mention me in your greetings.\r<br />\r<br />\r<br />-----------\r<br />Changelog :\r<br />-----------\r<br />\r<br />v1.1 : 05 Nov 2012 - Alpha layer deleted. There will probably have no next release.\r<br />\r<br />v1.0 : 28 Sep 2012 - Initial release",
+  "categoryId": "95",
+  "version": "1.1",
+  "author": "Nico coiN",
+  "createdUnix": "1348870633",
+  "updatedUnix": "1352151361",
+  "containsAdultContent": false,
+  "uploadedBy": "nico21000",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "97686",
+      "name": "Dawnguard Terrain Object Normal Map Hi-Res Fixed and Improved v1-1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1684",
+      "fileName": "Dawnguard Terrain Object Normal Map Hi-Res Fixed and Improved v1-1-24740-1-1.7z",
+      "uploadedUnix": "1352151361",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d5e55f2924febe1af694d809d2e09d8926c7b1a09ae4abb1020b45ef95246229/analysis/1407250996/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dawnguard%20Terrain%20Object%20Normal%20Map%20Hi-Res%20Fixed%20and%20Improved%20v1-1-24740-1-1.7z?fid=97686&ttl=1535795878&ri=8192&rs=8192&setec=6833f13b10124d3456c795a1191e1472"
+    }
+  ]
+}

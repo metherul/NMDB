@@ -1,0 +1,32 @@
+{
+  "modId": 37476.0,
+  "modName": "Frost Magic BugFixes",
+  "summary": "A small, mostly script-based mod that fixes several issues with frost magic including the infunctional slow effects, and some issues with the, \\\"blizzard,\\\" master level spell.",
+  "descriptionHtml": "First and foremost, I recommend putting this last in your load order, or at least after any other spell mods.\r\n\r\nAs a side note, I may at some point in the not too distant feature begin updating my old mod, Destruction Reloaded, since I\\'m now more familiar and capable with script, and will include these new fixes in it if I do.\r\n ====================\r\n[b]WHAT THIS MOD DOES:[/b]\r\n -Fixes a bug that reduced the damage Blizzard dealt to enemies based on the [i]casters[/i] frost resist, changes it to a projectile which spawns the Blizzard on impact\r\n - Makes the slow effect of frost spells correctly work, and causes them to scale to some degree with the caster\\'s destruction skill (from 50-80%)\r\n - Does this mostly in a way that should allow it to play nicely with other spell mods that may not address this issue.\r\n====================\r\n\r\n[b]MORE DETAILED BLURB[/b]\r\nThe vanilla frost spell slow effects are in fact broken, because they modify the speedmult value of an actor, however modifying the value does not actually cause the game to recalculate actual movement speed. This is because Speedmult is a MULTIPLIER and not the base value for actor movement speed. \r\n\r\nTherefore, Bethesda in their infinite wisdom never incorporated a function that recalculates ACTUAL move speed on a change to Speedmult. Only certain other events such as an actor sheathing or unsheathing their weapons, or a change in inventory weight actually run a check to calculate effective movement speed.\r\n\r\nSo what this mod does is changes the slow effects used by frost spells into script effects. The scripts resolve this issue by causing a temporary 1 lb change in inventoryweight (which is reversed at the end of the effect) just slightly after the speedmult change is applied, in order to force the game to recalculate effective run speed. The removal of this weight at the end accomplishes the same thing, recalculating the actor\\'s actual runspeed when their speedmult is returned to 100.\r\n\r\nIn addition I took the liberty of making the magnitude of the slow effects scale with the caster\\'s destruction (yes, this effects the frost spells cast by NPC\\'s as well so there\\'s your realism for you). The magnitude is never less than 50, and never greater than 80. This isn\\'t simply for balancing issues, as the speedmult of an actor is treated as a null value by the game if it is equal to zero, thereby causing them to run at full speed instead of being unable to move (the actor\\'s speedmult value will never go below zero).\r\n\r\nAdditionally this mod addresses a bug with the, \\\"Blizzard,\\\" spell that caused it\\'s damage to be reduced by the caster\\'s own frost resist value. This was achieved by converting it into a projectile that conjures the actual hazard at the projectile\\'s impact point.\r\n\r\nThe slow effect portion of this mod should be compatible with other spell mods, as it only changes the slow effects. The blizzard Spell fix will overwrite other changes made to the blizzard spell, but should only be a problem if those mods have actually implemented a fix to the same issue. otherwise it will simply overwrite the changes (provided you put this last in load order)\r\n\r\nI\\'ve performed extensive in-game testing to ensure the effects are working properly, and have experienced no bug so far.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "WizardWhitenoise",
+  "createdUnix": "1371877618",
+  "updatedUnix": "1371876789",
+  "containsAdultContent": false,
+  "uploadedBy": "Soulfacade",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000035255",
+      "name": "Frost Magic BugFixes",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Frost Magic BugFixes-37476-1-0.rar",
+      "uploadedUnix": "1371876789",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ae3f7a575b306f9128fa2dc7b19a96c093f65b01e1167dffda6a5c65c08e55d0/analysis/1407612437/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Frost%20Magic%20BugFixes-37476-1-0.rar?fid=1000035255&ttl=1535817187&ri=8192&rs=8192&setec=656c80d1f83e58ff5d139f32227bdc04"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 60966.0,
+  "modName": "Luke and Noir - standalone male followers",
+  "summary": "Added two standalone male followers to Skyrim. Hope you like them.",
+  "descriptionHtml": "[img]http://static-2.nexusmods.com/15/mods/110/images/60966-1-1419231424.png[/img]\r<br />Luke walks the shadow, trapped in Riften. He wears a foreign suit of armor. No one knows what he&#39;s up to.\r<br />Noir was brought up in an Orc tribe. He believes strength and righteousness will lead to one&#39;s own good.\r<br />\r<br />Whereabouts:\r<br />Luke: Temple of Mara in Riften\r<br />Noir: Dragons Reach in Whiterun\r<br />\r<br />Skills:\r<br />Luke: Archery, Light Armor, Sneak and Marked for death shout\r<br />Noir: 2-Hand, Heavy Armor, Sneak and Marked for death shout\r<br />\r<br />Don&#39;t like their armors?\r<br />They will equip better armors. If they do not wear the armor you give them, just try console commands:\r<br />click on them\r<br />showinventory\r<br />removeitem xxx 1\r<br />\r<br />Credits\r<br />Better males by Chris57 and FavoredSoul\r<br />Fine Face Textures by Urshi\r<br />KS hairdo&#39;s\r<br />\r<br />To take the photos\r<br />FNIS by fore\r<br />Kinoko Pose by cryptoporus\r<br />Tekitodayo Pose by fmh66x\r<br />Helmet Toggle by Maniczombie\r<br />The Witcher 2 Armors for Skyrim by LordOrWar\r<br />\r<br />Known issues\r<br />1) Negative armor on the player.\r<br />This is a glitch caused by Marked for death shout. Simple fix is to type in console:\r<br />player.modav damageresist 4500\r<br />\r<br />2) Why do they wield an &#34;invisible weapon&#34; or a hunting bow every time after they shout even if I gave them a better weapon?\r<br />The problem is that the shouts reset their equipped weapon to default ones. The only way to let them re-equip the better weapon is to open their inventory and remove something or give them something.\r<br />I couldn&#39;t find a way to completely solve this.. [b][size=3]So no shout version is highly recommended[/size][/b], or constant weapon changing could be a pain in the neck.",
+  "categoryId": "96",
+  "version": "1.0",
+  "author": "raylivingstone",
+  "createdUnix": "1419231850",
+  "updatedUnix": "1419237764",
+  "containsAdultContent": false,
+  "uploadedBy": "raylivingstone",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000139735",
+      "name": "Luke_Noir",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "32890",
+      "fileName": "Luke_Noir-60966-1-0.rar",
+      "uploadedUnix": "1419222280",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9a15ea943c9cc8d91b056415855e24857f8e916730c884ae4a485142376f171b/analysis/1419222316/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Luke_Noir-60966-1-0.rar?fid=1000139735&ttl=1535849114&ri=8192&rs=8192&setec=9368f6dc0d7c394b3fef80e21d85806f"
+    },
+    {
+      "fileId": "1000139753",
+      "name": "No shout version",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "No shout version-60966-1-0.rar",
+      "uploadedUnix": "1419237764",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e67b193488a2bfe7003c901b6736f31e317a355ab82af3d5adfbbfd9bcf39536/analysis/1419237782/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20shout%20version-60966-1-0.rar?fid=1000139753&ttl=1535849115&ri=8192&rs=8192&setec=4cd301efb859358cbae30617bc753a42"
+    }
+  ]
+}

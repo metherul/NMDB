@@ -1,0 +1,32 @@
+{
+  "modId": 29862.0,
+  "modName": "Pitch Black Dungeon Imagespace Proof of Concept",
+  "summary": "Makes Bleak Falls Sanctum unlit and pitch black. Requires a torch or magelight to see at all.",
+  "descriptionHtml": "How I did It\r\n\r\nI made a custom imagespace in the creation kit (Special Effect> Imagespaces) that has %10 the brightness of the normal bleak falls barrow imagespace. This results in very dark rooms, however, theres two problems. \r\n\r\n1) Torches rely heavily on the imagespace providing the bulk of the light, so I increased the intensity of torches times 6. \r\n2) If there is a part of the cell that has a sunbeam or lets out to the outside that will also be darkened. \r\n\r\nThe only solution to the 2nd problem is to separate such parts of the dungeon from the \\\"dark\\\" parts by having them in their own cell. So this is what I\\'ve done with Bleak Falls Barrow. There is now a 3rd load door right before you enter the Hall of Stories. \r\n\r\nOther than that there is 2 other bugs\r\n\r\n1) I left a fire effect floating in the air right before bleak falls sanctum. Looks a little weird but its not a problem since its easily removable and this is just a modders resource/proof of concept. \r\n2) The boss that usually lays in the coffin in front of the word wall at the end is now standing outside of his coffin inactive until you access the wall or attack him. Again this is easily fixable and just a minor artifact of me separating it from the other cell. \r\n\r\nAll load doors to the outside work. \r\n\r\nIm abandoning this project because although simple to make it would take a lot of time to do this on all of the dungeons and in the end it would be incompatible with anything that changes the default dungeons, which is my other more ambitious project. So if anybody wants to use the contents of this ESP they have my permission, no credit listing needed. ",
+  "categoryId": "24",
+  "version": "",
+  "author": "JarlBroGruf",
+  "createdUnix": "1358054588",
+  "updatedUnix": "1358056633",
+  "containsAdultContent": false,
+  "uploadedBy": "JarlBrogruf",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000002004",
+      "name": "Pitch Black Bleak Falls Sanctum",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "31",
+      "fileName": "Pitch Black Bleak Falls Sanctum-29862-.rar",
+      "uploadedUnix": "1358056633",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/9f70d12beb3001945818cba03c2ff9dcabfc4a5eb908061c28bf129ce8b168e4/analysis/1407350901/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Pitch%20Black%20Bleak%20Falls%20Sanctum-29862-.rar?fid=1000002004&ttl=1535804315&ri=8192&rs=8192&setec=8a7fc47f416b1a46381e96f697fe6b21"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 39809.0,
+  "modName": "APreciousENB performance ENB preset",
+  "summary": "This is  a performance preset for ENB using all of the best effects with ENB version 0.200",
+  "descriptionHtml": "\r\nThis is a preset for ENB focused on performance and realism.  I try to use the best effect while minimizing the performance hit usually associated with such visual effect like SSAO and DOF.\r\n\r\nThe DOF is particularly cost effective but should be used in conjunction with Dynavision to provide a static background DOF with almost no performance hit.  It is set to static as default, I recommend bumping the strength up to 0.9\r\n\r\n\r\nPlease post pics and let me know how much it affects your performance compared to vanilla or other ENB\\'s you use.\r\n\r\n\r\nYou need to go to http://enbdev.com and download the 0.200 ENB files from there.\r\n\r\n\r\nHere is the download page (download button is at the bottom of the page):\r\n\r\nhttp://enbdev.com/mod_tesskyrim_v0200.htm\r\n\r\n\r\n1. Unzip that zip file and put all of the files into the main Skyrim folder.\r\n\r\n(You should probably backup the old d3d9.dll file first.)\r\n\r\n\r\n2. Copy all of my ENB files into your main Skyrim directory and overwrite everything.\r\n\r\n\r\n3. You need to enable these settings in SkyrimPrefs.ini (located in C:\\\\Users\\\\********\\\\Documents\\\\My Games\\\\Skyrim), necessary render all the effects in this mod:\r\n\r\nbTreesReceiveShadows=1\r\nbDrawLandShadows=1\r\nbShadowsOnGrass=1\r\nbFloatPointRenderTarget=1\r\n\r\n\r\n\r\nI think that\\'s it.\r\n\r\n\r\n\r\n\r\nOther recommended mods to use with thise ENB:\r\n\r\nA lighting mod\r\n\tEnhanced Lights and FX: http://skyrim.nexusmods.com/mods/27043/?\r\nor\r\n\tRealistic Lighting: http://skyrim.nexusmods.com/mods/30450/?\r\nor\r\n        Insert your favorite lighting mod here.\r\n\r\n\r\nIncreased torch radius-\r\n\r\n\tLet It Shine: http://skyrim.nexusmods.com/mods/37918/?\r\n\r\n\r\n\r\nAdditional Depth of Field effect with little to no performance cost:\r\n\r\n\tDynavision: http://skyrim.nexusmods.com/mods/12525/?\r\n\tUse the static Depth of field (default), recommended at 0.9 strength\r\n\r\n\r\nNightvision (It works and you\\'ll need it)\r\n\r\n\tPredator Vision: http://skyrim.nexusmods.com/mods/22274/?\r\n\r\n\r\nFAQ\r\n\r\n\r\nQ: I\\'m using the CTD and Memory patch ENBoost:\r\nhttp://skyrim.nexusmods.com/mods/38649//?\r\nI\\'m just wondering if it\\'s possible to have your presets running and still have ENBoost working?\r\n\r\nA: Yes, if you use my presets ENBoost is still working. That mod page is really for people who want to use ENBoost but not the ENB visuals. Any ENB using 0.200 uses ENBoost if the correct setting are applied in ENBLocal.ini\r\n\r\nExpandSystemMemoryX64=true (set if you are using 64 bit OS)\r\nReduceSystemMemoryUsage=true (this is the main one)\r\nDisableDriverMemoryManager=true (not really sure what this does, I seem to get better performance with it true)\r\nReservedMemorySizeMb=(a value between 0 and the amount of VRAM you have, default is 512)\r\nEnableUnsafeMemoryHacks=false (set to true if you have 32 bit operating system or system ram <= 4GB)\r\n\r\n\r\nQ: i\\'ve been trying to disable the letterbox effect,but i just can\\'t do it...\r\n\r\nA: you have to edit the file enbeffect.fx\r\n\r\nat the top, after two credit sections, there are two line:\r\n#define USE_PANORAMIC_EFFECT 1\r\n#define fpanoramicoffset 8.4\r\n\r\nyou can lower the offset number for smaller bars\r\nExample:\r\n#define USE_PANORAMIC_EFFECT 1\r\n#define fpanoramicoffset 4.0\r\n\r\nor comment out the first line to remove the effect\r\nExample\r\n//#define USE_PANORAMIC_EFFECT 1\r\n#define fpanoramicoffset 8.4",
+  "categoryId": "97",
+  "version": "1.200",
+  "author": "A Precious Pony",
+  "createdUnix": "1375842837",
+  "updatedUnix": "1375919044",
+  "containsAdultContent": false,
+  "uploadedBy": "APreciousPony",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000045025",
+      "name": "APreciousENB_1_200",
+      "version": "1.200",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4210",
+      "fileName": "APreciousENB_1_200-39809-1-200.zip",
+      "uploadedUnix": "1375919044",
+      "modVersion": "1.200",
+      "virusScanUrl": "https://www.virustotal.com/file/1a5fc0b0d9319ff1de35cd157e6b958e713e226db4471a57f5428c8fb17c7bd9/analysis/1407673396/",
+      "changelogHtml": " Re-uploaded due to a missing file (shader.fx) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/APreciousENB_1_200-39809-1-200.zip?fid=1000045025&ttl=1535820266&ri=8192&rs=8192&setec=e0c8c79ceb612f78307de7786d446c89"
+    }
+  ]
+}

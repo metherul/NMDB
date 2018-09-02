@@ -1,0 +1,32 @@
+{
+  "modId": 23445.0,
+  "modName": "tipots",
+  "summary": "my take on autoquaffing potions and potions rename",
+  "descriptionHtml": "potion auto quaffer with integrated renamer. with sources. SKSE required. BETA\r\n\r\ni started after getting an idea while commenting on chesko swift potion page, initially i planned on adding support for crafted potions to his mod, but he wasnt interested on improving the old thing while i found that it would require complete rewrite anyway. then i came across potion renaming mod by spinner385 which grabbed my attention - his naming scheme is pretty cool, since i was already doing all the needed checks for crafted potions anyway, i decided to implement it as well. couple packs of ciggs later and there you go.\r\n\r\nfor code simplicity sake only first effect (strongest) is taken into consideration when quaffing - you dont want to quaff you nightvision/invis pots that have +21 stamina in silly moments now, right?\r\nalso, only selected effects are supported for renaming (18 positive, 18 negative)\r\nrenamed potions have only positive effects included in name, same for poisons\r\nquaff delays dynamic per potion (reads actual effect duration)\r\nalso included tidbid of code that when put on activator will store all known potions to linked container (modders resource ;)\r\n\r\npotential issues:\r\n-when taking more than 127 different potions from one container array will overflow, not sure what happens then ;)\r\n-there _might_ be poisons in game that have both vendortypepotion and poison keywords set, they will get renamed as potions\r\n-dont save for at least 10s while the mod is first installed, or when that game is loaded some potions wont be renamed/autoquaffable - storing/retrieving them fixes that tho\r\n-i tried to make this as thread-safe as possible, but if you encounter strangely named potions, or worse - food, its a threading issue, lemme kno\r\n\r\n(non-perfectionists and non-modders disregard this paragraph) honestly whole thing is a hackjob (tho perfectly usable and to the best of papyrus capabilities, imd), to do it *proper* would require writing skse plugin which hooks usercreatepotion, but while id love to do that (i have tons of awesome alchemy related ideas that can be implemented there) i dont have skyrims .idb/.idc file, and im to old, scratch that, wise to jump in without those. but, if someone kind enough sends me above mentioned file (one with well disassembled related code pieces and structures, preferably ^^), i might just do that ;)\r\n\r\nconfiguration:\r\nSetPQV _tipq <property> <value>\r\n [property: default value  - info]\r\n weakestfirst: true - uses potions from weakest to strongest\r\n incombat: true     - autoquaff only in combat\r\n athp = 50  - autoquaff at this health percentage\r\n atmp = 20 - aa. but for magicka\r\n atst = 20 - aa. but for stamina\r\n ultiat = 5 - autoquaff ultimate health pot at this hp%, ulti bypasses any current hp delay but not incombat setting",
+  "categoryId": "82",
+  "version": "0.15",
+  "author": "tiggz",
+  "createdUnix": "1346492774",
+  "updatedUnix": "1346492805",
+  "containsAdultContent": false,
+  "uploadedBy": "tiggz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "85702",
+      "name": "tipots",
+      "version": "0.15",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "tipots-23445-0-15.7z",
+      "uploadedUnix": "1346492805",
+      "modVersion": "0.15",
+      "virusScanUrl": "https://www.virustotal.com/file/9afcf9c052612d7053931a92de914460261dc9efdfa575ad0c13341c5297e034/analysis/1407137560/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/tipots-23445-0-15.7z?fid=85702&ttl=1535793702&ri=8192&rs=8192&setec=ee7dc7270ac0f5bb8d236c27e537f197"
+    }
+  ]
+}

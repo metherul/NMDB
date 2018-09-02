@@ -1,0 +1,48 @@
+{
+  "modId": 21452.0,
+  "modName": "Nord Hero Race - for Raestlozs PC Exclusive Animation Path",
+  "summary": "Allows the PC a fully independent set of animations from every other vanilla NPC. By using this mod, you (the PC) become your own race (based from the Nord Race, so NPC&#39;s will consider you a Nord if you use this mod, although your appearance won&#39;t change). Designed to be used with Raestloz&#39;s &#34;PC Exclusive Animations&#34; mod.",
+  "descriptionHtml": "Allows the PC a fully independent set of animations from every other vanilla NPC (in combination with the PC Exclusive Animations Mod). \r<br />By using this little mod, you (the PC) can become your own race (based from the Nord Race, so NPC&#39;s will consider you a Nord if you use this, \r<br />although your appearance won&#39;t change). \r<br />Designed to be used with Raestloz&#39;s &#34;PC Exclusive Animations&#34; mod. Otherwise what&#39;s the point, right? You&#39;d just be a Nord who&#39;s called a hero.\r<br />\r<br />This was the simplest way I knew to go about it without giving ground and allowing all Nords to use my custom animations (I&#39;m playing a Nord atm) and/or using one of those huge, fancy custom race mods floating around the Nexus. \r<br />Big ups to those who make and use those, that temptress thingy looked pretty cool =) just not into that kinda thing.\r<br />\r<br />\r<br />-Disclaimer--\r<br />\r<br />-I used the Nord race as the base for this mod, so, if you use this, NPC&#39;s will consider you a Nord although your appearance will not change, as stated above. \r<br />\r<br />Feel free to edit this bugger to accomodate your own race or for whatever purpose you see fit, \r<br />just refer back to me if whatever I did was a significant part of the product and you plan to redistribute, ya dig? ;)\r<br />\r<br />\r<br />Installation----\r<br />\r<br />Nothin&#39; too special, just pick the .esp version that you wanna use along with its corresponding files and stick it in the data folder along with the corresponding set of meshes and textures. NMM installation isn&#39;t supported.\r<br />Activate via NMM (which doesn&#39;t work for me for some reason, so I use Wrye Bash) or the skyrim launcher, whichevers your thing.\r<br />And get goin&#39; bein&#39; special&#33;\r<br />\r<br />Requirements----\r<br />\r<br />PC Exclusive Animations\r<br />(although not actually required, there&#39;s no point in using this mod unless you plan to use a second set of animations for yourself or for some other purpose.\r<br />The only mod that accomplishes this that I know of, is Raestloz&#39;s.)\r<br />\r<br />Important things I may not have mentioned before:\r<br />1) Make sure this mod is above PC Exclusive Animations in the load order, or that it isn&#39;t on top of anything that would edit the &#34;Player&#34; actor file.\r<br />\r<br />2) I&#39;ve set the path of the behaviour files for NordRaceCustom to meshes/actors/character/default(fe)male.hkp(x), \r<br />with a vanilla install you may or may not have them in that folder, if that&#39;s the case, \r<br />just copy paste them out from the characters and characters female folders, respectively.\r<br />\r<br />\r<br />Credits----\r<br />\r<br />Bethesda - for the start of a great game, leaving room (generally) for modders to fill in the gaps.\r<br />\r<br />rainrtw - for the Unique Body mod, which taught me how to give races the option of a unique body. \r<br />The vanilla textures and meshes provided with v2 of this mod come from him, so show some love :) \r<br />\r<br />Raestloz - for the PC Exclusive Path&#39;s mods (armor path support hopefully coming soon).\r<br />\r<br />My Brain - for cooperating (mostly) long enough to get this accomplished.\r<br />\r<br />\r<br />\r<br />&#34;Before you begin to think about something, I would advise you first think about how you will go about thinking about it.&#34;\r<br />  -Mugg (I didn&#39;t actually say that, but I&#39;d like to think I did.)",
+  "categoryId": "51",
+  "version": "v2.0",
+  "author": "Mugg",
+  "createdUnix": "1343798790",
+  "updatedUnix": "1344105182",
+  "containsAdultContent": false,
+  "uploadedBy": "ChavezAeries",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "78005",
+      "name": "Player is NordRaceCustom v1",
+      "version": "v1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "80",
+      "fileName": "Player is NordRaceCustom v1-21452-v1-0.rar",
+      "uploadedUnix": "1343799067",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/aa8166aca096cd2530c41d72ace164457c7776d5359959d77ad5717395aa55ad/analysis/1407061383/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Player%20is%20NordRaceCustom%20v1-21452-v1-0.rar?fid=78005&ttl=1535790348&ri=8192&rs=8192&setec=cb5d3e38e3c8884951feecae6de00635"
+    },
+    {
+      "fileId": "78736",
+      "name": "Player is NordRaceCustom v2",
+      "version": "v2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "145317",
+      "fileName": "Player is NordRaceCustom v2-21452-v2-0.rar",
+      "uploadedUnix": "1344105182",
+      "modVersion": "v2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3c91b3f0c8006bdc2a2cfd34abed5f61b7235021df0f83ac428666baee3e7076/analysis/1407069283/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Player%20is%20NordRaceCustom%20v2-21452-v2-0.rar?fid=78736&ttl=1535790348&ri=8192&rs=8192&setec=f929ba6e90baa81c9d7d0434a42fd23c"
+    }
+  ]
+}

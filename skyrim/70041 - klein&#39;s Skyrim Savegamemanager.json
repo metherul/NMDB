@@ -1,0 +1,32 @@
+{
+  "modId": 70041.0,
+  "modName": "klein&#39;s Skyrim Savegamemanager",
+  "summary": "Its an super simple, easy to use savegamemanager",
+  "descriptionHtml": "Its an super simple, easy to use savegamemanager\r<br />It just renames the &#34;Saves&#34; folder.\r<br />&#33;&#33;&#33;DO NOT CLOSE THE PROGRAMM JUST PRESS DONE AND IT WILL CLOSE IT SELF&#33;&#33;&#33;\r<br />Heres the sourcecode if you are interested:\r<br />written in Visual Basic\r<br />\r<br />Public Class Form1\r<br />\r<br />    Private Sub Form1_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load\r<br />        Dim Path As String = My.Computer.FileSystem.SpecialDirectories.MyDocuments & &#34;&#92;My Games&#92;Skyrim&#34;\r<br />        Try\r<br />            My.Computer.FileSystem.CurrentDirectory = Path\r<br />        Catch ex As Exception\r<br />            MsgBox(&#34;Skyrim saves not found&#33;&#34;)\r<br />            Application.Exit()\r<br />        End Try\r<br />\r<br />        If Not My.Computer.FileSystem.DirectoryExists(&#34;1&#34;) Then\r<br />            Try\r<br />                Rename(&#34;Saves&#34;, &#34;1&#34;)\r<br />            Catch ex As Exception\r<br />                My.Computer.FileSystem.CreateDirectory(&#34;1&#34;)\r<br />            End Try\r<br />        End If\r<br />\r<br />        If Not My.Computer.FileSystem.DirectoryExists(&#34;2&#34;) Then\r<br />            Try\r<br />                Rename(&#34;Saves&#34;, &#34;2&#34;)\r<br />            Catch ex As Exception\r<br />                My.Computer.FileSystem.CreateDirectory(&#34;2&#34;)\r<br />            End Try\r<br />        End If\r<br />\r<br />        If Not My.Computer.FileSystem.DirectoryExists(&#34;3&#34;) Then\r<br />            Try\r<br />                Rename(&#34;Saves&#34;, &#34;3&#34;)\r<br />            Catch ex As Exception\r<br />                My.Computer.FileSystem.CreateDirectory(&#34;3&#34;)\r<br />            End Try\r<br />        End If\r<br />\r<br />    End Sub\r<br />\r<br />    \r<br />    Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click\r<br />        If RadioButton1.Checked Then\r<br />            Rename(&#34;1&#34;, &#34;Saves&#34;)\r<br />        End If\r<br />\r<br />        If RadioButton2.Checked Then\r<br />            Rename(&#34;2&#34;, &#34;Saves&#34;)\r<br />        End If\r<br />\r<br />        If RadioButton3.Checked Then\r<br />            Rename(&#34;3&#34;, &#34;Saves&#34;)\r<br />        End If\r<br />        Application.Exit()\r<br />    End Sub\r<br />End Class         ",
+  "categoryId": "28",
+  "version": "1",
+  "author": "kleinschrader",
+  "createdUnix": "1443265759",
+  "updatedUnix": "1443265753",
+  "containsAdultContent": false,
+  "uploadedBy": "kleinschrader",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000177985",
+      "name": "SSGM",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "20",
+      "fileName": "SSGM-70041-1.exe",
+      "uploadedUnix": "1443265753",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/db4cbd9aa1dc8e62139141a742dc858fbb51cdc99ef08f25de35a8ff399f8647/analysis/1443265803/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SSGM-70041-1.exe?fid=1000177985&ttl=1535858616&ri=8192&rs=8192&setec=337e3cac612b4fa5ec1337308dc4bc27"
+    }
+  ]
+}

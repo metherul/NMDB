@@ -1,0 +1,32 @@
+{
+  "modId": 32084.0,
+  "modName": "Object-space Normal Map Tutorial",
+  "summary": "A short, beginner-friendly tutorial on how to properly convert the non-standard object-space normal maps used by skin in Skyrim. Knowledge of how to create the usual \\\"blue\\\" tangent-space normal maps is assumed.",
+  "descriptionHtml": "[b]Description[/b]\r\nYou may have noticed that Skyrim\\'s skin textures on humanoid races use an unusual non-standard normal map, rather than the tangent-space normal maps we\\'re used to. If you want to create custom normal maps for the default races or for your own custom race, you’ll need to know how to work with this format. I\\'ve written a quick tutorial on how to do it properly, since I myself didn\\'t even know what \\\"object space\\\" was before Skyrim.\r\n\r\n[center][img]http://static.skyrim.nexusmods.com/mods/images/32084-1-1361415609.jpg[/img][/center]\r\nThe tutorial is [b][color=red]attached in the files section[/color][/b] as a PDF. It contains pictures for most steps to make it beginner-friendly. The only real prerequisite is that you know how to make regular tangent-space normal maps (the bluish-colored ones used by everything else in Skyrim, Fallout, Oblivion, etc), which we will then convert to Skyrim\\'s format.\r\n\r\nIf you\\'re an experienced modder, I can summarize this tutorial for you in one sentence: Use xNormal to convert your normal map to object space using the mesh it will be applied to, then switch the blue and green channels using your image editor of choice. It\\'s that simple :p\r\n[center][img]http://static.skyrim.nexusmods.com/mods/images/32084-2-1361415609.jpg[/img][/center]\r\nThis is my first tutorial. Feedback is much appreciated -- let me know in the comments if anything needs to be added or clarified.\r\n\r\n[b]Links[/b]\r\nLinks for all required and recommended downloads are repeated on the last page, though most of them can be substituted by equivalent programs if you have a personal preference. For my examples and screenshots, I used only free programs: GIMP, NifSkope, and xNormal.\r\n\r\nFor converting object-space and tangent-space:\r\n[url=http://www.xnormal.net/]xNormal[/url]\r\n\r\nFor editing the maps and exporting to dds:\r\n[url=http://www.gimp.org/downloads/]GIMP[/url]\r\n[url=http://code.google.com/p/gimp-dds/downloads/list]DDS plugin[/url]\r\n[url=http://code.google.com/p/gimp-normalmap/downloads/list]Normalmap plugin[/url]\r\n\r\nFor converting the meshes:\r\n[url=http://sourceforge.net/projects/niftools/files/nifskope/]NifSkope[/url]\r\n[url=http://www.blender.org/download/get-blender/]Blender[/url] (alternative to NifSkope)\r\n\r\nExample custom body replacers (to avoid holes in your body normal maps):\r\n[url=http://skyrim.nexusmods.com/mods/6709]dimon99’s UNP body[/url]\r\n[url=http://skyrim.nexusmods.com/mods/2666]Caliente’s CBBE[/url]\r\n[url=http://skyrim.nexusmods.com/mods/14899]UNP Blessed variant[/url]\r\n\r\nFor creating compatibility patches:\r\n[url=http://skyrim.nexusmods.com/mods/25859]TES5Edit[/url]\r\n\r\n\r\n[b]Permissions[/b]\r\nIt\\'s a tutorial -- do whatever you want with it :p",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "sheepandshepherd",
+  "createdUnix": "1361418000",
+  "updatedUnix": "1361417710",
+  "containsAdultContent": false,
+  "uploadedBy": "sheepandshepherd",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000011717",
+      "name": "Object-space Normal Map Tutorial",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1934",
+      "fileName": "Object-space Normal Map Tutorial-32084-1-0.zip",
+      "uploadedUnix": "1361417710",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9937b742e11bb54568ab4b647a0b7a0f9558a8802be80402930c567c75b875b5/analysis/1407430284/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Object-space%20Normal%20Map%20Tutorial-32084-1-0.zip?fid=1000011717&ttl=1535808093&ri=8192&rs=8192&setec=fc2b6a24d73dc6cdd79b082ba3cd5b49"
+    }
+  ]
+}

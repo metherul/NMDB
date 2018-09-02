@@ -1,0 +1,48 @@
+{
+  "modId": 56177.0,
+  "modName": "Another Max Skills and Perks Mod",
+  "summary": "Gives maximum skills with all perks, with a slight twist.",
+  "descriptionHtml": "[b]=====FILES NEEDED=====[/b]\r<br />Skyrim\r<br />No DLCs needed\r<br />\r<br />Gives max skills and perks along with a boost to Health, Stamina, and Magicka.  This mod is meant to be used with difficulty mods such as &#34;High level enemies,&#34; but may be used without.\r<br />\r<br />This mod will max all skills and give all perks with the exception of the ones in the archery skill tree and boost you to level 17.  Carry weight has been set to 900 (will be 1000 with the perk) in order to keep things &#34;fair&#34;.\r<br />\r<br />The reasoning for this due to Mjoll&#39;s quest not starting due to the fact you must gain A level past level 15 this fixes that problem (though at the cost of having to due some things manually).  It takes 16 PP to obtain all the perks in archery hence the above.\r<br />\r<br />Health, Magicka, and Stamina was set high due to the reasoning above.  I will not change this if you want a different number simply use &#34;player.setav&#34; without quotes and the stat you wish to change.  Magicka was set to 2340 as all &#34;upgrades&#34; upon leveling are meant to go into that stat.\r<br />\r<br />[b]=====INSTALLATION=====[/b]\r<br />Simply download and place into your Skyrim folder (not the data folder).  While in game open the console and enter &#34;bat skills&#34; without quotes and there you go.  After usage simply use &#34;player.setlevel&#34; to whatever level you choose, of course if you are using HLE beware what level you choose. *hint, hint*\r<br />\r<br />[b]=====PERMISSIONS=====[/b]\r<br />You may change anything in the .txt for your own game, however do not upload without my direct permission.\r<br />\r<br />[b]=====VERSION=====[/b]\r<br />V1.0 - Initial Release\r<br />V1.01 - Fixes Carry Weight.  Should be 1000 however upon loading a save initial weight of 350 returns so it becomes 1350.  While it is a main file it is optional.  For those &#34;updating&#34; use &#34;player.modav -900&#34; (notice the negative sign) before reusing the &#34;bat&#34; command, using it twice will not effect anything apart from the Magicka, just remember to take off 900 and set Magicka to whatever number you want with &#34;player.setav magicka&#34;",
+  "categoryId": "40",
+  "version": "1.01",
+  "author": "KaiserOmega",
+  "createdUnix": "1405898659",
+  "updatedUnix": "1405912961",
+  "containsAdultContent": false,
+  "uploadedBy": "KaiserOmega",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000118475",
+      "name": "Another Cheat",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Another Cheat-56177-1-0.rar",
+      "uploadedUnix": "1405898437",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/13fbe50fae4cc8590184845094e6bacbd232b546d6bb95580f0572dd790b6f6e/analysis/1405898481/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Another%20Cheat-56177-1-0.rar?fid=1000118475&ttl=1535841401&ri=8192&rs=8192&setec=c3c56a0b395850745f3468d74c577c13"
+    },
+    {
+      "fileId": "1000118516",
+      "name": "Another Cheat",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Another Cheat-56177-1-01.rar",
+      "uploadedUnix": "1405912961",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/6899c057bd7e77936c59b30818d2c08cfc935846bc4e27cc5e748b7817f7ade1/analysis/1405912985/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Another%20Cheat-56177-1-01.rar?fid=1000118516&ttl=1535841401&ri=8192&rs=8192&setec=9955be90aaf06200257ad3b194c2bccd"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 51546.0,
+  "modName": "Small interior decorating tutorial",
+  "summary": "Just a few tips on how I decorate places. I get asked for tips suprisingly often, so here are my favourite ones&#33; Will flesh this out when I get more ideas.",
+  "descriptionHtml": "[color=#cc4125][b][b][size=4]\r<br />[/size][/b]\r<br />[url=https://www.facebook.com/elianorapwnsu][img]http://i.imgur.com/267fYFk.png[/img][/url]\r<br />[url=https://www.youtube.com/c/Elianora][img]http://i.imgur.com/bGTVC9s.png[/img]\r<br />[/url][/b][/color]____________________________________________\r<br />\r<br />I&#39;m gonna post it here for easy reading, the downloads section you can find the pictures in their full glory. If you want to ask questions, I added a forum conversation.\r<br />\r<br />Let&#39;s get started&#33; \r<br />[i](I cannot scale the images with BBCode, open then in new tab or [url=http://forums.nexusmods.com/index.php?showtopic=1448315][b]CLICK HERE TO GET THE TUTORIAL IN FORUM FORM&#33;&#33;&#33;&#33; [/b][/url])\r<br />\r<br />[b]I would recommend editing [url=http://www.nexusmods.com/skyrim/mods/26132/?]Runspect&#39;s meshes[/url] before using them. The items are great but they have really strange specularity/glossiness going on and it looks like they have no normal maps. You can do it in Nifskope:\r<br />\r<br />[img]http://i.imgur.com/JUHnivr.png[/img]\r<br />\r<br />Set Specular strength to about 0.3, glossiness to 3, and specular colour to #000000 (black), That will stop the items from looking glossy and without bump maps.[/b][/i]\r<br />\r<br />[color=orange][b][size=4]:: TEXTURE STUFF ::[/size][/b][/color]\r<br />- You can change textures on items with Nifskope, that way you can create truly custom looks for your interiors. \r<br />There are good tutorials out there for the application, and by using modder&#39;s resources you can get some new textures into the game. \r<br />[color=red][b]REMEMBER NOT TO SHARE RETEXTURES BY OTHER AUTHORS ALONG WITH YOUR MOD&#33;[/b][/color]\r<br />[img]http://i.imgur.com/eghR6Bu.png[/img]\r<br />[color=orange][b]SAVE IT AS A NEW ITEM OR YOU END UP CHANGING EVERYTHING IN THE GAME[/b][/color]\r<br />\r<br />- You can change textures on things inside the CK too. \r<br />(That&#39;s how I always change the glazed flower pots and other items to NordicBronze because I hate the blue glazed thing)\r<br />This is sort of limited to what texture sets exist in the game.. (unless you add your own)\r<br />\r<br />OR you can render parts of the mesh invisible:\r<br />[img]http://i.imgur.com/RLozQLo.png[/img]\r<br />[color=red][i]Just remember to duplicate the item or you&#39;ll end up changing every item inside Skyrim XD[/i]\r<br />[i]Do remember that the COLLISION stays, the part is just invisible, it&#39;s still there, as an invisible wall.[/i][/color]\r<br />\r<br />- Bring new textures into CK to place on pots/candle stick, etc:\r<br />[img]http://i.imgur.com/iHNgfoW.png[/img]\r<br />[img]http://i.imgur.com/nJc3eKg.png[/img]\r<br />\r<br />[color=orange][b][size=4]:: ITEM PLACEMENT AND CREATION ::[/size][/b][/color]\r<br />- Don&#39;t place everything symmetrically. This doesn&#39;t look good (rough and dumb example but you get the idea: \r<br />[img]http://i.imgur.com/A2POmCq.gif[/img]\r<br /> \r<br />- You can turn misc items into new static items to make cool displays of the quest items: \r<br />[img]http://i.imgur.com/ZiZpzRf.png[/img]\r<br /> \r<br />Just open Edit Base for the misc item (can be picked up), copy its model&#39;s path, then create new static item (cannot be picked up): \r<br />[img]http://i.imgur.com/TtKKkhX.png[/img]\r<br /> \r<br />This way you can create custom storages and pile&#39;o&#39;stuffs for decoration (that won&#39;t get sent flying all over the place when the player walks next to it).\r<br /> \r<br />- Holding down the S key when you have an item selected and moving the mouse up and down will scale its size. If you have a light source selected it will scale the light&#39;s range.\r<br /> \r<br />- Shift + F lets you view around the item that you have selected, by focusing and zooming in on that item\r<br />\r<br />- Ctrl + F is keyboard short cut for &#34;Replace&#34;. You can change an item to another WITHOUT CHANGING ITS PROPERTIES. For example, you have attached script to a book but want a book that looks different? Just use the Replace function. Or you have setup &#34;No Havok Settle&#34; on an apple on the table but want a different vegetable without having to setup the &#34;No Havok&#34; property again? Just replace with Ctrl + F&#33; You can change EVERY ITEM in the cell, in the world or just selected items. Very handy&#33;\r<br /> \r<br />- Shift + Q lets you choose which item (good for walls, floors etc.) you want to be the default grid snap item. Just hold the keys, hover over the item you want others to snap to grid to, and wait until the crosshair is white.\r<br />\r<br />- You can remove the holes and wreckage in rugs and banners by going to the Extra tab and changing the Alpha cutoff to 0\r<br />[img]http://i.imgur.com/hQWrRYM.png[/img]\r<br />\r<br />[size=4][color=orange][b]To be continued....[/b][/color][/size]\r<br />______________________________________________________________________\r<br />Have fun modding&#33; \r<br />- Eli",
+  "categoryId": "82",
+  "version": "1",
+  "author": "Elianora",
+  "createdUnix": "1393421022",
+  "updatedUnix": "1395503524",
+  "containsAdultContent": false,
+  "uploadedBy": "Elianora",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000102047",
+      "name": "Texture resource links",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Texture resource links-51546-1.rar",
+      "uploadedUnix": "1395503524",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/4b176915aeab82f35a9ca253b07287fba0d7e95d788ec5ce05e4561aeced05c8/analysis/1407991133/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Texture%20resource%20links-51546-1.rar?fid=1000102047&ttl=1535833951&ri=8192&rs=8192&setec=2ced426878f1ba84367bd86ce04e4126"
+    }
+  ]
+}

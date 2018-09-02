@@ -1,0 +1,48 @@
+{
+  "modId": 55848.0,
+  "modName": "Khajiit Tail Physics",
+  "summary": "HDT Physics Extensions compatible Khajiit tails.\r<br />Male is still basic. Argonians work in progress.",
+  "descriptionHtml": "[size=5]Introduction:[/size]\r<br />Only collides with ground at your feet (to little effect).\r<br />Don&#39;t turn too hard in place. It violates the laws of physics.\r<br />Spazzes out occasionally (jitter in tail base and more rarely overall &#39;flying apart&#39;).\r<br />If the tail does fly apart: I&#39;m not sure what&#39;s causing it. If it happens frequently: bug-report.\r<br />It [i]should[/i] calm down within 30 seconds, no matter what you do.\r<br />Will work with any body, but the mesh is somewhat optimized for UNP Skinny.\r<br />Since this is a small body you will not get seams with any other body, but the tails base might not merge as perfectly.\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/53996/?]HDT Physics Extension[/url] required.\r<br />[url=http://www.nexusmods.com/skyrim/mods/30760/?]XP32 Maximum Skeleton[/url] recommended.\r<br />\r<br />If you encounter strange behaviour or serious problems:\r<br />I opened a forum thread for this. Some issues are not too difficult to fix,\r<br />although I have yet to find a solution for some rarer issues\r<br />(like the tail flying apart for no apparent reason occasionally).\r<br />If the game crashes after installation just try again a few times; it should work once it works.\r<br />If that&#39;s not the case then there might be a HDT version, configuration or load order problem.\r<br />\r<br />[size=5]News[/size]\r<br />A patch to add tails for male Khajiits has been released. Currently it&#39;s quite basic, but not bad.\r<br />Argonian tails are next, but they need adjustments on the mesh itself to look good. So not today.\r<br />If you want to help improving the XML files you are welcome to do so.\r<br />Google &#34;hdtHavokModifier Just For Fun&#34;. It will lead you to the XML tool.\r<br />Be warned: editing the files is a huge p in the a.\r<br />\r<br />[b]720p videos. Skimpy by necessity, but SFW. Best watched directly on the tube.[/b]I guess I&#39;ll need a fourth one to make it a square.\r<br />\r<br />Dancing                                                                                                  Idle Animation\r<br />[youtube]M_BFVSpFFm4[/youtube][youtube]yRfCF_p9OyY[/youtube]\r<br />[youtube]qOhUMOnuRtw[/youtube]\r<br />Movement\r<br />\r<br />[size=4]Overall prospects[/size]\r<br />I&#39;m not sure there&#39;s much potential for betterment without a truly new tail mesh and rig,\r<br />but if you tweak and improve these files please inform me of your progress&#33;\r<br />[u]Khajiit is unlikely to modify these files much further hisself.[/u]\r<br />\r<br />[size=4]Uninstall[/size]\r<br />To uninstall delete the tail meshes from Data/Meshes/actors/character/Character Assets/ (maletailkhajiit.nif and femaletailkhajiit.nif)\r<br />and Physics xml files from Data/SKSE/plugins/ (HDTmaletailkhajiit.xml, floor.xml and HDTTail.xml)\r<br />\r<br />Credits:\r<br />Bethesda (original tail mesh)\r<br />b00marrows (original tail mesh rig and prior HDTTail.xml)\r<br />Yoo (prior Floor.xml)\r<br />Microlich (editing)",
+  "categoryId": "62",
+  "version": "1.00",
+  "author": "Microlich",
+  "createdUnix": "1405039922",
+  "updatedUnix": "1405065210",
+  "containsAdultContent": false,
+  "uploadedBy": "Microlich",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000116945",
+      "name": "KTP 1.00",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "KTP 1.00-55848-1-00.zip",
+      "uploadedUnix": "1405039629",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/f8df535213ddc7e21192c98d15fb8b3f27cee37e2e7366efb0d7e2d29b712142/analysis/1405039709/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/KTP%201.00-55848-1-00.zip?fid=1000116945&ttl=1535840845&ri=8192&rs=8192&setec=939eb816e7860215d4e6cefede5a06e4"
+    },
+    {
+      "fileId": "1000116975",
+      "name": "Male Patch",
+      "version": "1.00",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "Male Patch-55848-1-00.zip",
+      "uploadedUnix": "1405065210",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/d4a1ec4cdf57ba69f927a3dd5905879a4b32c0db74eb28c131de4606558020d8/analysis/1405065252/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Male%20Patch-55848-1-00.zip?fid=1000116975&ttl=1535840845&ri=8192&rs=8192&setec=23a2b9059dd220eea4db859fe4519f47"
+    }
+  ]
+}

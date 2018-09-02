@@ -1,0 +1,15 @@
+{
+  "modId": 22070.0,
+  "modName": "PerkReset SkyRe Compatibility patch",
+  "summary": "Compatibility path for Perk Reset and SkyRe",
+  "descriptionHtml": "This mod currently does not work as it is out of sync with the current versions of the mods it is an addon to.  There are no downloads until I put up a new version.\r\n\r\nThis is an ADDON for -> http://skyrim.nexusmods.com/mods/19944 \r\nTHIS MOD WILL NOT WORK UNLESS YOU INSTALL THAT ONE FIRST, COMPLETELY, INCLUDING SKSE\r\nIf you do not follow the installation instructions for the above linked mod FIRST, this mod shouldn\\'t work at all, but it may work in unpredictable and unsupported ways, up to and including deleting all your perks and not giving you any back. \r\n\r\nI was dissatisfied with the compatibility patch which the author of Perk Reset supplied, as it would reset many \\'invisible\\' perks, resulting in many extra perks returned and unknown consequences for those invisible perks. \r\n\r\nThis perk reset list was created much more conservatively, and includes only perks which I can verify are actually selectable perks, rather than quest perks or scripting perks. Also included is a revamped script for resetting perks which is somewhat faster, and some fixed typos in messages. \r\n\r\nI\\'m getting more perks back than I have levels, no idea why, but I checked, I actually have 3 extra perks than I should have.. shrug. If you get extra perks after running this script, please make sure that you dont actually have that many perks, and then report it in the comments. I\\'ve posted a debug script which may help with this.\r\n\r\nTo reiterate install instructions; simply load this AFTER SkyRe_Main.esp and PerkReset.esm.\r\n\r\nI will probably not answer questions relating to install, because you all should be able to figure this out, guys. ",
+  "categoryId": "73",
+  "version": "1.0",
+  "author": "enneract",
+  "createdUnix": "1344545780",
+  "updatedUnix": "1344545780",
+  "containsAdultContent": false,
+  "uploadedBy": "enneract",
+  "primaryFile": null,
+  "files": []
+}

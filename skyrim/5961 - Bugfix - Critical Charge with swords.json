@@ -1,0 +1,32 @@
+{
+  "modId": 5961.0,
+  "modName": "Bugfix - Critical Charge with swords",
+  "summary": "Fixes Bladesman and Deep Wounds so they don\\'t conflict with Critical Charge/Great Critical Charge.",
+  "descriptionHtml": "In the base game, swords and greatswords do not work correctly with Critical Charge or Great Critical Charge if you also have Bladesman or Deep Wounds. A simple change has fixed this.\r\n\r\nThe reason for the error was that Bladesman and Deep Wounds both try setting your critical chance to exactly their values, rather than adding to the value. This overrides the guaranteed critical hit that a critical charge is supposed to give you. My change was to simply switch the formula on Bladesman and Deep Wounds from = to + so that they add to the value rather than setting it to an exact number.\r\n\r\nNow also includes a fix for Valdr\\'s Dagger to work with Critical Charge too.",
+  "categoryId": "95",
+  "version": "1.01.1",
+  "author": "Kevin Kidder",
+  "createdUnix": "1326325525",
+  "updatedUnix": "1351042717",
+  "containsAdultContent": false,
+  "uploadedBy": "sushisquid",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "95475",
+      "name": "CriticalChargeFix1001",
+      "version": "1.01.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "CriticalChargeFix1001-5961-1-01-1.zip",
+      "uploadedUnix": "1351042717",
+      "modVersion": "1.01.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c737c14c8687ea87defae6badb1ed6a6a9c456686d36e79cfb6b069e2e7f6695/analysis/1407233843/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CriticalChargeFix1001-5961-1-01-1.zip?fid=95475&ttl=1535763095&ri=8192&rs=8192&setec=36e463160df0d3b83bdc3dbd9304fb4b"
+    }
+  ]
+}

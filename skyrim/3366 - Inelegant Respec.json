@@ -1,0 +1,32 @@
+{
+  "modId": 3366.0,
+  "modName": "Inelegant Respec",
+  "summary": "A way to respec your perks without leaving the game.",
+  "descriptionHtml": "So I went to update the file to fix a problem someone had with apprentice alteration and I accidentally deleted the entire thing. Sorry about that. I just learned not to mess with my uploaded files when I\\'m really tired. :(\r\n\r\n---\r\n\r\nSo I just heard about the \\\"bat\\\" command in the console and thought it\\'d be cool to add some way to respec your characters using it.\r\nUnfortunately, there\\'s a drawback to this method. It requires about 250 text files to be in your Skyrim folder, one for each perk. Not a big deal to me, but some might hate it being so messy.\r\nIf the text files really bother you, you can just highlight all of them, right click, properties and check \\\"hidden\\\". That way, so long as your computer isn\\'t set to display hidden files, your\r\nSkyrim folder will be clean.\r\n\r\nIf anyone knows if there is a command to straight up add perk points that you can just spend the normal way, please let me know. It\\'d make this a lot cleaner.\r\n\r\nSo here are the instructions.\r\n1 - Copy all 250+ text files into your Skyrim folder. The same folder TESV.exe is in. Set them to hidden if you like, Skyrim doesn\\'t know the difference from what I\\'ve seen.\r\n2 - Start up the game. Count out how many perk points you have altogether. Remember this number.\r\n3 - Open the console with the ~ key. Type \\\"bat respec\\\" without quotes. This removes every single perk from your character, but your skills will stay at exactly the same level.\r\n4 - Now you choose which perk points you want. Open the console again and type bat and then whatever the perk name is. NOTE: You can open the console and add the perks while the perk window is open, so you don\\'t need to struggle to remember the perk name or correct spelling. \r\n\r\nThe perk name is actually the name of one of the text files you copied into your Skyrim folder, so it needs to be exact. Here are the rules. No spaces, no punctuation, no caps.\r\nPerks with multiple ranks have a number at the end of the name. Examples:\r\n\r\nTo get 5 ranks of the first Archery perk Overdraw, type \\\"bat overdraw1\\\". Then \\\"bat overdraw2\\\", and continue up to the 5th rank.\r\nIt\\'s important that you do each rank from 1 to whatever in order. If you start from 5 and go backward, it will increase your bow damage by a ridiculous amount.\r\nHeavy Armor and Light Armor have a perk with the same name, \\\"Matching Set\\\". The command for these would be \\\"bat matchingsetheavy\\\" and \\\"bat matchingsetlight\\\".\r\nThe Matching Set and ranked perks aside, the command for each perk is exactly how it looks on your screen without any spaces or punctuation.\r\n\r\n\r\nIf there are any problems with this mod please let me know.",
+  "categoryId": "73",
+  "version": "1.5",
+  "author": "Kaenil",
+  "createdUnix": "1323626405",
+  "updatedUnix": "1330756648",
+  "containsAdultContent": false,
+  "uploadedBy": "Kaenil",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "39475",
+      "name": "Inelegant Respec",
+      "version": "1.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "54",
+      "fileName": "Inelegant Respec-3366-1-5.zip",
+      "uploadedUnix": "1330756648",
+      "modVersion": "1.5",
+      "virusScanUrl": "https://www.virustotal.com/file/9d4cc279fe53eb484dcc2b0a0678a2121debd718c4b18c6fc26638d54cca9ac7/analysis/1406726772/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Inelegant%20Respec-3366-1-5.zip?fid=39475&ttl=1535758353&ri=8192&rs=8192&setec=22f656dc91707a6c438ab1f1314dbbfd"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 55548.0,
+  "modName": "Maximum Drive V2.1",
+  "summary": "Maximum Drive V1.0 + V2.0",
+  "descriptionHtml": "[youtube]XNJs4TMmrMM[/youtube]\r<br />\r<br />[b]SKSE 1.6.16 or Higher Version.[/b]\r<br />http://skse.silverlock.org/\r<br />\r<br />\r<br />\r<br />Maximum Drive V2.0\r<br />-Powers\r<br />-Auto learn\r<br />\r<br />&gt;Drive\r<br />-Shout(Z or RB(pad)) Button\r<br />-Damage : oneHanded or twoHanded Higher Value 25%\r<br />-Require Stamina : 12\r<br />\r<br />&gt;Maximum Bet\r<br />-Shout(Z or RB(pad)) Charge&#33; 0.75 Sec\r<br />-Damage : oneHanded or twoHanded Higher Value 120%\r<br />-RequireStamina : 12*2\r<br />\r<br />&gt;Maximum Drive\r<br />-Shout(Z or RB(pad)) Charge&#33; 2.00 Sec\r<br />-Damage : oneHanded or twoHanded Higher Value 120%\r<br />-RequireStamina : 12*2\r<br />\r<br />\r<br />\r<br />*Health 40% &gt; OverPower Drive\r<br />Over Drive\r<br />-Damage : oneHanded or twoHanded Higher Value 60%\r<br />Over Maximum Bet\r<br />Over Maximum Drive\r<br />-Damage : oneHanded or twoHanded Higher Value 180%\r<br />\r<br />*Not enough Stamina &gt; Weak Drive\r<br />Weak Drive\r<br />-Damage : oneHanded or twoHanded Higher Value 10%\r<br />Weak Maximum Bet\r<br />Weak Maximum Drive\r<br />-Damage : oneHanded or twoHanded Higher Value 30%\r<br />\r<br />\r<br />\r<br />\r<br />::Console Command::\r<br />If you want damage edit.\r<br />` &gt; Set driveDamageRate to 1.0\r<br />default value 1.0 (1.0=100%)\r<br />\r<br />If you want Require Stamina edit.\r<br />` &gt; Set driveRequireStamina  to 12.0\r<br />default value Stamina 12\r<br />\r<br />If you want  OverPower Drive Health Condition edit.\r<br />` &gt; Set driveOverRate to 0.4\r<br />default value 0.4 (0.4 = Health 40%)\r<br />\r<br />\r<br />\r<br />\r<br />*Feel free to use everything in this file.\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />::Review::\r<br />[youtube]C704i_LYYJo[/youtube]\r<br />4:50\r<br />[youtube]icqfV5mP2Fw[/youtube]\r<br /> 4:19",
+  "categoryId": "75",
+  "version": "2.1",
+  "author": "elysees",
+  "createdUnix": "1404351061",
+  "updatedUnix": "1421629885",
+  "containsAdultContent": false,
+  "uploadedBy": "elysees",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000115652",
+      "name": "Maximum Drive V2.0",
+      "version": "2.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2740",
+      "fileName": "Maximum Drive V2.0-55548-2-0.7z",
+      "uploadedUnix": "1404351056",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c5c7858c8f8824dc32f94ffd9087fa9d051412d7742d894a958d4ea01b9ac9fe/analysis/1408158367/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Maximum%20Drive%20V2.0-55548-2-0.7z?fid=1000115652&ttl=1535840384&ri=8192&rs=8192&setec=591f61bb6cc65a632f1149f0b7246597"
+    },
+    {
+      "fileId": "1000143484",
+      "name": "Maximum Drive V2.1",
+      "version": "2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3283",
+      "fileName": "Maximum Drive V2.1-55548-2-1.7z",
+      "uploadedUnix": "1421629885",
+      "modVersion": "2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/56baa98a91b22fb927b936f9c0d1a237872f776aee38c0b5ffaab166df5b18b5/analysis/1421629924/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Maximum%20Drive%20V2.1-55548-2-1.7z?fid=1000143484&ttl=1535840385&ri=8192&rs=8192&setec=e0c7e37aa2cc446c3a30d617c849d556"
+    }
+  ]
+}

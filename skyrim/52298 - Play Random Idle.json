@@ -1,0 +1,32 @@
+{
+  "modId": 52298.0,
+  "modName": "Play Random Idle",
+  "summary": "A small mod that makes your character use various idle animations automatically.",
+  "descriptionHtml": "REQUIRES A WORKING SKSE INSTALLATION OF AT LEAST V1.06.00 OR BETTER&#33;\r<br />\r<br />REQUIRES FNIS&#33;\r<br />\r<br />ANIMATIONS NOT INCLUDED&#33;\r<br />\r<br />WHAT IT IS\r<br />\r<br />Based on True Player Idling this mod makes your character automatically pick various idle animations, that you have chosen, randomly. Allows for 20 different idles played at random.\r<br />\r<br />INSTALLATION\r<br />\r<br />Extract the contents of the archive into your data folder. Activate the esp. (You&#39;ve done it a million times, at least&#33; XD)\r<br />\r<br />IMPORTANT&#33;\r<br />\r<br />Put your favourite idle animations (e.g. [url=http://www.nexusmods.com/skyrim/mods/11954]Pretty Female Idles[/url]) into &#34;Meshes/Actors/Character/Animations/PlayRandomIdle&#34; and name them &#34;PRI001.hkx&#34; to &#34;PRI020.hkx&#34;. Run GenerateFNISforUsers.exe. Done.\r<br />\r<br />NOTE&#33;\r<br />\r<br />It&#39;s best to activate the esp after Helgen.\r<br />\r<br />I haven&#39;t tested the mod with less than 20 idles/hkx files in the folder. I don&#39;t know what happens if there aren&#39;t enough files. Things might get weird, T-poses, Armageddon...\r<br />\r<br />UPGRADE/UNINSTALLATION\r<br />\r<br />Open the Play Random Idle menu and (IMPORTANT&#33;) disable the mod. Save. Exit the game and\r<br />\r<br />- (Uninstallation) remove the esp and bsa files. Don&#39;t forget to remove the hkx files as well. (Just to clean up.) \r<br />- (Upgrade) install new files.\r<br />\r<br />USAGE\r<br />\r<br />Go to the lesser power menu and equip then activate the lesser power &#34;Play Random Idle Config&#34;. The menu(s) &#34;should&#34; be pretty self-explanatory.\r<br />\r<br />NOTE&#33;\r<br />\r<br />When your character assumes a new idle pose they will be stuck in that pose even while moving until you jump or unsheathe your weapons/spells. RESOLVED&#33; (Big thanks to Aleanne&#33;)\r<br />\r<br />For ADDITIONAL INFORMATION please refer to [url=http://www.nexusmods.com/skyrim/mods/27759]True Player Idling[/url].",
+  "categoryId": "51",
+  "version": "Aleanne",
+  "author": "Phnx",
+  "createdUnix": "1395451090",
+  "updatedUnix": "1418244394",
+  "containsAdultContent": false,
+  "uploadedBy": "Phnx",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000138401",
+      "name": "Play Random Idle",
+      "version": "Aleanne",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "Play Random Idle-52298-Aleanne.7z",
+      "uploadedUnix": "1418244394",
+      "modVersion": "Aleanne",
+      "virusScanUrl": "https://www.virustotal.com/file/c2b17c1a5ef31384e5f3748af847debd803ecfa09d89428a58562a2b7bad50b2/analysis/1418244422/",
+      "changelogHtml": " Aleanne -\r<br />\r<br />- Allowing the player to &#34;break out&#34; of idle mode without having to jump or draw a weapon. The player is now able to break out of idle by using any &#34;action&#34; control, like move forward/backward, strafe left/right, sneak, activate, etc. The gliding almost never occurs, and if it does, it lasts for half a second at most.\r<br />\r<br />- Adding a test mode, allowing the player to review the 20 idles individually\r<br />\r<br />- Modifying the timers logic. There&#39;s now three timers : One timer to enter cycling idle mode from standard idling, another fixed timer between idles, and another random timer between idles. So, for example, you can set a 5 sec timer for entering cycling idling mode, then specify a 10 sec timer + a random 0-20 sec between two idles\r<br />\r<br />- Removed the idling key\r<br />\r<br />- Some bug fixes.\r<br />\r<br />1.2a - PRI disabled in combat.\r<br />\r<br />1.2 - Changed script and removed AI package for smoother transition between idle change and movement. You can now move instantly after your character has changed to a new idle.\r<br />\r<br />1.1a - Automatically add spell.\r<br />\r<br />1.1 - Better FNIS integration.\r<br />\r<br />1.0b - Corrected file structure in the bsa.\r<br />\r<br />1.0a - Corrected wrong timer settings. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Play%20Random%20Idle-52298-Aleanne.7z?fid=1000138401&ttl=1535835199&ri=8192&rs=8192&setec=5db5f12062a26be54d115de2c16d037c"
+    }
+  ]
+}

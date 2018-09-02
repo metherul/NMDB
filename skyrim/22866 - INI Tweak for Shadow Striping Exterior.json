@@ -1,0 +1,32 @@
+{
+  "modId": 22866.0,
+  "modName": "INI Tweak for Shadow Striping Exterior",
+  "summary": "INI Tweak for Shadow Striping Exterior",
+  "descriptionHtml": "***** WARNING: BACK UP YOUR SKYRIMPREFS.INI BEFORE MAKING ANY CHANGES *****\r\n\r\nINI Tweak for Shadow Striping Exterior\r\n\r\nI found these tweaks by accident. I was reading about shadow striping because I still had that problem big time. I started fiddling with various settings and these below seem to work for some reason. It doesn\\'t fix it, it just pushes it back so far that it\\'s barely noticeable. It works on exterior, not sure about interior. Note that I\\'m using Shadow Striping Fix 8043-1-3-1 mod that fixes interior striping especially in Breezehome.\r\n\r\nThere\\'s a small performance hit for me. Shadows are not detailed especially up-close but then this is not a beautification tweak. Strangely enough, I think it works quite well for realism at medium and long distance. But if you want more detail, you can probably set the iShadowMapResolution settings to something higher than 512 in multiple of 2 (512, 1024, 2048, etc), and still be free of striping up-close. I don\\'t know why these tweaks work but I\\'d appreciate if somebody could explain it to me. There may be other ini settings that have some effect on this but I can\\'t begin to figure out which ones. I only cite those that I fiddled with recently which did it for me. I\\'m not even sure if all of these below have an effect or if it\\'s just a few of them. This means if it doesn\\'t work for you, post a comment and we\\'ll figure it out together.\r\n\r\n=========================================================\r\n\r\nIn SkyrimPrefs.ini:\r\n\r\n[Display]\r\n\r\niShadowMapResolution=512\r\niShadowMapResolutionSecondary=512\r\niShadowMapResolutionPrimary=512\r\nfShadowBiasScale=0.5000\r\niShadowMaskQuarter=3\r\niShadowSplitCount=2\r\niBlurDeferredShadowMask=3\r\nfShadowDistance=10000.0000\r\nfInteriorShadowDistance=3000.0000\r\niShadowFilter=3\r\nfShadowLODStartFade=500.0000\r\niShadowMode=3\r\nbTreesReceiveShadows=1\r\nbDrawLandShadows=1\r\nbDrawShadows=1\r\nbShadowMaskZPrepass=1\r\n\r\n=========================================================\r\n\r\nCredit goes to Lady Luck.\r\n\r\nCheck out my other tweaks here: Performance Tweaks For Smooth Gameplay http://skyrim.nexusmods.com/mods/7461\r\n\r\n\r\nMartin Levac 2012",
+  "categoryId": "24",
+  "version": "v1",
+  "author": "Martin Levac",
+  "createdUnix": "1345648409",
+  "updatedUnix": "1345648549",
+  "containsAdultContent": false,
+  "uploadedBy": "JookyThingy",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "83447",
+      "name": "INI Tweak for Shadow Striping Exterior",
+      "version": "v1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "INI Tweak for Shadow Striping Exterior-22866-v1.zip",
+      "uploadedUnix": "1345648549",
+      "modVersion": "v1",
+      "virusScanUrl": "https://www.virustotal.com/file/14c48c268095f2d7b00a04ea5806fdf9c56ef02dd39c4b80e10ccd828692e656/analysis/1407114425/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/INI%20Tweak%20for%20Shadow%20Striping%20Exterior-22866-v1.zip?fid=83447&ttl=1535792711&ri=8192&rs=8192&setec=fc33716dbff5b0c9bbace6672d0ac8e4"
+    }
+  ]
+}

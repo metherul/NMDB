@@ -1,0 +1,48 @@
+{
+  "modId": 39790.0,
+  "modName": "dire HD High Hrothgar",
+  "summary": "A complete, hi-def re-texture of High Hrothgar.",
+  "descriptionHtml": "[img]http://www.coreyhigby.com/Public_2/Nexus/HDHH_Desc.png[/img]\r\nThis is a complete re-texture of High Hrothgar, [i]now available in two flavors[/i]:\r\n\r\n[b][u]HD[/u][/b] | most textures are 4x their original size, larger textures (2048x2048) are 2x the original size\r\n[b][u]Lite[/u][/b] | HD textures scaled down to native, vanilla texture sizes (1x)\r\n\r\nAll assets were redone from scratch (no resolution bump/unsharp mask - that\\'s bush league). Textures are a bit darker than vanilla, that was a design decision.\r\n\r\nv2.0 Note - I scaled down most larger normal maps to improve loading times and performance with very little quality loss. However, I kept some normals native to the higher texture resolution because I felt the loss in quality was more noticeable. I felt I could get away with this because, for the most part, those larger normal maps show up indoors, where performance would be less of an issue. This was a simple judgment call, but you are more than welcome to downsize normals on your own if you\\'d like.\r\n\r\n\r\n\r\n\r\n[img]http://www.coreyhigby.com/Public_2/Nexus/HDHH_Intro.png[/img]\r\nI\\'ve been a part of Nexus for years, happily downloading hundreds of outstanding mods made by some very talented individuals - this is simply an attempt to give back to the community in a small way.\r\n\r\nThis is my first ever mod, so I am absolutely open to suggestions. I\\'ve still got a few kinks I\\'m working out, but nothing so outstanding that I don\\'t feel I can\\'t release the first version. [i]Constructive[/i] criticism is welcomed.\r\n\r\nThis little project has given me a new appreciation for the people whose mods I have enjoyed over the years. Even as a decent Photoshopper, this tested my creativity and problem solving skills more than I would have thought. So, as meager an effort this might be, I dedicate it to Nexus and the amazing modders herein.\r\n\r\n\r\n\r\n\r\n[img]http://www.coreyhigby.com/Public_2/Nexus/HDHH_Issues.png[/img]\r\n- some seams visible if you look hard enough - was driving me nuts until I loaded vanilla textures and the same seams appeared. I guess it\\'s a modeling/mapping issue, which I don\\'t have the expertise to address\r\n\r\n- the exterior stair texture, which appears immediately outside Hrothgar (in front and in courtyard), are grossly mismatched to the model. This happens in vanilla too - the gaps in the stones fall in odd locations on each step. Working on a fix.\r\n\r\n- the large counsel room table is intentionally pretty smooth and glossy, I like it that way\r\n\r\n\r\n[img]http://www.coreyhigby.com/Public_2/Nexus/HDHH_Change.png[/img]\r\nv2.0\r\n- completely reworked most textures, added depth and detail - overall I think it looks [i]much[/i] better\r\n- all normal maps redone to add depth and correct snow accumulation where appropriate\r\n- added Lite version\r\n- updated screenshots to compare vanilla, Lite, and HD textures",
+  "categoryId": "29",
+  "version": "v2.0",
+  "author": "Direspawn",
+  "createdUnix": "1375853555",
+  "updatedUnix": "1376897565",
+  "containsAdultContent": false,
+  "uploadedBy": "Direspawn",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000048024",
+      "name": "dire HD High Hrothgar",
+      "version": "v2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "93099",
+      "fileName": "dire HD High Hrothgar-39790-v2-0.7z",
+      "uploadedUnix": "1376897455",
+      "modVersion": "v2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/00c701c4d48dfead73c17beadd09f10eebb23c0d486104fc694d46649ec41667/analysis/1407688374/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/dire%20HD%20High%20Hrothgar-39790-v2-0.7z?fid=1000048024&ttl=1535820245&ri=8192&rs=8192&setec=4c9cb265a120e04fc5a298ccbb3f9b8f"
+    },
+    {
+      "fileId": "1000048026",
+      "name": "dire HD High Hrothgar - LITE",
+      "version": "v2.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "10245",
+      "fileName": "dire HD High Hrothgar - LITE-39790-v2-0.7z",
+      "uploadedUnix": "1376897565",
+      "modVersion": "v2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ee4c297a1ad501efd42746138fc5882931625b81d772ec927ee2daf94caedb8c/analysis/1407688518/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/dire%20HD%20High%20Hrothgar%20-%20LITE-39790-v2-0.7z?fid=1000048026&ttl=1535820245&ri=8192&rs=8192&setec=35cf88659b17a7a5f1491f519fc0dab9"
+    }
+  ]
+}

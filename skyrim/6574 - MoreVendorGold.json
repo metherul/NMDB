@@ -1,0 +1,32 @@
+{
+  "modId": 6574.0,
+  "modName": "MoreVendorGold",
+  "summary": "Small mod that increases initial vendor gold then continues to increase based on level, changes gold refresh from 2 days to 1.",
+  "descriptionHtml": "   Increases some starting vendors gold, then adds gold every 5 levels to all vendors. Also changes vendor gold refresh to 1 day instead of 2.\r\n\r\nAdd the MoreVendorGold.esp file to your C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data directory, start the game launcher/data, enable MoreVendorGold, then your ready to play.\r\n\r\nWill be working on balancing and adding more if things go well depending on input.\r\n\r\nSee included spreadsheet for exact number details, all incremental gold values, modifiers and such.\r\n\r\n\r\nChange log: 1.01\r\n\r\nAll these go up to level 70, but I can go higher if desired.\r\n\r\nVendorGoldStreetVendor: \r\nDefault Starting gold: \r\nOld:                             New: \r\n 50                                 300\r\nEvery 5 Levels:                +100\r\nlevel 50 gold:                  1300\r\n\r\nVendorGoldSpells:\r\nDefault Starting gold:        500\r\nEvery 5 levels:                 +150\r\nlevel 50 gold:                  2000\r\n\r\nVendorGoldMisc:\r\nDefault starting gold:         750\r\nEvery 5 levels:                 +150\r\nlevel 50 gold:                   2250\r\n\r\nVendorGoldInn:\r\nDefault starting gold:          100\r\nEvery 5 levels:                   +25\r\nlevel 50 gold:                     350\r\n\r\nVendorGoldBlacksmithTown:\r\nDefault starting gold:          500\r\nEvery 5 levels:                  +100\r\nlevel 50 gold:                    1500\r\n\r\nVendorGoldBlacksmithOrc:\r\nDefault starting gold:          400\r\nEvery 5 levels:                   +100\r\nlevel 50:                           1400\r\n\r\nVendorBlacksmith:\r\nDefault starting gold:        1000\r\nEvery 5 levels:                  +150\r\nlevel 50:                          2500\r\n\r\nVendorGoldApothecary:\r\nDefault starting gold:         500\r\nEvery 5 levels:                 +150\r\nlevel 50 gold:                   2000\r\n",
+  "categoryId": "24",
+  "version": "1.01",
+  "author": "Whittaker Courtney",
+  "createdUnix": "1327012314",
+  "updatedUnix": "1327212460",
+  "containsAdultContent": false,
+  "uploadedBy": "whitt107",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "21944",
+      "name": "MoreVendorGold_1_01",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "MoreVendorGold_1_01-6574-1-01.zip",
+      "uploadedUnix": "1327212460",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/5a1ed05b2f067a35744b01afcb28104ab344ebbd9e2759cddd1f30a8b07d3b9d/analysis/1406629278/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MoreVendorGold_1_01-6574-1-01.zip?fid=21944&ttl=1535764092&ri=8192&rs=8192&setec=8d3cfe4a0fd3d2c1b6607a9c7bae9d5a"
+    }
+  ]
+}

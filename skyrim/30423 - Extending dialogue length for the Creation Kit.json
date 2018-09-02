@@ -1,0 +1,32 @@
+{
+  "modId": 30423.0,
+  "modName": "Extending dialogue length for the Creation Kit",
+  "summary": "Shows you how to uncap the hard limit of 80 characters in the Player Dialogue \\\\ Topic Text and the Topic Info \\\\ Prompt dialogue boxes. Useful for player dialogue translators and player dialogue overhauls.",
+  "descriptionHtml": "[img]http://i1259.photobucket.com/albums/ii556/Eliorim/Extending%20Dilogue%20Length%20nexus/00-header_zpsd157d3da.png[/img] \r\n\r\n[color=#f9ad81][size=5][b]WHAT IS THIS?[/b][/size][/color] \r\nIt is a tutorial that shows you how to uncap the hard limit of 80 characters in the Player Dialogue \\\\ Topic Text and the Topic Info \\\\ Prompt dialogue boxes. Useful for player dialogue translators and player dialogue overhauls. \r\n\r\n[size=5][color=#f9ad81][b]THE WHY? • THE HOW?[/b][/size][/color] \r\nThe Creation Kit by default doesn’t allow you to enter text longer than 80 characters for the Player. This causes a couple of problems for modders who mod in languages which have sentence syntax that naturally exceeds this and stifles creativity for others who would like to add a bit of life to the player dialogue. \r\n\r\nThere is a solution for this though. It is actually something that is built into the Creation Kit and to the best of my knowledge has been there since at least the CK for TES IV: Oblivion. \r\n\r\nSo, since this is a tweak not that widely known, I decided on this tutorial so that modders who might use it could find it easier. \r\n\r\n[color=#f9ad81][size=5][b]The HOW?[/b][/size][/color] \r\n[color=#f9ad81][b]Step 1.[/b][/color] \r\nLocate your [b]\\\"SkyrimEditor.ini\\\"[/b] file. It is usually located @ [b][i]steam\\\\steamapps\\\\common\\\\Skyrim\\\\SkyrimEditor.ini[/i][/b] or in the same directory as the [b]CreationKit.exe[/b]. If you find it in different places I suggest working with the one in the directory with the CreationKit.exe. \r\n\r\n[color=#f9ad81][b]Step 2.[/b][/color] \r\nDownload the file from the main files section and extract the [b]SkyrimEditorCustom.ini[/b] to that same directory. Skip to Step 4. \r\n\r\nor alternatively \r\n\r\nCreate a NEW text file in the same directory called [b]\\\"SkyrimEditorCustom.ini\\\"[/b] and open it in your text editor. \r\n\r\n[color=#f9ad81][b]Step 3.[/b][/color] \r\nAdd the following lines: \r\n[code][Localization] \r\niExtendedResponseLength=255 \r\niExtendedTopicLength=161 \r\nbAllowExtendedText=1[/code]  \r\n\r\nand Save it \r\n\r\n[color=#f9ad81][b]Step 4.[/b][/color] \r\nStart up the CK. \r\n\r\n[color=red][b]Note/Disclaimer:[/b][/color] \r\nThe value of 161 can probably be anything within reason and the actual value will be decreased by 1 in the CK. Experiment with higher values at your own risk and keep in mind that although the game will probably read the longer lines, they might be difficult to read for people with smaller displays. I take no responsibility for your or anybody else’s game or Creation Kit exploding if you do so. \r\n\r\n[size=5][color=#f9ad81][b]Credits[/b][/size][/color] \r\nThanks to mjharper for creating [url=http://skyrim.nexusmods.com/mods/14513]Khajiit Speak - Complete Dialogue Overhaul[/url]. This is the mod that got me digging for a solution. \r\nThanks to Mike89 at [url=http://forum.wiwiland.net/index.php?/topic/52478-le-ck-et-ses-problemes-generaux-discussion/page__st__25#entry702561]http://forum.wiwiland.net/[/url] and their [url=http://wiwiki.wiwiland.net/index.php/Creation_Kit_:_Fichiers_INI#Modifications_relatives_au_bon_fonctionnement_du_CK_sur_une_VF]wiki[/url]. (and Google for the translator. I don\\'t speak a word of the lingo)\r\nThanks to Bethesda for Skyrim and the Creation Kit.\r\nThanks to nexusmods for being the melting pot of creativity that it is.\r\n\r\n[size=5][color=#f9ad81][b]Resources used[/b][/size][/color] \r\n[url=http://cs.elderscrolls.com/index.php/Extending_Dialogue_Length]http://cs.elderscrolls.com/index.php/Extending_Dialogue_Length[/url]\r\n[url=http://www.creationkit.com/INI_files]http://www.creationkit.com/INI_files[/url]\r\n[url=http://forum.wiwiland.net/index.php?/topic/52478-le-ck-et-ses-problemes-generaux-discussion/page__st__25#entry702561]http://forum.wiwiland.net/index.php?/topic/52478-le-ck-et-ses-problemes-generaux-discussion/page__st__25#entry702561[/url] \r\n[url=http://wiwiki.wiwiland.net/index.php/Creation_Kit_:_Fichiers_INI#Modifications_relatives_au_bon_fonctionnement_du_CK_sur_une_VF]http://wiwiki.wiwiland.net/index.php/Creation_Kit_:_Fichiers_INI#Modifications_relatives_au_bon_fonctionnement_du_CK_sur_une_VF[/url] \r\n\r\n[size=5][color=#f9ad81][b]Licensing/Legal[/b][/size][/color] \r\nAs far as I\\'m concerned spread this far and wide.",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "Eliorim and the Modding Community",
+  "createdUnix": "1359064190",
+  "updatedUnix": "1359064477",
+  "containsAdultContent": false,
+  "uploadedBy": "Eliorim",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000004641",
+      "name": "SkyrimEditorCustom_ini_7z",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "SkyrimEditorCustom_ini_7z-30423-1-0.7z",
+      "uploadedUnix": "1359064477",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5a9fe5aad8367b3628abc007789d565ef2198e73e5756b12f16688dce0ffd23b/analysis/1407377044/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimEditorCustom_ini_7z-30423-1-0.7z?fid=1000004641&ttl=1535805221&ri=8192&rs=8192&setec=0d6fcbe737aa7fde55f37bc343e00e94"
+    }
+  ]
+}

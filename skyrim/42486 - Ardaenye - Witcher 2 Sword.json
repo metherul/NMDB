@@ -1,0 +1,48 @@
+{
+  "modId": 42486.0,
+  "modName": "Ardaenye - Witcher 2 Sword",
+  "summary": "Port of the Ard\\'aenye sword from the Witcher 1/2.",
+  "descriptionHtml": "Another Witcher 2 sword port, this time Ard\\'aenye, which means \\\"mountain fire\\\" or \\\"greatest fire\\\". Some may not recognise the model as it\\'s only obtainable in The Witcher 2 if imported from a Witcher 1 save, but apparently it\\'s been patched out of the first game.\r\n\r\nVISUAL FEATURES:\r\n- New diffuse texture, 1k resolution up from 512x512. It\\'s not mindblowing by any means as it was a quick job but it sill has 4 times as many pixels as the original. The stock texture is included, change the texture in Nifskope or renames the DDS if you hate the new one for some reason.\r\n- Scabbards and blood effects.\r\n\r\nGAMEPLAY FEATURES:\r\n- Two new craftable, temperable weapons: Ard\\'aenye Longsword (1H, smaller model) and Ard\\'aenye Greatsword (2H). Stats roughly equivalent to Daedric, slightly longer reach/higher speed.\r\n- Requires Advanced Armours perk to craft. Type \\\"help aenye\\\" (no quotes) into the console to get the IDs for the player.additem command if you don\\'t want to go through this.\r\n\r\nOPTIONAL FILES:\r\n- Make the scabbards use the textures from \\\"Witcher 2 swords HD\\\" ( http://skyrim.nexusmods.com/mods/13552/ ) by Suhoi72 if you have it installed. That mod is highly recommended as the textures look a lot better, though they are performance intensive. I recommend resaving them with DXT compression (1 for diffuse/mask, 5 or 3 for normal map).\r\n\r\n",
+  "categoryId": "55",
+  "version": "1.0",
+  "author": "MRRT",
+  "createdUnix": "1379505455",
+  "updatedUnix": "1379505446",
+  "containsAdultContent": false,
+  "uploadedBy": "Mr. Tea Towell",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000056317",
+      "name": "Aerdanye",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2736",
+      "fileName": "Aerdanye-42486-1-0.rar",
+      "uploadedUnix": "1379505297",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/43b7b68b5c0bb58dca2817bd69176647bf33d31523f22437bc4329fc64ea2ccc/analysis/1407727247/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Aerdanye-42486-1-0.rar?fid=1000056317&ttl=1535823349&ri=8192&rs=8192&setec=5ba946454d6c7c45df9c7e34fddd08fe"
+    },
+    {
+      "fileId": "1000056319",
+      "name": "HD Scabbard",
+      "version": ".",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "192",
+      "fileName": "HD Scabbard-42486--.rar",
+      "uploadedUnix": "1379505446",
+      "modVersion": ".",
+      "virusScanUrl": "https://www.virustotal.com/file/893511ea761209d57e05b5a0e09af52b8d000cd02a7ba3cb35acb23e583c8c3f/analysis/1407727415/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HD%20Scabbard-42486--.rar?fid=1000056319&ttl=1535823349&ri=8192&rs=8192&setec=e361120db910e8f8d119548c3cc8118f"
+    }
+  ]
+}

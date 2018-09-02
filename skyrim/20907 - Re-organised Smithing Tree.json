@@ -1,0 +1,32 @@
+{
+  "modId": 20907.0,
+  "modName": "Re-organised Smithing Tree",
+  "summary": "Re-organises the smithing tree allowing for completely heavy or completely light armour paths through the tree, as well as adding perks to incorporate the lower level armours to make them more viable for longer.",
+  "descriptionHtml": "#####TO BE SAFE, THIS MOD IS BEST INSTALLED BEFORE STARTING A NEW CHARACTER#####\r\n\r\n\r\nThis mod aims to make the lower level armours (Fur, Studded, Leather, Hide, Iron and Banded Iron) viable for longer by adding perks which allow them to be improved at the same level as other armours that have their own perks. It also re-organises the Smithing tree to enable players to go completely heavy or completely light from perk 1, while still giving equal access to the path neutral perks (Arcane Blacksmith and Advanced Armours).\r\n\r\nThe Steel Smithing perk now requires level 20 Smithing in order for it to be acquired, while Basic Smithing and Iron Smithing can be chosen as the first perk. The other level requirements for the perks remain unchanged.\r\n\r\nThe complete changes this mod makes are as follows:\r\nChanges to vanilla perks:\r\nSteel Smithing improves the following:\r\n- Steel armour and weapons\r\n- Silver weapons\r\n- Imperial heavy armour\r\n- Imperial weapons\r\n- Draugr weapons\r\n- Falmer weapons\r\nAdvanced Armors improves the following:\r\n- Steel Plate armour\r\n- Scaled armour\r\n- Honed Draugr weapons\r\n- Honed Falmer weapons\r\n\r\nThe new perks change the following:\r\nIron Smithing:\r\n- Iron armour and weapons\r\n- Banded Iron armour\r\nBasic Smithing:\r\n- Hide armour\r\n- Studded armour\r\n- Leather armour\r\n- Wood weapons\r\n- Stormcloak armour\r\n- Imperial Studded armour\r\n- Imperial Light armour\r\n- Fur armour\r\n\r\nIn this way more weapons and armour become viable and stay viable for much longer.\r\n\r\nIt also changes the way the perks connect to each other. As the pictures show, Arcane Blacksmith and Advanced Armors are accessible from both paths because they are path neutral. The perk dependencies for most vanilla perks remain unchanged except for Steel Smithing, which now requires Iron Smithing, and Dragon Armo,r which no longer requires Advanced Armors on the light armour path, but level requirements remained unchanged except for the aforementioned change to Steel Smithing.\r\n\r\nNOTE 1: The only reason Iron Smithing has a connection to Elven Smithing is so that the tree doesn\\'t fall apart in the Creation Kit. Iron Smithing is not a requirement for Elven Smithing.\r\n\r\nNOTE 2: For those of you using the AutoPerksStatsLevels mod, you need to change the following line of code in the configuration file: Change \\\"Perk_SKILL_Level_Steel_Smithing=0\\\" to \\\"Perk_SKILL_Level_Steel_Smithing=20\\\".\r\n\r\n-- If you are looking for a mod which fixes the problems with vanilla perks without restructuring the tree, then try Smithing Perks Overhaul by Headbomb (http://skyrim.nexusmods.com/mods/6047) --",
+  "categoryId": "79",
+  "version": "1.4",
+  "author": "TheInquisitor",
+  "createdUnix": "1342937856",
+  "updatedUnix": "1344475036",
+  "containsAdultContent": false,
+  "uploadedBy": "TheInquisitor",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "79903",
+      "name": "Re-organised Smithing Tree v1-4",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Re-organised Smithing Tree v1-4-20907-1-4.rar",
+      "uploadedUnix": "1344475036",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/2405eb8ee4b39129b0595515f65d91732046f3d087e5ab451d74965a5882b3aa/analysis/1407081363/",
+      "changelogHtml": " Added craftable Fur Armour (available under Misc) <br/> \n Fur Armour is now covered by the Basic Smithing perk <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Re-organised%20Smithing%20Tree%20v1-4-20907-1-4.rar?fid=79903&ttl=1535789364&ri=8192&rs=8192&setec=e8c5a9daaf8b23309b3df40cdcc45ae2"
+    }
+  ]
+}

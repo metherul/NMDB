@@ -1,0 +1,32 @@
+{
+  "modId": 38193.0,
+  "modName": "No Camera Sway in 1st Person",
+  "summary": "This mod removes the camera sway from attacking and equipping in 1st person view",
+  "descriptionHtml": "This mod removes the camera sway from attacking and equipping in 1st person view. The swaying from power attacks is still there since I think it\\'s not over the top like the one from normal attacks and equipping.\r\n\r\nHere\\'s a vid of what it looks like : \r\n[youtube]xAsfy1GwwBI[/youtube]\r\n\r\nSince each animation = 1 file, this mod is easily customizable. If you want to keep the sway from a specific animation, just remove the file corresponding to that animation in the folder : Data\\\\Meshes\\\\actors\\\\character\\\\_1stperson\\\\animations.\r\n\r\nTo uninstall, simply remove every file from the folder : Data\\\\Meshes\\\\actors\\\\character\\\\_1stperson\\\\animations",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "Maevinh",
+  "createdUnix": "1373512452",
+  "updatedUnix": "1373512449",
+  "containsAdultContent": false,
+  "uploadedBy": "daedriclord",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000038347",
+      "name": "NoCameraSway",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "209",
+      "fileName": "NoCameraSway-38193-1-0.zip",
+      "uploadedUnix": "1373512449",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4c9f9859d758cf0c594a7cfda6cd6b91a7ae2b27d128e882d4b5a7c8f01f95fc/analysis/1407639007/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NoCameraSway-38193-1-0.zip?fid=1000038347&ttl=1535818406&ri=8192&rs=8192&setec=902ecf2cfa40c775f56a6a1dca6c92d6"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "modId": 10004.0,
+  "modName": "Dispel Spell",
+  "summary": "Spells to remove magical effects",
+  "descriptionHtml": "This files contains two spells.  The first is a self cast spell that will remove magical effects on the caster.  The other is a non hostile spell that will remove magical effects from nearby NPCs.  To add the spells to the player:\r\n1. Open the game console up and type in \\'help dispel 4\\' without the quotes\r\n2. Scroll up until the two spells id shows up they should be:\r\n    XX000d63\r\n    XX0012c7\r\n    remember what the two numbers are that are in the XX spot.\r\n3. After you get the two spell id type in: \r\n    player.addspell XX000d63\r\n    player.addspell XX0012c7\r\n    The XX are the two digits from step 2.\r\nThat should be all the steps.",
+  "categoryId": "75",
+  "version": "1",
+  "author": "batman899",
+  "createdUnix": "1329441531",
+  "updatedUnix": "1329441531",
+  "containsAdultContent": false,
+  "uploadedBy": "batman899",
+  "primaryFile": null,
+  "files": []
+}

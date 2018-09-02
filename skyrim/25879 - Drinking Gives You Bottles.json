@@ -1,0 +1,48 @@
+{
+  "modId": 25879.0,
+  "modName": "Drinking Gives You Bottles",
+  "summary": "Gives you empty bottles when you drink various alcohols, including some new empty bottles. Also adjusts the weight of existing empty bottles to be more lore-friendly (same weight on both full bottles and empty ones was a bit absurd).",
+  "descriptionHtml": "v1.1 - Added missing script files. Sorry I couldn&#39;t do this before now, I had heavy real life agro for a long time&#33;\r<br />\r<br />...__________________________________\r<br />./................................................._\r<br />|....................................................._____\r<br />|.....Drinking Gives You Bottles.................|....../\r<br />|.....................................................|____/\r<br />|..................................................._/ \r<br />.___________________________________/\r<br />                                                                     \r<br />[center][url=http://www.skyrimgems.com][img]http://SkyrimGEMS.com/images/badge_animated.gif[/img]\r<br />[/url][url=http://www.nexusmods.com/skyrim/mods/65163/?][img]http://i.imgur.com/b7O5gd7.png[/img][/url][/center]\r<br />\r<br />Tired of eating bottles with your alcohol? Those glass shards really tearing up your throat? Then this mod is for you&#33;\r<br />\r<br />I got tired of the little immersion breaking when you drink various alcohol - what did you eat the bottle as well? So I went to look for a mod that adds empty bottles after you drink alcohol, but couldn&#39;t find one, so I made this mod.\r<br />\r<br />\r<br />::Contents::\r<br />0. Description\r<br />1. Compatibility\r<br />2. Installation\r<br />3. Uninstallation\r<br />4. Update Log\r<br />5. Future Plans For Updates\r<br />6. Recommended Mods\r<br />7. Special Thanks\r<br />8. Permissions\r<br />9. Notes\r<br />10. Feedback\r<br />\r<br />|==========|\r<br />|  Description|\r<br />|==========|\r<br />This is a very simple immersive mod that adds empty bottles to the player&#39;s inventory upon drinking the various wines, meads, and other alcohols found in Skyrim. This mod also:\r<br />    -Adds empty bottles for the alcohols that don&#39;t have them\r<br />    -Adjusts the weight of existing empty bottles and new ones to 0.1 from 0.5 (since it&#39;s a \r<br />      bit strange to polish off an entire bottle and have it be the same weight as it was before)\r<br />    -The following alcohols are currently included: 2 kinds of Alto wines, 2 kinds of Nord wines, \r<br />      BlackBriar Mead, BlackBriar Reserve, Cyrodilic Brandy, Honningbrew Mead, Dragon&#39;s Bridge\r<br />      Mead, Firebrand Wine, Spiced Wine, Argonian Ale (quest item, planning to make alternate\r<br />      version), Juniper Mead, and Skooma.\r<br />\r<br />|============|\r<br />|   Compatibility  |\r<br />|============|\r<br />This mod should be compatible with any other mod that doesn&#39;t edit the vanilla alcohols. Even so, it shouldn&#39;t cause crashes or anything. I noticed that this mod breaks the new naming convention of any of the Headbomb&#39;s Better Sorting - Food.esp&#39;s, including placing the vanilla alcohols in the potions section. Placing my mod above Headbomb&#39;s in the load order doesn&#39;t seem to fix this (it actually breaks my mod).\r<br />\r<br />Also, mods that change or add new meshes to the vanilla alcohol bottles will not synch up with this mod. Either my mod will overwrite the new mesh changes, or just the newly created empty bottles won&#39;t match up with the new ones. I will look into how to fix this.\r<br />\r<br />|==========|\r<br />|  Installation   |\r<br />|==========|\r<br />Manual: Just drop the .esp into the steam/steamapps/common/skyrim/data folder and you&#39;re\r<br />             good to go&#33;\r<br />NMM: Should be completely compatible: just install normally\r<br />\r<br />|============|\r<br />|  Uninstallation|\r<br />|============|\r<br />Just delete DrinkingGivesYouBottles.esp from your steam/steamapps/common/skyrim/data folder and you&#39;re good to go&#33; This will only remove the new empty bottles from your inventory, the vanilla models will not be removed.\r<br />\r<br />|==========|\r<br />|  Update Log|\r<br />|==========|\r<br />10/22/12:  1.0\r<br />    -Initial Release\r<br />\r<br />|======================|\r<br />|  Future Plans For Updates   |\r<br />|======================|\r<br />Generally speaking, I&#39;m a very busy person: I&#39;m currently in college and have a lot of work to do on a usual basis. I will try to implement these as I am able\r<br />    -Make this mod compatible with Headbomb&#39;s Better Sorting\r<br />    -Create a compatibility patch for T3nd0s&#39; Skyrim Redone in order to add the new empty\r<br />      bottles to the crafting lists for the Blacksmithing perk that allows you to smelt down items\r<br />      into ingots\r<br />    -Add optional files that include some of the new alcohols from Dawnguard, Hearthfire, and\r<br />      any other DLC Bethesda releases \r<br />    -Add compatibility for mods that change the vanilla skins of the vanilla alcohols\r<br />    -Add a merchant that specifically sells alcohols and the empty bottles (my first attempt at\r<br />      this caused CTDs, and I have no idea why, so I took it out of the mod for now)\r<br />    -Possibly change the effects that using vanilla alcohols give you?\r<br />    -Maybe add a debilitating effect to Skooma? I mean, it&#39;s supposed to be very addictive...\r<br />    -Anything else I may think of\r<br />\r<br />|==================|\r<br />|  Recommended Mods |\r<br />|==================|\r<br />You might also want to look at &#34;Katixas Usable Barrels&#34; (http://skyrim.nexusmods.com/mods/12513) \r<br />\r<br />|==============|\r<br />|  Special Thanks  |\r<br />|==============|\r<br />    -Bethesda, for making this amazing game&#33;\r<br />    -The Skyrim modding community for the tutorials I used to make this, especially MofoMojo for\r<br />      his post on the Nexus Forums here: http://forums.nexusmods.com/index.php?/topic/558882-addspell-script-when-drinking-a-potion/\r<br />\r<br />|===========|\r<br />|  Permissions  |\r<br />|===========|\r<br />This mod can be freely uploaded to other sites, so long as you list me as the author and say that it was originally posted on The Skyrim Nexus. I will be adding it to the Steam Workshop as well, for an alternate downloading location. I have no problem with this mod being added to compilations or other mods, so long as I am given credit. Please don&#39;t release alternate versions of this mod without my permission, unless they are translations, in which case I say go for it&#33;\r<br />\r<br />|======|\r<br />|  Notes  |\r<br />|======|\r<br />If you would like to create language translations for this mod, feel free to do so. I only know English and basic Spanish, so I can&#39;t do them myself, and I dislike machine translations. Let me know and I will post a link in this mod&#39;s description.\r<br />\r<br />I tested this mod by playing it for a few hours, drinking various alcohols in different locations and at different times to see if I got any errors or CTDs: I didn&#39;t find any problems. I haven&#39;t tested it with a new game, but there shouldn&#39;t be any issues: while creating this mod, I touched nothing in any cell in the render window, in order to not have any dirty edits.\r<br />\r<br />Alternatively on Steam Workshop: http://steamcommunity.com/sharedfiles/filedetails/?id=104161578\r<br />\r<br />|=========|\r<br />|  Feedback   |\r<br />|=========|\r<br />Questions? Suggestions? Comments? I welcome them all, and will answer them all as soon as I can. I can be very busy on a very erratic schedule, but that&#39;s college for ya.\r<br />\r<br />Remember, if you like it, Endorse it&#33; It helps us modders feel good about what we&#39;ve created, and motivates us to make more awesome mods and updates. Thanks&#33;",
+  "categoryId": "27",
+  "version": "1.1",
+  "author": "UlithiumDragon",
+  "createdUnix": "1350923482",
+  "updatedUnix": "1395486136",
+  "containsAdultContent": false,
+  "uploadedBy": "UlithiumDragon",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "95197",
+      "name": "Drinking Gives You Bottles",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Drinking Gives You Bottles-25879-1-0.7z",
+      "uploadedUnix": "1350925494",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/cc671e91fb823c432935ec93ee75f5532530e93643e3f0e803aaa50aaa9e9160/analysis/1407232217/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Drinking%20Gives%20You%20Bottles-25879-1-0.7z?fid=95197&ttl=1535797612&ri=8192&rs=8192&setec=1b18d43f694306368fd2c5f1b8212c76"
+    },
+    {
+      "fileId": "1000102023",
+      "name": "New Release",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "New Release-25879-1-1.7z",
+      "uploadedUnix": "1395486136",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/3ca0346a62ed00032df68c19c0c9e04877db5e445e5a8bb8bd46fbd2e7bc88b0/analysis/1407990913/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/New%20Release-25879-1-1.7z?fid=1000102023&ttl=1535797612&ri=8192&rs=8192&setec=1a3dcc127849852ba05fb077a29099cc"
+    }
+  ]
+}

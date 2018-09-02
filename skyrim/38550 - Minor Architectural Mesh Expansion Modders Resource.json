@@ -1,0 +1,32 @@
+{
+  "modId": 38550.0,
+  "modName": "Minor Architectural Mesh Expansion Modders Resource",
+  "summary": "This is a little modders resource that I have made for myself, but have since then decided to share it with you guys, should anyone find use for it. It contains almost a hundred new meshes from different architectual styles, that have been created with Nifscope from vanilla meshes to allow for greater flexibility in their use. ",
+  "descriptionHtml": "[color=yellow][b]Please note[/b] that I have misnamed the folder in which the .nif files are stored. You will find, that the folder is not named \\\"ArchitecturalMeshExpansion\\\" as refered to in this description, but \\\"RajtiMeshExpansion\\\". Now, since the .esp looks for the ArchitecturalMeshExpansion folder, please rename this \\\"RajtiMeshExpansion\\\" folder (which you will find under skyrim/data/meshes/architecture, into \\\"ArchitecturalMeshExpansion\\\".[/color]\r\n\r\n[color=green][b]Hello everyone![/b] \r\nSo, this is a little modders resource that I have made for myself, but have since then decided to share it with you guys, should anyone find use for it. It contains almost a hundred new meshes from different architectual styles, that have been created with Nifscope from vanilla meshes to allow for greater flexibility in their use.[/color] \r\n\r\n[color=yellow][b]Installation and use:[/b]\r\nSince this is a rather large file, containing many new meshes, and since you probalby won\\'t find use for all of them, I recommend the following procedure:[list]\r\n[*]Install the mod with NMM\r\n[*]Open the Creation Kit, and check the Architectural Mesh Expansion esp. as a plugin file\r\n[*]Look at the already made meshes (they all have a Resources* prefix) and decide which ones you want to use in your mod\r\n[*]Take note of these meshes and search for them under Skyrim/Data/Meshes/Architecture/ArchitecturalMeshExpansion (the .nif files may have a slightly different name than the files in the CK, so you must double click the item in the CK, Edit Base, and view the name of the .nif model it uses)\r\n[*]Make a new Folder, and name it \\\"Meshes\\\". In it, make another folder and name it \\\"architecture\\\", and again in the \\\"architecture\\\" subfolder, make another folder and name it what ever you will, just so you remember, that this is your mod\\'s mesh folder. (This Mesh folder, along with all the subfolders in it will be copy/pasted into your Data folder, as well as published along with your mod, so that the people using it will have these new meshes in their game).\r\n[*]Copy paste the meshes you have picked into your new folder, that is, into the folder you have named yourself, which is the subfolder of the \\\"architecture\\\" folder, which in turn is the subfolder of the \\\"Meshes\\\" folder.\r\n[*]When all the meshes you will use are in place, copy this newly made Meshes folder into your game directory, that is, steam/steamapps/common/skyrim/data.\r\n[*]In the CK, you can now make a new file without my \\\"ArchitecturalMeshesExpansion.esp\\\" file, and still make use of the meshes\r\n[*]However, these meshes won\\'t be in the CK anymore, since your new file will have no link to the desired .nifs in your folder. To overcome this, create a new static object with a new ID, and under model, select the .nif you wish to use (but now, select it from the .nifs that you have in your folder under skyrim/data/meshes/architecture/yourfolder).\r\n[*]once this is done, your new .esp will have a link to the new meshes, allowing you to work with them in your mod.\r\n[*]for packaging this mod, make a .rar file of both your .esp, as well as your newly created Meshes folder. Both will be copied into your mod user\\'s data folder, allowing them access to the meshes you have picked.[/list][/color]\r\n\r\nIf this seems overly complicated, or if you have any further questions, please don\\'t hesitate to ask in the discussion page, or contact me via PM.\r\n\r\nHappy modding!",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "Rajti15",
+  "createdUnix": "1374344096",
+  "updatedUnix": "1374344027",
+  "containsAdultContent": false,
+  "uploadedBy": "rajti15",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000039824",
+      "name": "Architectural Mesh Expansion",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "62782",
+      "fileName": "Architectural Mesh Expansion-38550-1-0.rar",
+      "uploadedUnix": "1374344027",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6493275704d28081023bb6a2c555763b01acd08d56d0a04ca081b10949811699/analysis/1407650616/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Architectural%20Mesh%20Expansion-38550-1-0.rar?fid=1000039824&ttl=1535818946&ri=8192&rs=8192&setec=280f01e282d8eaf90f75de63c6464be6"
+    }
+  ]
+}

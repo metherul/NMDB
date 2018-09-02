@@ -1,0 +1,48 @@
+{
+  "modId": 9655.0,
+  "modName": "Female Orc And Followers walk and animations fix",
+  "summary": "Makes them use the female animation.",
+  "descriptionHtml": "I decided to try and change the walk animations of female orcs, and saw that it was easy to change the followers ones too. I think I got all of them, but feel free to comment if I missed one. Hopefully this mod will work correctly. If you used NPC Editor to modify your housecarls, make sure to put their esps under this one in the Mod Manager.(Thanks Cicattrix for bringing this up)\r\n\r\nUpdate:\r\nA couple of people have said that it\\'s making other females freeze in place, so I\\'ve uploaded separate versions to see which one is the problem.\r\n\r\nUpdate 2:\r\nIt seems that having them both in one esp is the problem, I will be deleting the combined one and keeping the separate ones. You can use the two of them together without problem. This should hopefully fix everything.",
+  "categoryId": "51",
+  "version": "1.1",
+  "author": "chaosknight19",
+  "createdUnix": "1329255993",
+  "updatedUnix": "1336091578",
+  "containsAdultContent": false,
+  "uploadedBy": "chaosknight19",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "31357",
+      "name": "Female Followers only",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Female Followers only-9655.rar",
+      "uploadedUnix": "1329279918",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d8ebab8f366ebec491c4bd08baafb6b7b76f906ce7957bea245cdca8908400c6/analysis/1406683405/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Female%20Followers%20only-9655.rar?fid=31357&ttl=1535769405&ri=8192&rs=8192&setec=2f1356a35d0566402414b9c9c748d5ac"
+    },
+    {
+      "fileId": "58466",
+      "name": "Female Orc Walk Only",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Female Orc Walk Only-9655-1-1.rar",
+      "uploadedUnix": "1336091578",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d48f10f29a41f0a044d564212c55f67af97dbff8655a624db07c9a6a1db5b21b/analysis/1406864425/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Female%20Orc%20Walk%20Only-9655-1-1.rar?fid=58466&ttl=1535769405&ri=8192&rs=8192&setec=175e0b381cf3c14b4b1ab0e537beb03c"
+    }
+  ]
+}

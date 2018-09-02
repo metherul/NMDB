@@ -1,0 +1,32 @@
+{
+  "modId": 76638.0,
+  "modName": "Cell Tracker Utility",
+  "summary": "Lets any mod know when the player has entered a new cell by tracking a PapyrusUtils variable. PapyrusUtils SKSE plugin required.",
+  "descriptionHtml": "This utility mod takes the technique for checking when the player enters a new cell from the Creation Kit Wiki and puts the result in a handy variable that any script can access via [url=http://www.nexusmods.com/skyrim/mods/58705/?]exiledviper&#39;s PapyrusUtil  SKSE plugin[/url]. The variable is a StorageUtil Int and acts as a counter that increments when a new cell is entered.\r<br />\r<br />This is intended to help modders. If you use it in your mod make sure your users have it and [url=http://www.nexusmods.com/skyrim/mods/58705/?]PapyrusUtil[/url] installed too.\r<br />\r<br />\r<br />Note: I uploaded a bum version the first time. New upload version 1.1 should be right. Sorry about that&#33;",
+  "categoryId": "28",
+  "version": "1.1",
+  "author": "Unknown author from creationkitDOTcom and Pananacakes",
+  "createdUnix": "1466934428",
+  "updatedUnix": "1466942705",
+  "containsAdultContent": false,
+  "uploadedBy": "Pananacakes",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000211192",
+      "name": "Cell Tracker Utility.zip",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "Cell Tracker Utility.zip-76638-1-1.zip",
+      "uploadedUnix": "1466942705",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/32d64ae2532d5b623b30a07c7e7827cfd9740a7005b97f808e67e70fca8add60/analysis/1466942764/",
+      "changelogHtml": " Removed unecessary distance-from-player condition that was breaking the mod in version 1.0 <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Cell%20Tracker%20Utility.zip-76638-1-1.zip?fid=1000211192&ttl=1535865348&ri=8192&rs=8192&setec=b8566aea913c229ec87049a314dfaafa"
+    }
+  ]
+}

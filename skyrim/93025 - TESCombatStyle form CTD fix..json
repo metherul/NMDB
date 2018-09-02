@@ -1,0 +1,32 @@
+{
+  "modId": 93025.0,
+  "modName": "TESCombatStyle form CTD fix.",
+  "summary": "Fixes the \"Missing TESCombatStyle form\" CTD encountered while wandering the world.",
+  "descriptionHtml": "[color=#f9cb9c]Hello again. After over 8,000 hours of wandering Skyrim and all that time being plagued by mysterious CTDs while simply walking the land, I had nearly become so sick of them that I contemplated uninstalling Skyrim. [/color][b][color=#ffe599]Then I found a very nice mod called \"Crash Fixes\" by \"meh21\" ([/color][color=#00ffff]https://www.nexusmods.com/skyrim/mods/72725/[/color][color=#ffe599]) that remedied quite a few old CTD demons while also doing an equally useful service of pointing out offending NPCs and objects causing CTD events. [/color][/b][color=#b6d7a8]Thanks for that, meh21.\n<br />\n<br />[/color][color=#a2c4c9]After loading TES5Edit and typing in the ID number that \"Crash Fixes\" supplied me with, I was directed to an odd looking template for a spawn point for ambient creatures. Namely, a shifty looking fox and snow fox. [/color][color=#a4c2f4]After reading through their files, I noticed they used a template for something that wasn't a fox or snow fox. [/color][color=#ff7700][b]This was what was causing the CTD events.\n<br />\n<br />[/b][/color][color=#93c47d]My mod remedies this by using the correct template for the actor and after a full playthrough, I haven't had anymore CTD events caused by these shifty looking foxes.[/color]\n<br />\n<br />[b][color=#ff00ff]Only requirement is Skyrim.esm. [/color][color=#e06666]Does not require \"Crash Fixes\".[/color]\n<br />\n<br />[color=#ff0000]A side effect I've been notified of will no longer allow rabbits to spawn while using my fix. [/color][color=#00ff00]Bethesda's hand-placed locations like Spriggan lairs and some shrines still spawn rabbits.[/color][color=#ff0000] [/color]Adding the rabbit's record to any other \"LCharAnimalxPrey\" spawn list using \"TES5Edit\" will also add rabbits back to the world.\n<br />\n<br />[/b][color=#00ff00][size=4][b]Hot files 8-13-2018 to 8-19-18! Thanks for that!\n<br />\n<br />[/b][/size][/color][b][size=3]Skyrim SE port by ff7legend. ([color=#00ffff]https://www.nexusmods.com/skyrimspecialedition/mods/19265[/color])[/size][/b]\n<br />\n<br />[color=#ffff00]Thanks for looking, I hope this helps you all as well as it has me.[/color]",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Armored Troll",
+  "createdUnix": "1534099706",
+  "updatedUnix": "1534099706",
+  "containsAdultContent": false,
+  "uploadedBy": "ArmoredTroll",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000279509",
+      "name": "TESCombatStyle form CTD fix.",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "TESCombatStyle form CTD fix.-93025-1-0.7z",
+      "uploadedUnix": "1534099641",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b24167f9b64adb2ccbf2fcf31b6fc57e5a7ac53738b5c444b530179f6cfe0209/analysis/1534099863/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TESCombatStyle%20form%20CTD%20fix.-93025-1-0.7z?fid=1000279509&ttl=1535884254&ri=8192&rs=8192&setec=baf0761282d2dffe0b6b7b0790bb0bdf"
+    }
+  ]
+}

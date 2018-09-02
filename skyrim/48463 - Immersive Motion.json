@@ -1,0 +1,32 @@
+{
+  "modId": 48463.0,
+  "modName": "Immersive Motion",
+  "summary": "Complete overhaul of player movement to feel more natural and realistic.",
+  "descriptionHtml": "[size=4]Please Note:[/size][size=3] this mod uses Script Dragon, but don&#39;t panic. It won&#39;t break your game or other mods, and it won&#39;t cause problems with Frostfall, Requiem, SkyRe, or any other mod. It will however override any speed modifiers that a mod adds, such as Realistic Movement Speed, or the Walking Stick buff from Frostfall. And while the mod doesn&#39;t include extensive support for other mod&#39;s speed modifiers, it&#39;s very customizable, so you can configure it to your liking. SKSE and Script Dragon can be used together with no issues whatsoever. Lastly, I would like to make an SKSE version of this mod along with SkyUI configuration menu support, but at the moment it&#39;s beyond my capabilities.[/size]\r<br />\r<br />[center]This mod is focused on realism and immersion while traveling on foot around Skyrim. I found walking in the vanilla game far too slow, and running often too fast, floaty, and unrealistic. With default settings (it&#39;s fully configurable) - I aimed at giving movement a much more weighty and deliberate feeling, as though you&#39;re a human being, with a clear visual relationship between your footsteps and the ground. It also takes into account all the speed modifiers in the vanilla game including armor type, armor perks, and the Steed Stone. The other significant improvement on the vanilla system of movement is the way your character begins moving over time rather than jerking straight into motion within a frame. This looks better with the third person animations, and feels a lot less awkward in first person. By default the mod is tuned for interiors as well as exteriors, so a balance has been struck between walking and running where you break into a jog after a few seconds once it&#39;s clear that your intention is to travel further than just across a room. [/center]\r<br />\r<br />Thanks Nofumasa&#33;\r<br />[youtube]dmtK2ofrN4Y[/youtube]\r<br />\r<br />[heading][size=6]Requirements[/size][/heading]\r<br />Skyrim v1.9.32.0.8 (latest)\r<br />[url=http://dev-c.com/skyrim/scriptdragon/]Script Dragon[/url]\r<br />\r<br />[heading][size=6]Installation[/size][/heading]\r<br />1. Extract motion.asi and motion.ini from the mod archive to your Skyrim installation directory in the same folder as the Skyrim executable and the Script Dragon dlls (not Data).\r<br />2. Edit motion.ini and add your preferred keybinds and movement speed modifiers or use one of the Presets from the mod archive\r<br />3. Rebind the Walk and Always Walk Toggle keys ingame to keys you will never use. (I don&#39;t know of a way to just remove binds completely, only change them)\r<br />Note: If you have set the value of bAlwaysRunByDefault in SkyrimPrefs.ini to 0, you should change it to 1 (default).\r<br />\r<br />[heading][size=6]Uninstallation[/size][/heading]\r<br />1. Delete motion.asi and motion.ini from your Skyrim installation directory\r<br />2. Open the console ingame with the tilde key ( ` left of 1) and type \r<br />[code]player.forceav speedmult 100[/code]\r<br />3. Draw your weapon or open your inventory to finish uninstallation.\r<br />\r<br />[heading][size=6]Credits[/size][/heading]\r<br />Nehpets for running numbers and helping out wherever needed.\r<br />Alexander Blade for Script Dragon\r<br />LHammonds for his Readme Generator\r<br />\r<br />[heading][size=6]Known Issues[/size][/heading]\r<br />[list]\r<br />[*]Holding the sneak key rather than pressing it will result in your character continuing to move after you release the key.\r<br />This only occurs in third person, and can be instantly fixed by switching to first person.\r<br />[*]In third person, attempting to sprint up a very steep slope results in some strange camera behaviour\r<br />No known fix for this as yet.\r<br />[/list]",
+  "categoryId": "78",
+  "version": "1.1",
+  "author": "KraGeRzR",
+  "createdUnix": "1386305571",
+  "updatedUnix": "1386374293",
+  "containsAdultContent": false,
+  "uploadedBy": "KraGeRzR",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000085660",
+      "name": "Immersive Motion",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "53",
+      "fileName": "Immersive Motion-48463-1-1.zip",
+      "uploadedUnix": "1386374293",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7f692775993dd4d3f84cdc98ef08d31c4f9b3e3e48c093e68d0ebaacb7a4c98f/analysis/1407823335/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Immersive%20Motion-48463-1-1.zip?fid=1000085660&ttl=1535828590&ri=8192&rs=8192&setec=b5278b71fc69c3fa2bbd1946886a245c"
+    }
+  ]
+}

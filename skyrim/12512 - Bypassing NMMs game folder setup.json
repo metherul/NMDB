@@ -1,0 +1,48 @@
+{
+  "modId": 12512.0,
+  "modName": "Bypassing NMMs game folder setup",
+  "summary": "How to easily bypass NMMs game folder setup in few steps.\r\n(For those who don\\'t have the game installed yet)\r\nIt\\'s really easy, this guide is for those who are still waiting for their game and came across the Nexus, and they\\'re preparing for The Modding Madness, but they don\\'t have the game installed yet.",
+  "descriptionHtml": "UPDATED TO WORK WITH THE LATEST VERSION.\r\nIT WILL EITHER WORK FOR ANY OTHER VERSION BELOW 0.15.15!\r\n\r\nAre you on a long trip - without Skyrim? With internet connection and laptop? Why won\\'t you download some mods. Using this nifty little guide.\r\n\r\nFor me, i have been waiting for 2 days to FO3 to finally arrive from the market, I\\'m was so excited!\r\nI didn\\'t know what to do in those 2 days of waiting, so i decided to download some mods from the Nexus. But i got SO dissapointed i couldn\\'t!\r\nYes, you can download the files manually, but thats not it. I prefer the option to come across the mod\\'s page, click on \\'Download with Manager\\' button and never come back (well, if i like the mod, of course i\\'ll give an endorse).\r\n\r\n[i]The same can happen to anyone, who is still waiting for Skyrim\\'s delivery, so i decided to write a easy guide to bypass game folder setup (that nasty setup which pops up after changing game). [/i]\r\n\r\nFinally, after a long thinking, i tried several things to make it work, nothing worked properly, and then, finally, after a long two hours, i tried this one:\r\n\r\nIF YOU DECIDED TO: download file included - please, continue from step 10.\r\n\r\n1. Download NMM from the \\'MOD MANAGER\\' button above (at the header of the page, not at this mod).\r\n2. Install it\r\n3. Open it\r\n4. From \\'game\\' select your desired game (FO3, Oblivion, Skyrim, FO:NV)\r\n5. Create a new folder anywhere on your disk (which has plenty of free space, for all those texture packs).\r\n6. Create a basic *.txt file\r\n7. Rename it...:\r\n[i]a) Fallout3.exe\r\nb) Oblivion.exe\r\nc) TESV.exe\r\nd) FalloutNV.exe\r\n(*.exes instead of *.txts)[/i]\r\n\r\n8. Create a \\'data\\' folder without quotes\r\n9. Create (in data folder) any of the following *.esms (according your game):\r\n[i]a) fallout3.esm\r\nb) oblivion.esm\r\nc) tesv.esm\r\nd) falloutnv.esm[/i]\r\n\r\n10. In NMM, find the folder you created.\r\n11. Choose it\r\n12. Now, it will work if you did exactly what i said, if it doesn\\'t:\r\na) Check properly name of the exe file, make sure it isn\\'t *.txt anymore.\r\nb) Make sure you have the the path correctly writen\r\nc) Have you named the *.esm file correctly?\r\n13. After doing this, the NMM should ask you how do you want to call the mod folder and install info folder, i don\\'t think we need to bother with that.\r\n14. It should work properly, tried it with 2/4 of those games i listed above (FO:NV and FO3 weren\\'t installed).\r\n\r\nHappy MOD HUNTING!!!",
+  "categoryId": "28",
+  "version": "1.1",
+  "author": "LajkosMajkos",
+  "createdUnix": "1331312702",
+  "updatedUnix": "1331319810",
+  "containsAdultContent": false,
+  "uploadedBy": "LajkosMajkos",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "41721",
+      "name": "All needed OLD",
+      "version": "",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "All needed OLD-12512.zip",
+      "uploadedUnix": "1331314294",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/2d08a7be6003c9f7e658d2a157e86bc421a436c84e7612a1d203da61878e19cb/analysis/1406739926/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/All%20needed%20OLD-12512.zip?fid=41721&ttl=1535774463&ri=8192&rs=8192&setec=fbecd82da2177feb47777cc35de5cb21"
+    },
+    {
+      "fileId": "41737",
+      "name": "All needed NEW",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "All needed NEW-12512.rar",
+      "uploadedUnix": "1331319810",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/cff7205e60857c4c5aaa1c0554c08c3946614855b7ab29ccbb4fdfcc8ceb2053/analysis/1406739991/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/All%20needed%20NEW-12512.rar?fid=41737&ttl=1535774463&ri=8192&rs=8192&setec=0f8f57fc5142bdcec3dca8d71f80a38f"
+    }
+  ]
+}

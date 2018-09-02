@@ -1,0 +1,32 @@
+{
+  "modId": 51698.0,
+  "modName": "Conjure Ridable Ethereal Horse Patch",
+  "summary": "Fixes a faction issue and makes the &#39;spell&#39; a Lesser Power (like a shout).",
+  "descriptionHtml": "This is a patch of the mod Conjure Rideable Ethereal Horse by Brokunn.  It appears he&#39;s been inactive for a year or so and I wanted to make a couple updates to this (and saw posts requesting updates as well)\r<br />\r<br />You must install his mod and make sure my patch loads after the original mod.\r<br />http://www.nexusmods.com/skyrim/mods/9534/?\r<br />\r<br />Faction issue:\r<br />What I did is remove the dunPrisonerFaction from the faction list of the summoned horse.  This was causing the horse (and subsequently the owner) to be attacked by guards in certain areas (Falkreath for example) when the horse was summoned or dismounted near them.  \r<br />\r<br />Power instead of Spell:\r<br />I also made this a Lesser Power so it can be used with the powers key without interfering with any equipped magic or weapons.  Since it is a Lesser Power it can be cast anytime just like a spell.\r<br />\r<br />Horse Expiration:\r<br />I also noticed the horse doesn&#39;t &#39;expire&#39; like the original author mentioned. I assume a script is responsible for that and I do not know how to fix it.  The horse will appear anyplace you fast travel just like a normal horse.  HOWEVER, if you re-cast the spell (power) he will un-summon.\r<br />\r<br />If you see anything else that needs to be fixed or if my fixes aren&#39;t working for you let me know.",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "jtzako",
+  "createdUnix": "1393801787",
+  "updatedUnix": "1393801701",
+  "containsAdultContent": false,
+  "uploadedBy": "jtzako",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000099543",
+      "name": "Conjure Rideable Ethereal Horse Patch",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Conjure Rideable Ethereal Horse Patch-51698-1-0.zip",
+      "uploadedUnix": "1393801701",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/397009a79e08065fe811537a3425c074937d43c7f4a650c04cf8c987e489f3b3/analysis/1407957562/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Conjure%20Rideable%20Ethereal%20Horse%20Patch-51698-1-0.zip?fid=1000099543&ttl=1535834272&ri=8192&rs=8192&setec=5b6aa23a9dd57038d8a9259ae4c9b221"
+    }
+  ]
+}

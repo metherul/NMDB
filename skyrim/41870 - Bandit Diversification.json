@@ -1,0 +1,48 @@
+{
+  "modId": 41870.0,
+  "modName": "Bandit Diversification",
+  "summary": "A simple mod that games to somewhat diversify the types of Bandits that can be encountered in Skyrim.",
+  "descriptionHtml": "SPECIAL THANKS\r\n\r\n\r\nFirst and foremost, I would like to thank the modder Indigoblade.  His excellent bandit mod, Organized Bandits in Skyrim (OBIS for short), inspired me to make this mod.\r\n\r\nAlso, thank you to several of my friends who suggested that I upload my file.\r\n============================================================================================\r\n\r\nREQUIREMENTS\r\n\r\n\r\nThis mod requires nothing but the base, vanilla Skyrim game.  No other mods (official DLCs or otherwise) are needed.\r\n============================================================================================\r\n\r\nBREAKDOWN\r\n\r\n\r\nThis mod is in its larval stages, and I plan on doing a lot more to further vary the types of bandits one can encounter.  For right now, I am mainly looking for feedback on what is already in place, although I am open to ideas.\r\n\r\nBasically, this mod aims to add new, more racially and occupationally diverse bandits to the game.  Included are Legion and Stormcloak deserters that have decided to become brigands, hunters and miners that decided they wanted more than their modest jobs could provide, and even former members of the Forsworn that managed to get themselves expelled from their people through one incident or another.  There are also unique, named bandits that are of Marauder strength, and a special trinket or keepsake (usually a ring or necklace) can be found on their corpses.  More generic bandits have also been added into the mix.\r\n\r\nThese bandits have been entered into most of the random bandit generation lists, and can thus be encountered in many if not all bandit camps and dens.  This also applies to the random bandit groups that ambush you along the roads.\r\n============================================================================================\r\n\r\nTECHNICAL STUFF\r\n\r\n\r\nThis is for those who like to open up files in the Creation Kit and look at them.  I\\'ve tried to make everything as organized and simple as possible, and I will say a few things here to save folks a little tedious sleuthing.  Those who are uninterested in this can scroll past.\r\n\r\nOnce the file loads in the Creation Kit, all the bandits may be found in the Actor list with the prefix \\\"LLT\\\", or \\\"Leveled List Testing\\\".  The mod began as just a personal file for me to experiment with leveled lists.  Once I got that down and discovered OBIS, I decided to go ahead and put the file to use and kept the prefix when I began creating bandits.\r\n\r\nThe biggest thing to which attention should be paid is the suffix system.  Most of the bandits are punctuated with suffixes such as \\\"A01\\\", \\\"B01\\\", and so forth.  A through F marks the difficulty level of the bandit from Bandit to Marauder, and 01-?? denotes how many bandits of that type there are.  A is Bandit, B is Outlaw, C is Thug, D is Highwayman, E is Plunderer, and F is Marauder, pretty much.\r\n\r\nAll of the bandits are grouped together in a list named \\\"Randomized_Bandits\\\", which is found in the \\\"LeveledCharacter\\\" list.  I placed this list in most of the bandit generation lists (the \\\"LChar\\\" ones) to facilitate the random spawns.  I made the amount of instances in each list equal to the amount of all other entities in the list, meaning that there is a 50/50 chance one of the mod\\'s bandits will spawn in place of a vanilla bandit.  The count can be edited as desired to increase or decrease the chance of meeting an LLT bandit.  Note that Randomized_Bandits is also in the LCharAmbientCreatures and LCharAmbientCreaturesSnow lists, meaning that while you will still see plenty of foxes and bunnies while roaming the wilds, there is now a chance for you to be jumped by random bandits in place of wildlife.  If for some reason this proves annoying, bothersome, or otherwise undesirable at some point, you can just open those two lists and delete Randomized_Bandits from them.\r\n\r\nThere is also a list named \\\"Randomized_Enemies\\\" in the \\\"Leveled Character\\\" list.  This is the list that I personally use.  It includes all of the bandits along with several other types of hostiles, including Dremora, Draugr, and atronachs.  I\\'ve left it in for those who wouldn\\'t mind seeing wandering Daedra more frequently during their wilderness romping.  To achieve this, simply place it in the LCharAmbientCreatures and LCharAmbientCreaturesSnow lists.\r\n============================================================================================\r\n\r\nINSTALLATION AND UNINSTALLATION\r\n\r\n\r\nThis mod is as simple and straightforward an installation as one could hope for.  Download the file version you want, extract it to Skyrim\\'s Data folder, and make sure its box is checked in the Data Files list on the launcher.\r\n\r\nTo uninstall the mod, just delete the .esp from the Data folder.\r\n============================================================================================",
+  "categoryId": "33",
+  "version": "1.0",
+  "author": "Soul of Chrysamere",
+  "createdUnix": "1378693372",
+  "updatedUnix": "1378694170",
+  "containsAdultContent": false,
+  "uploadedBy": "SoulofChrysamere",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000053334",
+      "name": "Bandit Diversification - Unscaled Version",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "75",
+      "fileName": "Bandit Diversification - Unscaled Version-41870-1-0.rar",
+      "uploadedUnix": "1378694081",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6cbbf86177d4c3b121e88b8bcf6df54b3ce50ed94a5508981458da049f2a0072/analysis/1407716172/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bandit%20Diversification%20-%20Unscaled%20Version-41870-1-0.rar?fid=1000053334&ttl=1535822725&ri=8192&rs=8192&setec=3fd7ddb04fce34d1697b506aa9aee302"
+    },
+    {
+      "fileId": "1000053335",
+      "name": "Bandit Diversification - Scaled Version",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "76",
+      "fileName": "Bandit Diversification - Scaled Version-41870-1-0.rar",
+      "uploadedUnix": "1378694170",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/94c799c84a25774624a3f1afb0532a6f0c9958bb43a58b72c4f755dadd1baccb/analysis/1407716229/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bandit%20Diversification%20-%20Scaled%20Version-41870-1-0.rar?fid=1000053335&ttl=1535822726&ri=8192&rs=8192&setec=825ad8c896da5c3269d1ca52b46414d3"
+    }
+  ]
+}

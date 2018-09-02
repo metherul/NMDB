@@ -1,0 +1,32 @@
+{
+  "modId": 17866.0,
+  "modName": "Follower Stats Fix Dialogue",
+  "summary": "Adds \\\"Get some rest, you look weary...\\\" option to current followers dialogue that resets followers stats using disable/enable method.",
+  "descriptionHtml": "[color=yellow][b]This mod is obsolete as of Skyrim official patch 1.6 (but still can be used to fix followers in save games made prior this patch).[/b][/color]\r\n\r\nDescription:\r\nAdds \\\"Get some rest, you look weary...\\\" option to current followers dialogue that resets followers stats using disable/enable method. (Retaining all items in followers inventory.)\r\n\r\nVersion History:\r\n1.0 - Initial release.\r\n1.1 - Ironed out some re equipping quirks.\r\n1.2 - Overhauled internal script mechanics and tweaked fade effect times.\r\n\r\nKnown Issues:\r\nHas a small issue with \\\"Auto Unequip Arrows\\\" mod by Alek (Does not re equip arrows, can be fixed by forcing the follower to switch weapons).\r\n\r\nSpecial Thanks:\r\nTo Shadowmann for some good pointers (used in 1.1).\r\n\r\np.s. Inspired by feature from \\\"UFO - Ultimate Follower Overhaul\\\" mod by fLokii (I liked the idea but wanted to keep my game more vanilla, did not need the other stuff in that mod + this feature needed some tweaks IMHO.)\r\n\r\np.p.s. Should also work with other follower mods and custom followers.",
+  "categoryId": "66",
+  "version": "1.2",
+  "author": "N1nj4R4bb1D",
+  "createdUnix": "1338347509",
+  "updatedUnix": "1338480892",
+  "containsAdultContent": false,
+  "uploadedBy": "NINJ4R4BBID",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "64828",
+      "name": "NRzFollowerStatsFixDialogue",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "NRzFollowerStatsFixDialogue-17866.7z",
+      "uploadedUnix": "1338480892",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/c8fd7ae199237678050fc038ab72ae55add4c9902a21926e00c52d6c48da77b9/analysis/1406927947/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NRzFollowerStatsFixDialogue-17866.7z?fid=64828&ttl=1535784278&ri=8192&rs=8192&setec=9e28b583249bd15cad4cae8775c7894f"
+    }
+  ]
+}

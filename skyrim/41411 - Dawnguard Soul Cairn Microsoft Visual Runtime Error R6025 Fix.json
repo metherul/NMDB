@@ -1,0 +1,32 @@
+{
+  "modId": 41411.0,
+  "modName": "Dawnguard Soul Cairn Microsoft Visual Runtime Error R6025 Fix",
+  "summary": "Prevent the occurrence of Runtime Error R6025 in Dawnguard DLC.",
+  "descriptionHtml": "I always got the annoying Microsoft Visual C++ Runtime Error R6025 - Pure Virtual Function Call after visiting Soul Cairn during the quest Beyond Death in Dawnguard which crashed my game after 2-30 minutes play time. After trying many trial and error tests, I finally found the cause: a broken script of Soul Cairn Horse Quest that wasn\\'t shut down properly. I hope this small fix would save anyone who has the same problem from the frustration I had with the DLC for so long.\r\n\r\nNote: This fix can only prevent the problem. If you have already done Soul Cairn Horse Quest and got the error, this fix can not help you. You need a save from before starting the quest.\r\n\r\nCredit: Bethesda for making such a small mistake that gave me a headache for year.",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "Blacksupernova",
+  "createdUnix": "1377972743",
+  "updatedUnix": "1377972628",
+  "containsAdultContent": false,
+  "uploadedBy": "blacksupernova",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000051143",
+      "name": "Soul Cairn Runtime Error R6025 Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Soul Cairn Runtime Error R6025 Fix-41411-1-0.rar",
+      "uploadedUnix": "1377972628",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/123b5d666e533996cf22c363097890c4bdf0838641f6add68174ac7efdbb3753/analysis/1407703931/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Soul%20Cairn%20Runtime%20Error%20R6025%20Fix-41411-1-0.rar?fid=1000051143&ttl=1535822173&ri=8192&rs=8192&setec=9ad372f561bd949c77c43ccdd1f7469f"
+    }
+  ]
+}

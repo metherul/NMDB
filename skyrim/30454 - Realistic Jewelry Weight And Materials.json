@@ -1,0 +1,48 @@
+{
+  "modId": 30454.0,
+  "modName": "Realistic Jewelry Weight And Materials",
+  "summary": "Make rings and necklaces from gold coins. NOT from ingots. Then if you wish, ornate them with precious gems. Weight of jewelry decreased but prices stay the same.",
+  "descriptionHtml": "A little mod that I made with the Creation Kit\r\n\r\nIt\\'s a follow up from my \\\"Smeltable coins\\\" mod http://skyrim.nexusmods.com/mods/30413\r\nWeight of gold coins is estimated from the dimensions of the exact septim replica that was made for oblivion (D=3.8cm or 1.5in, H=0.32cm or 0.125in and Volume of H*?[D/2]^2= 3.63cc) and the density of gold p=19.3gr/cc. So 1 coin = 0.07Kg or 0.15lb\r\n\r\nYou can make plain jewelry out of gold coins.\r\n\r\n                                             \r\n1 Gold Necklace   = 2 coins      [unit weight: 0.3]\r\n2 Gold Ring          = 1 coin        [unit weight: 0.075]\r\n1 Silver Necklace  = 1 coin       [unit weight: 0.15]\r\n4 silver Rings        = 1 coin       [unit weight: 0.035]\r\n\r\nAfter you make the plain rings or necklaces you can make them ornate depending on the precious gems you have. Gems add 0.1-0.2 to weight of the plain Jewelry. Displayed weight is rounded up or down.\r\n\r\n1 gold diamond ring = 1gold ring + 1 diamond etc\r\n\r\nPRICES OF JEWELRY STAY THE SAME mainly because they depend on the prices of gems that remain unchanged. The weight of gems is unchanged too.\r\n\r\nThere are Two Main Files.\r\nThe second main file adds a prerequisite to forge jewelry: the Advanced Armors Perk for more realism as advanced armors are more intricate with the scales and stuff.\r\nSo you have to work on your smithing and leveling to gain from jewelry production and selling.\r\nI could add a different branch in the perk tree, but I\\'m using Skyrealism Balanced Perk trees and I didn\\'t want to mess it up. See it here http://skyrim.nexusmods.com/mods/29061\r\n\r\nI\\'ve taken into account the weight values of the mod \\\"Skyrealism-Mass and Materials\\\" that I use.\r\nHere is the link: http://skyrim.nexusmods.com/mods/21724\r\n\r\nManual Installation (Gopher\\'s way):\r\n\r\nGo to NMM and click on add mod from file (the puzzle bit with the plus sign button at the upper left corner). Find the folder where you\\'ve put the downloaded .rar file (preferably a SkyrimMods folder), click on it and then click Open. Then activate. Run the Installer of TESVSkyrim and then hit play.\r\nIf you have skse installed, rather than hit play, exit the installer and double click the skse.exe.\r\n\r\nThanks to bethesda for this epic game and to the release of the creation kit.\r\nThanks to all the modders who inspired me to start modding too,\r\nespecialy to Gopher whose method of installation of the compressed files in NMM has been a real lifesaver and also for the instructions of how to install the SKSE. All these are explained in his videos.\r\nhttp://skyrim.nexusmods.com/users/38219\r\n\r\nPlease visit my other mods too. Don\\'t forget to endorse.",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "jetfalmer",
+  "createdUnix": "1359127213",
+  "updatedUnix": "1359127136",
+  "containsAdultContent": false,
+  "uploadedBy": "jetfalmer",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000004742",
+      "name": "RealisticJewelryWeightAndMaterials",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "RealisticJewelryWeightAndMaterials-30454-1-0.rar",
+      "uploadedUnix": "1359126957",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7f2786d642b2cd10856dc166a4187a4334a8a9dddd8debb3e12a22a8954ee0f0/analysis/1407378033/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/RealisticJewelryWeightAndMaterials-30454-1-0.rar?fid=1000004742&ttl=1535805266&ri=8192&rs=8192&setec=f03792e6dbc2dccf02c3fe787b745c89"
+    },
+    {
+      "fileId": "1000004743",
+      "name": "RJWAMAdvancedArmorsPerk",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "RJWAMAdvancedArmorsPerk-30454-1-0.rar",
+      "uploadedUnix": "1359127136",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/114de402649bfe82758091f25e7e0b776e6df2f97518c88f705060631b6276ef/analysis/1407378034/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/RJWAMAdvancedArmorsPerk-30454-1-0.rar?fid=1000004743&ttl=1535805267&ri=8192&rs=8192&setec=40e7e1d9379bb1ba87ed2a6051f0daa9"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 17002.0,
+  "modName": "Choose Your Own Adventure--Skills at Level Zero",
+  "summary": "Small mod for new characters. Allows the player to start the game with all skills at 0 (not counting racial skill bonuses) instead of 15. New players will only their racial bonuses, starting some skills at level 5 or 10, depending on the race.",
+  "descriptionHtml": "Start On Level Zero\r\nVersion 1.0\r\nBy Sukeban\r\n\r\nI. Introduction\r\nII. What This Mod Does\r\nIII. Leveling\r\nIV. Install + Uninstall\r\n\r\n[b]I. Introduction[/b]\r\n\r\nHave you ever started up a new character in Skyrim and been all like \\\"Ahem, why do I already have skills? I thought that this was supposed to be a new character?\\\" \r\nI know that I used to do this all the time. Then I made this mod.\r\n\r\nThis mod allows your character to begin their career fresh, as an empty canvass--the metaphorical blank slate--rather than starting out life as a Renaissance man or woman. Personally, this greatly adds to my enjoyment of the game and to the role-playing value of my character.\r\n\r\nAlso, if you like the idea of this mod, please do check out my other lore-friendly mods.\r\n\r\nA lore-friendly starting stats mod:\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=16901\r\n\r\nAnd a lore-friendly crafting, loot, and leveled item overhaul:\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=16715\r\n\r\n[b]II. What This Mod Does[/b]\r\n\r\nThis mod is pretty straight-forward. It modifies the starting values of your skills to have a base of 0 instead of 15. No longer will you start 1/4 of the way maxed in your race\\'s best skills. Now you have to work a little bit harder for it.\r\n\r\nThis part is easy. What is less easy is balancing the gameplay around these changes. Beth didn\\'t start you on 15 by accident, really, their entire leveling scheme is based upon it. Without going too far into the weeds about it, let\\'s just say that I\\'ve changed the vanilla leveling formula so that new characters level naturally given these new starting values. \r\n\r\n[b]III. Leveling[/b]\r\n\r\nLeveling in the beginning of the game will be faster or slower, depending on what you do. I recommend that you skill-up some of the skills that you are already good at. This will allow you to get those first few levels under your belt faster before you begin to diversify. Given the nature of the leveling formula, I will say that you should choose a couple of skills and [b]stick with them[/b] until you gain a few levels. If you are scattershot it could take you a [b]long[/b] time to gain your first level.\r\n\r\nWhy this is true:\r\n\r\nLevelling Formula: XP for Next Level = Base + (Current Level +1)Multiplier\r\n\t\t\t\t*Base value has been changed from 75 to 20 (fLevelUpBase)\r\n\t\t\t\t*Multiplier has been changed from 25 to 20 (fLevelupMult)\r\n\t\t\t\t\t-Total XP needed for first level-up is 40\r\n\r\nYou must reach 40 skill points in order to gain your first level (vanilla is 100). This means that leveling can be easy--if you level your dominant skill (starting skill of 10) four times, you will gain a level (11+12+13+14 = 50, ten more than you need). But if you just go willy-nilly all over the place, you will end up with a bunch of 1+1+1+2+2+2+3, etc. which means it will take almost forever before you gain your first level. Your call, though. I\\'m sure that first level would taste extra good once you finally got there.\r\n\r\nGiven the change to the multiplier, you will also gain levels ~20% faster through the mid-levels and reach a higher level than the vanilla max of 81. It won\\'t be much higher than 81, however, given finite, additive amount of skill points in the game and the multiplicative nature of the leveling formula. More of an FYI.\r\n\r\n[b]IV. Install + Uninstall[/b]\r\n\r\nJust place the .esp into your Skyrim\\\\Data folder. That is all. Easy, breezy, beautiful.\r\n\r\nTo uninstall, merely do the opposite.\r\n\r\nRemember that this mod is intended for new characters and will not do anything for existing characters. ",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Sukeban",
+  "createdUnix": "1336943532",
+  "updatedUnix": "1336943695",
+  "containsAdultContent": false,
+  "uploadedBy": "sukeban",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "61106",
+      "name": "Start On Level Zero",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Start On Level Zero-17002-1.7z",
+      "uploadedUnix": "1336943695",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/2716f51716da772bb377ff013b233fb8e84a9022cd4f388152f533ca87c0217f/analysis/1406890263/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Start%20On%20Level%20Zero-17002-1.7z?fid=61106&ttl=1535782786&ri=8192&rs=8192&setec=feb97fc9b24d011741e562b5cafd6eb5"
+    }
+  ]
+}

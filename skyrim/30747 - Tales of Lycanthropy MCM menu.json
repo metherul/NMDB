@@ -1,0 +1,32 @@
+{
+  "modId": 30747.0,
+  "modName": "Tales of Lycanthropy MCM menu",
+  "summary": "This small mod adds an MCM menu for the Tales of Lycanthropy mod, providing all of the options that were previously accessed through the configuration ring.  You must have Tales of Lycanthropy  installed.",
+  "descriptionHtml": "[size=4]Description:[/size]\r\nThis mod adds an MCM menu for [url=http://skyrim.nexusmods.com/mods/12687]Tales of Lycanthropy - Werewolf Overhaul by Brevi[/url], which provides all of the functionality of the Ancient Silver Ring.  \r\n\r\n[color=yellow][b]Version .91 is based on the v1_5 core, but [u]IS[/u] compatible with the SKSE 1.0 version, see known issues below.[/b][/color]\r\n\r\nYou must place this mod after ToL in your load order.   [b]It does not replace ToL nor does it contain any scripts from ToL.[/b]  Instead, it calls the original functions in ToL that the ring used.  This way it will remain compatible with future releases of ToL or merged with ToL itself. \r\n\r\n[size=4]Known Issues:[/size]\r\n[list]\r\n[*]When infecting yourself with lycanthropy through the menu, you will not see it take effect until you close the MCM menu and return to the game.\r\n[*]You may use this mod with the [color=lightskyblue]SKSE 1.0 standalone version of ToL[/color] and NOT install v1.5 core.   The keybinds will work properly but the [u][b]howl keybind overrides the howl menu selection.[/b][/u].  \r\n[/list]\r\n\r\n[size=4]Change log[/size]\r\n.91 - Updated the download file to include the scripts.  The menu should show up properly.\r\n\r\n[size=4]Future plans:[/size]\r\nRemove the Howl Totem menu item if you are using the SKSE 1.0 version of ToL so that you only rely on the keybind to change the setting. \r\n\r\n[size=4]Credits:[/size]\r\nBethesda for this amazing game!\r\nBrevi/spwned, the author of [url=http://skyrim.nexusmods.com/mods/12687]Tales of Lycanthropy - Werewolf Overhaul[/url]\r\n[url=http://skse.silverlock.org]SKSE[/url] and [url=http://skyrim.nexusmods.com/mods/3863]SkyUI[/url] for adding the features that make mods like this possible",
+  "categoryId": "84",
+  "version": "0.91",
+  "author": "Ebonhawke",
+  "createdUnix": "1359598897",
+  "updatedUnix": "1359606714",
+  "containsAdultContent": false,
+  "uploadedBy": "Ebonhawke",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000006053",
+      "name": "ToL_Menu",
+      "version": ".91",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "ToL_Menu-30747--91.7z",
+      "uploadedUnix": "1359606714",
+      "modVersion": ".91",
+      "virusScanUrl": "https://www.virustotal.com/file/62198b94c1a43f5073c9bc78d67f7e907679416e88ce16694bb3f597ba194ec2/analysis/1407388457/",
+      "changelogHtml": " .91 - Updated the download file to include the scripts. The menu should now show up properly. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ToL_Menu-30747--91.7z?fid=1000006053&ttl=1535805809&ri=8192&rs=8192&setec=d7a5de39a72ba90b31419c3951233ca1"
+    }
+  ]
+}

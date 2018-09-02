@@ -1,0 +1,48 @@
+{
+  "modId": 52922.0,
+  "modName": "TES5Edit Loadorder Correct FormID Export Script",
+  "summary": "Exports a set of formIDs in a format useable by formlists. most useful with matortheeternal&#39;s formlist manager scripts.",
+  "descriptionHtml": "Exports a set of formIDs in a format useable by formlists. most useful with matortheeternal&#39;s formlist manager scripts.\r<br />\r<br />how it works:\r<br />select a group of records on the left in tes5edit, and apply the script. You will have a list of checkboxes to pick from, and settings (should) persist. \r<br />In the checkbox popup, you can right click and select different sets you&#39;d like checked.\r<br />\r<br />the script exports a text file with the same name, to make finding it easier. From there, you can adjust it as necessary before importing it back in with the formlist manager.\r<br />\r<br />NOTE: The values exported are relative to the LoadOrder that is loaded in TES5Edit at the time you ran it, so lists may need to be rebuilt if you add or remove files.",
+  "categoryId": "39",
+  "version": "1.2",
+  "author": "EnigmaniteK",
+  "createdUnix": "1397318391",
+  "updatedUnix": "1397431553",
+  "containsAdultContent": false,
+  "uploadedBy": "EnigmaniteK",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000104685",
+      "name": "V1_1",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "V1_1-52922-1-1.zip",
+      "uploadedUnix": "1397326802",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7b524a59ecb5f095cc148f720a7d21d89c4a5f4d27ab327a9e47e596b228d461/analysis/1408017514/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/V1_1-52922-1-1.zip?fid=1000104685&ttl=1535836182&ri=8192&rs=8192&setec=4ed1dc16dd8eed53d2ab8cebf39f4d13"
+    },
+    {
+      "fileId": "1000104857",
+      "name": "V1_2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "V1_2-52922-1-2.zip",
+      "uploadedUnix": "1397431553",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/459fd69f9041c50f26f0d92a267dd821ce22b87af1a97351493c5905a3f929d1/analysis/1408019716/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/V1_2-52922-1-2.zip?fid=1000104857&ttl=1535836182&ri=8192&rs=8192&setec=07ae56491268f594e6cbfe11f63d1554"
+    }
+  ]
+}

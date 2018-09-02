@@ -1,0 +1,48 @@
+{
+  "modId": 58188.0,
+  "modName": "Duke Patrick&#39;s Armor Drowns",
+  "summary": "If you swim with any armor on that has 50 or more damage resistance and weighs more than 20 units of weight your stamina will drop fast. Once stamina is at zero you will start to struggle in the water and drown.",
+  "descriptionHtml": "[color=#6fa8dc][size=5]Duke Patrick&#39;s Armor Drowns[/size][/color]\r<br />[color=#ffff00][size=3]Latest SKSE needed.[/size][/color]\r<br />\r<br />===============\r<br />[color=#ff00ff]NEW DESCRIPTION[/color]\r<br />===============\r<br />\r<br />Rev 2.1 Fix issue were taking off armor while stuck under water would not returnyour player control.\r<br />\r<br />\r<br />THIS REVISION 2 is a complete redesigned of rev 1. I will still offer REV 1 for those that want it on Nexus. However REV 2 and up will be the official game mechanics design from now on.\r<br />\r<br />If you swim with any armor on that has 50 or more damage resistance and weighs more than 20 units of weight You will drop like a brick deep down into the water. You will not be able to move and your stamina will drop fast unless you unequipped the armor. If you do not have any water breathing magic or ability you will also start to drown as you struggle in the water.\r<br />\r<br />This is how I original envisioned (and wanted) my mod to be. However no one could find a simple way to prevent the player from floating back up tot he surface of the water once they were thrown down deep into the water. I got up this morning and it came to me ....I  could not believe it would work but I tried it and YES...finally a way to do it with one simple function&#33;\r<br />\r<br />Upgrading only requires you to drop the new files into your data folder.\r<br />\r<br />\r<br />\r<br />[color=#ffff00]I only answer questions about the mod that are posted in my threads on the Bethesda: \r<br />forums: http://forums.bethsoft.com/forum/13-the-elder-scrolls[/color]",
+  "categoryId": "24",
+  "version": "2.1",
+  "author": "Duke Patrick aka SpookyFX com",
+  "createdUnix": "1410849934",
+  "updatedUnix": "1411348812",
+  "containsAdultContent": false,
+  "uploadedBy": "sca",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000127088",
+      "name": "Duke Patrick&#39;s Armor Drowns",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Duke Patrick's Armor Drowns-58188-1.7z",
+      "uploadedUnix": "1410852442",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/bac5bdd7b594822f5bc5ad9f3670f0138bd2ee9b537d5e38db497187ba9016e1/analysis/1410852542/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Duke%20Patrick%27s%20Armor%20Drowns-58188-1.7z?fid=1000127088&ttl=1535844673&ri=8192&rs=8192&setec=94ee7247315afe8d6f9dc0aaa04ed73b"
+    },
+    {
+      "fileId": "1000127922",
+      "name": "Duke Patrick&#39;s Armor Drowns New Mechanics 2.1",
+      "version": "2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Duke Patrick's Armor Drowns New Mechanics 2.1-58188-2-1.7z",
+      "uploadedUnix": "1411348812",
+      "modVersion": "2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/119759df108ddf4cf47fb3291ac6ab48006ca583a63a94cf1db8409df93f5be3/analysis/1411348922/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Duke%20Patrick%27s%20Armor%20Drowns%20New%20Mechanics%202.1-58188-2-1.7z?fid=1000127922&ttl=1535844673&ri=8192&rs=8192&setec=74e1e06d470ee56b7ae67f88788620a4"
+    }
+  ]
+}

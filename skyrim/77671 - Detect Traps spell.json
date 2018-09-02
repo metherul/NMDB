@@ -1,0 +1,48 @@
+{
+  "modId": 77671.0,
+  "modName": "Detect Traps spell",
+  "summary": "Adds a customisable spell and staff that allows player to detect traps.",
+  "descriptionHtml": "[Heading][size=5]Detect Traps Spell[/size][/Heading]\r<br />\r<br />[youtube]S3KVPLhxat0[/youtube]\r<br />\r<br />(Requires: Dragonborn, Dawnguard and SKSE)\r<br />\r<br />This simple mod adds a spell that allows players to find traps and trap activators, just like the Detect Life/Dead spell. \r<br />\r<br />The spell can be bought at Tolfdir, as well as most vendors who sell basic spells (1.01). Non-mages will also enjoy an alteration Trap Detection Staff they can find in a trap-filled dungeon Sunderstone Gorge. \r<br />\r<br />[heading]Configurable options [/heading]\r<br />The MCM gives you a lot of options to customise:\r<br />[list]\r<br />[*][size=2]type, cost and duration of spell,[/size]\r<br />[*][size=2]colour of detection shader,[/size]\r<br />[*][size=2]range of spell - it can be either set manually, or depend on your Alteration or Sneak skill,[/size]\r<br />[*][size=2]amount of experience points given upon finding a trap (skill advanced will match the one that dictates the range)[/size]\r<br />[/list]\r<br />I made it so that different players can still benefit from it and tweak it if they find it under- or overpowered. \r<br />\r<br />[Heading] Compatibility [/Heading]\r<br />\r<br />The mod detects all activators and static objects associated with traps that are placed in series of form lists; thus creative mod-made custom traps may not be showing up. If you happen to find some of them, feel free to notice me.\r<br />\r<br /> My mod has also build-in compatibility with traps that can be crafted with [b]Skyrim Redone[/b]/[b]Perkus Maximus[/b]. It also allows you to level SkyRe/Perma-specific Wayfarer skill instead of Alteration or Sneak. \r<br />\r<br />My mod should be compatible with mod that alters meshes of the existing traps, like [url=http://www.nexusmods.com/skyrim/mods/2653/?]Subliminal Traps[/url].\r<br />\r<br />[Heading][size=3]Translations [/size][/Heading]\r<br />The mod has been localised in TesVedit, translated in [url=http://www.nexusmods.com/skyrim/mods/29148/?]TesVTranslator[/url]; all of the Strings files are included in the archive. MCM is translatable as well.\r<br />Currently supported languages: [b]English[/b], [b]Polish[/b] and [b]Japanese (thanks to BowmoreLover)[/b]. Other languages use English as base. If you are expecting CTDs because of my mod and you are not playing any of the translated languages, contact me. If you would like to translate the mod, contact me, so I can credit you and include your strings in my mod&#33;\r<br />\r<br /> [img width=67,height=45]https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png[/img] [img width=67,height=45]https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/800px-Flag_of_Poland.svg.png[/img] [img width=67,height=45]https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/900px-Flag_of_Japan.svg.png[/img]\r<br />\r<br />\r<br />[Heading]Issues[/Heading]\r<br />Currently, the shader doesn&#39;t show through walls. I tried placing a see-through-walls shader on an static object but it created some very strange effects that were ruining the image. I will keep trying to fix it. Thanks to a very helpful suggestion from [b]bluedanieru[/b], the author of [url=http://www.nexusmods.com/skyrim/mods/77170?]Mysticism - The Lost Art[/url], I might be able to make one that mimics it, though it may take some time. \r<br />\r<br />Visuals aside, it is either impossible, or very difficult to detect if line of sight between actor(player) and a static is preserved; thus you are being rewarded for finding traps even if you cannot see them. I don&#39;t think it can be fixed, thus I gave so many options to customise the experience gained. \r<br />\r<br />\r<br />Also, if you&#39;d like to cheat a bit or test the mod you can open console (~) and type \r<br />\r<br />[font=Courier New]   setstage DetectTrapsMCMQuest 99\r<br />\r<br />[/font]That will teleport you to Bethesdsa&#39;s Traps Warehouse and give you the spell and staff. \r<br />\r<br />\r<br />[heading]Other mods[/heading]\r<br />[list]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/2653/?]Subliminal traps[/url],[/size]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/31799/?]Traps make noise[/url],[/size]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/64196/?]Detect levers[/url],[/size]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/77170?]Mysticism - The Lost Art[/url]\r<br />[/size]\r<br />[/list]",
+  "categoryId": "75",
+  "version": "1.01",
+  "author": "piotrmil",
+  "createdUnix": "1470527860",
+  "updatedUnix": "1470596378",
+  "containsAdultContent": false,
+  "uploadedBy": "piotrmil",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000215980",
+      "name": "Detect Traps Spell",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "185",
+      "fileName": "Detect Traps Spell-77671-1-0.7z",
+      "uploadedUnix": "1470526415",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2a5380d6f9976a4f1dcc356311d5a5156679361627a084c4c25f64ef05fb6e03/analysis/1470526442/",
+      "changelogHtml": " First version <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Detect%20Traps%20Spell-77671-1-0.7z?fid=1000215980&ttl=1535866296&ri=8192&rs=8192&setec=3b83b5f88d04adab9ad0949bd0df1745"
+    },
+    {
+      "fileId": "1000216089",
+      "name": "Detect Traps v.1.01",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "181",
+      "fileName": "Detect Traps v.1.01-77671-1-01.7z",
+      "uploadedUnix": "1470596378",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/33bd486787e27e7f03f8b580ae8bba78165852d52df55d6705640df6bf15b252/analysis/1470596402/",
+      "changelogHtml": " Removed some very strange navmeshes from my mod that, quite frankly I have no idea where did they come from.  <br/> \n The spell can now be bought at any basic and alteration vendor, not just from Farengar, since the spell now populates the levelled list <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Detect%20Traps%20v.1.01-77671-1-01.7z?fid=1000216089&ttl=1535866297&ri=8192&rs=8192&setec=a406b0f643ef7de82e79ee5b4f967e24"
+    }
+  ]
+}

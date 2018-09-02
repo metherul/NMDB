@@ -1,0 +1,32 @@
+{
+  "modId": 21690.0,
+  "modName": "How to get Creation kit to open Dawnguard-HearthFires-Dragonborn",
+  "summary": "gives u a howto ..on Creation kit opening Dawnguard/HearthFires/Dragonborn",
+  "descriptionHtml": "SO you got the New DLC for Skyrim and wanted to mod it ..then you find out the Creation Kit wont load it...well ive got the solution for you\r<br />\r<br />\r<br />1. go to your Skyrim Directory &lt;&#92;Steam&#92;steamapps&#92;common&#92;skyrim&gt;\r<br />\r<br />2. open your skyrimeditor.ini file\r<br />\r<br />3. search for sResourceArchiveList2\r<br />\r<br />4. at the end of that line put, DawnGuard.bsa, HearthFires.bsa, Dragonborn.bsa\r<br />\r<br />5. make sure it looks like this : SResourceArchiveList2=Skyrim - Shaders.bsa, Update.bsa, Dawnguard.bsa, HearthFires.bsa, Dragonborn.bsa\r<br />\r<br />&lt;PS&gt; you need to add bAllowMultipleMasterFiles=1 to the General Section..to allow more then one masterfile\r<br />&lt;PSS&gt;you need to add bAllowMultipleMasterLoads=1 to the General Section..to load up more then one masterfile \r<br />\r<br />6. search for SArchiveList\r<br />\r<br />7. at the end of that line put, Dawnguard.bsa, Hearthfires.bsa, Dragonborn.bsa\r<br />\r<br />8. save the ini\r<br />\r<br />9. start up your Creation Kit and select Dawnguard.esm or HearthFires.esm or Dragonborn.esm only and load\r<br />\r<br />10.then patiently wait for it to load..and it should all work now &lt;Minus the Stupid Errors that come with the Creation Kit&gt;\r<br />\r<br />&lt;---------------------------HOW IT IS SUPPOSE TO LOOK--------------------------------&gt;\r<br />\r<br />________________________________________________________________________________________________________________\r<br />[General]\r<br />bAllowMultipleMasterFiles=1\r<br />bAllowMultipleMasterLoads=1\r<br />\r<br />[Archive]\r<br />bInvalidateOlderFiles=1\r<br />SArchiveList=Skyrim - Textures.bsa, Skyrim - Meshes.bsa, Skyrim - Animations.bsa, Skyrim - \r<br />Voices.bsa, Skyrim - Interface.bsa, Skyrim - Misc.bsa, Skyrim - \r<br />Sounds.bsa, Skyrim - VoicesExtra.bsa, Skyrim - Shaders.bsa, Update.bsa, \r<br />Dawnguard.bsa, Hearthfires.bsa, Dragonborn.bsa\r<br />SInvalidationFile=ArchiveInvalidation.txt\r<br />iRetainFilenameOffsetTable=1\r<br />iRetainFilenameStringTable=1\r<br />iRetainDirectoryStringTable=1\r<br />bCheckRuntimeCollisions=0\r<br />bUseArchives=1\r<br />SResourceArchiveList=Skyrim - Textures.bsa, Skyrim - Meshes.bsa, Skyrim - Animations.bsa, Skyrim - \r<br />Voices.bsa, Skyrim - Interface.bsa, Skyrim - Misc.bsa, Skyrim - \r<br />Sounds.bsa, Skyrim - VoicesExtra.bsa\r<br />SResourceArchiveList2=Skyrim - Shaders.bsa, Update.bsa, Dawnguard.bsa, HearthFires.bsa, Dragonborn.bsa\r<br />________________________________________________________________________________________________________________\r<br />________________________________________________________________________________________________________________                    ",
+  "categoryId": "39",
+  "version": "Final",
+  "author": "Forzane",
+  "createdUnix": "1344121249",
+  "updatedUnix": "1501520692",
+  "containsAdultContent": false,
+  "uploadedBy": "Forzane",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000250769",
+      "name": "Notes on How-to",
+      "version": "Finalz",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Notes on How-to-21690-Finalz.7z",
+      "uploadedUnix": "1501520692",
+      "modVersion": "Finalz",
+      "virusScanUrl": "https://www.virustotal.com/file/391559f698b20020f4d98d0819d43ecd593d2983b965e41337d68a131137a85c/analysis/1501520883/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Notes%20on%20How-to-21690-Finalz.7z?fid=1000250769&ttl=1535790751&ri=8192&rs=8192&setec=c2d2568a1d990fac15fa29449e5e3a86"
+    }
+  ]
+}

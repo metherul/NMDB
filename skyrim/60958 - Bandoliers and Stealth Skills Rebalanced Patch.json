@@ -1,0 +1,32 @@
+{
+  "modId": 60958.0,
+  "modName": "Bandoliers and Stealth Skills Rebalanced Patch",
+  "summary": "Prevents the Lockpicking and Pickpocketing penalties from Stealth Skills Rebalanced to be applied when wearing Bandoliers.",
+  "descriptionHtml": "[b][color=#ff7700][size=3][u]What does this mod do?[/u][/size][/color][/b]\r<br />[size=2]\r<br />This patch switches the &#34;ClothingHands&#34; keyword on Dragten&#39;s Bandoliers for &#34;ClothingFeet&#34; Keyword, to allow Stealth Skills Rebalanced to work as intended.[/size]\r<br />\r<br />\r<br />[b][color=#ff7700][size=3][u]Why is this patch necessary?[/u][/size][/color][/b]\r<br />\r<br />[url=http://http//www.nexusmods.com/skyrim/mods/28418/?tab=4&&navtag=http%3A%2F%2Fwww.nexusmods.com%2Fskyrim%2Fajax%2Fcomments%2F%3Fmod_id%3D28418%26page%3D1%26sort%3DDESC%26pid%3D0%26thread_id%3D859101&pUp=1]Stealth Skills Rebalanced[/url] by [url=http://www.nexusmods.com/skyrim/users/4291352]kryptopyr[/url] introduces a penalty for Lockpicking and Pickpocketing if you are wearing gloves or gauntlets. The mod looks for all the items that have the keyword &#34;[b]ClothingHands[/b]&#34; and applies the penalty if you are equipping them. Items that also have the keyword &#34;[b]WAF_FingerlessGauntletsBracers_KRY[/b]&#34; (added by the same author) will not have the penalty applied (usually bracers or fingerless gauntlets).\r<br />\r<br />The Bandoliers from the [url=http://www.nexusmods.com/skyrim/mods/16438]Bandoliers[/url] mod by [url=http://forums.nexusmods.com/index.php?/user/1486540-dragten/]Dragten[/url] have the &#34;[b]ClothingHands[/b]&#34; keyword for enchanting purposes, but not the &#34;[b]WAF_FingerlessGauntletsBracers_KRY[/b]&#34; keyword. So, if you equip a bandolier, SSR will read that as a gauntlet and apply the penalties, even if you are not wearing anything on your hands. Adding the &#34;[b]WAF_FingerlessGauntletsBracers_KRY[/b]&#34; keyword to the bandoliers will not work, as it will override anything on your hands (i.e., if you are wearing gauntlets and equip a bandolier with SSR installed, the penalty will be cancelled).\r<br />\r<br />Having this patch installed will get rid of all these problems, as Bandoliers will not interfere with SSR.\r<br />\r<br />[color=#00ffff][b][u]NOTE[/u][/b]: this mod is [b]NOT[/b] necessary if you are using kryptopyr&#39;s [url=http://www.nexusmods.com/skyrim/mods/49791]Complete Crafting Overhaul Remade[/url].[/color]\r<br />\r<br />\r<br />[size=3][b][u][color=#ff7700]Installation[/color][/u]\r<br />\r<br />[/b][/size]Install it with NMM or extract it to the Data folder. Overwrite when prompted.\r<br />\r<br />[size=3][b][u]\r<br />[color=#ff7700]Load Order[/color][/u]\r<br />\r<br />[/b][/size]Load this after Bandoliers and SSR.",
+  "categoryId": "84",
+  "version": "",
+  "author": "Avastgard",
+  "createdUnix": "1419218628",
+  "updatedUnix": "1419209125",
+  "containsAdultContent": false,
+  "uploadedBy": "Avastgard",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000139723",
+      "name": "Bandoliers and SSR comp. patch",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Bandoliers and SSR comp. patch-60958-.7z",
+      "uploadedUnix": "1419209125",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/c7dc81d08b74a1b08860233f5ee96807c2e7f1e1cc5cedaa00cc6bf77605746e/analysis/1419209162/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bandoliers%20and%20SSR%20comp.%20patch-60958-.7z?fid=1000139723&ttl=1535849103&ri=8192&rs=8192&setec=e81245b6d5432de4238de92ced7bfb00"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 89284.0,
+  "modName": "Skyrim Minus 10K Objects",
+  "summary": "Manually deletes more than 10000 objects across Skyrim using the Creation Kit in an effort to improve performance and save VRAM. In some cases the base objects were removed in their entirety so that not even the mesh file gets loaded. Adding these up more or less doubles or triples the objects removed from the game.",
+  "descriptionHtml": "TL;DR:  Specifically intended for people who need to gain some performance, this is a performance mod that deletes objects in the exteriors of Skyrim.\n<br />\n<br />SKYRIM MINUS 10K OBJECTS\n<br />Manually deletes more than 10k objects across Skyrim using the Creation Kit in an effort to improve performance and save VRAM.\n<br />In some cases I removed the base object in its entirety so not even the mesh file gets loaded [ based on my understanding ].\n<br />Care was taken so as not to make Skyrim look even more desolate than it already is. In fact my goal was to make it so you wouldn't\n<br />notice things that were there before, are not there now. You are encouraged to inspect the esp to find out which objects where removed in\n<br />their entirety. You are discouraged to clean this mod with TES5EDIT unless crucially or absolutely necessary and you know what you intend\n<br />to do with it.\n<br />\n<br />ON INSPECTION\n<br />Upon inspection with TES5EDIT, you will notice the mod has thousands of errors as detected from TES5EDIT. These are errors for each\n<br />objects deleted in the game. So, if, as of this writing, I have deleted more than 11K objects that means the software will detect\n<br />more than 11K objects too -- 1 error detection per object deleted to be clear. Only concern yourself with it if you are 100% sure\n<br />that this mod is what causes your game to crash and you can 100% reliably reproduce this crash on the same vicinity. Load this esp\n<br />as the last one that alters [ adds or removes ] objects in the world space. If these errors [ pseudo-errors as I call them ] really\n<br />bother you, it is up to you to fix them easily using TES5EDIT by using its \"un-delete and disable references\" function. This way you\n<br />will adhere to the modding community's preferred practice of initially disabling objects rather than straight-up deleting them.\n<br />The choice is yours.\n<br />\n<br />WHAT ARE THESE ERRORS\n<br />Because deleting objects using the Creation Kit leaves behind its original base form id, TES5EDIT detects it as an error because\n<br />it still has a reference that points to it. In my opinion, that is okay, because keeping the base form ID of a deleted object prevents\n<br />the game from crashing, especially when that object has a LOD data or when other mods are using the object.\n<br />\n<br />MOD COVERAGE\n<br />Covers the entire world space of Skyrim and 3 dungeons [ Hag's End, Fort Neugrad, Fort Greymoor ].\n<br />\n<br />LOAD ORDER\n<br />Preferrably this esp should be placed the lowest among all your esp's that alter the landscape in any manner.\n<br />\n<br />LAST WORDS\n<br />I have traveled all across Skyrim with no issues with the mod, I hope the same for you.\n<br />There are occlusion planes I've added somewhere around Skyrim but I still question their effectiveness. Either way, they are harmless.\n<br />This mod is not perfect and there are always more unnoticeable objects to remove if you look hard enough. Thank you for reading and\n<br />downloading my mod. If you have an idea how I can further improve upon this mod, please send me a feedback.",
+  "categoryId": "39",
+  "version": "1",
+  "author": "ruggercarlos",
+  "createdUnix": "1517392720",
+  "updatedUnix": "1517392720",
+  "containsAdultContent": false,
+  "uploadedBy": "ruggedcarlos",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000265199",
+      "name": "SKYRIM MINUS 10K OBJECTS",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "938",
+      "fileName": "SKYRIM MINUS 10K OBJECTS-89284-1.zip",
+      "uploadedUnix": "1517391894",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/d2f1736b41b8ca3708108ee3648aded7e0e377bcff5ec1502b45ed4265c28032/analysis/1517391911/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SKYRIM%20MINUS%2010K%20OBJECTS-89284-1.zip?fid=1000265199&ttl=1535878845&ri=8192&rs=8192&setec=0e206af665e0b5b8b5963453fbfa2a0c"
+    },
+    {
+      "fileId": "1000265200",
+      "name": "Skyrim Minus 10K Objects",
+      "version": "1",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "938",
+      "fileName": "Skyrim Minus 10K Objects-89284-1.zip",
+      "uploadedUnix": "1517392100",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/d2f1736b41b8ca3708108ee3648aded7e0e377bcff5ec1502b45ed4265c28032/analysis/1517391911/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Minus%2010K%20Objects-89284-1.zip?fid=1000265200&ttl=1535878846&ri=8192&rs=8192&setec=646dc5c83b72dc3d267b7ac458341b48"
+    }
+  ]
+}

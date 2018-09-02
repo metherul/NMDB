@@ -1,0 +1,32 @@
+{
+  "modId": 15713.0,
+  "modName": "Potions of Regeneration Fix For Non-Healrate Players",
+  "summary": "If you are playing without health regeneration, you might have noticed that potions which should fortify the heal rate are not working at all. This mod makes them working again.",
+  "descriptionHtml": "If you are playing without health regeneration, you might have noticed that potions which should fortify the heal rate are not working at all. This is caused by the fact that these potions are changing the heal rate multiplicator and not the heal rate itself. So, if your heal rate is 0 and the health regenerates e.g. 50% faster, it is still 0, of course. This mod changes the effect of the potions so that they won\\'t affect the heal rate multiplicator any longer, but the heal rate. Look at the screenshots for the details.\r\nI also changed the value to be slightly more expensive, for balancing reasons.\r\n\r\nProbably FAQ:\r\nQ: How do you set the healrate to 0?\r\nA: Open the console and type \\\"player.forceav healrate 0\\\"",
+  "categoryId": "94",
+  "version": "1",
+  "author": "TheBugfix",
+  "createdUnix": "1335119986",
+  "updatedUnix": "1335120618",
+  "containsAdultContent": false,
+  "uploadedBy": "TheBugfix",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "55420",
+      "name": "Regeneration Fix",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Regeneration Fix-15713-1.zip",
+      "uploadedUnix": "1335120618",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/7cb46ca608fe5f7125ddb1dceb7c2e8d9d18e7aa95f1358a9390d28588819ac7/analysis/1406828825/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Regeneration%20Fix-15713-1.zip?fid=55420&ttl=1535780352&ri=8192&rs=8192&setec=a743f5bfaac740be7f5a26a3f18ff5be"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 40705.0,
+  "modName": "Dwarven Mechanical Right blade - Now a working Hidden Blade",
+  "summary": "dwarven mechanical right blade, now also includes a working hidden blade version",
+  "descriptionHtml": "Port to SSE may happen in the future, at this moment it is not planned, however this may change in the future once SKSE64 is out and all the mods i use while playing skyrim are ported over.\r<br />\r<br />This version should remove the double draw bug for MOST people (there are mod conflicts that reintroduce it and i don&#39;t know exactly which ones they are as no one really gives any solid information) and also gives the weapon better draw sheathe animations very similar to the hidden blade of assassins creed.\r<br />\r<br />PLEASE NOTE: You are given two blades when you equip, this is to fix disappearance issues of the blade for people who use the DisableGearUp .ini edit. All you have to do is favourite the BRS or BBRS blade then completely ignore the item, it does not hinder you with any weight nor is it any value to vendors.\r<br />\r<br />The left blade variant does not act as a hidden blade, it remains visible on the left forearm.\r<br />\r<br />You can craft the weapon as soon as you have the [url=http://elderscrolls.wikia.com/wiki/Ancient_Knowledge]Ancient Knowledge[/url] buff from the quest [url=http://elderscrolls.wikia.com/wiki/Unfathomable_Depths]Unfathomable Depths[/url].\r<br />\r<br />Other messages asking about why it shows as an axe, the weapon IS a dagger, it is by all accounts a dagger, all perks etc are daggers, the reason you see an axe icon is due to the way creation kit handles animations, to access the axe draw animation which was closest to the hidden blade theme you have to have that axe icon, it does nothing to affect the actual weapon itself other than the draw animation, i spent A LONG time working out and editing the assassination animations to apply dagger kill animations while keeping the axe draw animation. \r<br />----As a subsection of this, the mod Sneak Tools seems to break the changes i made to ensure this functioned as a dagger, load this mod AFTER sneak tools may fix it, i am unsure as i do not currently have skyrim installed to test, but to play it safe i would say this mod is incompatible with Sneak Tools at this moment in time, if i ever get around to doing a complete remake of this mod for SSE it will see this compatibility fixed.\r<br />\r<br />Alot of the other messages i have been receiving have been pretty much been filled with abuse from petulant children who do not understand how mods work, crying about how the mod doesn&#39;t fix anything and that i should kill myself, die of cancer etc etc, the mod worked fine, you have other mods that make this mods changes incompatible, be it a patch or a skeleton change, something broke it for you, things happen, get over it.\r<br />\r<br />I had multiple ideas on how to advance this mod but the one thing i really wanted to do to it just seems impossible with the game limitations and being pretty heart set on that one thing had just ruined all motivation to even touch it anymore, i let it go and just settled for  a different weapon.\r<br />\r<br />i did not give [url=http://steamcommunity.com/id/TheSkyrimGeek]Sasuke Uchiha[/url] permission to steal this and upload it to the steam workshop. (Steam has since removed it and every other mod he has stolen)\r<br />i did not give [url=https://www.youtube.com/user/Nafaldropo95/videos]Luca Tessarollo[/url] permission to steal this mod and pass it around on youtube as his own with a retexture. (Youtube have since removed the links to this mod however other mods he has stolen are still there)",
+  "categoryId": "55",
+  "version": "1.0",
+  "author": "Thehealyhealy Raden5",
+  "createdUnix": "1376997100",
+  "updatedUnix": "1377608363",
+  "containsAdultContent": false,
+  "uploadedBy": "Thehealyhealy",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000049976",
+      "name": "Dwarven Mechanical Equipment Right Blade Fixes - including Hidden Blade",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1117",
+      "fileName": "Dwarven Mechanical Equipment Right Blade Fixes - including Hidden Blade-40705-1-0.rar",
+      "uploadedUnix": "1377608363",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8680cd9c35ba92de4701c4b4491cb8f436acd5494b677fd9bb6c34d94913f801/analysis/1407698467/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dwarven%20Mechanical%20Equipment%20Right%20Blade%20Fixes%20-%20including%20Hidden%20Blade-40705-1-0.rar?fid=1000049976&ttl=1535821365&ri=8192&rs=8192&setec=2ec3d20df1ab87d64007138b32c68876"
+    }
+  ]
+}

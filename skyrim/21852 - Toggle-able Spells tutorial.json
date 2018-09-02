@@ -1,0 +1,32 @@
+{
+  "modId": 21852.0,
+  "modName": "Toggle-able Spells tutorial",
+  "summary": "This tutorial show how to make your own toggle-able spells, that activate and deactivate when cast. Just with an simple script",
+  "descriptionHtml": "First of all sorry for my English, my English teacher was the games I played, so you may find some grammatical errors.\r\n[size=+2]How to make toggle Spells Tutorial By allzero[/size]\r\nThis is my first tutorial and here I will show you how to make Custom Skyrim Spells toggle-able with an simple papyrus script. You may also see the pictures in the file, as they will show you where is where. Also, you need skyrim and creation kit to make them. Optionally if you want to make your own scripts I recommend Sublime Text 2(For more information http://www.creationkit.com/Sublime_Text_Setup )\r\n\r\n Tutorial\r\nFirst of all, download the file, inside it you will find the Data folder containing the script, if you want to make your own script based on this one, then open it with some program like sublime text 2 and see how it is done, if you just want to make your own spells then just place the content inside the Data folder in your Data folder and open the creation kit. Then you must know first what kind of spell will be. toggle-able spells are casted on self, and add the chosen ability if the player have, and remove if the player don’t have it. See the pictures\r\n\r\nPictures explanation:\r\n\r\nStep 1: Inside the creation kit you may find many categories, go to magic and then magic effect, now create an new magic effect with an new ID and the name of your choice, Also remember to assign an magic skill if your spell is an spell(if is an power, then no magic skill is needed) And the effect archetype is script, delivery on self, casting type is fire and forget. In visual fields and sound you may decide any of them, but keep in mind that this effect is just to call the script, so you don’t need any flags here. When you finish here, go to papyrus scripts and add the script, in filter you may put toggle , to find easier. Now go to step 2\r\n\r\nStep 2: Here is very simple, just chose the ability you want to add, you may want to create an ability your self first, if you already did, then chose it.(to make an ability the effect must be on self and constant, when creating the ability you in the spell section, The Type must be ability.)\r\n\r\nStep 3: Save the effect by pressing OK, Now you effect is ready and the ability was chosen, you only must create the spell with this effect, which is very simple: Go to spell tab and right-click new, chose an unique ID and name, The casting type and delivery must fit the effect, so it will be on self, fire and forget. Chose the Menu object and equip type as you wish(recommend to make the equip type either hands if an spell and voice if an power) Then add a new effect, the one that you created, with no duration or magnitude, there is no need of that, now chose the cost as you wish, then press OK and the spell is ready. Any doubts you have, just put an comment in the site and I will explain to you.\r\n\r\nCredits: allzero for the tutorial, EnaiSiaion for the script.",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "allzero",
+  "createdUnix": "1344290095",
+  "updatedUnix": "1344290176",
+  "containsAdultContent": false,
+  "uploadedBy": "allzero",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "79326",
+      "name": "Toggle Tutorial",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "154",
+      "fileName": "Toggle Tutorial-21852-1-0.rar",
+      "uploadedUnix": "1344290176",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/01fc3e222dc9015be04e46d4c2989bdc72990bf7009ec7b768f17891303570de/analysis/1407075337/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Toggle%20Tutorial-21852-1-0.rar?fid=79326&ttl=1535791014&ri=8192&rs=8192&setec=fd179617465e34d6e9a550acfb689cb1"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 9879.0,
+  "modName": "Un-Summon",
+  "summary": "Banish any out-of combat summons instantly!",
+  "descriptionHtml": "Unsummon\r\nby Dreighton\r\n\r\n\r\nEver get tired of your thralls? Want to go solo again for a bit, only to realize there is no way to un-summon thralls or any conjured creature? The only way to cancel out a thrall or conjured creature ingame is to kill it by hand. While handy for lvling, it can get tedious.\r\n\r\nget Un-summon!\r\n\r\nA spell that can be bought at the riverwood traders for about 200 gold that can banish any out of combat target instantly. The spell will be resisted is the summonned creature has his weapon/magic out. costs about 5 mag to cast. Free version costs 5 gold to buy, and 0 mag to cast.\r\n\r\nYou can also obtain the spell via console;\r\nThe Spell\\'s ID is XX000D63\r\nThe Tome\\'s ID is XX000D64\r\nex: Player.addspell XX000D63 will add the spell. (The XX is the mod index of the mod, 01 for first mod after Skyrim.esm)\r\nyou can also do \\\"help un-summon 0\\\" (no quotes) to get the exact IDs with mod index.\r\n\r\nAll credits go to me, Dreighton, and Bethesda for the game and CK.\r\n\r\nInstall, just place .esp in your data folder, and activate.",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "Dreighton",
+  "createdUnix": "1329364187",
+  "updatedUnix": "1329364289",
+  "containsAdultContent": false,
+  "uploadedBy": "Dreighton",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "31889",
+      "name": "Un-Summon",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Un-Summon-9879-1-0.zip",
+      "uploadedUnix": "1329364234",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d20a0963374bb876c44822f0fc21b92af47114ca6608e6c4defbdbfc558e8274/analysis/1406686330/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Un-Summon-9879-1-0.zip?fid=31889&ttl=1535769807&ri=8192&rs=8192&setec=f12480de2c814e3b40a60679366ec69e"
+    },
+    {
+      "fileId": "31891",
+      "name": "Un-Summon Free",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Un-Summon Free-9879-1-0.zip",
+      "uploadedUnix": "1329364289",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/93bf8257a1832ad9ca5ed733fc686e3718868eeb06bcb87a6a03bce9a1834780/analysis/1406686331/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Un-Summon%20Free-9879-1-0.zip?fid=31891&ttl=1535769808&ri=8192&rs=8192&setec=339b49f9a5dc03aba62eac7436c4c096"
+    }
+  ]
+}

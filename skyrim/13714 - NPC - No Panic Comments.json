@@ -1,0 +1,32 @@
+{
+  "modId": 13714.0,
+  "modName": "NPC - No Panic Comments",
+  "summary": "Disables NPC comments regarding \\\"dangerous magic\\\".",
+  "descriptionHtml": "I\\'ve searched for mods to disable the abominable NPC comments regarding \\\"dangerous magic\\\" being used by the PC, but the ones I found either disable NPC greetings altogether or reduce the triggering distance.\r\n\r\nSo, I went into the CK and changed one of the conditions that trigger the associated quest (WICommentMagicDangerous), specifically the one related to \\\"dangerous magic\\\".\r\n\r\nWith this plugin, NPC will still comment if the PC is wearing a cloak spell, but they\\'ll never complain about summons or thralls.\r\n\r\nThis plugin is compatible with mods that reduce the distance which triggers NPC comments and greetings; I\\'m currently using it with [url=http://skyrim.nexusmods.com/downloads/file.php?id=746]No NPC Greetings by Cipscis[/url].\r\n\r\nInstalation:\r\nJust drop the .esp in the Data folder and activate it using the Skyrim default launcher.\r\n\r\nSKSE users should start the game using the Skyrim default launcher when activating the plugin for the first time; the game can be launched via SKSE afterwards.  ",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Krail3r",
+  "createdUnix": "1332722285",
+  "updatedUnix": "1332722411",
+  "containsAdultContent": false,
+  "uploadedBy": "Krail3r",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "46902",
+      "name": "NPC - No Panic Comments",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "NPC - No Panic Comments-13714-1-0.rar",
+      "uploadedUnix": "1332722411",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ef7a38c3562c06f9aa9b20c9f8b9e36e25240752e588c31e978d98a13122462b/analysis/1406780224/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NPC%20-%20No%20Panic%20Comments-13714-1-0.rar?fid=46902&ttl=1535776727&ri=8192&rs=8192&setec=62c2a4909fa3bdba5d7c69dbfcc0af63"
+    }
+  ]
+}

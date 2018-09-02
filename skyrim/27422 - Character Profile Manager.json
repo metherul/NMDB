@@ -1,0 +1,48 @@
+{
+  "modId": 27422.0,
+  "modName": "Character Profile Manager",
+  "summary": "Small file to help you manage your profiles if you share your PC with somebody else, or if you have multiple characters!",
+  "descriptionHtml": "You don\\'t need to dig through your sibling\\'s save files to find your own no more, or dig through multiple character saves to find the one you feel like playing this day!\r\n\r\nThis program is designed to peek into your Saves folder, and take it apart into multiple subfolders, as many as there are characters created and named in the game.\r\n\r\nYou can then use the program to simply choose your own character to play with, simply using Continue game normally and not worrying about losing your Quick saves and Auto saves when changing the characters!\r\n\r\nWith new verson, you can even create and delete profiles right out of the manager itself!\r\n\r\n**********************************\r\nNEW V2.0\r\n\r\nV2.0 Full release \r\n\r\n-Added a control to create new profile. \r\nHow to use:\r\nWhen clicking add new profile, you will be asked to enter\r\na name for your profile. This can be, but doesn\\'t have to,\r\nbe the same as the name you will eventually enter into\r\nthe actual character creation screen at the start of the game\r\nin Helgen, but it would be nice if it\\'s the same, simply\r\nfor simplicity sake.\r\n\r\nYou can choose to import one save file from any other profile \r\ninto this new created profile. \r\nThank you \\\"thefinn\\\" from Skyrim Nexus for the suggestion!\r\n\r\nThis is so you can import one Prisoner save file which is saved \r\nbefore actual character creation screen so you don\\'t have to\r\nsit through the cart ride again. Or, you can import\r\na save which is already a named character - there is no\r\nname restriction for importing a save. \r\n\r\n-Added a control to remove an existing profile\r\n\r\nHow to use:\r\nYou can only use this to remove a profile which is not\r\nalready an active one, please first set another profile as active\r\nbefore removing the desired one. The profile\\'s folder and it\\'s \r\nentry in dat.ASS file will be removed, but the save files will\r\nbe saved in a backup folder for you. \r\n\r\n-EXE launcher works properly now:\r\nYou can select TESV.exe to run, finally. \r\n\r\n\r\n************************************************+\r\nold:\r\n\r\nIn v1.1 BETA, added an EXE launcher. \r\nLauncher so far will not with with TESV.exe - use SkyrimLauncher.exe instead. \r\n\r\nSee Readme file.\r\n\r\n**********************************\r\n\r\nAdditional information:\r\n\r\nWhat this tool does, is take apart your original Save folder into several folders and splits the save files between them, in relation to character names in the save files. You will be prompted to select the user which played the last, so the program knows where do the last quicksaves and autosaves belong. Setting a profile afterwards renames the folders so the game always uses the correct folder for loading games. You simply \\\"set\\\" a profile and you can close the tool and run your game. \r\n\r\nReadme file is contained in the archive and contains complete instructions for using the tool.\r\n\r\nAll suggestions and feedback is welcome, as well as ideas of what to add/remove/change. \r\n\r\nThanks!",
+  "categoryId": "39",
+  "version": "2.1",
+  "author": "Eudaimonium",
+  "createdUnix": "1353895701",
+  "updatedUnix": "1354057334",
+  "containsAdultContent": false,
+  "uploadedBy": "Eudaimonium",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "101941",
+      "name": "SPM old",
+      "version": "2.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "94",
+      "fileName": "SPM V2_0-27422-2-0.rar",
+      "uploadedUnix": "1354033960",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c97788907cb1d7a0e14586d7ea6748855413b2f019421e45250499b3b44104aa/analysis/1407280623/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SPM%20V2_0-27422-2-0.rar?fid=101941&ttl=1535800141&ri=8192&rs=8192&setec=ec2c346b954225d33c6b26aa523a6d98"
+    },
+    {
+      "fileId": "101981",
+      "name": "SPM",
+      "version": "2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "94",
+      "fileName": "SPM-27422-2-1.rar",
+      "uploadedUnix": "1354057334",
+      "modVersion": "2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d5050070b48edf0ae49ce4a4307f14f30fba99cff6de29ea608573538cd6e5cc/analysis/1407281043/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SPM-27422-2-1.rar?fid=101981&ttl=1535800142&ri=8192&rs=8192&setec=bb579bce32097362c212e923fc41489f"
+    }
+  ]
+}

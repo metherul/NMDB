@@ -1,0 +1,32 @@
+{
+  "modId": 33009.0,
+  "modName": "bsaunpakVoice",
+  "summary": "A list-based command line tool for Skyrim voice file extraction\r\nbased on figment\\\\\\'s bsaunpak",
+  "descriptionHtml": "[b]bsaunpakVoice[/b]\r\nA list-based command line tool for Skyrim voice file extraction based on figment\\'s bsaunpak\r\n\r\n[b]Background[/b]\r\nThe Creation Kit, the official plugin editor to create modifications for Skyrim, does not allow the assignment of arbitrary voice files to a line of dialogue. Instead, the voice filename is predetermined upon creation of the corresponding topic info. This is a problem when a plugin author wants to use basegame voice files for her or his mod without changing the basegame topic infos and without publishing manually extracted, renamed basegame voice files.\r\n\r\n[b]Purpose and Functionality[/b]\r\nThis program automates a presumably common workaround: Renaming extracted basegame voicefiles to match the plugin\\'s ones and putting them in the right directory. It does this using so called VoiceFileLists generated from the dialogue lists which may be exported from the Creation Kit.\r\nThe basegame filenames to include in a VoiceFileList are retrieved from the Script Notes field of a Topic Info line in the exported dialogue list file. Only Topic Infos containing a valid filename in their Script Notes are included in the VoiceFileList. To add a valid filename to a Response Form\\'s Script Notes field, the Creation Kit has to be used.\r\nThe underlying BSA interactions are based on an unmodified copy of figment\\'s \\\"bsaunpak\\\" which can be found at [url=https://github.com/figment/bsaunpak]https://github.com/figment/bsaunpak[/url].\r\n\r\n[b]Prerequisites[/b]\r\nbsaunpakVoice requires an installed version of the Microsoft .NET Framework 4 or higher.\r\nIf your windows installation does not already contain the framework, you can download the installer at [url=http://www.microsoft.com/net/download/version-4]http://www.microsoft.com/net/download/version-4[/url].\r\nMono compatibility was not tested for this program.\r\n\r\n[b]Usage[/b]\r\nRun bsaunpakVoice from the windows command line without any parameters or the parameter \\\"/?\\\" to get a usage summary.\r\nAn \\\"Intended Workflow Tutorial\\\" is included in this realease in the\r\nfile \\\"TUTORIAL.txt\\\".\r\nbsaunpakVoice was tested for use with Skyrim only, but the chances it works in other scenarios are reasonably high enough to try.",
+  "categoryId": "39",
+  "version": "",
+  "author": "MordynTheBard",
+  "createdUnix": "1362803045",
+  "updatedUnix": "1362802185",
+  "containsAdultContent": false,
+  "uploadedBy": "MordynTheBard",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000016080",
+      "name": "bsaunpakVoice",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "66",
+      "fileName": "bsaunpakVoice-33009-.7z",
+      "uploadedUnix": "1362802185",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/5ccc76a04e06048261b75abcd5ce4e94e73a104572dcea22c350c500566c094d/analysis/1407460025/",
+      "changelogHtml": " First Release based on bsaunpak commit 6efce6a37e945161a97bcf31791cbc258550b279 and tested with The Elder Scrolls V: Skyrim 1.8.151.07 and Creation Kit 1.8.151.0  <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/bsaunpakVoice-33009-.7z?fid=1000016080&ttl=1535809876&ri=8192&rs=8192&setec=28a1c59e3e2789b8164251eb70320860"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 86150.0,
+  "modName": "Disable Auto Aim",
+  "summary": "This mod removes auto aim completely, the config tweaks do not fully remove auto aim on their own.",
+  "descriptionHtml": "SSE VERSION MADE BY TOESHRED:  http://www.nexusmods.com/skyrimspecialedition/mods/6268/? \r<br />\r<br />\r<br />Hi&#33; \r<br />\r<br />Many of you probably know about Skyrim&#39;s auto aim, and some of you may also know that the config tweaks (I will post them here) to remove auto aim do not do their job well, and there is still auto aim left in the game. \r<br />There was a mod called &#34;AutoAim&#34; which had 2 options: increase auto aim or remove it completely. Personally for me this was the only thing which had the capability to truly disable auto aim, however this mod is removed now. I&#39;ve researched a bit and found a post which names the three settings that are changed by the mod. Credits to Tascani on reddit for this information. \r<br />\r<br />Anyway, I went into the CK and made a mod which set the value of those 3 settings to 0. (They are: fAutoAimMaxDegrees fAutoAimScreenPercentage and fAutoAimMAxDegrees3rdPerson )\r<br />\r<br />[size=4][b][u]Installation:\r<br />[/u][/b][size=2]Installation is very simple, just put the esp in your skyrim data folder, or install with MO or whatever other mod manager you have.\r<br />\r<br />\r<br />[/size][/size]\r<br />\r<br />If you didn&#39;t already, I highly recommend to also use the config tweaks to help disable auto aim, change how arrows fly above your crosshair and give your arrows/bolts the capability to hit far targets.\r<br />\r<br />Go to your Skyrim.ini which is located in documents&#92;my games&#92;Skyrim folder OR if you use Mod Organizer its &#34;Mod Organizer Folder&#92;profiles&#92;name of your profile&#34;\r<br />\r<br />Add the following to Skyrim.ini:\r<br />\r<br />[Combat]\r<br />fMagnetismStrafeHeadingMult=0.0\r<br />fMagnetismLookingMult=0.0\r<br />f1PArrowTiltUpAngle=0.7\r<br />f3PArrowTiltUpAngle=0.7\r<br />f1PBoltTiltUpAngle=0.7\r<br />f3PBoltTiltUpAngle=0.7\r<br />\r<br />and also:\r<br />\r<br />[Actor]\r<br />fVisibleNavmeshMoveDist=12288.0000\r<br />\r<br />\r<br />The first two lines are supposed to remove &#34;magnetism&#34; (auto aim, but like I said without this mod it won&#39;t fully work)\r<br />The next 2 lines change the way how your arrow flies above your crosshair when you shoot. If you feel your arrows are shooting above the crosshair and not at its center, then this tweak will help you change that. You can change the values to 0.5 or 0.3 by the way. I personally use 0.5.\r<br />The 2 lines after that do exactly the same, but for crossbow bolts. If you don&#39;t have Dawnguard you don&#39;t need it of course.\r<br />The last line gives you the capability to hit faraway targets. Without it, arrows will disappear after a certain distance and won&#39;t be able to reach their destination.\r<br />\r<br />[size=4][size=2]Hope this helps&#33;[/size][/size]",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "aspirine101",
+  "createdUnix": "1503210696",
+  "updatedUnix": "1503210378",
+  "containsAdultContent": false,
+  "uploadedBy": "aspirine101",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000252416",
+      "name": "No Auto Aim",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "No Auto Aim-86150-1-0.rar",
+      "uploadedUnix": "1503210378",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5807339602df3da088e8f2cdff562efbc0ec11b8dac66568b40584cc0aa4cb57/analysis/1503210661/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20Auto%20Aim-86150-1-0.rar?fid=1000252416&ttl=1535875003&ri=8192&rs=8192&setec=b64128bd8ae76236f0d825fdfbf358c8"
+    }
+  ]
+}

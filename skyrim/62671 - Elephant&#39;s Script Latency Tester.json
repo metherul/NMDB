@@ -1,0 +1,32 @@
+{
+  "modId": 62671.0,
+  "modName": "Elephant&#39;s Script Latency Tester",
+  "summary": "This mod provides an ability to run a simple Papyrus script latency test with optional logging and/or notification.",
+  "descriptionHtml": "[size=4]Description[/size]\r<br />This mod provides an ability to run a simple Papyrus script latency test with optional logging and/or notification.\r<br />It might prove useful if you suspect that you have an overloaded scripting system.\r<br />\r<br />Note that the test is basically identical to the one provided with the mod Convenient Horses by mitchalek.  This mod is provided for anyone who would like to be able to run the test but who doesn&#39;t care to install that mod.\r<br />\r<br />\r<br />[size=4]How To Use[/size]\r<br />The first time Skyrim runs after installing this mod, a lesser power will be given to the player called [u]Elephant&#39;s Script Latency Test[/u].  This power is used to start and stop the test.  If the test is currently running, using the power will give you the option to stop it.\r<br />\r<br />The test has three starting options.\r<br />1. Send the results to the Papyrus log file.\r<br />2. Display the results as on-screen notifications.\r<br />3. Do both of the above.\r<br />\r<br />\r<br />[size=4]Requirements[/size]\r<br />Official Skyrim patch 1.9.32.0.8 or greater.\r<br />\r<br />\r<br />[size=4]Compatibility[/size]\r<br />This mod makes no changes to any Bethesda records, so as far as I know should be compatible with anything.\r<br />\r<br />[size=4]Installing[/size]\r<br />Copy the files\r<br />Elephant&#39;sScriptLatencyTester.esp\r<br />Elephant&#39;sScriptLatencyTester.bsa\r<br />to your Skyrim Data directory and make sure Elephant&#39;sScriptLatencyTester.esp is ticked in the Data Files list. The mod may be positioned anywhere in the load order.\r<br />\r<br />Note that the Elephant&#39;sScriptLatencyTester.bsl file can be copied also but is only needed if you wish to unpack the bsa file.\r<br />\r<br />[size=4]Uninstalling[/size]\r<br />Note that there is no way to 100% safely remove any mod from a running Skyrim game.  The only guaranteed method is to revert to a save made prior to installing the mod.  That being said, this mod, while having scripts, is very lightweight and un-intrusive.  I don&#39;t think you will have any lasting issues should you choose to un-install it.  If you do so choose, please follow this procedure:\r<br />1. Make sure that the Latency Test is NOT running.\r<br />3. Make a save and then exit Skyrim.\r<br />4. Remove Elephant&#39;sScriptLatencyTester.esp from your Data Files list.\r<br />5. Restart Skyrim, load the save just made and then make another save.\r<br />\r<br />[size=4]Upgrading[/size]\r<br />No special procedure is required.  Just replace your old files with the ones from the new version.\r<br />\r<br />\r<br />[size=4]Credits[/size]\r<br />Mitchalek (mitchalek@yahoo.com) for permission to use some of the code from his Convenient Horses mod.\r<br />\r<br />[size=4]Permissions[/size]\r<br />Do what you like with it.  If you use any of it crediting me would be appropriate.\r<br />You will need to get permission from mitchalek (mitchalek@yahoo.com) if you want to use the main testing script.",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "Elephant42",
+  "createdUnix": "1423955699",
+  "updatedUnix": "1423955346",
+  "containsAdultContent": false,
+  "uploadedBy": "Elephant42",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000147474",
+      "name": "Elephant&#39;s Script Latency Tester",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Elephant's Script Latency Tester-62671-1-0.zip",
+      "uploadedUnix": "1423955346",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/fa25991b69978d46d973b86afd86938bda2c7f40ed490e349a58a8e32129635d/analysis/1423955402/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Elephant%27s%20Script%20Latency%20Tester-62671-1-0.zip?fid=1000147474&ttl=1535851353&ri=8192&rs=8192&setec=73242f061e2377d367a4bf2b421b8c8e"
+    }
+  ]
+}

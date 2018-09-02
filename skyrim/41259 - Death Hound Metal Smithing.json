@@ -1,0 +1,32 @@
+{
+  "modId": 41259.0,
+  "modName": "Death Hound Metal Smithing",
+  "summary": "",
+  "descriptionHtml": "[b]INTRODUCTION[/b]\r\nAre you fed up of accumulating dozens of Death Hound Collars that you don\\'t want to sell and wondered if there was another use for them?\r\n\r\nWell now there is!\r\n\r\n\r\n**REQUIRES DAWNGUARD**\r\n\r\n\r\nDESCRIPTION\r\nThis mod adds new recipes to create exotic weapons with similar abilities to the Death Hounds in Dawnguard.\r\n\r\nEach weapon has it\\'s own mesh and textures and has some special abilities due to the exotic nature of the metal.\r\n\r\nNote that this is a crafting mod, not a beautification mod, so the textures are functional but not exceptionally pretty to look at. But they do the job.\r\n\r\nThe only items this mod replaces are the Death Hound collars to allow them to be smelted into Death Hound Metal Alloy.\r\n\r\nThis metal can then be used to create weapons with special abilities when equipped.\r\n\r\n\r\nCRAFTING\r\nThe ability to smelt Death Hound metal alloy from the collars and one piece of iron ore appears at the smelter if you have minimum skills scores of 30 in both Enchanting and Smithing and both the Steel Smithing perk and at least one rank of the Enchanter perk.\r\n\r\nThe recipes to smith Death Hound weapons appear at the forge under Steel smithing and have the same requirements as smelting the alloy.\r\n\r\n\r\nTHE WEAPONS\r\nDeath Hound weapons do +1 point of base damage compared with Steel, weigh approximately 20% more than Steel and sell for approximately 3.5x as much.\r\n\r\nWhen Equipped, they bestow 20% Frost Resistance on the wielder\r\n\r\nIn combat, they have a chance of:\r\n * doing 10 points of Frost damage against the living (Undead are immune)\r\n * a chance to Slow the target (Undead are immune)\r\n\r\nBoth of these effects are resisted by the target\\'s Frost Resistance.\r\n\r\nAll three of these bonuses are removed when the weapons are unequipped.\r\n\r\nThe weapons can still be enchanted normally without losing the special abilities of the exotic metal.\r\n\r\n\r\nBALANCE\r\nI think the mod is well-balanced for a starting character for the level you will be at when you have enough collars to make a weapon, but any feedback is appreciated. It may seem under-powered to any high level characters, but the weapons can be enchanted and tempered like normal weapons.\r\n\r\n\r\nCOMPATIBILITY\r\nThis should be compatible with crafting overhaul mods like WAF Remade and Smithing Perks Overhaul Remade as all the recipes are new and unique. I use these mods myself.\r\n\r\n\r\nINSTALLATION\r\nUnzip the download and copy the entire contents of the top _shb_DH_Smithing folder into your Skyrim folder, which by default is usually:\r\n\r\nC:\\\\Program Files (x86)\\\\Steam\\\\SteamApps\\\\common\\\\skyrim by default.\r\n\r\nLet Windows add _shb_DH_Smithing.esp and the contents of the Meshes, Textures and Scripts folders to the Data folder.\r\n\r\nThe txt files DH.txt and DHWep.txt belong in the Skyrim folder, one level above the Data folder. These can be run as batch files if you want to cheat.\r\n\r\n\r\n\r\nBATCH FILES\r\nThe code for the collars if you have only Skyrim and Dawnguard installed will be 0200F709.\r\n\r\nIf you have any other DLC, the first two numbers (02) will depend on your load order and where you have Dawnguard.esm in your load order.\r\n\r\nTo add 10 collars to your inventory, in the console, type:\r\n\r\nplayer.additem 0200F709 10\r\n\r\n\r\nIf you want to cheat and see all the weapons at once:\r\n\r\nIn the console, type:\r\n\r\n    bat dh\r\n\r\nand you will be shown the code for the Death Hound metal alloy. Make a note of the first two numbers as these are the load order of the mod.\r\n\r\n\r\nOuside the game, open DHWEP.txt and replace xy with these two numbers.\r\n\r\n\r\nBack in the game, in the console type:\r\n    bat dhwep\r\n\r\nand one of each weapon, 40 bolts and 40 arrows will be added to your inventory.\r\n\r\n\r\n\r\nUNINSTALLATION\r\nTo uninstall, delete the esp, any folders starting with _shb_DH_ and the script and source file beginning with _shb_DH_ and then delete the text files DH and DHWEP.txt.\r\n\r\n\r\n~.~",
+  "categoryId": "100",
+  "version": "1.0",
+  "author": "Shadowblade001",
+  "createdUnix": "1377810982",
+  "updatedUnix": "1377810541",
+  "containsAdultContent": false,
+  "uploadedBy": "Shadeybladey",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000050681",
+      "name": "_shb_DH_Smithing",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "44018",
+      "fileName": "_shb_DH_Smithing-41259-.rar",
+      "uploadedUnix": "1377810541",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/c4bdc103af5fea1bff8f952ec7798cec8c4bc42a99e2234086880fc5db173cd8/analysis/1407701517/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/_shb_DH_Smithing-41259-.rar?fid=1000050681&ttl=1535822011&ri=8192&rs=8192&setec=136497f20a76b57a6d872c5921eefe35"
+    }
+  ]
+}

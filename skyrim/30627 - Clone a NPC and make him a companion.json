@@ -1,0 +1,32 @@
+{
+  "modId": 30627.0,
+  "modName": "Clone a NPC and make him a companion",
+  "summary": "Allows you to clone any encountered npc and make him a follower! With a simple console command bat file.",
+  "descriptionHtml": "Usable with any follower mod.\r\nDo you ever wanted your favoured npc in skyrim be your companion, witheout loading an esp or esm file? Or do you want a special npc that a mod added to be your companion? That is not ment to be a companion.\r\nThe solution is here.\r\nWorks on nearly every NPC you want.\r\nWith a simple bat file console command you can!\r\n\r\nHow it works:\r\nOpen the console with the ~ button, click on the npc you want to be a companion type bat recruit. Done the npc is now a companion.\r\nIf you want a clone of that specific npc, open the console type help \\\"name of the npc\\\" use the \\\" \\\" if he has a longer name. Now you get the ref id.\r\nType player.placeatme ref id. Now click on the clone type bat recruit. Now you have a new companion clone.\r\n\r\nWhy clone a npc, the original npc stays where he belongs and behave like he should do. This should do no harm to your game and savegame.\r\nIf you want the clone to leave the game click on him open the console type disable and then type markfordelete. The clone npc leaves the game, witheout doing any harm to your game.\r\n\r\nDont Work on:\r\nEnemy NPC [Bandits, Forsworn, etc...]\r\nAnimals, Monsters, Undead, ...\r\n\r\nNEVER EVER DO:\r\nUse it on an existing companion will do harm to scripts.\r\nIf you use UFO or other companion mods, dont use this on allready recruited npc this wil break the UFO scripts and corrupt your savegame.\r\n\r\nNot Testet on:\r\nNPC that have just one line of dialogue. NPC when talked to, who doesnt start a conversion with dialogue options.\r\nImportant NPC that are Quest relevant. Be carefull on using this, this could do harm to the quest, but i have not testet it. So be adviced.\r\n\r\nHow I used it:\r\nI cloned my favorite shopkeeper and took her into dungeons, so i could sell all unwanted stuff directly to her whiteout running to shops to sell items. And I had my favoured companion with me. Nice he\r\n\r\nCopy the file in the root directory skyrim the place where the skyrim launcher exe is.\r\n\r\nBonus: You can marry them.\r\n\r\nPlease leave feedback.",
+  "categoryId": "66",
+  "version": "1.0",
+  "author": "EasyDaragoth",
+  "createdUnix": "1359398196",
+  "updatedUnix": "1359398512",
+  "containsAdultContent": false,
+  "uploadedBy": "EasyDaragoth",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000005529",
+      "name": "Companion recruit",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Companion recruit-30627-1-0.rar",
+      "uploadedUnix": "1359398512",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/116ef3548c17b9307912863c19c067c1d033b8ffbb8a8987b429010a55593517/analysis/1407384183/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Companion%20recruit-30627-1-0.rar?fid=1000005529&ttl=1535805590&ri=8192&rs=8192&setec=0fac432c85b2562a40a406f590b4e7bc"
+    }
+  ]
+}

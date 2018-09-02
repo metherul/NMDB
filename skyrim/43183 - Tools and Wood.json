@@ -1,0 +1,32 @@
+{
+  "modId": 43183.0,
+  "modName": "Tools and Wood",
+  "summary": "Adds Pickaxes, Woodcutter\\'s axes and firewood to general goods vendors, with a minor change to torch purchasability",
+  "descriptionHtml": "Adds Pickaxes, Woodcutter\\'s axes and firewood to general goods vendors\r\n\r\nThis should be handy for frostfall for the dovahkiin who doesn\\'t like to steal things that should be flagged as stealing even if they aren\\'t (like the woodcutting axes just laying around mills)\r\n\r\n\r\nExact changes:\r\nAdds 1 pickaxe, 1 Woodcutter\\'s axe, and 2 firewood to the \\\"LitemTorch50\\\" Leveled list which is on most general goods vendors, changes the chance none rate to 40, increases the torch count to 2, and sets the calculate for each flag for the list.  \r\n\r\nSince this list always seems to come in stacks of 10, this should result in on average the same number of torchs available for purchase, while removing the silly half the time no torches are for sale.\r\n\r\nI picked this leveled list, because I expected few if any other mods change it, so there should be minimal conflicts.  This can be merged with a bashed patch if you worry about that though, or just want to save an esp slot.\r\n\r\nNo dirty/wild edits.",
+  "categoryId": "69",
+  "version": "1.0",
+  "author": "Jimmybob",
+  "createdUnix": "1380515314",
+  "updatedUnix": "1380515311",
+  "containsAdultContent": false,
+  "uploadedBy": "jimmybob",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000059771",
+      "name": "Tools and wood 1dot0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Tools and wood 1dot0-43183-1-0.rar",
+      "uploadedUnix": "1380515311",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/19aff4642300d3fed96f98da174af9bb42e2d19ca4ddada1cceb233fb9e7b84d/analysis/1407739985/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Tools%20and%20wood%201dot0-43183-1-0.rar?fid=1000059771&ttl=1535824026&ri=8192&rs=8192&setec=338d993de9a16882b0e58bf08b81dcaf"
+    }
+  ]
+}

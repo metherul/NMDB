@@ -1,0 +1,32 @@
+{
+  "modId": 4882.0,
+  "modName": "Camera Tweakage",
+  "summary": "Very simple tweak/mod to the 3rd-person camera. Can\\'t imagine it would conflict with anything UNLESS it is something related to the camera settings.",
+  "descriptionHtml": "For those unsure of what this does:\r\n\r\nThe following tweaks simply change the position of the camera in 3rd-person view. The file itself actually does nothing, it merely tells you how to do it :)\r\n\r\n----------\r\n\r\nVery simple tweak/mod to the 3rd-person camera. Can\\'t imagine it would conflict with anything UNLESS it is something related to the camera settings.\r\n\r\nThe downloadable file contains this info in a text document with some example screenshots.\r\n\r\n----------\r\n\r\nJust open up your \\\"Skyrim.ini\\\" file, located in:\r\n(My Documents/Documents)\\\\My Games\\\\Skyrim\r\n\r\nThen simply copy and paste the following to the bottom of the file and save it (shouldn\\'t cause any problems, but you never know, so back up your \\\"Skyrim.ini\\\" file first):\r\n\r\n[Camera]\r\nfOverShoulderCombatAddY=-25.0000\r\nfOverShoulderCombatPosZ=15.0000\r\nfOverShoulderCombatPosX=15.0000\r\nfOverShoulderPosZ=-10.0000\r\nfOverShoulderPosX=-30.0000\r\n\r\n----------\r\n\r\nIf it doesn\\'t seem to do anything, open the in-game command console by pressing \\\"`\\\" (called the \\\"tilde\\\" key, located at the very top left of your keyboard, next to \\\"1\\\" and below \\\"esc\\\") and type (without the quotes!):\r\n\r\n\\\"refini\\\"\r\n\r\nThen press enter. This will force the game to reload all the ini perameters.\r\n\r\n----------\r\n\r\nYou can change the camera settings to your own taste if you dont like the ones I came up with! The perameters are basically just coordinates relative to the middle of your character\\'s head.\r\n\r\nz = up and down, positive values are up, negative are down.\r\n\r\nx = left and right, positive values are left, negative are right.\r\n\r\ny = \\\"zoom\\\", positive values \\\"zoom in\\\", negative values \\\"zoom out\\\". Note: this IS NOT the in-game camera zooming, but something else.",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "Demidekidasu",
+  "createdUnix": "1325199796",
+  "updatedUnix": "1325200057",
+  "containsAdultContent": false,
+  "uploadedBy": "demidekidasu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "14944",
+      "name": "The File",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "361",
+      "fileName": "The File-4882-1-0.zip",
+      "uploadedUnix": "1325200057",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b60123962e0efd8bf7789ec72a192697aecdb538e1ebfc7a9877320eb71f1f4d/analysis/1406568963/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/The%20File-4882-1-0.zip?fid=14944&ttl=1535761162&ri=8192&rs=8192&setec=3c1c2865c906d682f275b0fb048036a2"
+    }
+  ]
+}

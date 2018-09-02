@@ -1,0 +1,32 @@
+{
+  "modId": 91208.0,
+  "modName": "NPC Mage Balance Fix",
+  "summary": "(Enemy) NPC mages get unfair advantages over the player in terms of magicka use and regeneration. This small mod aims to fix that.",
+  "descriptionHtml": "This mod was originally created by cuddy for Skyrim SE and released with open permission, so I decided to back-port it. From the original mod page:\n<br />\n<br />Ever felt like it takes much longer for NPC mages to run out of magicka compared to the player character? There is a reason for that: they get unfair advantages in the game settings. By default, their spells cost much less magicka than the players' while at the same time having better regeneration, which leads to seemingly endless Ward and projectile spam behaviour. This mod aims to fix this by changing the following two game settings:\n<br />\n<br />[b]fMagicCasterSkillCostMult[/b]   ﻿Vanilla: 0.5   ﻿Mod: 2.0     ﻿(a multiplier for spell cost)\n<br />[b]fMagicSkillCostScale[/b]   ﻿          Vanilla: 0.5   ﻿Mod: 0.65   ﻿(spell cost scaling with respect to skill level, 0.65 is the value used for the player)\n<br />\n<br />\n<br />No scripts used, this mod should be compatible with pretty much everything. \n<br />\n<br />\n<br />Credits:\n<br />[b]tonycubed2 [/b]for his explanation of the settings [url=https://forums.nexusmods.com/index.php?/topic/6274431-improved-destruction-magic-by-penumbral/?p=56428266][u][color=#000080]here[/color][/u][/url]\n<br />[b]lgthanatos [/b]for his explanation of the settings [url=https://www.reddit.com/r/skyrimrequiem/comments/2i7ymq/why_npc_mages_are_op_and_how_to_fix_them_yourself/][u][color=#000080]here[/color][/u][/url]",
+  "categoryId": "93",
+  "version": "1.0",
+  "author": "cuddy",
+  "createdUnix": "1525716074",
+  "updatedUnix": "1525716074",
+  "containsAdultContent": false,
+  "uploadedBy": "SkyLover264",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000272488",
+      "name": "NPC Mage Balance Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "NPC Mage Balance Fix-91208-1-0.zip",
+      "uploadedUnix": "1525716032",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ffc41a5cb1cf15a0ce59034c7880a81346f18eb98726e6ba28c7096e31f6a973/analysis/1525716183/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NPC%20Mage%20Balance%20Fix-91208-1-0.zip?fid=1000272488&ttl=1535881692&ri=8192&rs=8192&setec=e207ede5fb571bf9a96cd0bea936fdd9"
+    }
+  ]
+}

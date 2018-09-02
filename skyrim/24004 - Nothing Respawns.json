@@ -1,0 +1,32 @@
+{
+  "modId": 24004.0,
+  "modName": "Nothing Respawns",
+  "summary": "Nothing ever respawns. Well, not quite, but it\\'s the best I can do for now.",
+  "descriptionHtml": "[Nothing Respawns]\r\n\r\nRequires Dawnguard, Hearthfire and Dragonborn, as well as the Unofficial Skyrim, Dawnguard, Hearthfire and Dragonborn patches.\r\n\r\nEverything in this game respawns too damn fast for my liking. Ideally, I\\'d like nothing to ever respawn, but until I can figure out how to stop merchant chests from restocking the first time you open the trade window each time you load Skyrim, this is the best you\\'re going to get from me.\r\n\r\n[Patch Notes]\r\n\r\nVersion 3: Mod now requires the Unoffical patches this time around. I could have sworn I made it require them before, but it seems that if I did then it just didn\\'t take; it wouldn\\'t be the first time I was fighting the modding tools instead of using them.\r\nVersion 2: Mod now requires all currently available purchased DLC. Still can\\'t completely fix merchants. Suspect I\\'ll never be able to.\r\nVersion 1: Initial release.\r\n\r\nChanges:\r\n\r\nAll \\\"Encounter Zones\\\" have been set to \\\"Never Reset.\\\"\r\nAll containers--whether chests, barrels or merchant chests--have been set to never respawn their contents. I can\\'t stop them from resetting their gold, but below is a workaround that works--most of the time.\r\niDaysToRespawnVendor has been set to 1024.\r\niHoursToRespawnCell and iHoursToRespawnCellCleared have both been set to 72000.\r\n\r\nMerchant Workaround:\r\n\r\nThe first time you open trade with each merchant after loading up Skyrim, their shop chest will restock with gold. I refused to let that slide. It turns out, I found, that if you reload afterwards and open trade again, the merchant will have the correct gold value. I suspect the restock is hard-coded.",
+  "categoryId": "85",
+  "version": "3",
+  "author": "Blayze",
+  "createdUnix": "1347392957",
+  "updatedUnix": "1364142019",
+  "containsAdultContent": false,
+  "uploadedBy": "Blayze",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000019972",
+      "name": "Nothing Respawns",
+      "version": "3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "81",
+      "fileName": "Nothing Respawns-24004-3.rar",
+      "uploadedUnix": "1364142019",
+      "modVersion": "3",
+      "virusScanUrl": "https://www.virustotal.com/file/fee72657cc8a2a1cddd98035008e191b551219495021ef558676529350e70abc/analysis/1407486315/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Nothing%20Respawns-24004-3.rar?fid=1000019972&ttl=1535794600&ri=8192&rs=8192&setec=54260e67b143db57e4da245e6ebb8a7f"
+    }
+  ]
+}

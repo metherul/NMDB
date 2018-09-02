@@ -1,0 +1,48 @@
+{
+  "modId": 10505.0,
+  "modName": "Dovahheim - A player-owned town -WIP-",
+  "summary": "Chase the bandits out and start building your town!",
+  "descriptionHtml": "[b]ATTENTION[/b]\r\nIf you experienced difficulties with the quest not advancing in a pre-1.0.2 version, you [i]must[/i] uninstall the mod, load and save your game, and then install 1.0.2. Sorry for the inconvenience. (Note that any saves where you have not slain the bandit leader at the camp yet should not need this process, and the cause of this issue should now be fixed.)\r\n\r\n[b]IMPORTANT NOTE[/b]\r\nWork on this mod is currently dormant. Lots of stuff going on IRL has kept me away from Skyrim and my modding thereof. [i]This mod is not dead![/i] I am returning to Skyrim, and to modding, however my focus for the time being is on some less-ambitious mods, to hopefully solve some deficiencies in my knowledge of and skill in the CK that lead to far too many frustrated hours on this one.\r\n\r\n\r\nNOTICE: All quest dialog is currently non-voiced, which means you MUST TURN ON CAPTIONS if you want to know what\\'s being said! Development is currently being focused on the more technical aspects of the mod, so this is not likely to change in the immediate future. Sorry.\r\n\r\n== Changelog ==\r\n1.0.2: Robber\\'s Gorge no longer marked as \\\"Cleared\\\" (for realsies this time!); Fryssa\\'s placeholder audio and lip files are now included; killing the bandit leader should now advance the quest correctly (whether before or after talking to Fryssa)\r\n1.0.1: Robber\\'s Gorge no longer marked as \\\"Cleared\\\"; all storage in the bandit chief\\'s shack is now safe\r\n1.0.0: Initial release, Robber\\'s Gorge acquirable by player\r\nNote that version numbering has been changed -- 1.0.1 was previously released as 1.1, and 1.0.0 as 1.0; this change is being made so that I can better distinguish between major releases (e.g. 1 to 2), minor releases (1.1 to 1.2), and bug fixes (1.0.0 to 1.0.1). I apologize for any inconvenience this may cause, but it will make things easier in the long run.\r\n\r\n== Installation ==\r\n\r\nTo install, simply extract the main file into your Skyrim Data directory.\r\n\r\n== Description ==\r\n\r\nRobber\\'s Gorge has been a blight on the trade routes through Hjaalmarch for too long. Now, at long last, the jarl is doing something about it -- asking you to take care of it!\r\n\r\nThis release is only the faintest preview of what\\'s to come. Clear out the bandits and report back, and you will be rewarded with gold and an offer to take over command of the area; whether you accept or not, the next time you go there the bandits will have been replaced by Hjaalmarch Hold guards.\r\n\r\nThere are two ways to get started:\r\n* Talk to Fryssa inside Highmoon Hall in Morthal\r\n* Kill the bandit leader at Robber\\'s Gorge and await the courier\r\n\r\nIf you\\'ve already cleared Robber\\'s Gorge, just wait for the courier to find you.\r\n\r\nFuture updates will bring more new NPCs, more new quests, upgrades for your new town, honor, prestige, and new items!\r\n\r\n== KNOWN ISSUES ==\r\n* Robber\\'s Gorge can no longer be \\\"cleared\\\". This is to prevent the \\\"Cleared\\\" text appearing on the map when the player acquires the camp (and later upgrades it to a town). This appears to be an either-or thing, and I\\'d rather it not show up at all than to always be there.\r\n* The quest to clear the camp does not always progress properly. [url=http://forums.nexusmods.com/index.php?/topic/597970-ondeath-event-only-works-sometimes/]Forum thread.[/url] FIXED in 1.0.2?\r\n* All new dialog is non-voice-acted. This will likely be the case for quite a while. You\\'ll have to turn on subtitles if you want to know what they are saying.\r\n\r\n== Credits ==\r\nThanks to all of the amazing Nexus Forums people for contributing some great ideas, and especially to forum member gofer32, who was very influential in the early formulation of the idea.\r\nAlso special thanks to Nexus member iAmEhPic for helping me test.",
+  "categoryId": "53",
+  "version": "1.0.2",
+  "author": "Kromey",
+  "createdUnix": "1329715576",
+  "updatedUnix": "1331098301",
+  "containsAdultContent": false,
+  "uploadedBy": "kromey",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "37864",
+      "name": "Dovahheim v1_0_1",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "12",
+      "fileName": "Dovahheim v1_0_1-10505.zip",
+      "uploadedUnix": "1330400961",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/56cdaa6d84757d39aa237f8706955b479eb83edfdc93d4c4c1a07cfb442a3b76/analysis/1406718568/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dovahheim%20v1_0_1-10505.zip?fid=37864&ttl=1535770934&ri=8192&rs=8192&setec=17f30370ab11d4529d9cb8b431f6fbaa"
+    },
+    {
+      "fileId": "40946",
+      "name": "Dovahheim v1_0_2",
+      "version": "1.0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4952",
+      "fileName": "Dovahheim v1_0_2-10505-1-0-2.zip",
+      "uploadedUnix": "1331098301",
+      "modVersion": "1.0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/12a26e8227048a2fa35f23f5110bbfc8dddf0e427ae12433f5e498d13eea1415/analysis/1406735770/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dovahheim%20v1_0_2-10505-1-0-2.zip?fid=40946&ttl=1535770935&ri=8192&rs=8192&setec=44cfdceb335083824597f12f176e6ce7"
+    }
+  ]
+}

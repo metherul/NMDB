@@ -1,0 +1,32 @@
+{
+  "modId": 21797.0,
+  "modName": "Throwing Knives WIP with skill - requires MTS",
+  "summary": "This is a changed version of Throwing Knifes WIP that gives it its own skill using Merged Thievery Skill",
+  "descriptionHtml": "First of all this requires MTS http://skyrim.nexusmods.com/mods/21792 details later but putting this on the first line for everyone to read. The original Throwing Knives mod was an inspiration for MTS which exists in part because of it.\r\n\r\n***Looking for:\r\nArtist to create a background image for the perk tree. I think I want something looking like a knife with some traces behind suggesting it spins trough air that will fit over the perk tree (this may also be rearranged a little to overlap better)\r\nDescription:\r\nThis gives the throwing knifes it\\'s own skill and perk tree and relays on MTS (get it from the link on the first line) for Lockpick and Pickpocket skill in order to free up a skill slot (CK doesn\\'t allow adding custom skills)\r\n\r\nPerks (see picture) they are still subject to change/tune numbers:\r\nFirst of all you should manually remove via console perks from Pickpocket and Lockpick that were removed in the Thievery skill, then you should add the same number also via console...preferably in Throwing skill. Type \\'help \\\"skill name\\\"\\' then \\'player.removeskill XXX\\' and \\'player.addskill XXX\\' where XXX is the id returned bt the \\'help\\' command. Sorry but CK provides no way to increase the available perk points.\r\nSharp Knives 5 levels: +20% damage increase, usual weapon perk stuff\r\nPoint Blank: you don\\'t loose your knife if target is in close range\r\nTrusted Knife 2 levels: increase the chance to recover knifes from victims body\r\nStrong Arm: chance to knock down target on hit\r\nQuick Arm 2 levels: Throws 2 then 3 weapons at once\r\nWeak Spot: ignores armor\r\nCripple: chance to drain stamina\r\nInstant Kill: chance for instant kill\r\n(Deadly Aim from sneak influences sneaking damage)\r\n\r\nLoad order, install and compatibility:\r\nUse either this or original Throwing Weapons, they use same IDs.\r\nLoad this after Merged Thievery Skill. Incompatible with mods that MTS is incompatible with.\r\nYou should remove via console perks that I removed from Lockpick and Pickpoket and that are not found in Thievery skill, then add the same number of perks also via console, preferably to Throwing skill.\r\n\r\nFuture development:\r\nBug fixing, perks and via scripting and other things that require CK only.\r\nDon\\'t hope for additional weapons or animations as I\\'m not into that and have no time to learn. If original creator of Throwing Weapons will decide to help with this then maybe.\r\n\r\nCredits:\r\nThis is an edited version of Throwing Knives WIP http://skyrim.nexusmods.com/mods/11875 giving throwing knifes it\\'s own skill and perk tree. I contacted raden5 (Nez on steam) and he agreed with the publishing of this. Did I mention that you should NOT use both this and the original?\r\n\r\n",
+  "categoryId": "55",
+  "version": "0.9",
+  "author": "Original creator of Throwing Knifes and LukeH",
+  "createdUnix": "1344243116",
+  "updatedUnix": "1344243234",
+  "containsAdultContent": false,
+  "uploadedBy": "LukeH",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "79181",
+      "name": "Throwing Knifes WIP with skill",
+      "version": "0.9",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2353",
+      "fileName": "Throwing Knifes WIP with skill-21797-0-9.zip",
+      "uploadedUnix": "1344243234",
+      "modVersion": "0.9",
+      "virusScanUrl": "https://www.virustotal.com/file/db80158efef05dafd1c73a7a94ab2f56e9dac6c7d768e9c54271aae614a1ac56/analysis/1407073804/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Throwing%20Knifes%20WIP%20with%20skill-21797-0-9.zip?fid=79181&ttl=1535790926&ri=8192&rs=8192&setec=56b0914c70158d4a8f933ccac86d246a"
+    }
+  ]
+}

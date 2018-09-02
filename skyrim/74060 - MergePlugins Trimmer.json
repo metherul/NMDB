@@ -1,0 +1,48 @@
+{
+  "modId": 74060.0,
+  "modName": "MergePlugins Trimmer",
+  "summary": "This simple tool will deactivate any .esp files that you have already merged with the excellent MergePlugins standalone by matortheeternal.\r<br />Alternatively if you disable the a merged compilation that you created, it will reactivate any esp files previously disabled.",
+  "descriptionHtml": "[b][color=#ff7700][size=3]NOTE: This will probably not work with Mod Organizer 2.[/size][/color]\r<br />\r<br />[size=4]MergePlugins Trimmer[/size][/b]\r<br />========================\r<br />\r<br />\r<br />[b][size=3]DESCRIPTION[/size][/b]\r<br />[b]This simple tool will deactivate any &#39;.esp&#39; files that you have already merged with the excellent [url=http://www.nexusmods.com/skyrim/mods/69905/?]MergePlugins standalone[/url] by matortheeternal.\r<br />Alternatively if you disable the a merged compilation that you created, it will reactivate any esp files previously disabled.[/b]\r<br />\r<br />This means you can use Merge Plugins tool on a couple of mods and leave them still activated in Mod Organizer to check for updates or whatever.\r<br />This tool will automatically disable those mods &#39;.esp&#39; files when you are using the new merged mod you made.\r<br />\r<br />You can merge mods with &#39;Copy General Assets&#39; unticked if you want as leaving the original mods activated in Mod Organizer will keep the assets available but only the merged esp files disabled.\r<br />\r<br />The ONLY file this program will edit is the &#39;plugins.txt&#39; file found in your profile folder. Back this up before you try for the first time if you&#39;re unsure.\r<br />The only profile affected is the one currently selected in Mod Organizer.\r<br />\r<br />[size=2]I think this functionality will be added to Merge Plugins soon... until then, I hope this helps. Happy modding&#33;\r<br />\r<br />[/size]\r<br />[b]REQUIREMENTS[/b]\r<br />- .NET Framework 3.5 or higher\r<br />- [b]Mod Organizer[/b]\r<br />- [b]Merge Plugins standalone[/b]\r<br />\r<br />\r<br />[size=3]INSTALLATION[/size]\r<br />1. Activate this &#39;mod&#39; in Mod Organizer. [size=1](This will not effect your game in any way but if not activated MO will not execute the program correctly.)\r<br />[/size]\r<br />2. Click on the data tab on the right hand panel and scroll down the list to find &#39;trimmer.exe&#39;\r<br />\r<br />3. Right-click on &#39;trimmer.exe&#39; and select &#39;Add as Executable&#39;.\r<br />\r<br />4. You should now be able to run it as you would any other executable.\r<br />\r<br />[b]\r<br />NOTES\r<br />[/b][size=1]If you see the &#39;This application could not be started&#39; message it probably means you have not activated this mod.\r<br />The textures folder is there so Mod Organizer won&#39;t say it&#39;s not a mod, which technically it isn&#39;t but that&#39;s ok.\r<br />\r<br />[/size][u][b]This program is not an official tool of Mod Organizer or Merge Plugins. Please to not direct any support questions to them.[/b][/u]",
+  "categoryId": "39",
+  "version": "1.1",
+  "author": "Amadar",
+  "createdUnix": "1457299593",
+  "updatedUnix": "1458286526",
+  "containsAdultContent": false,
+  "uploadedBy": "Amadar",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000199685",
+      "name": "source",
+      "version": "",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "19",
+      "fileName": "source-74060-.zip",
+      "uploadedUnix": "1458286187",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/bc71410af246f231c6ee0f40d4275bfaf1734aaf4d41a7e4ea7665709d61104c/analysis/1458286205/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/source-74060-.zip?fid=1000199685&ttl=1535862808&ri=8192&rs=8192&setec=d56f318dc2ba308c21a199ba9f8533ae"
+    },
+    {
+      "fileId": "1000199686",
+      "name": "trimmer",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "14",
+      "fileName": "trimmer-74060-1-1.zip",
+      "uploadedUnix": "1458286526",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/b061c2199254fd7f5db2577734a192421ef30498c299e7f33476098a55cb39d0/analysis/1458286563/",
+      "changelogHtml": " Updated the GUI. You can now see potential changes before you trim <br/> \n Added ability to toggle which merge compilations will be affected <br/> \n Added a few tooltips <br/> \n Added an icon <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/trimmer-74060-1-1.zip?fid=1000199686&ttl=1535862808&ri=8192&rs=8192&setec=bcfdb877e700ced5fb66f55b95f3bc8d"
+    }
+  ]
+}

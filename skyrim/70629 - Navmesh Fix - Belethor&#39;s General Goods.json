@@ -1,0 +1,32 @@
+{
+  "modId": 70629.0,
+  "modName": "Navmesh Fix - Belethor&#39;s General Goods",
+  "summary": "Navmesh Patch for the DEFAULT/VANILLA Belethor&#39;s General Goods located in Whiterun.",
+  "descriptionHtml": "This mod is a navmesh fix for the [color=#ffff00]default/vanilla Belethor&#39;s General Goods[/color] located in Whiterun.  It fixes followers so they use the front door when you do.\r<br />\r<br />What is navmesh?  [i][color=#cccccc]Navmesh is the pathing that indicates where NPC&#39;s can and cannot walk/run[/color][/i].  Incorrect Navmesh can cause NPC&#39;s to &#34;teleport&#34; around, get stuck in spots, and/or continuously attempt to walk into furniture.  Having no Navmesh will not allow NPC&#39;s to walk/run in the area.  IE, if you build a new home and don&#39;t put down a navmesh, no NPC can enter; only yourself.\r<br />\r<br />[u][color=#00ffff]WHAT WAS FIXED[/color][/u][color=#00ffff]:\r<br />[/color]\r<br />[list=1]\r<br />[*][color=#00ff00][size=2]Navmesh[/size][/color]\r<br />[*][color=#00ff00][size=2]Followers teleport spot/area[/size][/color]\r<br />[/list]\r<br />[list]\r<br />[*][size=2]The Navmesh in Belethor&#39;s General Goods wasn&#39;t properly placed, causing your followers to enter the store through the backdoor instead of using the front door (if you used the front as well).  The navmesh fix should allow followers to zone in through the front door when you do. [/size]\r<br />[/list]\r<br />[list]\r<br />[*][size=2]The original Navmesh is still intact and not deleted, just moved.  I manually placed a new navmesh layout throughout the shop.[/size]\r<br />[/list]\r<br />[list]\r<br />[*][size=2]If you have more than one follower, extra followers might still use the backdoor if there is not enough room on the front door&#39;s teleport area.[/size]\r<br />[/list]\r<br />[list]\r<br />[*][size=2]What is this &#34;teleport spot/area&#34; I speak of?  If you look at the images provided, you&#39;ll see two green triangles.  Those green triangles indicate where NPCs zone in when entering a cell.  You can call them either teleport spots or zoning areas.  There are two in Belethor&#39;s shop because there are two doors that lead to the outside.  Each door that leads to the outside gets its own &#34;teleport area&#34; to zone into the cell.[/size]\r<br />[/list]\r<br />[color=#ff0000][u]INCOMPATIBLE[/u]:\r<br />\r<br />[/color][list]\r<br />[*][size=2]Any mod that alters Belethor&#39;s General Goods and its layout.  If you have a mod that changes the layout of Belethor&#39;s General Goods, that mod author should have already changed the navmesh in their mod to fit their new layout.  If not, you&#39;ll be having serious pathing issues with NPC&#39;s.[/size]\r<br />[/list]\r<br />[color=#00ffff][u]INSTALLATION:[/u][/color]\r<br />Use NMM or MO.\r<br />\r<br />[color=#00ffff][u]MANUAL INSTALLATION:[/u][/color]\r<br />Drop the data folder into your main Skyrim directory.\r<br />\r<br />[u][color=#ff7700]CONCERNING USKP/USLEEP:\r<br />[/color][/u]\r<br />[list]\r<br />[*][size=2]NOT EVERYONE USES USKP/USLEEP.  These navmesh fixes will mainly be for those who don&#39;t use USKP/USLEEP and/or people still having issues with navmeshing even with the USKP/USLEEP installed.  So please, I don&#39;t need anymore postings about USKP/USLEEP.  I had already taken USKP/USLEEP into consideration and checked their navmeshes before I even bothered doing these mods.  Thank you.[/size]\r<br />[/list]\r<br />[list]\r<br />[*][size=2]USKP v2.0.9 talks about [i]Belethor himself[/i], not followers.  They fixed the game so that [i]Belethor enters his shop through the front instead of the back[/i].  That&#39;s not what this patch is. Plus, IMO I don&#39;t know why USKP changes that. Shop owners I know IRL use their back door (if they have one) to enter so they can turn on lights, set up shop, etc before opening.  IMO, I think Belethor should be entering in and out of his shop through the back door anyway.  I thought Bethesda intended him to do so in the first place.[/size]\r<br />[/list][size=2]\r<br />[/size][list]\r<br />[*][size=2]I read that Belethor&#39;s shop was fixed from the outside in the USKP.  However, the USKP v2.0.9 says it is a fix for Belethor himself.  I&#39;m not trying to fix Belethor as I was trying to fix my followers from using the backdoor when I used the front.  Maybe the same issue with Belethor also affects followers, but this I&#39;m not sure of.  All I know is that I do use all of the USKP&#39;s and my followers never came in through Belethor&#39;s front door.  I&#39;m not saying that it is not fixed by the USKP, it&#39;s just for my games... they come in through the back still.  BUT I also do use JK&#39;s Skyrim and The Useless Shop Overhaul in my actual non-vanilla game.  So... it could possibly be mod&#39;s conflicting with USKP is why they weren&#39;t using the front door.  [i]But this mod is for the default/vanilla game anyway and I have been testing this with vanilla cells[/i].[/size]\r<br />[/list]",
+  "categoryId": "84",
+  "version": "2.0",
+  "author": "Baibaihe",
+  "createdUnix": "1444985648",
+  "updatedUnix": "1445066254",
+  "containsAdultContent": false,
+  "uploadedBy": "Baibaihe",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000181106",
+      "name": "Navmesh Fix - Belethor&#39;s General Goods",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "12",
+      "fileName": "Navmesh Fix - Belethor's General Goods-70629-2-0.rar",
+      "uploadedUnix": "1445066254",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7ad19810503f3ac0c061663b20e50e9a3d5a444ff75b38b82c7cb8b71f3174f7/analysis/1445066283/",
+      "changelogHtml": " Original Navmesh is still intact and not deleted. It has now been moved down under the shop. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Navmesh%20Fix%20-%20Belethor%27s%20General%20Goods-70629-2-0.rar?fid=1000181106&ttl=1535859181&ri=8192&rs=8192&setec=e0b947c5e951219f6f3e526431ae2d71"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 80692.0,
+  "modName": "Cobb Worldspace-To-Heightmap Converter",
+  "summary": "Use an xEdit script to export the raw height data for a worldspace&#39;s cells. Then, use the JavaScript-based tool in Firefox to read that data and generate a heightmap image that you can save.",
+  "descriptionHtml": "[color=#DDCCBB][size=5][b]Cobb Worldspace-To-Heightmap Converter[/b][/size][/color]\r<br />\r<br />I built this tool for my own use, so it&#39;s [i]significantly[/i] less polished than my more public-minded works, but I figure people may still get some use out of it. This upload consists of:\r<br />\r<br />[list]\r<br />[*]A TES5Edit script that can export all heightmap data for selected cells.\r<br />[*]A web page (though it should run locally on your hard drive) that can load that dataset, process it, and generate a heightmap image (that you can right-click and save).\r<br />[/list]\r<br />\r<br />[size=4][color=#DDCCBB][b]Caveats[/b][/color][/size]\r<br />\r<br />This is one of my personal tools and as such, it is provided as-is. I may fix bugs or provide support on request, but in general I&#39;m going to be a lot less keen on fixing this thing than I would be for my public works.\r<br />\r<br />These tools were created specifically for Skyrim Classic, and are not guaranteed to work on Fallout 4 or Skyrim Special.\r<br />\r<br />The web page tool was developed for Firefox and has only been tested in that browser. I can&#39;t guarantee stable or accurate behavior on other browsers.\r<br />\r<br />There are two kinds of heightmap data for cells -- Vertex Height, embedded in Landscape data, and Max Height Data -- and the latter has not been fully decoded. When VHGT data is not available for a cell, MHDT is used as a fallback, which can affect the final results for the entire heightmap as brightness is normalized across the entire heightmap.",
+  "categoryId": "82",
+  "version": "1.11",
+  "author": "DavidJCobb",
+  "createdUnix": "1480970658",
+  "updatedUnix": "1481142978",
+  "containsAdultContent": false,
+  "uploadedBy": "DavidJCobb",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000230138",
+      "name": "Cobb Worldspace-To-Heightmap Converter v1.0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Cobb Worldspace-To-Heightmap Converter-80692-1-0.rar",
+      "uploadedUnix": "1480970584",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5be0f8562dd296787c1dd7ed557157c47b6bab174acb94f8a24a8d56c8db0f04/analysis/1480970643/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Cobb%20Worldspace-To-Heightmap%20Converter-80692-1-0.rar?fid=1000230138&ttl=1535869329&ri=8192&rs=8192&setec=0d88e96027c5ce166ec2f0d8715f3b64"
+    },
+    {
+      "fileId": "1000230341",
+      "name": "Cobb Worldspace-To-Heightmap Converter",
+      "version": "1.11",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "Cobb Worldspace-To-Heightmap Converter-80692-1-11.rar",
+      "uploadedUnix": "1481142978",
+      "modVersion": "1.11",
+      "virusScanUrl": "https://www.virustotal.com/file/c62c67602ff1d83a838a5a7e0067662a98b6a38c22aa23b8f77addf8382e35df/analysis/1481143022/",
+      "changelogHtml": " File loading: We no longer dump the FileReader to the console, so viewing debug output in browsers with better consoles shouldn&#39;t lag/hang anymore. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Cobb%20Worldspace-To-Heightmap%20Converter-80692-1-11.rar?fid=1000230341&ttl=1535869329&ri=8192&rs=8192&setec=d0780df70b5c138b7e573e6922c77564"
+    }
+  ]
+}

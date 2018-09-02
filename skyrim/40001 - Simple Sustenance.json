@@ -1,0 +1,48 @@
+{
+  "modId": 40001.0,
+  "modName": "Simple Sustenance",
+  "summary": "Your characters don&#39;t care about nutrients or calories or hydration, they just want to eat, drink and sleep. A simpler set of needs, basic sustenance, because not everything has to be complex. Get three square meals a day and a good night&#39;s sleep, and let the game worry about the details.",
+  "descriptionHtml": "[i]&#39;&#39;We got rooms and food. Drink, too. I cook. Ain&#39;t much else to tell.&#39;&#39;[/i] -- Orgnar the Talkative\r<br />\r<br />Your characters don&#39;t care about nutrients or calories or hydration, they just want to eat, drink and sleep. A simpler set of needs, basic sustenance, because not everything has to be complex. Get three square meals a day and a good night&#39;s sleep, and let the game worry about the details. This mod is based on Nord Needs by Griffinsclaw, but has been written completely from scratch.\r<br />\r<br />Food is divided into two types. Light meals will only stave off hunger for four hours, while regular meal swill stave off hunger for ten hours. Thus two regular meals and a light breakfast per day will sustain the character indefinitely.\r<br />\r<br />Drinks stave off thirst for six hours. All ales, meads, and wines count as drink, but distilled beverages do not. Players can also drink from most running creeks and streams, and a few other watering spots. Four drinks a day will sustain the character indefinitely. Drinking from water is accomplished through the Simple Sustenance menu.\r<br />\r<br />The character needs to sleep eight hours a night to avoid exhaustion, thus each hour of sleep will reduce exhaustion by three hours (includes the one hour of sleep). Skooma will also stave off exhaustion for two hours. \r<br />\r<br />Negative effects start to kick in after twenty four hours, and the characters become hungry, thirsty, and tired. They increase again after 48, and the characters become starving, dehydrated, and exhausted. The effects will never kill the characters however. Hunger imposes penalties to Health and Stamina regeneration, thirst imposes penalties to Health and Magicka regeneration, and exhaustion imposes penalties to Magicka and Stamina regeneration. The penalties are -25% for the first stage, and -50% for the second stage. The player will be informed two hours before any effects kick in, and status messages will displayed hourly afterwards. \r<br />\r<br />The &#34;Simple Sustenance&#34; power is added to the character when the mod is first loaded. The mod does not activate until the player uses this power the first time. Using this brings up the menu where various values can be configured. As a convenience, the global Timescale value can be adjusted through the settings. Timescale has not been changed from the default 20, but you may wish to lower it to 6 or 8 for a more realistic time scale.\r<br />\r<br />Does not require any DLC. Addons for both HearthFire and Dragonborn are included in the download. Do not install or activate the addons if you do not have these DLCs.\r<br />\r<br />[b][u]Installation[/u][/b]\r<br />\r<br />Install the SimpleSustenance.esp and SimpleSustenance.bsa files to your Skryim data directory.\r<br />Optionally install SimpleSustenanceDB.esp if you have the Dragonborn DLC.\r<br />Optionally install SimpleSustenanceHF.esp if you have the HearthFire DLC.\r<br />\r<br />[b][u]Notes[/u][/b]\r<br />\r<br />It may take up to one minute before the timer starts running after activating the mod by using the menu.\r<br />\r<br />All cooked foods and cheeses weighing more than half a pound are regular meals, while most other foods are light meals. Ingredients, raw meats, and most raw vegetables do not count as meals. Apples and potatoes are exceptions. For the addons, ash yams and baked goods are light meals, Morrowind beverages are drinks, and everything else follows the expected pattern. A recipe for cooked boar meat is included as a convenience.\r<br /> \r<br />Not all running water is potable. The only way to know for sure is to try to drink it. If you are successful there will be a drinking sound and a message. If all you get is silence, then the water was not potable. One notable example of this is the flowing water within Whiterun. It is not possible to fix this in the mod without making it overly complicated.\r<br />\r<br />Vampires do not need to eat or drink. Werewolves do need to sleep however, even though they don&#39;t gain any positive benefits from it. \r<br />\r<br />Before uninstalling this mod, settings should be set back to default, and make sure there are not negative effects, then make a clean save. When updating this mod, you must first perform a clean save before upgrading to a new version. A clean save means that you should select a &#34;New Save&#34;, and not an old save or a quicksave.\r<br />\r<br />[b][u]Conflicts[/u][/b]\r<br />\r<br />Simple Sustenance will conflict with any mod that modifies food effects. This includes all other needs mods. It shouldn&#39;t conflict with other realism or camping mods. It will not conflict with mods that add new foods or drinks to the game, although those additions will obviously not provide any benefits under this mod. Putting Simple Sustenance after the conflicting mod should fix any problems.\r<br />\r<br />[b][u]Change Log[/u][/b]\r<br />\r<br />Changes 1.1\r<br />- The needs timer now activates the first time the menu is used.\r<br />- Penalties increased slightly\r<br />- Addons available for Dragonborn and HearthFire",
+  "categoryId": "78",
+  "version": "1.1",
+  "author": "Brandybuck",
+  "createdUnix": "1376098080",
+  "updatedUnix": "1376247225",
+  "containsAdultContent": false,
+  "uploadedBy": "Brandybuck",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000045727",
+      "name": "Simple Sustenance - Old",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "16",
+      "fileName": "Simple Sustenance-40001-1-0.zip",
+      "uploadedUnix": "1376097899",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/765a447c96cc8c4951e2ccf1955b7a88403f7a7448be28ff4c5a1dd8ed3275b5/analysis/1407676327/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Simple%20Sustenance-40001-1-0.zip?fid=1000045727&ttl=1535820500&ri=8192&rs=8192&setec=8440e70e1b695688876479591ea6bfa2"
+    },
+    {
+      "fileId": "1000046134",
+      "name": "Simple Sustenance - Latest",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "19",
+      "fileName": "Simple Sustenance - Latest-40001-1-1.zip",
+      "uploadedUnix": "1376247225",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/df3deab30d2d5884582c6233808c64e6a2ad2b07d83804ca4d391cfbc0778998/analysis/1407678607/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Simple%20Sustenance%20-%20Latest-40001-1-1.zip?fid=1000046134&ttl=1535820501&ri=8192&rs=8192&setec=28ec77ac408e7dfe057254262bce3c8d"
+    }
+  ]
+}

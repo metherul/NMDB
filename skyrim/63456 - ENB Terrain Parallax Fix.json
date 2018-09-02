@@ -1,0 +1,48 @@
+{
+  "modId": 63456.0,
+  "modName": "ENB Terrain Parallax Fix",
+  "summary": "ENBs terrain parallax without nasty overlay transitions on meshes",
+  "descriptionHtml": "[center][size=4][font=vijaya] [color=DarkSalmon]\r<br />[url=https://www.facebook.com/Hein84-1145178992160965/]reach me on Facebook[/url][/color][line][/font][/size][/center]\r<br />This small mod allows you to use ENB&#39;s terrain parallax without having nasty texture transitions on landscape meshes in a very performance friendly way.\r<br />\r<br />Terrain parallax looks just great but it needs textures alpha channel to work...\r<br /> problem is, this one is already in use for overlay transitions on meshes...\r<br />\r<br />I solved the issue by adapting the alpha threshold levels on landscape meshes, the channel works for both cases now.\r<br />\r<br />\r<br />Let me know if I missed something ;)",
+  "categoryId": "74",
+  "version": "1.0",
+  "author": "Hein84",
+  "createdUnix": "1425686069",
+  "updatedUnix": "1425684598",
+  "containsAdultContent": false,
+  "uploadedBy": "Hein84",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000150415",
+      "name": "Terrain Parallax Fix - for Vivid Landscapes Users",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "458",
+      "fileName": "Terrain Parallax Fix - for Vivid Landscapes Users-63456-1-0.7z",
+      "uploadedUnix": "1425684341",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/723805857bab0dbcdfb6f7e1ff4eaa7abeb565b42c06cfec68d6093070a839a1/analysis/1425684365/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Terrain%20Parallax%20Fix%20-%20for%20Vivid%20Landscapes%20Users-63456-1-0.7z?fid=1000150415&ttl=1535852149&ri=8192&rs=8192&setec=9fe4f0d0f7d22612be5081b0402b2101"
+    },
+    {
+      "fileId": "1000150416",
+      "name": "Terrain Parallax Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4957",
+      "fileName": "Terrain Parallax Fix-63456-1-0.7z",
+      "uploadedUnix": "1425684598",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b6e6802e81fc2d0d39691e9c4b3d429f919f7668a53edae4e19dff7cc8fafb8f/analysis/1425684609/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Terrain%20Parallax%20Fix-63456-1-0.7z?fid=1000150416&ttl=1535852150&ri=8192&rs=8192&setec=48c08786ba1c56dd775f134661f6caf6"
+    }
+  ]
+}

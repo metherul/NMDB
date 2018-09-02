@@ -1,0 +1,32 @@
+{
+  "modId": 38189.0,
+  "modName": "Transmutation Plane",
+  "summary": "A small island in the middle of an ocean with strange Dwemer technology and giant valuables.",
+  "descriptionHtml": "The Plane of Transmutation is a lost plane whose portal was recently dug up near the Ruins of Bthalft. Opening the ancient door will transport you to a small island within a red ocean. On the island you will find various giant items that can be taken and added to your stash, but the real reason you\\'re here is for the ancient Dwemer technology that can turn items into gold, and gold into items! When you are done in the plane, simply exit through the dimensional door you entered from. Most items will respawn in the plane, given enough time.\r\n\r\nThere are two transmutation chests; the one on the left turns Septims into items, and the one on the right turns items into Septims.\r\n\r\nIn order to use the Items-to-Gold chest, simply open it and begin dropping items into the chest. Be -very- careful when you do this, as an item will be immediately transmuted into coins as soon as it is in. Unless you do not EVER intend to use an item again, do not drop it in. I am not responsible for anything you give up to the chest. Just be careful and go kind of slow if you are worried about mis-clicking an item.\r\n\r\nIn order to use the Gold-to-Items chest, open the chest and drop a single item in. The item must have a value, so an item worth 0 won\\'t work. Then, drop some coins into the chest and it will begin creating more of the item. The most recently deposited item will be the one that is copied, so dropping in a Dwarven arrow, then an apple will make the apple the item that will be copied. Removing the apple will still result in the copied item being an apple, so make sure you drop in the actual item again!\r\n\r\nTransmutation is based off of your speech level. Percentages are calculated like so:\r\n50 + (level * 0.5) / 100 = yield\r\n150 - (level * 0.5) / 100 = required\r\n\r\nFor example, a player with level 50 Speech will get 75% of the item\\'s value from turning it to gold, and will require 125% of the item\\'s value to create a new one. There is a perfect exchange rate at level 100. This is NOT meant to completely replace vendors, and as such, it does not yield any experience to the Speech skill, so you will still need to sell to vendors if you wish to level it; the chests are merely a way to get rid of stuff you don\\'t want and create more of the stuff you do want.\r\n\r\n|| --- Upcoming --- ||\r\nA new spell that allows the direct transmutation of items will be added soon. Whatever item the player is holding via grabbed or telekinesis will be able to be transmuted, provided it\\'s transmutation value is more than 0. One should not do this with quest items. Ever. Period. I have plans (as I am posting this) to also add a direct-to-item feature as well to go along with this one. Any thoughts about whether I should add this or not are welcome, just post a comment.\r\n\r\n|| --- Disclaimer --- ||\r\nDue to Skyrim\\'s half-assed ability to obtain an item\\'s gold value, any enchantments or enhancement on an item will not count toward the item\\'s value. This means that transmuting a Legendary-grade Banishing Daedric Warhammer (perhaps worth around 16k) will only turn into no more than 4k, as this is the item\\'s base value. I wish Bethesda would have fixed that before they gave up on Skyrim. They should still fix it anyway.\r\n\r\nI may add more features to the mod in the feature, perhaps more areas in the Plane, but I\\'m not sure.",
+  "categoryId": "89",
+  "version": "1.0",
+  "author": "Guff",
+  "createdUnix": "1373510763",
+  "updatedUnix": "1373510716",
+  "containsAdultContent": false,
+  "uploadedBy": "Guff1118",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000038343",
+      "name": "Transmutation Plane",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "23",
+      "fileName": "Transmutation Plane-38189-1-0.zip",
+      "uploadedUnix": "1373510716",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9bb155ae002ba9fbb5e6ddf93adb4fa84a2d04b583573679192d997527eaf35c/analysis/1407639004/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Transmutation%20Plane-38189-1-0.zip?fid=1000038343&ttl=1535818401&ri=8192&rs=8192&setec=d0c9aaa2220a374a4b26a74380fd4bf4"
+    }
+  ]
+}

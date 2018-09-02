@@ -1,0 +1,32 @@
+{
+  "modId": 32227.0,
+  "modName": "Trick Shot Perk for Archery",
+  "summary": "A perk that existed in the game\\'s files but wasn\\'t made playable.",
+  "descriptionHtml": "While poking through the Creation Kit, I looked at the perks and found a mysterious \\\"TrickShot\\\" that had conditions set up to be between Quick Shot and Bullseye in the Archery perk tree, but hadn\\'t actually been placed as a star in the skills menu. Since the perk already existed ready-made in CK, I haven\\'t changed anything about it and only made it obtainable. \r\n\r\nThe Trick Shot perk requires level 80 in Archery, is between Quick Shot and the final perk Bullseye, and it gives your shots a chance to knock the weapons out of opponent\\'s hands. Although the ingame description says it has a 25% chance, it seemed to be significantly less than that when I was testing it. I\\'m not sure of the reason for this, because looking at the effects it uses in the CK indicates that it should indeed be a 25% chance. I may or may not try to fix this later, assuming it\\'s not just some strange issue on my end.\r\n\r\nThis mod is also available on Steam Workshop:\r\nhttp://steamcommunity.com/sharedfiles/filedetails/?id=128369011",
+  "categoryId": "73",
+  "version": "1",
+  "author": "Bethesda Softworks",
+  "createdUnix": "1361593135",
+  "updatedUnix": "1361592974",
+  "containsAdultContent": false,
+  "uploadedBy": "BLOODGAZMS",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000012304",
+      "name": "TrickShot",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "TrickShot-32227-1.rar",
+      "uploadedUnix": "1361592974",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/914530ce5259cda814350e13d9c2379112a6761daeaf102a1423f3b03d683540/analysis/1407434190/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TrickShot-32227-1.rar?fid=1000012304&ttl=1535808356&ri=8192&rs=8192&setec=607d7c61a2569a5ed7d6bcd92c81d278"
+    }
+  ]
+}

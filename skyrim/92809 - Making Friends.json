@@ -1,0 +1,15 @@
+{
+  "modId": 92809.0,
+  "modName": "Making Friends",
+  "summary": "This txt file allows you to instantly create a follower out of any npc of your choice.",
+  "descriptionHtml": "-----------------\n<br />Description\n<br />-----------------\n<br />This txt file allows you to make almost any npc friendly. If the targeted npc has a certain voicetype (Commander, Sultry, or YoungEager) then they will also be available as a follower. There are two files: [b]immortalfollower.txt[/b] and [b]follower.txt[/b]. Both files set the targeted npc's level to that of the player and make the npc level up at the same rate as the player. They both also resurrect the npc just in case you accidentally killed someone you want to befriend. You can use this command whether you are in or out of combat because the file utilizes the command [b]stopcombat[/b]. So if you are in the middle of the fight and you use this command on an npc, that npc will sheath their weapon and befriend you. If you use [b]immortalfollower.txt[/b], then the npc you select will be, as the name implies, almost unstoppable. This is because the file sets the npc's magicka, health, stamina, healrate, staminarate, magickarate, and combathealthregenmult to 999999. I find this file useful if I do not want to kill a beautiful enemy along my travels. \n<br />----------------\n<br />Installation\n<br />----------------\n<br />Installing this mod requires two simple steps.\n<br />[list=1]\n<br />[*]Go to the location of your Skyrim installation  (If you use steam, then the directory is [b][u]C:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;skyrim[/u][/b])﻿\n<br />[*]Drag and drop the downloaded file into the directory\n<br />[/list]------\n<br />Use\n<br />------\n<br />Using this file requires you to use your command console. If I knew how to mod, I would find a way to turn this txt file into a spell.\n<br />[list=1]\n<br />[*]Open your command console by pressing the tide key (The tide key looks like this: [b]~[/b])\n<br />[*]Use your mouse to select the npc of your choice (make sure that the reference ID that is shown in the console is indeed that of the desired npc. There are times when I have selected a light source or other object obscuring the npc. If you do select something other than the npc, enter the [b]disable[/b] command to remove the object and try again)\n<br />[*]If you are using the [b]immortalfollower.txt[/b] file, then type [b]bat immortalfollower[/b] into the command console and press the [b]enter[/b] key\n<br />[*]If you are using the [b]follower.txt[/b] file, then type [b]bat follower[/b] into the command console and press the [b]enter[/b] key\n<br />[*]Press the tide key again to close the command console and enjoy your new friend\n<br />[/list]",
+  "categoryId": "40",
+  "version": "1.0",
+  "author": "TheSilverSmith",
+  "createdUnix": "1532989362",
+  "updatedUnix": "1532989362",
+  "containsAdultContent": false,
+  "uploadedBy": "TheSilverSmith",
+  "primaryFile": null,
+  "files": []
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 6631.0,
+  "modName": "Karliah Wife Companion - DELETED",
+  "summary": "Karliah as either a wife and/or follower.",
+  "descriptionHtml": "[center][img]http://img109.imageshack.us/img109/9251/kmain.jpg[/img]![/center]\r\n\r\n[center]Get [url=http://skyrimnexus.com/downloads/file.php?id=3806]Lisette Wife Companion[/url] too![/center]\r\n[center]Get [url=http://skyrimnexus.com/downloads/file.php?id=3983]Hroki Wife Companion[/url] too![/center]\r\n[center]Get [url=http://skyrimnexus.com/downloads/file.php?id=4001]Alva Wife Companion - Vampire[/url] too![/center]\r\n[center]Get [url=http://skyrimnexus.com/downloads/file.php?id=5979]Illdi[/url] too![/center]\r\n\r\nKarliah of the Nightingale Trinity, is another of my favorites. In my attempt to make her available for marriage and a follower, I discovered that she doesn\\'t have the voice dialogue for those two factions. You\\'ll only get a \\\"Hmm?\\\" from her and nothing else. This is equivalent to Oblivion\\'s \\\"I have no greeting.\\\" \r\n\r\nStill the same I made her available with different voice types to choose from. There is female Commoner, cowardly, Dunmer, eventoned, shrill and young_eager to choose from the most common females voicing. It would be nice to have a talented sound guy to cut/snip and redub some of Karliah\\'s voicing to make it acceptable for dialogue, because eventually someone will create another mod but most likely with new voicing. I think what makes her so popular is her voice.\r\n\r\nAll seven female types can and will marry you, but the cowardly and shrill will not follow. Can\\'t have everything :D\r\n\r\nThere needed factions and ranks are already set, just enter into the console \\'setrelationshiprank player 4\\' while targeting the NPC. That\\'s it.\r\n\r\nI didn\\'t do an AutoCalc on Karliah\\'s stats, she has good vanilla stats as you will see. She will start with Thief\\'s Guild Armor, but she is also carrying a set of Nightingale Armor too. Either you can take it or take her leather and equip her with the other.\r\n\r\nKarliah is essential and belongs to the Town of Riften Faction. The most important part of this mod is that you will not be able to break the Nightingale Quests with asking her to marry or follow. This Karliah is a \\\"New\\\" FormID and she is easily attained at the campsite next to Snow Veil Sanctum. The orginal Karliah FormID is just way to buggy and is bad enough trying to complete those quests, so I made a duplicate.\r\n\r\nInstall to your \\\\Skyrim\\\\Data\\\\ folder and use only one esp. For uninstalling, just delete the enclosed plugins.\r\n\r\nThe FormID\\'s for the Nightingale Armor is: \r\nequipitem 5DB86\r\nequipitem 5DB87\r\nequipitem 5DB88\r\nequipitem FCC0C\r\n\r\nIf currently married, and you want Karliah. Then target your current wife and enter the following.\r\nremovefac 51596\r\nplayer.removefac C6472\r\nresetquest 74793\r\nresetquest 21382\r\nsetstage 74793 10\r\n\r\nEnjoy.",
+  "categoryId": "66",
+  "version": "0.8",
+  "author": "Aoikani",
+  "createdUnix": "1327077219",
+  "updatedUnix": "1327077453",
+  "containsAdultContent": false,
+  "uploadedBy": "Aoikani",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "21471",
+      "name": "Karliah Wife Companion",
+      "version": ".8",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "235",
+      "fileName": "Karliah Wife Companion-6631--8.7z",
+      "uploadedUnix": "1327077453",
+      "modVersion": ".8",
+      "virusScanUrl": "https://www.virustotal.com/file/36a981f7c834c25573561090c1164c3f439bb59491e214385ef667fa0b37bb24/analysis/1406625726/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Karliah%20Wife%20Companion-6631--8.7z?fid=21471&ttl=1535764171&ri=8192&rs=8192&setec=9a4d57ad3e35547702c8bd441be039a2"
+    }
+  ]
+}

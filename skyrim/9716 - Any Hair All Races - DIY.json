@@ -1,0 +1,32 @@
+{
+  "modId": 9716.0,
+  "modName": "Any Hair All Races - DIY",
+  "summary": "This is a quick little mod that lets you use any hair pack for all races.  Even custom races added by mods. ",
+  "descriptionHtml": "This mod is no longer needed for Custom Races\r<br />========================================================================\r<br />Any Hair All Races by d_rail\r<br />========================================================================\r<br />\r<br />Description:\r<br />Allows you to add hairs to all races. This does not add any cool hairs. \r<br />But it lets you use hair packs from other mods or other sites for any \r<br />race as non-replacers. Any race includes &#34;Custom Races&#34; or any other new race added by a \r<br />mod. Females only right now, and a max of 20. This will probably change \r<br />when I get more time and there is a need. \r<br />\r<br />Install:\r<br />Use Nexus Mod Manager or copy esp and meshes folder into your data \r<br />folder. See &#34;How to use&#34; section for further info. \r<br />\r<br />Uninstall:\r<br />Delete\r<br />AnyHairAllRaces.esp\r<br />data/meshes/actors/character/character assets/AnyHair\r<br />\r<br />How to use:\r<br />This is a do-it-yourself mod. Find a hair mod that you like and copy the \r<br />textures folder from that mod into your data folder. Copy the nif files \r<br />from the meshes folder from that mod into \r<br />data/meshes/actors/character/character assets/AnyHair/female \r<br />There are example nifs in that folder right now so you might want to \r<br />delete them first, but look how I renamed them so you can match.  Rename \r<br />the nif files so that they match my example. Rename the hair.nif files so \r<br />that they are \r<br />---\r<br />&#34;hair (1).nif&#34;, &#34;hair (2).nif&#34;, ... &#34;hair (20).nif&#34; \r<br />---\r<br />Rename the hairline.nif files so that they are \r<br />---\r<br />&#34;hairline (1).nif&#34;, &#34;hairline (2).nif&#34;, ... &#34;hairline (20).nif&#34; \r<br />---\r<br />If you don&#39;t have 20 total replacer hairs, copy some of my example nifs back into that\r<br />folders so you have 20 hair.nif&#39;s and 20 hairline.nif&#39;s.  Game might crash if you\r<br />don&#39;t do this.\r<br />If the mod you want to use doesn&#39;t have hairline.nif files, just use the \r<br />ones included Any Hair All Races. There is also hair.tri file included in this mod\r<br />folder.  That should work with all female hairs.\r<br />\r<br />Tip: In windows, highlight all hair.nif files, right-click the first one and select &#34;Rename&#34;.  \r<br />Type &#34;hair&#34;  Highlight all hairline.nif files, right-click and rename &#34;hairline&#34;.\r<br />\r<br />Problems and Solutions:\r<br />1. Hair is purple - \r<br />You need to copy the textures from the hair pack you want to use\r<br />into your data folder.  The texture path is set by the nif file.  So put it where the \r<br />original author told you to put it.  Don&#39;t move it just for this mod.\r<br />2. Game crashes when selecting hair -\r<br />Make sure you have 20 hair.nif files and 20 hairline.nif files.\r<br />\r<br />Compatible mods:\r<br />Custom Races - [url=http://skyrim.nexusmods.com/downloads/file.php?id=8720]http://skyrim.nexusmods.com/downloads/file.php?id=8720[/url]\r<br />\r<br />Disclaimer:\r<br />This is a bad hack.  I find it messes up some hairs.  Hairs usually come with a tri and nif file for each hair.  Sometimes, multiple nifs.  I used the same tri file for all nifs in the pack.  It is better to use the original mod authors esp.  If you want to use their hairs on races they were not meant to, then it would be better to edit their esp.  Change the &#34;applicable races&#34; to a formlist that includes your race.  Or do what I did and set &#34;applicable races&#34; to &#34;none&#34;.  As always, ask permission before uploading someone else&#39;s plugin.\r<br />\r<br />Hopefully this won&#39;t be needed for custom races soon.  But works ok for putting human/elf hairs on beast races.",
+  "categoryId": "26",
+  "version": "v1.1",
+  "author": "d_rail",
+  "createdUnix": "1329280889",
+  "updatedUnix": "1329280969",
+  "containsAdultContent": false,
+  "uploadedBy": "d_rail1602",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "31366",
+      "name": "Any Hair All Races v1_1",
+      "version": "v1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "71",
+      "fileName": "Any Hair All Races v1_1-9716-v1-1.7z",
+      "uploadedUnix": "1329280969",
+      "modVersion": "v1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/ec5cd9f6cef5bdbe28cb5fd858a6a612598bfd82d0c90d6f22635cefcc6cb3f2/analysis/1406683408/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Any%20Hair%20All%20Races%20v1_1-9716-v1-1.7z?fid=31366&ttl=1535769496&ri=8192&rs=8192&setec=390d6302ae0d234e8ba91c395d13ab21"
+    }
+  ]
+}

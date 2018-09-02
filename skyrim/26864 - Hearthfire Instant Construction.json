@@ -1,0 +1,32 @@
+{
+  "modId": 26864.0,
+  "modName": "Hearthfire Instant Construction",
+  "summary": "A selection of batch files that will instantly add all of the needed materials to build the Hearthfire homes. No muss, no fuss, just instant construction materials.",
+  "descriptionHtml": "[b]Purpose[/b]\r\nI don\\'t know about you, but I\\'d rather spend my time slaying dragons than forging nails and buying lumber to build my new home. To that end I created several batch files to instantly add all of the needed materials to build and furnish the various Hearthfire player homes.\r\n\r\n[b]What\\'s a Batch File?[/b]\r\nA batch file, or bat for short, is a simple word document that can input a serious of console commands with a single command. They\\'re a great way to perform dozens of commands without actually having to type them all out.\r\n\r\n[b]Warnings[/b]\r\nThere are two things to keep in mind when using these batch files.\r\n[*]I\\'ve used the player.additem command for these files. This means that all of the materials are going to be added directly to your personal inventory. For this reason I really recommend that you don\\'t execute the batch file until you\\'re standing directly in front of your drafting and construction table. These materials are heavy and will likely overburden you!\r\n[*]These batch files have been written on the assumption that Hearthfire is the 3rd mod in your loading order. If this isn\\'t the case you\\'ll have to go in and edit the files yourself! I\\'ve clearly commented all of the commands so edits shouldn\\'t take that long.\r\n\r\n[b]Installation & Use[/b]\r\nIf you know how to use batch files, just skip to the listing. If you\\'re not sure how to use them, just follow these easy instructions.\r\n[list=1][*]Download the zip file.\r\n[*]Unzip the files to your [b]main Skyrim directory[/b] (this is the directory where TESV.exe lives).\r\n[*]Stat up skyrim and then enter ~ to bring up the console.\r\n[*]Type \\\"bat filename\\\", where filename is the name of the batch file you want to execute. For example, if I wanted to add materials for the Armory I\\'d type \\\"bat Con-EWArmory\\\".\r\n[*]You\\'re done! All of the materials have been added to your personal, inventory![/list]\r\n\r\n[b]Batch File Names[/b]\r\nCon-EWArmory - Adds all materials to build and furnish the armory.\r\nCon-EWKitchen - Adds all materials to build and furnish the kitchen.\r\nCon-EWLibrary  - Adds all materials to build and furnish the library.\r\nCon-Heljarchen - Adds all materials to build and furnish Heljarchen.\r\nCon-Lakeview - Adds all materials to build and furnish Lakeview Manor.\r\nCon-NWAlchemy - Adds all materials to build and furnish the alchemy tower.\r\nCon-NWStorage - Adds all materials to build and furnish the storage room.\r\nCon-NWTrophy - Adds all materials to build and furnish the Trophy Room.\r\nCon-Windstad - Adds all materials to build and furnish Windstad Manor.\r\nCon-WWBedrooms - Adds all materials to build and furnish the bedrooms.\r\nCon-WWEnchanter - Adds all materials to build and furnish the enchanting tower.\r\nCon-WWGreenhouse - Adds all materials to build and furnish the greenhouse.\r\n\r\nNote that the bat command isn\\'t case sensitive.\r\n\r\n[b]Closing Remarks[/b]\r\nIf I\\'ve missed any materials or made a mistake please let me know in the comments. Upvoting is appreciated but not necessary. I just figured that since I\\'ve already written the files I might as well share them.",
+  "categoryId": "40",
+  "version": "1.0",
+  "author": "Save-vs-DM",
+  "createdUnix": "1352859029",
+  "updatedUnix": "1352859064",
+  "containsAdultContent": false,
+  "uploadedBy": "SavevsDM",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "99359",
+      "name": "Instant Construction Batch Files",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Instant Construction Batch Files-26864-1-0.zip",
+      "uploadedUnix": "1352859064",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4ae3f91034f33f4e3652120cd18b2aa8b124b24fd6f2521939643da4f23a419b/analysis/1407262442/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Instant%20Construction%20Batch%20Files-26864-1-0.zip?fid=99359&ttl=1535799221&ri=8192&rs=8192&setec=bf7945cce3f2f88f5a04468f605be444"
+    }
+  ]
+}

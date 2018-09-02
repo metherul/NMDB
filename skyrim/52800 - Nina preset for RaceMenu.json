@@ -1,0 +1,32 @@
+{
+  "modId": 52800.0,
+  "modName": "Nina preset for RaceMenu",
+  "summary": "Nina preset for CharGen",
+  "descriptionHtml": "I finally found an easier way to recreate Nina/Aurora\r<br />\r<br />Required Mods (Download and install them in this order)\r<br />\r<br />Tools:\r<br />\r<br />SKSE: http://skse.silverlock.org/\r<br />SkyUI: http://www.nexusmods.com/skyrim/mods/3863/?\r<br />RaceMenu Mod: http://skyrim.nexusmods.com/mods/29624//?\r<br />ShowRaceMenu Precache Killer: http://www.nexusmods.com/skyrim/mods/33526/?\r<br />\r<br />Models & Textures:\r<br />\r<br />Enhanced Character Edit: http://www.nexusmods.com/skyrim/mods/12951/?\r<br />Download and install the old version 0.85, I recommend  disabling the .esp after installing the mod]\r<br />\r<br />Aurora/ Eryniel Textures:\r<br />http://www.nexusmods.com/skyrim/mods/52115/?\r<br />or\r<br />http://www.nexusmods.com/skyrim/mods/30175/?\r<br />\r<br />Both uses the same body textures. Download the version which correspond to the body shape that you are using and extract the textures from Aurora or Eryniel]\r<br />\r<br />Location of Eryniel textures: Data/textures/actors/character/Eryniel [select only the .dds files]\r<br />Location of Aurora Textures: Data/textures/Actors/character/AuroraFollower [there are 3 folders, 2 of them are for different body types, open the one you use and copy its textures]\r<br />\r<br />Place the textures at: Data/textures/Actors/character/female\r<br />\r<br />The Eyes Of Beauty: http://www.nexusmods.com/skyrim/mods/13722/?\r<br />Brows: http://www.nexusmods.com/skyrim/mods/30411/?\r<br />\r<br />Instructions:\r<br />\r<br />After downloading and installing all mods mentioned above.\r<br />Follow these steps:\r<br />\r<br />1. Download my mod and place it at data/skse/plugins/chargen/presets\r<br />2. Open Skyrim using SKSE\r<br />3. Load any working save file\r<br />4. Open the console\r<br />5. Type showracemenu\r<br />6. Select the Nord Race\r<br />7. Look for the slide option &#34;preset slot&#34;\r<br />8. Select the slot 0 and press F9, this should load my character face.\r<br />9. Customize your character as you please\r<br />\r<br />Credits:\r<br />\r<br />All the credit goes to the mod&#39;s authors.",
+  "categoryId": "43",
+  "version": "",
+  "author": "shadowfake aka taveira",
+  "createdUnix": "1396964538",
+  "updatedUnix": "1396964476",
+  "containsAdultContent": false,
+  "uploadedBy": "shadowfake",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000104135",
+      "name": "Slot Zero - Nina Preset",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Slot Zero - Nina Preset-52800-.rar",
+      "uploadedUnix": "1396964476",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/5318f14fa46316f1a4a1ce3b5874df8319d861d46ac4555b6c610502f8a67863/analysis/1408011789/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Slot%20Zero%20-%20Nina%20Preset-52800-.rar?fid=1000104135&ttl=1535836004&ri=8192&rs=8192&setec=45ac5b847466e98e0fb066c8bc64227b"
+    }
+  ]
+}

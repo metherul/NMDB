@@ -1,0 +1,32 @@
+{
+  "modId": 26322.0,
+  "modName": "SEU - Skyrim Enhanced Unlocking - ENGLISH",
+  "summary": "This mod allows, through a menu system called by a spell to configure the following features: \r\n- Configure the lockpicking system.\r\n- Add more unlocking modes.",
+  "descriptionHtml": "[size=100][color=red][b]SEU - Skyrim Enhanced Unlocking[/b][/color][/size]\r\n\r\nVersion : 1.24\r\n\r\n[center][url=http://www.skyrimgems.com][img]http://i.imgur.com/sSbds.png[/img][/url][/center]\r\n\r\n[color=red][b]SKSE is strongly recommanded to avoid some bugs. I left the non SKSE version because I was asked to.[/b][/color]\r\n\r\nVersion française disponible sur le site de la \\\"Confrérie des traducteurs\\\").\r\n\r\nEnglish is not my native language (I\\'m french).If you have suggestions to replace some sentences in the mod, let me know in the commentary page.\r\n\r\nDescription:\r\n============ \r\nThis mod allows, through a menu system called by a spell to configure the following \r\n\r\nfeatures: \r\n1)The picking system: \r\n\r\n     - Real-time Lockpicking (automatic talent test)\r\n     - Vanilla lockpicking\r\n\r\n2)additional unlocking modes :\r\n\r\n     - Using one handed and two handed weapons\r\n     - Using bows\r\n     - With a vial of acid (available from some dealers)\r\n     - Using a fireball spell\r\n     - Using Ondusi\\'s Unhinging spell (available from some dealers)\r\n     - Using the FUS RO DAH shout.\r\n\r\nAn in-game menu can be called with an alteration spell.\r\n\r\nYOU MUST ACTIVATE THE FEATURES ADDED BY THIS MOD IN THE MENU. \r\n\r\n[b]Formulas used in Skyrim Enhanced Unlocking :[/b]\r\n\r\nEach SkillTotal value is calculated as follow :\r\nSkillTotal = SkillValue * (1 + (SkillMod / 100)) * (1 + (SkillPowerMod))\r\n\r\n[b]Formulas used by the realtime lockpicking with animation :[/b]\r\n       -\tUnlocking : \r\n      Player will open novice locks if he has the novice perk, apprentice locks with apprentice perk…\r\n      No perk applied : (LockpickingSkillTotal + randomint between -20 and + 10) – LockLevel > 0\r\n\r\n       -\tBreaking a lockpick (if player doesn’t have skeleton key or unbreakable perk)\r\n      randomint(50;100) – (LockpickingSkillTotal / 2) > 40\r\n\r\n[b]Formulas used in bashing part of the mod :[/b]\r\nThe following formulas are compared with the lock level depending on the bashing type.\r\n       -\tWith one handed weapons : (Stamina / 10) + OneHandedSkillTotal – 10\r\n       -\tWith two handed weapons : (Stamina / 10) + TwoHandedSkillTotal – 10\r\n       -\tWith acid vials : (AlchemySkillTotal * 2) – 40\r\n       -\tWith daggers : (LockpickingSkillTotal – 10) / 2 (with a max equal to 25)\r\n       -\tWith bows or crossbows :\r\n               o\tDistance > 200 units : MarksmanSkillTotal – 10\r\n               o\tDistance <= 200 units : ((Stamina – 100)/20) + MarksmanSkillTotal – 10\r\n       -\tWith Ondusi’s unhinging : AlterationSkillTotal\r\n       -\tWith Fireball spell : DestructionSkillTotal – 10\r\n       -\tWith Unrelenting Force (only doors) : PlayerLevel - 10\r\n\r\nIf the calculated value is greater than the lock level, the lock will break and the door or chest opens.\r\n\r\nHow to install :\r\n================\r\n- Put the then files in the DATA folder of the archive in the DATA folder of Skyrim.\r\n- Activate the mod in the launcher.\r\n\r\nHow to uninstall :\r\n==================\r\n- Desactivate the mod in the launcher.\r\n- Remove the SEU.esp and SEU.bsa files from your hard drive.\r\n\r\nThanks to Bethesda for the game.\r\n\r\nYou can check out my next mod there :\r\nhttp://www.confrerie-des-traducteurs.fr/forum/viewtopic.php?f=189&t=12270&start=0\r\nThe forum is in french but you can use google translate.\r\nI\\'ll release an english version too.\r\n\r\nYou can also chek the mods of Sagittarius22, if you want more immersion...\r\nThere are both english and french versions.\r\n",
+  "categoryId": "24",
+  "version": "1.24",
+  "author": "Gerauld",
+  "createdUnix": "1351781409",
+  "updatedUnix": "1351781467",
+  "containsAdultContent": false,
+  "uploadedBy": "Gerauld",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "96999",
+      "name": "SEU V1DOT24 ENGLISH",
+      "version": "1.24",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "746",
+      "fileName": "SEU V1DOT24 ENGLISH-26322-1-24.7z",
+      "uploadedUnix": "1351781467",
+      "modVersion": "1.24",
+      "virusScanUrl": "https://www.virustotal.com/file/b4446fef207702d0bf47fd09ea9794bb11b008437a1bfd04ae029013915adadc/analysis/1407245174/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SEU%20V1DOT24%20ENGLISH-26322-1-24.7z?fid=96999&ttl=1535798307&ri=8192&rs=8192&setec=7ce37543a9716ebc9db0ceab64b9dfe1"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 60587.0,
+  "modName": "Arrow and bolt tweaks",
+  "summary": "Extremely simple mod that increases the maximum amount of arrows that can be attached to the PC/NPCs to 6, increases the duration of arrows sticking in charachters to 300 seconds and finally removes the missile tag from ice spikes so that these changes don&#39;t apply to them (If you are like me and don&#39;t like running around with 6 huge icicles",
+  "descriptionHtml": "[b][u]What it does[/u][/b]\r<br />\r<br />Extremely simple mod that increases the maximum amount of arrows that can be attached to the PC/NPCs to 6, increases the duration of arrows sticking in charachters to 300 seconds and finally removes the missile tag from ice spikes, so that these changes don&#39;t apply to them (If you are like me and don&#39;t like running around with 6 huge icicles stuck to your head).\r<br />\r<br />This isn&#39;t more than 5 minutes worth of work (loading times for the ck included), but I figured it might be useful to some so I might aswell upload it.\r<br />While there are similar mods out there none of them exclude the ice spikes from the changes, which was very annoying for me as I hate the look of huge ice spikes being stuck in my body for 300 seconds.\r<br />\r<br />This .esp changes that by switching the missile tag in the projectile window to the beam tag, which forces the spikes to behave like other magic effects (for example the shock spell). By doing this the projectile is not rendered midair anymore and does not get stuck in bodies, but it still get&#39;s stuck on all the other sufaces like walls rocks etc.\r<br />This isn&#39;t the most elegant way but the downsides are minor to me, you&#39;ll have to decide for yourself. \r<br />\r<br />(Works for crossbow bolts aswell, but Dawnguard isn&#39;t requiered)\r<br />\r<br />[b][u]Compatibility[/u][/b]\r<br />\r<br />This should be compatible with everything but other mods that basicaly do the same. \r<br />&gt;Mods that apply other arrow tweaks are fully compatible.\r<br />\r<br />[b][u]Installation[/u][/b]\r<br />\r<br />Simply drop the .esp in your data folder and activate it or use NMM.\r<br />\r<br />[u][b]Deinstallation[/b][/u]\r<br />\r<br />As simple as the installlation, remove the .esp or deinstall using NMM\r<br />This file uses no scripts, it&#39;s just an .esp and I even checked it with TES Edit just in case.\r<br />\r<br />[u][b]Update:[/b][/u]\r<br />\r<br />Uploaded an optional file. See file description for changes.\r<br />\r<br />tristan1975/T.A.Z (No, I&#39;m not born in 1974 :D)",
+  "categoryId": "24",
+  "version": "1",
+  "author": "TAZ",
+  "createdUnix": "1417975907",
+  "updatedUnix": "1418067625",
+  "containsAdultContent": false,
+  "uploadedBy": "tristan1974",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000138088",
+      "name": "Arrow Tweaks",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Arrow Tweaks-60587-1.rar",
+      "uploadedUnix": "1417975346",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/e98fd99e06295efe412f1510c8cd645cd48a12cfffcadc1ae4fefdf881812d4f/analysis/1417975383/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Arrow%20Tweaks-60587-1.rar?fid=1000138088&ttl=1535848411&ri=8192&rs=8192&setec=ea5daa3ac697f0df9255d80dc872bcbe"
+    },
+    {
+      "fileId": "1000138201",
+      "name": "Optional version",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Optional version-60587-1.rar",
+      "uploadedUnix": "1418067625",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/3d508873c819ec8dac22c6e5c9921f5cfe83725c86093357e1cc5e46543a5887/analysis/1418067662/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Optional%20version-60587-1.rar?fid=1000138201&ttl=1535848411&ri=8192&rs=8192&setec=bc8346724ffff479138fed3506f71985"
+    }
+  ]
+}

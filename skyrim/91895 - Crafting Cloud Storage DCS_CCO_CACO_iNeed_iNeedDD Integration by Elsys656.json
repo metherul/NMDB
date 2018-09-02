@@ -1,0 +1,48 @@
+{
+  "modId": 91895.0,
+  "modName": "Crafting Cloud Storage DCS_CCO_CACO_iNeed_iNeedDD Integration by Elsys656",
+  "summary": "Merges Crafting Cloud Storage adding some polish and fixing the returned items bug to only return items you've requested from storage! Also fixes Salt Pile bug in addition to supporting iNeed Dangerous Diseases and Complete Cooking and Alchemy Overhaul. Fully integrates added crafting stations.",
+  "descriptionHtml": "[b]Crafting cloud storage and retrieval is known as Dienes Crafting Storage internally referred to as DCS or Dienes Crafting Storage from here on[/b]\n<br />\n<br />1st this patch supersedes Dienes Crafting Storage making that mod unnecessary as this does what that does without an extra stub quest all credits to Dienes for the original implementation.\n<br />   ﻿- Modifies Dienes perk to integrate properly with CACO under expanded crafting or simple crafting options\n<br />   ﻿- Adds a multi-threaded item transfer mechanism to track what items the player requested from storage and send them reliably back or not on     ﻿  crafting station exit.\n<br />   ﻿- Fixes salt pile bug\n<br />CCOR\n<br />   ﻿- Includes bugfix for Dienes and CCO to prevent crash related to the original mod cleans unused script properties\n<br />CACO\n<br />   ﻿-Full integration with added crafting stations Retorts request only ingredients that can be used in a retort for example\n<br />   ﻿-Includes physician table from iNeed DD patch no longer uses a spell for conversion script is integrated into CACO functionality\n<br />   ﻿-Supports both advanced recipes and simple ones\n<br />   ﻿-Balance tweak to Mammoth Tusk Powder and Bone-meal recipes falls in line with General Stores mortar implementation\n<br />General Stores\n<br />   ﻿-Lets you use CACO mortar and pestle to create GS mortar and pestle recipes\n<br />\n<br />Supersedes the following mods: \n<br />https://www.nexusmods.com/skyrim/mods/58924 Nifty Compatibility Patch\n<br />https://www.nexusmods.com/skyrim/mods/33963 Crafting Cloud Storage and Retrieval by Dienes\n<br />https://www.nexusmods.com/skyrim/mods/70430/ CACO - iNeedDDPatch by Spacegorilla\n<br />\n<br />[b]All credits to their subsequent mod owners,[/b] I've personally changed some original scripts to suit my vision on how these mods can be made to work together in a [sic] better way. No intentional balance changes to the mods themselves have been made other than to integrate the General Stores mortar recipes with CACO as they both contained methods of obtaining the two aforementioned ingredients.\n<br />\n<br />The alchemy table storage has been changed to include an overridden General Stores master chest script that allows partial functionality for this table since such a wide variation of ingredients are needed by CACO for retort recipes.\n<br />\n<br />A message box will ask on crafting exit if you would like to return those items retrieved an skse plugin is needed to assist in the tracking of inventory widely used and trusted by other mods PapyrusUtil found here https://www.nexusmods.com/skyrim/mods/58705/\n<br />\n<br />[b]This mod is somewhat script heavy in execution and can cause stuttering although ive tried to minimize it at some number of items, my computer is arguably a potato for a skyrim modded installation I cant even run enb of any kind. So if you find that your game has glitches such as missing items or things taking too long to move back to storage discontinue use it took me a while to experience this. I am no longer using this or supporting it however you can still try it as it does what is described on the tin although in a way that is script heavy in my install.[/b]",
+  "categoryId": "94",
+  "version": "1.1",
+  "author": "Elsys656",
+  "createdUnix": "1528858600",
+  "updatedUnix": "1529197717",
+  "containsAdultContent": false,
+  "uploadedBy": "Elsys656",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000275139",
+      "name": "Crafting Cloud Storage_DCS",
+      "version": "1.0",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "31",
+      "fileName": "Crafting Cloud Storage_DCS-91895-1-0.7z",
+      "uploadedUnix": "1528858578",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4d33c070ca86165e8bae3df739a3cd53d5b33e21a635c3bc71035aa0336d3e82/analysis/1528859350/",
+      "changelogHtml": " Dienes quest removed\n<br />Dienes perk added within player alias stub of CACO main quest\n<br />Utility function script for layer between alchemy related crafting and main General stores added as quest script to CACO main quest\n<br />Script is referenced as property for each dienes added perk and the original mortar and pestle perk added by CACO\n<br />Unused checks and properties removed and cleaned from dienes perk\n<br />Message box related sending of items set up dienes send back global removed\n<br />chests for item tracking added in caco cell\n<br />auto sorting chest of general stores used to make sure items end back where they belong\n<br />under extremely large amounts of alchemy ingredients/potions you may encounter stack dumping errors within papyrus this is expected and unfortunately while I tried to mitigate some of this through throttling and threading its going to happen from time to time\n<br />functions for requesting items are fully multithreaded for performance reasons these threads should not persist and die when they have no work to complete\n<br />no storage utility added form tags persist into player save so long as you allow any sorting to finish before saving your game after using a crafting station\n<br />or else the tags will be removed from the save whenever the sort has a chance to fully complete\n<br />physicians table script attached to caco perk instead of within magic effect\n<br />aleCaco_closeChestScript error resolved pointed to a container script instead of to an object reference as it should have\n<br />Alchemy options removed from dienes perk handled instead within CACO perk with fallback for the simple workbench options\n<br /><br />Effectively supercedes dienes mod the caco_ineeddd patch and niftys fix <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Crafting%20Cloud%20Storage_DCS-91895-1-0.7z?fid=1000275139&ttl=1535882709&ri=8192&rs=8192&setec=3b1b0112d47b2943d819266bd8d015f5"
+    },
+    {
+      "fileId": "1000275434",
+      "name": "Crafting Cloud Storage_DCS",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "32",
+      "fileName": "Crafting Cloud Storage_DCS-91895-1-1.7z",
+      "uploadedUnix": "1529197717",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/8e37b996ad5aff27ef0195de7539c155b76a4b9271c7974eb6fc81d5055ce513/analysis/1529197863/",
+      "changelogHtml": " Included fixes bug 1 checking for possible none within flst smithingnew to fix transfer bugs <br/> \n Includes optional patch to support bow stringer from nock 2 tip found in Optional DCS Extensions <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Crafting%20Cloud%20Storage_DCS-91895-1-1.7z?fid=1000275434&ttl=1535882709&ri=8192&rs=8192&setec=41900f858896414d67c30fd60e8ac499"
+    }
+  ]
+}

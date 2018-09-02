@@ -1,0 +1,48 @@
+{
+  "modId": 29884.0,
+  "modName": "Volkihar Waiters",
+  "summary": "During the quest Bloodline, there are two thralls serving drinks in Castle\r\nVolkihar. At the end of the quest, they are disabled. This mod keeps them\r\nenabled.",
+  "descriptionHtml": "Volkihar Waiters v2\r\n===================\r\n\r\nDuring the quest Bloodline, there are two thralls serving drinks in Castle\r\nVolkihar. At the end of the quest, they are disabled. This mod keeps them\r\nenabled.\r\n\r\nAlso allows feeding on them, as on the other cattle.\r\n\r\n\r\nRequirements\r\n============\r\n\r\n- Dawnguard\r\n\r\n\r\nInternals\r\n=========\r\n\r\nThis mod works by tying the two thralls to a different parent marker\r\n(DLC1VCTableThrallEnableParent instead of DLC1VQ02FeastEnableMarker). This\r\nensures that the waiters are disabled along with the caged thralls during VQ08,\r\nif storming the castle with the Dawnguard.\r\n\r\nTo allow feeding, the two thralls are modified to add them to the\r\nDLC1ThrallFaction.\r\n\r\n\r\nChanges\r\n=======\r\n\r\nVersion 2: You can now feed on the thralls.\r\nVersion 1: First version.\r\n",
+  "categoryId": "33",
+  "version": "2",
+  "author": "me",
+  "createdUnix": "1358095338",
+  "updatedUnix": "1358103225",
+  "containsAdultContent": false,
+  "uploadedBy": "backtrace",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000002076",
+      "name": "Volkihar Waiters",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Volkihar Waiters-29884-1.zip",
+      "uploadedUnix": "1358095361",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/a505b81e4e22f6372e92778f2042f6b69b397790ae8ac48e6b415873da19868f/analysis/1407351305/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Volkihar%20Waiters-29884-1.zip?fid=1000002076&ttl=1535804348&ri=8192&rs=8192&setec=e4c76afee0330f09d71efa36e535aee0"
+    },
+    {
+      "fileId": "1000002099",
+      "name": "Volkihar Waiters v2",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Volkihar Waiters v2-29884-2.zip",
+      "uploadedUnix": "1358103225",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/08a1c335316a7d2c6c00ea18e3e201989366ec80eeef2425bdd7ce6e0b4433ef/analysis/1407351556/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Volkihar%20Waiters%20v2-29884-2.zip?fid=1000002099&ttl=1535804349&ri=8192&rs=8192&setec=225c6395acac2ecdf13ae9d9dfc68ac2"
+    }
+  ]
+}

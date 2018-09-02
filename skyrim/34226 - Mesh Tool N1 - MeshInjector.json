@@ -1,0 +1,32 @@
+{
+  "modId": 34226.0,
+  "modName": "Mesh Tool N1 - MeshInjector",
+  "summary": "This program allow you to add to a NIF file any mesh you like from OBJ file.",
+  "descriptionHtml": "[color=lightblue][b]Name:\t\tMesh Tool N1 - MeshInjector[/b][/color]\r<br />Data:\t\t01/04/2013\r<br />Version:\t1.00\r<br />Author:\t\tAnton\r<br />\r<br />\r<br />[heading][color=yellow]Description:[/color][/heading]\r<br />This program allow you to add to a NIF file any mesh you like. \r<br />You just need to export your object from favorite 3D editor to common OBJ format. This tool change only [b][u][NiTriShapeData][/u][/b] block, any other NIF blocks (shaders, lights, transperansy, animation...) remains same.\r<br />(You can use it with conjunction with my another tool: &#34;[url=http://skyrim.nexusmods.com/mods/34373/]SkinInjector[/url]&#34;)\r<br />\r<br />Video Tutorial for 3Dmax users from [b]Marthgun[/b] (~27:00 is actually about &#34;MeshInjector&#34;):\r<br />[youtube]C4aLLDwg2rc[/youtube]\r<br />\r<br />[heading][color=yellow]Main features:[/color][/heading]\r<br />- mass injection: one mesh to pack of NIF files\r<br />- let use any 3D editor\r<br />- fast work\r<br />\r<br />[heading][color=yellow]How to use it:[/color][/heading]\r<br />This program is supposed to be used at command prompt. (Start-&gt;Run-&gt;&#34;cmd.exe&#34;)\r<br />If you run the tool without parameters you will see a little help about it.\r<br />\r<br />[color=lightblue][b]---&gt; Example: &#34;MeshInjector   OldHelmet.NIF   NewHelmet.OBJ -q&#34;[/b][/color]\r<br />You will get new NIF file with prefix &#34;_new&#34;: &#34;OldHelmet_new.NIF&#34; with new mesh inside.\r<br />\r<br />[heading][color=yellow]List of parameters:[/color][/heading]\r<br />First  - name of NIF file (program will try to inject new mesh here)\r<br />Second - name of OBJ file (here must be your new model)\r<br />Third  - (optional) &#34;-q&#34; - remove ALL questions and confirmations (and force program to use &#34;default&#34; options)\r<br />\r<br />[heading][color=yellow]Default options is:[/color][/heading]\r<br />- use &#34;normal&#34; algorithm to generate UV map (try always use this option)\r<br />- flip UV map on V coordinate\r<br />- make injection even if vertex number of new model is not equal to the object already existed in NIF file\r<br />\r<br />[heading][color=yellow]How program decide what [NiTriShapeData] block to use:[/color][/heading]\r<br />New object will be imported to NIF file if program could find block [NiTriShape] with name:\r<br />- equal to name of OBJ file\r<br />- or equal to name of mesh inside OBJ file\r<br />[color=magenta](NOTE: name is case sensitive&#33;)[/color]\r<br />\r<br />\r<br />[heading][color=yellow]Issues:[/color][/heading]\r<br />(none found, ... yet :) )\r<br />\r<br />\r<br />[heading][color=yellow]License:[/color][/heading]\r<br />Use this tools as you like, just don&#39;t forget to mention me like the author ;)\r<br />\r<br />\r<br />[heading][color=yellow]Credits:[/color][/heading]\r<br />Niftools team for NifSkope\r<br />Microsoft for Visual Studio 2010 Express\r<br />Bethesda for the Game\r<br />",
+  "categoryId": "39",
+  "version": "1.00",
+  "author": "Anton",
+  "createdUnix": "1364822621",
+  "updatedUnix": "1364822421",
+  "containsAdultContent": false,
+  "uploadedBy": "Anton0028",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000021680",
+      "name": "MeshInjector_v1_00",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "759",
+      "fileName": "MeshInjector_v1_00-34226-1-00.zip",
+      "uploadedUnix": "1364822421",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/6ddd9b6681d3d30bfad8b152ccddac76d355933d044e9ed5c3f9445a089d6802/analysis/1407499630/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MeshInjector_v1_00-34226-1-00.zip?fid=1000021680&ttl=1535811899&ri=8192&rs=8192&setec=e89b78b1d094dac17874e75b7c6838c8"
+    }
+  ]
+}

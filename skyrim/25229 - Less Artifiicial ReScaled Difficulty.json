@@ -1,0 +1,48 @@
+{
+  "modId": 25229.0,
+  "modName": "Less Artifiicial ReScaled Difficulty",
+  "summary": "Solves the main causes of Skyrim\\'s balance and Scaling problems. Each increase in rank of difficulty is a tradeoff. You gain 10% damage for each rank, while the enemy gains 25%.\r\nMaster Vanilla: Player 50%, Enemy 200%\r\nMaster ReScaled: Player 140%, Enemy 200%",
+  "descriptionHtml": "Solves the main causes of Skyrim\\'s balance and Scaling problems. Each increase in rank of difficulty is a tradeoff. You gain 20% damage for each rank, while the enemy gains 50%.\r\nMaster Vanilla: Player 50%, Enemy 200%\r\nMaster ReScaled: Player 140%, Enemy 200%\r\n\r\nIncreasing the Enemies Health and the Damage they deal is probably the laziest and worse way possible to increase the difficulty of the game. It makes it impossible to balance the game around both Adept and Master (you can only pick one). Destruction and Two handed weapons which requires you to kill enemies fast becomes so weak it\\'s no longer viable in vanilla. People end up making mods to compensate like making destruction scale 2x or 3x. \r\n\r\nAll of that is actually unnecessary if you make the difficulty settings scale in favor of both player and enemy (just more in favor of one than the other), instead of creating this wide artificial gap between damage given and taken.\r\n\r\nfDiffMultHPByPCVE 0.5\r\nfDiffMultHPByPCE 0.75\r\nfDiffMultHPbyPCN 1\r\nfDiffMultHPbyPCH 1.2\r\nfDiffMultHPByPCVH 1.4\r\n\r\nfDiffMultHPToPCVE 0.75\r\nfDiffMultHPToPCE 0.85\r\nfDiffMultHPToPCN 1\r\nfDiffMultHPToPH 1.5\r\nfDiffMultHPtoPCVH 2\r\n\r\nfDiffMultXPE\t1.0\r\nfDiffMultXPH\t1.1\r\nfDiffMultXPN\t1.2\r\nfDiffMultPVE\t1.3\r\nfDiffMultXPVH\t1.4\r\n\r\nfLeveledActorMultEasy\t1.1\r\nfLeveledActorMedium\t1.15\r\nfLeveledActorMultHard\t1.20\r\nfLeveledActorVeryHard\t1.25",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "hideinlight",
+  "createdUnix": "1349735333",
+  "updatedUnix": "1349875286",
+  "containsAdultContent": false,
+  "uploadedBy": "HideInLight",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "92841",
+      "name": "Less Artifiicial ReScaled Difficulty",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Less Artifiicial ReScaled Difficulty-25229-1-0.zip",
+      "uploadedUnix": "1349735683",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4f57a0b182de9a6f5e37112fcfb245c5da7710c901417f732a2a1d70c0e62c59/analysis/1407210666/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Less%20Artifiicial%20ReScaled%20Difficulty-25229-1-0.zip?fid=92841&ttl=1535796634&ri=8192&rs=8192&setec=743259b7a38567a113df658536923627"
+    },
+    {
+      "fileId": "93106",
+      "name": "Less Artifiicial ReScaled Difficulty 1dot1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Less Artifiicial ReScaled Difficulty-25229-1-1.zip",
+      "uploadedUnix": "1349875286",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/819ee9c26d158cf865015d295231f4c5a4ccbbd35e9257bb7d6c6eb3be3e6b20/analysis/1407213307/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Less%20Artifiicial%20ReScaled%20Difficulty-25229-1-1.zip?fid=93106&ttl=1535796634&ri=8192&rs=8192&setec=9cbf4b2f9f108d3d0960ad94da350857"
+    }
+  ]
+}

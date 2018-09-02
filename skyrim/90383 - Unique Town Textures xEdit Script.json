@@ -1,0 +1,32 @@
+{
+  "modId": 90383.0,
+  "modName": "Unique Town Textures xEdit Script",
+  "summary": "An xEdit script to automate alternate texture set creation.",
+  "descriptionHtml": "So, this script is a little different. It doesn't have a target audience, it doesn't fill a requirement, and its use case is very limited but the concept can be expand greatly.\n<br />\n<br />The reason I made this script is because I really liked the idea of Better Town Textures on Oldrim. Later down the road there was Tamriel Reloaded Mountains and Rocks(?) and Spice of Life: Forts also provided some desire.\n<br />Knowning that these would be compatibility hell and also wanting to use my parallax and/or ELFX meshes, I wanted to find a perfect dynamic solution.\n<br />\n<br />Well, I made it, but now I have no idea what to do with it. It works for what my testing framework was, but it needs an author that would like to create something similar as the mods above, but some will require some retooling.\n<br />\n<br />For face value, this script will search \"Data&#92;Textures&#92;UTT&#92;\" for certain \"keywords\" for towns, like that of riverwood or ivarstead.\n<br />Then apply the textures in those directories to supported mesh file paths.\n<br />Last it will alter the base record of the affected supported meshes to have the object with the town's alternate textures.\n<br />\n<br />The reason I am releasing this is becasue I want an author that has the ability to utilize it. I am willing to retool some of the script to provide some easier functionality for that author.\n<br />Its usable but I don't really have a showcase.\n<br />Try using something like: \n<br />   ﻿For Tamriel Reloaded HD, put the textures folder in \"Textures&#92;UTT&#92;falkreath&#92;\" \n<br />   ﻿Try Noble Skyrim, put the textures folder in \"Textures&#92;UTT&#92;riverwood\"\n<br />   ﻿Try Vivid Landscapes AIO, put the textures folder in \"Textures&#92;UTT&#92;morthal\"\n<br />If you have other suggestions let me know.\n<br />\n<br />To use this there are a few important bits to pay attention to...\n<br />The folder inside the UTT directory is the \"key\" for what locations to affect.\n<br />The \"key\" is used by checking each location record to see if the \"key\" is a substring in the name or the record or the parents.\n<br />Only valid texture paths will actualy have the alternate texture set, otherwise the default mesh set is used.\n<br />The supported nifs file is setup to see if a given object uses a mesh where its filepath has a substring that matches one in the list.\n<br />MISC objects will show up as duplicates but with unique textures.\n<br />Depending on the setup, xEdit may appear to freeze, give it some time.\n<br />This is a ulitlity and is not intended for the end user, use under advisement because I don't perform all the checks I should and xEdit scripts are scary *shrug*\n<br />Watch out for what version of xEdit you use, this stuff is pretty new. If in doubt grab the latest off github.\n<br />\n<br />If you have a question feel free to ask. I tend to not lurk on here all that often but I am on discord Hishy#9646",
+  "categoryId": "39",
+  "version": "0.5.0",
+  "author": "Hishy",
+  "createdUnix": "1522121114",
+  "updatedUnix": "1522121114",
+  "containsAdultContent": false,
+  "uploadedBy": "hishutup",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000269414",
+      "name": "Unique Town Textures Script",
+      "version": "0.5.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "Unique Town Textures Script-90383-0-5-0.7z",
+      "uploadedUnix": "1522121012",
+      "modVersion": "0.5.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7eb8efdcfbfdbee3223c1b86dc598505f24c748de320e9a2a55751e6e9c7a29f/analysis/1522121103/",
+      "changelogHtml": " Initial upload <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Unique%20Town%20Textures%20Script-90383-0-5-0.7z?fid=1000269414&ttl=1535880495&ri=8192&rs=8192&setec=d7c160395f274044f35644fe8739b27c"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 50090.0,
+  "modName": "Creating A New Dummy Object With NifSkope",
+  "summary": "This simple tutorial will help you to create new dummy objects, without using complicated programs for 3D modeling.",
+  "descriptionHtml": "1. Extract an NIF file from the BSA archive (in this tutorial used [url=http://www.nexusmods.com/newvegas/mods/36901/]Fallout Mod Manager[/url], it&#39;s compatible with Skyrim).\r<br />\r<br />[img]http://static2.nexusmods.com/15/mods/110/images/50090-1-1390282046.png[/img]\r<br />\r<br />\r<br />\r<br />\r<br />2. Open extracted NIF file with [url=http://niftools.sourceforge.net/wiki/NifSkope]NifSkope[/url], and remove any branches, except &#34;BSXFlags&#34; and &#34;NiTriShape&#34; (or NiNode) in the main tree. Expand each &#34;NiTriShape&#34; branch and remove any blocks, except &#34;NiTriShapeData&#34;.\r<br />\r<br />[img]http://static1.nexusmods.com/15/mods/110/images/50090-1-1390266470.gif[/img]\r<br />\r<br />\r<br />\r<br />\r<br />3. Now we need to copy &#34;BSEffectShaderProperty&#34; and &#34;NiAlphaProperty&#34; blocks from the any Vanilla dummy to our NIF (this data the same for all dummy meshes, so no matter what of them you choose).\r<br />Extract any Vanilla dummy NIF, open in the new window and copy &#34;BSEffectShaderProperty&#34; and &#34;NiAlphaProperty&#34; blocks to the each &#34;NiTriShape&#34; branch in our dummy, follow the same block order.\r<br />\r<br />[img]http://static1.nexusmods.com/15/mods/110/images/50090-2-1390266470.gif[/img]\r<br />\r<br />\r<br />\r<br />\r<br />4. Select &#34;NiTriShapeData&#34; block and make sure that entry &#34;Has Vertex Colors&#34; set to &#34;yes&#34;. Open &#34;Vertex Colors&#34; and this is the most tedious part (yes, that&#39;s what you think, take a deep breath, grab some coffee and keep working).\r<br />\r<br />[img]http://static1.nexusmods.com/15/mods/110/images/50090-3-1390266471.gif[/img]\r<br />\r<br />In Vanilla for dummy objects used four colors:\r<br />\r<br />[color=Royalblue]0.000 0.000 1.000 0.500 Blue[/color]\r<br />[color=Forestgreen]0.000 0.400 0.000 0.500 Green[/color]\r<br />[color=Orange]1.000 0.400 0.000 0.500 Orange[/color]\r<br />[color=Firebrick]1.000 0.400 0.000 0.500 Red[/color]\r<br />\r<br />but you free to use any colors that you prefer.\r<br />\r<br />\r<br />\r<br />\r<br />5. Rename branches in Bethesda style\r<br />\r<br />[img]http://static1.nexusmods.com/15/mods/110/images/50090-4-1390266471.gif[/img]\r<br />\r<br />\r<br />\r<br />\r<br />6. Save your NIF file to &#34;Skyrim/Data/Meshes&#34; (default pach for dummies is &#34;Meshes/Clutter/DummyItems&#34;).\r<br />\r<br />Sometimes in Creation Kit when you drop the object with new mesh, created in current session, to the render window you may see the error marker. It&#39;s an Creation Kit bug, save and reload your plugin, it will not appear again for this object.\r<br />\r<br />\r<br />\r<br />\r<br />Credit: [url=http://www.nexusmods.com/skyrim/users/848320/]@XunAmarox[/url]\r<br />\r<br />Used Applications: [url=http://www.blumentals.net/egifan/]Easy GIF Animator[/url], [url=http://www.nexusmods.com/newvegas/mods/36901/]Fallout Mod Manager[/url], [url=http://www.gimp.org/]GIMP[/url], [url=http://lightscreen.sourceforge.net/]Lightscreen[/url], [url=http://niftools.sourceforge.net/wiki/NifSkope]NifSkope[/url]\r<br />",
+  "categoryId": "82",
+  "version": "1.1",
+  "author": "Kai Kurokawa",
+  "createdUnix": "1390289849",
+  "updatedUnix": "1390286948",
+  "containsAdultContent": false,
+  "uploadedBy": "kaikurokawa",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000092521",
+      "name": "Dummy Objects Modders Resource Pack",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "111",
+      "fileName": "Dummy Objects Modders Resource Pack-50090-1-1.7z",
+      "uploadedUnix": "1390286948",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/1c195ea01e7108b465aac9c804d6333123997cf1ba5e34cf96c524fb0298ec87/analysis/1407895212/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dummy%20Objects%20Modders%20Resource%20Pack-50090-1-1.7z?fid=1000092521&ttl=1535831605&ri=8192&rs=8192&setec=3f20d5e5b2ff8602a23394d9aa6e0ccd"
+    }
+  ]
+}

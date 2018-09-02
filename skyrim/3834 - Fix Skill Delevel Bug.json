@@ -1,0 +1,15 @@
+{
+  "modId": 3834.0,
+  "modName": "Fix Skill Delevel Bug",
+  "summary": "",
+  "descriptionHtml": "Sometimes your skill won\\'t return to normal after disease is cured (like rockjoint). \r\nYour skill will show in red, but there are no active effects under the magic menu debuffing the skill.\r\n\r\nheres how to fix it: (Replace skillX with the name of the skill i.e. twohanded)\r\n\r\nopen console (tilde key)\r\ntype:    player.modav skillX 1\r\nclose console, and then reopen it\r\ntype:    player.modav skillX -1\r\nclose the console\r\n\r\nbye bye bugged debuff",
+  "categoryId": "95",
+  "version": "",
+  "author": "Sploid",
+  "createdUnix": "1324059623",
+  "updatedUnix": "1324059623",
+  "containsAdultContent": false,
+  "uploadedBy": "jubille213",
+  "primaryFile": null,
+  "files": []
+}

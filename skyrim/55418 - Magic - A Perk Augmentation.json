@@ -1,0 +1,48 @@
+{
+  "modId": 55418.0,
+  "modName": "Magic - A Perk Augmentation",
+  "summary": "My attempt at a perk augment for the magic schools. In keeping with reducing the difference in easy of playability between mages and warriors I have made it so that each major perk (novice, apprentice, etc.) further decreases the cost of easier spells, as well as adding spell scaling with skill to each perk level.",
+  "descriptionHtml": "[size=3][color=#ff3333]Preamble[/color][/size]\r<br />This mod edits the perks for Alteration, Conjuration, Destruction, Illusion, and Restoration, it will therefore either have to be loaded after other perk mods, or will not work with some perk overhauls.\r<br />Since most things don&#39;t work with SkyRe I think its safe to assume this as well will not. But it may. I have no idea, please tell me if it does&#33;\r<br />\r<br />[size=3][color=#ff9933]Description[/color][/size]\r<br />Having tried other magic perk overhaul mods, I have made my own slightly different one, in an attempt at both balancing mages against warriors, and giving better incentive to go down an entire perk tree.\r<br />\r<br />[size=2][color=#ccff66]First:[/color][/size]\r<br />I added spell scaling to each magic tree, the classic spells increase in magnitude/duration by 1% for every 1 level in the appropriate school, but unlike other mods that added it to the novice perk and left it like that I have made it so that at each perk level it is added to only the spells of that perk level. In this way Master level spells only scale with master perks and expert level spells with expert perks, etc.\r<br />\r<br />[size=2][color=#66ff66]Second:[/color][/size]\r<br />Every major perk halves the cost of its level of spells and halves the cost of all previous levels of spells.\r<br />It functions like a half life now, in fact if you would like to find out how much a spell costs when you have a certain skill level please use the equation offered below:\r<br />\r<br />[size=2][color=#66ffcc]The Equation:[/color][/size]\r<br />Spell cost after reductions = S\r<br />Base spell cost = B\r<br />Number of spell cost reductions being applied to the spell = t\r<br />\r<br />S = B (0.5)^t\r<br />\r<br />Example:\r<br />Novice spell flames cost 14\r<br />And you have say adept level\r<br />S = 14(0.5)^3\r<br />S = 1.75 rounded to 2 in Skyrim\r<br />\r<br />[size=2][color=#6699ff]Third:[/color][/size]\r<br />I altered one other perk, it made no sense before.\r<br />Stability now increases the duration of all spells across all schools, much like Necromage increases the power of all spells against undead across all schools.\r<br />\r<br />[size=3][color=#9966ff]Installation[/color][/size]\r<br />There are 2 ways:\r<br />I recommend you use NMM or any other Skyrim mod managing software and simply download this mod and install it: Done&#33;\r<br />Or\r<br />You can download the mod, its a .zip find your way to you Skyrim Data folder, usually found here:\r<br />SteamsteamappscommonSkyrimData\r<br />and extract the file: Done&#33;\r<br />\r<br />[size=3][color=#ff0000]Incompatibilities[/color][/size]\r<br />I have no idea&#33;\r<br />It will definitely have to be after other mods that alter perks but beyond that no idea.\r<br />\r<br />\r<br />",
+  "categoryId": "93",
+  "version": "1.0",
+  "author": "Aidanator",
+  "createdUnix": "1404064002",
+  "updatedUnix": "1404239613",
+  "containsAdultContent": false,
+  "uploadedBy": "Aidanator",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000115168",
+      "name": "Magic - A Perk Augmentation 1.0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Magic - A Perk Augmentation 1.0-55418-1-0.rar",
+      "uploadedUnix": "1404063998",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e70fd3c5f0ca4aedf863108467402af9bebc342f573ff7b99a93abe399c14325/analysis/1408153638/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Magic%20-%20A%20Perk%20Augmentation%201.0-55418-1-0.rar?fid=1000115168&ttl=1535840165&ri=8192&rs=8192&setec=2cd7a7131d1030d8bac134e88e215fd9"
+    },
+    {
+      "fileId": "1000115455",
+      "name": "OPTIONAL - Stability Perk Overhaul",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "OPTIONAL - Stability Perk Overhaul-55418-1-0.rar",
+      "uploadedUnix": "1404239613",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a8c36c8914fa298622d62c727f1c34ab4050b1e709dda2b135c8390e4533ea76/analysis/1408156427/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/OPTIONAL%20-%20Stability%20Perk%20Overhaul-55418-1-0.rar?fid=1000115455&ttl=1535840165&ri=8192&rs=8192&setec=96f86d6dab05b8b0055da7086a37b331"
+    }
+  ]
+}

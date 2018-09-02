@@ -1,0 +1,32 @@
+{
+  "modId": 21429.0,
+  "modName": "Wolf Queen Awakened and Letter From Falk Firebeard - Fixed for old USKP saves",
+  "summary": "A small mod which makes it possible to start Wolf Queen Awakened if you\\'re at the level cap (or the courier simply won\\'t show up), and you\\'re playing a save file with an old version of USKP.",
+  "descriptionHtml": "This bug has been fixed in new versions of the Unofficial Skyrim Patch. However, if you turned in the Man Who Cried Wolf while using an old version of the USKP, you\\'re stuck with this terrible stopgap fix I came up with, involving working your way through the quest by renabling it in the console. See the whole mess below.\r\n\r\n=================================================\r\n\r\nNOTE: Well, this is just great. Somehow everything clicked the first time I loaded this mod, but now, Styrr\\'s dialogue options won\\'t come up. At the very least, this fix makes the quest enabled without the letter from Falk Firebeard, making it possible to use \\\"setstage\\\" and work your way through the quest. You won\\'t get the letter from Falk, you won\\'t be able to talk to him or Styrr. You also won\\'t have a quest target on your map. Here\\'s what I did:\r\n\r\nsetstage ms06 0...\r\nsetstage ms06 5...\r\nsetstage ms06 10... Now walk in and out of a building, and the courier will show up with, well, nothing.\r\nsetstage ms06 50... It\\'ll say to talk to Styrr, but he won\\'t have dialogue options.\r\nsetstage ms06 60...\r\nsetstage ms06 100... It\\'ll say defeat Potema. Now you need to go to the Temple of the Divines, last alcove on the left, head down the stairs, open the console and click the locked gate. Type \\\"unlock,\\\" and make your way in.\r\nsetstage ms06 125... This will activate automatically, but picking up the remains won\\'t do anything.\r\nsetstage ms06 150... This will update it after picking them up. Tells you to return to Falk and Styrr.\r\nsetstage ms06 170... Do this one first. Completes Styrr objective.\r\nsetstage ms06 250... Gives you the shield, your gold, and completes the quest.\r\n\r\nThis seriously needs a better fix from someone who knows what they\\'re doing.\r\n\r\n============================================================================\r\n\r\nThis mod is a simple stopgap, and nothing fancy... I know very little about the CK.\r\n\r\nEssentially, players at the level cap must bend over backward with console commands to get this quest to start, since it\\'s triggered by three things: finishing the Man Who Cried Wolf, leveling up, then receiving the Letter from Falk Firebeard from the courier. If you\\'re at the level cap, this won\\'t ever happen, OR if your courier happens to be a total piece of crap and never shows up. Since the quest is marked as \\\"Run Once.\\\" The courier can only deliver one message at a time, so if Falk\\'s letter is superseded by a different one, the script runs but you\\'re left without a letter. Not only that, you can\\'t use \\\"setstage\\\" to start it, because the quest is not \\\"Start Game Enabled.\\\" This mod changes that.\r\n\r\nHOW TO USE:\r\n\r\n- ONLY install after you\\'ve completed the Man Who Cried Wolf and turned the quest in to Falk Firebeard.\r\n- UNINSTALL this mod if you load a different character or start a new game, or if you complete the quest.\r\n- Once the mod is loaded up, open the console and type \\\"setstage MS06 50.\\\" You\\'ll begin the quest, with the first objective: Speak to Styrr.\r\n- If you really want to see what Falk\\'s letter says, for immersion purposes, you can pickpocket the letter from him. Adding it through the console will yield a blank letter; no idea why. Reading it won\\'t start the quest unless it came from a courier, but you can at least get the idea.\r\n\r\nThis mod is mostly untested. I just uploaded it for the others who have had problems with it. I haven\\'t even completed the quest yet myself.",
+  "categoryId": "95",
+  "version": "1",
+  "author": "rcavanah",
+  "createdUnix": "1343765298",
+  "updatedUnix": "1343765412",
+  "containsAdultContent": false,
+  "uploadedBy": "rcavanah",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "77932",
+      "name": "Wolf Queen Awakened Fix",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Wolf Queen Awakened Fix-21429-1.zip",
+      "uploadedUnix": "1343765412",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/a4e6229532e190006ad38d3cbd7670e0a2a691e86b6735c35e64040482da9bec/analysis/1407060547/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Wolf%20Queen%20Awakened%20Fix-21429-1.zip?fid=77932&ttl=1535790318&ri=8192&rs=8192&setec=b16f1cc84f7df49718bd73ba3c6f6569"
+    }
+  ]
+}

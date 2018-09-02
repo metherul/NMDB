@@ -1,0 +1,32 @@
+{
+  "modId": 54297.0,
+  "modName": "A simple WORLD patch",
+  "summary": "Patches the MaxHeightData to UNSP - Dragonborn value",
+  "descriptionHtml": "It&#39;s not even a mod, it&#39;s a simple patch that restores Dragonborn&#39;s MaxHeightData. Made via TES5Edit.\r<br />\r<br />DESC:\r<br />\r<br />I&#39;m using quite a lot of mods. Realy, a lot. And, sometimes, all those mods come with a problem. Some are made for Vanilla skyrim and have a wrong MaxHeighData value. The problem is, this value is in long HEX and you can&#39;t simply edit it and copy/pase it into a little patch. You have to make an override from a default setting (like Dawnguard or Dragonborn, I chose USKP Dragonborn) and make a new plugin. And this is what you get. A 50 kB file.\r<br />\r<br />WHY ?\r<br />\r<br />I&#39;m using RLO @ the momment. And Frostfall. So I need RealShelter as well. What&#39;s strange is, RealShelter, the DLC version (full support for all DLCs) comes with no MaxHeightData in it, and makes you unavailable to access Isle of Castle Volkihiar (I hope that&#39;s the name). Result is , after using Ice Watter Jetty you just get 2 loading screens and stand where you were @ the first place.\r<br />The same problem is with Coins of Tamriel, Quaxes Winterhold Rebuilt and so on and so on. What really happens is that MHD is overwritten by NOTHING and you can&#39;t acces Dayspring Canyon, Castle Volkihiar or return to Skyrim from Morowinds Solhsteim Island. This should fix it. Please note that for CTDs ( crash to desktop ) and ILS ( infinite loading screens ) you should use Skyrim Memory Patch, as the game engine blocks it self up with it&#39;s own memory managment.",
+  "categoryId": "84",
+  "version": "1.0Final",
+  "author": "RdX995",
+  "createdUnix": "1400878907",
+  "updatedUnix": "1400878897",
+  "containsAdultContent": false,
+  "uploadedBy": "RdX995",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000110136",
+      "name": "Patch - Dragonborn - Worldspace Max Height Data",
+      "version": "1.0Final",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "22",
+      "fileName": "Patch - Dragonborn - Worldspace Max Height Data-54297-1-0Final.rar",
+      "uploadedUnix": "1400878897",
+      "modVersion": "1.0Final",
+      "virusScanUrl": "https://www.virustotal.com/file/e55551efbfe138528fe9c541e62208c6dcb79420b0d3007b3af8d525507a4d8a/analysis/1408091787/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Patch%20-%20Dragonborn%20-%20Worldspace%20Max%20Height%20Data-54297-1-0Final.rar?fid=1000110136&ttl=1535838369&ri=8192&rs=8192&setec=c2ce91b0119f6b81fe8656bffcc1d03e"
+    }
+  ]
+}

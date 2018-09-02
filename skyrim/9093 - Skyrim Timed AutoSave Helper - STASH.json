@@ -1,0 +1,32 @@
+{
+  "modId": 9093.0,
+  "modName": "Skyrim Timed AutoSave Helper - STASH",
+  "summary": "Skyrim Timed AutoSave Helper - Automatically creates saves at timed intervals - no external utility needed.",
+  "descriptionHtml": "03/03/12 - I have posted a file that should fix the constant file saving - instructions are in the read me.\r\n\r\n\r\n\r\nTired of forgetting to Quicksave and having to replay long segments \r\n  of the game? Don\\'t like the Autosave implemented by the game? Well, \r\n  now you have an alternative. This mod implements a timed autosave \r\n  system - you may select from 1, 5, 10, or 15 minute time periods. \r\n\r\n  Be aware that there a couple of exceptions - While you in a crafting \r\n  menu (Alchemy, Enchanting, Armour, Weapon, etc.) or in a dialogue \r\n  with any NPC, if the time comes when an autosave would occur, it \r\n  will be bypassed & reset the timer. This is because the game gives no \r\n  way to determine when you are in these situations. Otherwise, if you \r\n  are in other menus, like Inventory, Barter, etc or in combat, the \r\n  autosave will still occur when exiting those menus/combat.\r\n\r\n  Be sure to disable the 4 game Autosave options in Settings/Gameplay \r\n  to prevent conflicts.\r\n\r\n  Thx to @omega2008 for this tip:\r\n\r\n  Add this to your Skyrim.ini in My Docs>MyGames>Skyrim to have as many \r\n  autosaves as you want:\r\n  [SaveGame]\r\n  iAutoSaveCount=6 \r\n\r\n  More options to come.\r\n\r\nInstall:\r\n\r\nRecommended to use NMM\r\n\r\nManual:\r\n\r\nChoose the esp/bsa combination you want to use & drop them into the Data directory & activate the esp. Choose only the 01, 05, 10, or 15 set.\r\n\r\nYou may also be interested in the [url=http://skyrim.nexusmods.com/downloads/file.php?id=13]Skyrim Incremental Saver[/url] for making copies of Quicksaves - Autosave copies to be added soon.",
+  "categoryId": "39",
+  "version": "1.1F",
+  "author": "PhxAs5As5in",
+  "createdUnix": "1329022766",
+  "updatedUnix": "1330759501",
+  "containsAdultContent": false,
+  "uploadedBy": "PhxAs5as5in",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "39489",
+      "name": "Skyrim TimedAutoSave Helper - Fix",
+      "version": "1.1F",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "Skyrim TimedAutoSave Helper - Fix-9093-1-1F.zip",
+      "uploadedUnix": "1330759501",
+      "modVersion": "1.1F",
+      "virusScanUrl": "https://www.virustotal.com/file/2fdaddfcba6d60a079060390b8fa80eef0dbbb6bbf7568bb30f6b8c385b47637/analysis/1406726806/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20TimedAutoSave%20Helper%20-%20Fix-9093-1-1F.zip?fid=39489&ttl=1535768347&ri=8192&rs=8192&setec=fc35fea043737f54e50569e51730d643"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 5610.0,
+  "modName": "Get All Soul Gems",
+  "summary": "Add 10 of every pre-filled soul gem to your inventory.",
+  "descriptionHtml": "*The original readme that came with this file had a typo in it.  The correct instructions are below.*\r\n\r\nThis is a bat file that will add 10 of every soul gem to your inventory.  The soul gems will already be filled with a soul equal to the level of the gem.  You will gain:\r\n\r\n10 Petty Soul Gem (Petty)\r\n10 Lesser Soul Gem (Lesser)\r\n10 Common Soul Gem (Common)\r\n10 Greater Soul Gem (Greater)\r\n10 Grand Soul Gem (Grand)\r\n10 Black Soul Gem (Grand)\r\n\r\n::HOW TO INSTALL::\r\n\r\nSimply extract the .txt file to your Skyrim main directory.\r\n\r\n::HOW TO USE::\r\n\r\nWhen you\\'re in game just open the console with the ~ key and type \\\"bat allsoulgems\\\" without the quotes and you\\'re done.  Repeat as many times as you like.\r\n\r\n-Optional-\r\n\r\nIf you want to edit the type or quantity of gems you get from this mod all you need to do is open the txt file and modify the quantity and/or delete the ones you don\\'t want.  They go in order of potency from Petty to Black.  I\\'ll provide the list here for your convenience:\r\n\r\nplayer.additem 0002E4E3 = Petty\r\nplayer.additem 0002E4E5 = Lesser\r\nplayer.additem 0002E4F3 = Common\r\nplayer.additem 0002E4FB = Greater\r\nplayer.additem 0002E4FF = Grand\r\nplayer.additem 0002E504 = Black\r\n\r\nIf you\\'re copying and pasting these numbers make sure you don\\'t copy anything after the item ID code.\r\n",
+  "categoryId": "40",
+  "version": "0.2",
+  "author": "Zohar127",
+  "createdUnix": "1325980209",
+  "updatedUnix": "1325980385",
+  "containsAdultContent": false,
+  "uploadedBy": "zohar127",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "17698",
+      "name": "Every Pre-filled Soul Gem",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Every Pre-filled Soul Gem-5610-0-1.rar",
+      "uploadedUnix": "1325980385",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/1eb6658c9cbeeea382e0d78a6191a23279f813e44772e6c862bdddabab05d0e1/analysis/1406592482/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Every%20Pre-filled%20Soul%20Gem-5610-0-1.rar?fid=17698&ttl=1535762448&ri=8192&rs=8192&setec=a2c1a65ba476ce9b9cccbfb89ed8d4e9"
+    }
+  ]
+}

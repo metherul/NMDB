@@ -1,0 +1,48 @@
+{
+  "modId": 23448.0,
+  "modName": "Pork Up - Dynamic Weight Gain",
+  "summary": "Increases player weight with level progression. Simulates muscle weight gain for physical types.",
+  "descriptionHtml": "[size=8][color=red]Pork it up![/color][/size]\r\n[size=8][color=white]REQUIRES SKSE![/color][/size]\r\n\r\n[color=cyan]\r\n\r\n- NEW -\r\n\r\nPork 2 now increase your weight based on Health and Stamina rather than level. You\\'ll gain about 3.5 weight per 10 increase in one of these attributes. This mean you\\'ll hit max. weight at about level 33 now. This is BASE health and stamina so a ring of Health won\\'t make you fat ;-)\r\n\r\nChoose this or the original weight gain on level up as you prefer.\r\n\r\nWorks really nicely with Basvanbeu\\'s muscle texture changer for girls:\r\n\r\nhttp://skyrim.nexusmods.com/mods/6554\r\n\r\nIf you order your _msn files correctly you get bulkier and more muscular with time!\r\n\r\n-DESCRIPTION\r\n\r\nDynamic weight change mod.\r\n\r\nI wanted my character to gradually gain weight with experience in order to simulate the build-up of muscle mass as I wade my way through dead orcs. So I made this little mod.\r\n\r\nThe mod changes the players weight with level. At level 1 you will have weight 0 (scrawny) and will then proceed to gain 5 weight per level. This means at level 21 you will attain the maximum weight 100 (super hunk/hunkess).\r\n\r\nThis works nicely for warrior types. For mages, maybe it doesn\\'t make much sense (perhaps you can imagine them getting really fat what with all their learning and stuff.)\r\n\r\n- INSTALLATION\r\n\r\nUse the mod manager or install scripts manually. This mode REQUIRES SKSE in order to make the weight changes.\r\n\r\n- UNINSTALL \r\n\r\nRe-read Book of Pork to turn off mod. Then use mod manager or delete Pork Up esp and scripts.\r\n\r\n- USAGE\r\n\r\nThe mod starts DISABLED. You will find a book on the table in the RIVERWOOD TRADER. Read it and the mod will activate. Read it again and you will deactivate the mod. You can also get it through the console (\\\"help pork\\\", player.additem  XXXXXX 1 where XXXXX is the book code).\r\n\r\nOn activation, wait a little while (about 30 seconds) and your weight will be RESET depending upon your level. So, if you are at level 1 and made a fat character, it will suddenly become skinny! This is supposed to happen. On level up you will then gain a little bit of weight.\r\n\r\nThis mod makes most sense for new characters since the weight change occurs between levels 1 and 21. Beyond level 21 you max out at 100 weight.\r\n\r\nI think it really helps immersion since you get a sense of physical improvement without going to the console.\r\n\r\n- ISSUES\r\n\r\nNone yet.\r\n[/color]",
+  "categoryId": "78",
+  "version": "1.0",
+  "author": "Poshpaws",
+  "createdUnix": "1346498630",
+  "updatedUnix": "1346610963",
+  "containsAdultContent": false,
+  "uploadedBy": "Poshpaws",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "85710",
+      "name": "Pork Up",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "Pork Up-23448-1-0.7z",
+      "uploadedUnix": "1346498665",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4a73ef18364ae9d1b70e5636d3401b31a29146d24165301c9c5b34236ee89a1b/analysis/1407137826/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Pork%20Up-23448-1-0.7z?fid=85710&ttl=1535793706&ri=8192&rs=8192&setec=eaf971102dff1a6d49665c9a7dfe05a1"
+    },
+    {
+      "fileId": "86009",
+      "name": "Pork 2",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Pork 2-23448-1-1.7z",
+      "uploadedUnix": "1346610963",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/a661663f6b22308cd60a42685d2ae41d0e34a8e9f07f7f5d52fc0deddd106bc0/analysis/1407141249/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Pork%202-23448-1-1.7z?fid=86009&ttl=1535793706&ri=8192&rs=8192&setec=fa0e97c213d71921766948d09cf0a16e"
+    }
+  ]
+}

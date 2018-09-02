@@ -1,0 +1,32 @@
+{
+  "modId": 42900.0,
+  "modName": "Isharas Body Swap",
+  "summary": "Tired of seeing dead enemies nude after removing that coveted armor? Only want to be nude when taking a bath? Only want to see your spouse in the buff? This may just be the thing for you.",
+  "descriptionHtml": "[color=deeppink][size=10][center]Ishara\\'s Body Swap[/center][/size][/color]\r\n[color=hotpink][size=6][center]Tired of seeing the dead nude after removing their armor? \r\nOnly want to be nude when taking a bath? \r\nOnly want to see your spouse in the buff? \r\nThis may just be the thing for you.[/center][/size][/color]\r\n\r\n[color=orange]What it does:[/color]\r\nAllows player to at will swap their body from underwear to nude or vice versa via a SKSE hotkey\r\nAllows player to at will swap the body of a selected NPC from underwear to nude or vice versa via a spell\r\n\r\n[color=orange]Requirements:[/color]\r\n[url=http://skse.silverlock.org/]SKSE[/url]\r\n\r\n[color=orange]Installation:[/color]\r\nUse NMM or place the ESP & BSA files in the Skyrim > Data directory\r\n\r\n[color=orange]Setup for use:[/color]\r\nThe body switching from is to be installed in the normal default location as a true stock replacer\r\nThe body switching to is to be manually installed in the following custom location\r\nSkyrim > Data > Meshes > abim > MaleNudeBody > malebody_0.nif\r\nSkyrim > Data > Meshes > abim > MaleNudeBody > malebody_1.nif\r\nSkyrim > Data > Meshes > abim > FemaleNudeBody > femalebody_0.nif\r\nSkyrim > Data > Meshes > abim > FemaleNudeBody > femalebody_1.nif\r\n\r\n[color=orange]Example installation & setup:[/color]\r\nInstall UNP main nude version\r\nInstall this mod\r\nCopy the femalebody_0.nif & femalebody_1.nif from Skyrim > Data > Meshes > actor > character > character assets\r\nPaste them to Skyrim > Data > Meshes > abim > FemaleNudeBody\r\nInstall compatible UNP underwear replacer and overwrite when asked\r\n\r\n[color=orange]In game usage:[/color]\r\nFor player the default hotkey is the letter N. Pressing the hotkey will equip the nude body. Pressing again while the nude body is equipped will equip the underwear body.  At any time armor can be equipped, the hotkey will update its toggle status accordingly.\r\nFor NPCs locate the spell NPC Body Swap in the Alteration spells. Equip and cast at the desired NPC. Their body will become nude. To clothe them cast the spell at them again.\r\n\r\n[color=orange]NOTES:[/color]\r\n-- This mod supplies stock underwear recolors instead of a nude body. This is to indicate that the mod is working as well as provide something for any gender which the user does not set up.\r\n-- This is intended to work with those setups that utilize only the stock locations for body mod file placement. Other setups may or may not work.\r\n-- Hotkey for player use can be reconfigured via the console. set abimnakedtoggle to XX where XX is the [url=http://www.creationkit.com/Input_Script#DXScanCodes]dxscancode[/url] of choice. After assigning the new hotkey, press the old hotkey first to unregister it and register the new number. After that you may press the new hotkey to begin toggling the player\\'s nude/underwear status.\r\n-- Both player and NPC variations only swap out the torso (slot 32) item. Everything else is kept equipped.\r\n-- Player version of nude armor has no armor value. Whereas in order to ensure equipping the NPC version of the nude armor is maxed at 600 armor rating. Therefore, it is best not to cause enemies to become nude. However, should you want the challenge, be forewarned that your NPCs will have balls of steel...\r\n-- Only playable races were setup to use the \\\"nude armor\\\". Therefore some NPCs may equip an invisible \\\"nude armor\\\" but still show their default skin. The elder race is a good example.\r\n\r\n[color=orange]Permissions, Status, Credits & Other General Info:[/color]\r\nThis was created as an attempt to satisfy the following request:\r\n[url=http://forums.nexusmods.com/index.php?/topic/1116839-removeableequipable-underwear-request-for-females-and-males/]http://forums.nexusmods.com/index.php?/topic/1116839-removeableequipable-underwear-request-for-females-and-males/[/url]\r\n\r\nThis is provided as-is. You may freely adapt this idea for your own game setups. You may freely incorporate this idea within a publicly released mod of your own making. I reserve the right to make updates to this mod at any time.\r\n\r\nCredits go to \r\n-- Bethesda for both Skyrim and the Creation Kit.\r\n-- ADragonCalledGeorge for the request and testing of the initial versions.",
+  "categoryId": "28",
+  "version": "0.04",
+  "author": "IsharaMeradin",
+  "createdUnix": "1380147812",
+  "updatedUnix": "1380147177",
+  "containsAdultContent": false,
+  "uploadedBy": "IsharaMeradin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000058294",
+      "name": "Isharas Body Swap",
+      "version": "0.04",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1788",
+      "fileName": "Isharas Body Swap-42900-0-04.7z",
+      "uploadedUnix": "1380147177",
+      "modVersion": "0.04",
+      "virusScanUrl": "https://www.virustotal.com/file/7a1afff879091a96845b470ec74a76cea0f984c45ed75bbac9b18d08be4882a8/analysis/1407734587/",
+      "changelogHtml": " Initial public release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Isharas%20Body%20Swap-42900-0-04.7z?fid=1000058294&ttl=1535823744&ri=8192&rs=8192&setec=11bd4ce21e1187ec6ad3175e2b5d2aab"
+    }
+  ]
+}

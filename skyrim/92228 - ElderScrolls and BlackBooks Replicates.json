@@ -1,0 +1,32 @@
+{
+  "modId": 92228.0,
+  "modName": "ElderScrolls and BlackBooks Replicates",
+  "summary": "Adds duplicates of the Elder Scrolls and the Black Books as non quest items and just for displaying them/storing them",
+  "descriptionHtml": "[b]!!Disclaimer!!\n<br />[/b]I have very little experience modding.\n<br />This is my first mod and I only did it because I have not found any other mod that removes Questitem-status from these items or adds replicates.\n<br />If anyone has another mod that does this you can notify me.\n<br />\n<br />[u][b]Information\n<br />[/b][/u]After completing all DLCs you are left with 3 Elder Scrolls weighing 20 points each and 7 Black Books weighing 7 points. That results in 67 points of space being taken from you.\n<br />\n<br />Since I didn't want to sell them, display them in a house I never use or remove them using the console I added duplicates without any scripts. You can drop them and display them. \n<br />Sell the original scrolls and remove the BlackBooks using console.\n<br />\n<br />\n<br />[u][b]Displaying and reading[/b][/u]\n<br />You can display the BlackBooks in a bookshelf like any other one. They also emit their black mist.\n<br />The first page of the BlackBooks is accessible but they won't transport you to Apocrypha  since they are missing that script and are just normal books. You will have to get the Originals back via console to change your BlackBook-Abilities.\n<br />\n<br />The ElderScrolls are too powerful to be put on a normal shelf and will glitch out so I recommend using a mod like [url=http://www.nexusmods.com/skyrim/mods/52583/]Jaxonz Positioner[/url]﻿ to place them wherever you like.\n<br />You can not read them. When you use them the Window for reading a book opens but displays nothing. Simply press escape to exit.\n<br />Maybe I will make them readable if I figure out how.\n<br />\n<br />[u][b]Aquisiton (console only)[/b][/u]\n<br />Black Books:[i] \"help 0book\" [/i] then[i] \"player.additem [ID] 1\"\n<br />                      [/i] They are called[i] \"0Black Book [Title]\"\n<br />[/i]                       remove the Originals using[i] \"player.removeitem [ID] 1\"[/i]\n<br />\n<br />Elder Scrolls: [i]\"help 00Elder\"[/i] then[i] \"player.additem [ID] 1\"[/i]\n<br />                        They can be found under the name \"00Elder Scrolls (Title)\"\n<br />                        You can sell the Originals to Urag Gro-Shub (Dragon) and Dexion Evicus (Sun and Blood)\n<br />\n<br />\n<br />[u][b]Installation[/b][/u]\n<br />Unzip, Drop the .esp file into your Data folder\n<br />\n<br />[b][u]Bugs[/u][/b]\n<br />-The ElderScrolls don't want to be put on a shelf since they were never meant to be displayed on them\n<br />-\n<br />\n<br />[u][b]Compatibility\n<br />[/b][/u]Should be compatible with any mod\n<br />\n<br />[b][u]Recommended Mods\n<br />[/u][/b]-[url=https://www.nexusmods.com/skyrim/mods/52583/]Jaxonz Positioner[/url]﻿   ﻿   &gt; Lets you place the Books and Scrolls anywhere you like\n<br />-[url=https://www.nexusmods.com/skyrim/mods/57335]Jaxonz Renamer[/url]       ﻿ &gt; Remove the \"0\" in front of the Books and Scrolls\n<br />-[url=https://www.nexusmods.com/skyrim/mods/10891]Unlimited Bookshelves[/url]﻿  &gt; Playe more books on shelves (Do not put the Scrolls on them)",
+  "categoryId": "98",
+  "version": "1",
+  "author": "juldaf",
+  "createdUnix": "1530282001",
+  "updatedUnix": "1530282001",
+  "containsAdultContent": false,
+  "uploadedBy": "juldaf",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000276430",
+      "name": "ElderScrolls and BlackBooks Replicates",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "ElderScrolls and BlackBooks Replicates-92228-1.7z",
+      "uploadedUnix": "1530281941",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/2e4e03f1af0cca788d1ec013e467cfde7abac5e09951087fc371cc730ceafe58/analysis/1530282007/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ElderScrolls%20and%20BlackBooks%20Replicates-92228-1.7z?fid=1000276430&ttl=1535883159&ri=8192&rs=8192&setec=20234cf8cf0bcd5334fa6c79700d355f"
+    }
+  ]
+}

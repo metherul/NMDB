@@ -1,0 +1,48 @@
+{
+  "modId": 70624.0,
+  "modName": "Navmesh Fix - Breezehome",
+  "summary": "Navmesh Patch for the DEFAULT/VANILLA Breezehome located in Whiterun.",
+  "descriptionHtml": "[size=2]This mod is a navmesh fix for the [color=#ffff00]default/vanilla Breezehome[/color] located in Whiterun.  It also fixes Lydia&#39;s bed and sandbox.\r<br />\r<br />What is navmesh?  [i][color=#cccccc]Navmesh is the pathing that indicates where NPC&#39;s can and cannot walk/run[/color][/i].  Incorrect Navmesh can cause NPC&#39;s to &#34;teleport&#34; around, get stuck in spots, and/or continuously attempt to walk into furniture.  Having no Navmesh will not allow NPC&#39;s to walk/run in the area.  IE, if you build a new home and don&#39;t put down a navmesh, no NPC can enter other than yourself.[/size]\r<br />\r<br />[u][color=#00ffff]WHAT WAS FIXED[/color][/u][color=#00ffff]:\r<br />[/color]\r<br />[list=1]\r<br />[*][color=#00ff00][size=2]Navmesh[/size][/color]\r<br />[*][color=#00ff00][size=2]Lydia&#39;s Bed[/size][/color]\r<br />[*][color=#00ff00][size=2]Lydia&#39;s Sandbox[/size][/color]\r<br />[/list][size=2]\r<br />[/size][list]\r<br />[*][size=2]Navmesh in Breezehome wasn&#39;t properly placed, especially on the stairs which is why NPC&#39;s had trouble getting up and down.  The original navmesh was under the stairs instead of on top.  [/size]\r<br />[/list][size=2]\r<br />[list]\r<br />[*][size=2]The original Navmesh is still intact and not deleted, just moved.  I manually placed a new navmesh layout throughout the house.[/size]\r<br />[/list]\r<br />[/size][list]\r<br />[*][size=2]Lydia&#39;s bed marker was on the wrong side facing outside of the house, not allowing her to access her bed.  Her original bed was &#34;CommonBed01R&#34;.  I switched it to &#34;CommonBed01L&#34; so the bed marker is facing inside the house and can be accessed by the house navmesh.  The original navmesh by Lydia&#39;s bed was also two triangles by themselves, separate from the the rest of the house&#39;s navmesh.  This also causes Lydia to not be able to walk to her bed.  The navmesh is now one full navmesh throughout the house, as it should be.[/size]\r<br />[/list][size=2]\r<br />[/size][list]\r<br />[*][size=2]Lydia now has her own sandbox for Breezehome and will walk about the whole place[i].[/i][/size]\r<br />[/list]\r<br />[color=#ff0000][u]INCOMPATIBLE[/u]:\r<br />[/color][size=2]\r<br />[/size][list]\r<br />[*][size=2]Any mod that alters Breezehome and its layout.  If you have a mod that changes the layout of Breezehome, that mod author should have already changed the navmesh in their mod to fit their new layout.  If not, you&#39;ll be having serious pathing issues with NPC&#39;s.[/size]\r<br />[/list][size=2]\r<br />[/size][list]\r<br />[*][size=2]If you use USKP or USLEEP, you do not need this patch.[/size]\r<br />[/list]\r<br />[color=#00ffff][u]INSTALLATION:[/u][/color]\r<br />[size=2]Use NMM or MO.[/size]\r<br />\r<br />[color=#00ffff][u]MANUAL INSTALLATION:[/u][/color]\r<br />[size=2]Drop the data folder into your main Skyrim directory.\r<br />\r<br />[u][color=#ff7700]CONCERNING USKP:\r<br />[/color][/u][/size][size=2]\r<br />[list]\r<br />[*][size=2]NOT EVERYONE USES USKP/USLEEP.  These navmesh fixes will mainly be for those who don&#39;t use USKP/USLEEP.  So please, I don&#39;t need anymore postings about USKP/USLEEP.  I had already taken USKP/USLEEP into consideration and checked their navmeshes before I even bothered doing these mods.  Thank you.[/size]\r<br />[/list]\r<br />[/size][list]\r<br />[*][size=2]I read that Belethor&#39;s shop was fixed from the outside in the USKP as well.  However, I do use all of the USKP&#39;s and my followers never came in through Belethor&#39;s front door.  I&#39;m not saying that it is not fixed by the USKP, it&#39;s just for my games... they come in through the back still.  BUT I also do use JK&#39;s Skyrim and The Useless Shop Overhaul in my actual non-vanilla game.  So... probably mod&#39;s conflicting with USKP is why they weren&#39;t using the front door.  But this mod is for the default/vanilla game anyway and I have been testing this with vanilla cells.  This is in concern of [url=http://www.nexusmods.com/skyrim/mods/70629]Navmesh Fix - Belethor&#39;s General Goods[/url].[/size]\r<br />[/list][size=2]\r<br />[/size][list]\r<br />[*][size=2]I&#39;ve gone back over USKP and realized that their patch talks about [i]Belethor himself[/i], not followers.  They fixed the game so that [i]Belethor enters his shop through the front instead of the back[/i].  That&#39;s not what this patch is. Plus, IMO I don&#39;t know why USKP changes that. Shop owners I know IRL use their back door (if they have one) to enter so they can turn on lights, set up shop, etc before opening.  IMO, I think Belethor should be entering in and out of his shop through the back door anyway.  I thought Bethesda intended him to do so in the first place. This is in concern of [url=http://www.nexusmods.com/skyrim/mods/70629]Navmesh Fix - Belethor&#39;s General Goods[/url].[/size]\r<br />[/list]",
+  "categoryId": "84",
+  "version": "2.0",
+  "author": "Baibaihe",
+  "createdUnix": "1444975262",
+  "updatedUnix": "1445051450",
+  "containsAdultContent": false,
+  "uploadedBy": "Baibaihe",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000181079",
+      "name": "Navmesh Fix - Breezehome Vanilla",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "12",
+      "fileName": "Navmesh Fix - Breezehome Vanilla-70624-2-0.rar",
+      "uploadedUnix": "1445051341",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c3545c530e9d046fce698cac554e5cc4cb007e0a89a87f6d52120472385b4ca2/analysis/1445051403/",
+      "changelogHtml": " Original Navmesh is still intact and not deleted.  It has now been moved down under the house. <br/> \n Lydia has her own sandbox for Breezhome and should walk around the house. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Navmesh%20Fix%20-%20Breezehome%20Vanilla-70624-2-0.rar?fid=1000181079&ttl=1535859178&ri=8192&rs=8192&setec=b0c62fbaebf56b72e332589c9205c8ef"
+    },
+    {
+      "fileId": "1000181080",
+      "name": "Navmesh Fix - Breezehome Hearthfire",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "12",
+      "fileName": "Navmesh Fix - Breezehome Hearthfire-70624-2-0.rar",
+      "uploadedUnix": "1445051450",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8eb4d64a1a80ad315bf15814f8393a1b4982200cfdea0c9496e2a623ddb074b3/analysis/1445051464/",
+      "changelogHtml": " Original Navmesh is still intact and not deleted.  It has now been moved down under the house. <br/> \n Lydia has her own sandbox for Breezhome and should walk around the house. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Navmesh%20Fix%20-%20Breezehome%20Hearthfire-70624-2-0.rar?fid=1000181080&ttl=1535859178&ri=8192&rs=8192&setec=273cb902f5d9479d1a73b68223139ff0"
+    }
+  ]
+}

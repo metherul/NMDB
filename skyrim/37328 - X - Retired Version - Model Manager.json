@@ -1,0 +1,48 @@
+{
+  "modId": 37328.0,
+  "modName": "X - Retired Version - Model Manager",
+  "summary": "Model Manager is now a modder resource, that helps mesh artists implement an MCM menu to toggle their models on and off from within the game.",
+  "descriptionHtml": "I originally made Model Manager because I thought:\r<br />Man it&#39;s really annoying that [url=http://skyrim.nexusmods.com/mods/33292//?]Unique Uniques[/url] and [url=http://skyrim.nexusmods.com/mods/33292/?]Unique Weapons Redone[/url] don&#39;t quite work together. I mean yeah you can put one before the other in the load order and let the models from one override the other. But they&#39;re still not *really* compatible you know?\r<br />\r<br />For example, what if I felt like using Dragonbane from Unique Uniques and Bolar&#39;s Oathblade from Unique Weapons Redone?\r<br />\r<br />[youtube]vyde08uAFCw[/youtube]\r<br />\r<br />[size=6][b][color=#e06666]Model Manager has changed[/color][/b][/size]\r<br />It is no longer a standalone mod. It&#39;s too burdensome to have a single mod that tries to manage a bunch of models from other mods you may not even be using, both in terms of how much work I have to put in, and how the size of the script will scale.\r<br />\r<br />So I&#39;m changing Model Manager to be a Modder Resource. If youare a mesh artist with no scripting experience, and want to implement a model manager for your mod, please make a copy of the relevant forms, and send me a filled out copy, along with a link to your current mod.\r<br />\r<br />The form has a sample for how Unique Weapons Redone would be filled in.\r<br />\r<br />[url=https://docs.google.com/spreadsheets/d/1Tlk0cRdMTpwBSUQYHfChomB--RGB6e-viLT4sqO33pU/edit#gid=0]Weapon Form[/url]\r<br />\r<br />There is no Armor Form yet, because I haven&#39;t gotten around to it. Please post in the comments if you have interest\r<br />\r<br />Although, if you are a modder with scripting experience, please save me the time and implement it yourself. Inside the forms linked above, you will find a hidden sheet called &#34;parser&#34;. Which you can almost directly copy and paste into your MCM menu script. You&#39;ll need to make a few changes, like replace double &#34;&#34; with single &#34;, but nothing you can&#39;t figure out.\r<br />\r<br />Currently I will a modified version of Unique Weapons Redone (minus the meshes of course) in the files section. Hopefully when I get in contact with the maker of Unique Weapons Redone, he will consider just replacing his version with one that has model manager.\r<br />\r<br />[size=6][b][color=#e06666]What can model manager do for your model mod?[/color][/b][/size]\r<br />Model manager is script based, so file conflicts STRICTLY nonexistent.\r<br />The player also gains the ability to toggle individual meshes on and off from an in game MCM menu, so no need to have multiple ESP&#39;s so players can pick and choose their desired meshes.\r<br />\r<br />Only &#34;downside&#34; is that it&#39;s a script, albeit one that&#39;s a fraction the weight of even SkyTweak.",
+  "categoryId": "82",
+  "version": "2.0",
+  "author": "Grimy Bunyip",
+  "createdUnix": "1371530986",
+  "updatedUnix": "1434868576",
+  "containsAdultContent": false,
+  "uploadedBy": "GrimyBunyip",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000164937",
+      "name": "Unique Weapons Redone Model Manager",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "Unique Weapons Redone Model Manager-37328-1-2.rar",
+      "uploadedUnix": "1434868438",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/29a8d829f1889e5c6eebb1e1083a3c7ae3867bd0b4ef91aeb7744fff9ba7a409/analysis/1434868442/",
+      "changelogHtml": " New Compatibility: Bosmer Armor Pack <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Unique%20Weapons%20Redone%20Model%20Manager-37328-1-2.rar?fid=1000164937&ttl=1535816947&ri=8192&rs=8192&setec=60da6555a0c5a54fdececc0f3ff95614"
+    },
+    {
+      "fileId": "1000164938",
+      "name": "Unique Uniques Model Manager",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "Unique Uniques Model Manager-37328-1-2.rar",
+      "uploadedUnix": "1434868576",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/b31f751d96703cea066bd96ccc4a9db288c62d9cfd058148f7318dd8815e1e6c/analysis/1434868623/",
+      "changelogHtml": " New Compatibility: Bosmer Armor Pack <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Unique%20Uniques%20Model%20Manager-37328-1-2.rar?fid=1000164938&ttl=1535816948&ri=8192&rs=8192&setec=aa8316183aadef505fee5380b62946ea"
+    }
+  ]
+}

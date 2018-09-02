@@ -1,0 +1,32 @@
+{
+  "modId": 13024.0,
+  "modName": "StringsEdit",
+  "summary": "Edit STRINGS files.",
+  "descriptionHtml": "I was somewhat dissatisfied with the available STRINGS editing tools so I made my own.  It is patterned after [url=http://skyrim.nexusmods.com/downloads/file.php?id=3112]String maker[/url].\r<br />\r<br />Improvements include:\r<br />= Command line argument support; you may set STRINGS files to open with this application.\r<br />= Export to and Import from XML.  This is the major difference which allows you to do serious  editing (find&replace, compare, etc.) in some other program designed for that purpose (Notepad++, etc.)\r<br />\r<br />Built on Windows XP and requires .NET Framework 4.\r<br />\r<br />\r<br />[b]UTF-8 Support[/b]\r<br />I&#39;m not sure I&#39;ll make time to put the language =&gt; codepage list into a nice options dialog like [url=http://skyrim.nexusmods.com/downloads/file.php?id=2889]Skyrim String Localizer[/url] has but anyway, UTF-8 support and language/codepage configurability is now &#39;included&#39;.  To change the default behavior, open the [b]StringsEdit.exe.config[/b] file in a text editor (Notepad).  Near the bottom are three settings to adjust:\r<br />[list]\r<br />[*][u]LanguageList[/u]: when the application opens or saves a .strings, .dlstrings, or .ilstrings file, it tries to match portions of the file name against the items in this list.  If it finds a match, the corresponding item in the CodepageList is used to Encode/Decode the text.\r<br />[*][u]CodepageList[/u]: the list of [url=http://en.wikipedia.org/wiki/Codepage]codepage numbers[/url]; make sure this has the same number of items as the LanguageList.\r<br />[*][u]CodepageDefault[/u]: the codepage number used when a file name does not match anything in the LanguageList.\r<br />[/list]\r<br />If you do change the .config, please be aware that newer versions of this program will include updates to the configuration file.  Currently, you are required to overwrite your older copy with the new one and re-make any changes.\r<br />\r<br />\r<br />[b]XML CDATA Support[/b]\r<br />Text strings that contain characters that would normally be escaped (&lt;, &gt;, &, etc.) when written to XML are now wrapped in CDATA tags.  For instance, the text\r<br />[list][*]Return to &lt;Alias=QuestGiver&gt;\r<br />[/list]which looked like this in xml\r<br />[list][*]Return to &amp;lt;Alias=QuestGiver&amp;gt;\r<br />[/list]now looks like this\r<br />[list][*]&lt;&#33;[CDATA[Return to &lt;Alias=QuestGiver&gt;]]&gt;\r<br />[/list]Sure, that surrounding tag is ugly; the benefit is that the text inside is exact which is more pleasing to the eye, easier to correct, and less likely to introduce errors.  This really shines when editing book text which usually contain a lot of markup tags.\r<br />\r<br />If you don&#39;t like this behavior, you can turn it off: at the bottom of the [b].config[/b] file, set UseCData to False.",
+  "categoryId": "39",
+  "version": "1.3.2",
+  "author": "Sparafucile",
+  "createdUnix": "1331921049",
+  "updatedUnix": "1334985050",
+  "containsAdultContent": false,
+  "uploadedBy": "Sparafucile",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "54986",
+      "name": "StringsEdit",
+      "version": "1.3.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "23",
+      "fileName": "StringsEdit-13024-1-3-2.zip",
+      "uploadedUnix": "1334985050",
+      "modVersion": "1.3.2",
+      "virusScanUrl": "https://www.virustotal.com/file/2d26cec0841854454b3cd970d796069b1cb483472bb72f4ac12aa3b930b1fc0d/analysis/1406826197/",
+      "changelogHtml": " Exported XML text with escaped characters now wrapped in CDATA tags. <br/> \n Input and output directories are now correctly remembered per session. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/StringsEdit-13024-1-3-2.zip?fid=54986&ttl=1535775436&ri=8192&rs=8192&setec=619e4f2bdbbf9b6526b2b829c3411972"
+    }
+  ]
+}

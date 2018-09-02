@@ -1,0 +1,32 @@
+{
+  "modId": 13244.0,
+  "modName": "Inventory and weight",
+  "summary": "ESM mod utility that tracks the player\\'s inventory and each item\\'s weight.",
+  "descriptionHtml": "Name: Inventory and weight\r\nVersion: 0.5\r\nDate: 19 March 2012\r\nCategory: Gameplay effects and changes\r\nRequirements:\r\n\tSkyrim 1.4.27.0.4\r\nAuthor: kuertee\r\nSource: http://skyrim.nexusmods.com/downloads/file.php?id=13244\r\n\r\nGameplay changes\r\n================\r\nNone. This is a ESM mod utility required by some of my mods. It tracks the player\\'s inventory and the weight of each item in it.\r\n\r\nActivate this mod in an interior cell with few actors.\r\n\r\nWhen first activated, the mod will temporarily remove all your inventory items. It will then require about 60 seconds\r\nto poll each item and calculate its weight. It will take this long because of the amount of items you gain from the\r\nmod giving you back your inventory.\r\n\r\nWhen in normal play, when you acquire new items in your inventory, it will poll those items for their weight. Because of\r\nthe small amount of items you gain during normal play, this polling will almost be instantaneous and will have no\r\nimpact on your gameplay.\r\n\r\nThis ESM mod utility will become obsolete in the future when Skyrim Script Extender is released.\r\n\r\nDetails\r\n=======\r\n\tThe mod polls for the weight of an item by giving it to you, waiting for your inventory weight to change then\r\n\tremoving that item again. During normal gameplay, this happens near to instantaneously that it shouldn\\'t impact\r\n\tyour gameplay.\r\n\r\n\tModders can use this mod by setting a Script property to point to kuiawqs. E.g.: kuiawqs Property invAndWeightQ Auto\r\n\r\n\tOnce done, these methods becom available\r\n\tto their mods:\r\n\tFloat Function getWeight (Form item)\r\n\tBool Function isEquipped (Form item)\r\n\tArmor Function getEquippedArmor ()\r\n\tArmor Function getEquippedGauntlets ()\r\n\tArmor Function getEquippedBoots ()\r\n\tArmor Function getEquippedHelmet ()\r\n\tForm [] Function getInventoryArmor (Bool equipped = False)\r\n\tForm [] Function getInventoryJeweleries (Bool equipped = False)\r\n\tForm [] Function getInventoryMiscObjects ()\r\n\tForm [] Function getInventoryPotions ()\r\n\tForm [] Function getInventoryWeapons (Bool equipped = False)\r\n\tForm [] Function getInventoryOther ()\r\n\tFloat [] Function getWeights ()\r\n\r\n\tFunctions that return arrays (e.g. getInventoryArmor ()) will always return an array with 128 elements.\r\n\r\n\tgetWeights () return an array of weights for the inventory query last called. E.g when a query for equipped\r\n\tjeweleries is called (e.g. invAndWeightQ.getInventoryJeweleries (True)), getWeights () will return the weights for those\r\n\tjewelery items returned.\r\n\r\nInstall\r\n=======\r\nUse Wrye Bash (http://skyrim.nexusmods.com/downloads/file.php?id=1840) to install this mod.\r\nJust drag the package (which is a normal ZIP file) into Wrye Bash\\'s Installers tab.\r\nActivate the mod.\r\nHowever, the package is only a normal ZIP file, so if you know the game\\'s mod file structure, install it manually.\r\n\r\nUninstall\r\n=========\r\nIn the console, type \\\"setpqv kuiawq uninstallNow True.\\\"\r\nWait a few seconds, save the game.\r\nDeactivate the mod with Wrye Bash.\r\nIf you installed this manually, simply delete all the files you installed.\r\n(Wrye Bash keeps track of files used, so installing/uninstalling the mod with it is 100% simpler.)\r\n\r\nCredits\r\n=======\r\nkuertee in http://www.bethsoft.com/bgsforums/\r\n\r\nTools Used\r\n==========\r\nCreation kit - http://www.creationkit.com\r\n\r\nLicensing/Legal\r\n===============\r\nYou can do whatever you want with this mod but all I ask in return is that you give me credit. I would also like to be\r\ncontacted when you include this mod in part or in full in a public release.\r\n",
+  "categoryId": "24",
+  "version": "0.5",
+  "author": "kuertee",
+  "createdUnix": "1332150128",
+  "updatedUnix": "1332154749",
+  "containsAdultContent": false,
+  "uploadedBy": "kuertee",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "44755",
+      "name": "kuertee Inventory and weight 0p5",
+      "version": "0.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "22",
+      "fileName": "kuertee Inventory and weight 0p5-13244.zip",
+      "uploadedUnix": "1332154749",
+      "modVersion": "0.5",
+      "virusScanUrl": "https://www.virustotal.com/file/10c3ca1bb950aa70b2149d7d22692d17177769ebdaf9320e27bb284adcc0fc2d/analysis/1406767697/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/kuertee%20Inventory%20and%20weight%200p5-13244.zip?fid=44755&ttl=1535775848&ri=8192&rs=8192&setec=5c53caf30fd210eaf33c1e40c4931924"
+    }
+  ]
+}

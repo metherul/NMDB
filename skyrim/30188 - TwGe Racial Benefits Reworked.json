@@ -1,0 +1,32 @@
+{
+  "modId": 30188.0,
+  "modName": "TwGe Racial Benefits Reworked",
+  "summary": "Racial Benefits reworked to remove the almost completely pointless +10 and +5 level bonuses",
+  "descriptionHtml": "I looked all over Nexus for a mod more in keeping with how I thought the skill bonuses for the different races should work, but I couldn\\'t find one. Of course it\\'s understandable, given that everybody likes to do things a little differently.\r\n\r\nAnyway, I resolved to make the changes I wanted to see to for myself. I wasn\\'t going to bother uploading it here (because I\\'ve never made a mod before and don\\'t really consider myself a modder) but I thought I\\'d post it for anybody who would get any enjoyment out of it.\r\n\r\nIn the vanilla version, each race has 5 skills in which they excel and 1 in which they excel greatly. The way this was implemented, of course, meant that 1 skill was 10 levels higher and 5 skills 5 levels higher than all the other skills.\r\n\r\nThat seemed unsatisfactory to me. For one thing, when I start a new game I want it to see as though I\\'ve really started a new game, and not just picked up in the middle. Secondly, after a few minutes of game-play those bonuses become irrelevant.\r\n\r\nIn this mod, I\\'ve reworked them such that skills level at different speeds according to race. In this way, a level 50 redguard still has the cutting edge (sorry, awful pun) on other races when it comes to one-handed battling; his one handed skill increases faster at level 50 as surely as it does at level 20.\r\n\r\nThe effect is implemented as a character having one of ten abilities dependent upon race from the very beginning of the game in exactly the same way in which Nords have an inherent and permanent +50% frost resistance.\r\n\r\nThe effect works like the Mage/Warrior/Thief/Lover stones but applies bonuses to skills based on race. These abilities are completely independent of and stack with the aforesaid stones. As an example:\r\n\r\nHigh Elf\r\nIllusion: exp*1.2\r\nAlteration: exp*1.1\r\nConjuration: exp*1.1\r\nDestruction: exp*1.1\r\nEnchanting: exp*1.1\r\nRestoration: exp*1.1\r\n\r\nThe mod also removes the vanilla version\\'s racial benefits insofar as skills are concerned such that every skill at the beginning of the game is at level 15 regardless of race. If there is any demand for it, I\\'ll upload a variant with skills starting at a lower level.\r\n\r\n-----Required Files-----\r\nThe only required file (besides skyrim.esm itself) is Update.esm\r\n\r\n-----Installation and Uninstallation-----\r\nTo install, add the .esp file into the data folder. To uninstall, delete it or move it from the folder.\r\n\r\n-----Disclaimer/Licence-----\r\nUsers may edit this file however they like. They may use it or part of it in any of their mods be they personal mods or mods uploaded here or elsewhere. The only restriction on the use of this mod is that it is given under a \\\"Copyleft\\\" licence, that is: Anyone who redistributes this mod, with or without changes, must pass along intact the freedom to further copy and change it.",
+  "categoryId": "73",
+  "version": "v1",
+  "author": "TwinmeisterGeneral",
+  "createdUnix": "1358659672",
+  "updatedUnix": "1358659810",
+  "containsAdultContent": false,
+  "uploadedBy": "TwinmeisterGeneral",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000003611",
+      "name": "Racial Bonuses Reworked",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "103",
+      "fileName": "Racial Bonuses Reworked-30188-1.zip",
+      "uploadedUnix": "1358659810",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/450fac926375ac0c062395a8187de7e8ac6462a75cdb014405260b8fea18f675/analysis/1407362344/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Racial%20Bonuses%20Reworked-30188-1.zip?fid=1000003611&ttl=1535804812&ri=8192&rs=8192&setec=10f7b35883e2ee95210ba47eafcf34ab"
+    }
+  ]
+}

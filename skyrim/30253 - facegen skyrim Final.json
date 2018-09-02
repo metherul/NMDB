@@ -1,0 +1,48 @@
+{
+  "modId": 30253.0,
+  "modName": "facegen skyrim Final",
+  "summary": "final version facegen to skyrim and skyrim to facegen\r\n\r\nmassive improved",
+  "descriptionHtml": "added rases, chargen male and female.\r\ntexture heavy improved\r\nproduces a texture and mesh pretty much gameready\r\nphotofit\r\ntexture can also be altered thought facegen on all models ;)\r\nnow facegen and skyrim modifiers works togheter u can freely shape u face as u want just like old time oblivion ;)\r\nhuge noses tiny tiny mouths\r\n\r\nand read readme! importent\r\n\r\nand u can just drop additinal skyrims tri files in this instal folder and u get acces to the modifier\r\nbut not facegen\r\n\r\nrequirement\r\nFacegen! preferly the payed regged one so u can export the stuff u do\r\n\r\ninstallation\r\n\r\n\r\nwith newest facegen the folder to instal is here\r\n\r\nC:\\\\Users\\\\username\\\\AppData\\\\Roaming\\\\FaceGen\\\\Modeller3\\\\ModelSets\r\n\r\nother versions of facegen\r\n\r\nC:\\\\Users\\\\username\\\\AppData\\\\Local\\\\VirtualStore\\\\Program Files (x86)\\\\Singular Inversions\\\\FaceGen Modeller 3.1\r\n\r\nor here\r\n\r\nC:\\\\Program Files (x86)\\\\Singular Inversions\\\\FaceGen Modeller 3.5\r\n\r\nchoose the one that fits\r\n\r\n\r\nIssues\r\n\r\nuv map when export\r\n\r\nmodel postion when export\r\n\r\n\r\nsteps to take after exporting your head\r\n\r\n\r\n1.just import the head into blender or 3d max, import vanilla head skinned and skeleton ,align your head so it matches vanillahead in postition,neck needs to be in exact postion. \r\n2.open texture in photoshop(improve it iv u want), flip it vertical! save as dds\r\n[color=\\\"#2E8B57\\\"](now optinal a more advanced step.\r\nopen normal map from default head, add it as layer under your texture\r\nscale move copy paste, edit ure image so eye postion matches normal map, u might want to it with mouth to,remove eyebrow)[/color]\r\n3.apply uv map and flip it vertical or horisontal or both until it fit\r\n4. skinwrap(copy the skin),add new  bsdismember(part head)  and export to nif.\r\n5.open vanillahead in nifskope\r\n6.open ure new nif (that u exported)in nifskope, replace shader with vanillaheadshader.\r\n7. save nif\r\n8.done!\r\neach model took about 20 hours to make so a ENDORSEMENT would be more the welcome to work\r\nand it will kep me inpired to inprovee this mod\r\n\r\n\r\nHave fun ;)\r\n\r\nyour therus\r\n\r\nTroubleshouting\r\nif facegen wont load up after added the mod just rename the mod to\r\ncsamskyrim work  this can happen if u use newset version of facegen and this mod path\r\nC:\\\\Users\\\\username\\\\AppData\\\\Roaming\\\\FaceGen\\\\Modeller3\\\\ModelSets",
+  "categoryId": "29",
+  "version": "final",
+  "author": "theru",
+  "createdUnix": "1358761931",
+  "updatedUnix": "1358772210",
+  "containsAdultContent": false,
+  "uploadedBy": "theru",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000003975",
+      "name": "facegen  skyrim final",
+      "version": "final",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "41369",
+      "fileName": "facegen  skyrim final-30253-final.7z",
+      "uploadedUnix": "1358762056",
+      "modVersion": "final",
+      "virusScanUrl": "https://www.virustotal.com/file/d8ba37c4b35b7b676f43d9098b26c0dade9a2a955e54625c6bdcf815351f570a/analysis/1407371794/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/facegen%20%20skyrim%20final-30253-final.7z?fid=1000003975&ttl=1535804929&ri=8192&rs=8192&setec=36f99d60dcf8fce3ee850db52c6520ca"
+    },
+    {
+      "fileId": "1000003985",
+      "name": "example some texture uv tweaks and mesh head",
+      "version": "0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1306",
+      "fileName": "example some texture uv tweaks and mesh head-30253-0.7z",
+      "uploadedUnix": "1358772210",
+      "modVersion": "0",
+      "virusScanUrl": "https://www.virustotal.com/file/fa8e805c14a3063a832746327135dc59fa968788adcfb3d672fac8755e70c33e/analysis/1407371946/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/example%20some%20texture%20uv%20tweaks%20and%20mesh%20head-30253-0.7z?fid=1000003985&ttl=1535804929&ri=8192&rs=8192&setec=0ea8ec16f4b7a43795f33376eaccc1fc"
+    }
+  ]
+}

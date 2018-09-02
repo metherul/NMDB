@@ -1,0 +1,48 @@
+{
+  "modId": 74512.0,
+  "modName": "Time Flies",
+  "summary": "A modified version of Living Takes TIme with Campfire (Frostfall) and iNeed support, also a &#34;framework&#34; to help you adding support for other mods.\r<br />Make game time pass when performing actions like crafting, reading, eating etc.",
+  "descriptionHtml": "[center][img]https://staticdelivery.nexusmods.com/mods/110/images/74512-0-1459256127.png[/img]\r<br />Time Flies - A modified version of [url=http://www.nexusmods.com/skyrim/mods/44623/]Akezhar[/url]&#39;s [url=http://www.nexusmods.com/skyrim/mods/44623/]Living Takes Time[/url] with [url=http://www.nexusmods.com/skyrim/mods/64798/]Campfire[/url] ([url=http://www.nexusmods.com/skyrim/mods/11163/]Frostfall 3[/url]) and [url=http://www.nexusmods.com/skyrim/mods/51473/]iNeed[/url] support.[/center]\r<br />\r<br />[b][size=4][color=#6aa84f]What&#39;s new in version 2[/color][/size][/b]\r<br />A &#34;framework&#34; has been implemented in version 2, which should make it easier for those who wants to add support for other mods into Time Flies by themselves. Code structure has been changed and I rather not spend time making a seemless update.\r<br />So, it&#39;s [color=#ffff00]NOT COMPATIBLE[/color] with version 1.x and you must make a clean save to update (read the update part).\r<br />However, version 1.x should be good enough if you just need supports for Campfire or iNeed.\r<br />Read [url=http://www.nexusmods.com/skyrim/articles/50751]this guide[/url] if you&#39;re interested in making support for other mods.\r<br />\r<br />[b][size=4][color=#6aa84f]Requirements[/color][/size][/b]\r<br />[url=http://skse.silverlock.org/]SKSE[/url] and [url=http://www.nexusmods.com/skyrim/mods/3863/]SkyUI[/url]. And [url=http://www.nexusmods.com/skyrim/mods/48265/]FISS[/url] if you want to save or load your own settings.\r<br />Supported mods are [color=#ffff00]NOT REQUIRED[/color] to run this mod.\r<br />However, if you install any supported mod afterwards, you need to reinitialize Time Flies in MCM to make it recognize them.\r<br />\r<br />[b][size=4][color=#6aa84f]Description[/color][/size][/b]\r<br />If you use basic needs mod like RND, iNeed or IMCN to enhance your gameplay, you may want a mod to make time pass when you perform actions like crafting, reading, eating etc. Then this might be the mod you&#39;re looking for.\r<br />Also, feel free to modify the source and add support for your favorite mods, or redistribute your modified version, no permission needed&#33;\r<br />\r<br />[b][size=4][color=#6aa84f]Features[/color][/size][/b]\r<br />[list][*]Make game time pass when crafting, reading, looting, lockpicking, trading, eating, training and learning spell. All configurable in MCM.\r<br />[*]Crafting different items takes different amount of time. Crafting takes time of an exact value or a random value within a range.\r<br />[*]Reading increases speech skill based on time spent reading.\r<br />[*]Hotkey to pause time passing function in special situations.\r<br />[/list]\r<br />[b][size=4][color=#6aa84f]Recommendations[/color][/size][/b]\r<br />[list][*][color=#ffe599]set timescale to 6[/color] for more immersive experience.\r<br />[*]Use time widget mods like [url=http://www.nexusmods.com/skyrim/mods/44091/]A Matter of Time[/url].\r<br />[*]Use [url=http://www.nexusmods.com/skyrim/mods/49791/]Complete Crafting Overhaul Remade[/url] for bulk production to save time.\r<br />[/list]\r<br />[b][size=4][color=#6aa84f]Differences compared to Living Takes Time[/color][/size][/b]\r<br />Like I said, this is a modified version of Living Takes Time. I removed some parts, added something new, and did refactoring with the others.\r<br />Here is a list about differneces compared to Living Takes Time:\r<br />[list][*][color=#f4cccc]&#34;Expertise reduces time&#34; replaced by &#34;Random crafting time&#34;.[/color]\r<br />[list][*]Life is more interesting with all the variables.\r<br />[*]Some items may belong to the same category, that doesn&#39;t mean it takes the same time crafting them.\r<br />[*]When crafting, the time you spent may varies from x% to y% of the value you set (by default that&#39;s 67% to 100%).\r<br />[/list][*][color=#f4cccc]&#34;Block x while in combat&#34; removed.[/color]\r<br />[list][*]It&#39;s a hardcore option and I may like it if there&#39;s a real way to block opening those menus instead of closing them after opening.\r<br />[/list][*][color=#f4cccc]&#34;Crafting takes time&#34; improved.[/color]\r<br />[list][*]Clothes and armors crafting time can be configured separately now.\r<br />[*]Tanning and smelting time can be configured separately now.\r<br />[*]Alchemy and cooking time can be configured separately now.\r<br />[*]&#34;Misc&#34; items should be ignored in most situations for better compatibility.\r<br />[*]Also, something like cutting leather into strips doesn&#39;t take &#34;considerable&#34; time.\r<br />[/list][*][color=#f4cccc]&#34;Hearthfire takes time&#34; added.[/color]\r<br />[list][*]Rome wasn&#39;t built in a day. So does your mansion.\r<br />[/list][*][color=#f4cccc]&#34;Level Up takes time&#34;, &#34;Preparing takes time&#34; removed.[/color]\r<br />[list][*]I think those menus should be considered as time-pausing elements.\r<br />[/list][*][color=#f4cccc]Some multipliers merged.[/color]\r<br />[list][*]Looting time multiplier and pickpocket time multiplier merged.\r<br />[*]Barter time multiplier and gifting time multiplier merged.\r<br />[/list][/list]\r<br />[b][size=4][color=#6aa84f]Known Issues[/color][/size][/b]\r<br />There is a small chance that unnecessary time will pass when separating backpack or removing bed roll from tent.\r<br />Currently I rely on item removing event to determine whether player is separating backpack or removing bed roll.\r<br />However, when &#34;crafting&#34; those items, item removing event doesn&#39;t always triggered before item adding event.\r<br />Hence, there is no guarantee that Time Flies will work properly in these situations.\r<br />Set a pause hotkey if you need.\r<br />\r<br />[b][size=4][color=#6aa84f]Update[/color][/size][/b]\r<br />If you update TIme Flies from 1.x to 2, be sure to make a clean save:\r<br />[list][*]Save your current settings if you need them later.\r<br />[*]Disable Time Flies in MCM and clear the pause hotkey.\r<br />[*]Save your current game.\r<br />[*]Remove Time Flies 1.x in your mod manager.\r<br />[*]Load the game and save it again.\r<br />[*]Install Time Flies 2.x in your mod manager.\r<br />[*]Load the game and load your settings from 1.x.\r<br />[/list]\r<br />[b][size=4][color=#6aa84f]Uninstallation[/color][/size][/b]\r<br />Make sure to disable Time Flies and clear the pause hotkey before uninstallation.\r<br />\r<br />[b][size=4][color=#6aa84f]Credits[/color][/size][/b]\r<br />All credits to Akezhar, the original Living Takes Time&#39;s author. I really enjoy his mod for a long time.\r<br />And to those who created mod-compatible versions of Living Takes Time (dragonsong, DrPastah, mlheur and anyone not mentioned). Haven&#39;t I tried those mods and read their source code, I won&#39;t realize that it&#39;s not difficult to customized Living Takes Time and then make this mod.\r<br />Special thanks to [url=https://github.com/sirtaj]sirtaj[/url] for his or her vim-papyrus plugin. I definitely won&#39;t write any code with other editor.",
+  "categoryId": "78",
+  "version": "2.0.1",
+  "author": "DF_XYZ",
+  "createdUnix": "1459132163",
+  "updatedUnix": "1459745482",
+  "containsAdultContent": false,
+  "uploadedBy": "dfxyz1",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000201772",
+      "name": "Time Flies",
+      "version": "1.0.4",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "31",
+      "fileName": "Time Flies-74512-1-0-4.7z",
+      "uploadedUnix": "1459744587",
+      "modVersion": "1.0.4",
+      "virusScanUrl": "https://www.virustotal.com/file/0b1dd60f5838b8282392df8be816847e9ccdb56f5f4014e52c5d066b5a61f5d2/analysis/1459744625/",
+      "changelogHtml": " Added FISSInterface.pex and FISSFactory.pex into the archive.\r<br />Just figured out MCM won&#39;t show up without those files (if you don&#39;t have FISS). <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Time%20Flies-74512-1-0-4.7z?fid=1000201772&ttl=1535863338&ri=8192&rs=8192&setec=9d1c354a8585f95ceb670432cdade7ff"
+    },
+    {
+      "fileId": "1000201775",
+      "name": "Time Flies",
+      "version": "2.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "32",
+      "fileName": "Time Flies-74512-2-0-1.7z",
+      "uploadedUnix": "1459745482",
+      "modVersion": "2.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/0415897021b190f81ed397123455f27cb1eab46d09bf9d0da42abfc8e0eb5046/analysis/1459745524/",
+      "changelogHtml": " Added FISSInterface.pex and FISSFactory.pex into the archive.\r<br />Just figured out MCM won&#39;t show up without those files (if you don&#39;t have FISS). <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Time%20Flies-74512-2-0-1.7z?fid=1000201775&ttl=1535863338&ri=8192&rs=8192&setec=df38de4256f257e7a3bb81f9d79b60ea"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 11989.0,
+  "modName": "Kunai",
+  "summary": "Adds a Kunai (weapon type: dagger) to the iron weapon branch.",
+  "descriptionHtml": "Kunai (weapon type: dagger)\r\n\r\nInstallation:\r\n\r\nCopy meshes + textures folder & KUNAI.esp to your Skyrim\\\\data directory.\r\n\r\nThe folder-structure should look like:\r\n... Skyrim\\\\data\\\\meshes\\\\weapons\\\\KUNAI\\\\ ALL NIF FILES\r\n... Skyrim\\\\data\\\\textures\\\\weapons\\\\KUNAI\\\\ ALL DDS FILES\r\n... Skyrim\\\\data\\\\KUNAI.esp\r\n\r\nMake sure that the plugin is activated in launcher => DATA FILES.\r\nThe weapon is placed in the forge-menu along with the iron items.\r\n\r\nOr open console (key ^) and enter HELP KUNAI 4\r\nYou get a code, after that enter PLAYER.ADDITEM CODE 1\r\n(1 = amount) - the weapon will be placed in your inventory.\r\n\r\nDamage should scale with your skills/lvl, if you want to adjust the dmg open the Creation Kit,\r\nLOAD, check SKYRIM.ESM and KUNAI.ESP in the left window, set KUNAI.ESP to ACTIVE FILE and\r\npress OK. In the object window check ITEMS and WEAPONS, search for KUNAI and open the found form, \r\nadjust the dmg/speed values in this window, press OK and SAVE.\r\n\r\ngreetings\r\nGhosu",
+  "categoryId": "55",
+  "version": "1.0",
+  "author": "Ghosu",
+  "createdUnix": "1330794353",
+  "updatedUnix": "1330794410",
+  "containsAdultContent": false,
+  "uploadedBy": "ghosu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "39620",
+      "name": "KUNAI RAR",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1149",
+      "fileName": "KUNAI RAR-11989-1-0.rar",
+      "uploadedUnix": "1330794410",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/46f390d8d8c8f0c9520710b1032a0e998a8e48763d4d5aed64e70daaead37fa8/analysis/1406727352/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/KUNAI%20RAR-11989-1-0.rar?fid=39620&ttl=1535773535&ri=8192&rs=8192&setec=d7a7aeb8ebfb2d415776dd2774f266d5"
+    }
+  ]
+}

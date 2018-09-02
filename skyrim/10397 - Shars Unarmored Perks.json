@@ -1,0 +1,48 @@
+{
+  "modId": 10397.0,
+  "modName": "Shars Unarmored Perks",
+  "summary": "Tired of that clunky old armor? Then stop wearing it!",
+  "descriptionHtml": "[b]I\\'ve been informed that there is a problem with the comment thread for this mod. Namely, that it gives a \\\"Topic_Locked\\\" error message if you try to post anything. I have no idea what\\'s causing this, or how to fix it. If you have an important comment to make- error reports, suggestions, shameless flattery, and the like- please use the comment thread on my other mod;\r\n\r\nShars Rebalanced Perks: http://skyrim.nexusmods.com/downloads/file.php?id=9914\r\n\r\nBecause Talos knows that it\\'s not worth any comments of it\\'s own. :3\r\n\r\n[/b]\r\n\r\n================\r\n[b]Description[/b]\r\n================\r\n\r\nMy most ambitious mod to date (though that doesn\\'t mean much...) heavily alters the Light Armor perk tree to include seven brand new perks, all aimed that those classy folk who don\\'t want to risk the chafing of armor.\r\nWith requirments based on character level rather than skill level, these perks represent a fairly balanced and intuitive way to improve the abilities of unarmored specialists! The inspiration for this was D&D\\'s \\\"Hidden Blade\\\" prestiege class. ^-^\r\n\r\n\r\nNote that unarmored combat will not increase your Light Armor skill, nor any other skill.\r\nI\\'ve tested each of these perks, but not as extensively as I\\'d have liked. If anyone finds a glaring problem, let me know and I\\'ll try to fix it asap!\r\n\r\n[b]Possible bugs and incompatibilities:[/b]\r\nThe \\\"Trustworthy\\\" perk uses the same method as the \\\"Persuade\\\" perk in the speechcraft tree. Since it\\'s a quest-stage script, I don\\'t know what will happen if you end up on two stages at once. I\\'m not too worried though- the same quest is used for multiple perks in the vanilla game.\r\nAlso, the \\\"Agile Defense\\\" was giving me a great deal of trouble when I made this mod. I\\'m pretty sure it\\'s all fixed up, but it may provide a much higher damage reduction than intended.\r\n\r\n\r\nIf anyone has suggestions for new additions (or improvements for the current perks!), just leave a comment. :3\r\n\r\nVersion 1.1 is much the same as the first release, except for an alteration to how \\\"Agile Defense\\\" works. In 1.1, this perk gives you damage resistance (armor rating) rather than damage reduction. While this does cause an unsightly mess in the Active Effects menu (in the form of 5 seperate entries for \\\"Resist Damage\\\"), this is a much more reliable way of offering a basic defensive bonus!\r\n\r\nIn 1.2, I added two new perks that, hopefully, will make unarmored combat seem more reactive!\r\n\\\"Disarming Vulnerability\\\", a tier 3 perk, gives a skilled duelist a chance of disarming his opponent with a well-timed bash. Of course, this won\\'t work if you\\'re wearing one of those clunky shields. :3\r\n\\\"Wall of Blades\\\", tier 2, will enhance your moving power attacks while you\\'re dual-wielding, staggering your enemy. Just remember, your attacks won\\'t be so intimidating if you\\'re just standing there!\r\nOriginally these two perks were meant to fill the same niche, and have the same requirements. It didn\\'t seem fair to make dual-wielders take a point in Parry, though, since they wouldn\\'t get any use from it.\r\n\r\n1.3, and I\\'m so sorry it took so long for this to come... It was pointed out that the Defensive Bladework perk was completely broken, thanks to a disconcertingly simple error on my part. Because I entered the values 0.40/0.80, rather than 1.40/1.80, the perks were actually reducing the blocked damage by... a significant amount. A huge thanks to ChuckHeston (<3) for pointing it out to me! ^_^;\r\n\r\nVersion 1.4 has streamlined the Agile Defense perk, to reduce the clutter in the Active Effects menu! No longer will you be confounded by the myriad of Damage Resistance buffs! The level requirement for each perk will now be displayed in the description of the perk, in-game. :D Credit for the Agile Defense fix goes to ChuckHeston, who showed me how to set the conditions!\r\n\r\n[b]1.4b - As per a request, I\\'ve introduced a version of the mod that will allow you to wear armored boots, gauntlets, and helms without losing your unarmored bonuses. Battlemages, have at it! ^-^[/b]\r\n\r\nNow, back to the matter at hand; a breakdown of the level requirements of each perk. I worked hard on this list, and I\\'m not erasing it just because it\\'s now redundant. >:|\r\n\r\n\r\n(no requirement):\r\n\r\nAgile Defense(1)\r\n\r\n---------\r\nLevel 10:\r\n\r\nAgile Defense(2)\r\nDefensive Bladework(1)\r\nPeasant\\'s Resilience\r\nWall of Blades\r\n\r\n---------\r\nLevel 15:\r\n\r\nAgile Defense(3)\r\nTrustworthy\r\nPeasant\\'s Conditioning\r\nDisarming Vulnerability\r\n\r\n---------\r\nLevel 20:\r\n\r\nAgile Defense(4)\r\nDefensive Bladework(2)\r\nAcrobatics\r\n\r\n---------\r\nLevel 30:\r\n\r\nAgile Defense(5)\r\nThe Razor\\'s Edge\r\n\r\n\r\n================\r\n[b]Offical-Looking Notes Section![/b]\r\n================\r\n\r\n[b]V1.4[/b]\r\n\r\nPerk \\\"Agile Defense\\\" will no longer show 5 seperate entries in the Active Effects menu, and level requires will be displayed in-game.\r\n\r\n[b]V1.3[/b]\r\n\r\nPerk \\\"Defensive Bladework\\\" fixed, and will now increase blocked damage by the correct amount.\r\n\r\n[b]V1.2[/b]\r\n\r\nNew perk \\\"Disarming Vulnerability\\\" grants a chance of disarming when you bash with your weapon.\r\n\r\n[b]V1.1[/b]\r\n\r\n\\\"Agile Defense\\\" now provides 25/50/100/150/200 damage resistance, replacing the old damage reduction method.\r\n\r\n\r\n----\r\n[b]V1.0[/b]\r\n\r\nLight Armor perk tree rearranged, with the following new perks:\r\n\r\n\r\n\\\"Agile Defense\\\": Provides 5/10/15/20/30% reduced damage from physical attacks while unarmored.\r\n\r\n\\\"Defensive Bladework\\\": Parrying attacks reduces damage by 40/80%, while unarmored with no shield.\r\n\r\n\\\"Peasant\\'s Resilience\\\": While unarmored, stamina replenishes 60% faster.\r\n\r\n\\\"Peasant\\'s Conditioning\\\": Carrying capacity is increased by 50 while unarmored.\r\n\r\n\\\"Trustworthy\\\": Persuasion attempts become 20% easier.\r\n\r\n\\\"Acrobatics\\\": Fall damage reduced by 75% while unarmored.\r\n\r\n\\\"The Razor\\'s Edge\\\": 15% chance to avoid all damage from attacks while unarmored.\r\n\r\n\r\n================\r\n\r\nFor more of my tweaked perks: \r\n\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=9914\r\n\r\n\r\n-As always comments, compliments, endorsements will be met with squeals of joy! \r\n",
+  "categoryId": "73",
+  "version": "1.4",
+  "author": "Shar181",
+  "createdUnix": "1329667708",
+  "updatedUnix": "1341697212",
+  "containsAdultContent": false,
+  "uploadedBy": "shar181",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "36804",
+      "name": "Shars Unarmored Perks V1-4",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Shars Unarmored Perks V1-4-10397-1-4.rar",
+      "uploadedUnix": "1330210434",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/a8531990e373578070840283b5f7b537e94b47c85b42238bbbc4779ff685b37f/analysis/1406712997/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Shars%20Unarmored%20Perks%20V1-4-10397-1-4.rar?fid=36804&ttl=1535770730&ri=8192&rs=8192&setec=b7f9317b200a44207d44643d1ab40fa3"
+    },
+    {
+      "fileId": "72848",
+      "name": "Shars Unarmored Perks - Cuirass Version",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Shars Unarmored Perks - Cuirass Version-10397-1-4.rar",
+      "uploadedUnix": "1341697212",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/c0e20590b15baa20d9dcac2c64b9af5ad8579b150365574c1136457f7c7c5971/analysis/1407008405/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Shars%20Unarmored%20Perks%20-%20Cuirass%20Version-10397-1-4.rar?fid=72848&ttl=1535770730&ri=8192&rs=8192&setec=689281cae188450a068a850cd4ef0091"
+    }
+  ]
+}

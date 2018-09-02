@@ -1,0 +1,48 @@
+{
+  "modId": 7803.0,
+  "modName": "Foods for Run with Skooma for Run",
+  "summary": "This mod for enhanced foods and hunger.\r\nOptional mods for exciting skooma and FoodRestoreHealthDuration fix.\r\nAdd optional mod of sleeping (12/02/18).",
+  "descriptionHtml": "Foods for Run (and Skooma for Run)\r\nVer. 120218b\r\n\r\nThis mod for enhanced foods and hunger.\r\nOptional mods for exciting skooma and FoodRestoreHealthDuration fix.\r\nAdd optional mod of sleeping (12/02/18).\r\n\r\nDescription\r\n Add Fortify Stamina +30 and Regenerate Stamina +30% to bread and foods of 0.3 WEIGHT or over.\r\n 0.2 WEIGHT foods are +20 and +20%. 0.1 WEIGHT foods are +10 and +10%. Alcoholic beverages don\\'t increase Regenerate Stamina.\r\n Duration times are 2 minutes / 0.1 WEIGHT. Materials are 30 seconds / 0.1 WEIGHT.\r\n\r\nHardcore\r\n You want hardcore flaver, modify your Stamina with console.\r\nplayer.modav stamina -30\r\n (\\\"player.modav stamina 30\\\" to recover.)\r\n\r\nMenu\r\nLeg of Goat Roast (1 WEIGHT)\r\n Restore 10 points of Health. Stamina is increased by 30 points for 20 minutes. Stamina Regenerats 30% faster for 20 minutes.\r\nBread (0.2 WEIGHT)\r\n Restore 2 points of Health. Stamina is increased by 30 points for 4 minutes. Stamina Regenerats 30% faster for 4 minutes.\r\nGrilled Chicken Breast (0.2 WEIGHT)\r\n Restore 5 points of Health. Stamina is increased by 20 points for 4 minutes. Stamina Regenerats 20% faster for 4 minutes.\r\nGoat Cheese Wheel (2 WEIGHT)\r\n Restore 15 points of Health. Stamina is increased by 30 points for 10 minutes. Stamina Regenerats 30% faster for 10 minutes.\r\nRed Apple (0.1 WEIGHT)\r\n Restore 2 points of Health. Stamina is increased by 10 points for 30 seconds. Stamina Regenerats 10% faster for 30 seconds.\r\n(Skyrim 1 day = Real 72 minutes)\r\n\r\nSkooma for Run\r\n Change Skooma\\'s effect.\r\n Restore 3 points of Stamina per second for 30 seconds. Causes 1 points damage for 30 seconds.\r\n If unnecessary, remove check of Skooma for run.esp.\r\n\r\nFoodRHealthDuration.esp\r\n Vanilla Actor Value is HealRateMult. Change it for Health.\r\n If unnecessary, remove check of FoodRHealthDuration.esp.\r\n\r\nSleeping for Little Magicka\r\nRested:2% increased skill-up speed for 16 hours,  Fortify Magicka +10 for 16 hours. <- Vanilla:5% increased skill-up speed for 8 hours.\r\nWell Rested:5% increased skill-up speed for 16 hours,  Fortify Magicka +10 for 16 hours. <- Vanilla:10% increased skill-up speed for 8 hours.\r\nLover\\'s Comfort:8% increased skill-up speed for 16 hours,  Fortify Magicka +10 for 16 hours. <- Vanilla:15% increased skill-up speed for 8 hours.\r\n You want hardcore flaver, modify your Magicka with console.\r\nplayer.modav magicka -10\r\n (\\\"player.modav magicka 10\\\" to recover.)\r\n If unnecessary, remove check of Sleeping for Little Magicka.esp.\r\n\r\nInstall/Uninstall\r\n Put Foods for Run.esp and Skooma for Run.esp and FoodRHealthDuration.esp and Sleeping for Little Magicka.esp in Data folder.\r\n/Remove Foods for Run.esp and Skooma for Run.esp and FoodRHealthDuration.esp and Sleeping for Little Magicka.esp from Data folder.\r\n\r\nNote\r\n Effects of two foods or more aren\\'t added (except skooma).\r\n If Short duration time effect is only available, long duration time effect remains.\r\n Cheese Wheel and Sliced Cheese are material, Cheese Wedge aren\\'t material.\r\n Correctly, Cabbage and Cheese Wedge are 0.25 WEIGHT, their effects are as 0.3 WEIGHT.\r\n Homecooked Meal is overhauled.\r\n Effect of the lover stone isn\\'t changed.\r\n Special thanks. I use these mods with HBE - Hardcore and Balanced Experience.\r\n Special thanks. Thinking of Sleeping for Little Magicka, I was helped by comments.\r\n\r\nVer.120218b:Add Sleeping for Little Magicka.\r\nVer.120205b2:Include FoodRHealthDuration.esp and change filename.",
+  "categoryId": "24",
+  "version": "120218b",
+  "author": "hirhir",
+  "createdUnix": "1328410156",
+  "updatedUnix": "1329569286",
+  "containsAdultContent": false,
+  "uploadedBy": "hirhir",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "33096",
+      "name": "FfR Eng",
+      "version": "120218b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "FfR Eng-7803-120218b.zip",
+      "uploadedUnix": "1329568978",
+      "modVersion": "120218b",
+      "virusScanUrl": "https://www.virustotal.com/file/7d0df23e5099729712ed3a427949f19a3f4ccea456328b82dafe45537fd6c891/analysis/1406692786/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FfR%20Eng-7803-120218b.zip?fid=33096&ttl=1535766147&ri=8192&rs=8192&setec=f9349f28ab57bf71db8f39379b0cfaa9"
+    },
+    {
+      "fileId": "33099",
+      "name": "FfR JP",
+      "version": "120218jpb",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "FfR JP-7803-120218jpb.zip",
+      "uploadedUnix": "1329569286",
+      "modVersion": "120218jpb",
+      "virusScanUrl": "https://www.virustotal.com/file/77f220928098f7dc4b8c6c9f40f5f6f0bf4079f5564a4933eef2269b5f9c0543/analysis/1406692803/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FfR%20JP-7803-120218jpb.zip?fid=33099&ttl=1535766147&ri=8192&rs=8192&setec=afac5d9924fc9b74998e1a932375d919"
+    }
+  ]
+}

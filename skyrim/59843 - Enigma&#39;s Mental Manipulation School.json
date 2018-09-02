@@ -1,0 +1,32 @@
+{
+  "modId": 59843.0,
+  "modName": "Enigma&#39;s Mental Manipulation School",
+  "summary": "Mind-Affecting Illusion spells affect all ranges, but now have a chance to fail, have half the usual duration, and related perks affect duration instead.",
+  "descriptionHtml": "Short description says most of it. This is a lighter version of the mod idea I had, which was started by this thread:\r<br />[url=http://forums.nexusmods.com/index.php?/topic/2247324-request-for-more-useful-but-not-overpowered-illusion/]Request for more useful, but not overpowered illusion. - Skyrim Mod Requests - The Nexus Forums[/url]\r<br />\r<br />Long story made short:\r<br />&#34;Mind-Affecting Illusion spells affect all ranges, but now have a chance to fail, have half the usual duration, and related perks affect duration instead.&#34;\r<br />\r<br />In-Depth:\r<br />\r<br />All it does is add a quest (which you turn on and off to disable/enable the mod&#39;s effects, also to uninstall), which adds a perk.\r<br />The perk handles everything, unlike in the other idea I had planned, so there&#39;s no modifications to vanilla spells/effects.\r<br />Spells have a default magnitude of 0, and you&#39;ll see this in their descriptions, but don&#39;t panic&#33; You have a base chance of 30%, under 30 skill, to succeed; if you succeed, the magnitude will be 999 (meaning it will affect any level mob). Of course, to reduce the fun here, spells last half as long by default. You can obtain the appropriate perks to gain bonuses to spell durations...since magnitudes adjustments are useless. Again, no vanilla edits, it&#39;s all handled by my perk. Additionally, I saw the issue with the IllusionPowerMod actor value (think potions)...my perk adjusts durations, where originally this value affected magnitudes. Again, no vanilla edits required.\r<br />\r<br />Changelog:\r<br />1.2: fixed an idiot mistake resulting in the mod working the exact opposite of how i&#39;d intended. thought i&#39;d fixed a comparison operator and hadn&#39;t.\r<br />1.1: removed debug text",
+  "categoryId": "93",
+  "version": "1.2",
+  "author": "EnigmaniteK",
+  "createdUnix": "1415642469",
+  "updatedUnix": "1418050776",
+  "containsAdultContent": false,
+  "uploadedBy": "EnigmaniteK",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000138179",
+      "name": "EnigmaManipV1_2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "EnigmaManipV1_2-59843-1-2.zip",
+      "uploadedUnix": "1418050776",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/6f8b9b7d7b35d052295201b521fa40b867e28aae005a3eacbff458021b4b64be/analysis/1418050802/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/EnigmaManipV1_2-59843-1-2.zip?fid=1000138179&ttl=1535847245&ri=8192&rs=8192&setec=441c2f058c6b180ee76959ecbd1e3153"
+    }
+  ]
+}

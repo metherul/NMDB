@@ -1,0 +1,48 @@
+{
+  "modId": 62776.0,
+  "modName": "SXP - Skyrim Experience Mod - Polish Translation",
+  "summary": "For english users: This is a Polish translation of SXP - Skyrim Experience Mod created by eins.",
+  "descriptionHtml": "[img]http://iv.pl/images/19629372143090091584.png[/img]\r<br />[b]P[/b]olskie t&lstrok;umaczenie modyfikacji &#34;[b]Skyrim Experience[/b]&#34; pierwotnie stworzonej przez [b]eins[/b]. Spolszczenie obejmuje wszystkie pojawiaj&aogon;ce si&eogon; komunikaty dotycz&aogon;ce otrzymywanych punktów do&sacute;wiadczenia, w pe&lstrok;ni spolszczone menu zarz&aogon;dzania modem w &#34;MCM&#34; oraz spolszczony czar dzi&eogon;ki któremu sprawdzi&cacute; mo&zdot;na aktualnie posiadan&aogon; liczb&eogon; punktów.\r<br />\r<br />[img]http://iv.pl/images/53784686746324836387.png[/img]\r<br />[b]#1. [/b]Do instalacji [b]NIE POTRZEBUJESZ[/b], oryginalnej wersji. Wszystko co potrzebne do pe&lstrok;nego funkcjonowania spolszczenia jak i samego moda znajduje si&eogon; w paczce.\r<br />\r<br />[b]#2.[/b] Do poprawnego dzia&lstrok;ania wymagane jest [b]SKSE[/b], w mo&zdot;liwie jak najnowszej wersji. Mo&zdot;na pobra&cacute; je st&aogon;d [b]-&gt; [/b][b][url=http://skse.silverlock.org/][color=#ff0000]Klik[/color][/url][/b]\r<br />\r<br />[b]#3.[/b] Wymagana jest te&zdot; modyfikacja &#34;[b]SkyUI[/b]&#34; pobieramy j&aogon; st&aogon;d [b]-&gt; [url=http://www.nexusmods.com/skyrim/mods/3863/?][color=#ff0000]Klik[/color][/url][/b]\r<br />\r<br />[b]#4.[/b] Kolejnym wymaganiem jest mod &#34;[b]Skyrim -Community- Uncapper&#34;[/b] przez który nale&zdot;y wy&lstrok;&aogon;czy&cacute; standardowy system levelowania zmieniaj&aogon;c w jego pliku konfiguracyjnym odpowiednie linie. Modyfikacj&eogon; mo&zdot;na pobra&cacute; st&aogon;d [b]-&gt; [/b][b][url=http://www.nexusmods.com/skyrim/mods/1175/?][color=#ff0000]Klik[/color][/url][/b]\r<br />\r<br />[b]#5.[/b] R&eogon;czna zmiana ustawie&nacute; &#34;[b]Uncappera[/b]&#34;: Otwierany plik konfiguracyjny o nazwie &#34;[b]SKSE_Elys_Uncapper.ini[/b]&#34; i zmieniamy w nim warto&sacute;ci na te podane poni&zdot;ej.\r<br />\r<br />[b][General][/b]\r<br />bUseSkillExpGainMults=1\r<br />\r<br />[b][SkillExpGainMults][/b]\r<br />fAlchemy=0.0\r<br />fAlteration=0.0\r<br />fArchery=0.0\r<br />fBlock=0.0\r<br />fConjuration=0.0\r<br />fDestruction=0.0\r<br />fEnchanting=0.0\r<br />fHeavyArmor=0.0\r<br />fIllusion=0.0\r<br />fLightArmor=0.0\r<br />fLockpicking=0.0\r<br />fOneHanded=0.0\r<br />fPickpocket=0.0\r<br />fRestoration=0.0\r<br />fSmithing=0.0\r<br />fSneak=0.0\r<br />fSpeech=0.0\r<br />fTwoHanded=0.0\r<br />\r<br />[b]#6.[/b] Alternatywnie w plikach opcjonalnych pobra&cacute; mo&zdot;na gotowy plik konfiguracyjny &#34;Uncappera&#34; z odpowiednimi ustawieniami przygotowanymi przeze mnie specjalnie pod to spolszczenie, nie zawiera on &zdot;adnych udziwnie&nacute; - Po prostu zrobi&lstrok;em to co ka&zdot;dy mo&zdot;e zrobi&cacute; we w&lstrok;asnym zakresie z powy&zdot;szej instrukcji. To tylko takie ma&lstrok;e udogodnienie dla leniuszków. :)\r<br />\r<br />[img]http://iv.pl/images/08128753719009015164.png[/img]\r<br />\r<br />[b]#1.[/b] Pobieramy spolszczenie i wypakowujemy wszystko co zawarte w paczce do folderu &#34;Data&#34; w naszym Skyrimie.\r<br />\r<br />[b]#2.[/b] Pobieramy SKSE i instalujemy do g&lstrok;ównego folderu z gr&aogon;.\r<br />\r<br />[b]#3.[/b] Instalujemy mod &#34;SkyUI&#34; wedle instrukcji jego autora.\r<br />\r<br />[b]#4.[/b] Pobieramy modyfikacj&eogon; &#34;[b]Skyrim -Community- Uncapper&#34;[/b] równie&zdot; j&aogon; instalujemy i zmieniamy w niej plik konfiguracyjny na ustawienia podane powy&zdot;ej w zak&lstrok;adce &#34;Wymagania&#34; (Alternatywnie mo&zdot;na u&zdot;y&cacute; gotowego pliku konfiguracji, znale&zacute;&cacute; go mo&zdot;na w plikach opcjonalnych)\r<br />\r<br />[b]#5.[/b] Skyrima uruchamiany ze skrótu utworzonego przez SKSE.\r<br />\r<br />[img]http://iv.pl/images/68855805268624780425.png[/img]\r<br />\r<br />[b]Ogólnie o modyfikacji:[/b] SXP z tego co mo&zdot;na wyczyta&cacute; na jego g&lstrok;ównym profilu jest modem inspirowanym modyfikacj&aogon; do Obliviona znanym pod nazw&aogon; &#34;OblivionXP&#34; ca&lstrok;a jego idea zosta&lstrok;a oparta na wprowadzeniu do Skyrima oldschoolowego systemu do&sacute;wiadczenia w którym sami mo&zdot;emy zadecydowa&cacute; na co zdobyte punkty przeznaczy&cacute;, dzia&lstrok;a to ogólnie tak. Zdobywamy do&sacute;wiadczenie za wykonywanie ró&zdot;nych czynno&sacute;ci, nast&eogon;pnie przeznaczamy je na rozwój wybranych przez nas cech umiej&eogon;tno&sacute;ci dzi&eogon;ki temu wbijamy normalny level. Mo&zdot;liwa jest tak&zdot;e zamiana punktów do&sacute;wiadczenia w punkt cech który za&sacute; dowolnie mo&zdot;na przeznaczy&cacute; na rozwój wybranej przez nas cechy. Punkty do&sacute;wiadczenia zdoby&cacute; mo&zdot;na za najprzeró&zdot;niejsze czynno&sacute;ci pocz&aogon;wszy od wykonywania questów, sko&nacute;czywszy na spaniu, jedzeniu czy piciu. Po uzbieraniu danej liczby punktów wchodzimy w konfiguracj&eogon; SXP, w którym wybieramy jak&aogon; cech&eogon; chcemy rozwin&aogon;&cacute; i naciskamy &#34;Poziom w gór&eogon;&#34; w ten sam sposób mo&zdot;na wymienia&cacute; punkty do&sacute;wiadczenia na punkty cech, wszystkie niezb&eogon;dne ku temu opcje znajdziemy w menu konfiguracji moda. Wi&eogon;cej na temat SXP przeczyta&cacute; mo&zdot;na na jego g&lstrok;ównym profilu do którego zamieszczam link poni&zdot;ej, opis jest w j&eogon;zyku angielskim aczkolwiek wystarczy jego podstawowa znajomo&sacute;&cacute; by zrozumie&cacute; o co chodzi.\r<br />\r<br />[b]W[/b] tym miejscu serdecznie dzi&eogon;kuj&eogon; [b]eins[/b] za stworzenie tej &sacute;wietnej modyfikacji oraz udost&eogon;pnienie plików dzi&eogon;ki którym spolszczenie to mog&lstrok;o powsta&cacute;, oraz standardowo Bethesdzie za stworzenie wspania&lstrok;ej gry jak&aogon; jest Skyrim.\r<br />\r<br />[b]O[/b]ryginalny angielski profil SXP [b]-&gt; [url=http://www.nexusmods.com/skyrim/mods/40899/?][color=#ff0000]Klik[/color][/url][/b]",
+  "categoryId": "79",
+  "version": "2.2.2",
+  "author": "xGruby91x",
+  "createdUnix": "1424185536",
+  "updatedUnix": "1424361549",
+  "containsAdultContent": false,
+  "uploadedBy": "xGruby91x",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000147837",
+      "name": "Community Uncapper - Plik .ini dla SXP",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Community Uncapper - Plik .ini dla SXP-62776-1.zip",
+      "uploadedUnix": "1424191201",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/d79651c5d53c214ca1422daecb350065622097a8ff36cb042f70d80aee1ddcc9/analysis/1424191263/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Community%20Uncapper%20-%20Plik%20.ini%20dla%20SXP-62776-1.zip?fid=1000147837&ttl=1535851464&ri=8192&rs=8192&setec=8c11dc1d019096dcfac92362428cdb07"
+    },
+    {
+      "fileId": "1000148079",
+      "name": "SXP V2.2.2 - Spolszczenie",
+      "version": "2.2.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "91",
+      "fileName": "SXP V2.2.2 - Spolszczenie-62776-2-2-2.zip",
+      "uploadedUnix": "1424361549",
+      "modVersion": "2.2.2",
+      "virusScanUrl": "https://www.virustotal.com/file/de22b326921f5cc7bf8e9f778f2594e25fcb9c7cbdfd40414008b4fa1b915100/analysis/1424361603/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SXP%20V2.2.2%20-%20Spolszczenie-62776-2-2-2.zip?fid=1000148079&ttl=1535851465&ri=8192&rs=8192&setec=3e66270c307a892f9ff7374ecacfd600"
+    }
+  ]
+}

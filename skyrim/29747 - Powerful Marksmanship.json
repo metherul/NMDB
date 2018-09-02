@@ -1,0 +1,48 @@
+{
+  "modId": 29747.0,
+  "modName": "Powerful Marksmanship",
+  "summary": "Increases the damage of playable bows and arrows a bit. ",
+  "descriptionHtml": "I fixed my problem with loading the Dawnguard.esm so Dawnguard is now supported!\r\n---------\r\nINSTALLATION\r\n------------------------\r\nIf you\\'re downloading one of the files for the first time then simply choose the proper one, put\r\nit in your skyrim data, then make sure it is activated.\r\n\r\nIf you are upgrading to the Dawnguard version, you should be able to simply drag or paste the Dawnguard version then be able to select \\\"copy and replace\\\". Simply deleting the old version then pasting the new one will work as well. \r\n---------\r\nUNINSTALLATION\r\n------------\r\nYou can simply turn the .esp off or if you really want to fully uninstall it simply delete the file, it shouldn\\'t cause any problems for any of your save files. \r\n----------\r\nI tended to get frustarated when I was supposedly a master of archery yet my targets looked\r\nlike acupuncture dummies by the time I killed them. This mod doesn\\'t change the physics,\r\nit doesn\\'t add any new Elite archer arrows or anything, it simply takes all of the playable bows\r\nand arrows, then applies the formula D=(VD).37 + VD \r\nD is New damage\r\nVD is VanillaDamage\r\n.37 Because I take what is 37% of the Vanilla Damage then I add the Vanilla Damage \r\nSo in down to earth terms I\\'m just increasing the damage of all PLAYABLE bows and damage of arrows by 37% then I round the number. I didn\\'t mess with the physics because it\\'s already been done quite well. \r\n\r\nhttp://skyrim.nexusmods.com/mods/1009\r\n\r\nAlso, A more experienced modder made a mod called \\\"Bow Equals Warhammer\\\" Powers up\r\narchery a bit more than this one check it out\r\n\r\nhttp://skyrim.nexusmods.com/mods/24055\r\n\r\nPlease Enjoy!",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Haugerud15328",
+  "createdUnix": "1357839720",
+  "updatedUnix": "1358221230",
+  "containsAdultContent": false,
+  "uploadedBy": "Haugerud15328",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000001424",
+      "name": "PowerfulMarksmanshipV1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "PowerfulMarksmanshipV1-29747-1-0.rar",
+      "uploadedUnix": "1357839793",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2092f6d3dae8af6d127b3bd91adebbde3d5ff61ee059b644f4f746b61d284d7c/analysis/1407346652/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PowerfulMarksmanshipV1-29747-1-0.rar?fid=1000001424&ttl=1535804106&ri=8192&rs=8192&setec=0f10336048409a56b71f1605aebba24d"
+    },
+    {
+      "fileId": "1000002453",
+      "name": "DawnguardVersion",
+      "version": "1.0.DawnG",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "DawnguardVersion-29747-1-0-DawnG.rar",
+      "uploadedUnix": "1358221230",
+      "modVersion": "1.0.DawnG",
+      "virusScanUrl": "https://www.virustotal.com/file/86aeadb4e857b92b0c7ba247ba2ebc5468529460742a8605307ffe3cbba97a44/analysis/1407353953/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DawnguardVersion-29747-1-0-DawnG.rar?fid=1000002453&ttl=1535804107&ri=8192&rs=8192&setec=5aae306b43f32044ba352c6988096e2c"
+    }
+  ]
+}

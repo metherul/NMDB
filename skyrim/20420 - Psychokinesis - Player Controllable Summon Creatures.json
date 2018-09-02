@@ -1,0 +1,32 @@
+{
+  "modId": 20420.0,
+  "modName": "Psychokinesis - Player Controllable Summon Creatures",
+  "summary": "Allows you to summon and physically control creatures such as a Dragon Priest, Dremora or Werewolf.",
+  "descriptionHtml": "[color=red]REQUIREMENTS:[/color]\r\n - Skyrim patched to 1.6\r\n\r\n[color=red]FEATURES:[/color]\r\n - Summon and control creatures\r\n - Controllable: Dragon priest, Werewolf, Dremora, Frost Troll, Giant\r\n - This is not a beast-form transformation (your player character will follow you around while you fight enemies as a creature)\r\n - The advantage of a controllable summon over a beast-form transformation is that once the creature dies, you can resume playing. Also when the spell is expired, no crimes have been charged to the player.\r\n\r\n[color=red]NOTES:[/color]\r\n - Head to Faerengar in Dragonsreach to buy the spell tomes for each summon type.\r\n - Adjust camera distance by holding down the POV button (Dragon priest will turn invisible if camera is too close)\r\n - All creatures attack with right/left mouse buttons, but Dragon Priests have auto-spell casting and cannot melee attack.\r\n\r\n[color=red]KNOWN ISSUES:[/color]\r\n - This is a \\\"proof of concept\\\" mod, and it is fairly rough around the edges. This mod is mainly just a fun experiment.\r\n - If you run too far away from the player, the world may not load correctly if the distance is more than a cell apart. Allow the player to catch up to the creature before advancing forward.\r\n - All summoned creatures will still attempt to attack the player character from time to time (but player does not take damage while controlling creature).\r\n - Hit detection is buggy, so sometimes a direct melee attack might not register a hit.\r\n - The NPC AI is still active, so creatures may sometimes attack on their own (Dragon Priests will always auto-attack with spells).\r\n - Jumping/Sprinting does not work properly and may \\\"hang\\\" or get stuck in animation for a few seconds.\r\n - Unfortunately the player does not also fight with you while you are controlling a creature.\r\n\r\n[color=red]INSTALLATION:[/color]\r\n - Use NMM install, or open zip file and drag contents into Skyrim/Data folder.",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "AmethystDeceiver",
+  "createdUnix": "1342174270",
+  "updatedUnix": "1342174452",
+  "containsAdultContent": false,
+  "uploadedBy": "AmethystDeceiver",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "73978",
+      "name": "Psychokinesis V1-0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Psychokinesis V1-0-20420-1-0.zip",
+      "uploadedUnix": "1342174452",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/91890ea89c19cae249656d29676f52bb8c4e18c694be5dbd2097c9698479de14/analysis/1407019579/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Psychokinesis%20V1-0-20420-1-0.zip?fid=73978&ttl=1535788551&ri=8192&rs=8192&setec=cb4b12820440608b54f9eaee8d584998"
+    }
+  ]
+}

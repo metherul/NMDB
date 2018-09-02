@@ -1,0 +1,32 @@
+{
+  "modId": 57750.0,
+  "modName": "Steel From Iron",
+  "summary": "Crafting recipes for making steel ingots from iron ingots and charcoal and for making charcoal from firewood, both individually and in batch quantities.",
+  "descriptionHtml": "Name: Steel From Iron\r<br />Version: 1.2\r<br />Date: 9/1/2014 \r<br />Category: Items and Objects - Player\r<br />Author(s): Chuckg \r<br />\r<br />This mod allows you to burn firewood at a smelter to make charcoal, and then to combine charcoal and iron ingots to make steel ingots. Medieval blacksmiths knew how to combine iron bars and charcoal to make steel since at least the 12th century, so I consider this to be entirely lore friendly.\r<br />\r<br />Several mods already exist on the Nexus for doing this, this is just my fork of them with added conveniences like recipes for bulk conversion. The bulk recipes will be hidden on the menu unless you have sufficient ingredients to use them. \r<br />\r<br />The recipes are as follows:\r<br />\r<br />Steel\r<br />------\r<br />1 iron ingot + 1 charcoal = 1 steel ingot\r<br />5 iron ingots + 5 charcoal = 5 steel ingots\r<br />10 iron ingots + 10 charcoal = 10 steel ingots\r<br />25 iron ingots + 25 charcoal = 25 steel ingots\r<br />100 iron ingots + 100 charcoal = 100 steel ingots\r<br />\r<br />Charcoal\r<br />------\r<br />1 firewood = 5 charcoal\r<br />5 firewood = 25 charcoal\r<br />20 firewood = 100 charcoal\r<br />\r<br />Changes\r<br />=======\r<br />\r<br />1.1 - Updated to remove the hidden requirement for the Steel Smithing perk before the recipes would show up. This feature was not intended for this version.\r<br />\r<br />1.2 - Updated to remove a situation where the charcoal produced by burning a unit of firewood would be twice as valuable as the firewood itself.\r<br />\r<br />Cleaned in TES5Edit.\r<br />\r<br />\r<br />Credits\r<br />=======\r<br />With thanks to GalenZ&#39;s [url=http://www.nexusmods.com/skyrim/mods/14794/]Create Steel From Iron Ingots[/url] for giving me the idea and a pattern to follow, and gamefreak0010&#39;s [url=http://www.nexusmods.com/skyrim/mods/31687/]More Ingot Recipes[/url] both for teaching me how to do conditional recipes and hooking me on the convenience of being able to do batch ingot smelting. \r<br />\r<br />Some recipes from GalenZ&#39;s &#34;Create Steel From Iron Ingots&#34; were reused as per the permission policies on his mod entry.\r<br />\r<br />Compatibility\r<br />=======\r<br />This mod would not be fully compatible with any other mod that added identical or very similar recipes, as they would overlap and have redundant recipes show up in the smelting menu. This mod is entirely compatible with other crafting mods that don&#39;t actually add any iron ingot + charcoal = steel or firewood = charcoal recipes.\r<br />\r<br />This mod was specifically designed to work in tandem with [url=http://www.nexusmods.com/skyrim/mods/31687/]More Ingot Recipes[/url].",
+  "categoryId": "27",
+  "version": "1.2",
+  "author": "Chuckg",
+  "createdUnix": "1409610550",
+  "updatedUnix": "1409676230",
+  "containsAdultContent": false,
+  "uploadedBy": "Chuckg",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000125016",
+      "name": "Steel From Iron",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Steel From Iron-57750-1-2.7z",
+      "uploadedUnix": "1409676230",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/ee55994fa9c7db7ddd50e88a7ff487c2f16fa1b8843d7005c3e35964677fdb40/analysis/1409676303/",
+      "changelogHtml": " Reduced the cost of charcoal to remove a situation where the value of the charcoal produced by burning a unit of firewood would be twice as valuable as the firewood. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Steel%20From%20Iron-57750-1-2.7z?fid=1000125016&ttl=1535843914&ri=8192&rs=8192&setec=04881673fec23b0f6b77f3429e586585"
+    }
+  ]
+}

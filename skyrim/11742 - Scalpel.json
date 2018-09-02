@@ -1,0 +1,32 @@
+{
+  "modId": 11742.0,
+  "modName": "Scalpel",
+  "summary": "Makes the embalming tool playable, item requested by Unendingfear",
+  "descriptionHtml": "Makes the embalming tool playable, item requested by Unendingfear\r\n\r\nInstallation:\r\n\r\nCopy meshes folder & SCALPEL.esp to your Skyrim\\\\data directory.\r\n\r\nThe folder-structure should look like:\r\n... Skyrim\\\\data\\\\meshes\\\\weapons\\\\SCALPEL\\\\ ALL NIF FILES\r\n... Skyrim\\\\data\\\\SCALPEL.esp\r\n\r\nMake sure that the plugin is activated in startmenu | DATA FILES.\r\nThe scalpel is placed in the forge-menu along with the Daedric-items.\r\n\r\nNo Daedric Smithing Skill? Open console (key ^) and enter HELP SCALPEL 4\r\nYou get a code XX000D63 and enter PLAYER.ADDITEM XX000D63 1\r\n(XX = loadnumber of the mod - may differ and the 1 I added = amount)\r\n\r\nDamage should scale with your skills/lvl, if you want to adjust the dmg open the Creation Kit, \r\nload, check SKYRIM.ESM and SCALPEL.ESP in the left window, set SCALPEL.ESP to ACTIVE FILE and \r\npress OK. In the object window check ITEMS and WEAPONS, search for SCALPEL and open it, change \r\nthe dmg/speed values in this window, press OK and SAVE.\r\n\r\ngreetings\r\nGhosu",
+  "categoryId": "55",
+  "version": "1.0",
+  "author": "Ghosu",
+  "createdUnix": "1330572693",
+  "updatedUnix": "1330572775",
+  "containsAdultContent": false,
+  "uploadedBy": "ghosu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "38688",
+      "name": "Scalpel",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "73",
+      "fileName": "Scalpel-11742-1-0.rar",
+      "uploadedUnix": "1330572775",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8a11f2f9df499454445d5bf13924cc05ecb8b83e3d5dddba9ae29f0e7bcab242/analysis/1406722491/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Scalpel-11742-1-0.rar?fid=38688&ttl=1535773121&ri=8192&rs=8192&setec=5937425a503a3846fbcbc0ebf216a257"
+    }
+  ]
+}

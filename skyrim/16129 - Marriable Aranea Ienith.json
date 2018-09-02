@@ -1,0 +1,32 @@
+{
+  "modId": 16129.0,
+  "modName": "Marriable Aranea Ienith",
+  "summary": "Adds Aranea Ienith (The priestess from Azura\\'s Black Star quest) to the marriageable faction, and fixes a bug that prevents you from dressing her when she is a follower. Also adds the very-hard-to-get Marriage Crown and Marriage Dress for her should you decide to pop the question.",
+  "descriptionHtml": "Azura\\'s last priestess had long since given up her childhood dreams of adventure and romance. Now suddenly unemployed, she finds herself swept away by a dashing young adventurer... it may be time to dust off her mother\\'s wedding gown, after all.\r\n\r\n This module adds Aranea Ienith to the Marriage faction and fixes the bug that prevents the player from dressing her when she\\'s a follower. She can still be added as a follower and can still join the Blades. As an added bonus, she comes complete with a wedding dress and wreath \\\"just in case\\\". To get her to wear them, simply remove her other clothing.\r\n\r\n She can be found at the Shrine of Azura, on top of the tallest mountain slightly south of Winterhold, and becomes available for marriage / follower when you complete Azura\\'s quest.\r\n \r\nScreenshots shown are using Bella\\'s Better Female Faces ( http://skyrim.nexusmods.com/downloads/file.php?id=2812 ) and Caliente\\'s CBBE body mod ( http://skyrim.nexusmods.com/downloads/file.php?id=2666 ). These are NOT included in the package - this mod just sets her faction and fixes a few bugs that prevented you from dressing her as a Follower.\r\n\r\n Version 1.2, she\\'s now marked essential so you don\\'t accidentally fry her and I\\'ve also set her level cap to 80. The mod is now compatible with patch 1.5 which tweaked marriage rules. Please make sure this mod loads AFTER any other mods that affect followers, as these will often prevent her from getting married.\r\n \r\nIf you complete her quest in her favor, and this mod loads last, and she STILL wont marry you, you\\'ve been nailed by a Radiant AI bug introduced in 1.5. The bug can happen to anyone in the marriage faction if you speak to them after completing their quest, while wearing an amulet of mara that you found or purchased **prior** to speaking to Maramal (the priest in Riften). Radiant AI treats this as if you declined marriage and removes them from the faction.\r\n \r\nTo fix, you can open the console, select the npc, and type \\\"addfac 19809 1\\\", then buy an amulet from Maramal.\r\n \r\nIf that doesnt work, the best option is to load a savegame just prior to finishing their quest. Drop any Amulets of Mara you posess. Finsih the quest, and take the npc as a follower. Go to Maramal and buy a NEW amulet. Put that amulet on and talk to her. She should now ask you about it. \r\n\r\nOnce again, this bug can hit any follower you can marry, not just Aranea. Ive seen it on Mjoll and Mercurio as well.",
+  "categoryId": "33",
+  "version": "1.2",
+  "author": "Arodicus Snaux",
+  "createdUnix": "1335734614",
+  "updatedUnix": "1335735121",
+  "containsAdultContent": false,
+  "uploadedBy": "Arodicus",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "57413",
+      "name": "Marriable Aranea Ienith",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Marriable Aranea Ienith-16129-1-2.7z",
+      "uploadedUnix": "1335735121",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/0a3e4aaf236203913c858f45578e9d0fc3b8eee91c10d8bfc7b06182f1c54857/analysis/1406854788/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Marriable%20Aranea%20Ienith-16129-1-2.7z?fid=57413&ttl=1535781095&ri=8192&rs=8192&setec=6097e3c58a453db67bdffe7bde4721d5"
+    }
+  ]
+}

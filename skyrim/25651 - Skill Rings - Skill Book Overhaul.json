@@ -1,0 +1,32 @@
+{
+  "modId": 25651.0,
+  "modName": "Skill Rings - Skill Book Overhaul",
+  "summary": "Skill books now produce a Skill Ring which you can use to increase a skill of your choice by one level or by an amount of skill XP.",
+  "descriptionHtml": "[b][size=7]selyb\\'s Skill Rings[/size][/b]\r\n\r\n\r\n[size=6][b]Description:[/b][/size]\r\n[size=4]All vanilla skill books now give you one of three rings based on the class of the book. Upon installation, within 10s of loading your game or after character creation in a new game, you are prompted for configuration. You can choose to gain one level or to gain skill XP based on a level of your choice.\r\n\r\nWhen you read a skill book, you see some (hopefully?) lore friendly messages and are given a ring for the class that that book belongs to. When you use the ring, you are prompted to choose a skill from that class. If, for example, you chose 75XP in the configuration, you would receive the amount of experience needed to level that particular skill from 75 to 76 regardless of what level the skill is currently.\r\n\r\nIf you have any suggestions or complaints, feel free to leave a comment. I will not know if something needs to be changed if no one tells me anything.[/size]\r\n\r\n\r\n\r\n\r\n[size=6][b]Known issues:[/b][/size]\r\n[list][*]In all my research, I have found no way to determine the skill books already read so if you have read some and then install this mod, all of them will work again. Also, if you uninstall the mod, then reinstall it, all the books will work yet again.\r\n[*]If you have a mod that alters the forumulae for skill leveling, it [color=red]will not[/color] be reflected in this mod. To accurately determine the skill XP needed to advance a given level, I have hardcoded the formulae [url=http://www.uesp.net/wiki/Skyrim:Leveling]from this UESP page[/url]. If someone knows how to expose those skill variables to a script, let me know and I\\'ll make this more compatible with those kinds of mods.\r\n[*]In spite of the above, if a mod or ability changes the skill XP [color=red]rate[/color], the skill XP you gain [color=red]is[/color] affected. For this reason it makes sense to use Standing Stones + sleeping bonuses to gain extra XP from the Skill Rings :)\r\n[/list]\r\n\r\n\r\n[size=6][b]Performance:[/b][/size]\r\nI have done my best to make the smallest footprint on gamesaves. The only quest stops after initial configuration and the scripts only run during the menus so there should be no impact during any other time.\r\n\r\n\r\n[size=6][b]Compatibility:[/b][/size]\r\nThis should be compatible with Unread Books Glow but will not be compatible with mods that rename the books. It doesn\\'t make much sense to use this with a rename mod since the books are no longer married to a certain skill.\r\n\r\n\r\n[size=6][b]Future Plans:[/b][/size]\r\nI am looking into making just the skill books glow if unread. I will [b]not[/b] integrate this for all books. Also, I\\'m thinking about making a mod to allow new atronach forge recipes which call for multiple items (e.g. 30x nirnroot) and have this mod add a recipe to that list.\r\n\r\n\r\n[size=6][b]Installation:[/b][/size]\r\nI have provided the files packed in a bsa as well as the loose files. You need only choose one or the other. Also install the esp as usual.\r\n\r\n\r\n[size=6][b]UnInstallation:[/b][/size]\r\nAs long as the initial configuration is done, you should be able to uninstall with no problem.\r\n\r\n\r\n[size=6][b]Technical Side:[/b][/size]\r\nThe easy way to track read books would be to pass a formlist to the script and add read books to this list. I believe this is how Unread Books Glow does it. A sophisticated way would be to use bitwise AND/OR operations which are only available through SKSE. Instead, I wrote a small clever function with two quick loops to handle the pseudo-bitwise operations. Instead of having your save file potentially add 90x32 bits (all books read), this mod saves all that info in 6 global variables (32 bits ea). Now if you know a little about longs and floats you may ask why 6? 90 books would fit into 3 longs or floats. Well, I tried but Skyrim doesn\\'t save large numbers in their entirety. If you want to see it in action, open the CK, create a Global long, put 1073741823 for the value and watch it change as soon as you hit OK. The game engine does this and worse :(\r\n\r\n\r\n[size=6][b]Credits:[/b][/size]\r\nThis mod is my own work less one script line that I copied from Character Creation Overhaul by Syclonix which is noted in the script source.",
+  "categoryId": "73",
+  "version": "1.0",
+  "author": "selyb",
+  "createdUnix": "1350550223",
+  "updatedUnix": "1350550491",
+  "containsAdultContent": false,
+  "uploadedBy": "selyb",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "94405",
+      "name": "selybs Skill Rings v1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "211",
+      "fileName": "selybs Skill Rings v1-25651-1-0.7z",
+      "uploadedUnix": "1350550491",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b887669e098a824b826d29b4f6a5aefdd91e90b0f49db4d95e48f8be9259a0c5/analysis/1407227405/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/selybs%20Skill%20Rings%20v1-25651-1-0.7z?fid=94405&ttl=1535797269&ri=8192&rs=8192&setec=e5decf1ece785c18d4970c6ab9502e6f"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "modId": 54820.0,
+  "modName": "Papyrus log friendly Gas Traps",
+  "summary": "Stops the script for Gas Traps from unnecessarily filling the Papyrus log.",
+  "descriptionHtml": "Ever noticed a load of entries in your papyrus log complaining about the gas trap script? In both Bethesda&#39;s version, and even the USKP version, there&#39;s a bug. When checking whether the trap should go off, it checks if you&#39;ve got a spell equipped, whether the spell in your one specific hand is a fire spell (before checking the other). More clearly, it does the following:\r<br />\r<br />if ( the actor that&#39;s in range of the trap has a spell has a spell )\r<br />    if ( the spell in their first hand is a fire spell )\r<br />        explode()\r<br />    else\r<br />        do something else\r<br />\r<br />There&#39;s just one small problem: you can have a spell in your one hand, and something that isn&#39;t a spell in your other. This means that getEquippedSpell(0) returns a null object, and when that object&#39;s properties are checked, there aren&#39;t any (as it isn&#39;t actually a spell object), and the script crashes, dumps a line in the papyrus log, and stops running. This wouldn&#39;t be that bad, as it&#39;d just stop you being able to kill yourself in gas explosions, except that the script restarts in the next frame, and does the same thing again. This means you&#39;ll get rapid papyrus log bloat in certain Dwemer ruins, and then if you have an actual issue you need to debug, you&#39;ll struggle to find it. it may be that it makes no difference to actual game stability, though, as Skyrim&#39;s fail-fast systems are quite effective.\r<br />\r<br />This [i]should[/i] fix everything, and shouldn&#39;t break anything that wasn&#39;t already broken. I&#39;ve been using this fix for months now with no issues, however before releasing this, I decided to include USKP&#39;s fixes to this script too, and haven&#39;t tested much since. There&#39;s no reason my change should be incompatible with theirs as they modified completely different parts of the script. It&#39;s possible what they did was a failed attempt to fix the same problem, but they haven&#39;t made anything worse.",
+  "categoryId": "95",
+  "version": "1",
+  "author": "AnyOldName3",
+  "createdUnix": "1402591995",
+  "updatedUnix": "1402591995",
+  "containsAdultContent": false,
+  "uploadedBy": "AnyOldName3",
+  "primaryFile": null,
+  "files": []
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 34091.0,
+  "modName": "Wrong Effect _blind_ Cure",
+  "summary": "Fixes wrongly aquired effects like (falmer\\'s) blind.",
+  "descriptionHtml": "This is a fix for people who somehow aquired a magic effect like blind. This one is supposed to be gained only by falmers...but there\\'s some bug and somehow player can get it.\r\n\r\nThis mod is a \\\"cure\\\" for the problem, not a \\\"prevention\\\". It may conflict with mods that try to prevent it and should be used only if your game is already bugged. Mods that prevent it most likely won\\'t cure it if already gained. This mod should be loaded after such prevention mods, if any, and in this case this fix mod should be deleted after use and carefull atention may be needed to check if everything will end up ok.\r\n\r\nTo aquire the spell go to console and type \\\"help lh_cure\\\" then \\\"player.addspell XX000d64\\\" where XX comes from the help result. This adds a power that you can cast with the shout key and will cure the blindness. Afterwards you can use \\\"player.removespell XX000d64\\\" to get rid of the power, or completly deactivate the mod.\r\n\r\nIf you know similar other magic effects that can wrongly affect the player leave them in a comment and I\\'ll add them to this. Also, if I find time and will I may try to find a prevention.",
+  "categoryId": "95",
+  "version": "1",
+  "author": "LukeH",
+  "createdUnix": "1364593047",
+  "updatedUnix": "1364592369",
+  "containsAdultContent": false,
+  "uploadedBy": "LukeH",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000020992",
+      "name": "WrongEffectCure",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "WrongEffectCure-34091-1.zip",
+      "uploadedUnix": "1364592369",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/83127177630fa8fd4ba0c29736b208aa48b874c6fe54a1d50000444cddc211f2/analysis/1407494463/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/WrongEffectCure-34091-1.zip?fid=1000020992&ttl=1535811614&ri=8192&rs=8192&setec=65cb63510049fb987c4625e2796cd34b"
+    }
+  ]
+}

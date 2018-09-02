@@ -1,0 +1,48 @@
+{
+  "modId": 14393.0,
+  "modName": "cMK - Custom Storage Spells",
+  "summary": "Proof of concept mod. \\\"Mark\\\" containers and then open them from anywhere in Skyrim.",
+  "descriptionHtml": "[heading]Introduction[/heading]\r\nThis mod grew out of a proof of concept. The original idea came from the Nexus Forums:\r\n[url=http://forums.nexusmods.com/index.php?/topic/633577-automatic-storage-system-in-three-parts-spells/]http://forums.nexusmods.com/index.php?/topic/633577-automatic-storage-system-in-three-parts-spells/[/url]\r\n\r\n[heading]Description (Version 1.1)[/heading]\r\nThis mod allows you to use a spell to \\\"mark\\\" containers. You can then cast the spell to open the containers you have \\\"marked\\\" from anywhere in Skyrim.\r\n\r\nThis mod has been expanded slightly to be a little more useful beyond a tutorial. There is now one spell, \\\"Custom Storage - Interface\\\" (details below). Also, you are now able to set multiple containers.\r\n\r\n[heading]Custom Storage - Interface[/heading]\r\nThe spell tome that teaches this spell is craftable from any tanning rack for one gold.\r\n\r\nIf you are sneaking when you cast this spell it will allow you to \\\"set\\\"/\\\"mark\\\" a container. A small help message will appear and if you open a container within a few seconds a menu will appear. Choose what name/category you want to assign to this container. WARNING: If you have set a container already and choose a new one it will overwrite your setting. The items will not be transferred to the new container. They will still be in the old container, but you will have to travel to the old container to retrieve your items.\r\n\r\nIf you are not sneaking when you cast this spell a menu will appear with the available names/categories. Once you select a container it will be opened and you can transfer items in and out just as if the container was at your feet (no matter where you are). If you have not yet set a container for that category an error message will display in the notification area.\r\n\r\n[heading]What about the old spells?[/heading]\r\nThe old spells (set and open with only 1 container) are still in there and will continue to function (so if you used version 1.0 you can still access the stuff you stashed away). However, the version 1.0 books are no longer craftable from the tanning rack (although they are still in the mod, you\\'ll have to use the console to add them to your inventory if you need them).\r\n\r\nIf you didn\\'t use version 1.0 the old books/spells are not needed.\r\n\r\n[heading]Other Notes[/heading]\r\nThis mod is fully functional and anyone can use it; however, the intended purpose is twofold:\r\n[list=1]\r\n[*]figure out how to do it\r\n[*]post the method so other mod authors that may want to know how to do this can look at this mod and figure it out\r\n[/list]\r\n\r\nBecause of #2 if you want to use any of this mod in another mod go right ahead. I would appreciate a mention if you do. ^_^\r\n\r\nAs for me, I need to thank Xilver for his \\\"Midas Magic - Spells in Skyrim\\\" mod since I peeked at his \\\"open lock\\\" spells to get started. Find his great mod here:\r\n\r\n[url=http://skyrim.nexusmods.com/downloads/file.php?id=3413]http://skyrim.nexusmods.com/downloads/file.php?id=3413[/url]\r\n\r\n[heading]Version History[/heading]\r\n[b]v1.1[/b]\r\n[list]\r\n[*]deprecated the version 1.0 spells and books (they have not been removed)\r\n[*]new single interface spell\r\n[*]multiple assignments now possible (not just one container)\r\n[*]changed the value of the spell tomes (crafting for 1 gold and selling for 500 was a mistake :)\r\n[/list]\r\n\r\n[b]v1.0[/b]\r\n[list]\r\n[*]initial release\r\n[/list]\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "categoryId": "28",
+  "version": "1.1",
+  "author": "crayo",
+  "createdUnix": "1333606466",
+  "updatedUnix": "1333742691",
+  "containsAdultContent": false,
+  "uploadedBy": "crayo",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "50207",
+      "name": "cMK - Custom Storage Spells v1_0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "cMK - Custom Storage Spells v1_0-14393.zip",
+      "uploadedUnix": "1333606506",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e4e63f293f025868d6f0c0d14f4c43bd9bd79e3b5ae26189c91f7e3043193baf/analysis/1406798224/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/cMK%20-%20Custom%20Storage%20Spells%20v1_0-14393.zip?fid=50207&ttl=1535777970&ri=8192&rs=8192&setec=92d9c19df2a6f148c4d74461d9a45033"
+    },
+    {
+      "fileId": "50713",
+      "name": "cMK - Custom Storage Spells v1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "cMK - Custom Storage Spells v1_1-14393-1-1.zip",
+      "uploadedUnix": "1333742691",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/cced9102f8b3c28aabf56d88759cfa064ab71ddfb8b287d5efde116ab9beac2e/analysis/1406801116/",
+      "changelogHtml": " old spells and spell tomes deprecated <br/> \n new single interface spell <br/> \n multiple containers can now be set <br/> \n spell tome value reduced to 1 gold (from 500) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/cMK%20-%20Custom%20Storage%20Spells%20v1_1-14393-1-1.zip?fid=50713&ttl=1535777970&ri=8192&rs=8192&setec=239a2c573c27dc2ee101f70508198ee1"
+    }
+  ]
+}

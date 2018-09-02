@@ -1,0 +1,48 @@
+{
+  "modId": 76343.0,
+  "modName": "Missing Content Identifier",
+  "summary": "A simple tool to see which mods are missing from the load order.",
+  "descriptionHtml": "I&#39;ve created this simple tool because I was curious exactly which mod was missing from my load order since I didn&#39;t deactivate anything on purpose. Found 59 missing plugins. Oops...\r<br />\r<br />Wrye Bash/Mod Organizer can tell the same thing but if one doesn&#39;t use them for some reason, this tool can come in handy.\r<br />\r<br />[u]Installation[/u]\r<br />\r<br />Not necessary. Just unpack everything into a folder and run MissingContentIdentifier.exe.\r<br />\r<br />[u]Uninstallation[/u]\r<br />\r<br />Delete every file from that folder. Except those you might want to preserve.\r<br />\r<br />[u]Usage[/u]\r<br />\r<br />If you click on the Open button the program automatically tries to find your Skyrim saves folder and the plugins.txt file. It probably won&#39;t work on Windows XP - in this case you have to open these files manually. On the left side you can see the active plugins at the time of save while on the right side you can see which plugins are currently missing from your load order (if any).\r<br />\r<br />If you use Mod Organizer and/or have a multi profile setup you have to enable the checkbox and manually open the plugins.txt associated with your save file.\r<br />\r<br />Thanks to Bethesda for creating this great game. Whish they&#39;d move episode VI a bit higher on their priority list...\r<br />Thanks to Oracle for their virtualization technology (so I could make a testing ground for Mod Organizer compatibility without messing up my main Skyrim installation :)\r<br />",
+  "categoryId": "39",
+  "version": "1.1",
+  "author": "Vik",
+  "createdUnix": "1466015055",
+  "updatedUnix": "1466418071",
+  "containsAdultContent": false,
+  "uploadedBy": "Luke2135",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000209945",
+      "name": "Missing Content Identifier",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "12268",
+      "fileName": "Missing Content Identifier-76343-1-0.7z",
+      "uploadedUnix": "1466011661",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0d91676f6f1868b57ee4ffb137b681c135f9bf477851c69f0d16b51a7818b54f/analysis/1466022666/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Missing%20Content%20Identifier-76343-1-0.7z?fid=1000209945&ttl=1535865061&ri=8192&rs=8192&setec=b5760197e14884813fc75054d43b9b26"
+    },
+    {
+      "fileId": "1000210462",
+      "name": "Missing Content Identifier",
+      "version": "1.1",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "21",
+      "fileName": "Missing Content Identifier-76343-1-1.zip",
+      "uploadedUnix": "1466418071",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7df0147fd26712b78169345e3ce06549e78874bbd5cac84cc430e65dc5751da5/analysis/1466418122/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Missing%20Content%20Identifier-76343-1-1.zip?fid=1000210462&ttl=1535865061&ri=8192&rs=8192&setec=f0d90344251fcb86c7bf50177497f2b9"
+    }
+  ]
+}

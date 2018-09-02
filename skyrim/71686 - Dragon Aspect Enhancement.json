@@ -1,0 +1,48 @@
+{
+  "modId": 71686.0,
+  "modName": "Dragon Aspect Enhancement",
+  "summary": "Unleash your Inner Aedroth",
+  "descriptionHtml": "[img]http://staticdelivery.nexusmods.com/mods/110/images/71686-0-1448938735.png[/img]\r<br /> \r<br />\r<br />\r<br />Author: MadCat221 (MadCat221@gmail.com)\r<br />\r<br />Version: 1.0\r<br />\r<br />First release: November 30, 2014\r<br />\r<br />1. Introduction\r<br />2: Installation\r<br />3. Version History\r<br />4: Compatibility Issues\r<br />\r<br />===============\r<br />1. INTRODUCTION\r<br />===============\r<br />\r<br />Does Dragon Aspect seem a bit... dorky-looking to you?  Dragon head hands, dragon head codpiece (whut?), no legs, no feet, no love for archers or destruction mages for kill skill enhancement... Meh.\r<br />\r<br />So I fixed it.  I did some overhauling of a lot of the meshwork:\r<br />\r<br />* Hands are now true 5-digit appendages instead of dragon heads (spliced from the chitin heavy gauntlets if you wish to know).\r<br />* The dragon head codpiece is removed.\r<br />* There are now leggings around the knee and lower leg.\r<br />* There are now feet.  I originally was gonna get permission to use Grimoa&#39;s Plantigrade Beast Feet for a basis, but no response was forthcoming so I made my own.\r<br />* A dragon aspect tail&#33;  This required assigning the beast skeleton to all the non-beast races, read below in compatibility issues.\r<br />* Some overall tweeking all around for better conforming (such as bust space for the female DBA chest portion).\r<br />* A low rumble and distant dragon roar to accompany full invocation of the Dragon Aspect.\r<br />* Ancient Dragonborn Helpers are now sexually dimorphic (randomly chosen) and have under-bodies as well as all the above visual enhancements.  They also have an ethereal axe now too.\r<br />* Miraak is enhanced too&#33;\r<br />\r<br />As for the gameplay buffs, they are largely identical to what I have for it in Dragonborn Ascendant (http://www.nexusmods.com/skyrim/mods/17010/?):\r<br />\r<br />* Magic armor buffs all around\r<br />* Inclusion of damage buffs to all kill skills, not just melee power attacks.\r<br />\r<br />===============\r<br />2. INSTALLATION\r<br />===============\r<br />\r<br />It is just a module and a BSA (and a BSL but it&#39;s seemingly unimportant), so install as normal. This mod will require Dawnguard and Dragonorn DLC modules.\r<br />\r<br />==================\r<br />3. VERSION HISTORY\r<br />==================\r<br />\r<br />v 1.0:\r<br />First release.\r<br />\r<br />=======================\r<br />4: COMPATIBILITY ISSUES\r<br />=======================\r<br />\r<br />Because I had to alter the RACE records, there may be compatibility issues.  I built in compatibility with Left-Handed Rings.  Because the tail skeletal armature was needed, I changed all non-Beast races to use the Beast skeleton.\r<br />\r<br />Alas, because of something going on in the tail HKX project files, it precluded the tail working with pre-existing beastfolk tails, and thus only the Ehlnofey races (Men and Elves) will have a dragon aspect tail.  Sorry...\r<br />\r<br />It will in all likelihood NOT be compatible with other Dragon Aspect mods.",
+  "categoryId": "29",
+  "version": "1",
+  "author": "MadCat221",
+  "createdUnix": "1448932352",
+  "updatedUnix": "1448941464",
+  "containsAdultContent": false,
+  "uploadedBy": "Madcat221",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000186540",
+      "name": "Dragon Aspect Enhancement V1_0",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1378",
+      "fileName": "Dragon Aspect Enhancement V1_0-71686-1.7z",
+      "uploadedUnix": "1448932343",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/166e38df078766bfd7724eb7f4daa7d1d3cdddb13831fe6f8eb5193d5faf6825/analysis/1448932383/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dragon%20Aspect%20Enhancement%20V1_0-71686-1.7z?fid=1000186540&ttl=1535860239&ri=8192&rs=8192&setec=8aeac4c6fb2cc201f4ec10d2ea863c9f"
+    },
+    {
+      "fileId": "1000186552",
+      "name": "Dragon Aspect Enhancement V1_0_NoTail",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "31",
+      "fileName": "Dragon Aspect Enhancement V1_0_NoTail-71686-1.7z",
+      "uploadedUnix": "1448941464",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/56416b98afdd553c99d95951300bba02f5d873b6e9c42c1ac52f877004d3b173/analysis/1448941503/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dragon%20Aspect%20Enhancement%20V1_0_NoTail-71686-1.7z?fid=1000186552&ttl=1535860240&ri=8192&rs=8192&setec=65c9c19e9a22a0fe48d09dc3dbd37a72"
+    }
+  ]
+}

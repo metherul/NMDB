@@ -1,0 +1,32 @@
+{
+  "modId": 38280.0,
+  "modName": "Books BAT file - Books only",
+  "summary": "A well organized commented batch file that only adds books - no spell tomes, no journals, no random notes, elder scrolls, or dev junk.",
+  "descriptionHtml": "[b]What this is:[/b]\r\nA well organized commented batch file that only adds books - no spell tomes, no journals, no random notes, elder scrolls, or dev junk. Nearly 350 in total!\r\n\r\n[b]Description:[/b]\r\nI created this mod because I wanted it personally and to my great surprise it just simply wasn\\'t available. There are some out there that add ALL books but honestly who wants notes, journals, duplicates of everything, random dev books, elder scolls, and just a bunch of junk?\r\n\r\nAnd so, I set out to make it since it didn\\'t exist. I used [url=http://www.uesp.net/wiki/Skyrim:Books]UESP\\'s Books[/url] page and sorted by type and started the painstaking process of going down that list. I also made sure to keep everything fairly well commented (heh, and trust me... it would have been easier not to!). Hell, sometime around the start of list 3 I started questioning my own sanity...\r\n\r\nIf you\\'re like me and want to sit down and read some of these books sometime with a nice clean list then I think you\\'ll find this useful. There are no skill tomes and there is no random junk. What you have here are books, books, books. Though I should note that books that award skill points are included as they are actually also valid books as well.\r\n\r\nWhat I\\'m providing are called batch files (after windows *.bat files, which when executed just run a series of commands; in this case with Skyrim it\\'s a txt file that executes in-game console commands rather than having to type them manually). They go in your Skyrim main directory (by your exe) and you invoke them in-game by hitting ` (tilde) to bring up your console and then typing \\\"bat \\\" followed by the text file\\'s name. So if you had something like \\\"chicken-butt.txt\\\" you\\'d type \\\"bat chicken-butt\\\" and there you go!\r\n\r\nEverything is very well organized and commented. Take a look at the txt file and if there\\'s any section you don\\'t want just delete it.\r\n\r\n[b]Usage:[/b]\r\n1. Put the file in your Skyrim TESV.exe\\'s directory, e.g. something like \r\n\\\"C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\\\\" most likely. Not your Data directory - that\\'s one level too far.\r\n2. Take a look at the contents and edit out anything if you feel like you don\\'t want it - it\\'s very well labeled!\r\n3. I suggest you go somewhere near a container cause you\\'re about to be overencumbered.\r\n4. Bring up your console in-game by using ` (key left of 1 on keyboard)\r\n5. Type \\\"bat books\\\" without the quotes and hit enter. You should see a bunch of stuff like \\\"player.additem 1b01e 1 ;the wolf queen v6\\\" and if you do then that\\'s good.\r\n6. Hit ` again to close your console.\r\n\r\n[b]Uninstallation:[/b]\r\n1. Dude, it\\'s a text file. Just delete it.\r\n2. No wait, let\\'s say you want to remove all the books you added to yourself, eh? ehhh? Okay. I got it.\r\n3. Open books.txt and hit ctrl+h, now type in FIND \\\"player.add\\\" then REPLACE with \\\"player.remove\\\", hit ok and let it do its magic. Save.\r\n4. Go in-game and open console, type \\\"bat books\\\"\r\n5. woosh~! no more books. Delete the txt file and it\\'s out of your life for good, that treacherous texty little jerk!\r\n\r\nIf you liked the mod don\\'t forget to leave a comment or hit the endorse button, I\\'ll feel less bad about spending so long doing something like this!\r\n\r\nOh and if you find anything that\\'s wrong let me know.\r\n\r\n[b]Changelog:[/b]\r\n[u]Version 1.3[/u]\r\n-Fixed a problem of two final lessons (1b267) and no the falmer: a study (e0d68) and relabled 5 entries accordingly\r\n[u]Version 1.2[/u]\r\n-Commented out 72840, dupe of Last King of the Ayleids\r\n-Note: There is \\\"The Keepers of the Razor\\\" 973ac which is a journal style book but I like it so I intend to keep it. It\\'s the first entry under \\\";random books\\\" if you want to remove it or comment it out yourself.\r\n[u]Version 1.1[/u]\r\n-ef2c9 replaced with ef2c0 - typo\r\n-1b22f) - removed )\r\n-e7f33) - removed )\r\n-1afd8 - no count. fixed.\r\n-72840 - no count. fixed.\r\n-Many of the skill books were lacking a count number from about lockpicking onwards. They came up last in the list and I moved them to the top of the list and after I finished with the labels for the normal books I forgot to go back to the top and add counts. But I\\'ve got it fixed now.\r\n-Commented out duplicate of Fragment on Artaeum (1ad06) in favor of 72841 which I prefer the cover of.\r\n-I also added version numbering, download URL, and mod name/author to the bat file just for people months down the line that are wondering what the heck that file is lol\r\n[u]Version 1.0[/u]\r\n-Initial Release",
+  "categoryId": "98",
+  "version": "1.3",
+  "author": "XunAmarox",
+  "createdUnix": "1373681852",
+  "updatedUnix": "1373687208",
+  "containsAdultContent": false,
+  "uploadedBy": "XunAmarox",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000038665",
+      "name": "Books BAT file - Books only",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Books BAT file - Books only-38280-1-3.7z",
+      "uploadedUnix": "1373687208",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/316a10146d71e785e9d3abfd6bfc358b2b5e7d32708cceed5010e9cc980ded2d/analysis/1407641642/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Books%20BAT%20file%20-%20Books%20only-38280-1-3.7z?fid=1000038665&ttl=1535818526&ri=8192&rs=8192&setec=3f997cc72debab9c32c7ea08a454a6ea"
+    }
+  ]
+}

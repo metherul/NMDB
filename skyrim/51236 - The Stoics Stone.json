@@ -1,0 +1,48 @@
+{
+  "modId": 51236.0,
+  "modName": "The Stoics Stone",
+  "summary": "Sacrifice your magical abilities to become a resilient warrior of virtue.",
+  "descriptionHtml": "REQUIRES SKSE\r<br />THE STOIC&#39;S STONE IS LOCATED JUST WEST OF SEPTIMUS&#39; OUTPOST, IT IS ENABLED ON THE MAP.\r<br />\r<br />The Stoic&#39;s Stone is a blessing in the guise of a doomstone, although in terms of gameplay, it is not. You may have the Stoic&#39;s Stone active with another doomstone. The blessing is designed for those players who find themselves using only restoration, and hitting everything in the face with a hammer. \r<br />\r<br />Players opting to receive this blessing will lose 50 points to Conjuration, Illusion, Destruction, and Alteration. This is of course reversed if the player activates the stone again. The player will also no longer regenerate magicka over time.\r<br />\r<br />Instead, the player&#39;s magicka will constantly feed into his health (if health is below 100%), and blocking attacks will refill the player&#39;s magicka.\r<br />\r<br />The player is able to regenerate magicka out of combat by activating &#34;Stoic Calm&#34; with the comma button.\r<br />\r<br />Power attacks blocked by the player have a chance to knock the enemy down.\r<br />\r<br />Any attack blocked by the player may trigger &#34;Indomitable Will,&#34; which will reduce incoming damage by 50% and increase melee weapon speed by 150%. This lasts five seconds.\r<br />\r<br />README:\r<br />\r<br />&#34;The Stoic&#39;s Stone&#34; is a combat change implemented in terms of a doomstone, \r<br />although it is not one. You may have another doomstone active with the Stoic&#39;s stone\r<br />active as well.\r<br />\r<br />The blessing is designed for the melee fighters, tanks, the sword and boarders, the wrecking balls\r<br />of Skyrim. Puny fireball slingers need not apply. \r<br />\r<br />To recieve the blessing, go to the Stoic&#39;s Stone, west of Septimus&#39;s outpost, already on the map.\r<br />\r<br />Here are the effects, with fancy names to boot&#33;\r<br />\r<br />Buffs:\r<br />\r<br />&#34;Permit Nothing to Cleave to You&#34;\r<br />- Blocking attacks recovers your mana.\r<br />- Blocking power attacks may knock your enemy away and to the ground\r<br />- Blocking any attack has a chance to trigger &#34;Indomitable Will&#34;\r<br />\r<br />&#34;Indomitable Will&#34;\r<br />- 50% reduction in incoming damage\r<br />- +150% melee weapon speed\r<br />- Lasts 5 seconds\r<br />\r<br />&#34;Only Time Can Heal What Reason Cannot&#34;\r<br />- The Stoic regenerates health equivalent to the starter &#34;healing spell&#34; when not at full health.\r<br />- This depletes mana at the same rate that casting the spell would\r<br />\r<br />Debuffs:\r<br />\r<br />&#34;A Limit Circumscribed to Your Time&#34;\r<br />- The Stoic does not regenerate mana over time.\r<br />\r<br />&#34;By Reason of Himself Alone&#34;\r<br />- Loss of 50 Conjuration skill points\r<br />- Loss of 50 Destruction skill points\r<br />\r<br />&#34;Nothing Incorporeal Exists&#34;\r<br />- Loss of 50 Illusion skill points\r<br />- Loss of 50 Alteration skill points\r<br />\r<br />Abilities:\r<br />\r<br />&#34;Stoic Calm&#34;\r<br />- The Stoic may regenerate mana out of combat by holding &#34;,&#34; (the comma button) at his normal rate.\r<br />\r<br />----------------------------------\r<br />Installation\r<br />----------------------------------\r<br />Standard fare, extract to your data folder, activate esp. Launch the game with SKSE\r<br />----------------------------------\r<br />",
+  "categoryId": "93",
+  "version": "1.01",
+  "author": "jonathan0068",
+  "createdUnix": "1392681588",
+  "updatedUnix": "1392784677",
+  "containsAdultContent": false,
+  "uploadedBy": "jonathan0068",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000097565",
+      "name": "Main File",
+      "version": "1.00",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "250",
+      "fileName": "Main File-51236-1-00.zip",
+      "uploadedUnix": "1392681583",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/52b9360dc9c22321694c98371641b9a976657489c8cc72df932e28b2124457b1/analysis/1407938176/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Main%20File-51236-1-00.zip?fid=1000097565&ttl=1535833458&ri=8192&rs=8192&setec=31404c17acd04272312d1b6cbb043520"
+    },
+    {
+      "fileId": "1000097753",
+      "name": "Main File",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "250",
+      "fileName": "Main File-51236-1-01.zip",
+      "uploadedUnix": "1392784677",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/d107e2423e40205a16287fd89f1ac7c392a30156406068cc9dbd11a26f1aef01/analysis/1407940148/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Main%20File-51236-1-01.zip?fid=1000097753&ttl=1535833459&ri=8192&rs=8192&setec=a9759ce346e0c4ca3f642117e644f66f"
+    }
+  ]
+}

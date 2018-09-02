@@ -1,0 +1,32 @@
+{
+  "modId": 30095.0,
+  "modName": "Unofficial Unofficial Skyrim Patch Patch - Training Scripts",
+  "summary": "Reverts the change to follower trainers made by the Unofficial Skyrim Patch v1.2.6 and later",
+  "descriptionHtml": "[b][[url=https://jmrooker.wordpress.com/2016/06/19/a-message-to-my-mod-users-console-gamers-and-mod-makers/]Important Message To My Mod Users, Console Gamers and Mod Makers[/url]] [/b]\r<br />\r<br />Reverts the change to follower trainers made by the Unofficial Skyrim Patch v1.2.6 (and later). Source files included. Click &#34;Yes&#34; to overwrite files if prompted.\r<br />\r<br />Specifically, the USKP rewrites the scripts that handle skill trainers who are also followers to remove their gold when you pay for training. It means the gold will not be in their inventory after training. As this seems to be purely a balance issue and not a bug, I don&#39;t believe it&#39;s appropriate to include in the USKP. This patch overrides the USKP scripts with the original scripts as created by Bethesda.",
+  "categoryId": "24",
+  "version": "1.2.6",
+  "author": "Rooker",
+  "createdUnix": "1358494659",
+  "updatedUnix": "1358494717",
+  "containsAdultContent": false,
+  "uploadedBy": "Rooker75",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000003116",
+      "name": "UUSKPP Trainer Scripts",
+      "version": "1.2.6",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "UUSKPP Trainer Scripts-30095-1-2-6.zip",
+      "uploadedUnix": "1358494717",
+      "modVersion": "1.2.6",
+      "virusScanUrl": "https://www.virustotal.com/file/40f5e084ebd5b44095ce0cfe6456b1560925ceaa4c375045d962ac8a0d008960/analysis/1407359048/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/UUSKPP%20Trainer%20Scripts-30095-1-2-6.zip?fid=1000003116&ttl=1535804673&ri=8192&rs=8192&setec=3ebf2da033cfb4d5c3e897184f7ee4c9"
+    }
+  ]
+}

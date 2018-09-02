@@ -1,0 +1,32 @@
+{
+  "modId": 21994.0,
+  "modName": "Elders of Skyrim",
+  "summary": "Makes the Elder race a playable race and adds all of the Elder NPCs to the list of presets.",
+  "descriptionHtml": "Elders of Skyrim\r\n================\r\nv 1.0\r\n\r\nThis mod makes the Elder race a playable race.\r\n\r\nWhat it does:\r\n-------------\r\n- adds all 44 named Elder NPCs to the list of Elder race presets; in other words, you can play as Esbern, Arngeir, etc.\r\n\t- 27 male presets\r\n\t- 17 female presets\r\n- adds two custom presets\r\n\t- Gandalf, a male, and\r\n\t- Baba Yaga, a female\r\n- fixes the \\'invisible arm in first person\\' bug\r\n\t- an edit to the NakedHandsOld ArmorAddon object was required to fix the female hands in first person\r\n- updates mounted combat attack data for both the Elder and ElderVampire races\r\n- provides custom skill modifiers, attribute modifiers, and a new racial power\r\n\t- +5 to Smithing, Enchanting, Alchemy, Restoration and Illusion\r\n\t- +10 to Speech\r\n\t- -10 starting Health and Stamina\r\n\t- +20 starting Magicka\r\n\t- reduced Health and Stamina recovery rate\r\n\t- increased Magicka recovery rate\r\n\t- Skillful Mastery racial power\r\n\t\t- once per day, fortify all skills by 15 points for 60 seconds\r\n\t- starting spell: Calm\r\n\t\t- Note: At the start of the game, your character won\\'t have enough Magicka to cast Calm. You can use your Skillful Mastery ability to increase your Illusion skill enough to cast it. Don\\'t cast it on Ralof or Hadvar as it will just delay the main quest.\r\n- changes the name of the race from Old People Race!\r\n\r\nKnown Issues\r\n------------\r\nNone, but it hasn\\'t been extensively tested. Vampire compatibility hasn\\'t been tested at all. Please let me know if you find any bugs.\r\n\r\nMod Conflicts\r\n-------------\r\nThis mod will conflict with any other mod that alters the Elder race and the ElderVampire race or the NakedHandsOld ArmorAddon (unlikely).\r\n\r\nInstall\r\n-------\r\nDrop the EldersOfSkyrim.esp into your data folder and make sure its activated in the launcher.\r\n\r\nUninstall\r\n---------\r\nDelete the EldersOfSkyrim.esp from your data folder. If you have created a character using this race, you will no longer be able to use them.\r\n\r\nCredits\r\n-------\r\nbluedanieru for the 1st person hand texture bug workaround.\r\nTheOutlander for drawing my attention to the mounted combat issue for races that haven\\'t been updated.\r\nTolkien and Ian McKellan for Gandalf.\r\nMaryseDynasty for letting me bounce ideas off her.\r\nBethesda",
+  "categoryId": "34",
+  "version": "1.0",
+  "author": "TheMagician",
+  "createdUnix": "1344464789",
+  "updatedUnix": "1344464871",
+  "containsAdultContent": false,
+  "uploadedBy": "TheMagician",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "79861",
+      "name": "EldersOfSkyrim",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "30",
+      "fileName": "EldersOfSkyrim-21994-1-0.rar",
+      "uploadedUnix": "1344464871",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/cfb6c79064bbe17fe88230e32795da49ab1f37756b4a52df136546bd9ef3bcbc/analysis/1407080883/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/EldersOfSkyrim-21994-1-0.rar?fid=79861&ttl=1535791271&ri=8192&rs=8192&setec=c6ebc2d812b346b8d3170ad4feee2c09"
+    }
+  ]
+}

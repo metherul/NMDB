@@ -1,0 +1,32 @@
+{
+  "modId": 14497.0,
+  "modName": "OmEyes - All Elven Eyes for All Elven Races",
+  "summary": "Allows all elven races to select from the same pool of eyes, including Karliah\\'s eyes. Works for both males and females. Purple-eyed wood elves EVERYWHERE!",
+  "descriptionHtml": "[b]DESCRIPTION:[/b]\r\nWith the advent of mods that allow for various races to select from the same pool of hairs, I was surprised to find that there were no similar ventures for eyes. As such, I got to work creating this mod, which allows for all elven races to select from each others\\' lists of eyes - for instance, male and female Bosmer can select, in addition to their regular choices, eyes used by Dunmer and Altmer. Karliah\\'s eyes have been enabled for all elven races.\r\n\r\n[i]tl;dr All elves can use the other elven races\\' eyes, including those of Karliah.[/i]\r\n\r\n[b]USAGE:[/b]\r\nDrop this into your Skyrim directory, enable it and you\\'re good to go! You\\'ll have to use the console command \\'showracemenu\\' to change your character\\'s appearance if you\\'re using this mod with an existing character.\r\n\r\n[b]COMPATIBILITY:[/b]\r\nThis mod is compatible with anything else, as far as I know. Retexture mods and those that add additional eye colors should all work perfectly - this mod does not add any textures or modify the game\\'s race data. This mod will NOT effect eyes added by mods, but by following the instructions below you can do it yourself!\r\n\r\n[b]NOTES:[/b]\r\nIf you come across any missing entries or duplicates, please let me know and I\\'ll correct them (it\\'s admittedly a little hard to concentrate on minutiae while listening to Gorod!). This is not, however, a custom eye service; if, for example, you want the \\'single blind\\' eye on the opposite side, you\\'ll have to do that yourself.\r\n\r\n[b]EXTENDED FUNCTIONALITY TUTORIAL:[/b]\r\n1) Set the mod that adds the eyes in question as the Active file in the Creation Kit and open it.\r\n2) In the Object Window, select Character, then click HeadPart.\r\n3) Find the eyes you\\'re looking to modify, right click and click Duplicate.\r\n4) Go to the duplicate entry, suffixed by COPY000, and right click it. Hit Edit.\r\n5) Change the ID and Name to whatever you want (I just replaced, for example, \\'WoodElf\\' with \\'DarkElf\\').\r\n6) Look at the ValidRaces field on the right and click the drop-down menu. Select whatever race you want to add the eyes in question to. Click OK.\r\n7) Select \\'No\\' when it asks you if you want to create new Form, then confirm with Yes (you\\'re working on a duplicate so this won\\'t affect the normal eyes!).\r\n8) Repeat for any applicable eyes.\r\n9) Save!\r\nThe process itself isn\\'t too hard, but it\\'s rather tedious, hence why I\\'m uploading this so you don\\'t have to do it yourself!\r\n\r\n[b]LEGAL:[/b]\r\nUse this for whatever so long as you give me credit. I don\\'t need to give you permission or anything, but I\\'d appreciate a comment or message saying that you used it somewhere! c:\r\n\r\n[b]CHANGELOG:[/b]\r\n1.1: Karliah\\'s eyes now enabled for Dunmer females - forgot to mark them as playable in V1 (meaning they are now usable by every elven race and gender). Thanks for the catch, Niborino9409!\r\n1.0: Initial release!\r\n\r\n[b]CREDITS:[/b]\r\nThe screenshots I\\'ve taken to exhibit this mod\\'s functionality also showcase the following mods:\r\n- \\'Younger faces merged with Men by Geonox, edit by Chris57 + Coverkhajiits by mrLenski\\' by Chris57 (http://skyrim.nexusmods.com/downloads/file.php?id=2488 -- I didn\\'t use the model replacements or nudes or whatever - just that texture set)\r\n- \\'I Wash\\' by Blocky (http://skyrim.nexusmods.com/downloads/file.php?id=23)\r\n- \\'High Res Warpaint and Dirtmaps for Men\\' by Geonox (http://skyrim.nexusmods.com/downloads/file.php?id=4283)\r\n- \\'All Hairs for All Non-Beast Races\\' by lazyskeever (http://skyrim.nexusmods.com/downloads/file.php?id=8074)\r\n- \\'Realistic Hair\\' by Ichibu (http://skyrim.nexusmods.com/downloads/file.php?id=3397)\r\n- \\'Covereyes\\' by mrLenski (Option #1) (http://skyrim.nexusmods.com/downloads/file.php?id=4869)\r\n- Ultra Realistic World Lighting For Skyrim Beta by MGE (http://skyrim.nexusmods.com/downloads/file.php?id=13531)",
+  "categoryId": "34",
+  "version": "1.1",
+  "author": "Dethroned",
+  "createdUnix": "1333730457",
+  "updatedUnix": "1333738799",
+  "containsAdultContent": false,
+  "uploadedBy": "Dethroned",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "50700",
+      "name": "OmEyes",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "OmEyes-14497.zip",
+      "uploadedUnix": "1333738799",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/0098d118719fc56c92c20926abaeca8f69edc4605591661ff72f962f2124005f/analysis/1406800998/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/OmEyes-14497.zip?fid=50700&ttl=1535778156&ri=8192&rs=8192&setec=f2f41a889f808f532d48f9145036bc11"
+    }
+  ]
+}

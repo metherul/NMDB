@@ -1,0 +1,32 @@
+{
+  "modId": 23793.0,
+  "modName": "Appropriately Attired Jarls",
+  "summary": "When a new Jarl takes over, they and their staff wear outfits a little more germane to their station.",
+  "descriptionHtml": "DESCRIPTION:\r<br />\r<br />When a hold is taken by a side in the civil war, the side&#39;s government appointees (Jarl, Housecarl, steward) will start to dress in regal garments. What their predecessor wore, essentially.\r<br />\r<br />REQUIREMENTS:\r<br />\r<br />A working copy of the Elder Scrolls V: Skyrim.\r<br />\r<br />INSTALLATION:\r<br />\r<br />Place the contents of the .7z file in your &#34;Data&#34; folder, which is usually located under Steam/steamapps/common/Skyrim.\r<br />\r<br />The ReadMe document and the .bsl file are not required for the mod to run -- you may keep them or discard them.\r<br />\r<br />UNINSTALLATION:\r<br />\r<br />Enter &#34;StopQuest PSJarlOutfitQuest&#34; into the console (sans quotation marks) to revert all affected NPCs to their usual outfits.\r<br />\r<br />Then you may delete the included .esp and .bsa file.\r<br />\r<br />The nature of Skyrim’s scripting language, Papyrus, means that, even following this procedure, your Papyrus log will continue to throw errors about missing scripts, potentially leading to save game bloat. There is, lamentably, nothing that I can do about this -- you have been warned.\r<br />\r<br />UPDATING:\r<br />\r<br />Replace all older files with newer versions. If in doubt, replace all mod files with the contents of the latest uploaded archive.\r<br />\r<br />No in-game configuration is necessary.\r<br />\r<br />BUGS:\r<br />\r<br />As of yet, none.\r<br />\r<br />Thonjolf, Housecarl to Kraldar, the Imperial Jarl of Winterhold, and Pactur, steward to Sorli, the Stormcloak Jarl of Mothal, will not change outfits upon ascension to government. This is by design -- their predecessors wore ordinary clothing, and there was simply no reason to do it if there wasn&#39;t going to be a dramatic aesthetic change.\r<br />\r<br />COMPATIBILITY:\r<br />\r<br />This should be compatible with practically any mod. It should be noted, however, that if you&#39;ve got something that alters the clothing of a government official or a potential government official, this new outfit will be overwritten.",
+  "categoryId": "33",
+  "version": "1.1.1",
+  "author": "PrinceShroob",
+  "createdUnix": "1347053423",
+  "updatedUnix": "1367976571",
+  "containsAdultContent": false,
+  "uploadedBy": "PrinceShroob",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000028726",
+      "name": "Appropriately Attired Jarls",
+      "version": "1.1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "30",
+      "fileName": "Appropriately Attired Jarls-23793-1-1-1.7z",
+      "uploadedUnix": "1367976571",
+      "modVersion": "1.1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7ace0bf3ef183ed49cdb5f80cc90c52fd01f15661a0dded70f313abf51dabc7c/analysis/1407560241/",
+      "changelogHtml": " Because Maven Black-Briar, Hemming Black-Briar, Sorli the Builder, and Teeba-Ei are not forced into exile, if they are deposed, they will return to wearing their normal clothing <br/> \n Government members who have been killed will not have their corpses switching clothing <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Appropriately%20Attired%20Jarls-23793-1-1-1.7z?fid=1000028726&ttl=1535794256&ri=8192&rs=8192&setec=ea675ad8f72baa5ddc527b6ae8c8acb9"
+    }
+  ]
+}

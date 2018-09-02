@@ -1,0 +1,32 @@
+{
+  "modId": 29277.0,
+  "modName": "Jontes Better Containers",
+  "summary": "Allows storage of common item sets with one click (e.g. crafting supplies, Food, Alchemy Ingredients, Junk)\r\nAlso adds a \\\"Put All\\\" option to most furniture in the five default player houses.",
+  "descriptionHtml": "Allows storage of common item sets with one click (e.g. crafting supplies, Food, Alchemy Ingredients, Junk)\r\nAlso adds a \\\"Put All\\\" option to most furniture in the five default player houses.\r\n\r\nNote: player made potions wont be stored by the \\\"Potion\\\" option - only standard potions will be stored - this is due to a limitation of the game engine.\r\n\r\nUse in other locations\r\n-----------------------------\r\nYou can add a barrel with this script attached to it to any location in the game by following the instructions below:\r\nI\\'d recommend using another object as a target to help with placement\r\n\r\n1 Open the console\r\n2 Select the object you are using to help with placement by clicking on it\r\n3 Then type the following to add a new barrel:\r\n\r\nplaceatme 10E882\r\n\r\n4 Close the console\r\n5 save the game\r\n6 load the game you just saved.\r\n\r\nTake care not to add this barrel to locations not owned by the player as adding items to it may transfer the ownership to the owner of the location (e.g. if you add the barrel to a Belathor\\'s General Goods store any item you put in it with this script will become his).\r\n\r\nHistory\r\n----------\r\nRevision 8:\r\nAdded support for Dawnguard alchemy ingredients\r\n\r\nSteam Workshop Link\r\nhttp://steamcommunity.com/sharedfiles/filedetails/?id=11120",
+  "categoryId": "42",
+  "version": "8",
+  "author": "JonteMonkey",
+  "createdUnix": "1357093191",
+  "updatedUnix": "1357093620",
+  "containsAdultContent": false,
+  "uploadedBy": "JonteMonkey",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "108993",
+      "name": "Jontes Better Containers",
+      "version": "8",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "14",
+      "fileName": "Jontes Better Containers-29277-8.7z",
+      "uploadedUnix": "1357093620",
+      "modVersion": "8",
+      "virusScanUrl": "https://www.virustotal.com/file/3f2d2bd5a9080ea1d8e822810d4377a919afa3f3cd59fb859ec82dff2d08f4db/analysis/1407333002/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jontes%20Better%20Containers-29277-8.7z?fid=108993&ttl=1535803241&ri=8192&rs=8192&setec=32d8d7fd6c00b631c51745f60950e936"
+    }
+  ]
+}

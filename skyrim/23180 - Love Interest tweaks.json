@@ -1,0 +1,32 @@
+{
+  "modId": 23180.0,
+  "modName": "Love Interest tweaks",
+  "summary": "Love Interest tweaks MOD.\r\n1. No -My thane- dialog with married housecarl.\r\n2. It makes possible to ask your love interest (non combatant character) to \r\n   follow you and also give them some combat skills, Female characters uses light armor and  male heavy, the character skills are coded to increase the same as you do (a little lower, random perce",
+  "descriptionHtml": "Love Interest tweaks MOD.\r\n\r\n        The game gives no option to tell to your wife or husband to follow you and i wanted to do\r\n        something about it. Currently im using UFO mod, good to make essential you love  \r\n        interest or teach spells etc.\r\n \r\n   \t1. No -My thane- dialog with married housecarl.\r\n\tHousecarl wife is removed from the housecarls faction and no longer speak \r\n        to you as thane by dialog or menu options.\r\n\t\r\n\t2. Follower.\r\n\tIt makes possible to ask your love interest (non combatant character) to \r\n        follow you and also give them some combat skills,\r\n\r\n\tFemale characters uses light armor and male heavy, the character skills are \r\n        coded to increase the same as you do (a little lower, random percentage of your current skills).\r\n\t\r\n\tFor now, this is scripted in the code that adds money to the spouse shop, the changes will take effect after 24 hours. The mod will not work i assume if you marry an npc that cannot create a shop. \r\n\r\n-----------\r\nUpdate.\r\nCorrected changing of stats, stats are changed to the new follower, and not already follower wife. \r\n-----------\r\n\r\n  About uninstall:\r\n\tThe game will save this factions and character changes in the savegame file, \r\n        so even if you delete the mod the changes will persist.\r\n\t\r\n\tIf you want housecarl wife/husband to restore the previous status \r\n        after uninstalling the mod do this:\r\n\t\r\n\tHousecarl:\r\n\t\tOpen the console\r\n\t\t\tClick on the character\r\n\t\tType\r\n\t\t\tSetFactionRank 000a2c8d 1\r\n\t\r\n\tWife follower:\r\n\t\tOpen the console\r\n\t\t\tClick on the character\r\n\t\tType\r\n\t\t\tSetFactionRank 0005c84d -1\r\n",
+  "categoryId": "24",
+  "version": "",
+  "author": "nb77",
+  "createdUnix": "1346110170",
+  "updatedUnix": "1346125945",
+  "containsAdultContent": false,
+  "uploadedBy": "nb77",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "84754",
+      "name": "Love Interest Tweaks",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Love Interest Tweaks-23180-.rar",
+      "uploadedUnix": "1346125945",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/3373fb7ca5093ea43e9ef9d072e8b254616ff4ebc4401f6de0bbdd9210f07aab/analysis/1407127263/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Love%20Interest%20Tweaks-23180-.rar?fid=84754&ttl=1535793244&ri=8192&rs=8192&setec=73a5ca6511fd08f77993faaad0ff7697"
+    }
+  ]
+}

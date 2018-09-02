@@ -1,0 +1,32 @@
+{
+  "modId": 50021.0,
+  "modName": "The Soul Reaver a Sorcerers Dagger",
+  "summary": "Adds a dagger which soul traps the opponent and deals either normal or double or x10,000 (instant kill) sneak attack damage depending on conjuration skill. Ideal for the Necromancer and Stealth Mage Player. No Scripts are used (other than vanilla soul trap script).",
+  "descriptionHtml": "Please take the time to read the whole page to understand my mod :) No DLC required, only an updated version of Skyrim.\r<br />\r<br />////////////////Explanation////////////////\r<br />\r<br />The Soul Reaver has infinite charge and 3 possible effects:\r<br />\r<br />1) Soul traps the target for one second (the dagger is intended to be used for stealth kills)\r<br />) Soul traps the opponent for one second and deals backstab damage x2*\r<br />3) Soul traps the opponent for one second and deals backstab damage x10,000 (a one-shot kill)*\r<br />*(This backstab effect is cumulative like the vanilla alterations: if the player has the Assasin&#39;s Blade perk then the second effect will make the dagger do x30 damage)\r<br />\r<br />Which effect the Soul Reaver has depends on your conjuration level and whether or not you are wearing Potema&#39;s Amulet (Added by this mod) or the Necromancer Amulet:\r<br />\r<br />If the player is level 1-49 Conjuration the dagger will merely soul trap for one second.\r<br />If the player is level 50-99 Conjuration OR wearing an Amulet then the second effect  (double damage) will occur.\r<br />If the player is level 80-99 Conjuration AND wearing an Amulet then the third effect (instant kill) will occur.\r<br />If the player is level 100 Conjuration (regardless of whether an amulet is worn) then the third effect (instant kill) will occur.\r<br />\r<br />////////////////Amulets////////////////\r<br />\r<br />The Necromancer Amulet remains the same as in the vanilla.\r<br />For information on where to find it and what it does go to http://www.uesp.net/wiki/Skyrim:Necromancer_Amulet\r<br />\r<br />Potema&#39;s Amulet is added by this mod. Just like the Necromancer Amulet it has both positive and negative effects:\r<br />The Amulet increases Magicka by 100, Conjuration and Illsuion spells cost 30%  and 25% less to cast respectively, Health & Stamina are decreased by 99 and regenerate 25% slower.\r<br />The Amulet is in the possession of the Ritual Master of Wolfskull Cave. For more information on her location see http://www.uesp.net/wiki/Skyrim:Ritual_Master\r<br />\r<br />If you download this mod mid playthrough and have already defeated the Ritual master simply:\r<br />Open up the console\r<br />Type:             help potema&#39;s\r<br />Type:             Player.AddItem &#34;ID of Potema&#39;s Amulet&#34; &#34;number of amulets you want&#34;\r<br />           Eg/     Player.AddItem 90003DFA 1\r<br />\r<br />////////////////Location////////////////\r<br />\r<br />The Soul Reaver is located in the inventory of a necromancers corpse located by the Ritual Stone (for its location see http://www.uesp.net/wiki/Skyrim:The_Ritual_Stone).\r<br />\r<br />On the corpse you will find the dagger and his notes. The notes are a lore friendly in game explanation of how the dagger requirements work.\r<br />\r<br />////////////////Variations////////////////\r<br />\r<br />There are 4 variations of the dagger and the damage and weight of each is based on its vanilla counterpart:\r<br />Dragon Priest Dagger\r<br />Mehrunes Razor\r<br />Orcish Dagger\r<br />Ebony Dagger\r<br />\r<br />The default dagger is the Dragon Priest Dagger. To use another one simply add it to your inventory through the console doing the following:\r<br />Open up the console\r<br />Type:             help reaver\r<br />Type:             Player.AddItem &#34;ID number of the dagger you want&#34; &#34;number of daggers you want&#34;\r<br />           Eg/     Player.AddItem 90000D67 1\r<br />\r<br />To know which reaver is which look at the end of the ID:\r<br />ending in D67 = DragonPriest\r<br />ending in D64 = orcish\r<br />ending in D65 = ebony\r<br />ending in DFA = mehrunes razor\r<br />\r<br />////////////////Known Issues/&#34;Bugs&#34;////////////////\r<br />\r<br />&gt;Because I wanted to keep the mod script free, the backstab alterations occur when and for as long as the weapon is equipped (and the various conditions are met). So if the dagger is equipped, say in your right hand, and you meet the conditions for double damage, any attack from another weapon in your OTHER hand will ALSO recieve the double sneak attack bonus. In other words you can freely cheat and get double damage for a much more powerful weapon (Eg/ a dragonbone mace).\r<br />\r<br />I don&#39;t really care about trying to eliminate this bug. As long as you&#39;re aware of it, its not really a bug. If you want to cheat, then cheat. Don&#39;t want to cheat, then don&#39;t. Its up to you.\r<br />\r<br />////////////////Compatibility////////////////\r<br />\r<br />Doesnt change any object in the base game (excepting adding a keyword to the Necromancer Amulet) or add any scripts so it SHOULD be compatible with everything and harmless to uninstall.\r<br />Do post a comment if this isn&#39;t the case.\r<br />\r<br />////////////////Future Plans////////////////\r<br />\r<br />If I can be bothered I&#39;ll make a quest to link picking up the dagger with getting an Amulet. Will require player to take the notes to the College of Winterhold and get them translated. - At the moment they already are translated but you can find the untranslated version through the console if your kean ;)",
+  "categoryId": "55",
+  "version": "1.0",
+  "author": "g_sargent",
+  "createdUnix": "1389990652",
+  "updatedUnix": "1389987530",
+  "containsAdultContent": false,
+  "uploadedBy": "guysargent",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000091911",
+      "name": "Soul Reaver",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Soul Reaver-50021-1-0.7z",
+      "uploadedUnix": "1389987530",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/cf49e8c3497037518e83d1e122788c5c9f0d4c12a2138ba1a09aca8a784f568b/analysis/1407890197/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Soul%20Reaver-50021-1-0.7z?fid=1000091911&ttl=1535831463&ri=8192&rs=8192&setec=3d2d41aa354fd4634a09073cd93f23e0"
+    }
+  ]
+}

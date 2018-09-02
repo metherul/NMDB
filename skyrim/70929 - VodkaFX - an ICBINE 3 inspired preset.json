@@ -1,0 +1,32 @@
+{
+  "modId": 70929.0,
+  "modName": "VodkaFX - an ICBINE 3 inspired preset",
+  "summary": "For those who can&#39;t run ENBs and enjoy getting drunk, just like me.\r<br />",
+  "descriptionHtml": "[b][font=Lucida Sans Unicode]Before anything else...[/font]\r<br />[size=3]THX TO ELSOPA FOR ANSWERING MY SILLY MSGS AND ALLOWING ME TO USE HIS ICBINE 3 AS THE BASE OF THIS PRESET.\r<br />[/size]\r<br />[size=3]This is a SWEETFX  preset with modified shaders that won&#39;t burn even my potatoe machine and yours. \r<br />[/size][size=4]Pics and Videos are welcome here :)[/size]\r<br />[size=6]\r<br />[/size][size=6][font=Lucida Sans Unicode]0 ~ 4 FPS LOSS ON SOME AREAS[/font]\r<br />[/size]\r<br />[img]http://static-1.nexusmods.com/15/mods/110/images/70929-0-1446044056.jpg[/img]\r<br />\r<br />[size=6]REQUIREMENTS[/size]\r<br />[size=2]IT&#39;S RECOMMENDED THAT YOU USE THOSE MODS ALONG FOR THE DRUNKEST EFFECT\r<br />\r<br />[/size][list]\r<br />[*][size=3][url=http://www.nexusmods.com/skyrim/mods/13531/?]Ultra Realistic World Lightning (Normal if using Purity or WAO, Dark if using CoT)[/url][/size]\r<br />[/list][font=Lucida Sans Unicode][size=3]\r<br />[/size][/font][list]\r<br />[*][size=3][url=http://www.nexusmods.com/skyrim/mods/50855/?]Shadows (for interior lightning)[/url][/size]\r<br />[/list][font=Lucida Sans Unicode][size=3]\r<br />[/size][/font][list]\r<br />[*][size=3][url=http://www.nexusmods.com/skyrim/mods/13049/?]IMAGINATOR (for saturation and color tweaking)[/url][/size]\r<br />[/list][font=Lucida Sans Unicode][size=3]\r<br />[/size][/font][list]\r<br />[*][size=3][b][url=http://www.nexusmods.com/skyrim/mods/12525/]Dynavision (for DOF)[/url][/b][/size]\r<br />[size=3]\r<br />[/size][/list][/b][b]INSTALLATION[/b][b]\r<br />[list]\r<br />[*][b]Turn your antialiasing OFF (this preset uses a SMAA, which is lighter)[/b]\r<br />[*][b]Install the required mods if you want[/b]\r<br />[*][b]Copy the files to where the TESV.exe is[/b]\r<br />[*][b]Go to the Imagintor MCMenu and set it like this:[/b]\r<br />[/list][/b]\r<br />[img]http://i.imgur.com/jFu1Mqe.jpg[/img]\r<br />[font=Lucida Sans Unicode][size=5][b]\r<br />AND\r<br />[/b][/size][/font]\r<br />[img]http://i.imgur.com/k5ps2EL.jpg[/img]\r<br />\r<br />\r<br />\r<br />\r<br />[font=Lucida Sans Unicode][size=6][b]COMPATIBILITY[/b][/size][/font]\r<br />[font=Lucida Sans Unicode]\r<br />[url=http://www.nexusmods.com/skyrim/mods/38649/?][b]ENBOOST[/b][/url]\r<br />[list]\r<br />[*]Install ENBoost according to the directions on its description.\r<br />[*]Extract the files from this mods archive to a folder on your desktop.\r<br />[*]Rename the d3d9.dll file from this to something like d3d9_sweetfx.dll.\r<br />[*]Open your enblocal.ini file from ENBoost with Notepad or Notepad++ replace the [PROXY] section with this:\r<br />[/list][PROXY]\r<br />EnableProxyLibrary=true\r<br />InitProxyFunctions=true\r<br />ProxyLibrary=d3d9_sweetfx.dll (or whatever you renamed the SweetFX .dll to)\r<br />\r<br />[list]\r<br />[*]Copy the contents of the extracted folder on your desktop with the renamed .dll to your Skyrim folder as you would installing the mod normally.\r<br />[/list]\r<br />[url=http://www.nexusmods.com/skyrim/mods/15123/?][b]HIALGOBOOST[/b][/url]\r<br />Hialgoboost newest version does not need a proxy anymore :)\r<br />\r<br />\r<br />[b]Hope you guys don&#39;t throw rocks on me for this :)[/b]\r<br />[size=3][b]\r<br />\r<br />[/b][/size][/font][font=Lucida Sans Unicode][size=3][b]\r<br />[/b][/size][/font]",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "kovak22",
+  "createdUnix": "1445984119",
+  "updatedUnix": "1445983906",
+  "containsAdultContent": false,
+  "uploadedBy": "kovak22",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000182711",
+      "name": "VodkaFX 1.0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "22069",
+      "fileName": "VodkaFX 1.0-70929-1-0.rar",
+      "uploadedUnix": "1445983906",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/24ebca395f6751c53262c6cd695613d4517f19b375d7108665a609207dd821d1/analysis/1445983927/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VodkaFX%201.0-70929-1-0.rar?fid=1000182711&ttl=1535859449&ri=8192&rs=8192&setec=69a8507f0178181674daad7eec9223e0"
+    }
+  ]
+}

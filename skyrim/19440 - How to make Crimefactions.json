@@ -1,0 +1,32 @@
+{
+  "modId": 19440.0,
+  "modName": "How to make Crimefactions",
+  "summary": "I made a tutorial for people to make crimefactions work, And if you don\\'t understand Try download the Tutorial file.\r\nCrimeFactions makes your guards be able to arrest you if you want to know what that is",
+  "descriptionHtml": "CrimeFactions-Tutorial.\r\nIf you download the file, the guard can be found at the COC location, \\\"qasmoke\\\", so he won\\'t interfere with the rest of skyrim\r\n\r\nBegin Make a New faction, Named, \\\"MYFACTION\\\",\r\nand then add everything at image below\r\nIf you have dawnguard and wan\\'t them TO NOT attack you as a vampire lord, add the vampirelord faction , easiest so search and find int from the vampire-faction related to dawnguard questline (vampire) [img] http://static.skyrim.nexusmods.com/mods/images/19440-1-1340724585.png  [/img]\r\nafter adding the NPCs (or not), goto the Crime tab. And enable the checkboxes, See image below\r\n[img] http://static.skyrim.nexusmods.com/mods/images/19440-1-1340725209.png[/img]\r\nIf there is no prison, you can leave the fields empty [1]\r\n\r\nNow at your guards/other NPCs, add the Crimefaction to them, I show what the guard will need to be able to arrest.\r\nTo start you need a Voice that can say the Guard Dialouges, Recomend MaleGuard and for female, NordFemale\r\n[img]http://static.skyrim.nexusmods.com/mods/images/19440-1-1340725487.png[/img]\r\nThen Goto Factions tab,\r\nAdd your new made faction(this case for this tutorial \\\"CrimeFactionCastleDrakhur\\\")\r\nthen also Add this two factions, IsGuardFaction and GuardDialougeFaction\r\n[img]http://static.skyrim.nexusmods.com/mods/images/19440-1-1340725849.png[/img]\r\nThe forth one Is not needed, this case \\\"GuardFactionCastleDrak\\\"\r\nAnd the last thing you need to add it at the bottom, Where you select \\\"Assigned Crime Faction\\\", there add your newmade Faction, and then you should be done.\r\nFor the Non-Guards, you basicly add the same things but don\\'t add the \\\"IsGuardFaction and the GuardDialougeFaction\\\"\r\n\r\nHope this Tutorial helps you out if you want crimefactions :D\r\nIf you done everything right, this will happen (taken from my tutorial mod)\r\n[img]http://static.skyrim.nexusmods.com/mods/images/19440-1-1340728252.jpg[/img]\r\n\r\nNow to the prison, just follow the images and it will work\r\n[img]http://static.skyrim.nexusmods.com/mods/images/19440-1-1343407054.png[/img]\r\n[img]http://static.skyrim.nexusmods.com/mods/images/19440-2-1343407054.png[/img]\r\n[img]http://static.skyrim.nexusmods.com/mods/images/19440-3-1343407055.png[/img]\r\n[img]http://static.skyrim.nexusmods.com/mods/images/19440-4-1343407055.png[/img]\r\n\r\nI recomend you to add some kind of lock to the prison so it makes it harder to escape,\r\nHope this prison tutorial helped aswell :D",
+  "categoryId": "82",
+  "version": "FINAL",
+  "author": "UnknownFreak",
+  "createdUnix": "1340724544",
+  "updatedUnix": "1340728348",
+  "containsAdultContent": false,
+  "uploadedBy": "UnknownFreak",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "70420",
+      "name": "Crimefaction tutorial",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Crimefaction tutorial-19440-1-00.zip",
+      "uploadedUnix": "1340728348",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/bc0778ec8973af9244ad1a59c383cfa650477b249cec94e478074d024904817f/analysis/1406984332/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Crimefaction%20tutorial-19440-1-00.zip?fid=70420&ttl=1535786893&ri=8192&rs=8192&setec=82b6a2e92e33811d8acc2523da6e9b76"
+    }
+  ]
+}

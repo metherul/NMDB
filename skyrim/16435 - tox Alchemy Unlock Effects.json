@@ -1,0 +1,48 @@
+{
+  "modId": 16435.0,
+  "modName": "tox Alchemy Unlock Effects",
+  "summary": "Adds a note to an elf\\'s home in Riverwood which will unlock all alchemy \r\neffects when read. Future versions may add a quest and a cave.",
+  "descriptionHtml": "tox Alchemy Unlock Effects\r\n==========================\r\n\r\nAdds a note to an elf\\'s home in Riverwood which will unlock all alchemy \r\neffects when read. Future versions may add a quest and a cave.\r\n\r\n\r\n[size=1]\r\nBatch-files version info\r\n========================\r\nDescription:\r\nThe lists of commands provided in the batch files will add perks from\r\nthe original alchemy skill tree branch upto experimenter 3, make the player\r\neat one of each ingredient and remove the perks again.\r\n\r\nIf anyone knows how to acheive this in a fully automated way, without\r\nprogressing the alchemy skill, please let me know. Otherwise I\\'ll watch the\r\nCK tutorials and read their wiki and figure it out on my own!\r\n\r\nInstallation:\r\n1. Place the files wherever you have TESV.exe\r\n(ProgramFiles\\\\Steam\\\\steamapps\\\\common\\\\skyrim)\r\n2. Load your new game\r\n3. Conjure the console by hitting ~ on your keyboard (or the key left of 1)\r\n4. Execute the files using the bat command in the console giving the three\r\nfiles ingredients-perk, ingrediends-eat and ingredients-unperk\r\nbat ingredients-perk\r\nbat ingredients-eat\r\nbat ingredients-unperk\r\n\r\nWarnings:\r\na. The last script removes the perks Alchemist 1/5, Physician, Benefactor,\r\nExperimenter */3. Modify the batch file according to your needs or don\\'t run\r\nit if you wish to keep perks you have already spent.\r\nb. Eating all ingredients at once will make your champ scream in pain as some\r\nof have the damage health effect. Furthermore, the discovery of all the\r\neffects simultaneously will produce an augmented and unpleasantly loud\r\nsound. I find turning the volume knob down to be a suitable solution.\r\nc. Eating all the ingredients will progress the alchemy skill towards the\r\nnext level. It progresses by about 1/4 towards 21 when alchemy is at 20.\r\nd. The Crimson Nirnroot quest is started. Just find and remove Crimson\r\nNirnroot from ingredients-eat.txt if you don\\'t like this. Look for B701A.\r\n[/size]\r\n\r\n\r\nplans\r\n=====\r\n..which will probably never come to fruition include a full quest mod given to\r\nthe player by Faendal which requires you to crawl through a pitch dark cave with\r\na torch (or magelight) filled with rats, spiders, traps and draugr to retreive\r\nan epic alchemy book which will teach you all the effects. The cave will be\r\nconnected to one of the tougher bandit caves above riverwood...\r\n\r\n\r\nChangelog\r\n=========\r\n0.2: .esp which adds a spell-book-note to the world\r\n0.1: initial release (batch-files)",
+  "categoryId": "73",
+  "version": "0.2",
+  "author": "tox2ik",
+  "createdUnix": "1336156176",
+  "updatedUnix": "1337619245",
+  "containsAdultContent": false,
+  "uploadedBy": "tox2ik",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "58646",
+      "name": "Alchemy - eat ingredients and unlock effects",
+      "version": "0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Alchemy - eat ingredients and unlock effects-16435.rar",
+      "uploadedUnix": "1336157292",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/5f54597f77e643e2447aa24a6b07c7ded6b3622e7a793cd687d0e78dcc527550/analysis/1406866563/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Alchemy%20-%20eat%20ingredients%20and%20unlock%20effects-16435.rar?fid=58646&ttl=1535781605&ri=8192&rs=8192&setec=2e4068665d0ac2b4daba90493d86bfa4"
+    },
+    {
+      "fileId": "62830",
+      "name": "tox Alchemy Unlock Effects",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "tox Alchemy Unlock Effects-16435-0-2.rar",
+      "uploadedUnix": "1337619245",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/48380b5e8694a0c1845b9e1daae8163c8b465fec6795bf9b0b095dffc5148ead/analysis/1406907483/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/tox%20Alchemy%20Unlock%20Effects-16435-0-2.rar?fid=62830&ttl=1535781606&ri=8192&rs=8192&setec=b8d221b4ce90852ef8de502d27dde541"
+    }
+  ]
+}

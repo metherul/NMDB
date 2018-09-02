@@ -1,0 +1,32 @@
+{
+  "modId": 45804.0,
+  "modName": "Cat Resource",
+  "summary": "4 new cats for you to use freely. Black, Grey, White and Brown.",
+  "descriptionHtml": "Cat Resouce\r\nby: SpiderAkiraC\r\n\r\nThis was for my personal use but I decided that someone would like these assets too without having to ask permission.\r\n\r\nThis resource will add 4 different cat assets to the game. All use the Sabre Cat body and are Re-textured to Black, Spotted black(Grey), White, and Brown.\r\n\r\nEach of them have Green eyes like cats. \r\n\r\nYou are free to use them anyway you like. These may be uploaded to other sites and translated as well.\r\nJust remember to give proper credit and your good to go! \r\n\r\nHow to install:\r\n\r\nSimply put the data folder in your Skyrim directory\r\n\r\nAn Important thing you should know!!!!!\r\nThe \\\"spottedblack\\\" looks more geryish than black.\r\nWhite, Black and Brown all look like they should.\r\n\r\nHow to create a new cat Step by Step: (there is also a readme provided)\r\n\r\n1. Duplicate the SabreCat Race and name it.\r\n2. Create a new armor and name it what ever you want. (This will be the skin) I\\'d name it \\\"BlackCatSkin\\\" for example.\r\n3. In the same window select the race you created in the \\\"Race\\\" drop down tab beside ID.\r\n4. In the same window under \\\"Biped Object\\\" Select  \\\"32-BODY\\\"\r\n\r\n5. Now navigate to the \\\"ArmorAddon\\\" tab right under the \\\"Armor\\\" tab.\r\n6. Create a new ArmorAddon and name it. (NakedBlackCatAA for example)\r\n7. In the same window select the race you created in the \\\"Race\\\" drop down tab beside ID.\r\n8. In the same window under \\\"Biped Object\\\" again Select \\\"32-BODY\\\"\r\n9. In the same window click \\\"Select\\\" beside \\\"Biped Model\\\"\r\n10. Now in the directory \\\"Actors\\\\sabrecat\\\\character assests\\\\\\\" choose the .nif you want. (sabrecatblack for example if you want your cat to be black, etc.)\r\n11. *Optional* under \\\"Footstep\\\" you can select what noise your cat will make when it walks.\r\n\r\n12. Navigate back to the Armor you created and under \\\"Models\\\" Place the ArmorAddon there by right clicking and hitting \\\"new\\\"\r\n\r\n13. Navigate back to the race you created and select the \\\"Body Data\\\" tab and select the Armor you created under the \\\"Skin\\\" drop down list.\r\nHere you can also edit the height and the voice.\r\n\r\n14. Now duplicate the EncSabreCat NPC and select the race you created in the \\\"Traits\\\" tab\r\n\r\nThats it! You now have your very own kitty!\r\n\r\nAlso to make them harmless remove the predator faction, DefaultPredatorPackageList and set the Aggression to \\\"Unaggressive\\\".\r\n\r\nThanks for downloading and happy modding!\r\n ",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "SpiderAkiraC",
+  "createdUnix": "1383018275",
+  "updatedUnix": "1383018202",
+  "containsAdultContent": false,
+  "uploadedBy": "SpiderAkiraC",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000072049",
+      "name": "Cat Resource",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3945",
+      "fileName": "Cat Resource-45804-1-0.zip",
+      "uploadedUnix": "1383018202",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5066ad0a01b9d01b957c8a5874352c8381387916ff827e54308acbbe614cbc8f/analysis/1407773498/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Cat%20Resource-45804-1-0.zip?fid=1000072049&ttl=1535826233&ri=8192&rs=8192&setec=d38b3f22e405c9a4bf623dcfaea5f18f"
+    }
+  ]
+}

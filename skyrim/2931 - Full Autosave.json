@@ -1,0 +1,32 @@
+{
+  "modId": 2931.0,
+  "modName": "Full Autosave",
+  "summary": "Creates a full save at regular intervals.",
+  "descriptionHtml": "(5/6/2012): Recently came back to Skyrim after a long pause. Sorry about the delay. I\\'ve recompiled using the latest version of Dragon Script. Also deleted the failed rotating autosave version from Nexus to prevent confusion.\r\n\r\n*THIS MOD REQUIRES SCRIPT DRAGON TO WORK*\r\nYou can find the latest version of Script Dragon on the official Bethsoft forums. The current topic as of this writing is:\r\nhttp://alexander.sannybuilder.com/?category=other&altname=skyrim_script_dragon\r\n\r\nDescription: \r\nThis mod will do a full save at regular intervals. This differs from an autosave in that each successive save does not overwrite the previous, leaving an archive of regular saves from previous points in your adventure. This is useful in many cases if a bug occurs in your save, but remains undiscovered until your autosave has overwritten all saves before the bug occured.\r\n\r\nThe interval at which saves occur is configurable in fullautosave.ini and is set by default to 15 minutes.\r\n\r\nNMM Installation and Uninstallation:\r\n  Standard procedures.\r\n\r\nManual Installation:\r\n  Extract the asi folder into your Skyrim/Data folder.\r\n\r\nUninstall: \r\n  Delete fullautosave.asi and fullautosave.ini from your Skyrim/Data/asi folder.\r\n\r\nSource Code:\r\n  Included in the Skyrim/Data/asi/src/ folder\r\n  \r\nNotes:\r\n  *When saves occur the text \\\"Autosaving...\\\" will appear. As far as I know there isn\\'t a way to hide this message.\r\n  *You will want to clean out your save folder every so often to prevent filling up your harddrive with saves. Skyrim saves can grow to upwards of 10MB after many hours of play.\r\n\r\nOther Notes:\r\n  I tried to create a rotating autosave plugin like Streamline had, but unfortunately instabilities in the Skyrim engine make it impossible at the current time.\r\n  \r\nSpecial Thanks:\r\nAlexander Blade for his Script Dragon engine extender.\r\nJaga for his Oblivion tool Streamline which provided the inspiration for this mod.",
+  "categoryId": "28",
+  "version": "1.5",
+  "author": "finalfrog",
+  "createdUnix": "1323278140",
+  "updatedUnix": "1336356386",
+  "containsAdultContent": false,
+  "uploadedBy": "FinalFrog",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "59401",
+      "name": "Full Autosave",
+      "version": "1.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "34",
+      "fileName": "Full Autosave-2931-1-5.zip",
+      "uploadedUnix": "1336356386",
+      "modVersion": "1.5",
+      "virusScanUrl": "https://www.virustotal.com/file/f40de00ec1e506c81f71f4a28d5d6e26cf7f46fb7dc8de8eba30f69f04565ea8/analysis/1406873833/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Full%20Autosave-2931-1-5.zip?fid=59401&ttl=1535757583&ri=8192&rs=8192&setec=681f5ca3829cb7fd4756ef23bfb49e22"
+    }
+  ]
+}

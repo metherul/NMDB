@@ -1,0 +1,48 @@
+{
+  "modId": 86208.0,
+  "modName": "Freckle Mania 2",
+  "summary": "Freckle Mania is back&#33; \r<br />More options, better quality&#33;\r<br />\r<br />RaceMenu overlays/resources for facial/body freckles, skin complexion & dirt, female and male.",
+  "descriptionHtml": "[center][img]https://c1.staticflickr.com/5/4420/36596903621_1c057fe7d5_o.png[/img]\r<br />[i][size=1]Ruining your favourite body texture authors work since &#39;14\r<br />[url=https://www.flickr.com/photos/tetrodoxin/]My Screenshots[/url]\r<br />\r<br />[/size][/i]\r<br />[youtube]pWSBvuAnEQY[/youtube]\r<br />\r<br />[img]https://c1.staticflickr.com/5/4351/35901858024_8e681c048f_o.png[/img]\r<br />[b][size=4]Freckle Mania is back, and better than ever&#33;[/size][/b]\r<br />\r<br />Looking back, I wasn&#39;t really happy with the quality of the [url=http://www.nexusmods.com/skyrim/mods/52841]first version[/url], so I remade the whole thing.\r<br />And since it got somewhat popular, I think it deserves an upgrade. Thanks for your support&#33;\r<br />This is a compilation of face/body/hand/feet overlays based on Race Menu 3 (so you need that).\r<br />This time, we have overlays for both male and female (UNP)&#33; Inlcuding:\r<br />\r<br />4x4 full sets for female\r<br />3x4 full sets for male\r<br />10 face only for female\r<br />5 face only for male\r<br />\r<br />and much more&#33;\r<br />\r<br />You can use both Freckle Mania and Freckle Mania 2, there isn&#39;t anything that gets overwritten.\r<br />Which also means you can combine overlays from one version with the other one.\r<br />\r<br />\r<br />[b][size=5]Please, upload screenshots of your characters&#33;\r<br />[color=#ff0000]\r<br />But stay SFW&#33; ;O\r<br />[/color][/size][/b][color=#ff0000]Stick to the Nexus rules please, no nudity.\r<br />\r<br />\r<br />[/color]I have to remove your images otherwise, and I really don&#39;t want to do that :|\r<br />[img]https://c1.staticflickr.com/5/4348/36566544622_a9a1d56aa0_o.png[/img]\r<br />Use the Mod Manager of your choice.\r<br />\r<br />This mod is a [url=http://www.nexusmods.com/skyrim/mods/29624/?]RaceMenu[/url] plugin, it won&#39;t work without it&#33;\r<br />Several things you need to do to have full access to all overlays:\r<br />\r<br />[b][color=#00ff00][size=4]1. Edit your SKSE.ini file to contain the following information:[/size][/color]\r<br />[/b]\r<br />It is located in Skyrim/Data/SKSE\r<br />If there is no such file, you need to create one yourself. \r<br />Open up Editor, insert the lines as mentioned and save the config in . \r<br />\r<br />[Display]\r<br />iTintTextureResolution=4096\r<br />\r<br />or (depending which version you downloaded)\r<br />\r<br />[Display]\r<br />iTintTextureResolution=2048\r<br />\r<br />[b][size=4][color=#00ff00]2. Edit your NiOverride.ini[/color]\r<br />\r<br />[/size][/b]This one comes with RaceMenu and is located in Skyrim/Data/SKSE/Plugins\r<br />You need to enable FaceOverlays to have access to the dirt/blood overlays included in this mod.\r<br />Find bEnableFaceOverlays=0 and set it to 1.\r<br />[color=#ff0000]Warning: Game will crash if you get decaptitated while wearing one of these overlays.\r<br />\r<br />[/color][b][size=4][color=#00ff00]3. If you have trouble making the overlays show up,\r<br />[/color][/size][/b][color=#00ff00][size=4][b]optimize your load order.\r<br />\r<br />[/b][/size][/color]This usually goes without saying, but sometimes it helps moving the .esp around.\r<br />If it was after RaceMenu.esp, try loading it before that one, or vice versa. \r<br />[img]https://c1.staticflickr.com/5/4344/36566545122_a6414021ab_o.png[/img][/center][center][b][size=5]See Video above&#33;\r<br />[/size][/b]\r<br />\r<br />If you don&#39;t like videos (why wouldn&#39;t you?), here&#39;s a summary:\r<br />\r<br />[Makeup] tab for facial overlays (freckles)\r<br />[Body Paint] tab for body overlays (freckles & dirt)\r<br />[Hand Paint] tab for hand overlays (freckles & dirt)\r<br />[Feet Paint] tab for feet overlays (freckles & dirt)\r<br />[Face Paint] tab for facial overlays (dirt)\r<br />\r<br />1. Select a slot\r<br />2. Set the color to something visible\r<br />3. Press T to open texture browser and select\r<br />4. Stack layers, mix and match with other parts\r<br />5. Save and Load color with F5/F9 to match\r<br />\r<br />(Hint: [Makeup] overlays have a somewhat different behaviour, manual color adjustement required)\r<br />\r<br />\r<br />[size=5][b]Also:\r<br />[/b][/size]\r<br />If you&#39;re running low on VRAM, don&#39;t use too many layers.\r<br />Alternatively, use these overlays and apply them directly on the body texture\r<br />using Photoshop, GIMP, or any other Image Editing Software that supports .dds&#33;\r<br />\r<br />\r<br />\r<br />[b][size=5]Permissions:\r<br />\r<br />[/size][/b]Feel free to use these overlays for your followers or whatever, you don&#39;t have to ask.\r<br />Just add this mod to your credits&#33;[/center]",
+  "categoryId": "29",
+  "version": "2.0",
+  "author": "tetrodoxin",
+  "createdUnix": "1503419628",
+  "updatedUnix": "1503419060",
+  "containsAdultContent": false,
+  "uploadedBy": "tetrodoxin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000252598",
+      "name": "Freckle Mania 2 Combo 4K",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "172983",
+      "fileName": "Freckle Mania 2 Combo 4K-86208-1-0.7z",
+      "uploadedUnix": "1503400315",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5989b422c25ecf3e55e6a8a59b305d3430bbea95449d6b4d6cc9a882a6a49768/analysis/1503400641/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Freckle%20Mania%202%20Combo%204K-86208-1-0.7z?fid=1000252598&ttl=1535875065&ri=8192&rs=8192&setec=bc1297da4b8bfae4ff687a199a8eb0ec"
+    },
+    {
+      "fileId": "1000252620",
+      "name": "Freckle Mania 2 Combo 2K",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "76342",
+      "fileName": "Freckle Mania 2 Combo 2K-86208-1-0.7z",
+      "uploadedUnix": "1503419060",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2b82732afb93b43429619f08a3a974871ca6780ec0968492d17ba9c99cea4b39/analysis/1503419349/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Freckle%20Mania%202%20Combo%202K-86208-1-0.7z?fid=1000252620&ttl=1535875065&ri=8192&rs=8192&setec=8f3e64d00b91e136244ece6d5a6e011c"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 47332.0,
+  "modName": "Moon Phase Affects Brightness at Night",
+  "summary": "Nights are a little brighter when the moons are visible.",
+  "descriptionHtml": "Updating the mod:\r<br />1. Enter console command &#34;setstage mpab 111&#34; and wait for the messagebox stating that the mod has stopped.\r<br />2. Save your game and quit the game.\r<br />3. Load the game without the mod and save your game.\r<br />4. Install new version of the mod to your Skyrim/data folder overwriting old files.\r<br /> \r<br />Description:\r<br />This mod makes nights a little brighter when the moons are visible and removes sun shadows at night. You can use Mod Configuration Menu to change the brightness level. If you download version that does not require SkyUI (and does not have MCM) you can use following console commands:\r<br />&#34;set MPAB_GL to 1&#34;   sets brightness level to 1 (default setting)\r<br />&#34;set MPAB_GL to 2&#34;   sets brightness level to 2\r<br />&#34;set MPAB_GL to 3&#34;   sets brightness level to 3\r<br />&#34;set MPAB_GL to 4&#34;   sets brightness level to 4 (brightest)\r<br />\r<br />The mod is compatible with anything but should be used with a dark nights mod. I use Climates Of Tamriel with [url=http://skyrim.nexusmods.com/mods/36396]this fix[/url].\r<br />\r<br />When testing the mod keep in mind that weather and HDR affect brightness too. Weather on the screenshots is 0x029e89 CoTClear_5_TU.\r<br />\r<br />Installation:\r<br />Use Nexus Mod Manager.\r<br />\r<br />Uninstallation:\r<br />SkyUI version: Open Mod Configuration Menu and select &#34;Stop the mod&#34; option.\r<br />Vanilla version: Enter console command &#34;setstage mpab 111&#34; and wait for the messagebox stating that the mod has stopped.",
+  "categoryId": "78",
+  "version": "1.1",
+  "author": "qqqbbb",
+  "createdUnix": "1384669906",
+  "updatedUnix": "1410274881",
+  "containsAdultContent": false,
+  "uploadedBy": "qqqbbb",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000095566",
+      "name": "Moon Phase Affects Brightness at Night",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Moon Phase Affects Brightness at Night-47332-1-1.rar",
+      "uploadedUnix": "1391688841",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c3b0e3316c4ac2e5913a966aefa1660eac0d70ba8aca6a3048944e92591728a3/analysis/1407920703/",
+      "changelogHtml": " added brightness levels <br/> \n added MCM <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Moon%20Phase%20Affects%20Brightness%20at%20Night-47332-1-1.rar?fid=1000095566&ttl=1535827598&ri=8192&rs=8192&setec=ea0c9ad18b9771c2970c57deecba3a3a"
+    },
+    {
+      "fileId": "1000126168",
+      "name": "Moon Phase Affects Brightness at Night for vanilla game",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Moon Phase Affects Brightness at Night for vanilla game-47332-1-1.rar",
+      "uploadedUnix": "1410274881",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/4707422aae88983a314ae4801500ad5a93a9e4ea92e7fb7364e4b243996c9043/analysis/1410274982/",
+      "changelogHtml": " added brightness levels <br/> \n added MCM <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Moon%20Phase%20Affects%20Brightness%20at%20Night%20for%20vanilla%20game-47332-1-1.rar?fid=1000126168&ttl=1535827598&ri=8192&rs=8192&setec=48b27aacda9574688d902a944b8d685b"
+    }
+  ]
+}

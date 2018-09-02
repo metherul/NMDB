@@ -1,0 +1,32 @@
+{
+  "modId": 41592.0,
+  "modName": "Stable uGridsToLoad",
+  "summary": "Makes uGridsToLoad much more stable and lets you load saves with higher uGridsToLoad settings.",
+  "descriptionHtml": "Use with Safety Load (http://www.nexusmods.com/skyrim/mods/46465/) to prevent infinite loading screens\r<br />\r<br />This allows you to use higher uGridsToLoad settings (13 is the maximum I tested, 15 didn&#39;t crash but load time grows exponentially) and allows you to turn your uGridsToLoad setting back down and keep your save games. You can also change the setting in-game via console (ex: setini &#34;uGridsToLoad:General&#34; 7). Currently you&#39;ll have to open & close the map screen to force the game to load the new cells when you change it in-game, I plan to fix this later.\r<br />\r<br />Requires SKSE.",
+  "categoryId": "74",
+  "version": "1.0",
+  "author": "Altimor",
+  "createdUnix": "1378266562",
+  "updatedUnix": "1378266559",
+  "containsAdultContent": false,
+  "uploadedBy": "AltimorFP",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000052140",
+      "name": "Cell Stabilizer",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "21",
+      "fileName": "Cell Stabilizer-41592-.zip",
+      "uploadedUnix": "1378266559",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/954073df5d0a25edecc77567e7437af11eb1470202a1ba619d885980ad7a99f6/analysis/1407708131/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Cell%20Stabilizer-41592-.zip?fid=1000052140&ttl=1535822386&ri=8192&rs=8192&setec=e1874fba98cc132ed15577b478da73cf"
+    }
+  ]
+}

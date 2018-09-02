@@ -1,0 +1,48 @@
+{
+  "modId": 49168.0,
+  "modName": "Eyebrow Specularity Fix",
+  "summary": "This is a very simple texture mod that disables the specularity of eyebrows. In other words, it eliminates the shiny eyebrow issue caused by raising the specular setting in lighting mods like ENB. Works on both the player and NPCs.",
+  "descriptionHtml": "This is a very simple mod that disables the specularity of eyebrows. In other words, it eliminates the shiny eyebrow issue caused by raising the specular setting in lighting mods like ENB.\r<br />\r<br />\r<br />[size=3][color=orange]Named an Essential mod in the[/color] [url=http://www.skyrim-beautification-project.com]Skyrim Beautification Project[/url][/size]\r<br />\r<br />\r<br />[b]Usage and Compatibility:[/b]\r<br />Before you ask, yes, this is compatible with all eyebrow texture packs. The only textures this mod replaces are the eyebrow normal maps. Now some eyebrow packs come with HD normal maps, which will need to be replaced with these. But without specularity, the normals have very little to no effect on the eyebrows, so in my opinion there&#39;s no need for these to be HD textures. However if you just have to have HD normals, read my how-to below on how to edit your own. It sounds involved but it&#39;s really pretty simple.\r<br />\r<br />So, in short:\r<br />Install like any other simple texture mod, overwriting any other eyebrow pack&#39;s normal maps (any modded regular textures will still work and look great).\r<br />\r<br />\r<br />[b]Installation:[/b]\r<br />Download and install using either NMM, another mod manager, or manually install to your data directory. That&#39;s it.\r<br />And please don&#39;t forget to endorse if this helps you, so other people with this issue can find this fix. \r<br />\r<br />\r<br />[youtube]qaHwKgH8ODM[/youtube]\r<br />\r<br />\r<br />For the sake of sharing information, here&#39;s what I did (also how-to on adjusting yours):\r<br />All I did was set the alpha channel to black using GIMP. For each normal map (male and female), I opened it, decomposed the channels from RGBA into separate layers (Color &gt; Components &gt; Decompose), set the alpha layer to black (you can make it dark gray if you want specular reflections; lighter = more specular), and Composed them back to RGBA. I saved using DXT5 DDS format, to keep the alpha channel. There may be a way in Photoshop, but it doesn&#39;t really like to work with alpha channels separately as far as I&#39;ve found. \r<br />\r<br />\r<br />[b]Changelog:[/b]\r<br />v1.1: Now modifies eyebrow normal map instead of models, allowing it to work on NPCs.\r<br />\r<br />\r<br />For anyone interested, here are the face mods I&#39;m using in the images:\r<br />For the guy, [url=http://www.nexusmods.com/skyrim/mods/27815]Fine Face Textures for Men 2.0b[/url] by Urshi\r<br />For the girl, [url=http://www.nexusmods.com/skyrim/mods/17704]All in One Face for UNP[/url] by r3320ca\r<br />[url=http://www.nexusmods.com/skyrim/mods/29977]XCE Warpaint and Dirt[/url] by Xenius\r<br />[url=http://www.nexusmods.com/skyrim/mods/4784]HD Scars[/url] by Xenius\r<br />[url=http://www.nexusmods.com/skyrim/mods/30411]Brows[/url] by lthot (As I said, just replaced his normals with mine)\r<br />[url=http://www.nexusmods.com/skyrim/mods/30411]The Eyes of Beauty[/url] by lthot\r<br />I use Opethfeldt ENB, but I tweaked basically every config value, including subsurface scattering. It&#39;s a subtle effect but essential to get right for realistic skin. Here are my settings if you&#39;re curious: Radius=3.0, Amount=0.47, EpidermalAmount=1.0, SubdermalAmount=9.0, EpidermalDiffuseSaturation=0.0, SubdermalDiffuseSaturation=0.39, EpidermalMix=0.12, SubdermalMix=0.5, SubdermalTranslucency=0.3, SubdermalPhase=0.0\r<br />\r<br />\r<br />Thanks to narphous for the location of the specularity channel.\r<br />\r<br />Enjoy your non-shiny eyebrows,\r<br />Sooner266",
+  "categoryId": "29",
+  "version": "1.1",
+  "author": "Sooner266",
+  "createdUnix": "1387966566",
+  "updatedUnix": "1388013443",
+  "containsAdultContent": false,
+  "uploadedBy": "Sooner266",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000088322",
+      "name": "v1-0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "82",
+      "fileName": "Eyebrow Specularity Fix - v1-0-49168-1-0.zip",
+      "uploadedUnix": "1387966336",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/eb7bab11d6fdaec83e11f4c24b32f507b4710039aa6fd5c879ffdea3dbd8ff88/analysis/1407858425/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Eyebrow%20Specularity%20Fix%20-%20v1-0-49168-1-0.zip?fid=1000088322&ttl=1535829814&ri=8192&rs=8192&setec=e227fc0d731b81f1f8aa96753628dc77"
+    },
+    {
+      "fileId": "1000088392",
+      "name": "v1-1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "23",
+      "fileName": "v1-1-49168-1-1.zip",
+      "uploadedUnix": "1388013443",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/2da9daf55e837bb64af1561a8fa83b6140564d8790f0d0ad838f810253c644ee/analysis/1407859092/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/v1-1-49168-1-1.zip?fid=1000088392&ttl=1535829815&ri=8192&rs=8192&setec=c63bd4b0e82108a5bd45f58303946973"
+    }
+  ]
+}

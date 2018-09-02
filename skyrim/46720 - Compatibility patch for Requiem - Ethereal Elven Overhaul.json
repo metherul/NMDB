@@ -1,0 +1,48 @@
+{
+  "modId": 46720.0,
+  "modName": "Compatibility patch for Requiem - Ethereal Elven Overhaul",
+  "summary": "Makes Ethereal Elven Overhaul compatible with Requiem",
+  "descriptionHtml": "Makes [url=http://www.nexusmods.com/skyrim/mods/24273]Ethereal Elven Overhaul[/url] compatible with [url=http://www.nexusmods.com/skyrim/mods/19281/]Requiem[/url]. In case of stats, perks, etc. I carried edits from Requiem.esp and in case of visuals I carried edits from ethereal_elven_overhaul.esp. I also recommend you looking at [url=http://www.nexusmods.com/skyrim/mods/46067]thordir&#39;s patches[/url] for DLCs and other great mods.\r<br />\r<br />[size=5pt][u]Why[/u][/size]\r<br />If you are wondering why patch is required, when everything that EEO does is making elves more beautiful, there&#39;s the reason: Both mods makes edits to few same records, and Requiem overwrites EEO changes and vice versa (depending on load order), so this mods merges those changes into one esp.\r<br />\r<br />[size=5pt][u]Requirements[/u][/size]\r<br />Skyrim 1.9.32.0.8\r<br />[url=http://skyrim.nexusmods.com/mods/19]Unofficial Skyrim Patch[/url] - Version 2.0.7 or greater.\r<br />Ethereal Elven Overhaul 1.1.1\r<br />Requiem 1.8.1.1\r<br />\r<br />[size=5pt][u]Load Order[/u][/size]\r<br />Skyrim.esm\r<br />Update.esm\r<br />Skyrim Unofficial Patch.esp\r<br />Dawnguard.esm\r<br />[Other ESMs/ESPs]\r<br />Requiem.esp\r<br />[Other ESPs]\r<br />ethereal_elven_overhaul.esp\r<br />Requiem - Ethereal Elven Overhaul.esp\r<br />\r<br />Use [url=http://loot.github.io/]LOOT[/url] for proper load order.\r<br />\r<br />[size=5pt][u]Credits[/u][/size]\r<br />Xarrian and Ogerboss for creating Requiem\r<br />nuska for creating Ethereal Elven Overhaul",
+  "categoryId": "95",
+  "version": "2.0",
+  "author": "MrFilipenko",
+  "createdUnix": "1384018117",
+  "updatedUnix": "1414411487",
+  "containsAdultContent": false,
+  "uploadedBy": "MrFilipenko",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000122787",
+      "name": "Requiem - Ethereal Elven Overhaul",
+      "version": "1.4",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "101",
+      "fileName": "Requiem - Ethereal Elven Overhaul-46720-1-4.zip",
+      "uploadedUnix": "1408458820",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/e6f8d4e054d1fc4a2dc5f0408c37461d6c39895d6a7adfd4535971dee86079a4/analysis/1408528924/",
+      "changelogHtml": " Fixed missing clothes on various NPCs <br/> \n Fixed several other bugs <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem%20-%20Ethereal%20Elven%20Overhaul-46720-1-4.zip?fid=1000122787&ttl=1535827022&ri=8192&rs=8192&setec=36d69304ec5ddf2a1dab293ea3f37887"
+    },
+    {
+      "fileId": "1000132785",
+      "name": "Requiem - Ethereal Elven Overhaul",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "101",
+      "fileName": "Requiem - Ethereal Elven Overhaul-46720-2-0.zip",
+      "uploadedUnix": "1414411487",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/95f0ed6bfd20ff81410f71fe6e398556b124cf8bd477a53398072fe6c37be332/analysis/1414411562/",
+      "changelogHtml": " Patch updated for Requiem 1.8.1.1 <br/> \n USKP 2.0.7 fixes forwared <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem%20-%20Ethereal%20Elven%20Overhaul-46720-2-0.zip?fid=1000132785&ttl=1535827023&ri=8192&rs=8192&setec=b0285eaac30318cb4d19678c7d93e0b4"
+    }
+  ]
+}

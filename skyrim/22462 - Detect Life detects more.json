@@ -1,0 +1,48 @@
+{
+  "modId": 22462.0,
+  "modName": "Detect Life detects more",
+  "summary": "A simple change to make Detect life find those pesky undead\\'s, demons and mechanical things.",
+  "descriptionHtml": "A simple change to make Detect life find those pesky undead\\'s, demons and mechanical things.\r\n\r\nTo that end the following magical effects have been edited:\r\nDetectLifeEnemyExteriorConcSelf\r\nDetectLifeEnemyInteriorConcSelf\r\nDetectLifeFriendInteriorConcSelf\r\nDetectLifeFrientExteriorConcSelf\r\nDetectLifeEnemyInteriorSelfFF\r\nDetectLifeEnemyExteriorSelfFF\r\nDetectLifeFriendInteriorSelfFF\r\nDetectLifeFriendExteriorSelfFF\r\n\r\nThe spell itself isn\\'t changed so it should be compatable with most mod\\'s that implement/modify detect life spells without changing the effects. \r\n\r\nThe Aura Whisper shout isn\\'t modified in any way.\r\n\r\nChangelog:\r\n1.2 Compatibilty changes with Dwemer Goggles (it used DetectLifeFriendInteriorSelfFF)\r\n1.1: Cleaned the addon and uploaded to steamworks.\r\n\r\nSame file as on steam: http://steamcommunity.com/sharedfiles/filedetails/?id=89351182",
+  "categoryId": "93",
+  "version": "1.2",
+  "author": "Woffie",
+  "createdUnix": "1345023025",
+  "updatedUnix": "1345057477",
+  "containsAdultContent": false,
+  "uploadedBy": "woffie",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "81760",
+      "name": "DetectLife detects more",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "DetectLife detects more-22462-1-1.zip",
+      "uploadedUnix": "1345026594",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/95bd95c2e8a97c27bb6443a34ebe3da76aa27e40915f76d6b4ee45c571d03d69/analysis/1407098295/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DetectLife%20detects%20more-22462-1-1.zip?fid=81760&ttl=1535792011&ri=8192&rs=8192&setec=ca15d8ab6e5315b1c085c9b39b2db506"
+    },
+    {
+      "fileId": "81852",
+      "name": "DetectLife detects more 2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "DetectLife detects more 2-22462-1-2.zip",
+      "uploadedUnix": "1345057477",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/fdb2077ffe556d0ee426c02331e736e8fc3ad763e267c19f22af1f02cb460cea/analysis/1407099248/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DetectLife%20detects%20more%202-22462-1-2.zip?fid=81852&ttl=1535792011&ri=8192&rs=8192&setec=7ba10aafde13527b3bfa32e65b34c3ac"
+    }
+  ]
+}

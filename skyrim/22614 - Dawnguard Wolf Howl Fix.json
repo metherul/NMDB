@@ -1,0 +1,32 @@
+{
+  "modId": 22614.0,
+  "modName": "Dawnguard Wolf Howl Fix",
+  "summary": "Al99 a nexus user, informed me that wolfs do not howl with Dawnguard active, this fixes it.",
+  "descriptionHtml": "Fixes non Howling wolfs with the Dawnguard DLC active.\r\n\r\nBethesda seems to have forgotten to add a SoundPlay command to the wolf_idle_spice.hkx\r\n\r\nReplacing it with the original fixed that, i don\\'t know what bethesda did to this file but by comparing the two files i can\\'t find any major changes except the missing SoundPlay command.\r\n\r\nThis mod is per request.",
+  "categoryId": "61",
+  "version": "1.0",
+  "author": "Keldis",
+  "createdUnix": "1345247535",
+  "updatedUnix": "1345250571",
+  "containsAdultContent": false,
+  "uploadedBy": "Keldis",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "82354",
+      "name": "How Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "How Fix-22614-1-0.rar",
+      "uploadedUnix": "1345250571",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b8f1f00659ca5dec6cecfda87b0d05325f8e748e9aa23f3041132af45a606113/analysis/1407103923/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/How%20Fix-22614-1-0.rar?fid=82354&ttl=1535792260&ri=8192&rs=8192&setec=92f46cf70754e7de3fc3f7a19ac2c9b0"
+    }
+  ]
+}

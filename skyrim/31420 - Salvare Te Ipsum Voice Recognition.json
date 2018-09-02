@@ -1,0 +1,32 @@
+{
+  "modId": 31420.0,
+  "modName": "Salvare Te Ipsum Voice Recognition",
+  "summary": "This Script Dragon ASI file is adding voice recognition to Skyrim out of the box. It is only 64kb big and is using native Windows SAPI.  No third party tool besides Script dragon is necessary to run the voice recoginition. But it is a beta version. Please try it out and give feedback. For me it is working fine. I will add more features in future.",
+  "descriptionHtml": "This Script Dragon ASI file is adding voice recognition to Skyrim out of the box. It is only 64kb big and is using native Windows SAPI.  No third party tool besides Script dragon is necessary to run the voice recoginition. But it is a beta version. Please try it out and give feedback. For me it is working fine. I will add more features in future.\r\n\r\nWhat does it do?\r\n\r\nIf you have installed latest script dragon version and added both the asi and the xml file to the main skyrim folder, it will run if you begin gaming. I have implemented some commands in this first version:\r\n\r\nargus -> equips imperial bow and adds 10 arrows\r\nsalvare te ipsum (sinistra/dextera/extremus) -> selects Healings spell if you have learned it before\r\ninflamare (sinistra/dextera/extremus)  -> selects Flames spell if you have learned it before\r\nfulgur (sinistra/dextera/extremus)  -> selects Sparks spell if you have learned it before\r\nfirmare -> quicksave\r\n\r\nsinistra -> lefthand\r\ndextera -> righthand\r\nextremus -> both hands\r\n\r\nIt is tested on my pc (win7 x64, german). If it won´t work on your pc you should change the language of the grammar file. I think it has to be the same as your system is. If you open the xml file with you favourite editor you change the Grammer Language ID. I have added all possibilites in a comment.\r\n\r\n",
+  "categoryId": "78",
+  "version": "0.1b",
+  "author": "VadersApp",
+  "createdUnix": "1360537323",
+  "updatedUnix": "1360538305",
+  "containsAdultContent": false,
+  "uploadedBy": "VadersApp",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000008849",
+      "name": "SalvareTeIpsum",
+      "version": "0.1b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "31",
+      "fileName": "SalvareTeIpsum-31420-0-1b.7z",
+      "uploadedUnix": "1360538305",
+      "modVersion": "0.1b",
+      "virusScanUrl": "https://www.virustotal.com/file/61460b43cb93c5302ed29f07d75941de8c07679975e1397009a5652ebe57fb3a/analysis/1407410297/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SalvareTeIpsum-31420-0-1b.7z?fid=1000008849&ttl=1535806949&ri=8192&rs=8192&setec=ae75575b0cf41889ebf2120ce2981d6e"
+    }
+  ]
+}

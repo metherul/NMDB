@@ -1,0 +1,32 @@
+{
+  "modId": 34703.0,
+  "modName": "Stop followers unsheathing when you do",
+  "summary": "This is a little mod that stops followers unsheathing their weapon when you do, simples! ",
+  "descriptionHtml": "I\\'m stating this now to ensure there is no confusion, I am no modder, I have a very basic understanding of the CK. This mod works for me in my modded game, it should work for you too. I am pretty sure there are no ill effects in changing this setting, but I cannot guarantee this as I am not knowledgeable enough to be certain. This mod is used at your own risk entirely. Saying that, please feel free to post a any issues in the comments and I\\'ll do my best to help you out!     \r\n\r\nDescription:\r\n- Do you hate it when followers unsheathe when you do, especially when you\\'re trying to sneak around in a sneaky fashion, but you don\\'t want to use a big mod like UFO, AFT, or EFF? Then this mod should do the trick! The process was very simple, I just changed the \\\"fAIDistanceTeammateDrawWeapon\\\" setting from \\\"2000\\\" to \\\"0\\\" in the CK. This setting determines how close followers have to be in order to draw when you do, setting this to 0 stops this feature entirely.\r\n\r\nFollowers will still unsheathe their weapon when combat is initiated, or any other time it is necessary.\r\n\r\nCompatibility:\r\n- I use this mod with companion Vilja in Skyrim and it works almost perfectly (see issues below), I assume that this also extends to any other companion mods out there.\r\n- If you have UFO, EFF, or AFT then this mod is not required, for they have their own methods of disabling this feature, I know for a fact that EFF uses the same method. \r\n- The mod \\\"Convenient horses\\\" already implements this change\r\n\r\nIssues:\r\n - If you use custom mounted followers (like Vilja) who can use a weapon while mounted, they will unsheathe then sheathe their weapon when you do! This is because their behavior on horseback is 100% scripted and separate from the default follower framework! It has been confirmed that this occurs when using companion VIlja!\r\n\r\nInstallation and removal:\r\n- The process of installation is very simple, it would have to be, for I am a simpleton. You just activate it through the Nexus Mod Manager OR drop the \\\"stop followers unsheathing.esp\\\" into your data folder (C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim). To remove the mod, you just remove it through NMM or delete the aforementioned \\\"stop followers unsheathing.esp\\\" in your data folder. \r\n\r\nPermissions:\r\n- This mod can be altered in any way, by anybody. \r\n- It must remain exclusive to the nexus, no exceptions.",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "WaxyRanger",
+  "createdUnix": "1365796212",
+  "updatedUnix": "1365796366",
+  "containsAdultContent": false,
+  "uploadedBy": "WaxyRanger",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000023985",
+      "name": "Stop followers unsheathing when you do",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Stop followers unsheathing when you do-34703-1-0.7z",
+      "uploadedUnix": "1365796366",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9988960011f05a3ff2b8eba1e335df630de18974f5773b9504456aef36064718/analysis/1407518485/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Stop%20followers%20unsheathing%20when%20you%20do-34703-1-0.7z?fid=1000023985&ttl=1535812735&ri=8192&rs=8192&setec=a9e049c1f1d14717294a38249fb8b520"
+    }
+  ]
+}

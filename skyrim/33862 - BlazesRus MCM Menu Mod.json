@@ -1,0 +1,32 @@
+{
+  "modId": 33862.0,
+  "modName": "BlazesRus MCM Menu Mod",
+  "summary": "New MCM menu that features many options",
+  "descriptionHtml": "New MCM Menu that includes many options\r\nFeatures included:\r\n-Changing FOV options\r\n-Force Enable Player controls\r\n-Mana Shield Spell/Enchantments(Uses FavorsTimer Variable to store mana shield total)\r\n-Transformation Trinkets from my Transformation Trinkets mod\r\n-Divide Enchantment Options from my Divide Enchantments mod\r\n-New Unfinished Transformation Spells\r\n-Force End of Werewolf Transformation option\r\n-Some other things such as new perks in menu to use\r\n\r\n-Also includes unfinished optional patcher that(will later have options correctly turn on/off features after I figure out how to make working option sliders):\r\n- turns Unplayable Weapons/Armor into playable equipment(exclusions to formids with name FXarmor, Skin, and Names of \\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"<No Text>\\\\\\\\\\\\\\\")\r\n-Flips swim flags to allow combat in water(needs custom idle tree to allow player to attack in water)\r\n-Limit max potion weight to 2.0\r\n-ManaShield effects distributed between actors of certain classes(Doesn\\'t work)\r\n\r\n-Requires:\r\nLatest SKSE\r\nLatest SkyUI\r\nDawnguard\r\n\r\nInformation for TrinketsMod thats fused into mod:\r\nhttp://skyrim.nexusmods.com/mods/16026\r\n\r\nChanges in 1.01 Alpha(Unreleased):\r\n-Turn on/off trinket recipes\r\n-Option to turn on new trinket recipes instead of old versions of them\r\n-New optional esp for creature idle tree patch to allow player attacks without needing to rely on using room esp for player compatible creature attacking(still requires nif changes)\r\n-Nif patch for gargolye to allow player camera to work on gargolye(based on room\\'s author instructions) \r\n",
+  "categoryId": "28",
+  "version": "1.0Alpha",
+  "author": "BlazesRus",
+  "createdUnix": "1364177317",
+  "updatedUnix": "1364177292",
+  "containsAdultContent": false,
+  "uploadedBy": "BlazesRus",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000020070",
+      "name": "BlazesMCMModVersion1Alpha",
+      "version": "1.0Alpha",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2380",
+      "fileName": "BlazesMCMModVersion1Alpha-33862-1-0Alpha.7z",
+      "uploadedUnix": "1364177292",
+      "modVersion": "1.0Alpha",
+      "virusScanUrl": "https://www.virustotal.com/file/c849bdb5ddfae3fc6cb620216d273aa03a91ef7991f15c4c2c1fd3fc5eed6ddf/analysis/1407487329/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BlazesMCMModVersion1Alpha-33862-1-0Alpha.7z?fid=1000020070&ttl=1535811246&ri=8192&rs=8192&setec=89133686089bb7c4480a67ee4904a6a1"
+    }
+  ]
+}

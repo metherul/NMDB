@@ -1,0 +1,48 @@
+{
+  "modId": 45129.0,
+  "modName": "Horse Branding_1_1_Fix",
+  "summary": "BETA Version:\r<br />This mod tries to provide a fix for the horsebranding mod from fLokii.\r<br />\r<br />Random encounter horses of the vanilla game that are branded no longer disappear after sleeping 24 hours in a different cell.\r<br />\r<br />I trieded to reach the original author, but I have not been successful because his account\r<br />has reache",
+  "descriptionHtml": "BETA Version:\r<br />This mod tries to provide a fix for the horsebranding mod from fLokii.\r<br />\r<br />Branded horses from random encounters no longer disappear when the player sleeps in a different cell for 24 hours.\r<br />\r<br />I tryed to reach the original author, but I have not been successful because his account\r<br />has reached his mail limit.\r<br />\r<br />================================================\r<br />Attention&#33; This Mod needs your help&#33; Get it to 2.0&#33;\r<br />================================================\r<br />\r<br />I am a great fan of the original mod, \r<br />so 10,- € Paypal donation available, for the first scripter who \r<br />===============================\r<br />can find a solution to ALL the problems described below \r<br />AND can send me a working fix/mod that includes all files (source), \r<br />solves all the described problems below and offers this mod for free public download.\r<br />\r<br />\r<br />You can even make a new mod with new scripts as long as it provides all the features of the original mod found here:\r<br />\r<br />http://skyrim.nexusmods.com/mods/13530//?\r<br />\r<br />Of course the credits for creating the fix go to you. \r<br />\r<br />\r<br />Details: Read section &#34;BUG&#34;, I did try to provide as much helpfull information as possible below.\r<br />\r<br />General:\r<br />\r<br />This mod is a fix of the original mod of fLoki, my fix works, but lacks elegance, because I am no scripter.\r<br />\r<br />What it does:\r<br />\r<br />This original mod adds to the game:\r<br />\r<br />- Three items, two branders and one unbrander.\r<br />\r<br />With this items you can brand horses for youself and follower (called &#34;Your Mark&#34;), and for multiple followers (Follower Mark&#34;)\r<br />and one unbrander to set the horse free.\r<br />\r<br />- Two scripts aaahorsewan_er, aaahorseunwan_er\r<br />\r<br />- One new Faction: ofLokiiFaction (do not know why, maybe for transfering ownership or setting free)\r<br />\r<br />- One AI-Package: OfLokiiBrandingDefaultStayAtCurrentLocation (prevents horses from running away)\r<br />\r<br />- On branded horses the stolen mark is removed and they no longer run away if you dismount.\r<br />\r<br />\r<br />Pro: Works flawless\r<br />\r<br />Con: Mod does not include the source-scripts. \r<br />\r<br />&#34;BUG&#34;: ORIGINAL-Mod does not work on the random-encounter horses. They vanish after sleeping for 24 hours.\r<br />\r<br />\r<br />MY FIX: Random encounter horses now will never disapear regardles, if you do brand them or not, you have to kill them, or they stay in the encounter spot or where you park them forever. (Sorry PETA).\r<br />\r<br />\r<br />Problem description:\r<br />\r<br />After investing quite some time and with the help of Mitchalek from the forum, I found out the the &#34;bug&#34; is not in original-mod itself but in the way Skyrim handles the random-encounters with horses.\r<br />\r<br />Mainly WEJS03, WEJS09, WEJS24 and maybe WERoad02 so this scripts need to be altered.\r<br />\r<br />This encounters include a script that has the following line:\r<br />\r<br />Alias_Horse.GetReference().DeleteWhenAble() \t-&gt; this makes the (branded) horses disappear after a certain time and causes the &#34;bug&#34;.\r<br />\r<br />I changed it to: -&gt;\t; Alias_Horse.GetReference().DeleteWhenAble() \t-&gt; so the horses no longer disappear.\r<br />\r<br />But an unpleasant side effect is that the horses now NEVER disappear regardless if you brand them or not.  \r<br />\r<br />\r<br />GOAL should be: \r<br />===============\r<br />Horses disappear if the player does not brand them, horses do not disappear if the player brands them.\r<br />\r<br />\r<br />Solution in my opinion, I am open for better ideas:\r<br />===============================================\r<br />\r<br />1. Random encounter WEJS03 and WEJS09 (Merchant with horse attacked by bandits or forsworn): \r<br />\r<br />At startup the horse is owned by the merchant and marked as stolen for the player. \r<br />A check-expression is needed that checks if horse is still owned by the merchant (unbranded),\r<br />or no longer owned by the merchant (branded), so it ONLY disapears if the player does not brand it.\r<br />Something like that:\r<br />\r<br />; attempts to delete the horse reference if it is not owned by player\r<br />if Alias_Horse.GetReference().GetActorOwner() == &#34;OwnedbyMerchant&#34;\r<br />     Alias_Horse.GetReference().DeleteWhenAble()\r<br />endif\r<br />\r<br />or the other way round:\r<br />\r<br />; attempts to not delete the horse reference if it is owned by player\r<br />if Alias_Horse.GetReference().GetActorOwner() &#33;= &#34;OwnedbyPlayer&#34;\r<br />     Alias_Horse.GetReference().DeleteWhenAble()\r<br />endif\r<br />(Problem here: I do not know how the original mod transfers ownership because no source files are included)\r<br />\r<br />\r<br />2. Random encounter WEJS24 (Dead bandit next to horse):\r<br />\r<br />Even more complicated. The horse is NOT marked as stolen, but will run away after dismount.\r<br />\r<br />A expression that checks if the horse is owned by the player, might not help, \r<br />because it maybe is already owned by player, because it has no stolen mark at startup. \r<br />So it might not disappear if you use a simple check-expression and if the player does not brand it.\r<br />\r<br />A possible solution could be to set the ownership of the horse at STARTUP to the dead bandit,\r<br />and on shutdown of the scene, check if it is still owned by the dead bandit so it can be deleted, \r<br />or was branded and is no longer owned be the dead bandit (and so does not get deleted).\r<br />\r<br />3. WERoad02 should be same solution like WEJS03 and WEJS09\r<br />\r<br />\r<br />Thanks for reading until here.",
+  "categoryId": "83",
+  "version": "1.1",
+  "author": "christianerding2",
+  "createdUnix": "1382378944",
+  "updatedUnix": "1401212480",
+  "containsAdultContent": false,
+  "uploadedBy": "christianerding2",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000068947",
+      "name": "Horse Branding_Ver_1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "230",
+      "fileName": "Horse Branding_Ver_1_1-45129-1-1.rar",
+      "uploadedUnix": "1382377733",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/adea4d8ff44a868684a1394d0e008a8efd4935af46b24b877f3a92a3ad209fdc/analysis/1407763926/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Horse%20Branding_Ver_1_1-45129-1-1.rar?fid=1000068947&ttl=1535825670&ri=8192&rs=8192&setec=65a6d43cfa497a605385eebad22effba"
+    },
+    {
+      "fileId": "1000110748",
+      "name": "Horse Branding_Ver_1_1 BSA-Version",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "223",
+      "fileName": "Horse Branding_Ver_1_1 BSA-Version-45129-1-1.rar",
+      "uploadedUnix": "1401212480",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/ef06257e8a730f7eabfdcc91f1852c69c67ad844f784b6845863dc22e2f4588a/analysis/1408099464/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Horse%20Branding_Ver_1_1%20BSA-Version-45129-1-1.rar?fid=1000110748&ttl=1535825670&ri=8192&rs=8192&setec=3b95d665b5a252313669e9b19a342092"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 44596.0,
+  "modName": "Mfg Console",
+  "summary": "This mod resurrects \"mfg phoneme/modifier\" console command and PlayerBlink at Skyrim ver.1.9.32 again.\r\nAnd add some information window, some commands and customizable command-alias to console.",
+  "descriptionHtml": "# MfgConsole v1.1\r\n\r\n ----------------------------------------------------------------------\r\n Description\r\n ----------------------------------------------------------------------\r\nThis mod resurrects \"mfg phoneme/modifier\" console command and playerBlink at Skyrim ver.1.9.32 again.\r\nAnd add some information window, some command and customizable command-alias to console.\r\n\r\n\r\n ----------------------------------------------------------------------\r\n Features\r\n ----------------------------------------------------------------------\r\n- enable \"mfg phoneme/modifier\" console command at Skyrim ver.1.9.32\r\n- enable PlayerBlink at Skyrim ver.1.9.32\r\n- add extra information to the console\r\n- show objectName, formID, baseID, sourceMod, lastModifiedMod, respawn-container or not, characterStatus, activeEffects, equipments etc.\r\n- show character-expression detail window \r\n\r\n ----------------------------------------------------------------------\r\n Requirements\r\n ----------------------------------------------------------------------\r\nSkyrim version 1.9.32.0\r\nSKSE 1.6.16 or later\r\n\r\n\r\n ----------------------------------------------------------------------\r\n Installation\r\n ----------------------------------------------------------------------\r\ndrop the \"data' folder into your Skyrim directory.\r\nIf you do not want to install the console update, please exclude \"Interface\" folder.\r\n\r\n\r\n ----------------------------------------------------------------------\r\n Configuration\r\n ----------------------------------------------------------------------\r\nYou can enable/disable playerBlink and ExtraInfoWindow on startup at\r\n\"data/SKSE/Plugins/MfgConsole.ini\".\r\n\r\n\r\n  ----------------------------------------------------------------------\r\n Usage\r\n ----------------------------------------------------------------------\r\n- Extra information\r\nThis mod shows an additional information window on the left side of screen when select an object at the console.\r\nSupport character, weapon, armor, potion, scroll and container now.\r\nSome entries have a child window (added \" >\" on the right of entry). Move mouse cursor on the entry and tap \"Shift\" key.\r\nIf entry have no more information, do nothing.\r\n\r\nThis window is enabled by default. If you want to disable, set in the configuration file.\r\nYou can enable on console with \"enableExtraInfo\" command. This command is valid until you restart the game.\r\n\r\n\r\n- PlayerBlink\r\nPlayerBlink is enabled by default. If you want to disable, set in the configuration file.\r\nYou can enable/disable on console with \"playerBlink start\" or \"playerBlink stop\" command. This command is valid until you restart the game.\r\n\r\n\r\n- Expressions\r\nSelect character (include player) at the console and type \"mfg phoneme/modifier * *\" same as TESV-Ver.1.8.151.\r\nThese effects will take effect after you exit the console.\r\nYou have to execute \"mfg reset\" on the character to reset face after change expressions, or reboot your game.\r\n\r\nIf you want to save expression, enter \"mfg save 'filename'\".\r\nSaved file is 'filename.txt' in Skyrim directory.\r\nTo revert expression, select character at the console and enter \"bat 'filename'\".\r\n\r\n\r\n- Alias\r\nThis already sets some command-alias, \"me\",\"mp\",\"mm\" to \"mfg expression\",\"mfg phoneme\", \"mfg modifier\".\r\nIf you enter \"mp 1 100\", execute \"mfg phoneme 1 100\".\r\n\r\nYou can add your own alias easily.\r\nOpen \"datainterfaceconsole_alias.ini\" by text editor, and add \"alias, execute-command\" pair.\r\n\r\n\r\n- Cheat command\r\nYou can get all weapons/armors added by mod at once.\r\nSelect container on console and enter \"getModItem mod\", and this adds all weapons/armors added by mod into that container.\r\n\"getModItem vanilla\" \"getModItem dlc\" add vanilla/DLC weapopns and armors.\r\n-- warning! --\r\nThis command adds very many items (about 5,000 at vanilla), do not choice your favorite container and container in your home.\r\nAfter you have finished, run \"removeAllItems\" command on the container will be good.\r\nSome mod have test items, which may cause a bug. Be careful.\r\n\r\n\r\n ----------------------------------------------------------------------\r\n Known issues\r\n ----------------------------------------------------------------------\r\n- This mod cannot stop expression of AI, character face will blink when NPC will speak or so.\r\n- PlayerBlink works regardless of the speed of the game. (killmoves, slowmotion mod etc.)\r\n- Extra information take a few seconds on game startup for search mod IDs.\r\n- Cannot get Enchantment of weapon/armor now.\r\n- Cannot get the name that you gave to the enchanting, show original name now.\r\n\r\n\r\n ----------------------------------------------------------------------\r\n For Developper\r\n ----------------------------------------------------------------------\r\nThis mod includes some Papyrus functions for change expression.\r\nSee ScriptssourceMfgConsoleFunc.psc.\r\n\r\n\r\n ----------------------------------------------------------------------\r\n Permission\r\n ----------------------------------------------------------------------\r\nYou are allowed to upload, convert, modify this mod.\r\nYou feel free to use this mod to include your mod, No need to contact me.\r\n\r\n\r\n ----------------------------------------------------------------------\r\n Changelog\r\n ----------------------------------------------------------------------\r\n2013/10/30 ver.1.1\r\n- add PlayerBlink\r\n- add extra information window\r\n- add playerBlink start|stop, enableExtraInfo, getModItem mod|vanilla|dlc commands\r\n- fix the error appears to a number of expression\r\n- fix papyrus function bug\r\n- change some internal processing\r\n\r\n2013/10/15\r\n Initial release\r\n\r\n\r\n ----------------------------------------------------------------------\r\n Credits\r\n ----------------------------------------------------------------------\r\nThanks to Bethesda Softworks\r\nThanks to SKSE team\r\nThanks to SkyUI team - creating Unofficial UI SDK\r\nThanks to himika",
+  "categoryId": "95",
+  "version": "1.1",
+  "author": "kapaer",
+  "createdUnix": "1381837206",
+  "updatedUnix": "1383124307",
+  "containsAdultContent": false,
+  "uploadedBy": "kapaer",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000066254",
+      "name": "Mfg Console",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "102",
+      "fileName": "Mfg Console-44596-1-0.zip",
+      "uploadedUnix": "1381843600",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c59b492b11573ae7aeec9e735d3a4e1df628c561893acb755ebdeebe8cdd5161/analysis/1407756907/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Mfg%20Console-44596-1-0.zip?fid=1000066254&ttl=1535825200&ri=8192&rs=8192&setec=0a13283d487d269b4332589376c8235e"
+    },
+    {
+      "fileId": "1000072625",
+      "name": "MfgConsole",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "128",
+      "fileName": "MfgConsole-44596-1-1.zip",
+      "uploadedUnix": "1383124307",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/94dfe5bb76e8b99faa8d68d8a82a5e4c6b9a92562d9d056a2c35039a4aace729/analysis/1407774963/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MfgConsole-44596-1-1.zip?fid=1000072625&ttl=1535825201&ri=8192&rs=8192&setec=e97abcf26cdc478c5deba23c20157f25"
+    }
+  ]
+}

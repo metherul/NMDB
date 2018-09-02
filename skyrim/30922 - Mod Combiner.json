@@ -1,0 +1,32 @@
+{
+  "modId": 30922.0,
+  "modName": "Mod Combiner",
+  "summary": "Utility for combining files from different mods.",
+  "descriptionHtml": "Mod Combiner is an advanced batch script which reads configuration files to pick-and-choose textures and other files from other mods, automating adding any number of conflicting mods together.\r\n\r\nI was really impressed with both the work of Celestral on [url=\\\"http://skyrim.nexusmods.com/mods/20801\\\"]Texture Pack Combiner[/url] and as well of [url=\\\"http://skyrim.nexusmods.com/mods/11\\\"]S.T.E.P.[/url] and its community. While I do not have a discerning eye, I am good at scripting, and thus the Mod Combiner was born. This was the first step in my quest to automate S.T.E.P.\r\n\r\nThis utility relies on user input, and does nothing without configuration files. Using the Mod Combiner, one can now write a very simple configuration file to give us their take on what mods look best with what. Do you like the skin texture from \\\"Dragon Texture Mod #1\\\" but think \\\"Dragon Texture Mod #2\\\" did another part better? Now you can make your own configuration file to combine the two mods and release it on a site like NexusMods.\r\n\r\n[b]Usage:[/b] Files go in a directory (folder) called \\\"Files\\\", and are copied to a directory called \\\"Combined\\\". Configuration files go in the same directory as the main \\\"ModCombiner.bat\\\" utility, which first looks for a file called \\\"order_modcombiner.txt\\\" to figure out in what order to read the configuration files (if not found, it creates its own order file). All configuration files must end with \\\".cfg\\\". [b]Once the batch file is finished, look for log_modcombiner.txt[/b].\r\n\r\nExample configuration:\r\n[code]\r\nHD2K\\\\Textures\\\\actors\\\\dragon priest\\\\dragonpriest.dds,Data\\\\Textures\\\\actors\\\\dragon priest\\\\\r\nHD2K\\\\Textures\\\\actors\\\\dragon priest\\\\dragonpriest_n.dds,Data\\\\Textures\\\\actors\\\\dragon priest\\\\\r\n[/code]\r\nHere we\\'re copying individual texture files from the HD2K mod to the Combined directory. The syntax is \\\"File to be copied, where to copy\\\", using comma delimitation. If \\\"HD2K\\\\Textures\\\\actors\\\\dragon priest\\\\\\\" only contains the files we need, we could also do this:\r\n[code]\r\nHD2K\\\\Textures\\\\actors\\\\dragon priest\\\\*,Data\\\\Textures\\\\actors\\\\dragon priest\\\\\r\n[/code]\r\n* is a wildcard and will match all files in the directory. We could also do this:\r\n[code]\r\nHD2K\\\\Textures\\\\actors\\\\dragon priest\\\\dragonpriest*,Data\\\\Textures\\\\actors\\\\dragon priest\\\\\r\n[/code]\r\nTo get all files starting with \\\"dragonpriest\\\", or this\r\n[code]\r\nHD2K\\\\Textures\\\\actors\\\\dragon priest\\\\dragonpriest*.dds,Data\\\\Textures\\\\actors\\\\dragon priest\\\\\r\n[/code]\r\nTo get all files starting with \\\"dragonpriest\\\" that also have the \\\"dds\\\" (texture file) extension.\r\n\r\nNow let\\'s say you wanted to include support for extracting mod archive files (.7z, .zip, etc.) that\\'s easy:\r\n[code]\r\n<HD2K.zip\r\n[/code]\r\nWill extract HD2K.zip to the Files directory/folder, and then the batch file will continue on. Remember - the configuration file is read in order, top to bottom (end of file). All you, the configuration file writer, need to tell the utility, is where these files will extract to in the Files directory. So let\\'s say you give the utility the command:\r\n[code]\r\n<HD2K.zip\r\n[/code]\r\nAnd you see a new folder in the Files folder called \\\"Serious HD 2K Textures\\\", and you want to copy those dragonpriest textures. You\\'d end up with something like this:\r\n[code]\r\n<HD2K.zip\r\nSerious HD 2K Textures\\\\Textures\\\\actors\\\\dragon priest\\\\dragonpriest.dds,Data\\\\Textures\\\\actors\\\\dragon priest\\\\\r\nSerious HD 2K Textures\\\\Textures\\\\actors\\\\dragon priest\\\\dragonpriest_n.dds,Data\\\\Textures\\\\actors\\\\dragon priest\\\\\r\n[/code]\r\nOne final note - you can add comments to your configuration files by starting off the line with a semi-colon (;). You can put version info, instructions, whatever. The batch file itself is pretty well-commented, and can even be well re-configured by users.\r\n\r\nSome Suggestions:\r\n- Write multiple configuration files for different machine specs. Say Mod #1 may be better for higher-end machines while Mod #2 is better for lower-end machines, and Mod #3 is good for either. You can write two configuration files: Baseline.cfg and Heavy.cfg, with the Baseline being the same as \\\"Light\\\" including files Mod #2 and Mod #3 and the optional downlaod \\\"Heavy.cfg\\\" including files from Mod #1 which overwrite the files from Mod #2. You\\'d could include a master orderfile ([b]order_modcombiner.txt[/b]) to make sure Baseline.cfg gets read before Heavy.cfg.\r\n\r\norder_modcombiner.txt:\r\n[code]\r\nBaseline.cfg\r\nHeavy.cfg\r\n[/code]\r\nAs simple as that.\r\n\r\nFuture Plans\r\n- BSA extraction\r\n- ddsopt command-line support\r\n- Direct download support\r\n\r\n[i][b]Let\\'s all help make Skyrim beautiful.[/b][/i]",
+  "categoryId": "39",
+  "version": "2.3.2013",
+  "author": "generalmx",
+  "createdUnix": "1359886167",
+  "updatedUnix": "1359886132",
+  "containsAdultContent": false,
+  "uploadedBy": "generalmx",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000006713",
+      "name": "Mod Combiner",
+      "version": "2.3.2013",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "297",
+      "fileName": "Mod Combiner-30922-2-3-2013.zip",
+      "uploadedUnix": "1359886132",
+      "modVersion": "2.3.2013",
+      "virusScanUrl": "https://www.virustotal.com/file/94634365938d8c56b4ec1927c8da2dcc9364a35cf0593c17f5649ba3ed05f711/analysis/1407394033/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Mod%20Combiner-30922-2-3-2013.zip?fid=1000006713&ttl=1535806099&ri=8192&rs=8192&setec=efd72a820cb11a205d11d30898c437f3"
+    }
+  ]
+}

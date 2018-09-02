@@ -1,0 +1,48 @@
+{
+  "modId": 37352.0,
+  "modName": "FantasyVision ENB",
+  "summary": "This is my personal ENB configuration I use on my installation of skyrim. It has a cinematic and fantasy look/feel. It has effects like polygonal bokeh DOF, dark nights --NOT BLUE-- nights, and complex SSAO and Indirect Lighting.\r\n",
+  "descriptionHtml": "This is my personal ENB configuration I use on my installation of skyrim. It has a cinematic and fantasy look/feel. It has effects like polygonal bokeh DOF, dark --NOT BLUE-- nights, and complex SSAO and Indirect Lighting.\r\n\r\nThis is an VERY hefty ENB. Depending on your system you could lose anywhere from 10 - 25 FPS on average. (I run on an FX8320 with GTX 660 2GB and 8GB of Corsair Vengeance 1600 Mhz RAM and average at about 25 fps with the ENB on)\r\n\r\nPLEASE do not ask for a \\\"lite\\\" or \\\"reduced\\\" version for weaker PCs, as like I said, this is my personal configuration, and I work with it in my spare time, so I don\\'t plan to make one anytime soon, sorry. Eventually I will try to optimize it as best I can without altering the render quality, but don\\'t expect anything more than a few FPS at best.\r\n\r\nIt runs on the latest ENB binary (last checked is 0.215, should run on anything later than 0.189) which you can get here: http://enbdev.com/download_mod_tesskyrim.htm\r\n\r\nThis is a sort of mid-term beta release with all of the major settings finished, and I will make another release once I get the newer features like dynamic weather and ToD incorporated.\r\nAs this is a beta, there could be bugs with some settings that I might not yet know about, So post them in the comments or message me and I will try to take a look into it. \r\n\r\n\r\n[s] ATM there are two known bugs:\r\n1. Interiors can have black silhouettes that are BEHIND a texture/mesh you\\'re looking at render on top of the texture instead. At the moment I have no idea as to what causes this or how to fix it at all. :(\r\n2. Occasionally, after loading a game (particularly from before you installed the ENB or autosaves) or leaving an interior area (like a dungeon, shop, etc.) the ENB won\\'t properly render things and will appear much darker and much more saturated but less vibrant. This can be fixed by fast traveling sometimes, but always will fix by waiting a 12 hours and/or a full day, which somehow resets the ENB. I do NOT know of a permanent fix for this yet either. [/s]\r\n[b] AS OF ENB 13.7.13 ALL KNOWN BUGS FIXED/GONE [/b]\r\n\r\n[b] UPDATE [/b]\r\nDynamic weather has been added with support for rain, overcast, clear skies, auroras, and overcast auroras as of version 0.8. some tweaks to lighting and occlusion values have also been made in version 0.8.\r\n[b] UPDATE to the update [/b]\r\nJust checked compatibility with ENB 0.215. Everything runs fine. In fact, with the new memory enhancements Boris has made, it runs a LOT smoother. (I used to get 45 fps in interiors, now i tend to cap fps. used to run around 15fps :( usually in Whiterun, now get 25 :) ) I\\'m still working on getting daytime values for interiors looking like nighttime ones though. (somehow a daytime 1 doesn\\'t equal a nighttime 1. go figure)\r\n\r\nIn order to use the Dynamic weather you need to get the ENB \\\"helper mod\\\" here:\r\nhttp://skyrim.nexusmods.com/mods/36318//?\r\n\r\n\r\n[youtube]FzWxlN3U__8[/youtube]\r\n\r\n^I\\'m still working out the kinks for compression and what FPS to record the video at to keep it from looking/sounding majorly speed hacked lol. SO ignore the fact that the audio is in WAAAAY slow-mo. \r\n\r\n\r\nI hope to keep this as updated as I can as Boris improves his binary, but bear with me as I can only work on this in free time. \r\n\r\nI also recommend Skyrim Sunglare V4 and HD2K for the enhanced visuals they bring if you haven\\'t installed them already. \r\nYou can find them at these locations:\r\nhttp://skyrim.nexusmods.com/mods/116/?\r\nhttp://skyrim.nexusmods.com/mods/607/?\r\n\r\nThanks to Boris for his amazing work creating the ENB binary, and these guys:\r\n\r\nUnrealWarfare\r\nHD6\r\nIndigoNeko\r\nMatso\r\nJawz\r\ngp65cj04 \r\nKyokushinoyama \r\n\r\nFor their additions, alterations, and work with the ENB effects files!",
+  "categoryId": "62",
+  "version": "0.8",
+  "author": "braxton12",
+  "createdUnix": "1371613806",
+  "updatedUnix": "1374645468",
+  "containsAdultContent": false,
+  "uploadedBy": "braxton12",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000034847",
+      "name": "FantasyVision ENB 0_7",
+      "version": "0.7",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "147",
+      "fileName": "FantasyVision ENB 0_7-37352-0-7.7z",
+      "uploadedUnix": "1371611691",
+      "modVersion": "0.7",
+      "virusScanUrl": "https://www.virustotal.com/file/3934ccf4176d6ac309e1c44234478ae4e705867da60ad250df62a20d4651a9bc/analysis/1407608947/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FantasyVision%20ENB%200_7-37352-0-7.7z?fid=1000034847&ttl=1535816986&ri=8192&rs=8192&setec=6e56a107b77bd66eb4ef11e85537f25c"
+    },
+    {
+      "fileId": "1000040414",
+      "name": "FantasyVision ENB 0_8",
+      "version": "0.8",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "128",
+      "fileName": "FantasyVision ENB 0_8-37352-0-8.7z",
+      "uploadedUnix": "1374645468",
+      "modVersion": "0.8",
+      "virusScanUrl": "https://www.virustotal.com/file/b9ec0be38fdf7edb3ef0798ac67fff3609ba8c5bd804205e93edb7dc48981e77/analysis/1407654371/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FantasyVision%20ENB%200_8-37352-0-8.7z?fid=1000040414&ttl=1535816986&ri=8192&rs=8192&setec=785c3ff97fdb9ffc609e66af4113c304"
+    }
+  ]
+}

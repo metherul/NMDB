@@ -1,0 +1,48 @@
+{
+  "modId": 50132.0,
+  "modName": "Eyes Glitch Fix",
+  "summary": "This mod fixes eyes glitch with invisibility effect and through water surface.\r<br />Supports all vanilla races.\r<br />",
+  "descriptionHtml": "This mod fixes eyes glitch with invisibility effect and through water surface.\r<br />Supports all vanilla races.\r<br />\r<br />\r<br />Specifically, overwrites following nif files.\r<br />\r<br />meshes/actors/character/character assets/\r<br />eyesargonian.nif\r<br />eyeschild.nif\r<br />eyesfemale.nif\r<br />eyesfemalevampire.nif\r<br />eyeskhajiit.nif\r<br />eyeskhajiitfemale.nif\r<br />eyesmale.nif\r<br />eyesmalevampire.nif\r<br />\r<br />meshes/actors/character/character assets/faceparts/\r<br />eyesmaleleft.nif\r<br />eyesmaleright.nif\r<br />\r<br />\r<br />There is no convertibility with mod including these files.\r<br />\r<br />\r<br />------------------------------------------------------------------------------\r<br />以下、日本語(The following sentences are Japanese.)\r<br />\r<br />Nifskopeでメッシュを読み込んでShaderFlags１の\r<br />SLSF1_Eye_Environment_Mappingのチェックをはずして\r<br />SLSF1_Environment_Mappingと\r<br />SLSF1_Decalにチェックを入れただけです。\r<br />\r<br />詳しくはよくわかりませんが、これで透明化後及び水面越しの目がつぶれる現象はなくなります。。",
+  "categoryId": "95",
+  "version": "3.0",
+  "author": "bellwood2206",
+  "createdUnix": "1390225910",
+  "updatedUnix": "1390913608",
+  "containsAdultContent": false,
+  "uploadedBy": "bellwood2206",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000092518",
+      "name": "Eyes Glitch Fix",
+      "version": "2.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "65",
+      "fileName": "Eyes Glitch Fix-50132-2-0.zip",
+      "uploadedUnix": "1390284829",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/02db4e24bcbdf290639651d0cfa5f16a9ce0fc0808c733b49625da4f3f273412/analysis/1407895158/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Eyes%20Glitch%20Fix-50132-2-0.zip?fid=1000092518&ttl=1535831675&ri=8192&rs=8192&setec=30a9684eea2704ad565cf05d48ea7e61"
+    },
+    {
+      "fileId": "1000093886",
+      "name": "Eyes Glitch Fix",
+      "version": "3.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "79",
+      "fileName": "Eyes Glitch Fix-50132-3-0.zip",
+      "uploadedUnix": "1390913608",
+      "modVersion": "3.0",
+      "virusScanUrl": "https://www.virustotal.com/file/637641ace06acd4b9cab765d5c4053f3d22e908b33445ba25e348d6b2230acba/analysis/1407905959/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Eyes%20Glitch%20Fix-50132-3-0.zip?fid=1000093886&ttl=1535831675&ri=8192&rs=8192&setec=a71e4f9db478c98a90b8c62ce06b4186"
+    }
+  ]
+}

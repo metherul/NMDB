@@ -1,0 +1,32 @@
+{
+  "modId": 81286.0,
+  "modName": "Script Extender Patcher",
+  "summary": "This simple python script allows you to run the script extender for a Besthesda game through the game&#39;s launcher, and thus through Steam.",
+  "descriptionHtml": "[size=4]What it does:\r<br />[/size]When you run this script, it does a few little things that allow you to run the script extender as if it were the game&#39;s executable. First, it detects which game it is installed for. It then edits the script extender configuration file for that game so that the script extender knows to run the correct executable. It then appends a &#39;_&#39; to the game executable&#39;s name and renames the script extender to the game&#39;s old name. e.g. For Fallout 4, it would point f4se to Fallout4_.exe, rename Fallout4.exe to Fallout4_.exe, and finally rename f4se_loader.exe to Fallout4.exe. Since the game&#39;s launcher will run whatever is called &#34;Fallout4.exe&#34;, it will now run the script extender, which will then run the real game exe. This script will also detect whether it has already been used to patch the game, and if so it will unpatch it. Thus running this script will toggle the script extender&#39;s patchedness.\r<br />\r<br />[size=4]Installation:\r<br />[/size]Put the script in the same directory as your game&#39;s executable, just like you did for the script extender (NOT the Data folder).\r<br />\r<br />[size=4]Uninstallation:\r<br />[/size]You can manually rename the files back to how they were yourself if you want, or you can delete the exe files and validate your game through Steam to get them back. This script also alters the file Data/&lt;script extender name&gt;/&lt;script extender name&gt;.ini, specifically the [Loader]/RuntimeName field. You can feel free to delete this ini file entirely, as the script extender works well using default options.\r<br />\r<br />[size=4]IMPORTANT:\r<br />[/size]You need Python 3.x installed in order to run this script.\r<br />\r<br />[size=4]Compatibility:\r<br />[/size]Fallout4\r<br />TESV: Skyrim\r<br />Fallout: NV\r<br />Fallout 3\r<br />\r<br />[size=3]Notes:\r<br />[/size]If anyone wants to improve this feel free, such as by making a GUI or compiling an executable. I made this in a couple of hours, so don&#39;t expect much from it. What I can guarantee is that it works provided you don&#39;t mess with the files that it uses.",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "SFMason",
+  "createdUnix": "1483499007",
+  "updatedUnix": "1483498999",
+  "containsAdultContent": false,
+  "uploadedBy": "SFMason",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000232773",
+      "name": "ScriptExtenderPatcher",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "ScriptExtenderPatcher-81286-1-0.zip",
+      "uploadedUnix": "1483498999",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5a7f4cfe1abe24c0c968e6fa8a18185cb65ca8956f86df66d89ab79a4c16bcff/analysis/1483499281/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ScriptExtenderPatcher-81286-1-0.zip?fid=1000232773&ttl=1535869904&ri=8192&rs=8192&setec=be3620cf4f7d7ca03ee3e911fff03bb5"
+    }
+  ]
+}

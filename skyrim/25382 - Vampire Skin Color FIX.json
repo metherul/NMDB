@@ -1,0 +1,48 @@
+{
+  "modId": 25382.0,
+  "modName": "Vampire Skin Color FIX",
+  "summary": "first of all, this only works for VANILLA VAMPIRE RACES\r<br />\r<br />This permanently fixes the vampire body and head color mismatch, you can notice this bug when editing your vampire with showracemenu, skin tone only changes body color while the head color remains the same, this mod fixes that. now, both head and body color are",
+  "descriptionHtml": "[size=1][color=orange][font=arial][right][b]Ownership: Loshirai14[/b][/right][/font][/color][color=orange][font=arial][right][b]User ID: 4958627[/b][/right][/font][/color][color=orange][font=arial][right][b]Don&#39;t forget to VOTE and ENDORSE&#33;[/b][/right][/font][/color][/size]\r<br />[center][size=6][font=papyrus]Requires Dawnguard and Skyrim 1.6.89 or higher[/font][/size][/center]\r<br />[center][font=papyrus][size=4]Check out my other mods [url=http://skyrim.nexusmods.com/Images/179291]HERE[/url][/size][/font][/center]\r<br />[center][/center]first of all, this only works for [color=gray]VANILLA VAMPIRE RACES[/color]\r<br />\r<br />This permanently fixes the body and head color mismatch by making the &#39;skin color&#39; slider work for Vampires.\r<br />[line]\r<br />[font=papyrus][size=5]for this mod to work as intended, you need to do the following (Optional)[/size][/font]\r<br />\r<br />you need to check this folder\r<br /> [color=gray]- textures&#92;actors&#92;character&#92;female[/color]\r<br />\r<br />delete the following files if you found them\r<br /> [color=gray]- femaleheadvampire.dds[/color]\r<br /> [color=gray]- femaleheadvampire_msn.dds[/color]\r<br />\r<br />then &#39;copy&#39; the following files from the same folder\r<br /> [color=gray]- femalehead.dds[/color]\r<br /> [color=gray]- femalehead_msn.dds[/color]\r<br />\r<br />then paste it on your desktop\r<br />\r<br />then rename them from:\r<br /> [color=gray]- femalehead.dds -&gt; femaleheadvampire.dds[/color]\r<br /> [color=gray]- femalehead_msn.dds -&gt; femaleheadvampire_msn.dds[/color]\r<br />\r<br />then paste the renamed files back on this folder:\r<br /> [color=gray]- textures&#92;actors&#92;character&#92;female[/color]\r<br />\r<br />then you&#39;re ready to go :)\r<br />[line]\r<br />[font=papyrus][size=5]Alternative Way to Fix the Eyes:[/size][/font]\r<br />[i][size=1]for those people that has their vampire eyes reverted to the original human eyes, just do the following[/size][/i]\r<br />\r<br />step1 : [color=gray]download [url=http://www.mediafire.com/download.php?th3b4ir3h2j5kz8]Vampire Eyes for Normal Races[/url] or any other vampire eyes mod that works for normal races[/color]\r<br />\r<br />step2 : [color=gray]revert your race from being vampire to normal by typing &#34;player.setrace &lt;yournormalrace&gt;&#34; (ex. player.setrace bretonrace)[/color]\r<br />\r<br />step3 : [color=gray]open console then type &#34;showracemenu&#34;, then use the eyes from the mod and finish editing[/color]\r<br />\r<br />step4 : [color=gray]revert your race from normal to vampire again by typing &#34;player.setrace &lt;yournormalrace&gt;vampire (ex. player.setrace bretonracevampire)[/color]\r<br />[line]\r<br />\r<br />fixes all vampires ingame... i uploaded a few images of vampire NPCs from volkihar castle. see screenshots/images\r<br />\r<br />============\r<br />INSTALLATION\r<br />============\r<br /> - download main file\r<br /> - extract files with winRAR\r<br /> - copy file and paste it in your data folder\r<br /> - activate in your launcher\r<br /> - start the game and enjoy",
+  "categoryId": "95",
+  "version": "1.0.1",
+  "author": "Loshirai14",
+  "createdUnix": "1350045043",
+  "updatedUnix": "1355780635",
+  "containsAdultContent": false,
+  "uploadedBy": "Loshirai14",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "93430",
+      "name": "VSCF - HeadBodyColorMismatchFIX",
+      "version": "1.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "44",
+      "fileName": "VSCF - HeadBodyColorMismatchFIX-25382-1-0-1.rar",
+      "uploadedUnix": "1350045103",
+      "modVersion": "1.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/a240ca55b5a90fbba8275c51e55c7bfe3c4d26fd1a4a9539144c86d8573c4930/analysis/1407217267/",
+      "changelogHtml": " fix for vampire head and body color mismatch <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VSCF%20-%20HeadBodyColorMismatchFIX-25382-1-0-1.rar?fid=93430&ttl=1535796848&ri=8192&rs=8192&setec=6be2f8666ab4cf2ffa1ff86ea3a48dd1"
+    },
+    {
+      "fileId": "105829",
+      "name": "VSCF - Skyre",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "41",
+      "fileName": "VSCF - Skyre-25382-1-0.7z",
+      "uploadedUnix": "1355780635",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/376e09d353dd4ef0ea1755d22b5d30a111aecde9c937ca9d8c0cf7ebefb5280f/analysis/1407309364/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VSCF%20-%20Skyre-25382-1-0.7z?fid=105829&ttl=1535796849&ri=8192&rs=8192&setec=053e317fa263b63e4f34067284bdc953"
+    }
+  ]
+}

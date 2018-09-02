@@ -1,0 +1,32 @@
+{
+  "modId": 57656.0,
+  "modName": "MO-CK-scriptfix",
+  "summary": "Allows editing, saving, and compiling of Papyrus scripts from your favorite text editor even if opened through Mod Organizer or Creation Kit run through Mod Organizer",
+  "descriptionHtml": "This project provides a fix that allows for editing and compiling [url=http://www.creationkit.com/Category:Papyrus]Papyrus scripts[/url]in an external editor that has been invoked through Creation Kit while opened through [url=http://www.nexusmods.com/skyrim/mods/1334/]Mod Organizer[/url].\r<br />How do I get set up?[list][*][url=https://bitbucket.org/Triquetra/mo-ck-scriptfix/downloads]Download[/url] the latest version of MOCKfix[/*]\r<br />[*][url=http://www.7-zip.org/]Extract[/url] the contents of the archive to a directory of your choice (e.g. C:&#92;Program Files (x86)&#92;MOCKfix)[/*]\r<br />[*]Set MOCKfix.exe as your default application for opening .psc files[/*]\r<br />[*]Set the directory for Mod Organizer and the path and executable for your editor of choice in the MOCKfix.ini (which needs to be located in \r<br />your Documents directory -- a sample is provided in the download archive)[/*]\r<br />[*]Select edit with external editor in Creation Kit or &#34;Open&#34; a script source file in Mod Organizer\r<br />[/*]\r<br />[*]To properly compile a papyrus script, you will need to [url=http://www.creationkit.com/Category:Text_Editors]set up your editor[/url] and include an editor specific build script: [url=http://forums.nexusmods.com/index.php?/topic/1855355-creation-kit-with-mod-organizer/?p=16182390]Notepad++[/url], [url=https://github.com/Triquetra/SublimePapyrus]Sublime Text[/url][/*]\r<br />[/list]",
+  "categoryId": "82",
+  "version": "1.0.1",
+  "author": "Thalioden",
+  "createdUnix": "1409361745",
+  "updatedUnix": "1417726601",
+  "containsAdultContent": false,
+  "uploadedBy": "Thalioden",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000137714",
+      "name": "MOCKfix",
+      "version": "1.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2367",
+      "fileName": "MOCKfix-57656-1-0-1.7z",
+      "uploadedUnix": "1417726601",
+      "modVersion": "1.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/600cea4bafa92b0add834f9d11fadab9b785475be17e828b14fb1ef7d10f4fb2/analysis/1417726624/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MOCKfix-57656-1-0-1.7z?fid=1000137714&ttl=1535843789&ri=8192&rs=8192&setec=b8a1ee0f24b7ea6a6daf642dc14e1d62"
+    }
+  ]
+}

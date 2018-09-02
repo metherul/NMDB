@@ -1,0 +1,32 @@
+{
+  "modId": 16450.0,
+  "modName": "Jewelry Display Cases",
+  "summary": "Some scripts for jewelry display cases, and an esp file with examples set up.",
+  "descriptionHtml": "I\\'m not going to provide any support or updates.  Use it at your own risk.  Anyone who wants to use/modify this is free to do so.  The scripts require that you have SKSE 1.5.5 or higher installed.\r\n\r\nI\\'ve scripted it so that it works like some sort of weird mix of the weapon display racks and bookshelves.\r\n\r\nIn the example plug-in, there is a custom cell (fg109TestCell) with set-ups for large and small, flat and angled display cases.  I suggest just copying them (the display case, linked trigger, and linked container) and pasting them into your cells.\r\n\r\nSince the only resources provided are the scripts, you don\\'t need to set the example plug-in as the master of whatever your mod is.\r\n\r\nI\\'m not a modeller, so I had to use the vanilla display cases instead of making my own.  As such, the scripts will only work with the vanilla display cases.  Re-sizing or tilting the display cases would cause the scripts to not work properly (turning them is fine).\r\n\r\nTo use it in the game, you need to sneak + activate the display case in order to access it like a bookshelf.  Otherwise, it would just open/close the display case.\r\n\r\nCredit for the idea goes to eagledude4 on the bethsoft forums.",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "fg109",
+  "createdUnix": "1336172868",
+  "updatedUnix": "1336172910",
+  "containsAdultContent": false,
+  "uploadedBy": "fg109",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "58710",
+      "name": "Jewelry Display Case Resource",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "12",
+      "fileName": "Jewelry Display Case Resource-16450-1-0.rar",
+      "uploadedUnix": "1336172910",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/64ee4459f3d98cffc8f5dcb7a440553d564b24bc4855172c7a497338c4536635/analysis/1406866986/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jewelry%20Display%20Case%20Resource-16450-1-0.rar?fid=58710&ttl=1535781638&ri=8192&rs=8192&setec=f60db1d3cec5badb8de23df39d2987a1"
+    }
+  ]
+}

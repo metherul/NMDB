@@ -1,0 +1,32 @@
+{
+  "modId": 53154.0,
+  "modName": "Dance With Dragons Main Menu",
+  "summary": "This is about as animated a static mesh can get, experience a swirling and zooming dragon up *real* close and personal in this main menu screen replacer. Dance with Dragons gives you the choice of two dragons each with their own motion paths plus multiple skin texture options (including textures from Deadly Dragons).",
+  "descriptionHtml": "[center][youtube]aj08-ptfX0A[/youtube][/center]\r<br />\r<br />This is about as animated a static mesh can get, experience a swirling and zooming dragon up *real* close and personal in this main menu screen replacer. Dance with Dragons gives you the choice of two dragons each with their own motion paths plus multiple skin texture options (including textures from Deadly Dragons). The dragons are two of the vanilla model meshes used in the load screen sequence that had good poses and looked very good up close even with the vanilla textures so they were put through nifskope until this came out the other end.\r<br />\r<br />[color=orange][b][u]Contents[/u][/b][/color]\r<br />\r<br />There are no textures included in this mod it relies on the standard vanilla dragon textures and the optional Deadly Dragons mod skins need that mod to be installed to work properly. Get it from here (great mod) [url=http://www.nexusmods.com/skyrim/mods/3829/?]Deadly Dragons[/url]\r<br />What is included is a selection of 40 logo.nif files each configured to a particular model, dragon skin texture and screen aspect ratio. Choose between 2 dragon models each with different rotation paths in either 16:10 or 16:9 screen aspect ratio optimisation to get the most out of those vertical pixels followed by a selection of 6 vanilla dragon skins or 4 Deadly Dragons mod skins. That explains the 40 files a somewhat larger task then initially anticipated. \r<br />\r<br />[color=orange][b][u]Installation[/u][/b][/color]\r<br />\r<br />[b]FOMOD Install:[/b]\r<br />Follow the selection choices to load a single model for your aspect ratio and dragon skin texture. Please note the descriptions for any requirements.\r<br />\r<br />For the more advanced, there&#39;s also an install option to use with the random startup SKSE plugin (rmm_plugin.dll) that provides a method of using all the models which randomly selects one at each startup.\r<br />[color=lightblue]NOTE: The SKSE rmm_plugin.dll is NOT included or supported with this mod you may get it from here [url=http://www.nexusmods.com/skyrim/mods/3708/?]main menu wallpaper replacer HD 1080p now with randomizer[/url] its part of the mod. Dance with Dragons will work fine in conjunction with that mod or just use the provided rmm_plugin.dll and place it in your data/SKSE/plugins folder.\r<br />NOTE2: Obviously requires SKSE to use a SKSE plugin, go here [url=http://skse.silverlock.org/]Skyrim Script Extender (SKSE)[/url] \r<br />NOTE3: rmm_plugin is good and works fine but its somewhat crude in that it copies a random file from its list of configured folders to the expected location on each startup. When used with a mod manager such as Mod Organizer it creates a file in ModOrganizer/overwrite/meshes/interface/logo/logo.nif which will need to be manually removed if you ever decide to stop using that plugin as the contents in the override folder remain after the mod is removed and will override all other similar files even from other mods. I don&#39;t personally use Nexus Mod Manager though I suspect it may do something similar.[/color]\r<br />\r<br />[b]Manual Install:[/b]\r<br />The folder names indicate which dragon model, skin texture and screen aspect ratio the model belongs too (DD in the name means Deadly Dragons is required).\r<br />Select ONE of the logo.nif files and copy it to your data/meshes/interface/logo folder. Try to match the folder name to one of the image names in fomod/images folder to see what that model looks like.\r<br />\r<br />[color=orange][b][u]Misc[/u][/b][/color]\r<br />\r<br />The skin texture names may not always reflect the in game dragon names but instead the original nif file names using them, such as Snow is actually the frost dragon and Boss is an ancient dragon...\r<br />The on screen dragon may not look exactly like the in game dragon since they may use slightly altered models to the ones I used but the skin textures are compatible across models for example the in game forest dragon has a different model but its skin textures work fine on the models I used.\r<br />\r<br />[color=orange][b][u]Next[/u][/b][/color]\r<br />\r<br />Dim the lights and turn up the volume that intro score was made for angry dragons&#33;\r<br />\r<br />[color=orange][b][u]Credit[/u][/b][/color]\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/7801/?]Main Menu Spinning Skyrim Emblem[/url] which I used and liked before getting the idea for this mod then dissecting to see how all this crazy nif stuff works&#33;",
+  "categoryId": "42",
+  "version": "v1.0",
+  "author": "SixOfSeven",
+  "createdUnix": "1398028445",
+  "updatedUnix": "1398027024",
+  "containsAdultContent": false,
+  "uploadedBy": "SixOfSeven",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000105794",
+      "name": "Dance With Dragons Main Menu",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "20350",
+      "fileName": "Dance With Dragons Main Menu-53154-v1-0.zip",
+      "uploadedUnix": "1398027024",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5a27757e96449dc8490a68e585ce1807d890cc2a69878936206bb495ea10c396/analysis/1408031973/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dance%20With%20Dragons%20Main%20Menu-53154-v1-0.zip?fid=1000105794&ttl=1535836582&ri=8192&rs=8192&setec=3861f3d79c4f91313f031b142cd05200"
+    }
+  ]
+}

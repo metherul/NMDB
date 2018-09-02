@@ -1,0 +1,32 @@
+{
+  "modId": 93114.0,
+  "modName": "Outfit replacer script",
+  "summary": "Modder resource. A script to change NPC outfit.",
+  "descriptionHtml": "A simple script allowing you to change NPC outfit as you want. Works with custom outfits.\n<br />\n<br />To use, type help \"outfit replacer\" and cast spell. I recommand you to use this on a new save. Otherwise, wait for the NPC to reset or disable/enable them through console.\n<br />\n<br />How you can use it? First, create your custom outfit or choose an already exisisting one. Then: \n<br />\n<br />[list=1][*]Create a magic effect. Use an already existing one and change his ID\n<br />[*]Change properties of the attached script. The property NewOutfit let you select the outfit you want the NPC wears and SkyrimNPC refers to the actor base, which means every instance of the NPC will be affected.\n<br />[*]Open the spell with ID OutfitReplacerSpell\n<br />[*]Add the effect you just created. Select the corresponding script\n<br />[/list]\n<br />Note: The effect OutfitReplacer runs a little scipt removing the spell from your inventory. You need to cast it only once.",
+  "categoryId": "82",
+  "version": "1",
+  "author": "Crendagord",
+  "createdUnix": "1534517519",
+  "updatedUnix": "1534517519",
+  "containsAdultContent": false,
+  "uploadedBy": "Crendagord",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000279884",
+      "name": "Outfit replacer script",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Outfit replacer script-93114-1.7z",
+      "uploadedUnix": "1534517497",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/57ab686722064d4b6377b26ee1df49567e8dcd7c680d068b4891dca3fa7ef2ff/analysis/1534518005/",
+      "changelogHtml": " Initial release. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Outfit%20replacer%20script-93114-1.7z?fid=1000279884&ttl=1535884391&ri=8192&rs=8192&setec=e8b10c0e0782404fcd62ecdb53989b3f"
+    }
+  ]
+}

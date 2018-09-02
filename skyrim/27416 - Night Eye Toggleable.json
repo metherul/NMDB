@@ -1,0 +1,32 @@
+{
+  "modId": 27416.0,
+  "modName": "Night Eye Toggleable",
+  "summary": "Adds a Toggleable Night Eye spell.",
+  "descriptionHtml": "This little mod adds to the game a spell called &#34;Night Eye&#34; which you can turn On or Off as constant effect when you need to. Spell effect is different from original and plugin file changes original effect too. (It&#39;s been awhile when I last checked this mod and now I&#39;ve difficulties to understand how did I made this so currently I&#39;m unable to change effects. I&#39;m even not sure is this my original work or base from where I learn this stuff)\r<br />\r<br />I made this mod not exactly for using but for learning. Through this mod you can learn how to make a toggleable spells if you know how to work with Creation Kit and are willing to learn. Feel free to ask for help if you need it. Using spells like this you don&#39;t need to drag with you and reequip items. I made this as fast as I could and that could make some problems.\r<br />\r<br />This mod is functional and works.\r<br />\r<br />Please report if there are any bugs&#33;\r<br />\r<br />Author:\r<br />Squall (on Nexus Squall82)\r<br />\r<br />Incompatibilities:\r<br />ENB - It even disables Vanilla Night-Eye. [color=yellow](Maybe there is someone who can spend some time and figure out how to make a Night Eye spell based on the Light in game spell?)[/color]\r<br />   For now there are 3 ways you can go around this:\r<br />\r<br />1.The best way (thanks to ianc1 for this solution (sadly this method also will disable most of ENB effects)):\r<br />   1.1.In your game DIR, where TESV.exe is, must be a file &#34;enbeffect.fx&#34;. Open it with text editor (notepad++ suggested).\r<br />   1.2.Find &#34;//#define APPLYGAMECOLORCORRECTION&#34; and delete first two symbols in that line &#34;//&#34;\r<br />\r<br />2.Only if you&#39;re using ENB for performance (will disable most improvement effects):\r<br />   2.1.In your game DIR, where TESV.exe is, must be a file &#34;enbseries.ini&#34;. Open it with text editor.\r<br />   2.2.Find section [EFFECT] (4. line from top)\r<br />   2.3.Change &#34;UseOriginalPostProcessing=false&#34; to &#34;UseOriginalPostProcessing=true&#34; (line 5)\r<br />\r<br />3.This will make everything brighter:\r<br />   3.1.In your game DIR, where TESV.exe is, must be a file &#34;enbseries.ini&#34;. Open it with text editor.\r<br />   3.2.Find section [EFFECT] (4. line from top)\r<br />   3.3.Change &#34;EnableAdaptation=false&#34; to &#34;EnableAdaptation=true&#34; (line 9)\r<br />\r<br />Oh, and here you can disable fog by setting true to false and setting everything to 0.0:\r<br />[VOLUMETRICFOG]\r<br />\r<br />Installation:\r<br />1.Copy &#34;Data&#34; folder to your Game DIR.\r<br />2.Activate &#34;Night Eye Toggleable.esp&#34;\r<br />\r<br />Uninstallation:\r<br />1.Delete &#34;Night Eye Toggleable.esp&#34; from &#34;Data&#34; folder.\r<br />2.Delete &#34;NightEyeConstantSpellScript.pex&#34; from &#34;DataScripts&#34; folder.\r<br />3.Delete &#34;NightEyeConstantSpellScript.psc&#34; from &#34;DataScriptsSource&#34; folder.\r<br />\r<br />Warning:\r<br />Before deleting make sure you&#39;re not under &#34;Night Eye&#34; effect&#33;\r<br />\r<br />Location:\r<br />Whiterun, Dragonsreach on Farengar&#39;s desk.\r<br />\r<br />Info:\r<br />Sorry, but this spell will be different effect &#39;cause I didn&#39;t like the original one&#33;\r<br />\r<br />You can request some more toggleable spells and I&#39;ll see what I can do.\r<br />\r<br />Permission:\r<br />Do whatever you want..\r<br />\r<br />Not related to this mod:\r<br />If you have a laptop with intel and nvidia:\r<br />[color=aqua]http://enbseries.enbdev.com/forum/viewtopic.php?f=22&t=1021[/color]\r<br />Or you can try this:\r<br />[color=aqua]http://www.nexusmods.com/skyrim/mods/33227/?[/color]",
+  "categoryId": "93",
+  "version": "1.0",
+  "author": "Squall",
+  "createdUnix": "1353887560",
+  "updatedUnix": "1353887776",
+  "containsAdultContent": false,
+  "uploadedBy": "Squall82",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "101661",
+      "name": "Toggleable Night Eye",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Toggleable Night Eye-27416-1-0.7z",
+      "uploadedUnix": "1353887776",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/fa40871327cb780683fae55c17c10ed9239fc7c8c609b39849a626d34fbe4e9d/analysis/1407278224/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Toggleable%20Night%20Eye-27416-1-0.7z?fid=101661&ttl=1535800134&ri=8192&rs=8192&setec=5a5ceeaec92748719ebd79f3441bdeca"
+    }
+  ]
+}

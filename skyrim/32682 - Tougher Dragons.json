@@ -1,0 +1,32 @@
+{
+  "modId": 32682.0,
+  "modName": "Tougher Dragons",
+  "summary": "Harder, more rewarding dragons.",
+  "descriptionHtml": "Requires\r<br />========\r<br />\r<br />Dawnguard.esm\r<br />Dragonborn.esm\r<br />\r<br />Details\r<br />=======\r<br />\r<br />All Vanilla and DLC dragons have had significant buffs to their health, the amount varies by the dragon 1500 - 6000 depending on the type of dragon.  All named dragons feel the effects too; they use the dragons i changed as a template.\r<br />\r<br />But that is not all, for i have changed the spawn frequency to be more random, in vanilla it is 3 days after killing a dragon you must wait before the game will allow a new dragon to spawn when you change cell (Static dragons at word walls don&#39;t count) but i have it randomised to be anywhere between every cell change and 3 days between cell change.\r<br />\r<br />Now you must be thinking, what reward do i get out of this?  Well, now as in the lore only a dragon (or someone of Dovahsos *Dragonblood to you*) can absorb a dragon soul it is natural that some dragon may of absorbed their fallen comrades souls, so you can now get 1 - 4 souls when killing any dragon. But the amount you can get is defined by dragon level.  Normal dragons only give 1 by default, but can be set upto a max of 3 from a random number generation.  Blood/Frost Dragons can give upto 2, configurable to a max of 6.  Elder/Ancient can give upto 3, configurable upto a max of 9.  D.L.C dragons (Revered, Legendary and Serpentine) can give upto 4, cofigurable upto 12.\r<br />\r<br />MCM menu to configure the maximum amount of souls given.  Configure the max and Min amount of days between dragons (Just DON&#39;T put min above max and then whine at me if your game crashes, i put in a safety check but it isn&#39;t foolproof)\r<br />\r<br />\r<br />Install\r<br />=======\r<br />\r<br />1. Back-Up your WIFunctionsScript and MQKillDragonScript in the Data/Scripts folder\r<br />2. Extract the selected files and readme to C:&#92;(Install Directory)&#92;Data\r<br />3. Start Skyrim, select Data Files, Check &#34;Tougher Dragons.esp&#34; file.\r<br />\r<br />Or use Nexus Mod Manager\r<br />\r<br />Uninstall\r<br />=========\r<br />\r<br />Delete the Tougher Dragons.esp, Readme/Readme - Tougher Dragons and the WIFunctionsScript and MQKillDragonScript in Scripts folder (Replace with the ones you backed up ;)) from your Skyrim data directory, or just use the nexus mod manager.\r<br />\r<br />\r<br />Known Issues or Bugs\r<br />====================\r<br />\r<br />None so far.",
+  "categoryId": "24",
+  "version": "1.02c",
+  "author": "Stewb",
+  "createdUnix": "1362255842",
+  "updatedUnix": "1367763026",
+  "containsAdultContent": false,
+  "uploadedBy": "Stewb",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000028249",
+      "name": "Tougher Dragons",
+      "version": "1.02c",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "299",
+      "fileName": "Tougher Dragons-32682-1-02c.zip",
+      "uploadedUnix": "1367763026",
+      "modVersion": "1.02c",
+      "virusScanUrl": "https://www.virustotal.com/file/a363781617157fc05e793ad42d51409bed501c8815284d71f7b0f0934e6bcfbb/analysis/1407556026/",
+      "changelogHtml": " Added option for min days between dragons (remove the choice of it being 0 to fix 1-hit k.o dragons...) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Tougher%20Dragons-32682-1-02c.zip?fid=1000028249&ttl=1535809336&ri=8192&rs=8192&setec=f7df76bf23e743f1da15a493f8398025"
+    }
+  ]
+}

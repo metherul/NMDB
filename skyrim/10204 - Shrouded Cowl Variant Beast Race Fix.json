@@ -1,0 +1,48 @@
+{
+  "modId": 10204.0,
+  "modName": "Shrouded Cowl Variant Beast Race Fix",
+  "summary": "Corrects the bug with the Ancient and Worn Shrouded Cowls that prevent them from showing up properly for Khajiit and Argonian characters.",
+  "descriptionHtml": "NOTE: This bug has been fixed by version 1.2 of the [url=http://skyrim.nexusmods.com/mods/19]Unofficial Skyrim Patch[/url]. I strongly recommend downioading it instead of this mod.\r\n\r\n\r\n\r\n\r\nAlso available on [url=http://steamcommunity.com/sharedfiles/filedetails/?id=12326]Steam Workshop[/url]\r\n\r\nCorrects the bug with the Ancient and Worn Shrouded Cowls that prevent them from showing up properly for Khajiit and Argonian characters.\r\n\r\n(For those who care about the technical aspects, it boiled down to the Ancient cowl not having the proper ArmorAddons in the model list. Adding DBArmorHelmetArgAA and DBArmorHelmetKhaAA, which were on the model list for the regular Shrouded Cowl, resolved the issue.)",
+  "categoryId": "95",
+  "version": "2",
+  "author": "Technogeek",
+  "createdUnix": "1329547772",
+  "updatedUnix": "1329550905",
+  "containsAdultContent": false,
+  "uploadedBy": "LLJKTechnogeek",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "32991",
+      "name": "Ancient Shrouded Cowl Beast Race Fix",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Ancient Shrouded Cowl Beast Race Fix-10204.7z",
+      "uploadedUnix": "1329547825",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/6ddc43bc3681f1672d42675f8881328b12eb91ef970060f78c3487cb216a561b/analysis/1406692099/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ancient%20Shrouded%20Cowl%20Beast%20Race%20Fix-10204.7z?fid=32991&ttl=1535770410&ri=8192&rs=8192&setec=1ee3d31498b2d27796f1996227d31ab1"
+    },
+    {
+      "fileId": "33004",
+      "name": "Shrouded Cowl Variant Beast Race Fix",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Shrouded Cowl Variant Beast Race Fix-10204-2.7z",
+      "uploadedUnix": "1329550905",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/fd0153ef3f7abe7f2e06611e763fef4dfb36aaf5d55e5eef6d6532951957ca15/analysis/1406692225/",
+      "changelogHtml": " Support added for Worn Shrouded Cowl (requested by bombomb) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Shrouded%20Cowl%20Variant%20Beast%20Race%20Fix-10204-2.7z?fid=33004&ttl=1535770410&ri=8192&rs=8192&setec=9a44be5ff58b630d0770f039e1d596b3"
+    }
+  ]
+}

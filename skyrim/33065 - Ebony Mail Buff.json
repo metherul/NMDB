@@ -1,0 +1,48 @@
+{
+  "modId": 33065.0,
+  "modName": "Ebony Mail Buff",
+  "summary": "Changes the Ebony Mail (Boethiah\\'s artifact) to be more useful",
+  "descriptionHtml": "**I no longer mod or play skyrim, mod is unsupported. Use or modify it as you wish and at your own risk**\r\n\r\n37 results for \\\"Ebony mail\\\" and not one of them is a buff to its terribad enchantment. There are some in packs, but nothing standalone, so I just made my own.\r\n\r\nThe enchantment on the Ebony Mail is worthless, even moreso if you play the game with high difficulty. The muffle enchantment is fine, but there are at least 4 unique sets of boots and an applyable enchantment that do the same thing, so it\\'s not very special. The unique poison effect is cool in theory, but it practice its range and power make it only good for making things you happen to be having sex with mildly uncomfortable.\r\n\r\nThings this changes:\r\n-increases the damage on the poison from 5 per second to 20 per second\r\n-increases the range on the poison cloak from 10 to 50 (see screenshot for range)\r\n-removed the black shader from the poison effect (or else every enemy you fought would turn black for the entire fight, which gets old fast, trust me). This also removes that shader from the player.\r\n\r\ndoes not change:\r\n-armor value\r\n-muffle enchantment\r\n-smoke effect\r\n-diapers\r\n\r\nThis makes the armor now do appreciable (but still low, or at least low compared to late-game weapons) damage, and to all close enemies rather than just the one you\\'re touching. No damage will be applied when you aren\\'t in combat or to enemies that aren\\'t hostile to you (this is the vanilla behavior, but the range was so low before that there was no reason to worry about it.)\r\n\r\nNotes:\r\n1) [b][color=red]You need to unequip and then re-equip ebony mail before the poison will work.[/color][/b] This is because the spell that does the poison is no longer enchanted on the mail, but rather applied by the ebony mail\\'s script. Oddly enough, it was already scripted to work this way (and commented out), along with an unused effect that was used to apply the poison. This probably means it was how it was originally intended to work. I had to change it to work this way in order to extend the poison range.\r\n2) The cloak will kill small animals around you when you get into fights. This shouldn\\'t usually be a problem but it can mean you lose out on loot when things die near you and you weren\\'t watching where the corpse fell. You can try one of my favorite mods that nobody has ever heard of to avoid that http://skyrim.nexusmods.com/mods/10761\r\n\r\nVersion 1.1\r\n-added alternate version that applies the smoke to the poison aspect and the dark shader to the muffle aspect. This means when you sneak you will turn black like the vanilla, but no smoke, and during combat you will get the smoke, but not turn black (unless you are crouching).\r\n-Alternate version also changes the resist to the poison from poison resist to magic resist. This means the ebony mail poison cloak will now affect things like undead and machines.\r\n\r\nlet me know about any bugs, or any suggestions I might be able to do quickly",
+  "categoryId": "54",
+  "version": "1.1",
+  "author": "Griffinsclaw",
+  "createdUnix": "1362881014",
+  "updatedUnix": "1363053971",
+  "containsAdultContent": false,
+  "uploadedBy": "griffinsclaw",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000016371",
+      "name": "Ebony Mail buff",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Ebony Mail buff-33065-1.rar",
+      "uploadedUnix": "1362880732",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/72553b677651e0da74e18851eb5ce479af2328a6097c24e05630fca4368dd4ab/analysis/1407495011/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ebony%20Mail%20buff-33065-1.rar?fid=1000016371&ttl=1535809954&ri=8192&rs=8192&setec=107c6eea30efcd23886d964e3c7a0312"
+    },
+    {
+      "fileId": "1000016831",
+      "name": "Ebony Mail buff alternate",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Ebony Mail buff alternate-33065-1-1.rar",
+      "uploadedUnix": "1363053971",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d45125da41b64b90ac3a035cf6060688e1c8417384e2b0bb17d72fd87e434691/analysis/1407465366/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ebony%20Mail%20buff%20alternate-33065-1-1.rar?fid=1000016831&ttl=1535809954&ri=8192&rs=8192&setec=67fbb11f188b8fe533894436e547b7f2"
+    }
+  ]
+}

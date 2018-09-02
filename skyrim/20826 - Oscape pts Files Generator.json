@@ -1,0 +1,32 @@
+{
+  "modId": 20826.0,
+  "modName": "Oscape pts Files Generator",
+  "summary": "Points (pts) files generator for Oscape. Currently as an alpha version, it only works for adding vertices to tiles\\' edges.",
+  "descriptionHtml": "WHAT DOES IT DO?\r\n//---------------------------------------------\r\nOscape allows users to load .pts files so that they can specify points where more vertices are needed to build better LOD meshes.\r\n\r\nMy programming skills are nothing like superhuman, so I\\'ve made a program that only builds grids of evenly distributed points over user-specified extents at custom \\\"resolutions\\\".\r\n\r\nThe first purpose of this program was to solve a bad problem with LOD generation of totally flat areas. This problem, however, has not yet been solved, as I lack documentation on how points are supposed to be distributed for Oscape to use them properly.\r\n\r\nAs it is now, what you can achieve by using this .pts files generator is adding a high number of vertices at tiles\\' edges no matter how low the \\\"target of max resolution\\\" is set in Oscape.\r\n---------------------------------------------//\r\n\r\n\r\nHOW AM I SUPPOSED TO USE IT?\r\n//---------------------------------------------\r\nIf you\\'ve already used programs like TESAnnwyn or LODfileGenerator, then it\\'s nothing new.\r\n\r\nThis is a command line program, DOS style, and all you have to do is run the .exe and follow instructions on your screen.\r\n\r\nIt will ask you your worldspace\\'s quads-per-side, lowest cell-coordinates, the generation method and grid resolution.\r\n\r\nSince, for reasons I\\'m still investigating, Oscape only uses points set on edges, using any method beside \\\"Edges Only\\\" is not recommended nor of any use.\r\n\r\nThis program is set to tell you the total amount of points you\\'re going to add for the whole worldspace at the current resolution and warn you when the number of points is beyond a reasonable value.\r\nActually what it does is setting a warning when total points are more than 450.000, but just for a matter of loading time.\r\nThe generation itself, even for a 16x16 quads worlspace, full grid, at max resolution, can take max few minutes. But then you have to load these points in Oscape and this can take quite a while.\r\nRoughly you can calculate the size of the output file as (15 bytes * number of points); a 450.000 points file, thus about 7 MB heavy, can take few minutes to get uploaded in Oscape. Raising resolution even by just one step can add to the load time exponentially.\r\n\r\nIf you decide to ignore warnings and go for high resolutions, you can still get Oscape to load the file despite the absurd number of points you decided to generate.\r\nJust be ready to wait for a long time and, most important, dont panic if Oscape stops responding. While loading points you cant do anything, not even minimize the window to icon, let alone closing it. It could even go \\\"white\\\", like it\\'s going to crash, but I assure you everything\\'s working fine. You just have to be patient and wait.\r\n---------------------------------------------//\r\n\r\n\r\nWHAT ONCE THE FILE IS GENERATED?\r\n//---------------------------------------------\r\nThe .pts file gets automatically generated (and overwritten) in the same directory where the program executable is with the default name \\\"MyPoints.pts\\\".\r\n\r\nThen you just have to load it in Oscape from the \\\"Preview\\\" tab (lowest text field) or \\\"Generator\\\" tab (second text field, below the .raw file one) by hitting \\\"Browse\\\" and selecting it.\r\n---------------------------------------------//\r\n\r\n\r\nAS A LAST NOTE\r\n//---------------------------------------------\r\nI\\'m still trying to improve this program to make Oscape correctly read all the points, if only I could get in contact with Ethatron.\r\n\r\nAnyway you\\'re free to comment and ask for the the source code (which is very simple) at any time, although I think not many will feel like needing this kind of tool.\r\n\r\nEvery information you will bring to my attention about the correct way to generate points for Oscape will be very welcome as I\\'d really love to be able to give this program a final shape that is working in all of its features.\r\n---------------------------------------------//",
+  "categoryId": "39",
+  "version": "0.2alpha",
+  "author": "Zehryo",
+  "createdUnix": "1342799863",
+  "updatedUnix": "1342800037",
+  "containsAdultContent": false,
+  "uploadedBy": "Zehryo",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "75523",
+      "name": "Oscape pts Generator v0_2 alpha",
+      "version": "0.2a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Oscape pts Generator v0_2 alpha-20826-0-2a.rar",
+      "uploadedUnix": "1342800037",
+      "modVersion": "0.2a",
+      "virusScanUrl": "https://www.virustotal.com/file/90698f3c07843d0eacca2bd20004a348f886efcc0b4d0584a412bad8d207ca2c/analysis/1407035162/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Oscape%20pts%20Generator%20v0_2%20alpha-20826-0-2a.rar?fid=75523&ttl=1535789240&ri=8192&rs=8192&setec=64c4d05e931985adec99374c8128dc5a"
+    }
+  ]
+}

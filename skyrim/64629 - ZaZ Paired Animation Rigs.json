@@ -1,0 +1,32 @@
+{
+  "modId": 64629.0,
+  "modName": "ZaZ Paired Animation Rigs",
+  "summary": "Paired Animation Rig for 3dsMax Made me ZaZ , Used for Paired Animations And Kill Moves for Human on Human interactions.\r<br />Credit to Kentington as well for his mod.",
+  "descriptionHtml": "[b][i][u][center]This Mod is Classed as Adult cause the Meshes are Nude and Skyrim is M Rated Game [/center][/u][/i][/b]\r<br />[size=5][center][u][font=Courier New][color=#00ff00][b]Foreword[/b][/color][/font][/u][/center][/size][size=3]Animations in 3dsMax are tough for Low end PC users, So I stick to Blender2.49b. However I do have some Knowledge of 3ds Max so was able to pull this off easily. The inspiration came from the mod,\r<br />Paired Animation Export Tutorial by [url=http://www.nexusmods.com/skyrim/users/1179663]Kentington\r<br />http://www.nexusmods.com/skyrim/mods/49311/?[/url]\r<br />So Kudos to him. ^^ Please Read is Documentation it will help understand the basics.\r<br />[/size]\r<br />I made a similar Rig mimicking Kentington&#39;s Rig in Blender 2.49b and was able to use Kentington&#39;s Tutorials to export my own animations to Skyrim, And they worked well enough with FNIS. \r<br />Why blender ?  I Cant Rig or Animate in 3dsMax efficiently, Rigging the second actor was possible only cause I knew some Blender tricks and some Nifskope Stuff as well . And Changed 3rd person camera in regard to orientation.\r<br />\r<br />The version of 3dMax I use is 2010 , but it should work with 2011 & 2012  too with the appropriate versions of Havok Content Tools. There are a lot of animation tutorials for 3dsMax so I wont cover making animations .\r<br />\r<br />\r<br />\r<br />[size=5][center][u][font=Courier New][color=#00ff00][b]Usage[/b][/color][/font][/u][/center][/size]\r<br />There are 2 rigs you can use \r<br />00 ZaZ Paired Animation Rig FF    (Female-Female)(UNPB Redux)\r<br />00 ZaZ Paired Animation Rig MF    (Male-Female)(Skyrim Default Male - UNPB Redux)\r<br />\r<br />Animate as you wish and just Export as you would Export Other Skyrim hkx Animations Using HCT\r<br />Just use the Human-Human Rig.txt and the PairedXport.HKO when you are preparing to export using the Havok Content Tools Dont Forget to set the Right Number of frames and the start and stop Annotations\r<br />\r<br />Animation Tutorial for 3DsMax by xp32 and aeon Covers this well\r<br />[url=http://]http://www.nexusmods.com/skyrim/mods/15238/?[/url]\r<br />There are two Example Animations, these demonstrate the usage of the 3rd person Camera and it can be used \r<br />01 ZaZ Paired Kiss EXAMPLE\r<br />02 ZaZ KillAnim MetsuShoRyuKen EXAMPLE\r<br />\r<br />[font=Times New Roman][size=4][b][u][center][color=#00ffff]Adding them in Game Using FNIS[/color][/center][/u][/b][/size][/font][size=3]\r<br />One will have to Read the Modders Documentation for FNIS this is Important cause there is lot one can do using FNIS parameters. Will Paste the Parameters here, But it should only be used as an example , Parameters are different when it comes to your own animations and your own Mods FNIS_LIST.txt\r<br />[/size][center][/center][size=1]\r<br />[/size][quote][size=1]pa -ac,D21.00 ZaZSensualKiss ZaZSensualKiss.hkx\r<br />[/size][/quote][quote][size=1]km -ac,o,D7.11,Tnpcsoundplay.NPCFootScuffLeft/1.15,Tnpcsoundplay.NPCFootScuffRight/1.20,Tnpcsoundplay.npckillchop/1.40,Tnpcsoundplay.NPCFootScuffRight/2.20,Tnpcsoundplay.NPCFootScuffLeft/2.30,Tnpcsoundplay.npckillchop/2.40,Tnpcsoundplay.NPCFootScuffLeft/3.10,Tnpcsoundplay.npckillchop/3.20,T2_killactor/6.70 FNISSPpa4 paired_FNISSPpa4.hkx ZaZKMSRKFistFire[/size][/quote]The First one is a Paired animation example , and the second one is a Kill Move example with an animated Object\r<br />\r<br />[font=Comic Sans MS][color=#00ff00][size=4][i]Cheers and Happy Animating [/i][/size][/color][/font]\r<br />[center][youtube]0ZY-cBq8gCs[/youtube][/center]\r<br />\r<br />\r<br />[youtube]Y3SxdnzwjYI[/youtube][youtube]yrXxefeKYyA[/youtube]",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "ZaZ",
+  "createdUnix": "1428698839",
+  "updatedUnix": "1428698010",
+  "containsAdultContent": true,
+  "uploadedBy": "mastercchris",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000155186",
+      "name": "ZaZ Paired Animation Rigs",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6437",
+      "fileName": "ZaZ Paired Animation Rigs-64629-1-0.7z",
+      "uploadedUnix": "1428698010",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/dfe41cf8fbc0535b2bede82f84a9b53510789dc4b90481268231132080d09ca5/analysis/1428698046/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ZaZ%20Paired%20Animation%20Rigs-64629-1-0.7z?fid=1000155186&ttl=1535853260&ri=8192&rs=8192&setec=67d96e22242dc2ecf793463a8fc2d2ee"
+    }
+  ]
+}

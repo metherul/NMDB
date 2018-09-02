@@ -1,0 +1,48 @@
+{
+  "modId": 14385.0,
+  "modName": "Prisoner Clothes and Rags v2 for CBBEv3 bodyslide CHSBHC BBP",
+  "summary": "Adds the ability for females to wear Prisoner Rags aka Ragged Trousers.\r\nAdds new jiggly meshes for Prisoner Rags and Prisoner Clothes.\r\nAdds corrected 1st person view meshes for Prison Rags.\r\nAdds several new nude textures for Prisoner Rags and Prisoner Clothes.",
+  "descriptionHtml": "[color=cyan]Prisoner Clothes and Rags for CHSBHC and BBP[/color] \r\nby Eiwyn - 20120403 - Where men can go topless, women should too.\r\n\r\nVersion 2 with support for CBBEv3 bodyslide. Use this if you have CBBEv3 installed. It will fix the ugly hips. This body is made with bodyslide using Breast and Butt Physics. If you do not like this body shape, then you can make your own in bodyslide and replace the ones in this mod. Use Nifskope to cut-and-paste your own femalebody.nifs. If you get ugly black lines at the hips on old women, download the optional normal map for old women.\r\n\r\n \r\n\r\n\r\nMales gets two separate prison clothes in vanilla Skyrim. One with a tunic and another with a bare chest. Women get only one, but it\\'s used twice as much. I think this is a missed opportunity for more variation in skyrim vanilla clothing. The Prisoner Rags (called Ragged Trousers in game) will with this mod not show the graphics for Prisoner Clothes (called Roughspun Tunic in game). You will instead see a second set of female prison apparel. \r\n\r\nEarly in the game development, there probably where plans to make two female prison clothing sets. There are unused meshes called PrisonerRags_F_1.nif inside Skyrim - Meshes.bsa, but all they do now is take up space. They are also bugged, in that they don\\'t hook up the gloss map properly. The 1st person view meshes are also broken. They show male arms when females wears Prison Rags. New corrected arm meshes are included in this mod.\r\n\r\nCherryHotaling made great prison clothes meshes with support for Breast and Butt Physics for both sets, but if you install his mod, only half will be used. To make the other half work, you need an esp that changes the filenames for the PrisonerRagsAA armature, and that is why an esp is included with this mod. The esp is called PrisonerRagsForFemales.esp and is made by me. It\\'s very small, only changes one record.\r\n\r\nCherryHotaling\\'s meshes are also included, with updated paths for the new texture filenames. They are a bit wonky with the rope at the front, but it\\'s still the best meshes we got.\r\n\r\nThere are three sets of alternative textures. You can pick and choose as you like. Rags from one and Clothes from another.\r\n\r\nThe brown 2048 textures comes from Bethesda\\'s HighResTexturePack.\r\n\r\nThe grey 1024 and black 1024 textures comes from Roughspun Tunic - Retexture by Wyn Xombii.\r\n\r\nThe alpha layer for the Prisoner Rags textures comes from Summer Fashion -WIP- less by Gilead Maerlyn.\r\n\r\nThe alpha layer for the Prisoner Clothes textures comes from Skimpy partially nude armor and clothes by Templar666. \r\n\r\nThe alpha layers have been cleaned up of artifacts, and some odd floating cloth was removed. The alpha layers are not perfect by any means, but I think they are good enough for now.\r\n\r\n\r\n\r\n\r\n[color=cyan]What this mod does:[/color] \r\nAdds the ability for females to wear Prisoner Rags aka Ragged Trousers.\r\nAdds jiggly meshes for Prisoner Rags and Prisoner Clothes.\r\nAdds corrected 1st person view meshes for Prisoner Rags.\r\nAdds several nude textures for Prisoner Rags (Ragged Trousers) and Prisoner Clothes (Roughspun Tunic).\r\n\r\n\r\n\r\n[color=cyan]Requirements:[/color] \r\nThis mod requires [url=http://skyrim.nexusmods.com/downloads/file.php?id=4888]CHSBHC - BBP - Nude and Jiggly Mod by CherryHotaling[/url].\r\n\r\nIt will work with any body mod, for example [url=http://skyrim.nexusmods.com/downloads/file.php?id=2666]Calientes Female Body Mod Big Bottom Edition -CBBE-[/url] works fine, but you need at least the skeleton files from CherryHotaling. If you don\\'t want to install the whole [url=http://skyrim.nexusmods.com/downloads/file.php?id=4888]CHSBHC - BBP - Nude and Jiggly Mod[/url] then install only these files:\r\n\r\nMeshes\\\\actors\\\\character\\\\character assets\\\\skeleton.nif\r\nMeshes\\\\actors\\\\character\\\\character assets female\\\\skeleton_female.nif\r\nMeshes\\\\actors\\\\character\\\\character assets female\\\\skeletonbeast_female.nif\r\n\r\n\r\n\r\n[color=cyan]Installation:[/color] \r\nCopy Textures, Meshes and PrisonerRagsForFemales.esp into your Skyrim\\\\Data folder.\r\nIf you do not want the brown 2048 textures, choose an alternative texture and copy that folder to your Skyrim\\\\Data folder.\r\nAdd PrisonerRagsForFemales.esp to your plugins.txt.\r\n\r\nPlace the esp anywhere in the load order, but after mods that changes PrisonerRagsAA. I have never come across any mod that conflicts, but if you do, you could just edit that record in your conflicting esp through the Creation Kit, and then delete PrisonerRagsForFemales.esp.\r\n\r\nIf you don\\'t want the nude textures, then install only the meshes and esp. The game will use the vanilla brown textures that lack the nude alpha layer. You can also find more colorful non-nude textures in [url=http://skyrim.nexusmods.com/downloads/file.php?id=7445]Standalone Dragonborn Monk Outfit by Sasquatcho[/url].\r\n\r\n\r\n\r\n[color=cyan]Get the items in game:[/color] \r\nOpen the console and type this:\r\n\r\n player.additem 3c9fe 1 \r\n player.additem 8f19a 1  \r\n\r\nor, copy the rags.txt to your Skyrim folder, and type  \\\"bat rags\\\" without the quotes.\r\n\r\n\r\n[color=cyan]Credits:[/color] \r\nCaliente for making [url=http://skyrim.nexusmods.com/downloads/file.php?id=2666]CBBE and Bodyslide[/url]\r\nCherryHotaling for making [url=http://skyrim.nexusmods.com/downloads/file.php?id=4888]CHSBHC - BBP - Nude and Jiggly Mod[/url] and prisonerclothes_f\r\nWyn Xombii for making [url=http://skyrim.nexusmods.com/downloads/file.php?id=1770]Roughspun Tunic - Retexture[/url]\r\nGilead Maerlyn for making [url=http://skyrim.nexusmods.com/downloads/file.php?id=1384]Summer Fashion -WIP-[/url]\r\nTemplar666 for making [url=http://skyrim.nexusmods.com/downloads/file.php?id=1274]Skimpy partially nude armor and clothes[/url]\r\n\r\n\r\n\r\n\r\n[color=cyan]Copyright:[/color] \r\nI reserve no rights whatsoever. Do anything you like with this mod.\r\n",
+  "categoryId": "60",
+  "version": "2",
+  "author": "Eiwyn",
+  "createdUnix": "1333593351",
+  "updatedUnix": "1335616917",
+  "containsAdultContent": true,
+  "uploadedBy": "Eiwyn",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "50166",
+      "name": "Prisoner Clothes and Rags v1 for CBBEv2 CHSBHC BBP",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3451",
+      "fileName": "Prisoner Clothes and Rags v1 for CBBEv2 CHSBHC BBP-14385.7z",
+      "uploadedUnix": "1333593537",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/2de1fa8c627d8dfca14e43b4100c0e8cad4b5953cb5debe459a79c554a8682b8/analysis/1406797868/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Prisoner%20Clothes%20and%20Rags%20v1%20for%20CBBEv2%20CHSBHC%20BBP-14385.7z?fid=50166&ttl=1535777949&ri=8192&rs=8192&setec=942f976c1d1d9fed7d167ad0a799d694"
+    },
+    {
+      "fileId": "56999",
+      "name": "Prisoner Clothes and Rags v2 for CBBEv3 bodyslide BBP",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3260",
+      "fileName": "Prisoner Clothes and Rags v2 for CBBEv3 bodyslide BBP-14385.7z",
+      "uploadedUnix": "1335616917",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/4ebfdb86bf9e7de918afb34618555129b9f2e1cebe9c814bad9c54add7749d78/analysis/1406847606/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Prisoner%20Clothes%20and%20Rags%20v2%20for%20CBBEv3%20bodyslide%20BBP-14385.7z?fid=56999&ttl=1535777950&ri=8192&rs=8192&setec=d18058a3b49211d03aa2a75de2fcd158"
+    }
+  ]
+}

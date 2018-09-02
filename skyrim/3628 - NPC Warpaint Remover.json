@@ -1,0 +1,32 @@
+{
+  "modId": 3628.0,
+  "modName": "NPC Warpaint Remover",
+  "summary": "Ran through almost all the active NPCs (ie not quest, not random bandits) and replaced any with warpaint with a race/gender appropriate neutral texture (stolen from another NPC with a little less ZAZZ).  Replaces textures specific to NPCs, list inside.  Also does some makeup(optional).",
+  "descriptionHtml": "REPLACES NPC-SPECIFIC FACE TINTMASK TEXTURES WITH GENDER/RACE-SPECIFIC NEUTRAL TEXTURE.\r\n\r\nCompatible with all the Better Females type mods since its not overriding general textures, these are specific to each NPC. \r\n\r\nNote that \\\"neutral\\\" does not mean blank.  I picked a texture from that gender/race that was fairly neutral but not completely blank.  Khajiit and Argonians were not touched as they are in a different category (warpaint actually probably looks fine on them).\r\n\r\nThere are 3 options in the main file designated by Data(option).\r\nAll: both\r\nWarpaint: just warpaint\r\nMakeup: just makeup\r\n\r\nAs far as selection of NPCs:\r\nFor warpaint, it\\'s obvious the criteria.\r\nFor makeup, I generally went for any extremely heavy or off-color makeup (like bright green on a redguard).  It\\'s not consistent and that\\'s why it\\'s optional, although halfway through I realized that awful starburst over the eye was warpaint and not makeup, so some of them are in makeup.  At worst, you will get a plain jane/jack NPC.\r\n\r\nGigantic list (also in list.txt in the zip) below.  If you want to revert a specific NPC in this list, find their FormID (000xxxx) and delete that .dds in the \\\\data\\\\textures\\\\actors\\\\character\\\\facegendata\\\\facetint\\\\skyrim.esm folder\r\n\r\nWarpaint:\r\n0001337F\tM\tBosmer\tValindor\r\n00029DAA\tM\tBosmer\tSyndus\r\n000133B4\tF\tBreton\tRhiada\r\n000133B7\tF\tBreton\tSenna\r\n000133BC\tF\tBreton\tUaile\r\n000133C0\tF\tBreton\tVoada\r\n00013B6D\tF\tBreton\tMena\r\n0001406B\tF\tBreton\tMuiri\r\n0001990F\tF\tBreton\tEola\r\n000D66FE\tF\tBreton\tCairine\r\n00013389\tM\tBreton\tBraig\r\n0001338F\tM\tBreton\tCedran\r\n00013390\tM\tBreton\tCosnach\r\n00013393\tM\tBreton\tDuach\r\n00013394\tM\tBreton\tEltrys\r\n00013B6B\tM\tBreton\tBelchimac\r\n00013B6C\tM\tBreton\tEnmon\r\n0001996C\tM\tBreton\tPerth\r\n0001996D\tM\tBreton\tTuthul\r\n0009A7A8\tM\tBreton\tBanning\r\n000AF524\tM\tBreton\tDorian\r\n000D6719\tM\tBreton\tMorven\r\n0001365F\tF\tDunmer\tDravynea the Stoneweaver\r\n00013BB8\tF\tDunmer\tIrileth\r\n0001411B\tF\tDunmer\tIdesa Sadri\r\n0001411C\tF\tDunmer\tVoldsea Giryon\r\n00014122\tF\tDunmer\tSuvaris Atheron\r\n000B9982\tF\tDunmer\tJenassa\r\n00014131\tM\tDunmer\tFaryl Atheron\r\n0001413E\tM\tDunmer\tAmbarys Rendar\r\n0001A6D5\tM\tDunmer\tAthis\r\n00013267\tF\tImperial\tSafia\r\n0001A6D7\tF\tImperial\tRia\r\n000AF523\tM\tImperial\tXander\r\n0001336B\tF\tNord\tMjoll the Lioness\r\n0001A696\tF\tNord\tAela the Huntress\r\n0001A6D9\tF\tNord\tNjada Stonearm\r\n0001E956\tF\tNord\tLiesl\r\n000AF522\tF\tNord\tEris\r\n00013286\tM\tNord\tHeimvar\r\n0001328F\tM\tNord\tJorn\r\n00013296\tM\tNord\tCaptain Wayfinder\r\n00013657\tM\tNord\tHelvard\r\n00013BBC\tM\tNord\tHrongar\r\n0001A68E\tM\tNord\tKodlak Whitemane\r\n0001A690\tM\tNord\tSkjor\r\n0001A692\tM\tNord\tFarkas\r\n000371D7\tM\tNord\tUnmid Snow-Shod\r\n000A2C8C\tM\tNord\tArgis the Bulwark\r\n000B997F\tM\tNord\tVorstag\r\n000D4FDB\tM\tNord\tThrynn\r\n00013B7A\tF\tOrc\tMurbul\r\n00019953\tF\tOrc\tSharamph\r\n00019955\tF\tOrc\tBagrak\r\n00019959\tF\tOrc\tBorgakh the Steel Heart\r\n0001B076\tF\tOrc\tBolar\r\n0001B077\tF\tOrc\tYatul\r\n0001B078\tF\tOrc\tUrog\r\n0001338A\tM\tOrc\tBorkul the Beast\r\n00013B79\tM\tOrc\tChief Burguk\r\n00013B7F\tM\tOrc\tNagrub\r\n00019951\tM\tOrc\tChief Larak\r\n00019E20\tM\tOrc\tGularzob\r\n0001B075\tM\tOrc\tChief Mauhulakh\r\n0001B1CD\tM\tOrc\tGrushnag\r\n0003BC26\tM\tOrc\tChief Yamarz\r\n0001325F\tM\tRedguard\tAhtar\r\n\r\nMakeup:\r\n000133AF\tM\tAltmer\tOndolemar\r\n00034D99\tM\tAltmer\tMuril\r\n00013392\tM\tBreton\tDegaine\r\n0001B07C\tM\tBreton\tMercer Frey\r\n0001C199\tM\tBreton\tPhinis Gestor\r\n0001C19D\tM\tBreton\tArniel Gane\r\n0001CB78\tM\tBreton\tDelvin Mallory\r\n000D4FD8\tM\tBreton\tCynric Endell\r\n00013352\tF\tDunmer\tDinya Balu\r\n00013353\tM\tDunmer\tDravin Llanith\r\n00013370\tM\tDunmer\tIndaryn\r\n0001C198\tM\tDunmer\tDrevis Neloren\r\n000B03A4\tM\tDunmer\tRavyn Imyan\r\n00013356\tF\tImperial\tEdda\r\n000133B9\tF\tImperial\tSosia Tremellia\r\n0001347B\tF\tImperial\tCamilla Valerius\r\n0001336D\tM\tImperial\tDirge\r\n0001D4B5\tM\tImperial\tCommander Maro\r\n0002BA8E\tM\tImperial\tMallus Maccius\r\n00044050\tM\tImperial\tGaius Maro\r\n00013262\tF\tNord\tBjartur\r\n00013388\tF\tNord\tBetrid Silver-Blood\r\n000133A5\tF\tNord\tLisbet\r\n000133B0\tF\tNord\tOrla\r\n000135EC\tF\tNord\tIdgrod the Younger\r\n00013602\tF\tNord\tArgi Farseer\r\n00013608\tF\tNord\tSwanhvir\r\n0001361A\tF\tNord\tKarita\r\n00013654\tF\tNord\tNarri\r\n000136C5\tF\tNord\tGrelka\r\n00014120\tF\tNord\tJora\r\n00013351\tM\tNord\tHofgrir Horse-Crusher\r\n00013362\tM\tNord\tHemming Black-Briar\r\n00013381\tM\tNord\tVulwulf Snow-Shod\r\n000135F2\tM\tNord\tThonnir\r\n00013603\tM\tNord\tGestur Rockbreaker\r\n00013604\tM\tNord\tJesper\r\n0001360D\tM\tNord\tKodrir\r\n000136C4\tM\tNord\tOdfel\r\n000A2C90\tM\tNord\tCalder\r\n000A3BDB\tM\tNord\tRoggvir\r\n000AE777\tM\tNord\tThorgar\r\n000AE77B\tM\tNord\tGunding\r\n000B03A3\tM\tNord\tGarthar\r\n000B9983\tM\tNord\tStenvar\r\n000DA68A\tM\tNord\tFultheim\r\n00013BBE\tF\tRedguard\tAhlam\r\n00013275\tM\tRedguard\tFihada\r\n",
+  "categoryId": "33",
+  "version": "1.0",
+  "author": "themendios",
+  "createdUnix": "1323834777",
+  "updatedUnix": "1323834849",
+  "containsAdultContent": false,
+  "uploadedBy": "themendios",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "10249",
+      "name": "WarpaintMakeupRemover",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "671",
+      "fileName": "WarpaintMakeupRemover-3628-1-0.zip",
+      "uploadedUnix": "1323834849",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ae3ee8fc6cfcbf49450739a9a4638f6e3ff00966f415d467bc079a1414dc1b6a/analysis/1406517068/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/WarpaintMakeupRemover-3628-1-0.zip?fid=10249&ttl=1535758823&ri=8192&rs=8192&setec=2f005f84023e53d480e95e771afb4c48"
+    }
+  ]
+}

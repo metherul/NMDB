@@ -1,0 +1,32 @@
+{
+  "modId": 60764.0,
+  "modName": "Custom Font Tutorial (With Free Software)",
+  "summary": "How to replace skyrim fonts with a custom font...",
+  "descriptionHtml": "1. Download my file and extract it\r<br />2. Download swfmill: http://swfmill.org/ and move the exe inside the mkfont folder\r<br />3. Download a font (example: http://www.dafont.com/dumbledor.font)\r<br />4. Move the ttf file inside the mkfont folder (example: dum3thin.ttf)\r<br />5. Rename the ttf file to myfont.ttf\r<br />6. Double click on make_font.bat\r<br />7. Open the ttf file to get the font name\r<br />8. Edit fontconfig.txt and replace the font names with your new font name (example: Dumbledor 3 Thin)\r<br />9. Copy fontconfig.txt and mycustomfont.swf to Data&#92;Interface&#92;\r<br />10. Done\r<br />\r<br />Example fontconfig.txt:\r<br />\r<br />fontlib &#34;Interface&#92;fonts_console.swf&#34;\r<br />fontlib &#34;Interface&#92;fonts_en.swf&#34;\r<br />fontlib &#34;Interface&#92;mycustomfont.swf&#34;\r<br />map &#34;&#036;ConsoleFont&#34; = &#34;Arial&#34; Normal\r<br />map &#34;&#036;StartMenuFont&#34; = &#34;Dumbledor 3 Thin&#34; Normal\r<br />map &#34;&#036;DialogueFont&#34; = &#34;Dumbledor 3 Thin&#34; Normal\r<br />map &#34;&#036;EverywhereFont&#34; = &#34;Dumbledor 3 Thin&#34; Normal\r<br />map &#34;&#036;EverywhereBoldFont&#34; = &#34;Dumbledor 3 Thin&#34; Normal\r<br />map &#34;&#036;EverywhereMediumFont&#34; = &#34;Dumbledor 3 Thin&#34; Normal\r<br />map &#34;&#036;DragonFont&#34; = &#34;Dragon_script&#34; Normal\r<br />map &#34;&#036;SkyrimBooks&#34; = &#34;SkyrimBooks_Gaelic&#34; Normal\r<br />map &#34;&#036;HandwrittenFont&#34; = &#34;SkyrimBooks_Handwritten_Bold&#34; Normal\r<br />map &#34;&#036;HandwrittenBold&#34; = &#34;SkyrimBooks_Handwritten_Bold&#34; Normal\r<br />map &#34;&#036;FalmerFont&#34; = &#34;Falmer&#34; Normal\r<br />map &#34;&#036;DwemerFont&#34; = &#34;Dwemer&#34; Normal\r<br />map &#34;&#036;DaedricFont&#34; = &#34;Daedric&#34; Normal\r<br />map &#34;&#036;MageScriptFont&#34; = &#34;Mage Script&#34; Normal\r<br />map &#34;&#036;SkyrimSymbolsFont&#34; = &#34;SkyrimSymbols&#34; Normal\r<br />map &#34;&#036;SkyrimBooks_UnreadableFont&#34; = &#34;SkyrimBooks_Unreadable&#34; Normal\r<br />validNameChars &#34;`1234567890-=~&#33;@#&#036;%^&*():_+QWERTYUIOP[]ASDFGHJKL;&#39;ZXCVBNM,./qwertyuiop{}&#92;&#92;asdfghjkl;&#39;zxcvbnm&lt;&gt;?|¡¢£¤¥¦§¨©ª«®¯°²³´¶·¸¹º»¼½¾¿ÄÀÁÂÃÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþ ÿ &#34;",
+  "categoryId": "42",
+  "version": "1.0",
+  "author": "just",
+  "createdUnix": "1418560292",
+  "updatedUnix": "1418559916",
+  "containsAdultContent": false,
+  "uploadedBy": "just",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000138806",
+      "name": "mkfont",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "mkfont-60764-1-0.7z",
+      "uploadedUnix": "1418559916",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/66a1049cc31fae4ccb88602c77d53d36da27421ee2c4f58499026eba14e334db/analysis/1418559963/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/mkfont-60764-1-0.7z?fid=1000138806&ttl=1535848715&ri=8192&rs=8192&setec=99cbec9efe677c3eedef3f4aa35ff90f"
+    }
+  ]
+}

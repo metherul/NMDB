@@ -1,0 +1,48 @@
+{
+  "modId": 61994.0,
+  "modName": "Mod Organizer Configurator Tweaks",
+  "summary": "Changes the settings for the MO Configurator to include missing keys and corrects default values.  Also offers an alternate setup to make the Configurator more user friendly for STEP users.",
+  "descriptionHtml": "[color=#ff0000][b]\r<br />[size=5]CAUTION: THIS IS IN ALPHA[/size][/b][/color]\r<br /> \r<br />DESCRIPTION\r<br />The ModOrganizer (MO) Configurator edits Skyrim.ini and SkyrimPrefs.ini files.  It’s a useful tool because it shows defaultvalues of ini settings (keys) and sets up rules around what you can enter.  This changes the Configurator Settings.jsonfile to the following:\r<br />·        Added keys from default ini files to “Basic” ifnot already there (I didn’t remove the “Basic” items already there).\r<br />·        Default values corrected for some of the keysbased on the default ini files.\r<br />·        Added several keys that were missing from theoriginal Configurator (see Added Keys below) (the Configurator description says\r<br />“Added Key”).\r<br />·        These changes only change Configurator setup andshould not affect values you have already inputted or change your ini files in\r<br />any way.\r<br /> \r<br />Optional(STEP version)\r<br />You don’tneed the Main version with optional files.\r<br />·        Adds STEP guide descriptions to originaldescription.\r<br />·        Swaps out “Basic” view keys with keys from:\r<br />o  STEP Core: [url=http://wiki.step-project.com/STEP:2.2.9]http://wiki.step-project.com/STEP:2.2.9[/url];and\r<br />o  STEP INI Guide: [url=http://wiki.step-project.com/Guide:Skyrim_INIs]http://wiki.step-project.com/Guide:Skyrim_INIs[/url](as of 1/23/2015); and\r<br />o  STEP Help: [url=http://forum.step-project.com/topic/3758-shadow-optimization/]http://forum.step-project.com/topic/3758-shadow-optimization/[/url].\r<br />·        Non-Step keys are still there, just in “Advanced”view.\r<br /> \r<br />WARNING\r<br />·        The Configurator author may have intentionallyleft the missing keys off so use new keys at your own risk (see Added Keys\r<br />below)&#33;\r<br />·        ENB users: you still need to manually removeiPresentInterval from SkyrimPrefs.ini.  Icould not get Configurator to make this change. But, you can add iPresentInterval = 1 to Skyrim.ini throughConfigurator.\r<br />·        I didn’t set up rules around range or valuelimits on many of the missing keys (see Added Keys below).\r<br />·        If you see a note that says “DEFAULT UKNOWN”,that means this is an added key and I don’t know what the default value was\r<br />supposed to be (f3PBoltTiltUpAngle).  Youwill NOT want to reset it to the default value in Configurator; if you want to\r<br />reset to default manually remove it from the ini file.\r<br />·        I don’t know all the keys missing from Configurator,I tried to find as many as I could for Skyrim.\r<br />·        The Configurator author had several keyshidden.  I didn’t change these.\r<br /> \r<br />REQUIREMENTS\r<br />ModOrganizer v1.2.17.  Not tested with otherversions.\r<br /> \r<br />MANUALINSTALLATION\r<br />1.      Close MO if running (not sure if necessary butit’s probably a good idea).\r<br />2.      In Mod Organizer&#92;plugins&#92;data&#92; backup yourSetting.json file\r<br />3.      Extract and replace Settings.json with thedownload file\r<br />4.      ENB users: you still need to manually removeiPresentInterval from SkyrimPrefs.ini and add iPresentInterval=1 to Skyrim.ini.  I couldn’t get configurator to make thischange.\r<br /> \r<br />UNINSTALLATION\r<br />1.      IMPORTANT if you want to revert the settings foradded keys you may want to delete them manually from the ini files rather than\r<br />setting them back in Configurator.\r<br />2.      Close MO if running\r<br />3.      Replace Settings.json with the backup you made\r<br /> \r<br />HOW TO HELP\r<br />I’m notexperienced with Java.  Honestly, I justcopied and pasted snippets from the original file.  So please let me know if you have anyissues&#33;  I plan to add the Main file toMod Organizer if this helps people.\r<br /> \r<br />There aresome key pieces of information I don’t know right now:\r<br />·        Defaults/ranges for missing keys (see Added Keysbelow)\r<br />·        I don’t know if the order of keys/groupsmatter.  For the added keys, let me knowif you run into issue because they are not in order.  If not, I can make a version everythingarranged alphabetically.\r<br />·        If you are aware of other keys missing inConfigurator, let me know and I’ll add them.\r<br />·        If you want me to make a version that’s based onanother tweak guide, copy and paste and/or send me a link with a list of all\r<br />the changes and I’ll make an optional version with those keys in “Basic” view-\r<br />(no guarantees how long that will take).\r<br /> \r<br />ADDED KEYS\r<br />v0.01a\r<br />Skyrim.ini\r<br /> \r<br />[Camera]\r<br />fOverShoulderAddY(default unknown)\r<br /> \r<br />[Combat]\r<br />f3PBoltTiltUpAngle(default unknown)\r<br /> \r<br />[VATS]\r<br />uVATSRangedPercentSneak\r<br />uVATSRangedPercentGlobal\r<br /> \r<br />SkyrimPrefs.ini\r<br /> \r<br />[BlurShader]\r<br />bUseBlurShader\r<br /> \r<br />[BlurShaderHDR]\r<br />bDoHighDynamicRange\r<br /> \r<br />[Controls]\r<br />bMouseAcceleration\r<br /> \r<br />[Decals]\r<br />uMaxSkinDecalsPerActor\r<br /> \r<br />[Display]\r<br />iShadowSplitCount\r<br />sD3DDevice\r<br /> \r<br />[General]\r<br />fBrightLightColorB\r<br />fBrightLightColorG\r<br />fBrightLightColorR\r<br /> \r<br />[Launcher]\r<br />bEnableFileSelection\r<br />bShowAllResolutions\r<br />uLastAspectRatio\r<br /> \r<br />[NavMesh]\r<br />fObstacleAlpha\r<br />fCoverSideHighAlpha\r<br />fCoverSideLowAlpha\r<br />fEdgeFullAlpha\r<br />fEdgeHighAlpha\r<br />fEdgeLowAlpha\r<br />fTriangleFullAlpha\r<br />fTriangleHighAlpha\r<br />fTriangleLowAlpha\r<br />fLedgeBoxHalfHeight\r<br />fEdgeDistFromVert\r<br />fEdgeThickness\r<br />fPointSize\r<br /> \r<br />[Water]\r<br />iWaterReflectHeight\r<br />iWaterReflectWidth\r<br />bUseWaterDisplacements\r<br />bUseWaterRefractions\r<br />bUseWaterReflections\r<br />bUseWaterDepth",
+  "categoryId": "39",
+  "version": "0.01a",
+  "author": "madduma",
+  "createdUnix": "1422188227",
+  "updatedUnix": "1422186701",
+  "containsAdultContent": false,
+  "uploadedBy": "madduma",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000144490",
+      "name": "Mod Organizer Configurator Tweaks",
+      "version": "0.01a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "18",
+      "fileName": "Mod Organizer Configurator Tweaks-61994-0-01a.7z",
+      "uploadedUnix": "1422186609",
+      "modVersion": "0.01a",
+      "virusScanUrl": "https://www.virustotal.com/file/e2623e352d0cfc658b8e35d270d3715acdede57f7fada433856ca4247b72c1be/analysis/1422186662/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Mod%20Organizer%20Configurator%20Tweaks-61994-0-01a.7z?fid=1000144490&ttl=1535850643&ri=8192&rs=8192&setec=2090bb5f93071202126ccb80d4168977"
+    },
+    {
+      "fileId": "1000144491",
+      "name": "STEP Version",
+      "version": "0.01a",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "19",
+      "fileName": "STEP Version-61994-0-01a.7z",
+      "uploadedUnix": "1422186701",
+      "modVersion": "0.01a",
+      "virusScanUrl": "https://www.virustotal.com/file/695e0f5c04724bbefccb6df8a99de5a7d79e3e7a606482a20c48c89905c8f287/analysis/1422186723/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/STEP%20Version-61994-0-01a.7z?fid=1000144491&ttl=1535850644&ri=8192&rs=8192&setec=b032b7ebd73429a2b73c158372f7200c"
+    }
+  ]
+}

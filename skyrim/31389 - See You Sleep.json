@@ -1,0 +1,48 @@
+{
+  "modId": 31389.0,
+  "modName": "See You Sleep",
+  "summary": "See you character enter in bed, sleep and get out of bed.",
+  "descriptionHtml": "[color=red]This is a Alpha/Beta/WIP mod, it needs testing so I don\\'t recommend to use it on your main saves[/color]\r\n\r\n* Description\r\nAs this mod http://skyrim.nexusmods.com/mods/20054 seems dead and a little bugged I decided to make my own version of See You Sleep.\r\nThis mod permit to see you character enter in bed, sleep and get out of the bed.\r\n\r\n* How this work:\r\n - Just activate a bed just like you will do normally, your character will walk and lie down on the bed.\r\n - Then press T (wait button) to sleep\r\n - And press E to make your character get out of the bed.\r\n\r\n* Require:\r\n - Skyrim\r\n - SKSE\r\n\r\n* Install:\r\nJust copy the data folder in your Skyrim folder.\r\n\r\n* uninstall\r\nGo away from any beds and type in console:\r\nstopquest dsyQuestSeeYouSleepUpdate\r\nstopquest dsyQuestSeeYouSleep\r\n\r\n* Changelog\r\nVersion WIP\r\n - initial release\r\nVersion WIP2\r\n - fix crafting and furniture\r\n\r\n* Todo:\r\n - Sleep outfits\r\n - Make followers sleep\r\n\r\n* Bugs/Issues\r\n - I don\\'t use skyrim vanilla sleep system so anything that use this will not work. But as far as I know there is only one quest that need you to sleep. Or if someone knows how to force trigger the sleep event will you are lying on a bed.\r\n - I haven\\'t tested it yet with vampire character and Heartfire/Dragonborn extension as I don\\'t own these\r\n - Lost your character control\r\n - Maybe performance issues (run fine on my rig with ~30 others mods)\r\n - ...",
+  "categoryId": "78",
+  "version": "WIP2",
+  "author": "Deziat",
+  "createdUnix": "1360515920",
+  "updatedUnix": "1360792335",
+  "containsAdultContent": false,
+  "uploadedBy": "Deziat",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000008734",
+      "name": "See You Sleep old",
+      "version": "WIP",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "See You Sleep-31389-WIP.rar",
+      "uploadedUnix": "1360515783",
+      "modVersion": "WIP",
+      "virusScanUrl": "https://www.virustotal.com/file/a87ce80b166cbbb7674b61463552d483fab09c634a8e38783d9495e703ec7972/analysis/1407409746/",
+      "changelogHtml": " initial release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/See%20You%20Sleep-31389-WIP.rar?fid=1000008734&ttl=1535806893&ri=8192&rs=8192&setec=e30021e86e9ce31753ef4509ea85c24b"
+    },
+    {
+      "fileId": "1000009604",
+      "name": "See You Sleep",
+      "version": "WIP2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "See You Sleep-31389-WIP2.rar",
+      "uploadedUnix": "1360792335",
+      "modVersion": "WIP2",
+      "virusScanUrl": "https://www.virustotal.com/file/b8b0587f30e1ed23394154fe0982414f656284ca570d1074cf3ed690014b8887/analysis/1407415985/",
+      "changelogHtml": " fix crafting and furniture <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/See%20You%20Sleep-31389-WIP2.rar?fid=1000009604&ttl=1535806894&ri=8192&rs=8192&setec=2e2f2887e6cc7ddf64e953b967171d9e"
+    }
+  ]
+}

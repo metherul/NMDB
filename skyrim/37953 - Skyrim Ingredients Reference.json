@@ -1,0 +1,32 @@
+{
+  "modId": 37953.0,
+  "modName": "Skyrim Ingredients Reference",
+  "summary": "External application which allows ingredient mixing and experimentation as a research and planning tool.",
+  "descriptionHtml": "[img=center]https://dl.dropboxusercontent.com/u/20195017/forum_stuff/sir-title-top.png[/img]\r\n \r\n \r\n[color=#ffff00][size=5]FRUSTRATED [/size][/color][size=3]because you have no way of knowing what ingredients you need for your awesome potions, unless you waste most of them in endless mixing?[/size]\r\n \r\n[color=#ffff00][size=5]CONFUSED [/size][/color][size=3]because you have hundreds of extra ingredients from cool mods like 101 Bugs and Ingredients of Tamriel, but the in-game process of mixing and matching takes SO MUCH TIME?[/size]\r\n \r\n \r\n[size=4]Well, the [color=#afeeee][b]Skyrim Ingredients Reference[/b][/color] application might just be for you.[/size]\r\n \r\n              Even though this is not a mod to Skyrim, but a separate application, it can help \r\n              the intrepid gamer plan and research without wasting precious ingredients.\r\n \r\n \r\n[size=4]The current list of supported ingredient mods (including Vanilla Skyrim):[/size]\r\n\r\n[LIST]\r\n[*]Dawnguard[/*]\r\n[*]Dragonborn[/*]\r\n[*]Hearthfires[/*]\r\n[*]83Willows\\' 101 Bugs v4_1...[url=http://skyrim.nexusmods.com/mods/4955]Here[/url][/*]\r\n[*]Improved Fish v3_2...[url=http://skyrim.nexusmods.com/mods/14320]Here[/url][/*]\r\n[*]Ingredients of Tamriel v1_10...[url=http://skyrim.nexusmods.com/mods/15442]Here[/url][/*]\r\n[*]Gourds as Ingredients...[url=http://skyrim.nexusmods.com/mods/19204]Here[/url][/*]\r\n[*]Frost Moss - New Ingredient...[url=http://skyrim.nexusmods.com/mods/34807]Here[/url][/*]\r\n[*]Ash Yams as Ingredients...[url=http://skyrim.nexusmods.com/mods/34797]Here[/url][/*]\r\n[/LIST]\r\n\r\n*** Please note that the checkbox for Candlepin Mods selects the Gourds, Frost Moss, and Ash Yams mods in the list above.\r\n\r\n---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\n\r\n[size=6][color=#ffa500]Choose Ingredients and see their combined effects![/color][/size]\r\n \r\n \r\n[size=6][color=#ffa500]Choose Effects and see the related ingredients![/color][/size]\r\n \r\n---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\n \r\n \r\n[color=#ee82ee][size=5]Questions:[/size][/color]\r\n \r\n[color=#00ff00][size=4]Why can\\'t you have this show up in the game?[/size][/color]\r\nSorry, chums, but there is only so much this guy can do.  If someone wants to volunteer for the effort, however, I can supply data and code logic.\r\n \r\n[color=#00ff00][size=4]Can I see what happens if I combine four or more ingredients?[/size][/color]\r\nNo.  The game only allows three, so [b]Skyrim Ingredients Reference[/b] will only allow three as well.\r\n \r\n[color=#00ff00][size=4]Dude, there are potions with more than four effects, so why don\\'t you allow more effects to be selected?[/size][/color]\r\nIt is true that the maximum number of effects that is possible with three ingredients (four effects each) is six.  However, those combinations are quite rare, and this application does not make a search for those combinations easy.  However, if you really want to see some kind of support for more effects, then please let me know!  I have already considered adding another button that displays a list of all the possible combinations (literally [i]tens of thousands[/i]).\r\n \r\n \r\n \r\n[color=#ee82ee][size=5]Installation:[/size][/color]\r\n \r\n[b][i]Note: Do not use NMM to install[/i][/b]\r\n\r\n[LIST=1]\r\n[*]Download the archive to a temporary directory[/*]\r\n[*]Extract the files to a new directory in a safe place[/*]\r\n[*]Right-click on SkyIngRef.exe, select Send To... and choose Desktop as Shortcut.[/*]\r\n[/LIST]\r\n\r\n[color=#ee82ee][size=5]Uninstallation:[/size][/color]\r\n\r\n[LIST=1]\r\n[*]Delete the files you copied from the archive.[/*]\r\n[*]Delete the shortcut on your desktop (if you made one).[/*]\r\n[/LIST]\r\n\r\n[size=5][color=#ee82ee]Files:[/color][/size]\r\n\r\n[LIST]\r\n[*]SkyIngRef.exe[/*]\r\n[*]sir.db*[/*]\r\n[*]sqlite3.dll[/*]\r\n[/LIST]\r\n\r\n[size=1]*Yes, this is a SqLite database.  You are free to examine the contents, but any changes to structure or data may render the application inoperable.  If you screw up the database, you may copy the files out of the archive and place them over the old files.[/size]",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "astr0wiz",
+  "createdUnix": "1372967643",
+  "updatedUnix": "1372964796",
+  "containsAdultContent": false,
+  "uploadedBy": "astr0wiz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000037260",
+      "name": "Skyrim_Ingredients_Reference_32_v1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3976",
+      "fileName": "Skyrim_Ingredients_Reference_32_v1-37953-1-0.7z",
+      "uploadedUnix": "1372964796",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ddaae5116ab2fa47574e5d9788366869aba69c4229c77fba45b38f616b95b83e/analysis/1407634805/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim_Ingredients_Reference_32_v1-37953-1-0.7z?fid=1000037260&ttl=1535817994&ri=8192&rs=8192&setec=2a44137cbcc7f84f8dc2552a8b4ff2a3"
+    }
+  ]
+}

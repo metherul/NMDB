@@ -1,0 +1,32 @@
+{
+  "modId": 29186.0,
+  "modName": "Breton Magic Resistance Fix",
+  "summary": "A fix for Breton&#39;s to match the in-game description and to match previous Elder Scrolls titles.",
+  "descriptionHtml": "On the in game loading screens it says that Breton&#39;s boast a 50% resistance to magic (NOTE: With Dragonborn installed this is not the case, the loading screen has been fixed to say 25%). In all previous Elder Scrolls titles (except possibly Arena, not sure on that one), Breton&#39;s have also had this 50%. But for some reason, in Skyrim, they have only 25%. So, I made a fix.\r<br />\r<br />This is my first mod and I hope you find it useful. All I&#39;ve done is change the Breton Race&#39;s magic resistance from 25% to 50% as it should be.\r<br />\r<br />Compatibility:\r<br />Should be compatible with any mod that doesn&#39;t effect the Breton Race. To be safe, place as far down on your load order as you can.\r<br />\r<br />A note on overhauls:\r<br />Many overhaul mods (such as SkyRe, Requiem, ERSO, etc.) alter race attributes. This mod, if placed below those in your load order, will overwrite what those mods do to the race and will thus be vanilla, have vanilla powers and skills with the changed magic resistance. If you place those mods below mine in the load order, those mods will overwrite mine and thus my mod will do nothing. That said, I do not recommend using this in conjunction with those mods, though it MUST be placed lower in the load order for it to have any effect. If there are requests, I may make compatible versions (as I use various overhauls for different playthroughs myself).\r<br />\r<br />Installation:\r<br />Simple, just download and extract the .esp to your data folder and check the .esp under Data Files in the game launcher or use NMM.",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Jafin16",
+  "createdUnix": "1356949966",
+  "updatedUnix": "1360663937",
+  "containsAdultContent": false,
+  "uploadedBy": "Jafin16",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000009190",
+      "name": "Breton Magic Resist v1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Breton Magic Resist v1BETA-29186-1-0BETA.rar",
+      "uploadedUnix": "1360663937",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/61c2fd06a247a09c3987f5166aabf00927f3fa91833b7b422d5a39e2cfc0d7e3/analysis/1407412743/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Breton%20Magic%20Resist%20v1BETA-29186-1-0BETA.rar?fid=1000009190&ttl=1535803092&ri=8192&rs=8192&setec=ae621a5cc1c17f179e063aa8fc89c133"
+    }
+  ]
+}

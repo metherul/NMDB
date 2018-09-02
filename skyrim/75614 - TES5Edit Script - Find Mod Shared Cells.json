@@ -1,0 +1,32 @@
+{
+  "modId": 75614.0,
+  "modName": "TES5Edit Script - Find Mod Shared Cells",
+  "summary": "Compiles list of shared cells between files, and outputs it to the log and a &#34;SharedCells.txt&#34; file next to your xEdit executable.",
+  "descriptionHtml": "[b]Description:\r<br />[/b]Compiles list of shared cells between files, and outputs it to the log and a &#34;SharedCells.txt&#34; file next to your TES5Edit executable.\r<br />\r<br />[b]Installation: [/b]\r<br />Simply move the &#34;SharedCells.pas&#34; file into the &#34;Edit Scripts&#34; folder in your TES5Edit directory.\r<br />\r<br />[b]Pre-Req:[/b]\r<br />This file MUST be in your &#34;Edit Scripts&#34; folder, and you must have loaded Skyrim.esm into TES5Edit (Skyrim.esm is automatically loaded with anything that has it as a Master)\r<br />\r<br />[b]Running:\r<br />[/b]Choose one of the below:\r<br />[list=1]\r<br />[*]Use the Hotkey &#34;Alt+C&#34; (&#34;C&#34; for &#34;Cell&#34;&#33;)\r<br />\r<br />[*]Right-Click anything, select &#34;Apply Script&#34;, then select &#34;SharedCells&#34; in the drop-down.  Press &#34;OK&#34;.\r<br />\r<br />[/list]\r<br />[b]Details:[/b]\r<br />Allows you to pick any of your loaded files, and then compiles a list of cells per each collided mod, organized by mod and Worldspace.\r<br />It then outputs this to a textfile, as well as printing this to the log.\r<br />\r<br />[b]To-Do:[/b]\r<br />If someone wants me to expand on this or has an idea to make it better, I&#39;m willing to work on that.\r<br />I may add a GUI to better view results if a couple people would find that helpful.\r<br />\r<br />\r<br />Feel free to redistribute.  No permission or credit needed.",
+  "categoryId": "39",
+  "version": "1.0.0",
+  "author": "BobTheLawyer",
+  "createdUnix": "1463203773",
+  "updatedUnix": "1463203583",
+  "containsAdultContent": false,
+  "uploadedBy": "TheRealBobTheLawyer",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000206409",
+      "name": "Shared Cells",
+      "version": "1.0.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Shared Cells-75614-1-0-0.zip",
+      "uploadedUnix": "1463203583",
+      "modVersion": "1.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1d16cd2af13dc2a6f332859662a41c3568b8013581e85462b648e0ce42044a7a/analysis/1463203624/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Shared%20Cells-75614-1-0-0.zip?fid=1000206409&ttl=1535864369&ri=8192&rs=8192&setec=8999634385530536c37cda260203cada"
+    }
+  ]
+}

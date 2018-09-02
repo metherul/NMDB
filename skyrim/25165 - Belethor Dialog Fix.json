@@ -1,0 +1,32 @@
+{
+  "modId": 25165.0,
+  "modName": "Belethor Dialog Fix",
+  "summary": "Sets some of Belethor\\'s \\'Hello\\' lines to be played in random order, rather than\r\nsequentially.",
+  "descriptionHtml": "Sets some of Belethor\\'s \\'Hello\\' lines to be played in random order, rather than\r\nsequentially.\r\n\r\nBy default he typically only gets the chance to speak his \\\"Everything\\'s for sale\r\nmy friend\\\" line upon initiating conversation, and cycles lines upon consecutive\r\nconversations. Unfortunately, the state of this greeting cycle resets rather\r\nfrequently, so you normally don\\'t get to hear his full repertoire of sleezy\r\ngreetings.\r\n\r\nBy marking these lines as \\'Random\\', they\\'ll be played in random order: the next\r\ntime you visit Whiterun\\'s general merchant, he might be a bit more humble (or\r\neven read your mind).\r\n\r\nNot a perfect solution, as with priority of his personal lines set to the\r\ndefault 70, he still speaks some generic hellos (pr. 30). This mod could\r\nprobably be improved by increasing his greetings\\' priority to 100.\r\n",
+  "categoryId": "95",
+  "version": "1",
+  "author": "me",
+  "createdUnix": "1349637980",
+  "updatedUnix": "1349638024",
+  "containsAdultContent": false,
+  "uploadedBy": "backtrace",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "92623",
+      "name": "Belethor Dialog Fix",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Belethor Dialog Fix-25165-1.zip",
+      "uploadedUnix": "1349638024",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/c7dc6f58e2f8ee8cb94bf47e6b91cc46e0dd69726da85ff2ee63232102c37531/analysis/1407208773/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Belethor%20Dialog%20Fix-25165-1.zip?fid=92623&ttl=1535796558&ri=8192&rs=8192&setec=2128fd4cbc9a28a723d152709ca33105"
+    }
+  ]
+}

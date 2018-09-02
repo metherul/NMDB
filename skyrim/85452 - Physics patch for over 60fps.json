@@ -1,0 +1,32 @@
+{
+  "modId": 85452.0,
+  "modName": "Physics patch for over 60fps",
+  "summary": "Sets the physics timing for Havok, from 60fps all the way to 240fps.",
+  "descriptionHtml": "HIGHLY EXPERIMENTAL, and yes, I disabled in-game V-Sync, use V-Sync supplied by your GPU&#39;s control panel or just use an FPS cap (listed below)\r<br />\r<br />AMD: Crimson software&gt;Gaming&gt;Global Settings&gt;Wait for Vertical Refresh\r<br />NVIDIA: NVIDIA Control Panel&gt;Manage 3D Settings&gt;Global Settings&gt;Vertical Sync&gt;On\r<br />INTEL: Why are you here? You can&#39;t even play at 30.\r<br />\r<br />v1.1 Released, it actually works now, fixed a few copy/paste errors, please redownload.\r<br />\r<br />FPS Limiter mod here: http://www.nexusmods.com/skyrim/mods/34/? (In-case you don&#39;t like V-Sync)\r<br />\r<br />This is a patch I found using a simple Google search sets the &#39;fMaxTime&#39; value in &#39;Skyrim.ini&#39; and fixes the physics going crazy, no guarantees, but worth a shot.\r<br />\r<br />Has 6 options/files to apply\r<br />\r<br />30fps\r<br />75fps\r<br />90fps\r<br />120fps\r<br />144fps\r<br />240fps\r<br />\r<br />My patch uses a blank .esp file to load an .ini of the same name, patch can be manually applied to your Skyrim.ini if you&#39;re pushing that 255 .esp limit, if so follow the source link at the bottom.\r<br />\r<br />And if you applied it manually, to restore it just delete the line added or copy/paste this:\r<br />\r<br />fMaxTime=0.0166\r<br />\r<br />Source: https://www.reddit.com/r/skyrimmods/comments/5aao95/possible_fix_to_allow_skyrim_to_run_on_120fps/",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "SkywithanI",
+  "createdUnix": "1500577965",
+  "updatedUnix": "1500578716",
+  "containsAdultContent": false,
+  "uploadedBy": "SkywithanI",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000249889",
+      "name": "Havok Timing Patch",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Havok Timing Patch-85452-1-1.zip",
+      "uploadedUnix": "1500578716",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7c2ff8cf27901961b51100ad687dd46fad18b1bc81b252318e078a4960f9030e/analysis/1500578943/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Havok%20Timing%20Patch-85452-1-1.zip?fid=1000249889&ttl=1535874280&ri=8192&rs=8192&setec=e7027eeb47dbd5e6f0681a1409f8e7ae"
+    }
+  ]
+}

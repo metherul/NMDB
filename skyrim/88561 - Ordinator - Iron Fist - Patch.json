@@ -1,0 +1,32 @@
+{
+  "modId": 88561.0,
+  "modName": "Ordinator - Iron Fist - Patch",
+  "summary": "A small mod that causes Ordinator&#39;s iron fist perk to only require the right hand to be empty. Now you can hold a shield, a spell or whatever else in your left hand and still have the perk work.",
+  "descriptionHtml": "I was trying to find a way to have the ability to block without giving up the iron fist perk in Ordinator and this is what I came up with.\r<br />\r<br />Simply put, the iron fist perk checks if the right and left hand are empty and doesn&#39;t apply unless both conditions are met. I changed the left hand condition so it is always true using TES5Edit and kept the right hand condition the same. This comes with a few quirks such as:\r<br />[list]\r<br />[*]Bashing with a shield and an empty hand is now a lot stronger\r<br />[*]Using a 1-hand weapon in your left hand and nothing else allows can allow you to keep the damage bonus\r<br />[/list]\r<br />[u]Requirements[/u]\r<br />\r<br />[url=https://rd.nexusmods.com/skyrim/mods/68425]Just Ordinator, but that should have been obvious.[/url]\r<br />Recommended\r<br />\r<br />[url=https://rd.nexusmods.com/skyrim/mods/27627]Gauntlet Armor - Unarmed Blocking[/url]\r<br />[url=https://rd.nexusmods.com/skyrim/mods/78257]Fortified blocking guantlets[/url]\r<br />[url=https://rd.nexusmods.com/skyrim/mods/74327]Unarmed attack variation and blocking[/url] this mod provides a nicer way of dealing with unarmed blocking, but doesn&#39;t allow anything in the left hand.",
+  "categoryId": "84",
+  "version": "",
+  "author": "orklando",
+  "createdUnix": "1514144002",
+  "updatedUnix": "1514144002",
+  "containsAdultContent": false,
+  "uploadedBy": "orklando",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000262603",
+      "name": "Iron Fist Tweak",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Iron Fist Tweak-88561-.rar",
+      "uploadedUnix": "1514143998",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/67a83cd8cdf6c19996cdaabac65dd5f6284da753ff55fbf095394f8cc8fc9333/analysis/1514144222/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Iron%20Fist%20Tweak-88561-.rar?fid=1000262603&ttl=1535877816&ri=8192&rs=8192&setec=5f95a21afadaad2bab276aee0c21d844"
+    }
+  ]
+}

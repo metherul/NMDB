@@ -1,0 +1,32 @@
+{
+  "modId": 27738.0,
+  "modName": "Lonely Nirn - experiments in player AI takeover and auto-pathing",
+  "summary": "A small EXPERIMENTAL mod which allows the AI to take over the player and route him to any of the major cities using AI pathing. Which can be... interesting. For sightseers and modders who wish to experiment. Requires SKSE.",
+  "descriptionHtml": "[color=red][b]REQUIRES A WORKING SKSE INSTALL[/b][/color]\r<br />\r<br />For players unafraid of oddities - note this is more intended to be a modder&#39;s thing. This mod is also quite useless, but somewhat amusing. If you run into trouble or if your controls stop responding, open the console and type &#34;stopquest autotravelquest&#34;.\r<br />\r<br />[color=yellow][b]PLAYER INFO[/b][/color]\r<br />Adds a book left by a traveler on the bridge by the 4-way crossroads near Whiterun. See the screenshots for details. This book (which real-world travelers may find familiar and thoroughly lore-destroying) will allow you to select a destination. When you do, the game AI will take over and attempt to route you there, allowing you to just sit back and look around. However, there is nothing to stop enemies from targeting you. Pressing WASD or most other keys will &#34;break the spell&#34; and return control to you (you can, however, open the map and close it)\r<br />\r<br />May, despite my best efforts, cause save game bloating, outbreaks of pestilence, and the end of the world by zombies so use with caution. Also note that the game AI pathing, despite its occasional brilliance, gets confused quite often, attempting to route you through rocks, or do a little stepping-dance on mild slopes, or just bounces back and forth for a bit. If you let it run, it usually sorts itself out. The AI does prefer roads so will attempt to guide you to one and from there to your final destination. All in all, it works and if you&#39;re not interrupted by ravenous packs of wolves or grumpy bears can be quite soothing to watch. The player CAN get stuck - especially if you&#39;re in uncharted territory. The AI also doesn&#39;t know what to do if you&#39;re off the navmesh entirely - you&#39;ll just stand there. You&#39;ll have to override by keypress and try again somewhere else if that happens.\r<br />\r<br />When you first find the book and open it, select &#34;don&#39;t travel&#34; from the menu, then you can take it with you with the E key (you can also immediately select a destination but then you will leave the book behind). From then on, you can open it from your inventory, select a destination, and off you go at a brisk run towards your chosen destination. Sit back, drink some coffee, enjoy the scenery. The game checks for a keypress every 0.2 seconds so if it doesn&#39;t return control immediately mash your keyboard some more, or order a mashing wand.\r<br />\r<br />Will not work on horseback - oddly enough I can route the player, I can route the horse, but I can&#39;t route the player on the horse. Go figure. \r<br />\r<br />[color=yellow][b]MODDER INFO:[/b][/color]\r<br />I was mostly interested in getting the player to run AI packages. Why? Why not I&#39;d say. It&#39;s funny. Cutscenes, possession, sandboxing, there are a number of interesting possibilities. The mods adds a hidden quest autotravelquest which does two things: when it starts (stage 10) it sets game.setplayerAIdriven() and adds a find/travel package and script to a player alias. The script running on the book enables a xmarkerheading and triggerbox when you pick a city. The find procedure finds the marker (since it&#39;s the only one enabled in Skyrim), the travel procedure routes the player to it. On arrival entering the triggerbox stops the AI driven behavior and the quest (stage 200), then disables the marker and triggerbox so the player can choose a new destination from the book. It also monitors for keypresses during travel and stops the quest & AI behavior & disables the markers when a key is pressed. Sources are included (but you really only need to look at the quest), and all resources in the CK start with &#34;autotravel&#34;. If you do something cool with it let me know.",
+  "categoryId": "24",
+  "version": "3.1415",
+  "author": "Acid Zebra",
+  "createdUnix": "1354496240",
+  "updatedUnix": "1354496822",
+  "containsAdultContent": false,
+  "uploadedBy": "acidzebra",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "102884",
+      "name": "Autotravel",
+      "version": "3.1415",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "436",
+      "fileName": "Autotravel-27738-3-1415.rar",
+      "uploadedUnix": "1354496822",
+      "modVersion": "3.1415",
+      "virusScanUrl": "https://www.virustotal.com/file/64bd57e18005a0fd3f08c4c68885f20c75e0424c3666cbe9f15f1f1684368a5a/analysis/1407289323/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Autotravel-27738-3-1415.rar?fid=102884&ttl=1535800661&ri=8192&rs=8192&setec=da52e563069ed9e96ab2ddc261d3f612"
+    }
+  ]
+}

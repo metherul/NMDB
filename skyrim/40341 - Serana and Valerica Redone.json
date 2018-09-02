@@ -1,0 +1,32 @@
+{
+  "modId": 40341.0,
+  "modName": "Serana and Valerica Redone",
+  "summary": "Just changes the appearance of Serana and Valerica.",
+  "descriptionHtml": "[color=#5ea2e5][b][size=6]Description:[/size][/b][/color]\r\nJust changes the appearance of Serana and Valerica. See the screenshots. Not much else to say really.\r\n\r\nIf you want the same exact textures as me, I\\'m using my [url=http://skyrim.nexusmods.com/mods/39301/?]CBBE Innies[/url] mod, you\\'ll need the optional vampire face textures file too. And as for the eyes, the exact texture you can get in my [url=http://skyrim.nexusmods.com/mods/39568]VTF Vamp Innies[/url] mod, just download manually and only do the eye mesh and texture. If you don\\'t want either of those though, then don\\'t mess with any of that. It should look fine whatever texture pack you\\'re using.\r\n\r\nIf you have a grey face bug it\\'s probably because you changed how the NPC\\'s look after their appearance was stored in your save game. You\\'ll have to open console, click Serana and do \\\"setnpcweight 50\\\" and on Valerica \\\"setnpcweight 100\\\" then save and reload and they should be fixed. On a new save you shouldn\\'t encounter that kind of problem.\r\n\r\nIf her lips look funny or makeup looks off then chances are it\\'s because the Unofficial Dawnguard Patch breaks vampire faces a bit (though they won\\'t admit it). If you set UDGP to Active with the CK then click Details then find NordRaceVampire and hit your Delete key to set it to IGNORE then load it, then save, then the problem should go away. The problem also happens to the player as well. You\\'ll probably have to set their weight again afterwords.\r\n\r\nLoad this esp after any mod that might possibly change their appearance.\r\n\r\n[color=#5ea2e5][b][size=6]REQUIREMENTS:[/size][/b][/color]\r\n[url=http://skyrim.nexusmods.com/mods/10168]ApachiiSkyHair[/url] - You will need both ApachiiHair.esm & ApachiiHairFemales.esm.\r\n\r\n[b][size=5]Mods used in screenshots:[/size][/b]\r\n[url=http://skyrim.nexusmods.com/mods/35303]Female Facial Animation[/url]\r\n[url=http://skyrim.nexusmods.com/mods/34346]Smile in HD[/url]\r\n[url=http://skyrim.nexusmods.com/mods/38829]BVFE - Better Vampire Fangs and Eyes[/url] (fangs only)\r\n[url=http://skyrim.nexusmods.com/mods/3654]Killer Keos Skimpy CBBE V2-V3 Armor Replacer[/url] - Skimpy Vampire Armors\r\n[url=http://skyrim.nexusmods.com/mods/39301]CBBE Innies[/url] + optional vampire face textures\r\n[url=http://skyrim.nexusmods.com/mods/39568]VTF Vamp CBBE Innies[/url] - optional eye mesh and textures only - manually install just those",
+  "categoryId": "33",
+  "version": "1.0",
+  "author": "XunAmarox",
+  "createdUnix": "1376529672",
+  "updatedUnix": "1376529615",
+  "containsAdultContent": false,
+  "uploadedBy": "XunAmarox",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000047027",
+      "name": "Serana and Valerica Redone",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "Serana and Valerica Redone-40341-1-0.7z",
+      "uploadedUnix": "1376529615",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f6724e8b26c786379093e7e16bb5391058b57d0024569a7cf89e617e25a44e31/analysis/1407682458/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Serana%20and%20Valerica%20Redone-40341-1-0.7z?fid=1000047027&ttl=1535820933&ri=8192&rs=8192&setec=4bf5a766aa2b0162e4a931bd35e6965c"
+    }
+  ]
+}

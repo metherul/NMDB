@@ -1,0 +1,48 @@
+{
+  "modId": 56369.0,
+  "modName": "Female Weapon Scale Fix",
+  "summary": "Small mod to cover-up the Down-scale of size when a female draws a weapon.",
+  "descriptionHtml": "= INFORMATION =\r<br />It&#39;s been driving me nuts that my female character&#39;s great sword shrinks when she draws it, and grows when she puts it on her back. So here is a small mod to cover-up that up (or make it less obvious, at least), for anyone else who is annoyed by this.\r<br />\r<br />I tried to adjust the drawn weapon to be exactly the same as the sheathed version. However, i have no clue what the actual scale value is. So it&#39;s a ball-park, and i suck at judging this stuff........... So if you think it needs to be adjusted comment/message me, yeah? Right now it is sitting at 1.18x it&#39;s normal drawn size for 2-handed weapons, and 1.25x for one-handed.\r<br />\r<br />- Works for all weapons.\r<br />\r<br />- This mod is still new and in beta, so let me know if you run into any problems. I greatly appreciate bug reports, or even just constructive criticism.\r<br />\r<br />- Don&#39;t forget to endorse if you like it ^^\r<br />\r<br />\r<br />\r<br />= REQUIREMENTS =\r<br />- SKSE 1.6+\r<br />\r<br />\r<br />= UPDATE LOG =\r<br /> 0.1b - Initial Release. Only affects 2-hand melee weapons\r<br /> 0.2b - Now works for the above, as well as bows and one-handed melee weapons (both left and right).\r<br />\r<br />\r<br />\r<br />= INSTALL =\r<br />- Download and extract to your skyrim folder.\r<br />\r<br />\r<br />= UPDATE =\r<br />- Just over-write the existing install, that&#39;s it.\r<br />\r<br />\r<br />\r<br />= FUTURE =\r<br />- Alternate version to downscale weapon on back to match drawn size.\r<br />- Alternate version to affect all female NPCs.\r<br />- User suggestions welcome.\r<br />\r<br />\r<br />\r<br />= KNOWN ISSUES =\r<br />- May not work the first time you load. Save your game, reload, and you should be okay. (Trying to find a work around.)",
+  "categoryId": "95",
+  "version": "0.2b",
+  "author": "antcryst",
+  "createdUnix": "1406365418",
+  "updatedUnix": "1406506063",
+  "containsAdultContent": false,
+  "uploadedBy": "antcryst",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000119319",
+      "name": "Female Weapon Scale Fix",
+      "version": "0.1.1b",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Female Weapon Scale Fix-56369-0-1-1b.7z",
+      "uploadedUnix": "1406367048",
+      "modVersion": "0.1.1b",
+      "virusScanUrl": "https://www.virustotal.com/file/007cf57c2de13be8ddacc8111798074ba44f729bf55d25bcda519b0fd8fd5256/analysis/1406367079/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Female%20Weapon%20Scale%20Fix-56369-0-1-1b.7z?fid=1000119319&ttl=1535841681&ri=8192&rs=8192&setec=d53b911f63938e2a55b52d10df8fc7a2"
+    },
+    {
+      "fileId": "1000119605",
+      "name": "Female Weapon Scale Fix",
+      "version": "0.2b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Female Weapon Scale Fix-56369-0-2b.7z",
+      "uploadedUnix": "1406506063",
+      "modVersion": "0.2b",
+      "virusScanUrl": "https://www.virustotal.com/file/12cf8967048bd0bd331b2ed3335ca91e33342b7d66c4bd779c100386ac947c02/analysis/1406506102/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Female%20Weapon%20Scale%20Fix-56369-0-2b.7z?fid=1000119605&ttl=1535841682&ri=8192&rs=8192&setec=eb16bbb246969a046583472aea9e2652"
+    }
+  ]
+}

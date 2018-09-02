@@ -1,0 +1,48 @@
+{
+  "modId": 12765.0,
+  "modName": "V2B AVAIL TOMORROW eN0x COMPILE HDR bloom ENB with FXAAInj",
+  "summary": "HIGHEST FPS and MOST BEAUTIFUL HDR ENB FXAAINJ using SKSE and SSAO fast mode AVAILABLE..\r\n\r\n",
+  "descriptionHtml": "WARNING\r\n\r\nSYSTEM REQUIREMENTS - 4gb+ ram, 2.4ghx Q4 proc, 1+gb ddr5 VRAM\r\n\r\nIF YOU DONT HAVE THOSE DONT USE THIS..\r\n==================================================================================================================================================================================\r\n\r\nMake your Skyrim look the way it was supposed to using these beautiful mods COMPILED together by team eN0x - HDR bloom combined with True Immersion lighting and ENB vignette true eye DOF combined to being you pastel colors and a surreal texture appearance.\r\n\r\nThis is a highly graphic intensive mod so please be certain you have a machine capable of running HIGH/ULTRA level graphics\r\n\r\nDIRECTIONS FOR AA and AF after INSTALL! - TURN off all AA and AF in the OPTION of SKYRIM LAUNCHER! the scripting for those filters is much too long and meant for a console system.. and doenst take advantage of the capabilities of your PC..\r\n\r\nfor ATI users, open up Control Center and turn the AF to 8-16X (depending on system perf) \r\nturn up MIPMAP all the way, and turn off AA in this program as well\r\n\r\nFOR NVIDIA users, open up your GFX card control and set it to similar settings as above..\r\n\r\nyou an also create a save preference file and save it to the TESV.exe\r\n\r\nopen you SKYRIM folder in the programs folder, and launch FXAAinj.exe - edit the AA options to your preferences, this is also where you can edit the BLOOM amount in the game as well, Experiment with the slider until you find a setting you dig in game! \r\n\r\nwith these settings, your GFX proc will be able to handle AA and AF much more easily.. im running 16x on both with this set up and it looks AMAZING - I\\'m pulling roughly 25-32fps on ONE ATI card @ 1gbddr5 vram w/ a AMD Q4 @ 2.2ghx... THIS IS UNHEARD OF AT THESE SPECS..\r\n\r\n==================================================================================================================================================================================\r\n\r\nUSE WITH SKSE for higher FPS \r\n\r\nWARNING TO ALL USERS ATTEMPTING TO USE THIS MOD! BE AWARE TO MAKE BACKUPS OF YOUR SKYRIM.ini and skyrimpref.ini BEFORE INSTALLING THIS MOD.. if you dont you run the risk of not being able to revert back to a working version of skyrim.. if you encounter any issues.. not to worry i have provided a stock ini in the d/l section\r\n\r\n**************************************************************************************************************************************\r\n**************************************************************************************************************************************\r\n\r\n- Revert to your stable uGrids to load\r\n1.\tBackup SkyrimPrefs.ini, Skyrim.ini and your Skyrim \\'Saves\\' folder.\r\n2.\tRight click on Skyrim.ini in My Documents My Games Skyrim and uncheck \\\"Read Only\\\" in the file\\'s properties.\r\n3.\tLoad your last save game.\r\n4.\tPress tilde on your keyboard, most commonly placed directly to the left of \\\"1.\\\" If it is elsewhere, the keyboard symbol should be ` or \\\". If all else fails hit every key on the keyboard until a large, semi-transparent overlay appears on the bottom half of the screen.\r\n5.\tIn the now-visible in-game console type setini \\\"ugridstoload:general\\\" 5\r\n6.\tHit Return on your keyboard.\r\n7.\tType saveini\r\n8.\tHit Return on your keyboard.\r\n9.\tType refreshini\r\n10.\tHit Return on your keyboard.\r\n11.\tClose the console using tilde.\r\n12.\tCreate a new save game.\r\n13.\tExit Skyrim.\r\n14.\tDelete Skyrim.ini in My Documents\\\\My Games\\\\Skyrim.\r\n15.\tReload the Skyrim configuration tool.\r\n16.\tClose the tool.\r\n17.\tRe-tweak Skyrim.ini if necessary (and SkyrimPrefs.ini if it has since been modified).\r\n18.\tReload Skyrim and your most recent save.\r\n\r\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\r\n\r\nREAD THE README TO INSTALL\r\n\r\nMANY graphic files, dont touch them you may make your game very unstable if you do..\r\n\r\nspent many hours modifying and putting together these mods to make sure they were stable..\r\n\r\nif you have any problems please COMMENT\r\n\r\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\r\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\r\n\r\nHUGE CREDIT TO THESE AUTHORS! THANK YOU FOR THESE MODS - I JUST ORGANIZED AND EDITED THEM IN A WAY SO THEY COULD ALL WORK FLAWLESSLY TOGETHER!\r\n\r\nENB - Boris\r\nhttp://enbdev.com/index_en.html\r\n\r\nHdr enhanced shaders - topioks \r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=822\r\n\r\nFXAA tool - somedude \r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=131\r\n\r\nRealistic Lighting - Plutoman101 \r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=7654\r\n\r\nALL CREDIT GOES TO THERE CREATIVITY! PLEASE REDISTRIBUTE THIS MOD FOR FREE!\r\n\r\n\r\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\r\n\r\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\r\n",
+  "categoryId": "62",
+  "version": "1.0a",
+  "author": "eN0x",
+  "createdUnix": "1331585558",
+  "updatedUnix": "1331752278",
+  "containsAdultContent": false,
+  "uploadedBy": "EquinoxAlkemist",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "42781",
+      "name": "Default INI",
+      "version": "",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Default INI-12765.rar",
+      "uploadedUnix": "1331595142",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/f0b18fa59395904fa11c141b9cb367e95f0730265e88cae0b8bfc03f1c15a996/analysis/1406745925/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Default%20INI-12765.rar?fid=42781&ttl=1535774940&ri=8192&rs=8192&setec=2050da33955b49c15b23a4f1dd375fb8"
+    },
+    {
+      "fileId": "43326",
+      "name": "eN0xHDRenbFXinj",
+      "version": "1.0a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2230",
+      "fileName": "eN0xHDRenbFXinj-12765-1-0a.rar",
+      "uploadedUnix": "1331752278",
+      "modVersion": "1.0a",
+      "virusScanUrl": "https://www.virustotal.com/file/779f04ca4c59bee8e47f132ecd7aaa69ce28cc49a2bcb1394742bd34d440deef/analysis/1406749088/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/eN0xHDRenbFXinj-12765-1-0a.rar?fid=43326&ttl=1535774940&ri=8192&rs=8192&setec=d8d25b0187ad6a3aaeee6fae4dc361c7"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 27353.0,
+  "modName": "Dynamic Spells",
+  "summary": "All your spells are as stronger as you. Spells magnitudes increase dymamicly with your skills and never raise unbalanced strongest values. It does not affect spells from Dawnguard and other mods.",
+  "descriptionHtml": "All your spells are as stronger as you. Spells magnitudes increase dymamicly with your skills and never raise unbalanced strongest values. It does not affect spells from Dawnguard and other mods. Some spell durations are still like vanilla, I mean all mind control spells from illusion and restoration, also invisibility, muffle and paralyze.\r\n\r\n[b]=== DETAILS ===[/b]\r\n\r\nAll modifications are calculate like this :\r\nNewValue = OldValue * ( 1 + MagicSkillLevel / 100 )\r\nIn way to balance the high level spell magnitudes, this rule is respect :\r\nApprentice spells are like vanilla at level 25, Adept spells at level 50, and Expert spells at level 75.\r\nAll the master spells are still like vanilla\r\nThe spell durations are from normal value (usualy 60 sec for all spells, and120 sec for bound weapons) to the double at the maximum skill level (120 sec and 240 sec). Their is an alteration and a conjuration perk which respectively increase the flesh spells and summons durations, they work with the spell modifications.\r\n\r\n[u]Alteration Modifications :[/u]\r\nFlesh spells magnitude and durations\r\nLights durations\r\n(Paralyze, MassParalysis and Equilibrium are still like vanilla)\r\nDragonhide duration\r\n\r\n[u]Conjuration Modifications :[/u]\r\nBound Weapon damages and durations\r\nReanimate magnitudes and durations\r\nConjuration durations\r\nSoul Trap duration\r\n(All Thrall spells are still like vanilla)\r\n\r\n[u]Destruction Modifications :[/u]\r\nAll spell damages\r\n\r\n[u]Illusion Modifications :[/u]\r\nMind control magnitudes (not duration.)\r\n(Invisibility, Clairvoyance and muffle still like vanilla)\r\n\r\n[u]Restoration Modifications :[/u]\r\nHealing magnitudes\r\nWard magnitudes\r\nRepel Undead magnitudes\r\nTurn Undead magnitudes\r\nBane of the Undead targeting level (not damages)\r\nGuardian Circle targeting level (not healing)\r\n\r\n[b]=== REQUIREMENT ===[/b]\r\nNothing\r\n\r\n[b]=== COMPATIBILITY ===[/b]\r\nDoes not change any game object, so it is compatible with all other mods.\r\nJust be care to do not have an other mod which do a similar changement.\r\n\r\n[b]=== KNOWN ERROR ===[/b]\r\nFor the spells Fire Cloak, Lightning Cloak and Frost Cloak, the text do not display the good magnitude value but allways 8. The right values are from 7(at level 10) to 13 (at level 100.) \r\nIt\\'s due to an error in the vanilla spell text description, the next update will reright this text.\r\n\r\n[b]=== SEE ALSO ===[/b]\r\n[url=http://steamcommunity.com/sharedfiles/filedetails/?id=105424370]Autodidact Wizard[/url]",
+  "categoryId": "93",
+  "version": "1.1",
+  "author": "Concrete Traveler",
+  "createdUnix": "1353768840",
+  "updatedUnix": "1356879737",
+  "containsAdultContent": false,
+  "uploadedBy": "ConcreteTraveler",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "101389",
+      "name": "Dynamic Spell Old",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Dynamic Spell-27353-1-0.7z",
+      "uploadedUnix": "1353769077",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5f8bebd6eb71733ec6e8ea299e4c0883834fb811d6dae96e6988f911a7ce0d3c/analysis/1407275763/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dynamic%20Spell-27353-1-0.7z?fid=101389&ttl=1535800008&ri=8192&rs=8192&setec=275a19ed36fa8b1c84b746b212fadd87"
+    },
+    {
+      "fileId": "108490",
+      "name": "Dynamic Spells",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Dynamic Spells-27353-1-1.zip",
+      "uploadedUnix": "1356879737",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/94fc8fb8939233f6755b3c596e37ddfe815f8e233e833c53ef1026376c97894c/analysis/1407329225/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dynamic%20Spells-27353-1-1.zip?fid=108490&ttl=1535800009&ri=8192&rs=8192&setec=869d6e6576254d9b5f5fcaf34528bd05"
+    }
+  ]
+}

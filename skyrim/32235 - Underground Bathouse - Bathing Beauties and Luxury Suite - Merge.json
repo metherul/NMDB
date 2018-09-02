@@ -1,0 +1,48 @@
+{
+  "modId": 32235.0,
+  "modName": "Underground Bathouse - Bathing Beauties and Luxury Suite - Merge",
+  "summary": "This will merge the Underground Bathhouse - Standalone entrance into the Bathing Beauties and Luxury Suite",
+  "descriptionHtml": "Game: Skyrim\r<br />Mod Name: Underground Bathhouse - (Classier) Bathing Beauties and Luxury Suite Merge\r<br />Author: Andragon\r<br />Version: 1.0\r<br />\r<br />[color=#ff0000][size=5]This mod is outdated and should not be used anylonger.[/size][/color]\r<br />\r<br />\r<br />[color=red][b]VERY IMPORTANT[/b][/color]\r<br />\r<br />[color=yellow][b]This will NOT run with version 5.0 of the Underground Bathhouse[/b][/color]\r<br />\r<br />[color=yellow][b]This mod is no longer worked on as I only work on the stanalone version of the Underground Bathhouse[/b][/color]\r<br />\r<br />\r<br />[color=red][b]IMPORTANT:[/b]\r<br />Load order matters on this file. It must come after all BBLS files and before all UB files especially the cell files or you might have a navmesh\r<br />issue in the BBLS or missing doors in the Underground Bathhouse.[/color]\r<br />\r<br />[b]Description:[/b]\r<br />This will merge the [url=http://skyrim.nexusmods.com/mods/27361]Underground Bathhouse - Standalone[/url] entrance into the [url=http://skyrim.nexusmods.com/mods/11427]Bathing Beauties and Luxury Suite[/url]. The main door guard now guards the back entrance stairs of the BBLS.\r<br />\r<br />[b]Idea:[/b]\r<br />As the Underground Bathhouse started as an addition to the BBLS people always asked me to further work\r<br />on the BBLS version but as the standalone to much noved away from the original I thought about how to\r<br />put both in the same location once more. So I placed two doors one inside the BBLS and one on the oppposite direction outside. Both are linked to a door wing of the double door in the bathhouse so you can enter from outside and inside. Just think of it as a small staircase in between the BBLS walls ;) that you can enter into from both sides. You might not like the way I did it, so like always, only use it when you like it.\r<br />\r<br />Depending on the success of this, I will decide if I put more interaction between the residents of both suite and the bathhouse, so if you want that, endorse it ;) \r<br />\r<br />\r<br />[b]Changelog:[/b]\r<br />\r<br />ver 1.0\r<br />- initial release\r<br />\r<br />\r<br />[b]Required Files:[/b]\r<br />BBLuxurySuite.esm - [url=http://skyrim.nexusmods.com/mods/11427]http://skyrim.nexusmods.com/mods/11427[/url]\r<br />underground_bathhouse.esm - [url=http://skyrim.nexusmods.com/mods/27361]http://skyrim.nexusmods.com/mods/27361[/url]\r<br />\r<br />[b]Optional files:[/b]\r<br />BBLuxurySuiteClassier.esp - [url=http://skyrim.nexusmods.com/mods/19866]http://skyrim.nexusmods.com/mods/19866[/url] \r<br />(in case you want to run the classier version)\r<br />\r<br />\r<br />[b]Installation:[/b]\r<br />Extract the Contents of the &#34;Data&#34; folder to, your skyrimData directory, (typically, C:ProgramfilesSteamSteamAppscommonskyrimData)\r<br />Insure ub_bbls_merge.esp or ub_bbls_merge_classier.esp, is turned on and the load order is: behind all BBLS files and before all UB_cell files\r<br />or \r<br />Use the NexusModManager to autoinstall. Make sure the load order is: behind all BBLS files and before all UB_cell files\r<br />\r<br />\r<br />[b]Uninstallation:[/b]\r<br />Remove;\r<br />ub_bbls_merge.esp or ub_bbls_merge_classier.esp from the data Data folder or disable the mod in NexusModManager\r<br />\r<br />\r<br />[b]Known Issues:[/b]\r<br />If the load order is not right, npc might not use the indoor entrance or doors might be missing inside the bathhouse if you are using\r<br />additional cell files.\r<br />\r<br />\r<br />[b]Credits:[/b]\r<br />Migal130, for his beautiful original Mod found here: [url=http://skyrim.nexusmods.com/mods/11427]http://skyrim.nexusmods.com/mods/11427[/url]\r<br />RIP88, for his beautiful classier textures found here: [url=http://skyrim.nexusmods.com/mods/19866]http://skyrim.nexusmods.com/mods/19866[/url]\r<br />Bethesda, for another fun game.",
+  "categoryId": "67",
+  "version": "1.0",
+  "author": "Andragon",
+  "createdUnix": "1361606856",
+  "updatedUnix": "1361605808",
+  "containsAdultContent": false,
+  "uploadedBy": "Andragon",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000012337",
+      "name": "UB_bbls_merge_1_0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "53",
+      "fileName": "UB_bbls_merge_1_0-32235-1-0.7z",
+      "uploadedUnix": "1361605765",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f096221d7323af9673f91587c58783cceaff0cf1ae823cd12bc275b909dc107f/analysis/1407434437/",
+      "changelogHtml": " initial release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/UB_bbls_merge_1_0-32235-1-0.7z?fid=1000012337&ttl=1535808369&ri=8192&rs=8192&setec=803787cef49d62712dce5ae27373f627"
+    },
+    {
+      "fileId": "1000012338",
+      "name": "UB_bbls_merge_classier_1_0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "53",
+      "fileName": "UB_bbls_merge_classier_1_0-32235-1-0.7z",
+      "uploadedUnix": "1361605808",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d76af693bef1b8ced2b932c7618ba31dc95864fbd94ba0b76452f111de002e1b/analysis/1407434439/",
+      "changelogHtml": " initial release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/UB_bbls_merge_classier_1_0-32235-1-0.7z?fid=1000012338&ttl=1535808370&ri=8192&rs=8192&setec=8199755bd483a185dc54e2b54f831c10"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 25370.0,
+  "modName": "SkyRealism - Grass",
+  "summary": "Realistic Grass Density for Skyrim.",
+  "descriptionHtml": "[img]http://static-1.nexusmods.com/15/mods/110/images/25370-1-1363658291.png[/img]\r<br />[center][i]Realistic Grass Density for Skyrim[/i][/center][center][color=black][i]by MTichenor[/i][/color][/center]\r<br />\r<br />[center][youtube]Kyi49WDoaB0[/youtube][/center]\r<br />\r<br />[heading]Overview[/heading]Have you ever wondered why grass in Skyrim is thin and sparse, and only in tiny clusters?\r<br />\r<br />I do.\r<br />\r<br />That&#39;s why I made this super simple mod to increase grass density. It uses the exact same method outlined in [url=http://skyrim.nexusmods.com/mods/3288]Lush Grass[/url] by SparrowPrince. I highly recommend downloading Lush Grass for the increased mesh density. I also recommend [url=http://skyrim.nexusmods.com/mods/141]Skyrim Flora Overhaul[/url] by Vurt. Both of those mods were used in the screenshots here, along with my SkyRealism - ENB Evolved Cinematic Preset.\r<br />\r<br />This mod DOES cost you some FPS. On more modern graphics cards (GeForce 500 series and Radeon HD 6000 series) you&#39;ll only notice a 5-10 FPS hit. On older graphics cards, it can be a much higher penalty. If you are experiencing large FPS penalties, you can use a mod which does not increase grass density as much as this mod does (e.g. [url=http://skyrim.nexusmods.com/mods/9185]Glorious Grasses[/url]). Alternatively, you can disable shadows on grass via the Skyrim.ini file.\r<br />\r<br />[heading]Installation[/heading]You&#39;ll need to make sure that your Skyrim.ini file has the following settings under [Grass]:\r<br />[code]bAllowLoadGrass=0\r<br />bAllowCreateGrass=1\r<br />bDrawShaderGrass=1[/code]\r<br />Other than that, simply drop this in your Skyrim Data folder and enable it like any other mod.\r<br />\r<br />[heading]Credits and Thanks[/heading]Thanks to SparrowPrince for outlining how to make this kind of mod, and to Vurt for his amazing grass textures.",
+  "categoryId": "78",
+  "version": "1.0",
+  "author": "MTichenor",
+  "createdUnix": "1350018780",
+  "updatedUnix": "1350018872",
+  "containsAdultContent": false,
+  "uploadedBy": "IndigoNeko",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "93382",
+      "name": "SkyRealism - Grass",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "SkyRealism - Grass-25370-1-0.7z",
+      "uploadedUnix": "1350018872",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5f421f7e762f9be35efb468b9761445ed28579875f0cc38afec4bae99d335450/analysis/1407216842/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyRealism%20-%20Grass-25370-1-0.7z?fid=93382&ttl=1535796835&ri=8192&rs=8192&setec=d605e9f04494279ef9cb581dd5ef89b8"
+    }
+  ]
+}

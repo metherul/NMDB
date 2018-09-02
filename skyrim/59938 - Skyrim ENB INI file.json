@@ -1,0 +1,48 @@
+{
+  "modId": 59938.0,
+  "modName": "Skyrim ENB INI file",
+  "summary": "This file contains ini settings that should be mostly universal for ENB&#39;s, originally it also contained a command line calle &#34;GiveFirstBornToSheson&#34;. I figured out it was just a joke and does absolutely nothing to Skyrim. Sorry.",
+  "descriptionHtml": "Firstly this file contains ini settings that should be mostly universal for ENB&#39;s, namely Springtime ENB because that is what ENB I am using currently\r<br />\r<br />This ini originally contained a new command line that I thought would help to fix crashes &#34;GiveFirstBornToSheson&#34;. This was just a joke, and the members of Nexus were kind enough to point this out to me. Thanks guys&#33;&#33;&#33;&#33;&#33; For anyone who downloaded this before I caught the error, I am deeply sorry for the misinformation. If you did happen to download this INI file with the &#34;GiveFirstBornToSheson&#34; you have nothing to worry about. Since the command does nothing it should not effect your game at all. The article where I originally found this hoax is below. \r<br />\r<br /> http://enbseries.enbdev.com/forum/viewtopic.php?f=13&t=2729\r<br />\r<br />If you do need a fix for the memory blocks getting used up and Skyrim Crashing I think I found a solution on Nexus, the link is below. Be sure to read the mod page for all the information. Again I think this is a fix for the problem, but I could be wrong. \r<br />\r<br />http://www.nexusmods.com/skyrim/mods/50471/?\r<br />\r<br />One last time the new INI file does not contain &#34;GiveGirstBornToSheson&#34; and it should bea universal INI setting for most ENB&#39;s. I am really sorry for the confusion I created.\r<br />\r<br />\r<br />\r<br />V2:\r<br />This is just a small update to the original for those that use grass mods.\r<br />[Grass]bAllowLoadGrass=0 bAllowCreateGrass=1 bDrawShaderGrass=1iMinGrassSize=20",
+  "categoryId": "62",
+  "version": "2.0",
+  "author": "samueladams017",
+  "createdUnix": "1415935757",
+  "updatedUnix": "1420241620",
+  "containsAdultContent": false,
+  "uploadedBy": "samueladams017",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000135739",
+      "name": "SkyrimPrefs.ini",
+      "version": "V2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "SkyrimPrefs.ini-59938-V2.zip",
+      "uploadedUnix": "1416186589",
+      "modVersion": "V2",
+      "virusScanUrl": "https://www.virustotal.com/file/4f8787b7e7d647bf9706487372c6d4e094f72095880a2e09cb1587792a228c8a/analysis/1416186662/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimPrefs.ini-59938-V2.zip?fid=1000135739&ttl=1535847421&ri=8192&rs=8192&setec=ef1473c5427b98204789a0738df3e046"
+    },
+    {
+      "fileId": "1000141114",
+      "name": "SkyrimPrefs.ini V2",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "SkyrimPrefs.ini V2-59938-2-0.zip",
+      "uploadedUnix": "1420241620",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d7c33160134f4a25959cc25a0ee0f238fde668e7ffa4f38e66a7794388aebc45/analysis/1420241641/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimPrefs.ini%20V2-59938-2-0.zip?fid=1000141114&ttl=1535847421&ri=8192&rs=8192&setec=0ea8162cdd0303099c19d212fca5fa24"
+    }
+  ]
+}

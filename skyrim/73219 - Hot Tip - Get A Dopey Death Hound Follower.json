@@ -1,0 +1,32 @@
+{
+  "modId": 73219.0,
+  "modName": "Hot Tip - Get A Dopey Death Hound Follower",
+  "summary": "This is a how-to.  Get a death hound follower that will sandbox like a regular dog. ",
+  "descriptionHtml": "[u]THIS IS NOT A MOD.[/u]\r<br />This is a how-to.  I&#39;ve decided to share some of the silly things I&#39;ve found that can be done to the game.\r<br />\r<br />Today, we&#39;re going to get a dopey death hound follower.  This death hound won&#39;t stand around lifelessly&#33;  It will do all the things regular dogs will do: sandbox, smile, pant, scratch, lie down, sit, and bark.  Best of all, it will do it all in the creepy death hound voice.  Superbly weird&#33; \r<br />\r<br />[u]What you will need:[/u]\r<br />[list]\r<br />[*]SKSE\r<br />[*]SKYUI\r<br />[*]Dawnguard\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/57335/?]Jaxonz Renamer[/url]\r<br />[*]A follower mod with a force-recruition feature; I use [url=http://www.nexusmods.com/skyrim/mods/12933/?]Extensible Follower Framework[/url]\r<br />[/list]\r<br />[u]I recommend:[/u]\r<br />[list]\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/65033/?]Death Hound HD[/url]\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/54045/?]New Death Hound Sounds[/url]\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/60520/?]Sneaky Canines[/url]\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/64021/?]Useful Dogs[/url]\r<br />[/list]\r<br />[u]Steps:[/u]\r<br />[list]\r<br />[*]Launch the game and open the console (usually the ~ key).\r<br />[*]Type: help &#34;cusith&#34;\r<br />[*]Something should come up that starts with the header &#39;NPC.&#39;  It should have a number in parentheses followed by CuSith&#39;s name.  We want the number.\r<br />[*]Type: player.placeatme (the number without parentheses) 1\r<br />[*]Close the console (~ key again).\r<br />[*]CuSith will appear.  Unless you are a Dawnguard vampire, you won&#39;t be able to talk to him.  This is where the follower mod comes in.  Force-recruit him.\r<br />[*]Use Jaxonz Renamer to name CuSith whatever you want. \r<br />[*]Open the console again.  \r<br />[*]Click on your renamed death hound and type: sexchange\r<br />[*]Close the console\r<br />[/list]\r<br />If you&#39;ve done this right, the death hound should start behaving like a normal dog.  Congratulations&#33;  This change is permanent until you use the &#39;sexchange&#39; function on the death hound again.  Repeat the steps above as many times as you like/as your follower mod will allow for more dumb death hounds. \r<br />\r<br />If you liked this tip and want to endorse it, download the dummy file.  It contains the death hound doodle I drew. ",
+  "categoryId": "83",
+  "version": "",
+  "author": "Versispellis",
+  "createdUnix": "1454616833",
+  "updatedUnix": "1454616817",
+  "containsAdultContent": false,
+  "uploadedBy": "Versispellis",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000194172",
+      "name": "Thank",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "41",
+      "fileName": "Thank-73219-.7z",
+      "uploadedUnix": "1454616817",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/d3e909c0fac5adb5345cc663ece012055a9731aa0128919b1c157c218e64b954/analysis/1454616850/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Thank-73219-.7z?fid=1000194172&ttl=1535861876&ri=8192&rs=8192&setec=300206970ed37116eb8dd988fda65a2c"
+    }
+  ]
+}

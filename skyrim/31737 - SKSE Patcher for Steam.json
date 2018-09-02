@@ -1,0 +1,32 @@
+{
+  "modId": 31737.0,
+  "modName": "SKSE Patcher for Steam",
+  "summary": "launches SKSE\\'d Skyrim directly from Steam (i.e. you no longer have to launch via skse_loader.exe or manually hexedit/rename files)",
+  "descriptionHtml": "i hate SKSE a lot, like a LOT a lot, and i will never ever make a mod with it, but i accept that a lot of modders rely on it for their mods, but there\\'s a PROBLEM: it\\'s ridiculous to set up for people who arent very tech savvy, and even more ridiculous to get it working with steam/big picture mode. so i made a really bad and dumb app at work today in my downtime that makes it MARGINALLY more acceptable to install/update/use with steam\r\n\r\nwhat it does:\r\nit lets you patch SKSE so that it is automatically loaded when you start skyrim from steam. you can do this manually but its a ridiculous pain and you have to hexedit and rename files and this just does it for you. also you can \\\"patch\\\" and \\\"unpatch\\\" it and it has some detection stuff in it so you arent writing over files inadvertently\r\n\r\nhow it works (nerd shit):\r\nwhen you click \\\"patch\\\" it does 3 things:\r\n1) renames \\\"TESV.exe\\\" to \\\"TES_.exe\\\"\r\n2) copies \\\"skse_loader.exe\\\" and pastes it with the name \\\"TESV.exe\\\"\r\n3) modifies \\\"TESV.exe\\\" (actually skse!!!) to launch \\\"TES_.exe\\\" (actually skyrim!!) instead of \\\"TESV.exe\\\" (not skyrim anymore, its actually itself now, most people would make an inception joke but i will not)\r\n\r\nand then just launch skyrim through steam and skse will get loaded automatically. you have to already have skse installed btw, this doesnt install it.\r\n\r\nif you install an update to skse or skyrim just click patch again and everything will be set up and patched again\r\n\r\ni [size=6]highly recommend[/size] downloading with NMM because it will drop the patcher in the right folder so then all you have to do is run it",
+  "categoryId": "39",
+  "version": "0.0.1",
+  "author": "n00neimp0rtant",
+  "createdUnix": "1360976850",
+  "updatedUnix": "1360976733",
+  "containsAdultContent": false,
+  "uploadedBy": "n00neimp0rtant",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000010183",
+      "name": "SKSEPatcher",
+      "version": "0.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "14",
+      "fileName": "SKSEPatcher-31737-0-0-1.exe",
+      "uploadedUnix": "1360976733",
+      "modVersion": "0.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/ecb0092dad6baefdcb4fa6ebfe200a8679cd7e76eedcff87f7f22df877bd7650/analysis/1407419704/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SKSEPatcher-31737-0-0-1.exe?fid=1000010183&ttl=1535807505&ri=8192&rs=8192&setec=6a94f01239f1ef679c368966c3ff98c0"
+    }
+  ]
+}

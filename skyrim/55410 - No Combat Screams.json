@@ -1,0 +1,48 @@
+{
+  "modId": 55410.0,
+  "modName": "No Combat Screams",
+  "summary": "Removes player attack screams and grunts.",
+  "descriptionHtml": "This mod removes the annoying screams and grunts [b]player[/b] makes in combat.\r<br />\r<br />[color=#46b6b7]1.0[/color] removes attack screams only.\r<br />[color=#46b6b7]2.0[/color] also removes screams from getting hit.\r<br />\r<br />Neither version removes breathing or any NPC sounds.\r<br />\r<br />[color=yellow][b]How it works[/b][/color]\r<br />\r<br />I added a condition to the related dialog topics which checks if the object is player.\r<br />\r<br />No actual sound files was edited.\r<br />\r<br />[color=yellow][b]Compatibility[/b][/color]\r<br />\r<br />Not compatible with mods that edit the same dialog records. If in doubt, place this mod early in load order and the worst that can happen is hearing attack screams again.\r<br />\r<br />[color=yellow][b]Similar mods[/b][/color]\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/31506/?]Silent Hero[/url] also removes breathing and NPC sounds\r<br />[url=http://www.nexusmods.com/skyrim/mods/1117/?]Smooth blade draw and Sheathe[/url] removes screams only while sneaking",
+  "categoryId": "61",
+  "version": "2.0",
+  "author": "provio",
+  "createdUnix": "1404049846",
+  "updatedUnix": "1404135752",
+  "containsAdultContent": false,
+  "uploadedBy": "provio",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000115203",
+      "name": "no combat screams",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "no combat screams-55410-1-0.zip",
+      "uploadedUnix": "1404075760",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/80761b9b03cd83a76839eff2d806bd9355a0b63540b191410679d807b689d6e2/analysis/1408154043/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/no%20combat%20screams-55410-1-0.zip?fid=1000115203&ttl=1535840153&ri=8192&rs=8192&setec=aa8abee3550536cb28c93f8ac85c3048"
+    },
+    {
+      "fileId": "1000115266",
+      "name": "no combat screams",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "no combat screams-55410-2-0.zip",
+      "uploadedUnix": "1404135752",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3f92fc59fb726f7b61e56e9c4d359c9453a23ae4d41d21de7b9880a8c78bba90/analysis/1408154706/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/no%20combat%20screams-55410-2-0.zip?fid=1000115266&ttl=1535840153&ri=8192&rs=8192&setec=a6c1c2f0a177113f56a4df06ae407419"
+    }
+  ]
+}

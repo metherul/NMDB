@@ -1,0 +1,32 @@
+{
+  "modId": 46273.0,
+  "modName": "Chunkmerge MOPP Collision Crash Fixer",
+  "summary": "All of chunkmerge generated collision meshes are suspectible to a bug which in rare ( albeit possible ) circumstances can crash the game. This tool will help you fix it.",
+  "descriptionHtml": "Long story short - every collision created using the ,,ChunkMerge\" tool by skyfox69 is affected by a bug, where the very last byte of the MOPP code was copied as first one and therefore the very last MOPP command couldn't execute properly, in best case resulting in a small collision issue, in worst case jumping into the random memory location, causing skyrim to crash.\r\n\r\nThis tool fixes the issue by copying the first mopp data byte to the last one. ( it can do more, but i use it internally and is not ready yet for public :P will add more when time comes ).\r\n\r\nUSAGE ( from command line):\r\nmopp_rl <your_input_path> <your_output_path> fix\r\nExample:\r\nmopp_rl C:/my_broken_file.nif C:/my_fixed_file.nif fix\r\n\r\n",
+  "categoryId": "39",
+  "version": "0.1",
+  "author": "Ormin",
+  "createdUnix": "1383487339",
+  "updatedUnix": "1383487332",
+  "containsAdultContent": false,
+  "uploadedBy": "Ormin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000074513",
+      "name": "MOPP_RL Tool",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2736",
+      "fileName": "MOPP_RL Tool-46273-0-1.rar",
+      "uploadedUnix": "1383487332",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/34ddce9d2c94829506e3ae5f82264e9d11524317dcdbfdb899ae809d765ea0c2/analysis/1407779492/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MOPP_RL%20Tool-46273-0-1.rar?fid=1000074513&ttl=1535826602&ri=8192&rs=8192&setec=04265170a772f7e73c10cfd68b8f49a4"
+    }
+  ]
+}

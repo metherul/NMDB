@@ -1,0 +1,32 @@
+{
+  "modId": 75715.0,
+  "modName": "AWTM Patcher",
+  "summary": "TES5Edit script to create dynamic patch for Armour and Weapon Types Matter mod by AnarkyzmA",
+  "descriptionHtml": "[color=#1e84cc][size=3]Introduction[/size][/color]\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/62577]Armour and Weapon Types Matter[/url] includes it&#39;s own Skyproc patcher, but unfortunately author left it in outdated state with existing bugs. This script is intended as a replacement and works using TES5Edit engine.\r<br />This in an adaptation of a similar [url=http://www.nexusmods.com/fallout4/mods/10060]DT patcher[/url] for Fallout 4 which dynamically assigns damage threshold values. You can check both scripts if interested in how they work.\r<br />\r<br />\r<br />[color=#1e84cc][size=3]Usage[/size][/color]\r<br />\r<br />1. Download and unpack [url=http://www.nexusmods.com/skyrim/mods/25859]TES5Edit[/url] anywhere if you don&#39;t have it yet. Unpack patcher script into Edit Scripts folder of TES5Edit.\r<br />2. Download and install [url=http://www.nexusmods.com/skyrim/mods/62577]AWTM[/url], activate AWTM-Dependancy.esp plugin in your Mod Manager.\r<br />3. Run TES5Edit, wait for it to finish loading. In the left pane select plugin(s) you want to create patch for with Shift+Click, or you can click anywhere in the left pane and press Ctrl+A to select all plugins (the prefered method).\r<br />4. Right click on selection, click Apply Script from popup menu.\r<br />5. Select &#34;Skyrim - AWTM Patch&#34; from dropdown list. If it is not there, then you put it in the wrong location in step 1, check again.\r<br />6. Click OK and wait until it finishes, &#34;Apply script done&#34; message will appear in the messages log. During execution it will ask you for patch ESP file name and to add masters, confirm everything.\r<br />7. Exit TES5Edit and save generated patch plugin.\r<br />8. Activate it in your Mod Manager, make sure it is located at the bottom of load order after all patched mods.\r<br />\r<br />During patching process If you see messages like [color=#ff0000]Patching failed[/color] followed by record&#39;s name, then this means that this record and plugin in whole needs error fixing by mod author, consult with them. Don&#39;t load such plugins while creating a patch as a temporary solution.\r<br />\r<br />If you updated, installed or uninstalled mods that affect any armours, weapons or NPCs, delete the old patch and create a new one. If your game \r<br />crashes when patch plugin is activated, this means you removed a mod that patch relies on. In that case delete it and create a new one. If your game still crashes, then make sure that AWTM-Dependancy.esp is activated in your load order. And if you still crash after that, then this has nothing to do with this patcher and the problem lies elsewhere.\r<br />\r<br />\r<br />[color=#1e84cc][size=3]Uninstallation[/size][/color]\r<br />\r<br />As any other dynamic patch (merged, bashed, etc.) you are safe to remove it any moment.",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "zilav",
+  "createdUnix": "1463505310",
+  "updatedUnix": "1463504941",
+  "containsAdultContent": false,
+  "uploadedBy": "zilav",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000206881",
+      "name": "AWTM Patcher",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "AWTM Patcher-75715-1-0.zip",
+      "uploadedUnix": "1463504941",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1e7b79a37aacafd2de164ecd8b8a5b903f3184ecaf84d8e022d93a318b7da94d/analysis/1463504943/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AWTM%20Patcher-75715-1-0.zip?fid=1000206881&ttl=1535864470&ri=8192&rs=8192&setec=aa1de58ec3dca93ecd41fa17d784852e"
+    }
+  ]
+}

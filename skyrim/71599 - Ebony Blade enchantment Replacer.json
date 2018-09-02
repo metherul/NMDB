@@ -1,0 +1,32 @@
+{
+  "modId": 71599.0,
+  "modName": "Ebony Blade enchantment Replacer",
+  "summary": "Only useful in new saves&#33;\r<br />Extend max friends killed count to 30\r<br />and add new magic effect to ebony blade as more friends you killed",
+  "descriptionHtml": "new ebony blade has 3 magic effect\r<br />health absorption: Same in first 10 friends killed, and add 10 points per 5 friends killed\r<br />stamina absorption: appear at 5 friends killed  10 points.  add 10 points per 5 friends killed\r<br />Fire damage: appear at 10 friends killed 20 points.  add 15 points per 5 friends killed \r<br />\r<br />Applying this mod doesn&#39;t change the MaxFriendskilled_var in existing saves.\r<br />So you may start a new game \r<br />\r<br />or use Savetool\r<br />Search script Da08ebonybladetrackingscript\r<br />and change ::MaxFriendskilled_var  to 30\r<br />\r<br />To check how many friends you killed and the max count\r<br />\r<br />type in \r<br />sqv da08ebonybladetracking\r<br />in console\r<br />\r<br />and check \r<br />::FriendsKilled_var\r<br />::MaxFriendsKilled_var\r<br />\r<br />Feel free to use or edit my file",
+  "categoryId": "55",
+  "version": "1.7",
+  "author": "Boyan",
+  "createdUnix": "1448581863",
+  "updatedUnix": "1448581856",
+  "containsAdultContent": false,
+  "uploadedBy": "yeboyan",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000186167",
+      "name": "Ebony111",
+      "version": "1.7",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Ebony111-71599-1-7.zip",
+      "uploadedUnix": "1448581856",
+      "modVersion": "1.7",
+      "virusScanUrl": "https://www.virustotal.com/file/f328b08e522326a4cd864dbc69394aef79baaa6793f3365e21249689c67fb794/analysis/1448581863/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ebony111-71599-1-7.zip?fid=1000186167&ttl=1535860144&ri=8192&rs=8192&setec=e9a88515b9b8d6a8c51b777092da79f2"
+    }
+  ]
+}

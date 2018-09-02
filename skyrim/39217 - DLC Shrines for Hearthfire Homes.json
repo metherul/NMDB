@@ -1,0 +1,32 @@
+{
+  "modId": 39217.0,
+  "modName": "DLC Shrines for Hearthfire Homes",
+  "summary": "Adds 4 new buildable shrines from Dawnguard and Dragonborn to your Hearthfire home.  In your cellar, the shrine altar has been adjusted and now you can worship: Auriel, Azura, Boetheia, and Mephala.  Also includes matching religious amulets to these Aedra/Daedra (used as well to build these shrines)",
+  "descriptionHtml": "[center][IMG]http://i.imgur.com/RsXNbTC.jpg[/IMG][/center]\r\n\r\n[center][size=5][color=red]Requires all official DLC: Hearthfire, Dawnguard, and Dragonborn[/size][/color][/center]\r\n\r\n[center][color=yellow]A fresh game is strongly recommended for this mod to properly work.  To get this to work for an existing Hearthfire home will require a lot of console work and even then I cannot guarantee this will work bug-free.[/color][/center]\r\n\r\n[b][u]What does this plugin contain?[/u][/b]\r\nI love Hearthfire Homes, but it annoyed both my Archer that the shrine of Auriel in a cave in the middle of no where, and also my Assassin that I had to travel all to Raven Rock in Solstheim to get Boethiah\\'s blessing.  I thought wouldn\\'t it be nice to have these shrines right at home... and thus. this mod was born!\r\n\r\nThis mod adds 4 new buildable shrines in the cellar of all Hearthfire homes.  You can now construct altars to Auriel, Azura, Boethiah, and Mephala using Hearthfire\\'s build your own house system.\r\n\r\nIn addition, to keep things consistent I\\'ve added each of these patron\\'s persona as religious amulets, you\\'ll find amulets of Azura, Boethiah, and Mephala just as you would Stendarr, Talos, Zenithar, etc.  The one exception being Auriel; there are only a few to be found in the world, look to the Inner Sanctum in the Forgotten Vale...  These amulets are needed to construct the shrines just like their Hearthfire counterparts.  These amulets carry a similar blessing as the powers bestowed by the shrines.\r\n\r\n[b][u]Troubleshooting[/u][/b]\r\nDue to the rather complicated BYOH script system this plugin will probably not work if your character has even started any of the Hearthfire quests for building your own home let alone if you have already placed items on the shrine base in your cellar.  The short answer is: sorry.\r\n\r\nA somewhat longer answer for those technically inclined is there may be a way; but I really cannot support this as it\\'s very messy... but here you go if you want...\r\n\r\nSince Heartfire homes never contain cell resets you\\'re going to have to get dirty in the console and edit out all the placed items on our alter base first, I\\'ve moved all items on the base around to make room for 4 new altars so the placement must be redone.  Next, you have to reset the globals that basically say you\\'ve built this item at the workbench along with their corresponding hidden item in your inventory you\\'ve already built, this will allow you to reset the craftable list.  Finally you need to reset the BYOHHouse{HOUSENAME} quest as it contains the craftable workbench list in a local variable (workbench12).  This should in theory finally let the new shrine recipes show up.  All of this info is intentionally vague and very abridged, best of luck if you go for it!\r\n\r\n[color=yellow]Closing Thoughts[/color]\r\nIf you don\\'t like the new amulets I may make a version which doesn\\'t require these in the shrine and removes them from the worldspace, but I think they fit pretty well in lore and immersion;  open to ideas as well.  If you think I can do better placement of the shrines mock me up something, I\\'m also open to ideas there as well.  Finally, I\\'m not someone who can create models / retextures, I would love for these new amulets to have their own cool unique models in game.  Contact me if you are interested!\r\n\r\nEnjoy!",
+  "categoryId": "67",
+  "version": "1.0",
+  "author": "tortugapir8",
+  "createdUnix": "1375217955",
+  "updatedUnix": "1375217913",
+  "containsAdultContent": false,
+  "uploadedBy": "tortugapir8",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000042559",
+      "name": "Main File",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "Main File-39217-1-0.rar",
+      "uploadedUnix": "1375217913",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/84b1dd23380592cfe5da8a69da78b8e6675922018242bafd3c7a413346e059a4/analysis/1407662110/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Main%20File-39217-1-0.rar?fid=1000042559&ttl=1535819650&ri=8192&rs=8192&setec=a1620dee9423b9069fe98e2787349e99"
+    }
+  ]
+}

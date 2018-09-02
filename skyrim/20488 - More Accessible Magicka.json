@@ -1,0 +1,48 @@
+{
+  "modId": 20488.0,
+  "modName": "More Accessible Magicka",
+  "summary": "A mod that allows a mage character to build up sooner and stay relevant longer.",
+  "descriptionHtml": "More Accessible Magicka\r\n\r\n\r\nA mod that allows a mage character to build up sooner and stay relevant longer.\r\n\r\nThis mod scales all spells with skill level when the player character has the novice perk in the spell\\'s school of magic. This means destruction spells will do more damage (low level spells stay relevant due to thier efficiency), necromancy and illusion won\\'t max out at mid levels (with the right perks, a single-cast expert spell will be able to effect a max-lvl NPC), and all spells will last longer if you build up their skills.\r\n\r\nThe magicka cost on many utility spells has been reduced to allow them to be cast by any mage without heavy investment in alteration. Frost and shock spells, previously costing up to double the cost of fire spells, now have the same cost as fire spells. \r\n\r\nAll spells can be purchased at any skill level, if the player has the gold.\r\n\r\n\r\n\r\nDetailed Changes:\r\n\r\nAlteration\r\n-Increased magnitude of armor spells by one third of player\\'s alteration skill*\r\n-Increased duration of alteration spells by a percent equal to the player\\'s alteration skill (for double duration at 100 skill)*\r\n-Reduced base cost of Detect life to 25/sec (from 100/sec)\r\n-Reduced base cost of Detect dead to 25/sec (from 148/sec)\r\n-Reduced base cost of Telekinesis to 20/sec (from 170/sec)\r\n-Reduced base cost of Waterbreathing to 100 (from 222)\r\n\r\nConjuration\r\n-Increased magnitude of conjuration spells by one third of player\\'s conjuration skill*\r\n-Increased duration of conjuration spells by a percent equal to the player\\'s conjuration skill*\r\n-Reduced base cost of Soul Trap to 45 (from 107)\r\n\r\nDestruction\r\n-Increased magnitude of destruction spells by one third of player\\'s destruction skill*\r\n-Increased duration of cloak spells by a percent equal to the player\\'s destruction skill*\r\n-Reduced base cost of frost and shock spells to equal that of their fire counterparts\r\n\r\nIllusion\r\n-Increased magnitude of illusion spells by one third of player\\'s illusion skill*\r\n-Increased duration of illusion spells by a percent equal to the player\\'s illusion skill*\r\n-Modified invisibility to include the effects of muffle\r\n\r\nRestoration\r\n-Increased magnitude of restoration spells by one third of player\\'s restoration skill*\r\n-Increased duration of restoration spells by a percent equal to the player\\'s restoration skill*\r\n\r\n*requires the novice perk in the relevant skill\r\n\r\nGeneral\r\n-Added ALL spells to relevant spell merchants. This means you can use any spell at any level, as long as you have the gold and the magicka.\r\n-Updated some spell descriptions to reflect my changes. Also corrected the 50 damage typo on wall spells. (they will say they do less damage than vanilla, but will actually do more than vanilla)\r\n\r\n\r\n\r\nCompatibility:\r\n\r\nIncompatible with mods that change novice magic perks, vanilla spells, or spellbook leveled lists. You may have problems if you combine them, although usually one will simply override the other.\r\n\r\n\r\n\r\nAdded an optional version without master level spells available at vendors. Use this version if you want to do the quests to get them.",
+  "categoryId": "93",
+  "version": "1.0",
+  "author": "linec",
+  "createdUnix": "1342293841",
+  "updatedUnix": "1346884181",
+  "containsAdultContent": false,
+  "uploadedBy": "linec",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "74262",
+      "name": "More Accessible Magicka",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "More Accessible Magicka-20488-1-0.rar",
+      "uploadedUnix": "1342293908",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/11d44cf3213c97da073e3e1963171985c96273fda3761d439931f2a77a3a4457/analysis/1407022088/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/More%20Accessible%20Magicka-20488-1-0.rar?fid=74262&ttl=1535788660&ri=8192&rs=8192&setec=a1d191f34dfae7733003b67368fbf0dd"
+    },
+    {
+      "fileId": "86676",
+      "name": "More Accessible Magicka no buyable masters",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "More Accessible Magicka no buyable masters-20488-1-0.rar",
+      "uploadedUnix": "1346884181",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6eb92ad7513540a15b380a53b8e198c04bd0089d3b94d9f143eda17f87f13f5e/analysis/1407148026/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/More%20Accessible%20Magicka%20no%20buyable%20masters-20488-1-0.rar?fid=86676&ttl=1535788661&ri=8192&rs=8192&setec=32ee0753c8a9af2bae18e6902e681f02"
+    }
+  ]
+}

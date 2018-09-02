@@ -1,0 +1,48 @@
+{
+  "modId": 60270.0,
+  "modName": "RND - Universal Compatibility Patch",
+  "summary": "Tries to provide basic RND compatibility for food and drink items added by other mods without theneed of dedicated compatibility patches.",
+  "descriptionHtml": "Has it ever happened to you that you were RND starving in the wilds of Skyrim, desperately looking for something to eat, after what seemed like an eternity you finally take down that boar you were chasing only to find that the boar was added by a mod - so it will restore you 3 points of health instead of satisfying your hunger? All because you forgot to install a compatibility patch or because such patch does not even exist?\r<br />\r<br />The aim of this mod is to try to avoid that as much as possible even without dedicated compatibility patches for every single mod. How does it work? Even though they are basically identical, vanilla Skyrim has different effects for food items and for alchemy items. You will find &#34;FoodRestoreHealth&#34; on food items and &#34;AlchRestoreHealth&#34; on potions and the like. RND works by removing all vanilla effects from food and drink items and replacing them with its own effects - which is why compatibility patches for other mods are necessary (because they obviosly do not include RND&#39;s effects).\r<br />\r<br />To work around this, I simply edited the vanilla food effects to become equivalents of RND effects. The pattern in the vanilla game is obvious: &#34;FoodRestoreHealth&#34; is used on items that would reduce your hunger, &#34;FoodRestoreStamina&#34; is used on items that would reduce your thirst, both are used on items that would reduce both (like soups) and &#34;FoodDamageStaminaRate&#34; is used on items that would get you drunk - those also usually have a second effect that restores stamina so a mead would both decrease your thirst and make you drunk. Below are my new descriptions for the affected vanilla effects.\r<br />\r<br />[font=Georgia]FoodDamageStaminaRate - &#34;Unknown Alcoholic Beverage.&#34;\r<br />FoodRestoreHealth - &#34;Decent Meal.&#34;\r<br />FoodRestoreStamina - &#34;Faintly Decreases Thirst.&#34;[/font]\r<br />\r<br />To continue the example from above; without this file, the boar meat&#39;s description would read &#34;[font=Georgia]Restore 3 points of Health.[/font]&#34; With this file it would read &#34;[font=Georgia]Decent Meal.[/font]&#34; and it would actually reduce your hunger. Simple as that.\r<br />\r<br />As you can imagine, there are several issues:\r<br />- This mod only provides compatibility for mods that follow the vanilla structure. This is actually not so demanding, though, because creating new items is usually done by duplicating a template item whose values are then adjusted which leaves the effect itself the same.\r<br />- The values are flat. Whether you eat a sweetroll or a whole mammoth, &#34;[font=Georgia]Decent Meal[/font]&#34; will still lower your value by the same amount - which is slightly lower than RND&#39;s &#34;[font=Georgia]Medium Meal[/font]&#34;. &#34;[font=Georgia]Unknown Alcoholic Beverage[/font]&#34; has the same effect as RND&#39;s &#34;[font=Georgia]Normal Alcoholic Beverage[/font]&#34; and &#34;[font=Georgia]Faintly Decreases Thirst[/font]&#34; is the same as RND&#39;s &#34;[font=Georgia]Slightly Decreases Thirst[/font]&#34;. \r<br />- The vanilla pattern may be clear but Bethesda wasn&#39;t entirely consistent while implementing it. This is mainly an issue of alcoholic drinks. About half of alcoholic drinks uses the Alchemy version of restore stamina instead of the Food one. Unfortunately, this applies to some of the most common ones. So if a modder created a new version of ale based on the vanilla one, it would use the effect &#34;AlchRestoreStamina&#34; instead of &#34;FoodRestoreStamina&#34;. Random quick-checking of my mod list revealed that for example both Falskaar&#39;s and Wyrmstooth&#39;s drinks suffer from this issue; as will many mods out there. So... I had to take it into account. Therefore the FoodDamageStaminaRate effect (which is used correctly on vast majority of drinks) not only makes you drunk but also inherently slightly reduces your thirst - even though its description only states &#34;[font=Georgia]Unknown Alcoholic Beverage[/font].&#34;\r<br />E.G. The hypothetical bad ale would have the following item description: &#34;[font=Georgia]Restore X points of Stamina. Unknown Alcoholic Beverage[/font].&#34; It would restore your stamina by X, slightly reduce your thirst and provide normal alcoholic beverage.\r<br />If BOTH effects were correct it would instead read: &#34;[font=Georgia]Faintly Decreases Thirst. Unknown Alcoholic Beverage.[/font]&#34; It would slightly decrease your thirst twice (once for each effect) and provide normal alcoholic beverage.\r<br />\r<br />Keep in mind that this does NOT apply to any of the vanilla or DLC items since they are managed by RND itself. It will only affect foods and drinks from mods without an RND patch in your load order.\r<br />\r<br />If you use my [url=http://www.nexusmods.com/skyrim/mods/58189/?]Sustenance [/url]module for Skyrim Custom Skills, download the standalone SCS version from the optional section instead of the version from main files if you want effects from this mod to raise your Sustenance skill level.",
+  "categoryId": "78",
+  "version": "1.0",
+  "author": "DavidTheFalcon",
+  "createdUnix": "1416952121",
+  "updatedUnix": "1416951704",
+  "containsAdultContent": false,
+  "uploadedBy": "DavidTheFalcon",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000136754",
+      "name": "RND - Universal Compatibility Patch",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "SCS - Universal Compatibility Patch-60270-1-0.7z",
+      "uploadedUnix": "1416951568",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/efe34595824ed7db841958e8236332b29b76e92dbd04b6c8d3526e2c6e758b02/analysis/1416951662/",
+      "changelogHtml": " Initial release. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SCS%20-%20Universal%20Compatibility%20Patch-60270-1-0.7z?fid=1000136754&ttl=1535847967&ri=8192&rs=8192&setec=422de9822645ececbb9f78aec7344c56"
+    },
+    {
+      "fileId": "1000136756",
+      "name": "RND - Universal Compatibility Patch (SCS-Sustenance Ver)",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "RND - Universal Compatibility Patch (SCS-Sustenance Ver)-60270-1-0.7z",
+      "uploadedUnix": "1416951704",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/930e9b3bcd5cc00bed6497d6ffb1d6dfe16e45a299df41432b0beaf50fd43c06/analysis/1416951782/",
+      "changelogHtml": " Initial release. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/RND%20-%20Universal%20Compatibility%20Patch%20%28SCS-Sustenance%20Ver%29-60270-1-0.7z?fid=1000136756&ttl=1535847967&ri=8192&rs=8192&setec=d023ca1c9bf1bd59625ab4b3c1f355b4"
+    }
+  ]
+}

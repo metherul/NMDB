@@ -1,0 +1,48 @@
+{
+  "modId": 10495.0,
+  "modName": "Better Default ini Values",
+  "summary": "Bethesda\\'s original default values for Low, Medium, High, and Ultra were often quite stupid, as if they were chosen at random.  Low reflects the sky, but Medium reflects only land?  Medium has x4 antialiasing?  Resource-light things such as HDR and radial blurs are not present in Low and Medium?  Radial blurs are low even through Ultra?  ",
+  "descriptionHtml": "Bethesda\\'s original default values for Low, Medium, High, and Ultra were often quite stupid, as if they were chosen at random.  Low reflects the sky, but Medium reflects only land?  Medium has x4 antialiasing?  Resource-light things such as HDR and radial blurs are not present in Low and Medium?  Radial blurs are low even through Ultra?  \r\nThere are many other problems besides these that still need to be fixed; this is only a preliminary version.  Updates may or may not follow.  \r\n\r\nNOTE: The PSU on my comp went bad and I haven\\'t been able to get a new one yet (not that the computer was capable of playing Skyrim decently in the first place), so I\\'m currently on my laptop which is running Linux.  As much as I love Linux, it is indeed true that gaming can be a pain in the arse on any distro of it.  I\\'ve not taken to time to mess with Wine to get Skyrim working because this laptop is running on integrated graphics.  Because of this, I have not been able to test versions later than 1.  I apologize for this.  This mod should work fine, regardless.  If you experience any problems or have any suggestions, please let me know in the comments.  \r\n\r\n . : LOG : . \r\n==Version 2==\r\n*Fixes a bug from the first version (swapped item and object load distances in medium)\r\n*Improves the LOD distances somewhat\r\n*Untested\r\n==Version 1==\r\n*Initial Release\r\n*Fixes some basic problems and adds a bit of sense to the .ini\\'s",
+  "categoryId": "95",
+  "version": "2",
+  "author": "Emer78",
+  "createdUnix": "1329705682",
+  "updatedUnix": "1352013244",
+  "containsAdultContent": false,
+  "uploadedBy": "Emer78",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "34023",
+      "name": "Version 1",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Version 1-10495-1.zip",
+      "uploadedUnix": "1329705776",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/9a9a6cd291d352b4abd517bdbcd8827ef0cf8c079ced0a8a8606e0ac1c7e7803/analysis/1406697428/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Version%201-10495-1.zip?fid=34023&ttl=1535770921&ri=8192&rs=8192&setec=9dd51ee081241bab4a7e0749a64e84d9"
+    },
+    {
+      "fileId": "97389",
+      "name": "Version 2",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Version 2-10495-2.7z",
+      "uploadedUnix": "1352013244",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/0f5a6989d51117da1282cfa53939d2d8333693fbd67eea5d228b24ed4fae49b9/analysis/1407248762/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Version%202-10495-2.7z?fid=97389&ttl=1535770922&ri=8192&rs=8192&setec=0cb47e2ad3aca89f47ffb86aba5b96a2"
+    }
+  ]
+}

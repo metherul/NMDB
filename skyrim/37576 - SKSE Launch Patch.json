@@ -1,0 +1,32 @@
+{
+  "modId": 37576.0,
+  "modName": "SKSE Launch Patch",
+  "summary": "Tiny program. Execute it once to enable running Skyrim+SKSE from any shortcut, from Steam client, from Skyrim Launcher or even by starting TESV.exe directly.\r<br />Works with ANY SKYRIM/SKSE VERSION.",
+  "descriptionHtml": "HOW TO USE IT\r<br />1. Make sure you have SKSE installed.\r<br />2. Install my patch (by running it, double-clicking it&#39;s EXE file).\r<br />\r<br />\r<br />\r<br />WHAT IT DOES\r<br />This patch allows you to run Skyrim+SKSE:\r<br />- from your regular Desktop shortcut\r<br />- from Skyrim Launcher\r<br />- from Steam client\r<br />- or even starting TESV.exe directly\r<br />- SKSE-made shortcut will work as well :)\r<br />\r<br />\r<br />\r<br />HOW IT WORKS\r<br />When you run this patch:\r<br />- it extracts its own version of TESV.exe, which not only starts SKSE, but also hides its ugly command line window\r<br />- right before extracting its own file, renames official TESV.exe to TESV_original.exe\r<br />- it edits or creates from scratch an INI file (SKSE.ini), which tells SKSE to work on TESV_original.exe instead of TESV.exe\r<br />\r<br />\r<br />\r<br />WHY IT&#39;S SO AWESOME\r<br />1. Because this patch will work with any version of SKSE, including those yet to come\r<br />2. Because it doesn&#39;t conflict with mods, that use their own SKSE.ini file, since it edits the file, instead of placing a new one\r<br />3. In case of new Skyrim version you only have to run the patch again\r<br />4. If you overwrite SKSE.ini with some mods or new SKSE version, executing patch again will solve the problem\r<br />5. Although this patch is written in English, it will work with any language version of the game\r<br />\r<br />\r<br />\r<br />CHANGELOG\r<br />v1.1 - Added 1 check to make everything even more idiot-proof.",
+  "categoryId": "39",
+  "version": "1.2",
+  "author": "Erundil",
+  "createdUnix": "1372136984",
+  "updatedUnix": "1375865323",
+  "containsAdultContent": false,
+  "uploadedBy": "erundil444",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000044874",
+      "name": "SKSE Launch Patch",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "160",
+      "fileName": "SKSE Launch Patch-37576-1-2.7z",
+      "uploadedUnix": "1375865323",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/d8dbbbae97f8d19645aec670eba5e03c4bcf4edf413373d774188c80fda8f7b6/analysis/1407672675/",
+      "changelogHtml": " Now all NSIS installation commands are supported, see http://nsis.sourceforge.net/Docs/Chapter3.html#3.2.3 <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SKSE%20Launch%20Patch-37576-1-2.7z?fid=1000044874&ttl=1535817349&ri=8192&rs=8192&setec=876297197c84333d621cc5126702a640"
+    }
+  ]
+}

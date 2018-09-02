@@ -1,0 +1,48 @@
+{
+  "modId": 80529.0,
+  "modName": "Lance Crafting",
+  "summary": "Replaces All Vanilla Smelting Mods\r<br />\r<br />A different kind of smelting/crafting mod, this one actually returns everything you put into a creation back into your inventory.  So if you make an iron sword out of a leather strip and 2 iron ingots, you get a leather strip and 2 iron ingots back.\r<br />\r<br />Also includes extra recipes for craftin",
+  "descriptionHtml": "[b]Update:[/b]\r<br />Added simple Hearthfires bulk recipes for construction materials (separate independent download).\r<br />\r<br />[b]Overview[/b][color=#0000ff]\r<br />[/color]\r<br />Hello everyone,\r<br />\r<br />This is mostly [color=#00ff00]a smelting mod for getting all of your smithing ingredients back[/color] from weapons and armor.  This means you don&#39;t just get one kind of item back, but any number of different items back.  For now I&#39;ve programmed it to return exactly what is put into each item when crafting them.  This only includes items created at the forges.  I have also included a large number of recipes for items you can&#39;t create in vanilla Skyrim.\r<br />\r<br />This mod may have issues with other crafting and smelting mods, however on my Skyrim it just seems to add additional recipes for each mod.  I would not recommend mixing this mod with other mods that change crafting recipes, though you should only need this one as I made it to eliminate the need for having more than one blacksmith crafting/smelting mod.  Details below.\r<br />\r<br />\r<br />[size=3][color=#00ffff][b]Details[/b][/color]\r<br />[/size]\r<br />- Can craft/smelt 20 arrows at a time\r<br />- Can smelt all metal armor/weapons except Daedric (I know this mod isn&#39;t entirely realistic, but I thought, how are you supposed to get a daedric heart back from the ebony?  Both are forever changed)\r<br />- Can disassemble leather armor at tanning rack\r<br />- Can craft wooden bows at tanning rack\r<br />- Made Studded Imperial armor stronger than light imperial armor\r<br />- Can smelt guard cuirasses, helmets, and shields\r<br />- Can disassemble guard gloves and boots at tanning rack\r<br />- Can tan deer pelt (for some reason I couldn&#39;t do this on vanilla skyrim, so I added a fix)\r<br />- Renamed deer pelts that were actually elk pelts\r<br />- Added ability to char your own skeever hides (doesn&#39;t use CarlConey&#39;s mod or script; mine also doesn&#39;t need SKSE)\r<br />- Firewood is now used to make shields that appear to use wood (hide, iron, steel)\r<br />- Added recipes for Blades armor and weapons including a Dai Katana (2 handed weapon); just unlock advanced armors\r<br />- Switched armor values for Dragon Plate and Daedric armors (because it should be better); there is already a mod that does this, but I thought this would help eliminate having so many different mods to activate (I&#39;m over 100)\r<br />- Made some light armors/weapons lighter as in the vanilla game they are heavier than iron armor/weapons\r<br />- Doubled creation count for certain daggers as they used twice the ingredients or more as other recipes\r<br />- Tempering vanilla weapons (except bows) no longer requires ingredients (not realistic before - screw balancing :P)\r<br />- Tempering bows now requires bow main material (firewood, glass, etc.) and leather strips (was thinking of how the Huns made composite bows)\r<br />- Changes goat hide tanning from requiring 2 to 1, since it&#39;s larger than the fox and it only requires 1\r<br />- Added ability to craft/smelt large numbers of plain rings and necklaces (20 for silver/gold rings, 6 for necklaces)\r<br />- Certain items, like Draugr armor at the Skyforge, require far too many ingredients to justify the defense and visible amount of metal and leather, so I reduced them to a more realistic amount (screw balancing :P)\r<br />- Added ebony katana and dai-katana\r<br />- Can disassemble fur armor\r<br />- Can make 10 charcoal from 1 firewood\r<br />- Steel ingot is made with iron ingot and charcoal\r<br />\r<br />Hearthfires Addon:\r<br />- Added bulk recipes for construction materials\r<br />\r<br />[b][color=#00ffff][size=3]Installation[/size][/color][/b]\r<br />\r<br />Just copy the contents to you Skyrim data directory usually found at driveletter:&#92;Program Files (x86)&#92;Steam&#92;SteamApps&#92;common&#92;Skyrim\r<br />Includes source scripts for those who are interested.\r<br />\r<br />\r<br />[color=#00ffff][size=3][b]Requirements\r<br />\r<br />[/b][/size][/color]Main file: Skyrim 1.9x, Update.esm\r<br />Hearthfires addon: Skyrim 1.9x, Hearthfires DLC\r<br />\r<br />\r<br />[color=#00ffff][size=3][b]Warnings\r<br />\r<br />[/b][/size][/color]This may not be compatible with other mods that change armor values and ingredients of vanilla items.  Use at your own risk.\r<br />\r<br />Note to modders: The main scripts that handle giving back more than one type of ingredient when smelting are not easy to work with because I have essentially hard coded all of the values.  I came up with this idea a long time ago and and couldn&#39;t figure out a better way to do it (I know quite a few have been searching for a way) until I had already nearly completed this mod.  This has been extremely tedious for me, which is why it took so damn long to finish.  I believe I have found a way to do it without hard coding every damn smelting recipe and I will upload it as soon as I get it working with this mod.\r<br />\r<br />Thank you for your patience.\r<br />\r<br />[color=#00ffff][size=3][b]Credits[/b][/size][/color]\r<br />\r<br />I use slightly modified vanilla models and textures for the Akaviri Dai Katana and Ebony Katana I&#39;ve added.  All credit for these files goes to Bethesda.  DO NOT SELL this mod or any of its contents under any circumstances.\r<br />\r<br />This mod includes a script for charring your own skeever hides.  This script is not the same as the one uploaded to this site ([url=http://www.nexusmods.com/skyrim/mods/30974/?]Char your own Skeevers[/url]) and is my own creation.\r<br />\r<br />I have also used LtMattmoo idea to switch the values of the Dragonplate and Daedric armor so full credit for this goes to him: [url=http://www.nexusmods.com/skyrim/mods/11665/?]Dragonplate should be better than Daedric[/url]. Bare in mind I&#39;m not using his mod for this one and he gives perms to use his mod as long as he is credited.\r<br />\r<br />\r<br />Now available for Skyrim Special Edition on Bethesda.Net.",
+  "categoryId": "100",
+  "version": "0.66",
+  "author": "Lancelot40",
+  "createdUnix": "1480323620",
+  "updatedUnix": "1489919030",
+  "containsAdultContent": false,
+  "uploadedBy": "lancelot40",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000239506",
+      "name": "LanceCrafting_0_66",
+      "version": "0.66",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "831",
+      "fileName": "LanceCrafting_0_66-80529-0-66.zip",
+      "uploadedUnix": "1489917926",
+      "modVersion": "0.66",
+      "virusScanUrl": "https://www.virustotal.com/file/577cd1450acc0e44044585a4a9f1e736c48d45136c423b0d1b114f4c5f6ec81f/analysis/1489918085/",
+      "changelogHtml": " Added Hearthfires optional addon <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LanceCrafting_0_66-80529-0-66.zip?fid=1000239506&ttl=1535869166&ri=8192&rs=8192&setec=152bbf5b986e74a15387fddf205001d3"
+    },
+    {
+      "fileId": "1000239507",
+      "name": "LanceCrafting - Hearthfires",
+      "version": "",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "LanceCrafting - Hearthfires-80529-.zip",
+      "uploadedUnix": "1489919030",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/e40954c7f631b5bf2766d1643dcaa056b15c62324efb51db3b8d22fc376a1d17/analysis/1489919356/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LanceCrafting%20-%20Hearthfires-80529-.zip?fid=1000239507&ttl=1535869167&ri=8192&rs=8192&setec=e9700eebddac23e8212c99c14e2bd297"
+    }
+  ]
+}

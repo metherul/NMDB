@@ -1,0 +1,48 @@
+{
+  "modId": 22784.0,
+  "modName": "Categorized Favorites Menu - Alternate Setups",
+  "summary": "Love Categorized Favorites but wish the menus were just a little different?\r\n\r\nThis is my personal Customized Interface for \\\"Generic or Mage characters.\\\" I will be adding ones shortly focused on: Warrior, Mage, Assassin. I\\'m happy to take any requests on colors, mod compatibilities, and/or alternate layouts. Generally, I can turn around requests",
+  "descriptionHtml": "Requires \\\"Categorized Favorites Menu\\\" to be installed first. \r\nhttp://skyrim.nexusmods.com/mods/4862\r\n\r\nMy Config for Categorized Favorites Menu using layout for \\\"Generic\\\" & \\\"Mage\\\"-type character. I believe that I have full compatibility with:\r\n\r\nDeadly Dragon\\'s Armory,\r\nBetter Vampires,\r\nUFO,\r\n \r\nFor Custom enchanted armor and weapons you need to put the name of a weapon class (ie. \\\"Dagger\\\", \\\"Sword\\\", \\\"Armor\\\" or it will drop into the wrong category.\r\n\r\nPlease let me know in comments or in pm if you see any problems with categorization or would like to see changes.\r\nKnown Issues:\r\n\r\n1. Skyrim Spells And Powers By WarriorKeKe v1.3 - The spell and power \\\"Mass Force\\\" and \\\"Master The Space-Time Continuum\\\" have the same name, so there\\'s no way to make the power show up under powers and the spell show up under spells. \\\"Mass Force\\\" shows up under Alteration. and \\\"Master The Space-Time Continuum\\\" shows up under Powers.\r\n\r\nKeyboard shortcuts:\r\n•0 to 9 with item selected: Hotkey selected item.\r\n•Ctrl + w/s/left/right: Moves the menu up/down/left/right 5 pixels.\r\n•Hold ctrl+shift to move by 1 pixel.\r\n•Ctrl + f: Create an equipset from the currently equipped items.\r\n•Ctrl + delete: Delete the selected equipset.\r\n•Mouse wheel: scroll list\r\n•Alt + mouse wheel: scroll list faster\r\n•Ctrl + mouse wheel: switch lists\r\n\r\nSKSE is required for saving settings from the game (menu position, equipset creation, etc) The mod can be used without SKSE, but you won\\'t be able to create equipsets in-game or save the position of the menu.\r\n\r\nThis will be a constant work in progress, check for updates often.\r\n\r\n========================================================================\r\nNote About Equip sets\r\n========================================================================\r\n\r\nEquip sets allow you to specify a set of equipment to equip all at once.\r\nThis is an experimental feature, so it might not work perfectly.\r\nUnfortunately, the game doesn\\'t allow the favorites menu to write to a\r\nfile on disk, so equip sets have to be configured manually in the\r\nconfig file. (This will hopefully be improved). Also, any item that you want\r\nin an equip set must be favorited (or the favorites menu won\\'t know about it!).\r\n\r\nEquipsets can be created in-game by equipping the equipment you want in\r\nthe equipset, then pressing ctrl+f. You\\'ll be prommpted to enter an\r\nequipset name, a hotkey, any unequip options (see below), and a dropdown\r\nof the selected equipment (informational only). Equipsets are saved to\r\n\\\"favoritesmenu_eqiupsets.cfg\\\".\r\n\r\nEquipsets can be deleted in game by selecting the list you want to\r\ndelete and then pressing ctrl+delete.\r\n\r\nNote that the equip stets that come with the default configuration\r\nare very generic, so they may not work very well for you. See the\r\nconfig file for how to configure equip sets, or the above two\r\nparagraphs.\r\n\r\nWhen you select an equip set, its items will get equipped. Any items\r\nthat are already equipped will not be unequipped, unless they\\'re being\r\n\\\"overriden\\\". That is, if I have Steel Armor, a Shield, and a Sword\r\nequipped, and I select an equip set that has Flames and Frostbite,\r\nthe Steel Armor will still be equipped. If all the items of an equip\r\nset are equipped in the correct places, then it will be displayed\r\nwith an equipped icon.\r\n\r\nEquip sets can also have hotkeys. They can be assigned ctrl+0 through\r\nctrl+9. The modifier key to use can be configured in the config file\r\n(eg, alt+1, shift+1). Hotkeys can be disabled if they interfer with\r\nanother mod. The favorites menu must be open for these hotkeys to work.\r\nEquip set hotkeys are not compatible with the xbox controller at this time.",
+  "categoryId": "42",
+  "version": "v1.0",
+  "author": "mrodgers",
+  "createdUnix": "1345515868",
+  "updatedUnix": "1345517111",
+  "containsAdultContent": false,
+  "uploadedBy": "mrodgers83",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "83138",
+      "name": "Generic Configuration",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Generic Configuration-22784-v1-0.zip",
+      "uploadedUnix": "1345516051",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/53ad7d96a7b59c4baa692836168f95411631a9c6efaac8c80c0a1dc462832ad0/analysis/1407111365/",
+      "changelogHtml": " Created generic config file <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Generic%20Configuration-22784-v1-0.zip?fid=83138&ttl=1535792555&ri=8192&rs=8192&setec=08d7b536512f8a1da9327ccd76f1e5f7"
+    },
+    {
+      "fileId": "83141",
+      "name": "Mage Configuration",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Mage Configuration-22784-v1-0.zip",
+      "uploadedUnix": "1345517111",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2047e4605e23a35da3c9298f2557c700b4b813c77759534b39ed81e39ae8b515/analysis/1407111366/",
+      "changelogHtml": " Created generic config file <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Mage%20Configuration-22784-v1-0.zip?fid=83141&ttl=1535792556&ri=8192&rs=8192&setec=bdc99b50d3f71a9882e587bd77c3ae43"
+    }
+  ]
+}

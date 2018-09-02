@@ -1,0 +1,32 @@
+{
+  "modId": 11422.0,
+  "modName": "Overpower - Two Handed and Dual Wield Shield Disarm",
+  "summary": "Add a perk to the Two Handed Weapons tree called \\\"Overpower.\\\" Gives the player a chance when attacking an enemy with a shield to knock the shield out of their hands.",
+  "descriptionHtml": "Are you a hulking barbarian who loves to smash squishy people with large weapons but are sick of their shields getting in the way? This perk allows you to knock the shield right out of their hands with one mighty swing and roll with the beatdowns!\r\n\r\nThis mod is the first step toward a larger vision I have of Two handed power attacks (and maybe 1 Handed too) actually being able to smash/destroy the shields of enemies. I love the combat physics when you deliver a fatal blow to an enemy and their body crumbles or goes flying, and when you get powerful enough, you can kill your opponents straight through their shields even if they are blocking! However, a finishing blow delivered to a blocking opponent simply results in an underwhelming THUNK as they think \\\"well my health bar is empty now, I guess I should fall over.\\\" Smashing an enemy\\'s shield so hard that they DIE from it should be awesome! Currently it breaks the flow of combat and eventually I am hoping to fix that.\r\n\r\nCURRENT Changes:\r\n- Perk added to the Two Handed tree, on the same level as Devastating Blow and Critical Charge (requires 50 skill). To test, you can addPerk 02003318.\r\n- Perk added to the One Handed tree, on the same level as Savage Strike and Critical Charge (requires 50 skill). To test, you can addPerk 02000D62.\r\n- Once you have the Overpower perk, ANY Two-handed or Dual-Wield Power Attack against a blocking opponent has a 12% to 25% chance to disarm their shield, and a 10-15% chance to disarm their weapon if they blocked with it. The chance increases as your weapon skill increases.\r\n\r\nCurrently I am checking for specific shields because eventually I want to create a \\\"broken\\\" shield effect, replacing the shield with pieces of a broken one, and I will have to know which type of shield was broken.\r\n\r\nThis is my first mod and basically I want to test the process of creating and uploading a mod just to see how it goes. Hopefully this mod doesn\\'t break anything. I plan to be making updates regularly. I would love to hear feedback and suggestions.\r\n\r\nLong term changes:\r\n- Add some physics (shield goes flying maybe?)\r\n- Create some \\\"smashed\\\" models of popular shields, or even smashed pieces of shields, which will replace the shield itself and go flying when the player \\\"smashes through\\\"\r\n- Instead of shield disarm (or in addition to), make the shield smash effect happen only when making a killing blow on a blocking opponent\r\n- Add \\\"Shield health\\\" so that after doing a certain amount of damage to a shield, it will break.\r\n- Modify chance to disarm based on the opponent\\'s weapon and block skills, level, etc.\r\n- Maybe more!\r\n\r\n-------------------------UPDATE HISTORY-------------------------------\r\n0.5\r\n- Added an Overpower for Dual-Wield perk in the One-Handed tree. It does the same thing as the 2-Handed perk. Also it only works when dual-wielding.\r\n- Significantly cleaned up the ESP. The original version had a lot of other messy modifications I made while testing different things. This version should hopefully have less compatibility problems with other mods.\r\n\r\n0.4\r\n- Fixed disarm weapons so that it actually works. Disarming weapons has half the chance to happen than disarming a shield does.\r\n\r\n0.3\r\n- Added a LOT of shield types (including specific area guards, all craftable shields, and falmer shields!)\r\n- Changed the disarm chance to be based on your Two-handed skill. It goes from 12% at 50 disarm skill to 25% at 100 disarm skill\r\n- Tried to add a disarm weapons portion but it doesn\\'t seem to be working\r\n\r\n0.2\r\n- Changed the disarm to only occur from Power Attacks and with a 25% chance to happen\r\n\r\n0.1\r\n-Initial release\r\n\r\nFor more programming adventures (mainly Minecraft related): www.diamondpants.com",
+  "categoryId": "77",
+  "version": "0.5",
+  "author": "Krentz",
+  "createdUnix": "1330329562",
+  "updatedUnix": "1330835943",
+  "containsAdultContent": false,
+  "uploadedBy": "Krentz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "39826",
+      "name": "Overpower - Two Hand and Dual Wield Shield Disarm",
+      "version": "0.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Overpower - Two Hand and Dual Wield Shield Disarm-11422-0-5.zip",
+      "uploadedUnix": "1330835943",
+      "modVersion": "0.5",
+      "virusScanUrl": "https://www.virustotal.com/file/848fc4c8156e58eef3bdb60bb6f96bac27531da637cf22c3a1c1259015e470f1/analysis/1406728562/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Overpower%20-%20Two%20Hand%20and%20Dual%20Wield%20Shield%20Disarm-11422-0-5.zip?fid=39826&ttl=1535772574&ri=8192&rs=8192&setec=d63c5232398983046b12179539929521"
+    }
+  ]
+}

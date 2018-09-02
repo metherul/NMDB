@@ -1,0 +1,32 @@
+{
+  "modId": 9907.0,
+  "modName": "DL33-WerePyre",
+  "summary": "It is possible to become both a vampire and a werewolf.",
+  "descriptionHtml": "Just a small script change that should make it so that players that transform into wolves should transform back to their characters even if they are vampires. --- Needs willing testers --- will expand if popular\r\n\r\n\r\nIt is possible to become both a vampire and a werewolf. After becoming a werewolf use the command player.removespell f5ba0 to remove the Resist Disease effect caused by lycanthropy.\r\n\r\n\r\nplayer.addspell 000b8780 adds vampirism but you may have to do it a few times. also the first time you turn into a werewolf is hard coded and will set you back to your original race if you give yourself vampirism after the first time you turn then you will be fine.",
+  "categoryId": "24",
+  "version": "1.00",
+  "author": "Dan L33",
+  "createdUnix": "1329385537",
+  "updatedUnix": "1329385839",
+  "containsAdultContent": false,
+  "uploadedBy": "DanL33",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "31986",
+      "name": "DL33-WerePyre",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "DL33-WerePyre-9907-1-00.7z",
+      "uploadedUnix": "1329385839",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/22e74f579e7ab682ade5db122f0c027a912ada8787a68018370d750ac7090974/analysis/1406686867/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DL33-WerePyre-9907-1-00.7z?fid=31986&ttl=1535769867&ri=8192&rs=8192&setec=b0cff2d3383b82f469b93fb79321cc1a"
+    }
+  ]
+}

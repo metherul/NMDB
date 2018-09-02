@@ -1,0 +1,32 @@
+{
+  "modId": 29743.0,
+  "modName": "Variable Movement - Release Candidate",
+  "summary": "Variable Movement allows you to smoothly change your character\\'s movement speed to levels between walking and running.",
+  "descriptionHtml": "[size=5][b]Description[/b][/size]\r\nThis mod allows you to smoothly change your character\\'s movement speed to levels between walking and running. It is done by holding the LeftShift key and scrolling with the MouseWheel to change your movement speed. When the LeftShift is not being held the MouseWheel will zoom the camera as usual. The original function of LeftShift is removed. CapsLock can still be used to instantly switch between running/walking.\r\n\r\nThis mod is useful because NPC\\'s have more levels of movement speed than the player has in vanilla. Using this mod you don\\'t have to switch between running/walking all the time to keep up with them.\r\n\r\nThis is a Release Candidate, not necessarily the finished project. I can\\'t find any bugs in this version, but only I myself tested it so far. There are some new SKSE functions in development that will allow me to improve this mod once they are released. If you encounter any glitches or problems, please report them in the comments and I\\'ll try to fix them.\r\n\r\n[size=5][b]Required[/b][/size]\r\nThe latest [url=http://skse.silverlock.org/]SKSE[/url] release\r\nSkyrim 1.6 or newer\r\n\r\n[size=5][b]Recommended[/b][/size]\r\n[url=http://skyrim.nexusmods.com/mods/1334]Mod Organizer[/url] keeps your Skyrim installation clean and keeps all your mods separate. I highly recommend it.\r\n\r\n[size=5][b]Installation[/b][/size]\r\nNOTE: The current version of this mod will replace any customized key bindings on installation! If in the past you changed any of the default key bindings you\\'ll have to do so again after installation! Later releases might very well work around this.\r\n\r\nExtract the files into Skyrim\\\\Data or if you use Mod Organizer into a mod folder of it\\'s own. Enable the \\'Variable Movement.esp\\' plugin in your mod list and then run the game.\r\n\r\n[size=5][b]Uninstallation[/b][/size]\r\nIngame make sure your character is either running at full speed or walking. Save your game, exit the game, disable \\'Variable Movement.esp\\'.\r\n\r\nIf you don\\'t use Mod Organizer, delete at the very least the file in \\\\interface\\\\controls\\\\pc\\\\ called \\'controlmap.txt\\'. This will again reset all your custom key bindings to default. \r\n\r\nIf you use Mod Organizer you can simply disable the mod folder and your custom key bindings from before the installation of this mod will be restored.\r\n\r\n[size=5][b]Known issues[/b][/size]\r\nNone so far.\r\n\r\n[size=5][b]Incompatibilities[/b][/size]\r\nOther mods that mess with the LeftShift and the MouseScroller will probably conflict. This mod does take in account other mods that manipulate movement speed of your character so should be compatible with each other.\r\n\r\nThe current release assumes you haven\\'t changed the functions of the CapsLock and LeftAlt keys. Customization will probably be added later.\r\n\r\n[size=5][b]Troublshooting[/b][/size]\r\nIf your MouseScroller doesn\\'t zoom anymore, either the ESP is not enabled, SKSE is outdated or not installed, or the script of this mod crashed. If it doesn\\'t zoom after uninstallation you forgot to delete the controlmap.txt file. Idem dito for the LeftShift key not toggling movement mode after installation.\r\n\r\n[size=5][b]Change log[/b][/size]\r\n1.0 - Initial release",
+  "categoryId": "78",
+  "version": "1.0",
+  "author": "Maegfaer",
+  "createdUnix": "1357832220",
+  "updatedUnix": "1357832291",
+  "containsAdultContent": false,
+  "uploadedBy": "Maegfaer",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000001406",
+      "name": "Variable Movement 1_0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Variable Movement 1_0-29743-1-0.zip",
+      "uploadedUnix": "1357832291",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ec8505e8a8c7afa1e259573c3769666a6546af33d7dc0ca06fadaf1e635f16de/analysis/1407346503/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Variable%20Movement%201_0-29743-1-0.zip?fid=1000001406&ttl=1535804098&ri=8192&rs=8192&setec=132b3e0b2af73845f10b0c27ad316e93"
+    }
+  ]
+}

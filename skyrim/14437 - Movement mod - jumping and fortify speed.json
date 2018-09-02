@@ -1,0 +1,32 @@
+{
+  "modId": 14437.0,
+  "modName": "Movement mod - jumping and fortify speed",
+  "summary": "MOVEMENT MOD\r\nBy: jimhsu\r\n\r\nREQUIRES script dragon (otherwise, no effect on jumping).\r\n\r\nModder\\'s resource for adding jumping/fortify speed effects to armors.",
+  "descriptionHtml": "MOVEMENT MOD\r\nBy: jimhsu\r\n\r\nREQUIRES script dragon (otherwise, no effect on jumping).\r\n\r\nModder\\'s resource for adding jumping/fortify speed effects to armors.\r\n\r\nSee examples in the esm for more info.\r\n\r\nBoots can be spawned from the console:\r\nhelp \\\"imperial boots of speed\\\"\r\nhelp \\\"imperial boots of jumping\\\"\r\n\r\n----\r\n\r\nTECHNICAL DETAILS:\r\n\r\nI\\'m calling a MagicEffect that changes JumpingBonus. Since this is not implemented in game, I wrote some C++ with SD to essentially add this value onto the game setting fJumpHeightMin with a background updater. To save CPU, the updater should only run if the value is actually modified in game (yes, SetAV JumpingBonus also works). Otherwise, the Script Dragon implementation is completely transparent (no end user settings). That\\'s basically it.\r\n\r\nThe ini file will let you change scaling (multiplier). The formula for fJumpHeightMin:\r\n\r\nfJumpHeightMin = 76 + JumpingBonus*multiplier.\r\n\r\nThe fortify speed enchant modifies SpeedMult, which is trivial (see my previous mod).\r\n\r\n----\r\n\r\nI will be providing only minimal end user support for this mod since it\\'s a modder resource. Please refrain from questions such as \\\"where are these boots\\\", \\\"balance\\\", etc.\r\n\r\n",
+  "categoryId": "82",
+  "version": "1",
+  "author": "jimhsu",
+  "createdUnix": "1333668429",
+  "updatedUnix": "1333668515",
+  "containsAdultContent": false,
+  "uploadedBy": "jimhsu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "50438",
+      "name": "Movement mod",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "464",
+      "fileName": "Movement mod-14437-1.7z",
+      "uploadedUnix": "1333668515",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/a100c103f37254f57160684c5e4e61d0b4c2f7fb1f21c673a0c090709158110b/analysis/1406799365/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Movement%20mod-14437-1.7z?fid=50438&ttl=1535778049&ri=8192&rs=8192&setec=dc78a2965e672d4eca333422b697e41f"
+    }
+  ]
+}

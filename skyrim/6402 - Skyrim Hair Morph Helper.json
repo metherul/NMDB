@@ -1,0 +1,32 @@
+{
+  "modId": 6402.0,
+  "modName": "Skyrim Hair Morph Helper",
+  "summary": "A small helper to modders creating morph files for hairstyles.",
+  "descriptionHtml": "Skyrim Hair Morph Helper\r\nby throttlekitty\r\n1.16.2012\r\n\r\nThis is a helper \\\"utility\\\" for modders creating hair for Skyrim, and need to generate .tri files using The Conformulator by Scanti.  Available at [url=http://www.tesnexus.com/downloads/file.php?id=9360\\\"]Tesnexus[/url].\r\nI have done two things for this package: Created dummy .egm files so Conformulator can work on Skyrim heads. I also stripped down the race head morphs down to only include \\\"SkinnyMorph\\\" to keep filesizes down, since the average hair doesn\\'t need any of the extra morphs.\r\n\r\n\r\nSkyrim uses a portion of FaceGen to handle morph animations for character heads, headparts and hair. Currently unknown if headwear objects such as hoods or masks will work this way, as the CK hasn\\'t been released at this time.\r\nA hair model will need to use a .tri file to match head morphs if:\r\n* The hair or hairline covers a portion of the lower neck - Heads have a \\\"SkinnyMorph\\\" entry that follows the _0/_1 weight slider for bodies.\r\n* The hair closely falls against expressive portions of the face, namely the brow and mouth regions. - Only necessary if you want hair moving with the mouth, generally unwanted for hair.  Also you\\'ll need to use the full .tri files shipped with the game rather than this stripped package.\r\n\r\nTo use this mod, extract the contents to a folder of your choice, and install the Conformulator, consulting its readme at your lesiure.  When asked for a head tri, select a race-appropriate file from this package.  It will not read a .nif from Skyrim, instead export your final file from NifSkope as an .obj.  I don\\'t advise using an obj from your 3d app, we need to ensure the vertex order matches between the obj and the nif.  When finished, your hair.egm file should be discarded, since they aren\\'t used by \r\nSkyrim and will only bloat your mod.\r\n\r\nFor your hair model, check the following for your model:\r\nSkyrim heads are created at \\\"full\\\" weight, matching what one sees in the _1 version of clothing/armor. SkinnyMorph pushes neck vertices back to the _0 position.  So ensure that you\\'ve modeled your hair to suit this convention.  (easy tip, heads are backwards from bodies as far as weight goes.)\r\nMust be a single shape, if you have multiple TriShapes, morphing will not work.  These will need to be combined into a single shape first.\r\nMust be skinned to the skeleton.  (In previous Bethesda titles, we could avoid skinning by using a block to parent the model to the head bone, untested in Skyrim so far)\r\nMust exist at \\'feet height\\', in Skyrim\\'s hairs, the model and bones exist close to scene center, and only the bones are translated upwards to put everything at \\'head height\\'\r\nSkin partitions: Skyrim hairs are two \\'pieces\\' assigned different values for dismemberment, 131 for outer shell, and 141 for inner shell.  Different headwear will hide the outer partition to avoid clipping.\r\nHair should have white vertex colors, use black to mask off accessories you don\\'t want colored by the shader.\r\n\r\nMiscellany:\r\nIf you\\'ve a hairstyle replacing a vanilla hairstyle that uses a .tri, you will need to create one for yours.  Otherwise the game will revert to using the vanilla one, causing a mismatch of data.\r\nIf you do need to use a \\'full\\' head.tri file for conformulation, know that it works by filenames.  Rename FemaleheadSkinnyMorphOnly.egm to match Femalehead.tri for example.\r\nChildren do not use body weight, and won\\'t need a .tri file for such morphing.\r\nBeards and other faceparts use an additional *chargen.tri file alongside heads that contain character creation presets.  I\\'ve not tested this area yet, and will need new dummy egms and possibly other surgery.  Stay tuned.\r\n\r\n\r\nPermissions:\r\nI feel it\\'s unlikely this package would need to be redistributed.  If so, you have my permission to do so, provided credit is given, and a link back to the original url at Skyrimnexus.",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "throttlekitty",
+  "createdUnix": "1326779260",
+  "updatedUnix": "1326779365",
+  "containsAdultContent": false,
+  "uploadedBy": "throttlekitty",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "20567",
+      "name": "Skyrim Hair Morph Helper",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "124",
+      "fileName": "Skyrim Hair Morph Helper-6402-1-0.7z",
+      "uploadedUnix": "1326779365",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9ee730c5a8994fabaae39617051a55fecf8209fcd1e7768b341e0ee577484cee/analysis/1406618345/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Hair%20Morph%20Helper-6402-1-0.7z?fid=20567&ttl=1535763793&ri=8192&rs=8192&setec=617b7d62501b40076f2c94c22ec43448"
+    }
+  ]
+}

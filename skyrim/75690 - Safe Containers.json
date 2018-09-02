@@ -1,0 +1,32 @@
+{
+  "modId": 75690.0,
+  "modName": "Safe Containers",
+  "summary": "Reveals safe and unsafe containers in the game for storing items.  Now you can base your character almost anywhere.",
+  "descriptionHtml": "For anyone that wants to safely store their loot without worry this is your mod.  Now you can tell which containers you can safely store your loot without anything disappearing on a cell reset.  I've been playing with this mod for a few days now.  It is surprising just how many safe containers are out there, and also this will reveal unsafe containers that you might otherwise think are safe.  Inns have safe unowned dressers that are perfect for storing stuff.\n<br />\n<br />If you find this mod useful, please endorse it.\n<br />\n<br />There is a wiki that lists safe containers.  But this is actually a very incomplete list.  For the wiki they had to compromise by listing only the containers that could be identified by name or their look because the wiki is based on unmodded Skyrim.  For example: Since there are \"Chest\" containers that are both safe and unsafe, \"Chests\" were not included in the safe container list.  This mod reveals containers that are safe, even if the description name is the same as an unsafe container.  So instead of saying that all dressers and wardrobes are unsafe, now a player can see that there are safe dressers and wardrobes all over Skyrim.\n<br />\n<br /> This is a script free mod and the asterisk was chosen because of its low profile.  It is very easy to overlook.\n<br />\n<br />[size=4][b]Please Read![/b][/size]\n<br />\n<br />This mod is in a release state but it should be approached with a bit of caution.  All this mod does is mark containers with no respawn flag.  The container might still have a quest that changes the contents.  Also, the chest might be in a location that becomes inaccessible.  Also, the container might be owned and mark your goods as stolen.  I tried not to flag corpses or other containers that would be unlikely to be used for immersion purposes, but I probably missed a few.  If you come across a container that really should not be marked safe for whatever reason, please let me know.  Basically, consider the surrounding context and placement of the container before storing your stuff there.\n<br />\n<br />[b]Compatibility[/b]\n<br />\n<br />This is a simple esp and should be compatible with everything.  Just place this high in your load order so other plugins that add or edit the standard containers will overwrite the changes for some specific containers, the rest should be untouched.  Complete Crafting Overhaul for example adds the respawn flag back to a few containers.  If this esp is higher, then the CCO changes will override this mod.  However, the many other containers will still be available.\n<br />\n<br />Known Mods that should be LOWER than Safe Containers.esp.  You may have to add a rule to LOOT for these to load after SC.\n<br />1. CCO\n<br />2. Staves of Skyrim\n<br />\n<br />[b]Merging[/b]\n<br />This mod is an excellent candidate for merging.  Just make sure it is high in load order again.  The merged file will also need to be high, so try to only merge it with other high mods.\n<br />[b]\n<br />Comments[/b]\n<br />\"This mod deserves way more prominence/recognition than it has received so far.\" - Corence",
+  "categoryId": "85",
+  "version": "1.0b",
+  "author": "Delgathar",
+  "createdUnix": "1463434905",
+  "updatedUnix": "1463434385",
+  "containsAdultContent": false,
+  "uploadedBy": "delgathar",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000206790",
+      "name": "Safe Containers",
+      "version": "1.0b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "Safe Containers-75690-1-0b.7z",
+      "uploadedUnix": "1463434385",
+      "modVersion": "1.0b",
+      "virusScanUrl": "https://www.virustotal.com/file/4c0b698ce010a84e9d8dd50c76b00a6daed9209e63c70ba95c90a113768f919b/analysis/1463434443/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Safe%20Containers-75690-1-0b.7z?fid=1000206790&ttl=1535864450&ri=8192&rs=8192&setec=dfe566135fc1bbca6acb58f88cce980d"
+    }
+  ]
+}

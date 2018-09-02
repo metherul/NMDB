@@ -1,0 +1,48 @@
+{
+  "modId": 22379.0,
+  "modName": "KillerKeos Necromancer Sleeve _and_NEW_Boot_ Fix",
+  "summary": "A quick and dirty fix to remove the sleeves in 1st person view from the necromancer\\'s robes from  KillerKeo\\'s Skimpy CBBE Armour mod. --> Added some boot fixes *SEE NOTES",
+  "descriptionHtml": "***NOTES*** \r\nOnly use v1.1 if you are already using Keos\\' full boot mod and you still get disappearing boots! (some mod combinations might be conflicting with his (have no damn clue). I just know this mod works for me.\r\n \r\n***Update***\r\nNew file (with original fix) now features a fix for the boots for some outfits which I noticed were getting cut off at the ankle. --->Additional info in versions/updates\r\n***Update***\r\n\r\nA quick and dirty fix to remove the sleeves in 1st person view from the necromancer\\'s robes from  KillerKeo\\'s Skimpy CBBE Armour mod.\r\n\r\nThis is my first \\\"mod\\\" so I did my best to help out fans of Killer Keo\\'s mod. Keo\\'s likely doing bigger and better things than tackling the small stuff for now. This should work just fine until Keo or someone else comes up with something better.\r\n\r\n---Versions/Updates---\r\n\r\n1.1  ---> Added fix to restore full boots to farmclothes01, farmclothes04, fineclothes01,          mageapprentice, necromancer, wench, yarlclothes03\r\n\r\n1.0  ---> Fix for removing 1st person sleeves for the Necro robes\r\n\r\n---Requirements---\r\nKiller Keos Skimpy CBBE V2 Armor Set -Work In Progress- found here---> http://skyrim.nexusmods.com/mods/3654  (duh...)\r\n\r\n---Installation---\r\nIt\\'s just a simple .esp that you can place in your Data folder but I did place it in an archive for those who just want to add it through NMM instead of just activating it through the plugins tab (yay for mod lists!)\r\n\r\n---Known Issues---\r\nThe only one I really found is when using the showracemenu command (or mod with similar function), the colour of the hands/forearms doesn\\'t seem to update right away. (beats the hell out of me why)\r\n\r\nThe way to fix this seems to be to just equip/unequip armour/gloves/gauntlets and the colour updates.\r\nIf anyone knows why this happens or has a solution, PM me and I\\'ll try to do something... credit will be given to anyone who comes up with any improvements to my fix in newer versions (if there is any).",
+  "categoryId": "95",
+  "version": "1.1",
+  "author": "jbblue",
+  "createdUnix": "1344906925",
+  "updatedUnix": "1345075409",
+  "containsAdultContent": false,
+  "uploadedBy": "jbblue",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "81417",
+      "name": "KillerKeosNecroSleeveFix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "KillerKeosNecroSleeveFix-22379-1-0.rar",
+      "uploadedUnix": "1344907094",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/94fa13a21d71df0880e6471e8af6a11cdbbf092b99cbc6cd4db546bdde45651b/analysis/1407095043/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/KillerKeosNecroSleeveFix-22379-1-0.rar?fid=81417&ttl=1535791887&ri=8192&rs=8192&setec=5e2ef16a34cf0d66812056bf393a509e"
+    },
+    {
+      "fileId": "81913",
+      "name": "KeosBootandNecroFix",
+      "version": "1.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "KeosBootandNecroFix-22379-1-1.rar",
+      "uploadedUnix": "1345075409",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/bad2756905a627288be789310e6554f02935fa56164f69c0d69166015706c47c/analysis/1407099784/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/KeosBootandNecroFix-22379-1-1.rar?fid=81913&ttl=1535791887&ri=8192&rs=8192&setec=c81886a91d121b4feaba2b29e801deec"
+    }
+  ]
+}

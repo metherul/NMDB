@@ -1,0 +1,48 @@
+{
+  "modId": 25398.0,
+  "modName": "Lakeview Manor Materials",
+  "summary": "Bat files to add the materials to build Lakeview Manor.",
+  "descriptionHtml": "[b]Description:[/b]\r\nBat files supplied to add the materials for building the Lakeview Manor player home added by the Hearthfire DLC. [color=red]Hearthfire DLC is required.[/color]\r\n\r\nI have left the txt files well commented and labeled so you can see exactly what materials are needed for what. Do note that the materials pre-supplied for you in the Chest are taken into account and are not added for the main manor - but they have been commented. Pre-supplied materials were ignored for the Wings because depending on what you built, values of materials may change which would influence how many are needed to be supplied and it would end up getting too confusing. You may consequently end up with a couple spare mats.\r\n\r\nI made these bat files because, well... I wanted them for myself. I figure maybe someone else will want them too, so I\\'ve decided to share it.\r\n\r\n[color=red]These may or may not work for the other Manors. You\\'ll have to test and find out! Let me know.[/color]\r\n\r\n[b]Files:[/b]\r\nLakeview.txt - Supplies all materials for the \\'base\\' Lakeview Manor\r\nLakeview-Add1.txt - Supplies all materials for (1) of the following: Armory, Storage, Bedroom\r\nLakeview-Add2.txt - Supplies all materials for (1) of the following: Library, Alchemy Lab, Enchanter Tower\r\nLakeview-Add3.txt - Supplies all materials for (1) of the following: Kitchen, Trophy Room, Greenhouse\r\n\r\n[color=green]Update - New![/color] Lakeview-Interior.txt - Supplies all materials needed for all interiors, and a surplus of extras. \\\"bat lakeview-interior\\\" to use - I suggest dumping all your stuff into a chest first so you can get rid of the rest of it afterwords.\r\n\r\n[b]Installation:[/b]\r\n1. Place in your main Skyrim directory where your exe is located - [b]not[/b] your Data folder.\r\n2. Bring up the console in-game (`) and type \\\"help nail 0\\\" without the quotes, which should return something like this: MISC: ([u]03[/u]00300F) \\'Nails\\'\r\n3. Those first two numbers you see when you type this is the Load Order for your Hearthfire DLC. If the returned value matches above then you can SKIP to #4; Otherwise, you need to open up each of the txt files and do Ctrl+H to bring up the Find/Replace dialog. Once it\\'s up, type in for find \\\"item 03\\\" and replace it with \\\"item ##\\\" with ## being the corresponding numbers you saw for your Hearthfire DLC load order.\r\n4. Bring up the console in-game (`) and type \\\"bat lakeview\\\" without the quotes.\r\n5. Follow pursuit similarly for each addition you would like. I\\'ve separated [b]Add[/b]itions into 3 distinct categories that share building materials for ease of use (view the types listed above). Example: \\\"bat lakeview-add1\\\" or \\\"bat lakeview-add2\\\" or \\\"bat lakeview-add3\\\"\r\n\r\n[b]Uninstallation:[/b]\r\n1. Just delete the txt file(s) and all is well and good in the world~",
+  "categoryId": "67",
+  "version": "1.1",
+  "author": "XunAmarox",
+  "createdUnix": "1350059428",
+  "updatedUnix": "1350065814",
+  "containsAdultContent": false,
+  "uploadedBy": "XunAmarox",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "93462",
+      "name": "Lakeview Manor Materials - Exterior",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Lakeview Manor Materials - Exterior-25398-1-0.7z",
+      "uploadedUnix": "1350059484",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0cf89f9e243056234dae52b75da341996fd59019f51d0d052dbe9a949f7927b4/analysis/1407217584/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lakeview%20Manor%20Materials%20-%20Exterior-25398-1-0.7z?fid=93462&ttl=1535796881&ri=8192&rs=8192&setec=e19035d0eb770ce798ba585f29f8a0e0"
+    },
+    {
+      "fileId": "93494",
+      "name": "Lakeview Manor Materials - Interior",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Lakeview Manor Materials - Interior-25398-1-1.7z",
+      "uploadedUnix": "1350065814",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/a8b3991d53a241f7d5dd31d0cb266659dd13d25154a6f15f663bb731daab6df3/analysis/1407217983/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lakeview%20Manor%20Materials%20-%20Interior-25398-1-1.7z?fid=93494&ttl=1535796882&ri=8192&rs=8192&setec=29dd459a3ff7f9e7da3dda7ec4950069"
+    }
+  ]
+}

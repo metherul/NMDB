@@ -1,0 +1,48 @@
+{
+  "modId": 55651.0,
+  "modName": "Marked For Death Restored",
+  "summary": "Restores Marked for Death&#39;s vanilla effect without the massive nerf to its power brought on by USKP and other shout balancing mods.",
+  "descriptionHtml": "[color=#D3CADB]\r<br />No one knows whether the dangerous, permanent debuff was Bethesda&#39;s intentional design, but I am inclined to believe that at least the armor drain was. The name of the shout means, &#34;Kill Leech Suffer,&#34; so it was made to torture the enemy. Here comes the Bug-thesda part: while other actor values such as Heavy Armor, Light Armor, health, and magicka revert to normal after the effect&#39;s duration passes, Damage Resist, which Marked for Death uses, does not. The only way for the effect to automatically revert itself is to mark the effect as &#34;Recover,&#34; but in the process it changes the mechanics of the shout; instead of draining the armor rating every second for 60 seconds, it&#39;s a one-time reduction that lasts 60 seconds. Seriously, that is so lame.[/color]\r<br />\r<br />Basically, this mod undoes the changes that USKP made to the shout. But don’t run away&#33; I added a safety feature to make sure the dreaded Armor Rating debuff is not permanent. Also, this mod doesn&#39;t actually require the USKP, but made to counteract it.\r<br />All detrimental effects are the same as vanilla, except there is now a secondary recovery effect. I consider this second effect as the “mark” wearing off, and the more powerful the shout, the longer it takes for the target to completely recover.\r<br />\r<br />[color=#C0A1CC]First word (Krii):\r<br />Drains 1 point of health every second for 60 seconds.\r<br />25 point reduction in Armor Rating per second for 60 seconds.\r<br />* After that, Armor Rating recovers 25 points per second, complete recovery in 60 seconds.[/color]\r<br />\r<br />[color=#C8A1CC]Second word (Lun):\r<br />Drains 2 points of health every second for 60 seconds.\r<br />Drains 50 points of Armor Rating every second for 60 seconds.\r<br />* After that, Armor Rating recovers 20 points per second, complete recovery in 150 seconds.[/color]\r<br />\r<br />[color=#CCA1C7]Third word (Aus):\r<br />Drains 3 points of health every second for 60 seconds.\r<br />Drains 75 points of Armor Rating every second for 60 seconds.\r<br />* After that, Armor Rating recovers 15 points per second, complete recovery in 300 seconds.[/color]\r<br />\r<br />The recovery effect continues even when the target dies, so no dragons respawn with negative armor rating.\r<br />\r<br />I tested this on Hadvar and Breton clones using God Mode and belted all three tiers of the shout on them. Hadvar was unimpressed, but after waiting a few hours he was back to his normal, chipper self. Yeay.\r<br />\r<br />Is there stacking?\r<br />The health drain always stacks. In regards to armor rating, different tiers stack, so first, second and third word debuffs stack. However, same tier effects don’t stack, so for example, using the first word twice on the same target. Like I said, I pounded Hadvar with a ton of shouts in God Mode. At one point he had more than -8000 AR, but I waited a few hours and he recovered to normal.\r<br />\r<br />There are no scripts, so this mod is very safe to uninstall. But, don&#39;t uninstall when an NPC is still recovering from the effects of this shout.\r<br />\r<br />This mod is incompatible with anything that edits Marked For Death, such as Improved Dragon Shouts. Place this mod after your shout-balancing mods and obviously after the USKP.\r<br />\r<br />\r<br />\r<br />Thanks to Bethesda for Skyrim despite the bugs.\r<br />Thanks to the Unofficial Patch Team for their many fixes and dedication.",
+  "categoryId": "95",
+  "version": "1",
+  "author": "Ceruulean",
+  "createdUnix": "1404619125",
+  "updatedUnix": "1404618263",
+  "containsAdultContent": false,
+  "uploadedBy": "Ceruulean",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000116084",
+      "name": "MFD Restored v1",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "MFD Restored v1-55651-1.7z",
+      "uploadedUnix": "1404618110",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/8c22486306a95699f6cd01552d9ab7e2d66f6dae0564ed660b2e86b6624586c6/analysis/1408162933/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MFD%20Restored%20v1-55651-1.7z?fid=1000116084&ttl=1535840542&ri=8192&rs=8192&setec=a5496ffe50b5de1acfd929ae898d5f04"
+    },
+    {
+      "fileId": "1000116085",
+      "name": "Dragonborn Ascendant Version",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Dragonborn Ascendant Patch-55651-1.7z",
+      "uploadedUnix": "1404618263",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/42bc7475f53fe35bee295d83e89e2a1c6cfddfcbdbc220eb843a5a36829f4f71/analysis/1408162934/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dragonborn%20Ascendant%20Patch-55651-1.7z?fid=1000116085&ttl=1535840542&ri=8192&rs=8192&setec=1c0bd7ea231b846fcbb11910cb4fd068"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 64571.0,
+  "modName": "A proper way to disable the console",
+  "summary": "",
+  "descriptionHtml": "Using a BSA unpacker, open Skyrim&#92;data&#92;Skyrim - Interface.bsa and find interface&#92;controls&#92;pc&#92;controlmap.txt. This file dictates what key is used for each function in the game. All you have to do is unpack this into Skyrim&#92;Data&#92;Interface&#92;Controls&#92;PC, then open the new controlmap.txt and find the line for Console under the // Main Gameplay section and change its first value to &#34;0xff,0xff&#34;, then find the line for Console under the // Menu Mode section and change its first value to &#34;0xff&#34; . This will completely null the function for opening the console. When you next start up the game, the key which normally opens the console will now do nothing. Woo&#33; No more superpowers&#33;\r<br />\r<br />Or if you&#39;re lazy and/or can&#39;t get it to work, and as long as you&#39;re not already using a modified controlmap.txt, you can just use the included controlmap.txt and place it into Skyrim&#92;Data&#92;Interface&#92;Controls&#92;PC. You may have to make these folders yourself if they don&#39;t exist already.\r<br />\r<br />A plus side to this method is that you can still use an Xbox 360 controller without issues&#33;\r<br />\r<br />I just decided to share this because it always bugged me that there&#39;s ways to disable the console easily in Morrowind and Oblivion, but not in Skyrim.",
+  "categoryId": "28",
+  "version": "",
+  "author": "Truebluehero",
+  "createdUnix": "1428537382",
+  "updatedUnix": "1428547171",
+  "containsAdultContent": false,
+  "uploadedBy": "Truebluehero",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000154966",
+      "name": "controlmap.txt",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "controlmap.txt-64571-.zip",
+      "uploadedUnix": "1428547171",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/dcbcf97de8e9ab52abf793f021e5e4ab7c2e65ef92718480ef90fe1533d2c591/analysis/1428547203/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/controlmap.txt-64571-.zip?fid=1000154966&ttl=1535853207&ri=8192&rs=8192&setec=4f9335552c634356e9ab16492f46f535"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 33010.0,
+  "modName": "InsanitySorrow Weapons SkyRe Patch",
+  "summary": "Makes InsanitySorrow\\'s unique weapon replacement meshes compatible with SkyRe.",
+  "descriptionHtml": "[size=10][b]BREAKING NEWS:[/b][/size]\r\nGuys! Uninstall this, the 4 InsanitySorrow weapons and go download [url=http://skyrim.nexusmods.com/mods/33292/]Unique Uniques[/url]. It includes all 4 weapons + 1 new one.\r\nFollow his instructions and you won\\'t need this patch anymore. Unless I can find something useful to do with this.\r\n\r\n[b]OBSOLETE INFO:[/b]\r\nThis very small mod fixes a problem no one else seems to have addressed:\r\nSkyRe overrides the mesh changes specified in InsanitySorrow\\'s plugins (namely Dragonbane, Red Eagle\\'s Bane, Pale Blade and Kahvozein Fang), so they look the same as vanilla.\r\n\r\nWhile there were no conflicts between SkyRe and Kahvozein Fang, I decided to add it into the patch anyway for futureproofing reasons.\r\n\r\nVersion 2.0 released! The reworked plugin no longer requires any other ESPs! This means you can just disable the 4 InsanitySorrow ESPs, cutting down on plugin count (thanks to }{ellKnight for the suggestion). The other bonus is that because SkyRe_Main.esp is no longer required, players with an older version of SkyRe/no Dawnguard can now use this.\r\n\r\n[b]Instructions:[/b]\r\n1. Place this ESP directly below SkyRe_Main.esp\r\n2. Disable Insanity\\'s Dragonbane.esp, Insanity\\'s Kahvozein Fang.esp, Insanity\\'s Red Eagle\\'s Bane.esp and Insanity\\'s Pale Blade.esp\r\n3. Rebuild your Reproccer patch if you have one\r\n\r\n[b]TOOLS USED:[/b]\r\n[url=http://skyrim.nexusmods.com/mods/25859]TES5Edit 3.0.28[/url]\r\n\r\n[b]REQUIREMENTS:[/b]\r\n[url=http://skyrim.nexusmods.com/mods/9286]T3nd0s Skyrim Redone 0.99.23.3[/url]\r\n[url=http://skyrim.nexusmods.com/mods/19180]Insanity\\'s Dragonbane 1.0[/url]\r\n[url=http://skyrim.nexusmods.com/mods/32930]Insanity\\'s Red Eagle\\'s Bane 1.0[/url]\r\n[url=http://skyrim.nexusmods.com/mods/27562]Insanity\\'s Pale Blade 1.0[/url]\r\n[url=http://skyrim.nexusmods.com/mods/26903]Insanity\\'s Kahvozein Fang 1.0[/url]\r\n(not really a requirement, but if you\\'re playing SkyRe without these you\\'re doing something wrong) [url=http://skyrim.nexusmods.com/mods/28467]Reproccer[/url] + [url=http://skyrim.nexusmods.com/mods/27092]Balbor and Steelsouls SkyRe ReProccer Project[/url]",
+  "categoryId": "55",
+  "version": "2.0",
+  "author": "StylusEcho",
+  "createdUnix": "1362801943",
+  "updatedUnix": "1362922143",
+  "containsAdultContent": false,
+  "uploadedBy": "StylusEcho",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000016079",
+      "name": "InsanitySorrow Weapons SkyRe Patch",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "InsanitySorrow Weapons SkyRe Patch-33010-1-0.zip",
+      "uploadedUnix": "1362801870",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1fdf3941850038198a4e370b57b5b2fe896ce7efd3d224fd184034ce49b17488/analysis/1407460024/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/InsanitySorrow%20Weapons%20SkyRe%20Patch-33010-1-0.zip?fid=1000016079&ttl=1535809878&ri=8192&rs=8192&setec=b0e7b2807dc9d7cddaad82b6a1008240"
+    },
+    {
+      "fileId": "1000016474",
+      "name": "InsanitySorrow Weapons SkyRe Patch",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "InsanitySorrow Weapons SkyRe Patch-33010-2-0.zip",
+      "uploadedUnix": "1362922143",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c0ce4ef1fc7b594961572aca8e99f8aaa0848853b54c70661e7b81cdf717168d/analysis/1407462863/",
+      "changelogHtml": " Made patch standalone - no longer requires SkyRe_Main.esp, Dawnguard, or any of the 4 Insanity ESPs. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/InsanitySorrow%20Weapons%20SkyRe%20Patch-33010-2-0.zip?fid=1000016474&ttl=1535809878&ri=8192&rs=8192&setec=930b7d6f85e23a347deb2fb2d87297ec"
+    }
+  ]
+}

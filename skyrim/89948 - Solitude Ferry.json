@@ -1,0 +1,32 @@
+{
+  "modId": 89948.0,
+  "modName": "Solitude Ferry",
+  "summary": "Adds two ferry lines South of Solitude, to cross the bay without getting soaking wet.",
+  "descriptionHtml": "If you've ever found yourself travelling north from Morthal or Whiterun in hopes of reaching Solitude, but instead of following the road signs or tracking spells you followed the tempting sight of the city sitting [i]right there[/i], you might have found yourself in a bit of a fix - the city is indeed right there - but between you and your destination lay the frigid waters of the bay. If you're running Frostfall and it happens to be middle of the night, that might pose a problem - swimming across can cause you to freeze to death before  reaching shelter. \n<br />(And also your brain migth do a Blue Screen of Death at the though of swimming in full plate armor. I know that mine tries ;). \n<br />\n<br />One might wonder why the only one way to reach Solitude is through the Dragon Bridge. Strategically, this is ideal for defense, of course. Plus, there's nothing to the south of the city but hostile marshes full of poisonous plants and venomous spiders. There's no reason for the city to expend considerable resources to build a bridge that very few citizens will use, and which would pose security risk if any invader decided to schlep through the swamp on their way to the battle.\n<br />\n<br /> But there are always few people who need to cross the bay semi-frequently - like hunters, fishermen, alchemists in search of rare ingredients, and occasional lost traveler or adventurer fleeing a vampire pack; for them taking the trek via Dragon Brigde would make no sense. And those industrial souls arranged for their own means of transportation - a ferry; it's cheap, meets the traffic demand, and is easily disposable - in case of an attack, just cut the rope! ;) \n<br />\n<br />[b] tldr[/b]; this mods adds ferries you can use to reach Solitude from the south, or travel south from Solitude. It's a simple setup - two boats and a rope they travel along. One setup is right at the docks, the other is just east of the rock outcrop that Solitude sits on;\n<br />To use it, get on the boat (with some coaxing you can get your follower to hop on too); there are two oars on each boat (well, three, but ignore the one furthest from the center of the boat - it's a rudder and you shouldn't touch it ;P).   Look at the oar that is closer to your destination. If you're on the south shore, you'll see a 'sail north' command. If you're at the north shore, the command reads 'sail south'. Click it, and the boat you're in will sail across the bay, while the one on the\n<br /> opposite shore will sail in the other direction (that's to make sure there's always a boat waiting for you, no matter what).\n<br />\n<br />______________________________________________ \n<br />\n<br />[b]Young Modder's gripes and trivia: [/b]Originally, I wanted the ferry to look like a raft. I cobbled together something I liked from existing meshes (few planks and two rudders) and was very happy with it, until I tried it in game. \n<br />\n<br />On the first try, I jumped on the raft and went right through it. Apparently, objects' collision doesn't carry over into new nif. \n<br />Well, I found a static (piece of a floor) with a simple collision object that more or less fit the raft dimensions, managed to add it to the file, and tried again.\n<br />\n<br />On the second try, I jumped on the raft and stood on it. Great! Then I set it to sail and... the raft sailed away, leaving me behind, standing on water like a prophet or something. Trying to get on the raft after it left the harbor proved impossible - once again I went right through it. Apparently, if you make a static object move in-game, it leaves its collision behind.\n<br />\n<br />The boat, which is a 'movable static', is the only item I found that takes its collision along for the ride when moving around Skyrim.\n<br />The failed raft nif file is included in the mod. If anyone can figure out a way to give it a movable collision, I'd be overjoyed.",
+  "categoryId": "85",
+  "version": "1.0",
+  "author": "Syntia",
+  "createdUnix": "1520176846",
+  "updatedUnix": "1520176846",
+  "containsAdultContent": false,
+  "uploadedBy": "Syntia13",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000267701",
+      "name": "Solitude Ferry",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "363",
+      "fileName": "Solitude Ferry-89948-1-0.zip",
+      "uploadedUnix": "1520176274",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/cf0ff8b0b46918bf588b165ef7179c81c40bf9b91b0d2f8aea78a4a4cdb5500c/analysis/1520176624/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Solitude%20Ferry-89948-1-0.zip?fid=1000267701&ttl=1535879920&ri=8192&rs=8192&setec=18c446a016a0c0d851505e0d030d3015"
+    }
+  ]
+}

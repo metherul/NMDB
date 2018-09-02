@@ -1,0 +1,48 @@
+{
+  "modId": 28201.0,
+  "modName": "Smart Arrow Crafting",
+  "summary": "Smart Arrow Crafting changes recipes based on whether or not you already have arrows/quiver. No  arrows means no quiver, so the list of materials goes up.",
+  "descriptionHtml": "[center][color=red][b]Smart Arrow Crafting[/b][/color][/center]\r\n[center]by acdcdave1387[/center]\r\n[center]Nexus exclusive, please let me know if you see my mods elsewhere[/center]\r\n\r\nI know there are many Arrow Crafting mods out there, but I came up with this idea to temporarily increase the cost to simulate having to craft the quiver and thought it was clever enough to upload it.\r\n\r\nBasically, if you have no arrows of any kind, you will have to fork over more materials to make your first batch of arrows because you are also crafting the quiver.\r\nIf you already have arrows of that type, then you obviously do not need another quiver so the game logic recognizes this and will decrease the recipe to just craft arrows alone.\r\n\r\nMost of the arrow types have something other than wood for the arrow shafts but that would make it extremely expensive for those types so I kept all basic Arrow recipes as (1 ingot and 2 Firewood) to keep it balanced and simple.\r\nAll arrow types will show up in their respective categories (ie, Iron in Iron, Daedric in Daedric)\r\n\r\nI will give you an example. The Steel Arrows have a Leather quiver with Steel \\\"accents\\\" at the bottom and top of the quiver. So if you DO NOT have any Steel Arrows, the crafting recipe will be 2 Firewood, 2 Steel Ingots and 1 Piece of Leather. As soon as you craft them the recipe will immediately drop down to just the 1 Steel Ingot and 2 Firewood to make additional arrows as you now have a quiver.\r\n\r\n~~Changelog~~\r\nv1.0 - Initial release, batches of 40 arrows.\r\n\r\n~~Compatibility~~\r\nThis mod uses NO scripts or anything fancy. Just new recipes at the forge. Thus, should be compatible with anything. If you use a crafting overhaul or another arrow crafting mod, you will most likely get multiple entries at the forge. (ie, Iron Arrows will show up more than once on the list)\r\n\r\n~~Installation~~\r\nJust put the SmartArrowCraft.esp into your Data folder\r\nDefault location for Skyrim folder in a 64-bit installation is as follows.\r\nC:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\Skyrim\r\n\r\n~~Final Notes~~\r\nIf you want more than 40 arrows (or perhaps less) just let me know and I can make alternate versions. If you want a more realistic version (such as Ingots in place of Firewood for those shafts that aren\\'t wood) again just let me know in the comments section.\r\n\r\nIf you like realism, especially with crafting, do check out my other mod [url=http://skyrim.nexusmods.com/mods/28027]WARR - Weapon and Armor Recipes Rebalanced[/url] which changes all the default crafting recipes in the game to make more logical sense.",
+  "categoryId": "24",
+  "version": "v1.0",
+  "author": "acdcdave1387",
+  "createdUnix": "1355317897",
+  "updatedUnix": "1355317956",
+  "containsAdultContent": false,
+  "uploadedBy": "acdcdave1387",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "104779",
+      "name": "Smart Arrow Crafting",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Smart Arrow Crafting-28201-v1-0.7z",
+      "uploadedUnix": "1355317925",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9c1f9a1fbad153f8fda63e7a83092c4bf1f28a129a47728ffe68a07c5d2f5a16/analysis/1407301383/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Smart%20Arrow%20Crafting-28201-v1-0.7z?fid=104779&ttl=1535801444&ri=8192&rs=8192&setec=bd186ceed22b3ef0bcfdb59cd599021c"
+    },
+    {
+      "fileId": "104780",
+      "name": "SAC NMM",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "SAC NMM-28201-v1-0.7z",
+      "uploadedUnix": "1355317956",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/66fe6bc3b5cf706a7017a3af6bc9921fb59de326d63e8c3c1459dfaad4a244b1/analysis/1407301441/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SAC%20NMM-28201-v1-0.7z?fid=104780&ttl=1535801444&ri=8192&rs=8192&setec=43a9a409e6c43268cd04ba155a818a45"
+    }
+  ]
+}

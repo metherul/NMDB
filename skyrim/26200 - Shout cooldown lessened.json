@@ -1,0 +1,48 @@
+{
+  "modId": 26200.0,
+  "modName": "Shout cooldown lessened",
+  "summary": "The Dragonborn\\'s shouts no longer require such lengthy cooldowns.",
+  "descriptionHtml": "Adds a simple passive ability to the PC, named Dragonborn thu\\'um that grants a 70 percent reduction for shout cooldowns.\r\n\r\nI found the issue that was causing problems and fixed it.  And boy was it a stupid mistake.  That\\'ll teach me to mess with the CK when I\\'m tired and drinking vodka.\r\n\r\n\r\nThis was actually meant to be something else, and I have no idea why this effect came out.\r\n\r\nThis was originally meant to be a starting ability named \\\\\\'Dragonborn\\\\\\' for the PC that would grant a 70% cooldown on your shouts similar to a Blessing of Talos.  The basic idea was so that if you used the Amulet of Talos together you\\\\\\'d get a combined 90% off of cooldowns.  Or you can use the blessing from a shrine and another amulet.  Using all of them would eliminate cooldownds, but you\\'d have to dedicate yourself to using that necklace and repeat visiting to the shrine.\r\n\r\nExcept for some reason, its thrown all cooldowns into negative numbers with just this ability added, basically eliminating them.    Not what I wanted, but I figured some people might, so here it is.",
+  "categoryId": "40",
+  "version": "1.0",
+  "author": "brpratts",
+  "createdUnix": "1351522770",
+  "updatedUnix": "1351697818",
+  "containsAdultContent": false,
+  "uploadedBy": "brpratts",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "96505",
+      "name": "Dragonborn",
+      "version": "0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Dragonborn-26200-0-1.rar",
+      "uploadedUnix": "1351522844",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/6608be0184b0c604d0ccaa456bc49216150a943679795d3222737cf16e08e784/analysis/1407240730/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dragonborn-26200-0-1.rar?fid=96505&ttl=1535798096&ri=8192&rs=8192&setec=1d480af2c88fce0c41c7a583dcffdbe5"
+    },
+    {
+      "fileId": "96842",
+      "name": "Dragonborn shout",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Dragonborn shout-26200-1.rar",
+      "uploadedUnix": "1351697818",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/bb5ece0bb34accda27b39e8835b191ffa22f0ae30613f521fbcbe7d68535267a/analysis/1407243606/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dragonborn%20shout-26200-1.rar?fid=96842&ttl=1535798097&ri=8192&rs=8192&setec=c440eeae987d7759093d9fe2281d053f"
+    }
+  ]
+}

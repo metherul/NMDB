@@ -1,0 +1,48 @@
+{
+  "modId": 9163.0,
+  "modName": "ENB-FXAA hybrid for Realistic Lighting and URWL",
+  "summary": "ENBSeries and FXAA Post Process Injector config for Realistic Lighting and URWL Mod.\r\n",
+  "descriptionHtml": "This is my ENB config with FXAA color correction for Realistic Lighting and URWL.\r\n\r\nINSTALLATION:\r\n\r\nDownload and install ENBSeries v0.112 Kage\r\nhttp://enbdev.com/download_mod_tesskyrim.htm\r\n\r\nDownload and install Realistic Lighting with Customization 3.31\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=7654\r\n\r\nDownload and install ULTRA REALISTIC WORLD LIGHTING for Skyrim 1E (if you have older version 1B, it suits even better)\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=13531\r\n\r\nDownload and install Revamped Exterior Fog\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=9930\r\n\r\nExtract files in your main Skyrim directory > overwrite.\r\n\r\nLoad order:\r\nRealistic Lighting.esp\r\nRealistic Lighting patcher.esp\r\nSkyrimURWL.esp\r\nRevampedExteriorFog.esp\r\n\r\n\r\nSet bFloatPointRenderTarget=1 in SkyrimPrefs.ini (in Documents\\\\My Games\\\\Skyrim)\r\nSet fGamma=1.0000\r\n\r\n=========================================================================================\r\nUpdate to 1.4\r\nTweaked settings to fit Ultra Realistic lighting. \r\n\r\n=========================================================================================\r\nUpdate to 1.3\r\nTweaked colors, lighting, sharpening, saturation, brightness and DOF settings.\r\nAdded Fast DOF effect. Removed Chroma effect.\r\n\r\n=========================================================================================\r\nUpdate to 1.2\r\nBalanced brightness, colors and lighting.\r\nAdded Chroma effect.\r\n\r\n=========================================================================================\r\nUpdate to 1.1\r\n\r\nBetter night sky\r\nSMOOTH DOF and CHROMA DOF effect, thanks to Matso.\r\nReduced direct lighting.\r\nTweaked many settings.\r\n\r\n=========================================================================================\r\nUpdate to 1.01\r\n\r\nDisabled pre-sharpen effect.\r\n\r\n=========================================================================================\r\n\r\nRecommend mods:\r\n\r\nLush grass\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=3288\r\n\r\nGlorious Grasses\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=9185\r\n\r\nenhanced lighting for realistic lighting. (if you wan\\'t brighter interior)\r\nSteam Workshop\r\n\r\n=========================================================================================\r\n\r\nCredits:\r\nBoris Vorontsov (ENB)\r\n\r\nTimothy Lottes (FXAA)\r\nSome dude\r\nBeetleatWar1977\r\n[DKT70]\r\nViolator\r\nfpedace\r\n\r\nPluto - 747823 (Realistic lighting)\r\nLeviathan1753\r\n\r\nMatso (Depth of Field effect)\r\n\r\nThanks to Bethesda for creating Skyrim.\r\n\r\n",
+  "categoryId": "62",
+  "version": "1.4",
+  "author": "Obliver",
+  "createdUnix": "1329053701",
+  "updatedUnix": "1332638757",
+  "containsAdultContent": false,
+  "uploadedBy": "obliver",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "46521",
+      "name": "ENB-FXAA hybrid for Realistic Lighting and URWL 1_40",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "264",
+      "fileName": "ENB-FXAA hybrid for Realistic Lighting and URWL 1_40-9163.rar",
+      "uploadedUnix": "1332632913",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/2cc12ecdc7449eae4c567b71ddbfaa3c9ccc9e6c5b7c1f1fd93fbbe3194a98fe/analysis/1406777776/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENB-FXAA%20hybrid%20for%20Realistic%20Lighting%20and%20URWL%201_40-9163.rar?fid=46521&ttl=1535768454&ri=8192&rs=8192&setec=1be2c433d6b49c4c0d1425303d788481"
+    },
+    {
+      "fileId": "46543",
+      "name": "RL_Settings_URWL_Darker_Nights",
+      "version": "1.4",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "RL_Settings_URWL_Darker_Nights-9163.rar",
+      "uploadedUnix": "1332638757",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/780e0484082f55514dce08a561e635136b70c4866be659d4abd95fffbb1e855f/analysis/1406777952/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/RL_Settings_URWL_Darker_Nights-9163.rar?fid=46543&ttl=1535768454&ri=8192&rs=8192&setec=f49342e4946bdfa49067d0dd5834b830"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 17018.0,
+  "modName": "Modder Resource - Easy NPC Creation",
+  "summary": "This is a resource mod designed to help you create numbers of NPC accurately and easilly using Skyrim game instead of the tedious CK Editor window",
+  "descriptionHtml": "What this does:\r\n\r\nThis mod allows you to create NPC faces quickly and easilly using Skyrim\\'s built in ShowRaceMenu editor. Using the race menu to create NPCs is a much more intuitive and convenient approach to creating batch NPCs when you need to create several characters at once.\r\n\r\nThe best part about Race menu is that since it runs in the realtime skyrim engine, the rendered character is 100% as-it-will-appear in the game, something that the CK editor cannot guarantee.\r\n\r\nAnother advantage of this mod is that it uses a photo-studio-like 3-point lighting setup with a neutral background for perfectly clear character renders (you can adjust the lights in the CK if you wish to tweak the values to your liking, however it is recommended to use the default lighting calibration as this will give you a typical lighting range for in-game use - setting the light calibration too high might make your characters appear darker than intended when playing the game normally)\r\n\r\n\r\nWhat this mod does NOT do:\r\n\r\nIt does not fix the grey-face bug. \r\nIt does not automatically create Actors in the CK. You still need to physically create your actors in the CK and export face data when you have set your packages, factions, inventory, stats etc\r\n\r\n\r\n\r\nInstallation:\r\n\r\nUnpack file and drag contents into your Data folder, or simply use NMM and DL with manager.\r\nNote, you do not need to have the esp active at all times. Only load it when you need to create characters. Also note, you should not set dependency to this mod, it is only an external resource.\r\n\r\n\r\nUninstallation:\r\n\r\nDelete the NPCPhotoBooth.esp and DCVR_AA_PhotoboothScript.pex files\r\n\r\n\r\n\r\nInstructions:\r\n\r\n1. After installing. Start up Skyrim with the mod enabled.\r\n\r\n2. At the main menu open the console and type COC Photobooth\r\n\r\n3. once the cell loads, directly in front of you is an activator button, pressing it will bring up the main menu\r\n\r\n4. Choose a background color if desired, and select Begin NPC Creation\r\n\r\n5. Once you have finished editing in the racemenu, name your character (can be anything this doesnt matter).\r\n\r\n6. When the menu closes, open the console and type SPF NameOfNPC. This will create a .npc file at the ROOT folder (the folder that contains skyrim\\'s exe), not the data folder.\r\n\r\n7. Open the CK, create a new Actor. Give it a editor ID and name, and select the same race as your custom character you exported in the game. hit OK to save your new character.\r\n\r\n8. Re-open the character edit window, and scroll over to the Character Gen Parts tab. hit the Import button and select your .npc file.\r\n\r\n9. Finish creating your character, setting the stats etc. and export the face data as usual by hitting Ctrl F4\r\n\r\nAlternate tutorial for CK importing:\r\n\r\nAfter using the photobooth to create and name your character, follow this tutorial (which is written much more clearly and has pictures):\r\n[url=http://skyrim.nexusmods.com/mods/14193]Brokefoot\\'s Tutorial[/url]\r\n\r\njust skip the part with the Showracemenu (since that is part is already covered by the photobooth procedure)",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "AmethystDeceiver",
+  "createdUnix": "1336969413",
+  "updatedUnix": "1336969499",
+  "containsAdultContent": false,
+  "uploadedBy": "AmethystDeceiver",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "61172",
+      "name": "NPC Photobooth v1-0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "NPC Photobooth v1-0-17018-1-0.7z",
+      "uploadedUnix": "1336969499",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9867dbe75261bbd4c55b7a96a66458caf0456641d25d7944635033c40f75f163/analysis/1406891117/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NPC%20Photobooth%20v1-0-17018-1-0.7z?fid=61172&ttl=1535782815&ri=8192&rs=8192&setec=12745a4efb587e92d029d028b3c1221a"
+    }
+  ]
+}

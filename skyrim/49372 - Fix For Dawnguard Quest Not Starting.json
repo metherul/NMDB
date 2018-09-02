@@ -1,0 +1,32 @@
+{
+  "modId": 49372.0,
+  "modName": "Fix For Dawnguard Quest Not Starting",
+  "summary": "Fix for Dawnguard quest not starting that worked for me.",
+  "descriptionHtml": "Let&#39;s start with a story...\r<br />\r<br />A while ago, I started getting a bug where guards/Durak would say the line(s) of dialogue with would normally trigger the quest, but the quest would never show up. I looked online, and it appeared that it was just a bug that some people got and others didn&#39;t. For me, walking to Fort Dawnguard didn&#39;t even work; Isran and Tolan would just stand there and not do anything. No biggie... I could just use console commands to get passed the Dawnguard and Awakening quests.\r<br />\r<br />Then, I started a playthrough where I had no intention of starting the Dawnguard questline. But then, those guards kept saying the same two stupid lines over and over again&#33; Fortunately, I had been working on a mod that involved a lot of dummy quests, so I had gained a lot more knowledge on how quests work, so I started troubleshooting.\r<br />\r<br />Using that same save game, I tried GetStage and GetQR. Oddly, I found that the quest was running and the stage of the quest was 10, but the stage 10 objective didn&#39;t get triggered. That means that the script attached to the guards&#39; dialogue is working perfectly and the Dawnguard quest is starting just fine (i.e. no trouble filling aliases and such). As it turned out, for me anyway, the script that was supposed to be triggering stuff to happen when a new quest stage gets started was the culprit.\r<br />\r<br />I don&#39;t know why that was the case. Maybe, I screwed something up while I was modding. But, a lot of people seem to describe the exact same problems as me, so this might be able to help them. It&#39;s just the compiled script that I mentioned above.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "BrotherBob",
+  "createdUnix": "1388530641",
+  "updatedUnix": "1388530616",
+  "containsAdultContent": false,
+  "uploadedBy": "BrotherBob",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000089253",
+      "name": "Fix For Dawnguard Quest Not Starting",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Fix For Dawnguard Quest Not Starting-49372-1-0.rar",
+      "uploadedUnix": "1388530616",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d8906e78ed1168573fd3cc5db1934f9ee479f5eb1ca9653209b1404f8f265868/analysis/1407866720/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fix%20For%20Dawnguard%20Quest%20Not%20Starting-49372-1-0.rar?fid=1000089253&ttl=1535830185&ri=8192&rs=8192&setec=7fec0d56d214a25108103503ca37d3c1"
+    }
+  ]
+}

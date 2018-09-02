@@ -1,0 +1,32 @@
+{
+  "modId": 17459.0,
+  "modName": "Dragon Shout - Marked for Death Bugfix",
+  "summary": "Changes the Marked for Death shout to be fix the permanent, stacking duration bugs while still trying to keep it useful.",
+  "descriptionHtml": "Marked for Death (Krii Lun Aus) was originally bugged to give a cumulative penalty over time for the duration, which stacks with itself, and is permanent. This made it incredibly overpowered, with the nasty side effect that you could hit followers and NPC\\'s by accident and leave them weakened for the rest of the game.\r\n\r\nI\\'ve seen a few shout mods that fix the lack of a recovery flag, but leave the magnitude the same, making it underpowered. Others attempt to balance it out by reducing the penalty, increasing damage, and so on without fixing the underlying bugs - some of which make it even more overpowering \r\n\r\n[b]The changes are as follows:[/b]\r\n* Damage Resist penalty is a flat -500 / -1000 / -1500 depending on level, and does not stack.\r\n* The Shout deals no damage, and is not considered hostile by NPC\\'s.\r\n* The effect fades after the initial duration is up, giving a total duration of 2 minutes.\r\n* Damage Resist will recover to its previous level once the shout expires.\r\n\r\nThe penalty for the Level 3 shout is now equal to the cumulative penalty for the Level 1 shout in vanilla (-25/sec for 60 seconds) which theoretically causes the affected character to take 180% more damage. Powerful, but not enough to let you one-shot every enemy in the game, as you could by stacking enough applications of the vanilla shout.\r\n\r\n-------------------------------------------------------------------------------------------------------------------------------\r\n\r\n[b]Slight Update:[/b]\r\nI\\'m also playing around with different numbers for the DamageResist penalty. You would think that it would be something like \\'25% more damage\\' but according to the wiki, each point of Damage Resistance (i.e. Armor) reduces damage by 0.12%. So the vanilla debuff (-25/-50/-75 damageresist) would cause the target to take 3%/6%/ 9% more damage - hardly worth it at all. My current version (-500/-1000/-1500) gives 60%/120%/180% more damage - it doesn\\'t seem that overpowered in play, but I\\'m thinking of making a less powerful version that is 25%/50%/100% or 30%/60%/100% as well as a more powerful version that is something like 100%/200%/300%. Let me know what you think in the comments.\r\n\r\nI\\'m also tweaking other shouts while I\\'m at it, I\\'ll upload those once I\\'m satisfied with the changes.\r\n\r\n[b]Other Mods:[/b]\r\nI highly recommend [url=\\\"http://skyrim.nexusmods.com/downloads/file.php?id=5626\\\"]ThuuMic[/url] for awesome voice-controlled Dragon Shouting. It\\'s awesome, and I\\'m eagerly waiting for version 2.0 to come out!\r\nIf you want a mod that makes all Dragon Shouts more powerful, check out [url=\\\"http://skyrim.nexusmods.com/downloads/file.php?id=14523?\\\"]Shout Overlord[/url] which now includes the Marked for Death fix.",
+  "categoryId": "24",
+  "version": "0.1",
+  "author": "SeanenG",
+  "createdUnix": "1337624662",
+  "updatedUnix": "1337624738",
+  "containsAdultContent": false,
+  "uploadedBy": "SeanenG",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "62842",
+      "name": "Marked for Death Fix",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Marked for Death Fix-17459.7z",
+      "uploadedUnix": "1337624738",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/0ad0f570771e38f2e3b0e394e8458e4e30ee0adef68c5932fdf20598684675a3/analysis/1406907615/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Marked%20for%20Death%20Fix-17459.7z?fid=62842&ttl=1535783546&ri=8192&rs=8192&setec=65ff8d76e4eff83eeb75a9f6b2e1651b"
+    }
+  ]
+}

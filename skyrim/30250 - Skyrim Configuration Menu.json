@@ -1,0 +1,32 @@
+{
+  "modId": 30250.0,
+  "modName": "Skyrim Configuration Menu",
+  "summary": "A small menu made using the Mod Configuration Menu from SkyUI to add a few extra Skyrim settings to the in-game menu. It can currently change 7 INI settings from SkyrimPrefs.ini and save the settings within the save game without touching your INI files.",
+  "descriptionHtml": "===============================\r\nSkyrim Configuration Menu v 1.0\r\n===============================\r\n\r\nBrodual was kind enough to make a nice little spotlight of SCM. Thanks Brodual!\r\n\r\n[youtube]o1jgSeqmnD8[/youtube]\r\n\r\n0. Background\r\n1. Description\r\n2. Requirements\r\n3. Installation\r\n4. Playing the plug-in\r\n5. Save games\r\n6. Conflicts/Known Errors\r\n7. Credits/Permissions received\r\n8. Contact and Information\r\n\r\n===============\r\n0. BACKGROUND\r\n===============\r\n\r\nThis is the first mod I have ever developed. It is arguably pretty pointless in its present state, but I really liked the new Mod Configuration Menu from the awesome SkyUI folks and decided to give it a try with this idea. If it becomes possible, I would like to expand and improve this mod, so as an amateur I welcome any feedback, suggestions, constructive criticism, etc.\r\n\r\n===============\r\n1. DESCRIPTION\r\n===============\r\n\r\nThis is a small mod/utility that uses the awesome Mod Configuration Menu from SkyUI to extend the in-game Skyrim settings. These settings are all available from the MCM under \\\"Skyrim Config\\\". I started with some of the basic INI settings that seem to be changed fairly commonly from what I understand. There were many more that I would have liked to put in, but many of them could not be updated from within the game or had other issues. My inexperience may be the obstacle in some of these cases. \r\n\r\nThese settings are NOT altered in the actual INI file. The state of each setting is saved internally within the script. This means that when you uninstall the mod, the game will use all the settings you had before you installed the mod. Also, all of these settings take effect immediately and within the game; as soon as you close the menu the effects should be evident.\r\n\r\nIncluded Settings:\r\n    - Depth of Field: On/Off\r\n    - Radial Blur: Low, Medium, High\r\n    - Max decals: 0-500 (not sure on actual maximum)\r\n    - Quest Markers: On/Off\r\n    - Compass: On/Off\r\n    - Mouse Acceleration: On/Off (couldn\\'t ever tell the difference, even doing it manually; need some feedback on this one)\r\n    - Max Particles: 0-950 (not sure on actual maximum)\r\n\r\nI am by no means an expert on the INI settings. This is not intended to be a guide on the specifics of INI tweaking, it is merely a convenient place to change the settings. If you need clarification or specifics on certain settings, try another source.\r\n\r\nThis mod isn\\'t very polished, but I just wanted to get it out here and see if there is any interest in something like this. Let me know if you would enjoy this if it were a bit more polished/robust.\r\n\r\n===============\r\n2. REQUIREMENTS\r\n===============\r\n\r\n[url=http://skyrim.nexusmods.com/mods/3863]SkyUI v3.1[/url] or later (Mod Configuration Menu required)\r\n[url=http://skse.silverlock.org]SKSE v1.6.6[/url] or later (Both SkyUI and this mod require SKSE)\r\n\r\n===============\r\n3. INSTALLATION\r\n===============\r\n\r\nAutomatic installation via Nexus Mod Manager: Download with manager, activate, and enjoy.\r\n\r\nManual installation: Extract the archive to your \\\"Skyrim/Data\\\" directory, and enjoy.\r\n\r\n=====================\r\n4. PLAYING THE PLUGIN\r\n=====================\r\n\r\nEnable the SkyrimConfigMenu.esp plugin in Skyrim launcher or your favorite mod manager.\r\n\r\n=============\r\n5. SAVE GAMES\r\n=============\r\n\r\nThe INI settings used by this mod are actually saved internally in the script and DO NOT change the settings in your actual files.\r\nHowever, there still should be no problem uninstalling the mod; your INI settings from your actual files will then be used again.\r\n\r\n================\r\n6. Compatability\r\n================\r\n\r\nThis mod should theoretically be compatible with any mod that doesn\\'t alter these settings in the .ini files...it might still even work.\r\nThe mod is fairly basic, but I have not done a TON of testing.\r\n\r\n=================================\r\n7. CREDITS / PERMISSIONS RECEIVED\r\n=================================\r\n\r\nSkyUI and SKSE teams are awesome! Pretty much my whole mod is based off their stuff. Good job folks!\r\n\r\nAlso, thanks to Brodual for making a spotlight video of this mod. Check out his other Skyrim mod spotlights and support his youtube channel!\r\n\r\n==========================\r\n8. CONTACT AND INFORMATION\r\n==========================\r\n\r\nThis mod is my first mod; I mainly just did it to make a mod. I was really excited to see the Mod Configuration Menu, so I decided to use it somehow.\r\n\r\nThis mod is arguably fairly useless at the moment, but if any more experienced modders have any feedback or suggestions to make this more robust and useful, I welcome it!\r\n\r\nSend me a message on this site for suggestions, support, or whatever related to this mod.",
+  "categoryId": "42",
+  "version": "1.0",
+  "author": "Rev",
+  "createdUnix": "1358749385",
+  "updatedUnix": "1358750150",
+  "containsAdultContent": false,
+  "uploadedBy": "Rev09",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000003955",
+      "name": "Skyrim Configuration Menu v1_0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Skyrim Configuration Menu v1_0-30250-1-0.7z",
+      "uploadedUnix": "1358750150",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4992569dbf91e95b903aa08fb6d14acfac03e80edd90ea1065e2873b912d6f17/analysis/1407371646/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Configuration%20Menu%20v1_0-30250-1-0.7z?fid=1000003955&ttl=1535804923&ri=8192&rs=8192&setec=3eab916f361946a318ab19686b43abff"
+    }
+  ]
+}

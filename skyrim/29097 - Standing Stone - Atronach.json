@@ -1,0 +1,32 @@
+{
+  "modId": 29097.0,
+  "modName": "Standing Stone - Atronach",
+  "summary": "The stone will now work more like the Atronach Birth Sign used to be in the previous titles.\r\n\r\nGrants more magicka, reduces absorption chance, reduces magicka regeneration by percent (configurable). ",
+  "descriptionHtml": "Standing Stone - Atronach\r\n-------------------------\r\nThis is a tweak to the effects gained from the Atronach Stone. \r\nThe intention is to make the stone work more like the Atronach \r\nBirth Sign from the previous titles. To sum it up:\r\n\r\nmagicka: +150\r\nregen..: substantially reduced\r\nabsorb.: 1/4 of all spells instead of 1/2\r\n\r\nChanges\r\n-------\r\nThe original absorption chance is much too high in my opinion \r\nand trivialises fights against mages. In particular, I feel that\r\nfighting several mages at once becomes too easy. It should be noted \r\nthat I made this mod while playing as a mage. The effects of \r\nabsorption may seem less over powerd on characters who never use\r\nrestoration.\r\n\r\nThe regeneration penalty is much too soft because instead of \r\neffectively halving regeneration of magicka, it merely subtracts 50 \r\npoints from the magickaRateMult actor value. In practice, this means\r\nthe penalty can be ignored once items with a magicka regeneration \r\nenchantment are equipped. \r\n\r\nThe magicka bonus of 50 points is too low.\r\n\r\nThis mod addresses all those issues:\r\n\r\nold   new \r\n 50   150 magicka bonus \r\n-50p -93% magicka regeneration\r\n 50%  25% spell absorption chance\r\n\r\nTechnical info\r\n--------------\r\n\r\n\t<---- old \r\n\r\nE5F51\tdoomAtronachAbility \r\n\t+doomAtronachEffect\tmag 50 (peak value mod: absorbChance)\r\n\t+AbDamageMagickaRate\tmag 50 (value modifier: magickaRateMult)\r\n\t+EnchFortifyMagickaConstantSelf mag 50\r\nE5F4F\tdoomAtronachPerk\r\n\tentry-point: mod incoming spell magnitude x 0.5\r\n\r\n\tnew ---->\r\n\r\nE5F51\tdoomAtronachAbility \r\n\t+doomAtronachEffect\tmag 25 (peak value mod: absorbChance)\r\n\t+doomAtronach_AbDamageMagickaRatePercentEffect\r\n\t+EnchFortifyMagickaConstantSelf mag 150\r\nE5F4F\tdoomAtronachPerk \r\n\tentry-point: mod incoming spell magnitude x 0.9\r\n\r\nI don\\'t think doomAtronachPerk is actually used for any thing.\r\nThe new damage magicka regeneration effect is scripted to change the magicka rate\r\nmult whenver a piece of clothing with magicka regen enchantment is equipped\r\nor when a potion is consumed. The reduction percentage may be set to an \r\narbitrary value between 0 and 100. Use the console and issue the following \r\ncommand to change the percentage. \r\n\r\nset AtronachReduceRegenPercent to 100 \r\n\r\nThe default value is 93.\r\n\t\r\nTo review the stats in-game\r\n---------------------------\r\nplayer.getav magickaratemult\t; the value modified by this mod\r\nplayer.getav magickarate\t; non-combat regen rate\r\n\r\n; reset atronach stone\r\nplayer.removespell\te5f51\r\nplayer.addspell\t\te5f51",
+  "categoryId": "93",
+  "version": "0.1",
+  "author": "tox2ik",
+  "createdUnix": "1356799758",
+  "updatedUnix": "1356801869",
+  "containsAdultContent": false,
+  "uploadedBy": "tox2ik",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "108275",
+      "name": "Standing Stone - Atronach",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Standing Stone - Atronach-29097-0-1.rar",
+      "uploadedUnix": "1356801869",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/fe3878c0b67559dd7b9e4a3aa48527158f780fa72245711a8c3a3b772832c954/analysis/1407327609/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Standing%20Stone%20-%20Atronach-29097-0-1.rar?fid=108275&ttl=1535802966&ri=8192&rs=8192&setec=00667c0e7181cb0c227b33f417a8827d"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 46703.0,
+  "modName": "Cart and Carriage Havok and Physics FIX",
+  "summary": "Fixes most of the &#34;cart going crazy&#34; physics issues at the start of game, or at other times when riding a cart/carriage. Previously named &#34;Cart Carriage Havok Patch for SOS and other Mods&#34;.",
+  "descriptionHtml": "This will most likely fix any mod that causes the carts and carriages physics/havok to go nuts.\r<br />  \r<br />It turns out it was actually pretty simple, just a single value change in NifScope on the carriage model used.\r<br />\r<br />Love the mods guys.\r<br />\r<br />\r<br />\r<br />THE BAD:\r<br />* (with touring carriages mod) A creature might run inside the back of the carriage for a moment occasionally. Merely aesthetic.\r<br />\r<br />THE GOOD:\r<br />* Compatibility with possibly many mods (anything that causes carts to flip or act weird). \r<br />* (with touring carriages mod) Decreases chances of bugging out and never reaching destination (tree or rock in the way? This will fix many).\r<br />* Fix has no dependencies.\r<br />* Replaces no files, and has no scripts, nothing added to your save game, so can be installed/uninstalled without any issues at any time.\r<br />\r<br />\r<br />\r<br />INSTALLATION:\r<br />Just install through your mod manager.\r<br />\r<br />UNINSTALLATION:\r<br />Just disable the fix in NMM (or delete the model file Data/meshes/furniture/prisonercarriage/scenictourcarriage02.nif).",
+  "categoryId": "95",
+  "version": "v1.0.0",
+  "author": "UniqueOne",
+  "createdUnix": "1383994339",
+  "updatedUnix": "1383994298",
+  "containsAdultContent": false,
+  "uploadedBy": "unique1",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000076907",
+      "name": "TouringCarriages-SOS-Fixes",
+      "version": "v1.0.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "653",
+      "fileName": "TouringCarriages-SOS-Fixes-46703-v1-0-0.7z",
+      "uploadedUnix": "1383994298",
+      "modVersion": "v1.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/bf4cca81cd0056f9e54efc82050c580eb26b64f651648efd319ba75a52f76d1e/analysis/1407785971/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TouringCarriages-SOS-Fixes-46703-v1-0-0.7z?fid=1000076907&ttl=1535827009&ri=8192&rs=8192&setec=1e574e3ac04b336c5006466b8a97190b"
+    }
+  ]
+}

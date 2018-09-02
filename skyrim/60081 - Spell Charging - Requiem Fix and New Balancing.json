@@ -1,0 +1,48 @@
+{
+  "modId": 60081.0,
+  "modName": "Spell Charging - Requiem Fix and New Balancing",
+  "summary": "",
+  "descriptionHtml": "[b]NEWS:[/b]\r<br />\r<br />v2 out:\r<br />- I encountered a weird bug that switched magnitude and duration scaling (probably because of the Requiem load order). Just try it out. Disable the new balancing, cast an alteration spell, and check the duration. If you are bugless, there should be no difference in duration between casting the spell with 0 or 1 charge. If the duration is different (and then magnitude probably isn&#39;t) just choose the switch option.\r<br />- fixed the &#34;one extra charge&#34; bug properly this time\r<br />- removed the notification about spell magnitude and duration boost that was left in by accident\r<br />\r<br />\r<br />[b]Description:[/b]\r<br />\r<br />This is a modification of [url=http://www.nexusmods.com/skyrim/users/1285952]Leron9999[/url]&#39;s great mod [url=http://www.nexusmods.com/skyrim/mods/57235/?]SPELL CHARGING[/url] 1.0096\r<br />After experiencing slow walking issues when using it in combination with [url=http://www.nexusmods.com/skyrim/mods/19281/]Requiem[/url], I found a working fix, and started tinkering a bit more.\r<br />This is the Result.\r<br />\r<br />New Features:\r<br />\r<br />- Optional fix for Slow Walking Speed (Not sure if only Requiem users need this)\r<br />- Optional Spell Charging disabling while sneaking (Could be useful for PerMa players using sneak casting, I&#39;d like feedback on that)\r<br />- Optional New Balancing for spell charges\r<br />- bugfix\r<br />\r<br />About the new balancing:\r<br />The old Balancing increased the power of all spells by (Magicskill x 2.5)% for each charge. So with alteration at level 50 you get an additional 125% of power per charge. At lvl 100 you get 250% per charge. At lvl 10 you get 25%. That was a way too powerful increase for me, since you also get more Charges with every 25 levels. Duration meanwhile got a boost depending on the number of Charges. So 0% boost for Charge 1, and then 100% more for each charge.\r<br />\r<br />So for my new balancing you directly choose the powerboost percentage for lvl 0, and lvl 100. These are at a default 40% and 75% respectively. You don&#39;t start with nothing, and you don&#39;t end overpowered, and have a linear progression inbetween. It is best used with a base charge of 0.\r<br />Duration Boost is the same as damageboost, and not a flat 100% per charge.\r<br />\r<br />Another option in the new balancing is to reduce the powerboost even further for non-destruction spells. This will do two things:\r<br />- Start the first charge with only a boost of spellduration, not magnitude\r<br />- Half the magnitude boost after that   \r<br />  (Duration boost ist not altered by this option)\r<br />I found it ok to have some more power in fast battles, where you are barely able to charge in the first place. But having huge increases of armor values with Stoneflesh/Mage Armor is not something I wanted to play with. I wanted more duration, and slight increase if I decide to keep charging a lot more.\r<br />With the default values and Base charge 0 you get 5 charges at lvl 100. With Non-Destruction Reduction this still means that fully charged you get 2.5 times as much armor value as you normally would. That&#39;s OP enough for me.\r<br />\r<br />Installation:\r<br />- Uninstall Spell Charging\r<br />- Install this version\r<br />- READ THE SPELL CHARGING TOME AGAIN&#33;\r<br />\r<br />I could have made the original Spell Charging mandatory, but since I have to supply even the edited esp file, I thought whatever, don&#39;t hassle the hoff/user.",
+  "categoryId": "93",
+  "version": "v2",
+  "author": "golem09",
+  "createdUnix": "1416330612",
+  "updatedUnix": "1416348084",
+  "containsAdultContent": false,
+  "uploadedBy": "golem09",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000135929",
+      "name": "SpellCharging10096-57235-v1-0096-golem09v1",
+      "version": "v1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "43",
+      "fileName": "SpellCharging10096-57235-v1-0096-golem09v1-60081-1-0096.rar",
+      "uploadedUnix": "1416330459",
+      "modVersion": "v1",
+      "virusScanUrl": "https://www.virustotal.com/file/684f4e0c05e6ca0c37479c78a1d5dcf558c11010a22a83d4ea212c20bb43efa5/analysis/1416330542/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SpellCharging10096-57235-v1-0096-golem09v1-60081-1-0096.rar?fid=1000135929&ttl=1535847621&ri=8192&rs=8192&setec=3bea31b9e23c97a3b50636e74b84b84a"
+    },
+    {
+      "fileId": "1000135955",
+      "name": "SpellCharging10096-57235-v1-0096-golem09v2",
+      "version": "v2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "43",
+      "fileName": "SpellCharging10096-57235-v1-0096-golem09v2-60081-v2.rar",
+      "uploadedUnix": "1416348084",
+      "modVersion": "v2",
+      "virusScanUrl": "https://www.virustotal.com/file/4da9608b242e9519009dec3657b60cf313f46a0d693542a0cd58dc2f3340c0ea/analysis/1416348183/",
+      "changelogHtml": " - I encountered a weird bug that switched magnitude and duration scaling. Just try it out. Disable the new balancing, cast an alteration spell, and check the duration. If you are bugless, there should be no difference in duration between casting the spell with 0 or 1 charge. If the duration is different (and then magnitude probably isn&#39;t) just choose the switch option.\r<br />- fixed the &#34;one extra charge&#34; bug properly this time\r<br />- removed the notification about spell magnitude and duration boost that was left in by accident <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SpellCharging10096-57235-v1-0096-golem09v2-60081-v2.rar?fid=1000135955&ttl=1535847622&ri=8192&rs=8192&setec=5f5e14ced439c4fc9eaa64a360d622dd"
+    }
+  ]
+}

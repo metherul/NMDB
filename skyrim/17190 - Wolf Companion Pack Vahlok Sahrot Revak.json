@@ -1,0 +1,48 @@
+{
+  "modId": 17190.0,
+  "modName": "Wolf Companion Pack Vahlok Sahrot Revak",
+  "summary": "Adds Three wolf companions to the game. Each located near 3/4 major cities. ",
+  "descriptionHtml": "Adds three wolf companions to the game.\r\nVahlok- Behind Whiterun Stables\r\nSahrot- Behind Riften Stables\r\nRevak- Behind Windhelm Stables\r\n\r\nFollow basic commands only.\r\nWait,\r\nDismiss,\r\nStay,\r\n\r\nIf you want the scripts for how to make companion animals email me at FireSajer@yahoo.com.\r\nI plan on making a tutorial for this to give the community the information to improve the game as a whole.\r\n\r\nUpdate-\r\n1.4\r\nIncreases follow distance for ALL followers, notably this will make it so that the dogs and wolves are not sniffing  your butt 24/7. However if running at break neck speed they will still run into you. \r\nSILENT WOLVES!!!! at last. Wolves will no longer make that grating breathing sound you hear sometimes when you answer your phone. \r\n1.3\r\nDownload this file, has corrected BSA file. The scripts were not compiling correctly during CK/steam export.\r\n\r\nAnimal Companion Tutorial:\r\n[youtube]8MoEIM9YYkA[/youtube]\r\n\r\n-FIX TO \\\"DIALOG DOES NOT APPEAR\\\":\r\nIf you are unable to recruit a new dog follower and have no idea what happened to your old dog, you can simply reset the global value that determines whether or not you can get another dog. It\\'s PlayerAnimalCount, and the console command you need looks like this:\r\nSet PlayerAnimalCount to 0\r\n- If the dialogue bugs and will not let you select even though it appears. I find a quick fast travel fixes the issues.\r\n- If your game is corrupted by CTD or by some other means. This mod likely will not work. I tested it on some of my archived corrupted files and could not access dialogue. My uncorrupted games were just fine however.\r\n* Also note I am using Bellyaches Animal Pack.\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=3621",
+  "categoryId": "65",
+  "version": "1.4",
+  "author": "SpiralDynasty",
+  "createdUnix": "1337226686",
+  "updatedUnix": "1342298347",
+  "containsAdultContent": false,
+  "uploadedBy": "SpiralDynasty",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "62413",
+      "name": "Wolf_Companion_Vahlok",
+      "version": "1.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "43",
+      "fileName": "Wolf_Companion_Vahlok-17190.rar",
+      "uploadedUnix": "1337471020",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7ef7c9c347c76ef7a30a49af1e5f464478b4726baef19fd89190a49ec79ec543/analysis/1406903475/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Wolf_Companion_Vahlok-17190.rar?fid=62413&ttl=1535783114&ri=8192&rs=8192&setec=403c7c38f734687feb40f9714e307570"
+    },
+    {
+      "fileId": "74275",
+      "name": "Wolf Companions 1-4",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "53",
+      "fileName": "Wolf Companions 1-4-17190-1-4.rar",
+      "uploadedUnix": "1342298347",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/56efdc05fbfbef370185440b41ac37f9bd1c29a871fcb76d71d6123f1e3913a5/analysis/1407022263/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Wolf%20Companions%201-4-17190-1-4.rar?fid=74275&ttl=1535783114&ri=8192&rs=8192&setec=7d20ccf9336c654925501ddb89f7cfda"
+    }
+  ]
+}

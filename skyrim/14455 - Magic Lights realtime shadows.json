@@ -1,0 +1,32 @@
+{
+  "modId": 14455.0,
+  "modName": "Magic Lights realtime shadows",
+  "summary": "Realtime shadows and higher range for Magelight and Candlelight spells",
+  "descriptionHtml": "Changed magic lights radius from 450 to 850 and added realtime shadows.  \r\n\r\nMagic lights = Magelight and Candlelight. Both are affected.\r\n\r\nMost mods I\\'ve seen have RTime shadows on both torches and magic lights, but I wanted shadows ONLY on magic lights. Some had bigger radius but no shadows, and it was weird because a Magelight cast on a room would lit up other rooms if they were close enough. With RT shadows, this won\\'t happen :p and it will look natural. \r\n\r\nI\\'m using Superb ENB-RL on the screenshots:\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=11318\r\n(performance preset)\r\n\r\nI highly recommend: \r\nMy documents > My games > Skyrim > SkyrimPrefs > iBlurDeferredShadowMask=3\r\n\r\nNOTES: \r\n1- The strange lines and flickering on some shadows are still there, sorry... this is a problem with how the shadows are set up within skyrims engine and I don\\'t know how to fix it. If someone knows how please tell me. Setting iBlurDeferredShadowMask to 3, 5 or something higher than 1, helps a little with this problem. ENB\\'s detailed shadows help too. \r\n\r\n2- Since one of the official updates for the game, something was changed by bethesda and now, while outside, magic lights don\\'t cast a shadow, they only intensify the light from the sun/moon.",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "Erucci13",
+  "createdUnix": "1333687874",
+  "updatedUnix": "1333688087",
+  "containsAdultContent": false,
+  "uploadedBy": "Erucci13",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "50504",
+      "name": "Mage Lights Shadows",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Mage Lights Shadows-14455-1-0.rar",
+      "uploadedUnix": "1333688087",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e3b9dc6b1fcde9cbf5223aa7a6739c46dcb0b6b389fd8de586e48e3d0cbe8449/analysis/1406799846/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Mage%20Lights%20Shadows-14455-1-0.rar?fid=50504&ttl=1535778082&ri=8192&rs=8192&setec=370e9e74222a246bcaf9d367c2ef3574"
+    }
+  ]
+}

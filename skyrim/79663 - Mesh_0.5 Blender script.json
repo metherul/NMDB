@@ -1,0 +1,48 @@
+{
+  "modId": 79663.0,
+  "modName": "Mesh_0.5 Blender script",
+  "summary": "v2.0 A Python script for Blender 2.49b: given Mesh_0 and Mesh_1 it returns Mesh_0.5, or other sizes. Sizes between 0.0 and 1.0 fit the Skyrim slider, but sizes higher than 1 (larger than Mesh_1)  or smaller than 1 (thinner than Mesh_0) are now possible with version 2.0.",
+  "descriptionHtml": "[size=3][b]Mesh_0.5 Blenderscript[/b]\n<br /> \n<br />\n<br />[b]What is it?[/b]\n<br />A simple Python script for Blender 2.49b, given Mesh_0 and Mesh_1 it returns Mesh_0.5 or other sizes.\n<br /> \n<br />\n<br />[b]Why it shouldbe useful?[/b]\n<br />Mesh_0.5 is useful for:\n<br />[/size][list]\n<br />[*][size=3]NEW v2 - modding purposes (e.g. enlarge a bit here or there Mesh_1 or reduce Mesh_0 or any combination)[/size]\n<br />[*][size=3]it is interesting to have the intermediate mesh that will appear in game directly inside Blender allowing to adjust Mesh_1 and Mesh_0 if needed (the script is really fast),[/size]\n<br />[*][size=3]check the mesh compatibility (see below \"Mesh incompatibility issue\"),[/size]\n<br />[/list][size=3] \n<br />\n<br />[b]The mesh incompatibility issue[/b]\n<br />For speed issues, Skyrim needs Mesh_1 and Mesh_0 with the same vertex order stored in the\n<br />vertex list inside the nif file. Differences in the order will aberrant shapes\n<br />in game (other differences may even bring to CTDs).\n<br />By making Mesh 0.5 you will check in a fast way if the ordering is correct, if not you\n<br />will see an aberrant shape (figure 2). In this case apply the script \"Mesh_1 to Mesh_0\" \n<br />(www.nexusmods.com/skyrim/mods/79572/). \n<br />[/size][list=1]\n<br />[size=3]\n<br />\n<br />[/size][/list][size=3]  [b]Other scripts[/b]\n<br />- [b]Mesh_0 Generator[/b] Blender script - http://www.nexusmods.com/skyrim/mods/80506/?\n<br />  Given Body_1, Body_0 and Dress/Armor_1 gives mesh Dress/Armor_0.\n<br />- [b]Mesh X Mirror for Modders[/b] Blender script - http://www.nexusmods.com/skyrim/mods/80503/?\n<br />  Given a \"half\" Dress/Armor mesh it mirrors: verts positions, bone weights, and UV map of the selected faces.\n<br />- [b]Mesh_0.5 [/b]Blender script - http://www.nexusmods.com/skyrim/mods/79663/?\n<br />  Given Mesh_1 and Mesh_0 and a scaling factor (say 0.5) it will return the weighed mesh. Negative scaling gives thinner \n<br />  than Mesh_0, larger than 1 gives a mesh larger than Mesh_1\n<br />- [b]Mesh_1 to Mesh_0 Blender compatibility script[/b] - http://www.nexusmods.com/skyrim/mods/79572/?\n<br />  This solvs the mesh incompatibility issue (i.e. congruence in the order the vertices are stored in the file).\n<br />  So you can part and join the meshes and fix the order once you have done.\n<br />\n<br />\n<br />[b]What does this script do?[/b]\n<br />This script builds a copy of Mesh_1 (say Mesh_1_new) and (with Size Factor 0.5) it moves the vertices on the half \n<br />distance between the node position in Mesh_1 and Mesh_0. Just like the way Skirim does, the script uses the vertex order. \n<br />If some ordering issue is present the out coming mesh will be a mess (see figure 2).\n<br /> \n<br /> \n<br />[b]How can I use it?[/b]\n<br />It is strightforword:\n<br />[/size][list=1]\n<br />[*][size=3]in object mode unselect all,[/size]\n<br />[*][size=3]right-clickon Mesh_1 and then 1 and SHIFT-Right-Click-Select the Mesh_0 (the first selected will be duplicated),[/size]\n<br />[*][size=3]than goto the tab: \"Object &gt; Scripts &gt; Mesh_0.5\" and click it.[/size]\n<br />[*][size=3]choose the Size Factor (0.5 is the default)[/size]\n<br />[*][size=3]you can choose if apply the reshape only to selected verts in Mesh_1 (or Mesh_0)[/size]\n<br />[*][size=3]DONE[/size]\n<br />[/list][size=3]\n<br /> \n<br />[b]How to install the script[/b]\n<br />Downloadthe file, unzip and drop it in the folder: \n<br />\"C:&#92;Program Files (x86)&#92;BlenderFoundation&#92;Blender&#92;.blender&#92;scripts\", or wherever you have the Blender script\n<br />folder. Then run Blender and it will recognize the script automatically.\n<br /> \n<br />\n<br />[b]Documentation and software[/b]\n<br />[/size][list]\n<br />[*][size=3]Introductionto Python (http://learnpythonthehardway.org/book/ex24.html)[/size]\n<br />[*][size=3]Python 2.7functions (https://docs.python.org/2/library/functions.html)[/size]\n<br />[*][size=3]Blenderfunctions for Python scripting (https://www.blender.org/api/249PythonDoc)[/size]\n<br />[*][size=3]Notepad++(https://notepad-plus-plus.org/)[/size]\n<br />[*][size=3]Blender2.49b[/size]\n<br />[*][size=3]Python 2.7[/size]\n<br />[/list][size=3] \n<br />\n<br />[b]Bugs and requests[/b]\n<br />Read carefully the instructions and PM me if something goes wrong. But the script is\n<br />that simple that issues will hardly arise.\n<br /> \n<br />\n<br />[b]Permission[/b]\n<br />Please, do not upload this script on other sites without permission (other Nexus sites are not \"another site\", but refer to this page).\n<br />[/size]",
+  "categoryId": "39",
+  "version": "2.0",
+  "author": "Letstryagain",
+  "createdUnix": "1477226746",
+  "updatedUnix": "1478029839",
+  "containsAdultContent": false,
+  "uploadedBy": "Letstryagain",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000225326",
+      "name": "object_Mesh_0.5.py",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "object_Mesh_0.5.py-79663-1-0.zip",
+      "uploadedUnix": "1477219272",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ffde712f732fd8a685d15cc57c5199a690768fbf68070414b9dc03330f79b059/analysis/1477219322/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/object_Mesh_0.5.py-79663-1-0.zip?fid=1000225326&ttl=1535868325&ri=8192&rs=8192&setec=d6d4a7a492ee8440ed55ae448f5f3433"
+    },
+    {
+      "fileId": "1000226525",
+      "name": "object_Mesh_0.5.py",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "object_Mesh_0.5.py-79663-2-0.zip",
+      "uploadedUnix": "1478029839",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/84b49b90206b1f7119a5ff0bbdbed981c152398279a54df1d4b8447fc18be237/analysis/1478029864/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/object_Mesh_0.5.py-79663-2-0.zip?fid=1000226525&ttl=1535868325&ri=8192&rs=8192&setec=75ba511de68fb4d6b3d9c59d47818a1d"
+    }
+  ]
+}

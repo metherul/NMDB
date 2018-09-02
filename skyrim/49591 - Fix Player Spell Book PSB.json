@@ -1,0 +1,32 @@
+{
+  "modId": 49591.0,
+  "modName": "Fix Player Spell Book PSB",
+  "summary": "Remove the spells and undo PSB Command",
+  "descriptionHtml": "Hey guys, jailbreaker1220 here. \r<br />\r<br />Today I had an issue that I am sure most skyrim gamers had. The player spell book command.\r<br />\r<br />I didn&#39;t want to go through and delete those 500 spells by hand. so I decided to make a small file that can run in skyrim that will delete them for you.\r<br />\r<br />Now, as warning for you guys, this will delete nearly every spell in vanilla skyrim. It won&#39;t delete any modded spells, but will delete the vanilla.\r<br />\r<br />Just extract the file from the zip you downloaded from the skyrim nexus and name it whatever you like. Drag it to the DATA folder in the skyrim folder on your PC.\r<br />\r<br />Make sure it is a text file, as skyrim won&#39;t read it as a bat file or anything else.\r<br />\r<br />Then you can launch skyrim like normal, and then start up that character, go into the console by pressing the tilde key and type &#34;bat Spells&#34;\r<br />\r<br />This should erase the spells.\r<br />\r<br />Now you will have to make sure you have a way to get those spells back because you will lose them all, so make a text file and name it whatever you want.\r<br />\r<br />Then type &#34;player.addspell&#34; And then put a space, copy and paste that on a seperate line each time, for every spell you would like to add. Then go to the skyrim wiki and copy and  paste the spell ID code after the space of each line. then you can save it and put it in the data folder and run it, this will then add all those spells to your inventory.",
+  "categoryId": "95",
+  "version": "1",
+  "author": "jailbreaker1220",
+  "createdUnix": "1388988449",
+  "updatedUnix": "1388988431",
+  "containsAdultContent": false,
+  "uploadedBy": "jailbreaker1220",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000090151",
+      "name": "Remove",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Remove-49591-1.zip",
+      "uploadedUnix": "1388988431",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/8a13358e00a0f3b72800c91657b483c8b69b306e95b45ef801fa2cd04c4e4fa4/analysis/1407874445/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Remove-49591-1.zip?fid=1000090151&ttl=1535830617&ri=8192&rs=8192&setec=8949736dc3b4964917d6c57e941ec08e"
+    }
+  ]
+}

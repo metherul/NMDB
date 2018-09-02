@@ -1,0 +1,32 @@
+{
+  "modId": 74141.0,
+  "modName": "Anti Magic Barrier and Necromantic Healing Aura for Requiem",
+  "summary": "This is my own personal mod that I made to play together with requiem that I&#39;m sharing here. It adds spells for Necromantic empowerment aura (Basically undead versions of healing aura) in conjuration and an upkeep style ward for restoration",
+  "descriptionHtml": "Ever wondered who uses wards? I sure don&#39;t, because they cost too much magicka, I have to sacrifice dual casting goodness for offense spells, and enemy magic projectiles hit too fast and hard for me to time block with wards (also the charge up time). I&#39;m a milk drinker so I thought why not I make an upkeep style ward where you don&#39;t have to worry about such things and so here it is. Inside the esp also comes with another spell which is just an undead version of the healing aura because if you can have necromantic empowerment spells to heal undead, why can&#39;t you have an aura version of it? Also I don&#39;t want too many esps so I just dumped all the stuff I made in one esp.\r<br />\r<br />[u]\r<br />Spells\r<br />\r<br />[/u]These are spells that I made for myself to add to my Requiem game and I thought I share it here. They are by no means polished, I only know how to fill up fields in TES5Edit. Spells added are:\r<br />\r<br />[b]Conjuration[/b]\r<br />Necromantic Empowerment Aura I, II, III, IV (These are just healing aura equivalents for vampire player characters. Think of them as undead versions)\r<br />[b]\r<br />Restoration[/b]\r<br />Anti Magic Barrier\r<br />Its an adept level ward upkeep spell that lasts as long as you have magicka. Upkeep cost is 15, absorbs 45 points of damage from spells, and grants 3% magic resistance when empowered. The shielding effect and magic resistance scale with power. This is weaker than the ward equivalent you could get at adept level which offers 60 points of absorption and some armor. This is to balance it somewhat since you can just toggle it on and dual cast stuff away.\r<br />\r<br />[b]NOTE: I haven&#39;t play tested this much so I&#39;m not sure how OP or balanced this spell is. I would appreciate any feedback you would have so I can tweak upkeep costs, magnitude of the ward etc to make it not terribly OP and not as bad as normal wards. The idea isn&#39;t to replace normal wards, but instead offer an alternative to people who like me don&#39;t want to give up dual casting/can&#39;t stand how wards are normally/are milk drinkers etc.\r<br />\r<br />[/b][u]How to Obtain in game\r<br />[/u]They should be for sale at magic vendors. I added them to the leveled lists. You would need to meet the level requirement before they show up though at the vendors. It&#39;s also like a chance thing. Or you could just add them via console. I would have added them to the choose 2 spells to study list when taking the appropriate perk but I have apocalypse which edits those lists and hence I&#39;m lazy to add it in, or make a compatibility patch for this and apocalypse. Maybe i&#39;ll do that, eventually.\r<br />[u]\r<br />Requirements\r<br />[/u]Requiem.esp (I&#39;m using 1.9.3)\r<br />Dawnguard.esm\r<br />\r<br />[u]Installation\r<br />[/u]Use MO/NMM or just drop the contents in the data folder. Don&#39;t forget to run the reqtificator.\r<br />\r<br />[u]Uninstallation\r<br />[/u]Just remove the stuff from the data folder or use NMM/MO. There are no scripts, feel free to remove anytime, it won&#39;t break anything though you might wanna use Grimy Utilities or console to forget the spell if you want to be extra cautious. I doubt that&#39;ll make a difference. Just don&#39;t forget to rerun reqtificator again after uninstallation or you&#39;ll have missing masters.\r<br />\r<br />[u]Load Order\r<br />[/u]Load it after Requiem.esp and its DLC patches.\r<br />\r<br />[u]Credits[/u]\r<br />Xarrian and Ogerboss for the wonderful mod of Requiem\r<br />Bethesda for the game\r<br />Those TES5Edit guys, could never make this without it\r<br />\r<br />[u]Misc\r<br />[/u]The Anti Magic Barrier uses the Dawnguard rune shield effect. I tried making it a different color like blue-ish but unfortunately i&#39;m no modeller. I&#39;m not even a modder lol. So it looks mostly like the rune shield effect. If someone knows how to make it blue, or have a better alternate visual that I might use, please feel free to make suggestions and I&#39;ll be more than happy to implement it.",
+  "categoryId": "75",
+  "version": "0.1a",
+  "author": "thirteenisnotunlucky",
+  "createdUnix": "1457707113",
+  "updatedUnix": "1457707103",
+  "containsAdultContent": false,
+  "uploadedBy": "thirteenisnotunlucky",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000198969",
+      "name": "Requiem-NecEmpAura and AntiMagBarrier",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "40",
+      "fileName": "Requiem-NecEmpAura and AntiMagBarrier-74141-.rar",
+      "uploadedUnix": "1457707103",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/013b8a88d24d84e185bd2a3b9ab2ef072d58a7dbac7123d09107b355a75d197b/analysis/1457707144/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem-NecEmpAura%20and%20AntiMagBarrier-74141-.rar?fid=1000198969&ttl=1535862898&ri=8192&rs=8192&setec=5f5426d24575086b944e01d14fdc1633"
+    }
+  ]
+}

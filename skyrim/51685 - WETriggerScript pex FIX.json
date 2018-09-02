@@ -1,0 +1,32 @@
+{
+  "modId": 51685.0,
+  "modName": "WETriggerScript pex FIX",
+  "summary": "WETriggerScript Fix",
+  "descriptionHtml": "This File Should Be Placed In &#34;:Steam_SteamApps_common_Skyrim_Data_Scripts&#34;\r<br />\r<br />UPDATE: THIS FILE COMES FROM ATLAS MAPS, SO IF YOU WANT A FIX GO OVER TO THE AUTHOR&#39;S PAGE AND LET THEM KNOW AS i HAVE DONE AFTER FINALLY FIGURING OUT WHERE THE FILE CAME FROM.\r<br />USE IT OR NOT USE IT THIS IS HERE FOR THOSE THAT WANT TO USE NO ONE IS TWISTING YOUR ARM TO DOWN LOAD IT. IT WORKS FOR ME AND i HAVE NO PROBLEMS SO I GAVE TO THE COMMUNITY A FIX FOR A PROBLEM THAT NO ONE ELSE WOULD ADDRESS: THANKS FOR VISITING MY PAGE.\r<br />\r<br />I&#39;m no expert about these things and I&#39;ve searched all over the net for an answer to the problem, WeTriggerSript ERROR (................) Blah Blah..........\r<br /> \r<br />So here&#39;s what I did I looked all over the net and everyone says oh go look in C:UsersLoganSniperAppDataLocalSkyrimplugin.ini and check for double skyrim.esm listed there and remove one of them and then all will be good, NOT&#33;&#33;&#33;&#33;&#33;&#33;&#33;&#33;&#33;. It wasn&#39;t there.\r<br /> \r<br />So then as a last ditch effort I searched for a script called What? That&#39;s right &#34;WETriggerScript.pex&#34;. Now the quick and dirty of it all is just a single edit to the script as Follows:\r<br /> \r<br />&#34;getMyHoldFactionControllerMarker ETX Off&#34; This is the default setting, but I set this to &#34;ON&#34; and then went in to the game and ran all over the place both in Solstheim and in Skyrim and never again did I get the error message.\r<br /> \r<br />Now the editor I used was Notpad ++ and this entry is found on line 2 of the editor about the middle of the line starting with &#34;OnCellLoad&#34;\r<br /> \r<br />I don&#39;t know if this is a cure all for this problem or not but it seems to be working really well for me right now so I hope this helps Someone or maybe gives someone that has more knowledge than I the means to finally put this beast to rest and fix this problem properly.\r<br />\r<br />Please Leave Feed Back Post On how this Worked For you or if you found something that works Better.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "LoganWolverine",
+  "createdUnix": "1393787662",
+  "updatedUnix": "1393787639",
+  "containsAdultContent": false,
+  "uploadedBy": "LoganWolverine",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000099501",
+      "name": "WETriggerScript ",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "WETriggerScript -51685-1-0.rar",
+      "uploadedUnix": "1393787639",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d3343819b3543fc547547b30d3756151c0ff9008fd6f848e8b9b77e2d595218d/analysis/1407957249/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/WETriggerScript%20-51685-1-0.rar?fid=1000099501&ttl=1535834254&ri=8192&rs=8192&setec=971db3b349882a9e422b4f8180929e27"
+    }
+  ]
+}

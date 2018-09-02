@@ -1,0 +1,32 @@
+{
+  "modId": 85045.0,
+  "modName": "Dynamic Treasury Resource",
+  "summary": "Tool kit that allows you to set up dynamic treasure vaults which grow with statically displayed wealth as you add gold and other treasure to the vault container.",
+  "descriptionHtml": "This is a small asset and resource kit I put together based on my treasury vault in Legacy of the Dragonborn. This resource will allow you to create a treasure hoard which fills as you add loot to it. As you add wealth to the vault, display items will enable in 16 different tiers up to 2 million septims. Contains all assets from other resource packs as shown as well as example cell and prefab which you can cut, paste and place and go.\r<br />\r<br />HOW IT WORKS:\r<br />- Simply merge the TreasureVaultResource.esp with your plugin\r<br />- Open up your plugin and go to cell TR_TestCell\r<br />- Here you will find an example treasure room completely set up and ready to go. console COC TR_TestCell to try it out. add some gold via console and add it to the treasury ledger. As you add gold, the loot will appear in the room. Removing wealth will also disable loot assets.\r<br />- After you have finished implementing your treasury you can delete the TR_TestCell from your ESP.\r<br />\r<br />SET UP:\r<br />- there are 16 floor tile segments in the demo cell which have all of the grouped assets as seen in the example cell, starting with VaultLoot01 on the top left and ending with VaultLoot16 on the bottom right. There is also a ledger (container)\r<br />- Copy all of the assets and book, and then paste them into your own cell. \r<br />- Delete the floor sections that get copied with them\r<br />- Starting with VaultLoot01 start placing the loot where you want it displayed when enabled. \r<br />- As long as you go in group order with placement you can pile loot on top of each other. Going in order ensures that you don&#39;t end up with floating assets when one group is visible and another is not.\r<br />\r<br />ADDING TO THE SETUP:\r<br />- Before copying and pasting the 16 groups, you can customize the groups as you see fit. Include assets of your own or copy and add extra instances of treasure show above the 16 groups. \r<br />- Any item you add to a group should have ENABLE STATE PARENT linked to the VaultLoot parent item of that group which is the borrom left most item on each tile. Then when that parent item is enabled when you reach a benchmark, all items enable linked to it will also enable.\r<br />\r<br />VARIATIONS:\r<br />In this setup we use a treasury ledger as the vault container, but you could use any model you want such as a wall of iron bars with all the loot behind it or a treasure chest or lock box, whatever you like. Simply edit the treasury ledger, change the name to what you want and change the model.\r<br />\r<br />There are also 3 variant scripts provided the the resources folder. By default this mod comes configured with option B. Simply copy the version you want from the resource sub folder and paste it inside your /Script folder for your mod.\r<br />\r<br />- Option A : Allows ONLY septims to add to the treasure displays\r<br />- Option B : Allows septims, silver and gold treasure loot, thieves guild loot, gold and silver ingots, gems and jewelry all to add their base value to the treasury total, expanding what is shown\r<br />- Option C : Requires SKSE and allows all items above PLUS treasure from More Interesting Loot, Skyrim Coin Replacer, and Immersive Jewelry to all add to the loot display",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "Icecreamassassin",
+  "createdUnix": "1499132522",
+  "updatedUnix": "1499132432",
+  "containsAdultContent": false,
+  "uploadedBy": "icecreamassassin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000248473",
+      "name": "Treasure Vault Resource Pack",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "25618",
+      "fileName": "Treasure Vault Resource Pack-85045-1-0.rar",
+      "uploadedUnix": "1499132432",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6a9575581911c350790fb191c7cffec6f6abbf44048395eb4722d58d4371bbad/analysis/1499132731/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Treasure%20Vault%20Resource%20Pack-85045-1-0.rar?fid=1000248473&ttl=1535873882&ri=8192&rs=8192&setec=4539c7fd35243df134d06afe6f4d67a1"
+    }
+  ]
+}

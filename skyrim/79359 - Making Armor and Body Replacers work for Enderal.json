@@ -1,0 +1,32 @@
+{
+  "modId": 79359.0,
+  "modName": "Making Armor and Body Replacers work for Enderal",
+  "summary": "fitting cbbe, unp and uunp to Enderal",
+  "descriptionHtml": "This is possibly not flawless and I&#39;ve not played the full game of Enderal yet but so far it is working and so i am sharing this here for people to try if they wish.\r<br />\r<br />So you have installed your body replacer and armor as you normally would but either your character of some of the npc&#39;s are nude or statues.There is a minor glitch with two of the races in Enderal that needs to be addressed in your armor replacers .esp.\r<br />\r<br />Install &#34;TES5Edit&#34;\r<br />http://www.nexusmods.com/skyrim/mods/25859/?\r<br />\r<br />Install&#34;Automation Tools for TES5Edit&#34;\r<br />http://www.nexusmods.com/skyrim/mods/49373/?\r<br />\r<br />also remember to install &#34;FNIS Patch for Enderal&#34;\r<br />http://www.nexusmods.com/skyrim/mods/76979/?\r<br />\r<br />If you have installed these Mods, then start TES5Edit, deselect all Mods and select Remodeled Armor - Vanilla Replacer.esp\r<br />1: Click on Remodeled Armor - Vanilla Replacer.esp\r<br />2: Click on ArmorAddon and select all\r<br />3: Right click and select Apply Script\r<br />4: Select - Script AT - Quickchange\r<br />5: As function chose ElementAssign\r<br />6: In the Field Path write MODL\r<br />7: In the Field Value write [RACE:00033899] and click ok\r<br />8: Repeat Step 1 to 6, but now write in the Field Value [RACE:00033898] and Click Ok\r<br />Close TES5Edit\r<br />\r<br />(If you use Mod Organizer double click on Overwrite and delete all files)\r<br />\r<br />Run FNIS and tick the first two checkboxes and run\r<br />Close FNIS.\r<br />\r<br />(If you use Mod Organizer right click on Overwrite, click on create a new mod and call it Enderal FNIS. Activate it.\r<br />Ensure Enderal FNIS is the last mod in your Loadorder)\r<br />\r<br />Open Bodyslide and Outfit Studio and run as normal\r<br />\r<br />And that is it, play Enderal.",
+  "categoryId": "111",
+  "version": "1",
+  "author": "Chainskleft",
+  "createdUnix": "1476249908",
+  "updatedUnix": "1476249891",
+  "containsAdultContent": false,
+  "uploadedBy": "Chainskleft",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000223907",
+      "name": "Enderal and Bodyslide with TES5edit",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Enderal and Bodyslide with TES5edit-79359-1.7z",
+      "uploadedUnix": "1476249891",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/37b1e0e7079e6c5dcbb78c0dbaa305c0cb468f6ec4626beedaacb3380e054ce7/analysis/1476249902/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Enderal%20and%20Bodyslide%20with%20TES5edit-79359-1.7z?fid=1000223907&ttl=1535868033&ri=8192&rs=8192&setec=ee171cfc76b487fd3571dfba0d456788"
+    }
+  ]
+}

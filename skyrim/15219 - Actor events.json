@@ -1,0 +1,32 @@
+{
+  "modId": 15219.0,
+  "modName": "Actor events",
+  "summary": "This is a ESM mod utility required by some of my mods. It tracks actors around the player.",
+  "descriptionHtml": "Name: Actor events\r<br />Version: 0.5\r<br />Date: 15 April 2012\r<br />Category: Gameplay effects and changes\r<br />Requirements:\r<br />   Skyrim 1.5.26.0.5\r<br />Author: kuertee\r<br />Source: http://skyrim.nexusmods.com/downloads/file.php?id=15219\r<br />\r<br />[center][img width=100,height=100]http://static-4.nexusmods.com/15/mods/110/images/65163-1-1430071915.png[/img][/center]\r<br />\r<br />Short description\r<br />=================\r<br />This is a ESM mod utility required by some of my mods. It tracks actors around the player.\r<br />\r<br />Gameplay changes\r<br />================\r<br />None. This is a ESM mod utility required by some of my mods. It tracks actors around the player.\r<br />\r<br />Details\r<br />=======\r<br />   The mod polls for actors around the player attaching a Script to them that propagates Events to 3rd-party Quest\r<br />   Scripts.\r<br />\r<br />   Modders can use this ESM to save from creating a separate Quest with a list of Aliases.\r<br />\r<br />   The 3rd-party ESP will need to use this ESM as a Master and their Quest Script will need to Extend kuAEBaseQS.\r<br />   E.g.: My Actor Fight Or Fly mod uses this ESM to keep track of combatants.\r<br />   The main Quest Script in that is declared like this: Scriptname kuAFOFQS extends kuAEBaseQS.\r<br />\r<br />   A property that points to Actor events is required. E.g.: kuAEQS Property questActorEvents Auto\r<br />\r<br />   Then the Quest will need to register itself to Actor events with: questActorEvents.registerForEvents (self).\r<br />\r<br />   The Events below become active in that 3rd-party Quest Script. It&#39;s best to copy and paste the required Events from\r<br />   the kuAEBaseQS Script.\r<br />\r<br />   OnActorInit (Actor actorRef)\r<br />   OnActorActivate(Actor actorRef, ObjectReference akActionRef)\r<br />   OnActorCombatStateChanged(Actor actorRef, Actor akTarget, int aeCombatState)\r<br />   OnActorDeath (Actor actorRef, Actor killerRef)\r<br />   OnActorEnterBleedOut (Actor actorRef)\r<br />   OnActorHit (Actor actorRef, ObjectReference akAggressor, Form akSource, Projectile akProjectile, bool abPowerAttack,\r<br />      bool abSneakAttack, bool abBashAttack, bool abHitBlocked)\r<br />   OnActorMagicEffectApply(Actor actorRef, ObjectReference akCaster, MagicEffect akEffect)\r<br />   OnActorSpellCast(Actor actorRef, Form akSpell)\r<br />   OnActorRemoved (Actor actorRef)\r<br />\r<br />   Also, the 3rd-party Quest Script can call these functions from questActorEvents:\r<br />\r<br />   Actor [] Function getActors ()\r<br />   Actor [] Function getDeadActors ()\r<br />   Float Function getActorTimeDead (Actor actorRef)\r<br />\r<br />   Download my mod Actor Fight or Fly and view the kuAFOFQ Quest for a sample of how this works.\r<br />\r<br />   What&#39;s the advantage of using this? All actors in the player&#39;s vicinity will be passed to the 3rd-party Quest Script\r<br />   without the need for setting up Aliases.\r<br />\r<br />Install\r<br />=======\r<br />Use Wrye Bash (http://skyrim.nexusmods.com/downloads/file.php?id=1840) to install this mod.\r<br />Just drag the package (which is a normal ZIP file) into Wrye Bash&#39;s Installers tab.\r<br />Activate the mod.\r<br />However, the package is only a normal ZIP file, so if you know the game&#39;s mod file structure, install it manually.\r<br />\r<br />Uninstall\r<br />=========\r<br />In the console, type &#34;setpqv kuaeq uninstallNow True.&#34;\r<br />Wait a few seconds, save the game.\r<br />Deactivate the mod with Wrye Bash.\r<br />If you installed this manually, simply delete all the files you installed.\r<br />(Wrye Bash keeps track of files used, so installing/uninstalling the mod with it is 100% simpler.)\r<br />\r<br />Credits\r<br />=======\r<br />kuertee in http://www.bethsoft.com/bgsforums/\r<br />\r<br />Tools Used\r<br />==========\r<br />Creation kit - http://www.creationkit.com\r<br />\r<br />Licensing/Legal\r<br />===============\r<br />You can do whatever you want with this mod but all I ask in return is that you give me credit. I would also like to be\r<br />contacted when you include this mod in part or in full in a public release.",
+  "categoryId": "24",
+  "version": "0.5",
+  "author": "kuertee",
+  "createdUnix": "1334494612",
+  "updatedUnix": "1334494735",
+  "containsAdultContent": false,
+  "uploadedBy": "kuertee",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "53406",
+      "name": "kuertee Actor events 0p5",
+      "version": "0.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "21",
+      "fileName": "kuertee Actor events 0p5-15219.zip",
+      "uploadedUnix": "1334494735",
+      "modVersion": "0.5",
+      "virusScanUrl": "https://www.virustotal.com/file/d6a96df614bbc629865535b21e648356b221906f73262deecfa6289d64ef7af2/analysis/1406816826/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/kuertee%20Actor%20events%200p5-15219.zip?fid=53406&ttl=1535779460&ri=8192&rs=8192&setec=bac98d986db4dbdb7e79e6184b6c3642"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 82427.0,
+  "modName": "LUT - overall color enhancement for all ENBs",
+  "summary": "This is a simple modification for all ENBs. It changes and replaces all colors you can see ingame with the ones in your LUT (Look Up Table).",
+  "descriptionHtml": "Disclaimer:\r<br />The code was not written by me, I took it from these two sites: [url=http://enbseries.enbdev.com/forum/viewtopic.php?f=7&t=4394]1[/url] [url=http://skyrimshot.blog.fc2.com/blog-entry-78.html]2\r<br />[/url]\r<br />[b][color=#f4f4f4][size=3]Description:[/size]\r<br />[/color][/b]\r<br />Ever wonder how enb presets like [url=http://www.nexusmods.com/skyrim/mods/70451/?]Snapdragon Prime[/url] enable usage of multiple different &#34;flavored&#34; presets?\r<br />\r<br />LUTs are a simple modification for all ENBs. It changes and replaces all colors you can see ingame with the ones in your LUT ([url=http://nofilmschool.com/2011/05/what-is-a-look-up-table-lut-anyway]Look Up Table[/url]). \r<br />It also affects: saturation, brightness, contrast and other image properties.\r<br />\r<br />You can also edit the values above freely like in photoshop, using tools like paint.net, GIMP or PS.\r<br />\r<br />All it requires is a little easy rewriting and copy-pasting by you.\r<br />\r<br />[b][size=3]Instructions:\r<br />\r<br />[/size][/b]1. Open your enbeffect.fx, which is located in Skyrim&#92; or Skyrim&#92;enbseries&#92; with an editor, e.g. wordpad.\r<br />\r<br />2. Find (ctrl + f) the part of code that looks approximately like this:\r<br />\r<br />[spoiler]\r<br />#ifdef E_CC_PALETTE\r<br />color.rgb=saturate(color.rgb);\r<br />float3 brightness=Adaptation.xyz;//tex2D(_s4, 0.5);//adaptation luminance\r<br />// brightness=saturate(brightness);//old version from ldr games\r<br />brightness=(brightness/(brightness+1.0));//new version\r<br />brightness=max(brightness.x, max(brightness.y, brightness.z));//new version\r<br />float3 palette;\r<br />float4 uvsrc=0.0;\r<br />uvsrc.y=brightness.r;\r<br />uvsrc.x=color.r;\r<br />palette.r=tex2Dlod(_s7, uvsrc).r;\r<br />uvsrc.x=color.g;\r<br />uvsrc.y=brightness.g;\r<br />palette.g=tex2Dlod(_s7, uvsrc).g;\r<br />uvsrc.x=color.b;\r<br />uvsrc.y=brightness.b;\r<br />palette.b=tex2Dlod(_s7, uvsrc).b;\r<br />color.rgb=palette.rgb;\r<br />#endif //E_CC_PALETTE\r<br />[/spoiler]\r<br />3. Replace it with this code:\r<br />\r<br />[spoiler]\r<br />#ifdef E_CC_PALETTE\r<br />float2 CLut_pSize = float2(0.00390625, 0.0625);// 1 / float2(256, 16);\r<br />color.rgb = saturate(color.rgb);\r<br />color.b *= 15;\r<br />float4 CLut_UV = 0;\r<br />CLut_UV.w = floor(color.b);\r<br />CLut_UV.xy = color.rg * 15 * CLut_pSize + 0.5 * CLut_pSize ;\r<br />CLut_UV.x += CLut_UV.w * CLut_pSize.y;\r<br />color.rgb = lerp( tex2Dlod(_s7, CLut_UV.xyzz).rgb, tex2Dlod(_s7, CLut_UV.xyzz + float4(CLut_pSize.y, 0, 0, 0)).rgb, color.b - CLut_UV.w);\r<br />#endif //E_CC_PALETTE\r<br />[/spoiler]\r<br />4. Delete and replace your old enbpalette (also located in either Skyrim&#92; or Skyrim&#92;enbseries&#92;) with a LUT from this mod.\r<br />\r<br />[size=3][b]Requirements:\r<br />\r<br />[/b][/size]An ENB. Duh.\r<br />\r<br />[size=3][b]Compability:\r<br />\r<br />[/b][/size]All ENBs (afaik).\r<br />\r<br />\r<br />[b][size=3]Edit and make your own LUT:[/size][/b]\r<br />\r<br />1. First of all, take a screenshot of your skyrim which ideally represents a balanced color and lighting environment that you generally see. (while using a LUT)\r<br />\r<br />2. Edit this picture in Paint.net/GIMP/PS to whatever look you want. A few things you can tweak for example are brightness, contrast, saturation, color balance. Memorize/save/write down the increments and which edits you made.\r<br />\r<br />3. Make the same edits to the LUT you used while taking the screenshot.\r<br />\r<br />\r<br />Credits:\r<br />\r<br />Boris Vorontsov for ENB\r<br />[url=http://enbseries.enbdev.com/forum/viewtopic.php?f=7&t=4394]kingeric1992 and enbseries forum users[/url]\r<br />[url=http://skyrimshot.blog.fc2.com/blog-entry-78.html]This japanese website[/url]",
+  "categoryId": "97",
+  "version": "1",
+  "author": "Cantregisterlol",
+  "createdUnix": "1488126461",
+  "updatedUnix": "1488126457",
+  "containsAdultContent": false,
+  "uploadedBy": "Cantregisterlol",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000237455",
+      "name": "LUT pack",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8157",
+      "fileName": "LUT pack-82427-1.rar",
+      "uploadedUnix": "1488126457",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/2705afa4b0288029a8eb73ef10810852fef261f73a10b48f5f308aadec9c9f1a/analysis/1488126729/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LUT%20pack-82427-1.rar?fid=1000237455&ttl=1535871168&ri=8192&rs=8192&setec=edb749955e39e1f530a456e1e9a133b8"
+    }
+  ]
+}

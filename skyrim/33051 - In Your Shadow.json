@@ -1,0 +1,48 @@
+{
+  "modId": 33051.0,
+  "modName": "In Your Shadow",
+  "summary": "Intelligent main quest stopper. Allows you to choose in-game wether you want to have the main quest and dragonborn powers.",
+  "descriptionHtml": "In Your Shadow adds an in-game option to play without dragonborn powers, and to stop the main quest right after becoming thane of Whiterun, without any indication that the player is a dragonborn. The mod still lets you choose to be a dragonborn, if you so desire. This means that you can switch between “dragonborn” and “common peasant” characters, without having to change your mod load order.\r\n\r\nImportant\r\nIf you have an existing character who has already learnt words of power, BE CAREFUL when installing this mod. If you choose not to be a dragonborn on that character, the visual and sound effects of the word walls you have already visited will become stuck on with no way to turn them off.\r\nRequired: Skyrim 1.8\r\nOptional: SkyUI 3 or later (for the Mod Configuration Menu)\r\nOptional: Dawnguard\r\nOptional: Dragonborn\r\n\r\nOverview\r\nWhen you start a new game, or load an existing game for the first time after installing this mod, you will receive a lesser power called “Dragonborn Awakening”. Using this power brings up a simple question, asking you whether you want to be a dragonborn. If you answer yes, you are granted an invisible perk, and the menu disappears, never to be seen again (unless you use the Mod Configuration Menu – see below). If you answer no, you do not get the perk, and the menu also disappears.\r\nIf you are a dragonborn, all word walls are enabled as usual, you can absorb dragon souls, and the main quest will proceed normally. If you are not the dragonborn, all word walls are simply there for decoration, dragon corpses remain intact, and the main quest ends at Dragon Rising. Dragon Rising itself will be a little more streamlined.\r\n\r\nDLCs\r\nThe Dawnguard patch extends the mod’s functionality to Dawnguard’s word walls and adds an experimental (untested) measure to stop Durnehviir from respawning and addressing the player when you’re not a dragonborn.\r\nThe Dragonborn patch extends the mod’s functionality to Dragonborn’s word walls and fixes an incompatibility relating to the MQKillDragon script.\r\n\r\nCompatibility & problems\r\nThis mod edits the base forms for word wall triggers and sounds. I don’t know of another mod that does that. A patch for Freedom of Speech is not required.\r\nThis mod edits two quests: MQ104 (Dragon Rising) and MQKillDragon, along with some related scripts.\r\n\r\nMod Configuration Menu\r\nThis mod comes with a basic config menu (SkyUI required to use the menu).\r\n-Enable Dragons: Allows you to toggle random dragons at any time. Dragons are not automatically enabled when you’re not a dragonborn, so use this option if you want them.\r\n-Re-add Menu Power: Lets you bring up the menu again, so you can choose once more, if you’ve changed your mind. I don’t recommend using this feature after you’ve slain Mirmulnir.\r\nDisable/enable all word walls: For debugging reasons, mainly. You don’t need these options during normal gameplay. Don’t enable all word walls if you’ve already learnt any words, because that will bug the walls in the manner described above. You could try to fix it by disabling all word walls. If you chose not to be a dragonborn and you want to uninstall the mod, it’s best to run “Enable all word walls” right before uninstalling.\r\n\r\nAcknowledgements\r\nInspired by [url=17634]Moon-and-Star Ring – Morrowind Lore Friendly[/url]\r\nThanks to Arthmoor for answering some questions many months ago\r\nTools used: Creation Kit, TES5Edit, Bulk File Changer, Microsoft OneNote",
+  "categoryId": "28",
+  "version": "1.1",
+  "author": "Thingy Person",
+  "createdUnix": "1362867147",
+  "updatedUnix": "1363193041",
+  "containsAdultContent": false,
+  "uploadedBy": "Thingy Person",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000016560",
+      "name": "In Your Shadow v1",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "115",
+      "fileName": "In Your Shadow v1-33051-1.zip",
+      "uploadedUnix": "1362947188",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/f7ead367dc69a9ea4f117355a89da32d3ad50f96e954f8396b7424b07897bb2f/analysis/1407463570/",
+      "changelogHtml": " Initial release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/In%20Your%20Shadow%20v1-33051-1.zip?fid=1000016560&ttl=1535809936&ri=8192&rs=8192&setec=cd821b54dc65371069870551be628eb8"
+    },
+    {
+      "fileId": "1000017211",
+      "name": "In Your Shadow v1-1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "158",
+      "fileName": "In Your Shadow v1-1-33051-1-1.zip",
+      "uploadedUnix": "1363193041",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/a236c978ea28d712493bb5502cd657590764cc5d4c3399044577d02d6989b34a/analysis/1407467582/",
+      "changelogHtml": " Fixed a script error preventing completion of the Golden Claw quest <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/In%20Your%20Shadow%20v1-1-33051-1-1.zip?fid=1000017211&ttl=1535809937&ri=8192&rs=8192&setec=d988f10c4ab223ff1ce113b76bc65c35"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 21933.0,
+  "modName": "Vampire Lord drain with Serana fixed",
+  "summary": "Fixes a troublesome bug with serana and vampire lords",
+  "descriptionHtml": "From http://www.uesp.net/wiki/Skyrim:Serana\r\n\r\n\\\"The vampiric drain spell can become much less effective when Serana is your companion. The observed symptom is significantly less damage in vampire lord form while casting drain when Serana is your companion.\\\"\r\n\r\nApparently for some inane reason bethesda put a conditional on the Vampire Lord\\'s drain damage that serana cannot be a follower. If she\\'s a follower, the larger portion of the damage won\\'t be triggered.\r\n\r\nThis rather simple esp seeks to repair that, by removing the conditional that shouldn\\'t even be there in the first place.\r\n",
+  "categoryId": "95",
+  "version": "1",
+  "author": "Thivus",
+  "createdUnix": "1344394462",
+  "updatedUnix": "1344394722",
+  "containsAdultContent": false,
+  "uploadedBy": "Thivus",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "79610",
+      "name": "Vampire Lord Serana Fixed",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Vampire Lord Serana Fixed-21933-1.7z",
+      "uploadedUnix": "1344394722",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/3797171a1d8466a38b39a49c1b1b606844c98fffbe90b8d21a8275d5453945e9/analysis/1407078192/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vampire%20Lord%20Serana%20Fixed-21933-1.7z?fid=79610&ttl=1535791155&ri=8192&rs=8192&setec=34d909463b75dd0b1698ee9ecd078379"
+    }
+  ]
+}

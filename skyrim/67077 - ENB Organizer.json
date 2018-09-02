@@ -1,0 +1,48 @@
+{
+  "modId": 67077.0,
+  "modName": "ENB Organizer",
+  "summary": "ENB Organizer helps you manage and install your ENB/SweetFX/FXAA presets/binaries for any game. It is continuously being expanded to act as a comprehensive ENB tool suite.",
+  "descriptionHtml": "[img]http://blusharkmedia.com/ENB/banner.png[/img]\r<br />\r<br />[size=5][b][color=#1e84cc]Features[/color]\r<br />[/b][/size][list]\r<br />[*][size=3]Supports any game (ENB Organizer will try to auto-detect if some games are installed and add them for you automatically)[/size]\r<br />[*][size=3]Quickly enable/disable any preset for testing, screenshots, etc.[/size]\r<br />[*][size=3]Quickly install ENBoost[/size]\r<br />[*][size=3]Global enblocal.ini [/size]\r<br />[*][size=3]Allows you to [b]Sync[/b] your preset so that changes made in-game are copied back to the preset[/size]\r<br />[*][size=3]Optional separation of binary files and presets[/size]\r<br />[*][size=3]Customizable preset cards[/size]\r<br />[*][size=3]Intuitive, modern user interface based on Google&#39;s Material Design[/size]\r<br />[*][size=3]Automatically informs you when there is an update available on the Nexus[/size]\r<br />[*][size=3]Lightweight (you just need to download and run the .exe file)[/size]\r<br />[/list]\r<br />[color=#1e84cc][size=5][b]Requirements[/b][/size][/color]\r<br />[list]\r<br />[*][size=3]Requires .NET Framework 4.5. You likely already have this; if not, it&#39;s easy to install.[/size]\r<br />[*][size=3]Run ENB Organizer as administrator for best results. [/size]\r<br />[/list]\r<br />[color=#1e84cc][size=5][b]Installing & Updating[/b][/size][/color]\r<br />[list]\r<br />[*][size=3]To [b]install[/b]: download and run ENB Organizer.exe anywhere[/size]\r<br />[*][size=3]To [b]update[/b]: download and replace ENB Organizer.exe[/size]\r<br />[*][size=3]To [b]uninstall[/b]: delete the .exe file and .xml data, as well as this folder: C:&#92;Users&#92;[username]&#92;AppData&#92;Local&#92;ENBOrganizer [/size]\r<br />[size=3]\r<br />[/size][/list][size=3][i]Note: Your presets and data will be stored in the same folder as ENB Organizer.exe. You can move the application and data anywhere at any time, as long as they stay in the same folder.\r<br />[/i][/size]\r<br />[color=#1e84cc][size=5][b]Tips for Everyone[/b][/size][/color]\r<br />[size=3]The user interface was designed to be highly intuitive. Please let me know if anything is unclear as I would rather update the application than write documentation on how to use the app.\r<br />\r<br />That said, here are a few basic tips for understanding the UI and terminology:\r<br />[/size][list]\r<br />[*][size=3]Hover over a button with your mouse to see a tooltip describing what it does[/size]\r<br />[*][size=3]The [b]master list[/b] is simply a list of all known ENB files and folders. This is used to know what files to look for when adding a preset via [b]Import Installed Files[/b]. As of v2, most users won&#39;t have to worry about the master list as it is maintained automatically. [/size]\r<br />[*][size=3]If you make changes to your preset while in-game, use the [b]Sync[/b] button on the Presets page to copy those changes back to your preset[/size]\r<br />[*][size=3]You can separate presets and binaries, or you can simply include the binary files in your preset and forget the binaries section altogether[/size]\r<br />[/list]\r<br />[b][color=#1e84cc][size=5]Tips for Advanced Users[/size][/color][/b]\r<br />[list]\r<br />[*][size=3]Data is maintained in .xml files in the application directory, e.g. Preset.xml[/size]\r<br />[*][size=3]Application settings are maintained in C:&#92;Users&#92;[username]&#92;AppData&#92;Local&#92;ENBOrganizer[/size]\r<br />[*][size=3]The source code is available on the [url=https://github.com/SeeSharpCode/ENBOrganizer]ENB Organizer GitHub page[/url]. It&#39;s written in C# using WPF as the front-end. The UI framework being used is [url=http://materialdesigninxaml.net/]Material Design in XAML[/url][/size]\r<br />[/list]\r<br />[color=#1e84cc][size=5][b]A Note to All v1 Users\r<br />[/b][/size][/color][size=3]v2 of ENB Organizer is a drastic change and complete rewrite of v1, primarily due to multi-game support. Because of this, it&#39;s not meant to replace your existing version and will require setting up your presets again in the new version (sorry about that). Some features have been removed/changed to accommodate the multiple game architecture, but some of them may be reintroduced over time. One drastic difference is that I removed the file explorer. A lot of code was required to make that work, and I decided to let Windows Explorer handle that for me to avoid reinventing the wheel.\r<br />[/size]\r<br />[color=#408dd2][size=5][b]Bug Reports & Feature Requests[/b][/size][/color]\r<br />[size=3]Issues are maintained on the [url=https://github.com/SeeSharpCode/ENBOrganizer]ENB Organizer GitHub page[/url]. You can report a bug or request a feature there, or just drop it in the comments, and I&#39;ll transfer it over. [/size]\r<br />\r<br />* Please note this is not associated with Tannin&#39;s excellent Mod Organizer tool. &#34;ENB Manager&#34; was just already taken. :-)\r<br />[size=5][color=#408dd2][b]\r<br />[/b][/color][/size]",
+  "categoryId": "39",
+  "version": "v2.1.1",
+  "author": "Breems",
+  "createdUnix": "1434789038",
+  "updatedUnix": "1469392481",
+  "containsAdultContent": false,
+  "uploadedBy": "Breems",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000164811",
+      "name": "ENB Organizer",
+      "version": "1.0.0.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "476",
+      "fileName": "ENB Organizer-67077-1-0-0-0.zip",
+      "uploadedUnix": "1434789005",
+      "modVersion": "1.0.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/71f2c231f6e1c55bd1bcb7f9e9ec8dd8627f2d5024154d6cc8b5f0e765c72656/analysis/1434789063/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENB%20Organizer-67077-1-0-0-0.zip?fid=1000164811&ttl=1535855515&ri=8192&rs=8192&setec=42fbfedd2c72478b34a7264a8551164c"
+    },
+    {
+      "fileId": "1000214338",
+      "name": "ENB Organizer",
+      "version": "v2.1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2681",
+      "fileName": "ENB Organizer-67077-v2-1-1.zip",
+      "uploadedUnix": "1469392481",
+      "modVersion": "v2.1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/62bbf7d475de61f5e923823e0cb1dd6acf5fb748d724b5bebe3500be8b51cce0/analysis/1469392509/",
+      "changelogHtml": " [feature] Made global enblocal.ini dialog more intuitive\r<br />[feature] Minor UI tweaks <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENB%20Organizer-67077-v2-1-1.zip?fid=1000214338&ttl=1535855515&ri=8192&rs=8192&setec=7971a72fa8071029a2a0e8bec484fdf9"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 42815.0,
+  "modName": "Papyrus Log Viewer",
+  "summary": "Papyrus logs can become very large and be cluttered with countless duplicates of each warning or error. This simple log viewer will only show each entry once, making it easier to get an overview and less likely to miss less common entries among all the duplicates.",
+  "descriptionHtml": "Papyrus logs can become very large and be cluttered with countless duplicates of each warning or error. This simple log viewer will only show each entry once, making it easier to get an overview and less likely to miss less common entries among all the duplicates.\r<br />\r<br />Instructions:\r<br />Uncompress the archive and double click the .jar file.\r<br />\r<br />Requirements:\r<br />Java 7+",
+  "categoryId": "39",
+  "version": "0.9",
+  "author": "sialivi",
+  "createdUnix": "1380025921",
+  "updatedUnix": "1459728363",
+  "containsAdultContent": false,
+  "uploadedBy": "sialivi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000201751",
+      "name": "Papyrus Log Viewer",
+      "version": "0.9",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "833",
+      "fileName": "Papyrus Log Viewer-42815-0-9.rar",
+      "uploadedUnix": "1459728363",
+      "modVersion": "0.9",
+      "virusScanUrl": "https://www.virustotal.com/file/41eeb54e4e2604d699352b52c9e1bfb80edcf1ebea6632adb63867a6a17e731a/analysis/1459728426/",
+      "changelogHtml": " Try a few different character encodings if a log file fails to load, should fix the &#34;Input length = 1&#34; error. <br/> \n Added a file column to the list, listing which file each entry was read from. Only lists a single file, even if duplicate logging information is available in multiple loaded logs. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Papyrus%20Log%20Viewer-42815-0-9.rar?fid=1000201751&ttl=1535823685&ri=8192&rs=8192&setec=438d48969b6569dfcfe04eb88350188e"
+    }
+  ]
+}

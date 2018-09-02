@@ -1,0 +1,48 @@
+{
+  "modId": 19480.0,
+  "modName": "Invisibility Shout",
+  "summary": "Adds a new shout, or a lesser power, that lets you turn invisible for twenty-four hours.",
+  "descriptionHtml": "[center]So I was playing Planetside the other day as an Infiltrator, and thought: \\\"Gee, wouldn\\'t it be great if I could run around Skyrim invisible (for a long period of time without having to recast) like this? I could be naked, and nobody would be the wiser!\\\" And so I set forth to create this mod. \r\n.\r\n.\r\n.\r\n.\r\n[color=red][size=15][b]SHOUT VERSION[/b][/size][/color]\r\nThe shout version is more balanced, and adds a new shout called \\\"Invisibility Cloak\\\". It is linked with the \\\"Become Ethereal\\\" shout, so as you unlock the words for that shout (fiem, zee, gron), you will also unlock the words for the Invisibility shout along side it. So you unlock two shouts for the price of one! I choose the \\\"Become Ethereal\\\" shout because it made the most sense to attach it too, and also because I couldn\\'t figure out how to make a totally new original shout. Both shouts are still separate from each other, just that \\\"Invisibility Cloak\\\" borrows the words for \\\"Become Ethereal\\\". Each rank of the shout is a smaller cooldown, first word is a 30 second, second word is 20, and third word is 10.\r\n\r\nI recommend this version, because it doesn\\'t allow you to easily pop in and out of invisibility during combat, which makes fighting an effortless affair. \r\n(although the power version makes you feel like a ninja)\r\n\r\nNote: If you already have all the words for the \\\"Become Ethereal\\\" shout, you wont automatically unlock the \\\"Invisibility Cloak\\\", what you can do is use console commands and type \\\"help invisibility 0\\\", and find the shout, and use \\\"player.addshout xxxxxxxxx\\\" to add that shout in.\r\n.\r\n.\r\n.\r\n.\r\n[color=red][size=15][b]POWER VERSION[/b][/size][/color]\r\nThe power version gives you a lesser power that lets you do the same thing, but you don\\'t have to find the words of power, or \\\"shout\\\" the ability. Instead it activates instantly without any cooldown. You can find it in a power tome at the Sleeping Giant Inn at Riverwood, just look on the desk in Delphine\\'s room. I\\'m not sure why it\\'s considered stealing to pick it up, just shut the door and snatch it. Or use console commands, type \\\"help invisibility 0\\\", and you should see it as \\\"Power Tome: Invisibility Cloak\\\". Enjoy.\r\n.\r\n.\r\n.\r\n.\r\n[color=red][size=15][b]INSTALLATION[/b][/size][/color]\r\nInstallation? Just use the mod manager, or place the one ESP file in your data folder. Load order shouldn\\'t matter, though I\\'m not sure if it will/will not conflict with any other mods that edit the Sleeping Giant Inn if your using the lesser power version.\r\n\r\nAlso, I haven\\'t figured out how I could make it toggle on and off using the same button (like night eye), so you\\'ll have to hit/activate something. But really, why would you want to be visible?\r\n\r\nOh and I\\'m open to any suggestions, I can tailor this mod to any way you wish, within reason. There are some things I cannot do, for I lack the ability.[/center]",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "PeterTran",
+  "createdUnix": "1340764268",
+  "updatedUnix": "1340827797",
+  "containsAdultContent": false,
+  "uploadedBy": "PeterTran",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "70635",
+      "name": "Invisibility Cloak - Power Version",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Invisibility Cloak - Power Version-19480-1-1.rar",
+      "uploadedUnix": "1340827722",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/6b98e87004077311b27a9b65c9f7ad7d1b892ad8c63d60e02b533fcb1996b86d/analysis/1406986447/",
+      "changelogHtml": " Added a new version, that lets you use a shout instead&#33; Check the description. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Invisibility%20Cloak%20-%20Power%20Version-19480-1-1.rar?fid=70635&ttl=1535786958&ri=8192&rs=8192&setec=565d33fba580e43c5c365a84ab6b97e2"
+    },
+    {
+      "fileId": "70636",
+      "name": "Invisibility Cloak - Shout Version",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Invisibility Cloak - Shout Version-19480-1-1.rar",
+      "uploadedUnix": "1340827797",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/25a42d1dfd06e708118a3ec6d6aaa894ce324f86d52e70c7026ef1cdbd262074/analysis/1406986505/",
+      "changelogHtml": " Added a new version, that lets you use a shout instead&#33; Check the description. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Invisibility%20Cloak%20-%20Shout%20Version-19480-1-1.rar?fid=70636&ttl=1535786958&ri=8192&rs=8192&setec=3e5d01ebbe40630d390270995c100ed4"
+    }
+  ]
+}

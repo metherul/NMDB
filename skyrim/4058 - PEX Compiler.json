@@ -1,0 +1,32 @@
+{
+  "modId": 4058.0,
+  "modName": "PEX Compiler",
+  "summary": "Compiler for scripts in DPEX format.",
+  "descriptionHtml": "This utility compiles DPEX scripts created by using PEX Decompiler, or written from scratch using the same syntax, to PEX scripts usable by the game.\r\n\r\nWindows version uploaded only. Tested only on Windows 7 x64 so far. Untested Linux and OSX versions are available and will upload if there are requests.\r\n\r\n[b]Installation[/b]\r\nWindows: Unpack the MSI file from the RAR archive and then install it.\r\n\r\n[b]Known issues[/b]\r\nTechnology I used to make this utility (Titanium Desktop) worked perfectly for the decompiler but proved to be less than perfectly suitable for the compiler. I was forced to include the PHP module in the application which, aside from a larger download, will also cause problems when trying to run the compiler on machines which have normal PHP installed. To work around this issue, you can rename the PHP directory while using the compiler. This will not affect your local server as PHP is loaded into memory and the directory is no longer needed until the server is restarted. Just remember to restore the name of your PHP directory when done with the compiler or before restarting your server.\r\nAnother negative side-effect of this that the compiler will probably fail when trying to compile a lot of files at once or a single large file. I will try to port as much code which is currently written in PHP to JavaScript for the future versions. This should, hopefully, take some memory stress of the horrible PHP implementation.\r\n\r\n[b]Usage[/b]\r\nJust write a script or pick one decompiled in PEX Decompiler and compile it. The compiler will create a .pex file in the same directory as the source .dpex script. When compiling a script decompiled from an original .pex with full string tables and debug info, the resulting script should be the same as the original .pex except for the two dates that appear in the compiled script and a couple of strings in the header (the name of the source file and several strings with unknown purpose).\r\n\r\nDue to lack of time I\\'ve done only limited testing, hence the version number 0.5. I\\'ve tested recompilation of original .pex files with the first 16 scripts and file compare yielded positive results. I\\'ve only done in-game testing of altered dialoguefollowerscript.pex and it worked as expected. If you run into any bugs, oversights or other kinds of errors, please report them and I will fix them as soon as possible.\r\n\r\n[b]Todo[/b]\r\n[list]\r\n[*] Labels\r\n[*] Math expressions in place of operands\r\n[*] Port as much of output code as possible to JS\r\n[*] More strict validation, maybe\r\n[/list]\r\n",
+  "categoryId": "39",
+  "version": "0.5",
+  "author": "OnelessName",
+  "createdUnix": "1324253178",
+  "updatedUnix": "1324254184",
+  "containsAdultContent": false,
+  "uploadedBy": "OnelessName",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "11862",
+      "name": "PEX Compiler 0 point 5 for Windows",
+      "version": "0.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "21011",
+      "fileName": "PEX Compiler 0 point 5 for Windows-4058-0-5.rar",
+      "uploadedUnix": "1324254184",
+      "modVersion": "0.5",
+      "virusScanUrl": "https://www.virustotal.com/file/02490efe69568dd108da35fbadfa79b7290ea45859cd6db3b016e63f74241621/analysis/1406535260/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PEX%20Compiler%200%20point%205%20for%20Windows-4058-0-5.rar?fid=11862&ttl=1535759577&ri=8192&rs=8192&setec=40d102b12f4136a2426fef9774e9ee48"
+    }
+  ]
+}

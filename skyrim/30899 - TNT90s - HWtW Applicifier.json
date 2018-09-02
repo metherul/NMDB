@@ -1,0 +1,48 @@
+{
+  "modId": 30899.0,
+  "modName": "TNT90s - HWtW Applicifier",
+  "summary": "Takes the armor pieces from Nightasy\\'s Hmm What to Wear mod (http://skyrim.nexusmods.com/mods/22168) and applies them via script to other NPC\\'s.",
+  "descriptionHtml": "WARNING:\r\nI consider this an alpha and take no responsibility for broken games. You have been warned.\r\n\r\nPersonal Disclaimer:\r\nThis isn\\'t the version I use in my personal playing. That one is much more complicated with a crude armor durability setup and frostfall compatibility.\r\nThis should work, but there may be issues from my editing it down.\r\n\r\nIf you have any ways to better implement what I\\'m trying to do please let me know and I\\'ll do my best to use those.\r\nThis includes balancing. For the love of God, if there is an issue with balancing tell me. I\\'m no good at this bit.\r\n\r\nDescription:\r\nTakes the armor pieces from [url=http://skyrim.nexusmods.com/mods/22168/]UNP - Hmm What To Wear by Nightasy and Brokefoot[/url] and applies them via script to other NPC\\'s.\r\nIt also balances all the pieces so that the total amongst all worn items of that type are in line.\r\nie. If the fur cuirass + fur boots + fur gauntlets + fur helmet has a total AR of 80 then the boots + gloves + helmet + all the pieces should equal 80.\r\nThe weight and value are proportioned according to the AR. So if Iron has a total value of 300 and 10% of the AR is in the chest piece then the value for the chest piece is 30.\r\n\r\nTwo versions: one with AR values balances in line with vanilla skyrim and one with T3nd0\\'s SkyRe.\r\n\r\nInstallation:\r\n\r\nRequirements: \r\nSKSE\r\nHmm What to Wear\r\n\r\nInstall the files in your chosen download to Skyrim/Data.\r\n\r\nInformation on how I attempt to balance the armor bits are in the balance sheet files. You can delete those if you don\\'t care.\r\n\r\nVanilla:\r\nJust make sure it is below Hmm What to Wear in your load order.\r\n\r\nSkyRe:\r\nI recommend loading it after the reproccer. And if you rebuild the reproccer then make sure this file is off. Otherwise the reproccer will be dependent on this file and the AR changes I make will be overwritten. Though this is not a big deal, a few points different maximum.\r\n\r\nUninstallation:\r\nRemove the things this contained from the folder you installed into.\r\n\r\nDetails:\r\n\r\nSo far the only armor\\'s I have done are Bandit, Hide, Leather, Thieves Guild, Iron, Steel, Elven, Dwarven, and Steel Plate. \r\n\r\nI have the rest (most of) planned but just haven\\'t gotten to them yet.\r\n\r\nWhen added to the player, the respective cuirass should remove itself and add a random distribution of pieces.\r\n\r\nYou should get something to cover the important bits, but its not always guaranteed. (like a 95% chance to get the upper chest pieces)\r\n\r\nFor NPC\\'s I have created in effect random leveled lists in the script to add the armor pieces. Should be a txt file included detailing these chances.\r\n\r\nTo dynamically add the script to the NPC\\'s, I use the nextRef method. This should hopefully get rid of the brawl issues. Though this does only work in the player\\'s current cell. There may be brief instances where the NPC is nude before the armor is equipped. I have the process going about as fast as I think is possible but this will still depend on your ability to process scripts.\r\n\r\nUpdate History:\r\n0.32 - Added condition to check if player already has body armor on before adding armor mask.\r\n0.31 - Fixed some issues with the Masters for each version. Hopefully it\\'ll work now.\r\n0.3 - Added Elven, Dwarven, and Steel Plate. Major changes in how the mod works (nextRef method, scripts, etc).\r\n0.13 - Made two versions, one for SkyRe the other for vanilla. Minor script changes if any, can\\'t remember.\r\n0.11 - Modified scripts attached to cuirasses, should now not spawn armor pieces for male players, also should now actually work.\r\n0.1 - Initial release: Bandit, Hide, Leather, Thieves Guild, Iron, Steel\r\n\r\nFuture Plans:\r\n-MCM Menu: Not sure what I\\'ll make togglable and such but I need to learn how to make one in any case.\r\n-Frostfall Compatibility: All I need to do is ask Chesko about the three scripts I modified. Don\\'t want to upload them without his explicit permission. Though I can make a pdf guide on how to do it yourself if there are problems.\r\n-Make more armors: So many to do, just need to ... well ... do them.\r\n-(Far future)Investigate other sources for armor bits: May look into Brokefoot\\'s separate file and see if I can do the same here with those, be real nice if I could learn how to make this shizzle myself though.\r\n\r\nIncompatibilities discovered so far:\r\n-Calyps Animal Ears (http://skyrim.nexusmods.com/mods/14205): Items use same armor slots as Nightasy\\'s armor pieces.\r\n\r\nCredits:\r\nBethesda for the game.\r\nNightasy & Brokefoot for the armors.\r\n\r\nTerms of Use:\r\nI DON\\'T CARE!\r\nSeriously, if there\\'s something that I made, go ahead. But give proper regards to the others. \r\nAll I ask is to let me know if you make something better so I can then use it.\r\n\r\nFinal Thoughts:\r\nMight be inappropraite for this content but I remain resolute that everyone should hear Carl Sagan\\'s the Pale Blue Dot at least once.\r\nAlways makes me tear up a bit.\r\nhttp://www.youtube.com/watch?v=p86BPM1GV8M\r\n",
+  "categoryId": "54",
+  "version": "v0.32",
+  "author": "TNT90",
+  "createdUnix": "1359842285",
+  "updatedUnix": "1373379160",
+  "containsAdultContent": false,
+  "uploadedBy": "tnt90",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000038038",
+      "name": "TNT - HWtW - SkyRe",
+      "version": "v0.32",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "84",
+      "fileName": "TNT - HWtW - SkyRe-30899-v0-32.zip",
+      "uploadedUnix": "1373379133",
+      "modVersion": "v0.32",
+      "virusScanUrl": "https://www.virustotal.com/file/6c2ab163f968b940d13d7ecc9d3984ec757e61d8241f81286cb9aaa0ecfc9bb9/analysis/1407636667/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TNT%20-%20HWtW%20-%20SkyRe-30899-v0-32.zip?fid=1000038038&ttl=1535806064&ri=8192&rs=8192&setec=aa0f5d01f08cec5d7f07f87b1bcb8d78"
+    },
+    {
+      "fileId": "1000038039",
+      "name": "TNT - HWtW - Vanilla",
+      "version": "v0.32",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "84",
+      "fileName": "TNT - HWtW - Vanilla-30899-v0-32.zip",
+      "uploadedUnix": "1373379160",
+      "modVersion": "v0.32",
+      "virusScanUrl": "https://www.virustotal.com/file/2ed57802e060e9b74859326d560b97775e72cd3588dc31bcc34bf839cd54bafc/analysis/1407636668/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TNT%20-%20HWtW%20-%20Vanilla-30899-v0-32.zip?fid=1000038039&ttl=1535806064&ri=8192&rs=8192&setec=c0620cfc71c08548ad3a6e40153635ca"
+    }
+  ]
+}

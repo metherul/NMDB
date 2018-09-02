@@ -1,0 +1,32 @@
+{
+  "modId": 69042.0,
+  "modName": "Requiem Bug Fix- Teleport Vitals Spell",
+  "summary": "Small fix for Teleport Vitals spell in Requiem 1.9+, which doesn&#39;t work properly on Dremora&#39;s.",
+  "descriptionHtml": "In original Requiem, when you cast Teleport Vitals spell from Conjuration school of magic on Dremora, it transfers you a generic human heart instead of Daedra heart. This mod fixes that.\r<br />\r<br />Actually, this mod adds a duplicated copy of Teleport Vitals spell, which you can aquire in-game via console. I did this because of the need to make a SkyProc Patch for Requiem, if you will make Requiem.esp a master file in any modification, and because I didn&#39;t wanted to make conflicts with any future patches for Requiem. Practically, this mod is standalone, but you still need Requiem mod installed, because it uses script from the original mod, besides my additional script.\r<br />\r<br />To aquire this spell, simply type in console: &#34;help vitals&#34; without brackets, you will find 2 spells &#34;Teleport Vitals&#34; with exact names, choose id with first 2 numbers associated with the load order of my mod in your mod manager. Then type: &#34;player.addspell xx270465&#34;, where xx is your first 2 numbers. Enjoy, and thanks for Requiem team for making such awesome overhaul&#33;\r<br />\r<br />Load Order:\r<br />\r<br />Skyrim.esm\r<br />Update.esm\r<br />Dawnguard.esm\r<br />Requiem.esp\r<br />Requiem Fix-Teleport Vitals.esp\r<br />Requiem for the Indifferent.esp\r<br />\r<br />Requirements:\r<br />\r<br />Same as for Requiem...And you need Requiem, of course.\r<br />\r<br />Installation:\r<br />\r<br /> Put Data folder from the archive into your Skyrim folder. Activate mod from launcher.",
+  "categoryId": "95",
+  "version": "",
+  "author": "GR1n",
+  "createdUnix": "1440428271",
+  "updatedUnix": "1440428261",
+  "containsAdultContent": false,
+  "uploadedBy": "Gr1n",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000173185",
+      "name": "Fix",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Fix-69042-.rar",
+      "uploadedUnix": "1440428261",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/a62d6a615a30a0d0b94ccd2c08564042262e376cfb74c4aeae09c46908f13bf2/analysis/1440428283/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fix-69042-.rar?fid=1000173185&ttl=1535857375&ri=8192&rs=8192&setec=743f971ba6d07b34452d9a6e323ebfa1"
+    }
+  ]
+}

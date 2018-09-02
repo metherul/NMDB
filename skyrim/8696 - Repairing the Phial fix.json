@@ -1,0 +1,32 @@
+{
+  "modId": 8696.0,
+  "modName": "Repairing the Phial fix",
+  "summary": "A hack allowing the \\\"Repairing the Phial\\\" quest to be started and completed.",
+  "descriptionHtml": "It has been reported that the 1.5 patch broke this fix, make sure to make a hard save before attempting the procedure.\r\n\r\nA quick and dirty fix to the bugged \\\"Repairing the Phial\\\" quest. It should allow you to start and complete the quest. Effective as of version 1.4. Install as usual, enable the .esp, start the game, input \\\"bat phial1\\\" into the console. The quest will start. Talk to Quintus Navale (there will be no map marker). After he tells you what materials you need, input \\\"bat phial2\\\" into the console. Talk to Quintus again, he will repair the phial and present it to Nurelion. Choose the phial\\'s enchantment and you\\'re done. Make sure to delete or disable the mod after you have completed the quest.\r\n\r\nFeel free to modify and redistribute wherever and however, no credit or permission necessary.\r\n\r\nThis hack should only be used on saves that already have the bug with the quest not starting. Using it on a non-bugged save may cause the quest not to start properly (Of course, you will still be able to start and complete the quest using the above instructions). The technical explanation for this behavior follows.\r\n\r\nThe hack liberates the \\\"Repairing the Phial\\\" quest from the Story Manager, which prevents quests from being started with console commands. Due to this, the quest may not be triggered if the hack is used on a non-bugged save. If somebody is able to make this hack into a proper bugfix, I will gladly link to and/or replace the hack with it.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "spiderexpert",
+  "createdUnix": "1328876002",
+  "updatedUnix": "1328876048",
+  "containsAdultContent": false,
+  "uploadedBy": "spiderexpert",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "28361",
+      "name": "Repairing the Phial",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Repairing the Phial-8696-1-0.rar",
+      "uploadedUnix": "1328876048",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0bb07a9c22e2819223eea349b901fd5b81217dab6c9f33e396ee780358744b0d/analysis/1406666824/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Repairing%20the%20Phial-8696-1-0.rar?fid=28361&ttl=1535767663&ri=8192&rs=8192&setec=90fc7f1f343aead72d780fe7b4e462cf"
+    }
+  ]
+}

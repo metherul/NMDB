@@ -1,0 +1,32 @@
+{
+  "modId": 17864.0,
+  "modName": "Uderfrykte Troll Companion",
+  "summary": "Adds the Uderfrykte to the game. Found his files in the Creation Kit, come to find out he was never added in the final release of the game.\r\nInstead of trying to kill you, adds the Uderfrykte as a companion animal to the players.\r\nHe can be found near riverwood. (see map image above)\r\nHe is located at the exit to bleakfalls burrow, the place were t",
+  "descriptionHtml": "\r\nInstead of trying to kill you, adds the Uderfrykte as a companion animal to the players.\r\nHe can be found near riverwood. (see map image above)\r\nHe is located at the exit to bleakfalls burrow, the place were the mammoth bones and bloodstains are.\r\n\r\nREAD THIS\r\nKnown bugs:\r\nThe Crouch animation causes issues.\r\n1- When following the Uderfrykte likes to stop for a bathroom break every 5 steps. (should be obvious because he crouches) Not sure how to disable this on just this NPC without some serious file editing.\r\n\r\n2-FIX TO \\\"DIALOG DOES NOT APPEAR\\\":\r\nIf you are unable to recruit a new dog follower and have no idea what happened to your old dog, you can simply reset the global value that determines whether or not you can get another dog. It\\'s PlayerAnimalCount, and the console command you need looks like this:\r\nSet PlayerAnimalCount to 0\r\n- If the dialogue bugs and will not let you select even though it appears. I find a quick fast travel fixes the issues. Or a save and reload is most effective.\r\n- If your game is corrupted by CTD or by some other means. This mod likely will not work. I tested it on some of my archived corrupted files and could not access dialogue. My uncorrupted games were just fine however.",
+  "categoryId": "65",
+  "version": "1",
+  "author": "spiraldynasty",
+  "createdUnix": "1338343058",
+  "updatedUnix": "1338343445",
+  "containsAdultContent": false,
+  "uploadedBy": "SpiralDynasty",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "64495",
+      "name": "Uderfrykte",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "Uderfrykte-17864-1.rar",
+      "uploadedUnix": "1338343445",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/c7e63743de5596703e1e3e1a2cc28e8068dee74adb3d413efc41a926f13cea91/analysis/1406924584/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Uderfrykte-17864-1.rar?fid=64495&ttl=1535784274&ri=8192&rs=8192&setec=dcd84e8819191abe02cf7c32dd4381ec"
+    }
+  ]
+}

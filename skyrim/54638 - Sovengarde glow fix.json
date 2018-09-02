@@ -1,0 +1,32 @@
+{
+  "modId": 54638.0,
+  "modName": "Sovengarde glow fix",
+  "summary": "Remove the glow you get after leaving soverngarde",
+  "descriptionHtml": "This is a very unusual bug but happened to me, I take a long time to know how to remove it, but if I were to happen to anyone else here&#39;s how to fix it.\r<br />\r<br />This mod is a definitive fix for the tenacious Sovengarde glow effect that sometimes attaches itself to the player.\r<br />Normally, this shader effect resists any attempt to remove it.\r<br />The reason is that the script that applies the magic effect plays a looping shader effect on the caster, but only removed the shader if the caster dies.\r<br />I&#39;ve made a fix to the problem scripts so that the shader will be removed when the magic effect finished. This enables the player to use the console to remove the magic effect safely.\r<br />\r<br />The problem scripts are:\r<br />\tFXSovengardeSCRIPT.pex\r<br />\r<br />INSTRUCTIONS\r<br />\r<br />Extract the DATA folder from this archive to your main SKYRIM folder, overwriting any existing files.\r<br />Start Skyrim and load up your save that has the Sovengarde glow effect on the player.\r<br /> In third person, open the console and enter &#34;player.addspell 10B2DE [don&#39;t type the quotes]\r<br />Close the console\r<br />Open the console again and enter &#34;player.removespell 10B2DE&#34; [don&#39;t type the quotes]\r<br />Close the console.\r<br />save your fixed game\r<br />FIXED&#33; :)\r<br />IMPORTANT: if you ever install or reinstall the Creation Kit you will have to recopy the fixed scripts from my bugfix to your Skyrim folder, overwriting the Creation Kit&#39;s scripts.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "steve40",
+  "createdUnix": "1402010164",
+  "updatedUnix": "1402010153",
+  "containsAdultContent": false,
+  "uploadedBy": "Killerstranger",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000111917",
+      "name": "Sobengarde glow fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Sobengarde glow fix-54638-1-0.rar",
+      "uploadedUnix": "1402010153",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a315b8d6704c916e4d7550f34b86e60e197b8ab08fe8eb0c11ba131858428932/analysis/1408113723/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Sobengarde%20glow%20fix-54638-1-0.rar?fid=1000111917&ttl=1535839036&ri=8192&rs=8192&setec=d372dc4c9de985ccbf7bd0847b3a2210"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 59487.0,
+  "modName": "Blocking combat behavior improvement for Skyrim",
+  "summary": "This mod tweaks a few settings in vanilla skyrim combat behavior files (1hm_behavior & blockbehavior). The idea is to make vanilla combat faster and more interesting, with minimal deviation from vanilla gameplay.",
+  "descriptionHtml": "For the few people that will stumble into this,\r<br />\r<br />The aim of this mod is to improve vanilla combat in skyrim by making it faster, more interesting. This is done by tweaking a few things in the behavior files without touching the vanilla combat mechanics. This was designed to work in tandem with this mod (http://www.nexusmods.com/skyrim/mods/51920/?) \r<br />\r<br />Check the video for an example:\r<br />[youtube]1JuT65wT7BA[/youtube]\r<br />\r<br />For the record: the vid also includes some other mods (like cloaks) wich are not mine and are not included in this mod.\r<br />\r<br />\r<br />Installation: Extract the files that you wish to use (see below) to the appropriate folders in /data. BE SURE TO BACK-UP THE ORIGINAL FILES IF YOU FIND ANY IN THE FOLDERS. (to de-install: remove said files.)\r<br />\r<br />This mod should be compatible with any other mods that do not touch the vanilla 1hm_behavior & blockbehavior files. This mod should not have any effect on saved games.\r<br />\r<br />This mod essentially exists of 2 behavior files which don&#39;t depend on each other. This means you can choose whether you use all 3, or just one of em. The files included are:\r<br />\r<br />1. [b]1hm_behavior.hkx[/b]: in vanilla skyrim, normal righthanded swings with 1 handed weapons would apply damage to the target almost immediately. This meant that players to had to have inhuman reflexes to block the hit in time. Either that, or the player would have to press block before the enemy started the attack. Adding this behavior file will increase the time between when an enemy starts swinging his 1handed weapon and the moment at which the damage is applied by roughly 120 milliseconds. (this only applies to the righthanded swings with 1h weapons like swords/maces)\r<br />\r<br />2. [b]blockbehavior.hkx[/b]: This file simply decreases the time your character and npcs spend on &#39;blockhit&#39; animations, allowing you to strike back at your foe immediately after blocking his hit. (applies to all weapons) TWO versions of this file are contained in this mod, 1 for 3rd person gameplay, and 1 for 1st person gameplay. I almost never play in first person, if you find any problems with the first person version, please post about it.\r<br />\r<br />I recommend using the &#39;Pseudo parry animation&#39; mod by [b]topeira and Krish698[/b] (found here: http://www.nexusmods.com/skyrim/mods/44014/?) \r<br />\r<br /> i also recommend using Enemy AI OverHaul---Revenge Of the Enemies---No Scripts Version by by [b]MyEvergreenHometown[/b] (http://www.nexusmods.com/skyrim/mods/40491/?). \r<br />\r<br />These mods are NOT included on here, so visit those links if you are interested.\r<br />\r<br />Discaimer: As far as i know no one has made a similar mod yet. If you have made something similar already, send me a message.",
+  "categoryId": "77",
+  "version": "1.0",
+  "author": "Moljka",
+  "createdUnix": "1414609258",
+  "updatedUnix": "1414607346",
+  "containsAdultContent": false,
+  "uploadedBy": "moljka",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000133079",
+      "name": "Skyrim Combat Behavior",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "100",
+      "fileName": "Skyrim Combat Behavior-59487-1-0.rar",
+      "uploadedUnix": "1414607346",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/81b795ce8f6fc508f7c7b1d8aa75530e2b535d1be1699572dbd0b8a4d6abd5ca/analysis/1414607464/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Combat%20Behavior-59487-1-0.rar?fid=1000133079&ttl=1535846719&ri=8192&rs=8192&setec=83d41b5f549439bbac5d3fb699af0d24"
+    }
+  ]
+}

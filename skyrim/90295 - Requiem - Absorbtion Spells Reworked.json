@@ -1,0 +1,32 @@
+{
+  "modId": 90295.0,
+  "modName": "Requiem - Absorbtion Spells Reworked",
+  "summary": "Reworks Alterations' Absorb spells so that they are not auto-casted.",
+  "descriptionHtml": "What This Does:\n<br />- Absorb Health: Requiem (1.9.4.1)'s Absorb spells work quite strangely, so I've changed them to be closer to what I expected. The 'force-casting' has been removed, the effect no longer lingers on targets, the strength has been slightly buffed to compensate, and the returned health has been reduced to 50% of damage dealt. IMO it feels more fair, and is still a good general purpose / utility spell, eg. good against armoured, or when you are low on stats, or if you lack ranged.\n<br />\n<br />- Absorb Stamina: Is tweaked in the same way as absorb health (100% stamina returned). I also buffed it's strength, as it is not a commonly used spell.\n<br />\n<br />- Absorb Magicka: This spell just wouldn't work with the same changes as the previous two, so now it is a Fire&amp;Forget spell. It is only useful with high lvl Alteration, and even then can easily be misused, leaving the player with less Magicka than before.\n<br />\n<br />- Absorb Essence: I'm not satisfied with what I've done here. Your Magicka bar will wildly go up and down (when hitting an enemy with Magicka to absorb), and the other effects don't seem as strong as they should be. But here it is anyway; delete or improve it if you like.\n<br />\n<br />\n<br />\n<br />Notes:\n<br />- Spell decriptions were broken after changes, so the numbers were removed\n<br />- This is for Requiem 1.9.4.1, not 2.0.0+. It would probably work, but I haven't checked.\n<br />- I think this is roughly balanced, but you might not. I've aimed for \"less destructive than Destruction, less healing than Alchemy/Restoration, still quite useful\".\n<br />\n<br />\n<br />\n<br />Install:\n<br />Load after Requiem.esp",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "broccolu",
+  "createdUnix": "1521784926",
+  "updatedUnix": "1521784926",
+  "containsAdultContent": false,
+  "uploadedBy": "broccolu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000269095",
+      "name": "Requiem - Absorbtion Spells Reworked",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Requiem - Absorbtion Spells Reworked-90295-1-0.zip",
+      "uploadedUnix": "1521784828",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2e86f58c0400ec15f9b4f0ff3cee690e7352572c06882aa32bae614202979017/analysis/1521785102/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem%20-%20Absorbtion%20Spells%20Reworked-90295-1-0.zip?fid=1000269095&ttl=1535880380&ri=8192&rs=8192&setec=5f9373d6d81312a8cb9563573e303b75"
+    }
+  ]
+}

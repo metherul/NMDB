@@ -1,0 +1,32 @@
+{
+  "modId": 27374.0,
+  "modName": "Weapon Display FIX",
+  "summary": "Weapon Display Workaround",
+  "descriptionHtml": "IMPORTANT: this mod is no longer compatible with the latest USKP version because USKP fixed a handful of issues with weapon racks and edited the same script. \r\nExpect a USKP version of this mod soon. Till then, if you use USKP is better to remove this mod and check your racks, the weapons this mod fixed should still be on the racks but you won\\'t be able to put them back if you remove them. \r\nSteam version is no longer supported, subscribers should unsubscribe and use the nexus version with no USKP and the USKP when it will be ready.\r\nend IMPORTANT: now read it again.\r\n\r\nAs you may know many vanilla and modded weapons are not positioning on racks/plaques when you try to do that.\r\nThis mod is an workaround, hopefully temporary till Beth fixes the root issue.\r\n\r\nVanilla script was edited and not replaced in order to keep the script variables that changed during gameplay.\r\nPlease let me know if there are other vanilla situations where the bug occurs and I\\'ll include those in this mod, feel free to post suggestions to improve the script.\r\nYou are free to use this solution for your modded CUSTOM SCRIPTED rack or something that uses similar script as the vanilla script and has the same issue but please credit me and this mod and let me know about it. If your modded rack or something uses THE vanilla script then this fix should apply automatically, do NOT include in your mod this script unless you modify something else and you must ask permission in that case.\r\n\r\nAttempt to clarify which bug exactly I try to fix, the story of this mod:\r\nI found many weapons specially quest rewards from quest mods I can\\'t place on racks, they are just dropped on the floor when you are attempting it.\r\nBut the same issue happens with some of the vanilla item. One of them is Ghostblade http://elderscrolls.wikia.com/wiki/Ghostblade but there are others.\r\nI personally wasn\\'t affected by something like weapons to fall after they were successfully placed.\r\nGhostblade I was able to put on a rack at the time I got it but then I wished to move it and could not put it back on any house, rack or plaque. This weapon and the weapons from \\\"The bigger they are\\\" mod made me want to fix this. The weapons from that mod acted the same and when I told the author of it about he told me that\\'s a vanilla bug introduced by Beth in some update.\r\nIf you can point me on some relevant discussion about the bug I have please tell me cause google seem to point me to other kind of bugs about racks.\r\nTechnical: the script for racks has a loop topped at 10 retries to wait for the 3d to be loaded for the dropped weapon, when the issue is present after 10 retries it\\'s still not loaded...in fact the reference is messed up as CK wiki also mentions about dropObject() in notes: \\\"if akObject is a permanently-persistent reference, DropObject will not return a Form ID value for the ObjectReference, even though it still physically drops the object from the inventory. If you need to run further ObjectReference Functions onto the dropped object, you will need to refer to that object\\'s reference ID directly.\\\" http://www.creationkit.com/DropObject_-_ObjectReference So my solution is to have an alternate way to obtain the reference in those cases and that I did with an alias to the player with onItemRemoved which populates the reference parameter if the object is persistent.\r\n",
+  "categoryId": "95",
+  "version": "1.1",
+  "author": "LukeH",
+  "createdUnix": "1353792667",
+  "updatedUnix": "1354404200",
+  "containsAdultContent": false,
+  "uploadedBy": "LukeH",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "102653",
+      "name": "Weapon Display FIX",
+      "version": "1.1_NO_USKP",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "Weapon Display FIX-27374-1-1.zip",
+      "uploadedUnix": "1354404200",
+      "modVersion": "1.1_NO_USKP",
+      "virusScanUrl": "https://www.virustotal.com/file/19cb48234f3cd60887141a16d3abf78b63938aeb895481cddaadf901690a89b8/analysis/1407287572/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Weapon%20Display%20FIX-27374-1-1.zip?fid=102653&ttl=1535800056&ri=8192&rs=8192&setec=e13232b7547f3fa4c5d7af92752b1319"
+    }
+  ]
+}

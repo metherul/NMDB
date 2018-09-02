@@ -1,0 +1,48 @@
+{
+  "modId": 11072.0,
+  "modName": "CHSBHC T-V body with BBP for Navetsea Texture and TriRoc Adu",
+  "summary": "This mod reworks the CHSBHC mesh to work better with Navetsea\\'s texture - specifically the nipple area.  It also adds weight to the mesh around the vagina, so that it spreads when the legs are spread (like in TriRoc\\'s Adult Show)",
+  "descriptionHtml": "Redram\\'s CHSBHC \\\"T&V\\\" (Tits & Vagina) Mod, v1.01\r\n\r\nFirst off, big thanks to Cherry Hotaling for her outstanding work on the CHSBHC body, without which none of this would be possible! And by extension Caliente, whose meshs it is my understanding is the basis upon which Cherry\\'s mesh was \\'expanded\\'\r\nThanks also to Navetsea for making the best body texture around, even if he doesn\\' support Cherry\\'s body.  \r\n\r\n**NOTE** Apparently there can be problems when using this mod on a elf character.  Maybe just wood elves, maybe all elves.  Cherry had this problem for a while but fixed it, but I don\\'t know how to fix it.  So I guess if your character is an elf, you may not be able to use this mod.  Sorry.\r\n\r\nINSTALLATION:\r\n\r\nFirst, Install Cherry\\'s CHSBHC mod: http://skyrim.nexusmods.com/downloads/file.php?id=4888\r\n\r\nAfter that, just like most of the other mods - either manually copy the two nif files into your data/meshes/actors/character/character assets folder, overwriting any already present\r\nor just install with your favorite mod manager.\r\n\r\nThis is my first public offering of a mod, so please let me know of any problems!  And also please let me know if you like it.  If enough people like it and have suggestions, I\\'ll be more motivated to address them.\r\n\r\nThis mod contains 2 things:\r\n\r\nrevised femalebody_0 and femalebody_1 meshes, based on Cherry\\'s original CHSBHC mod.  The femalebody_0 mesh is exactly the same except that it has the vagina weighting.  No vertexes changed on _0 mesh because it already is the right scale.  Body _1 has the breast vertexes reworked, in addition to the weighting.\r\nTHIS MOD CONTAINS NO TEXTURES!  I recommend Navetsea\\'s.\r\n\r\nThis mod has 2 GOALS:\r\n\r\n1. Tits: It attempts to increase the compatibility between the CHSBHC body and Navetsea\\'s CBBE texture work.  It does this by reworking the breast mesh of the original CHSBHC femalebody_1 (the upper end of the scale) so that the vertexes around the areolas are closer to the nipple, meaning the areolas should not be so distorted when using Navetsea\\'s CBBE texture.  \r\nI suppose it should do the same for any CBBE compatible texture, though I only tested it with Navetsea\\'s.  It does transfer the stretching from the areola area to the breast skin around that area.  But this is much less noticeable, especially from any distance at all.\r\nIt also stretches the nipples out longer - it\\'s cold in Skyrim! \r\n\r\n2. Vagina: It gives weight to the vertexes around the vagina of the CHSBHC body.  Thanks to Cherry having the foresight to give the vagina on her body mesh depth, when the legs are spread apart (such as in TriRoc\\'s Adult Show) you get some actual spreading of the vagina.  Doesn\\'t work on ragdolls (corpses) only the living. \r\n\r\n**PLEASE NOTE** due to the way the seams and UVW maps of the original body are arranged, there is a LOT of distortion when the spreading is going on.  The area of the texture inside the vagina is only about 3 or 4 pixels wide on the dds map, so it stretches like mad.  I reached the limit of my skills in 3dstudio Max and in texturing, and cannot fix this any better, due to the idiotic default seam placement (Bethesda\\'s fault, not Cherry\\'s), and my not being able to figure out how to change them.  I decided to just share what I\\'ve done.\r\nI would LOVE to work with someone who can take this farther.  The main thing would be someone that can re-pelt the model.  Or just explain to me what I\\'m doing wrong.  Or just take this and run with it without me.  I don\\'t care.  You should be able to copy the weights to any body you wish, but so far as I know, only Cherry\\'s body has depth to the vagina.  As far as I can tell, the seams and UVW map will need to be reworked in order for the \\'V\\' portion of \\'T&V\\' to be very attractive, so I would appreciate even *tips* on this, especially anyone who is good at pelting in 3ds Max. \r\n\r\nFAQ\r\n\r\nQ: Will this affect the body under my CHSBHC compatible armors?\r\nA: No.  The way skyrim is set up, each armor is modeled with it\\'s own body underneath it.  This mod will only change the body that shows when naked.\r\n\r\nQ: What texture did you use in those screenshots?\r\nA: My own modification of Navetsea\\'s textures.  I never heard back from him on permission to share it, so I\\'m not.\r\n\r\nQ: That vagina on your texture looks weird.\r\nA: That\\'s not a question!!...aside from the stretching issues, I\\'ve discovered I\\'m not a good texturer, and don\\'t know how to do the normal maps and stuff, and quite frankly the distortion issues de-motivated me to learn.  That\\'s why.  Consider that texture a \\'proof of concept\\'.  Anyone who wants to make a go at this, I can give them the photoshop layer that contains the markers I used to determine the extent of the vagina opening in relation to Navetsea\\'s textures.\r\n\r\nQ: Can you do the vagina weighting for the CBBE/UNP/etc body?\r\nA: 1. As far as I\\'ve looked (which was not far), those bodies were not built with depth to the vagina, so it would not work without someone making theirs deeper (talk to those authors) \r\n   2. I have no interest in those bodies.  So no.\r\n\r\nQ: Can I use your meshes in / as basis for my mod?\r\nA: My understanding from Cherry is that this mesh is sort of \\'open source\\' (I do hope she corrects me if I\\'m wrong, and I\\'ll take this down!), so yes, sure.  Just give me credit, for what I did, and Caliente credit for the body that Cherry used to make hers.\r\n\r\nQ: Can you make the areolas larger/smaller?\r\nA: I can but it is an arduous task (for one of my meager skill) involving moving every vertex in the areola area.  So probably not.  I may still refine the overall breast shape somewhat though.\r\n\r\nQ: Can you make the nipples shorter/longer?\r\nA: It\\'s a *lot* easier the adjusting areola size.  If enough people want it I can do it.\r\n\r\nQ: Do you plan on doing updates?\r\nA: Not unless I get a lot of interest or requests for something. And even then probably not fast.  If I find someone who can help me make progress past the roadblocks I am at, then yes, I would definitely take this further.\r\n\r\n\r\n",
+  "categoryId": "29",
+  "version": "1.01",
+  "author": "Redram80",
+  "createdUnix": "1330104680",
+  "updatedUnix": "1330566604",
+  "containsAdultContent": true,
+  "uploadedBy": "Redram80",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "36268",
+      "name": "CHSBHC Redram TV Body V1-01",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "556",
+      "fileName": "CHSBHC Redram TV Body V1-01-11072.rar",
+      "uploadedUnix": "1330105003",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/b09fe39ff3713b0a0b03a2c531a02de6a93fd78b6e7b43d33dc19c4eb4bade02/analysis/1406710443/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CHSBHC%20Redram%20TV%20Body%20V1-01-11072.rar?fid=36268&ttl=1535771990&ri=8192&rs=8192&setec=a9f6c81b6bd87c2ecc469c8941e200fd"
+    },
+    {
+      "fileId": "38665",
+      "name": "CHSBHC Redram Tonly Body V1-01",
+      "version": "1.01",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "562",
+      "fileName": "CHSBHC Redram Tonly Body V1-01-11072.rar",
+      "uploadedUnix": "1330566604",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/484e49ab60718cb3e6d17fb78d31aff905665e5d57f14fe8885c772ad40a2f51/analysis/1406722445/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CHSBHC%20Redram%20Tonly%20Body%20V1-01-11072.rar?fid=38665&ttl=1535771991&ri=8192&rs=8192&setec=50e620c9e3b0f6ebee176a66ab413a36"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 8133.0,
+  "modName": "Fixed German Strings",
+  "summary": "Diese Mod korrigiert alle im Creation Kit angezeigten Fehler, die auf die deutsche Lokalisation zurückzuführen sind.",
+  "descriptionHtml": "[B]Name:[/B] Fixed German Strings\r\n[B]Autor:[/B] PlanB\r\n[B]Version:[/B] 1.0\r\n[B]Benötigt:[/B] Skyrim DV\r\n\r\n\r\n\r\n[SIZE=3][B][U]Beschreibung:[/U][/B][/SIZE]\r\nDiese Mod korrigiert alle im Creation Kit angezeigten Fehler, die auf die deutsche Lokalisation zurückzuführen sind.\r\nEs werden keine Übersetzungsfehler korrigiert, nur \\\"Formfehler\\\", die dazu führen, dass das CK Fehlermeldungen ausgibt.\r\n\r\nEinige Zellennamen haben die maximale Länge von 33 Zeichen überschritten und mussten daher gekürzt werden.\r\nAußerdem wurden alle überflüssigen Leerzeichen entfernt.\r\n\r\nIhr werdet immer noch ein paar Fehlermeldungen erhalten, wenn ihr die Skyrim.esm im CK ladet. \r\nDabei handelt es sich jedoch hauptsächlich um falsch platzierte Teleport Marker. \r\nDiese Fehler sind in der Skyrim.esm verankert und sollten daher nur von Bethesda behoben werden.\r\n\r\n[B]Damit das CK die deutschen Strings überhaupt laden kann, müsst ihr die Datei SkyrimEditor.ini im Verzeichnis [I]...\\\\Steam\\\\SteamApps\\\\common\\\\skyrim[/I] öffnen und direkt unter [General] die Zeile sLanguage=GERMAN hinzufügen.[/B]\r\n\r\n[COLOR=#b22222][B]In der Modifikation [URL=http://www.scharesoft.de/joomla/index.php?option=com_remository&Itemid=27&func=fileinfo&id=2500]Skyrim - Director\\'s Cut[/URL] (kurz: SDC) findet ihr eine weiterentwickeltere Version der Fixed German Strings, in der wesentlich mehr Fehler korrigiert wurden. Darüber hinaus habe ich dort auch die Strings der Update.esm korrigiert. Ich kann also jedem nur empfehlen auf SDC umzusteigen.[/B][/COLOR]\r\n\r\n[SIZE=3][B][U]Installation[/U][/B][/SIZE]\r\nErstellt eine Sicherheitskopie der Datei Skyrim_German.strings \r\nim Verzeichnis \\\"...\\\\Steam\\\\SteamApps\\\\common\\\\skyrim\\\\Data\\\\Strings\\\"\r\nund ersetzt sie mit der Datei aus diesem Archiv.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "PlanB",
+  "createdUnix": "1328669383",
+  "updatedUnix": "1328669484",
+  "containsAdultContent": false,
+  "uploadedBy": "PlanB29",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "26871",
+      "name": "Fixed German Strings",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "253",
+      "fileName": "Fixed German Strings-8133-1-0.7z",
+      "uploadedUnix": "1328669484",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/efe9515aead449acb38c687c88b9ba11e1ea3df63c10e70e4de1fd78cea45d3b/analysis/1406659632/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fixed%20German%20Strings-8133-1-0.7z?fid=26871&ttl=1535766614&ri=8192&rs=8192&setec=4c5ed8123595e46cd8f48a2c3801e32c"
+    }
+  ]
+}

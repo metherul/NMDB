@@ -1,0 +1,48 @@
+{
+  "modId": 25151.0,
+  "modName": "No More Recruitment",
+  "summary": "Stops Stormcloaks and Imperials you pass by from adding their quests to join them to your log.",
+  "descriptionHtml": "Feeling a bit passive? Are you a lover and not a fighter? Or do you just not feel like getting involved in the civil war? Do the passing patrols of soldiers annoy you by sticking quests to join their side in your quest log? Well, I&#39;ve got ya covered.\r<br />\r<br />What this does is strip the scripts from the lines of dialogue that the Stormcloak/Imperial soldiers give you about their respective sides wanting fresh meat.\r<br />So you&#39;ll still hear it, but you won&#39;t end up with any popups or anything telling you to join up with them later.\r<br />\r<br />You should still be able to join your favorite side by marching on up to their headquarters and chatting up their head honchos, as all I&#39;ve done is tweak those dialogue lines.\r<br />Ralof and Hadvar may still give the quest like before, so be wary of that if you wanna avoid it at all costs.\r<br />\r<br />[s][b]EDIT[/b]: I recently realized that I neglected to strip the scripts from the farmers you encounter on the road. Sorry about that, one of these days when I&#39;m playing Skyrim again I&#39;ll have to take another look at the file and fix that.[/s]\r<br />\r<br />[b]EDIT 2[/b]: I finally got around to taking another crack at this whole farmer thing, and I seem to have had some success, but from my testing it seems to be at the cost of the line entirely. This may be due to the fact that I&#39;m spawning the farmers you&#39;d encounter myself, rather than running into them while they&#39;re taking their walks, but I&#39;d say this is a solution either way. I&#39;ll upload this fixed version as a beta version, if you run into any issues such as still getting the quest while using the fixed version please let me know.\r<br />\r<br />Installation\r<br />------------\r<br />Just drop the .esp into your data folder and tick it off in your mod manager of choice, whether that be the default launcher or the Nexus Mod Manager. ",
+  "categoryId": "33",
+  "version": "1.01",
+  "author": "Darklink941",
+  "createdUnix": "1349617342",
+  "updatedUnix": "1425281096",
+  "containsAdultContent": false,
+  "uploadedBy": "darklink941",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "92573",
+      "name": "No More Recruitment",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "No More Recruitment-25151-1.zip",
+      "uploadedUnix": "1349617430",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/ae16c5827c7ccdf7b9446352cb4b31985805abf0668a2793d5946c29ae3c591c/analysis/1407208208/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20More%20Recruitment-25151-1.zip?fid=92573&ttl=1535796533&ri=8192&rs=8192&setec=531bcaec2eb751103f5ca5c0aed9e754"
+    },
+    {
+      "fileId": "1000149799",
+      "name": "No More Recruitment 1.01 beta",
+      "version": "1.01",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "No More Recruitment 1.01 beta-25151-1-01.zip",
+      "uploadedUnix": "1425281096",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/b120bc862f86205455456f9f8a09649f7dc86ce434d0783723a4026840408117/analysis/1425281102/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20More%20Recruitment%201.01%20beta-25151-1-01.zip?fid=1000149799&ttl=1535796533&ri=8192&rs=8192&setec=0408981ad8e1282cadf6c79a31f8cd42"
+    }
+  ]
+}

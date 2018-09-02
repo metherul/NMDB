@@ -1,0 +1,32 @@
+{
+  "modId": 57795.0,
+  "modName": "Jaxonz MCM Kicker",
+  "summary": "Speeds updating of lazy SkyUI MCM menus.",
+  "descriptionHtml": "[center][size=6][color=#F5C908][b]Goodbye Missing or Lazy Mod Menus&#33;[/b][/color][/size]\r<br />[size=4]MCM Kicker automatically updates SkyUI menus from problematic mods&#33;[/size][/center]\r<br />Have you ever loaded a cool mod only to never see it&#39;s configuration menu show up in SkyUI?\r<br />Did you update a mod and not see the new features in MCM?\r<br />Jaxonz MCM Kicker fixes that.\r<br />\r<br />[color=#F5C908][heading]Why It Happens[/heading][/color]\r<br />It is an easy mistake (that I have made myself a few times), but some modders forget to implement proper initialization and update code for SkyUI&#39;s MCM menus.\r<br />\r<br />This can often be resolved by opening the command console and typing:\r<br />[code]setstage SKI_ConfigManagerInstance 1[/code]\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/users/7847300]Oisaco1[/url] came up with the great idea of creating a mod for that, and this is the result.\r<br />\r<br />[color=#F5C908][heading]Features[/heading][/color]\r<br />[list][*]Checks SKSE version and proper installation[*]Checks SkyUI version and proper installation[*]Fixes missing SkyUI MCM mod menus[*]Forces updates of SkyUI MCM mod menus[*]Politely waits for SkyUI and well behaved mods to do thier thing first[*]Only runs at game load and then gets out of the way[/list]\r<br />[heading]Requirements[/heading]\r<br />[list][*][url=http://skse.silverlock.org]SKSE[/url][*][url=http://www.nexusmods.com/skyrim/mods/3863/?]SkyUI[/url][/list]\r<br />[color=#F5C908][heading]Compatibility[/heading][/color]\r<br />[list][*]An incompatibility has been identified with Snotgurg&#39;s Equipment HUD mod, which resets options to default when MCM Kicker causes the menu to reload.[*]Compatible with DLC and 3rd party mods.[*]No known conflicts with any other mods. Any load order works.[*]Can be cleanly removed at any time.[/list]\r<br />\r<br />[color=#F5C908][heading]Other Great Mods from Jaxonz[/heading][/color]\r<br />[list][*][url=http://www.nexusmods.com/skyrim/mods/52583]Positioner[/url]: The decorator&#39;s most powerful tool to accurately and easily move/copy/scale any object in-game.[*][url=http://www.nexusmods.com/skyrim/mods/57335]Renamer[/url]: Easily rename objects, equipment, containers, people, creatures, horses, pets, player homes, and just about anything.[*][url=http://www.nexusmods.com/skyrim/mods/53641]Blink Teleport[/url]: Amazingly powerful and fun&#33; Blip to anywhere in the blink of an eye.[*][url=http://www.nexusmods.com/skyrim/mods/56545]Subtle Cloak Graphics[/url]: Be able to actually see when using a flame/frost/lightning cloak.[*][url=http://www.nexusmods.com/skyrim/mods/55474]Lights Please[/url]: Easily use magical lighting spells without disarming.[*][url=http://www.nexusmods.com/skyrim/mods/53365]Archery Focus[/url]: Automatically helps you aim when using bows and crossbows.[*][url=http://www.nexusmods.com/skyrim/mods/53268]Archery Perks[/url]: Adds tracer shots and automated arrow collection to the archery perk tree.[/list]\r<br />All Jaxonz mods are professionally coded for stability and high quality.",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "Jaxonz",
+  "createdUnix": "1409769005",
+  "updatedUnix": "1409768989",
+  "containsAdultContent": false,
+  "uploadedBy": "jaxonz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000125155",
+      "name": "Jaxonz MCM Kicker",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Jaxonz MCM Kicker-57795-1-0.zip",
+      "uploadedUnix": "1409768989",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2bb86f2eb4773a5fca371d07fd7a46c5095183d992f415c702212b6228f179b8/analysis/1409769062/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jaxonz%20MCM%20Kicker-57795-1-0.zip?fid=1000125155&ttl=1535843982&ri=8192&rs=8192&setec=0413055d93557d4145edc371c05da285"
+    }
+  ]
+}

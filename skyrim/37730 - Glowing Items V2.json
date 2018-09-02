@@ -1,0 +1,32 @@
+{
+  "modId": 37730.0,
+  "modName": "Glowing Items V2",
+  "summary": "A ring that makes items glow.",
+  "descriptionHtml": "WARNING: MAY BE BUGGY. I&#39;M NOT WORKING ON THIS ANYMORE. i&#39;VE TRIED EVERYTIME I PLAY THE ORIGINAL SKYRIM, BUT IT\r<br /> GOES NOWHERE.\r<br />\r<br />Glowing Items V2\r<br />Version 1.2\r<br />\r<br />Requirements\r<br />[url=http://skyrim.nexusmods.com/mods/3863//?]SkyUI[/url] for MCM.\r<br />[url=http://skse.silverlock.org/]SKSE 1.6.14[/url] or later.\r<br />\r<br />In the sleeping giant inn is a giant ring in Delphin&#39;s room, Every time it&#39;s equipped an \r<br />explosion will happen and the items below will light up. the glow will only last 60 second \r<br />before it goes away.\r<br />\r<br />Food Red\r<br />Gold Green\r<br />Potion SkyBlue\r<br />Poison Pink\r<br />Raw Food Blue\r<br />Ingredients Green\r<br />Pelts, (Includes Leather and Leather strips) Red\r<br />Gems Blue\r<br />Weapons Blue turns SkyBlue\r<br />Armor SkyBlue\r<br />Jewelry Purple\r<br />Ore and Ingots Purple\r<br />Containers Red is filled. the shader will be removed if you equip the ring again after emptying the container.\r<br />Owned by NPC&#39;s White\r<br />These are based on Keywords so it should be good for all DLC.\r<br />\r<br />The explosion is harmless it&#39;s just used to trigger the script and apply the effect shader.\r<br />\r<br />The ring is only giant, so it can be found. I&#39;ll do something about it later. I&#39;ve set the range at 1200, so it should fill a medium sized room. you need to wait a few seconds between explosions, so the aliases can be emptied and refilled with items.\r<br />\r<br />The books in the one picture are glowing because of [url=http://skyrim.nexusmods.com/mods/10012//?]Unread Books Glow[/url]. since that mod works better then anything I could do I&#39;m not doing books.\r<br />\r<br />Manual Install\r<br />Put the esp and Scripts folder in the Data folder and check the box in the launcher to \r<br />\r<br />enable the mod.\r<br />\r<br />Manual Uninstallation\r<br />Uncheck the esp in the launcher and delete any script the has aaaaglowing.\r<br />\r<br />Bugs\r<br />Items that have problems glowing.\r<br />Poison bottles: some don&#39;t glow and others only the stopper glows.\r<br />Deathbell: Only the underside glows.\r<br />Gourd: the leaves don&#39;t glow.\r<br />Leek: Looking down from the top doesn&#39;t glow.\r<br />\r<br />if the items don&#39;t glow try typing stopquest in the console with ` with one of the quests below related to the item you are trying to make glow.\r<br />after that type startquest with the same quest you just stopped.\r<br />\r<br />aaaaglowingaliasArmor\r<br />aaaaglowingaliasContainers\r<br />aaaaglowingaliasFood\r<br />aaaaglowingaliasGems\r<br />aaaaglowingaliasGold\r<br />aaaaglowingaliasIngredients\r<br />aaaaglowingaliasJewelry\r<br />aaaaglowingaliasOreIngots\r<br />aaaaglowingaliasPelts\r<br />aaaaglowingaliasPoison\r<br />aaaaglowingaliasPotion\r<br />aaaaglowingaliasWeapons",
+  "categoryId": "93",
+  "version": "1.2",
+  "author": "bwins95",
+  "createdUnix": "1372483664",
+  "updatedUnix": "1372778547",
+  "containsAdultContent": false,
+  "uploadedBy": "bwins95",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000036922",
+      "name": "Glowing Items V2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "Glowing Items V2-37730-1-2.7z",
+      "uploadedUnix": "1372778547",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/0276e4981dadec313a0f4ff8258eeeec288252360b0182dc8d52a059da620445/analysis/1407625940/",
+      "changelogHtml": " Added working MCM page. Added a shader to containers and the script checks if anything is in them adds a shader if it does. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Glowing%20Items%20V2-37730-1-2.7z?fid=1000036922&ttl=1535817605&ri=8192&rs=8192&setec=933e11383b77483d66926d9b8899aa5c"
+    }
+  ]
+}

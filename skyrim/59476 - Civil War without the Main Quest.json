@@ -1,0 +1,32 @@
+{
+  "modId": 59476.0,
+  "modName": "Civil War without the Main Quest",
+  "summary": "For non-Dovahkiin characters who avoid the main quest.  No script, just a few edits in the CK allowing the civil war to be playable.",
+  "descriptionHtml": "[color=#6aa84f][b]Description[/b][/color]\r<br />\r<br />This is only for characters you aren&#39;t playing as the Dovahkiin, avoiding the main quest, but wish to have in the civil war.\r<br />\r<br />The early civil war quest [url=http://www.uesp.net/wiki/Skyrim:Message_to_Whiterun_%28Imperial%29]Message to Whiterun[/url] has a requirement that the main quest [url=http://www.uesp.net/wiki/Skyrim:Dragon_Rising]Dragon Rising [/url]must first be completed.  This is just a few edits in the CK to remove that requirement from the player dialogue with Balgruuf.  No scripts or adjustments to existing scripts were needed.\r<br />\r<br />[color=#cc4125][b]Warning:[/b][/color]  [color=#cc4125]D[/color][color=#cc4125]e-activate this mod for any characters that will be playing the main quest. [/color] Any character using this mod and completing the civil war won&#39;t be able to advance the main quest.  I recommend keeping a separate plugins.txt file for each character to quickly swap and keep track of different sets of mods.  For example, vanilla race characters don&#39;t need Ningheim or Race Compatibility, etc.  This prevents loading up mods you&#39;ll never use on a given character, and also ensures mods like this remain separated between your characters.\r<br />\r<br />There are a number of requests to work around this issue so the main quest can still be played.  I&#39;m looking into it but the quest interface and scripting are not my forte, so I can&#39;t make any promises.  I didn&#39;t consider this originally as it was never the goal of this mod.  If you&#39;d like to help please visit the comments.  I can grant you access to edit this page on the Nexus so everyone can update rather than uninstall / install a different mod.  It&#39;s very light-weight though, so it doesn&#39;t really matter.  If you&#39;d rather start your own separate mod no permissions are needed, but please post a comment to let these folks know. :)\r<br />\r<br />[color=#6aa84f][b]Installation[/b][/color]\r<br />\r<br />Since it&#39;s only edits in the CK, it&#39;s just a single .esp file.  \r<br />\r<br />1) Drop it in the &#39;data&#39; directory.\r<br />\r<br />2) Add it to plugins.txt in ...&#92;App Data&#92;Local&#92;Skyrim&#92;.  The load-order shouldn&#39;t matter as long as it&#39;s below the .esm masters.  \r<br />\r<br />Alternatively, activate it in the &#34;Data Files&#34; section of the launcher, but I don&#39;t recommend using it.  I&#39;ve seen it randomly mess with my load-order (a hiccup while it&#39;s phoning home to Valve&#39;s workshop I&#39;d guess? ugh) and it&#39;s unnecessary since everything it does can easily be done manually.  Sorry for the mini-rant, I just can&#39;t endorse using the launcher.\r<br />\r<br />[color=#6aa84f][b]Known Issues[/b][/color]\r<br />[color=#6aa84f]\r<br />[color=#ffffff]None as long as you&#39;re not playing the main quest.  [color=#6aa84f][color=#ffffff]As with any mod, make sure you have a backup of your save before installing.[/color][/color]  I made this in May and since then have mostly been playing the same character with no issues.[/color]  [color=#ffffff]I&#39;ve also tested it under a few different circumstances, but nothing extensive.  The edits are straight-forward so I don&#39;t believe I missed anything, but please let me know if you encounter a problem.[/color][b]\r<br />\r<br />Compatibility[/b][/color]\r<br />\r<br />This only modifies player dialogue with Balgruuf in the CW03 quest, so that&#39;s the only possible conflict.  I don&#39;t use any civil war mods so I&#39;m not familiar with any that do, but I assume there are some.  If you&#39;d like help determining this, let me know which mod you&#39;re using in the comments and I&#39;ll download and check it out.\r<br />\r<br />[Edit] I looked in Arthmoor&#39;s Alternate Start - Live Another Life mod and it doesn&#39;t appear to make edits with this quest, should be no conflict there.\r<br />\r<br />[color=#6aa84f][b]Requirements\r<br />\r<br />[/b][/color]None.\r<br />\r<br />[color=#6aa84f][b]Permission[/b][/color]\r<br />\r<br />None needed.\r<br />\r<br />[color=#6aa84f][b]Thanks[/b][b]&#33;[/b][/color]\r<br />\r<br />Bethesda, the Nexus, and modders everywhere.",
+  "categoryId": "35",
+  "version": "1.0",
+  "author": "Dupre232",
+  "createdUnix": "1414556758",
+  "updatedUnix": "1414556754",
+  "containsAdultContent": false,
+  "uploadedBy": "Dupre232",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000132995",
+      "name": "Civil War without Main Quest",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Civil War without Main Quest-59476-1-0.zip",
+      "uploadedUnix": "1414556754",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a9ac9f89e4f281652e13595eb9d10688fc01f044e658913d175764b73f21c92b/analysis/1414556822/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Civil%20War%20without%20Main%20Quest-59476-1-0.zip?fid=1000132995&ttl=1535846702&ri=8192&rs=8192&setec=4fc145e7f59bd28f36412b5ae6f91311"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 11119.0,
+  "modName": "More Firewood per Chop",
+  "summary": "Changes the number of firewood given per chop to 4, 5, 6, 10, 20 or 99&#33; Now with handy NMM Installer&#33;",
+  "descriptionHtml": "[color=red][size=20][b]Please note that the mod [url=http://www.nexusmods.com/skyrim/mods/49791/?]&#34;Complete Crafting Overhaul Remade by kryptopyr&#34;[/url] includes this functionality and I really REALLY recommend you get that instead of this. [/color][/b][/size]\r<br />[img]http://i.imgur.com/sSbds.png[/img]\r<br />A request by Vortaka, this simple script changes the number of firewood given per chop to 4, 5, 6, 10, 20 or 99&#33;\r<br />\r<br />If you want to create your own custom amount, it&#39;s actually very simple. All this script does is change line 88 of &#34;resourcefurniturescript&#34; from:\r<br />---\r<br />[b]akSource.AddItem(Resource, ResourceCount)[/b]\r<br />---\r<br />to\r<br />---\r<br />[b]akSource.AddItem(Resource, 99)[/b]\r<br />---\r<br />where 99 is the number of wood per chop desired.\r<br />\r<br />I highly recommend combining this with [url=http://skyrim.nexusmods.com/downloads/file.php?id=10976]No Axe or Pickaxe required[/url] and [url=http://skyrim.nexusmods.com/downloads/file.php?id=9465]Faster Mining[/url] (both of which I use and vouch for, although Faster Mining is also in the Crafting Overhaul linked above) to make Mining and Chopping Wood far less tedious&#33;\r<br />\r<br />[b][u]Installation Instructions:[/b][/u]\r<br />Click the Download Button and then pick the version you want&#33;\r<br />If you download it manually, simply extract the resourcefurniturescript.pex file to the ~/Data/Scripts folder of Skyrim.\r<br />\r<br />[b][u]Changelog[/u][/b]\r<br />v1: Initial Release\r<br />v2: Created NMM Installer\r<br />\r<br />[b][u]Credits:[/b][/u]\r<br />[b]Bethesda - [/b]For making the best open world games ever made.\r<br />[b]Mountain Dew - [/b]For being so tasty.\r<br />\r<br />[b][u]My Mods[/b][/u]\r<br />[url=http://skyrim.nexusmods.com/downloads/file.php?id=10847]Barbarian Perk Tweak aka More Two Handed Damage[/url]\r<br />[url=http://skyrim.nexusmods.com/downloads/file.php?id=10905]Merchants only reply with Take a Look[/url]\r<br />[url=http://skyrim.nexusmods.com/downloads/file.php?id=7892]Nighteye Muted or Quieter Sound[/url]\r<br />[url=http://skyrim.nexusmods.com/downloads/file.php?id=11119]More Firewood per Chop[/url]\r<br />[url=http://skyrim.nexusmods.com/downloads/file.php?id=11414]Disable Fast Travel Permanently[/url]\r<br />[url=http://skyrim.nexusmods.com/downloads/file.php?id=11684]Bonus Damage Perks affect all Weapons[/url]\r<br />[url=http://skyrim.nexusmods.com/downloads/file.php?id=12356]Dragon Priest Masks - Better Sorting Style[/url]",
+  "categoryId": "24",
+  "version": "2.0",
+  "author": "The Great and Powerful BaconCat",
+  "createdUnix": "1330126033",
+  "updatedUnix": "1330548200",
+  "containsAdultContent": false,
+  "uploadedBy": "BaconCat",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "38566",
+      "name": "More Firewood per Chop",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "More Firewood per Chop-11119-2-0.7z",
+      "uploadedUnix": "1330548200",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/bf2ebddc5d5c2a6b3e9cdacb584e722549a4eb47c19b8dc6171262b177cd75e1/analysis/1406721903/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/More%20Firewood%20per%20Chop-11119-2-0.7z?fid=38566&ttl=1535772065&ri=8192&rs=8192&setec=2557d784f74790a5806f0dfb6a46a752"
+    }
+  ]
+}

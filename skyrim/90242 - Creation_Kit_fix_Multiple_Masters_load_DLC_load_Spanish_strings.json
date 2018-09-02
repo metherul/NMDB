@@ -1,0 +1,32 @@
+{
+  "modId": 90242.0,
+  "modName": "Creation_Kit_fix_Multiple_Masters_load_DLC_load_Spanish_strings",
+  "summary": "Archivo .ini de configuración del editor que permite trabajar con múltiples Masters, cargar contenido de los DLCs y ver los nombres que aparecerán In Game en español.",
+  "descriptionHtml": "WARNING/AVISO\n<br />\n<br />This mod is mainly for spanish users, if want creation kit in your own language, you had to manually edit the file provided here with the specifications below in the Note.\n<br />\n<br />DESCRIPTION/DESCRIPCIÓN\n<br />\n<br />Archivo .ini de configuración del editor que permite trabajar con múltiples Masters, cargar contenido de los DLCs y ver los nombres que aparecerán In Game en español.\n<br />\n<br />No hay mucho más que decir. Es un archivo que recopila varios tutoriales esparcidos por ahí para que todo esto funcione en común. A mi me funciona correctamente sin crashear, pero con el creation kit, todo es posible, ya sabéis...\n<br />\n<br />Para que funcione correctamente necesita que las Strings estén desempacadas, lee más abajo si no sabes como hacerlo.\n<br />\n<br />INSTALLATION/INSTALACIÓN\n<br />\n<br />Para instalarlo solo necesitas extraer el archivo .ini y copiarlo en tu carpeta Skyrim\n<br />\n<br />Note: If you want to use this Fix to set the Creation Kit in your own language, go to the second line of the .ini file under the GENERAL Category:\n<br />\n<br />[General]\n<br />bAllowMultipleMasterLoads=1\n<br />sLanguage=SPANISH\n<br />\n<br />replace SPANISH with the language that you want to see in the CK. (The available languages are: Czech, English, French, German, Italian, Polish, Russian and Spanish)\n<br />\n<br />You need the Strings unpacked in order to get this fix work.\n<br />Necesitas las Strings desempacadas para que esto funcione.\n<br />\n<br />The Strings are packed in the BSA files. In order to unpack them, you can use a BSA unpacker such this: [url=https://www.nexusmods.com/skyrim/mods/4804]https://www.nexusmods.com/skyrim/mods/4804[/url]\n<br />Las Strings están en los BSA del juego, para desempacar, puedes utilizar un BSA unpacker como este: [url=https://www.nexusmods.com/skyrim/mods/4804]https://www.nexusmods.com/skyrim/mods/4804[/url]",
+  "categoryId": "82",
+  "version": "0.1",
+  "author": "Gorgotem",
+  "createdUnix": "1521544055",
+  "updatedUnix": "1521544055",
+  "containsAdultContent": false,
+  "uploadedBy": "Gorgotem",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000268926",
+      "name": "CreationKitFix-SpanishStrings",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "CreationKitFix-SpanishStrings-90242-0-1.zip",
+      "uploadedUnix": "1521543929",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/ddb8fc0acc0c9810859b8026800c62ad570c5e2ee29e7422b60d898c8fa9fd2e/analysis/1521569423/",
+      "changelogHtml": " Added Spanish strings support <br/> \n Added Multiple Masters Load <br/> \n Added DLCs Load <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CreationKitFix-SpanishStrings-90242-0-1.zip?fid=1000268926&ttl=1535880302&ri=8192&rs=8192&setec=0959fc0adc9d55951c3ddd2d8cdd2ad9"
+    }
+  ]
+}

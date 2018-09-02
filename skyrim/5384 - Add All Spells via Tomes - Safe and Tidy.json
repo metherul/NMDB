@@ -1,0 +1,48 @@
+{
+  "modId": 5384.0,
+  "modName": "Add All Spells via Tomes - Safe and Tidy",
+  "summary": "A clean, labeled batch file (easy viewing/editing) to add all available spell tomes, which you can then use to obtain all spells naturally with no risk of damaging your save.",
+  "descriptionHtml": "Edit: I just came back from a break, and wanted to mention the spell tomes from Dragonborn and Dawnguard are not included in this batch file, and they can\\'t be (not reliably, anyway) because their item ID changes based on the order that your DLC was installed. This batch file is only the vanilla tomes. The missing DLC spells are:\r\n\r\nDragonborn: Ash Rune, Ash Shell, Bound Dagger, Conjure Ash Guardian, Conjure Ash Spawn, Conjure Seeker, Freeze, Ignite, Whirlwind Cloak, Frenzy Rune, Poison Rune\r\nDawnguard: Conjure Boneman, Conjure Mistman, Conjure Wrathman, Heal Undead, Necromantic Healing, Stendarr\\'s Aura, Summon Arvak, Sun Fire, Vampire\\'s Ban.\r\n\r\n------------------------------------------------------------------------------------------------------------------------------------\r\n\r\nThe first file, when run from the console, adds all usable spell tomes to your inventory. This includes Equilibrium, Transmute, Hysteria, Fire Storm, and other tomes that are not sold at vendors.\r\n\r\nThe second version adds ONLY vendor-sold spells for those that don\\'t want to really cheat as such. Buying tomes is a pain since it doesn\\'t readily display if you know the spell or not at the vendor. It\\'s not about cheating, it\\'s about saving a headache. \r\n\r\nThe reason to add tomes instead of directly hacking in spells is simply stability. This method prevents any possible chance of errors or corruption that could result from adding spells directly into your spell book, particularly those you\\'re not supposed to have in the first place (some of you have seen a destroyed spell book by other mods, I\\'m sure). By using tomes, it\\'s basically like you bought them off a vendor. It is the safest way to do it and only takes 10 seconds of spam-clicking the BOOKS tab to add them all. \r\n\r\nINSTRUCTIONS:\r\n**NOTE: This modification can not utilize the Nexus Mod Manager due to the file needing to be placed in a directory that the Nexus Mod Manager can not put it in. I apologize for that.\r\n1.) Put \\\"addtomes.txt\\\" into your Skyrim (root, not \\'data\\') folder. This varies depending on whether you have a 64-bit OS and a legit version, or set a custom installation directory. For most people, the default locations are as follows:\r\nSteam on 64-bit Windows: C:\\\\Program Files (x86)\\\\Steam\\\\SteamApps\\\\common\\\\skyrim\\\\addtomes.txt\r\nSteam on 32-bit Windows: C:\\\\Program Files\\\\Steam\\\\SteamApps\\\\common\\\\skyrim\\\\addtomes.txt\r\n... I\\'m sorry, but for everyone else, there\\'s just too many possibilities to list them here. I have faith in you to be able to find it.\r\n2.) Once in game, open the Console with the tilde key (the \\\"~\\\" key left of the the \\\"1\\\")\r\n3.) Type \\\"BAT ADDTOMES\\\" without the quotes. you should see a bunch of spam ending with \\\"END OF TOME LIST\\\"\r\n4.) If you want to see what just happened, tap \\\"PAGE UP\\\" to scroll through the Console log and it will show all the spell tomes added or not added.\r\n5.) Go to your BOOKS tab and ... well .. they\\'re books. Read\\'em.\r\n\r\nThe spells not available (Summon Arniel\\'s Shade, Vision of the Tenth Eye, etc.) are listed in the file under their respective sections as being not available via tome, just for reference. Also, Flames and Healing are listed, but the tomes are not added, since every race is born with them already learned (also noted in the file). I left Sparks in even though it\\'s available during the tutorial in the torture room, just in case you missed it. \r\n\r\nAlso, a few spells are given to certain races when they\\'re born - Sparks to Dunmer, Fury to Altmer, and Conjure Familiar to Bretons. I left those in since so many races don\\'t get them, but those races will get the \\\"Already Known\\\" error on the relative spells when they try to read the tomes. No big deal, really. Yay, that\\'s like 50 septims to a vendor.",
+  "categoryId": "40",
+  "version": "1",
+  "author": "jpsimonetti",
+  "createdUnix": "1325774850",
+  "updatedUnix": "1325779817",
+  "containsAdultContent": false,
+  "uploadedBy": "jpsimonetti",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "16842",
+      "name": "Add All Spells via Tomes - ALL Available Spell Tomes",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Add All Spells via Tomes - ALL Available Spell Tomes-5384.rar",
+      "uploadedUnix": "1325775044",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/c28b75deadcae870c966fa6f1bc8cd903eb7308530355a8a4568509c16528bc9/analysis/1406584264/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Add%20All%20Spells%20via%20Tomes%20-%20ALL%20Available%20Spell%20Tomes-5384.rar?fid=16842&ttl=1535762045&ri=8192&rs=8192&setec=80cbb10f1ea4d9bf471bf6038886ffca"
+    },
+    {
+      "fileId": "16858",
+      "name": "Add Spells via Tomes - Vendor-sold Spells Only",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Add Spells via Tomes - Vendor-sold Spells Only-5384.rar",
+      "uploadedUnix": "1325779817",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/80242d8310c30d13860330025fbf35e832d72032c16189374c4ef5e3957c7176/analysis/1406584442/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Add%20Spells%20via%20Tomes%20-%20Vendor-sold%20Spells%20Only-5384.rar?fid=16858&ttl=1535762046&ri=8192&rs=8192&setec=0417513da68b19dd65d4f5ed06926b78"
+    }
+  ]
+}

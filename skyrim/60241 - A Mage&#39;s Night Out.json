@@ -1,0 +1,32 @@
+{
+  "modId": 60241.0,
+  "modName": "A Mage&#39;s Night Out",
+  "summary": "Provide the mage player with a few spells that may be useful for a night under the stars.",
+  "descriptionHtml": "[center][font=Comic Sans MS][color=#ff00ff][size=6]A Mage&#39;s Night Out[/size][/color][/font][/center][center][size=4]by IsharaMeradin[/size][/center]\r<br />[color=#ff7700][size=3]Purpose:[/size][/color]\r<br />   The purpose of this mod is to provide the mage player with a few spells that hopefully will be useful for a night under the stars.\r<br />\r<br />[color=#ff7700][size=3]Installation:[/size][/color]\r<br />   NMM, MO, Manual\r<br />\r<br />[color=#ff7700][size=3]Uninstallation:[/size][/color]\r<br />   Reverse of Installation\r<br />\r<br />[color=#ff7700][size=3]Files & Folders:[/size][/color]\r<br />   Data &gt; A Mage&#39;s Night Out.esp\r<br />   Data &gt; A Mage&#39;s Night Out.bsa\r<br />   Data &gt; Docs &gt; A Mage&#39;s Night Out Info.txt\r<br />\r<br />[color=#ff7700][size=3]Requirements:[/size][/color]\r<br />   SKSE\r<br />\r<br />[color=#ff7700][size=3]Spells:[/size][/color]\r<br />   [color=#00ffff]Conjure Bed[/color] -- summons a random bed wherever the castor is pointing.  \r<br />[color=#9900ff]      The higher the skill level in conjuration, the more variety in beds.\r<br />      Conjuration experience is gained only when the bed has been slept in.\r<br />[/color]   [color=#00ffff]Conjure Fire Pit[/color] -- summons an already burning fire pit wherever the castor is pointing. \r<br />[color=#9900ff]      Duration increases as conjuration skill increases. Shortest duration is 2.5 game hours. Longest duration is 10 game hours.\r<br />      Conjuration experience is gained when the fire pit is summoned.\r<br />[/color]\r<br />[size=3][color=#ff7700]Important information:[/color]\r<br />[list][*]The spells are novice level and are available wherever Conjure Familiar may be found.  That means any merchant that sells Conjure Familiar can also sell these spells. Any loot location that could have Conjure Familiar could also have these spells. Please use Wrye Bash to ensure that the leveled lists are appropriately merged.\r<br />[/*]\r<br />[*]Care should be taken when casting these spells.  They will snap to the navemesh but that does not mean that they won&#39;t clip with nearby objects.  Flat surfaces are best. Slopes are not good.\r<br />[/*]\r<br />[*]The fire pit will disappear when the cell it is in is detached.  This was done to prevent the fire pit from not clearing out and potentially bloating save games.\r<br />[/*]\r<br />[/list][/size]\r<br />[color=#ff7700][size=3]Permissions:[/size][/color]\r<br />   Open source. I merely ask for credit should you use this work for your publicly released projects. Thank you.\r<br />\r<br />[color=#ff7700][size=3]Credits:[/size][/color]\r<br />   Bethesda for Skyrim and the Creation Kit.\r<br />   [url=http://www.nexusmods.com/skyrim/users/7064860]theregisterdone[/url] for making [url=http://www.nexusmods.com/skyrim/mods/59249/?]Conjure Warm Bed[/url].  It was the inspiration for the Conjure Bed spell.",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "IsharaMeradin",
+  "createdUnix": "1416884723",
+  "updatedUnix": "1416876416",
+  "containsAdultContent": false,
+  "uploadedBy": "IsharaMeradin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000136648",
+      "name": "A Mage&#39;s Night Out",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "25",
+      "fileName": "A Mage's Night Out-60241-1-0.7z",
+      "uploadedUnix": "1416876416",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f5f12520200cd2d32f498d589865e05f022ddcbba63c288f51db4abccc9aea2c/analysis/1416876481/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/A%20Mage%27s%20Night%20Out-60241-1-0.7z?fid=1000136648&ttl=1535847911&ri=8192&rs=8192&setec=5db502a0d8197eb60e1aa39e99a1483d"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 23680.0,
+  "modName": "Perky - Complete Crafting Overhaul - Compatibility Patch",
+  "summary": "This little file fixes the incompatibility between Syynxs Perky and the Complete Crafting Overhaul mod caused by the modification of smithing perks. It\\'s just a rough fix I put together for personal use, the only thing I did was patch the two perk trees back together. So far, it has only been tested on my system, but no adverse effects so far.",
+  "descriptionHtml": "This little file fixes the incompatibility between Syynxs Perky and the Complete Crafting Overhaul mod caused by the modification of smithing perks. It\\'s just a rough fix I put together for personal use, the only thing I did was patch the two perk trees back together. So far, it has only been tested on my system, but no adverse effects so far.\r\n\r\nThere are two minor issues with this mod. The \\\"Basic Smithing\\\" perk is not listed to require it\\'s parent, so there are two choices for the first perk you put into the tree, which looks a bit weird. I don\\'t think this unbalances things, since the heavy armor path is one perk longer than the light armor one, anyway. Secondly, the armor schematics perks are no longer visible as paths in the tree, they are now accessed by selecting the same perk multiple times.\r\n\r\nREQUIREMENTS:\r\nSyynxs Perky: http://skyrim.nexusmods.com/mods/12862\r\nComplete Crafting Overhaul: http://skyrim.nexusmods.com/mods/8003\r\n with ALL it\\'s prerequisites! (In fact, it\\'s not CCO that causes the incompatibility, but the required Smithing Perks Overhaul)\r\n\r\nINSTALLATION:\r\nJust copy the .esp file into your data folder\r\n\r\nLOAD ORDER:\r\nThe only really important thing is that perky is loaded before CCO and it\\'s prerequisites, and the patch last of all. My suggestion would be:\r\n\r\nPerky\r\nSmithing Perks Overhaul\r\nWeapons and Armor fixes\r\n...\r\nOther crafting stuff\r\n...\r\nComplete Crafting Overhaul\r\nperky_spo_patch\r\n\r\nIf there are any problems or unforseen sideffects to this patch, let me know. I\\'ll see if I can fix it.\r\n\r\nSimilar patches can be written quite easily for other smithing mods that conflict with perky. Simply load the smithing mod after perky, open them both in the Creation Kit and patch the perk tree back together. The important thing is that most smithing mods use the \\\"unlock material\\\" perks, so whatever you do, make sure you\\'ve got the smithing mod\\'s version of those perks in your perk tree when you\\'re done.",
+  "categoryId": "84",
+  "version": "0.1",
+  "author": "saerileth",
+  "createdUnix": "1346856019",
+  "updatedUnix": "1346856216",
+  "containsAdultContent": false,
+  "uploadedBy": "Saerileth",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "86594",
+      "name": "Perky_SPO_Patch",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Perky_SPO_Patch-23680-0-1.zip",
+      "uploadedUnix": "1346856216",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/556d7a87ba3df751f097e64937f01c59f09740e0263482157cba17d5f21f4e2b/analysis/1407147363/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Perky_SPO_Patch-23680-0-1.zip?fid=86594&ttl=1535794109&ri=8192&rs=8192&setec=1f77fef3f63e730bf16f7b8efd0c444b"
+    }
+  ]
+}

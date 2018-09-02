@@ -1,0 +1,48 @@
+{
+  "modId": 54381.0,
+  "modName": "SKSE INI for make up and memory and scripts fixes",
+  "summary": "Tired of manually messing with your SKSE.ini ? This simple preconfigured SKSE. ini file will help. Contains three parameters :\r<br />- remove rogue scripts from you savegame, \r<br />- allow higher make up resolutions (optional feature) \r<br />- memory fix, useful since Skyrim patch  1.9.32.0.8. ",
+  "descriptionHtml": "====================================================================================\r<br />SKSE ini for make up and memory and scripts fixes\r<br />\r<br />v1.0\r<br />\r<br />====================================================================================\r<br />\r<br />\r<br />Hello everyone&#33; Reinstalling Skyrim for the XXXth time, I grew tired of manually editing my SKSE ini.file. So, here is a ready to use SKSE ini file for everyone. \r<br />\r<br />Two versions of the main file are provided: One for vanilla make up users, and one for people using High resolution makeup. Please, only use one main file. \r<br />\r<br />For SKSE v1.7 or higher.\r<br />\r<br />\r<br />======================================================================\r<br />\r<br />FEATURES:\r<br />\r<br />======================================================================\r<br />\r<br />\r<br />This mod is very simple. Simply contains a text file (ini) containing these lines: \r<br />\r<br />[Display]\r<br />iTintTextureResolution=2048  \r<br />(This section is not present in the vanilla make up user file, to avoid pixelated makeup for them).  \r<br />\r<br />[General]\r<br />ClearInvalidRegistrations=1\r<br />\r<br />[Memory]\r<br />DefaultHeapInitialAllocMB=768\r<br />ScrapHeapSizeMB=256\r<br />\r<br />\r<br />[u]EXPLANATION:[/u] \r<br />\r<br />1rst part [display] will avoid pixelated make up on your character. Without this fix, all your make up textures will be downscaled at the vanilla resolution of 256*256. \r<br />IF you don&#39;t use High resolution makeup for your character, please download the NO MAKE UP TWEAK version of the main file. \r<br />\r<br />2nd part [General] will activate a SKSE feature that searches for orphan scripts in your save and will remove them. This feature is very safe to use and may help with save game size bloat.\r<br />\r<br />3rd part [Memory] will help people with CTDs due to lack of memory. This fix is explained by Arthmoor in is [url=http://www.nexusmods.com/skyrim/mods/8058/?]Open Cities[/url] mod description (of course, this mod is not required to use the ini. file)\r<br />I quote him: \r<br />\r<br />[quote] In March of 2013, Bethesda released their final patch for Skyrim. Version 1.9.32.0.8. Prior to this, Open Cities Skyrim had little trouble operating in the available memory the game provided.\r<br />\r<br />It has since been found though that Patch 1.9 changed something about the way Skyrim allocates its initial pools of memory, likely due to trying to get the DLC to work on the PS3 and then not bothering to make sure the PC had, you know, PC specific code for that.\r<br />\r<br />The end result is that when traveling, either on foot or by fast travel, it becomes possible for you to run into problems with ILS/CTD issues. This is especially true in Windhelm and almost guaranteed to happen when trying to get back from Solstheim. It&#39;s also likely to happen when fast traveling from one city to another, and CTD may result when trying to enter some interiors after you arrive.\r<br />\r<br />Fortunately the community has devised a solution to this problem in the form of a pre-load memory patch. There are several options for these now, but the one I most strongly recommend is shipping as part of SKSE now beginning with SKSE 1.7. In order to configure SKSE 1.7 to resolve this problem, you simply need to make sure your skse.ini file in Data/SKSE contains at least the following lines:\r<br />\r<br />[Memory]\r<br />DefaultHeapInitialAllocMB=768\r<br />ScrapHeapSizeMB=256\r<br />\r<br />This should resolve the problem on all but the heaviest of load orders. If you still have issues, then you can try either raising the 768 value to 1024, or install ENBoost which will help further reconfigure how RAM is used by the game. There are limits to this, so be careful. Skyrim can only have a maximum of 4GB even on a 64 bit system with boatloads of RAM. Allocate too much to either of the two SKSE settings and you&#39;ll be right back where you started with the ILS/CTD problem. [/quote]\r<br />\r<br />\r<br />\r<br />========================================================================\r<br />\r<br />INSTALLATION & TROUBLESHOOTING\r<br />\r<br />========================================================================\r<br />\r<br />\r<br />[u]INSTALL/UNINSTALL[/u]\r<br />\r<br />To install, either use Nexus mod manager button, or download manually the mod, then open the nexus manager and select the &#34;add mod from file option&#34; or merge the content of my &#34;data&#34; folder with your Skyrim/data folder. \r<br />If your Skyrim data folder didn&#39;t have alredy a SKSE folder, it should now contain one with the .ini inside. \r<br />\r<br />To uninstall, use mod manager or delete the files above in your data folder.\r<br />\r<br />Don&#39;t forget to make a backup of your previous SKSE.ini if you already had one that you tweaked ;)\r<br />\r<br />Only use one main file&#33; \r<br />\r<br />\r<br />[u]REQUIREMENT:[/u]\r<br />\r<br />Of course, you will need to use SKSE, and launch Skyrim with the SKSE loader for the ini fixes to work. \r<br />You can download SKSE here:[url=http://skse.silverlock.org/]http://skse.silverlock.org/[/url]\r<br />Though the SKSE ini file can be installed with mod manager, you will need to to a manual install for SKSE programm. \r<br />Check Gopher tutorial here: [url=http://www.youtube.com/watch?v=xTGnQIiNVqA&feature=kp]http://www.youtube.com/watch?v=xTGnQIiNVqA&feature=kp[/url]\r<br />\r<br />This ini file has been created for SKSE version 1.7. Should be compatible with higher versions as well. \r<br />\r<br />\r<br />[u]COMPATIBILITY WITH OTHER MODS:[/u]\r<br />\r<br />This mod should be compatible with pretty much anything, except obviously with SKSE.ini tweaks. You&#39;ll have to manually edit the .ini if you want to add other .ini tweaks. (Use a text editor)\r<br />\r<br />High resolution 2048 version of the make up goes well with [url=http://www.nexusmods.com/skyrim/mods/31665/?]Better makeup for SKSE[/url] or [url=http://www.nexusmods.com/skyrim/mods/29977/?]XCE Warpaints[/url], and many others high res mods.\r<br />\r<br />\r<br />========================================================================\r<br />\r<br />CHANGELOG:\r<br />\r<br />========================================================================\r<br />\r<br />v1.0: release version\r<br />\r<br />\r<br />\r<br />\r<br />========================================================================\r<br />\r<br />CREDITS:\r<br />\r<br />========================================================================\r<br />\r<br />\r<br />Arthmoor, for pointing to the memory patch SKSE tweak. \r<br />\r<br />Cindycrawford55 for the Rogue Script Remover SKSE ini tweak that gave me the idea to release this .ini. \r<br />\r<br />And of course, the SKSE team for their wonderful and amazing work. \r<br />\r<br />This mod is simply a compilation of tweaks, and I have no credit for these fixes. It&#39;s the SKSE team that deserves kudos. \r<br />\r<br />Have fun&#33;",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "LadyKarrakaz",
+  "createdUnix": "1401114713",
+  "updatedUnix": "1401124782",
+  "containsAdultContent": false,
+  "uploadedBy": "LadyKarrakaz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000110595",
+      "name": "SKSE.ini for High resolution makeup (2048)",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "SKSE.ini-54381-1-0.7z",
+      "uploadedUnix": "1401114287",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9938d5d1516026d17f167a1ffaa366be98d50da55c8b0564f2c9150f0b2378af/analysis/1408097824/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SKSE.ini-54381-1-0.7z?fid=1000110595&ttl=1535838539&ri=8192&rs=8192&setec=feb28b9cada3f9861e2fc39aecdff5a9"
+    },
+    {
+      "fileId": "1000110617",
+      "name": "SKSE ini NO MAKE UP TWEAK (for vanilla makeup users)",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "SKSE ini NO MAKE UP TWEAK (for vanilla makeup users)-54381-1-0.7z",
+      "uploadedUnix": "1401124782",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1b3dc7d10cc3ad1f530f846e7b5edebd8b9d9d3841cd85c1a5e6c46898ac6207/analysis/1408098187/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SKSE%20ini%20NO%20MAKE%20UP%20TWEAK%20%28for%20vanilla%20makeup%20users%29-54381-1-0.7z?fid=1000110617&ttl=1535838539&ri=8192&rs=8192&setec=4d58c2f3e21da546f9d04f8d30538898"
+    }
+  ]
+}

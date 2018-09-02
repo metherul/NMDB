@@ -1,0 +1,48 @@
+{
+  "modId": 6307.0,
+  "modName": "Armor Affects Magic",
+  "summary": "The armor you wear (or not wear) affects your spell casting abilities now. Wearing armor increases your casting costs, while wearing no armor gives you advantages.",
+  "descriptionHtml": "== Armor Affects Magic ==\r\n\r\nIn Skyrim the armor your wear does not affect your spell casting abilities. This mod changes this. Each piece of light armor (helmet, gauntlets, boots, cuirass) you wear will increase the casting cost of spells by 5%, each piece of heavy armor by 20%. Wearing a cuirass gives an additional 5% penalty (which is multiplied with other penalties you have, so wearing a full set of heavy armor for example gives you 180% casting cost plus 5% for cuirass = 189% casting cost, a full set of light armor will give a 126% penalty). But there are not only disavantages for wearing armor, there are also advantages for wearing no armor. Self-made enchantments on clothes (rings and amulets are not affected, only clothes worn on head, hands, feet and body slots) are 25% stronger now and if you wear no armor at all the magnitude of Destruction, Restoration and Illusion spells is increased by 10% and the duration of Conjuration and Alteration spells is increased by 20%.\r\n\r\nI\\'m aware that there are a lot of other problems with the game mechanics which may make this mod useless. Like 0% casting cost enchantments (less casting cost enchantments in general) or the fact that wearing heavy armor is completely pointless (since you can reach the armor cap with light armor just as easily). I will adress this later with other balance mods I\\'m working on.\r\n\r\n\r\n= Installation =\r\n\r\nExtract the archive into your data folder and enable the PTMageArmor.esp in the launcher. If you use v1.0 delete the old MageArmor.esp of course.\r\n\r\n\r\n= Compatibility =\r\n\r\nThis mod should be compatible with any other mod out there.\r\n\r\n\r\n= Changelog =\r\n\r\nv1.0\r\n\r\n- initial release\r\n\r\nv1.1\r\n\r\n- removed the changes from the torch bash perk and added my own perk to the player\r\n- adjusted the values to my liking\r\n- adjusted the way the clothing benefits are handled so you don\\'t get magnitude and duration benefits at the same time",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "Phitt",
+  "createdUnix": "1326665639",
+  "updatedUnix": "1331578443",
+  "containsAdultContent": false,
+  "uploadedBy": "Phitt",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "20182",
+      "name": "Armor Affects Magic",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Armor Affects Magic-6307.7z",
+      "uploadedUnix": "1326665683",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7958e8242434b88884f34406e7f75fbae33b5391155253cbc37f9c2193e4f2d4/analysis/1406614226/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Armor%20Affects%20Magic-6307.7z?fid=20182&ttl=1535763623&ri=8192&rs=8192&setec=d64a1259e68fa4337b617440449668c0"
+    },
+    {
+      "fileId": "42711",
+      "name": "Armor Affects Magic v1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Armor Affects Magic v1_1-6307-1-1.7z",
+      "uploadedUnix": "1331578443",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/a35280b1d220617417aa57a3226b3ef1920b02a86c7852e0cedc95b6c38b58b1/analysis/1406745549/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Armor%20Affects%20Magic%20v1_1-6307-1-1.7z?fid=42711&ttl=1535763624&ri=8192&rs=8192&setec=4f6536520aedfab7b0cb80259f1b8b79"
+    }
+  ]
+}

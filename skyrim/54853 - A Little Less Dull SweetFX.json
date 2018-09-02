@@ -1,0 +1,32 @@
+{
+  "modId": 54853.0,
+  "modName": "A Little Less Dull SweetFX",
+  "summary": "A simple SweetFX configuration intended to slightly boost colors and contrast while staying otherwise close to vanilla. This is not a configuration for drastic changes, there are other configurations that can do that, this is simply for making things just a little less dull.",
+  "descriptionHtml": "Alrighty, my first mod upload, figured i&#39;d start small and do a SweetFX configuration.\r<br />\r<br />First things first, i&#39;m hardly an expert at SweetFX configs. There&#39;s probably a more efficient way to bring about this look, i can see myself that it&#39;s a little unrefined, but i&#39;m putting it up for anyone who does like how it looks and/or can tweak it themselves to suit their setup.\r<br />\r<br />The point of this configuration is to, coupled with Realistic Lighting Overhaul (although other lighting overhauls can give different results), slightly boost the colors and contrast, no significant changes. Colors are a bit punchier, darkness is a bit darker, it&#39;s all around a little less dull-looking. It&#39;s not designed to drastically change how the game looks, there&#39;s other configs (be they SweetFX or ENB) that handle that, this is meant to be relatively minor.\r<br />\r<br />Again, this was made with Realistic Lighting Overhaul in mind, but other lighting overhauls can give different results, be they better or worse than what i got. Obviously, feel free to tweak this config to suit your setup.\r<br />\r<br />Installation:\r<br />Optional: Install [url=http://www.nexusmods.com/skyrim/mods/30450/?]Realistic Lighting Overhaul[/url].\r<br />1. Install [url=http://www.nexusmods.com/skyrim/mods/23364/?]SweetFX[/url].\r<br />2. Install this configuration, overwriting the file already there with this one.\r<br />3. That&#39;s it. Go ogle Olfina Gray-mane or something.\r<br />\r<br />If you use [url=http://www.nexusmods.com/skyrim/mods/15123/?]HialgoBoost[/url], and i strongly suggest you do, and/or [url=http://enbdev.com/]ENB[/url] which i also strongly suggest getting for its memory improvements via [url=http://www.nexusmods.com/skyrim/mods/38649/?]ENBoost[/url], you&#39;ll need to set up a proxy chain. They&#39;re quite simple to do, and they&#39;re covered in the mods&#39; respective readmes, so read them before actually installing anything.\r<br />\r<br />\r<br />Uninstallation:\r<br />d3d9.dll (or the renamed version if using a proxy chain)\r<br />d3d9.fx\r<br />dxgi.dll\r<br />dxgi.fx\r<br />injector.ini\r<br />shader.fx\r<br />SweetFX readme.txt\r<br />SweetFX_preset.txt\r<br />SweetFX_settings.txt\r<br />And finally the SweetFX folder.\r<br />\r<br />\r<br />One caveat (that can be easily worked around, see below), though. For reasons i cannot fathom due to my currently limited mastery of SweetFX&#39;s settings, during daytime your world map will be very bright. Especially the clouds and snowy bits will be washed right out. I don&#39;t know what settings caused it, nor how to fix it without changing how the config looks, so it&#39;s up to you to either tweak the config yourself or simply put up with this one drawback of the config.\r<br />\r<br />HOWEVER, there is a sort of workaround. SweetFX can be toggled on and off with a keybinding, which is Numlock by default, although you can change it if you so desire in the SweetFX_setting.txt file. Simply press Numlock when you bring up the map to disable SweetFX, then press it again when you close the map to re-enable it. It may or may not seem a bit fiddly at first, but once you&#39;re in the habit it should be fine. The alternative is to put up with the glaring brightness :P.",
+  "categoryId": "62",
+  "version": "",
+  "author": "Serithi",
+  "createdUnix": "1402706173",
+  "updatedUnix": "1402701349",
+  "containsAdultContent": false,
+  "uploadedBy": "Serithi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000112891",
+      "name": "A Little Less Dull",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "A Little Less Dull-54853-.rar",
+      "uploadedUnix": "1402701349",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/dad06515d3050ee48a68cec1817a547d57e4dd902ed97287ca7dc0d7c53e8527/analysis/1408125070/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/A%20Little%20Less%20Dull-54853-.rar?fid=1000112891&ttl=1535839353&ri=8192&rs=8192&setec=3953519f85a9bab41fda56a30dea30e4"
+    }
+  ]
+}

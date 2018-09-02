@@ -1,0 +1,32 @@
+{
+  "modId": 26799.0,
+  "modName": "Campfire Stages",
+  "summary": "A modders resource demonstration of a campfire going thru the stages of being setup, lit and burning up over time.",
+  "descriptionHtml": "This is just an ESP file with associated BSA file which will allow you to see a campfire which starts out as a ring of rocks & ash. Some firewood, a torch and a bucket are all nearby.\r<br />\r<br />With firewood on hand (in inventory) you can activate the fire pit and the wood gets placed.  \r<br />\r<br />With a torch on hand (in inventory) you can use the fire pit and light it. \r<br />Note: the player character will go into forced 3rd person and animate by kneeling as if they are lighting the fire.  Animation will not end on its own, simply &#34;move&#34; the actor and they&#39;ll stand up returning the view to what you had originally.\r<br />\r<br />At this point if you let the fire burn itself out over time, you&#39;ll see the wood disappear and the fire effect itself changes, then after some more time the fire effect changes once again to barely burning embers and some time after that it goes out completely.\r<br />\r<br />However, at any time before the fire goes out you can add more firewood and it will reset itself and continue burning.\r<br />\r<br />You can also put the fire out with the nearby bucket (no animation), if the fire still has wood you won&#39;t be able to relight it until the wood has dried out. (i.e. till the end of the current update cycle)\r<br />\r<br />The script uses single updates because each stage can be given a different time frame if so desired. In this example scenario the time frame is .25 or 15 in game minutes\r<br />\r<br />The amount of wood used to build the fire pit up can be adjusted as well. In this example scenario it is 6.\r<br />\r<br />There is a global variable in use which determines which stage the fire is in so that when an update cycle hits it knows what to do.\r<br />\r<br />I&#39;m sure that there is room for improvement as far as how the items transistion in etc... but I wanted to share this as I personally have no reason for using it.  I just got carried away with the idea of &#34;lighting a fire&#34; when asked by a friend for some help with the script.\r<br />\r<br />To access the testing cell type [color=orange]coc abim_testinghouse[/color] everything is right there as you first appear.  Ignore the stuff in the basement, I used the same testing cell as my [url=http://skyrim.nexusmods.com/mods/25890]Individual Item Sorter Script[/url]\r<br />\r<br />To be able to see the source scripts & any meshes I had to modify you will need to extract the BSA file using your prefered program. \r<br />\r<br />I am not going to write up a tutorial on doing this you can just as easily see what to do by looking at the script(s) themselves and seeing what I did in the creation kit.\r<br />",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "IsharaMeradin",
+  "createdUnix": "1352729637",
+  "updatedUnix": "1352729767",
+  "containsAdultContent": false,
+  "uploadedBy": "IsharaMeradin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "99039",
+      "name": "Fire Control",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "26",
+      "fileName": "Fire Control-26799-1-0.7z",
+      "uploadedUnix": "1352729767",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5c765fdf626918d34d79470e122757ccdb251d6c2e60752bd356ce1480149cbc/analysis/1407260228/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fire%20Control-26799-1-0.7z?fid=99039&ttl=1535799108&ri=8192&rs=8192&setec=10187472c5f29b806c06b19c7cb301ba"
+    }
+  ]
+}

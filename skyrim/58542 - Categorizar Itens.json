@@ -1,0 +1,32 @@
+{
+  "modId": 58542.0,
+  "modName": "Categorizar Itens",
+  "summary": "Organiza, Categoriza os ítens de Baús, Barris, Cofres e etc... Da mesma forma que é categorizado no inventário do Player\r<br />\r<br />Categorize items for Chests, Barrels, Safes and etc ... Just as inventory is categorized in the Player",
+  "descriptionHtml": "Sorry my english, I&#39;m Brazilian. Posted in English only with the intention of helping other players\r<br />\r<br />[color=#ff0000]OBS: Isso não é um MOD. Meu arquivo apenas habilita a opção Categorizar Itens do SKSE   \r<br />NOTE: This is not a MOD. My file only enables Categorize Items option SKSE[/color]\r<br />\r<br />\r<br />[center][img]https://imagizer.imageshack.us/v2/641x362q50/540/UNGlhQ.jpg[/img][/center]\r<br />\r<br />\r<br />\r<br />[color=#ff0000]REQUERIMENTOS:[/color]\r<br />- Necessita do Skyrim Script Extender (SKSE) para funcionar. Sem isso o arquivo não serve para nada\r<br />- Download do SKSE [url=http://skse.silverlock.org/download/skse_1_07_01_installer.exe]DOWNLOAD AQUI[/url]\r<br />[color=#ff0000]\r<br />REQUIREMENTS:[/color]\r<br />- Requires Skyrim Script Extender (SKSE) to work. Without this file does nothing\r<br />- Download do SKSE [url=http://skse.silverlock.org/download/skse_1_07_01_installer.exe]DOWNLOAD HERE[/url]\r<br />\r<br />\r<br />\r<br />[color=#ff0000]INSTALAÇÃO PRA QUEM NÃO TEM O SKSE INSTALADO:[/color]\r<br />- Instale o SKSE [url=http://skse.silverlock.org/download/skse_1_07_01_installer.exe]DOWNLOAD AQUI[/url]\r<br />- Coloque a pasta DATA dentro da pasta do seu Skyrim. Ex: C:&#92;Program Files (x86)&#92;TSEV Skyrim LE\r<br />\r<br />[color=#ff0000]INSTALLATION FOR WHO HAVE NOT INSTALLED SKSE:[/color]\r<br />- Install SKSE [url=http://skse.silverlock.org/download/skse_1_07_01_installer.exe]DOWNLOAD HERE[/url]\r<br />- Place the DATA folder inside your Skyrim folder. Ex: C:&#92;Program Files (x86)&#92;TSEV Skyrim LE\r<br />\r<br />\r<br />[color=#ff0000]\r<br />INSTALAÇÃO PRA QUEM JÁ TEM O SKSE INSTALADO:[/color]\r<br />- Verifique se existe em seu Skyrim o arquivo: Data&#92;SKSE&#92;skse.ini\r<br />- Se não existir esse arquivo, apenas coloque a pasta DATA dentro da pasta do seu Skyrim. Ex: C:&#92;Program Files (x86)&#92;TSEV Skyrim LE\r<br />- FIM\r<br />\r<br />JÁ EXISTE O ARQUIVO skse.ini\r<br />- NÃO instale a minha pasta DATA. Apenas abra o seu arquivo skse.ini e adicione as linhas abaixo nele:\r<br />\r<br />[Interface]\r<br />EnableContainerCategorization=1\r<br />\r<br />[color=#ff0000]INSTALLATION FOR WHO ALREADY HAVE INSTALLED SKSE:[/color]\r<br />- Check for the file in your Skyrim: Data&#92;SKSE&#92;skse.ini\r<br />- If this file does not exist, just place the DATA folder inside your Skyrim folder. Ex: C:&#92;Program Files (x86)&#92;TSEV Skyrim LE\r<br />- end\r<br />\r<br />The skse.ini FILE ALREADY EXISTS\r<br />- DO NOT install my DATA folder. Just open your skse.ini file and add the following lines in it:\r<br />\r<br />[Interface]\r<br />EnableContainerCategorization = 1",
+  "categoryId": "27",
+  "version": "0",
+  "author": "Heitor Souza",
+  "createdUnix": "1411936530",
+  "updatedUnix": "1411936465",
+  "containsAdultContent": false,
+  "uploadedBy": "HeitorSouza",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000128818",
+      "name": "Data.zip",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Data.zip-58542-.zip",
+      "uploadedUnix": "1411936465",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/064d7c53a6f437149a9f42326cda3b2b394076d0a4cf27605b3f00f53fa42a32/analysis/1411936562/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Data.zip-58542-.zip?fid=1000128818&ttl=1535845295&ri=8192&rs=8192&setec=9dcac38c9f6289d86b8d336483d202fb"
+    }
+  ]
+}

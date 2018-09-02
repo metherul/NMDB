@@ -1,0 +1,15 @@
+{
+  "modId": 4575.0,
+  "modName": "Permanent Priority and Affinity for Skyrim",
+  "summary": "Permanent Priority & Affinity for Skyrim on Dual/Quad core CPU\\'s\r\n",
+  "descriptionHtml": "Permanent Priority & Affinity for Skyrim (tesv.exe) on Dual/Quad core CPU\\'s\r\n\r\nHere\\'s a simple tip to permanently assign priority & affinity to the skyrim executable.\r\n\r\n(1) create a new text file in your main game folder (where tesv.exe is installed)\r\n\r\n(2) name it what you want but change the extention to BAT (example: tesv.bat)\r\n\r\n(3) open the bat file with any text editor, such as notepad\r\n\r\n(4) add the following line\r\n@start /high /affinity X TESV.exe\r\n\r\n(5)  X represents the core(s) you would like to assign\r\nuse the chart below to determine specific core(s)\r\n\r\n1 = core 0\r\n2 = core 1\r\n3 = cores 0 and 1\r\n4 = core 2\r\n5 = cores 0 and 2\r\n6 = cores 1 and 2\r\n7 = cores 0, 1, and 2\r\n8 = core 3\r\n9 = cores 0 and 3\r\nD = cores 0, 2, and 3\r\nF = cores 0, 1, 2, and 3\r\n\r\n(6) /high represents the CPU priority\r\nuse the chart below to assign a specific priority (default = normal, recommended = high)\r\n\r\n/realtime\r\n/high\r\n/abovenormal\r\n/normal\r\n/belownormal\r\n/low\r\n\r\n(7) save the BAT file\r\n\r\n(8) create a shortcut of the BAT file (right click > send to > Desktop)\r\n\r\n(9) now you can change the icon and place the shortcut where-ever you want\r\n\r\nI have tested this and it does work (open task manager > checked TESV.EXE > priority = HIGH, affinity = 1)\r\n\r\nMy main concern is namely the \\\"Load Loose Files\\\" checkbox in SkyrimLauncher... by launching with the BAT file\r\nI\\'m not sure if the \\\"Loose\\\" file assignment with be activated.\r\n\r\nOnce I find out I will update or remove this tip.",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "bigstep70",
+  "createdUnix": "1324841433",
+  "updatedUnix": "1324841433",
+  "containsAdultContent": false,
+  "uploadedBy": "bigstep70",
+  "primaryFile": null,
+  "files": []
+}

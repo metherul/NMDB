@@ -1,0 +1,32 @@
+{
+  "modId": 29696.0,
+  "modName": "For Modders - Small 1024 x 1024 terrain",
+  "summary": "For Modders - Small 1024 x 1024 terrain",
+  "descriptionHtml": "Small 1024 x 10246 terrain for modding\r\n\r\nThis is a small map with a couple of rolling hills and a couple of small lakes.  Terrain is fairly mild, with only a couple of areas with super steep rises.  I\\'ve added a portal to the terrain from inside the Skyrim map, on the road out of Riverwood to the south.  A small shack.\r\n\r\nIn this folder:\r\n\r\ncocs.txt - cell names for use with \\\"coc\\\" command. EX. from the console (press `)(tilde), then enter coc (area name) \\\"coc S_area03\\\"\r\n\r\nheightmap.tif - heightmap used to generate the terrain\r\nbeta.raw - the raw file used with TESAnnwyn to generate the physical terrain\r\nbeta.obj - a mesh generated from heightmap.tif obj is 512 x 512 and is not used by nor needed for this mod. Just added cuz it\\'s cool.\r\ndata folder - folder contains all the files needed for this mod. simply drop the \\'data\\' folder into your skyrim base folder, and hit ok on any popups.\r\n\r\nFor use with the Creation Kit:\r\nOpen the Creation Kit. Go File>Data. Check the Skyrim.esm and beta.esp. Set beta.esp as \\'Active File\\'. Press\\'OK\\'. In the Cell View dropdown, select Scalloped. From here select any cell and double click to goto that cell.\r\n\r\nLandscape textures added: I have added a couple of my landscape textures to the game, which will show up on your \\'Landscape Editing Window\\'.\r\n\r\n\r\nFor use in game:\r\nJust outside Riverwood, on the path south, there is a small shack that will port you to the beta terrain, or in game press the tilde (`)(just left of the \\'1\\' on most keyboards), you should now be in the console. type coc beta1 to gotWhen inside the beta map, there are a couple of map markers that you can travel to, and 6 \\'COC\\' areas to travel to.\r\n\r\nIf you have any serious problems, it is more likely that I will notice an email sent to hyperactive@clammy.org than to notice a comment on the Nexus. I get lazy like that. I don\\'t take requests for specialized terrains because they are a pain :) this terrain was generated semi randomly with some specialized tweaks. Creating a made to order terrian takes much more time and talent than I have. They are really very much of a pain.\r\n\r\nThis terrain was created using:\r\n\r\nPhotoshop and GeoControl2 and EarthSculpter and Bryce7 for the heightmap creation and generation.\r\n\r\n\r\nTESAnnwyn and Oscape were used to take the heightmap to a usable state for the game.\r\n\r\nTESAnnwyn and Oscape are free programs created by awesome, kickass people. Both files can be found on this site...I think.\r\n\r\nEverything held within the mod are my creations (\\'cept the parts by Bethesda) and you are free to do what you will with them. If you somehow take this mod and make millions of dollars, I expect an email so I can bug you once a week or so for a couple of bucks for a beer\r\n\r\nhyperactivechild ",
+  "categoryId": "82",
+  "version": "",
+  "author": "hyperactivechild",
+  "createdUnix": "1357721810",
+  "updatedUnix": "1357721950",
+  "containsAdultContent": false,
+  "uploadedBy": "hyperactivechild",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000001135",
+      "name": "beta",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "25044",
+      "fileName": "beta-29696-.7z",
+      "uploadedUnix": "1357721950",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/49cc24c9af32e0888948778d2add73c5e6ce07584eb8e0196722ccb6820cc312/analysis/1407344956/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/beta-29696-.7z?fid=1000001135&ttl=1535804016&ri=8192&rs=8192&setec=ae85da78cba3839cdd6ca24b2e22b95a"
+    }
+  ]
+}

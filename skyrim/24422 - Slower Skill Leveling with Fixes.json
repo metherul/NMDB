@@ -1,0 +1,48 @@
+{
+  "modId": 24422.0,
+  "modName": "Slower Skill Leveling with Fixes",
+  "summary": "Slows Skill Leveling, with option version to fix several skills that level way too fast.",
+  "descriptionHtml": "[i]Tired of how every little thing you do in skyrim levels you up ?\r<br />Feel you&#39;re limiting which skill you use, or dungeon to visit because you&#39;re afraid of leveling up and the whole world changing ?\r<br />Want to play a game where you max your character towards the end of the game and not in the beginning ? [/i]\r<br />\r<br />Then this mod is for you.\r<br />Slowing down leveling encourages exploration, challenge and also more forgiving if you want to use unrelated skills every once in a while.\r<br />\r<br />This mod was inspired and created with the help of [url=http://skyrim.nexusmods.com/mods/11501]Slower Leveling with tutorial[/url].\r<br />Slower Leveling can be install/used/removed at any time without messing your saves or character - because it only slows down actual skill gain.\r<br />That also means it won&#39;t mess up with skill/levels ratio.\r<br />Based on values of latest Skyrim version 1.7.7.0.\r<br />For Skyrim SE version, check the [url=https://www.nexusmods.com/skyrimspecialedition/mods/12761/?]mod port by BlackGorath[/url].\r<br />\r<br />\r<br />[b]Installation[/b]\r<br />Normal version - simply slows all skills by a given factor, choose between 2x / 3x / 4x /5x .\r<br />Fixed version - attempts to also balance several skills that level too fast compared to other. (e.g. enchanting, pickpocket, etc)\r<br />\r<br />\r<br />[b]Help, I don&#39;t know which factor to use &#33;[/b]\r<br />There&#39;s a quick trick to find which ratio is good for you in 2 minutes.\r<br />&bull; Load a save where you maxed you combat skills, (or just latest one if you haven&#39;t maxed yet)\r<br />&bull; Think how much of the content (quests/exploration) more you should have done to get to your current level. (for most players that will be 2/3x)\r<br />&bull; Let&#39;s say it was 2x, now load a previous game with half as many playing time. (that&#39;s displayed in load screen)\r<br />&bull; Now you can see the character level/skills/equipment you would have been if you used scaling.\r<br />&bull; Again, remember there is only so much content in the game, That&#39;s why I personally use 2x.\r<br />\r<br />\r<br />[b]Fixed Version Changes[/b] :\r<br />&bull; [b]Enchanting[/b] - Basically it makes it slower at lower levels, but higher levels are the same.\r<br />The reason was that it&#39;s way too fast at lower level, you practically level up skill with every enchantment.\r<br />Unfortunately skill works on flat rate regardless of enchantment/soulgem, so making it slower on higher levels would just turn it to grind.\r<br />&bull; [b]Pickpocket[/b] - same early on, but up to 4x slower towards end of skill.\r<br />previously would level up almost on every theft, especially as you get higher value theft loot as you progress.\r<br />&bull; [b]Illusion[/b] - made is closer to other magic skills - 3x slower early on, up to 1.5x slower towards end of skill.\r<br />previously a character like a thief for example would level illusion twice as fast as stealth, that made no sense and could break a playthrough build.\r<br />\r<br />\r<br />[i][b]Fixed version technicals[/b]\r<br />&bull; [1.1] Illusion - skill improve multi 3, skill improve offset 500.\r<br />&bull; [1.1] Pickpocket - skill improve multi 1, skill improve offset 125. (uesp formula is wrong)\r<br />&bull; [0.8] Enchanting - skill improve multi 0.9, skill improve offset 1333.[/i]",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "svartberg",
+  "createdUnix": "1348219396",
+  "updatedUnix": "1349432978",
+  "containsAdultContent": false,
+  "uploadedBy": "svartberg",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "89663",
+      "name": "Slower Skill Leveling Normal",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Slower Skill Leveling-24422-1-0.7z",
+      "uploadedUnix": "1348221460",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3ecc8eb8ba8865e28bcaf5f6aa3543ce4954680579ff95fe10dd42c9c329018f/analysis/1407178994/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Slower%20Skill%20Leveling-24422-1-0.7z?fid=89663&ttl=1535795353&ri=8192&rs=8192&setec=dec6f280e4cbd42ccef4d205f019cc89"
+    },
+    {
+      "fileId": "92129",
+      "name": "Slower Skill Leveling Fixed",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Slower Skill Leveling Fixed-24422-1-1.7z",
+      "uploadedUnix": "1349432978",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/f159ed7e148e234f3f1979e7bcd101847080d48a3ab84bb164cb3cc1de62a632/analysis/1407204783/",
+      "changelogHtml": " Fixed version - rebalanced illusion, was too fast <br/> \n Fixed version - pickpocket should now use proper formula <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Slower%20Skill%20Leveling%20Fixed-24422-1-1.7z?fid=92129&ttl=1535795353&ri=8192&rs=8192&setec=2690a3b2ec0a989eb7a03e6d120f32f5"
+    }
+  ]
+}

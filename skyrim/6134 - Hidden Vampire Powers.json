@@ -1,0 +1,32 @@
+{
+  "modId": 6134.0,
+  "modName": "Hidden Vampire Powers",
+  "summary": "Hidden In-Game Vampire powers that can now be activated.",
+  "descriptionHtml": "As i was searching through the Skyrim esm i noticed something odd. Under Spells there were a bunch of un-activated hidden vampire powers that the programmers disabled. \r\nSadly I was not able to activate all of them BUT.....\r\n\r\nI was able to activate 2 other hidden vampire powers: \r\n\r\nDread Cloak: similar to Ancestors Wrath that Dunmer have but it is a frost cloak instead.\r\nVampiric Strength: Improves unarmed attacks by 20 points.\r\n\r\n>>>Installation<<<< \r\nTo \\\"Activate\\\" these powers just extract the text file(txt), called, \\\"VP\\\" into your Data folder. Then while in-game bring up the command console and type, \\\"bat VP\\'\\\" and you will have your new powers. \r\n\r\nYou will have to retype the batch file in the command console if you re launch the game or load a different save. \r\n\r\n>>>Additional Finds and Notes<<<<\r\n\r\nThere were two vampire powers that were supposed to give you increased unarmed; the other not mention was called Vampires Touch, which started at base power of 5 and would increase to 7, 10 15, 20. Oddly enough it would increases up to 6 levels verse the normal 4 and the first value of spell is missing.\r\n\r\nVampiric Strength looks like a later additive that got deactivated, since it look like it was more directly controlled by the vampire stages. It also looks like it would have progressed in strength through the stages starting at 5, then, 10-15-20.\r\n\r\nAnother set of spells that got deactivated were different variations of the vampire drain spell that would let you even absorb stamina and magic; and would go up to a high base stat of 20. It also looks like these other vampire drain spells were rig for the old EDS play style; since it was only to be assigned to the left hand. An odd thing though was it look like you would first start out with a weak base 3 health absorption version then as you progressed, the base state would increase and would add stamina, then later magic; the last drain having a base stat of 20 draining ability to all stats. Oddly though it looked like it would progress though 7 stages to get from the weak drain to the super all stats drain spell.\r\n\r\nAnother random thing that i found was the appearance of a enchantment called, \\\"Vampires Hood\\\" and would increase your magica by 25 points. I have found no items playable or not with this enchantment on it; and has no base enchantment.\r\n\r\nUnder Magic Effects i found 2 interesting looking things:\r\n1. An enchantment called \\\"Vampire Fortify Dmg Resist\\\", with this in the description: +<mag> damage resistance, if wearer is undead.\r\n\r\n2.Another enchantment with the same Item name as the first, but withe editor Id, \\\"EnchFortifyMagickaVampire\\\", with the description, \\\"+<mag> magicka, if wearer is undead.\\\"\r\n\r\nDid not find items with these enchantments. Don\\'t know if there was a connection to the vampire hood.  ",
+  "categoryId": "73",
+  "version": "Yes",
+  "author": "rocker409",
+  "createdUnix": "1326514622",
+  "updatedUnix": "1326514770",
+  "containsAdultContent": false,
+  "uploadedBy": "rocker409",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "19591",
+      "name": "Hidden vampire powers",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Hidden vampire powers-6134-1-0.7z",
+      "uploadedUnix": "1326514770",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/738f9ffef2ed23a94b6bc6fbe31790a199d06aacc4dda1994e0473e63011471b/analysis/1406609470/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hidden%20vampire%20powers-6134-1-0.7z?fid=19591&ttl=1535763347&ri=8192&rs=8192&setec=0bad741eeaabc572a50b04b6a7aa35d6"
+    }
+  ]
+}

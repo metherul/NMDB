@@ -1,0 +1,48 @@
+{
+  "modId": 31282.0,
+  "modName": "Better Dragon Aspect",
+  "summary": "Better Dragon Aspect is a mod that aims to improve the Dragon Aspect shout. This includes:\r\n\r\n-Removed Dragon Aspect shout\\'s \\\"Usable once per day\\\" limit\r\n-Balances the cooldown timer\r\n-Changes the final word\\'s effect to something (in my opinion) better.",
+  "descriptionHtml": "[size=5][u][b]How would you possibly make Dragon Aspect better?[/b][/u][/size]\r\n\r\nFor you guys who love Dragon Aspect as much as I do, you probably found yourself groaning at the [i]Usable once per day[/i] limit on this shout.\r\n\r\nI didn\\'t like that. As a result, I decided to completely remove the once per day limit on this shout, and give it proper cooldowns. The shout itself lasts five minutes, so logically, the first word would cooldown in five minutes, the second in seven minutes, and the final (which is very good) would be ten minutes.\r\n\r\nHowever, this posed a problem: The final word of the shout lowers the cooldowns on your other shouts. Seeing as how your shout meter will be on cooldown during the entire duration of this shout, this made it effectively useless.\r\n\r\nSo, I made a change to it: Instead of reducing your shout cooldowns, the main version now [b]boosts your melee attack speed and magic damage by 25%.[/b] The attack speed buff applies to all weapons, including Unarmed, if you like punching people in the face. Along with that, the magic damage buff affects all destruction spells, as well as elemental damage enchantments on weapons.\r\n\r\nThis, in my opinion, has made the shout much more usable as a combat option, without being completely overpowered.\r\n\r\nIn any case, I hope you guys enjoy my simple mod that makes a badass shout even more awesome (in my opinion). Enjoy!\r\n\r\n\r\n[b]---------------------------------------------[/b]\r\n\r\n[size=5][b][u]Changelog[/u][/b][/size]\r\n-1.1: Added Elemental Damage to the final Word. Gain +25% damage to all elemental damage, which includes both spells and weapon enchantments.\r\n\r\n[b]---------------------------------------------[/b]\r\n\r\n\r\n[size=5][b][u]**NOTICE**[/u][/b][/size]\r\n[b]I am also taking requests for the final Word, as well as ideas for improvement of this mod.[/b] I understand that not everyone uses weapons, so lore-friendly alternatives to Attack Speed is something I would be happy to create. If I like it, I\\'ll create an alternate version and throw it up on here for everyone to use. Just leave a comment!\r\n\r\n[size=5][u][b]Requirements[/b][/u][/size]\r\n-Dragonborn DLC\r\n\r\n[size=5][u][b]Conflicts/Troubleshooting[/b][/u][/size]\r\n-If it alters the Dragon Aspect Shout, it will probably conflict with this mod. Otherwise, you\\'re good to go!\r\n-Some people have a problem where using the shout actually lowers your attack speed substantially. This is caused by your WeaponSpeedMult Actor Value being set to 0, which, for some reason, also behaves as though it is being set to 1. The easiest way to fix this is entering \\\"player.setav WeaponSpeedMult 1\\\" in console. This fixes the problem in pretty much every case, and it should only be a one time thing.",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "Amaroq Okami",
+  "createdUnix": "1360385201",
+  "updatedUnix": "1360451708",
+  "containsAdultContent": false,
+  "uploadedBy": "AmaroqOkami",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000008252",
+      "name": "Better Dragon Aspect",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Better Dragon Aspect-31282-1-0.zip",
+      "uploadedUnix": "1360384854",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/319affa41bfa7cf5d9cfce57d203d4b838f3a9302c00c12c8040d4b1a9c71e9b/analysis/1407406302/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Better%20Dragon%20Aspect-31282-1-0.zip?fid=1000008252&ttl=1535806718&ri=8192&rs=8192&setec=6ad122e4aa2a0c627964bb2be1ba84e9"
+    },
+    {
+      "fileId": "1000008529",
+      "name": "Better Dragon Aspect",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Better Dragon Aspect-31282-1-1.zip",
+      "uploadedUnix": "1360451708",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d4aa8aeb1793977a13203af3f176fdaa547ad92be2f40749bc8d1db743ec5435/analysis/1407408248/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Better%20Dragon%20Aspect-31282-1-1.zip?fid=1000008529&ttl=1535806719&ri=8192&rs=8192&setec=35cadf693479133358c9b3134b00acdf"
+    }
+  ]
+}

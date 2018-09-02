@@ -1,0 +1,48 @@
+{
+  "modId": 31404.0,
+  "modName": "How to open Dragonborn DLC in Creation Kit",
+  "summary": "Opening Dragonborn in Creation kit\r\nPreset setting under downloads now.",
+  "descriptionHtml": "We encountered this problem with Dawnguard already, where the creation kit would \\\"stop working\\\" the moment we tried to load the DLC content into it.\r\n\r\nThe fix, just like in Dawnguard is simple and I will do my best to make it easy to follow!\r\n\r\nTo make Dragonborn work in creation kit(same steps for dawnguard) :\r\n1. Open your skyrim install directory. Default = C/Program Files/The elder scrolls V Skyrim.\r\n\r\n2. Find a Configuration settings file named : SkyrimEditor\r\n\r\n3. Once you open the file hold ctrl + F to enter Search mode (on windows)\r\n\r\n4. Type in >>> SResourceArchiveList2=Skyrim <<< and search next.\r\n\r\n5. You will see after the - Shaders.bsa, Update.bsa.\r\n\r\n6. make another coma after Update.bsa, and add Dawnguard.bsa, Dragonborn.bsa (Dawnguard if you have it)\r\n\r\n7. Than just simply save and exit.\r\n\r\n8. You may be refused to overrite the file directly, in which case just save to desktop and move the file from desktop to the install directory.\r\n\r\n9. Make a backup save IF you have messed around in the file before. Otherwise there is already a default file called Skyrim_Default.\r\n",
+  "categoryId": "82",
+  "version": "1",
+  "author": "Mebeme4ever",
+  "createdUnix": "1360527708",
+  "updatedUnix": "1360557729",
+  "containsAdultContent": false,
+  "uploadedBy": "mebeme4ever",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000008795",
+      "name": "Making Creation Kit Work",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Making Creation Kit Work-31404-1.rar",
+      "uploadedUnix": "1360527589",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/48bbf0558da67ea46037c595ed1f8c9e0ca14294f41cf33074b725e655152e17/analysis/1407410071/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Making%20Creation%20Kit%20Work-31404-1.rar?fid=1000008795&ttl=1535806921&ri=8192&rs=8192&setec=718679b14b133d581c079c7431d3cf05"
+    },
+    {
+      "fileId": "1000008905",
+      "name": "Preset SkyrimEditor file",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Preset SkyrimEditor file-31404-.rar",
+      "uploadedUnix": "1360557729",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/e20e8875ddedf9dd5eb22220fec3e0c728f811ee3a4b0aed1e1af30e1fdc436b/analysis/1407410772/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Preset%20SkyrimEditor%20file-31404-.rar?fid=1000008905&ttl=1535806921&ri=8192&rs=8192&setec=20cc7e3bea322c01219441948ab84456"
+    }
+  ]
+}

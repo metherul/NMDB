@@ -1,0 +1,32 @@
+{
+  "modId": 14635.0,
+  "modName": "Followers and Follower faction Unprotected",
+  "summary": "This mod removes the protected flags from followers and follower alias, so they can be killed by enemy now.",
+  "descriptionHtml": "What this mod do?\r\n1. Removes the \\\"protected\\\" flags from all potential followers. Essential not changed.\r\n2. Removes the \\\"protected\\\" flag from QuestAlisases -> follower\r\n\r\nDescription:\r\nSeveral mods had tried to make followers unprotected via remove the \\\"protected\\\" flags from Npcs (like those by Smuppet and FireMaster). But it seemed not work very well (at least for me), for the followers still act as been protected after they join the player. So I try to find out what happened in ck.\r\n\r\nIt turn out that there is another \\\"protected\\\" flag, which locates at: \r\nobject window->dialoguefollower->Quest Aliases->Follower->protected\r\n\r\nA Npc become a follower will become a \\\"follower alias\\\"(I think the script say so), thus get the protected trait again. So I remove this flag to make sure it will not happen. (PS: You can also remove the follower default bow and arrows in the same window if you do not like them).\r\n\r\nI have tested this mod on two housecarls, Feandal, Uthgerd and a hireling for a night. It worked. I also tried several non-vanilla followers (add via console command), it worked as well if the Npc is not essential or protected by game.\r\n\r\nSo now I put the esp here to see if it also works for other people who want unportected followers.\r\n\r\nInstallation:\r\nPut the esp file in data folder and selecte it in mod manager or skyrim launcher.\r\n\r\nUnistallation:\r\nDelete the esp if you want to remove the mod.\r\n\r\nOther Notes:\r\n1.I think any other mod that changes the Essential/Protected flags of Npcs or related QuestAliases (I know several follower overhaul mods do so) could undone this mod. So check if you have any before use this mod.\r\n\r\n2. I do not change the essential flags. So some followers still can\\'t die(eg. Mojll)\r\n\r\n3. Follower still fall on their knees sometimes if enemy do not hurt them enough. \r\n\r\n4. Be careful if this mod work for you. For some quest Npcs may die, and you could lose your favorite follower easily!",
+  "categoryId": "66",
+  "version": "1.0",
+  "author": "Bearwere2",
+  "createdUnix": "1333849220",
+  "updatedUnix": "1333849472",
+  "containsAdultContent": false,
+  "uploadedBy": "bearwere2",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "51099",
+      "name": "Unprotected Follower Faction",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "24",
+      "fileName": "Unprotected Follower Faction-14635-1-0.rar",
+      "uploadedUnix": "1333849472",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e38f9ae62d054f229b1708371fa2726a9974dea1f8b89316ccff404d49726df2/analysis/1406803182/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Unprotected%20Follower%20Faction-14635-1-0.rar?fid=51099&ttl=1535778405&ri=8192&rs=8192&setec=d8c8632e6f9c62c0dbde280eefcdafae"
+    }
+  ]
+}

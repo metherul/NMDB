@@ -1,0 +1,48 @@
+{
+  "modId": 61477.0,
+  "modName": "Essentialize Spells",
+  "summary": "Did you really hate someone in the game, but they just wont die? Do you really love someone in the game and hope they never die? Do you hate typing in &#34;setessential 00013bbd&#34; just to kill the Jarl of Whiterun? \r<br />",
+  "descriptionHtml": "[size=5][i][b]Few Essential NPCs CANNOT DIE. They probably have a quest alias attached to them where the quest itself makes them marked essential. I have yet to figure out how to work around this to make it work for every actor. If you really want a screenshot of someone important dead, disable the undying NPC and spawn them again through console.\r<br />\r<br />[b][i][size=6]This mod is the equivalent of running &#34;setessential &lt;baseid&gt; 0/1&#34; on a target.[/size][/i][/b]\r<br />[/b][/i][/size]\r<br />[b]WHAT DOES THIS DO?[/b]\r<br />\r<br />Adds five spells: \r<br />\r<br />-Savior: Makes everyone in the current area essential. \r<br />-Nuke: Kills every living thing in the current area. Even essentials \r<br />-Essentialize: Makes the target essential \r<br />-Dessentialize: Makes the target mortal \r<br />-All Mortal: Makes everyone in the current area non-essential (so you can kill them) \r<br />\r<br />The spells are under alteration with the exception of nuke which is under destruction.\r<br />\r<br />[b]HOW DO I GET THEM?\r<br />\r<br />EDIT: [/b]You can now download a version that adds the spells directly to your spells menu.\r<br />\r<br />You can buy the spells from Tristen the Great in Dragonsreach on one of the long tables. \r<br />\r<br />If you really want the spells just type this in the console: \r<br />\r<br />help &#34;wow lol&#34; \r<br />\r<br />the code for the chest should pop up, something like 04001d99 where xx is the mod load order \r<br />\r<br />type in the code that appears so for example: \r<br />\r<br />player.placeatme 04001d99 \r<br />\r<br />Disclaimer:\r<br />This WILL BREAK EVERY QUEST ASSOCIATED WITH THE NPC. If they were meant to die and they turn essential, then you can&#39;t complete the quest. If they&#39;re dead, then almost every scene where actor movement is involved will not progress. Only use on a save where you&#39;re willing to mess around in. There&#39;s really no undoing the nuke or the two mass essentialize spells. \r<br />\r<br />But really, the main point of this mod is to have fun.\r<br />\r<br />\r<br />Check out [url=http://www.nexusmods.com/skyrim/mods/61482/?]Essentials Ragdoll on Knockdown[/url] for the immersive essential NPC experience or [url=http://www.nexusmods.com/skyrim/mods/78477?]Player Knockout[/url] for the essential player experience",
+  "categoryId": "40",
+  "version": "1",
+  "author": "RavingKeroro",
+  "createdUnix": "1420698646",
+  "updatedUnix": "1420768296",
+  "containsAdultContent": false,
+  "uploadedBy": "RavingKeroro",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000141879",
+      "name": "Essentialize Spells",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Essentialize Spells-61477-1.zip",
+      "uploadedUnix": "1420698079",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/43b3758c34f9f2401aca50a9c37cc212f0829af785c4c209ab6c8ac47e8b2e47/analysis/1420698122/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Essentialize%20Spells-61477-1.zip?fid=1000141879&ttl=1535849871&ri=8192&rs=8192&setec=197ef7e661624f82eb78470699f41c3c"
+    },
+    {
+      "fileId": "1000141976",
+      "name": "Essentialize Spells - Auto Add",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Essentialize Spells - Auto Add-61477-1.rar",
+      "uploadedUnix": "1420768296",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/0c720a49fc4ed717a9018d8a814b12db899288bbde7efc33c262426a9e2c2b24/analysis/1420768322/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Essentialize%20Spells%20-%20Auto%20Add-61477-1.rar?fid=1000141976&ttl=1535849871&ri=8192&rs=8192&setec=025a31d7f3b28feb9b04058dc2857fc4"
+    }
+  ]
+}

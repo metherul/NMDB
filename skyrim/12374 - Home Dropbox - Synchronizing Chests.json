@@ -1,0 +1,32 @@
+{
+  "modId": 12374.0,
+  "modName": "Home Dropbox - Synchronizing Chests",
+  "summary": "This mod adds chests in the five player homes that work like the program Dropbox. You can see it like one chest, accessible from five locations. More locations to come!",
+  "descriptionHtml": "-------------------------------------------------------------------------------------------------------------------------------------------\r\n[size=5][b]Description[/b][/size]\r\n-------------------------------------------------------------------------------------------------------------------------------------------\r\n\r\nFor those of you who have played Fallout New Vegas, you may remember the Dropbox to send your items from one place to another. The chest this mod adds is not entirely like that.\r\n\r\nThe Dropboxes work like the program Dropbox. In every home there is a Dropbox, and the items you place in this Dropbox (a chest), will be synchronized to all the other Dropboxes. So you can pick up your item from any of the other, or the same, Dropbox. \r\n\r\nFor example, you place an Iron Ingot in the Dropbox in Honeyside in Riften, and in Breezehome in Whiterun you find that Iron Ingot in the Dropbox there.\r\n\r\nYou can see the Dropboxes as one big chest with an opening in every home.\r\n\r\n\r\n-------------------------------------------------------------------------------------------------------------------------------------------\r\n[size=5][b]Troubleshooting[/b][/size]\r\n-------------------------------------------------------------------------------------------------------------------------------------------\r\n\r\n[b]Problem:[/b]\r\nYou place items in the chest, but they never show up in any other chest.\r\n\r\n[b]Solution:[/b]\r\nFirst of all, keep in mind that only chest labeled with \\\"Dropbox\\\" will synchronize with each other. If the items do not get transferred to any other Dropboxes, please check that DropboxScript.pex is in [Skyrim Folder]\\\\Data\\\\Scripts, otherwise the Dropbox will work like any normal chest.\r\n\r\n\r\n[b]Problem:[/b]\r\nMy Dropbox becomes very slow.\r\n\r\n[b]Solution:[/b]\r\nIf you place too many items in any chest, that chest will be very slow if you try to place or take something. The same counts for the Dropbox, so if it becomes too slow, please consider using it only for the most necessary items, and not for everything.\r\n\r\n\r\n[b]Problem:[/b]\r\nWhen I place an item in the Dropbox, it suddenly starts multiplying and does not stop when I take it out.\r\n\r\n[b]Solution:[/b]\r\nImmediately close the box and reload your savefile as soon as possible, then go to the Nexus and message me about it, and then stop using the Dropbox till I uploaded a fix. This should not happen in the way the script is written, but you never know. When the item keeps multiplying and it reaches a certain number, the game will crash and you will be very sad :\\'( \r\n\r\n\r\n[b]Problem:[/b]\r\nThe Dropbox ate my item!\r\nor When I place an item in the Dropbox, it disappears and is nowhere to be found.\r\n\r\n[b]Solution:[/b]\r\nAs this has not happened to my while creating the mod, I do NOT have a direct answer, but you can always message me and I will see what I can do.\r\n\r\n\r\n-------------------------------------------------------------------------------------------------------------------------------------------\r\n[size=5][b]FAQ[/b][/size]\r\n-------------------------------------------------------------------------------------------------------------------------------------------\r\n\r\n[b]Q: [/b]Where can I find these Dropboxes?\r\n[b]A: [/b]Right now, you can find them in the bedroom of the five main homes:\r\n- Breezehome in Whiterun\r\n- Honeyside in Riften\r\n- Proudspire Manor in Solitude\r\n- Hjerim in Windhelm\r\n- Vlindrel Hall in Markarth\r\nUnfortunately, most of them look out of place. So if you have better ideas where to put them, post it in the comments or message me!\r\n\r\n[b]Q: [/b]Will you add a Dropbox in more houses?\r\n[b]A: [/b]Yes! Right now I have all five of the player homes, but there are still other places a player can call home. Unfortunately, in the way I have written the script right now, adding more Dropboxes would take extremely much time. I am looking for a better way to do this so people with some Creation Kit experience can easily add Dropboxes where they want.\r\n\r\n[b]Q: [/b]Is this mod awesome?\r\n[b]A: [/b]Well I think it is, but you should form your own opinion about it.\r\n\r\n[b]Q: [/b]My question is not answered in this short list!\r\n[b]A: [/b]Well why don\\'t you message me then and I\\'ll see what I can do.",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "Gamemaster676",
+  "createdUnix": "1331155104",
+  "updatedUnix": "1331155605",
+  "containsAdultContent": false,
+  "uploadedBy": "gamemaster676",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "41128",
+      "name": "Dropbox V1_0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "Dropbox V1_0-12374-1-0.zip",
+      "uploadedUnix": "1331155605",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e181b00fa33e495726205eef0c210f503520a62ed640777e812bd507ba8b3fb2/analysis/1406736677/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dropbox%20V1_0-12374-1-0.zip?fid=41128&ttl=1535774199&ri=8192&rs=8192&setec=f0ff29d51443c9c99ecd2de905d85d05"
+    }
+  ]
+}

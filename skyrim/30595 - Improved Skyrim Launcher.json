@@ -1,0 +1,15 @@
+{
+  "modId": 30595.0,
+  "modName": "Improved Skyrim Launcher",
+  "summary": "A launcher for Skyrim with improvements.",
+  "descriptionHtml": "[b]About[/b]\r\nA launcher for Skyrim with improvements including a character manager and load order editor.\r\n\r\nNote: This is an alpha version of ISL. It does work and I haven\\'t had any problems, but you should back up the following files just in case:\r\n[ul]\r\n[*]C:\\\\Users\\\\<username>\\\\AppData\\\\Local\\\\Skyrim\\\\plugins.txt\r\n[*]C:\\\\Users\\\\<username>\\\\AppData\\\\Local\\\\Skyrim\\\\loadorder.txt (if using BOSS, NMM or similar programs)\r\n[*]C:\\\\Users\\\\<username>\\\\Documents\\\\My Games\\\\Skyrim\\\\Saves\r\n[*]C:\\\\Users\\\\<username>\\\\Documents\\\\My Games\\\\Skyrim\\\\Skyrim.ini\r\n[*]C:\\\\Users\\\\<username>\\\\Documents\\\\My Games\\\\Skyrim\\\\SkyrimPrefs.ini\r\n[/ul]\r\n\r\n[b]Prerequisites[/b]\r\nAs far as I know, only one:\r\n[ul]\r\n[*][url=http://www.microsoft.com/en-us/download/details.aspx?id=17113].Net Framework 4.0 Client Profile[/url].\r\n[/ul]\r\nI\\'ve only tested this on my own computer, so there could be extra dependencies that I don\\'t know about.\r\n\r\n[b]How to install[/b]\r\n[ol]\r\n[*]Copy \\\"ImprovedSkyrimLauncher.exe\\\" and \\\"ImprovedSkyrimLauncher.ini\\\" to the directory where Skyrim is installed.\r\n[*]Find the start menu shortcut to Skyrim, right-click it and click \\\"Properties\\\".\r\n[*]Under the \\\"Shortcut\\\" tab, change \\\"Target\\\" to point to \\\"ImprovedSkyrimLauncher.exe\\\".\r\n[*]Press OK.\r\n[/ol]\r\n\r\n[b]Current features[/b]\r\n[ul]\r\n[*]Select, backup, create and delete characters\r\n[*]View & modify plugin load order\r\n[*]Load Skyrim (obviously), optionally using SKSE (if installed)\r\n[/ul]\r\n\r\n[b]Planned features[/b]\r\n+ Change graphics settings (as in vanilla launcher)\r\n+ Use BOSS API to automatically set load order (or, failing that, just run BOSS if installed)\r\n+ Back up saves during gameplay\r\n+ NMM script install\r\n\r\n[b]Known bugs[/b]\r\n[ul]\r\n[*]Pressing the \\\"Backup character\\\" button with a character selected results in an error message.\r\n[/ul]",
+  "categoryId": "39",
+  "version": "0.1",
+  "author": "Chris",
+  "createdUnix": "1359332561",
+  "updatedUnix": "1359332561",
+  "containsAdultContent": false,
+  "uploadedBy": "chrisname",
+  "primaryFile": null,
+  "files": []
+}

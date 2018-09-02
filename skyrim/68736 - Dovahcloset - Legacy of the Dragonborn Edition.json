@@ -1,0 +1,32 @@
+{
+  "modId": 68736.0,
+  "modName": "Dovahcloset - Legacy of the Dragonborn Edition",
+  "summary": "Resources for adding a closet system to your mod which allows the user to place and quick equip up to 16 outfits separated into separate drawers. fast store and fast equip with ease.",
+  "descriptionHtml": "[color=#00ff00][size=6]As of V15 of Legacy, this module has been included in Legacy of the Dragonborn and now no longer needs to be downloaded. The mod itself has been re-categorized as a modder resource.[/size][/color]\r<br />\r<br />This simple mod adds a scripted closet system to the Legacy of the Dragonborn museum safehouse bedroom. This closet system consists of 16 drawers and two activators. One activator will sort your currently equipped outfit into the chosen drawer on a menu, the other activator will equip the contents of the chosen drawer from a menu list. \r<br />\r<br />The system handles non-weapon equipment (does include shields). This mod will remove all standard and non standard equipable armor items from helms, and jewelry to custom cloaks, packs and attached items (equipable lanterns, bandolier mod, etc).\r<br />\r<br />The drawer categories are broken into 3 main categories each with several drawer options:\r<br />\r<br />Work Attire: Smithing, Enchanting, Alchemy, Merchant, Farm, Mining\r<br />Standard Attire: Casual 1, Casual 2, Formal 1, Formal 2, Sleep, Swim\r<br />Adventuring Attire: Armor 1, Armor 2, Armor 3, Travel, Hunting, Ceremonial armor\r<br />\r<br />KNOW LIMITATIONS:\r<br />Due to how Skyrim&#39;s script system functions, any armor item which provides a scripted ability or perk using OnEquipped()/OnUequipped() will not be added and removed from the player automatically when the armor is added or removed. The only way around this is if the armor in question has a OnContainerChanged() event as well which will shut down or turn on the ability when the item is given or taken from the player. This function seems to work more reliably than the OnEquipp/Unequip function.\r<br />\r<br />INSTALATION:\r<br />If using Legacy of the Dragonborn currently, make sure to empty the middle wardrobe cabinet in the safe house bedroom prior to installation as this mod will remove that cabinet to make room for the Dovahcloset.\r<br />\r<br />REQUIREMENTS:\r<br />This mod requires Legacy of the Dragonborn V14 or greater, all 3 official DLC&#39;s and SKSE V1.7.2 or greater.\r<br />\r<br />ASSET USE:\r<br />You are free to utilize this system in your mod as you see fit, please just make sure to credit me for it. You also have full permission to re-release this mod as an addon for other player house mods without requiring legacy as a master. \r<br />\r<br />I have included a copy of all needed assets in the cell _DC_ResourceCell for easier dissection of the parts involved.",
+  "categoryId": "82",
+  "version": "V1.1",
+  "author": "Icecreamassassin",
+  "createdUnix": "1439502180",
+  "updatedUnix": "1442256813",
+  "containsAdultContent": false,
+  "uploadedBy": "icecreamassassin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000176063",
+      "name": "Dovahcloset - Legacy of the Dragonborn Edition (v1.1)",
+      "version": "V1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "16397",
+      "fileName": "Dovahcloset - Legacy of the Dragonborn Edition (v1.1)-68736-V1-1.7z",
+      "uploadedUnix": "1442256813",
+      "modVersion": "V1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/968f958795770c3390ca1fccc1108650546240e22b6efb1be827e13e86c65730/analysis/1442256851/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dovahcloset%20-%20Legacy%20of%20the%20Dragonborn%20Edition%20%28v1.1%29-68736-V1-1.7z?fid=1000176063&ttl=1535857048&ri=8192&rs=8192&setec=a72879be539e0c8acbc4cf658e371930"
+    }
+  ]
+}

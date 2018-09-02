@@ -1,0 +1,32 @@
+{
+  "modId": 34270.0,
+  "modName": "dunGeirmundsBossBattle infinite loop fix",
+  "summary": "If you check your game log and find that you have a lot of error messages with the script dunGeirmundsBossBattle after killing Sigdis, you may use this mod to fix the error.",
+  "descriptionHtml": "Introduction:\r\nIf you check your game log and find that you have a lot of error messages with the script dunGeirmundsBossBattle after killing Sigdis, you may use this mod to fix the error.\r\n\r\nManual:\r\nPut the unpacked files into data. Load your game save with Geirmundfix.esp activated. You will see a message whether the script has succeeded in fixing it.\r\n\r\nShould it fail, try using the command \\\"prid 10D153\\\" then \\\"GetDisabled\\\" to see if the dummy reference I used is disabled. If it returns 0, use \\\"Disable\\\" to disable the reference. Then save the game and deactivate my plugin and activate it again to start the script again.\r\n\r\nOnce it succeeds, you should save your game and the next time you load your game, the script log should be clear of error messages related to the script dunGeirmundsBossBattle.",
+  "categoryId": "84",
+  "version": "0.99",
+  "author": "me",
+  "createdUnix": "1364881394",
+  "updatedUnix": "1364881275",
+  "containsAdultContent": false,
+  "uploadedBy": "ragnaroklucifer",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000021831",
+      "name": "geirmundfix",
+      "version": "0.99",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "geirmundfix-34270-0-99.7z",
+      "uploadedUnix": "1364881275",
+      "modVersion": "0.99",
+      "virusScanUrl": "https://www.virustotal.com/file/ef293e0cdb009aa07e3a86ee6ccc644c72a0631401a654c70706ec6634fdd59a/analysis/1407501026/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/geirmundfix-34270-0-99.7z?fid=1000021831&ttl=1535811983&ri=8192&rs=8192&setec=a1ca64d76b18669b9be1281fbfbe6d1a"
+    }
+  ]
+}

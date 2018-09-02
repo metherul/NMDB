@@ -1,0 +1,48 @@
+{
+  "modId": 5062.0,
+  "modName": "Remove NPC Armor and Shirt Script v1",
+  "summary": "Didn\\'t see the point of having a Nude mod and not being able to see most of the goods so... I created this little script to remove the top half of selected NPC\\'s clothing or armour. ;D",
+  "descriptionHtml": "This script will remove the top half of an NPC\\'s clothing or chestarmour. Eg: shirt, cuirass, dress, etc...\r\n\r\nIt will [b]not[/b] remove gloves, boots, shields, knifes etc, only clothing around the chest (unless it is a full body piece, then it will remove all).\r\n\r\nIt will remove the clothing item indefinitely, or until you re-equip the NPC manually with a console code and such.\r\n\r\nUnless you have a no underwear mod or nude mod, you won\\'t be able to see cheeky bits.\r\n\r\n----\r\n\r\nTo [b]install[/b], simply place the undresstop.txt file in you skyrim Data folder. Then when ingame, bring up the console (~), click on the NPC you wish to undress, type \\'bat undresstop\\', hit enter and close the console.\r\n\r\n----\r\n\r\nTo [b]uninstall[/b], delete the file.\r\n\r\n----\r\n\r\n[b]Notes:[/b] I have only tested this script on a few NPC\\'s and so far it has worked great, even removing the armour from town guards. It is possible that I may have missed one or two pieces, if this is the case, simply add the console ID of the piece to the comments section and I will update accordingly.\r\n\r\nI know most ppl will use the ScriptDragon method to achive the same results, however as it currently requires an update, this will have to do for now :D\r\n\r\nAlso plan on making a few more, mostly that remove gloves, boots, etc for selected NPC\\'s. But that\\'s for later..\r\n\r\n[b]--UPDATE--\r\nI have uploaded a redress BAT which will redress the NPC in 000d191f (tavern clothing). To use this bat, simply click on an NPC and type \\\"bat redress.\\\"[/b]\r\n",
+  "categoryId": "33",
+  "version": "1.0",
+  "author": "SilentSun",
+  "createdUnix": "1325409492",
+  "updatedUnix": "1327129821",
+  "containsAdultContent": true,
+  "uploadedBy": "overdriven_pickle",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "15674",
+      "name": "Remove NPC Armor and Shirt script",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Remove NPC Armor and Shirt script-5062.zip",
+      "uploadedUnix": "1325411007",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/66a2f56cdfc081a87b3d2a8ca69675435846b6467118add9ffcf7bf56b725760/analysis/1406574915/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Remove%20NPC%20Armor%20and%20Shirt%20script-5062.zip?fid=15674&ttl=1535761492&ri=8192&rs=8192&setec=169fd1fbbefda226911346e0f3819d1f"
+    },
+    {
+      "fileId": "21651",
+      "name": "Redress NPC",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Redress NPC-5062-1.zip",
+      "uploadedUnix": "1327129821",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/70954b2010daf2dce91559388a95dfe7d0170a4e4ad74843e5e1fc17adfa2a5f/analysis/1406627047/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Redress%20NPC-5062-1.zip?fid=21651&ttl=1535761492&ri=8192&rs=8192&setec=463856b9e592d22fe5c9bbd32ebeb1c7"
+    }
+  ]
+}

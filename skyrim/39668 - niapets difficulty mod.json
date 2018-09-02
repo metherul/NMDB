@@ -1,0 +1,32 @@
+{
+  "modId": 39668.0,
+  "modName": "niapets difficulty mod",
+  "summary": "Small mod that changes the way difficulty works in Skyrim: Difficulty will only affect the damage delt by enemies not the damage delt by the player (Legendary compatible)",
+  "descriptionHtml": "-------------------------------\r\nniapet’s difficulty mod\r\n-------------------------------\r\n\r\nThis mod is very similar to Custom Difficulty by Phitt: \r\nhttp://skyrim.nexusmods.com/mods/4981/?tab=2&navtag=%2Fajax%2Fmodfiles%2F%3Fid%3D4981&pUp=1\r\nI wanted a mod that allowed me to turn up the difficulty and have the enemies do more damage, but not detract from MY damage, effectively making fights take an hour at a time -.-\r\n\r\nPhitt’s mod did this but was not updated to work with legendary difficulty.  This mod does work with Legendary Difficulty!\r\n----------------\r\nI originally posted a second modular version and in addition to the main mod but the niapet_PC_1_00.esp was, in essence, the same as the original mod.  Therefore I removed the original and just made a modular version.\r\n----------------\r\nIn this modular version you can customize the difficulty settings Fully.  Here is how it works:\r\n\r\nThe plugins labeled niapet_PC_xxx.esp will modify the damage the player does on ALL difficulty settings by the stated amount. So if you use niapet_PC_1_0.esp the player will do 1.0 x damage on all difficulty settings, the same as on adept; the niapet_PC_0_75.esp will set the player to do 75% damage on all settings, the same as expert and the niapet_PC_0_50.esp will set the player to do 50% damage on all setting, just like on Master (there is no 25% esp because you can just use legendary difficulty on vanilla to achieve that result)\r\n\r\nNext you will want to choose how much you want the enemy’s damage to be modified.  If you want the enemies to do the standard damage on all difficulties DONT USE A SECOND esp.  If you want the damage done by enemies to be increased by an additional 25% on all difficulties use niapet_opponent_x1_25.esp. If you want all enemies to have their damaged increased by an additional 50% on all difficulty settings, use the niapet_opponent_x1_50.esp.\r\n\r\nThis should allow people to customize their paly experiences a lot more than the standard difficulty sliders alone.\r\n\r\nInstallation: Extact to your \\\\data folder and enable the preferred .esp in the Skyrim launcher.\r\n\r\n***********************************************************************************\r\nNOTE BENE: If you examine the mod with a cleaning tool you may see a dirty edit in the PC plugins(same as master).  This is NOT dirty and is MEANT TO BE THERE!  Do not clean it!\r\n***********************************************************************************\r\n\r\nv1.0\r\nOriginal mod\r\nv1.5\r\nadded modular version\r\nv2.0\r\nremoved orginal, fixed mistake in modular version that caused normal difficulty in the niapet_PC_1_00.esp to set damage to 1/2 normal on adept difficulty\r\nv2.now\r\nshould all work as expected!",
+  "categoryId": "24",
+  "version": "2.0",
+  "author": "niapet",
+  "createdUnix": "1375707142",
+  "updatedUnix": "1375719247",
+  "containsAdultContent": false,
+  "uploadedBy": "niapet93",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000044430",
+      "name": "Main File",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Main File-39668-2-0.rar",
+      "uploadedUnix": "1375719247",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c9dc4011844378d663a8ca2f9261ce20a547e1b3febadd4707a168ef3a3ebb05/analysis/1407669973/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Main%20File-39668-2-0.rar?fid=1000044430&ttl=1535820122&ri=8192&rs=8192&setec=e53bd3c4613e4aea91b9c5324b88dca4"
+    }
+  ]
+}

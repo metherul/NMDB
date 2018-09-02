@@ -1,0 +1,32 @@
+{
+  "modId": 52406.0,
+  "modName": "Remove Enchantments",
+  "summary": "Allows you to remove player-created enchantments from items, so that you can add better ones as your skill improves.",
+  "descriptionHtml": "I.e., the other kind of disenchanting.  I&#39;ve noticed that I tend to avoid enchanting my best gear, waiting for my skill to reach 100 first so that I can get the best possible results.  This seems a little silly.  Hence, the mod.  It adds a lesser power that, when used, will clear the enchantment from the first item you drop afterward, as long as you were the one to enchant it in the first place, while preserving its tempering status.\r<br />\r<br />(Technically, it deletes the one you drop, creates a duplicate copy, sets it to the quality of the original, and then gives it to you.)\r<br />\r<br />Pretty simple, but it feels like something that was missing.  I would have preferred if I could make it remove enchantments even from other items, but this is...impractical, as it would also affect every other item of that type.\r<br />\r<br />Requires SKSE.",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "CyberSpyder",
+  "createdUnix": "1395732657",
+  "updatedUnix": "1395732638",
+  "containsAdultContent": false,
+  "uploadedBy": "CyberSpyder",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000102396",
+      "name": "Disenchanter",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Disenchanter-52406-1-0.rar",
+      "uploadedUnix": "1395732638",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/012b4c7b93224e746d3738b26e921ec6cdf775d32877236bb5241d47d3c8b51e/analysis/1407995054/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Disenchanter-52406-1-0.rar?fid=1000102396&ttl=1535835426&ri=8192&rs=8192&setec=48d07804d3d540e77fa2c2abcb0f440f"
+    }
+  ]
+}

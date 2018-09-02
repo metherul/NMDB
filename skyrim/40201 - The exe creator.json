@@ -1,0 +1,15 @@
+{
+  "modId": 40201.0,
+  "modName": "The exe creator",
+  "summary": "I am willing to create install exe files for any properly structured mod",
+  "descriptionHtml": "I noticed recently that not a lot of mods have an .exe install file. I know how to make these, and will make an installer for any mod that is properly structured. What do I mean by this, you ask? Whelp, it\\'s simple. Mods should be in this format:\r\n\r\nData             //should be top folder\r\n-Mod.esp\r\n-Mod.bsa\r\n-Mod.bsl      \r\n-Textures\r\n-Meshes\r\n-Scripts\r\n--Source\r\n\r\nPutting it in this format makes my life a lot easier. I can also package mods that install to the main Skyrim folder. These need to be in a different format:\r\n \r\nMain            //should be top folder\r\n-files.etc      //Such as .dll, d3d9, etc.\r\n-Skyrim\r\n-Data           //If mod also uses data folder, should be in format above\r\n\r\n\r\netc. \r\nIf your mod has multiple installation options, each one needs to be in it\\'s own folder. For example, let\\'s say you have a mod with a base file and other modular parts.\r\n\r\nMain\r\n-Data               //This folder is always installed, unless their are two.\r\n--main.esp        //if so, the user picks one to install\r\nMain2\r\n-Data\r\n--Main2.esp\r\nOption 1\r\n-Data\r\n--addon1.esp\r\nOption2              //The folders on top should be named after the option they add\r\n-Data\r\nOption3\r\n-Data\r\n\r\nIf you want me to package your mod, or know a mod you\\\\\\'d like packaged, go here:  https://docs.google.com/forms/d/1mMfKI_wZsUA4cBKYugu9CF6p9Y4SqtvVF9L0HjUg7Ro/viewform\r\nThis is a submission form for the mod. I am notified when a new submission is sent in.\r\n\r\n\r\nNow, I know there are, like, 5 different mod managers that install mods for you, but not everyone can use them. I personally cannot use them for some reason that I don\\'t understand. I make these .exe files for those who install mods manually. Just to make your lives easier.",
+  "categoryId": "82",
+  "version": "Beta1",
+  "author": "Iso",
+  "createdUnix": "1376375377",
+  "updatedUnix": "1376375377",
+  "containsAdultContent": false,
+  "uploadedBy": "josephsmendoza",
+  "primaryFile": null,
+  "files": []
+}

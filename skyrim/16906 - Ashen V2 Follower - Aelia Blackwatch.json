@@ -1,0 +1,48 @@
+{
+  "modId": 16906.0,
+  "modName": "Ashen V2 Follower - Aelia Blackwatch",
+  "summary": "Combat assassin follower using The Ashen custom race.",
+  "descriptionHtml": "[img]http://s12.postimage.org/oduvu0t99/Aelis_BWHeader.jpg[/img]\r\n\r\n[b]Ashen 2.5 Notes:[/b]\r\nI made this mod for the Ashen 2.0 race, released in April \\'12. This mod is still compatible with the new Ashen 2.5 race released in August \\'12. She might look very different without the vanilla hard mesh though. [b]With the vanilla head mesh, she looks pretty much the same (probably better IMO).[b] I have uploaded pics to illustrate. I have not yet tried with the new head mesh.\r\n\r\nHi, this is my first mod ever for any game, so hopefully it works alright. Still, back stuff up before installing. I won\\'t be very good at tech support, because I barely got it working for myself!\r\n\r\nThis is originally a simple mod made for personal use which I have decided to release because I liked the results. It adds a follower Aelia Blackwatch to the Mistveil Keep in Riften. She\\'s (hopefully!) wearing a cheap Hide armor and is equipped with a small dagger. Just talk to her and she should follow you. She is a combat assassin that uses The Ashen V2 race and Apachii Skyhair. She is leveled, trailing the PC slightly. I recommend using UFO to allow her to level with you.\r\n\r\nI have now uploaded version 2 of this mod. She has a very different look now, and there are some major bugfixes (specifically relating to how this mod interacts with the original race).\r\n\r\n[b]Requirements:[/b]\r\n1: The Ashen V2 (any body except Vanilla) by Seren4XX and RadioRagae: http://skyrim.nexusmods.com/downloads/file.php?id=8583\r\n2: Apachii Skyhair (minimum v1.3Fixed) by Apachii: http://skyrim.nexusmods.com/downloads/file.php?id=10168\r\n\r\n[b]Recommended:[/b]\r\n- Any ENB series mod, really makes skin look better.\r\n- UFO Ulimate Follower Overhaul: http://skyrim.nexusmods.com/downloads/file.php?id=14037\r\n\r\n[b]Screenshot Notes:[/b]\r\n- Armor is the very excellent Ashara Princess of the Woods, in black: http://skyrim.nexusmods.com/downloads/file.php?id=18008\r\n- Earring + feather on head is not on nexus, by Nausicaa.\r\n\r\n[b]Permission:[/b]\r\nYou can do anything. Anything at all. [url=http://zombo.com]The only limit is yourself.[/url]\r\n\r\n[b]How To Customize:[/b]\r\nI know some of you will want to tweak the looks a bit. AFAIK, the NPC editor will crash upon attempting to edit this mod. Therefore, you must use the CK to edit this character. Make sure you \\\"ESMify\\\" the OrientalRace.esp file using Wrye Bash and that you configure the CK to allow multiple master files (via an INI tweak) before attempting to open this ESP. If you do not do this, your game will start crashing and upon reloading the ESP in CK, many things will be messed up. The id for Aelia is \\\"AAviFollower\\\", skin color is defined as colorform \\\"AviSkinCOPY000\\\" and hair color form is \\\"AviHairColor\\\".",
+  "categoryId": "66",
+  "version": "2.0",
+  "author": "thekineticeffect",
+  "createdUnix": "1336801035",
+  "updatedUnix": "1338877083",
+  "containsAdultContent": false,
+  "uploadedBy": "thekineticeffect",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "60666",
+      "name": "Aelis Blackwatch v1",
+      "version": "0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "Aelis Blackwatch v1-16906.7z",
+      "uploadedUnix": "1336801082",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/69a6733360a0f7d85a741d07e8a1f248ba815d5db7cd59e961b24d11c0bfabf4/analysis/1406886495/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Aelis%20Blackwatch%20v1-16906.7z?fid=60666&ttl=1535782632&ri=8192&rs=8192&setec=38f79d832c6119ec5de5e7470ed5b8d2"
+    },
+    {
+      "fileId": "66036",
+      "name": "Aelis Blackwatch v2",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "870",
+      "fileName": "Aelis Blackwatch v2-16906-2-0.7z",
+      "uploadedUnix": "1338877083",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d2412d645060a4b67c407b8d5948a19ac8cbf5e61737b721045c78a99f42b25f/analysis/1406939724/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Aelis%20Blackwatch%20v2-16906-2-0.7z?fid=66036&ttl=1535782632&ri=8192&rs=8192&setec=86f8c2ef33606d019b2b600fba3cabe7"
+    }
+  ]
+}

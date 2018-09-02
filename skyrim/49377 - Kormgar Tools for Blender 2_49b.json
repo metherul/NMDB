@@ -1,0 +1,15 @@
+{
+  "modId": 49377.0,
+  "modName": "Kormgar Tools for Blender 2_49b",
+  "summary": "This package includes many of the tools I&#39;ve written to automate and/or simplify many modding tasks.",
+  "descriptionHtml": "Lattice Generator: Significant updates and improvements to the lattice generator with vastly improved quality and performance. I&#39;ll post a tutorial soonbut the idea is to create a reusable lattice that can be used to quickly and easily convert clothing or armor from one body style to another.\r<br />\r<br />**UV Map Search Feature: This allows the lattice generator to use UV Map data to find matches between meshes. Only works when the meshes use compatible UV Maps, but when they do, the results are amazing.\r<br />\r<br />**Performance: Major updates to the search engine have reduced typical lattice generation times from ~200 seconds to less than 15 seconds. Major improvements to quality have eliminated the &#39;missed vertex&#39; problem.\r<br />\r<br />Seam Mender:  Seam Mender is designed to eliminate all trace of visible seams between two meshes.  The latest update mends BoneWeight, Location, Vertex Normal, and the UV Map.\r<br /> \r<br />Boneweight copy: Extremely fast, high performance, high quality bone weight copy script.  The latest update incorporates the updates to the back-end search algorithm for significantly improved results.\r<br /> \r<br />ConvertPose: Now includes the ability to animate shapekey animations to view animated facial expressions in Blender.\r<br />\r<br />UV Layer Copy: Automatically copy UV Map information from one mesh to another.  Quality of final results depend on the physical similarity between the meshes.\r<br /> \r<br />Mirror Bone Weights: Automatically mirror the weightpainting from one side of a mesh to the other with opposite side vertex groups automatically created and named as needed.\r<br />\r<br />***Installation***\r<br />Extract the contents of the download to your Blender scripts folder.  By default, this will be located in \r<br />\r<br />/.blender/scripts\r<br />\r<br />which can be found in your blender application directory (where blender.exe is located)\r<br />\r<br />***Tutorials and Instructions Coming Soon***",
+  "categoryId": "39",
+  "version": "1.02",
+  "author": "Kormgar",
+  "createdUnix": "1388537861",
+  "updatedUnix": "1388537861",
+  "containsAdultContent": false,
+  "uploadedBy": "kormgar",
+  "primaryFile": null,
+  "files": []
+}

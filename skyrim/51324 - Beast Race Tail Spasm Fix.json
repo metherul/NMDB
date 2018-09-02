@@ -1,0 +1,32 @@
+{
+  "modId": 51324.0,
+  "modName": "Beast Race Tail Spasm Fix",
+  "summary": "Simple animation file replacer; fixes tail spasm issue with sprinting.",
+  "descriptionHtml": "Swaps the sprint animation for the tail with the walk animation. End result: when sprinting, your tail will move more gently (you may not like this), but most importantly, when you go from sprinting to walking... your tail won&#39;t freak out.\r<br />\r<br />Basically this is a workaround to deal with something that has bugged me since the game came out. I don&#39;t really understand how the animation system works, but if you sprint... the sprint animation for your tail will continue until you A) stop moving completely B) jump or C) sneak.\r<br />\r<br />If anyone knows how to fix the original animation, PLEASE let me know. As far as I can see, it seems like the &#34;sprintStop&#34; anim event isn&#39;t telling the tail animation to stop.",
+  "categoryId": "51",
+  "version": "1",
+  "author": "Luthrael",
+  "createdUnix": "1392916143",
+  "updatedUnix": "1392916138",
+  "containsAdultContent": false,
+  "uploadedBy": "Luthrael",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000097950",
+      "name": "Tail Sprint Workaround",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Tail Sprint Workaround-51324-1.zip",
+      "uploadedUnix": "1392916138",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/1cdea31bdec017e3b0e54fab85e36dfa7d581b4f535bcb42c297dad1a20bc8ba/analysis/1407942243/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Tail%20Sprint%20Workaround-51324-1.zip?fid=1000097950&ttl=1535833591&ri=8192&rs=8192&setec=80dfd9d93e2de8c6cc2e6a8d9ce955a5"
+    }
+  ]
+}

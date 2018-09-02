@@ -1,0 +1,48 @@
+{
+  "modId": 49639.0,
+  "modName": "Slower NPC Mage Backward Sprint",
+  "summary": "Slows the backward running movement of NPC mages while they are casting.",
+  "descriptionHtml": "Simply an edit of the NPC MagicCast movement to slow it down a bit.\r<br />\r<br />Enemy Spellcasters can be brutal, and this is exacerbated by the fact that they seem to have a psychic radar where they seemingly see and avoid obstacles behind them as they run away from you - all the while blasting away with their virtually endless supply of Magicka.\r<br />\r<br />After my Nord warrior died due to a mage dual-casting lightning bolts while he ran [i]backwards up a flight of stairs[/i], I decided to take action.\r<br />\r<br />I have included 2 versions: the default version changes backward running speed (while casting) from 170 to 140.\r<br />The &#34;slower&#34; version lowers it even further to 120.\r<br />For reference, forward walking speed is 80.\r<br />\r<br />Nothing game breaking here, just a little evening of the odds to compensate for the psychic radar.\r<br />\r<br />These changes apply to Man and Mer NPCs only- Draugr and Falmer casters are unaffected. These latter 2 tend not to run away in any event.\r<br />\r<br />This is my first mod, so suggestions are welcome and comments are encouraged.\r<br />\r<br />Thank you for the endorsements&#33;\r<br />\r<br />Also I would enjoy seeing pictures of your Characters killing Mages.",
+  "categoryId": "77",
+  "version": "1.0",
+  "author": "EgoAltar",
+  "createdUnix": "1389117703",
+  "updatedUnix": "1389117663",
+  "containsAdultContent": false,
+  "uploadedBy": "EgoAltar",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000090355",
+      "name": "NoMageBackSprint",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "NoMageBackSprint-49639-1-0.rar",
+      "uploadedUnix": "1389117623",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0f40dad498c01195f40f4107c787ad648dca10f568fb1112030a704c520a9583/analysis/1407876424/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NoMageBackSprint-49639-1-0.rar?fid=1000090355&ttl=1535830734&ri=8192&rs=8192&setec=00f17016c0d595fe581d1525b00c7706"
+    },
+    {
+      "fileId": "1000090356",
+      "name": "NoMageBackSprint_Slower",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "NoMageBackSprint_Slower-49639-.rar",
+      "uploadedUnix": "1389117663",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/248df28fcb598fafc5a783c62a4e8c14c3b76bdbb854ddcd9a5800ebd2596dd8/analysis/1407876424/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NoMageBackSprint_Slower-49639-.rar?fid=1000090356&ttl=1535830735&ri=8192&rs=8192&setec=700baf8ab3b87835573fb71a51aa589d"
+    }
+  ]
+}

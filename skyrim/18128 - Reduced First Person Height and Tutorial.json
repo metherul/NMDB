@@ -1,0 +1,32 @@
+{
+  "modId": 18128.0,
+  "modName": "Reduced First Person Height and Tutorial",
+  "summary": "Main use is for Monli skeleton, however also provides instructions on how to edit the height step by step for beginners.",
+  "descriptionHtml": "[IMG]http://i1245.photobucket.com/albums/gg600/gyuuyou/description.png[/IMG]\r\n\r\nThis mod will only replace first person view in Skyrim so that it matches up better with the Monli Skeleton. No longer will it feel like you are viewing the world from above your character\\'s head. You will now see through their eyes. This is for people who don\\'t have to spend as much time as I did trying to figure this out on my own. I basically took a file from SaidenStorm and scaled down its height.\r\nLink to topic:\r\n[url=http://forums.bethsoft.com/topic/1302149-req-camera-at-headhight] http://forums.bethsoft.com/topic/1302149-req-camera-at-headhight/ [/url]\r\n\r\nI use the Monli Skeleton by ning999, so this is the main use for this mod.\r\nSkeleton:\r\n[url=http://skyrim.nexusmods.com/downloads/file.php?id=11064] http://skyrim.nexusmods.com/downloads/file.php?id=11064 [/url]\r\n\r\nIf you\\'d like to edit this mod so you can have it set to a height you desire, see the instructions below.\r\n\r\n\r\n\r\n[IMG]http://i1245.photobucket.com/albums/gg600/gyuuyou/installanduninstall.png[/IMG]\r\nJust simply install to the Skyrim folder.\r\n\r\nTo uninstall, simply just delete the _1stPerson folder.\r\n\r\n\r\n\r\n\r\n\r\n[IMG]http://i1245.photobucket.com/albums/gg600/gyuuyou/Editinginstructions.png[/IMG]\r\nIF YOU WANT TO EDIT YOUR HEIGHT, USE THESE INSTRUCTIONS.\r\n\r\n(Note: Also in Readme for easier use.)\r\n(Note: Before editing the skeleton.nif file, you may want to create a backup of it incase you dislike how it turns out)\r\n\r\n1. You will need NifSkope. If you do not already have it, download it at \r\n[url=http://niftools.sourceforge.net/wiki/NifSkope] http://niftools.sourceforge.net/wiki/NifSkope [/url]\r\n\r\n2. Extract or install NifSkope to your computer.\r\n\r\n3. With NifSkope installed, navigate to the skeleton.nif file in your Skyrim Directory\\\\Data\\\\meshes\\\\actors\\\\character\\\\_1stPerson and double click it to open it in NifSkope. \r\n\r\n4. Wait for the nif file to load if it doesn\\'t open immediately. \r\n\r\nNOTE: \r\nWhat opens up will look intimidating, however, do not fret, as we are making a minor adjustment which I will instruct you on every step of the way. \r\n\r\n\r\nNow with NifSkope open:\r\n\r\n1. Click the small arrow next to \\'0 BSFadeNo...txt skeleton.nif [0]\\'\r\n\r\nThree lines will extend out underneath it. One of those lines reads \\'3 NiNode Txt NPC [3]\\'.\r\n\r\n\r\n2. Right click on \\'3 NiNode Txt NPC [3]\\' and mouse over Transform, then click Edit.\r\n\r\n\r\n3. All the way at the bottom of the prompt which appears, it will say Scale under which the value is currently set to \\'0.8000\\'. This is the value which you will change to lower or raise your first person view height.\r\n\r\n\r\n4. Higher numbers will be taller, and lower numbers will be shorter. \r\n\r\n If you are unsure which height to use, start up skyrim, go into first person mode and open the console by pressing ~ and type in player.setscale x ( x being the number, ex: \\'player.setscale 1.0.\\' 1.0 is default). You will want to mess around with this value until you find a height which you would like to be your first person view height.\r\n\r\nThis is the value you will enter into Scale in NifSkope.\r\n\r\nDo not forget to return the player.setscale back to 1.0 when you are done modding your first person height!\r\n\r\nI recommend only editing the value under Scale, as editing any of the other values could have unknown and unwanted results.\r\n\r\n5. When you have entered in a Scale value, click Accept.\r\n\r\n6. Still in NifSkope, click File > Save As...\r\n\r\n7. Keep it titled as skeleton.nif and it should be saved in the _1stPerson folder which was mentioned earlier. \r\n\r\n8. It will ask if you want to overwrite or replace the file with the new one. Click yes.\r\n\r\n\r\nThat\\'s it! Close NifSkope, start Skyrim and have fun!\r\n\r\n\r\n\r\n[IMG]http://i1245.photobucket.com/albums/gg600/gyuuyou/credits.png[/IMG]\r\n\r\n\r\nSpecial thanks to SaidenStorm for providing the information and file.\r\nAs well as ning999 for creating Monli Skeleton.",
+  "categoryId": "78",
+  "version": "1.0",
+  "author": "TheTriumphTeam",
+  "createdUnix": "1338727314",
+  "updatedUnix": "1338729086",
+  "containsAdultContent": false,
+  "uploadedBy": "drwee",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "65631",
+      "name": "Reduced First Person Height",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Reduced First Person Height-18128-1-0.rar",
+      "uploadedUnix": "1338729086",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ae5b0336ff88a30c64038697670f39754bda826739367e5c9b85e0a40835de81/analysis/1406935038/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Reduced%20First%20Person%20Height-18128-1-0.rar?fid=65631&ttl=1535784772&ri=8192&rs=8192&setec=a54e800e39e39d2e8008b834197e9c12"
+    }
+  ]
+}

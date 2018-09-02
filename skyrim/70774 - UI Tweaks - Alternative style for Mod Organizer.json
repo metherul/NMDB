@@ -1,0 +1,32 @@
+{
+  "modId": 70774.0,
+  "modName": "UI Tweaks - Alternative style for Mod Organizer",
+  "summary": "Theme for Mod Organizer, based on the default style with better and cleaner UI elements.",
+  "descriptionHtml": "[center][img]http://i.imgur.com/e6cnfQl.jpg[/img][/center]\r<br />\r<br />\r<br />[size=3][b]UI TWEAKS[/b] is my personal attempt to tweak and improve the default theme of [url=http://www.nexusmods.com/skyrim/mods/1334]Mod Organizer[/url], without deviating to much in terms of colours and general aesthetics. \r<br />\r<br />\r<br />[b][color=#ffff00][size=4]Features[/size][/color][/b]\r<br />[/size][list]\r<br />[*][size=3]Sexy checkboxes with different colours for checked/unchecked states, making them easier to distinguish when quickly scanning long lists[/size]\r<br />[*][size=3]Parent/Children categories [size=3]hierarchy [/size]is now properly displayed in filter list[/size]\r<br />[*][size=3]Scrollbars are more smooth and elegant[/size]\r<br />[*][size=3]Improved tree view with matching +/- icons.[/size]\r<br />[*][size=3]Less redundant borders for a cleaner [s]and immersive[/s] experience ;-)[/size]\r<br />[/list]\r<br />\r<br />[color=#ffff00][size=4][b]Installation[/b][/size][/color]\r<br />[list=1]\r<br />[*][size=3]Download the file and unzip it directly inside Mod Organizer installation folder. You will end with 1 .qss file and the ui-tweaks images folder inside MO’s stylesheets directory. (File path: &lt;where you installed MO&gt;&#92;Mod Organizer&#92;stylesheets).[/size]\r<br />[*][size=3] In MO go to [u]Settings[/u] &gt; [u]Style[/u] &gt; [u]UI-Tweaks.qss[/u][/size]\r<br />[/list]\r<br />[size=3][b]Uninstallation[/b]:\r<br />[/size][size=3]Delete iu-tweaks.qss and the corresponding iu-[size=3]tweaks[/size] folder from [/size][size=3]Mod Organizer&#92;stylesheets directory.\r<br />\r<br />\r<br />[b][color=#ffff00][size=4]Requirements[/size][/color][/b]\r<br />7-Zip and (obviously) Mod Organizer.\r<br />\r<br />\r<br />[b][color=#ffff00][size=4]Future Plans[/size][/color][/b]\r<br />I did this for my personal use and curiosity with QSS giving the fact I&#39;m a professional web designer and CSS coder. The result was good so I thought of sharing it, but I don&#39;t have any further plans for now (except fixing bugs if someone finds one).\r<br />\r<br />Please feel free to modify the style sheet further and use it as a base for your own theme&#33; All the (very simple) code is commented by sections for an easy understanding.\r<br />\r<br />\r<br />[b][color=#ffff00][size=4]Known Issues[/size][/color][/b]\r<br />[/size][list]\r<br />[*][size=3]In the filter list, when a first level category with children is open, the next first level category will not show an alternate dash with a rounded top (as originally intended). Sadly it seems is not possible (or I was not able) to target that particular circumstance with the current code of MO and the css support given by QT.[/size]\r<br />[*][size=3]When a filter is active, the left panel is surrounded by a red border. This effect is hard-coded in MO and I was not able to overwrite it. I was able though to mitigate the &#34;jump effect&#34; that happens from suddenly having a border, so at least the transition should be seamless. [/size]\r<br />[/list][size=3]\r<br />\r<br />[b][color=#ffff00][size=4]Legal Notice[/size][/color][/b]\r<br />This is a very simple work, so I publish it under PUBLIC DOMAIN (AKA you can do whatever you want, I don&#39;t care).\r<br />If you want to incorporate this style in your own work, credit is not needed but is appreciate nevertheless.\r<br />[/size]",
+  "categoryId": "42",
+  "version": "1.0",
+  "author": "EGraf",
+  "createdUnix": "1445483306",
+  "updatedUnix": "1445482205",
+  "containsAdultContent": false,
+  "uploadedBy": "EGraf",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000181830",
+      "name": "UI Tweaks for Mod Organizer",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "UI Tweaks for Mod Organizer-70774-1-0.7z",
+      "uploadedUnix": "1445482205",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c59d6151ae178676b0e21e5d32905d0e7aa6c36b2c736e62460ed0af8c4deb15/analysis/1445482263/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/UI%20Tweaks%20for%20Mod%20Organizer-70774-1-0.7z?fid=1000181830&ttl=1535859310&ri=8192&rs=8192&setec=04f5ffb7bd3e8b61e850d7aa2457ad77"
+    }
+  ]
+}

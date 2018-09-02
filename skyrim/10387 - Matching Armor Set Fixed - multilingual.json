@@ -1,0 +1,32 @@
+{
+  "modId": 10387.0,
+  "modName": "Matching Armor Set Fixed - multilingual",
+  "summary": "Adds all available ArmorMaterials keywords to the appropriate Matching Set perk and sets the armor increase to 25% so that it matches the perk description.\r\nIncludes string files for Czech, English, French, German, Italian, Polish, Russian and Spanish language.",
+  "descriptionHtml": "-------------------------\r\n[b]1. Description[/b]\r\n-------------------------\r\n[b]What this mod does:[/b]\r\n* Adds all available ArmorMaterials keywords to the appropriate Matching Set perk. E.g., the keyword ArmorMaterialsEbony was missing so that ebony armor was not receiving the bonus.\r\n* In addition, the added ArmorMaterials keywords will be useful if you use armor from mods which have an ArmorMaterials keyword that was missing. E.g., the complete Elven Gilded armor set from the mod [url=http://skyrim.nexusmods.com/downloads/file.php?id=8003]Complete Crafting Overhaul[/url] will now receive the bonus.\r\n* Sets the armor increase to 25% so that it matches the perk description.\r\n* Includes string files for Czech, English, French, German, Italian, Polish, Russian and Spanish language. I.e., no English text in your localized game version.\r\n* Includes files for compatibility with the mods [url=http://skyrim.nexusmods.com/downloads/file.php?id=2460]No Helmets Required[/url] and/or [url=http://skyrim.nexusmods.com/downloads/file.php?id=1943]No Perk Prerequisites[/url].\r\n\r\n[b]What this mod does [u]not[/u] do:[/b]\r\n* No correction for armors with wrong or missing ArmorMaterials keyword. In order to fix this, use the mod [url=http://skyrim.nexusmods.com/downloads/file.php?id=4719]Weapons and Armor Fixes[/url]. E.g., the complete Thieves Guild armor will receive the bonus if you use Weapons and Armor Fixes. The problem is that these armors are missing the ArmorMaterials keyword not the perk itself.\r\n\r\n\r\n-------------------------\r\n[b]2. Compatibility[/b]\r\n-------------------------\r\n* Compatible with every mod that does not change the Matching Set perks.\r\n* Not compatible with any mod that changes the Matching Set perks apart from No Helmets Required and No Perk Prerequisites.\r\n* Make sure that the esp file of this mod is loaded after No Helmets Required and No Perk Prerequisites.\r\n\r\n\r\n-------------------------\r\n[b]3. Installation[/b]\r\n-------------------------\r\n[b]a) Automatic installation with Nexus Mod Manager (recommended)[/b]\r\n1) Download the mod with the Nexus Mod Manager (or open the downloaded archive with the Nexus Mod Manager).\r\n2) Activate the mod and follow the instructions. Read the descriptions carefully.\r\n3) If you use a compatibility version, make sure that the esp file of this mod is loaded after No Helmets Required and No Perk Prerequisites.\r\n\r\n[b]b) Manual installation[/b]\r\n1) Extract the archive.\r\n2) If you have Czech, English, French, German, Italian, Polish, Russian or Spanish version of Skyrim and want a localized version of this mod, open the folder \\\"Localized\\\". If this is not the case, open the folder \\\"Non-Localized\\\"\r\n3) Choose which version you want and open the corresponding folder. If you do not need compatibility with other mods that make changes to the Matching Set perks choose Regular_Version. Otherwise choose the folder that matches the compatibility you need.\r\n4) Copy the contents of the folder into your Skyrim\\\\Data directory (i.e., the loacation of your Skyrim.esm).\r\n5) Activate the esp file beginning with Matching_Armor_Set_Fixed in the launcher under \\\"Data Files\\\"\r\n6) Make sure that you have installed only one of the esp files provided with this mod.\r\n7) If you use a compatibility version, make sure that the esp file of this mod is loaded after No Helmets Required and No Perk Prerequisites.\r\n\r\n\r\n-------------------------\r\n[b]4. Deinstallation[/b]\r\n-------------------------\r\n[b]a) Automatic Deinstallation with Nexus Mod Manager[/b]\r\n1) Deactivate the mod in the Nexus Mod Manager\r\n\r\n[b]b) Manual Deinstallation[/b]\r\n1) Go to your Skyrim\\\\Data directory (i.e., the location of your Skyrim.esm).\r\n3) Remove in this directory the esp file beginning with Matching_Armor_Set_Fixed.\r\n4) If you have installed the localized version, remove the bsa file beginning with Matching_Armor_Set_Fixed, too.\r\n\r\n\r\n-------------------------\r\n[b]5. Notes[/b]\r\n-------------------------\r\n* I added the following ArmorMaterials keywords: [Heavy] ArmorMaterialEbony; [Light] ArmorMaterialElvenGilded, ArmorMaterialImperialLight, ArmorMaterialImperialStudded, ArmorMaterialStudded\r\n* The creation of this simple mod was mainly an exercise how to localize mods and use the Nexus Mod Manager installer.\r\n* If you want more languages included, I need the appropriate string files/translations.\r\n* I will include more compatibility versions if they are easy and requested.\r\n\r\n\r\n-------------------------\r\n[b]6. Version History[/b]\r\n-------------------------\r\nv1.00: Initial release\r\n\r\n\r\n-------------------------\r\n[b]7. Thanks[/b]\r\n-------------------------\r\nThanks to Bethesda for the Creation Kit and the developers of the [url=http://skyrim.nexusmods.com/downloads/file.php?id=2889]Skyrim Strings Localizer[/url].",
+  "categoryId": "95",
+  "version": "1.00",
+  "author": "Lambda",
+  "createdUnix": "1329655135",
+  "updatedUnix": "1329662201",
+  "containsAdultContent": false,
+  "uploadedBy": "Lambda",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "33676",
+      "name": "Matching Armor Set Fixed - multilingual",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "17",
+      "fileName": "Matching Armor Set Fixed - multilingual-10387.zip",
+      "uploadedUnix": "1329662201",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/d419f780d5a0fccbf841564a8cc2e4e711e126ae5caea083cfd22a3181d6e9e2/analysis/1406695509/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Matching%20Armor%20Set%20Fixed%20-%20multilingual-10387.zip?fid=33676&ttl=1535770714&ri=8192&rs=8192&setec=20563f1a4081028c1184f6c05c1b1810"
+    }
+  ]
+}

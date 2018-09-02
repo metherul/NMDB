@@ -1,0 +1,32 @@
+{
+  "modId": 91791.0,
+  "modName": "SkyrimLE Log Monitor",
+  "summary": "This is a simple PowerShell script that monitors the game's papyrus log file, and alerts the user if there are stack dumps present.",
+  "descriptionHtml": "[b][size=4]Brief[/size][/b]\n<br />This is a simple PowerShell script that monitors the papyrus log file, and alerts the user if there are stack dumps present.\n<br />\n<br />[b][size=4]Overview[/size][/b]\n<br />When running lots of mods -- especially script intensive mods -- there is a \n<br />risk of the  scripting engine becoming overloaded. If the number of \n<br />active scripts exceeds a certain threshold, they will be [b]dumped[/b], which means that they are written out the logfile. Some scripts may get suspended as the Papyrus engine tries to recover. \n<br />\n<br />This [i]can[/i] be a sign that something has gone very wrong. So I wrote this monitor script to alert me.\n<br />\n<br />[b][size=4]Results\n<br />[/size][/b]During normal gameplay, the output of the monitor will look something like this. Note that having [i]some[/i] errors and warnings is quite normal if you have mods installed.\n<br />[quote]---------------------------------------------------------------------------\n<br />[code][/code][code]LOG SIZE           : 27.60 KB\n<br />NUMBER OF DUMPS    : 0\n<br />NUMBER OF STACKS   : 0\n<br />AVG STACKS/DUMP    : 0\n<br />NUMBER OF WARNINGS : 87\n<br />NUMBER OF ERRORS   : 33[/code][/quote]\n<br />---------------------------------------------------------------------------\n<br />When a stack dump has occurred, the output of the monitor will look like \n<br />this. It will be accompanied by a beeping sound every 4 seconds and the \n<br />PowerShell window changing color.\n<br />[quote]---------------------------------------------------------------------------\n<br />[code]LOG SIZE           : 948.92 KB\n<br />NUMBER OF DUMPS    : 1\n<br />NUMBER OF STACKS   : 118\n<br />AVG STACKS/DUMP    : 118\n<br />NUMBER OF WARNINGS : 392\n<br />NUMBER OF ERRORS   : 1246\n<br />[06/04/2018 - 11:50:23PM] Count of suspended stacks is over our warning threshold, dumping stacks:\n<br />[/code][/quote]",
+  "categoryId": "39",
+  "version": "1",
+  "author": "MarkDF",
+  "createdUnix": "1528366876",
+  "updatedUnix": "1528366876",
+  "containsAdultContent": false,
+  "uploadedBy": "markdf",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000274698",
+      "name": "SkyrimLE Log Monitor",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "SkyrimLE Log Monitor-91791-1.7z",
+      "uploadedUnix": "1528366748",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/80bd14c6c763654da6eff73995eb7b5efd89e0a8c9474362d5b67a781d4a8e01/analysis/1528366923/",
+      "changelogHtml": " Initial upload. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimLE%20Log%20Monitor-91791-1.7z?fid=1000274698&ttl=1535882551&ri=8192&rs=8192&setec=d2d8fb2fa95a429c13ce6ee0b90a9987"
+    }
+  ]
+}

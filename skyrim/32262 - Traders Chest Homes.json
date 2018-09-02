@@ -1,0 +1,32 @@
+{
+  "modId": 32262.0,
+  "modName": "Traders Chest Homes",
+  "summary": "Trader&#39;s Chest: Homes adds a chest just outside every purchasable property in Skyrim. With this chest, you can fill it with loot from dungeon runs and a trader will take your loot and leave you gold for the combined value after he takes his fee of 10% for his work.",
+  "descriptionHtml": "[center][img]http://s14.postimage.org/ob84c8qbl/TCH.png[/img][/center]\r<br />\r<br />[b] [size=32] I no longer support this mod; however, I have added a new mod called [url=http://www.nexusmods.com/skyrim/mods/52784] [color=#FFD700] Trader&#39;s Chest: Homes - Refined. [/color][/url] Please check it out, it expands upon this mod making the chests look more like mailboxes and adding a mod configuration menu to control various variables. There are also optional files for Hearthfire homes and Open Cities Skyrim compatibility. [/size] [/b] \r<br />\r<br />Have you ever been stuck in the situation of not being able to sell all the items from your last dungeon adventure due to merchants lacking the necessary gold? You just throw the loot in a chest somewhere for it to collect dust and be forgotten about. Well, these chests will pay you for it. Once a day a trader will come by and check what items you have left in the chest and give you gold in exchange. No more wasted time merchant hopping.\r<br />\r<br />Each chest requires a key to open which can be located within each chest&#39;s respective house [as of now, the skyrim default purchasable properties not including hearthfire). The trader will total up the cumulative value of all the loot you place in the chest and take 10% of that value for himself and leave you the rest. \r<br />\r<br />Until I can figure out how get the correct gold value for an enchanted item, I suggest hauling those to merchants. See Known Bugs.\r<br />\r<br />    [center][img]http://s2.postimage.org/4ac88hgrd/cooltext930082781.png[/img][/center]\r<br />\r<br />To install this mod, if using Nexus Mod Manager, simply click download with manager. To install manually, download and place the data folder in your skyrim directory and say yes to merge the files. Simple as that.\r<br />\r<br />[center][img]http://s7.postimage.org/wo2vlfji3/cooltext930094685.png[/img][/center]\r<br />\r<br />-Reported not receiving correct amount of gold for enchanted items, in review.\r<br />   Confirmed issue. I suspended current work to try and correct.\r<br />\r<br />WorkAround\r<br />\r<br />I&#39;m doing a poll:\r<br />\r<br />Due to the limited scripting capabilities, I am limited in my efforts to correct the issue with receiving the correct amount of gold for enchanted items. Until the scripting is fixed, or, if this is well liked, indefinately, I have a couple of temporary work arounds in my head.\r<br />\r<br />Create a chest that accepts only enchanted items and disenchants them, leaving you with the base item that you can throw in the chest (since you only get gold for the base item anyway). After a certain amount of disenchants, a pedestal will yield either....\r<br />\r<br />1) Filled Black or Grand Soul gems\r<br />2) Usable item that gives the player a dragon soul on use and then is destroyed.\r<br />3) [Your Suggestions]\r<br />\r<br />Thanks for providing feedback. I want to make this mod as user friendly as possible. \r<br />Please leave a comment.\r<br />\r<br />[center][img]http://s16.postimage.org/c9lvm4r45/cooltext930091912.png[/img][/center]\r<br />\r<br />v1.0: Initial Release\r<br />\r<br />If you have any suggestions for improving this mod, please leave them in the comments section. I want to do so much more than just have a scripted chest. I will keep trying to improve upon this mod with the limited time I have. \r<br />\r<br />Currently working on: \r<br />- Trader&#39;s Supply Chests: Select, among the following categories, items you wish to order.\r<br />Potions (Health, Magicka and Stamina potions)\r<br />Smithing Supplies (includes all types of ingots, dragon bones and scales, leather and leather strips)\r<br />Alchemy Supplies (all alchemical ingredients)\r<br />Enchanting Supplies (filled soul gems and all types of enchanted weapons and armor [for disenchanting means])\r<br />- Speech based Trader&#39;s Fee&#39;s (i.e. speech skill &lt; 10, fee is 50%; &lt;20 fee is 45% and so on)\r<br />- Custom Trader&#39;s Guild Supply Catalogue book and texture.\r<br />\r<br />\r<br />Things I have in mind:\r<br />\r<br />-Trader&#39;s Guild (related quests and bonuses for quest completion that results in unlocking discounted trader&#39;s fee&#39;s and special merchants that sell specific rare items (i.e. cheap filled black/grand soul gems, bulk crafting supplies, enchanted weapons and armors and a dragon soul merchant) at a &#34;marked down&#34; cost.\r<br />- Real-Time Trader Pickup (Scripted NPC w/ buggy instead of using game time to dictate when goods have been picked up)\r<br />- Purchasable, portable chest \r<br />- Unique chest mesh/texture\r<br />-Requires Hiring Trader (Suggested by mindinavoid: I would like to have an initial one time fee for hire and then the player will be charged per pickup such as what&#39;s in place currently.)\r<br />",
+  "categoryId": "69",
+  "version": "1.0",
+  "author": "Jun3d1",
+  "createdUnix": "1361647772",
+  "updatedUnix": "1361647110",
+  "containsAdultContent": false,
+  "uploadedBy": "Jun3d1",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000012499",
+      "name": "TC Homes",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "38",
+      "fileName": "TC Homes-32262-1-0.zip",
+      "uploadedUnix": "1361647110",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/301c6bb90714522a4d145cc20725b1d56cc94a3eca1d11416a6f8443d6a52f43/analysis/1407435392/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TC%20Homes-32262-1-0.zip?fid=1000012499&ttl=1535808520&ri=8192&rs=8192&setec=78fb7eb01f7377f7a91ed7aa1b732e81"
+    }
+  ]
+}

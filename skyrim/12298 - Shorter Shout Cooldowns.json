@@ -1,0 +1,32 @@
+{
+  "modId": 12298.0,
+  "modName": "Shorter Shout Cooldowns",
+  "summary": "This enables you to better utilize shouts in combat, so you really can feel like you\\'re debating with a dagon instead of getting in a word here and there.\r\nI also made an effort to balance it out with humanoid, beast, and mixed combat encounters so shouts become usable abilities, instead of just opening or finishing moves.\r\nOn Steam at: http://ste",
+  "descriptionHtml": "This enables you to better utilize shouts in combat, so you really can feel like you\\'re debating with a dagon instead of getting in a word here and there.\r\nI also made an effort to balance it out with humanoid, beast, and mixed combat encounters so shouts become usable abilities, instead of just opening or finishing moves.\r\n\r\nMight be worth mentioning that I only play on the hardest difficulty, so the re-balancing of shouts is based off that.\r\nBelow is an exact breakdown of what I changed and why:\r\n\r\nDragonrend - no change\r\n\r\nClear Skies - no change\r\n\r\nCall of Valor - was 180 is now 90. It\\'s a combat-prep spell, so it should have a long cd, but not 3 minutes.\r\n\r\nCall Dragon - was 300 is now 100 because five minutes is to long for a summon that doesn\\'t always work.\r\n\r\nStorm call : might be a bit OP in current state, not sure changing cds helpful, needs more experimentation.\r\n\r\nElemental Fury : I was torn on this one for a long time. On the one hand, it\\'s a melee fighter\\'s best friend, on the other it goes away when you change weapons. \r\nSu was 30, now 10\r\nGrah was 40 now 18\r\nDun was 50 now 24\r\n\r\nDisarm : Vanilla, this shout was useless--hopefully mitigated that to some extent. It only works on humanoids. Changed it so the third shout will work on bosses. Found through testing that it only gives you about a five second advantage when it does work.\r\nZun - was 30 now 5\r\nHaal - was 35 now 5 \r\nViik - was 40 now 15, works pretty much every time.\r\n\r\n\r\nFire/Ice Breath: Shortened to sync up with dragon take-offs and touch-downs and to line up with a mage\\'s fireball.\r\n30 down to 7\r\n50 down to 12\r\n100 down to 17\r\n\r\nMarked for Death : Since it can change the pace of the battle significantly, I decided to keep the cooldowns on this pretty high. I\\'m considering lowering the time enemies are effected at max level.\r\nKrii was 20 now 10\r\nLun was 30 now 18\r\nAus was 40 now 32\r\n\r\nIce Form : Reduced the time someone stays frozen across the board, and made it more effective against higher-level mobs. This is CC, so now you can keep it up and still use shouts.\r\nIiz was 60 now 5\r\nSlen was 90 now 10\r\nNus was 120 now 15\r\n\r\nDismay: Lowered the duration at lower levels to offset reduced cooldown time. Increased effect duration at max level.\r\nFaas was 20 now 8\r\nRu was 30 now 18\r\nMaar was 40 now 22\r\n\r\nAnimal Allegiance : opportunities to use this effectively are rare. Cool downs adjusted to reflect bear dps.\r\nRaan was 50 is now 30 and not enough to keep the animal controlled before it comes off cd\r\nMir was 60 is now 35 and keeps the animal under contol until cooldown is up\r\nTah was 70 now 20 gets the animal on your side for most the encounter, and you can still use shouts\r\n\r\nAura Whisper : lets you gather intel, and still initiate combat with a shout.\r\nLaas was 30 now 10\r\nYah was 40 now 10\r\nNir was 50 now 10\r\n\r\nBecome Ethereal : this is for running and hitting traps. Made it so it\\'s as hard to run at lower levels, and trivial at max. Little change was needed, it gets to powerful when used in combo with other shouts.\r\nFiem was 20 now 20 and feels like a long cd, helps get you some distance\r\nZii was 30 now 27 and has a short cd--gives enemies chasing you a chance to kill you\r\nGron was 40 now 35 can stay ethereal until you chose not to be\r\n\r\nUnrelenting Force : Fus and Ro both force a stumble, dah forces a ragdoll.\r\nFus was 15 now 10\r\nRo was 20 now 10\r\nDah was 45 now 18\r\n\r\nWhirlwind Sprint : No reason to punish using a higher-powered version of this shout\r\nWuld was 20 now 8.5\r\nNah was 25 now 8.5\r\nKest was 35 now 8.5",
+  "categoryId": "93",
+  "version": "0.3",
+  "author": "Tyggna",
+  "createdUnix": "1331067953",
+  "updatedUnix": "1332997954",
+  "containsAdultContent": false,
+  "uploadedBy": "tyggna",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "47835",
+      "name": "ShorterShoutCooldowns",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "ShorterShoutCooldowns-12298-1.rar",
+      "uploadedUnix": "1332997954",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/043b272f413cf47744fad261677d6626e200aabb7b42edb6d630d2c69db6c2cd/analysis/1406785277/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ShorterShoutCooldowns-12298-1.rar?fid=47835&ttl=1535774075&ri=8192&rs=8192&setec=7402df9b9ac20fa67e2e2b17ccd52b1e"
+    }
+  ]
+}

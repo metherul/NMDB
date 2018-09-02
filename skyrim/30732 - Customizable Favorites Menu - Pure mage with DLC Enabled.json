@@ -1,0 +1,32 @@
+{
+  "modId": 30732.0,
+  "modName": "Customizable Favorites Menu - Pure mage with DLC Enabled",
+  "summary": "This is my own personal favorites menu file, which I\\'m quite happy with. It\\'s perfect for a mage who makes the most of their spells, with a section for every School, plus a slot for Shouts and Powers, and a slot for Equipment. DAWNGUARD, HEARTHFIRE, and DRAGONBORN are all supported!",
+  "descriptionHtml": "This is my own personal favorites menu file, which I\\'m quite happy with. It\\'s perfect for a mage who makes the most of their spells, with a section for every School, plus a slot for Shouts and Powers, and a slot for Equipment. DAWNGUARD, HEARTHFIRE, and DRAGONBORN are all supported!\r\n\r\nI took the base file from another CFM config that had support for vanilla Skyrim, ACE, and Better Sorting. I don\\'t use either ACE or Better Sorting, so most of those options are gone. Then I reworked it like so:\r\n\r\nRow 1: Equipment, Alteration, Conjuration, Destruction\r\n\r\nRow 2: Hotkeyed, Illusion, Restoration, Shouts & Powers\r\n\r\n(recommended resolution is 1024 x 768, but it works all the way down to 800 x 600 resolution)\r\n\r\nI then made sublists for everything but the Hotkeyed section, and added in everything I could think of from vanilla Skyrim, Dawnguard, Hearthfire, and Dragonborn. Yes, Dragonborn. The items and spells I enabled for this list aren\\'t here yet, but when Dragonborn comes out, this file will add those items with (hopefully) no trouble.\r\n\r\nEquipment contains three subsections (Scrolls, Potions (which includes Potions and Poisons), and Gear (which includes Weapons, Armor, Ammo, and Clothes)). I then made each school of magic have its own section, and I also separated the spells further within their own School sections, based on what they do/how they behave. Destruction has five, Conjuration four, Alteration, Illusion, and Restoration two. Shouts and Powers has three (Greater Powers, Lesser Powers, and Shouts)\r\n\r\nI also added support for the True Bound Armors mod (http://skyrim.nexusmods.com/mods/30462/), because Bound Armor is a very mage-y thing.\r\n\r\nI will not be adding support for SkyRe, ACE (beyond what\\'s left over), Better Sorting (again, beyond what\\'s left over that I missed), or any magic mod that I don\\'t personally use. Considering I use none besides the True Bound Armors mod at the time of this first release, that means none. If you really want to use this with Mod X/Y/Z, pop the config file open and edit the items yourself. It\\'s not hard, just time consuming.\r\n\r\nObviously, you need the full CFM mod to use this. See below, in the permissions area.\r\n\r\nAlso, if you want to post a screenshot of the menu, go ahead. I haven\\'t had time to take one yet, so yeah.\r\n\r\n---\r\nPermissions\r\n---\r\n\r\nI don\\'t care if you use this, or modify it. It wouldn\\'t be possible without favmenumodder\\'s fantastic Categorized Favorites Menu mod (http://skyrim.nexusmods.com/mods/4862) anyway, so thank him/her/them/it, and my desire to play a pure mage recently. Also thanks to Bethesda for Skyrim and its DLCs, without whom, obviously, CFM wouldn\\'t even exist.",
+  "categoryId": "42",
+  "version": "1.0",
+  "author": "dbcification",
+  "createdUnix": "1359579578",
+  "updatedUnix": "1359579252",
+  "containsAdultContent": false,
+  "uploadedBy": "dbcification",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000005976",
+      "name": "CFM-pure mage with DLC",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "CFM-pure mage with DLC-30732-1-0.7z",
+      "uploadedUnix": "1359579252",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/bbb87066b837184d3ad94491f08d16be98ed391ecaf9bf656d10fb906da068e1/analysis/1407387902/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CFM-pure%20mage%20with%20DLC-30732-1-0.7z?fid=1000005976&ttl=1535805782&ri=8192&rs=8192&setec=689c06a537515473cdf469d6eb27e492"
+    }
+  ]
+}

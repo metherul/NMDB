@@ -1,0 +1,48 @@
+{
+  "modId": 29403.0,
+  "modName": "SkyBurial ENB",
+  "summary": "SkyBurial ENB creates original atmosphere and completely suitable for comfortable perception of gameplay. Mod is fully focused on immersion in the gameplay.",
+  "descriptionHtml": "[center][img]http://grteam.ucoz.net/nexus/skyburial/logo/0_logo.jpg[/img][/center]\r\n[img]http://grteam.ucoz.net/nexus/skyburial/design/1_overview.png[/img]\r\n[center][b][color=#7d7d7d]SkyBurial[/color] ENB[/b] was originally developed by the author for his own use.\r\nThis mod - is subjective preferences of author.\r\n[b][color=#7d7d7d]SkyBurial[/color] ENB[/b] creates original atmosphere and completely suitable for comfortable perception of gameplay.[/center]\r\n[center][img]http://grteam.ucoz.net/nexus/skyburial/images/1_atmospheric_gameplay.jpg[/img][/center]\r\n[center][b][color=#7d7d7d]SkyBurial[/color] ENB[/b] designed especially for Climates of Tamriel.\r\nDon\\'t use [b][color=#7d7d7d]SkyBurial[/color] ENB[/b] without Climates of Tamriel![/center]\r\n[center][img]http://grteam.ucoz.net/nexus/skyburial/images/4_special_for_cot.jpg[/img][/center]\r\nConfiguration uses a library of enbseries version 0.113, because:\r\n[b]1.[/b] It\\'s quite productive (compared to previous versions), and it has all the necessary options.\r\n[b]2.[/b] Many other popular ENB also used (and some still use) this version.\r\n[b]3.[/b] In this version section [SKY] works correctly and looks better.\r\n\r\nFeatures of [b][color=#7d7d7d]SkyBurial[/color] ENB[/b]: \r\n[i] - Original color palette. \r\n - Fixed overexposed vanilla bloom.   \r\n - No overexposed bright and middle tones.\r\n - No oversaturated colors. \r\n - Balanced dark nights/interiors/dungeons. \r\n - Soft and overexposed lights. \r\n - Beauty day time and night time sky.[/i]\r\n\r\n[center][img]http://grteam.ucoz.net/nexus/skyburial/images/2_balanced_ambient.jpg[/img]\r\n[img]http://grteam.ucoz.net/nexus/skyburial/images/3_immersive_lights.jpg[/img][/center]\r\n[color=green]Q:[/color] Why 0.113?\r\n[color=green]A:[/color] Because [b][color=#7d7d7d]SkyBurial[/color] ENB[/b] was originally developed by the author for his own use. I don\\'t like to play without AA and 0.113 looks better in my opinion.\r\n\r\n[color=green]Q:[/color] So why not 0.119? It\\'s same, with AA and have other options.\r\n[color=green]A:[/color] Because 0.119 have wrong SKY detect colors.\r\n\r\n[b][color=#7d7d7d]SkyBurial[/color] ENB[/b] v.2.2 changelog:\r\n\r\n[i]- Rework configuration for newest versions of enbseries (still beta, only for testing);\r\n- Fixed NIGHTDAY option; \r\n- Fixed BlueShift option;\r\n- Fixed SubSurfaceScattering option;\r\n- Fixed PointLighting option:\r\n- Some minor fixes;\r\n- File effect.txt now is optional (read Blur Sharp Shift.txt);\r\n- Added optional Letterbox;\r\n- Added optional Depth of Field;[/i]\r\n[img]http://grteam.ucoz.net/nexus/skyburial/design/2_information.png[/img]\r\n[b]My spec\\'s:[/b] \r\n[i] - ASUS P5E; \r\n - DualCore Intel Core 2 Duo E6750, 2.666 MHz; \r\n - 6.0 GB RAM; \r\n - NVIDIA GeForce GTX 550 Ti (306.97 WHQL); \r\n - Microsoft Windows 7 Enterprise (x64); \r\n - Resolution: 1440?900 (16:10 - 19 inch);[/i]\r\n[b]Game version:[/b] [color=green]1.8[/color].\r\n\r\n[i]Stable 30-35 FPS, sometimes drop to 25 FPS (in Falkreath, for example)[/i].\r\n[img]http://grteam.ucoz.net/nexus/skyburial/design/3_installation.png[/img]\r\nArchive contains two versions of the mod:\r\n- [b]Final Version (Main Version)[/b] - main version of the mod (recommended);\r\n- [b]Beta Version[/b] - beta version of the mod (only for testing);\r\n\r\n[b]1.[/b] Download 0.113[color=green]*[/color] ENB dll file (or 0.131 for beta version) and put it to the main Skyrim directory: \r\n[color=green][i]\\\\Bethesda Softworks\\\\Skyrim\\\\[/i][/color]\r\n[url=http://www.enbdev.com/download_mod_tesskyrim.htm]ENB v.0.113[/url]\r\n[color=green]*[/color]Install only wrapper version.\r\n\r\n[b]2[/b]. Copy all files from mod directory:\r\n[color=green][i]\\\\1 - Final Version (Main Version)\\\\0.113 (with hardware AA)\\\\[/i][/color]\r\nAnd put them to the main Skyrim directory:\r\n[color=green][i]\\\\Bethesda Softworks\\\\Skyrim\\\\[/i][/color]\r\n\r\n[b]3.[/b] Download and install [b]Climates of Tamriel v.2.1 Final[/b][color=green]*[/color].\r\n\r\n[b]4.[/b] Install [b]ClimatesOfTamriel-VanillaNights-Lvl-3.esp[/b].\r\n\r\n[color=green]*[/color]Don\\'t install any .esp files from [color=green][i]\\\\01 Dungeons\\\\[/color] and [color=green]\\\\02 Interiors\\\\[/color] directories![/i]\r\n\r\n[b]5.[/b] Check your SkyrimPrefs.ini:\r\n\r\n[i]iBlurDeferredShadowMask=1\r\nfGamma=1.0000\r\nbFloatPointRenderTarget=1[/i]\r\n[img]http://grteam.ucoz.net/nexus/skyburial/design/4_tweaks.png[/img]\r\nRecommended drivers version for NVIDIA users: [color=green]306.97 WHQL[/color] (310.70 corrupt any ENB).\r\nRecommended version of [b][color=#7d7d7d]SkyBurial[/color] ENB[/b] - [color=green]Final Version (Main Version)[/color].\r\n\r\nIf you want better performance - turn off any hardware AA or downscale your resolution.\r\nTurning on FPS Limiter may solve problem with stuttering (enable by default). \r\n\r\n[i][color=green][LIMITER] \r\nWaitBusyRenderer=false \r\nEnableFPSLimit=true \r\nFPSLimit=40.0[/color][/i]\r\n[img]http://grteam.ucoz.net/nexus/skyburial/design/5_mods.png[/img]\r\n[b]Recommended mods:[/b]\r\n[url=http://skyrim.nexusmods.com/mods/141]Skyrim Flora Overhaul[/url]\r\n[url=http://skyrim.nexusmods.com/mods/13268]WATER - Water And Terrain Enhancement Redux[/url]\r\n[url=http://skyrim.nexusmods.com/mods/28110]Expanded Snow Systems - Climates of Tamriel Version[/url]\r\n[url=http://skyrim.nexusmods.com/mods/17609]Relighting Skyrim[/url]\r\n[url=http://skyrim.nexusmods.com/mods/9571]Remove Ambient Interior Fog[/url] (highly recommended)\r\n[url=http://skyrim.nexusmods.com/mods/85]Enhanced Night Skyrim[/url]\r\n[url=http://skyrim.nexusmods.com/mods/1188]More Subtle Nirnroot [/url]\r\n[url=http://skyrim.nexusmods.com/mods/3520]Paper Pack[/url] (or some similar)\r\n[img]http://grteam.ucoz.net/nexus/skyburial/design/6_credits.png[/img]\r\n[b]Thanks to:[/b]\r\n[url=http://www.enbdev.com/]Boris Vorontsov[/url]\r\n[url=http://skyrim.nexusmods.com/]Skyrim Nexus[/url]\r\n[url=http://skyrim.nexusmods.com/mods/17802]Project Reality - Climates Of Tamriel - Weather - Lighting[/url]\r\n[url=http://skyrim.nexusmods.com/mods/23364]SweetFX[/url]",
+  "categoryId": "62",
+  "version": "2.2",
+  "author": "Sadeness",
+  "createdUnix": "1357297141",
+  "updatedUnix": "1357734276",
+  "containsAdultContent": false,
+  "uploadedBy": "saint666enigmatic",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "109461",
+      "name": "SkyBurialENB",
+      "version": "2.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1768",
+      "fileName": "SkyBurialENB-29403-2-1.zip",
+      "uploadedUnix": "1357301385",
+      "modVersion": "2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/774abca137d94d5ad61c2bfe64b5f2fd157832d1f3fd2efead194a494d3d9e38/analysis/1407336068/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyBurialENB-29403-2-1.zip?fid=109461&ttl=1535803491&ri=8192&rs=8192&setec=2e649c734c3ac0d313dc755b3ed3de06"
+    },
+    {
+      "fileId": "1000001158",
+      "name": "SkyBurialENB",
+      "version": "v.2.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1722",
+      "fileName": "SkyBurialENB-29403-v-2-2.zip",
+      "uploadedUnix": "1357734276",
+      "modVersion": "v.2.2",
+      "virusScanUrl": "https://www.virustotal.com/file/752dde93a67a8e883c68b70afbcfccdf36a962e3acb64d39b528a947c128aecc/analysis/1407345087/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyBurialENB-29403-v-2-2.zip?fid=1000001158&ttl=1535803491&ri=8192&rs=8192&setec=166c528a2d0188944e0c87757e43d10c"
+    }
+  ]
+}

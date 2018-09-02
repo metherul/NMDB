@@ -1,0 +1,48 @@
+{
+  "modId": 14589.0,
+  "modName": "Blender tri file import and export tool",
+  "summary": "Imports .tri files of all sorts - even with Eyemorphs&#33;\r<br />Includes a Tutorial on how to add new Heads/Headparts with tri file support to the game.",
+  "descriptionHtml": "This is an updated version of [b]Kapaer[/b]&#39;s .tri file im- and export script for Blender.\r<br />It allows users to view and edit mesh morphs which are used in Oblivion, Fallout 3, Fallout: NV and Skyrim.\r<br />\r<br />Following is a short tutorial on how to edit your .tri head and headgear files in Blender.\r<br />\r<br />[b]You should already know how to work in Blender before you use this tutorial&#33;[/b]\r<br />\r<br />[b]Installation:[/b]\r<br />1. Download the Script from here\r<br />2. Drop the two files into &#34;.../&lt;Blenderfolder&gt;/blenderscripts&#34;\r<br />done.\r<br />\r<br />[b]Working with the Importer[/b]:\r<br />1. Open Blender\r<br />2. File -&gt; Import -&gt; morph .tri (.tri)...\r<br />[img]http://static-2.nexusmods.com/15/mods/110/images/14589-2-1333813379.jpg[/img]\r<br />\r<br />3. Select a file to open.\r<br />[img]http://static-2.nexusmods.com/15/mods/110/images/14589-3-1333813381.jpg[/img]\r<br />\r<br />-- *Head.tri -&gt; used for the head animations | edit these when you want to edit the animations\r<br />[img]http://static-2.nexusmods.com/15/mods/110/images/14589-1-1333813635.jpg[/img]\r<br />\r<br />-- *HeadChargen.tri -&gt; used for the sliders in the chargen menu | edit these when you want to change the maximum traits of your characters\r<br />[img]http://static-2.nexusmods.com/15/mods/110/images/14589-2-1333813637.jpg[/img]\r<br />\r<br />-- *HeadRaces.tri -&gt; used for the differences between Races | edit these when you want to change a Race&#39;s appearanc (e.g.: Orks have different lips due to their teeth, Elves have unique ears)\r<br />[img]http://static-2.nexusmods.com/15/mods/110/images/14589-3-1333813637.jpg[/img]\r<br />--- Remember: The names of the morphs need to be the exact same as the names for the races within the CK. \r<br />---- E.g.: the morph for the Imperials needs to be &#34;ImperialRace&#34; as their ID is &#34;ImperialRace&#34; in the CK\r<br />\r<br />&#34;Rotate x 90°&#34; is deselected by default, but in cases where you should need it you can turn it on.\r<br />\r<br />4. Select the Imported mesh.\r<br />-- You should notice..\r<br />--- ... that the Shapes Key Panel has a Basis and multiple other entrys.\r<br />--- ... that the Head is 10 times bigger than an imported .nif file and 100 times bigger than an imported .obj file\r<br />--- ... that the UV is mirrored over the horizontal middle\r<br />--- ... that the mesh has no weights\r<br />[img]http://static-2.nexusmods.com/15/mods/110/images/14589-4-1333813381.jpg[/img]\r<br />\r<br />5. Depending on the type of file you imported you will have the selection between moods and lip movements, character traits or race traits in the shape key panel.\r<br />\r<br />[b]Editing[/b]\r<br />- The vertice order has to stay the same for a .nif and .tri mesh - so the best thing is to export a working .nif and reimport it.\r<br />\r<br />New feat: modifiers - How to mark them\r<br />If you exported a morph which was not properly named, you will most likely notice a warning - and why the export did not work out.\r<br />This is because the script is now set up to recognize two different types of morphs: regular morphs and modifier morphs.\r<br />You can assign a morph to be one or the other by naming the shape key in the following way:\r<br />\r<br />&#34;MorphKey A [1]&#34; - the brackets around the number indicate a regular morph key.\r<br />&#34;ModifierKey B (3)&#34; - the parentheses tell the script that this is a modifier morph.\r<br />\r<br />The morph will be renamed to &#34;MorphKey A&#34; (without the space, the brackets and the index number) on export - so don&#39;t worry about that. You will also not have to worry about the index number as it is not implemented yet (it may be used to sort the export in a later version).\r<br />\r<br />[img]http://static-3.nexusmods.com/15/mods/130/images/55388-1-1395770139.png[/img]\r<br />This is how the Morph&#39;s shape key will be named, if it is a modifier.\r<br />\r<br />[b]Exporting[/b]:\r<br />1. select your mesh\r<br />2. File -&gt; Export -&gt; morph .tri (.tri)...\r<br />3. Select a folder where to save your new tri file to and give the .tri file a name\r<br />4. The rotation is not needed (rotate x 90° should be deselected by default) -&gt; ok\r<br />done.\r<br />\r<br />[b]I will not go into detail on how to create a new head for skyrim or fallout as there are enough video tutorials on youtube for that[/b], but the procedure is quite the same, just that you will also have to import the vanilla head and create a new .nif file.\r<br />1.) Import a vanilla tri and its nif file.\r<br />2.) shape your new head and fit its neck to the vanilla one.\r<br />3.) add shape keys with the names from the tri file and give them a shape which you seem fitting.\r<br />\r<br />[b]Export[/b]:\r<br />1.) Duplicate the mesh and delete all shape keys from the copy\r<br />2.) Shrink the copy down to 10% of its size (&#34;S&#34; key -&gt; 0.1 -&gt; enter) and align it with the vanilla nif file (use the neck vertices to snap it into the right position). \r<br />This will be your .nif export file.\r<br />3.) Copy the weights from the vanilla nif (bone weight copy in the scripts in object mode) and parent it to the skeleton.\r<br />4.) Export the nif (with the fallout standards but no striping) and the tri file.\r<br />[img]http://static-2.nexusmods.com/15/mods/110/images/14589-4-1333813638.jpg[/img]\r<br />\r<br />\r<br />Credits for the core of the tool go to Kapaer, I only added the modifier support&#33;\r<br />The tools are released under the GNU 3.0 License - [url=http://www.gnu.org/licenses/quick-guide-gplv3.html]read more about it here[/url]",
+  "categoryId": "39",
+  "version": "0.2.1",
+  "author": "Tool by kapaer Tutorial by deedes",
+  "createdUnix": "1333812851",
+  "updatedUnix": "1395783891",
+  "containsAdultContent": false,
+  "uploadedBy": "deedes",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "50940",
+      "name": "tutorial",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1429",
+      "fileName": "tutorial-14589-0-1.7z",
+      "uploadedUnix": "1333813018",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/a50ac8b4f0c311406945b1f714d6397916f774a005331b2d78bd9c0392462d09/analysis/1406802433/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/tutorial-14589-0-1.7z?fid=50940&ttl=1535778327&ri=8192&rs=8192&setec=8f5bee2e6895807f9a839239081d3c4e"
+    },
+    {
+      "fileId": "1000102454",
+      "name": " Blender TRI file import and export script",
+      "version": "0.2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": " Blender TRI file import and export script-14589-0-2-1.7z",
+      "uploadedUnix": "1395783891",
+      "modVersion": "0.2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/89e891750c2b640d0dd39ac2ba847181e800beea11cce12cb4115dd4ca785488/analysis/1407995248/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/%20Blender%20TRI%20file%20import%20and%20export%20script-14589-0-2-1.7z?fid=1000102454&ttl=1535778327&ri=8192&rs=8192&setec=16a095f08b882d0b4f49a0b29c174d23"
+    }
+  ]
+}

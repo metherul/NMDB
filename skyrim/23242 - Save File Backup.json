@@ -1,0 +1,32 @@
+{
+  "modId": 23242.0,
+  "modName": "Save File Backup",
+  "summary": "A simple batch file I created to back-up my Skyrim saves on start-up in the event I ruined them via mods or accidentally saving over them due to Skyrims simple save management.",
+  "descriptionHtml": "OMG SO LONG!?!?!\r\nThese instructions are explicit so that there is NO WAY you will ruin your game.\r\n\r\nPlace this in the folder where your Skyrim \\\"Saves\\\" folder is located.\r\nWindows 7/VISTA:\r\nC:\\\\Users\\\\*USER*\\\\Documents\\\\My Games\\\\Skyrim\r\nwhere *USER* is your user name\r\nor COPY/PASTE this into any explorer window.\r\n%USERPROFILE%\\\\Documents\\\\My Games\\\\Skyrim\r\n\r\nNow right click the batch and create a shortcut.\r\nMove this shortcut to the \\\"Startup\\\" folder in \\\"All Programs\\\" of your start up menu.\r\nC:\\\\Users\\\\*USER*\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\r\nwhere *USER* is your user name.\r\nor COPY/PASTE this into any explorer window.\r\n%USERPROFILE%\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\r\n\r\nWindows XP:\r\nC:\\\\Documents and Settings\\\\*USER*\\\\My Documents\\\\My Games\\\\Skyrim\r\nwhere *USER* is your user name\r\n\r\nNow right click the batch and create a shortcut.\r\nMove this shortcut to the \\\"Startup\\\" folder in \\\"All Programs\\\" of your start up menu.\r\nC:\\\\Documents and Settings\\\\*USER*\\\\Start Menu\\\\Programs\\\\Startup\r\nwhere *USER* is your user name.\r\n\r\nDONE! Next time you boot it will make a Backup.\r\nPlease read everything below so you understand exactly what this will do.\r\nI am not responsible for you breaking your system because you did not understand what was taking place.\r\n\r\n::WHY::\r\nThis is only really useful if you are constantly trying new mods or play multiple characters.\r\nI created this because ALL Skyrim saves appear in a single list and it is very easy to inadvertently save over the wrong character or start playing a character with the wrong mods on and accidentally saving. This will not be for everyone as some people will exceed the threshold of Save folder size to viability of a speedy backup.\r\n\r\n::TECHNICAL CONCERNS::\r\nIf you HAVE NOT been keeping your Skyrim saves folder to a reasonable amount of saves this may choke your system out for awhile if it runs at start-up. \r\nMy Skyrim saves folder was 1.1gb before I cleaned it out. D:\r\n\r\nCurrently it is 118mb and the back up takes less than 5 seconds on boot.\r\nMy hardware:\r\nIntel Core i3 540 @ 3.45GHZ with 7200RPM Seagate Barracuda Harddrives\r\n\r\nIf you\\'re wondering what specifically takes place.\r\nThe batch will run at start up.\r\nOnce this occurs it will check for a \\\"Backup\\\" folder.\r\n   1:If the \\\"Backup\\\" folder DOES NOT exist, it will create one.\r\n      At this point the backup occurs and it will tell you, \\\"Backup complete\\\"\r\n   2:If the \\\"Backup\\\" folder DOES exist, it will delete its contents.\r\n      At this point a NEW backup occurs and it will tell you, \\\"New Backup complete\\\"\r\n\r\nIf you know what your doing you may replace the target locations with the full file paths and have the batch in your Startup folder and not bother with a shortcut.\r\nOtherwise just follow the instructions up top.\r\nRemoving the \\\"Pause\\\" will make it so the folder closes on its own and doesn\\'t bother you.\r\n\r\n::SOURCE::\r\n@echo off\r\ncd Saves\r\nIF EXIST Backup (\r\nDel /F /Q /S \\\"Backup\\\"\r\ncd ..\r\nxcopy \\\"Saves\\\" \\\"Saves\\\\Backup\\\" /Y\r\necho \\\"Old Backup saves removed.\\\"\r\necho \\\"New Backup complete.\\\"\r\necho \\\"By Dregnox.\\\"\r\nPause\r\n) ELSE (\r\necho \\\"Making Backup folder.\\\"\r\nmd Backup\r\ncd ..\r\nxcopy \\\"Saves\\\" \\\"Saves\\\\Backup\\\" /Y\r\necho \\\"Backup complete.\\\"\r\necho \\\"By Dregnox.\\\"\r\nPause\r\n)\r\n\r\n\r\n",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "Dregnox",
+  "createdUnix": "1346184733",
+  "updatedUnix": "1346184912",
+  "containsAdultContent": false,
+  "uploadedBy": "dregnox",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "84900",
+      "name": "Skyrim Save Backup",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Skyrim Save Backup-23242-1-0.rar",
+      "uploadedUnix": "1346184912",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/64b57e84ee299c4675082140e625f35bbf41c74748c39724dea543ec82550aac/analysis/1407128644/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Save%20Backup-23242-1-0.rar?fid=84900&ttl=1535793320&ri=8192&rs=8192&setec=904a31db59fdbd80fa89f5e1b19c5b99"
+    }
+  ]
+}

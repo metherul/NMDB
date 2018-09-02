@@ -1,0 +1,32 @@
+{
+  "modId": 16591.0,
+  "modName": "Dark brotherhood - male armor vertex weights fixed",
+  "summary": "Mesh replacer: Fixes vertex weight issues in the original bethesda meshes for the male db armor (sleeved and sleeveless) which caused very weird distortions in the arms, sides of the chest, and legs in certain animations, such as sneaking and jumping. The female armor didn\\'t need any corrections, as far as I could tell. [Works with retextures!]",
+  "descriptionHtml": "==Note on the screenshots== [moved this to the top since already people didn\\'t see it and were asking]\r\n\r\nBefore you ask, the race in the screenshots is this one (also made by me): http://skyrim.nexusmods.com/downloads/file.php?id=13561\r\n(Not shamelessly plugging, just was too lazy to set up a new character, and my last 1500 saves of 25.9GB of saves were all of my custom race for playtesting purposes.)\r\n\r\n==Index==\r\n1) Description\r\n2) Installation\r\n3) Credits & Permissions & Other stuff\r\n\r\n==Mod Description==\r\n\r\nMesh replacer: Fixes vertex weight issues in the original bethesda meshes for the male db armor (sleeved and sleeveless) which caused very weird distortions in the arms, sides of the chest, and legs in certain animations, such as sneaking and jumping. The female armor didn\\'t need any corrections, as far as I could tell. It works fine with retextures.\r\n\r\nI actually made these corrected meshes a while ago, but never got around to uploading them. I looked around to see if this had already been done, and as far as I could tell, it hasn\\'t, so I decided to put them up, since at least one other person out there has to have been just as irritated at the errors in the original files as I was.\r\n\r\n==Installation==\r\n\r\nThis mod has no ESP, and thus the only step involved is to copy and paste the %extractedpath%/data/ directory from the downloaded zip over the %steamapps%/skyrim/data directory.\r\n\r\nTo uninstall, simply remove the dbarmortorso_0.nif, dbarmortorso_1.nif, dbarmorsleeveless_0.nif and dbarmorsleeveless_1.nif\r\n\r\n==Credits & Permissions==\r\n\r\nOriginal meshes from Bethesda\r\n\r\nThese are modified bethesda meshes, how I believe they should have shipped with the game (which is to say, \\\"without shoddy vertex weighting\\\"). As such, beyond crediting, I\\'m putting no restrictions on the use of this mod beyond bethesda would require for any of their content/derivatives (ie, no porting, because its still a bethesda mesh, etc. etc - all that stuff still applies). So no need to ask me if you can use the mesh in your mod, just go right ahead.",
+  "categoryId": "54",
+  "version": "1.0.0.0",
+  "author": "Wolf of the Azar",
+  "createdUnix": "1336335073",
+  "updatedUnix": "1336335836",
+  "containsAdultContent": false,
+  "uploadedBy": "Wolf of the azar",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "59319",
+      "name": "1-0-0-0",
+      "version": "1.0.0.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "260",
+      "fileName": "1-0-0-0-16591-1-0-0-0.zip",
+      "uploadedUnix": "1336335836",
+      "modVersion": "1.0.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e9d64c1afc3495571eb020b1b43543cedeffb07a7c5b6becff266831009fe1cb/analysis/1406873117/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/1-0-0-0-16591-1-0-0-0.zip?fid=59319&ttl=1535781884&ri=8192&rs=8192&setec=506cf5c6a8d86d6b1b940ef8cf8c1baf"
+    }
+  ]
+}

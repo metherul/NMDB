@@ -1,0 +1,32 @@
+{
+  "modId": 25620.0,
+  "modName": "Dawnguard Bolts Extended",
+  "summary": "Completely changes the way bolts work in Dawnguard.",
+  "descriptionHtml": "Originally I created this for my own personal use. After seeing what people had to say about it I decided to redo it completely and just make it the way it was meant to be.\r\n\r\nWhat this mod does:\r\n\r\nThis mod makes it possible to create the Crossbow and Dwarven Crossbow at the forge without having to do the Dawnguard quests. The Crossbow can be made without any Smithing perks but the Dwarven Crossbow requires Dwarven Smithing. The enhanced versions still require the Dawnguard quests to create. Both Crossbows can be upgraded.\r\n\r\nAnother thing this mod does is allow you to forge Iron, Steel, Elven, Orcish, Dwarven, Glass, Ebony, Daedric, Dragonbone, and Spectral Bolts. Each of the recipes require the same amount of materials as the Dawnguard arrow recipes that were added. For those who manage to find arrows on there travels will find that you can convert 12 regular arrows into 12 of the equivalent bolts as long as you have the required Smithing perks.\r\n\r\nSpectral Bolts are the most powerful bolt in this mod and requires a Black Soul Gem to create 24 of them. They use the Bound Arrow model, and when you shoot you can visibly see where your arrows are going almost like a tracer round. \r\n\r\nAll Bolts fire at 3x the speed of arrows and are not affected by gravity. Which means your arrows will shoot straight as long as you follow the install instructions. All bolts have the same damage as the equivalent arrow as to not make this mod OPed. I think I have managed to balance this mod so it fits into the game.\r\n\r\nInstall Notes:\r\n\r\nLocate your C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim folder and drop the contents of the mod into that directory, all the files should go where they need to be.\r\n\r\nLocate your Skyrim.ini file and add this to the bottom of the file. This will make your arrows/bolts travel further before disappearing and makes your bolts fire through the center of your crosshair instead of over it. This only works for 1st person camera, you will have to tweak the f3 part yourself to get it right.\r\n\r\n[Actor]\r\nfVisibleNavmeshMoveDist=12288.0000\r\n[Combat]\r\nfMagnetismStrafeHeadingMult=0.0\r\nfMagnetismLookingMult=0.0\r\nf1PBoltTiltUpAngle=0.2\r\nf3PBoltTiltUpAngle=0.0\r\n\r\nUpdates:\r\n\r\nIf you have a suggestion for an update feel free to leave a comment so I get ideas on what to add next. Possible future updates will include special enchanted bolts for crafting.\r\n\r\nCompatibility:\r\n\r\nThis mod is not compatible with any mod that makes use of the Nord Hero Arrow since the Spectral Bolt uses that entry. Should work with any other mods, but be sure to let me know if you find a mod that conflicts with this.\r\n\r\nWhat you can do:\r\n\r\nSpread the word of this mod if you like it and be sure to endorse it. I spent around 14 hours on this and those endorsements keeps me motivated to continue working on it. If you can tell the people who do mod videos to check this out and see what its made of I really appreciate it.\r\n",
+  "categoryId": "55",
+  "version": "2",
+  "author": "DigitalMax",
+  "createdUnix": "1350446459",
+  "updatedUnix": "1350721312",
+  "containsAdultContent": false,
+  "uploadedBy": "digitalmax",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "94741",
+      "name": "Dawnguard Bolts Extended",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "46",
+      "fileName": "Dawnguard Bolts Extended-25620-2.rar",
+      "uploadedUnix": "1350721312",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/4546bc32c864243fb53af0d0466d57edfdd545c4ca5204bbb97fc43440f945e0/analysis/1407229562/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dawnguard%20Bolts%20Extended-25620-2.rar?fid=94741&ttl=1535797214&ri=8192&rs=8192&setec=e3371aae70f7c0a3dbbda2da61a8b97f"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 46186.0,
+  "modName": "Destruction Rebalanced",
+  "summary": "Adds a 5-25% damage bonus to mastery perks with optional quality of life changes.",
+  "descriptionHtml": "This is a fairly simple mod designed to give Destruction more umph at later levels and on higher difficulties. It enhances mastery bonuses to increase destruction damage, and includes other quality of life changes. Most similarly existing mods, that I've seen, don't take into consideration that percent bonuses are multiplicative rather than additive, and were made before the Creation Kit which can result in odd problems.\r\n\r\n[u]What It Does[/u]:\r\n1. Novice - Master perks now increase Destruction magic damage by 5% each, for a cumulative 25%. \r\n[b]Note[/b]: this is still multiplicative with the Augment perks. So a Fireball will deal a max damage of 40 * 1.6 * 1.25 or 80 damage.\r\n2. Fire, Frost, and Shock Augment perks have been combined into a singular, 3-point perk. This perk increases all fire, frost, and shock damage by 20/40/60%. \r\n[b]Note[/b]:  this is an optional change. \r\n[b]Note[/b]: Augment perks have always affected item enchantments. I've merely updated the tooltip to reflect this.\r\n3. Dual Casting has had its mana cost multiplier slightly reduced from 2.8 to 2.5. \r\n\r\n\r\n[u]Footnote[/u]:\r\nDepending on the perks you had with existing characters, you may need to add perks via console commands. These commands are:\r\nhelp \"Perk Name\" 4 (ie: help \"Augmented Destruction\" 4)\r\nplayer.addperk perkID (ie: player.addperk 000581E7)\r\n\r\n* player.removeperk perkID\r\n* If you need to remove perks for any reason.\r\n\r\n\r\nMy other mods:\r\n[url=http://skyrim.nexusmods.com/mods/12248/]Enchanting Rebalanced[/url]\r\n[url=http://skyrim.nexusmods.com/mods/12249/]Blacksmithing Rebalanced[/url]\r\n\r\n\r\nPlease let me know of any bugs, spelling or grammatical errors.",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Sicom",
+  "createdUnix": "1383387385",
+  "updatedUnix": "1383387050",
+  "containsAdultContent": false,
+  "uploadedBy": "SicomSix",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000074081",
+      "name": "Destruction Rebalanced Lite",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Destruction Rebalanced Lite-46186-1-0.zip",
+      "uploadedUnix": "1383385682",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2ac058b48c9b60e78e73e73643fd14116059dc40fefafaf7a300ec9a0ce45193/analysis/1407778209/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Destruction%20Rebalanced%20Lite-46186-1-0.zip?fid=1000074081&ttl=1535826517&ri=8192&rs=8192&setec=bf563ee22400a2b3d7bd92258cddec5f"
+    },
+    {
+      "fileId": "1000074092",
+      "name": "Destruction Rebalanced",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Destruction Rebalanced-46186-1-0.zip",
+      "uploadedUnix": "1383387050",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e78cefe2fce9aad056d333404b4617a87fb3802888b6f5dc29f3982059664adf/analysis/1407778212/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Destruction%20Rebalanced-46186-1-0.zip?fid=1000074092&ttl=1535826518&ri=8192&rs=8192&setec=8957f38766dd17ad088237a8cffcba4b"
+    }
+  ]
+}

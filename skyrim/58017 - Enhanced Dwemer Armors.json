@@ -1,0 +1,32 @@
+{
+  "modId": 58017.0,
+  "modName": "Enhanced Dwemer Armors",
+  "summary": "Two small armors I scripted for fun, enjoy.",
+  "descriptionHtml": "Intro\r<br />-In ancient times, the Dwemer were brilliant scientists and craftsmen. Hidden away in the depths of their deepest city in Skyrim are forgotten works of their time, creations of both wonder and danger. Be diligent in your search of their city, and you may just find some of them.\r<br />\r<br />What it is\r<br />-So far, just two armors. No real motivation to make more, but I&#39;m open to suggestions.\r<br />-Armor 1: &#34;Magicka Breaker&#34;, an emergency shield of sorts. This piece is a risky one to use, but it can be a lifesaver: When your health is low, provided you have a little magicka, you gain a 100% spell absorbtion shield, but your magicka drains extremely fast, though the costs cales with alteration. (At 0 skill, all of your magicka, and at 100 alteration, 1 percent per second). (Note: Due to how Skyrim works, you can only have up to either 85 or 95 percent spell absorbtion chance, I forget which.) This barrier can protect you in that last pinch moment, when a mage, or worse yet, a dragon is trying to fry you. (In the dragon&#39;s case, for lunch.)\r<br />-Armor 2: &#34;Ancient Surgeon&#39;s Armor&#34;, this one is less risky, but still draining to use. It scales with the user&#39;s restoration skill, and even takes into account some perks (respite. regeneration, though only on actual healing, not overhealing). Default healing is 5 percent per second, with regeneration 7.5. At 0 restoration, it costs 2 points magicka per health, and at 100, 0.5 points of magicka per health (excluding regeneration.) This armor is efficient, and does not waste magicka on overhealing (you can breathe easy, in the original you had zero magicka at any given time.)\r<br />\r<br />Keep in mind, these armors were designed more for hybrids than pure classes, if you play as a pure -anything- you&#39;ll likely miss out. Magicka is potential...potential is wasted if unused, or used inefficiently.\r<br />\r<br />Installation: copy/paste, as expected, nmm should be able to install this mod fine. No readme is included in the download, as the description here is enough.\r<br />\r<br />Uninstallation:\r<br />enhanceddwemerarmors.esp\r<br />scripts/magiceffectabilities.pex (this adds/removes abilities. I use a shell effect for the enchantments to prevent...quirks.)\r<br />scripts/autohealeffect.pex\r<br />scripts/emergencyshielddrain.pex\r<br />scripts/source/autohealeffect.psc\r<br />scripts/source/emergencyshielddrain.psc\r<br />\r<br />\r<br />I&#39;d love any feedback, comments, suggestions or the like. Just visit the discussions tab&#33;",
+  "categoryId": "75",
+  "version": "1",
+  "author": "EnigmaniteZ",
+  "createdUnix": "1410369110",
+  "updatedUnix": "1410369104",
+  "containsAdultContent": false,
+  "uploadedBy": "EnigmaniteK",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000126312",
+      "name": "EnhancedDwemerArmorsV1",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "EnhancedDwemerArmorsV1-58017-1.zip",
+      "uploadedUnix": "1410369104",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/a1097ca8dd98ed8c391dceaea68a08d3bbf2604528271767a7622188af38feb5/analysis/1410369182/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/EnhancedDwemerArmorsV1-58017-1.zip?fid=1000126312&ttl=1535844344&ri=8192&rs=8192&setec=9999559de714c7dcb302a0f63ed631eb"
+    }
+  ]
+}

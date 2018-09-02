@@ -1,0 +1,32 @@
+{
+  "modId": 79019.0,
+  "modName": "Weapon jitter fix",
+  "summary": "Quick and dirty copy-paste of vanilla animations so you are not forced to sheath your weapon if you want to retain your sanity.",
+  "descriptionHtml": "DISCLAIMER.\r<br />This is not a mod in the true sense of the word.\r<br />\r<br />All I did was copy and rename some vanilla animations. It is not a good mod, but one that is necessary if you play in 3rd person. If there is a better mod around, please inform me of this in the comments section (if possible, never uploaded anything before.\r<br />\r<br />WHAT IT DOES.\r<br />\r<br />Basically skyrim uses an idle animation when just standing around. They are named something like xxx_idle.hkx\r<br />When turning slightly, an animation is played that changes the position of the arms, and makes a turning animation of the legs. These files are usually called xxx_turnleft60.hkx and xxx_turnright60.hkx\r<br />\r<br />The problem is that when a weapon is drawn, the animation will play instantly. So if you are moving your mouse slowly or imperceptably, this will result in a back&#39;n&#39;forth between idle and turn-animation that reminds me more of parkinsons... only far more frustrating to watch.\r<br />\r<br />This &#34;bugg&#34; has stopped me playing this game on multiple occasions since I always want to see my cool armor when playing RPGs.\r<br />\r<br />Since modders have now fixed a lot of the issues I have with skyrim and Bethesda games in general, I felt that it was time to investigate this problem properly. Reason is, no animation mod adresses this problem. Not one&#33; It is beyond me that I am the only one who has this problem. To be honest, I care less about good looking animations, though I would like to have them as well.\r<br />\r<br />My hope is that this file will inform animators that there is a MASSIVE problem with gamebryo 3rd person animations. And that someone with some skills beyond renaming idle-animations can actually create a proper animation package that adresses this issue.\r<br />\r<br />Currently, this file only adresses Great-swords, 1hand swords, sword and shield, dual weild, and bow. There is still a slight twitch because the idle animation is a loop, and turning takes control of the loop of the animation being played. Slow movement restart the animation. However, it is not mind-breaking to watch... in comparison.\r<br />\r<br />If someone creates an animation replacer that fixes this frustration, there is no need to thank me, mention me, or even reference me as &#34;anonymous&#34;. I just want to enjoy a good looking skyrim without the frustration of spazzing out.\r<br />\r<br />Note: since I have not really done anything original, I have no claim to the file. However, when it comes to the question of reuploading the file, there are only two options &#34;No&#34; and &#34;Yes, but credit me as the author&#34;. I would have prefered a simple &#34;Yes&#34;... but alas...\r<br />\r<br />\r<br />SOME FINAL BEGGING.\r<br />Please please please someone fix sneaking twitch, magic twitch, etc.",
+  "categoryId": "51",
+  "version": "",
+  "author": "Everyone",
+  "createdUnix": "1475016913",
+  "updatedUnix": "1475016910",
+  "containsAdultContent": false,
+  "uploadedBy": "IGSpelly",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000222203",
+      "name": "jitterfix",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "106",
+      "fileName": "jitterfix-79019-.rar",
+      "uploadedUnix": "1475016910",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/d25d3ddc848fdf65c1ad97a13ec03cb81780f86946c7ed568b5819d75129a277/analysis/1475016962/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/jitterfix-79019-.rar?fid=1000222203&ttl=1535867712&ri=8192&rs=8192&setec=7792786ea23221c8a2926ac939e50f6b"
+    }
+  ]
+}

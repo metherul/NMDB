@@ -1,0 +1,32 @@
+{
+  "modId": 34181.0,
+  "modName": "Elf Face Fix",
+  "summary": "Some NPC Elves have bug about eye.\r\nThis is fix it.",
+  "descriptionHtml": "Some NPC Elves have bug about eye.\r\nThis is fix it.\r\n\r\n-Why happen this bug?\r\nMy guess is \\\"nif and dds files are discrepancy between develop and launch\\\"\r\nYou can fix it manually if you hope.\r\nJust output face data.\r\n\r\n-How to output NPC face data.\r\nBefore you start, please retreat these files if you have.\r\nData\\\\textures\\\\actors\\\\character\\\\character assets\\\\tintmasks\r\n\r\n1.Select NPC on object window.\r\n2.Push Ctrl key and F4 key.\r\n3.Follow the dialogue.\r\n\r\nWhen done them, please get back tintmasks files.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "alalagi",
+  "createdUnix": "1364732159",
+  "updatedUnix": "1364732093",
+  "containsAdultContent": false,
+  "uploadedBy": "alaken",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000021461",
+      "name": "Elf Face Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1100",
+      "fileName": "Elf Face Fix-34181-1-0.zip",
+      "uploadedUnix": "1364732093",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c2b1e199145f138a456d4b9a866981152ce36c12603b38fe663c3af407633349/analysis/1407497851/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Elf%20Face%20Fix-34181-1-0.zip?fid=1000021461&ttl=1535811815&ri=8192&rs=8192&setec=1bb5a206a70860588acd5c144426ef57"
+    }
+  ]
+}

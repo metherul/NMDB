@@ -1,0 +1,32 @@
+{
+  "modId": 20096.0,
+  "modName": "Whickus Realistic Lighting Vanilla Config",
+  "summary": "My tweaks to Realistic Lighting with Customization based on vanilla lighting.",
+  "descriptionHtml": "Description\r\n==========\r\n\r\nThese are my tweaks to [url=http://skyrim.nexusmods.com/mods/7654]Realistic Lighting with Customization[/url]. It was made using the vanilla option of that mod, so don\\'t expect any fancy weather patterns. It\\'s more like an enhancement of the vanilla lighting. Sunsets and sunrises have a good level of contrast. Saturation and contrast are slightly increased. Ground snow will be bright. Dungeons will be dark, but nights will still have good visibility. This is my preference as my favorite part of an Elder Scrolls/Fallout game is exploring the land, no matter what time of day or night. I know it\\'s unrealistic, but I love being able to spot new landmarks off in the distance with the aurora burning overhead. When nights are super dark, it makes me just want to hit the wait button or sleep through the entire night, making nights pretty much useless to me. If you want darker nights, it should be pretty simple for you to tweak it, thanks to the awesome customizability of Realistic Lighting.\r\n\r\n\r\nThat said, there are three separate mods I use to get this look:\r\n\r\n[url=http://skyrim.nexusmods.com/mods/7654]Realistic Lighting with Customization 3.4a[/url] - Duh. It\\'s the core of the lighting. Choose the vanilla option when installing.\r\n\r\n[url=http://skyrim.nexusmods.com/mods/4323]Realistic Lighting Without Post-Processing[/url] - Yes, you\\'ll also want this old version of Realistic Lighting. Why? The reason is that the vanilla option of Realistic Lighting with Customization can\\'t make dungeons dark enough. I tried and tried tweaking dungeon darkness but surprisingly, it only goes so dark. You\\'ll only need the RL - Interior dungeions.esp file from this mod.\r\n\r\niCCC for Realistic Lighting - This great but subtle enhancement FXAA mod was originally uploaded by [url=http://skyrim.nexusmods.com/users/2547509]TheCompiler[/url], but he has since taken it down. [url=http://skyrim.nexusmods.com/mods/217]FXAA Injector Subtle Realistic Coloring and Sharpen[/url] or [url=http://skyrim.nexusmods.com/mods/2551]A Natural Custom Settings - FXAA Injector[/url] may be good substitutes for this. You\\'re not looking for fancy bells and whistles here, just a slight enhancement. An FXAA is not necessary, but it provides an extra bit of pop and crispness. You could probably achieve a similar affect by very slightly increasing the contrast and/or saturation of Realistic Lighting.\r\n\r\n\r\nInstallation\r\n============\r\n\r\n1. Download and install Realistic Lighting with Customization. Make sure to install the Vanilla option.\r\n2. Copy the RealisticLighting.ini file from my mod to your skyrim/Data folder. Overwrite if asked to do so.\r\n3. Run the Realistic Lighting Patcher.jar file that was installed with Realistic Lighting with Customization. This will create a new Realistic Lighting Patcher.esp file containing my .ini changes.\r\n4. Download and unzip Realistic Lighting Without Post-Processing. Move only the RL - Interior dungeons.esp to your skyrim/Data folder. This will make dungeons nice and dark.\r\n5. Install the FXAA mod of your choice.\r\n6. Adjust your load order so that it looks like this:\r\n\t-Realistic Lighting.esp\r\n\t-Realistic Lighting Patcher.esp\r\n\t-RL - Interior dungeons.esp\r\n7. Start the game and see if you like it!\r\n\r\n\r\nOther mods in the screenshots that I recommend\r\n==============================================\r\n\r\n[url=http://skyrim.nexusmods.com/mods/4910]Dramatic Clouds[/url] - Increases the contrast of clouds\r\n[url=http://skyrim.nexusmods.com/mods/1653]Alternate Sun Glare[/url] - This is the best damn sunglare I\\'ve ever seen. I even use it in Fallout 3 and New Vegas.\r\n[url=http://skyrim.nexusmods.com/mods/4955]83Willows 101BugsHD Butterfly Dragonfly Luna-Moth Torchbug[/url] - Adds quite a few new insects to chase around and pull the wings off of.\r\n[url=http://skyrim.nexusmods.com/mods/6245]improved_LOD_trees[/url] - Gives distant trees details so they don\\'t look like green or yellow blobs anymore.\r\n[url=http://skyrim.nexusmods.com/mods/1598]Enhanced Distant Terrain[/url] - Gives distant terrain a bit more detail so it doesn\\'t look like someone smeared peanut butter on your screen.\r\n[url=http://skyrim.nexusmods.com/mods/3288]Lush Grass[/url] - Makes grass lush.\r\n[url=http://skyrim.nexusmods.com/mods/1111]Pure Waters[/url] - Great water enhancement with no other extras.\r\n[url=http://skyrim.nexusmods.com/mods/607]Skyrim HD - 2K Textures[/url] - Probably everyone knows about this one by now.\r\n[url=http://skyrim.nexusmods.com/mods/141]Skyrim Flora Overhaul[/url] - Highly detailed flora textures.\r\n\r\n\r\nHuge thanks to the team who has spent so many hours creating Realisting Lighting in the first place!",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "whickus",
+  "createdUnix": "1341723218",
+  "updatedUnix": "1341723317",
+  "containsAdultContent": false,
+  "uploadedBy": "whickus",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "72900",
+      "name": "Whickus Realistic Lighting Vanilla Config 1-0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Whickus Realistic Lighting Vanilla Config 1-0-20096-1-0.zip",
+      "uploadedUnix": "1341723317",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/259431c747120169b16379eebe9197038c286f1442eb8b73f9c05fdc40a4014e/analysis/1407009086/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Whickus%20Realistic%20Lighting%20Vanilla%20Config%201-0-20096-1-0.zip?fid=72900&ttl=1535788025&ri=8192&rs=8192&setec=94bbd9e7f055aa5258c020ea614f5a9a"
+    }
+  ]
+}

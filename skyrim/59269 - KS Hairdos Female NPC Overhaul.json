@@ -1,0 +1,48 @@
+{
+  "modId": 59269.0,
+  "modName": "KS Hairdos Female NPC Overhaul",
+  "summary": "This mod replaces almost every female NPC in Skyrim with KS Hairdos. That includes Witches, Bandits, Warlocks and so on. This also does NOT replace hairs on followers, so you can get them from other mods.",
+  "descriptionHtml": "First, I would like to thank the creators of KS Hairdos for an excellent hair mod. This overhaul replaces all the female NPCs with hair from KS Hairdos mod. This includes Witches, Bandits, Warlocks and so on. I did, however, not includes companions from the game. I figured you would like to get separate mods from others to change them. Oh, and also most old ladies, Ysolda and some Elves don&#39;t have the hair from this mod on them. \r<br />\r<br />[b]Requirements -[/b]\r<br />\r<br />[b][url=http://www.nexusmods.com/skyrim/mods/58221/?]KS Hairdos[/url][/b] - http://www.nexusmods.com/skyrim/mods/58221/?\r<br />\r<br />Make sure to get the requirements for that mod to work.\r<br />\r<br />That&#39;s it. Well, aside from this little info ...\r<br />\r<br />If you want the hairs to show up, you might have to do this. I say might because I don&#39;t know if it will work without for others.\r<br />\r<br />Anyways, open up the Skyrim.ini file (Documents&#92;My Games&#92;Skyrim) and at the end of the Archive section add\r<br />\r<br />Skyrim - KS Hairdo&#39;s.bsa\r<br />\r<br />It should look like this ... (sResourceArchiveList=Skyrim - Misc.bsa, Skyrim - Shaders.bsa, Skyrim - Textures.bsa, Skyrim - Interface.bsa, Skyrim - Animations.bsa, Skyrim - Meshes.bsa, Skyrim - Sounds.bsa, [b]Skyrim - KS Hairdo&#39;s.bsa[/b]). \r<br />\r<br />And save.\r<br />\r<br />That BSA file is from the KS Hairdos mod and is needed for this overhaul mod to work. \r<br />\r<br />[b]Installation - [/b]\r<br />\r<br />Just drop the file into your data folder. If it overwrites anything, that means you already have a mod that changes the looks of a NPC. \r<br />\r<br />[b]Un-install - [/b]\r<br />\r<br />Delete everything that date goes from 10/20/2014 to 10/21/2014 in the ...\r<br />\r<br />meshes&#92;actors&#92;character&#92;FaceGenData&#92;FaceGeom&#92;Skyrim.esm\r<br />\r<br />AND\r<br />\r<br />textures&#92;actors&#92;character&#92;FaceGenData&#92;FaceTint&#92;Skyrim.esm\r<br />\r<br />Along with the ksnpcoverhaul.esp file. \r<br />\r<br />[b]Info - [/b]\r<br />\r<br />This is for Skyrim only and none of the DLCs. So you don&#39;t need any of the DLCs for Skyrim to use this mod. I have Hearthfire and Dawnguard but I&#39;ll make separate files for those in the future.\r<br />\r<br />If you get the gray face bug, try to delete everything in this folder (textures&#92;actors&#92;character&#92;FaceGenData&#92;FaceTint&#92;Skyrim.esm) that date starts goes from 10/20/2014 to 10/21/2014. That will hopefully fix the gray face bug. Although, I don&#39;t think you need too. \r<br />\r<br />Any body or face texture is compatible with this mod. \r<br />\r<br />Also, KS Hairdos can run with ApachiiSkyHair, but you only need KS Hairdos for this mod. KS Hairdos are HQ and so it might also affect your performance. But I really didn&#39;t see any hit.\r<br />\r<br />Thanks to Tharbad123 from the forums on telling others of this. That file should be in the KS Hairdos file, so you should have it since you downloaded KS Hairdos first.\r<br />\r<br />Please endorse KS Hairdos for such a beautiful hair mod. \r<br />\r<br />\r<br />Thank you [url=http://www.nexusmods.com/skyrim/users/5134496/]Shocky[/url], [url=http://www.nexusmods.com/skyrim/users/1251063/]Stealthic Khaos[/url] and [url=http://www.nexusmods.com/skyrim/users/4559665/?]Kalilies[/url]. They created KS Hairdos and deserve all the credit for this mod. I just went through boring lines and added the hair to NPCs. I figured they wouldn&#39;t mind since this mod doesn&#39;t have any of their content in it. If they want this file down, they just have to say so. ",
+  "categoryId": "79",
+  "version": "0.2",
+  "author": "frostsmith",
+  "createdUnix": "1413950906",
+  "updatedUnix": "1414250693",
+  "containsAdultContent": false,
+  "uploadedBy": "frostsmith",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000131987",
+      "name": "npchairoverhaul",
+      "version": "0.1",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "245507",
+      "fileName": "ksnpcoverhaul-59269-0-1.rar",
+      "uploadedUnix": "1413950391",
+      "modVersion": "0.1",
+      "virusScanUrl": null,
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ksnpcoverhaul-59269-0-1.rar?fid=1000131987&ttl=1535846393&ri=8192&rs=8192&setec=86c84bb0a7d83b250fe5dd7ad7583ae1"
+    },
+    {
+      "fileId": "1000132489",
+      "name": "npchairoverhaul",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "219360",
+      "fileName": "npchairoverhaul-59269-0-2.rar",
+      "uploadedUnix": "1414250693",
+      "modVersion": "0.2",
+      "virusScanUrl": null,
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/npchairoverhaul-59269-0-2.rar?fid=1000132489&ttl=1535846394&ri=8192&rs=8192&setec=e71e88c9b83f4dfdf0b8a1397fce7de5"
+    }
+  ]
+}

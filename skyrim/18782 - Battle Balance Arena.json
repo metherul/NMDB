@@ -1,0 +1,48 @@
+{
+  "modId": 18782.0,
+  "modName": "Battle Balance Arena",
+  "summary": "Adds a cell where you can pit NPCs against one another in combat to test combat balance.",
+  "descriptionHtml": "Battle Balance Arena adds an interior cell called \\\"bba\\\" that you use to pit NPCs against each other in combat. You setup the matches and control them using spells, which is a lot quicker than using the console.\r\n\r\n[b][u]Use this mod if:[/u][/b]\r\n[list]\r\n[*]You want to test combat balance in vanilla.\r\n[*]You want to test the impact of changes made by your mod on NPCs in combat.\r\n[*]You just like watching NPCS kill each other (you get to see all the finishers :) ).\r\n[/list]\r\n\r\n[b][u]Instructions:[/u][/b]\r\n1. Start the game and open the console in the main menu. Type \\\"coc bba\\\" to teleport directly into the arena.\r\n2. Crouch to make sure your presence does not alter the behavior of the AI. You\\'ll also notice that the mod adds the \\\"Quiet Casting\\\" perk for this same reason.\r\n3. Hotkey the spells that start with \\\"BBA\\\". They are all in the Alteration tab.\r\n4. Use the spells to manipulate the matchup and start/stop the battles.\r\n\r\n[b][u]The spells:[/u][/b]\r\n[list]\r\n[*]Bolster left/right team - Increase the number of NPCs on either the left ot right by 1, up to a maximum of 10.\r\n[*]Reset team counts - Resets the number of NPCs on both sides to 1 each.\r\n[*]Choose left/right team - Cycle through available archetypes for each teams (choices listed below).\r\n[*]Choose rank - Choose whether the NPCs are of level 1 (Rookie), level 26 (Veteran) or level 51 (Master).\r\n[*]Spawn contestants - Start the battle! This also applies Invisibility and Muffle on you.\r\n[*]Remove contestants - Deletes all of the NPCs. If you use Spawn contestants without calling this, it will be called automatically.\r\n[*]Force combat - In one matchup, Knights vs. Spellswords the AI went trololo on me and refused to fight. Using this spell bypasses that behavior by forcing combat on the AI. It is generally advised that you use Spawn contestants instead, though.\r\n[/list]\r\n\r\n[b][u]The archetypes:[/u][/b]\r\n[list]\r\n[*][b]Knights[/b] - heavily armored shield and mace fighters.\r\n[*][b]Barbarians[/b] - heavily armored two-handed battleaxe fighters.\r\n[*][b]Berserkers[/b] - heavily armored dual-wielding swordfighters.\r\n[*][b]Archers[/b] - lightly armed archers. They also have a dagger for when forced into melee.\r\n[*][b]Mages[/b] - stereotypical Skyrim mage that uses Frost magic, magic armor and wards.\r\n[*][b]Spellswords[/b] - wields a fire spell in one hand and a sword in the other, and is heavily armored.\r\n[*][b]Nemesis[/b] - two-hander wielding Draugr bosses.\r\n[/list]\r\n\r\nI used this mod to run a series of tests whose results are outlined [url=http://forums.bethsoft.com/topic/1383561-i-have-some-actual-data-on-combat-balance]here[/url]\r\n\r\nIf you want to run tests using different ranks or npcs, I\\'ve included the script source code in a sperate download as a convenience.",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "Eps01",
+  "createdUnix": "1339706598",
+  "updatedUnix": "1339706714",
+  "containsAdultContent": false,
+  "uploadedBy": "Eps01",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "68013",
+      "name": "Battle Balance Arena",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "26",
+      "fileName": "Battle Balance Arena-18782-1-0.zip",
+      "uploadedUnix": "1339706660",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ec81f19cf5a68251b9997a83d8ea35ecc260ba7187fa018040e10323ebb52a52/analysis/1406959325/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Battle%20Balance%20Arena-18782-1-0.zip?fid=68013&ttl=1535785836&ri=8192&rs=8192&setec=bd5ffde45a9eb178b14204f8c531ab7f"
+    },
+    {
+      "fileId": "68014",
+      "name": "Script source code",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Script source code-18782-1-0.zip",
+      "uploadedUnix": "1339706714",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3e4f47cc06ae0a3bcc8c2becad9251412bf51968ca70f91e54ae577cfdddfd68/analysis/1406959382/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Script%20source%20code-18782-1-0.zip?fid=68014&ttl=1535785837&ri=8192&rs=8192&setec=2f1c778cb87a8ba384d6a7b27e466778"
+    }
+  ]
+}

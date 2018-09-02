@@ -1,0 +1,32 @@
+{
+  "modId": 11440.0,
+  "modName": "High Hrothgar with Just In Time Lighting",
+  "summary": "A fully functioning High Hrothgar cell with 15 shadow casting lights.  In vanilla, there are only two.",
+  "descriptionHtml": "Requires:  Just In Time Lighting v1.12 (or newer).\r\n\r\nJust In Time Lighting Dynamic Scripts and Tutorial: http://skyrim.nexusmods.com/downloads/file.php?id=10361\r\n\r\n\r\nThis is a fully functioning mod, featuring High Hrothgar with 15 shadow-casting lights.  \r\n\r\nI made this as an example of how to use my scripts to directly control lights, allowing modders to sidestep the engine\\'s light limit.\r\n\r\n\r\nBut, again, it\\'s fully functional.  So, I released it as a separate mod.\r\n\r\n\r\nAll changes are limited to the High Hrothgar cell, except for one minor change:\r\n\r\nI modified the color of light emitted from the non-shadow casting defaultTorch_Fast so that it now matches the color of its shadow casting version.   In vanilla, they are slightly different for no reason.\r\n\r\n\r\nYou shouldn\\'t notice any performance hit.  I made sure that there is no triple-light-overlap in the cell.  But, if your computer already struggles with in High Hrothgar (unlikely), then this will obviously make it run worse.\r\n\r\nI have no problems running this cell on my PC that I built for myself in December of 2008.",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "Daemonjax",
+  "createdUnix": "1330340787",
+  "updatedUnix": "1330340956",
+  "containsAdultContent": false,
+  "uploadedBy": "Daemonjax",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "37514",
+      "name": "High Hrothgar using JIT Lighting",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "High Hrothgar using JIT Lighting-11440.7z",
+      "uploadedUnix": "1330340956",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ec04e01cb808387b6bbe34a7a4ae5085f5b1cabcc630159276bb3548d9ab6470/analysis/1406720583/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/High%20Hrothgar%20using%20JIT%20Lighting-11440.7z?fid=37514&ttl=1535772603&ri=8192&rs=8192&setec=16bda05ef1eedd8ef6a4baea220e7e7e"
+    }
+  ]
+}

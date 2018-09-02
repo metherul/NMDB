@@ -1,0 +1,48 @@
+{
+  "modId": 41905.0,
+  "modName": "ENB Vibrance Effect",
+  "summary": "Port of SweetFX's Vibrance effect for ENBSeries",
+  "descriptionHtml": "[b]NOTICE: [/b]I am no longer supporting or maintaining mods for Legendary Edition. As such, this mod is now formally unsupported and unmaintained.\n<br />\n<br />A sadly necessary bit of boilerplate. The Nexus is the only legitimate location where you should find this mod. If you find it in any other location, particularly if that location has required you to pay to be able to download the mod, be aware that someone who isn't me is providing unauthorised (that is, pirated) and unsupported goods and you should avoid them. It might be nice to tell me about it too :)\n<br />\n<br />This is a port of SweetFX's Vibrance effect, translated into an effect.txt file which can be dropped into an ENBSeries deployment. I did this because it was the only feature of SweetFX I used and I wanted to simplify my ENB setup. It is very very rough-and-ready and unconfigurable (unless you modify the file itself, of course).\n<br />\n<br />This is provided as-is and for interest's sake only. I'm not going to provide support (mainly because I barely know what I'm doing with this stuff ...) Feedback is welcome, of course. Because I'm not willing to provide support, feel free to take it and do what you will with it. Some sort of acknowledgement would be nice if you make use of it, both of me and the Vibrance effect's original author, Christian Cann Schuldt Jensen.\n<br />\n<br />I'm going to assume that only those who know how to play with ENB effect shader files will be wanting to download this, and they will know what to do with it. Good luck.\n<br />\n<br />Small update: The degree of vibrance is now a tweakable parameter in the ENBSeries UI, called Vibrancy in the EFFECT.TXT section. Default value is 0.15, it can be set between -10.0 and 10.0 in 0.05 steps. ENBSeries 0.217 or later is required for this update.",
+  "categoryId": "62",
+  "version": "1.1",
+  "author": "Winterlove",
+  "createdUnix": "1378745081",
+  "updatedUnix": "1378793635",
+  "containsAdultContent": false,
+  "uploadedBy": "winterlove",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000053498",
+      "name": "ENB Vibrance Effect",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "ENB Vibrance Effect-41905-1-0.7z",
+      "uploadedUnix": "1378745065",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0a50c9364e0caa55857302e8650e2ccaaed10b47d34a70c91900d5cdf5fcfafb/analysis/1407716646/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENB%20Vibrance%20Effect-41905-1-0.7z?fid=1000053498&ttl=1535822779&ri=8192&rs=8192&setec=60e52df659ca446f872af79e461acd4e"
+    },
+    {
+      "fileId": "1000053624",
+      "name": "ENB Vibrance Effect",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "ENB Vibrance Effect-41905-1-1.7z",
+      "uploadedUnix": "1378793635",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/9c2bec70bb63e95ebeb48d377a57f81662d5351fd886850f3234028fe6e08e7e/analysis/1407717187/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENB%20Vibrance%20Effect-41905-1-1.7z?fid=1000053624&ttl=1535822779&ri=8192&rs=8192&setec=8db2b35b3953f4b2544d571eead3ccf8"
+    }
+  ]
+}

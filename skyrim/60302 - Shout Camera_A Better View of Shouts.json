@@ -1,0 +1,32 @@
+{
+  "modId": 60302.0,
+  "modName": "Shout Camera_A Better View of Shouts",
+  "summary": "Provides a better view of shouts",
+  "descriptionHtml": "When I play Skyrim, I found two things that I don&#39;t like: the magnitude of mouth movement while shouting is too small, there is no kill camera associated with shouts. This mod is my first try to improve. So there are two objectives\r<br />1: make mouth movement more siginificant\r<br />2: give shouts something that looks like kill camera\r<br />\r<br />To accomplish the first objective, I use SetPhoneme function provided by [url=http://www.nexusmods.com/skyrim/mods/44596]Mfg Console[/url], so you need to install this first if you want to use my mod.\r<br />As for the second one, I need a way to freely locate and rotate the camera in script. I noticed there are Camera Path and CameraShot objects in CK, but I don&#39;t know how to use them in Papyrus. So I created an invisible observer actor and Game.SetCameraTarget it when BeginCastVoice event occurs.\r<br />PSC file is provided so you can adjust it to your preferences.\r<br />\r<br />How to activate:\r<br />type &#34;help 000ShoutInspect&#34; in console to get the Form ID of the ability spell, and use player.addspell to add it to the player character.\r<br />The probability of the event that the camera switch is triggered is controlled by global variable &#34;KillMoveRandom&#34;\r<br />\r<br />The final result:[youtube]cI5NsGvdBFY[/youtube]\r<br />\r<br />Known Issues:\r<br />Noticable delay when frame rate is low(e.g. exterior with many grasses) and when only one word of power is used for shouting.\r<br />The option to talk to the invisible observer actor may be shown, and I don&#39;t know how to get rid of this.\r<br />Some mods(e.g. The Joy of Perspective) may affect the camera location when the camera is targeted to something other than player character. I assume that the camera is located at the bottom(feet) of the observer. If you think the camera is too low/high, just make some change to the script.",
+  "categoryId": "104",
+  "version": "0.0.1",
+  "author": "DEFAULT",
+  "createdUnix": "1417059647",
+  "updatedUnix": "1417059156",
+  "containsAdultContent": false,
+  "uploadedBy": "fxxkoff",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000136887",
+      "name": "shoutobs.zip",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "shoutobs.zip-60302-.zip",
+      "uploadedUnix": "1417059156",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/9c2422d4716c1bd450b7886c88dfea8a940c121334ddbc476023f56593fc204b/analysis/1417059243/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/shoutobs.zip-60302-.zip?fid=1000136887&ttl=1535848013&ri=8192&rs=8192&setec=b285620b3cf74b5cfc4ab1da2ab3fa64"
+    }
+  ]
+}

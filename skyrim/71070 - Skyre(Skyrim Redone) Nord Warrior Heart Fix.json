@@ -1,0 +1,32 @@
+{
+  "modId": 71070.0,
+  "modName": "Skyre(Skyrim Redone) Nord Warrior Heart Fix",
+  "summary": "To make Skyrim Redone Nord Warrior Heart work properly.\r<br />only when you use Skyre_Races.esp + Skyre_combat.esp together.\r<br />\r<br />",
+  "descriptionHtml": "*beware THIS MODULE is originally from Skyrim Redone & Unofficial Skyrim Redone Patch\r<br />   you can get USKRP link down below\r<br />   http://www.nexusmods.com/skyrim/mods/48629/\r<br />\r<br />*If you don&#39;t use both skyre_races.esp and Skyre_combat.esp, you don&#39;t need this fix at all.\r<br />\r<br />\r<br />Since Skyre_Races.esp and Skyre_combat.esp conflict when you play a &#34;Nord&#34; Character\r<br />Skyre_combat module&#39;s combat modification has a perk that reduce player&#39;s dealing damage when his or her Health gets lower,\r<br />But Skyre_Races Nord Racial trait &#34;Warrior Heart&#34; conflict with that skyre_combat perk.\r<br />So this is a simple fix for that conflict and now you get Warrior heart work properly.\r<br />\r<br />This fix changes master list of skyre_combat.esp,\r<br /> so Skyre_races.esp go upper load order before skyre_combat.esp.\r<br />(if you arrange your mod order manually, you should change mod order as I said before)",
+  "categoryId": "95",
+  "version": "1",
+  "author": "Nobody",
+  "createdUnix": "1446403502",
+  "updatedUnix": "1446405357",
+  "containsAdultContent": false,
+  "uploadedBy": "painism",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000183388",
+      "name": "Nord Warrior Heart Fix for Skyre",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "73",
+      "fileName": "Nord Warrior Heart Fix for Skyre-71070-1.7z",
+      "uploadedUnix": "1446405357",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/9343dd4dc8ed0761c34ad9abf827028932cad0e04e177ed257e5d8baf782abec/analysis/1446405845/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Nord%20Warrior%20Heart%20Fix%20for%20Skyre-71070-1.7z?fid=1000183388&ttl=1535859572&ri=8192&rs=8192&setec=c2b5a09afd8ff2c13171edbcd472126a"
+    }
+  ]
+}

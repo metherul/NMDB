@@ -1,0 +1,32 @@
+{
+  "modId": 8277.0,
+  "modName": "Extra Effect Perk-Additional Rank",
+  "summary": "This simply adds another rank to the \\\"Extra Effect\\\" perk that allows 3 enchantments on an item.",
+  "descriptionHtml": "This simply adds another rank to the \\\"Extra Effect\\\" perk that allows 3 enchantments on an item.\r\n\r\nThis mod was made because I used to use FluxMod-Artifact Effect, but it was an .ESM file, and unfortunately it force loads first, and therefore .ESP files that also modify perks would conflict and cancel out that mod. So here is a fix for that!\r\n\r\nJust make sure this mod loads last and you should have 0 conflicts.\r\n\r\nI was trying to also have the perk modify the amount of charges to be about x2 what the base charges would be, so that having weapons with 3 effects would have a bit more charges. Unfortunately after tinkering around I was unable to find a way without also increasing the power of the effects as well, and I did not want to do that.\r\n\r\nLet me know if you have any issues. I probably will never update this unless there is a bug I did not find.",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "thedemoninside",
+  "createdUnix": "1328722299",
+  "updatedUnix": "1328722619",
+  "containsAdultContent": false,
+  "uploadedBy": "thedemoninside",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "27194",
+      "name": "EnchantThreeEffects",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "EnchantThreeEffects-8277-1-0.rar",
+      "uploadedUnix": "1328722619",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7cd0a893c9f4d9c0a142054a98f97a3167782f2547ce0d62a71694214af44789/analysis/1406661433/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/EnchantThreeEffects-8277-1-0.rar?fid=27194&ttl=1535766851&ri=8192&rs=8192&setec=03ac8c6bf604dd260491ef29761bad01"
+    }
+  ]
+}

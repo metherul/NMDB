@@ -1,0 +1,48 @@
+{
+  "modId": 50217.0,
+  "modName": "Bandolier - UNPB UNP Fix and CBBE",
+  "summary": "Changes the meshes of the Bandolier mod by Dragten to be compatible with the UNPB body.  Also a good fit for the CBBE body.",
+  "descriptionHtml": "This mod is a conversion of Dragten&#39;s Bandolier mod to fit the UNPB body.  The modifications were made based on a character with the standard UNPB body wearing the West Wind Assault armor.  \r<br />\r<br />The bandoliers and pouches will fit fairly close to the body.  Please bear in mind this may not be a perfect fit depending on what armor your character is wearing.  I will likely upload an alternate version at some point to account for bulkier armor.\r<br />\r<br />[b]* I have received feedback that this mod is a good fit for the CBBE and regular UNP body as well.[/b]\r<br />\r<br />[u]Installation[/u]\r<br />\r<br />You must install the original Bandoliers mod first.  This patch will not work without it.  Install this patch using NMM and overwrite files when prompted.  If you are installing manually, simply unzip the .rar file and copy over the meshes to their appropriate folder.\r<br />\r<br />*IMPORTANT - If you wish to use the Dawnguard items (notebook & flask) you must install the original &#39;Bandolier - Dawnguard&#39; mod first.  This mod requires the official Dawnguard DLC and will not work without it.\r<br />\r<br />If you install the Dawnguard patch after the original patch with NMM, please choose &#39;No&#39; if asked to upgrade.  This will install the mod normally.\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/16438/?]Bandolier Bags and Pouches original mod[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/22119/?]Bandolier - Dawnguard original mod[/url]\r<br />\r<br />\r<br />[u]ISSUES / CLIPPING[/u]\r<br />\r<br />These modifications were made using Nifskope.  I am only familiar with basic manipulation of meshes such as resizing and positioning.  You will see some clipping issues when using the bandoliers especially if you have a character with larger breasts.  This is unavoidable without using a more complicated program.  If you wish to disguise the gap between the bandolier and your character&#39;s back, I would recommend using a mod that provides backpacks such as Frostfall.\r<br />\r<br />*The large bandolier (5 pouches, no shoulderpad)  will not fit on characters less than about 80 weight.  For some reason, the zero weight version of the mesh is not retaining the fixes I have made.  If anyone can help with this or perhaps even fix it, please get in contact with me.\r<br />\r<br />[color=orange][b]*I would appreciate feedback from anyone using this patch with different body types.  If it is a good fit, I may change the description to state that it is compatible.[/b][/color]\r<br />\r<br />[u]Credits[/u]\r<br />\r<br />Original mod created by Dragten.",
+  "categoryId": "60",
+  "version": "1.0",
+  "author": "Thicketford",
+  "createdUnix": "1390408815",
+  "updatedUnix": "1390407347",
+  "containsAdultContent": false,
+  "uploadedBy": "Thicketford",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000092742",
+      "name": "Bandolier UNPB Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1092",
+      "fileName": "Bandolier UNPB Fix-50217-1-0.rar",
+      "uploadedUnix": "1390407231",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c0d8fd67859df965823963bc74db001bf71b2baf1e6d8b3716b07da236a4903e/analysis/1407897169/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bandolier%20UNPB%20Fix-50217-1-0.rar?fid=1000092742&ttl=1535831784&ri=8192&rs=8192&setec=beb20be22005c5e4e65a729b3b923448"
+    },
+    {
+      "fileId": "1000092743",
+      "name": "Bandolier UNPB Fix - Dawnguard Items",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "24",
+      "fileName": "Bandolier UNPB Fix - Dawnguard Items-50217-1-0.rar",
+      "uploadedUnix": "1390407347",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5c77ee04ebc634b6a67c99a5b0d26d7c3f27fc7028730fa1df2198e5292fb3f2/analysis/1407897170/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bandolier%20UNPB%20Fix%20-%20Dawnguard%20Items-50217-1-0.rar?fid=1000092743&ttl=1535831785&ri=8192&rs=8192&setec=3d25b83514cd798e857115ac82959bd0"
+    }
+  ]
+}

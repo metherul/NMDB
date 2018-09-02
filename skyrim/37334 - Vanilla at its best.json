@@ -1,0 +1,48 @@
+{
+  "modId": 37334.0,
+  "modName": "Vanilla at its best",
+  "summary": "For those who don&#39;t need ENB, RCRN etc. and still think original Skyrim artistic choices are very good.\r<br />It&#39;s just a fine-tuning of the game prefs, no hacks, to gain the best vanilla graphics settings and RGBs.\r<br />This is for purists of the original game.",
+  "descriptionHtml": "...by request of some friends....\r<br />\r<br />N.B. This is not a gfx mod using dll, new shaders, 3rd party injection tools etc.\r<br />\r<br />I&#39;ve always thought ENB and RCRN are very good (and may decrease your FPS -1 to -10)... but what about vanilla graphics? Do you really think talented professional artists in Bethesda would have done a dull and washed out graphics on purpose with so bad imagespaces? Or it&#39;s just a matter of tuning the standard settings?\r<br />\r<br />[youtube]gI5-GZkKBDQ[/youtube] [youtube]Xm54y82tUBY[/youtube]\r<br />\r<br />I don&#39;t think they were inexpert... so here are my settings where I slightly changed just RGB and Gamma for a much better graphics final rendering, quite different from standard settings... at least that&#39;s what people say when they see my screenshots and I have to prove them I&#39;m not using gfx mods&#33; ;) Vanilla game, no extra mods, no FPS hits.\r<br />\r<br />[size=3]This is not strictly speaking a graphic mod, just some INI configurations that will make the vanilla game better without FPS loss and respecting original graphic artists excellent work. Consider it just a fine-tuning with surprising effects... for purists of the original game who like details lost with 3rd party video filters.\r<br />[b]Take a look at the Images section, now&#33;[/b][/size]\r<br />\r<br />This is to contradict those saying the typical things about Skyrim non-heavily-modded* graphics:\r<br />- washed out and destaturated colors\r<br />- bad lights\r<br />- too clear nights\r<br />...\r<br />consider also that the original game weather conditions/hour may alter a lot the lights, color shift (e.g. blue and gray tones to represent cold fresh mornings) and saturation... and the same location may vary a lot in different day conditions.\r<br />Remember also to FORCE video driver settings with Anisotropic Filter x8+ which gives much more detailed textures than software settings from within the game&#33;\r<br />\r<br />*\r<br />no ENB, RCRN, Climates of Tamriel, injected filters, super-hi-res texture HD packs, no body/skin/grass/rocks/clutters texture overhauls etc.\r<br />\r<br />Manual installation:\r<br />Just edit my Skyrim.ini and SkyrimPrefs.ini in your Documents/My Games/Skyrim directory to readapt them to your graphics card (SkyrimPrefs.ini, [GENERAL], sD3DDevice=&#34;&lt;your gfx card here&gt;&#34;) and your own language (Skyrim.ini, [GENERAL], sLanguage=&lt;your language&gt;).\r<br />And remember to force from your gfx card driver panel AFx8+ (Anisotropic filtering). This is very important for improved definition with sloped textures on small/long distance. AF game settings are not enough for best quality. You have to force anisotropic filtering from your nVidia/AMD control panel.\r<br />\r<br />[u]PLEASE, remember to backup your current INIs before trying these ones&#33;[/u]\r<br />\r<br />Compatible with any mod of any kind.\r<br />\r<br />Some additional recommended (not required for the purpose of this mod) small gfx mods:\r<br />[url=http://skyrim.nexusmods.com/mods/6319]Improved torches[/url]\r<br />[url=http://skyrim.nexusmods.com/mods/12866]Skyrim Distant Detail[/url]\r<br />[url=http://skyrim.nexusmods.com/mods/1095]Alternate HQ Water Texture Mod[/url]\r<br />Some textures from [url=http://skyrim.nexusmods.com/mods/13268/?]WATER - Water And Terrain Enhancement Redux[/url]\r<br />[url=http://skyrim.nexusmods.com/mods/3227]Younger Females - Realistic young female faces[/url]\r<br />[url=http://skyrim.nexusmods.com/mods/4307]AOF Believable Hair -Female and Male-[/url]\r<br />[url=http://skyrim.nexusmods.com/mods/6161]Better distant LOD waterfalls[/url]\r<br />[url=http://skyrim.nexusmods.com/mods/25666]Rainbows[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/1095]Alternate HQ Water Texture Mod[/url]\r<br />Bethesda&#39;s original HD Texture Packs (free DLC) + [url=http://skyrim.nexusmods.com/mods/31255]Unofficial High Resolution Patch[/url]\r<br />\r<br />You can find (much) more of my pics at [url=http://snipurl.com/hexscreens]http://snipurl.com/hexscreens[/url]\r<br />ALL sshots are taken without HD texture packs, grass/sky/rocks/clutters etc. overhauls. Just std textures. Nothing more than original game graphics with the official HD Texture Packs, and my special INI settings of course...\r<br />\r<br />\r<br />\r<br />Do you still need to transform original graphics into [i]FinalFantasy Crysis California Skyrim[/i]? ;)",
+  "categoryId": "62",
+  "version": "2.0",
+  "author": "Hexaae",
+  "createdUnix": "1371559812",
+  "updatedUnix": "1423506927",
+  "containsAdultContent": false,
+  "uploadedBy": "rolloLG",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000034764",
+      "name": "INI settings",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "INI settings-37334-1-0.zip",
+      "uploadedUnix": "1371553247",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/57ccadb831692bae811c53b03d0b008cc43f6c28216218ee2e253d083f45568a/analysis/1407608169/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/INI%20settings-37334-1-0.zip?fid=1000034764&ttl=1535816956&ri=8192&rs=8192&setec=3f0ddb03a2a18875a058dc3cc8843f80"
+    },
+    {
+      "fileId": "1000146807",
+      "name": "INI",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "INI-37334-2-0.zip",
+      "uploadedUnix": "1423506927",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/319115c36ff0930ef93264b3caec8e2af9840b3580ef3eb4cdbaba0699e844ce/analysis/1423506963/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/INI-37334-2-0.zip?fid=1000146807&ttl=1535816956&ri=8192&rs=8192&setec=57e1a0401b39d3a66d004a161b369bc2"
+    }
+  ]
+}

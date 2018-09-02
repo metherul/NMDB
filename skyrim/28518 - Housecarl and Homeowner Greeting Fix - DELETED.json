@@ -1,0 +1,32 @@
+{
+  "modId": 28518.0,
+  "modName": "Housecarl and Homeowner Greeting Fix - DELETED",
+  "summary": "Fixes the conditions on dialogue spoken by NPCs when the player enters their houses.",
+  "descriptionHtml": "I got tired of my housecarl asking me \\\"Are you lost?\\\" or saying \\\"I hope you\\'re not planning any trouble\\\" every time I entered one of my houses.  This mod corrects the conditions on the dialogue that NPCs speak when the player enters a residence, whether the residence is owned by the player or by an NPC.  Specifically:\r\n\r\n- Housecarls won\\'t say anything at all when the player enters their house.\r\n- NPCs who are friendly (relationship rank >= 1) will express happiness to see the player again.\r\n- NPCs who are acquaintances or enemies (relationship rank < 1) will continue to ask \\\"Are you lost?\\\" etc.\r\n\r\nDetails: Looking at the dialogue in the CS, the vanilla behavior is obviously unintentional and a bug.  The conditions on the \\\"friendly\\\" dialogue lines can never be met, and the \\\"unfriendly\\\" dialogue has no conditions at all.  The net result is that NPCs will always default to the \\\"unfriendly\\\" dialogue, regardless of their relationship with the player.  This mod corrects the conditions so that the proper dialogue occurs based on relationship rank.  It also adds a condition that excludes members of the Housecarl faction from speaking the friendly dialogue, since it didn\\'t seem appropriate to me to have a Housecarl greet the player so informally.\r\n\r\nCompatibility: The only possible conflict is if another mod changes one of the six Homeowner dialogue lines in the WIGreeting quest.  Note that the Unofficial Skyrim Patch has a different fix that prevents NPCs from issuing these greetings if the cell is owned by the player; however, that does not address the problem with greetings when the player enters someone else\\'s house.  In any event, the two mods do not conflict at all since they modify different records.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "InAComaDial999",
+  "createdUnix": "1355826151",
+  "updatedUnix": "1355826214",
+  "containsAdultContent": false,
+  "uploadedBy": "InAComaDial999",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "105956",
+      "name": "Housecarl Greeting Fix",
+      "version": "1.0",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Housecarl Greeting Fix-28518-1-0.zip",
+      "uploadedUnix": "1355826214",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3096683e32ed9fbb9c3dcf6c0ef170424ed52b5d5672e97a96d569c49b51a567/analysis/1407310445/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Housecarl%20Greeting%20Fix-28518-1-0.zip?fid=105956&ttl=1535801946&ri=8192&rs=8192&setec=018afab7bf8bd141995e0e56a236c882"
+    }
+  ]
+}

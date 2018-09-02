@@ -1,0 +1,48 @@
+{
+  "modId": 10896.0,
+  "modName": "LodFileGenerator",
+  "summary": "This tool is for those of you who are having problems creating the .lod file using the Creation kit. \r\nIt is a simple command based program that can make a .lod file for Skyrim worldspaces without the use of a hex editor. \r\nThis file is needed in addition to the meshes and textures that make up the LODs to show in the game. ",
+  "descriptionHtml": "This tool is for those of you who are having problems creating the .lod file using the Creation kit. \r\nIt is a simple command based program that can make a .lod file for Skyrim worldspaces without the use of a hex editor. \r\nThis file is needed in addition to the meshes and textures that make up the LODs to show in the game. \r\n\r\nUpdate:\r\nThe new version of Oscape will also make this youworldspace.lod file just fine. \r\n\r\nUsage:\r\n\r\n1. Run LodFileGenerator_v0.02.exe\r\n\r\n2. The program will ask for:\r\n\t1) Name of your worldspace:\r\n\t2) x coordinate of the lower left cell:\r\n\t3) y coordinate of the lower left cell:\r\n\t4) Number of cells in the largest dimension (X or Y axis):\r\n\r\n\tPossible extra question\r\n\t5) Do you want to adjust your given coordinates to a multiple of 4? (Y/N):\r\n\r\n3. Program will close when finished\r\n\r\n4. The program will create a \\\"YourWorldspace\\\".lod file in the same directory as the exe file.\r\nPut the generated .lod file under Skyrim/Data/lodsettings (create this folder if it does not exist)\r\n\r\nExample 1:\r\nA world that starts at (-64,-64) in the lower left corner and ends at (63,63) has a width of 128 cells.\r\nThe name of the worldspace is \\\"test1\\\".\r\nFor this worldspace answer:\r\n1) test1\r\n2) -64\r\n3) -64\r\n4) 128\r\n\r\nExample 2:\r\nA world that starts at (-29,-29) in the lower left corner and ends at (2,2) has a width of 32 cells.\r\nThe name of the worldspace is \\\"test2\\\".\r\nFor this worldspace answer:\r\n1) test2\r\n2) -29\r\n3) -29\r\n4) 32\r\n\r\nCheck yor mesh files (.btr) or texture files (.dds), they could be differently generated depending on what program was used (for example Oscape or Creation kit).  \r\nIf you have a file called \\\"test2.4.-32.-32.btr\\\" then you should answer \\\"Yes\\\" on question 5, if you have a file called \\\"test2.4.-29.-29.btr\\\" answer \\\"No\\\".\r\n5) Y or N\r\n\r\n\r\nKnow issues: \r\n.lodFileGenerator:\r\n* Typing text instead of numbers for question 2), 3) and 4) will crash program.\r\n\r\nSkyrim:\r\n* Unknown if uneven worldsizes will work",
+  "categoryId": "39",
+  "version": "0.02",
+  "author": "Geggakloss",
+  "createdUnix": "1329980492",
+  "updatedUnix": "1330866702",
+  "containsAdultContent": false,
+  "uploadedBy": "elinen",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "35608",
+      "name": "LodFileGenerator001",
+      "version": "0.01",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "191",
+      "fileName": "LodFileGenerator001-10896.zip",
+      "uploadedUnix": "1329980620",
+      "modVersion": "0.01",
+      "virusScanUrl": "https://www.virustotal.com/file/fe0b55c882a28ded7fd2ec5856fb8849c8b1b11f025eec458d69bd7b3590cbfd/analysis/1406707142/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LodFileGenerator001-10896.zip?fid=35608&ttl=1535771586&ri=8192&rs=8192&setec=d6a0b51eeaffffc72a5d96f44bb3d303"
+    },
+    {
+      "fileId": "39918",
+      "name": "lodFileGeneratorv002",
+      "version": "0.02",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "191",
+      "fileName": "lodFileGeneratorv002-10896.zip",
+      "uploadedUnix": "1330866702",
+      "modVersion": "0.02",
+      "virusScanUrl": "https://www.virustotal.com/file/e9e60d51527ebec196515c946e0319378d43f5ea951c9335f8bd1e8a9577d2e0/analysis/1406729283/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/lodFileGeneratorv002-10896.zip?fid=39918&ttl=1535771586&ri=8192&rs=8192&setec=efdc0301f14dd695aaf45aacf6ba3da0"
+    }
+  ]
+}

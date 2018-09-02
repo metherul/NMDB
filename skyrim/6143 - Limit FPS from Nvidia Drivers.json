@@ -1,0 +1,32 @@
+{
+  "modId": 6143.0,
+  "modName": "Limit FPS from Nvidia Drivers",
+  "summary": "Limit your FPS using a simple tweak? That avoids those chunky plugins? Hell yes!",
+  "descriptionHtml": "Firstly,\r\nTHIS IS ONLY FOR NVIDIA CARDS! AND I ALSO TAKE ABSOLUTELY NO RESPONSIBILITY FOR ANY DAMAGES! IT IS YOUR RESPONSIBILITY AS THE END USER TO JUDGE IF YOU POSSESS THE BASIC SKILLS REQUIRED TO FOLLOW A STEP BY STEP INSTRUCTION GUIDE!\r\n\r\nGood, now just follow the instructions, and there should be no conceivable way for this to go wrong. \r\n\r\nThis is a tweak that enables a hidden FPS limiting function in Nvidia drivers.\r\nI\\'ve tested  this with the latest verde 290.53 beta drivers, so I can\\'t attest to whether or not older driver sets have this feature.\r\nUPDATE:\r\nIt seems to also depend on having the latest beta drivers and the latest Nvidia inspector!\r\n\r\nLike other FPS mods, this tweak aims to provide you with a smoother playing experience, but without the unnecessary file installations, breaking vsync, or breaking OSD programs.\r\n\r\n1) First of all, you will need to download a third party tool called Nvidia Inspector. Use this link: \r\nhttp://forum.avsim.net/topic/358801-nvidia-inspector-version-1959-now-released/ \r\nYou can remove it once you have made the tweak.\r\n2) Open Nvidia Inspector and click on the small, square, button with tools on it to open up the settings editor.\r\n3) If windows asks for admin privileges, click yes.\r\n4) Click the little down arrow to the right of the house shaped button and select \\\"Elder Scrolls 5: Skyrim\\\" from the list\r\n5) Scroll down to the \\\"common\\\" section\r\n6) Click the words \\\"Frame Rate Limiter\\\" to highlight the box\r\n7) Click the drop down box inside the highlighted \\\"Frame Rate Limiter\\\" Field\r\n8) Select the fps you wish to limit your system to (if unsure what to do here, select 30 or 60 FPS)\r\n9) Click the \\\"Apply changes\\\" button in the top right corner to save the changes\r\n10) Close Nvidia Inspector, and if you don\\'t think you\\'ll need it again, delete it.\r\n11a) Congrats, you have now limited your framerate!\r\n11) Download the readme and endorse!\r\n\r\nOTHER NOTES!\r\nWhile most users report stable limiting, others say that it could potentially hurt your FPS. If this is the case, it\\'s Nvidia\\'s feature, so I can\\'t help... sorry.\r\nAlso, if the small home dropdown doesn\\'t have elder scrolls 5 Skyrim in it, Try looking for it in the dropdown box next to profiles.\r\nFinally, the latest leaked drivers (295) do not have a skyrim preset, and therefore would only work for this if you set your FPS limit to global, or through some other work around,\r\nSo far:\r\nLike others have said, the latest version of nvidia inspector and the latest nvidia drivers seem to be a prerequisite. The latest drivers heavily improve your skyrim performance anyway!\r\nIf you still can\\'t see the fps limiter box, try extracting all the inspector files instead of just the exe.",
+  "categoryId": "62",
+  "version": "FINAL2",
+  "author": "chaoko",
+  "createdUnix": "1326525093",
+  "updatedUnix": "1326930649",
+  "containsAdultContent": false,
+  "uploadedBy": "chaoko",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "21014",
+      "name": "Readme",
+      "version": "FINAL2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Readme-6143-FINAL2.zip",
+      "uploadedUnix": "1326930649",
+      "modVersion": "FINAL2",
+      "virusScanUrl": "https://www.virustotal.com/file/50cd05aa058fe77ecf21079d8eaac1d962c7c336becb2857be06f6b0503360be/analysis/1406622012/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Readme-6143-FINAL2.zip?fid=21014&ttl=1535763360&ri=8192&rs=8192&setec=078f50c9b6fc06cb71cb86b237721287"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 22274.0,
+  "modName": "Predator Vision - Vampire Werewolf and Khajiit",
+  "summary": "See clearly in the night, and sense your preys body heat as you close in for the kill.",
+  "descriptionHtml": "[center][YouTube]2drymu6-cFw[/YouTube][/center]\r\n\r\n[color=cyan]Update version 1.3:[/color] \r\n1. Color slider for Nightvision so you can desaturate the Nightvision power.\r\n2. Color slider for Predator VIsion so you can reduce the saturation boost on Predator Vision.\r\n3. Adaptive Nightvision. Nightvision gets weaker and stronger depending on the light levels.\r\n4. Added \\'cheat\\' options for people to add the powers to any character they like.\r\n\r\n[color=cyan]Note to ENB users:[/color] \r\nSome ENB mods can prevent nightvision effects from working. This is a problem that effects vanilla nightvision as well as vision effects from mods such as Predator Vision. If you are using an ENB configuration, you must ensure that UseOriginalPostProcessing\\\" is set to `1 in your enbseries.ini\\\" file.\r\n\r\n[color=cyan]Background:[/color] \r\nVampires are creatures of the night and should see in the dark as well as a human in the day. The default games nightvision is horrible in comparison. It is blurred, monocrome and frankly often makes it harder to see unless stood in extreme darkness.\r\n\r\n[color=cyan]Watch the video:[/color]\r\nThe video above is not a mod review, but a description of what the mod does, how to use it, and how to install. It will almost always be more informative than the text on this page. Please watch any videos I place above here before asking any question. Thanks :)\r\n\r\n[color=cyan]What this mod does:[/color] \r\n1. This mod changes the Vampire Sight lesser power in the following ways:\r\n\r\n   i. When you activate the power to the first step you get a clear nightvision with good contrast, vibrant colors (although still with a slight blue tint) and only a very slight blur around the very edges of you vision.\r\n\r\n   ii. When you activate the power again, it moves to Predator Vision. This allows the vampire to see/sense warm blooded creatures (similar to a thermal imaging) even sensing them through walls if close enough.\r\n\r\n   iii. Activating the power once more goes back to normal vision.\r\n\r\n2. A new power is added: Vampire Nightvision. This power just toggles the new nightvision on and off. If the predator vision is active, it will be deactivated when this power is engaged.\r\n\r\n3. A new power is added: Vampire Predator Vision. This power toggles the new Predator Vision on and off. If the nightvision is active when the Predator Vision is engaged, it will be re-engaged once the Predator Vision is toggled off.\r\n\r\n4. If you have SKSE, you can now activate the nightvision with the \\'n\\' key, and the predator vision with the \\'b\\' key. These can be changed, see below for details.\r\n\r\n5. If you are a werewolf you also get the nightvision and predator vision if you have SKSE installed. This only works in werewolf form.\r\n\r\nThe duration of the power has now been set to 999 days, basically making it permanant until you toggle it off.\r\n\r\n[color=cyan]Changing the keys used to activate:[/color] \r\nWith SkyUI version 3 you can change the keys via the MCM menu. But if you do not have those you can change the keys by going to console and typing:\r\n\r\nset HunterVisionNightvisionKey to X\r\nset HunterVisionThermalVisionKey to X\r\n\r\nWhere X is a numerical scancode. eg. 49 for the \\'n\\' key. For a full list of scancodes click [url=http://fose.silverlock.org/fose_command_doc.html#DirectX_Scancodes]here[/url].\r\n\r\n\r\n[color=cyan]Compatible with:[/color] \r\n[url=http://skyrim.nexusmods.com/mods/9717]Better Vampires by Brehanin 5_4[/url] and [url=http://skyrim.nexusmods.com/mods/17077]Belua Sanguinare Revisited - Dynamic Vampires[/url] but put the \\'Vampire Predator Vision.esp\\' last in your load order.\r\n\r\n[color=cyan]Requirements:[/color] \r\nNone. But you will need SKSE to activate the powers with key presses, which is the only way a werewolf gets these powers. So I guess SKSE is required for werewolves.\r\n\r\n[color=cyan]Installation:[/color] \r\n1. If you have an earlier version installed, uninstall it first!\r\n2. Download and Activate with NMM OR Download manually and extract the files into your Data folder.\r\n3. Make sure it comes after Better Vampires, Belua Sanguinare Revisited (or any other mod altering the Vampire Vision power) in your load order.\r\n\r\n[color=cyan]Future Improvements:[/color] \r\n1. I am considering adding the detection of corpses and undead by adding a sort of vapour trail effect (ie they smell) when in predator mode.\r\n\r\n2. Right now if someone dies, they immediately go cold. I want to get it to fade away (similar to my Thermal Nightvision mod in Fallout3/NV)\r\n\r\n[color=cyan]Known Issues:[/color] \r\n1. When using Predator Vision, anyone hit by a spell (or with a magic weapon) that has a shader effect on the target (which is all spells I think), the body seems to \\'cool down\\'. I am trying to find a solution for this, but right now it makes Predator Vision a little strange whilst in combat.",
+  "categoryId": "24",
+  "version": "1.3",
+  "author": "Gopher",
+  "createdUnix": "1344783091",
+  "updatedUnix": "1364826208",
+  "containsAdultContent": false,
+  "uploadedBy": "Gopher",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000013662",
+      "name": "Predator Vision v 1_2",
+      "version": "1.2",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "25",
+      "fileName": "Predator Vision v 1_2-22274-1-2.rar",
+      "uploadedUnix": "1361983305",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/0d427b3f8df57c9b636de088cca2f742000ca7d4aec5f9b177786363e8683847/analysis/1407442508/",
+      "changelogHtml": " Choice of sounds for activation of Nightvision and Predator Vision including NONE. All sounds have been reduced to be less intrusive. <br/> \n Separate brightness controls for brightness on Nightvision and Predator Vision. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Predator%20Vision%20v%201_2-22274-1-2.rar?fid=1000013662&ttl=1535791719&ri=8192&rs=8192&setec=05dd3bbc762e4e5a3e7b7b697023dc74"
+    },
+    {
+      "fileId": "1000021689",
+      "name": "Predator Vision v 1_3",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "26",
+      "fileName": "Predator Vision v 1_3-22274-1-3.rar",
+      "uploadedUnix": "1364826208",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/3e5e58db2155dc50b0a95a14e0fc8fcabca8d1a85c5d8ea6401dae504975290b/analysis/1407499695/",
+      "changelogHtml": " Color slider for Nightvision so you can desaturate the Nightvision power. <br/> \n Color slider for Predator VIsion so you can reduce the saturation boost on Predator Vision. <br/> \n Adaptive Nightvision. Nightvision gets weaker and stronger depending on the light levels. <br/> \n Added &#39;cheat&#39; options for people to add the powers to any character they like. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Predator%20Vision%20v%201_3-22274-1-3.rar?fid=1000021689&ttl=1535791719&ri=8192&rs=8192&setec=f981088fe9407951ad5ae9aedf6a2459"
+    }
+  ]
+}

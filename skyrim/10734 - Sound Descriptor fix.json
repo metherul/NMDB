@@ -1,0 +1,32 @@
+{
+  "modId": 10734.0,
+  "modName": "Sound Descriptor fix",
+  "summary": "Fix for a strange Sound Bug: If you have a Sound Problem with a changed Menu Event Sound, like a Thunder or Shoot with echo, this may help you. YOU NEED IT -ONLY- IF YOU HAVE A BUG LIKE THIS - - - READ DESCRIPTION !",
+  "descriptionHtml": "After using many Mods and the CK i had a strange Bug inside the Game. \r\n\r\nEvery Time i changed the Weapon, get something from an NPC or at \r\nOnscreen Events there was a thunder sound with echo. Ok, that was very boring.\r\n\r\nSo i\\'ve tried a little bit around with the CK and changed the Volumes of the \r\nSound Descriptors (SD) a little bit to \\\"reset\\\" it (the fix should be loaded at last in \r\nloadorder). \r\n\r\nHow to fix the Problem:\r\n1. Install the SDfix.esp to the Data folder\r\n2. Start the Game.\r\n3. Load a (might be older) Savegame.\r\n4. THE GAME MAY CRASH!!! (use CTRL+ALT+DEL to kill the Task)\r\n5. Go to Data folder.\r\n6. Remove the SDfix.esp\r\n7. Start the Game and play (now with -should be- fixed event sounds).\r\n\r\nThis was working for me very well to fix the Problem, however - what a strange bug.\r\n\r\nhave fun, triplex2011",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "triplex2011",
+  "createdUnix": "1329860917",
+  "updatedUnix": "1329864968",
+  "containsAdultContent": false,
+  "uploadedBy": "triplex2011",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "34994",
+      "name": "SDfix1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "SDfix1-10734-1-0.7z",
+      "uploadedUnix": "1329864968",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/405ac35892e81c85246ccee6f666c5d9e2a5395e41dd483096560b6ed443b056/analysis/1406703004/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SDfix1-10734-1-0.7z?fid=34994&ttl=1535771328&ri=8192&rs=8192&setec=177cd60e9cc0e243b7c9bd14beb2409f"
+    }
+  ]
+}

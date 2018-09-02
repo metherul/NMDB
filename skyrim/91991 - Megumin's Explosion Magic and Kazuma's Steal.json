@@ -1,0 +1,48 @@
+{
+  "modId": 91991.0,
+  "modName": "Megumin's Explosion Magic and Kazuma's Steal",
+  "summary": "current features include : <br />- large explosion etc. <br />- added a new spell called steal ( doesnt steal panties tho atleast not yet )<br />- megumin's chant for the spell <br />- screen blackens after launching the spell for a lil bit<br />- cbf doing any more writing for this part",
+  "descriptionHtml": "Made this in an hour or so, because i felt like it. If it gets enough attention i may decide to mess with papyrus a lil to allow the player to become temporarily paralysed after using this spell as well as add more effects to the spell in general and perhaps even attempt to create the staff in game.\n<br />\n<br />the steal spell currently lasts for 3 seconds by default and fortifies ur pickpocketing a bunch as well as allows you to steal your opponents armor if they cant see you. it also has a unique sound effect with it. \n<br />\n<br />\n<br />current features include : \n<br />- large explosion etc. \n<br />- added a new spell called steal ( doesnt steal panties tho atleast not yet )\n<br />- megumin's chant for the spell \n<br />- screen blackens after launching the spell for a lil bit\n<br />- cbf doing any more writing for this part \n<br />\n<br />To find these spells simply go to the riverwood trader and look on the front counter for both of the spell tomes. \n<br />\n<br />be warned, if i recall correctly the explosion spell without any perks or enchantments etc. will cost something like 300 magicka. Finally stealing it if your not careful will land you a hefty bounty so make sure your sneaky about it.\n<br />\n<br />Finally, dual casting the spell will create a larger and more powerful version of the spell.\n<br />\n<br />In the event you are unable to find the spell tome press the \" ~ \" key on your keyboard to bring up the console, after this write (help \"spell tome: explosion\") without the brackets although you will require the quotation marks, after this look for the id code of the spell tome which should look something like 56000d68 although most likely with a different starting 2 digits and now write player.additem (the id code you just found) 1 and you should be finished. \n<br />\n<br />for the steal spell do the same thing although this time write help steal \n<br />\n<br />So to summarise open the console and in my case write \n<br />help \"spell tome: explosion\"\n<br />player.additem xx000d68 1 ( please note that xx will be 2 digits that will be unique to you to an extent so you will need to look for the item code that you will find using the previous help command )\n<br />\n<br />Skyrim Special Edition version found here [url=https://steamcommunity.com/linkfilter/?url=https://bethesda.net/en/mods/skyrim/mod-detail/4053680]https://bethesda.net/en/mods/skyrim/mod-detail/4053680\n<br />[/url]\n<br />recommended mods : \n<br />megumin's hat : [url=https://www.nexusmods.com/skyrim/mods/91332 ]https://www.nexusmods.com/skyrim/mods/91332 [/url]",
+  "categoryId": "75",
+  "version": "4.1",
+  "author": "Agentcold",
+  "createdUnix": "1529214248",
+  "updatedUnix": "1529851278",
+  "containsAdultContent": false,
+  "uploadedBy": "agentcold",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000275444",
+      "name": "Megumin Explosion v4.0",
+      "version": "V4.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "10099",
+      "fileName": "Megumin Explosion v4.0-91991-V4-0.rar",
+      "uploadedUnix": "1529214198",
+      "modVersion": "V4.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b4d259a75cfc61e67e717a5cb40644c2264469a4cbb7803d9c8754085024422e/analysis/1529214338/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Megumin%20Explosion%20v4.0-91991-V4-0.rar?fid=1000275444&ttl=1535882817&ri=8192&rs=8192&setec=f7534f4a92b03c43bc943e50723c8845"
+    },
+    {
+      "fileId": "1000275994",
+      "name": "Megumin Explosion v4.1",
+      "version": "v4.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9400",
+      "fileName": "Megumin Explosion v4.0-91991-v4-1.rar",
+      "uploadedUnix": "1529851278",
+      "modVersion": "v4.1",
+      "virusScanUrl": "https://www.virustotal.com/file/91fb5290e2ec7604428f3b4007798ad8d5351ab25754f1fe34696e913d2035a7/analysis/1529854176/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Megumin%20Explosion%20v4.0-91991-v4-1.rar?fid=1000275994&ttl=1535882818&ri=8192&rs=8192&setec=a393297c89521741c40c3a2a2a25cde5"
+    }
+  ]
+}

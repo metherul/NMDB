@@ -1,0 +1,32 @@
+{
+  "modId": 12449.0,
+  "modName": "Nokkelen",
+  "summary": "Nøkkelen (weapon type: 1h+2h sword)\r\n\r\nHad to modify it a bit, darker colors so they don\\'t get white when reflecting sunlight\r\nand changes to the texture and runes to save time...time for my RL :D\r\n\r\nInstallation:\r\n\r\nCopy meshes + textures folder & Nokkelen.esp to your Skyrim\\\\data directory.\r\n\r\nThe folder-structure should look like:\r\n... Skyrim\\",
+  "descriptionHtml": "Nøkkelen (weapon type: 1h+2h sword)\r\n\r\nHad to modify it a bit, darker colors so they don\\'t get white when reflecting sunlight\r\nand changes to the texture and runes to save time...time for my RL :D\r\n\r\nInstallation:\r\n\r\nCopy meshes + textures folder & Nokkelen.esp to your Skyrim\\\\data directory.\r\n\r\nThe folder-structure should look like:\r\n... Skyrim\\\\data\\\\meshes\\\\weapons\\\\NOKKELEN\\\\ ALL NIF FILES\r\n... Skyrim\\\\data\\\\textures\\\\weapons\\\\NOKKELEN\\\\ ALL DDS FILES\r\n... Skyrim\\\\data\\\\NOKKELEN.esp\r\n\r\nMake sure that the plugin is activated in launcher => DATA FILES.\r\nThe weapon is placed in the forge-menu along with the dwarven items.\r\n\r\nOR open console (key ^) and enter HELP KKELEN 4\r\nYou get a code, after that enter PLAYER.ADDITEM CODE 1\r\n(1 = amount) - the weapon will be placed in your inventory.\r\n\r\n(Code should look like XX000D63, XX= the load number of the mod, for example PLAYER.ADDITEM 12000D63 1)\r\n\r\nDamage should scale with your skills/lvl and is similar to the Daedric Greatsword, if you want to adjust the dmg open the Creation Kit,\r\nLOAD, check SKYRIM.ESM and NOKKELEN.ESP in the left window, set NOKKELEN.ESP to ACTIVE FILE and\r\npress OK. In the object window check ITEMS and WEAPONS, search for NOKKELEN and open the found form,\r\nadjust the dmg/speed values in this window, press OK and SAVE.\r\n\r\nCredits: \r\n\r\nThanks to Brendan Olszowy for his permission to use his designs \r\nand images, \r\ncheck out his awesome site: www.fableblades.com\r\n\r\ngreetings\r\nGhosu ",
+  "categoryId": "55",
+  "version": "1.0",
+  "author": "Ghosu",
+  "createdUnix": "1331240416",
+  "updatedUnix": "1331392000",
+  "containsAdultContent": false,
+  "uploadedBy": "ghosu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "42009",
+      "name": "Nokkelen",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5295",
+      "fileName": "Nokkelen-12449-1-0.rar",
+      "uploadedUnix": "1331392000",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e4f3bfd4f4e096099422145ffbfaed14bf475119ad77c9163b3fb97e9f878e0d/analysis/1406741709/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Nokkelen-12449-1-0.rar?fid=42009&ttl=1535774363&ri=8192&rs=8192&setec=9f170bb4ac13dc470bd270b34ea8cdc5"
+    }
+  ]
+}

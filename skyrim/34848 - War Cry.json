@@ -1,0 +1,32 @@
+{
+  "modId": 34848.0,
+  "modName": "War Cry",
+  "summary": "Adds a voice-equipped spell that gives the Player combat capabilities based on the vanilla perks they\\'ve unlocked.",
+  "descriptionHtml": "I have been annoyed by the spell-preparation time before combat, and have wanted to wrap things into a single package for ease-of-use. I wanted to make a voice-equipped spell to allow true warriors to cast it without dropping their guard. This mod addresses both those issues.\r\n\r\nWhen you load a save for the first time with this mod, a quest will add a new spell to your Powers list. The \\\"War Cry\\\" lesser power can be cast multiple times per day. The mana cost (100) is designed with pure-warriors in mind, as they will be able to cast it even without investing in magicka. No perk reduces this cost, so only people who do invest in mana can cast it more frequently. Most skills have at least one perk that will give a benefit when the War Cry is used.\r\n\r\nAlthough I think that melee characters benefit the most from this spell, any class will get some benefit. Archers don\\'t need the armor, but benefit greatly from the damage effects. Thieves (those who aren\\'t archers), get increased sneak speed, so they can cross the distance to their victims faster, and then the extra damage comes in. Mages get a chance at survival if the enemy has closed to melee range.\r\n\r\nBase Effect:\r\nBoost Carry Weight: 50 + 10 per 10 character levels (max level 50)\r\nSlightly-limited mirror of racial Powers for 60 seconds (only the vanilla races are supported)\r\nLevels Alteration skill on cast.\r\n\r\nHealing:\r\nRestore Health: 50 per Tier Perk (Novice -> Master) in Restoration, on casting\r\nRestore Health: 250 with Avoid Death perk\r\nRestore Stamina: As Restore Health effects, but requires Respite perk as well\r\nSlowly levels Restoration skill with Novice Restoration perk\r\n\r\nRestore Stamina: 1 per second per level of Agile Defender perk (max 5), lasts 60 seconds\r\nRestore Health: 1 per second per level of Juggernaught perk (max 5), lasts 60 seconds\r\n\r\nCure Poison/Disease with Physician perk\r\n\r\nProtective:\r\n20 ArmorRating / Tier perk (N->M) in Alteration, lasts 60 seconds\r\n-80% Falling Damage with Cushioned perk, lasts 60 seconds\r\nSlowly levels Alteration skill with Novice Alteration perk\r\nKnockdown: chance to stagger and knock back enemies with Power Bash Perk\r\n\r\nOffensive:\r\nFlaming Weapon: 10 fire damage w/ melee/ranged attacks, requires Fire Enchanter perk\r\nIncreases by 10/20 with Augmented Flames perk levels\r\nSlowly levels Destruction skill with each hit\r\n\r\nFrosty Weapon: (As Flaming Weapon, but with cold-related perks)\r\nShocking Weapon: (As Flaming Weapon, but with shock-related perks)\r\n\r\nPoisoned Weapon: 1 Health and Stamina per second per 10 levels of Alchemy Skill. Requires Poisoner perk and lasts 5 seconds. Snakeblood perk gives a 10% chance to paralyze for 5 seconds. Duration of effects is doubled with Concentrated Poison perk. Slowly levels Alchemy skill.\r\n\r\nFire Burst: 100 fire damage to enemies in a 30\\' radius with Intense Flames perk\r\nFrost Burst: as Fire Burst, requires Deep Freeze perk\r\nLightning Burst: as Fire Burst, requires Disintegration perk\r\n\r\nArmor Penetration: -10% per level of Bone Breaker and Skull Crusher perks\r\nIncreased Damage: 10% per level of Limbsplitter and Hack and Slash perks\r\nIncreased Attack Speed: 5% per level of Bladesman and Deep Wounds perks\r\n\r\n\r\n\r\nOther:\r\nSoul Trap: Casts on hit for 5 seconds with Soul Stealer perk\r\nSlowly levels Conjuration with each hit\r\n\r\nBanish: Each hit has a chance to banish daedra with Oblivion Binding perk\r\nSlowly levels Conjuration with each hit\r\n\r\nIncreased Sneak speed with Silence perk\r\n\r\nIncreases follower (30\\' radius) Health/Stamina/Magicka by 50 for 60 seconds with Adept Illusion perk.  Increases follower morale by 100 for 60 seconds with Kindred Mage perk. Slowly levels Illusion skill with Adept Illusion perk.\r\n\r\nGives 100\\' Life Vision if Khajiit, Werewolf or Vampire\r\n\r\n\r\n\r\nCompatability:\r\n-Obviously, anything that removes vanilla perks will not unlock those specific abilities.\r\n-This spell does not duplicate the racial abilities of custom races.\r\n-Appart from that, it should be compatable.\r\n\r\nCredits:\r\n3jiou\\'s mod \\\"Forgotten Magic\\\" first gave me the idea of an evolving spell.\r\nIt can be found here:\r\nhttp://skyrim.nexusmods.com/mods/23625\r\n\r\n\r\nFinal thoughts:\r\n1) I have not yet \\\"balanced\\\" this, and am open to discussion as to how to balance it. When you make suggestions, please include what difficulty setting you play with, as well as any mods that affect difficulty.\r\n2) I am expecting this to continue to evolve, and have posted this here partly to guide that evolution. I\\'ve got it working, and want to tap into your ideas. At the same time, I am a 60-hour-a-week type of worker, and have limited time to enact things. This means that I will prioritize the comments that I get.\r\n3) Yes, the final effects for this spell are incredible. However, it requires an enormous expenditure of perks. This spell rewards generalization more than specialization. Mages get bonuses for branching into different elements. Warriors for spending perks on different weapons and armor.",
+  "categoryId": "93",
+  "version": "1",
+  "author": "MasterBobcat",
+  "createdUnix": "1366061089",
+  "updatedUnix": "1366061006",
+  "containsAdultContent": false,
+  "uploadedBy": "MasterBobcat",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000024663",
+      "name": "MB_WarCry_v1",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "MB_WarCry_v1-34848-1.zip",
+      "uploadedUnix": "1366061006",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/09f738de8779449cf31901ed12a5dd0f8f3a6577ea6ed375e0c6e5529812a242/analysis/1407524163/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MB_WarCry_v1-34848-1.zip?fid=1000024663&ttl=1535813030&ri=8192&rs=8192&setec=8c6e0a0c01ba189f16ef848e0c528fe7"
+    }
+  ]
+}

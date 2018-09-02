@@ -1,0 +1,48 @@
+{
+  "modId": 29883.0,
+  "modName": "Dagi-Raht Khajiit Requiem compatability patch requires Dawnguard",
+  "summary": "Compatibility patches for Nuska\\'s Dagi-Raht khajiit race so that it balances with Xarrian\\'s requiem mod.",
+  "descriptionHtml": "These patches changes Nuska\\'s Dagi-Raht to balance with Xarrian\\'s Requiem mod.\r\n\r\nThe first patch is DagiRahtRequiemCompatible.esp and preserves the spirit of the Dagi-Raht. In this patch Dagi-Raht starting skill bonuses are:\r\n\r\n+10 Sneak\r\n+5 Lockpicking\r\n+10 Illusion\r\n+5 Destruction\r\n+5 Archery\r\n+5 Light armor\r\n\r\nThe Dagi-Raht also have 10% faster skill progression in these skills, suffer greatly reduced fall damage due to lives spent dwelling in tall trees and have a 5% bonus to spell power in keeping with being gifted mages. However, as they are a reclusive breed of Khajiit they aren\\'t as practised with lockpicking and will have to invest in at least one perk to be effective.\r\n\r\nThe second patch is DagiRahtRequiemCompatibleKhajiitStats.esp and this gives the Dagi-Raht the same stats and skill rates etc. as Requiem Khajiit.\r\n\r\nBoth patches require both Xarrian\\'s Requiem mod found here:\r\nhttp://skyrim.nexusmods.com/mods/19281\r\n\r\nAnd Nuska\\'s Dagi-Raht khajiit race found here:\r\nhttp://skyrim.nexusmods.com/mods/20627\r\n\r\nBoth mods are excellent and highly recommended.\r\n\r\nAlso note that Nuska is not actively supporting the Dagi-Raht mod at present and as such the mod may be outdated and has not been patched for the most recent Skyrim updates.\r\n\r\nInstallation:\r\nInstall using Nexus Mod Manager or copy the esp into your Skyrim data folder.\r\n\r\nLoad order should be:\r\ndagi_raht_race.esp\r\nRequiem.esp\r\nDagiRahtRequiemCompatible.esp/DagiRahtRequiemCompatibleKhajiitStats,esp\r\n\r\nIf you want to use the Dagi-Raht khajiit replacer you should use my other patch here:\r\nhttp://skyrim.nexusmods.com/mods/29819",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "Django03",
+  "createdUnix": "1358087331",
+  "updatedUnix": "1358087848",
+  "containsAdultContent": false,
+  "uploadedBy": "Django03",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000002064",
+      "name": "DagiRahtRequiemCompatible",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "DagiRahtRequiemCompatible-29883-1-0.rar",
+      "uploadedUnix": "1358087599",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/467c3e0f7dacd866321d9c6ec923b1924c1ac07bc22adfc3fb8f3c33c78c9917/analysis/1407351250/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DagiRahtRequiemCompatible-29883-1-0.rar?fid=1000002064&ttl=1535804346&ri=8192&rs=8192&setec=3d05ad8c190bf56b7c6fefde195a5950"
+    },
+    {
+      "fileId": "1000002065",
+      "name": "DagiRahtRequiemCompatibleKhajiitStats",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "DagiRahtRequiemCompatibleKhajiitStats-29883-1-0.rar",
+      "uploadedUnix": "1358087848",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1b6007b4c0154fdf4fb886f076399f0eb76f6f37ad764d1c0928fa5345b8af10/analysis/1407351250/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DagiRahtRequiemCompatibleKhajiitStats-29883-1-0.rar?fid=1000002065&ttl=1535804347&ri=8192&rs=8192&setec=f17accc3e40fedcf1e8f70e183d0cf3c"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 59779.0,
+  "modName": "ENB SubSurface Scatering red glowing body fix",
+  "summary": "Fix the annoying red body glow from sss in the dark",
+  "descriptionHtml": "I was really annoyed with the way SSS work with texture that I found, keep in mind that this is what I wanted to get from SSS , very light tint change and some light bleed for the ears and hands, maybe I&#39;ll do the toes later\r<br />\r<br />There might be seams that appears on very very light skin tone. It was a real pain to fit the layer properly. I&#39;m not a pro drawer just have a little bit of time to have fun tweaking.\r<br />\r<br />What I did, use alpha channel on a skin tone and named it _sk\r<br />\r<br />As was said on enb forum this texture for sss NEEDs to be Alpha channel, not red, rainbow or black and white. With that in mind I use Dmonized UNP base skin for the body as a base texture to see where is what, and for the heads I used I think it&#39;s fair skin as a base to fit the alpha properly, this doesn&#39;t change anything for the skin you use texture you use as long as the placement is the same.\r<br />\r<br />\r<br />[size=4][b]Installation:[/b][/size]\r<br />Use Mod Organiser ( it make thing so simple)\r<br />Load after the skin you use\r<br />\r<br />[size=4]Setup:[/size]\r<br />On my screen shot the skin I use is a modified fair skin to be even lighter tone\r<br />Keep in mind that the darker the skin tone the less the effect is visible, you&#39;ll need to push the ENB setting futher \r<br />\r<br />\r<br />[size=4]Compatibility:[/size]\r<br />Should be Compatible with any UNP, UNPB ,7base skin since they use the same texture base \r<br />I quickly tried CBBE it looked like it worked\r<br />\r<br />For Male character, copy those file to the male directory and rename them to male_1_sk.dds\r<br />it should make them stop glowing also\r<br />\r<br />\r<br />Tell me what you think, thx\r<br />\r<br />My ENB setting in SSS\r<br />\r<br />[SUBSURFACESCATTERING]\r<br />IgnoreWeatherSystem=true\r<br />EnableTextureAlpha=true\r<br />Quality=0\r<br />Radius=3.0\r<br />Amount=0.66\r<br />EpidermalAmount=15.0\r<br />SubdermalAmount=25.0\r<br />EpidermalDiffuseSaturation=0.5\r<br />SubdermalDiffuseSaturation=1.0\r<br />EpidermalMix=0.5\r<br />SubdermalMix=0.5\r<br />SubdermalTranslucency=1.0\r<br />SubdermalPhase=0.0\r<br />\r<br />this is use for the screen shot\r<br />\r<br />\r<br />Credit\r<br />Boris For ENB\r<br />Dmon99 for base skin body and hands\r<br />HHaleyy for fair skin head\r<br />\r<br />If I forgot some one tell me I&#39;ll modify, or If you don&#39;T want me to use your file in this way I&#39;ll modify them also",
+  "categoryId": "29",
+  "version": "1",
+  "author": "Zortrich",
+  "createdUnix": "1415481653",
+  "updatedUnix": "1415481311",
+  "containsAdultContent": false,
+  "uploadedBy": "zortrich",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000134476",
+      "name": "SSS_fix_for_glowing_body",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7055",
+      "fileName": "SSS_fix_for_glowing_body-59779-1.zip",
+      "uploadedUnix": "1415481311",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/2887655863bfb22ee36069183f27652703637c672fc555ddd91c846777353f03/analysis/1415481435/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SSS_fix_for_glowing_body-59779-1.zip?fid=1000134476&ttl=1535847172&ri=8192&rs=8192&setec=142d5bc3ff41f1bc109eb24612de9e78"
+    }
+  ]
+}

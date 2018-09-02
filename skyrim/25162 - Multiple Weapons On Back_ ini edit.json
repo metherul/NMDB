@@ -1,0 +1,32 @@
+{
+  "modId": 25162.0,
+  "modName": "Multiple Weapons On Back_ ini edit",
+  "summary": "An alternative to ATTT.",
+  "descriptionHtml": "IF YOU LIKE THIS PLEASE ENDORSE SO THAT IT WILL BE MORE NOTICABLE BY OTHERS\r\nIn case you are wondering about the armor show on the male in the first example image, i have no idea what this is from. Try asking Defunkt -> http://skyrim.nexusmods.com/users/1051385\r\n\r\nhttp://goo.gl/QyDBv\r\nAllows player&npc\\'s to carry multiple weapons on back through adding a line to the Skyrim.ini, Though there are some limitations, See blue post.\r\n[ Forum post is inaccurate, have to add line to Skyrim.ini not Skyrimprefs ]\r\n\r\n[center][url=http://www.skyrimgems.com][img]http://i.imgur.com/hXQSy.png[/img][/url][/center]\r\n\r\nI know this has been posted before, but not anywhere it can be easily found. So here it is, i would ask you to direct others to this page so that they might benefit from this aswell.\r\n\r\nFor sake of ease, i will upload my skyrim.ini file, though keep in mind that i tailored it to my needs. Meaning; Using that file you might end up with things you do not want/like.\r\n\r\n\r\nYour Skyrim.ini file can be found at;\r\nC:\\\\Users\\\\<USERNAME>\\\\Documents\\\\My Games\\\\Skyrim\\\\Skyrim.ini\r\nor\r\nUse the Start>Seach Bar>Skyrim.ini\r\n\r\n\r\nIn case the link doesn\\'t work for you, Simply add-  bDisableGearedUp=0  -to the bottom of the [GENERAL] section in your skyrim.ini file\r\nSome things to note: ( post by xlcr )\r\nOnly one 2H weapon and one bow will show up, so you can have BOTH the bow AND the 2H weapon showing.\r\n\r\nDual-wielded one-handed weapons WILL show up, but ONLY if the weapons are of a different type. (No sword/sword, but sword/axe or sword/mace will work. Likewise for mace/mace, axe/axe.) If you are using two weapons of the same type, only the one in your right hand (main hand) will show on your hip.\r\n\r\nDaggers have their own \\\"slot\\\" and are unaffected by the dual-wield slots, however only one dagger will show up. \r\n\r\nYou CAN get invisible weapons IF you swap between weapons without first sheathing your weapon. So if you swap from 2H to Bow without sheathing, your 2H weapon will sometimes turn invisible. This can be fixed by simply unequipping and re-equipping the invisible weapon.\r\n\r\nThis works with any and all weapon mods that I\\'ve found.\r\nIn total, you can have one bow, one 2h weapon, one dagger, and two 1H weapons (within the restrictions above) showing at any one time. \r\n\r\n\r\nConflicts;\r\n- Might conflict with mods that alter player skeleton and weapon positions\r\n^ Has been mentioned to work with http://skyrim.nexusmods.com/mods/17746\r\n\r\nBugs submitted in comments by users;\r\n- Swapped weapon on load\r\nThe issue people are reporting about different items being equipped when they load a save could be the fact they may have more than one weapontype per \\\"slot\\\" Favorited (such as two bows, etc.) With this edit weapons you have favorited are displayed on your back, to prevent this \\'switching\\' can only have 1 of each weapontype favorited.\r\n- Two different weapon types equipped at once\r\nFor instance a bow and a two-hander, Simple solution is to first unequip(dont have to sheathe)your current weapon, and then, to equip the next one. Vanilla favorite-menu hotkeying works fine for this.\r\n- It seems using this mod allows the player to keep weapons equipped/on back after having transformed into werewolf form, no known fix for this.... Perhaps toggleable a script to unequip and unfavorite weapons ?",
+  "categoryId": "55",
+  "version": "3",
+  "author": "TheInternet",
+  "createdUnix": "1349636049",
+  "updatedUnix": "1349636161",
+  "containsAdultContent": false,
+  "uploadedBy": "MaanLook",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "92611",
+      "name": "My Skyrim ini",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "My Skyrim ini-25162-1.zip",
+      "uploadedUnix": "1349636161",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/84688d091f40afb91db8de723a62bbc27e7d6a40fa4a4de1213c3a994dce1e58/analysis/1407208683/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/My%20Skyrim%20ini-25162-1.zip?fid=92611&ttl=1535796553&ri=8192&rs=8192&setec=1863eb10b34f4fc3d02452949bf3f862"
+    }
+  ]
+}

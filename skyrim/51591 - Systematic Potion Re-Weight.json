@@ -1,0 +1,32 @@
+{
+  "modId": 51591.0,
+  "modName": "Systematic Potion Re-Weight",
+  "summary": "This re-weights the potions in Skyrim with a simple but plausible system and fixes prices.\r<br />Dawnguard and Dragonborn required.",
+  "descriptionHtml": "I just made this to play along with other mods cause I was unhappy all potions having the same weight no matter their usefulness which can be very tedious if using more realistic Character\r<br />and Bandoliers carryweights.\r<br />\r<br />As well all potion prices are finally fixed now since there were half a dozen tier 5 potions who were cheaper than their respective tier 4 or tier 3 counterparts. Unbelivable that nobody stumbled over this in the last two years. Scratch head\r<br />\r<br />All regular potions are re-weighted according the following system:\r<br />Tier 1 = 0,15 &gt;Potionx&lt;&gt;Potion&lt;&gt;Potion of Minor&lt;&gt;Weak Aversion&lt;&gt;Lingering&lt;&gt;Weak&lt;&gt;\r<br />Tier 2 = 0,20 &gt;Draught&lt;&gt;Draught&lt;&gt;Potion&lt;&gt;Aversion&lt;&gt;Enduring&lt;&gt;Poison&lt;&gt;\r<br />Tier 3 = 0,30 &gt;Solution&lt;&gt;Philter&lt;&gt;Potion of Plentiful&lt;&gt;Potent Aversion&lt;&gt;Lasting&lt;&gt;Potent&lt;&gt;\r<br />Tier 4 = 0,40 &gt;Philter&lt;&gt;Elixir&lt;&gt;Potion of Vigorous&lt;&gt;Malign Aversion&lt;&gt;Persisting&lt;&gt;Virulent&lt;&gt;\r<br />Tier 5 = 0,50 &gt;Elixir&lt;&gt;Grand Elixir&lt;&gt;Potion of Extreme&lt;&gt;Deadly Aversion&lt;&gt;Unceasing&lt;&gt;Deadly&lt;&gt;\r<br />Tier 6 = 0,70 &gt;xxxxx&lt;&gt;Primer Elixir&lt;&gt;Potion of Ultimate&lt;&gt;xxxxxxxxxxxx&lt;&gt;xxxxxxxx&lt;&gt;xxxxxx&lt;&gt;\r<br />\r<br />Unique Potions = 0,30\r<br />Cure Poison = 0,30\r<br />Cure Disease = 0,30\r<br />Blacksmith = 0,70\r<br />Double Destilled Skooma = 0,50\r<br />Drugs = 0,30\r<br />Waterwalking = 0,70\r<br />Player Made Potions and Poisons = 0,30\r<br />\r<br />Loadorder: should be before other mods who alter any potions in some way. Make a merged patch\r<br />and carry the weight values over to the merged patch if you wanna preserve them. If the other mod only alters a couple of potions...well...who cares then. \r<br />\r<br />If you wanna alter the values get TESVEdit and do it yourself. No requests admitted. This is a personal file which I put here in case others feel it fit&#39;s their line of thinking and immersion.",
+  "categoryId": "94",
+  "version": "1.0",
+  "author": "Diablos10",
+  "createdUnix": "1393549288",
+  "updatedUnix": "1393547670",
+  "containsAdultContent": false,
+  "uploadedBy": "Diablos10",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000099037",
+      "name": "Systematic Potions Weight",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "Systematic Potions Weight-51591-1-0.rar",
+      "uploadedUnix": "1393547670",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7db71770199c9c9dcb8a6105cca79d514104778b5ee83f809dccb65876ecd771/analysis/1407952752/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Systematic%20Potions%20Weight-51591-1-0.rar?fid=1000099037&ttl=1535834044&ri=8192&rs=8192&setec=e7bfa4fd2c42f94cc106c1d3b897c02c"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 48685.0,
+  "modName": "Sprint and Jump with MCM",
+  "summary": "This is a completely remade edition of Deathless Aprodite&#39;s &#39;Sprint and Jump with Boost&#39; mod.",
+  "descriptionHtml": "Update: After a lot of testing, I&#39;ve found that the only way to get this working on a 360 controller is to use an external program such as Joy2Key. SKSE simply can not control buttons that are configured as gamepad output.\r<br />\r<br />If this mod is NOT working for you, please post a comment.\r<br />\r<br />----------------------------------------------------------------------------------\r<br />\r<br />The current version is an alpha release, but it&#39;s stable. \r<br />\r<br />This mod is a completely remade version of &#39;Sprint and Jump with Boost&#39; by Deathless Aphrodite. In the current release, MCM menus have been implemented for easy user set up and key configuration. The MCM menu allows you to toggle on/off many options, including the boosted jump, stamina consumption, and more. This mod works very similarly to how the original mod by Deathless Aphrodite did. When you press jump while sprinting, the script forces your player to stop sprinting, and run. Once this happens you need to release the jump key. Your character will jump after a half second or so, depending on the speed of your machine.\r<br />\r<br />XBOX 360 GAMEPAD SUPPORT:\r<br />This will only work with an external program. More details will be provided later.\r<br />\r<br />Install: Just copy the files from the Data folder into your Skyrim Data folder.\r<br />Uninstall: Before you uninstall this mod, you must disable it in the MCM menu.  This will stop the script from running.\r<br />Usage: Hold the jump button while sprinting. Once your character stops sprinting, release the jump button and he/she will jump.\r<br />\r<br />Expect regular updates and a stable NON-alpha release very soon.",
+  "categoryId": "24",
+  "version": "0.06A",
+  "author": "vwr",
+  "createdUnix": "1386744943",
+  "updatedUnix": "1386840853",
+  "containsAdultContent": false,
+  "uploadedBy": "vinniewryan",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000086288",
+      "name": "Sprint Jump - v06A",
+      "version": "0.06A",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Sprint Jump - v06A-48685-0-06A.zip",
+      "uploadedUnix": "1386742468",
+      "modVersion": "0.06A",
+      "virusScanUrl": "https://www.virustotal.com/file/1bd13f1404480380cf6ab1582bb0542f1b31cd7918a75bf371eb00b1afc9cfb1/analysis/1407830764/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Sprint%20Jump%20-%20v06A-48685-0-06A.zip?fid=1000086288&ttl=1535829005&ri=8192&rs=8192&setec=76b6b7a67cd14f068a327fb0c5d284e9"
+    },
+    {
+      "fileId": "1000086438",
+      "name": "Testing script - requires main file",
+      "version": "0.67A",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Testing script - requires main file-48685-0-67A.zip",
+      "uploadedUnix": "1386840853",
+      "modVersion": "0.67A",
+      "virusScanUrl": "https://www.virustotal.com/file/644283752f28a705adef153a19df71088525b988b019a43fc4e8aaf8505d2828/analysis/1407832518/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Testing%20script%20-%20requires%20main%20file-48685-0-67A.zip?fid=1000086438&ttl=1535829005&ri=8192&rs=8192&setec=4003f5187411332a1481dad611e82ea7"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 19344.0,
+  "modName": "The New Illia by Beans",
+  "summary": "Part of a series of female follower overhauls based on my interpretation of their character while making them naturally beautiful. Lorefriendly! MAKES ILLIA A BRETON BTW.",
+  "descriptionHtml": "[center] [url=http://skyrim.nexusmods.com/mods/21576][img]http://i28.photobucket.com/albums/c249/AMUNET_CAMMEO/illiaeyes-1.jpg[/img][/url] [/center]\r\n\r\n[SIZE=7]UPDATES[/SIZE]\r\nJuly 8 2012-Tweaked her proportions, replaced rough skin with freckles, changed eye color,new eyebrows and added vague eyeliner.\r\n\r\n[size=4]THIS CHANGES ILLIA INTO A BRETON[/size]\r\nIt matches into the lore a bit more, IMO. Also the Breton-exclusive Forsworn tattoos are badass in white. As I said in my Njada and Ria mods, there is no change into her stats whatsoever if playing with UFO. If there are any problems though, let me know! \r\n\r\n[b]Installation[/b]\r\nUse NMM or extract the files into the skyrim root folder manually. Make sure that the .esp is below mods that affect followers such as UFO\r\n[b]Uninstallation[/b]\r\nUse NMM or delete all of the files manually. If you are doing it manually makes sure to take out the .TARGA, .dds, and the .NIF files with the number [size=3]00048C2F[/size] located at\r\nskyrim/Data/textures/actors/FaceGenData/FaceTint/Skyrim.esm and\r\nskyrim/Data/meshes/actors/FaceGenData/FaceGeom/Skyrim.esm\r\n\r\n[size=4]Mods Used (none of them required)[/size] list corrected by [url= http://skyrim.nexusmods.com/users/2070732] fileosoft[/url] (BIG thank you to [s]her[/s]HIM!)\r\n[list]\r\n[*][url=http://skyrim.nexusmods.com/mods/4869] *Covereyes look 4[/url] (for the eyelashes)\r\n[*][url= http://skyrim.nexusmods.com/mods/9249]*Improved Eyes Skyrim[/url] (for the actual eye texture) \r\n[*][url=http://skyrim.nexusmods.com/mods/16147]*Improved Freckles Skyrim[/url]\r\n[*][url=http://skyrim.nexusmods.com/downloads/file.php?id=6709]Dimonized Unp [/url],\r\n [*][url=http://skyrim.nexusmods.com/downloads/file.php?id=6554]*Navetsea\\'s Skin and Face Retextures[/url] (also downloaded the optional file for fuller lips and more character or 1.8 patch with toned arms abs is another recommended option),\r\n [*][url=http://skyrim.nexusmods.com/downloads/file.php?id=4333] Navetsea’s Straighter Hair Retexture[/url],\r\n [*] *[url=http://skyrim.nexusmods.com/downloads/file.php?id=3574] Gizmodian Scars [/url], \r\n[*][url=http://skyrim.nexusmods.com/downloads/file.php?id=140] Amazing Smooth Females Z- Faces[/url].[/list]\r\n\r\nThe armor set used in most of my screenshots is [url=http://skyrim.nexusmods.com/mods/17699]Dreamburrow’s Sage Retexture[/url] with the [url=http://skyrim.nexusmods.com/mods/7807]Viper Assassin Hood[/url] or [url= http://skyrim.nexusmods.com/mods/5803] Glass Crown Helmet [/url].\r\nThe ENB used is [url=http://skyrim.nexusmods.com/mods/17672] Pineapplevision[/url]. Favorite ENB so far and I recommend to give it a try.\r\n\r\n[size=4]Want to customize Illia further to get rid of her warapint? Dirt? Rough skin? Add new hair? [/size]\r\nNo worries! Instead of making many variations which is TEDIOUS I’ll teach you instead. \r\n[list=1]\r\n[*]You’ll need to open then Creation Kit. If you haven’t gotten it already download it in the steam library in the tools section.\r\n[*]Open my mod, by clicking on the folder icon around the top-left corner and checking my .esp from the list. Click ok to whatever comes up.\r\n[*]In the actors tab at the object window, search Illia and double click on her name. \r\n[*]A window should pop up. Check the box below beside the word head to see her face ([size=2]some ENBs don’t make objects in the CK show. TEMPORARILY REMOVE THE d3d9.dll TO SOLVE THIS[/size]) Move through the tabs until you reach Character Gen Parts..\r\n[*]Char Gen Parts is where you can edit the skin, hair, eye color, tattoo visibility, etc for your character. If you want to remove dirt or warpaint or anything else there is a long list of them on the left-hand side. To get rid of them, just set the tone to color average. NOTE THAT YOU CAN’T GIVE NPCS CUSTOM WARPAINT HERE. You’d get weird freckles instead. \r\n[*]To get rid of her rough skin, just change the setting under Face Complexion at the top. \r\n[*]If you want to put custom hair, Apachii [url=http://skyrim.nexusmods.com/mods/10168] posted[/url] a quick tutorial in her mod description.\r\n[*]Once you are satisfied, hit OK. Then click the NPC’s name again at the object window and hit ctrl+f4 to export the face textures (otherwise you’d get the grey face).\r\n[*]Save your new .esp under a new name because CK is weird like that.\r\n[*]In the load order, uncheck or delete my esp to make your customized one work.[/list]\r\n[size=4] Posting alternates of my facemorphs as MODS will not be allowed[/size] Images however are coolbeans. B)\r\n\r\n\r\n\r\n[SIZE=5]Known Issues[/size]-\r\nThere’s a small possibility that Illia won’t give you follower dialogue when you talk to her when revisiting her tower. THIS HAS NOTHING TO DO WITH MY MOD. But, I’ve found a solution that worked (for me at least): [list=1]\r\n[*]Open up the console command with the tilde key and click on Illia.\r\n[*]Type the “getrelationshiprank player” without quotes\r\n[*]It might then say that the rank is 0, or Acquaintance\r\n[*]Type “setrelationshiprank player 3” to make her an ally\r\n[*]Close console, speak to her again to see if she works. Then save your game.\r\n[*] EDIT: If you dismiss her apparently the same bug appears again, so repeat the process. [/list]\r\n\r\nAs well there is a slight problem with the lighting. Thanks to fileosoft for explaining it to me. To make things look better  first download the[url= http://skyrim.nexusmods.com/mods/5737] \\\"Calientes texture Blender\\\"[/url] . And then download the config file [url=http://skyrim.nexusmods.com/mods/16263]here[/url]( for people using bella or coverwomen mod try [url=http://skyrim.nexusmods.com/mods/15921[/url] this [/url])\r\n\r\n[center][size=7]MY OTHER FACEMORPHS[/size][/center] [url=http://skyrim.nexusmods.com/mods/17916][img]http://i28.photobucket.com/albums/c249/AMUNET_CAMMEO/AELAICON-2.jpg[/img][/url][url=http://skyrim.nexusmods.com/mods/19125][img]http://i28.photobucket.com/albums/c249/AMUNET_CAMMEO/ARANEAICON.jpg[/img][/url][url=http://skyrim.nexusmods.com/mods/18449][IMG]http://i28.photobucket.com/albums/c249/AMUNET_CAMMEO/BRELYNAICON-1.jpg[/IMG][/url][URL=http://skyrim.nexusmods.com/mods/20491][IMG] http://i.imgur.com/XSoco.jpg[/IMG][/URL][url=http://skyrim.nexusmods.com/mods/20517/][img]http://i.imgur.com/9VQEc.jpg[/img][/url][url=http://skyrim.nexusmods.com/mods/18043][img]http://i28.photobucket.com/albums/c249/AMUNET_CAMMEO/LYDIAICON-2.jpg[/img][/url][url=http://skyrim.nexusmods.com/mods/17960][IMG]http://i28.photobucket.com/albums/c249/AMUNET_CAMMEO/MARCURIOICON-2.jpg[/IMG][/url][url=http://skyrim.nexusmods.com/mods/18459][IMG]http://i28.photobucket.com/albums/c249/AMUNET_CAMMEO/MJOLLICON-1.jpg[/img][/url][url=http://skyrim.nexusmods.com/mods/19293/?tab=3&navtag=/ajax/comments/?thread_id=710078|:|mod_id=19293 ][img] http://i28.photobucket.com/albums/c249/AMUNET_CAMMEO/NJADAicon.jpg[/img][/url][url=http://skyrim.nexusmods.com/mods/19252][IMG]http://i28.photobucket.com/albums/c249/AMUNET_CAMMEO/RIAICON.jpg[/img][/url]",
+  "categoryId": "66",
+  "version": "1.1",
+  "author": "sumojellybean",
+  "createdUnix": "1340563550",
+  "updatedUnix": "1341771681",
+  "containsAdultContent": false,
+  "uploadedBy": "sumojellybean",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "70080",
+      "name": "Illia V1",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "278",
+      "fileName": "Illia V1-19344-1.rar",
+      "uploadedUnix": "1340563738",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/1acb9e79b895752c51cd309b071e386e064f1ece0390ca434ef104b5835e7001/analysis/1406980626/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Illia%20V1-19344-1.rar?fid=70080&ttl=1535786747&ri=8192&rs=8192&setec=c8a892f03169f91a4984af4f3dead6f3"
+    },
+    {
+      "fileId": "72993",
+      "name": "Illia V1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "319",
+      "fileName": "Illia V1_1-19344-1-1.rar",
+      "uploadedUnix": "1341771681",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/4a4f16daa5c2627f16b8582a47133b46f74c6d04c87c16b279a00e41bda0c8e4/analysis/1407010152/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Illia%20V1_1-19344-1-1.rar?fid=72993&ttl=1535786747&ri=8192&rs=8192&setec=23cf2a5a19fa760e996f502bd466dfa5"
+    }
+  ]
+}

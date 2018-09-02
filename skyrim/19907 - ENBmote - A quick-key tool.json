@@ -1,0 +1,32 @@
+{
+  "modId": 19907.0,
+  "modName": "ENBmote - A quick-key tool",
+  "summary": "A quick-key tool for controlling various ENB effects and settings.",
+  "descriptionHtml": "[color=#FF8000][b]DISCLAIMER[/b][/color]\r\n\r\nThis tool works by making PERMANENT changes to your ENB configuration files, and as such, it can haphazardly mess them up in the unfortunate event that something goes south. Although I have tested the tool (not really), please take no chances and back-up your files before using it. In no case I will be held responsible if the tool makes a mess of the setup you\\'ve spent last half a year polishing.\r\n\r\n[color=#FF8000][b]SO... WHAT IS THIS THING?[/b][/color]\r\n\r\nENBmote is tiny tool to enable and disable selected ENB effects and change certain settings in-game, in realtime.\r\n\r\nCurrently implemented features:\r\n\r\nEnable and disable Matso\\'s Depth of Field effect*1\r\nEnable and disable Matso\\'s Grain effect\r\nEnable and disable Matso\\'s Chromatic Aberration\r\nEnable and disable Matso\\'s Sharpening\r\nEnable and disable HD6\\'s Vignette (ie. black stripes)\r\nEnable and disable Matso\\'s Panoramic Stripes (Vignette)\r\nEnable and disable effect.fx*2\r\nEnable and disable Original Game Colour Correction\r\nSwitch between HD6\\'s Crisp Bloom and Screen Bloom\r\nSwitch between Post-Process 2 and 5\r\n\r\n*1 Only Matso\\'s ENB prepass modifications 4.0.0 are supported for now.\r\n*2 Doesn\\'t seem to work properly right now at least on my system.\r\n\r\nEspecially the last three settings are geared more towards the hardcore ENB crowd, as the typical ENB setups available for download are not configured to look correct with alternate settings.\r\n\r\nMore features can be implemented based on user feedback, so don\\'t hesitate to give suggestions.\r\n\r\n[color=#FF8000][b]GREAT, HOW DO I INSTALL?[/b][/color]\r\n\r\nFirst, copy the included files into the Skyrim program folder - the same folder where the game executables are located.\r\n\r\nTo configure quick-keys, run ENBmote Configurator. You don\\'t have to assign a key to every setting - you can simply use the ones you want to.\r\n\r\nNotice that the configurator lets you set a same key for two or more settings - so you can control various settings with just one quick-key.\r\n\r\nAfter you\\'ve set the keys to your liking, click Save to save the settings and exit the configurator.\r\n\r\nTo use the quick-keys, simply run ENBmote (enbmote.exe) before you launch Skyrim, and when in-game, press the desired quick-key. If your ENB setup is configured to refresh settings with BACKSPACE (it is by default), the new settings take place automatically.\r\n\r\nWhen in-game, you can always switch to desktop and re-run the configurator to change the quick-keys - no need to shut down ENBmote beforehand. You can also view the quick-keys by clicking the tray icon and selecting View Quick-keys.\r\n\r\nAfter you\\'ve had your daily dosage of Skyrim, exit the tool via its tray menu. Note that if you\\'ve disabled effect.txt, the tool will enable it upon exit.\r\n\r\n[color=#FF8000][b]UM, ANY KNOWN ISSUES?[/b][/color]\r\n\r\nAs with all alpha versions, there are indeed certain issues:\r\n\r\nUpon applying a quick-key, there\\'s a slight delay especially on slower systems. This is unfortunate but also unavoidable in order to ensure proper communication with ENB.\r\n\r\nWhen using Matso\\'s enbeffectprepass.fx, not all effect combinations are automatically valid without setting up the file properly. Before using quick-keys, make sure your desired effect combination works.\r\n\r\nThe quick-key for toggling effect.fx doesn\\'t seem to work without switching to desktop at least on my system.\r\n\r\nAnd finally, I\\'m not a coder by any stretch, so ALWAYS remember to take backup copies of your files.\r\n\r\n[color=#FF8000][b]WELL, HOW DO I UNINSTALL?[/b][/color]\r\n\r\nSimply delete the following files from the Skyrim program folder:\r\n\r\nENBmote.exe\r\nenbmote.ini\r\nenbmote.png\r\nENBmote Configurator.exe\r\n\r\nIf there\\'s a demand, future versions might include a dedicated installer.",
+  "categoryId": "39",
+  "version": "0.11",
+  "author": "mindflux",
+  "createdUnix": "1341427774",
+  "updatedUnix": "1341604533",
+  "containsAdultContent": false,
+  "uploadedBy": "artem1s",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "72626",
+      "name": "ENBmote Alpha",
+      "version": "0.11",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "815",
+      "fileName": "ENBmote Alpha-19907-0-11.zip",
+      "uploadedUnix": "1341604533",
+      "modVersion": "0.11",
+      "virusScanUrl": "https://www.virustotal.com/file/41d0b82ff1cdfd395792f3aec12a61befed68403e745e406bcb9dfd5eea6d8fc/analysis/1407005824/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENBmote%20Alpha-19907-0-11.zip?fid=72626&ttl=1535787675&ri=8192&rs=8192&setec=184e048754c2b05ee8313b71b7266a8e"
+    }
+  ]
+}

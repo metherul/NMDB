@@ -1,0 +1,32 @@
+{
+  "modId": 23441.0,
+  "modName": "bookshelves script",
+  "summary": "my take on filling bookshelves by item size",
+  "descriptionHtml": "drop in replacement for stock playerbookshelfcontainer script. BETA\r\n\r\nthe script neatness largely depends on how well shelf bounding boxes are aligned, but there are variables inside to be tweaked if you are feeling adventurous (i did a fair bit of that already, tho).\r\nitem limit is set for 48 which is plenty even for biggest bookshelves with smallest books, but will run out of space on notes fast, feel free to increase (up to 128) but little gain for bigger save files imo\r\n\r\ntheres a mod that does exactly the same thing (and more), and was inspiration for this work, unlimited bookshelves is its name. difference you ask? with mine you get sources to (learn/improve upon/blow up the universe), its smaller, faster and works only for books ;) enjoy\r\n\r\nconversion of filled vanilla-filled bookshelves is pretty basic atm, i might improve upon it some day, or throw vanilla support out completely, undecided yet\r\n\r\nscript returns excess books to originating container, intended to work with my library script (which i will finish, one day, probably) that spreads stored books through linked containers\r\n",
+  "categoryId": "82",
+  "version": "0.2",
+  "author": "tiggz",
+  "createdUnix": "1346488526",
+  "updatedUnix": "1346488692",
+  "containsAdultContent": false,
+  "uploadedBy": "tiggz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "85691",
+      "name": "bookshelf script",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "bookshelf script-23441-0-2.7z",
+      "uploadedUnix": "1346488692",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/f1e871338b857f5a4e719f93a9625da06c1071f0cb7279293adeb80b3329a8fa/analysis/1407137404/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/bookshelf%20script-23441-0-2.7z?fid=85691&ttl=1535793697&ri=8192&rs=8192&setec=92bb89c9eef09d52ac72b0fbde8e669d"
+    }
+  ]
+}

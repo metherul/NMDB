@@ -1,0 +1,32 @@
+{
+  "modId": 31160.0,
+  "modName": "Immersive sex slaves - Animatied Prostitution patch for Paradise Halls",
+  "summary": "Modifies the AP Dialogue system to recognise slaves owned by the player under the Paradise Halls slavery system and treat them accordingly.  ",
+  "descriptionHtml": "Disclaimer (READ THIS BEFORE CARRYING ON ABOUT SLAVERY IN MY COMMENTS)\r\nI have no interest in your views on slavery. If you have issues with the concept of slavery take it up with Bethesda. They are the ones who initially introduced it to the Elder Scrolls franchise.. along with cannibalism, drug addiction and a ton of other potentially objectionable practices.  Anyone continuing to post complaints about slavery in the comments section will have their comments hidden and forwarded for moderation.  Morality debates are not what comments are there for people.\r\n\r\nDescription:\r\nModifies the AP Dialogue system to recognise slaves owned by the player under the Paradise Halls slavery system and treat them accordingly.  \r\n\r\n- Persuasion/Bribery/Intimidation checks are no longer required on slaves owned by the player.  Other slaves you meet will still require the check, after all, they are not your property.\r\n- The one hour cooldown between sex acts has been removed from slaves owned by the player.  They are your property to be used as you see fit.\r\n- Dialogue between owner and slave has been modified to better reflect the relationship between the two.   \r\n\r\nRequirements:\r\nThese are required downloads.  This mod either adjusts the values of existing assets or adds new ones.  None of the original files for either system are included in this download.\r\nAnimated Prostitution - http://skyrim.nexusmods.com/mods/10748\r\nParadise Halls - http://skyrim.nexusmods.com/mods/29886#\r\n\r\nCompatibility:\r\nShould be compatible with anything that does not also modify AP\\'s dialogue.  Not sure if there are any others.\r\n\r\nSuggested load order:\r\nI\\'ve had success with the following load order\r\nparadise_halls_base.esm\r\nparadise_halls_core.esm\r\nAP Skyrim.esm\r\n(if you use zaz or asx they would go here)\r\nPAHAPDialoguePatcher.esp\r\nparadise_halls_farengars_study.esp\r\nparadise_halls_fellglow_slave_camp.esp\r\nI would also recommend taking the time to make AP run under FNIS.\r\n\r\nPlanned changes:\r\nIt looks quite possible to similarly make additions that would allow the pimping of slaves in the same way that AP already does with companions.  I am currently investigating this further.\r\n\r\nCredits:\r\nAll real credit goes to these two guys.  All I did was decipher some of the insane things that have to be done to make systems like these work and make a few changes.\r\nJoshNZ for the amazing work that is AP.\r\nlayam for Paradise Halls\r\n\r\nBugs/Issues:\r\nPlease report any bugs/issues in comments.  I will address any issues that are a result of this mod ASAP.  I cannot however guarantee fixes on issues caused by either AP or PAH.  That being said, I will do what I can.\r\n\r\nOther Mods:\r\nDon\\'t forget to check my other stuff out\r\no Paradise Halls Extender - Slave Capture Spells and Poisons - http://skyrim.nexusmods.com/mods/31307",
+  "categoryId": "51",
+  "version": "1.0",
+  "author": "Mutifex",
+  "createdUnix": "1360225666",
+  "updatedUnix": "1360225406",
+  "containsAdultContent": true,
+  "uploadedBy": "mutifex",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000007751",
+      "name": "PAHAPDialoguePatcher",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "16",
+      "fileName": "PAHAPSialoguePatcher-31160-1-0.rar",
+      "uploadedUnix": "1360225406",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/38ece9383a1095e9d121fd2d32f21f1ed0a498d58298fe2958e504d800c89d60/analysis/1407402584/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PAHAPSialoguePatcher-31160-1-0.rar?fid=1000007751&ttl=1535806529&ri=8192&rs=8192&setec=a82483df4e02d42b8bcb4658933e6a73"
+    }
+  ]
+}

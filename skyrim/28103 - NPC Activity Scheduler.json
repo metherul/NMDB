@@ -1,0 +1,32 @@
+{
+  "modId": 28103.0,
+  "modName": "NPC Activity Scheduler",
+  "summary": "Prove-of-concept prototype. This mod allow you to controls several player-defined NPC\\'s daily sandbox activity schedules. Also provide a portable market stand and a cooking spit, allow player to hire NPCs for the business.",
+  "descriptionHtml": "This is a prove-of-concept prototype. At the moment I have no intention to seriously extend it due to limited holiday time. But complete source code is included in the package and you have my permission to modify/extend it, in condition that mentioning me as the original author.\r\n\r\nInstallation:\r\nInstall using NMM, or unpack and copy to the data folder (not recommended).\r\n\r\nHow to use it:\r\nYou will receive an instruction book as soon as you enter the game. Do check it before using any of the tools.\r\n\r\nMain Features:\r\nMultiple location sandbox scheduler for NPC\r\nPortable Market Stand to start your business\r\nPortable Cooking Spit to provide nice homemade meals\r\n\r\nDesign Explanation:\r\nThis is mainly for people who are interested in modding. This mod attempts to enrich skyrim\\'s NPC interaction by providing dynamic, multiple layer AI package controls. Everything I added has a prefix of Dudestia, so you can easily locate the changes.\r\n\r\nHere is a simple review of how NPC behaves in Skyrim. Skyrim\\'s NPC behaviors is mainly controlled by associated AI packages with different priorities. If two packages are both valid at one time, the one with higher priority is picked. The key idea of this mod is to add more flexible AI packages on top of vanilla packages so that the mod package will be picked and replace the vanilla ones.\r\n\r\nThe model diagram is like this\r\n[img]http://static.skyrim.nexusmods.com/mods/images/28103-1-1355154157.jpeg[/img]\r\n\r\nAt the bottom, a NPC is controlled by vanilla packages with lowest priority. On top of it, the NPC can be covered by a sandbox scheduler which provides packages for sandbox activity in different player select location at different time. This is the sandbox layer.\r\n\r\nThere is also cases that require a NPC to stay at one place with defined behaviors instead of sandbox behaviors, for example, stand next to a market stand and selling stuffs. The multiple subject package layer is designed to deal with that. A portable market stand and a portable cooking spit are provided in this mod as examples. You can hire NPC for different work shifts of your business. By changing the location of the portable items and changing shifts, you effectively change the working locations and working time of employed NPCs.\r\n\r\nCombining these, you have a more interactive NPC daily schedule.",
+  "categoryId": "82",
+  "version": "0.1b",
+  "author": "Dudestia",
+  "createdUnix": "1355153842",
+  "updatedUnix": "1355153916",
+  "containsAdultContent": false,
+  "uploadedBy": "dudestia",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "104402",
+      "name": "ActivityScheduler01b",
+      "version": "0.1b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "226",
+      "fileName": "ActivityScheduler01b-28103-0-1b.7z",
+      "uploadedUnix": "1355153916",
+      "modVersion": "0.1b",
+      "virusScanUrl": "https://www.virustotal.com/file/4c58891df83bbb920d2784379e4756d75664ae40595fe2fb7f3ac5527abf921d/analysis/1407298564/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ActivityScheduler01b-28103-0-1b.7z?fid=104402&ttl=1535801293&ri=8192&rs=8192&setec=1ac091c6fb79869155577f0390cde63f"
+    }
+  ]
+}

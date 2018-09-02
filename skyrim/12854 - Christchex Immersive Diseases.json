@@ -1,0 +1,48 @@
+{
+  "modId": 12854.0,
+  "modName": "Christchex Immersive Diseases",
+  "summary": "Ever wonder why contracting diseases is no big deal and rather boring? This mod is my first step into correcting that. Currently it adds various visual effects associated with the games diseases. Some are minor and some can be a big pain.",
+  "descriptionHtml": "Some people are reporting a bug that the visual effects occur without having any diseases. I have been unable to replicate this issue, but if you are experiencing this even after downloading the updated script, please tell me if it occurred \r\n1. After installing my mod but before getting a disease \r\n2a. After installing my mod and after getting a disease (also after curing all diseases)\r\n2b. What disease(s) was/were contracted before the bug occurred.\r\n4. What load order my mod is in.\r\n5. Maybe your entire load order, I\\'m not discounting mod conflicts.\r\n\r\n[DETAILS]\r\nEach of the games 7 diseases have a new effect attached to them, this effect is a script that applies imagespace modifiers in several ways. There are constants, like having blurry vision or a red tint. There are also animated modifiers that may be as simple as your vision going in and out of focus, or more detrimental to playing like nearly blacking out. There can be multiple modifiers associated with a specific disease and the resulting effect is generally randomized. For instance, there are multiple lengths and strengths of your vision blurring and they do not occur the same every time.\r\n\r\nEach disease should have a somewhat unique effect associated with them.\r\n\r\nIf you wish to test them out you can add them via console with player.addspell FORMID\r\nthe formID\\'s for the 7 diseases are as follows:\r\nAtaxia 000b877c\r\nBone Break Fever 000b877e\r\nBrain Rot 000b877f\r\nRattles 000b8781\r\nRockjoint 000b8782\r\nWitbane 000b8783\r\nSanquinare Vampiris 000b8780\r\n\r\nNote: Ataxia is described as a mild and common disease and as such, the visual effects you\\'ll experience are subtle, and may not be noticeable unless you\\'re looking for them... sometimes for awhile. While Rattles is also described as a mild and common disease, I really felt the visual symptoms are nice the way they are (and unmistakable).\r\n\r\nIf you discover any bugs, please let me know :)\r\n\r\n[COMPATIBILITY]\r\nWill not be compatible with any other mod that modifies the disease entries.\r\n\r\n[INSTALLATION]\r\nUse 7zip, unzip contents into your data folder, including the script! It should be in Data/Scripts or else this mod will not work.\r\n\r\n[UNINSTALLING]\r\nCure any diseases on your character first! Then save your game and remove my files.\r\n\r\n[VERSION HISTORY]\r\n     V1.00\r\n- First release.\r\n\r\n[FUTURE UPDATE]\r\nThis is just step one. Besides the unavoidable tweaking on the modifiers, I intend to add more diseases (if they\\'re lore friendly) as well as working on making the diseases and their associated visual effects to be progressive. ",
+  "categoryId": "24",
+  "version": "1.00",
+  "author": "Christchex",
+  "createdUnix": "1331678135",
+  "updatedUnix": "1331835935",
+  "containsAdultContent": false,
+  "uploadedBy": "christchex",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "43072",
+      "name": "Immersive Diseases v1",
+      "version": "v1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Immersive Diseases v1-12854.7z",
+      "uploadedUnix": "1331678198",
+      "modVersion": "v1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/b55374fe4817fb36e4d2a63149ba7ec741e7e30d7f58656db84868d7016ba97c/analysis/1406747523/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Immersive%20Diseases%20v1-12854.7z?fid=43072&ttl=1535775127&ri=8192&rs=8192&setec=df952942e7efe0cbc32a8b01803f8b53"
+    },
+    {
+      "fileId": "43611",
+      "name": "New script dot3",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "New script dot3-12854-2.7z",
+      "uploadedUnix": "1331835935",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/1386cb628e21df16614a41afee5da7ed34bfcebd0fe1ae0ffa9cbc9436ec8cfd/analysis/1406750532/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/New%20script%20dot3-12854-2.7z?fid=43611&ttl=1535775127&ri=8192&rs=8192&setec=e9963d2aca25bfdf0d970f6d8e4502b8"
+    }
+  ]
+}

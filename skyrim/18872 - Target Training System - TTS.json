@@ -1,0 +1,48 @@
+{
+  "modId": 18872.0,
+  "modName": "Target Training System - TTS",
+  "summary": "TTS adds training dummies that allow you to train by attacking them.",
+  "descriptionHtml": "[center][size=4][b][color=red]I regret to say, I will not be supporting this mod any longer.[/color][/b][/size][/center]\r\n\r\n[center][b][size=20]==========================[/b][/size][/center]\r\n[center][b][size=20]Target Training System - TTS[/b][/size][/center]\r\n[center][b][size=20]==========================[/b][/size][/center]\r\n[center](Previously known as Target Combat Training - TCT...was changed and renamed to allow for expansion)[/center]\r\n[center][b][size=4]If you like TTS, please endorse, thank you.[/size][/b][/center]\r\n\r\n[center][size=4][b][color=yellow]I have been getting requests to add targets to specific areas in game, I do not know where most of these areas are and there for cannot add them in.  If you want the targets added to a specific location, please tell me exactly where it is, that way I will be able to find it in the Creation Kit and add in the targets.[/color][/b][/size][/center]\r\n\r\n[size=4][b][u]Changelog[/u][/b][/size]\r\n\r\nv1.1 - Same as initial release, but adds practice dummies to all Orc Strongholds and all Imperial and Stormcloak Military Camps.  (Note - Some camps are only accessible when specific vanilla quests have been completed)\r\nv1 - Initial release.\r\n\r\n[size=4][b][u]Description[/u][/b][/size]\r\n\r\nI was totally unhappy that training dummies are just sitting there, looking, well, dumb.  Sure, there are a few quests that have you use them, but when it comes down to it, they are just there for immersions sake and to fill space with clutter.\r\n\r\nTTS adds 1 training dummy to each of the 9 major cities and 1 to Riverwood.  When you attack any of these dummies, there is a base 12% (This percentage is very close to the vanilla calculation) chance of your character gaining skill for the weapon you are attacking with.  So, if you attack with a Greatsword, there is a 12% chance on any successful attack, your character will gain 1 skill point in TwoHanded.  The same goes for OneHanded and Marksman.  (TTS does not currently support spells.)\r\n\r\n[size=4][b][u]How it Works[/u][/b][/size]\r\n\r\nWhen you make a successful attack on any of the dummies I have added, a script runs and calculates a percentage.  If the percentage is above 87, the script reads your equipped weapon information and then selects the correct skill to improve.  If the percentage is 87 or lower, nothing happens.\r\n\r\nBecause there is only a 12% chance to gain skill, it may take a number of successful attacks before you do actually gain skill.  While testing, I had one instance where I shot over 40 arrows into one of the dummies before I gained skill.  Frustrating yes, but no pain, no gain.\r\n\r\n[size=4][b][u]Locations[/u][/b][/size]\r\n\r\nThe screenshots show the exact locations.\r\n\r\n[size=4][b][u]Future Plans[/u][/b][/size]\r\n\r\nI will be adding support for spells in the near future.\r\nI may look into adding a new model for the dummies, but that\\'s only if I can find a free one online, or if someone wants to make one, texture it and donate it to the mod.\r\n\r\n[size=4][b][u]Compatibility[/u][/b][/size]\r\n\r\nIf you have Target Combat Training - TCT installed, uninstall and delete it.\r\nThe only other compatibility issues I can think of, would be any mod that adds an instance or asset to the same locations as the dummies.\r\n\r\n[size=4][b][u]Legal[/u][/b][/size]\r\n\r\nThe Target Training System - TTS mod was written and created by Diamok and may not be redistributed without his consent.\r\nEverything else is the property of its respective owners.\r\n\r\n\r\n[size=4][b][u]Install/Uninstall[/u][/b][/size]\r\n\r\nUse NMM for both!\r\n\r\n[size=4][b][u]Credits[/u][/b][/size]\r\n\r\nSkyrim Nexus and all [url=http://www.nexusmods.com]Nexusmods.com[/url] sites - For being kick ass!!!\r\nBethesda - For the Elder Scrolls series of games.\r\n\r\n[size=4][b][u]My Mods[/u][/b][/size]\r\n\r\n[url=http://skyrim.nexusmods.com/mods/16816]The Scribes Lecturn[/url]\r\n[url=http://skyrim.nexusmods.com/mods/18872]Target Training System - TTS[/url]",
+  "categoryId": "28",
+  "version": "1.1",
+  "author": "Diamok",
+  "createdUnix": "1339863155",
+  "updatedUnix": "1341252834",
+  "containsAdultContent": false,
+  "uploadedBy": "diamok",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "68385",
+      "name": "Target Training System - TTS",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "Target Training System - TTS-18872-1.rar",
+      "uploadedUnix": "1339863968",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/9c6892070f9402fd99afeabe4b875b2bec8d9cec9bef91b2502f87387cc91014/analysis/1406963108/",
+      "changelogHtml": " Initial Release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Target%20Training%20System%20-%20TTS-18872-1.rar?fid=68385&ttl=1535785983&ri=8192&rs=8192&setec=a261558fa110574ecfec7b3667272aba"
+    },
+    {
+      "fileId": "71712",
+      "name": "Target Training System - TTS v1dot1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "160",
+      "fileName": "Target Training System - TTS v1dot1-18872-1-1.rar",
+      "uploadedUnix": "1341252834",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/b4a360e09aa63bd9c83bcc92146fb128e1ac3e5cadc0dd250f2c41be9b3ad3a7/analysis/1406996882/",
+      "changelogHtml": " v1.1 - Same as initial release, but adds practice dummies to all Orc Strongholds and all Imperial and Stormcloak Military Camps. (Note - Some camps are only accessible when specific vanilla quests have been completed) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Target%20Training%20System%20-%20TTS%20v1dot1-18872-1-1.rar?fid=71712&ttl=1535785983&ri=8192&rs=8192&setec=05f83e9bc88d550633d9eaed6049fd78"
+    }
+  ]
+}

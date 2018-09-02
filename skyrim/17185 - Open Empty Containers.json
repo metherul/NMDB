@@ -1,0 +1,48 @@
+{
+  "modId": 17185.0,
+  "modName": "Open Empty Containers",
+  "summary": "This small mod allows you to quickly visually identify empty containers. Requires SKSE.",
+  "descriptionHtml": "[img]http://i48.tinypic.com/206hmki.jpg[/img]\r\n[img]http://i43.tinypic.com/1zl3ryt.jpg[/img]\r\nOpen Empty Containers mod will place empty containers with open/close animations in constantly open state allowing you to quickly visaully identify empty containers preventing those annoying hastly openings.\r\n[img]http://i44.tinypic.com/fnsgw2.jpg[/img]\r\nJust noticed the new version will not work properly with savegames running the old buggy mod. The \\\"bugged\\\" containers will not properly get recognized until a cell respawn which might be a problem with non respawning containers. Check down on known issues if you want a solution to the problem.\r\nI\\'m considering v0.300 still beta, but probably as good as it gets. The script is now working properly, its just a matter of identifying any more items that might be \\\"invisible\\\" in the containers.\r\nThis mod requires SKSE, version 1.5.6. or higher, be sure to get it from http://skse.silverlock.org\r\nOnly compatible with vanilla containers, will not work with containers added in other mods or DLCs.\r\n[img]http://i43.tinypic.com/2pyt8n5.jpg[/img]\r\nSome items are invisible when spawned in the container and the container shows as empty. Feel free to contact me so i can modify the mod to properly work with those items.\r\nIf you got a savegame running an older version of the mod and buggy containers that do not show as they should you can either wait for a cell reset or manually remove the troublesome items from the container. So far the identified buggy items refs are 104b3f and 104b40. The steps you need to do to remove those from the container are:\r\n - open your console\r\n - click on the container to get its reference id\r\n - type in the console: \\\"removeitem <buggy RefId> 1\\\" replacing <buggy RefId> with so far identified buggy ids\r\n - repeat the latter for every known buggy ids (104b3f, 104b40)\r\n - the container will now be properly emptied and the mod will work on it as it should \r\nA video detailing the listed steps:\r\n[youtube]PNK1b-fg5Oc[/youtube]\r\n[img]http://i43.tinypic.com/2r3crcy.jpg[/img]\r\nFirst make sure you got SKSE properly installed. Download the SKSE archive from http://skse.silverlock.org and extract it. Now place the[i] Data[/i] folder,[i] skse_loader.exe[/i],[i] skse_steam_loader.dll[/i] and [i]skse_1_5_26.dll (or higher)[/i] files in your Skyrim installation directory. It will ask to overwrite some scripts, be careful not to overwrite your modded content.\r\nNow with SKSE properly installed proceed to install the mod. Simply use Nexus Mod Manager or if you prefer to manually install it, extract the downloaded file to your [i]<Skyrim installation folder>\\\\Data[/i] folder.\r\n[img]http://i39.tinypic.com/jav2j6.jpg[/img]\r\nThe mod just adds a script to vanilla containers so there should be no issues. If another mod replaces those containers this mod cannot work with it.\r\n[img]http://i40.tinypic.com/2vuzv9i.jpg[/img]\r\nv0.300 - identified the problem with empty containers not properly recognized as empty\r\n       - remade with mod ommiting all the extra used for testing\r\nv0.201 - released public beta",
+  "categoryId": "24",
+  "version": "0.300",
+  "author": "manuel2",
+  "createdUnix": "1337218749",
+  "updatedUnix": "1337376873",
+  "containsAdultContent": false,
+  "uploadedBy": "Manuel2",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "61777",
+      "name": "Open Empty Containers 0201",
+      "version": "0.201",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "38",
+      "fileName": "Open Empty Containers 0201-17185.zip",
+      "uploadedUnix": "1337223748",
+      "modVersion": "0.201",
+      "virusScanUrl": "https://www.virustotal.com/file/16567df42c286ce0085982250ab5deb384dfb3b61582b2690e5635406a4e8ab9/analysis/1406897523/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Open%20Empty%20Containers%200201-17185.zip?fid=61777&ttl=1535783105&ri=8192&rs=8192&setec=6b9287c824a639822517648abcd5d16a"
+    },
+    {
+      "fileId": "62158",
+      "name": "Open Empty Containers 0300",
+      "version": "0.300",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "33",
+      "fileName": "Open Empty Containers 0300-17185-0-300.zip",
+      "uploadedUnix": "1337376873",
+      "modVersion": "0.300",
+      "virusScanUrl": "https://www.virustotal.com/file/c96cd3c98518b077f622995355a8037a1190d13567d61075ffb8355cc671cd01/analysis/1406900887/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Open%20Empty%20Containers%200300-17185-0-300.zip?fid=62158&ttl=1535783106&ri=8192&rs=8192&setec=5bd227612052076a327655ad67c99c4f"
+    }
+  ]
+}

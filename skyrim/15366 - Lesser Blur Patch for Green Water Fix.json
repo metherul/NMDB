@@ -1,0 +1,48 @@
+{
+  "modId": 15366.0,
+  "modName": "Lesser Blur Patch for Green Water Fix",
+  "summary": "Weakens, or removes underwater blurring after installing \\\"GreenWaterFix\\\".",
+  "descriptionHtml": "Name: Lesser Blur Patch for Green Water Fix\r\nVersion: 1.0\r\nDate: 4/17/2012\r\nCategory: Miscellaneous\r\nAuthor: AltheaR\r\n\r\n\r\nDescription\r\n===========\r\nWeakens, or removes underwater blurring after installing \\\"GreenWaterFix\\\".\r\n[size=3][color=#c3d825][b]Works also without \\\"GreenWaterFix\\\".[/b][/color][/size]\r\n\r\nDetails\r\n=======\r\nI changed ONLY the values of \\\"Blur Strength\\\" in \\\"UnderwaterImageSpace\\\".\r\nLoad AFTER \\\"Green Water Fix\\\", please.(Of course you need \\\"Green Water Fix\\\" mod.)\r\n\r\n\r\nLoad Order Example:\r\nGreenWaterFix.esp (or GreenWaterFixForWATER.esp)\r\n\r\n(some other esps)\r\n\r\nGreenWaterFix_LesserBlurPatch.esp (or GreenWaterFix_CrystalClearPatch.esp)\r\n\r\n\r\n\r\nIncompatibility\r\n===============\r\nAny mods changing \\\"UnderwaterImageSpace\\\".\r\n\r\n\r\n\r\nCredits\r\n=======\r\nThanks to Bethesda for creating Skyrim.\r\nThanks to skyrim.nexusmods.com\r\nThanks to LHammonds for the Readme Generator this file was based on.\r\n\r\n\r\nTools Used\r\n==========\r\nReadme Generator - http://HammondsLegacy.com/obmm/tools_readme_generator1.asp\r\nCreation Kit\r\n\r\n\r\nLicensing/Legal\r\n===============\r\nYou can do whatever you want with this mod but all I ask in return is that \r\nyou give me credit if you distribute any part of this mod.\r\nI would also like to know what mods are including my work.",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "AltheaR",
+  "createdUnix": "1334671070",
+  "updatedUnix": "1334671205",
+  "containsAdultContent": false,
+  "uploadedBy": "AltheaR",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "53987",
+      "name": "Lesser Blur Patch",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Lesser Blur Patch-15366-1-0.7z",
+      "uploadedUnix": "1334671133",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a68c9b0bd71c834422fc611df27c527dec18f8cc53395a7131a8bdab15d098c6/analysis/1406820140/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lesser%20Blur%20Patch-15366-1-0.7z?fid=53987&ttl=1535779706&ri=8192&rs=8192&setec=d4b80541147d86480605af67fea3033f"
+    },
+    {
+      "fileId": "53990",
+      "name": "Crystal Clear Patch",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Crystal Clear Patch-15366-1-0.7z",
+      "uploadedUnix": "1334671205",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d039ad3fe79bfd2485adade9206ab07f54b5f65ac056eb08884bbcc64dac792a/analysis/1406820140/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Crystal%20Clear%20Patch-15366-1-0.7z?fid=53990&ttl=1535779706&ri=8192&rs=8192&setec=dd42d301076e862fdd6ac8bcef7f5dab"
+    }
+  ]
+}

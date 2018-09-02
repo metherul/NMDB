@@ -1,0 +1,32 @@
+{
+  "modId": 29861.0,
+  "modName": "heljarchen Pet Wolf Cerberos",
+  "summary": "A white wolf with blue eyes that will serve you as a pet (follow,wait,trade,dismiss)",
+  "descriptionHtml": "I always wanted a white wolf pet in skyrim so I decided to make one.  Right now every command is working fine and I am trying to get the idle animations to work like the dogs (lay start, lay idle, lay end, etc...)\r\n\r\nThe pet is currently at heljarchen house but I am sure if you spawn it near your home it will override that, if not I can always make another plugin and remove my home marker to make it universal.\r\n\r\n[COLOR=green]Note: The name of the esp file is misleading because I screwed up \\\"PetDeathHound.esp\\\" is the file, but it does not modify any of the DeathHound files, in fact it just adds new Race, NakedAA and NPC with some dialogues.\r\n\r\nNote 2: Added the meshes and textures folders into the download I forgot to add those opps.  Should be good to go now any issues please let me know.\r\n[/COLOR]\r\n\r\n[size=10][color=red]About Cerberos & Commands:[/size][/color]\r\n[color=green]Where is he at?[/color]\r\n\r\nHe is by the side of the door at heljarchen (to the right)\r\n\r\nHe is .2 bigger than the rest of the wolves and has different textures. (good size for me)\r\n\r\nHe is marked as \\\"Essential\\\" meaning that he will take damage but not die, health bar will go down but when it reaches 0 he will not die.\r\n\r\n[color=green]The wolf has the following commands:[/color]\r\n\r\nFollow me: Cerberos will follow you like a dog, you can have another companion follow you as well.\r\n\r\nWait: Cerberos will wait for you anywhere you want, will protect any friends or allies that are in trouble while you are away.\r\n\r\nGive me everything you got, Dog: Cerberos will open up his inventory window so you can trade items (I will make it so that he can pick up items as well later on)\r\n\r\nTime to go home: Will send Cerberos back to heljarchen (or any other home which you spawned him at)\r\n\r\nNote that every command has a sound, usually a bark and when you dismiss Cerberos he will Howl just like a regular wolf.\r\n\r\nIf you are experienced with animations and want to help me out to make him do regular idle animations please contact me, thanks.",
+  "categoryId": "83",
+  "version": "",
+  "author": "sirxazor",
+  "createdUnix": "1358052772",
+  "updatedUnix": "1358107426",
+  "containsAdultContent": false,
+  "uploadedBy": "sirxazor",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000002108",
+      "name": "Cerberos Pet",
+      "version": "V1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3527",
+      "fileName": "Cerberos Pet-29861-V1.rar",
+      "uploadedUnix": "1358107426",
+      "modVersion": "V1",
+      "virusScanUrl": "https://www.virustotal.com/file/09c07dcc9779d1bd1048707cec8fc6c86e7e3e49e1807ee899b2689e91796fe4/analysis/1407351675/",
+      "changelogHtml": " made the plugin into a master file for the people having problems with the dialogue not showing. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Cerberos%20Pet-29861-V1.rar?fid=1000002108&ttl=1535804314&ri=8192&rs=8192&setec=c797a22fed1e4ee346b4233d04d0b78e"
+    }
+  ]
+}

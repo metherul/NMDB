@@ -1,0 +1,32 @@
+{
+  "modId": 3627.0,
+  "modName": "zzz-Lens Flare Effect-",
+  "summary": "Beautiful procedural lens flare effect makes magic and lights look more realistic. Adds more life to game visuals. Mod also features new bloom which makes outdoor scenes less yellowish and more lifelike.",
+  "descriptionHtml": "[img]http://img844.imageshack.us/img844/1200/62420609.jpg[/img]\r\n\r\n[size=4][b]DESCRIPTION[/b][/size]\r\nAll powerful light sources (sun, sky, spells, fire, candles) create beautiful procedural flare effect. It looks even more awesome in motion and during nighttime/in caves. Sky became lifelike and bright, your magic now looks really powerful and fires in the night are dancing with reflections!\r\nThe mod is actually a modified ENB series files with all other effects turned off. You don\\'t need to have ENB series installed, more to that, if you already have the ENB modification, your ENB settings will be overwritten so make a backup of your settings before installing this mod (if you have ENB installed).\r\n\r\n[youtube]AHJuAz9ihO4[/youtube]\r\nHere you can see how effect looks during daytime (notice dynamic halos around sky and other brights objects, spells, for instance).\r\n\r\n[youtube]MPNmabQ4yc4[/youtube]\r\nNight and interiors with the mod. Big thanks to SlimReaction for these vids.\r\n\r\n[size=4][b]INSTALLATION:[/b][/size]\r\n1. Unpack the archive to your Skyrim directory.\r\n2. Run your game once using launcher to initialize the mod (you don\\'t have to do it if you have ENB series working already).\r\n3. I suggest to lower you in-game brightness because the mod makes whole scene a bit brighter.\r\n4. Enjoy! :) Shift+F12 turns effects off/on.\r\n\r\n[size=4][b]UNINSTALLATION:[/b][/size]\r\n1. Delete d3d9.dll from the Skyrim directory.\r\n2. If you had FXAA injector mods (or similar) before installing Lens Flare mod, reinstall them to make them work.\r\n\r\n[size=4][b]TWEAKING:[/b][/size]\r\nThere are lines in enbseries.ini where you can adjust the intensity and sharpness of the effect: \r\n\r\nLenzReflectionPower - higher values make effect sharper and more concentrated on the light source.\r\nLenzReflectionIntensity - the higher it is, the brighter effect.\r\n\r\n[size=4][b]HOW TO USE IT WITH OTHER GRAPHICS MODS:[/b][/size]\r\nI receive a lot questions on how to make Lens Flare mod work with FXAA Injector or similar mods, because they use the identically named .dll file and don\\'t work together with Lens Flare out-of-the-box. So, here is the instruction. Open enbseries.ini and go to [PROXY] section. Find the lines below and make them look like this:\r\n\r\nEnableProxyLibrary=true - if set to true, then other d3d9 library can be used together with this patch. \r\nInitProxyFunctions=true - required to be true for most third party d3d9 libraries/mods \r\nProxyLibrary=fxaa.dll - file name of some other d3d9.dll, for example fxaa. Also rename other mod .dll file to same string you wrote here.\r\n\r\n[size=4][b]TROUBLESHOOTING:[/b][/size]\r\n1. If you have black artifacts appearing over the fog or water, open your SkyrimPrefs.ini (the one which is somewhere in My Documents/Games/Skyrim or so) and change the following line to 0:\r\nbFloatPointRenderTarget=0.\r\n2. If you have lags every couple of seconds with Lens Flare mod, and you are running Skyrim 4GB patch, try to revert from version 1.5 to 1.4.\r\n3. If you are playing game with MSAA enabled and experience low framerate, try to turn MSAA off and turn in-game FXAA on instead.\r\n4. To get a bit better speed for this version, set CyclicConfigReading=false in enbseries.ini file.\r\n\r\n---------------------------------------------\r\nThanks to Boris Vorontsov, the creator of ENB series. www.enbdev.com",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "Random Hurep",
+  "createdUnix": "1323834556",
+  "updatedUnix": "1323834967",
+  "containsAdultContent": false,
+  "uploadedBy": "randomhurep",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "10250",
+      "name": "skyrim_lensfx_v10",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2600",
+      "fileName": "skyrim_lensfx_v10-3627-1-0.rar",
+      "uploadedUnix": "1323834967",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/efaf6b06364b1001f06004635173c019f19cf4dd3f3e3f8cbf408c6a1215b172/analysis/1406517071/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/skyrim_lensfx_v10-3627-1-0.rar?fid=10250&ttl=1535758821&ri=8192&rs=8192&setec=ddda1baa1dfc0f193fb8b4787bb30138"
+    }
+  ]
+}

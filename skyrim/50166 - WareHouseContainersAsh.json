@@ -1,0 +1,32 @@
+{
+  "modId": 50166.0,
+  "modName": "WareHouseContainersAsh",
+  "summary": "Drag and Drop containers into YOUR mod.",
+  "descriptionHtml": "Who should use it:\r<br />\r<br />    Modders\r<br />    Anyone that does not want to fuss with .zip .rar, .bsa files.\r<br />    Anyone that does not want to figure out which folders their assets should be dropped in.\r<br />\r<br />When to use it:\r<br />\r<br />    At beginning of your mod creation. Before you make new meshes, scripts, forms, items, keywords; etc. for your mod.\r<br />\r<br />\r<br />=====================================================\r<br />*A tutorial has been written in [OPEN OFFICE] in a subfolder.\r<br />  It is for modders who have ALREADY made a mod and want to add potion racks to their mods.\r<br />  This will build the potion racks from scratch.  All items like keywords & scripts will be created from scratch.\r<br />======================================================\r<br />\r<br />\r<br />-------------------------------Beginners-----------------------------------\r<br />If building from scratch, sounds scary; then only do the following setup.\r<br />* Remember -  This only works if you have NOT saved a mod yet \r<br />\r<br />Setup:\r<br />\r<br />1.  Copy this .esp file to a safe location for BACKUP.\r<br />2.  Copy this file to your Skyrim Data folder.\r<br />3.  Rename the file in step 2, to the name of the mod that YOU are creating.\r<br />4.  Now, make your mod as normal, drag and drop my potions anywhere in your mod.\r<br />--------------------------------------------------------------------------------\r<br />\r<br />The potions are located in the INTERIOR cell called  warehousecontainersash.\r<br />\r<br />If you want, just for fun; you can COC warehousecontainersash when you are playing the\r<br />game to get a preview what they look like.\r<br />\r<br />\r<br />Credits:\r<br />\r<br />My patience. 3 months to figure this out&#33;\r<br />Creationkit Wiki\r<br />Creationkit\r<br />Creationkit warehouse where the bookshelves were. I took their examples and\r<br />retrofitted the scripts to be potion scripts.",
+  "categoryId": "82",
+  "version": "2",
+  "author": "Ashenfire",
+  "createdUnix": "1390290282",
+  "updatedUnix": "1406823372",
+  "containsAdultContent": false,
+  "uploadedBy": "Ashenfire",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000120043",
+      "name": "WareHouseContainersAsh",
+      "version": "2",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "1641",
+      "fileName": "WareHouseContainersAsh-50166-2.rar",
+      "uploadedUnix": "1406823372",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/0210309da2a30dfd8de40d4fbbf9f685e6d5ee3240346165fb30f340eac674b6/analysis/1406823438/",
+      "changelogHtml": " Added 29 Shelves <br/> \n Simplified Triggers to activate display. <br/> \n Fixed:  Potion Rack only remembered last property chosen then replaced previous racks with same property. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/WareHouseContainersAsh-50166-2.rar?fid=1000120043&ttl=1535831728&ri=8192&rs=8192&setec=5db7ba0e9eccdaf3e8b8e5300ad33cef"
+    }
+  ]
+}

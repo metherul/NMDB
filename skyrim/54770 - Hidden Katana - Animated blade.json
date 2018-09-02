@@ -1,0 +1,32 @@
+{
+  "modId": 54770.0,
+  "modName": "Hidden Katana - Animated blade",
+  "summary": "Adds a new, telescopic katana to the game. It is animated so that when sheathed, the blade is folded up inside the hilt and then when drawn, it springs out ready for action.",
+  "descriptionHtml": "[center][img]https://dl.dropboxusercontent.com/u/108612676/HiddenBladeLogo.png[/img][/center]\r<br />\r<br />[center][youtube]bq7jR3htF2E[/youtube][/center]\r<br />\r<br />[img]https://dl.dropboxusercontent.com/u/108612676/HiddenBladeRequirements.png[/img]\r<br />- Latest version of [url=http://skse.silverlock.org/]SKSE[/url]\r<br />- EITHER [url=http://www.nexusmods.com/skyrim/mods/29624/?]RaceMenu[/url] OR [url=http://skyrim.nexusmods.com/mods/37481/]NetImmerse Override[/url]\r<br />\r<br />\r<br />[img]https://dl.dropboxusercontent.com/u/108612676/HiddenBladeDescription.png[/img]\r<br />This mod adds a new katana to the game. What makes it unique is that the blade is animated. When sheathed, the blade remains folded up inside the hilt of the weapon. Then when you draw, the blade automatically springs out, ready for action. Think of it like a medieval Jedi Lightsaber :P\r<br />\r<br />Currently, the only way to obtain one is through the forge. It will be found under the Dwarven category once you unlock the steel smithing perk. The material cost is 1x Leather Strips, 1x Steel Ingot and 2x Dwarven Ingot.\r<br />\r<br />The katana is set up to be temper-able, the cost being 1 Dwemer Metal Ingot. It should also be enchant-able, the same as any other sword. It can only be equipped in the right hand. Finally, I haven&#39;t tested this yet, but in theory it has been set up to work for other NPC&#39;s not just the Player. So you should be able to give these to your followers.\r<br />\r<br />At a later date I will release a new version which incorporates the sword into the world a bit more by making you earn it through a small fetch quest.\r<br />\r<br />\r<br />[img]https://dl.dropboxusercontent.com/u/108612676/HiddenBladeCheating.png[/img]\r<br />Skip the forge and add one directly to your character by typing the following into the console (replace &#34;xx&#34; with the mod&#39;s load order index):\r<br />[code]player.AddItem xx000D65 1[/code]\r<br />\r<br />\r<br />[img]https://dl.dropboxusercontent.com/u/108612676/HiddenBladeNotes.png[/img]\r<br />- The need for SKSE and the NetImmerse Override plugin is due to having to work around a certain limitation with the engine.\r<br />- This mod hs been cleaned with Tes5Edit\r<br />\r<br />\r<br />[img]https://dl.dropboxusercontent.com/u/108612676/HiddenBladeCredits.png[/img]\r<br />- A special mention needs to go out to Anton0028 for his animation tools and for all his help with this project. Without him this mod would not have come to fruition. Thanks&#33;",
+  "categoryId": "55",
+  "version": "v1.0",
+  "author": "Hypno",
+  "createdUnix": "1402420769",
+  "updatedUnix": "1402420761",
+  "containsAdultContent": false,
+  "uploadedBy": "hypno88",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000112525",
+      "name": "HiddenKatana",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "886",
+      "fileName": "HiddenKatana-54770-v1-0.7z",
+      "uploadedUnix": "1402420761",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/096c8eb23dba0262c531163df2fc34ec9b9e797850614811ae6edbb8f2bd4d12/analysis/1408120900/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HiddenKatana-54770-v1-0.7z?fid=1000112525&ttl=1535839236&ri=8192&rs=8192&setec=0ddfe08bfd7dd0d79de61c0739ad7acc"
+    }
+  ]
+}

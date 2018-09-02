@@ -1,0 +1,32 @@
+{
+  "modId": 10239.0,
+  "modName": "Bethesda HD textures redux",
+  "summary": "Repackage the HD texture files keeping only the diffuse textures to allow owners of outdated PCs to use higher resolution textures without incurring into performance problems.",
+  "descriptionHtml": "Bethesda HD texture redux\r\n-------------------------\r\n\r\nThis is a cut down version of Bethesda HD texture pack for Skyrim.\r\nIt aims at improving Skyrim visuals while, at the same time, allowing\r\nPC users with old systems to benefit from higher resolution textures.\r\n\r\nHow it was done\r\nIn Skyrim the so called diffuse textures (the ones containing the color\r\nand the details of objects) are still the most important. For this reason,\r\nanywhere it was possible or it made sense, textures with a dimension of\r\n2048x2048 pixels were retained. At the same time normal and specular maps\r\nwere excluded right from the start so, with this texture pack installed,\r\nthe default normal maps from the game will be applied instead (which\r\nusually are at 1/2 of the resolution of the improved textures).\r\n\r\nMany textures have been analyzed to determine how it was possible to save\r\nspace without compromising too much quality. For example,DXT1 (1 bit alpha)\r\nwas used extensively over DXT3 resulting in texture file size twice as small.\r\n\r\nFor the same reason, textures used on weapons were scaled back to 1024x1024\r\npixels as the difference between them and the larger ones shipped with the\r\nHD texture pack is small even if they consume 4 times as much video memory. \r\n\r\nWho need this MOD?\r\n------------------\r\nSkyrim users with outdated hardware or GPUs with an onboard memory of 1GB. \r\n\r\nThis pack was developed by the author to play Skyrim, with the enhanced\r\nvisual provided by the HD texture pack, on his three years old laptop with a\r\nATi 4650 GPU and only 1 GB of dedicated video memory.\r\n\r\nUsage\r\n-----\r\nExtract the .bsa and .esp files and copy them into the \\\\Skyrim\\\\data folder\r\nDon\\'t forget to manually activate the .esp in the Skyrim launcher.\r\n\r\nVersion history\r\n-----------------\r\n\r\nV0.97 : Fixed alpha channel issue in the male version of the glass armor\r\n\r\n\r\nV0.95 : Fixed some bugs\r\n\r\n- Blacksmith apron still used the default textures because the newer set was\r\n  misplaced into the wrong directory\r\n- Fixed a problem with the alpha layer of Nocturnal statue texture.\r\n- Elk and fox textures redone\r\n\r\nv0.90 : Initial release\r\n\r\n\r\nCREDITS GOES TO Bethesda for creating The Elder Scrolls V: Skyrim\r\n\r\nThe textures contained within this pack are based on artwork made by Bethesda\r\nSoftworks and must be used solely in conjunction with TES V: Skyrim. Usage of\r\nthis package or part of it with any other software or third part creation is\r\nforbidden.\r\n\r\nRedistribution and alteration of this package is likewise not permitted.\r\n\r\nThis piece of software is distributed \\\"as is\\\".\r\n\r\n",
+  "categoryId": "29",
+  "version": "0.97",
+  "author": "MSxyz",
+  "createdUnix": "1329569406",
+  "updatedUnix": "1331054818",
+  "containsAdultContent": false,
+  "uploadedBy": "msxyz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "40788",
+      "name": "HDTexRedux",
+      "version": "v0.97",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "452816",
+      "fileName": "HDTexRedux-10239-v0-97.zip",
+      "uploadedUnix": "1331054818",
+      "modVersion": "v0.97",
+      "virusScanUrl": null,
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HDTexRedux-10239-v0-97.zip?fid=40788&ttl=1535770470&ri=8192&rs=8192&setec=397e1a9afcf6a01ed7cf9fec9ea76b35"
+    }
+  ]
+}

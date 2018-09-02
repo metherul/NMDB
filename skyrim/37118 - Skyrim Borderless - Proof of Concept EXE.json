@@ -1,0 +1,32 @@
+{
+  "modId": 37118.0,
+  "modName": "Skyrim Borderless - Proof of Concept EXE",
+  "summary": "Allows borderless, fullscreen Skyrim playing, and hides/restores mouse cursor in prevention of the \\\"double cursor\\\" glitch.  Proof of concept file, not final release.",
+  "descriptionHtml": "The end plan is, a mod that adds an \\\"options\\\" entry into the Skyrim Main Menu.  A useful one, in any case.\r\n\r\nAmongst other things would be the ability to adjust the resolution of the game, while within the game menu.  Obviously, this would mean having the game file then make a call to a third-party program.  This is a proof of concept that this can be done.\r\n\r\nWithin the package, use \\\"Skyrim Borderless.exe\\\" to begin.  Ensure that your SkyrimPrefs.ini has the following entries in under \\\"[Display]\\\"\r\n\r\nbFull Screen=0\r\niSize H=1080\r\niSize W=1920\r\n\r\nThe two iSize entries should match your own resolution.\r\n\r\nRequires SKSE.  Will not function without it (or editing Launcher.bat to launch TESV.exe for example)\r\n\r\nEdit 12-Jun-13) Should mention.  This is only tested on Windows 7, 64bit.  That said, I don\\'t remember there being any code that should cause headaches for people.",
+  "categoryId": "39",
+  "version": "Proof.1",
+  "author": "Khormin",
+  "createdUnix": "1370983239",
+  "updatedUnix": "1370982394",
+  "containsAdultContent": false,
+  "uploadedBy": "Khormin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000033845",
+      "name": "Skyrim Borderless",
+      "version": "Proof.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "210",
+      "fileName": "Skyrim Borderless-37118-Proof-1.7z",
+      "uploadedUnix": "1370982394",
+      "modVersion": "Proof.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7d9d83226d487cd206a30f7f3265ac00edd4bdf734a74de4aa6d6c7d0b99b590/analysis/1407600497/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Borderless-37118-Proof-1.7z?fid=1000033845&ttl=1535816601&ri=8192&rs=8192&setec=6ff4c800610c4c16b657fa23e1940dc7"
+    }
+  ]
+}

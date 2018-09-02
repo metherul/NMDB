@@ -1,0 +1,48 @@
+{
+  "modId": 89733.0,
+  "modName": "Random Encounter Tweaks",
+  "summary": "Some small tweaks to the random encounters.",
+  "descriptionHtml": "This mod changes the following:\n<br />\n<br />1. Thalmor vs Player (Three Thalmor  with an [url=http://en.uesp.net/wiki/Skyrim:Justiciar_Execution_Order]execution order[/url] hunt you down and attempt to kill you.) \n<br />-&gt; Changed condition from \"Player level 8\" to \"having completed Diplomatic Immunity\". \n<br />This is done for Thalmor/non-Dragonborn playthroughs.\n<br />v1.1 -&gt; added new condition: having completed \"Missing in Action\".\n<br />\n<br />2. Farmer refugees after Dragon attack (A farmer and his wife either walking along the road, or resting in an inn, after their farm was destroyed by a dragon) \n<br />-&gt; Changed condition from \"Player level 4\" to \"having completed Dragon Rising\". \n<br />This is done for non-Dragonborn playthroughs.\n<br />\n<br />3. Thief lock picking (A thief attempting to pick a locked door is discovered by guards. The guards will attack him and try to kill him. Sometimes he may escape into a house/shop.)\n<br />-&gt; Removed condition \"having completed a Chance Arrangement\".\n<br />This is done to see thieves even without doing the Thieves' Guild quests.\n<br />\n<br />4. Skooma dealer (A skooma dealer (named for their race) attempts to sell you skooma)\n<br />-&gt; Give him/her a chance to spawn with 1 or 2 shivs.\n<br />This is done to make it a bit more challenging.\n<br />\n<br />5. (v1.1) Dark Brotherhood Assassin Sent to Kill the Player\n<br />-&gt; Raised minimum required player level from 5 to 25. Gave it 50% less chance of happening.\n<br />\n<br />For a list of all random encounters, see [url=http://en.uesp.net/wiki/Skyrim:Random_Encounters]here[/url].",
+  "categoryId": "35",
+  "version": "1.1",
+  "author": "AndrealphusVIII",
+  "createdUnix": "1519166419",
+  "updatedUnix": "1524924507",
+  "containsAdultContent": false,
+  "uploadedBy": "AndrealphusVIII",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000266809",
+      "name": "Random Encounter Tweaks",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Random Encounter Tweaks-89733-1-0.7z",
+      "uploadedUnix": "1519166285",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7ed534407c45a35b254ab4de4e8b19fc4bba9837ba7f5262fbbaf091e34a87bd/analysis/1519166583/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Random%20Encounter%20Tweaks-89733-1-0.7z?fid=1000266809&ttl=1535879594&ri=8192&rs=8192&setec=acac79cd27aa5e822cd826aa085b31af"
+    },
+    {
+      "fileId": "1000271710",
+      "name": "Random Encounter Tweaks",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Random Encounter Tweaks-89733-1-1.7z",
+      "uploadedUnix": "1524924507",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/85f382ea42f094ec996b860e1a61956b29570634450e1991ae6bf6dee4cc807a/analysis/1524924555/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Random%20Encounter%20Tweaks-89733-1-1.7z?fid=1000271710&ttl=1535879594&ri=8192&rs=8192&setec=a2097e91b8cebb31f93c963688704fd0"
+    }
+  ]
+}

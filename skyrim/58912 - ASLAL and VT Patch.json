@@ -1,0 +1,32 @@
+{
+  "modId": 58912.0,
+  "modName": "ASLAL and VT Patch",
+  "summary": "If you&#39;re using Alternate Start - Live Another Life and Vampiric Thirst together you may encounter a problem starting as a Vampire at Maras Eye Pond. This little patch prevents you from getting eaten right away. ",
+  "descriptionHtml": "[size=4]Patch for Alternate Start - Live Another Live ([b]2.5.2a[/b]) in combination with Vampiric Thirst (2.61)[/size]\r<br />Version 0.1\r<br />\r<br />[b][u]Description[/u][/b]\r<br />\r<br />Combined, these modifications [b]may[/b] lead to a problem at the Maras Eye Pond as a vampire (ASLAL: &#34;Secluded Lair&#34;-Option). After choosing to spawn as a vampire in said lair you get attacked by the occupants, or at least some of you as I&#39;ve not found that much regarding this issue. Therefore I&#39;ve wrote a little Patch which puts every occupant into a newly created faction so they won&#39;t attack you. \r<br />\r<br />[u][b]Requirements[/b][/u]\r<br />\r<br />Since I&#39;m not adding but just fixing things up you don&#39;t need to install anything else for this to work, but I&#39;ll write it down nonetheless:\r<br />- SKSE\r<br />- Dawnguard\r<br />- Alternate Start - Live Another Life\r<br />- Vampiric Thirst \r<br />\r<br />[b][u]Install\r<br />\r<br />[/u][/b]If you use NMM, then simply add the Archive to your list and activate the mod. \r<br />If you don&#39;t use NMM, \r<br />   (1) copy the .esp-file into your [b]&#34;Skyrim/Data&#34;[/b] folder and \r<br />   (2) copy the file name into your plugins.txt and loadorder.txt located in &#34;%LOCALAPPDATA%&#92;Skyrim&#34; or activate it through your Skyrim Launcher.\r<br />\r<br />[u][b]Uninstall\r<br />\r<br />[/b][/u]Just remove the .esp-file. It doesn&#39;t alter anything in your savegame and therefore should be not causing any problems.\r<br />\r<br />[u][b]TODO\r<br />\r<br />[/b][/u]Factions are not considered right now, e.g. random Vigilants of Stendarr in the cages could get friendly, not tested, though.\r<br />\r<br />If you happen to have an idea what needs to be fixed or if things don&#39;t seem to work anymore because of a new version of ASLAL or VT, let me \r<br />know&#33;\r<br />\r<br />[u][b]Credits[/b][/u]\r<br />\r<br />.. go out to Arthmoor for his great mod Alternate Start and of course MsLeeches for her great Vampiric Thirst (I loved VtMB). ",
+  "categoryId": "24",
+  "version": "0.1",
+  "author": "teslaCova",
+  "createdUnix": "1412970211",
+  "updatedUnix": "1412970207",
+  "containsAdultContent": false,
+  "uploadedBy": "teslaCova",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000130356",
+      "name": "ASLAL - VT - MEP Patch (v0.1)",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "ASLAL - VT - MEP Patch (v0.1)-58912-0-1.zip",
+      "uploadedUnix": "1412970207",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7638386d3ea7b14fb0cdbee77f60d3ed3521df4c69894be7dd475e454a422e9b/analysis/1412970303/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ASLAL%20-%20VT%20-%20MEP%20Patch%20%28v0.1%29-58912-0-1.zip?fid=1000130356&ttl=1535845829&ri=8192&rs=8192&setec=fd232a2bc28acc3a9ee41e09712a7716"
+    }
+  ]
+}

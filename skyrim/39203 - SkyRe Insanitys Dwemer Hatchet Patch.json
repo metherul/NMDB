@@ -1,0 +1,48 @@
+{
+  "modId": 39203.0,
+  "modName": "SkyRe Insanitys Dwemer Hatchet Patch",
+  "summary": "Integrates InsanitySorrow\\'s Dwemer Weapons into T3nd0 Skryim Redone by re-balancing beyond what the current Reproccer is capable of (materials, costs, and tome perk requirements) and converting SkyRe\\'s Eastern Dwemer War Axe into a Hatchet.",
+  "descriptionHtml": "[center][IMG]http://i.imgur.com/rySJwMH.png[/IMG][/center]\r\n\r\n[center][size=5][color=red]Requires BOTH [url=http://skyrim.nexusmods.com/mods/9286/]Skyrim Redone 1.0+[/url] and [url=http://skyrim.nexusmods.com/mods/35854/]Insanitys Dwemer Weapons[/url] to be downloaded and installed[/size][/color][/center]\r\n\r\n[center][color=yellow]While not required, it is still recommended you run the [url=http://skyrim.nexusmods.com/mods/28467/]ReProccer[/url] to balance these weapons, they do have the proper SkyRe tags but your ReProccer stats may be different then mine.[/color][/center]\r\n\r\n[b][u]What does this plugin contain?[/u][/b]\r\nSkyRe already has some Eastern Dwemer Weapons but by luck/coincidence InsanitySorrow created some amazingly beautiful [url=http://skyrim.nexusmods.com/mods/35854/]Dwemer Weapons[/url] which integrate almost perfectly in the Skyrim Redone universe.  However, it did contain a duplicate weapon (War Axe) and even though the [url=http://skyrim.nexusmods.com/mods/28467/]ReProccer[/url] can stat wise balance them and tag these correctly, it lacked the ability to adjust the perk requirements of SkyRe (finding a specific tome in order to craft these) along with balancing the materials with the costs in line with the original Eastern Dwemer weapons in SkyRe.  \r\n\r\nThis plugin aims to better integrate the 2 mods together by fixing the above issues in the following ways:\r\n\r\n- Adjusting the value, crafting materials, and leveled lists in line with SkyRe\\'s balance of Eastern Dwemer weapons.  In general this meant greatly increasing the value of InsanitySorrow\\'s items, adding more expensive crafting materials to their recipes, adding the tome requirement in order to craft them, and removing InsanitySorrow\\'s items from leveled lists as in SkyRe they are generally only obtained through crafting.\r\n- Convert SkyRe\\'s existing Eastern Dwemer War Axe to a Hatchet as InsanitySorrow included one in his plugin and the SkyRe version looks more like a hatchet to me.  This solves both the duplicate item issue along with filling out a missing item for perks.  I did this by scaling down the existing SkyRe model slightly in Nifskope and then overriding SkyRe\\'s record.\r\n\r\n[color=yellow]Closing Thoughts[/color]\r\nThis is a pretty simple and straightforward mod.  If you hate the hatchet idea I may make another version that is a straight override of SkyRe.\r\n\r\nThanks!",
+  "categoryId": "36",
+  "version": "1.1",
+  "author": "tortugapir8",
+  "createdUnix": "1375214707",
+  "updatedUnix": "1375621578",
+  "containsAdultContent": false,
+  "uploadedBy": "tortugapir8",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000042508",
+      "name": "Dual Sheath Redux Patch",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "59",
+      "fileName": "Dual Sheath Redux Patch-39203-1-0.rar",
+      "uploadedUnix": "1375214492",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6a5f62e44ba74e993519428013c98e7d94a946329d3cbc42c7f44b399c9cbba6/analysis/1407661932/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dual%20Sheath%20Redux%20Patch-39203-1-0.rar?fid=1000042508&ttl=1535819634&ri=8192&rs=8192&setec=0cac94040c5123af29c72092f9441ec2"
+    },
+    {
+      "fileId": "1000044083",
+      "name": "Main File",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Main File-39203-1-1.rar",
+      "uploadedUnix": "1375621578",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d775d2ded96e05b11ed1fc6b801d870391c9c43748f924a9826ea551270850c8/analysis/1407668588/",
+      "changelogHtml": " Added missing shortsword keyword <br/> \n Updated all Insanity weapons to have the default SkyRe speed and range <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Main%20File-39203-1-1.rar?fid=1000044083&ttl=1535819635&ri=8192&rs=8192&setec=302142cd69b8aed28585fd5bc109955d"
+    }
+  ]
+}

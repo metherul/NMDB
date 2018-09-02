@@ -1,0 +1,48 @@
+{
+  "modId": 46166.0,
+  "modName": "Avalanche Spell",
+  "summary": "Do you enjoy boulder rolling or like to crush your enemies? This new destruction spell aims to satisfy your violent side.",
+  "descriptionHtml": "Avalanche (or Boulder Maelstrom)\r<br />\r<br />For all you lovers of boulder rolling this is the spell for you&#33;&#33;&#33;\r<br />\r<br />It is a destruction spell that creates an eruption of boulders at your target, each boulder will inflict damage to anything in its way. The way you use this spell is up to you, if it&#39;s casting at the roof above your enemies head or directly at them for a usual instant kill. It&#39;s up to you the way you use this spell.\r<br />\r<br />Requirements:\r<br />Skyrim V1.9\r<br />\r<br />Location:\r<br />The spell can be found in Ragnvald Temple, Skuldafn Temple, or the Arch-Mage&#39;s Quarters, see screen shots.\r<br />\r<br />Conflicts: Only if other mods have changed the insides where the spell book can be found.\r<br />\r<br />Notes:\r<br />To the best of my ability I have tried to make this so that it won&#39;t cause bloating of your savegame I can&#39;t guarantee that it won&#39;t so consider yourself a Beta tester, if I find that it isn&#39;t causing bloat (shouldn&#39;t) I will remove this note. If it is then there is precious little I can do to negate it. I would appreciate feedback about the cost of this spell vs damage / power. It was a toss up between if it should be alteration or destruction, I settled on destruction as I consider pure destruction mages get a raw deal in Skyrim and it is violent. When considering the balance of this spell I kept in mind that - yes you can insti-kill with it but there is a chance that cast above your enemy the boulders can miss.\r<br />\r<br />Under the Hood:\r<br />It works by spawning an activator which then in turn spawns the numerous boulders and then disables and deletes itself. Each boulder is scripted to apply trap damage and after the area unloads the 3D graphics they are all scripted to disable and delete themselves. I have checked their ID&#39;s and according to current modding wisdom shouldn&#39;t be persistent.\r<br />\r<br />Future Plans: Adjust damage / cost by consensus, work on dealing with bloat (if any)\r<br />\r<br />Enjoy&#33;&#33;  ",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "Mindboggles",
+  "createdUnix": "1383362823",
+  "updatedUnix": "1383534591",
+  "containsAdultContent": false,
+  "uploadedBy": "mindboggles",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000073986",
+      "name": "Avalanche Spell",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Avalanche Spell-46166-1-0.7z",
+      "uploadedUnix": "1383362661",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/da4d9b07d294b3bd23a74f1173706d36e554c892c2b6793edc232699b877d143/analysis/1407777844/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Avalanche%20Spell-46166-1-0.7z?fid=1000073986&ttl=1535826497&ri=8192&rs=8192&setec=b6b621820786ce98da1ec7562e19f06a"
+    },
+    {
+      "fileId": "1000074807",
+      "name": "Avalanche Spell with Glyph",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Avalanche Spell with Glyph-46166-1-1.7z",
+      "uploadedUnix": "1383534591",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/be2fe32ea337f32944e3ddef44599b792e675d7fc3410fab3b8607e02cdcb8ba/analysis/1407780160/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Avalanche%20Spell%20with%20Glyph-46166-1-1.7z?fid=1000074807&ttl=1535826498&ri=8192&rs=8192&setec=4c7f3087c4dca8cf0932ff9b2abba192"
+    }
+  ]
+}

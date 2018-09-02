@@ -1,0 +1,32 @@
+{
+  "modId": 61685.0,
+  "modName": "Mesh Tool N7 - NIF Healer",
+  "summary": "Tool to fix issues with indexes in NIF files to prevent CTD.",
+  "descriptionHtml": "[b][u][size=4][color=#ffd966]Description:[/color][/size][/u][/b]\r<br />This tool allow you to auto-check indexes of the NIF blocks: [[b][color=#6fa8dc]NiNode[/color][/b]], [[color=#6fa8dc][b]BSFadeNode[/b][/color]] и [[color=#6fa8dc][b]NiTriShape[/b][/color]] which are used to point to a name of this block.\r<br />If such index will be out of range of array of names in the Header of the NIF file, you will get [b][color=#ff7700]CTD[/color][/b] in game or Creation Kit.\r<br />These issues are rare but incredibly hard to find. \r<br />This tool searchs for this issue and fix it by giving a new name and index to the corrupted block.\r<br />Also it will add a new name to a [[color=#6fa8dc][b]NiTriShape[/b][/color]] block if there was no name before (to prevent issues with such NIF file in Creation Kit).\r<br />\r<br />These issues with indexes appears when you copy blocks with Nifskope from one NIF file to another with different quantity of strings in Header.\r<br />\r<br />[size=4][u][b][color=#ffd966]How to use it:[/color][/b][/u][/size]\r<br />- unpack this tools to any folder\r<br />- copy to &#34;[color=#6fa8dc][b]&#92;in[/b][/color]&#34; folder all NIF files you wish to check (with subfolders if needed)\r<br />- run &#34;[b][color=#6fa8dc]Run.bat[/color][/b]&#34;\r<br />- fixed files will appear in &#34;[color=#6fa8dc][b]&#92;out[/b][/color]&#34; folder in appropriate subfolders",
+  "categoryId": "39",
+  "version": "1.00",
+  "author": "Anton",
+  "createdUnix": "1421309374",
+  "updatedUnix": "1421247428",
+  "containsAdultContent": false,
+  "uploadedBy": "Anton0028",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000142838",
+      "name": "NIF Healer",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "415",
+      "fileName": "NIF Healer-61685-1-00.zip",
+      "uploadedUnix": "1421247428",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/dc8a3b475c5375268b4fe8fdd9d893be51fdbcfa562d3f93a0fbbb693fcfd3f3/analysis/1421271561/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NIF%20Healer-61685-1-00.zip?fid=1000142838&ttl=1535850175&ri=8192&rs=8192&setec=452ed442b1dfdad42a93ab56ce7c1f15"
+    }
+  ]
+}

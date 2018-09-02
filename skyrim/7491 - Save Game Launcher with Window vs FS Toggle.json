@@ -1,0 +1,32 @@
+{
+  "modId": 7491.0,
+  "modName": "Save Game Launcher with Window vs FS Toggle",
+  "summary": "A script to toggle window vs. fullscreen mode as well as the ability to change save game folders.\r\n\r\nI long and silly title, I know, but I couldn\\'t think of anything shorter.",
+  "descriptionHtml": "==============================================================================\r\nDescription:\r\n\r\nTired of editing your SkyrimPrefs.ini file just to switch between full-screen\r\nand windowed mode?\r\n\r\nAre you also tired of editing your Skyrim.ini just to switch save-game\r\nfolders?\r\n\r\nIf so, then \\\"Skyrim Save Game and Toggle Window Launcher\\\" is for you.\r\n\r\nIn anticipation of the Creation Kit, I suspect I will be switching back and\r\nforth between these options.  Therefore, I created this script to make\r\nmy life (and maybe yours) a little easier.  This launcher does not require\r\n.NET 4.0.  It is not an awesome Save Game Manager like:\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=365\r\nIt does not have fancy graphics integration like:\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=1614\r\n\r\nIt is however a simple HTML Application with VBScript that reads both of your\r\n.INI files and displays the current settings for:\r\n\\\"bFull Screen=\\\"\r\nand\r\n\\\"SLocalSavePath=\\\"\r\n\r\nIt then gives you the option to toggle your video mode via radio button.\r\nYou also have the option to change your current save game folder.\r\n\r\nFinally, you can launch the game by clicking on the button...\r\n\r\nBUT WAIT!  There\\'s more...\r\nBy default, this launcher will start tesv.exe.  If you are running windowed\r\nmode and have sbw.exe in the same directory as tesv.exe\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=4\r\nthis script will launch sbw.exe instead.\r\n\r\nLikewise, if you are running in full-screen mode and skse_loader.exe is in the\r\nsame folder as the rest, then skse_loader.exe will be used.\r\n\r\n==============================================================================\r\nNote:\r\n\r\nThe Save Game Manager only manages folders.  It does not manage individual\r\nsave game files.  In other words, once you set the save game folder for \r\na particular character, all save files for that character will go\r\ninto that folder.\r\n\r\n==============================================================================\r\nFiles:\r\n\r\nSkyrimSGandToggleLauncher.hta - The script.\r\nSkyrimSGandToggleLauncher.png - Sample picture.\r\nSkyrimSGandToggleLauncher.txt - This file.\r\n\r\n==============================================================================\r\nInstallation:\r\n\r\nUnzip SkyrimSGandToggleLauncher.hta into your game application folder.  \r\nNot the Data folder, the one above it.  It\\'s the one that has tesv.exe.\r\n(It\\'s usually something like:  C:\\\\Games\\\\Steam\\\\steamapps\\\\common\\\\skyrim)\r\n\r\nDouble-click on the application, create a shortcut for it or whatever.\r\n\r\nUninstall: Simply delete all SkyrimSGandToggleLauncher.* files.\r\n\r\nI hope you find this useful.\r\n==============================================================================\r\n",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "Rexcellent",
+  "createdUnix": "1328036703",
+  "updatedUnix": "1328036865",
+  "containsAdultContent": false,
+  "uploadedBy": "Rexcellent",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "24687",
+      "name": "File for Save Game Launcher and Toggle Window vs FS",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "27",
+      "fileName": "File for Save Game Launcher and Toggle Window vs FS-7491.zip",
+      "uploadedUnix": "1328036865",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8e53971fd9b33de1a3402cd01235313a19dae7c1180017e582afea4bb24d63c2/analysis/1406647142/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/File%20for%20Save%20Game%20Launcher%20and%20Toggle%20Window%20vs%20FS-7491.zip?fid=24687&ttl=1535765567&ri=8192&rs=8192&setec=52748fdb44d97aff2a906ba2e4041630"
+    }
+  ]
+}

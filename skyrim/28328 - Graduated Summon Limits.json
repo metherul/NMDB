@@ -1,0 +1,32 @@
+{
+  "modId": 28328.0,
+  "modName": "Graduated Summon Limits",
+  "summary": "Allows you to increase the limits on how many creatures you can summon/reanimate gradually with perks.",
+  "descriptionHtml": "--Installation--\r\nIs standard:  Just drop the .esp in your Data folder.\r\n\r\n--Description--\r\nThis mod allows you to gradually increase your summon limits via Conjuration perks.  It is not particularly balanced, but doesn\\'t go too far over the top, I hope.\r\n\r\nAn effect is added to the perks Apprentice Conjuration, Adept Conjuration, Expert Conjuration, and Master Conjuration. Each increase the limit on how many summoned or reanimated creatures you can have at a time for spells of a rank lower than the perk\\'s name.  Each perk increases the limit by one and is cumulative with each other perk.  For example, after taking the Apprentice Conjuration perk, you will be able to summon up to 2 creatures via Novice rank spells, but only 1 for all higher ranks; if you then take Adept Conjuration, you\\'ll be able to summon 3 Novice rank creatures, or 2 Apprentice, and 1 for all higher ranks, and so on.  Note that this only applies to spells that actually use these perks to reduce Magicka costs- which should be all summoning spells unless you\\'ve got some that have been added by a mod (although it will work with mod-added spells too, as long as they are set up to use the appropriate casting perks).\r\n\r\nI have done only a little testing on using spells of differing ranks simultaneously, but it seems the limit-check is made when each spell is cast, and only for that spell.  For example: If you currently have Apprentice Conjuration and no higher perks, then your limits are at 2 Novice, 1 all else.  Let\\'s say you cast Conjure Familiar (rank Novice), then cast Conjure Flame Atronach (rank Apprentice).  When you summon the Flame Atronach, the game checks the summon limit going by the rank of the Flame Atronach spell.  Since that spell is rank Apprentice, and your limit on Apprentice spells is 1, the game counts how many creatures you\\'ve got summoned (2), sees that you\\'ve got one too many, and fizzles the oldest (the Familiar).  Now, if you try to summon the Familiar again, the game will check the limit again, but this time it will do so by the Novice rank, seeing that the limit is 2 and that you\\'ve got 2 creatures summoned, it allows them both to remain.\r\n\r\nAgain, I\\'ve only done a little testing with this.\r\n\r\nThe Twin Soul perk has been changed to increase the limit for all Conjuration spells by one, rather than its vanilla behavior of simply setting the limit to 2.  Functionally, it is unchanged.  This was only necessary to ensure that it stacks properly and doesn\\'t override the other perks.  Its name has also been changed to More Souls which makes a little more sense in the circumstances.\r\n\r\n--Compatibility--\r\nThis mod alters the following objects:\r\n\r\nConjurationApprentice - the Apprentice Conjuration perk\r\nConjurationAdept - the Adept Conjuration perk\r\nConjurationExpert - the Expert Conjuration perk\r\nConjurationMaster - the Master Conjuration perk\r\n\tFor all four of these: added the effect of increasing the limit on summoned/reanimated creatures by one for all spells ranked lower than the perk.  Note that the normal cost-halving effects of these perks are unchanged, and ConjurationNovice is completely unchanged.\r\n\r\nTwinSouls - the Twin Souls perk\r\n\tAdds 1 to the summon limit.  Stacks with all other increases.  Named changed to More Souls.",
+  "categoryId": "93",
+  "version": "1.0",
+  "author": "King Lazer",
+  "createdUnix": "1355537973",
+  "updatedUnix": "1355538068",
+  "containsAdultContent": false,
+  "uploadedBy": "KingLazer",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "105247",
+      "name": "Graduated Summon Limits",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Graduated Summon Limits-28328-1-0.zip",
+      "uploadedUnix": "1355538068",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/189df9f755818b5636de9d24e7902e3e52ca4fe11d7c4b97cd7e4b6d827ae192/analysis/1407304658/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Graduated%20Summon%20Limits-28328-1-0.zip?fid=105247&ttl=1535801651&ri=8192&rs=8192&setec=8b99131c4c7d6d9097e2da80432a6643"
+    }
+  ]
+}

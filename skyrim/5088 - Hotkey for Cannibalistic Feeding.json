@@ -1,0 +1,32 @@
+{
+  "modId": 5088.0,
+  "modName": "Hotkey for Cannibalistic Feeding",
+  "summary": "No more stupid Feed/Search messagebox&#33;",
+  "descriptionHtml": "[b][size=5]Hotkey for Cannibalistic Feeding[/size][/b]  [size=1]beta[/size]\r<br />\r<br />[u]Description[/u]\r<br />\r<br />Mod removes this annoying mouse-only-and-all-keyboard-controls-disabled dialog, where you can choose Feed or Search while having Ring of Namira on.\r<br />\r<br />[img]http://i27.fastpic.ru/big/2012/0101/75/3f0abfb1b044ac7e27783999f5c81c75.jpeg[/img]\r<br />\r<br />Mod detects when ring is used and removes Cannibal perk gained from it.\r<br />You still can feed by pressing X while standing near the dead body and pointing to it (hotkey is configurable from the mod&#39;s ini file).\r<br />\r<br />[u]Installation instructions[/u]\r<br />\r<br />1. Mod needs [url=http://alexander.sannybuilder.com/?category=other&altname=skyrim_script_dragon][b]Script Dragon[/b][/url] to be installed.\r<br />\r<br />2. Copy hotkeyfeed.asi and hotkeyfeed.ini to game&#39;s root folder.\r<br />\r<br />3. That&#39;s all :)\r<br />\r<br />[u]Known issues[/u]\r<br />\r<br />[b]Your character must stand over the dead body looking down on it for successful feeding.[/b]\r<br />This is because Script Dragon cannot get the reference of an object you are targeting,\r<br />so this mod finds the coordinates on the ground you are pointing to based on character height and viewing angle, then finds the nearest actor (dead body) around that point.\r<br />\r<br />[u]Version History[/u]\r<br />\r<br />1.1beta\r<br />- Mod actually works now :)\r<br />\r<br />[b]My new mod[/b]\r<br />[url=http://skyrim.nexusmods.com/downloads/file.php?id=12338]Drem Fah Pah Nahl[/url]",
+  "categoryId": "42",
+  "version": "1.1beta",
+  "author": "Mikanoshi",
+  "createdUnix": "1325443225",
+  "updatedUnix": "1325462612",
+  "containsAdultContent": false,
+  "uploadedBy": "Mikanoshi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "15829",
+      "name": "HotkeyFeed",
+      "version": "1.1beta",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "47",
+      "fileName": "HotkeyFeed-5088.rar",
+      "uploadedUnix": "1325462612",
+      "modVersion": "1.1beta",
+      "virusScanUrl": "https://www.virustotal.com/file/656a7990c53c3bc6a5a3d1f4cabbf48c353ffc3147628c8db7ae1469e4daccaf/analysis/1406576373/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HotkeyFeed-5088.rar?fid=15829&ttl=1535761562&ri=8192&rs=8192&setec=a52b44ac44e1e887ce9dbe7d2473aaef"
+    }
+  ]
+}

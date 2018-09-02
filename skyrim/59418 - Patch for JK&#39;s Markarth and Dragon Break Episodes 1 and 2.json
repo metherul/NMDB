@@ -1,0 +1,32 @@
+{
+  "modId": 59418.0,
+  "modName": "Patch for JK&#39;s Markarth and Dragon Break Episodes 1 and 2",
+  "summary": "A very simple compatibility patch removing a few object references from JK&#39;s Markarth that were blocking an important quest location in Darren83&#39;s Dragon Break Episodes 1 and 2 - Bad Wolf and The infinity engine.\r<br />",
+  "descriptionHtml": "Greetings&#33; This is my first mod, and it&#39;s absolutely nothing spectacular. Just a quick fix for [url=http://www.nexusmods.com/skyrim/users/1305814/?]JKrojmal&#39;s[/url] excellent [i][url=http://www.nexusmods.com/skyrim/mods/58283/]JK&#39;s Markarth[/url][/i] mod when used with [url=http://www.nexusmods.com/skyrim/users/8671518/?]Darren83&#39;s[/url] equally great [i][url=http://www.nexusmods.com/skyrim/mods/50882/]Dragon Break Episodes 1 and 2 - Bad Wolf and The infinity engine[/url][/i]. Specifically, JK&#39;s mod adds a bunch of items to the same place as a vital quest location in Darren83&#39;s mod. All this small ESP does is disable JK&#39;s edits in that specific area. Pretty straightforward, made using TES5Edit.\r<br />\r<br />Technically, this ESP only requires JKs Markarth.esp. Nothing in any of the Dragon Break plugins is touched, and this file does not depend on it as a master. That said, why would you use this if you didn&#39;t need it?\r<br />\r<br />For the technically inclined, this sets the InitiallyDisabled flag for a couple dozen references in JK&#39;s Markarth.esp:\r<br />[list][*][font=Courier New]xx0012E2[/font][/*]\r<br />[*][font=Courier New]xx001FA8[/font]\r<br />[/*]\r<br />[*][font=Courier New]xx001FE3[/font] through [font=Courier New]xx001FF8[/font][/*]\r<br />[*][font=Courier New]xx001FFB[/font] through [font=Courier New]xx00202B[/font][/*]\r<br />[/list]\r<br />I&#39;m assuming this is permissible because I&#39;m not using any assets from either [i]JK&#39;s Markarth[/i] or [i]Dragon Break[/i], merely disabling a few references in the former. That said, I will remove this immediately if requested by either mod&#39;s author.",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "seancdaug",
+  "createdUnix": "1414391422",
+  "updatedUnix": "1414391269",
+  "containsAdultContent": false,
+  "uploadedBy": "seancdaug",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000132738",
+      "name": "Patch for JKs Markarth and Dragon Break",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Patch for JKs Markarth and Dragon Break-59418-1-0.7z",
+      "uploadedUnix": "1414391269",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/41f2b243f0284150ad4075f7eb15d3ee74d6dca751515e6300a879eb9bb5b19b/analysis/1414391341/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Patch%20for%20JKs%20Markarth%20and%20Dragon%20Break-59418-1-0.7z?fid=1000132738&ttl=1535846615&ri=8192&rs=8192&setec=00044b27a3960b1c56dbe944cfb3a88f"
+    }
+  ]
+}

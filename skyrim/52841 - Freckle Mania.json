@@ -1,0 +1,48 @@
+{
+  "modId": 52841.0,
+  "modName": "Freckle Mania",
+  "summary": "Adds a great variety of high-res freckle/complexion overlays (RaceMenu) to your game. \r<br />Face, Body, Feet, Hands. Friggles everywhere.",
+  "descriptionHtml": "[center][size=6][b]\r<br />Yo folks&#33; Just a reminder, [url=http://www.nexusmods.com/skyrim/mods/86208?]FRECKLE MANIA 2[/url] is out&#33; Better quality overall & more options&#33;[/b][/size]\r<br />\r<br />\r<br />[img]https://farm4.staticflickr.com/3786/13747751964_57d3cf23f8_o.png[/img]\r<br />\r<br />[url=https://www.flickr.com/photos/tetrodoxin/][size=1]My Screenshots[/size][/url]\r<br />\r<br />[img]https://farm8.staticflickr.com/7306/13747704283_16b16d080a_o.png[/img]\r<br />\r<br />You&#39;re looking for some high resoluted freckle textures, but are rather disappointed by the variety that is currently available? \r<br />Maybe you just want to add subtle skin complexion for realism?\r<br />\r<br />Search no more&#33; \r<br />\r<br />This is what you&#39;ve been looking for.\r<br />Freckle Mania is a compilation of many freckle textures, available as RaceMenu overlays.\r<br />\r<br />In this mod, you will currently find 20 different facial freckles, as well as 10 body freckles (UNP), 6 feet freckles and 2 hand freckles. There are also 5 options for simple beauty marks. Initially there were only 2 different textures, but I quickly realized that the amount of customization isn&#39;t enough. By combining several layers of freckles, you will get a really unique result each time. Textures were designed for female characters, but may work on male also.\r<br />All freckle textures are categorized by size and density. There are BIG/SMALL freckles, available in several SUBTLE/STANDARD/DENSE versions.\r<br />\r<br />You can download the mod in two quality settings: High resolution (4K) and standard resolution (2K). \r<br />Depending on how powerful your machine is, choose the right version. \r<br />\r<br />[color=#BF0000][b]All body textures were created for UNP-based bodies like UNP, UNPB, 7B and so on. However, most textures seem to work just fine for CBBE bodies - check the user image section. You can also apply these freckles on male body meshes - but you might get some more noticeable seams than on female bodies. Check the images, and then try for yourself&#33;\r<br />The overlays are fully compatible with custom races&#33;[/b][/color]\r<br />\r<br />[img]https://farm8.staticflickr.com/7034/13747704003_d9cb924fac_o.png[/img]\r<br />\r<br />[color=#BF0000]&gt;&gt;This mod is a [url=http://www.nexusmods.com/skyrim/mods/29624/]RaceMenu[/url] plugin, so make sure you have the main file [u]PLUS the loose base scripts[/u] (optional file) installed correctly&#33;&lt;&lt;[/color]\r<br />\r<br />1. Download the mod with the mod manager of your choice\r<br />2. Install. How easy&#33; =0\r<br />\r<br />or\r<br />\r<br />1. Download the mod\r<br />2. Extract the content to your Skyrim/Data folder\r<br />3. Activate FreckleMania.esp\r<br />\r<br />[color=#BF0000]IMPORTANT&#33;[/color]\r<br />\r<br />These overlays are high res. \r<br />You need to edit your SKSE.ini file to get the full resolution ingame.\r<br />Add these lines to the config file located it Data/SKSE:\r<br />\r<br />\r<br />[i][Display]\r<br />iTintTextureResolution=4096[/i]\r<br />\r<br />or (depending which version you downloaded)\r<br />\r<br />[i][Display]\r<br />iTintTextureResolution=2048[/i]\r<br />\r<br />\r<br />If there is no such file, you need to create one yourself. \r<br />Open up Editor, insert the lines as mentioned and save the config in Skyrim/Data/SKSE. \r<br />You need to name it &#34;SKSE.ini&#34;, of course. If some of your other overlay mods get pixelated when you set this value to 4096, change it to 2048. \r<br />Note that this fix is only for the face textures. Body/Hands/Feet will always be displayed at full res.\r<br />\r<br />[color=#BF0000]Uninstall:[/color]\r<br />Deselect all Freckle Mania textures in RaceMenu. Save your game.\r<br />Remove the content provided by this mod, or simply deactivate the mod in your Mod Manager.\r<br />\r<br />If you&#39;re experiencing that your character now has blueish body parts, it&#39;s because you haven&#39;t removed the textures like I mentioned before&#33; RaceMenu now applies non-existing textures on your character. No problem&#33; just open up RaceMenu again and refresh the overlay slots by selecting any other texture (like the DEFAULT one).\r<br />\r<br />[img]https://farm3.staticflickr.com/2846/13748152034_0868e9f965_o.png[/img]\r<br />For RaceMenu 3:\r<br />\r<br />1. Open up RaceMenu by entering &#34;showracemenu&#34; in your console\r<br />2. In the &#34;Sliders&#34; section of RaceMenu, look for the following submenus to apply FM overlays:\r<br />\r<br />MAKEUP for facial freckles\r<br />BODY PAINT for body freckles\r<br />HAND PAINT for hand freckles\r<br />FOOT PAINT for foot freckles\r<br />\r<br />3. Hover over an empty slot in one of those menus, and press &#34;T&#34; to bring up the texture browser\r<br />4. Select a FreckleMania texture (labeled with &#34;FM&#34;)\r<br />5. You can use several slots to add textures on top of each other.\r<br />6. Adjust the Freckle color/opacity by clicking on the square icon on the right side of the slot\r<br />\r<br />See the image section for more help. There&#39;s also a description for usage with older versions of RaceMenu.\r<br />\r<br />Combine some layers with different colour/opacity in each section to get a uniqure result&#33;\r<br />There is an overall limit on overlays, though. Once your slots are displayed grey, you hit that limit.\r<br />All overlays count towards that limit: Makeup, Warpaint, Freckles, etc.\r<br />\r<br />[b]If you still have problems, check out the video & images section of this page first&#33;[/b]\r<br />\r<br />\r<br />[color=#BF0000]TIPS:[/color]\r<br />\r<br />I recommend using 2-3 layers if you want some dense freckles. A &#34;big and dense&#34; texture with low opacity is a good base. \r<br />Apply some smaller freckles on top of that, and you&#39;ll already have a great look&#33; Just make sure to do similar stacking for each body part, to prevent ugly seams.\r<br />\r<br />For lighter skin tones, try to stay below 50% opacity. This way, they will merge better with the skin texture. If you want the freckles to be more crisp and clear, use higher values.\r<br />A dark red/brown tone is recommended.\r<br />\r<br />If you don&#39;t like freckles at all, well. These overlays can also be used for adding subtle skin complexion. Just use very low opacity for that.\r<br />\r<br />\r<br />I released my ENB on Nexus&#33;\r<br />Give it a try for screenshots, leave an endorsement if you like it&#33; :+)\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/70451/][img]https://c2.staticflickr.com/8/7601/26821509716_2601584233_o.png[/img][/url]\r<br />\r<br />\r<br />\r<br />[img]https://farm8.staticflickr.com/7147/13748187694_85d34bc987_o.png[/img]\r<br />\r<br />expired6978 for [url=http://www.nexusmods.com/skyrim/mods/29624/]RaceMenu[/url]\r<br />The [url=http://skse.silverlock.org/]SKSE[/url] team[/center]",
+  "categoryId": "29",
+  "version": "1.0",
+  "author": "tetrodoxin",
+  "createdUnix": "1397232288",
+  "updatedUnix": "1397151861",
+  "containsAdultContent": false,
+  "uploadedBy": "tetrodoxin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000104322",
+      "name": "Freckle Mania Standard Quality",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4727",
+      "fileName": "Freckle Mania Standard Quality-52841-1-0.7z",
+      "uploadedUnix": "1397091665",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6ad1810bc3041e00fefc5af616db96036a37176f7c1fdf936665824b795dd683/analysis/1408013588/",
+      "changelogHtml": " Initial public release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Freckle%20Mania%20Standard%20Quality-52841-1-0.7z?fid=1000104322&ttl=1535836057&ri=8192&rs=8192&setec=a8526e029267196fe345e68068c47ef3"
+    },
+    {
+      "fileId": "1000104398",
+      "name": "Freckle Mania High Quality",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "12974",
+      "fileName": "Freckle Mania High Quality-52841-1-0.7z",
+      "uploadedUnix": "1397151861",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a89ddd4e8c6671a28135e3eb730e0d9f8bef9d07db090acd899e079baf30d255/analysis/1408014552/",
+      "changelogHtml": " Initial public release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Freckle%20Mania%20High%20Quality-52841-1-0.7z?fid=1000104398&ttl=1535836057&ri=8192&rs=8192&setec=ad39787ca0b79c679e119113db0a5f95"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 49270.0,
+  "modName": "Water Reflection System",
+  "summary": "Enables object based water reflection.",
+  "descriptionHtml": "[heading][size=18][color=#5CADFF]Water Reflection System[/heading][/size][/color]\r<br />\r<br />[color=#5CADFF]Supported Areas:[/color]\r<br />Windhelm\r<br />Riften\r<br />\r<br />[color=red]\r<br />[b]*Read the description carefully, its important&#33;\r<br />*Open the map at the supported locations to activate reflections.[/b][/color]\r<br />---------------------\r<br />\r<br />[color=#5CADFF]About:[/color]\r<br />This mod enables object based water reflection. Currently for Riften & Windhelm exterior.\r<br />Reflections are not global, so you will only notice them at the locations above, but there are more to come. The reflections are best noticeable when swimming. And will lock slightly better in 1st Person.\r<br />--------------------\r<br />\r<br />[color=#5CADFF]How to activate?:[/color]\r<br />To trigger the reflections ingame you have to open your map around riften or windhelm. The stables of these cities are just fine. But you can open the map anywhere in the area. water reflections will be activated as soon as you close the map.\r<br />--------------------\r<br />\r<br />[Color=#5CADFF] .ini tweaks:[/color]\r<br />You maybe need these tweaks to make your map more stable, and to avoid an interior bug&#33;\r<br />Add the following .ini tweaks to your skyrim.ini (located at: C-Documents-Games-Skyrim):\r<br />\r<br />[MapMenu]\r<br />uLockedObjectMapLOD=8\r<br />uLockedTerrainLOD=8\r<br />-------------------\r<br />\r<br />[color=#5CADFF]Compatibility:[/color]\r<br />This mod should be compatible with any water mod&#33;\r<br />There are none specific incompatibilities known yet.\r<br />\r<br />However, in order to activate possible reflections, I have to edit some meshes at the locations, so it could be that other mods, editing the same cells are incompatible with this.\r<br />\r<br />Please report any problem you may find\r<br />----------------\r<br />\r<br />[color=#5CADFF]Change Log:[/color]\r<br />\r<br />[Color=#CACACA][u]v0.9 - 31.12.2013:[/u][/color]\r<br />- Fixed a source of CTD at windhelm\r<br />- Updated windhelm reflection\r<br />- Updated riften reflection\r<br />- Recreated .esp with minimal cell edit \r<br />\r<br />\r<br />[Color=#CACACA][u]v0.8 - 28.12.2013:[/u][/color]\r<br />- Initial release \r<br />- Fixed a bug with edited meshes not beeing reflected correctly\r<br />- Added reflections for windhelm\r<br />- Added reflections for riften\r<br />\r<br />",
+  "categoryId": "78",
+  "version": "v0.9",
+  "author": "3AMt",
+  "createdUnix": "1388269966",
+  "updatedUnix": "1388496589",
+  "containsAdultContent": false,
+  "uploadedBy": "3AMt",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000088743",
+      "name": "Water Reflection System",
+      "version": "v0.8",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "18",
+      "fileName": "Water Reflection System-49270-v0-8.rar",
+      "uploadedUnix": "1388269948",
+      "modVersion": "v0.8",
+      "virusScanUrl": "https://www.virustotal.com/file/390f679b22bf1ad8d61d46e49bb1135f430cd9cc508cc721f1ec253e97dca7b8/analysis/1407862569/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Water%20Reflection%20System-49270-v0-8.rar?fid=1000088743&ttl=1535830024&ri=8192&rs=8192&setec=4a5691e953597f328b6cacc5c2e1f1b3"
+    },
+    {
+      "fileId": "1000089167",
+      "name": "Water Reflection System",
+      "version": "v0.9",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "19",
+      "fileName": "Water Reflection System-49270-v-09.rar",
+      "uploadedUnix": "1388496589",
+      "modVersion": "v0.9",
+      "virusScanUrl": "https://www.virustotal.com/file/393b0b03c7359ff7aa6d82c620e98a72e725529031625184e8b039812dca43fc/analysis/1407866135/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Water%20Reflection%20System-49270-v-09.rar?fid=1000089167&ttl=1535830024&ri=8192&rs=8192&setec=ae949e80f191345680ace0184d0a1240"
+    }
+  ]
+}

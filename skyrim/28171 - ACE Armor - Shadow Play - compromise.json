@@ -1,0 +1,32 @@
+{
+  "modId": 28171.0,
+  "modName": "ACE Armor - Shadow Play - compromise",
+  "summary": "Fixes the perks Conditioned and Unhindered to have effects from both mods.",
+  "descriptionHtml": "Please endorse Shadow Play and ACE - Combat Skills if you like this patch. \r\n----\r\n\r\nThis plugin resolves the conflicts between ACE Armor (AA) and Shadow Play (SP).\r\nThe issues resolved by this mod are the incompatible armor perks Unhindered from\r\nthe light armor tree and the Conditioned perk fom the Heavy armor tree.\r\n\r\nThis patch works with:\r\n - ACE Armor 12a \r\n - Shadow Play 1.1\r\n\r\nchanges: \r\n\r\nUnhindered perk now grant both the stamina regeneration bonus from ACE and the\r\ncarryweight bonus and movement speed bonus from SP. The movement speed bonus is\r\nreduced to 2.5 percent from the original five percent. Carry weight bonus\r\nis decreased to 35 points from 75. The movement speed bonus occurs only when \r\nwearing 3 or more pieces of light armor.\r\n\r\nConditioned perk from SP broke the Strong Back and Defelct Criticals \r\nperks of ACE. The 150 bonus to carryweight from SP has been removed and \\'merged\\'\r\nwith the Strong Back perk. An additional 50 carry weight is granted when three\r\nor more pieces of heavy armor are worn. A movement speed bonus of 3% has been \r\nadded, also when three pieces of heavy armor are worn. \r\n\r\n- - - \r\n\r\nThese choices reflect my personal preferences and not those of the original mod\r\nauthors\\'. I have made this patch because the author of SP has not updated the\r\nmod since May 2012. \r\n\r\nLoad order that works for me:\r\n\r\nACE Armor.esp\r\nShadowPlay.esp\r\nACE Armor - Shadow Play - compromise.esp\r\n\r\nYou may manually edit the loadorder.txt file in:\r\nC:\\\\Users\\\\jaroslav\\\\AppData\\\\Local\\\\Skyrim\r\n\r\nor use two \\'User Rules\\' in BOSS:\r\n\r\nsort \\\"ShadowPlay.esp\\\" after \\\"ACE Armor.esp\\\"\r\nsort \\\"ACE Armor - Shadow Play - compromise.esp\\\" after \\\"ShadowPlay.esp\\\"\r\n\r\n",
+  "categoryId": "24",
+  "version": "1",
+  "author": "tox2ik",
+  "createdUnix": "1355253626",
+  "updatedUnix": "1355253672",
+  "containsAdultContent": false,
+  "uploadedBy": "tox2ik",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "104654",
+      "name": "ACE Armor - Shadow Play - compromise",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "ACE Armor - Shadow Play - compromise-28171-1.rar",
+      "uploadedUnix": "1355253672",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/a78ed59a2fc4026d5180112cd9716c4aecd4eba2c7ceb5fcfc70f7d77bcb95b5/analysis/1407300313/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ACE%20Armor%20-%20Shadow%20Play%20-%20compromise-28171-1.rar?fid=104654&ttl=1535801400&ri=8192&rs=8192&setec=14a306a98e8484701f3894f352894529"
+    }
+  ]
+}

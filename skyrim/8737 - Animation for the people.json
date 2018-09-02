@@ -1,0 +1,15 @@
+{
+  "modId": 8737.0,
+  "modName": "Animation for the people",
+  "summary": "A simple script that allows to play idles",
+  "descriptionHtml": "First of all sorry for my bad english\r\n\r\nThis is a simple animation that whit hours ( yes i just learning the papyrus ) of tryin i can finally drink a potion e voila! its played a idle drink potion.\r\ni guess that it will work for every item i have to try more but i want to show it for people that dont  know how to script and want more inmmersion.\r\n\r\nOk this is not a download version just the explanation who to do it, because i have no idea how to do it.\r\n\r\n1.- In the Creation Kit name a new mod like you want\r\n2.- Go to Magiceffect tab\r\n3.- Create a new Magiceffect and name it like Drinkpotion\r\n4.- Set like Effect archetype Script\r\n                Fire and Forget\r\n                Self\r\n5.- make the Script\r\n              Always whitout the (   )\r\n        Scriptname (here the name of the script) extends activemagiceffect\r\n        idle property (here the name of the idle ) auto\r\n        magiceffect property ( here the name of the magic effect ) auto\r\n\r\n    Event OnEffectStart ( actor akactor, Actor akCaster )\r\n             magiceffect ( here the name of the Magiceffect) = Active(here the name whitout space)\r\n              game.getplayer().playidle ( here the name of the idle )\r\n       end event\r\n\r\n6.- Atacht the magic effect  to every item you want it \r\n7.- Try it and enjoy !!\r\n\r\nRemember that i test only on potions and some items for now but it not work on others i will update the information, and please its my first trying to help people iam not a modder jus a person who want to enjoy a rlly perfect game.\r\n\r\nP.d: on items its work when equip it.\r\n\r\nThnks\r\n\r\nThis is an example for the Ale\r\nScriptname zzzbeberentaza02 extends activemagiceffect  \r\n\r\nIdle Property IdleDrink  Auto  \r\n\r\nMagicEffect Property activeaabeberentaza  Auto  \r\n\r\n\r\nEvent Oneffectstart (actor akactor, actor akcaster)\r\n \r\n   Magiceffect aabeberentaza = activeaabeberentaza\r\n   Game.Getplayer().playidle (idledrink)\r\n\r\nendevent\r\n\r\nHope its more clear\r\n\r\n\r\n\r\n    ",
+  "categoryId": "51",
+  "version": "0.001",
+  "author": "Morfoide",
+  "createdUnix": "1328897640",
+  "updatedUnix": "1328897640",
+  "containsAdultContent": false,
+  "uploadedBy": "morfoide",
+  "primaryFile": null,
+  "files": []
+}

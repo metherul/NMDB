@@ -1,0 +1,32 @@
+{
+  "modId": 34373.0,
+  "modName": "Mesh Tool N2 - SkinInjector",
+  "summary": "This tool allow you to create custom skin for object directly inside NIF file.",
+  "descriptionHtml": "[color=lightblue][b]Name:\t\tMesh tool N2 - SkinInjector[/b][/color]\r\nData:\t\t05/04/2013\r\nVersion:\t1.00\r\nAuthor:\t\tAnton\r\n\r\n\r\n[heading][color=yellow]Description:[/color][/heading]\r\n[color=lightblue][b]This tool allow you to transfer weight paint from Blender 2.62+ to NIF file with your model.[/b][/color]\r\nProgram generate skin data for object already existed in NIF file. \r\nIt suppose to be used in conjunction with my other tool \\\"[url=http://skyrim.nexusmods.com/mods/34226/]MeshInjector[/url]\\\".\r\nProgram completely recreate [NiSkinInstance/BSDismemberSkinInstance], [NiSkinData] and [NiSkinPartition] blocks.\r\n\r\n[color=magenta](*)[/color] For now tool has export scripts for Blender 2.62+ only. But you can easily adapt it to your favorite 3D editor if you know its script language. Script just export data about object (like armature bone coordinates and vertex weights) from 3D editor to planar text file with simple structure.\r\n\r\n\r\n[heading][color=yellow]Main features:[/color][/heading]\r\n- allows you to use Blender 2.62+ to export skin data to NIF file (can be easily extended for other 3D editors)\r\n- allows to skin couple of meshes at once\r\n- allow mass skining\r\n- fast work\r\n\r\n[heading][color=yellow]How to use this tool:[/color][/heading]\r\nThis program is supposed to be used at command prompt. (Start->Run->\\\"cmd.exe\\\")\r\nIf you run the tool without parameters you will see a little help about it.\r\n\r\n[color=lightblue][b]--> Example: \\\"SkinInjector MyHelmet.nif skeleton.txt weights.txt -q\\\"[/b][/color]\r\nTool create a new file with prefix \\\"_new\\\": \\\"MyHelmet_new.nif\\\", with proper skin blocks inside.\r\n\r\n\r\n[heading][color=yellow]List of parameters:[/color][/heading]\r\nFirst  - name of NIF file (program will try to create new skin here)\r\nSecond - name of TXT file (here must be description of used Armature bones)\r\nThird  - name of TXT file (here must be list of all used vertex groups and weights for every vertex in group)\r\nForth  - (optional) \\\"-q\\\" - remove ALL questions and confirmations\r\n\r\n\r\n[heading][color=yellow]Few words about Armature export:[/color][/heading]\r\nIn 99,9% of cases you will not need to use different skeleton, and all skined meshes will be connected with vanilla bones. So in most cases you can use \\\"Skeleton_(fe)male_vanilla.txt\\\" i made for vanilla skeleton.\r\n(I didn\\'t attach skeleton exporter to simplify understanding of workflow)\r\n\r\n\r\n[heading][color=yellow]How to use export script for Vertex Groups:[/color][/heading]\r\nYou will need to copy text from file \\\"Export Script - Vertex groups.txt\\\" to the Blender\\'s script window and run it with \\\"RunScript\\\" button. (only meshes attached to Armature will be proceeded).\r\nYou should get file \\\"weights.txt\\\" in folder with your blender project running, with description of all used meshes.\r\n\r\n\r\n[heading][color=yellow]How program decide how to add skin data:[/color][/heading]\r\nObject will be skinned inside NIF file if program could find block [NiTriShape] with name equal to name of one of the vertex groups inside Third TXT file \\\"weights.txt\\\"\r\n[color=magenta](NOTE: name is case sensitive!)[/color]\r\n\r\n\r\n[heading][color=yellow]Issues:[/color][/heading]\r\n(none found, ... yet :))\r\n\r\n\r\n[heading][color=yellow]License:[/color][/heading]\r\nUse this tools as you like, just don\\'t forget to mention me like the author ;)\r\n\r\n\r\n[heading][color=yellow]Credits:[/color][/heading]\r\nNiftools team for NifSkope\r\nMicrosoft for Visual Studio 2010 Express\r\nBethesda for the Game\r\n",
+  "categoryId": "39",
+  "version": "1.00",
+  "author": "Anton",
+  "createdUnix": "1365148728",
+  "updatedUnix": "1365146631",
+  "containsAdultContent": false,
+  "uploadedBy": "Anton0028",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000022479",
+      "name": "SkinInjector_v1_00",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "890",
+      "fileName": "SkinInjector_v1_00-34373-1-00.zip",
+      "uploadedUnix": "1365146631",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/827893cb8dffe8420fcd1f918a4c41e5aaddb7e76413c76358041177818ffb8f/analysis/1407507135/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkinInjector_v1_00-34373-1-00.zip?fid=1000022479&ttl=1535812166&ri=8192&rs=8192&setec=8fa3528f72c14e6a5b8a089b803e5fa2"
+    }
+  ]
+}

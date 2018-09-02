@@ -1,0 +1,32 @@
+{
+  "modId": 59916.0,
+  "modName": "CK_Nihongoka_Tetsudai_bat",
+  "summary": "",
+  "descriptionHtml": "某ブログで紹介されているCK日本語化(Shift-Jis化)の手伝いをするbatファイルです\r<br />たくさんコマンド入れるのが大変なのでそれの一部手順をbatファイルに書いただけのやつです\r<br />\r<br />・用意するもの\r<br />スカイリム本体とDLCそれぞれの_Japanese.strings /.ilstrings /.dlstringsファイル\r<br />StringsPackerとStringsUnPacker\r<br />UTF-8とShift-Jis(SJIS)を扱えるテキストエディター\r<br />\r<br />①このファイルを解凍してaapac.batとaaunpac.batを取り出し、StringsPackerとStringsUnPackerと一緒に適当な新しいフォルダに入れる\r<br />②○○○_Japanese.strings /.ilstrings /.dlstringsを①のフォルダに入れる\r<br />③aaunpacを実行　○○○_Japanese_utf8.strings.csv /.ilstrings.csv /.dlstrings.csvができる\r<br />④テキストエディターで③できたファイルそれぞれを文字コードShift-Jis(SJIS)に変更し「Japanese_utf8」を「JapaneseSjis」にファイル名も変更して保存する\r<br />⑤aapacを実行　○○○_JapaneseSjis.strings /.ilstrings /.dlstringsが完成　スカイリムの&#92;Data&#92;Strings&#92;にコピーする\r<br />⑥&#92;SkyrimフォルダにあるSkyrimEditor.iniの[General]の下にsLanguage=JapaneseSjisを追記\r<br />⑦おわり　CKを起動しCell ViewのNameの欄が日本語の地名になっていれば成功だと思います",
+  "categoryId": "39",
+  "version": "1.00",
+  "author": "ytr",
+  "createdUnix": "1415882912",
+  "updatedUnix": "1415882907",
+  "containsAdultContent": false,
+  "uploadedBy": "papchap",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000135113",
+      "name": "CK_Nihongoka_Tetsudai_bat",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "CK_Nihongoka_Tetsudai_bat-59916-1-00.7z",
+      "uploadedUnix": "1415882907",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/94c8baf3947f226e7d406e4c75e89dc56e2bf7c517c84ff27dfc70cba0033143/analysis/1415883002/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CK_Nihongoka_Tetsudai_bat-59916-1-00.7z?fid=1000135113&ttl=1535847376&ri=8192&rs=8192&setec=a9f4078a5042357d3dabb2bee8e554cf"
+    }
+  ]
+}

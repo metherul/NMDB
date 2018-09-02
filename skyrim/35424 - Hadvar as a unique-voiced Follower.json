@@ -1,0 +1,48 @@
+{
+  "modId": 35424.0,
+  "modName": "Hadvar as a unique-voiced Follower",
+  "summary": "A follower version of Hadvar which uses his original voice files.",
+  "descriptionHtml": "[b][u]Small updates/notes:[/b][/u]\r\n-Fixed the AH version file, sorry for the inconvenience!\r\n-I\\'ve learned this mod may not be compatible with UFO, my apologies. From what I\\'ve read on the UFO page, it states that UFO is only compatible with mods that don\\'t modify the dialoguefollower quest/script, which this mod does.\r\n\r\n-----------------------------------------------------------\r\n\r\nSo, I finally sat down and played through the two big \\'main\\' quests of Skyrim, and when I got to the end of the Civil War storyline...I was really disappointed because I couldn\\'t bring along Hadvar on my adventures now that the war was all taken care of. I looked around for a mod that changed that, but didn\\'t want a mod that just used his model and the ol\\' generic Nord voice.\r\n\r\nSince all I could find was requests for such a mod and none with his real voice, I decided to make one myself. This is my first mod, so please be gentle.\r\n\r\n[b]What this mod does:[/b]\r\nAdds a follower version of Hadvar to the Sleeping Giant Inn in Riverwood, including the following:\r\n-5 Hellos\r\n-2 Goodbyes\r\n-16 idles, some context-sensitive on time of day or location.\r\n-Combat noises and dialogue (taunts, attacks, entering/leaving combat, etc.), some context-sensitive on whether or not you\\'re fighting Stormcloaks or Draugr.\r\n-Dialogue-enabled responses to all of the standard follower options (Follow me, wait here, etc.)\r\nAll sourced from his original voice files.\r\n\r\n[b]What this mod doesn\\'t do:[/b]\r\n-Make the Original!Hadvar a follower. I simply couldn\\'t get the follower AI/etc. to work on Original!Hadvar, I assume since he\\'s connected to quests and such, there\\'s some sort of scripting there that prevents it. So I recommend waiting to install this mod until AFTER you\\'re done with completing the Civil War quest and simply disabling Original!Hadvar with the disable console command. Unless you don\\'t mind having Hadvar!Twins, then have at it whenever you\\'d like. If/when I figure out how to add a script to convert Original!Hadvar into Follower!Hadvar after the completion of the Civil War, I\\'ll add that.\r\n\r\n-Make Hadvar marriageable. There just isn\\'t dialogue for it, and I think it\\'d be creepy to have him stare silently at you while exchanging vows. Who\\'s to say you two didn\\'t elope secretly anyways?\r\n\r\n-Add \\'Death\\' noises. Hadvar as a follower is essential...besides, why would you want him to die? D:\r\n\r\n\r\n[b]There are TWO versions of this mod:[/b]\r\n-MyHadvarFollower requires only the base game and uses his original model.\r\n\r\n-MyHadvarFollowerAH requires [url=http://skyrim.nexusmods.com/mods/10168]ApachiiSkyHair version 1.5 Full[/url] to make him match the way Hadvar looks when using [url=skyrim.nexusmods.com/mods/15411]ApachiiSkyHair NPC Overhaul[/url]. Do [b]NOT[/b] use the AH version if you have something against guys with long hair. I for one welcome our fabulously-locked overlords.\r\n\r\n\r\n[b]Installation:[/b]\r\nDownload with the NMM and let it do it\\'s thing, and you\\'re set!\r\n\r\n\r\n[b]Known Issues:[/b]\r\n-Sometimes, Hadvar spaces out a bit and forgets to say any of the dialogue outside of the follower dialogue menu (hellos, goodbyes, idles, etc.) Google tells me this is a fairly common bug with Skyrim dialogue. Just make a save standing in front of him, then reload with that new save and he should be talking again.\r\n\r\n-Hadvar\\'s been a bit addled by the war, and so sometimes he repeats something he\\'s just said. This seems to be a problem with having dialogue on \\'random\\'. The random dialogue picker likes to pick the same thing over and over again, and I haven\\'t found a happy medium with putting in wait times for the lines yet, seeing as the lines he seems to fixate change for me each time.\r\n\r\n-Despite being set to autolevel with the PC and auto-calculate stats, sometimes Hadvar doesn\\'t scale correctly. I haven\\'t been able to figure out why, especially since in my experience it only happens to the AH version of the .esp. Should this happen to you, just open up the console and type SetLevel 1000,0,1,81 and he should scale and level with you now. Don\\'t forget to save and exit/relaunch after doing this, so it doesn\\'t effect your achievements. :3\r\n\r\n\r\n[b]Mods to use to make Hadvar look like my screenshot:[/b]\r\n[url=http://skyrim.nexusmods.com/mods/10168]ApachiiSkyHair version 1.5 Full[/url] - As mentioned above, for that luxurious hair.\r\n\r\n[url=http://skyrim.nexusmods.com/mods/2488]Better males - Beautiful nudes and faces - New hairstyles[/url] - I prefer to use YoungerGeonoxFacesWithoutBeard for the face and the Sundracon version for the body. Personally I also use the options that removes bulging veins and body hair, but that\\'s just me.\r\n\r\n[url=http://skyrim.nexusmods.com/mods/34321]Virtus Imperii[/url] - For awesome-looking imperial armor. I made a separate mod to make Tullius\\' armor craftable so I could put Hadvar in it (I\\'m a dork). If people want it I may upload it separate.\r\n\r\n\r\nAs stated above, this is my first mod, and nothing\\'s ever perfect, so I expect there might be problems or bugs, or things might break. I\\'ll do my best to address problems, either send me a message or post in the forum comment area. I only have two computers to test this on so things may have slipped through the cracks.",
+  "categoryId": "66",
+  "version": "1.0",
+  "author": "semiramisu",
+  "createdUnix": "1367295097",
+  "updatedUnix": "1367454518",
+  "containsAdultContent": false,
+  "uploadedBy": "semiramisu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000027213",
+      "name": "My Hadvar Follower",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9697",
+      "fileName": "My Hadvar Follower-35424-1-0.7z",
+      "uploadedUnix": "1367294640",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c88c4df089440518a0fc6f79e93caf54c2df7418db2f64345d5f9b23d91cc215/analysis/1407547989/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/My%20Hadvar%20Follower-35424-1-0.7z?fid=1000027213&ttl=1535813952&ri=8192&rs=8192&setec=70b4e5625c245cf730c05a63a88a2437"
+    },
+    {
+      "fileId": "1000027528",
+      "name": "My Hadvar Follower - Apachii Hair",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9696",
+      "fileName": "My Hadvar Follower - Apachii Hair-35424-1-0.7z",
+      "uploadedUnix": "1367454518",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4c0a89d46b100805ce728233fb23c6357ef6137b469be700fc6fdd9abe2d697a/analysis/1407550554/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/My%20Hadvar%20Follower%20-%20Apachii%20Hair-35424-1-0.7z?fid=1000027528&ttl=1535813953&ri=8192&rs=8192&setec=b88803a8690bc511a309120f63f0283a"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 58616.0,
+  "modName": "Steel Nordic Gauntlets Fix",
+  "summary": "A small fix for mods causing the steel nordic gauntlets to be displayed between the player&#39;s feet when equipped. ",
+  "descriptionHtml": "This mod fixes the Steel Nordic Gauntlets ONLY. It fixes an issue where the gauntlets are displayed between the player&#39;s/npcs&#39; feet when equipped, leaving the hands invisible due to another mod conflict. I&#39;ve noticed a few mods cause this, so I felt an upload was...worthy, for lack of a better word. \r<br />\r<br />Load at the VERY bottom of the load order (last), to make sure it overwrites ANYTHING causing this issue. \r<br />\r<br />Again, this fixes ONLY the Steel Nordic Gauntlets. All others can be fixed as I find conflicts/upon request. \r<br />\r<br />Requires:\r<br />Skyrim.esm\r<br />Update.esm\r<br />All DLC ESMs\r<br />[s]DragonborngalleryNEW.esm from &#34;Legacy of the Dragonborn&#34; [/s]([url=http://www.nexusmods.com/skyrim/mods/52248/?]http://www.nexusmods.com/skyrim/mods/52248/?[/url])[s] (I MIGHT be able to remove this later, but having tried such, causes the .esp to be ineffective)[/s] \r<br />\r<br />\r<br />UPDATE to v1.1: I was able to remove the dependency on &#34;Legacy of the Dragonborn&#34; master file. \r<br />\r<br />Credit:\r<br />Bethesda\r<br />[url=http://www.nexusmods.com/skyrim/users/2846158]icecreamassassin[/url] (for Legacy of the Dragonborn) (Just going to leave this link here and also the one above due to its sheer awesomeness&#33; ;) )\r<br />AbraxasMorte88 (me, for the fix)\r<br />\r<br />I don&#39;t see any harm in using this in other mods without MY permission. Credit is always nice, though ;)",
+  "categoryId": "54",
+  "version": "1.1",
+  "author": "AbraxasMorte88",
+  "createdUnix": "1412133795",
+  "updatedUnix": "1412227223",
+  "containsAdultContent": false,
+  "uploadedBy": "AbraxasMorte88",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000129154",
+      "name": "SteelNordicGauntletsFix v1.0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "SteelNordicGauntletsFix-58616-1-0.rar",
+      "uploadedUnix": "1412133790",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2d9e512c1183cef5d774653f90b6f767dcd8b7ec451d819b4d76d6ef72eea1b1/analysis/1412133902/",
+      "changelogHtml": " Initial Upload <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SteelNordicGauntletsFix-58616-1-0.rar?fid=1000129154&ttl=1535845406&ri=8192&rs=8192&setec=edf34df74abcf2eeff06c1bac0ae1c36"
+    },
+    {
+      "fileId": "1000129263",
+      "name": "SteelNordicGauntletsFix v1.1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "SteelNordicGauntletsFix v1.1-58616-1-1.rar",
+      "uploadedUnix": "1412227223",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/3444d2667062635fdbcd0d02f2d060641452e6c53939af0fa876a9a22cab8a1a/analysis/1412227323/",
+      "changelogHtml": " Removed dependency on &#34;Legacy of the Dragonborn&#34; as a master. <br/> \n ALL DLCs are STILL required. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SteelNordicGauntletsFix%20v1.1-58616-1-1.rar?fid=1000129263&ttl=1535845406&ri=8192&rs=8192&setec=0457a97e269e29d56143a78cef71107e"
+    }
+  ]
+}

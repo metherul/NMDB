@@ -1,0 +1,32 @@
+{
+  "modId": 18905.0,
+  "modName": "For modders - Landscape Textures",
+  "summary": "16 landscape textures, with normals.",
+  "descriptionHtml": "16 landscape textures I made for messing around with.  They\\'re not mind-blowing, but I think a couple are pretty useful.  They have all been offset so they\\'re fully wrappable, and all include normal maps.  I used textures from CGTextures (http://www.cgtextures.com/), which is an incredibly useful site for all kinds of textures, and textures from GIS\\'s (GIS\\', GISes??).  I\\'m putting these up as images rather than bundling them into a mod, I think they\\'re easier to use that way.  To add these into your mod, simply go to Misc -> TextureSet in your object window, right click in the right hand window and select \\'New\\'.  In the popup window, give your texture a name, then in the \\'Diffuse\\' slot, select the \\'Edit\\' button and navigate to the image you want, and select it.  Next go to the Normal/Gloss slot and navigate to the normal map of the Diffuse image (the normal map will have the same name as the image with an \\'_n\\' added to it.  EX: Grass_01.dds and Grass_01_n.dds), select the normal image and hit the OK button at the bottom of the popup window.  That\\'s it, you\\'ve added that texture.  Next go to Misc -> LandTexture in the object window, right click in the right hand window and select \\'New\\'.  In the popup window give your texture a name, then select the texture set from the dropdown selector at the upper right of the popup window. Hit OK and you\\'ve added your texture, which will now be available for use in the Landscape Editing mode.\r\n\r\nI forgot to add the images need to be put into a folder (name it whatever you want) in your data -> Textures folder.\r\n\r\nFor some reason some of the images I upped turned out with a blue tinge to them, they are not blueish in use.\r\n\r\nHope you find these useful, and my instructions didn\\'t totally mess you up.",
+  "categoryId": "82",
+  "version": "",
+  "author": "Blakflag",
+  "createdUnix": "1339898513",
+  "updatedUnix": "1339898605",
+  "containsAdultContent": false,
+  "uploadedBy": "hyperactivechild",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "68492",
+      "name": "Landscape Textures",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4290",
+      "fileName": "Landscape Textures-18905-.rar",
+      "uploadedUnix": "1339898605",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/6b84520b52052479440f113ff75130b11d4b553a89681750a4c53e1a2d8796c1/analysis/1406964211/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Landscape%20Textures-18905-.rar?fid=68492&ttl=1535786039&ri=8192&rs=8192&setec=cd74274f0608a187df87e32c0c84f436"
+    }
+  ]
+}

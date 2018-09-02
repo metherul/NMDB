@@ -1,0 +1,48 @@
+{
+  "modId": 56501.0,
+  "modName": "EmpireCoat for SevenBase Bombshell - DELETED",
+  "summary": "EmpireCoat conversion for Bombshell.",
+  "descriptionHtml": "===============================================================\r<br />EMPIRE COAT CONVERSION.\r<br />For The amazing Sevenbase Bombshell.\r<br />===============================================================\r<br />Author&#39;s:\r<br />\r<br />UNP Slim (orginal author): Yoo\r<br />Sevenbase Bombshell: Crazy1918\r<br />\r<br />============================================================================================\r<br />Description:\r<br />Just another conversion for SevenBase...Again&#33;&#33;&#33;.\r<br />\r<br />Craft it at any Tanning Rack.\r<br />============================================================================================\r<br />============================================================================================\r<br />Version: Alpha 3.45.68\r<br />\r<br />Initial Release\r<br />============================================================================================\r<br />Reqs:\r<br />SevenBASE Body\r<br />SKSE\r<br />Latests version of HDTPhysicsExtension (tested on 12.29)\r<br />HDTHighHeels System for the boots addon.\r<br />============================================================================================\r<br />Compatibility: It should be compatible with almost everything. But Im not really sure, thats why im uploading it for testing...&#34;Yoo said that not me&#33;&#33;&#33; hhhh&#34;\r<br />\r<br />If you use the XP32 hair, be sure to use the compatibility patch. It wont change anything, it will just put his collision objects at a layer different than 0 (10)\r<br />\r<br />============================================================================================\r<br />\r<br />Troubleshooting:\r<br />\r<br />&#34;When I restart a saved game, sometimes the lower part of the coat seems to clip trough legs&#34;\r<br />Unequip and reequip so havok can realign the rigid bodies.\r<br />\r<br />&#34;The lower part is warped and is at the other side of the body&#34;\r<br />Unequip and reequip, or just move around a bit, the collision objects should do the rest.\r<br />\r<br />&#34;Weight Slider is stuck at 100&#34;\r<br />For some reason the body shape do not change please do not ask me because i don&#39;t know why.\r<br />\r<br />&#34;Small difference between the body and the feet shape&#34;\r<br />I tried to fix it but it is impossible without damaging the outfit, just wear your favorite boots and the problem is fixed.\r<br />\r<br />\r<br />============================================================================================\r<br />\r<br />FAQ:\r<br />\r<br />&#34;How do I get this dress?&#34;\r<br />Craft it at any Tanning Rack.\r<br />Or open your console (key ²) and type &#34;help coat&#34; then &#34;player.additem xxxxxx 1&#34;.\r<br />\r<br />\r<br />&#34;My breasts dont move even when I equip the Havok Object thing&#34;\r<br />There are no weights on the breasts, the model was rigged using the vanilla skeleton.\r<br />\r<br />&#34;I changed the shape of your mesh using X tool to fit my body but now the skirt has a lot of clipping&#34;\r<br />You have to reshape the collision objects of the XML, since they are fitted to the UNP slim body.\r<br />\r<br />\r<br />============================================================================================\r<br />PERMISION NOTES\r<br />You are free to retexture it, convert it to other bodies and dissasemble it to understand how it works, I even encourage you to do it.\r<br />============================================================================================\r<br />\r<br />CREDITS: \r<br />\r<br />-Yoo for creating such amazing mods and sharing his work, also for giving free access to his mod. And cose his is amazing.\r<br />-Dimon99 for UNP Body.\r<br />-Sevennity, Demonhunter, Crosscrusade and wast for the amazing sevenBase Bombshell.\r<br />-HydrogenSaysHDT.\r<br />-LL community.\r<br />-Canderes.\r<br />-XP32.\r<br />-Bethsoft: For giving us a crippled toolset. And creating such a nice game.",
+  "categoryId": "60",
+  "version": "",
+  "author": "Crazy1918",
+  "createdUnix": "1406729142",
+  "updatedUnix": "1406845035",
+  "containsAdultContent": false,
+  "uploadedBy": "CrazY1918",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000119921",
+      "name": "EmpireCoat_SevenBase Bombshell",
+      "version": "",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "13827",
+      "fileName": "EmpireCoat_SevenBase Bombshell-56501-.rar",
+      "uploadedUnix": "1406728228",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/1de9d45a38ef4df845f0ed92f43f3bc8df86beb9a61302460e1c4e59eee77c60/analysis/1406728279/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/EmpireCoat_SevenBase%20Bombshell-56501-.rar?fid=1000119921&ttl=1535841893&ri=8192&rs=8192&setec=c8dcb17f04d1eb74f961e6e74963d407"
+    },
+    {
+      "fileId": "1000120083",
+      "name": "EmpireCoat-BootsAddon-7B",
+      "version": "",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "2047",
+      "fileName": "EmpireCoat-BootsAddon-7B-56501-.rar",
+      "uploadedUnix": "1406845035",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/57eb2723b9334ce62433eb3581b485f3f7be83b9dc6d2a46bb1fca16889fae2c/analysis/1408173484/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/EmpireCoat-BootsAddon-7B-56501-.rar?fid=1000120083&ttl=1535841893&ri=8192&rs=8192&setec=2e3b2d4dcb21bd8a5c599c69e94fad59"
+    }
+  ]
+}

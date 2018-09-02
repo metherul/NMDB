@@ -1,0 +1,48 @@
+{
+  "modId": 33020.0,
+  "modName": "Alternate Ancient Shrouded Armor",
+  "summary": "Replaces the vanilla ancient shrouded armor",
+  "descriptionHtml": "KTACREATIONS\\' ALTERNATE ANCIENT SHROUDED ARMOR\r\n\r\nThis mod replaces the vanilla Ancient Shrouded Armor with a new, completely original asset with custom models and textures and slightly improved enchantments so you have a more compelling reason to wear it.  It is currently very much a WIP but is functional enough for play with most characters.\r\n\r\nI didn\\'t like that the Ancient Shrouded Armor looked exactly like the other DB armors so I set about making this, modeling it after the Nightingale armor\\'s awesome cloak-and-hood motif.\r\n\r\nI also thought the armor could use a slight upgrade in the assassining category so I spent a weekend figuring out how to make its custom enchantment:  The \\'Shroud of Sithis.\\'  The \\'Shroud of Sithis\\' effect is activated only if you are wearing all four pieces of the armor.  With it, every time you enter sneak-mode, you are given the equivalent of one extra rank in stealth for 10 seconds.  An accompanying visual effect lets you know it is active.\r\n\r\nBecause it works on your detection sphere, it will have a postitive effect even if your sneak skill is at 100.  It is most effective when you are standing in a shadow, even outside.  When  you sneak while  in combat, preference is given to the Shadow Warrior perk, if you have it.\r\n\r\nThis only changes the ANCIENT Shrouded armor, NOT the regular Shrouded Armor worn by members of the Dark Brotherhood.  The armor is unique and given as a reward during the Dark Brotherhood questline.\r\n\r\n\r\n------------------------------------------------------------------------------------------\r\nTHINGS THAT WORK NOW:\r\n-The armor itself functions fine.\r\n-Support for both male and female characters.\r\n-The “Shroud of Sithis” effect.\r\n-Support for Khajiit and Argonians\r\n-Size scaling for males and females\r\n\r\nTHINGS THAT DO NOT WORK NOW:\r\n-\\'Trickle-down\\' economics.\r\n-The feet clip through the cloak when running.  Not really noticeable after a while and I really don\\'t want to shorten the cloak.  I\\'ll figure something out.\r\n\r\nVersions:\r\n1.00 - initial release\r\n1.01 - texture changes/additions and slightly improved Shroud of Sithis effect\r\n1.02 - world models now work, so you can see the armor as it should be in your inventory and when you drop it.  HUGE thanks to ttl269 from the NifSkope forums for schooling me in Nif.  Also added condition to keep the Shroud of Sithis from interfering with the Nightingale Shadow power.\r\n1.03 - khajiit and argonians now supported.\r\n1.04 - size-scaling supported, Shroud of Sithis effect on sneak slightly increased\r\n1.05 - Leveling up no longer removes Shroud of Sithis effect.  If you find it isn\\'t working after you level, remove the armor set and put it back on again, that should refresh the active effects.\r\n\r\nThis mod will conflict with any mod that changes specifically the Ancient Shrouded Armor.  It does not change any of the other Shrouded armors, or anything else, except adding a perk to the player at-start.  If any mod affects hoods, or makes any changes to an entire clothing type, this mod must be placed AFTER that mod in the load order.\r\n\r\nIf anything in this mod is not working, place it LAST in the load order.\r\n\r\n\r\n>>CHECK MY WORKSHOP PAGE FOR THE UNENCHANTED VERSION<<",
+  "categoryId": "54",
+  "version": "1.08",
+  "author": "ktacreations",
+  "createdUnix": "1362819474",
+  "updatedUnix": "1362827452",
+  "containsAdultContent": false,
+  "uploadedBy": "theycallmecheese",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000016109",
+      "name": "Alternate Ancient Shrouded Armor",
+      "version": "1.08",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8640",
+      "fileName": "Alternate Ancient Shrouded Armor-33020-1-08.zip",
+      "uploadedUnix": "1362818272",
+      "modVersion": "1.08",
+      "virusScanUrl": "https://www.virustotal.com/file/f06ee0875a6645a088594c53e1aaf3291c65ffc2f28c95cf1cc5d9d6c22be697/analysis/1407460226/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Alternate%20Ancient%20Shrouded%20Armor-33020-1-08.zip?fid=1000016109&ttl=1535809891&ri=8192&rs=8192&setec=ee76c8ded31bb231b1baa7f7d1c8a95d"
+    },
+    {
+      "fileId": "1000016136",
+      "name": "UNENCHANTED version",
+      "version": "1.08",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "16952",
+      "fileName": "UNENCHANTED version-33020-1-08.zip",
+      "uploadedUnix": "1362827452",
+      "modVersion": "1.08",
+      "virusScanUrl": "https://www.virustotal.com/file/8a66babffb78a3a413fb89e2509321cbf9ce79052e99423ace6c8026d3110277/analysis/1407460292/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/UNENCHANTED%20version-33020-1-08.zip?fid=1000016136&ttl=1535809892&ri=8192&rs=8192&setec=61d4355e5f4f5a7eebaef6bdec2df2e3"
+    }
+  ]
+}

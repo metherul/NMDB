@@ -1,0 +1,32 @@
+{
+  "modId": 76982.0,
+  "modName": "Default Fonts For Enderal",
+  "summary": "Just use Skyrims default fonts with Enderal",
+  "descriptionHtml": "[b]Update: As I&#39;ve moved to the [url=http://www.nexusmods.com/skyrimspecialedition/?]Skyrim Special Edition[/url] please don&#39;t expect any regular mod updates for my &#34;Oldrim&#34; mods anymore. Sorry.[/b]\r<br />\r<br />full english description follows after release of the english version of Enderal, but you should be able to figure out easily what this is and what it does by it&#39;s name, it&#39;s short description and it&#39;s screenshots ;) \r<br />\r<br />\r<br />---\r<br />\r<br />Da man die von Enderal mitgelieferte Schrift nur recht schwer lesen kann, wenn man entweder auf einem Monitor bis 22 Zoll spielt oder aber sie gar nicht wirklich lesen kann, wenn man am TV spielt, hab ich hier mal die nötige fontconfig.txt (zusammen mit einem Backup der Enderal-Version, falls man es sich wieder anders überlegt) zusammen gepackt. Es entspricht, bis auf einen zusätzlichen Eintrag, genau der Version der Datei, die auch mit Skyrim selbst ausgeliefert wird und somit ist die Schriftgröße, aber auch die Schriftart exakt wie beim Originalspiel.\r<br />\r<br />\r<br />[b]Installation[/b]\r<br />\r<br />Den kompletten Inhalt des heruntergeladenen und entpackten Archivs (sprich, den Interface-Ordner und seinen Inhalt) einfach in den Data-Ordner eurer Enderal/Skyrim-Installation kopieren. Oder einfach NMM/Wrye Bash/MO benutzen.\r<br />\r<br />\r<br />\r<br />[b]Deinstallation[/b]\r<br />\r<br />Bitte nicht mit irgendeinem Mod-Manager deinstallieren (der stellt nämlich die Originaldatei nicht wieder her), stattdessen die Datei fontconfig.txt im Ordner Skyrim&#92;Data&#92;Interface löschen und die im gleichen Ordner vorhandene fontconfig.Enderal in fontconfig.txt umbenennen.\r<br />\r<br />\r<br />[b]Hinweis:[/b] SureAI verwendet oft deutlich mehr und längere Texte, als es Bethesda in Skyrim tat. Auch wenn ich kurz überprüft habe (auch im neuen Charaktermenü) ob nicht irgendwo Texte abgeschnitten sind und das nicht der Fall war, so kann es dennoch an anderer Stelle passieren. \r<br />\r<br />\r<br />[i][size=2]Falls euch sowas auffällt, seht euch mal die anderen Font-Mods für Skyrim hier an, die meisten davon sollten fast ohne Aufwand auch mit Enderal funktionieren - vergesst nur nicht, bei der Font-Mod dann den zusätzlichen Eintrag:\r<br />\r<br />[quote]fontlib &#34;Interface&#92;fonts_en2.swf&#34;[/quote]\r<br />\r<br />in deren vermutlich mitgelieferte Datei fontconfig.txt nachzutragen.[/size][/i]",
+  "categoryId": "106",
+  "version": "1.0",
+  "author": "NewRaven",
+  "createdUnix": "1468155986",
+  "updatedUnix": "1468155818",
+  "containsAdultContent": false,
+  "uploadedBy": "NewRaven",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000212775",
+      "name": "Default Fonts For Enderal",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Default Fonts For Enderal-76982-1-0.7z",
+      "uploadedUnix": "1468155818",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/94b4af89740ad49ac740de31a35bef439aacb170d9ff2dcb3d33dcecc5380c48/analysis/1468155842/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Default%20Fonts%20For%20Enderal-76982-1-0.7z?fid=1000212775&ttl=1535865649&ri=8192&rs=8192&setec=74bc8f9c24d9bf23c0638b93fdde36fc"
+    }
+  ]
+}

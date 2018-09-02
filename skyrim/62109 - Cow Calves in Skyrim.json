@@ -1,0 +1,32 @@
+{
+  "modId": 62109.0,
+  "modName": "Cow Calves in Skyrim",
+  "summary": "Adds cow calves to Skyrim.",
+  "descriptionHtml": "Cow Calves (heifers) in Skyrim by GreyFox77\r<br />\r<br />[size=4][b] - 29-01-2015 v1.1 ESP, adding calves to Skyrim.[/b][/size]\r<br />All calves were added to locations where cows are already present.\r<br />ESP cleaned with TES5Edit.\r<br />\r<br />Falkreath exterior farm - added 1 calf\r<br />Whiterun Plains District - added 1 calf\r<br />Merryfair Farm - added 1 calf\r<br />Snow-Shod Farm - added 1 calf\r<br />Battle-Born Farm - added 2 calves\r<br />Pelagia Farm - added 1 calf\r<br />Chillfurrow Farm - added 1 calf\r<br />Riverwood - added 1 calf\r<br />Loreius Farm - added 1 calf\r<br />Rorikstead - added 2 calves\r<br />\r<br />[i] - 29-01-2015 v1.0 Initial release[/i]\r<br />\r<br />Description\r<br />=================================\r<br />To my surprise I could not find any remodels or mods that add cow calves to Skyrim (unless I missed it).\r<br />\r<br />Differences with the normal cow model are:\r<br /> - Removed horns\r<br /> - Udder greatly shrunk\r<br /> - Tail shortened\r<br />\r<br />No changes made to:\r<br /> - Texture, uses standard Cow texture\r<br /> - Uses vanilla Cow skeleton, so its compatible with new animations etc\r<br /> - Calves added by the ESP use the same Package as vanilla cows (a Sandbox package, radius 256 from editor location) and will use the cow Idle Markers\r<br />\r<br />Suggestions welcome.\r<br />This resource can be used freely, but please list me in your credits if you release any mod containing this mesh.\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />Mesh resource usage\r<br />=================================\r<br />To put it ingame in your own mod you will have to copy/duplicate [b]Armor[/b] entry &#34;SkinCow&#34; and [b]Armor Addon[/b] entry &#34;NakedCowAA&#34;. \r<br />Point your new [b]Armor[/b] entry&#39;s Models list (Armor dialog, on the lower-right) to your new Calf [b]Armor Addon[/b].\r<br />Duplicate [b]Actor/NPC [/b]EncCow, change Skin (on Traits tab) to your new calf [b]Armor[/b] entry.\r<br />Change [b]Actor/NPC[/b] Height to 0.7 (for example).\r<br />\r<br />Credits\r<br />=================================\r<br />Thanks to Bethesda and Nexusmods.\r<br />\r<br />Legal\r<br />=================================\r<br />Please credit me if you distribute this mesh as part of a mod.\r<br />\r<br />Cheers.         ",
+  "categoryId": "83",
+  "version": "1.1",
+  "author": "GreyFox77",
+  "createdUnix": "1422563050",
+  "updatedUnix": "1422565581",
+  "containsAdultContent": false,
+  "uploadedBy": "GreyFox77",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000145136",
+      "name": "Calves in Skyrim",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "540",
+      "fileName": "Calves in Skyrim-62109-1-1.rar",
+      "uploadedUnix": "1422565581",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/1bed7c22ec656bad420b51807a298189df5a41c6e2d0150727b123bbadb84920/analysis/1422565622/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Calves%20in%20Skyrim-62109-1-1.rar?fid=1000145136&ttl=1535850825&ri=8192&rs=8192&setec=4522f9df35b7a3ff7094f83e9f54c1ff"
+    }
+  ]
+}

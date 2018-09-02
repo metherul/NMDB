@@ -1,0 +1,32 @@
+{
+  "modId": 32039.0,
+  "modName": "Better Breath Shouts",
+  "summary": "Buffs the Fire Breath and Frost Breath shouts to maintain a more linear damage to cooldown ratio for higher ranks.",
+  "descriptionHtml": "Something that has always bothered me with the Fire Breath and Frost Breath shouts is that on higher ranks both shouts suffer from a fairly atrocious falloff in damage compared with the cooldown. This increases base damage slightly for the first ranks of both shouts and greatly for the higher ranks.\r\n\r\nOne of the reasons I increased damage across the board for these two shouts rather than mess with other values like cooldown is the staggering damage potential of Marked for Death, particularly for physical damage based characters. Previously there was very little point in using the higher ranks at all because you\\'d get more damage out of using the first rank of each shout on cooldown.\r\n\r\n\r\n[b]Numbers (damage / cooldown):[/b]\r\n\r\n[b][color=#cc0000]Fire Breath[/color]: Old[/b]\r\nRank 1 (Yol): 50 / 30s = 1.66...\r\nRank 2 (Toor): 70 / 50s = 1.4\r\nRank 3 (Shul): 90 / 100s = 0.9\r\n\r\n[b][color=#cc0000]Fire Breath[/color]: New[/b]\r\nRank 1 (Yol): 70 / 30s = 2.33...\r\nRank 2 (Toor): 120 / 50s = 2.4\r\nRank 3 (Shul): 240 / 100s = 2.4\r\n\r\n ---\r\n\r\n[b][color=#3399ff]Frost Breath[/color]: Old[/b]\r\nRank 1 (Fo): 10 * 5 / 30s = 1.66...\r\nRank 2 (Krah): 14 * 5 / 50s = 1.4\r\nRank 3 (Diin): 18 * 5 / 100s = 0.9\r\n\r\n[b][color=#3399ff]Frost Breath[/color]: New[/b]\r\nRank 1 (Fo): 14 * 5 / 30s = 2.33...\r\nRank 2 (Krah): 24 * 5 / 50s = 2.4\r\nRank 3 (Diin): 48 * 5 / 100s = 2.4\r\n\r\n\r\n[b]Compatibility:[/b]\r\n\r\nThis mod [i]should[/i] be compatible with pretty much anything. It changes some values in the spells associated with shouts which means it should work with anything that changes shout cooldowns. I\\'ve also tested it with the shout passives from Dragonborn and have had no issues. \r\n\r\n[b]Version History:[/b]\r\n\r\n1.0 - Initial release.",
+  "categoryId": "77",
+  "version": "1.0",
+  "author": "Izichial",
+  "createdUnix": "1361368590",
+  "updatedUnix": "1361367392",
+  "containsAdultContent": false,
+  "uploadedBy": "Izichial",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000011482",
+      "name": "Better Breath Shouts",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Better Breath Shouts-32039-1-0.zip",
+      "uploadedUnix": "1361367392",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/35f120036509f6616e4ce10bf2da05f17eb2a3448718839566ad6d3502e1f8e5/analysis/1407428884/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Better%20Breath%20Shouts-32039-1-0.zip?fid=1000011482&ttl=1535808022&ri=8192&rs=8192&setec=d5c9ba3c6623652e867e4066cee76e22"
+    }
+  ]
+}

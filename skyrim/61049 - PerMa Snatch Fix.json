@@ -1,0 +1,32 @@
+{
+  "modId": 61049.0,
+  "modName": "PerMa Snatch Fix",
+  "summary": "Fixes the Snatch perk in the Dexterity perk tree of Perkus Maximus so it actually works.\r<br />",
+  "descriptionHtml": "[size=4][size=6]PerMa 1.2 fixed Snatch, this mod is no longer needed as long as you update.[/size]\r<br />\r<br />This patch will work on Perkus Maximus 1.0 and 1.1.[/size]\r<br />\r<br />Changes the value of the property checked by the Timed Block script to look for the Snatch perk instead of the Monkey Grip perk (since Snatch removes the opponents weapon on timed block if using fist weapons and Monkey Grip is supposed to remove the targets shield when you attack if they block it, but doesn&#39;t currently work).\r<br />\r<br />Unfortunately I am not knowledgeable enough in Papyrus to fix Monkey Grip or Removing the Scaffold, as I believe the bugs are due to the scripts themselves. Until T3nd0 fixes those, this patch fix will at least allow you to take advantage of Snatch.\r<br />\r<br />\r<br />[b][size=4]Load Order[/size][/b]\r<br />\r<br />LOOT should place this mod directly (or close to it) after PerkusMaximus_Master.esp, if not you can manually move it there. It should sit between PerkusMaximus_Master.esp and PatchusMaximus.esp\r<br />\r<br />Don&#39;t forget to re-run PatchusMaximus to ensure this fix is incorporated into your game.\r<br />\r<br />\r<br />[size=4][b]Note[/b][/size]\r<br />\r<br />May not work correctly if any mods other than PerkusMaximus modify or interfere with timed blocking.\r<br />\r<br />If it does not work for you try removing my fix, getting both the Snatch and Monkey Fist perk then go and try timed blocking an enemy attack with only your fist weapon equipped (no shield). \r<br />\r<br />If the weapon is NOT stolen then you have a mod conflicting with PerkusMaximus&#39; timed block and it is unlikely my fix would work until you resolve this conflict, if it is stolen then you may have this fix loading too early in your load order or you forgot to re-run the patcher.",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "mwpeck",
+  "createdUnix": "1419465377",
+  "updatedUnix": "1419465374",
+  "containsAdultContent": false,
+  "uploadedBy": "mwpeck",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000140103",
+      "name": "PerMa Snatch Perk Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "PerMa Snatch Perk Fix-61049-1-0.7z",
+      "uploadedUnix": "1419465374",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4e86e9ddc01fe5cb1758ce1283e363efd0307eb93f2a31d2b9f7d6ae8ab61e78/analysis/1419465422/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PerMa%20Snatch%20Perk%20Fix-61049-1-0.7z?fid=1000140103&ttl=1535849256&ri=8192&rs=8192&setec=9331cbbe3aebd8d3a073222c4b06593a"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 56828.0,
+  "modName": "Mounted Combat Fix for Vanilla Races",
+  "summary": "If you suddenly find that your mounted combat melee attacks will not connect with enemies, and you are playing a vanilla race, this mod should fix it.",
+  "descriptionHtml": "[size=3][b]Vanilla Race Mounted Combat Fix v1.0\r<br />[/b][/size]\r<br />--------------------------------\r<br />--------------------------------\r<br />\r<br />[b]General Information[/b]\r<br />\r<br />[b][size=3][color=red]You should only use this if you are encountering this bug&#33;[/color][/size][/b]\r<br />\r<br />Some of us are subject to a rare bug that causes mounted melee combat to effectively break for vanilla races. This bug is common on custom race mods, particularly those which were not updated for the Dawnguard patch, but it&#39;s exceedingly rare for vanilla races. My assumption is that there is some combination of mods that creates a conflict which messes the vanilla race data up, or perhaps one of those mods we use is dirty, unbeknownst to us.\r<br />\r<br />Regardless, I don&#39;t expect this mod to be used by many people, but hopefully it will help the people who have been affected by this. For me personally, this seems to happen to me at random during a playthrough. Mounted combat will work and then at some point randomly break. I could not begin to guess which mod or mods interacting would cause this.\r<br />\r<br />Here are the details though: Essentially, this bug is causing mounted combat melee attacks to default to a state where they have only 35 dgree arcs with which to hit, and rotate them so that they face the front of the horse, effectively reducing the arc evenfurther. All that this mod does is to restore mounted melee attacks of the vanilla races (and their vampire counterparts), giving them 85 degree arcs which are rotated to either side of the horse.\r<br />\r<br />--------------------------------\r<br />--------------------------------\r<br />\r<br />[b]Conflicts[/b]\r<br />\r<br />This could easily conflict with anything that edits vanilla races. That said, the mods I suspect of causing these issues don&#39;t \r<br />actually make any edits themselves, and I have noticed no issues with running this fix. If you use a mod that in some way \r<br />dramatically modifies vanilla races, it is a lot more likely you will run into a conflict. Let me know if you find anything.\r<br />\r<br />CREDIT TO [url=http://www.nexusmods.com/skyrim/users/5988747]Essoncletus[/url] For this report&#33; [quote]Hey, I&#39;m using Mounted Combat, this bug fix and SkyRe, thought I would let you and others know that it interferes with SKyRe Races esp which changes racial abilities. This can be resolved by moving SkyRe races further down to the end of the list near the bashed patch.\r<br />That is all&#33;[/quote]\r<br />--------------------------------\r<br />--------------------------------\r<br />\r<br />[b]Version History[/b]\r<br />\r<br />1.0: I done made it.\r<br />\r<br />--------------------------------\r<br />--------------------------------\r<br />\r<br />[b]Bugs and Feedback[/b]\r<br />\r<br />Beyond the potential for conflicts, there shouldn&#39;t be any issues. You should only use this if you are encountering this bug&#33;\r<br />\r<br />--------------------------------\r<br />--------------------------------\r<br />\r<br />[b]Distribution[/b]\r<br />\r<br />Please do not redistribute this file in any way, shape, or form. Please do not alter and re-release this file in any way, \r<br />shape or form. If you feel a change should be made to this mod, please suggest it to me. Thank you.\r<br />\r<br />--------------------------------\r<br />--------------------------------\r<br />\r<br />[b]Installation[/b]\r<br />\r<br />Please download and activate with Nexus Mod Manager. If you use another manager, you know what to do. for manual installation, \r<br />copy &#34;Vanilla Races MC Fix.esp&#34; file into your Skyrim&#92;Data folder. Make sure to activate the mod by going to &#34;Data Files&#34; in \r<br />your launcher and checking the box next to &#34;Vanilla Races MC Fix.esp&#34;. I still strongly recommend a mod manager, it&#39;s just the \r<br />responsible thing to do.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Adrius",
+  "createdUnix": "1407547263",
+  "updatedUnix": "1407545479",
+  "containsAdultContent": false,
+  "uploadedBy": "Adrius",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000121170",
+      "name": "VanillaRaceMCFix100",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "36",
+      "fileName": "VanillaRaceMCFix100-56828-1-0.rar",
+      "uploadedUnix": "1407545479",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0ba540862aa38b21438acc771e4e6be22d845e30547866fd97e689da13b7a8c7/analysis/1407545587/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VanillaRaceMCFix100-56828-1-0.rar?fid=1000121170&ttl=1535842423&ri=8192&rs=8192&setec=9a6bb5a08eca4bbe498865a2ac8ab74a"
+    }
+  ]
+}

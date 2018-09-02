@@ -1,0 +1,48 @@
+{
+  "modId": 28675.0,
+  "modName": "SKSE Athletics",
+  "summary": "Changes jumping height and running speed on the fly, depending on your level, race, weight, current stamina, and inventory weight. Requires SKSE.\r\n\r\nOBSOLETE! Look for ATHLETICS TRAINING instead!",
+  "descriptionHtml": "[size=5]This mod is obsolete, now [url=http://skyrim.nexusmods.com/mods/30968[/url]Athletics Training[/url] is available![/size]\r\n\r\n[color=green][size=5]SKSE Athletics v1.0[/size] (by Volek) [/color]\r\n\r\nA script mod that affects the player\\'s speed and jumping height on the fly. Requires [url=http://skse.silverlock.org/]SKSE[/url].\r\n\r\nEvery 5 seconds, the script re-calculates your jumping height and running speed. The original jumping height is 76, the original speed multiplier is 100. \r\nMy new formulas are:\r\n\r\nJumping height = (70 + Level + JumpMod + (Stamina * 0.25) - (Weight * 0.1) - (InventoryWeight * 0.2) + (FortifyCarry * 0.2))\r\nSpeed multiplier = (90 + Level + SpeedMod + (Stamina * 0.25) - (Weight * 0.1) - (InventoryWeight * 0.2) + (FortifyCarry * 0.2)))\r\n\r\nJumpMod and SpeedMod are modifiers, the values depend on your race.\r\n\r\nKhajiit: JumpMod = 20, SpeedMod = 20\r\nNord: JumpMod = 0, SpeedMod = 5\r\nArgonian: JumpMod = 0, SpeedMod = 15\r\nBreton: JumpMod = -5, SpeedMod = 0\r\nImperial: JumpMod = 0, SpeedMod = 0\r\nHighElf: JumpMod = -10, SpeedMod = -5\r\nWoodElf: JumpMod = 15, SpeedMod = 0\r\nDarkElf: JumpMod = 0, SpeedMod = 0\r\nOrc: JumpMod = 0, SpeedMod = 5\r\nRedguard: JumpMod = 5, SpeedMod = 10\r\n\r\nVampire Races receive a boost of 25 to each modifier. If you use a custom race and become a Vampire, you should still receive a boost since the script also checks if you are in the Vampire faction (untested).\r\n\r\nStamina is your current stamina, so if you are exhausted from fighting or sprinting, your speed and jump height is lower. However, your speed will not go below a certain value (to avoid being immobile with very low stamina and very high inventory weight). Weight is the weight of your character, a light character will jump higher and run faster, but not that much. InventoryWeight is the weight of your whole inventory, a character with lots off heavy stuff will jump lower and run slower. FortifyCarry is any magic enchantment or potion effect that fortifies your maximum carry weight. Note, this does not work with gear from [url=http://skyrim.nexusmods.com/mods/16438]Bandolier - Bags and Pouches[/url] (which is good imho, as those items are not considered magic).\r\n\r\nFall height is also considered, a higher jump means higher tolerance to fall damage.\r\n\r\nKnown issues: [list]\r\n[*]When you load your game, all gamesettings are reset to their default values, this is not a bug but by original game design. After a few seconds, my script will kick in again and modify the settings according to your level, inventory weight etc.\r\n[*]When you are over-encumbered, the message \\\"You are over-encumbered\\\" will appear every 5 seconds. This is due to a workaround for a shortcoming in the speed calculation. The speed does not update unless the player uses block or sprint (which is not always used) or the inventory weight changes. The script silently adds and removes a fork to the inventory to update the speedmult value. [/list]\r\n\r\nThe formulas are probably not balanced. Source scripts are included for those who wanna modify the formulas. Consider this a Modder\\'s Resource, no permission needed to use the scripts. I only ask for proper credit, and please do not upload anything related to this mod to Steam Workshop, thanks.",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Volek",
+  "createdUnix": "1356108338",
+  "updatedUnix": "1358846288",
+  "containsAdultContent": false,
+  "uploadedBy": "Volek",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "106825",
+      "name": "SKSE_athletics",
+      "version": "final",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "SKSE_athletics-28675-final.zip",
+      "uploadedUnix": "1356181579",
+      "modVersion": "final",
+      "virusScanUrl": "https://www.virustotal.com/file/75024c13565c691f214e144cbad66b1e1c0133d13f95b6ab937a6dcf2fdab364/analysis/1407317164/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SKSE_athletics-28675-final.zip?fid=106825&ttl=1535802188&ri=8192&rs=8192&setec=c6751fe4e77498ce72486e87019c1541"
+    },
+    {
+      "fileId": "1000004162",
+      "name": "SKSE_athletics10",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "SKSE_athletics10-28675-1-0.zip",
+      "uploadedUnix": "1358846288",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/dd78a62ba0a6d730448a93af2338f798e2e083938e81c607d7c431098ff1a70b/analysis/1407373383/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SKSE_athletics10-28675-1-0.zip?fid=1000004162&ttl=1535802188&ri=8192&rs=8192&setec=e9e51be4cbfa866414d56483030ccae7"
+    }
+  ]
+}

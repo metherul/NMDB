@@ -1,0 +1,32 @@
+{
+  "modId": 51383.0,
+  "modName": "Isharas Key Ring",
+  "summary": "Tidies up the inventory by placing keys in a key ring. Allows thieves to pick locks without having to hassle with removing keys from inventory. Allows normal usage of keys by electing to &#34;search&#34; the key ring for any keys used by nearby locked doors/chests.",
+  "descriptionHtml": "[center][color=deeppink][size=15]Ishara&#39;s Key Ring[/size][/color][/center]\r<br />\r<br />[color=orange]Purpose:[/color]\r<br />Provide a &#34;key ring&#34; to hold whatever keys you want.\r<br />\r<br />[color=orange]Why it was made:[/color]\r<br />Aside from some papyrus related theories regarding stack dumps and too many items being transferred at once, I simply felt that it was unnecessary to carry around all those keys. Especially since 9 times out of 10 you can get the key again on subsequent visits. Also, if you are trying to level your lockpicking having the keys in your inventory defeats the purpose since the key will be used rather than the lockpick.\r<br />\r<br />[color=orange]Item Specifics:[/color]\r<br />Name -- Key Ring\r<br />Type -- Armor\r<br />Body Slot -- NONE\r<br />Location -- Crafted under Misc section\r<br />Linked Container -- accepts only keys\r<br />\r<br />[color=orange]How to Use:[/color]\r<br />Equip. A message box appears. Key Ring auto unequips\r<br />-- For one key access you can favorite and assign a quick slot key.\r<br />Option 1 -- Add/Remove Keys\r<br />-- Opens container inventory so that you can manually add or remove keys as desired.\r<br />Option 2 -- Search for Key\r<br />-- Runs a quest which locates up to 20 nearby locked objects and their associated keys.\r<br />\r<br />[color=orange]Behind the scenes magic:[/color]\r<br />Keys are automatically added to the key ring on pickup/add to player inventory.\r<br />When searching for keys, the appropriate keys are silently added to the player inventory. Instead you are informed that the key was found on the key ring.  When the associated locked object is unlocked with the key, the key will be silently added back to the key ring. In the case of one key for multiple locked objects (in the same cell and as aliases on the currently running instance of the quest), the lockpicking menu is exited and the key silently re-added to inventory and the locked object re-activated thus opening the object with the key and returning the key to the key ring.\r<br />\r<br />[color=orange]Benefits:[/color]\r<br />Allows thieves who want to try picking the locks the ability to do so. This is accomplished by allowing the keys to auto-store on the key ring and not activating the search quest.\r<br />Allows those who want to use keys but keep their inventories tidy a means of doing both. Either manually or by searching.\r<br />\r<br />[color=orange]Requirements:[/color]\r<br />SKSE - [url=http://skse.silverlock.org/]http://skse.silverlock.org/[/url]\r<br />\r<br />[color=orange]Install:[/color]\r<br />NMM or manually extract to your Skyrim/Data folder.\r<br />\r<br />[color=orange]Uninstall:[/color]\r<br />Preferably finish your play through, however, it should leave no &#34;visible&#34; traces behind if removed mid-game.\r<br />1. manually remove all stored keys -- this will also stop the search quest if it is running\r<br />2. use the console to stop the auto-transfer quest if you wish (editor id name: abimKeyRingPlayerQuest)\r<br />3. save game\r<br />4. uninstall using NMM or manually delete the files/folders\r<br />Do note that step 2 is not really necessary, but can be done if desired.\r<br />\r<br />[color=orange]Files & Folders:[/color]\r<br />Isharas_KeyRing.esp\r<br />Isharas_KeyRing.bsa\r<br />Isharas_KeyRing.bsl\r<br />\r<br />[color=orange]Load Order:[/color]\r<br />Load order is unimportant. All new forms, no existing forms were touched. Place wherever you wish until BOSS becomes aware of this plugin.\r<br />\r<br />[color=orange]Notices & Disclaimers:[/color]\r<br />-- Graphics are not my specialty, however, I managed to piece together a simple 3 key key ring.  If someone is capable of doing better and would like to offer it, please feel free.\r<br />-- This is provided as-is. However, should there be an issue feel free to report it. If I am able to replicate the problem, I will attempt a solution.\r<br />-- At some point I may incorporate this mod into a larger project that I&#39;ve been working on with regards to inventory management. At that time there will be additional options to modify behavior via MCM settings.  For this release, however, things will remain simple.\r<br />-- The key ring is a custom NIF but uses stock textures. Your key ring may look different depending upon what texture replacers you may have in place. \r<br />",
+  "categoryId": "27",
+  "version": "1.0",
+  "author": "IsharaMeradin",
+  "createdUnix": "1393049816",
+  "updatedUnix": "1393049508",
+  "containsAdultContent": false,
+  "uploadedBy": "IsharaMeradin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000098165",
+      "name": "Isharas Key Ring",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "57",
+      "fileName": "Isharas Key Ring-51383-1-0.7z",
+      "uploadedUnix": "1393049508",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d6cf95495c2051824b2ebbc98ac986d3702a6ce3c3db4c836cd61e6c7e0e6eee/analysis/1407944541/",
+      "changelogHtml": " Initial release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Isharas%20Key%20Ring-51383-1-0.7z?fid=1000098165&ttl=1535833682&ri=8192&rs=8192&setec=13fd6a2883b92d05c7ea2a8c1d356f82"
+    }
+  ]
+}

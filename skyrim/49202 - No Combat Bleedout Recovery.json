@@ -1,0 +1,15 @@
+{
+  "modId": 49202.0,
+  "modName": "No Combat Bleedout Recovery",
+  "summary": "A mod which gives the player a spell which, when cast on an NPC, will permanently prevent that NPC from recovering health while in bleedout mode until they are no longer in combat.",
+  "descriptionHtml": "This mod gives the player the &#39;NCBR Apply Ability&#39; spell in restoration. The spell is free to cast, and when it hits an NPC, that NPC is given an ability which will prevent them from recovering health after entering bleedout until they have left combat.\r<br />\r<br />I was playing with a follower with the intent of letting the follower do most of the work. I&#39;d just heal her. But then I noticed healing her was pointless. After enough time has passed, she&#39;ll always get back up. I wanted it to be a little more realistic while maintaining her inability to actually die. So, now, when she falls in combat, she stays down until healed or until combat is over.\r<br />\r<br />AFT has a feature which does the same thing, I believe, but I&#39;m using followers which have issues with AFT, so I have to use UFO.\r<br />\r<br />The reason this is a spell instead of automatically being applied to all followers is for two reasons. One, as long you have the spell, you can leave certain followers unaffected if you want. Second, if you want to apply the spell to non-followers, you can do that, too. If there&#39;s a large call for it (which I don&#39;t expect), then I&#39;ll try and find a way to make it automatically apply to all followers/all NPCs.",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Xander9009",
+  "createdUnix": "1388069875",
+  "updatedUnix": "1388069875",
+  "containsAdultContent": false,
+  "uploadedBy": "Xander9009",
+  "primaryFile": null,
+  "files": []
+}

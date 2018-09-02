@@ -1,0 +1,32 @@
+{
+  "modId": 18778.0,
+  "modName": "Shadowgear",
+  "summary": "A set of armour and weapons named Shadowgear Equipment.  As the name suggests it is aimed at helping stealthly types, but can be useful to others too.",
+  "descriptionHtml": "[size=4][color=#6060c0]Details\r\n======[/color][/size]\r\n\r\nA letter found in The Ragged Flagon will lead you on a 6-part Radiant Story quest to find the 5 pieces of armour and weapon set.  Everything is Glass equipment.\r\n\r\nBow - Frenzy and Soul Trap Enchantments\r\nHelm - Toggable Nightvision (A lesser power added by a script, with a n enchantment on the helm just for the sake of adding a name for the enchantment)\r\nArmour - Carry Capacity increase\r\nGauntlets - Lockpicking and Pickpocket bonus\r\nBoots - Muffles\r\nShield - Resist Magic\r\n\r\nSince Radiant story does all the locations I can\\'t actually tell you where it\\'ll all be.\r\n\r\nUpdate:  Working on Heavy version, using the Draugr armour as a base for it.  Feedback is much appreciated.\r\n\r\n[url=http://forums.bethsoft.com/topic/1383499-rel-shadowgear/page__p__20976459#entry20976459]Bethesda forums Page[/url]  <-- For my convenience\r\n\r\n[line]\r\n[size=4][color=#6060c0]Credits\r\n=======[/color][/size]\r\n\r\nVohcaz - Allowing me to use his Glass retexture: [url=http://skyrim.nexusmods.com/mods/5157]Black and Blue Glass Armour[/url]\r\n\r\n[line]\r\n[size=4][color=#6060c0]Bugfixes\r\n========[/color][/size]\r\n\r\n\r\n**08/09/12**\r\n\r\nFound a weird bug, if you find the Bow before the other pieces then the quest will complete.  The other pieces will still be out there, you just won\\'t have a convienent map marker to take you there :(  Quick fix for this - use the console with \\\"Resetquest SGQuest\\\" then \\\"Setstage SGQuest XX\\\" where XX is the quest stage for what you were looking for before.\r\n\r\nQuest Stages:\r\n\r\n10 - Gauntlets\r\n20 - Boots\r\n30 - Shield\r\n40 - Helm\r\n50 - Armour\r\n60 - Bow\r\n\r\n\r\n**02/07/12**\r\n\r\nIf for some reason the quest won\\'t start when you read the note then type into the console \\\"SetStage SGQuest 10\\\" which should kick-start the quest.",
+  "categoryId": "54",
+  "version": "1.01a",
+  "author": "StewB",
+  "createdUnix": "1339703039",
+  "updatedUnix": "1347344717",
+  "containsAdultContent": false,
+  "uploadedBy": "Stewb",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "87791",
+      "name": "Shadowgear",
+      "version": "1.01a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5390",
+      "fileName": "Shadowgear-18778-1-01a.zip",
+      "uploadedUnix": "1347344717",
+      "modVersion": "1.01a",
+      "virusScanUrl": "https://www.virustotal.com/file/9518ef568c55cb5c37c446ef0449da1009dcc4735c5f5d21dd71ca4b2bef443a/analysis/1407159192/",
+      "changelogHtml": " Fixed Various texture issues (See readme for details) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Shadowgear-18778-1-01a.zip?fid=87791&ttl=1535785830&ri=8192&rs=8192&setec=fabbfca786e71fdeed188c3e8d619f76"
+    }
+  ]
+}

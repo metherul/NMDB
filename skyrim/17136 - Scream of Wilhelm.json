@@ -1,0 +1,48 @@
+{
+  "modId": 17136.0,
+  "modName": "Scream of Wilhelm",
+  "summary": "This mod simply adds a chance that people and creatures will yell out the renowned Wilhelm Scream when they die. May the scream be heard throughout the Reach!\r\n\r\nThe Wilhelm Scream has been featured in many movies and games over the years, and now has been added to Skyrim!",
+  "descriptionHtml": "[b]--------------------------------------------------------------------------\r\n Scream of Wilhelm   ---   by miken700\r\n--------------------------------------------------------------------------[/b]\r\n\r\n[b]Overview:[/b]\r\n----------------------------------------\r\nThis mod simply adds a chance that people and creatures will yell out the renowned Wilhelm Scream when they die. May the scream be heard throughout the Reach!\r\n\r\nThe Wilhelm Scream has been featured in many movies and games over the years, and now has been added to Skyrim!\r\n\r\n\r\n[b]Video:[/b]\r\nShows it in action with chance set at 100. Thanks goes out to AbsoluteZ3R0 for creating the video.\r\n[youtube]NuJGeadR29g[/youtube]\r\n\r\n\r\n[b]Description:[/b]\r\n----------------------------------------\r\nWith this mod The Wilhelm Scream may be yelled when at death. This can be anything and anyone one kills or sees killed on their adventures in Skyrim, including the Dragon-born himself / herself.\r\n\r\n[url=http://www.youtube.com/watch?v=cdbYsoEasio]Video of the scream in various movies[/url] (not my video)\r\n\r\n\r\n\r\n[b]Settings:[/b]\r\n----------------------------------------\r\nGlobal settings are available for tweaking the percent chance of the scream. These settings are currently only tweakable in the console. Perhaps later I\\'ll make this more accessible somehow.\r\n\r\n[b]Changing Settings Instructions:[/b]\r\n[list]\r\n[*]open the console ([b][code]\\\"~\\\"[/code][/b] or key in the upper left), then,\r\n[*]type [b][code]\\\"help wilhelmscream 3\\\"[/code][/b] (without quotes) to view the current values and aids in finding the correct spelling of the variables.\r\n[*]type [b][code]\\\"set WilhelmScreamChanceNPC to 50\\\"[/code][/b] to set NPC chance to 50%.\r\n[*]type [b][code]\\\"set WilhelmScreamChanceCreature to 50\\\"[/code][/b] to set creature chance to 50%.\r\n[*]close the console (the same key used to open the console)\r\n[*]the settings will be saved when you save your game\r\n[/list]\r\n\r\n[b]Setting Details:[/b]\r\n----------------------------------------\r\n[b][code]WilhelmScreamChanceNPC[/code][/b]\r\n[list]\r\n[*]chance that humanoids (NPC\\'s) will yell the scream at death\r\n[*]set to 20 for 20% chance. Expected values are between 0 and 100 (0 is never, and 100 is always). default: 20\r\n[*]value is saved in save-files\r\n[/list]\r\n[b][code]WilhelmScreamChanceCreature[/code][/b]\r\n[list]\r\n[*]chance that creatures (all non-NPC\\'s) will yell the scream at death\r\n[*]set to 20 for 20% chance. Expected values are between 0 and 100 (0 is never, and 100 is always). default: 5\r\n[*]value is saved in save-files\r\n[/list]\r\n\r\n\r\n\r\n[b]Notes:[/b]\r\n----------------------------------------\r\nShortly before I uploaded this mod (after a bunch of development, redevelopment testing, etc). I found that there is a [url=http://skyrim.nexusmods.com/downloads/file.php?id=3184]\\\"Wilhelm Scream\\\"[/url] mod out there by Matziq. You can imagine me crying the Wilhelm Scream at that point. That mod seems to simply replace the common \\\"ta-da\\\" sound which happens at character death (or maybe it\\'s just for crit hits?) as well as a number of other common events seems like. This mod here is specific to humanoid death (that is, the combat dialog death category) and just adds the scream to the list of things that may be uttered at one\\'s death. This does not change any existing sounds or any other things.\r\n\r\n\r\n[b]Version:[/b] 1.5\r\n\r\n\r\n[b]Installation:[/b]\r\n----------------------------------------\r\nActivate via Nexus Mod Manager. It can be added manually by extracting files into the Skyrim\\'s Data folder then activating the data/plugin file (esp file). But it\\'s recommended to use the Nexus Mod Manager as it is the supported way and is an easier install.\r\n\r\n[b]Un-installation:[/b]\r\n----------------------------------------\r\nDeactivate via Nexus Mod Manager. If installed from a manual installation, just deactivate the data file and optionally remove the files added files by the manual installation.\r\n\r\n[b]Known Issues:[/b]\r\n----------------------------------------\r\nNone known.\r\n\r\n\r\n[b]Updates:[/b]\r\n----------------------------------------\r\n1.0 - Initial Release\r\n1.5 - Refactored to allow explicit setting of percent chance of the scream. Added global settings to tweak the chances for both \r\nNPC\\'s and creatures.\r\n\r\n\r\n\r\n[b]Permission Notes:[/b]\r\n----------------------------------------\r\nThis mod is in the public domain. The audio comes from audio that is already in the public domain.\r\n\r\n\r\n[b]Credits:[/b]\r\n----------------------------------------\r\n[list]\r\n[*]The Wilhelm Scream (in the public domain) [url=http://en.wikipedia.org/wiki/Wilhelm_scream]Wikipedia article[/url]\r\n[*][url=http://media.io]Online Audio Converter[/url]\r\n[*]evil: for my introduction to Wilhelm Scream\r\n[*]Bethesda Softworks: for the Creation Kit, Skyrim, etc.\r\n[*][url=http://skyrim.nexusmods.com]nexusmods[/url]\r\n[/list]",
+  "categoryId": "61",
+  "version": "1.5",
+  "author": "miken700",
+  "createdUnix": "1337129013",
+  "updatedUnix": "1337701876",
+  "containsAdultContent": false,
+  "uploadedBy": "miken700",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "61594",
+      "name": "Scream of Wilhelm old version",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "170",
+      "fileName": "Scream of Wilhelm old version-17136.7z",
+      "uploadedUnix": "1337129232",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0b40ef6aed644ba25982fbd177578a546b33bef6209d959cfbdb6344c0693ed3/analysis/1406895490/",
+      "changelogHtml": " Initial Version <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Scream%20of%20Wilhelm%20old%20version-17136.7z?fid=61594&ttl=1535783021&ri=8192&rs=8192&setec=8b6e8fdfa010126d99b64065063258d5"
+    },
+    {
+      "fileId": "63014",
+      "name": "Scream of Wilhelm",
+      "version": "1.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "170",
+      "fileName": "Scream of Wilhelm-17136-1-5.7z",
+      "uploadedUnix": "1337701876",
+      "modVersion": "1.5",
+      "virusScanUrl": "https://www.virustotal.com/file/64a42e11a7c690f49f28225d2df2982ae4cfe2a765b9d05b623c5dbdae2914f6/analysis/1406909345/",
+      "changelogHtml": " Refactored to allow explicit setting of percent chance of the scream. <br/> \n Added global settings to tweak the chances for both  NPC\\'s and creatures. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Scream%20of%20Wilhelm-17136-1-5.7z?fid=63014&ttl=1535783021&ri=8192&rs=8192&setec=04e7d23df1abcbe083a44a941639c68b"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 21770.0,
+  "modName": "Ultimate Dragon Allies - Odahviing and Durnehviir",
+  "summary": "Odahviing and Durnehviir are now awesome instead of useless",
+  "descriptionHtml": "[size=5][color=#00FF0D]THE PREMISE:[/color][/size]\r<br />\r<br />In vanilla Skyrim, I was always really disappointed with how lame Odahviing and Durnehviir were in fights. They were basically overgrown mosquitos who would do next-to-no damage to enemies, especially at higher levels. This is a result of the fact that they share their attacks with enemy dragons, which are balanced to the player&#39;s health.\r<br />\r<br />[b][color=#00F2FF]This mod gives Odahviing and Durnehviir their own unique dragon breath attacks that deal massive amounts of damage and greatly amplifies their melee damage as well.[/color][/b] I wanted to make them feel as dangerous to enemies as high-level dragons feel to the player. They are now able to obliterate all but the most powerful enemies in a single blast of breath, even on legendary difficulty. I enjoy playing with mods that add increased spawns and large battles around the overworld, so dragon allies now become well worth the shout cooldown necessary to summon them, able to decimate entire groups of enemies and singlehandedly turn the tide of a battle in your favor.\r<br />\r<br />[size=5][color=#00FF0D]HOW IT WORKS:[/color][/size]\r<br />\r<br />All this mod does is creates new, unique breath shouts for Odahviing and Durnehviir that behave in the exact same way as their vanilla counterparts, but deal in excess of [color=#00F2FF]1000 damage each,[/color] way overkill for most weaker or low-level enemies, but just enough to still be able to take out enemies with the highest health. Remember that they tend to do a lot of flying around, so when they do attack, you want it to count. Their melee damage modifier is quite high as well, so you&#39;ll be able to enjoy seeing them do killmoves on weaker humanoid enemies fairly frequently if they get within bite range of them.\r<br />\r<br />Now all that damage obviously spells instant death for the player and friendly NPCs if they&#39;re hit by it, so I&#39;ve taken a couple measures to prevent this from happening. First and foremost I&#39;ve added conditions to Odahviing and Durnehviir&#39;s new breath attacks which make them do no damage to the player or any of the player&#39;s followers. Normally this isn&#39;t an issue and the breath won&#39;t damage non-hostile NPCs anyway, but in earlier beta versions I ran into a few bugs where my followers would somehow aggro on my dragon which would then make him go hostile and one-shot me with breath. This is an additional contingency that ensures it&#39;s impossible for this to happen. I&#39;ve also added both Odahviing and Durnehviir to the Player faction, which will further ensure that NPCs who are currently friends and allies of the player won&#39;t aggro on the dragon ally and vice versa (Note, this change does not actually alter the Player faction&#39;s record, so there will be no conflicts with other mods that do make changes to the Player faction)\r<br />\r<br />Also, I&#39;ve implemented additional functionality into Odahviing&#39;s breath attacks that makes the initial fight with him at Dragonsreach work normally, [color=#00F2FF]so you can safely use this mod on a new character even before you beat the main quest.[/color] His breath attacks will still be able to damage you during the fight, but they will not be one-shot kills. They will be scaled to your level instead. I implemented about 5 different tiers of breath scaling ranging from level 15 to 50 with values I thought were appropriate. Note that if you are playing on legendary the damage will be quite high (it will hit for roughly 300 fire damage once you&#39;re above level 50 and is unaffected by your fire resistance), but on lower difficulties even weaker characters without healing spells should be able to survive long enough to trap him. This player-scaling damage gets disabled once you complete the quest and his breath attacks switch over to being balanced for obliterating enemies. [color=#00F2FF]There are no scripts involved with this mod[/color] so don&#39;t worry, it&#39;s all done through conditions placed on the spell effects.\r<br />\r<br />The fight with Durnehviir in the Soul Cairn will work normally as well. The Durnehviir you fight in this battle is actually a completely separate actor from the Durnehviir you can summon to fight for you. I have only made changes to his summoned version, so [color=#00F2FF]you can safely use this mod before completing the Durnehviir fight in Soul Cairn.[/color]\r<br />\r<br />[size=5][color=#00FF0D]COMPATIBILITY:[/color][/size]\r<br />\r<br />I designed this mod to be compatible with literally any other mod out there with no conflicts. Odahviing and Durnehviir are the only actors modified by these .esps. I highly recommend you use this mod in conjunction with [url=http://skyrim.nexusmods.com/mods/3829/?]Deadly Dragons[/url] (if you don&#39;t use it already). It will allow you to modify enemy dragons&#39; health and damage to your liking. I designed my powered-up shouts with the high-level versions of the dragons from Deadly Dragons in mind (I usually play with them set at anywhere from 300-600% health based on how many followers I have with me). Vanilla Skyrim dragons tend to be really weak, so you&#39;ll definitely want to amp up their stats if you want some truly epic dragon battles. Mods like [url=http://www.nexusmods.com/skyrim/mods/32394/?]DFB Random Encounters[/url] can be great to use as well because it will add larger groups of enemies around Skyrim to use your dragons on and really see just what they&#39;re capable of.\r<br />\r<br />My mods will be compatible with mesh/texture replacers for Odahviing and Durnehviir so long as those replacers use the default filepaths and don&#39;t include an .esp (if there&#39;s an .esp along with the meshes and textures folders in the mod, it likely includes edits to their actor info and will conflict, but if it&#39;s just a meshes and textures folder then you&#39;re good to go).\r<br />\r<br />As for your load order, just make sure to place these mods [b][color=#00FF0D]after[/color][/b] any other dragon mod. No other dragons or dragon breath attacks are edited by my mods, so you want to ensure the changes to Odahviing and Durnehviir are applied and don&#39;t get overwritten by a larger dragon mod. It doesn&#39;t matter which order you put ultimateodahviing.esp and ultimatedurnehviir.esp in, either one can be after the other.\r<br />\r<br />That should pretty much cover everything. Report any bugs or issues you have to me in the comments. Hope you enjoy it, endorse if you do.\r<br />\r<br />[b][color=#00F2FF]Drem Yol Lok[/color][/b]\r<br />\r<br />[size=4]Also check out my other mods:\r<br />[url=http://skyrim.nexusmods.com/mods/45882/?]Duskguard Amulet\r<br />[/url][url=http://www.nexusmods.com/skyrim/mods/62491]Auriel&#39;s Bow Enhanced[/url]\r<br />[url=http://skyrim.nexusmods.com/mods/41402/?]Kyne&#39;s Peace Affects Spriggans[/url]\r<br />[url=http://skyrim.nexusmods.com/mods/26086/?]Improved Sleeping Tree Sap[/url][/size]",
+  "categoryId": "24",
+  "version": "2.2",
+  "author": "Gilgamesh",
+  "createdUnix": "1344205781",
+  "updatedUnix": "1384573936",
+  "containsAdultContent": false,
+  "uploadedBy": "guerillamoderno",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000072261",
+      "name": "Ultimate Odahviing",
+      "version": "2.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Ultimate Odahviing-21770-2-2.zip",
+      "uploadedUnix": "1383066255",
+      "modVersion": "2.2",
+      "virusScanUrl": "https://www.virustotal.com/file/7384e57b52e49ad824dc01c529f5743dd753a01077ffa0515a307c56226bcfc2/analysis/1407774017/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ultimate%20Odahviing-21770-2-2.zip?fid=1000072261&ttl=1535790883&ri=8192&rs=8192&setec=cee99324235a4e40a1851ac0f51ca268"
+    },
+    {
+      "fileId": "1000079446",
+      "name": "Ultimate Durnehviir",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Ultimate Durnehviir-21770-1-0.zip",
+      "uploadedUnix": "1384573936",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/802b7eea6cbeb4a8e4f8f72f78ce2ec9d08612aa2a8a36f319c605123ac18c47/analysis/1407794166/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ultimate%20Durnehviir-21770-1-0.zip?fid=1000079446&ttl=1535790884&ri=8192&rs=8192&setec=425cd90681c8d509e17ffee588fcc6ec"
+    }
+  ]
+}

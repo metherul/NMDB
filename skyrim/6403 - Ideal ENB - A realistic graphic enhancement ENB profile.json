@@ -1,0 +1,32 @@
+{
+  "modId": 6403.0,
+  "modName": "Ideal ENB - A realistic graphic enhancement ENB profile",
+  "summary": "A custom graphic enhancement ENB profile, which adds natural lighting and enhances color tone/intensity for realistic look.",
+  "descriptionHtml": "Ideal ENB v3.0 by yoon2886\r\n- A realistic graphic enhancement ENB preset\r\n\r\nThis is a ENB profile customized to achieve more realistic look of the Skyrim. \r\n\r\nThe color tone and intensity have been carefully adjusted to create more natural environment without making it appear excessively colorful or shiny. The nights and dungeons in this mod are moderately dark - darker than vanilla but not pitch-black dark like in some \\\"dark night\\\" enb presets.\r\n\r\nYou can turn on/off the ENB effect with \\\"Shift+F12\\\", and sharpen and some color correction effect with \\\"Pause\\\" key.\r\n\r\nPlease feel free to suggest possible improvements.\r\nEnjoy =)\r\n\r\n========================================================\r\nInstallation guide\r\n\r\n- I strongly recommend to delete or uninstall previous ENB or graphic injector mods before installing other ENB/graphic mods-\r\n\r\n1. unzip the downloaded file.\r\n\r\n2. select desired level of sharpen effect and open the folder accordingly. (I personally prefer \\\"more sharpen\\\" version since it makes the image much clearer and brings out hidden texture details. But if you have sensitive eyes, \\\"less sharpen\\\" or even \\\"no sharpen\\\" version should be suitable.\r\n\r\n3. copy or cut all files within the folder, then paste them in the main Skyrim directory. If it asks for replacement of any files, please do so. \r\n\r\n4. go to the My Document -> My Games -> Skyrim, then open \\\"SkyrimPrefs.ini\\\".\r\n\r\n5. In the \\\"SkyrimPrefs.ini\\\", make sure you have set the value of  bFloatPointRenderTarget to 1. If not please set it to 1. Otherwise, the ENB effects (esp. SSAO) won\\'t be applied appropriately. If you don\\'t have bFloatPointRenderTarget entry in your ini, just add the following line under the [display] section:\r\n\r\n         bFloatPointRenderTarget=1\r\n\r\n6. Start the game launcher and go to the option. Make sure the graphics adapter setting changed to ENB.\r\n\r\n7. Enjoy!\r\n\r\n==============================================\r\nkudos to..\r\n\r\nHeliosDoubleSix - ENB HD6 Lighting Enhancement - Dark Nights\r\nhttp://www.skyrimnexus.com/downloads/file.php?id=4142\r\n\r\nBoris Vorontsov - Original Ultimate graphic enhancement\r\nhttp://enbdev.com/\r\n\r\nsome_dude -  FXAA Post Process Injector\r\nlink unavailable? =/\r\n",
+  "categoryId": "62",
+  "version": "3.0",
+  "author": "yoon2886",
+  "createdUnix": "1326785311",
+  "updatedUnix": "1326786259",
+  "containsAdultContent": false,
+  "uploadedBy": "yoon2886",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "20576",
+      "name": "ideal enb V3_0",
+      "version": "3.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "925",
+      "fileName": "ideal enb V3_0-6403-3-0.zip",
+      "uploadedUnix": "1326786259",
+      "modVersion": "3.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f13f262cd1c97d69ea11ddf9b0018a08fded970bb52cfd13758aafea2da6a734/analysis/1406618404/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ideal%20enb%20V3_0-6403-3-0.zip?fid=20576&ttl=1535763795&ri=8192&rs=8192&setec=22bc82857d803a4b736a3eb180195dfe"
+    }
+  ]
+}

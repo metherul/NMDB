@@ -1,0 +1,32 @@
+{
+  "modId": 40425.0,
+  "modName": "No Enchantment Restrictions - SKSE No Conflict",
+  "summary": "Removes the armor/weapon type restrictions on all enchantments (including modded enchantments) using an SKSE plugin, no conflicts.",
+  "descriptionHtml": "[center][size=5][color=red][b]REQUIREMENTS[/b][/color][/size][/center]\r<br />The [url=http://skse.silverlock.org/]Skyrim Script Extender (SKSE)[/url], Version [color=orange]1.6.15[/color] (or newer) is [b]REQUIRED[/b] to run the No Enchantment Restrictions plugin.\r<br />\r<br />If you don&#39;t know how, or cannot install SKSE on your own I recommend watching:\r<br />[list][*][url=http://www.youtube.com/watch?v=xTGnQIiNVqA]English SKSE Installation Video[/url] by Gopher\r<br />[*][url=http://www.youtube.com/watch?v=p_xL6C9D1jw]German SKSE Installation Video[/url] by Frank SiriuS\r<br />[/list]\r<br />[color=#5EA2E5][center][size=5][b]PURPOSE[/b][/size][/center][/color]\r<br />An SKSE plugin to remove the armor/weapon type restriction on all enchantments.\r<br />\r<br />PLEASE NOTE: You STILL cannot add weapon enchantments to armors. The game engine just doesn&#39;t support this, no mod will make this happen.\r<br />\r<br />[color=#5EA2E5][center][size=5][b]HOW IT WORKS[/b][/size][/center][/color]\r<br />Normally, all enchantments have a &#34;Worn Restrictions&#34; option, this consists of a FormList that contains keywords of Armor or Weapons e.g. &#34;ClothingBoots&#34; to determine what to restrict the enchantment to. Leaving this as &#34;NONE&#34; indicates that it cannot be applied to anything, yet the enchantment can still be learned by disenchanting. When the game finishes loading all assets it will create a new FormList internally, add ALL currently loaded keywords to it, then apply the FormList to ALL enchantments. Essentially this means that any keyword will fill the Worn restriction and allow for enchanting to occur on any armor or weapon type. Unfortunately because of how the engine works, this does not allow for weapon enchantments to be applied to armors or vice-versa.\r<br />\r<br />[color=#5EA2E5][center][size=5][b]CHANGE LOG[/b][/size][/center][/color]\r<br />Version 1.0\r<br />[list][*]Initial Version\r<br />[/list]\r<br />[color=#5EA2E5][center][size=5][b]COMPATIBILITY[/b][/size][/center][/color]\r<br />Isn&#39;t incompatible with anything, it&#39;s an SKSE plugin. There is nothing for it to conflict with.\r<br />\r<br />[color=#5EA2E5][center][size=5][b]LOAD ORDER[/b][/size][/center][/color]\r<br />None, there is no game plugin\r<br />\r<br />[color=#5EA2E5][center][size=5][b]INSTALLATION[/b][/size][/center][/color]\r<br />[b]Automatic Download with NMM[/b]\r<br />[list][*]Click the Download with manager button on top of the file.\r<br />[*]No Enchantment Restrictions will appear in in NMM&#39;s Mods list once it&#39;s downloaded. Double-click the &#34;No Enchantment Restrictions&#34; entry to Activate it.\r<br />[/list]OR\r<br />\r<br />[b]Manual Download with NMM[/b]\r<br />[list][*]Start NMM and click on Mods.\r<br />[*]In the left icon bar, click on Add Mod From File and select the downloaded archive file.\r<br />[*]No Enchantment Restrictions will now appear in the list. Double-click to Activate it.\r<br />[/list]OR\r<br />\r<br />[b]Manual Installation[/b]\r<br />[list][*]Locate the Data/ folder in your Skyrim installation directory. Typically it&#39;s found at Program Files/Steam/steamapps/common/skyrim/Data/.\r<br />[*]Extract the contents of the downloaded archive file to your Data/ folder.[/list]",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "Expired",
+  "createdUnix": "1376674094",
+  "updatedUnix": "1376674085",
+  "containsAdultContent": false,
+  "uploadedBy": "expired6978",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000047303",
+      "name": "No Enchantment Restrictions v1-0-0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "44",
+      "fileName": "No Enchantment Restrictions v1-0-0-40425-1-0.7z",
+      "uploadedUnix": "1376674085",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2fb2e705d25cd41780192c856170de3284b643e109427a9cfbb669df9decaeab/analysis/1407684247/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20Enchantment%20Restrictions%20v1-0-0-40425-1-0.7z?fid=1000047303&ttl=1535821023&ri=8192&rs=8192&setec=e6061cdac0455c76151e029fa5c93f4a"
+    }
+  ]
+}

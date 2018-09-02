@@ -1,0 +1,32 @@
+{
+  "modId": 30934.0,
+  "modName": "Turn Undead -spell- Stagger Fix",
+  "summary": "Stagger with Swagger! This fixes the issue of the spell \\'Turn Undead\\' not staggering *any* undead enemies.",
+  "descriptionHtml": "Hello, all! This is my first \\\"mod\\\" so to speak.\r\n\r\nI had noticed throughout my play time that the spell \\'Turn Undead\\' did not stagger undead like all the other turning spells.\r\nThis was caused by the \\\"push\\\" variable set for the spell was at 0 (zero), while Turn Lesser Undead was at 50, and all the \r\nother spells were at 100. This didn\\'t seem right to me, so I changed the variable to 75 (seemed like a nice middle ground).\r\n\r\nSo now, Turn Undead is a useful Adept-level spell!\r\n\r\nInstallation:\r\n\r\nSimply drop the Turn Undead Push Fix.esp file into your Skyrim/Data folder. Load order shouldn\\'t matter, but I have mine set to load last.\r\n\r\nAny questions or comments? Drop me a line on Skyrim Nexus (jovalleau) or Bethesda\\'s forums under Day_Man!",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "jovalleau",
+  "createdUnix": "1359903265",
+  "updatedUnix": "1359914961",
+  "containsAdultContent": false,
+  "uploadedBy": "jovalleau",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000006826",
+      "name": "Turn Undead Stagger Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Turn Undead Stagger Fix-30934-1-0.rar",
+      "uploadedUnix": "1359914961",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6cbe89b200724fb4abf8d5a0b74326124aaebf1082229a174cf7bf5238dbdf50/analysis/1407395168/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Turn%20Undead%20Stagger%20Fix-30934-1-0.rar?fid=1000006826&ttl=1535806133&ri=8192&rs=8192&setec=464b85886194dee8db63c9c59e57b53a"
+    }
+  ]
+}

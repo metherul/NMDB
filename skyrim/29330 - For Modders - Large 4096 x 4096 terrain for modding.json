@@ -1,0 +1,32 @@
+{
+  "modId": 29330.0,
+  "modName": "For Modders - Large 4096 x 4096 terrain for modding",
+  "summary": "Large 4096 x 4096 terrain for modding",
+  "descriptionHtml": "Large 4096 x 4096 terrain for modding\r\n\r\nIn this folder:\r\n\r\ncocs.txt - cell names for use with \\\"coc\\\" command. EX. from the console (press `)(tilde), then enter coc (area name) \\\"coc S_area03\\\"\r\n\r\nheightmap.tif - heightmap used to generate the terrain\r\nscalloped.raw - the raw file used with TESAnnwyn to generate the physical terrain\r\nscalloped.obj - a mesh generated from heightmap.tif  obj is 512 x 512 and is not used by nor needed for this mod.  Just added cuz it\\'s cool.\r\ndata folder - folder contains all the files needed for this mod. simply drop the \\'data\\' folder into  your skyrim base folder, and hit ok on any popups.\r\n\r\nFor use with the Creation Kit:\r\nOpen the Creation Kit.  Go File>Data.  Check the Skyrim.esm and scalloped.esp. Set scalloped.esp as \\'Active File\\'. Press\\'OK\\'. In the Cell View dropdown, select Scalloped. From here select any cell and double click to goto that cell.\r\n\r\nLandscape textures added:  I have added a couple of my landscape textures to the game, which will show up on your \\'Landscape Editing Window\\'.\r\n\r\n\r\nFor use in game: \r\nIn game press the tilde (`)(just left of the \\'1\\' on most keyboards), you should now be in the console.  type coc S_area01 to goto cell S_area01.  When inside the scalloped map, there are a couple of map markers that you can travel to, and 6 \\'COC\\' areas to travel to.\r\n\r\nIf you have any serious problems, it is more likely that I will notice an email sent to hyperactive@clammy.org than to notice a comment on the Nexus.  I get lazy like that.  I don\\'t take requests for specialized terrains because they are a pain :)  this terrain was generated semi randomly with some specialized tweaks.  Creating a made to order terrian takes much more time and talent than I have.  They are really very much of a pain.\r\n\r\nThis terrain was created using:\r\n\r\nPhotoshop and GeoControl2 and EarthSculpter and Bryce7 for the heightmap creation and generation.\r\n\r\n\r\nTESAnnwyn and Oscape were used to take the heightmap to a usable state for the game.\r\n\r\nTESAnnwyn and Oscape are free programs created by awesome, kickass people.  Both files can be found on this site...I think.\r\n\r\nEverything held within the mod are my creations (\\'cept the parts by Bethesda) and you are free to do what you will with them.  If you somehow take this mod and make millions of dollars, I expect an email so I can bug you once a week or so for a couple of bucks for a beer\r\n\r\nhyperactivechild",
+  "categoryId": "82",
+  "version": "",
+  "author": "hyperactivechild",
+  "createdUnix": "1357176553",
+  "updatedUnix": "1357176945",
+  "containsAdultContent": false,
+  "uploadedBy": "hyperactivechild",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "109183",
+      "name": "For Modders - Large 4096x4096 terrain",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "93960",
+      "fileName": "For Modders - Large 4096x4096 terrain-29330-.7z",
+      "uploadedUnix": "1357176945",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/bd0cfe0ab5758b905bf33227a42ef240f314a2f9841236a4d56517b3610c8735/analysis/1407334319/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/For%20Modders%20-%20Large%204096x4096%20terrain-29330-.7z?fid=109183&ttl=1535803339&ri=8192&rs=8192&setec=cd7771b820be0db9153b3f99221a7532"
+    }
+  ]
+}

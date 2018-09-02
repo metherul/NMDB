@@ -1,0 +1,48 @@
+{
+  "modId": 15443.0,
+  "modName": "wereControl",
+  "summary": "control your inner beast!\r\n\r\n*unlimited time for your beast-form\r\n*unlimited beast-form transformations per day\r\n*turn and turn back by beast-form talent (need: [url=http://skyrim.nexusmods.com/downloads/file.php?id=9891]Werewolf Loot[/url] mod by opensource634)",
+  "descriptionHtml": "[b]WereControl[/b] - now ToL compatible (Look at \\\"files section\\\" for ToL version)\r\n\r\n[b]Overview:[/b]\r\n*unlimited time for your beast-form\r\n*unlimited beast-form transformations per day\r\n*turn and turn back by beast-form talent (need: [url=http://skyrim.nexusmods.com/downloads/file.php?id=9891]Werewolf Loot[/url] mod by opensource634)\r\n\r\n[b]Requires:[/b]\r\n[url=http://skyrim.nexusmods.com/downloads/file.php?id=9891]Werewolf Loot[/url] mod by [url=http://skyrim.nexusmods.com/modules/members/index.php?id=923815]opensource634[/url]\r\n\r\n[b]Installation:[/b]\r\n0)Copy \\\"wereControl.esp\\\" and scripts directory into your Skyrim/Data/ directory \r\n1)Activate addon in the skyrim data-files menu (must be loaded after WW-Loot)\r\n\r\n[b]How to transform back:[/b]\r\nopen character menu \r\n--> magic \r\n---> powers \r\n----> choose \\\"beast form\\\"\r\ncast \\\"beast form\\\"\r\n\r\n[b]Technical Notes:[/b]\r\nunlimited time:\r\n--- modified PlayerWerewolfQuest - modified PlayerWerewolfQuestScript property: Untimed = true\r\nunlimited beast-form:\r\n--- modified WerewolfChange Spell: type = Lesser Power\r\nturn and turn back:\r\n--- modified WerewolfChangeEffectScript - added WerewolfBeastRace check before transformation\r\n--- modified WerewolfChangeEffect magic effect - added WerewolfChangeEffectScript property: WerewolfBeastRace\r\n\r\n[b]Special Thanks:[/b]\r\nThanks [url=http://skyrim.nexusmods.com/modules/members/index.php?id=923815]opensource634[/url] for his extremely useful Werewolf Loot mod, it\\'s really nice to be ww now)",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Noxilie",
+  "createdUnix": "1334777354",
+  "updatedUnix": "1335205134",
+  "containsAdultContent": false,
+  "uploadedBy": "Noxilie",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "54330",
+      "name": "wereControl",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "wereControl-15443-1-0.7z",
+      "uploadedUnix": "1334777483",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e726915b004a31067867fa62b1a387c6ee6ecd9ebba16940b5b7462f6034364a/analysis/1406822174/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/wereControl-15443-1-0.7z?fid=54330&ttl=1535779825&ri=8192&rs=8192&setec=3d51f02af3157390ad899eb462325234"
+    },
+    {
+      "fileId": "55719",
+      "name": "wereControl - ToL compatible",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "wereControl - ToL compatible-15443-1-0.7z",
+      "uploadedUnix": "1335205134",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e5ed074d4ae79f98b53c18db346eae791d804b70f61dcfa6d16530de7683c4a2/analysis/1406831899/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/wereControl%20-%20ToL%20compatible-15443-1-0.7z?fid=55719&ttl=1535779825&ri=8192&rs=8192&setec=bd0f27956eb05b2194b50926a903ffa3"
+    }
+  ]
+}

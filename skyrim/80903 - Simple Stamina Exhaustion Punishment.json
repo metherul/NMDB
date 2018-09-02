@@ -1,0 +1,48 @@
+{
+  "modId": 80903.0,
+  "modName": "Simple Stamina Exhaustion Punishment",
+  "summary": "If your stamina goes down to zero and you try to run, you fall.",
+  "descriptionHtml": "[color=#ff0000][u][size=4][b][color=#ff7700]TL;DR[/color]\r<br />[/b][/size][size=4][b]\r<br />[/b][/size][/u][/color][size=3]If your Stamina drops to Zero, and you try to Run, you Ragdoll. You can still walk, though.\r<br />\r<br />\r<br />[/size][color=#ff7700][size=4][u][b]Long Description\r<br />\r<br />[/b][/u][/size][/color][size=3]Like most of Skyrim players, I&#39;ve been going for immersion since ever.\r<br />Even with many immersion mods, I never felt too &#34;punished&#34; when depleting the character&#39;s stamina. Even with mods that adds heavy breathing or blurred vision, it never bothered too much.\r<br />\r<br />This simple mod changes that.\r<br />If your Stamina drops to Zero, AND you try to run, the character will Ragdoll and not gently fall on its face.\r<br />You can still walk, though. (Useful on those situations when your stamina is stuck on zero, due to disease or other effects)\r<br />\r<br />Seems simple, but changes everything.\r<br />You will have to better keep track of your stamina in combat.\r<br />It becomes VERY hard to outrun pursuers now, specially on early game. (Don&#39;t go outside on your own&#33;)\r<br />And swimming becomes quite dangerous too, you&#39;ll float adrift if you&#39;re not careful. (At first, I turned off the function when swimming, but it&#39;s not half as fun, and becomes an exploitable feature)\r<br />\r<br />[color=#ff7700][size=4][u][b]Mod Activation\r<br />\r<br />[/b][/u][/size][/color]1) Download the Mod;\r<br />2) Drop it on your Skyrim/Data folder;\r<br />3) Activate it, and play the game;\r<br />4) To activate the Effect, you have to find and read the Book [b]&#34;Exhaustion Management for Dummies&#34;[/b]. It can be found on a barrel, by the side of the Sleeping Giant Inn, Riverwood;\r<br />5) Alternatively, you can add manually the Book via console;\r<br />\r<br />[/size][size=3][color=#ff7700][b]Compatibility\r<br />[/b][/color]It&#39;s so ridiculously simple that should work with anything else. No need even for DLCs, I guess.\r<br />Mods that change the appearance of Riverwood may screw with the book location, forcing you to add it manually via console.[/size]\r<br />\r<br />[size=3][color=#ff7700][b]Suggested mods\r<br />[/b][/color]It should go well with any stamina draining mods.\r<br />\r<br />I&#39;m currently using:\r<br />http://www.nexusmods.com/skyrim/mods/59742/?\r<br />\r<br />\r<br />It&#39;s the first mod I&#39;ve built my own effects, so if you find any problems, feel free to report&#33;\r<br />\r<br />Thanks, folks&#33;[/size]",
+  "categoryId": "78",
+  "version": "1.02",
+  "author": "InertRen",
+  "createdUnix": "1481910415",
+  "updatedUnix": "1482436779",
+  "containsAdultContent": false,
+  "uploadedBy": "InertRen",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000231633",
+      "name": "Simple Stamina Exhaustion Punishment",
+      "version": "1.01",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Simple Stamina Exhaustion Punishment-80903-1-01.zip",
+      "uploadedUnix": "1482435685",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/c82f9fb76104f757e0443e906ce5da6cff3a87367ef3ebd18e3ca46c05882090/analysis/1482435722/",
+      "changelogHtml": " Fixed small testing condition where the MOD would stop working on negative Stamina values. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Simple%20Stamina%20Exhaustion%20Punishment-80903-1-01.zip?fid=1000231633&ttl=1535869535&ri=8192&rs=8192&setec=12f569ed40cf55c189297080c200a6c5"
+    },
+    {
+      "fileId": "1000231640",
+      "name": "Simple Stamina Exhaustion Punishment",
+      "version": "1.02",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Simple Stamina Exhaustion Punishment-80903-1-02.zip",
+      "uploadedUnix": "1482436779",
+      "modVersion": "1.02",
+      "virusScanUrl": "https://www.virustotal.com/file/b71cb451a8db9c5123d59506fdb369514e64ed7e2ecf2cd383f9d58f01853184/analysis/1482436807/",
+      "changelogHtml": " Replaced GetStaminaPercentage (Deprecated) for GetActorValue Stamina <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Simple%20Stamina%20Exhaustion%20Punishment-80903-1-02.zip?fid=1000231640&ttl=1535869535&ri=8192&rs=8192&setec=cca779b990194bc66825dbf03d7c45e4"
+    }
+  ]
+}

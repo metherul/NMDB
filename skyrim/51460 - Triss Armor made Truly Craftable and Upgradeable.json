@@ -1,0 +1,48 @@
+{
+  "modId": 51460.0,
+  "modName": "Triss Armor made Truly Craftable and Upgradeable",
+  "summary": "This mod allows the Triss Armor from Fraper to be crafted and upgraded. This is an alternative to the mod by danbuter as his mod is not a direct edit to esp by Fraper  and I could not get it to craft the armors.",
+  "descriptionHtml": "This mod allows the Triss Armor from fraper&#39;s mod to be crafted and upgraded. This mod is just an esp file, for the textures and meshes it requires that you download fraper&#39;s mod here:\r<br />\r<br />http://www.nexusmods.com/skyrim/mods/5135/?\r<br />\r<br />==============================================================\r<br />\r<br />This is an new mod similar to the Triss Armor - Craftable and Upgradeable mod by danbuter here:\r<br />\r<br />http://www.nexusmods.com/skyrim/mods/12501/?\r<br />\r<br />I couldn&#39;t get his mod to work for crafting (he created new armor items and they do not conform to proper format for crafting - missing material type), and could only add his armor through the console. He did not append the recipes to fraper&#39;s original .esp file, instead referenced his own new armor in the recipes. Further, the armor I got looked like Forsworn armor (the new armor items in his .esp referenced these models instead of Fraper&#39;s).\r<br />\r<br />===============================================================\r<br />\r<br />So this mod allows the Triss Armor from fraper&#39;s mod to be crafted (Light and Cloth-unenchanted versions) and upgraded (Light only-Enchanted or Unenchanted) properly as leather armor. Cloth versions are crafted at tanning racks, light armor at the forge. I also corrected a slight mispelling (cuiras to cuirass). The name of his armor is &#34;Raven&#34; not &#34;Triss&#34; when you go to craft, but I left that intact. \r<br />\r<br />For my own personal use, I changed the armor name to Triss, robe to Tunic, and slightly altered the weights to be lighter overall and armor values to be in line with Thieves Guild Leader armor. I&#39;ve included this as an optional .esp file. Changes are:\r<br />\r<br />Name.........Weight.........Armor Value\r<br />Cuirass.........10-&gt;9.........32-&gt;38\r<br />Boots............1-&gt;1.5........6-&gt;11\r<br />Gloves...........3-&gt;1.5........8-&gt;11\r<br />\r<br />The .esp will replace the file from fraper&#39;s mod (Raven Set v1.4.esp). This mod is just an esp file, all textures must be downloaded from fraper&#39;s mod here:\r<br />\r<br />http://www.nexusmods.com/skyrim/mods/5135/?\r<br />\r<br />and can be adjusted to UNP body types here (UNP meshes for the Triss outfit mod by headbomb):\r<br />\r<br />http://www.nexusmods.com/skyrim/mods/19425/?\r<br />\r<br />As a quick reference, if you would like to use the color schemes from the Triss Armor - Retextured mod here:\r<br />\r<br />http://www.nexusmods.com/skyrim/mods/4708/?\r<br />\r<br />Just copy the color of your choice from the data/textures/armor/psyold/triss/ folder in that mod and rename it to &#34;Triss_dif.dds&#34; (eg. deepblack.dds to Triss_dif.dds) and place it in the data/textures/armor/raven/light and/or data/textures/armor/raven/cloth\r<br />\r<br />It may not work for your set up, but this worked for me as UNP skinny body.\r<br />\r<br />\r<br />INSTALLATION:\r<br />Just copy the &#34; Raven Set v1.4-Craft and Upgrade.esp&#34; or &#34; Triss Set v1.4-Craft and Upgrade.esp&#34; file into your Skyrim data folder. Delete the .esp from fraper&#39;s mod (Raven Set v1.4.esp). Then activate the .esp in your data files.\r<br />\r<br />UNINSTALL:\r<br />Delete this file from your Skyrim data folder. Run data files set up again to remove .esp reference.\r<br />\r<br />===============================================================\r<br />\r<br />For reference, fraper&#39;s mod description lists Reference ID&#39;s to spawn the items using the console. The IDs shown are the enchanted versions. Here is a list of all versions. The xx in the IDs below is the load index number of your data files. You can find the full reference ID for all these items by opening the console and typing &#34;help raven 0&#34; (or &#34;help triss 0&#34; if using my optional esp). Use Page Up/Down to navigate the list that is generated. You are looking for the prefix ARMO. This will list the IDs of the Raven armors.\r<br />\r<br />xx001005 Raven Robe Unenchanted (Cloth)\r<br />xx001006 Raven Boots Unenchanted (Cloth)\r<br />xx001007 Raven Gloves Unenchanted (Cloth)\r<br />xx001008 Raven Light Gloves Unenchanted\r<br />xx001009 Raven Light Boots Unenchanted\r<br />xx00100A Raven Light Cuirass Unenchanted\r<br />xx0999AA Raven Robe Enchanted (Cloth)\r<br />xx0999AB Raven Gloves Enchanted (Cloth)\r<br />xx0999AC Raven Boots Enchanted (Cloth)\r<br />xx0999AD Raven Light Cuirass Enchanted\r<br />xx0999AE Raven Light Boots Enchanted\r<br />xx0999AF Raven Light Gloves Enchanted\r<br />\r<br />===============================================================\r<br />\r<br />I made this mod following the instructions here:\r<br />\r<br />http://wiki.tesnexus.com/index.php/Making_an_item_craftable_for_Skyrim\r<br />\r<br />For the record, the Creation Kit tool is available in Steam under Library&gt;Tools. This information is wrong on the page.\r<br />\r<br />Remember: to edit pre-existing esp files, set them as the Active Plug-in File in Creation Kit. If your recipes are created as a separate esp from your items, they will not show up in the crafting/upgrading menus.\r<br />\r<br />===============================================================\r<br />Thanks/Credits:\r<br />\r<br />Fraper for his original mod to bring this great armor set to Skyrim - this is 95% of my mod.\r<br />Bethesda for TESV Skyrim\r<br />CDProject RED For &#34;The Witcher 2&#34; and its assets",
+  "categoryId": "60",
+  "version": "1.0",
+  "author": "Duinuogwuin",
+  "createdUnix": "1393192557",
+  "updatedUnix": "1393191323",
+  "containsAdultContent": false,
+  "uploadedBy": "Duinuogwuin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000098465",
+      "name": "Raven Set v1_4-Craft and Upgrade",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Raven Set v1_4-Craft and Upgrade-51460-1-0.zip",
+      "uploadedUnix": "1393191280",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c9eca07bafd87dc4c4fd9f4c778bd4eeb5bb2ee1c04b19783f498d2376d83499/analysis/1407947343/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Raven%20Set%20v1_4-Craft%20and%20Upgrade-51460-1-0.zip?fid=1000098465&ttl=1535833800&ri=8192&rs=8192&setec=1b87795210c3aef179b71449d34b9afb"
+    },
+    {
+      "fileId": "1000098466",
+      "name": "Triss Set v1_4-Craft and Upgrade",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Triss Set v1_4-Craft and Upgrade-51460-1-0.zip",
+      "uploadedUnix": "1393191323",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/49083d36e012ac20bdfee1480242511cd7ad780fb0b40cb81f39d7a1fe7e8ca3/analysis/1407947366/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Triss%20Set%20v1_4-Craft%20and%20Upgrade-51460-1-0.zip?fid=1000098466&ttl=1535833801&ri=8192&rs=8192&setec=3c73ee3330c5e20caed5578dd0fed9b1"
+    }
+  ]
+}

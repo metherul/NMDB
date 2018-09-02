@@ -1,0 +1,32 @@
+{
+  "modId": 63990.0,
+  "modName": "Hearthfire Materials Batch File",
+  "summary": "A batch file to give you all the materials to build 1 Hearthfire house.",
+  "descriptionHtml": "This is a batch file that will give you all the building materials needed to build any complete Hearthfire house.  I have seen a few here on the Nexus that do that but some of them are short items and some of them use chests and such. I prefer this method and I am about 80% sure I have every item you could possibly need no matter which wings you choose so you should NOT be short on any items.\r<br />\r<br />Just unzip and put the materials.txt in your Skyrim folder (not the Data folder, the main Skyrim folder).  When you are ready to build, open the console and type &#34;bat materials&#34; and hit enter.  Voila&#33;  There is a lot of items here so it will take a moment and you will be over your carry weight so be prepared with how you want to deal with that BEFORE you run the batch file.\r<br />\r<br />If you do happen to be short any items, please let me know and I will update it.  I have tried different house configurations and so far, so good.\r<br />\r<br />[b]BEFORE you do this, you need to check your load order for where Hearthfires.esm is.  For me, it is the 5th file so the materials that are from that DLC begin with 05.  If your Heathfires.esm is not 5th, you need to change the first 2 digits of the below items to match.  These items are at the beginning of the batch file so they are easy to find. For example, if your Hearthfires.esm is 3rd in your load order, then change the first 2 digits from 05 to 03 in the batch file.[/b]\r<br />\r<br />player.additem 05003035 163 ; Iron Fittings\r<br />player.additem 05003012 60 ; Lock\r<br />player.additem 05003011 120 ; Hinge\r<br />player.additem 0500300f 589 ; Nails\r<br />player.additem 0500300e 367; Sawn Log\r<br />player.additem 05005a68 22 ; Straw\r<br />player.additem 0500306c 189 ; Quarried Stone \r<br />player.additem 05003043 71 ; Clay \r<br />player.additem 05005a69 50 ;glass\r<br />player.additem 0500303f 50 ;goat horns",
+  "categoryId": "40",
+  "version": "1.0",
+  "author": "angel3181",
+  "createdUnix": "1427038019",
+  "updatedUnix": "1427037964",
+  "containsAdultContent": false,
+  "uploadedBy": "angel3181",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000152596",
+      "name": "Hearthfire Materials Batch File",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Hearthfire Materials Batch File-63990-1-0.zip",
+      "uploadedUnix": "1427037964",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d0a6c9656f2347cf6fc25bd791bc0cbaaa0ea19737c8f569a77890cd6370a3d0/analysis/1427038023/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hearthfire%20Materials%20Batch%20File-63990-1-0.zip?fid=1000152596&ttl=1535852683&ri=8192&rs=8192&setec=b0eec3a37310d303b9f4aceeebffb37b"
+    }
+  ]
+}

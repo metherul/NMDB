@@ -1,0 +1,48 @@
+{
+  "modId": 11036.0,
+  "modName": "Guenhwyvar",
+  "summary": "Use the Onyx Figurine of Wondrous Powers to summon Guenhwyvar, once a day, for six hours.",
+  "descriptionHtml": "[color=yellow][size=4]Guenhwyvar 1.2[/size] (by Volek)[/color]\r\n\r\nSome people believe the Onyx Figurine Of Wondrous Powers is an ancient dwarven artifact, but nobody really knows where it came from, and who brought it to Skyrim.\r\nBut one thing is certain: Whoever owns the figurine will be able to summon a black panther companion called Guenhwyvar. She is loyal to her master and will follow anywhere. The power is limited though, she must return to her Astral Plane after six hours. She will also return there if she has taken too much damage in battle. She will recover from the damage, and can be summoned again on the next day.\r\n\r\n\r\n[color=yellow]Features:[/color]\r\n[list]\r\n[*]The Onyx Figurine can be found in the Guldun Rock cave.\r\n[*]When you take it, you will receive a new power that lets you summon Guenhwyvar for 6 hours, once a day.\r\n[*]If you loose it, you will loose the power too. Guen won\\'t dissappear though.\r\n[*]You can order Guenhwyvar to wait, follow (if waiting), back up (useful in narrow spaces), and attack a target.\r\n[*]She has 500 health at level 1, and will get more when the player advances in levels.\r\n[*]She does not count as a follower or summoned creature, so you can have those besides her.\r\n[/list]\r\n\r\n[color=yellow]Known issues:[/color]\r\n[list]\r\n[*]As with all creatures based on the Sabrecat, the standard idle animation sucks. Maybe there\\'s a fix, but if not, someone could try replacing meshes\\\\actors\\\\sabrecat\\\\animations\\\\mt_idle.hkx with another animation file.\r\n[*]When you order Guen to back up, she will jump back, no matter what\\'s behind her.\r\n[*]When you summon her, it may take several seconds for her to appear.\r\n[/list]\r\n\r\n[color=yellow]Installation:[/color]\r\n1. Extract the Data folder to your Steam\\\\SteamApps\\\\common\\\\Skyrim\\\\ folder\r\n2. Make sure the esp file is activated before you start the game.\r\n\r\n[color=yellow]Version history:[/color]\r\n[list]\r\n[*]1.2: Added Pantherinae mesh by tumbajamba and Targaryen, changed Onyx Figurine location, Guen no longer affects stealth meter, summoning duration extended to 6 hours per day, changed summoning FX, added Call spell, fixed Guen fast-travelling from the Astral Planes, more bug fixes\r\n[*]1.1: Guen is faster, added targeted commands and back-up order, changed summoning FX, added hi-res textures by Bellyache\r\n[*]1.0b: fixed Guen not returning to astral planes when heavily wounded\r\n[*]1.0a: fixed Onyx Figurine not showing up correctly\r\n[*]1.0: initial release\r\n[/list]\r\n\r\n[color=yellow]Legal stuff:[/color]\r\nMesh by tumbajamba and Targaryen, texture by Bellyache. Do NOT use any resources of this mod without permission!\r\nDo NOT re-upload this file or translations to any website without permission!",
+  "categoryId": "65",
+  "version": "1.2",
+  "author": "Volek",
+  "createdUnix": "1330081509",
+  "updatedUnix": "1362024535",
+  "containsAdultContent": false,
+  "uploadedBy": "Volek",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000013553",
+      "name": "Guenhwyvar12",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6099",
+      "fileName": "Guenhwyvar12-11036-1-2.zip",
+      "uploadedUnix": "1361945097",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/dd890ada3d851e96d4201f1c889f9b076e16e003fa4b0dafcaeb7a2ef48382b8/analysis/1407441971/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Guenhwyvar12-11036-1-2.zip?fid=1000013553&ttl=1535771932&ri=8192&rs=8192&setec=5ccbc0d532f4cd65c08e39106a589693"
+    },
+    {
+      "fileId": "1000013806",
+      "name": "Guenhwyvar12DV",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6100",
+      "fileName": "Guenhwyvar12DV-11036-1-2.zip",
+      "uploadedUnix": "1362024535",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/b60cbb8b1b638f02a051909e02c5bbff33c690c91b02692ef081e99a3ec8764d/analysis/1407443665/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Guenhwyvar12DV-11036-1-2.zip?fid=1000013806&ttl=1535771932&ri=8192&rs=8192&setec=88c5b4fde99362cc00edcc3e06bacc3a"
+    }
+  ]
+}

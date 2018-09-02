@@ -1,0 +1,32 @@
+{
+  "modId": 67206.0,
+  "modName": "Screen-o-matic 9001",
+  "summary": "Extract Screenshots from your captured game footage with this easy-to-use program.",
+  "descriptionHtml": "I like creating screenshots of the cool stuff that happens in Skyrim, how good an ENB looks, etc.  But I find that reaching for the screenshot key means I often miss some really cool shots.  So I decided to record my game play and write a program to allow me to extract whatever frame I want.  I wasn&#39;t sure if anyone else would find use in such a program but figured I&#39;d release it anyway.  If there is interest I&#39;ll be happy to keep working on improving and expanding the software.\r<br />\r<br />So let me present Screen-O-matic&#33;\r<br />\r<br />\r<br />[b][color=#ffff00][size=3]What it does -\r<br />\r<br />[/size][/color][/b]Screen-O-matic is basically just a VMR based DirectShow video player, if your Windows Media Player can play a video file then Screen-O-matic should have no problem with it either.  You can start a new project by selecting a media file, then simply play the media while hitting the space bar (or clicking the Grab button) to tell Screen-O-matic you want to extract that frame.  Those are added as timeline edits to a tree view, you can select an edit to view it&#39;s frame and press the &#34;delete&#34; key to remove an edit.  It&#39;s very simple and basic currently.\r<br />\r<br />Once you&#39;ve selected the frames you want you can process the whole list of edits and save the frames as BMP, JPG, or PNG.\r<br />\r<br />\r<br />[color=#ffff00][size=3][b]The Details -\r<br />\r<br />[/b][/size][/color]Screen-O-matic uses DirectShow (DX9) with a Windowless VMR.  This allows us to access to the VMR mixing buffer directly and not have to target specific media types or fallback to the very buggy IMediaDet interface to extract video frames.  It should work on any version of Windows that has DirectX9 or better.  I capture my game footage using ShadowPlay and it handles the MP4 files perfectly in my setup (Win7x64).  I am using FFDshow and CoreAVC as my primary filters for that playback.\r<br />\r<br />Images extracted from the video are at the resolution of the video, through the VMR, and not extracted from the playback screen.  Meaning that your screenshots will be at the resolution of your original video and not the size you are viewing the videos at within Screen-O-matic.\r<br />\r<br />\r<br />Features :\r<br />\r<br />[list]\r<br />[*]Variable Playback Speed (Normal to 1/10th Speed)\r<br />[*]Keyboard Control of media position (left/right arrows), audio volume (up/down arrows), and frame selection (space bar)\r<br />[*]Loading/Saving of Projects\r<br />[*]Save to BMP, JPG, or PNG\r<br />[*]Defining default locations for media files, project files, and image output.\r<br />[*]Auto-mute and Auto-playback when loading or starting a project.\r<br />[*]Each project currently supports a maximum of 1024 edits but that is easily expandable if needed.\r<br />[/list]\r<br />\r<br />How-To :\r<br />\r<br />[list]\r<br />[*]Extract the ZIP to a desired location, you&#39;ll see two files (Screenomatic.exe and DXErr9ab.dll) that&#39;s all you need.\r<br />[*]Click the New or Open button\r<br />[*]Use the Tree view to select the drive, and folder of your media.  Use the list view (right side) to double click the media file you want, then click OK.\r<br />[*]The media file will be loaded and then you can play the video.\r<br />[*]Click the GRAB&#33; button or just hit the space bar to add an edit to the list.\r<br />[*]Select any edit to go to that frame and view it, hit the delete key to remove a selected edit from the list.\r<br />[*]Once you have all your edits in place, Save your project, then click the GO&#33; button\r<br />[*]A progress screen will show indicating the output and current frame position.\r<br />[*]Once complete the Images folder the output was saved to will be displayed.\r<br />[*]Upload your favourite screenies to the NEXUS&#33;\r<br />[/list]\r<br />\r<br />[b][color=#ffff00][size=3]Known Issues -\r<br />\r<br />[/size][/color][/b]None so far but this is an initial release, I have no information about how it will work for other people&#39;s configurations but I suspect there shouldn&#39;t be much that could be a problem.  Please be sure to post any issues or questions, especially bug reports.  I will fix any bug that I can recreate.\r<br />\r<br />\r<br />Thanks for your time, I hope you enjoy Screen-O-matic&#33;",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "NiteBeast",
+  "createdUnix": "1435192671",
+  "updatedUnix": "1435188050",
+  "containsAdultContent": false,
+  "uploadedBy": "NiteBeast",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000165320",
+      "name": "Screen-O-matic",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "549",
+      "fileName": "Screen-O-matic-67206-1-0.zip",
+      "uploadedUnix": "1435188050",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c04920b2cb75d6cb409f4ecce6df8cb72328f2c70a902803502add2fa944d849/analysis/1435208283/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Screen-O-matic-67206-1-0.zip?fid=1000165320&ttl=1535855657&ri=8192&rs=8192&setec=b87b07d666e841a40e2b7232e09956ab"
+    }
+  ]
+}

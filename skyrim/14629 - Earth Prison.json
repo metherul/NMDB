@@ -1,0 +1,48 @@
+{
+  "modId": 14629.0,
+  "modName": "Earth Prison",
+  "summary": "Trap your enemies in stone, holding them in place until you can deal with them. Be careful, though... ranged opponents can still attack you!",
+  "descriptionHtml": "This spell is being used (with my blessing!) in tonycubed2\\'s excellent [url=http://skyrim.nexusmods.com/mods/12452]Sands of Time[/url] mod!\r\n\r\n\r\nDescription\r\n===========\r\nTrap your enemies in stone, holding them in place until you can deal with them. Be careful, though... ranged opponents can still attack you!\r\n\r\nEarth Prison has been featured in Saiodin\\'s Skyrim Mods Series!\r\n[youtube]XRvumFQESy8[/youtube]\r\nThanks Saiodin!\r\n\r\nLocation\r\n========\r\nIf you\\'re familiar with my other spells, you\\'ll know where to look for it... Yeap, it\\'s on Farengar\\'s desk again in Dragonreach.\r\n\r\nTips\r\n=====\r\nThis is an actor-targeted spell. Casting it at the ground or inanimate objects will just waste your Magicka. It has a decent range, but you must aim well!\r\n\r\nDetails\r\n=======\r\nThis is a straightforward Alteration spell. When cast on an appropriate target (pretty much anything that isn\\'t a Dragon) it will cause pillars of earth to rise from the ground, trapping the enemy in the middle of them. If they have a ranged attack (bows, magic, etc) they CAN target you and shoot between the bars of their prison. It will last 30 seconds, and duration should go up as you increase your Alteration skills.\r\n\r\nEnemies immune to Paralysis are NOT immune to this spell.\r\n\r\nIncompatibility\r\n===============\r\nNone, as far as I know.\r\n\r\nKnown Issues or Bugs\r\n====================\r\nTHIS SPELL IS VERY SCRIPT-INTENSIVE. That means you need a fast CPU (NOT graphics card!) for it to work right. Slow CPUs will result in casting glitches, particularly if you cast it repeatedly.\r\n\r\nSome enemies with large hitboxes (notably wolves, but there are others) will get a much larger wall than needed, with huge gaps between the columns. The spell will still hold them in place, but it looks really stupid. As a counter to this, some enemies get too SMALL a prison, so they are trapped and fly around randomly.\r\n\r\nIf you cast the spell repeatedly on a single target, it is possible that they will get permanantly stuck in place, even after spell wears off.\r\n\r\nIt is possible on certain indoor maps that the pillars will not rise, but instead simply teleport into place. This is a purely cosmetic bug and I\\'ve only found one place where this happens.\r\n\r\nTodo\r\n====\r\nAdd a crumbling effect to the spell\\'s breakdown animation. This is actually in place, but for some reason spawning a lot of rock hazards sometimes causes a CTD, so it\\'s turned off. Will implement this when I can figure out a workaround. -- ON INDEFINITE HOLD DUE TO A BETHESDA BUG :(\r\n\r\nFix prison area calculation for enemies with large hitboxes and small models (like wolves).\r\n\r\nTechnical\r\n=========\r\nThis spell uses activators to place and move the pillars about. Since Skyrim has code to keep NPCs from getting stuck (it will eventually teleport pathed NPCs past the barrier) the spell also sets the target\\'s SpeedMult to 0.01 for the duration. \r\n\r\nThis is less elaborate than some of my other spells (in some ways) but it was a good learning exercise for me. This is the first mod in which I have swapped NIFs around, in this case creating some new activators using MineCPillar NIFs so they can be translated.\r\n\r\nInstallation\r\n=======\r\n\r\n1. Extract this archive to any folder and then copy the contents to Skyrim\\'s Data folder.\r\n2. Start Skyrim, click Data Files, and enable the ElemEarthPrison.esp file.\r\n\r\nOr simply use Nexus Mod Manager. ;)\r\n\r\nUninstall\r\n=========\r\n\r\n\r\n1. Start Skyrim Launcher, click Data Files, uncheck the ElemEarthPrison.esp file(s).\r\n2. Delete the files/folders associated with the mod.\r\n\r\nSkyrim\\\\Data\\\\ElemEarthPrison.esp\r\nSkyrim\\\\Data\\\\Scripts\\\\ELEMEarthPrisonScript.pex\r\nSkyrim\\\\Data\\\\Scripts\\\\ELEMEarthPillarActivatorScript.pex\r\n\r\nOr just use Nexus Mod Manager.\r\n\r\nUpgrade\r\n=======\r\nJust overwrite everything, no problem.\r\n\r\nHistory\r\n=======\r\n0.8b, 2012/04/07 – Initial release to Nexus and Steam.\r\n\r\nContact\r\n=======\r\nverteiron@gmail.com\r\n\r\nCredits\r\n=======\r\nThanks to Bethesda for creating Skyrim and the Creation Kit.\r\nThanks to Valve for providing an easy way to take my first baby steps in mod publishing.\r\nThanks to NexusMods for showing me the RIGHT way to publish mods.\r\n\r\nTools Used\r\n==========\r\n7-Zip\r\nReadme Generator - http://HammondsLegacy.com/obmm/tools_readme_generator1.asp\r\nCreation Kit\r\n\r\nLicensing/Legal\r\n===============\r\n\r\nYou must contact me and obtain my permission before re-packaging any part of\r\nthis mod. If I do not respond within 2 weeks, feel free to do whatever you\r\nlike with this mod.",
+  "categoryId": "75",
+  "version": "0.81b",
+  "author": "Verteiron",
+  "createdUnix": "1333845339",
+  "updatedUnix": "1333919427",
+  "containsAdultContent": false,
+  "uploadedBy": "verteiron",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "51080",
+      "name": "Earth Prison Old",
+      "version": "0.8b",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "52",
+      "fileName": "Earth Prison Old-14629.7z",
+      "uploadedUnix": "1333845387",
+      "modVersion": "0.8b",
+      "virusScanUrl": "https://www.virustotal.com/file/cc22919b22e25c424bcbedbeeb6d0e3c55f3a8d061404b194ab57b68c3030822/analysis/1406803120/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Earth%20Prison%20Old-14629.7z?fid=51080&ttl=1535778393&ri=8192&rs=8192&setec=8d8f0b4f3107a9d5e2753aa26c7cd052"
+    },
+    {
+      "fileId": "51399",
+      "name": "Earth Prison 081b",
+      "version": "0.81b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "63",
+      "fileName": "Earth Prison 081b-14629-0-81b.7z",
+      "uploadedUnix": "1333919427",
+      "modVersion": "0.81b",
+      "virusScanUrl": "https://www.virustotal.com/file/454df17bf4ebf4c95126a535a469d7e2c57782d242eb9714aede363d862b2e6e/analysis/1406804948/",
+      "changelogHtml": " Cleaned up breakdown animation <br/> \n Slightly improved performance of appearance animation <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Earth%20Prison%20081b-14629-0-81b.7z?fid=51399&ttl=1535778394&ri=8192&rs=8192&setec=51ec358e093b593cd78111fdde1aaa38"
+    }
+  ]
+}

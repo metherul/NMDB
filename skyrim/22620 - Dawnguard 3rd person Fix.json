@@ -1,0 +1,32 @@
+{
+  "modId": 22620.0,
+  "modName": "Dawnguard 3rd person Fix",
+  "summary": "",
+  "descriptionHtml": "A small command line tool to fix the \\\"Stuck in Third person\\\" bug occurring to some people in dawnguard, i posted a fix on the forums of Bethesda already and thought that maybe some other people got this bug, so i combined it with a neat string replacer tool i found on Sourceforge.net and made a batch file with it to fix your savegame of this bug\r\n\r\nThis bug is for some reason caused by a stuck \\\"dlc1playervampirechangescript\\\" inside the savegame, it is easily fixed with a hex editor, but for people who do not know how to use them i made this.\r\n\r\n\r\nHow to use it?\r\n--------------------\r\n\r\n1.) Download the archive and unrar it with WinRar or similar tools.\r\n2.) Now you have a folder in which the tool was extracted.\r\n3.) Simply copy one of your bugged savegames into this folder and run the \\\"out.bat\\\"\r\n4.) Follow the instruction on the screen.\r\n\r\nThe Savegame you copied into this folder will be renamed to \\\"Fix.ess\\\" you can rename it to anything you like after you patched the file.\r\n\r\n\r\nCredits:\r\n----------------\r\nMe for the Third Person Fix\r\nStahlworks from sourceforge for the neat tool :-)\r\nBethesda for messing it up again... well the game is just to good to quit it xD",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "DarkenDE",
+  "createdUnix": "1345251137",
+  "updatedUnix": "1345251282",
+  "containsAdultContent": false,
+  "uploadedBy": "Keldis",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "82358",
+      "name": "Main File",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "398",
+      "fileName": "Main File-22620-1-0.rar",
+      "uploadedUnix": "1345251282",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/447723d11681cd1e74d75ecb87c02a7396838ade099c8cd4db2dd11bd55a0a8b/analysis/1407103984/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Main%20File-22620-1-0.rar?fid=82358&ttl=1535792281&ri=8192&rs=8192&setec=ac6887900dc3070116b3fb3568304742"
+    }
+  ]
+}

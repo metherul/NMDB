@@ -1,0 +1,32 @@
+{
+  "modId": 15784.0,
+  "modName": "Lorecraft - Crafting Complete",
+  "summary": "Lorecraft-ifies \\'Crafting Complete\\' by \\'Is This Display Name Taken\\'",
+  "descriptionHtml": "Latest notes click the version number above ^^\r\n\r\n[color=red]REQUIRES[/color] [url=/downloads/file.php?id=9959]Lorecraft 3.0+[/url] by ArcaneSmith\r\n[color=red]REQUIRES[/color] [url=/downloads/file.php?id=10255]Crafting Complete[/url] by \\\"Is This Display Name Taken\\\"\r\n--\r\nModule for Lorecraft - requires [url=/downloads/file.php?id=9959]Lorecraft-3.0[/url]+ download to function. \r\nBest to use it with \\\"Lorecraft - Vanilla.esp\\\" as this only adds new recipes, does not modify the existing ones.\r\n\r\n--\r\n[size=5][b]Features[/b][/size]\r\nUses existing Lorecraft books.\r\nLorecraft dynamic looting and vendors.\r\nStill uses  \\'Is This Display Name Taken\\'s awesome sketching system - now you can create the sketch if you have found the book or got the item (or completed the relevant quest).\r\n\r\n--\r\n[size=5][b]Usage[/b][/size]\r\nIf you want one of the new recipes to appear, you will need to have the sketch in your inventory or have the \\'using these recipes\\' toggle from the Lorecraft book. Either will work. You can also create a sketch from the book (if the sketching code is already in Crafting Complete). This gives the best of both worlds.\r\n\r\n--\r\n[size=5][b]Load Order[/b][/size]\r\nEnsure this loads after CCMainFile.esp\r\ne.g.:\r\nLorecraftESM.esm\r\nLorecraft - Vanilla.esp\r\nCCMainFile.esp\r\nLorecraft - Crafting Complete.esp\r\n\r\n--\r\n[size=5][b]Credits[/b][/size]\r\nArcanesmith\r\nIs This Display Name Taken",
+  "categoryId": "92",
+  "version": "1.0",
+  "author": "ScarabMonkey and Is This Display Name Taken",
+  "createdUnix": "1335213224",
+  "updatedUnix": "1335213370",
+  "containsAdultContent": false,
+  "uploadedBy": "ScarabMonkey",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "55751",
+      "name": "Lorecraft_CraftingComplete_1-0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Lorecraft_CraftingComplete_1-0-15784-1-0.7z",
+      "uploadedUnix": "1335213370",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ca9b320bd22c8b1450ea74bef0fdc7e23d30a32ad897bdb848a59f21359db3cf/analysis/1406832446/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lorecraft_CraftingComplete_1-0-15784-1-0.7z?fid=55751&ttl=1535780491&ri=8192&rs=8192&setec=a251c6c64f84cd9322ac150e77b657c1"
+    }
+  ]
+}

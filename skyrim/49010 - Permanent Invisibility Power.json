@@ -1,0 +1,32 @@
+{
+  "modId": 49010.0,
+  "modName": "Permanent Invisibility Power",
+  "summary": "Adds an invisibility power that will stay in effect for 24 hours, allowing you to activate objects, and won&#39;t be deactivated unless you toggle it off.",
+  "descriptionHtml": "[b][size=4]*** IF ANY MODDERS WANT TO USE THIS IN YOUR OWN MOD, FEEL FREE TO DO WHATEVER YOU LIKE WITH IT. ***[/size][/b]\r<br />\r<br />\r<br />I always enjoy playing stealth classes, but was never too happy having to use spells to disappear, so I made this mod to disappear at the tap of a button and re-appear whenever I like, without worrying about activating objects.\r<br />\r<br />To find it, there&#39;s a power tome not far inside the ruins of Volskygge (there&#39;s a clue in the image). But if you&#39;re not in the mood to search, you can use the following console commands:\r<br />\r<br />help &#34;power tome&#34;\r<br />player.additem XXXXXXXX 1\r<br />\r<br />Hope you enjoy it&#33;\r<br />\r<br />[b][u]Changelog[/u][/b]\r<br />[b]Version 2.1[/b]\r<br />- Changed the name of the spell to &#39;Permanent Invisibility&#39;.\r<br />[b]Version 2.0[/b]\r<br />- Complete re-write of the mod, hopefully fixing any buggy behaviour.\r<br />- Added the &#34;camo&#34; effect of the standard invisibility spell, so you&#39;re no longer completely invisible.\r<br />- Removed the vampiric version.\r<br />\r<br />[b]Version 1.1[/b]\r<br />- The invisibility effect will now stay on permanently, i.e. it won&#39;t be deactivated when you activate any objects. Note: the vanilla visual effect seems to be hardcoded into the game, and isn&#39;t accessible, so I had to do this by just making the player character transparent - you will be completely hidden.\r<br />\r<br />[b][u]Installation[/u][/b]\r<br />Just install with the mod manager, or copy the ESP file to your Data directory, and the PEX file to your Data/scripts directory.\r<br />\r<br />[b]Note:[/b] If you&#39;re upgrading from an older version you should uninstall your current version first.\r<br />\r<br />[b][u]Credits[/u][/b]\r<br />Credit to Brehanin2 (author of [url=http://www.nexusmods.com/skyrim/mods/9717]Better Vampires[/url]), whose script for a similar spell gave me some good ideas about how I could improve on this mod.",
+  "categoryId": "75",
+  "version": "2.1",
+  "author": "cycle209",
+  "createdUnix": "1387571987",
+  "updatedUnix": "1400103376",
+  "containsAdultContent": false,
+  "uploadedBy": "cycle209",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000109127",
+      "name": "v2_1",
+      "version": "2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "v2_1-49010-2-1.rar",
+      "uploadedUnix": "1400103376",
+      "modVersion": "2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/2bd825e138b3c80faaf6868dc3e56ef045aff399d27981c2fb19c272b84e3cf9/analysis/1408077239/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/v2_1-49010-2-1.rar?fid=1000109127&ttl=1535829521&ri=8192&rs=8192&setec=40fcc262941532c408ed9b1f900331da"
+    }
+  ]
+}

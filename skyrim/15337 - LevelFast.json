@@ -1,0 +1,32 @@
+{
+  "modId": 15337.0,
+  "modName": "LevelFast",
+  "summary": "Changes the rate you level up at.",
+  "descriptionHtml": "Seems this mod needed some more explanation. Also, if you are using his mod and things don\\'t seem to be working for you, see below and provide feedback other than \\\"this mod doesn\\'t work\\\" :).\r\n\r\nDefinitions first:\r\nExperience Points: number of points awarded for using your characters skills, used to determine character level\r\nSkill Points: number of points awarded to individual skills. Using these skills increases the points allocated\r\n\r\nAn example of how this mod works:\r\nWhen you start the game, your one-handed skill has 15 points, and you have 100 experience points. You go kill some beasties with your iron sword, and your one-handed skill increases to 16 causing your experience to increase to 120 points. You kill some more stuff... A little while later you\\'ve upped your one-handed skill to 20 points. In the meantime, the increases in one-handed skill has also increased your experience points to 200. The game says \\\"Oh, at 200 experience points, this character should move to the next level.\\\" At that point you\\'ve gotten to Level 2. Now you can add 10 points to your health, magicka, or stamina, and you also get a perk point to assign to a skill as you see fit.\r\n\r\nThat\\'s how the game works by default.\r\n\r\nWhat this mod does is change the amount of experience points required to level up.So in the above example, When your one-handed skill increased to 16 points and your experience increased to 120 points, the game now says \\\"Oh, at 120 experience points, this character should move to the next level.\\\"\r\n\r\nThe upside to this is you can achieve a level far higher than 81 (which is the game\\'s hard cap). Additionally, because you can exceed level 81, you will get more than 80 perk points, so you can diversify your character more.\r\n\r\n\r\nMOD NOT WORKING?\r\nIf your character has already maxed out the skills you use, you will not level higher. If all your skills are at 100, you will not level higher. One of my other mods \\\"Gifts of Akatosh\\\", includes a way to reset your skill levels to 1, which would allow you start leveling up again.\r\n\r\nThis mod changes two game variables only. fXPLevelUpBase and fXPLevelUpMult.\r\nTo find out what these values are, open a console window and type:\r\n\\\"getgs fXPLevelUpBase\\\"\r\n\\\"getgs fXPLevelUpMult\\\"\r\n\r\nThe vanilla skyrim values are \r\nfXPLevelUpBase = 75 \r\nfXPLevelUpMult = 25\r\n\r\nThis mod changes them to\r\nfXPLevelUpBase = 50 \r\nfXPLevelUpMult = 2\r\n\r\nYou can change these variables using the \\\"setgs\\\" command (i.e. \\\"setgs fXPLevelUpBase 5\\\").\r\n\r\nTroubleshooting info:\r\nWhat are fXPLevelUpBase and fXPLevelUpMult set to?\r\nAre you only using skills that are already at 100?\r\nDo you level up fast with a new character?",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "RNFesig",
+  "createdUnix": "1334626214",
+  "updatedUnix": "1334626244",
+  "containsAdultContent": false,
+  "uploadedBy": "rfesig",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "53871",
+      "name": "LevelFast",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "LevelFast-15337-1-0.zip",
+      "uploadedUnix": "1334626244",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5ce0e07023acae4af0e91d3cf2c64115392602f72375babafdabb0bc4470fefd/analysis/1406819467/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LevelFast-15337-1-0.zip?fid=53871&ttl=1535779655&ri=8192&rs=8192&setec=44235da3cadb6134a17902ce9ec98070"
+    }
+  ]
+}

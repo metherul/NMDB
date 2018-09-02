@@ -1,0 +1,32 @@
+{
+  "modId": 56735.0,
+  "modName": "Stealth Skills Rebalanced - SPERGified",
+  "summary": "A merge between SSR and SPERG to keep the balance changes from SSR, and the auto-perks and combat additions from SPERG.",
+  "descriptionHtml": "Love SPERG? Love SSR? Now you can have both&#33;\r<br />\r<br />Everything seems to be working as kryptopyr intended with SSR. Her perks were moved/merged into the existing SPERG trees. Due to constraints on the number of perk nodes available (I only added one additional node), some perks were lost or merged into others. Updates will only happen when SPERG or SSR are updated, or to correct any bugs. Please report any bugs or difficulty irregularities. \r<br />\r<br />[size=3]Changes to the Perk tree:[/size]\r<br />[u]Pick Pocketing[/u]\r<br />[list][*]Golden Touch removed[/*]\r<br />[*]Extra Pockets from SPERG[/*]\r<br />[*]Key Master position relocated below Extra Pockets (New Node)[/*]\r<br />[*]Purse Snatcher and Extra Pockets minimum skill requirement bumped up[/*]\r<br />[/list]\r<br />[u]Lockpicking[/u]\r<br />[list][*]Wax Key uses SPERG MCM menu like in SPERG tree, it&#39;s now tied to Derelict Locks[/*]\r<br />[*]Ability to make Lock Picks is now tied to Derelict Locks, they are made at the smelter like she has in CCO[/*]\r<br />[*]Treasure Hunter removed[/*]\r<br />[/list]\r<br />[u]Sneak[/u]\r<br />[list][*]Everything to the right of the Base Sneak node uses SPERG&#39;s perks.\r<br />[/*]\r<br />[*]Muffle will now scale up to 50% (30% Heavy) according to your skill in sneak, reaching full potential at 55 sneak.\r<br />[/*]\r<br />[*]Cloak of Shadows removed and replaced with Camouflage[/*]\r<br />[*]Light Foot from SPERG[/*]\r<br />[/list][u]\r<br />[/u][u]Light Armor[/u]\r<br />[list][*]Unhindered changed to SSR setting of 50% less weight and 50 carry weight[/*]\r<br />[/list][u]\r<br />Heavy Armor[/u]\r<br />[list][*]Conditioning changed to SSR setting of 50% less weight and 80 carry weight.[/*]\r<br />[/list]\r<br />[size=3]Installation:\r<br />[/size]For new games, just install SPERG then SSR then this patch. Enjoy.\r<br />\r<br />Installing in an existing game could potentially be problematic, but these steps should work.\r<br />\r<br />For existing game with just SPERG installed, turn off auto perks. Refund all perks including auto perks. Save game. Install SSR and this patch. Manually add all perks, including auto perks. Turn auto perks back on. Enjoy.\r<br />\r<br />Existing game with SPERG and SSR installed with the three  SPERG perk trees disabled, open console and stopquest SSR. You might have to manually remove perks at this step. Save game. Install this patch, re-enable the SPERG trees, manually add back perks. Adjust the number of excess perks since the original SSR tree uses more. \r<br />\r<br />[u]Requirements[/u][b]\r<br />[url=http://www.nexusmods.com/skyrim/mods/24445/?]SPERG [/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/28418/?]SSR - Complete[/url]\r<br />[/b]\r<br />[u]Load Orde[/u]r\r<br />SPERG\r<br />SPERG Patches\r<br />SSR - Complete\r<br />SSR Patches\r<br />[b]SSR - Spergified\r<br />\r<br />[/b][size=3]Uninstallation[/size]:\r<br />Go under SPERG menu, disable auto-perks. Refund all perks. Remove this patch, reload game. Manually add back all perks(including auto-perks) before re-enabling auto-perks. \r<br />\r<br />[size=3]Compatibility[/size]:\r<br />Should be compatible with anything SSR and SPERG are compatible with. I have it running alongside 350+ mods including Enchanting Awakened. So SPERG + SSR + Enchanting Awakened are all auto-perking and playing nicely on my machine.\r<br />\r<br />Credit:\r<br />This is just a mashup of other people&#39;s hard work, thank them for bringing you these awesome mods.\r<br />kryptopyr - [url=http://www.nexusmods.com/skyrim/mods/28418/?]Stealth Skills Rebalanced[/url]\r<br />seorin - [url=http://www.nexusmods.com/skyrim/mods/24445/?]SPERG[/url]\r<br />Mator - [url=http://www.nexusmods.com/skyrim/mods/49373/?]Automation Tools for TES5Edit[/url]",
+  "categoryId": "84",
+  "version": "1.01",
+  "author": "ServantOfSin",
+  "createdUnix": "1407359134",
+  "updatedUnix": "1411159748",
+  "containsAdultContent": false,
+  "uploadedBy": "ServantOfSin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000127603",
+      "name": "SSR-Spergified",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "SSR-Spergified-56735-1-01.7z",
+      "uploadedUnix": "1411159748",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/dee369cf155630f5e8456145e0544f0ddd3ef11b09b248e934bb7210a757761d/analysis/1411159862/",
+      "changelogHtml": " Fixed a bug with the calculation of Muffle, thanks mrmistophelees for pointing this out. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SSR-Spergified-56735-1-01.7z?fid=1000127603&ttl=1535842270&ri=8192&rs=8192&setec=032b8be84d58352c1f85f8b3042451ba"
+    }
+  ]
+}

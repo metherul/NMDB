@@ -1,0 +1,32 @@
+{
+  "modId": 48172.0,
+  "modName": "Exhaustion",
+  "summary": "This is a simple mod that plays audible breaths from your character when your health/stamina/magicka drops below a certain percentage.",
+  "descriptionHtml": "[center][img]http://static-1.nexusmods.com/15/mods/110/images/48172-1-1391391586.png[/img]\r<br />[size=5][url=http://www.youtube.com/watch?v=HkaFjXDxYjA]Preview[/url][/size][/center]\r<br />[color=#888888][size=4]Version:[/size][/color]\r<br />1.01\r<br />[list]\r<br />[*]Fixed an issue where females were played the male sound effect on new saves. If experiencing the issue, simply save and restart Skyrim.[/list]\r<br />[color=#888888][size=4]Compatibility:[/size][/color]\r<br />\r<br />Compatible with all mods. Load order doesn&#39;t matter.\r<br />\r<br />[color=#888888][size=4]Overview:[/size][/color]\r<br />\r<br />This is a simple mod that plays audible breaths from your character when your health/stamina/magicka drops below a certain percentage. The rate at which you breathe increases as your health/stamina/magicka drops. This is a player-only effect with male or female sound effects automatically set depending on your sex.\r<br />\r<br />By default, once your health and/or stamina drops below 50%, the breaths will trigger. To better suit your playstyle and/or gameplay mod selection, you can configure which resources (health/stamina/magicka) trigger the breaths, the percentage at which they will trigger and the volume. Configuration requires [url=http://skse.silverlock.org/]SKSE[/url] and [url=http://skyrim.nexusmods.com/mods/3863]SkyUI[/url] but they are not required to run the mod at default settings. There are no plans to sync the breathing with Wet and Cold&#39;s breath effect.\r<br />\r<br />[color=#888888][size=4]Install:[/size][/color]\r<br />\r<br />Manual installers drop the files into your Data folder. NMM/BAIN: download the main file and add to your respective programs.\r<br />\r<br />[color=#888888][size=4]Update:[/size][/color]\r<br />\r<br />This mod automatically refreshes itself with each revision. Just remove the previous version and install the new version.\r<br />\r<br />[color=#888888][size=4]Uninstall:[/size][/color]\r<br />\r<br />Remove all installed files.",
+  "categoryId": "61",
+  "version": "1.01",
+  "author": "isoku",
+  "createdUnix": "1385574359",
+  "updatedUnix": "1392099359",
+  "containsAdultContent": false,
+  "uploadedBy": "isoku",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000096458",
+      "name": "Exhaustion v1_01",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "280",
+      "fileName": "Exhaustion v1_01-48172-1-01.7z",
+      "uploadedUnix": "1392099359",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/67d073303da87029fcd0b13b7c969f19f5167cc80a77ccb4a2b5f07742ac1879/analysis/1407928701/",
+      "changelogHtml": " Fixed an issue where females were played the male sound effect on new saves. If experiencing the issue, simply save and restart Skyrim. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Exhaustion%20v1_01-48172-1-01.7z?fid=1000096458&ttl=1535828323&ri=8192&rs=8192&setec=8c6fd8ac9407ccbdca61b16c6eb8e0e5"
+    }
+  ]
+}

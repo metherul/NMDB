@@ -1,0 +1,48 @@
+{
+  "modId": 53108.0,
+  "modName": "Paradise Halls v0_7_3  Script Patch",
+  "summary": "A patch for Paradise Halls that provides bug-fixing, feature improvements and compatibility with other mods.",
+  "descriptionHtml": "This is a script patch for Paradise Halls v0.7.3. With kind permission from Paradise Halls original creator, Layam. Most of the patch is by RiiakShiNal, some other edits by GAntono.\r<br />\r<br />1. Fixes a bug where, after selling a slave, the player could not capture new ones. This fix only prevents the bug from happening, it cannot fix already bugged slaves. For slaves already bugged you have 3 choices:\r<br />- Load a saved game from before you enslaved the bugged slave.\r<br />- Kill the bugged slave(s) and you should be able to enslave again.\r<br />- Uncheck the mod, load your save, save again, quit, re-check the mod, load the new save (the mod should &#34;reset&#34;, but you will lose all existing slaves).\r<br />(RiiakShiNal)\r<br />\r<br />2. An update to the Slave Value Analysis Script, so that training has an effect on slave sale price.\r<br />(RiiakShiNal)\r<br />\r<br />3. Devious Devices compatibility.\r<br />(RiiakShiNa)\r<br />\r<br />4. Zaz Animation Pack compatibility.\r<br />(GAntono)\r<br />\r<br />\r<br />Installation:\r<br />\r<br />- Use a mod manager (always the best method), or:\r<br />\r<br />Unpack the 7z file, copy the contents of the Data folder to your game&#39;s Skyrim folder and choose Merge/Replace when asked.",
+  "categoryId": "66",
+  "version": "v3.2",
+  "author": "RiiakShiNal and GAntono",
+  "createdUnix": "1397817522",
+  "updatedUnix": "1400170809",
+  "containsAdultContent": false,
+  "uploadedBy": "GAntono",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000105619",
+      "name": "Paradise Halls v0_7_3 Script Patch v3_1",
+      "version": "v3.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "29",
+      "fileName": "Paradise Halls v0_7_3 Script Patch v3_1-53108-v3-1.7z",
+      "uploadedUnix": "1397931443",
+      "modVersion": "v3.1",
+      "virusScanUrl": "https://www.virustotal.com/file/1b27479fe61d81e563b585ba9242d8e02d3b90fd6dc6359994ea85313960b42d/analysis/1408029800/",
+      "changelogHtml": " Code optimization <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Paradise%20Halls%20v0_7_3%20Script%20Patch%20v3_1-53108-v3-1.7z?fid=1000105619&ttl=1535836505&ri=8192&rs=8192&setec=7057e6837cf9d9a554f1db25101bcec8"
+    },
+    {
+      "fileId": "1000109197",
+      "name": "Paradise Halls v0_7_3 Script Patch v3_2",
+      "version": "v3.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "27",
+      "fileName": "Paradise Halls v0_7_3 Script Patch v3_2-53108-v3-2.7z",
+      "uploadedUnix": "1400170809",
+      "modVersion": "v3.2",
+      "virusScanUrl": "https://www.virustotal.com/file/8c8986891f217ae3e205be486c74d8e5fe2f8e1009fe373fc32c3112899410c4/analysis/1408078042/",
+      "changelogHtml": " Bug fix: Slave Value Analyser script will now more reliably fill its properties <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Paradise%20Halls%20v0_7_3%20Script%20Patch%20v3_2-53108-v3-2.7z?fid=1000109197&ttl=1535836506&ri=8192&rs=8192&setec=ca01098ca18fbd77ca0bcea343762afb"
+    }
+  ]
+}

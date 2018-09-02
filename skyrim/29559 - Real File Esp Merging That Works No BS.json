@@ -1,0 +1,32 @@
+{
+  "modId": 29559.0,
+  "modName": "Real File Esp Merging That Works No BS",
+  "summary": "Merge to your hearts explode.",
+  "descriptionHtml": "UPDATE: Tested and Works with multiplier users so think before you comment and I can\\'t help you with these. Read All These Notes (It will help you)\r\n \r\n\r\nTHESE IS A TEST! \r\nREAD GOOD ONLY IF ADDING ITEMS/ARMORS have not BEEN TESTED WITH QUESTS and etc.\r\nBACK UP OLD ESPs and MAKE SURE YOU TES4Edit clean the new esp.\r\n\r\nSteps To Get a Working .Esp without errors\r\n1. Merge your .esp(s) .... choose wisely\r\n2. ONCE you have successfully MERGED A FILE\r\n3. Try cleaning it in Test4Edit \r\n4. If Test4Edit fails try opening CS and \\\"Save\\\"\r\n5. If CS works repeat step 3.\r\n6. Save and You Done.\r\n\r\n\r\n\r\n\r\nFileMerger was actually my first attempt at writing a Windows (win32) application. At the time I had need for a program who would combine a number of downloaded files into one big file. I needed a program that would be able to both combine text files and (header-less) binary files (mp3, mpeg, etc).\r\n\r\nFileMerger is an MFC dialog application, who’s interface is very basic. All the program’s functions can be found both on the menu and on the toolbar. I used FileMerger as a test project to find my way in the world of windows programming.\r\n\r\nFileMerger v2.2\r\n- Removed easteregg (it was taking up too much space any way)\r\n- Removed fluffy dialog background\r\n\r\nFileMerger v2.1\r\n- Fixed bug merging extremely large files (we’re taliking gigabytes here)\r\n\r\nFileMerger v2.0\r\n- Added move up and move down control for the file list\r\n- Major interface overhaul\r\n\r\nFileMerger v1.2\r\n- Drag & drop file support\r\n- Added menu\r\n\r\nFileMerger v1.1\r\n- Multiple file selection support\r\n\r\nFileMerger v1.0\r\n- Binary file merging of 2 or more seleced files\r\n- Simple interface\r\n\r\n=FAQ / Testies=\r\n==============\r\n@Xgf\r\n\\\"I have made a second esp as an patch for my own mod, so I do not have to translate everything again.\r\n\r\nnow i found this quick and dirty tool (I love these tools without much traritrara)\r\n\r\nmy patch brings many new recipe two new spells and edit two objects from my main esp.\r\n\r\n1. I merge this patch in to my main esp with this tool.\r\n2. I load the merged file with the CK. They are tree errors. Two duplicate id\\'s and On spell have loose a script property. \r\n3. I have deleted the duplicated objects and the original for correct settings edited and also the script property reconnect.\r\n4. Plugin saved and load again ... no errors\r\n5. TesEdit Test.. found no errors\r\n6. in the game... on the rapid, it works fine\r\n7. now i go in a long test phase\r\n\r\nif everything is ok, this tool is very very helpful for me ;-)\r\n\r\nthank you very much\\\"",
+  "categoryId": "39",
+  "version": "2.2",
+  "author": "IDzerono and Eagle Eyes Software",
+  "createdUnix": "1357513771",
+  "updatedUnix": "1357514076",
+  "containsAdultContent": false,
+  "uploadedBy": "sunhawken",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000000565",
+      "name": "Download",
+      "version": "22",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "Download-29559-22.zip",
+      "uploadedUnix": "1357514076",
+      "modVersion": "22",
+      "virusScanUrl": "https://www.virustotal.com/file/1cbc13a972a1d1c5130394c0b566ee21f868294d6c1375e202a9ca17aeaf6d1d/analysis/1407341254/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Download-29559-22.zip?fid=1000000565&ttl=1535803765&ri=8192&rs=8192&setec=40ad0112b00f988fedd3a454e4865fae"
+    }
+  ]
+}

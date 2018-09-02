@@ -1,0 +1,32 @@
+{
+  "modId": 19211.0,
+  "modName": "Clothing matters - WIP version",
+  "summary": "This is a development version of my \\\"Clothing matters\\\" mod.\r\n\r\nIf you are wearing clothes that are factional, NPCs who are against that faction will ignore you - i.e. you won\\'t be able to activate them for a chat.",
+  "descriptionHtml": "(By the way, the last time I played with this, it was working. That was probably 2 months ago - in v1.5 of the game engine. (Note that the code-base of the ESP is probably in v1.4.\r\n\r\nAlso, feel free to discuss this mod here in Nexus or in the official Bethesda forums here: http://forums.bethsoft.com/topic/1385648-npc-clothes-recognition)\r\n\r\nThis is a develoopment version of my \\\"Clothing matters\\\" mod. \r\n\r\nAnyone is free to download this to either extend it further or look into it, learn from it or cut it up and hack into it for use for your other mods. Just give credit where it\\'s due, eh?\r\n\r\n[b]What this is not:[/b]\r\nThis is not like my Oblivion version, Clothing matters. My Oblivion version found differences between the values of your clothes with the values of the clothes of the NPC you are speaking to then adjust their disposition up or down dependent on that difference - effectively making NPCs take note of what you wear.\r\n\r\n[b]What this is[/b]\r\nThis version is more Factional. If you are wearing clothes that are factional, NPCs who are against that faction will ignore you - i.e. you won\\'t be able to activate them for a chat.\r\n\r\nCurrently working factional clothes:\r\n1. Stormcloak armour - NPCs who have Imperial or Thalmore leanings will ignore you\r\n2. Imperial armour - NPCs who align with the Stormcloaks will ignore you\r\n3. Thieves armour - everyone will ignore you\r\n4. Assassins armour - everyone will ignore you\r\n5. Thalmor - those who are aligned with Stormcloaks will ignore you. (This really should be all nords.)\r\n\r\n[b]How the mod works[/b]\r\n[list][*]When you equip one of armours, a variable will be set in the Quest.\r\n[*]Dialogue blockers are then enabled/disabled by checking that variable in their conditions.\r\nE.g. if the npc is in a stormcloak faction and that variable is set to 2 (imperial armour), then the normal Greetings for that npc is blocked/disabled.[/list]\r\n\r\n[b]What needs to be done[/b]\r\n[list][*]I\\'ve not touched this mod since before v1.5. So it was created with the 1.4 CK and game. Loading and resaving it in the CK should pose no problem. I don\\'t even think this mod has an SKSE code. This was built before their release with Papyrus support.\r\n[*]Forsworn armours support for those nords in Markath\r\n[*]Gameplay refinement - e.g. at the moment, simply changing costumes will result in the dialogue to be unblocked\r\n[*]general bug-finding and others: I think this mod still needs that check for the prologue mission. All my other mods do not activate themselves until you escape Helgen and make your way towards the stones following either your Stormcloak or Imperial buddy.[/list]\r\n\r\nNote: I thought I can give upload access to this file profile to anyone registered with Nexus. But, unfortunately, I have to be specific with the user ids. So, sorry, no upload permissions to this actual mod is possible. So, I\\'ve labelled it \\\"WIP version\\\".\r\n\r\nI may revisit this mod later (much, much later) if activity on it is lacking.",
+  "categoryId": "82",
+  "version": "0.1",
+  "author": "kuertee",
+  "createdUnix": "1340358515",
+  "updatedUnix": "1340358590",
+  "containsAdultContent": false,
+  "uploadedBy": "kuertee",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "69584",
+      "name": "kuertee Clothing matters - WIP version 0p1",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "14",
+      "fileName": "kuertee Clothing matters - WIP version 0p1-19211-0-1.zip",
+      "uploadedUnix": "1340358590",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/5e0ca6692d232654969300a5a851a2382b7c274b33558dad846cc85748efda48/analysis/1406975644/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/kuertee%20Clothing%20matters%20-%20WIP%20version%200p1-19211-0-1.zip?fid=69584&ttl=1535786513&ri=8192&rs=8192&setec=f1e45d0d5440fdb87ad3789bbac19bc2"
+    }
+  ]
+}

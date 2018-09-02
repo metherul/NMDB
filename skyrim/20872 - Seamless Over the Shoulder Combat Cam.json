@@ -1,0 +1,32 @@
+{
+  "modId": 20872.0,
+  "modName": "Seamless Over the Shoulder Combat Cam",
+  "summary": "This is a small tutorial/mod on how you can have your camera set to stay over your character\\'s shoulder when you unsheath your weapon or ready yourself to cast a spell. ",
+  "descriptionHtml": "This will be very short and easy to do on your own. I recommend following this short tutorial if you have made edits to your skyrim.ini file and do not wish to overwrite it. If you don\\'t care then just download the file and overwrite your file with mine.\r\n\r\nPlease note that since this doesn\\'t really add anything into the game and is more of a minor edit, you shouldn\\'t experience any performance issues. \r\n\r\nFirst, you will want to navigate to your Skyrim folder in the My Games folder. You can do this by following this path: \r\nC:\\\\Users\\\\<Your username>\\\\Documents\\\\My Games\\\\Skyrim\r\n\r\nOnce you get there you should see the Skyrim folder which contains your game saves. Open it up and you will see a Skyrim.ini file. \r\n\r\nOpen the Skyrim.ini file with Notepad and find your camera options. When you have found it, edit it to look like this:\r\n\r\n[Camera]\r\nfOverShoulderCombatAddY=0.0000\r\nfOverShoulderCombatPosZ=-10.0000\r\nfOverShoulderCombatPosX=30.0000\r\nfOverShoulderPosZ=-10.0000\r\nfOverShoulderPosX=30.0000\r\n\r\nNOTE: If you do not see it, just copy and paste the camera settings above into your skyrim.ini and you will be good. \r\n\r\nFor those that don\\'t feel like going though all of that, just download my file and replace it with yours. \r\n\r\nNow I know that the camera might be a little too close to the player, but you can fix that by make adjustments to the camera settings. This is just what I prefer. Also I will try to help out as much as I can with those having trouble but don\\'t expect a lot. I am still rather new to computer games and modding so my experience is lacking. If you have any suggestions, please let me hear them, I love feedback, just try to keep it constructive. \r\n\r\nDue to the nature of this, I wont likely get a lot of downloads, so please be kind and endorse, vote or leave a comment if this helped you. \r\n",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Blacklyte",
+  "createdUnix": "1342880112",
+  "updatedUnix": "1342880270",
+  "containsAdultContent": false,
+  "uploadedBy": "Blacklyte",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "75723",
+      "name": "skyrim camera edit",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "skyrim camera edit-20872-1-0.zip",
+      "uploadedUnix": "1342880270",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ae69944163a0b831f47f4f6e9be8d2e4558c7732d26d9d1a5e165799123c5859/analysis/1407036962/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/skyrim%20camera%20edit-20872-1-0.zip?fid=75723&ttl=1535789311&ri=8192&rs=8192&setec=14dfdaaf5036879f25ab43aa18be6c91"
+    }
+  ]
+}

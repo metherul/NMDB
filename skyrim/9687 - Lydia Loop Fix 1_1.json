@@ -1,0 +1,48 @@
+{
+  "modId": 9687.0,
+  "modName": "Lydia Loop Fix 1_1",
+  "summary": "Moves Lydia downstairs in Breezehome to break the bugged loop keeping her in the thane\\'s bedroom.  Updated version switches her housecarl package AI for marriage package AI, so she can go back upstairs.  (She will be able to return to the thane\\'s bedroom, but she will not get stuck.)",
+  "descriptionHtml": "Lydia Loop Fix\r\nby: Dokkalfr\r\nfor: Skyrim\r\nCreated: 14 Feb 2012\r\nLast Update: 18 Feb 2012\r\n\r\nVersion 1.1\r\n\r\n*****\r\n\r\nWhat it does:\r\n\r\nMoves Lydia downstairs to break the loop of her sitting, eating, standing, sitting, eating, etc. in the thane\\'s bedroom.  (Which was uber annoying.)\r\n\r\nSwitches her default housecarl AI with the default marriage sandbox AI to supplement her original AI.  She can now go through the house cooking, doing alchemy, drinking, sitting in multiple places, etc. She can also travel upstairs now, which means she can still go into the thane\\'s bedroom, but at least she no longer gets stuck.\r\n\r\n*****\r\nVersion History:\r\n\r\n1.1 -- Switched housecarl sandbox AI package for marriage sandbox AI package. Updated read-me.\r\n\r\n1.0 -- Moved Lydia downstairs to break the loop bug and enable original housecarl sandbox package AI.\r\n\r\n*****\r\nContents:\r\n\r\nLydiaLoopFix.esp file\r\nRead-me file\r\n\r\n*****\r\n\r\nInstall or Update:\r\n\r\n1. Place \\\"LydiaLoopFix.esp\\\" in data folder. If updating, click \\\"yes\\\" to overwrite previous file.\r\n2. Reset the cell.  (Tell Lydia to follow.  Go outside.  Part ways. Go back inside a few seconds after her. You should notice the new animations immediately or shortly thereafter.)\r\n\r\nUninstall:\r\n\r\nRemove \\\"LydiaLoopFix.esp\\\" from data folder.\r\n\r\n*****\r\n\r\nConflicts and Issues with This Bug:\r\n\r\n1. This mod should not conflict with any mod that alters Breezehome, unless Lydia\\'s editor position or AI were tampered with.\r\n\r\n2. Mods that already alter Lydia may conflict if they change the same thing. It\\'s been confirmed this mod does not conflict with the follower animation mod.\r\n\r\n3. There has been one report that if there is a different spouse present, the AI animations may kick in for the spouse, instead of Lydia. I have also been assured that changing the sandbox animations does not affect the marriage quest in any way. Since none of my characters are married, I can\\'t test this myself, but if you notice this kind of marriage faction conflict, try resetting the cell again. Or, try the older version of this file, in which Lydia\\'s location is the only change. Either way, if Lydia is the only companion present, she should be fine.\r\n\r\n4. Lydia\\'s original AI is sleep-enabled, and the marriage package AI is sleep-enabled.  However, I have yet to actually see her go to her bed.  I am working on this for the next update.\r\n\r\n*****\r\n\r\nPermissions:\r\n\r\nPlease do not host this file anywhere else without my permission.  Please do not modify and republish this file without my permission.",
+  "categoryId": "66",
+  "version": "1.0",
+  "author": "Dokkalfr",
+  "createdUnix": "1329265364",
+  "updatedUnix": "1329611770",
+  "containsAdultContent": false,
+  "uploadedBy": "Dokkalfr",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "33423",
+      "name": "Lydia Loop Fix 1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Lydia Loop Fix 1_1-9687-1-1.7z",
+      "uploadedUnix": "1329611608",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/849a66403f20e1515c00af21d2d44a2fd1e1f9acb47d110a807d419b642c15d7/analysis/1406694190/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lydia%20Loop%20Fix%201_1-9687-1-1.7z?fid=33423&ttl=1535769446&ri=8192&rs=8192&setec=1db7041ad103bd3d42416eeefc182cad"
+    },
+    {
+      "fileId": "33426",
+      "name": "Lydia Loop Fix 1_0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Lydia Loop Fix 1_0-9687-1-0.7z",
+      "uploadedUnix": "1329611770",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8b43e0de101ccfa6e534b87c0ec07d3cdc82593d45a31ea5d956a640a3235120/analysis/1406694192/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lydia%20Loop%20Fix%201_0-9687-1-0.7z?fid=33426&ttl=1535769446&ri=8192&rs=8192&setec=0a28f413dae50bdbff6309afbd719301"
+    }
+  ]
+}

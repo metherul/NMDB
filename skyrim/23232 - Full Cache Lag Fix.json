@@ -1,0 +1,32 @@
+{
+  "modId": 23232.0,
+  "modName": "Full Cache Lag Fix",
+  "summary": "What this does is take some space from your hard drive and make Windows use it as though it were RAM.\r\n\r\n\r\nThis allows you to play Skyrim for a long time without having to quit after 5-10 mins of playing due to lag. This is generally for people with High-Resolution texture packs, because these really large textures fill up Skyrims RAM and cache REA",
+  "descriptionHtml": "[center][img]http://static.skyrim.nexusmods.com/mods/images/23232-1-1346177576.png[/img][/center]\r\n[center][b]What this does is take some space from your hard drive and make Windows use it as though it were RAM.[/b][/center]\r\n\r\n\r\n[b]This allows you to play Skyrim for a long time without having to quit after 5-10 mins of playing due to lag. This is generally for people with High-Resolution texture packs, because these really large textures fill up Skyrims RAM and cache REALLY fast![/b]\r\n\r\n\r\n1. Open start menu, and right click [color=\\\"#FFFF00\\\"]My Computer[/color], click [color=\\\"#FFFF00\\\"]Properties[/color]\r\n\r\n2. From the top left select [color=\\\"#FFFF00\\\"]Advanced System Settings[/color]\r\n\r\n3. You should be at the [color=\\\"#FFFF00\\\"]Advanced[/color] page. Under [color=\\\"#FFFF00\\\"]Performance[/color] click [color=\\\"#FFFF00\\\"]Settings[/color]\r\n\r\n4. In this new window, select the [color=\\\"#FFFF00\\\"]Advanced[/color] page\r\n\r\n5. Under [color=\\\"#FFFF00\\\"]Virtual Memory[/color], select [color=\\\"#FFFF00\\\"]Change[/color]\r\n\r\n6. There should be a check beside [color=\\\"#FFFF00\\\"]\\\"Automatically Manage Paging File Size....\\\"[/color] , so [b]UNCHECK[/b] that and select the drive on which your Skyrim is installed [i](Commonly C: drive)[/i]\r\n\r\n7. Select [color=\\\"#FFFF00\\\"]Custom Size[/color], and the numbers you place in the two boxes are dependent on how much available space you have on your hardrive.  [i][I have a lot of free space so i put [b]1000mb[/b] initial and [b]10000mb[/b] maximum][/i]\r\n\r\n8. Click [color=\\\"#FFFF00\\\"]Set.[/color] Click [color=\\\"#FFFF00\\\"]OK[/color] on all the windows.\r\n\r\n[color=\\\"#00FF00\\\"]9. Restart your computer and enjoy long hours on Skyrim, without having to restart the game every 5-10 minutes.[/color]\r\n\r\n\r\n[color=\\\"#00FFFF\\\"][b]~Ayhay123[/b][/color]",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Ayhay123",
+  "createdUnix": "1346176650",
+  "updatedUnix": "1346176759",
+  "containsAdultContent": false,
+  "uploadedBy": "Ayhay123",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "84867",
+      "name": "Full Cache Lag Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1431",
+      "fileName": "Full Cache Lag Fix-23232-1-0.rar",
+      "uploadedUnix": "1346176759",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/90792dfadbacdf83c7ea8f318c3825e0ad7dfa44604ffc3218a1a539a5cf1d55/analysis/1407128419/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Full%20Cache%20Lag%20Fix-23232-1-0.rar?fid=84867&ttl=1535793308&ri=8192&rs=8192&setec=7f8344f554e247792fb4b5b68beb03c5"
+    }
+  ]
+}

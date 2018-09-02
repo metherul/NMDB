@@ -1,0 +1,48 @@
+{
+  "modId": 35322.0,
+  "modName": "Economics of Skyrim Recipe Generator",
+  "summary": "SkyProc patcher that makes craft and temper recipes of all DLC and modded equipment (weapons and armor) for Economics of Skyrim mod smithing and tempering services.",
+  "descriptionHtml": "[B][SIZE=+2]MAIN INFO[/SIZE][/B]\r\n[URL=http://skyrim.nexusmods.com/mods/11919]Economics of Skyrim[/URL] is a mod which allows NPC smiths to craft and temper equipment for the player (for cash). In the original mod, recipes were added by hand for all standard Skyrim items. Unfortunately, many people use equipment from mods, and therefore couldn\\'t use this excellent feature. This patch adds recipes for every craftable (checks Forge) and temperable item (checks Workbench and Grindstone), based on the user\\'s active plugins. \r\n\r\nNew craft recipes are currently added to Whiterun smiths only. Other smiths can only temper.\r\n\r\n\r\n[B][SIZE=+2]INSTALLING[/SIZE][/B]\r\nFirst install Economics of Skyrim, then its Dawnguard patch (if you have DG). Then install my mod (extract to Data folder). It should overwrite both EoS plugins. (I have removed obsolete tempering and craft recipes from those.) Put EoS .esps after other mods that change economics in your load order.\r\n\r\nIt will also make a folder in Skyrim/Data/SkyProc Patchers/ANC Recipe Patcher/. The .JAR file is the patcher. You need Java 7 to run it. Configuration files are in ANC Recipe Patcher/Files/. \r\n\r\nModify SkipList.xml to ignore specific recipes. Don\\'t use BlockList.txt at the moment, cause it can bug some recipes. Run the .JAR and change options if you wish. Then create patch. \r\n\r\nPut the patch after every mod that modifies or adds armor or weapons. If you are using ReProccer, then you ought to generate its patch first and then run EoS recipe patch. This guarantees that you get temper recipes for special crossbows and refined silver weapons for example. \r\n\r\nThe short version: Put the generated patch pretty much at the end of your load list.\r\n\r\n\r\n[B][Size=+2]TROUBLESHOOTING[/B][/Size]\r\n[B][Size=+1]Smiths only offer tempering only up to Exquisite![/B][/Size]\r\nThe scripts that decide which tempering options to offer are based on the smith\\'s skill, not the player\\'s. Even Eorlund only has ~41 Smithing, so he doesn\\'t offer better tempering than Exquisite. To change that, open the console, click on the smith, and type: \\\"forceAV smithing 100\\\". Then talk to the smith again. He should now offer tempering up to Legendary. If you are unsure if the forceAV worked, type \\\"getAV smithing\\\" when the smith is activated in the console. \r\n\r\n[B][Size=+1]When the smith offers Legendary tempering, it\\'s still actually Epic![/B][/Size]\r\nThis morning, I\\'ve looked at the scripts of the original mod, and did some testing. I now know why Legendary upgrades are not working as intended, at least for SkyRe users like me. It will take me a bit of time to fix it, so stay tuned. Here\\'s a workaround meanwhile: depending on your mods, you may be able to use Fortify Smithing items. A 25% smithing boost will allow you to take your gear up to Legendary. Just make sure the effect is active before you talk to the smith.\r\n\r\n\r\n[B][SIZE=+2]PRICE CALCULATIONS[/SIZE][/B]\r\nWith the default settings, a daedric bow costs ~23000 gp, upgrading it to Legendary (x2 dmg) is another 23000 gp. \r\n\r\nTo make the recipes moderately cheaper, reduce base value multiplier to 1-2 and minimum base value to 50-75.\r\n\r\nThe formula for craft recipe is as follows:\r\n(item_value + base_value_min) * [1 + base_value_multiplier + sqrt (item_value + base_value_min) / 10]\r\n\r\nThe formula for a temper recipe multiplies the craft price by [(temper_value_multiplier / 100) * quality_improvement ^ 2]. ",
+  "categoryId": "69",
+  "version": "0.7",
+  "author": "Animunculi",
+  "createdUnix": "1367098553",
+  "updatedUnix": "1367236045",
+  "containsAdultContent": false,
+  "uploadedBy": "Animunculi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000026794",
+      "name": "EoS Recipe Patcher v06",
+      "version": "0.6",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2399",
+      "fileName": "EoS recipe patcher-35322-0-6.zip",
+      "uploadedUnix": "1367098324",
+      "modVersion": "0.6",
+      "virusScanUrl": "https://www.virustotal.com/file/2e068419cd7c1e9e190603844fa61276f99284c1435c3e801f752626d1c15b94/analysis/1407544536/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/EoS%20recipe%20patcher-35322-0-6.zip?fid=1000026794&ttl=1535813782&ri=8192&rs=8192&setec=a89bb2a7756d35127d66ebddaa6568f5"
+    },
+    {
+      "fileId": "1000027060",
+      "name": "EoS Recipe Patcher v07",
+      "version": "0.7",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2399",
+      "fileName": "EoS Recipe Patcher v07-35322-0-7.zip",
+      "uploadedUnix": "1367236045",
+      "modVersion": "0.7",
+      "virusScanUrl": "https://www.virustotal.com/file/971fffdefbd6bd6a1c15c1006c3623d43d0e752ec4adfd68e95b90aba2f73731/analysis/1407546886/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/EoS%20Recipe%20Patcher%20v07-35322-0-7.zip?fid=1000027060&ttl=1535813783&ri=8192&rs=8192&setec=25948a06fa11227acdc2b9023bcee03e"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 49311.0,
+  "modName": "Paired Animation Export Tutorial",
+  "summary": "A technique for exporting paired animations from 3DS Max. Sample files are included.",
+  "descriptionHtml": "UPDATE 12/30/2013: I&#39;ve modified the skeleton export configurations and added appropriate rig files; you should be able to convert most vanilla paired animations to kf properly. Everything has been modified so please replace all existing files with the new versions.\r<br />\r<br />===Paired Animation Export Technique===\r<br />v1.1, discovered by Kentington\r<br />This technique has successfully produced replacer animations, but is only a day old and is considered very experimental. Please let me know if it does or does not work for you&#33;\r<br />\r<br />Exporting paired animations into Skyrim requires some slight modifications to your scene and to the Havok Content Tools export configuration. I&#39;ve included two sample scenes with very primitive animations - one human/human pairing which replaces the vanilla hug with a handshake and one human/dragon killmove which features a crude face slap - along with the relevant Havok configurations. You&#39;ll doubtless want to make your own, so read on&#33;\r<br />\r<br />The first step involves importing two sets of skeletons - either two humans or a human and a creature, depending on your intended animation - into Max. You&#39;ll need to link both skeletons beneath a bone named PairedRoot, then apply the prefix &#34;2_&#34; to the second skeleton&#39;s bones, as shown below: \r<br />\r<br />[PairedRoot]\r<br />-&gt;[NPC]\r<br />-&gt;-&gt;[NPC Root]\r<br />-&gt;[2_]\r<br />-&gt;-&gt;[2_NPC Root]\r<br />\r<br />Since the NifTools importer will overwrite any bone with a duplicate name, your best bet is to import the second skeleton first and apply the prefix (highlight all bones, click Tools-&gt;Rename Objects, check Prefix and enter &#34;2_&#34; into the box). Make sure to change &#34;2_NPC&#34; to &#34;2_&#34; if it exists, or create it if it does not. Move the second skeleton to its desired starting position and orientation, import meshes if desired, and animate the two actors as you normally would.\r<br />\r<br />When you&#39;re ready to export, load the included Havok settings (*.HKO files). If you&#39;re using a pairing other than human/human or human/dragon, you&#39;ll need to clear and re-populate the bones list. Select the Export Paired Animation configuration set, change the output filename under the Write to Platform filter, and run the configuration to produce your animation.\r<br />\r<br />I&#39;ve also included configurations and rig files to export the paired skeleton - you&#39;ll need this if you intend to modify vanilla animations by converting the hkx files to importable kf&#39;s with hkxcmd. Unfortunately the order of bone tracks in vanilla paired animations will often vary, so you might need to manually adjust the bone order to match your animation of choice before exporting the skeleton.hkx. Use hkxcmd to convert the animation file to a human-readable XML format in order to find this bone list, then modify my rig files to match the order.\r<br />\r<br />If you intend to modify an existing Havok export configuration, you&#39;ll need to make three major changes. Remove any Extract Motion filter, check &#34;Enable Individual Track Sampling&#34; under the Spline Compression filter, and check &#34;Name animation tracks&#34; under the Create Animations filter. If you&#39;re interested in why these steps are necessary, I&#39;ve included a theory section below.\r<br />\r<br />At the moment this process is limited to replacer animations, but (as of 12/29/2013) fore is aware of this new development and hopefully it will be feasible to add support for new paired animations to FNIS.\r<br />\r<br />My technique is new enough that no issues are known, but doubtless some will crop up. Please report any crashes or other glitches that result from paired animation replacers - your report will be much more helpful if it includes the animation file itself along with the version of 3DS Max and Havok Content Tools with which it was created and a list of any animation-related mods you were running. The sample files were created using 3DS Max 2010 and Havok Content Tools 2010.2.0.1, and were tested on a clean Skyrim install.\r<br />\r<br />===The Theory Behind All of This===\r<br />\r<br />Vanilla paired animation files have several crucial differences from unpaired animations. They lack extracted motion, animation tracks have names corresponding to both skeletons&#39; bones, and an hkparam block named &#34;transformOffsets&#34; exists under the hkaSplineCompressedAnimation object. This last block appears to be a reference pose. It is interesting to note that while no paired skeletons exist in the vanilla Skyrim BSAs, all of the data one would need to construct both skeletons is present in a paired animation file. My current working theory is that Skyrim uses this data to construct a temporary skeleton at runtime and treats both actors as one for the duration of the animation.",
+  "categoryId": "82",
+  "version": "1.1",
+  "author": "Kentington",
+  "createdUnix": "1388375784",
+  "updatedUnix": "1388455435",
+  "containsAdultContent": false,
+  "uploadedBy": "Kentington",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000089113",
+      "name": "Sample 3DS Max files",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1198",
+      "fileName": "Sample 3DS Max files-49311-1-1.zip",
+      "uploadedUnix": "1388455435",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d5cafee40aefcb8fdc881a24ff81cdc13184d1d286b196e45952a6c9a66ac601/analysis/1407865676/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Sample%203DS%20Max%20files-49311-1-1.zip?fid=1000089113&ttl=1535830083&ri=8192&rs=8192&setec=a6b8d640d0d4fa5c4a5fe98700d4c23b"
+    }
+  ]
+}

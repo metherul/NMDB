@@ -1,0 +1,48 @@
+{
+  "modId": 34508.0,
+  "modName": "360 Walk and Run Plus",
+  "summary": "This tiny mod lets your character to walk toward near side of the screen.",
+  "descriptionHtml": "[center][color=#ffd966][size=4][b]This tiny mod lets your character to walk toward near side of the screen instead of backsteps when weapon is sheathed.[/b][/size][/color]\r<br />\r<br />Obviously, you cannot use this mod and other walking/running mod at the same time. (e.g. Catwalk, Feminine run)[/center]\r<br />[heading][color=#ffd966]QuickPreview[/color][/heading][youtube]vdMn6reWAnA[/youtube][youtube]VIyd3eBngk8[/youtube]\r<br />[heading][color=#ffd966]Q & A[/color][/heading]\r<br />Q. Is &#34;pseudo-waving cloak&#34; function compatible with _______?\r<br />-Please refer to the list below.\r<br />[color=#00ff00]YES&#33;:)[/color]\r<br />[url=http://skyrim.nexusmods.com/mods/12092]Cloaks of Skyrim by Noodles[/url] *Except The Hide Cloak (confirmed by yukl)\r<br />[url=http://skyrim.nexusmods.com/mods/1040]The Art of Magicka by Zonzai and Kalell[/url] (confirmed by yukl)\r<br />[url=http://skyrim.nexusmods.com/mods/29196]Cloak Of Lace For Lady by Aronchack[/url] (confirmed by yukl)\r<br />[url=http://skyrim.nexusmods.com/mods/13486]Winter Is Coming - Cloaks by Nivea[/url] (confirmed by Nivea, big thanks&#33;)\r<br />[url=http://skyrim.nexusmods.com/mods/36497/]Raven witch armor and Apex Werewolf by Zerofrost Satyr[/url](confirmed by yukl)\r<br />[url=http://skyrim.nexusmods.com/mods/24253/]Lost Paladins of the Divines Wrath Armor by Jerros[/url](confirmed by Constantingr)\r<br />[url=http://www.nexusmods.com/skyrim/mods/49130/]Velvet Robes and Cloaks by jacknifelee[/url](confirmed by yukl)\r<br />[color=#ff0000]NO X([/color]\r<br />[url=http://skyrim.nexusmods.com/mods/43155/]Dyeable Cape by Vlad550077[/url] (confirmed by emieri00)\r<br />Please let me know if you find.\r<br />\r<br />Q. I want to keep using backsteps but want to use &#34;pseudo-waving cloak&#34; function.\r<br />-Your demand is supported. Please tick the third from the top option in installation wizard.\r<br />\r<br />[heading][color=#ffd966]Requirments[/color][/heading]\r<br />NOTHING AT ALL.\r<br />[color=red]ONLY IF YOU CHOOSE BBP OPTION, YOU NEED [url=http://skyrim.nexusmods.com/mods/26800]XPMS[/url], [url=http://skyrim.nexusmods.com/mods/11811]FNIS&#39; &#34;SKELETON Arm Fix&#34; PATCH[/url]\r<br />AND PROPER BODY/ARMOR/CLOTH MESHES.[/color]\r<br />\r<br />[heading][color=#ffd966]Installation[/color][/heading]I strongly recommend you to use [url=http://www.nexusmods.com/skyrim/mods/1334/]MO[/url]/[url=http://www.nexusmods.com/skyrim/mods/1840/]BAIN[/url]/[url=http://www.nexusmods.com/skyrim/mods/modmanager/]NMM[/url] to install.\r<br />\r<br />[MO and NMM user]\r<br />Activate and follow the instructions of installation wizard.\r<br />[color=#ff0000][size=5]If you&#39;re using MO 1.2.10, you need to update it to 1.2.11 to install the files correctly.[/size][/color]\r<br />\r<br />[BAIN User]\r<br />Open Installers tab, right click, select &#34;Wizard&#34;, and follow the instructions of installation wizard.\r<br />\r<br />[Manual]\r<br />Select and copy the HKX files to:\r<br />(Male)Datameshesactorscharacteranimationsmale, mt_walk***.hkx mt_run***.hkx mt_sprintforward.hkx\r<br />(Female)Datameshesactorscharacteranimationsfemale, mt_walk***.hkx mt_run***.hkx mt_sprintforward.hkx\r<br />(Swimming)Datameshesactorscharacteranimations, swim***.hkx\r<br />(Optional)Copy ESP file to Data folder.\r<br />\r<br />[heading][color=#ffd966]Uninstallation[/color][/heading]This mod has no script, no havok behavior, so never dirty your save file.\r<br />[color=red]You can uninstall it whenever you want.[/color]\r<br />\r<br />[MO and NMM user]\r<br />Simply deactivate this mod.\r<br />\r<br />[BAIN User]\r<br />Open Installers tab, right click, select &#34;Uninstall&#34;.\r<br />\r<br />[Manual Uninstallation]\r<br />Delete the HKX files you installed.\r<br />(Optional)Delete 360WalkandRunPlus-RunBackwardSpeedAdjust.esp if you installed.\r<br />\r<br />[heading][color=#ffd966]Changelog[/color][/heading]\r<br />v3.1.3 2014-08-24\r<br />&#33;Fixed deformation of female fingers\r<br />&#33;Optimized all female animation files\r<br />&#33;Fixed Fomod Installer again.\r<br />\r<br />v3.1.2 2013-12-08\r<br />&#33;Fixed wrong file structure\r<br />\r<br />v3.1.1 2013-12-08\r<br />&#33;Fixed incorrect filename\r<br />\r<br />v3.1.0 2013-11-16\r<br />&#33;Fixed crashed butt shape of TBBP Mesh\r<br />\r<br />v3.0.2 2013-9-22\r<br />&#33;Fixed Fomod Installer again.\r<br />\r<br />v3.0.1 2013-6-9\r<br />&#33;Fixed Fomod Installer\r<br />\r<br />v3.0.0 2013-6-1\r<br />+Added Head Direction Option\r<br />+Added 360 Swimming\r<br />\r<br />v2.3.0 2013-4-22\r<br />+Completed BBP effect version.\r<br />+Compatible with Wrye Bash (BAIN Installer)\r<br />\r<br />v2.2.0 2013-4-14\r<br />+Added BBP effect version, but 360 only.\r<br />+Added an ESP file to adjust run backward movement speed.\r<br />\r<br />v2.0.1 2013-4-8\r<br />&#33;Fixed corrupted Skirt L Bones of male walking animation.\r<br />\r<br />v2.0.0 2013-4-7 (Nexus release)\r<br />+Featuring pseudo-waving cloak\r<br />+Added Sprint\r<br />\r<br />v1.1.1 2013-3-23\r<br />+Added female version\r<br />&#33;Fixed broken left hand fingers problem(Vanilla bug)\r<br />\r<br />v1.0.0 2013-3-22 (Initial Release)\r<br />+Added male version\r<br />\r<br />[heading][color=#ffd966]Credit[/color][/heading]Yukl\r<br />   web: [url=http://yuklryvius.tumblr.com/]http://yuklryvius.tumblr.com/[/url]\r<br />\r<br />[heading][color=#ffd966]My other works[/color][/heading][list][*][url=http://www.nexusmods.com/skyrim/mods/34508]360 Walk and Run Plus[/url][/*]\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/13306]ENB SSAO and DoF Toggler for Skyrim[/url] ..obsolete[/*]\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/31297]Giving The Finger[/url][/*]\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/51007]Giving The Two Fingers[/url][/*]\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/50377]YY Anim Replacer - Lovely Shout[/url][/*]\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/33914]YY Anim Replacer - Mystic Knight[/url][/*]\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/18502]YY Anim Replacer - Natural Jump[/url][/*]\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/50598]YY Anim Replacer - Princess&#39; Horse Riding[/url][/*]\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/16351]YY Anim Replacer - Zweihander[/url][/*]\r<br />[/list]",
+  "categoryId": "51",
+  "version": "3.1.3",
+  "author": "yukl",
+  "createdUnix": "1365316261",
+  "updatedUnix": "1408888112",
+  "containsAdultContent": false,
+  "uploadedBy": "yukl",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000085865",
+      "name": "360WalkRunPlus_v3_1_2",
+      "version": "3.1.2",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3414",
+      "fileName": "360WalkRunPlus_v3_1_2-34508-3-1-2.7z",
+      "uploadedUnix": "1386497785",
+      "modVersion": "3.1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/0326d8a1ebdc487f0c15c4019fd3c4512dc57989f81586c0d0e75cc3fe0bcc79/analysis/1407825088/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/360WalkRunPlus_v3_1_2-34508-3-1-2.7z?fid=1000085865&ttl=1535812413&ri=8192&rs=8192&setec=5a62df183a794783334fe6d606a162be"
+    },
+    {
+      "fileId": "1000123644",
+      "name": "360WalkRunPlus_v3_1_3",
+      "version": "3.1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3383",
+      "fileName": "360WalkRunPlus_v3_1_3-34508-3-1-3.7z",
+      "uploadedUnix": "1408888112",
+      "modVersion": "3.1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/3a590c9dc8c4250dd404502127812bdef1ec19a47c555e9f53b4400be119d7c2/analysis/1408888206/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/360WalkRunPlus_v3_1_3-34508-3-1-3.7z?fid=1000123644&ttl=1535812414&ri=8192&rs=8192&setec=c9ccd8d4fae284959d9894305d2a61fe"
+    }
+  ]
+}

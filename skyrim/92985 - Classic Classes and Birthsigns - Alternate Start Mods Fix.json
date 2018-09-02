@@ -1,0 +1,32 @@
+{
+  "modId": 92985.0,
+  "modName": "Classic Classes and Birthsigns - Alternate Start Mods Fix",
+  "summary": "Classic Classes and Birthsignes has a problem with alternate start mods like Unbound, Random Alternate Start, Realm of Lorkhan and Arthmoor's Live Another Life. When you start the game it immediately starts it's menus. This is a problem. I fixed it.",
+  "descriptionHtml": "This is just the main esp for Classic Classes and Birthsigns edited so that alternate start mods don't equip a weapon to the player character until YOU choose to. Equipping a weapon causes CCB to start it's menus, which only run once, resulting in you choosing your class and birthsign. The problem is that most alternate start mods will remove your birthsign before putting you into the world of Skyrim proper.\n<br />\n<br />I removed all the gear from the player record in CCB's esp. No equipping a weapon and no starting CCB until you, the player, decide to.\n<br />\n<br />The downside of this is that, depending on the alternate start mod you are running, you'll be naked with no gear. For many this is more of a feature than a problem, others, not so much. \n<br />\n<br />I know that for Arthmoor's Alternate Start Live Another Life mod you won't have the problem of being naked and that he made his mod to equip you with some clothes when the mod ports you to your starting destination. Basically, the mod works flawlessly with LAL. I haven't tested it with Unbound. I know it works with Realm of Lorkhan (put it below RoL's esp, might not matter but I know that RoL edits the player record).\n<br />\n<br />INSTALLATION\n<br />Simply install it as a normal mod. Depending on you're mod manager it may ask you to overwrite or update. \"Overwrite\" = YES, \"Update\" = NO.\n<br />\n<br />This mod will conflict with any mod that edits the player record.",
+  "categoryId": "24",
+  "version": "1.22",
+  "author": "Kearsage watafuzz - original and SSE Port katnerd for this fix",
+  "createdUnix": "1533951836",
+  "updatedUnix": "1533951836",
+  "containsAdultContent": false,
+  "uploadedBy": "katnerd",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000279341",
+      "name": "Classic Classes and Birthsigns Alternate Start Mod Fix",
+      "version": "1.22",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "41",
+      "fileName": "Classic Classes and Birthsigns Alternate Start Mod Fix-92985-1-22.7z",
+      "uploadedUnix": "1533950796",
+      "modVersion": "1.22",
+      "virusScanUrl": "https://www.virustotal.com/file/63c31e9057c4f611b0c525d000f70f12895eec58ab87852343ff5b0e006af870/analysis/1533950942/",
+      "changelogHtml": " Initial relase. Hopefully it won't need any updating ever. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Classic%20Classes%20and%20Birthsigns%20Alternate%20Start%20Mod%20Fix-92985-1-22.7z?fid=1000279341&ttl=1535884171&ri=8192&rs=8192&setec=b1a67d99e3061b2d6c5c13e7eb4d8453"
+    }
+  ]
+}

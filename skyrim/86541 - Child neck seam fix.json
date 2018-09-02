@@ -1,0 +1,48 @@
+{
+  "modId": 86541.0,
+  "modName": "Child neck seam fix",
+  "summary": "",
+  "descriptionHtml": "Only fix neck textures (Normal, color maps)\r<br />\r<br />In this modification, I changed the type of normal map, initially they were incorrect. In vanilla, children use tangent space normal map, so only on their body are the seams visible, while all other creatures use the space normal of the map. I corrected this by making a space normal for children, and also edited the parameters of .niff files.\r<br />\r<br />Archive included .dds and .nif files",
+  "categoryId": "95",
+  "version": "",
+  "author": "Beerezil",
+  "createdUnix": "1504816181",
+  "updatedUnix": "1504894515",
+  "containsAdultContent": false,
+  "uploadedBy": "NICKBEE1122",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000254110",
+      "name": "Child neck fix",
+      "version": "",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "6760",
+      "fileName": "Fix neck children-86541-.rar",
+      "uploadedUnix": "1504816178",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/00fb2fd4677229c931cbec3327808cc06c66bdc4f00e093905a93e3c2dd1ef5d/analysis/1504816465/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fix%20neck%20children-86541-.rar?fid=1000254110&ttl=1535875459&ri=8192&rs=8192&setec=0f09dc7406b2949f60b6edcbcbdaf860"
+    },
+    {
+      "fileId": "1000254164",
+      "name": "Child neck fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8161",
+      "fileName": "Child neck fix-86541-1-0.zip",
+      "uploadedUnix": "1504894515",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/20157732b4622bf92e90d45166e9696c32cb609c8ab25a94ad21335696f28789/analysis/1504894771/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Child%20neck%20fix-86541-1-0.zip?fid=1000254164&ttl=1535875459&ri=8192&rs=8192&setec=831fc3fd5314702ec07e7362b2e33217"
+    }
+  ]
+}

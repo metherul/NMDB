@@ -1,0 +1,32 @@
+{
+  "modId": 19925.0,
+  "modName": "Special Ghostblade",
+  "summary": "Makes the Ghostblade heal allies and never kill enemies.",
+  "descriptionHtml": "This makes the following changes to the Ghostblade:\r\n[list][*]The weapon has no base damage or critical damage. I\\'ve also shut off smithing for it so that you cannot give it base damage.\r\n[*]It no longer counts as an attack to use, and when used on non-hostiles will heal them 16 points. Power attacks heal 32.\r\n[*]When used on hostiles, it causes 16 damage that ignores all forms of resistance and cannot kill. Power attacks cause 32 damage, but still cannot kill.\r\n[*]Bashing with the weapon (not a shield or torch) will briefly (1 second) paralyze targets that are under 50% health and not otherwise immune to paralysis. Bashing causes no damage and has no effect on targets at 50% health or higher.\r\n[*]Its swings do not produce blood and can hit all enemies in front of you. It\\'s an immaterial weapon after all.[/list]\r\n\r\n\r\nWhy would you want something like this? It\\'s weak and can\\'t even kill things. Well, I made it to use with the Merciful perk on my [url=http://skyrim.nexusmods.com/mods/18919]Speech Tree[/url] mod. I wanted a weapon that couldn\\'t kill so that I could more easily spare lives. I have no idea what [i]you[/i] want it for. Maybe you use that mod or you just happen to want a heal stick? Whatever the reason, enjoy if this is what you were looking for.\r\n\r\nAll of this will work on your existing Ghostblade except for the sweeping and bashing, so you\\'ll need a new copy of the weapon with this mod active. If you already have the blade, just type this into the console to switch it for a new one:\r\n\r\nplayer.removeitem 94a2b 1\r\nplayer.additem 94a2b 1",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Kevin Kidder",
+  "createdUnix": "1341442988",
+  "updatedUnix": "1341443027",
+  "containsAdultContent": false,
+  "uploadedBy": "sushisquid",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "72232",
+      "name": "SpecialGhostblade100",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "SpecialGhostblade100-19925-1-0.zip",
+      "uploadedUnix": "1341443027",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5497df50a1b74269ef693a6033e0e511c691c29b49d6f3d327e142c4ab62d60c/analysis/1407001754/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SpecialGhostblade100-19925-1-0.zip?fid=72232&ttl=1535787713&ri=8192&rs=8192&setec=1e30c6a0d0db615ea0f02211f891dbe4"
+    }
+  ]
+}

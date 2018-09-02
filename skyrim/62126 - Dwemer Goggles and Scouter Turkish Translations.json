@@ -1,0 +1,32 @@
+{
+  "modId": 62126.0,
+  "modName": "Dwemer Goggles and Scouter Turkish Translations",
+  "summary": "&lt;br /&gt;This mod adds the craftable &#39;Dwemer Goggles&#39; and &#39;Dwemer Scouter&#39; to the game of Skyrim",
+  "descriptionHtml": "&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;This mod adds the craftable [size=3][b]&#39;Dwemer Goggles&#39;[/b][/size] and [size=3][b]&#39;Dwemer Scouter&#39;[/b][/size] to the game of Skyrim\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;[size=5][b].: Requires Skyrim v1.8+ :.[/b][/size]\r<br />&lt;br /&gt;&lt;br /&gt;[size=4][b][url=http://skyrim.nexusmods.com/mods/3863]SkyUI v3.1+ (Essential)[/url][/b][/size]\r<br />&lt;br /&gt;&lt;br /&gt;[size=4][url=http://skse.silverlock.org/][b]SKSE v1.6.5+ (Required)[/b][/url][/size]\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;[size=4][b].: Fully Compatible with All DLC :.[/b][/size]\r<br />&lt;br /&gt;&lt;br /&gt;[size=4][b].: FULL Beast Race Support :.[/b][/size]\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;- Uses Slot [b][#56][/b] -\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;[size=5][b].: Effects :.[/b][/size]\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;The Goggles and Scouters come with effects built into them with each having there own uses. There are some that are custom built specifically for this mod, while others are a straight rip from the vanilla spells/shouts. This article will give you a rundown on what each of the effects do, and how they work:[url=http://skyrim.nexusmods.com/articles/888/]http://skyrim.nexusmods.com/articles/888/[/url]\r<br />&lt;br /&gt;&lt;br /&gt;[size=5][b].: The Oil System :.[/b][/size]\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;&#39;The Oil System&#39; was something I dreamt up while walking to work one day. I was trying to figure out how to stop the player just using the effects of the items, without consequence, whenever they liked. I wanted it to be something like the current vanilla enchanting system, something that will run out over extended use. I knew this system currently only works for weapons/staffs, and not on armour pieces, so I couldn&#39;t just use that. I had to think... a lot...\r<br />&lt;br /&gt;&lt;br /&gt;Read this article to find out more about how it works: [url=http://skyrim.nexusmods.com/articles/1010/]http://skyrim.nexusmods.com/articles/1010/[/url]\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;[size=5][b]- SKSE[/b][b] (optional)[/b][/size] [url=http://skse.silverlock.org/]http://skse.silverlock.org/[/url]\r<br />&lt;br /&gt;&lt;br /&gt;This mod uses [b]SKSE[/b] to utilise its [b]OnKeypress[/b] functionality. It can be used to toggle on/off the effects on the fly as well as swapping to and from the Goggles(OnHead) version, without using the switcher or going into any menus. By default these keys are [b]C[/b], [b]V[/b], [b]B[/b], [b]N[/b], [b]L[/b], [b]K[/b] and [b]Mouse 3[/b].\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;[list][*][b]C[/b] - Toggles on/off the &#39;Detect Life&#39; effect.[/*]\r<br />&lt;br /&gt;&lt;br /&gt;[*][b]V[/b] - Toggles the &#39;Dwemer Sight&#39; and &#39;Night Eye&#39; effects, depending on which item you have equipped.[/*]\r<br />&lt;br /&gt;&lt;br /&gt;[*][b]B[/b] - Toggles the &#39;Threat Assess&#39; and &#39;Dwemer Perception&#39; effects, again depending on which item you have equipped.[/*]\r<br />&lt;br /&gt;&lt;br /&gt;[*][b]N[/b] - Puts the Goggles on your characters head, providing you are wearing the Goggles (pressing the key again will put them back over your characters eyes). While you have the Goggles on your head, the effects will no longer be active. If you do try to use one of the effects while they are on your head, they will automatically be put over your eyes first.[/*]\r<br />&lt;br /&gt;&lt;br /&gt;[*][b]L[/b] - Activates the &#39;Goggles Light&#39; feature added with v2.1. This is a light that is built into the goggles that can be turned on and off at will. No more will you have unequip your bow/crossbow to pull out a torch just, to see something in a dark corner. Just activate the light and away you go. No equipping or unequipping going on here&#33;[/*]\r<br />&lt;br /&gt;&lt;br /&gt;[*][b]K[/b] - Shows you how much Oil your Goggles or Scouter has left. This saves you from having to go all the way into the MCM section just to find out each time. With one single keypress, a message will be shown with the needed information.[/*]\r<br />&lt;br /&gt;&lt;br /&gt;[*][b]Mouse 3[/b] - Activates the &#39;Zoom&#39; function. When in this mode, your screen will be zoomed in, allowing you to see distant object with ease. This can be used in combat as well, so it can be VERY useful for getting that perfect shot with a bow/crossbow (Keep in mind however that If you set the Zoom FOV level to lower than 31, the &#39;Eagle Eye&#39; perk will not function correctly)[/*]\r<br />&lt;br /&gt;&lt;br /&gt;[/list]All of these keybinds can be changed to whatever you like by navigating to the MCM menu, and changing them from there (you will of course need to have SkyUI v3.0 or above installed for this)\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;",
+  "categoryId": "28",
+  "version": "2.1.1",
+  "author": "tomriddle",
+  "createdUnix": "1422626593",
+  "updatedUnix": "1422724952",
+  "containsAdultContent": false,
+  "uploadedBy": "tomriddle",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000145405",
+      "name": "Dwemer Goggles and Scouter Turkish Translation",
+      "version": "2.1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3783",
+      "fileName": "Dwemer Goggles and Scouter Turkish Translation-62126-2-1-1.zip",
+      "uploadedUnix": "1422724952",
+      "modVersion": "2.1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/4c5f12cff3e70b518a9bf7400434fcc3c7c1fe04f62d19f35f32b3f32e3ab961/analysis/1422724985/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dwemer%20Goggles%20and%20Scouter%20Turkish%20Translation-62126-2-1-1.zip?fid=1000145405&ttl=1535850852&ri=8192&rs=8192&setec=94abee56193691f305c15858e9e03f97"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 8648.0,
+  "modName": "Critical Damage Revision Mod - VERSION 3",
+  "summary": "Changes all perks related to critical damage (Bladesman, Deep Wounds, Critical Shot, Critical charge and Great Critical Charge) and makes them worthwhile and bug free.",
+  "descriptionHtml": "Critical Damage Revision Mod - Version 3\r\n\r\n***************OK, i\\'ve completely changed this thing after doing some tests****************\r\n\r\nDescription: In Skyrim, all critical damage is separately calculated by adding a value (to the damage formula) which is not affected by damage enhancement via skills, perks and smithing. This additional damage is unlocked by certain perks, but remains on an insignificant level throughout character progression (hence, selecting those perks is pointless). This mod edits the respective perks so that critical damage is much higher in comparison to vanilla. This way, perks related to critical damage are rendered useful.\r\n\r\nIt also fixes a bug which apparently causes Bladesman and Deep Wounds to influence the critical hit chance of Critical Charge and Great Critical Charge.\r\n\r\nThe game mechanics are done somewhat obscure and weird and it turned out that Bladesman and Deep Wounds influence both critical hit chance AND critical damage calculation of Critical Charge and Great Critical Charge. The only way to fix this, as it seems to me, is to separate those two pairs of perks related to critical damage by giving CC and GCC a different calculation basis, namely NORMAL weapon damage instead of critical damage. \r\n\r\nSo whenever you use CC or GCC with this little mod, the damage calculation will be based on your actual weapon damage. That is, +50% up to +100% damage, depending on your skill in either One Handed or Two Handed.\r\n\r\nAs yet, i don\\'t know if this also includes damage caused by weapon enchantments, but i think it\\'ll turn out fine anyway.\r\n\r\nPerks affected: Bladesman 1-3, Deep Wounds 1-3, Critical Shot 1-3, Critical Charge, Great Critical Charge.\r\n\r\nI made FOUR VERSIONS of the .esm file, which i packed in one folder: \\\"Low\\\", \\\"Normal, \\\"High\\\" and \\\"Very High\\\". \r\n\r\nLow and normal critical damage levels will result in a linear increment of critical damage as you progress in the ranks of the respective perks (s. a.) - in a way, which is in the sense of the vanilla concept. If you tend to play with extremely powerful gear during end game or whatever, then i recommend the \\\"High\\\" or \\\"Very High\\\" version of the mod, since that will result in a definitely noticeable critical damage output, even with very powerful weapon upgrades and skill mastery (eventually, the point of the mod is to make Bladesman and Deep Wounds WORTHWHILE). \r\n\r\nI recommend to use this together with Deadly Combat by Borgut1337, the deadly dragons mod and so on (i personally use a shitload of mods which make the game rather challanging even on Adept level). The mod is compatible with any other mod that doesn\\'t change the affected perks (see above).\r\n\r\nInstallation: Put the files in your ...Skyrim/Data folder (where the other .esp files usually are) and select the one you prefer (Low, Normal, High or Very High).\r\n\r\nEDIT: I\\'LL UPLOAD IN A FEW MINUTES (sorry)\r\n\r\nEDIT2: \\'Tis accomplished =D Enjoy!\r\n\r\n",
+  "categoryId": "77",
+  "version": "3",
+  "author": "Euparkeria",
+  "createdUnix": "1328852776",
+  "updatedUnix": "1329030368",
+  "containsAdultContent": false,
+  "uploadedBy": "Euparkeria",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "29437",
+      "name": "Critical Damage Revision Mod - VERSION 3",
+      "version": "3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Critical Damage Revision Mod - VERSION 3-8648-3.rar",
+      "uploadedUnix": "1329030368",
+      "modVersion": "3",
+      "virusScanUrl": "https://www.virustotal.com/file/970cb26bc84245f0801d96fe4f847f4bbc0833f13f6551dc4c623d26dd9ca7e5/analysis/1406672416/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Critical%20Damage%20Revision%20Mod%20-%20VERSION%203-8648-3.rar?fid=29437&ttl=1535767569&ri=8192&rs=8192&setec=25aeae84c8e41bbd4fc4085c8bcb761b"
+    }
+  ]
+}

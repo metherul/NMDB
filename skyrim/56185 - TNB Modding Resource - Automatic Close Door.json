@@ -1,0 +1,48 @@
+{
+  "modId": 56185.0,
+  "modName": "TNB Modding Resource - Automatic Close Door",
+  "summary": "A script to add to any activator to close the door behind you.",
+  "descriptionHtml": "After spending the better part of three hours trying to figure out how to have a hidden door close behind the player, I finally gave up and created this script.\r<br />\r<br />To use the script (for Dummies, I apologize if it is too in depth for you, I&#39;m just covering the basics):\r<br />1. Extract the script into the Script folder in Skyrim/Data (usually under: C:&#92;Program Files (x86)&#92;Steam&#92;SteamApps&#92;common&#92;Skyrim&#92;Data).\r<br />2. Choose any activator (a button, pressure plate, etc.) you would like to use to open and automatically close behind you.\r<br />3. Place the activator in the cell where you would like it.\r<br />4. Open the activator to edit it.\r<br />5. Click the arrow keys until you see &#34;Scripts&#34;.\r<br />6. Click &#34;Add&#34;.\r<br />7. Search for &#34;TNB_CloseDoorScript&#34;.\r<br />8. Click &#34;Ok&#34;.\r<br />9. Click &#34;TNB_CloseDoorScript&#34; to select it (some activator already have scripts attached to them).\r<br />10. Click &#34;Properties&#34;.\r<br />11. Fill out the properties:\r<br />     &#34;Activator00&#34; is the activator you are using. You may have to select your cell and the activator manually with the drop down boxes.\r<br />     &#34;clock&#34; is the amount of time you want the door to be open for.\r<br />     &#34;Door00&#34; is the door you are opening and having close behind you.\r<br />12. Click &#34;Ok&#34; a few times to close the dialog boxes.\r<br />13. Save your mod and test. You may need to change the time the door is open depending on the distance the player has to walk to make it through the door.\r<br />\r<br />Remember, when you release your mod to include the script.\r<br />\r<br />Please remember to come back and endorse if you find this useful&#33;\r<br />\r<br />-----Permissions-----\r<br />Please save yourself time and use this script but please credit your work.\r<br />\r<br />----Other Mods/Files by TehNoiseBomb----\r<br />[url=http://www.nexusmods.com/skyrim/mods/56089/?]TNB Ra&#39;Masser[/url] -&gt; Hidden, Work in Progress\r<br />[url=http://www.nexusmods.com/skyrim/mods/56977/?]TNB Craftable Folded Cloth[/url]",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "TehNoiseBomb",
+  "createdUnix": "1405915874",
+  "updatedUnix": "1405916250",
+  "containsAdultContent": false,
+  "uploadedBy": "NoiseBomb91",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000118523",
+      "name": "TNB_CloseDoorScript_1_0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "TNB_CloseDoorScript_1_0-56185-1-0.zip",
+      "uploadedUnix": "1405915866",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/bd7eaf21b596f31cc680528118509d9064d85b69b0eff6bf1629dc51cc874fcf/analysis/1405915933/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TNB_CloseDoorScript_1_0-56185-1-0.zip?fid=1000118523&ttl=1535841416&ri=8192&rs=8192&setec=dfa1e6361a96f047ebf020fa65e42386"
+    },
+    {
+      "fileId": "1000118526",
+      "name": "Source File",
+      "version": "1.0",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Source File-56185-1-0.zip",
+      "uploadedUnix": "1405916250",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/564085b75ce1bbbb08d01fc61e2d8e3495f98a5091cd1f1b6f05743cae32386a/analysis/1405916283/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Source%20File-56185-1-0.zip?fid=1000118526&ttl=1535841416&ri=8192&rs=8192&setec=ea41e667bae5dd0a867635bcb4247bec"
+    }
+  ]
+}

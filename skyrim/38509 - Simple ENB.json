@@ -1,0 +1,32 @@
+{
+  "modId": 38509.0,
+  "modName": "Simple ENB",
+  "summary": "Performance hit: about 12 FPS. Minimal set of effects which are carefully selected to maintain high image quality. Video of actual gameplay inside, recorded on Medium/Ultra settings. ",
+  "descriptionHtml": "[color=yellow][size=4]Why no screenshot?[/size][/color]\r\nI believe video is far superior than screenshots in exhibiting the preset. And feel free to upload your screenshots if you get any good ones. \r\n\r\n[youtube]P5zdfrIc2IQ[/youtube]\r\n\r\n\r\n[color=blue]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[/color]\r\n\r\n[color=red][size=5]General Information[/size][/color]\r\n\r\n[color=yellow][size=4]What\\'s special about Simple ENB?[/size][/color]\r\nThe concept of this preset is to get the most out of every single FPS drop. \r\nOn both my GTX 660 Ti 3GB gaming desktop, and my GT 320M 1GB laptop, the performance hit is about the same: around 12 FPS outdoor, slightly faster in some areas and indoor. \r\n\r\n[color=yellow][size=4]Is my machine good enough for ENB?[/size][/color]\r\nYou need to be able to run vanilla at least 30 FPS to be BARELY playable with this ENB preset. However you can try playing on lower settings like Medium (on which many of the scenes in the video were recorded), it still makes significant difference. Remember to turn of AA everytime you change settings!\r\n\r\n[color=red][size=5]Installation[/size][/color]\r\n\r\n[color=yellow][size=4][b]Mandatory[/b][/size][/color]\r\n1. Download ENB binary v13.7.13 from [url=http://enbdev.com/mod_tesskyrim_v13713.htm]http://enbdev.com/mod_tesskyrim_v13713.htm[/url], extract everything under \\\"WrapperVersion\\\" into game folder, overwrite all. \r\n2. Download Simple ENB from here MANUALLY, extract everything into game folder, overwrite all. \r\n3. Install ENB Series Helper Mod: [url=http://skyrim.nexusmods.com/mods/36318//?]http://skyrim.nexusmods.com/mods/36318//?[/url]\r\n4. Set below settings in SkyrimPrefs.ini:\r\n[size=1]bFloatPointRenderTarget=1\r\nbTreesReceiveShadows=1\r\nbDrawLandShadows=1\r\nbShadowsOnGrass=1[/size]\r\n5. Turn off ALL Antialiasing, Anisotropic Filtering in Skyrim Options or video card driver control panel. \r\n\r\n[color=yellow][size=4][b]Essential[/b][/size][/color]\r\nThis preset is developed with CoT and RLO, you can run without them but the visual will be different. \r\n1. [url=http://skyrim.nexusmods.com/mods/17802//?]Climates Of Tamriel[/url] v3.1\r\n2. [url=http://skyrim.nexusmods.com/mods/30450//?]Realistic Lighting Overhaul[/url] 4.0.7c\r\n\r\n[color=yellow][size=4]Optional[/size][/color]\r\n1. [url=http://skyrim.nexusmods.com/mods/12525//?]Dynavision[/url] for depth of field effect, almost zero performance loss. \r\n\r\n[color=yellow][size=4]Patch[/size][/color]\r\nNot critical, but you will need it if you are a perfectionist: \r\n1. [url=http://enbseries.enbdev.com/forum/viewtopic.php?f=6&t=1499]Skyrim particle patch for ENB[/url]: install this if you find incorrect brightness on textures. e.g. bright water foam, plants or doors at night. \r\n\r\n[color=yellow][size=4]Other HD texture mods[/size][/color]\r\nIf you are interested, find them at my other ENB\\'s page: [url=http://skyrim.nexusmods.com/mods/38003//?]Imperfect ENB[/url]",
+  "categoryId": "97",
+  "version": "1",
+  "author": "wonderfulmore",
+  "createdUnix": "1374243974",
+  "updatedUnix": "1374243967",
+  "containsAdultContent": false,
+  "uploadedBy": "wonderfulmore",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000039666",
+      "name": "Simple ENB v1",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "80",
+      "fileName": "Simple ENB v1-38509-1.zip",
+      "uploadedUnix": "1374243967",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/fbe1faa5b55d3ebf3ba50812332b0609a86ab1e6a8730875944a8bbc81d3bf4d/analysis/1407649312/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Simple%20ENB%20v1-38509-1.zip?fid=1000039666&ttl=1535818879&ri=8192&rs=8192&setec=37a7fa07eb2acaea6c2f5ecbb68dde4b"
+    }
+  ]
+}

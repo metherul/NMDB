@@ -1,0 +1,32 @@
+{
+  "modId": 58897.0,
+  "modName": "Dark Disciple to UNP body",
+  "summary": "Conversion of Dark Disciple to UNP body. ",
+  "descriptionHtml": "[size=4]Hey there&#33; [/size]\r<br />\r<br />This is a conversion of the Dark Disciple to UNP body. \r<br />\r<br />First of all, I did this conversion for personal use. There are flaws, is not perfect as I would like.\r<br />I&#39;m not a 3D modeler/designer, actually I don&#39;t even how to launch Blender. :P \r<br />\r<br />But I decided share with everyone this conversion because no one did it yet. \r<br />\r<br />[size=4][b]Requirements: [/b][/size]\r<br />UNP Body (really?) \r<br />[url=http://www.nexusmods.com/skyrim/mods/6709/?]http://www.nexusmods.com/skyrim/mods/6709/?[/url]\r<br />\r<br />Dark Disciple armor by BetterBecause. \r<br />[url=http://www.nexusmods.com/skyrim/mods/42398/?]http://www.nexusmods.com/skyrim/mods/42398/?[/url]\r<br />\r<br />[size=4][b]Installation: [/b][/size]\r<br />Install Dark Disciple by BetterBecause \r<br />Install my mod overwriting the original files \r<br />\r<br />-\r<br />[size=4][b]Known issues: [/b][/size]\r<br />As mentioned above, the mesh have some imperfections. \r<br />I have not modified hands and feet meshes, then they will not fit perfectly with the body armor. \r<br />\r<br />-\r<br />[b]*Bonus* \r<br />[/b]\r<br />Accidentally, I found 3 bugs in &#34;darkstandalone.esp&#34; original file, created by BetterBecause.\r<br />When BetterBecause make this file, he forgot to rename the file first person nif file. \r<br />\r<br />You can fix this manually - is easy. :) \r<br />\r<br />Open DarkStandalone.esp in TES5Edit or CK.\r<br />\r<br />bug 1:\r<br />Look for [b]FullLeatherGlovesDD[/b] \r<br />\r<br />[b]Armor&#92;Studded&#92;Female&#92;1stPersongloves_1.nif[/b] change it to  [b]armor&#92;BBs&#92;catsuit_hands_1.nif[/b] \r<br />\r<br />Bug 2:\r<br />look for [b]FullLeatherGlovesCD[/b] \r<br />\r<br />[b]Armor&#92;Leather&#92;Female&#92;1stPersomgloves_1.nif[/b] change it to  = [b]Armor&#92;BBs&#92;catsuit_T_hands_1.nif[/b] \r<br />\r<br />Bug 3: \r<br />look for [b]FullLeatherCuirassCD[/b] \r<br />\r<br />[b]Armor&#92;Studded&#92;Female&#92;1stPersonbody_1.nif[/b] change it to [b]armor&#92;BB&#39;s&#92;Catsuit_T_1stPerson_1.nif[/b]\r<br />\r<br />As said, these 3 bugs are present in [i]darkstandalone.esp[/i] file, unfortunately I can&#39;t upload this file fixed. \r<br />You will have to fix it manually.\r<br />\r<br />-\r<br />Thanks to [url=http://www.nexusmods.com/skyrim/users/4291759/]ousnius[/url]&#39;s tutorial teaching how convert armors using BodySlide. \r<br />[size=4][b]Credits: [/b][/size]\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/42398/?]Dark Disciple textures[/url] by betterbecause \r<br />[url=http://www.nexusmods.com/skyrim/mods/41534/?]Shiny Rubber Catsuits[/url] original meshes by mxwqtkl \r<br />[url=http://www.nexusmods.com/skyrim/mods/6709/?]DIMONIZED UNP female body[/url] by dimon99 \r<br />[url=http://www.nexusmods.com/skyrim/mods/49015/?]BodySlide 2 and Outfit Studio[/url] by Caliente \r<br />[url=http://www.elderscrolls.com/]TES V: Skyrim[/url] by Bethesda ",
+  "categoryId": "54",
+  "version": "1.0",
+  "author": "TheTag",
+  "createdUnix": "1412907580",
+  "updatedUnix": "1412908292",
+  "containsAdultContent": false,
+  "uploadedBy": "thetag",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000130269",
+      "name": " UNP Dark Disciple Rep_Stand_TheTag_1.0",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1831",
+      "fileName": " UNP Dark Disciple Rep_Stand_TheTag_1.0-58897-.rar",
+      "uploadedUnix": "1412908292",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/e9e449d4ad5f52d1b02b97e6abefe7e997eb29d161065afc3e9e09245cfa21ff/analysis/1412908384/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/%20UNP%20Dark%20Disciple%20Rep_Stand_TheTag_1.0-58897-.rar?fid=1000130269&ttl=1535845810&ri=8192&rs=8192&setec=4f076a40e1c079dff89cd740741f40c8"
+    }
+  ]
+}

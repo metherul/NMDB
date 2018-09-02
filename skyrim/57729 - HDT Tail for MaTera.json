@@ -1,0 +1,32 @@
+{
+  "modId": 57729.0,
+  "modName": "HDT Tail for MaTera",
+  "summary": "This is a HDT Tail for the 3 MaTera Races from Charismoon. Works with Female and Male Character",
+  "descriptionHtml": "[center][size=3]Hi everyone this i my first Mod ever :)[/size]\r<br />\r<br />&#33;&#33; A little Update to the Tail hope with this the stretching Bug is gone &#33;&#33; \r<br />&#33;&#33; The Installer got a Update so please read the info in the Installation Instrustions &#33;&#33;\r<br />&#33;&#33; When i was looking at the Animations i found out that the Bow Animation is missing you can find a link under Optional Files &#33;&#33;\r<br /> \r<br />[size=4][color=#e69138]So first of all what is this Mod:[/color]\r<br />[/size][size=3]This Mod adds HDT Tails for the three Custom Races \r<br />Matera\r<br />Battle Matera\r<br />Magic Matera[/size]\r<br />[youtube]ecOfCmf2u_g[/youtube]\r<br />When i played the Race i thought it would be nice if the Tail would work with physics,\r<br />so i did start working on it and ended up with more work then i thought :)\r<br />\r<br />[color=#e69138][size=5]Dependencies:[/size][/color]\r<br />At least one of the MaTera Races found here:\r<br />[url=http://www.nexusmods.com/skyrim/mods/23170/?]MaTera[/url]﻿[/center][center][url=http://www.nexusmods.com/skyrim/mods/26642/?]Battle MaTera[/url]﻿\r<br />[url=http://www.nexusmods.com/skyrim/mods/30673/?]Magic MaTera[/url]﻿\r<br />\r<br />[color=#ff0000][size=3]&#33;&#33;For the Race requirements follow Charismoons instructions&#33;&#33;\r<br />[/size][/color]\r<br />SKSE found here: [url=http://skse.silverlock.org/]http://skse.silverlock.org/[/url]﻿\r<br />[b]HDT Physics Extension: [url=http://www.nexusmods.com/skyrim/mods/53996/?][b]http://www.nexusmods.com/skyrim/mods/53996/?[/b][/url]﻿[/b][b]\r<br />Fores New Idles in Skyrim: [url=http://www.nexusmods.com/skyrim/mods/11811/? ][b]http://www.nexusmods.com/skyrim/mods/11811/? [/b][/url]﻿\r<br />\r<br />[color=#e69138][size=5]Installation:[/size][/color]\r<br />[/b][size=3]First Install SKSE and [b]HDT Physics Extension.\r<br />[/b]Then one of the Races.[/size]\r<br />\r<br />Easy Install:\r<br />[size=3]Use NMM and chose the Race you installed and the Skeleton you want.\r<br />Override all files and run FNIS at the end youre done.[/size]\r<br />\r<br />\r<br />[size=4][color=#ff0000] &#33;&#33; There was a update to the Installer you can chose the Skeleton but it doesnt Install all Files anymore &#33;&#33;\r<br />&#33;&#33; Whats gone are the Animations, Bolt choses, RaceMenuPluginXPMSE.esp and the installation of the Skeleton to the normal Places &#33;&#33;\r<br />&#33;&#33; I did this because if Groovtama makes a update to his Skeleton and you install my Mod afterwards it can give weird issues &#33;&#33;\r<br />&#33;&#33; So if you are using Swords on the Back you need to istall Groovtamas Skeleton or the Animation for it &#33;&#33; \r<br />&#33;&#33; and if you want the RACEMENUPLUGINXPMSE.esp then you need to install Groovtamas skeleton &#33;&#33;[/color][/size]\r<br />\r<br />\r<br />Manual:\r<br />After you installed one of the Races:\r<br />Download and unzip the File anywhere you want.\r<br />Go to the Folder and copy the Content from one of the Race Folders in the Skyrim Data Folder.\r<br />Copy the the Content from SKSE folder to youre own.\r<br />[url=http://www.nexusmods.com/skyrim/mods/26800/?tab=2&navtag=http%3A%2F%2Fwww.nexusmods.com%2Fskyrim%2Fajax%2Fmodfiles%2F%3Fid%3D26800&pUp=1]Install Groovtamas Skeleton[/url]﻿ or any Skeleton you want to use but it needs to be HDT capable. \r<br />Go to youre Skyrim folder:\r<br />Now it depends on what you play Male or Female.\r<br />For Male: \r<br />Data&#92;Meshes&#92;Actors&#92;Character&#92;character assets\r<br />For Female:\r<br />Data&#92;Meshes&#92;Actors&#92;Character&#92;character assets female\r<br />Copy the skeleton.nif or skeleton_female.nif and skeletonbeast.nif or skeletonbeast_female.nif.\r<br />Go back to Data&#92;Meshes&#92;Actors&#92;Character there is then a Folder named MaTera/BMaTera or MMaTera.\r<br />Now it depends again on what you play.\r<br />If you play MaTera its:\r<br />MaTera&#92;female or male&#92;body override the skeletons in there.\r<br />same for Battle and Magic MaTera.\r<br />Run FNIS and youre done.\r<br />\r<br />\r<br />[color=#e69138][size=4]Optional Files:\r<br />[/size][/color]Animations:\r<br />[url=http://www.nexusmods.com/skyrim/mods/35717/?tab=2&navtag=http%3A%2F%2Fwww.nexusmods.com%2Fskyrim%2Fajax%2Fmodfiles%2F%3Fid%3D35717&pUp=1]Cheskos Bow Animation[/url]﻿\r<br />[url=http://www.nexusmods.com/skyrim/mods/38078/?tab=2&navtag=http%3A%2F%2Fwww.nexusmods.com%2Fskyrim%2Fajax%2Fmodfiles%2F%3Fid%3D38078&pUp=1]1h Sword Back[/url]﻿\r<br />\r<br />\r<br />[size=4][color=#e69138]BUGS:[/color]\r<br />[/size]There are 3 i know of:\r<br />The Tail quivers a little bit when standing.\r<br />Sometimes the Tail cant keep up with the Movement and stretches but if you stop i goes back to its Position.\r<br />The Tail stops working its really Rar happend to me only ones. \r<br />If you find more PM i try to get it fixed.\r<br />\r<br />Mod is Approved from Charismoon :)\r<br />[url=http://imageshack.com/f/p8hb4Rjrp][img]http://imagizer.imageshack.us/v2/150x100q90/908/hb4Rjr.png[/img]\r<br />\r<br />[/url][size=4][color=#e69138]Credits:[/color]\r<br />[/size]Thanks Charismoon for your permission and awesome Race.\r<br />Thanks Groovtama that i can use your Skeleton. [/center]",
+  "categoryId": "29",
+  "version": "0.9.5",
+  "author": "deadzone45",
+  "createdUnix": "1409657251",
+  "updatedUnix": "1409741290",
+  "containsAdultContent": false,
+  "uploadedBy": "deadzone45",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000125101",
+      "name": "HDT Matera Tails",
+      "version": "0.9.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "14166",
+      "fileName": "HDT Matera Tails-57729-0-9-5.7z",
+      "uploadedUnix": "1409741290",
+      "modVersion": "0.9.5",
+      "virusScanUrl": "https://www.virustotal.com/file/1c2500cf87b08604dfd2f673c977442b7f6cde7fd26cf9b82e6f8738eceaa30a/analysis/1409741414/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HDT%20Matera%20Tails-57729-0-9-5.7z?fid=1000125101&ttl=1535843888&ri=8192&rs=8192&setec=441e45e163aee1b09122456b2cc6c65e"
+    }
+  ]
+}

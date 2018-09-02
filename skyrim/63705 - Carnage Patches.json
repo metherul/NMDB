@@ -1,0 +1,48 @@
+{
+  "modId": 63705.0,
+  "modName": "Carnage Patches",
+  "summary": "Some Personal Patches I use as I could not find adequate versions on Nexus.",
+  "descriptionHtml": "[size=4][size=3]These are just some fixes I use personally, and I figure if I use them, I&#39;m sure there are some other who also may want them but don&#39;t have the CS skills to do it themselves. I&#39;ll keep adding as I find any more conflicts or stuff I want to change.[/size]\r<br />\r<br />- Fix for [url=http://www.nexusmods.com/skyrim/mods/61608/?]JK&#39;s Winterhold[/url] (and [url=http://www.nexusmods.com/skyrim/mods/61035/?]JK&#39;s Skyrim[/url]) and [url=http://www.nexusmods.com/skyrim/mods/33766/?]Agent Of Righteous Might[/url][/size]   \r<br />Moves the Temple of Stendarr slightly out of Winterhold so it does not sit on top of the well and some other stuff added by JK&#39;s mods. Does not modify JK&#39;s mods in anyway, simply replace &#39;AgentOfRighteousMight.esp&#39; with this, contains only the .esp, you will still require Agent Of Righteous Might for all the other assets. The .esp is the latest version of AoRM and I don&#39;t expect the author to update it anytime in the future. I did it like this as I didn&#39;t want yet another .esp in my load list.\r<br />\r<br />[size=4]- Count the Dead 2K4[/size]\r<br />I made this to alleviate the issue that arise with such mods as [url=http://www.nexusmods.com/skyrim/mods/9494]WARZONES 2015 - Civil Unrest[/url] by [b]MyGoodEye[/b] where an excess of dead bodies (that being 3 in a warzone) would have the oldest bodies vanish into thin air right in front of your eyes\r<br />\r<br />[i][u][b]Be warned[/b][/u][/i]; this is not for slower computers and a heightened amount of models in game can slow your frame rate if you \r<br />amount too many dead in one area.\r<br />\r<br />What this changes;\r<br />iRemoveExcessDeadCount = 40 [size=1](default = 15)[/size]\r<br />iRemoveExcessDeadTotalActorCount = 80 [size=1](default = 20)[/size]\r<br />iRemoveExcessDeadComplexCount = 40[size=1] (default = 3)[/size]\r<br />iRemoveExcessDeadComplexTotalActorCount = 80 [size=1](default = 20)[/size]",
+  "categoryId": "84",
+  "version": "",
+  "author": "Carnage2K4",
+  "createdUnix": "1426248548",
+  "updatedUnix": "1426249073",
+  "containsAdultContent": false,
+  "uploadedBy": "Carnage2K4",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000151290",
+      "name": "Count the Dead 2K4",
+      "version": "v1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Count the Dead 2K4-63705-v1-0.rar",
+      "uploadedUnix": "1426248535",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/42d69afaf75244bd3932b7bee60614ad2f184bb0c4674cea908ebef94f8fbaa1/analysis/1426248544/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Count%20the%20Dead%202K4-63705-v1-0.rar?fid=1000151290&ttl=1535852392&ri=8192&rs=8192&setec=5e6219934da9b90faf6be8d9cf733cf0"
+    },
+    {
+      "fileId": "1000151293",
+      "name": "Fix for JKs Winterhold and Agent Of Righteous Might",
+      "version": "v1.0",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "1210",
+      "fileName": "Fix for JKs Winterhold and Agent Of Righteous Might-63705-v1-0.rar",
+      "uploadedUnix": "1426249073",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/26a71e393ef27b8ce4dd95871a2c6046f36b18a6588152a282962916f8f22310/analysis/1426249110/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fix%20for%20JKs%20Winterhold%20and%20Agent%20Of%20Righteous%20Might-63705-v1-0.rar?fid=1000151293&ttl=1535852393&ri=8192&rs=8192&setec=cbced82b955c20f98952ef174d34c4df"
+    }
+  ]
+}

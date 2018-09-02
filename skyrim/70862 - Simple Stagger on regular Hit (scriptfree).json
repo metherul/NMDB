@@ -1,0 +1,48 @@
+{
+  "modId": 70862.0,
+  "modName": "Simple Stagger on regular Hit (scriptfree)",
+  "summary": "A small, scriptfree, leightweight mod, which lets enemies stagger when hit by a regular attack.",
+  "descriptionHtml": "[center][b][u][size=6]Simple Stagger[/size][/u][/b]\r<br />\r<br />This mods adds staggering on regular attacks to skyrim. \r<br />If you hit an enemy with a normal attack with a meeleweapon, it will stagger a little bit. \r<br />\r<br />It only works on regular meele-weapon-hits. No Bow/Crossbow, No Magic, No unarmed.\r<br />For Powerattacks the vanilla-staggering-system will work unchanged.\r<br />\r<br />You on the other hand will not additionaly stagger when being hit by a normal attack. \r<br />This Mod is build up on vanilla staggermechanics, a stagger this small would only be cosmetic, \r<br />which means you are not interrupted, only your camera will shake (therefore it would be just anoying in my opinion).\r<br />\r<br />This mod is scriptfree. \r<br />\r<br />([u]Only in 1.0:[/u] If your enemies block your hit, it will still stagger them, \r<br />but you will still get a short recoil-stagger as in vanilla, therefore you won&#39;t profit of it.)\r<br />\r<br />[u][b]new in Version 1.1:[/b]\r<br />[/u][i]Thanks to Tartosuk, he had the idea and helped a lot to find a solution.[/i]\r<br />[u]\r<br />\r<br />[u]Enemies will not get staggered by regular attacks when they block your hit\r<br />[/u][/u]- only a succesfull block will save them from staggering\r<br />- if an Enemy is blocking, but you attack him from side or back, he still will get staggered[u]\r<br />\r<br />added optional Cooldown[/u][b][/b]\r<br />- open console and type &#34;set staggerduration to x&#34;, where x can be 0, 1, 2, 3 or 4 [i](type without &#34; &#34;)[/i]\r<br />- this will result in 0, 1, 2, 3 or 4 seconds cooldown \r<br />- blocked hits will not trigger Cooldown\r<br />(Cooldown = the time, untill this specific enemy can be staggered by a normal hit again)\r<br />(Cooldown will not prevent you from staggering a different enemy or staggering the same Enemy by shieldbash/powerattack)\r<br />- different values than 0, 1, 2, 3 or 4 will not work\r<br />\r<br />\r<br />\r<br />\r<br />[u][size=4]Installation:[/size][/u]\r<br />Use Modmanager or simply copy simple_stagger.esp in your &#92;Skyrim&#92;Data Folder and activate it.\r<br />\r<br />[b]1. Ingame, open console and type &#34;help doperk_stagger&#34; [i](without &#34; &#34;). [/i][/b]\r<br />[i]This will show you a Perk (doperk_stagger) and its ID.[/i]\r<br />\r<br />[b]2. The ID will look like XXX00D64 [/b]\r<br />[i](XXX will be the position of this Mod in your loadorder, for example &#34;96000D64&#34;).[/i]\r<br />\r<br />[b]3. Then type &#34;player.addperk XXX00D64&#34; [/b]\r<br />[i](replace XXX with the numbers, which showed, type the whole number with all zeros).[/i]\r<br />\r<br />[b]4. Save your game[/b]\r<br />\r<br />[u][size=4]Uninstallation:[/size][/u]\r<br />Uninstallation mid-game works, since this mod does not use scripts.\r<br />\r<br />[b]1. Ingame, open console and type &#34;help doperk_stagger&#34; [i](without &#34; &#34;)[/i][/b]\r<br />[i]This will show you a Perk (doperk_stagger) and its ID.[/i]\r<br />\r<br />[b]2. The ID will look like XXX00D64 [/b]\r<br />[i](XXX will be the position of this Mod in your loadorder, for example &#34;96000D64&#34;).[/i]\r<br />\r<br />[b]3. Then type &#34;player.removeperk XXX00D64&#34; [/b]\r<br />[i](replace XXX with the numbers, which showed, type the whole number with all zeros).[/i]\r<br />\r<br />[b]4. Save your game[/b]\r<br />\r<br />[b]5. Delete simple_stagger.esp in your &#92;Skyrim&#92;Data Folder or uninstall with Modmanager.[/b]\r<br />\r<br />\r<br />[u][size=4]Compability[/size][/u]\r<br />\r<br />This Mod does not change anything in vanilla game, it just adds, therefore there are basicly no Mod-Incompabilities.\r<br />\r<br />But there is a limitation: I use &#34;apply combat hit spell&#34;, a effect, which does not stack, if it is used multiple times on a specific hit.\r<br />\r<br />[u][b]In Vanilla there is no problem,[/b][/u] \r<br />because &#34;apply combat hit spell&#34; is used only 3 times: The Masterperks in one-handed-, two-handed-, and archery-perktree.\r<br />Archery does not conflict because my mod does not affect Bows.\r<br />One-handed & Two-handed will not conflict, because they are only affect backwards-powerattacks, which my mod does not affect.\r<br />\r<br />If you use other mods, which use &#34;apply combat hit spell&#34; on regular attacks, it may will show weird behavior. Test it, and if it is the case, you can savely uninstall my mod midgame. \r<br />\r<br />\r<br />[u][size=4]Other Mods by me[/size][/u]\r<br />[size=4]\r<br />[url=http://www.nexusmods.com/skyrim/mods/73358/?]Tactical Healing\r<br />[/url][url=http://www.nexusmods.com/skyrim/mods/72365/?]Skyrim Gold XP[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/70465/?]Healing over Time[/url][/size]\r<br />[url=http://www.nexusmods.com/skyrim/mods/59447/?][size=4]Simple Stamina Managment[/size]\r<br />[/url][/center]",
+  "categoryId": "77",
+  "version": "1.1",
+  "author": "JoeKa8",
+  "createdUnix": "1445783781",
+  "updatedUnix": "1457692634",
+  "containsAdultContent": false,
+  "uploadedBy": "JoeKa8",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000182342",
+      "name": "Simple Stagger",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Simple Stagger-70862-1-0.rar",
+      "uploadedUnix": "1445783293",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/deae9709de477f16a5e6a2e910ff07efa61025a0a93ce312c1f2dad087db1466/analysis/1445783344/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Simple%20Stagger-70862-1-0.rar?fid=1000182342&ttl=1535859392&ri=8192&rs=8192&setec=9b9290c79a32db18caf508ab053b6e63"
+    },
+    {
+      "fileId": "1000198944",
+      "name": "Simple Stagger 1.1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Simple Stagger 1.1-70862-1-1.rar",
+      "uploadedUnix": "1457692634",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/e7f32fb84e7a556e8a506d30c9d7da26d25043c17f7aa38be28c5301656b5c5a/analysis/1457692684/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Simple%20Stagger%201.1-70862-1-1.rar?fid=1000198944&ttl=1535859392&ri=8192&rs=8192&setec=07b5b284819676b6b994e46d38b68856"
+    }
+  ]
+}

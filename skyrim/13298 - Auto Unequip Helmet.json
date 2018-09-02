@@ -1,0 +1,32 @@
+{
+  "modId": 13298.0,
+  "modName": "Auto Unequip Helmet",
+  "summary": "If you are torn between having armor and perk bonuses versus wearing no helmet then this mod is for you.\r\nThis mod comes with a script that will automatically equip/unequip head item when you draw/sheathe your weapon or spell.",
+  "descriptionHtml": "[center][url=http://SkyrimGEMS.com][img]http://SkyrimGEMS.com/images/gems_logo_600.png[/img][/url]\r\n[size=4][b](Category: 120 - UI - Timesavers)[/b][/size]\r\n\r\n\r\n[youtube]QUZyx8Ewkpw[/youtube][/center]\r\n\r\n\r\n\r\nIf you are torn between having armor and perk bonuses versus wearing no helmet then this mod is for you.\r\nThis mod comes with a script that will automatically equip/unequip head item when you draw/sheathe your weapon or spell.\r\nIt is recommended that you install [url=http://skse.silverlock.org/]SKSE[/url] 1.6.15 or greater to prevent custom enchanted item bug.\r\n\r\nUsage:\r\nMod can be disabled or restarted by using two console commands ([color=Greenyellow]StopQuest AUH[/color]) and ([color=Greenyellow]StartQuest AUH[/color]). You don\\'t need to disable the mod if you want to use head item at all times because script is running in two states and you can easily choose between them.\r\n- Run state: Manually equipping head item while weapon or spell is drawn will put script in run state. This will instruct the script to remember the equipped head item and automatically unequip it next time you sheathe your weapon, equip it back when you draw it again and so on until you initiate the idle state. You can also leave run state by manually unequipping the head item.\r\n- Idle state: Manually equipping head item while weapon is sheathed will put script in idle state allowing you to have the head item equipped at all times, like it would be done without this mod.\r\n\r\nIf this is too confusing and you just want to start using the mod then DRAW YOUR WEAPON, EQUIP THE HELMET, ENJOY!\r\n\r\n\r\nKnown Issues:\r\n- If you equip hooded robes or any armor which is biped to head/hair slot while script is in run state and helmet was auto unequipped, robes might get unequipped next time you draw your weapon or spell when script automatically equips the helmet. This can be fixed by adding script loop checks but it will task the CPU every time you equip something so it is best left as it is now. To deal with the problem simply enter idle state before using hooded robes or equip the robes again after they get unequipped. Note that this will only happen with helmets. Circlets and wooden masks usually stack with hooded robes so nothing wrong will happen in that case.\r\n- If you have more than one of the same helmet in your inventory, when script tries to auto equip the helmet game will choose first item in the stack the same way it happens when you use hotkeys to equip an item, so it is prone to same bugs that affect hotkeying (e.g. having one tempered iron helmet, one custom enchanted iron helmet and one normal iron helmet, game might choose to equip either of the three and not the last one you were using). To deal with the problem you have to remove all other helmets of the same kind from the inventory (excluding enchanted helmets found in the game).\r\n\r\n\r\nCompatibility:\r\n- Mod will work with all helmets, hoods and circlets, even those from other mods.",
+  "categoryId": "39",
+  "version": "1.2",
+  "author": "Alek",
+  "createdUnix": "1332203048",
+  "updatedUnix": "1370682885",
+  "containsAdultContent": false,
+  "uploadedBy": "mitchalek",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000033276",
+      "name": "Auto Unequip Helmet v1_2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Auto Unequip Helmet v1_2-13298-1-2.zip",
+      "uploadedUnix": "1370682885",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/2fc28b7c396b4f80e110b5e78b5e3dcea72ece7f06d5431f0219b755c1b6eb0f/analysis/1407596000/",
+      "changelogHtml": " Removed Dawnguard dependancy, it now uses dynamic DLC detection and adjusts itself accordingly. <br/> \n Fixed custom enchants not being applied (for fix to work you must use SKSE 1.6.15+). <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Auto%20Unequip%20Helmet%20v1_2-13298-1-2.zip?fid=1000033276&ttl=1535775951&ri=8192&rs=8192&setec=f71000f2424570d6f3161e0f7fab8d6f"
+    }
+  ]
+}

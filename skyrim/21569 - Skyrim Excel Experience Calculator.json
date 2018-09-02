@@ -1,0 +1,48 @@
+{
+  "modId": 21569.0,
+  "modName": "Skyrim Excel Experience Calculator",
+  "summary": "An Excel experience calculator for use with Elys&#39; Skyrim Community Uncapper",
+  "descriptionHtml": "Skyrim Excel Exp Calculator\r<br />\r<br />This is a little Excel file I put together to assist me in determining what values I wanted to use with Ely&#39;s Uncapper mod. It allows you to play with the multipliers for skill experience contributed towards player character experience as well as the skill caps themselves.  The resulting math will show you how much experience per skill is contributed to the character experience. The total amount of character experience which can be earned. It will also show you what the cap will be for the character level.  You may also enter the number of perks you want to have available and you&#39;ll be given the per level average.\r<br />\r<br />When you first open the excel file you&#39;ll see two sets of experience data on the left hand side. These go as high as 10000 in skill level (the max available with Ely&#39;s Uncapper mod). You do not need to do anything with these, they are necessary for calculations, tho some people may find them interesting. Just to the right of these data sets are three outlined tables.  This is the important stuff.  I&#39;ve highlighted in blue the fields you can change which will be used as the base for all the calculations. Don&#39;t worry about accidentally changing anything you shouldn&#39;t, I&#39;ve locked all cells but the editable ones highlighted in blue.\r<br />\r<br />There is sample data already entered to give you an idea of how it works.\r<br />\r<br />Hope this is useful to some. \r<br />\r<br />Happy gaming&#33;\r<br />\r<br />UPDATE: \r<br />--- Added &#34;Next Level&#34; columns to the Character Exp table and the Skill to Character Exp table.  The tables were accurate for exp needed for next level, but the way the formulas were set up using the &#34;Current Level&#34; value meant that the calculations were slightly off.  Thanks to xxxZzzZxxx for pointing that out.\r<br />*************************\r<br />If you do not have Microsoft&#39;s Excel program available to you, it may be possible to utilize the Calc utility of the free open source program OpenOffice.\r<br />",
+  "categoryId": "39",
+  "version": "2.0",
+  "author": "IsharaMeradin",
+  "createdUnix": "1343968287",
+  "updatedUnix": "1348375666",
+  "containsAdultContent": false,
+  "uploadedBy": "IsharaMeradin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "78393",
+      "name": "SkyrimExcelExpCalculator",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2764",
+      "fileName": "SkyrimExcelExpCalculator-21569-1-0.7z",
+      "uploadedUnix": "1343968394",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b96de11efac1ff2c84b13b0ba60421583a60ff229a1a574622c46c623b71dacc/analysis/1407065584/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimExcelExpCalculator-21569-1-0.7z?fid=78393&ttl=1535790551&ri=8192&rs=8192&setec=03c1702a986694a289d0d4658a60c8a6"
+    },
+    {
+      "fileId": "90000",
+      "name": "Skyrim Excel Experience Calculator",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2314",
+      "fileName": "Skyrim Excel Experience Calculator-21569-2-0.7z",
+      "uploadedUnix": "1348375666",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/34cc973ff9153e21ae8ec6d9ea6de430c8da844b2ae6f3192ed15628980f6ce2/analysis/1407182709/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Excel%20Experience%20Calculator-21569-2-0.7z?fid=90000&ttl=1535790552&ri=8192&rs=8192&setec=b340317ecead6b9924cb80ff2b238045"
+    }
+  ]
+}

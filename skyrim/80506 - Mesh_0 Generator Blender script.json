@@ -1,0 +1,32 @@
+{
+  "modId": 80506.0,
+  "modName": "Mesh_0 Generator Blender script",
+  "summary": "A Python script for Blender 2.49b, for making the 0-weight mesh for a dress/armor in a fully automatic way. Select: Body_1, Body_0, Dress_1, and obtain Dress_0&#33;",
+  "descriptionHtml": "[size=3]Mesh_0Generator Blender script\r<br /> \r<br />VERSION 1.0 IS BUGGY &#33; DOWNLOAD THE 1.1&#33;&#33;&#33; (sorry)\r<br />\r<br />[b]What is it?[/b]\r<br />A Python script for Blender 2.49b, for making the 0-weight mesh for a dress/armor in a\r<br />fully automatic way. Select: Body_1, Body_0, Dress_1, and obtain Dress_0&#33;\r<br />\r<br />\r<br />[b]Other scripts[/b]\r<br />[b]Mesh X Mirror for Modders[/b] Blender script - http://www.nexusmods.com/skyrim/mods/80503/?\r<br />Given a &#34;half&#34; Dress/Armor mesh it mirrors: verts positions, bone weights, and UV map of the selected faces.\r<br />\r<br />[b]Mesh_0.5 Blender script[/b] - http://www.nexusmods.com/skyrim/mods/79663/?\r<br />Given Mesh_1 and Mesh_0 and a scaling factor (say 0.5) it will return the weighed mesh. Negative scaling gives thinner \r<br />than Mesh_0, larger than 1 gives a mesh larger than Mesh_1\r<br />\r<br />[b]Mesh_1 to Mesh_0 Blender compatibility script[/b] - http://www.nexusmods.com/skyrim/mods/79572/?\r<br />This solvs the mesh incompatibility issue (i.e. congruence in the order the vertices are stored in the file).\r<br />So you can part and join the meshes and fix the order once you have done.\r<br />\r<br />\r<br />[b]How can I use it?[/b]\r<br />It is pretty simple:\r<br />[/size][list=1]\r<br />[*][size=3]in &#34;object mode&#34;, select IN THIS EXACT ORDER: Body_1, Body_0, Dress_1 ([b]FIG. 2[/b]);[/size]\r<br />[*][size=3]than goto the tab: &#34;Object &gt; Scripts &gt; Mesh_0 Generator&#34; and click it;[/size]\r<br />[*][size=3]in the popup box you can specify if consider only selected verts in Body_1 and/or in Dress_1; [/size]\r<br />[*][size=3](v1.2) moreover you can ask to adjust the objects order (&#34;Object selection&#34;) and change the exponent of the inverse distance weighting algorithm;[/size]\r<br />[*][size=3]once done, push OK;[/size]\r<br />[*][size=3]if &#34;Object selection&#34; was pushed a menu appears allowing to select Mesh_1 among the list of the names of the 3 selected objects and the same for Mesh_0 (see below);[/size]\r<br />[*][size=3]it takes some time to do the work and:[/size]\r<br />[*][size=3]DONE[/size]\r<br />[size=3]\r<br />[/size][/list][size=3][b] [/b][b]NOTES:[/b] \r<br />- In some complex meshes some areas could result distorted. You have to check carefully Mesh_0 and adjust manually the \r<br />  distortions (usually quite small). In this case you can select all the mesh but the sensible area in Dress_1 and check the \r<br />  &#34;consider only selected verts&#34; in the Dialogue Box. \r<br />- Body_1 and Body_0 must be free from incompatibility issue (see other scripts below).\r<br />- If you have Dress_0 and need Dress_1 than select in order: Body_0, Body_1, Dress_0 ==&gt; Dress_1\r<br />- If you have a body and a modified body (compatible meshes) you can anyway use the script for adapting the dress/armor.\r<br />               \r<br />[b]Known Issues[/b]\r<br />If the Blender file is too crowdy some bug inside Blender could bring the script to erroneous results by exchanging the order of the selected objects (usually Dress_0 becomes larger than Dress_1) . \r<br />Version 1.2 of the scripts has a button &#34;Object selection&#34; for checking whose objects are mesh_1 and mesh_0 that solves this problem. If you have problems please PM me.\r<br />\r<br />[b]How does it work?[/b]\r<br />Each vert of Body_1 goes to the corresponding one in Body_0, thus, a 3D shift vector\r<br />brings from one to the other. The same kind of vector must bring from Dress_1 to Dress_0. \r<br />How to compute a suitable movement vector for a vert in Dress_1: \r<br />an &#34;inverse distance (4th power) weighing mean&#34; of the movement vectors of the Body.\r<br />DONE. Surprisingly simple&#33;  :D\r<br /> \r<br />[b]How to install the script[/b]\r<br />Download the file,unzip, and drop it in the folder: \r<br />&#34;C:&#92;Program Files (x86)&#92;Blender Foundation&#92;Blender&#92;.blender&#92;scripts&#34;, \r<br />or wherever you have the Blender script folder. \r<br />Then run Blender and it will recognize the script automatically.\r<br /> \r<br />[b]Documentation and software[/b]\r<br />Introduction to Python (http://learnpythonthehardway.org/book/ex24.html)\r<br />Python 2.7 functions (https://docs.python.org/2/library/functions.html)\r<br />Blender functions for Python scripting (https://www.blender.org/api/249PythonDoc)\r<br />Notepad++ (https://notepad-plus-plus.org/)\r<br />Blender 2.49b\r<br />Python 2.7\r<br /> \r<br />[b]Bugs and requests[/b]\r<br />Please, if you have suggestions / bugs or requests concerning my scripts PM me (button\r<br />just below the figures).\r<br /> \r<br />[b]Permission[/b]\r<br />Please, do not upload this script on other sites without permission (other Nexus sites are\r<br />not &#34;other sites&#34;, but refer to this page).\r<br /> [/size]",
+  "categoryId": "39",
+  "version": "1.2",
+  "author": "Letstryagain",
+  "createdUnix": "1480256920",
+  "updatedUnix": "1482594696",
+  "containsAdultContent": false,
+  "uploadedBy": "Letstryagain",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000231827",
+      "name": "object_Mesh_0 Generator v1.2.zip",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "object_Mesh_0 Generator v1.2.zip-80506-1-2.zip",
+      "uploadedUnix": "1482594696",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/78c5bb86142b224d5874f0b8ac8ea150acc0cdee79cda8679ac3ea02248e811a/analysis/1482594722/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/object_Mesh_0%20Generator%20v1.2.zip-80506-1-2.zip?fid=1000231827&ttl=1535869126&ri=8192&rs=8192&setec=eb40d6460a49970653e8fb84b7a846e5"
+    }
+  ]
+}

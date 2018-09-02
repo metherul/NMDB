@@ -1,0 +1,48 @@
+{
+  "modId": 48695.0,
+  "modName": "Quality Labels for Potions",
+  "summary": "You just created a potion. Is it Refined, Superior, Legendary... Or Petty?\r<br />Now you know.",
+  "descriptionHtml": "[img]http://static1.nexusmods.com/15/images/110/972816-1386798099.png[/img][img]http://static1.nexusmods.com/15/images/110/972816-1386797512.jpg[/img]\r<br />[size=5]\r<br />Also available on\r<br />[url=http://steamcommunity.com/sharedfiles/filedetails/?id=203048697][img]https://myidevice.fr/wp-content/uploads/2012/01/steamMC.png[/img][/url]\r<br />\r<br />This simple mod adds what I call Quality Labels to the user&#39;s created potions. Now, when crafting a custom potion, a label will be added, just like weapons and armors. \r<br />\r<br />Additionnally, if a potion is especially bad, the label will be [i]Petty[/i], like Soulgems.\r<br />It&#39;s especially handy if you use SkyUI, as you can use its filter to choose exactly which potion and which quality you wish to use.\r<br />\r<br />How does it work? \r<br />Each time you create a potion, the mod will calculate its Potion Level according to this formula: Potion Level = (Magnitude-5)+ (Duration/2), rounded DOWN. Formula may change later according to feedback.\r<br />\r<br />For example, if my Potion of Awesomeness has a magnitude of 20 and a duration of 4:\r<br />Potion Level = (20-5)+2 = 17.\r<br />\r<br />Labels are defined as following:\r<br />[list]\r<br />[*] Petty: &lt; 24\r<br />[*] Refined: 24 to 35\r<br />[*] Superior: 35 to 50\r<br />[*] Exquisite: 50 to 75\r<br />[*] Perfect: 75 to 110\r<br />[*] Epic: 110 to 150\r<br />[*] Legendary: 150 and above\r<br />[/list]\r<br />My Potion of Awesomeness will be renamed as such: Potion of Awesomeness (Petty)\r<br />\r<br />This mod requires [url=http://skse.silverlock.org/]Skyrim Script Extender[/url] for some reasons:\r<br />[list]\r<br />[*] It won&#39;t be able to calculate the Potion Level without SKSE installed.\r<br />[*] With SKSE installed, the tags will be automatically translated to your language. It means that this mod can be used with any language.[/list]\r<br />\r<br />Notes:\r<br />\r<br />Does not modify vanilla forms. Was cleaned with TES5Edit.\r<br />As I said, the formula may change later.\r<br />This mod will use the exact same tags as armor and weapons. If one of your mods change them, it will use them too. For example if you use [url=http://www.nexusmods.com/skyrim/mods/48645/?]Numerical Smithing Upgrades[/url], tags will be +1, +2, etc.\r<br />Here&#39;s a video. Everyone likes videos.\r<br />[youtube]s7JOpsMT4h0[/youtube]\r<br />[/size]\r<br />",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Sagittarius22",
+  "createdUnix": "1386800783",
+  "updatedUnix": "1401887388",
+  "containsAdultContent": false,
+  "uploadedBy": "sagittarius22",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000086359",
+      "name": "Quality Labels for Potions",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Quality Labels for Potions-48695-1-0.7z",
+      "uploadedUnix": "1386797347",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ef65b2166ad7ec9e7209f2140077a0855653a031b5d26dffbeb6aa663b80bee3/analysis/1407831430/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Quality%20Labels%20for%20Potions-48695-1-0.7z?fid=1000086359&ttl=1535829024&ri=8192&rs=8192&setec=f47531f221d414c96ab74e68807bcc7f"
+    },
+    {
+      "fileId": "1000111768",
+      "name": "Source files",
+      "version": "source",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Source files-48695-source.rar",
+      "uploadedUnix": "1401887388",
+      "modVersion": "source",
+      "virusScanUrl": "https://www.virustotal.com/file/5dbaed4f1a6b24851794e4433359ee33d1df020b1f5a08c27700e1169a5e4027/analysis/1408111969/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Source%20files-48695-source.rar?fid=1000111768&ttl=1535829025&ri=8192&rs=8192&setec=d7040911b82e838394757fc47d4f3c16"
+    }
+  ]
+}

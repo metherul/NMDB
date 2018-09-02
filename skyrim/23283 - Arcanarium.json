@@ -1,0 +1,48 @@
+{
+  "modId": 23283.0,
+  "modName": "Arcanarium",
+  "summary": "An arcane sanctuary existing in an alternate magical plane of existence that you can teleport to and from at will.  Includes a forge for upgrading daedric artifacts.",
+  "descriptionHtml": "Back and kinda lost interest in making this bigger.  Staying as-is unless the mood strikes me to work on it further.\r\n\r\nRequires Dawnguard\r\n\r\nInstall:  \r\n-Download manually, extract .7z, drop in skyrim folder\r\n-Or NMM\r\n\r\nThis mod adds an arcane sanctuary in another plane of existence for you to use as a base of operations, accessible from anywhere in the world.\r\n\r\nHow to Access:  A pair of spell tomes found on the enchanting table in the Archmage\\'s Quarters.  One spell will mark your current location AND teleport you to the Arcanarium.  The other spell returns you to your mark.\r\n    Or open console:\r\n            help teleport\r\n            player.addspell (ID for Teleport to Arcanarium)\r\n            player.addspell (ID for Teleport to Mundus)\r\n\r\nFeatures:\r\n    -A chest for storing loot so you can stock up and sell when you want to, not when you have to\r\n    -All crafting stations and storage (no cooking though)\r\n    -A bed\r\n    -General item storage\r\n    -A special forge that can be used to upgrade daedric artifacts to be the same as or slightly better than player crafted daedric armor/dragon weapons.\r\n              \r\nNotes: \r\n    -Slightly increased weight on anything that had base stats improved.\r\n    -Improved enchantments and better charge usage (all improved artifacts have 5000 max charge {grand soul is 3000} and uses 30-60 charge per hit)\r\n    -The improved Mehrunes Razor has increased chance to kill\r\n    -Ebony Blade must be fully upgraded before you can improve it\r\n    -All improved artifacts are temperable with full bonuses (didn\\'t touch base artifacts)\r\n\r\nUpgrade Requirements:\r\n     -Perks: Daedric and Dragon smithing, Arcane Blacksmith, Enchanter 5 and Extra Effect (altering a Daedric artifact is no mean feat)\r\n     -Resources:  base artifact, 1 dragon bone, 1 ebony ingot, 2 filled black soul gems, 1 daedra heart\r\n     -Temper: 1 dragon bone, 1 ebony ingot, 1 daedra heart\r\n\r\nFuture plans:\r\n     -(done 1.1) Upgraded version of Ebony Blade(screw the book that says it\\'s impossible)\r\n     -(done 1.1)Daedric staff upgrades\r\n     -(done, adding later) One spell to go to and leave (Thanks for idea Ratara)\r\n     -Upgrades for leveled items and other artifacts\r\n     -Garden\r\n     -Trophy Room\r\n",
+  "categoryId": "67",
+  "version": "1.1",
+  "author": "Raelimar",
+  "createdUnix": "1346212050",
+  "updatedUnix": "1346382447",
+  "containsAdultContent": false,
+  "uploadedBy": "Raelimar",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "84997",
+      "name": "Arcanarium v1dot0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "12",
+      "fileName": "Arcanarium-23283-1-0.7z",
+      "uploadedUnix": "1346212351",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/23e12c1960543c7fa713050c0d3984f235a6ff8d3077ad0fed43e18aa0d2bd46/analysis/1407129843/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Arcanarium-23283-1-0.7z?fid=84997&ttl=1535793390&ri=8192&rs=8192&setec=e15d36726f0877811292534aca447b64"
+    },
+    {
+      "fileId": "85457",
+      "name": "Arcanarium v1dot1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "Arcanarium v1dot1-23283-1-1.7z",
+      "uploadedUnix": "1346382447",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/39525f802f3a6d146a8291b88bf52a8e10e5ea58e81bba53b9654dfd8483d172/analysis/1407134344/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Arcanarium%20v1dot1-23283-1-1.7z?fid=85457&ttl=1535793391&ri=8192&rs=8192&setec=21f6f957cb355757dbfdd58fc6f1aaf4"
+    }
+  ]
+}

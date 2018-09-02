@@ -1,0 +1,32 @@
+{
+  "modId": 8179.0,
+  "modName": "PermanentHuntingBowFix",
+  "summary": "Should permanently remove hunting bows from follower\\'s inventory",
+  "descriptionHtml": "This makes hunting bows both playable and removes the script to automatically generate them. This workaround enables users to remove a follower\\'s given hunting bow, add an upgraded bow, and the follower will use the upgraded bow, without ever making/using a hunting bow again.\r\nNOTE: I suspect this will probably ensure that followers do not start with a hunting bow either, this one has to give any followers a bow to use it.\r\n\r\n1. Load plugin.\r\n2. Remove hunting bow from follower inventory\r\n3. Add desired bow to follower inventory\r\n\r\nUpdate: I changed the version to 1.0. I havent updated the code at all, but it seems to work as intended so it feels like it isnt in its beta testing stage anymore. If bugs do come up, please comment here and I\\'ll see if I can fix it.\r\n\r\nPlease endorse if it works\r\n\r\n-Created by Zayhne\r\nInspired by Lozzipop, who\\'s fix I tried to use and found to not work. (Ver 0.5)",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Zayhne",
+  "createdUnix": "1328684077",
+  "updatedUnix": "1328684468",
+  "containsAdultContent": false,
+  "uploadedBy": "Deckuras23",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "26959",
+      "name": "HuntingBowFix",
+      "version": ".1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "HuntingBowFix-8179--1.rar",
+      "uploadedUnix": "1328684468",
+      "modVersion": ".1",
+      "virusScanUrl": "https://www.virustotal.com/file/054439d1c51afd3bc461306564e41fda5a729c9323527cc595732d0ce65bedd5/analysis/1406660164/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HuntingBowFix-8179--1.rar?fid=26959&ttl=1535766670&ri=8192&rs=8192&setec=af4aa3f9a9fa71d0a3b84c72c2bad0d0"
+    }
+  ]
+}

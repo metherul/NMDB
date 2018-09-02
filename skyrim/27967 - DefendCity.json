@@ -1,0 +1,48 @@
+{
+  "modId": 27967.0,
+  "modName": "DefendCity",
+  "summary": "Protects unique citizens during vampire attacks without changing any part of the vanilla game.",
+  "descriptionHtml": "This mod will decrease the chance of unique npcs being killed during Dawnguard\\'s vampire attacks. Unique npcs in the area of attack, including those tucked in their beds, will take on protected status. If they happen to die, it should be the player who kills them with a misplaced blow or spell the same way the vanilla followers can die.\r\n\r\nI\\'ve been using this as part of a larger mod I\\'ve been working on for several months and just reproduced this part as a standalone. I\\'ve tested the standalone with a save which always has an attack coming by casting \\'COC\\' to inns in the major cities and Riverwood. I hit each location at least twice so I think it works.\r\n\r\nJust install it normally. The mod contains two quests, and four tiny scripts. One quest watches for a short time whenever there is a change location event, and starts the other if it sees the vampires coming and then stops. The second quest shuts itself down when it sees that the eclipse quest has shutdown.\r\n\r\nThe only difference is that 1.1 will have to check for an attack less often thanks to an idea which popped up in a discussion with Arthmoor.",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "Pihwht",
+  "createdUnix": "1354942796",
+  "updatedUnix": "1355248773",
+  "containsAdultContent": false,
+  "uploadedBy": "pihwht",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "103774",
+      "name": "DefendCity",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "DefendCity-27967-1.zip",
+      "uploadedUnix": "1354942956",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/66e51b2f5a28c51f26c81fa363306429fc05793b5d858a82c116885bd980d4ed/analysis/1407294683/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DefendCity-27967-1.zip?fid=103774&ttl=1535801022&ri=8192&rs=8192&setec=2f369e275e57276d88ff4ce9530be8f8"
+    },
+    {
+      "fileId": "104636",
+      "name": "No Armor Speed Penalty",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "DefendCity1_1-27967-.zip",
+      "uploadedUnix": "1355248773",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7289698912da1333562e636ed7b21124c314054cf4f61d648e945387eff85ce6/analysis/1407300246/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DefendCity1_1-27967-.zip?fid=104636&ttl=1535801023&ri=8192&rs=8192&setec=962d8fc4b93cbeebece2f9a2772219d8"
+    }
+  ]
+}

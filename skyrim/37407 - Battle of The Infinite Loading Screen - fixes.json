@@ -1,0 +1,32 @@
+{
+  "modId": 37407.0,
+  "modName": "Battle of The Infinite Loading Screen - fixes",
+  "summary": "Skyrim.ini and SkyrimPrefs.ini files with notes on the dreaded infinite loading screens ",
+  "descriptionHtml": "If you are experiencing infinite loading screens, the cause is likely cumulative tweaks/mods/scripts that together exceed the memory limits of dx9 and Skyrim. Some common causes include z-fighting .ini tweaks, fps limiters (enb has the option to ignore loading screens), and high-res textures mods. One quick thing to try, is to move your skyrim and skyrimpref .ini files to a safe location and then run the Skyrimlauncher to re-create default settings and try again. You may need to temporarily lower your resolution and disable high-res textures. Due to the number of variables in any given saved game, there could a number of things that cause this issue. \r\n\r\nRename your data\\\\textures folder. If this gets you through, save your game and rename your folder back to data\\\\textures.\r\nSome people have reported World Map mods to cause infinite loading screens. \r\nDisabling auto-saves is also recommended by some people to avoid corruption while a script is running. \r\n--------------\r\n\r\nPaying attention to the veterans on various forums, they seem to argue against tweaking the ini files and show that even the most capable rigs have trouble with hefty texture packs due to the game engine and dx9. Without typing a novel of theories, there are a lot of things that can push it over the edge when modding. Scripts, sounds, textures, npc ai\\'s, and questionable / sometimes unnecessary tweaking. I have 2GB of VRAM and so use the lite versions of any texture I install. The VRAM is needed for higher resolutions utilizing SSAO. \r\n\r\nI\\'ve read several posts that describe several fixes which I\\'ll post here. One common theme were debates about .ini tweaks. The tweaks are valuable no doubt, but it seems that some of them can cause subtle problems. These files are basic Ultra settings with some shadow tweaks. I\\'m not sure if anyone would find them useful or needed, but I do like the idea of notating what these settings (might) do and included them as a reference.\r\n\r\nIf you search infinite loading screen at whiterun, there are a lot of posts attributing z-fighting tweaks. I tested this by coc\\'ing to a place I was getting infinite loading screens. Tested it about 30 times with consistent results. The Skyrim test character (coc\\'ing before loading a game) never caused the issue. On a fresh character with about 1 hour of playtime, the terrain z-fighting tweaks always caused the crash. The z-fighting  fneardistance set to 25 and the terrain settings back to vanilla would let me coc but would crash as soon as I opened any menus. Without the z-fighting settings coc worked everytime. Overall, the tweak is fine. But might also be pushing the game\\'s limits to the edge in some cases.\r\n\r\niLargeIntRefCount= testing is inconclusive, but seems to make a difference.\r\n\r\nHopefully, this info is relevant or useful in some way.\r\n\r\n\r\n",
+  "categoryId": "95",
+  "version": "0.23",
+  "author": "yi3o8",
+  "createdUnix": "1371710088",
+  "updatedUnix": "1371709979",
+  "containsAdultContent": false,
+  "uploadedBy": "yi3o8",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000034996",
+      "name": "Skyrim and SkyrimPrefs ini files",
+      "version": ".23",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Skyrim and SkyrimPrefs ini files-37407--23.rar",
+      "uploadedUnix": "1371709979",
+      "modVersion": ".23",
+      "virusScanUrl": "https://www.virustotal.com/file/781c275fa272fcac88a2192810034919fb8e0d0a0cccb0384050ac1e546bcfeb/analysis/1407610091/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20and%20SkyrimPrefs%20ini%20files-37407--23.rar?fid=1000034996&ttl=1535817068&ri=8192&rs=8192&setec=1d4a63ca8effe2e9fb4fdcd49999614a"
+    }
+  ]
+}

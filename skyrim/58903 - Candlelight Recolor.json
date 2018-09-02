@@ -1,0 +1,48 @@
+{
+  "modId": 58903.0,
+  "modName": "Candlelight Recolor",
+  "summary": "Changes the color of the Candlelight and Magelight spells.",
+  "descriptionHtml": "[center][font=Comic Sans MS][color=#ff7700][size=6]Candlelight Recolor[/size][/color][/font][/center]\r<br />[center][size=4]by IsharaMeradin[/size][/center]\r<br />[size=3][color=#ff7700]About[/color]\r<br />Changes the color of the Candlelight spell from a bright white with bluish tint to a orangish-red. The light illuminating the area is changed along with the floating ball of light and the equipped pre-cast light. Due to use of the same assets Magelight is also modified. Additional changes for Magelight include the projectile light and the impact light. The impact light of Magelight has a larger whiter nucleus due to it being a more powerful spell.\r<br />\r<br />[color=#ff7700]Installation[/color]\r<br />Use NMM or manual\r<br />\r<br />[color=#ff7700]Uninstallation[/color]\r<br />Use NMM or delete the files\r<br />\r<br />[color=#ff7700]Files and Folders[/color]\r<br />Data &gt; CandleLightRecolor.esp\r<br />Data &gt; meshes &gt; magic &gt; fxlightspellhandeffects.nif\r<br />Data &gt; meshes &gt; magic &gt; impactlightspell.nif\r<br />Data &gt; meshes &gt; magic &gt; lightspellactorfx.nif\r<br />Data &gt; meshes &gt; magic &gt; lightspellhazard.nif\r<br />Data &gt; meshes &gt; magic &gt; lightspellprojectile.nif\r<br />Data &gt; meshes &gt; magic &gt; maginvlightspellart.nif\r<br />Data &gt; docs &gt; CandleLightRecolor_Info.txt\r<br />\r<br />[color=#ff7700]Conflicts[/color]\r<br />Will conflict with any mod that modifies the nif files listed above as well as the following two records:\r<br />ID# 0003FA58   MagicLightLightSpell01\r<br />ID# 00041F09   MagicLightLightSpellHand01\r<br />\r<br />[color=#ff7700]Notice[/color]\r<br />This mod is provided as-is. I have no plans or desire to create other colors. Do not ask. This was designed to replace the candlelight spell as I felt the original light was too harsh on my eyes when used in conjunction with [url=http://www.nexusmods.com/skyrim/mods/52423/?]Pure Weather[/url].\r<br />\r<br />[color=#ff7700]Permissions[/color]\r<br />Nothing new here only modification of stock assets. You may use and modify as you wish.\r<br />[/size]",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "IsharaM",
+  "createdUnix": "1412948089",
+  "updatedUnix": "1412971223",
+  "containsAdultContent": false,
+  "uploadedBy": "IsharaMeradin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000130308",
+      "name": "Candlelight Recolor",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "24",
+      "fileName": "Candlelight Recolor-58903-1-0.7z",
+      "uploadedUnix": "1412944377",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6022e3ebeee1e6fefd9fcd6ba3fbed5f6a5e547264d49419696594838f71d97f/analysis/1412944442/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Candlelight%20Recolor-58903-1-0.7z?fid=1000130308&ttl=1535845818&ri=8192&rs=8192&setec=885a3c56e935c62313c6e59e4422a619"
+    },
+    {
+      "fileId": "1000130357",
+      "name": "Candlelight Recolor",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "51",
+      "fileName": "Ca-58903-1-1.7z",
+      "uploadedUnix": "1412971223",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/ec8a43dbd3880581fa97064aea43b40729a15c569e16566e29337d0eca87e78e/analysis/1412971321/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ca-58903-1-1.7z?fid=1000130357&ttl=1535845819&ri=8192&rs=8192&setec=4c4f6696ace7d85276a6a14d5404b2ee"
+    }
+  ]
+}

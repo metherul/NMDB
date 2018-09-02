@@ -1,0 +1,48 @@
+{
+  "modId": 56269.0,
+  "modName": "ARC Enb with SweetFX",
+  "summary": "Bring your Skyrim to life with Amazingly Rich Colors.",
+  "descriptionHtml": "[center][img]http://i.imgur.com/OpN0os5.gif[/img]\r<br />\r<br />[img]http://i.imgur.com/OxCyqlL.gif[/img][/center]\r<br />\r<br />This ENB+SweetFX package will make vanilla Skyrim look like a black & white game.  Days are bright, nights are dark, and the colors are very rich.  I was going for realistic with a hint of fantasy.\r<br />\r<br />The settings were adjusted with [url=http://www.nexusmods.com/skyrim/mods/17802/?]Climates of Tamriel[/url] and [url=http://www.nexusmods.com/skyrim/mods/27043/?]Enhanced Lights and FX[/url] installed, so things may look off if you&#39;re not using these mods.\r<br />\r<br />This will require a pretty good PC to run; like most ENBs.  Though, I think the performance is fairly good at the moment, considering how much of a difference it makes.  My gaming rig is about 4 years old and I can still manage 30+ fps in most outdoor situations, and often 60+ fps in small interiors/caves/dungeons.\r<br />\r<br />--------------------------------------------------------------\r<br />\r<br />[color=#FF0000]HOW TO INSTALL:[/color]\r<br />\r<br />For this to work, you must first install ENBSeries v0.254[color=yellow](wrapper version)[/color].  It can be found [url=http://enbdev.com/mod_tesskyrim_v0254.html]here[/url].\r<br />\r<br />Once the ENBSeries files have been properly placed into your Skyrim directory, extract the main files from the ARC1.02.zip into your Skyrim directory; overwriting the default ENB files.\r<br />\r<br />You&#39;re almost done.\r<br />\r<br />If you haven&#39;t done so already, make the following adjustments to your SkyrimPrefs.ini file:\r<br />\r<br />[Display]\r<br />bFloatPointRenderTarget=1\r<br />bTreesReceiveShadows=1\r<br />bDrawLandShadows=1\r<br />bShadowsOnGrass=1      &lt;-----If this line isn&#39;t there for you, just add it to the &#34;Display&#34; section.\r<br />\r<br />Finally, disable &#34;Anti-Aliasing&#34; and &#34;Anisotropic filtering&#34; in the SkyrimLauncher options or through SkyrimPrefs.ini.\r<br />\r<br />[color=green]Done&#33;[/color]\r<br />From here you can install additional options from the &#34;options&#34; folder.  Not required.\r<br />\r<br />-----------------------------------------------------------\r<br />\r<br />[color=#FF0000]HOW TO UN-INSTALL:[/color]\r<br />\r<br />[b]Convenient method:[/b](preferred)\r<br />\r<br />1. Download this amazing tool. [url=http://www.nexusmods.com/skyrim/mods/7804/?]ENB FXAA SweetFX Manager and Remover[/url]\r<br />\r<br />2. Extract it somewhere, then right-click and run the program as administrator.\r<br />\r<br />3. Point the program to your Skyrim directory, if it&#39;s not already.  It should detect all the ENB/SweetFX files.\r<br />\r<br />4. [b](Optional)[/b]  If you&#39;d like to use this ENB again some time, click in one of the empty Config text boxes, name it &#34;ARC&#34; or something, then click the little save button before moving on to the next step.  Now you can uninstall this ENB, then load it back up at other time if you&#39;d like by simply clicking the load button next to that config.\r<br />\r<br />5.  Click the &#34;Remove&#34; button to completely uninstall.\r<br />\r<br />6. [b](Optional)[/b] Endorse this tool for making your life easier.\r<br />\r<br />[color=green]Done&#33;[/color]\r<br />\r<br />\r<br />[b]Manual Method[/b]\r<br />\r<br />1. Nothing ground-breaking here, just go into your Skyrim directory, delete all the ENB/SweetFX related files/folder and replace anything you may have backed up.  Less convenient than the method above, but it works.\r<br />\r<br />-------------------------------------------------------------\r<br />[color=orange]TWEAKS:[/color]\r<br />\r<br />Adding a letterbox effect for more cinematic feel - Open the SweetFX_Setting.txt file in your skyrim directory, find the line &#34;#define USE_BORDER 0&#34; near the top, change the &#34;0&#34; to a &#34;1&#34;.  Save changes.  This can be done while alt-tabbed, but you&#39;ll likely have to reload the shader when tabbed back in to see the change.  The key to do this is Pause/Break.\r<br />\r<br />Remove Depth of Field:  In the enbseries.ini file, find the line &#34;EnableDepthOfField=true&#34; under the [EFFECT] header. Change to false and save. You can also change this setting in game with the ENB control panel (shift+enter).\r<br />\r<br />Borderless fullscreen On/Off - In the enblocal.ini file, find the line &#34;ForceBorderlessFullscreen=&#34;, change to true or false depending on your preference, then save.\r<br />\r<br />----------------------------------------------------------\r<br />\r<br />This is my first time doing one of these so don&#39;t be too harsh with the criticism lol.  Take care.",
+  "categoryId": "97",
+  "version": "1.02",
+  "author": "Gooch",
+  "createdUnix": "1406131803",
+  "updatedUnix": "1406590745",
+  "containsAdultContent": false,
+  "uploadedBy": "goochball",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000119628",
+      "name": "ARC Enb with SweetFX - Main",
+      "version": "1.02",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2378",
+      "fileName": "ARC Enb with SweetFX - Main-56269-1-02.zip",
+      "uploadedUnix": "1406521776",
+      "modVersion": "1.02",
+      "virusScanUrl": "https://www.virustotal.com/file/3f2812b7f5e63035211004f0cc5ce229f004418c8786a350596c732dfa487595/analysis/1406521809/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ARC%20Enb%20with%20SweetFX%20-%20Main-56269-1-02.zip?fid=1000119628&ttl=1535841521&ri=8192&rs=8192&setec=876845294126644d7b3399ae310e967d"
+    },
+    {
+      "fileId": "1000119748",
+      "name": "Depth of Field Update",
+      "version": "1.02",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Depth of Field Update-56269-1-02.zip",
+      "uploadedUnix": "1406590745",
+      "modVersion": "1.02",
+      "virusScanUrl": "https://www.virustotal.com/file/647ebbcf1c76257ce29d6f10828b5ae3c24e258caa6dc0d52dcfb523f916fabd/analysis/1406590813/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Depth%20of%20Field%20Update-56269-1-02.zip?fid=1000119748&ttl=1535841522&ri=8192&rs=8192&setec=1fd5e2c18722a1de3a85760fdfaa76a5"
+    }
+  ]
+}

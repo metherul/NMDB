@@ -1,0 +1,48 @@
+{
+  "modId": 38410.0,
+  "modName": "T ENB",
+  "summary": "This ENB is designed to use with COT 3.1 and Realistic Lighting Overhaul 4.07c. \r\n\r\nPlease, check requirements and load order...\r\n\r\n\r\n",
+  "descriptionHtml": "[size=6][font=Impact]-- T ENB --[/size][/font]\r\n\r\n\r\n[img]http://static.skyrim.nexusmods.com/mods/images/38410-1-1374008686.png[/img]\r\n\r\n\r\n[font=Impact][size=5][u]Requirements:[/u][/size][/font]\r\n\r\n1. First download the ENB binary (0.200/0.201, wrapper version) from enbdev.com and install into your Skyrim directory.\r\n[url=http://enbdev.com/download_mod_tesskyrim.htm]Click here!\r\n[/url]\r\n2. Extract T ENB into your skyrim Directory > overwrite \r\n\r\n3. (SKIP THIS IF YOU WANT USE MY INI-SETTINGS)\r\n   Set in SkyrimPrefs.ini (in Documents\\\\My Games\\\\Skyrim)\r\n   bFloatPointRenderTarget=1 \r\n   bTreesReceiveShadows=1\r\n   bDrawLandShadows=1\r\n   bShadowsOnGrass=1 \r\n\r\nBetter DOF:\r\n   bDoDepthOfField=1\r\n   iRadialBlurLevel=2\r\n\r\n4. Then download and install Project Reality - Climates Of Tamriel - Weather - Lighting 3.1\r\n[url=http://skyrim.nexusmods.com/mods/17802]Click here![/url]\r\n\r\n5. After that download and install Realistic lighting overhaul 4.07c\r\n[url=http://skyrim.nexusmods.com/mods/30450//?]Click here![/url]\r\n\r\n6. Finally install these mods (to balance lighting) real rain COT, Real Effect Candle (softer version), Less Intrusive Candle Light Spell (textures only), fixed eye adaption, Climates Of Tamriel - Weather Patch - Fog Rain Overcast,[url=http://skyrim.nexusmods.com/mods/16541//?]Click here![/url] , [url=http://skyrim.nexusmods.com/mods/7643] Link![/url] , [url=http://skyrim.nexusmods.com/mods/5297]Link![/url], [url=http://skyrim.nexusmods.com/mods/8149]Link![/url], [url=http://skyrim.nexusmods.com/mods/39799//?]Link![/url]\r\n\r\nNVIDIA users: 320.49 drivers or newer highly recommended.\r\n\r\n7. (OPTIONAL) \r\nBack up your skyrim.ini and SkyrimPrefs.ini first then use mine.\r\nSet in SkyrimPrefs.ini (in Documents\\\\My Games\\\\Skyrim)\r\nsD3DDevice=\\\"Copy this line from your old SkyrimPrefs.ini  \\\"\r\niSize W=Copy this line from your old SkyrimPrefs.ini\r\niSize H=Copy this line  from your old SkyrimPrefs.ini\r\n\r\nSet in Skyrim.ini (in Documents\\\\My Games\\\\Skyrim)\r\nuGridsToLoad=\r\n\r\nCopy this line from your old skyrim.ini\r\n\r\n[font=Impact][size=5][u]Highly recommended mods:[/u][/size][/font]\r\n\r\nSkyrim HD textures DLC\r\n\r\nFurther Dark Dungeons for ENB (check load order)\r\n[url=http://skyrim.nexusmods.com/mods/12454]Link![/url]\r\n\r\nStatic Mesh Improvement Mod - SMIM\r\n[url=http://skyrim.nexusmods.com/mods/8655/?]Link![/url]\r\n\r\nReal Effect Candle (softer version)\r\n[url=http://skyrim.nexusmods.com/mods/7643]Link![/url]\r\n\r\nLess Intrusive Candle Light Spell (textures only)\r\n[url=http://skyrim.nexusmods.com/mods/5297]Link![/url]\r\n\r\nPure Waters\r\n[url=http://skyrim.nexusmods.com/mods/1111//?]Link![/url] \r\n\r\nEnhanced Night Skyrim (blue galaxy)\r\n[url=http://skyrim.nexusmods.com/mods/85]Link![/url]\r\n\r\nSkyrim Flora Overhaul\r\n[url=http://skyrim.nexusmods.com/mods/141]Link![/url]\r\n\r\nLush Grass\r\n[url=http://skyrim.nexusmods.com/mods/32246//?]Link![/url]\r\n\r\nBook of silence\r\n[url=http://skyrim.nexusmods.com/mods/24909//?]Link![/url]\r\n\r\nMoss rocks\r\n[url=http://skyrim.nexusmods.com/mods/31856//?]Link![/url]\r\n\r\n[size=4][b][u]Load order:[/u][/b][/size]\r\n\r\nClimatesOfTamriel.esm\r\nFixed EyeAdaption.esp\r\nRealRainCot.esp\r\nRealistic Lighting Overhaul - Dungeons.esp\r\nFurther Dark Dungeons for ENB.esp\r\nRealistic Lighting Overhaul - Dawnguard Interiors.esp\r\nRealistic Lighting Overhaul - Major City Interiors.esp\r\nRealistic Lighting Overhaul - Minor Cities and Town Interiors.esp\r\nRLO - Adaptive Interiors Vanilla Weathers Patch.esp\r\nClimatesOfTamriel-Dawnguard-Patch.esp\r\nClimatesOfTamriel-Dragonborn-Patch.esp\r\nClimatesOfTamriel-Nights-Level-6.esp\r\nprod80_CoT_patch.esp\r\n\r\nCredits:\r\n\r\nBoris Vorontsov (ENB Series)\r\nHeliosDoubleSix,  (Custom ENB Shaders)\r\nmindflux + polo (particle patch)\r\nMatso (Custom Depth of Field, Bloom shader)\r\nTapioks (Custom Depth of Field)\r\nKyokushinoyama (sun sprite)\r\nLucidAPs\r\n",
+  "categoryId": "62",
+  "version": "1.85",
+  "author": "Obliver",
+  "createdUnix": "1374011386",
+  "updatedUnix": "1376117662",
+  "containsAdultContent": false,
+  "uploadedBy": "obliver",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000042062",
+      "name": "T ENB",
+      "version": "1.7",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "9061",
+      "fileName": "T ENB-38410-1-7.rar",
+      "uploadedUnix": "1375118082",
+      "modVersion": "1.7",
+      "virusScanUrl": "https://www.virustotal.com/file/40c7a37f4c4e458f3a747d0e328c56ccfe67017e221b58f2df4aad6980f0938f/analysis/1407659706/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/T%20ENB-38410-1-7.rar?fid=1000042062&ttl=1535818741&ri=8192&rs=8192&setec=23baf3a67a866d8350fa15c117e6c453"
+    },
+    {
+      "fileId": "1000045796",
+      "name": "T ENB",
+      "version": "1.85",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9091",
+      "fileName": "T ENB-38410-1-85.rar",
+      "uploadedUnix": "1376117662",
+      "modVersion": "1.85",
+      "virusScanUrl": "https://www.virustotal.com/file/d73bd86e1fb51f96e5b205e6cb70ea3e3d80c0228c302574e50be15ed686e4bd/analysis/1407676705/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/T%20ENB-38410-1-85.rar?fid=1000045796&ttl=1535818741&ri=8192&rs=8192&setec=2036cadb994ddcd4f39052f8749a7a77"
+    }
+  ]
+}

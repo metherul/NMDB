@@ -1,0 +1,32 @@
+{
+  "modId": 48751.0,
+  "modName": "ENB to RCRN Aniversary Edition",
+  "summary": "Just a small improvement to RCRN, based on my personal taste, using ENB files.",
+  "descriptionHtml": "To me Realistic Colors and Real Nights is the best, most beautifull and complete light/weather overhaul to Skyrim.\r<br />\r<br />As it developers say: RCRN was made ​​to work alone. But you can make it work with a enb preset.  I miss some features that ENB provides as sunrays , detailed shadows , great ambient occlusion , Anti -Aliasing and Anisotropic filter .\r<br />\r<br />The files that I&#39;m posting here represent just a small improvement based on my personal taste. They change a litlle the way that RCRN manage light, colors , etc. . and add those options that I´ve described above.\r<br />\r<br />I&#39;m using the d3d9.dll file v13.7.13 version because it did not present a bug that causes the sunrays pass through solid objects ( houses, mountains , etc ... ) .It´s a conflict with some NVidia drivers . But feel comfortable to test other versions .\r<br />\r<br />Installation :\r<br />\r<br />If you have already installed RCRN, I recommend to uninstall first. There is a uninstall app inside Skyrim/RCRN\r<br />If not updated , download the RCRN Aniversary Edition from:\r<br />http://www.themaskedgamer.com/rcrnversions/RCRN_AE_214.rar\r<br />It´s the final version (not beta)\r<br />Do not install yet&#33;\r<br />\r<br />\r<br />Put the downloaded files from here, after unpacking, into the root folder of the game ( where TESV.exe is)\r<br />Get only the d3d9.dll file from the &#34; WrapperVersion &#34; folder , from http://enbdev.com/mod_tesskyrim_v13713.htm . Put it in the same folder ( skyrim root )\r<br />\r<br />After that, you can start RCRN instalation. First, type the Skyrim folder path and wait the conflict check. If everything is ok, the installer will continue and detect the enb presence.\r<br />It will ask how you want to configure. Just choose the option to auto config (something like &#34;do your magic&#34;). RCR will automatically do the exact configuration to load ENB as well, through renaming and proxy settings.\r<br />\r<br />These are important settings in enbseries.ini that I´m using:\r<br />\r<br />[EFFECT]\r<br />UseOriginalPostProcessing=false\r<br />EnableAdaptation=false\r<br />EnableBloom=false\r<br />EnableAmbientOcclusion=true\r<br />EnableDepthOfField=false --------------in this case, I preffer the effect from Dynavision mod, by Gopher\r<br />UseOriginalObjectsProcessing=false\r<br />EnableDetailedShadow=true\r<br />EnableSunRays=true\r<br />EnableSkyLighting=false\r<br />EnableImageBasedLighting=false\r<br />EnableReflection=true\r<br />EnableSoftParticles=true\r<br />EnableParticleLights=true\r<br />\r<br />If using these both below as true, like me, turn off then in Skyrim options and you don´t need to check FXAA in RCRN AE Customizer tool:\r<br />\r<br />[ENGINE]\r<br />ForceAnisotropicFiltering=true\r<br />MaxAnisotropy=16\r<br />\r<br />[ANTIALIASING]\r<br />EnableEdgeAA=true\r<br />\r<br />You can always press shift + Enter to open the enb windows, in game, to do what you want.\r<br />\r<br />Important :\r<br />As always , to enb instalation :\r<br />\r<br />bFloatPointRenderTarget = 1 must be set in SkyrimPrefs.ini file to make this mod work . Start SkyrimLauncher.exe to configure your video options again .\r<br />Sky lighting to Work Correctly require rendering objects to shadow , so manually edit SkyrimPrefs.ini Following lines in file :\r<br />bTreesReceiveShadows = 1\r<br />bDrawLandShadows = 1\r<br />bShadowsOnGrass = 1\r<br />\r<br />Do not use FRAPS. It turn off RCRN effects\r<br />Do not use Rivatuner override - it causes CTD in main menu. ",
+  "categoryId": "62",
+  "version": "Final",
+  "author": "Boris Vorontsov and enbseriesini edited by rodvaliati",
+  "createdUnix": "1386868090",
+  "updatedUnix": "1386868058",
+  "containsAdultContent": false,
+  "uploadedBy": "rodvaliati",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000086464",
+      "name": "ENB to RCRN Aniversary Edition",
+      "version": "final",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "22",
+      "fileName": "ENB to RCRN Aniversary Edition-48751-final.rar",
+      "uploadedUnix": "1386868058",
+      "modVersion": "final",
+      "virusScanUrl": "https://www.virustotal.com/file/d976fd2a5bee98c39a16fa0b65c6d79c1868a596c2fb72d6040c8e8754250b02/analysis/1407833011/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENB%20to%20RCRN%20Aniversary%20Edition-48751-final.rar?fid=1000086464&ttl=1535829117&ri=8192&rs=8192&setec=50815dd3e13470d512751806726b1771"
+    }
+  ]
+}

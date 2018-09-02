@@ -1,0 +1,48 @@
+{
+  "modId": 22339.0,
+  "modName": "Thanes Reward HD",
+  "summary": "Thanes reward HD is a mod that adds more stuff to rewards given when becoming thane of any hold such as the shield of a hold and outfits with accessories not just a weapon. MANY clothes have been revised with HD 2K textures, normal maps and some additional items added to the game. Also fixed riften thane reward weapon name bug.",
+  "descriptionHtml": "Updated the esp by removing all the modded items from the containers in qasmoke which caused a conflict when using this mod with my other mods.\r<br />\r<br />\r<br />\r<br />\r<br />UPDATED to v1.3 \r<br />\r<br />Moved away from default meshes with custom texture settings to increase compatibility with other mods that change clothing meshes. Now this mod uses texture sets for just about everything. Still using mesh files for GND and GO models &#34;inventory models&#34; also the emperor male outfit would not properly use fixed texture set so it had to be assigned some mesh files. Custom items like fine gloves and alternate fine boots etc call default meshes from the game files and apply texture sets to them so any changes by other mods to those default meshes will show up in the custom items in this mod too. \r<br />\r<br />I discovered the problems with this mod conflicting with cbbe clothing mods mostly wrong normal maps showing so now this mod should use the right normal maps for things even if used with other mods.\r<br />\r<br />\r<br />Thanes reward HD is a mod that adds more stuff to rewards given when becoming thane of any hold such as the shield of a hold and outfits with accessories not just a weapon. \r<br />\r<br />Default textures for these clothes have been replaced with 2K HD custom textures&#33; Started with the default HI RES DLC textures and reworked them for better fabric details and clear sharp looking textures.\r<br />\r<br />Male wedding clothes and shoes replaced\r<br />All thane clothes and fine replaced\r<br />All yarl clothes replaced\r<br />All merchant clothes replaced\r<br />All mage apprentice and journeyman clothes replaced\r<br />Emporer clothes added a normal map for details\r<br />\r<br />New clothes added fine gloves black and brown and brown fine boots to match custom fine black boots. Mage gloves added to go along with mage outfits. They look like the tuning gloves but the basic glove textures are redone so they look new and different from the old tuning gloves.\r<br />\r<br />The apprentice boots for mage characters at the college of winterhold have been swapped out for the archmage light and dark versions boots. So apprentice characters have light version and master characters like tolfdir have dark version boots. Also those boots are for sale at the college unenchanted and also unenchanted apprentice and master outfits and mage gloves. The mage stuff in general is only buyable from some wizards and of course the college characters. The default apprentice boots always clipped badly through those character outfits it looked terrible but the archmage boots look great with those outfits. The tavern boots/wench boots for males has been changed from redguard boot to a better looking default. Some npc characters have different outfits like belethor and some other merchants. The merchant outfits take advantage of the new fine gloves and thane outfits as well.\r<br />\r<br />This mod should now be compatible with nexus mod manager, the files are now packed into a .bsa file instead of loose files so install/uninstall should be much easier.\r<br />\r<br />Manual installation\r<br />Copy the thanesrewardhd.bsa file to your game data folder.\r<br />Copy the thanesrewardhd.esp file into your game data folder.\r<br />\r<br />Make sure thanesrewardhd is on the check list of mods to load in the data files option of the game launcher.\r<br />\r<br />\r<br />\r<br />BUGS\r<br />\r<br />Some shoes and boots clip through some clothes and did so by default but went un noticed in a default game. Thanks to this mod the user will see that clipping because it seems that bethesda made the pants of many clothes dark colors to hide the clipping instead of just fixing the meshes so they didn&#39;t clip. Clipping clothes like the yarls shoes with the yarls clothes looks bad. I hope someone can change the size of the default shoe meshes to fix this someday. Anyone with any links to fixed shoes and boots meshes please post in the comments section thanks.\r<br />",
+  "categoryId": "60",
+  "version": "v1.3",
+  "author": "Dragonslayer2k12",
+  "createdUnix": "1344862031",
+  "updatedUnix": "1404519980",
+  "containsAdultContent": false,
+  "uploadedBy": "dragonslayer2k12",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000060921",
+      "name": "ThanesRewardHD updated",
+      "version": "v1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "180052",
+      "fileName": "ThanesRewardHD updated-22339-v1-3.rar",
+      "uploadedUnix": "1380773080",
+      "modVersion": "v1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/9ba8fecf0e0ed3e4cee78a3f7b7398636504db9e811b41c5fea380162fdbc5c3/analysis/1407743356/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ThanesRewardHD%20updated-22339-v1-3.rar?fid=1000060921&ttl=1535791827&ri=8192&rs=8192&setec=d1ed5db4fdd8cb21a83bd53bd2e2367c"
+    },
+    {
+      "fileId": "1000115937",
+      "name": "ThanesRewardHDesp",
+      "version": "v1.3",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "ThanesRewardHDesp-22339-v1-3.rar",
+      "uploadedUnix": "1404519980",
+      "modVersion": "v1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/060a4749a675567705ee0d5bc941f49430088b5ea27778e5f018dd11c4649f70/analysis/1408161070/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ThanesRewardHDesp-22339-v1-3.rar?fid=1000115937&ttl=1535791828&ri=8192&rs=8192&setec=b803997bd779cf91733a874475d9bf97"
+    }
+  ]
+}

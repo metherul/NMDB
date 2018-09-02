@@ -1,0 +1,32 @@
+{
+  "modId": 64334.0,
+  "modName": "SQTDI - Skyrim Quest Target Distance Indicator",
+  "summary": "Replaces vanilla quest navigation system with one based around distance. Say goodbye to magical GPS.",
+  "descriptionHtml": "[u]Overview[/u]\r<br />\r<br />This mod will replace vanilla quest navigation system with more inaccurate one -instead of knowing exact direction, \r<br />player will only get to know vague distance between him and quest target.\r<br />\r<br />\r<br />\r<br />[u]Introduction[/u]\r<br />\r<br />For me, one of the most important aspects of Elder Scrolls game is that one rewarding sensation which I get when I manage to find my way around the world to my destination -I feel like that I have achieved something. Since Oblivion, I haven’t really experienced that sensation in vanilla game. \r<br />Why so? It’s all because of quest marker. It takes away a joy of discovery -instead of actually planning where to go, player will be forced to sheepishly follow quest marker. Somehow Bethesda managed to make free roaming game to play like a linear one. \r<br />Of course you can try to play without quest markers but unfortinately, due to certain design choices, doing so will easily make general gaming experience quite frustrating.\r<br />\r<br />With this mod, you no longer know right direction -you only get vague distance to quest target (and you can customize the distance where distance tracking starts). Due to this player will never end just blindly following the marker, he has to actually plan his movement. In the other hand, player shouldn&#39;t be made feel like headless chicken. Overall, SQTDI aims to provide balanced compromise between Morrowind’s no direct guidance-policy and Skyrim’s omniscient GPS.\r<br />\r<br />I have been using this mod with great success quite long time already, and at least in my case it made Skyrim much more enjoyable game.\r<br />\r<br />\r<br />\r<br />Installation\r<br />\r<br />1. After downloading, extract file to freely chosen location.\r<br />\r<br />2. Open the folder and choose which esp you want to use and paste it into your Skyrim/Data folder (number in the title=active distance. Example: if you choose “SQTDI-15 000 units.esp”, distance will be measured when distance between player and quest target is equal or less than 15 000 units).\r<br />About distances: values over 18 750 will make locating quest targets quite easy, when smallest value will naturally only be useful when you are quite near quest target. 15 000 (or 12 500) is pretty solid, balanced choice.\r<br />\r<br />3. Decide if you want to play with or without compass and Copy&paste corresponding Interface folder into your Data folder.\r<br />\r<br />4. Activate esp and start the game\r<br />\r<br />5. (optional, but highly recommended) Go to in-game settings and disable floating quest markers.\r<br />\r<br />\r<br />[u]\r<br />Using the mod[/u]\r<br />\r<br />Your compass will show you purple-colored distance line. When player gets closer to quest target, this distance line will move up (so that line will eventually disappear completely)-and when player moves away from quest target, distance line will move down.\r<br />\r<br />\r<br />\r<br />\r<br />[u]Compatibility[/u]\r<br />\r<br />-Will conflict with any mod that edits hudmenu.gfx or which modifies some specific gameplay settings.\r<br />\r<br />\r<br />\r<br />[u]Notes[/u]\r<br />\r<br />-one feature of this mod will make all compass icons a little bit smaller. Hopefully it doesn’t bother anyone.\r<br />\r<br />\r<br />\r<br />[u]Useful mods which offer great synergy[/u]\r<br />\r<br />-Lord Conti’s MinimalHUD Light mod (makes hud customization possible. Most notably it can be used to hide location markers from compass)\r<br />\r<br />-Gopher’s Immersive HUD mod (along other tweaks features toggleable hide/unhide compass hotkey)\r<br />\r<br />-Whickus and William Imm’s Even Better Quest Objectives mod (upgrades vanilla quest descriptions  to more detailed ones) \r<br />       *Psychotogen’s Immersive Questing mod is worthy alternative to Even Better Quest Objectives",
+  "categoryId": "42",
+  "version": "v1.0",
+  "author": "Kotokyy",
+  "createdUnix": "1427965039",
+  "updatedUnix": "1427962102",
+  "containsAdultContent": false,
+  "uploadedBy": "Kotokyy",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000153947",
+      "name": "SQTDI - Skyrim Quest Targer Distance Indicator",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "286",
+      "fileName": "SQTDI - Skyrim Quest Targer Distance Indicator-64334-v1-0.rar",
+      "uploadedUnix": "1427962102",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8980e4eb7dcb0e11f5fa6040c003d432b155ad5e05ff0c454284b6b92d77b4ab/analysis/1427962144/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SQTDI%20-%20Skyrim%20Quest%20Targer%20Distance%20Indicator-64334-v1-0.rar?fid=1000153947&ttl=1535852996&ri=8192&rs=8192&setec=b487e05ea87bf94f3fe7c114c167a9b4"
+    }
+  ]
+}

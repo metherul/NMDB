@@ -1,0 +1,15 @@
+{
+  "modId": 64118.0,
+  "modName": "Huntsman bow - Patched Patch",
+  "summary": "This is basically just a minor fix for a somewhat prominent problem with The Huntsman - Unofficial Patch Redux. To put it simply, the leveling up scripts made the bow not fire because they would run too many times.",
+  "descriptionHtml": "Originally, for those over level 50, the leveling up wouldn&#39;t stop, causing the bow draw speed to keep going down, causing the bow not to fire, but instead stop at the point in the animation where the arrow is pointed down in front of the left leg(Note: that is simply what happened to me at first. Side-effects of very low draw speed may vary). All this patch does is it changes the frequency of the level up scripts, as well as put&#39;s the bows max level at 105, along with the DMG stat changes per every 10 levels after 50. (Note: This only works with the fully upgraded bow, I haven&#39;t place the script edits in the other versions of the bow yet.)\r<br />",
+  "categoryId": "84",
+  "version": "1.0.0",
+  "author": "HailStormGaming",
+  "createdUnix": "1427411989",
+  "updatedUnix": "1427411989",
+  "containsAdultContent": false,
+  "uploadedBy": "HailStormGaming",
+  "primaryFile": null,
+  "files": []
+}

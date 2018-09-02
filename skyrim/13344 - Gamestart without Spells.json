@@ -1,0 +1,32 @@
+{
+  "modId": 13344.0,
+  "modName": "Gamestart without Spells",
+  "summary": "Alters the first Main Quest to not add Healing and Flames Spell to the Player",
+  "descriptionHtml": "Update: Now compatible with patch 1.5.26\r\nSince the patch changed the allocation of the starter spells i uploaded a new version. it removes the flames and healing spells from the player at the game start. \r\nConflicts: Will conflict with mods that alter the player object.\r\n\r\n------------------------------------------------------------\r\n\r\nThis Mod alters the first Main Quest and removes the point where it adds the starter spellset to the player. It does not affect the perks given by race selection and the spells can still be learned from spellbooks later.\r\n\r\nI made this mod for the following reasons:\r\n1. The spells added by the quest are not the same version you can learn from books. they have another id which i couldt identify as it seams hidden. thus scripts cant affect these spells and you cant alter the starterspells via the construction set.\r\n2. I dont like the healing spell as i play without health regeneration and it makes the game just to easy and renders all the potions and food useless.\r\n3. Making custom gamestarts required me to remove those spells.\r\n\r\nConflicts:\r\nCould conflict with Mods that change the first Quest. Depends on the compiling process.\r\nWill definitly conflict with Mods that change QuestStage 80 of the first Quest.",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "Neliana",
+  "createdUnix": "1332276156",
+  "updatedUnix": "1333047654",
+  "containsAdultContent": false,
+  "uploadedBy": "Neliana",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "48026",
+      "name": "startwithoutspells",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "startwithoutspells-13344.rar",
+      "uploadedUnix": "1333047654",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/2dc8d417dcc6bba291ace12dc2e4a2fe4d6ecd2ff381899ed5ec7c4c7bedeb93/analysis/1406786483/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/startwithoutspells-13344.rar?fid=48026&ttl=1535776051&ri=8192&rs=8192&setec=2abe75bef55739abb516ca1cdc59092c"
+    }
+  ]
+}

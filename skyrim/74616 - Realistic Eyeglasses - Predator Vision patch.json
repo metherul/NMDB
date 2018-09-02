@@ -1,0 +1,48 @@
+{
+  "modId": 74616.0,
+  "modName": "Realistic Eyeglasses - Predator Vision patch",
+  "summary": "Patch that replaces the default Night Eye with Gopher&#39;s improved night vision in Night Vision Eyeglasses.",
+  "descriptionHtml": "MannyGT&#39;s excellent mod &#34;[url=http://www.nexusmods.com/skyrim/mods/74356/?]Realistic Eyeglasses[/url]&#34; adds a set of eyewear that allows the user to use the night-vision. Unfortunately, vanilla night vision is done rather poorly, so I made a patch that links this great mod with another fantastic one, &#34;[url=http://www.nexusmods.com/skyrim/mods/22274/?]Predator Vision[/url]&#34; by Gopher. \r<br />\r<br />Now equipping and re-equipping the Night vision glasses will use Gopher&#39;s imod. \r<br />\r<br />Stupid Question number 1: Does this require MannyGT&#39;s [url=http://www.nexusmods.com/skyrim/mods/74356/?]Realistic Eyeglasses[/url]?\r<br />Answer: Yes.\r<br />\r<br />Stupid Question number 2: Does this require Gopher&#39;s [url=http://www.nexusmods.com/skyrim/mods/22274/?]Predator Vision[/url]?\r<br />Answer: No. I have only modified the script so that it will detect on the fly if you have Predator Vision.esp in your load order and use correct functions. If not, it will use the vanilla Khajit one. \r<br />\r<br />Edit (02-04-2016)\r<br />I&#39;ve added a toggleable version. Upon equipping the glasses, Predator Vision&#39;s Night vision will be put in the &#34;cheat mode&#34;, the same that could have been toggled via MCM, and you will be able to activate and deactivate NV at will with a keypress.\r<br />\r<br />Tell me if you find any problems. \r<br />",
+  "categoryId": "84",
+  "version": "1.1",
+  "author": "piotrmil",
+  "createdUnix": "1459465088",
+  "updatedUnix": "1459596265",
+  "containsAdultContent": false,
+  "uploadedBy": "piotrmil",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000201296",
+      "name": "Realistic Eyeglasses - Predator Vision Patch",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Realistic Eyeglasses - Predator Vision Patch-74616-1-0.7z",
+      "uploadedUnix": "1459465878",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/be64dc0171c96620bf4b6b236eadbd49020c439392c76c112419d89db2afe467/analysis/1459465924/",
+      "changelogHtml": " No changes with the original file, just moved the number up; optional toggleable version added. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Realistic%20Eyeglasses%20-%20Predator%20Vision%20Patch-74616-1-0.7z?fid=1000201296&ttl=1535863427&ri=8192&rs=8192&setec=b7686328073bca0fa17390675415fb2f"
+    },
+    {
+      "fileId": "1000201509",
+      "name": "Realistic Eyeglasses - Predator Vision patch Toggleable",
+      "version": "1.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Realistic Eyeglasses - Predator Vision patch Toggleable-74616-1-0.7z",
+      "uploadedUnix": "1459596265",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d889dbbede1942be65678463b73e19def717ee8a3777de5d6a1009094c327688/analysis/1459596307/",
+      "changelogHtml": " No changes with the original file, just moved the number up; optional toggleable version added. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Realistic%20Eyeglasses%20-%20Predator%20Vision%20patch%20Toggleable-74616-1-0.7z?fid=1000201509&ttl=1535863428&ri=8192&rs=8192&setec=d8f5ae05ad61dd47b65aad94e016aefc"
+    }
+  ]
+}

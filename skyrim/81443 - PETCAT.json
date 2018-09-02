@@ -1,0 +1,32 @@
+{
+  "modId": 81443.0,
+  "modName": "PETCAT",
+  "summary": "P.atch for E.xpanded T.owns and C.ities A.lternate T.extures - PETCAT. Plus custom LODS",
+  "descriptionHtml": "[center][img]https://staticdelivery.nexusmods.com/mods/110/images/84868/84868-1519769005-170288287.png[/img][/center]\n<br />\n<br />Meow!\n<br />\n<br />\n<br />So I had just finished dealing with [url=http://www.nexusmods.com/skyrim/mods/80577]interiors[/url] and picked up on my last save game which was inside The Dead Mans Drink. I stepped outside into Falkreath and was struck by how boring the place was, with the same textures over every building. What I really wanted was to bring back the alternate textures from ETaC v 13...so I did, and here I present to you PETCAT - The P.atch for E.xpanded T.owns and C.ities A.lternate T.extures - yay!\n<br />\n<br />This patch is more than just a direct copy of MJB's implementation from v13. I have done a mashup and given individual buildings different texture sets, because individuals are gonna be...individual.  I have also used the meshes from Actual Windows so now some of the buildings have clear glass because Jarls, and Inns tend to be better off and can afford such things.  Talking of windows, I have changed them about as well as it looks better, especially at night when you see the different window colours etc.\n<br />\n<br />I have changed about the thatched roof textures so the rooftops look more interesting and in some occasions have used different normals for diffuse, so as to keep it interesting.  Same thing for some of the walls - e.g. the guards gate in Falkreath, I use the Morthal diffuse with the winterhold Normal and it looks kinda cool.\n<br />\n<br />For many of the Longhouses I retextured the exterior in something more permanent and added stone columns as well to make them look more grand.  Except for Morthal...however I did retexture Morthals stone wall and many of its buildings, so now they look different, but different shabby if you know what I mean.\n<br />\n<br />In Winterhold I tried to roll with Jennas brown wood theme but i toned it down a bit as I felt it looked a bit full on so now it's more mixed and looks kinda fab tbh. I also added stables for those horses and a brazier because it irked me, those poor horses standing in the snow and that dude at the fence without a heat. Poor sod.\n<br />\n<br />In Dawnstar I fixed the problem with dawnstar shipping being a snow material shader. Now it doesn't look white inside, plus I gave them a fireplace, a door that closes and added some protection from the elements, because who the hell has a massive open window right next to the sea where it snows all the time. Not in my game! \n<br />\n<br />Falkreath, is the jewel in the crown. I adore green forests so this place is maybe a little bit more colourful than Jennas iteration. I don't care, I love it, I want to live here - talking of which, someone needs to make a patch for that derelict player home on the hill so I can move in.\n<br />\n<br />I haven't re-textured everything though. Some smaller buildings and poorer folk I have left as vanilla as the shabby look was more apt. I have also not done many of the walkways, but might for a future update. Same thing for the doors, which may come in an update (depending on how many screenshots you folks send me, because I love dat)\n<br />\n<br />I haven't re-textured the interiors either but that may well happen in the future -  I may even retexture the rest of Skyrim's smaller settlements, depending on how this all works out (and screenies).\n<br />\n<br />I updated the No Snow Under The Roof Patch so no more floating snow piles or badly position ground snows. That's up to Nazenn when he decides to share/upload it.\n<br />\n<br />I also[url=https://www.reddit.com/r/skyrimmods/comments/5ll9fh/no_snow_under_the_roof_transparency_issue_for/] fixed the snow transparency problem as well[/url], but you need to do that fix yourself, basically just remove the 2 decal shader flags in Nifskope.\n<br />\n<br />I haven't bothered with Dynamic Snow because snow textures wrapped around individual pieces of straw doesn't really bother me tbh. It looks fine regardless. You can add it in TES5edit though if it really matters to you.\n<br />\n<br />And...\n<br />\n<br />I made custom lods for the whole thing so your individually textured houses look yummy from afar. Tasty!\n<br />\n<br />Finally, LOAD ORDER = at the bottom after ETAC, after the NSUTR patch etc.\n<br />\n<br />\n<br />edit - almost forgot, how to use...\n<br />1. Install ETaC Complete v 14 plus (no modular atm, that's coming in SSE)\n<br />2. Install [url=http://www.nexusmods.com/skyrim/mods/51188/?]NSUTR[/url] plus the ETaC NSUTR patch (because I also made you sexy 3d snow lod meshes)\n<br />3. Install PETCAT, put at the bottom of load order for Texgen and Dyndolod generation, after all ETaC stuff/patches etc. Important!\n<br />4. Run Texgen, copy texgen output to mo/game folder\n<br />5. Run DynDOLOD\n<br />6. Send me screenshots.\n<br />\n<br />Have fun!\n<br />\n<br />CREDITS\n<br />\n<br />Sheson for DynDOLOD and helping me make this a thing  - http://www.nexusmods.com/skyrim/mods/59721/?\n<br />Jenna and Nazenn for ETaC - http://www.nexusmods.com/skyrim/mods/13608/?\n<br />Prometheus for No Snow under The Roof - http://www.nexusmods.com/skyrim/mods/51188/\n<br />Majk360 for Actual Windows farmhouses - http://www.nexusmods.com/skyrim/mods/59519/\n<br />\n<br />Other mods -[url=http://www.nexusmods.com/skyrim/users/13953925/?tb=mods&amp;pUp=1] Quite a few!!![/url]",
+  "categoryId": "84",
+  "version": "1",
+  "author": "Kojak747",
+  "createdUnix": "1490441644",
+  "updatedUnix": "1490440629",
+  "containsAdultContent": false,
+  "uploadedBy": "kojak747",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000239930",
+      "name": "PETCAT",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "150239",
+      "fileName": "PETCAT-81443-1.7z",
+      "uploadedUnix": "1490440629",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/2e6f6b57983b79db0493a78b01d73344cc4ac340bb2504edf65e55749381809e/analysis/1490441002/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PETCAT-81443-1.7z?fid=1000239930&ttl=1535870054&ri=8192&rs=8192&setec=7803382a86935aafb519f31e5a4fe7ed"
+    }
+  ]
+}

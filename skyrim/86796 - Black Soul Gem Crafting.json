@@ -1,0 +1,32 @@
+{
+  "modId": 86796.0,
+  "modName": "Black Soul Gem Crafting",
+  "summary": "",
+  "descriptionHtml": "[size=4][b]Introduction[/b][/size]\r<br />\r<br />I don&#39;t know about you, but... I&#39;ve always had a hard time keeping Black Soul Gems in stock. Need them for enchanting, and on occasion for mods (such as Nightwielder Spire), but I rarely find the things, and I get tempted to just use the console. Meanwhile I&#39;ve always seen Soul Gem Fragments laying around in places, and given the fact they look like busted Black Soul Gems... I&#39;ve always wanted to be able to use them. Finally I cracked and made this quick mod to do exactly that.\r<br />\r<br />[size=4][b]How It Works[/b][/size]\r<br />\r<br />Now you can take those Soul Gem Fragments to Mills, and grind them up into Black Soul Dust Powder. From there you can run to a smelter, and turn the powder into gems. Of course, being a magical item, they&#39;re not easy to make, thus they require the Arcane Blacksmith perk to smelt. You also need to keep in mind, some changes have been made to the Soul Gem Fragments. Weight and Value changes were made based on their size, and how much powder you&#39;ll get from each one is based on their size. In addition, they&#39;ve been added into random soul gem loot (still not fully tested), so you should get them from bandits, wizards and so on from time to time.\r<br />\r<br />[size=4][b]Vanilla Changes[/b][/size]\r<br />\r<br />The following Leveled Lists and Items have been altered from Vanilla\r<br />\r<br />LItemSoulGemEmptySpecial [LVLI:000638B3]\r<br />SublistSoulGemEmptyBlack25 [LVLI:000638B5]\r<br />\r<br />SoulGemPiece001 &#34;Soul Gem Fragment&#34; [MISC:00067181]\r<br />SoulGemPiece002 &#34;Soul Gem Fragment&#34; [MISC:00067182]\r<br />SoulGemPiece003 &#34;Soul Gem Fragment&#34; [MISC:00067183]\r<br />SoulGemPiece004 &#34;Soul Gem Fragment&#34; [MISC:00067184]\r<br />SoulGemPiece005 &#34;Soul Gem Fragment&#34; [MISC:00067185]\r<br />\r<br />Object weights are based on size comparison to the Black Soul Gem, making weights for fragments range from 0.1 to 0.4. Soul Gem Fragment \r<br />values have been changed to 1/3 of the Black Soul Gems Value based on \r<br />weight, while the Black Soul Gem Powder&#39;s Value was set to 2/3 the value\r<br /> of the Black Soul Gem based on weight.\r<br />\r<br />[size=4][b]Incompatibility[/b][/size]\r<br />\r<br />Though I find it unlikely to encounter... Any mod changing those entries will conflict with this. A Bash Batch would correct issues with the Leveled List entries, but... The changes to Soul Gem Fragments will either overwrite, or be overwritten based on load order. Not a big deal depending on what the change is for.\r<br />\r<br />[b][size=4]Installation[/size][/b]\r<br />\r<br />Simply place the .esp file in your Skyrim SE directories Data folder. Uninstalling shouldn&#39;t cause any issues, at most it should delete anything added by this.\r<br />\r<br />[size=4][b]Permissions\r<br />[/b][/size]\r<br />Feel free to use this mod in any way, or upload this mod elsewhere at any time so long as it&#39;s not for financial gain. All that&#39;s asked is you link to the original mod located here.\r<br />\r<br />[color=#cc0000][size=4][b]Special Thanks[/b][/size][/color]\r<br />\r<br />AndrealphusVIII\r<br />\r<br />Originally I was just making this mod where the fragments were smelted directly, but it left me unhappy since there were either tons of recipes, or not enough which would result in constantly having leftover junk stored away. Was looking for a simpler way to do it, when I came across a mod he made for Oldrim which made use of the Grain Mill. Followed in his footsteps, and it made it a simpler, cleaner process. Link to his original mod below. I&#39;ve never used it, but the description was enough to help.\r<br />\r<br />https://www.nexusmods.com/skyrim/mods/54139/?",
+  "categoryId": "100",
+  "version": "1.0",
+  "author": "Incariuz",
+  "createdUnix": "1505739068",
+  "updatedUnix": "1505739065",
+  "containsAdultContent": false,
+  "uploadedBy": "Incariuz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000255078",
+      "name": "Crafting Black Soul Gems",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Crafting Black Soul Gems-86796-1-0.zip",
+      "uploadedUnix": "1505739065",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/46a05fde1943f3ef0121bbfe2b4060a14ab2d5bbe337e5bed67587ffb55690a0/analysis/1505739302/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Crafting%20Black%20Soul%20Gems-86796-1-0.zip?fid=1000255078&ttl=1535875709&ri=8192&rs=8192&setec=4a7bfdc5c9261e00b28d903c8ae2a20d"
+    }
+  ]
+}

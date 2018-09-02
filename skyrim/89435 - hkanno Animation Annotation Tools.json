@@ -1,0 +1,48 @@
+{
+  "modId": 89435.0,
+  "modName": "hkanno Animation Annotation Tools",
+  "summary": "This tool can repair footsteps.<br /><br />Some locomotion animation mods remove footsteps unintentionally.<br />Because the animation annotations have been removed.",
+  "descriptionHtml": "# hkanno - Animation Annotation Tools\n<br />Repair footstep sounds.\n<br />\n<br />## Usage\n<br />hkanno.exe dump -o anno.txt anim.hkx\n<br />: Dump the annotations in anim.hkx\n<br />hkanno.exe update -i anno.txt anim.hkx\n<br />: Update the annotations in anim.hkx\n<br />### anno.txt\n<br />  # comment line\n<br />  time text\n<br />\n<br />## Example\n<br />  hkanno.exe dump C:&#92;Steam&#92;steamapps&#92;common&#92;Skyrim&#92;Data&#92;meshes&#92;actors&#92;character&#92;animations&#92;female&#92;mt_runforward.hkx\n<br />  # numOriginalFrames: 20\n<br />  # duration: 0.633333\n<br />  # numAnnotationTracks: 99\n<br />  # numAnnotations: 2\n<br />  0.000000 FootLeft\n<br />  0.333333 FootRight\n<br />\n<br />## Build\n<br />### Prerequisite\n<br />- Visual Studio 2008\n<br />- hk2010_2_0_r1\n<br />Run nmake\n<br />\n<br />## Acknowledgments\n<br />hkanno uses Havok(R). (C) Copyright 1999-2008 Havok.com Inc. (and its Licensors). All Rights Reserved. See www.havok.com for details.\n<br />\n<br />## License\n<br />MIT\n<br />\n<br />## Author\n<br />opparco",
+  "categoryId": "51",
+  "version": "v0.0.1-up1",
+  "author": "opparco",
+  "createdUnix": "1517958746",
+  "updatedUnix": "1517958746",
+  "containsAdultContent": false,
+  "uploadedBy": "opparco",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000265734",
+      "name": "hkanno",
+      "version": "v0.0.1",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "3962",
+      "fileName": "hkanno-89435-v0-0-1.zip",
+      "uploadedUnix": "1517956653",
+      "modVersion": "v0.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/109f6b31a6f917d1a4dd0f2d9767a4307c87006343ee57cbe6400dae3ab1067c/analysis/1517956891/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/hkanno-89435-v0-0-1.zip?fid=1000265734&ttl=1535879132&ri=8192&rs=8192&setec=ed70abd9614516d4858d82c30d00ceb9"
+    },
+    {
+      "fileId": "1000265736",
+      "name": "hkanno",
+      "version": "v0.0.1-up1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1981",
+      "fileName": "hkanno-89435-v0-0-1-up1.zip",
+      "uploadedUnix": "1517956929",
+      "modVersion": "v0.0.1-up1",
+      "virusScanUrl": "https://www.virustotal.com/file/6fbfb1ebed1152244ab6055fc21d56462d7974ce6bc630ec2986fc1c18ab4a15/analysis/1517957229/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/hkanno-89435-v0-0-1-up1.zip?fid=1000265736&ttl=1535879133&ri=8192&rs=8192&setec=646c66e3222adda81007fd455ca43db8"
+    }
+  ]
+}

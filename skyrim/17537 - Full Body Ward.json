@@ -1,0 +1,48 @@
+{
+  "modId": 17537.0,
+  "modName": "Full Body Ward",
+  "summary": "A little mod that adds a new Ward spell type, which blocks, like a normal ward does, magic attack except this one blocks it from everywhere.",
+  "descriptionHtml": "==UPDATES==\r\n05/26/2012 : Concidering deleting this mod. I let people decide, but I don\\'t feel excited anymore about it, as I\\'m stuck with basic animations and effects, and it just don\\'t seems to be worth the troubles it would take to make a better version of it.\r\nI let the decision of its deletion to the moderators .\r\nOf course, if some people want to help, they can contact me or just take the mod.\r\n\r\nMost recent version : v0.0.3*\r\n\r\n-Added 2 spell tomes , one for the new FF Ward Flame, and one for the new Conc. Ward Flame\r\n-Testing a concentration version of the ward spell effect on full body, worked so far for me!\r\n-Those 2 spell tomes are located inside the Arcanaeum at the Winter Hold\\'s college.\r\n-To test them quickly i recommend you use the \\\"coc WinterHoldCollegeArcanaeum\\\" command (try with Arcanaeum01 if nothing happens). A picture of the tomes exact location will soon be available\r\n-Changed Power magnitude of both spells, in order to make them more realistic.\r\n-Fixed a few bugs not really worth quoting. (sound effects ...)\r\n==/UPDATES==\r\n\r\n\r\nHave you ever been nostalgic about Morrowind\\'s ward spells ? A sphere looking ward spell, that blocks the attack no matter where it comes from ? \r\n\r\nThis mod gives you a little example of how you could recreate that same effect, with the ward effect already in place. \r\n\r\n==PLEASE READ CAREFULY==\r\n\r\n- This mod is not one that should be concidered as \\\"serious\\\". Therefore it is not recommanded that you use it to play like you normaly would, but more like a cheating game play style. \r\n\r\n- This spell is to be concidered as an EXAMPLE of new Ward category. Feel free to use it in order to create new spells inspired from it, or to use it \\\"As Is\\\", as a little \\\"cheat\\\".\r\n\r\n- You may encounter issues like crashing the game if you mess too much with it (like adding 20 mages in front of you and have them attack you all at once) , but it should not be \\\"too bad\\\".\r\n\r\n- Feel free to tell me if anything wrong happens while playing this mod, or if you would like me to mod something out of it, or anyone else, there is no problem -> Comments (or Private message)\r\n\r\n- In the file is added a little .txt file that I recommend you to test  while playing this mod, if you really want to feel like a bad-ass without using cheat commands (like TGM). If you want to see what it does, here is a link to the file\\'s details : \r\n\r\nhttp://elderscrolls.wikia.com/wiki/Forum:CC:Console_Command_Batch_Lists_(Skyrim) \r\n---> Make a Powerful actor \r\n\r\n--> Look at Make a Powerful Actor. (bottom of the page)\r\n\r\n==HOW TO==\r\n\r\n- Install it ? \r\n            --->    Just put the .esp file into the skyrim\\'s data folder \r\n                   (for steam users : <b> steam/steamapps/common/skyrim/data</b>) \r\n                   (and for non-steam users : I don\\'t really know, sorry)\r\n            ---> To try the batch file , put it in the skyrim\\'s main directory.\r\n\r\n- Get the spell ? \r\n             ---> during skyrim run-time, open the console, type : player.addspell 16000D63\r\n            !---> If it doesn\\'t work, type : help Legendary\r\n                                            then get the \\\"Legendary flame ward\\\" \\'s spell ID \r\n                                             and use it with the \\\"player.addspell\\\" command as said earlier.\r\n\r\n- Try the PowerfullActor.txt\\'s batch file ?\r\n            ---> during skyrim run-time, open the console, select the actor by clicking on it then \r\n               type : \\\"bat PowerfullActor.txt\\\" . Congratulation, the actor is now able to take-over \r\n               skyrim by himself.\r\n        \r\n\r\n==FOR MODDERS==\r\n\r\n- How did you do ? \r\n\r\n---> Really simple, i only used the WardPower\\'s property assoc. item with the FireCloak effect,  \r\n resulting in this mod.  Check it out in the creation kit to see what does the trick.\r\n\r\n\r\n==TO THE MODERATORS==\r\n\r\n- Why is it so inapropriate ?\r\n\r\n-->First of all, sorry :( . This is the first time I contribute to this wonderful community, and am not really used to it . If you saw something inappropriated in my post, please feel free to delete it, or tell me to do it, and if you have the time, tell me why it is (even refering to a help page would be nice).\r\n\r\n- Will you do something to make it look better ? \r\n\r\n-->Of course I will ! Just tell me what to modify and I instantly will. Even if I don\\'t have the time to modify it right-away, I will set it on \\\"Hidden\\\" .\r\n\r\n- There is no style !\r\n\r\n--> Once again, sorry :( . And once again, i\\'m new to it and don\\'t know everything there is to know about it for now . But be sure that it won\\'t last and that I will change it as soon as I learn how to do it !",
+  "categoryId": "40",
+  "version": "0.0.3",
+  "author": "iLLoHOU",
+  "createdUnix": "1337776326",
+  "updatedUnix": "1337794936",
+  "containsAdultContent": false,
+  "uploadedBy": "iLLoHOU",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "63145",
+      "name": "Full Body Ward",
+      "version": "0.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Full Body Ward-17537-0-0-1.rar",
+      "uploadedUnix": "1337776592",
+      "modVersion": "0.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/439aa6aa4de746117832deb84ea6765c0cf998b08147a2dafd805f012f914b1d/analysis/1406910663/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Full%20Body%20Ward-17537-0-0-1.rar?fid=63145&ttl=1535783657&ri=8192&rs=8192&setec=9aa287b9420d8a0862a732b30fc22e0c"
+    },
+    {
+      "fileId": "63190",
+      "name": "Full Body Ward_v0-0-3",
+      "version": "0.0.3",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Full Body Ward_v0-0-3-17537-0-0-3.rar",
+      "uploadedUnix": "1337794936",
+      "modVersion": "0.0.3",
+      "virusScanUrl": "https://www.virustotal.com/file/32a56d5e40fad7616f7167faed6782e046ce3ac84bc9f7d1436d9f028aa57439/analysis/1406910970/",
+      "changelogHtml": " Added a Concentration test spell, same effect as the first one. <br/> \n Changed ward power for a more realistic experience <br/> \n Added 2 spell books, one for the fire and forget ward and one for the concentration ward <br/> \n a few settings on the power effect of both spells <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Full%20Body%20Ward_v0-0-3-17537-0-0-3.rar?fid=63190&ttl=1535783657&ri=8192&rs=8192&setec=ca95b223b5ebbfc7a078df7e24dd6aa0"
+    }
+  ]
+}

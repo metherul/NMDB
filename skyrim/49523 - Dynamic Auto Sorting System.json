@@ -1,0 +1,48 @@
+{
+  "modId": 49523.0,
+  "modName": "Dynamic Auto Sorting System",
+  "summary": "Allows you to add a sorting system to your favorite house in-game.",
+  "descriptionHtml": "================================================================================\r<br />\r<br />This mod requires SKSE and therefore cannot be ported to consoles when Skyrim: Enhanced Edition is released.\r<br />\r<br />================================================================================\r<br />\r<br />\r<br />\r<br />If you, like me, enjoy looting everything you are probably also familiar with how annoying and time consuming it is to sort all those items when you come home to drop it off. Installing this mod will solve that problem for you.\r<br />\r<br />========================================\r<br />\r<br />Requirements:\r<br />- SkyUI\r<br />- SKSE\r<br />\r<br />========================================\r<br />\r<br />What is Auto Sorting?\r<br />You place all your loot in one container and it magically sorts them into designated containers.\r<br />\r<br />What is crafting Auto Retrieve:\r<br />When you activate a crafting station assigned to the system, you automatically loot its coresponding chest. For example, activating an Enchanting Table adds all soul gems to your inventory.\r<br />\r<br />========================================\r<br />\r<br />How to setup the Auto Sorting System:\r<br />Open up the MCM Menu and select the Add Sorting Tokens Option. Several items will be added to you inventory, each representing a sorting category. Whatever chest you place one of these items in will be used by the sorting system. Adding a token to a chest also renames it so that it clearly states what items are stored within. You need to place every token and you should not add more than one token to a container.\r<br />\r<br />How to setup crafting auto retrieve:\r<br />Make sure you&#39;ve setup the Auto Sorting system. Open up the MCM Menu and select the &#34;Add crafting station selection spell&#34;. Cast it at a crafting station and it will link it to the Sorting System. Deselecting the option in the MCM menu removes the spell.\r<br />\r<br />========================================\r<br />\r<br />Other MCM options:\r<br />- Allow Global Auto Sort:\r<br /> By default, every chest sorts away items it&#39;s not supposed to contain. For example you can never store ingots in the arrows chest. Unselecting this allows you to place any item inside any chest.\r<br />\r<br />- Allow Crafting Auto Retrive\r<br />Deselecting this will prevent items from getting added to your inventory when you activate a crafting station linked to the Sorting System.\r<br />\r<br />========================================\r<br />\r<br />Installation:\r<br />Use NMM or install manually\r<br />\r<br />Uninstallation:\r<br />Open up the MCM menu and select the uninstall option. Then, remove it using NMM or manually.\r<br />\r<br />========================================\r<br />\r<br />Got any Questions? Place them in the comments.",
+  "categoryId": "27",
+  "version": "1.0.2",
+  "author": "Sjogga",
+  "createdUnix": "1388851970",
+  "updatedUnix": "1389317628",
+  "containsAdultContent": false,
+  "uploadedBy": "Sjogga",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000090460",
+      "name": "Dynamic_AutoSorting_System 1_0_1",
+      "version": "1.0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "17",
+      "fileName": "Dynamic_AutoSorting_System 1_0_1-49523-1-0-1.zip",
+      "uploadedUnix": "1389187383",
+      "modVersion": "1.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/878cc348d9dd98c0ad37ab5b61dd99c492402f7c1431fb3116c7c70c0e50a826/analysis/1407877384/",
+      "changelogHtml": " Fixed scrolls going into books <br/> \n Unchecking &#34;Add Tokens&#34; removes them from containers and from the player without breaking the setup. This prevents accidental removal. <br/> \n Probably something else, but I forgot what it was. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dynamic_AutoSorting_System%201_0_1-49523-1-0-1.zip?fid=1000090460&ttl=1535830473&ri=8192&rs=8192&setec=4f7c55770a5d84118966f55962bb6f05"
+    },
+    {
+      "fileId": "1000090694",
+      "name": "Dynamic_AutoSorting_System 1_0_2",
+      "version": "1.0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "17",
+      "fileName": "Dynamic_AutoSorting_System 1_0_2-49523-1-0-2.zip",
+      "uploadedUnix": "1389317628",
+      "modVersion": "1.0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/ddb1a7fa4a6b1282065c135c89ba126f7c8ee34bff5734a6eeee2343e4d057f4/analysis/1407879726/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dynamic_AutoSorting_System%201_0_2-49523-1-0-2.zip?fid=1000090694&ttl=1535830474&ri=8192&rs=8192&setec=d402e90eef7a26b20d92fd9731c7a07c"
+    }
+  ]
+}

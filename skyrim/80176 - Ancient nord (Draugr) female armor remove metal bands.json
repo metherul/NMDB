@@ -1,0 +1,32 @@
+{
+  "modId": 80176.0,
+  "modName": "Ancient nord (Draugr) female armor remove metal bands",
+  "summary": "Remove the three metal bands on the female ancient nord armour. Based off Hi res textures from official Hi res pack. TUTORIAL ON EDITING TEXTURES included",
+  "descriptionHtml": "I always liked the ancient nord armour but found the metal bars/bands on the upper chest somewhat out of place and at worse (pre -hi res patch) downright unsightly. I made my own patch a couple of years ago and decided to make a high res version after reinstalling skyrim. \r<br />\r<br />[b]Install[/b]\r<br />Manual is easiest, just paste the files into your DATA folder. Directory should be Steam&#92;steamapps&#92;common&#92;Skyrim&#92;Data&#92;Textures&#92;armor&#92;draugr\r<br />Create these folders if you need to, it wont mess anything up\r<br />\r<br />[b]CONFLICTS[/b]\r<br />This texture replacer is very basic and only makes the mentioned changes without editing armour values etc, hence should not conflict with anything aside from files that change the textures femaledraugrarmor.dds and femaledraugrarmor_n.dds.\r<br />[b]\r<br />[/b][b]Requires[/b]\r<br />HI-RES Official DLC \r<br />[i]Requires nothing if you don&#39;t use the high-res textures and read the tutorial[/i]\r<br />\r<br />[b]HOW TO IT YOURSELF&#33;[/b]\r<br />(and edit other minor changes in existing armours)\r<br />[b]This is also useful if you wanna have this but can&#39;t or don&#39;t want to have the high-res pack installed[/b]\r<br />I&#39;m a complete noob at modding so if I can do it in half an hour, so can you :)\r<br />\r<br />You need to a) access the original textures and b) edit them\r<br />1. To access the files use a BSA unpacker (http://www.nexusmods.com/skyrim/mods/59553) and select the correct BSA (Bethesda [s]something[/s] archive) in the skyrim&#92;data directory. For users of the vanilla textures it should be Skyrim - Textures BSA. For high res users it should be HighResTexturePack01 BSA.\r<br />2. Extract the files femaledraugrarmor.dds and femaledraugrarmor_n.dds using the helpful [u]searchbar[/u] to locate the files. (This is the ancient nord armour, any texture with ancientnord etc is probably an amulet)\r<br />3. Edit the textures with photoshop or a free program that I used (https://www.gimp.org/) and get this plugin (https://code.google.com/archive/p/gimp-dds/) \r<br />4. Just use a combination of eraser, rectangle+delete and fuzzy select if you want to delete the portion at the top right corner of the file that looks strangely like the very thing we are trying to eliminate. Zooming in to 200%+ will help with the corners next to the other armour portions.\r<br />5. Strictly speaking I&#39;m not quite sure if you need to edit  femaledraugrarmor_n.dds but I just do so anyways. The &#39;armourhere&#39;_n.dds means they are normal maps and they defined as &#34;A normal map is a map that, oddly enough, calculate normals and is a fake sense of depth. It calculates how the light reacts to the surface, and at a certain angle it will be seen as real depth.&#34; ~   [url=https://forums.nexusmods.com/index.php?/user/2605357-werne/]Werne[/url] (2011)\r<br />6. Once done with the textures DO NOT SAVE THEM; [b]export[/b] them as DDS files using the [u]export as[/u] function and place them in the appropriate folder i.e Steam&#92;steamapps&#92;common&#92;Skyrim&#92;Data&#92;Textures&#92;armor&#92;draugr . You&#39;re done :)\r<br />\r<br />This should also be relevant for other similar simple changes to other armours. I hope it helped someone as hopeless as i was with this&#33;\r<br />                     \r<br />FAQ\r<br />The changes are not showing up&#33;\r<br />A: You probably don&#39;t have the [i]Official Skyrim High-Resolution Texture pack[/i] installed. Read my How-to if you don&#39;t want to install it.\r<br />\r<br />This doesn&#39;t change the meshes&#33;\r<br />A: I have no idea how, kudos if you do.\r<br />\r<br />Clearly skimpy armor mod&#33; You just wanna see more chest&#33; \r<br />A: I only edited the basic vanilla texture and removed three inconsequential metal bands that would hardly provide any protection much less stop disembowelment on a otherwise already inadequate armour with copious sideboob\r<br />\r<br />AN: be sure to credit me for the amazing tutorial if you use it elsewhere :^)\r<br />",
+  "categoryId": "54",
+  "version": "",
+  "author": "kjosrb",
+  "createdUnix": "1478979500",
+  "updatedUnix": "1478979399",
+  "containsAdultContent": false,
+  "uploadedBy": "kjosrb",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000227941",
+      "name": "Ancient nord female armor replacer",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11731",
+      "fileName": "Ancient nord female armor replacer-80176-.zip",
+      "uploadedUnix": "1478979399",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/1a9bb59662a748ee1e5eb6615107978330be198ba2fc8ac8f60a19c9b91f4aa7/analysis/1478990405/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ancient%20nord%20female%20armor%20replacer-80176-.zip?fid=1000227941&ttl=1535868816&ri=8192&rs=8192&setec=c0134092edbbb1198311e9d17bc903f0"
+    }
+  ]
+}

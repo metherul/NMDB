@@ -1,0 +1,48 @@
+{
+  "modId": 75741.0,
+  "modName": "Vivacity ENB",
+  "summary": "Crafted to include an entirely new weather-system and polished ENB preset to construct an authentic and lore-friendly fidelity with a realistic curve. ",
+  "descriptionHtml": "[center]\r<br />[color=#980000][b]NO LONGER SUPPORTED[/b][/color]\r<br />\r<br />[img]http://i.imgur.com/TxfVyST.png[/img]\r<br />\r<br />\r<br />[youtube]AHKerEGnIcc[/youtube]\r<br />Thanks to [url=https://www.youtube.com/user/hodilton]Hodilton[/url]\r<br />\r<br />\r<br />           [img]http://imgur.com/czWPAdX.png[/img][/center][b][b][size=3][color=#980000]\r<br />[font=Times New Roman]Remove all previous lighting/weather/ENB mods that may have been installed previously.[/font][/color][font=Times New Roman]\r<br />[/font][/size][/b][/b][font=Times New Roman]\r<br />1. Download the latest ENB series, copy the d3d9.dll & enbhost.exe from &#34;WrapperVersion&#34; to your Skyrim directory.\r<br />\r<br />2. Within Vivacity.rar, open FILES and choose a quality preset,\r<br />\r<br />   Extreme - Lowest Frame rate, best quality.\r<br />   Quality - Moderate Frame rate, good quality.\r<br />   Performance - Best Frame rate, worst quality.\r<br />3. Drag all files into the Skyrim Directory & replace all conflicts\r<br />\r<br />   Edit your SkyrimPrefs.ini:\r<br />     fGamma=1.0000\r<br />     bFloatPointRenderTarget=1\r<br />     bDeferredShadows=1\r<br />     bTreesReceiveShadows=1\r<br />     bDrawLandShadows=1\r<br />     bShadowsOnGrass=1\r<br />     iMultiSample=0\r<br />     iMaxAnisotropy=1\r<br />     bFXAAEnabled=0\r<br />\r<br />   Open up SkyrimLauncher.exe, disable all AA/AF, make sure FXAA is disabled additionally. Furthermore, make sure no AA/AF is forced in GPU Control Panels, if    so, disable it. \r<br />[color=#980000]\r<br />[b]IMPORTANT [/b][/color]\r<br />\r<br />   To achieve shadows on the trees at further distance you will need to edit a few values in SkyrimPrefs.ini.\r<br />   fShadowDistance=14000.0000  If you use vanilla trees / SFO Basic\r<br />   fShadowDistance= 12000.0000 If you use SFO Regular\r<br />   iShadowMapResolution=8192 Optional but will fix low resolution shadow\r<br />   If you use extra uGrids read on.\r<br />   uGridstoload=5\r<br />   fShadowDistance=14000.0000\r<br />   iShadowMapResolution=8192 //Optional but will fix low resolution shadows\r<br />   Increase fShadowDistance by 4000 per every 2 uGrid increase / Increase iShadowMapResolution by 2048. \r<br />   Or you may just replace with the included SkyrimPrefs.ini.\r<br />\r<br />   I am in need of pictures&#33; It would be much appreciated if you uploaded some :)\r<br />\r<br />\r<br />[center][img]http://imgur.com/ZEkS7hw.png[/img][/center]\r<br />\r<br />[size=2][size=4][size=4][size=4][size=4][size=4][size=4][size=4][size=2][size=4][size=2][size=2][size=3] Other Lighting/Weather Mods:[/size]\r<br />[/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/font]\r<br />-Not compatible with Lighting/Weather mods \r<br />[size=2][size=4][size=4][size=4][size=4][size=4][size=4][size=4][size=2][size=4][size=2][size=2][size=2][size=4][size=4][size=4][size=4][size=4][size=4][size=4][size=2][size=4][size=2][size=2]-Not compatible with any &#34;exterior&#34; fog mods because FIDELITY weather already does this.[/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][size=4][size=4][size=4][size=4][size=4][size=4][size=4][size=2][size=4][size=2][size=2][size=2][size=4][size=4][size=4][size=4][size=4][size=4][size=4][size=2][size=4][size=2][size=2]\r<br />[/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size][/size]-Not compatible with Climates Of Tamriel, Pure Weathers, Purity or any other weather mods.\r<br />-Make sure that Vivacity Weather.esp is above the Lighting/Weather mod(s) and Vivacity Snow FX.esp is below\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />[center]                                [img]http://imgur.com/pET06HE.png[/img][/center][size=2]\r<br />Confidence Man for the guidelines of the creation of the weather plugin[/size][size=2]\r<br />The amazing guys/girls over at [url=https://www.reddit.com/r/SkyrimPorn/]/r/skyrimporn[/url]\r<br />The guys at the ENB forum\r<br />Boris Vorontsov for the brilliant creator for ENB injection.\r<br />Hodilton for great advice and video[/size][size=2]\r<br />All ENB Modders for so much inspiration that headed towards this ENB\r<br />Mindflux for the aesthetic, amazing snow particles[/size] \r<br />Kingeric for the rain/snow FX\r<br />JawZ for the brilliant atmosphere mesh\r<br />Matso for various FX files\r<br />Kyokushinoyama for advice and help\r<br />\r<br />\r<br />[center][b]\r<br />\r<br />[/b]                                                 [img]http://imgur.com/jQzL7me.png[/img][/center]\r<br />\r<br />[b]New updates[/b][b]\r<br />[/b]\r<br />For V1.2 \r<br />-Better sunlight contrast and brightness\r<br />-Improved night shading\r<br />-Improved interior brightness and coloring\r<br />-Sky coloring\r<br />-Direct light coloring\r<br />\r<br />\r<br />Suggest in post section\r<br />\r<br />\r<br />[b]What to expect from myself and this ENB?[/b]\r<br />The ENB will not be updated as much as I originally planned. Whence why the ENB is now fully released and potentially is lacking in aesthetic content. However, this does not mean that work is not being done, if you have any issues or requests e.g. less bright days, I can complete that for you. It will be slow from now on, but thank you for the support and kind words, additionally the criticism has improved this ENB unbelievably.\r<br />[b]\r<br />Crash at start?[/b]\r<br />This is often due to recording software such as dxtory etc; just close them before running. However, if you cannot launch the game without any recording software running, you may have an issue with the ENB Wrapper version. To fix this error, you will need to install the Injector option from the ENB binary. Drag the files with &#34;injector&#34; in the name into the Skyrim Directory. Now before launching each game start, run the enbinjector.exe.\r<br />\r<br />[b]Whitewashed bright ENB; BROKEN?[/b]\r<br />If you are experiences issues, making the ENB ultra bright and washed out, that is an issue with the load order of the mods or conflicting mods. Make sure that all files are installed and FIDELITY&#34;&#34;.esps are at the bottom of the load order. IF YOU STILL ARE EXPERIENCING ISSUES, CONTACT ME&#33;\r<br />I will respond to every message, don&#39;t worry :)\r<br />\r<br />[b]Performance?[/b]\r<br />If you are experiencing low fps, install the performance optional file, this will remove all AA and reduce all other features to their lowest value. The only difference is in minutiae detail, however this is not noticeable.\r<br />\r<br />[b]Modlist?[/b]\r<br />My mods list is very simple: Verdant 1.6 w/ Dark textures, aMidianBorn Book of Silence, Skyrim 2K, Superior Rock Textures LGrey 4k, SRO, Ultimate HD Fire Effects and obviously; Vivacity ENB :) Additionally, I have extremely high values for uGrids (13), shadow distance(40000), shadow resolution(16384), grass fade distance (12000) and grass densities (15) and ran on 4K resolution, downscale to 1080p; they are impractical (8fps)",
+  "categoryId": "97",
+  "version": "v1.7",
+  "author": "fmcpherson",
+  "createdUnix": "1463696944",
+  "updatedUnix": "1468764427",
+  "containsAdultContent": false,
+  "uploadedBy": "fmcpherson",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000212598",
+      "name": "Vivacity ENB v1.7",
+      "version": "v1.7",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "41449",
+      "fileName": "Vivacity ENB v1.7-75741-v1-7.zip",
+      "uploadedUnix": "1468031531",
+      "modVersion": "v1.7",
+      "virusScanUrl": "https://www.virustotal.com/file/4a6c68a9f1ae783eea9fe37284a95b298de613a467c47efd7f3449daff3c79be/analysis/1468042631/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vivacity%20ENB%20v1.7-75741-v1-7.zip?fid=1000212598&ttl=1535864492&ri=8192&rs=8192&setec=7bef58f642fe550d252f272196eaad71"
+    },
+    {
+      "fileId": "1000213497",
+      "name": "Vivacity ENB v1.6",
+      "version": "v1.6",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "43426",
+      "fileName": "Vivacity ENB v1.6-75741-v1-6.zip",
+      "uploadedUnix": "1468764427",
+      "modVersion": "v1.6",
+      "virusScanUrl": "https://www.virustotal.com/file/b246837477e0425a552aad49db691a1dac1ca492b202b68d5defcea487e5c059/analysis/1468775421/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vivacity%20ENB%20v1.6-75741-v1-6.zip?fid=1000213497&ttl=1535864493&ri=8192&rs=8192&setec=5c33d64dce71595d0edb43657f21c601"
+    }
+  ]
+}

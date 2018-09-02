@@ -1,0 +1,32 @@
+{
+  "modId": 16266.0,
+  "modName": "Additional Vanilla NPC Follower Voice Types",
+  "summary": "Allows you to recruit 31 additional NPCs with a larger variety of voices as a follower.",
+  "descriptionHtml": "One thing that bugged me about Skyrim, was that there were many generic NPC voices, but out of many (40-60, I\\'d wager), you could only recruit around 8, with others being unique voices.\r\n\r\nNow, I changed that. I edited the \\\"NeutralFollowerVoiceTypes\\\" formlist to include a much larger number of voices (31 to be exact), and then added silent .xwm files toavoid that annoying dialogue *Flash* that happens when there are no sounds to accompany an NPC\\'s dialogue.\r\n\r\nAdded voices :\r\n\r\nFemaleArgonian\r\nFemaleChild\r\nFemaleCommoner\r\nFemaleCoward\r\nFemaleElfHaughty\r\nFemaleKhajiit\r\nFemaleNord\r\nFemaleOldGrumpy\r\nFemaleOldKindly\r\nFemaleShrill\r\nFemaleSoldier\r\nFemaleSultry\r\nMaleBandit\r\nMaleChild\r\nMaleCommander\r\nMaleCommoner\r\nMaleCommonerAccented\r\nMaleCondescending\r\nMaleCoward\r\nMaleElfHaughty\r\nMaleEventoned\r\nMaleForsworn\r\nMaleGuard\r\nMaleNordCommander\r\nMaleOldGrumpy\r\nMaleOldKIndly\r\nMaleSlyCynical\r\nMaleSoldier\r\nMaleUniqueGhost\r\nMaleWarlock\r\nMaleYoungEager\r\n\r\nTo test if it\\'s working, go to someone that has one of the listed voicetypes (GIlfre in Mixwater Mill, for example. She has the FemaleCommoner voicetype), and increase your relationshiprank with them. This can be done without console by, say, chopping wood (For Gilfre) and then giving it to her. In Skyrim, your relationshiprank has been raised by doing a task for her, but in vanilla, you wouldn\\'t be able to have her as a follower.\r\nNow you can.\r\n\r\nEdit: Completely forgot about this. You may need to use the included .txt file to add your desired NPC to the right factions to have them as a follower. Just open the console, click on the NPC, type \\\"bat EnemyFollow\\\" and your done.\r\n\r\nPlace the txt file in your Skyrim folder (The one where TESV.exe is located)",
+  "categoryId": "66",
+  "version": "1.0",
+  "author": "GomuGomu64",
+  "createdUnix": "1335900467",
+  "updatedUnix": "1338639654",
+  "containsAdultContent": false,
+  "uploadedBy": "GomuGomu64",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "65340",
+      "name": "Additional NPC Follower Voice Types",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "192",
+      "fileName": "Additional NPC Follower Voice Types-16266-1.rar",
+      "uploadedUnix": "1338639654",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/74903434ea5901a6867d8b5d2bfc052e5d27e88afb9dd2865af509e1d9ef4433/analysis/1406931724/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Additional%20NPC%20Follower%20Voice%20Types-16266-1.rar?fid=65340&ttl=1535781292&ri=8192&rs=8192&setec=083a96e049fdd6da5b55e3b7f51c40f4"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 23065.0,
+  "modName": "Bolt quiver fix",
+  "summary": "All a long time ago took issue with crossbow quiver. A cure was pretty easy. Here\\'s my version of \\\"cure\\\"",
+  "descriptionHtml": "All a long time ago took issue with crossbow quiver.\r\nA cure was pretty easy. \r\nHere\\'s my version of \\\"treatment\\\"\r\nThe model was slightly elevated, so as not to \\\"rip up\\\" tails of beastraces\r\n\r\n\r\nComments from author\r\nThe reason for the bug: As I understand it, the arrows are attached to the \\\"plane\\\" on the back of the player. The developers of this seems to have forgotten, and the model was too small \\\"stock\\\" in the deviation from this plane.\r\nWhat does this fix: In fact, just replace \\\"vanilla\\\" model with the \\\"vanilla\\\" with far-offset axes.\r\nIncompatibility and requirements: must be installed DLC \\\"dawnguard\\\".  Incompatible with any model replacement of bolt quiver.\r\nDistribution: Free, just give credits :3.",
+  "categoryId": "95",
+  "version": "1.1",
+  "author": "Sufferot",
+  "createdUnix": "1345962363",
+  "updatedUnix": "1345977131",
+  "containsAdultContent": false,
+  "uploadedBy": "sufferot",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "84292",
+      "name": "bolt quiver fix v1",
+      "version": "",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "bolt quiver fix v1-23065-.rar",
+      "uploadedUnix": "1345962445",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/f436ea80bdd7bc29e23c3721fcab74520f36035007dff5082604c38760da0000/analysis/1407122403/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/bolt%20quiver%20fix%20v1-23065-.rar?fid=84292&ttl=1535793036&ri=8192&rs=8192&setec=9c897108b9550320c418eed90c06d109"
+    },
+    {
+      "fileId": "84322",
+      "name": "Bolt_fix_V11",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "21",
+      "fileName": "Bolt_fix_V11-23065-.rar",
+      "uploadedUnix": "1345977131",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/fa382bb7cf8f388baf7e257980dae5e1199508f89e6fc2affcc64d210deabaaf/analysis/1407122703/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bolt_fix_V11-23065-.rar?fid=84322&ttl=1535793037&ri=8192&rs=8192&setec=75d8d57fa64ef7703781af39a0442ab0"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 9107.0,
+  "modName": "More Decaps",
+  "summary": "A simple mod that increases the chances of decapitating your foes when you would normally have the opportunity.",
+  "descriptionHtml": "A simple mod that increases the chances of decapitating your foes when you would normally have the opportunity.\r\n\r\nStill requires that you meet the normal conditions for decapitation, meaning that you must have the right perk, use the right weapon, and attack with a standing power attack against a non-busy NPC-type opponent. \r\n\r\nNote: Decap also only occurs along with the slow-mo finishing move animation.\r\n\r\nYou will also decapitate with any hand-to-hand power attack finishing move against an eligible opponent.\r\n\r\nNecessary conditions to activate kill move:\r\n- Facing your opponent\r\n- Target not equipping\r\n- Self not in bashing attack state\r\n- Target not blocking\r\n- Target not sitting\r\n- Attack must kill\r\n- Target not leaning\r\n- Target not laying\r\n- Target not staggered (removed)\r\n- Within range on Z-axis (widened fully)\r\n- Target was last hostile actore (removed)\r\n- Target not paralyzed (removed)\r\n- Target is type \\'NPC\\', not flagged as non-decapitatable, not a ghost\r\n\r\nV2.3 - 2012 Feb 12:\r\nAdded global variable for hand-to-hand decaps KillMoveH2HDecap, 1=On, 0=Off, 2 versions on SkyrimNexus http://skyrim.nexusmods.com/downloads/file.php?id=9107\r\n\r\nV2.2 - 2012 Feb 11:\r\nGeneral clean-up, seems to be working better with power attacks all-around\r\n\r\nV2.1 \r\nRemoved Last Hostile requirement\r\nRemoved non-paralyzed requirement (needs testing)\r\nHopefully fixed reverse unarmed decaps\r\n\r\nV2 - 2012 Feb 10: \r\nAdded the ability to perform unarmed decaps. \r\nShould not have to be the last hostile actor to trigger kill moves.\r\n\r\nV1 - 2012 Feb 9:\r\nIncreased global chance of decapitation under normal decapitation chance conditions.\r\n\r\nKnown bugs:\r\n- unarmed non-power attacks don\\'t seem to work yet\r\n\r\nKnown incompatibilities:\r\n- Carry 100x your weight mod (reported, needs testing)\r\n- Probably anything that directly affects animation hierarchies for kill moves\r\n\r\n\r\n\r\n\r\nFuture versions:\r\n- Variable percentage chance\r\n- Allow decap in more combat situations\r\n- Increase chances of slow-mo finishing moves",
+  "categoryId": "24",
+  "version": "2.3",
+  "author": "BaseLine",
+  "createdUnix": "1329026411",
+  "updatedUnix": "1329080539",
+  "containsAdultContent": true,
+  "uploadedBy": "Cooljoebob64",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "29419",
+      "name": "More Decaps",
+      "version": "2.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "More Decaps-9107-2-2.zip",
+      "uploadedUnix": "1329026951",
+      "modVersion": "2.2",
+      "virusScanUrl": "https://www.virustotal.com/file/ac8a3157e163246cab5aa0c3c46a95fd8de788a63357529bbc6787d3ec99d0df/analysis/1406672346/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/More%20Decaps-9107-2-2.zip?fid=29419&ttl=1535768368&ri=8192&rs=8192&setec=6247a602edebd94bc853f31bb09f3553"
+    },
+    {
+      "fileId": "29890",
+      "name": "More Decaps 2_3",
+      "version": "2.3",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "More Decaps 2_3-9107.zip",
+      "uploadedUnix": "1329080539",
+      "modVersion": "2.3",
+      "virusScanUrl": "https://www.virustotal.com/file/35b714fc5a26f3d26f87e35f928d1241ddbc51dfc907c4d45880d30a2de38dc0/analysis/1406674804/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/More%20Decaps%202_3-9107.zip?fid=29890&ttl=1535768368&ri=8192&rs=8192&setec=aa6a809482d70053af74a7f2f585c899"
+    }
+  ]
+}

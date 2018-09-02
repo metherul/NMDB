@@ -1,0 +1,32 @@
+{
+  "modId": 13306.0,
+  "modName": "ENB SSAO and DoF Toggler for Skyrim",
+  "summary": "This is an utility for Skyrim ENB user. You can turn On/Off SSAO or DoF\r\neasily while you\\'re playing the game. You don\\'t have to switch the window\r\nby Alt+Tab in order to edit INI file anymore.\r\n\r\nv1.2 you can customize hotkeys.",
+  "descriptionHtml": "======================================================================\r\nENB SSAO and DoF Toggler\r\n\t\t\t\t\t\t\tv1.2.1\r\n\t\t\t\t\t\t\t2012-3-17\r\n======================================================================\r\nThis is an utility for Skyrim ENB user. You can turn On/Off SSAO or DoF\r\neasily while you\\'re playing the game. You don\\'t have to switch the window\r\nby Alt+Tab in order to edit INI file anymore.\r\n\r\nSSAO and Depth of Field improve the visual greatly, but they are also performance killer.\r\nIn my case, I\\'ve got only 40 fps when DoF is on, 60fps when DoF is off.\r\nSo, I usually play Skyrim w/o DoF, and switch it on only when I take screenshots.\r\nI recommend this utility who has low-end or middle-range PC.\r\n\r\nv1.2 you can customize hotkeys.\r\n\r\n\r\n======================================================================\r\nInstallation\r\n======================================================================\r\nPut ENBSSAODoFtoggler.exe into your Skyrim ROOT folder, where the enbseries.ini is located.\r\n\r\n\r\n======================================================================\r\nHow to Use\r\n======================================================================\r\n\r\n!!! Back up your ENB setting files before run this program !!!\r\n\r\n1. Run this program.\r\n2. The keyconfig window will popup. Customize your hotkeys.\r\n   Default hotkeys:\r\n\tToggle SSAO and DoF: [F12]\r\n\tToggle DoF: [Ctrl] + [F12]\r\n\tToggle SSAO: [Alt] + [F12]\r\n3. Launch Skyrim. (But you can run this utility before or during the game.)\r\n4. Press your hotkey and then \\\"KeyReadConfig\\\" key, usually it is [BackSpace].\r\n\r\n\\\"KeyReadConfig\\\" is defined in \\\"enbseries.ini\\\", as following;\r\n\r\n\t[INPUT]\r\n\t KeyReadConfig = 8 //BackSpace\r\n\r\n5. To stop the program, right-click the tray icon and select Exit.\r\n6. If you want to customize hotkeys again, delete ENBSSAODoFtoggler.ini\r\n   and then re-run ENBSSAODoFtoggler.exe.\r\n\r\n [color=yellow][b]Press hotkey and then Backspace[/b][/color], very simple.\r\n======================================================================\r\nUninstallation\r\n======================================================================\r\nJust delete ENBSSAODoFtoggler.exe and ENBSSAODoFtoggler.ini\r\n\r\n\r\n======================================================================\r\nChangelog\r\n======================================================================\r\nv1.2\r\n+Customizable hotkey\r\n\r\nv1.1\r\n+All functions are integrated to one exe file.\r\n+Added error messages if enbseries.ini is not found, or read-only.\r\n+Works only when skyrim is running.\r\n+Prohibited run multiply at the same time.\r\n\r\nv1.0 Initial release",
+  "categoryId": "39",
+  "version": "1.2.1",
+  "author": "yukl",
+  "createdUnix": "1332220237",
+  "updatedUnix": "1332220392",
+  "containsAdultContent": false,
+  "uploadedBy": "yukl",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "45009",
+      "name": "ENBSSAODoFtoggler_v1_2_1",
+      "version": "1.2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "199",
+      "fileName": "ENBSSAODoFtoggler_v1_2_1-13306-1-2-1.zip",
+      "uploadedUnix": "1332220392",
+      "modVersion": "1.2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/222d951ebd363b8b7aa6c98e3950f7902b75415890c720680d6ca1162838bdb5/analysis/1406769062/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENBSSAODoFtoggler_v1_2_1-13306-1-2-1.zip?fid=45009&ttl=1535775974&ri=8192&rs=8192&setec=654ea4ed9911df3d0a7ff8768dc54d32"
+    }
+  ]
+}

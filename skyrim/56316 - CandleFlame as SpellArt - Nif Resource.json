@@ -1,0 +1,32 @@
+{
+  "modId": 56316.0,
+  "modName": "CandleFlame as SpellArt - Nif Resource",
+  "summary": "A Nif i made that lets u use Candleflames as Spelleffects - FOR EXPERERIENCED MODDERS ONLY",
+  "descriptionHtml": "This is meant to be an example/resource for modders that want to play with particle systems.\r<br />\r<br />implemented in LOHS http://www.nexusmods.com/skyrim/mods/56474/?\r<br />\r<br />Ill copy/paste my forum post here.\r<br />Pls see the whole thread if yu want the see the train of thoughts and a hint about deforming particles&#33;\r<br />http://forums.nexusmods.com/index.php?/topic/1934489-using-a-candleflame-in-a-magic-effect/page-2\r<br />\r<br />[b]YOU MUST ASK ME FOR PERMISSION BEFORE USING THIS IN YOUR OWN MOD&#33;\r<br />YOU ARE NOT ALLOWED TO REUPLOAD THIS TO ANY OTHER SIDE&#33;\r<br />MESSAGE ME ON NEXUS FOR PERMISSION/QUESTIONS\r<br />[/b]\r<br />credits to Chesko\r<br />--------------------------------------------------\r<br />Ok ill leave it like that now. I added a Alpha nif for anyone who is intrested to download. Its meant to be used as an &#34;art object&#34; for a &#34;Hit Effect Art&#34; (constant Effect). The praticle systems can be found under the last NiNode (69) and there is a mover NiNode (70) (transform the 69 or 70 NiNodes to move the flame+glow around) witch is currently moved along the z axis. Its attacht to the targets MagicEffectsNode (where all normal spells will hit a target). You should leave the NiControllerManager node (4) and LagBone node (65) alone if u use it as a hit effect.\r<br />\r<br />Dont mind the Naming of all the nodes... they are messed up and ill fix them someday maybe.\r<br />\r<br />The scaling is identical to the CandleFlame01.nif mps but factored by 10 via the BSPSysScaleModifier. Use these modifiersfor scaling.\r<br />\r<br />\r<br />the rest is up to you.\r<br />\r<br />Thx to Chesko for permission\r<br />--------------------------------------------------",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "h4n4",
+  "createdUnix": "1406251542",
+  "updatedUnix": "1406251532",
+  "containsAdultContent": false,
+  "uploadedBy": "mastabenja",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000119108",
+      "name": "CandlFlameEffectALPHA 1.0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "CandlFlameEffectALPHA 1.0-56316-1-0.rar",
+      "uploadedUnix": "1406251532",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/79aaa0368dfa2d6322367e71d2c263a977df11e76ecff77ec660b94d07cc3bc6/analysis/1406251597/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CandlFlameEffectALPHA%201.0-56316-1-0.rar?fid=1000119108&ttl=1535841593&ri=8192&rs=8192&setec=8a071abf13022f8ad873d43f3ae49483"
+    }
+  ]
+}

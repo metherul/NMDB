@@ -1,0 +1,32 @@
+{
+  "modId": 56159.0,
+  "modName": "Speedometer",
+  "summary": "Small mod for debugging/reverse engineering: Prints the player&#39;s speed every 3 seconds. NOT intended for normal players, this is a tool for nerds only&#33;",
+  "descriptionHtml": "[heading]What it does[/heading]\r<br />Displays the player&#39;s speed as a notification every 3 seconds.\r<br />\r<br />[heading]Why the world needs it[/heading]\r<br />As far as I know, the exact formula for the player&#39;s speed is unknown. It is somehow influenced by armor and weapons, but we don&#39;t know how. The purpose of this mod is to find out this formula.\r<br />\r<br />My theory so far:\r<br />The weight of all worn armor and weapons is summed up. The run speed is decreased by weight*0.130%.\r<br />Carry capacity, level, and stamina have no influence.\r<br />\r<br />Example: When wearing the full Daedric Armor plus some 2H sword, the total weight was 104, and the run speed was reduced by 13.52% from 370 to about 320.\r<br />\r<br />[heading]Why the exact movement speed formula would be interesting to anyone[/heading]\r<br />In short: To get animations right. Let&#39;s say a run animation is animated for a run speed of 370. This animation consists of two short jumps. Each jump has a duration and a number of z-positions over time. When the run speed is scaled down by the animation system, the run animation simply plays slower. That means the jump&#39;s duration increases, but the z-positions remain the same.\r<br />\r<br />Now, these z-positions aren&#39;t arbitrary. They are governed by physics, namely gravity. The basic equation is z=-g*t^2, where t is time and g is the gravity acceleration. So what happens when an animation is scaled in time, but the z-positions aren&#39;t? Well, actually it changes gravity&#33; Let&#39;s say we have the basic run animation, z0 = -g0 * t0^2. Now the time is scaled, t1 = f * t0. Let&#39;s take the example from above, where the speed is scaled by 100%-13% = 87%. That means the duration is scaled by 1/0.87 = 1.15, so the animation takes 15% longer. So f = 1.15, t1 = 1.15 * t0. Since the animation system doesn&#39;t change z, we have z0 = z1. That means -g0 * t0^2 = z0 = z1 = -g1 * t1^2. If we plug in t1 we get -g0 * t0^2 = -g1 * t1^2 = -g1 * (1.15*t0)^2 = -g1 * (1.15*1.15)*t0^2 = -(g1 * 1.32)*t0^2. So g1 = g0 * (1/1.32) = g0 * 0.76 = g0 * (1 - 0.24).\r<br />\r<br />In other words: [i]Increasing the animation duration by 15% means reducing gravity by 24%.[/i] That&#39;s a pretty big deal. \r<br />\r<br />When looking at an animation, of course we can&#39;t compute the exact gravity constant in our head. But still, we&#39;re really good at seeing it. That&#39;s the [b]only[/b] reason why we see how tall things are when they move: Think of these old Godzilla movies with people in suits, before special effects got good. Yes, they can build little houses, or try to move slower or play back the movie slower, to make the people in the suits look huge. But they can&#39;t change gravity. And we can see that, that&#39;s why it looks goofy.\r<br />\r<br />What does that mean for Skyrim? Well, assuming that the animation for running at normal speed is physically correct, it means that the animation for players in heavy armor is wrong: Players in heavy armor move as if gravity was reduced by 24%.\r<br />\r<br />[heading]How it works[/heading]\r<br />It checks the position of the player once per second. Every 3 seconds, it compares the current position and the position 1 second ago, and estimates the player&#39;s speed. Both the xyz and the xy speed are printed on the screen.\r<br />\r<br />Suggestions for improving the script are most welcome, because it kind of sucks... (Faster on-screen updates would be nice)",
+  "categoryId": "39",
+  "version": "0.1",
+  "author": "ndh",
+  "createdUnix": "1405854371",
+  "updatedUnix": "1405853400",
+  "containsAdultContent": false,
+  "uploadedBy": "ndh",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000118372",
+      "name": "ndh&#39;s Speedometer 0.1",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "ndh's Speedometer 0.1-56159-0-1.7z",
+      "uploadedUnix": "1405853400",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/489c18cd65f1118c3dc694526806bda73ad69b624651b202efd28577fdd63796/analysis/1405853406/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ndh%27s%20Speedometer%200.1-56159-0-1.7z?fid=1000118372&ttl=1535841373&ri=8192&rs=8192&setec=32a664da0b20f64dbd2dc73f4348befd"
+    }
+  ]
+}

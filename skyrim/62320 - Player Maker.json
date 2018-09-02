@@ -1,0 +1,32 @@
+{
+  "modId": 62320.0,
+  "modName": "Player Maker",
+  "summary": "Three BAT files for making new characters in Skyrim the fast, easy way.",
+  "descriptionHtml": "Sometimes I like to play Skyrim for just the stories and skip worrying about building a character using the traditional leveling system. These BAT files are what I use to completely subvert the Skyrim leveling system.\r<br />\r<br />Contents:\r<br />player - The base file for building a character\r<br />sbooks - Adds all skill books to the player&#39;s inventory\r<br />player2 - Sets all skills to 100\r<br />\r<br />How it works: \r<br />-Execute the player.txt file\r<br />-Make all skills legendary\r<br />-Execute the sbooks.txt file and read the skill books until a level is gained\r<br />-Execute the player2.txt file\r<br />-Apply perks as desired\r<br />\r<br />This ensures most level triggered quests are active with the exception of \r<br />the Ebony Warrior quest added by the Dragonborn DLC, which you need to be level 80 to start.\r<br />You may want to talk to Mjoll before gaining a level as well. That quest won&#39;t trigger until the player gains a level after initial dialogue\r<br />with her.\r<br />\r<br />Commands: bat player\r<br />                bat sbooks\r<br />                bat player2\r<br />\r<br />I recommend using Arthmoor&#39;s Alternate Start - Live Another Life mod with this.\r<br />Can be found here: http://www.nexusmods.com/skyrim/mods/9557/?",
+  "categoryId": "40",
+  "version": "1",
+  "author": "5kylar",
+  "createdUnix": "1423085069",
+  "updatedUnix": "1423085043",
+  "containsAdultContent": false,
+  "uploadedBy": "5kylar",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000146050",
+      "name": "Player Maker",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Player Maker-62320-1.7z",
+      "uploadedUnix": "1423085043",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/69ab0e5e226391783e7346076c1a4cdd8c154ac7979d0d7c1958e6eca856d5cf/analysis/1423085103/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Player%20Maker-62320-1.7z?fid=1000146050&ttl=1535851024&ri=8192&rs=8192&setec=513a5c852f43f0a74e3f55686f286229"
+    }
+  ]
+}

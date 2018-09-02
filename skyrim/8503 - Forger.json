@@ -1,0 +1,48 @@
+{
+  "modId": 8503.0,
+  "modName": "Forger",
+  "summary": "A mod that allows forging of unenchanted unique weapons and armor.",
+  "descriptionHtml": "Announcement: Forger will no longer be available for download on Skyrim Nexus as of March 1 and will only be available from the Steam Workshop. This page will remain intact but the files will become unavailable for download. It has become too time consuming to maintain the mod on 2 sites and keep up with comments and requests from the community.\r\n\r\nPrologue: This mod is not meant to be a cheat. It was created because I feel that someone who has spent the time to level smithing should be able to inspect quality craftsmanship and duplicate it. I will not add any items that cannot be obtained by the player through the course of normal game play using the base install of the game.\r\n\r\nForger is a mod that allows smithys to crate (forge) replica armor and weapons (forgeries) without any enchantments. The reason behind this mod was to allow players to enchant these specialty items to suit their play style. It started out as a simple arrow crafting mod but expanded to other items in the game that could not be crafted. The arrow crafting still exists, but you can now create Nightingale armor, Dark Brotherhood armor, Thieves Guild armor, and more.\r\n\r\nThe armor and weapons that are made craftable by this mod requires a smithing perk of some kind. They also require a specific quest to be completed before they will appear in the smithing category at the forge. I made the decision to restrict them by quest to ensure that the player had at least obtained the original before crafting copies. (How can you forge a forgery of something that you have never seen?) I will not document what quests will open up these recipies but rest assured that you will have them available after you receive the original items and you have the appropriate smithing perk.\r\n\r\nJust because I don\\'t want to give away the quest doesn\\'t mean I won\\'t give up the perks though. Here\\'s the list of perks needed and the smithing category under which the recipies are listed:\r\n[LIST]\r\n[*]Nightingale Armor: Leather category - Glass Smithing\r\n[*]Nightingale Weapons: Glass category - Glass Smithing\r\n[*]Dark Brotherhood (Shrouded Armor): Leather category - Advanced Armors\r\n[*]Thieves Guild/Guild Leader Armor: Leather category - Advanced Armors\r\n[*]Daedric Artifacts: Daedric category - Steel Smithing\r\n[*]Blades Armor and Sword: Steel category - Steel Smithing\r\n[*]Dragon Priest Masks (Light Armor): Glass Category - Glass Smithing\r\n[*]Dragon Priest Masks (Heavy Armor): Daedric Category - Daedric Smithing\r\n[*]Stormcloak Officer Armor - Steel Category - Steel Smithing\r\n[*]General Tullius\\' Armor - Steel Category - Steel Smithing\r\n[*]Redguard Sword - Steel Category - Steel Smithing\r\n[/LIST]\r\nDaedric Artifacts (All are in the Daedric Category):\r\n[LIST]\r\n[*]The Rueful Axe\r\n[*]Masque of Clavicus Vile\r\n[*]Volendrung\r\n[*]Mehrune\\'s Razor\r\n[*]Ebony Blade\r\n[*]Dawnbreaker\r\n[*]Mace of Molag Bal\r\n[*]Spellbreaker\r\n[/LIST]\r\nClothes (Require no perks but still have quest requirements)\r\n[LIST]\r\n[*]Redguard outfit\r\n[*]Thalmor outfit\r\n[*]Ulfric Stormcloak\\'s outfit\r\n[/LIST]\r\n\r\nINSTALL\r\n\r\nExtract the zip file to your Skyrim data directory.\r\n\r\nThis mod is also hosed on the [URL=http://steamcommunity.com/sharedfiles/filedetails/?id=8667]Steam Workshop[/URL]\r\n\r\nUNINSTALL\r\n\r\nRemove the Forger.ESP and Forger.BSA files from your Skyrim data directory. WARNING: Any items crafted with this mod will disappear from any characters that have them.\r\n\r\n\r\nCHANGE LOG\r\n\r\n*********************\r\nVersion 1.1\r\n*********************\r\n\r\nAdded:\r\n---------------------\r\nDragon Priest Masks\r\n[LIST]\r\n[*]Dragon priest masks have no quest requirement so a script was added to track when the masks are picked up. Players that already have one or more of the masks will need to drop them or store them in a container (any container) and pick them up in order for the script to recognize that they have acquired the item. This is a one time triggered event and is persisted to the save game file. The originals can be stored/sold/droped and still be available for crafting.\r\n[*]Light armor masks require Glass smithing and appear in the Glass category\r\n[*]Heavy armor masks require Daedric smithing and appear in the Daedric category\r\n[/LIST]\r\nRedguard sword (curved swords!)\r\nReguard light and dark cloth outfits\r\nThalmor outfit\r\nGeneral Tullius\\' armor\r\nStormcloak Officer armor\r\nUlfric Stormcloak\\'s outfit\r\n\r\nRemoved:\r\n---------------------\r\nArrow crafting. There are tons of other, and better, mods that allow this. I cannot guarantee that this mod will play nice with theirs.\r\n\r\nUpdated:\r\n---------------------\r\nNighingale weapons:\r\n[LIST]\r\n[*]They now appear in the Glass category when forging to keep the UI consistent with the required perk\r\n[*]The base damage as been adjusted to be equivalent to the highest level of the original\r\n[/LIST]\r\n\r\n*********************\r\nVersion 1.0\r\n*********************\r\nInitial Release",
+  "categoryId": "36",
+  "version": "1.1",
+  "author": "Pagannn",
+  "createdUnix": "1328802869",
+  "updatedUnix": "1329361531",
+  "containsAdultContent": false,
+  "uploadedBy": "Pagannn",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "27768",
+      "name": "Forger_1_0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Forger_1_0-8503.zip",
+      "uploadedUnix": "1328802978",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d36b089584f72be4ffd9f0e2ba287a7c25129c7db55241de11cc44221c807488/analysis/1406664303/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Forger_1_0-8503.zip?fid=27768&ttl=1535767283&ri=8192&rs=8192&setec=ccfe677488cf6e69b677475f093cee0c"
+    },
+    {
+      "fileId": "31871",
+      "name": "Forger_1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "Forger_1_1-8503).-1-1.zip",
+      "uploadedUnix": "1329361531",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/744acfb94c87eeca362b3a227b1ea62e4f0d56745969d292305fa66389777ad8/analysis/1406686277/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Forger_1_1-8503%29.-1-1.zip?fid=31871&ttl=1535767283&ri=8192&rs=8192&setec=611f22b2db925c394986eb0d7693f205"
+    }
+  ]
+}

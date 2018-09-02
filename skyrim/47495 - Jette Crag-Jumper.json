@@ -1,0 +1,48 @@
+{
+  "modId": 47495.0,
+  "modName": "Jette Crag-Jumper",
+  "summary": "Jette is Annekke Crag-Jumper's sister and a potential follower and spouse. She is involved in the main story line.",
+  "descriptionHtml": "***PLEASE NOTE***\r\nDue to my stupidity if you downloaded version 1.0 you must perform something of a manual upgrade - see the Upgrade section below.\r\n\r\nHow did this happen?\r\n=========================\r\nI stumbled on Annekke Crag-Jumper as a follower early on in my Skrim playing. She had good looks, a true Nord sensibility and was not marriage material, even if Verner found an untimely demise (the guards could never prove it was me). So frustrated at not marrying the girl I wanted, I did what any enterprising player does: made my own via the Real Doll simulator...er... I mean Creation kit!\r\n\r\nAbout Jette\r\n=========================\r\nJette has been in the employ of the Jarl of Whiterun as a guard. She is good at closing in with a bow and the uses her duel wielding skill to ruin her target's day. Because of her healthier lifestyle she is clearly a little more robust than her sister. She can be found eating and sleeping at the Whiterun Guard house (just inside the gate across from Warmaiden's for you ingrates who never bring the hard working guards an occasional care package). As her tour of duty is up and very little prospects await her, she is eager to go adventuring. She will keep her basic guard gear until you help her find more suitable gear (she prefers light armor).\r\n\r\nThe Technical Stuff\r\n=========================\r\n• Jette plays a small role in the main quest.\r\n• Jette is a true dual wielder: Multiple swords, sword and dagger, sword and axe, etc. \r\n• Jette also levels shield, so giving her one works too.\r\n• Jette is marriable - for now just get your amulet on and she will be impressed\r\n• Jette is related to Sylja, Annekke and on good terms with Whiterun's guards and others, so don't be surprised by who shows up for the wedding.\r\n• I found out that Annekke is a Dutch name (Anneke) so Jette is also Dutch (pronounced the J as a Y like \"yetta\") which supposedly means Jet-black (as a mineral). \r\n\r\ncompatibility\r\n=========================\r\n• Jette seems pretty compatible with almost any mode I have tried.\r\n• Version 1.5 does edit Main Quest MQ104 so any mod that alters the first dragon fight at Whiterun could cause issues\r\n\r\nUpgrading\r\n=========================\r\nVersion 1.1 to 1.5 - Simply replace the previous file\r\n\r\nFor users upgrading from 1.0, following these steps BEFORE downloading:\r\n• Load your save game\r\n• Get all your given gear from Jette\r\n• Dismiss her as a follower\r\n• Divorce as needed\r\n• Create a new save\r\n• Remove the older file named: JetteCraigJumper.esp (or with NMM uninstall it)\r\n• Download and install the newer files into your SkyrimData folder (it contains \"JetteCragJumper.esp\") or use NMM\r\n• Go back to Whiterun and meet Jette again (remember during daytime hours she patrols) \r\n\r\nHow to divorce:\r\n• Select spouse. \r\n• Enter the following console commands: \r\n[code]  removefac 51596 \r\n  player.removefac C6472 \r\n  resetquest 74793 \r\n  resetquest 21382 \r\n  setstage 74793 10 [/code]\r\n• Wait for 24 hours. \r\n• Then proceed to marry as normal. \r\n\r\n\r\nThings to do (I am learning so help would be appreciated)\r\n=========================\r\n• Correct name misspelling  (Fixed!)\r\n• Some custom dialogue (location, meeting, etc)\r\n• attaching her to Annekke's quest faction\r\n• Mixing her into the main quest and having her be one of the guards that fights the first dragon with you (making this and/or Annekke's quest be the triggers for her relationship with you).\r\n• Expanding her sandbox; right now she doesn't leave the guard house but next version she will do patrols  (Some added!)\r\n• An actual house of her own\r\n",
+  "categoryId": "66",
+  "version": "1.5",
+  "author": "Bedevere",
+  "createdUnix": "1384834932",
+  "updatedUnix": "1385187949",
+  "containsAdultContent": false,
+  "uploadedBy": "Bedevere",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000080966",
+      "name": "Jette Crag-Jumper v1-1",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "163",
+      "fileName": "Jette Crag-Jumper-47495-1-1.rar",
+      "uploadedUnix": "1384919299",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7212955ac59c6b371f269e9e99028af047ec27e9c6d02bacbdc1c6ba9706ba2e/analysis/1407800208/",
+      "changelogHtml": " Fixed Charactername <br/> \n Added Whiterun patrol (9am to 7pm on weekdays) <br/> \n Added Whiterun Guardhouse return home package (9~10p, for 10 hours) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jette%20Crag-Jumper-47495-1-1.rar?fid=1000080966&ttl=1535827727&ri=8192&rs=8192&setec=62eecb837e7a2b777b3bcb1bc7f8ea73"
+    },
+    {
+      "fileId": "1000082029",
+      "name": "Jette Crag-Jumper v1-5",
+      "version": "1.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "170",
+      "fileName": "Jette Crag-Jumper v1-5-47495-1-5.rar",
+      "uploadedUnix": "1385187949",
+      "modVersion": "1.5",
+      "virusScanUrl": "https://www.virustotal.com/file/a5bfd34510b73a0d173f3971de475454e0900f02ebc8b97332bf8886ad2c2a4a/analysis/1407804424/",
+      "changelogHtml": " Cleaned up sandboxing order <br/> \n Jette now dines and enjoys herself in the Bannered Mare from 8pm to 11pm <br/> \n Injected Jette into the Main Quest, Following Irileth from the guard house and fighting along side you at the Watchtower <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jette%20Crag-Jumper%20v1-5-47495-1-5.rar?fid=1000082029&ttl=1535827727&ri=8192&rs=8192&setec=eb780ad0fae5e27cdeb350af188003ba"
+    }
+  ]
+}

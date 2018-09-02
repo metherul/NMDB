@@ -1,0 +1,32 @@
+{
+  "modId": 49126.0,
+  "modName": "Mostly Undo PSB cheat for Skyrim",
+  "summary": "This will remove ALMOST ALL spells and shouts created the PSB (portable spell book) cheat code, simply inputted as, PSB. Please read the warning before using.",
+  "descriptionHtml": "I, like many out there, made the grave mistake of using the PSB cheat code.\r<br />\r<br />I pretty much ignored it for a while and went, &#34;meh&#34; not being much of a magic user (more archery anyways). \r<br />\r<br />Finally, I got fed up. I couldn&#39;t reload a previous save since at that point I had invested so much time and leveled that I didn&#39;t have a previous save I wanted to use.\r<br />\r<br />Finding that other BAT txt files were lacking, and only removing about 1% of the spells and shouts, I decided to go all out.\r<br />\r<br />I found the code for nearly all the spells and shouts available.\r<br />\r<br />So now here&#39;s my warning:\r<br />\r<br />******WARNING******\r<br />This will remove ALMOST ALL spells/shouts created by the PSB cheat code.\r<br />\r<br />This does not remove the &#34;No name&#34; spells. (because they had no name, so I couldn&#39;t find them.)\r<br />\r<br />This does not remove the main spells you start with.\r<br />\r<br />This will remove temporary quest related spells/shouts.\r<br />\r<br />If you want certain spells back, you can find the ID for the spell book/tome in the excel file under type &#34;BOOK.&#34; Then do: playeradditem.&lt;Book ID&gt;\r<br />\r<br />If you have dedicated a lot of dragon souls this will remove the shouts you invested those dragon souls into, and you CANNOT GET THE DRAGON SOULS BACK. \r<br />But it isn&#39;t as if there aren&#39;t enough dragons in skyrim to go around slaying. Seriously, go slay some dragons.\r<br />\r<br />\r<br />\r<br />P.S. A how to and additional side notes about the excel files are contained in the Read Me file. Please read it.",
+  "categoryId": "40",
+  "version": "1.0",
+  "author": "Skitzochinchi",
+  "createdUnix": "1387854345",
+  "updatedUnix": "1387854305",
+  "containsAdultContent": false,
+  "uploadedBy": "skitzochinchi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000088133",
+      "name": "Undo PSB",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "73",
+      "fileName": "Undo PSB-49126-1-0.zip",
+      "uploadedUnix": "1387854305",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/19ab1c53e734d46b7f30f008c25ab004f72804d87811edfcb35115592635706e/analysis/1407856322/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Undo%20PSB-49126-1-0.zip?fid=1000088133&ttl=1535829731&ri=8192&rs=8192&setec=55598255057927c36e71335f3338dd9d"
+    }
+  ]
+}

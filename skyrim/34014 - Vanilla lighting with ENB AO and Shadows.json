@@ -1,0 +1,32 @@
+{
+  "modId": 34014.0,
+  "modName": "Vanilla lighting with ENB AO and Shadows",
+  "summary": "An ENB config that uses your game&#39;s existing lighting and color but uses the ENB series&#39; Ambient Occlusion and Detailed Shadows settings.  Most useful when used with mods like CoT, ELFX, RLO, etc.",
+  "descriptionHtml": "[b]Update, 10th Nov 2014[/b]\r<br />\r<br />I haven&#39;t played Skyrim in a long while and ENB has changed a bit since then.  These config files are no longer useful with the new ENBs, so please don&#39;t download them if you&#39;re using anything after 0.166 or so.\r<br />\r<br />However, the method described below still works.  To use it, download and install ENB (WrapperVersion) from [url=http://enbdev.com/download_mod_tesskyrim.htm]http://enbdev.com/download_mod_tesskyrim.htm[/url].  Make the following changes to the installed files:\r<br />\r<br />[b]enbseries.ini, EFFECT section[/b]:\r<br />[list=1][*][size=2]UseOriginalPostProcessing=true[/size][/*]\r<br />[*][size=2]EnableAmbientOcclusion=true[/size][/*]\r<br />[*][size=2]EnableDetailedShadow=true[/size][/*]\r<br />[/list]\r<br />[b]enbeffect.fx[/b]:\r<br />[list=1][*][size=2]Change #define POSTPROCESS 3 to #define POSTPROCESS 0 (change the 3 to a 0).[/size][/*]\r<br />[/list]\r<br />[b]enblocal.ini, ANTIALIASING section[/b]:\r<br />[list=1][*][size=2]EnableEdgeAA=true[/size][/*]\r<br />[/list]\r<br />\r<br />There are other effects that you may find useful in the EFFECT section of enbseries.ini, so play around by enabling those as you like.  Do note that the default DepthOfField provided with ENB is pretty bad, so you&#39;ll need to get one elsewhere if you want to use it.\r<br />\r<br />\r<br />[b]Original description follows[/b]\r<br />\r<br />[color=#b6b6b6]\r<br />This is the stock 0.166 release with UseOriginalPostProcessing=true in enbseries.ini and #define POSTPROCESS 0 in enbeffect.fx.  AmbientOcclusion and DetailedShadows are enabled, as is the new Rain effects section.  In fact, if you&#39;re comfortable editing the ENB, just download stock 0.166 and make those changes yourself - no need to download this at all.\r<br />[/color]\r<br />\r<br />[b]This is useful if you like using, say, Climates Of Tamriel, Realistic Lighting Overhaul, Enhanced Lights and FX, or any of the other lighting mods for your lighting but still want the AO and Shadows from ENB.  I use Climates of Tamriel outdoors and RLO indoors along with this setting.[/b]\r<br />\r<br />[color=#b6b6b6]\r<br />To help decide whether you want to upgrade your ENB dll:\r<br />- ENB 0.155 saw a large improvement in the AO code, so the overhead of enabling it is much less than before.\r<br />- ENB 0.157 improved grass and tree shadows and added a cool new profiler to the in-game menu.\r<br />- ENB 0.166 has minor performance fixes for rare issues.\r<br />\r<br />Hit Numpad * to see the current FPS.  You can disable the ENB from within the game by pressing Shift F12.  To play with the effects in-game, hit Shift Enter to bring up a menu.  The Insert key will create screenshots as BMP files in the same directory as the ENB dll.\r<br />\r<br />The mod also bundles SMAA for anti-aliasing (newer ENBs require you to disable hardware AA).  \r<br />\r<br />Installation\r<br />==========\r<br />\r<br />Download ENB series 0.166 from http://enbdev.com/mod_tesskyrim_v0166.htm - be sure to make the changes to SkyrimPrefs.ini listed there&#33;  Copy its d3d9.dll file into your Skyrim folder, then copy over the contents of this mod into your skyrim folder, next to the d3d9.dll file you installed.\r<br />\r<br />Edit the enbseries.ini file to enable/disable different effects.\r<br />\r<br />If you want to uninstall it, remove the d3d9.dll file file and the files you installed from here.\r<br />[/color]",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "v1ld",
+  "createdUnix": "1364431073",
+  "updatedUnix": "1364430995",
+  "containsAdultContent": false,
+  "uploadedBy": "v1ld",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000020645",
+      "name": "Vanilla lighting with AO and Shadows ENB ",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "104",
+      "fileName": "Vanilla lighting with AO and Shadows ENB -34014-1-0.7z",
+      "uploadedUnix": "1364430995",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0d1afd6fc0702a84e82169d7e4ac529cf0b5eb5f9cd72bf249b94bb3a2f21333/analysis/1407491648/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vanilla%20lighting%20with%20AO%20and%20Shadows%20ENB%20-34014-1-0.7z?fid=1000020645&ttl=1535811485&ri=8192&rs=8192&setec=b3813d89e84639fc055b881da4e9bf51"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 27495.0,
+  "modName": "Smelting Ore With Magicka",
+  "summary": "Directly smelt ore into ingots using Alteration Magic",
+  "descriptionHtml": "Allows a magic user to directly smelt raw ore into ingots.\r\nEach ore type has it\\'s own spell so you can smelt exactly what you want.\r\nWhile based on the transmute spell for concept, I found that one rather limited \r\nin the fact that it was not a concentration spell, forcing me to repeatedly\r\ncast the spell over and over to transmute large amounts of ore.\r\n\r\nI looked at several transmutation mods, but wasn\\'t able to find any\r\nthat were concentration spells, so I decided to make one.\r\n\r\nAll spells are concentration spells, meaning, ore is converted for as long\r\nas you have magicka (and ore!) and hold the casting buttons.  This can\r\nbe rather expensive on the magicka side, so it is best to have enchanted\r\nitems that reduce the cost of Alteration spells.\r\n\r\nThe books for these can all be purchased from the Riverwood trader.\r\nNote: should be compatible with most mods, even if they modify the Riverwood trader inventory (these books were added with a script)\r\n\r\n========================\r\nRelease History:\r\n========================\r\n\r\n   * 1.1 - Fixed a looping problem.  \r\n             Apparantly, the game engine won\\'t always fire an OnEffectEnd \r\n             event when the player stops casting.  The fix means the sound\r\n             and message only play 1 time, though the player can continue\r\n             to cast the spell and use Magica, gaining experience, without\r\n             having to produce ingots.\r\n   * 1.0 - First Release\r\n           Contains smelting for:\r\n             Iron, Corundum, Silver, \r\n             Quicksilver, Moonstone, Gold, \r\n             Malachite, Orichalcum, and Ebony.\r\n           Each spell will create one ingot for two ore.\r\n           Dual casting the spell will create two ingots for two ore\r\n           Levels: Alteration\r\n                Apprentice (25)    Iron, Corundum, Silver\r\n                Adept      (50)    Quicksilver, Moonstone, Gold\r\n                Expert     (75)    Malachite, Orichalcum, Ebony\r\n\r\nHighly recommend using with this mod: \t[url=http://skyrim.nexusmods.com/mods/10690]Mining Flames[/url] \r\n",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "SilverKnight",
+  "createdUnix": "1354051377",
+  "updatedUnix": "1354935600",
+  "containsAdultContent": false,
+  "uploadedBy": "SilverKnight7",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "101974",
+      "name": "SmeltingOreWithMagicka",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "SmeltingOreWithMagicka-27495-1-0.7z",
+      "uploadedUnix": "1354052446",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/83e75b50f63e99892371112ead1c1f482fc157456bda65169572539cf896bdf2/analysis/1407281282/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SmeltingOreWithMagicka-27495-1-0.7z?fid=101974&ttl=1535800270&ri=8192&rs=8192&setec=fdba987913454ee708af113f96c05b43"
+    },
+    {
+      "fileId": "103749",
+      "name": "Main file",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Main file-27495-1-1.7z",
+      "uploadedUnix": "1354935600",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/93959bb8dd8314175ddb0a3c7a6dfb89c26b3bd5d4a85b02a4eb45e5c4df18bd/analysis/1407294603/",
+      "changelogHtml": " Fixed sound/action looping problem reported by Pugiron <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Main%20file-27495-1-1.7z?fid=103749&ttl=1535800271&ri=8192&rs=8192&setec=46cae4b651a838a451cb3e72ea31257a"
+    }
+  ]
+}

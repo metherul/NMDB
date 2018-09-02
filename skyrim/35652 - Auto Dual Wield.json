@@ -1,0 +1,32 @@
+{
+  "modId": 35652.0,
+  "modName": "Auto Dual Wield",
+  "summary": "Removes the annoyance of not being able to use hotkeys to equip one weapon in each hand. Requires SKSE.",
+  "descriptionHtml": "[heading]Description[/heading]\r\nYet another annoyance that I tried to fix this time - dual wield problems when using hotkeys. You all know the pain of going back into the menu to equip LH and RH weapons and not being able to use hotkeys for that. Usage of hotkeys to equip weapons prioritize right hand and this mod utilize that behavior to create an advantage. It uses one simple light weight script to keep track of user pre-set dual wield combo and equip left hand weapon when correct right hand weapon is equipped via hotkeys.\r\nIf you\\'re using dual daggers you might also want to check my other mod [url=http://skyrim.nexusmods.com/mods/36453]Dual Dagger Power Attack Speed Fix[/url] which fixes that specific power attack not receiving benefit from weapon speed enhancing perks and abilities.\r\n\r\n[heading]Frequently Asked Questions[/heading]\r\n[b]Q:[/b] How to create a dual wield combo set?\r\n[b]A:[/b] Equip one weapon to each hand via inventory or favorites menu.\r\n\r\n[b]Q:[/b] How to equip weapons from a combo set?\r\n[b]A:[/b] Equip the right hand weapon by using standard hotkeys.\r\n\r\n[b]Q:[/b] What weapon types are supported?\r\n[b]A:[/b] Swords, daggers, war axes and maces.\r\n\r\n[b]Q:[/b] What are the requirements?\r\n[b]A:[/b] Skyrim Script Extender - SKSE 1.6.13+ and Skyrim 1.9.32.0+\r\n\r\n[b]Q:[/b] How many combo sets can be created?\r\n[b]A:[/b] Only one. New overwrites the old.\r\n\r\n[b]Q:[/b] How to check if mod is working?\r\n[b]A:[/b] Create a combo set then equip any spells in both hands and use hotkey to equip right hand weapon to see if left hand weapon is auto equipped.\r\n\r\n[b]Q:[/b] How to free weapons from a combo set?\r\n[b]A:[/b] Create another combo set or restart the mod\\'s quest via console: (StopQuest ADW) -> (StartQuest ADW).\r\n\r\n[heading]Installation[/heading]\r\n[list=1]\r\n[*] Update Skyrim to minimum 1.9.32.0 version.\r\n[*] Install or update SKSE to version 1.6.13 or greater.\r\n[*] You can now download and install the mod.\r\n[/list]\r\n[heading]Uninstallation[/heading]\r\n[list=1]\r\n[*] Open console and type (StopQuest ADW).\r\n[*] Save the game.\r\n[*] Uninstall the mod.\r\n[/list]\r\n[heading]Change Log[/heading]\r\n[list]\r\n[b]V1.1[/b]\r\n[*] Loading a game will no longer reset saved combo set.\r\n[*] Reduced number of function calls to further improve performance.\r\n[b]v1.0[/b]\r\n[*] Initial release.\r\n[/list]",
+  "categoryId": "39",
+  "version": "1.1",
+  "author": "Alek",
+  "createdUnix": "1367697982",
+  "updatedUnix": "1367876712",
+  "containsAdultContent": false,
+  "uploadedBy": "mitchalek",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000028500",
+      "name": "Auto Dual Wield v1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Auto Dual Wield v1_1-35652-1-1.zip",
+      "uploadedUnix": "1367876712",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7a517ef7f5c5741e555f495c35d29a3204c4cc26aaa57984b0f48fccec6a1df0/analysis/1407558189/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Auto%20Dual%20Wield%20v1_1-35652-1-1.zip?fid=1000028500&ttl=1535814317&ri=8192&rs=8192&setec=57ee0c3afdcc346fd010ed3a3b70e2ae"
+    }
+  ]
+}

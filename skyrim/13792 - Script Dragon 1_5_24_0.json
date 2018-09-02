@@ -1,0 +1,32 @@
+{
+  "modId": 13792.0,
+  "modName": "Script Dragon 1_5_24_0",
+  "summary": "The lastest version of Script Dragon V1.5.24.0 for the latest Skyrim Patch",
+  "descriptionHtml": "\t-----------------------------------------------------------\r\n\t----------------- SKYRIM SCRIPTDRAGON ---------------------\r\n\t------------------------v1.5.24.0--------------------------\r\n\t-----------------------------------------------------------\r\n\r\n  Changes\r\n  ---------------\r\n  v1.5.24.0:\r\n  - New patch (1.5.24.0) support added     \r\n  v1.4.27.0:\r\n  - New patch (1.4.27.0) support added    \r\n  v1.4.21.3:\r\n  - New patch (1.4.21.0) support added  \r\n  - Fixed script loading bug on XP64\r\n  - Fixed console command execution bug with new patch\r\n  - Developers must look at the updated devreadme\r\n  v1.4.15.0:\r\n  - Beta patch (1.4.15.0) support added\r\n  - Now asi loader can load asi plugins from \\\"data\\\\asi\\\\\\\" dir too \r\n  v1.3.10.0:\r\n  - Added support of new 1.3.10.0 (rus and eng) patch  \r\n  - Fixed random bug on Win XP x64 \r\n  v1.3.7.0:\r\n  - Added support of new 1.3.7.0 (rus and eng) patch\r\n  v1.2.12.0:\r\n  - Added support of new 1.2.12.0 (rus and eng) patch\r\n  - Added support of 1.1.21.0rus patch\r\n  - Fixed few rare bugs\r\n  v1.1.21.0:\r\n  - First beta release\r\n\r\n  What is this ?\r\n  -------------\r\n  This is the skyrim engine extender, which allows to use skyrim script \r\n  functions in 3rd party ScriptDragon plugins.\r\n\r\n  How this all works ?\r\n  --------------------\r\n  At first, let me list all necessary files, open \\\"bin\\\" folder pls \r\n  - dinput8.dll -- loads all dlls with *.asi extension from the game dir,\r\n    if you are similar with gta mods you should know what is this.\r\n    Current loader was rebuilt especially for skyrim and has steam-crypt\r\n    bypass feature. Asi plugins also can be placed in the \\\"asi\\\\\\\", \\\"plugins\\\\\\\" and\r\n    \\\"data\\\\asi\\\\\\\"\tfolders relative to game root dir (where TESV.exe is located)\r\n  - *.asi plugins -- each asi file represents one script example which is game version independent\r\n  - ScriptDragon.dll -- ScriptDragon engine itself\r\n  - *.ini files -- config files which are using by *.asi plugins in runtime\r\n\r\n  When game launches it loads dinput8.dll, dinput8.dll loads all *.asi libraries\r\n  from the game directory, first loaded *.asi plugin loads ScriptDragon engine\r\n  library ScriptDragon.dll, all other loaded *.asi plugins are using previously\r\n  loaded ScriptDragon.dll. While further loading *.asi registers itself in the \r\n  ScriptDragon.dll. When game will be loaded each *.asi script will be restarted. \r\n  Scripts are not working while menu/map/etc is active, for example if you will\r\n  open console all scripts will be paused until you close it.\r\n\r\n  Compatibility\r\n  -------------\r\n  Fully compactible with TESV.exe version:\r\n  - 1.1.21.0 clean\r\n  - 1.1.21.0 crypted steam\r\n  - 1.1.21.0 crypted steam rus\r\n  - 1.2.12.0 crypted steam   \r\n  - 1.2.12.0 crypted steam rus\r\n  - 1.3.7.0 crypted steam\r\n  - 1.3.7.0 crypted steam rus\r\n  - 1.3.10.0 crypted steam\r\n  - 1.3.10.0 crypted steam rus  \r\n  - 1.4.15.0 crypted steam beta\r\n  - 1.4.21.0 crypted steam\r\n  - 1.4.21.0 crypted steam rus\r\n  - 1.4.27.0 crypted steam\r\n  - 1.4.27.0 crypted steam rus  \r\n  - 1.5.24.0 crypted steam\r\n\r\n  Installing \r\n  ----------\r\n  Copy all contents of the \\\"bin\\\" folder to the game folder (where TESV.exe is),\r\n  if you don\\'t need ScriptDragon example plugins (*.asi) you may delete them\r\n  and corresponding *.ini files. Asi plugins also can be place in the \\\"<game>\\\\asi\\\"\r\n  folder.\r\n\r\n  Troubleshooting\r\n  ---------------\r\n  http://forums.bethsoft.com/index.php?/topic/1292671-rel-script-dragon/\r\n  http://www.thenexusforums.com/index.php?/topic/477268-rel-script-dragon/\r\n\r\n  Example plugins\r\n  ---------------\r\n  - horsespawner -- spawns a horse in front of you (default key is HOME)\r\n  - undress -- allows to take off a closes (NO NUDE HERE!) from any game ped,\r\n    press console (~), select needed ped via left mouse button, close console\r\n    and press DELETE (by default)      \r\n  - weather -- changes current weather, default keys are PAGE_UP and PAGE_DOWN\r\n  - trainer -- implementation of a simply trainer, default keys :\r\n     NUM1 - add skills\r\n     NUM2 - add perks\r\n     NUM3 - increase carry weight\r\n     NUM4 - toggles god mode\r\n     NUM5 - learn words\r\n     NUM6 - add daedric items and some stuff\r\n  \r\n  You can watch this examples in action on my youtube channel:\r\n  http://www.youtube.com/watch?v=N0lEINaNdhk\r\n  http://www.youtube.com/watch?v=EsdcGd6Yt4U\r\n\r\n  Updating\r\n  --------\r\n  You can always find the newest version of the ScriptDragon engine here:\r\n  http://alexander.sannybuilder.com/Files/tes/\r\n\r\n \t\t      (C) Alexander Blade\r\n  \t\t\t22.03.2012",
+  "categoryId": "39",
+  "version": "1.5.24.0",
+  "author": "Alexander Blade",
+  "createdUnix": "1332814275",
+  "updatedUnix": "1332814378",
+  "containsAdultContent": false,
+  "uploadedBy": "FatalScroll",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "47232",
+      "name": "Script Dragon 1_5_24_0",
+      "version": "1.5.24.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1341",
+      "fileName": "Script Dragon 1_5_24_0-13792-1-5-24-0.zip",
+      "uploadedUnix": "1332814378",
+      "modVersion": "1.5.24.0",
+      "virusScanUrl": "https://www.virustotal.com/file/bfad729c9d311d793704773be8ebd2687b8f909fbc5d6a0bc465256835cd7d3b/analysis/1406782090/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Script%20Dragon%201_5_24_0-13792-1-5-24-0.zip?fid=47232&ttl=1535776924&ri=8192&rs=8192&setec=d2aae807686f802fd35e7b0dd1811996"
+    }
+  ]
+}

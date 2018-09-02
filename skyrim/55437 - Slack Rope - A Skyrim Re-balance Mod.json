@@ -1,0 +1,48 @@
+{
+  "modId": 55437.0,
+  "modName": "Slack Rope - A Skyrim Re-balance Mod",
+  "summary": "Yet another Skyrim re-balancing mod. This mod aims to make the combat more fair on various difficulties and becoming a force to be reckoned with a more realistic feat. Also aims to make the game a little more realistic.",
+  "descriptionHtml": "THIS MOD IS NO LONGER BEING UPDATED AND SUPPORTED&#33;\r<br />\r<br />UPDATES\r<br />- Added a Dungeon List File -\r<br />I noticed a lot of people, myself included, needed a list of dungeons sorted by level range. I needed it to test my mod more effectively. Then I found an easy way to make my own. Since I&#39;m using it to test my mod, I put it up here. The file extension is .docx. Right now it only has Skyrim Dungeons, not the ones from Dragonborn. I&#39;ll add them later.\r<br />\r<br />- Updated from V.0.1 to V.0.2 -\r<br />I made some changes to more settings. I also did a bit more tweaking with the difficulty. I believe the difficulty is better now. The armor scaling has also been changed to 0.5. This means for every one point of Armor Rating you will block 0.5 damage. So if you have 50 Armor Rating, you will block 25 damage. The minimum chance to pick a pocket WAS 0. This made no sense to me. Does luck not exist? (Not since Oblivion, heh.) So I set the minimum to 5. Now you will have at least a 5% chance to pick a pocket no matter what. The maximum chance was raised from 90 to 95. You are also now able to lay down up to 5 runes on the ground and summon 3 creatures at a time. Instead of 1 for each which was kind of lame. As an added bonus, in Vanilla the amount of arrows that would show up stuck in an enemy was 3. Now it&#39;s 50. Have fun turning them into pin cushions. This shouldn&#39;t lag it, but if it does, I will set it back to 3.\r<br />\r<br />SLACK ROPE - A Skyrim Re-balance Mod\r<br />\r<br />First off, I would like to say thank you for taking the time to look at my mod. Second, I would like to say that this mod is FAR from complete. I just wanted to get what I had out there along with the idea.\r<br />\r<br />What is Slack Rope?\r<br />Slack Rope (Get it? It&#39;s a balancing act. *slow clap*) is a mod that aims to make the game fair on all the difficulties yet still challenging. That&#39;s what it started off as. But as I learned how to edit certain game settings I decided to add more to it. Eventually I want Slack Rope to be a complete re-balancing of Skyrim to make it more challenging and a bit more realistic.\r<br />\r<br />What does Slack Rope do?\r<br />In it&#39;s current form, Slack Rope re-balances the difficulty and level grinding and makes some small adjustments to make the game more realistic.\r<br />\r<br />How has the difficulty been changed?\r<br />While there is still a lot of testing and tweaking to be done, the difficulty is trying to be balanced in such a way that combat is both fair AND challenging on each difficulty. I&#39;ve done some testing on the novice, adept and legendary difficulties. Lesser enemies like Bandits or Draugers are almost perfect. However, greater enemies like Marauders or Draugr Scourges, while beatable, are still rather difficult. Some more tweaking needs to be done. \r<br />In the end I want the difficulty to reflect the need to think on your feet. I want the player to have to develop and use tactics, even the environment such as traps in order to win a fight. As it stands right now, fighting greater enemies almost requires you to have Restoration spells. Again, more testing and tweaking needs to be done.\r<br />\r<br />How has level grinding been changed?\r<br />I changed up the experience curve. The algorithm for leveling the character is... \r<br />Base Experience + (Character Level * Experience Multiplier)\r<br />Originally Base Experience was 75 while Experience Multiplier was 25. That meant that at level 1 you needed 100 experience to level up. Each level added another extra 25 experience to level up. So to get to level 3, you needed 125. To get to level 4, you needed 150, etc.\r<br />NOW the Base Experience is 400 and the Experience Multiplier is 0. This means that there is no curve to the experience. Each level needs 400 experience to get the next level. Just a flat experience rate. This way, leveling is still a bit challenging but becoming a Perk Master (achieving level 252 and unlocking all perks) needs only two legendary skills rather than the original 164 legendary skills which was ridiculous. Virtually impossible. Skill leveling has also been made slower. This is to offset the fast leveling rate for higher levels. (In Vanilla Skyrim, Level 13 and up needed more than 400 experience points to get to the next level.)\r<br />\r<br />How has the game been made more realistic?\r<br />Some of this is personal preference. As the mod grows, I plan to separate it into modules so you can pick and choose what aspects you want. As it stands, you&#39;re stuck with my preferences. First and foremost. Carrying capacity for ALL races have been reduced to 150 instead of 300. This forces more inventory management and pushes the player a little more towards increasing Stamina, which I found to be a little useless. ALL skill bonuses for ALL races have been removed. This means that no matter what race you pick, you will start with 15 in all skills. It is my belief that character should determine skill, not race. (See the Planned Additions section for more detail on what I mean by character) Additionally, some items that had virtually no weight now have impacting weight. For example, gold now weighs 0.025. With the base carrying capacity of 150 and nothing else in your inventory, you would be able to carry 6000 gold. More than enough for shopping, but you will need to have somewhere to store the rest of your gold. Gold has also been renamed Septim. This part of the mod is also far from done. Many more additions will be made.\r<br />\r<br />What are the requirements?\r<br />As of now, all you need is the latest version of Skyrim. This should be compatible with the add-ons but I have done no testing with them yet and don&#39;t know how balanced it will be.\r<br />\r<br />Is there anything I can do to help?\r<br />Right now? All I need help with is testing the difficulty. If you notice something that was too easy or too hard to fight, let me know what it was you were fighting, your gear and what difficulty it was on.\r<br />\r<br />PLANNED ADDITIONS\r<br />Earlier I said that character should determine skill, not race. I want to bring back a character questionnaire in the vein of the one from Daggerfall. You will be asked various questions and your answers will make a change to Inventory and Skills. For example, &#34;What do you more closely resemble?&#34; &#34;Warrior&#34; &#34;Thief&#34; &#34;Mage&#34; Choosing one of these will make changes to your skills. This is the most ambitious part of my mod. I still have a lot of learning to do before I can add this in.\r<br />\r<br />More changes to the weight of items. Reductions, increases. All to balance out the lowered Carrying Capacity while still enforcing inventory management.\r<br />\r<br />Change the rate at which health, stamina and magicka regenerate and change the amount you receive in those stats when leveling up.",
+  "categoryId": "79",
+  "version": "0.2",
+  "author": "KadoDragon",
+  "createdUnix": "1404112983",
+  "updatedUnix": "1404238421",
+  "containsAdultContent": false,
+  "uploadedBy": "KadoDragon",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000115335",
+      "name": "Slack Rope V.0.2",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "100",
+      "fileName": "Slack Rope V.0.2-55437-0-2.zip",
+      "uploadedUnix": "1404163194",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/8bcd4d12abee49682bca7175f364b29c525036ecf2cfa49dc7fa6a8153c73339/analysis/1408155244/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Slack%20Rope%20V.0.2-55437-0-2.zip?fid=1000115335&ttl=1535840198&ri=8192&rs=8192&setec=17d5137919a847e0653891d9af0607f1"
+    },
+    {
+      "fileId": "1000115451",
+      "name": "Dungeon List by Level",
+      "version": "",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "Dungeon List by Level-55437-.zip",
+      "uploadedUnix": "1404238421",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/bccd705cbd282316a22ccb80d8a107ffbfa05100d378f94b2de78ce902189b0a/analysis/1408156394/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dungeon%20List%20by%20Level-55437-.zip?fid=1000115451&ttl=1535840198&ri=8192&rs=8192&setec=cb9a471898f57e931cdec46e4b709949"
+    }
+  ]
+}

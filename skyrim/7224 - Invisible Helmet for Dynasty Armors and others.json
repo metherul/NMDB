@@ -1,0 +1,48 @@
+{
+  "modId": 7224.0,
+  "modName": "Invisible Helmet for Dynasty Armors and others",
+  "summary": "Creates a standalone/craftable/upgradable/enchantable invisible helmet",
+  "descriptionHtml": "Invisible Helmet for Dynasty Armors and other armors. (BETA 0.2)\r\n\r\n***Updated - Now contains both heavy and light helmet.\r\n\r\nThis is an .esp file that creates an invisible helmet. I made this primarily for use with the Dynasty Armors as they have no helmet. I\\'m not particularly fond of wearing circlets and wanted something that was enchantable and didn\\'t mess up my hair or looks!\r\n\r\nThis is a beta as I have only done limited testing on this. It /should/ wotk with other races. Briefly tested on other races but never got further than testing via \\'showracemenu\\'\r\n\r\nFeatures:\r\n-------------\r\nIts Invisible!\r\nBased on the Dragon Plate Helmet it has the same stats\r\nComes in both heavy and light types\r\nCraftable at a forge\r\nCan be tempered\r\nCan be enchanted\r\nCan be purchased at Belethor\\'s General Store in Whiterun\r\nCan be obtained via the console\r\n\r\nTo obtain via console. Type \\'player.additem xxxxxxxx 1\\' where xxxxxxxx is the id below.\r\nThe XX at the start is the loading order of the mod. If you don\\'t know the loading order start at 01 and work up until the item is added. Note the loading order is base 16 (hex) so goes in this order: 00-09 0a-0f 10-19 1a-1f and so on.\r\n\r\nXX0033a0 - Invisible Helmet Heavy\r\nXX0033a1 - Invisible Helmet Light\r\n\r\n\r\nInstallation:\r\n----------------\r\nSimply drop the .esp in your skyrim\\\\data folder.\r\n\r\n\r\nUninstallation:\r\n----------------\r\nSimply remove the .esp from your skyrim\\\\data folder.\r\n\r\n\r\nChange Log:\r\n-----------------\r\n0.1 - Initial release.\r\n0.2 - Added light helmet. Renamed both to \\'heavy\\' and \\'light\\'\r\n\r\n\r\nCredits:\r\n-----------\r\nNone really as this is my own creation, but would still like to thank all modders out there. Without your mods I wouldn\\'t have had the opportunity to pull them apart and see how they work :-)\r\n\r\n\r\nPermissions:\r\n-----------------\r\nDo what you like with it. Feel free to mod it and do whatever you like with it. There are no restrictions with this file whatsoever. I do not require credit for this, but it would be nice if you did credit me if you use this for any other mods.\r\n\r\n",
+  "categoryId": "54",
+  "version": "0.2",
+  "author": "Simomax",
+  "createdUnix": "1327773970",
+  "updatedUnix": "1327778499",
+  "containsAdultContent": false,
+  "uploadedBy": "Simomax",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "23728",
+      "name": "Invisible_Helm_0_1",
+      "version": "0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Invisible_Helm_0_1-7224.7z",
+      "uploadedUnix": "1327774209",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7d0c42490ab46d6fd5c4e1adcf5a84742121a6cdb22f2de633d9c7000075bef1/analysis/1406642166/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Invisible_Helm_0_1-7224.7z?fid=23728&ttl=1535765144&ri=8192&rs=8192&setec=71726b3d514fd7b1f6319798ad969754"
+    },
+    {
+      "fileId": "23738",
+      "name": "Invisible Helmet 0_2",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Invisible Helmet 0_2-7224-0-2.7z",
+      "uploadedUnix": "1327778499",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/c31983e474d4cf4c156a57c4157af3fd03582971e51d8be0f0fe2463e5eb08fd/analysis/1406642231/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Invisible%20Helmet%200_2-7224-0-2.7z?fid=23738&ttl=1535765145&ri=8192&rs=8192&setec=3e2c3f9d01f869d36c5fd20056ffd41b"
+    }
+  ]
+}

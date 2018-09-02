@@ -1,0 +1,48 @@
+{
+  "modId": 31903.0,
+  "modName": "Dinner Time",
+  "summary": "I always felt like as if the food and drinks in Skyrim were a bit underestimated, i mean..\r\nWho ever loot those things from chests or barrels?\r\nSo i thought to make a small mod that simulate the need to eat and drink with buffers.\r\nit\\'s NOT an HARDCORE mod and the eating action is AUTOMATED so you don\\'t have to worry about entering in your invent",
+  "descriptionHtml": "Welcome,this is my first mod,hope you\\'ll try it and give me some feedback!\r\n\r\nDESCRIPTION:\r\nI always felt like as if the food and drinks in Skyrim were a bit underestimated, i mean..\r\nWho ever loot those things from chests or barrels?\r\nSo i thought to make a small mod that simulate the need to eat and drink.\r\nDon\\'t worry,it\\'s NOT AN HARDCORE mod and the eating action is AUTOMATED so you\r\ndon\\'t have to worry about entering in your inventory everytime,it will \r\njust make you want to bring some food and drinks with you during your adventures ^^\r\nBasically this mod will add some buffers based on player\\'s eating habits.\r\nFor your happiness you\\'ll not have to manually eat something from the inventory,\r\njust bring something with you and,3 times a day (i repeat,it\\'s not an hardcore mode)\r\nit will be automatically removed from your inventory.\r\nThe first day of that you will avoid eating or drinking you\\'ll not receive any buffer,\r\nneither good or bad ones,the negative buffers will start their effects after around 24-36 hours\r\nand their effects will increase as you keep fasting.\r\n\r\nYou\\'ll also receive some notification that remember your status (around 1 per meal)\r\nI\\'ve also used some ingame sound to simulate the hungry on your character and\r\ni used a the \\\"paralyze\\\" visual effect for the negative buffer,and a \\\"restore stamina\\\" effect\r\nfor the bonus one.\r\n\r\nNOTE: when receiving messages like \\\"you\\'re hungry\\\" or \\\"you\\'re getting hungry\\\"\r\n(first 24-36 hours) no buffer is applied yet,it\\'s just a reminder for you to eat\r\n\r\nCHANGELOG 1.0a to 1.0b\r\n-added 4 new buffers for different level of dehydratation\r\n-added a visual effect that occours more frequently as you keep fasting/dehydratating starting from the second day\r\n-use of the \\\"EquipItem\\\" function instead of the \\\"RemoveItem\\\" one\r\n-Minor bug fixes \r\n\r\nVisual effect:\r\n[youtube]tyEr_Q5onpg[/youtube]\r\n\r\nEating buffers:\r\n-\\\"Well Fed\\\": you will receive this buffer after eating a meal and it will last for 12 hours.\r\nGives: 5% bonus to Health and Stamina regeneration\r\n-\\\"Starvation Level 1\\\": after 24-36 hours\r\nGives: -10 to Max Health/Stamina and -2% of Health/Stamina regeneration\r\n-\\\"Starvation Level 2\\\": after around 2 days\r\nGives: -25 to Max Health/Stamina and -5% of Health/Stamina regeneration\r\n-\\\"Starvation Level 3\\\": after around 3 days\r\nGives: -50 to Max Health/Stamina and -10% of Health/Stamina regeneration\r\n-\\\"Starvation Level 4\\\": after 4 days,it will last until you eat something\r\nGives: -75 to Max Health/Stamina and -20% of Health/Stamina regeneration\r\n\r\nOk,the last buffer could hit a bit hard on your performance but...come on,you had 4 days to eat! eheh\r\n\r\nDrinking buffers:\r\n-\\\"Fresh Feeling\\\": you will receive this buffer after drinking something at it will last for 12 hours\r\nGives: 5% bonus to Magicka regeneration\r\n-\\\"Thirsty Level 1\\\": after 24-36 hours\r\nGives -10 Max Magicka and -3% to Magicka regeneration\r\n-\\\"Thirsty Level 2\\\": after around 2 days\r\nGives -20 Max Magicka and -5% to Magicka regeneration\r\n-\\\"Thirsty Level 3\\\": after around 3 days\r\nGives -40 Max Magicka ,-8% to Magicka regeneration and -5% to Stamina regeneration\r\n-\\\"Thirsty Level 4\\\": after 4 days,it will last until you eat something\r\nGives -70 Max Magicka ,-15% to Magicka regeneration and -10% to Stamina regeneration\r\n\r\n\r\nHOW TO INSTALL:\r\nDownload the file and put it into your Skyrim \\\"Data\\\" folder\r\n\r\nFAQ:\r\n-How do i eat/drink something?\r\nJust keep some standard food and drink items in the inventory and they will be automatically\r\neaten periodically\r\n-I manually ate/drunk something but the buffer won\\'t go away\r\nManual eating/drinking will not work,only the automated consumed one will do the trick\r\n-What food/drinks will work with this mod?\r\nBasically every food listed at this page http://www.uesp.net/wiki/Skyrim:Food\r\n-Do this mod have any requirement?\r\nNo,it will just eat also some Heartfire items like stews or soup if any.\r\n-I have food in the inventory but the mod won\\'t use it,why?\r\nWell,not ALL food items are supported,but in this case usually the problem is\r\nbetween certain hours when the script switches from \\\"breakfast/lunch/dinner\\\"\r\nso the best thing is just wait an hour or two (both playing or using the wait function)\r\n\r\nSteam workshop version:\r\n[URL=http://steamcommunity.com/sharedfiles/filedetails/?id=127878469]http://steamcommunity.com/sharedfiles/filedetails/?id=127878469[/URL]\r\n\r\nWell,that\\'s all for now ^^ hope you\\'ll enjoy it!\r\n\r\n***********************************************************************************\r\n*PLEASE FEEL FREE TO COMMENT AND TO GIVE FEEDBACK *\r\n* As i said it\\'s my first mod so comments will surely be helpful ^^ *\r\n***********************************************************************************",
+  "categoryId": "24",
+  "version": "1.0b",
+  "author": "JacopoMTK",
+  "createdUnix": "1361185302",
+  "updatedUnix": "1363099715",
+  "containsAdultContent": false,
+  "uploadedBy": "JacopoMTK",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000010849",
+      "name": "Dinner Time 1_0a",
+      "version": "1.0a",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "Dinner Time main file-31903-1-0a.rar",
+      "uploadedUnix": "1361184583",
+      "modVersion": "1.0a",
+      "virusScanUrl": "https://www.virustotal.com/file/c4ffeed120135a849bc8b8e58db0c49544f1e7e6a5953013ed6aee91021a125e/analysis/1407424532/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dinner%20Time%20main%20file-31903-1-0a.rar?fid=1000010849&ttl=1535807770&ri=8192&rs=8192&setec=5c399b59515662b2b621a292829e95c4"
+    },
+    {
+      "fileId": "1000016949",
+      "name": "Dinner Time 10b",
+      "version": "1.0b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "Dinner Time 10b-31903-1-0b.rar",
+      "uploadedUnix": "1363099715",
+      "modVersion": "1.0b",
+      "virusScanUrl": "https://www.virustotal.com/file/980fb68dc879a14a94f52e7a40891c23b8f5995a34800585137dbd23b6c2b861/analysis/1407465909/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dinner%20Time%2010b-31903-1-0b.rar?fid=1000016949&ttl=1535807771&ri=8192&rs=8192&setec=3db6d1f87e374b1500bd2ed21ae5735d"
+    }
+  ]
+}

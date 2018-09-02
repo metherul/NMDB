@@ -1,0 +1,48 @@
+{
+  "modId": 26873.0,
+  "modName": "Sunhallowed arrow effect lag fix",
+  "summary": "Fixes the problem that resulted in permanent lag when Sunhallowed arrows are fired into the sun.",
+  "descriptionHtml": "At the conclusion of the sunburst effect after firing Sunhallowed arrows into the sun, the game might (depending on your Papyrus INI settings) become permanently laggy or choppy. This script should hopefully fix that.\r\n\r\nRequires Dawnguard, naturally.\r\n\r\n[b]Installation[/b]\r\nExtract into your Skyrim Data/Scripts folder.\r\n\r\nThere\\'s no forseeable reason why this modification should cause problems, but it\\'s a good idea in general to make a backup save or two before installing any mod. \r\n\r\n[b]Uninstallation[/b]\r\nDelete DLC1MagicCastFromSunScript.pex from Data/Scripts. To be safe, don\\'t do this while the sunburst effect is active.\r\n\r\n[b]Compatibility[/b]\r\nPotentially incompatible with mods that affect the sunburst effect and/or replace DLC1MagicCastFromSunScript.pex\r\n\r\n[b]Details[/b]\r\nIn DLC1MagicCastFromSunScript.OnEffectFinish, busy loops are present to wait for the sun spell and explosions to finish. The issue is that the loops never yield, thus preventing the other functions in the script from properly setting the bFunctionRunningSunSpell to false. Consequently, Papyrus gets permanently hung up on the loop. The resolution is to add a short delay (0.1s) into the loop, which allows the CastSpellFromSun function to finish execution and set the variable to false.\r\n\r\nNote that only the sun spell loop has been modified, as I didn\\'t notice the RunningExplosion loop causing issues.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "wyvern236",
+  "createdUnix": "1352877154",
+  "updatedUnix": "1352877475",
+  "containsAdultContent": false,
+  "uploadedBy": "wyvern236",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "99390",
+      "name": "Compiled script",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Compiled script-26873-1-0.7z",
+      "uploadedUnix": "1352877419",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/24e826d40f727dab161333a09a929406decdd8a6412846735a384c5dd500905f/analysis/1407262681/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Compiled%20script-26873-1-0.7z?fid=99390&ttl=1535799234&ri=8192&rs=8192&setec=fa328c5264351da482bbae0f56e1ba41"
+    },
+    {
+      "fileId": "99391",
+      "name": "Source",
+      "version": "",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Source-26873-.7z",
+      "uploadedUnix": "1352877475",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/173bd26d43fc8694914f211cc71f845d2c662954755079cf5e0655b2e08a38ef/analysis/1407262682/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Source-26873-.7z?fid=99391&ttl=1535799234&ri=8192&rs=8192&setec=4044fb8ee1986270df623182f2052ccb"
+    }
+  ]
+}

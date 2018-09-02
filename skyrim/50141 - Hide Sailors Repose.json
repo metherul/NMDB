@@ -1,0 +1,48 @@
+{
+  "modId": 50141.0,
+  "modName": "Hide Sailors Repose",
+  "summary": "Hides Sailor’s Repose in the SkyUI Active Effects display.",
+  "descriptionHtml": "NOTICE: This fix has now been incorporated into USKP v2.0.3 so if you are using that version of later you do not need this mod&#33;\r<br />\r<br />Changes the Sailor&#39;s Repose effect to have no duration so that it doesn&#39;t appear in the SkyUI Active Effects HUD area.\r<br />\r<br />Version 1.0 works fine with new games, and if you already have the effect showing, it won&#39;t disappear automatically, but you can use the following two console commands to fix the problem.\r<br />[code]player.removespell d397f\r<br />player.addspell d397f[/code]\r<br />\r<br />Version 1.1 now also works if you had already gained the effect before adding the mod by automatically re-adding the spell for you.\r<br />",
+  "categoryId": "42",
+  "version": "1.1",
+  "author": "CDCooley",
+  "createdUnix": "1390239877",
+  "updatedUnix": "1390312272",
+  "containsAdultContent": false,
+  "uploadedBy": "cdcooley",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000092405",
+      "name": "Hide Sailors Repose",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Hide Sailors Repose-50141-1-0.7z",
+      "uploadedUnix": "1390239863",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a48e952f64e5c8000f4d03f614baf396b914d5d26cd2c5b493c2bd76a2033e83/analysis/1407894186/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hide%20Sailors%20Repose-50141-1-0.7z?fid=1000092405&ttl=1535831688&ri=8192&rs=8192&setec=694f6000e622fc07ec0855fb6f0eebe0"
+    },
+    {
+      "fileId": "1000092569",
+      "name": "Hide Sailors Repose",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Hide Sailors Repose-50141-1-1.7z",
+      "uploadedUnix": "1390312272",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d5031d0e61e314f42d643db173700deac779e13d568297da2051cc8a81a1f622/analysis/1407895746/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hide%20Sailors%20Repose-50141-1-1.7z?fid=1000092569&ttl=1535831688&ri=8192&rs=8192&setec=cd065014c7bf7f30c8198c8a3c719279"
+    }
+  ]
+}

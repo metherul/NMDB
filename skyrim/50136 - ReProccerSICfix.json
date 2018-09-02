@@ -1,0 +1,32 @@
+{
+  "modId": 50136.0,
+  "modName": "ReProccerSICfix",
+  "summary": "This is a simple ESP which adds Meltdown recipes for some basic armour in the game that are missed by T3ND0&#39;s excellent ReProccer when used alongside Skyrim Immersive Creatures.",
+  "descriptionHtml": "Skyrim Immersive Creatures creates new versions of various armours (like Daedric, Dwarven, Dragonplate, etc&#39;) to equip its monsters with.\r<br />That&#39;s fine, because that means it can run standalone.\r<br />Unfortunately, ReProccer uses these entries instead of the originals when creating its Meltdown list, meaning, unless you happened to collect your armour from a creature added by Skyrim Immersive Creatures, you can&#39;t melt it down once you get the appropriate Perk from the Skyrim Redone&#39;s Smithing Tree.\r<br />\r<br />This mod simply adds in new Meltdown recipes to cover for the ones ReProccer incorrectly pulled from Skyrim Immersive Creatures and correctly links them to the original item.\r<br />\r<br />You NEED:\r<br />\r<br />Skyrim.esm (version 1.9.32.0.8)\r<br />Dawnguard.esm\r<br />SkyRE_Main.esp (version 1.3)\r<br />Skyrim Immersive Creatures.esp (version 6.1.3)\r<br />ReProccer.esp (version 2.5)\r<br />Any mods required by the above.\r<br />\r<br />[[[[[[[[[[[INSTALL INSTRUCTIONS]]]]]]]]]]]]]]\r<br />1. Download manually or using your favourite mod manager.\r<br />2. Activate ReProccerSICfix.esp and place it after ReProccer.esp\r<br />3. Make sure you have all the prerequisites above and have actually run the ReProccer Jar file.\r<br />4. Enjoy smelting things back into ingots.\r<br />\r<br />Note, the ESP only adds in Meltdown recipes connected with the main game (and Dawnguard), so in theory it shouldn&#39;t cause any compatibility issues, unless you don&#39;t have any of its Masters enabled.\r<br />\r<br />Credit to the following people/mods:\r<br />T3nd0 for [url=http://www.nexusmods.com/skyrim/mods/9286/?]Skyrim Redone[/url] and the [url=http://www.nexusmods.com/skyrim/mods/28467/?]ReProccer[/url]\r<br />Lifestorock for [url=http://www.nexusmods.com/skyrim/mods/24913/?]Skyrim Immersive Creatures[/url]\r<br />Balbor and Steelsouls for their [url=http://www.nexusmods.com/skyrim/mods/27092/?]ReProccer patches[/url]\r<br />\r<br />\r<br />-------------\r<br />\r<br />It seems Skyrim Immersive Creatures has been updated to a new version. I can&#39;t speak for whether the problem still exists with that version, or if my patch will still fix it if it does. It is highly unlikely to cause any problems with the new version, however, so you&#39;re probably safe to try it out.",
+  "categoryId": "95",
+  "version": "0.1",
+  "author": "KindredBrujah",
+  "createdUnix": "1390244194",
+  "updatedUnix": "1390233317",
+  "containsAdultContent": false,
+  "uploadedBy": "KindredBrujah",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000092393",
+      "name": "ReProccerSICfix",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "ReProccerSICfix-50136-0-1.7z",
+      "uploadedUnix": "1390233317",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/2a08b0ee594f7f36722d2bc663d8e3d56a6fc6ea5c81f367d944865e0919a84b/analysis/1407894085/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ReProccerSICfix-50136-0-1.7z?fid=1000092393&ttl=1535831683&ri=8192&rs=8192&setec=85b5830f530fedc4c90c28476edcec01"
+    }
+  ]
+}

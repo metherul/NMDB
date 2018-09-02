@@ -1,0 +1,32 @@
+{
+  "modId": 66756.0,
+  "modName": "Wear Your Follower&#39;s Face - a small tutorial of RaceMenu &#39;Export head mesh&#39; feature",
+  "summary": "Exporting head? It s really easy with RaceMenu&#33;",
+  "descriptionHtml": "[b][u][size=4]What&#39;s this?[/size][/u][/b]\r<br />\r<br />This is simple tutorial with few tips, about how quickly and easy export a custom follower face to Your character.\r<br />\r<br />\r<br />\r<br />[b]\r<br />[u][size=4]What do I need?[/size][/u][/b]\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/29624/?]RaceMenu by Expired[/url] (ver 3.2.2 or above)\r<br />\r<br />[url=http://skse.silverlock.org/]SKSE 1.7.2[/url] (or above)\r<br />\r<br />\r<br />\r<br />[b]\r<br />[u][size=4]How should I do this?[/size][/u][/b]\r<br />\r<br />1. Download manually and unpack your desired Follower file (do it on desktop, or in any non-skyrim folder)\r<br /> \r<br />2. In follower files search for FaceGenData/FaceGeom folder. It&#39;s usually in meshes/actors/character. There should be a single nif file containing FaceGen data. Copy it and rename with your own taste (for example with follower name)\r<br /> \r<br />Note: when follower has multiple options, this folder can contain more than just one NIF. You can copy them all and try them in game later.\r<br /> \r<br />3. Put that NIF in Steam&#92;steamapps&#92;common&#92;Skyrim&#92;Data&#92;SKSE&#92;Plugins&#92;CharGen (or what ever Your Skyrim directory is). If there is none folder like this, create it. Should work fine. (of course if You have SKSE, which is needed for RaceMenu)\r<br /> \r<br />Note: In this CharGen folder should be located another one called &#34;Presets&#34; where jslot files are installed.\r<br /> \r<br />4. Run game, type showracemenu, and in SCUPLTING MODE hit F9 and pick your NIF. There should popup window describing which head parts will be affected. Sometimes they are marked as red, but as long is not head mesh it&#39;s ok. So accept and voila&#33;\r<br /> \r<br />Note: Keep in mind that you are importing only face sculpting. If You want exact look try lurking in follower author credits and download same textures, eyes, hair and body.\r<br /> \r<br />Few other tips:\r<br />\r<br />[u][color=#9fc5e8]- From[/color][color=#3d85c6] [/color][url=http://www.nexusmods.com/skyrim/users/6010834/?][color=#3d85c6]youwish1[/color][/url][color=#9fc5e8]: [/color][color=#9fc5e8]&#34;Optional but recommended&#33;. Remember to mask the neck of your character before you import the head. Doing so will minimize neck seams and other issues&#33;.\r<br />Note: You only need to mask a small margin along the line of the neck, don&#39;t forget to check for any spots/patches you may have left behind.&#34;[/color]\r<br />[/u]* Personally I&#39;m dealing with neck gap by playing with weight slider.\r<br /> \r<br />- Before importing make sure to set all presets/sliders on most default position. It&#39;s important for further character customization, because head scuplting file doesn&#39;t contain preset information.\r<br />\r<br />- What is awesome with this feature? You can for example make Your lovely nord waifu (export her head), and then import that head on elf&#33; Yes&#33; I&#39;m actually creating ningheim-based bosmer, and I&#39;m excited as hell&#33;\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />[center][size=5][u]Pics to give You a &#34;feel&#34; how it works[/u][/size][/center]\r<br />\r<br />\r<br />1. Nice Ethereal Bosmer. (&#34;Le&sacute;ny Elf&#34; means Wood Elf)\r<br />\r<br />[url=http://imgur.com/XXW4QKZ][img]http://i.imgur.com/XXW4QKZ.jpg[/img][/url]\r<br />\r<br />\r<br />2. Adding some magic.\r<br />\r<br />[url=http://imgur.com/NCKETOU][img]http://i.imgur.com/NCKETOU.jpg[/img][/url]\r<br />\r<br />\r<br />3. Still Bosmer soul, but more Ningheim appearance\r<br />\r<br />[url=http://imgur.com/KLnVR07][img]http://i.imgur.com/KLnVR07.jpg[/img][/url]\r<br />\r<br />\r<br />4. Just added random eyes and hair, and changed skin colour.\r<br />\r<br />[url=http://imgur.com/IWk227s][img]http://i.imgur.com/IWk227sh.jpg[/img][/url]\r<br />\r<br />\r<br />\r<br />  Feedback and constructive criticism are always welcome. Have no fear to ask to.\r<br />  If I&#39;m violating anyone intellectual or artistic property please contact me, and I&#39;ll try to repair my mistake.",
+  "categoryId": "82",
+  "version": "summer",
+  "author": "Shosholada",
+  "createdUnix": "1433874882",
+  "updatedUnix": "1433875823",
+  "containsAdultContent": false,
+  "uploadedBy": "Shosholada",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000163547",
+      "name": "Exporting follower head tutorial",
+      "version": "summer",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Exporting follower head tutorial-66756-summer.zip",
+      "uploadedUnix": "1433875823",
+      "modVersion": "summer",
+      "virusScanUrl": "https://www.virustotal.com/file/0ba754751cc699d5aabf77143a0f3018f400b4208fb61ccd7b650914eaa5e287/analysis/1433875925/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Exporting%20follower%20head%20tutorial-66756-summer.zip?fid=1000163547&ttl=1535855238&ri=8192&rs=8192&setec=687a89e0face3a3dca18753634126704"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 27572.0,
+  "modName": "Wayshrines of Tamriel",
+  "summary": "Bringing the wayshrines from the Auriel&#39;s Bow quest to a town near you.",
+  "descriptionHtml": "[center][img]http://i244.photobucket.com/albums/gg11/Stephen_C_2008/Skyrim/WayshrinesBanner.jpg[/img][/center]\r<br />\r<br />[b]&#34;Bringing the wayshrines from the Auriel&#39;s Bow quest to a town near you&#34;\r<br />\r<br />[size=4][url=http://www.nexusmods.com/skyrimspecialedition/mods/3045/?]Now available for Skyrim SE[/url][/size][/b]\r<br />\r<br />This mod adds wayshrines near most settlements in Skyrim, allowing for quick teleportation between open wayshrines. A specific spell must be used to activate them, which requires a radiant quest to be completed to retrieve the Activate Wayshrine spell tome. To start this quest, locate and read the journal that has been left somewhere behind the bar at the Bannered Mare in Whiterun. A wayshrine map can also be found in the same location.\r<br />\r<br />The radiant quest is only tied to a boss level chest, so it could send you anywhere. In my testing I have been sent to giant camps, pirate ships and vampire dens in addition to the expected bandit camps and dungeons. I like some variety in my games.\r<br />\r<br />Version 2.0 represents a complete rebuild of the mod, moving wayshrines to provide better compatibility with other mods that add to towns and villages. It also adds wayshrines at Sky Haven Temple, Nightgate Inn, and Darkwater Crossing. The wayshrine inside Darkfall cave that is part of the Auriel&#39;s Bow quest is also connected to the network and can be accessed from Markarth, Karthwasten or Castle Volkihar.\r<br />\r<br />For Solstheim, the wayshrine near Hrothmund&#39;s Barrow has been moved to Saering&#39;s Watch. Windhelm is now connected to Raven Rock.\r<br />\r<br />Version 2.1 moves the Nightgate Inn wayshrine away from the immediate vicinity from the inn to allow for the additions made by the &#34;Cutting Room Floor&#34; mod. [b]If upgrading from a previous version you will need to start a new game as the wayshrine and door locations get baked into the same game.[/b] Version 2.1 also prevents the Sky Haven wayshrine from being popped until you have entered the temple as part of the main quest.\r<br />\r<br />Amazingly I remembered how to generate my cube maps after a year and a half away. I have also updated all wayshrine pictures to reflect the version 2.1 locations.\r<br />\r<br />Let me say this again. [b]If upgrading from a previous version you will need to start a new game as the wayshrine and door locations get baked into the same game[/b]. I will laugh and point fingers at anyone who doesn&#39;t read my notes.\r<br />\r<br />\r<br />[b][u]Requirements[/u][/b]\r<br />\r<br />[b]REQUIRES SKYRIM 1.9 and DAWNGUARD[/b]\r<br />[b]Dragonborn patch also REQUIRES DRAGONBORN and MAIN FILE FOR THIS MOD[/b]\r<br />\r<br />\r<br />[b][u]Install[/u][/b]\r<br />\r<br />Unzip the contents of this download into your Skyrim/Data directory.\r<br />\r<br />\r<br />[b][u]Uninstall[/u][/b]\r<br />\r<br />Remove the following from your Skyrim/Data directory:\r<br />SC08WayshrineSkyrim.esp\r<br />SC08WayshrineSkyrim.bsa\r<br />\r<br />[u][b]Dragonborn Patch Uninstall[/b][/u]\r<br />\r<br />SC08WayshrineSolstheim.esp\r<br />SC08WayshrineSolstheim.bsa\r<br />\r<br />\r<br />[b][u]Wayshrine Locations[/u][/b]\r<br />\r<br />Blackreach\r<br />Castle Volkihar\r<br />Darkwater Crossing\r<br />Dawnstar\r<br />Dragon Bridge\r<br />Falkreath\r<br />Fort Dawnguard\r<br />Helgen\r<br />High Hrothgar\r<br />Ivarstead\r<br />Karthwasten\r<br />Markarth\r<br />Morthal\r<br />Nightgate Inn\r<br />Riften\r<br />Riverwood\r<br />Rorikstead\r<br />Shor&#39;s Stone\r<br />Sky Haven Temple\r<br />Solitude\r<br />Whiterun\r<br />Windhelm\r<br />Winterhold\r<br />\r<br />[b][u]Wayshrine Locations for Dragonborn patch[/u][/b]\r<br />\r<br />Raven Rock\r<br />Saering&#39;s Watch\r<br />Skaal Village\r<br />Tel Mithryn\r<br />\r<br />\r<br />[b][u]Update Log[/u][/b]\r<br />\r<br />1.0 - Initial Release.\r<br />1.1 - Unchecked respawn flag for wayshrines at Ivarstead and Windhelm. Leaving this checked will cause those wayshrines to reset after 30 days in-game. All other wayshrines and doors were validated and found to be OK.\r<br />1.2 - Added Blackreach wayshrine, accessible from Dawnstar and Winterhold.\r<br />1.3 - Changed Bethesda&#39;s wayshrine door script to respond to OnLoad instead of OnCellAttach. This fixes an issue where travelling on foot between two wayshrines results in the door animations not playing at the destination wayshrine. I have tested this in-game for around 20 hours or so and have not seen any ill-effects. Created Dragonborn patch with two wayshrines located at Raven Rock and Skaal Village.\r<br />1.4 - Dragonborn: Added wayshrines near Tel Mithryn and Hrothmund&#39;s Barrow (Thanks to SphereOfRa for this suggestion). Added wayshrine map that can be found in the Bannered Mare next to the original journal that starts the wayshrine quest (thanks to Hupfstrudel for this suggestion).\r<br />1.4.1 - Minor map tweaks and some respawning fixes for doors.\r<br />2.0 - Complete rebuild to provide better compatibility for town expansion mods.\r<br />2.1 - Move Nightgate Inn wayshrine to avoid conflict with Cutting Room Floor. Prevent Sky Haven Temple wayshrine from being activated before the temple has been entered as part of the main quest.\r<br />2.1.1 - Cleaned main file using TES5Edit.\r<br />\r<br />\r<br />[b][u]Credits[/u][/b]\r<br />\r<br />Microsoft ICE - 360 degree panorama stitcher - http://research.microsoft.com/en-us/um/redmond/groups/ivm/ice/\r<br />Aerotwist - Cube map side generation - http://www.aerotwist.com/tutorials/create-your-own-environment-maps/\r<br />AMD CubeMapGen - Create a cube map from the sides - http://developer.amd.com/resources/archive/archived-tools/gpu-tools-archive/cubemapgen/\r<br />Bethesda, for Skyrim and the Creation Kit.\r<br />All the modders out there who have added to the enjoyment of the game.\r<br />\r<br />\r<br />[b][u]Permissions[/u][/b]\r<br />\r<br />Feel free to use this mod in full or in part. All I ask for is to be credited.\r<br />Please DO NOT upload this mod to any other site.",
+  "categoryId": "28",
+  "version": "2.1.1",
+  "author": "Arizona_Steve",
+  "createdUnix": "1354240251",
+  "updatedUnix": "1416845249",
+  "containsAdultContent": false,
+  "uploadedBy": "Arizona_Steve",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000136597",
+      "name": "Wayshrines of Tamriel",
+      "version": "2.1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "98154",
+      "fileName": "Wayshrines of Tamriel-27572-2-1-1.7z",
+      "uploadedUnix": "1416845003",
+      "modVersion": "2.1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/961d239983db8f8be23fe7069e6dfbe14b1869d02856d81c90c3f3622e40c675/analysis/1416845162/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Wayshrines%20of%20Tamriel-27572-2-1-1.7z?fid=1000136597&ttl=1535800394&ri=8192&rs=8192&setec=493e50ac6db3a9b9b9285f5099f10f78"
+    },
+    {
+      "fileId": "1000136598",
+      "name": "Wayshrines of Tamriel Solstheim Patch",
+      "version": "2.1.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "15619",
+      "fileName": "Wayshrines of Tamriel Solstheim Patch-27572-2-1-1.7z",
+      "uploadedUnix": "1416845249",
+      "modVersion": "2.1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/78f08f9a09d23c5d5671f812436dc472f79ebe500c78aa4501d7d0c637faa2c4/analysis/1416845353/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Wayshrines%20of%20Tamriel%20Solstheim%20Patch-27572-2-1-1.7z?fid=1000136598&ttl=1535800394&ri=8192&rs=8192&setec=9aeaff00e9fde7756d6e782b71f9d07e"
+    }
+  ]
+}

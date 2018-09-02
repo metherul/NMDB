@@ -1,0 +1,48 @@
+{
+  "modId": 20895.0,
+  "modName": "Fire Collision Resources",
+  "summary": "Adds collisions to fire and candle statics which previously did not have any.  Done by request.",
+  "descriptionHtml": "==========================================================\r\nFire Collision Resources                         by jonwd7\r\n\r\nv1.0.2                                           7/21/2012\r\n==========================================================\r\n\r\n This was done by request and adds collision to many of\r\nthe fire and candle statics which previously did not have\r\nany. This is useful for scripting events. This should NOT\r\nbe used to add collisions to these objects for the sake of\r\nit. The PC and NPCs are likely to catch on the wall candle\r\nfor example.\r\n\r\n There are 11 included statics so far. I have appended\r\n\\\"withcoll\\\" to the filenames, but in most cases, these\r\nshould replace the vanilla mesh.\r\n\r\n Collision versions are included in this resource for:\r\n \r\n `````````````````````````````````````````````````````````\r\n| meshes\\\\clutter\\\\candles\\\\candleHornWall01.nif\r\n| meshes\\\\clutter\\\\woodfires\\\\firePlaceWood01Burning.nif\r\n| meshes\\\\clutter\\\\woodfires\\\\firePlaceWood01Off.nif\r\n| meshes\\\\effects\\\\fxFireWithEmbers01.nif\r\n| meshes\\\\effects\\\\fxFireWithEmbers01_cheap.nif\r\n| meshes\\\\effects\\\\fxFireWithEmbers01_lite.nif\r\n| meshes\\\\effects\\\\fxFireWithEmbers02.nif\r\n| meshes\\\\effects\\\\fxFireWithEmbers02toggle.nif\r\n| meshes\\\\effects\\\\fxFireWithEmbers03.nif\r\n| meshes\\\\effects\\\\fxFireWithEmbersHeavyToggle.nif\r\n| meshes\\\\effects\\\\TestCandleFlame01.nif\r\n ________________________________________________________\r\n\r\n More will be added if necessary.\r\n\r\n==========================================================\r\nCHANGELOG\r\n==========================================================\r\n1.0.0 - Initial Release\r\n1.0.1 - Fixed flags in NifSkope so collisions actually\r\n        work now. Fixed scaling and positioning issues.\r\n        Collision Geometry may not appear correct in CK,\r\n        but it works in game.\r\n1.0.2 - Fixed some more NifSkope flags",
+  "categoryId": "82",
+  "version": "1.0.2",
+  "author": "jonwd7",
+  "createdUnix": "1342913777",
+  "updatedUnix": "1343033313",
+  "containsAdultContent": false,
+  "uploadedBy": "jonwd7",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "75867",
+      "name": "Fire Collision Resources",
+      "version": "1.0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "140",
+      "fileName": "Fire Collision Resources-20895-1-0-1.7z",
+      "uploadedUnix": "1342929416",
+      "modVersion": "1.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/52906edba06739470df32c957372fd151e97a73d6317f33dc6c6e48f71b5733d/analysis/1407038283/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fire%20Collision%20Resources-20895-1-0-1.7z?fid=75867&ttl=1535789344&ri=8192&rs=8192&setec=c85ab5b3fee795b1ad44f12d71b33023"
+    },
+    {
+      "fileId": "76146",
+      "name": "Fire Collision Resources",
+      "version": "1.0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "140",
+      "fileName": "Fire Collision Resources-20895-1-0-2.7z",
+      "uploadedUnix": "1343033313",
+      "modVersion": "1.0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/1d7d88e6827d031a5d707cfc731495e5443b7098cbc51aa5c7b7cc2eda14f5ea/analysis/1407040803/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fire%20Collision%20Resources-20895-1-0-2.7z?fid=76146&ttl=1535789345&ri=8192&rs=8192&setec=f974f0a33f36f0aed88c3e0f169bcf42"
+    }
+  ]
+}

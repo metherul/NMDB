@@ -1,0 +1,32 @@
+{
+  "modId": 72288.0,
+  "modName": "Perfect Knight of Order Sword",
+  "summary": "Adds a blade reminiscent of the Shivering Isles, with a complete set of 2K textures.",
+  "descriptionHtml": "This is [u]not[/u] a port. If you think it is, then [color=#ff0000][b]PROVE IT.[/b][/color]\r<br />\r<br />A dear old friend of mine from college made a 3DSMax script to create a &#39;vector height based UV mesh&#39;. What does it do?\r<br />1. I have to export a UV map from a mesh in PNG format.\r<br />2. Point the script to said PNG.\r<br />3. Tell script what parameters to create said mesh (how high triangle vertices should be)\r<br />4. Once the mesh is created, duplicate it and transform it by rotating on the Y axis 180 degrees.\r<br />5. Combine shapes into a solid mesh.\r<br />6. Smooth any rough edges, lower any vertices/triangles that are too high.\r<br />7. Export as .obj, works best with NIFSkope.\r<br />8. I did the rest, including the scabbard textures and ESP file.\r<br />9. I will not be releasing the script, I don&#39;t have it anymore, and it&#39;s not mine to release. Sorry, but my friend doesn&#39;t want it on the Internet. They also only speak Russian.\r<br />\r<br />This is almost an exact replica of the Knight of Order sword from the Shivering Isles. Created from a UV map, it&#39;s as close to the original as you&#39;re going to get. I hand-made the textures for the scabbard leather and the whole blade. Full 2K regular textures, environment maps, and normalmaps all in an easy to install ESP and BSA/BSL combo. The normalmaps are a bit intense on the scabbard but shouldn&#39;t be any trouble. A few shapes are missing from the mesh because of the script and some incompatibilities with Cygwin (a Unix shell for Windows based PCs), but it turned out better than I imagines it ever would.\r<br />\r<br />It&#39;s fully craftable and upgradeable, and you can enchant it as well. \r<br />\r<br />FAQ\r<br />Q: Is this really 2K?\r<br />A: Yes. Over the course of 2 months I made these textures in my free time.\r<br />\r<br />Q: Where can I get this awesome script?\r<br />A: You can&#39;t. I&#39;m sorry, my friend was very clear on never releasing it. If you want to try and contact them, go ahead. Their name is Vladislav Ivanovich.\r<br />\r<br />Q: Framerate went down. What gives?\r<br />A: 2K textures are taxing with anisotropic filtering. I use 2X. There&#39;s no noticeable difference between 8X and 16X.\r<br />\r<br />Q: Will you be doing more?\r<br />A: Probably not, sorry. \r<br />\r<br />Q: Is this compatible with (insert unrelated mod here)?\r<br />A: Yes.",
+  "categoryId": "55",
+  "version": "1.0",
+  "author": "Jane Harris",
+  "createdUnix": "1451457035",
+  "updatedUnix": "1451456672",
+  "containsAdultContent": false,
+  "uploadedBy": "ZurinArctus85",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000189448",
+      "name": "ordersword",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6404",
+      "fileName": "ordersword-72288-1-0.zip",
+      "uploadedUnix": "1451456672",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/13740d9b8f7553ef19737aded85f6a6c521aef52790cb70abd7c82e728c27839/analysis/1451458508/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ordersword-72288-1-0.zip?fid=1000189448&ttl=1535860808&ri=8192&rs=8192&setec=b1ca880f359aba72b2619051040af700"
+    }
+  ]
+}

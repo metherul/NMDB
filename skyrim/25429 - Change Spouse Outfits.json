@@ -1,0 +1,32 @@
+{
+  "modId": 25429.0,
+  "modName": "Change Spouse Outfits",
+  "summary": "Give your spouse gifts; if those gifts are armor or clothing, they&#39;ll wear them around the house.",
+  "descriptionHtml": "DESCRIPTION:\r<br />\r<br />Speak to your spouse once married, and you&#39;ll see a new dialogue option. Click on it, and it will open a menu through which you can give your spouse gifts. If you give them armor, they will wear it instead of their usual outfit. You may not take your spouse&#39;s clothing or other belongings.\r<br />\r<br />This is very similar to the mechanic for giving children gifts in Hearthfire, and like it, you may not ask your spouse for what you gave them back (though you can purchase it back from them or pickpocket them for it, or open their inventory by using the &#34;OpenActorContainer 1&#34; console command on them). Unlike Hearthfire, you are unlimited in what sort of items you may want to give your spouse, be it armor, weapons, potions, jewelry, or flowers.\r<br />\r<br />Even if you never give your spouse gifts, you neglectful wretch, your spouse will wear their wedding ring.\r<br />\r<br />This will not affect spouses who are also followers, though this can be achieved by using my [url=http://skyrim.nexusmods.com/mods/23798]Change Follower Outfits[/url] mod.\r<br />\r<br />REQUIREMENTS:\r<br />\r<br />A working copy of the Elder Scrolls V: Skyrim.\r<br />\r<br />INSTALLATION:\r<br />\r<br />Place the contents of the .7z file in your &#34;Data&#34; folder, which is usually located under Steam/steamapps/common/Skyrim.\r<br />\r<br />The ReadMe document and the .bsl file are not required for the mod to run -- you may keep them or discard them.\r<br />\r<br />UNINSTALLATION:\r<br />\r<br />Delete the included .esp and .bsa file.\r<br />\r<br />The nature of Skyrim’s scripting language, Papyrus, means that, even following this procedure, your Papyrus log will continue to throw errors about missing scripts, potentially leading to save game bloat. There is, lamentably, nothing that I can do about this -- you have been warned.\r<br />\r<br />UPDATING:\r<br />\r<br />Replace all older files with newer versions. If in doubt, replace all mod files with the contents of the latest uploaded archive.\r<br />\r<br />No in-game configuration is necessary.\r<br />\r<br />BUGS:\r<br />\r<br />Basically, your spouse is a living mannequin, with all the disadvantages that entails (although you cannot use them to duplicate items). Your spouse will ignore the armor rating on what you give them and will prefer to wear the last thing you gave them.\r<br />\r<br />The quest launches via a change location event, so if you&#39;re game is saved in the same area as your spouse, leave and come back, and it should work.\r<br />\r<br />COMPATIBILITY:\r<br />\r<br />This should be compatible with practically any mod, including mods that edit a spouse&#39;s aesthetic qualities (though anything that merely changes their clothes is redundant, perhaps).",
+  "categoryId": "33",
+  "version": "1.1.2",
+  "author": "PrinceShroob",
+  "createdUnix": "1350095703",
+  "updatedUnix": "1400710264",
+  "containsAdultContent": false,
+  "uploadedBy": "PrinceShroob",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000109932",
+      "name": "Change Spouse Outfits",
+      "version": "1.1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "29",
+      "fileName": "Change Spouse Outfits-25429-1-1-2.7z",
+      "uploadedUnix": "1400710264",
+      "modVersion": "1.1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/22907521bc0fbcc1b1a172d482ff43d4d6a108ce892c683583887f42d9a6d70a/analysis/1408089063/",
+      "changelogHtml": " Synched file to the Unofficial Skyrim Patch version 2.0.4 <br/> \n Corrected engine bug where items added to spouses would cause them to unequip their gear <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Change%20Spouse%20Outfits-25429-1-1-2.7z?fid=1000109932&ttl=1535796925&ri=8192&rs=8192&setec=af042f3b846b5fd29b57dff55f72592e"
+    }
+  ]
+}

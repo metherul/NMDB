@@ -1,0 +1,32 @@
+{
+  "modId": 23402.0,
+  "modName": "Horse Gallop Endurance",
+  "summary": "Makes horses able to gallop and to fight for a longer time.",
+  "descriptionHtml": "[b]Makes horses able to gallop and to fight for a longer time.[/b]\r\n\r\nSaddled horses are those that can be bought by the player.\r\n\r\nThe reason I added more health points to horses is that they normally will fight by your side *until* their health drops to a small percentage, then they would disengage and make a run for it, the small ammount of health they have in vanilla version does not allow for this, they will die before being able to escape, adding more health points gives you the chance to defend your horse before it gets killed.\r\n\r\nModifies the following values on all saddled horses plus Shadowmere\r\n[list]\r\n[*]Adds 900 points to the stamina offset, more time galloping.\r\n[*]Adds 600 points to the health offset, your horse will not be too easy to kill.\r\n[*]Adds a 20% more speed.\r\n[/list]\r\n\r\nIt will not affect an already owned horse, if you already own one, you have a few options:\r\n[list]\r\n[*]Kill him and buy another one. :___(\r\n[*]Leave him be somewhere and buy another horse. :/\r\n[*]Press the console button, select your horse, write \\'setav stamina 1006\\' and press enter, \\'setav health 889\\' and press enter, speed updates on its own. :D\r\n[/list]\r\n\r\nShadowmere has 1000 more stamina, 700 more health and a 30% more speed.\r\n\r\nThis mod may not be compatible with other mods that change \\'horse stuff\\', load it last.\r\n\r\nI\\'m using it with [url=http://skyrim.nexusmods.com/mods/13637]Horse Whisper --- Horse Calling - Horse Locating by ride[/url] and they work great.\r\n\r\n[b]If you are interested, you can check my other mods.[/b]\r\n[list]\r\n[*][url=http://skyrim.nexusmods.com/mods/23664]Windowed Mode Relocator[/url]\r\n[*][url=http://skyrim.nexusmods.com/mods/23770]Non Stop Mining And Chopping[/url]\r\n[*][url=http://skyrim.nexusmods.com/mods/24028]Strong Boxes On Alchemy Labs And Arcane Enchanters[/url]\r\n[*][url=http://skyrim.nexusmods.com/mods/24239]FPS Counter[/url]\r\n[*][url=http://skyrim.nexusmods.com/mods/24415]Winmm Plugin Loader[/url]\r\n[/list]\r\n[b]Best regards, and happy galloping!!![/b]",
+  "categoryId": "65",
+  "version": "1.1",
+  "author": "Pharago",
+  "createdUnix": "1346436670",
+  "updatedUnix": "1346620538",
+  "containsAdultContent": false,
+  "uploadedBy": "pharago",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "86054",
+      "name": "Horse gallop endurance",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Horse gallop endurance-23402-1-1.zip",
+      "uploadedUnix": "1346620538",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c950f4c911a3b8ad73680a6dd2624b43c52131dcb550e5a7627edac7139b0016/analysis/1407141662/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Horse%20gallop%20endurance-23402-1-1.zip?fid=86054&ttl=1535793625&ri=8192&rs=8192&setec=4827fe1227f6f3673213e63b3e341624"
+    }
+  ]
+}

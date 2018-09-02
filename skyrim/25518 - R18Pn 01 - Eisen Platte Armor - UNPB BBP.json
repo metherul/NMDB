@@ -1,0 +1,48 @@
+{
+  "modId": 25518.0,
+  "modName": "R18Pn 01 - Eisen Platte Armor - UNPB BBP",
+  "summary": "A conversion of the Eisen Platte Armor by NPR / KURESE for UNPB-BBP with working weight slider. It requires KURESE\\'s original mod.",
+  "descriptionHtml": "A conversion of the Eisen Platte Armor by NPR / KURESE for UNPB-BBP with working weight slider. It requires KURESE\\'s original mod.\r\n\r\nEnglish is not my native language so sorry for my mistakes.\r\n\r\nRequired mods (don\\'t forget to endorse them):\r\n[url=http://skyrim.nexusmods.com/mods/11050]R18Pn 01 - Eisen Platte Armor for UNP and CBBE V3 V2[/url] (the UNP version)\r\nThe UNPB body replacer with BBP support: [url=http://skyrim.nexusmods.com/mods/37900/]UNPB REDUX PROJECT[/url] OR [url=http://skyrim.nexusmods.com/mods/20227/]Troublemakers Clothing[/url]\r\n\r\nUpdate 0.2:\r\nAdded a non BBP version as an optional file, compatible with either version of the UNPB mod. It is not a patch, has the same contents than the initial version.\r\nAlso this version will not CTD your game as it does not require a BBP skeleton.\r\n\r\nInstallation:\r\nFirst install the required mods\r\nUse NMM and overwrite when asked. Say no to upgrade.\r\nManual installation: open archive, extract meshes folder into data folder and overwrite when asked.\r\n\r\nKnown issues:\r\nMissing arms in 1st person when the gloves are not equipped. As far as I know it\\'s a bug of the original armor. I found a way to fix it:\r\n1. Delete 1stC_0.nif and 1stC_1.nif from the folder \\\"meshes\\\\R18Pn\\\\Armor\\\\Eisen\\\" \r\n2. Make a copy of cuirass_0.nif and rename the copy to 1stC_0.nif\r\n3. Do the same with cuirass_1.nif and 1stC_1.nif\r\n4. repeat steps 1-3 with the folder \\\"meshes\\\\R18Pn\\\\Armor\\\\Eisen\\\\BK\\\" \r\n\r\nCredits and thanks:\r\nNPR / KURESE for [url=http://skyrim.nexusmods.com/mods/11050]R18Pn 01 - Eisen Platte Armor for UNP and CBBE V3 V2[/url]\r\ncalyps and xp32 for [url=http://skyrim.nexusmods.com/mods/14899]UNP BLESSED BODY UNPB - With Optional BBP Breast Physics[/url]\r\ndimon99 for [url=http://skyrim.nexusmods.com/mods/6709]DIMONIZED UNP female body[/url]",
+  "categoryId": "54",
+  "version": "0.2",
+  "author": "belisariu",
+  "createdUnix": "1350239777",
+  "updatedUnix": "1351794427",
+  "containsAdultContent": true,
+  "uploadedBy": "belisariu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "93870",
+      "name": "R18Pn 01 - Eisen Platte Armor - UNPB BBP",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1501",
+      "fileName": "R18Pn 01 - Eisen Platte Armor - UNPB BBP-25518-.7z",
+      "uploadedUnix": "1350239900",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/fc4b389004d85446b5096486c893bf4879c92af9f27cad4dfd3502193e2ae892/analysis/1407221944/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/R18Pn%2001%20-%20Eisen%20Platte%20Armor%20-%20UNPB%20BBP-25518-.7z?fid=93870&ttl=1535797084&ri=8192&rs=8192&setec=28c3689b10deafabeb67f61044d32fa5"
+    },
+    {
+      "fileId": "97027",
+      "name": "R18Pn 01 - Eisen Platte Armor - UNPB",
+      "version": "0.2",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1483",
+      "fileName": "R18Pn 01 - Eisen Platte Armor - UNPB-25518-0-2.7z",
+      "uploadedUnix": "1351794427",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/21223f27619bada15efce56c522f25a8476c88f6a6f13937e6472f25623d762a/analysis/1407245289/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/R18Pn%2001%20-%20Eisen%20Platte%20Armor%20-%20UNPB-25518-0-2.7z?fid=97027&ttl=1535797084&ri=8192&rs=8192&setec=cd0889bd705bef540cea3091e2440be6"
+    }
+  ]
+}

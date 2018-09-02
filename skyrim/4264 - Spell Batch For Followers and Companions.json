@@ -1,0 +1,32 @@
+{
+  "modId": 4264.0,
+  "modName": "Spell Batch For Followers and Companions",
+  "summary": "This batch file will add all of the appropriate spells to your companion - minus the superfluous and buggy spells. Additionally, (and ultimately) it add spells for both the left and right hand. The objective of this \\\"mod\\\" is to enable players to add all the spells and shouts that a follower would need without being too powerful and without bugs. ",
+  "descriptionHtml": "[b] - Description - [/b]\r\nThis batch file will add all of the appropriate spells to your companion - minus the superfluous and buggy spells. Additionally, (and ultimately) it add spells for both the left and right hand. The objective of this \\\"mod\\\" is to enable players to add all the spells and shouts that a follower would need without being too powerful and without bugs. \r\n\r\nPlease note that this batch file is in beta and I would appreciate suggestions for additions or subtractions to the spell list. Please also understand that I will not be adding spells that are crazy powerful. With that said, I HAVE added the master destruction spells as of version 0.1. unless in they end they seem more trouble than they are worth they will stay. For anyone that disagrees, each spell is labeled and should be easily identifiable in the text file. So if you don\\'t like a spell, just alter the AddSpells file and use the remove spells batch file for a fresh start if you so choose. If it\\'s convenient, it may just be easier to look at the text file and simply remove the spell yourself without the batch file. The choice is yours.\r\n\r\nThis \\\"mod\\\" is incomplete. I don\\'t know what spells actors are capable of using. if you find a spell that actors are incapable of using please comment and let me know so I can fix it. As of version 0.1 I know that some of these spells are not used. However, I need confirmation from other players before I will remove it. It should also be noted that in the future I hope to see a mod that will expand the AI and enable actors to use spells they normally wouldn\\'t. As such, I will not remove all of the seemingly superfluous spells (Candlelight and Become Ethereal comes to mind).\r\n\r\n[b] - What\\'s In the Box? - [/b]\r\nThere are two text files inside a zip:\r\nAddSpells: Adds all appropriate companion usable spells to the selected actor.\r\n\r\nRemoveSpells: Removes all spells. (Not yet implemented)\r\n\r\n[b] - Installation - [/b]\r\nPlace the text files into the main Skyrim directory. If your in the folder that has SkyrimLauncher.exe you\\'re in the right place.\r\n\r\n[b] - How To Use - [/b]\r\nPress the tilde key (`) or (~) to open the console. Click on the actor you wish to add spells to. Now type \\\"bat AddSpells\\\" without quotes and all the spells will be added to your companion. \r\n\r\n[b] - Things To Do - [/b]\r\n - Add left handed spells\r\n - Remove all superfluous spells\r\n - start on Shout batch file\r\n\r\n[b] - Change Log - [/b]\r\n0.1 \r\n - Batch files released\r\n0.2 \r\n - Spells alphabatized to more easily find spells in the list. \r\n - Removed superfluous weaker versions of certain destruction spells. \r\n - Removed bound weapon spells because actor constantly casts them and subsequesntly changes spells thus rendering the spells useless. ",
+  "categoryId": "28",
+  "version": "0.2",
+  "author": "YjVQlFHn",
+  "createdUnix": "1324460095",
+  "updatedUnix": "1324518745",
+  "containsAdultContent": false,
+  "uploadedBy": "YjVQlFHn",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "12791",
+      "name": "Add Spells",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Add Spells-4264-0-2.zip",
+      "uploadedUnix": "1324518745",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/343fba78a83c44a77dce70dc8f18502ead704d46ea2c62ec8380a79b3c4ef661/analysis/1406545447/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Add%20Spells-4264-0-2.zip?fid=12791&ttl=1535759910&ri=8192&rs=8192&setec=121ba436d6b9b1959c57734dc1ef266a"
+    }
+  ]
+}

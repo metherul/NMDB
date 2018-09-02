@@ -1,0 +1,32 @@
+{
+  "modId": 2938.0,
+  "modName": "HUDMod WIP",
+  "summary": "Moves HUD items around. May be dodgy for resolutions other than 1920x1080!",
+  "descriptionHtml": "I wish I had time to complete this properly and fix everything, but school is taking way too much time, so I\\'m just going to release it.\r\n\r\nThis is mainly for the people who want to tear it apart and find out what I did to make these changes, so they can make better changes.\r\n\r\nBut if you want to give it a go, and are willing to ignore all the bugs, considering this is a WIP, go right on ahead.\r\n\r\nI will -not- be fixing anything till further notice, as I\\'m extremely busy with school currently.\r\nBut if I, somehow, manage to obtain some spare time from my exams and other school stuff, I\\'ll consider jumping back in and doing some more work on this.\r\n\r\nOther stuff I\\'ve done:\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=1781]NoHUD[/url]\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=1800]Modding guide[/url]\r\n======================================================================\r\n\r\nThings I\\'ve modified:\r\n- Moved health/stamina/mana bars\r\n- Moved weapon enchantment bars\r\n- Moved arrow name and amount\r\n- Moved enemy name and health bar\r\n- Moved compass and shout bars (glow)\r\n- Moved favourites menu a bit higher to make room\r\n- Disabled health/stamina/mana bars autohiding\r\n- Modified stamina and enchantment bars to drain from right*\r\n- Modified favourites menu to be longer**\r\n\r\n* Due to lack of time, I wasn\\'t able to do this to health bar.\r\n** This is done by adding empty items in the beginning, so it may look empty when first opening it, just scroll down and it should be fine.\r\n======================================================================\r\n\r\nKnown bugs:\r\nMajor: Enemy name and compass are in the wrong position if you\\'re playing on anything(?) other than 1920x1080.\r\nMinor: Enemy health colours the top of the surrounding box red-ish.\r\n======================================================================\r\n\r\nInstallation: Extract into Data-folder\r\n\r\nUninstallation:\r\nRemove:\r\n- \\\\Data\\\\Interface\\\\favoritesmenu.swf\r\n- \\\\Data\\\\Interface\\\\Exported\\\\hudmenu.gfx\r\n\r\nPermission notes:\r\nFeel free to do anything with the files.\r\nThough I can\\'t force you to give me recognition if you decide to modify them or upload the files somewhere, I certainly would appreciate it - considering I poured hours into figuring out how this stuff works.",
+  "categoryId": "42",
+  "version": "0.12",
+  "author": "0rava",
+  "createdUnix": "1323285215",
+  "updatedUnix": "1323285290",
+  "containsAdultContent": false,
+  "uploadedBy": "0rava",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "7982",
+      "name": "HUDMod",
+      "version": "0.12",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "178",
+      "fileName": "HUDMod-2938-0-12.zip",
+      "uploadedUnix": "1323285290",
+      "modVersion": "0.12",
+      "virusScanUrl": "https://www.virustotal.com/file/8f031f62a783f15c864c1b156a1d927e4fae45ceda8eadad286ef01e209f73f3/analysis/1406490723/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HUDMod-2938-0-12.zip?fid=7982&ttl=1535757603&ri=8192&rs=8192&setec=73e792b1d4aa398efedd9ba427295bd0"
+    }
+  ]
+}

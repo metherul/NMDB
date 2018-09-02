@@ -1,0 +1,48 @@
+{
+  "modId": 18939.0,
+  "modName": "banshee shout",
+  "summary": "adds a brand new shout to the game",
+  "descriptionHtml": "added a new shout to skyrim, suggested to me by here57\r\n\r\neffects:\r\nwell right now it is a mass paralysis, what i want to add to it and trying is an area damage spell that has no visual effects like a banshee screaming\r\n\r\nImportant(if you download the banshee scream batch file):\r\nbefore you go into the game, you must find the shout.txt batch file and change the first two letters of each id to the load order of this esp file. once you have done that you can go into the game, open up console \\\"~\\\" and type \\\"bat banshee shout\\\" (no caps, two words, and no quotes)\r\n\r\ninstallation:\r\nextract the esp file to your skyrim data folder, for those who dont know where it is: C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data \r\nor \r\nuse the NMM\r\n\r\nmethod to acquire the shout:\r\ngo into command prompt type:\r\nHelp dir\r\nhelp aaz\r\nhelp zaan\r\nplayer.teachword XXXXXXXXX\r\nif you have no dragon souls, then use this also player.unlockword XXXXXXXXXX \r\n\r\nsorry i dont really know how to make scripts to obtain the shout without command prompt",
+  "categoryId": "75",
+  "version": "1",
+  "author": "Intuz0keizaal",
+  "createdUnix": "1339944840",
+  "updatedUnix": "1340289265",
+  "containsAdultContent": false,
+  "uploadedBy": "Intuz0Keizaal",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "68611",
+      "name": "banshee shout",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "banshee shout-18939-1.rar",
+      "uploadedUnix": "1339944991",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/c7e3d975b2f600b972e712a36ac6dd0a2316a396cf52d77f26a57190aeabbd5c/analysis/1406965176/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/banshee%20shout-18939-1.rar?fid=68611&ttl=1535786097&ri=8192&rs=8192&setec=d6d7d63b01ccd20666338aba53cfe609"
+    },
+    {
+      "fileId": "69404",
+      "name": "banshee shout batch file",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "banshee shout batch file-18939-1.rar",
+      "uploadedUnix": "1340289265",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/ad9ddd99891bbfb190714fb7428f81ebeea246771c5972b23ed270b310e413a0/analysis/1406973607/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/banshee%20shout%20batch%20file-18939-1.rar?fid=69404&ttl=1535786098&ri=8192&rs=8192&setec=8b550f9b00ee806b7562260a002409a5"
+    }
+  ]
+}

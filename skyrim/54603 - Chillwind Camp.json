@@ -1,0 +1,48 @@
+{
+  "modId": 54603.0,
+  "modName": "Chillwind Camp",
+  "summary": "Rework of the small (2 Tents & Boat) unmarked Adventures Camp near Chillwind Depths to make it a suitable non-loadscreen Playerhome.",
+  "descriptionHtml": "Description :\r<br />------------------------------\r<br />Chillwind Camp is a rework of the unmarked Adventurers Camp east of Chillwind Depths\r<br />to make it a useable non-loadscreen Starterhome, permanent Player or Follower home,\r<br />Weekend Camp or Retreat with a rustic /Campside like look.\r<br />See my uploaded Images for Location and Layout\r<br />Picture 1-5 showing Version R.1.0\r<br />Picture 6 & 7 the Layout changes in Version R.1.1\r<br />\r<br />The Adventures Journal one can find in the original Camp \r<br />was moved on the Chest next to the Anvil. \r<br />\r<br />\r<br />\r<br />The Camp consists of :\r<br />------------------------------\r<br />- 2 small Tents with unowned Bedrolls so Followers can use them.\r<br />- 1 Large imperial Tent with a Player owned Bed which gives well rested Bonus\r<br />- 2 improvised Shacks to provide some shelter for the crafting areas\r<br />- 1 Shrine of Talos\r<br />- all crafting Tools/Stations besides an Enchanter and a Smelter (could not squeeze them in)\r<br />- 12 Hearthfire fertile Soils .\r<br />- a decent amount of all kind of Idle Markers so NPC&#39;s (Humanoids and Dogs) can use them.\r<br />If and what kind of marker they use depends on which AI Package the NPC uses.\r<br />\r<br />- a reworked NavMesh to reflect the Area Changes.\r<br />- a couple of safe Storages (set to no respawn)\r<br />- a few respawning Barrels, Plants, Birdsnests, small Beehive and harvestable dead Animals.\r<br />\r<br />Note :\r<br />ALL Barrels are NOT save to store Stuff as they will respawn.\r<br />any other Container (Chests, Wardrobe, Strongbox etc.) should be safe.\r<br />\r<br />- changed water flow direction and type in adjacent Cells\r<br />so that the River looks decently better than vanilla.\r<br />However the Water still does not follow the riverbed accuratly but that&#39;s due the way\r<br />the Game handles Water/Rivers or i am not skilled enough with the CK.\r<br />\r<br />See Version History / Changelog for differences.\r<br />\r<br />\r<br />\r<br />\r<br />Requirements :\r<br />------------------------------\r<br />Skyrim.esm\r<br />Hearthfires.esm\r<br />\r<br />-&gt; The mod will most likely crash your Game if you dont have Hearthfire installed. &lt;-\r<br />\r<br />\r<br />\r<br />Installation :\r<br />------------------------------\r<br />First, make a seperate Save (no Quicksave) as a Fallback if things don&#39;t work as they should.\r<br />Afterwards unpack and place the provided .esp File into your Skyrim Data Folder \r<br />and activate it.\r<br />\r<br />\r<br />\r<br />De-Installation :\r<br />------------------------------\r<br />Make sure you grabbed everything stored in the Area first (Barrels, Chests etc.)\r<br />then travel to different Location (Riften is a pretty nice Town).\r<br />After that Save your Game and deactivate / delete the Mod.\r<br />it should not leave any Footprints as only Stock assets are used.\r<br />\r<br />\r<br />\r<br />Upgrading :\r<br />---------------------------\r<br />From R1.0 to R.1.1\r<br />\r<br />I tested it a couple of times and it should be OK to simply overwrite the existing R.1.0 File.\r<br />None of the secure Containers was replaced so your Storage should be safe.\r<br />Letting the Cell reset usually fixes any possible visual oddities.\r<br /> \r<br />However if you want to be on the secure side: \r<br />- grab everything from the Camp, \r<br />- move your Follower(s) (if applicable) to a different Location,\r<br />- move your Character away (best would be a seperate Worldspace like Solitude)\r<br />- make a Clean Save    \r<br />- replace old .esp File with new one\r<br />- activate Mod Version R.1.1 \r<br />\r<br />\r<br />\r<br />Incompatibility / Known Problems:\r<br />------------------------------\r<br />Activating the Mod while your Character is inside the Area\r<br />(ChillwindDepthsExterior01 to 03 and adjacent cells) will prevent some Vanilla scripts\r<br />to initialize properly (for ex. the Wood Chopping Block wont work correctly)\r<br />-&gt; To avoid this, move your Character far away (Windhelm is allways worth a visit) &lt;-\r<br />-&gt; save your game and activate the Mod afterwards. &lt;-\r<br />\r<br />The Camp will surely collide with any Mod that alters the same Cells\r<br />(ChillwindDepthsExterior01 to 03 and adjacent ones)\r<br />\r<br />Regarding to Nexus User tdh436 (thanks for sharing the Info)\r<br />The Mod &#34;Thalmor Invasion&#34; by Starlitegirl adds a couple of respawning enemies \r<br />in /around the Camp.\r<br />\r<br />\r<br />\r<br />Some Stuff you might want / should know :\r<br />----------------------------------------------------\r<br />First of all this is my first released Mod and contribution to the Nexus so\r<br />please dont rip my Head off if something is not working as intended.\r<br />If you find any errors or problems, let me know and i try to fix them.\r<br />-\r<br />The Camp should be Follower friendly and even be suitable to be Home for 2 Followers\r<br />(with the Help of Mods like EFT) however i cannot say if that is working for Spouses too.\r<br />i did quiet some Testing having 2 Followers living in the Camp with no Problem.\r<br />Yet that does not mean it works flawless or in conjunction with whatever Follower Mod you use.\r<br />-\r<br />Right now you should not try to move your Childern to the Camp.\r<br />-\r<br />I am not entirely sure if the NavMesh works 100% correctly.\r<br />In my testing Time i had it twice that an NPC got stuck in the World geometry\r<br />but could not reproduce the Error.\r<br />Asking them to follow you and then quicktraveling solved the Issue.\r<br />\r<br />\r<br />\r<br />Ideas / probably future Plans:\r<br />--------------------------------------\r<br />adding a Mine (interior Cell) or something similar.\r<br />making the Camp accessible by a Bridge\r<br />\r<br />\r<br />\r<br />Credits :\r<br />-------------------------\r<br />Bethesda Softworks for creating Skyrim.\r<br />The Skyrim Community for such an awesome amount of Mods/Fixes/Ideas.\r<br />\r<br />\r<br />\r<br />Version History / Change Log :\r<br />------------------------------------\r<br />\r<br />R.1.1\r<br />- reworked the crafting Area and merged the 2 small improvised Huts into a bit bigger makeshift Shelter\r<br />- added an Enchanter and a Smelter\r<br />- a new safe container on the Enchanters Table\r<br />- moved the Strongbox from the Endtable next to the tanning Rack & Workbench to the Enchanters Table\r<br />- changed the NavMesh accordingly\r<br />(see Picture 6 & 7 for changed Layout)\r<br />\r<br />- fixed a few Texture / Grass oddities\r<br />- added 3 different dried Herbs (harvestable & respawning) above the Alchemist Table  \r<br />- replaced / moved some Idle Markers\r<br />- fixed 2 potential NavMesh Issues\r<br />- replaced the Hearthfire Planter frames with some stone Blocks to give them a more rustic look\r<br />- added a Woodaxe to the Wood choping Block\r<br />- some smaller things not worth mentioning\r<br />- removed the Stone Quarry in preperation for possible further Versions.\r<br />\r<br />\r<br />\r<br />R.1.0\r<br />- initial release \r<br />(See Pictures 1-5 for Layout and Location)\r<br />\r<br />",
+  "categoryId": "67",
+  "version": "R.1.1",
+  "author": "Flashwoozy",
+  "createdUnix": "1401887377",
+  "updatedUnix": "1402134685",
+  "containsAdultContent": false,
+  "uploadedBy": "Flashwoozy",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000111767",
+      "name": "Chillwind Camp",
+      "version": "R.1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "150",
+      "fileName": "Chillwind Camp-54603-R-1-0.7z",
+      "uploadedUnix": "1401886709",
+      "modVersion": "R.1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c4310f97815bcf1ae12a709b27953b56ae08f63d697613c063a1e07b3b086f05/analysis/1408111969/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Chillwind%20Camp-54603-R-1-0.7z?fid=1000111767&ttl=1535838985&ri=8192&rs=8192&setec=bc4222063d10d4da7e6b7d10451c2166"
+    },
+    {
+      "fileId": "1000112101",
+      "name": "Chillwind Camp",
+      "version": "R.1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "151",
+      "fileName": "Main File - Version R.1.1-54603-R-1-1.7z",
+      "uploadedUnix": "1402134685",
+      "modVersion": "R.1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/afea727fa4ef4a697909c2d071ca368c6b636c1df8148d1bad620af0e5676882/analysis/1408116005/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Main%20File%20-%20Version%20R.1.1-54603-R-1-1.7z?fid=1000112101&ttl=1535838986&ri=8192&rs=8192&setec=e46771dc427848fc6694e911c0db2aba"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 30542.0,
+  "modName": "Non-existent npc disabler",
+  "summary": "Adds a means to remove npcs that don\\'t seem to exist, but actually do (it\\'s confusing, I know). Uploaded for a friend, but I\\'m sure other people have encountered it.",
+  "descriptionHtml": "Adds a small room with a button that will delete any npc in the cell. It also tells you how many it removed. Type \\\"coc ghostbuster\\\" in the console to get to it. Fast travel to get out of it.  Require Skyrim script extender (skse). This is really only useful if you\\'re having the problem described below.\r\n\r\n-----------------------------------------\r\nBackstory\r\n-----------------------------------------\r\nRecently, both my friend and I have encountered a peculiar bug where we\\'d be followed around by a posse of invisible npcs whenever we entered a cell or fast traveled. We have no idea which mod caused it, but we both agree that whoever caused it should feel very bad about themselves, and that they should receive a very stern talking to. The \\\"ghosts\\\" couldn\\'t be talked to, didn\\'t take damage, had no name according to subtitles, didn\\'t show up with wireframe mode enabled, and couldn\\'t be clicked on with the console. They did, however, talk all the time and would stand in a circle around the player, not allowing them to move. They\\'d also sometimes use crafting equipment, which gave an opportunity to delete them though the object they were holding (see screenshot), but waiting around for them to do this would take forever, so I made this.\r\n\r\nEdit: Apparently it was caused by Wet and cold and is now supposedly fixed in version 1.11. I\\'ll leave this uploaded in case another future mod causes a similar problem.\r\n\r\n-----------------------------------------\r\nMy other mod\r\n-----------------------------------------\r\n[url=http://skyrim.nexusmods.com/mods/29803] Vampire and Werewolf - Be both [/url]",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "ColonelCorn",
+  "createdUnix": "1359276848",
+  "updatedUnix": "1359276719",
+  "containsAdultContent": false,
+  "uploadedBy": "ColonelCorn",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000005146",
+      "name": "Ghostbuster",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "Ghostbuster-30542-1-0.7z",
+      "uploadedUnix": "1359276719",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2db6156876ba157f7213b464a5921f3dbe519dc81331bce249fd044376596bf7/analysis/1407381308/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ghostbuster-30542-1-0.7z?fid=1000005146&ttl=1535805451&ri=8192&rs=8192&setec=7bd4bca79cb65c6b2a992174e7f995df"
+    }
+  ]
+}

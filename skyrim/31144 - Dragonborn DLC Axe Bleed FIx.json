@@ -1,0 +1,32 @@
+{
+  "modId": 31144.0,
+  "modName": "Dragonborn DLC Axe Bleed FIx",
+  "summary": "Adds bleed damage to Stalhrim and Nordic Battle Axes and War Axes",
+  "descriptionHtml": "[b]----- NOTICE -----[/b]\r\n\r\n[b][size=5][color=red]THIS MOD REQUIRES THE LATEST VERSION OF SKYRIM & DRAGONBORN DLC. IT WILL NOT WORK WITH PREVIOUS VERSIONS OF SKYRIM[/size][/color][/b]\r\n\r\n[b]----- Why is this Mod necessary? -----[/b]\r\n\r\nWhen Dawnguard launched, we got a new weapon material; Dragonbone. It is listed as DLC1WeaponMaterialDragonbone. Because of these new materials, and the fact they are two completely separate DLCs, you can\\'t just add the keywords without breaking compatibility. The answer is creating new perks that are added when the player buys/already owns the appropriate perks. These perks allow the user to continue on oblivious to their existence and without breaking compatibility with mods.\r\n\r\nBecause Dawnguard alters the original Hack and Slash AND Limbsplitter perks to add Dragonbone weapons to them, you can\\'t alter them again in Dragonborn without breaking the perk, or invalidating the Dragonbone weapons.\r\n\r\nThis is the only way to fix that issue.\r\n\r\n[b]----- About Load Order -----[/b]\r\n\r\nYou should load this mod as high in your load order as you can, below the Unofficial patches, and below any other mod that needs to be high in the list. This will insure the maximum compatibility with mods that alter perks or any perk overhaul mods you may be using. Since this mod does not alter existing perks, this should not be a problem, but it\\'s good practice anyway.\r\n\r\n[b]----- Description -----[/b]\r\n\r\nDragonborn shipped with two new Weapon Materials: Stalhrim, a material similar in quality to Ebony and Nordic, a material similar in quality to Elven. These items are powerful, and add a great deal of unique weapons for the player to use, but Battle Axes and War Axes got the short end of the stick.\r\n\r\nThese two weapons types do not have data for them in the Limbsplitter and Hack And Slash perks respectfully. The result? They don\\'t apply their bleed damage, making them inferior for players who prefer battle axes / war axes as well as make those perk choices a waste. This mod fixes this by adding 6 new perks. These perks do not interfere with the original perks in ANY WAY so you can continue to use your favorite perk mods. All it does is detect whether or not you have the Limbsplitter and/or Hack And Slash perks and applies its bonuses. If you already have Limbsplitter/Hack and Slash, you\\'re good to go. If you don\\'t, then when you purchase the perk, these perks should automatically be added to you. They are hidden, exactly like the DLC2MatchingSet Perks.\r\n\r\nNordic will deal bleed damage identical to Elven and Stalhrim will do bleed damage equal to Ebony respectfully. These weapons are virtually equal in every way to those metals, with the exception of weight. \r\n\r\nIf you don\\'t use battleaxes/war axes then you really don\\'t need this mod. Just because it fixes a bug with the game, doesn\\'t mean you [i]*need*[/i] it. Remember that! \r\n\r\nThis mod has been cleaned with TES5Edit and does not require cleaning. If the Unofficial Dragonborn Patch or Official patches fixes this bug, I will of course remove this mod.\r\n\r\n[b]This mod will work even if you alter the stats on your Stalhrim weapons or Nordic weapons. So long as the Material keywords are left alone, you have nothing to worry about. This mod works by checking for the DLC2WeaponMaterialNordic and DLC2WeaponMaterialStalhrim when applying its bonuses. If the weapon doesn\\'t contain that and isn\\'t a Battleaxe/War axe then this mod won\\'t apply bleed damage. This is exactly how Limbsplitter/Hack and Slash works normally. This mod will even work if you create custom battle axes or war axes with the same Stalhrim and Nordic Materials.[/b]\r\n\r\n[b]----- Installation -----[/b]\r\n\r\nPlace the ESP into your data folder and make sure it\\'s checked when you run Skyrim. Go make things bleed.\r\n\r\n[b]----- Uninstallation -----[/b]\r\n\r\nSimply remove the ESP and/or delete it. This mod does not add any scripts or anything like that to the game, so it will not have any adverse effects to a save game by removing it. \r\n\r\n[b]----- Compatibility -----[/b]\r\n\r\n[color=orange]This mod should be compatible with any mod that does not remove the Limbsplitter/Hack and Slash Perks or alters the weapon material of Battleaxes or War Axes. If you modified your perks, this mod will still be compatible with them. As long as the IDs of those two perks exist, this mod will work fine.\r\n\r\nOf course, this mod isn\\'t compatible with anything that also does this same fix. \r\n\r\n[b]NOTES: Please report any bugs or issues with the mod. Because this mod does not alter any content within the game, it should not have errors or bugs. If you are experiencing bugs outside the fact that you are not receiving bleed damage, then it is likely the fault of another mod. This mod uses the K.I.S.S method of modding. Keep it simple, Stupid. Less is more. It does what it says it does, and doesn\\'t attempt to do anything else. If you are not seeing bleed damage with these weapons, please let me know so that I may look into it.[/color][/b]",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Miles Tails Prower",
+  "createdUnix": "1360197333",
+  "updatedUnix": "1360196426",
+  "containsAdultContent": false,
+  "uploadedBy": "Miles Tails Prower",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000007690",
+      "name": "Dragonborn DLC Axe Bleed Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Dragonborn DLC Axe Bleed Fix-31144-1-0.zip",
+      "uploadedUnix": "1360196426",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ce2d5957767ffb8b42049e96373d30e47bd63cb4dd50dc49b7489eb975cfa298/analysis/1407402005/",
+      "changelogHtml": " Initial Release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dragonborn%20DLC%20Axe%20Bleed%20Fix-31144-1-0.zip?fid=1000007690&ttl=1535806505&ri=8192&rs=8192&setec=46bcbaa6e03d9d92f6a177b6078a7a29"
+    }
+  ]
+}

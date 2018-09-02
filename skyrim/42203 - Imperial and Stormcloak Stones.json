@@ -1,0 +1,48 @@
+{
+  "modId": 42203.0,
+  "modName": "Imperial and Stormcloak Stones",
+  "summary": "This mod adds two new Standing Stones - The Imperial and the Stormcloak - to the game.\r\n\r\nBoth stones boost their respective armors\\' armor rating by 50%. For example, \r\nthis addition makes Imperial Heavy Armor almost equal to Steel Plate Armor and\r\nStormcloak Cuirass slightly better than Elven Armor.",
+  "descriptionHtml": "[b]This mod adds two new Standing Stones - The Imperial and the Stormcloak - to the game.\r\n\r\nBoth stones boost their respective armors\\' armor rating by 50%.\r\n For example, this addition makes Imperial Heavy Armor almost equal to Steel Plate Armor and Stormcloak Cuirass slightly better than Elven Armor.\r\n\r\nThe Standing Stones are located near Fort Hraggstad and Serpent Stone, \r\nso that you will most likely find them in the early stages of the Civil War questline. \r\n\r\nThis mod does not require any other mods or DLC\\'s. \r\nIt overwrites the powerShrineScript, so it won\\'t work with other mods (are there any?) that alter it.\r\n\r\nEDIT [150913]: Added a version which boost the armor ratings\\' +100% instead +50%. This boost\r\nmakes Imperial/Stormcloak armors the best base armors\\' in the game. \r\n\r\n[/b]\r\n\r\n[i]-----\r\nThe reason I initially made this mod was that I usually start all my new\r\ngames by completing either one of the Civil War storylines. However, I was bummed\r\nthat the Civil War Gear was one of the worst in the game. I tried to think of a \r\nbalanced way of adjusting this and I come up with this mod. \r\n-----[/i]\r\n\r\nIt is noteworthy that there are two separate kind of Fur Boots and Fur Gauntlets in the game, \r\nand the Stormcloak Stone boosts the Stormcloak versions of them. \r\n\r\nFeel free to give me feedback by leaving a comment to the post section. You can also contact me via email omnijxs@gmail.com or via twitter @omnijxs. If you notice any random behavior or bugs, please let me know. I stumbled into few oddities during gametesting and they are dealt with in readme.\r\n\r\nAlso, check out my other mod The Hunted:\r\n\r\nhttp://skyrim.nexusmods.com/mods/41303/\r\n\r\nSpecial thanks to Bethesda for a great game and a great tool!\r\nAlso thanks to nexusmods for enabling all this modding.\r\n\r\nVersion 1.0 130913\r\n\r\nInstallation:\r\nLoad the archive and unpack it. It consist of three different files: StandingStones.esp, powerShrineScript.psc and powerShrineScript.pex. Put the .esp file to your ..common/skyrim/data/ folder.\r\n\r\nCopy the original powerShrineScript.psc from your ..common/skyrim/data/Scripts/Source/ to another folder as a back-up.\r\nPut the extracted powerShrineScript.pex to ..common/skyrim/data/Scripts/ folder.\r\nPut the extracted powerShrineScript.psc to ..common/skyrim/data/Scripts/Source and overwrite the vanilla version (of which you just made a back-up!).*\r\n\r\nUn-install: \r\nSimply overwrite my powerShrineScript.psc with the back-up and delete my powerShrineScript .pex file. Although there shouldn\\'t be a need for this because the script should work fine even you aren\\'t using the mod. \r\n\r\n* The reason we have to overwrite the original powerShrineScript is that you cannot overwrite an \\\"used\\\" script if they have the same name. Once you \\\"use\\\" a script in gameplay that particular save will always use the first instance of it. I would have made a completely new script to avoid this problem but this would have required excessive time for factoring all the Standing stones.\r\n\r\nomnijxs\r\n",
+  "categoryId": "34",
+  "version": "150913",
+  "author": "omnijxs",
+  "createdUnix": "1379099112",
+  "updatedUnix": "1379262228",
+  "containsAdultContent": false,
+  "uploadedBy": "omnijxs",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000055107",
+      "name": "ISStandingStones",
+      "version": "130913",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "ISStandingStones-42203-.7z",
+      "uploadedUnix": "1379099066",
+      "modVersion": "130913",
+      "virusScanUrl": "https://www.virustotal.com/file/e052b9730846717cc8401f85c0c30809bbf8f13f71a341ae0c012167eb71a777/analysis/1407721624/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ISStandingStones-42203-.7z?fid=1000055107&ttl=1535823062&ri=8192&rs=8192&setec=5039df388eaa895604c9ee18c7e6be1b"
+    },
+    {
+      "fileId": "1000055690",
+      "name": "ISStandingStones100",
+      "version": "150913",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "ISStandingStones100-42203-.7z",
+      "uploadedUnix": "1379262228",
+      "modVersion": "150913",
+      "virusScanUrl": "https://www.virustotal.com/file/068aff622190149fc822e8cb78a805abe71ce943849a94358bee094d475de383/analysis/1407723965/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ISStandingStones100-42203-.7z?fid=1000055690&ttl=1535823063&ri=8192&rs=8192&setec=c9b6aaf84dc6f5588244a4630aaef6f9"
+    }
+  ]
+}

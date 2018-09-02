@@ -1,0 +1,48 @@
+{
+  "modId": 21552.0,
+  "modName": "SkyRealism - Time and Travel",
+  "summary": "Quasi-realistic Time Scale and Fast Travel Adjustment for Skyrim.",
+  "descriptionHtml": "[img=center]http://static-1.nexusmods.com/15/mods/110/images/21552-1-1363654029.png[/img]\r<br />[center][i]Time Scale and Fast Travel Adjustment for Skyrim[/i][/center][center][color=black][i]by MTichenor[/i][/color][/center]\r<br />\r<br />[color=yellow][b]NOTICE: [/b][/color]If you know of any areas or quests that cause problems when using non-standard time scales, PLEASE LET ME KNOW ABOUT THEM. I want to make Skyrim as immersive as possible, without having to fix timescale problems via console commands. \r<br />\r<br />[heading]Overview[/heading]Have you ever wondered why whole days in Skyrim go by in just over an hour?\r<br />\r<br />I do.\r<br />\r<br />This is a lightweight timescale mod, which changes the TimeScale to 6 and changes fFastTravelSpeedMult to 2, so that time passes more slowly and fast travelling takes roughly the same time as jogging to a location. It will dynamically change the TimeScale back to 20 in certain areas where non-standard timescales cause Quest or NPC AI problems. This is intended to by used with the other SkyRealism mods that I will be releasing.\r<br />\r<br />TimeScale indicates the rate at which time in the game passes compared to real time. For example:\r<br />if you have a TimeScale of 20 (default), then for every 1 second of real time, 20 seconds pass in the game world. \r<br />If you have a TimeScale of 6, then for every 1 second of real time, 6 seconds pass in the game world.\r<br />\r<br />NPCs have schedules that revolve around what time it is in game, so if you set the time too low it seems like they&#39;re not doing anything interesting, and they have other problems like being unable to figure out how to open doors, get over rocks, etc. This is why I don&#39;t recommend ever setting it below 6.\r<br />\r<br />One of the side effects of changing the TimeScale is that you will have less frequent random dragon attacks. While I personally appreciate this, as it seems more realistic, many others won&#39;t. Sorry.\r<br />\r<br />To change the base TimeScale that this mod defaults to, use the following console commands:\r<br />\r<br />[code]Set SkyRealismTimeScale to #\r<br />Set TimeScale to #[/code]\r<br />\r<br />[heading]Credits and Thanks[/heading]Thanks to Cordsnwires, Elys, Dogtown1, Dragten, Hothtrooper44, Ironman5000, Is this display name taken?, JaySuS, Nikinoodles, Nivea, MECR, Merilia, PrivateEye, theRoadstroker, and Tupii for giving me permission to use their mods as master file requirements for my own mods.\r<br />\r<br />Thanks to T3nd0, Cordsnwires, and jjc71 for the suggestions, guidance, and support. Thanks to trainwiz, wobbuvahi, and David Brasher for making the mods that kept me hooked on Skyrim long after it should have lost its appeal. \r<br />\r<br />This mod is dedicated in loving memory to Rogvir, of Solitude, who was executed more than twenty times during the testing of this mod.\r<br />\r<br />[heading]Compatibility, Issues, and Troubleshooting[/heading][color=red][b]WARNING: [/b][/color]This may cause a few NPC AI issues with specific quests, which can be fixed via console commands. If you have to use these commands to fix a quest, PLEASE LET ME KNOW ABOUT IT, so I can add it to the list of exception areas and quests. You can fix this in the console by typing the following code:\r<br />\r<br />[code]Set TimeScale to 20[/code]\r<br />\r<br />Once the quest is done, you can reset it with:\r<br />\r<br />[code]Set Timescale to 6[/code]\r<br />\r<br />Current list of areas where TimeScale defaults back to 20:\r<br />[list][*]Riverwood\r<br />[*]Solitude[/list]\r<br />[heading]Change Log[/heading][b]v1.2:[/b]\r<br />Changed script to perform a simple check to verify that a location exists before comparing it to other locations. This should reduce the papyrus log warnings.\r<br />\r<br />[b]v1.1:[/b]\r<br />Added quest stage detection to Solitude and Riverwood. Time will once again move more slowly once the relevant quests have been completed.\r<br />\r<br />[b]v1.0:[/b]\r<br />Rewrote mod again, this time leaving out changes to Interpolated walk/run speeds, since they cause serious problems with certain quests that cannot be overcome (eg: The Golden Claw, The Taste of Death, A Daedra&#39;s Best Friend, Waking Nightmare, etc.). Do not change the walk/runinterpolation settings or NPCs will stand around aimlessly for several minutes during scripted movement scenes, despite correct timescales.\r<br />\r<br />[b]v0.1a:[/b]\r<br />Added Global SkyRealismTimeScale = 6.0. Change this value if you prefer higher or lower timescales. Be warned that lower values cause AI problems (terminal stupidity with how to open doors, and the like).\r<br />Changed fFastTravelSpeedMult from 1.0 to 2.0.\r<br />Changed fFastWalkInterpolationBetweenWalkAndRun from 0.15 to 0.0.\r<br />Changed fJogInterpolationBetweenWalkAndRun from 0.65 to 0.8.\r<br />Added script added which monitors location changes, setting TimeScale to SkyRealismTimeScale upon changes. An exception list of specific quest areas is being built which sets the timescale to 20 upon entering those areas (e.g. Riverwood, Solitude), and resets to SkyRealismTimeScale upon leaving them.",
+  "categoryId": "78",
+  "version": "1.2",
+  "author": "MTichenor",
+  "createdUnix": "1343943470",
+  "updatedUnix": "1355300699",
+  "containsAdultContent": false,
+  "uploadedBy": "IndigoNeko",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "80385",
+      "name": "SkyRealism - Time and Travel",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "SkyRealism - Time and Travel-21552-1-1.7z",
+      "uploadedUnix": "1344623289",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/63069c60a6fff8f83eb23ff5eb35c98ab17184e8252cfece23154c7e14bed7cb/analysis/1407085622/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyRealism%20-%20Time%20and%20Travel-21552-1-1.7z?fid=80385&ttl=1535790528&ri=8192&rs=8192&setec=07c4f023d91e1e1d24b5dcfa7f437aa6"
+    },
+    {
+      "fileId": "104749",
+      "name": "SkyRealism - Time and Travel",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "SkyRealism - Time and Travel-21552-1-2.7z",
+      "uploadedUnix": "1355300699",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/ce310c7cdf7b0d1b6c7e9f9b85ee72bfd5f3ac4874ad15281091b5037e2c3148/analysis/1407301082/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyRealism%20-%20Time%20and%20Travel-21552-1-2.7z?fid=104749&ttl=1535790529&ri=8192&rs=8192&setec=62f02a027417bf8015862ee61fb9800b"
+    }
+  ]
+}

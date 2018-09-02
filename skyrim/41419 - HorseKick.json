@@ -1,0 +1,32 @@
+{
+  "modId": 41419.0,
+  "modName": "HorseKick",
+  "summary": "Gives your horse the ability to kick while jumping.",
+  "descriptionHtml": "============\r<br />HorseKick&#33;\r<br />by: JZBai\r<br />Version: 1.0\r<br />============\r<br />\r<br />[youtube]MKM7OzQiAB4[/youtube]\r<br />\r<br />============\r<br />Description:\r<br />============\r<br />A simple mod that gives your horse an attack during its rear up and jump animations when you&#39;re riding it.\r<br />\r<br />All you need to do while riding your horse is jump at your enemies to knock them down or stand still and \r<br />press jump to trigger the rear up animation.  Anything in front of your horse will be knocked down and eat a bit of damage.\r<br />You can keep doing this even after the opponent is downed and trample them to death if you&#39;d like. :P\r<br />\r<br />The kick won&#39;t knock down Dragons, Mammoths, and other large enemies, but will stagger them.\r<br />\r<br />Designed with compatibility in mind&#33;  It shouldn&#39;t conflict with any mod that modifies horses or their behaviors&#33;\r<br />\r<br />=============\r<br />Requirements:\r<br />=============\r<br />All you need is Skyrim and the official Bethesda update&#33; :D\r<br />\r<br />=============\r<br />Installation:\r<br />=============\r<br />Download and activate with Nexus Mod Manager or to manually install, extract the .esp into your Skyrim/Data folder and the scripts into your Skyrim/Data/Scripts folder.  Then enable the esp.\r<br />\r<br />In game, you should see a message on load up that indicates the mod is activated.\r<br />\r<br />Source files for modification in the Creation Kit are packaged too, but optional to get the mod to work.\r<br />\r<br />===============\r<br />Uninstallation:\r<br />===============\r<br />[b]A WORD TO THE WISE: Scripted mods are never easy to remove due to how save files and scripts work.  I tried to make my mod as small and easy to manage as possible.  I&#39;ve experimented with uninstalling my own mod, reloaded the save and didn&#39;t see any problems or CTDs in my game, but I can&#39;t guarantee that your save file will be clean after installation&#33;[/b]\r<br />\r<br />Safest way to uninstall:\r<br />1. Get off your horse and wait a few seconds\r<br />2. Open the console and type &#34;help PlayerHorseKickSpell&#34; to find the spell&#39;s ID number\r<br />3. Remove that spell from your character via &#34;player.removespell &lt;spell ID&gt;&#34;\r<br />4. Type &#34;stopquest JZBai_HorseKickQuest&#34; in console\r<br />\r<br />Now you can save, disable the mod, and delete the following files:\r<br />\r<br />JZBai_HorseKick.esp\r<br />scripts/JZBai_HorseKickEffectScript.pex\r<br />scripts/JZBai_HorseKickQuestScript.pex\r<br />scripts/JZBai_PlayerScript.pex\r<br />\r<br />==============\r<br />Compatibility:\r<br />==============\r<br />Nothing about the vanilla horses was changed.  It&#39;s completely created from added effects, quests, and scripts so it should \r<br />be compatible with anything.\r<br />\r<br />(If anyone somehow finds an incompatibility let me know and I&#39;ll be very surprised :P)\r<br />\r<br />=================\r<br />Recommended Mods:\r<br />=================\r<br />[url=http://skyrim.nexusmods.com/mods/14950/?]Convenient Horses by mitchalek:[/url]/[url=http://steamcommunity.com/sharedfiles/filedetails/?id=90596432]Alek[/url]\r<br />Horse Kick was tested for compatibility with Convenient Horses, so it should have no compatibility issues whatsoever&#33;  The kick really complements the horse charge feature added by Convenient Horses and gives you a good mounted combat option to do damage and knockdown with your horse when you&#39;re not sprinting with horse charge.\r<br />\r<br />[b]Better Horses by LtMattmoo:[/b]\r<br />[url=http://skyrim.nexusmods.com/mods/10579/?]Nexus[/url]/[url=http://steamcommunity.com/sharedfiles/filedetails/?id=9507]Steam[/url]\r<br />Not tested for compatibility, but the mod doesn&#39;t modify anything that Better Horses does so it should be compatible.\r<br />\r<br />==========\r<br />Changelog:\r<br />==========\r<br />1.0: First Release.\r<br />\r<br />========\r<br />Credits:\r<br />========\r<br />Bethesda for Skyrim and the Creation Kit and stuff... :P\r<br />\r<br />====\r<br />Links\r<br />====\r<br />[url=http://steamcommunity.com/sharedfiles/filedetails/?id=174603266]HorseKick&#33; on Steam[/url]",
+  "categoryId": "101",
+  "version": "1.0",
+  "author": "JZBai",
+  "createdUnix": "1377982416",
+  "updatedUnix": "1377981860",
+  "containsAdultContent": false,
+  "uploadedBy": "JZBai",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000051171",
+      "name": "HorseKickV1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "HorseKickV1-41419-1-0.zip",
+      "uploadedUnix": "1377981860",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/add32266224daf395c75027d8c38ac733be102e3861de7dec0e83f50573445db/analysis/1407704180/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HorseKickV1-41419-1-0.zip?fid=1000051171&ttl=1535822179&ri=8192&rs=8192&setec=efbcdc3afaf785b372bbb1354a8cd4ee"
+    }
+  ]
+}

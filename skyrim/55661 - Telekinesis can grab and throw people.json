@@ -1,0 +1,48 @@
+{
+  "modId": 55661.0,
+  "modName": "Telekinesis can grab and throw people",
+  "summary": "Modify the telekinesis spell so that it can grab and throw people as well.",
+  "descriptionHtml": "Uploaded a optional file with original power\r<br />\r<br />Just as the title says, your telekinesis spell can now grab and throw creatures--npcs,wolves,horses etc.\r<br />And it can be used along with tgm command,I,er, test it myself.\r<br />\r<br />\r<br />What&#39;s modified in this mod:\r<br />created a new magic effect which effect archetypes is grab actor.\r<br />added the new magic effect to the telekinesis spell.\r<br />modified a few game setting params to make the telekinesis faster and more powerful\r<br />\r<br />\r<br />Known conflicts:\r<br />1.This mod modified some game setting params which overlap SpaceOne&#39;s Improved Telekinesis. Only one of the mod&#39;s params will work. If people want it, I can remove these changes in my mod.\r<br />\r<br />2.This mod changed telekinesis spell itself(added a magic effect), thus when you install this mod and another mod that modified the telekinesis spell, only one will work. Load the one you want to take effect at last in load order.\r<br />\r<br /> \r<br />FAQs:\r<br />Q:Can I grab dragons?\r<br />A:Unfortunately,no. It doesn&#39;t effect Dragons, Mammoths, Dragon Priests, Mistmen, Bonemen, Wrathmen and Skeletons. Skyrim has its limits.\r<br />\r<br />Q:Can I throw enemies to death?\r<br />A:I changed fMagicGrabActorThrowForce fivefold but still can&#39;t make it happed. :-( You can still throw them  high up and let them fall to their death though. If anyone know how, please do tell me.\r<br />\r<br />Q:I grab my horse or something and throw it, it is not thrown away&#33;\r<br />A:I know, I tested it on shadowmere. There are only three params in games ettings affect grab actor effect : drawspeed,range,throwforce. I changed them all. In my test, mass has nothing to do with the  flying speed after spell release. If anyone know more of the params, I&#39;m all ears.\r<br />\r<br />Q:The npc I grabbed always turns his back on me&#33;\r<br />A:Well, er...\r<br />\r<br />Q:Can you make telekinesis spell work like vampire grip, so it can damage the grabbed creature?\r<br />A:The vampire grip spell has a damage cloak effect in it, thus it can damage the creature grabbed closeby. Telekinesis, on the other hand, is not a direct-damage spell.That&#39;s the reason i don&#39;t put the cloak in it. But if people really want it, I can make it happen.\r<br />\r<br />Q:Your mod descriptions are full of grammar errors and typos&#33;\r<br />A:Sorry about that, I only learn and use English in class and that was three years ago.",
+  "categoryId": "75",
+  "version": "1.00",
+  "author": "Btbg",
+  "createdUnix": "1404643834",
+  "updatedUnix": "1404702100",
+  "containsAdultContent": false,
+  "uploadedBy": "btbg",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000116135",
+      "name": "TelekinesisGrip",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "TelekinesisGrip-55661-1-00.7z",
+      "uploadedUnix": "1404643720",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/2f17a7173f238bae2ccc70cc18a8fbee1f4f78ba54c72916abe192c72643f7b0/analysis/1408163532/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TelekinesisGrip-55661-1-00.7z?fid=1000116135&ttl=1535840556&ri=8192&rs=8192&setec=2087e04bce9a872f38a082fc04e50082"
+    },
+    {
+      "fileId": "1000116261",
+      "name": "Telekinesis with original power",
+      "version": "1.00",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Telekinesis with original power-55661-1-00.7z",
+      "uploadedUnix": "1404702100",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/751c1302fc101fbf7b6a97b9a474b968d40fc11e7d8a739cea4399cfa4fa14bc/analysis/1408164968/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Telekinesis%20with%20original%20power-55661-1-00.7z?fid=1000116261&ttl=1535840556&ri=8192&rs=8192&setec=3022b19459fb099a78cb6024f84cf446"
+    }
+  ]
+}

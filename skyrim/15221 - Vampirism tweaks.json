@@ -1,0 +1,32 @@
+{
+  "modId": 15221.0,
+  "modName": "Vampirism tweaks",
+  "summary": "Tweaks to Vampirism: feeding off NPCs (with a Confidant relationship or more) from Dialogue; feeding on newly dead NPCs;\r\n\tfeeding heals Health, Magicka and Stamina; Relationship increases with NPCs fed on; your vision grows red as you\r\n\tstarve; circular blur on Night-eye is removed; Night-eye has no duration.",
+  "descriptionHtml": "Name: Vampirism Tweaks\r\nVersion: 0.5\r\nDate: 15 April 2012\r\nCategory: Gameplay effects and changes\r\nRequirements:\r\n\tSkyrim 1.5.26.0.5\r\n\tkuertee Actor events: http://skyrim.nexusmods.com/downloads/file.php?id=15219\r\nAuthor: kuertee\r\nSource: http://skyrim.nexusmods.com/downloads/file.php?id=15221\r\n\r\nShort description\r\n=================\r\nTweaks to Vampirism: feeding off NPCs (with a Confidant relationship or more) from Dialogue; feeding on newly dead NPCs;\r\n\tfeeding heals Health, Magicka and Stamina; Relationship increases with NPCs fed on; your vision grows red as you\r\n\tstarve; circular blur on Night-eye is removed; Night-eye has no duration.\r\n\r\nGameplay changes\r\n================\r\nFeed from dialogue:\r\n\tYou can feed off NPCs that have a Relationship Rank with you of Confidant level or more by conversing with them.\r\n\tI.e. they do not need to be asleep.\r\n\r\nFeed from newly dead NPCS:\r\n\tYou can drain the blood of recently dead NPCs by Activating on their corpse.\r\n\r\nEffects of feeding:\r\n\tThe Relationship Rank of NPCs you feed from are increased up to Ally level.\r\n\r\n\tYou can delay the transformation to the stage of Vampirism by a second day by feeding on newly dead NPCs. Feeding\r\n\ta second time on live NPCs will also increase the length of the first stage of Vampirism by a second day.\r\n\r\n\tSome Health, Magicka and Stamina are restored after feeding. The amount is dependant on the NPC\\'s \\\"base\\\" Health.\r\n\r\n\tFeeding on a newly dead vampire will regress your Vampirism by one stage. Feeding on a live vampire is as per\r\n\tthe unmodded game. I.e. feeding on a live vampire will set your Vampirism to the first stage.\r\n\r\n\tNPCs who witness you feeding will not converse with you. You can make them forget that you are a vampire by\r\n\tfeeding on them.\r\n\r\n\tAlso, NPCs who see you at the fourth stage of Vampirism will also refuse your conversations. You can make them\r\n\tforget that you are a vampire by feeding on them also. Note that in the unmodded game, NPCs who see you at this\r\n\tstage will automatically attack you.\r\n\r\nBlood-lust vision:\r\n\tYour normal vision will have a red tint that increases as you move up the different stages.\r\n\r\nNight-eye tweaks:\r\n\tNight-eye is more useful with the circular blur and its duration removed.\r\n\r\nVampirsm stage progression bug-fix:\r\n\tThere is a bug in the unmodded vampire Script. In the unmodded game, you do not change to the next stage of\r\n\tVampirism when you are in combat. This effectively gives you another 12 hours in your current stage and decreases\r\n\tthe time you are in the next stage by 12 hours.\r\n\r\n\tThis mod fixes that.\r\n\r\nDetails\r\n=======\r\n\tYou can configure this mod in the Console by typing \\\"setpqv kuvtq <mod data> <value>\\\". E.g. to turn off blood-lust\r\n\tvision, type: \\\"setpqv kuvtq userBloodLustView False\\\".\r\n\r\n\tuserFeedOnDead: True (default) or False\r\n\tuserHealFromFeeding: True (default) or False\r\n\tuserRefuseDialogue: True (default) or False\r\n\tuserBloodLustView: True (default) or False\r\n\tuserWarnOfChange: True (default) or False\r\n\tuserRaiseRelationshipOnFeed: True (default) or False\r\n\r\nCompatibility\r\n=============\r\nThis may not be compatible with mods that change the default Vampirism.\r\n\r\nFor this to be compatible with a 3rd-party vampire mod, the Script PlayerVampireQuestScript need to be still attached to\r\nthe Quest PlayerVampireQuest.\r\n\r\nAlso these functions and variables from that Script need to be intact and working:\r\n\tPlayerVampireQuest.VampireStatus\r\n\tPlayerVampireQuest.LastFeedTime\r\n\tPlayerVampireQuest.VampireFeed ()\r\n\tPlayerVampireQuest.VampirePCFaction\r\n\tPlayerVampireQuest.VampireProgression ()\r\n\tPlayerVampireQuest.GameDaysPassed\r\n\r\n\tThe PlayerVampireQuestScript has been changed to fix the bug in the Vampirism stage progression. Any 3rd-party mod\r\n\tthat also changes that and that is activated after my mod will remove that fix.\r\n\r\nInstall\r\n=======\r\nUse Wrye Bash (http://skyrim.nexusmods.com/downloads/file.php?id=1840) to install this mod.\r\nJust drag the package (which is a normal ZIP file) into Wrye Bash\\'s Installers tab.\r\nActivate the mod.\r\nHowever, the package is only a normal ZIP file, so if you know the game\\'s mod file structure, install it manually.\r\n\r\nUninstall\r\n=========\r\nIn the console, type \\\"setpqv kuvtq uninstallNow True.\\\"\r\nWait a few seconds, save the game.\r\nDeactivate the mod with Wrye Bash.\r\nIf you installed this manually, simply delete all the files you installed.\r\n(Wrye Bash keeps track of files used, so installing/uninstalling the mod with it is 100% simpler.)\r\n\r\nCredits\r\n=======\r\nkuertee in http://www.bethsoft.com/bgsforums/\r\n\r\nTools Used\r\n==========\r\nCreation kit - http://www.creationkit.com\r\n\r\nLicensing/Legal\r\n===============\r\nYou can do whatever you want with this mod but all I ask in return is that you give me credit. I would also like to be\r\ncontacted when you include this mod in part or in full in a public release.\r\n",
+  "categoryId": "24",
+  "version": "0.5",
+  "author": "kuertee",
+  "createdUnix": "1334494939",
+  "updatedUnix": "1334495362",
+  "containsAdultContent": false,
+  "uploadedBy": "kuertee",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "53410",
+      "name": "kuertee Vampirism tweaks 0p5",
+      "version": "0.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "31",
+      "fileName": "kuertee Vampirism tweaks 0p5-15221.zip",
+      "uploadedUnix": "1334495362",
+      "modVersion": "0.5",
+      "virusScanUrl": "https://www.virustotal.com/file/d7d9f042ac072cd467709776d64062d5713c420e76207e686e0862a29da3fa1e/analysis/1406816826/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/kuertee%20Vampirism%20tweaks%200p5-15221.zip?fid=53410&ttl=1535779462&ri=8192&rs=8192&setec=b575e87151efa619bade858c3a992f68"
+    }
+  ]
+}

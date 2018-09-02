@@ -1,0 +1,32 @@
+{
+  "modId": 61953.0,
+  "modName": "Stealth Skills Rebalanced Lockpicking Gloves Patch",
+  "summary": "Makes the game recognize all of the Gloves of Lockpickng added by Stealth Skills Rebalaned as fingerless, so you don&#39;t have gloves that simultaneously penalize Lockpicking/Pickpocket and fortify Lockpicking by X%. There is no visual change.",
+  "descriptionHtml": "[color=#ff7700][size=4][u][b]What does this mod do?[/b][/u][/size][/color]\r<br />\r<br />It adds the [i]WAF_FingerlessGauntletsBracers_KRY [/i]keyword to all the Gloves of Lockpicking added by [url=http://www.nexusmods.com/skyrim/mods/28418/?]Stealth Skills Rebalanced[/url], by [url=http://www.nexusmods.com/skyrim/users/4291352]kryptopyr[/url].\r<br />\r<br />\r<br />[u][b][color=#ff7700][size=4]Why is this mod necessary?[/size][/color][/b][/u]\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/28418/?]Stealth Skills Rebalanced[/url] introduces a penalty for Lockpicking and Pickpocketing if you are wearing gloves or gauntlets. The mod looks for all the items that have the keyword &#34;[b]ClothingHands[/b]&#34; and applies the penalty if you are equipping them. Items that also have the keyword &#34;[b]WAF_FingerlessGauntletsBracers_KRY[/b]&#34; (added by the same author) will not have the penalty applied (usually bracers or fingerless gauntlets).\r<br />\r<br />The same mod adds several gloves enchanted with the Fortify Lockpicking enchantment. These gloves, however, do not have the keyword &#39;WAF_FingerlessGauntletsBracers_KRY&#39;. So you may find Gloves of Lockpicking in the game that make Lockpicking, say, 30% easier but, at the same time, applies the lockpicking and pickpocketing penalty. So, using these Gloves of Lockpicking will actually make you worse at lockpicking, because the penalty is way stronger (-40 on the skill) than the bonus (+30%) in this example, at least for a low level character.\r<br />\r<br />Having this patch installed will make these gloves only apply the bonuses.\r<br />\r<br />\r<br />[b][u][color=#ff7700][size=4]Installation:\r<br />[/size][/color][/u][/b]\r<br />Install it with NMM or extract it to the Data folder. Overwrite when prompted.\r<br />\r<br />\r<br />[b][u][color=#ff7700][size=4]Load Order:\r<br />\r<br />[/size][/color][/u][/b]Load this after Stealth Skills Rebalanced.",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "Avastgard",
+  "createdUnix": "1422025232",
+  "updatedUnix": "1422025091",
+  "containsAdultContent": false,
+  "uploadedBy": "Avastgard",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000144233",
+      "name": "Stealth Skills Rebalanced Gloves Lockpicking Patch",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Stealth Skills Rebalanced Gloves Lockpicking Patch-61953-1-0.7z",
+      "uploadedUnix": "1422025091",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d033140077b4e98ceae0578bd4bc0becac1f90df36290b659ed75a6104088280/analysis/1422025143/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Stealth%20Skills%20Rebalanced%20Gloves%20Lockpicking%20Patch-61953-1-0.7z?fid=1000144233&ttl=1535850582&ri=8192&rs=8192&setec=34711f5852435ede7f7a95e7eaf75999"
+    }
+  ]
+}

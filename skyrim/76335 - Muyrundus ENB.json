@@ -1,0 +1,48 @@
+{
+  "modId": 76335.0,
+  "modName": "Muyrundus ENB",
+  "summary": "This Enb Preset is designed for people who want their skyrim look way more colorful and beautiful.",
+  "descriptionHtml": "[center][/center][center][font=Times New Roman][color=#b6d7a8][size=5][u]About M[/u][/size][/color][/font][color=#b6d7a8][font=Times New Roman][size=5][u]uyrundu[/u][u]s ENB[/u][/size][/font][/color][/center][center][font=Times New Roman]\r<br />[color=#f4f4f4][size=3]Sorry if my English isn&#39;t so good. It&#39;s not my native language. I live in the Netherlands.[/size]\r<br />[/color]\r<br />[size=3]The main goal of this ENB is to give Skyrim a totally new look. It makes the game way more colorful. If you are someone who likes to see a more vanilla and realistic ENB, this isn&#39;t the preset for you because this is a fantasy style enb.[/size]\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />[/font]\r<br />\r<br />[font=Times New Roman][color=#b6d7a8][size=5][u]About my PC[/u][/size][/color][/font]\r<br />[font=Times New Roman][size=3]\r<br />My computer has a 64 bit operating system with 8GB of RAM. My CPU is an Intel(R) Core(TM) i5-4460 CPU @ 3.20MHz.\r<br /> My Graphics Card is an AMD Radeon (TM) R9 200 series. I do also have an SSD Sandisk Plus 240.[/size][/font]\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />[font=Times New Roman][color=#b6d7a8][size=5][u]How to install[/u][/size][/color][/font]\r<br />\r<br />[font=Times New Roman][size=3]1.First, you need to download the latest ENB binary. That&#39;s currently v.0.305\r<br />\r<br />2.Download Muyrundus ENB\r<br />\r<br />3.Download Natural Lighting and Atmoshpherics for ENB\r<br />\r<br />4.Extract the following archives, Enbseries v.0.308, Muyrundus ENB and NLA.\r<br />\r<br />5.Go into the Enbseries folder and select only the d3.d9.dll and the Enbhost. Copy and paste those into your skyrim folder. If you don&#39;t know where that is, you can find it to open NexusModManager, click the yellow folder with the red arrow sticking out of it and press &#39;open game folder&#39;. You can also find it manually. Go to local disc (C:), Program Files (x86), Steam, Steamapps, Common, Skyrim.\r<br />\r<br />6.Open Muyrundus ENB, select all the three files. Do not select the &#39;How to turn off depth of field&#39;. Copy and paste those three files also in your Skyrim folder. The same folder where you put the d3.d9.dll and the Enbhost.\r<br />\r<br />7.Open the NLA folder. You only need the data folder. Right click and select &#39;Add to archive&#39;. Call it &#39;NLA Data&#39;.\r<br />\r<br />8.Go to your NexusModManager, click on the green plus on the upper right and select &#39;Add mod from file&#39;. Search the NLA Data and click &#39;Ok&#39;. When you&#39;ve done that, you need to activate it.\r<br />\r<br />\r<br />To tweak the Enblocal, you can watch [url=https://www.youtube.com/watch?v=FHCYoVB8P_Y]this[/url] video made by Slothability. It&#39;s a damn good tutorial.\r<br />\r<br />\r<br />\r<br />After the Enblocal settings, the only steps left are the SkyrimPrefs.ini changes.\r<br />\r<br />bFloatPoinRenderTarget=1\r<br />bDrawlandShadows=1\r<br />bDrawShadowsOnGrass=1\r<br />bTreesRecieveShadows=1\r<br />iMultiSample=0\r<br />iMaxAnisotropy=1\r<br />\r<br />\r<br />\r<br />\r<br />Well done, you&#39;ve just installed Muyrundus Enb&#33;\r<br />\r<br />To uninstall it, you need to deactivate the NLA Data in NMM, and delete the d3.d9.dll, Enbhost, Enbseries, EnbLocal and the Enbseries in your Skyrim folder.\r<br />\r<br />\r<br />[/size][/font]\r<br />\r<br />\r<br />\r<br />\r<br />[color=#b6d7a8][font=Times New Roman][size=5][u]Recommended Mods[/u][/size][/font][/color]\r<br />[font=Times New Roman][size=3]\r<br />[/size][/font][/center][center][font=Times New Roman][size=3][url=http://www.nexusmods.com/skyrim/mods/8655/?]Static Mesh Improvement Mod[/url] by Brumbek[/size][/font]\r<br />[font=Times New Roman][size=3][url=http://www.nexusmods.com/skyrim/mods/45807/?]NobleSkyrimHD[/url] by Shutt3r\r<br />[url=http://www.nexusmods.com/skyrim/mods/41076/?]Realistic Water Two[/url] by Isoku\r<br />[url=http://www.nexusmods.com/skyrim/mods/141/?]Flora Overhaul[/url] by Vurt\r<br />[url=http://www.nexusmods.com/skyrim/mods/60220/?]Verdant[/url] by Preeum\r<br />[url=http://www.nexusmods.com/skyrim/mods/58212/?]Remove Exterior Fog[/url] by Gazawisay[/size][/font]\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />[font=Times New Roman][color=#b6d7a8][size=5][u]CREDITS[/u][/size][/color][/font]\r<br />\r<br />[font=Times New Roman][size=3][url=http://enbdev.com/]Boris Vorontsov[/url] for creating the Enbseries\r<br />[url=http://www.nexusmods.com/skyrim/mods/50065/?]Confidence Man[/url] for his ENB weathers and the NLA plugin\r<br />\r<br />Credits for the Depth of Field:\r<br />[url=http://www.nexusmods.com/skyrim/mods/44752/?]Soulwynd[/url]\r<br />[url=http://http.developer.nvidia.com/GPUGems3/gpugems3_ch28.html]GPU Gems[/url] and [url=http://developer.amd.com/wordpress/media/2012/10/Scheuermann_DepthOfField.pdf]Thorsten Scheuermann[/url]\r<br />[url=http://skyrim.nexusmods.com/mods/24024/]gp65cj04[/url][/size][/font][/center]\r<br />\r<br />[center][font=Times New Roman][color=#b6d7a8][size=5][u]Permissions\r<br />[/u][/size][/color][/font]\r<br />[font=Times New Roman][size=3]I don&#39;t give any permissions.[/size][/font][/center]",
+  "categoryId": "97",
+  "version": "2.4",
+  "author": "Smoothlias",
+  "createdUnix": "1466008414",
+  "updatedUnix": "1466945326",
+  "containsAdultContent": false,
+  "uploadedBy": "Smoothlias1",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000210167",
+      "name": "Muyrundus ENB - Version 2.3",
+      "version": "2.3",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "211",
+      "fileName": "Muyrundus ENB - Version 2.3-76335-2-3.rar",
+      "uploadedUnix": "1466189671",
+      "modVersion": "2.3",
+      "virusScanUrl": "https://www.virustotal.com/file/e6e96dc9297711d6978e99dbe2e7d28836039ead3c3ec5ce91030c09afbdbbc9/analysis/1466189705/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Muyrundus%20ENB%20-%20Version%202.3-76335-2-3.rar?fid=1000210167&ttl=1535865049&ri=8192&rs=8192&setec=90e83da5c3e9685b0352a2c95148befe"
+    },
+    {
+      "fileId": "1000211198",
+      "name": "Muyrundus ENB 2.4",
+      "version": "2.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "201",
+      "fileName": "Muyrundus ENB 3.4-76335-2-4.rar",
+      "uploadedUnix": "1466945326",
+      "modVersion": "2.4",
+      "virusScanUrl": "https://www.virustotal.com/file/1f47e4594d40368ea79923562d21f3cd6be43fd2e1e03ed595b624f6e61f5ee7/analysis/1466945343/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Muyrundus%20ENB%203.4-76335-2-4.rar?fid=1000211198&ttl=1535865050&ri=8192&rs=8192&setec=57f24504ef54fc83dba477005e619493"
+    }
+  ]
+}

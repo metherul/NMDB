@@ -1,0 +1,48 @@
+{
+  "modId": 29977.0,
+  "modName": "XCE - Warpaint and Dirt",
+  "summary": "High resolution worn warpaint and dirt. SKSE 1.6.6 or later required.",
+  "descriptionHtml": "[center][b][url=http://xeniusmods.tumblr.com/]Follow my blog on Tumblr for the latest news on upcoming releases, progress reports, beta releases, and more![/url][/b][/center]\r\n[center][img]http://skyrim.nexusmods.com/mods/images/21416-1-1358269535.jpg[/img][/center]\r\n\r\n[center][youtube]wlnQ13hQ6N8[/youtube] [youtube]QHWgHptOqds[/youtube]\r\nMany thanks to Brodual and XpGamers for featuring my mod in their videos![/center]\r\n\r\n[center][img]http://skyrim.nexusmods.com/mods/images/21416-1-1358270696.png[/img][/center]\r\n\r\nThese are the original 2k textures of my [url=http://skyrim.nexusmods.com/mods/4489]Weathered Warpaint & Improved Dirt[/url]\r\nmod, made back in December 2011. For a long time these textures were completely\r\nuseless, as the game does not render high quality tint masks correctly.\r\n\r\nThanks to the latest version of Skyrim Script Extender high resolution tint masks\r\nare finally usable, so I decided to make these textures available.\r\n\r\n[center][img]http://skyrim.nexusmods.com/mods/images/21416-2-1353687255.png[/img][/center]\r\n\r\n- Replaces all warpaint and dirt textures\r\n- Texture size is 2048x2048 \r\n\r\n[center][img]http://skyrim.nexusmods.com/mods/images/21416-3-1353687255.png[/img][/center]\r\n\r\n1. Use 7zip or WinRar to extract the files\r\n2. Find the Skyrim folder here: Steam\\\\steamapps\\\\common\\\\skyrim\r\n3. Move the Data folder into your Skyrim folder\r\n4. Merge the folder when asked, it will not get replaced\r\n5. Download and install [url=http://skse.silverlock.org/]Skyrim Script Extender (SKSE)[/url] (1.6.6 or later)\r\n6. Check the Data folder and create the SKSE folder if necessary\r\n7. Check the SKSE folder and create the SKSE.ini file if necessary\r\n8. Open SKSE.ini\r\n9. Add the following entry to the .ini file if necessary\r\n\r\n[Display]\r\niTintTextureResolution=2048\r\n\r\n[center][img]http://skyrim.nexusmods.com/mods/images/21416-4-1353687255.png[/img][/center]\r\n\r\nRemove the following files:\r\n\r\nData\\\\textures\\\\actors\\\\character\\\\character assets\\\\tintmasks\\\\*Any filename containing \\\"female\\\" and \\\"warpaint\\\"*.dds\r\nData\\\\textures\\\\actors\\\\character\\\\character assets\\\\tintmasks\\\\*Any filename containing \\\"female\\\" and \\\"dirt\\\"*.dds\r\nData\\\\textures\\\\actors\\\\character\\\\character assets\\\\tintmasks\\\\*Any filename containing \\\"male\\\" and \\\"warpaint\\\"*.dds\r\nData\\\\textures\\\\actors\\\\character\\\\character assets\\\\tintmasks\\\\*Any filename containing \\\"male\\\" and \\\"dirt\\\"*.dds\r\n\r\n[center][img]http://skyrim.nexusmods.com/mods/images/21416-1-1358287179.png[/img][/center]\r\n\r\n[url=http://skyrim.nexusmods.com/mods/29624/]RaceMenu[/url]\r\n\r\n[center][img]http://skyrim.nexusmods.com/mods/images/21416-4-1353687327.png[/img][/center]\r\n\r\n[15-01-13] 1.0 Release\r\n\r\n[center][img]http://skyrim.nexusmods.com/mods/images/21416-5-1353687327.png[/img][/center]\r\n\r\nThanks to leboef for the brushes\r\nThanks to Bethesda for creating Skyrim\r\nThanks to the SKSE Team for creating the Skyrim Script Extender\r\nThanks to MaianTrey for the beast tints\r\n\r\n[center][img]http://skyrim.nexusmods.com/mods/images/21416-1-1353687344.png[/img][/center]\r\n\r\nThe content of this mod is open source and can be used freely on the following conditions:\r\n\r\n- Credit me\r\n- Notify me\r\n- Skyrim only\r\n\r\n[center][img]http://skyrim.nexusmods.com/mods/images/21416-2-1353687344.png[/img][/center]",
+  "categoryId": "29",
+  "version": "1.0",
+  "author": "Xenius",
+  "createdUnix": "1358270272",
+  "updatedUnix": "1358976949",
+  "containsAdultContent": false,
+  "uploadedBy": "Xenius",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000002545",
+      "name": "XCEWD-1_00",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7608",
+      "fileName": "XCEWD-1_00-29977-1-0.7z",
+      "uploadedUnix": "1358270456",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7768c89b3d10e4d70bc58c08899c1305383752c255707c038093d56aaaf40b0f/analysis/1407354793/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/XCEWD-1_00-29977-1-0.7z?fid=1000002545&ttl=1535804484&ri=8192&rs=8192&setec=1d854394083071f1792dc3be36f0fa8b"
+    },
+    {
+      "fileId": "1000004427",
+      "name": "Beast_Tints-1_00",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "986",
+      "fileName": "Beast_Tints-1_00-29977-1-0.7z",
+      "uploadedUnix": "1358976949",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9ec9f9aac6923dbb20da21657a8949895513d86f8583648649e7ac2888d5adc9/analysis/1407375673/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Beast_Tints-1_00-29977-1-0.7z?fid=1000004427&ttl=1535804484&ri=8192&rs=8192&setec=779898999937b52064192e09b5e4af40"
+    }
+  ]
+}

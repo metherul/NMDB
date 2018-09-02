@@ -1,0 +1,32 @@
+{
+  "modId": 31822.0,
+  "modName": "deadlyHeadshots",
+  "summary": "Adds headshot mechanics to Skyrim.",
+  "descriptionHtml": "Updated to fix MCM issue.\r\n[color=red]\r\nREQUIRES:\r\n SKSE 1.6.6+\r\nhttp://skse.silverlock.org/\r\n\r\nSkyUI\r\nhttp://skyrim.nexusmods.com/mods/3863\r\n[/color]\r\n\r\n[color=orange]\r\nNext Update:\r\n     Tweaking the hitbox to be more accommodation for script lag. Testing different collision shapes for better headshot accuracy.\r\n     Adjust hitbox bounds for rare angles that cause headshots when it should not. For now, the only instances where this occurs is shooting the enemy while directly below them. (i.e shooting them in the feet while underneath them). \r\n\r\nAgain, do not be afraid to provide feedback =)\r\n[/color]\r\n\r\n[color=orange]\r\nChangelog:\r\nversion 2.00.0\r\n    -Headshots will now work without having to use of Deadly Focus (Spell is still there if you liked using it, cooldown removed). \r\n    -Added MCM Config menu entry for installing, uninstalling\r\n[/color]\r\n\r\n[color=red]\r\nBACK UP THY SAVE GAME. :)\r\n[/color]\r\n\r\nThanks for the review! =)\r\n[youtube]ed3fpJ4zUUk[/youtube]\r\n[youtube]C7b7i_f_YPw[/youtube]\r\n\r\n[color=yellow]\r\nThis is my first release of this mod, the spiritual successor to the previous deadlyHeadshot mod.  I had to reinvent it from the ground up due to a lot of design flaws that the Creation Kit could not support. I consider this to be in Beta so any feedback would be great (Any bugs you find, suggestions, etc), so feel free to drop a comment. \r\n[/color]\r\n\r\n[color=lightblue]I hated how you could line up a sound tactic for clearing a room (take out that damn mage with a headshot!) but you end up getting a dude with 10 arrows stuck in his head like a pincushion; he just stands there really pissed off -- rather than really dead. I wanted this mod to add layer of depth and immersion in the game so you can plan out your attacks.\r\n[/color]\r\n\r\n[color=red] Verions 2.00.0 is very different from 1.00.0. I had to change so much made is a separate mod altogether, so read the following: [/color]\r\n\r\n[color=lightblue]\r\nInstallation:\r\n\r\n[Upgrade from 1.00.0 to 2.00.0:\r\n    There really is no proper uninstall for 1.00.0 so the best thing to do is to find a place FAR away from any NPCs (set your turn on noclip (tcl in console) and set your z position to something very high), or just go to a secluded corner of Skyrim, wait a in game day, then save, exit game, turn off mod, delete all scripts in your Scripts folder that are prefixed with DHv100, reload, save again. Then do the following: \r\n\r\n[Fresh Install]\r\n    Download with the Nexus Mod Manager and install it. In the game, bring up the Mod Config Menu and check the box to enable the mod. Change any of the other settings if you wish, then exit the menu and wait in game (maximum of 15 seconds) for the mod to activate. You will get a notification in the upper left window that will tell you the mod is now active.\r\n[/color]\r\n\r\n[color=orange]\r\nUninstallation:\r\n    Deactivate the mod in the MCM Config and wait for the notification in the up left window. The mod is now uninstalled until you enable it again.\r\n[/color]\r\n\r\nFinal words:\r\nThis mod is reliant on your FPS. If you run Skyrim at 20-30 FPS and use mods that bog down the scripting system, then you will REALLY need to use slomo effects when lining up a headshot. \r\nI suggest running at least 45-60 FPS if you want good accuracy.\r\n\r\nEven though I removed the deadly focus power requirement by revamping the head tracking system, it is still desirable to use slomo effects when lining up a head shot. Eagle eye, slo mo shout, whatever. However, you will only really want it when enemies are moving very quickly. A quick chart to help you make the most of a headshot:\r\n\r\nThe headshot system tries hard to track the head, but these are some helpful tips and suggestions as to when you should use slomo effect when lining up a headshot.\r\n\r\n    *If the enemy is moving fast i.e running, use slomo effects like Eagle Eye.\r\n\r\n    *If the enemy is standing, sitting, walking, etc, then the headshot tracking should work fine with or without slo mo effects. \r\n\r\n   *Stay at high FPS and avoid mods that hog the scripting system, this will slow down the     headtracking system a lot. \r\n \r\nIt\\'s still in Beta, so gimme your feedback\r\n\r\nEnjoy :)\r\n\r\n ",
+  "categoryId": "24",
+  "version": "2.00.0",
+  "author": "mercuito",
+  "createdUnix": "1361084900",
+  "updatedUnix": "1371798746",
+  "containsAdultContent": false,
+  "uploadedBy": "mercuito",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000035125",
+      "name": "deadlyHeadshotsv2",
+      "version": "2.00.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "368",
+      "fileName": "deadlyHeadshotsv2-31822-2-00-0.rar",
+      "uploadedUnix": "1371798746",
+      "modVersion": "2.00.0",
+      "virusScanUrl": "https://www.virustotal.com/file/794d95b077efaba923457deca558d7443bc6b1ad5c05dd2ac3a5464dc7768a1c/analysis/1407611188/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/deadlyHeadshotsv2-31822-2-00-0.rar?fid=1000035125&ttl=1535807648&ri=8192&rs=8192&setec=69d5e33286e457e88b291574ce7cbed4"
+    }
+  ]
+}

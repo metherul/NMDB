@@ -1,0 +1,32 @@
+{
+  "modId": 17145.0,
+  "modName": "Studded Imperial Armor Fix",
+  "summary": "Adjustment of the UV map on the medium Imperial armor set so that the correct textures are displayed.",
+  "descriptionHtml": "When I was poking around in NIFSkope, I noticed that the light Imperial armor and studded Imperial armor share a texture, with the UV maps pointing to different parts of it (the chain on the shoulders vs. leather, etc.) The female studded Imperial armor had metal studs on the tassels that I thought looked pretty neat, but for some reason the male version lacked that. That was when I noticed that the UV map on the male version was simply pointing to the wrong part of the texture. So I fixed it.\r\n\r\nThis mod should be compatible with any texture replacer, though it will obviously conflict with body replacers or anything that changes these meshes.",
+  "categoryId": "29",
+  "version": "1.0",
+  "author": "Saint Jiub",
+  "createdUnix": "1337157141",
+  "updatedUnix": "1337157245",
+  "containsAdultContent": false,
+  "uploadedBy": "spaceinvader91",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "61634",
+      "name": "Main File",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "347",
+      "fileName": "Main File-17145-1-0.zip",
+      "uploadedUnix": "1337157245",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0b5ec8ccdd7425dec3dbcdecdf364a6972c3eeea25af2908ca1bfe6385771de3/analysis/1406895845/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Main%20File-17145-1-0.zip?fid=61634&ttl=1535783032&ri=8192&rs=8192&setec=12a7dc8c4f26e32438aa24bad4284ec0"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 44774.0,
+  "modName": "Book Creator for Skyrim - BCFS",
+  "summary": "This small tool is a Visual Editor to make new book Mods easily.",
+  "descriptionHtml": "Book Creator for Skyrim - BCFS\r\n\r\n\r\n[u]What is this ?[/u]\r\n\r\nIt\\'s basicly a WYSIWYG Editor to Help with the Creation of new book mods \r\ninside the Creation Kit of Skyrim. Without it you need to have some basic \r\nknowledge of html and with the book layout if you use the CK without it. \r\n\r\nIn simple words, it\\'s a visual Editor to edit Pages for the book of your dreams, \r\nwith color, fonts, images and your own layout...\r\n\r\nIf you already have used my PNFS mod you might already know mostly how it \r\nworks (with minor changes).\r\n\r\n\r\n\r\n[u]How to use it ?[/u]\r\n\r\nYou can save complete new books (only some point and click routines inside \r\nthe CK (Creation Kit) are required (prepare this on Step 2 in the Book Creator) \r\nto make the ESM), after this you can still load your book inside the Book Creator \r\njust by entering the same name as before, this way you have much time to \r\ncomplete it on up to 100 pages in each book. If you are finished with a book \r\nyou can go to Step 3 inside the tool. At Step 3 all current files (only the files for\r\npublishing) from your (now finished) project will be copied to the target folder.\r\n\r\nThe target folder is currently c:\\\\BookCreator\\\\{Bookname}.\r\n\r\n\r\n\r\n[u]Where in Skyrim can i find my new book ?[/u]\r\n\r\nNowhere, if you dont add a quest or dont put the book in a specified location.\r\nBut also without you can add your new Book to your inventory:\r\n\r\n- First of all make sure your {mybookname}.esp is activated somewhere in your loadorder.\r\n- Start the Game and open the Console\r\n- Enter \\\"help {mybookname}\\\"   (enter)\r\n- Get the RefID of {mybookname}\r\n- Enter \\\"player.additem {RefID} 1   (enter)\r\n- Close the Console, open inventory and read your book :)\r\n\r\nor if you dont like the console you can add it automaticly to the inventory\r\nusing a small papyrus script inside the Creation Kit like:\r\n\r\nScriptName {Bookname}InitScript extends Quest\r\nBook Property {Bookname} Auto\r\nEvent OnInit()\r\n\tIf !Game.GetPlayer().GetItemCount({Bookname})\r\n\t\tGame.GetPlayer().AddItem({Bookname}, 1)\r\n\tEndIf\r\nEndEvent\r\n\r\n\r\n[u]Requirements:[/u]\r\n\r\nSkyrim and CK (Creation Kit)\r\n\r\n\r\n[u]Notes:[/u]\r\n\r\nThis is a early beta, but it should work, i\\'ve currently\r\nnot the time to test it, tell me if something is not working\r\ncorrectly.. by the way, might be problematic if you use vista\r\n(i am unsure about this), and the help button is not working\r\nat present (look in the \\\"howto (beta)\\\" folder). If you install\r\nthis using NMM you need to move the tool from Skyrim/data directly\r\nto the Skyrim folder by hand.\r\n",
+  "categoryId": "98",
+  "version": "1.0b",
+  "author": "triplex2011",
+  "createdUnix": "1382039160",
+  "updatedUnix": "1382039121",
+  "containsAdultContent": false,
+  "uploadedBy": "triplex2011",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000067139",
+      "name": "BookCreator",
+      "version": "1.0b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "294",
+      "fileName": "BookCreator-44774-1-0b.7z",
+      "uploadedUnix": "1382039121",
+      "modVersion": "1.0b",
+      "virusScanUrl": "https://www.virustotal.com/file/4ce98dc034741c8539b75c689bcada2ed8b36fcc7fa4a9e628645cbe30b550c3/analysis/1407759131/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BookCreator-44774-1-0b.7z?fid=1000067139&ttl=1535825351&ri=8192&rs=8192&setec=46358ceca52e2ad9b7100c91aa1a9594"
+    }
+  ]
+}

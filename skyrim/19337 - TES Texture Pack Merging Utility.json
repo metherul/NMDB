@@ -1,0 +1,48 @@
+{
+  "modId": 19337.0,
+  "modName": "TES Texture Pack Merging Utility",
+  "summary": "TES Texture Merging Utility",
+  "descriptionHtml": "Name: TES Texture Merging Utility\r\nVersion: 0.2\r\nDate: 6/30/2012\r\nCategory: Utilities\r\nAuthor(s): iPrimE\r\nSource:\r\n\r\nDescription\r\n===========\r\nA utility designed to aid users in merging files from different texture replacement mods with previews and automatic copying of normal-maps, glow-maps, etc.\r\n\r\nDetails\r\n=======\r\n- This utility finds the duplicate textures in up to 3 folders (the first one being the reference/vanilla folder). The duplicate textures can then be viewed side-by-side with file size and dimensions info. You can specify how many folders you are comparing when starting a new session.\r\n- You can then choose which texture to copy to the finalized directory (a \\\"textures\\\" folder will be created in the utility\\'s path). You can also choose to only see the color-map and ignore the normal-map, glow-map and other variations of the texture. In that case, when a texture is chosen, the accompanying normal-map etc. will be copied along with it automatically.\r\n- You can go back and the choice can be changed again. The current choice is indicated by green highlighted text under the preview.\r\n- You can jump to any of the duplicates.\r\n- You will see the name of the current texture, the total size of the textures chosen so far, their vanilla size, and the percentage difference in the status bar.\r\n- There are 3 view modes: Zoom to Fit, Original Size (1:1), and Stretch. In stretch mode, all the textures will be stretched to the size of the biggest texture for an apples-to-apples comparison.\r\n- In stretch mode, you can pan (drag) any of the textures around and the other one (or two) will follow to help comparison.\r\n- In Original Size mode, you can drag each of the textures around individually.\r\n- The option View -> \\\"Ignore Alpha\\\" is enabled by default because some textures use the alpha channel for various things. This can cause the texture to look weird or even invisible and more difficult to compare.\r\n- There is an option to disable interpolation in the View menu when Stretch mode is active. This is disabled by default.\r\n- After working on a session you can save it as a file and restore (load) the session later on. Please note that modifying any of the folders\\' contents manually will likely cause strange bugs and/or crashes.\r\n\r\n\r\nInstallation and Usage\r\n======================\r\n1. Extract the files in the archive to any folder.\r\n2. Download and Install the .NET Framework v4 if you don\\'t have it installed.\r\n3. Run TexPackMerge.exe\r\n4. Go to File -> New Session\r\n5. Select the original \\\"textures\\\" folder. It has to be extracted. BSAs aren\\'t supported yet. This folder will be used as a reference. Only textures which have duplicate names with this folder are considered.\r\n6. Select the other \\\"textures\\\" folder.\r\n7. If you want to compare with 3 folders, check the related option and define the 3rd folder.\r\n8. Ticking the \\\"Auto normal-maps, glow-maps, etc.\\\" option will attempt to detect the files associated with a colormap texture and copy them automatically.\r\n9. Create the session.\r\n10. Start choosing textures to copy. You can either use the buttons or use the hotkeys (see below).\r\n11. You can save your current session and its progress and restore it later under the File menu.\r\n12. Happy merging\r\n\r\nHotkeys\r\n========\r\n\r\nRight - Next texture\r\nLeft - Previous texture\r\nJ - Jump to (Type number then press Enter)\r\n\r\nNumpad 1 - Copy Original\r\nNumpad 2 - Copy Mod 1\r\nNumpad 3 - Copy Mod 2\r\n\r\nA - Zoom to Fit\r\nS - Original Size\r\nD - Stretched\r\n\r\n\r\nUninstall\r\n=========\r\nDelete the files you extracted from this archive.\r\n\r\nKnown Issues, Bugs and Future Plans\r\n=============================\r\n- Add ini configuration for hotkeys.\r\n- Add the ability to read the textures from a BSA archive.\r\n- Overhaul the duplication detection to improve detection of non-diffuse-map textures (normals, glowmaps)\r\n- Possible integration of tools such as ddsopt\r\n- \\'Automatic\\' mode with settings (Minimum filesize, Maximum fileize, Greater than dimensions, etc.)\r\n\r\nHistory\r\n=======\r\n0.1, 2012/6/24:\r\nInitial release.\r\n\r\n0.11, 2012/6/24:\r\nFixed - Bug with lower resolutions and screen sizes\r\n\r\n0.2, 2012/6/28:\r\nAdded - Session save and restore\r\nAdded - Ability to pan individual images in Original Size mode\r\nAdded - Jump to duplicate feature\r\nAdded - Hotkeys (cannot be changed for now, see list above)\r\nAdded - Quick option to clear all merged files\r\nAdded - option to disable interpolation of stretched textures in Stretch mode (under View menu)\r\nAdded - Ability to specify 2 folders for comparison instead of 3\r\nFixed - Stretch mode causing crashes\r\nFixed - Minimize causing strange UI behavior\r\nFixed - Possible crash related to remove alpha option\r\nFixed - Many other small UI bugs and oddities\r\nImproved - Automatic normalmap/glowmap/etc. detection code (still not perfect, but mostly correct. Will be improved again in next version)\r\nImproved - Alpha channel removal code\r\n\r\n0.2, 2012/6/30:\r\nFixed - Critical bug with <=90 DPI\r\n\r\nContact\r\n=======\r\nYou can find me on the official Elder Scrolls forums as \\'iPrimE\\'\r\nYou can send me an email here: dallen125@hotmail.com\r\n\r\nCredits\r\n=======\r\nThis software uses the FreeImage open source image library. See http://freeimage.sourceforge.net for details.\r\nFreeImage is used under the GNU GPL, version 3.\r\n\r\nThanks to the great devs at the FreeImage project for the FreeImage library used in this application.\r\nThanks to Bethesda for creating The Elder Scrolls series.\r\nThanks to TESNexus.com for the a one-stop-shop resource for authors and players.\r\nThanks to LHammonds for the Readme Generator this file was based on.\r\nThanks to all the users who gave me feedback and support.\r\nThanks to God for creating us all.\r\n\r\nTools Used\r\n==========\r\nReadme Generator - http://hammondslegacy.com/obmm/tools_readme_generator1.asp\r\nSharpDevelop - http://www.icsharpcode.net/opensource/sd/\r\n\r\nLicensing/Legal\r\n===============\r\nThis tool is released under the GNU General Public License v3.\r\nThe GNU GPL v3 and a quick summary of what it means can be found here: http://www.gnu.org/licenses/gpl-3.0.html",
+  "categoryId": "39",
+  "version": "0.2",
+  "author": "iPrimE",
+  "createdUnix": "1340557336",
+  "updatedUnix": "1341078648",
+  "containsAdultContent": false,
+  "uploadedBy": "iPrimE",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "70073",
+      "name": "TES Texture Pack Merging Utility",
+      "version": "",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1068",
+      "fileName": "TES Texture Pack Merging Utility-19337-.zip",
+      "uploadedUnix": "1340561965",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/85953e718a9715adbda4041c4db8b2744c7b54649917d846a26c530453a249f3/analysis/1406980623/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TES%20Texture%20Pack%20Merging%20Utility-19337-.zip?fid=70073&ttl=1535786731&ri=8192&rs=8192&setec=bd9b08dd5c91596eba6a46a7196ed6eb"
+    },
+    {
+      "fileId": "71273",
+      "name": "TES_Texture_Merging_Utility_v0_2_Bugfix",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1072",
+      "fileName": "TES_Texture_Merging_Utility_v0_2_Bugfix-19337-0-2.zip",
+      "uploadedUnix": "1341078648",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/66e2c1628f656c0875160b7702eb3034b894aa08c2cbf9b4051f5a2f44fb99d8/analysis/1406992504/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TES_Texture_Merging_Utility_v0_2_Bugfix-19337-0-2.zip?fid=71273&ttl=1535786731&ri=8192&rs=8192&setec=45cc838882fa7dc6701cc450c9111d85"
+    }
+  ]
+}

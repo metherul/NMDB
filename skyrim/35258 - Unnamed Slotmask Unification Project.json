@@ -1,0 +1,32 @@
+{
+  "modId": 35258.0,
+  "modName": "Unnamed Slotmask Unification Project",
+  "summary": "Modders have been busy creating new pieces of clothing/armor - and until now using whatever unnamed slot(s) seemed convenient. Cloaks. Backpacks. Scarves. etc. etc. It is the intention of this site, utilizing all the input that the modding community has to offer, to arrive at a group agreement for the standardization of assignments for the unnamed ",
+  "descriptionHtml": "It is hoped by the author of this page that a slot/name pairing convention may here be adopted by the Skyrim modding community. Modders have been quite busy. New additions have been brought to the game including cloaks, scarves, backpacks and more. Adopting a standard would help dramatically by clarifying and regulating the unnamed armor slots. Please, if you agree, lend weight to this project by adding your comments or discussion to this group effort.\r\n\r\nToday, April 25, 2013 we are publishing a first draft, a proposal, of what this standard might look like. One constraint we felt obliged to honor was the need of the dual sheath, weapons/staffs on the back, and other mods for some slots of their own.  Our proposal leaves four slots unused - 57 through 60 - enough for those other purposes?\r\n\r\n[code]\r\nNAME.......................DECIMAL...........CREATION KIT ID.........POWER OF 2\r\nNeckwear.....................1,024...................40......................10\r\n--i.e. scarf/sash\r\nWings.......................16,384...................44......................14\r\nBackpack....................32,768...................45......................15\r\nCloak.......................65,536...................46......................16\r\nChoker.....................131,072...................47......................17\r\nApron......................262,144...................48......................18\r\nSkirt/Lower Torso..........524,288...................49......................19\r\nBelly Button.............1,048,576...................50......................20\r\nNipples..................2,097,152...................51......................21\r\nGenitals1................4,194,304...................52......................22\r\n--penis/clitoris\r\nGenitals2................8,388,608...................53......................23\r\n--scrotum/labia\r\nMouth...................16,777,216...................54......................24\r\nVagina..................33,554,432...................55......................25\r\nAnus....................67,108,864...................56......................26\r\n[/code]\r\n\r\nTo modders: It is SUPER important that you advertise to the public that your armor/clothing mod is \\\"usup compliant\\\". {I just invented that ;) }. In a perfect world \\\"usup compliant\\\" would link back to this page. But whatever. People will want to know that you are adhering to a standard that they can rely on.\r\n\r\nTo non-modders: please understand that the best way of supporting this new effort toward standardization is by POLITELY asking modders to comply. Direct them to this page and ask that they participate. The number of modders out there is such that [b][u]your[/u][/b] participation is crucial.\r\n\r\nThe mod offered for download on this page is really for utilitarian purposes only. It is not for general gameplay. Its purpose is to inform you of the slotmask being used by whatever item you have just equipped. Requires SKSE. It will interrupt gameplay with a messagebox supplying this information. If you come across a new piece of armour/clothing and are curious what slot it is occupying, this mod will tell you.\r\n\r\nThe optional files for download here are mods where the author is unresponsive or unwilling to participate. Assuming permission, patches of their work with a simple adjustment to the slot mask will be available here for download. All due credit will be given to the mod author! Preferably, they will agree to modify their own mod themselves so that providing it here is unnecessary.",
+  "categoryId": "79",
+  "version": "1.0.1",
+  "author": "jrsmick",
+  "createdUnix": "1366953535",
+  "updatedUnix": "1367014702",
+  "containsAdultContent": false,
+  "uploadedBy": "jrs3071",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000026629",
+      "name": "Utility - Show Slot of Equipped Armour v1-0-1",
+      "version": "1.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Utility - Show Slot of Equipped Armour v1-0-1-35258-1-0-1.7z",
+      "uploadedUnix": "1367014702",
+      "modVersion": "1.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/9137ea96d5d990ce1757e8ec06c5929fb6100ffb37ca87c93e9f34f531966bb1/analysis/1407543425/",
+      "changelogHtml": " Removed a debugging notification <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Utility%20-%20Show%20Slot%20of%20Equipped%20Armour%20v1-0-1-35258-1-0-1.7z?fid=1000026629&ttl=1535813664&ri=8192&rs=8192&setec=a980f3dcd3a74f9d02cd777ccfb1aa3f"
+    }
+  ]
+}

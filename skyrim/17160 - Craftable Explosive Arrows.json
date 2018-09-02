@@ -1,0 +1,48 @@
+{
+  "modId": 17160.0,
+  "modName": "Craftable Explosive Arrows",
+  "summary": "Imbue the essence of the fire atronachs to your arrows",
+  "descriptionHtml": "For those of you wondering why there are no updates yet, I\\'m still waiting for Dawngaurd PC release to see if there is any further support for ammunition, but I suspect the crossbows will be scripted. We\\'ll see.\r\n\r\n\r\n[youtube]-aW201xqZ-0[/youtube]\r\n\r\nOnly few arcane blacksmiths know how to imbue arrows with the power of the fire atronachs. Power, however, has its price.\r\n\r\n[b]Features[/b]\r\nUpgrade your arrows at the forge with fire salts to create explosive arrows.\r\n\r\n[b]Description[/b]\r\nI intended to add AOE capabilities to archers without overpowering them. These arrows aren\\'t meant to be used all the time since they are quite pricey, namely 1 fire salts per arrow. \r\n\r\n[b]Updates[/b]\r\nv.1.2\r\n[list]\r\n[*] Added mass production [i][b]option[/b][/i], meaning you can craft 10 at a time using the same ratio.\r\n[/list]\r\n\r\nv.1.1\r\n[list]\r\n[*] Upgrades moved from Misc. to their proper category\r\n[*] Changed Ancient Nord Arrow upgrades to SkyForge-only\r\n[*] Changed prefixes to suffixes for better sorting and future updates\r\n[*] Explosive Arrows can no longer be picked up after being fired (for realism).\r\n[/list]\r\n\r\n[b]Upgradable Arrows[/b]\r\n[list]\r\n[*] Ancient Nord\r\n[*] Daedric\r\n[*] Dwarven\r\n[*] Ebony\r\n[*] Elven\r\n[*] Iron\r\n[*] Orcish\r\n[*] Steel\r\n[/list]\r\n\r\n[b]Crafting[/b]\r\nRequires:\r\n[list]\r\n[*] Arcane Blacksmith perk\r\n[*] Any arrow mentioned above\r\n[*] Fire Salts\r\n[/list]\r\n\r\n[b]Bugs[/b]\r\nDoesn\\'t ignite oil on the ground. (MagicDamageFire keyword is supposed to trigger this, but it won\\'t work on arrows, no workaround so far)\r\nArrows stuck in bodies can be recovered. (They are supposed to be destroyed upon impact.) I cannot attach scripts to arrows, nor did I find anything suitable to attach to without risking incompatibilities with other mods.\r\nIf anyone has a solution for these, I\\'m all ears.\r\n\r\n[b]Installation[/b]\r\nExtract to your Skyrim folder\r\n\r\n[b]Uninstallation[/b]\r\nRemove Skyrim/Data/ExplosiveArrows.esp\r\n",
+  "categoryId": "55",
+  "version": "1.2",
+  "author": "dukefx",
+  "createdUnix": "1337182657",
+  "updatedUnix": "1337439230",
+  "containsAdultContent": false,
+  "uploadedBy": "dukefx",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "62325",
+      "name": "Explosive Arrows",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Explosive Arrows-17160-1-2.zip",
+      "uploadedUnix": "1337439024",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/776547a766dc4808ea3245cf78ce4acd548a07f818da6ac504fdb0d9fed3baa9/analysis/1406902689/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Explosive%20Arrows-17160-1-2.zip?fid=62325&ttl=1535783054&ri=8192&rs=8192&setec=aad8e5859291c29ea0944b3a341a9107"
+    },
+    {
+      "fileId": "62327",
+      "name": "Explosive Arrows Unrealistic Version",
+      "version": "1.2",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Explosive Arrows Unrealistic Version-17160-1-2.zip",
+      "uploadedUnix": "1337439230",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/cf6529b8096c17b430420dceb5dd36a9e2c3d497166af712db1bff08be4a46c5/analysis/1406902742/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Explosive%20Arrows%20Unrealistic%20Version-17160-1-2.zip?fid=62327&ttl=1535783054&ri=8192&rs=8192&setec=05a6797a879857ff4506e9a55080c89f"
+    }
+  ]
+}

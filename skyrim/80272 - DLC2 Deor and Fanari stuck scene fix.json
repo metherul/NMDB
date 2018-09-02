@@ -1,0 +1,32 @@
+{
+  "modId": 80272.0,
+  "modName": "DLC2 Deor and Fanari stuck scene fix",
+  "summary": "Fixes stuck scene between Deor and Fanari after they are interrupted, and allows &#34;A New Source of Stalhrim&#34; to start.",
+  "descriptionHtml": "During my current gameplay it happened again. I came to talk to Shaman of the Skaals after cleansing the stones, and saw that Deor and Fanari are stuck again&#33; No talking, no moving, just standing in front of one another and doing nothing. I remembered that last time, even after finishing &#34;A new Source of Stalhrim&#34; they were still stuck. \r<br />\r<br />First, I searched the Internet for a solution and a reason why it happens. It turned out to be a common bug, when Fanari and Deor are interrupted during the scene, they are just stuck in it. Apparently there was no solution to this problem than just re-load a previous save before the problem occured. But I thought: &#34;There must be some other way to fix that&#34;. And I think I found it. \r<br />\r<br />This mod triggers misc quest &#34;Ask Deor about Baldor&#39;s disappearance&#34; by talking to Fanari during the stuck scene. When you ask Fanari if something&#39;s wrong, both Deor and Fanari become &#34;un-stuck&#34; and you can start &#34;A new Source of Stalhrim&#34; by talking to Deor. \r<br />\r<br />This mod ONLY fixes this certain bug.\r<br />\r<br />REQUIRES DLC2 - DRAGONBORN\r<br />\r<br />[color=#ff0000]Version 1.1:[/color]\r<br />- Deor will become &#34;un-stuck&#34; the moment you ask Fanari if something&#39;s wrong (not like before, when she finishes talking)",
+  "categoryId": "95",
+  "version": "1.1",
+  "author": "dailyplanet",
+  "createdUnix": "1479369489",
+  "updatedUnix": "1479477886",
+  "containsAdultContent": false,
+  "uploadedBy": "dailyplanet",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000228456",
+      "name": "DLC2newsource fix",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "DLC2newsource fix-80272-1-1.rar",
+      "uploadedUnix": "1479477886",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/febe45633a980710e312091d41e074400de1a0d8add9f01ac76501435f9306c9/analysis/1479477902/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DLC2newsource%20fix-80272-1-1.rar?fid=1000228456&ttl=1535868913&ri=8192&rs=8192&setec=26b0893c070413223a3c1a16e45a9d83"
+    }
+  ]
+}

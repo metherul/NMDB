@@ -1,0 +1,48 @@
+{
+  "modId": 26231.0,
+  "modName": "Skyrim community uncapper - French",
+  "summary": "This is the French translation of Skyrim -Community- Uncapper made by Elys\r\nC\\'est la traduction francaise de Skyrim -Community- Uncapper realisé par Elys",
+  "descriptionHtml": " [size=3]Index:[/size]\r\n  -Prérequis\r\n  -Description\r\n  -Installation\r\n  -Désinstallation \r\n  -Compatibilité \r\n  -Remerciements \r\n\r\n\r\n[u][size=3]Prérequis[/u] :[/size]\r\n\r\n[b] SKSE [/b] disponible [url=http://skse.silverlock.org/] ici [/url]\r\n\r\n[u][size=3]Description[/u]:[/size]\r\n\r\nPetit aperçu de ce que fait le mod :\r\n - Il pousse la limite de progression, que ce soit celle du niveau global, d\\'une seule compétence ou de plusieurs compétences à la fois .\r\n - Il modifie la vitesse de progression d\\'une compétence ou du niveau golbal, et aussi la progréssion du niveau par rapport à une compétence précise. Ce qui permet de jouer (vraisemblablement) avec le système de classes, en mettant fCompétence=0 dans [PCLevelSkillExpMults] selon vos désirs.\r\n(par ex. si vous êtes mage et que fTwoHanded=0, vous ne monterez pas en niveau malgré la progréssion de la compétence Deux mains)\r\n - Il modifie le nombre de points de santé, magie, vigueur, et portage gagnés à chaque montée de niveau. Ainsi que le nombre d\\'atouts disponibles, ceci peut être utile pour d\\'autres mods qui rajoutent des perks tels que [url=http://www.confrerie-des-traducteurs.fr/skyrim/mods/jouabilite/perkup.php]PerkUp[/url], [url=http://skyrim.nexusmods.com/mods/7015]Uncapped perks[/url]...etc \r\nEt bien sûr TOUS ces réglages peuvent être modifiés dans le fichier INI.\r\n\r\n\r\n[u][size=3]Installation[/u] :[/size]\r\n\r\nCopier les fichiers du mod dans :\r\nx:...\\\\skyrim\\\\Data\\\\SKSE\\\\Plugins.\r\nActiver le plugin via le fichier INI.\r\n\r\nNote: Comme toujours, vous devez sauvegarder avant d\\'installer le mod, elle vous sera utile en cas de pépin\r\n\r\n\r\n[u][size=3] Désinstallation [/u] :[/size]\r\n\r\nSupprimez les fichiers du mod\r\n\r\n\r\n[u][size=3]Compatibilité [/u] :[/size]\r\n\r\nLes seuls mod qui devraient être incompatibles sont ceux qui modifient le système de levelup\r\n\r\n\r\n[u][size=3] Remerciements [/u] :[/size]\r\n\r\nMerci à Elys pour [url=http://skyrim.nexusmods.com/mods/1175]le mod original [/url]et pour son aide lors de la traduction.\r\nMerci à l\\'équipe SKSE pour leur travail.\r\nMerci à Bethesda pour ce jeu et la série The Elder Scrolls.\r\n\r\n\r\nAussi disponible sur :\r\n[url=http://www.confrerie-des-traducteurs.fr/skyrim/index.php][img]http://www.confrerie-des-traducteurs.fr/forum/styles/3myl_parchemin/imageset/Laconf.png[/img][/url]",
+  "categoryId": "73",
+  "version": "1.14.3.0",
+  "author": "Elys- traduit par Valkyr47",
+  "createdUnix": "1351598926",
+  "updatedUnix": "1353110907",
+  "containsAdultContent": false,
+  "uploadedBy": "Valkyr47",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "96664",
+      "name": "Elys -community- Uncapper",
+      "version": "1.14.2.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "119",
+      "fileName": "Elys_community_Uncapper-26231-1-14-2-1.rar",
+      "uploadedUnix": "1351599168",
+      "modVersion": "1.14.2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c845e59aec8020ee50dffe8d5164fa5881675c15d1ef5417dbb4eb97747db827/analysis/1407242147/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Elys_community_Uncapper-26231-1-14-2-1.rar?fid=96664&ttl=1535798163&ri=8192&rs=8192&setec=08f2fb60cedadd417d864eb30d5160de"
+    },
+    {
+      "fileId": "99947",
+      "name": "Elys-Community-Uncapper 1_14_3",
+      "version": "1.14.3.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "119",
+      "fileName": "Elys-Community-Uncapper 1_14_3-26231-1-14-3-0.rar",
+      "uploadedUnix": "1353110907",
+      "modVersion": "1.14.3.0",
+      "virusScanUrl": "https://www.virustotal.com/file/cce2ace0828184c2dbec84442a6044dcd967d29c7b6966323ed62a9a6266e6f5/analysis/1407266051/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Elys-Community-Uncapper%201_14_3-26231-1-14-3-0.rar?fid=99947&ttl=1535798164&ri=8192&rs=8192&setec=4e6cc6056a864b13b90ac3dae4bcdf27"
+    }
+  ]
+}

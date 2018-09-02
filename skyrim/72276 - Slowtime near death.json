@@ -1,0 +1,32 @@
+{
+  "modId": 72276.0,
+  "modName": "Slowtime near death",
+  "summary": "Mod Request: While being below 20% Health the Time gets slowed",
+  "descriptionHtml": "Hello, \r<br />\r<br />this is a quick solution to a mod-request over at the forums. \r<br />\r<br />\r<br />[b]Whenever you drop below 20% of your Health, there is a Slow-Time effect (like the one slow-time-shout does), as long as you are below 20% health. When you regain Health to get back over 20%, the effect will disappear. [/b]\r<br />\r<br />Don&#39;t worry about incompabilities, I did not change records, just added a few new. I did not use scripts, this is a magic buff.\r<br />\r<br />To install just use NMM or similar, then ingame open up console and type &#34;help perk_slowtime&#34; (without &#34; &#34;). This will show you a perk and its ID, looking something like XX00182C, where XX is the position in your loadorder. Then type &#34;player.addperk XX00182C&#34; (again without &#34; &#34;). Save your game and done. \r<br />\r<br />For uninstallation just open console and type &#34;player.removeperk xx00182C&#34;, save your game and delete esp. ",
+  "categoryId": "77",
+  "version": "1.0",
+  "author": "JoeKa8",
+  "createdUnix": "1451416699",
+  "updatedUnix": "1451416600",
+  "containsAdultContent": false,
+  "uploadedBy": "JoeKa8",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000189410",
+      "name": "Slowtime near Death",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Slowtime near Death-72276-1-0.zip",
+      "uploadedUnix": "1451416600",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3d17d4d09337d561a2aa65d1088a0be07d0889d0dc10f230af6467c1f302620f/analysis/1451416626/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Slowtime%20near%20Death-72276-1-0.zip?fid=1000189410&ttl=1535860798&ri=8192&rs=8192&setec=f9ba5ae94ec3843e534aa3a47fd244cc"
+    }
+  ]
+}

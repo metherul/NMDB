@@ -1,0 +1,48 @@
+{
+  "modId": 44752.0,
+  "modName": "Tweakable DoF and Bokeh shader for ENB",
+  "summary": "Tweakable bokeh shader for ENB and ENB presets. Intended for preset makers and users with the patience to tweak it to work with their own settings.",
+  "descriptionHtml": "[b][color=red]Features[/color][/b]\r\n[list]\r\n[*]Tilt shift (by gp65cj04)\r\n[*]Completely Tweakable settings\r\n[*]Flicker effect for Bokeh\r\n[*]DoF noise, either static or animated\r\n[*]Fully explained shader settings\r\n[*]Fully integrated with ENB's in game menu via shift+enter\r\n[*]Day/Night/Interior options for settings\r\n[*]Five bokeh shapes included \r\n[*]Able to create custom Bokeh shapes (If you have enough patience)\r\n[*]Illusions! I mean [url=http://en.wikipedia.org/wiki/Cornsweet_illusion]Cornsweet illusion[/url], thanks to unsharp masking the depth and applying it to color, enhancing the sense of depth.\r\n[*]Now with two flavors, performance or tweakable\r\n[/list]\r\n\r\nCurrent shapes:\r\n[list]\r\n[*]Pentagonal edge, for low quality settings\r\n[*]Pentagonal poisson\r\n[*]5 point star poisson\r\n[*]4 point star poisson\r\n[*]HQ Pentagonal lens for screenshots (Quality goes up to 28, remember to set it back to at least 10 before changing back to any other lens shape)\r\n[*]Octagonal poisson for those who think pentagonal lenses are cheap\r\n[*]HQ Octagonal poisson\r\n[/list]\r\n[color=yellow]Comments and suggestions are appreciated. If you have any shader ideas, either DoF related or not, please let me know.\r\n\r\nIf you have any preset/suggestion for the shader settings, let me know as well and I will include here.[/color]\r\n\r\n[line]\r\n\r\n[b][color=red]Planned updates[/color][/b]\r\n[list]\r\n[*]Nothing at the moment, suggest something?\r\n[/list]\r\n[line]\r\n\r\n[b][color=red]Installation[/color][/b]\r\n-Have ENB running with or without a preset\r\n-Make a backup copy of your enbeffectprepass.fx from the main skyrim folder\r\n-Rename the file you want to use to enbeffectprepass.fx and copy it into the skyrim folder\r\n-Edit with a text editor to change #defines and read the settings explanations\r\n-Uncomment #define TWEAK to change settings in game with shift+enter. Settings are saved to \"<skyrim folder>/enbseries/enbeffectprepass.fx.ini\" Just delete this file if you want to go back to default settings.\r\n[b][color=yellow]Tested with ENB 221, ENB 229, ENB 233 and True Vision[/color][/b]\r\n\r\n[line]\r\n\r\n[b][color=red]Known issues[/color][/b]\r\n-Trees have issues with DoF due to the transparency they use. Seems like depth isn't passed through correctly, so DoF thinks leaves should be at the same focus as the sky. Nothing I can do to fix that, I'm afraid.\r\n-There may be an issue with chromatic aberration and the sky, I haven't seen it yet but the code looked at me and complained about its existence, so we will see.\r\n-Apparently ENB can't directly compile a shader with a really large loop even tho I can compile this elsewhere. So in order to use lens 5, have to apply the file with a lower quality and then crank it up to max in game.\r\n\r\n[color=yellow]Please do report any bugs you find or any feature that borks everything and turns DoF off.[/color]\r\n\r\n[line]\r\n\r\n[b][color=red]Presets using these shaders (that I know of) in no particular order[/color][/b]\r\n[url=http://skyrim.nexusmods.com/mods/41465/]Somber ENB Lut Sepia[/url]\r\n[url=http://skyrim.nexusmods.com/mods/34966/]E ENB[/url]\r\n\r\n[line]\r\n\r\n[b][color=red]Permissions[/color][/b]\r\nYou're free to modify, copy, upload, include in your preset, print and use it as toilet paper, made derivative works from, adapt to other shaders, and anything possibly imaginable without any explicit permission.\r\n\r\nCredits to my work would be appreciated, but not necessary.\r\n\r\nCredits to the work of others before me, as included bellow, are most likely necessary.\r\n\r\n[line]\r\n\r\n[b][color=red]Credits[/color][/b]\r\n-DoF is based on concepts and articles from: [url=http://http.developer.nvidia.com/GPUGems3/gpugems3_ch28.html]GPU Gems[/url] and [url=http://developer.amd.com/wordpress/media/2012/10/Scheuermann_DepthOfField.pdf]Thorsten Scheuermann[/url]\r\n-DoF Adaptation to ENB by Boris Vorontsov\r\n-Tilt Shift, original bokeh (removed and rewritten) and possible modifications by [url=http://skyrim.nexusmods.com/mods/24024/]gp65cj04[/url]\r\n\r\n[line]\r\n\r\nThanks to Bronze316 and his [url=http://skyrim.nexusmods.com/mods/15983/]True Vision[/url] preset for inspiring me into writing this shader.\r\n\r\n[line]\r\n\r\n[b][color=red]Hey, you. Yes, you. Wanna try something silly and ugly instead?[/color][/b]\r\n[url=http://skyrim.nexusmods.com/mods/46024/][img]http://i.snag.gy/gkEfz.jpg[/img][/url]",
+  "categoryId": "62",
+  "version": "13",
+  "author": "Soulwynd",
+  "createdUnix": "1382026374",
+  "updatedUnix": "1388247880",
+  "containsAdultContent": false,
+  "uploadedBy": "soulwynd",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000083635",
+      "name": "Bokeh v12",
+      "version": "12",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "Bokeh v12-44752-12.7z",
+      "uploadedUnix": "1385559859",
+      "modVersion": "12",
+      "virusScanUrl": "https://www.virustotal.com/file/2edebf7680655bca98b923ca12eddc9dfca64027adfee9095b2b25f40462eca5/analysis/1407810764/",
+      "changelogHtml": " Changed adaptive quality slightly, should give a bit better compile timings, don&#39;t expect huge changes, it&#39;s still slower than when you have it turned off. <br/> \n Added Hyperfocal settings <br/> \n Added focus range settings <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bokeh%20v12-44752-12.7z?fid=1000083635&ttl=1535825333&ri=8192&rs=8192&setec=b6a8bf768bdc6fe195bcdbfa2f140d5c"
+    },
+    {
+      "fileId": "1000088711",
+      "name": "Bokeh v13",
+      "version": "13",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "12",
+      "fileName": "Bokeh v13-44752-13.7z",
+      "uploadedUnix": "1388247880",
+      "modVersion": "13",
+      "virusScanUrl": "https://www.virustotal.com/file/528096131e0cbd07b0385df775be3fe17cc992d25d23515b6ecc9f8aaad260f5/analysis/1407862209/",
+      "changelogHtml": " Added gaussian contrast settings <br/> \n Added the option to have a second pass of the bokeh effect <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bokeh%20v13-44752-13.7z?fid=1000088711&ttl=1535825333&ri=8192&rs=8192&setec=630a810243528a6df660e6da374fdab6"
+    }
+  ]
+}

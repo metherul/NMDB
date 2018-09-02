@@ -1,0 +1,48 @@
+{
+  "modId": 45355.0,
+  "modName": "NIF Scripts",
+  "summary": "Changed scripts for better import and export of Skyrim mesh NIF data for Blender.\r<br />Also changed scripts for NifSkope to more streamlined Skyrim mesh editing.",
+  "descriptionHtml": "Update:\r<br />\r<br />I looked at these scripts again to see if I could change anything else and noticed, like several comments said,\r<br />that the body partion (sbp_32_body) isn&#39;t exported correctly which was accurate.... it was wrong as it\r<br />was called sbp_32_torso. It would only affect export from blender if the name of the vertex group was\r<br />edited manually and not if you imported and let the naming be like it was.\r<br />A new version with correct naming have been uploaded, sorry for the late fix.\r<br />\r<br />------------------------------------------------------------------------------------------\r<br />Modified NIF Scripts contain edited scripts and data files for both Blender and NifSkope.\r<br />They add and change much needed data when working with meshes for Skyrim.\r<br />\r<br />&gt;&gt;&gt;&gt;&gt; IMPORTANT &#33;&#33;&#33;&#33;\r<br />This is a set of original and modified scripts for import/export of nif\r<br />for skyrim and nif format xml for NifSkope.\r<br />\r<br />If you use the modified scripts, for Blender, fallout 3 option will bascially\r<br />be the same as skyrim.\r<br />I just haven&#39;t renamed the option because many checks in the scripts\r<br />is depending on selection naming.\r<br />\r<br />The modified scripts also remove and change several sections / options\r<br />so I guess that most game selections will no longer work correctly either.\r<br />Use these scripts only if you work with skyrim only.\r<br />Revert back to the originals if you like to work with other games.\r<br />\r<br />The modified scripts for Nifskope don&#39;t break anything, just set\r<br />specific default values more in terms with Skyrim when inserting nodes\r<br />like BSLightingShaderProperty and BSShaderTextureSet.\r<br />\r<br />If you only wish to use the XML for NifSkope or the ones for Blender\r<br />just use the respective files.\r<br />\r<br />&gt;&gt;&gt;&gt;&gt; Usage:\r<br />\r<br />Blender scripts:\r<br />--------------------\r<br />Before you import into blender you still need to change user properties from\r<br />12 to 11 and 83 to 34 and remove the BSShaderLightingProperties.\r<br />However, all Skyrim body part partions will be named correct.\r<br />\r<br />Exporting will not export any extra nodes that you need to delete, like\r<br />stencil, materials and so on but you still need to remove the\r<br />scene root node and change user versions back.\r<br />Script will also export correct skyrim body parts.\r<br />\r<br />If you want to create meshes for other games you should copy the original\r<br />scripts back again.\r<br />\r<br />Nifskope:\r<br />--------------------\r<br />The included nif format xml file for NifSkope only change specific properties\r<br />for added nodes like BSLightingShaderProperty and the Texture set.\r<br />Flag skinned will now be set.\r<br />Emissive color is black instead of white.\r<br />Texture clamp is set to WRAP_S_WRAP_T.\r<br />Alpha, Glossiness, Specular strength, Lighting effect 1 and 2 is all set\r<br />to some medium default values.\r<br />\r<br />Texture sets will have 9 slots instead of the default 6.\r<br />\r<br />&gt;&gt;&gt;&gt;&gt; Version:\r<br />0.6\r<br />\r<br />\r<br />&gt;&gt;&gt;&gt;&gt; Note:\r<br />This is (was) a work in progress but it works perfectly fine as it is and will reduce amount of clicks needed drastically if you only work with Skyrim meshes.\r<br />I will probably not expand on these scripts.\r<br />\r<br />If someone else wish to use this and build / improve upon it, go for it : )\r<br />\r<br />\r<br />&gt;&gt;&gt;&gt;&gt; Last notes:\r<br />The included Readme contain file location information. which files you need to overwrite and so on but here it is if you wish to know : )\r<br />\r<br />file: export_nif.py\r<br />location: ...&#92;Blender Foundation&#92;Blender&#92;.blender&#92;scripts&#92;export&#92;\r<br />\r<br />file: import_nif.py\r<br />location: ...&#92;Blender Foundation&#92;Blender&#92;.blender&#92;scripts&#92;import&#92;\r<br />\r<br />file: nif_common.py\r<br />location: ...&#92;Blender Foundation&#92;Blender&#92;.blender&#92;scripts&#92;bpymodules&#92;\r<br />\r<br />file: nif.xml (the file for blender)\r<br />location: ...&#92;Python26&#92;Lib&#92;site-packages&#92;pyffi&#92;formats&#92;nif&#92;nifxml&#92;\r<br />\r<br />file: nif.xml (the file for NifSkope)\r<br />location: ...&#92;NifTools&#92;NifSkope\r<br />\r<br />\r<br />\r<br />--------------------------------------------------------------------------------\r<br />If you wish to look how to import and export weapons a lot more easily\r<br />this is the guide for that:\r<br />[url=http://www.nexusmods.com/skyrim/mods/58679/?]http://www.nexusmods.com/skyrim/mods/58679/?[/url]\r<br />\r<br />Ever wondered how to get the effects from dawnbreaker on a piece of armor\r<br />the following guide explains that:\r<br />[url=http://www.nexusmods.com/skyrim/mods/58783/?]http://www.nexusmods.com/skyrim/mods/58783/?[/url]",
+  "categoryId": "82",
+  "version": "0.6",
+  "author": "BB Drac",
+  "createdUnix": "1382593085",
+  "updatedUnix": "1412662155",
+  "containsAdultContent": false,
+  "uploadedBy": "bananbro",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000069976",
+      "name": "NIFScripts for Blender and NifSkope (bugged 32_body)",
+      "version": "0.6",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "138",
+      "fileName": "NIFScripts for Blender and NifSkope-45355-0-6.7z",
+      "uploadedUnix": "1382592816",
+      "modVersion": "0.6",
+      "virusScanUrl": "https://www.virustotal.com/file/52549cf4c2b74c94d1bad224d39137744c239e33df4fcc389f4e547dae8a6c23/analysis/1407767053/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NIFScripts%20for%20Blender%20and%20NifSkope-45355-0-6.7z?fid=1000069976&ttl=1535825849&ri=8192&rs=8192&setec=19b8dd8ff46789d8d1c329dc7e98d018"
+    },
+    {
+      "fileId": "1000129945",
+      "name": "NIFScripts for Blender and NifSkope (fixed 32_body)",
+      "version": "0.6",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "138",
+      "fileName": "NIFScripts for Blender and NifSkope (fixed 32_body)-45355-0-6.7z",
+      "uploadedUnix": "1412662155",
+      "modVersion": "0.6",
+      "virusScanUrl": "https://www.virustotal.com/file/21baec4862ca1a622ee31cdfc5ae5b463b48a9df5ae1f29010011aa4975ca22b/analysis/1412662262/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NIFScripts%20for%20Blender%20and%20NifSkope%20%28fixed%2032_body%29-45355-0-6.7z?fid=1000129945&ttl=1535825849&ri=8192&rs=8192&setec=8d722bfbdcec50159878e6e8550d79cd"
+    }
+  ]
+}

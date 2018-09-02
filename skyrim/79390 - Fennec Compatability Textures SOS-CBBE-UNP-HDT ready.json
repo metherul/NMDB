@@ -1,0 +1,48 @@
+{
+  "modId": 79390.0,
+  "modName": "Fennec Compatability Textures SOS-CBBE-UNP-HDT ready",
+  "summary": "Male and female nude textures for the Fennec custom race, recompiled for compatibility with Schlongs Of Skyrim and Calientes Beautiful Bodies Edition.",
+  "descriptionHtml": "[color=#e06666][size=3][b]30/6/2017 I hereby give permission for other modders and content creators to use these tweaked textures as they see fit. They can give credit if they want, though 70% of what I did was just creative photoshopping so I wouldn&#39;t feel right demanding credit. Mods belong to the community as far as I&#39;m concerned. I hadn&#39;t made such a statement regarding usage permissions until now because I thought it was implied, but better late than never, right? So yeah, use however.[/b][/size][/color]\r<br />\r<br />--A NOTE--\r<br />The Fennec race mod appears to only be distributed as a packed .bsa now, so you need to unpack it to get at the files to replace. I&#39;ll see about making a .bsa replacer, but I&#39;ve never done those before so you&#39;ll have to be patient.\r<br />\r<br />Also I removed the Lover&#39;s Lab links. Apparently LL links are no bueno on Nexus, so you&#39;ll have to google those yourselves, sorry :/\r<br />--A NOTE--\r<br />\r<br />\r<br />Male and female nude textures for the Fennec custom race found [url=http://www.nexusmods.com/skyrim/mods/62176/?]here[/url], recompiled for compatibility with Schlongs Of Skyrim and Calientes Beautiful Bodies Edition. I don&#39;t know how to do FOMOD packages yet, so for now you&#39;ll have to manually swap the files.\r<br />\r<br />The male texture is at:\r<br />&lt;skyrim install location&gt;/data/textures/actors/character/foxmale/foxmalebody.dds\r<br />The female texture is at:\r<br />&lt;skyrim install location&gt;/data/textures/actors/character/foxfemale/femalebody.dds\r<br />\r<br />Tested and compatible with:\r<br />\r<br />-Schlongs of Skyrim &#34;normal&#34; body (should be compatible with bodybuilder mesh, untested)\r<br />-[url=http://www.nexusmods.com/skyrim/mods/2666/?]Calientes Beautiful Bodies Edition[/url] &#34;slim&#34; body (should be compatible with all, untested)\r<br />-[url=http://www.nexusmods.com/skyrim/mods/54044/?]HDT Breast & Butt Physics[/url]\r<br />\r<br />Compatible and very highly recommended:\r<br />\r<br />-BadDog&#39;s Compleat Khajiit\r<br />-[url=http://www.nexusmods.com/skyrim/mods/50637/?]XPMSE True Digitigrade Beast Race skeleton[/url]\r<br />-[url=http://www.nexusmods.com/skyrim/mods/58165/?]HDT Tails[/url] (if you use the XPMSE digitigrade skeleton above, you&#39;ll need a patched version, it&#39;s an annoying spine node issue that leaves tails hovering in the air. For convenience I included a patched .nif replacer for the standard fox tail.)\r<br />\r<br />It should also be compatible with most other meshes and body replacers (such as UNP) so let me know if you find anything it [i]isn&#39;t[/i] compatible with and I&#39;ll see if I can update it to fix that.\r<br />\r<br />[s]KNOWN INCOMPATIBILITIES:\r<br />&#34;Furry Age Of Skyrim&#34; player appears fine, but NPC Fennecs turn invisible. If anybody knows a workaround please let me know and I&#39;ll post it.\r<br />[/s]Fixed itself, cause still unknown.",
+  "categoryId": "29",
+  "version": "1.0",
+  "author": "TanyaSapien",
+  "createdUnix": "1476315830",
+  "updatedUnix": "1476315819",
+  "containsAdultContent": true,
+  "uploadedBy": "TanyaSapien",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000224009",
+      "name": "Textures",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7395",
+      "fileName": "Textures-79390-1-0.zip",
+      "uploadedUnix": "1476315585",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/fc9b3176c48d4a73301b1438c56ea51a1cf446606e630b3a96da1c82771f4c8b/analysis/1476315606/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Textures-79390-1-0.zip?fid=1000224009&ttl=1535868065&ri=8192&rs=8192&setec=cd5b88ceead3d9fb14d18c626539e6da"
+    },
+    {
+      "fileId": "1000224010",
+      "name": "HDT FoxTail XPMSE Digitigrade compatibility replacer",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "16",
+      "fileName": "HDT FoxTail XPMSE Digitigrade compatibility replacer-79390-1-0.zip",
+      "uploadedUnix": "1476315819",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d50a16a50644287052798a5e06ce550f9be31ff3b8a8d0e40fcae3979b0d3632/analysis/1476315842/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HDT%20FoxTail%20XPMSE%20Digitigrade%20compatibility%20replacer-79390-1-0.zip?fid=1000224010&ttl=1535868066&ri=8192&rs=8192&setec=bff39c75206fc8aa8fac82a4c6d90e22"
+    }
+  ]
+}

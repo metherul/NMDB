@@ -1,0 +1,48 @@
+{
+  "modId": 20691.0,
+  "modName": "More War in the Wild",
+  "summary": "This mod adds an unlimited quantity of civil war patrols in user setable sizes (up to 128 in any one area at any one time). The patrols will attack / reinforce camps and forts. ",
+  "descriptionHtml": "This mod adds Imperial and Stormcloak soldiers to the game dynamically to give the feeling of a civil war in Skyrim&#39;s wilderness.\r<br />\r<br />Changing Mod Settings\r<br />\r<br />Change the below settings by bringing up the console (tilde [~] button) and typing:\r<br />\r<br />set &lt;SettingName&gt; to &lt;NewValue&gt;\r<br />\r<br />Settings:\r<br />\r<br />SettingName\t\t\tDefaultValue\t\tDescription\r<br />------------------------------------------------------------------------------------------------------------------------\r<br />MoreWarDifficulty\t\t0\t\t\t\tSets the relative level of any spawned NPCs, \r<br />\t\t\t\t\t\t\t\t\t0 being the lowest and 4 being the \r<br />\t\t\t\t\t\t\t\t\thighest\r<br />MoreWarSpawnDistance\t12288.0\t\t\tSets the distance from the player at which \r<br />\t\t\t\t\t\t\t\t\tNPCs spawn\r<br />MoreWarSpawnFrequency\t60.0\t\t\t\tThe number of seconds between script loops\r<br />MoreWarSpawnLimit\t\t63\t\t\t\tThe population limit for MoreWar NPCs -1, \r<br />\t\t\t\t\t\t\t\t\ti.e. 63 = 64\r<br />MoreWarSquadSize\t\t3\t\t\t\tThe number of NPCs in a squad -1, i.e. 3 = 4\r<br />MoreWarSpawnRestrict\t0\t\t\t\tHow restrictive the code is with placing NPCs:\r<br />\t\t\t\t\t\t\t\t\t0 : Wilderness only\r<br />\t\t\t\t\t\t\t\t\t1 : Wilderness and some other areas like \r<br />\t\t\t\t\t\t\t\t\t     Blackreach\r<br />\t\t\t\t\t\t\t\t\t2 : Anywhere not interior, \r<br />\t\t\t\t\t\t\t\t  \t     including inside cities\r<br />\t\t\t\t\t\t\t\t\t3 : Everywhere including interiors, \r<br />\t\t\t\t\t\t\t\t\t     i.e. no restrictions",
+  "categoryId": "33",
+  "version": "1.01",
+  "author": "Toby Johnson",
+  "createdUnix": "1342572763",
+  "updatedUnix": "1388207815",
+  "containsAdultContent": false,
+  "uploadedBy": "tobyjohnson",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "74993",
+      "name": "More War Mod",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "More War in the Wild v3-20691-3.7z",
+      "uploadedUnix": "1342572796",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/5e39554e09e2030e1b2369e1bb4ed5e98d6530f404a0b6641ecb83367211fe37/analysis/1407029943/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/More%20War%20in%20the%20Wild%20v3-20691-3.7z?fid=74993&ttl=1535788992&ri=8192&rs=8192&setec=4e5dbb0b3362fbfe5f128b27b35a5472"
+    },
+    {
+      "fileId": "1000088661",
+      "name": "More War Mod",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "More War Mod-20691-1-01.7z",
+      "uploadedUnix": "1388207815",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/0bcfb1f22601228aa3842cd4644299fde21b8ef56b8b275fdc59d81248cbedd8/analysis/1407861844/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/More%20War%20Mod-20691-1-01.7z?fid=1000088661&ttl=1535788992&ri=8192&rs=8192&setec=52f6ca5a20c1e8e74e1237225327640a"
+    }
+  ]
+}

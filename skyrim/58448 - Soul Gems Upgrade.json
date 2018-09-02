@@ -1,0 +1,48 @@
+{
+  "modId": 58448.0,
+  "modName": "Soul Gems Upgrade",
+  "summary": "Changes the way soul gems work so that a higher level soul will overwrite a lower level soul in a soul gem if no empty gems are available.",
+  "descriptionHtml": "[b][u]Intro[/u][/b]\r<br />This mod makes a small change to the way soul gems work. In the vanilla game a trapped soul will go into the smallest empty gem possible, for example: a common soul will go into an empty common gem, an empty greater gem or an empty grand gem in that order, but then you may end up with a grand soul gem with only a common soul in it and the gem is somewhat wasted. This mod makes it so that if you had a grand soul gem with a common soul in it, and then attempted to capture a greater or grand soul, that soul would overwrite the common soul in the grand soul gem and you would be left with the better soul.\r<br />\r<br />Captured souls will still prioritize empty soul gems and will always overwrite the lowest level soul possible. This basically maximizes that amount and level of souls that you capture. The mod is mainly to make it more viable to use a weapon that soul traps constantly (such as the mace of Molag Bal).\r<br />\r<br />Also makes it so that soul gems don&#39;t lose their soul when dropped.\r<br />\r<br />[u][b]Black Star / Black Soul Gems[/b][/u]\r<br />The Black Star and black soul gems are not effected by this mod, so black souls will still just go into either of those if they are available. Azura&#39;s star is not directly changed though due to the way it works Azuras star will only be used if you have no other soul gem that can hold the soul (I didn&#39;t really aim this mod to be used with azuras star, because why would anyone not just choose the black star).\r<br />\r<br />[b][u]Capture Messages[/u][/b]\r<br />There are 2 versions of the mod. In one version when you capture a soul you will get a message such as &#34;Greater &gt; Grand&#34;. This would mean that you have captured a greater soul into a grand soul gem. &#34;Common &gt; GrandLesser&#34; would mean you have captured a common soul into a Grand soul gem that was holding a lesser soul, so the lesser soul was overwritten. This was mainly for debugging purposes but I found I like it and you may find it useful to help you understand how the souls are being handled. The &#34;No Msg&#34; version of the mod does not have this message, only the standard &#34;Soul Captured&#33;&#34; messagess etc.\r<br />\r<br />[b][u]Bugs[/u][/b]\r<br />I&#39;ve been using it without any problems but let me know if you find any bugs.\r<br />\r<br />[u]Changelog[/u]\r<br />1.2 - Fixed compatibility problem with the Unofficial Skyrim Patch\r<br />\r<br />1.1 - Fixed prices being too high\r<br />\r<br />1.0 - Initial Release",
+  "categoryId": "24",
+  "version": "1.2",
+  "author": "QTom",
+  "createdUnix": "1411649056",
+  "updatedUnix": "1412078597",
+  "containsAdultContent": false,
+  "uploadedBy": "QTom",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000129078",
+      "name": "Soul Gems Upgrade",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "Soul Gems Upgrade-58448-1-2.zip",
+      "uploadedUnix": "1412078564",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/28b5097eb34bd557e7362d2d73a943a8027f611491006728027c172e587addb2/analysis/1412078582/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Soul%20Gems%20Upgrade-58448-1-2.zip?fid=1000129078&ttl=1535845134&ri=8192&rs=8192&setec=84d1e11712b3ff0b122f1f2950ee8672"
+    },
+    {
+      "fileId": "1000129079",
+      "name": "Soul Gems Upgrade - No Msg",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Soul Gems Upgrade - No Msg-58448-1-2.zip",
+      "uploadedUnix": "1412078597",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/a318d5ab934d37ac5cb1913e24e596d4465913e682772c8f741dfbb4eee377d4/analysis/1412078702/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Soul%20Gems%20Upgrade%20-%20No%20Msg-58448-1-2.zip?fid=1000129079&ttl=1535845134&ri=8192&rs=8192&setec=68746dfe8930d6b72d71ecc155483cf6"
+    }
+  ]
+}

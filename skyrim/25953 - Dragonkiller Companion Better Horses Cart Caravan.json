@@ -1,0 +1,32 @@
+{
+  "modId": 25953.0,
+  "modName": "Dragonkiller Companion Better Horses Cart Caravan",
+  "summary": "No true Mod but a tip on how to use three mods to make a working 2-Cart Caravan in Skyrim.",
+  "descriptionHtml": "This belongs to:\r\nsupernastypants for the SRM Companion Cart\r\nLtMattmoo for Better Horses\r\nXgf for Dragonkiller Cart\r\n\r\nI am just the messenger, file is just this README.\r\n\r\nGet yoursef a REAL Caravan!! :-D\r\n\r\nCombine SRM Companion Cart with Dragonkiller Cart and Better Horses and you are good to go ;-)\r\n\r\nHow to do this? Follow me:\r\n\r\n1. Install all 3 mods MANUALLY (that is what I did anyway).\r\n\r\n2. Set load order:\r\n srmcompanioncart.esp\r\n xgfPferdeKarren-en.esp\r\n It_better_horses.esp\r\n\r\n3. By the Companion Cart.\r\n\r\n4. Set your horse to follow with the Better Horses command. (see mod specs)\r\n\r\n5. Make a harness for the Dragonkiller Cart and tether your horse to it. (see mod specs)\r\n\r\n6. Get on the Companion Cart and start driving.\r\n\r\nNow your horse should follow nicely behind pulling the Dragon Cart just like in the picture I added :-)\r\n\r\nOh, no other horse effecting mods than More Saddels and Horses for Followers installed. And NO fast travel.\r\n\r\nRecommeded to add lines below in Skyrim.ini for better Cart behaviour:\r\n\r\n[Cart]\r\nfWheelAngDamp=0.0100\r\nfMass=300.0000\r\nfFriction=100.0000\r\nfGravMult=7.0000\r\nfTipImpule=10000.0\r\n\r\nI hope this might work with UFO aswell. I have not used it so far and I know it effects horses and works with the cart mods, but you never know.. Try it out and report here, or to the modders involved.\r\n\r\nPointer; With Better Horses you Sneak then E-klick for horse inventory and that works fine with this combo, BUT the horse inventory via Dragonkiller Cart is another _separate_ inventory and it is there you put the harness (and saddels/horsearmour who work nicely too) that comes with the Dragonkiller Cart mod.\r\n\r\nEnjoy! I just loved it when I got this little caravan working :-D",
+  "categoryId": "83",
+  "version": "1.0",
+  "author": "Evol2",
+  "createdUnix": "1351098249",
+  "updatedUnix": "1351098494",
+  "containsAdultContent": false,
+  "uploadedBy": "Evol2",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "95599",
+      "name": "Skyravan1",
+      "version": "1",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Skyravan1-25953-1.zip",
+      "uploadedUnix": "1351098494",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/6085778cade33df1230fc8a0a805185bbb49f9e363223d0cd46a452d2c88d0e4/analysis/1407234543/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyravan1-25953-1.zip?fid=95599&ttl=1535797707&ri=8192&rs=8192&setec=260617bf5c7fa284f29936bd0c261095"
+    }
+  ]
+}

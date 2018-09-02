@@ -1,0 +1,32 @@
+{
+  "modId": 71471.0,
+  "modName": "TamrielOfWarTrains",
+  "summary": "",
+  "descriptionHtml": "I speak only Japanese.\r<br />TamrielOfWarTrains\r<br />-----------------------------------------------------------\r<br />Dwemerの機関車、装甲列車、列車砲、トロッコをいくつか追加します。\r<br />-----------------------------------------------------------\r<br />●追加されるActor\r<br />DFL-52-6249 Bristleback\r<br />DP-44 Ogre\r<br />Drupp K5 Malacath\r<br />Dweaven MineCart\r<br />Dweaven HandCar\r<br />-\r<br />●追加されるMagic\r<br />Conjure DFL-52-6249 Bristleback\r<br />Conjure DP-44 Ogre\r<br />Conjure Drupp K5 Malacath\r<br />Conjure Dweaven MineCart\r<br />Conjure Dweaven HandCar\r<br />●追加されるWeapon\r<br />Dwarven Baton(Train)\r<br />-----------------------------------------------------------\r<br />全て乗れます。列車砲と装甲列車の主砲を撃つことも出来ます。\r<br />-----------------------------------------------------------\r<br />●Shot Manual(主砲の撃ち方)\r<br />1.have the Dwarven Baton(Train) on your right.\r<br />（追加されるDwarven Baton(Train)を右手に持ちます）\r<br />-\r<br />2.ride a Train.(DP-44 Ogre,Drupp K5 Malacath)\r<br />（列車に乗ります。）(DP-44 Ogre,Drupp K5 Malacath)\r<br />-\r<br />3.set up a Dwarven Baton\r<br />（Dwarven Batonを構えます。）\r<br />-\r<br />4.Swing a Dwarven Baton(Train).\r<br />（Dwarven Baton(Train)を振る）\r<br />-\r<br />5.Fire&#33;&#33;\r<br /> (撃ち方始め！！)\r<br />-----------------------------------------------------------\r<br />playerが乗っていないときも一緒に戦ってくれます。(MineCartとHandCarは臆病です)\r<br />-----------------------------------------------------------\r<br />●location\r<br />Wreck of the Winter War(難破したウィンターウォー号)の近くに追加されるDwarven War Train Base。\r<br />-----------------------------------------------------------\r<br />●既知の問題点\r<br />z軸方向の三角関数の計算をしていないので、車体が斜めになっていると、おかしな場所から発射される。\r<br />-\r<br />Drupp K5 Malacathに乗ると、カメラを一番引いた状態にしても列車が透明になる場合があります。\r<br />その状態だと降りれません。ファストトラベルすると直ります。\r<br />室内などファストトラベルできない場所の場合クイックセーブアンドロードで直ります。\r<br />-----------------------------------------------------------\r<br />●余談\r<br />メッシュを作る資料が数枚の写真のみなので分からない部分は雑です。\r<br />またあちこち簡略化しています。\r<br />Actorのサイズの問題(上記透明の件とActorの衝突判定)で80cm列車砲は作るのが困難っぽいのでやめました。\r<br />動力車も線路もなくても走っているのはドゥーマーの超科学の賜物です。\r<br />砲発射スクリプトはTamrielOfTanksの時よりマシになっているのでそっちにも移植します。\r<br />ある人に列車を作るか聞かれ、作ると答え、半年以上たってやっと作りました。\r<br />-----------------------------------------------------------\r<br />VatiWahさんが動画で紹介してくださいました。\r<br />[youtube]GsfBDwWwNNw[/youtube]",
+  "categoryId": "83",
+  "version": "",
+  "author": "m",
+  "createdUnix": "1448082188",
+  "updatedUnix": "1448081681",
+  "containsAdultContent": false,
+  "uploadedBy": "m150",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000185536",
+      "name": "TamrielOfWarTrains",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1778",
+      "fileName": "TamrielOfWarTrains-71471-.zip",
+      "uploadedUnix": "1448081681",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/bddccb79682c025f957e7317d3f6c7b3ca6b1ddd9a2374e4dbb431e631d68bb0/analysis/1448081704/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TamrielOfWarTrains-71471-.zip?fid=1000185536&ttl=1535860015&ri=8192&rs=8192&setec=d2cebd1f9cfa2e2fb6e2b24d91fa057f"
+    }
+  ]
+}

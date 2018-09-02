@@ -1,0 +1,48 @@
+{
+  "modId": 9208.0,
+  "modName": "Summon Skeleton Champion - Conjuration Spells",
+  "summary": "This MOD adds 3 new conjuration spells those allow you to summon a Skeleton Champion, Skeleton Hero, or Skeleton.",
+  "descriptionHtml": "Summon Skeleton Champion - Conjuration Spells by frankenstrat (Ver. 1.60)\r\n\r\nThis MOD adds 3 new conjuration spells those allow you to summon a Skeleton.\r\n\r\n---Ver. 1.63 Updates---\r\n\r\n-Add the Skeleton Archer (will be summoned by Champion, or Hero)\r\n-Add some spells to the Skeleton Mage\r\n-The Skeleton Champion will use some Shouts\r\n\r\n---Basic Stats---\r\n\r\n-Conjure Skeleton (Apprentice Conjuration Spell)\r\n\tSummon a weak Skeleton warrior same as encount at several dungeons 60seconds.\r\n\tHe is equipped with a 1H weapon and a shield.\r\n\r\n-Conjure Skeleton Hero (Expert Conjuration Spell)\r\n\tSummon a much tougher \\\"Skeleton Hero\\\" 60 seconds. (approx. lv 40, custom stats)\r\n\tHe fight with a 1H enchanted weapon and several magics. (Frost Destruction and Conjuration)\r\n\r\n-Conjure Skeleton Champion (Master Conjuration Spell)\r\n\tSummon a extremely strong \\\"Skeleton Champion\\\" permanently like as Flame Thrall. (approx. lv 90, custom stats)\r\n\tHe fight with a 1H enchanted Ebony weapon and several magics. (Destruction and Conjuration)\r\n\r\n-Skeleton Flame, Skeleton Ghost, Skeleton Archer\r\n\tThey will be sommoned by the Skeleton Champion or the Skeleton Hero.\r\n\r\n-Skeleton Mage\r\n\tHe will be sommoned by the Skeleton Champion, the Skeleton Hero, or the Skeleton Mage.\r\n\r\n---Spell Tome Location---\r\n\r\n-Ver. 1.52 or later\r\n\tYou can loot them from the Skeleton Champion at somewhere southwest of Winterhold.\r\n\t(Spoiler: See the screenshot, it\\'s very close to \\\"Sxxxxxxx Pit\\\")\r\n\t(More spoiler: http://i1048.photobucket.com/albums/s379/laostraazul/Skyrim/2012-03-01_00010.jpg)\r\n\r\n-Ver. 1.50 or earier.\r\n\tYou can loot them from the Skeleton Champion at the deepest part of Folgunthur Crypt.\r\n\r\n---Console commands---\r\n\r\n-IDs\r\n\txx0002DBE - Spell Tome: Conjure Skeleton Champion\r\n\txx0000D65 - Spell Tome: Conjure Skeleton Hero\r\n\txx0001D92 - Spell Tome: Conjure Skeleton\r\n\txx0002DBD - Spell: Conjure Skeleton Champion\r\n\txx0000D64 - Spell: Conjure Skeleton Hero\r\n\txx0001D91 - Spell: Conjure Skeleton\r\n\t(xx is the variable load order, check in the NMM or display by the \\\"help\\\" command. e.g. help \\\"conjure skeleton\\\" 4)\r\n\r\n-Commands\r\n\tplayer.additem xxxxxxxx 1 (add a spell tome to inventory)\r\n\tplayer.removeitem xxxxxxxx 1 (delete a spell tome from inventory)\r\n\tplayer.addspell xxxxxxxx (learn a spell)\r\n\tplayer.removespell xxxxxxxx (forget a spell)\r\n\r\n---Version History---\r\n\r\n\tv1.00 - Initial release\r\n\tv1.30 - Add Skeleton Champion, Balance tweak, Fix minor strings issues\r\n\tv1.40 - Add a outfit and a spell (Wabbajack) for the Skeleton Champion\r\n\tv1.50 - Add 2 spells for the Skeleton Champion and the Skeleton Hero, Balance tweak\r\n\tv1.52 - Change the location where to find Spell Tomes\r\n\tv1.60 - Add the Skeleton Mage, Restore the stats of the Skeleton Hero, Add shouts of the Skeleton Hero\r\n\tv1.63 - Add the Skeleton Archer, Add spells to the Skeleton Mage, Add shouts to the Skeleton Champion\r\n\r\n---Known Issues---\r\n\r\n-Rarely, Skeletons have no weapons and can\\'t cast any spells. (re-summon please)",
+  "categoryId": "75",
+  "version": "1.63",
+  "author": "frankenstrat",
+  "createdUnix": "1329064170",
+  "updatedUnix": "1334200984",
+  "containsAdultContent": false,
+  "uploadedBy": "frankenstrat",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "44698",
+      "name": "Summon-Skeleton-Champion-v160",
+      "version": "1.60",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "Summon-Skeleton-Champion-v160-9208.zip",
+      "uploadedUnix": "1332129278",
+      "modVersion": "1.60",
+      "virusScanUrl": "https://www.virustotal.com/file/2587c245cbf71ccd607e30d05dc9d11a8bee48ceb0a6738447833e6096315a15/analysis/1406767452/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Summon-Skeleton-Champion-v160-9208.zip?fid=44698&ttl=1535768532&ri=8192&rs=8192&setec=a212b8c180be94ce1116d59de1b7cce4"
+    },
+    {
+      "fileId": "52483",
+      "name": "Summon-Skeleton-Champion-v163",
+      "version": "1.63",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "Summon-Skeleton-Champion-v163-9208-1-63.zip",
+      "uploadedUnix": "1334200984",
+      "modVersion": "1.63",
+      "virusScanUrl": "https://www.virustotal.com/file/9794d164d30819c85fae740789b31a8d42ae6a13df163ab071b1fbdd6cfb76a0/analysis/1406811003/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Summon-Skeleton-Champion-v163-9208-1-63.zip?fid=52483&ttl=1535768533&ri=8192&rs=8192&setec=676779804bc4229047d6d0ddb7d62bac"
+    }
+  ]
+}

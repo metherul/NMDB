@@ -1,0 +1,48 @@
+{
+  "modId": 18825.0,
+  "modName": "PapyrusSpeedTester",
+  "summary": "A tool to help modders find out which Papyrus Script functions are fast and which are slow.\r<br />\r<br />Not for normal game play&#33;",
+  "descriptionHtml": "This is a pair of scripts and a little ESP to run them intended just for modders who want to test how long it takes for different functions and operations to work in Skyrim.\r<br />\r<br />Performance of the commands varies widely. For example, the Game.GetPlayer() function takes approximately 1000 times longer to run than just accessing a property set to PlayerRef. \r<br />\r<br />The ESP included is NOT for normal game play&#33; Read the README file for a full explanation.\r<br />\r<br />If you do run this script, share your results by posting in the discussion thread so we can find out how much the speed of functions varies for different systems.\r<br />\r<br />There&#39;s a [url=http://forums.bethsoft.com/topic/1383987-performance-characteristics-of-papyrus-functions-and-operations/page__pid__20986385]thread on the Bethesda formums[/url] for discussing and sharing results or you can just post a comment here.",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "CDCooley",
+  "createdUnix": "1339785683",
+  "updatedUnix": "1407461675",
+  "containsAdultContent": false,
+  "uploadedBy": "cdcooley",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "68222",
+      "name": "CDC_PapyrusSpeedTester",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "CDC_PapyrusSpeedTester-18825-1-0.7z",
+      "uploadedUnix": "1339785901",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8acaa5215fd3282e7d08110b8925663fe70557389ef684b27db51993840c38e7/analysis/1406961665/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CDC_PapyrusSpeedTester-18825-1-0.7z?fid=68222&ttl=1535785921&ri=8192&rs=8192&setec=435f818a136063a5bad44ad94be61bd1"
+    },
+    {
+      "fileId": "1000121048",
+      "name": "HorseOutfitsDemo",
+      "version": "",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "HorseOutfitsDemo-18825-.7z",
+      "uploadedUnix": "1407461675",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/fc09dc5adfe9235df199ad7327b599338f4ac53f1471706a30c9fe168599b5cf/analysis/1407461786/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HorseOutfitsDemo-18825-.7z?fid=1000121048&ttl=1535785922&ri=8192&rs=8192&setec=d38992e3b0a5762c6d7d9ae58406a8ca"
+    }
+  ]
+}

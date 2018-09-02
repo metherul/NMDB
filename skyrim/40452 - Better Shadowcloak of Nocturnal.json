@@ -1,0 +1,32 @@
+{
+  "modId": 40452.0,
+  "modName": "Better Shadowcloak of Nocturnal",
+  "summary": "A small mod that aims to bring the Shadowcloak of Nocturnal up to par!",
+  "descriptionHtml": "[size=3]Introduction:[/size]\r\n\r\nWhen you speak to Karliah about the Agent of Shadow, you find yourself in awe about the abilities.The Agent of Stealth is the master of remaining unseen. They are able to manipulate the darkness and use it to their advantage. On moonlit nights or in darkened rooms, this agent literally becomes invisible, she says. The ability itself is...quite underwhelming. This mod seeks to fix that! Upon choosing the Agent of Shadow path, you gain a far superior version of the Shadowcloak of Nocturnal. \r\n\r\n[size=3]Description:[/size]\r\n\r\nThis version gives you the ability permanently, it plays by the same rules as before, it just no longer has a duration and it must be nighttime or you have to be in the shadows. Upon attacking something or picking something up, you become visible. You will not automatically become invisible again after attacking and must unstealth and restealth, I feel it\\'s a nice way to balance out the invisibility. The way the mod works is simple, the power detects if the light level where your currently standing is below a set value, and applies the cloak if it\\'s below that level. I would generally suggest to wait to pull out the spells, if you\\'re going to use them, until you\\'re ready to fight. This is due to spells causing light to be emitted, different spells generate different light intensities.\r\n\r\n\r\n[size=3]Installation[/size]\r\n\r\nInstallation is simple!\r\n\r\nWith Manager:\r\n1. download the file\r\n2. In the manager, switch to the mod tab\r\n3. double click \\\"Better Shadowcloak of Nocturnal - Shadowcloak of Nocturnal Fix\\\"\r\n4. Done!\r\n\r\nManually:\r\n1. download the file\r\n2. Extract the .rar file to where you like.\r\n3. Navigate to the Skyrim Data folder (default path is c:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\skyrim)\r\n4. Simply move the .esp file that you got from extracting the .rar to the data folder\r\n5. Open up Skyrim to the launcher\r\n6. Select \\\"Data Files\\\" and click the box next to \\\"Shadowcloak of Nocturnal Fix\\\"\r\n7. Done!\r\n\r\nUninstalling:\r\n\r\nUninstalling is not incredibly difficult, either.\r\n\r\n1. Open up the console with the tilde (~) key\r\n2. Type in: \\\"player.removespell 0001722\\\" and \\\"player.removespell 000F1988\\\"\r\n3. Open Nexus Mod Manager (if used) and go to the mod tab. Double click the mod in the mod list.\r\n4. Navigate to the Skyrim Data folder (default path is c:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\skyrim) and delete or move the Shadowcloak Of Nocturnal.esp file.\r\n5. Done!\r\n\r\nI will be adding a way to remove it without using console commands, might even look into making an MCM compatible way.\r\n\r\n[size=3]Compatibility:[/size]\r\n\r\nThe mod should be compatible with just about any mod out there, so long as it leaves the Twilight Sepulcher alone and does not adjust light levels. I\\'m currently researching what mods do just that (I assume lighting engine overhauls would touch it), so just to be safe, there may be compatibility issues with some lighting mods. Load order should also be irrelevant.\r\n\r\n\r\nOther than that, enjoy the mod, and if you have any problems at all or find a bug, feel free to throw a message my way!",
+  "categoryId": "24",
+  "version": "",
+  "author": "kortin",
+  "createdUnix": "1376723508",
+  "updatedUnix": "1376718635",
+  "containsAdultContent": false,
+  "uploadedBy": "kortin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000047454",
+      "name": "Shadowcloak of Nocturnal Fix",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Shadowcloak of Nocturnal Fix-40452-.rar",
+      "uploadedUnix": "1376718635",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/9e2a866f747a90ea3140effdbe85eed55703e439f883f317fac0097a56011465/analysis/1407684785/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Shadowcloak%20of%20Nocturnal%20Fix-40452-.rar?fid=1000047454&ttl=1535821055&ri=8192&rs=8192&setec=1cbc7f4ef454763d970473e4d9ed2146"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 56864.0,
+  "modName": "KeyInput",
+  "summary": "Prompt the user for textual input, and get back what they type. Basically, an input box for Skyrim.",
+  "descriptionHtml": "The ability to request textual input is a feature that has been sorely lacking from the Skyrim engine. No more&#33; Modders, rejoice, because you can now easily ask the player questions, and get back arbitrary text answers.\r<br />\r<br />As an added bonus, capitalization is respected while the user is typing, and will be retained by your code unless what the user types is an exact match for a string that the Skyrim engine has already seen.\r<br />\r<br />Using KeyInput is incredibly easy:\r<br />\r<br />[code]\r<br />scriptname Example extends ReferenceAlias\r<br />\r<br />KeyInput property user_input auto\r<br />\r<br />event GotInput(bool accepted, string value)\r<br />    if accepted\r<br />        Debug.Notification(value)\r<br />    endif\r<br />endevent\r<br />\r<br />event OnPlayerLoadGame()\r<br />    RegisterForSingleUpdate(5.0)\r<br />endevent\r<br />\r<br />event OnUpdate()\r<br />    RegisterForModEvent(&#34;GotInput&#34;, &#34;Example_GotInput&#34;)\r<br />    user_input.GetInput(&#34;What is your favorite color?&#34;, &#34;Example_GotInput&#34;)\r<br />endevent\r<br />[/code]\r<br />\r<br />All you have to do is:\r<br />[list=1][*]Create a Quest[/*]\r<br />[*]Attach the KeyInput script to it[/*]\r<br />[*]Bind the quest to a property (or use SKSE&#39;s Quest.GetQuest function) so it&#39;s accessible in the place where you want to prompt the user for input[/*]\r<br />[*]Register for a user event (named whatever you like)[/*]\r<br />[*]Call GetInput with the prompt and the name of the event you&#39;ve chosen[/*]\r<br />[/list]\r<br />The event will be triggered when the user is finished. If the user cancelled the input, the first event parameter will be false, otherwise it will be true. Either way, the second parameter will be what the user typed.\r<br />\r<br />The keymap is configurable, and your code can select among the available keymaps at runtime by passing the keymap filename as a third parameter to GetInput. The default keymap is for US qwerty keyboards, but the system was designed to be i18n friendly. UTF8 characters in keymaps are fully supported, and customized input methods and chording are possible.\r<br />\r<br />The SWF file used for interacting with the user is selectable at runtime, so you can replace it with one that matches your mod&#39;s user interface. A simple but functional default is provided, along with source code which you can use as a basis for your own. To make your own skin, all you have to do is create a Flash file that has an [b]update(prompt:String, value:String) [/b]function in the [b]_root[/b] namespace, which when called updates the displayed text. Everything else is up to you.\r<br />\r<br />[b]Permission[/b]:\r<br />Obviously, KeyInput is intended to be used as a component of other mods. You [i]may[/i] bundle it with your own mod if you choose, [b]but[/b] I would prefer that you instead use this mod as a dependency, to avoid situations where an older mod overwrites a newer KeyInput on install.",
+  "categoryId": "82",
+  "version": "1.0.1",
+  "author": "djarb",
+  "createdUnix": "1407620455",
+  "updatedUnix": "1408035555",
+  "containsAdultContent": false,
+  "uploadedBy": "djarb",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000121219",
+      "name": "KeyInput-1.0.7z",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "221",
+      "fileName": "KeyInput-1.0.7z-56864-1-0.7z",
+      "uploadedUnix": "1407620450",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/68369ae67e3b60596f23cb86c9c487dc953b6f18593522892468260aa13278e9/analysis/1407620462/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/KeyInput-1.0.7z-56864-1-0.7z?fid=1000121219&ttl=1535842466&ri=8192&rs=8192&setec=f3ef9c695316dd87c1d5d7c28aedf3d1"
+    },
+    {
+      "fileId": "1000122038",
+      "name": "KeyInput-1.0.1.7z",
+      "version": "1.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "222",
+      "fileName": "KeyInput-1.0.1.7z-56864-1-0-1.7z",
+      "uploadedUnix": "1408035555",
+      "modVersion": "1.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/88f885c6fbf3116796b26a10181b3173356631b251a2a76a8f37d5683d119848/analysis/1408035634/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/KeyInput-1.0.1.7z-56864-1-0-1.7z?fid=1000122038&ttl=1535842467&ri=8192&rs=8192&setec=ec13e702d22fa7c116a08a23af6833db"
+    }
+  ]
+}

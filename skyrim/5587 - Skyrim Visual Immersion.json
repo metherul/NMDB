@@ -1,0 +1,48 @@
+{
+  "modId": 5587.0,
+  "modName": "Skyrim Visual Immersion",
+  "summary": "Depth of Field ENB Setting - come and get it! A thing You MUST HAVE!",
+  "descriptionHtml": "[center][img]https://lh6.googleusercontent.com/-bnILsXakuEs/T2HbS7qYiYI/AAAAAAAAB2E/PLHtvAOjvFQ/s720/SVI_BigLogo3.png[/img][img]https://lh4.googleusercontent.com/-agB2UtjSF-k/T1dY754pO3I/AAAAAAAAB0Q/-vT1FJR0zgc/s640/SVI_Text.png[/img]\r\n[size=4][color=yellow]New version available [url=http://skyrim.nexusmods.com/downloads/file.php?id=15050]here[/url][/color][/size]\r\n[/center]\r\nCredits to [url=http://www.skyrimnexus.com/downloads/file.php?id=2971]Boris Vorontsov[/url] and [url=http://www.skyrimnexus.com/downloads/file.php?id=4142]HeliosDoubleSix[/url]. I recommend usage of [url=http://skyrim.nexusmods.com/downloads/file.php?id=7654]Realistic Lighting[/url] for even more immersive effect.\r\n\r\n[size=6]Current version of ENB Binaries fully capable of all effects is 0.119[/size]\r\n\r\n[size=4][color=yellow]NOTE:[/color] This is an essential issue for any mod author - check out [url=http://forums.nexusmods.com/index.php?/topic/719025-originalfirst-mod-subsetmodificationinclusion-of-the-original-mods-and-endorsement]here[/url]![/size]\r\n[img]https://lh5.googleusercontent.com/-_JQl5Y_Z-YE/T1ddVsgp4oI/AAAAAAAAB0k/BashqzdniAM/s181/SVI_Features.png[/img]\r\nSkyrim Visual Immersion is a ENB setting with a set of optical enhancement effects applied:\r\n[list]\r\n[*] depth of field (both bokeh and simple),\r\n[*] chromatic aberration,\r\n[*] sharpening.\r\n[/list]\r\nThe effects can be easily used with other ENB settings. The essential thing to do this is to enable DoF in ENB configuration INI file and replace default enbeffectprepass.fx with the one provided in the mod.\r\n\r\nTo apply Your changes to the setting refer to enbseries.ini and enbeffectprepass.fx files.\r\n[img]https://lh6.googleusercontent.com/-ZTxxNK5qO5E/T1ddWN9PeEI/AAAAAAAAB0w/UC2gCVOJIbE/s368/SVI_InstallationGuide.png[/img]\r\nTo install the mod:\r\n[list]\r\n[*] Download and install ENB Series binaries from [url=http://enbdev.com/download_mod_tesskyrim.htm]this site[/url] (0.102 is less buggy, though slower then the injector versions).\r\n[*] Should You have any other setting already installed, backup all ENB files You have in Skyrim directory ([YourSteamLocation]\\\\SteamApps\\\\common\\\\skyrim\\\\).\r\n[*] Unzip the contents of the archive into the directory.\r\n[/list]\r\nRemember to set bFloatPointRenderTarget in SkyrimPrefs.ini parameter to 1. And ALWAYS BACKUP Your settings!\r\n\r\nTo uninstall the mod delete current ENB files and restore those backuped during intallation.\r\n[img]https://lh3.googleusercontent.com/-0Jvrt_r3iA8/T2HPhdoeG5I/AAAAAAAAB1Q/VdPszcmHzWc/s256/SVI_Known_bugs.png[/img][list]\r\n[*] Smooth focusing bug - some people reported that DoF gets corrupted on their PCs - image is always blured. This issue is usually caused by not proper focusing texture preparation, due to the construction of ENB itself. To \\'cure\\' such situation comment line containing definition of flag USE_SMOOTH_DOF in \\'enbeffectprepass.fx\\' file (about line 233.).\r\n[*] With current version of ENB (0.106 ENBInjector) in some places enhanced lighting can flicker according to the view angel (turns on/off rapidly).\r\n[*] Flickering can occure in case of a PC using Crossfire GPU configuration (it can also be caused by ENB itself - ask [url=http://enbdev.com/index_en.html]Boris Vorontsov[/url] should the flickering occure with any other ENB setting then mine).\r\n[/list]\r\nShould You see any graphical artifacts or bugs that can be caused by the mod, report them (contact me directly).\r\n\r\nBless You,\r\nMK",
+  "categoryId": "62",
+  "version": "2.0.6",
+  "author": "Matso",
+  "createdUnix": "1325962666",
+  "updatedUnix": "1331799489",
+  "containsAdultContent": false,
+  "uploadedBy": "Matso",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "43524",
+      "name": "Skyrim Visual Immersion",
+      "version": "2.0.6",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "297",
+      "fileName": "Skyrim Visual Immersion-5587.rar",
+      "uploadedUnix": "1331799449",
+      "modVersion": "2.0.6",
+      "virusScanUrl": "https://www.virustotal.com/file/1b041fe80b69548fb879f8cf531bfe21475ea55f74a4a9c929a7a42ad945b88e/analysis/1406749983/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Visual%20Immersion-5587.rar?fid=43524&ttl=1535762397&ri=8192&rs=8192&setec=c99840b2dc0fb5762f0e99478961b25b"
+    },
+    {
+      "fileId": "43525",
+      "name": "Skyrim Visual Immersion - Vanilla",
+      "version": "2.0.6",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "67",
+      "fileName": "Skyrim Visual Immersion - Vanilla-5587.rar",
+      "uploadedUnix": "1331799489",
+      "modVersion": "2.0.6",
+      "virusScanUrl": "https://www.virustotal.com/file/b74e132b61038fa3bbd734e12bf374bebccf907b54b51fd483454eea91b730e1/analysis/1406749984/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Visual%20Immersion%20-%20Vanilla-5587.rar?fid=43525&ttl=1535762398&ri=8192&rs=8192&setec=00daaa779d020e3c7c89619f0bee8cfb"
+    }
+  ]
+}

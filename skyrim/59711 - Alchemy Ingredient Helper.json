@@ -1,0 +1,32 @@
+{
+  "modId": 59711.0,
+  "modName": "Alchemy Ingredient Helper",
+  "summary": "You can analyze ingredients in your inventory with this tool in-order to identify different kinds of potions which you could create with the current inventory.",
+  "descriptionHtml": "This is not integrated with Skyrim directly. You can input the ingredients which you have in your inventory manually to this tool (or you can tell it to assume you have all ingredients with you).\r<br />You can analyze ingredients in your inventory with this tool in-order to identify different kinds of potions which you could create with the current inventory.\r<br />\r<br />[b]Item count is not used currently by the software. With those item count values I hope to implement an AI system to suggest ingredients to user.\r<br />\r<br />[/b]Database file is MSAccess. Anyone can add new ingredients they have in their game. Especially the ingredients added by mods are not included in the database file.\r<br />\r<br />I will soon add a better description to this. This is my first upload to a mod community. Hope this helps someone. Please provide comments.\r<br />\r<br />Following cases are covered by the tool :\r<br />-----------------------------------------------\r<br />\r<br />Ingredient panels - 3\r<br />Effect panels - 3\r<br />intermediate effect panels - 3\r<br />Output panel - 1\r<br />UC 1 : view effects of an ingredient\r<br />1.) user selects ingredient from ingredient panel &#39;i&#39;\r<br />2.) effects of the ingredient is shown in effects panel &#39;i&#39;\r<br />UC 2 : view effects of two ingredients\r<br />1.) user selects ingredients from ingredient panels &#39;i&#39; and &#39;j&#39;\r<br />2.) effects of the ingredients are displayed in effects panels &#39;i&#39; and &#39;j&#39; and intermediate panel shows total effects and output effects\r<br />UC 3 : view effects of three ingredients\r<br />1.) user selects ingredients from ingredient panels &#39;i&#39;, &#39;j&#39; and &#39;k&#39;\r<br />2.) effects of the ingredients are displayed in effects panels &#39;i&#39;, &#39;j&#39; and &#39;k&#39; and all intermediate panels shows total effects and output effects\r<br />UC 6 : view compatible ingredients given an effect\r<br />1.) user selects effect from effects panel &#39;i&#39;\r<br />2.) ingredients compatible with the effect are shown in ingredients panel &#39;i&#39;\r<br />UC 7 : view compatible ingredients given an ingredient\r<br />1.) user selects ingredient from ingredient panel &#39;i&#39;\r<br />2.) ingredients compatible with the ingredient &#39;i&#39; are shown in ingredients panel &#39;(i+1)%3&#39;\r<br />UC 8 : view compatible ingredients given two ingredients\r<br />1.) user selects ingredients from ingredient panel &#39;i&#39; and &#39;j&#39;\r<br />2.) ingredients compatible with the ingredients &#39;i&#39; and &#39;j&#39; are shown in ingredients panel &#39;k&#39;\r<br />UC 9 : view compatible ingredients given an ingredient and one or more effects\r<br />1.) user selects ingredients from ingredient panel &#39;i&#39; and effects from effects panel &#39;j&#39;\r<br />2.) ingredients compatible with the ingredient &#39;i&#39; and effects &#39;j&#39; are shown in ingredients panel &#39;k&#39;\r<br />UC 10 : view compatible ingredients given one or more effects\r<br />1.) user selects effects from effects panel &#39;i&#39;\r<br />2.) ingredients compatible with effects are shown in ingredients panel &#39;i&#39;\r<br />UC 11: load all effects\r<br />1.) user clicks all button on panel &#39;i&#39;\r<br />UC 11: load all ingredients\r<br />1.) user clicks all button on panel &#39;i&#39;\r<br />UC 12: change databases\r<br />1.) user set the path to DB file",
+  "categoryId": "94",
+  "version": "1",
+  "author": "deamonpog",
+  "createdUnix": "1415297921",
+  "updatedUnix": "1415297747",
+  "containsAdultContent": false,
+  "uploadedBy": "deamonpog",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000134169",
+      "name": "AlchemyIngredientHelper",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "97",
+      "fileName": "AlchemyIngredientHelper-59711-1.zip",
+      "uploadedUnix": "1415297747",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/0de58836bd99e2349286d16a91efdbbbec0ed28619bc246ac194eacb98669c40/analysis/1415297822/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AlchemyIngredientHelper-59711-1.zip?fid=1000134169&ttl=1535847060&ri=8192&rs=8192&setec=af7ff4ef7e0f1f8c024793ae24721807"
+    }
+  ]
+}

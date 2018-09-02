@@ -1,0 +1,48 @@
+{
+  "modId": 10367.0,
+  "modName": "female voice replacer",
+  "summary": "replaces player character\\'s voice a little higher one. (for the human and elven races)",
+  "descriptionHtml": "\\\"female voice replacer\\\"\r\nreplaces player character\\'s voice (femaleeventoned/femaleelfhaughty) a little higher one. *\r\nfor the human and elven races. it covers the combat, breathing, shouts and death voices.\r\n\r\n* approximately +1.2 semitones. time-stretching and pitch-shifting of the original audio signals, without affecting the duration.\r\n\r\nbefore installing, please listen to the \\\"sample.mp3\\\" included in the 7z package.\r\n\r\nuninstallation:\r\n\\\\Data\\\\sound\\\\voice\\\\skyrim.esm\\\\femaleeventoned\\\\*.fuz\r\n\\\\Data\\\\sound\\\\voice\\\\skyrim.esm\\\\femaleelfhaughty\\\\*.fuz\r\n\r\n0.2a: (final)\r\nadded some missed voices\r\nprocessed total 137 files\r\nfixed a minor issue (for the sound quality)\r\n\r\nthe elven version is optional with lowered their shouts. (total 142 files)\r\n\r\n.fuz to .wav converter:\r\n[url=http://skyrim.nexusmods.com/downloads/file.php?id=9797]Unfuzer[/url] by greentea101\r\n\r\ncredit:\r\nBethesda Softworks\r\n\r\nthank you.",
+  "categoryId": "61",
+  "version": "0.2a",
+  "author": "5360",
+  "createdUnix": "1329641604",
+  "updatedUnix": "1330196978",
+  "containsAdultContent": false,
+  "uploadedBy": "5360",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "35718",
+      "name": "female_voice_replacer_eventoned02a",
+      "version": "0.2a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1324",
+      "fileName": "female_voice_replacer_eventoned02a-10367-0-2a.7z",
+      "uploadedUnix": "1330005540",
+      "modVersion": "0.2a",
+      "virusScanUrl": "https://www.virustotal.com/file/85cb85377cf177aba61962261805c1b8ef0477be99466c622a069002da54f879/analysis/1406707516/",
+      "changelogHtml": " added some missed voices <br/> \n processed total 137 files <br/> \n fixed a minor issue (for the sound quality) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/female_voice_replacer_eventoned02a-10367-0-2a.7z?fid=35718&ttl=1535770684&ri=8192&rs=8192&setec=2889d09595875d1368e6d781cb45425e"
+    },
+    {
+      "fileId": "36725",
+      "name": "female_voice_replacer_elfhaughty02",
+      "version": "0.2",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1310",
+      "fileName": "female_voice_replacer_elfhaughty02-10367.7z",
+      "uploadedUnix": "1330196978",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/476e78f31e46b4d5e9640f9417c23d3ef2cacee63ee39833c43f158356fee098/analysis/1406712616/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/female_voice_replacer_elfhaughty02-10367.7z?fid=36725&ttl=1535770684&ri=8192&rs=8192&setec=ae1586e1c481f8714ccd77cc318d5f90"
+    }
+  ]
+}

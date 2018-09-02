@@ -1,0 +1,32 @@
+{
+  "modId": 59533.0,
+  "modName": "LightingShader Tweak - Huge FPS Gain",
+  "summary": "This is a small tip for people who want more FPS, smoother gameplay. Try it&#33;",
+  "descriptionHtml": "[center][size=3]First, excuse my English. This is not my native language. \r<br />\r<br />\r<br />\r<br />\r<br />[/size][font=Georgia][b][size=6][color=#666666]==============[/color][color=#d8d8d8]  [/color][color=#6d9eeb]Introduction [/color][color=#6d9eeb] [/color][color=#666666]==============[/color][/size]\r<br />[/b][/font][font=Lucida Sans Unicode][size=3]\r<br />This is a small but effective tweak to include in the Skyrim configuration file.\r<br />These lines is apparently already in the file itself, but hidden.\r<br />\r<br />[/size][/font][font=Lucida Sans Unicode][size=3][color=#ffd966][b]These changes are primarily intended for users who have a low or mid-level computer[/b].\r<br />[/color]FPS gain is also much more important in interior locations, especially where there are light sources.\r<br />Look at the screenshots for an overall idea.\r<br />\r<br />[color=#ffd966][b]ENB users, try, it seems to be useful. But continue reading, please.[/b][/color]\r<br />[/size][/font][font=Lucida Sans Unicode][size=3]I don&#39;t know how much the FPS gain will be[/size][/font] [font=Lucida Sans Unicode][size=3]on a powerful computer because I do not have one.[/size][/font][/center][center][font=Lucida Sans Unicode][size=3]You can see my specs at the bottom of the page. \r<br />\r<br />\r<br />\r<br />[/size][/font][font=Georgia][b][size=6][color=#666666]==========[/color][color=#d8d8d8] [/color][color=#6d9eeb]So what it does, exactly [/color][color=#6d9eeb]? [/color][color=#666666]==========[/color][/size]\r<br />[/b][/font][font=Lucida Sans Unicode][size=3]\r<br />In fact, these changes will reduce the distance of the &#34;lod&#34; on the specularity effects of the game, \r<br />as the shine and refraction effect on objects. \r<br />\r<br />[/size][/font][font=Lucida Sans Unicode][size=3][color=#ffd966][b]Look at the latest screenshots I took. You will clearly see the differences.[/b][/color]\r<br />Personally, considering the visual and performance aspect, I like more the ones with the tweak.\r<br />Without the tweak, I feel like the objects are wet. It&#39;s up to you.\r<br />\r<br />[/size][/font][font=Lucida Sans Unicode][size=3][color=#ffd966][b]However, it&#39;s important that you know that this tweak will not break your game in any ways.[/b] \r<br />[/color]If you do not like the result, it&#39;s easy to remove the changes, either by removing the added lines or \r<br />simply using your previously saved configuration files.[/size][/font]\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />[font=Georgia][b][size=6][color=#666666]====[/color][color=#d8d8d8]  [/color][color=#6d9eeb]I read the description and I want to try it  [/color][/size][color=#666666][size=6]====[/size][/color]\r<br />[size=5] [/size]\r<br />[/b][/font][font=Lucida Sans Unicode][size=3]First of all, make a backup of your current configuration files ([i]Skyrim.ini[/i]  and [i]SkyrimPref.ini [/i])\r<br />\r<br />After you made that, it&#39;s simple : Copy the following lines and paste them somewhere into your [i]Skyrim.ini[/i]\r<br />usually located here : (C:&#92;Users&#92;&#39;&#39;Your name&#39;&#39;&#92;Documents&#92;My Games&#92;Skyrim)\r<br />\r<br />[/size][/font][font=Lucida Sans Unicode][color=#93c47d][size=3][LightingShader]\r<br />[/size][/color][/font][font=Lucida Sans Unicode][color=#93c47d][size=3]fDecalLODFadeEnd=0.0600\r<br />[/size][/color][/font][font=Lucida Sans Unicode][color=#93c47d][size=3]fDecalLODFadeStart=0.0500\r<br />[/size][/color][/font][font=Lucida Sans Unicode][color=#93c47d][size=3]fEnvmapLODFadeEnd=0.0\r<br />[/size][/color][/font][font=Lucida Sans Unicode][color=#93c47d][size=3]fEnvmapLODFadeStart=0.0\r<br />[/size][/color][/font][font=Lucida Sans Unicode][color=#93c47d][size=3]fEyeEnvmapLODEnd=0.0\r<br />[/size][/color][/font][font=Lucida Sans Unicode][color=#93c47d][size=3]fRefractionLODFadeEnd=0.0[/size]\r<br />[/color][/font][color=#93c47d][font=Lucida Sans Unicode][size=3]fRefractionLODFadeStart=0.0[/size][/font]\r<br />[/color][font=Lucida Sans Unicode][color=#93c47d][size=3]fSpecularLODFadeEnd=0.0\r<br />[/size][/color][/font][font=Lucida Sans Unicode][color=#93c47d][size=3]fSpecularLODFadeStart=0.0\r<br />[/size][/color][/font][font=Georgia][size=5][b]\r<br />Now, be amazed &#33;\r<br />\r<br />[img]http://38.media.tumblr.com/d2d97e94e4b5bd5d9334cf2f85f88ddf/tumblr_n8tqcqPhPB1thowlgo1_250.gif[/img]\r<br />\r<br />\r<br />[/b][/size][/font][b][font=Georgia][size=5]Thats all folks &#33;  I hope this little tweak will be useful &#33;[/size][/font][/b][font=Georgia][size=5]\r<br />\r<br />[/size][/font][font=Georgia][color=#ffd966][size=5][b]Give me your feedback about the tweak in the posts section\r<br />\r<br />[/b][/size][/color][/font][b][font=Georgia][size=5]Endorse if you like\r<br />\r<br />\r<br />\r<br />\r<br />[/size][/font][/b][font=Lucida Sans Unicode][size=3][u]Here&#39;s my specs[/u][/size][/font] :[/center][center][font=Lucida Sans Unicode][size=3]\r<br />Windows 8.1 Professional\r<br />Install on SSD\r<br />Intel Core i5 450M 2.4 GHz\r<br />8 GB System RAM\r<br />NVIDIA Geforce GT 330M\r<br />1 GB VRAM\r<br />\r<br />\r<br />[/size][/font]  [/center]",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "JackHerer93",
+  "createdUnix": "1414724967",
+  "updatedUnix": "1414944707",
+  "containsAdultContent": false,
+  "uploadedBy": "jackherer93",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000133651",
+      "name": "LightingShader Tweak - Text File",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4388",
+      "fileName": "LightingShader Tweak - Text File-59533-1-0.zip",
+      "uploadedUnix": "1414944707",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d84cef2fb23924c4b5fd07b7306c4f6ce000e7bfab4b71c5ca9cce63587b87ca/analysis/1414944783/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LightingShader%20Tweak%20-%20Text%20File-59533-1-0.zip?fid=1000133651&ttl=1535846806&ri=8192&rs=8192&setec=7e5619dc443d66cd8ef53f83f4031034"
+    }
+  ]
+}

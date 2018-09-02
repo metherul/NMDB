@@ -1,0 +1,48 @@
+{
+  "modId": 89944.0,
+  "modName": "Activate Button Away",
+  "summary": "ABA does away with the activate button and moves the interaction text away from the center of the screen.",
+  "descriptionHtml": "As many other players, I've always been bothered by the HUD obscuring so much of the screen.\n<br />Skyrim is a very pretty game, and when I play I'd rather look at the scenery than at the widgets constantly showing me info I seldom need to know. The marvelous Immersive HUD takes care of most of this, but so far I haven't found a mod that would do anything with the activate/interact messages popping up in the middle of the screen everytime I run past someting I could potentially interact with. The only thing that my searches returned were similar complaints from other players, with no solution in sight. Until a few months ago I found  this wonderful post: [url=https://www.reddit.com/r/skyrimmods/comments/5f0f1n/guide_on_modifying_ingame_hud/]Guide on modifying in-game HUD[/url] , \n<br />which led me to this video: [url=https://www.youtube.com/watch?v=Ti586N7L7Oc&amp;t=]How to edit the HUD and Map Menu[/url], which led to me creating this mod. \n<br />\n<br />It removes the activate button, and moves the activate messages away from the center of the screen, where I can easily ignore them if I want, or glance at them if I want to know what is the name of the person I'm looking at, or if the object is free for the taking or belongs to someone, etc. \n<br />\n<br />How I did it - by modyfying several records in the hudmenu.gfx file. Check the guides for the mechanics of it, and check the images to see which records were modified and how. \n<br />(The included gfxfontlib.swf  file was needed for the changes to be done and saved correctly - it wasn't mentioned in either guide, so it could have been just a quirk of my PC). \n<br />\n<br />ABA should be compatibile with most HUD modyfying mods. A rule of thumb - if you are asked to override any files - DON'T!  There should be no loose hudmenu file in your Skyrim folder. If there is, it was put there by another mod, and overriding will break the one you're already using. If you want to keep funcionalities of both mods, you can edit the existing hudmenu.gfx, following the abovementioned guides and info from the pictures. \n<br />\n<br />Happy travels!",
+  "categoryId": "42",
+  "version": "1.00",
+  "author": "Syntia",
+  "createdUnix": "1520164932",
+  "updatedUnix": "1520164932",
+  "containsAdultContent": false,
+  "uploadedBy": "Syntia13",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000267688",
+      "name": "ABA full",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "265",
+      "fileName": "ABA full-89944-1-0.zip",
+      "uploadedUnix": "1520164545",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6f686b6a44b232e0b8ff9bbbed944fabafab90eed931d965b5f52eefcf34971d/analysis/1520164771/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ABA%20full-89944-1-0.zip?fid=1000267688&ttl=1535879916&ri=8192&rs=8192&setec=3a7e4aaa9fbd2e0c818843186cd41aaa"
+    },
+    {
+      "fileId": "1000267689",
+      "name": "ABA lite",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "265",
+      "fileName": "ABA lite-89944-1-0.zip",
+      "uploadedUnix": "1520164612",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/86c9019b563b7c0d9bfc675c5885aed36b184040f07fce4aca60d96d6eae8f0b/analysis/1520164863/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ABA%20lite-89944-1-0.zip?fid=1000267689&ttl=1535879916&ri=8192&rs=8192&setec=e075be6d8ef57ebc2db4b94a65953e35"
+    }
+  ]
+}

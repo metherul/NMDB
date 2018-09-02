@@ -1,0 +1,32 @@
+{
+  "modId": 6411.0,
+  "modName": "A Clear World Map - With Clouds",
+  "summary": "This is NOT an INI tweak.  :)  Removes clouds over Skyrim on the world map, but keeps the clouds that cover up Tamriel.",
+  "descriptionHtml": "[color=Yellow]This is NOT a tweak to your Skyrim.ini file.  I\\'ve edited the world map cloud mesh and textures.[/color]\r\n\r\nUse this mod with [url=http://www.skyrimnexus.com/downloads/file.php?id=4929]A Quality World Map - With Roads[/url] for best results!\r\n\r\n[size=4][color=Lawngreen][u]Introduction:[/u][/color][/size]\r\nI\\'ve always loved the clouds on the world map, but I\\'ve always loved the idea of being able to see where I am supposed to go, as well!   This mod aims to give you the best of both worlds.  It removes the clouds over Skyrim, but keeps the clouds that cover up ugly brown Tamriel.  :)  I hope you enjoy!\r\n\r\n[size=4][color=Red][u]Notice 1:[/u][/color][/size]\r\nRemove the following \\\"sMapCloudNIF=0\\\" tweak in your Skyrim.ini, if you have it, or the mod won\\'t work.\r\n\r\n[size=4][color=Red][u]Notice 2:[/u][/color][/size]\r\nI\\'m still working on removing the \\\"fog\\\" from the world map.\r\n\r\n[size=4][color=Lawngreen][u]Installing:[/u][/color][/size]\r\nCopy the Data folder in my mod and paste it to where your \\\\Skyrim\\\\Data folder is.  It will ask you if you want to overwrite the Data folder.  Say yes.  This will merge the two Data folders together and place my mod with the correct file paths.  The file paths should look like this:\r\n\r\nSTEAM\\\\SteamApps\\\\common\\\\skyrim\\\\Data\\\\meshes\\\\sky\\\\[color=Gray]skyrimworldmapcloudbank.nif[/color]\r\nSTEAM\\\\SteamApps\\\\common\\\\skyrim\\\\Data\\\\textures\\\\sky\\\\[color=Gray]skyrimcloudlut.dds[/color]\r\n\r\nUninstall: Delete both files.\r\n\r\n[size=4][color=Lawngreen][u]My Skyrim.ini Settings:[/u][/color][/size]\r\nThese are the settings I use in the MapMenu section of my Skyrim.ini.  I\\'m just putting them here for those of you who are curious.  :)\r\n[color=Gray][MapMenu]\r\nuLockedObjectMapLOD=8\r\nbWorldMapNoSkyDepthBlur=1\r\nfWorldMapNearDepthBlurScale=0\r\nfWorldMapDepthBlurScale=0\r\nfWorldMapMaximumDepthBlur=0\r\nfMapWorldZoomSpeed=1.0000\r\nfMapLookMouseSpeed=3.0000\r\nfMapZoomMouseSpeed=15.0000\r\nfMapWorldYawRange=3600.0000\r\nfMapWorldMaxHeight=45000.0000\r\nfMapWorldMinHeight=35000.0000[/color]\r\n\r\n[size=4][color=Lawngreen][u]My other mods:[/u][/color][/size]\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=6262]Comfy Leather Armor[/url]\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=5989]Cute and Colorful Armor[/url]\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=5921]Hello Kitty Armor[/url]\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=4482]3rd Person Sprint - Ninja Style[/url]\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=4338]1st Person View Glass Armor Fix[/url]\r\n[url=http://www.skyrimnexus.com/downloads/file.php?id=4210]ipHUD - Complete Edition[/url]",
+  "categoryId": "42",
+  "version": "1.0",
+  "author": "IcePenguin",
+  "createdUnix": "1326797296",
+  "updatedUnix": "1326797474",
+  "containsAdultContent": false,
+  "uploadedBy": "IcePenguin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "20605",
+      "name": "A Clear World Map",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "154",
+      "fileName": "A Clear World Map-6411-1-0.zip",
+      "uploadedUnix": "1326797474",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/440bcf55602e8ae80a3daf58fe27e208d7b74962cf5c499a501abfaa1c4c2a08/analysis/1406618534/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/A%20Clear%20World%20Map-6411-1-0.zip?fid=20605&ttl=1535763804&ri=8192&rs=8192&setec=342c2ab27edefc96e823d90522f79515"
+    }
+  ]
+}

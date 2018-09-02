@@ -1,0 +1,32 @@
+{
+  "modId": 21932.0,
+  "modName": "Join The Dawnguard As A Vampire (Out of Date)",
+  "summary": "Join and complete the Dawnguard side of the Skyrim: Dawnguard quest line as a vampire.",
+  "descriptionHtml": "[b]12/3/2014 - GendunDrup has uploaded a fixed version of this mod that allows the Prophet quest to progress normally. [url=http://www.nexusmods.com/skyrim/mods/58727/?]Download it here[/url]. :) (Note: Only run ONE of the .esps, mine is no longer needed to use his.)[/b]\r<br />\r<br />12/6/2012 - Description update again. Updated Known Issues.\r<br />\r<br />9/15/2012 - Description update only. Please read Known Issues section&#33;\r<br />\r<br />This mod allows the player to join and complete the Dawnguard side of the Skyrim: Dawnguard quest line as a vampire. It also allows you to use Dawnguard services and followers normally if you are a member of the Dawnguard and a vampire. \r<br />\r<br />Specifically, it blocks certain dialog and events that can occur if the player is a vampire, and causes the game to treat you as if you were not a vampire. It does this by adding a condition that would require the player to be a member of DLC1VampireFaction for those events/dialog to occur - something that is impossible if you are a member of the Dawnguard. There are also a couple instances where it forces dialog by removing the condition that checks to see if the player is NOT a vampire before allowing you to advance.\r<br />\r<br />I&#39;m not 100% certain if this is the best way to do this, but I am not an expert modder, so I just did what seemed most logical within my limited knowledge of the Creation Kit. I would be interested in seeing if anyone else has other ways of doing this.\r<br />\r<br />This is the first mod I have shared anywhere, as most of my mods are just small game changes for personal use, but I&#39;ve seen a few people on forums wondering if they could join the Dawnguard as a vampire, so I thought I would share. \r<br />[heading]Requirements[/heading]\r<br />Skyrim, Dawnguard\r<br />\r<br />No other mods are required.\r<br />[heading]Install/Uninstall[/heading]\r<br />Use the Nexus Mod Manager, OR:\r<br />\r<br />To install, place the .esp in your /Skyrim/Data folder. \r<br />\r<br />To activate, check the file under Data Files on the Skyrim launcher.\r<br />\r<br />To uninstall, delete the .esp.\r<br />[heading]Compatability/Conflicts[/heading]\r<br />As with any mod, this will conflict with any other mod that tries to change the same game elements. In this case, that includes a quest (A New Order), Dawnguard NPC dialog, and Dawnguard follower behavior and dialog.\r<br />\r<br />If none of your installed mods affect these things, you should be fine.\r<br />[heading]Known Issues[/heading]\r<br />(Minor Spoilers)\r<br />The Dawnguard quest &#34;Prophet&#34; may not be properly added to your quest log after completion of &#34;A New Order&#34;. Because of this I recommend NOT loading my mod until it is needed, that is: \r<br />\r<br />During A New Order, after finding Sorine and Gunmar, but just before returning to Isran. If you load the mod at this point the quests should progress normally. This only works on a new character who hasn&#39;t had this mod running. \r<br />\r<br />Things should also work if you become a vampire after this point and [i]then[/i] load the mod.\r<br />\r<br />If you already played to this point with the mod, you can add Prophet to your log by entering &#34;setstage DLC1VQ03Hunter 5&#34; into the console after Isran finishes his speech and A New Order completes. (Thanks seldalore) Be sure to progress to the next stage (talk to Serana and Isran) before saving - not doing so may cause the quest to vanish on reload. \r<br />\r<br />[heading]Credits[/heading]\r<br />Thanks to Bethesda for creating Skyrim and Dawnguard :)\r<br />[heading]Permissions[/heading]\r<br />If you want to make changes or use this in your own mod, feel free to do so, just remember to credit it and tell me what you did&#33;\r<br />\r<br />Please do not otherwise distribute this mod.",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Llywela Greyleaf",
+  "createdUnix": "1344392262",
+  "updatedUnix": "1344403421",
+  "containsAdultContent": false,
+  "uploadedBy": "LlywelaGreyleaf",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "79641",
+      "name": "Dawnguard_Join_As_Vampire",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Dawnguard_Join_As_Vampire-21932-1-0.7z",
+      "uploadedUnix": "1344403421",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7c392a3a1584dc0f11e79e12164d4ac74b2bb81da053e772dd095908df83099d/analysis/1407078543/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dawnguard_Join_As_Vampire-21932-1-0.7z?fid=79641&ttl=1535791154&ri=8192&rs=8192&setec=4440a48ea2a5a75bfc965ba9aff9f20f"
+    }
+  ]
+}

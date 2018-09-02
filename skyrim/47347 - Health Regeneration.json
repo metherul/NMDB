@@ -1,0 +1,32 @@
+{
+  "modId": 47347.0,
+  "modName": "Health Regeneration",
+  "summary": "Player does not heal up after each fight automatically i.e. the healrate is set to a low value\r<br />Regeneration Potions still working and are actually useful now ",
+  "descriptionHtml": "#################\r<br />### Description ###\r<br />###############\r<br />Basically this mod reduces the built in health regeneration to a level where you have to rely on other means of healing.\r<br />You will still heal up slowly so resting for say 8 hours will heal you up but you wont notice much health gain over a timespan of 15min real time\r<br /> \r<br />Regeneration Potions are no longer useless, in contrary they are a valuable commodity for longer fights\r<br />Restoration and normal health Potions remain untouched, you will need both more often.\r<br /> \r<br />There were some Mods on Nexus already with the same premise but they didn&#39;t work for me, or came with some faults.\r<br />\r<br />#######################\r<br />### Install Instructions ###\r<br />#####################\r<br />1. Put the .ESP in your Data folder and tick it before you start Skyrim\r<br />2. Start your game\r<br />3. open the console and enter: player.modav healrate -0.65 ***  // modav adds the given value, so adding -0.65 brings it down to 0.05\r<br />4. Save the game\r<br />\r<br />#########################\r<br />### Uninstall Instructions ###\r<br />#######################\r<br />1. Delete the ESP file\r<br />2. Reset the value  player.modav healrate 0.65    \r<br />3. Save the game\r<br />\r<br />***\r<br />player.modav healrate value\r<br />Rate of health recovery out of combat = HealRate % per second (Default = 0.7)\r<br />You can alter the value as you like, but .05 seems to be a good value. You still heal up after resting 8hours but in Dungeons and the Wilds you have to rely on magic and potions, especially valuable are the regeneration potions for longer fights. They grant 1-5 health points per second for 5min, depending on your alchemy skill.\r<br />They are worth less Septims as before because I had to change some internal factors, but you want to drink them anyway :P\r<br />\r<br />###################\r<br />### Compatibility ###\r<br />################\r<br />\r<br />This mod alters the following records\r<br /> \r<br />[5]Regeneration Potions\r<br />AlchHealRate \r<br />Ingredients for regeneration Potions (magnitude)\r<br /> \r<br />load it after conflicting mods or the Regeneration Potions probably won&#39;t work correctly\r<br />\r<br />\r<br />",
+  "categoryId": "78",
+  "version": "1.0",
+  "author": "MrMoe777",
+  "createdUnix": "1384693020",
+  "updatedUnix": "1384693018",
+  "containsAdultContent": false,
+  "uploadedBy": "MrMoe777",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000080053",
+      "name": "Potion Fix",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Fixe-47347-1.7z",
+      "uploadedUnix": "1384693018",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/8b9870f7215b78e35d491b6c383dea0c0935b94c1af07964370a2746a054c36f/analysis/1407796521/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fixe-47347-1.7z?fid=1000080053&ttl=1535827609&ri=8192&rs=8192&setec=bdf40590776c34377891e2099e81490e"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 18594.0,
+  "modName": "White Phial Realignment",
+  "summary": "This mod lets you refill The White Phial with any potion you want, giving you a fresh potion every day. Thus making it into the ultimate alchemy artefact it was always meant to be.",
+  "descriptionHtml": "This mod lets you refill The White Phial yourself with any potion you want, giving you a fresh potion every day. Thus making it into the ultimate alchemy artefact it was always meant to be.\r<br />\r<br />You can align the phial by using the empty Phial from the inventory. If you want to use one of the alignments from Quintus again, you can ask him to align it for you.\r<br />\r<br />[b]Description[/b]\r<br />\r<br />According to the lore the White Phial can refill any brew an alchemist can concoct, you gain it after completing the quest &#34;Repairing The White Phial&#34;. But when you finally get it you find out that you can only let it refill one of six different weak potions. This mod makes the White Phial live up to its lore and allows it to refill any potion.\r<br />\r<br />To align the Phial, click on the empty Phial in your inventory and after you have confirmed the realignment just drink the potion you want the phial to replenish. Poisons are not supported, this is due to a technical limitation.\r<br />\r<br />This mod also fixes the Phial duplication bug and will remove any duplicates in your inventory when it is refilled.\r<br />\r<br />[b]Features[/b]\r<br />\r<br />[list]\r<br />[*] Have The White Phial refill any potion you can concoct once a day\r<br />[*] Allow Quintus to realign the Phial\r<br />[/list]\r<br />[b]How to remove this mod[/b]\r<br />\r<br />If you&#39;re going to disable or uninstall the mod make sure you visit Quintus and ask him to realign your Phial to one of the default alignments. If you remove the mod while the Phial still has a custom alignment it may disappear or cause other problems.\r<br />\r<br />[b]Compatibility[/b]\r<br />\r<br />This mod is completely compatible with [url=http://skyrim.nexusmods.com/mods/14607]Better White Phial Effects[/url] in any load order. I recommend installing it to make Quintus&#39; alignments more useful.\r<br />\r<br />It is not compatible with mods that change the scripting of the White Phial or the dialogue of the related quests.\r<br />\r<br />This mod is compatible with the Unofficial Skyrim Patch, as long as the Unofficial Skyrim Patch is at the top of the load order. You can change the load order by going to Data Files in the startup menu and using the arrows to move mods high/lower in the load order.\r<br />\r<br />[b]Troubleshooting[/b]\r<br />\r<br />If you&#39;ve lost or sold your Phial and would like it back you can do so through console commands. Give yourself an empty Phial using the command: player.additem 2C25A 1. Now go to Windhelm and talk to Quintus at The White Phial and ask him to align the Phial, after that it should work again. Any duplicates produced in the process will be cleaned up at the next refill. If the dialogue option is not present try using this command: startquest MS12PostQuest.\r<br />\r<br />[b]Source Code[/b]\r<br />\r<br />The source code for this mod is now available as a [url=https://github.com/Armada651/curamils-phial]github repository[/url], feel free to make changes.",
+  "categoryId": "94",
+  "version": "1.9",
+  "author": "Armada",
+  "createdUnix": "1339427145",
+  "updatedUnix": "1365166020",
+  "containsAdultContent": false,
+  "uploadedBy": "Armada",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000022530",
+      "name": "Curalmils Phial",
+      "version": "1.9",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "Curalmils Phial-18594-1-9.zip",
+      "uploadedUnix": "1365165982",
+      "modVersion": "1.9",
+      "virusScanUrl": "https://www.virustotal.com/file/02f9b9debad7b876118651bc7ae4fc17fcf5d0c2cc523dc63b22dd5fac3da8a0/analysis/1407507543/",
+      "changelogHtml": " Fixed custom alignment being applied on top of a default alignment <br/> \n Removed function that automatically removes duplicate phials, phial duplication has been fixed by Bethesda <br/> \n Minor improvements to scripting <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Curalmils%20Phial-18594-1-9.zip?fid=1000022530&ttl=1535785550&ri=8192&rs=8192&setec=d89c1053979b7533045b351225d581ca"
+    },
+    {
+      "fileId": "1000022531",
+      "name": "Loose files version",
+      "version": "1.9",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "Loose files version-18594-1-9.zip",
+      "uploadedUnix": "1365166020",
+      "modVersion": "1.9",
+      "virusScanUrl": "https://www.virustotal.com/file/40f29f8590860e0b59cb43eff087de9f016462e848fe1c84bf7bf8c71c05f406/analysis/1407507543/",
+      "changelogHtml": " Fixed custom alignment being applied on top of a default alignment <br/> \n Removed function that automatically removes duplicate phials, phial duplication has been fixed by Bethesda <br/> \n Minor improvements to scripting <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Loose%20files%20version-18594-1-9.zip?fid=1000022531&ttl=1535785550&ri=8192&rs=8192&setec=d597590635b8d8cabeb4535dc6aa390e"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 40638.0,
+  "modName": "Mesh Tool N4 - PathExtractor",
+  "summary": "This tool give you convenient way to check and modify many texture paths in one NIF file.",
+  "descriptionHtml": "[color=lightblue][b]Name:\t\tMesh tool N4 - PathExtractor[/b][/color]\r\nData:\t\t20/08/2013\r\nVersion:\t1.00\r\nAuthor:\t\tAnton\r\n\r\n\r\n[heading][color=yellow]Description:[/color][/heading]\r\nThis program allow you to export all texture paths from NIF to TXT file. \r\nThen you can easily check it for errors, modify if needed, and import back to NIF file.\r\n(work with NIF block [BSShaderTextureSet]).\r\n\r\n\r\n[heading][color=yellow]Features:[/color][/heading]\r\n- convenient way to check and modify many texture paths in one NIF file.\r\n\r\n\r\n[heading][color=yellow]How to use it:[/color][/heading]\r\nThis program is supposed to be used at command prompt. (Start->Run->\\\"cmd.exe\\\")\r\nBut i strongly recommend to use file managers like Total Commander or Far to work with command prompt.\r\nIf you run the tool without parameters you will see a little help about it.\r\n\r\n\r\n---> [color=lightblue][b]Example: \\\"PathExtractor Model.nif\\\"[/b][/color]\r\nTool will make new file with name \\\"Model.txt\\\", and save here all found paths from NIF file.\r\n---> [color=lightblue][b]Example: \\\"PathExtractor Model.nif Model.txt\\\"[/b][/color]\r\nTool imports back to NIF file all paths from \\\"Model.txt\\\".\r\n\r\n\r\n[heading][color=yellow]List of parameters:[/color][/heading]\r\nFirst  - name of NIF file to work with\r\nSecond - name of TXT file, where tool will take data to import\r\n  (if TXT file is not mentioned, tool will make a new one and export data to it)\r\nThird  - (optional) \\\"-q\\\" - remove ALL questions and confirmations\r\n\r\n\r\n[heading][color=yellow]Issues:[/color][/heading]\r\n(none found, ... yet :))\r\n\r\n\r\n[heading][color=yellow]License:[/color][/heading]\r\nDon\\'t modify or re-upload this tool without my permission.\r\n\r\n\r\n[heading][color=yellow]Credits:[/color][/heading]\r\nNifSkope team for NifSkope\r\nMicrosoft for Visual Studio 2010 Express\r\nBethesda for the Game\r\n",
+  "categoryId": "39",
+  "version": "1.01",
+  "author": "Anton",
+  "createdUnix": "1377005429",
+  "updatedUnix": "1377010556",
+  "containsAdultContent": false,
+  "uploadedBy": "Anton0028",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000048360",
+      "name": "PathExtractor_v1_01",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "414",
+      "fileName": "PathExtractor_v1_01-40638-1-01.zip",
+      "uploadedUnix": "1377010556",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/ab0c9f72d4ca3870bd28184a81ab104fbd93fe9918fb47eae2f3ceed365633fd/analysis/1407690364/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PathExtractor_v1_01-40638-1-01.zip?fid=1000048360&ttl=1535821291&ri=8192&rs=8192&setec=c298f581d9a7326aad90f8dbe102ed78"
+    }
+  ]
+}

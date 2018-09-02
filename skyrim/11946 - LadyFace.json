@@ -1,0 +1,48 @@
+{
+  "modId": 11946.0,
+  "modName": "LadyFace",
+  "summary": "Face texture and tint masks based on Newermind43 and BellaGail\\'s face textures, designed for use with TKTK\\'s Pretty Face Pack female head mesh.",
+  "descriptionHtml": "[img]http://tarpontech.biz/images/ladyface.png[/img]\r\n\r\n[color=yellow]\r\nUpdate 3/3/2012 - Fixed issue with file structure - will now properly install using NMM\r\nSorry about that...rookie mistake.\r\n\r\nAlso, I have decided to not pursue blending the texture with CBBE or UNP.  Caliente\\'s TEXBLEND application did a better job of fixing that in 2 minutes than what I was able to produce in 4 hours of trial and error.  If you are worried about the neck seam, go get TEXBLEND.  Sorry UNP folks, I don\\'t use the mod, and my attempts at correcting the neck seam have been a lesson in frustration.  If anyone else can fix it, I\\'ll be happy to post an updated file.\r\n[/color]\r\n\r\n\r\nBethesda\\'s version of a femme-fatale looks like she woke up behind the Winking Skeever after a three-day bender.  Most of the texture mods available, while all very well done, are either too lore-friendly, made my character look 12 years old, or dissuaded my lady from swinging her axe for fear of smudging her mascara.  This very small mod, done mostly by other, much more talented people, is my attempt at finding some middle-ground in all of this.\r\n\r\nI really like TKTK\\'s head mesh, the problem is, all the best face texture mods end up looking a little off.   I started out trying to convert the best textures out there for use with this mesh.  Along the way I began getting better with some photoshop tricks, so this first release is a bit of an amalgam, and one I\\'ve been pretty happy with.  With the permission of the various artists here at the Nexus, I hope to provide more faces in the future that work well with TKTK\\'s mesh.\r\n\r\n[color=yellow]\r\n-----------------------------------\r\n[b]Installation Prerequisites:[/b]\r\n-----------------------------------\r\n[/color]\r\nThis texture mod was designed for TKTK\\'s custom head mesh found in his [url=http://skyrim.nexusmods.com/downloads/file.php?id=7887&navtag=file/images.php?id=7887&tab=3] Pretty Face Pack [/url]\r\n\r\nYou will need to download his mod first.  My texture will replace some, but not all of the texture files in TKTK\\'s mod. \r\n\r\nIf you are not using Expired\\'s [url=http://skyrim.nexusmods.com/downloads/file.php?id=6923  ]Extended Slider Colors[/url] you will not derive the maximum benefit of this texture and tint-mask mod.\r\n[color=yellow]\r\n----------------\r\n[b]Installation:[/b]\r\n----------------\r\n[/color]\r\n[color=orange]\r\nNMM is recommended! \r\n[/color]\r\nIf you\\'re into the manual labor thing, unpack the zip into your Skyrim directory.\r\n\r\nThe following files are contained within the zip:\r\n\r\nData/textures/actors/character/female/femalehead.dds\r\nData/textures/actors/character/character assets/tintmasks/femaleheadbreton_lips.dds\r\nData/textures/actors/character/character assets/tintmasks/femaleheadimperial_lips.dds\r\nData/textures/actors/character/character assets/tintmasks/femaleheadnord_lips.dds\r\nData/textures/actors/character/character assets/tintmasks/femalelowereyesocket.dds\r\nData/textures/actors/character/character assets/tintmasks/femalenordeyelinerstyle_01.dds\r\nData/textures/actors/character/character assets/tintmasks/femaleuppereyesocket.dds\r\n\r\n--------------------------------\r\n[b]Notes and Issues[/b]\r\n--------------------------------\r\n\r\n\r\n[color=red][b]Note:  If you try to use this texture on the vanilla mesh, you will be sorely disappointed with the end result. [/b][/color]\r\n\r\nI focused exclusively on human females.  Elven chicks...well...it\\'s an improvement on vanilla, at least until I tweak their tint-masks.\r\n\r\nThis mod still uses TKTK\\'s normal map.  It\\'s the only one that doesn\\'t butcher the character\\'s eyes.  Until I can figure out how to create an object space normal map, it\\'ll have to do.\r\n\r\nI\\'ve experimented with dozens of combinations of textures, normal and specular maps, tint-masks and meshes.  I\\'ve found that not every combination works out well with every possible face morph.  Your mileage will vary.  Some NPC\\'s look darn good, others, well, no worse than vanilla at least.\r\n\r\nUse Texblend by Caliente to correct the neck seam on CBBE.  Sorry UNP\\'ers.\r\n\r\n[color=orange]\r\n********************************************************************************************************************************\r\nI want to be clear, this texture is not my work.  It is Newermind43 and Bella\\'s.  All I did was get lucky with a few masking layers and the clone tool in photoshop.  I am not an artist, and I don\\'t wish recognition as one.  I\\'m just a guy who saw different things he liked and fooled around with real artist\\'s work until I figured out how to get what I wanted out of it.  I cannot thank them enough for allowing me to share this.  I only hope they feel I did their work justice.  \r\n\r\n*********************************************************************************************************************************\r\n[/color]\r\n\r\n[color=yellow]\r\n-----------------------------------\r\n[b]Credits[/b]\r\n-----------------------------------\r\n[/color]\r\n\r\nThe base for this texture is [url=http://skyrim.nexusmods.com/downloads/file.php?id=3235&navtag=file/images.php?id=3235&tab=3]Newermind43\\'s HD Face[/url]\r\n\r\nI have not found, nor can I reproduce another texture of higher resolution or quality, his work is amazing.  [b]I cannot thank him enough for providing me permission to use his work.[/b]\r\n\r\nI have added BellaGail\\'s Lips from her [url=http://skyrim.nexusmods.com/downloads/file.php?id=2812&navtag=file/images.php?id=2812&tab=3]Better Females[/url], and used her tint-masks as the basis for my own custom masks.\r\n\r\n\r\nI\\'ve never used make-up in my life, so being so graciously allowed to borrow the work of a pro make-up artist was key to making this thing work.   [b]Thank you Bella! [/b]",
+  "categoryId": "26",
+  "version": "1.0",
+  "author": "Chidosity",
+  "createdUnix": "1330754841",
+  "updatedUnix": "1330815763",
+  "containsAdultContent": false,
+  "uploadedBy": "chidosity",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "39737",
+      "name": "LadyFace_1-0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1828",
+      "fileName": "LadyFace_1-0-11946.zip",
+      "uploadedUnix": "1330815677",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/970dfe13469124c8848398f333d6c228c8a542c8a6acd95b4e961174fdd9a3a8/analysis/1406728036/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LadyFace_1-0-11946.zip?fid=39737&ttl=1535773465&ri=8192&rs=8192&setec=4d613f78b087c8ff2d063ef2850949e9"
+    },
+    {
+      "fileId": "39740",
+      "name": "LadyFace optional texture - More Lower Lashes",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1782",
+      "fileName": "LadyFace optional texture - More Lower Lashes-11946.zip",
+      "uploadedUnix": "1330815763",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/233dcfc9c61885f37f497dc36e58f94c748fc0c78fa29ec1802aa7c28266d88f/analysis/1406728038/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LadyFace%20optional%20texture%20-%20More%20Lower%20Lashes-11946.zip?fid=39740&ttl=1535773465&ri=8192&rs=8192&setec=ad787d7411a8c3f3f7cf3bdc503423e1"
+    }
+  ]
+}

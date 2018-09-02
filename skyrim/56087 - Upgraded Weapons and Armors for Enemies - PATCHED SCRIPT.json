@@ -1,0 +1,32 @@
+{
+  "modId": 56087.0,
+  "modName": "Upgraded Weapons and Armors for Enemies - PATCHED SCRIPT",
+  "summary": "Fixes several issues with josec87&#39;s Upgraded Armors and Weapons for Enemies mod, most importantly eliminating papyrus errors",
+  "descriptionHtml": "[heading]REQUIRES:[/heading]\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/33502]Upgraded Weapons and Armors for Enemies[/url] by josec87\r<br />\r<br />Which in turn requires:[list]\r<br />[*] [url=http://skse.silverlock.org/]SKSE[/url]\r<br />[*] [url=http://www.nexusmods.com/skyrim/mods/3863]SkyUI[/url]\r<br />[/list]\r<br />[heading]DESCRIPTION:[/heading]\r<br />Users of UWA will likely experience freezes, crashes, and possibly save bloat because of several major errors in one of the scripts, and there have been no updates to the mod in over a year.  So, I have cleaned up the offending script myself, and have made a few improvements to its functionality.\r<br />\r<br />So what&#39;s new with this script?\r<br />[list]\r<br />[*] [b][color=yellow]ELIMINATES PAPYRUS ERRORS:[/color][/b]  The script will no longer constantly throw papyrus errors, which can stack up and cause freezes and CTD&#39;s. \r<br />\r<br />[*] [b][color=yellow]RENDERS THE &#34;NO GUARDS&#34; VERSION OF THE MOD UNNECESSARY:[/color][/b]  At least it has in my testing.  I encourage everyone to use this script with the standard, guards-included version and report their findings. \r<br />\r<br />[*] [b][color=yellow]INCLUDES EXPERIMENTAL FIX FOR HALF-NAKED ENEMIES:[/color][/b]  I have switched out a function in the script for another, which seems to prevent enemies from &#34;forgetting&#34; to re-equip their newly tempered armor, which would previously leave enemies walking around without footwear, gloves, headgear, or even charging into battle butt naked.  It has worked perfectly for me so far, but again, I encourage everyone to pay visits to various types of enemies and report their findings.\r<br />[/list]\r<br />[heading]INSTALLATION:[/heading][list]\r<br />[*] NMM:  Download with the manager and activate normally.  When prompted to overwrite, click &#34;Yes to All&#34;\r<br />[*] MANUAL:  Extract the included .pex and .psc files to your Skyrim/Data/Scripts and Skyrim/Data/Scripts/Source directories respectively.  Replace any existing files.\r<br />[/list]\r<br />[heading]NOTICE:[/heading]\r<br />This patch will NOT clean up pre-existing &#34;litter&#34;.  It is advised to get rid of any existing junk left on the ground, both to help your save file and to better be able to test this patch, if you are so inclined.\r<br />\r<br />[heading]CREDITS:[/heading]\r<br />To josec87 for creating a mod with a great concept and, with a few of the kinks worked out, greatly improves immersion.",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "Kingston3K",
+  "createdUnix": "1405643848",
+  "updatedUnix": "1405643840",
+  "containsAdultContent": false,
+  "uploadedBy": "TheAmazingDerpMan",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000118045",
+      "name": "UWA Patch 1.0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "UWA Patch 1.0-56087-1-0.zip",
+      "uploadedUnix": "1405643840",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/fd1fd78e914de83d91cbc869c21412e59850b725871adb0136ab50d52af4a9bb/analysis/1405643930/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/UWA%20Patch%201.0-56087-1-0.zip?fid=1000118045&ttl=1535841250&ri=8192&rs=8192&setec=af9474148ebb5f12956c8d6bc3dd3d63"
+    }
+  ]
+}

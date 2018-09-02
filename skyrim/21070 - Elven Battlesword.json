@@ -1,0 +1,32 @@
+{
+  "modId": 21070.0,
+  "modName": "Elven Battlesword",
+  "summary": "Adds a two-handed and an one-handed Elven Battlesword to the game",
+  "descriptionHtml": "Installation:\r\n\r\nCopy textures and meshes folder & Warsword.esp to your Skyrim\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\data directory.\r\n\r\nThe folder-structure should look like:\r\n... Skyrim\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\data\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\textures\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\weapons\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Warsword\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ALL DDS FILES\r\n... Skyrim\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\data\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\meshes\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\weapons\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Warsword\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ALL NIF FILES\r\n... Skyrim\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\data\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Warsword.esp\r\n\r\nMake sure that the plugin is activated in startmenu | DATA FILES.\r\nThe swords are placed in the forge-menu along with the Elven-items.\r\n\r\nIf you don\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'t have the necessary perk use the console (key ^) to receive the swords, enter:\r\nhelp \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"Warsword\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" 4\r\nwrite down the displayed code and enter:\r\nplayer.additem CODE 1\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"1\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" = amount\r\n\r\nOR\r\n\r\nplayer.addperk 000cb40f\r\nto unlock the Elven smithing perk.\r\n\r\nTo uninstall the weapon just delete the extracted files.\r\n\r\nThe package includes 1h and 2h version,same stats as Elven 1h and 2h sword but standalone.\r\n\r\nThx & have fun!",
+  "categoryId": "55",
+  "version": "1",
+  "author": "Caretaker",
+  "createdUnix": "1343209554",
+  "updatedUnix": "1343209719",
+  "containsAdultContent": false,
+  "uploadedBy": "Dorner",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "76526",
+      "name": "Elven Battleswords",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2373",
+      "fileName": "Elven Battleswords-21070-1.rar",
+      "uploadedUnix": "1343209719",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/c69e5febf65579f43143284cb89b8ad44e6d9035309816661d097a313a13a08f/analysis/1407044781/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Elven%20Battleswords-21070-1.rar?fid=76526&ttl=1535789609&ri=8192&rs=8192&setec=c0ba0772f7069dd8b3129f6a5e1ada1f"
+    }
+  ]
+}

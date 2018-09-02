@@ -1,0 +1,48 @@
+{
+  "modId": 13130.0,
+  "modName": "Summon Ice Wall",
+  "summary": "Drawing upon the powers of both Conjuration and Destruction magics, draw pure water from the Elemental Planes and freeze it into a solid wall to block and distract your foes. Buy valuable time to dispatch a foe before the rest of the horde can break through!",
+  "descriptionHtml": "Also available on Steam: http://steamcommunity.com/sharedfiles/filedetails/?id=16781\r\n\r\nFixed Summoning/Magicka Absorption bug, thanks to Nanayo!\r\n\r\nSaioden has featured this mod in Skyrim Mods Series #37\r\n[youtube]DTbT2usDaVc[/youtube]\r\n\r\nThis mod has been featured in Brodual Bits \\'n\\' Bobs:\r\n[youtube]MpmaGSBEhI4[/youtube]\r\n\r\nAnd a mod demo video by beatbox567:\r\n[youtube]mtfDNZbNW6Y[/youtube]\r\n\r\n\r\n\r\nThanks folks! \r\n\r\nDetails\r\n=======\r\nThis spell creates a massive wall of ice at the target location. The wall will appear at right angles to the casting direction and will not allow anyone to cross its location. If cast in an open area, your foes will be delayed while they are forced to walk around it. If cast in an enclosed space, your foes will have to break it down to reach you. If you cast it near a stairway or other slope it is possible to jump on top of the wall and run across it.\r\n\r\nThe wall\\'s Health is 1/4 of your Magicka without Frost Augmentation, or 1/2 of your Magicka with it. \r\n\r\nThe wall deals slow frost damage to attackers. It is immune to ice attacks but takes extra damage from fire (like a Frost Atronach). \r\n\r\nFrost Augmentation increases the number of wall segments (width of the wall) from 6 to 8 at level 1, or from 8 to 10 at level 2. It also increases the wall height.\r\nElemental Potency affects the duration of the wall, making it last a maximum of 60 seconds instead of 30. It also extends the period of time that the wall is invulnerable to attack.\r\nThe Summoner perks correctly affects the maximum casting distance. \r\n\r\nLocation\r\n========\r\nFind the spell tome on Farengar\\'s desk in Dragonreach. \r\n\r\nIncompatibility\r\n===============\r\nAs far as I can tell this shouldn\\'t conflict with anything at all.\r\n\r\nKnown Issues or Bugs\r\n====================\r\nEnemies sometimes get stuck behind the wall without attempting to path around it. I have taken GREAT pains to keep this from happening (seriously, you have NO idea) but the bottom line is that this mod just does stuff Bethesda didn\\'t design Skyrim to do. There\\'s no way to update a navmesh at runtime, period. The enemy SHOULD start trying to break the wall down (once it becomes vulnerable) if they can\\'t get around it, though.\r\n\r\nRepeatedly casting Summon Ice Wall, particularly before the first one has finished its appearance animation, may result in the new Ice Wall missing segments and/or the old one lingering a little longer than usual.\r\n\r\nThere should not be ANY way for you to get the wall statics stuck for much longer than their duration. Although this was a problem early in development I have placed MANY safeguards against this. It has not happened in my testing. If this happens see the following section. \r\n\r\nStuck Icewall(!)\r\n============\r\nIf an icewall does NOT disappear after 60 seconds, try the following:\r\n* Hit T and Wait at least one hour of in-game time. The wall should vanish a few seconds later.\r\n* Leave the map you are on and come back. If you are outside, enter a town and return.\r\n\r\nIf neither of these does the trick, press ~ to bring up the console, click the icewall with the mouse, type disable in the console and press enter. This will remove the wall from your map but it may still add to your savegame size.\r\n\r\nIF this happens to you PLEASE let me know the circumstances so I can fix it ASAP!\r\n\r\nTechnical\r\n=========\r\nThis spell is fairly complicated and required a lot of testing. It uses a Summoned invisible actor to place several ice-pillar statics at the target location. Additional actors are placed to aid the enemy AI in pathing around the wall. These actors have several events tied to them to prevent the statics from getting stuck on the map. \r\n\r\nInstallation\r\n=======\r\n\r\n1. Extract this archive to any folder and then copy the contents to Skyrim\\'s Data\r\nfolder.\r\n2. Start Skyrim, click Data Files, and enable the ElemIceWall.esp file.\r\n\r\nOr simply use Nexus Mod Manager. ;)\r\n\r\nUninstall\r\n=========\r\n\r\n1. Start Skyrim Launcher, click Data Files, uncheck the ElemIceWall.esp file(s).\r\n2. Delete the files/folders associated with the mod.\r\n\r\nSkyrim\\\\Data\\\\ElemIceWall .esp\r\nSkyrim\\\\Data\\\\Scripts\\\\ELEMSummonIceWallActor.pex\r\nSkyrim\\\\Data\\\\Scripts\\\\Source\\\\ELEMSummonIceWallActor.psc\r\n\r\nOr just use Nexus Mod Manager.\r\n\r\nUpgrade\r\n=======\r\nJust overwrite everything, no problem.\r\n\r\nHistory\r\n=======\r\n0.5b, 2012/03/17 – Initial release to Nexus and Steam.\r\n\r\nContact\r\n=======\r\nverteiron@gmail.com\r\n\r\nCredits\r\n=======\r\n\r\nThanks to Bethesda for creating Skyrim and the Creation Kit.\r\nThanks to Valve for providing an easy way to take my first baby steps in mod publishing.\r\nThanks to NexusMods for showing me the RIGHT way to publish mods.\r\n\r\nTools Used\r\n==========\r\n7-Zip\r\nReadme Generator - http://HammondsLegacy.com/obmm/tools_readme_generator1.asp\r\nCreation Kit\r\n\r\nLicensing/Legal\r\n===============\r\n\r\nYou must contact me and obtain my permission before re-packaging any part of\r\nthis mod. If I do not respond within 2 weeks, feel free to do whatever you\r\nlike with this mod.",
+  "categoryId": "75",
+  "version": "0.6b",
+  "author": "Verteiron",
+  "createdUnix": "1332036608",
+  "updatedUnix": "1332122180",
+  "containsAdultContent": false,
+  "uploadedBy": "verteiron",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "44299",
+      "name": "SummonIceWall",
+      "version": "0.5b",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "14",
+      "fileName": "SummonIceWall-13130.7z",
+      "uploadedUnix": "1332036648",
+      "modVersion": "0.5b",
+      "virusScanUrl": "https://www.virustotal.com/file/4f7393af70d8cfa5e823f51dba21db08fe0d062e3d70f018444be5dde4816326/analysis/1406761387/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SummonIceWall-13130.7z?fid=44299&ttl=1535775613&ri=8192&rs=8192&setec=f59474ade495f11b1be39a1aaca6559d"
+    },
+    {
+      "fileId": "44670",
+      "name": "SummonIceWall06b",
+      "version": "0.6b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "14",
+      "fileName": "SummonIceWall06b-13130-0-6b.7z",
+      "uploadedUnix": "1332122180",
+      "modVersion": "0.6b",
+      "virusScanUrl": "https://www.virustotal.com/file/b5d9f59efd55aa1eef2f92edfa54a6d3d6e35041af4eb40921e269b234aab3e2/analysis/1406767330/",
+      "changelogHtml": " Fixed Summoning/Magic Absorption bug, thanks to Nanayo on Skyrim Nexus for the fix! <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SummonIceWall06b-13130-0-6b.7z?fid=44670&ttl=1535775613&ri=8192&rs=8192&setec=b21f7b39d688746cfa4fe865713034b7"
+    }
+  ]
+}

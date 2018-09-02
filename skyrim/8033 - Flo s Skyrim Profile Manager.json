@@ -1,0 +1,32 @@
+{
+  "modId": 8033.0,
+  "modName": "Flo s Skyrim Profile Manager",
+  "summary": "A profile / save game manager for skyrim.",
+  "descriptionHtml": "A lightweight profile manager for skyrim.\r\n\r\nI was too scared to use any of the other profile managers I found, so I wrote my own. I used it for quite a while now and I haven\\'t destroyed any of my own safe games ;), so I decided to share it with the world\r\n\r\nRequirements:\r\n\r\n\r\n- Windows VIsTA and above, (WIN XP ist NOT supported!!!)\r\n- .NET 4.0 framework\r\n\r\n- Skyrim must be properly installed.\r\n_ Skyrim as well as the profile manager store their save games under mydocs/mygames, so make sure u have ENOUGH space on your drive!\r\n\r\n\r\nThe profile manager does not copy save games, it uses symlinks instead. This is much faster and safer, but it requires at least windows vista.\r\n\r\n\r\nUsage:\r\n\r\n\r\n- BACKUP your current save games, even though your save games will be backuped automatically on first start - just to be sure. \r\n  They are normally located under: My Documents\\\\My Games\\\\Skyrim\\\\Saves\r\n\r\n- Install the profile manager.\r\n\r\n- Run the profile manager\r\n\r\n- On first startup the pm will look for your current saves and backs them up under My Documents\\\\Skyrim\\\\Profiles\\\\FirstBackup.\r\n\r\n- You will be asked for a profile name for your current save games. Your current save games will be available under that profile then.\r\n\r\n- After these steps, the pm will delete the saves folder and replaces it with a symlink pointing to your profile.\r\n\r\n- That\\'s it.\r\n\r\n- Your first profile will be available now in the pm.\r\n\r\n\r\nAdditional info:\r\n\r\n- When switching profiles, a console window will open for a short time, this is because the mklink command is invoked.\r\n- The pm does not need to run in order to play skyrim. Skyrim will just use the current symlink that points to a profile.\r\n- The pm does not store any meta data on your hd. It just uses the symlink.\r\n\r\n- U can also ADD profiles outside the PM by creating a folder in the profiles directory and copy save games to it.\r\n  When u restart the PM it will pick the new folder up as a profile.\r\n\r\n- U can RENAME a profile by doing the following: \r\n\r\n\tDeactivate the profile u want to rename - that is activate a profile different from the one u want to rename ;).\r\n\tClose the PM\r\n\tGo to profile dir: My Games\\\\Skyrim\\\\Profiles\r\n\tRename the profiles directory that u wanted to rename\r\n\tStart the PM again.\r\n\r\n\r\nUninstall:\r\n\r\nIf u decide for whatever reason not to use the PM anymore do the following:\r\n\r\n- Open the Windows Explorer, go to My Documents\\\\My Games\\\\Skyrim\r\n- Make sure \\\\Saves is actually a symlink (A symlink in the explorer has a small arrow in the left corner of the folder icon)\r\n- Remove the Saves symlink using the explorer. It will only remove the link, not the files behind it.\r\n- Create a new folder named \\\"Saves\\\"\r\n- Copy whatever save games u want into the saves folder.\r\n- Done\r\n\r\nFAQ:\r\n\r\nQ: Can I use the profile manager together with ScriptExtender?\r\nA: Yes, just dont start skyrim from within the profile manager. Switch the profiles and use scriptextender to start skyrim.\r\n\r\nQ: Where are my profiles stored?\r\nA: Normally under My Documents\\\\My Games\\\\Skyrim\\\\Profiles\r\n\r\nQ: Can I prevent the auto-backup during first boot?\r\nA: No, not at the moment.\r\n\r\nQ: Do I have to keep the auto backup files in Profiles\\\\FirstBackup ?\r\nA: No, if u have backuped your saves somewhere else or u\\'r sure u dnt need them u can delete the auto backup files. \r\n",
+  "categoryId": "39",
+  "version": "1.0.0.1",
+  "author": "Flo",
+  "createdUnix": "1328635525",
+  "updatedUnix": "1328635810",
+  "containsAdultContent": false,
+  "uploadedBy": "thare",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "26653",
+      "name": "Flos_profile_manager_1_0_0_1",
+      "version": "1.0.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "241",
+      "fileName": "Flos_profile_manager_1_0_0_1-8033-1-0-0-1.zip",
+      "uploadedUnix": "1328635810",
+      "modVersion": "1.0.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/90b5354b918d52b4d9f0b4c884cc674ab8ff7d2a71dfc689d3b1f2ae48886f6b/analysis/1406658019/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Flos_profile_manager_1_0_0_1-8033-1-0-0-1.zip?fid=26653&ttl=1535766440&ri=8192&rs=8192&setec=7e730c3bc97090809f211eb6832afecf"
+    }
+  ]
+}

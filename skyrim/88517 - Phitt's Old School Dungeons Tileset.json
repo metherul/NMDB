@@ -1,0 +1,48 @@
+{
+  "modId": 88517.0,
+  "modName": "Phitt's Old School Dungeons Tileset",
+  "summary": "Conversion of Phitt's modder's resource for Oblivion.",
+  "descriptionHtml": "This is a conversion of Phitt's Daggerfallesque modder's resource for Oblivion, which can be found here:\n<br />\n<br />https://www.nexusmods.com/oblivion/mods/23633/?\n<br />\n<br />The pieces snap to grid like a dream!  I have included the whole set, but the traps and other activators won't work in Skyrim, since the NiControllerManager works differently in the nif files.  (The branch could easily be removed from the files in NifScope if you like the mesh.) \n<br />\n<br />I have included a small demo if you want to see what the pieces look like in-game.  Simply type\n<br />\n<br />coc aaaPhittDemo\n<br />\n<br />(and tcl if you get stuck in the pit).\n<br />\n<br />Update 2/24/18:  I have removed some of the Oblivion extra data from the following .nif files:  PhittPit2way02, PhittDecoMetal02,\n<br />\n<br />and made the following doors/animated objects functional.  To use them, simply duplicate the corresponding item in the CK, and change the mesh to the relevant Phitt mesh:\n<br />\n<br />PhittButtonGemGreen02, PhittButtonGemRed02........ImpButton01\n<br />PhittDoorLoad02.................................................................WHmetalarchdoor\n<br />PhittGate02..........................................................................NorPortcullisLarge01\n<br />PhittPPlate02.......................................................................TrapPressurePlateDwe01",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "Phitt",
+  "createdUnix": "1513948671",
+  "updatedUnix": "1519495852",
+  "containsAdultContent": false,
+  "uploadedBy": "Oracus0",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000262448",
+      "name": "Phitt Dungeon",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4289",
+      "fileName": "Phitt Dungeon-88517-1-0.7z",
+      "uploadedUnix": "1513948510",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4e44f0656f4ad2eeddf40067ca017d3cfa3b5dab568ae90046e7ea330855fd8f/analysis/1513948756/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Phitt%20Dungeon-88517-1-0.7z?fid=1000262448&ttl=1535877763&ri=8192&rs=8192&setec=58cf0ec3df0d94b1b163c4dc5f7c5399"
+    },
+    {
+      "fileId": "1000267130",
+      "name": "PhittFixed",
+      "version": "1.0",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "21",
+      "fileName": "PhittFixed-88517-1-0.7z",
+      "uploadedUnix": "1519495852",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/154b0eb2c6c0590f927ad20388aaf37e70632dd3ea4dfe1f0f59ffe77dc78a66/analysis/1519496222/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PhittFixed-88517-1-0.7z?fid=1000267130&ttl=1535877764&ri=8192&rs=8192&setec=504a7f150e6f8ad998a47ba78c99f9b1"
+    }
+  ]
+}

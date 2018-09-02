@@ -1,0 +1,32 @@
+{
+  "modId": 60028.0,
+  "modName": "More Spawns - Scriptless",
+  "summary": "By the power of Tes5Edit, I have the power&#33;\r<br />\r<br />To allow more spawns without the need of Papyrus scripts bogging down the game.",
+  "descriptionHtml": "[i][center][b][u][size=5]WHAT IS THIS BLASPHEMY&#33;?[/size][/u][/b]\r<br />A short story by FiftyTifty.[/center]\r<br />\r<br />Asis keeps makin&#39; me Skyrimsie Cee Tee Dee-weezie, and tha&#39; dang ol&#39; Skyrim-sual More Spawn-ification keeps on buggerin&#39; oot&#33;\r<br />[/i][b]\r<br />Wa-hey, guess what? Good ol&#39; Uncle Fi&#39;ty Ti&#39;ty dun made more spawns, and ain&#39;t no Papyrus gon&#39; bog down yer game&#33;[/b]\r<br />\r<br />[i]But how is such a thing possible&#33;? Surely one must attach scripts to all the generic base objects, which then place a copy alongside the vanilla spawn&#33;\r<br />\r<br />[/i][b]Biawtch, not in my backyard&#33; I got me Tes5Edit and Pascal; All I gotsa do is duplicate the original spawn points&#33; I AM THE KING&#33;\r<br />\r<br />[/b][center][u][i][b][size=5]Fin.[/size][/b][/i][/u][/center]\r<br />\r<br />\r<br />[center]*Achem*[/center]\r<br />\r<br />What I mean to say, is that I have negated the need of having a gajillion Papyrus scripts running, to artifically increase the number of spawns. The alternative most people think of, is to use the CK and add more spawn points manually. Which would take an age.\r<br />\r<br />Thanks to Tes5Edit&#39;s scripting capabilities, I can increase all the spawn points without any conflicts.\r<br />\r<br />So what does this mean? Why, more performance&#33; There aren&#39;t any scripts running to cause save game bloat nor overburden your CPU.\r<br />\r<br />\r<br />\r<br />What I&#39;ve not done, is increased the number spawns for: Thalmor, Imperial soldiers, Stormcloak soldiers, The Vigilant of Stendarr and boss enemies.\r<br />\r<br />My reasoning for this, is that the civil war could very well throw a fit with more imperials and stormcloaks (particularly if you&#39;re using Civil War Overhaul); the Thalmor Embassy quest may also not be so happy with more elves struttin&#39; their stuff.\r<br />\r<br />The Vigilant of Stendarr has so few placed spawns, that I assume that they&#39;re used by a quest, so I shan&#39;t dabble with them; and for the bosses, well, it ain&#39;t right to see multiple Bandit Bosses, y&#39;know? That, and I remember there being several Bandit Bosses being used by quests.\r<br />\r<br />\r<br />[center][b]But other than that, hey&#33; MORE SPAWNS&#33;[/b][/center]\r<br />\r<br />Oh, I forgot ta mention. [s]I also didn&#39;t touch the Falmer and Dwarven constructs. Falmer are feckin&#39; impossible to begin with, so adding more of them is just a headache, rather than a challenge. Similar situation with the Dwarven thingies, and they also give a buttload of money-making snazzle. They both also tend to be placed in tunnels and closed spaces, which is...Ergh.\r<br />\r<br />It&#39;s a breeze to add them in, but I cannae be fagged doing it if there ain&#39;t demand fer it.[/s]\r<br />\r<br />Oh, I forgot ta mention that I did, in a &#34;I-didn&#39;t-add-them-into-the-premade-.esp-files-but-you-can-easily-generate-the-falmer-and-dwemer-spawns-by-using-the-TES5Edit-script&#34; sort of way.\r<br />\r<br />\r<br />\r<br />[size=1]Look, I don&#39;t get paid for this.[/size]\r<br />\r<br />[center][size=5][u][i]Requirements[/i][/u][/size][/center]\r<br />\r<br />\r<br />[center][i][b][size=5]Dawnguard, Hearthfire, Dragonborn.\r<br />\r<br />The unofficial patches for the above DLC.[/size][/b][/i]\r<br />\r<br />\r<br />[size=5][u][i][b]Install Instructions\r<br />\r<br />[/b][/i][/u][/size]Place one of the .esp files in your Data folder. Simple.\r<br />\r<br />\r<br />[i][u][b][size=5]Translations[/size][/b][/u][/i]\r<br />[size=4]\r<br />Chinese - By user &#34;aimaozhai&#34; - www.skycitizen.net/post/112523[/size][/center]",
+  "categoryId": "33",
+  "version": "v1.20",
+  "author": "ME DANGNAMMIT",
+  "createdUnix": "1416172906",
+  "updatedUnix": "1454096538",
+  "containsAdultContent": false,
+  "uploadedBy": "FiftyTifty",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000193295",
+      "name": "More Spawns - Scritpless V1.20",
+      "version": "v1.20",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "778",
+      "fileName": "More Spawns - Scritpless V1.20-60028-v1-20.7z",
+      "uploadedUnix": "1454096538",
+      "modVersion": "v1.20",
+      "virusScanUrl": "https://www.virustotal.com/file/e4c2b9acc2d8ae6d388a57a9ad0a9190e95bb470963036f3ecd4860c4a7d1107/analysis/1454096584/",
+      "changelogHtml": " Fixed the &#34;if&#34; loops. Turns out that pascal ignores &#34;and&#34; statements for them.\r<br />\r<br />Renumbered the FormID lists to work with USLEEP.\r<br />\r<br />Added comments to the script files. Should help those who want to understand what the scripts do. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/More%20Spawns%20-%20Scritpless%20V1.20-60028-v1-20.7z?fid=1000193295&ttl=1535847551&ri=8192&rs=8192&setec=fd93f6d5e8d6c48bcee24912b1c70b11"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 66483.0,
+  "modName": "Followers Pick Equipment",
+  "summary": "Tired of dressing your followers like dolls? \r<br />You want to just drop the equipment and ask followers to manage it themselves, because you have other things to do. \r<br />\r<br />Now you can. The choice depends on their skills.\r<br />",
+  "descriptionHtml": "The mod doesn&#39;t require SKSE. That also means no MCM, sorry.\r<br />\r<br />[color=yellow]Compatible with almost everything (except custom containers).\r<br />Works with ANY follower system.\r<br />Works with ANY follower.[/color]\r<br />\r<br />You have some followers, you have some gear. You want to just drop the equipment and ask followers to manage it themselves, because you have other things to do. Now you can. The mod is designed for those who have a lof of followers and need some help with managing their gear without breaking immersion.\r<br />\r<br />[youtube]ocWjS5aYhLA[/youtube]\r<br />\r<br />Followers will take and equip items that fit their skills and try to dispose of the rest. For example, if a follower have low archery skill, he won&#39;t keep the bow in the inventory. Enchantments that force specific skills are also taken into account.\r<br />\r<br />Two modes:\r<br />\r<br />[color=#00ffff][u]Fully automatic mode.[/u] [/color]\r<br />[list=1]\r<br />[*]Drop some items to the ground or store stuff into containers. \r<br />[*]Order your followers to search the nearby area: Select the topic [color=yellow][b]&#34;Gear yourself up&#34;.[/b] [/color]\r<br />[*]Please note that the process won&#39;t stop automatically, they will iterate forever. Draw your weapon and manually select the topic [color=yellow]&#34;Finish preparations&#34;.[/color]\r<br />\r<br />[/list]\r<br />\r<br />They will look for any wereable object. They will not steal.\r<br />If a follower takes items [i]from a container[/i], he can put the garbage objects into this container (so other followers can have access to the old stuff).\r<br />If a follower takes item[i] from the ground[/i], he won&#39;t drop conflicting objects to the ground (the beta version did that, but there are serious issues with item disappearing), however they will remain in his inventory unequipped.\r<br />      \r<br />[b]Special notes:[/b]\r<br />[list]\r<br />[*]This mode is slow, single follower will pick single item, then another follower will do the same.\r<br />[*]Don&#39;t put everything into a single container. That will create a crowd around it, so followers can get hard times navigating to this single chest.\r<br />[*]Leave your followers, don&#39;t try to watch and &#34;fix&#34; their choices. Do something in parrallel, alchemy, smithing, dialogues, etc. Fix their gear aftermath.\r<br />[*]Recommended to place small packs of items that have no conflicts with the equipped gear.\r<br />[*]Followers can stuck due to navigation routine. Enter the &#34;commands&#34; (&#34;favors&#34;) menu by holding the &#34;use&#34; key on the follower. Or simply order another follower to Gear up.\r<br />[*]If both items (the equipped and the new one) suit the skills, follower will favor the most expensive object.\r<br />[*]In this mode followers usually don&#39;t keep two items of the same type in the inventory (for example, if they pick a helmet - either the new helmet or the old one will go to the source container). Characters will keep minimal amount of items that suit their skills.\r<br />[*]The automatic mode may fail to work with custom containers.\r<br />[/list]    \r<br />[u][color=#00ffff]Manual mode[/color][/u]\r<br />Order your follower to take all the fitting gear from the specific container and ignore  the rest.\r<br />\r<br />[list=1]\r<br />[*]Select the topic &#34;Gear yourself up&#34;\r<br />[*]Enter the commands menu\r<br />[*]Point at the container\r<br />[*]Exit the commands menu after the items are taken\r<br />[/list]\r<br />Special notes:\r<br />[list]\r<br />[*]After the task is completed, followers will go to the automatic mode and remain in this state until you disable it (via[b] &#34;Finish preparations&#34;)[/b].\r<br />[*]Characters will keep maximum amount of items that suit their skills.\r<br />[/list]\r<br />Please, note that such procedure should serve as a draft. You still need to [b][u]manually [/u][/b]review the source containers and the follower&#39;s inventory after that.\r<br />Please, make sure to enable papyrus logs before installation, if you share the log it can help to track potential issues with the character&#39;s choices.\r<br />\r<br />This mod is not my priority and I can&#39;t promise any new features.",
+  "categoryId": "96",
+  "version": "0.6",
+  "author": "flexcreator",
+  "createdUnix": "1433096359",
+  "updatedUnix": "1433102032",
+  "containsAdultContent": false,
+  "uploadedBy": "flexcreator",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000162422",
+      "name": "Followers Pick Equipment 0_5 EN",
+      "version": "0.5",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Followers Pick Equipment 0_5 EN-66483-0-5.rar",
+      "uploadedUnix": "1433095988",
+      "modVersion": "0.5",
+      "virusScanUrl": "https://www.virustotal.com/file/30185ea8ce6626cc4109a0f9396cecdd3142ba242a2ca64afc09cc69401d2308/analysis/1433096042/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Followers%20Pick%20Equipment%200_5%20EN-66483-0-5.rar?fid=1000162422&ttl=1535854986&ri=8192&rs=8192&setec=cbfce11e21940b800ef5ee27fd620b1a"
+    },
+    {
+      "fileId": "1000162439",
+      "name": "Followers Pick Equipment 0_6 EN",
+      "version": "0.6",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Followers Pick Equipment 0_6 EN-66483-0-6.rar",
+      "uploadedUnix": "1433102032",
+      "modVersion": "0.6",
+      "virusScanUrl": "https://www.virustotal.com/file/1e9f2d66f1eb32f7ed2102d93c1ce6fff7e4cfa48aeea3b4b296c03ccc918d12/analysis/1433102043/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Followers%20Pick%20Equipment%200_6%20EN-66483-0-6.rar?fid=1000162439&ttl=1535854987&ri=8192&rs=8192&setec=f55025827f892d66371828d14dcabc0f"
+    }
+  ]
+}

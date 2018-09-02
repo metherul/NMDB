@@ -1,0 +1,48 @@
+{
+  "modId": 7098.0,
+  "modName": "True Leggings PoC",
+  "summary": "Add true separated Cuirass and Leggings.",
+  "descriptionHtml": "Finally done! : http://skyrim.nexusmods.com/mods/23173/\r\n\r\n/!\\\\ This is more a proof of concept than anything, but you can re-use it for your own armor if you want, just give me credit for the original idea. /!\\\\\r\n\r\n!!!Update!!!\r\n-30/01/2012-\r\nI added a new files, it contain an .Esp of a functional DragonScale Armor/Leggings duo. It will work how it\\'s intended to do in the final version, that mean : The Cuirass actually replace the full armor. The Leggings are craftable ( And the cost to craft the cuirass and the leggings are lowered, same things for the weight,price and defense value.) you can also found the leggings in every place you could find the full armor.\r\nNOTE : This contain an alternative body model that the game will load as long as the .Esp is checked, it doesn\\'t replace the original body, it just load another one instead, same goes for the DragonScale Armor.\r\n\r\nIssue,for now :\r\n- A bit of clipping when you wear the leggings alone at weight 100.\r\n- When you save with the Leggings equipped, then reload the same save,they will not appear anymore if you wear anything in the Cuirass slot, even Vanilla Armor. to fix it, unequip the leggings ,save and load the new save, your leggings should render correctly.\r\n- Leggings are enchantable. More a balance issue. This will be fixed when the CK will be out.  \r\n- Leggings CAN be equip with Vanilla Cuirass, that mean clipping, a lot of clipping. that can only be fixed by modifying every Armor and Clothes to be compatible, until then, don\\'t wear Leggings with Vanilla Armor.\r\n\r\nMost of the issue above may be fixed with the CK, some with scripts, some with the configuration.\r\n\r\n------------\r\nThis plugins add 2 armor parts, a cuirass and the matching legging. You can wear them together or separately, It work exactly how it does in Oblivion.\r\n\r\nTo install, extract all to Data and check \\\"TrueLeggingsPoC.esp\\\" In data files.\r\nTo get the \\\"test\\\" Cuirass and Leggings open the console and type :\r\n\r\nplayer.additem XX001000 1\r\nplayer.additem XX001008 1\r\n\r\n-------------\r\n\r\nYou can actually use the same technique to add up to 6 usable equipment slot.\r\n\r\nI\\'ll add a tutorial about how to do it later, when I\\'ll have time!\r\n\r\n\r\n------------\r\n\r\nupdate about the current progress :\r\n\r\nI\\'m currently working on making Male and Female dragonscale armor and correcting some details on the glass armor. \r\n\r\nI\\'ve encountered a little problem that slow me down, but i think it\\'s a SkyEdit problem, as opening then saving the files tend to randomly create or fix the problem. \r\n\r\nSome may have discovered a details on the image when my character wear only the glass leggings, the underwear appear between is legs, it\\'s because the body models didn\\'t disappear correctly... it\\'s now fixed! yay! \r\n\r\nalso, i found a way to make the new cuirass take the place of the new one WITHOUT editing the old models, I\\'m just ordering to the game to use the new model instead of the old one. \r\nThat mean, that if you want to uninstall the mod, you\\'ll just need to uncheck the .esp, and the leggings will disappear and your cuirass will turn back to vanilla states.",
+  "categoryId": "54",
+  "version": "0.1",
+  "author": "Topvman",
+  "createdUnix": "1327602298",
+  "updatedUnix": "1327939438",
+  "containsAdultContent": false,
+  "uploadedBy": "Topvman",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "23222",
+      "name": "TrueLeggingsPoC",
+      "version": "0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "750",
+      "fileName": "TrueLeggingsPoC-7098.rar",
+      "uploadedUnix": "1327602404",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/81861b98857e3dc42297a62db2e4ddd677586b08fa906aaae66557c29c478c2c/analysis/1406639235/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TrueLeggingsPoC-7098.rar?fid=23222&ttl=1535764953&ri=8192&rs=8192&setec=ef0ab1903517a1ca5a1581d73f6a3032"
+    },
+    {
+      "fileId": "24342",
+      "name": "TrueLeggings Dragonscale ",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1617",
+      "fileName": "TrueLeggings Dragonscale -7098-1.rar",
+      "uploadedUnix": "1327939438",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/5531230516772b5a89c5f3962f719c74ad92f82b9d6025f9f295a63295be1901/analysis/1406645404/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TrueLeggings%20Dragonscale%20-7098-1.rar?fid=24342&ttl=1535764954&ri=8192&rs=8192&setec=783264e66afa67f8c54d34275c08c748"
+    }
+  ]
+}

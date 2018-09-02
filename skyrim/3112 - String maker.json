@@ -1,0 +1,48 @@
+{
+  "modId": 3112.0,
+  "modName": "String maker",
+  "summary": "Allows you to create .(IL|DL|)STRINGS files for your mods.",
+  "descriptionHtml": "[b]Update:[/b] Most codepages are available now. Note: The codepage selection only takes effect when opening or saving a file as the areas of text on the app itself are unicode.\r\n\r\nAllows you to create/modify .(IL|DL)STRINGS files for your mods. From what people have told me, it works well in conjunction with this app: http://skyrimnexus.com/downloads/file.php?id=2889\r\n\r\nThe author of the tool linked above was nice enough to share some info with me that is pretty good info to have when creating your string files. Here\\'s what I was told (these are unconfirmed - if you can confirm it let me know):\r\n\r\n\\\"STRINGS seems to be for FULL records\r\nDLSTRINGS seems to be for DESC records\r\nILSTRINGS I believe is for dialog strings\\\"\r\n\r\nIt is in a very crude state because initially it was just something for me to use for translating other apps, but it works. I may make it a bit prettier in the future, but right now it\\'s uncertain, however other codepages _will_ be supported.\r\n\r\nThere is an automatic backup system in place where instead of overwriting a file it will move the original to <whatever>.backup, however if that file already exists a backup will not be made.\r\n\r\nThe string ids should auto-increment when adding new strings, so you can quickly move to the next string edit box by hitting tab 2 times and not have to worry about a numbering system if you don\\'t want to.\r\n\r\nThis does reproduce the files exactly as they are in my Data\\\\Strings\\\\ folder, so they should work for mod production, though bugs are possible.\r\n\r\n\r\n\r\n\r\n\r\nFeel free to ask questions in the comments if you have them.\r\n\r\n[b]Change log:[/b]\r\n1.2 - 1.3\r\nFixed the string \\\"duplication\\\" bug for .STRINGS files when a null string was entered.\r\n1.1 - 1.2\r\n0-length strings no longer throw exceptions\r\n1.0 - 1.1\r\n- Added multiple codepages\r\n- Added a second column to display the hex value of the ID (for easier input into esm/esp/etc files)\r\n\r\n[b]Special Note:[/b] If you did not download this from a site listed below, you have downloaded it from an unauthorized source and will receive no assistance with it.\r\n\r\nskyrimnexus.com",
+  "categoryId": "39",
+  "version": "1.3",
+  "author": "hexorcist",
+  "createdUnix": "1323411989",
+  "updatedUnix": "1326159348",
+  "containsAdultContent": false,
+  "uploadedBy": "hexorcist",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "17446",
+      "name": "String Maker 1_2",
+      "version": "1.2",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "String Maker 1_2-3112.zip",
+      "uploadedUnix": "1325920903",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/4a7008c9d97ecb2907e63b50e39339976a130521e7f91d379e2ea8666230cc48/analysis/1406589962/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/String%20Maker%201_2-3112.zip?fid=17446&ttl=1535757889&ri=8192&rs=8192&setec=357b2e5c8856d477e47226887fd2a995"
+    },
+    {
+      "fileId": "18386",
+      "name": "String Maker 1_3",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "String Maker 1_3-3112-1-3.zip",
+      "uploadedUnix": "1326159348",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/c3f703fc97cc58d801652c8c7095980e1bbff93a875980d269b23de275897705/analysis/1406598066/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/String%20Maker%201_3-3112-1-3.zip?fid=18386&ttl=1535757889&ri=8192&rs=8192&setec=c1051cb928644b488941cc217f7cd99d"
+    }
+  ]
+}

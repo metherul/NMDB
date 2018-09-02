@@ -1,0 +1,48 @@
+{
+  "modId": 49600.0,
+  "modName": "Sleep Menu Extender",
+  "summary": "This mod allows you to configure the maximum amount of hours you can rest or wait. Also comes with a simple version to just rest 744 hours, or 31 days.",
+  "descriptionHtml": "Sleep Menu Extender by Kyoma\r<br />---------------------------------\r<br />\r<br />A tiny mod that lets you configure the maximum amount of hours you can sleep/wait at a time. To change it open the console and type &#34;set SleepMenuMaxHours to X&#34;, where X is the maximum you want. There is no real limit but values over 999 cause the text to be slightly clipped. If you have a legitimate reason for doing so then there is something very very wrong with you.... \r<br />\r<br />For those that are just interested in 31 days of non-stop resting there is a &#34;Simple&#34; version which consists of just a modified menu that sets the max to 744, or 31 days.\r<br />\r<br />Install \r<br />----------\r<br />Extract the archive to your &#34;SkyrimData&#34; folder\r<br />\t- The normal version only contains an esp and a bsa (for the script files)\r<br />\t- The simple version only contains a modified menu file.\r<br />\r<br />Uninstall\r<br />------------\r<br />For the normal version remove the esp & bsa\r<br />\r<br />For the simple version you can just remove &#34;DataInterfaceSleepWaitMenu.swf&#34;.\r<br />\r<br />\r<br />Permission\r<br />-------------\r<br />You may do whatever with the mod since it&#39;s just a tiny change and a tiny script.\r<br />\r<br />\r<br />Credits\r<br />----------\r<br />The SKSE team for their wonderful work on expanding the modding possibilities.\r<br />The SkyUI team for decoding & decompiling the interface files, without it this mod wouldn&#39;t be possible.",
+  "categoryId": "42",
+  "version": "1.0",
+  "author": "Kyoma",
+  "createdUnix": "1389014553",
+  "updatedUnix": "1389014548",
+  "containsAdultContent": false,
+  "uploadedBy": "KyoParadox",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000090183",
+      "name": "SleepMenuExtender - Simple",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "60",
+      "fileName": "SleepMenuExtender - Simple-49600-1-0.zip",
+      "uploadedUnix": "1389014485",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/03b8e0ee70cf704b773988c9532bea402f855cef837bd2e3c0c0c9193975a45e/analysis/1407874806/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SleepMenuExtender%20-%20Simple-49600-1-0.zip?fid=1000090183&ttl=1535830632&ri=8192&rs=8192&setec=8f2282269f2a9b24484a1049d3eb2692"
+    },
+    {
+      "fileId": "1000090184",
+      "name": "SleepMenuExtender",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "SleepMenuExtender-49600-1-0.zip",
+      "uploadedUnix": "1389014548",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2ec6253f5805072c1fc8abfd3ab0409118f0f2d1e3ccd54a193070484a33b65b/analysis/1407874807/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SleepMenuExtender-49600-1-0.zip?fid=1000090184&ttl=1535830633&ri=8192&rs=8192&setec=16ec96ecf32b5cf3575d055eccc23732"
+    }
+  ]
+}

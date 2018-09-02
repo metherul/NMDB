@@ -1,0 +1,48 @@
+{
+  "modId": 17851.0,
+  "modName": "Dremora Lord Thrall - Fully Intergrated",
+  "summary": "This mod adds a master spell to summon a Dremora Lord permanently.\r\nIt is fully integrated with the Quest \"Conjuration Ritual Spell\" and is obtained just like the other thrall spells.",
+  "descriptionHtml": "1.1 UPDATE: just a small fix for for 100% spell absorption making the spell unusable, and a small edit to the tooltip.\r\nApology's for the lack of communication and support for this mod, I really only do modding for myself and friends. Thus I just upload mods \"as is\", rather than monitoring their nexus page and developing for the community.\r\n\r\nDescription:\r\nThis mod adds a \"Dremora Lord Thrall\" spell that will summon a Dremora Lord permanently just like the \"Fire/Frost/Storm Thrall\" spells.\r\nIt is fully integrated into the quest \"Conjuration Ritual Spell\", which needs to be completed before it will appear for sale alongside the other Thrall spells.\r\nIts gold and magika costs are based off the ratio between the non permanent versions.\r\nAlso Just like its non-permanent version it is affected by the Conjuration perks Summoner, Atromancy, Twin Souls, and NOT affected by Elemental Potency. \r\n\r\n\r\nCompatibility:\r\nThis mod should only conflict with mods that change \" Conjuration Ritual Spell\" quest.\r\n\r\nFor Mod Makers:\r\nIf you are having compatibility issues here is a conflict list\r\n\r\nCreated Spell: CORDremoraLordThrall\r\n\r\nCreated Magic Effect: CORSummonDremoraLordThrall\r\n\r\nCreated Book: CORSpellTomeDremoraLordThrall\r\n\r\nLeveled List: LItemSpellTomes100Conjuration\r\n    Added item: CORSpellTomeDremoraLordThrall\r\n\r\nLeveled List: MGRitualConjurationBooks\r\n    Added item: CORSpellTomeDremoraLordThrall\r\n\r\nQuest: MGRitual03\r\n    Quest Stage: 200\r\n        Script line 10: inserted: ConjurationVendorChest.AddItem(SpellTomeDremoraLordThrall,1)\r\n        Added Script Property: SpellTomeDremoraLordThrall",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "COR",
+  "createdUnix": "1338312816",
+  "updatedUnix": "1383969048",
+  "containsAdultContent": false,
+  "uploadedBy": "Aeon COR",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "64418",
+      "name": "Dremora Lord Thrall",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Dremora Lord Thrall-17851-1-0.rar",
+      "uploadedUnix": "1338313031",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7d0be8d731de55b629b7f612339ccdba52df47dc37ab0dd7cb512f7b13e1436a/analysis/1406923683/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dremora%20Lord%20Thrall-17851-1-0.rar?fid=64418&ttl=1535784255&ri=8192&rs=8192&setec=febbd3e5e56343e544ef996ac6affbb5"
+    },
+    {
+      "fileId": "1000076848",
+      "name": "Dremora Lord Thrall v1-1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Dremora Lord Thrall v1-1-17851-1-1.rar",
+      "uploadedUnix": "1383969048",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/5940bfc152830b1bb93e7e2f2a52254725b3688a5a49d22fb352eaa7d025bb71/analysis/1407785708/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dremora%20Lord%20Thrall%20v1-1-17851-1-1.rar?fid=1000076848&ttl=1535784255&ri=8192&rs=8192&setec=39c62cf15296cd37802ef5b6bf9de470"
+    }
+  ]
+}

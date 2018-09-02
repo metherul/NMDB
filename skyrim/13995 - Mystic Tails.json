@@ -1,0 +1,48 @@
+{
+  "modId": 13995.0,
+  "modName": "Mystic Tails",
+  "summary": "Adds craftable Argonian and Khajiit tails that can be enchanted and worn by all playable races. Uses actual tail slot and overrides default skeletons to properly animate the tails. Now with multiple colors available.",
+  "descriptionHtml": "Adds craftable Khajiit and Argonian tails that can be made at any smithing forge (found under misc). The basic tails can be enchanted with almost any enchantment, including Sabrecat Might, a new enchantment capable of boosting unarmed damage much more than the vanilla fortify unarmed enchantment (accessible by crafting and disenchanting a Khajiit Tail of the Sabrecat).\r\n\r\nDoes not modify races. This mod replaces the default skeleton with renamed copies of the skeletons used for Khajiits and Argonians. If you use another mod that modifies beast skeletons, you might need to copy and rename those to replace the skeletons I\\'ve provided to prevent conflicts.\r\n\r\nAs far as I have been able to tell, this does not cause any issues. These are the same as the skeletons found in my other tail mod - skyrim.nexusmods.com/downloads/file.php?id=13897\r\n\r\n-- VERSION 2.0:\r\n\r\nCan now craft various colors of Khajiit tails and a \\\"plain\\\" Argonian tail that will have a color close to the skin tone of any given character. Available colors are based on the default hair colors, but skin tone will affect the tails, so they won\\'t exactly match (especially if green, thus reinforcing the wisdom of Kermit).\r\n\r\nTails are now weightless.\r\n\r\n--\r\n\r\nCraftable items (found under misc):\r\n\r\nArgonian or Khajiit Tail - 1 Leather\r\n\r\nArgonian Kinship Tail (50% Disease Resistance, 50% Poison Resistance, Water Breathing) - 5 Leather, 5 Salmon Meat, 3 Skeever Tails\r\n\r\nKhajiit Kinship Tail (Match or surpass the Khajiit default unarmed*, Sneak +10, Pickpocket +10) - 5 Leather, 2 Sabre Cat Pelts\r\n\r\nKhajiit Tail of the Sabrecat (Sabrecat Might** 30, AKA +30 unarmed damage) - 10 Leather, 5 Sabre Cat SNOW Pelt\r\n\r\nArgonian or Khajiit Tail of the Archmage (All spells cost 15% less, +50 magicka, magicka regenerates 100% faster) - One adept robe from EACH school of magic.\r\n\r\n* +12 unarmed for all races with an additional +6 for non-Argonians and non-Khajiits. The end result is that all non-Khajiit races get an unarmed damage bonus equal to that of a Khajiit, and Khajiit claws become twice as effective.\r\n\r\n** Sabrecat Might\\'s base bonus to unarmed damage is 20, which is four times that of the vanilla fortify unarmed enchantment. With all relevant perks and 100 enchanting, it gives +50 to unarmed damage. This can be increased further with the help of fortify enchanting potions. Only tails and footwear can be enchanted with Sabrecat Might.\r\n\r\nTo install:\r\n\r\nUnzip and merge with the Skyrim data folder. Adds textures for the tails and overrides default skeleton.nif files. This is necessary for the tails to animate properly.\r\n\r\nTo uninstall:\r\n\r\nDelete or deselect DSmystictails.esp, then delete, rename, or overwrite the skeleton files (assuming they\\'re not being used by other mods). You can also delete the custom textures, though they shouldn\\'t conflict with anything whether they\\'re there or not. These files can be found in the skyrim folder under the following paths:\r\n\r\nData\\\\meshes\\\\actors\\\\character\\\\character assets\\\\skeleton.nif\r\nData\\\\meshes\\\\actors\\\\character\\\\character assets female\\\\skeleton_female.nif\r\n\\\\data\\\\textures\\\\actors\\\\character\\\\khajiits\\\\(17 .dds files, each 5.45 kb in size)",
+  "categoryId": "36",
+  "version": "2.0",
+  "author": "danshive",
+  "createdUnix": "1333085214",
+  "updatedUnix": "1333161327",
+  "containsAdultContent": false,
+  "uploadedBy": "danshive",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "48130",
+      "name": "DS_mystictails",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "27",
+      "fileName": "DS_mystictails-13995.zip",
+      "uploadedUnix": "1333085331",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a8bb14e4cbc596cc722d85b4a0eb76d5f2611492bb628ebf51cbba1d7bd0e274/analysis/1406787122/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DS_mystictails-13995.zip?fid=48130&ttl=1535777253&ri=8192&rs=8192&setec=facd778084c336d8ea7d91498a96c391"
+    },
+    {
+      "fileId": "48391",
+      "name": "ds_mystictails_2",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "33",
+      "fileName": "ds_mystictails_2-13995-2-0.zip",
+      "uploadedUnix": "1333161327",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/fac2e8cf4ac83159eb9b7eb2c42c5e0ab50da4ac47f2d8320680ac2505b05fa7/analysis/1406788383/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ds_mystictails_2-13995-2-0.zip?fid=48391&ttl=1535777254&ri=8192&rs=8192&setec=3e8e993989ba555deeb7fb664ae736a6"
+    }
+  ]
+}

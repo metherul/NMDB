@@ -1,0 +1,32 @@
+{
+  "modId": 31418.0,
+  "modName": "Solding",
+  "summary": "A new face for your Nord female.",
+  "descriptionHtml": "[center][img]http://i49.tinypic.com/1oq4u9.png[/img][/center]\r\nThis mod adds a new preset to your game, in the form of Solding, my own character who I\\'ve spent the last two months of my time with. In my game, she\\'s Harbinger of the Companions and a werewolf, but in your game, she can be anything you want.\r\n\r\n\r\n[center][img]http://i48.tinypic.com/35i3tyd.png[/img][/center]\r\n\r\n\r\nThis mod is different from the usual uploaded character mods because it\\'s a race preset added onto the female Nord, instead of a save game. Meaning that you can start from Helgen, with your own fresh game.\r\n\r\n[b]I have written a tutorial on how to make this type of mod in the Creation Kit, for your own creations.[/b] You can view it on [url=http://shoukire.hubpages.com/hub/tut_charplugins]Hubpages[/url].\r\n\r\n[b][color=yellow]If you use another mod that edits character presets, please take a look at the conflicts/known issues section of this page, or just skip down to Installation after this paragraph if you don\\'t care about the reasons.[/color][/b]\r\n\r\n\r\n[center][img]http://i48.tinypic.com/2k4ydk.png[/img][/center]\r\n\r\n[b]P.[/b] Disable any mods that edit the NordRace presets\r\n[b]1.[/b] Install the mod manually or with NMM\r\n[b]2.[/b] Enable [i]Solding_Charpreset.esp[/i]\r\n[b]3.[/b] Start a new game, or put the face on an existing character\r\n[b]4.[/b] Save your game\r\n[b]5.[/b] Uninstall or uncheck [i]Solding_Charpreset.esp[/i] from your load order*\r\n[b]E.[/b] Re-enable any mods that you disabled before installing\r\n\r\n* No textures or meshes are installed with this mod\r\n\r\n\r\n[center][img]http://i49.tinypic.com/xn5lli.png[/img][/center]\r\n\r\nThis mod will conflict and cause crashes when installed alongside any other mods that edit the NordRace. The mod makes one small change to the original race, which can create conflicts if you use mods that make changes to it as well. \r\n\r\nUnfortunately, there\\'s no way around this. [color=yellow]The good news is that once you\\'ve started your game and saved your character, the character\\'s appearance is stored in your game save so you can remove this mod from your load order.[/color]\r\n\r\nThis preset will not work with any custom races - only the vanilla Nord female race. [b]It is also dependent on [i]Update.esm[/i] to work, so make sure you are updated to at least patch 1.8.[/b]\r\n\r\nAlso, if you do not use the same textures as I do for your player character, Solding will look different. The readme inside the mod has a list of the mods that I use on my characters so you can duplicate the look if you like it.\r\n\r\n\r\n[center][img]http://i47.tinypic.com/10fyvf8.png[/img][/center]\r\n\r\nI will keep this mod updated if it ever needs an update. [b]I DO NOT SUPPORT THE STEAM WORKSHOP[/b], it\\'s yet another way to control people as much as possible. Please respect this and do not repost any of my mods there.\r\n\r\nI have included the .npc file, in case you want to make a follower with her face for your own use, but please do not post said follower or any modifications without my permission first. Send me a message, I won\\'t bite.\r\n\r\nIf my situation ever changes, I will update this section and the Mod\\'s documentation with relevant permissions and data.",
+  "categoryId": "34",
+  "version": "1.0",
+  "author": "Shoukire",
+  "createdUnix": "1360537800",
+  "updatedUnix": "1360536882",
+  "containsAdultContent": false,
+  "uploadedBy": "shoukire",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000008842",
+      "name": "Solding_CharGen",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "744",
+      "fileName": "Solding_CharGen-31418-1-0.rar",
+      "uploadedUnix": "1360536882",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/337eed1c497eceedbc0dd54693257f8385f6441ca33572c3cc375061388efb57/analysis/1407410297/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Solding_CharGen-31418-1-0.rar?fid=1000008842&ttl=1535806946&ri=8192&rs=8192&setec=f77ca2a987c4612703df191f92cf3fc8"
+    }
+  ]
+}

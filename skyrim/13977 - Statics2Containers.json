@@ -1,0 +1,48 @@
+{
+  "modId": 13977.0,
+  "modName": "Statics2Containers",
+  "summary": "This mod replaces various static containers with containerised versions that use the original models",
+  "descriptionHtml": "This mod consists of 3 .esp\\'s to replace Crates, Casks & Barrels, Woodpiles with containers that look identical to the originals.\r\nAll new containers are fully populated by levelled lists and are set to NOT respawn, rendering them safe for long-term storage.\r\n\r\nS2C-Crates\tReplaces 3040 crates in the game (all of them except the 100 snow covered ones)\r\n\r\nS2C-Casks\tReplaces the large casks (114), small mead barrels (914) and the dark wooden barrels (2748, again not the snow covered ones).\r\n\r\nS2C-Woodpiles\tReplaces all sizes of woodpiles (1139 of them) with containers containg random quantities of wood so you need never chop wood again :)\r\n\r\nNote: Where containers exist in owned areas e.g. Dragonsreach, the new containers inherit the ownership of the parent cell.\r\n\r\nImportant note - these mods are NOT compatible with existing game characters as any save game will contain references to the static objects that I have replaced.  So use with NEW CHARACTERS ONLY.  I have played a NEW character up to level 34 with no noticeable problems.\r\n\r\nI know of 2 mods that replace casks & barrels, this is why I created 3 separate files, so you can pick and choose.\r\n\r\nS2C-All\t\tThis file combines the above three mods into one.  Use this file OR the seperate versions if you want some flexability, NOT BOTH.\r\n\r\nNote: The combined version is a re-creation of the work I did for the 3 seperated versions rather than a merge so there may be some slight variation with the levelled lists.\r\n\r\nInstallation - Download with NMM.\r\nManual Installation - Put the files in your Skyrim\\\\Data directory\r\n\r\nUn-Installation - Delete all files prefixed with S2C (Up to 5 Files including this Readme, depending on version)\r\n\r\nRevisions\r\n1.0\tInitial Version.\r\n1.1\tAdded all in one version & Readme.",
+  "categoryId": "28",
+  "version": "1.1",
+  "author": "flobalob",
+  "createdUnix": "1333054240",
+  "updatedUnix": "1333203970",
+  "containsAdultContent": false,
+  "uploadedBy": "flobalob",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "48560",
+      "name": "Statics2ContainersCombined",
+      "version": "1.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "405",
+      "fileName": "Statics2ContainersCombined-13977-1-1.7z",
+      "uploadedUnix": "1333203606",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/b0e0cb63bed00bfa56d5bad968a8267b0c0eca52d565da5a0124f8eeb61fdd19/analysis/1406789051/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Statics2ContainersCombined-13977-1-1.7z?fid=48560&ttl=1535777223&ri=8192&rs=8192&setec=ee3327d02c9c2e05c2528c65edca41dd"
+    },
+    {
+      "fileId": "48562",
+      "name": "Statics2Containers",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "422",
+      "fileName": "Statics2Containers-13977-1-1.7z",
+      "uploadedUnix": "1333203970",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/9726aa554cf572ffec954d0c7603208337c31ec69e0a224d46b7f07f1c892365/analysis/1406789052/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Statics2Containers-13977-1-1.7z?fid=48562&ttl=1535777224&ri=8192&rs=8192&setec=1cb86f3f6ef0533f5cb7e905da560d83"
+    }
+  ]
+}

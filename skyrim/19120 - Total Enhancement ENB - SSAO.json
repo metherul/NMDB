@@ -1,0 +1,32 @@
+{
+  "modId": 19120.0,
+  "modName": "Total Enhancement ENB - SSAO",
+  "summary": "TE:ENB is an enb setup with modified shaders for enhanced overall visual quality, SSAO, and High Quality Shadows. This is basically a no-nonsense enb for those who simply want the enhancements without changing the original game\\'s tone and feel. It adds a whole new level of depth to Skyrim.",
+  "descriptionHtml": "[center][IMG]http://i267.photobucket.com/albums/ii286/kieranh7/logo-3.jpg[/IMG][/center]\r\n[color=crimson][b]NOTICE:[/b][/color] [font=tahoma][size=2]All credits for ENB Series goes to [url=http://www.enbdev.com/index_en.html]Boris Vorontsov[/url], the original developer of enb. I am simply sharing my own edited version.\r\n\r\nTotal Enhancement ENB is an enb setup with tweaked shaders, and custom settings for overall enhanced visual quality for crisper texture detail, SSAO, and High Quality Shadows. Which results in a much more immersive, and depthful visual experience\r\n\r\nThis is all without losing the complete original tone and feel of Skyrim. This is especially handy for those using AMD graphics cards, as there is no driver based Screen Sampling Ambient Occlusion. \r\n\r\nBasically, this is for people who want the visual enhancements of enb, without changing the core look of the game at all. Which for me is great, I can have my game looking great with enb, without having it look like a disney-pixar movie from being over saturated, coloured etc. This uses Skyrim\\'s own settings, and only brings the enhancements:\r\n\r\n[center][IMG]http://i267.photobucket.com/albums/ii286/kieranh7/BA.gif[/IMG][/center]\r\n[color=silver][list]\r\n[*]Crisper, clear textures.\r\n[*]Full SSAO\r\n[*]High quality shadows, much better actor shadows.\r\n[*]Nicer ambient lighting.\r\n[/list][/color]\r\n\r\n[b][u]Performance:[/u][/b]\r\nI have tweaked to optimize performance, but it is SSAO, so there is a performance hit of course. On my system I get an average hit of about -5 fps.\r\n\r\n[b][u]ENB Version:[/u][/b]\r\nThis is using v0.113 (the latest version) with support for parallax. Uploading ENB binaries is forbidden, I have included instructions for this in the install section, or [url=http://enbdev.com/mod_tesskyrim_v0113.htm]Download Here[/url].\r\n\r\n[b][u]My system:[/u][/b]\r\nCPU: Phenom II 955 @ 4.0Ghz\r\nGPU: Radeon 6950 2GB @ 900/1400\r\nRAM: 8GB 1333 G\\'Skill RipJaws \r\nMobo: ASUS M4A89GTD PRO\r\nOS: Windows 7 pro x64 \r\n\r\n[u][b]To Install[/b][/u]\r\n[b]1:[/b] Drop the contents of the zip file into your Skyrim root folder. Eg:  Steam\\\\SteamApps\\\\common\\\\skyrim, or install with NMM.\r\n[b]2:[/b] Download ENB version 0.113 [url=http://enbdev.com/mod_tesskyrim_v0113.htm]Here[/url]  (use the[IMG]http://i267.photobucket.com/albums/ii286/kieranh7/down1.gif[/IMG]button to download on the enb page) Open the Wrapper version and take [u]only[/u] d3d9.dll out of it and place it in your Skyrim root folder with the files you got here.\r\n[b]3:[/b] In SkyrimPrefs.ini ensure bFloatPointRenderTarget is set to 1\r\n\r\n[u][b]To Uninstall[/b][/u]\r\nSimply remove the files again, or untick for NMM install, and remove d3d9.dll.\r\n\r\n[color=silver]Shift+f12 to toggle effects off, and on.[/color]\r\n\r\n[color=silver]*[/color]Although screenshots really don\\'t do it justice, plus I\\'ve no patience for gathering good screens unfortunately. I just screen capped places from various save file locations. Comparison images below, and in the images tab. [/font][/size]\r\n\r\n[center]\r\n[IMG]http://i267.photobucket.com/albums/ii286/kieranh7/ScreenShot9.gif[/IMG]\r\n\r\n[IMG]http://i267.photobucket.com/albums/ii286/kieranh7/at_examples_divider.gif[/IMG]\r\n\r\n[IMG]http://i267.photobucket.com/albums/ii286/kieranh7/1-1.gif[/IMG]\r\n\r\n[IMG]http://i267.photobucket.com/albums/ii286/kieranh7/at_examples_divider.gif[/IMG]\r\n\r\n[IMG]http://i267.photobucket.com/albums/ii286/kieranh7/2-1.gif[/IMG]\r\n\r\n[IMG]http://i267.photobucket.com/albums/ii286/kieranh7/at_examples_divider.gif[/IMG]\r\n\r\n[IMG]http://i267.photobucket.com/albums/ii286/kieranh7/3-1.gif[/IMG]\r\n\r\n[IMG]http://i267.photobucket.com/albums/ii286/kieranh7/at_examples_divider.gif[/IMG]\r\n\r\n[IMG]http://i267.photobucket.com/albums/ii286/kieranh7/4.gif[/IMG]\r\n[/center]",
+  "categoryId": "62",
+  "version": "0.113",
+  "author": "Kieranh7",
+  "createdUnix": "1340236766",
+  "updatedUnix": "1340746083",
+  "containsAdultContent": false,
+  "uploadedBy": "kieranh7",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "70478",
+      "name": "Total Enhancement ENB",
+      "version": "ENB0.113",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2880",
+      "fileName": "Total Enhancement ENB-19120-ENB0-113.zip",
+      "uploadedUnix": "1340746083",
+      "modVersion": "ENB0.113",
+      "virusScanUrl": "https://www.virustotal.com/file/cd259035c42ca177b5cee82d308f075ead8d6d80674a0418e9ad46f8fd491e56/analysis/1406984899/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Total%20Enhancement%20ENB-19120-ENB0-113.zip?fid=70478&ttl=1535786379&ri=8192&rs=8192&setec=86f6138d03b45f18a48c10727386a7b7"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 49016.0,
+  "modName": "No Unthematic World Interactions after Civil War",
+  "summary": "Disables unthematic random interactions after the Civil War is ended. ",
+  "descriptionHtml": "EDIT: New version uploaded that fixes first five interactions still happening. Please report if you still see them&#33; The new version checks whether stage 100 of CWFinale is finished (the event when you deal with Tullius/Ulfric when sieging their castles). \r<br />\r<br />Disables some &#34;unthematic&#34; world interactions after the Civil War is finished. \r<br />\r<br />The following random interactions are changed: \r<br />\r<br />Looking to join Imperials\r<br />Looking to join Stormcloaks\r<br />Imperials vs. Stormcloaks\r<br />Imperials with Stormcloak Prisoner (since the prisoner tells you to join Ulfric and runs to Windhelm)\r<br />Thalmor with Prisoner (for the same reason, and since it&#39;s unlikely the Thalmor would be able to openly capture people like that in independent Skyrim)\r<br />\r<br />Disabled after you complete the Civil War. \r<br />\r<br />\r<br />Imperial/Stormcloak Scout Patrol/On the Road\r<br />\r<br />Fire only if Tullius/Ulfric respectively are alive (meaning, as long as their GetDeadCount is 0). \r<br />\r<br />\r<br />Forsworn attacking Imperial Soldiers\r<br />Bandits dressed as Imperial Soldiers (in independent Skyrim, being dressed as an Imperial Soldier shouldn&#39;t grant even the fleeting appearance of legitimacy)\r<br />Thalmor Travelling on the Road \r<br />\r<br />Fire only if Tullius is alive. \r<br />\r<br />My first TESedit tweak (calling it a mod would be overstating its scope), which I use in my own game. Likely unneeded/incompatible with major epic CW-changing mods like Civil War Overhaul.  If you find any coding flaws, let me know. ",
+  "categoryId": "28",
+  "version": "",
+  "author": "LoneWolfEburg",
+  "createdUnix": "1387591116",
+  "updatedUnix": "1387749501",
+  "containsAdultContent": false,
+  "uploadedBy": "LoneWolfEburg",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000087944",
+      "name": "postfix",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "postfix-49016-.rar",
+      "uploadedUnix": "1387749501",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/abc1e78f8642ecb151b573277fcf595621a4be7559566faa9eb4d6fb06d38da9/analysis/1407854291/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/postfix-49016-.rar?fid=1000087944&ttl=1535829528&ri=8192&rs=8192&setec=c4fe0a6347602a192cb5b8128d812373"
+    }
+  ]
+}

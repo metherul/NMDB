@@ -1,0 +1,48 @@
+{
+  "modId": 91808.0,
+  "modName": "Play Fair Play Nice Combat -Re-",
+  "summary": "Small lite mod that modifies vanilla combat to make it more satisfying and \"believable\".",
+  "descriptionHtml": "[b]This mod use a lot of Stagger and Knockdown effects. So If you don't like them in vanilla, you will definitely not enjoy this mod.\n<br />\n<br />[/b]This is a WIP, I made it so I can enjoy Skyrim a little bit better, and faster.\n<br />\n<br />[u]Requirement---[/u]   \n<br />   ﻿Skyrim + DLC (Non SE)\n<br />\n<br />[u]What was Modified---\n<br />\n<br />[/u]   ﻿Animations Conditions\n<br />   ﻿Races\n<br />   ﻿Weapons\n<br />   ﻿Projectiles\n<br />   ﻿Spells   \n<br />   ﻿Combat Styles\n<br />   ﻿\n<br />\n<br />[u]Script used:[/u]\n<br />    VoicePushEffect on Magic Effects.\n<br />\n<br />[u]MOVEMENTS---[/u]\n<br />    Reduce movement speed in combat and out of combat. default 370fwd to 280fwd 240side.\n<br />    Archer Drawn Movement/Mages casting movement speed reduce to 120fwd 76side.\n<br />    Reduced turn angle when in combat, swinging weapons, casting, etc.\n<br />    JumpHeightMin from 72 to 30.\n<br />    JumpMovemult(Movement in Air) from .05 to .03\n<br />    Remove restriction from jumping when attacking and casting. Basically you can jump to cancel attack/casting.\n<br />    \n<br />[u]WEAPONS---[/u]\n<br />    All Attack should stagger at .15, cause the lowest staggered animation to played.\n<br />\n<br />[u]All Weapons\n<br />   ﻿[/u]NPC/Player. Power attack disarms\n<br />   ﻿BasicAttacks Disarms Range weapons.   \n<br />\n<br />[u]Shield/Bash Attk[/u]\n<br />    buff.disarm.bows and incoming forward power attks   \n<br />    debuff.knockdown play when recoil large   \n<br />       \n<br />    \n<br />[u]Bows[/u]\n<br />    buff.Stagger on hit.Race ability\n<br />    buff.knockdown actor when sprinting.enchant\n<br />    buff.disarm All powerattks.enchant\n<br />    \n<br />    debuff.Power attks disarm bows and xbows\n<br />    debuff.shieldbash disarm bows and xbows\n<br />    \n<br />[u]mace[/u]\n<br />    buff.power attks cause heavy .75 stagger\n<br />    \n<br />[u]dagger[/u]\n<br />    buff.power attks cause heavy .75 stagger\n<br />    buff.onLeftHand.powerattk standing cause max stagger\n<br />\n<br />[u]axe[/u]\n<br />    buff.power attks cause heavy .75 stagger\n<br />    [u]\n<br />dualAttak[/u]\n<br />    buff.stagger. 1.0 stagger when not blocking\n<br />    buff.disarm. power attack disarms all incoming attacks\n<br />[u]\n<br />swords[/u]\n<br />    buff.power attks cause heavy .75 stagger\n<br />    buff.onLeftHand.power attk standing cause max stagger\n<br />        \n<br />[u]2Hhammer[/u]\n<br />    buff.knockdown.all power attack knockdown\n<br />    buff.basicAttks.max stagger, knocked down when staggered   \n<br />    buff.No recoil when attacking blocked enemies\n<br />    \n<br />[u]2haxe[/u]\n<br />    buff.knockdown.all power attack ko\n<br />    buff.basicAttks.max stagger, knocked down when staggered\n<br />[u]\n<br />2hsword[/u]\n<br />    buff.knockdown.all power attack ko\n<br />    buff.basicAttks.max stagger, knocked down when staggered\n<br />    \n<br />[u]unarmed[/u]\n<br />    buff.basic attack staggers\n<br />    buff.powerAttks.knockdown when stagger\n<br />    buff.h2h combo knockdown when not blocking\n<br />    buff.sneakAttk.uppercut knockdown\n<br />   \n<br />[u]SpellModification---[/u]\n<br />\n<br />[u]Flames[/u]   \n<br />    buff.demoralize for 1 second. Enemies should run when you cast flames\n<br />    \n<br />[u]Firebolt[/u]\n<br />    buff.stagger\n<br />    buff.knockdown when staggered\n<br />    \n<br />[u]Fireball[/u]\n<br />    buff.knockdown on hit\n<br />    \n<br />[u]Incinerate[/u]\n<br />    buff.stagger\n<br />\n<br />[u]Frostbite[/u]\n<br />    buff.paralysis.Freeze target if stamina is 0, if FrostResist &lt; 25%\n<br />    debuff.added +.2 charge time\n<br />\n<br />[u]IceSpike[/u]\n<br />    buff.stagger\n<br />    buff.knockdown when staggered\n<br />\n<br />[u]IceStorm[/u]\n<br />    buff.stagger\n<br />    buff.paralysis.Freeze target if stamina is 0, if FrostResist &lt; 25%\n<br />    debuff.increase charge time to .8 from .5\n<br />\n<br />[u]IcySpear[/u]\n<br />    buff.Knockdown onHit\n<br />    debuff.increase charge time .8 from .5    \n<br />\n<br />[u]WallofFrost[/u]\n<br />    buff.paralysis.Freeze target if stamina is 0, if FrostResist &lt; 25%\n<br />\n<br />[u]Spark[/u]\n<br />    buff.stagger\n<br />    buff.knockdown when staggered\n<br />    debuff.added .2 charge time\n<br />    debuff.castDuration. from 0 to .1 -Looks like an actual spark now-\n<br />[u]\n<br />LightningBolt[/u]\n<br />    buff.stagger\n<br />    buff.paralysis when staggered if lightningRes &lt; 25%\n<br />    \n<br />[u]ChainLightning[/u]\n<br />    buff.stagger\n<br />    buff.paralysis when staggered if lightningRes &lt; 25%\n<br />\n<br />[u]Thunderbolt[/u]\n<br />    buff.knockdown onHit\n<br />\n<br />[u]Atronachs[/u]\n<br />   buff.FireAtronach.Added Flames to Flame Atronach (Summon Fire Atronach didn't have flames, but Random Encounter Fire Atronach did)   \n<br />   buff.FrostAtronach.Added Stagger and Knockdowns to Attacks\n<br />   buff.StormAtronach.Added Stagger and Knockdowns to Attacks and modified spells to reflect changes to player spells.\n<br />\n<br />[u]KillAnimations---[/u]\n<br />    \n<br />[u]SneakKillMoves[/u]\n<br />    Always trigger when undetected, only 1h sword/dagger and unarmed. (Vanilla only had it for those types of Equipments)\n<br />    \n<br />[u]BackKillMoves[/u]\n<br />    Only triggers when NPC target is in Fleeing condition and moving forward, doesn't work if staggered.\n<br />[u]\n<br />FrontKillMoves[/u]\n<br />    NPC Human only, everything else should be Lasthostile and ifAttackKills conditions.\n<br />    \n<br />    buff.1hSword/Dagger and 2hSword ability to instakill when npc is using forward power attk.\n<br />    buff.AllMeleeWeapons.Insta Kill when Enemy is recoil large (Timed Bash at right moment, when enemy arm is in air)\n<br />    buff.AllMeleeWeapons.Insta Kill activate if enemy using magic, bow or unarmed. Must be Staggered first.\n<br />\n<br />[u]CombatStyle---[/u]\n<br />\n<br />    Mages and Archer should try to stay/move further away and prefer their weapon of choice.\n<br />    Melee/mages/archers switched from dueling style to flanking style, will now move and attack your blind spots.\n<br />    Melee more defensive when 1v1, more aggressive when multiple enemies.\n<br />\n<br />[u]SideEffects of these modifications:[/u]\n<br />\n<br />Increased difficulty, especially with mages since the mod effects both NPC and player abilities.\n<br />The satisfaction of dieing by getting knocked out and clobbered over and over again on the ground.\n<br />Time-Instakill is really satisfying.\n<br />Destruction Magic feels more powerful, more utility.\n<br />More responsive enemy AI.\n<br />Removed some of the spongy-ness from combat.\n<br />2H weapons feels more powerful, visually.",
+  "categoryId": "77",
+  "version": "v1.1",
+  "author": "Nack9",
+  "createdUnix": "1528461214",
+  "updatedUnix": "1528461214",
+  "containsAdultContent": false,
+  "uploadedBy": "nack9",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000274765",
+      "name": "PNPF Combat",
+      "version": "v1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "70",
+      "fileName": "PNPF Combat-91808-v1-1.zip",
+      "uploadedUnix": "1528460777",
+      "modVersion": "v1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/a3e30292af5907b16c5edc141a19275e7279233b234f030a471a2211af464200/analysis/1528460943/",
+      "changelogHtml": " -Removed stagger from flames spell. Added \"Demoralize\" for 1 second to keep enemies away while Flame spell is on. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PNPF%20Combat-91808-v1-1.zip?fid=1000274765&ttl=1535882583&ri=8192&rs=8192&setec=af1e891496f8ee134a88e44c7848b12e"
+    },
+    {
+      "fileId": "1000274766",
+      "name": "PNPF Combat Mod",
+      "version": "v1.1",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "70",
+      "fileName": "PNPF Combat Mod-91808-v1-1.zip",
+      "uploadedUnix": "1528460876",
+      "modVersion": "v1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/a3e30292af5907b16c5edc141a19275e7279233b234f030a471a2211af464200/analysis/1528460944/",
+      "changelogHtml": " -Removed stagger from flames spell. Added \"Demoralize\" for 1 second to keep enemies away while Flame spell is on. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PNPF%20Combat%20Mod-91808-v1-1.zip?fid=1000274766&ttl=1535882584&ri=8192&rs=8192&setec=47a26fd093d4555e6782711196d779e3"
+    }
+  ]
+}

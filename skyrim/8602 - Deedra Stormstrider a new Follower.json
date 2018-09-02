@@ -1,0 +1,32 @@
+{
+  "modId": 8602.0,
+  "modName": "Deedra Stormstrider a new Follower",
+  "summary": "a follow-up to Freya\r\nadds another follower to the sleeping giant inn, this time a Mage",
+  "descriptionHtml": "a few subscribers on the steam workshop requested a mage follower so i created Deedra a dark elf mage specializing in lightning magic and her level scales up to 80 just like Freya\r\nshe also has several low tier and high tier spell including the ability to conjure a storm elemental making her a valid late game companion as well\r\n\r\nAs always comment like , etc., and provide me with support as I am still a novice modder :)\r\n\r\n===========================================\r\n\r\nSuggested mods for this file:\r\njust Cover eyes (i used the dark elf unique eyes)\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=4869&navtag=file/images.php?id=4869&tab=3\r\n\r\n===========================================\r\n\r\nFuture Plans:\r\n\r\n- a new tank follower\r\n- possible spell-sword follower\r\n- I\\'m going to attempt a mini centurion pet (won\\'t replace follower)\r\n\r\n=============================================================\r\nTips for making your own follower:\r\n\r\nin factions make sure u have \r\nPotentialFollowerFaction = 0 (from what i read this gives u the \\\"i need your help\\\" dialogue) \r\nCurrentFollowerFaction = -1 \r\nin relationships make a new form and in the \\\"Child\\\" field go all the way to \\\"P\\\" and find Player then set your relationship to what you see fit (i suggest Ally) \r\nand make sure in \\\"scripts\\\" you add \\\"CarryActorScript\\\" this lets you open the npc\\'s inv if not then it just sends u back to the dialogue choices \r\n\r\nim not sure if you need it but if that still doesn\\'t work add \\\"DunPlayerAllyFaction\\\" to factions",
+  "categoryId": "66",
+  "version": "1.0",
+  "author": "xxwarcryxx",
+  "createdUnix": "1328834449",
+  "updatedUnix": "1328835967",
+  "containsAdultContent": false,
+  "uploadedBy": "xxwarcryxx",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "28101",
+      "name": "Deedra Follower v1_0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Deedra Follower v1_0-8602-1-0.rar",
+      "uploadedUnix": "1328835967",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6852066fa7bc68017d5cc2ed913c43cadc290d388fe43b4c59f3a7e85ff05277/analysis/1406665635/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Deedra%20Follower%20v1_0-8602-1-0.rar?fid=28101&ttl=1535767475&ri=8192&rs=8192&setec=66558f6a0e4d4e472e6ea1d19ab397d9"
+    }
+  ]
+}

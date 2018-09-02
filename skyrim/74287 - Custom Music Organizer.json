@@ -1,0 +1,48 @@
+{
+  "modId": 74287.0,
+  "modName": "Custom Music Organizer",
+  "summary": "A utillity to make Skyrims custom music mods more comfortable.",
+  "descriptionHtml": "[font=Arial][size=4][u][color=#ff7700]What is Custom Music Organizer?[/color]\n<br />[/u][/size][size=3]Custom Music Organizer, short CMO is a tool which purpose it is to simplify the usage of serveral custom music mods for Skyrim. It includes a graphic user interface which lets you add and remove your music files for different categories easily and copys them automaticly ,correct named into the right folders.\n<br />[/size]\n<br />[u][color=#ff7700][size=4]Features:[/size][/color][/u]\n<br />[/font][list]\n<br />[*][font=Arial][size=3]drag and drop support[/size][/font]\n<br />[*][font=Arial][size=3]add/remove buttons[/size][/font]\n<br />[*][font=Arial][size=3]a button to play the music file[/size][/font]\n<br />[*][font=Arial][size=3]buttons to extend all spoilers and hide them[/size][/font]\n<br />[*][font=Arial][size=3]rename already added files[/size][/font]\n<br />[/list][font=Arial]\n<br />[u][color=#ff7700][size=4]What it doesn't do:[/size][/color][/u]\n<br />[list]\n<br />[*][size=3]convert files to wav or xwm[/size]\n<br />[*][size=3]checks if you mixed wav and xwm files in a folder[/size]\n<br />[*][size=3]a button to set finale files (CDMS)[/size]\n<br />[/list][size=3]Most of this features are on my todo list and will be implemented some time in the future.\n<br />[/size]\n<br />[u][color=#ff7700][size=4]What you should avoid:[/size][/color][/u][list]\n<br />[*][size=3]Don't change something on the folder structure manually[/size]\n<br />[/list]\n<br />[u][size=4][color=#ff7700]Information about the file:[/color]\n<br />[/size][/u][size=3]Maybe you already noticed that CMO is a .exe file. CMO is written in Java and wrapped with Launch4j to a .exe file. That is the reason why you need to install the newest Java version. If you have serious issues about CMO being a .exe file you can click on the green tick in the download section, which will give you a virus report from serveral ant-virus programs.[/size]\n<br />\n<br />[size=4][u][color=#ff7700]Currently Supported Mods:[/color]\n<br />[/u][/size][list]\n<br />[*][size=3][url=http://www.nexusmods.com/skyrim/mods/13286/?]Personalized Music - Add your own music to Skyrim by No_Aardvarks_Allowed [/url][/size]\n<br />[*][size=3][url=http://www.nexusmods.com/skyrim/mods/63661/?]Complete Dynamic Music System by HellLizard[/url][/size]\n<br />[/list]\n<br />[color=#ff7700][size=4][u]How to use:[/u][/size][/color]\n<br />[/font] 1. [size=3]Copy the Custom Music Organizer.exe into your Skyrim folder. [/size][font=Arial]\n<br />[/font] 2. [size=3]Create a shortcut to your desktop.[/size][font=Arial]\n<br />[/font] 3. [u][size=3]Install the cmo_config.xml file[/size][/u][font=Arial]\n<br />[/font][font=Arial][size=3][list]\n<br />[*][size=3]For Personal Music look in this mods download section.[/size]\n<br />[*][size=3]For CMDS 3.1 look on the [url=http://www.nexusmods.com/skyrim/mods/63661/?]CMDS[/url] download section.[/size]\n<br />[/list][/size][/font] 4. [size=3]Open CMO and add/remove music files.[/size][font=Arial]\n<br />[/font] 5. [size=3]Click on Apply to save changes.[/size][font=Arial]\n<br />[size=3]\n<br />[/size][color=#ff7700][size=4][u]How to play xmw files:\n<br />[/u][/size][/color][size=3]CMO does not play music files itself, instead it trys to open them with the windows default associated program.\n<br />Have a look at [url=https://www.reddit.com/r/skyrim/comments/3gu57c/how_to_listen_to_xwm_in_winamp/]this[/url] post.\n<br />[/size]\n<br />[color=#ff7700][size=4][u]Add Personal Music addon support:\n<br />[/u][/size][/color][size=3]To use one or more of the serveral Personal Music addons, you need to edit\n<br />the cmo_config.xml. Add a &lt;folder name=\"xxx\"&gt;...&lt;/folder&gt; block in between &lt;categories&gt;&lt;/categories&gt; for every addon folder.\n<br />Example:\n<br />[color=#6d9eeb]&lt;folder[/color] [color=#e06666]name[/color]=[color=#674ea7]\"Example - All Soundtrack\"[/color][color=#6d9eeb]&gt;[/color]  -&gt;[color=#f1c232]Name to display[/color]\n<br />    [color=#6d9eeb]&lt;path[/color] [color=#e06666]value[/color]=[color=#674ea7]\"Example - All\"/[/color][color=#6d9eeb]&gt;  [/color]                 -&gt;[color=#f1c232]path to the folder beginning at \"Skyrim/Data/Music/\" (basicly the folder name)[/color]\n<br />    [color=#6d9eeb]&lt;max[/color] [color=#e06666]value[/color]=[color=#674ea7]\"20\"[/color][color=#6d9eeb]/&gt;[/color]                                    -&gt;[color=#f1c232]maximal files allowed[/color]\n<br />   [color=#6d9eeb] &lt;formatname[/color] [color=#e06666]value[/color]=[color=#674ea7]\"MMExample\"[/color][color=#6d9eeb]/&gt;[/color]        -&gt;[color=#f1c232]converts all files in this folder to MMExampleXX...[/color]\n<br />[color=#6d9eeb]&lt;/folder&gt;[/color]\n<br />[/size]\n<br />[color=#ff7700][size=4][u]Found a bug?[/u][/size][/color]\n<br />[size=3]Please take a picture of the error message or copy and post it here and describe what you did before the bug happened.[/size]\n<br />[/font]",
+  "categoryId": "39",
+  "version": "1.1",
+  "author": "BlackoutRoulette",
+  "createdUnix": "1458264701",
+  "updatedUnix": "1458503154",
+  "containsAdultContent": false,
+  "uploadedBy": "blackoutroulette",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000199669",
+      "name": "Personal Music config",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "cmo_config.xml-74287-1-0.zip",
+      "uploadedUnix": "1458278180",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9084d409788712ffa1cb7bb856a16ba3908072da8456a652bf7846bf02a9e773/analysis/1458278223/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/cmo_config.xml-74287-1-0.zip?fid=1000199669&ttl=1535863065&ri=8192&rs=8192&setec=05af3afe38c16f5700e27689b3419a8d"
+    },
+    {
+      "fileId": "1000200068",
+      "name": "Custom Music Organizer.exe",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "120",
+      "fileName": "Custom Music Organizer.exe-74287-1-1.exe",
+      "uploadedUnix": "1458503154",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/06ef3f7d211b74d717f26bb1e7d78c521127f9d2e543664060121a2958441e87/analysis/1458503165/",
+      "changelogHtml": " CMO does not rename finale files anymore (CDMS) <br/> \n Fixed window sizing issue when using CDMS  <br/> \n You now recieve a error message when you type in a non-number character in a &lt;max value=&#34;&#34;/&gt; block <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Custom%20Music%20Organizer.exe-74287-1-1.exe?fid=1000200068&ttl=1535863065&ri=8192&rs=8192&setec=c0fa38f82de14dc5462140da9cab1f17"
+    }
+  ]
+}

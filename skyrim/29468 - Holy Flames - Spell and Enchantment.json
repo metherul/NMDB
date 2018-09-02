@@ -1,0 +1,48 @@
+{
+  "modId": 29468.0,
+  "modName": "Holy Flames - Spell and Enchantment",
+  "summary": "Read the Description!",
+  "descriptionHtml": "Holy Flames - Spell and Enchantment\n<br />\n<br />AFTER DAYS AND HOURS OF HARD WORK TO COMPLETE THIS MOD, I WILL NEVER CREATE A SPELL MOD AGAIN, ITS NOT EASY LIKE CREATING ARMORS/WEAPONS.\n<br />\n<br />[color=Crimson]Because i got sometimes requests from people to do more Holy magic mods, i will say it here too and do not bother to do that request again, no more Spell Mods from me, its a real pain in the back![/color]\n<br />[color=Red]1) I lost my notes i kept of what i done during the editing of the meshes and in creation kit, its not just retexturing.\n<br />2) In order to modify one mesh of a spell, it contains hundreds of nodes and parent nodes to edit,\n<br />but one node contains lots of things which also need to edit.\n<br />3) I don't remember in which forums where the tutorials and the correct answers were, also if they still exist.\n<br />4) If you really want this, you can do it yourself, everyone starts without knowledge, but with little google search can find answers.[/color]\n<br />\n<br />Author:\n<br />haldir307\n<br />\n<br />Many thanks to rheadude and xp32 who supported me by guiding me so i can make the mod standalone. ^^\n<br />\n<br />Description:\n<br />I created a spell Holy Flames, i edited the meshes and textues of the Flames spell also dupliacted the spell in CK.\n<br />The Holy Flames spell have 97% white color and 3% yellow, it have more damage from the vanilla Flames spell, also the spell exists to all skill levels, from Novice till Master.\n<br />There are 5 spell books, each one is for each skill level, can be found in Breezehome in a barrel i made \"Barrel HF\", you can see it left of the fireplace when you enter the home.\n<br />If the spell book does not appear, you can find it in vendors.\n<br />If also not in verdors then you can use console to get the spell, open console and type: \n<br />help \"holy flames\"\n<br />check the 8-digit ID, then type: player.addspell xxxxxxxx   (x is the digit of the ID).\n<br />How to obtain the enchantment, in the Barrel HF is an enchanted weapon with Holy Flames, get it but don't use it, to get the enchantment you can go to any Arcane Enchanter, when you find one use it, go to Disenchant section and disenchant the weapon with the Holy Flames enchantment, then the Holy Flames Damage enchantment will be available in Enchantment section and you can use it on any weapon you want, but not for staffs.\n<br />***Most important to know, if the Barrel HF in Breezehome doesn't show up, that is happening when you are using a Breezehome mod, so if you want to get the spell tomes and sword from the barrel then you have to not use a Breezehome mod, but you can use after you get the items from the barrel.***\n<br />\n<br />\n<br />Installation:\n<br />Extract the file and copy the folder \"Data\" to Program FilesSteamSteamAppscommonskyrim\n<br />\n<br />Run SkyrimLauncher, click to Data Files and checkmark the empty box of the HolyFlamesSpell.esp, checkmark the empty box of Load Loose Files and click OK.\n<br />\n<br />Attention please, if the Data Files section is grey and isn't working, go to this directory:\n<br />C:Users****DocumentsMy GamesSkyrim\n<br />and open SkyrimPrefs.ini, find the [Launcher] and type under of the last line,\n<br />those two lines exactly like they are:\n<br />bEnableFileSelection=1\n<br />bLoadLooseFiles=1\n<br />Save and close it, go back to SkyrimLauncher and enable the checkmarks i told before,\n<br />you are ready to enjoy the Holy Flames spell mod.\n<br />\n<br />Blaze of Eventide with Holy Flames \"Optional file\"\n<br />\n<br />Many thanks to mitchalek who gave me the permission to retexture\n<br />his horse mod \"Blaze of Eventide\" and upload the new textures as\n<br />Optional File in my mod \"Holy Flames\".\n<br />\n<br />Description:\n<br />Replaces the flames textures of Blaze with Holy Flames textures.\n<br />\n<br />Required mod:\n<br />mitchalek's Blaze of Eventide\n<br />http://skyrim.nexusmods.com/mods/25097\n<br />\n<br />Installation:\n<br />First you need \"Blaze of Eventide\" to install, then\n<br />extract the \"Blaze of Eventide with Holy Flames\" and copy the folder \"textures\" to\n<br />C:Program FilesSteamSteamAppscommonskyrimData\n<br />and replace all.\n<br />\n<br />Permissions:\n<br />1) Users/Modders are not allowed to upload my files to other sites!\n<br />2) Users/Modders are not allowed to convert my file so that it works on similar games!\n<br />3) Users/Modders are not allowed to modify my file including releasing bug fixes or improving on the features my file adds to the game and upload it as a seperate file!\n<br />4) Users/Modders are not allowed to use assets contained in my files in their own files!\n<br />5) If you want to use to use the assets of mitchalek's \"Blaze of Eventide\", then you have to ask from him personally!\n<br />[b][i]6) Translations are allowed, no need to ask me. [/i][/b]\n<br />[b][i][u]7) Users/Modders are not allowed to upload my mods on Steam Workshop as their own to obtain money and it means the same for Permissions 2/3/4, my mods will always stay on nexus for free![/u][/i][/b]\n<br />\n<br />Credits:\n<br />Made by haldir307. \n<br />The credits for the Optional mod goes to mitchalek.\n<br />The credits for the Main mod goes to me haldir307 and you can endorse my mod.",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "haldir307",
+  "createdUnix": "1357394669",
+  "updatedUnix": "1359034790",
+  "containsAdultContent": false,
+  "uploadedBy": "haldir307",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000000141",
+      "name": "Blaze_of_Eventide_with_Holy_Flames",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "3680",
+      "fileName": "Blaze_of_Eventide_with_Holy_Flames-29468-1-0.rar",
+      "uploadedUnix": "1357400550",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1c53138f465c6b1dca632d55f80220a342f43df304119c23fadfdaf937552b26/analysis/1407338425/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Blaze_of_Eventide_with_Holy_Flames-29468-1-0.rar?fid=1000000141&ttl=1535803631&ri=8192&rs=8192&setec=3a2862534dc5dbd967498f518c3a8c76"
+    },
+    {
+      "fileId": "1000004574",
+      "name": "Holy_Flames",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2075",
+      "fileName": "Holy_Flames-29468-1-1.rar",
+      "uploadedUnix": "1359034790",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/4c5e194ed61a6954a1ab0c8a127fc77556e626288905b97c91fef244cb7e9fb6/analysis/1407376534/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Holy_Flames-29468-1-1.rar?fid=1000004574&ttl=1535803632&ri=8192&rs=8192&setec=e7d216ef5e9a3ca4418d5c0ac8cdfd9a"
+    }
+  ]
+}

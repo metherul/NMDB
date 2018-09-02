@@ -1,0 +1,32 @@
+{
+  "modId": 50583.0,
+  "modName": "Where is the Housecarl",
+  "summary": "Easy way to find the Hearthfires Housecarls.",
+  "descriptionHtml": "It should go without saying that you have to Hearthfires.esm installed for these text files to run.\r<br />\r<br />This file contains three text files for execution in console that will teleport you to your Hearthfire Housecarl.  Yes this is cheating, yes this is not lore friendly, but it cuts down on how many quarters I have to put in the swear jar...\r<br />\r<br />These files require editing to work.  Read the instructions and you will understand why.\r<br />\r<br />Have you ever run around the Manor three times looking for the Housecarl.  Then gone inside and checked all the rooms.  Then gone outside again...  About this time I&#39;m using the big words.\r<br />These are three simple files that you can run from console that will literally drop you on top of the Housecarl of your choice (they may complain about it).  These files require editing, I&#39;ll walk you through it.\r<br />\r<br />First in, Nexus Mod Manager, view the load order number of Hearthfires.esm\r<br />On my system the load orders are;\r<br />Skyrim.esm                                      00\r<br />Update.esm                                     01\r<br />Unofficial Skyrim Patch.esp                02     \r<br />Dawnguard.esm                                03 \r<br />Unofficial Dawnguard Patch.esp          04\r<br />Hearthfires.esm                                05\r<br />Unofficial Hearthfires Patch.esp         06\r<br />Dragonborn.esm                               07\r<br />Unofficial Dragonborn Patch.esp        08\r<br />\r<br />My load order number for Hearthfires.esm is 05\r<br />I have all three DLC&#39;s and let Boss order my mods.  You should get an use BOSS and TESVEDIT.  Google is your friend and there are tutorials aplenty on Youtube.\r<br />\r<br />If you have trouble finding the load order;\r<br />Run Skyrim\r<br />Open the console ~\r<br />help &#34;sawn log&#34;\r<br />On my system this desplays the RefID 0500300e\r<br />The first two numbers are the load order of Hearthfires.esm\r<br />If for any reason your load order changes you will have to re-edit these text files.\r<br />\r<br />In Windows Explorer, find your Skyrim_Data directory.  Open each of the Text files.  Right Click_Edit.\r<br />FindG.txt\r<br />FindR.txt\r<br />FindV.txt\r<br />\r<br />In each you will see the Housecarls reference ID.  For Example Rayya is XX005216\r<br />Edit the XX to match the load order number of Hearthfires.esm\r<br />The leading 0 is redundant and can be omitted, Rayya&#39;s RefID 5005216 works fine for me.  Do not leave an X in the RefID and do not delete the space in front of the RefID.\r<br />Do this for all three text files.\r<br />\r<br />When in game open the console with ~\r<br />type;\r<br />bat findr\r<br />don&#39;t forget the space between bat and findr\r<br />You will go to a load screen and literally fall out of the air on top of Rayya.  She may say, &#34;Ouch&#33;&#34;\r<br />Use the other two to find Gregor (findg) and Victor (findv).\r<br />\r<br />You can edit and rename these files for any NPC in the game.  Skyrim Wiki has an extensive list.  Just make sure you copy the RefID.  Do Not use the BaseID.  \r<br />Another way to find an NPC&#39;s RefID is to stand in front of them and open the console with ~\r<br />Left click on the NPC.  The RefID will be displayed front center on top of the Console window.\r<br />Make sure you actually clicked on the NPC, its easy to click on the surrounding area.\r<br />\r<br />Again, I know this is cheating and I know it is not lore friendly.  Please don&#39;t hit me over the head with the Troll Club when posting.\r<br />\r<br />I obtained the information for these text files from Skyrim Wiki.\r<br />\r<br />Enjoy.",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "Dragonfire12",
+  "createdUnix": "1391229437",
+  "updatedUnix": "1391228904",
+  "containsAdultContent": false,
+  "uploadedBy": "Dragonfire12",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000094534",
+      "name": "Where is the Housecarl",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Where is the Housecarl-50583-1-0.7z",
+      "uploadedUnix": "1391228904",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a43021e6eff87b1eb4340d00076c56e3d36535a939810dbbde1edb456b36212b/analysis/1407911825/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Where%20is%20the%20Housecarl-50583-1-0.7z?fid=1000094534&ttl=1535832381&ri=8192&rs=8192&setec=482883793f2ef0a22ac19fe44ca1c9c9"
+    }
+  ]
+}

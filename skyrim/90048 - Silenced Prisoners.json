@@ -1,0 +1,48 @@
+{
+  "modId": 90048.0,
+  "modName": "Silenced Prisoners",
+  "summary": "Guards shouldn't let walking weapons of mass destruction run around freely. All prisoners are now fitted with anti-magic cuffs that prevent them from casting spells or Shouts.",
+  "descriptionHtml": "[size=6][color=#9900ff]SILENCED PRISONERS[/color]\n<br />\n<br />[/size][size=3][heading][color=#00ffff]Requirements[/color][/heading] [/size]\n<br />\n<br />[size=2]SKSE [/size]\n<br />\n<br />[size=3][heading][color=#00ffff]Changelog[/color][/heading][/size]\n<br />\n<br />[list]\n<br />[*][size=2]1.0 - Initial Release[/size]\n<br />[*][size=2]1.0b - Added alternate version with 25% resistance to magic instead of total immunity[/size]\n<br />[/list][size=2]\n<br />[/size][size=3][heading][color=cyan]Description[/color][/heading]\n<br />[/size]\n<br />[size=2]Guards were getting tired of mages burning their faces off with fireballs as they escaped every single time, so every prisoner is now bound with enchanted cuffs that nullify all magic. These cuffs cannot be taken off without a set of keys, which can be found within the prisoner's belongings or with a guard.[/size]\n<br />\n<br />[size=3][heading][color=cyan]Notes[/color][/heading][/size]\n<br />\n<br />[list]\n<br />[*][size=2]When the key is added to your inventory (if escaping) the cuffs will unlock, and you will be able to use magic. You will be able to equip and unequip the cuffs as you wish.[/size]\n<br />[*][size=2]These cuffs will also make you immune to all incoming magical damage/give 25% resistance to magical damage, depending on which version you download.[/size]\n<br />[*][size=2]Cuffs will be removed upon serving your time.[/size]\n<br />[*][size=2]Transforming into a Vampire Lord or werewolf will break the cuffs.[/size]\n<br />[/list]\n<br />[size=3][heading][color=cyan]Installation[/color][/size][size=3][/heading][/size]\n<br />\n<br />[size=2]Install normally, using a mod manager.[/size]\n<br />[size=2]Overwrite and replace everything when upgrading.[/size]\n<br />\n<br />[size=3][heading][color=cyan]Compatibility[/color][/heading][/size]\n<br />\n<br />[list]\n<br />[*][size=2]Compatible with pretty much everything, unless some other mod also makes the player equip a set of gloves when imprisoned.[/size]\n<br />[*][size=2]Faulty mods that don't tick \"Shares Event\" in Story Manager nodes will make this mod not function if loaded before these mods.[/size]\n<br />[/list]\n<br />[size=3][heading][color=cyan]Credits[/color][/size][size=3][/heading][/size]\n<br />\n<br />[size=2]Thanks to r/skyrimmods for the initial idea and features[/size]",
+  "categoryId": "78",
+  "version": "v1.0b",
+  "author": "powerofthree",
+  "createdUnix": "1520623214",
+  "updatedUnix": "1520644329",
+  "containsAdultContent": false,
+  "uploadedBy": "powerofthree",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000268054",
+      "name": "Silenced Prisoners",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "729",
+      "fileName": "Silenced Prisoners-90048-v1-0.7z",
+      "uploadedUnix": "1520622891",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/dc07b0cba3b81b148bfcdd7c4bd3df6fef9e1a0b508d234aa7fe2c7adaaed80d/analysis/1520623144/",
+      "changelogHtml": " Initial Release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Silenced%20Prisoners-90048-v1-0.7z?fid=1000268054&ttl=1535880031&ri=8192&rs=8192&setec=7ef00a9d6690fd1fa3feec72bb408c7d"
+    },
+    {
+      "fileId": "1000268072",
+      "name": "Silenced Prisoners  - No Immunity Edition",
+      "version": "1.0b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "729",
+      "fileName": "Silenced Prisoners  - No Immunity Edition-90048-1-0.7z",
+      "uploadedUnix": "1520644329",
+      "modVersion": "1.0b",
+      "virusScanUrl": "https://www.virustotal.com/file/b4da03654802c37ce5a2c73cfdbb12934a2e22a4d15d7a4462e8bc450f83d063/analysis/1520644625/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Silenced%20Prisoners%20%20-%20No%20Immunity%20Edition-90048-1-0.7z?fid=1000268072&ttl=1535880032&ri=8192&rs=8192&setec=bd7963ff03b3d1e0f76d6c2fbb77cf89"
+    }
+  ]
+}

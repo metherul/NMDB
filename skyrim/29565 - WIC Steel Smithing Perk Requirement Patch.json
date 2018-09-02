@@ -1,0 +1,32 @@
+{
+  "modId": 29565.0,
+  "modName": "WIC Steel Smithing Perk Requirement Patch",
+  "summary": "Adds the Steel Smithing perk as a requirement for the WIC steel hood crafting and tempering recipes.",
+  "descriptionHtml": "[center][color=SkyBlue][size=6]WIC Steel Perk Requirement Patch[/size][/color][/center] \r\n\r\n[line] \r\n\r\n[u][size=5][color=SkyBlue]Description[/color][/size][/u] \r\nBy default, all of the WIC hoods are craftable without any smithing perks.  This patch will add the Steel Smith perk as a requirement on the crafting and tempering recipes for the WIC steel hoods. \r\n[line]\r\n\r\n[u][size=5][color=SkyBlue]Manual installation[/color][/size][/u] \r\nExtract WICSteelSmithingPerkReqPatch1_0.esp to your Data folder and enable the patch from your within whatever utility you prefer to manage your mods from. \r\n\r\nBe sure to load this mod after 1nivWICCloaks.esp but before any other mods that might attempt to change crafting or tempering recipes (such as Reproccer.esp) \r\n[line]\r\n\r\n[u][size=5][color=SkyBlue]Nexus Mod Manager Installation[/color][/size][/u] \r\nDownload via NMM and adjust the load order as required.\r\n\r\nBe sure to load this mod after 1nivWICCloaks.esp but before any other mods that might attempt to change crafting or tempering recipes (such as Reproccer.esp) \r\n[line]\r\n\r\n[u][size=5][color=SkyBlue]Manual Uninstallation[/color][/size][/u] \r\nDeactivate WICSteelSmithingPerkReqPatch1_0.esp and delete the file. \r\n[line]\r\n\r\n[u][size=5][color=SkyBlue]Nexus Mod Manager Uninstallation[/color][/size][/u] \r\nDeactivate the mod via NMM. \r\n[line]\r\n\r\n[u][size=5][color=SkyBlue]Mod Dependencies[/color][/size][/u] \r\nThis patch is meant specifically for 1nivWICCloaks.esp from the [url=http://skyrim.nexusmods.com/mods/13486/?tab=3&navtag=%2Fajax%2Fmodimages%2F%3Fuser%3D0%26id%3D13486]Winter Is Coming - Cloaks[/url] mod.  It will not work with either of the other two 1nivWICCloaks esp files. \r\n[line]\r\n\r\n\r\n[color=SkyBlue]ReadMe generated with: [url=http://skyrim.nexusmods.com/mods/22340]Pyròs: GuideLines[/url][/color]\r\n[line]",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "Duredhel",
+  "createdUnix": "1357519916",
+  "updatedUnix": "1357520057",
+  "containsAdultContent": false,
+  "uploadedBy": "Duredhel",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000000589",
+      "name": "WICSteelSmithingReqPatch",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "WICSteelSmithingReqPatch-29565-1-0.zip",
+      "uploadedUnix": "1357520057",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b2f01657a309ab55824e40cd4c9dd63e1fe06b080bae9ac55b95ade3c1930c77/analysis/1407341391/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/WICSteelSmithingReqPatch-29565-1-0.zip?fid=1000000589&ttl=1535803784&ri=8192&rs=8192&setec=75f780400b23acfb39ccbd6d9f088e98"
+    }
+  ]
+}

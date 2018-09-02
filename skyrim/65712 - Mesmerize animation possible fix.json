@@ -1,0 +1,15 @@
+{
+  "modId": 65712.0,
+  "modName": "Mesmerize animation possible fix",
+  "summary": "It fixes the problem with the mesmerize idle animation not playing on NPCs that are hit by the vampire seduction spell. It may also fix the teleportation thinggy (not 100% sure, not tested) on some other vampire mods like better vampires.",
+  "descriptionHtml": "It fixes the problem with the mesmerize idle animation not playing on NPCs that are hit by the vampire seduction spell. It may also fix the teleportation thingy (not 100% sure, not tested) on some other vampire mods like better vampires.\r<br />After many hours spent on forums trying to solve this  problem i decided to investigate myself and to find a solution. \r<br />First of all this may be a temporarily fix or a definitive (not sure yet) one so don&#39;t get your hopes too high but it worked for me.\r<br />Second there is no file but a few steps to fix the issue.\r<br />Thirdly this problem may appear for vampire player characters at level 10, 15, 20 etc. That been said i became a vampire at level 11 and the animation worked just fine until i reached level 14. I mention that i had many vampire characters since the game was released and had this problem every time.\r<br />So, I started with Creation Kit and looked into many files like animations, scripts, spells. I taught there must be something wrong with the vampire seduction spell, the scripts that run all the vampire spells, powers, transformation etc. It could be a problem with all these things, not sure, but the solution came when i started looking into save files.\r<br />\r<br />And now for the steps\r<br />1. Take this tool : [url=http://www.nexusmods.com/skyrim/mods/52363/?tab=1&navtag=http%3A%2F%2Fwww.nexusmods.com%2Fskyrim%2Fajax%2Fmoddescription%2F%3Fid%3D52363%26preview%3D&pUp=1]Save game script cleaner[/url]; Thanks to [b]Hadoram [/b]for his helpful tool\r<br />2. Extract the file from the archive and execute it &#34;SaveTool.exe&#34;\r<br />3. Press the open button that is in the upper right corner of the tool and go to your User&#92;Documents&#92;My Games&#92;skyrim&#92;Saves\r<br />4. Select the savegame file that has the problem related to the animation (probably your last save) and click open\r<br />5. In the left box you will see many categories of files. Above that in the upper left box(with the inscription Scripts) you can search any file you want. Search for dlc1referencealiasarrayscript.\r<br />6. Delete the one in the Scripts categorie and you are done.\r<br />\r<br />I mention that for some this fix may work and reappear after some time or it will never reappear. Don&#39;t know. Just wanted to share my discovery.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Wyruzel",
+  "createdUnix": "1431247357",
+  "updatedUnix": "1431247357",
+  "containsAdultContent": false,
+  "uploadedBy": "Wyruzel",
+  "primaryFile": null,
+  "files": []
+}

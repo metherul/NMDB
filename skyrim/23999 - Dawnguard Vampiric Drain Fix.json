@@ -1,0 +1,48 @@
+{
+  "modId": 23999.0,
+  "modName": "Dawnguard Vampiric Drain Fix",
+  "summary": "This mod fixes the issue where the \\'Damage Health\\' portion of the Vampiric Drain spell (for Vampire Lord) is removed when Serana is you companion. I have also added new variables so that none of your companions will be affected if hit (including player horses) by any portion of the spell, including those added by the Blood Chalice.\r\n",
+  "descriptionHtml": "This mod fixes the issue where the \\'Damage Health\\' portion of the Vampiric Drain spell (for Vampire Lord) is removed when Serana is you companion. I have also added new variables so that none of your companions will be affected if hit (including player horses) by any portion of the spell, including those added by the Blood Chalice.\r\n\r\n\r\n[b]Details:[/b]\r\n\r\n1. Removed the \\'Damage Health\\' condition when Serana is follower (Damage Health now applied to all enemies).\r\n\r\n2. Added a \\'Friendly\\' condition to Drain Health and Damage Health (Drain and Damage Health will not affect allies).\r\n\r\n3. Added a \\'Friendly\\' condition to the Blood Chalice which adds \\'Drain Magicka & Drain Stamina\\' to the Vampiric Lord Drain spell (Drain Magicka and Stamina will not affect allies).\r\n\r\n4. Added optional file that also increases the damage of the normal Vampire Drain spell through the Blood Chalice power. \r\nSpell became obsolete at higher levels.\r\n\r\n\r\n[color=red]Level 1- Normal Drain Health Value = 2 - With Blood Chalice Power: Drain Health = 5, Drain Magicka = 5, Drain Stamina = 5\r\n\r\nLevel 2- Normal Drain Health Value = 3 - With Blood Chalice Power: Drain Health = 10, Drain Magicka = 10, Drain Stamina = 10\r\n\r\nLevel 3- Normal Drain Health Value = 4 - With Blood Chalice Power: Drain Health = 15, Drain Magicka = 15, Drain Stamina = 15\r\n\r\nLevel 4- Normal Drain Health Value = 5 - With Blood Chalice Power: Drain Health = 20, Drain Magicka = 20, Drain Stamina = 20[/color]\r\n\r\n* I did this so as not to overpower the normal vampire drain spell before you get to the Dawnguard quest line.\r\n\r\n[b]Change Log:[/b]\r\n\r\n1.1 - Added Blood Chalice version with vampiric drain perks. Misc fixes.\r\n\r\n1.0 - Initial release.\r\n\r\n\r\n[b]My Mods:[/b]\r\n\r\nVisit [url=http://www.firingsquad.us]WWW.FIRINGSQUAD.US[/url] for the latest news and updates on my mods.\r\n[url=http://skyrim.nexusmods.com/mods/23966]ARVAK[/url]\r\n[url=http://skyrim.nexusmods.com/mods/34211]ALL-MAKER STONES POWER[/url]\r\n[url=http://skyrim.nexusmods.com/mods/24085]AURIELS ARROWS - BLOOD CURSED[/url]\r\n[url=http://skyrim.nexusmods.com/mods/23999]DAWNGUARD VAMPIRIC DRAIN FIX[/url]\r\n[url=http://skyrim.nexusmods.com/mods/24140]VAMPIRE ROYAL LIGHT ARMOR[/url]\r\n[url=http://skyrim.nexusmods.com/mods/24266]SELL THOSE ELDER SCROLLS[/url]\r\n[url=http://skyrim.nexusmods.com/mods/25131]SNEAKY SERANA[/url]\r\n[url=http://skyrim.nexusmods.com/mods/31221]VAMPIRE NO SUN DAMAGE - FOR CLOAKS, HELMETS, & HOODS[/url]\r\n[url=http://skyrim.nexusmods.com/mods/34318]DAWNGUARD & VAMPIRE HORSES[/url]\r\n[url=http://skyrim.nexusmods.com/mods/32895]AUTO UNEQUIP SHIELD[/url]\r\n\r\nDon\\'t forget to endorse! ;)\r\n\r\n\r\n[b]Installation: [/b]\r\n\r\n1. Use NMM installer.\r\n2. Install manually by adding Vampiric_Drain_Fix.esp or Vampiric_Drain_Fix_BloodChalice.esp to Skyrim/Data folder.\r\n\r\n[b]Uninstall:[/b]\r\n\r\n1. Deactivate with NMM.\r\n2. Remove Vampiric_Drain_Fix.esp or Vampiric_Drain_Fix_BloodChalice.esp from Skyrim/Data folder.\r\n\r\n[b]Credits:[/b]\r\n\r\nBethesda for the wonderful game and excellent modding tools and Nexus for giving us a place to showcase them.\r\n\r\n[b]Contact:[/b]\r\n\r\nYou can contact me here or my personal website forums [url=http://www.firingsquad.us]WWW.FIRINGSQUAD.US[/url]",
+  "categoryId": "95",
+  "version": "1.1",
+  "author": "Hobbs",
+  "createdUnix": "1347382446",
+  "updatedUnix": "1348246688",
+  "containsAdultContent": false,
+  "uploadedBy": "H0bbs",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "87862",
+      "name": "Vampiric Drain Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Vampiric Drain Fix-23999-1-0.zip",
+      "uploadedUnix": "1347382472",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2d3c5164151d73c7ed61956a5207f9ccd6086bf98d42cdf33fe8fdf1475d2f6e/analysis/1407160023/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vampiric%20Drain%20Fix-23999-1-0.zip?fid=87862&ttl=1535794593&ri=8192&rs=8192&setec=4747b1f8445f70e5d691dec6ddc2aace"
+    },
+    {
+      "fileId": "89720",
+      "name": "Vampiric Drain Fix - Blood Chalice",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Vampiric Drain Fix - Blood Chalice-23999-1-1.zip",
+      "uploadedUnix": "1348246688",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/f2b835bb17ba56d2a7378bd637f1d548bbf7a5a944b22b71a2c0426d6dafa24b/analysis/1407179704/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vampiric%20Drain%20Fix%20-%20Blood%20Chalice-23999-1-1.zip?fid=89720&ttl=1535794594&ri=8192&rs=8192&setec=6a6a309e98a9b9b323555f9d63ce6306"
+    }
+  ]
+}

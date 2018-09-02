@@ -1,0 +1,32 @@
+{
+  "modId": 72022.0,
+  "modName": "Simple Vanilla armor to HDT armor tutorial",
+  "summary": "Just a simple way to get a turn a non-tbbp/bbp/hdt armor into a HDT armor.\r<br />Total time is just under 5 min. If you have the right files.",
+  "descriptionHtml": "This is a tutorial on how to turn a vanilla armor into a HDT armor. (Breast and Butt only)\r<br />\r<br />This will NOT turn an A cup armor into a (D,DD,E,F,G or J cup) armor/jiggle monster.\r<br />If you want to change the cup/breast size of the armor to fit the base HDT body you need to do it in between step 7 and 8. I have not done it before so I&#39;m not sure how to.\r<br />\r<br />You will need \r<br />   HDT physics extension and all required mods for it to work installed.\r<br />   .nif file of the armor you want to convert\r<br />   Caliente&#39;s Bodyslide 2 with Outfit Studio\r<br />   Nexus MM , Mod Organizer or other mod installer/manger\r<br />\r<br />I made a video and put it in a .zip file in the Files section for those of you who need to see it done. (like me)\r<br />It took longer to upload this file than it did to convert 3+ armors.\r<br />Whole process takes less than 5 min. once you&#39;ve done it a few times.\r<br />\r<br />1. You need a .nif mesh file for the armor you want to convert. (exp: bikini_1.nif)\r<br />2. You need to make sure you have the HDT physics extension mod/mods installed or it will not work.\r<br />3. Open Bodyslide2 -&gt;Outfit Studio-File-&gt;New Project\r<br />4. Under (use template) select the HDT body preset of your choice that comes with Bodyslide2 (I use CBBE body HDT)\r<br />5. Click (NEXT) then name the outfit. (not sure if it matters what you name it)\r<br />6. Under (Load from .nif file) choose your vanilla armor .nif mesh.  (I&#39;m pretty sure you need the _1.nif  Exp: bikini_1.nif from the mesh dir.)\r<br />7. Choose (FINISH) without changing anything else.\r<br />    The armor most likely will not look right (boobs/calfs poking out of armor)if the body/armor doesn&#39;t match. \r<br />\r<br /> ### 7.5 Check to see if you have any pieces of armor that are grossly out of place. (exp: Floating 10 feet up or backwards.)  If you do select the piece\r<br />       and use the scale shape, move shape, and rotate shape options to move the piece back into place. (this step is not in the video) ###\r<br />       *** I had an issue with an armor set being a major SNAFU before I added HDT.  (Look at pictures section for how I fixed it.\r<br />\r<br />8.  Under shapedata under mesh tab (shapedata&#92;calientebody&#92;calientebodyhdt.nif for me) select base shape and then select bones tab\r<br />9. Hold CTRL and select NPC L Breast, NPC L Butt, NPC R Breast, and NPC R Butt. (only Tbbp,bbp, and hdt bodies have these)\r<br />10.Select Mesh and then select everything under (new outfit for me) whatever you named your outfit. (I have baseshape_oufit,bikini,and armor)\r<br />11.Right click on the one of them and select (Copy selected weights)\r<br />12.Go to File-&gt;Export-&gt;Export Nif   and save in a Data/mesh/armor/armorname/female. (if you used BSA extract 2 or more files it will build if for you)\r<br />      (exp: mine is   Data/mesh/armor/masseffect/reckoner/female/bikini_1.nif\r<br />13.Go back to where the Data folder is and right click on Data -&gt;send to-&gt;compressed zip file\r<br />14. Rename the .zip file to something so you know what is in their. (Mine is ME3reckonerHDT.zip)\r<br />15. Import the .zip file into your mod manager and activate it like any other mod.\r<br />      You need the original mod the armor came from unless your .zip file contains all the original mesh/texture and .esp files\r<br />16. Start Skyrim and equip your armor to see if it is now HDT.\r<br />\r<br />Hope this works for you and helps.\r<br />I have HDT physics, tbbp animations (don&#39;t think you need them for HDT), xp32 skeleton, and CBBE body mesh/texture with HDT.\r<br />If it doe&#39;s not help... well im stumped because i figured it out by DUMB luck. ",
+  "categoryId": "29",
+  "version": "1",
+  "author": "Neocirus",
+  "createdUnix": "1450484404",
+  "updatedUnix": "1450484363",
+  "containsAdultContent": true,
+  "uploadedBy": "neocirus",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000188226",
+      "name": "Vanilla to HDT tutorial",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "37656",
+      "fileName": "Vanilla to HDT tutorial-72022-1.zip",
+      "uploadedUnix": "1450484363",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/3eaf2148a8691bc85ab589bf4fcc6a301c9a4ea49af818102f15a99a76025474/analysis/1450484412/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vanilla%20to%20HDT%20tutorial-72022-1.zip?fid=1000188226&ttl=1535860566&ri=8192&rs=8192&setec=0607e95e34353a60fddcc5d1e72e62ac"
+    }
+  ]
+}

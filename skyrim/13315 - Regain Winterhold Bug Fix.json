@@ -1,0 +1,32 @@
+{
+  "modId": 13315.0,
+  "modName": "Regain Winterhold Bug Fix",
+  "summary": "Fixes the bug where you can\\'t get civil war quests from Rikke in Winterhold.",
+  "descriptionHtml": "Fixes the bug where you can\\'t get civil war quests from Rikke in Winterhold.  With this fix installed, the \\\"Reporting for duty\\\" line should appear normally and you will be able to start the Rescue from Fort Kastav quest.\r\n\r\nThis is highly experimental and not guaranteed to work. It is not a perfect solution and there are some side effects, so consider yourself warned. But if you\\'re like me and just can\\'t get this quest to work no matter what you do, this fix might be worth a try.\r\n\r\n[b][size=3]If you load a saved game where you\\'re already at the Winterhold Imperial Camp, you will need to leave the camp and then come back before this fix will work. Travelling to the nearby lighthouse and then coming back should be far enough.[/size][/b]\r\n\r\nAs mentioned earlier, there are some side effects to using this fix. Hadvar\\'s team may have fewer soldiers.  In an un-modded game there will be 3, but you may find less while using this fix.\r\n\r\nINSTALLATION:\r\nThis is a straighforward .esp file.  Put it in your Data folder and activate it with the mod manager of your choice.\r\n\r\nThe fix only needs to be installed while you are doing the Regain Winterhold / Rescue from Fort Kastav quest.  If you wish, you can deactivate it afterwards.  However, you can also leave it activated at all times if you want, it should not cause any problems.\r\n\r\n\r\nTo other modders:  Please feel free to build upon my work. If anything I\\'ve done here helps you come up with a better fix that has fewer side effects, by all means go ahead with it.\r\n\r\nTECHNICAL DETAILS\r\nFor those who are interested, here are the details of how this mod works. By enabling story manager logging (set bEnableStoryManagerLogging to 1 in SkyrimPrefs.ini) I found that this quest times out while trying to fill its aliases.  With some further investigation, I determined that the Friendly1, Friendly2 and Friendly3 aliases are the core of the problem.  These aliases are supposed the be the imperial soldiers on Hadvar\\'s team.\r\n\r\nThe problem is that these soldiers are spawned at the very beginning of the game.  They just stand there doing nothing for the entire duration of the game, until they are needed for the Rescue from Fort Kastav mission.  Prior to starting the Regain Winterhold quest, one or more of these soldiers might get killed by randomly spawned monsters or leave the area chasing a monster.  Then the game can\\'t find them to assign them into the alias, and the whole quest fails to initialize.\r\n\r\nThis fix solves the problem by making the Friendly1, Friendly2 and Friendly3 aliases optional.  If those soldiers are gone, the quest can just proceed without them.",
+  "categoryId": "95",
+  "version": "0.2",
+  "author": "Arundor",
+  "createdUnix": "1332232692",
+  "updatedUnix": "1332304838",
+  "containsAdultContent": false,
+  "uploadedBy": "Arundor",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "45305",
+      "name": "Regain Winterhold Bug Fix v2",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Regain Winterhold Bug Fix v2-13315-0-2.zip",
+      "uploadedUnix": "1332304838",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/7e7332a30c1d83f27856961b3239e033c3a187b893126be4a6b6a0a34af8e967/analysis/1406770834/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Regain%20Winterhold%20Bug%20Fix%20v2-13315-0-2.zip?fid=45305&ttl=1535775990&ri=8192&rs=8192&setec=fdacb72d51aa5076344b604175051297"
+    }
+  ]
+}

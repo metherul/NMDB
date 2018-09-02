@@ -1,0 +1,48 @@
+{
+  "modId": 37786.0,
+  "modName": "AAAFyTy_DLC2_rrbulwarkintstr01_Collision_Fix",
+  "summary": "Fixes the lack of footsteps when walking on the \\\"rrbulwarkintstr01\\\" mesh.",
+  "descriptionHtml": "For some reason, the \\\"Skyrim Havok Material\\\" value in the .nif file was \\\"0\\\", rather than \\\"SKY_HAV_MAT_STONE\\\". So I changed it.\r\n\r\nNow? Footsteps can be heard on parts of the bulwark where they were meant to be.\r\n\r\nSimple fix for a massively annoying problem.\r\n\r\nUpdate: Found that pretty much all the bulwark interior meshes are lacking the footstep sounds. Fixed dat.",
+  "categoryId": "95",
+  "version": "1.1",
+  "author": "FiftyTifty",
+  "createdUnix": "1372620046",
+  "updatedUnix": "1372676983",
+  "containsAdultContent": false,
+  "uploadedBy": "FiftyTifty",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000036619",
+      "name": "AAAFyTy_DLC2_rrbulwarkintstr01_Collision_Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "25",
+      "fileName": "AAAFyTy_DLC2_rrbulwarkintstr01_Collision_Fix-37786-1-0.7z",
+      "uploadedUnix": "1372620040",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/cf0b7b05237741c5599d631867fdfea5d81a2e48c55b4107e8541ba18e737279/analysis/1407623912/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AAAFyTy_DLC2_rrbulwarkintstr01_Collision_Fix-37786-1-0.7z?fid=1000036619&ttl=1535817702&ri=8192&rs=8192&setec=657a70a0e1c263164de324e85ecdb0d3"
+    },
+    {
+      "fileId": "1000036686",
+      "name": "AAAFyTy_DLC2_BulwarkInterior_Collision_Fix",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "175",
+      "fileName": "AAAFyTy_DLC2_BulwarkInterior_Collision_Fix-37786-1-1.7z",
+      "uploadedUnix": "1372676983",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/677b6c1eaaeed929ffd57f1fe41b05601e712470b13b965de70b8b637ca9c9d6/analysis/1407624485/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AAAFyTy_DLC2_BulwarkInterior_Collision_Fix-37786-1-1.7z?fid=1000036686&ttl=1535817702&ri=8192&rs=8192&setec=50719427c6f3269de47f8fd668d0b5da"
+    }
+  ]
+}

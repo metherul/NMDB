@@ -1,0 +1,32 @@
+{
+  "modId": 21495.0,
+  "modName": "Better Bartering",
+  "summary": "Changes bartering to be more speech skill dependent. This means it will be much harder to become rich just by selling found items unless you improve your speech skill.\r\nThe same applies to buying.\r\n",
+  "descriptionHtml": "Changes bartering to be more speech skill dependent. This means it will be much harder to become rich just by selling found items unless you improve your speech skill.\r\nThe same applies to buying.\r\n\r\n0 Speech = 10% selling price.\r\n100 Speech = 70% selling price approx.\r\n100 Speech + perks = 100% selling price.\r\n\r\nAny speech tree remake will be compatible, but I recommend using one that keeps the Haggling and Alure perks at 40%. The one I use is [url=http://skyrim.nexusmods.com/mods/18919]this one[/url].\r\nSuggestions about this mod are welcome.\r\n\r\n[b]How it works[/b]:\r\nSets \\\"fBarterMax\\\" to 10.\r\nSets \\\"fBarterMin\\\" to 1.4.\r\nAs an extra, also sets \\\"fBarterBuyMin\\\" to 1.0500 and \\\"fBarterSellMax\\\" to 0.9500. This are the default values, but I decided to fix them in case a future patch changes them.\r\n\r\n[b]Why this values/mod?[/b]:\r\nObtaining money in Skyrim is too easy, just collecting some junk and selling it at early levels makes you rich. This mod tries to change that and make the player gain money by doing quests or investing experience on speech.\r\n\r\nThis values make it so that at 100 speech and the perks that improve bartering (Haggling + Alure = 40% boost) you are able to sell at the max selling price (95% of the item price) and buy at the min buying price (105% of the item price) without any need of enchantments.\r\nIf you want to see the formula behind this calculations see [url=http://www.uesp.net/wiki/Skyrim:Speech#Prices]this[/url].",
+  "categoryId": "24",
+  "version": "1",
+  "author": "Niux",
+  "createdUnix": "1343867512",
+  "updatedUnix": "1343867739",
+  "containsAdultContent": false,
+  "uploadedBy": "Niux",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "78159",
+      "name": "Better Bartering",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Better Bartering-21495-1-0.7z",
+      "uploadedUnix": "1343867739",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/80367e22a06888f6b64f90118b37abd6c1fca92bb1bfb62485933028fed54b0a/analysis/1407062826/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Better%20Bartering-21495-1-0.7z?fid=78159&ttl=1535790407&ri=8192&rs=8192&setec=8f9666fcb8bca721dccaa7019e116f94"
+    }
+  ]
+}

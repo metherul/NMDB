@@ -1,0 +1,32 @@
+{
+  "modId": 17300.0,
+  "modName": "Potion Racks",
+  "summary": "My first Skyrim Mod. Not playable, just preview. An working Potion Rack.",
+  "descriptionHtml": "(Not playable, just preview, please check later..)\r\n\r\nHow to see in the game?\r\n1. Unzip to Skyrim folder\r\n2. Check in loader\r\n3. Print in game console\r\n\\\"coc prtest\\\" (without quotes) for teleporting to the test location\r\n\\\"coc whiterun\\\" for exit\r\n\r\nHow create a new mod with potion racks?\r\n1. Add following keywords \\\"Creation Kit - Miscellanies - Keywords\\\"\r\nPotionRackContainer\r\nPotionRackClickTrigger\r\nPotionRackPotion01\r\nPotionRackPotion02\r\nPotionRackPotion03\r\nPotionRackPotion04\r\nPotionRackPotion05\r\nPotionRackPotion06\r\nPotionRackPotion07\r\nPotionRackPotion08\r\nPotionRackPotion09\r\nPotionRackPotion10\r\nPotionRackPotion11\r\nPotionRackPotion12\r\nPotionRackPotion13\r\nPotionRackPotion14\r\nPotionRackPotion15\r\nPotionRackPotion16\r\nPotionRackPotion17\r\nPotionRackPotion18\r\nPotionRackTrigger01\r\nPotionRackTrigger02\r\nPotionRackTrigger03\r\nPotionRackTrigger04\r\n\r\n2. Unzip scripts from this mod. Use an tutorial video about bookshelves but with Potion racks stuffs, PlayerPotionRackClickTrigger, PlayerPotionRackTrigger, DefaultPotionRackPotionMarker.. etc\r\n\r\n3. (!) Click to the Activators/PlayerPotionRackClickTrigger in Object Window, double click to the script and click to Auto-Fill All\r\nDo the same with PlayerPotionRackContainer\r\n\r\nOptional: Edit LItemPotionClutter Level item list to control what items will works with this rack.",
+  "categoryId": "28",
+  "version": "0.1",
+  "author": "vincentjazz12",
+  "createdUnix": "1337397561",
+  "updatedUnix": "1337399894",
+  "containsAdultContent": false,
+  "uploadedBy": "vincentjazz12",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "62244",
+      "name": "Potion Rack Preview",
+      "version": "0.1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "19",
+      "fileName": "Potion Rack Preview-17300-0-1-1.zip",
+      "uploadedUnix": "1337399894",
+      "modVersion": "0.1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/eb7fc21899a76e9971d8ae8effe41c7553f59f92a1dd49823c58ce281b7ad6ff/analysis/1406901842/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Potion%20Rack%20Preview-17300-0-1-1.zip?fid=62244&ttl=1535783289&ri=8192&rs=8192&setec=4974fd7c57b840e1300642a260a7d7b5"
+    }
+  ]
+}

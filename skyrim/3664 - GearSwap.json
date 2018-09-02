@@ -1,0 +1,32 @@
+{
+  "modId": 3664.0,
+  "modName": "GearSwap",
+  "summary": "GearSwap is a Work in Progress, so there are going to be some bugs. It is not intended for novice users, you must have some modding capability / understanding of INI files. Allowing the user to switch between two different gear sets",
+  "descriptionHtml": "\r\n\r\n[color=red][size=4]VERSION HISTORY[/size][/color]\r\n0.1a - Work in Progress\r\n\r\n[color=red][size=4]DESCRIPTION[/size][/color]\r\nThis allows your character to switch between to gear-sets, this mod was merely designed around Roleplaying. Allowing my character to go rogue and kill ppl I was able to press the hotkey and it would switch to my Dark Brotherhood Uniform, and if i ever got the feeling to become a Thief i could switch to my Thieves Guild Armor on the fly.. by pressing a button\r\n\r\n[color=red][size=4]IMPORTANT INFORMATION[/size][/color]\r\nGearSwap is a work in progress. There are going to be bugs and the mod it self is not generalized around novice users. You are going to add the FormID\\'s to the [color=00ffee][[/color][b][size=2][color=#66ff22]GearSwap.ini[/color][/size][/b][color=00ffee]][/color] depending on your playstyle. The format for each section in the armor code are based on Hexidecimal.\r\n\r\nThey must start with a 0x (defining the value as a hexidecimal) below shows a example of the usage.\r\nThere are 2 Sections inside [color=00ffee][[/color][b][size=2][color=#66ff22]GearSwap.ini[/color][/size][/b][color=00ffee]][/color] that are dependant on switching your gear back and forth.\r\n[color=00ffee][[/color][b][size=2][color=#66ff22]OutFit_One[/color][/size][/b][color=00ffee]][/color] and [color=00ffee][[/color][b][size=2][color=#66ff22]OutFit_Two[/color][/size][/b][color=00ffee]][/color] these two hold the gear configuration and keycode for both gear\r\n\r\nExample List of Armor Codes\r\n[url=http://www.uesp.net/wiki/Skyrim:Armor]http://www.uesp.net/wiki/Skyrim:Armor[/url]\r\n\r\n[size=2][color=red]NOTE[/color][/size] - [b]You must have the gear in your inventory for this to work[/b]\r\n\r\nExample Configuration\r\n[color=00ffee][[/color][b][size=2][color=#66ff22]OutFit_One[/color][/size][/b][color=00ffee]][/color]\r\n[list]\r\n[*] [size=2][color=red]key=0x70[/color][/size] - [b]F1 Key.. Do not edit[/b]\r\n[*] [size=2][color=red]Armor=0x000D2844[/color][/size] - [b]Shrouded Armor[/b]\r\n[*] [size=2][color=red]Boots=0x000D2845[/color][/size] - [b]Shrouded Boots[/b]\r\n[*] [size=2][color=red]Helmet=0x000D2842[/color][/size] - [b]Shrouded Cowl[/b]\r\n[*] [size=2][color=red]Gloves=0x000D2843[/color][/size] - [b]Shrouded Gloves[/b]\r\n[/list]\r\n\r\n[color=00ffee][[/color][b][size=2][color=#66ff22]OutFit_Two[/color][/size][/b][color=00ffee]][/color]\r\n[list]\r\n[*] [size=2][color=red]key=0x70[/color][/size] - [b]F1 Key.. Do not edit[/b]\r\n[*] [size=2][color=red]Armor=0x000d3ac3[/color][/size] - [b]Thieves Guild Armor[/b]\r\n[*] [size=2][color=red]Boots=0x000d3ac2[/color][/size] - [b]Thieves Guild Boots[/b]\r\n[*] [size=2][color=red]Helmet=0x000d3ac5[/color][/size] - [b]Thieves Guild Hood[/b]\r\n[*] [size=2][color=red]Gloves=0x000d3ac4[/color][/size] - [b]Thieves Guild Gloves[/b]\r\n[/list]\r\n\r\nHow to switch between the two? F1 and SHIFT+F1 will you to switch between the two\r\n\r\n[color=red][size=4]INSTALL[/size][/color]\r\nJust place [color=00ffee][[/color][b][size=2][color=#66ff22]GearSwap.asi[/color][/size][/b][color=00ffee]][/color] & [color=00ffee][[/color][b][size=2][color=#66ff22]GearSwap.ini[/color][/size][/b][color=00ffee]][/color] into your Skyrim ROOT directory where your TESV.EXE is located, then run the game as normal.\r\n\r\n[color=red][size=4]REQUIREMENTS[/size][/color]\r\nDragon Script is required for this mod to work\r\n\r\n[color=red][size=4]FUTURE DEVELOPMENTS[/size][/color]\r\n[list]\r\n[*] Third Party Configuration tool, allowing you to add gear sets to the .INI\r\n[*] Better Keybinding that is readable, such as [b]\\\"Key=SHIFT+F1\\\"[/b] allowing you to use key modifiers, instead of hexidecimal crap\r\n[*] Hopefully able to detect the current characters armor-set in-game to save to a Armor Set depending on the modifier to save the outfit too\r\n[/list]\r\n\r\n[size=2][color=red]NOTE[/color][/size] - [b]Source code will be uploaded on full release[/b]\r\n",
+  "categoryId": "39",
+  "version": "0.1a",
+  "author": "PROXiCiDE",
+  "createdUnix": "1323881770",
+  "updatedUnix": "1323881880",
+  "containsAdultContent": false,
+  "uploadedBy": "PROXiCiDE",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "10409",
+      "name": "GearSwap_0_1a_bin",
+      "version": "0.1a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "61",
+      "fileName": "GearSwap_0_1a_bin-3664-0-1a.rar",
+      "uploadedUnix": "1323881880",
+      "modVersion": "0.1a",
+      "virusScanUrl": "https://www.virustotal.com/file/2dad9300438c134a99c75e59ebca025b37ede4920ff02762f951b1486c8d1065/analysis/1406518682/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/GearSwap_0_1a_bin-3664-0-1a.rar?fid=10409&ttl=1535758892&ri=8192&rs=8192&setec=7e3ad29143f4c9b1b98fb8df09ac8414"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 3195.0,
+  "modName": "Magi",
+  "summary": "Amplification of spells / Magicka Regeneration based on Perks / Level / Skill Level inside combat and outside combat, requires Dragon Script",
+  "descriptionHtml": "\r\n[size=4][color=red]VERSION HISTORY[/color][/size]\r\n0.2a - Rebalanced, added Mastery Perk advantages\r\n0.1a - Initial Release\r\n\r\n[size=4][color=red]DESCRIPTION[/color][/size]\r\nMagi is a mod that allows caster type characters such as a [b]Mage / Nightblade / Spellsword / Battlemage / Paladin / Warlock / Conjurer[/b] on helping there magicka regeneration and amplify there spell\\'s\r\n\r\nHere is what to expect\r\n[list]\r\n[*] Amplification of spells based on skill level and character level\r\n[*] Magicka regeneration based on Restoration skill level and Recovery Perks\r\n[*] Restoration increases the effects enchanted on Armor\r\n[*] Destruction increases the effects enchanted on weapons\r\n[*] [size=2][color=red]NEW[/color][/size] - [b]Mastery Perks under a selective tree now reduce the costing of all spells under that spell school[/b]\r\n[/list]\r\n\r\nExample of how the Mastery Perks that effect the entire spell school\r\n\r\n[size=2][color=red]Alteration[/color][/size] - [b]A Character at level 81 and 533 Magicka, with the spell Ebonyflesh[/b]\r\n[list]\r\n[*] Vanilla [color=00ffee][[/color][b][size=2][color=#66ff22]No Perk[/color][/size][/b][color=00ffee]][/color] cost 202 Magicka\r\n[*] Vanilla [color=00ffee][[/color][b][size=2][color=#66ff22]Expert Perk[/color][/size][/b][color=00ffee]][/color] costs 101 Magicka\r\n[*] Magi [color=00ffee][[/color][b][size=2][color=#66ff22]Master Perk[/color][/size][/b][color=00ffee]][/color] now costs 95 Magicka\r\n[/list]\r\n\r\n\r\nThe following skills are effected\r\n[list]\r\n[*] Alteration\r\n[*] Conjuration\r\n[*] Destruction\r\n[*] Illusion\r\n[*] Restoration\r\n[/list]\r\n\r\nThe following player value indices are effected\r\n[list]\r\n[*] AlterationPowerMod\r\n[*] ConjurationPowerMod\r\n[*] DestructionPowerMod\r\n[*] IllusionPowerMod\r\n[*] RestorationPowerMod\r\n[*] AlterationMod\r\n[*] ConjurationMod\r\n[*] DestructionMod\r\n[*] IllusionMod\r\n[*] RestorationMod\r\n[*] MagickaRate\r\n[*] MagickaRateMult\r\n[/list]\r\n\r\n[size=2][color=red]NOTE[/color][/size] - [b]Does not effect NPC\\'s, only the player is effected by the changes[/b]\r\n\r\n[size=4][color=red]IMPORTANT INFORMATION[/color][/size]\r\nIt\\'s possible that this mod might be subjected to comparability issues with other mods that alter the following\r\n[list]\r\n[*] Power Modifications of Skills\r\n[*] Magicka Regeneration\r\n[/list]\r\n\r\n[size=4][color=red]INSTALL[/color][/size]\r\nJust place Magi.asi into your Skyrim ROOT directory where your TESV.EXE is located, then run the game as normal. There are no keys to press to activate it. It will do all the work in the background for you.\r\n\r\n[size=4][color=red]REQUIREMENTS[/color][/size]\r\nDragon Script is required for this mod to work\r\n\r\n[size=2][color=red]NOTE[/color][/size] - [b]If you find this mod useful, please support it by tagging and endorsing it[/b]",
+  "categoryId": "93",
+  "version": "0.2a",
+  "author": "PROXiCiDE",
+  "createdUnix": "1323490486",
+  "updatedUnix": "1323575356",
+  "containsAdultContent": false,
+  "uploadedBy": "PROXiCiDE",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "8767",
+      "name": "Magi_0_1a",
+      "version": "0.1a",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "32",
+      "fileName": "Magi_0_1a-3195.rar",
+      "uploadedUnix": "1323490599",
+      "modVersion": "0.1a",
+      "virusScanUrl": "https://www.virustotal.com/file/34241bf99a14bac5f6e1513513ceef341546078c3265f44f2ea3889782ee1620/analysis/1406499665/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Magi_0_1a-3195.rar?fid=8767&ttl=1535758044&ri=8192&rs=8192&setec=9df7805ecf10441ed702ab4d76caf1b0"
+    },
+    {
+      "fileId": "9153",
+      "name": "Magi_0_2a",
+      "version": "0.2a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "36",
+      "fileName": "Magi_0_2a-3195-0-2a.rar",
+      "uploadedUnix": "1323575356",
+      "modVersion": "0.2a",
+      "virusScanUrl": "https://www.virustotal.com/file/6b5974c7e6dce18715a4bf31e41a346707ae307497e6e1f1d0a307b970a27f04/analysis/1406504584/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Magi_0_2a-3195-0-2a.rar?fid=9153&ttl=1535758044&ri=8192&rs=8192&setec=b08bdef5ee312342b8580368244d4742"
+    }
+  ]
+}

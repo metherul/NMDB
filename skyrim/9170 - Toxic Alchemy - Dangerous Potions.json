@@ -1,0 +1,48 @@
+{
+  "modId": 9170.0,
+  "modName": "Toxic Alchemy - Dangerous Potions",
+  "summary": "This mod implements potion toxicity, inspired by The Witcher. To compensate for the increased risks of using potions, all Fortify and Resist potions have had their durations greatly increased.",
+  "descriptionHtml": "N.B.: Version Two is now released, and does -not- rename beneficial potions.\r\n\r\n\r\nToxic Alchemy - Dangerous Potions\r\n\r\nThis mod implements potion toxicity, inspired by The Witcher.\r\nToxicity is implemented primarily as a reduction of maximum stamina: when you take a potion, your max stamina (and your current stamina) are reduced by 30 points. After three minutes, the toxicity effect expires, and your stamina returns to normal. If you take another potion while still under the effect of toxicity, your stamina will be reduced by a further 30 points, until you have taken six potions. At that point, taking a seventh will induce critical toxicity, reducing your carrying capacity to zero. If you take an eighth potion while at critical toxicity, you will be afflicted with lethal toxicity, which will rapidly drain your health.\r\n\r\nSee the following table:\r\n\r\nToxicity 1: -30 Max Stamina: 3 Minutes\r\nToxicity 2: -60 Max Stamina: 6 Minutes\r\nToxicity 3: -90 Max Stamina: 9 Minutes\r\nToxicity 4: -120 Max Stamina: 12 Minutes\r\nToxicity 5: -150 Max Stamina: 15 Minutes\r\nToxicity 6: -180 Max Stamina: 18 Minutes\r\nToxicity Critical: -180 Max Stamina, -1000 Carrying Capacity: 21 Minutes\r\nToxicity Lethal: -180 Max Stamina, -1000 Carrying Capacity, -15HP/Sec: 24 Minutes\r\n\r\nThe time in the last column is the total time it will require for your character to return to zero toxicity; but every three minutes, your toxicity level will decrease to the next level down, so if you are at critical toxicity and your carrying capacity has been reduced, then if you wait three minutes without drinking another potion, your carrying capacity will return to normal, and you will only be at toxicity level 6, with -180 max stamina.\r\n\r\nOf course, doing this on its own would make alchemy a much less desirable skill. To compensate, all Fortify Skill and Resist [Fire/Frost/Shock/Magicka/Poision] potions have had their durations significantly increased: player crafted ones will last for as much as ten minutes, and shop-bought ones will last for five minutes. This is to encourage players to take buffing potions before they enter a dungeon, rather than fiddling with them mid-combat, or just forgetting that they have them at all.\r\n\r\nA FINAL NOTE:\r\nDue to the implementation of this mod, it will almost certainly conflict with any mod that alters the effects of potions or ingredients.",
+  "categoryId": "79",
+  "version": "Two",
+  "author": "Crane",
+  "createdUnix": "1329056087",
+  "updatedUnix": "1329133206",
+  "containsAdultContent": false,
+  "uploadedBy": "The_White_Crane",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "29611",
+      "name": "Toxic Alchemy - v1",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "Toxic Alchemy - v1-9170.7z",
+      "uploadedUnix": "1329056210",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/22742a63114bbe0a131275c7fbeccf89b565d227a3277cf6509fe8e4400d0510/analysis/1406673187/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Toxic%20Alchemy%20-%20v1-9170.7z?fid=29611&ttl=1535768463&ri=8192&rs=8192&setec=822cbff1f33696382b0b833abc7f4009"
+    },
+    {
+      "fileId": "30295",
+      "name": "Toxic Alchemy - Dangerous Potions",
+      "version": "Two",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "Toxic Alchemy - Dangerous Potions-9170.7z",
+      "uploadedUnix": "1329133206",
+      "modVersion": "Two",
+      "virusScanUrl": "https://www.virustotal.com/file/e58c89e9bc76ebae78765ac27d8ac0e48bfc09e9873a9240bcbcfeb84875b2c5/analysis/1406676724/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Toxic%20Alchemy%20-%20Dangerous%20Potions-9170.7z?fid=30295&ttl=1535768464&ri=8192&rs=8192&setec=45e8b9c4fe97990e2d45a1db79be6980"
+    }
+  ]
+}

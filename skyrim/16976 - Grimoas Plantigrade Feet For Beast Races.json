@@ -1,0 +1,48 @@
+{
+  "modId": 16976.0,
+  "modName": "Grimoas Plantigrade Feet For Beast Races",
+  "summary": "This file gives unique feet to the beast races. They are somewhat similar to the appereance from Morrowind but are plantigrade (walking on the whole foot) instead of digitrade (walking on the toes). The meshes and textures are new, hand-crafted from scratch by myself. I hope you like and enjoy them!",
+  "descriptionHtml": "[img]http://img6.imagebanana.com/img/qny7fqx0/beastfeet_920.png[/img]\r\n\r\n[color=#dddddd][size=4]>> What does it do?[/size][/color]\r\nThis file gives unique feet to the beast races. They are somewhat similar to the appereance from Morrowind but are plantigrade (walking on the whole foot) instead of digitrade (walking on the toes). The meshes and textures are new, hand-crafted from scratch by myself. I hope you like and enjoy them!\r\n\r\nI know there are some texture seams. I will fix them, as soon as I got another perk point in the texturing tree. For now I don\\'t think I can do any better given a reasonable amount of time.\r\n\r\nIf you find anything else that is off, please report.\r\nTo increase your chances of a fix, please state the weight and gender of your character and if you are using any body / texture / armor mods. A picture of the issue would be most helpfull!\r\n\r\n\r\n[color=#dddddd][size=4]>> Currently working on[/size][/color]\r\nHave a look at the [url=http://forums.nexusmods.com/index.php?/topic/627941-wip-plantigrade-feet-for-beast-races/page__view__findpost__p__7017778]WIP Thread[/url] aswell!\r\nConverting more boots. Whenever I get a bunch done I will update.\r\nClawnails for the hands will probably be a seperate mod. I put a link here once it\\'s up. ;)\r\n\r\n\r\n[color=#dddddd][size=4]>> Future plans[/size][/color]\r\nMatching textures for some popular body retextures.\r\nWhat to do to support custom races?\r\n\r\n\r\n[color=#dddddd][size=4]>>FAQ[/size][/color]\r\n* Are you still working on this?\r\nYep.\r\n\r\n* Sure? The last update is half a century old!\r\nSure. It might take a while, but I will come back. It\\'s just that real life tends to keep me from modding. *sigh*\r\n\r\n* Can you do digitrade feet?\r\nNope. Have a look at [url=http://skyrim.nexusmods.com/mods/6041]\\\"unique beast races\\\"[/url].\r\n\r\n* I think the argonian claws are to big!\r\nUhm... Nope, I\\'m not going to start over.\r\n\r\n* Can you seperate the Khajiit and Argonians?\r\nYeah, people keep asking for that.\r\nMainly because they want my khajiit feet together with some other argonian mod.\r\nHere\\'s the problem:\r\nIn the Construction Kit is one item of the type \\\"armor\\\" for each pair of boots. This armor item sets which inventory item you see, the weight, armor rating, value the boots have. And it references one or more items of the type \\\"armor addon\\\". The armor addon sets which model you see on your character when you equip the item. You can specify different textures (but not models!) in the armor addon and for which races it should apply. So as long as all races share one model, there is only one armor addon.\r\nTo make the beast races use seperate models, I created a seperate armor addon for argonians and another one for khajiit.\r\nAnd I edited the vanilla armor item to reference these new armor addons. And here is the problem.\r\nI could delete the argonian armor addons to make a khajiit standalone. But I still need to edit the armor to make it use my new armor addons for khajiit. And that\\'s the same item the raptor feet mod edits to make it use the new armor addons that mod adds. So.\r\nWhatever mod you load last will win. There is either the edit that tells the game to load the raptor feet for argonians OR there is my edit to change the khajiit feet.\r\nThe only way to have both races is to have them in one file from the start. The way I\\'m doing it.\r\n\r\nOh and, please don\\'t ask for me to merge my esp with that of the raptor feet. While this  mod is still in developement maintaining multiple versions will only be additional hassle.\r\n\r\nTldr? The mod is not compatible with anything that changes shoes, not matter what race. Other than mod merging there is no way to change that.\r\nSorry, but you will have to decide.\r\n\r\n\r\n[color=#dddddd][size=4]>> Permissions[/size][/color]\r\nDo not reupload this file to any site, be it the Nexus or otherwise.\r\nDo not use my meshes or textures for your work without my consent. PM me, tell me what you have in mind and I shall think about it. ;)\r\n\r\n\r\n[color=#dddddd][size=4]>> Credits[/size][/color]\r\nDanidragon for the concept art\r\nDragten for helping me solve some problems\r\nThe Nifskope Team: You rock!\r\nThe Blender Team: for equal amount of rocking\r\nSculptris: For being freeware\r\nThe Author of \\\"Creating an Armour for Skyrim\\\" \r\nBethesda for a World to mod",
+  "categoryId": "34",
+  "version": "1.4",
+  "author": "Grimoa",
+  "createdUnix": "1336906068",
+  "updatedUnix": "1357391289",
+  "containsAdultContent": false,
+  "uploadedBy": "Grimoa",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "95040",
+      "name": "Grimoas Plantigrade Feet For Beast Races v 1_3",
+      "version": "1.3",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "6456",
+      "fileName": "Grimoas Plantigrade Feet For Beast Races v 1_3-16976-1-3.7z",
+      "uploadedUnix": "1350845667",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/50af865a634f26aea07d9767414e72d393828ecc7f1b445e864cf2b2b5b7b8bb/analysis/1407231366/",
+      "changelogHtml": " Open Shoes. Falmer boots, Footwraps and Wedding Sandals (female only) now work with GPF! <br/> \n Also reworked the khajiit texture have an overall lighter color so the skin tone slider shows more variety. Still not too happy, might do some more tries in future updates. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Grimoas%20Plantigrade%20Feet%20For%20Beast%20Races%20v%201_3-16976-1-3.7z?fid=95040&ttl=1535782750&ri=8192&rs=8192&setec=29ff5fdc0f5a427fe7230d9ae8114537"
+    },
+    {
+      "fileId": "1000000118",
+      "name": "Grimoas Plantigrade Feet For Beast Races v 1_4",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6864",
+      "fileName": "Grimoas Plantigrade Feet For Beast Races v 1_4-16976-1-4.7z",
+      "uploadedUnix": "1357391289",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/f368ab4a58885f76484366efe1ee5b2740769cac6ffa602f9aa8d2bd8202bc09/analysis/1407338239/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Grimoas%20Plantigrade%20Feet%20For%20Beast%20Races%20v%201_4-16976-1-4.7z?fid=1000000118&ttl=1535782750&ri=8192&rs=8192&setec=ccfaf4465dfebf456378367e82fb1590"
+    }
+  ]
+}

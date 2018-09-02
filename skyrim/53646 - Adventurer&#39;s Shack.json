@@ -1,0 +1,48 @@
+{
+  "modId": 53646.0,
+  "modName": "Adventurer&#39;s Shack",
+  "summary": "A small cabin north of Riverwood with some unique features.",
+  "descriptionHtml": "[center][img]http://i.imgur.com/VlBbRbl.png[/img][/center]\r<br />[center][img]http://i.imgur.com/acvqJoW.png[/img][/center]\r<br />This mod adds a small shack near the path north of Riverwood. This small home is easy to obtain and is perfect as a starter home early in the game. It is also suitable throughout the game for the adventurer that prefers a smaller, more rugged, home rather than a large house, mansion, or estate.\r<br />\r<br />There is a small quest (featuring a voiced NPC) that must be completed in order to own the shack. You will be able to enter the shack to see if you like it even before starting the quest but the quest must be completed in order to actually own the shack. The quest is very short and upon completing it the shack will be fully yours (and the NPC will no longer live there). To start the quest, just talk to the old adventurer at the shack and ask him if he needs help with anything.\r<br />\r<br />The shack contains a few notable features:\r<br />[list]\r<br />[*]Different lighting ambiance for nighttime, morning/evening, and daytime.[/*]\r<br />[*]Interior lanterns can be lighted and extinguished by the player[/*]\r<br />[*]Exterior lanterns automatically light at nighttime and extinguish in the daytime.[/*]\r<br />[*]The cell in which the shack resides is fully navmeshed and NPC friendly.[/*]\r<br />[/list]\r<br />The shack does not contain crafting stations, forges, etc. (except for a tanning rack outside). The adventurer that owns the shack before you acquire it wasn&#39;t a big user of magic so he never bothered to acquire an arcane enchanter or alchemy lab. Forges, smelters, etc. are simply too big (in my opinion) for a small shack like this and they are available nearby in Riverwood anyway.\r<br />\r<br />[b][u]Compatibility[/u][/b]\r<br />This mod may be incompatible with any mod that edits the navmesh in the cell that contains the shack and/or the four cells immediately north, south, east, and west of the shack. In that case there is a possibility that NPCs may not be able to cross the cell borders of the affected cells. If you load such a mod along with this one you may want to recruit a follower and make sure they can follow you into and out of the area.\r<br />\r<br />Other than that, the only other incompatibility would be mods that change the actual cell that contains the shack. If a mod puts items in places that are occupied by the shack or other items from this mod then, obviously, those items could clip with the items from this mod.\r<br />\r<br />[b][u]Other Things to Know[/u][/b]\r<br />When you enter the shack the first time you may see/hear books being placed on the shelf. This is normal and shouldn&#39;t cause any issues. It happens because I like having books already on the shelf at the beginning of the game but still have the bookshelf be a fully functional bookshelf.\r<br />\r<br />[b][u]Installation - Nexus Mod Manager[/u][/b]\r<br />Use the &#34;Download with Manager&#34; button. Once the mod is in NMM make sure that NMM has the mod activated.\r<br />\r<br />[b][u]Installation - Manual[/u][/b]\r<br />Drop CDB_AdventurersShack.esp and CDB_AdventurersShack.bsa into your Data folder.\r<br />Activate the mod using whatever management tool suits you.\r<br />\r<br />[b][u]Uninstalling[/u][/b]\r<br />Due to the nature of Skyrim mods, especially those adding scripts, it is strongly discouraged to attempt uninstalling a mod from your active game. Any mod that is more than pure mesh or texture replacements has the possibility to leave behind permanent changes to your save that you may not want. This is not something modders can correct for. It is how the game was designed by Bethesda. No support will be provided for anyone who uninstalls this mod from an active game and continues on with that save.\r<br />\r<br />Having said that, I have tested uninstalling the mod and have not seen any issues on my system other than the Papyrus logs showing errors about missing scripts. Your mileage may vary.\r<br />\r<br />Keeping all of the above in mind, if you want to uninstall, please gather any items you have stored in the shack before you uninstall. After uninstalling the mod, any items left in the shack or its storage containers will no longer exist. After you have done that you can either uninstall from NMM or manually remove the CDB_AdventurersShack.esp and CDB_AdventurersShack.bsa files from your Data folder\r<br />\r<br />[b][u]Load Order[/u][/b]\r<br />This mod does not change any vanilla forms (other than the navmesh) so load order shouldn&#39;t matter in most cases. In the case of navmesh, if you are using another mod that edits the navmesh in the same cells you will need to load this mod after the other mod in order for NPCs and followers to be able to travel up to the shack.\r<br />\r<br />[b][u]Credits:[/u][/b]\r<br />While I built this mod from scratch, I got a lot of inspiration from the excellent Hunters Treehouse mod by 3scape. If you prefer a treehouse instead of a ground dwelling then please check out that mod: http://www.nexusmods.com/skyrim/mods/15317\r<br />\r<br />The moth case and dragonfly case wall decorations were created by Blary. They are from the Alchemy Clutter Resource: http://www.nexusmods.com/skyrim/mods/30599\r<br />\r<br />The meshes in the optional &#34;Adventurer&#39;s Shack - SMIM Lanterns Add-On&#34; file are based on meshes created by Brumbek as part of his excellent SMIM mod: http://www.nexusmods.com/skyrim/mods/8655. I consider SMIM to be a must-have mod and I highly recommend it.\r<br />\r<br />[b][u]Licensing and Legal[/u][/b]\r<br />Redistribution is strictly forbidden without prior consent. This means do not upload it anywhere unless you have obtained permission from me.\r<br />\r<br />Resources in this mod must not be used without prior permission from me. The only exception is content that is from modders resources for which the creators of those resources have granted permission to use their content. In those cases, please download the original resource (see links in the credits section above) so that you can verify current permissions from the respective creators.\r<br />\r<br />The meshes in the optional &#34;Adventurer&#39;s Shack - SMIM Lanterns Add-On&#34; file were used with permission from Brumbek. Any use of these meshes requires prior permission from Brumbek. He can be reached at: http://forums.nexusmods.com/index.php?/user/283020-brumbek/",
+  "categoryId": "67",
+  "version": "1.1",
+  "author": "DonB312",
+  "createdUnix": "1400444452",
+  "updatedUnix": "1400387773",
+  "containsAdultContent": false,
+  "uploadedBy": "DonB312",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000109447",
+      "name": "Adventurer&#39;s Shack",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2510",
+      "fileName": "Adventurer's Shack-53646-1-1.7z",
+      "uploadedUnix": "1400387460",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/686378bb8843d53b0b7f599b6e6ef0d89bae4ffbabf10b17fb4a47655db6c5b0/analysis/1408082059/",
+      "changelogHtml": " Initial Release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Adventurer%27s%20Shack-53646-1-1.7z?fid=1000109447&ttl=1535837294&ri=8192&rs=8192&setec=d9612140b6e7b3507991ef06ff5e294b"
+    },
+    {
+      "fileId": "1000109448",
+      "name": "Adventurer&#39;s Shack - SMIM Lanterns Add-On",
+      "version": "1.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "107",
+      "fileName": "Adventurer's Shack - SMIM Lanterns Add-On-53646-1-1.7z",
+      "uploadedUnix": "1400387773",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/1577f21c80eaef5e0b69758509b4c6eb462ef727a9ae12e108d425aaec1f12f6/analysis/1408082166/",
+      "changelogHtml": " Initial Release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Adventurer%27s%20Shack%20-%20SMIM%20Lanterns%20Add-On-53646-1-1.7z?fid=1000109448&ttl=1535837294&ri=8192&rs=8192&setec=77b75e98fb4c6888c5e829c01f8a62b7"
+    }
+  ]
+}

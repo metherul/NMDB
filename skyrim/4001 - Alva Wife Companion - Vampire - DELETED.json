@@ -1,0 +1,48 @@
+{
+  "modId": 4001.0,
+  "modName": "Alva Wife Companion - Vampire - DELETED",
+  "summary": "Alva (vampire) of Morthal, as your wife and follower.",
+  "descriptionHtml": "[center][img]http://img820.imageshack.us/img820/6549/alvamain.jpg[/img][/center]\r\n\r\n[center]Get [url=http://skyrimnexus.com/downloads/file.php?id=3806]Lisette Wife Companion[/url] too![/center]\r\n[center]Get [url=http://skyrimnexus.com/downloads/file.php?id=3983]Hroki Wife Companion[/url] too![/center]\r\n\r\nI am your wife now and I will follow where ever you go. I will cook and loot for you and eat everything else what you don\\'t eat. Though I prefer you join me to live unfettered from the mundane cattle humans for eternity.\r\n\r\nDescription:\r\nThis mod uses a Skyrim plugin and is a spin-off of Hroki and Lisette Wife Companion mods and are nearly identical. Alva is a vampire, she has her own quest line ( I have not tested ) and I think will give you some interesting options, save the town of Morthal or stand by your vampire wife.\r\n\r\nI provided this companion because Alva is another hottie not available through normal marriage or follower means.\r\n\r\nInstructions:\r\nConsole commands you must enter after loading the plugin:\r\n\r\nStep 1: You find her at the Inn in Morthal. \r\n\r\nStep 2: If you are married right now and are thinking you rather marry Alva and dump your current wife, then enter the following console commands to end that marriage. Make sure you are targeting her by clicking on \\\"your current wife\\\" in the console with your mouse. That means you need to be standing in front of your wife.\r\n\r\nremovefac 51596\r\nplayer.removefac C6472\r\nresetquest 74793\r\nresetquest 21382\r\nsetstage 74793 10\r\n\r\nGo sleep or wait for a full 24 hours and then find Hroki, just make sure you have your Amulet of Mara and are wearing it.\r\n\r\nStep 3: Go make your move on her. If she doesn\\'t start up the right lines, then enter the following lines. (make sure you are targeting Alva with your mouse)\r\n\r\nsetrelationshiprank player 4\r\n\r\nNow she will inquire about your necklace for sure and will have full follower options.\r\n\r\nStep 4: If you have never married an NPC and started the Marriage quest, then just follow step (3) if you have issues.\r\n\r\nInstall:\r\nPlace the plugin \\\"Alva Wife Companion.esp\\\" in your \\\\Skyrim\\\\Data\\\\ folder and activate the mod.\r\n\r\nUninstall:\r\nDelete \\\"Alva Wife Companion.esp\\\" from your \\\\Skyrim\\\\Data\\\\ folder.\r\n\r\nTip: Ask her to follow you before asking her to marry you. Why? Then she\\'s all set to travel with you to the Temple of Mara in Riften when you need to schedule your marriage ceremony. Then after you are married, she will walk out of the Temple of Mara just like all of them do. Find her in her traveling back or back in Morthal, or use the console to move to her location immediately.\r\n\r\nCombat:\r\nAlva has her default fighting style and I have not changed that. With more testing, if her style is not viable, I\\'ll make changes.\r\n\r\nDetail changes:\r\ninitial release (v.8)\r\n\r\nEnjoy Alva, you may find that it\\'s more difficult keeping her alive!",
+  "categoryId": "66",
+  "version": "0.81",
+  "author": "Aoikani",
+  "createdUnix": "1324207672",
+  "updatedUnix": "1327293944",
+  "containsAdultContent": false,
+  "uploadedBy": "Aoikani",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "11654",
+      "name": "Alva Wife Companion",
+      "version": ".8",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Alva Wife Companion-4001.rar",
+      "uploadedUnix": "1324208960",
+      "modVersion": ".8",
+      "virusScanUrl": "https://www.virustotal.com/file/1a54cbf5c743bdbffb5068b346f5074d2ebdc31ef57b893ad6c934f631183f6e/analysis/1406533205/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Alva%20Wife%20Companion-4001.rar?fid=11654&ttl=1535759439&ri=8192&rs=8192&setec=0b63a31257946b4a5d299022b159c650"
+    },
+    {
+      "fileId": "22308",
+      "name": "Alva _81",
+      "version": ".81",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Alva _81-4001.7z",
+      "uploadedUnix": "1327293944",
+      "modVersion": ".81",
+      "virusScanUrl": "https://www.virustotal.com/file/7ae1b65c691ab8a217523ac60dec5d3a09286496fa0052aeb4d968a959c0fd50/analysis/1406632698/",
+      "changelogHtml": " -made Essential <br/> \n -changed Faction settings for Marriage, Follower and Player Ally <br/> \n -inventory change <br/> \n -provided an extensive test & results on two paths of acquiring Alva <br/> \n -fixed Hroggar\\'s attacks against PC <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Alva%20_81-4001.7z?fid=22308&ttl=1535759439&ri=8192&rs=8192&setec=0364a8db082b7dfe429354b7d2ac851a"
+    }
+  ]
+}

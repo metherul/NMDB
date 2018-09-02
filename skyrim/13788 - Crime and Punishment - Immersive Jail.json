@@ -1,0 +1,32 @@
+{
+  "modId": 13788.0,
+  "modName": "Crime and Punishment - Immersive Jail",
+  "summary": "Adds a sequence where guards drag you through the town and lock you in jail where you have to wait out your sentence when arrested.",
+  "descriptionHtml": "[b]Description[/b]\r\nWhen I first went to jail in Skyrim I was disappointed with the teleport in, activate bed, teleport out, over in a second thing.  This attempts to address that that adds a sequence when the player gets arrested.\r\n\r\nWhen arrested, the guard will bind your hands and march you by foot to the prison to lock you up.  If you have to suffer the humiliation of being dragged bound through the busy marketplace that\\'s your own fault.  Also, any guard which is a member of the town faction will take you to the town jail, so you may end up like those Stormcloak prisoners and have a long walk through the countryside if you get arrested far from the town.\r\n\r\nOnce in jail, the guard will ask you to hand over all of your equipped armor, remove your belongings (including gold), then lock you in your cell.  Once in your cell you will have to wait out your sentence, and will be given a notification as to how long this is.  You can\\'t just skip it, though you can still use wait or sleep.\r\n\r\nWhen your time is served, assuming you have not attempted escape, you will get a notification and a guard will come and release you.  You are then free to get your belongings and go.\r\n\r\n\r\n[b]Initial Release[/b]\r\n- In the initial release the jail sentence is set to 1 day per 100 gold bounty, but this may change depending on feedback.  \r\n- At the moment there is no penalty for escaping via hidden tunnels, the guards will simply forget about you.  This will probably change in future.\r\n- Currently only affects the towns of Windhelm, Solitude, Riften, and Whiterun\r\n- Sometimes the player will get stuck on steps in Riften or Whiterun.  I don\\'t know how to fix this at the moment and if it happens I can only suggest using the console:  \\\"coc riftenjail01\\\" or \\\"coc whiterundragonsreachbasement\\\" to skip ahead a little.\r\n\r\n[b]Current Issues[/b]\r\n- The AI package is not very good when used on the player.  It will often struggle with steps, such as the ones going up to Dragonsreach.  After removing armor, the AI package often decides to wait around for 10-30 seconds before running to catch up with the guard.  I currently do not know how to fix this but it will remain my top priority.\r\n- The force subtitle option in the Creation Kit is bugged, so if you have subtitles off you will miss the 1 line of dialogue, I have added a notification in case of this, but getting a voice actor would be ideal.\r\n- Stolen items do not currently go into evidence, its all in the prisoner belongings chest.\r\n\r\n\r\n[b]Future Updates[/b]\r\n- Trails:  I\\'d like to add a sort of mini-trail before being taken to jail where the Jarl will pass sentence depending on your crimes, local reputation.  The outcome may be able to be affected by you speechcraft skill.\r\n\r\n- Support for mods that add the need to eat and drink:  There is usually bread and cheese in the cells you are put in, but not enough to sustain you over a long sentence, and no custom items added by these mods.  I think this would be best achieved by having a guard bring you food and water every day, also giving you another opportunity to escape.\r\n\r\n- Optional Hardcore Mode:  No fines, if you commit a crime you WILL go to jail.  Capital punishment; if your crimes are bad enough you are put in jail for a set amount of time.  If you do not escape you are executed.\r\n\r\n- Player control while bound:  option to run for it, but not able to unbind your hands without the help of a friendly NPC (follower).  May also solve the getting stuck issue.",
+  "categoryId": "78",
+  "version": "1.0",
+  "author": "Emhyr",
+  "createdUnix": "1332810058",
+  "updatedUnix": "1332816089",
+  "containsAdultContent": false,
+  "uploadedBy": "EmhyrTyl",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "47235",
+      "name": "Crime and Punishment",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "21",
+      "fileName": "Crime and Punishment-13788-1-0.zip",
+      "uploadedUnix": "1332816089",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3cdd0a9dc1dbb71ce84c466c31742500d554ea6636f006fd7b625cc80e9bfbe2/analysis/1406782204/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Crime%20and%20Punishment-13788-1-0.zip?fid=47235&ttl=1535776916&ri=8192&rs=8192&setec=eeda0eb6cdd65d8af83dc53b6e15b252"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 6748.0,
+  "modName": "1-Hand Idle Animation Replacer",
+  "summary": "Replaces 1-hand idle animation",
+  "descriptionHtml": "Replaces 1-hand idle animations, with or without shield, with another very familiar animation.\r\nTurn animations can also be replaced so they don\\'t do the annoying jerking motions.\r\n\r\nAll I did was take Aurawind\\'s Dual Wield 3rd person dynamic idle stance (The link is gone now :( ) and renamed it to the appropriate 1-hand idle animations. I did it for the turning animations as well, but the feet don\\'t shuffle or move while turning, so sorry if that bothers you, but perhaps someone can make a mod to adjust that.\r\n\r\nAlso, wanted to add that it doesn\\'t really work with 1-hand + magic in offhand. It\\'ll just look weird, so sorry if you\\'re into that.\r\n\r\nINSTALLATION: \r\nExtract and replace Data folder in Steam > SteamApps > Common > Skyrim if you use Steam, or just extract and replace in your Skyrim directory.\r\n\r\nTo remove the animations, just go to Data > Meshes > actors > character > animations and delete 1hm_idle, 1hm_turnleft60, 1hm_turnright60, 1hm_turnleft180, 1hm_turnright180.\r\n\r\nI haven\\'t encountered any problems, myself, so enjoy.",
+  "categoryId": "51",
+  "version": "1",
+  "author": "saitorashi",
+  "createdUnix": "1327193846",
+  "updatedUnix": "1327193983",
+  "containsAdultContent": false,
+  "uploadedBy": "saitorashi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "21872",
+      "name": "1-hand animation replacer",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "28",
+      "fileName": "1-hand animation replacer-6748-1.zip",
+      "uploadedUnix": "1327193983",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/10d80190dd693c5338aff2e71194b1dc1d8969a70bd0f1ed8b371592610c7005/analysis/1406628679/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/1-hand%20animation%20replacer-6748-1.zip?fid=21872&ttl=1535764373&ri=8192&rs=8192&setec=0161289d3ddf438aed00f8cb1db35c6d"
+    }
+  ]
+}

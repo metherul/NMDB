@@ -1,0 +1,48 @@
+{
+  "modId": 61183.0,
+  "modName": "Natural Lighting and Atmospherics Darker Nights Tweak",
+  "summary": "A simple tweak which makes the nights from Natural Lights and Atmospherics (NLA) much darker, with this tweak torches and lanterns will prove quite necessary at night.",
+  "descriptionHtml": "[center][/center][center][font=Verdana][color=#f1c232][size=6][b][/b][/size][/color][/font][/center][center][font=Verdana][color=#f1c232][size=6][b]NLA Darker Nights Tweak[/b][/size][/color]\r<br />[u][/u][size=4][u][color=#666666]                                                                                                      [/color][/u]\r<br />[/size][size=4]\r<br />[/size][size=4][b][color=#b6b6b6]-A simple tweak which makes the nights from [url=http://www.nexusmods.com/skyrim/mods/50065/?]Natural Lighting and Atmospherics[/url] (NLA) much darker, with this tweak torches and lanterns will prove quite necessary at night.\r<br />\r<br />-Some may prefer brighter nights with good visibility, if that&#39;s you then the NLA ENB gives you just that.\r<br />[/color]\r<br />-[color=#b6b6b6]Although if you&#39;re like me and feel that &#34;darker nights + having to use a light source&#34; give the game a touch of realism, then this tweak might just be what you have been looking for.\r<br />\r<br />-Nights will now have very low visibility, and you won&#39;t be able to see much in the distance. If you have ever camped out in the wilderness you might have noticed that it is dark and scary as hell late at night, and you can&#39;t see sh*t without a good light source. Well this tweak will attempt to give you that same experience.[/color][/b][/size][size=4]                           \r<br />                      [/size][u][color=#666666][size=4]                                                                                                         [/size][/color][/u]                  [size=1]                    [/size]              [color=#f1c232][b][size=1]\r<br />[/size][/b][/color][color=#f1c232][b][size=1]\r<br />[/size][size=5]Installation[/size][/b][/color][color=#b6b6b6][b]\r<br />[/b][/color]\r<br />[size=3][color=#999999]1) Extract the zip file and find the enbseries folder inside. \r<br />\r<br />2) Place the enbseries folder in the main Skyrim directory, not inside the data folder&#33; And let it overwrite everything.[/color]\r<br />\r<br />[/size][color=#f1c232][size=3]-The next steps are[/size] [b][size=4]optional[/size][/b] [size=3]as I&#39;m not entirely sure if this certain value is necessary, but to ensure that the tweak works at its full potential it doesn&#39;t hurt to try it, as it either helps or doesn&#39;t do anything at all with the NLA weathers active.[/size][/color]\r<br /> \r<br />[color=#999999][size=3]3) Now open your enbseries.ini in the main Skyrim directory.\r<br />\r<br />[/size][size=3]4) Find the [ENVIRONMENT] section. \r<br />\r<br />5) Under [ENVIRONMENT] set &#34;[/size][/color][size=3][color=#999999]AmbientLightingIntensityNight=[/color][color=#ff0000](X/2 or 4)[/color][/size][color=#999999]&#34; \r<br />[/color][size=3][color=#ff0000]X being the value already set, divided by either 2 or 4 depending on which tweak version you chose.[/color]\r<br />\r<br />[/size][color=#999999][size=3]6) And you are all set, enjoy&#33;\r<br />[/size][/color][u][color=#666666][size=4]                                                                                                         [/size][/color][/u]\r<br />[color=#f1c232][b][size=1]\r<br />[/size][size=5]Requirements[/size][size=1]\r<br />[/size][/b][/color][b][size=1]\r<br />[/size][size=4][color=#b6b6b6]-You absolutely need the amazing [/color][url=http://www.nexusmods.com/skyrim/mods/50065/?]NLA [/url][color=#ff0000]v1.4[/color][color=#b6b6b6] by [/color][url=http://www.nexusmods.com/skyrim/users/125656/?tb=mods&pUp=1]Confidence Man[/url][color=#b6b6b6], this tweak is not to make vanilla nights darker as there are other mods that already do that.[/color]\r<br />\r<br />[color=#b6b6b6]-This tweak is strictly reliant on the weathers component of NLA.[/color]\r<br />\r<br />[/size][/b][b][color=#f1c232][size=5]Compatibility[/size][/color]\r<br />[size=1]\r<br />[/size][/b][color=#b6b6b6][size=4][b]-I am well aware that the NLA weathers can be used with other ENB presets, so that means that this tweak can also be used in the same manner as it simply affects the NLA weathers.\r<br />\r<br />[/b][/size][/color][b][color=#b6b6b6][size=4]-Be advised that I was using RLO when making the darker nights tweak, so if you use any other lighting overhaul results may vary. Feel free to upload screenshots stating what other lighting overhaul you use.\r<br />\r<br />[/size][/color][/b][b][size=4][color=#b6b6b6]-Any mods that change the weathers such as &#34;[/color][color=#ff0000]CoT or Pure Weathers[/color][color=#b6b6b6]&#34; are incompatible with NLA Weathers and this here Tweak.[/color][/size][/b]\r<br />[u][color=#666666][size=4]                                                                                                         \r<br />[/size][/color][/u][color=#f1c232][b][size=1]\r<br />[/size][size=5]Side Tweak[/size][size=1]\r<br />[/size][/b][/color][color=#b6b6b6][b][size=1]\r<br />[/size][size=4]-If you notice that the shadows on the water seem buggy and like to flicker as you move, then you can simply get rid of them by following these steps:[/size]\r<br />[/b][/color]\r<br />[color=#999999][size=3]1) Open your enbseries.ini in the main Skyrim directory.\r<br />\r<br />[/size][size=3]2) Now find the [WATER] section.\r<br />\r<br />[/size][size=3]3) And under [WATER] set &#34;EnableShadow=false&#34;.[/size][/color]\r<br />[u][color=#666666][size=4]                                                                                                         [/size][/color][/u][size=4][color=#666666]\r<br />[/color][/size][size=4]\r<br />[/size][color=#f1c232][size=4]Permission Notes:[/size]\r<br />\r<br />[/color][color=#999999][size=3]-All of the weather ini files were made by [/size][/color][color=#999999][size=3][url=http://www.nexusmods.com/skyrim/users/125656/?tb=mods&pUp=1]Confidence Man[/url], and I simply applied the darker nights tweak.\r<br />\r<br />[/size][/color][size=3][color=#999999]-So everything belongs to him and is strictly off-limits without his permission.[/color]\r<br />[/size][color=#f1c232]\r<br />[size=4]Credits Go To:[/size][/color]\r<br />\r<br />[color=#999999][size=3]-All credits go to[/size][/color][size=3][color=#999999] [/color][color=#999999][url=http://www.nexusmods.com/skyrim/users/125656/?tb=mods&pUp=1]Confidence Man[/url][/color] [color=#999999]for creating such an amazing Weather and ENB mod &#34;[/color][url=http://www.nexusmods.com/skyrim/mods/50065/?]Natural Lighting and Atmospherics[/url][color=#999999]&#34;.\r<br />\r<br />[/color][color=#999999]-Please don&#39;t forget to endorse NLA, as it certainly deserves many more endoresements.[/color][/size][/font][/center][center][/center]",
+  "categoryId": "97",
+  "version": "1.0",
+  "author": "EAGnR",
+  "createdUnix": "1419967301",
+  "updatedUnix": "1419959535",
+  "containsAdultContent": false,
+  "uploadedBy": "EAGnR",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000140725",
+      "name": "2x Darker Nights - Regular",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "77",
+      "fileName": "2x Darker Nights-61183-1-0.zip",
+      "uploadedUnix": "1419959293",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c1f0c57d666ac18f37dce42c79719719382847e41155dbe50f55c0ecda1c7f86/analysis/1419959343/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/2x%20Darker%20Nights-61183-1-0.zip?fid=1000140725&ttl=1535849450&ri=8192&rs=8192&setec=3c49329d97e547a78f560517a541830c"
+    },
+    {
+      "fileId": "1000140726",
+      "name": "4x Darker Nights - Intense",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "77",
+      "fileName": "4x Darker Nights-61183-1-0.zip",
+      "uploadedUnix": "1419959535",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2f7d65c005837488d6c2dd31a45ba653348a9fff79ff7e58aadcc21eeea0f49e/analysis/1419959583/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/4x%20Darker%20Nights-61183-1-0.zip?fid=1000140726&ttl=1535849451&ri=8192&rs=8192&setec=38991a315ec4d819260fbe71632424a8"
+    }
+  ]
+}

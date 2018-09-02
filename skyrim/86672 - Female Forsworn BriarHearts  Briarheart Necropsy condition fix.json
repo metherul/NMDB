@@ -1,0 +1,32 @@
+{
+  "modId": 86672.0,
+  "modName": "Female Forsworn BriarHearts  Briarheart Necropsy condition fix",
+  "summary": "Fixes the annoying bug where you can&#39;t harvest BriarHearts during Neloth&#39;s Quest.",
+  "descriptionHtml": "[color=#f4f4f4]Note: this is for the Girls Girls Girls Edition and also contains the v.2.0a patch[/color][url=https://www.nexusmods.com/skyrim/users/2757695]\r<br />\r<br />Soulbound[/url] mentioned in the comments of the original mod that the game checks a certain condition befor you precede to harvesting:\r<br />----\r<br />[quote]Looking at the quest it has a Perk DLC2TTR5BriarheartHarvestPerk &#34;Briarheart Harvest&#34; [PERK:0401C05B] \r<br />\r<br />It has a script DLC2_PRKF_DLC2TTR5BriarheartH_0201C05B that searches the NPC for the following conditions:\r<br />\r<br />1. That the quest stage is active\r<br />2. That the NPC has BriarHeart &#34;Briar Heart&#34; [INGR:0003AD61]\r<br />\r<br />3. The NPC is wearing ArmorBriarHeart [ARMO:0005D008] or ArmorBriarHeart &#34;Briar Heart Full&#34; [ARMO:0005D008] with USLEEP &lt; Problem&#33;\r<br />\r<br />4. The NPC is dead\r<br />\r<br />After that the harvest notification will be activated.[/quote]\r<br />----\r<br />\r<br />so what i did is, i copied the second conndition and replaced third one\r<br />\r<br />link to original mod:\r<br />https://www.nexusmods.com/skyrim/mods/62338/?",
+  "categoryId": "33",
+  "version": "v.1.0",
+  "author": "nerdofprey",
+  "createdUnix": "1505333238",
+  "updatedUnix": "1505333236",
+  "containsAdultContent": true,
+  "uploadedBy": "StanislavSaw",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000254614",
+      "name": "Female Forsworn BriarHearts  Briarheart Necropsy condition fix",
+      "version": "v.1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "25",
+      "fileName": "Female Forsworn BriarHearts  Briarheart Necropsy condition fix-86672-v-1-0.rar",
+      "uploadedUnix": "1505333236",
+      "modVersion": "v.1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ccb4ba8cb836b5762fdcd4cb53912f7c66131633a299839f64f5e4cc2ad91bfd/analysis/1505333462/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Female%20Forsworn%20BriarHearts%20%20Briarheart%20Necropsy%20condition%20fix-86672-v-1-0.rar?fid=1000254614&ttl=1535875591&ri=8192&rs=8192&setec=b94be977959abd239e947dca6efcd640"
+    }
+  ]
+}

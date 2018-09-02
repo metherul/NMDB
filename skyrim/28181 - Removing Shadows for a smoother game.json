@@ -1,0 +1,32 @@
+{
+  "modId": 28181.0,
+  "modName": "Removing Shadows for a smoother game",
+  "summary": "Download is my smallest computers settings for Skyrim. \r\n(should be the fastest/lowest settings possible)\r\nYou can also run Skyrim at:\r\niSize H=600\r\niSize W=800\r\nor\r\niSize H=480\r\niSize W=640\r\n\r\n\r\n\r\nSkyrimPrefs.ini edits",
+  "descriptionHtml": "Download is my smallest computers settings for Skyrim. \r\n(should be the fastest/lowest settings possible)\r\nIt has nothing to do with the no shadow effect\r\nyou need to edit your .ini files to make that happen.\r\n\r\nYou can also run Skyrim at:\r\niSize H=600\r\niSize W=800\r\nor\r\niSize H=480\r\niSize W=640\r\n\r\n\r\nThis really works well !!!\r\n-------------------------------------------------------\r\nI\\'m sure I don\\'t have them all listed, but you get the ideal.\r\n\r\nAn easy way to pick up 10 - 20 FPS and remove shutter all together, \r\nis to just remove the shadows from the game completely.\r\n\r\nBasically what you do is: \r\n[Set all the Shadow Resolution inputs to 128 and every other \\\"Shadow\\\" setting to 0]\r\nAll of them, in both the Skyrim.ini and SkrimPref.ini ... for it to work right.\r\nEven removes that fire shadow blur. Should pick you up\r\nabout 10-20 FPS and improves movement dramatically.\r\n\r\n[Use the notepad and search for the word \\\"shadow\\\"]\r\nin the Skyrim.ini and the SkyrimPrefs.ini\r\n\r\nI\\'ve been playing Skyrim like this from the start and have never had a problem with it.\r\nI do this to most every game I own and they all run better afterwards. Way better!\r\n[This one trick alone is worth everything you have tried to smooth Skyrim out too]\r\nAdd ATTK to this and you have a brand new Skyrim. Reason why this is so completely\r\neffective is the shadows unlike the rest of the graphics are created with the CPU and\r\nnot the GPU. Removing this load from the CPU is dramatically effective.\r\n\r\nSkyrimPrefs.ini\r\nEXAMPLE SETTINGS ...\r\n(do not copy/paste)\r\n\r\niBlurDeferredShadowMask=0\r\nfInteriorShadowDistance=0.0000\r\nfShadowDistance=0.0000\r\niShadowMapResolutionSecondary=128\r\niShadowMapResolutionPrimary=128\r\niShadowSplitCount=0\r\nfShadowLODStartFade=0.0000\r\niShadowMode=0\r\nbTreesReceiveShadows=0\r\nbDrawLandShadows=0\r\nbShadowMaskZPrepass=0\r\niShadowMapResolution=128\r\nfShadowBiasScale=0.0000\r\niShadowMaskQuarter=0\r\niShadowFilter=0\r\nbShadowsOnGrass=0\r\nbDeferredShadows=0\r\nbDrawShadows=0\r\n",
+  "categoryId": "28",
+  "version": "0.0",
+  "author": "Jason2112",
+  "createdUnix": "1355265347",
+  "updatedUnix": "1355910320",
+  "containsAdultContent": false,
+  "uploadedBy": "Jason2112",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "106149",
+      "name": "make a old computer play Skyrim ",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "make a old computer play Skyrim -28181-0-1.rar",
+      "uploadedUnix": "1355910320",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/94818e43b6507ab3cf5db0db4f5eeb21ad27a0e55e4668ae6e7d4688dd9f42f1/analysis/1407311714/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/make%20a%20old%20computer%20play%20Skyrim%20-28181-0-1.rar?fid=106149&ttl=1535801412&ri=8192&rs=8192&setec=ade2419b0e9a44159be305e288e8ca99"
+    }
+  ]
+}

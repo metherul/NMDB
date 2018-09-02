@@ -1,0 +1,32 @@
+{
+  "modId": 41547.0,
+  "modName": "Playable Karliah Armor and Bow",
+  "summary": "Allows player to equip Karliah\\'s items that were previously not usable",
+  "descriptionHtml": "The Inspiration:  One of my favorite mods is Dheuster\\'s Amazing Follower Tweaks (http://skyrim.nexusmods.com/mods/15524)...\r\n\r\nWhen we\\'re crawling through dungeons, slaughtering hapless bandits, or kicking dragons to the kerb, I like my followers to use the gear that I specify (using the \\\"Standard Outfit\\\" option), but when we\\'re kicking back at my pad swapping lies over a case of Honningbrew Mead, I let them equip their default gear (using the \\\"Home Outfit\\\" option).\r\n\r\nOne of the great thing about AFT is the option to turn NPCs (that you normally can\\'t) into followers.  I particularly like Karliah... she\\'s pretty cool... for a Dunmer at any rate :)  Unfortunately her default stuff is not accessible in the player\\'s inventory, whether you use the AFT option to get her to give all her stuff to you or use the console to cheat it in (it does however increase your encumbrance).\r\n\r\nAll this mod does is turns on the \\\"Playable\\\" flag on Karliah\\'s Armor and Bow, enabling the player to equip said items, or customize her outfit (if you are using AFT or any other mod that allows you to manage NPC inventory).  It does NOT change any attributes/enchants/stats etc of these items.\r\n\r\nHow do you get them?\r\n\r\nWith AFT - Make Karliah a follower, then just take them out of her inventory\r\n\r\nVanilla - Use the console (you cheater you...) and enter the following codes... without the bit in brackets....\r\nplayer.additem deed8 1 (Karliah\\'s Bow)\r\nplayer.additem e35e7 1 (Karliah\\'s Boots)\r\nplayer.additem e35e8 1 (Karliah\\'s Armor)\r\nplayer.additem e35e9 1 (Karliah\\'s Gloves)\r\nplayer.additem e35ea 1 (Karliah\\'s Hood)\r\n\r\n\r\nI have given the .esp a generic name, in case anyone wants other unique items added to the list.  I\\'m happy to add more in if anyone wants them\r\n\r\nIn all honesty, this took about 5 seconds to make...  feel free to do what you like with it.  No permission or credits necessary.\r\n\r\nBugs and Incompatibilities:\r\n\r\nNo known bugs (seriously, it changes 1 flag in 5 items... it\\'s not rocket science)\r\n\r\nObviously will be incompatible with any other mod that changes the same items... other than that, if it clashes with any other mods then I\\'d suggest buying a lottery ticket, cos the chances of winning that are higher :)\r\n\r\n\r\nCredits/Kudos:\r\nMassive kudos to Dheuster for his awesome AFT mod...  love it!!!\r\nBethesda for providing us with this sandbox in which we love to play\r\nYou for checking out this (pathetically simple) mod\r\n\r\nEnjoy :)",
+  "categoryId": "36",
+  "version": "1.0",
+  "author": "blacklimoband",
+  "createdUnix": "1378180472",
+  "updatedUnix": "1378180468",
+  "containsAdultContent": false,
+  "uploadedBy": "blacklimoband",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000051893",
+      "name": "PC Playable Unique Items",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "PC Playable Unique Items-41547-1-0.zip",
+      "uploadedUnix": "1378180468",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3e3043e0d771dfe7ef213ad6731d308c010b09ad05a8e31e77df56980e0e4171/analysis/1407707106/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PC%20Playable%20Unique%20Items-41547-1-0.zip?fid=1000051893&ttl=1535822339&ri=8192&rs=8192&setec=dcd8e359814d8bbd83a513605667ddb1"
+    }
+  ]
+}

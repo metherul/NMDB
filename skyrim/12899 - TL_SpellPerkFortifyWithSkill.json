@@ -1,0 +1,48 @@
+{
+  "modId": 12899.0,
+  "modName": "TL_SpellPerkFortifyWithSkill",
+  "summary": "TL_SpellPerkFortifyWithSkill : Novice,Apprentice,Adept,Expert,Master spell perk fortify spell with skill.",
+  "descriptionHtml": "TL_SpellPerkFortifyWithSkill\r\n\r\nauthor: Tango Luni\r\n\r\nversion 2\r\n\r\n\r\nTL_SpellPerkFortifyWithSkill :\r\n\r\nNovice,Apprentice,Adept,Expert,Master spell perk fortify spell with skill.\r\n\r\nFor example, Novice Destruction perk fortify magnitude of Novice Destruction spells.\r\n\r\nAlteration,Destruction,Illusion,Restoration fortify magnitude,\r\nConjuration fortify duration.\r\n\r\n+1% magnitude/duration per 1 skill\r\n\r\nTL_SpellPerkFortifyWithSkill_Mag_Dur.esp\r\nAll school perk fortify magnitude and duration. Use either one.\r\n\r\n\r\nThis plugin changes these Perk :\r\n\r\nPERK\r\n  000C44B8 AlterationAdept50\r\n  000C44B7 AlterationApprentice25\r\n  000C44B9 AlterationExpert75\r\n  000C44BA AlterationMaster100\r\n  000F2CA6 AlterationNovice00\r\n  000C44BC ConjurationAdept50\r\n  000C44BB ConjurationApprentice25\r\n  000C44BD ConjurationExpert75\r\n  000C44BE ConjurationMaster100\r\n  000F2CA7 ConjurationNovice00\r\n  000C44C0 DestructionAdept50\r\n  000C44BF DestructionApprentice25\r\n  000C44C1 DestructionExpert75\r\n  000C44C2 DestructionMaster100\r\n  000F2CA8 DestructionNovice00\r\n  000C44C4 IllusionAdept50\r\n  000C44C3 IllusionApprentice25\r\n  000C44C5 IllusionExpert75\r\n  000C44C6 IllusionMaster100\r\n  000F2CA9 IllusionNovice00\r\n  000C44C8 RestorationAdept50\r\n  000C44C7 RestorationApprentice25\r\n  000C44C9 RestorationExpert75\r\n  000C44CA RestorationMaster100\r\n  000F2CAA RestorationNovice00\r\n\r\n\r\nBased on Skilled_Magic\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=6599\r\n\r\n\r\n2012/04/08\r\nversion 2\r\nTL_SpellPerkFortifyWithSkill_Mag_Dur.esp added\r\n\r\n\r\n2012/03/14\r\nversion 1",
+  "categoryId": "73",
+  "version": "2",
+  "author": "Tango Luni",
+  "createdUnix": "1331737049",
+  "updatedUnix": "1333814703",
+  "containsAdultContent": false,
+  "uploadedBy": "tangoluni",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "43260",
+      "name": "TL_SpellPerkFortifyWithSkill_20120314_2256",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "TL_SpellPerkFortifyWithSkill_20120314_2256-12899.7z",
+      "uploadedUnix": "1331737126",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/3dee06e07a7d87b0dbf05a3a606a74c88ec04562109065ad8f41ffd5912a14f7/analysis/1406748740/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TL_SpellPerkFortifyWithSkill_20120314_2256-12899.7z?fid=43260&ttl=1535775200&ri=8192&rs=8192&setec=cad5e5454396a3bc2e6734060d1ab721"
+    },
+    {
+      "fileId": "50947",
+      "name": "TL_SpellPerkFortifyWithSkill_20120408_0044",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "TL_SpellPerkFortifyWithSkill_20120408_0044-12899.7z",
+      "uploadedUnix": "1333814703",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/d9e0a1dde02dae47ec6f1afd5ca599bea2597e0078fc0e391f2f7621168c1c92/analysis/1406802427/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TL_SpellPerkFortifyWithSkill_20120408_0044-12899.7z?fid=50947&ttl=1535775200&ri=8192&rs=8192&setec=516977a299e4a37ff8b7a438c5b24df5"
+    }
+  ]
+}

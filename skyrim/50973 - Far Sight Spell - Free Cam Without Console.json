@@ -1,0 +1,32 @@
+{
+  "modId": 50973.0,
+  "modName": "Far Sight Spell - Free Cam Without Console",
+  "summary": "I wanted a way to use the console command &#34;tfc&#34; without feeling like I was cheating, so I made it into a spell&#33;",
+  "descriptionHtml": "THIS MOD REQUIRES BOTH [url=http://skse.silverlock.org]SKSE[/url] AND [url=http://www.nexusmods.com/skyrim/mods/49098/?]PapyrusUtil[/url] IN ORDER TO WORK&#33; THESE ARE NOT OPTIONAL&#33;\r<br />\r<br />[youtube]iY7QsTMaeNs[/youtube]\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/65163/?][img]http://i.imgur.com/b7O5gd7.png[/img][/url]\r<br />\r<br />[img]http://i.imgur.com/E6uD5Fh.png[/img]\r<br />\r<br />I always found myself using the &#34;tfc&#34; (togglyflycam) console command, but didn&#39;t like that I had to break immersion to open the console. This mod adds a spell called Far Sight that allows you to enter and exit free cam mode at will (at the cost of some magicka, of course).\r<br />\r<br />Head over to Farseer D&#39;jorn&#39;s Camp (it can be seen on the map, but cannot be fast traveled to), and slay Farseer D&#39;jorn. On his body he will have the spell tome, as well as a buffed and edited version of the Forsworn Old God armor (I wanted him to be a forsworn, but the armor value on the default Forsworn armor was too low).\r<br />\r<br />Far Sight is an adept level illusion spell. Cast the spell to unlock free cam, and when you&#39;re done, cast it again to return to you body.\r<br />\r<br />[img]http://i.imgur.com/ozcNx8X.png[/img]\r<br />\r<br />Either use a mod manager (I recommend [url=http://www.nexusmods.com/skyrim/mods/1334/?]Mod Organizer[/url]), or manually drag FarSight_IllusionSpell.esp and the Scripts folder into your Skyrim Data directory.\r<br />\r<br />[img]http://i.imgur.com/ailxJ0q.png[/img]\r<br />\r<br />Simply use a mod manager, or delete the following files: FarSight_IllusionSpell.esp, FarSight_Effect.pex, and FarSight_Effect.psc\r<br />\r<br />[img]http://i.imgur.com/2Qp23vm.png[/img]\r<br />\r<br />These issues cannot be fixed, as they due to either the limitation of Skyrim itself or the &#34;tfc&#34; command:\r<br />\r<br />-If you fly too far away from your body, you will start to see really low resolution, crappy landscape. This is due to the fact that Skyrim only loads so many cells fully, and that the free cam doesn&#39;t cause cells to load.\r<br />\r<br />-If used in first person mode, it may bug out and spawn the camera far above or bellow you. I can&#39;t fix this, and I don&#39;t know what causes it. This is one of the reasons that I HIGHLY recommend only using this spell in third person mode.\r<br />\r<br />-If used in first person mode, your character is invisible. This is due to the fact that in first person mode Skyrim does not load your whole body, just your hands and arms. I cannot fix this, so just use the spell in third person mode.\r<br />\r<br />These issues MAY be fixable, but I don&#39;t know how:\r<br />\r<br />-The spell description says it uses magicka per second, when the spell is really of the type &#34;fire and forget&#34;. If anyone knows how to fix this, please let me know&#33;\r<br />\r<br />[img]http://i.imgur.com/uHMISma.png[/img]\r<br />\r<br />Please do not edit, or use this mod in another mod without asking my permission. This mod is also not allowed to be uploaded to other sites - I will post it here and on the steam workshop, but that&#39;s it&#33; If you just want to edit this mod for personal use, that&#39;s fine, but don&#39;t upload it without asking me first&#33; :)\r<br />\r<br />Credits:\r<br />\r<br />Bethesda for Skyrim\r<br />[url=http://www.nexusmods.com/skyrim/mods/49098/?]PapyrusUtil[/url] by meh321\r<br />[url=http://skse.silverlock.org]The SKSE Team[/url]\r<br />\r<br />Also available on [url=http://steamcommunity.com/sharedfiles/filedetails/?id=226719883]the Steam Workshop[/url].",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "UlithiumDragon",
+  "createdUnix": "1392064921",
+  "updatedUnix": "1392064791",
+  "containsAdultContent": false,
+  "uploadedBy": "UlithiumDragon",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000096382",
+      "name": "Far Sight Spell - Main",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Far Sight Spell - Main-50973-1-0.7z",
+      "uploadedUnix": "1392064791",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/024489851fb8391bd8bc5003ee264b4cbe481f4c496befe259f9e592e21c88c8/analysis/1407928271/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Far%20Sight%20Spell%20-%20Main-50973-1-0.7z?fid=1000096382&ttl=1535833026&ri=8192&rs=8192&setec=33917871ccd09d27ef224aa2e7dbeca4"
+    }
+  ]
+}

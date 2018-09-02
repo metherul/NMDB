@@ -1,0 +1,32 @@
+{
+  "modId": 13807.0,
+  "modName": "FC Followers",
+  "summary": "Aesthetic changes to some of the Skyrim followers, using the NPC Editor ",
+  "descriptionHtml": "-------------------------------------------------------------------\r\nFC Followers v1.1\r\n===================================================================\r\n                                          - a Flatline Construct -\r\n-------------------------------------------------------------------\r\n\r\n\r\nI used Skyrim NPC Editor by foretrenty for the changes:\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=4554\r\n\r\nI\\'ve also used Coverwomen Look #4 by mrLenski to get the screen\r\ncaps: http://skyrim.nexusmods.com/downloads/file.php?id=3563\r\n\r\nAll other textures and all meshes are default.\r\n\r\n\r\n===================================================================\r\nWHAT DO THESE MODS DO?\r\n===================================================================\r\n\r\nUsing foretrenty\\'s NPC Editor I\\'ve made changes to some of the\r\ndefault followers.\r\n\r\n- Face and hair changes.\r\n- Potential marriage option added.\r\n- Equipment changes.\r\n\r\nI thought I\\'d share ...\r\n\r\n\r\n===================================================================\r\nFOLLOWERS IN VERSION 1.1\r\n===================================================================\r\n\r\nIllia (Imperial, Darklight Tower)\r\nJenassa (Dark Elf, The Drunken Huntsman)\r\nUthgerd the Unbroken (Nord, The Bannnered Mare)\r\nEola (Breton, Hall of the Dead)\r\nBrelyna Maryon (Dark Elf, The College of Winterhold)\r\nAela the Huntress (Nord, Jorrvaskr)\r\n\r\n\r\n===================================================================\r\nHOW TO INSTALL\r\n===================================================================\r\n\r\nOpen the FC Followers ZIP file.\r\n\r\nEach follower has their own ESP and BSA file. Choose the one you\r\nwant to change and copy both files into your Skyrim data folder.\r\n\r\nMake sure the new mod is selected when starting your game.\r\n\r\n\r\n===================================================================\r\nHOW TO REMOVE A MOD\r\n===================================================================\r\n\r\nJust delete the follower\\'s ESP and BSA files from your Skyrim data\r\nfolder.\r\n\r\n\r\n===================================================================\r\nFIXES\r\n===================================================================\r\n\r\nIt is possible for there to be a small gap between the follower\\'s\r\nneck and body. This is caused by a weight change in the mod.\r\n\r\nTo fix this you need to set the NPC weight in game to match:\r\n\r\n1. Open console\r\n2. Click on follower\r\n3. setnpcweight xx\r\n\r\nReplace xx with the new follower weight below:\r\n\r\nIllia: 20\r\nJenassa: 20\r\nUthgerd the Unbroken: 40\r\nEola: 30\r\nBrelyna Maryon: 10\r\nAela the Huntress: 20\r\n\r\n\r\n===================================================================\r\nBUGS\r\n===================================================================\r\n\r\nA known bug with Illia resets her relationship rank and makes it\r\nimpossible to recruit her again after you\\'ve dismissed her. It will\r\nalso prevent the marriage option from triggering.\r\n\r\nYou can temporarily fix this with the console when you need to\r\nrehire or propose:\r\n\r\n1. Open console\r\n2. Click on Illia\r\n3. setrelationshiprank player 4\r\n\r\nIf anyone has a better solution please tell me.\r\n\r\n\r\n===================================================================\r\nCREDITS\r\n===================================================================\r\n\r\nAn excellent NPC Editor thanks to foretrenty.\r\nImages possible thanks to the Coverwoman mod by mrLenski.\r\n\r\nAll the major and minor changes by flatline42.\r\n\r\n",
+  "categoryId": "66",
+  "version": "1.1",
+  "author": "Flatline42",
+  "createdUnix": "1332843561",
+  "updatedUnix": "1333010420",
+  "containsAdultContent": false,
+  "uploadedBy": "flatline42",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "47873",
+      "name": "FC Followers",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4495",
+      "fileName": "FC Followers-13807.zip",
+      "uploadedUnix": "1333010420",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/f4cabe2adc77c4c2bf3b7004a1618c1d9933c5fa0ad39b407c741fdfcf0ecc63/analysis/1406785627/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FC%20Followers-13807.zip?fid=47873&ttl=1535776949&ri=8192&rs=8192&setec=751e7df8b820ef88be72739412e9a2da"
+    }
+  ]
+}

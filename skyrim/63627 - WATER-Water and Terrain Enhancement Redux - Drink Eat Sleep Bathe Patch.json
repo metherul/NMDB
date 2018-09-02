@@ -1,0 +1,48 @@
+{
+  "modId": 63627.0,
+  "modName": "WATER-Water and Terrain Enhancement Redux - Drink Eat Sleep Bathe Patch",
+  "summary": "Makes it so that users of the Drink Eat Sleep Bathe mod by TheRealRyanB can bathe and refill their bottles while using SparrowPrince&#39;s mod, WATER - Water and Terrain Enhancement Redux. Maintains the patches for the older version 3.24 of The Ruffled Feather WATER mod.",
+  "descriptionHtml": "[size=2][b]NOTE:[/b] These patches are for [i][i]WATER - Water and Terrain Enhancement Redux[/i] [/i]or[i] the [i]Ruffled Feather WATER[/i][/i]. If you need the patch for [i]Purity [/i]or [i]Pure Waters[/i], you can find them here:[/size][b][size=3]\r<br />\r<br />[/size][/b][size=2][url=http://www.nexusmods.com/skyrim/mods/62433/?]http://www.nexusmods.com/skyrim/mods/62433/?[/url][/size][b][size=3][size=2]\r<br />[/size]\r<br />\r<br />[size=4]Overview:[/size]\r<br />[/size][/b]\r<br />This patch makes it so that users of the Drink Eat Sleep Bathe mod by TheRealRyanB can bathe and refill their bottles while using SparrowPrince&#39;s WATER - Water and Terrain Enhancement Redux, which is the new version (5.01) of the previous Ruffled Feather WATER mod. Patch files for The Ruffled Feather WATER mod (v.3.24) are still available on the files page for those interested in keeping the older version.\r<br />\r<br />It only modifies the WATER esp&#39;s water types to be usable by DrinkEatSleepBathe.esp&#39;s refill script by editing a certain setting. This patch does *not* change anything in the DrinkEatSleepBathe.esp itself, nor does it add, remove, or edit any other content in the WATER mods.\r<br />\r<br />[b][size=3]\r<br />\r<br />[size=4]Required files:\r<br />[/size][/size][/b]\r<br />Dawnguard and Dragonborn DLCs\r<br />\r<br />Drink Eat Sleep Bathe mod (http://www.nexusmods.com/skyrim/mods/29025/?) of your choice (version shouldn&#39;t matter)\r<br />\r<br />WATER - Water and Terrain Enhancement Redux mod (version 5_0) (http://www.nexusmods.com/skyrim/mods/13268/?) \r<br />\r<br />or\r<br />\r<br />The Ruffled Feather (version 3.24) WATER mod (http://www.nexusmods.com/skyrim/mods/13268/?) of your choice \r<br />\r<br />Make sure that your main WATER esp is working in every other way before installing one of the patches (in other words, CTDs are worked out, etc.)\r<br />[b][size=3]\r<br />\r<br />\r<br />[size=4]Function & Compatibility:[/size][/size][/b]\r<br />\r<br />This mod sets each Water Type in each WATER esp to &#34;Causes Damage&#34; while keeping the Damage count to 0, which is how DrinkEatSleepBathe.esp tells its refill script that the player is standing in water. **Therefore, placing any other mod that edits a given Water Type after the patch will likely override that setting, once again preventing the player from refilling empty bottles or bathing in that kind of water. Other than that, it should blend right into the WATER esp.**\r<br />\r<br />\r<br />[b][size=4]Other Needs Mods:[/size][/b] \r<br />\r<br />While this patch was intended for Drink, Eat, Sleep, & Bathe, it has been reported to work with Realistic Needs and Diseases, and I have successfully tested it myself with iNeeds. If you are using iNeeds, please make sure that your SKSE is version 1.7.2 or higher, or the Refill/Drink from Source functions will not work regardless of any water mods.\r<br />\r<br />[size=4]\r<br />[/size][b][size=3][size=4]Which File to Use:[/size]\r<br />\r<br />[/size][/b]--If you are using WATER - Water and Terrain Enhancement Redux  version 5.01, use WATER_5-01_DrinkEatSleepBathePatch.esp\r<br />\r<br />--If you are using The Ruffled Feather WATER version 3.24, look at the name of the WATER esp you have already installed and find the patch with the corresponding name. For instance, if you are using\r<br />\r<br />WATER DG +DB.esp\r<br />\r<br />then you will need  WATER DG + DB_DrinkEatSleepBathe_Patch.esp\r<br />\r<br />[size=4]\r<br />\r<br />[b]Installation & Load Order:[/b][/size]\r<br />\r<br />Unzip the archive and drop the patch esp into your Data folder. Place The Ruffled Feather&#39;s WATER esp somewhere below DrinkEatSleepBathe.esp or other needs mod so you get the full benefits of the water settings. Then put the patch esp immediately after Purewaters.esp.\r<br />\r<br />Load Order Example for v3.24:\r<br />\r<br />Somestuff.esp\r<br />[b]DrinkEatSleepBathe.esp or other needs mod[/b]\r<br />Otherstuff.esp\r<br />Morestuff.esp\r<br />[b]WATER DG + DB.esp\r<br />WATER DG + DB_DrinkEatSleepBathe_Patch.esp\r<br />\r<br />\r<br />Load Order Example for v5.01:\r<br />\r<br />[/b]Somestuff.esp\r<br />DrinkEatSleepBathe.esp or other needs mod\r<br />Otherstuff.esp\r<br />Morestuff.esp[b]\r<br />[b]WATER .esp\r<br />[/b][/b]WATER_5-01_DrinkEatSleepBathePatch.esp\r<br />\r<br />\r<br />\r<br />[b][size=3][size=4]Support:[/size]\r<br /> [/size][/b]\r<br />If I&#39;ve missed a water type, please let me know. That said, the edits made to the original files are very small and insignificant, and I did not edit any other records. As long as you make sure your WATER mod is working in every other way before installing, I can&#39;t think of any problems that the patches would cause. Testing time was minimal because of my schedule, so please let me know if it&#39;s working or not. \r<br />\r<br /> I will strive to keep up with new versions of WATER, but can make no promises, what with the future being kinda unpredictable and all.\r<br />\r<br />Thanks.\r<br />[b][size=3]\r<br />\r<br />[size=4]Disclaimer:[/size]\r<br />[/size][/b]\r<br />These mods are built based on permissions granted by the mod authors, and receive *NO SUPPORT* from the original mod authors themselves, neither are the original mod authors responsible for any mishap associated with this set of patches. Also, as this patch series was created based on pre-granted permissions, should any contributor to the original WATER mod or DrinkEatSleepBathe mods request that the file page be taken down, it will be removed as soon as possible.\r<br />\r<br />\r<br />\r<br />[b][size=3][size=4]Credits:[/size]\r<br />[/size][/b]\r<br />Thanks to TheRealRyanB for his outstanding mod, Drink Eat Sleep Bathe.\r<br />Thanks to SparrowPrince for his beautiful work putting together WATER - Water and Terrain Enhancement Redux.\r<br />\r<br />WATER - Water and Terrain Enhancement Redux&#39;s original credits are as follows, excerpted directly from its Nexus page:\r<br />\r<br />SparrowPrince\r<br />Everyone from the S.T.E.P Project\r<br />TechAngel85 for a LOT of things like the installer.\r<br />Natureboy7 for placing WATER&#39;s wave sfx.\r<br />alt3rn1ty for creating a Wyre installer.\r<br />Kryptopyr for helping with out with compatibility for CACO.\r<br />DeadManPlaying for Steam management.\r<br />elliottgraniteo for Sir Crabalot&#39;s base work.\r<br />\r<br />Helpful people\r<br />\r<br />AstroCat , MontyModMonster, Gruftlord, kranazoli, wr_berg, zcul, Nazenn, blattgeist, archerarcher, Madcat221\r<br />\r<br />Tools:\r<br />\r<br />GIMP (www.gimp.org) for a fantastic free and open source graphics tool.\r<br />Niftools (www.niftools.sorceforge.net) for the brilliant Nifskope.\r<br />Blender (www.blender.org) for their free modeling package.\r<br />\r<br />\r<br />\r<br />If you like their mods, be sure to endorse them&#33;\r<br />\r<br />\r<br />\r<br /> ",
+  "categoryId": "84",
+  "version": "5.01",
+  "author": "randperry with permissions from mod authors SparrowPrince and TheRealRyanB",
+  "createdUnix": "1426049092",
+  "updatedUnix": "1475504131",
+  "containsAdultContent": false,
+  "uploadedBy": "randperry",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000151010",
+      "name": "The Ruffled Feather WATER - Drink Eat Sleep Bathe Patch 3.24",
+      "version": "for WATER3.24",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "649",
+      "fileName": "The Ruffled Feather WATER - Drink Eat Sleep Bathe Patch-63627-1-0.zip",
+      "uploadedUnix": "1426049085",
+      "modVersion": "for WATER3.24",
+      "virusScanUrl": "https://www.virustotal.com/file/e2b0d608efad4a06bfa120783bf2dd32879f23876657c69588ba6b8903344a30/analysis/1426049104/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/The%20Ruffled%20Feather%20WATER%20-%20Drink%20Eat%20Sleep%20Bathe%20Patch-63627-1-0.zip?fid=1000151010&ttl=1535852297&ri=8192&rs=8192&setec=c440d7937defba54636349303838a9e9"
+    },
+    {
+      "fileId": "1000222895",
+      "name": "WATER-Water and Terrain Enhancement Redux - Drink Eat Sleep Bathe Patch 5.01",
+      "version": "5.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "WATER-Water and Terrain Enhancement Redux - Drink Eat Sleep Bathe Patch-63627-5-01.zip",
+      "uploadedUnix": "1475504131",
+      "modVersion": "5.01",
+      "virusScanUrl": "https://www.virustotal.com/file/1e29513cad874409379248bf0d5f1fda6e970a7bbbf7f0df9c79a6a66f082418/analysis/1475504163/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/WATER-Water%20and%20Terrain%20Enhancement%20Redux%20-%20Drink%20Eat%20Sleep%20Bathe%20Patch-63627-5-01.zip?fid=1000222895&ttl=1535852298&ri=8192&rs=8192&setec=0a8dffffa1dd386f1a357e65d610fb52"
+    }
+  ]
+}

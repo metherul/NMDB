@@ -1,0 +1,32 @@
+{
+  "modId": 72672.0,
+  "modName": "Living Takes Time for Mods",
+  "summary": "Takes Hunterborn&#39;s Living Take Time patch, which included support for the original frostfall, and updates the scripts for the new Campfire/Frostfall3 release by Chesko.  No longer supports the original frostfall (will be added back later)",
+  "descriptionHtml": "Takes Hunterborn&#39;s Living Take Time patch, which included support for the original Frostfall, and updates the scripts for the new Campfire/Frostfall3 release by Chesko.  No longer supports the original frostfall (will be added back later)\r<br />\r<br />I&#39;m working on a complete Living Takes Time framework to make it easier to add support for new mods without having to keep replacing the core scripts.  The intention is that a new mod can provide an additional pex file (maybe with esp) and it will handle the activities that take time in that mod.\r<br />\r<br />Features (Campfire/Frostfall only)\r<br />[list]\r<br />[*]All crafting items moved from chesko_frostfall.esp to campfire.esm\r<br />[*]Firecraft abilities take reasonable amounts of time\r<br />[*]Firecraft perk optionally improves firecraft times\r<br />[*]Crafting snowberry extract handled for frostfall.esp if it exists\r<br />[*]None of the original capabilities, nor those of the other included mod timings, have been modified\r<br />\r<br />[/list]\r<br />Known Issues:\r<br />[list]\r<br />[*]FISS saving of settings were not updated for Hunterborn, and still have not been updated.  Will be fixed by 1.0 release.\r<br />[*]I have no idea if this will work on a dirty save, probably will be buggy with leftover unreferenced variables.  You probably should disable Living Takes Time, save, quit, start, enable and check settings in MCM.\r<br />\r<br />[/list]\r<br />Installation Instructions:[list=1]\r<br />[*]Locate your ...&#92;Skyrim&#92;Data&#92;Scripts folder\r<br />[*]Open the archive\r<br />[*]Copy three RTT*.pex files into your ...&#92;Skyrim&#92;Data&#92;Scripts folder\r<br />\r<br />[/list]",
+  "categoryId": "78",
+  "version": "0.1",
+  "author": "mlheur",
+  "createdUnix": "1452851265",
+  "updatedUnix": "1452850972",
+  "containsAdultContent": false,
+  "uploadedBy": "mlheur",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000191473",
+      "name": "LivingTakesTime for Mods",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "44",
+      "fileName": "LivingTakesTime for Mods-72672-0-1.7z",
+      "uploadedUnix": "1452850972",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/026b095541c53325efabe2e1936c6d84be47e0b467029d2e2c094e763fadbf61/analysis/1452850985/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LivingTakesTime%20for%20Mods-72672-0-1.7z?fid=1000191473&ttl=1535861220&ri=8192&rs=8192&setec=6e99f0ddd5f57c32c855e8130b2949bf"
+    }
+  ]
+}

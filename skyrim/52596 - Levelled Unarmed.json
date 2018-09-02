@@ -1,0 +1,32 @@
+{
+  "modId": 52596.0,
+  "modName": "Levelled Unarmed",
+  "summary": "Increases your unarmed damage based on One-handed, Two-handed, and overall level. No skill trees replaced. No &#34;fist weapons&#34; required.",
+  "descriptionHtml": "This mod increases the player&#39;s unarmed damage based on their One-handed skill, Two-handed skill, and overall level. The following formula is used to calculate it:\r<br />\r<br />(Base_Unarmed_Damage - 2) + ((Two-Handed + One-Handed + Level)/8)\r<br />\r<br />All fortification enchantments are added on after that. The base unarmed damage is 10 for Argonians and Khajiits and 4 for every other race (including custom races). As a result of this equation, High Elves, Wood Elves, Dark Elves, and Brentons will start with 5 unarmed damage, Imperials with 6, Nords, Orcs, Redguards with 7, Argonians with 11, and Khajiits with 12 (plus an additional 12 from their claws, totalling 24). Your unarmed damage is recalculated once at startup, once for every One-/Two-handed increase, and once after you close the menu after picking an attribute to increase for a level up. These changes only affect the player character. Once in-game, you can check your new unarmed value by opening the console and typing (without quotes): &#34;player.getbaseav unarmeddamage&#34;. This is the value before enchantments are added.\r<br />\r<br />If you plan on starting a new game as an Argonian or Khajiit with this mod, install it after you create your character. If you don&#39;t, you will start with a base unarmed value of 4 instead of the usual 10. This happens since the script checks as soon as the game is loaded, and the default race before you set it is Nord. This isn&#39;t a problem for the other races, since they all have the same value as Nords.\r<br />\r<br />There are no &#34;unarmed weapons&#34; or perks in this mod, nor does it replace one of the existing perk trees. No fluff, only fists.\r<br />\r<br />\r<br />-----------------------------------------\r<br />Compatibility\r<br />-----------------------------------------\r<br />This mod will be compatible with anything as long as it doesn&#39;t modify the &#34;unarmeddamage&#34; actor value.\r<br />\r<br />\r<br />-----------------------------------------\r<br />Changelog\r<br />-----------------------------------------\r<br />v1.2\r<br />Fix: Modified unarmed value will now persist after loading a save. This includes the automatic load after death.\r<br />\r<br />v1.1\r<br />Fix: Corrected incorrect variable name.\r<br />Fix: Re-enabled script running on every startup. Needed because SetAV doesn&#39;t persist after the game is shut down, and ForceAV (which does persist) final values, so enchantments are never added.\r<br />\r<br />v1.01\r<br />Fix: Stopped the startup script from running on every startup instead of only the first one like it was supposed to.\r<br />\r<br />v1.0\r<br />Initial Release\r<br />",
+  "categoryId": "24",
+  "version": "1.2",
+  "author": "ColonelCorn",
+  "createdUnix": "1396326301",
+  "updatedUnix": "1396827683",
+  "containsAdultContent": false,
+  "uploadedBy": "ColonelCorn",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000103960",
+      "name": "LevelledUnarmed 1-2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "LevelledUnarmed 1-2-52596-1-2.zip",
+      "uploadedUnix": "1396827683",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/11fd86ae93e41207031d78f59dbacc49082c47085c976c82d13b28423656e3cf/analysis/1408010231/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LevelledUnarmed%201-2-52596-1-2.zip?fid=1000103960&ttl=1535835699&ri=8192&rs=8192&setec=a90b6aa7bec4ffa6f651c034a8a04c40"
+    }
+  ]
+}

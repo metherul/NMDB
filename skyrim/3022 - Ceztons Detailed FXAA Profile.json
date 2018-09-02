@@ -1,0 +1,48 @@
+{
+  "modId": 3022.0,
+  "modName": "Ceztons Detailed FXAA Profile",
+  "summary": "This is a take on the FXAA Post Processor that alters Preset 1 in a way that doesn\\'t wash the colours out, isn\\'t too dark, isn\\'t too saturated and isn\\'t any laggier than vanilla. Recommended for Mid-range PC users. The detail is great and the world comes alive.",
+  "descriptionHtml": "Cezton\\'s FXAA Profile\r\n\r\nI\\'m running an E8400 and a GTX 460 SE and I\\'m quite pleased in the appearance and performance of these settings. It took weeks of picking at everything to get them quite right, so I hope they benefit others as well.\r\n\r\nThis profile is meant to bring out the perfect blend of sharpening, anti-aliasing, texture mod-use and best saturation for the world of Skyrim. If you set your in-game brightness 2-3 ticks ahead of the middle point there will be no brightness issue using this profile.\r\n\r\n--------------------------------------------------------------------------------------------------------------------------------------\r\nHow to Install:\r\n\r\nDrag files from zip archive to program files/steam/steamapps/common/skyrim or \r\nprogram files/bethesda/skyrim\r\n\r\n(The folder that contains SkyrimLauncher)\r\n\r\nRun Skyrim Launcher and set your desired settings.\r\n\r\n\r\nMods Used:\r\n\r\n4GB Skyrim - Performance boost. Recommended to all with 4GB of RAM.\r\n\r\nRealistic Water Textures 1 Point 5b\r\nEnhanced Night Skyrim - Galaxy\r\nSerious HD Retexture Landscape Skyrim\r\nVurts Skyrim Flora Overhaul - Sparkling Branches\r\nImproved Rock and Mountain Textures\r\n\r\n\r\nAdditional:\r\n\r\nGo to Documents/My Games/Skyrim/SkyrimPrefs.ini\r\n\r\nChange the following:\r\n\r\nfShadowDistance = 4000 (Mine) Alternatively you can drop the quality to as low as 1-2k for an FPS boost\r\nbTreesReceiveShadows = Change from 0 to 1 for increased shadow depth on trees\r\nuiMaxSkinnedTreesToRender= Change to 80, fps drop is small\r\niMaxDesired = Change to 300 (Change to 100 in caves with a lot of particles if you experience lag)\r\niWaterReflectHeight= Change to 1024 for better water\r\niWaterReflectWidth = Same as Above",
+  "categoryId": "29",
+  "version": "1.1",
+  "author": "Cezton",
+  "createdUnix": "1323348855",
+  "updatedUnix": "1323359499",
+  "containsAdultContent": false,
+  "uploadedBy": "murkraz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "8210",
+      "name": "Injector and Profile Zip",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "17650",
+      "fileName": "Injector and Profile Zip-3022.zip",
+      "uploadedUnix": "1323349244",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/fe651d942a48dc9426a3197ab8b4c9521708b31eaf0cd6833667b73875fb4497/analysis/1406493613/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Injector%20and%20Profile%20Zip-3022.zip?fid=8210&ttl=1535757753&ri=8192&rs=8192&setec=acc7220353836ca8b0b607a2c79f6677"
+    },
+    {
+      "fileId": "8237",
+      "name": "Profile Only",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Profile Only-3022.zip",
+      "uploadedUnix": "1323359499",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/5ea9589af02f475f56e802c0e9fbe47c983addbafbfd32e3f8ed9a61bd44ad56/analysis/1406493905/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Profile%20Only-3022.zip?fid=8237&ttl=1535757754&ri=8192&rs=8192&setec=2ae622789908f512a8f35e76e4d4f91d"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 90108.0,
+  "modName": "Legacy of the Dragonborn Staff Enchanter ENB Fix",
+  "summary": "Fixes the black flickering light at the Staff Enchanter when using certain ENB presets.",
+  "descriptionHtml": "[font=Lucida Sans Unicode][size=5]CREDITS[/size][/font]\n<br />\n<br />[b]icecreamassassin [/b]for [url=https://www.nexusmods.com/skyrim/mods/52248]Legacy of the Dragonborn (Dragonborn Gallery)[/url]\n<br />\n<br />[font=Lucida Sans Unicode][size=5]DESCRIPTION\n<br />[/size][/font]\n<br />This tiny ESP fixes the black light issue at the Staff Enchanter with certain ENB presets. The fix doesn't remove the Light record, it just turns down the Intensity Amplitude of the Flicker Effect. The intensity and color of the light seems to cause issues when using ENB presets for some reason, and displays it as solid black.\n<br />\n<br />The ESP consists of a single record called DBMFXLightGreenBlueGlow [LIGH:0D0B4122] and it just changes its Flicker Effect intensity value from 2.0 to 1.5, so it isn't really worth taking up a plugin slot. I recommend adding this edit to your merged patch.\n<br />\n<br />The issue and fix have already been reported to the developers of Legacy of the Dragonborn, so they might include this in the next update. For any version up to 19.3.06 this fix will be needed though.\n<br />\n<br />[b]Tested and confirmed ENB presets who have this issue:[/b]\n<br />\n<br />[list]\n<br />[*]Tetrachromatic ENB\n<br />[*]Rudy ENB \n<br />[*]Antique Dragon ENB \n<br />[*]Organic ENB\n<br />[*]Caffeine ENB\n<br />[/list]\n<br />...and basicly all presets with more intense saturation and contrast values. The list will grow as people confirm that other presets have this issue as well.\n<br />\n<br />[font=Lucida Sans Unicode][size=5]INSTALLATION\n<br />[/size][/font]\n<br />Load this ESP after [b]LegacyoftheDragonborn.esp[/b].\n<br />\n<br />\n<br />\n<br />Be sure to report any problems you may find in the comments!",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "Phlunder",
+  "createdUnix": "1520884911",
+  "updatedUnix": "1520884911",
+  "containsAdultContent": false,
+  "uploadedBy": "Phlunder",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000268342",
+      "name": "Legacy of the Dragonborn Staff Enchanter ENB Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Legacy of the Dragonborn Staff Enchanter ENB Fix-90108-1-0.7z",
+      "uploadedUnix": "1520884727",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/55bcb3d01135ee5f2983e41f5e092c790e1dccf12408be77927c6b744f7e70e7/analysis/1520884922/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Legacy%20of%20the%20Dragonborn%20Staff%20Enchanter%20ENB%20Fix-90108-1-0.7z?fid=1000268342&ttl=1535880104&ri=8192&rs=8192&setec=3c49a1a998f6db83e7c99f765b95728a"
+    }
+  ]
+}

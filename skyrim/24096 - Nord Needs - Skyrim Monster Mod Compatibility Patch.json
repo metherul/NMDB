@@ -1,0 +1,48 @@
+{
+  "modId": 24096.0,
+  "modName": "Nord Needs - Skyrim Monster Mod Compatibility Patch",
+  "summary": "Makes Skyrim Monster Mod and Nord Needs work together! Includes version to extend functionality!",
+  "descriptionHtml": "Nord Needs + Skyrim Monster Mod Compatibility Patch\r\n=====================v1.0.0==========================\r\n\r\n[b]DESCRIPTION[/b]\r\n\r\nThis patch will make the mod Skyrim Monster Mod work with the Nord Needs mod. Adding the NN\\'s eating and drinking effects to food items from SkyMoMod. Also includes minor bugfixes, spelling corrections and stuff.\r\n\r\n\r\n[b]REQUIRED[/b]\r\n\r\nNord Needs v1.5 by griffinsclaw\r\nhttp://skyrim.nexusmods.com/mods/21384\r\n\r\nSkyrim Monster Mod v9 by dogtown1\r\nhttp://skyrim.nexusmods.com/mods/9694\r\n\r\n\r\n[b]INSTALLATION[/b]\r\n\r\n1a) Download with NMM and activate.\r\n-OR-\r\n1b) Download manually, and place the [i]NordNeeds_SkyMoMod_patch_100.esp[/i] file in your Data folder.\r\n\r\n2) Load the [i]NordNeeds_SkyMoMod_patch_100.esp[/i] at the bottom of your load order. MUST be loaded AFTER both NN and SkyModMod!\r\n\r\n3.) Activate!\r\n\r\n\r\n**NOTE** If you have trouble getting the patch to work try changing your load order so that NN loads before SkyMoMod. (or vise versa :P )\r\n\r\n\r\n[b]UNINSTALL[/b]\r\n\r\n1a.) De-activate with NMM.\r\n-OR-\r\n1b.) Delete [i]NordNeeds_SkyMoMod_patch_100.esp[/i] from your Data folder.\r\n\r\n\r\n[b]CHANGELOG[/b]\r\n\r\n-- v 1.0.0 --\r\n- Added all raw meats and Scamp/Parasite/Dagon meat to Minor food category.\r\n- Added Cooked Boar/Lurker meat to Medium food category.\r\n- Fixed Boar/Lurker recipes to require salt pile ingredient.\r\n- Renamed all raw meat items to start with \\'Raw\\' prefix (ex. Mammoth Meat -> Raw Mammoth Meat)\r\n- Fixed spelling typos, mistakes! \r\n\r\n\r\n[b]EX VERSION[/b]\r\n\r\nI have uploaded a second file, EXtended version. This offers some minor expanded content for these two mods.\r\n\r\nFollow the same instructions as above for install/uninstall. [b]DO NOT USE BOTH PATCHES, PICK ONE OR THE OTHER![/b]\r\n\r\n[b]CHANGELOG[/b]\r\n\r\n-- v1.0.0ex --\r\n- All changes listed above carried over.\r\n- Adds new recipes for further cooking SkyMoMod added food items.\r\n- Changed food descriptions, tried to make things a little more clean.",
+  "categoryId": "84",
+  "version": "1.0.0",
+  "author": "luc1dox",
+  "createdUnix": "1347608959",
+  "updatedUnix": "1347610321",
+  "containsAdultContent": false,
+  "uploadedBy": "luc1dox",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "88335",
+      "name": "NordNeeds_SkyMoMod_patch_100",
+      "version": "1.0.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "NordNeeds_SkyMoMod_patch_100-24096-1-0-0.7z",
+      "uploadedUnix": "1347610188",
+      "modVersion": "1.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/26de3b04d29c400b96f9661b6e3e72162c71766de903d4ee4169ac38721375ce/analysis/1407164254/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NordNeeds_SkyMoMod_patch_100-24096-1-0-0.7z?fid=88335&ttl=1535794752&ri=8192&rs=8192&setec=cf138c6812f29438168cc35cc2ca3f28"
+    },
+    {
+      "fileId": "88337",
+      "name": "NordNeeds_SkyMoMod_patch_100ex",
+      "version": "1.0.0EX",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "NordNeeds_SkyMoMod_patch_100ex-24096-1-0-0EX.7z",
+      "uploadedUnix": "1347610321",
+      "modVersion": "1.0.0EX",
+      "virusScanUrl": "https://www.virustotal.com/file/28d4664bdf8b35e50885ad5120b11077ba1d0b9c9c35d4e408bf90869dfad672/analysis/1407164254/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NordNeeds_SkyMoMod_patch_100ex-24096-1-0-0EX.7z?fid=88337&ttl=1535794752&ri=8192&rs=8192&setec=5ba0b85e33660f2a3913dcdca1245b5e"
+    }
+  ]
+}

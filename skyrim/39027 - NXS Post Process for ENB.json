@@ -1,0 +1,48 @@
+{
+  "modId": 39027.0,
+  "modName": "NXS Post Process for ENB",
+  "summary": "- Post-Processing File for ENB (enbeffect.fx FILE)\r\n- A new developed self-acting system brings you a new ENB-Experience\r\n- For ENB-Config-Preset Developers\r\n- Plug & Play (just copy and tweak your ENB)",
+  "descriptionHtml": "  ------------------------------------------\r\n  UPDATE Version 2.0 with GUI\r\n  ------------------------------------------\r\n  Tweakable Variable in GUI\r\n  for ENB V0.198 and up\r\n\r\n  ------------------------------------------\r\n  WHAT IS IT?\r\n  ------------------------------------------\r\n       NXS-PostProcess is a \r\n          - enbeffect.fx -\r\n             file for ENB\r\n   \r\n  ------------------------------------------\r\n  HOW TO INSTALL?\r\n  ------------------------------------------\r\n  copy the file enbeffect.fx \r\n  to your Skyrim-Folder\r\n\r\n  overcopy the orginal ENB \r\n  enbeffect.fx file\r\n\r\n  done!  \r\n\r\n  ------------------------------------------\r\n              HOW TO USE IT?\r\n  ------------------------------------------\r\n                Turn ON \r\n            - Enable Adaption - \r\n                  in ENB\r\n  (it does not work without it!!!)\r\n\r\nstart with a (clean) default\r\n- enbseries.ini -\r\nfile and tweak it\r\n\r\n  -----------------------------------------------------------------\r\n  WHAT IS THE SPECIAL ABOUT NXS-PostProcess?\r\n  -----------------------------------------------------------------\r\n  it´s automatic\r\n  it´s plug & play (just copy and tweak the ENB)\r\n  it is reacting intelligent to your ENB tweaks\r\n  you can create a new ENB-Style\r\n  \r\n  ------------------------------------------\r\n  CAN I TWEAK THE CODE?\r\n  ------------------------------------------\r\n  it´s my own developed HLSL code\r\n  it´s very well documented\r\n  so, perhaps you are able to tweak it\r\n  \r\n  \r\n  ------------------------------------------\r\n  PERMISSION\r\n  ------------------------------------------\r\n  use my file to build your own\r\n  ENB-Config-Preset.\r\n  \r\n  PLEASE credit NXS-PostProcess if you\r\n  use it in your own ENB-Config-Preset\r\n  THANK YOU!\r\n\r\n\r\n/////////////////\r\nincluded CODE:\r\n/////////////////\r\n\r\nDynamic-Brightness-Range-Expansion \r\n- code by nexstac -\r\n\r\nSmooth-Dynamic-Contrast-Expansion\r\n- code by nexstac -\r\n\r\nSmooth-Dynamic-Brightness-Coloring-Filter\r\n- code by nexstac -\r\n\r\nDynamic-Desaturating-Brightness\r\n- code by nexstac -\r\n\r\nDynamic-Detailed-Lightness\r\n- code by nexstac -\r\n\r\nSmooth-Dynamic-Color-Filter\r\n- code by nexstac -\r\n\r\nDynamic-Color-Filter\r\n- code by nexstac -\r\n\r\nDynamic-Color-Grading\r\n- code by nexstac -\r\n\r\nDynamic-HSV-Saturation\r\n- code by nexstac -\r\n\r\nDynamic-HSV-Value\r\n- code by nexstac -\r\n\r\nDynamic-Contrast-Filter\r\n- code by nexstac -\r\n\r\nReversed-Shadow-Luminance (RSLum)\r\n- code by nexstac -\r\n\r\nRGBpercent\r\n- code by nexstac -\r\n\r\nTonemapping\r\n- math by Greg Ward -\r\n- code converted to HLSL by kermles -\r\n- code modified by nexstac -\r\n\r\nRGB-HSV-Converter\r\n- code by Ian Taylor -\r\n\r\n\r\n##############################################\r\nSPECIAL THANX for FRIENDSHIP :D\r\n- Aiyeen -   http://skyrim.nexusmods.com/mods/35823//?\r\n- kermles -   http://skyrim.nexusmods.com/mods/33593/?",
+  "categoryId": "62",
+  "version": "2.0",
+  "author": "nexstac",
+  "createdUnix": "1375048321",
+  "updatedUnix": "1375374919",
+  "containsAdultContent": false,
+  "uploadedBy": "nexstac",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000041876",
+      "name": "NXS Post Process For ENB",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "NXS Post Process For ENB-39027-1-0.zip",
+      "uploadedUnix": "1375048177",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/47b7c902c1c2d956c91e02757e4c0a77b75a2348d1d5c64c7fe5dbaa533f55c4/analysis/1407658691/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NXS%20Post%20Process%20For%20ENB-39027-1-0.zip?fid=1000041876&ttl=1535819430&ri=8192&rs=8192&setec=159c549fd1a8dfe668ff4c12a86426b2"
+    },
+    {
+      "fileId": "1000043224",
+      "name": "NXS Post Process V2 with GUI for ENB V0_198 and up",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "16",
+      "fileName": "NXS Post Process V2 with GUI for ENB V0_198 and up-39027-2-0.zip",
+      "uploadedUnix": "1375374919",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/332eb51b06376e24539a37b1336b36d94c55053dde4770f7f588482607de112f/analysis/1407665464/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NXS%20Post%20Process%20V2%20with%20GUI%20for%20ENB%20V0_198%20and%20up-39027-2-0.zip?fid=1000043224&ttl=1535819430&ri=8192&rs=8192&setec=8f8924bf2347031a38c4881c222ebb50"
+    }
+  ]
+}

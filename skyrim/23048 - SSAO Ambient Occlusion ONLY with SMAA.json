@@ -1,0 +1,48 @@
+{
+  "modId": 23048.0,
+  "modName": "SSAO Ambient Occlusion ONLY with SMAA",
+  "summary": "This is a mod of the famous ENB injector configured to ONLY enable the Ambient Occlusion (SSAO) shader. It also has mrhaandi\\'s SMAA injector integrated (good AA w/out overblurring of textures and UI).",
+  "descriptionHtml": "[i]Yes, I realize that SSAO Ambient Occlusion is redundant... lol.[/i]\r\n\r\nI find that pretty much all of the ENB mods I\\'ve tried oversature colors, overbloom, blur and/or fog things up. This mod enables the SSAO Ambient Occlusion shader from ENB 0.117 Beta but otherwise lighting/saturation/color is mostly unchanged. This works with both NVIDIA [b]and[/b] AMD videocards!\r\n\r\nI made some compromises in SSAO definition to work out a good balance between quality and performance (if you reduce SizeScale the SSAO effect is more noticeable but it hurts performance AND causes some distracting flickering on foliage and other small complex objects).\r\n\r\n[b]Installation:[/b]\r\n\r\n1. Put all of the files in the root of your Skyrim directory\r\n2. Copy \\\"d3d9.dll\\\" from the official [url=http://enbdev.com/mod_tesskyrim_v0117.htm]ENB v0117 Beta[/url] to the root of your Skyrim directory\r\n3. ...\r\n4. Profit???\r\n\r\n[b]Credits/Other:[/b]\r\n\r\nI did not make the ENB or SMAA mod! I just did the research, edited the configuration files (lots of trial and error) and brought them together for sexy time.\r\n\r\nFor more information: \r\n[url=http://mrhaandi.blogspot.com/p/injectsmaa.html]mrhaandi\\'s corner[/url]\r\n[url=http://enbdev.com/mod_tesskyrim_v0117.htm]ENB TES Skyrim 0.117 Beta[/url]\r\n\r\n[b]Recommended mod(s):[/b]\r\n[url=http://skyrim.nexusmods.com/mods/7654]Realistic Lighting[/url]",
+  "categoryId": "62",
+  "version": "1.1",
+  "author": "skylr616",
+  "createdUnix": "1345923802",
+  "updatedUnix": "1346341080",
+  "containsAdultContent": false,
+  "uploadedBy": "skylr616",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "84211",
+      "name": "SSAO ONLY with SMAA Saturated",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "82",
+      "fileName": "SSAO ONLY with SMAA-23048-1-0.rar",
+      "uploadedUnix": "1345927982",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/668ee99cb9869d2e5bf32c66f164b8e86ff5fba9b760533a5e32f347c2ecf885/analysis/1407121445/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SSAO%20ONLY%20with%20SMAA-23048-1-0.rar?fid=84211&ttl=1535793008&ri=8192&rs=8192&setec=1e483e578d9d3c1577afea249232da34"
+    },
+    {
+      "fileId": "85303",
+      "name": "SSAO ONLY with SMAA Vanilla",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "82",
+      "fileName": "SSAO Ambient Occlusion ONLY Vanilla-23048-1-1.rar",
+      "uploadedUnix": "1346341080",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/8402f79623a814a0aa0b17295189aad6b96e7368931b062d79c1aae71efe30a9/analysis/1407132842/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SSAO%20Ambient%20Occlusion%20ONLY%20Vanilla-23048-1-1.rar?fid=85303&ttl=1535793009&ri=8192&rs=8192&setec=9a1a8886f706948e3cc438dcfbe06983"
+    }
+  ]
+}

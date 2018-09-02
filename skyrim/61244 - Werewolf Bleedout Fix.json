@@ -1,0 +1,32 @@
+{
+  "modId": 61244.0,
+  "modName": "Werewolf Bleedout Fix",
+  "summary": "Corrects the animation event for werewolves so that their bleedout animation properly plays.",
+  "descriptionHtml": "So it turns out that werewolves have a bleedout animation, but the animation event was incorrectly assigned, meaning that the animation never gets played. If you have a mod that allows your followers to become werewolves and those followers are also marked as essential, you may have seen your follower just standing in place in werewolf form as every enemy suddenly ignored them. It&#39;s at this point when the bleedout animation should have been played. This mod fixes them standing by changing the werewolve&#39;s ActionBleedoutStart animation event from bleedOutIdleStart to bleedOutStart and adding the missing ActionBleedoutStop with its corresponding bleedOutEnd animation event.\r<br />\r<br />This should work with any werebeast reskin/remodel as long as it uses the default werewolf animations.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "ColonelCorn",
+  "createdUnix": "1420147050",
+  "updatedUnix": "1420146191",
+  "containsAdultContent": false,
+  "uploadedBy": "ColonelCorn",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000140960",
+      "name": "Werewolf Bleedout Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Werewolf Bleedout Fix-61244-1-0.7z",
+      "uploadedUnix": "1420146191",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ae636c6de8634abba6901673ae834f90fbd6d45a3aa3d8a4cb874e2848bf5b05/analysis/1420146242/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Werewolf%20Bleedout%20Fix-61244-1-0.7z?fid=1000140960&ttl=1535849533&ri=8192&rs=8192&setec=ec40b71833c34f48d3811de4a91f41b4"
+    }
+  ]
+}

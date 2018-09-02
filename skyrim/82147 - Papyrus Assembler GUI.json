@@ -1,0 +1,48 @@
+{
+  "modId": 82147.0,
+  "modName": "Papyrus Assembler GUI",
+  "summary": "This program - a shell for processing Skyrim script (.pex, .psc and .pas files). Assembler, disassembler and compiler.",
+  "descriptionHtml": "[right][i]English is not my native language, so description may contain errors[/i][/right]\r<br />Papyrus Assembler GUI - a shell for processing Skyrim script (.pex, .psc and .pas files). The program includes an assembler, disassembler and script compiler. The shell allows you to quickly and easily work with scripts instead of typesetting commands to handlers manually, create .bat files for this, and so on. The program uses CreationKit Papyrus Assembler/Compiler and Champollion for scripts processing.\r<br />\r<br />Disassembling the script is needed if you want to edit the text within the script, but the author did not send out the source from which it was compiled. Assembler, after changing the script, returns it to it&#39;s original state, and now it can be used in the game. If the author sent the source code, then modify it and use the compiler.\r<br />\r<br />[b]Requirements\r<br />[/b]Windows Vista and newer, [url=https://www.microsoft.com/ru-ru/download/details.aspx?id=30679]VC Redist 2012[/url]-[url=https://www.microsoft.com/ru-ru/download/details.aspx?id=48145]2015[/url], Creation Kit, [url=http://www.nexusmods.com/skyrim/mods/35307]Champollion[/url].\r<br />\r<br />[b]Installation[/b]\r<br />[list=1]\r<br />[*][size=2]Extract program from archive.[/size]\r<br />\r<br />[*][size=2]Go to &#34;Data&#92;Processors&#34;.[/size]\r<br />[*][size=2]Copy Creation Kit papyrus tools from your Creation Kit installation (usually in &#34;&lt;YourSkyrimPath&gt;&#92;Papyrus Compiler&#34;) to &#34;Data&#92;Processors&#92;CreationKit&#34;.[/size]\r<br />[*][size=2]Download [url=http://www.nexusmods.com/skyrim/mods/35307]Champollion[/url] and copy it&#39;s files to &#34;Data&#92;Processors&#92;Champollion&#34;. I think you can use 64-bit version of Champollion, but it&#39;s not tested.[/size]\r<br />[/list][size=2]You can see final tools setup in screenshots.\r<br />\r<br />[b]English transtaltion\r<br />[/b]It&#39;s included, but not perfect. Feel free to improve it, if you desire.\r<br />\r<br />[/size][b]Known issues[/b]\r<br />None so far, but any feedback appreciated. Program tested on Windows 7 x64.",
+  "categoryId": "39",
+  "version": "3.1.1",
+  "author": "Kerber",
+  "createdUnix": "1486983530",
+  "updatedUnix": "1487010475",
+  "containsAdultContent": false,
+  "uploadedBy": "Kerber100",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000236220",
+      "name": "Papyrus Assembler GUI 3.1",
+      "version": "3.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2369",
+      "fileName": "Papyrus Assembler GUI 3.1-82147-3-1.zip",
+      "uploadedUnix": "1486983344",
+      "modVersion": "3.1",
+      "virusScanUrl": "https://www.virustotal.com/file/6f24b52996ddf31ed4ceb3b42773c0533c49d7535890df627fc88c58d2f1c50f/analysis/1486983587/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Papyrus%20Assembler%20GUI%203.1-82147-3-1.zip?fid=1000236220&ttl=1535870829&ri=8192&rs=8192&setec=d9d19137c6f523a080dd5e5c356efd25"
+    },
+    {
+      "fileId": "1000236255",
+      "name": "Papyrus Assembler GUI 3.1.1",
+      "version": "3.1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2371",
+      "fileName": "Papyrus Assembler GUI 3.1.1-82147-3-1-1.zip",
+      "uploadedUnix": "1487010475",
+      "modVersion": "3.1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/e901bd44daa510c00912f0e30a915673b961ab671e4fa9fa4f4d725b8fabb9bf/analysis/1487010673/",
+      "changelogHtml": " Added ability to change the order of imported scripts folders.\r<br />Added ability to enable debugging information at compile time. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Papyrus%20Assembler%20GUI%203.1.1-82147-3-1-1.zip?fid=1000236255&ttl=1535870829&ri=8192&rs=8192&setec=fb4c247064763e2591fbaf1329519386"
+    }
+  ]
+}

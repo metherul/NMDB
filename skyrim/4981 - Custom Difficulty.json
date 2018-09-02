@@ -1,0 +1,48 @@
+{
+  "modId": 4981.0,
+  "modName": "Custom Difficulty",
+  "summary": "This mod changes the way the difficulty settings work, making fights faster and deadlier.",
+  "descriptionHtml": "== Custom Difficulty ==\r\n\r\nEDIT: Split version uploaded, look at the bottom of the description for details.\r\n\r\nThis mod changes the way the difficulty settings work. By default if you increase the difficulty the player will receive more damage and do less damage. This can lead to very long fights - at master difficulty enemies still won\\'t do that much damage and it takes a very long time to kill them (unless you use the crafting exploits to make a 500+ damage sword, but that\\'s a different problem). Now with this mod the damage the player causes will be the same, no matter what difficulty you play on - it only depends on the plugin you choose. The damage enemies (and traps as well) will do depends on your difficulty setting and it will be higher than vanilla damage. See the list below.\r\n\r\n\r\nVanilla damage received by player\r\n---------------------------------\r\n\r\nMaster     2.00x\r\nExpert     1.50x\r\nAdept      1.00x\r\nApprentice 0.75x\r\nNovice     0.50x\r\n\r\nVanilla damage done by player\r\n-----------------------------\r\n\r\nMaster     0.50x\r\nExpert     0.75x\r\nAdept      1.00x\r\nApprentice 1.50x\r\nNovice     2.00x\r\n\r\nMod damage received by player\r\n-----------------------------\r\n\r\nMaster     4.00x\r\nExpert     3.50x\r\nAdept      3.00x\r\nApprentice 2.50x\r\nNovice     0.20x\r\n\r\nMod damage done by player\r\n-------------------------\r\n\r\nDepends on the plugin you choose, will be the same for all difficulty settings except novice, which I left in as a \\'cheat mode\\' and is set to 5x. For example if your plugin is DifficultyAdjustP1_25x.esp it would be 1.25x for all difficulties. \r\n\r\nAn example: If you choose the DifficultyAdjustP0_75x.esp and set your difficulty to adept you will do 0.75x normal damage and the enemies will do 3x damage. If you set it to master you will also do 0.75x damage, but enemies will do 4x damage.\r\n\r\n\r\n= Installation =\r\n\r\nPick ONE of the esps and put it into your data folder. Enable the esp in the launcher (or in your mod manager, whatever you use). To uninstall simply delete the esp.\r\n\r\n= Changelog =\r\n\r\nv1.0 Initial release\r\nv1.1 Fixed bug where adept difficulty adjustment wouldn\\'t work\r\n\r\n\r\n== Split Version ==\r\n\r\nProvided are esps called \\'PlayerOnly\\', which will only change the damage done by the player. The damage is the same no matter what difficulty you choose, only novice difficulty is set to 5x in all plugins for testing or cheating purposes. So if you choose the \\'CustomDifficultyPlayerOnly0_4x\\' esp the player will do 0.4x damage on all difficulties but easy. Obviously choose only ONE of those esps.\r\n\r\nIf you want to change the damage done by enemies add the \\'CustomDifficultyEnemiesOnly\\' esp, which will change the damage settings for difficulties to the values I provided in the original plugin - easy is 0.2x, apprentice is 2.5x, adept is 3x, expert is 3.5x and master is 4x. If you don\\'t enable this esp the default vanilla settings will apply (as they won\\'t be affected by the mod), adept will be 1x damage, master will be 2x damage etc.\r\n\r\nSo if you enable CustomDifficultyPlayerOnly0_8x.esp, CustomDifficultyEnemiesOnly.esp and play on expert the player will do 0.8x damage and enemies will do 3.5x damage.",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "Phitt",
+  "createdUnix": "1325338551",
+  "updatedUnix": "1327709378",
+  "containsAdultContent": false,
+  "uploadedBy": "Phitt",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "15424",
+      "name": "Custom Difficulty v1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Custom Difficulty v1_1-4981-1-1.7z",
+      "uploadedUnix": "1325347779",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/be459d8ce5bbee29c0e526ca54edb936fbaabd3b1066e0facf277c65aba96d57/analysis/1406573134/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Custom%20Difficulty%20v1_1-4981-1-1.7z?fid=15424&ttl=1535761374&ri=8192&rs=8192&setec=a306d9b14f0fad245fc307276cac1e6c"
+    },
+    {
+      "fileId": "23543",
+      "name": "Custom Difficulty Split Version",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Custom Difficulty Split Version-4981-1-0.7z",
+      "uploadedUnix": "1327709378",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1231d0215b41e1097eccf116e14156d2038c047babdee53838b0a1860edfc0ba/analysis/1406640907/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Custom%20Difficulty%20Split%20Version-4981-1-0.7z?fid=23543&ttl=1535761374&ri=8192&rs=8192&setec=6ebe687dbbfbc5b61a802f056bd1b368"
+    }
+  ]
+}

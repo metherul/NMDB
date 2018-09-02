@@ -1,0 +1,48 @@
+{
+  "modId": 59942.0,
+  "modName": "Skyrim Peasant Fashion Fixed",
+  "summary": "Fixes various errors in the ESP file for Skyrim Peasant Fashion.",
+  "descriptionHtml": "[b]- Description -[/b]\r<br />\r<br />Fixes some missing meshes and other things in the ESP file for Skyrim Peasant Fashion.\r<br />[b]\r<br />- Requirements -[/b]\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/17720/?]Skyrim Peasant Fashion\r<br />[/url]\r<br />[b]- Installation -[/b]\r<br />\r<br />Unzip the .esp and simply drop it in your Skyrim&#92;Data directory, it should overwrite the ESP from Skyrim Peasant Fashion as they have the same name.\r<br />\r<br />[b]- Uninstallation -[/b]\r<br />\r<br />Delete the following files from your Skyrim&#92;Data directory.\r<br />1) PIVariety.esp\r<br />2) PIVariety.bsa\r<br />\r<br /> You will get naked NPCs in your current save game doing this, but they are easy to fix following the steps below. If you have created a bashed patch you will have to re-make the patch or manually clean it.\r<br />\r<br />[b]- Fixing Already Naked NPCs -[/b]\r<br />\r<br />If you have had [url=http://www.nexusmods.com/skyrim/mods/17720/?]Skyrim Peasant Fashion[/url] installed already you may have naked NPCs already in your save game and those will not be fixed by this patch, to fix them follow these simple steps.\r<br />\r<br />1) When facing the NPC bring up your console.\r<br />2) Select the NPC by clicking on them.\r<br />3) Type disable and press enter.\r<br />4) Type enable and press enter.\r<br />5) Exit the console.\r<br />\r<br />[b]- Compatibility -[/b]\r<br />\r<br />Any mod which makes changes to the leveled lists for Farmer or Barkeeper clothing will require a bashed patch or the clothes will not show up. Example: Clothing And Clutter Fixes, Stealth Skills Rebalanced.\r<br />\r<br />[b]- Changelog -[/b]\r<br />\r<br />1.1 - Fixed a missing clothing item in one of the leveled lists which could lead to naked people.\r<br />1.0 - Initial release.\r<br />\r<br />[b]- Credits -[/b]\r<br />\r<br />Thanks to [url=http://www.nexusmods.com/skyrim/users/4238403]Paulimposteur[/url] for his great mod and allowing me to post this ESP fix&#33;\r<br />\r<br />[b]- Permissions -\r<br />[/b]\r<br />Any changes done to this file requires permission from me and [url=http://www.nexusmods.com/skyrim/users/4238403]Paulimposteur[/url] before being uploaded anywhere.",
+  "categoryId": "60",
+  "version": "1.1",
+  "author": "DigitalVixen",
+  "createdUnix": "1415965339",
+  "updatedUnix": "1415968035",
+  "containsAdultContent": false,
+  "uploadedBy": "DigitalVixen",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000135239",
+      "name": "PI Variety Fixes",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "PI Variety Fixes-59942-1.zip",
+      "uploadedUnix": "1415965333",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/b67da8e85f10b9678e0b169760973b9b55af4a20331885d8c986c0ee4daa4e69/analysis/1415965442/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PI%20Variety%20Fixes-59942-1.zip?fid=1000135239&ttl=1535847426&ri=8192&rs=8192&setec=acacfee9e515224e21077c28fccff585"
+    },
+    {
+      "fileId": "1000135242",
+      "name": "PI Variety Fixes",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "PI Variety Fixes-59942-1-1.zip",
+      "uploadedUnix": "1415968035",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/8dbf37f5ea4b77afa62c6377563cf56559ae4766b91cc575b8f772e517764253/analysis/1415968142/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PI%20Variety%20Fixes-59942-1-1.zip?fid=1000135242&ttl=1535847427&ri=8192&rs=8192&setec=071118101d119c1cc58ebd6251047dd8"
+    }
+  ]
+}

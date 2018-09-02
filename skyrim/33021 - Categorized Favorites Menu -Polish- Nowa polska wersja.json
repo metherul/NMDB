@@ -1,0 +1,32 @@
+{
+  "modId": 33021.0,
+  "modName": "Categorized Favorites Menu -Polish- Nowa polska wersja",
+  "summary": "Nowe, duze menu \\\"Ulubionych\\\" przedmiotow z kategoriami i mozliwoscia tworzenia zestawow przedmiotow - do polskiej wersji gry (i angielskiej tez). Dzieki temu nowemu menu mozna szybciej wybierac rzeczy z ekwipunku dla swojej postaci.",
+  "descriptionHtml": "[size=5]Sposób instalacji[/size]\r\n[size=4]0.[/size] Wymagany jest SKSE:\r\n[url=http://skse.silverlock.org]http://skse.silverlock.org[/url]\r\n\r\n[size=4]1.[/size] Pobierz angielski mod:\r\n[url=http://skyrim.nexusmods.com/mods/4862]http://skyrim.nexusmods.com/mods/4862[/url]\r\n\r\n[size=4]2.[/size] Pliki wypakuj do katalogu:\r\n[font=Courier]Skyrim\\\\Data[/font]\r\n(domy?lny: [font=Courier]C:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data[/font])\r\n\r\n[size=4]3.[/size] Pobierz spolszczenie i wypakuj do katalogu jak wy?ej.\r\n\r\n\r\n[size=5]Opis[/size]\r\nMod zast?puje zwyk?e ma?e menu ulubionych (otwierane za pomoc? klawisza Q) jedn? wielk? list?, podzielon? na kategorie przedmiotów. Aby przedmiot znalaz? si? na li?cie, trzeba tak jak w zwyk?ej grze wybra? go do ulubionych w ekwipunku lub w menu magii (najecha? myszk? i nacisn?? F).\r\n\r\nOto jak wygl?da moja wersja menu:\r\n[url=http://static.skyrim.nexusmods.com/mods/images/33021-1-1362823050.jpg]http://static.skyrim.nexusmods.com/mods/images/33021-1-1362823050.jpg[/url]\r\n\r\nW grze menu mo?esz przesuwa? za pomoc? klawiszy:\r\nCTRL+Strza?ka w lewo\r\nCTRL+Strza?ka w prawo\r\nCTRL+W\r\nCTRL+S\r\n\r\n\r\nObecne g?ówne menu sk?ada si? z dwóch rz?dów po pi?? kolumn i pokrywa znaczn? cz??? ekranu:\r\n- pierwszy rz?d:\r\n[b]Ulubione[/b]: Przedmioty z przypisanym klawiszem skrótu od 1 do 8.\r\n[b]Mikstury[/b]: Z podzia?em na kategorie: Magia, Zdrowie, Kondycja, Trucizny, Inne (pozosta?e)\r\n[b]Krzyki/Moce[/b]: Wszystkie krzyki i moce na jednej li?cie\r\n[b]Magia[/b]: Czary z podzia?em na kategorie wed?ug szkó? magii\r\n[b]Zestawy[/b]: Zestawy przedmiotów (patrz ni?ej)\r\n\r\n- w drugim rz?dzie s?:\r\n[b]Wygl?d[/b]: Wszystkie pancerze, ubrania i przedmioty zak?adane (amulety itp.)\r\nspacer1: pierwsza wolna kolumna bez kategorii, aby zmie?ci?o si? wi?cej Mikstur z pierwszego rz?du\r\n[b]Bro?[/b]: Podzielone na: Bro?, ?uki/Kusze, Strza?y\r\nspacer2: druga wolna kolumna bez kategorii, aby zmie?ci?o si? wi?cej Magii z pierwszego rz?du\r\n[b]Inne[/b]: Wszystkie przedmioty, których nie mo?na dopasowa? do pozosta?ych kategorii\r\n\r\n\r\n[size=5]O Zestawach[/size]\r\n(w skrócie) Mo?esz tworzy? zestawy przedmiotów ró?nych rodzajów, które od razu za?o?y twoja posta?. Przyk?adowo, je?li stworzysz sobie dwa zestawy: 1. Wojownik, 2. Alchemia, to mo?esz szybko prze??cza? si? w grze mi?dzy nimi. Dla wojownika ustawiasz odpowiednie przedmioty do walki (bro?, pancerze, czary itd.), a dla alchemii odpowiednie inne. Wszystko zale?y od ciebie, jaki zestaw przedmiotów sobie skomponujesz. Potem w grze wystarczy u?y? klawiszy skrótu przypisanego do danego zestawu i twoja posta? natychmiast si? przebierze.\r\n\r\nZestawy s? zapisywane w pliku \\\"favoritesmenu_eqiupsets.cfg\\\", ale mo?na je tworzy? równie? w grze (tak jest bardziej zalecane).\r\n\r\n[b]Jak stworzy? zestaw:[/b]\r\n1. Za?ó? na swoj? posta? przedmioty, które maj? si? znale?? w zestawie\r\n2. Otwórz menu Ulubionych (klawisz Q)\r\n3. Naci?nij CTRL+F (otworzy si? ma?e okno tworzenia zestawu)\r\n4. Wpisz nazw? zestawu\r\n5. Wybierz klawisz skrótu (od 0 do 9)\r\n6. Kliknij na \\\"Create\\\" (utworzony zestaw zostanie dodany do listy)\r\n\r\nTeraz mo?esz u?y? zestawu, naciskaj?c CTRL+przypisany do zestawu klawisz, ale tylko gdy otwarte jest menu Ulubione.\r\n\r\nW polu Unequip mo?esz okre?li? czy chcesz mie? któr?? d?o? woln?.\r\n\r\nAby usun?? zestaw, najed? na niego wska?nikiem i naci?nij CTRL+Delete.\r\n\r\nW zestawach, edytuj?c plik \\\"favoritesmenu_eqiupsets.cfg\\\", mo?na pos?ugiwa? si? ogólnymi nazwami, takimi jak \\\"?uk\\\" (dowolny) lub \\\"miecz\\\" - ale nie b?d? tego ju? tutaj opisywa?, info jest w \\\"categorized_favorites_menu_config_guide.html\\\".\r\n\r\n\r\n\r\n[size=5]Jak zwi?kszy? czcionk? w menu Ulubionych[/size]\r\nEdytuj plik \\\"favoritesmenu.cfg\\\" - mo?e by? zwyk?ym notatnikiem.\r\nZamie? zapisy w Config na:\r\n[font=Courier]\r\nmenu_base_x = 7\r\nmenu_base_y = -730\r\nmenu_cols = 4\r\n\r\nlist_alignment = left\r\ndefault_num_list_entries = 11\r\ndefault_list_width = 192\r\ndefault_list_entry_height = 30\r\ndefault_list_entry_font_size = 22\r\n\r\nbackground_alpha = 178\r\nbackground_red = 0\r\nbackground_green = 0\r\nbackground_blue = 0\r\n\r\nauto_favorite_prefix = (A)\r\n\r\ntitle_font_size = 28\r\nhotkey_color = #FFFFFF\r\ndefault_title_color = #FFFFFF\r\ndefault_sublist_title_color = #f4ab2c\r\n\r\nsublist_other_title = Inne___________\r\n\r\ninfo_textfield_font_size = 22\r\ninfo_textfield_font_color = #FFFFFF\r\ninfo_textfield_height = 32\r\ninfo_textfield_alignment = right\r\ninfo_textfield_placement = top\r\n\r\nrepeat_hotkeyed_items = true\r\n\r\nmouse_wheel_list_switch_modifier_key = 17\r\nequipset_hotkey_modifier_key = 17\r\nequipset_create_key = 70\r\n\r\nlist_delimiter = ,[/font]\r\n\r\n\r\n\r\n",
+  "categoryId": "42",
+  "version": "0.1.17.PL",
+  "author": "TomBrightblade",
+  "createdUnix": "1362823448",
+  "updatedUnix": "1362823378",
+  "containsAdultContent": false,
+  "uploadedBy": "TomBrightblade",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000016120",
+      "name": "CategorizedFavoritesMenu POLSKI",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "CategorizedFavoritesMenu POLSKI-33021-1-0.zip",
+      "uploadedUnix": "1362823378",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/54144e303894977a797d37ece2682397a45f7b99d939cbb202f1d6fde7ab2d66/analysis/1407460305/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CategorizedFavoritesMenu%20POLSKI-33021-1-0.zip?fid=1000016120&ttl=1535809893&ri=8192&rs=8192&setec=9a047b349670e993335b587d5f4ccd6a"
+    }
+  ]
+}

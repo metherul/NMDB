@@ -1,0 +1,32 @@
+{
+  "modId": 66330.0,
+  "modName": "CMBS - Combat Music Bug_Stomper",
+  "summary": "Combat Music Bug Stomp (CMBS) is a simple batch file that fixed the combat music bug that makes it loop endlessly.",
+  "descriptionHtml": "Game:Skyrim\r<br />Mod Name:Combat Music Bug Stomp\r<br />Version:1.0\r<br />README Generated with [url=http://www.nexusmods.com/skyrim/mods/34109/?]Readme Generator V1 by DarkWolfModding[/url]\r<br />\r<br />[b]Author(s):ralexpdx[/b]\r<br />[b][b]\r<br />Description[/b]:[/b]\r<br />\r<br />\r<br />    Combat Music Bug Stomp ([b]CMBS[/b]) is a simple batch file that fixed the combat music bug that makes it loop endlessly. After hours and hours of trying to find the source, I created this batch file. Your mileage may vary, but it worked for me when nothing else did. The contents of this batch file contains reference to music in any mods I had installed at the time of creation. You may have different mods, so if it doesn&#39;t work, see the FAQ to learn how to creat your own.\r<br />\r<br />[b][i][b]This mod is a Nexus Exclusive and is Forever Free. You may NOT upload this file to anywhere else and you may not charge for it in any way.[/b][/i][/b]\r<br />\r<br />[b]Installation:[/b]\r<br />\r<br />\r<br />Simply copy the file &#39;stopmusic&#39; to your Skyrim root folder (NOT Data), then when in-game open the console (Usually ~) and type &#39;bat stopmusic&#39;. If everything goes well, the loop should stop\r<br />[b]\r<br />Uninstallation:[/b]\r<br />Remove &#39;stopmusic&#39; from Skyrim&#39;s root folder.\r<br />\r<br />[b]Change Log:[/b]\r<br />v1.0 - Initial creation\r<br />\r<br />[b]Future Updates:[/b]\r<br />None planned\r<br />[b]\r<br />Known Issues:[/b]\r<br />None\r<br />[b]\r<br />Faqs:[/b]\r<br />\r<br />If for some reason, this doesn&#39;t stop the music, you can create your own batch file that will.\r<br />\r<br />Follow these steps:\r<br />\r<br />1. Download ConSkrybe by shadeMe at this location: http://www.nexusmods.com/skyrim/mods/19630/?\r<br />\r<br />2. Install ConSkrybe as per the authors&#39; instructions.\r<br />\r<br />3. While in-game, open the console (Usually ~) and type: &#39;help mus&#39; followed by &#39;ToggleSkrybing&#34; to close the file.\r<br />\r<br />4. Exit Skyrim\r<br />\r<br />5. Open the ConSkrybe.log file with your favorite text editor and find lines that begin with &#34;MUSC:&#34;\r<br />\r<br />6. Copy all of the lines that begin with MUSC: to a new text file and use search and replace to replace &#34;MUSC:&#34; with &#34;RemoveMusic&#34;. Make sure there is a space between RemoveMusic and the name of the category.\r<br />\r<br />7. Next you&#39;ll have to remove everything after the category name.\r<br />\r<br />8. Save the file and place it in the Skyrim root folder, then run it just like you did with mine.\r<br />\r<br />Here&#39;s what a line looks like before editing:\r<br />\r<br />MUSC: MUSCombat (0003418E) &#39;&#39;\r<br />\r<br />Here&#39;s a line after editing:\r<br />\r<br />RemoveMusic MUSCombat\r<br />\r<br />That&#39;s it&#33;\r<br />\r<br />[b]Developers:[/b]\r<br />\r<br />Thanks To:shadeMe for his wonderful SKSE Plugin, [url=http://www.nexusmods.com/skyrim/mods/19630/?]ConSkrybe[/url].\r<br />\r<br />The Nexus for being a steady beacon for Skyrim modding since the beginning.\r<br />\r<br />My wife for putting up with my weird hobby of &#34;breaking Skyrim&#34; as she calls my efforts at modding.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "ralexpdx",
+  "createdUnix": "1432690313",
+  "updatedUnix": "1432690306",
+  "containsAdultContent": false,
+  "uploadedBy": "ralexpdx",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000161768",
+      "name": "Combat Music Bug Stomp (CMBS)",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Combat Music Bug Stomp (CMBS)-66330-1-0.7z",
+      "uploadedUnix": "1432690306",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1329e527d1bffad01439742c24d3529f1ccb278888613d85af9533e2259c2cd4/analysis/1432690323/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Combat%20Music%20Bug%20Stomp%20%28CMBS%29-66330-1-0.7z?fid=1000161768&ttl=1535854843&ri=8192&rs=8192&setec=3c6a554eb594f7cd33b076edf7a256a5"
+    }
+  ]
+}

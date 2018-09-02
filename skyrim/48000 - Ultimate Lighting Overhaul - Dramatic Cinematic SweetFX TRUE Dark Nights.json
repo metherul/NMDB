@@ -1,0 +1,32 @@
+{
+  "modId": 48000.0,
+  "modName": "Ultimate Lighting Overhaul - Dramatic Cinematic SweetFX TRUE Dark Nights",
+  "summary": "A new SweetFX_Settings.txt for Ultimate Lighting Overhaul",
+  "descriptionHtml": "I have been after the perfect 'truly dramatic dark nights' look for skyrim for a long time. I love for dungeons to be black as pitch, and torches to be mandatory for playing at night. I have never liked mods that directly edit dungeons to make them darker, and have not been fond of any ENBs that make the game darker. Thanks to working on my mod [url=http://skyrim.nexusmods.com/mods/32972/]More Alien Skyrim[/url] I figured out a simple way to make nights dark, without effecting the beauty of the day time with SweetFX. I applied these changes to ULO, and POW, this simple, yet dramatic mod was born.\r\n\r\nThis mod requires [url=http://skyrim.nexusmods.com/mods/37846/]Ultimate Lighting Overhaul SweetFX[/url] to run, but does not use any parts of it (as it is just a .txt file) this is a slightly modified settings for ULO. ULO is a SweetFX mod, and as long as another SweetFX or ENB mod is not installed should not have any conflict or dramatic effect on the game, OR your FPS. This mod is just a .txt file to be read by the specific modified version of SweetFX ULO uses, and if installed without ULO this mod literally does nothing, and if installed with another SweetFX Mod, this mod will most likely do something weird.. but might work just fine, I haven't tried it! Let me know if you do try that.\r\n\r\nTo install, simply install ULO if you have not already, then merge the included 'skyrim' folder with your own. It will prompt you to replace \"SweetFX_Settings.txt\", say YES or this mod will simply not install.\r\n\r\nHow to get your game looking like my screenshots;\r\nDownload and install [url=http://skyrim.nexusmods.com/mods/37846/]Ultimate Lighting Overhaul[/url]\r\nDownload and install this mod over ULO.\r\n(Dark Outside)Download and install [url=http://skyrim.nexusmods.com/mods/17802/]Climates of Tamriel[/url] Use 'hard core dungeons' and whichever night level you like best (I use 2 in my screenshots)\r\n(Dark Inside)Download and install [url=http://skyrim.nexusmods.com/mods/27043/]Enhanced Lights and FX[/url]\r\n\r\nand if you want that 'enb-esque' look, [url=http://skyrim.nexusmods.com/mods/12525/]Dynvaision[/url] is also used in the screenshots.\r\n\r\nI use NO OTHER lighting mods, no ENB, no special darker night mods, just what I listed! You should be able to EXACTLY match my screenshots if you follow these directions.\r\n\r\nHow to run with ENBoost? (Or any ENB theoretically, though I have no idea how this mod will look with an ENB)\r\n\r\n1) Install ULO and this mod, then change the d3d9.dll included with ULO to SweetFX_d3d9.dll. Do NOT change the name of the dll included with ENBoost!\r\n2) Install ENBoost , then open the enblocal.ini included with ENBoost and change the Proxy section so that it looks like this;\r\n \r\n[PROXY]\r\nEnableProxyLibrary=true\r\nInitProxyFunctions=true\r\nProxyLibrary=SweetFX_d3d9.dll",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "ArtMurder",
+  "createdUnix": "1385349689",
+  "updatedUnix": "1385349606",
+  "containsAdultContent": false,
+  "uploadedBy": "ArtMurder",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000082810",
+      "name": "ULO - Dramatic Cinematic ",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "ULO - Dramatic Cinematic -48000-1-0.7z",
+      "uploadedUnix": "1385349606",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4f69f510cedb149a557803174665bcd70ca438f725737e103332adfdb315a6ab/analysis/1407807550/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ULO%20-%20Dramatic%20Cinematic%20-48000-1-0.7z?fid=1000082810&ttl=1535828174&ri=8192&rs=8192&setec=616fc280999d41adb5e6760b16806afb"
+    }
+  ]
+}

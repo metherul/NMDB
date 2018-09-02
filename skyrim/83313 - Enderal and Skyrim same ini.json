@@ -1,0 +1,32 @@
+{
+  "modId": 83313.0,
+  "modName": "Enderal and Skyrim same ini",
+  "summary": "This is a fix for having one install of Skyrim and Enderal with MO2.",
+  "descriptionHtml": "I came across an issue when running skyrim and enderal with MO2. After playing Enderal, Skyrim had no character voices. After looking through the ini, I found that the sResourceArchiveList2= had things missing for skyrim. I simply added these missing lines to sResourceArchiveList= which fixed the problem for me.\r<br />&lt;br /&gt; \r<br />&lt;br /&gt;Install\r<br />&lt;br /&gt;Simply unzip and post into the skyrim Document folder.\r<br />&lt;br /&gt;This is my first Fix.",
+  "categoryId": "106",
+  "version": "1.0",
+  "author": "Servios",
+  "createdUnix": "1492234420",
+  "updatedUnix": "1492234415",
+  "containsAdultContent": false,
+  "uploadedBy": "Striker118x",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000241806",
+      "name": "Skyrim and Enderal ini",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Skyrim and Enderal ini-83313-1-0.zip",
+      "uploadedUnix": "1492234415",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2ab152fe575caea3cb61970fc1276995b616bca372c629201ba1831e919d07f1/analysis/1492234682/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20and%20Enderal%20ini-83313-1-0.zip?fid=1000241806&ttl=1535872140&ri=8192&rs=8192&setec=016a9a093c963d081f13213266127afa"
+    }
+  ]
+}

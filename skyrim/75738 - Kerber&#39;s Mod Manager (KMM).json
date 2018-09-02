@@ -1,0 +1,32 @@
+{
+  "modId": 75738.0,
+  "modName": "Kerber&#39;s Mod Manager (KMM)",
+  "summary": "Quite simple Mod Manager for TES and Fallout games.",
+  "descriptionHtml": "[i][right]English is not my native language, so sorry about that.[/right][/i]\r<br />Kerber&#39;s Mod Manager (KMM) - lets you do many things that any good mod manager can do, like activating plugins, configure game settings and mods installing.\r<br />\r<br />[b][size=3]Supported games:[/size][/b]\r<br />The Elder Scrolls III: Morrowind\r<br />The Elder Scrolls IV: Oblivion\r<br />The Elder Scrolls V: Skyrim\r<br />\r<br />Fallout 3\r<br />Fallout: New Vegas\r<br />Fallout 4\r<br />\r<br />[b][size=3]Components[/size]\r<br />[/b]KMM consist of three main components: ConfigINI, DataFiles and Installers.\r<br />\r<br />[b]ConfigINI\r<br />[/b]This component allows you to tweak game settings, creating backups of config files and control it&#39;s &#34;Read only&#34; attribute. ConfigINI fully developed only for Skyrim and Fallout 4 (it copies all config windows from Skyrim due to game engines similarity).\r<br />\r<br />[b]DataFiles\r<br />[/b]Provides functions for plugin activation and some other small things such as archive registration, save manager, screenshots gallery etc.\r<br />\r<br />Plugin activation bypass is available for Fallout 4 1.5+ as a toggleable option. Also contains &#34;Read only&#34; attribute control of load order files.\r<br />\r<br />[b]Installers[/b]\r<br />Most large component. Provides all functions for creating customizable installers and installing them. KMM uses it&#39;s own installer format - AMI what stands for Advanced Mod Installer, immodest, I know. KMM also supports FOMod, but only configurable variant (with ModuleConfig.xml). I can say that AMI have some features that configurable FOMod don&#39;t support. I won&#39;t say anything about scripted installers - script is a script, you can do pretty anything with scripts. KMM do not have scripted variant of AMI. And i have no intend of creating it right now. KMM doesn&#39;t support BAIN either.\r<br />\r<br />I can provide more information if you need.\r<br />\r<br />[size=3][b]Localization\r<br />[/b][/size]KMM has russian and english interface translations. Help file is available only in russian. If you want to translate it - you&#39;re welcome.\r<br />\r<br />Now about bad thing - Unicode. KMM doesn&#39;t support it, no, that&#39;s incorrect, KMM interface can not display unicode (UTF-8, UTF-16, any of it) and I can&#39;t do anythig to fix it right now. So any translation is system dependant, although english interface should work everywhere.\r<br />\r<br />[size=3][b]Known issues\r<br />[/b][/size]Too many to write it here. I described above one of the largest. If you noticed something weird let me know.\r<br />\r<br />[size=3][b]Requirements and installing\r<br />[/b][/size]Requires Windows XP or newer and [url=https://www.microsoft.com/en-US/download/details.aspx?id=5555]VC Redist 2010 x86[/url], no .NET framework or something like that.\r<br />[size=3][b]\r<br />[/b][/size]Extract archive to any folder and run file &#34;KerberModManager.exe&#34;. You may want to install programm to &#34;Program FIles&#34; folder, it doesn&#39;t matter. After launch program should automaticaly switch to english interface and show list of supported games, just like Nexus Mod Manager.\r<br />\r<br />Program provided AS IS. I explain. I do not guarantee that it will work correctly on every system. I do guarantee that program works correctly on my system. And I am not responsible for any damage to your system (no, KMM does not contain viruses).\r<br />\r<br />[size=3][b]Frequently Asked Questions\r<br />[/b][/size]Q: Is this better than Mod Organizer?\r<br />A: Relate to virtual file system - no. In all other cases - maybe. I don&#39;t use MO.\r<br />\r<br />Will add more later.\r<br />\r<br />[size=3][b]Licensing[/b]\r<br />[/size]Do not redistribute on other sites under any circumstances.",
+  "categoryId": "39",
+  "version": "1.1R2",
+  "author": "Kerber",
+  "createdUnix": "1463607190",
+  "updatedUnix": "1463606563",
+  "containsAdultContent": false,
+  "uploadedBy": "Kerber100",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000207005",
+      "name": "KMM 1.1R2",
+      "version": "1.1R2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "21652",
+      "fileName": "KMM 1.1R2-75738-1-1R2.7z",
+      "uploadedUnix": "1463606563",
+      "modVersion": "1.1R2",
+      "virusScanUrl": "https://www.virustotal.com/file/99bf3f80f607303ca7933527042d5bb8adf64239a8a5e20e04047110bda5292d/analysis/1463606588/",
+      "changelogHtml": " Sorry, no english translations for first time. I will make english version of changes for new version when it will be released.\r<br />\r<br />[Общее] Исправлена настройка кодовых страниц для файлов локализации. \r<br />[Общее] Исправлено изменение размеров элементов интерфейса в окне выбора профилей. \r<br />[Файлы данных] Исправлена ошибка при попытке перемещения файла в списке плагинов за пределы списка. \r<br />[Установщики] Добавлена поддержка FOMod с конфигурацией во вложенной папке. \r<br />[Установщики] Исправлен механизм сравнения версий. \r<br />[Установщики] Исправлен поиск в журнале при пустом запросе. \r<br /> <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/KMM%201.1R2-75738-1-1R2.7z?fid=1000207005&ttl=1535864490&ri=8192&rs=8192&setec=0cb5b8a43dde339fe068618ae214974f"
+    }
+  ]
+}

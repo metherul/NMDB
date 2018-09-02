@@ -1,0 +1,48 @@
+{
+  "modId": 21818.0,
+  "modName": "NoViblack ENB",
+  "summary": "Beautiful tone of shadow (Sky Lighting and SSAO). \r\nNot vivit color.\r\nNot too darker shadow.\r\nNot too darker night.",
+  "descriptionHtml": "[img]http://skyrim.nexusmods.com/mods/images/21818-1-1344273845.jpg[/img]\r\n[img]http://static.skyrim.nexusmods.com/mods/images/21818-2-1344261322.gif[/img]\r\n\r\nWork in progress.\r\n-------------------------------------------\r\nFeatures\r\n-------------------------------------------\r\nBeautiful tone of shadow. (Sky Lighting and SSAO)\r\nNot vivit color.\r\nNot too darker shadow.\r\nNot too darker night.\r\nBluish Bloom effect.\r\n\r\nEverything is a matter of personal taste. \r\nAdjust it yourself.\r\n\r\n-------------------------------------------\r\nInstallation\r\n-------------------------------------------\r\n1. Download and extract my mod into your skyrim  main folder (the folder with the TESV.exe. it should be something like this \\\\\\\\\\\\\\\"C:\\\\\\\\\\\\\\\\Program Files (x86)\\\\\\\\\\\\\\\\Steam\\\\\\\\\\\\\\\\steamapps\\\\\\\\\\\\\\\\common\\\\\\\\\\\\\\\\The Elder Scrolls V - Skyrim\\\\\\\\\\\\\\\")\r\n\r\n2. Download \\\\\\\\\\\\\\\"ENBSeries v0.114 beta for TES Skyrim\\\\\\\\\\\\\\\" from  http://enbdev.com/mod_tesskyrim_v0114.htm and extract \\\\\\\\\\\\\\\"d3d9.dll\\\\\\\\\\\\\\\" from the download to your skyrim main folder (same place as step 1)\r\n\r\n3. Go into you skyrim prefs ini its in my documents (C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\USER\\\\\\\\\\\\\\\\Documents\\\\\\\\\\\\\\\\My Games\\\\\\\\\\\\\\\\Skyrim\\\\\\\\\\\\\\\\SKYRIMPREFS.INI) and change these under the \\\\\\\\\\\\\\\"[Display]\\\\\\\\\\\\\\\" )\r\nbFloatPointRenderTarget=1\r\nbTreesReceiveShadows=1 (required for \\\\\\\\\\\\\\\"Sky Lighting\\\\\\\\\\\\\\\")\r\nbDrawLandShadows=1 (required for \\\\\\\\\\\\\\\"Sky Lighting\\\\\\\\\\\\\\\")\r\nbShadowsOnGrass=1 (required for \\\\\\\\\\\\\\\"Sky Lighting\\\\\\\\\\\\\\\")\r\n\r\n4. (Optional) Check on NoViblack ENB Darker Dungeons&Interiors.esp. It is more darker Dungeons and Interiors.\r\n\r\n5. I recommend setting your in-game brightness to center.\r\n\r\n-------------------------------------------\r\nRecommend MOD\r\n-------------------------------------------\r\n\r\nENB SSAO and DoF Toggler for Skyrim\r\nhttp://skyrim.nexusmods.com/mods/13306\r\n\r\n\r\n-------------------------------------------\r\nKnown Issues/Bugs\r\n-------------------------------------------\r\n- ENB Series bright water surface bug.\r\n- ENB Series SSAO transparency bug.\r\n\r\n-------------------------------------------\r\nLog\r\n-------------------------------------------\r\n2012 08.06 1.0 Release.\r\n2012 08.07 1.1 Add NoViblack ENB Darker Dungeons&Interiors.esp. More bluish in the night.\r\n\r\n-------------------------------------------\r\nCredits\r\n-------------------------------------------\r\nBoris Vorontsov: ENB Series\r\nMatso : Modify enbprepass.fx\r\nHeliosDoubleSix : Modify enbeffect.fx",
+  "categoryId": "62",
+  "version": "1.1",
+  "author": "tktk",
+  "createdUnix": "1344260743",
+  "updatedUnix": "1344345162",
+  "containsAdultContent": false,
+  "uploadedBy": "tktk1",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "79220",
+      "name": "Noviblack",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "55",
+      "fileName": "Noviblack-21818-1-0.7z",
+      "uploadedUnix": "1344260895",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ccf7d50caa5532dfdc9c926b96d38f91681ea27e2f216250518a1bfa00f88d2a/analysis/1407074162/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Noviblack-21818-1-0.7z?fid=79220&ttl=1535790953&ri=8192&rs=8192&setec=9f3fdd686646b165f2af5e2510842eb3"
+    },
+    {
+      "fileId": "79476",
+      "name": "NoViblack",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "57",
+      "fileName": "NoViblack-21818-1-1.7z",
+      "uploadedUnix": "1344345162",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/137c78ff35d23480784ab0330a49d5aaf2c9a8e59067c1901b56b399c9b891fb/analysis/1407076862/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NoViblack-21818-1-1.7z?fid=79476&ttl=1535790954&ri=8192&rs=8192&setec=dcc9ee5408d624666929fb22f7665b0a"
+    }
+  ]
+}

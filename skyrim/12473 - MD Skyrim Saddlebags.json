@@ -1,0 +1,48 @@
+{
+  "modId": 12473.0,
+  "modName": "MD Skyrim Saddlebags",
+  "summary": "Adds functional saddlebags to horses.  No visuals, yet.",
+  "descriptionHtml": "Update 3/11/2012 v.2b\r\nRemoved chattiness of mod.\r\nAdded ability to mount horse in sneak mode if facing same direction as horse.  Pretty much when facing rear of horse.\r\n\r\nFirst revision of MD Saddlebags for Skyrim.  No visuals at the moment, but the core functionality is here.\r\n\r\nActivating your horse normally mounts the horse as usual.\r\nActivating your horse while sneaking opens the saddlebags.\r\n\r\nHorses have a \\\"maximum\\\" carry weight of around 400-600lbs depending on the horse.  Carrying 600 lbs., the horses walk very slowly (like the player while encumbered), but you can still add more weight to the horse if you want.  At 200-300 lbs., the horse moves normally.  The speed of the horse is scaled linearly between 200-300 and 400-600.\r\n\r\nThis is a beta release, so it\\'s pretty chatty with lots of status messages in the upper left hand corner.  Be sure to make backups of your saves before trying this out.  If things seem to be working well, I\\'ll take out the messages and do a regular release.\r\n\r\nNotes:\r\nYou\\'ll have to mount your horse normally once before the new script becomes active and sneak activate works.\r\n\r\nNo love for Shadowmere or any horses other than the ones you can buy at the 5 stables.\r\n\r\n\r\nInstallation:\r\n\r\nExtract the .esp and .bsa file to your Skyrim\\\\Data directory.\r\n\r\nUninstall:\r\n\r\nMake sure all of your items out of your saddlebag!  Make a new save game.  Exit Skyrim.  Remove the MD Skyrim Saddlebags.esp and MD Skyrim Saddlebags.bsa files from your Skyrim\\\\Data directory.",
+  "categoryId": "83",
+  "version": "0.2b",
+  "author": "Maboroshi Daikon",
+  "createdUnix": "1331262231",
+  "updatedUnix": "1331514782",
+  "containsAdultContent": false,
+  "uploadedBy": "MaboroshiDaikon",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "41550",
+      "name": "MD Skyrim Saddlebags v001b",
+      "version": "0.1b",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "MD Skyrim Saddlebags v001b-12473.zip",
+      "uploadedUnix": "1331262315",
+      "modVersion": "0.1b",
+      "virusScanUrl": "https://www.virustotal.com/file/f1fa642266bfbdd77f432afb204d8144985b08dfea84c77b1c03a2b8672a1b25/analysis/1406739010/",
+      "changelogHtml": " Initial Release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MD%20Skyrim%20Saddlebags%20v001b-12473.zip?fid=41550&ttl=1535774399&ri=8192&rs=8192&setec=f365a3a7bca7dc0bc142630d5ce5624a"
+    },
+    {
+      "fileId": "42520",
+      "name": "MD Skyrim Saddlebags v002b",
+      "version": "0.02b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "MD Skyrim Saddlebags v002b-12473.zip",
+      "uploadedUnix": "1331514782",
+      "modVersion": "0.02b",
+      "virusScanUrl": "https://www.virustotal.com/file/8837c33e5734a3008d629ba11a1853dfaf0970c0911d619470c901e96b5ece23/analysis/1406744472/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MD%20Skyrim%20Saddlebags%20v002b-12473.zip?fid=42520&ttl=1535774399&ri=8192&rs=8192&setec=796e2aae3786f370694d823840ac71c3"
+    }
+  ]
+}

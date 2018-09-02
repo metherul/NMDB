@@ -1,0 +1,48 @@
+{
+  "modId": 61846.0,
+  "modName": "Sky Factory",
+  "summary": "",
+  "descriptionHtml": "[size=6]Sky Factory[/size]\r<br />\r<br />What it is:\r<br />[size=3]Sky Factory is my first attempt to bring some factory building mechanism to Skyrim. As you progress towards the end game, you will be washed with a lot of treasure. With so much redundant money, there should be more ways to spend them.\r<br />\r<br />[/size]Sky Factory consists 2 NPCs who can be found in Breezehome in Whiterun. Skyrim Factory Vendor will sell you token for workshops such as Cattle Farm or Brewery. You then drop these tokens into Resource Manager. Resource Manager will cast a custom spell. Each cast measures 1 day of work done in each shop in her inventory. If you got required resource and workshop token, the resource will be converted to the product. These outputs can be further manufactured to a lot of useful product or sold for gold.\r<br />\r<br />How does it work:\r<br />Resource Manager is actually a cleaned copy of Aela the Huntress. She casts a spell that runs a script. This script check each type of token, how many token she has and how much resource in her pocket can be used with the token. This then deletes the resource and add the resulting product. (All of this happens in the inventory of Aela the resource manager.)\r<br />\r<br />There are 3 types of buildings.\r<br />1. resource building: like mines, farm. They need tools (token) to make resources.\r<br />2. factory: like ore refinery, alchemist. This type of building converts resources to usable stuff. An alchemist can convert herbs produced by herbalist into usable health potions.\r<br />3. shop: mostly inns and shops. They sell these usable products to earn gold.\r<br />\r<br />You can also buy a few men and women. With houses, they can start a family. Family pay tax and give birth to children. Children will grow up and this repeating process can get a village started. Inns and shops can sell various products for gold depending on how many families there are in the village.\r<br />\r<br />Spoiler:\r<br />It might be difficult to figure out what shop to build. I have attached my mindmap for the entire design.\r<br />\r<br />When you talk to the resource manager, you can open up her inventory.\r<br />Drop the resources, tokens and anything else into her inventory. Then you need to make sure it is during day time. She should start to cast a green spell. This spell will run that script. All the magic should happen properly.\r<br />\r<br />You should also reference to the mindmap to decide how to setup a production loop. That is part of the fun for this mod.\r<br />\r<br />Future:\r<br />The current version does not have any custom model or building an actual farm. Everything happen on token level. I am definitely interested in placing token in some wilderness and build an entire custom town of your own. That is currently a long term goal. The structure yields a lot of gold and a lot of left overs of different types of useful items. \r<br />\r<br />Plan:\r<br />[list][*]Add scripts for summoning npc with tokens[/*]\r<br />[*]Make Resource Manager give money to player if she has more than 1000000[/*]\r<br />[*]Limit to how much intermediate resources are produced to prevent overflowing[/*]\r<br />[*]Increase Resource Manager Capacity[/*]\r<br />[*]Put up a manual book in game[/*]\r<br />[*]Make Resource Manager follow you[/*]\r<br />[*]Move vendor to Dragon&#39;s Reach[/*]\r<br />[*]Make a manual spell that runs 20 iterations instantly[/*]\r<br />[/list]\r<br />New ideas:[list][*]Add Transmuter Shop - upgrade iron ingot to silver ingot then to gold ingot (10 at a time, consumes soul gem)[/*]\r<br />[*]Add Enchanting Shop - (still deciding what enchantment to add, most likely make sword and armor enchanted with health boost)[/*]\r<br />[*]Add Soul Trap Farm - yields soul gems[/*]\r<br />[*]Add Arena - Soldiers will fight each other, generate a lot of gold if village is large enough[/*]\r<br />[*]Add Church - can generate donation and praying - enough praying can create miracle token[/*]\r<br />[*]Add City Hall - can check up status of the village[/*]\r<br />[*]Add Magic Shop - can create a lot of different magic scrolls[/*]\r<br />[*]Add City Walls Token - this token count resembles the city wall strength. If the wall is destroyed, attackers will kill men and women each round[/*]\r<br />[*]Add Attackers - this token is randomly created. Soldiers and Attackers will kill each other randomly. Attackers appear when village is larger than 500. When attackers die, random loot will be added[/*]\r<br />[*]\r<br />[/*]\r<br />[*]Add fortune miracle - convert 1 miracle token to random gold from 100000~10000000[/*]\r<br />[*]Add population miracle - convert 1 miracle token to random number of babies from 100~10000[/*]\r<br />[*]Add Army Miracle - convert 1 miracle token to random number of soldiers from 100~10000[/*]\r<br />[*]Add genie - convert 10 miracle token to a genie token - genie token summons genie - genie grants 3 wishes...[/*]\r<br />[*]\r<br />[/*]\r<br />[*]Add silver mine - yields silver ore[/*]\r<br />[*]Add gold mine - yields gold ore[/*]\r<br />[*]Add rare metal mine - yields rare ores[/*]\r<br />[*]Add Dragon den - yields dragon bone and dragon scale\r<br />[/*]\r<br />[*]Add Advanced Armor shop - yields dragon armor[/*]\r<br />[*]Add Advanced Weapon shop - yields rare metal weapons of random type[/*]\r<br />[*]Add jewelry shop - yields gold ring[/*]\r<br />[*]Add silver shop - yields silver sword[/*]\r<br />[*]Add Arrow Crafter - yields a lot of good arrows (+ damage ones)[/*]\r<br />[/list]\r<br />[img]http://oi58.tinypic.com/25g8g77.jpg[/img]\r<br />\r<br />[img]http://oi61.tinypic.com/vyb3ae.jpg[/img]\r<br />\r<br />[img]http://oi58.tinypic.com/23keosl.jpg[/img]\r<br />\r<br />[img]http://oi60.tinypic.com/b5ljlc.jpg[/img]",
+  "categoryId": "69",
+  "version": "2.0",
+  "author": "Goldfiction",
+  "createdUnix": "1421701004",
+  "updatedUnix": "1421859055",
+  "containsAdultContent": false,
+  "uploadedBy": "goldfiction",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000143611",
+      "name": "SkyFactory",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "SkyFactory-61846-1-0.zip",
+      "uploadedUnix": "1421700999",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9bceeff6581299b52592a2a0a00834eb89435c19aa7b746613c6b86d9e9d61d3/analysis/1421701022/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyFactory-61846-1-0.zip?fid=1000143611&ttl=1535850427&ri=8192&rs=8192&setec=4343de6847f996419f429fe59f0cd019"
+    },
+    {
+      "fileId": "1000143910",
+      "name": "SkyFactory V2",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "SkyFactory V2-61846-2-0.zip",
+      "uploadedUnix": "1421859055",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/523e349eafa07e2c03300ba7eef669f828adf6e33dbba6eb421584279ac04981/analysis/1421859062/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyFactory%20V2-61846-2-0.zip?fid=1000143910&ttl=1535850427&ri=8192&rs=8192&setec=297a0df1499dc507c5373cee5535fcf2"
+    }
+  ]
+}

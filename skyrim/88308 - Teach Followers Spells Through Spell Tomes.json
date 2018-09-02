@@ -1,0 +1,48 @@
+{
+  "modId": 88308.0,
+  "modName": "Teach Followers Spells Through Spell Tomes",
+  "summary": "Allows you to teach spells to followers by giving them spell tomes.",
+  "descriptionHtml": "[font=Lucida Sans Unicode][color=#ff7700][size=5]Description:[/size][/color]\n<br />[size=3]Allows you to teach spells to followers by giving them spell tomes. Once taught, you can have followers forget spells by giving them the spell tome again.[/size]\n<br />\n<br />\n<br />[/font][size=3]How to teach a spell to a follower:\n<br />[/size][list]\n<br />[*][size=3]Talk to a follower and select the Give Spell Tome option.[/size]\n<br />[*][size=3]Select the Teach spell option.[/size]\n<br />[*][size=3]Give the follower a spell tome and they will learn the spell if they don't already know it.[/size]\n<br />[*][size=3]The spell tome will be \"destroyed\" when the follower learns the spell.[/size]\n<br />[/list][size=3]\n<br />How to make a follower forget a spell:\n<br />[/size][list]\n<br />[*][size=3]Talk to a follower and select the Give Spell Tome option.[/size]\n<br />[*][size=3]Select the Forget spell option.[/size]\n<br />[*][size=3]Give the follower a spell tome and they will forget the spell if they already know it.[/size]\n<br />[*][size=3]The spell tome will NOT be \"destroyed\" when the follower forgets the spell, and will be returned to the player.[/size]\n<br />[/list]\n<br />\n<br />\n<br />[color=#ff7700][size=5]Requirements:[/size][/color]\n<br />[list]\n<br />[*][size=3]Skyrim.esm[/size]\n<br />[*][size=3]Update.esm[/size]\n<br />[*][size=3][url=http://skse.silverlock.org/]SKSE[/url]﻿[/size]\n<br />[*][size=3][url=https://www.nexusmods.com/skyrim/mods/3863]SkyUI[/url]﻿ (For Full Version)[/size]\n<br />[/list]\n<br />\n<br />\n<br />[color=#ff7700][size=5]Versions:[/size][/color]\n<br />[size=3]Full:[/size]\n<br />[list]\n<br />[*][size=3]Includes a MCM that allows you to see which spells you have taught to a follower through spell tomes.[/size]\n<br />[*][size=3]To view the learned spells, simply move your in-game crosshair over a follower then go to the MCM and view the list of spells they've learned.[/size]\n<br />[/list][size=3]Light:\n<br />[/size][list]\n<br />[*][size=3]Does NOT include a MCM. You will have to remember the spells you taught to each follower.[/size]\n<br />[/list]\n<br />\n<br />\n<br />[color=#ff7700][size=5]Questions:[/size][/color]\n<br />[size=3]Q: Will this work with spells from mods?\n<br />A: Yes.\n<br />\n<br />Q: Does this conflict with other mods?\n<br />A: No. No original records were altered. This mod is compatible with everything.\n<br />\n<br />Q: Do I have to have SKSE?\n<br />A: Yes. The mod will not work without it.\n<br />\n<br />Q: I taught spells to a follower but they won't use them. Why?\n<br />A: There are several reasons why.\n<br />[/size][list=1]\n<br />[*][size=3]Your follower doesn't have enough magicka to cast the spell.[/size]\n<br />[*][size=3]Your follower doesn't have high enough skill in that school of magic to cast the spell. (Example: Followers need a skill of 50 in destruction to cast Fireball)[/size]\n<br />[*][size=3]The AI of your follower doesn't see the spell as useful in combat.[/size]\n<br />[/list][size=3]\n<br />Q: Will this work for custom followers or followers that don't use the normal follower system?\n<br />A: Yes, it should.\n<br />\n<br />Q: Why does the option appear for NPCs that temporarily follow me during certain quests?\n<br />A: So the option appears for followers that don't use the normal follower system. There's not much I can do to avoid this.\n<br />[/size]",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "cloudedtruth",
+  "createdUnix": "1512944952",
+  "updatedUnix": "1512944952",
+  "containsAdultContent": false,
+  "uploadedBy": "cloudedtruth",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000261680",
+      "name": "Teach Followers Spells v1.0 - Full",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Teach Followers Spells v1.0 - Full-88308-1-0.7z",
+      "uploadedUnix": "1512890940",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c4f568c74a657ffac6cd69379f9164e6d3f277575fdb40cc461421b331e2f88e/analysis/1512891002/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Teach%20Followers%20Spells%20v1.0%20-%20Full-88308-1-0.7z?fid=1000261680&ttl=1535877455&ri=8192&rs=8192&setec=c8f2b8ce76b52e16ae0b11830b472d1e"
+    },
+    {
+      "fileId": "1000261681",
+      "name": "Teach Followers Spells v1.0 - Light",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Teach Followers Spells v1.0 - Light-88308-1-0.7z",
+      "uploadedUnix": "1512891016",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/22c112e24c0f19d8bf5f10e6d20e74bf1a6bd26f5775080c1e932c18c4380970/analysis/1512891062/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Teach%20Followers%20Spells%20v1.0%20-%20Light-88308-1-0.7z?fid=1000261681&ttl=1535877456&ri=8192&rs=8192&setec=e03d015c9ad6d0c7494ad0054f35910c"
+    }
+  ]
+}

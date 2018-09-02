@@ -1,0 +1,48 @@
+{
+  "modId": 25645.0,
+  "modName": "ENB 119 by WhiteAngel langeblan",
+  "summary": "If you search a serious ENB, you can try this one...\r\nTrue colors, no saturation, perfect shadow & light..... \r\nI worked 4  long days on this enb for get this result...\r\nDeph of Field, Bloom enable.\r\nAmbient occlusion disable.\r\n",
+  "descriptionHtml": "*****************************************************************************************************************************\r\nVersion 1.3 \r\n\r\n-Better visual quality about texture(blur remake).\r\n-rebalanced lenz effect\r\n-sun light remake\r\n-better shadow for realistic lightning\r\n\r\nUninstall realistic lightning on nexus if you have installed it. \r\nVersion 1.3 use my version of realistic lightning.\r\n \r\nIf you use an other version of realistic lightning, your experience with this ENB can change totaly.\r\n\r\nIf you have a low configuration, try this in your ini files:\r\n\r\nSkyrim.ini\r\niShadowMapResolutionPrimary=256\r\n\r\nSkyrimPrefs.ini\r\niShadowMapResolutionSecondary=256\r\niShadowMapResolutionPrimary=512\r\niShadowMapResolution=1024\r\n\r\n* Capture screen of 1.3 have been do with this option... 5-10fps gain.\r\n\r\ni turn at\r\n55-60 fps in town \r\n70-100 in cave/interior\r\n38-55 in exterior\r\n\r\nWith a gtx580 and i7950@4200mhz.\r\n\r\n*****************************************************************************************************************************\r\nversion 1.2 \r\n-for better light lenz effect and reflect.\r\n-Enb color, shadow will be improved for realistic lightning (for vanilla mod). \r\n For installing realistic lightning, don\\'t select dark dungeon or interior. \r\n\r\n*****************************************************************************************************************************\r\nversion 1.11\r\n-Color palette updated for better color.\r\n-old option who can make crach somes computer with crossfire video cards disable.\r\n-optimization for better and same graphical result, gain of 10 to 25fps.\r\n-Realistic lightning removed from data folder.\r\n-Download actived for nexus manager\r\n*****************************************************************************************************************************\r\nBefore to install,you must to be sure to delete/remove all files who can change color of the game.\r\n\r\nWork with Realistic Lighting With Customization \r\nhttp://skyrim.nexusmods.com/mods/7654\r\nunselect realistic lightning Patcher.esp in your manager nexus. make saturation color.\r\n\r\n\r\nuninstall:\r\n- all others files of enb\r\n- All injector\r\nAnd others Mods like imaginator.\r\n\r\nFor install it, YOU MUST FIRST!\r\nDownload ENB serie 119 source on the web site:\r\nhttp://enbdev.com/mod_tesskyrim_v0119.htm\r\n\r\nDownload ENB whiteangel 1.3.rar file and Just extract it and copy files and folders in skyrim main folder.\r\n\r\nin rar file:\r\nThe ENB documentation  of JawZ \r\nhttp://skyrim.nexusmods.com/mods/8005 \r\n\r\n\r\nENB files \r\neffect.txt\r\nenbbloom.fx\r\nenbeffect.fx\r\nenbeffectprepass.fx\r\nenbpalette.bmp\r\nenbseries.ini\r\nenbsunsprite.fx\r\nenbsunsprite.tga\r\n\r\nYou can change the config of this enb in opening & editing the enbseries.ini file.\r\n\r\nImportant:\r\nsetting ForceFakeVideocard=false to true does nothing for AMD cards anymore, since 0.112 binary. No true performance gain anymore unless you are explicitly running a CrossFire setup with an AMD 4xxx series card. I troubleshoot CrossFire issues myself. \r\n\r\nForceFakeVideocard=false for nvidia\r\nForceFakeVideocard=true for ati\r\n\r\n\r\nFor actived ambient occlusion:\r\n\r\n[EFFECT]\r\nEnableAmbientOcclusion=false to true\r\n\r\nImportant For get the correct color with your flat screem, up or down brigthness and gammacurve.\r\n\r\n[COLORCORRECTION]\r\nBrightness=0.85\r\nGammaCurve=0.85\r\n* try to up or down by 10 both at same time.\r\n\r\n\r\nIf you have a low or huge computer, you can reduce the quality of effet:\r\n\r\n0 = high\r\n1 = medium\r\n2 = low\r\n\r\n[SHADOW]\r\nDetailedShadowQuality=0\r\n\r\n[BLOOM]\r\nQuality=0\r\n\r\nThis ENB use Realistic lighting and folder textures for the sun...\r\n* if dungeon are too much dark for you, just disable realistic lightning mod.\r\n\r\n* You can use nvidiainspector for edit profil config of skyrim for nvidia card. And use a negativ lod bias to -1.500. You juste to set to \\\"Allow\\\" the second parameter in \\\"negative lod bias\\\".\r\nVisual quality is good like hd texture....\r\n\r\n*IMPORTANT, if you have installled the realistic lightning with nexus or manually, be sure addon Realistic lightning - addon.esp is disable. Color are wrong with this option.\r\n\r\n",
+  "categoryId": "62",
+  "version": "1.3",
+  "author": "Langeblan",
+  "createdUnix": "1350522347",
+  "updatedUnix": "1351804253",
+  "containsAdultContent": false,
+  "uploadedBy": "langeblan",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "97043",
+      "name": "Enb WhiteAngel 1 3",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "525",
+      "fileName": "Enb WhiteAngel 1 3-25645-1-3.rar",
+      "uploadedUnix": "1351804047",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/5ea7d56ab7e420579812a67fd1a576e8ae6aacb4a7fae70188c5ec1727fb8f6b/analysis/1407245486/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Enb%20WhiteAngel%201%203-25645-1-3.rar?fid=97043&ttl=1535797261&ri=8192&rs=8192&setec=12d5c3643ca0d33e501a6200aee6ac35"
+    },
+    {
+      "fileId": "97045",
+      "name": "Enb WhiteAngel old version",
+      "version": "1.2",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "13618",
+      "fileName": "Enb WhiteAngel old version-25645-1-2.rar",
+      "uploadedUnix": "1351804253",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/98d0dd737c41a72049a6a33b9d27605a505dece7fcdc917a86d4406c50080952/analysis/1407245492/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Enb%20WhiteAngel%20old%20version-25645-1-2.rar?fid=97045&ttl=1535797261&ri=8192&rs=8192&setec=bb4a7729ec45e41a67e8f641c633ae70"
+    }
+  ]
+}

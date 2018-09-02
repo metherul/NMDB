@@ -1,0 +1,32 @@
+{
+  "modId": 36156.0,
+  "modName": "MinimalHUD LayoutManager",
+  "summary": "Save&Reload HUD layouts created with MinimalHUD.",
+  "descriptionHtml": "[size=+1][b]This mod is now an integral part of the main [url=http://skyrim.nexusmods.com/mods/33482]MinimalHUD[/url] mod and is therefore OBSOLETE. \r\nSee uninstall instructions below![/size][/b] \r\n\r\n\r\n[color=yellow]Description[/color] \r\nFor those who don’t know, [url=http://skyrim.nexusmods.com/mods/33482]MinimalHUD[/url] is a great (and pretty underrated) mod that lets you create a custom HUD layout by resizing and repositioning the basic HUD elements. It is one of my favorite mods, though it has one downside: It only saves your layout \r\nin the savegame file, which means that you have to readjust the HUD everytime you start a new game.\r\n\r\nMininmalHUD LayoutManager changes that.\r\n\r\n\r\n[color=yellow]How does it work?[/color]\r\n MininmalHUD LayoutManager is easy to use. It adds a submenu called \\\"Layout Manager\\\" to the MinimalHUD MCM. Once you have set up your HUD in MinimalHUD, go to the \\\"Layout Manager\\\" page and click “Save Layout”. When starting a new game go to the menu again and select “Load Layout” and you’re done.\r\n\r\n[color=yellow]Installation[/color]\r\nYou need the original MinimalHUD 0.5, SKSE and SkyUI installed. Extract the archive into your Skyrim/Data folder.\r\n\r\n [color=yellow]Uninstall[/color]\r\ndelete the following file: Skyrim/Data/scripts/minHUDconfig.pex \r\n\r\n\r\n[b]Thanks to LordConti for his support and insight into his mod. [/b]\r\n",
+  "categoryId": "42",
+  "version": "1.0",
+  "author": "mttankard ",
+  "createdUnix": "1368836502",
+  "updatedUnix": "1368836024",
+  "containsAdultContent": false,
+  "uploadedBy": "mttankard",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000030312",
+      "name": "MinimalHUD LayoutManager",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "216",
+      "fileName": "MinimalHUD LayoutManager-36156-1-0.7z",
+      "uploadedUnix": "1368836024",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f9b1a39249e2042d3289e076d33801354420083314b474880b73d99d17f8fd6a/analysis/1407572975/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MinimalHUD%20LayoutManager-36156-1-0.7z?fid=1000030312&ttl=1535815170&ri=8192&rs=8192&setec=968d698dd6c20775a8459d809896ad77"
+    }
+  ]
+}

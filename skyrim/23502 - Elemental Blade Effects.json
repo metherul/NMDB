@@ -1,0 +1,32 @@
+{
+  "modId": 23502.0,
+  "modName": "Elemental Blade Effects",
+  "summary": "Cast a temporary elemental effect to your weapon.",
+  "descriptionHtml": "-==Blade Effects==-\r\nv1.0 Beta\r\n\r\nNOTE: Sorry for the lack of pics. I\\'d appreciate it if anybody would upload some.\r\n\r\n-==Overview==-\r\nSay you want to be a part spell caster, but you hate the fact that using a bound sword (or an evolving bound sword) limits your choice of weapons. You want to use spells somewhat, but once you\\'re in the thick of it, you forget that you even have spells. So this mod tries to bridge that gap a bit.\r\n\r\n-==What it does==-\r\nIt temporarily casts a unique enchantment to your currently equipped weapon.\r\n\r\n-==Installation==-\r\nPlace the files into your data folder.\r\n\r\n-==Usage==-\r\nYou can find the books in Alvor\\'s house. You can also buy them at shops (I hope). Alternatively, use the console command.\r\n-Open up the console and type:\r\nhelp \\\"fire blade\\\"\r\ntake note of the ID then type\r\nplayer.addspell <fire blade\\'s ID>\r\nDo the same for Ice Blade and Lightning Blade\r\n\r\n-==Uninstallation==-\r\n-Open up the console and type:\r\nhelp \\\"fire blade\\\"\r\ntake note of the ID then type\r\nplayer.removespell <fire blade\\'s ID>\r\n-Do the same for Ice Blade and Lightning Blade\r\n-Save\r\n-Untick the mod from the launcher (or NMM)\r\n\r\n-==Mod Specifics==-\r\nFire Blade\r\n-Causes fire damage\r\n-Chance to cause stagger\r\n\r\nIce Blade\r\n-Chance to shoot ice spikes\r\n\r\nLightning Blade\r\n-Damage both magicka and health over 3 seconds\r\n\r\nSpells grow in strength as your destruction skill grows.\r\n\r\n-==Known Issues==-\r\n-Switching weapons while the spell is active will cause you to revert back to your previous weapon (before you cast the spell) once the active effect runs out\r\n-Sometimes when you equip the spell, you\\'ll run around in a combat state, but without your weapon or spell drawn; tap on the sheathe/draw weapon button until your character does so\r\n-I have yet to test all possible permutations of switching weapons or casting the spell, so it might do something unpredictable (nothing game breaking as far as I know, so it should be fine)\r\n-Casting a blade effect spell while holding an existing enchanted sword will make you equip your previous weapon and no spell effect; just recast when this happens\r\n-Best to sheathe your weapon first before you cast another blade effect\r\n-Blade effects do not stack\r\n-Blade effects will temporarily overwrite your weapon\\'s initial enchantment (don\\'t worry, it\\'s not gone forever; just sheathe your weapon or wait til the effect runs out)\r\n-Your initial weapon before you cast the spell will be in your inventory and you can still equip it; this is intentional, since temporarily removing your weapon has a slight chance of it being gone forever\r\n-Please inform me of any other problems\r\n\r\n-==Other mods==-\r\nCheck out my mods: \r\nSpell Combos\r\nhttp://skyrim.nexusmods.com/mods/23882\r\nEvolving Bound Weapons\r\nhttp://skyrim.nexusmods.com/mods/22177\r\nMRECO - Magic Related Enchantments to Clothing Only\r\nhttp://skyrim.nexusmods.com/mods/23096\r\nElemental Blade Effects\r\nhttp://skyrim.nexusmods.com/mods/23502\r\n\r\n-==Permissions==-\r\nYou can use this mod however you wish. Though, I\\'d appreciate acknowledgement.",
+  "categoryId": "75",
+  "version": "1.0b",
+  "author": "leron9999",
+  "createdUnix": "1346569470",
+  "updatedUnix": "1346569657",
+  "containsAdultContent": false,
+  "uploadedBy": "leron9999",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "85899",
+      "name": "Elemental_Blade_Effects_v1",
+      "version": "1.0b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "Elemental_Blade_Effects_v1-23502-1-0b.7z",
+      "uploadedUnix": "1346569657",
+      "modVersion": "1.0b",
+      "virusScanUrl": "https://www.virustotal.com/file/c78d93479c8a3127fd78be17d7d827d93252f743b094b3d50f0aac21fd4d3db3/analysis/1407139984/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Elemental_Blade_Effects_v1-23502-1-0b.7z?fid=85899&ttl=1535793795&ri=8192&rs=8192&setec=d90d605e58324f065829406ad8285b9a"
+    }
+  ]
+}

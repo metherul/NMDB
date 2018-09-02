@@ -1,0 +1,32 @@
+{
+  "modId": 76066.0,
+  "modName": "Freedom of Movement",
+  "summary": "A simple mod I made to add some benefits to wearing light armour as well as no armour for those who like to play less armoured characters or unarmoured.",
+  "descriptionHtml": "[u][b][size=4]Freedom of Movement\r<br />[/size][/b][/u]\r<br />This simple mod addresses what I find to be an issue for someone who doesn&#39;t like wearing armour from head to toe. This mod will give your character small bonuses when not wearing armour, which will be reduced when wearing light armour on gloves, head, chest and boots, and negated when wearing any heavy armour.\r<br />You should still be able to wear clothes and apparel that has no armour class and receive the unarmoured bonus\r<br />\r<br />[i]Note: As this mod works through detecting keywords, any modded armour added to your game may contain one of these keywords, for example I have a belt but it has the gauntlet keyword attached, therefore when wearing it I do not receive the no gloves bonus.[/i]\r<br />\r<br />\r<br />[u][b][size=4]The Bonuses [/size][/b][/u]\r<br />\r<br />As some people have seemed a bit confused as to why Light armour is giving you a benefit to speechcraft and movement speed, think of it this way. This mod gives you a +6 to the below stats for each slot. If you wear light armour over these slots, it reduces each slots&#39; bonus by -3, and if you wear heavy, -6.\r<br />So the armour isn&#39;t giving you a bonus per se, it&#39;s simply reducing the bonus to a lesser version as you are wearing something over the slot. \r<br />\r<br />Unarmoured Helmet - Speechcraft + 6 & Movement speed + 6\r<br />Unarmoured Gloves - Lockpicking + 6 & Movement Speed + 6\r<br />Unarmoured Boots  - Sneak + 6 & Movement Speed + 6\r<br />Unarmoured Chest - Sneak + 6 & Stamina Regeneration + 6\r<br />\r<br />Light Armoured Helmet - Speechcraft + 3 & Movement speed + 3\r<br />Light Armoured Gloves - Lockpicking +3 & Movement Speed + 3\r<br />Light Armoured Boots - Sneak + 3 & Movement Speed + 3\r<br />Light Armoured Chest - Sneak + 3 & Stamina Regeneration + 3\r<br />\r<br />[i]Note: If you wear any heavy armour you can&#39;t gain any light armour bonuses due to the nature of the conditions I&#39;ve set in place and the limitations of how the keyword conditions work. You can still gain the no armour bonuses though. Only work around to this I can think of is scripting but I wanted to avoid scripts as I personally have a fair few scripts that run when equipping/unequipping armour already from other mods.[/i]\r<br />\r<br />[u][b]Install[/b][/u]\r<br />Drop the esp into your data folder and check it in the skyrim launcher/mod loader of choice\r<br />\r<br />[u]Uninstall [/u]\r<br />Before removing the esp, be sure to open the console with the tilde (`) key and type &#39;stopquest aaaFreedomofMovement&#39; without the inverted hyphens, otherwise your stats will be messed up. After that, you can remove the esp.\r<br />\r<br />[b]Credits[/b]\r<br />\r<br />Thanks to:\r<br />Bethesda for making the game.\r<br />\r<br />[u][b]Permissions[/b][/u]\r<br />\r<br />Feel free to use/modify this mod or add it to another mod if you so desire, throw me some credit if you don&#39;t mind though. I take no responsibility for the altered versions ;). ",
+  "categoryId": "24",
+  "version": "0.1",
+  "author": "Drazhar753",
+  "createdUnix": "1464967166",
+  "updatedUnix": "1464967163",
+  "containsAdultContent": false,
+  "uploadedBy": "Drazhar753",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000208674",
+      "name": "Freedom of Movement",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Freedom of Movement-76066-0-1.zip",
+      "uploadedUnix": "1464967163",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/0b7c1730020c6e9165004d4d501eb39a19147aeb946c166a486eadae42b21aca/analysis/1464967203/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Freedom%20of%20Movement-76066-0-1.zip?fid=1000208674&ttl=1535864805&ri=8192&rs=8192&setec=1d670798bbd9fa730377c0aac91e9a1e"
+    }
+  ]
+}

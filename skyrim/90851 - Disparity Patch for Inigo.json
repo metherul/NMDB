@@ -1,0 +1,32 @@
+{
+  "modId": 90851.0,
+  "modName": "Disparity Patch for Inigo",
+  "summary": "A simple patch to secure Inigo's full functionality when also using the Disparity mod.",
+  "descriptionHtml": "Disparity achieves the diversity in health and other attributes for the different races by adding magical effects to them, to increase or decrease said attributes. This has the side effect that in case of decreased health, the affected characters won't be able to reach a full health bar. That causes a problem with Inigo, as several lines of his dialogue are conditioned to only play if he is at full health.\n<br />\n<br />This patch adds a condition to Disparity's magical effect to decrease health to not be applied on Inigo and so ensures him working correctly even if Disparity's racial adjustments are used.\n<br />\n<br />The patch must be placed below Inigo.esp and Disparity.esp in your load order.\n<br />\n<br />Have fun on your adventures :)\n<br />\n<br />\n<br />Credits go to:\n<br />Gary Hesketh aka [url=https://www.nexusmods.com/skyrim/users/7465756]Smartbluecat[/url] for creating [url=https://www.nexusmods.com/skyrim/mods/40960/?tab=posts]Inigo[/url]\n<br />[url=https://www.nexusmods.com/skyrim/users/4291352]Kryptopyr[/url] for creating [url=https://www.nexusmods.com/skyrim/mods/63354]Disparity[/url]\n<br />[url=https://www.nexusmods.com/skyrim/users/79655]CD Cooley[/url] for discovering the source of the problem",
+  "categoryId": "84",
+  "version": "1",
+  "author": "Falki",
+  "createdUnix": "1524219512",
+  "updatedUnix": "1524219512",
+  "containsAdultContent": false,
+  "uploadedBy": "falki",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000271078",
+      "name": "Inigo Disparity Patch",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Inigo disparity Patch-90851-1.7z",
+      "uploadedUnix": "1524218120",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/a8795ca75a702f14c39d91e7a93e27f99ffe08eaf3a888eeaf089b6f7ed717bd/analysis/1524218282/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Inigo%20disparity%20Patch-90851-1.7z?fid=1000271078&ttl=1535881172&ri=8192&rs=8192&setec=9dd821bb5c3602b72694f22eda573102"
+    }
+  ]
+}

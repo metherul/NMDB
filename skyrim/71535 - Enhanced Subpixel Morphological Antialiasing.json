@@ -1,0 +1,32 @@
+{
+  "modId": 71535.0,
+  "modName": "Enhanced Subpixel Morphological Antialiasing",
+  "summary": "SMAA is a very efficient GPU-based MLAA implementation (DX9, DX10, DX11 and OpenGL), capable of handling subpixel features seamlessly, and featuring an improved and advanced pattern detection & handling mechanism.",
+  "descriptionHtml": " the attention increase fps\r<br />SMAA is a veryefficient GPU-based MLAA implementation (DX9, DX10, DX11 and OpenGL), capable\r<br />of handling subpixel features seamlessly, and featuring an improved and\r<br />advanced pattern detection & handling mechanism.The techniquefocuses on handling each pattern in a very specific way (via look-up-tables),\r<br />in order to minimize false positives in the pattern detection. Ultimately, this\r<br />prevents antialiasing features that are not produced by jaggies, like texture\r<br />details. Furthermore, this conservative morphological approach, together with\r<br />correct subsample area estimation, allows to accurately combine MLAA with\r<br />multi/supersampling techniques.The technique focuses on handling each pattern in avery specific way (via look-up-tables), in order to minimize false positives in\r<br />the pattern detection. **Ultimately, this prevents antialiasing features that\r<br />are not produced by jaggies, like texture details**. Furthermore, this\r<br />conservative morphological approach, together with correct subsample area\r<br />estimation, allows to accurately combine MLAA with multi/supersampling\r<br />techniques. Finally, the technique has been specifically designed to clone (to\r<br />a reasonable extent) multisampling reference results.We present a new image-based, post-processingantialiasing technique, which offers practical solutions to the common, open\r<br />problems of existing filter-based real-time antialiasing algorithms. Some of\r<br />the new features include local contrast analysis for more reliable edge\r<br />detection, and a simple and effective way to handle sharp geometric features\r<br />and diagonal lines. This, along with our accelerated and accurate pattern\r<br />classification allows for a better reconstruction of silhouettes. Our\r<br />method shows for the first time how to combine morphological antialiasing\r<br />(MLAA) with additional multi/supersampling strategies (MSAA, SSAA) for accurate\r<br />subpixel features, and how to couple it with temporal reprojection; always\r<br />preserving the sharpness of the image. All these solutions combine synergies making\r<br />for a very robust technique, yielding results of better overall quality than\r<br />previous approaches while more closely converging to MSAA/SSAA references but\r<br />maintaining extremely fast execution times. Additionally, we propose\r<br />different presets to better fit the available resources or particular needs of\r<br />each scenario.",
+  "categoryId": "62",
+  "version": "",
+  "author": "iryoku",
+  "createdUnix": "1448360446",
+  "updatedUnix": "1498381128",
+  "containsAdultContent": false,
+  "uploadedBy": "Robert211",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000247877",
+      "name": "Enhanced Subpixel Morphological Antialiasing",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "76",
+      "fileName": "Enhanced Subpixel Morphological Antialiasing-71535-.rar",
+      "uploadedUnix": "1498381128",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/230e32c3026646cde1423664af9333ebeadeae6e2316a7b2d1e619b3453c9cf3/analysis/1498381152/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Enhanced%20Subpixel%20Morphological%20Antialiasing-71535-.rar?fid=1000247877&ttl=1535860075&ri=8192&rs=8192&setec=3e318f135e145de726513b7c30b8adf6"
+    }
+  ]
+}

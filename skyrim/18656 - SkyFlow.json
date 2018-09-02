@@ -1,0 +1,48 @@
+{
+  "modId": 18656.0,
+  "modName": "SkyFlow",
+  "summary": "A hotkey program useful for Skyrim (not Skyrim SE) players but especially for those who install and test mods. It improves your workflow! See \"SkyFlow Features\" for more information.",
+  "descriptionHtml": "THIS IS AN OLD APPLICATION. But you might find it handy. [b][color=#cc0000][size=5]By default NOT compatible with Skyrim SE[/size][/color][/b] but you can make it so when you edit the Autohotkey script.\n<br />\n<br />\n<br />[size=4][b][color=red]Description[/color][/b][/size]\n<br />\n<br />SkyFlow is a hotkey program useful for Skyrim players but especially for people who install and test mods. It improves your workflow! See \"Features\" for more information.\n<br />\n<br />Tired of using Ctrl+Alt+Delete all the time when Skyrim freezes or crashes? Then this program will certainly be useful for you!\n<br />\n<br />\n<br />[size=3][b]SkyFlow Features:[/b][/size]\n<br />\n<br />+ Instant terminate Skyrim (especially useful when your Skyrim freezes or crashes)\n<br />\n<br />+ Minimize and maximize Skyrim quickly with hotkeys and without the mouse arrow bug.\n<br />\n<br />+ Toggle Windows Aero on/off to free about 110 MB video card memory.\n<br />\n<br />+ The Free Camera, Godmode, and HUD on/off toggle.\n<br />\n<br />+ Binding your mouse thumb side buttons to whatever key you like.\n<br />\n<br />+ Dual Cast magic with a single hotkey.\n<br />\n<br />+ Activate your own customized batch cheat lists with hotkeys (useful for mod testing purposes).\n<br />\n<br />+ Change timescale and run speed with hotkeys.\n<br />\n<br />+ Start your game launcher executable with a hotkey.\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b][color=red]Update from version 2 to 3[/color][/b][/size]\n<br />\n<br />1. Backup the SkyFlow_Settings.ini file to your desktop.\n<br />\n<br />2. Uninstall SkyFlow 2.0 completely with the \"SkyFlow_Uninstaller.bat\"\n<br />\n<br />3. Install SkyFlow 3.0\n<br />\n<br />\n<br />[size=4][b][color=red]Installation[/color][/b][/size]\n<br />\n<br />\n<br />1. Unzip the .zip file to your Skyrim folder. All files should be in the same folder where TESV.exe is located.\n<br />\n<br />\n<br />2. Open SkyFlow_Settings.ini from your Skyrim folder with [url=http://notepad-plus-plus.org/]Notepad++[/url] or another text editor. I really recommend using Notepad++.\n<br />\n<br />\n<br />3. (Optional) Change the \"Game Launch Executable\".\n<br />\n<br />You can use any executable to launch Skyrim: SkyrimLauncher.exe (Default), skse_loader.exe (Skyrim Script Extender), SBW.exe (Skyrim Borderless Window). Don't use the launch Skyrim with hotkey when you use Mod Organizer.\n<br />\n<br />[code]\n<br />   [General]\n<br />   Game_Launch_Executable = SkyrimLauncher.exe\n<br />[/code]\n<br />\n<br />\n<br />5. (Optional) Change the \"SkyFlow Command Hotkey\". This is the hotkey that should be pressed in combination with other keys.\n<br />\n<br />[code]\n<br />   [Hotkeys]\n<br />   SkyFlow_Command = RCtrl\n<br />[/code]\n<br />\n<br />6. (Optional) Now change the other INI settings if you would like to do so. But you might as well test SkyFlow before you do so.\n<br />\n<br />7. Save and close SkyFlow_Settings.ini\n<br />\n<br />\n<br />8. Launch SkyFlow.exe from your Skyrim folder. Notice that SkyFlow appear in the taskbar tray as hidden program.\n<br />\n<br />[color=red]Important:[/color] The SkyFlow.exe needs to run with admin rights enabled (right click SkyFlow.exe, then go to the compatibility tab).\n<br />\n<br />\n<br />[size=4][b][color=red]Uninstall[/color][/b][/size]\n<br />\n<br />Run SkyFlow_Uninstaller.bat from your Skyrim folder. You might backup your SkyFlow INI settings file before you uninstall.\n<br />\n<br />\n<br />[size=4][b][color=red]Hotkeys (defaults)[/color][/b][/size]\n<br />\n<br />[color=red]Important:[/color] Numlock needs to be on (notice a light indicator appear on your keyboard to show you that Numlock is on)\n<br />\n<br />SkyFlow Command Key:\n<br />Right Ctrl\n<br />\n<br />Toggle SkyFlow hotkeys On/Off:\n<br />Right Ctrl\n<br />\n<br />Toggle Windows Aero On/Off:\n<br />SkyFlow Command + A\n<br />\n<br />Minimize Skyrim:\n<br />SkyFlow Command + N\n<br />\n<br />Maximize Skyrim:\n<br />SkyFlow Command + M\n<br />\n<br />Reload SkyFlow INI settings:\n<br />SkyFlow Command + R\n<br />\n<br />Launch Skyrim Launch Executable:\n<br />SkyFlow Command + L\n<br />\n<br />Quit Skyrim:\n<br />SkyFlow Command + Q\n<br />\n<br />\n<br />Dual Cast:\n<br />Left Windows Key\n<br />\n<br />Mouse Side Button 1 (MouseXButton1):\n<br />Empty\n<br />\n<br />Mouse Side Button 2 (MouseXButton2):\n<br />Empty\n<br />\n<br />The Free Camera:\n<br />Numpad 0\n<br />\n<br />The God Mode:\n<br />Numpad Dot\n<br />\n<br />Toggle HUD:\n<br />Numpad Enter\n<br />\n<br />Custom Cheat Lists:\n<br />\n<br />Cheat List 1 = Numpad 1\n<br />Cheat List 2 = Numpad 2\n<br />Cheat List 3 = Numpad 3\n<br />Cheat List 4 = Numpad 4\n<br />Cheat List 5 = Numpad 5\n<br />Cheat List 6 = Numpad 6\n<br />Cheat List 7 = Numpad 7\n<br />Cheat List 8 = Numpad 8\n<br />Cheat List 9 = Numpad 9\n<br />\n<br />These custom batch cheat lists can be modified to your liking in the files \"_c01.txt\"  to  \"_c09.txt\".\n<br />\n<br />\n<br />Change timescale:\n<br />\n<br />Default (20) = SkyFlow Command + 0\n<br />Fast (40) = SkyFlow Command + 1\n<br />Really Fast (400 and this might break your game) = SkyFlow Command + 2\n<br />Extreme (3500 and this might break your game) = SkyFlow Command + 3\n<br />\n<br />These timescale batch cheat lists can be modified to your liking in the files \"_t0.txt\"  to  \"_t3.txt\".\n<br />\n<br />\n<br />Change running speed:\n<br />\n<br />Default (100) = SkyFlow Command + 4\n<br />Fast (200) = SkyFlow Command + 5\n<br />Extreme (400) = SkyFlow Command + 6\n<br />\n<br />These running speed batch cheat lists can be modified to your liking in the files \"_rsdef.txt\",  \"_rsfast.txt\" and \"_rsextr.txt\".\n<br />\n<br />\n<br />[size=4][b][color=red]Recommendations[/color][/b][/size]\n<br />\n<br />[url=http://skyrim.nexusmods.com/mods/1334]Mod Organizer[/url] - I think this the most useful mod manager for managing tons of (heavy) mods.\n<br />\n<br />[size=4][b][color=red]Credits[/color][/b][/size]\n<br />\n<br />Gantar\n<br />Autohotkey Development Team - [url=http://www.autohotkey.com]www.autohotkey.com[/url]\n<br />\n<br />[size=5][color=green]Please endorse[/color] if you find this program useful. [/size]",
+  "categoryId": "39",
+  "version": "2.0",
+  "author": "Gantar",
+  "createdUnix": "1339513501",
+  "updatedUnix": "1340063432",
+  "containsAdultContent": false,
+  "uploadedBy": "Gantar",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "67613",
+      "name": "SkyFlow 1-1",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "205",
+      "fileName": "SkyFlow 1-1-18656-1-1.rar",
+      "uploadedUnix": "1339519627",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/dddac337f3bdd14446952077dfdb43bab9b4b8f014b868dd047cc13addcf42f8/analysis/1406955006/",
+      "changelogHtml": " Fixed the Right-Ctrl + m issue. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyFlow%201-1-18656-1-1.rar?fid=67613&ttl=1535785642&ri=8192&rs=8192&setec=458257e6775ed8f802ff2d962345394f"
+    },
+    {
+      "fileId": "68922",
+      "name": "SkyFlow 2-0",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "212",
+      "fileName": "SkyFlow 2-0-18656-2-0.zip",
+      "uploadedUnix": "1340063432",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b13a275aac55a2a9e02809e5531ecac5ae28d3eb122c5dfd464f3d546d2cc260/analysis/1406968564/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyFlow%202-0-18656-2-0.zip?fid=68922&ttl=1535785642&ri=8192&rs=8192&setec=acb0053b67c9c47cc3da967118952266"
+    }
+  ]
+}

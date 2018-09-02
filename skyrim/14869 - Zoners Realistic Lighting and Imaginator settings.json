@@ -1,0 +1,48 @@
+{
+  "modId": 14869.0,
+  "modName": "Zoners Realistic Lighting and Imaginator settings",
+  "summary": "Bright and vibrant lighting settings for Skyrim with a zero FPS hit!",
+  "descriptionHtml": "[size=5][color=4169E1][b][u]Introduction[/u][/b][/color][/size]\r\nThese are my custom settings for RL and Imaginator as a combo.\r\nSince both RL and Imaginator use only the ingame engine, the FPS hit is zero.\r\nAll feedback is appreciated, especially on issues surrounding bright areas and bloom!\r\n\r\n[size=5][color=4169E1][b][u]Prerequisites[/u][/b][/color][/size]\r\nYou must have [url=http://skyrim.nexusmods.com/downloads/file.php?id=7654]Realistic Lighting with Customization[/url] and [url=http://skyrim.nexusmods.com/downloads/file.php?id=13049]Imaginator[/url] installed in order to achieve the same effects as in the screenshots. I also recommend using [url=http://skyrim.nexusmods.com/downloads/file.php?id=12525]Dynavision[/url] as it has some very cool DoF effects!\r\n\r\n[size=5][color=4169E1][b][u]Installation[/u][/b][/color][/size]\r\n[list][*]Copy the \\\"Realisticlightingpatcher.esp\\\" to your data folder\r\n[*]Copy \\\"Realisticlighting.ini\\\" to the data folder if you want to customize the INI (Backup your INI first!)\r\n[*]In the load order; make sure that Realisticlightingpatcher.esp loads AFTER (below) Realisticlighting.esp\r\n[*]Launch skyrim!\r\n[/list]\r\n \r\n[size=5][color=4169E1][b][u]Imaginator Settings[/u][/b][/color][/size]\r\nWithin the game summon the Imaginator helper and \\\"Reset All Adjustments\\\" from the main menu of the Imaginator helper (just in case)\r\nThen apply the following settings through the helper:\r\n[list][*]In the [u]PRESET SETTINGS MENU[/u]; apply \\'Warm Northern Lights\\', \\'Pop Photo Shoot\\' and \\'Nice overall enhancement\\' [u]one time each[/u].\r\n[*]In the [u]TINTOR MENU[/u]; add Yellow and Orange [u]one time each[/u].\r\n[*]In the [u]CONTRASTOR MENU[/u]; adjust Contrast; Saturation and Brightness to taste, my personal settings are, Contrast around default; Saturation around -15; Brightness is default.\r\n[*]I keep the ingame brightness around 3 notches below the midpoint; adjust according to your taste.\r\n[*]If certain areas hit by the sun appear too bright, lower the \\'Sunlight\\' value under the CINEMAGIC menu in Imaginator\r\n[/list]\r\n\r\n[size=5][color=4169E1][b][u]Dynavision Settings[/u][/b][/color][/size]\r\nI have never been able to make the Dynamic DoF work well; so i use the STATIC DoF with the strength set to High.\r\n\r\n[size=5][color=4169E1][b][u]Version History[/u][/b][/color][/size]\r\n[list][*]Version 1.1: Added a low bloom to the RL ini, so bloom need not be applied through Imaginator. Leads to a lower overall bloom setting.\r\n[*]Version 1.0: Initial Version\r\n[/list]\r\n\r\n[size=5][color=4169E1][b][u]Other lighting Mods that I use[/u][/b][/color][/size]\r\n[url=http://skyrim.nexusmods.com/downloads/file.php?id=11336]Lanterns of Skyrim-Bridges[/url]\r\n[url=http://skyrim.nexusmods.com/downloads/file.php?id=12451]Lanterns of Skyrim-Cities[/url]\r\n[url=http://skyrim.nexusmods.com/downloads/file.php?id=10206]Cozier Villages - Outdoor Lighting[/url]\r\n\r\n[size=5][color=4169E1][b][u]Credits[/u][/b][/color][/size]\r\nPlutoman101 for Realistic Lighting\r\nMGE for Imaginator\r\nGopher for Dynavision\r\n\r\n[center][SIZE=5][B][COLOR=#7f7f7f][FONT=Georgia]My Other Lighting Settings/Mods[/FONT][/COLOR][/B][/SIZE]\r\n[I]Skyrim\r\n[URL=http://skyrim.nexusmods.com/mods/15551]Zoners High-Performance ENB[/URL]\r\n[URL=http://skyrim.nexusmods.com/mods/26744]Zoners High-Performance ENB 2_0[/URL]\r\n[URL=http://skyrim.nexusmods.com/mods/26080]Zoners Sky-Real ENB[/URL] \r\n[URL=http://skyrim.nexusmods.com/mods/14869]Zoners RL and Imaginator Settings[/URL] \r\n[URL=http://skyrim.nexusmods.com/mods/14946]Solitide Capital City Overhaul[/URL] \r\n\r\nFallout 3\r\n[URL=http://fallout3.nexusmods.com/mods/18514/]The ENB of the Apocalyspe[/URL]\r\n\r\nDragon Age: Origins\r\n[URL=http://dragonage.nexusmods.com/mods/3653]Dragon Age - Lighting Enhanced[/URL][/I]\r\n[/center]",
+  "categoryId": "62",
+  "version": "1.2",
+  "author": "Shrutesh",
+  "createdUnix": "1334077522",
+  "updatedUnix": "1334218967",
+  "containsAdultContent": false,
+  "uploadedBy": "Shrutesh",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "52004",
+      "name": "Realistic Lighting INI and ESP",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "Realistic Lighting INI and ESP-14869.rar",
+      "uploadedUnix": "1334077806",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e103367f39c858a1e18d69516300ad32f65a9c298bffdaa6ce0d17ab16c0b257/analysis/1406807825/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Realistic%20Lighting%20INI%20and%20ESP-14869.rar?fid=52004&ttl=1535778798&ri=8192&rs=8192&setec=ded07d3ab46b09d089f8a83dd22a4e7f"
+    },
+    {
+      "fileId": "52547",
+      "name": "INI and ESP",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "INI and ESP-14869-1-2.rar",
+      "uploadedUnix": "1334218967",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/38cc886033ca47bfaef060662ecb4b6fd59b473bc911b1de060bfb6a2db8dbff/analysis/1406811425/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/INI%20and%20ESP-14869-1-2.rar?fid=52547&ttl=1535778799&ri=8192&rs=8192&setec=8794ced6d99eec6219c7933ec5d236f2"
+    }
+  ]
+}

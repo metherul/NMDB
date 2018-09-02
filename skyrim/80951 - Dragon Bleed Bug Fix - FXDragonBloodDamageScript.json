@@ -1,0 +1,48 @@
+{
+  "modId": 80951.0,
+  "modName": "Dragon Bleed Bug Fix - FXDragonBloodDamageScript",
+  "summary": "Fixes a bug that the dragon bleeding effect was not done properly.\r<br />\r<br />By this patches, the dragon will bleed correctly without an error.\r<br />Therefore, the dragon will be bleeding a lot, and there will be no error in the papyrus log.\r<br />",
+  "descriptionHtml": "[Attention]\r<br />\r<br />This fix is included in [url=http://www.nexusmods.com/skyrim/mods/71214]USLEEP version 3.0.10 or later[b] [/b](Unofficial Skyrim Legendary Edition Patch)[/url].\r<br />\r<br />\r<br />----------\r<br />\r<br />Fixes a bug that the dragon bleeding effect was not done properly.\r<br />\r<br />By this patches, the dragon will bleed correctly without an error.\r<br />Therefore, the dragon will be bleeding a lot, and there will be no error in the papyrus log.\r<br />\r<br />\r<br />[Technical Note]\r<br /> FXDragonBloodDamageScript had many critical error.\r<br />1.Reproceed due to duplication of processing, resulting in a stack of errors.\r<br />2.Health calculation process was wrong, resulting bleeding has increased or decreased.\r<br />3.PlaySubGraphAnimation() function usage was wrong, resulting bleed processing has stopped halfway.\r<br />4.Because it had not checked the death and it had many errors, the following processing (dragon soul absorb) has adversely affected.\r<br />\r<br /> New script fixed all these bugs.",
+  "categoryId": "95",
+  "version": "1.2b",
+  "author": "Taka2nd",
+  "createdUnix": "1482060770",
+  "updatedUnix": "1483608093",
+  "containsAdultContent": false,
+  "uploadedBy": "Taka2nd",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000232877",
+      "name": "Dragon Bleed Bug Fix - FXDragonBloodDamageScript",
+      "version": "1.2b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Dragon Bleed Bug Fix - FXDragonBloodDamageScript-80951-1-2b.7z",
+      "uploadedUnix": "1483607978",
+      "modVersion": "1.2b",
+      "virusScanUrl": "https://www.virustotal.com/file/db338aba47894e0abb6bca13654dfc114daac23922a2a65ae47cf5090f8d5498/analysis/1483608122/",
+      "changelogHtml": " It is a small fix. It have cut down unnecessary processing little.\r<br />So if you are already using it, you do not need to update it in particular. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dragon%20Bleed%20Bug%20Fix%20-%20FXDragonBloodDamageScript-80951-1-2b.7z?fid=1000232877&ttl=1535869583&ri=8192&rs=8192&setec=bef9e0b50083f40a1abdec439922bb0d"
+    },
+    {
+      "fileId": "1000232878",
+      "name": "Dragon Bleed Bug Fix - Source",
+      "version": "1.2b",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Dragon Bleed Bug Fix - Source-80951-1-2b.7z",
+      "uploadedUnix": "1483608093",
+      "modVersion": "1.2b",
+      "virusScanUrl": "https://www.virustotal.com/file/4f619d432ca2b7ca842c7fc184533291bc7e5a4de15661160111ea94a391e9e8/analysis/1483608361/",
+      "changelogHtml": " It is a small fix. It have cut down unnecessary processing little.\r<br />So if you are already using it, you do not need to update it in particular. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dragon%20Bleed%20Bug%20Fix%20-%20Source-80951-1-2b.7z?fid=1000232878&ttl=1535869583&ri=8192&rs=8192&setec=27f4aae92a3356ed3c50f965ede649e4"
+    }
+  ]
+}

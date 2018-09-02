@@ -1,0 +1,32 @@
+{
+  "modId": 21944.0,
+  "modName": "Soul Scrolls",
+  "summary": "Trap the souls of creatures in scrolls to summon by your side.",
+  "descriptionHtml": "Adds new spell, Soul Write, that lets you write down the souls of the defeated so that they can be summoned by your side. 40 souls to catch!\r\nConditions:\r\nMust have blank scroll.\r\nHumanoids (player race types, Falmer, and Forsworn) can not have there souls written (werewolfs can).\r\nUndead can not have there souls written.\r\nDragons can not have there souls written.\r\nSummoned souls take up Conjured summon slot (can not have more then one without twin souls perk).\r\nSummoned creatures only last 1 minute.\r\n\r\nSoul Write can be purchased by Phinis Gestor (found at The College of Winterhold).\r\nBlank scrolls can be found any where that soul gems can be found.\r\n\r\nConsole Commands:\r\nplayer.addspell 02005eea\r\nplayer.additem 03005eeb ? (? = number of scrolls you want)\r\n\r\nThings to do:\r\nAdd \\\"boss\\\" type werewolfs (they can not be written atm)\r\nAdd leveled wolf types (can be written now but only summons lowest level)\r\nAdd Horses (need to check to see how this effects riding them)\r\nAdd Elementals.\r\n\r\nThis mod does nothing for Dawnguard creatures. Sucks I know but I don\\'t own the addon yet.\r\n\r\nIf you have a problem with summoning a creature, do not get a soul scroll, or got the wrong soul scroll. Please tell me the creature you killed, what level you are (kind of important for leveled creatures), and what scroll you got if any.\r\n\r\nMod can also be found at: http://steamcommunity.com/sharedfiles/filedetails/?id=87893914",
+  "categoryId": "75",
+  "version": "v1",
+  "author": "phoenixCr0w",
+  "createdUnix": "1344407899",
+  "updatedUnix": "1344945177",
+  "containsAdultContent": false,
+  "uploadedBy": "phoenixcrow",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "81504",
+      "name": "SoulScrolls_v1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "37",
+      "fileName": "SoulScrolls_v1-21944-1-0.zip",
+      "uploadedUnix": "1344945177",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/00ccc78bbb30022cedaa1c5176135e12be017b2d4170a62d6f16186c473c0779/analysis/1407095883/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SoulScrolls_v1-21944-1-0.zip?fid=81504&ttl=1535791178&ri=8192&rs=8192&setec=39c18175d245550103591d90a9ba6b2b"
+    }
+  ]
+}

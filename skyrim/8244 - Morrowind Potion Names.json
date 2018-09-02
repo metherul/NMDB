@@ -1,0 +1,32 @@
+{
+  "modId": 8244.0,
+  "modName": "Morrowind Potion Names",
+  "summary": "Changes the name of potions to match their Morrowind equivalents.",
+  "descriptionHtml": "Changelog:\r\n\r\nv1.1 - Renamed all of the Thief\\'s Guild potions (Larceny, Keenshot, etc) to fall in line with the Bargain->Exclusive convention. Renamed some alchemical Magic Effects (Invisibility -> Shadow, Fortify Carry Weight -> Feather, Resist Attribute -> Attribute Resistance) so that player-made potions should jive much better with the new vendor-bought potion names. Should be the last version.\r\n\r\nv1.0 - Added all of the Fortify Attribute, Element Resistance, and a couple of others (Waterbreathing, Invisibility, Carry Weight). I have decided not to rename the poisons for now, as Morrowind does not have a point of reference in this regard. I consider this \\\"finished\\\" at this point, unless someone sees something wrong, in which case, please let me know in the comments. I will do a review in the morning to see if there are any others that would make sense to rename.\r\n\r\nv0.1 - Initial Release. Only Health, Magicka, and Stamina potions renamed. More to follow in the next releases.\r\n\r\n\r\nSummary:\r\n\r\nThis mod simply changes the name of potions to match their Morrowind equivalents, where applicable. This is for those who like the flavor of Morrowind\\'s potion naming hierarchy better than Skyrim\\'s. I\\'ve never been a big fan of EXTREME and ULTIMATE potions, myself.\r\n\r\nAn unintended side-effect is that the potion list is much more organized now (see screenshot).\r\n\r\nThe names follow the following convention, in order of ascending potency:\r\nBargain -> Cheap -> Standard -> Quality -> High Quality -> Exclusive\r\n\r\nFor example,\r\nPotion of Minor Healing -> Bargain Restore Health\r\nPotion of Healing -> Cheap Restore Health\r\nPotion of Plentiful Healing -> Standard Restore Health\r\nPotion of Vigorous Healing -> Quality Restore Health\r\nPotion of Extreme Healing -> High Quality Restore Health (new name, since Morrowind only had a 5-tier naming system for potions)\r\nPotion of Ultimate Healing -> Exclusive Restore Health\r\n\r\nThis is a name change only. The values of these potions have not been altered.\r\n\r\nConflicts:\r\n\r\nThis mod will conflict with any mod that alters potions, which would include all alchemy overhaul mods. You have been warned!\r\n\r\nPermissions:\r\n\r\nSince this is such a simple cosmetic change, you do not need my permission to integrate this into your own mod. This is Morrowind\\'s naming convention, not mine. However, do not upload this exact mod to another website. Thanks, and enjoy!",
+  "categoryId": "94",
+  "version": "v1.1",
+  "author": "Chesko",
+  "createdUnix": "1328711743",
+  "updatedUnix": "1328757550",
+  "containsAdultContent": false,
+  "uploadedBy": "Chesko",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "27501",
+      "name": "Morrowind Potion Names - NMM Compatible",
+      "version": "v1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Morrowind Potion Names - NMM Compatible-8244.zip",
+      "uploadedUnix": "1328757550",
+      "modVersion": "v1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/36aea32edf1cb0612267eade600829441c4540dff4eac5dcb85b2c45141627c3/analysis/1406663051/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Morrowind%20Potion%20Names%20-%20NMM%20Compatible-8244.zip?fid=27501&ttl=1535766807&ri=8192&rs=8192&setec=3724979543dbc03cbe77c55c79d37f0d"
+    }
+  ]
+}

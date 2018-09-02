@@ -1,0 +1,32 @@
+{
+  "modId": 71397.0,
+  "modName": "Nex&#39;s Compatibility-friendly Elemental Fury Fix",
+  "summary": "A fix for the use of the Elemental Fury shout not being able to be used with enchanted weapons, be it right or left handed, but made for the utmost compatibility",
+  "descriptionHtml": "Please forgive me, but this is my first mod. I&#39;m still learning how to &#34;properly&#34; upload things here. Suggestions are greatly appreciated though :)\r<br />\r<br />[b][u]What this mod does[/u]\r<br />[/b]This mod allows the Elemental Fury shout to be use regardless of weather or not any of your weapons are enchanted. It could be your right hand. It could be your left. It could be both. It could be a two-hander. It could be a magical spear sticking out of your forehead....if such a weapon existed, therefore this is untested ;)\r<br />\r<br />This mod also fixes the sound bugs experienced with the shout and allows the caster to switch weapons after shouting while still retaining the increased weapon speed...as long as they switched to a melee weapon...so no bows  or magic :(\r<br />\r<br />This mod accomplishes this not by changing the shout at all. In fact, the original shout is left 100% untouched. Instead, I simply made a completely new shout, with new word entries, a new magical effect, a new spell, and the whole kit and kabootle. The new shout, instead of enchanting your weapons, simply adds an active effect that increases your attack speed. The vanilla shout was an absolute mess. It is the most poorly designed shout i have ever seen. None of the multipliers made any sense, the fact that it was an enchantment in the first place was completely unnecessary and also prevents one from switching weapons after shouting. I bypassed virtually everything wrong with the vanilla shout. This also means that the word walls now only teach the new shout, making the vanilla shout only obtainable through console commands.\r<br />\r<br />&#34;But there are already two mods like this out there&#34; \r<br />Yes there are two other mods out there. However, they always seem to glitch for me, sometimes doing nothing at all, sometimes only working right after reloading a quicksave, and both mods change the shout itself, making them incompatible with mods such as USKP, which is a big one for a lot of people. This has been tested to even work along with the other mods that fix this shout. If that doesn&#39;t make a mod compatibility-friendly, nothing will.\r<br />\r<br />[b][u]Compatibility[/u][/b]\r<br />It should work with just about everything. The only note I have is that I could not get around editing the scripts attached to the word walls that tell them what words to teach the player. I am 90%  sure it will make it incompatible with anything that changes those scripts. I am unsure if this also makes it incompatible with mods changing the word walls themselves, the letters attached to the word wall (the scripts are on a &#34;word of power&#34; object which are placed on the word wall), or the entire cells themselves. If someone could enlighten me it would be appreciated and I can then update this page.\r<br />\r<br />[b][u]To do[/u][/b]\r<br />Add a visual effect, as the wind effect is removed entirely. I have an idea for a whirlwind effect that appears around the player&#39;s body, which in my opinion, makes more sense, as the wind swirls around you, guiding your weapon and speeding it up, as opposed to vanilla where it simply emits from the weapons themselves. However, this effect is in DB, making DB requires. I might release two versions if I go with this, but the non-DB version will have no sound or visuals\r<br />\r<br />Add videos and pictures to this page. I&#39;ve kinda been busy with the end of the semester coming up and the upcoming black Friday making work a nightmare. Plus i have zero experience in video-making.\r<br />\r<br />[b][u]Playthrough Information[/u][/b]\r<br />I have no idea how the word walls for this shout will react to this mod being installed. I am still testing this. I dont know if they will teach you the new shout, do nothing, crash the game, or what? I currently cannot figure out how to teach the new shout via console commands, or realy any other shout for that matter (none of the codes on the wiki will work for me). If it turns out that the new shout is not re-teachable, I will probably add some way of teaching the new shout via scripts that figure out which shouts you already know. I still need to learn how to script though (I know basic programming, but I am still new to tick-bassed programming).\r<br />\r<br />[b][u]Uninstalling[/u][/b]\r<br />This mod adds no scripts. It only changed 1 attribute of three different scripts (for teaching the shout). It should be safe to uninstall mid-playthrough. However, you will loose the shout. As with installing mid-playthrough, I am unsure if you will be able to re-use the word walls to gain the vanilla shout. I still need to test these things. I just wanted to get the mod out as soon as I did because as far as a new playthrough goes, it is fully functional.\r<br />\r<br />[b][u]Thanks[/u][/b]\r<br />Bethesda for making skyrim\r<br />These people on reddit who helped me figure out how to navigate the creation kit, as I was more or less self-teaching myself:\r<br />ntn9713c\r<br />ministerofskyrim\r<br />fadingsignal",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "NexGenration",
+  "createdUnix": "1447662058",
+  "updatedUnix": "1447662050",
+  "containsAdultContent": false,
+  "uploadedBy": "NexGenration",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000185091",
+      "name": "Nex&#39;s Elemental Fury Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Nex's Elemental Fury Fix-71397-1-0.zip",
+      "uploadedUnix": "1447662050",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1380d0ec778e78bd99bb816222d912880bdb7d63f41c6334bb21f07519a4f741/analysis/1447662063/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Nex%27s%20Elemental%20Fury%20Fix-71397-1-0.zip?fid=1000185091&ttl=1535859955&ri=8192&rs=8192&setec=020062f674f40c889d91e80c63dc4c06"
+    }
+  ]
+}

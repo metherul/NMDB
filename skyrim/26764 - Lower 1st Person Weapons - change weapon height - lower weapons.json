@@ -1,0 +1,48 @@
+{
+  "modId": 26764.0,
+  "modName": "Lower 1st Person Weapons - change weapon height - lower weapons",
+  "summary": "This mod will lower your arms in first person mode. Makes weapons less intrusive, especially for dual wielding. Also affects bows and spells.",
+  "descriptionHtml": "[center][url=http://www.skyrimgems.com][img]http://i.imgur.com/hXQSy.png[/img][/url][/center]\n<br />[color=#FFDB94][size=5][u][b]Lower 1st Person Weapons by Lazyleader[/b][/u][/size][/color]\n<br />[color=#696969][i]Please don't forget to endorse, since I'm the first one who has figured out how to do it, coincidentally on the 1st anniversary of The Elder Scrolls V: Skyrim[/i][/color]\n<br />\n<br />For Skyrim Special Edition go to:\n<br />https://www.nexusmods.com/skyrimspecialedition/mods/17403\n<br />\n<br />This mod will lower your arms in first person mode. Makes weapons less intrusive, especially for dual wielding. Also affects bows and spells.\n<br />\n<br />[center][img]http://i.imgur.com/IPr8CSd.gif[/img][/center]\n<br />\n<br />[color=#FF9933][u]Compatibility:[/u][/color]\n<br />It's only one File: \"_1stPersonskeleton.nif\"\n<br />As long as you don't use a mod which has it's own \"_1stPersonskeleton.nif\" you can use it without interfering in other mods.\n<br />\n<br />\n<br />[color=#FF9933][u]Installation:[/u][/color]\n<br />Use Nexus Mod Manager or install manually - Unzip and copy the meshes folder to your \"Skyrim -&gt; Data\" installation (example: \"C: -&gt; Program Files (x86) -&gt; Steam -&gt; steamapps -&gt; common -&gt; Skyrim -&gt; Data\").\n<br />\n<br />\n<br />[color=#FF9933][u]Made for these FOV settings:[/u][/color]\n<br />[color=#696969][i](You don't have to change them for the mod to work)[/i][/color]\n<br />\n<br />(example: \"C: -&gt; Users -&gt; XXXX -&gt; Documents -&gt; My Games -&gt; Skyrim\")\n<br />\n<br />in SkyrimPrefs.ini:\n<br />[code][General]\n<br />fDefaultFOV=65[/code]\n<br />\n<br />in Skyrim.ini:\n<br />[code][Display]\n<br />fDefaultWorldFOV=90\n<br />fDefault1stPersonFOV=60[/code]\n<br />\n<br />To refresh your FOV ingame, open the 4 way menu (Skills, Items, Map, Magic) once.\n<br />\n<br />[color=red]NOTE[/color] that WorldFOV represents the FOV in 3rd person mode as well as 1st person mode. The name 1stPersonFOV is kinda misleading. It ONLY represents how your arms and weapons will look like and doesn't affect the view of the world in 1st person mode. DefaultFOV represents the UI.\n<br />\n<br />\n<br />[color=#FF9933][u]Changelog:[/u][/color]\n<br />Version 2.1:\n<br />- Added screenshots to the selections for Nexus Mod Manager\n<br />\n<br />Version 2.0:\n<br />- Completely reworked the mechanism used for lowering the weapons\n<br />\n<br />Version 1.5:\n<br />- Adjusted the camera to avoid clipping issues when looking down\n<br />- Updated the description",
+  "categoryId": "78",
+  "version": "2.1",
+  "author": "Lazyleader",
+  "createdUnix": "1352656324",
+  "updatedUnix": "1397986826",
+  "containsAdultContent": false,
+  "uploadedBy": "LayZeaLod",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "99111",
+      "name": "Lower 1st Person Weapons V1_5 by Lazyleader",
+      "version": "1.5",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "27",
+      "fileName": "Lower 1st Person Weapons V1_5 by Lazyleader-26764-1-5.zip",
+      "uploadedUnix": "1352758884",
+      "modVersion": "1.5",
+      "virusScanUrl": "https://www.virustotal.com/file/8aefc82456fe09e339caefd87d0e81aa58130701c3d0877f131b68a7d92b7f09/analysis/1407260765/",
+      "changelogHtml": " Adjusted the camera to avoid clipping issues when looking down <br/> \n Updated the description <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lower%201st%20Person%20Weapons%20V1_5%20by%20Lazyleader-26764-1-5.zip?fid=99111&ttl=1535799054&ri=8192&rs=8192&setec=49ecbcc64453e818d74eca71798be0ae"
+    },
+    {
+      "fileId": "1000105728",
+      "name": "Lower 1st Person Weapons V2_1 by Lazyleader",
+      "version": "2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1497",
+      "fileName": "Lower 1st Person Weapons V2_1 by Lazyleader-26764-2-1.zip",
+      "uploadedUnix": "1397986826",
+      "modVersion": "2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/685a3d2e66b1a98b772c0f861595f2676dd3c34aa25d3da4212425553f333158/analysis/1408031045/",
+      "changelogHtml": " Added screenshots to the selections for Nexus Mod Manager <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lower%201st%20Person%20Weapons%20V2_1%20by%20Lazyleader-26764-2-1.zip?fid=1000105728&ttl=1535799055&ri=8192&rs=8192&setec=fdac899e97aea2d28caa451edc16de1f"
+    }
+  ]
+}

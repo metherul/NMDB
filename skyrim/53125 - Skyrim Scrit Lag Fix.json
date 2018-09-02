@@ -1,0 +1,15 @@
+{
+  "modId": 53125.0,
+  "modName": "Skyrim Scrit Lag Fix",
+  "summary": "Stuff started happening after i installed a lot of mods. So i started googling stuff. This Fixes some stuff.",
+  "descriptionHtml": "Have you ever thought \r<br />~&#34;Hmmm Why is Dynavision making everything blurry&#34;\r<br />~&#34;Why does my vampire waits a second after i pressed feed&#34;\r<br />~&#34;Why can&#39;t i place buildings properly when playing Tundra Defense&#34;\r<br />~&#34;Why is it when npc&#39;s finished talking the dialog box wont close and you have to press the [TAB] button&#34;\r<br />\r<br />Well guys i found this little fix that fixes our grudges.\r<br />\r<br />Just simply put this in your [b]SKYRIM.INI[/b] file.\r<br />Anywhere, any order.\r<br />\r<br />[Papyrus]\r<br />fUpdateBudgetMS=800\r<br />fExtraTaskletBudgetMS=800\r<br />fPostLoadUpdateTimeMS=2000\r<br />iMinMemoryPageSize=256\r<br />iMaxMemoryPageSize=512\r<br />iMaxAllocatedMemoryBytes=2457600\r<br />\r<br />\r<br />Viola Problem solved.\r<br />Found using google. Not My work. I do not claim this as my own. \r<br />\r<br />\r<br />",
+  "categoryId": "39",
+  "version": "vNotEvenAVersion",
+  "author": "Anon Google SkyrimCommunity",
+  "createdUnix": "1397865675",
+  "updatedUnix": "1397865675",
+  "containsAdultContent": false,
+  "uploadedBy": "Zachriel",
+  "primaryFile": null,
+  "files": []
+}

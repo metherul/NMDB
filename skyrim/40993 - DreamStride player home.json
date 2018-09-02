@@ -1,0 +1,48 @@
+{
+  "modId": 40993.0,
+  "modName": "DreamStride player home",
+  "summary": "An unusual but comfortable and convenient player home, floating in a colorful void and accessible only through a special book.",
+  "descriptionHtml": "The quest Waking Nightmare requires you to find a book, The Dreamstride.  It turns out there is more to this book than meets the eye.  Once the quest is over, reading the book anywhere in Tamriel will bring the player to DreamStride, an interesting player home built by the Dwemer eons ago, floating in a colorful void somewhere in Oblivion.  Or maybe Sovngarde.  Or maybe somewhere else entirely.\r\n\r\nAll the usual creature comforts are present, including LOTS of storage, weapons racks, and mannequins, but also a few unusual luxuries.  I will leave them to you do discover.\r\n\r\nDoes not require any DLC.  Shouldn\\'t conflict with anything that does not change the book The Dreamstride.  \r\n\r\n[color=red]UPDATING from version 1 to 2:[/color]\r\n\r\nBeing a fool, I renamed the scripts in v2 for consistency.  This is proving to be a problem to those who used version 1, causing the book to no longer send you to Dreamstride.  Here is the solution:\r\n\r\n1. Open the console, and enter [color=red]player.removeitem 9de3d 1[/color]\r\n2. Close the console, wait a second or two (probably not necessary)\r\n3. Open the console, and enter [color=red]player.additem 9de3d 1[/color]\r\n4. Close the console and read the book.\r\n\r\nThis will remove the book from your inventory, and then add a new copy with the link to the new script.  I\\'m working on a fix so that this won\\'t be necessary.  (No one has reported this, but you may find that the automatic doors are no longer automatic.  I\\'m working on that too.) \r\n\r\n",
+  "categoryId": "67",
+  "version": "2",
+  "author": "Gizmologist",
+  "createdUnix": "1377483058",
+  "updatedUnix": "1378001936",
+  "containsAdultContent": false,
+  "uploadedBy": "gizmologist",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000049603",
+      "name": "DreamStride Player Home",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "21",
+      "fileName": "DreamStride Player Home-40993-1-0.zip",
+      "uploadedUnix": "1377482673",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f2018d387c462ba5b3b7d3a464fde039f4314de4ea858c731d0ca33271061173/analysis/1407696783/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DreamStride%20Player%20Home-40993-1-0.zip?fid=1000049603&ttl=1535821712&ri=8192&rs=8192&setec=7bfea73bdb1398846e64d0619106fbe4"
+    },
+    {
+      "fileId": "1000051269",
+      "name": "DreamStride Player Home v2",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "36",
+      "fileName": "DreamStride Player Home v2-40993-2.zip",
+      "uploadedUnix": "1378001936",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/1472e725f9ef1613336ff65d08a1827d14578db4eb377c65559e8a3eba2e7406/analysis/1407704345/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DreamStride%20Player%20Home%20v2-40993-2.zip?fid=1000051269&ttl=1535821713&ri=8192&rs=8192&setec=91de1c4f57555a6a1ef65e3ac8d87ee2"
+    }
+  ]
+}

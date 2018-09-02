@@ -1,0 +1,32 @@
+{
+  "modId": 74547.0,
+  "modName": "Silver-Blood Inn lighting fix for RRR_ELFX-Patch",
+  "summary": "Brightens up the Silver-Blood Inn for people using the RRR_ELFX-Patch with an ENB, such as SR:LE users.",
+  "descriptionHtml": "If you are using Realistic Room Rental Enhanced with ELFX and an ENB and have installed the RRR-ELFX patch (as anyone installing SR:LE does) you may have noticed that the Silver-Blood Inn is awfully dark.   This is because the RRR_ELFX-Patch removes 4 light sources added by ELFX, in order to prevent flickering caused by RRRE&#39;s addition of a light source by the Hearthfire oven (ultimately caused by the Skyrim&#39;s engine rule-of-4 limit for light sources casting shadows).  While that certainly solves the flickering problem, and probably works fine with all the ambient light provided by vanilla lighting, it totally doesn&#39;t work with *my* ENB setup.\r<br />\r<br />An alternative solution, which this mod implements, is to disable the new RRR light source and keep the ELFX ones.  With my ENB, this allows me to actually *see* things in the Silver-Blood inn again, without needing to use a lantern.   Given that other people installing SR:LE probably have the same problem, I&#39;ve uploaded my fix for general use.\r<br />\r<br />Requirements:  Realistic Room Rental Enhanced and Enhanced Lights and FX.   The RRR_ELFX-Patch is not required, and if not present, this mod will actually fix flickering problems around the baking oven in the back left corner.\r<br />\r<br />Installation:  As with any mod.  Use the mod manager of your choice to add its esp into your data folder.\r<br />\r<br />Load Order:  Make sure &#39;Silver-Blood Inn lighting fix for RRR_ELFX-Patch.esp&#39; loads after &#39;RRR_ELFX-Patch.esp&#39;.  I highly recommend adding a LOOT rule to this effect.\r<br />\r<br />Merging:  Do it&#33;  This mod is so small, it doesn&#39;t deserve its own esp.  Please use Merge Plugins to merge it into into your personal conflict resolution mod, and then uninstall this mod&#39;s esp.\r<br />\r<br />Compatibility:  Extremely high.   Should work with anything, so long as you load it after the RRR_ELFX-Patch.esp.\r<br />\r<br />Uninstallation:  No problems - just remove it from your load order.   It does not affect any scripts or other objects baked into a save game.\r<br />\r<br />Permissions:  Please feel free to distribute this patch and merge it into other mods as you will.  In fact, I *hope* this patch gets merged into larger lighting patches&#33;",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "GalenZ",
+  "createdUnix": "1459206973",
+  "updatedUnix": "1459205411",
+  "containsAdultContent": false,
+  "uploadedBy": "GalenZ",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000200948",
+      "name": "Silver-Blood Inn lighting fix for RRR_ELFX-Patch",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Silver-Blood Inn lighting fix for RRR_ELFX-Patch-74547-1-0.7z",
+      "uploadedUnix": "1459205411",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1549a41a326c6994c4462134f7229631e2da77502c39fcbb7e41163b9f2acbcd/analysis/1459205463/",
+      "changelogHtml": " Initial version.  Re-enabled lights added by ELFX, disabled light added by RRRE. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Silver-Blood%20Inn%20lighting%20fix%20for%20RRR_ELFX-Patch-74547-1-0.7z?fid=1000200948&ttl=1535863369&ri=8192&rs=8192&setec=f08ffe4fac002358d40c66e2e8711bed"
+    }
+  ]
+}

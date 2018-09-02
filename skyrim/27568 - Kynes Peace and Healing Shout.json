@@ -1,0 +1,32 @@
+{
+  "modId": 27568.0,
+  "modName": "Kynes Peace and Healing Shout",
+  "summary": "This mod changes only the Kynes Peace shout.  It adds a health/stamina restore effect to the shout and adjusts the shout timer for balance purposes.",
+  "descriptionHtml": "This is a very basic mod that turns Kynes Peace (a shout I never used more than a couple times in my over 400 hours of playing) into a restoration shout.\r<br />\r<br />I decided to make this mod because I am playing a character that I would prefer to not use potions or magic for my healing purposes.  I also chose to modify Kyne&#39;s peace because I think it balances my game to require spending the dragon souls to acquire a healing shout, and also gives more use to the shout itself.\r<br />\r<br />The shout was modified as follows:\r<br />\r<br />1st word - 20 second cooldown.    90 health and 40 stamina restored\r<br />\r<br />2nd word - 30 second cooldown.  120 health and 70 stamina restored\r<br />\r<br />3rd word - 40 second cooldown.  200 health and 300 stamina restored\r<br />\r<br />The shout description was modified to: &#34;Your voice soothes wild beasts while restoring health and stamina.&#34;\r<br />\r<br />The spells changed to modify the shouts are:\r<br />\r<br />VoiceKynesPeace1\r<br />VoiceKynesPeace2\r<br />VoiceKynesPeace3\r<br />\r<br />The only modification done to these spells was an addition of 2 existing magic effects:\r<br />\r<br />AlchRestoreHealth\r<br />AlchRestoreStamina\r<br />\r<br />No scripts are added to the game, no items or characters are added to the game.\r<br />\r<br />This shout modifier should be compatible with other shout mods, just make sure it is loaded after your other shout mods.",
+  "categoryId": "104",
+  "version": "1",
+  "author": "Dirtfoot84",
+  "createdUnix": "1354219860",
+  "updatedUnix": "1354219913",
+  "containsAdultContent": false,
+  "uploadedBy": "dirtfoot84",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "102256",
+      "name": "Kynes Healing Peace shout modifier",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Kynes Healing Peace shout modifier-27568-1.rar",
+      "uploadedUnix": "1354219913",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/90bea5a1912d45fe0a18c157dbcf583908b9f228ac17182d93d463435c9d708e/analysis/1407284588/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Kynes%20Healing%20Peace%20shout%20modifier-27568-1.rar?fid=102256&ttl=1535800387&ri=8192&rs=8192&setec=1a1c81ea5db5338bab8d908c53ff9591"
+    }
+  ]
+}

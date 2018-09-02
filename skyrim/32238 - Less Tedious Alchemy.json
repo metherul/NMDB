@@ -1,0 +1,48 @@
+{
+  "modId": 32238.0,
+  "modName": "Less Tedious Alchemy",
+  "summary": "A simple one-tree perk overhaul for Alchemy. Take a look&#33;",
+  "descriptionHtml": "Changelog:\r<br />1.2: A minor fix for--and another rank added to, as well as a rebalance of the effects of--Concentrated Poison, which has been renamed &#34;Skillful Poisoner&#34;.\r<br />1.1: Removed unnecessary Dawnguard dependency. \r<br />\r<br />\r<br />The purpose of this simple mod, as the name suggests, is to make alchemy less tedious. The changes are minor but gratifying. \r<br />\r<br />[b]CHANGES:[/b]\r<br />\r<br />1. Experimenter&#39;s effects are added to rank 1, 3, and 5 of the base Alchemist perk. You will now discover two ingredient effects by eating an ingredient with Alchemist Rank 1, three with Alchemist Rank 3, and all four with Alchemist Rank 5. This is of course in addition to the standard bonus to potion effectiveness that these perks give.\r<br />\r<br />The reasoning behind this is that Experimenter is the lamest waste of three perk points available in the game. You can discover all the effects available without bothering to take it. If you DO invest the points, once you&#39;ve discovered all the effects it no longer provides any kind of benefit at all. This change promotes organic play and learning the effects &#34;as you go&#34; without the waste of perks.\r<br />\r<br />2. Experimenter is changed to a new perk, Efficiency. This perk has an effect similar to the quest perk &#34;Sinderion&#39;s Serendipity&#34;, which gives you a chance to brew a bonus, identical potion every time you make one. That perk had a base chance of 25%. I made Efficiency 20%, and also edited the aforementioned quest perk to be 20% as well, since these perks will stack. Efficiency has only one rank.\r<br />\r<br />3. Concentrated Poison and Green Thumb now have extra ranks. This was done because it fits with the &#34;less tedious&#34; theme: Harvesting your own ingredients in Skyrim for alchemy is a time consuming process, as is the CONSTANT re-application of poison (and the sheer amount of poison you&#39;ll be carrying if you rely on it for damage) if poison is your thing.\r<br />\r<br />3a. Currently there is a single extra rank (so two total, from 1 vanilla rank) in Green Thumb, which allows you to triple the &#34;base&#34; ingredients gathered.\r<br />\r<br />3b. Concentrated Poison has been renamed to Skillful Poisoner. This was done because it affects poisons the player didn&#39;t make, so from a logical standpoint it&#39;s not a matter of the poison being &#34;concentrated&#34;. It must be a matter of skilled application instead then, right? I freely admit this is an arguable point. I made the mod though, so deal with it&#33; :)\r<br />\r<br />Skilled Poisoner has 3 ranks (from 1 vanilla rank), each of which adds two additional poison strikes per poison use. Assuming you had otherwise vanilla poison values, you&#39;ll have a single poison strike per poison unperked, three with rank 1, five with rank 2, and seven with rank 3. This is five more total poison strikes than a vanilla player with the vanilla Concentrated Poison perk. Feel free to limit yourself to 1-2 ranks in Skilled Poisoner if you feel seven poison strikes per poison vial is too much. The reason for this change is because the more I thought about it, the less sense a very small number of poison &#34;hits&#34; per application made. Compare smithing: It adds a greater total damage increase to a weapon permanently. Relative to this, poisons that last for quite a bit longer than anything possible in the vanilla game is still quite balanced. It&#39;s also very useful for people using mods that limit the number of potions/poisons the player can have in inventory, which several that I know of do, either as part of an encumbrance overhaul or for the express purpose of fixing the somewhat broken &#34;unlimited instant potion healing&#34; of vanilla Skyrim.\r<br />\r<br />As a side note, this fixes a vanilla &#34;bug&#34; I became aware of since the last update to this mod, involving the vanilla Concentrated Poison perk. I hesitate to even call it a bug, because it&#39;s the sort of thing that can only cause problems with mod interaction. Basically, the way the perk was designed, it would override any other method of changing the number of poisoned &#34;hits&#34; per poison used. I changed the perks to &#34;add&#34; to rather than &#34;set&#34; the poison hit global value. This avoids mod compatibility issues. You can use a mod that changes the standard poison charges, and taking the Skilled Poisoner perks will simply increase whatever that number is, now. Previously this didn&#39;t work (with or without this mod). \r<br />\r<br />Things this mod doesn&#39;t do you might have expected:\r<br />\r<br />Make leveling alchemy faster. Go download the [url=http://skyrim.nexusmods.com/mods/1175]Community Uncapper[/url] if you want to change the skill increase rate. The point here wasn&#39;t to make leveling alchemy to max easier, it was to make using alchemy for your own potions and poisons less annoying, particularly if you want to collect your own ingredients.\r<br />\r<br />Change the skill TREE (or the Alchemy skill AV) at all. This was done for compatibility purposes. &#34;Efficiency&#34; is the same FormID as the first rank of Experimenter - I edited the perk, I didn&#39;t replace it. My other additions are bonus ranks or changes to existing perks, which don&#39;t go into the skill tree at all. This means that mods that do change the skill tree, add extra perks to alchemy, etc., are fully compatible as long as they don&#39;t change the same vanilla perks I&#39;ve edited.\r<br />\r<br />Fix the alchemy/restoration loop. It&#39;s not something people do by accident; if you want to break your game balance, I won&#39;t stop you.\r<br />\r<br />[b]IMPORTANT NOTE FOR INSTALLATION:[/b]\r<br />If you install this mod on a game in progress where the character already has the Experimenter perk, only the first rank is altered. The second and third rank are wasted points, and also will conflict with the new effect of the Alchemy first. It would be wise to remove those two perk ranks via the console, which can be safely done before or after installing this mod.",
+  "categoryId": "94",
+  "version": "1.2",
+  "author": "Tyrthyllanos",
+  "createdUnix": "1361612917",
+  "updatedUnix": "1409076498",
+  "containsAdultContent": false,
+  "uploadedBy": "tyrthyllanos",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000025901",
+      "name": "LessTediousAlchemyV1_1",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "LessTediousAlchemyV1_1-32238-1-1.rar",
+      "uploadedUnix": "1366653599",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/ec22661d0c5f3cdbb914d74a6b545d174d215d15783426398afa3f6cc762242c/analysis/1407535025/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LessTediousAlchemyV1_1-32238-1-1.rar?fid=1000025901&ttl=1535808474&ri=8192&rs=8192&setec=1b4b80955c7095986e4a5a6cc16a5a55"
+    },
+    {
+      "fileId": "1000124029",
+      "name": "LessTediousAlchemyV1_2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "LessTediousAlchemy-32238-1-2.zip",
+      "uploadedUnix": "1409076498",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/0ba22bf82be00514816b932a559dea5200e358cbd00a33e61fd2cc5761b70bf6/analysis/1409076602/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LessTediousAlchemy-32238-1-2.zip?fid=1000124029&ttl=1535808475&ri=8192&rs=8192&setec=8e988462fdb8966b59a2d428554f0aef"
+    }
+  ]
+}

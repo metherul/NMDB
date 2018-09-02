@@ -1,0 +1,32 @@
+{
+  "modId": 7600.0,
+  "modName": "Blades Sword Sheath fix for NPCs",
+  "summary": "Now the Blades sword and a few others will have a sheath when worn by NPCs. ",
+  "descriptionHtml": "For some reason sheaths wont show up on npcs for certain weapons, so I\\'ve attempted to make a quick fix for that problem. \r\n\r\nI noticed that when equipped by npcs, the Blades sword didn\\'t have a sheath. Well, to fix that I took the ebony sword file and changed it to look like the Blades sword. Its not the best fix, and I\\'m not very good at modding, but it works for me and someone else might find it useful.\r\n\r\nIf I find any problems Ill try to fix it if I can. I\\'m hoping someone else will make a better version of this fix if possible.\r\n\r\nWeapons fixed so far:\r\nBlades Sword\r\nDawnbreaker\r\nDwarven\r\nNightingale\r\n\r\nManual Install:\r\n\r\nJust drag and drop the meshes folder into your Data folder(C:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data) and when it asks you to override, click yes/ok. It should replace the bladessword.nif and other files so if you already have a mod that alters that file, you should probably rename it(I like to put ORIG before the file name).\r\n\r\nUninstall:\r\n\r\nNavigate to the Meshes folder folder (C:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data\\\\meshes\\\\weapons\\\\akaviri) and delete bladessword.nif. That should set things back to normal. And if you just renamed the original file, just rename it back after you delete the new one. :)\r\n\r\nCompatibility:\r\n \r\nProbably wont work right with anything else that replaces the vanilla blades sword files. \r\n\r\nCredits:\r\n\r\nTo Bethesda for making the file and Skyrim originally and to the creators of NifSkope for making that amazing utility.  ",
+  "categoryId": "95",
+  "version": "1.2",
+  "author": "Shank",
+  "createdUnix": "1328160898",
+  "updatedUnix": "1347686372",
+  "containsAdultContent": false,
+  "uploadedBy": "Shank",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "88530",
+      "name": "Missing Sheath Fix for NPCs",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "247",
+      "fileName": "Missing Sheath Fix for NPCs-7600-1-2.zip",
+      "uploadedUnix": "1347686372",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/5475d2c7318b13c92e8782eea1199109a6b5143ff63adf9deb681dcb07f4f303/analysis/1407166266/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Missing%20Sheath%20Fix%20for%20NPCs-7600-1-2.zip?fid=88530&ttl=1535765763&ri=8192&rs=8192&setec=1ea5508e275edb0bbd6db8b61b8b98b9"
+    }
+  ]
+}

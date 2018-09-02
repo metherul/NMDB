@@ -1,0 +1,48 @@
+{
+  "modId": 12916.0,
+  "modName": "Clean HighResTexturePack DLC Fix",
+  "summary": "This batch file lets you clean up your HighResTexturePacks, and removes all buggy and unused junk files.",
+  "descriptionHtml": "[size=\\\"3\\\"][color=red]This file is outdated and no longer supported. I don\\'t play Skyrim anymore. Go here to find a newer version: [url=http://skyrim.nexusmods.com/downloads/file.php?id=14719]HighResTexturePack DLC Tweaks[/url].\r\nFull rights to everything is given to my real life friend Eiwyn.[/size][/color]\r\n\r\n\r\nThis is a small command file that lets you clean up Bethesdas HighResTexturePack, using files from the excellent [url=http://skyrim.nexusmods.com/downloads/file.php?id=8236]HD Textures DLC Fix[/url]. After cleaning, you do not need any extra BSA or loose files to fix the problems with HighResTexturePack01.bsa and HighResTexturePack02.bsa. They will contain only replacement files for Skyrim - Textures.bsa and nothing else.\r\n\r\n\r\n1. Download [color=cyan]HD Texture DLC Fix v1.3b Loose Files[/color] from [url=http://skyrim.nexusmods.com/downloads/file.php?id=8236]HD Textures DLC Fix[/url] and extract the archive to a new folder.\r\n2. Use [url=http://fallout3.nexusmods.com/downloads/file.php?id=34]FO3 Archive Utility[/url] to extract your [color=cyan]HighResTexturePack01.bsa[/color] to a new folder.\r\n3. Extract your [color=cyan]HighResTexturePack02.bsa[/color] to another folder.\r\n4. Download and extract my batch file.\r\n5. Edit my batch file and change the first 3 lines so that they match your paths.\r\n6. Run the batchfile. I have added annoyingly many pauses so that you can watch and verify that everything works.\r\n7. Use [url=http://fallout3.nexusmods.com/downloads/file.php?id=34]FO3 Archive Utility[/url] to rebuild your new BSAs.\r\n\r\n\r\nThe first 3 lines in [color=cyan]Clean_HighResTexturePack_DLC_Fix.cmd[/color] might seem confusing. I use a ramdisk F: with a folder \\\\bsa as working area. When I extract archives (bsa or 7z) I name the folders same as the archive. This is why the first 3 lines looks like this:\r\n\r\n[code]subst m: \\\"f:\\\\bsa\\\\HighResTexturePack01\\\\textures\\\"\r\nsubst n: \\\"f:\\\\bsa\\\\HighResTexturePack02\\\\textures\\\"\r\nsubst o: \\\"f:\\\\bsa\\\\HD_Texture_DLC_Fix_v1_3b_Loose_Files-8236\\\\textures\\\"[/code]\r\n\r\nYou may of course extract your archives to any folder, but you have to paste in the full paths, ending with [b]\\\\textures[/b]\r\n\r\n[code]subst m: \\\"<your path for extracted HighResTexturePack01.bsa goes here>\\\\textures\\\"\r\nsubst n: \\\"<your path for extracted HighResTexturePack02.bsa goes here>\\\\textures\\\"\r\nsubst o: \\\"<your path for extracted HD_Texture_DLC_Fix_v1_3b_Loose_Files-8236.7z goes here>\\\\textures\\\"[/code]\r\n\r\nIf you extract to desktop, then your paths might be something like this:\r\n\r\n[code]subst m: \\\"C:\\\\Users\\\\Name\\\\Desktop\\\\HighResTexturePack01\\\\textures\\\"\r\nsubst n: \\\"C:\\\\Users\\\\Name\\\\Desktop\\\\HighResTexturePack02\\\\textures\\\"\r\nsubst o: \\\"C:\\\\Users\\\\Name\\\\Desktop\\\\HD_Texture_DLC_Fix_v1_3b_Loose_Files-8236\\\\textures\\\"[/code]\r\n\r\n\r\n\r\nFor more info about the BSAs, see this fine thread by Brumbek:\r\nhttp://forums.bethsoft.com/topic/1343691-info-detailed-analysis-of-highres-pack-click-to-learn/",
+  "categoryId": "39",
+  "version": "1.1",
+  "author": "PatrikBeson",
+  "createdUnix": "1331753792",
+  "updatedUnix": "1331803233",
+  "containsAdultContent": false,
+  "uploadedBy": "PatrikBeson",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "43346",
+      "name": "Clean HighResTexturePack DLC Fix - old",
+      "version": "",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Clean HighResTexturePack DLC Fix - old-12916.7z",
+      "uploadedUnix": "1331754704",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/deada579752300053df227ba43bfc48b208aa5e08ba7206f06a99529d22b80d5/analysis/1406749146/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Clean%20HighResTexturePack%20DLC%20Fix%20-%20old-12916.7z?fid=43346&ttl=1535775231&ri=8192&rs=8192&setec=5dbfaa68fafe19bffcc0cfd61b68a999"
+    },
+    {
+      "fileId": "43540",
+      "name": "Clean HighResTexturePack DLC Fix v1_2",
+      "version": "1.2",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Clean HighResTexturePack DLC Fix v1_2-12916.7z",
+      "uploadedUnix": "1331803233",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/ea42c9170a33fbb5a002c2e047a295fdd35789328455dcebe1da5d0ba8210f9f/analysis/1406749987/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Clean%20HighResTexturePack%20DLC%20Fix%20v1_2-12916.7z?fid=43540&ttl=1535775232&ri=8192&rs=8192&setec=12374906ae86d13902b5c0e12681acdc"
+    }
+  ]
+}

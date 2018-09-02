@@ -1,0 +1,48 @@
+{
+  "modId": 21133.0,
+  "modName": "How to add and unlock unavalible shouts without using psb console code",
+  "summary": "A short tutorial on how to add and unlock unavailable shouts using console (for example, Alduin meteor shower and the Afflicteds \\\"puke\\\"-attack Vile Vapor).",
+  "descriptionHtml": "Update:\r\nAdded a bat file for the vile vapor shout. Place in your main Skyrim folder, same folder as the .exe file. Use by open the console in Skyrim and type \\\"bat vapor\\\" without the quotations. This will add the vile vapor shout (used by the Afflicted) and make it unlockable using a dragonsoul.\r\n\r\nBackground:\r\nWhen I first encountered the Afflicted I knew I also wanted to be able to use their \\\"Vile Vapor\\\" shout. Adding it to my shout list was no problem, I just typed \\\"help Vapor\\\" and then typed the console command \\\"player.addshout xxxxxxx\\\". However, I couldn\\'t unlock it with dragon souls so I couldn\\'t use it. I tried searching for a solution but found nothing that could help me, everyone just said \\\"use console command \\\"psd\\\" and it works\\\". Yes, it works, but you also get hundreds of spells and close to a hundred new shouts as well that pollutes your spellbook.\r\n\r\nSo I started looking in the creation kit. I couldn\\'t successfully add normal shout words to it and get it to work (for example FUS or DAH) and I couldn\\'t make a functional copy of the damned spell or the shout. \r\n\r\nHow to do it:\r\n\r\nThis is how I finally solved it, and it\\'s so simple I wonder why I didn\\'t try it from the beginning instead of cursing and kicking the computer (would have saved my a lot of time and spared my foot some pain):\r\n1. Step one\r\nOpen the creation kit\r\n\r\n2. Step two\r\nLocate the shout you want to add (in my case the Vile Vapor which in the creation kit is called DA13AfflictedBreathShout)\r\n\r\n3. Step three\r\nDouble click it and look at what words that shout is using. If you look at the Unrelenting Force shout you would see that it uses the FUS, RO and DAH words. In the Vile vapor case it\\'s \\\"WordDragonFire01\\\".\r\n\r\n4. Step four\r\nOpen up Skyrim, add the shout via console, using the command \\\"help [name of shout]\\\" (without the []). Add it using the command \\\"player.addshout [shout id]\\\". Then do the same thing but for the words the shout uses, in Vile Vapor case that would be:\r\n\r\n1. \\\"Help Vapor\\\" \r\n2. \\\"player.addshout 01000d62\\\" \r\n3. \\\"help Dragonfire\\\" \r\n4. \\\"player.teachword 00252c3\\\"\r\n5. Unlock the shout using a dragon soul\r\n6. Done!\r\n\r\nAfter doing that I was able to unlock and use the shout. However I also got an additional shout via learning the word \\\"dragonfire01\\\". But hey, it still beats learning 87 new shouts just to unlock one!\r\n\r\nI hope this was helpful.\r\n\r\nThe tutorial is available as a txt file as well in case you want to have it close at hand or be able to endorse this tutorial.",
+  "categoryId": "40",
+  "version": "1.0",
+  "author": "Arke91",
+  "createdUnix": "1343325435",
+  "updatedUnix": "1343401028",
+  "containsAdultContent": false,
+  "uploadedBy": "Arke91",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "76752",
+      "name": "Unlock shouts",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Unlock shouts-21133-1-0.zip",
+      "uploadedUnix": "1343328482",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/96cb8855307d9efea1024854fd28f8867a816e1afc0472dc8b3f71a3dab99ae4/analysis/1407047703/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Unlock%20shouts-21133-1-0.zip?fid=76752&ttl=1535789717&ri=8192&rs=8192&setec=1956f185c3b0ff798b7f6c8b6f9ec9b2"
+    },
+    {
+      "fileId": "76888",
+      "name": "Vile Vapor bat file",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Vile Vapor bat file-21133-1-0.zip",
+      "uploadedUnix": "1343401028",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/00ed8a5431712e93187fc1c251393e11e82a99783ca721a9af76f7c1f13e904e/analysis/1407049448/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vile%20Vapor%20bat%20file-21133-1-0.zip?fid=76888&ttl=1535789718&ri=8192&rs=8192&setec=41f48b6f9d12afa9911e9694e0306a44"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 89164.0,
+  "modName": "Old Orc Follower",
+  "summary": "Adds a dialogue option to the Old Orc to recruit him as a follower.",
+  "descriptionHtml": "This mod adds a persuade dialogue option to the [url=http://en.uesp.net/wiki/Skyrim:Old_Orc]Old Orc[/url] (the one you encounter along the road and is looking for a Good Death) to recruit him a s follower, so he can find a good death when he joins you on your travels.\r<br />\r<br />Unfortunately, I was unable to test this currently, as my current PC is a bit of a mess and bluescreens when I play Skyrim or any other game for longer than 15 minutes. As a result, this file is [b]highly experimental[/b], and may or may not work. \r<br />\r<br />I also had to use some workarounds, as the &#34;Old Orc&#34; uses a leveled NPC list and therefor cannot get the unique flag, nor a relationship rank with the player. These will be reset to 0, when a game is loaded, \r<br />but at least a rank of 1 is needed to become a follower. So I used a script on game load, which sets the relationshiprank correct again.\r<br />\r<br />Permissions: \r<br />\r<br />This mod is shared with a WML 1.0 Cathedral License.\r<br />You are free to :\r<br />[list]\r<br />[*]Redistribute this work in unmodified form.\r<br />[*]Include this resource within another work\r<br />[*]Modify and redistribute this work\r<br />[/list]So long as you:\r<br />[list]\r<br />[*]Give the author(s) credit.\r<br />[*]link back to this page.\r<br />[*]distribute your mod under the same license.\r<br />[/list]Translations are allowed under the same terms.\r<br />\r<br />Credits:\r<br />\r<br />- skyrimmods subreddit: for giving me ideas\r<br />- Bethesda Softworks: for Skyrim and the ability to mod it\r<br />- the entire modding community: for being awesome&#33; &lt;3",
+  "categoryId": "33",
+  "version": "0.1",
+  "author": "AndrealphusVIII",
+  "createdUnix": "1516796757",
+  "updatedUnix": "1516796757",
+  "containsAdultContent": false,
+  "uploadedBy": "AndrealphusVIII",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000264668",
+      "name": "Old Orc Follower",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "88",
+      "fileName": "Old Orc Follower-89164-0-1.7z",
+      "uploadedUnix": "1516796655",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/214f198a578c6f4ebea23b2c48be408386132624ca65e10158a2e6a2c0f83121/analysis/1516796942/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Old%20Orc%20Follower-89164-0-1.7z?fid=1000264668&ttl=1535878667&ri=8192&rs=8192&setec=30171eaef6a4b982b7547d6a83e3aa27"
+    }
+  ]
+}

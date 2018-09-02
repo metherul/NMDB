@@ -1,0 +1,32 @@
+{
+  "modId": 9055.0,
+  "modName": "Dynamically Increased Walk Speeds",
+  "summary": "Love to walk? Hate the painfully slow default walk speed?\r\nLove to sneak? Hate the unhelpfully slow sneak walk speed?\r\nLove to... prowl? Hate the causal stroll the werewolf walk speed is?\r\n\r\nThen DIWS is for you!",
+  "descriptionHtml": "[B]UPDATE: I AM DROPPING SUPPORT OF THIS MOD:\r\n\r\nParty because doing what I want to do with this mod and have it be bug-free is almost impossible without a script extender (something I cannot use as I don\\'t have C++ coding skills), and party because the Momentum mod does exactly what I wanted this mod to do, and I never even knew it existed...\r\n\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=6679\r\n\r\nSo go check out that mod guys :) It\\'s basically exactly what I wanted to do here except uses Script Dragon it works bug-free. Make sure you adjust the ini settings so the max walk speed is around 200 or so if you want double walk speeds. You can even adjust how fast you walk on the fly by holding down the arrow keys to adjust speed.[/B]\r\n\r\n-\r\n-\r\n-\r\n-\r\n-\r\n-\r\n-\r\n\r\nDynamically Increased Walk Speeds (DIWS) v1.0\r\n\r\nLove to walk? Hate the painfully slow default walk speed?\r\nLove to sneak? Hate the unhelpfully slow sneak walk speed?\r\nLove to... prowl? Hate the causal stroll the werewolf walk speed is?\r\n\r\nThen DIWS is for you!\r\n\r\n---------------------------------------------\r\nDISCRIPTION:\r\n---------------------------------------------\r\n\r\nDIWS increases all walking speeds dynamically, depending on if you are indoors or outdoors. It affects both sneak walking and walking while a werewolf too. Unlike previous non-CK attempts, it DOES NOT affect running or sprinting speeds, and DOES NOT affect NPC movement - only the player\\'s walk speeds are affected.\r\n\r\nAs well as the above, this mod (theoretically) should be compatable with any other speed changing effect in the game, either from an enemy or you (for those days where you just want to run with a SpeedMult at 10000)! Enjoy increased walk speeds, without having to worry about breaking other things.\r\n\r\nDetailed (SLOWER VERSION AVALABLE, SEE OPTIONAL FILE):\r\n\r\nOutdoor walk speed: 110% FASTER THAN DEFAULT\r\n\r\nIndoor walk speed: 75% FASTER THAN DEFAULT\r\n\r\n\r\n---------------------------------------------\r\nInstallation:\r\n---------------------------------------------\r\n\r\n1. Simply extract the Data folder to your Skyrim root folder. \r\n\r\n2. Then, in the Nexus Mod Manager select the \\\"DynamicallyIncreasedWalkSpeeds.esp\\\", or go into the default Skyrim launcher, then Data Files, then select the \\\"DynamicallyIncreasedWalkSpeeds.esp\\\" file. \r\n\r\n3. If you want slower walk speeds, use the ESP file in the \\\"OPTIONAL\\\" folder INSTEAD of the default one.\r\n\r\n\r\n---------------------------------------------\r\nOPTIONALS:\r\n---------------------------------------------\r\n\r\nInstead of the default DynamicallyIncreasedWalkSpeeds.esp, use the \\\"DIWS_Slower.esp\\\" if you don\\'t want the walk speeds to be so fast. This is good if you JUST want to be able to catch upto NPC\\'s in quests, instead of just wanting to walk at a comfortable pace.\r\n\r\nOptional speeds are as follows:\r\n\r\n30% Faster outdoors\r\n25% Faster indoors\r\n\r\n\r\n---------------------------------------------\r\nKNOWN ISSUES:\r\n---------------------------------------------\r\n\r\n- The transition between running from walking (or standing still) may have a slight delay before the speed adjustment kicks in. This is due to how the engine handles the scripting. This effect is almost impossible to notice indoors, however you may notice it outdoors when your framerate is likely to be lower.\r\n\r\n- Uninstalling the mod might cause your characters to still have increased speeds, except globally. Don\\'t panic - the mod didn\\'t break your save game, the game just still thinks you are at the modded speeds, and doesn\\'t check to make sure what you REAL speed setting is until you sneak, use your inventory or sprint. So if you run into that issue, just do one of those three things and you\\'ll be back to normal speed again. I 100% garuntee the mod doesn\\'t ruin or corrupt any settings - everything is managed via a script and hidden spell effects, that all go away when the mod isn\\'t loaded.\r\n\r\n\r\n\r\n---------------------------------------------\r\n\r\n\r\nIf you have bugs or issues, please report them and give me a detailed discription of what was going on :) I\\'d love to be able to try and get this to work as perfect as possible, but I can\\'t unless I get good feedback!",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "KorJax",
+  "createdUnix": "1329009612",
+  "updatedUnix": "1329009862",
+  "containsAdultContent": false,
+  "uploadedBy": "KorJax",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "29267",
+      "name": "Dynamically Increased Walk Speeds",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "18",
+      "fileName": "Dynamically Increased Walk Speeds-9055-1-0.zip",
+      "uploadedUnix": "1329009862",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e989596c6a8827fef4ad46cf5030b84adc213f47e874218b18f664b495b9ac0c/analysis/1406671743/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dynamically%20Increased%20Walk%20Speeds-9055-1-0.zip?fid=29267&ttl=1535768289&ri=8192&rs=8192&setec=1fe2a396d0d8f3780a88a8f2de7a03bf"
+    }
+  ]
+}

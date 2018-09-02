@@ -1,0 +1,32 @@
+{
+  "modId": 12410.0,
+  "modName": "Readable Dragon Alphabet",
+  "summary": "My dear! I can shout \\'em! I know how to pronounce \\'em!",
+  "descriptionHtml": "==========================================\r\n======== Readable Dragon Alphabet ========\r\n============================= ver. 0.1 ===\r\n\r\nAuthor: 175 (ScalyFolk821)\r\nSorry my poor English.\r\n\r\n=== Description\r\n\r\n\\\"Readable Dragon Alphabet\\\" is a single SWF that adds tiny ruby (rubi, or Furigana) to Dragon Alphabets.\r\n- Words of Power in Magic Menu\r\n- Words in HUD when you learned new Word of Power\r\n- And any other dragon alphabets\r\n- Except Dragon Alphabet inscribed on a Word Wall\r\nYou can pronounce Dragon Language a little bit easily, this makes Dragon Alphabet shrinked a bit, though.\r\nFor actual difference, see Images tab.\r\n\r\n\r\n=== Compatibility\r\n\r\n- fontconfig.txt maybe conflicts with other mods altering any kinds of UI fonts\r\n(But you can strike a balance with careful manual installation)\r\n- In too small display resolution (e.g. 640*480), this may be worthless\r\n\r\n\r\n=== Installation\r\n\r\nIf you have NOT installed any other mods altering fonts\r\n\r\n- Install DragonFutura.swf and fontconfig.txt to Skyrim\\\\Data\\\\Interface with Wrye Smash, NMM or manually\r\n\r\n\r\nIf you have any other mods altering fonts...\r\n\r\n- Make a backup copy of fontconfig.txt in Skyrim\\\\Data\\\\Interface\r\n- Install DragonFutura.swf to Skyrim\\\\Data\\\\Interface manually\r\n- Open existing fontconfig.txt with your text editor\r\n- add this line to fontconfig.txt (recommended after last \\\"fontlib ...\\\" line)\r\n\r\nfontlib \\\"Interface\\\\DragonFutura.swf\\\"\r\n\r\n- and, change this line\r\n\r\nmap \\\"$DragonFont\\\" = \\\"Dragon_script\\\" Normal\r\ninto\r\nmap \\\"$DragonFont\\\" = \\\"DragonFutura\\\" Normal\r\n\r\n- save fontconfig.txt\r\n\r\n\r\n=== Uninstallation\r\n\r\n- delete DragonFutura.swf\r\n- delete fontconfig.txt or, restore your backup of fontconfig.txt\r\n\r\n\r\n=== Version History\r\n\r\n2012/03/08 0.1\r\nInitial Release\r\n\r\n\r\n=== Acknowledgements\r\n\r\n- Dragon Alphabet table on UESP (http://www.uesp.net/wiki/Lore:Dragon_Alphabet)\r\n- Great thanks to Bethesda for creating great game Skyrim.\r\n\r\n\r\n=== Permission\r\n\r\nYou can redistribute, change & upload, or use this for other mods, but my permission is required.\r\nFirst of all, find 175 (ScalyFolk821) on Nexus or twitter (https://twitter.com/#!/175_175), and please contact me.",
+  "categoryId": "42",
+  "version": "0.1",
+  "author": "175",
+  "createdUnix": "1331201544",
+  "updatedUnix": "1331201656",
+  "containsAdultContent": false,
+  "uploadedBy": "ScalyFolk821",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "41298",
+      "name": "Readable Dragon Alphabet v01",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "17",
+      "fileName": "Readable Dragon Alphabet v01-12410-0-1.7z",
+      "uploadedUnix": "1331201656",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c83d0be68bbc364f70da299b96236e15d2066bf41a7c1c17686d94a17c5e0399/analysis/1406737394/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Readable%20Dragon%20Alphabet%20v01-12410-0-1.7z?fid=41298&ttl=1535774272&ri=8192&rs=8192&setec=57d781e7ac979e38326dc5035bc6ba7a"
+    }
+  ]
+}

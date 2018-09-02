@@ -1,0 +1,48 @@
+{
+  "modId": 25097.0,
+  "modName": "Blaze Of Eventide",
+  "summary": "Blaze is a fiery horse with following features: true flame effects, fiery footprints, illuminates surroundings, glows at night, follows player, custom summon mechanics and effects, fire damage immunity - fire heals instead, burns attackers, can explode for massive damage (command issued by player). Compatible with Convenient Horses v4.4 horse armor",
+  "descriptionHtml": "[center][img]http://static2.nexusmods.com/110/images/621184-1349535829.jpg[/img]\r\n[youtube]asbbKA-LEfs[/youtube][youtube]QYuguXUfSEo[/youtube][youtube]fznDHs9JGPA[/youtube]\r\n\r\n[b]Check the Videos tab for more reviews.[/b][/center]\r\n\r\n\r\n[heading]Features[/heading]\r\n[list]\r\n[*] True flame effects.\r\n[*] Fiery footprints.\r\n[*] Illuminates surroundings.\r\n[*] Glows at night.\r\n[*] Follows player.\r\n[*] Custom summon mechanics and effects.\r\n[*] Fire damage immunity - fire heals instead.\r\n[*] Fiery avenger (burns attackers).\r\n[*] Can explode for massive damage (command issued by player).\r\n[*] Convenient Horses v4.4 horse armor compatibility.\r\n[/list]\r\n\r\n[heading]Installation:[/heading]\r\n[list=1]\r\n[*] Update Skyrim to 1.8.\r\n[*] Downaload and install using Nexus Mod Manager or manually by extracting the archive to Skyrim\\\\Data folder and activating \\\"Blaze Of Eventide.esp\\\" in Skyrim launcher.\r\n[/list]\r\n\r\n[heading]Uninstallation:[/heading]\r\n[list=1]\r\n[*] Open console and type (StopQuest BOE).\r\n[*] Save the game.\r\n[*] Uninstall the mod.\r\n[/list]\r\n\r\n[heading]Description:[/heading]\r\nBlaze is a summonable fiery horse. Unlike other summons it use custom summoning mechanics in order to make it persistant in the world and compatible with all features from Convenient Horses or any other horse mod. To learn the summoning powers you will have to find a book which is located inside of Drelas\\' Cottage (a small cabin located northwest of Whiterun, west of Hamvir\\'s Rest, south of Morthal, in the vale between the mountains).\r\n\r\nBy reading the book you will learn two powers: \\\"Blaze Summoning\\\" and \\\"Blaze Deployment\\\". These are powers and not spells so use shout button to cast them. Summoning power is used when you want to ride or if used in unrideable zones a configuration menu will show. Deployment power is used to target the enemies ordering Blaze to seek after them and explode for area damage. Deployment can be used once every 5 minutes and cooldown timer can be tracked in active magic effects menu. Both powers can only be used in rideable zones.\r\n\r\nBlaze can explode for massive fire damage. This is initiated by using Blaze Deployment power. When deployed Blaze will start to follow the target, overheat and finally explode. Explosion will deal both isntant and over time fire damage which scale up with every 10 player levels. Ground at the place of explosion will burn for a minute and deal additional fire damage to enemies standing in it. Only enemies will suffer from the explosion.\r\n\r\nBlaze will burn anyone who attacks it using physical weapons and is not too far away. Blaze can be healed by casting any fire damage spell at it or bashing it with a torch.\r\n\r\n\r\n[heading]Compatibility:[/heading]\r\n[list]\r\n[*] Automatic Variants - You must add this mod to AV\\'s block list or Blaze will be assigned normal skin.\r\n[*] Convenient Horses - You must use CH version 4.4 or greater or horse armors will make Blaze invisible (without skin).\r\n[/list]\r\n\r\n\r\n[heading]Translations:[/heading]\r\nPlease make sure that trasnlated versions match.\r\n[url=http://skyrim.nexusmods.com/mods/25195]German[/url]\r\n[url=http://skyrim.nexusmods.com/mods/30617]Spanish[/url]\r\n\r\n\r\n[heading]Credits:[/heading]\r\nAlienSlof for inspiration.\r\nHolugar for modeling assistance.\r\nLorelai for great support.\r\n\r\n[heading]Change Log:[/heading]\r\n[list]\r\nV1.6:\r\n[*] Blaze can now be summoned and deployed in new rideable zones: Fort Dawnguard, Soul Cairn and Solstheim.\r\n[*] Blaze light can now be toggled without the need of resummoning Blaze.\r\n[*] Cleaned up some sound effects.\r\nV1.5:\r\n[*] Added subtle burning sound to Blaze.\r\n[*] Blaze will no longer auto-unsummon if it is not last ridden horse. It will now continue to follow you if follow is enabled or it will stay in current location.\r\n[*] Blaze will now successfully deploy even if relation with target\\'s faction is friendly.\r\n[*] Added missing quest fragment.\r\nV1.4:\r\n[*] All settings can now be tweaked via configuration menu. Config menu will appear when using summoning power for the first time and after that it can be accessed via summoning power while in unrideable locations.\r\n[*] New setting to allow unsummoning instead of resummoning.\r\n[*] Improved deployment mechanics and effects. Using deployment will give visual feedback to see where you were aiming and who has been targeted. Deployment will cost some magicka, will stagger the target shortly, can be used on all actors and is considered a hostile spell. If target cannot be made hostile (ignoring friendly hits) then nothing will happen. Instead of summoning Blaze to a remote location an attempt will be made to send it running after the target. If Blaze is not available, too far away or same target is marked twice then summoning ritual will be performed as usual. Blaze can be instructed to seek another target if it didn\\'t start to overheat and explosion will knock all nearby actors except player.\r\nV1.3:\r\n[*] Extended Blaze Light and Follow settings so it can be auto-toggled while sneaking (set BlazeLight/BlazeFollow to 2).\r\n[*] Improved textures and shader parameters. Lightened the black skin slightly and added red-yellowish hue to it. Tweaks to skin glow minimum and maximum levels so that dark areas glow more while bright areas glow bit less. Lava cracks on the skin will now have more depth and smoother lighting on the edges.\r\n[*] Improved Blaze Light effect. Increased light distance from 72 to 94 feet to make riding at night more pleasant (very useful for darker night mods). Added volumetric glow around Blaze. Blaze is no longer a light source (which prevented it from receiving its own light). Using some NIF tricks light is now casted onto the Blaze and will be dynamically positioned in relation to camera so only the side facing the camera will receive the light which creates the illusion of small ambient light. These changes coupled with texture changes dramatically improve Blaze\\'s appearance at night. Rider should also no longer be in darkness.\r\n[*] Reduced footprint sound volume and sound distance. Zooming out the camera to maximum while riding should eliminate the sound almost completely.\r\n[*] Footprints should now have same intensity as Blaze flames.\r\nV1.2:\r\n[*] Blaze\\'s attacks are now augmented with flames.\r\n[*] Blaze will now follow the player, for those who don\\'t use Convenient Horses. It can be toggled via console (set BlazeFollow to 0/1).\r\n[*] Blaze will now ignore friendly hits and assist player in combat.\r\n[*] Fire healing tweaks. Visual and soud FX will now play on Blaze when being healed with fire. Torch bashing will now heal and not trigger the fiery avenger. Timed diminishing returns to prevent concentration spells like flames from healing more than instant fire effects.\r\n[*] Added screen shake and brightness effect for explosion charge that increases with proximity to the Blaze.\r\nV1.1:\r\n[*] Blaze will now emit light in a 72 feet radius. This feature is enabled by default and can be toggled via console (set BlazeLight to 0/1). Blaze will need to be resummoned for it to take effect.\r\n[*] Increased fiery avenger distance from 10 to 15 feet.\r\n[*] Fixed a typing error in a spell name.\r\nV1.0:\r\n[*] Initial release.\r\n[/list]",
+  "categoryId": "83",
+  "version": "1.6",
+  "author": "Alek",
+  "createdUnix": "1349536315",
+  "updatedUnix": "1360317185",
+  "containsAdultContent": false,
+  "uploadedBy": "mitchalek",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "93896",
+      "name": "Blaze Of Eventide v1_3 Less Glow Patch",
+      "version": "1.3",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "810",
+      "fileName": "Blaze Of Eventide v1_3 Less Glow Patch-25097-1-3.zip",
+      "uploadedUnix": "1350246277",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/77faeaebd0351948d72cf720644db2c44eed4bc63c563280d324bfd875587796/analysis/1407222188/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Blaze%20Of%20Eventide%20v1_3%20Less%20Glow%20Patch-25097-1-3.zip?fid=93896&ttl=1535796448&ri=8192&rs=8192&setec=1582badb855c76270299c4e07aef6a5a"
+    },
+    {
+      "fileId": "1000007976",
+      "name": "Blaze Of Eventide v1_6",
+      "version": "1.6",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "12237",
+      "fileName": "Blaze Of Eventide v1_6-25097-1-6.zip",
+      "uploadedUnix": "1360317185",
+      "modVersion": "1.6",
+      "virusScanUrl": "https://www.virustotal.com/file/70cc86bb70664953b333c2ed4b1834c5ce1ac2777a00bb63b12428b32bea2f33/analysis/1407404324/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Blaze%20Of%20Eventide%20v1_6-25097-1-6.zip?fid=1000007976&ttl=1535796448&ri=8192&rs=8192&setec=372351bfa43ee03ef97742edffeedcdf"
+    }
+  ]
+}

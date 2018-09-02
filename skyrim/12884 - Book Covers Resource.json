@@ -1,0 +1,48 @@
+{
+  "modId": 12884.0,
+  "modName": "Book Covers Resource",
+  "summary": "These are just some modified book covers that I&#39;d created for a personal mod. I&#39;m releasing these as a modders resource. Feel free to use them if you like them.",
+  "descriptionHtml": "Book Covers Resource\r<br />version 1.1\r<br />====================\r<br />by Axhoff\r<br />\r<br />\r<br />These are just some modified book covers that I&#39;ve created for a personal mod. I&#39;m releasing these as a modders resource. Feel free to use them if you like them.\r<br />\r<br />Version 1.1 fixes normal on basicbook01ax0.nif and adds 3 more cover variants to the mix.\r<br />\r<br />\r<br />What this does NOT:\r<br />-------------------\r<br />-It does not replace textures on existing books\r<br />\r<br />-It does not add new books to the game\r<br />\r<br />These are just models and textures, no esp.\r<br />\r<br />\r<br />What&#39;s where?:\r<br />--------------------\r<br />World models -&gt; meshes&#92;clutter&#92;books&#92;\r<br />Statics for Inventory Art -&gt; meshes&#92;clutter&#92;books&#92;book02&#92;Character assets&#92;\r<br />\r<br />Textures -&gt; textures&#92;clutter&#92;books&#92;booksax&#92;\r<br />\r<br />\r<br />Installation:\r<br />----------------\r<br />Copy (or extract) the meshes and textures folder to your Skyrim data folder.\r<br />\r<br />\r<br />Short tutorial that should get you going\r<br />(I assume you know your way around the Creation Kit (CK) and how to change properties of various items esp. books)\r<br />----------------------------------\r<br />\r<br />1) First create a new Static that will be used for the Inventory Art.(You only have to create these once per model/texture.) You will find Static under WorldObjects in the CK.\r<br />\r<br />2) Enter the id for the static. (you&#39;ll use this id in a drop down menu later so make sure it&#39;s unique and you can easily find it) \r<br />\r<br />3) Click on the Edit button next to the model field.\r<br />\r<br />4) Click on the Edit button of the Model Data window, browse to the &#34;meshes&#92;clutter&#92;books&#92;book02&#92;Character assets&#92;&#34;\r<br />folder and choose the book model you want to use. If you receive an error message just click yes or &#39;yes to all&#39;. You should now see the model with its texture as a preview in the window.\r<br />Click OK a couple of times and your new static should be created. \r<br />\r<br />5)Now add your book in the Items section of the Creation Kit\r<br />Either create a new book or change / duplicate an existing one.\r<br />\r<br />7)Give the book an id, name etc. as needed.\r<br />\r<br />8)Change the world art by clicking the edit button next to it. Browse to &#34;meshes&#92;clutter&#92;books&#92;&#34; and choose the world model. This is a low poly version of the book that appears in game (on shelves, floors etc).\r<br />\r<br />9)Choose the corresponding Inventory Art version from the drop down menu. Find the appropriate static created in the first steps (hope you remember the id you gave it).\r<br />\r<br />That should be it. Your book now has a world model and inventory model featuring a new texture.\r<br />\r<br />================\r<br />\r<br />Permission:\r<br />---------------\r<br />You do not have to ask me for permission to use the textures / meshes in your own mod.\r<br />(credit would be nice but not necessary)\r<br />\r<br />All models and textures are created and owned by Bethesda. You are not allowed to use these for other games or modifications other than Skyrim.",
+  "categoryId": "82",
+  "version": "1.1",
+  "author": "Axhoff",
+  "createdUnix": "1331716843",
+  "updatedUnix": "1331809065",
+  "containsAdultContent": false,
+  "uploadedBy": "Axhoff2007",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "43209",
+      "name": "Book Covers Resource",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "5742",
+      "fileName": "Book Covers Resource-12884.rar",
+      "uploadedUnix": "1331716957",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0011656d384c7f2da1afa192c251c3b2f2c94d6e560db5b4b9b32bcb07e666d5/analysis/1406748549/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Book%20Covers%20Resource-12884.rar?fid=43209&ttl=1535775171&ri=8192&rs=8192&setec=ffa0444b90e839b746cfaf16e8931465"
+    },
+    {
+      "fileId": "43556",
+      "name": "Book Covers Resource v1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7911",
+      "fileName": "Book Covers Resource v1_1-12884.rar",
+      "uploadedUnix": "1331809065",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/6fa34926038c0d131c2977d777f9c2e6311bb6af8e751291b69fb83c418c4ca8/analysis/1406750172/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Book%20Covers%20Resource%20v1_1-12884.rar?fid=43556&ttl=1535775171&ri=8192&rs=8192&setec=c6eceeff245cc393e7784f43a14c646b"
+    }
+  ]
+}

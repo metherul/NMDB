@@ -1,0 +1,32 @@
+{
+  "modId": 7256.0,
+  "modName": "BAT Commands v1",
+  "summary": "BAT Files to make life on the range a bit easier.",
+  "descriptionHtml": "This is a small compilation of batch files you can use as console commands, (\\\"~\\\" & \\\"bat mycmds\\\"). They come in pretty handy for the everyday-to-day grind out on the battlefields. Here\\'s a list of the batch files and their use:\r\n\r\n[ul]\r\n[*] cure : Restores Health, Stamina, & Magicka to normal levels\r\n\r\n[*] fast(0 to 2) : Run speed multiplier percentage, (permanent change). fast0 = default, (80), fast1 = 200, fast2 = 400\r\n\r\n[*] find(a, c, i, j, l) : Teleport to your Housecarl : finda = Argis, findc = Calder, findi = Iona, findj = Jordis, findl = Lydia\r\n\r\n[*] gold : add 100,000 gp to player\r\n\r\n[*] hmar : go to Home in MARkard\r\n\r\n[*] hrif : go to Home in RIFten\r\n\r\n[*] hsol : go to Home in SOLitude\r\n\r\n[*] hwin : go to Home in WINdhelm\r\n\r\n[*] hwhi : go to Home in WHIterun\r\n\r\n[*] join(0 to 1) : join0 = Removes all faction affiliations, join1 = Joins ALL factions\r\n\r\n[*] jump(0-2) : Jump height, (temporary change). jump0 = default(100), jump1 = 450, jump2 = 900\r\n\r\n[*] like(-1 to 1) : To change NPC\\'s feelings for you, click on NPC and type:  bat like-1 = Dislike, like0 = default, like1 = Love\r\n\r\n[*] list : This List command\r\n\r\n[*] lring : Makes a gold ring enchanted with candlelight spell.\r\n\r\n[*] marry(0 to 1) : Click on NPC and type: bat marry0 = Divorce wife without killing her and with no negative backlash, marry1 = Makes people love you and adds the  \\\"Interested\\\" Message unless you are married\r\n\r\n[*] marry(a, t) : marrya = Get and Wear Amulet of Mara, marryt = Go to the Temple of Mara, instantly\r\n\r\n[*] perm(a, c, i, j, l) : Make Housecarl Immortal, (permanent) : calla = Argis, callc = Calder, calli = Iona, callj = Jordis, calll = Lydia.\r\n\r\n[*] share : Click on NPC and type: bat share = Show Items, in the console & in-game.\r\n\r\n[*] shout : Adds & Learns all shouts\r\n\r\n[*] smere : Shadowmere appears\r\n[/ul]\r\nExample:\r\n\r\n bat marry0\r\n\r\nDivorce your current wife.\r\n\r\n\r\nInstall: Put the BATCH files into the root directory of your Skyrim game, or in the DATA folder of your Skyrim directory.\r\n\r\nAlso, if you want to use these commands when you first start or in specific situations, you can make your own batch file and add these commands to it. For example, you might do this type this in the notepad:\r\n\r\nbat fast2\r\nbat jump2\r\n\r\n, then save it to your DATA folder as \\\"moveit.txt\\\". I know, some people say you can\\'t use BAT commands inside of BAT files...this just isn\\'t true. They also say to save your BAT files to the root directory, but they work fine in my DATA folder. I put an underscore, (\\\"_\\\"), at the beginning of my BAT files so I can find them easily in the directory, which means I have to type \\\"bat _jump0\\\" instead of \\\"bat jump0\\\", but I\\'m ok with the extra character. On the other hand,I could always list the folder by FILE TYPE.\r\n\r\nHope you enjoy these commands and if you have ideas for others you\\'d like me to make, leave a message for me. Thanks.",
+  "categoryId": "28",
+  "version": "v1",
+  "author": "TonyBalony",
+  "createdUnix": "1327799812",
+  "updatedUnix": "1327878003",
+  "containsAdultContent": false,
+  "uploadedBy": "TonyBalony1960",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "24108",
+      "name": "BAT Files v1",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "BAT Files v1-7256-1.zip",
+      "uploadedUnix": "1327878003",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/6c26ee0da70f77ff4966d2e214b6e24ca1b693d0a8c0b601edb943f10badfdce/analysis/1406644323/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BAT%20Files%20v1-7256-1.zip?fid=24108&ttl=1535765186&ri=8192&rs=8192&setec=c1a58a90a31108e7348419c1f3298041"
+    }
+  ]
+}

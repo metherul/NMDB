@@ -1,0 +1,48 @@
+{
+  "modId": 10205.0,
+  "modName": "Whiteview Manor",
+  "summary": "Whiteview Manor\r\nA House Plug-in by Qutayba\r\nVersion 1.4\r\n\r\nThis mod adds a mid- to late-game house nestled between Chillfurrow and Battle-Born Farms outside the walls of Whiterun.  House is ideal for the character who has everything and wants to show it off.\r\n",
+  "descriptionHtml": "WHITEVIEW MANOR: A HOME FOR THE COLLECTOR\r\nA House Plug-in by Qutayba\r\nVersion 1.4\r\n\r\nThis mod adds a mid- to late-game house nestled between Chillfurrow and Battle-Born Farms outside the walls of Whiterun.  House is ideal for the character who has everything and wants to show it off.\r\n\r\nThere are three ways to begin the quest:\r\n1) Read the Whiteview Manor Notice, which you will find pinned on the doorframe of the Manor.\r\n2) Speak to Bjorn Swifthand the Magistrate, who will usually be in Dragonsreach or the Whiterun Market.\r\n3) Speak to Elric the Farmhand, who will be found on the Manor farm in the daytime and the Bannered Mare at night (or walking between the two).\r\n\r\nI have turned off my spouse compatability scripts in version 1.4: they worked for transferring spouses between this house and vanilla houses, but would not have worked with other custom houses that implemented spouse moving.  Take a look Amgepo & Emma\\'s \\\"Spouses Can Live Anywhere\\\" mod (It technically would have the same problem with other mods that include spouse moving, but it should work with all houses that don\\'t!)  Whiteview Manor 1.4 will be compatible with that mod, but earlier versions will cause problems.  I may re-enable my method of spouse moves if we come up with a solution that lets it work with other custom houses and mods such as theirs.  I thank everyone for their support while we worked on a solution.\r\n\r\nIMPORTANT!: If you\\'ve are already using an older version of my mod and want to add the \\\"Spouses Can Live Anywhere\\\" mod: before you load that mod, update this mod to 1.4 and move your spouse back to a vanilla house.\r\n\r\n\r\nFEATURES:\r\n\r\n+ Architectural framework loosely based on Battle-Born house in Whiterun, but with several distinct modifications\r\n\r\n+ Ample display options including 6 mannequins, 6 scripted bookcases, multiple weapon plaques, scripted and unscripted display cases\r\n\r\n+ Special display options for dragon priest masks\r\n\r\n+ Crafting stations with convenient and labeled storage containers\r\n\r\n+ Short quest to buy manor (it\\'s not cheap) with optional paths for those with the right talents\r\n\r\n+ Hireable live-in farmhand\r\n\r\n+ Small field and stable located outside\r\n\r\n(+ Compatibility with vanilla spouses (see technical note below): DIASBLED IN CURRENT VERSION)\r\n\r\n\r\nINSTALLATION (MANUAL):\r\n\r\n1) The zip file contains:\r\nWhiteview Manor.esp\r\nWhiteview Manor.bsa\r\nWhiteview Manor Readme.txt\r\n\r\n2) Unzipping to your skyrim\\\\Data directory should place the files in the right place.  If not, make sure those three files are placed in your C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data directory.\r\n\r\n3) On the Skyrim Launcher, click Data Files, and make sure that Whiteview Manor.esp is checked.  You\\'re good to go!\r\n\r\nUNINSTALLATION:\r\n\r\n1) IMPORTANT!  Before uninstalling, make sure to save your character outside of the Manor.  Also make sure that any loot and spouses that you want to keep have been moved from the house (get your spouse to move elsewhere).\r\n\r\n2) Unclick the mod from the Data Files in the Launcher, or you can simply delete the three files listed above.\r\n\r\n\r\nTECHNICAL:\r\n\r\nI have manually cleaned this mod of unintentional changes to other cells, but, as with all mods, use at your own risk.  In theory, there should only be conflicts with houses that happen to be placed in the exact same spot!  No vanilla terrain has been changed (other than the navmesh), although there are some landscaping additions outside the house.\r\n\r\nKnown Issue: As many people know by now, there is a NAVMESH BUG, which causes NPC\\'s to be unable to navigate custom navmeshes if the cell is entered multiple times in a single play session.  This would potentially affect spouses that move into the home.  It will not break them, only cause them to stand around and not use the many fun animations I\\'ve built into the house.  They will still follow and interact with you.  This is a Bethesda bug that will hopefully be fixed soon.  It will not affect your character or any of the items displayed in the house.\r\n\r\nKnown Issue: Updating quest mods while your character is saved in the middle of them may cause quest scripts to misfire.  It is better to either start the quest with a clean save (a save with the mod unloaded) or to complete the quest with your current version before updating.\r\n\r\nNOT INCLUDED IN CURRENT VERSION BUT KEEPING IN NOTES: Note on Spouse Compatibility: This current build does not overwrite any vanilla scripts or quests.  This means that your can move your spouse from a vanilla house to this house and from this house back to a vanilla house.  But at present it WILL conflict with any other house mod that implements spouse compatibility by extending RelationshipMarriageSpouseHouseScript.  In testing, load order did not seem to determine which custom house \\\"wins.\\\"  I am working with several people on the Bethesda forums, particularly theconqueror148, who is the author of my current move script, to find a solution that will allow multiple custom houses to have this compatability simultaneously (There\\'s nothing better than mutually compatible compatibility, is there?)  Stay tuned!  If you want to follow the discussion, go to http://forums.bethsoft.com/topic/1351014-adding-spouse-to-new-player-home/\r\n\r\nI have tested this mod thoroughly, but I\\'m only human, so if you discover flaws, let me know!  I apologize for the horrendous voice-acting (yes, it\\'s me).  If this mod achieves enough popularity, perhaps some volunteers with a better recording set-up will offer their talents.\r\n\r\nI hope you enjoy!\r\n\r\n\r\nCHANGES\r\n\r\n1.4\r\n\r\nChanged the master bed ownership to PlayerBedOwnership (spouse can use it, too).  Use your own bed, Elric!\r\nAdded option to fire Elric later if you get tired of him\r\nMade Elric a little less lazy around the farm\r\nMade the NPC\\'s a little less eager to say hello to you\r\nDisabled current build of spouse comaptability\r\nSpouses should be able to move back to vanilla houses now (leaving this in, in case people need to move them out to use the Move House spell)\r\n\r\n\r\n1.3\r\n\r\nCompletely revamped system for spouse compatability.  There should no longer be potential conflicts with other custom houses\r\nShrank the mammoth skull down a bit to avoid unnecessary abrasions\r\nRemoved an unused, but buggy, script from the .bsa, hoping this will fix some of the problems people have been having with quest stages not firing\r\n\r\n1.2\r\n\r\nFixed a node in Elric\\'s dialogue that wasn\\'t triggering the quest properly\r\nAdded a dialogue node to Bjorn as an alternative way to start the quest\r\n\r\n\r\n1.1\r\n\r\nFixed a bug where Bjorn would not take any gold as payment for the house (sorry freeloaders!)\r\nChanged the fee for bribing Bjorn, 10k seemed a little high for just skipping a quest step",
+  "categoryId": "67",
+  "version": "1.4",
+  "author": "Qutayba",
+  "createdUnix": "1329547916",
+  "updatedUnix": "1330415263",
+  "containsAdultContent": false,
+  "uploadedBy": "Qutayba",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "35162",
+      "name": "Whiteview Manor v1_3",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "45997",
+      "fileName": "Whiteview Manor v1_3-10205.zip",
+      "uploadedUnix": "1329896108",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/6d49863757debca85ee4d2f6403a5f539fb4e43a7959f333709da0a823e2496c/analysis/1406704306/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Whiteview%20Manor%20v1_3-10205.zip?fid=35162&ttl=1535770412&ri=8192&rs=8192&setec=77ed4dc149d11800f1d7d93c8a2dcc4b"
+    },
+    {
+      "fileId": "37947",
+      "name": "Whiteview Manor v1_4",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "53189",
+      "fileName": "Whiteview Manor v1_4-10205-1-4.zip",
+      "uploadedUnix": "1330415263",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/4ab1c8273d63f1b08d71309d6e358af38e200a7481aea7d813dc6c6f2c7da564/analysis/1406718982/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Whiteview%20Manor%20v1_4-10205-1-4.zip?fid=37947&ttl=1535770412&ri=8192&rs=8192&setec=827e43463ee66d447735738be60de083"
+    }
+  ]
+}

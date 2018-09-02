@@ -1,0 +1,32 @@
+{
+  "modId": 23607.0,
+  "modName": "Undead Pseudo Class",
+  "summary": "Vampirelike abilities and spells without becoming a vampire.",
+  "descriptionHtml": "Undead Class v1:\r\n\r\nSo my wife finally becomes a vampire, after some hard coaxing by me.\r\nFirst thing she says is \\\"OMG I\\'m so ugly!  WTF is wrong with my eyes?  My face is all gaudy!\\\"\r\nOf course on top of that she experienced the Drauger Eyes bug.  We fixed that but then either her characters eyes would be all messed up, or hers would be fine and all the NPC eyes would mess up.  I wont even go into the equipment bugs, and no more bounty from inns bugs.  However, she loved the abilities.\r\n\r\nSo I set out to make a mod where you get most of the vampire abilities but no physical change to the characters race.  Undead Class is a mod that adds a Perk with stand alone abilities and powers to any character with no vampire related bugs.  These do not alter any vanilla vampire spells.\r\nThis adds the following powers and abilites:\r\n\r\nUndead Drain\r\nUndead Leech Essence\r\nUndead Blood Sense\r\nUndead Cloak\r\nUndead Invisibility\r\nUndead Vision\r\nUndead Sneak\r\nUndead Disease Immunity\r\nUndead Poison Immunity\r\nUndead Frost Resistance\r\nUndead Breath\r\nUndead Punishment\r\nUndead Fire Weakness\r\n\r\nThese are very similar to their vampire equivalent, but with no feeding or look changes.\r\nTo get these abilities, bring down the console and type with no quotes:\r\n\\\"Help Undead\\\"\r\nThen look for the PERK ID for Undead Skill Perk\r\nThen add the perk to your character, typing \\\"Player.AddPerk ID HERE\\\"\r\nThis will add the perk to your character which contains all the spells and powers, much better then typing them individually.  The PERK ID will change on your load order, so I cant give you the actual ID here.\r\nOnce you add the Perk, you can favorite the spells and powers like any other spell or power in the game.\r\n\r\nNeedless to say my wife quickly cured herself of vampirism, and was very happy to get her eyes and face back to what she chose during her multi-hour character creation process.\r\n\r\nv1.00:  Release.\r\n",
+  "categoryId": "75",
+  "version": "1",
+  "author": "E2B2",
+  "createdUnix": "1346709720",
+  "updatedUnix": "1346709741",
+  "containsAdultContent": false,
+  "uploadedBy": "epbreen",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "86300",
+      "name": "v1",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "v1-23607-1.7z",
+      "uploadedUnix": "1346709741",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/a6d23f15193a5ebbbb6a63b83f8833e649befb337bd22b5cbb9c0ca5b4e9638f/analysis/1407144073/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/v1-23607-1.7z?fid=86300&ttl=1535793982&ri=8192&rs=8192&setec=affd168193bb44efac2eadb78e46d287"
+    }
+  ]
+}

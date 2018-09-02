@@ -1,0 +1,32 @@
+{
+  "modId": 51119.0,
+  "modName": "Fix for nonstop Cracking Sound",
+  "summary": "Blank fire sounds for those that have a non stop fire cracking sound around your charaters/followers",
+  "descriptionHtml": "Hi this is my second mod and the fisrt one for skyrim.\r<br />I found an alternative solution for a bug I found in skyrim:\r<br />Sometimes your character is stuck with a non stop fire cracking sound that never goes but is paused when menus or when the console is used, it may affect you main character or your followers and currently there are no fix via console commmands (or at least I found none in more than 6 hours in forums specialized in bug for skyrim)\r<br />the solution is simple but funtional: Blank fire sounds.\r<br />I isolated the sounds that cause the problem and those are the sounds:\r<br />fx_fire_body_01_lp.wav\r<br />fx_fire_body_02_lp.wav\r<br />fx_fire_body_03_lp.wav\r<br />\r<br />the files contains blanks files that must be installed in the folder &#34;datasoundfxfxfirebody&#34;\r<br />just extract the folder and drop it in the &#34;data&#34; folder\r<br />\r<br />WARNING.\r<br />those fire sounds are used when a actor, dead body (or you) are burning so scorching enemies will no longer emit sound as well but I find it better than listening the non stop found (it really drives you crazy specially if you use headphones)\r<br />If you have another solution feel free to contact me because I REALLY WANT ONE\r<br />I apologize because english is not my native language.\r<br />cheers and CHEESSE&#33;",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Rogelioscar",
+  "createdUnix": "1392438746",
+  "updatedUnix": "1392438714",
+  "containsAdultContent": false,
+  "uploadedBy": "rogelioscar",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000097084",
+      "name": "Fixforcrackingsound",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Fixforcrackingsound-51119-1-0.rar",
+      "uploadedUnix": "1392438714",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1db2fc0a29209fef331d67cd42472c9dd91c5b24b5aa6ac32f8805953c0d0c0d/analysis/1407934036/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fixforcrackingsound-51119-1-0.rar?fid=1000097084&ttl=1535833266&ri=8192&rs=8192&setec=07b56fa3ea86d69028bf11c9bba00b9f"
+    }
+  ]
+}

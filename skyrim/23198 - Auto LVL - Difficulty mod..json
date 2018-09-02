@@ -1,0 +1,48 @@
+{
+  "modId": 23198.0,
+  "modName": "Auto LVL - Difficulty mod.",
+  "summary": "Makes enemies harder opponents, changing the stats based on your level.",
+  "descriptionHtml": "Auto LVL Difficulty mod.\n<br />\n<br />-------------------------\n<br />Updated, 11/07/13, \n<br />Recompiled to work with 1.9 patch. \n<br />\n<br />\n<br />     This mod modifies creatures health, stamina and attack damage in the area the player is, using the player level as a base to calculate. It's done by a magic effect script. \n<br />The idea is to make enemies strong, the mod is most noticeable at high levels when the game becomes too easy. \n<br />\n<br /> All creatures are affected by the mod, but Dragonborn creatures are not customizable (but still affected by default values.\n<br />\n<br />You can use the file AutoLVLconfig.txt located in data folder of your skyrim to adjust how much health or damage creatures can do. Individual and global values.\n<br />Use:  Type bat AutoLVLconfig.txt in the console after editing values.\n<br />\n<br />Or:\n<br />\n<br />If enemies are doing too much damage set in console _AutoLVLDamagePerc to a lower number.\n<br />Example: Set  _AutoLVLDamagePerc to 1.0 or\n<br />   ﻿   ﻿Set  _AutoLVLDamagePerc to 0.8\n<br />\n<br />To adjust the health gained globally use:\n<br />\n<br />Set _AutoLVLPointsPerLevelPerc to x\n<br />Example:\n<br />Set _AutoLVLPointsPerLevelPerc to 1.1\n<br />\n<br />Creatures levels are not affected, the mod ´pseudo´ levels them modifying their values.\n<br />\n<br />Install:\n<br />If using the older mod version, please make a clean save before installing.\n<br />\n<br />Issues:\n<br />If there is a problem (this should not happen) in the test fight to join the companions, disabling the mod during this part allows the quest to continue. The mod can be disabled in game by setting  _AutoLVLEnable to 0\n<br />\n<br />  Values modified:\n<br />  Health\n<br />  Stamina\n<br />  Magicka\n<br />  Attackdamagemult\n<br />  Smithing - Used to flag the character.\n<br />\n<br />\n<br />Thank you!.",
+  "categoryId": "24",
+  "version": "1.2",
+  "author": "nb77",
+  "createdUnix": "1346131353",
+  "updatedUnix": "1523226342",
+  "containsAdultContent": false,
+  "uploadedBy": "nb77",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000038467",
+      "name": "AutoLVL",
+      "version": "",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "AutoLVL-23198-.rar",
+      "uploadedUnix": "1373580455",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/10300a946bab968da5548e5a2416b0d04e874ffbb5b9bb36d4848768b39534ae/analysis/1407639947/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AutoLVL-23198-.rar?fid=1000038467&ttl=1535793264&ri=8192&rs=8192&setec=705ad9582e8b0b4a2eb712a52569c4fa"
+    },
+    {
+      "fileId": "1000270303",
+      "name": "Auto Lvl Difficulty mod. AutoLVL.zip",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "22",
+      "fileName": "Auto Lvl Difficulty mod. AutoLVL.zip-23198-1-2.zip",
+      "uploadedUnix": "1523226342",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/5c2c47f9d3994b30facda09bf5758e17fb0d90121563061224fba1d57697a865/analysis/1523226483/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Auto%20Lvl%20Difficulty%20mod.%20AutoLVL.zip-23198-1-2.zip?fid=1000270303&ttl=1535793264&ri=8192&rs=8192&setec=18d68bad784665a5cdbf715f7e306a44"
+    }
+  ]
+}

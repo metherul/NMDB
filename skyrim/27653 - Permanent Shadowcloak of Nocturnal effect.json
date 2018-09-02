@@ -1,0 +1,32 @@
+{
+  "modId": 27653.0,
+  "modName": "Permanent Shadowcloak of Nocturnal effect",
+  "summary": "This cheat changes the Nocturnal effect to make it permanent. Casting the Power is no longer neccessary; simply having this effect enabled after the completion of Darkness Returns ensures it never expires.",
+  "descriptionHtml": "I didnt originally create this with cheating in mind but as a tool to find the source of a bug that was preventing the effect from working at all for me. In my research of this issue, which I\\'ve eventually tracked to another mod, I saw a few posts from people asking for such a cheat, so I figured I\\'d provide it in case someone wants to have fun with it.\r\n\r\nThis mod doesn\\'t add the power per se, you still need to visit Nocturnal\\'s shrine, and pick the Shadowcloak blessing.\r\n\r\nMechanically, all this does is remove a condition off the hidden perk from which the Shadowcloak effect triggers. The condition removed simply checks whether the Power has been used or not in the previous two minutes. Without this trigger, the effect becomes permanent, and the power does nothing at all.",
+  "categoryId": "40",
+  "version": "1.0",
+  "author": "Valamyr",
+  "createdUnix": "1354385296",
+  "updatedUnix": "1354385408",
+  "containsAdultContent": false,
+  "uploadedBy": "Valamyr",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "102606",
+      "name": "Permanent Shadowcloak of Nocturnal",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Permanent Shadowcloak of Nocturnal-27653-1-0.7z",
+      "uploadedUnix": "1354385408",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/73e9cd5e033b842e88b9aa4bfb83e99af6addde842de760b777fea062feed35a/analysis/1407287173/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Permanent%20Shadowcloak%20of%20Nocturnal-27653-1-0.7z?fid=102606&ttl=1535800531&ri=8192&rs=8192&setec=068d2e8c5a8eb6b56d26071d4b01dcd2"
+    }
+  ]
+}

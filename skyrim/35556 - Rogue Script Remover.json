@@ -1,0 +1,48 @@
+{
+  "modId": 35556.0,
+  "modName": "Rogue Script Remover",
+  "summary": "A simple .ini file that progressively removes rogue scripts from your save games.\r\nAs of version 2.0, now includes other cool stuff.",
+  "descriptionHtml": "[color=#FF0000]Please make sure you have SKSE installed correctly first.[/color]\r\n\r\nI\\'m sure that if you\\'ve done alot of modding to your Skyrim, you\\'ve encountered mods that screw up your saves if you remove them. This is due to the engine looking for scripts that are no longer there. The result is massive save bloat and constant CTD after CTD after CTD. Unfortunately, due to the way the game works, all this data is stored inside your saves. The usual way to cure it is to start a new game (guaranteed to work until you mess up that save too!!), or spam the quicksave button every minute (which rarely works long term).\r\n\r\nHowever, the SKSE team found a way to remove these rogue/orphaned scripts. Strangely, they didn\\'t exactly broadcast it. Which is why i decided to post this.\r\n\r\nIt works very well, is simple to use, and cleans up these rogue/orphaned scripts as you play, meaning you never need to run an external program. Just leave it in and it will keep working.\r\n\r\n[color=#FF0000]Quoting the SKSE changelog;[/color]\r\n\\\"This prevents orphaned OnUpdate() events and the resulting bloated/broken saves when removing certain mods.\r\nWhen applied to an already bloated save, it will stop growing further and instead shrink over time\r\nas the game processes all queued events. This may take hours depending on the amount of bloat.\\\"\r\n\r\n[color=#FF0000]AS OF VERSION 2.0;[/color]\r\n        Added a new line in SKSE.ini\r\n[Display]\r\niTintTextureResolution=2048\r\n\r\n(To pick the size of dynamically built tint textures (default is 256)) - Roughly translated, higher res tattoos and warpaints.\r\n\r\n\r\n[color=#FF0000]REQUIRED FILES;[/color]\r\nSKSE 1.6.7 or later\r\nSkyrim 1.8.151 or later\r\n\r\n[color=#FF0000]INSTALLATION;[/color]\r\n[color=yellow]NMM[/color] - Hit download with manager, then activate in NMM\r\n\r\n[color=yellow]Manual;[/color]\r\n1. Create a new file in notepad\r\n2. Copy and Paste the following;\r\n[General]\r\nClearInvalidRegistrations=1\r\n3. Save file as SKSE.ini\r\nDrop it into Skyrim\\\\Data\\\\SKSE\r\n\r\n[color=#FF0000]CREDITS;[/color]\r\nThis is in no way my own work. I am only putting up this file to let people know that this exists and works. It is the work of the SKSE team. Big thanks to them for the work they put into this, and for allowing me to share it with everyone.\r\nThanks to Bethesda for all the great games, and memories, over the years.\r\nAnd to Nexus for the biggest and best modding community in the world.",
+  "categoryId": "39",
+  "version": "2.0",
+  "author": "cindycrawford55",
+  "createdUnix": "1367703414",
+  "updatedUnix": "1375540486",
+  "containsAdultContent": false,
+  "uploadedBy": "cindycrawford55",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000028129",
+      "name": "Rogue Script Remover",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Rogue Script Remover-35556-1-0.rar",
+      "uploadedUnix": "1367703009",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ecc8f43b1432e97fcc832775d75a22d6cec5ec378474789cd3eca9365eb9dac6/analysis/1407554950/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Rogue%20Script%20Remover-35556-1-0.rar?fid=1000028129&ttl=1535814151&ri=8192&rs=8192&setec=c5d3626c1a8558571058116e025c4e7d"
+    },
+    {
+      "fileId": "1000043834",
+      "name": "SKSE ini",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "SKSE ini-35556-2-0.rar",
+      "uploadedUnix": "1375540486",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/61509a2ba3296e060589cce67ff17e95ee93980b8866d17709cc554f55683685/analysis/1407667448/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SKSE%20ini-35556-2-0.rar?fid=1000043834&ttl=1535814151&ri=8192&rs=8192&setec=63c9f67de3806a2d82576dfd69ea1231"
+    }
+  ]
+}

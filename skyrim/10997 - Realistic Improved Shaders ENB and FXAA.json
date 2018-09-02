@@ -1,0 +1,32 @@
+{
+  "modId": 10997.0,
+  "modName": "Realistic Improved Shaders ENB and FXAA",
+  "summary": "Complete tweaks of shaders using enb+fxaa tweaked profile.",
+  "descriptionHtml": "Incredibly tweaked graphics using ENBSeries (thanks Boris Vorontsov) and FXAA post process injector (thx some_dude), with DLL proxied.\r\n\r\n\r\n- Realistic colors, colors are Vivid but realistic.\r\n- Dungeon tweaks: the dungeons looks creepy with an extremely involving atmosphere\r\n- Dark nights/dungeons: u will find torches as a useful light source, with an extreme realistic lightning effect\r\n- Realistic bloom\r\n- Realistic water and water reflections\r\n- City lights tweaked, enjoy the cities at nights!\r\n- Flora shaders\r\n- Tweaked lens flare on lightsource and spell casting\r\n- Realistic Screen Space Ambient Occlusion (SSAO) in fast mode, it wont drop your fps!\r\n- Tweaked Specular lights, for a realistic reflection effects and bump mapping\r\n- Tweaked Sky with realistic clouds\r\n- Improved atmospherical effects, the tweaked shaders will change completely the scenario colors and lights depending on the weather\r\n- Realistic aurora borealis\r\n- Realistic night/day cicle\r\n- Realistic smoke and fog\r\n\r\nInstallation:\r\n\r\n1) To enjoy the full environments of Realistic Improved Shaders, disable bethesda texture pack and use Skyrim 2k hd texture pack LITE and Serious HD retexture.\r\nYou can download Skyrim 2k hd texture from http://skyrim.nexusmods.com/downloads/file.php?id=607 remember to download the LITE version, if u don\\'t want FPS hit, u wont notice the quality difference anyways.\r\n\r\n2) You need to install SKSE in order to be able to use ENB series.\r\nYou can download it from http://skse.silverlock.org/\r\n\r\n3) Install the FXAA Post process injector and select PRESET 1.\r\nYou can download it from http://skyrim.nexusmods.com/downloads/file.php?id=131, remember to download the version 1.3. If you already had FXAA u need to uninstall it and reinstall (the 1.31 version with preset 1)\r\nIMPORTANT: YOU NEED TO UNINSTALL THE FXAA FIRST, THEN REINSTALL IT WITH PRESET 1, ONLY THE VERSION 1.3 IS COMPATIBLE.\r\n\r\n4) Download my file and extract it in the Skyrim root (the one with TESV.EXE), overwrite when asked.\r\n\r\n5) Edit your skyrimprefs.ini and set  \r\n- iPresentInterval=0 \r\n- bFloatPointRenderTarget=1\r\n- bTreesReceiveShadows=1\r\n- bDrawLandShadows=1\r\n\r\n6) Before playing u need to run the launcher, since it will have to read the game configuration again (due to the new dlls). \r\nOn launcher set antialiasing at 2x and shadow to medium\r\n\r\n7) Play Skyrim and drool at it!\r\n\r\n\r\nPost your own screenshots!\r\n\r\n\r\n\r\n",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "Enhok",
+  "createdUnix": "1330040955",
+  "updatedUnix": "1330042758",
+  "containsAdultContent": false,
+  "uploadedBy": "laxxino",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "36001",
+      "name": "Realistic improved shaders 1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3163",
+      "fileName": "Realistic improved shaders 1-10997-1-0.zip",
+      "uploadedUnix": "1330042758",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1d7380dc5791ac118008930af31fb3b44e1f698fc49f8645979d898fb5c9fd97/analysis/1406709004/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Realistic%20improved%20shaders%201-10997-1-0.zip?fid=36001&ttl=1535771859&ri=8192&rs=8192&setec=bcadc860f1c9d1f3221a39fc392f5821"
+    }
+  ]
+}

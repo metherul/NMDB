@@ -1,0 +1,32 @@
+{
+  "modId": 59743.0,
+  "modName": "PNENB Edit for Compatibility with RCRN",
+  "summary": "PNENB + RCRN looks gorgeous, unfortunately interior spaces are made far too dark when using the two together.  So I made some changes to the brightness, contrast, and lighting intensity indoors.  These files only affect PNENB, so if you are a user of just PNENB, and want to brighten up interiors, give this a try.",
+  "descriptionHtml": "[font=Arial][size=3]Credit to Phinix for his lovely ENB preset\r<br />\r<br />Installation:  \r<br />1) Install PNENB as per normal\r<br />         2) Merge my file with Skyrim folder.\r<br />         3) Play&#33;\r<br />\r<br />         If you want to know what exactly goes where:  \r<br />1) enbseries ini goes to your Skyrim folder.\r<br />                                          2) enbeffect.fx goes to enbseries folder.   \r<br />\r<br />I am a happy user of RCRN.  Unfortunately, not many enbs are optimized to look good with RCRN.  I used to use True Vision, which had me content for a while.  But lately I&#39;ve been using Phinix&#39;s Natural enb, and I like the realism of it.  I am tired of the &#39;fantasy&#39; look and the over saturation of color.  Plus it&#39;s so lite that I can run at ~60fps with 200 esps&#33;  Unfortunately, as some may know, PNENB darkens up interiors, and with RCRN it is a bit much.  So I made some changes to the configs, and got a look I am pleased with, however still working on.  So I guess this is WIP.  My changes only affect both night and daytime INTERIORS only.  The PNENB configuration is left as is out in the world.  But as soon as you enter a dungeon, cottage, or ruin the changes will be present.  So if you like the PNENB look, and want to brighten up interiors, this is for you.  I also think I maintained what characterizes the look of PNENB while in those interior spaces.\r<br />\r<br />Also, for those that do not know.  You need to add the RCRN proxy to your enblocal config for both RCRN and PNENB to work together.  This means you do not need to put the [i]injector, d3d9_smaa, and 2 smaa files [/i]from the PNENB installation into your Skyrim directory.  \r<br />\r<br />It is worth mentioning that I use the [i]Pure [/i]preset in RCRN (the darkest).  However while I did brighten things up, you will still need a torch or light source in certain areas to really be thorough when looking around.  So it is still quite dark in my game.  Which means it shouldn&#39;t be a problem switching to legacy or classic presets, if it is still too dark for your tastes.  \r<br />\r<br />Any questions in the posts section I will try to address as quick as possible.  \r<br />\r<br />Finally for a custom RCRN preset, I suggest using this:  &gt;http://www.nexusmods.com/skyrim/mods/6113/?&lt;\r<br />I use that config myself (just drop in your Skyrim directory).  But I do adjust the gamma to 1.580 which is the middle of the slider in RCRN.  [/size][/font]\r<br />\r<br />\r<br />[size=6][font=Arial]Images Coming Soon&#33;&#33;&#33;[/font][/size]",
+  "categoryId": "97",
+  "version": "0.1",
+  "author": "whosrakim",
+  "createdUnix": "1415337023",
+  "updatedUnix": "1415337018",
+  "containsAdultContent": false,
+  "uploadedBy": "whosrakim",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000134235",
+      "name": "PNENBNRCRN",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "PNENBNRCRN-59743-0-1.zip",
+      "uploadedUnix": "1415337018",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/13af1a31923e5a66d23b23076b8fc639604f88a742a99874676c19987ac22321/analysis/1415337122/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PNENBNRCRN-59743-0-1.zip?fid=1000134235&ttl=1535847124&ri=8192&rs=8192&setec=1916eac4d849417cb2ee8b15b3be52e7"
+    }
+  ]
+}

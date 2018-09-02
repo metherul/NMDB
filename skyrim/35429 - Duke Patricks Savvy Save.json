@@ -1,0 +1,32 @@
+{
+  "modId": 35429.0,
+  "modName": "Duke Patricks Savvy Save",
+  "summary": "This is a Skyrim port of my popular Oblivion Safe Save mod. It is designed to produce INTELLIGENT save points, NOT TIME SAVE POINTS&#33; Now you will not lose an hour or more of important game play because you were so immersed in the game and forgot to save&#33;\r<br />",
+  "descriptionHtml": "[color=#ff7700][size=5]Duke Patrick&#39;s Savvy Save[/size][/color]\r<br />\r<br />[color=#ffff00]SKSE needed.[/color]\r<br />\r<br />This is a Skyrim port of my popular Oblivion Safe Save mod. It is designed to produce INTELLIGENT save points&#33;\r<br />Now you will not lose an hour or more of important game play because you were so immersed in the game you forgot to save&#33;\r<br />\r<br />\r<br />Description of what the mod does\r<br />-----------------------------------------\r<br />The mod monitors your combat and other game progress and calculates a Save Score based on how hard of a fight you had plus many other factors. Once you reach the Save Score of 1000 pts or more the mod will make a save of your game under 1 of 6 savegames files called &#34;Savvy Save&#34;. \r<br />There is only one player alias script and two script fragments. The calculation logic to accomplish all this is clever but simple. This mod does NO polling at all, all script detentions and calculations are activated efficiently using events. The logic of the functions are clever and un-complicated resulting in low overhead. \r<br />\r<br />\r<br />[color=#ff0000]READ THE READ ME FILE [/color]and follow the directions (it is relatively a very small file). I am slow to answer questions that are detailed in the read me file. And I only answer questions about the mod that are posted in my threads on the Bethesda forums: [url=http://forums.bethsoft.com/forum/13-the-elder-scrolls]http://forums.bethsoft.com/forum/13-the-elder-scrolls[/url]\r<br />\r<br />\r<br />\r<br />New in REV 3 REBOOTED\r<br />----------------------\r<br />Last time I uploaded a new rev was many years ago.\r<br />For this REV I rewrote the entire script using new SKSE functions and 3 more years of new scripting experience in skyrim. \r<br />\r<br />\r<br />\r<br />[color=#ff0000][size=4]READ THE READ ME FILE in the mod zip, what is shown below is NOT the read me file&#33;[/size][/color]\r<br />\r<br />\r<br />List of events that are tracked by this mod\r<br />-------------------------------------------\r<br />\r<br />Locations Discovered\r<br />Dungeons Cleared\r<br />Hours Slept\r<br />Hours Waiting\r<br />Skill Increases\r<br />Skill Books Read\r<br />Training Sessions\r<br />Barters\r<br />Quests Completed\r<br />Misc Objectives Completed\r<br />Questlines Completed\r<br />Chests Looted\r<br />Spells Learned\r<br />Dragon Souls Collected\r<br />Words Of Power Learned\r<br />Words Of Power Unlocked\r<br />Shouts Learned\r<br />Shouts Unlocked\r<br />Shouts Mastered\r<br />Magic Items Made\r<br />Weapons Improved\r<br />Weapons Made\r<br />Armor Improved\r<br />Armor Made\r<br />Potions Mixed\r<br />Pockets Picked\r<br />Locks Picked\r<br />Poisons Mixed\r<br />Blessings\r<br />\r<br />Each time your Gold coin holdings have gone up.\r<br />Each time you successfully harvested.\r<br />Each time you travel about 60 feet while indoors.\r<br />Each time you travel about 400 feet while outdoors.\r<br />Each time you travel thru a game load door.\r<br />Each target Killed.\r<br />Each time you kill a target that does not detect you.\r<br />(This is great for hunters or for players that love to get sniper death shots&#33;)\r<br />\r<br />The mod also tracks your use of Stamina, Magicka and Health and uses the inherent synergistic logic of the way the mod checks the data to help in analyzing when it is time to make a save based on how difficult the in game combat or other activities were. \r<br />\r<br />\r<br />\r<br />Save File convention\r<br />--------------------\r<br />\r<br />Each time the mod makes a Savvy Save it will be numbered with an index.\r<br />Each time the index gets to a player set limit a Savvy Super Save file is made and the index is set back to 1 This means you will only ever have a few of Savvy Saves in your save folder but you will still have unlimited Savvy Super Saves.",
+  "categoryId": "39",
+  "version": "3.0",
+  "author": "Duke Patrick aka SpookyFX-com",
+  "createdUnix": "1367307471",
+  "updatedUnix": "1466487830",
+  "containsAdultContent": false,
+  "uploadedBy": "sca",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000210557",
+      "name": "Duke Patricks Savvy Save Mod Rev 3p0",
+      "version": "3.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "19",
+      "fileName": "Duke Patricks Savvy Save Mod Rev 3p0-35429-3-0.7z",
+      "uploadedUnix": "1466487830",
+      "modVersion": "3.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2c509265744fd48d12dcc57262d57b54d5fb7b283c07306599451e1ad245474e/analysis/1466487844/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Duke%20Patricks%20Savvy%20Save%20Mod%20Rev%203p0-35429-3-0.7z?fid=1000210557&ttl=1535813959&ri=8192&rs=8192&setec=8fd46cf1db3d35ecac567c2d70dc52b1"
+    }
+  ]
+}

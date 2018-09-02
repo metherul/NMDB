@@ -1,0 +1,32 @@
+{
+  "modId": 6181.0,
+  "modName": "ReaLVamp",
+  "summary": "Add vampire NightVision part of LifeDetected and small change vampire cast and weakness.",
+  "descriptionHtml": "[list][*]When vampire use a vision, the desire of blood allows him to see aura creatures for a short time (3s). \r\n[*]Vampire NightVision now realy NIGHT - in the morning, he loses this ability (but not in interion).\r\n[*]VampireDrain increase to twice for each stage.\r\n[*][color=red]upd:[/color] VampireSunDamage in stage 4 now is real-time damage health (5dps). No wait, no fast-travel - only safe in near interion.\r\n[*][color=red]upd:[/color] Because vampire not have other spell than Drain, this spell added to Destruction scools Frost and Shock. With a perk of both scool VampireDrain will be more powerfull spell (+100% Damage).[/list]\r\n[size=1]Note: because vampire have \\\"BLOOD\\\" vision, creatures aura is \\\"RED\\\" for all, friend or hostile target.[/size]\r\n\r\nFor install just include .esp file in \\\\Data folder.\r\n\r\n[size=1][color=red]Attention![/color] My version of master-file is russian. But i not change description and name - only data and execution sequence of script. If english version not be stable, i will rebuild it with english master-file.[/size]\r\n\r\nP.S. I plan to add script of joining to VampireFaction in stage 4 to the vampire are not to be hostile to PC.",
+  "categoryId": "24",
+  "version": "0.93b",
+  "author": "Whols aka Northwood",
+  "createdUnix": "1326571080",
+  "updatedUnix": "1326998869",
+  "containsAdultContent": false,
+  "uploadedBy": "northwood",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "21216",
+      "name": "ReaLVamp",
+      "version": "0.93b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "ReaLVamp-6181-0-93b.zip",
+      "uploadedUnix": "1326998869",
+      "modVersion": "0.93b",
+      "virusScanUrl": "https://www.virustotal.com/file/9f615afa71266c830a201f0e518be24c3dfb0c1c428cf01ecdc8195d0f24fe4c/analysis/1406623803/",
+      "changelogHtml": " Fix bag when NightVision spell was impossible to choose after the change of LessePower <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ReaLVamp-6181-0-93b.zip?fid=21216&ttl=1535763434&ri=8192&rs=8192&setec=3634abd43e4ea10cce13eacfe45c460c"
+    }
+  ]
+}

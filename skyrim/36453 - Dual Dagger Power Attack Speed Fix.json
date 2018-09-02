@@ -1,0 +1,32 @@
+{
+  "modId": 36453.0,
+  "modName": "Dual Dagger Power Attack Speed Fix",
+  "summary": "Fixes dual wield dagger combo power attack not having benefit from increased attack speeds.",
+  "descriptionHtml": "[heading][color=Red][b]I&#39;ve given permission for this fix to be included in the next installment of Unofficial Skyrim Patch. In other words, you don&#39;t need to install this fix if you&#39;re using USKP v2.0.1 or greater.[/b][/color]\r<br />\r<br />\r<br />Description[/heading]\r<br />This mod is an animation behavior replacement only and fixes dual power attack speed scaling when using daggers. In other words, that specific power attack will now be affected by Dual Flurry perks, Elemental Fury shout or any other kind of attack speed buffs.\r<br />Mod replaces two behavior files (1hm_behavior.hkx), one for 1st person and one for 3rd person behavior set.\r<br />If you are having trouble with dual wielding and hotkey system in general check out my other mod [url=http://skyrim.nexusmods.com/mods/37006]Dual Hand Combo Hotkeys[/url].\r<br />\r<br />[heading]Compatibility[/heading]\r<br />[list]\r<br />[*] Not compatible with Skyrim versions other than 1.9.32.0. Every time Bethesda make changes to animation behaviors you will need to uninstall this mod until it is updated.\r<br />[*] Not compatible with animation mods that replace same behavior file.\r<br />[/list]\r<br />\r<br />[heading]Installation[/heading]\r<br />[list]\r<br />[*] Make sure your Skyrim version is 1.9.32.0.\r<br />[*] You can now download and install the mod via NMM or extract archive to skyrim/data folder.\r<br />[/list]\r<br />\r<br />[heading]Uninstallation[/heading]\r<br />[list]\r<br />[*] Uninstall via NMM or delete &#34;1hm_behavior.hkx&#34; file from &#34;skyrim/data/meshes/actors/character/behaviors&#34; and &#34;skyrim/data/meshes/actors/character/_1stperson/behaviors&#34; folders.\r<br />[/list]",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Alek",
+  "createdUnix": "1369602261",
+  "updatedUnix": "1369601833",
+  "containsAdultContent": false,
+  "uploadedBy": "mitchalek",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000031583",
+      "name": "Dual Dagger Power Attack Speed Fix v1_0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "242",
+      "fileName": "Dual Dagger Power Attack Speed Fix v1_0-36453-1-0.zip",
+      "uploadedUnix": "1369601833",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/035d236483b72153081a390f86c125858f29f1f98e5050b3ed24aa391d944b6f/analysis/1407582629/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dual%20Dagger%20Power%20Attack%20Speed%20Fix%20v1_0-36453-1-0.zip?fid=1000031583&ttl=1535815640&ri=8192&rs=8192&setec=2cb823db6e24a169a7457bc58d579937"
+    }
+  ]
+}

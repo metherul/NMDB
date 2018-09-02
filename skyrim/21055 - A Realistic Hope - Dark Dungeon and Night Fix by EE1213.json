@@ -1,0 +1,32 @@
+{
+  "modId": 21055.0,
+  "modName": "A Realistic Hope - Dark Dungeon and Night Fix by EE1213",
+  "summary": "A Realistic Hope (http://skyrim.nexusmods.com/mods/9936) - Fix for dark Nights + Interiors\r\n\r\nThe original used a palette texture, which causes an issue with DAY/NIGHT adaptation detection in most gamebryo games.  Having used ENB and other wrapper shaders a lot over the years, I recognized the issue pretty quickly and decided to post this fix.\r\n\r\nM",
+  "descriptionHtml": "A Realistic Hope ([url=http://skyrim.nexusmods.com/mods/9936]http://skyrim.nexusmods.com/mods/9936[/url]) - Fix for dark Nights + Interiors\r\n\r\nThe original Realistic Hope used a palette texture that merged the darkest light ranges to black, causing the night adaptation and any other dark/night lighting edits to fail.\r\n\r\nI\\'ve seen it a loooot over the years with ENB.  If I had to coin a phrase for the phenomenon, I\\'d call it \\'palette compression\\'.\r\n\r\nMy version includes re-worked lighting to simulate the removed palette.  It\\'s not perfect, and I may re-visit this at a later date to get it closer to the original.\r\n\r\n[center]________________________________________________________[/center]\r\n[b][size=5]TL;DR[/size]\r\n[u]Zuh?  Why no Palette?[/b][/u]\r\nPalettes allow for finer control over specific color and tone ranges than their ENB ini counterparts, which are not specific to color ranges.  The RH palette pushed low-brightness colors to black too quickly, compressing the dynamic range and making dark areas drop to black for the most part.\r\n\r\nPalettes also [b]remove[/b] the ability to use color correction controls, and (sometimes) causes day and night detection to break completely, leaving 1 set of controls (night) to apply to ALL scenes, regardless of time or brightness.\r\n\r\nHence, there is no way to fix this while still using the palette.\r\n\r\n[center]________________________________________________________[/center]\r\n[center]!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\r\n[b][u][size=4][color=red]YOU MUST OBTAIN THE ENB DLL from Boris\\' site @ [url=http://enbdev.com]http://enbdev.com[/url][/b][/u][/size][/color][/center]\r\n[center]________________________________________________________[/center]\r\n[b][size=5]Changelog[/size][/b]\r\n[u]v1.6[/u]\r\n-Disabled UsePaletteTexture\r\n-Modified day/night environment lighting to match original palette\r\n-Modified cave fog settings (palette caused fog invisibility in original RH)",
+  "categoryId": "62",
+  "version": "v.1.6",
+  "author": "EE1213",
+  "createdUnix": "1343172204",
+  "updatedUnix": "1343174254",
+  "containsAdultContent": false,
+  "uploadedBy": "EE1213",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "76473",
+      "name": "V1_6 Main",
+      "version": "V1.6",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2155",
+      "fileName": "V1_6 Main-21055-V1-6.zip",
+      "uploadedUnix": "1343174254",
+      "modVersion": "V1.6",
+      "virusScanUrl": "https://www.virustotal.com/file/0d307e4bddc538ef47824418ed4a0d22a520a436606cf0a68c85be8ebe990a74/analysis/1407044291/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/V1_6%20Main-21055-V1-6.zip?fid=76473&ttl=1535789590&ri=8192&rs=8192&setec=d9382032692dbc530acca5dac82f7b77"
+    }
+  ]
+}

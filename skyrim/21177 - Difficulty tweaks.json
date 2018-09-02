@@ -1,0 +1,32 @@
+{
+  "modId": 21177.0,
+  "modName": "Difficulty tweaks",
+  "summary": "Revised damage ratios",
+  "descriptionHtml": "Adjusted difficulty damage ratios -- fDiffMultHP* and fDamageSkill* settings -- to make the damage ratios less extreme, and to bias them closer to 1:1.\r\n\r\nOriginal difficulty scaling specified damage ratios between 4:1 and 1:4, meaning that at Novice difficulty the player did 4x the damage of NPCs, and NPCs did 4x the damage of the player at Master.\r\n\r\nHowever, this is further compounded by the fDamageSkill variables. These variables specify how much damage is done at skill level zero vs skill level 100, and of course everything in between. By default, the player does 1.5x base weapon damage at level 100, while NPCs do 3x base damage -- which means that the difficulty scaling variables are already biased 2:1 in the NPCs favour.\r\n\r\nIn short, this meant that at skill level 100, an NPC did EIGHT TIMES the damage of the player character on Master difficulty (including the player doing half damage, compounded twice), which makes combat into a set of two choices:\r\n\r\n1. Abuse alchemy/enchanting to even the odds, which I refuse to do.\r\n\r\n2. Engage in a very boring game of sudden death -- I like challenge as much as the next guy, but it\\'s just TEDIOUS to sit there whaling and whaling and whaling and whaling and whaling on some enemy which can kill me in one hit; it\\'s not a challenge, it\\'s just dull -- not to mention immersion-breaking.\r\n\r\nSo I made this mod; I\\'m not sure why Bethsoft did it this way, but then again, I\\'m not really sure why they do ANYTHING the way they do anymore. Anyway, enemies still pack a pretty good punch -- at 300 HP, I still get one-shotted by the occasional archer, but now I can actually hurt them back, which makes the Dovakiin feel more like an actual contender, and less like some scrappy little runt which gets by on persistence and panicked luck.\r\n\r\nAnyway, here is a table of the old & new Player:NPC damage ratios:\r\n[b]Old:[/b]\r\nNovice: 2:1\r\nApprentice: 1:1\r\nAdept: 1:2\r\nExpert: 1:4\r\nMaster: 1:8\r\n\r\n[b]New:[/b]\r\nNovice: 2.5:1\r\nApprentice: 1.5:1\r\nAdept: 1:1\r\nExpert: 1:2.28\r\nMaster: 1:4",
+  "categoryId": "24",
+  "version": "",
+  "author": "Soltis",
+  "createdUnix": "1343392309",
+  "updatedUnix": "1343392366",
+  "containsAdultContent": false,
+  "uploadedBy": "Soltis",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "76867",
+      "name": "Difficulties",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Difficulties-21177-.rar",
+      "uploadedUnix": "1343392366",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/1ab17a5c076cdbd33f09c45a05788ab08c2e540071901cb3c8699a5531b54129/analysis/1407049082/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Difficulties-21177-.rar?fid=76867&ttl=1535789777&ri=8192&rs=8192&setec=16a85c4b9d1f928b3765b78c6280efd6"
+    }
+  ]
+}

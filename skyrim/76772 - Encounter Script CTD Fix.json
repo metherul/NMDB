@@ -1,0 +1,32 @@
+{
+  "modId": 76772.0,
+  "modName": "Encounter Script CTD Fix",
+  "summary": "Disables a script trigger object to work around a CTD in very specific circumstances. You probably don&#39;t need this plugin.",
+  "descriptionHtml": "This plugin works around what, for me at least, is a very frequent CTD in some areas triggered by a self-activated script. You walk into an invisible object in the game world, it runs a script and the game may immediately crash in certain, specific circumstances. It&#39;s most often noticed when entering an interior but can happen in the exterior world as well. When this problem rears its head, you can pin down right to the centimeter the exact spot where the game will crash every time.\r<br />\r<br />In my case, I think the script is either attempting to run on NPCs that have been removed by one of my mods or an NPC is loading with an armor that has a buggy mesh. It&#39;s very hard to pin down what&#39;s happening. The game crashes with an unhandled exception at the address a50a3d, which usually indicates a corrupted mesh. \r<br />\r<br />VERY IMPORTANT\r<br />\r<br />This plugin is a last resort for an already ruined save and 99% of people have no reason to use it. It disables a very important script trigger object. Bethesda uses it well over 700 times throughout Skyrim. Mod authors probably make use of it. This is the script that causes traps to trigger when you get close, causes draugr to pop out of their tombs and makes hostile NPCs appear and rush toward you. This is obviously not something you want to disable throughout the entire game.\r<br />\r<br />Keep this plugin deactivated for normal play. Use it ONLY if you are having a CTD at the exact same spot with 100% reliability and have no other way to continue. Activate it, get through the area where the crashes are happening, save and then deactivate the plugin afterward. No, you&#39;re not supposed to disable plugins mid-game normally, but if your save is already trashed by this bug, this may alleviate the problem long enough for you keep playing. Or it may not; your crash may be happening for an entirely different reason and not be affected by this plugin.\r<br />\r<br />This doesn&#39;t fix the bug, it works around it in a very brute force manner. Could it ruin your save? Probably not, but your save is already ruined anyway if you keep crashing in the same spot. I&#39;ve abandoned a few characters myself because of it. Will it ruin your save if you leave it active constantly? Probably yes, so don&#39;t do that. Use only if absolutely needed, then disable afterward.\r<br />\r<br />Some things you should definitely try before using this plugin.\r<br />\r<br />1) Install the newest Crash Fix plugin and follow the instructions on its mod page for general stability tips. This alone might fix your issue: [url=http://www.nexusmods.com/skyrim/mods/72725/]http://www.nexusmods.com/skyrim/mods/72725/[/url]\r<br />\r<br />2) Leave the problem area, go into an interior (QASMOKE is perfect for this. COC QASMOKE in the console to get there, COC WHITERUN to get back out) and just wait for 10 days. Cells will reset and NPCs will respawn and whatever was bugged may well be gone when you return to the area.\r<br />\r<br />3) Open the ingame console, type KILLALL and hit enter. For whatever reason, this often lets me continue on when the problem happens to me. Obviously, this isn&#39;t practical everywhere, because it kills every non-essential NPC in the cell. Your followers should be fine unless you have a mod that lets them die (they&#39;ll go into bleedout for a moment), but it may kill your horse if you have one. Disable the horse first (click on the horse while the console is open, type DISABLE), use the killall command and then reenable it (type ENABLE).\r<br />\r<br />If you have the previous version, Fort Snowhawk CTD Fix, remove that and replace with this. Remember, this plugin should not be active during normal play, only long enough to get past a problem area. Use at your own risk and only as a last resort.\r<br />\r<br />V2.01 NoMerge tag added so Bash won&#39;t merge it. No other changes. Don&#39;t merge this into any patch used during normal play.",
+  "categoryId": "95",
+  "version": "2.01",
+  "author": "Rooker",
+  "createdUnix": "1467464084",
+  "updatedUnix": "1468135904",
+  "containsAdultContent": false,
+  "uploadedBy": "Rooker75",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000212756",
+      "name": "Encounter Script CTD Fix 2_01",
+      "version": "2.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "124",
+      "fileName": "Encounter Script CTD Fix 2_01-76772-2-01.7z",
+      "uploadedUnix": "1468135904",
+      "modVersion": "2.01",
+      "virusScanUrl": "https://www.virustotal.com/file/9a09b5801861da1c4822de7526d894c5e8f48857171ab32f3b6d24b6f5fcb0c2/analysis/1468135922/",
+      "changelogHtml": " NoMerge tag added so Bash won&#39;t merge it. No other changes. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Encounter%20Script%20CTD%20Fix%202_01-76772-2-01.7z?fid=1000212756&ttl=1535865492&ri=8192&rs=8192&setec=c6502e2458175f42d1f4d1cb92958cc2"
+    }
+  ]
+}

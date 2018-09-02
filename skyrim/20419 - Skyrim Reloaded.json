@@ -1,0 +1,15 @@
+{
+  "modId": 20419.0,
+  "modName": "Skyrim Reloaded",
+  "summary": "I\\'m trying to add full x64 and DirectX11 capability and improve Skyrims interal memory manager and streaming engine.",
+  "descriptionHtml": "I was really looking forward to play Skyrim. I do think, it is a great game, but all that bugs are annoying.\r\n\r\nFirst of all, before that one certain patch, it couldn\\'t handle more than 2GB. Now it can, but still, with all that mods out there, you can expirence crashes very often. It\\'s restricted to 4GB, it\\'s still an 32bit application, it has still a bad memory manager.\r\nAnd because of consoles it does not use DirectX11 - well, at least not complete, just a few DX11 features. It\\'s still a DirectX9 game.\r\nWhy?\r\n\r\nWell, I wanted to create a mod for Skyrim, a kind of total conversion, but with every little step I took, I stumbled across these engine bugs, these restrictions.\r\n\r\nSo I decided to stopp working on that mod and start improving the game, where it\\'s really necassary - for all of us: the engine itself. I don\\'t know, why I\\'m willing to do Bethesdas job, but it\\'s not only theirs problem: Ever wondered, why there are only few 64bit games?\r\n\r\nI mean, since Hellgate London has passed some time and even Flagship Studios managed to release four executeables:\r\n1. DirectX9 and 32bit\r\n2. Directx9 and 64bit\r\n3. Directx10 and 32bit\r\nand 4. DirectX10 and 64bit.\r\n\r\nNow, I think, this should be done with every single game out there.\r\nAnd that\\'s my goal with this:\r\ntesv.exe - it could also be named tesv32d9.exe - thats, what we have now.\r\ntesv64d9.exe - well, this is, where I\\'m currently working on, getting access to more than 4GB.\r\ntesv32d11.exe - Skyrim is a game, worth getting all the benefits of DX11 like tesselation.\r\ntesv64d11.exe - the ultimate goal.\r\n\r\n/edit: just found another bug, stopped uploading. Sorry",
+  "categoryId": "95",
+  "version": "0.6alpha.July13.2012",
+  "author": "BasCodi",
+  "createdUnix": "1342174261",
+  "updatedUnix": "1342174261",
+  "containsAdultContent": false,
+  "uploadedBy": "BasCodi",
+  "primaryFile": null,
+  "files": []
+}

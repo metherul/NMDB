@@ -1,0 +1,32 @@
+{
+  "modId": 34357.0,
+  "modName": "Isabelle Rolaine Fix",
+  "summary": "Fixes Isabelle Rolaine\\'s \\'age\\'",
+  "descriptionHtml": "Isabelle Rolaine Fix\r\n\r\n==================\r\nDescription:\r\n==================\r\n\r\nWhen you talk to Dagur to start the \\'Drowned Sorrows\\' quest, he tells you that \\\"Ranmir was involved with a pretty young woman named Isabelle Rolaine.\\\" But when you find her, you realize that Dagur needs glasses, because Isabelle is much older than Ranmir, much older than Dagur, perhaps even older than your grandmother. Maybe a 300-year old vampire might consider Isabelle a \\\"young woman.\\\" Did you miss something? No, Bethesda did. This fix changes Isabelle to a young woman, as described by Dagur.\r\n\r\nI don\\'t know why trivial things like this bother me, but they just do, so there.\r\n\r\n\r\n==================\r\nDetails:\r\n==================\r\n\r\nI simply replaced Isabelle\\'s \\'Age50\\' face complexion textures with something...younger. The BSA contains the exported facegen files.\r\n\r\n\r\n==================\r\nInstallation:\r\n==================\r\n\r\nI use the Mod Organizer. I highly recommend it because unlike manual installation or traditional mod managers, it will not install files directly into your game data folder, so there is no chance of leaving behind orphan files when you uninstall mods.\r\n\r\nOtherwise, to install manually, just extract the archive into the game \\'.../data/\\' folder. \r\n\r\n\r\n==================\r\nUn-Installation:\r\n==================\r\n\r\nUninstall using the same mod manager you installed it with. If uninstalling manually, delete \\'Isabelle Rolaine Fix.esp\\' and \\'Isabelle Rolaine Fix.bsa\\' from \\'.../data/\\'. That\\'s it.\r\n\r\n==================\r\nConflicts:\r\n==================\r\n\r\nIf you are using Winterlove\\'s \\'Consistent Older People\\' mod, you -must- load this mod -after- \\'Consistent Older People.\\'\r\n\r\n\r\n==================\r\nChangelog:\r\n==================\r\n\r\n03/04/2013 - Initial Release\r\n\r\n==================\r\nContact Details:\r\n==================\r\n\r\nMy username is Ripple on both the official Bethesday forums and the Nexus. You know the rest.\r\n\r\n\r\n==================\r\nCredits:\r\n==================\r\n\r\nThanks to Bethesda for creating Skyrim.\r\nThanks to the Oblivion/Fallout 3/Fallout NV/Skyrim modding communities for advice and help throughout the years.\r\n\r\n\r\n==================\r\nLicensing/Legal:\r\n==================\r\n\r\nDo whatever you want with this mod, I don\\'t care.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Ripple",
+  "createdUnix": "1365035311",
+  "updatedUnix": "1365035111",
+  "containsAdultContent": false,
+  "uploadedBy": "ripple",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000022230",
+      "name": "Isabelle Rolaine Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "278",
+      "fileName": "Isabelle Rolaine Fix-34357-1-0.zip",
+      "uploadedUnix": "1365035111",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2a13bbbc0a395ceeabfe3ee9aa8e8d53c06246ff056b77a1e427ed73d62e55b5/analysis/1407504440/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Isabelle%20Rolaine%20Fix-34357-1-0.zip?fid=1000022230&ttl=1535812148&ri=8192&rs=8192&setec=020f6a2834306dc66a8a1c7d7b34b084"
+    }
+  ]
+}

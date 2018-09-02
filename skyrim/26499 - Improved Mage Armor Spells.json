@@ -1,0 +1,48 @@
+{
+  "modId": 26499.0,
+  "modName": "Improved Mage Armor Spells",
+  "summary": "Changes to the duration for mage armor spells, without changing the increase in the armor rating given. Modifies the armor spell scrolls too so they\\'re actually more useful. Comes in original and balanced versions.",
+  "descriptionHtml": "This is a simple little mod I tossed together. It kind of disappointed me that the spells really didn\\'t last that long and constantly required you to recast them every minute to the point where I simply stopped using them. Mage perks allowed you to increase the duration but only up to roughly 3-4 minutes. That\\'s when this mod was born.\r\n\r\n\r\n-=What It Does=-\r\nSimply put, this mod changes the duration of the mage armor spells without touching the amount of armor they add, helpful for a mage-type character that relies heavily on magicka for fighting. It can also make mage enemies a little more tougher since their armor spells will last longer than before. I\\'ve included two versions, one that\\'s more balanced which increases charge times for specific spells slightly, their base costs, and scales in spell duration for each tier. So casting stoneflesh or ironflesh will last longer than oakflesh, and ebonyflesh will last longer than the rest of them. For those who just don\\'t care and want the basics I\\'ve also made a version that only increases the duration times. This version doesn\\'t change charge times or costs.\r\n\r\nScrolls have been tweaked to make them more viable for non-magicka users by increasing their armor rating and duration substantially but are still weak in comparison to the actual spells. Both versions include the boosted armor rating for scrolls. The changes are listed below. Please note these are without perks or dual casting, having the appropriate perks can multiply the duration of your spells up to almost 11 minutes for Oakflesh alone with the balanced version. I feel this could be a plus for those who invest the time and effort into the Alteration skill while keeping it viable for melee users who might not want to use overly bulky armor or need an extra boost to their defense.\r\n\r\nv1.0\r\n== Spells ==\r\nOakflesh\r\nBalanced: 1.5 second charge time, 5 minute duration, 126 base cost\r\nOriginal: 0.5 second charge time, 15 minute duration, 103 base cost\r\n\r\nStoneflesh\r\nBalanced: 2 second charge time, 8 minute duration, 238 base cost\r\nOriginal: 0.5 second charge time, 15 minute duration, 194 base cost\r\n\r\nIronflesh\r\nBalanced: 3 second charge time, 12 minute duration, 302 base cost\r\nOriginal: 0.5 second charge time, 15 minute duration, 266 base cost\r\n\r\nEbonyflesh\r\nBalanced: 4 second charge time, 18 minute duration, 412 base cost\r\nOriginal: 0.5 second charge time, 15 minute duration, 341 base cost\r\n\r\n\r\n== Scrolls ==\r\nScroll of Oakflesh\r\nBalanced: 3 second charge time, 12 minute duration, 30 armor rating\r\nOriginal: 0.5 second charge time, 15 minute duration, 30 armor rating\r\n\r\nScroll of Stoneflesh\r\nBalanced: 4 second charge time, 15 minute duration, 40 armor rating\r\nOriginal: 0.5 second charge time, 15 minute duration, 40 armor rating\r\n\r\nScroll of Ironflesh\r\nBalanced: 5 second charge time, 18 minute duration, 50 armor rating\r\nOriginal: 0.5 second charge time, 15 minute duration, 50 armor rating\r\n\r\nScroll of Ebonyflesh\r\nBalanced: 6 second charge time, 25 minute duration, 65 armor rating\r\nOriginal: 0.5 second charge time, 15 minute duration, 65 armor rating\r\n\r\nv1.1 (Balanced Only)\r\n== Spells ==\r\nOakflesh\r\n1.5 second charge time, 5 minute duration, 202 base cost\r\n\r\nStoneflesh\r\n2 second charge time, 8 minute duration, 285 base cost\r\n\r\nIronflesh\r\n3 second charge time, 12 minute duration, 455 base cost\r\n\r\nEbonyflesh\r\n4 second charge time, 18 minute duration, 684 base cost\r\n\r\n== Scrolls ==\r\nScroll of Oakflesh\r\n3 second charge time, 8 minute duration, 30 armor rating\r\n\r\nScroll of Stoneflesh\r\n4 second charge time, 12 minute duration, 40 armor rating\r\n\r\nScroll of Ironflesh\r\n5 second charge time, 18 minute duration, 50 armor rating\r\n\r\nScroll of Ebonyflesh\r\n6 second charge time, 20 minute duration, 65 armor rating\r\n\r\n\r\n-=Installation=-\r\nInstall with Nexus Mod Manager, open your load order and uncheck the version you don\\'t want to use. Don\\'t use both or they will overwrite each other. For manual install open the RAR file and extract either the \\\"Balanced\\\" or \\\"Original\\\" version to your Data folder (If you use Steam that would be \\\"Valve/steam/steamapps/common/skyrim/Data\\\".) in the Skyrim folder. Open the Skyrim Launcher, check the .esp file you added and save.\r\n\r\n\r\n-=Uninstallation=-\r\nFor Nexus Mod Manager just deactivate the mod. Installing via the mod manager will ensure they are removed but for manual installs make sure you uninstall the .esp files by going to your Data folder and removing the \\\"Improved Mage Armor Spells - Balanced.esp\\\" or \\\"Improved Mage Armor Spells - Original.esp\\\" plugins. There\\'s no scripts so there shouldn\\'t be any lingering effects in your save games.\r\n\r\n\r\n-=Compatibility Issues=-\r\nAny mods that change the following entries:\r\n\r\nSpells: Oakflesh, Stoneflesh, Ironflesh, Ebonyflesh\r\nScrolls: Scroll of Oakflesh, Scroll of Stoneflesh, Scroll of Ironflesh, Scroll of Ebonyflesh\r\n\r\nIf your mod changes any values, even names, for these entries they will overwrite one another depending on your load order. This includes mods like Headbomb\\'s Better Sorting Overhaul (http://skyrim.nexusmods.com/mods/2730) or any mods that directly affect these spells or scrolls. Renaming the spell tomes and their prices are fine since this mod directly alters the spells and not tomes used to learn them. Any changes to the scrolls themselves however including cost or naming will conflict with my mod. I hope to make a Better Sorting Overhaul compatible version later.\r\n\r\n\r\n-=Permissions=-\r\nPlease do not upload this mod to any other sites, that\\'s all I ask. If you want to translate this to another language feel free as long as you give credit to me. I don\\'t plan to make a version compatible with any that make major overhauls to the magic system but if someone else wants to please do! Again as long as I\\'m just given credit.\r\n\r\nIf you like this mod please endorse! Thanks!",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "SamusKnight2K",
+  "createdUnix": "1352087078",
+  "updatedUnix": "1352092724",
+  "containsAdultContent": false,
+  "uploadedBy": "SamusKnight2K",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "97589",
+      "name": "Improved Mage Armor Spells",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Improved Mage Armor Spells-26499-1-0.rar",
+      "uploadedUnix": "1352087323",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9e454fb21b6b19faa0f15a2a8b33ad53306c935c2873241d2d42022d25e6f064/analysis/1407250158/",
+      "changelogHtml": " Created initial version. Includes both versions. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Improved%20Mage%20Armor%20Spells-26499-1-0.rar?fid=97589&ttl=1535798668&ri=8192&rs=8192&setec=1d48640b612d5c319b13a247fa51cb2d"
+    },
+    {
+      "fileId": "97596",
+      "name": "Improved Mage Armor Spells - Balanced Only v1dot1",
+      "version": "1.1",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Improved Mage Armor Spells - Balanced Only v1dot1-26499-1-1.rar",
+      "uploadedUnix": "1352092724",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/31de353f5458584b0cf7451be4905583fe8586b92d5430173a0a6cfeef975f24/analysis/1407250203/",
+      "changelogHtml": " Changed spell costs for Balanced version. Oakflesh base cost is 202, Stoneflesh is 285, Ironflesh is now 455, and Ebonyflesh is now 684. <br/> \n Changed scroll durations for Balanced version. Oakflesh reduced to 8 minutes, Stoneflesh reduced to 12 minutes, Ebonyflesh to 20 minutes. Ironflesh unchanged. <br/> \n Balanced version uploaded as a separate file now. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Improved%20Mage%20Armor%20Spells%20-%20Balanced%20Only%20v1dot1-26499-1-1.rar?fid=97596&ttl=1535798668&ri=8192&rs=8192&setec=5381ffc35f536024deff620ffe6c3959"
+    }
+  ]
+}

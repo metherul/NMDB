@@ -1,0 +1,48 @@
+{
+  "modId": 24757.0,
+  "modName": "RQ - Fortify Alchemy Potions",
+  "summary": "Adds the \\\"fortify alchemy\\\" effect to four ingredients. ",
+  "descriptionHtml": "A requested mod by [url=\\\"http://forums.nexusmods.com/index.php?/user/4472935-redbeard007/\\']Redbeard007[/url] to add ingredients with the Fortify Alchemy effect. I didn\\'t want to do anything that would change any lists (and my attempts to make harvestable plants failed), so I edited four preexisting ingredients: \r\n\r\n[list][*]Skeever Tail has had its \\\"damage health\\\" effect changed to \\\"fortify alchemy\\\". (It had both \\\"damage health\\\" and \\\"ravage health\\\", which seemed redundant. I left the worse one.)\r\n[*]Small Antlers has had its \\\"fortify restoration\\\" effect changed to \\\"fortify alchemy\\\". \r\n[*]Nirnroot and Crimson Nirnroot have had their \\\"damage stamina\\\" effect changed to \\\"fortify alchemy\\\".[/list]\r\n\r\n[b]Edit:[/b] if you want your Nirnroot pristine, v 1.1 uses Eye of Sabre cat (replaces \\\"restore stamina\\\" and Giant Lichen (replaces \\\"restore magicka\\\") instead.\r\n\r\nThis is under \\\"Cheats\\\" because, well, there\\'s probably a reason this didn\\'t exist in the vanilla game. \r\n\r\n===Install===\r\nNMM or extract file to your Data folder.\r\n\r\n===Compatibility===\r\n[list][*]Shouldn\\'t have much of a problem with anything that doesn\\'t change those four ingredients.\r\n[*]If you are using a mod that makes alchemy take time (if there is one, I\\'m not sure) you might have a problem due to the potion durations being, like most potions, about a minute. If anyone is using such a mod and can test that out I would appreciate it. [/list]\r\n\r\n===Note===\r\nThe screenshot that shows the Nirnroots being used shows that the Fortify Alchemy effect lasts for 0 seconds. After taking that screenshot I fixed that so they actually have durations on their effects.",
+  "categoryId": "40",
+  "version": "1.1",
+  "author": "AnkhAscendant",
+  "createdUnix": "1348905859",
+  "updatedUnix": "1348929464",
+  "containsAdultContent": false,
+  "uploadedBy": "AnkhAscendant",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "91041",
+      "name": "Fortify Alchemy",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Fortify Alchemy-24757-1.rar",
+      "uploadedUnix": "1348905910",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/cc95b55c9b3b9e9676cb32d34b5238004b8303961f7ed7a3dc9eee993e81cbc4/analysis/1407192844/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fortify%20Alchemy-24757-1.rar?fid=91041&ttl=1535795913&ri=8192&rs=8192&setec=9d8a5d99259786a089753b6bfcf1b2cf"
+    },
+    {
+      "fileId": "91100",
+      "name": "Fortify Alchemy - no Nirnroot",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Fortify Alchemy - no Nirnroot-24757-1-1.rar",
+      "uploadedUnix": "1348929464",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/fae2c84334304332411a6aa5c2454be8a6f503d209fe0b847fdee7220ef99711/analysis/1407193448/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fortify%20Alchemy%20-%20no%20Nirnroot-24757-1-1.rar?fid=91100&ttl=1535795914&ri=8192&rs=8192&setec=3ad16850b73984898c233abfc86324d1"
+    }
+  ]
+}

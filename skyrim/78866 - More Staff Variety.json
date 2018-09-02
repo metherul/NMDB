@@ -1,0 +1,48 @@
+{
+  "modId": 78866.0,
+  "modName": "More Staff Variety",
+  "summary": "Enables every type of staff to spawn with every type of staff mesh, leading to more varied types of staffs.",
+  "descriptionHtml": "[u][b][size=4]Reason For Creation[/size][/b][/u]\r<br />\r<br />Something that annoyed me in Skyrim was the lack of incentive to be a mage (cosmetically speaking). With clothing and weapons you&#39;ve got a choice of something like 10 robes (really only two, since 8 are re-textures of the other 2), same with staves, if you want to be a destruction user you&#39;re limited to using one type of staff, which has one in-game model and that&#39;s it.\r<br />\r<br />I felt it should have been something already in the game, they created 5 cool looking staff models but restricted them to their own respective school of magic, which kind of eliminates the oh-so fun dilemma of choosing between your best weapon (stat wise) and the one you just found because it &#34;looks cooler&#34;\r<br />\r<br />This mod was easy to make, but a royal pain in the ass. For those wanting to know how it was done technically, a copy of the staff templates was made and given a different mesh/model (five for each five staff type) then a copy of each existing staff in-game was made (five for each 30 or something staffs in game), each copy given a different template, then the levelled lists were duplicated in order to get the new staffs in game.\r<br />\r<br />/rant\r<br />\r<br />[size=4][u][b]What Mod This Does[/b][/u][/size]\r<br />\r<br />This mod does two things:\r<br />-Creates five other variants of every type of staff found in the game (i.e Staff of Sparks, Staff of Repel Undead, Staff of etc etc). Each variant uses one of the other staff models from the different school of magic.\r<br />-Edits the levelled lists so these new staffs will spawn on enemies and appear in merchants.\r<br />-This will NOT change unique staffs or Forsworn staffs. The ONLY staffs effected are the basic magic school ones.\r<br />\r<br />-I&#39;ve included the black Dragon Priest staff you see endgame, I don&#39;t see any reason for it not to be included here, it&#39;s a fairly attractive model that&#39;s used once and never seen again in-game, this mod is a nice chance to reintroduce it.\r<br />\r<br />\r<br />If you find a bug or something similar let me know.\r<br />\r<br />If you would like to use this mod in your own mod, let me know.",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Aurora555",
+  "createdUnix": "1474412817",
+  "updatedUnix": "1474471665",
+  "containsAdultContent": false,
+  "uploadedBy": "Aurora555",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000221541",
+      "name": "Staff Variety",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Staff Variety-78866-1-0.zip",
+      "uploadedUnix": "1474412616",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ed46b74cf4d7df81c57de48fc3524dbb45784d159f807542e26a5458cd1d89f5/analysis/1474412642/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Staff%20Variety-78866-1-0.zip?fid=1000221541&ttl=1535867569&ri=8192&rs=8192&setec=a68a529c29234456a9120faa69ebcfbb"
+    },
+    {
+      "fileId": "1000221602",
+      "name": "Staff Variety",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Staff Variety-78866-1-1.zip",
+      "uploadedUnix": "1474471665",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/fed2ee460e1596b0f29f8a3f5dcc65af8b1f5af045e1e3f929431d3d9049d768/analysis/1474471681/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Staff%20Variety-78866-1-1.zip?fid=1000221602&ttl=1535867570&ri=8192&rs=8192&setec=84e5d6292bf235ffddaa2732b8641500"
+    }
+  ]
+}

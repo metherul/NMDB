@@ -1,0 +1,32 @@
+{
+  "modId": 12684.0,
+  "modName": "Highlander Katanas",
+  "summary": "Highlander Katanas\r<br />\r<br />1 plugin = 2 swords | 5 versions\r<br />\r<br />Installation:\r<br />Copy meshes + textures folder & HIGHLANDER KATANA.esp to your Skyrimdata directory.",
+  "descriptionHtml": "[center]I&#39;ve quit modding and moved on to social work and game programming.\r<br />As a final gift: [b] ALL MY ASSETS ARE FREE TO USE[/b]\r<br />For further details and constraints, please check out the board thread:\r<br />[url=http://forums.nexusmods.com/index.php?/topic/1779275-time-to-say-good-bye-and-a-little-gift/]http://forums.nexusmods.com/index.php?/topic/1779275-time-to-say-good-bye-and-a-little-gift[/url]\r<br />Cheerio and keep on playing&#33;[/center]\r<br />\r<br />Highlander Katanas\r<br />\r<br />1 plugin = 2 swords | 5 versions:\r<br />Duncan McLeod&#39;s Katana: 2h long handle, 2h short handle, 1h\r<br />Connor McLeod&#39;s Katana: 2h, 1h\r<br />\r<br />\r<br />Installation:\r<br />\r<br />Copy meshes + textures folder & HIGHLANDER KATANA.esp to your Skyrimdata directory.\r<br />\r<br />The folder-structure should look like:\r<br />... SkyrimdatameshesweaponsHIGHLANDER ALL NIF FILES\r<br />... SkyrimdatatexturesweaponsHIGHLANDER ALL DDS FILES\r<br />... SkyrimdataHIGHLANDER KATANA.esp\r<br />\r<br />Make sure that the plugin is activated in launcher =&gt; DATA FILES.\r<br />The weapon is placed in the forge-menu along with the steel items.\r<br />\r<br />OR open console (key ^) and enter HELP HIGHLANDER 4\r<br />You get a code, after that enter PLAYER.ADDITEM CODE 1\r<br />(1 = amount) - the weapon will be placed in your inventory.\r<br />\r<br />(Code should look like XX000D63, XX= the load number of the mod, for example PLAYER.ADDITEM 12000D63 1)\r<br />\r<br />Damage should scale with your skills/lvl and is similar to the Daedric counterparts but faster, \r<br />if you want to adjust the dmg open the Creation Kit, LOAD, check SKYRIM.ESM and HIGHLANDER KATANA.ESP in \r<br />the left window, set HIGHLANDER KATANA.ESP to ACTIVE FILE and press OK. In the object window check ITEMS \r<br />and WEAPONS, search for HIGHLANDER | HIGHLANDER1H | HIGHLANDERSHORT or DUNCAN | DUNCAN1h and open the found form, \r<br />adjust the dmg/speed values in this window, press OK and SAVE. (see screenshots on TheNexus for further details)\r<br />\r<br />greetings\r<br />Ghosu ",
+  "categoryId": "55",
+  "version": "1.1",
+  "author": "Ghosu",
+  "createdUnix": "1331490198",
+  "updatedUnix": "1332956580",
+  "containsAdultContent": false,
+  "uploadedBy": "ghosu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "47715",
+      "name": "Highlander Katanas",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6960",
+      "fileName": "Highlander Katanas-12684-1-1.rar",
+      "uploadedUnix": "1332956580",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/fb14de9dff5d800a7fbe48bcf75453382b0b4d46422a09f6f031a250efd548ae/analysis/1406784431/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Highlander%20Katanas-12684-1-1.rar?fid=47715&ttl=1535774797&ri=8192&rs=8192&setec=fbee3f2b5a678d27230876d25911449f"
+    }
+  ]
+}

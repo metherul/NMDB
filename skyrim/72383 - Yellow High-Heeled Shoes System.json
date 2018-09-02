@@ -1,0 +1,32 @@
+{
+  "modId": 72383.0,
+  "modName": "Yellow High-Heeled Shoes System",
+  "summary": "A new  Independent real high-heeled shoes system.",
+  "descriptionHtml": "Introdution:\r<br />YHHS,the full name is Yellow High-Heeled Shoes.Independent real high-heeled shoes made by Yellow from Dragonsreach Mod Group. It is an open source high heeled shoes system mainly using SKSE,C++ and Papyrus.\r<br />It is easy to use and has high compatibility and stability.It does not increase pressure of the system.And it is compatible with HDT real high-heeled shoes system, without any conflict.Using hotkey to rise and descent, easy to handle.\r<br />And for the modder, in order to make things convenient for the High-Heeled Shoes modder,we add a new mechanism.The modder do not need to using CK to add any data for the shoes,even a beginner can make high-heels shoes.It do not occupy the enchanting slot of the shoes, your shoes can be normally enchanted in game.\r<br />\r<br />\r<br />\r<br />Compatibility:\r<br />Because the mod is based on skse 1_9_32 edition, so please keep your skse update.No requirements on which edition the game is. And it is compatible with any other body type.\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />Usage method:\r<br />1:[For the player him/herself]Enter the game after installing the mod, you will get several magic, first please put on shoes without any height setting,then use keyspell magic to open the hotkey, press &#34;V&#34; can rise the heels, and &#34;B&#34; can descent,when satisfied with the heel height, press F5 to save, then using the keyspell magic to close the hotkey function(you do not have to do it, but the V and B key with keep functional).\r<br />\r<br />\r<br />2:[For NPC]First adjust the heel heigh on player own body, then use addspell magic on NPC,let her put on shoes whose heel height is already adjust by you or the modder,it will rise automaticly.Once the spell is add to her, afterwards when she wear the shoes which adjust height by you, it will always rise automaticly.\r<br />\r<br />\r<br />3:[For modder]It is very easy to make shoes.As a modder,when you finish making shoes,enter the game,wear it by yourself, adjust the height, then press F5 to save.A document which contain the height of the shoes will be generate in the game&#39;s location(A folder named YHHS).\r<br />Send this document to others, your high-heels shoe is finished.The name of this document is like eg.YHHS1, YHHS2 and so on. In order to avoid being overwrited due to same name, you can change the name to whatever you like(In English).\r<br />And if you want save many shoe-height data, you do not need to press F5 everytime after you set one height data, you can finish them all and then press F5 to save all the data.And the shoes will not use any enchanting place, you can also enchant other effect in game.Very easy, even for the new guys.\r<br />\r<br />\r<br />\r<br />Credit\r<br />\r<br />Yellow and Dragonsreach Mod Team\r<br />\r<br />[img]http://staticdelivery.nexusmods.com/mods/110/images/72383-0-1451711975.png[/img]",
+  "categoryId": "28",
+  "version": "",
+  "author": "Yellow",
+  "createdUnix": "1451712534",
+  "updatedUnix": "1451712525",
+  "containsAdultContent": false,
+  "uploadedBy": "Schwiftberg",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000189774",
+      "name": "YHHS Main File",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "115",
+      "fileName": "YHHS Main File-72383-.zip",
+      "uploadedUnix": "1451712525",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/0ddfae28f29c078e5bee298ae50e7eb705a0236474941c4600491590df659fcd/analysis/1451712545/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/YHHS%20Main%20File-72383-.zip?fid=1000189774&ttl=1535860915&ri=8192&rs=8192&setec=b9d7aadad3456366922d5dc7845ce0ad"
+    }
+  ]
+}

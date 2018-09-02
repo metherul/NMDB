@@ -1,0 +1,32 @@
+{
+  "modId": 83955.0,
+  "modName": "SEndSwitch - Skyrim-Enderal simple launch switcher",
+  "summary": "With this tool you can keep and play both Skyrim and Enderal (in dofferent folders) without installing/uninstalling.",
+  "descriptionHtml": "Sorry for my English knowledge, but I sure, you can understand this description correctly.\r<br />\r<br />SEndSwitch is a simple tool, created for using both Skyrim and Enderal (IN DIFFERENT FOLDERS).\r<br />Because of some Windows issues and my limited C# knowledge you need to copy this tool both in Skyrim and Enderal folders. (May be I will fix this problem in updates, or just will create different lounchers for Skyrim and for Enderal)\r<br />Tool settings will be stored in C:&#92;Users&#92;Public&#92;SES_settings.txt.\r<br />WHAT THIS PROGRAM DOES:\r<br />It simply renames ini settings and plugins.txt files, because both games using this files, but each of its requires different settings.\r<br />\r<br />Temporary names are:\r<br />\r<br />S.SkyrimPrefs.ini.ses - Skyrim&#39;s SkyrimPrefs.ini,\r<br />S.Skyrim.ini.ses - Skyrim&#39;s Skyrim.ini,\r<br />S.plugins.txt.ses - Skyrim&#39;s plugins.txt,\r<br />\r<br />E.SkyrimPrefs.ini.ses - Enderal&#39;s SkyrimPrefs.ini,\r<br />E.Skyrim.ini.ses - Enderal&#39;s Skyrim.ini,\r<br />E.plugins.txt.ses - Enderal&#39;s plugins.txt,\r<br />\r<br />INSTALLATION:\r<br />1. Copy SEndSwitch.exe in Skyrim and Enderal directories\r<br />2. Rename files of game, you want to be launched first in default names (Without E.&lt;...&gt;.ses or S.&lt;...&gt;.ses)\r<br />3. Files of second game must be renamed in temporary names\r<br />4. Launch one of SEndSwitch.exe files.\r<br />5. Input correct paths of your settings files and game folders\r<br />6. Try to switch &#34;Skyrim&#34; and &#34;Enderal&#34; radiobuttons, if steps 1-5 are done correctly, you can see changes in settings folders. Else the tool can catch an exception.\r<br />7. Choose tool settings, how you want it be and click &#34;Save settings&#34; or &#34;Launch&#34;.\r<br />\r<br />ISSUES:\r<br />IF THE TOOL THROW AN EXCEPTION MESSAGE, CHECK YOUR GAME/SETTINGS PATHS.\r<br />IF GAMES CLOSING WHILE LOAD AND/OR YOU SEE IN-GAME &#34;MOD-MISSING&#34; MESSAGES, CHECK NAMES OF GAME SETTINS FILES OR WHICH FILE YOU LAUNCHED - CORRECT USING IS LAUNCHING EXE FROM FOLDER, WHERE IS A GAME, YOU WANT TO START.\r<br />",
+  "categoryId": "106",
+  "version": "0.1",
+  "author": "stahlketze",
+  "createdUnix": "1495160531",
+  "updatedUnix": "1495160524",
+  "containsAdultContent": false,
+  "uploadedBy": "stahlketze",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000244649",
+      "name": "SEndSwitch",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "SEndSwitch-83955-0-1.exe",
+      "uploadedUnix": "1495160524",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/35d1d5d14eae2cd04717aa89d45bc56978543114debe0519a08de3347a82d52d/analysis/1495160703/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SEndSwitch-83955-0-1.exe?fid=1000244649&ttl=1535872775&ri=8192&rs=8192&setec=de66c7a3c19159a9234c6ae4861f5eb5"
+    }
+  ]
+}

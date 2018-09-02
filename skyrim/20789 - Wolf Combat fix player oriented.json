@@ -1,0 +1,32 @@
+{
+  "modId": 20789.0,
+  "modName": "Wolf Combat fix player oriented",
+  "summary": "A mod that changes the characteristics of the wolf race, for those who play as wolves, but hate the lack of range when in combat. a few other tweaks too.\r\n----If you don\\'t play Skyrim as a wolf feel free to ignore this----",
+  "descriptionHtml": "There are thousands of mods on the Nexus that make player experience better, though I have found few creature related mods, a least for player control. I was  getting bored with the game, so I did some digging and found a few mods that make the wilderness much better and allow the player to switch races to creatures, my favorite being the wolf. \r\n\r\nI searched through the Nexus and other sites, but none seemed to fix the elephant in the room, the frustratingly annoying combat. for whatever reason, the range of attack when playing as a wolf race is severely crippled, being able to attack only from above or half way clipping through an enemy. It made me want to avoid combat altogether. \r\n\r\nSo, naturally, I fixed it. as well as a few other tweaks. I changed the combat range to an actually usable number (150 as compared to 96)\r\n\r\nI also doubled the damage output of wolves, from 5 to 10, making them more of a threat than just an annoyance. \r\n\r\nLast thing I modded was the carry weight, since the wolves carry nothing anyway, the vanilla game had their default carry weight 200, which is immersion breaking for me, so I changed it down to 50. \r\n\r\nA simple mod that makes the game more feasible as a wolf, making combat an actual option.\r\n\r\n*LOAD ORDER*\r\nI highly recommend putting this after any mods that alter combat or wolves, it\\'s at the bottom of my load order list. place the esp. in your Skyrim/data folder\r\n\r\n--Recommended Mods--\r\n\r\nThis mod is essential for playing as ANY creature:\r\n(Jackalheads Complete Playable Monsters Fix)\r\nhttp://skyrim.nexusmods.com/mods/8784\r\n\r\nTextures I use, amazing work\r\n(Slofs Wolves)\r\nhttp://skyrim.nexusmods.com/mods/18704\r\n\r\nBetter food, making hunting and eating food better\r\n(Potent Food)\r\nhttp://skyrim.nexusmods.com/mods/14159\r\n\r\nFriendly wolves and whatnot, (it says it makes a list of animals friendly, but for me its only changed the wolves, which is a plus)\r\n(Animal Friend)\r\nhttp://skyrim.nexusmods.com/mods/14159\r\n\r\nRealistic animal behaviors! put this BEFORE the animal friend in the load list.\r\n(SkyTEST -Realistic Animals and Predators)\r\nhttp://skyrim.nexusmods.com/mods/10175\r\n\r\nA mod that makes leveling up and getting stronger possible! as wolves use the \\'Unarmed\\' skill, this mod still works with wolves :D\r\n(Grandmaster - True Unarmed and Unarmored Combat)\r\nhttp://skyrim.nexusmods.com/mods/13281\r\n\r\nas an optional camera fix, how I play, in your Documents/mygames/skyrim open up your Skyrim.INI and paste the following:\r\n\r\n[Camera]\r\n\r\nfOverShoulderCombatAddY=-50.0000\r\nfOverShoulderCombatPosZ=-30.000\r\nfOverShoulderCombatPosX=38.0000\r\n\r\nfVanityModeMinDist=20.0000\r\nfVanityModeMaxDist=240.0000    \r\nfPitchZoomOutMaxDist=0.0000\r\n\r\nfOverShoulderPosZ=-9.0000\r\nfOverShoulderPosX=6.000\r\n\r\n\r\nand that\\'s all I have for you today. enjoy. :)\r\n",
+  "categoryId": "24",
+  "version": "wolfix",
+  "author": "EvanF32",
+  "createdUnix": "1342723521",
+  "updatedUnix": "1342724202",
+  "containsAdultContent": false,
+  "uploadedBy": "EvanF32",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "75370",
+      "name": "wolfix",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "wolfix-20789-.rar",
+      "uploadedUnix": "1342724202",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/3d5a1448ef90710fe71b86a2732badfbada5ea1887f11a7769008e1b290d2d86/analysis/1407033724/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/wolfix-20789-.rar?fid=75370&ttl=1535789156&ri=8192&rs=8192&setec=febbb05f23e53e42eb7bcb39bfe390d5"
+    }
+  ]
+}

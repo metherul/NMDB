@@ -1,0 +1,48 @@
+{
+  "modId": 55531.0,
+  "modName": "Custom Difficulty UI",
+  "summary": "This mod allows you change multipliers of damages for each type of game difficulty.<br /><br />SKSE/SkyUI version.",
+  "descriptionHtml": "[color=#ff0000][size=3][b]ATTENTION[/b][/size][/color]\n<br />\n<br />[size=3]Modding for standard Skyrim is no longer supported. The Skyrim SE version of this mod can be found [url=https://www.nexusmods.com/skyrimspecialedition/mods/14362]here[/url].[/size]\n<br />\n<br />\n<br />[color=#9fc5e8][size=3][b]DESCRIPTION[/b][/size][/color]\n<br />\n<br />[size=3]This mod allows you change multipliers of damages for each type of game difficulty. For instance, at the \"Legendary\" level you will produce a hit with a damage x0.25, while NPCs will hit you with x3 multiplier. Using this mod you are able to fix that.\n<br />\n<br />Features:[/size]\n<br />[list]\n<br />[*][size=3]Powered by SkyUI (MCM only)[/size]\n<br />[*][size=3]No plans to add new features[/size]\n<br />[/list]\n<br />\n<br />[color=#9fc5e8][size=3][b]REQUIREMENTS[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3][url=http://skse.silverlock.org/]SKSE 1.6.16[/url] or newer[/size]\n<br />[*][size=3][url=http://skyrim.nexusmods.com/mods/3863]SkyUI 4.1[/url] or newer[/size]\n<br />[/list]\n<br />\n<br />[color=#9fc5e8][size=3][b]UPDATING[/b][/size][/color]\n<br />\n<br />[size=3]Just overwrite files and play.[/size]\n<br />\n<br />\n<br />[color=#9fc5e8][size=3][b]WHY?[/b][/size][/color]\n<br />\n<br />[size=3]You may know others mods with same functionality and I know them too.\n<br />\n<br />My goals were:[/size]\n<br />\n<br />[list]\n<br />[*][size=3]Give an ability to change multipliers inside the game without changing  order of \".esp\" files or choose exactly one type difficulty  as author said.[/size]\n<br />[*][size=3]Do not add any other things to balance the game. Standalone mod to do one thing :)[/size]\n<br />[/list]\n<br />[size=3]If you are looking for mod to change multipliers depending on weapon's type or material, or even magick spell type, checkout [url=http://www.nexusmods.com/skyrim/mods/55597]Weapon Damage UI[/url][/size]\n<br />\n<br />\n<br />[color=#9fc5e8][size=3][b]CREDITS[/b][/size][/color]\n<br />\n<br />[size=3]The mod is forked version of [url=http://www.nexusmods.com/skyrim/mods/51988/]Customizable Difficulty[/url] by Leonord. \n<br />Sorry man, I can't wait when you release new version. So, I had to rewrite all things.\n<br />\n<br />SKSE-free version [url=http://www.nexusmods.com/skyrim/mods/4981/]Custom Difficulty[/url] by Phitt:\n<br />\n<br />I've playing with this one all the time, but sometimes I want to change \n<br />multipliers inside the game and I could not do this.\n<br />\n<br />Thank you very much, guys![/size]\n<br />\n<br />\n<br />[color=#9fc5e8][size=3][b]INSTALLATION[/b][/size][/color]\n<br />\n<br />[size=3]For NMM, MO users:[/size]\n<br />\n<br />[list]\n<br />[*][size=3]Download, install and activate mod as any other.[/size]\n<br />[*][size=3]Follow instructions below from p.3[/size]\n<br />[/list]\n<br />[size=3]For all:[/size]\n<br />[list=1]\n<br />[*][size=3]Unpack the contents of the archive to your \"Skyrim/Data\" folder.[/size]\n<br />[*][size=3]Check cdUI.esp file in the mod manager.[/size]\n<br />[*][size=3]Run Skyrim via SKSE.[/size]\n<br />[*][size=3]Enter to Mod Settings and exit: Esc -&gt; MOD SETTINGS -&gt; TAB -&gt; TAB[/size]\n<br />[*][size=3]Wait 5-10 seconds until you receive message \"Custom Difficulty UI disabled\".[/size]\n<br />[*][size=3]Enter to Mod Settings and customize it on your taste.[/size]\n<br />[/list]\n<br />\n<br />[color=#9fc5e8][size=3][b]UNINSTALLING[/b][/size][/color]\n<br />\n<br />[list=1]\n<br />[*][size=3]In Mod Settings disable mod.[/size]\n<br />[*][size=3]Save the game.[/size]\n<br />[*][size=3]Disactivate mod in mod manager.[/size]\n<br />[*][size=3]Delete files from \"Skyrim/Data\" folder (for non-NMM/MO users).[/size]\n<br />[/list]",
+  "categoryId": "24",
+  "version": "1.02",
+  "author": "gh0stwizard",
+  "createdUnix": "1404321696",
+  "updatedUnix": "1418995721",
+  "containsAdultContent": false,
+  "uploadedBy": "gh0stwizard",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000115605",
+      "name": "cdUI-EN-RU",
+      "version": "1.00",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "cdUI-EN-RU-55531-1-00.zip",
+      "uploadedUnix": "1404326265",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/f24e152cd91d7683ce960731ec971f0ba588ed7423b9dc76b881a37932b8a8d3/analysis/1408157833/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/cdUI-EN-RU-55531-1-00.zip?fid=1000115605&ttl=1535840357&ri=8192&rs=8192&setec=a6dadfd2753245fd29d83856f1770988"
+    },
+    {
+      "fileId": "1000139417",
+      "name": "Custom_Difficulty_UI-1.02-EN-RU",
+      "version": "1.02",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "16",
+      "fileName": "Custom_Difficulty_UI-1.02-EN-RU-55531-1-02.zip",
+      "uploadedUnix": "1418995721",
+      "modVersion": "1.02",
+      "virusScanUrl": "https://www.virustotal.com/file/c8e33b685b231b88dfb600ea13ec8cd8106dd586a1f171f1a75fb5161a05e704/analysis/1418995742/",
+      "changelogHtml": " On page &#34;Miscellaneous&#34; added settings to adjust sliders <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Custom_Difficulty_UI-1.02-EN-RU-55531-1-02.zip?fid=1000139417&ttl=1535840358&ri=8192&rs=8192&setec=49280ac775cc21cdf29964c8c6dbdea5"
+    }
+  ]
+}

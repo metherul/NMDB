@@ -1,0 +1,48 @@
+{
+  "modId": 39211.0,
+  "modName": "Ethereal Elven Overhaul Sky-Re Compability Patch - SkyRe Spanish Translation",
+  "summary": "Traducción del Parche de compatibilidad entre el Ethereal Elven Overhaul y SkyRe. NO necesitas descargar el Mod original. También necesitas tener instalados el Dawnguard y el Dragonborn.",
+  "descriptionHtml": "[center][size=3][color=orange]Patch para compatibilizar el Etheral Elven Overhaul con el Skyrim Redone[/color]\r\n\r\nNO necesitáis descargar el original, pero mostrad vuestro apoyo y endosar al autor original... Syq111 aquí:\r\n[url=http://skyrim.nexusmods.com/mods/29185/]Ethereal Elven Overhaul Sky-re Compability patch[/url][/center][/size]\r\n\r\n\r\n[Line]\r\n\r\n[size=3][color=orange]Requerimientos[/color][/size]\r\n\r\n- El Skyrim actualizado al 1.9.32\r\n- Dawnguard y Dragonborn DLC\r\n- [url=http://skyrim.nexusmods.com/mods/9286/]Skyrim Redone (original- Version 1.3) [/url] y su traducción al español [url=http://skyrim.nexusmods.com/mods/24596/]Skyrim Redone Traducido[/url]\r\n- [url=http://skyrim.nexusmods.com/mods/24273/]Ethereal Elven Overhaul (original - Version 1.1.1) [/url] y su traducción al español [url=http://skyrim.nexusmods.com/mods/31645/]EEO Español[/url]\r\n\r\n\r\n[Line]\r\n\r\n[size=3][color=orange]Descripción[/color][/size]\r\n\r\nCompatibiliza los módulos del skyRe con el EEO. El EEO realiza dos cambios importantes: \r\n\r\n\r\nPrimero, edita las tres razas élficas (Alto Elfo, Elfo Osuro y Elfo del Bosque)\r\n\r\nSegundo, edita los enemigos que pertenecen a estas tres razas\r\n\r\nPor tanto sufre problemas de compatibilidad con dós de los módulos del SkyRe:\r\n\r\nSkyRe_Races.esp               (que edita las razas)\r\nSkyRe_EnemyScaling.esp        (que edita los enemigos)\r\n\r\nAsi que para jugar con este parche debereis tener instalados al menos el primero de estos módulos del SkyRe (para el caso de aquellos que [b]NO[/b] useis el módulo SkyRe_EnemyScaling.esp, en vez de la descarga principal debeis usar la version PostASISPatch que esta disponible en la sección opcional de descargas opcionales y que no edita lo enemigos)\r\n\r\n\r\n[line]\r\n\r\n[size=3][color=orange]Orden de carga:[/color][/size]\r\n\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nSkyrim.esm\r\nDawnguard.esm\r\nDragonborn.esm\r\nSkyRe_Main.esp\r\nSkyRe_EnemyScaling.esp\r\nSkyRe_Races.esp\r\nEtherealElven Overhaul.esp\r\n\r\nEEO-Patch.esp\r\n\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\n\r\n[line]\r\n\r\n[size=3][color=orange]Usuarios del ASIS[/color][/size]\r\n\r\nPara aquellos que useis ASIS con el SkyRe y compatibilizéis ambos usando algunos de los múltiples parches que ha fabricado Qotsafan ([url=http://skyrim.nexusmods.com/mods/29375/]SkyRe ReProccer Compatibility Patches[/url])\r\nTened en cuenta que hay uno en concreto llamado PreASISPatchEEO.esp que edita los enemigos y  que contiene practicamente la misma información y los mismo cambios que este parche, al ponerle a los enemigos de raza élfica del juego los cambios en las facciones de la cara y el rostro que produce el EEO. Por tanto ambos parches son practicamente idénticos (si hay que elegir, el parche de Qotsafan puede ser un pelín mas completo, pero son casi iguales).\r\n\r\nPor tanto, para aquellos que useis el ASIS y querais usar el PreASISPatchEEO.esp, hay una version del parche EEO-SkyRe en la seccion de descargas opcionales que solo edita las razas y [b]NO[/b] edita los enemigos. Asi evitamos realizar dos veces los mismo cambios.\r\nEl orden de carga quedará:\r\n\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nSkyrim.esm\r\nDawnguard.esm\r\nDragonborn.esm\r\nSkyRe_Main.esp\r\nSkyRe_EnemyScaling.esp\r\nSkyRe_Races.esp\r\nEtherealElven Overhaul.esp\r\n...\r\nEEO-Patch.esp\r\n...\r\nPreASISPatchEEO.esp\r\n...\r\nASIS-Dependency.esp\r\nASIS.esp\r\n\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\ny disfrutad :)\r\n\r\n\r\n[line]\r\n\r\n[size=3][color=orange]Créditos[/color][/size]\r\n\r\nCreditos a Syq111 por su parche original, disponible en [url=http://skyrim.nexusmods.com/mods/29185/]Ethereal Elven Overhaul Sky-re Compability patch[/url]\r\nA nuska por el ethereal Elven Overhaul\r\nA T3nd0 por el skyrim Redone\r\nCredits for zod2242, for better description of my mod.I\\'m bad descriptor.My actions better speaks.Thx very much zod2242\r\nAnd thx all for endorsing and testing this mods so he can be fully functional without bugs and some other thing.\r\nThx for pa2k,he highlight issue with Enemy Scalling.esp so now SkyRe should be fully compatible\r\n\r\n\r\n[line]\r\n\r\n[size=3][color=orange]Otras Sugerencias[/color][/size]\r\n\r\n[url=http://skyrim.nexusmods.com/mods/19/]Unofficial Skyrim Patch[/url] \r\n[url=http://skyrim.nexusmods.com/mods/23491/]Unofficial Dawnguard Patch[/url]\r\n[url=http://skyrim.nexusmods.com/mods/31083/]Unofficial Dragonborn Patch[/url]\r\n\r\nComplementos muy útiles:\r\n\r\n[url=http://skyrim.nexusmods.com/mods/38177/]UnofficialSkyrim Redone Patch - SkyRe Spanish Translation[/url]\r\n\r\n[url=http://skyrim.nexusmods.com/mods/38515/]Balbor and Steelsouls SkyRe ReProccer - SkyRe Spanish Translation Project[/url] \r\n",
+  "categoryId": "79",
+  "version": "8",
+  "author": " Syq111 traducido por khamuy",
+  "createdUnix": "1375216574",
+  "updatedUnix": "1375216510",
+  "containsAdultContent": false,
+  "uploadedBy": "khamuy",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000042533",
+      "name": "Parche para el EEO 1_1_1-SkyRe 1_3",
+      "version": "8",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "123",
+      "fileName": "Parche para el EEO 1_1_1-SkyRe 1_3-39211-8.rar",
+      "uploadedUnix": "1375216069",
+      "modVersion": "8",
+      "virusScanUrl": "https://www.virustotal.com/file/b454404c0b65c05f9fd6c1c7eb8756ec28f323e0641fce1eb4339c46b9d465b7/analysis/1407662061/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Parche%20para%20el%20EEO%201_1_1-SkyRe%201_3-39211-8.rar?fid=1000042533&ttl=1535819644&ri=8192&rs=8192&setec=febc981313abb92f42479316536a2090"
+    },
+    {
+      "fileId": "1000042536",
+      "name": "Usuarios del PreASISPatch - Parche para el EEO 1_1_1-SkyRe 1_3",
+      "version": "8",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "Usuarios del PreASISPatch - Parche para el EEO 1_1_1-SkyRe 1_3-39211-8.rar",
+      "uploadedUnix": "1375216510",
+      "modVersion": "8",
+      "virusScanUrl": "https://www.virustotal.com/file/d6557ed6a4c1ac3634a89b74d43f76dd07ba20b177c2958a99b639406a1c3bac/analysis/1407662062/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Usuarios%20del%20PreASISPatch%20-%20Parche%20para%20el%20EEO%201_1_1-SkyRe%201_3-39211-8.rar?fid=1000042536&ttl=1535819645&ri=8192&rs=8192&setec=8ada7816948a4bee52f36af9ae345a3f"
+    }
+  ]
+}

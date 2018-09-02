@@ -1,0 +1,32 @@
+{
+  "modId": 12824.0,
+  "modName": "Master Chest",
+  "summary": "A set of \\\"synchronised\\\" chests for easy access to all stored items...Nehrim style.",
+  "descriptionHtml": "The Master Chest\r\n\r\n==========================\r\nDESCRIPTION\r\n==========================\r\n\r\nI think a few of these have been made already, but I\\'ve had one in the works so I decided to share it anyway.  \r\n\r\nThis will add chests in various strategic locations throughout Skyrim.  What is stored in one, is stored in all.  Players of Nehrim and Fallout will be familiar with the concept.\r\n\r\nWe have gone about this a little differently in that there are chests in all towns and cities (we tried to locate them close to blacksmiths if at all possible).  And there is a chest in each player home.  There are 22 chests total.  And you can\\'t miss them either because we gave them a nice bluish tint.\r\n\r\nWe have tried to position the chests conveniently without getting in the way of anything.  But they are easy to reposition if you happen not to like their placement.\r\n\r\nIt works similarly to how your items were transferred during the \\\"diplomatic immunity\\\" quest.  The script involved is basically the same as what was used with that quest, with some minor tweaking.\r\n\r\nThe system works off of a master chest (which is under the landscape) and all the satellite chests are just remote access points to the master chest.  The tiny script is associated with the base item of the satellite chests.\r\n\r\nThis means that if you have a mod with a player home (or anything else for that matter) and want to place a satellite chest there, all you have to do is drag and drop it from the object window in the creation kit to wherever you want in the render window and it will function like all the other satellite chests.\r\n\r\n==========================\r\nHOW TO ADD YOUR OWN CHESTS\r\n==========================\r\n\r\nJust start the creation kit, load \\\"skyrim.exm\\\" and \\\"update.esm\\\" and this mod.  Make sure this mod is set as \\\"active file\\\".\r\n\r\nEither locate \\\"player satellite chest\\\" in the object window (or clone it in the \\\"render window\\\" from one of the chests already placed). \r\n\r\nThen drag and drop (or paste) it where you want it in the \\\"render window\\\". When you have placed the additional chest (or chests), save this mod and your additional chest(s) will be active.\r\n\r\nYou can also add chests to player homes (or other sites) from mods if you want to.  Just make sure the mod containing the player home (or whatever location you wish to have a chest) is loaded along with \\\"skyrim.esm\\\" and \\\"update.esm\\\".  But make sure it is not selected as the \\\"active file\\\".  This mod should load after any mods where you wish chests to be present.\r\n\r\n==========================\r\nINSTALLING/UNINSTALLING\r\n==========================\r\n\r\nTo install:\r\nUnpack the archived \\\"Master Chest Mod.7z\\\" file with \\\"7-zip\\\" or a similar programme.\r\n\r\nCopy and paste the contents of the mod\\'s \\\"data\\\" folder to your \\\"...skyrim/data/\\\" folder.\r\n\r\nOr, alternatively, you can use a compliant mod manager.  \r\n\r\nEnable the mod in the \\\"data files\\\" area of the Skyrim launcher.\r\n\r\nTo uninstall:\r\nDelete the files (listed below) installed with this mod.\r\n\r\nOr, if your mod manager supports uninstalling, you can use that.\r\n\r\n=========================\r\nFILES\r\n=========================\r\n\r\nMasterChest.esp\r\nmeshes/clutter/SatelliteChest/satellitechest.nif\r\nScripts/PlayerSatelliteChestScript.pex\r\nScripts/Source/PlayerSatelliteChestScript.psc\r\nTextures/clutter/SatelliteChest/SatelliteChest.dds\r\n\r\n=========================\r\nCREDITS and PERMISSIONS\r\n=========================\r\n\r\nAs always, anyone is welcome to freely use anything they would like from this mod in any way they would like.  There really isn\\'t much original content in this mod anyway.  The script is basically what is already included in the game.  And the chest texture is only a colour replacement.",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "Andrew Clements",
+  "createdUnix": "1331656085",
+  "updatedUnix": "1331656202",
+  "containsAdultContent": false,
+  "uploadedBy": "AndrewClements",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "42957",
+      "name": "Master Chest",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "495",
+      "fileName": "Master Chest-12824-1-0.7z",
+      "uploadedUnix": "1331656202",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e334431b9b8095d5b6902f5d04650a000d4f7cb3fa3106b41cf160cc64c68a9a/analysis/1406746926/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Master%20Chest-12824-1-0.7z?fid=42957&ttl=1535775082&ri=8192&rs=8192&setec=702bb1c77435c684ab571883eb26e9bd"
+    }
+  ]
+}

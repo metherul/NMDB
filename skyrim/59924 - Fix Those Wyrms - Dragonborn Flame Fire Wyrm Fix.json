@@ -1,0 +1,32 @@
+{
+  "modId": 59924.0,
+  "modName": "Fix Those Wyrms - Dragonborn Flame Fire Wyrm Fix",
+  "summary": "A fix for the Dragonborn Flame fire wyrms, makes them behave as expected... and ACTUALLY USEFUL.",
+  "descriptionHtml": "If you&#39;ve ever used the Dragonborn Flame power (DB), then you&#39;ll know that fire wyrms are... well, pretty awful.  Most of the time they do nothing and you can&#39;t use them in public because they attack neutral NPCs... something which guards aren&#39;t all that crazy about and which may result in your followers protecting the wyrms from the guards ([i]IF[/i] the wyrms aren&#39;t already attacking your followers... *sigh*).\r<br />\r<br />Thanks uncle Hermaeus, they&#39;re just what I&#39;ve always wanted...&#33;\r<br />\r<br />Anyway, this mod fixes their behaviour.  It&#39;s nothing much, just a few tweaks I made when I couldn&#39;t find an existing mod, but they make a huge difference: Fire Wyrms will only attack hostiles and will actively seek them out instead of... not.  If there&#39;s nothing to attack, they&#39;ll wander a short distance rather staying in one place (which I thought made them look bugged).  There will still be pathing issues on stepped or steep terrain, but this is something inherent to the creature type (they&#39;re essentially retextured Ice Wraiths).\r<br />[color=#ffff00][size=2]\r<br />[b]Short version: Fire Wyrms will be useful and actually [i]attack[/i] enemies... [i]only[/i] enemies.[/b][/size][/color]\r<br />\r<br />xone\r<br />x\r<br />\r<br />\r<br />[size=5]Requirements:[/size]\r<br />\r<br />Dragonborn DLC\r<br />\r<br />\r<br />[size=5]Compatibility:[/size]\r<br />\r<br />Compatible with anything that doesn&#39;t edit the following Dragonborn DLC base NPC record: xx01F990 dlc2FireWyrmCreated &#34;Fire Wyrm&#34;\r<br />\r<br />More specifically, this mod is compatible with [url=http://www.nexusmods.com/skyrim/mods/14353]Improved Dragon Shouts[/url] by [url=http://www.nexusmods.com/skyrim/users/221976]Ozram[/url], which I use and recommend.\r<br />\r<br />\r<br />[size=5]Installation/Removal:[/size]\r<br />\r<br />To install, place the .esp file in &lt;skyrim&gt;&#92;data and enable it in the launcher.  Remove the file to uninstall the mod... or use a mod manager for everything instead.  Installation or removal can be performed at any time.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "xone",
+  "createdUnix": "1415918544",
+  "updatedUnix": "1415905685",
+  "containsAdultContent": false,
+  "uploadedBy": "x0ne",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000135135",
+      "name": "xone Fix Those Wyrms",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "xone Fix Those Wyrms-59924-1-0.7z",
+      "uploadedUnix": "1415905685",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c27e9ad3ec72c5c473188d4d99fc449ffcdcaea7416f8c1dcaf67ad713cb5667/analysis/1415905804/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/xone%20Fix%20Those%20Wyrms-59924-1-0.7z?fid=1000135135&ttl=1535847386&ri=8192&rs=8192&setec=eb2e5cd08faea7a4e210d90bfe40286b"
+    }
+  ]
+}

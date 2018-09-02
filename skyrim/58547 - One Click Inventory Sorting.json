@@ -1,0 +1,48 @@
+{
+  "modId": 58547.0,
+  "modName": "One Click Inventory Sorting",
+  "summary": "Adds a spell that organizes your inventory items into containers in your house. ",
+  "descriptionHtml": "[size=2]~~~~ THIS MOD REQUIRES SKSE&#33; ~~~~[/size]\r<br />\r<br />[size=6]One Click Sorting[/size]\r<br />\r<br />[color=#ff0000]NO LONGER MAINTAINED.[/color] There&#39;s a superior sorting system available at my other mod, [url=http://www.nexusmods.com/skyrim/mods/65433%08/?]Useful Alteration[/url]. \r<br />\r<br />This mod adds a new spell called &#34;Unobsess.&#34; When cast in a cell (either indoor or outdoor), it does the following:\r<br />\r<br />1. Picks eight containers in the house, for Weapons, Apparel, Crafting Items, Potions, Ingredients, Books, Food, and Junk.\r<br />2. Automatically sorts the caster&#39;s inventory into those containers.\r<br />3. Prevents you from interacting with anything during the sort, so you don&#39;t have to worry about messing it up.\r<br />4. Remembers which containers are which, so if you cast the spell again in the same location, your inventory gets sorted the same way.\r<br />5. Causes the containers to glow for a few seconds so you can find them if you forget. \r<br />6. Allows you to override the default container choices by casting the spell while sneaking.\r<br />\r<br />When the containers stop glowing, you can interact with things again. If I have a lot of stuff, the sorting can take around ten seconds on my machine. Ponder the Way of the Voice during this time.\r<br />\r<br />The mod attempts to pick good default containers:\r<br />\r<br />1. Weapons and Arrows go in the Player Chest or a long noble chest;\r<br />2. Armor/Apparel go into a wardrobe or a dresser;\r<br />3. Books go in an endtable or a bookcase;\r<br />4. Crafting items (ore, ingots, gems, animal stuff, soul gems) go in a safe or a cupboard;\r<br />5. Potions go in a barrel;\r<br />6. Food goes in a sack;\r<br />7. Ingredients go in a satchel;\r<br />8. Junk goes in whatever container is closest.\r<br />\r<br />If a preferred container type can&#39;t be found in the house, a random one close to the caster will be used. \r<br />\r<br />That all works well for small homes like Breezehome, but not so well for larger homes like Proudspire Manor. To override a container choice:\r<br />\r<br />1. Sneak.\r<br />2. Cast the spell near the container you want to use.\r<br />3. The container will glow red. Forever, unless you complete the next step.\r<br />4. Open the container and put something in the desired category inside. For instance, if you want the container to store weapons, put a weapon inside.\r<br />5. You&#39;ll get a message like &#34;This container will store weapons.&#34;\r<br />6. The container will stop glowing.\r<br />\r<br />[color=#ff0000][size=4]IMPORTANT&#33;\r<br />[/size][/color]\r<br />1. You should only cast Unobsess in a house you own. Otherwise your items might get flagged as stolen by the system. I can&#39;t do anything about that.\r<br />2. Quest items are also sorted/stored. This can mess up quests unless you remember to take them out again.\r<br />3. This mod should work with any player-owned house, even those added by other mods, even if they use totally new containers.\r<br />4. It&#39;s safe to uninstall this mod; you won&#39;t lose any of your stuff. (You just won&#39;t be able to autosort it anymore.)\r<br />\r<br />[size=4]MY OTHER MODS\r<br />[/size]\r<br />[size=3]* [url=http://www.nexusmods.com/skyrim/mods/57721/?]Epic Restoration\r<br />[/url] [size=3]* [/size][url=http://www.nexusmods.com/skyrim/mods/65433%08/?]Useful Alteration[/url]\r<br />* [url=http://www.nexusmods.com/skyrim/mods/58543/?]Master Spells Should Be Masterful[/url]\r<br /> * [url=http://www.nexusmods.com/skyrim/mods/58547/?]One Click Inventory Sorting[/url] \r<br />* [url=http://www.nexusmods.com/skyrim/mods/55285/?]Two Handed Weapons Smash Locks[/url]\r<br />[/size]",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "Haptly",
+  "createdUnix": "1411943591",
+  "updatedUnix": "1412302908",
+  "containsAdultContent": false,
+  "uploadedBy": "Haptly",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000128830",
+      "name": "OneClickSorting-v1.0.7z",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "OneClickSorting-v1.0.7z-58547-1-0.7z",
+      "uploadedUnix": "1411943514",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ce48a3696c05af9e81171fabd6017b25410d2cea6c57d781da3b8ad35db68d90/analysis/1411943581/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/OneClickSorting-v1.0.7z-58547-1-0.7z?fid=1000128830&ttl=1535845300&ri=8192&rs=8192&setec=1111d0fe900f6d27ca036207c751082e"
+    },
+    {
+      "fileId": "1000129392",
+      "name": "One Click Inventory Sorting 1.1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "One Click Inventory Sorting 1.1-58547-1-1.7z",
+      "uploadedUnix": "1412302908",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/078da1fa3653968bf8f469d5d02273e4c832f092dee131bee61617411712f338/analysis/1412302982/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/One%20Click%20Inventory%20Sorting%201.1-58547-1-1.7z?fid=1000129392&ttl=1535845300&ri=8192&rs=8192&setec=534c257a5974e5cae2ea4d95f54f195f"
+    }
+  ]
+}

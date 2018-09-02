@@ -1,0 +1,32 @@
+{
+  "modId": 44822.0,
+  "modName": "Passive Health Regeneration - Mortal Follower Fix",
+  "summary": "Adds an ability so mortal followers can now heal out of combat.",
+  "descriptionHtml": "[b][u]What is it?[/u][/b]\r<br />NPCs that are equipped with this ability will gain an increased healing rate ie. They will now passively heal outside of combat. This is targeted at those who wish to have a mortal (non essential/protected) follower but wish for them to still regenerate health after combat.\r<br />\r<br />There are 5 options available, with the default (i believe) of being 0.7% health regen per per second.\r<br />\r<br />Half - Healing rate of 0.35%\r<br />Normal - Healing rate of 0.7% (Skyrim NPC Default)\r<br />Double - Healing rate of 1.4%\r<br />Triple - Healing rate of 2.1%\r<br />Quadruple - Healing rate of 2.8%\r<br />\r<br />If you want a specific rate, tell me and if i&#39;m nice i&#39;ll add it in for you.\r<br />\r<br />\r<br />[b][u]How to use it?[/u][/b]\r<br />Download the .esp via NMM \r<br />--or Manual: pop it in (skyrim/Data) and activate on launch.\r<br />\r<br />1. In game, open the Skyrim console (~)\r<br />2. Type: help &#34;regen&#34; 4\r<br />3. You will see each ring listed, each with its&#39; own ID.\r<br />4. Click on your target NPC.\r<br />5a. To give said ability, type: additem ([i]itemid[/i])\r<br />5b. To remove said ability, type: removeitem ([i]itemid[/i])\r<br />6. Close console (~)\r<br />7. Save game and enjoy.\r<br />\r<br />\r<br />[b][u]SEE ALSO[/u][/b]\r<br />[url=http://skyrim.nexusmods.com/mods/44831/?]Combat Health Regen[/url]\r<br />\r<br />\r<br />[b][u]Notes[/u][/b]\r<br />- This ability is not used unless added to NPC via console (or creation kit).\r<br />- This does not apply in combat, see [url=http://skyrim.nexusmods.com/mods/44831/?]Combat Health Regen[/url] \r<br />- This does NOT replace current regen rates, merely increases them by said amount.\r<br />- 99.99% Compatible with anything you throw with it.\r<br />\r<br />\r<br />[b][u]Change Log[/u][/b]\r<br />v1.02 (21/04/2014) - Fixed bug and changed to spell rings\r<br />v1.01 (19/10/2013) - Fixed a potential bug\r<br />v1.00 (18/10/2013) - Initial release",
+  "categoryId": "96",
+  "version": "1.02",
+  "author": "Piggles",
+  "createdUnix": "1382092432",
+  "updatedUnix": "1398001948",
+  "containsAdultContent": false,
+  "uploadedBy": "Piggles",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000105745",
+      "name": "Passive Health Regen",
+      "version": "1.02",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Passive Health Regen-44822-1-02.zip",
+      "uploadedUnix": "1398001948",
+      "modVersion": "1.02",
+      "virusScanUrl": "https://www.virustotal.com/file/b016f6b05625dfd57fb8c01c34faf72e53eaf73c5477dae53cafe5922040e7d4/analysis/1408031224/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Passive%20Health%20Regen-44822-1-02.zip?fid=1000105745&ttl=1535825395&ri=8192&rs=8192&setec=1fd47a0badc345a65c3da60567cbf841"
+    }
+  ]
+}

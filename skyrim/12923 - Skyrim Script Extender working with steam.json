@@ -1,0 +1,32 @@
+{
+  "modId": 12923.0,
+  "modName": "Skyrim Script Extender working with steam",
+  "summary": "a .ini file so skyrim script extender will work with steam&#33;",
+  "descriptionHtml": "[color=#ff0000] [size=6]outdated&#33;&#33;&#33;&#33;\r<br />This is no longer required. as just launching skse_loader will works and steam will show up ingame.[/size][/color]\r<br />\r<br />\r<br />\r<br />\r<br />Thanks to the team behind the skyrim script extender i got a new way for you people that doesn&#39;t involve hacking up the .exe\r<br />\r<br />=========================================================================================\r<br />What this does. because apparently it&#39;s not always clear :)\r<br />=========================================================================================\r<br />You&#39;re modding your game. some mods need skse. so you install it and run it normally. you might quickly find out that you do not have steam ingame&#33; this fixed that for you :)\r<br />\r<br />if you run the normal shortcut that steam made for you. or if you click play in the steam library. it loads the skyrim launcher. if you then click play there. it loads skyrim. which mean that it won&#39;t load the script extender.\r<br />\r<br />if you run the skse_loader for the script extender. you have it enabled BUT you won&#39;t have steam ingame.\r<br />\r<br />this basically tricks the launcher into thinking it&#39;s starting up the normal skyrim executable. but instead it starts up skse which then starts skyrim. that way you have both steam and skse at the same time working. \r<br />\r<br />----------------------------------------------------------------------------------------------------------------------------------------\r<br />\r<br />WORKS WITH ALL VERSIONS OF SKYRIM AND SCRIPT EXTENDER&#33;\r<br />\r<br />This .ini file will make the skse_loader.exe load the name that written in it (default TES_.exe)\r<br />\r<br />I DO ADVICE. to set up steam that it doesn&#39;t update skyrim. to do so: go to the steam library, right click skyrim, select properties. then go to the tab updates. then in the top set it to: DO NOT AUTOMATICALLY UPDATE THE GAME. click close and you&#39;re done\r<br />\r<br />when you want to update skyrim i advice to rename the .exe files back to the original names and then update it. \r<br />\r<br />how to install this neat little trick.\r<br />\r<br />if you didn&#39;t already do so go here: http://skse.silverlock.org/ and download the script extender\r<br />\r<br />1.rename the original skyrim exe TESV.exe to TES_.exe\r<br />2.rename the original script extender exe skse_loader.exe to TESV.exe\r<br />3.go to your data folder and check if you have a SKSE folder if u don&#39;t then create it\r<br />4.check if you already have a skse.ini file if u do just add the line:\r<br />\r<br />[Loader]\r<br />RuntimeName=TES_.exe\r<br />\r<br />5.if u don&#39;t have skse.ini then u can create it your self or download this keep in mind that some mod will add their own skse.ini\r<br />  so if it stops working check the ini if that line is still present\r<br />6.create your own or place my .ini file in the SKSE folder\r<br />7.start skyrim normally\r<br />\r<br />[color=red]NOT ALL COMPUTERS WILL SHOW THE .exe BEHIND THE FILES IF THEY DONT THEN DONT WRITE .exe YOURSELF JUST TESV AND TES_[/color]\r<br />\r<br />works with Nexus Mod Manager (just make sure u don&#39;t already have a skse.ini in your data/skese folder because this will completely overwrite that and it might ruin a mod so if u do just add that line your self)\r<br />\r<br />Video walk through on how to get it to work. (new game 0 mods installed fresh install)\r<br />\r<br />[youtube]QnsjvCgbkY0[/youtube]\r<br />\r<br />=======================================================================================\r<br />All credits go to the original creators of the skyrim script extender and Ian for the .ini file",
+  "categoryId": "39",
+  "version": "v1",
+  "author": "MrGrimz",
+  "createdUnix": "1331759383",
+  "updatedUnix": "1332284636",
+  "containsAdultContent": false,
+  "uploadedBy": "MrGrimz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "45218",
+      "name": "Skse ini File",
+      "version": "v1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Skse ini File-12923-v1.rar",
+      "uploadedUnix": "1332284636",
+      "modVersion": "v1",
+      "virusScanUrl": "https://www.virustotal.com/file/49d1b7061faeafd29bea56e5e636320a934058bc623c39ac6c3204a427d90b4d/analysis/1406770343/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skse%20ini%20File-12923-v1.rar?fid=45218&ttl=1535775247&ri=8192&rs=8192&setec=0ffa0d8daedad229c89c8e6985d35022"
+    }
+  ]
+}

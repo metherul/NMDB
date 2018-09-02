@@ -1,0 +1,32 @@
+{
+  "modId": 60722.0,
+  "modName": "2 ESP&#39;s for RS Children Overhaul",
+  "summary": "Made 1 esp (VJRS.esp) to show the arms in 1st person mode, and 1 esp (VJRSArm.esp) to show all things that adult human races can wear (&#34;default&#34; armor, shields, clothing and jewelery.) by adding the 4 child races in the &#34;Armor/Addon&#34; section of the Construction Kit (CK)",
+  "descriptionHtml": "For RS Children Overhaul &#34;only&#34; and really for those people who haven&#39;t played with the &#34;CK&#34; that much (like me&#33;)\r<br />\r<br />Made 2 simple ESP&#39;s to fix the arms not showing in first person mode while playing as a child (VJRS.esp) and no &#34;default&#34; armor (including helms), shields, clothing and jewelery not  showing (VJRSArm.esp)\r<br />\r<br />In the &#34;CK&#34; I went through every line in the &#34;Armor/Addon&#34; section and if an adult human race can wear it, I simply changed the &#34;other race&#34; tab to  INCLUDE the 4 child races (BrentonRaceChild, BrentonRaceChildVampire, ImperialRaceChild, NordRaceChild and RedguardRaceChild.)\r<br />\r<br />NOTE:  I don&#39;t have any armor addons .. yet .. and the VJRSArm.esp if for the game &#34;default&#34; armors and clothing. Also I didn&#39;t change the prison clothes, so you still won&#39;t have any on until after &#34;Unbound&#34; and you pick up some armor or clothes.\r<br />\r<br />This mod is only 2 ESP&#39;s, so a Mod Organizer isn&#39;t neccasary (but highly recommend one for complex mods). Simply extract and place the esp&#39;s into your Data directory .. and to remove, just delete with zero impact on anything ..  however .. load order &#34;IS&#34; Important &#33;&#33;\r<br />\r<br />My current load order is:\r<br />\r<br />Skyrim.esm\r<br />Update.esm\r<br />Unofficial Skyrim Patch.esp\r<br />HearthFires.esm\r<br />Unofficial Hearthfire Patch.esp\r<br />RSkyrimChildren.esm (the reason for the fix:)\r<br />NonEssentialChildren.esp\r<br />RSChildren_HF.esp\r<br />RSChildren_PatchUSKP.esp\r<br />RSChildren_PatchNEC.esp\r<br />VJRS.esp (this mod)\r<br />VJRSArm.esp (this mod)\r<br />HighResTexturePack01.esp\r<br />HighResTexturePack02.esp\r<br />HighResTexturePack03.esp\r<br />Unofficial High Resolution Patch.esp\r<br />SkyUI.esp\r<br />Other esp&#39;s\r<br />\r<br />Possible Conflicts:\r<br />\r<br />Please note that I use Hearthfires DLC, but because I only changed the &#34;default&#34; armor to INCLUDE the 4 child races, I don&#39;t think it maters which RSkyrimChildren.esm is used.",
+  "categoryId": "99",
+  "version": "",
+  "author": "OBWan58",
+  "createdUnix": "1418449611",
+  "updatedUnix": "1418449598",
+  "containsAdultContent": false,
+  "uploadedBy": "OBWan58",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000138643",
+      "name": "VJRS ESP&#39;s.7z",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "26",
+      "fileName": "VJRS ESP's.7z-60722-.7z",
+      "uploadedUnix": "1418449598",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/35d29572bc479d75ef849d99c0701cbc748e7335b0baa4432ed2410fa2faa686/analysis/1418449622/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VJRS%20ESP%27s.7z-60722-.7z?fid=1000138643&ttl=1535848638&ri=8192&rs=8192&setec=3cb8a0c60d39ad964562fa9098dd4ce0"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 36073.0,
+  "modName": "Knock - An Open Lock Spell",
+  "summary": "Have you ever wanted to play a pure mage class but didn&#39;t want to miss out on all kinds of glorious loot stashed away behind locked doors and inside locked chests? Now you can&#33; ",
+  "descriptionHtml": "[b][i][color=red]Also available on Steam Workshop at [url=http://steamcommunity.com/sharedfiles/filedetails/?id=143861655]http://steamcommunity.com/sharedfiles/filedetails/?id=143861655[/url][/color][/i][/b]\r<br />\r<br />[center]\r<br />[url=http://www.skyrimgems.com][img]http://i.imgur.com/hXQSy.png[/img][/url][/center]\r<br />About This Mod\r<br />~~~~~~~~~~~~~\r<br />Have you ever wanted to play a pure mage class but didn&#39;t want to miss out on all kinds of glorious loot stashed away behind locked doors and inside locked chests? Now you can&#33; \r<br />\r<br />This spell, which can be found anywhere that level 25 Alteration spell tomes can be found, allows you to unlock any locked object that has a lock level lower than your Alteration skill. Simply stand close to the object (close enough so the &#39;Pick Lock&#39; prompt appears) and cast this spell on it. If your Alteration skill is high enough, you will hear the object unlock and it will glow. Note that this is treated the same as picking the lock, so getting caught casting this spell on locks you don&#39;t own is frowned upon. \r<br />\r<br />I wasn&#39;t pleased with any of the (very few) other &#39;unlock spell&#39; mods that were available. Some based the unlock on skills other than Alteration; some I didn&#39;t like the way the spell looked or worked; some were only available in spell packs with a bunch of other spells that I didn&#39;t want. I also wanted a mod that was available on Steam Workshop, since all the other mods I use are through there. With no other options to turn to, I decided to make my own. \r<br />\r<br />This mod does not modify any vanilla files and uses scripts to add the Knock spell tome to the appropriate leveled lists. Therefore, this mod should not conflict with any other mod. If you have determined that this mod is conflicting with another one, let me know and I will take a look at it. \r<br />\r<br />\r<br />Known Issues \r<br />~~~~~~~~~~~ \r<br />- Aiming at the top of most doors doesn&#39;t unlock them. This has to do with the way the doors are detected. I know why it happens, but it&#39;s going to take some time for me to figure out how to fix it without making the spell work from too far away or when looking in the wrong direction. Aiming at the bottom of the door should work just fine though, and I have not found any chests that experience this problem because they are not large enough. \r<br />- It can be very difficult to get the spell to affect cage doors. This is related to the issue above. I&#39;ve had a little success aiming at the very bottom of the door where it touches the floor, but sometimes it just doesn&#39;t want to work. \r<br />\r<br />\r<br />Change Log \r<br />~~~~~~~~~~ \r<br />v1.1 \r<br />- &#39;Pick Lock&#39; prompt now disappears immediately when object is unlocked. \r<br />- Knock spell is now silent. \r<br />- Can no longer unlock doors that require keys if your Alteration skill is 255 or higher. \r<br />- Alteration skill is now only increased upon a successful unlock, and increases as much as a successful transmute. \r<br />- Switched &#39;Alteration skill too low&#39; message to use a Message rather than a debug function, which means it can be easily localized now. \r<br />\r<br />v1.0 \r<br />- Initial Release \r<br />\r<br />\r<br />Credits \r<br />~~~~~~ \r<br />Thanks to willkydd for creating the Unlock Spell mod that inspired me to make this.",
+  "categoryId": "75",
+  "version": "v1.1",
+  "author": "Drakmyth",
+  "createdUnix": "1368648257",
+  "updatedUnix": "1368648362",
+  "containsAdultContent": false,
+  "uploadedBy": "Drakmyth",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000030012",
+      "name": "Knock - An Open Lock Spell",
+      "version": "v1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Knock Spell-36073-v1-0.zip",
+      "uploadedUnix": "1368647838",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5c27c16ce5a53f33283b6797350bd82a49c029153ac8c21a84e2a37e56860c58/analysis/1407570602/",
+      "changelogHtml": " - Initial Release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Knock%20Spell-36073-v1-0.zip?fid=1000030012&ttl=1535815050&ri=8192&rs=8192&setec=36db71d068d63fdd8e95730a0fdf6437"
+    },
+    {
+      "fileId": "1000030014",
+      "name": "Knock - An Open Lock Spell",
+      "version": "v1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Knock Spell-36073-v1-1.zip",
+      "uploadedUnix": "1368648362",
+      "modVersion": "v1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/12d39325ba796a43ea8b458d65df8f6d659bcf49ad9fe643cc69b8f9c5b9d5e6/analysis/1407570603/",
+      "changelogHtml": " - &#39;Pick Lock&#39; prompt now disappears immediately when object is unlocked.\r<br />- Knock spell is now silent.\r<br />- Can no longer unlock doors that require keys if your Alteration skill is 255 or higher.\r<br />- Alteration skill is now only increased upon a successful unlock, and increases as much as a successful transmute.\r<br />- Switched &#39;Alteration skill too low&#39; message to use a Message rather than a debug function, which means it can be easily localized now. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Knock%20Spell-36073-v1-1.zip?fid=1000030014&ttl=1535815051&ri=8192&rs=8192&setec=7896ac9842a84d7e57869e47110100f2"
+    }
+  ]
+}

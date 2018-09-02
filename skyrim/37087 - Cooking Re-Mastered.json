@@ -1,0 +1,32 @@
+{
+  "modId": 37087.0,
+  "modName": "Cooking Re-Mastered",
+  "summary": "Increases the depth of cooking and balances out cooked food bonuses.",
+  "descriptionHtml": "**Requires Hearthfire official DLC**\r\n\r\nThis mod aims to make cooking more useful. \r\nBasic food is only modified in its effects, the core ingredients did not change or changed very slightly.\r\nNew food added by this mod follow a tier group for each product made. Tier\\'s then can be combined with other Tier groups of food to make more potent products.\r\nAt the beginning with no food items in the inventory you will not see anything in the food list.\r\nOnce you have the required food item, then a recipe will be displayed under Food.\r\n\r\nThe tier groups currently are as follow.\r\n1: Texture Tier \r\nThis is noted in game by a *T before the foods name. (Note I was unsuccessful in creating a new food category without stepping ontop of other mods for armor I run, so I used a naming conversion instead) \r\nThis is the basic raw food and one ingredient that has been categorized as “flavor”.\r\n\r\n2: Main Course Tier\r\nThis is noted in game by a *M before the foods name.\r\nUsing the prior created Texture Tier + Ingredient + Flavor enhances the product into something new and more potent called the Main Course.\r\n\r\n3. Side Dish Tier\r\nThis is noted in game by a *S before the foods name.\r\nSide dishes are a requirement to be used to make the Main Course into its final product. Stand alone side dishes would normally sit between Texture Tier and Main Course in regards to potency.\r\nCombining Ingredient + Ingredient + Flavor create the Side Dish Tier. \r\n\r\n4. Final Meal Tier\r\nThis is noted in game by a *F before the foods name.\r\nBy combining the Main Course Tier + Side Dish Tier + Ingredient + Flavor created the Final Meal. The apex of what a food product can become. \r\n\r\nDue to the nature of having to manually create each Tier, the foods only combine one way. I have not yet devoted the time to create a script that would allow the combination of the different Tiers to be more fluid and experimental yet.\r\n\r\nThe bonus applied to food focuses heavy on long term effects. Increasing Frost, Shock or Fire resistance for about 12 mins, along with Health, Stamina and Magic regeneration or fortification for the same period of time. When food moves up the Tiers the effects remain the same but the potency is increased and combined with the other food products.\r\n\r\nAn example of the foods bonus balance.\r\nTier 1: Whitened Longfin: \r\n\t+12 Health\r\nTier 2: Juniper Breaded Longfin: \r\n\t+25 Health , +25 Fortify Magic / 12 Mins\r\nSide Dish Tier: Dragonstar Salad: \r\n\t+12 Fortify Health and Magic / 12 Mins.\r\nTier 3: Abecean with Side Salad: \r\n\t+40 Stamina, +80 Fortify Magic / 12 Mins, +40 Health , +40 Fortify Health / 12 Mins.\r\n\r\nThere is a few books thrown into the game called “Better Meals” which gives a good in game overview of how the food mechanic works. You can use the console command Help “Better Foods” to obtain the in game ID and player.additem “ID” 1 to give the character a copy without having to steal it.",
+  "categoryId": "78",
+  "version": "0.1",
+  "author": "WetWire",
+  "createdUnix": "1370899862",
+  "updatedUnix": "1370972121",
+  "containsAdultContent": false,
+  "uploadedBy": "wetwire",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000033824",
+      "name": "Cooking Re-Mastered 01",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "15764",
+      "fileName": "Cooking Re-Mastered 01-37087-0-1.rar",
+      "uploadedUnix": "1370972121",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/3835c1ba2cac179f6b61d4dd1d94e3ff8ce66247d55a040bba9cc2eef8202106/analysis/1407600396/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Cooking%20Re-Mastered%2001-37087-0-1.rar?fid=1000033824&ttl=1535816557&ri=8192&rs=8192&setec=759c2fb5a4a4a9ec57f072fce4988c54"
+    }
+  ]
+}

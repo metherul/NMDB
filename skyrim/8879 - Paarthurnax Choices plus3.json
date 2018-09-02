@@ -1,0 +1,48 @@
+{
+  "modId": 8879.0,
+  "modName": "Paarthurnax Choices plus3",
+  "summary": "Adds three outcomes to paarthurnax sidequest.",
+  "descriptionHtml": "Created Feb 8, 2012 (4:10am LocalTime)\r<br />Modified June 03, 2014 (1:12am LocalTime)\r<br />Update 8 (Steam Rev11)(NMM Compatible)\r<br />\r<br />Adds an three additional outcome to the Paarthurnax sidequest. \r<br />\r<br />1a) Lie\r<br />2a) Murder in a fit of rage\r<br />2b) Murder before this quest even starts\r<br />3a) Talk them down\r<br />\r<br />Talk to the involved NPCs to learn their side of the story to open the alternate option. Also after talking to the Blades about why they think you should do something your character gets fed up enough to either berate the either of the Blades. (Stage 60)\r<br />\r<br />Or as requested you can also take advantage of the unessential status two characters have which occurs after learning a dragons name. Note that due to their low intelligence you need to kill both to fail the quest completely. The mod also will attempt to update their essential status even if your past the quest that you learn the name in.\r<br />\r<br />If you already past the point of no return you should know and this mod will not have any affect after that point.\r<br />\r<br />Update 1: Dialog trees related to quest closed after finishing through alternate route\r<br />Update 2: Graybeard Radiant Story Quests Remain enabled on Alt. Completion, and quest will not vanish after finishing main quest line.\r<br />Update 3: Added trigger to unessential two characters after learning the name of a dragon on either quest.\r<br />Update 4: You can also now talk them out of it with a lecture.\r<br />Update 5: Activation path is simplier now (Talk to graybeard or paarthurnax instead of and*)\r<br />Update 5.1: Fixed error that could occur if you already finished main quest and talked to graybeards (I now set my own stage that is a duplicate of stage 30 so if you come back you can still do it again)\r<br />Update 6: Added startup script so the quest can be updated even if your past the main quest line\r<br />Update 7: Altered script to monitor when Blades should be unessential\r<br />Update 8: Made monitor script also unhide quest if hidden by game and general code improvments.\r<br />Update 8.1: Checked completion and added checks for inconsistant quest stages.\r<br />\r<br />Not really updated just responded to an very old email telling me to put the two files into a folder to make it NMM compatible. (The files are identical to the old version)\r<br />\r<br />Todo: [Busy in IRL]",
+  "categoryId": "35",
+  "version": "8",
+  "author": "a200500",
+  "createdUnix": "1328957553",
+  "updatedUnix": "1401783017",
+  "containsAdultContent": false,
+  "uploadedBy": "a20052002",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "28856",
+      "name": "CKarchive",
+      "version": "8",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "24",
+      "fileName": "CKarchive-8879-8.zip",
+      "uploadedUnix": "1328958387",
+      "modVersion": "8",
+      "virusScanUrl": "https://www.virustotal.com/file/c9f6359551418ab11da4b361f4608443770a216fdb325f4a6cf2f5101f08b4d7/analysis/1406669226/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CKarchive-8879-8.zip?fid=28856&ttl=1535767985&ri=8192&rs=8192&setec=c0c2aab38d91b76204de42fdeeafc1a0"
+    },
+    {
+      "fileId": "1000111634",
+      "name": "PaarthurnaxChoicesPlus3_NMM",
+      "version": "8",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "21",
+      "fileName": "PaarthurnaxChoicesPlus3_NMM-8879-8.7z",
+      "uploadedUnix": "1401783017",
+      "modVersion": "8",
+      "virusScanUrl": "https://www.virustotal.com/file/7e11f5694770db72c70bd463217e33088fa716727aa9be9d95eb1a6061bbffdd/analysis/1408110429/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PaarthurnaxChoicesPlus3_NMM-8879-8.7z?fid=1000111634&ttl=1535767985&ri=8192&rs=8192&setec=851bf6cd42e73e06bc784801a63674d9"
+    }
+  ]
+}

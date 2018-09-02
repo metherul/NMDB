@@ -1,0 +1,48 @@
+{
+  "modId": 20886.0,
+  "modName": "RPG Armors and Weapons",
+  "summary": "Makes high level weapons and armor less useful to low level players.\r\n\r\nIt also makes rare and unique items more powerful at higher levels.",
+  "descriptionHtml": "This mod tries to make Skyrim more like old-school RPG\\'s.  It used to be in many RPG worlds that if you were a low level character and came across a high level item, you just couldn\\'t use it.  This made high level items more fun to acquire and use, but just felt silly that you couldn\\'t wear a piece of armor or use a weapon because you weren\\'t at a certain level.\r\n\r\nThis mod does not restrict the use of armors or weapons but operates on the notion that low level characters will just be less effective when using those high level items.  So armors will have a lower armor rating and weapons will have lower damage rating.  In the same sense, it makes rare armor and weapons even better when reaching much higher levels.  So those daedric artifacts won\\'t be outshined by double enchanted armors and weapons.\r\n\r\nThis mod does not affect enchantment strength, weapon speed, or anything besides armor rating and damage rating.  \r\n\r\nThis is done with a perk that is added to the player.  The perk changes armor rating and weapon damage based on the character\\'s level and the material keyword associated with any weapon or armor. \r\n\r\nThe mod also adds some more keywords to items that didn\\'t have a material association.  It also adds two new association keywords: rare artifact and ancient artifact.  These keywords have been associated with the unique items which also makes them more powerful at higher levels.\r\n\r\nMore in depth on the premise and reasons I made it this way:\r\nThe premise is that high level armor and weapons have some magical or mechanical property that make them more difficult to use.  So they do not just provide more protection or damage because they are made from stronger stuff, but require a more skilled user. As the player levels up (i.e becomes more experienced), he becomes proficient at using that level of armor and weapon. It\\'s like using a high precision tool, you have to use the basic low level tool to understand the principle of it before you can use a higher more precise tool. \r\n\r\nThe skill points affect your usage a different way.  They still give your ability a boost overall. My mod just gives a different basis for proficiency and both will affect what weapon or armor you choose to use.\r\n\r\nThe reasons I did it this way:\r\n1. My limited knowledge of the creation kit and scripting.\r\n2. The creation kit itself does not make complex calculation easy, I found an easy way to do it so I went with it.\r\n3. Limited time, I got it to work in a way that is acceptable to me relatively quickly. If you like it, use it. If you want to change it to suit you, anyone is welcome to modify it and do what they want with it. I just don\\'t have the time to keep at it and figure out how to implement a more complex method. (I.E. I have a day job, haha)\r\n\r\n\r\nTHE PICTURES ARE ONLY TO GIVE AN IDEA OF HOW IT WORKS, IT AFFECTS EVERYTHING THAT HAS A MATERIAL ASSOCIATED WITH IT.\r\n\r\nSo what materials are affected and when? (this is the level they will become full power)\r\n\r\nLevel 45:\r\nDaedric armor and weapons.\r\nSkyforge Steel armor\r\n\r\nLevel 40:\r\nDragonplate and Dragonscale armor.\r\n\r\nLevel 32:\r\nGlass armor and weapons\r\nEbony Armor and weapons\r\n\r\nLevel 25:\r\nElven Guilded armor\r\nOrcish armor and weapons\r\nNightingale armor\r\nThieve\\'s Guild armor\r\nSkyforgesteel weapons\r\nHoned Falmer and Draugr weapons\r\n \r\nLevel 18:\r\nScaled armor\r\nSteel Plate armor\r\nDark Brotherhood armor\r\n\r\nLevel 12:\r\nElven armor and weapons\r\nDwarven armor and weapons\r\nFalmer armor and weapons\r\n\r\nLevel 6:\r\nSteel armor and weapons\r\nBanded Iron armor\r\nDraugr weapons\r\n\r\nBoosts:\r\nDaedric Artifacts get boosts at levels 50, 55, 60, and 65\r\nAncient Artifacts get smaller boosts at levels 15, 30, 50, and 60\r\nRare Artifacts get smaller boosts at levels 15, 30, and 60 \r\n\r\nFuture plans:\r\nCurrently the perk is added to the player only. The next step is to add it to all the other characters in Skyrim.  If you use ASIS, then that will probably do this anyway.  Additionally, I think a SkyPROC program will be good to make sure any weapons and armor mods have appropriate keywords associated with them.\r\n\r\n*Update*\r\nASIS did not seem to propagate the perk to other actors, so I\\'ll just be doing it by hand..\r\n\r\nI would also like to add more unique items to Skyrim in remote locations to make looting more fun.\r\n\r\nMod Conflicts:\r\nI haven\\'t tested it out much, but it should not conflict with other mods in the game.  I really can\\'t see how it would break anyone\\'s game or cause crashing.  It might conflict with any mods that add armors or move around the material keywords on items.  This will only change what level the item becomes useful and not break anything.  If armors or weapons are added to the game with no material association they just won\\'t be affected.\r\nThis mod may also be affected by perk overhauls.  It should act separately since I didn\\'t touch any perk trees... but who knows?!\r\n\r\n\r\nInstructions:\r\n\r\nAdd the .esp file to your data folder and activate.\r\nIt only uses Skyrim.esm and Update.esm as masters,  It shouldn\\'t matter where in your load order you put it.  Probably before any smithing overhauls so they are not affected.\r\n",
+  "categoryId": "78",
+  "version": "1",
+  "author": "A Precious Pony",
+  "createdUnix": "1342901409",
+  "updatedUnix": "1342922169",
+  "containsAdultContent": false,
+  "uploadedBy": "APreciousPony",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "75779",
+      "name": "RPGArmor",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "27",
+      "fileName": "RPGArmor-20886-1.rar",
+      "uploadedUnix": "1342901799",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/e104b8d8a23b20fbab9200d9099e76da11ee6a76e1ca4ce7881722852dcffe05/analysis/1407037443/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/RPGArmor-20886-1.rar?fid=75779&ttl=1535789331&ri=8192&rs=8192&setec=4fc9af368584a8f8e975d672dac8f2c0"
+    },
+    {
+      "fileId": "75843",
+      "name": "RPGArmorNoBoostForArtifacts",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "27",
+      "fileName": "RPGArmorNoBoostForArtifacts-20886-1.rar",
+      "uploadedUnix": "1342922169",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/ffaa1ecfe1658a460ec9b5d8dccaaa2c6e1e9d3c527770874ad16988e65514c1/analysis/1407037986/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/RPGArmorNoBoostForArtifacts-20886-1.rar?fid=75843&ttl=1535789332&ri=8192&rs=8192&setec=9de24b897e7aade7611db0bf3a390d5a"
+    }
+  ]
+}

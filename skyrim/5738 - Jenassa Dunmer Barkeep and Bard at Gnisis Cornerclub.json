@@ -1,0 +1,32 @@
+{
+  "modId": 5738.0,
+  "modName": "Jenassa Dunmer Barkeep and Bard at Gnisis Cornerclub",
+  "summary": "Jenassa now sings and cleans up around Gnisis Cornerclub.",
+  "descriptionHtml": "I felt that the Gnisis Cornerclub lacked the feel of a real tavern. So here\\'s a quick mod I made which reinvents the dunmer merc Jenassa as a bard in the cornerclub who you can request songs to.\r\n\r\nJenassa resides in the Gnisis Cornerclub now. She cleans up around the place (when Malthyr isn\\'t around) and you can request her to sing and play the lute. Patrons in the tavern will raise glasses and dance when she is performing.\r\n\r\nShe is also dressed accordingly in barkeeper clothing.\r\n\r\nUnless you are starting a new game, you may need to resurrect Jenassa\\'s character using the console script:\r\nprid e1ba9\r\nresurrect\r\nThen wait a couple of days in game (probably for the trip from whiterun to windhelm)..\r\n\r\nUnfortunately the new script prevents the dialogue to hire her. However you can still acquire her as a dialogue using the following console script:\r\nsetrelationshiprank player 4\r\naddfac 19809 1\r\naddfac 5c84d 1\r\naddfac 5a1a4 1\r\n\r\nShe will also still be available for marriage.\r\nEnjoy!\r\n\r\nCredits go to foretrenty and his mod Skyrim NPC editor for making this possible. Thanks!\r\nhttp://skyrimnexus.com/downloads/file.php?id=4554\r\n",
+  "categoryId": "33",
+  "version": "",
+  "author": "samissocool23",
+  "createdUnix": "1326089422",
+  "updatedUnix": "1326089479",
+  "containsAdultContent": false,
+  "uploadedBy": "samissocool23",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "18160",
+      "name": "Jenassa_Barkeep_Bard",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "149",
+      "fileName": "Jenassa_Barkeep_Bard-5738-1.zip",
+      "uploadedUnix": "1326089479",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/98dd469b91465bf1ac1d7a919c86462bbd1590cd07a8d54cc8e0d7766f0f9dfc/analysis/1406596146/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jenassa_Barkeep_Bard-5738-1.zip?fid=18160&ttl=1535762706&ri=8192&rs=8192&setec=9b98e5c0662990bc9f421319aa0528c5"
+    }
+  ]
+}

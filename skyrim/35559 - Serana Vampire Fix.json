@@ -1,0 +1,48 @@
+{
+  "modId": 35559.0,
+  "modName": "Serana Vampire Fix",
+  "summary": "Fixes issue where Serana is not marked as Vampire in CK.\r<br />May solve problems with vamp mods not affecting Serana.",
+  "descriptionHtml": "[b][size=5]I am no longer active on Nexus and I no longer play Skyrim. All of my mods may be considered open and/or modders resources. If anyone wants to take them, change them, reupload them or port them to XB1 and PS4, you are welcome to do so.[/size][/b]\r<br />\r<br />This mod changes Serana to an actual Vampire, as she is not actually marked as one in the creation kit. This causes issues with some mods designed to change vampires, most notably for me I started working on this mod when I realised that the Realistic Teeth mod did not give her Vampire fangs for this reason.\r<br />Also for some people (myself included), it ruins the immersion knowing in the back of your mind that she isn&#92;&#39;t really a vampire as far as the game is concerned&#33;\r<br />\r<br />I changed her race to a vampire in the creation kit, then changed all her face and head references back to those of a regular nord, so she still retains the exact same look, just that she&#92;&#39;s really a vampire now&#33;\r<br />\r<br />This is the first mod I have ever actually released. I usually just keep little tweaks like this to myself, so please let me know if you encounter any bugs or conflicts&#33;\r<br />\r<br />REQUIREMENTS:\r<br />I thought I had completely uninstalled UNP before making this mod in order to make it vanilla friendly, but some people are still reporting the &#34;darkface&#34; bug, it&#39;s possible I didn&#39;t properly uninstall UNP, so it might be a requirement for this mod to work correctly&#33;\r<br />If the problem persists, see below for the DIY fix.\r<br />\r<br />Troubleshooting:\r<br />If you are getting the dark face bug, then try a manual install and make sure the texture and mesh files install correctly. If the problem persists then it is likely due to one or more body or facegen mods conflicting with this one, as it would be far too time consuming for me to make a compatibility patch for every single combination of mods out there, you should do a DIY fix to generate the textures and meshes that will be compatible with your game. This is really easy to do.\r<br />\r<br />Open up the CK.\r<br />Load up &#34;Skyrim.esm, Dawnguard.esm and Serana Vampire Fix.esp&#34; - set Serana Vampire Fix as the active file.\r<br />Click on actors, then in the filter bar type &#34;Serana&#34;. \r<br />The actor &#34;DLC1Serana&#34; should be there.\r<br />Double click on her and just quickly check that she is set as NordRaceVampire.\r<br />Click OK.\r<br />Click once on the &#34;DLC1Serana&#34; actor, then press Ctrl+F4\r<br />You will be prompted to export facegendata for the actor. Click yes.\r<br />About a second later, it should say &#34;Done&#33;&#34;\r<br />You can now save and close the CK.\r<br />The dark face bug -should- now be fixed.\r<br />\r<br />If you are still having troubles, watch this video&#33;\r<br />http://www.youtube.com/watch?v=BsPSZtOBl3g\r<br />\r<br />\r<br />KNOWN CONFLICTS:\r<br />This mod WILL conflict with any other mods to Serana&#39;s appearance&#33;",
+  "categoryId": "33",
+  "version": "1.01",
+  "author": "NickSully",
+  "createdUnix": "1367568858",
+  "updatedUnix": "1367665688",
+  "containsAdultContent": false,
+  "uploadedBy": "NickSully",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000027733",
+      "name": "Serana Vampire Fix",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "324",
+      "fileName": "Serana Vampire Fix-35559-1-0.rar",
+      "uploadedUnix": "1367568756",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/11b542e81d29adff7c3a8006439505e1f59dc8f32256d5492064ce53c004e551/analysis/1407552068/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Serana%20Vampire%20Fix-35559-1-0.rar?fid=1000027733&ttl=1535814154&ri=8192&rs=8192&setec=217614d3c7f278cfad0cd3e9360225d2"
+    },
+    {
+      "fileId": "1000027948",
+      "name": "Serana Vampire Fix - teeth issue fixed",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "193",
+      "fileName": "Serana Vampire Fix - teeth issue fixed-35559-1-01.rar",
+      "uploadedUnix": "1367665688",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/cf7c4f7754346d4b904d91b6b053669ac7a97634cccb3fe9efddfe535cd593ee/analysis/1407553700/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Serana%20Vampire%20Fix%20-%20teeth%20issue%20fixed-35559-1-01.rar?fid=1000027948&ttl=1535814154&ri=8192&rs=8192&setec=cf84f0aa0a11ca86c8220427f6bd4cd1"
+    }
+  ]
+}

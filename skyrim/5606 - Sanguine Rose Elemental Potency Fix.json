@@ -1,0 +1,32 @@
+{
+  "modId": 5606.0,
+  "modName": "Sanguine Rose Elemental Potency Fix",
+  "summary": "Fixes an issue with the sanguine rose no longer working if the player has taken the atromancy perk.",
+  "descriptionHtml": "---What This Mod Does---\r\nThis mod fixes the issue with the sanguine rose not working if the player has the atromancy perk. \r\n\r\nThe problem was that the sanguine rose\\'s special summon dremora lord effect was roughly copied from the summon frost atronach effect, and the condition that disabled the frost atronach effect if atromancy was active was left over by mistake. This mod simply removes that condition.\r\n\r\n---What This Mod Does Not Do---\r\nThis mod does not alter or change the atromancy perk or the basic \\\"conjure dremora lord\\\" spell in any way. They will function exactly the same way with this mod installed as without it. Any changes that another mod makes to those things will be 100% compatible with this mod. The only entry this mod touches is DA14SummonDremora, which is only used by the sanguine rose.\r\n\r\n---Installation---\r\nUnzip the archive and add SanguineRoseFix.esp to the skyrim Data folder. It should be something like \\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data.\r\n\r\n---Uninstalling---\r\nDelete SanguineRoseFix.esp.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Osgoode",
+  "createdUnix": "1325977347",
+  "updatedUnix": "1325977765",
+  "containsAdultContent": false,
+  "uploadedBy": "Osgoode",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "17692",
+      "name": "SanguineRoseFix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "SanguineRoseFix-5606-1-0.zip",
+      "uploadedUnix": "1325977765",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3b92a042b165d13c550c25eecd638d859b11652a152509a39a9a0f4332aa31c2/analysis/1406592303/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SanguineRoseFix-5606-1-0.zip?fid=17692&ttl=1535762441&ri=8192&rs=8192&setec=1abe6f9af137b8aa897cd45ff005a8be"
+    }
+  ]
+}

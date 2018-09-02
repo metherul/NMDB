@@ -1,0 +1,48 @@
+{
+  "modId": 3665.0,
+  "modName": "Paid Perk Reset",
+  "summary": "A Script Dragon plugin that allows you to reset your perk points based on your level OR by taking all your current distributed and unallocated points into account. It has a configurable gold amount you have to pay per perk point (0 is possible though). It supports custom perk mods.",
+  "descriptionHtml": "A Script Dragon plugin that allows you to reset your perk points based on your level OR by taking all your current distributed and unallocated points into account. It has a configurable gold amount you have to pay per perk point (0 is possible though). It supports custom perk mods.\r\n\r\n[color=red]UPDATE 25. MAR:[/color] Added custom perk resetting support. This build is experimental. If you encounter any issues try using the stable version without custom perk support. \r\n\r\n[u][b]INSTALLATION:[/u][/b]\r\n\r\nJust get Script Dragon here and install it: \r\nWebsite: http://alexander.sannybuilder.com/?altname=skyrim_script_dragon\r\nDirect Link: http://alexander.sannybuilder.com/Files/tes/ScriptDragon_1.5.24.0.zip\r\n\r\nAfter Script Dragon installation, unzip the reset.zip into your Skyrim/asi folder.\r\nAdditionally, you may use NMM for being notified when a new version of this plugin is out but you should install it manually since NMM copies the files in the wrong directory (Data is wrong!).\r\n\r\n[u][b]Activate it ingame with the INSERT key or get a cost preview with HOME/POS1.[/b][/u]\r\n\r\nIt supports vanilla Skyrim and PerkUP by default. For any other custom perk modification you have to create an id file under the ids folder and fill it with the appropriate perk ids. You can derive the format from the vanilla.ini file.\r\n\r\nIf you don\\'t use any additional perk mods, you can safely remove the perkup.ini in the configuration file (reset.ini, sIdList=vanilla.ini,[color=red]perkup.ini[/color]) in order to speed up the first start.\r\n\r\nNOTE: When you change your esp load order or edit the reset.ini file, please delete cache/remapped.dat if present or some of your perks may not get reset correctly.\r\n\r\n\r\n[u][b]CONFIGURATION:[/u][/b]\r\n\r\nThe reset.ini states the following configurable values:\r\nbDebug=1 // disable this for less verbosity\r\nResetKey=0x2D // this is your key for doing a perk reset (defaults to INSERT key)\r\nResetCostKey=0x24 //this is the key you can preview your reset cost with (defaults to HOME/POS1 key)\r\nCostPerPerkPoint=100 // the amount of gold resetting each single perk point is going to cost you\r\nMaximumResetCost=10000 // the maximum amount of gold you have to pay regardless of the number of perks reset\r\nbPreservePerkPoints=1// preserves the amount of perk points you got through the console or other mods. Setting this to 0 calculates the amount of perk points based on your level instead.\r\n\r\n\r\n[u][b]*ADVANCED*[/u][/b] - default values should be okay for the most.\r\n\r\n[custom]\r\nbCheckDuplicateFormIds=1\t; you should leave this enabled when using custom perks\r\n\r\n/*\r\n\tThese are comma seperated id files (located in the ids folder) which are getting \r\n\tparsed at runtime.\r\n\tAdd id lists of custom perk modifications here.\r\n\tFor example: When you are using the normal Skyrim perks, it has to be vanilla.ini.\r\n\tWhen using PerkUP it should be at least perkup.ini.\r\n\tWhen using multiple perk mods: mod1.ini,mod2.ini,mod3.ini ...\r\n\tSome mods that only modify some vanilla perks may also require the vanilla.ini \r\n\tto be loaded.\r\n*/\r\n\r\nsIdList=vanilla.ini,perkup.ini\r\n\r\n/*\r\n\tIf you encounter missing refunded perk points after resetting, you can try to\r\n\tincrease this value. Recommended are 0x01000000 steps.\r\n\tIt should be in the range of 0x02000000 being the minimum and 0xFF000000 the maximum.\r\n*/\r\n\r\nUpperMemoryScanBoundary=0x0F000000\r\n\r\n/*\r\n\tEliminates the ~2 second game freeze after the first start if enabled.\r\n\tYou have to delete cache/remapped.dat when changing your esp load order\r\n \tor changing sIdList in this file. If this file is not created despite this option is\r\n \tenabled, it may be due to the Windows User Account Control (UAC). Please\r\n \tnotify me about this issue then.\r\n*/\r\n\r\nbUseRemappingCache=1 \r\n\r\n\r\n\r\n\r\n[b]Source: https://gitorious.org/tesv-modifications/tesv-modifications/trees/master/src/Reset[/b]",
+  "categoryId": "73",
+  "version": "6a",
+  "author": "zenofx",
+  "createdUnix": "1323882460",
+  "updatedUnix": "1332673050",
+  "containsAdultContent": false,
+  "uploadedBy": "zenofx",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "42628",
+      "name": "paid perk reset v5c",
+      "version": "5c",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "39",
+      "fileName": "paid perk reset v5c-3665.zip",
+      "uploadedUnix": "1331551736",
+      "modVersion": "5c",
+      "virusScanUrl": "https://www.virustotal.com/file/b40520ec893e1121b0be1033d4b85d599a2225a0f2f01e07166d335d1e48ee96/analysis/1406745129/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/paid%20perk%20reset%20v5c-3665.zip?fid=42628&ttl=1535758893&ri=8192&rs=8192&setec=e0a5202a3449beaa24217ce2d5a890ee"
+    },
+    {
+      "fileId": "46650",
+      "name": "paid perk reset v6 alpha",
+      "version": "6a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "96",
+      "fileName": "paid perk reset v6 alpha-3665-6a.zip",
+      "uploadedUnix": "1332673050",
+      "modVersion": "6a",
+      "virusScanUrl": "https://www.virustotal.com/file/0dcbe663b5cf1b700097c8262a4366d12092d893bea5469a37ef740e74b86bdb/analysis/1406778613/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/paid%20perk%20reset%20v6%20alpha-3665-6a.zip?fid=46650&ttl=1535758894&ri=8192&rs=8192&setec=74041795cb8938c182e0cd99d14b3a75"
+    }
+  ]
+}

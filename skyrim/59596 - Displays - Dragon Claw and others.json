@@ -1,0 +1,32 @@
+{
+  "modId": 59596.0,
+  "modName": "Displays - Dragon Claw and others",
+  "summary": "Modders resource for creating displays for Dragon Claws, Dragon Priest & DB Masks, Bug Jars, Black Books, Elder Scrolls and Daedric Artifacts to use in your mods. Scripts and statics included. ",
+  "descriptionHtml": "[color=#3c78d8][size=5][b]Displays - Dragon Claw and others[/b][/size][/color]\r<br />\r<br />Displays to use in your mods for:\r<br />\r<br />Dragon Claws\r<br />Dragon Priest & DB Masks\r<br />Bug Jars\r<br />Black Books\r<br />Elder Scrolls\r<br />Daedric Artifacts\r<br />\r<br />It&#39;s not a simple copy and paste, but I&#39;ve tried to make it as simple as possible.\r<br />All the triggers and scripts are already set up so it&#39;s just a case of copy and paste and [color=#ff0000]RENAME[/color]\r<br />\r<br />Put the Display.esp in the data folder and the scripts in the script folder.\r<br />\r<br />Here&#39;s how you put them into your mod:\r<br />Open your mod and this one in the CK, with your mod as the active one.\r<br />Copy any of the displays from the 000Displays cell and paste them in your mod (Make sure you have selected both the static and activator)\r<br />Press the M key if you cant see the activators\r<br />\r<br />Here&#39;s where the fun starts, you need to rename most of activators and statics:\r<br />Double click one of the orange activator boxes or static objects to open the reference.\r<br />Then click the [color=#ff0000]&#34;Edit Base&#34;[/color] button. If the ID field starts with RENAME, rename it to something else\r<br />\r<br />[img]http://static-2.nexusmods.com/15/mods/110/images/59596-5-1414922281.jpg[/img]\r<br />\r<br />Eg &#34;RENAME_ClawGlass&#34; becomes &#34;mymod_ClawGlass&#34; (This will create a new static or activator in your mod)\r<br />\r<br />Then click ok and yes to create a new form. Do this for each activator and static where the ID begins with &#34;RENAME&#34; (If the activator or static does not begin with RENAME, then it&#39;s a vanilla static and you don&#39;t need to create a new one)\r<br />\r<br />I find that the easiest way to do this is to first hide the activators (M key) and rename all the statics first, then select all the statics press &#39;1&#39; to hide them, press &#39;M&#39; to unhide the activators and rename them.\r<br />\r<br />Once that&#39;s done a you can arrange them any way you like, but the activator needs to stay with the static it refers to.\r<br />\r<br />You can check you&#39;ve renamed them all by checking the right cell view window and make sure no items have the word RENAME in them.\r<br />\r<br />[img]http://static-3.nexusmods.com/15/mods/110/images/59596-1-1414922289.jpg[/img]\r<br />\r<br />One last thing, make sure that the Z-Rotation for each [color=#ff0000]Activator[/color] is [color=#ff0000]NOT zero[/color]. For some reason it wont work if it&#39;s zero.\r<br />[img]http://static-2.nexusmods.com/15/mods/110/images/59596-1-1417590944.jpg[/img]\r<br />\r<br />You dont need to include this esp with your mod, but you do need to include the scripts.\r<br />\r<br />[color=#ff0000]NOTE:[/color] Weapons and armor lose their smithing upgrades when put in a display as discovered by  opusGlass. Possible solution in the comment section.\r<br />\r<br />Credit for the scripts go to Sjogga for his Dragon Claw Holder and Dragonborn masks script/tutorial and Grathagis for his variation of the Bust Mask script to work with the USKP update from the [url=http://forums.nexusmods.com/index.php?/topic/754151-tutorials-without-youtoob/]Tutorials WITHOUT &#34;youtoob&#34; forum topic.[/url]",
+  "categoryId": "82",
+  "version": "1.1",
+  "author": "Lazz",
+  "createdUnix": "1414925616",
+  "updatedUnix": "1416918359",
+  "containsAdultContent": false,
+  "uploadedBy": "skyrimlazz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000136698",
+      "name": "Displays - Dragon Claws and Others",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "17",
+      "fileName": "Displays - Dragon Claws and Others-59596-1-1.rar",
+      "uploadedUnix": "1416918359",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d4dd1daaec480854b3c8cb01fe0d0544040b4d00afa457a85cb8f824eb2290cd/analysis/1417082103/",
+      "changelogHtml": " Changed the Armor script\r<br />Added Alternative Display for the Dragon Priest Masks\r<br /> <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Displays%20-%20Dragon%20Claws%20and%20Others-59596-1-1.rar?fid=1000136698&ttl=1535846903&ri=8192&rs=8192&setec=92919b1d47d71ab68757e27814c64189"
+    }
+  ]
+}

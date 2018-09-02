@@ -1,0 +1,32 @@
+{
+  "modId": 75478.0,
+  "modName": "Mannequin AI Fix (Complements USLEEP)",
+  "summary": "Fixes Mannequin AI to prevent wandering.",
+  "descriptionHtml": "Just sharing a small tweak that finally fixed my mannequin problems.\r<br />\r<br />[size=4][b]To explain[/b][/size]. Skyrim&#39;s mannequins are basically NPCs (with their own AI Package), which are frozen in place by a script which fires off each time you load the cells they&#39;re in. If the script fails to fire off immediately the moment the cell loads, they&#39;ll have 1-2 seconds to wander off (like NPCs tend to do) before being frozen in place. This causes the vanilla wandering mannequin bug.\r<br />\r<br />[size=4][b]What USLEEP does[/b][/size] is tweak the script (&#34;mannequinactivatorscript.pex&#34;) that freezes the mannequins to be faster and more streamlined (I think? Did not really look at the source code.) and more importantly, to make it reset the mannequins&#39; pose and position after it&#39;s done freezing them so that \r<br />they&#39;ll be where they should be and in the pose they should be in. \r<br />\r<br />If you&#39;re running a vanilla game, this will be all that you&#39;ll need. However, if your game is heavily modded (with script heavy mods) and you&#39;re suffering from an even slight Payrus Script lag or alternately, you use player home mods like &#34;Deus Mons&#34; or &#34;Halls of Dovahndor&#34;, with 15+ mannequins in one cell, USLEEP&#39;s script just won&#39;t be able to keep up and you&#39;re likely to end up with floating/wandering mannequins anyway. \r<br />\r<br />[size=4][b]What my mod does [/b][size=2]is tweak the mannequin&#39;s NPC AI package to keep them from wandering around in the first place. In the vanilla game, the mannequin&#39;s AI Package &#34;MannequinStay[/size][/size]&#34; is set to the &#34;travel&#34; template, which is why without the script &#34;mannequinactivatorscript.pex&#34;, the mannequins \r<br />tend to... travel. As of the latest version, USLEEP does not touch this. What my tweak does is change the AI Package so that it now has a template that tells the mannequins to &#34;hold position&#34;. Now they&#39;ll no longer wander around in their cells while waiting for &#34;mannequinactivatorscript.pex&#34; to turn them into statues and reset their postion, they&#39;ll simply stand in place, maybe turn their head this way and that way, but no more. This vastly reduces the possibility for error. \r<br />\r<br />[size=4][b]TLDR[/b][/size] If all this just flies right over your head, just download and install. If it doesn&#39;t solve your mannequin problems, then it&#39;s perfectly safe to uninstall without negatively affecting your game in anyway. Peace.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Telamont",
+  "createdUnix": "1462581651",
+  "updatedUnix": "1462581361",
+  "containsAdultContent": false,
+  "uploadedBy": "telamont",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000205664",
+      "name": "MannequinStayStill",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "MannequinStayStill-75478-1-0.7z",
+      "uploadedUnix": "1462581361",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/cdf15c628623265e569b436852d0d6b81e24b7e0eec81baa88281f940342eb75/analysis/1462581364/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MannequinStayStill-75478-1-0.7z?fid=1000205664&ttl=1535864237&ri=8192&rs=8192&setec=4e4fbb8490ad4a7e54abb0e6ddf1a2f5"
+    }
+  ]
+}

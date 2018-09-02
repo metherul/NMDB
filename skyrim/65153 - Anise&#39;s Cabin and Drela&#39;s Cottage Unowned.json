@@ -1,0 +1,48 @@
+{
+  "modId": 65153.0,
+  "modName": "Anise&#39;s Cabin and Drela&#39;s Cottage Unowned",
+  "summary": "Changes some location from being owned by a faction that makes no sense to being unowned. In addition, I have also set the containers to not respawn, so the player can squat there if they want.",
+  "descriptionHtml": "[size=3][size=2]Edited for a better, more descriptive name, otherwise this is the same file I originally uploaded.\r<br />\r<br />Version: v1.0\r<br />Date: 05/26/2015\r<br />Category: Locations - Vanilla \r<br />By: Karl Olson\r<br />[/size][u][b]\r<br />Short [/b][/u][/size][size=3][u][b]Description[/b][/u][/size]\r<br />Changes the ownership of Anise&#39;s Cabin and Drela&#39;s Cottage to &#34;unowned&#34; and makes all of the containers non-respawning and safe to use.\r<br />\r<br />\r<br />[size=3][b][u]Long Description[/u][/b][/size]\r<br />There are several (at least two that I know of) locations around Skyrim that are owned by factions that make no sense. Anise&#39;s Cabin is owned by the Hagraven Faction and Drela&#39;s Cottage is owned by the Warlock Faction. Now, as far as I know, the Hagravens and Warlocks don&#39;t own any other property in Skyrim, so I find it kind of silly that these specific buildings are theirs.\r<br />\r<br />Now, what I have done is taken these locations and set the ownership of all objects within them to None. In addition, I change the base object of all containers, setting them not to respawn, making them safe for player storage. I have also set the cells to not respawn.\r<br />\r<br />I know there are other mods on the Nexus that make similar changes to these locations, but they also alter the layout and add things to them. I have no problems with this, but it wasn&#39;t what I was looking for. I wanted the locations as they were, just free to loot and/or move in. Since these mods did not exist, I made them myself.\r<br />\r<br />I am aware of the bug in vanilla Skyrim that has the ownership of the door to Drela&#39;s Cottage is set to the wrong person and that the [url=http://www.nexusmods.com/skyrim/mods/19/?]Unofficial Skyrim Patch[/url] fixes this by setting it to the Warlock Faction. My mod changes it to None, so there should be no issues with using the two together since mine sets things the way I need it to be and should override the patch&#39;s fix.\r<br />\r<br />\r<br />[size=3][b][u]Known Issues[/u][/b][/size]\r<br />None that I know of, but i am not perfect. Despite my careful checking in the Creation Kit, TES5Edit, and in game, I may have missed something. Please feel free to leave a message in the comments about any mistakes you have found and I&#39;ll look into fixing it.\r<br />\r<br />\r<br />[size=3][u][b]Compatibility Issues[/b][/u][/size]\r<br />Depending on what versions you have chosen, other mods that alter Anise&#39;s Cabin and/or Drela&#39;s Cottage will conflict.\r<br />\r<br />\r<br />[size=3][u][b]Future Plans[/b][/u][/size]\r<br />If anyone wants, please suggest them. Unless it&#39;s a dungeon, like Pinewatch, I will be happy to &#34;unown&#34; it and add the file to downloads.\r<br />\r<br />I know and understand that the length of load orders can get out of hand (believe me I know), I will not be creating a merged version of these two files right now. If myself, or anyone else, does not find any other locations that need &#34;unowning&#34;, I will create a merged version of these files. This will just save me some work, so I don&#39;t have to create a half dozen different merge files to cover all the various possible combinations every time I add a location.\r<br />\r<br />\r<br />[size=3][u][b]Install Process[/b][/u][/size]\r<br />Place the ESP for the version you want in your Skyrim Data directory. Use the mod organizer of you choice to active the ESP in your load order.\r<br />\r<br />\r<br />[size=3][u][b]Uninstall Process[/b][/u][/size]\r<br />This mod is script free, so installation is simple and safe.\r<br />\r<br />Use the mod organizer of your choice and deactivate the ESP. Open your Skyrim Data directory and delete the ESP.\r<br />\r<br />\r<br />[size=3][u][b]Final thoughts[/b][/u][/size]\r<br />Mods should always be free, and mine always will be.\r<br />\r<br />If you find this mod on the Steam Workshop, please inform me immediately, especially if it&#39;s behind the paywall. I did not, and will not, upload my mods there, nor will I sell them. \r<br />\r<br />\r<br />[u][b][size=3]Acknowledgements[/size][/b][/u]\r<br />Thanks to Dark0ne and the Nexus staff for this site and keeping things real.",
+  "categoryId": "90",
+  "version": "1.0",
+  "author": "rad666a",
+  "createdUnix": "1430063735",
+  "updatedUnix": "1430063703",
+  "containsAdultContent": false,
+  "uploadedBy": "rad666a",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000157278",
+      "name": "Anise&#39;s Cabin Unowned",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Anise's Cabin Unowned-65153-1-0.7z",
+      "uploadedUnix": "1430063626",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c16f76bc590dff7c8bb8aafa3c20549bfc8c3ae22ab6534ab38f1e228e386488/analysis/1430063705/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Anise%27s%20Cabin%20Unowned-65153-1-0.7z?fid=1000157278&ttl=1535853744&ri=8192&rs=8192&setec=2ac6bfed115e9fde4bb84d14d1a6f14a"
+    },
+    {
+      "fileId": "1000157280",
+      "name": "Drela&#39;s Cottage Unowned",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Drela's Cottage Unowned-65153-1-0.7z",
+      "uploadedUnix": "1430063703",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/65ca31c34fe099ff433ec2159aff275db7f6a8c82904dfccfae990a695fccbf2/analysis/1430063766/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Drela%27s%20Cottage%20Unowned-65153-1-0.7z?fid=1000157280&ttl=1535853744&ri=8192&rs=8192&setec=77ed88ddc86484d58b85cfb2c020e57d"
+    }
+  ]
+}

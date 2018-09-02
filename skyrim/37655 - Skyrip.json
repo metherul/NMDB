@@ -1,0 +1,32 @@
+{
+  "modId": 37655.0,
+  "modName": "Skyrip",
+  "summary": "Tiny, simple \\'mod\\' to speed up loading times and (arguably) increase immersion.",
+  "descriptionHtml": "[u][b]About:[/u][/b]\r\nQuick & simple \\'mod\\' / replacer which does the following:\r\n\r\n[b]1.[/b] Removes, or rather, replaces the title screen music with a small, blank sound file.\r\n[b]2.[/b] Removes the Besthesda video intro which is displayed before the Skyrim main menu appears.\r\n[b]3.[/b] Removes the 3D models and the mist effect from the area transition loading screens.\r\n\r\nMost users should see a reasonable improvement in their loading times. Also, Skyrip doesn\\'t take up a mod slot since it\\'s a file replacement \\'tweak\\' as opposed to a .esp mod file.\r\n\r\n[u][b]To Install:[/u][/b]\r\nDownload and install in the usual way using Nexus Mod Manager.\r\n\r\nOr, to install manually, Just open the .rar archive and drag the \\'Data\\' folder into your Skyrim installation directory.\r\n\r\n[u][b]To Uninstall:[/u][/b]\r\n\r\nRemove in the usual way using Nexus Mod Manager.\r\n\r\nOr, to uninstall manually, delete the following files:\r\n\r\nSkyrim install directory / Data / Music / Special / mus_maintheme.wxm\r\nSkyrim install directory / Data / Meshes / Interface / intmenufogparticles.nif\r\nSkyrim install directory / Data / Interface / loadingmenu.swf\r\n\r\n[u][b]Notes:[/u][/b]\r\nWill replace any files which alter the loading screen / menu music in any way. Eg. \\'Time on Loading Screen\\' mod.",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "rmmuk",
+  "createdUnix": "1372301834",
+  "updatedUnix": "1372301827",
+  "containsAdultContent": false,
+  "uploadedBy": "rmmuk",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000035979",
+      "name": "Skyrip",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Skyrip-37655-1000000.rar",
+      "uploadedUnix": "1372301827",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b831ba141fe20b484fcb99e246d9940b809f1c34ea0b70575d5f07f6a49c8f18/analysis/1407618545/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrip-37655-1000000.rar?fid=1000035979&ttl=1535817481&ri=8192&rs=8192&setec=e85918c801ba973af760a4783928bdbd"
+    }
+  ]
+}

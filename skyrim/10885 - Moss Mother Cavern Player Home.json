@@ -1,0 +1,32 @@
+{
+  "modId": 10885.0,
+  "modName": "Moss Mother Cavern Player Home",
+  "summary": "Converts Moss Mother Cavern into a player home upon clearing the related quest.",
+  "descriptionHtml": "This adds a WIP player home inside Moss Mother Cavern.\r\nOr rather, it changes the cavern into one upon clearing the related quest, given by the guy conveniently sitting right outside.\r\nIf you\\'ve already cleared the quest, that\\'s not a problem - it will still work.\r\n\r\nYou can find the cavern northwest of Half-Moon Mill, which is on the west bank of Lake North-Of-Falkreath.\r\nI don\\'t know what the real name is because the UI is terrible and the map has no labels. I\\'m not even sure if the directions are correct because the UI is terrible and the map has no labels.\r\n\r\nIt\\'s not finished yet, but is currently entirely playable.\r\n\r\nIt makes the following changes, most of which occur after you help the guy out and he heads home:\r\n- Removes all the bear traps and enemy spawns\r\n- Removes \\\"cleared\\\" label from the map marker\r\n- Prevents the area from reseting\r\n- Makes all the containers in the dungeon safe for storage\r\n- Adds a half-finished hobo shack with a nightstand and bed inside and enchanting and alchemy tables on the roof\r\n- Adds a crafting area with a forge, workbench, tanning rack, grindstone, and some extra storage\r\n- Enables fast travel from the area\r\n- Makes the area ineligible as a radiant quest location. I think. Maybe.\r\n\r\nNote that it triggers when he goes home, not when he heads inside the cavern.\r\nIf you fast travel to Falkreath and back he should be finished up.",
+  "categoryId": "67",
+  "version": "0.95",
+  "author": "whalecakes",
+  "createdUnix": "1329964600",
+  "updatedUnix": "1330140013",
+  "containsAdultContent": false,
+  "uploadedBy": "whalecakes",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "36486",
+      "name": "Moss Mother Cavern Home",
+      "version": "0.95",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Moss Mother Cavern Home-10885-0-95.7z",
+      "uploadedUnix": "1330140013",
+      "modVersion": "0.95",
+      "virusScanUrl": "https://www.virustotal.com/file/b461c094a7f92d135ce7f85ec4b1b6555288cb32277a185efdf432f3d096b6a6/analysis/1406711482/",
+      "changelogHtml": " Upgraded hobo shack <br/> \n Moved enchanting/alchemy tables to hobo shack roof (they\\'ll probably get moved again later) <br/> \n Enabled fast travel <br/> \n Fixed a few support beams on the hobo shack <br/> \n Hobo shack bed now gives \\'well rested\\' instead of just \\'rested\\' <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Moss%20Mother%20Cavern%20Home-10885-0-95.7z?fid=36486&ttl=1535771566&ri=8192&rs=8192&setec=f183737df0d925e44f81df5b202da47b"
+    }
+  ]
+}

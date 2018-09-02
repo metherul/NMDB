@@ -1,0 +1,32 @@
+{
+  "modId": 51509.0,
+  "modName": "Hearthfire alesan or rayya infinite loop fix",
+  "summary": "fix an infinite loop that may happen in the game&#39;s background",
+  "descriptionHtml": "What it does:\r<br />fix an infinite loop from one of the scripts in Hearthfire that may happen in the game&#39;s background if you&#39;ve been to windhelm/dawnstar\r<br />\r<br />Instruction:\r<br />go to a cell that does not contain alesan or rayya. (non windhelm/dawnstar area should be fine)\r<br />save and exit game\r<br />install this mod\r<br />load game\r<br />wait for about 10 seconds and see if the messagebox &#34;BYOHUrchinCarryScriptCheck infinite loop fixed&#34; come up\r<br />if it does, it should be fixed.\r<br />\r<br />How do you know you need this fix?\r<br />enable logging. install USKP: Hearthfire\r<br />go in game. exit game. see if there is a log about BYOHUrchinCarryScriptCheck not matching save file&#39;s script\r<br />if there is, you need this fix.\r<br />\r<br />Credits:\r<br />USKP team for this discovery and there fix to prevent this from happening. (can&#39;t fix occuring loop though. reason I made this patch)",
+  "categoryId": "95",
+  "version": "0.99",
+  "author": "me",
+  "createdUnix": "1393321151",
+  "updatedUnix": "1393321145",
+  "containsAdultContent": false,
+  "uploadedBy": "ragnaroklucifer",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000098678",
+      "name": "BYOHUrchinCarryScriptloopfix",
+      "version": "0.99",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "BYOHUrchinCarryScriptloopfix-51509-0-99.7z",
+      "uploadedUnix": "1393321145",
+      "modVersion": "0.99",
+      "virusScanUrl": "https://www.virustotal.com/file/6bda902535617566f5a2d1ffff9a9ddd2a9491b19f95bff62e2a376700b57491/analysis/1407949339/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BYOHUrchinCarryScriptloopfix-51509-0-99.7z?fid=1000098678&ttl=1535833893&ri=8192&rs=8192&setec=9362232f6cc8fa5353ffb936d06d6036"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 54652.0,
+  "modName": "Permanent Field of View",
+  "summary": "Say goodbye to lame console edits. Say hello to true happiness.",
+  "descriptionHtml": "Ever get tired of having to go into your console and reset your FoV anytime you open your menu or map? Well gosh golly darn it, I have just the thing&#33; Yes I know there are mods (camera mods) that would allow one to do that, but there are those of us who like our mod lists and load orders the way they are. Why go for an entire camera mod when you could just have a tiny .ini file do it all?\r<br />\r<br />\r<br />[b]MANUAL INSTALLATION[/b] - MUST HAVE [url=http://www.nexusmods.com/skyrim/mods/19/?]Unofficial Skyrim Patch[/url] installed and enabled if you are using a file I uploaded. I mean come on, who doesn&#39;t already have this? Isn&#39;t this required to play Skyrim these days? \r<br />Extract your preferred .ini into your &#34;//Steam/steamapps/common/Skyrim/data&#34; folder.\r<br />\r<br />\r<br />OR you can just read this next bit of info and make the file yourself because IT&#39;S JUST THAT EASY.\r<br />\r<br />1. Pick one, ANY ONE, of your .esm/.esp (plugins) and remember the exact spelling of the file name. EXAMPLE: Unofficial Skyrim Patch.esp (without the .esp)\r<br />\r<br />2. Navigate to your &#34;//Steam/steamapps/common/Skyrim/data&#34; folder.\r<br />\r<br />3. Create a text file using the exact name of whichever file you chose. Change the .txt to .ini.\r<br />\r<br />4. Open it up and paste the following where XX is your desired FoV.\r<br />[code][Display]\r<br />fDefaultWorldFOV=XX[/code]\r<br />\r<br />[i]Does not work with Skyrim.esm or Update.esm thanks to their Master (racist) status. Works with literally anything else as far as I know. I obviously did not test every single plugin GAH WHO DO YOU THINK I AM?&#33;[/i]\r<br />\r<br />\r<br />Congratulations, Dragonborn&#33; You made it when so many others have failed. YOU learned to wield the awesome power of the permanent FoV. I&#39;m so proud of you. :&#39;(",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Joshua Lester",
+  "createdUnix": "1402057838",
+  "updatedUnix": "1402057827",
+  "containsAdultContent": false,
+  "uploadedBy": "curlyqu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000111988",
+      "name": "Permanent Field of View",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Permanent Field of View-54652-1-0.7z",
+      "uploadedUnix": "1402057827",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/543087b5c45083abaf4731f9a8eb406509d47a9face4d74660460faa69b19627/analysis/1408114713/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Permanent%20Field%20of%20View-54652-1-0.7z?fid=1000111988&ttl=1535839057&ri=8192&rs=8192&setec=cf79afbec5ced09d76be68956b2ab439"
+    }
+  ]
+}

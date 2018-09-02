@@ -1,0 +1,32 @@
+{
+  "modId": 92972.0,
+  "modName": "Waluigi Character Preset",
+  "summary": "A simple Waluigi, from the Mario universe (owned by Nintendo), preset and sculpt data for use with Racemenu. Uses mostly vanilla assets, only the hair is from ApachiiSkyHair, which isn't required but vanilla hairs don't fit as well.",
+  "descriptionHtml": "[center]I will update this as best I can for mod recommendations/requirements should any need arise.\n<br />I am uploading this at the request of an acquaintance in a Discord server for others to enjoy, assuming there is anyone else that would want Waluigi (that's why there's absolutely nothing for him on the Nexus from my quick searches of \"Waluigi\" and \"Wah\")\n<br />\n<br />---[/center]\n<br />\n<br />This is a simple RaceMenu preset of Waluigi from the Mario universe (owned by Nintendo). I have also included RaceMenu sculpt data for the head and \"beard\" (it's a mustache, but sure Bethesda, \"beard\" it is) to more accurately recreate Waluigi in Skyrim. I'm not the best at sculpting, but since I saw a Fallout version of Waluigi, I wanted to try my hand at a Skyrim version, so here it is.\n<br />\n<br />[color=#3d85c6][b]To Use/Install:[/b][/color]\n<br />I'm not sure how Nexus Mod Manager works any more, haven't used it in years since I learned of Mod Organizer, apologies if I can't tell you how to install it for NMM. You may need to check the forums or other preset mods' descriptions/comments if they have additional information for NMM.\n<br />For MO, you should be able to just drop the archive in your downloads folder (in your MO directory) and install like anything else, it should automatically place the presets in the SKSE folder. If it doesn't do that, open the archive and manually drag and drop the contents to your SKSE folder in the mods folder (in your MO directory).\n<br />The folder path should look similar to:\n<br />ModOrganizer2&#92;mods&#92;SKSE&#92;SKSE&#92;Plugins&#92;CharGen&#92;Presets\n<br />CharGen is where the \"nif\" and \"dds\" files go, this is the sculpt data.\n<br />\n<br />In-game, click on the Preset tab in the upper right of the screen and press F9 (default key, unsure if it can be remapped), you should see a window to load various presets installed in your directory mentioned above. Load \"WAH.jslot\" and RaceMenu should apply all the necessary changes, only the hair is non-vanilla (see mods below).\n<br />To sculpt the face to be more accurate, click on the Sculpt tab in the upper right of the screen and press F9, this should open a window for all sculpt data installed. Load \"WAH.nif\" and Racemenu should apply the changes, if you are missing the hair, there may be errors. Do any additional sculpting you wish if you are confident enough to try, it can be a bit complicated but it's quick to learn and only requires patience.\n<br />\n<br />[color=#3d85c6][b]Potential Issues:[/b][/color]\n<br />Because I had to sculpt the \"beard\" awkwardly to make it look closer to Waluigi's mustache, it may clip with the face/mouth during certain expressions, especially if the expressions are overly exaggerated. If you play in first person or in third person but rarely look at the face, this shouldn't be a problem, but if you stare at the face and use various expression mods, it may be a bit jarring to see the mustache clip through the upper lip, teeth, cheek, etc.\n<br />\n<br />[b][color=#3d85c6]Required Mods:[/color][/b]\n<br />[url=http://skse.silverlock.org/]Skyrim Script Extender[/url]﻿ (SKSE, necessary for almost all modding)\n<br />[url=https://www.nexusmods.com/skyrim/mods/29624]RaceMenu[/url]﻿ (Requires SKSE, allows extensive character customization and sculpting the character's head/hair/facial hair/etc)\n<br />\n<br />[color=#3d85c6][b]Recommended Mods:[/b][/color]\n<br />[url=https://www.nexusmods.com/skyrim/mods/10168]ApachiiSkyHair[/url] (Necessary for the correct hair and sculpt data to work, not sure if missing this will cause errors/crashes if attempting to load the preset or sculpt without the right hair)\n<br />[url=https://www.nexusmods.com/skyrim/mods/24709]Super Skyrim Bros[/url]﻿ (It has a simple Waluigi outfit that pairs well with a Waluigi preset... Like this one! Sadly, no purple hat, and the Waluigi head is just odd, no offense to the creator of said mod, they did well overall)\n<br />[url=https://www.nexusmods.com/skyrim/mods/3863]SkyUI[/url] (Very nice mod, and often necessary for many other mods, that makes the UI look AND function MUCH BETTER)\n<br />\n<br />[b][color=#3d85c6]Credits and Thanks:[/color][/b]\n<br />Nintendo for creating such a popular character despite the lack of games he's in.\n<br />The Skyrim Modding Community for all of the mods and resources available, all I used were the above mentioned to make this preset but all modders deserve a thanks for all their work and commitment to the game and community.\n<br />Friends and acquaintances for both telling me to share this beautiful creation ( @Mega#3899 on Discord ) and that I should be burned at the stake for such blasphemy. Love you guys.",
+  "categoryId": "26",
+  "version": "1.0",
+  "author": "Mageblood",
+  "createdUnix": "1533870052",
+  "updatedUnix": "1533870052",
+  "containsAdultContent": false,
+  "uploadedBy": "mageblood1993",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000279280",
+      "name": "Waluigi Preset and Sculpt Data",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "257",
+      "fileName": "Waluigi Preset and Sculpt Data-92972-1-0.rar",
+      "uploadedUnix": "1533870023",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/be911608ee03a1e507946a9699eb53f202b3516406076c1c254458fc0b15d9aa/analysis/1533870183/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Waluigi%20Preset%20and%20Sculpt%20Data-92972-1-0.rar?fid=1000279280&ttl=1535884144&ri=8192&rs=8192&setec=c0cc744ba583eea8cb585de14747673d"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 50434.0,
+  "modName": "Follower Hotkeys",
+  "summary": "Follower Hotkeys allows you to assign two hotkeys with which you can then interact with your followers without having to navigate the (ever changing) dialogue menu every 30 seconds.  It takes a minimalistic approach to this so only the most frequently used commands are available.",
+  "descriptionHtml": "[b]Requires All DLC and SkyUI.[/b]\r<br />\r<br />\r<br />Follower Hotkeys will register with MCM, at which point you can set two different keys; a &#39;trade&#39; key and a &#39;command&#39; key.\r<br />\r<br />The &#39;trade&#39; key is pretty self explanatory.  Look at your follower, press the key, and they will open their inventory.\r<br />\r<br />The &#39;command&#39; key is a little bit different.  Press it to toggle your follower as waiting or following, depending on their current state.  It also has another function, if you long press it (about half a second), you will put that follower into the &#39;command mode&#39;.  I thought this was a cool feature they implemented in Skyrim, but having to navigate the dialogue menu to get to it just meant it was never used.  Now I find myself using it all the time&#33;\r<br />\r<br />This should work out-of-box with all modded followers, unless they go out of their way to avoid the most basic vanilla companion systems.  &#39;Supported&#39; followers however, will say their dialogue lines before continuing, just as if you commanded them from the dialogue tree.  &#39;Unsupported&#39; followers and mods should still function, but they will may not speak their lines; so there will be less feedback when pressing the key.\r<br />\r<br />Again, the intention here is to be as minimalistic and immersive as possible; so additional features are going to be minimal if they get added at all.  Consider this a beta however, as I may have missed some followers and/or they may not all speak when you command them.\r<br />\r<br />Currently, Interesting NPCs is the only &#39;officially&#39; supported mod and any additional mod support is going to be &#39;if I&#39;m using it&#39; support.  Should be pretty easy to add additional mods however, if you look at the &#39;DialogController&#39; script and follow the similar pattern I&#39;m using for Interesting NPCs you can create your own.  Message me with an update and I can incorporate it into the main mod (and give you credit).",
+  "categoryId": "96",
+  "version": "0.2",
+  "author": "Scarecrow23",
+  "createdUnix": "1390885384",
+  "updatedUnix": "1390885056",
+  "containsAdultContent": false,
+  "uploadedBy": "Scarecrow23",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000093829",
+      "name": "Follower Hotkeys",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "Follower Hotkeys-50434-0-2.7z",
+      "uploadedUnix": "1390885056",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/1791f1aaca5462720e010017b61667feca956b02d220bcab91b79ca42cdfa452/analysis/1407905539/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Follower%20Hotkeys-50434-0-2.7z?fid=1000093829&ttl=1535832144&ri=8192&rs=8192&setec=ef42d79b6a384ca0496d1a54027ede78"
+    }
+  ]
+}

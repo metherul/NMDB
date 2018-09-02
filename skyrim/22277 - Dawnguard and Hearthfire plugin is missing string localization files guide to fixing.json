@@ -1,0 +1,32 @@
+{
+  "modId": 22277.0,
+  "modName": "Dawnguard and Hearthfire plugin is missing string localization files guide to fixing",
+  "summary": "Removes the errors for WRYE BASH and the Construction Set related to Dawnguard/Hearthfire\r\n\r\nSome people are reporting a error \\\"plugin is missing string localization files\\\" for dawnguard/Hearthfire. there really not missing there in the BSA file. But if you want to remove the red from WRYE BASH and to be able to run the construction set properly ",
+  "descriptionHtml": "Due to copyrights i had to remove the files but here is a guide to fixing this error.\r\n\r\nRemoves the errors for WRYE BASH and the Construction Set related to Dawnguard & Hearthfire\r\n\r\nBig thanks to [URL=http://skyrim.nexusmods.com/users/2945541] OakRain [/URL] for letting us know about Hearthfire.\r\nTo anyone with the Hearthfire DLC - the same procedure will be need to be applied to the HearthFires.bsa - ie extract the <your language >strings from the bsa and place in data/strings and add Heartfires.bsa to editior .ini. \r\n\r\nDo this and there will be no error in WryeBash and the CK will load up HearthFires just fine. \r\n\r\nSome people are reporting a error \\\"plugin is missing string localization files\\\"  for Dawnguard. there really not missing there in the BSA file but programs like WRYE BASH do not load the BSA files so it reads as missing. But if you want to remove the red from WRYE BASH and to be able to run the construction set properly follow this easy 9 step guide\r\n\r\nFirst off you need a .BSA unpacker, you can get one here.\r\n[url=http://skyrim.nexusmods.com/mods/4804]BSA Unpacker[/url]\r\n\r\nAnd of course you need DAWNGAURD\r\n[url=http://store.steampowered.com/app/211720\\\"]Dawnguard[/url]\r\n\r\n1).Unpack the BSA.rar with [url=http://www.win-rar.com/start.html?&L=0]winrar[/url] or [url=http://www.7-zip.org]7zip[/url] to any location.\r\n2).Open the folder you just extracted named \\\"BSA Unpacker\\\"\r\n3).Run the BSAUnpacker.exe.\r\n4).Click on the open button on the bottom of the BSA panel and direct it to your \\\"skyrim/data folder\\\" and click on the Dawnguard.bsa.\r\n\r\nA warning will pop up saying: this BSA has a unknown version number. Attempt to open anyway? (click yes)\r\n\r\nA huge list of files should pop up.\r\n\r\nThe easyest way to find the files needed:\r\n5).make sure the dropdown box at the bottom says \\\"folder name\\\"\r\n6).Click sort. (next to the drop down box)\r\n7).Scroll about 3/4 down (check screenshot) till you see the files listed under \\\"strings\\\" there are 3 files you need to extract:\r\nstrings\\\\dawnguard_\\\"your language\\\".dlstrings\r\nstrings\\\\dawnguard_\\\"your language\\\".ilstrings\r\nstrings\\\\dawnguard_\\\"your language\\\".strings\r\n\r\n8).Highlight the 3 files needed (see screenshot)\r\n[IMG]http://static.skyrim.nexusmods.com/mods/images/22277-1-1344796442.gif[/IMG]\r\n9).Click Extract (DO NOT click Extract All) and direct it to you \\\"skyrim\\\\data folder\\\"\r\nAND YOUR DONE!!!!!\r\n\r\nJust to make sure you did it right:\r\nOpen your skyrim\\\\data\\\\strings folder and make sure the 3 files are there.\r\n[IMG]http://skyrim.nexusmods.com/mods/images/22277-1-1351609532.jpg[/IMG]\r\nHope this helps.\r\n\r\nConflicts:\r\nNONE! \r\n\r\nAll this does is move the files from the Dawnguard.bsa to the data\\\\strings folder so 3rd party software like WRYE BASH/Construction Set can read it.\r\n\r\nSkyrim loads the string files from the BSA when the game loads and NO other mod rewrites these files. Moving the files to the data\\\\string folder (as per this guide) will only force skyrim to load the same files (like a mod).\r\n\r\nSo if you are getting other errors (like the construction set) you might have other conflicts and I would suggest reading the construction set forums to try to solve your issue.",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "Capt Mitch",
+  "createdUnix": "1344786267",
+  "updatedUnix": "1344811634",
+  "containsAdultContent": false,
+  "uploadedBy": "Capt Mitch",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "81158",
+      "name": "Dawnguard missing string Guide v1",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Dawnguard missing string Guide-22277-.7z",
+      "uploadedUnix": "1344811634",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/7ae09e2a1d9eafc886fad648f32e320a33bf5bab7d484da7ef7f3d7f3ea2f4b2/analysis/1407092463/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dawnguard%20missing%20string%20Guide-22277-.7z?fid=81158&ttl=1535791721&ri=8192&rs=8192&setec=680439e9e7194ad9b4c896cdf80e56f3"
+    }
+  ]
+}

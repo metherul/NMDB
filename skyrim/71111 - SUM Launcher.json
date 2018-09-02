@@ -1,0 +1,32 @@
+{
+  "modId": 71111.0,
+  "modName": "SUM Launcher",
+  "summary": "A script to run SkyProc jar files",
+  "descriptionHtml": "Basically some users, and myself, of SkyProc mods have had issues running the .jar file that needs to be ran after installation. After looking into it, some people recommended right-clicking and running with cmd (command prompt). It did not work so I found that you needed to run it with Admin cmd. After trying to help a buddy of mine I decided to make this little executable script that starts cmd as admin, changes the directory to where the jar file is located, and launches the jar file. Since I have it I might as well share it with the community.\r<br />\r<br />For use with these mods (there may be more, these are just the ones I know of):\r<br />Dual Sheath Redux http://www.nexusmods.com/skyrim/mods/34155/?\r<br />ReProccer http://www.nexusmods.com/skyrim/mods/28467/?\r<br />SUM (If you use multiple mods that need this done use this one and it does all of them at the same time) http://www.nexusmods.com/skyrim/mods/29865/?\r<br />\r<br />\r<br />Usage:\r<br />1. Unrar the file.\r<br />2. Right click the .cmd file and select edit\r<br />3. Check if the third to last line contains the install directory to your SkyProc Patcher jar file, if it doesn&#39;t go ahead and change the directory to the correct install path\r<br />4. Exit and save\r<br />5. Run the .cmd file and use the SkyProc Patcher as per their instructions ",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "KageSama19",
+  "createdUnix": "1446528447",
+  "updatedUnix": "1446528415",
+  "containsAdultContent": false,
+  "uploadedBy": "KageSama19",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000183578",
+      "name": "SUM Launcher",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "SUM Launcher-71111-1-0.rar",
+      "uploadedUnix": "1446528415",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7cd9ec53829cc4de15b22296ac8ad50fc69d6ae4f0a4b4cd4149e1b0de746464/analysis/1446528429/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SUM%20Launcher-71111-1-0.rar?fid=1000183578&ttl=1535859624&ri=8192&rs=8192&setec=7d1807fe85c1fead2455ccdc275d5611"
+    }
+  ]
+}

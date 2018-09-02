@@ -1,0 +1,32 @@
+{
+  "modId": 48471.0,
+  "modName": "Better Notes Mesh - Modders Resource",
+  "summary": "An accurately UV-mapped version of the Skyrim Note mesh. Contains both World and Inventory versions of the Note. Allows easy use of front AND back textures on a single Note.",
+  "descriptionHtml": "[img]http://www.dcoffey.co.uk/images/betternotesmesh/BNM_Banner_Large.jpg[/img]\r<br />\r<br />Dissatisfied with the atrocious and distorted UV-mapping in the vanilla Skyrim Note mesh? Frustrated that you are forced to have the same design on each side of your Notes? This is the resource for you.\r<br />\r<br />This mod contains accurately UV-mapped versions of the Skyrim Notes meshes ready for you to add your own custom Note texture.\r<br />\r<br />SEE ALSO : [url=http://skyrim.nexusmods.com/mods/37113]Better BOOK Mesh - Modders Resource[/url] and [url=http://skyrim.nexusmods.com/mods/42388]Better JOURNAL Mesh - Modders Resource[/url]\r<br />\r<br />\r<br />[img]http://www.dcoffey.co.uk/images/betternotesmesh/BNM_MeshesTextures.jpg[/img]\r<br />\r<br />There is just one type of Note in Skyrim and this mod provides a new Mesh for that model.\r<br />\r<br />There are two meshes... the lower detail one which you see in the world of Skyrim and the more detailed one which you see in your inventory.\r<br />\r<br />The World view mesh consists of a simple fixed model of a Note with no skeleton. The Inventory view contains a skeleton since there is that Note-opening animation to be played and text to be laid out onto the front of the Note. The skeleton and Havok physics of the Note have not been altered from Vanilla in any way.\r<br />\r<br />Instead of the vanilla Note forcing you to use a single texture on both sides of the Note that is distorted and inaccurately mapped to its mesh, you are now able to have a unique texture on EACH SIDE of any Note\r<br />\r<br />These meshes are based around a 2:1 RECTANGULAR texture of 2048x1024 or 1024x512. Included in the resource is a Photoshop template with helpful guide lines so that you can easily create textures for your own Notes. All you have to do is choose your paper, add appropriate borders and a little dirt and away you go.\r<br />\r<br />The Photoshop resource for the front of the Note uses a Smart Object so you are likely to need CS3 or newer to use this template effectively.\r<br />\r<br />You will notice from the template that the Back side of a Note only uses a part of its texture. This is because it is mapped perfectly to the exact aspect ratio of the Note mesh. The front surface of the Inventory Note uses the full square area of its texture, edge to edge. This is due to an oddity caused by the fact that the text that is pasted onto the front of any Note is actually rendered into a SQUARE image and then merged onto the front of the Note. The Note is therefore forced to be a square too so that it lines up with the text.\r<br />\r<br />\r<br />I suggest that you use the following texture sizes for your Notes…\r<br />\r<br />- World Texture - 1024x512 DXT1\r<br />- World Normal - 512x256 DXT5\r<br />\r<br />- Inventory Texture - 2048x1024 DXT1\r<br />- Inventory Normal - 1024x512 DXT5\r<br />\r<br />Remember to save your visible texture file (*.dds) as DXT1 with mipmaps. The Normal/Specular map (*_n.dds) should be saved as DXT5 with mipmaps.\r<br />\r<br />To view your textures in-game you need to reference them in the meshes. Use NIFskope to open a copy of one of the meshes and refer to the pictures posted above to locate the BSShaderTextureSet group in which to declare the name of your texture. The texture itself goes first, followed by the normal/specular map. Remember to use relative paths from the Skyrim textures folder before publishing your mod.\r<br />\r<br />So that your Notes stack nicely on a bookshelf, do not forget to set the OBND Object Bounds for them. Suggested OBND settings are -8, -5, 0, 8, 5, 0.\r<br />\r<br />\r<br />[img]http://www.dcoffey.co.uk/images/betternotesmesh/BNM_FilesIncluded.jpg[/img]\r<br />\r<br />BNM_NoteWorld.nif - World mesh for the Note\r<br />BNM_NoteInventory.nif - Inventory mesh for the Note\r<br />\r<br />BNM_NoteTemplate.psd - Photoshop template from which to create your own textures\r<br />\r<br />BNM_NoteTemplate.dds - sample texture so that you can see what goes where on the Note\r<br />BNM_NoteTemplate_n.dds - sample normal/specular map\r<br />\r<br />BNM_NoteImperial.dds - sample texture 2048x1024 INVENTORY\r<br />BNM_NoteImperial_n.dds - sample normal/specular map, 1024x512 INVENTORY\r<br />BNM_NoteImperialSmall.dds - sample texture, 1024x512 WORLD\r<br />BNM_NoteImperialSmall_n.dds - sample normal/specular map, 512x256 WORLD\r<br />\r<br />\r<br />[img]http://www.dcoffey.co.uk/images/betternotesmesh/BNM_Permission.jpg[/img]\r<br />\r<br />You can use, modify or redistribute these files for any purpose without asking. Feel free to use the template to create your own textures and apply the meshes to Notes in your own (or any other) mod.\r<br />\r<br />\r<br />[img]http://www.dcoffey.co.uk/images/betternotesmesh/BNM_Credits.jpg[/img]\r<br />\r<br />Hanaisse from TES Alliance (tesalliance.org) for extensive coaching in Blender and NIFskope.\r<br />Doccdr who was the original author of the [url=http://skyrim.nexusmods.com/mods/35399]Book Covers Skyrim[/url] mod for getting me started on this journey.",
+  "categoryId": "82",
+  "version": "1.1",
+  "author": "DanielCoffey",
+  "createdUnix": "1386011908",
+  "updatedUnix": "1386930923",
+  "containsAdultContent": false,
+  "uploadedBy": "DanielCoffey",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000086589",
+      "name": "Better Notes Mesh",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2127",
+      "fileName": "Better Notes Mesh-48471-1-1.zip",
+      "uploadedUnix": "1386930923",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/1249c673d6886a2a6e8811ac2cc269a21d803fb419ccb4caf9f4ce596ef0f66a/analysis/1407834673/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Better%20Notes%20Mesh-48471-1-1.zip?fid=1000086589&ttl=1535828608&ri=8192&rs=8192&setec=bfbee43aa4d5a6b3c6a889e10c95de1c"
+    }
+  ]
+}

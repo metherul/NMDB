@@ -1,0 +1,48 @@
+{
+  "modId": 24807.0,
+  "modName": "An Unofficial Collection of Fixes",
+  "summary": "Fixes numerous bugs in Skyrim as well as issues I found while using the Creation Kit.  If anything listed here are in any other mods you\\'ve seen, it is (almost) purely coincidental.\r\n\r\nNote:  This is a work in progress and will likely be updated.",
+  "descriptionHtml": "Fixes numerous bugs in Skyrim as well as issues found while using the Creation Kit.  If anything listed here are in any other mods you\\'ve seen, it is (almost) purely coincidental.\r\n\r\nNote:  This is a work in progress and will likely be updated.\r\n\r\n[b][i]Version 1.01[/b][/i]\r\n\r\n[b]Misc[/b]\r\nProvided a different implementation of enabling dual-wielding followers.  Compared to the existing method, this prevents 682 unnecessary NPCs from having dual-wielding capabilities.\r\n\r\n[b][i]Version 1.0[/b][/i]\r\n\r\n[b]Armor/Clothing[/b]\r\nThe dragon priest mask, Morokei, now has the correct enchantment: It also now reduces the cooldown of dragon shouts by 20%.*\r\nThe Articulation armor enchantment now levels properly.\r\nThe Shield of Solitude now levels properly at Level 32.*\r\nThe world model for Ulfric\\'s Bracers now has the correct texture.\r\nFixed first person model for male variant of Wedding Dress.\r\nA set of Archmage\\'s Robes without the hood (which was initially disabled) is now available in the Archmage\\'s Quarters on the table in front of the bed.  The robes lack the +50 Magicka bonus.  The hooded variant has been renamed to Hooded Archmage Robes to differentiate the two variants.\r\nFixed the Khajiit variants of Hooded Thalmor Robes, Psiijic Hood, Hooded Monk Robes, and Blue Mage Robes (by extension also includes Hooded Blue Robes and both variants of Hooded Mage Robes, not available without console commands).\r\nFixed the Orc variants of Glass Helmet, Apprentice Hood, and Novice Hood.\r\nFixed the Argonian and Khajiit variants of Ancient Shrouded Cowl.*\r\nFixed the world models for Shrouded Cowl and Shrouded Cowl Maskless.*\r\nThe sleeveless Shrouded Armor variant that Arnbjorn wears is now playable. The weight has been modified from 32 to 7 and changed to Light Armor instead of Heavy Armor to be consistent with its other properties.  You can also now improve this armor at a workbench.\r\nAll covered variants of Shrouded Cowl now correctly display the face cover when males wear them.*\r\nBrown Robes, Green Robes, Grey Robes, and Red Robes (unused variants of the Monk Robes) are now available at the Radiant Raiment store in Solitude.\r\nDeleted the unnecessary RingAA ArmorAddon from the Amulet of Zenithar. This fixes the issue with disappearing rings while wearing the amulet.*\r\nGlass Gauntlets no longer occupy the Ring slot in the Armor Addon section, making equipped rings visible.\r\nDragonplate/Dwarven/Orcish Gauntlets now occupy the Ring slot in the Armor Addon section, visibly removing any equipped rings and preventing any clipping issues.\r\nFalmer Armor and Wolf Gauntlets* no longer occupy the Amulet slot in the Armor Addon section, making equipped amulets visible.\r\nThe following armor/clothing now properly occupy the Amulet slot in the Armor Addon section, visibly removing any equipped amulets and preventing any clipping issues:  Archmage Robes, Blades Armor, Cicero\\'s Clothes, Daedric Armor, Ebony Mail, Elven Armor, Elven Guilded Armor, Elven Light Armor, Fine Clothes (all variants), Fur Armor (two variants), Guild Master\\'s Armor, Imperial Armor, Imperial Light Armor, Jester\\'s Clothes, Leather Armor, Linwe\\'s Armor, Nightingale Armor, Penitus Oculatus Armor, Shrouded Armor (all variants), Stormcloak Cuirass (and all city guard variants), Studded Imperial Armor, Thieves Guild Armor, and Wedding Dress.\r\nElven Gilded Armor and Imperial Helmet (the one without the face cover) now benefit from their appropriate Matching Set perks.*\r\nMasque of Clavicus Vile can now be improved at a workbench with an ebony ingot and benefits from the Daedric Smithing perk.*\r\nEbony Mail and Savior\\'s Hide now benefit from the Daedric Smithing perk.\r\n\r\n[b]Weapons[/b]\r\nWhen you have already learned the Absorb Stamina enchantment, Drainheart Sword and Drainspell Bow no longer create a duplicate Absorb Stamina enchantment when disenchanted at an Arcane Enchanter.\r\nThe Staff of Thunderbolts now has the correct enchantment and does 60 points of damage instead of 25.\r\nOrcish War Axe of Draining and Orcish War Axe of Diminishing are now Orchish instead of Iron, as intended.\r\nDragonbane now levels properly.\r\nNord Hero Bow can now be improved at a grindstone with a steel ingot.*\r\nWeapon racks now handles dual-wielded weapons a bit better (though if you only have a weapon equipped in your left hand, the game still doesn\\'t detect a weapon there).\r\n\r\n[b]Quests[/b]\r\nThe weapon issued to you upon completing the Thane quest for Jarl Igmund is now properly titled \\\"Axe of the Reach\\\" instead of \\\"Blade of the Reach\\\".\r\nAhtar (the Headsman in Solitude) can now be properly recruited after completing the Lights Out! quest.\r\n\r\n[b]Abilities/Spells[/b]\r\nHorkers now have their intended abilities of 50% Resist Frost and Waterbreathing.\r\nThe Storm Thrall spell now correctly summons a Storm Thrall instead of a Potent Storm Atronach.\r\n\r\n[b]Maps/Locations[/b]\r\nIt is now impossible to fast travel from Pelagius\\' mind during The Mind of Madness quest.\r\n\r\n[b]Misc[/b]\r\nFixed an error with part of the ground sticking up behind Broken Tower Redoubt.\r\nFixed the flickering wall behind one of the mannequins in Proudspire Manor.*\r\nFlipped chest in front of bed in Proudspire Manor to face the correct way.*\r\nFixed texture sets for mouths not being assigned to Argonians and default humanoids.\r\nAdded unused scars to the fourth and sixth scar options when creating a female humanoid character (these are equivalent to the fourth and sixth options when creating a male humanoid character).\r\nThe first skin tone for female Dark Elves has correctly been marked as Playable.\r\nAdded an additional load screen for the Tower Stone (utilizes an unused Tower Stone load screen model).\r\nAssigned the following people to their intended coffins when they die:  Angrenor Once-Honored (Windhelm)*, Brenuin (Whiterun), Commander Caius (Whiterun), Deeja (Solitude), Endon (Markarth), Gulum-Ei (Solitude), Jaree-Ra (Solitude), Niranye (Windhelm), Revyn Sadri (Windhelm), Viligant Tyranus (Markarth), Weylin (Markarth)*.\r\n\r\n* = Already included in Unofficial Skyrim Patch as of v1.2.1.",
+  "categoryId": "95",
+  "version": "1.01",
+  "author": "OniKeaton",
+  "createdUnix": "1348988765",
+  "updatedUnix": "1349237356",
+  "containsAdultContent": false,
+  "uploadedBy": "OniKeaton",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "91213",
+      "name": "An Unofficial Collection of Fixes",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "31",
+      "fileName": "An Unofficial Collection of Fixes-24807-1-0.7z",
+      "uploadedUnix": "1348989045",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/093d48a476e276c4debdc424f839e57e876c59942637ffdaee41a451ee269878/analysis/1407195243/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/An%20Unofficial%20Collection%20of%20Fixes-24807-1-0.7z?fid=91213&ttl=1535795993&ri=8192&rs=8192&setec=2240e63b173b94be60b48f761f5bcae0"
+    },
+    {
+      "fileId": "91737",
+      "name": "An Unofficial Collection of Fixes",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "48",
+      "fileName": "An Unofficial Collection of Fixes-24807-1-01.7z",
+      "uploadedUnix": "1349237356",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/a04a58c37eefeddb3a02ef86f01520e71e8f1a7e1bfe3f2a4ce88428f869120a/analysis/1407201063/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/An%20Unofficial%20Collection%20of%20Fixes-24807-1-01.7z?fid=91737&ttl=1535795993&ri=8192&rs=8192&setec=7c915c82bc145dd69ba889882a89c495"
+    }
+  ]
+}

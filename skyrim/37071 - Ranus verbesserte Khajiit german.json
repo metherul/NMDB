@@ -1,0 +1,48 @@
+{
+  "modId": 37071.0,
+  "modName": "Ranus verbesserte Khajiit german",
+  "summary": "Überarbeitete Khajiitsinne und -eigenschaften, Khajiit als Huscarls (heiratbar), einige NPC\\'s zu Khajiit verändert. Zusätzliche Heartfire Version ab sofort verfügbar.",
+  "descriptionHtml": "[b][u]News:[/b][/u]\r\nIch habe gerade die erweiterte Version für Heartfire fertig, Ihr findet sie unter den optionalen Files im Download. Und nicht das empfehlen vergessen ^^.\r\nDie drei zusätzlichen Huscarl sind nun natürlich auch Khajiit, zudem sind alle Huscarl als Vogt einstellbar. Hierbei leider unter Einschränkung, R\\'ranu und J\\'Boosar haben die Option, sagen aber nichts. Wenn ihr sie unbedingt als Vogt wollt, müsst ihr dann die Untertitel einschalten. Ansonsten sollte alles funktionieren. Viel Spaß! :3\r\n\r\n[b][u]Beschreibung:[/b][/u]\r\nMeine Khajiit sind nun frostresistent durch ihr Fell, auch schützt es eingeschränkt gegen Elektrizität. Ebenfalls durch ihr Fell sind sie aber nun feuerempfindlich. Jeder der sich etwas mit Fell auskennt, wird das obige bestätigen können, also kommt mir bitte keiner mit Lore - es ist mir egal. ;)\r\nWeiterhin überträgt sich Gift durch ihr Fell schwerer (Resistent), Krankheiten (gerade in Himmelsrand) sind aber eine Plage für die Katzen; daher sind sie für Krankheiten jedweder Art empfänglicher.\r\nSie haben ausgeprägte Sinne und Instinkte, die sie ihre Beute auf gewisse Distanz wittern läßt. Die Wirkungsdauer beträgt 10 Sekunden, standortgebunden (Umkreis), ist jedoch unbegrenzt verfügbar und geländeunabhängig. \r\nDie Nachtsicht wurde auf eine Stunde erhöht, ist aber durch erneutes wirken abschaltbar wie im Original.\r\nDer Alchemiebonus fiel einer Verbesserung der Redekunst (+5) zum Opfer, ebenso wurden Einhänder durch Leichte Rüstung (+5) ersetzt. Der Krallenschaden wurde korrigiert, sodass nun tatsächlich 15 Schaden zusätzlich im unbewaffneten Kampf verursacht wird - vanilla sind es 12, obwohl 15 im Tooltip steht.\r\n\r\nEs sind nun pro Aufstieg 10 Trainingseinheiten verfügbar.\r\n\r\nAlle Huscarl sind durch Khajiit ersetzt. Die Stimmsets musste ich so lassen, da die NPC\\'s ansonsten weder Huscarl sein können, noch heiratbar sind. So sind sie es aber, allesamt. Zudem gefallen mir die Skyrim Khajiitstimmen sowieso nicht. Aber auch an deren Freunde hab ich gedacht - nehmt einfach J\\'zargo (Akademie Winterfeste) mit.\r\nSie sind essentiell markiert, also unsterblich. Ebenso lösen sie keine Bodenschalter mehr aus - bin schon zu oft umgefallen durch die Unvorsichtigkeit der früheren Begleiter.\r\n\r\nIn der Diebesgilde sowie der Dunklen Bruderschaft braucht man sich nun auch nicht mehr ganz so einsam fühlen - lasst euch überraschen. :)\r\n\r\nDie Huscarl tragen Kleidung, keine Rüstung. Ihnen zugeteilte Rüstung wird beim wegschicken/entlassen abgelegt und muss beim erneuten rekrutieren im Übergabeinventar aktiviert werden (einfach was wegnehmen und wiedergeben, egal was). Sie haben nun auch unterschiedliche Klassen:\r\nMarkarth - Kampfmagier\r\nEinsamkeit - Schütze (leichte Rüstung)\r\nWeißlauf - Tank (1hand+Schild, Schwere Rüstung)\r\nWindhelm - Krieger (2hand Axt+Schwere Rüstung)\r\nRifton - Dieb/Assasine (Leichte Rüstung, Einhandwaffen)\r\nDie KI ist durchwachsen, mal funktionierts perfekt, mal nicht so wie\\'s soll - kann ich aber nix für sondern Bethesda. ^^\r\n\r\n[u][b]Installation[/b][/u]\r\nArchiv öffnen, beide Dateien in den Skyrim Data Ordner entpacken, im Launcher ggf. noch aktivieren - fertig.\r\n\r\n[b][u]Bekannte Probleme / Bugs / Inkompatibilitäten[/u][/b]\r\nWenn die Mod mit einem bestehenden Spielstand geladen wird, kann ein bereits geheirateter Huscarl evtl. nicht mehr als Begleiter mitgenommen werden. In dem Fall muss dann der Beziehungsstatus via Konsole editiert werden (Konsole öffnen, NPC anklicken, \\'setrelationshiprank player 4\\' eingeben ohne die \\'\\', Konsole schließen, fertig).\r\nAnsonsten sind mir (noch) keine Probleme bekannt.",
+  "categoryId": "79",
+  "version": "2.1",
+  "author": "Ranu",
+  "createdUnix": "1370875455",
+  "updatedUnix": "1371323804",
+  "containsAdultContent": false,
+  "uploadedBy": "Ranu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000033646",
+      "name": "Ranus Khajiit Mod",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2016",
+      "fileName": "Ranus Khajiit Mod-37071-2-0.zip",
+      "uploadedUnix": "1370875030",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ac424d5ab212d6a61899e908a08f83cf82d9a2dbf9d1b17a2bdadeb8f49fa4da/analysis/1407599110/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ranus%20Khajiit%20Mod-37071-2-0.zip?fid=1000033646&ttl=1535816536&ri=8192&rs=8192&setec=c27744314130ea933dde033056185b3b"
+    },
+    {
+      "fileId": "1000034372",
+      "name": "Ranus Khajiit Mod Heartfire german",
+      "version": "2.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "2468",
+      "fileName": "Ranus Khajiit Mod Heartfire german-37071-2-1.zip",
+      "uploadedUnix": "1371323804",
+      "modVersion": "2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/567adb0327534c734c5e1da08481962ba7f49f0b9625c3011c4b91741551574a/analysis/1407605194/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ranus%20Khajiit%20Mod%20Heartfire%20german-37071-2-1.zip?fid=1000034372&ttl=1535816537&ri=8192&rs=8192&setec=4204707c948a92136036843d861eb9b8"
+    }
+  ]
+}

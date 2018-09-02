@@ -1,0 +1,32 @@
+{
+  "modId": 24516.0,
+  "modName": "ENBSeries Preset",
+  "summary": "This is a simple ini file for use with ENBSeries v0.119.",
+  "descriptionHtml": "After much trial and error, I\\'ve arrived at the settings I like so I just thought I\\'d share them.\r\n\r\nA few things to note:\r\n\r\n - I have a pretty powerful system so everything is turned on (except DoF because I don\\'t like it) with quality maxed out (and I still get a solid 60fps ;) ).\r\n\r\n - A lot of people have been having problems with SSAO when the environment is foggy. It turns out that (again, after much trial and error and contrary to what has been said in any description of these parameters I could find), that the FadeFogRange settings take very high values. All three are set to 500.0 here.\r\n\r\n - ForceFakeVideocard is set o true. Set to false if you have an Nvidia card.\r\n\r\n - If when you start the game the SSAO looks completely mental:\r\n     1 - Open the ini file and set EnableAmbientOcclusion to false.\r\n     2 - Press backspace in the game to reload the settings.\r\n     3 - Set EnableAmbientOcclusion to true.\r\n     4 - Repeat step two.\r\n   I\\'ve no idea why it does this, I assume it\\'s a bug in ENB.\r\n\r\n\r\nCredits:\r\n - Boris Vorontsov - obviously, for making ENDSeries a reality in the first place.\r\n - JawZ - \\\"Guide to ENB series mods\\\". Very helpful! http://skyrim.nexusmods.com/mods/8005",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "Dr Caligineus",
+  "createdUnix": "1348410709",
+  "updatedUnix": "1348413231",
+  "containsAdultContent": false,
+  "uploadedBy": "Dr Caligineus",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "90067",
+      "name": "ENBSeries Preset",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "ENBSeries Preset-24516-1-1.zip",
+      "uploadedUnix": "1348413231",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/e3b6e6dd871d41205a2ae02f37cdccf88026e9a20af7c481bc687753b09c431d/analysis/1407183201/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENBSeries%20Preset-24516-1-1.zip?fid=90067&ttl=1535795503&ri=8192&rs=8192&setec=69ab2cf69db15a42291e5576b1a937dc"
+    }
+  ]
+}

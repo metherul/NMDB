@@ -1,0 +1,32 @@
+{
+  "modId": 76267.0,
+  "modName": "XPMSE_Biped",
+  "summary": "Biped rig with XPMSE skeleton.",
+  "descriptionHtml": "Use the Biped rig to create animations for Skyrim. Biped is oldest and the most convenient rig for animation people. Only Motionbuilder better. Biped can easy work with mocap data (bvh for example).\r<br />\r<br />[b][u][size=3]Using[/size][/u]:[/b]\r<br />\r<br />In this archive three files:\r<br />\r<br />[color=#00ff00][b]XPMSE-biped.2010.max[/b][/color]\r<br />- File for work, in this file XPMSE skeleton constrain to Biped. All body animation need to creating on the Biped rig. Additional animation for skirt, breast or weapons bones need to creating on the XPMSE bones. Export animation with HavokPcXsContentTools. Scene contain female and male body mesh.\r<br />\r<br />[color=#00ff00][b]XPMSE-biped.import.2010.max[/b][/color]\r<br />- File for import *.KF animation. First step - import *.kf in scene, animation applied for XPMSE skeleton. In this scene there is no Biped, only bones with the same name constrain to XPMSE bones. When importing animations can be b[size=2]ugs, but it&#39;s the problem Nift[/size]ools 3dsmax Plugin. Second step - select all bip bones and export selected to temp *.fbx file. Сertainly in the export settings select &#34;bake animmation&#34;. Third step - import this temp.fbx in XPMSE-biped.2010.max scene. In import settings, select &#34;Update scene element&#34;. It is necessary to import only animation data.\r<br />Example:\r<br />[youtube]qMt6XOPUur8[/youtube]\r<br />\r<br />[color=#00ff00][b]rig.txt[/b][/color]\r<br />- File for HavokPcXsContentTools contain bones list.\r<br />\r<br />[size=3][b][u]Requirements[/u][/b]:\r<br />\r<br />[/size]3DMax 2010 32-bit\r<br />HavokPcXsContentTools_2010-2-0_20101115 32-bit\r<br />Niftools 3dsmax Plugin\r<br />XP32 Maximum Skeleton (but not necessarily, HKX animation can work on a standard skyrim skeleton with certain limitations)\r<br />\r<br /> [b][u][size=3]Permissions[/size][/u]:[/b]\r<br />\r<br />Absolute freedom.",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "MaikCG",
+  "createdUnix": "1465735195",
+  "updatedUnix": "1465734897",
+  "containsAdultContent": false,
+  "uploadedBy": "MaikCG",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000209564",
+      "name": "XPMSE_Biped.7z",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3073",
+      "fileName": "XPMSE_Biped.7z-76267-1-0.7z",
+      "uploadedUnix": "1465734897",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9316affff713ea9d8003f457ad4f3607442633ea0978db8ca5310a66e00eaf7a/analysis/1465734909/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/XPMSE_Biped.7z-76267-1-0.7z?fid=1000209564&ttl=1535864981&ri=8192&rs=8192&setec=d5a51af2bb05018ee472fd1723b71793"
+    }
+  ]
+}

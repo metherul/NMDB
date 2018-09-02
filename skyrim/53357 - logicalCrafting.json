@@ -1,0 +1,15 @@
+{
+  "modId": 53357.0,
+  "modName": "logicalCrafting",
+  "summary": "a skyProc Patcher that tries to sanitize smelting and smithing (and the other crafting arts a bit later)",
+  "descriptionHtml": "This is a fully automated .esp (with no skripts) that tries to sanitize the crafting in skyrim.\r<br />\r<br />I was always anoyed that you could actually ADD weight by crafting. (Yeah, smelting that 1 pound dagger surely yields 1 ingot of 3.5 pound weight......), or some strangeness in crafting itself: making a dagger: 1 ingot. Sharpening the same dagger: 1 ingot... Heck, why sharpening it, if i could actually make another one for the same amount of ingots?\r<br />\r<br />But since any mod may alter item weights there is no way in doing this the normal modders way, so i choose to do it with sinatra...(ergo: my way)\r<br />\r<br />So.....what does this mod do, and what doesnt it?\r<br />It doesnt:\r<br />-- add new recipes for armor or weapons\r<br />-- add anything to lists or npcs\r<br />\r<br />it does:\r<br />-- add new materials for smelting. Those are made out of the materials in the game, but have a weight of 0.1 (pound, kilo, whatever).  X of those make up one original ingot. (Whereas X is the correct weight of ingots. so if your ingot has a weight of 1, then 10 of the small ingots make up for that. if the ingot is (skyrimredone) weighted with 3.2 whatever, then 32 small ingots are used for one big ingot. The price of those ingots is also 1 / X the price of the big ingot. This will be done for all OreIngots that have &#34;INGOT&#34; or &#34;STONE&#34; in their name - regardless if they were added by a mod or the game itself\r<br />\r<br />-- it changes all smelting recipes to use the new smaller ingots\r<br />-- crafting recipes are modified so that they are weight based. (about 20% weight loss while crafting, this is what i thought reasonable.) So if youre crafting you will actually have a weight loss, because crafting is not loss free.) And you will NEVER EVER get MORE weight by crafting or smelting.\r<br />If for one recipe there are more than 1 items needed, the most weightiest of items is considered the main ingredient,\r<br />\r<br />Todo:\r<br />-- Changing the .nifs for the generated small ingots. Currently they are as big as the big ones.....(any hints anyone? - looking for an automatic solution....)\r<br />\r<br />\r<br />",
+  "categoryId": "84",
+  "version": "0.1",
+  "author": "Shiana Whatever",
+  "createdUnix": "1398333623",
+  "updatedUnix": "1398333623",
+  "containsAdultContent": false,
+  "uploadedBy": "ShianaWhatever",
+  "primaryFile": null,
+  "files": []
+}

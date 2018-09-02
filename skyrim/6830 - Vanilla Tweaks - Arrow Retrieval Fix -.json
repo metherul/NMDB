@@ -1,0 +1,32 @@
+{
+  "modId": 6830.0,
+  "modName": "Vanilla Tweaks - Arrow Retrieval Fix -",
+  "summary": "Now you can properly retrieve arrows out of all dynamic clutter. Food, buckets etc.",
+  "descriptionHtml": "..........\r\nver1.1\r\n\r\nFixed extraction folder paths-\r\n.........\r\n\r\nCan\\'t seem to pick up arrows you\\'ve shot into something dynamic? \r\n\r\nThe physics object in the arrows is inverted, which makes it difficult to pick up an arrow if you\\'ve shot it into something that can bounce around.(havok objects). \r\n\r\nBuckets, vegetables, cheese. Y\\'know, target practice stuff. Stuff that\\'s fun to shoot and watch bounce around.\r\n\r\nThis fixes this bug, allowing you to grab an arrow where it is, instead of where it is not.\r\n\r\n\r\nsecondary fixes::\r\n \\\"tracer effect\\\" properly enabled on the Ancient Nord Arrows. \r\n\r\n\r\nInstallation::\r\n\r\nExtract into your skyrim/data folder \r\n\r\n\r\nBugs/Conflicts::\r\n\r\nNo bugs that I am aware of. Let me know if you find any. \r\n This mod alters the arrow flight/projectile nifs, so it conflicts with anything that does the same, I\\'d imagine.\r\n",
+  "categoryId": "95",
+  "version": "1.1",
+  "author": "pseudobug",
+  "createdUnix": "1327269811",
+  "updatedUnix": "1327277157",
+  "containsAdultContent": false,
+  "uploadedBy": "pseudoBug",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "22241",
+      "name": "vanilla_tweaks_arrowfix1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "175",
+      "fileName": "vanilla_tweaks_arrowfix1-6830-1-1.zip",
+      "uploadedUnix": "1327277157",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/fe5538e0a6095be1c91760e11d3cbcb9f7282347b8beb3a7e61a1d74d72a71f9/analysis/1406632281/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/vanilla_tweaks_arrowfix1-6830-1-1.zip?fid=22241&ttl=1535764504&ri=8192&rs=8192&setec=df5878bcccebfc3aa30b61df0cda184c"
+    }
+  ]
+}

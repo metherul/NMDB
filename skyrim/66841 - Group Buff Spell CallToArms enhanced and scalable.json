@@ -1,0 +1,32 @@
+{
+  "modId": 66841.0,
+  "modName": "Group Buff Spell CallToArms enhanced and scalable",
+  "summary": "I adjusted the &#34;Call to Arms&#34; group buff spell to include most stats relevant to combat for the party including all summoned creatures (including undead). ",
+  "descriptionHtml": "This is a full group buff spell for summons as well as the party.  This does not buff the hero.  It buffs the rest of the party, which is appropriate for summons especially since they do not scale well past level 100, which is what this spell helps to balance.   I created this because I was unable to find anything that would help scale my summons in advanced levels.  Using creation editor, summoned creatures can be made to scale by level, but not by skills, so they fall behind. \r<br />\r<br /> I used the Call to Arms spell, made it conjuration based (so it can scale), and tested with atronachs at conjuration skill 100 and 500.  They are balanced at 100, and beasts at 500.  Which is what I was looking for.  This is meant to play as a conjuration summoning mage with high-level enemies mod, uncapped.  Summon, cast one buff spell, and you are on your way.  \r<br />\r<br />It will modify health, stamina, magicka, unarmed damage, one-handed, two-handed, marksman), damageresist (armor), magicresist, health regen, stamina regen, magicka regen, and combat health regen.  For instance, unarmed damage is used by summoned frost atronachs.  Without this buff, unarmed damage never increases, even if you mod their levels to increase.   What this means is that at level 200, your summoned creatures will suck.  Hence this mod.\r<br />  \r<br />\r<br />You WILL NEED ANOTHER MOD to make conjuration affect magnitude  --&gt;&gt; I recommend &#34;Skyrim Spells Restored&#34; .  That was what I used to test this buff for balance with the frost atronachs. \r<br />\r<br />\r<br />You WILL NEED ANOTHER MOD to make your summoned creatures last longer in duration  --&gt;&gt; I recommend &#34;invested magic&#34; for atronachs.  However, I don&#39;t like that mod&#39;s changes to the conjuration tree (allowing 4 summons).  I prefer the vanilla 2 summon limit, considering these summons are now sufficient tanks by themselves.\r<br />\r<br />\r<br />INSTALLATION \r<br />---------------------\r<br />1) Unpack with NMM or drop into your data folder.  \r<br />\r<br />It should not conflict with anything.  It only modifies the spell Call To Arms.  \r<br />\r<br />2) Call to Arms is sold by Drevis Neloren in Winterhold.  The simple way to get is in console mode, type:  &#34;player.additem A271B 1&#34;  (no quotes)\r<br />\r<br />3)  When you learn the spell, it will show up as a Conjuration Spell (not Illusion).    \r<br />\r<br />4) As I stated above, I recommend the mod Skyrim Skills Restored to scale the spell with Conjuration skill.  \r<br />\r<br />5) And also I recommend invested magic to increase duration of atronachs to 1 day.  \r<br />\r<br />6) Cast the spell while near your party.  They will light up for a second when they are affected.  \r<br />\r<br />7) You can see their health in console mode, click on them (make sure you are not actually clicked on yourself), and type: &#34;getav health&#34; .  Potent Atronachs will have around 1500-2000 health if your conjuration is near 100 AND you are running a mod that modifies conjuration spell damage to skill (refer to #4).  Also you will notice that unbuffed summons do not recover health after a battle.  Buffed ones will recover.  \r<br />\r<br />\r<br />Next steps:\r<br />\r<br />One of these days I will combine the relevant parts of those other 2 mods and put it into this one.  However they work very synergistically as is so its not the highest priority.  I WOULD recommend going into Creation Kit and disabling the 2nd Summoner Perk if you are using invested magic.  4 Summons is overkill and unmanageable anyway.",
+  "categoryId": "75",
+  "version": "",
+  "author": "DT me",
+  "createdUnix": "1434133961",
+  "updatedUnix": "1434133949",
+  "containsAdultContent": false,
+  "uploadedBy": "dtoney12",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000163893",
+      "name": "CallToArms_4Summons_DTMOD.rar",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "CallToArms_4Summons_DTMOD.esp-66841-.rar",
+      "uploadedUnix": "1434133949",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/d728c0eee02a511e0d9b2d4634848ce7b472c30dccd2fe6046f2ef1c9b0d593b/analysis/1434133983/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CallToArms_4Summons_DTMOD.esp-66841-.rar?fid=1000163893&ttl=1535855316&ri=8192&rs=8192&setec=e3b860d793636bb2cf8eec2b8a6d6d64"
+    }
+  ]
+}

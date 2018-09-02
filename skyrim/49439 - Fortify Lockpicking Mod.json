@@ -1,0 +1,32 @@
+{
+  "modId": 49439.0,
+  "modName": "Fortify Lockpicking Mod",
+  "summary": "Simple mod that changes effect of potions and enchants to increase skill instead of just making lockpicking easier.",
+  "descriptionHtml": "PROBLEM\r<br />-------------\r<br />Potions and enchants are nearly uselles if you are using mods like Lock Overhaul which adds skill requirements to pick more dificult locks.\r<br />\r<br />SOLUTION\r<br />--------------\r<br />Effect of potions and enchants changed to &#34;Increases lockpicking skill by &lt;mag&gt; points.&#34; Magnitude remains the same to keep the mod simple, so eg. Potion of Lockpicking which previously made lockpicking 20% easier now boosts lockpicking skill by 20 points. Both default items and player created potions and enchants should get this new effect. Higher skill aslo makes lockpicking easier, but I am not sure how exactly.\r<br />\r<br />INSTALATION\r<br />------------------\r<br />- download FortifyLockpickingMod.esp\r<br />- place it in the .../skyrim/data folder\r<br />- activate it with the launcher or NMM\r<br />\r<br />COMPATIBILITY\r<br />---------------------\r<br />This mod does not change items only magic effects so it should be compatible with item sorting mods and mods changing eg. potion weight, however item sorting mods like Another Sorting Mod may overwrite changes to magic effects, so load FortifyLockpicking after ASM.",
+  "categoryId": "94",
+  "version": "1.0",
+  "author": "OlejzMaku",
+  "createdUnix": "1388665564",
+  "updatedUnix": "1388664753",
+  "containsAdultContent": false,
+  "uploadedBy": "OlejzMaku",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000089504",
+      "name": "Fortify Lockpicking Mod",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Fortify Lockpicking Mod-49439-1-0.7z",
+      "uploadedUnix": "1388664753",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/eddba634516e8922065a5138b1fbdde5cb7c4bba5224e1b763c700fe45ebf279/analysis/1407868606/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fortify%20Lockpicking%20Mod-49439-1-0.7z?fid=1000089504&ttl=1535830311&ri=8192&rs=8192&setec=8aacd5346b014effefcf04cc16b9c8a3"
+    }
+  ]
+}

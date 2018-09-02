@@ -1,0 +1,32 @@
+{
+  "modId": 62921.0,
+  "modName": "Grass On Steroids-Tamriel Reloaded Grass Patch",
+  "summary": "A patch to have Tamriel Reloaded Grass densed through Grass On Steroids",
+  "descriptionHtml": "With this patch, you will be able to use Grass On Steroids on Tamriel Reloaded Grass.\r<br />\r<br />[u][b]Installation[/b][/u]\r<br />1. Download [url=http://www.nexusmods.com/skyrim/mods/59774/?]Tamriel Reloaded Grass[/url]\r<br />[list][*]Install it, following the guide on the Tamriel Reloaded Grass page. Use any variant you want, it doesn&#39;t matter\r<br />[/*][/list]2. Download [url=http://www.nexusmods.com/skyrim/mods/33582/?]Grass On Steroids[/url]\r<br />[list][*]Install it, following the guide on the Grass On Steroids page. Use any variant you want, it doesn&#39;t matter\r<br />[/*][/list]3. Download this patch\r<br />[list][*]Install it[/*]\r<br />[*]Check the Tamriel Reloaded [b]esp[/b] in your mods list[/*]\r<br />[*]Check the Grass on Steroids [b]esp [/b]in your mods list[/*]\r<br />[*]Check the [b]GrassOnSteroids_TamrielReloadedGrass.esp [/b]in your mods list[/*]\r<br />[*]Make sure this patch is loaded [b]after[/b] the Tamriel Reloaded esp (if not, your game will crash)[/*]\r<br />[/list][url=http://www.nexusmods.com/skyrim/mods/65163/?][img]http://staticdelivery.nexusmods.com/mods/110/images/65163-1-1430071785.png[/img][/url]\r<br />[b][u]Why do I need Grass On Steroids?\r<br />[/u][/b]Actually, Grass On Steroids is not required, but since this was skyrimaguas original idea, this patch will only make the grass that is [b]added [/b]through Tamriel Reloaded Grass more dense. Tamriel Reloaded does not only add new grass, it also modifies the vanilla grass, and for that to be more dense, you will[b] have to [/b]use Grass On Steroids. If that sounds confusing, simpy follow my installation instructions, and you&#39;ll be alright.\r<br />[b]\r<br />[/b][u][b]Recommendation\r<br />[/b][/u]Open your skyrim.ini file and change/add the following under [Grass]\r<br />[b]iMaxGrassTypesPerTexure=15 ; &lt;--- 3=performance. 15=quality. Set it anywhere between \r<br />iMinGrassSize=75 ; &lt;--- lower=denser, 75 for best look, 120 for best performance. \r<br />[/b]\r<br />You&#39;re good to go.\r<br />\r<br />===============\r<br />[b]SPECIAL Thank You to [/b][url=http://www.nexusmods.com/games/users/5493422/?][b]mattwoodmansee[/b][/url] for  contributing to this mod by testing and providing screenshots.\r<br />\r<br />[img]http://s3.postimg.org/8345hyteb/62921_2_1424553559.jpg[/img]",
+  "categoryId": "58",
+  "version": "1.0",
+  "author": "grvulture",
+  "createdUnix": "1424478306",
+  "updatedUnix": "1424477900",
+  "containsAdultContent": false,
+  "uploadedBy": "grvulture",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000148303",
+      "name": "GrassOnSteroids_TamrielReloadedGrass",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "GrassOnSteroids_TamrielReloadedGrass-62921-1-0.7z",
+      "uploadedUnix": "1424477900",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3b800876b6c5cb0220aaec2126453cb24468c3e323af9c67a58d30e91751a643/analysis/1424477944/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/GrassOnSteroids_TamrielReloadedGrass-62921-1-0.7z?fid=1000148303&ttl=1535851605&ri=8192&rs=8192&setec=82b6eecc1138a9a52fc8fb1c0a270599"
+    }
+  ]
+}

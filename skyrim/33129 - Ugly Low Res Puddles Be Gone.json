@@ -1,0 +1,48 @@
+{
+  "modId": 33129.0,
+  "modName": "Ugly Low Res Puddles Be Gone",
+  "summary": "This mod simply removes the horrendous looking (low res) puddle decals everywhere they existed in the Skyrim world.",
+  "descriptionHtml": "[color=#FF4500][size=8]This mod has been superseded by my new [url=http://skyrim.nexusmods.com/mods/33335]Skyrim Improved Puddles (SIP)[/url]. I will still keep this mod alive in case anyone just wants to hide the puddles and doesn\\'t like the changes I made in SIP.[/color][/size]\r\n\r\n[b][color=green][size=5]WHAT THIS MOD DOES[/b][/color][/size]\r\nIt simply removes the terrible looking puddles in the Skyrim world. Originally this mod was created to remove the puddles from the Windhelm Market area, but I decided to remove them from everywhere else too.\r\n\r\nTo be specific, these are the very low res puddle decals placed throughout various Skyrim locations. I hid the decals below the visible surface and also disabled them, so even if a script was to re-enable them, they still won\\'t appear, which in this case is a good thing! Until someone can make higher res versions of those files, you\\'ll probably want to keep them hidden too, thus keep this mod in your load order. \r\n\r\n[b][color=cyan]UPDATE:[/b] I\\'m currently trying to improve the textures myself and may release them as a separate mod or will include as part of this mod. See sample images in the Posts/Forum.[/color]\r\n\r\n[IMG]http://i.imgur.com/NUzkppB.gif[/IMG]\r\n\r\n\r\n[b][color=red]WHAT THIS MOD DOES NOT DO[/b][/color]\r\nIt does not fix the quality of icy puddles in other areas of Windhelm. Yes, I know they look pixelated and are ugly too (not as bad as the puddle decals in the Market and other areas though). Some of the High Res packs can improve them, but the best one seems to be Skyrim Realistic Overhaul, which sadly is no longer on the Nexus (PLEASE DO NOT ASK ME FOR THOSE FILES). If you don\\'t have SRO, a decent alternative to try is [url=http://skyrim.nexusmods.com/mods/26269]Langleys Wood Metal and Stone Textures Workshop[/url]. The specific texture files that you want to look for, which all seem to have an effect on the quality of the puddles, are as follows:\r\n\r\ntextures\\\\architecture\\\\windhelm\\\\WHroughgroundmud.dds\r\ntextures\\\\architecture\\\\windhelm\\\\WHroughgroundwet_n.dds\r\ntextures\\\\architecture\\\\windhelm\\\\WHstreetstone01.dds\r\ntextures\\\\architecture\\\\windhelm\\\\WHstreetstone01_n.dds\r\ntextures\\\\architecture\\\\windhelm\\\\WHstreetstone01_m.dds\r\ntextures\\\\architecture\\\\windhelm\\\\WHextrawet_m.dds\r\ntextures\\\\cubemaps\\\\QuickSkyDark_e.dds\r\n\r\n\r\n[b][color=yellow]VERSION INFO[/b][/color]\r\n[b][color=cyan]Version 1.5[/b][/color]\r\n[list]Optional file that removes puddles from all other locations where they appear in game, including:\r\n[*]Abandoned Prison[/*]\r\n[*]Anese\\'s Cabin[/*]\r\n[*]Blackreach[/*]\r\n[*]Fort Amol[/*]\r\n[*]Ilinata\\'s Deep[/*]\r\n[*]Mzinchaleft Depths[/*]\r\n[*]Skybound Watch Pass[/*]\r\n[*]Windhelm Barracks[/*][/list]\r\n\r\n[b][color=cyan]Version 1.0:[/b][/color]\r\n[list]Puddles removed from the following location:\r\n[*]Windhelm Market only[/*][/list]\r\n\r\n[b][color=yellow]INSTALLATION[/b][/color]\r\nCopy the \\\"WindhelmMarketPuddlesBeGone.esp\\\" to your \\\\Skyrim\\\\Data\\\\ directory using your preferred mod manager utility and activate it. The load order shouldn\\'t matter for this one.\r\n\r\n\r\n[b][color=yellow]COMPATIBILITY[/b][/color]\r\nThis mod should not conflict with any other mod, unless that mod happens to edit/use the decals that this mod hides. I checked both ESPs in TES5Edit and they\\'re clean. I also kept the hidden objects within the same cells they were originally in, so there would be no errors if another mod did happen to reference them. With that said, this is my very first mod and my first time using the Creation Kit to make a plugin.\r\n\r\nThis mod is not dependent on any DLCs or other mods.\r\n\r\n\r\n[b][color=yellow]OTHER INFO[/b][/color]\r\nBrumbek, the author of the amazing and very essential [url=http://skyrim.nexusmods.com/mods/8655]Static Mesh Improvement Mod (SMIM)[/url] mentioned he might try to fix the puddles and related decals in Windhelm at some point. I hope he does and if/when he does, this mod will no longer needed. So keep an eye out for that.\r\n\r\n\r\n[b][color=yellow]CREDITS[/b][/color]\r\nThanks to the wonderful people over at the [url=http://forum.step-project.com/index.php]S.T.E.P. Community Forums[/url] for identifying these bad textures.\r\n\r\n[b]Special thanks to:[/b]\r\n[url=http://forum.step-project.com/member.php?action=profile&uid=328]Kelmych[/url] over at the S.T.E.P. Forums for the [url=http://forum.step-project.com/showthread.php?tid=228&pid=22564#pid22564]tip[/url] about how to use TES5Edit and the Creation Kit to locate specific game cell locations and meshes.\r\n[url=http://forum.step-project.com/member.php?action=profile&uid=120]torminater[/url] also at the S.T.E.P. Forums for the important [url=http://forum.step-project.com/showthread.php?tid=1741&pid=29306#pid29306]tip[/url] about disabling objects in the CK, NEVER deleting!\r\n\r\nAnd Bethesda of course for making an awesome game!",
+  "categoryId": "95",
+  "version": "1.5",
+  "author": "PCG4m3r",
+  "createdUnix": "1362984760",
+  "updatedUnix": "1363155478",
+  "containsAdultContent": false,
+  "uploadedBy": "PCG4m3r",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000016666",
+      "name": "Windhelm Puddles Be Gone",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Windhelm Puddles Be Gone-33129-1-0.7z",
+      "uploadedUnix": "1362982054",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/65b3e202a57f3a930312f6d3bc4def4443812ab6a7360882cbb5287af2a5f548/analysis/1407464164/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Windhelm%20Puddles%20Be%20Gone-33129-1-0.7z?fid=1000016666&ttl=1535810050&ri=8192&rs=8192&setec=e50d2dc504159356f0e776ba7fa01ff8"
+    },
+    {
+      "fileId": "1000017133",
+      "name": "More Puddles Be Gone",
+      "version": "1.5",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "More Puddles Be Gone-33129-1-5.7z",
+      "uploadedUnix": "1363155478",
+      "modVersion": "1.5",
+      "virusScanUrl": "https://www.virustotal.com/file/04c0683852cada1fd1d3a5019c20d7956c9c3e451211bc3992ca61e4f1540caf/analysis/1407467106/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/More%20Puddles%20Be%20Gone-33129-1-5.7z?fid=1000017133&ttl=1535810050&ri=8192&rs=8192&setec=b63d273a265f1c99d225ca37ad210438"
+    }
+  ]
+}

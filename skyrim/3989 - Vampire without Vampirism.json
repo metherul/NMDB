@@ -1,0 +1,48 @@
+{
+  "modId": 3989.0,
+  "modName": "Vampire without Vampirism",
+  "summary": "This mod will give you all skills associated with vampirism without actually becoming a vampire. Several options to choose from.",
+  "descriptionHtml": "Vamp Without Vamp\r\nby XunAmarox\r\n\r\nDescription:\r\nThis mod will give you all skills associated with vampirism without actually becoming a vampire. You can use it for whatever reasons you may have. Roleplaying or just personal preferences, or what have you. Maybe you want green eyes instead of vampire ones but don\\'t want to affect the rest of vampires, maybe you don\\'t want the hassle of having to feed and not regenerating during the day, or maybe you just don\\'t want the gaunty puckered up face, or maybe you want to be some kind of Werewolf-Vampire hybrid. Whatever the reason, here it is, for your convenience.\r\n\r\nNote: This does NOT give you the ability to feed.\r\n\r\nThis is a bat command file mod, some of you are probably familiar with these. I made it for myself and figured I\\'d save someone else the trouble and go ahead and share it. It\\'s nothing revolutionary or anything, it just is what it is.\r\n\r\nCommands as follow:\r\n\r\nvampme\r\nThis will give you all vampire skills without becoming vampire race.\r\n\r\nunvampme\r\nThis will undo what the above did.\r\n\r\nvampfac\r\nThis will make you friendly to the vampire faction.\r\n\r\nunvampfac\r\nThis will remove you from the friendly vampire faction.\r\n\r\nvampfac2\r\nThis will make you friendly to vampires, various undead, and wolves.\r\n\r\nunvampfac2\r\nThis will remove you from the previously added faction with vampfac2.\r\n\r\nvamp-sneak-silent\r\nThis will replace your 25% sneak bonus Nightstalker\\'s Footsteps with Night Stalker\\'s Footsteps which makes you move silently while sneaking. It will remove the previous one.\r\n\r\nvamp-sneak-norm\r\nThis will remove the silent one and add back the 25% one.\r\n\r\nvfire0\r\nvfire25\r\nvfire50\r\nvfire75\r\nvfire100\r\nAdds Weakness to Fire at the percentage listed at the end of \\\"vfire\\\"; e.g. 25%, 50%, etc. I suggest running vfire0 if you decide to change it, unless you want to gimp yourself with more fire weakness. vfire0 removes all Weakness to Fire spells you may have added.\r\n\r\ncurerealvamp\r\nAdded for those that are real vampires that want to get rid of it but don\\'t want the hassle of having to do it themselves.\r\n\r\nUsage example:\r\nbat vampme\r\n\r\nInstallation:\r\nplace contents of \\\"bat files\\\" folder in your Skyrim folder where the exe is, not the Data folder\r\n\r\nUninstallation:\r\ndo \\\"bat unvampme\\\" first to undo any changes then delete the txt files you added\r\n\r\nChangelog:\r\n1.2 - added vampfac2 to provide original functionality of vampfac for those that want it\r\n1.1 - change vampfac to only make friendly to vampires but not wolves or various undead; added curerealvamp\r\n1.0 - release",
+  "categoryId": "24",
+  "version": "1.2",
+  "author": "XunAmarox",
+  "createdUnix": "1324198246",
+  "updatedUnix": "1324271991",
+  "containsAdultContent": false,
+  "uploadedBy": "XunAmarox",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "11607",
+      "name": "Vampire without Vampirism 1-0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Vampire without Vampirism 1-0-3989.7z",
+      "uploadedUnix": "1324198291",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/760c9ce63aca1d3441796cbce7e983f399ee150056d489858475072982b0a379/analysis/1406532663/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vampire%20without%20Vampirism%201-0-3989.7z?fid=11607&ttl=1535759412&ri=8192&rs=8192&setec=c0d79171d476ec6abf8a6ba39b36b938"
+    },
+    {
+      "fileId": "11929",
+      "name": "Vampire without Vampirism 1-2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Vampire without Vampirism 1-2-3989-1-2.7z",
+      "uploadedUnix": "1324271991",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/ab34d622f5fe35da395403175271eff63ff11d1c7e940229e29ceb42642a02e7/analysis/1406535907/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vampire%20without%20Vampirism%201-2-3989-1-2.7z?fid=11929&ttl=1535759414&ri=8192&rs=8192&setec=94fe9c6a0c70787226bb79bd1c3346ce"
+    }
+  ]
+}

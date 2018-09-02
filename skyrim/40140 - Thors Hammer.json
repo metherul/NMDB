@@ -1,0 +1,48 @@
+{
+  "modId": 40140.0,
+  "modName": "Thors Hammer",
+  "summary": "My 1st mod, and all from scratch.  This thing DOES NOT WORK.  Do not download expecting a finished product.  Skyrim will CTD on equip.  I think there is a problem with the NIF.  Posting this for help.",
+  "descriptionHtml": "20130811 It\\'s a big hammer.  It doesn\\'t really work.  My 1st mod, and all from scratch.  This thing DOES NOT WORK.  Do not download expecting a finished product.  Skyrim will CTD on equip.  I think there is a problem with the NIF.  Posting this for help.\r\n\r\nMore thorough description of the problem on forums:\r\n\r\nhttp://forums.nexusmods.com/index.php?/topic/1073539-ctd-when-equipping-weapon-nif-file-issue/\r\n\r\n20130812 Update: 8 hours later - Re-did the 1st person NIF files from 3DS file import rather than copy paste branch from the regular NIF.  Stripped out almost all the other textures from the steel mace.  I\\'ve got it working and stable now.  You have to call the file up from command prompt and add to your inventory by item code.  (use help \\\"hammer\\\") and you should see it.  My item code was 1B000D62.  Next on my list is to fix textures and make them more detailed.  I\\'d like to incorporate a magical effect similar to Roronos\\' \\\"Fists of the Gods\\\".  But it\\'ll need some tweaking.  Quick trial of his base enchantment had the game CTD on weapon impact.  We\\'ll see.\r\n",
+  "categoryId": "55",
+  "version": "1.1",
+  "author": "Me",
+  "createdUnix": "1376290937",
+  "updatedUnix": "1376330765",
+  "containsAdultContent": false,
+  "uploadedBy": "SwisgarSwigelf42",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000046289",
+      "name": "NIF and DDS files",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1496",
+      "fileName": "NIF and DDS files-40140-.zip",
+      "uploadedUnix": "1376290921",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/8efa95a927c22c260c4c7278b989c64f740bca65fa65585cc60e09ea1f9cdcba/analysis/1407679686/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NIF%20and%20DDS%20files-40140-.zip?fid=1000046289&ttl=1535820748&ri=8192&rs=8192&setec=fa6934d39b5c4008842387125e369b50"
+    },
+    {
+      "fileId": "1000046383",
+      "name": "Update 1",
+      "version": "1.1",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "732",
+      "fileName": "Update 1-40140-1-1.zip",
+      "uploadedUnix": "1376330765",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/efdd2c927bb9e7bb729a8f3eabaec3122a633108438be4813e93c1656c3c34fe/analysis/1407679962/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Update%201-40140-1-1.zip?fid=1000046383&ttl=1535820749&ri=8192&rs=8192&setec=247bc0c27d2217ee3d5fc87eb1b0bd7a"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 35342.0,
+  "modName": "How to make some parts of an armor transparent translucent invisible disappear",
+  "summary": "A step-by-step guide in a pdf file to show how to make parts of an armor transparent, translucent or invisible.",
+  "descriptionHtml": "Just to share a new trick I\\'ve learnt to make some parts of your armor disappear.\r\n\r\nSo here is a step-by-step guide in a pdf file to show how to make parts of an armor transparent, translucent or invisible.\r\n\r\nI\\'m just a humble beginner, so this guide is intended mainly for beginners. Experienced modders, do guide me where I\\'ve gone wrong :) \r\n\r\nYou will need:\r\n1. Photoshop with .dds plugin\r\n2. NifSkope\r\n\r\n---------\r\n\r\nUpdate:\r\nThanks to lidowxx for bringing this up. Some textures do not have an Alpha 1 layer. In such cases, all you need to do is create a new layer and name it the same Alpha 1, then fill it all with white. Somehow Photoshop can recognize it\\'s an Alpha 1 layer, and auto-hide it when the other layers are visible. Hope this works for you.\r\n\r\n---------\r\n\r\nCredits to these websites for showing how this is done:\r\nhttp://forums.nexusmods.com/index.php?/topic/484339-how-do-you-make-texture-transparent/\r\nhttp://www.youtube.com/watch?v=t9v4-WXih8E\r\n\r\nCredits also to Alan\\'s BBP Armor Mod for the large collection of fine-looking armors and outfits.",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "cradleofgod",
+  "createdUnix": "1367133638",
+  "updatedUnix": "1367133328",
+  "containsAdultContent": true,
+  "uploadedBy": "cradleofgod",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000026848",
+      "name": "how to make some parts of an armor transparent translucent invisible",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1150",
+      "fileName": "how to make some parts of an armor transparent translucent invisible-35342-1-0.zip",
+      "uploadedUnix": "1367133328",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/cc4f7ed7e9ba43f933106a19c73c1a6ab280f6b7c6b8a4a8857e374443516452/analysis/1407544927/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/how%20to%20make%20some%20parts%20of%20an%20armor%20transparent%20translucent%20invisible-35342-1-0.zip?fid=1000026848&ttl=1535813826&ri=8192&rs=8192&setec=e9dfcce5ace41a377558c639eed7bc9f"
+    }
+  ]
+}

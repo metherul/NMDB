@@ -1,0 +1,32 @@
+{
+  "modId": 4870.0,
+  "modName": "Werewolf Tweaks",
+  "summary": "Relatively simple tweaks to make Werewolves (Beast Form) just a little bit stronger.",
+  "descriptionHtml": "Author: Thrae (generalmx)\r\nVersion: Beta v1\r\n\r\nThese are just some relatively simple tweaks to make Werewolves (Beast Form) just a little bit stronger.\r\n\r\nThere are multiple files so you can tweak your toughness to your choosing. Ones named similarly will overwrite each other\\'s changes, so use only one of each. Otherwise all the files can be combined for best effect.\r\n\r\nDamage Tweaks\r\nDesc: Increases the unarmed damage while transformed as a Werewolf. Multiple ESPs, use only ONE.\r\n\r\nWerewolfTweaksMoreDamageCurved.esp -- Increases damage curve so you\\'re dealing 50% more damage at Level 50, 40% more at Level 40, 30% more at Level 30, etc.\r\nWerewolfTweaksMoreDamage.esp -- Increases damage by 50% (all levels)\r\n\r\nBeast Form Transformation Tweaks\r\nDesc: Adds bonuses while you\\'re transforming into a Werewolf so you can survive the transformation.\r\n\r\nWerewolfTweaksTransformToughRegen.esp -- While transforming (for 15 seconds) increases Health by 200, Armor by 200, Magic Resist by 20, and allows 300% health regeneration\r\n\r\nTotem Tweaks\r\nDesc: Tweaks the various powers you can use while in Beast Form.\r\n\r\nWerewolfTweaksFear.esp -- Increases maximum level of Howl of Terror (Fear) to 99 (untested)\r\n\r\nBeast Form Tweaks\r\nDesc: Additional bonuses while in Beast Form. Multiple ESPs, use only ONE.\r\n\r\nWerewolfTweaks100Health_100AR.esp -- +100 Health, +100 Armor Rating\r\nWerewolfTweaks100Health_100AR_10MR.esp -- +100 Health, +100 Armor Rating, +10 Magic Resist\r\nWerewolfTweaks250Health.esp -- +250 Health\r\nWerewolfTweaks250Health_200AR.esp -- +250 Health, +200 Armor Rating\r\nWerewolfTweaks250Health_200AR_20MR.esp -- +250 Health, +200 Armor Rating, +20 Magic Resist\r\nWerewolfTweaks350Health.esp -- +350 Health\r\nWerewolfTweaks350Health_300AR.esp -- +350 Health, +300 Armor Rating\r\nWerewolfTweaks350Health_300AR_30MR.esp -- +350 Health, +300 Armor Rating, +30 Magic Resist\r\nWerewolfTweaks10MagicResist.esp -- +10 Magic Resist\r\nWerewolfTweaks25MagicResist.esp -- +25 Magic Resist\r\nWerewolfTweaks40MagicResist.esp -- +40 Magic Resist\r\n\r\nFeeding Tweaks\r\nDesc: Additional bonuses to feeding on corpses. Multiple ESPs, use only ONE.\r\n\r\nWerewolfTweaksFeed75.esp -- Feeding restores 75 health\r\nWerewolfTweaksFeed75HealthStamina.esp -- Feeding restores 75 health and stamina\r\nWerewolfTweaksFeed100.esp -- Feeding restores 100 health\r\nWerewolfTweaksFeed100HealthStamina.esp -- Feeding restores 100 health and stamina\r\nWerewolfTweaksFeed150.esp -- Feeding restores 150 health\r\nWerewolfTweaksFeed150HealthStamina.esp -- Feeding restores 150 health and stamina\r\nWerewolfTweaksFeedRegen.esp -- Feeding allows 300% health regeneration for 15 seconds (untested)\r\nWerewolfTweaksFeedToughBonus.esp -- Feeding restores 50 health, adds +100 Health and Armor for 15 seconds\r\nWerewolfTweaksFeedToughBonus + Stam.esp -- Feeding restores 50 health and stamina, adds +100 Health and Armor for 15 seconds\r\n\r\nBy default NMM will activate these tweaks, which you can deactivate manually by changing plugins.txt:\r\nWerewolfTweaks250Health.esp\r\nWerewolfTweaksFeed75.esp\r\nWerewolfTweaksMoreDamageCurved.esp\r\nWerewolfTweaksTransformToughRegen.esp\r\nWerewolfTweaksFear.esp\r\n\r\nChanges:\r\nVersion 1b -- Added optional +Magic Resist only per request.\r\nVersion 1 -- Initial release.",
+  "categoryId": "24",
+  "version": "1b",
+  "author": "Thrae",
+  "createdUnix": "1325194489",
+  "updatedUnix": "1325197825",
+  "containsAdultContent": false,
+  "uploadedBy": "generalmx",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "14935",
+      "name": "Werewolf Tweaks Compliation",
+      "version": "1b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "Werewolf Tweaks Compliation-4870-1b.zip",
+      "uploadedUnix": "1325197825",
+      "modVersion": "1b",
+      "virusScanUrl": "https://www.virustotal.com/file/aee8fb65e7a251fcbf8c177ef345986c1c79947f102180b2c4a41266808503fc/analysis/1406568870/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Werewolf%20Tweaks%20Compliation-4870-1b.zip?fid=14935&ttl=1535761139&ri=8192&rs=8192&setec=abf9de21ee725442615a9f2d1eb1e048"
+    }
+  ]
+}

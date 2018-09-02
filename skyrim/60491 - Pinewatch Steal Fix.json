@@ -1,0 +1,32 @@
+{
+  "modId": 60491.0,
+  "modName": "Pinewatch Steal Fix",
+  "summary": "Fixes the odd issue where taking some objects from Pinewatch constituted stealing, whereas taking other objects did not.",
+  "descriptionHtml": "For some reason, taking items from the first floor of Pinewatch counts as stealing, even though it doesn&#39;t in the rest of the dungeon. In the CK, ownership is marked for one of the bandits, so I removed it, making anything inside the bandit lair up for grabs&#33;\r<br />\r<br />If I&#39;ve missed anything, let me know -- for some reason, the CK doesn&#39;t allow for editing of the ownership of an entire cell, so I had to go through and modify every single object by hand. \r<br />Every.\r<br />Single.\r<br />One.",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "persephonecharming",
+  "createdUnix": "1417687146",
+  "updatedUnix": "1417687138",
+  "containsAdultContent": false,
+  "uploadedBy": "persephonecharming",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000137659",
+      "name": "PinewatchStealFix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "PinewatchStealFix-60491-1-0.zip",
+      "uploadedUnix": "1417687138",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/cf1052ea68af4a897b631c3e3828cd880961107b73e476374b26f642be2e44bf/analysis/1417687203/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PinewatchStealFix-60491-1-0.zip?fid=1000137659&ttl=1535848276&ri=8192&rs=8192&setec=47f2cfd537b6cd86beca44a50d1bb6ec"
+    }
+  ]
+}

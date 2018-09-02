@@ -1,0 +1,32 @@
+{
+  "modId": 92846.0,
+  "modName": "CTD and Freeze Fix Guide - DELETED",
+  "summary": "A guide on helping solve CTD's and Freezes.",
+  "descriptionHtml": "First off this is not a mod there is nothing to download, its a guide to help some\n<br />folks like me who had Skyrim constantly crash on them. If this guide\n<br />does not work for you perhaps your problem is different in which case\n<br />move along.\n<br />\n<br />\n<br />After much pain staking work I have come to a conclusion about why Skyrim 32-bit suffers from memory leaks. \n<br />Lets first examine what is out there, mods that seem to address memory expansion. \n<br />\n<br />The two most useful ones are listed below...\n<br />\n<br />Crash Fixes: [url=https://www.nexusmods.com/skyrim/mods/72725]https://www.nexusmods.com/skyrim/mods/72725[/url]\n<br />\n<br />SKSE INI File: [url=https://www.nexusmods.com/skyrim/mods/51038]https://www.nexusmods.com/skyrim/mods/51038[/url]\n<br />\n<br />\n<br />You obviously need SKSE to use these two, so what do they do?\n<br />\n<br />It lets you change how much memory to dedicate out, I do not recommend changing the\n<br />defaults at all. Skyrim has a hard limit of heap and stack at 512mb containers, the problem \n<br />is when both containers are full it leads to an instant CTD.\n<br />\n<br />\n<br />These mods alone will not save you from crashing, despite whatever else they do. \n<br />\n<br />Then why use at all?\n<br />\n<br />Here is my long journey examined, why my game kept freezing/crashing lead me to\n<br />follow how the game works, what I have discovered is that besides your decal settings all \n<br />other game settings should be set to medium but before we get to that there is something \n<br />else that needs to be done first.\n<br />\n<br />Under your -“C:&#92;Users&#92;*****&#92;Documents&#92;My Games&#92;Skyrim”\n<br />\n<br />Delete or backup both your ini files, get back into Skyrim folder launch the launcher let it\n<br />do its thing with the settings. Once done now you can change your settings to medium, also it \n<br />might help to disable all reflections and distant lands should also be set to medium. \n<br />That is it nothing else needs to be touched.\n<br />\n<br />\n<br />So why not just hand mod the ini files in the My Games folder?\n<br />\n<br />This is because of the settings the launcher needs to write to those files and set\n<br />first through the launcher, after that you can tweak it however you like.\n<br />\n<br />\n<br />Okay so now you have effectively made your game fugly, no worries, the next step is simple\n<br />we will replace all texture maps and terrain and clothing with community built mods. If your using \n<br />the official Skyrim texture pack just disable it or do not use it.\n<br />\n<br />Remember this is Skyrim 32-bit always use 2k textures/meshes I have found 4k to lag\n<br />the game allot, especially if used on terrain. You can still use 4k\n<br />for characters but do not go over board Skyrim Legendary is simply\n<br />not designed to handle 4k.\n<br />\n<br />My final analysis the memory in Skyrim Legendary seems to hinge on two major factors which lead to\n<br />Freezes or CTD’s, first is the texture problem and second like Oblivion the Skyrim engine \n<br />struggles with the default settings set by the launcher that is why you set them to medium.\n<br />\n<br />With texture replacement mods you augment the lack of quality from reduced\n<br />settings with detailed surfaces or bump maps that look just as realistic. \n<br />This forces the game to stay within the memory bounds, however this is still not the complete picture.\n<br />\n<br />Further study, most mods do not take the Skyrim engines limitations to heart this is\n<br />where Crash Fix kicks in. Sometimes you might have Freezes and or CTD despite \n<br />having followed this guide. Do not panic, check your (Skyrim &gt; Data &gt; SKSE &gt; Plugins) \n<br />folder. Inside you will find a crash report anytime your game CTD’s or Freezes without warning, \n<br />majority of the time what caused the problem will be recorded in the crash log found in there. \n<br />\n<br />\n<br />Turns out some follower and npc mods cause the CTD’s this is probably because, \n<br />\n<br />A) They are using 4k textures.\n<br />\n<br />B) The textures/meshes have been corrupted or are using an older CK tool.\n<br />\n<br />C) Links to or from other mods, that may or may not have bugs.\n<br />\n<br />\n<br />Avoid using mods like SSME that make use of third party dll files, their basically\n<br />forcing the Skyrim engine to do something its not designed for. Which\n<br />leads to odd behaviors, took me an hour to discover why my CK would\n<br />not work, the dll was interfering with its execution. So be wary of\n<br />mods that add extra files to where the Skyrim exe sits.\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />Hope this helps someone!",
+  "categoryId": "95",
+  "version": "1",
+  "author": "Hyperquacker",
+  "createdUnix": "1533155966",
+  "updatedUnix": "1533155966",
+  "containsAdultContent": false,
+  "uploadedBy": "Hyperquacker",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000278666",
+      "name": "blank",
+      "version": "1",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "31",
+      "fileName": "blank-92846-1.7z",
+      "uploadedUnix": "1533155946",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/4a57778223e2bf57a79a86595deabffe629a3b77bc6e9832bb6a17bb33dd48c2/analysis/1533156062/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/blank-92846-1.7z?fid=1000278666&ttl=1535883988&ri=8192&rs=8192&setec=88b07b1c66e80d0151ec65b68d9b0de4"
+    }
+  ]
+}

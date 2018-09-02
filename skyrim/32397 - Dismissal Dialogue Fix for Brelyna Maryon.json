@@ -1,0 +1,32 @@
+{
+  "modId": 32397.0,
+  "modName": "Dismissal Dialogue Fix for Brelyna Maryon",
+  "summary": "Fixes dismissal dialogue for Brelyna Maryon.",
+  "descriptionHtml": "Check videos section for a demonstration of the mod. It\\'s pretty straight-forward.\r\n\r\nINTRODUCTION:\r\n\r\nThis is a simple modification to Brelyna Maryon\\'s dialogue response when dismissed as a follower. Primarily aimed at players who pick Brelyna as the spouse for their character, it aims to correct the often-erroneous statement that she will \\\"see you back at the College.\\\" \r\n\r\nAs of v0.2, this plugin over-rides her default dismissal response, with a custom, more generic response. Prior to 0.2, it was conditional, based on her relationship with the player, but that resulted a monster of a bug, where Brelyna couldn\\'t be dismissed at all if she\\'s the player\\'s spouse. Perhaps when I have time and patience to track down the issue, I\\'ll make it a conditional response, again.\r\n\r\nINSTALLATION (Manual):\r\n\r\n - Copy the \\\"Data\\\" folder into your Skyrim installation directory ( \\\"C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\Skyrim\\\\\\\" )\r\n - In the Skyrim Launcher, ensure that \\\"BrelynaDialogue.esp\\\" is selected in the Data Files menu\r\n\r\nINSTALLTION (NNM):\r\n\r\n - Download and activate. \r\n - In the Skyrim Launcher, ensure that \\\"BrelynaDialogue.esp\\\" is selected in the Data Files menu\r\n\r\nOTHER NOTES:\r\n\r\nWhile this mod is stand-alone, the following mods are highly recommended:\r\n\r\n- [url=http://skyrim.nexusmods.com/mods/15905]Sultry Brelyna Maryon[/url] [NOTICE: Make sure that this mod is placed BEFORE BrelynaMaryonSultry.esp in the mod load order, or the latter will not work!]\r\n- [url=http://skyrim.nexusmods.com/mods/14037]Ultimate Follower Overhaul [/url]\r\n\r\nI cannot guarantee compatibility with any other plugins that modify voice files/data/character stats for Brelyna. In my experience, as long as this file loads BEFORE any others that modify Brelyna, there shouldn\\'t be a problem. \r\n",
+  "categoryId": "66",
+  "version": "0.2",
+  "author": "redrew89",
+  "createdUnix": "1361826784",
+  "updatedUnix": "1361854913",
+  "containsAdultContent": false,
+  "uploadedBy": "redrew89",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000013320",
+      "name": "Brelyna Dialogue Fix",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "34",
+      "fileName": "Brelyna Dialogue Fix-32397-0-2.zip",
+      "uploadedUnix": "1361854913",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/fa687e91128c0f24302d6eac8bd7b15b126a2ad168ffffe1bfb6169ddd1e49a5/analysis/1407440225/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Brelyna%20Dialogue%20Fix-32397-0-2.zip?fid=1000013320&ttl=1535808856&ri=8192&rs=8192&setec=d7bfccb3cb4ebc2e2dac93fbd2ccfa98"
+    }
+  ]
+}

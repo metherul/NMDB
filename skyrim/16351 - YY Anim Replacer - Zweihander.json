@@ -1,0 +1,48 @@
+{
+  "modId": 16351.0,
+  "modName": "YY Anim Replacer - Zweihander",
+  "summary": "This mod replaces the two-handed sword animations.\r\nCurrent version changes only:\r\nIdle, Equip, Turn, Walk, run and sprint.",
+  "descriptionHtml": "[color=red][b]\r\nThis is compatible with Skyrim v1.6 update, I think.\r\nIf anyone find a bug of my mod, please report at forum. ;)\r\n[/b][/color]\r\n\r\nSmall update\r\n[img]http://25.media.tumblr.com/tumblr_m3xkweR1Me1rrx7nzo1_500.jpg[/img]\r\n\r\n\r\n======================================================================\r\nYY Anim Replacer - Zweihänder\r\n\t\t\t\t\t\t\t[color=yellow][b]v0.6.8[/b][/color]\r\n\t\t\t\t\t\t\t2012-5-13\r\n======================================================================\r\nThis mod replaces the two-handed weapon animations. \r\nCurrent version changes only:\r\nIdle, Equip, Block, Turn, Walk, Run and Sprint.\r\n\r\n[youtube]qtG9pWmAwe0[/youtube]\r\n[youtube]nPNzk65Nww4[/youtube]\r\n[youtube]hTRTYqPcOfo[/youtube]\r\n======================================================================\r\nInstallation\r\n======================================================================\r\nNMM ready package.\r\n2hm_sprintforwardsword_D1.HkX is an optional file. Remove \\\"_D1\\\" when you use.\r\n\r\n[color=red][b]YOU CANNOT ACTIVATE \\\"Male ver.\\\" and \\\"Female ver.\\\" AT THE SAME TIME![/b][/color]\r\n\r\n\r\n======================================================================\r\nUninstallation\r\n======================================================================\r\nSimply uncheck my mod on NMM or\r\n\r\nDelete the files as follows:\r\ndata\\\\meshes\\\\actors\\\\character\\\\animations\\\\\r\n\t2hc_equip.HkX\r\n\t2hm_blockidle.HkX\r\n\t2hm_idle.HkX\r\n\t2hm_runbackward.HkX\r\n\t2hm_runbackwardleft.HkX\r\n\t2hm_runbackwardright.HkX\r\n\t2hm_runforward.HkX\r\n\t2hm_runforwardleft.HkX\r\n\t2hm_runforwardright.HkX\r\n\t2hm_runleft.HkX\r\n\t2hm_runright.HkX\r\n\t2hm_runstrafeleft.HkX\r\n\t2hm_runstraferight.HkX\r\n\t2hm_sprintforwardsword.HkX\r\n\t2hm_sprintforwardsword_D1.HkX\r\n\t2hm_turnleft60.HkX\r\n\t2hm_turnleft180.HkX\r\n\t2hm_turnright60.HkX\r\n\t2hm_turnright180.HkX\r\n\t2hm_walkbackward.HkX\r\n\t2hm_walkbackwardleft.HkX\r\n\t2hm_walkbackwardright.HkX\r\n\t2hm_walkforward.HkX\r\n\t2hm_walkforwardleft.HkX\r\n\t2hm_walkforwardright.HkX\r\n\t2hm_walkleft.HkX\r\n\t2hm_walkright.HkX\r\n\t2hw_idle.HkX\r\n\t2hw_runarmblend.HkX\r\n\t2hw_walkarmblend.HkX\r\n\r\n======================================================================\r\nKnown Issues\r\n======================================================================\r\n-It looks strange when block enemy\\'s attack.\r\n-Weapon\\'s grip penetrate left hand when blocking.\r\n-Desync problem (when equipping battleaxe or warhammer)\r\n\r\n======================================================================\r\nChangelog\r\n======================================================================\r\nv0.6.8 2012-5-13\r\n+Battleaxes and Warhammers are supported\r\n\t2hw_idle.HkX\r\n\t2hw_runarmblend.HkX\r\n\t2hw_walkarmblend.HkX\r\n+Provided \\\"PC Exclusive Animation Path\\\" compatible package\r\n\t20 ESP plugins and fixed defaultmale.hkx\r\n*2hm_sprintforwardsword_D2, less head shaking of upper body\r\n*2hm_walkforward, fixed position of right arm\r\n\r\n\r\nv0.6.4 2012-5-09\r\n!Fixed twisted fingers bug\r\n!Fixed all the loop bug\r\n*New Idle anim for female character (less shaking of the right arm, reflecting opinions)\r\n[color=yellow]I wanna make this idle anim more smooth later[/color]\r\n*New type of left/right walk and strafe anims for female to fix bunny-hop problem\r\n\r\nv0.6.0 2012-5-05 (Featuring male ver.)\r\n+Added male version of:\r\n\t2hm_idle.HkX\r\n\t2hm_runbackward.HkX\r\n\t2hm_runbackwardleft.HkX\r\n\t2hm_runbackwardright.HkX\r\n\t2hm_runforward.HkX\r\n\t2hm_runforwardleft.HkX\r\n\t2hm_runforwardright.HkX\r\n\t2hm_runleft.HkX\r\n\t2hm_runright.HkX\r\n\t2hm_runstrafeleft.HkX\r\n\t2hm_runstraferight.HkX\r\n\t2hm_walkbackward.HkX\r\n\t2hm_walkbackwardleft.HkX\r\n\t2hm_walkbackwardright.HkX\r\n\t2hm_walkforward.HkX\r\n\t2hm_walkforwardleft.HkX\r\n\t2hm_walkforwardright.HkX\r\n\t2hm_walkleft.HkX\r\n\t2hm_walkright.HkX\r\n*New type of left/right walk and strafe anims\r\n!No loop bug (male ver.)\r\n!Fixed bunny-hop problem (male ver.)\r\n?Female version has not updated\r\n\r\n\r\nv0.5.0 2012-5-03 (Nexus release)\r\n+Added 2hm_blockidle\r\n+Added 2hm_sprintforwardsword\r\n\t2hm_sprintforwardsword_D1 is optional\r\n+Added 2hm_runstraferight\r\n!Improved walkright animation slightly\r\n*Replaced 2hm_runstrafeleft to ver.2\r\n\r\n\r\nv0.4.2 2012-5-01\r\n*2hm_runforward, changed style\r\n+Added running animations:\r\n\t2hm_runbackward\r\n\t2hm_runbackwardleft\r\n\t2hm_runbackwardright\r\n\t2hm_runforward\r\n\t2hm_runforwardleft\r\n\t2hm_runforwardright\r\n\t2hm_runleft\r\n\t2hm_runright\r\n\t2hm_runstrafeleft\r\n!Improved walkleft animation slightly\r\n?Some walking animations are still bugged\r\n\r\n\r\nv0.3.0 2012-4-22\r\n+Added walking animations:\r\n\t2hm_walkbackward.hkx\r\n\t2hm_walkbackwardleft.hkx\r\n\t2hm_walkbackwardright.hkx\r\n\t2hm_walkforward.hkx\r\n\t2hm_walkforwardleft.hkx\r\n\t2hm_walkforwardright.hkx\r\n\t2hm_walkleft.hkx\r\n\t2hm_walkright.hkx\r\n+Added 2hm_runforward\r\n?Some walking animations are played strangely\r\n\r\n\r\nv0.2.0 2012-4-14\r\n*2hm_idle, more oblique stance\r\n+Added turn animations:\r\n\t2hm_turnleft60\r\n\t2hm_turnleft180\r\n\t2hm_turnright180\r\n+Added 2hm_equip\r\n\r\n\r\nv0.1.2 2012-4-13\r\n!2hm_idle, fixed loop bug\r\n*Changed right hand\\'s position\r\n+2hm_idle, added right hand fingers\\' animation\r\n+Added 2hm_turnright60\r\n\r\n\r\nv0.1.0 2012-4-09 (Initial Release)\r\n+Added 2hm_idle\r\n\r\n\r\n======================================================================\r\nSpecial Thanks\r\n======================================================================\r\n[url=\\\"http://skyrim.nexusmods.com/modules/members/index.php?id=1195383\\\"]Raestloz[/url], allow me to distribute the patch file and for giving me useful advices\r\n\r\n======================================================================\r\nCredit\r\n======================================================================\r\nYukl\r\n\tweb: http://yuklryvius.tumblr.com/\r\n\tkindly check my profile page ;D",
+  "categoryId": "51",
+  "version": "0.6.8",
+  "author": "yukl",
+  "createdUnix": "1336038836",
+  "updatedUnix": "1336902806",
+  "containsAdultContent": false,
+  "uploadedBy": "yukl",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "60977",
+      "name": "YYAnimReplacerZweihander_v0_6_8_male",
+      "version": "0.6.8",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "463",
+      "fileName": "YYAnimReplacerZweihander_v0_6_8_male-16351-0-6-8.7z",
+      "uploadedUnix": "1336902759",
+      "modVersion": "0.6.8",
+      "virusScanUrl": "https://www.virustotal.com/file/054026148cfee1a9c0ec1f913770b0d0b5262bb8a8dd52adb488296a9db338f0/analysis/1406889303/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/YYAnimReplacerZweihander_v0_6_8_male-16351-0-6-8.7z?fid=60977&ttl=1535781432&ri=8192&rs=8192&setec=9659fd6089d79af80278d6a8a6531f44"
+    },
+    {
+      "fileId": "60978",
+      "name": "YYAnimReplacerZweihander_v0_6_8_female",
+      "version": "0.6.8",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "454",
+      "fileName": "YYAnimReplacerZweihander_v0_6_8_female-16351.7z",
+      "uploadedUnix": "1336902806",
+      "modVersion": "0.6.8",
+      "virusScanUrl": "https://www.virustotal.com/file/f70cf4eb5ac87a727eac9573bccb7fb787643ffc146a23c8841dbb6002e69142/analysis/1406889363/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/YYAnimReplacerZweihander_v0_6_8_female-16351.7z?fid=60978&ttl=1535781433&ri=8192&rs=8192&setec=feb12d88ecd4f0e7f3fac36c25165ba6"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 60753.0,
+  "modName": "BB Dragon Soul Absorb Power",
+  "summary": "A new power to absorb dragon souls from dragons who have bugged out. For debugging purposes, but made to break immersion as little as possible.",
+  "descriptionHtml": "[b][u]Intro[/u][/b]\r<br />I had been playing on a save game for a while, leveled to 25, absorbed dozens of dragon souls... Then, I get a bounty to kill a Dragon...\r<br />\r<br />I&#39;m always curious why bugs happen, so I cracked open the Creation Kit, made a new spell to trigger the death sequence from mqdragonscript.pex, but it didn&#39;t work, so I said &#34;screw it&#34; and just copied the whole function to my new spell&#39;s script, and it worked like a charm. Then, I found out that there was already a mod out there for it: [i][url=http://www.nexusmods.com/skyrim/mods/31909/?]Absorb DRAGON SOULS Spell[/url][/i]. Well, my five minutes worth isn&#39;t gonna be for naught, so I decided to spice it up for myself. I wasn&#39;t sure I was going to share it until I realized that the other mod still relied on mqdragonscript.pex and dragonactorscript.pex.\r<br />\r<br />[u][b]Description[/b][/u]\r<br />This mod adds a new Lesser Power, Absorb Dragon Soul, to the player on loading the game with the mod enabled. It can be cast on any Actor. Unique sets of messages will be displayed if the player cannot absorb the soul of the target (i.e. if they are dead, if they are not a dragon, if the dragon&#39;s soul has been absorbed, if the dragon is marked as having a soul that cannot be absorbed). If the dragon&#39;s soul should be absorbed, then a death sequence that is similar to that in the Vanilla game, but tweaked to my tastes, will play and the player will receive their rightfully-earned dragon soul. Of the two scripts in question, dragonactorscript.pex is the only one checked by this mod, and it only checks for the state of the script. In fact, you will shouldn&#39;t be unable to absorb a dragon soul simply because your dragonactorscript.pex is messed up.\r<br />\r<br />Of note is that, this will progress the quests [i]Dragon Rising[/i] and [i]A Blade in the Dark[/i] if they are stuck because of the player being unable to absorb the dragon soul. Support for the Dragonborn DLC is also baked in so that the player won&#39;t be able to prevent Miraak from stealing/absorbing the dragon soul.\r<br />\r<br />This mod should be treated as a debugging mod, rather than a mod that deliberately adds a dragon soul-absorbing &#34;feature&#34;, even it seems that the latter is the case. There is a split-second - I mean it - windows (might be more if you use mods that affect &#34;normal&#34; dragon soul absorbing) where using this mod instead of letting the game&#39;s regular dragon soul-absorbing mechanics run their course, can cause the death sequence to get stuck.\r<br />\r<br />[b][u]Requirements[/u][/b]\r<br />Skyrim Patch 1.6+\r<br />\r<br />[b][u]Version History[/u][/b]\r<br />v1.0:\r<br />- First release\r<br />v1.1:\r<br />- Included a minor fix to the death sequence added by USKP v2.0.6 (Bug #17080)\r<br />- Added in some new code to account for dragon actors that don&#39;t have dragonactorscript attached for whatever reason\r<br />v1.2:\r<br />- Triggers WIDragonKilled Quest (the one where spectators gather) if dragonactorscript fails to trigger it\r<br />- Edited the script to allow a set of notifications to show up properly as intended\r<br />- Increased the volume of the dragon voice sound during the death sequence\r<br />- Script optimizations\r<br />\r<br />[b][u]Credits[/u][/b]\r<br />[i][url=http://www.nexusmods.com/skyrim/mods/247/?]BSAopt[/url][/i]\r<br />[i][url=http://www.nexusmods.com/skyrim/mods/19242/?]Unfuzer[/url][/i]",
+  "categoryId": "95",
+  "version": "1.2",
+  "author": "BrotherBob",
+  "createdUnix": "1418531688",
+  "updatedUnix": "1418546122",
+  "containsAdultContent": false,
+  "uploadedBy": "BrotherBob",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000138795",
+      "name": "BB Dragon Soul Absorb Power - v1.2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "160",
+      "fileName": "BB Dragon Soul Absorb Power - v1.2-60753-1-2.rar",
+      "uploadedUnix": "1418546122",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/8ddea322a0a9f6cca7cafbcbbe487e44f237559d50607373a1f966431c0d3b52/analysis/1418546162/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BB%20Dragon%20Soul%20Absorb%20Power%20-%20v1.2-60753-1-2.rar?fid=1000138795&ttl=1535848682&ri=8192&rs=8192&setec=c9e3c23467d152378360a432b7cbeb96"
+    }
+  ]
+}

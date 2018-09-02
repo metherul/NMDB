@@ -1,0 +1,32 @@
+{
+  "modId": 8343.0,
+  "modName": "New Shout - Inferno Storm",
+  "summary": "The very first completely new shout has arrived! It\\'s called Inferno Storm and let\\'s you use the shout Alduin used and make meteors rain terror on the poor citizens of Tamriel!",
+  "descriptionHtml": "It was not an easy task, because I could not just take alduin\\'s shout and let the player use it, I had to build a new shout from scratch, beginning with the shout, the spells and even the magic effects. I worked and I am proud to present you the first new shout in The Elder Scrolls V: Skyrim!\r\n\r\nThe shout can be obtained by activating a blue pillar on top of the Throat of the World, I have added a screenshot which shows it\\'s location. It works exactly like any other shout, except the player does not say any words. This will be added in the near future, as will a better way to obtain the shout, hopefully by learning it from word walls. Have fun and I hope you will enjoy it!  And don\\'t forget to endorse this file and vote for it!\r\n\r\nIf anyone needs help creating their own shouts, they can message me. Because there is zero documentation on the subject and I had to find out how to do it all by myself, I intend to write some documentation on how I did it.\r\n\r\nBugs:\r\nShouts work in the game by learning words. If you have not yet learned the words needed for this shout in the game, you cannot use the shout. Luckily, there are these console commands to teach you the words:\r\n\r\nplayer.teachword 20E18\r\nplayer.teachword 6029A\r\nplayer.teachword 3CD31\r\n\r\nInstallation:\r\n\r\nPut the .esp and .bsa files in your skyrim data folder and make sure that when you launch Skyrim you check the plugin in the datafiles section.\r\n\r\nHow to uninstall:\r\n\r\nIf you uninstall this mod by simply removing the files, you will break your savegame. If you want to uninstall this mod without breaking your savegame, follow these steps:\r\n\r\nLoad your savegame\r\nUse this console command: player.removeshout 1F000D69\r\nNow save your game.\r\nExit the game.\r\nNow you can safely delete the mod files without ruining your savegame. Next time you start up your game, you will get a warning message, just click continue and all should be good. \r\nThanks to Animositisomina for finding this bug and it\\'s solution!",
+  "categoryId": "75",
+  "version": "0.8",
+  "author": "Silverbird",
+  "createdUnix": "1328740067",
+  "updatedUnix": "1328740310",
+  "containsAdultContent": false,
+  "uploadedBy": "Silverbird",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "27354",
+      "name": "New Shout - Inferno Storm",
+      "version": "0.8",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "New Shout - Inferno Storm-8343-0-8.rar",
+      "uploadedUnix": "1328740310",
+      "modVersion": "0.8",
+      "virusScanUrl": "https://www.virustotal.com/file/0bc57552b47502492669e9c207451ee2ace9f7c6edb3081cabd33bf18cf8cc99/analysis/1406662327/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/New%20Shout%20-%20Inferno%20Storm-8343-0-8.rar?fid=27354&ttl=1535766987&ri=8192&rs=8192&setec=23c7e8da46ac83fda185db548ee6bc83"
+    }
+  ]
+}

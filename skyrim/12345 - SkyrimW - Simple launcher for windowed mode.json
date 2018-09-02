@@ -1,0 +1,32 @@
+{
+  "modId": 12345.0,
+  "modName": "SkyrimW - Simple launcher for windowed mode",
+  "summary": "Version 2.01 - 3/20/2012\r\n",
+  "descriptionHtml": "Just copy skyrimw.exe to the skyrim folder and execute it.\r\n\r\nVersion 2.01 - 3/20/2012\r\n\r\n\r\n\r\n------------------------------------------------------------\r\nFeatures:\r\n------------------------------------------------------------\r\n\r\n- Traps your mouse cursor inside the game window.\r\n\r\n- [Optional] Running the game in borderless mode.\r\n\r\n- [Optional] Set custom startup position of the game window.\r\n\r\n\r\n------------------------------------------------------------\r\nCommand Line Options:\r\n(These are not necessary for the program to work.)\r\n------------------------------------------------------------\r\n\r\n/x [value]\r\n - Set starting X position of the game window. (default: 50%)\r\n\r\n/y [value]\r\n - Set starting Y position of the game window. (default: 50%)\r\n\r\n/noborder\r\n - Borderless mode.\r\n\r\n/fullscreen\r\n - fullscreen mode.\r\n \r\n/stretch\r\n - when fullscreen mode, game will stretched to fit.\r\n\r\n/launcher\r\n - Open skyrim launcher instead of running the game.\r\n\r\n/exe [filename]\r\n - Specify the main game executable. (default: TESV.exe)\r\n    * does not work with /launcher option.\r\n\r\n\r\nExamples:\r\n\r\nSkyrimW.exe /noborder\r\n\r\nSkyrimW.exe /X 70% /Y 10 /noborder\r\n\r\nSkyrimW.exe /Launcher /Y 30%\r\n\r\nSkyrimW.exe /exe skse_loader.exe\r\n\r\nSkyrimW.exe  /x 50% /y 50% - place game window in center of the screen which is default, so same as run without any parameters. \r\n\r\nSkyrimW.exe /x 0% /y 0% - place game window in top left corner of the screen. \r\nSkyrimW.exe /x 100% /y 0% - place game window in top right corner of the screen. \r\nSkyrimW.exe /x 0% /y 100% - place game window in lower left corner of the screen. \r\nSkyrimW.exe /x 100% /y 100% - place game window in lower right corner of the screen. \r\n\r\nSkyrimW.exe /x 100 /y 100 - place game window at (100, 100). \r\nSkyrimW.exe /x 350 /y 150 /noborder - place game window at (350, 150) without border.\r\n\r\n\r\n------------------------------------------------------------\r\nVersion History:\r\n------------------------------------------------------------\r\n\r\nv2.0\r\n - /fullscreen /stretch added\r\n\r\nv1.2\r\n - /exe option added\r\nv1.1\r\n - /noborder option added.\r\n\r\n",
+  "categoryId": "39",
+  "version": "2.01",
+  "author": "ceknh311",
+  "createdUnix": "1331127491",
+  "updatedUnix": "1332224889",
+  "containsAdultContent": false,
+  "uploadedBy": "ceknh311",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "45022",
+      "name": "SkyrimW201",
+      "version": "2.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "24",
+      "fileName": "SkyrimW201-12345-2-01.zip",
+      "uploadedUnix": "1332224889",
+      "modVersion": "2.01",
+      "virusScanUrl": "https://www.virustotal.com/file/2ba6e0d7206d555a585cfae20ad85c8d670864afb667fb3b7639ebd7cc462457/analysis/1406769075/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimW201-12345-2-01.zip?fid=45022&ttl=1535774160&ri=8192&rs=8192&setec=334eae61e21c05bc1cca9fbd1531031f"
+    }
+  ]
+}

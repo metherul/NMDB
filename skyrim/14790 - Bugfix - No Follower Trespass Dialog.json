@@ -1,0 +1,32 @@
+{
+  "modId": 14790.0,
+  "modName": "Bugfix - No Follower Trespass Dialog",
+  "summary": "Prevents followers from issuing the blocking \\\"You\\'re not supposed to be here\\\" response when player is trespassing.",
+  "descriptionHtml": "When you try to talk to an NPC while trespassing, the NPC responds with a standard \\\"You\\'re not supposed to be here\\\" dialog that blocks all other responses.  Unfortunately, even your followers will say this, which means that it\\'s impossible to give them orders, access their inventory, etc, when you\\'re breaking and entering.   This has been known to lead to major bugs, such as when a waiting follower accidentally moves into a trespass zone with you, and you can no longer tell the follower to actually follow you any more, so it gets stuck there.\r\n\r\nThis mod changes the condition of that dialog (GenericDialogTrespassingBlockingTopic, in the DialogGeneric quest) so that it cannot be issued by an active follower (GetInFaction CurrentFollowerFaction == 0).   There was already a test in the condition so that it could not be said by another trespasser; apparently, the game does not mark your followers as fellow trespassers.\r\n\r\nI have tested this mod in a single trespass situation (Calcelmo\\'s Lab in Markarth), and I could finally talk to my follower (Jenassa).  I have not yet tested it in other situations, or by talking to a non-follower NPC (since all the NPCs around just attack rather than talk to me).  While more testing is obviously in order, the mod is simple enough that I am confident it will work.\r\n\r\nInstallation:  Standard.  Install with NMM, or manually add the esp to your Data/ folder and enable.   There should be no problem with load order, as I doubt that any other mods conflict; I happen to use the BOSS Userlist Manager to add it to the \\'Thieving\\' section.\r\n\r\nUninstall: De-activate or remove BugFix-NoFollowerTrespassDialog.esp from your Data/ folder.  There should be no issues of savegame incompatibility.\r\n\r\nI grant permission for other modders to freely incorporate this fix into any other mods/patches as you wish, though naturally I would appreciate credit if you do so.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "GalenZ",
+  "createdUnix": "1334002162",
+  "updatedUnix": "1334002297",
+  "containsAdultContent": false,
+  "uploadedBy": "GalenZ",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "51722",
+      "name": "Bugfix-NoFollowerTrespassDialog",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Bugfix-NoFollowerTrespassDialog-14790.7z",
+      "uploadedUnix": "1334002297",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/cc99d40e72a7ca72afed2485c4ef04e1f7240f758db19b1c7e800373564c2736/analysis/1406806383/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bugfix-NoFollowerTrespassDialog-14790.7z?fid=51722&ttl=1535778676&ri=8192&rs=8192&setec=80ef604ed105873110ca38fc2c11ede4"
+    }
+  ]
+}

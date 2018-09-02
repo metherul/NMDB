@@ -1,0 +1,48 @@
+{
+  "modId": 19924.0,
+  "modName": "Yet Another Werewolf Improvement",
+  "summary": "Improves Beast Form with very minor changes. Dawnguard compatible.",
+  "descriptionHtml": "At higher levels, using Beast Form makes you weaker than normal. You have quick attacks and can ragdoll enemies, but your attacks are weak and you die if things cough on you. Plenty of mods exist to fix this and many of them are very good, but none of them were exactly what I was looking for. Some don\\'t go far enough, while others are completely awesome overhauls when I really just wanted a simpler improvement.\r\n\r\nSo while there may already be tons of mods out there for this, here is Yet Another Werewolf Improvement. It\\'s fairly small, so YAWI is a good choice if you want Beast Form to be useful without dramatically changing the game or conflicting with a bunch of other stuff.\r\n\r\n[color=orange]Compatibility version for Dawnguard now available.[/color]\r\n\r\nNow featured on [url=http://www.youtube.com/watch?v=4J-FWBRcBAo]Skyrim Modding - Weekly - Bits \\'n\\' Bobs[/url].\r\n[youtube]4J-FWBRcBAo[/youtube]\r\n\r\n\r\nMy changes are:\r\n[list][*]Become invincible while transforming and restore full health.\r\n[size=1]This lets you use Beast Form in emergencies, greatly enhancing its usefulness. Now enemies won\\'t be able to harm you during the animation, and you\\'ll start with full health in your new form.[/size]\r\n\r\n[*]Gain leveling armor value. This starts at 60 armor (7.2% damage mitigation) for anything level 10 or under and maxes at level 50 to give 300 armor (36% damage mitigation). [color=orange]Dawnguard version does not include this. That DLC adds leveling armor already to the werewolf form (0 at level 10, +50 each five levels to 400 maximum at level 50), so I have left that instead.[/color]\r\n[size=1]Werewolves need much better resilience. Dropping to zero armor when shifted was terrible. The value given will probably be lower than your normal armor, but it\\'s at least a respectable amount rather than zero.[/size]\r\n\r\n[*]Gain 30% magic resistance while shifted.\r\n[size=1]You lose racial bonuses and enchantments when changed, so using the Beast Form around mages was normally very dangerous. This should help with that.[/size]\r\n\r\n[*]Sweeping attacks. Your werewolf claws will now strike all enemies within 180 degrees in front of you.\r\n[size=1]This helps make it easier to fight in third-person view, plus adds tactical significance to your attacks because you can hit multiple enemies at once.[/size]\r\n\r\n[*]Rather than lose all health regeneration (which made no sense for a freaking werewolf), you instead have 3x normal health regen (normal value is 0.7% regenerated per second; as a werewolf you regenerate 2.1% maximum health per second).\r\n[size=1]Another change to help with resilience. Back off and heal if you can\\'t safely feed.[/size]\r\n\r\n[*]Armor-piercing attacks. Your claw attacks ignore armor.\r\n[size=1]This was done instead of increasing the damage a ton. Now a werewolf can be more effective against tougher opponents without greatly unbalancing things against the vast majority of enemies.[/size]\r\n\r\n[*]Changed the leveling bonuses. The normal progression was:\r\n\r\n[size=1]Level[color=313131]....[/color]Damage[color=313131]....[/color]Health[color=313131]....[/color]Stamina\r\n10[color=313131].......[/color]20[color=313131].........[/color]50[color=313131]........[/color]100\r\n15[color=313131].......[/color]25[color=313131].........[/color]50[color=313131]........[/color]100\r\n20[color=313131].......[/color]35[color=313131].........[/color]50[color=313131]........[/color]100\r\n25[color=313131].......[/color]45[color=313131].........[/color]50[color=313131]........[/color]100\r\n30[color=313131].......[/color]50[color=313131].........[/color]50[color=313131]........[/color]100\r\n35[color=313131].......[/color]55[color=313131].........[/color]50[color=313131]........[/color]100\r\n40[color=313131].......[/color]60[color=313131].........[/color]50[color=313131]........[/color]100\r\n45[color=313131].......[/color]70[color=313131].........[/color]50[color=313131]........[/color]100\r\n50[color=313131].......[/color]80[color=313131].........[/color]50[color=313131]........[/color]100[/size]\r\n\r\n\r\nI felt this was too weak and didn\\'t work well at higher levels. I\\'ve changed this to:\r\n[size=1]Level[color=313131]....[/color]Damage[color=313131]....[/color]Health[color=313131]....[/color]Stamina\r\n10[color=313131].......[/color]25[color=313131]..........[/color]60[color=313131]........[/color]100\r\n15[color=313131].......[/color]30[color=313131]..........[/color]75[color=313131]........[/color]110\r\n20[color=313131].......[/color]40[color=313131]..........[/color]90[color=313131]........[/color]120\r\n25[color=313131].......[/color]50[color=313131].........[/color]105[color=313131]........[/color]130\r\n30[color=313131].......[/color]55[color=313131].........[/color]120[color=313131]........[/color]140\r\n35[color=313131].......[/color]60[color=313131].........[/color]135[color=313131]........[/color]150\r\n40[color=313131].......[/color]70[color=313131].........[/color]150[color=313131]........[/color]160\r\n45[color=313131].......[/color]80[color=313131].........[/color]165[color=313131]........[/color]170\r\n50[color=313131].......[/color]90[color=313131].........[/color]180[color=313131]........[/color]180[/size]\r\n[/list]",
+  "categoryId": "24",
+  "version": "1.1.1",
+  "author": "Kevin Kidder",
+  "createdUnix": "1341442916",
+  "updatedUnix": "1345158706",
+  "containsAdultContent": false,
+  "uploadedBy": "sushisquid",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "72229",
+      "name": "YetAnotherWerewolfImprovement100",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "YetAnotherWerewolfImprovement100-19924-1-0.zip",
+      "uploadedUnix": "1341442943",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/08e0ec2e732876b62909a2fe231aa09e172dd1b48e920371a4c6943547e72bf1/analysis/1407001742/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/YetAnotherWerewolfImprovement100-19924-1-0.zip?fid=72229&ttl=1535787711&ri=8192&rs=8192&setec=8e2cacc2478310a7b435a7d6c950b631"
+    },
+    {
+      "fileId": "82089",
+      "name": "YetAnotherWerewolfImprovement111",
+      "version": "1.1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "12",
+      "fileName": "YetAnotherWerewolfImprovement111-19924-1-1-1.zip",
+      "uploadedUnix": "1345158706",
+      "modVersion": "1.1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/767390265a3a0946fb92ecd8f26e0ef877fe0028f307ebec0a1ed60f388dfbbc/analysis/1407101646/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/YetAnotherWerewolfImprovement111-19924-1-1-1.zip?fid=82089&ttl=1535787711&ri=8192&rs=8192&setec=5352c272da0212ea021f74cbd32f6bb7"
+    }
+  ]
+}

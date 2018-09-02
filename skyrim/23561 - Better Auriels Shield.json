@@ -1,0 +1,48 @@
+{
+  "modId": 23561.0,
+  "modName": "Better Auriels Shield",
+  "summary": "Minor fixes and tweaks to Auriel&#39;s Shield.",
+  "descriptionHtml": "Name: Better Auriels Shield\r<br />Version: 1.1\r<br />Date: 09/03/2012\r<br />Author: popcorn71\r<br />\r<br />\r<br />Requirements\r<br />============\r<br />Dawnguard\r<br />[url=http://skse.silverlock.org]SKSE[/url]\r<br />\r<br />\r<br />Details\r<br />=======\r<br />Minor fixes and tweaks to Auriel&#39;s Shield done as a request from a user of one of my other mods.\r<br />\r<br />Changes to Auriel&#39;s Shield are as fallows:\r<br />Fix for wrong keywords assigned to shield. Had WeapMaterialElven when it should have\r<br />ArmorMaterialElven. Also assigned keyword ArmorMaterialElvenGilded to it for use with Gilded Elven\r<br />Armor and any mods that may expand the Gilded Elven Armor set.\r<br />\r<br />Adds a simple script to set shields armor type to whatever the player has the highest skill in. If \r<br />the player specializes in heavy armor then the shield will stay heavy armor otherwise it will change\r<br />to light armor. \r<br />Item weight will also be adjusted accordingly.\r<br />\r<br />Quadruples vendor value from 750 to 3000.\r<br />\r<br />\r<br />Install\r<br />=======  \r<br />1. Download and extract the content of Better Auriels Shield archive into you Skyrim data folder.\r<br />2. Start the Skyrim Launcher and place a check mark next to &#39;Better Auriels Shield.esp&#39;.\r<br />3. Have fun playing Skyrim.\r<br />\r<br />\r<br />Uninstall\r<br />=========\r<br />Delete &#39;Better Auriels Shield.esp&#39; from your data folder.\r<br />Delete file Scripts/AurielsShieldAdjusterEffect.pex\r<br />Delete file Scripts/AurielsShieldAdjusterQuest.pex\r<br />Delete file Scripts/Source/AurielsShieldAdjusterEffect.psc\r<br />Delete file Scripts/Source/AurielsShieldAdjusterQuest.psc\r<br />\r<br />\r<br />Incompatibility\r<br />===============\r<br />Mods that make changes to Auriel&#39;s Shield.\r<br />\r<br />\r<br />Known Issues or Bugs\r<br />====================\r<br />None known\r<br />\r<br />\r<br />Contact\r<br />=======\r<br />The best way to reach me is by PM on the Nexus.\r<br />I also check the comments section regularly, so chances are good I will see and respond to feedback\r<br />as needed in a few days.\r<br />\r<br />\r<br />Tools Used\r<br />==========\r<br />Creation Kit",
+  "categoryId": "54",
+  "version": "1.1",
+  "author": "popcorn71",
+  "createdUnix": "1346648067",
+  "updatedUnix": "1346979193",
+  "containsAdultContent": false,
+  "uploadedBy": "popcorn71",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "86115",
+      "name": "Better Auriels Shield v1",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Better Auriels Shield-23561-1-0.7z",
+      "uploadedUnix": "1346648124",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e2299b889dc7fecc7ed07d05af34f4f28545b2bfadc613b07e92ad8b877e535c/analysis/1407142263/",
+      "changelogHtml": " Initial release. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Better%20Auriels%20Shield-23561-1-0.7z?fid=86115&ttl=1535793891&ri=8192&rs=8192&setec=ffb17eeb41b50b4884451bae88c82d13"
+    },
+    {
+      "fileId": "86877",
+      "name": "Better Auriels Shield",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Better Auriels Shield-23561-1-1.7z",
+      "uploadedUnix": "1346979193",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/80412770d0d99f6bb8ff22ac83a9679ee3ad662ba38fc19b142b8fbd6c207eb0/analysis/1407150122/",
+      "changelogHtml": " Fixed shield stats resetting when a save is loaded. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Better%20Auriels%20Shield-23561-1-1.7z?fid=86877&ttl=1535793891&ri=8192&rs=8192&setec=e9cc140dbd7f1ae333d01e17ff59fa0a"
+    }
+  ]
+}

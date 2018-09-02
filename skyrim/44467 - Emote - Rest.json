@@ -1,0 +1,48 @@
+{
+  "modId": 44467.0,
+  "modName": "Emote - Rest",
+  "summary": "Do you ever wanted a rest on cloud ?\r\nWith this mod you can get it !",
+  "descriptionHtml": "[color=lightblue][b]Name:\t\t[Emote] Rest[/b][/color]\r\nDate:\t\t2013/10/13\r\nVersion:\t1.00\r\nAuthor:\t\tAnton\r\n\r\n\r\n[heading][color=yellow]Description:[/color][/heading]\r\nPlaying a while in Tera and Aion i was inspired by its animation, so i have decided to try to make something similar for Skyrim.\r\nToday i am ready to represent to community my new animation project. It adds to the PC a \\\"Small Ability\\\". When you cast it, your character will begin to move in a way according to animation sequence setup.\r\nFor now, I have made only one \\\"emote\\\" - rest. Other animations in plans...\r\n\r\n[color=lightblue]* To see all animations i suggest you to spend about 2 min of watching. (animations are choosing randomly)[/color]\r\n\r\n[color=magenta][b]! You will need [url=http://skyrim.nexusmods.com/mods/11811/]FNIS[/url] for this mod to work ![/b][/color]\r\n\r\n\r\n[heading][color=yellow]Demonstration video:[/color][/heading]\r\n[youtube]WHTL1_zrLqE[/youtube][youtube]bAVa4GjuO5s[/youtube]\r\n\r\n\r\n[heading][color=yellow]How to use it:[/color][/heading]\r\n1. Use console to add new spell by command [color=lightblue]\\\"player.addspell xx000D62\\\"[/color], where \\\"??\\\" is the mod number in your load order.\r\n2. Choose \\\"[Emote] Rest\\\" from abilities list in magic menu.\r\n3. Cast this ability by using [color=lightblue]\\\"voice\\\"[/color] button (default \\\"X\\\")\r\n4. Use your mouse to moving the camera and take a joy :)\r\n5. To stop animation you need to use the same button. (animation will not stop immediately, have a patience)\r\n\r\n\r\n[heading][color=yellow]Install:[/color][/heading]\r\n1. Unpack mod to the game\\'s \\\"\\\\Data\\\" folder.\r\n2. Run FNIS tool \\\"GenerateFNISforUsers.exe\\\" and press \\\"Update FNIS Behavior\\\" button to add new animation to PC behavior file.\r\n3. Activate plugin \\\"[Emote] Rest.esp\\\" in launcher.\r\n  (mod archive is compatible with NMM and WrayBash installers)\r\n\r\n\r\n[heading][color=yellow]Uninstall:[/color][/heading]\r\nRemove folders and files inside:\r\n- \\\"data\\\\meshes\\\\[Anton] mods\\\\Emotes\\\\MagicCloud.nif\\\"\r\n- \\\"data\\\\meshes\\\\actors\\\\character\\\\animations\\\\[Emotes]\\\\*.*\\\"\r\n- \\\"data\\\\meshes\\\\actors\\\\character\\\\behaviors\\\\FNIS_[Emotes]_Behavior.hkx\\\"\r\n- file \\\"[Emote] Rest.esp\\\"\r\n\r\n\r\n[heading][color=yellow]Uncompatibilities:[/color][/heading]\r\n... none, yet ...\r\n\r\n\r\n[heading][color=yellow]Credits:[/color][/heading]\r\nFore for FNIS\r\nDevelopers of Blender 2.65+\r\nNifTools team for Nifskope\r\nBethesda for the game and Creation Kit\r\nMy tools for newest Blender :)\r\n\r\n[heading][color=yellow]Permissions:[/color][/heading]\r\nDon\\'t change anything and don\\'t upload it to another sites without my permission, please.\r\n",
+  "categoryId": "51",
+  "version": "1.00",
+  "author": "Anton",
+  "createdUnix": "1382099386",
+  "updatedUnix": "1382362345",
+  "containsAdultContent": false,
+  "uploadedBy": "Anton0028",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000066040",
+      "name": "Emote_Rest_v1_00",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "727",
+      "fileName": "Emote_Rest_v1_00-44467-1-00.zip",
+      "uploadedUnix": "1381820685",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/a967b89da78908447980735c0aff5ef9b03784945a8cbd294da446ca8aad969c/analysis/1407756731/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Emote_Rest_v1_00-44467-1-00.zip?fid=1000066040&ttl=1535825076&ri=8192&rs=8192&setec=e70836e641e7801746b179e793eae039"
+    },
+    {
+      "fileId": "1000068855",
+      "name": "Script_Source_v1_00",
+      "version": "1.00",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Script_Source_v1_00-44467-1-00.zip",
+      "uploadedUnix": "1382362345",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/9b0d8a7cc2861ab396b060c2cfb9ff306a1347d329403bb9c8be7cc8aee7bbbe/analysis/1407763610/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Script_Source_v1_00-44467-1-00.zip?fid=1000068855&ttl=1535825076&ri=8192&rs=8192&setec=24a9287c5ba0672bf0a9128390297432"
+    }
+  ]
+}

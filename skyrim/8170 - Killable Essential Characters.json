@@ -1,0 +1,48 @@
+{
+  "modId": 8170.0,
+  "modName": "Killable Essential Characters",
+  "summary": "Allows the killing of essential NPCs by power attacking them while they\\'re down.",
+  "descriptionHtml": "Having Bethesda limit the characters that I could dispense my own brand of \\'justice\\' to annoyed me. On the other hand, the only mods that I could find simply remove the Essential tag from every NPC. I don\\'t think this is ideal, as it makes breaking quests a little too easy. So I wrote a simple script, using the new creation kit, and applied it to most of the essential NPCs.\r\n\r\nNow, when you do enough damage to an essential character to kill them, you knock them down as in vanilla. If you then hit them with a power attack in melee, they die. Now you have a clear visual clue as to whether a character is important or not, but you are still in control.\r\n\r\nAdditionally, several NPCs are made essential by the quests they are a part of. No other mod I know of allows the player to kill even these. This includes Delphine and Jarl Balgruuf the Greater. Though I\\'m confused as to why anyone would want to kill him.\r\n\r\nThere were a few NPCs that I didn\\'t apply the script to - Daedric princes and the like. If I applied it to anyone I shouldn\\'t have, or missed someone, post a comment and hopefully I\\'ll read it. No promises though. You should be able to add this behaviour to any NPC you like by attaching the KillEssential script to them in the creation kit.\r\n\r\nThis is my first mod, and I haven\\'t tested it super extensively. Let me know if I\\'ve overlooked anything. Have fun!\r\n\r\nOn Steam: http://steamcommunity.com/sharedfiles/filedetails/?id=8746\r\n\r\nInstallation: Copy contents to Data folder, activate esp in launcher or mod manager\r\n\r\nUninstallation: Delete killEssentials.esp and KillEssential.pex in the Scripts folder\r\n\r\nKnown Issues: Can\\'t get the field commanders to die. I think it\\'s a problem with their animations, but I don\\'t know what the problem is. Comment if you have any ideas.\r\n\r\nChangelog:\r\n\r\n1.10: \r\n\tFixed about 60 characters made essential by quests. \r\n\tStopped spells from triggering the script - Now you must hit the NPC with a melee power attack. \r\n\tSeveral other script changes and fixes\r\n\tWrote this readme.\r\n\r\n1.00: \r\n\tInitial release.\r\n\r\nCredits: Me! and www.creationkit.com. And the commenters. Thanks!\r\n\r\nLicensing etc: Do whatever you like, source for the script is included, please credit me and let me know so I can see what you\\'ve done!",
+  "categoryId": "24",
+  "version": "1.10",
+  "author": "Yoshanuikabundi",
+  "createdUnix": "1328681343",
+  "updatedUnix": "1328783708",
+  "containsAdultContent": false,
+  "uploadedBy": "yoshanuikabundi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "26941",
+      "name": "Killable Essential Characters v1 00",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "96",
+      "fileName": "Killable Essential Characters v1 00-8170.7z",
+      "uploadedUnix": "1328681468",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/03740ff720073f02857e779a1e8dee7559ad5871629018fa8ac179ab9073fd62/analysis/1406659986/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Killable%20Essential%20Characters%20v1%2000-8170.7z?fid=26941&ttl=1535766658&ri=8192&rs=8192&setec=88592f771394e8f403f52110ed5d416a"
+    },
+    {
+      "fileId": "27669",
+      "name": "Killable Essential Characters v1 10",
+      "version": "1.10",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "205",
+      "fileName": "Killable Essential Characters v1 10-8170-1-10.7z",
+      "uploadedUnix": "1328783708",
+      "modVersion": "1.10",
+      "virusScanUrl": "https://www.virustotal.com/file/52d8b73f60549d90ab135621afbf156ddf0650d76f207d1c2411cf4117a8e81a/analysis/1406663772/",
+      "changelogHtml": " Fixed about 60 characters made essential by quests. <br/> \n Stopped spells from triggering the script - Now you must hit the NPC with a melee power attack. <br/> \n Several other script changes and fixes <br/> \n Wrote a readme <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Killable%20Essential%20Characters%20v1%2010-8170-1-10.7z?fid=27669&ttl=1535766659&ri=8192&rs=8192&setec=55540b296ef703e45f9aa1acc0d5bc2f"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 57237.0,
+  "modName": "Whiterun Warmaiden Shadow Fix",
+  "summary": "Go away black hexagon shadows outside Warmaidens in Whiterun",
+  "descriptionHtml": "[b]Holy crap - death to black hexagons at Warmaidens&#33;[/b]\r<br />\r<br />After a break from gaming - I picked Skyrim back up and like within the first 5 minutes (well no, not really - more like 24 hours later after searching new mods/etc etc - you know how that goes) I walked into Whiterun... OMG - STUPID HEXAGON HOLES - DIE. DIE. DIE STUPID SHADOWS DIE. OMG DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE - 2 hours later - DIE DIE DIE DIE DIE DIE. You get the idea. I searched around Nexus for anything that would fix this with no luck. I then proceeded to punch a hole in the wall, headbutt my computer, and powerchug 2 liters of Dew before I realized - HEY - I&#39;m not a failure DAD&#33; I CAN FIX THIS&#33; Hopefully, this helps cure that twinge you get when you run into Whiterun and see those godawful shadows. I know it works for me&#33;\r<br />\r<br />[u]Note: Yes, the above rant is fake. The actual chain of events took less than 10-20 minutes with a cup of tea, a lap kitty, and a little motivation.[/u]\r<br />\r<br />Short version:\r<br />This is the modified mesh from Unofficial Skyrim Patch 2.0.6. with my small adjustments to remove the stupid black shadow/fake wannabe holes.\r<br />\r<br />Long version:\r<br />I removed the vertex colors of the hole portion in the nif - and then changed the UV of those holes to use the surrounding stone texture. The indents in the mesh are still there - they just display a different texture. Due to this hacky change - some textures may not look as good, show seams, or will have major alignment issues. I tested this mesh with whatever random Whiterun textures I had and they all were sufficient to my needs. DIE HEXAGON SHADOWS&#33;\r<br />\r<br />Installation-\r<br />It is a mesh replacer. Using a mod manager - make sure it lands after USKP, or anything else that modifies that location.\r<br />If you manually install it - just unzip to the skyrim&#92;data directory - making sure to use the existing file/directory structure.\r<br />\r<br />Uninstall- Uncheck from your mod manager, or delete the file. But seriously, why on earth would you remotely even think about putting those ugly terrible shadows back into your game? WHAT IS WRONG WITH YOU&#33;?&#33;?\r<br />\r<br />Compatability-\r<br />This &#34;should&#34; work for pretty much any version of the game you have. It is just a mesh replacement.\r<br />If you use anything that changes the area around/outside Warmaiden&#39;s, or anything that affects the model wrblacksmithbase.nif it is quite possible to have conflicts. Conflicts I most likely will have zero interest in fixing. Then again, with that level of change - you probably don&#39;t see these shadows.\r<br />\r<br />Keywords: warmaiden blacksmith pillar pole log post shadow hole bug patch fix wrblacksmithbase.nif",
+  "categoryId": "95",
+  "version": "v1",
+  "author": "zaty1",
+  "createdUnix": "1408435389",
+  "updatedUnix": "1408430568",
+  "containsAdultContent": false,
+  "uploadedBy": "zaty1",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000122752",
+      "name": "WhiterunBlacksmithShadowfix_v1.zip",
+      "version": "v1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "120",
+      "fileName": "WhiterunBlacksmithShadowfix_v1.zip-57237-v1.zip",
+      "uploadedUnix": "1408430568",
+      "modVersion": "v1",
+      "virusScanUrl": "https://www.virustotal.com/file/e5e83e9dd779383836e2ef01a28465f05ed4d4bb9e92cfc6f765939c838f9c65/analysis/1408435922/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/WhiterunBlacksmithShadowfix_v1.zip-57237-v1.zip?fid=1000122752&ttl=1535843115&ri=8192&rs=8192&setec=61fd61e800c0e0475adb1173817b2401"
+    }
+  ]
+}

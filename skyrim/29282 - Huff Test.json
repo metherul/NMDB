@@ -1,0 +1,32 @@
+{
+  "modId": 29282.0,
+  "modName": "Huff Test",
+  "summary": "Survive waves of bad guys.",
+  "descriptionHtml": "Just a quick test script I put together while learning to script.\r\nConsole: COC hufftest\r\nUpon activation of the tome on the table to the right, waves of enemies will begin to spawn. Mostly just a proof of concept/figuring out how to do this on a fundamental level, there will be 5 waves total, and amount of enemies is equal to wave number.\r\n\r\n[quote][code]\r\nScriptname SpawnMobHuffv5 extends ObjectReference  \r\n\r\n;Go into Properties and set the MobBase OR MobActor to whatever Actor Base you want to spawn.\r\n;Go into Properties and set the SpawnMarker to your pre-placed XMarker where you want the mobs to spawn.\r\n\r\nint WaveCount\r\nint SpawnCount\r\nint MaxWaveCount = 5 ;Max Wave Level\r\nActorBase Property MobBase auto\r\nObjectReference Property SpawnMarker Auto ;set in CK\r\nObjectReference property Door01 auto\r\nObjectReference property ActivatorReal auto\r\nObjectReference property ActivatorFake auto\r\nBool Activatable = True\r\n\r\nEvent OnActivate(ObjectReference akActionRef)\r\n    ActivatorFake.Enable()\r\n    ActivatorReal.Disable()\r\n    If (Activatable == True) ;Start the Survival \r\n        Door01.BlockActivation()\r\n        Activatable = False\r\n        WaveCount += 1\r\n        debug.Notification(\\\"Survival Started. Wave \\\" + WaveCount) ;Display the start, and wave number. Working display\r\n\r\n        While WaveCount <= MaxWaveCount\r\n            SpawnCount = 1 \r\n            While SpawnCount <= WaveCount\r\n                SpawnMarker.PlaceActorAtMe(MobBase).StartCombat(Game.GetPlayer()) ;i think may be most robust due to the StartCombat part.\r\n                SpawnCount +=1\r\n                Utility.Wait(1.0)\r\n            endWhile\r\n           \r\n            Utility.Wait(20.0) ;Time between waves\r\n            WaveCount += 1\r\n\r\n            If (WaveCount <= MaxWaveCount)\r\n                debug.Notification(\\\"Wave \\\" + WaveCount + \\\" Started.\\\") ;Next wave started message. Working display\r\n            else\r\n                debug.Notification(\\\"Congratulations, You Survived \\\" + MaxWaveCount + \\\" Waves\\\") ;Winner. Working display\r\n                Door01.BlockActivation(False)\r\n            endIf\r\n        endWhile\r\n    endIf\r\n    WaveCount = 0 ;set count to 0 so that it can be activated again\r\n    Activatable = True\r\n    ActivatorReal.Enable()\r\n    ActivatorFake.Disable()\r\nendEvent  \r\n[/code][/quote]",
+  "categoryId": "28",
+  "version": "1",
+  "author": "h34d5h0tz",
+  "createdUnix": "1357115732",
+  "updatedUnix": "1357116020",
+  "containsAdultContent": false,
+  "uploadedBy": "h34d5h0tz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "109037",
+      "name": "Huff",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2750",
+      "fileName": "Huff-29282-.rar",
+      "uploadedUnix": "1357116020",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/b416058a7b5be25b87d7aab8005b33208ce638cf02916112b3fa03e04eae3d17/analysis/1407333383/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Huff-29282-.rar?fid=109037&ttl=1535803249&ri=8192&rs=8192&setec=c5ec80e5123c8fb1b817d0d3b6f6a5dc"
+    }
+  ]
+}

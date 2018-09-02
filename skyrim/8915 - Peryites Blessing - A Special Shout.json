@@ -1,0 +1,48 @@
+{
+  "modId": 8915.0,
+  "modName": "Peryites Blessing - A Special Shout",
+  "summary": "All the perks of being an Afflicted, and more!",
+  "descriptionHtml": "Just In!!!\r\n- The shout can be acquired by activated the Pillar of Peryite (read below)\r\n- Spray (being corrosive and not poisonous) now will affect Dwarven and Undead, but Spit and Spew (being poisons) will be resisted. \r\n\r\n[center][b][color=\\\"#FF0000\\\"]Description[/color][/b]\r\n\r\nEver thought that Peryite should of given you more than just a lousy shield?\r\nEver wished that you could puke on others in Skyrim?\r\nWell if you did, what\\'s wrong with you?! (Deep inside we all want to... your not alone)\r\nAnyway, this mod allows you to learn how to spit, spew, and spray your enemies with vomit-induced goodness. \r\n(comes in the form of a shout, so yes you will need dragon souls)\r\n\r\nVILE VAPORS\r\n\r\nSpit (SpiderSpitModel)\r\n- Causes 25 damage to health for 3 seconds\r\n- Mid-range projectile\r\n- Restore time: 5 second\r\n\r\nSpew (ChaurusSpitModel)\r\n- Causes 50 damage to health and stamina for 3 seconds\r\n- Mid-range projectile\r\n- Restore time: 10 seconds\r\n\r\nSpray (AfflictedSpitModel)\r\n- Causes 100 damage to health for 6 seconds\r\n- Short-range projectile\r\n- Restore time: 20 seconds\r\n\r\n[color=\\\"#FF0000\\\"][b][u]TO ACQUIRE THE SHOUT[/u]\r\n\r\nGo up to the Shrine to Peryite and activate a small \\\"Pillar of Peryite\\\" to learn the Vile Vapors Shout and all 3 words of power!\r\n(dragon souls will be needed to unlock).[/b][/color]\r\n\r\n[u]Console command for gaining dragon souls[/u]\r\nplayer.setav dragonsouls XX\r\n(X being the number of how many you want)\r\n\r\n[b]OR[/b] \r\n(HARDER AND NOT RECOMMENDED)\r\n\r\nAfter Installing, launch the Nexus Mod Manager and move the ESP until it lies under Updates.esm, it should look like this in the manager:\r\n\r\nSkyrim.esm 00 1\r\nUpdate.esm \r\nPeryitesBlessing.esp 01 2\r\n\r\n(use picture for more detail)\r\n\r\nOnce in-game, bring up the console using \\\"~\\\" and type\r\nplayer.teachword 02000D66 [Press Enter]\r\nplayer.teachword 02000D67 [Press Enter]\r\nplayer.teachword 02000D68 [Press Enter]\r\n\r\n**If you know your load order and do not want to change the position of the ESP, just substitute the order into the first two numbers of the word ID (XX000D66 and so on)**\r\n\r\n------------------------------------------------------------------------------------------------------------------------------\r\n[b][color=\\\"#FF0000\\\"]Installation[/color][/b]\r\n\r\nSimply extract the \\\"Data\\\" file to your Skyrim directory, which should be:\r\n\\\"C:\\\\Program Files (x86)\\\\Steam\\\\SteamApps\\\\common\\\\skyrim\\\\\\\"\r\n\r\nI can do Papyrus!\r\n\r\n[u][b]Endorsements and Kudos[/b][/u]\r\nwill be much appreciated!\r\n\r\nBut above all,\r\nENJOY THE MOD![/center]\r\n\r\nMY OTHER MODS:\r\n\r\n[url=file.php?id=9241]Build-A-Dwarven Army[/url]\r\n\r\n[url=file.php?id=10422]Enhanced Wolf Armor[/url]\r\n\r\n[url=file.php?id=9517]Shrouded Hood High-Res and Blood-Faded Texture[/url]\r\n\r\n\r\n\r\nThe script (a reference for any one wanting to make their own shouts):\r\nNote: indents and color coding has been removed due to site restrictions*\r\n-----------------------------------------------------------------------------------------------\r\nScriptname PeryitesBlessingScript extends ObjectReference  \r\n\r\nint count\r\n\r\n Event OnActivate(ObjectReference akActionRef)\r\n\r\n\tif (Game.GetPlayer().AddShout(AfflictedBreathShoutPlayable))\r\n\t\tGame.TeachWord (WordSpit)\r\n\t\tGame.TeachWord (WordSpew)\r\n\t\tGame.TeachWord (WordSpray)\r\n\t\tDebug.Trace(\\\"Peryite\\'s Blessing acquired\\\")\r\n\t\tDebug.MessageBox(\\\"May you puke well.\\\")\r\n\tendIf\r\n endEvent\r\nShout Property AfflictedBreathShoutPlayable Auto\r\n\r\nWordOfPower Property WordSpit  Auto  \r\n\r\nWordOfPower Property WordSpew  Auto  \r\n\r\nWordOfPower Property WordSpray  Auto  \r\n-----------------------------------------------------------------------------------------------",
+  "categoryId": "75",
+  "version": "2.0",
+  "author": "esiotrot291117",
+  "createdUnix": "1328973718",
+  "updatedUnix": "1329937425",
+  "containsAdultContent": false,
+  "uploadedBy": "esiotrot291117",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "29340",
+      "name": "Peryites Blessing",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Peryites Blessing-8915.rar",
+      "uploadedUnix": "1329018656",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/af9b0bcf3cc8f3ca6a7bf91a8e90b9f8750a88890fde5463d8ed1058439ead18/analysis/1406672043/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Peryites%20Blessing-8915.rar?fid=29340&ttl=1535768047&ri=8192&rs=8192&setec=9756e2a5c06adbaad746ddacc096aee9"
+    },
+    {
+      "fileId": "35374",
+      "name": "Peryites Blessing with Pillar Activator",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Peryites Blessing with Pillar Activator-8915-2-0.rar",
+      "uploadedUnix": "1329937425",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d6b1d381aedcc507ea48221b34083bb585ba777139a6d643a65acc19504f7fef/analysis/1406705522/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Peryites%20Blessing%20with%20Pillar%20Activator-8915-2-0.rar?fid=35374&ttl=1535768048&ri=8192&rs=8192&setec=fb0995af160bf681a1d46b16e3dd4758"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 9732.0,
+  "modName": "Item bat files for mod testing",
+  "summary": "These are several bat files I made to assist in mod testing",
+  "descriptionHtml": "This is simply a zip file that includes the following files:\r\n\r\nallanimalparts\r\nalldwemer\r\nallfood\r\nallingredients\r\nallmiscitems\r\nalloreingots\r\nallpotions\r\nallscrolls\r\nallsoulgems\r\n\r\nThe only one that doesn\\'t include every item listed under the category it\\'s shown as is misc items because animal parts, ingots, and soul gems show up underneath them.\r\n\r\nThis is just something that I unfortunately had to take the time to do and I figured that I would share it in case anybody else had a similar issue to mine.\r\n\r\nTo use just make sure all of the txt files are in your data folder (before or after you load Skyrim) and hit ~ to bring up the console. If you want to load all soul gems all you do is type \\\"bat allsoulgems\\\" without the quotes and hit enter. Your game may stall for a moment (I know mine does) but soon it should add all items in that file. You can add your own items to them as well by adding the player.additem code to a new line with the amount specified. Default amount is 1 for each item.",
+  "categoryId": "82",
+  "version": "v1",
+  "author": "6Domino6",
+  "createdUnix": "1329296068",
+  "updatedUnix": "1329296183",
+  "containsAdultContent": false,
+  "uploadedBy": "6Domino6",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "31431",
+      "name": "Bat Files for Items",
+      "version": "v1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Bat Files for Items-9732-v1.zip",
+      "uploadedUnix": "1329296183",
+      "modVersion": "v1",
+      "virusScanUrl": "https://www.virustotal.com/file/5a65260f6270f7a7f37fd2569194ee3ca115799c71117ab8320b6130492f6628/analysis/1406683749/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bat%20Files%20for%20Items-9732-v1.zip?fid=31431&ttl=1535769525&ri=8192&rs=8192&setec=f555eecfbf59e6c8569f59076c52f3ee"
+    }
+  ]
+}

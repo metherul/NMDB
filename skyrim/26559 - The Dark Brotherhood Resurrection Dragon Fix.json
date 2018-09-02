@@ -1,0 +1,32 @@
+{
+  "modId": 26559.0,
+  "modName": "The Dark Brotherhood Resurrection Dragon Fix",
+  "summary": "This mod fixes a bug introduced in The Dark Brotherhood Resurrection: Part 1, that made all leveled Dragons in the world Invulnerable",
+  "descriptionHtml": "This mod fixes a bug introduced in [url=http://skyrim.nexusmods.com/mods/25941/]The Dark Brotherhood Resurrection: Part 1[/url], that made all leveled Dragons in the world Invulnerable\r\n\r\nDO NOT USE THIS MOD UNLESS YOU ARE UNABLE TO PHYSICALLY HARM DRAGONS\r\n\r\nIn one of the last quests of The Dark Brotherhood Resurrection: Part 1, I thought I was setting my dragons to be invulnerable for a few minutes. It turns out I made ALL leveled dragons in the world invulnerable. This bug has been fixed in the latest version of the mod, but old players who saved thier games long before they noticed the bug are now screwed. The \\'Invulnerable\\' flag has been set on all dragons In thier world and that status has been preserved in the save file. This stand-alone mod will safely clean your save file and restore all Dragons to thier proper role.\r\n\r\nTo use this mod:\r\n1) When you start the mod, you will automatically get the quest \\'Kill the dragons\\'\r\n2) Every minute you will see a message appear in the upper left-hand corner that say\\'s \\'Telling the Engine to make Dragons\\' Vulnerable\\'\r\n3) Go out hunting for dragons!\r\n4) When you have confirmed that you can indeed kill dragons again, go to any inkeeper and tell them \\'I can kill dragons again!\\'\r\n5) The inkeeper will stop the quest \\'Kill the Dragons\\'\r\n6) Immediately save your game, then close Skyrim and uninstall the mod.\r\n7) Delete the files \\'DBRDragonFix.esp\\' and \\'DBRDragonFix.bsa\\'\r\n\r\nNOTES:\r\nThe \\'Invulnerable\\' flag in Skyrim is \\'sticky\\' from my experiance. It is not always removed just by calling \\'SetInvulnerable(false)\\' once. This is why the mod calls that script function every minute. Also, it can sometimes revert after dying and reloading. This is why I recommend trying to make a new save, then closing the game and then reloading that save, to make sure that dragons are truly mortal in both the engine and your save file.\r\n\r\nDO NOT uninstall the mod before ending the quest \\'Kill the Dragons\\' this can screw up your save file.\r\n\r\nI\\'m truly sorry to all my players that suffered from this bug. I hope this makes up for it.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Jake Washenfelder",
+  "createdUnix": "1352264302",
+  "updatedUnix": "1352264350",
+  "containsAdultContent": false,
+  "uploadedBy": "jediborg",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "97885",
+      "name": "DBRDragonFix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "DBRDragonFix-26559-1-0.zip",
+      "uploadedUnix": "1352264350",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7e81cb115f6e1cc8e43d6db546fc5bff614d749ff62fe95acc94d5ea412e7083/analysis/1407252724/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DBRDragonFix-26559-1-0.zip?fid=97885&ttl=1535798751&ri=8192&rs=8192&setec=0ee6cabbc65975cc90619595cf5d50e1"
+    }
+  ]
+}

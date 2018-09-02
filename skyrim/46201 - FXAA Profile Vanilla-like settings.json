@@ -1,0 +1,32 @@
+{
+  "modId": 46201.0,
+  "modName": "FXAA Profile Vanilla-like settings",
+  "summary": "A profile for FXAA Injector with Vanilla like look, with a delicate sharpen and saturation (i don't like oversaturated things, so it's really small touch, only what was needed).",
+  "descriptionHtml": "First of all, I would like to say a BIG thanks to Jellinn, the guy who made [url=http://skyrim.nexusmods.com/mods/384//?]this[/url] setup with working FXAA injector (made by some_dude). I used his setup as a base and tweaked it a bit to meet my standards.\r\n\r\nThis profile sharpens the textures (very little sharpen, i hate all those oversharpen profiles you can find on nexus), adds a very very very small saturation boost (needed for FXAA and blur, without it it looks washed-out) and small blur (rly small, don't worry).\r\n\r\nIn case of FPS i haven't found any FPS drop while using FXAA Injector at all.\r\n\r\nAlso check the screenshots (i'll add some in future, when i find some good location for comparison). And if anyone is interested, i'm not using any ENB, just the FXAA injector.\r\n\r\n\r\n\r\n[b][color=teal]--- Installation ---[/color][/b]\r\n\r\nI've tried quite a few setups with some versions of fxaa injectors you can find on nexus and the one from Jellinn worked the best on my pc... But I realize it doesn't have to work for you. Just try it and you’ll know.\r\n\r\nYou have to manually install the mod (not by NMM), but it's really really simple, just copying few files from archives.\r\n\r\n1) Download the FXAA v1.1 from this page: [url=http://skyrim.nexusmods.com/mods/384//?]http://skyrim.nexusmods.com/mods/384//?[/url] (again thx dude for you work, your setup was almost 90% of what i wanted :) )... Don't forget to endorse that guy :)\r\n2) Install it (extract files to Skyrim root)\r\n3) Download my \"mod\" and extract the injFX_Settings.h from the archive to skyrim root (overwrite the one provided by Jellinn's mod).\r\n4) Run the Skyrim Launcher (or use the [url=http://skyrim.nexusmods.com/mods/814//?]Skyrim configurator[/url], which won't mess up your tweaked ini files) and set the AAx2 and turn off the FXAA - it works the best with the FXAA Injector and the AAx2 has almost no performance hit (on decent machine).\r\n5) Run the game\r\n\r\n\r\n\r\n[b][color=teal]--- How to uninstall ---[/color][/b]\r\n\r\nJust delete all files you have placed into Skyrim root directory. It's not a bad idea to turn the Injector off in game first... Not sure if that's really needed, but you should always deactivate (if you can) anything before uninstalling. \r\n\r\n\r\n\r\n[b][color=teal]--- Some stuff you should know ---[/color][/b]\r\n\r\nHere i want to mention some inportant info you might want to know (some of it is quite hard to find).\r\n\r\n* You can turn on and off the Injector at ANY TIME by pressing \"Pause\" key (it's the one next to Scroll Lock)\r\n\r\n* I found that the Injector might blur the Steam UI a bit (mostly noticable on chat font) - since you can enable/disable the Injector at any time by pressing Pause, i think it's not that big of a deal (you can turn it off to write somebody and then turn it back on to continue playing the game). \r\n\r\n* It's using d3d9.dll (like any enb), so you cannot use any HW monitoring UI (Afterburner, Crossfire, EVGA Precision, D3DOverrider etc). If you try to do so, the game will just CTD. There is a way to force the MSI Afterburner to work, however any screenshot taken with forced Afterburner will have the MSI Hud on screenshots as well (and the font will be blured because of the Injector.... so in my opinion it's not worth it). Still if you're interested in this, then check the section below.\r\n\r\n* You have to take screenshots using Printscreen button instead of Steam screenshot button - the Steam takes the picture in different way, capturing the game without the FXAA layout. So if you want to take some pictures with your FXAA, you have to use that Printscreen (the game will save screenshot in Skyrim root).\r\n\r\n\r\n\r\n[b][color=teal]--- Forcing MSI Afterburner ---[/color][/b]\r\n\r\nIf you still want to try the MSI Afterburner with FXAA, then follow this:\r\n\r\n1) Turn off Skyrim (you don't really have to, but the changes will work after the game is restarted, so you might wanna just turn it off :) ).\r\n2) Create a custom profile for TESV.exe in the MSI OSD menu\r\n3) Go to /MSI Afterburner/Bundle/OSDServer/Profiles/TESV.exe.cfg and open it with Notepad (or any other text editor)\r\n4) Under the [Hooking] section add: EnableDynamicOffsetDetection=1 (the line might already be there, only with 0 value, so in case you have it there already, just change it to 1)\r\n5) Now you can launch your game, still have your OSD, and not CTD!! \r\n(Thanks and credit for this goes to guy named WhipDiddyWhip)\r\n\r\n\r\nThank you for your time and i hope you'll enjoy my setup. \r\nIn case you have question, just ask.\r\n\r\nExe",
+  "categoryId": "62",
+  "version": "v1.0",
+  "author": "ExecutorQ3",
+  "createdUnix": "1383401596",
+  "updatedUnix": "1383401439",
+  "containsAdultContent": false,
+  "uploadedBy": "ExecutorQ3",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000074165",
+      "name": "FXAA Profile Vanilla-like settings",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "FXAA Profile Vanilla-like settings-46201-v1-0.zip",
+      "uploadedUnix": "1383401439",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/dd8c46582134f04ebc2510f8871be6ef9e342ef9ce2328af735a9450bb92723f/analysis/1407778505/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FXAA%20Profile%20Vanilla-like%20settings-46201-v1-0.zip?fid=1000074165&ttl=1535826532&ri=8192&rs=8192&setec=26ac977b54726b82dcc30e68f09cbe5c"
+    }
+  ]
+}

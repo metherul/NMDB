@@ -1,0 +1,32 @@
+{
+  "modId": 11791.0,
+  "modName": "Salvage Material",
+  "summary": "Salvage Ingots, Leather, or Gems from most equipment.",
+  "descriptionHtml": "Please mod has been replaced by: http://skyrim.nexusmods.com/mods/22290\r\nAll new updates will be applied to Craft Temper Smelt.\r\n\r\nOK so I know there are a few other smelting mods out there, but if you\\'re like me they are almost complete, but wish there was a tweak here or there. Some add so many items with no way to sort threw the laundry list to what you can actually smelt down. Others make categories but still you have to go into each one to see if you can smelt something; And some just add crazy recipes with no logic behind it.\r\n\r\nEnter Salvage Material:\r\n\r\nSo I\\'ve created a mod that I believe is lore friendly, has accurate reclaiming of materials, and most importantly hides any Smelting / Tanning Rack recipe you can\\'t use. Yes you read right, any recipe you do not have the required ingredient to complete will remain hidden from the list in the Smelter and Tanning Racks only. This will not effect other stations.\r\nYou can now open the Smelter or Tanning rack and only see the recipes you can use.\r\nNo categories to shuffle thru, no huge Misc list with a hundred greyed out recipes to scroll thru. Just a list, big or small depending on what you have in your inventory, showing what you can actually salvage. When it turns grey you\\'re missing an ingredient. The grey ones will disappear once you exit the Smelter / Tanning Rack and open it again. Only showing what you can currently salvage.\r\n\r\nTo make the recipes I used the following logic:\r\nIf 4 ingredients then get full amount of highest material of item type, unless if 3 ingot types then full amount of item type.\r\nIf 3 ingredients then get -1 of highest material of item type, unless if 2 ingot types then full amount of item type, unless Daedric.\r\nIf 2 ingredients then get -1 of highest material of item type, unless if 1 ingot to create, then requires 2 items to salvage, unless Leather type then get -1 Leather of crafting recipe.\r\nPlain Rings and Necklaces require 6 units to salvage into 1 ingot of item type.\r\n\r\nFor Arrows I took their Vanilla value & divided that by their Ingot Type to get how many are needed to smelt back into a single Ingot.\r\n\r\nWhat this mod does:\r\nAdd salvage recipes for almost all vanilla equipment to the Smelter or Tanning Rack.\r\nSalvage all creatable items from the Forge, Weapons, Armor, Rings, Necklaces.\r\nSmelt Weapons & Armor down to ingots.\r\nSmelt Necklaces & Rings down to ingots or Gems.\r\nBreakdown Dragon gear into either Bones or Scales.\r\nSmelt Arrows to Ingots.\r\nSmelt All Dwarven \\\"junk\\\" metal.\r\n\r\nWhat this mod does NOT do: (subject to change)\r\nFix any broken recipes, or add any new recipes for any other stations.\r\nSalvage Artifacts, Unique or Enchanted gear. (However player made enchanted gear will still salvage)\r\nSalvage any clutter type.\r\n\r\nWhat I still need to do:\r\nSalvage Circlets into ingots or gems.\r\nAdd any missing recipes, as I\\'m sure you\\'ll find some.\r\nPossibly add clutter, although probably limit to just Silverware.\r\nI\\'m also thinking of smelting 2 ores of different types to 1 new ingot of another type. This will be a separate file, and be like 1 Corundum + 1 Gold = Dwarven; or 1 Orichalcum + 1 Quicksilver = 1 Malachite, etc etc. I already have them mapped out just haven\\'t created the esp yet.\r\n\r\nI really want to read what you guys think about what was done and what I propose, so feedback is always welcome. Also please tell me any bugs or missing recipes there are. Finally where do you want this to go? Tell me what you\\'d like to see salvageable, I may oblige.\r\nI\\'d like to make this NMM compatible, but don\\'t know how, unless it automatic.\r\n\r\nv1:     Release, covers all Forge craftable gear, but also most vanilla equipment too.\r\nv1.01: Hid vanilla Goat Hide recipe.\r\nv1.02: Gold Amethyst Necklace gives 2 Flawless Amethysts, Silver Garnet Necklace gives 2 Flawless Garnets, Smelt 100 Septims into 1 Gold Ingot.\r\nv1.03: Longbow, Hunting bow, Torches, & Firewood will salvage into 2 Charcoal at Smelter. Arrows to Ingots.\r\nv1.04: Imperial Bow & Light Shield salvage to Charcoal. Imperial Light Armor, Stormcloak, & Guards Armor salvageable.\r\nv1.05: Forsworn Armor added to Tanning Rack.\r\nv1.06: Adjusted Logic of Leather, Ring, and Necklace. All Dwarven \\\"junk\\\" metal salvageable.\r\nv1.07: Added Scimitar Salvage to Steel Ingots. Good catch Taz.\r\nv1.08: Iron Ingots + Charcoal can me re-smelted to create a Steel Ingot. (as request)\r\n",
+  "categoryId": "24",
+  "version": "Final",
+  "author": "E2B2",
+  "createdUnix": "1330619702",
+  "updatedUnix": "1333034562",
+  "containsAdultContent": false,
+  "uploadedBy": "epbreen",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "47963",
+      "name": "Salvage Material v1_08",
+      "version": "1.08",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Salvage Material v1_08-11791-1-08.7z",
+      "uploadedUnix": "1333034562",
+      "modVersion": "1.08",
+      "virusScanUrl": "https://www.virustotal.com/file/5a1d5c1e54b915aabdc6ba8a650fc1bb8d43e6976853e7af2089458698c9aaae/analysis/1406786183/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Salvage%20Material%20v1_08-11791-1-08.7z?fid=47963&ttl=1535773204&ri=8192&rs=8192&setec=e387ab817c38bbecba6e08bd2a314dc1"
+    }
+  ]
+}

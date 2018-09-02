@@ -1,0 +1,32 @@
+{
+  "modId": 92229.0,
+  "modName": "No diamond symbol on HUD (empty and locked containers) for SIM",
+  "summary": "Patch for SIM and No Empty Tag on Empty Containers. Removes the diamond symbol that is shown when you look at empty or locked containers or doors.",
+  "descriptionHtml": "[color=#9fc5e8]What is this[/color]\n<br />A mod/patch/edit that removes the diamond symbol that is shown when you look at empty or locked containers/doors, made with the shockwave file of [url=https://www.nexusmods.com/skyrim/mods/479]SIM - Skyrim Interface Makeover for SkyUI (Fhaarkas Font Mod)[/url] as base with the permission of that mod's author [url=https://forums.nexusmods.com/index.php?/user/1157655-fhaarkas/]Fhaarkas[/url].\n<br />\n<br />It's basically a compatibility patch between [url=https://www.nexusmods.com/skyrim/mods/31463]No empty tag on empty containers[/url] and SIM[b].[/b] The first mod increases  [b]immersion  [/b]by removing hints that a container is empty just by looking at it from a distance with your psychic powers. But SIM adds its own hudmenu.swf which shows the diamond symbol on the HUD for locked and empty containers. This mod removes the diamond symbol with an empty transparent layer. Works with locked containers as well so you won't know if a container/door is locked without activating it.\n<br />\n<br />Tell me if there are errors in this mod as I did very light testing. It's just a tiny edit in a single file after all.\n<br />\n<br />Update: Some users have tested it without Skyrim Interface Makeover and discovered that it causes issues and invisible UI. So that means [b]Skyrim Interface Makeover[/b] is the ONLY HARD REQUIREMENT. Very sorry for the Confusion!!!!\n<br />\n<br />[b][color=#d5a6bd]Requirements\n<br />\n<br />[/color][/b]-  [url=https://www.nexusmods.com/skyrim/mods/479]SIM - Skyrim Interface Makeover for SkyUI (Fhaarkas Font Mod)[/url] (technically only this is needed, but without the other it wouldn't really make sense unless you just want the diamond gone)\n<br />-  [url=https://www.nexusmods.com/skyrim/mods/31463]No empty tag on empty containers[/url]\n<br />\n<br />[b][color=#6aa84f]Installation[/color][/b]\n<br />\n<br />Manual: Back up your hudmenu.swf file from Data&#92;Interface&#92; if there is any. Open the zip file (with 7zip for example) and merge the Interface folder with the Interface folder in your Data Folder. Also please learn to use a mod manager soon.\n<br />\n<br />Mod Managers (any): Just install normally, it is a single file in the correct folder structure.\n<br />\n<br />[color=#e06666][b]Uninstallation[/b]\n<br />[/color]\n<br />Manual: Replace the installed hudmenu.swf with the backup that you had made, or simply remove it if there was no file initially to back up.\n<br />\n<br />Mod Managers: You know it.\n<br />\n<br />[b][color=#b45f06]Compatibility\n<br />\n<br />[/color][/b]Works with the mods I use, so inform me if you find any compatibilities or issues.\n<br />\n<br />[color=#f1c232][b]Recommendations[/b] \n<br />\n<br />[/color]of other UI mods as well as Install Order (which I use, you can try your own combinations/order):\n<br />\n<br />1. [url=https://www.nexusmods.com/skyrim/mods/3222/]Immersive HUD - iHUD[/url]﻿\n<br />2. [url=https://www.nexusmods.com/skyrim/mods/33916/]No Poison Dialogues[/url]﻿\n<br />3. [url=https://www.nexusmods.com/skyrim/mods/83379/]SkyrimSouls - Unpaused Game Menus(SKSE Plugin)[/url]﻿\n<br />4. [url=https://www.nexusmods.com/skyrim/mods/83827/]SkyrimSouls Slow Motion Menus[/url]﻿\n<br />5. [url=https://www.nexusmods.com/skyrim/mods/479]SIM - Skyrim Interface Makeover for SkyUI (Fhaarkas Font Mod)\n<br />[/url]6. [url=https://www.nexusmods.com/skyrim/mods/64948/]MainMenu﻿[/url]\n<br />7. [url=https://www.nexusmods.com/skyrim/mods/87259/]SkyHUD[/url]\n<br />8. This File\n<br />9. [url=https://www.nexusmods.com/skyrim/mods/56744/]People Are Strangers[/url]﻿\n<br />10. [url=https://www.nexusmods.com/skyrim/mods/57920]Address Unknown[/url]\n<br />11. [url=https://www.nexusmods.com/skyrim/mods/31463]No empty tag on empty containers[/url]\n<br />12. [url=https://www.nexusmods.com/skyrim/mods/44115]No Psychic Lock Knowledge[/url]﻿\n<br />13. [url=https://www.nexusmods.com/skyrim/mods/7901]No Menu and Loading Smoke[/url]\n<br />\n<br />Bye",
+  "categoryId": "42",
+  "version": "1",
+  "author": "AlanPaul and Fhaarkas",
+  "createdUnix": "1530281600",
+  "updatedUnix": "1530281600",
+  "containsAdultContent": false,
+  "uploadedBy": "AlanPaul",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000276429",
+      "name": "No Diamond Symbol on HUD",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "414",
+      "fileName": "No Diamond Symbol on HUD-92229-1.7z",
+      "uploadedUnix": "1530281538",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/2c9332f975d9b2e91d0daf5cfaa512dd28d74d0ec45cea78783b66bec1c95d72/analysis/1530281813/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20Diamond%20Symbol%20on%20HUD-92229-1.7z?fid=1000276429&ttl=1535883160&ri=8192&rs=8192&setec=ddc7cb534b41ceac116047cd9304f8b6"
+    }
+  ]
+}

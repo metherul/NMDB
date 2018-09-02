@@ -1,0 +1,32 @@
+{
+  "modId": 69013.0,
+  "modName": "Skyrim Backup Manager",
+  "summary": "backup and restore your complete modlist and loadorder",
+  "descriptionHtml": "########## Overview ##########\r<br />\r<br />I like to play different characters with different playstyles. If I wanted to play an older character I had to search to the whole mod list and trying to find out which mods i used. Of course, i had to remove the current mods, install the needed ones, run loot... it took hours to switch from one character to another. This is why I decided to write a little tool that does the steps for me. \r<br />The simple AutoIt script executes the steps found on the following site: \r<br />http://wiki.tesnexus.com/index.php/Backing_up_your_mod_list_and_load_order \r<br />\r<br />\r<br />########## Features ##########\r<br />\r<br />- saves your ini files\r<br />- saves one matching savegame (You can choose the one)\r<br />- saves your mod configuration (those mods that are enabled and disabled)\r<br />- saves your whole data directory \r<br />- supports 7zip compression\r<br />- restores all at once so you can continue playing where you stopped\r<br />\r<br />After a restore NMM will know what mods are installed. You can uninstall mods like there was never another character between. \r<br />\r<br />\r<br />########## How to use ##########\r<br />\r<br />If you used v0.1 or 0.2 and want to use v0.3, please open setting and save again. \r<br />There is no setup. This is only one EXE. \r<br />Start the Skyrim Backup Manager and setup your environment first. Click on File -&gt; Options and fill in all fields, click save. You are now ready to backup your configuration. \r<br />Some parameters are filled in automatically if they are default. \r<br />These values are saved to the registry, you don&#39;t have to enter them everytime. \r<br />\r<br />Note: If you use 7zip compression it will take much longer to dump your files. For my test environment it took about an hour instead of 10 minutes. But the resulting backup is 15,8GB instead of uncompressed 23GB. \r<br />\r<br />\r<br />########## Additional Info ##########\r<br />\r<br />As I said this was an idea for my personal use but I decided to upload it on Nexus. Maybe there are some other people who might need it. \r<br />At the very moment this is just a working prototype. No pretty gui, no comfort funtions (yet), but it does what it&#39;s made for. If there are other people who like this tool I will keep it up2date. Just share your experience with it and tell me what&#39;s wrong. \r<br />Admin rights are required to run because of some registry values to save your configuration. \r<br />Please note: backup and restore speed depends on your hard disks. The more mods you have, the longer it will take. My 23GB test-save took about 7 minutes from one Western Digital Blue to another one. \r<br />Language might be a little bit squishy, I&#39;m from germany :)\r<br />\r<br />\r<br />########## Requirements ##########\r<br />- Skyrim, obviously \r<br />- 64 bit operating system \r<br />\r<br />\r<br />########## Known Issues ##########\r<br />\r<br />- you can see an area on the main windows - available backups - but this doesn&#39;t do anything yet. Restoring only works via button. There will all backups be listed, including a screenshot to identify\r<br />- there might be some antivirus software that give an alert by starting this tool. This is because it is programmed in AutoIt, some programms will block it\r<br />- The windows could behave weird if you click it to death. This is because the windows are not yet optimized (child windows, background blocking...) \r<br />- If you restore a backup that had mods installed that you removed in the meantime, NMM will have some notifications on first startup. This is nothing I can improve, this is NMM behavior.\r<br />- I&#39;m no programmer at all, all I can do is automated scripting from steps I usually do manually, so don&#39;t expect the next big thing out there\r<br />\r<br />\r<br />########## Important ##########\r<br />\r<br />Use it on your own risk&#33; Don&#39;t blame me if you lose your configuration&#33; Check the backup first before you restore another&#33; \r<br />\r<br />\r<br />########## Planned Features ##########\r<br />\r<br />- better looking interface\r<br />- optional exclude vanilla files for 7zip backup, will greatly improve backup time \r<br />- progress bars \r<br />- easier restoring with 1click \r<br />- stabilit improvements\r<br />- maybe port to C# or Java \r<br />- 32bit support\r<br />\r<br />\r<br />########## Credits ##########\r<br />\r<br />- Bethesda for Skyrim\r<br />- the developers of NMM\r<br />- the developers of AutoIt",
+  "categoryId": "39",
+  "version": "0.3",
+  "author": "Neurosis404",
+  "createdUnix": "1440358965",
+  "updatedUnix": "1440789493",
+  "containsAdultContent": false,
+  "uploadedBy": "Neurosis404",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000173710",
+      "name": "Skyrim Backup Manager",
+      "version": "0.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "483",
+      "fileName": "Skyrim Backup Manager-69013-0-4.zip",
+      "uploadedUnix": "1440789493",
+      "modVersion": "0.4",
+      "virusScanUrl": "https://www.virustotal.com/file/59e8b823ba3a96ece0547f6a4f5f649ed3b49603c06df110b4402fc8e800d008/analysis/1440789544/",
+      "changelogHtml": " Fixed the empty ini file issue <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Backup%20Manager-69013-0-4.zip?fid=1000173710&ttl=1535857346&ri=8192&rs=8192&setec=8274fb214ad35a39fcfafb472e45b1dd"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 51250.0,
+  "modName": "SMK - StatsMenuKeys - SkillMenuKeys",
+  "summary": "Allows you to navigate the skill tree menu with a secondary set of key bindings.",
+  "descriptionHtml": "[size=3][color=#ffc000]SMK - StatsMenuKeys - SkillMenuKeys:[/color][/size]\r<br />One of the smaller things in Skyrim that bugged me was the inability to navigate certain menus with the arrow keys. From the small amount of searching I did it sounds like the arrow keys did originally work but were broken in a later update (go figure). I couldn&#39;t find any mods or other ways to restore this functionality so I decided to give it a go myself.\r<br />\r<br />This mod just adds a second set of key bindings for when you are in the skill/perk tree menu which mimic your Forward, Back, Strafe Left, and Strafe Right keys.\r<br />\r<br />\r<br />[size=3][color=#ffc000]Please take note:[/color][/size]\r<br />This mod uses a script to achieve this functionality and my technical knowledge of Papyrus scripting is still quite limited. However, from what I understand currently, the script should be very light weight.\r<br />\r<br />I&#39;ve included the .psc file for anyone who wants to take a look/give me any feedback on it.\r<br />\r<br />\r<br />[size=3][color=#ffc000]Installing and Configuring SMK:[/color][/size]\r<br />\r<br />[color=#ffc000]This mod requires SKSE[/color]\r<br />\r<br />This is just you&#39;re standard mod install. A .esp and .pex file.\r<br />\r<br />The first time you load a save or new game, you&#39;ll get the notification &#34;StatsMenuKeys is now running&#34;\r<br />\r<br />Changing the key bindings for this mod is done through the console by changing global variables. The variables for this are:\r<br />\r<br />[b]SMKup\r<br />SMKdown\r<br />SMKleft\r<br />SMKright[/b]\r<br />\r<br />The key bindings are stored as DXScanCode decimal values. You can find the list on the Creation Kit wiki [url=http://www.creationkit.com/Input_Script#DXScanCodes]here[/url].\r<br />\r<br />\r<br />[size=3][color=#ffc000]Uninstalling/Updating SMK:[/color][/size]\r<br />To safely uninstall SMK for removal or updating you need to set the global variable [b]SMKuninstall[/b] to 1, open the skill/perk tree menu, then close it. You will get the notification &#34;StatsMenuKeys can now be uninstalled&#34;\r<br />\r<br />Save your game, uninstall the mod, reload your save, and save again. You can now continue playing without the mod or go and install an update to it if there is one.\r<br />\r<br />\r<br />[size=3][color=#ffc000]Credits:[/color][/size]\r<br />SKSE team for SKSE&#39;s functions and events",
+  "categoryId": "42",
+  "version": "1.0",
+  "author": "radax",
+  "createdUnix": "1392720217",
+  "updatedUnix": "1392720128",
+  "containsAdultContent": false,
+  "uploadedBy": "radax",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000097638",
+      "name": "StatsMenuKeys v1_0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "StatsMenuKeys v1_0-51250-1-0.zip",
+      "uploadedUnix": "1392720128",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/409df6628eb4e0cb5a20b67824d514f120c078696ab961c1b9a5c85dedb45c1f/analysis/1407938965/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/StatsMenuKeys%20v1_0-51250-1-0.zip?fid=1000097638&ttl=1535833481&ri=8192&rs=8192&setec=3d713b9a177b1ae028bccd531db1d43a"
+    }
+  ]
+}

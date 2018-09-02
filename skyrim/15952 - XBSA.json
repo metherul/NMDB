@@ -1,0 +1,48 @@
+{
+  "modId": 15952.0,
+  "modName": "XBSA",
+  "summary": "A simple, command line BSA extractor",
+  "descriptionHtml": "XBSA is a fast and nasty cut down of the BSA extractor in FOMM by kaburke and timeslip. FOMM is licenced under the GPL, and used here on that basis.\r\n\r\nXBSA is a command line utility. It\\'s intended to be of use in other mod tools rather\r\nthan for use directly by players.\r\n\r\nYou invoke the program like this:\r\n\r\n        xbsa Archive.bsa path\\\\to\\\\file1.hkx output_file_name.hkx\r\n\r\nThere is also a list mode:\r\n\r\n        xbsa -l Archive.bsa [pattern]\r\n\r\nThe pattern is optional and can be a regular expression or a simple string\r\n\r\nThis version is only intended to work on Skyrim BSAs. If you use it on earlier versions of the archive, it will not work correctly.\r\n\r\nXBSA is written in Boo, an open source .Net language from boo.codehaus.org. \r\n\r\nFOMM is licenced under the GPL, and therefore so is this. Source code is included.\r\n\r\nV1.1:\r\n\r\n* Added list mode.\r\n* Changed invocation to specify output filename\r\n* Hopefully fixed reported crashes. ",
+  "categoryId": "39",
+  "version": "1.1",
+  "author": "DocClox",
+  "createdUnix": "1335474643",
+  "updatedUnix": "1336129439",
+  "containsAdultContent": false,
+  "uploadedBy": "DocClox",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "58562",
+      "name": "XBSA",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "133",
+      "fileName": "XBSA-15952-1-2.zip",
+      "uploadedUnix": "1336129389",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/cd4b72360a4c9ff9b3f810064333aa362ef1c02281f9f648614aa76cc1c21159/analysis/1406865244/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/XBSA-15952-1-2.zip?fid=58562&ttl=1535780789&ri=8192&rs=8192&setec=c00e2a94a6260da14ce3b6aa75fe5bd8"
+    },
+    {
+      "fileId": "58563",
+      "name": "XBSA With Source Files",
+      "version": "1.2",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "140",
+      "fileName": "XBSA With Source Files-15952-1-2.zip",
+      "uploadedUnix": "1336129439",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/22e77bb7c1e07adf8a0ff7e371bd47cefb6c772503950b3e9a9d998f5d905a14/analysis/1406865246/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/XBSA%20With%20Source%20Files-15952-1-2.zip?fid=58563&ttl=1535780789&ri=8192&rs=8192&setec=9d2b12a4f34bd0b368468e76a6eb58b2"
+    }
+  ]
+}

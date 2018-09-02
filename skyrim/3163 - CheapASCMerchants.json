@@ -1,0 +1,32 @@
+{
+  "modId": 3163.0,
+  "modName": "CheapASCMerchants",
+  "summary": "Reduces the amount of gold most merchants have to 10-20% of vanilla.",
+  "descriptionHtml": "CheapASCMerchants\r\nv1.0\r\n\r\nCheap Average Sale Character Merchants\r\nBy SteamNexus\r\n\r\nPerhaps like me your enthusiasm has waned a bit by discovering that maybe you spend much more game time collecting loot and adjusting your inventory in order to best leverage cashing in on your mayhem.   Load up to weight limit, run to the merchant, sell sell sell, then back to the caves, loot, loot, loot run to the merchant rinse repeat UNFUN  An how is it that these merchants are somehow so willing and currency flush to buy all YOUR high quality crap?\r\n\r\nWith CheapASCMerchants installed, merchants have only about 10-20% of their normal currency; although as eager as ever to buy your premier scavenged  rubbish, they will not have the profuse amount of funds to do so.  No more getting rich in a few days of looting and selling.  In play testing where in a certain town under vanilla the blacksmith has 1000g as with another 1000g available from the guy inside the shop.  Thats 2000g.  In 10 days of game play and extreme looting , thats 10,000g assuming the respawn occurs every two days, 6000g if every three.\r\n\r\nIt is now 200g from the blacksmith and 200g inside.  Between them that is 400 gold.  Hence, you will still have some gold available from the sellers for some of your stuff, but it will not be the  load-up the dump truck and empty it on the merchants counter for CASH \r\n\r\nInstall \r\nPlace in data folder\r\nactivate using some sort of mod activation program\r\nI used Mod Organizer v0.7 beta to activate mine and run the game from there\r\nIn about 2-3 days, when inventories respawn, changes should be seen.\r\nUPDATED information to users of this mod\r\nI noticed that if I load a cold game save, that is straight up from the desktop, the merchant gold resets to where it was before you sold them anything.  To avoid this, reload the same game from inside the game and the merchant remaining gold amount will reflect your recent sale.\r\n\r\nUninstall\r\nUncheck using your mod organizer\r\n\r\ncredits\r\nWith THANKS from Rich Merchants by WheresMyPocket\r\nWithout that contribution, I could not have located the files to change\r\n\r\n------------------------\r\nYour own merchant adjustments\r\nUse TESNIP\r\n\r\nRun FOMM from your Fallout 3 install (there is an FOMM Skyrim hack out there, you can try that)\r\ntools > tesnip navigate to CheapASCMerchants\r\nIt opens with a + next to it\r\nClick on the  + to make it - \r\nthen GROUP(LVLI) + to - then select a vendor to edit\r\nFor example LVLI (VendorGoldBlacksmithTown)then in the window directly below, locate LVLO\r\ndoubleClick on LVLO\r\nanother window opens: Editing LVLO hex mode\r\nYou will see a string like this\r\n\r\n01 00 00 00 0F 00 00 00 32 00 00 00     notice the 32 00 This is what it is for CheapASCMerchants  (50)\r\n\r\n01 00 00 00 0F 00 00 00 f4 01 00 00     notice the f4 01 This is what is for Vanilla (500)\r\n\r\n01 00 00 00 0F 00 00 00 10 27 00 00     notice the 10 27 this is what it was for one of the Rich Merchant modules (10000)\r\n\r\nusing a base converter that changes Intel byte order to to data type to unsigned short you can calculate to make your merchants be as rich or cheapASC as you want.  I used HEXWORKS and its base converter tool; I do not know if it is available in the form I have, mine is circa 1995 but it works under XP and is useful for this type of work.",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "SteamNexus",
+  "createdUnix": "1323461962",
+  "updatedUnix": "1323462073",
+  "containsAdultContent": false,
+  "uploadedBy": "SteamNexus",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "8636",
+      "name": "CheapASCMerchants",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "CheapASCMerchants-3163-1-0.zip",
+      "uploadedUnix": "1323462073",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9b6009f55f9d57a63320bc6a19dadeb95d5c8a9be371c2dd3456d5b46b902b01/analysis/1406498472/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CheapASCMerchants-3163-1-0.zip?fid=8636&ttl=1535757995&ri=8192&rs=8192&setec=cd1b33d6e99f002009899918d972cac8"
+    }
+  ]
+}

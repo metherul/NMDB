@@ -1,0 +1,48 @@
+{
+  "modId": 39422.0,
+  "modName": "Arvak anywhere",
+  "summary": "Extends the Summon Arvak spell to work anywhere in Tamriel",
+  "descriptionHtml": "The Summon Arvak spell modified to remove restrictions on where it may be cast.  Arvak may now be summoned almost anywhere (even indoors) which should allow him to appear in places such as the streets Whiterun, Windhelm, Riften, Markarth and Solitude as well as custom locations such as Wyrmstooth and Falskaar \r<br />\r<br />This works alongside the Unofficial Dawnguard Patch 1.2.4 which has an update to allow summoning of Arvak while in the Forgotten Vale.\r<br />\r<br />V1.0 (Arvak in Falskaar)\r<br />For those enjoying Falskaar by Alexander J. Velicky ([url=http://skyrim.nexusmods.com/mods/37994]http://skyrim.nexusmods.com/mods/37994[/url]) but are missing the ability to Summon Arvak, this simply confirms that Falskaar is part of Tamriel for Arvak.  This was put together before the update which Alexander which resolved the same issue.  The Summon Arvak spell introduced in Dawnguard has a test to ensure that the summoning only occurs in places considered rideable, this revision adds the Falskaar worldspace to the FormID list called RideableWorldSpaces and hence allows you to Summon Arvak in Falskaar.\r<br />This works alongside the Unofficial Dawnguard Patch 1.2.4 which has an update to allow summoning of Arvak while in the Forgotten Vale.\r<br />\r<br />V2.0 (Arvak anywhere)\r<br />This has all restrictions in the Summon Arvak spell removed allowing it to be cast anywhere at all.\r<br />\r<br />This should also now work with mods such as: \r<br />\r<br />- Wyrmstooth by Jonx0r ([url=http://skyrim.nexusmods.com/mods/25704]http://skyrim.nexusmods.com/mods/25704[/url])\r<br />- Shroud of Jotunheim by Svabbarjack ([url=http://skyrim.nexusmods.com/mods/32120]http://skyrim.nexusmods.com/mods/32120[/url]) \r<br />- Moonpath to Elsweyr by muppetpuppet ([url=http://skyrim.nexusmods.com/mods/9782]http://skyrim.nexusmods.com/mods/9782[/url])\r<br />- Falskaar by Alexander J. Velicky ([url=http://skyrim.nexusmods.com/mods/37994]http://skyrim.nexusmods.com/mods/37994[/url])\r<br />- plus others\r<br />\r<br />Credits\r<br />====== \r<br /> Bethesda for creating Skyrim (and Dawnguard).\r<br /> Alexander J. Velicky for Falskaar.\r<br /> Jonx0r for Wyrmstooth \r<br /> muppetpuppet for New Elsweyr \r<br /> Svabbarjack for Jotunheim ",
+  "categoryId": "83",
+  "version": "2.0",
+  "author": "USkarsol",
+  "createdUnix": "1375422480",
+  "updatedUnix": "1411382265",
+  "containsAdultContent": false,
+  "uploadedBy": "uskarsol",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000043424",
+      "name": "Arvak in Falskaar",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Arvak in Falskaar rev 1-39422-1-0.7z",
+      "uploadedUnix": "1375419694",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d354782348812cfd3018e1bca9f0ff0c0bf77fb97442d0edbe1ca91f644f315d/analysis/1407666144/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Arvak%20in%20Falskaar%20rev%201-39422-1-0.7z?fid=1000043424&ttl=1535819854&ri=8192&rs=8192&setec=cf73d0d447190c4ff5ae6b28fb57e432"
+    },
+    {
+      "fileId": "1000128001",
+      "name": "Arvak anywhere",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Arvak anywhere-39422-2-0.7z",
+      "uploadedUnix": "1411382265",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9f1570982f10c303105315deb68abf11e7a515fb4050f7fd9339abbf8b5e3efd/analysis/1411382342/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Arvak%20anywhere-39422-2-0.7z?fid=1000128001&ttl=1535819854&ri=8192&rs=8192&setec=16d4a4c09afba97539dd8d2670e0e626"
+    }
+  ]
+}

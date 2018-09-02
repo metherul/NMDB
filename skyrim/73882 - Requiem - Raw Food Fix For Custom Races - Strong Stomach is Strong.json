@@ -1,0 +1,32 @@
+{
+  "modId": 73882.0,
+  "modName": "Requiem - Raw Food Fix For Custom Races - Strong Stomach is Strong",
+  "summary": "In Requiem mod, custom beast races are affected by raw food just as bad as non-beast races, while vanilla beast races were OK with raw food, this fix removes this issue&#33;",
+  "descriptionHtml": "[b]TL;DR[/b]\r<br />Just like vanilla beast races, after installation of this fix, custom beast races in Requiem won&#39;t receive negative effects of raw food any longer (assuming you use a proper Requiem custom race patch).\r<br />\r<br />[b]Longer, but read anyway:[/b]\r<br />When you add your custom beast race to Requiem and even use a proper race patch, you still cannot eat raw food without losing stamina. That happens due to the way Requiem is coded, but thanksfully the issue wasn&#39;t too difficult to fix.\r<br />Now the req_strongstomach keyword, which is recommended to use in custom beast race patches but never helped with the issue, is finally working with my fix&#33;\r<br />\r<br />The description of raw food is now changed to reflect the change this fix implements - from now on, the descritpion doesn&#39;t only mention Orcs, Argonians, Khajiit and Woodelves as in vanilla Requiem, but &#34;anyone whose race is known for strong stomach&#34; as well&#33;\r<br />\r<br />I tested the fix with both Lykaios (new custom race) and the vanilla Nord race. The three tested foods: potato, venison and bestial stew are now having proper effect on the respective races.\r<br />\r<br />[b]Requirements:[/b]\r<br />Link to custom race patches for Requiem (required for obvious reasons):\r<br />[url=http://www.nexusmods.com/skyrim/mods/58145/?]http://www.nexusmods.com/skyrim/mods/58145/?[/url]\r<br />\r<br />Link to Requiem (required for even more obvious reasons):\r<br />[url=http://www.nexusmods.com/skyrim/mods/19281/?]http://www.nexusmods.com/skyrim/mods/19281/?[/url]\r<br />\r<br />[b]Installation:[/b]\r<br />This is a simple .esp file, put it into your &#34;data&#34; folder.\r<br />Put this plugin [b]after [/b]Requiem in your loading order&#33;",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Cossack-HD",
+  "createdUnix": "1456679258",
+  "updatedUnix": "1456678924",
+  "containsAdultContent": false,
+  "uploadedBy": "KazakHD",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000197547",
+      "name": "Requiem - Strong Stomach Fix for custom races",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Requiem - Strong Stomach Fix for custom races-73882-1-0.zip",
+      "uploadedUnix": "1456678924",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1772dcd86fcb408ad7604bae9b85f3833d58c87c34c0a7362068694d57586842/analysis/1456678983/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem%20-%20Strong%20Stomach%20Fix%20for%20custom%20races-73882-1-0.zip?fid=1000197547&ttl=1535862632&ri=8192&rs=8192&setec=0d3f28fe9f1c58fad4d59dee094a6089"
+    }
+  ]
+}

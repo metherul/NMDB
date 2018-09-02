@@ -1,0 +1,32 @@
+{
+  "modId": 21397.0,
+  "modName": "Behavior file updater",
+  "summary": "An easy tool for adding new animations to Skyrim. It modifies the ..\\\\Data\\\\meshes\\\\actors\\\\character\\\\behaviors\\\\mt_behavior.hkx file. This is a a modders\\' resource.",
+  "descriptionHtml": "An easy tool for adding new animations to Skyrim (a modders\\' resource).\r\n\r\n\r\n___USAGE___\r\n\r\n0) Your Skyrim \\\"..\\\\Data\\\\meshes\\\\actors\\\\character\\\\behaviors\\\" folder must contain an \\\"mt_behavior.hkx\\\" file.\r\nYour Skyrim \\\"..\\\\Data\\\\meshes\\\\actors\\\\character\\\\characters\\\" folder must contain an \\\"defaultmale.hkx\\\" file.\r\nYour Skyrim \\\"..\\\\Data\\\\meshes\\\\actors\\\\character\\\\characters female\\\" folder must contain an \\\"defaultfemale.hkx\\\" file.\r\n\r\n1) Place these files into your Skyrim ..\\\\Data\\\\meshes\\\\actors\\\\character folder:\r\n\r\n\thkxcmd.exe\t\t\t(.hkx files archiver)\r\n\tSkyrimBehaviorFileUpdater.exe\t(behavior patcher)\r\n\tanimations2add.txt\t\t(list of new animations to add)\r\n\r\n2) Modify animations2add.txt - it contains a description of your animations. Each line describes a single animation event in the following format:\r\n\r\n\tAnimationEvent;FileName;Mode\r\n\r\n\tExample:\r\n\t\taaYourCoolAnimation;Animations\\\\YourCoolAnimations\\\\aaCoolAnimation01.hkx;MODE_LOOPING\r\n\r\n\tAvailable modes: MODE_LOOPING | MODE_SINGLE_PLAY\r\n\r\n3) Place your new animations into a folder under ..\\\\Data\\\\meshes\\\\actors\\\\character\\\\Animations\\\\\r\n\r\n\tExample:\r\n\t\t..\\\\Data\\\\meshes\\\\actors\\\\character\\\\Animations\\\\YourCoolAnimations\\\\aaCoolAnimation01.hkx\r\n\t\t..\\\\Data\\\\meshes\\\\actors\\\\character\\\\Animations\\\\YourCoolAnimations\\\\aaCoolAnimation02.hkx\r\n\r\n4) Run SkyrimBehaviorFileUpdater.exe\r\n\r\n\r\n___WHAT YOU GET___\r\n\r\nNew animation events for use in Creation Kit.\r\n\r\nTo avoid conflicts with other mods, please, invent very special names for your animation events.\r\nIf this utility detects that an animation event with a specified name already exists it outputs a warning in RED LETTERS and skips to processing the next animation from your animations2add.txt list.\r\n\r\nIn order to use your newly added animations in Creation Kit:\r\n\t- Add some Actor Actions\r\n\t- Open Gameplay\\\\Animations menu\r\n\t- Add child node(s) to the \\\\Character\\\\Animations\\\\... branch (if your animations are for peolple) using the Actor Action(s) you\\'ve just created\r\n\t- Specify animation ID(s) and select the Animation Event(s) which you have added with this utility.\r\n\t- You can run your new animations with <NPC character>.PlayIdle(<animationID>)\r\n\r\n\r\n___WHAT THIS TOOL ACTUALLY DOES___\r\n\r\nIt modifies the ..\\\\Data\\\\meshes\\\\actors\\\\character\\\\behaviors\\\\mt_behavior.hkx file.\r\nThe previous mt_behavior.hkx is saved with the name ..\\\\Data\\\\meshes\\\\actors\\\\character\\\\behaviors\\\\mt_behavior.hkx.original - just in case.\r\n\r\nNew animations\\' XML wirings are added at the end of the list of existing behaviors.\r\nThey are placed under NonOffsetIdlesBehavior StateMachine.\r\nNew animations\\'s IDs and eventIDs do not conflict with existing behaviors in any way.\r\n\r\nIt modifies the ..\\\\Data\\\\meshes\\\\actors\\\\character\\\\characters\\\\defaultmale.hkx file.\r\nThe previous defaultmale.hkx is saved with the name ..\\\\Data\\\\meshes\\\\actors\\\\character\\\\characters\\\\defaultmale.hkx.original - just in case.\r\n\r\nNew animations are appended to the end of the list of animations.\r\n\r\nIt modifies the ..\\\\Data\\\\meshes\\\\actors\\\\character\\\\characters female\\\\defaultfemale.hkx file.\r\nThe previous defaultfemale.hkx is saved with the name ..\\\\Data\\\\meshes\\\\actors\\\\character\\\\characters female\\\\defaulfetmale.hkx.original - just in case.\r\n\r\nNew animations are appended to the end of the list of animations.\r\n\r\nYou can run this tool multiple times for different sets of new animations. The order of patching is irrelevant.\r\n\r\n\r\n___WHAT THIS UTILITY CANNOT DO___\r\n\r\nNo animation sequences support yet. You cannot specify which animation should play after a given one has finished. You cannot make AnimationEnter - AnimationIdle - AnimationExit chains.\r\nMaybe I\\'ll get to adding this feature later.\r\n\r\n\r\n___VERSION HISTORY___\r\n\r\nv1.1\r\n\r\n..\\\\characters\\\\defaultmale.hkx and ..\\\\characters female\\\\defaultfemale.hkx are also updated: new animations are appended to the end of the list",
+  "categoryId": "82",
+  "version": "v1.1",
+  "author": "igli",
+  "createdUnix": "1343710304",
+  "updatedUnix": "1343801651",
+  "containsAdultContent": false,
+  "uploadedBy": "igli",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "78007",
+      "name": "SkyrimBehaviorFileUpdaterV1_1",
+      "version": "v1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1874",
+      "fileName": "SkyrimBehaviorFileUpdaterV1_1-21397-v1-1.7z",
+      "uploadedUnix": "1343801651",
+      "modVersion": "v1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/615e4ea2e60052feb4c5b6f28688ca026a2b44b26d9443b7385b695b6122540e/analysis/1407061385/",
+      "changelogHtml": " ..\\\\characters\\\\defaultmale.hkx and ..\\\\characters female\\\\defaultfemale.hkx are also updated: new animations are appended to the end of the list <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimBehaviorFileUpdaterV1_1-21397-v1-1.7z?fid=78007&ttl=1535790267&ri=8192&rs=8192&setec=3d2d219aed8cceb4394d2086d58d5d4d"
+    }
+  ]
+}

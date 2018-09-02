@@ -1,0 +1,32 @@
+{
+  "modId": 51247.0,
+  "modName": "Crime Bounty Decay",
+  "summary": "Provides for a reduction over time of your criminal bounty in a hold, as long as you stay away from the area where you&#39;re wanted.",
+  "descriptionHtml": "Skyrim&#39;s crime system seemed like something of a wasted potential.  It&#39;s got the whole Dukes of Hazzard, &#34;get across county lines&#34; thing going, where your crimes in one hold have no weight in another...except that the guards never forget about that time you hung around in the apothecary&#39;s too long after closing time, so you eventually have to pay your fines off anyway, or else deal with the guards saying &#34;Wait...I know you&#34; every time you pass by.\r<br />\r<br />Well, no more.  Now, your crimes will slowly be forgotten when you spend time in other holds, reducing the bounty that you have to pay to be redeemed before the eyes of gods and man and mer, and eventually leaving you entirely in the clear.  Every night, at midnight, (or at the nearest time afterward that the script has the chance to evaluate), your bounty will decrease in every hold, as long as you&#39;re not actually in the main settlement of that hold at the time.\r<br />\r<br />By default, this reduction consists of 10% of your current bounty, followed by a flat reduction of 5 gold pieces.  This means that a pickpocket attempt will be forgotten entirely after four days, and cold-blooded murder will take about 30.  Both parameters are configurable with MCM, and if you&#39;re clever, you can probably figure out your own ideal settings to make crimes both great and small remain in the minds of the lawful authorities for as long as you think to be appropriate.\r<br />\r<br />You can also toggle on a setting that makes it so that your bounty should only decrease if you&#39;re out of the hold completely, rather than just away from the major city.  It doesn&#39;t seem totally reliable, though - the wilderness of a given hold often doesn&#39;t appear to be recognized as such.\r<br />\r<br />It should also be compatible with any other mod that changes, for example, exactly how much bounty you get for committing various acts of mayhem.\r<br />\r<br />Since it uses MCM, you need SkyUI.  But shouldn&#39;t you have that anyway, really?  Anyway, I think that&#39;s everything important.  Tried it out.  Seems to work.  Hopefully I haven&#39;t messed anything up as far as distribution goes.",
+  "categoryId": "24",
+  "version": "1.01",
+  "author": "cyberspyder",
+  "createdUnix": "1392715698",
+  "updatedUnix": "1395459214",
+  "containsAdultContent": false,
+  "uploadedBy": "CyberSpyder",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000101993",
+      "name": "CrimeDecay",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "CrimeDecay-51247-1-01.rar",
+      "uploadedUnix": "1395459214",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/ecc39f78be5b44d74544d7b3f74e98ba5f8293f93ad4d850a583442ff5c2135f/analysis/1407990607/",
+      "changelogHtml": " Switched to game time updates.  Slightly more cycle-efficient.  Hooray. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CrimeDecay-51247-1-01.rar?fid=1000101993&ttl=1535833477&ri=8192&rs=8192&setec=4bdf6e8ee5d2dda03ec3cbf792657d6c"
+    }
+  ]
+}

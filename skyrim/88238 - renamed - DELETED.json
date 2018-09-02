@@ -1,0 +1,32 @@
+{
+  "modId": 88238.0,
+  "modName": "renamed - DELETED",
+  "summary": "This mod provides .sst and .xml files for translating to japanese.<br />Another expressions for enchanted items, potions, poisons, etc.",
+  "descriptionHtml": "This mod is for japanese only.\n<br />\n<br />[color=#00ffff][b]Required: [/b][/color]\n<br />    [url=https://www.nexusmods.com/skyrimspecialedition/mods/134]xTranslator[/url] or  [url=https://www.nexusmods.com/skyrim/mods/29148]tesvTranslator[/url]\n<br />\n<br />[b][color=#00ff00]Recommended:[/color][/b]\n<br />    [url=https://www.nexusmods.com/skyrim/mods/85138]Improvement Names Customized - SKSE[/url]\n<br />\n<br />\n<br />本MODは、Skyrimの日本語表現を変換する為の翻訳ファイル群です。\n<br />\n<br />翻訳ファイルは.sstファイルまたは.xmlファイルとなっており、\n<br />これらの変換には[url=https://www.nexusmods.com/skyrimspecialedition/mods/134]xTranslator[/url]﻿または[url=https://www.nexusmods.com/skyrim/mods/29148]tesvTranslator[/url]﻿が必要です。\n<br />\n<br />日本語STRINGSファイルを変換する場合は.sstファイルを使用して下さい。\n<br />英語esp/esmファイルを翻訳する場合はXMLファイルを使用して下さい。\n<br />\n<br />以下の変換をサポートしています。お好みの変換だけを適用して下さい。\n<br />好きな単語を変えたい場合は[url=https://www.nexusmods.com/skyrimspecialedition/mods/134]xTranslator[/url]﻿の機能で文字列置換して下さい。\n<br />\n<br />[size=4]1. Enchanted Items[/size]\n<br />様々な付呪の強度表現を2種類の数値表現に変換します。\n<br />武器や鎧は、(xxx Lv1)～(xxx Lv6)といったレベル表現に、\n<br />服や宝飾品は、-1～+4といった数値表現に変換され、\n<br />様々な単語の使用で意味のわからなかった効果名を統一します。\n<br />日本語→日本語用の.sstファイルと.xmlファイルの提供と、\n<br />英語→日本語用の.xmlファイルのみの提供になります。\n<br />XMLは1ファイルの全てのDLCに対応しています。\n<br />    （日本語→日本語用）\n<br />    ENCH/skyrim_AltExpr_ENCH_v100_japanese.sst\n<br />    ENCH/Update_AltExpr_ENCH_v100_japanese.sst\n<br />    ENCH/dragonborn_AltExpr_ENCH_v100_japanese.sst\n<br />    ENCH/dawnguard_AltExpr_ENCH_v100_japanese.sst\n<br />    ENCH/AltExpr_SKDBDG_ENCH_v100_japanese_japanese.xml\n<br />    （英語→日本語用）\n<br />    ENCH/AltExpr_SKDBDG_ENCH_v100_english_japanese.xml\n<br />\n<br />[size=4]2. Potions and Poisons[/size]\n<br />薬や毒の極限や究極などの強度表現を-1～+4の数値表現に変換します。\n<br />日本語→日本語用の.sstファイルと.xmlファイルの提供と、\n<br />英語→日本語用の.xmlファイルのみの提供になります。\n<br />XMLは1ファイルの全てのDLCに対応しています。\n<br />    （日本語→日本語用）\n<br />    ALCH/skyrim_AltExpr_ALCH_v100_japanese.sst\n<br />    ALCH/dragonborn_AltExpr_ALCH_v100_japanese.sst\n<br />    ALCH/AltExpr_SKDB_ALCH_v100_japanese_japanese.xml\n<br />    （英語→日本語用）\n<br />    ALCH/AltExpr_SKDB_ALCH_v100_english_japanese.xml\n<br />\n<br />[size=4]3. Smithing[/size]\n<br />※「Improvement Names Customized - SKSE」の方がお奨めです。\n<br />鍛冶強化の強度表現を+1～+6の数値表現に変換します。\n<br />日本語→日本語用の.sstファイルと.xmlファイルの提供と、\n<br />英語→日本語用の.xmlファイルのみの提供になります。\n<br />    （日本語→日本語用）\n<br />    Smithing/skyrim_AltExpr_Smithing_v100_japanese.sst\n<br />    Smithing/AltExpr_SK_Smithing_v100_japanese_japanese.xml\n<br />    （英語→日本語用）\n<br />    Smithing/AltExpr_SK_Smithing_v100_english_japanese.xml\n<br />\n<br />[size=4]4. Gold to Septim[/size]\n<br />貨幣オーバーホールMODなどで硬貨が銅貨になっている場合などの為に、\n<br />貨幣単位をゴールドではなくセプティムに変換します。\n<br />日本語→日本語用の.sstファイルのみの提供になります。\n<br />    （日本語→日本語用）\n<br />    Gold2Septim/skyrim_AltExpr_Gold2Septim_v100_japanese.sst\n<br />    Gold2Septim/Update_AltExpr_Gold2Septim_v100_japanese.sst\n<br />    Gold2Septim/dawnguard_AltExpr_Gold2Septim_v100_japanese.sst\n<br />    Gold2Septim/hearthfires_AltExpr_Gold2Septim_v100_japanese.sst\n<br />    Gold2Septim/dragonborn_AltExpr_Gold2Septim_v100_japanese.sst\n<br />\n<br />[size=4]5. No Prince[/size]\n<br />デイドラの王子やデイドラの王女といった表現をデイドラロードに変換します。\n<br />日本語→日本語用の.sstファイルのみの提供になります。\n<br />    （日本語→日本語用）\n<br />    NoPrince/skyrim_AltExpr_NotPrince_v100_japanese.sst\n<br />    NoPrince/Update_AltExpr_NotPrince_v100_japanese.sst\n<br />    NoPrince/dawnguard_AltExpr_NotPrince_v100_japanese.sst\n<br />    NoPrince/dragonborn_AltExpr_NotPrince_v100_japanese.sst",
+  "categoryId": "42",
+  "version": "1.0.0",
+  "author": "Nicholas",
+  "createdUnix": "1512425021",
+  "updatedUnix": "1512425021",
+  "containsAdultContent": false,
+  "uploadedBy": "nicholas888",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000261219",
+      "name": "Another Expressions for Japanese",
+      "version": "1.0.0",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "326",
+      "fileName": "AltExprJP_v100.zip-88238-1-0-0.zip",
+      "uploadedUnix": "1512424190",
+      "modVersion": "1.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c5b0a13b07ef673981294f09e5ed73fed10f6eff1f4e0b869f39a36eda9fd544/analysis/1512424206/",
+      "changelogHtml": " First Release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AltExprJP_v100.zip-88238-1-0-0.zip?fid=1000261219&ttl=1535877362&ri=8192&rs=8192&setec=a17d6d4bd9476a0db952fa5ed99cb31f"
+    }
+  ]
+}

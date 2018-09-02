@@ -1,0 +1,48 @@
+{
+  "modId": 4369.0,
+  "modName": "Throw Voice Audio fix",
+  "summary": "The humorous throw voice shout does NOT seem to work with certain races, Heres a fix",
+  "descriptionHtml": "In the English version, Throw voice shout, unlocked at Shearpoint will not work with \r\nMale Argonians\r\nFemale Argonians\r\nMale Dark Elfs\r\nFemale Dark Elfs\r\nFemale Khajiits\r\nFemale Orcs\r\nNEW: Female Woodelf\r\n\r\nYou will simply hear your character shout, but no audio will come out for the comments that the shouts make such as\r\n\\\"Hey Cheese Brain!\\\" and \\\"Hey Skeever Butt!\\\"\r\n\r\nHere is a fix, simply extract it to your\r\n\\\\Data\\\\sound\\\\voice\\\\skyrim.esm folder\r\n*IF you do not have the folders, make them as you go!\r\n\r\nIt covers all of the above races, Please request any other races that may not work.\r\n\r\n",
+  "categoryId": "95",
+  "version": "1.1",
+  "author": "Desorath25",
+  "createdUnix": "1324593479",
+  "updatedUnix": "1324680299",
+  "containsAdultContent": false,
+  "uploadedBy": "desorath",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "13008",
+      "name": "Voice Fix-old",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "580",
+      "fileName": "Voice Fix-old-4369.zip",
+      "uploadedUnix": "1324593618",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/501b50142c396a35553425cea1f79fb279d029b9fab4868620311d52ab6fa6ab/analysis/1406548326/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Voice%20Fix-old-4369.zip?fid=13008&ttl=1535760097&ri=8192&rs=8192&setec=cf17392f22bf044f1108ef9b9428b49f"
+    },
+    {
+      "fileId": "13340",
+      "name": "Throw Voice fix",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "679",
+      "fileName": "Throw Voice fix-4369.zip",
+      "uploadedUnix": "1324680299",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/1ea11fb092c79333878a9172b55db4a425bf69a315003dc65a59f87fff6be006/analysis/1406552705/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Throw%20Voice%20fix-4369.zip?fid=13340&ttl=1535760097&ri=8192&rs=8192&setec=0e5ecf73d77fcb290d2f35db9b15e7d6"
+    }
+  ]
+}

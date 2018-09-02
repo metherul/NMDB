@@ -1,0 +1,48 @@
+{
+  "modId": 7740.0,
+  "modName": "Deflect Arrows Perk Fix",
+  "summary": "A quick work around for bugged vanilla Deflect Arrows perk.  Now with this mod installed you no longer take damage from blocked arrows, without maxing \r\nout damaged blocked with but a single perk.",
+  "descriptionHtml": "Deflect Arrows Perk Fix v1.01\r\nby JeffSteel\r\n\r\n(NOTICE: As of Skyrim 1.5, released 3/20/2012, Bethesda has properly fixed the Deflect Arrows perk to my satisfaction, therefore this mod will no longer be supported.  I recommend users deactivate this mod to save on mod space, as it is no longer necessary.)\r\n\r\nA quick work around for bugged vanilla Deflect Arrows perk.  Currently it not only wont block all damage from blocked arrows, but also maxes out your block rating against all physical damage types (such as knives, and stabbing weapons).  Now with this mod installed you no longer take damage from blocked arrows, without maxing out damaged blocked with but a single perk.\r\n\r\nInstall using Nexus Mod Manager, or manually by extracting the Deflect Arrows Perk Fix.esp from this archive and copying/moving it into your Skyrim Data directory.\r\n(filepath is usually something like C:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data \r\nfor default installations).\r\n\r\nNotes:\r\nYou will take no damage (to health or fatigue) from arrows regardless of whether or not the arrows actually hit the shield, so even over nine thousand arrows to the knee wont force you into retirement as an NPC town guard.\r\n\r\nChange Log:\r\nv1.0 - Initial implementation\r\n\tRemoved armor modification effect and replaced it with a Mod Incoming Damage Effect similar to the top light armor perk, in addition to a condition to check if the attacker is \\\"wearing\\\" a bow.\r\nv1.01\r\n\tReplaced attacker condition wornhaskeyword \\\"weaptypebow\\\" with attacker weapon condition haskeyword \\\"weaptypebow.\\\"  Functionally indentical but probably makes more sense. Recreated using the Creation Kit.  Repackaged file.",
+  "categoryId": "95",
+  "version": "1.01",
+  "author": "JeffSteel",
+  "createdUnix": "1328335735",
+  "updatedUnix": "1328649236",
+  "containsAdultContent": false,
+  "uploadedBy": "JeffSteel",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "25726",
+      "name": "Deflect Arrows Perk Fix",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Deflect Arrows Perk Fix-7740.7z",
+      "uploadedUnix": "1328335803",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/17125c23c86fcd63c32d2b3516d3e81429b498621db124d191fbf71d61dd3885/analysis/1406652700/",
+      "changelogHtml": " Initial Implementation <br/> \n Replaced damage blocked modifiyer with a mod incoming damage modifier <br/> \n Added a condition that the attacker is \\\"wearing\\\" a bow. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Deflect%20Arrows%20Perk%20Fix-7740.7z?fid=25726&ttl=1535765998&ri=8192&rs=8192&setec=9ed51918d00b9d8746b950a4327a2077"
+    },
+    {
+      "fileId": "26729",
+      "name": "Deflect Arrows Perk Fix v101",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Deflect Arrows Perk Fix v101-7740-1-01.7z",
+      "uploadedUnix": "1328649236",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/93a7b5184922c3c59a7343e65d50ca532c7bf92332fa732b01519d3330068830/analysis/1406658610/",
+      "changelogHtml": " Replaced attacker condition wornhaskeyword \\\"weaptypebow\\\" with attacker weapon condition haskeyword  \t\\\"weaptypebow.\\\" <br/> \n Recreated using the Creation Kit <br/> \n Repackaged file <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Deflect%20Arrows%20Perk%20Fix%20v101-7740-1-01.7z?fid=26729&ttl=1535765999&ri=8192&rs=8192&setec=ebfb07f9d670fd76eea4b42212b041a0"
+    }
+  ]
+}

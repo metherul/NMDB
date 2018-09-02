@@ -1,0 +1,32 @@
+{
+  "modId": 20456.0,
+  "modName": "Skyrim Savegame Manager",
+  "summary": "This is a small utility program I wrote to manage my multiple Skyrim characters and their savefiles. The source code is included. It\\'s written in C++ using the Windows API and loads more or less instantaneously.",
+  "descriptionHtml": "This is a small utility program I wrote to manage my multiple Skyrim characters and their savefiles. The source code is included. It\\'s written in C++ using the Windows API and loads more or less instantaneously.\r\n\r\nINSTRUCTIONS:\r\nOn first use, click \\\"Initialize Directory.\\\"\r\n\r\nAfter that, select a character using the listbox and click the \\\"Set\\\" button to set Skyrim to use that character.\r\n\r\nIf you want to make a new character, click the \\\"New Char\\\" button and enter in the character name. It doesn\\'t have to be the actual name you plan to use for the character, but it must be unique (and also a valid directory name).\r\n\r\nCHANGELOG:\r\n1.01 - Tidied up object constructor\r\n1.02 - Save Skyrim.ini as an ANSI text file instead of a Unicode file to prevent possible interoperability issues with other character managers.",
+  "categoryId": "39",
+  "version": "1.02",
+  "author": "SamiraSamira",
+  "createdUnix": "1342249134",
+  "updatedUnix": "1342261281",
+  "containsAdultContent": false,
+  "uploadedBy": "SamiraSamira",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "74174",
+      "name": "SSGM v1_02",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "49",
+      "fileName": "SSGM v1_02-20456-.zip",
+      "uploadedUnix": "1342261281",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/6a20209e7bd84c3f8b920a1bac0040fa2682dbb52636ec56d6057a33e54670f0/analysis/1407021305/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SSGM%20v1_02-20456-.zip?fid=74174&ttl=1535788605&ri=8192&rs=8192&setec=d973de1f3b034638e37c01ab03cfffb1"
+    }
+  ]
+}

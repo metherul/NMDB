@@ -1,0 +1,32 @@
+{
+  "modId": 59037.0,
+  "modName": "No Force for Illusion Spells",
+  "summary": "Removes the explosion and projectile force for illusion spells.",
+  "descriptionHtml": "Summary:\r<br />I got annoyed one day after losing several parts of a multi-part journal in a dungeon after using Harmony. With Skyrim&#39;s jittery physics, they just flew through the walls. So I went and removed force from the red and green illusion explosions and impact force from red and green illusion projectiles. Now you will no longer throw gems and ingredients around or make a mess in town by using area of effect illusion spells. Illusion spells will now only affect npc&#39;s AI instead of also having a physical effect on the environment.\r<br />\r<br />Details:\r<br />- Removed force from ExplosionIllusionDark01\r<br />- Removed force from ExplosionIllusionMassiveDark01\r<br />- Removed force from ExplosionIllusionMassiveLight01\r<br />- Removed impact force from Illusion01Projectile\r<br />- Removed impact force from IllusionNeg01Projectile\r<br />\r<br />Compatibility:\r<br />Should be compatible with spell mods. This mod doesn&#39;t alter any spells or magical effects; it only changes the vanilla projectiles and explosions. Any new spells that uses these existing sfx will be changed by this mod.\r<br />\r<br />Installation:\r<br />Install with Nexus Mod Manager, or extract the archive into your skyrim folder then select the plugin in your launcher.\r<br />\r<br />Uninstall:\r<br />Uninstall with Nexus Mod Manager, or delete &#34;/data/IllusionNoPush.esp&#34; from your Skyrim folder.",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "WankingSkeever",
+  "createdUnix": "1413277444",
+  "updatedUnix": "1413277727",
+  "containsAdultContent": false,
+  "uploadedBy": "theregisteredone",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000130958",
+      "name": "No Force for Illusion Spells",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "No Force for Illusion Spells-59037-1-0.rar",
+      "uploadedUnix": "1413277727",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/00a0e28e4df63bf4f9b37c51c0d6534256795dcaf59e85a17f230cc72e07f11a/analysis/1413277321/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20Force%20for%20Illusion%20Spells-59037-1-0.rar?fid=1000130958&ttl=1535846006&ri=8192&rs=8192&setec=1e732ea2f443db57e73409bd762083a2"
+    }
+  ]
+}

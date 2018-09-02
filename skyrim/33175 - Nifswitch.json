@@ -1,0 +1,32 @@
+{
+  "modId": 33175.0,
+  "modName": "Nifswitch",
+  "summary": "A mod based on MCM , change worn armor \\'s nif to another nif temporarily.",
+  "descriptionHtml": "Description:\r\nSorry for my terrible english first.\r\n\r\nThis mod is based on MCM,thanks to SkyUI Team.\r\n\r\nAs we know, what a armor looks like depends on its nif files & textures. \r\nthis mod offers a mcm panel to record player\\'s current worn armor\\'s nif  filepath,then aplly the nif to another armor.\r\nthere are 3 custom presets and 8 empty solts to record nif filepath.\r\n\r\nSupport armor(body,hands&feet,no head) which has single armoraddon part & without textsets in esp only.\r\nthe effect will last until quit game.\r\n\r\nRequirement:\r\nSKYUI 3.1+ and SKSE 1.6.9+ are required.\r\n\r\nUsage:\r\npress \\\"Esc\\\"key and select \\\"MOD CONFIGURATION\\\",then u can see Nifswitch menu.\r\n[img]http://skyrim.nexusmods.com/mods/images/33175-1-1363059283.jpg[/img]\r\nA- manual record filepath\r\n1.click filepath in left panel to record worn-armor\\'s nif file.\r\n2.select a nif form  list menu  by click \\\"select a nif\\\" button in right  panel\\'s to replace current worn.\r\n\r\nB-custom filepath\r\n1.copy your nif files into \\\\Meshes\\\\custom\\\\ ,then rename them as :\r\n                 1body_1.nif  2body_1.nif 3body_1.nif  \r\n                 1feet_1.nif  2feet_1.nif 3feet_1.nif  \r\n                 1hand_1.nif  2hand_1.nif  3hand_1.nif\r\n2.select a custom nif form list menu  by click \\\"select a nif\\\" button in right  panel\\'s to replace current worn.\r\n\r\nInstall & Uninstall:\r\nNMM or any other mod manger is ok.",
+  "categoryId": "39",
+  "version": "1.01",
+  "author": "ruinelec",
+  "createdUnix": "1363060194",
+  "updatedUnix": "1363139183",
+  "containsAdultContent": false,
+  "uploadedBy": "ruinelec",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000017089",
+      "name": "Nifswitch",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Nifswitch-33175-1-01.7z",
+      "uploadedUnix": "1363139183",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/9f4ac79ab7c266ca2b078a24e6abcc2a49ee296855eb04fe03f674124f10a47e/analysis/1407466749/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Nifswitch-33175-1-01.7z?fid=1000017089&ttl=1535810147&ri=8192&rs=8192&setec=a6e76c7c49b67604fc14cdd8e925bdcf"
+    }
+  ]
+}

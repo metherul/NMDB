@@ -1,0 +1,48 @@
+{
+  "modId": 11856.0,
+  "modName": "CSS Athletism V2 fixed bug",
+  "summary": "This adds an Athletism skill, that will improve over use (sprinting for now), and let the cgharacter move faster overall, and sprint longer as he improves in the skill",
+  "descriptionHtml": "As you can read from reports, this mod, although simple in its execution, is not bug free. Don\\'t forget to make a clean save of your game before using it.\r\n\r\nWhat it does:\r\nThis skill randomly checks when you are sprinting (the longer the sprint, the more chance the check happens, although this is quite random).\r\nThen, 4 possibilities: \r\nCritical failure : you gain +++ Athletics XPs, but you get a big Stamina drop.\r\nFailure: ++ Athletics Xps, stamina drop.\r\nSuccess: + Athletics XPS, light stamina gain.\r\nCritical success: very few Athletics Xps gain, good stamina gain (means you can run longer)\r\n\r\nThe skill comes in 6 levels: \r\nIgnorant (base speed = 90%), from start\r\nNovice (base speed = 100%)\r\nApprentice (base speed = 105%)\r\nAdept (base speed = 110%)\r\nExpert (base speed = 115%)\r\nMaster (base speed = 130%)\r\n\r\n+, the more levels you are, the better you will do. So a master Athlete could really run fast and sprint a long time, because he will succeed or critical succeed at most of his sprinting checks.\r\n\r\nI hope you enjoy, feedback for tweaks appreciated.",
+  "categoryId": "73",
+  "version": "1.1",
+  "author": "Crom",
+  "createdUnix": "1330679363",
+  "updatedUnix": "1332188570",
+  "containsAdultContent": false,
+  "uploadedBy": "cromcrom",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "39128",
+      "name": "Crom Skill  System - Athletism",
+      "version": "1.0",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Crom Skill  System - Athletism-11856.7z",
+      "uploadedUnix": "1330680280",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3f2aeac0f8c73c4c70dbbc75cc9a5cba79144f2dfa00a2b0817747b4e88ff48c/analysis/1406724968/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Crom%20Skill%20%20System%20-%20Athletism-11856.7z?fid=39128&ttl=1535773316&ri=8192&rs=8192&setec=26ed607107b441ceaa85d3f5ac869e1c"
+    },
+    {
+      "fileId": "44895",
+      "name": "CSS Athletism V2",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "CSS Athletism V2-11856-1-1.7z",
+      "uploadedUnix": "1332188570",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c14a53f9ce1b3112283768ead04fe652bd8649872545d6ee7f1c303c402d7802/analysis/1406768478/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CSS%20Athletism%20V2-11856-1-1.7z?fid=44895&ttl=1535773317&ri=8192&rs=8192&setec=7ba6adcaa1649fe0bf8bd1abdb1b6f3d"
+    }
+  ]
+}

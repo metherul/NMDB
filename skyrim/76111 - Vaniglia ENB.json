@@ -1,0 +1,32 @@
+{
+  "modId": 76111.0,
+  "modName": "Vaniglia ENB",
+  "summary": "A simple preset for who is searching an ENB with perfomance and vanilla-look in mind.",
+  "descriptionHtml": "[b][color=#1e84cc]DESCRIPTION[/color][/b]\r<br />\r<br />[b]Vaniglia ENB[/b] (spelled like Sarsaparilla from Fallout) is a simple ENB preset that only improve the shadows and lighting of Skyrim, also adding godrays effect, giving you just an enhanced vanilla-look with like 0 perfomance loss. No nights darker than oblivion, no days bright like thousands suns exploding. It&#39;s thinked and tested to work with [b]Climates of Tamriel V[/b], but you can you use it with every weather mod you have (except maybe Vivid Weather but i&#39;m not sure).\r<br />\r<br />\r<br />[b][color=#ff0000]REQUIREMENTS[/color][/b]\r<br />\r<br />The only requirements are [b][url=http://enbdev.com/mod_tesskyrim_v0305.htm]ENBSeries v0.305[/url][/b], [b][url=http://www.nexusmods.com/skyrim/mods/75094]CoT Sunglare Remover[/url][/b] (that&#39;s not really required but highly reccomended) and the [b][url=http://enbseries.enbdev.com/forum/viewtopic.php?t=1499]Skyrim particle patch for ENB[/url][/b] (&#39;cause the ENB may or may not cause bugs like transparent doorframe at the Blue Palace).\r<br />\r<br />Obviously, like every ENB preset, this requires you to turn off anitrosopic filtering and antialiasing and set the folllowing lines in your [b]SkyrimPrefs.ini[/b]:\r<br />\r<br />[b]bFloatPointRenderTarget=1\r<br />bDrawLandShadows=1\r<br />bTreesReceiveShadows=1[/b]\r<br />\r<br />\r<br />[b][color=#00ff00]INSTALLATION[/color][/b]\r<br />\r<br />1) Download [b][b][url=http://enbdev.com/mod_tesskyrim_v0305.htm]ENBSeries v0.305[/url][/b][/b] or higher\r<br />2) Copy the [b]d3d9.dll[/b] from [b]wrapper[/b] version in your Skyrim folder ([b]not the Data folder[/b]) \r<br />    2b) Optional: Copy also [b]enbhost.exe[/b], not required but reccomended\r<br />3) Download my preset\r<br />4) Copy [b]all the files[/b] presents in the archive in you Skyrim folder\r<br />5) Apply[b] [b][url=http://www.nexusmods.com/skyrim/mods/75094]CoT Sunglare Remover[/url][/b] [/b](if you want)and [b][b][url=http://enbseries.enbdev.com/forum/viewtopic.php?t=1499]Skyrim particle patch for ENB[/url][/b] [/b](actually you can do it whenever you want)\r<br />6) Enjoy&#33;\r<br />\r<br />[color=#ff00ff]\r<br />[b]MODS USED IN SCREENSHOTS[/b][/color]\r<br />\r<br />[b]-[/b] [url=http://www.nexusmods.com/skyrim/mods/607/]Skyrim HD - 2K Textures[/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/49011/]Quality Snow HD 2K\r<br />[/url]- [url=http://www.nexusmods.com/skyrim/mods/18916/]Lanterns of Skyrim[/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/24364/]AOF HD Tree LODs[/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/4805]AOF Detailed Mountains[/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/17802/]Climates Of Tamriel[/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/75094]CoT - Sun Glare Remover[/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/55518]Real Roads for Skyrim[/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/64856]Skyrim HD - Terrain Parallax Tribute[/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/8655/]Static Mesh Improvement Mod[/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/13268/]The Ruffled Feather [/url]\r<br />- [url=http://www.nexusmods.com/skyrim/mods/13268/]The Ruffled Feather - EDT [/url]\r<br />- [url=https://www.google.it/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjK7v-on5PNAhWDEywKHcKVAUkQFggcMAA&url=http%3A%2F%2Fwww.nexusmods.com%2Fskyrim%2Fmods%2F19446&usg=AFQjCNHU28B5L6wUUO7sXPl6S8ORACBC0Q&sig2=zHtHP3HiEOy2a7UMW4EC7Q&bvm=bv.123664746,d.bGg]The Skyrim Distance Overhaul[/url][url=http://www.nexusmods.com/skyrim/mods/37900/]\r<br />[/url]\r<br />\r<br />[b][color=#ffff00]DISCLAIMER\r<br />[/color][/b]\r<br />-[b] Sky too brigth: [/b]If you think that the sky is too britgh, just go to the [b]enbseries.ini[/b] in your skyrim directory, scroll to [b][SKY][/b] and set [b]Enable[/b] to [b]TRUE[/b].\r<br />-[b] Flashing light in main menu/loading screen/map: [/b]If you are using an NVIDIA card, maybe the problem is the latest graphic driver, so you can roll down to an older realease or wait until the next one. Alternatively you can try to set [b]WaitBusyRender[/b] to [b]TRUE[/b]. \r<br />\r<br />If you have problem or you notice glitch and bugs, please let me know, i&#39;ll answer as soon as i can.",
+  "categoryId": "97",
+  "version": "1.0",
+  "author": "AltairGigi",
+  "createdUnix": "1465482472",
+  "updatedUnix": "1465142034",
+  "containsAdultContent": false,
+  "uploadedBy": "Gigi95",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000208907",
+      "name": "Vaniglia ENB v1.0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "Vaniglia ENB v1.0-76111-1-0.rar",
+      "uploadedUnix": "1465142034",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/795cdcadbe3fc53f7f37606f00c86b9cfeef7e434658619968a3244221275459/analysis/1465142043/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vaniglia%20ENB%20v1.0-76111-1-0.rar?fid=1000208907&ttl=1535864842&ri=8192&rs=8192&setec=a83275e207d2c03e2c6ee2b7e1df11a8"
+    }
+  ]
+}

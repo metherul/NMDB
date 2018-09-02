@@ -1,0 +1,32 @@
+{
+  "modId": 13124.0,
+  "modName": "LF Fix Followers Stats -Redundant-",
+  "summary": "**No longer needed as of Skyrim Patch 1.6.89.0.6 this is now fixed and works automaticly**\r\n\r\nThis power will make your targeted follower disappear for a second then reappear with their Health, Magicka, Stamina and all skills upgraded to the proper level as if they were levelling along with you.\r\nThis can be cast on any current follower even ones a",
+  "descriptionHtml": "Lesser Power: An improved version of my \\\"Level Followers\\\" spell.\r\nThis power will make your targeted follower disappear for a second then reappear with their Health, Magicka, Stamina and all skills upgraded to the proper level as if they were levelling along with you.\r\n\r\nThis can be cast on any current follower even ones added by other mods.\r\n\r\nMy previous version was an un-targetable spell that also moved your current follower to you and moved all their items into your inventory.\r\nThere were a few problems with this though, although being able to call lost follower to you was useful some people experienced problems with the spell calling the wrong follower.\r\nThe old spell also caused problems moving all items to the player\\'s inventory because every follower has default armour/clothes that kept being duplicated each time the spell was cast and in the very first release caused invisible bows and arrows to go into the players inventory.\r\n\r\nThis new Targetable version fixes all those problems plus I have FINNALY found a work around for the missing functions in papyrus that meant every time your follower came back they were naked and lost any armour they were wearing.\r\n\r\nNow when you don\\'t need to take anything out of your followers inventory and when they come back they will be wearing everything they had on before! (Yay me )\r\n\r\nThe main work around means as soon as your follower reappears their inventory screen will open, you can just close this, it opens and for a about half a second an \\\"EquipFix\\\" item is added to make them equip the right gear again. This \\\"EquipFix\\\" item disappears straight away and doesn\\'t stay on your followers.\r\nTo stop the problem with all armour vanishing into the either I created a script storage chest in the middle of the wilderness under the sea and use it in my script as a holding box for all the followers items while they are being reset.\r\nTo stop any problems with buggy invisible bows and arrows, all the \\\"follower only\\\" bows and arrows are removed from the follower before moving everything to the chest.\r\n\r\nYou may notice in the screen shot that at level 6 Faendal will wear almost any type of armour regardless if it is light or heavy or a set, but after he has been corrected to my characters level of 30 he wears only light armour because it now provides better protection then heavy for him.\r\n\r\nI have tested this quite a lot in the last few hours, I used a clean save from the start and also tested it on a very old save from back before patch 1.3 everything seemed to work fine.\r\nCleaned with \\'Skysnip\\' in case of any unwanted extras.\r\n\r\nThe Power will only work on those currently following you and only if they are not in combat.\r\nWill be available from 10 different vendors as I put it in the LItemVendorSpellTomes00All50 list, for example \\\"Belethors Goods\\\" in Whiterun or \\\"Bits and Pieces\\\" in Solitude.\r\n\r\nThe script source code is included in this mod.\r\nThe Book ID is 0x00182B\r\nThe Spell ID is 0x0012C7\r\n\r\nPlease take a look at my other mods...\r\nRace Description Info: http://skyrim.nexusmods.com/downloads/file.php?id=6837\r\nSpell Divining - Know Thy Enemy: http://skyrim.nexusmods.com/downloads/file.php?id=12453\r\nCall Follower: http://skyrim.nexusmods.com/downloads/file.php?id=12768\r\n",
+  "categoryId": "93",
+  "version": "1.0",
+  "author": "Leon Fenten",
+  "createdUnix": "1332028846",
+  "updatedUnix": "1332028905",
+  "containsAdultContent": false,
+  "uploadedBy": "leonfenten",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "44274",
+      "name": "FixFollowerStats",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "FixFollowerStats-13124-1-0.zip",
+      "uploadedUnix": "1332028905",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2bf4d29f716bcf85d687faacf4bad85ded6e08ec02feccce51f7db9572a7c338/analysis/1406761324/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FixFollowerStats-13124-1-0.zip?fid=44274&ttl=1535775604&ri=8192&rs=8192&setec=736e71495463a540a7a18f18e73b602b"
+    }
+  ]
+}

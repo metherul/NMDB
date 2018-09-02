@@ -1,0 +1,48 @@
+{
+  "modId": 59651.0,
+  "modName": "Crafting Doesn&#39;t Grant XP -- Uncapper preset",
+  "summary": "Custom .ini for the Skyrim Community Uncapper so that crafting/speech won&#39;t increase your character level. Increasing your crafting proficiencies is left untouched. Optional variant removes character XP from Pickpocket and Lockpicking skills as well.",
+  "descriptionHtml": "[img]http://static-1.nexusmods.com/15/mods/110/images/59651-2-1415068998.png[/img]\r<br />\r<br />Basically, I wanted only my combat skills to affect my character level. This .ini makes that happen, and I thought somebody else out there might find it useful. [u][b]You still gain proficiency in the crafting/non-combat skills, and can assign perks to them normally.[/b][/u] They just don&#39;t give you XP.\r<br />\r<br />The [color=turquoise][b]LITE[/b][/color] version affects:\r<br />[list][*][b][color=paleturquoise]Enchanting[/color][/b][/*]\r<br />[*][color=paleturquoise][b]Smithing[/b][/color][/*]\r<br />[*][color=paleturquoise][b]Alchemy[/b][/color][/*]\r<br />[*][color=paleturquoise][b]Speech[/b][/color]\r<br />[/*][/list]\r<br />The [color=turquoise][b]FULL[/b][/color] version also removes XP gain from:\r<br />[list][*][color=paleturquoise][b]Lockpicking[/b][/color][/*]\r<br />[*][color=paleturquoise][b]Pickpocket[/b][/color][/*]\r<br />[/list]\r<br />It also uncaps levels for skills for a high-level playthrough as per the default Uncapper. Perk point acquisition and rate of XP gain for combat skills remain at vanilla values.\r<br />\r<br />\r<br />[img]http://static-1.nexusmods.com/15/mods/110/images/59651-1-1415068998.png[/img]\r<br />\r<br />1) Install Skyrim Community Uncapper with mod manager of choice.\r<br />2) Overwrite the .ini that comes with it from mine. It&#39;s located at &lt;Skyrim folder&gt;Data&#92;SKSE&#92;Plugins\r<br />\r<br />\r<br />[size=5][b][url=http://www.nexusmods.com/skyrim/mods/1175/?]SKYRIM COMMUNITY UNCAPPER[/url] AND [url=http://skse.silverlock.org/]SKSE[/url] ARE REQUIRED.[/b][/size]",
+  "categoryId": "73",
+  "version": "1.0",
+  "author": "Rusey",
+  "createdUnix": "1415125298",
+  "updatedUnix": "1415124851",
+  "containsAdultContent": false,
+  "uploadedBy": "Rusey",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000133941",
+      "name": "Crafting Doesn&#39;t Grant XP FULL",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Crafting Doesn't Grant XP FULL-59651-1-0.zip",
+      "uploadedUnix": "1415124751",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/dfd1eefdad709b88f6a114dd1da3c7c1cd76a92014ad73dac741e336620a5eed/analysis/1415124542/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Crafting%20Doesn%27t%20Grant%20XP%20FULL-59651-1-0.zip?fid=1000133941&ttl=1535846981&ri=8192&rs=8192&setec=c6ee3b5244c21e2710d9b815ba3153aa"
+    },
+    {
+      "fileId": "1000133942",
+      "name": "Crafting Doesn&#39;t Grant XP LITE",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Crafting Doesn't Grant XP LITE-59651-1-0.zip",
+      "uploadedUnix": "1415124851",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/db89955c6d8dd5c047b95d3af09f738aa12382cbf8d8357cc37fe3092f78557a/analysis/1415124962/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Crafting%20Doesn%27t%20Grant%20XP%20LITE-59651-1-0.zip?fid=1000133942&ttl=1535846982&ri=8192&rs=8192&setec=ca43e651be2cb16ed149126c5e2caf60"
+    }
+  ]
+}

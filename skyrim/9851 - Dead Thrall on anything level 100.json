@@ -1,0 +1,48 @@
+{
+  "modId": 9851.0,
+  "modName": "Dead Thrall on anything level 100",
+  "summary": "Makes the master level conjuration spell Dead Thrall able to raise any NPC and creature up to level 100.",
+  "descriptionHtml": "A very simple mod that raises the magnitude of the Dead Thrall spell to 100 and removes the check from the ReanimateThrallFFAimed effect that prevented raising creatures and NPCs with the appropriate keyword. Putting the mod at the bottom of your load order is recommended, to ensure it is not overridden by mods that change loads of spells.\r\n\r\nKeep in mind that resurrecting silly things may have unexpected results.",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "spiderexpert",
+  "createdUnix": "1329348431",
+  "updatedUnix": "1329351235",
+  "containsAdultContent": false,
+  "uploadedBy": "spiderexpert",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "31781",
+      "name": "Dead Thrall on Anything level 100 v1",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Dead Thrall on Anything level 100 v1-9851.zip",
+      "uploadedUnix": "1329348506",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/8c3e51ad9ed56c93d013be8873a5b86b894b50ab65cc8c12d15cd6aaed29767a/analysis/1406685745/",
+      "changelogHtml": " Original release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dead%20Thrall%20on%20Anything%20level%20100%20v1-9851.zip?fid=31781&ttl=1535769751&ri=8192&rs=8192&setec=e21b35374a5141607016509ca224a5a6"
+    },
+    {
+      "fileId": "31792",
+      "name": "Dead Thrall on Anything level 100 v1-1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Dead Thrall on Anything level 100 v1-1-9851.zip",
+      "uploadedUnix": "1329351235",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/08c53bbe71fa94331279b71a67ec781f9bfca10511d4258ba12ec5362c7b7a79/analysis/1406685915/",
+      "changelogHtml": " Removed \\\"Only works on humans\\\" from the spell\\'s description <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dead%20Thrall%20on%20Anything%20level%20100%20v1-1-9851.zip?fid=31792&ttl=1535769751&ri=8192&rs=8192&setec=5ba4463f6067539f523813447aa9efd5"
+    }
+  ]
+}

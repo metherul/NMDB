@@ -1,0 +1,48 @@
+{
+  "modId": 41016.0,
+  "modName": "Silenced Player Combat",
+  "summary": "This mod mutes all player\\'s combat grunting: on being hit, on attack, on power attack, on bash. NPSs not affected.",
+  "descriptionHtml": "Now Dragonborn fights silently. No moans, grunts, sqweaking any more.\r\n\r\nAttacks, power attacks, bashing are performed without a sound. Dragonborn stoically endures pain and takes enemy hits silently.\r\n\r\nThis is done by adding a condition [NOT PLAYER] to all combat related generic exclamations like \\\"Arrgghh!\\\".\r\n\r\nAs per request: added another version with only attack and power attack grunts muted.\r\n\r\nInstallation: copy the  .esp and turn it on.\r\nUninstallation: turn off the .esp and delete it.",
+  "categoryId": "61",
+  "version": "1.0",
+  "author": "igli",
+  "createdUnix": "1377507908",
+  "updatedUnix": "1377529812",
+  "containsAdultContent": false,
+  "uploadedBy": "igli",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000049659",
+      "name": "SilencedPlayerCombat",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "SilencedPlayerCombat-41016-1-0.7z",
+      "uploadedUnix": "1377507904",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/dab08b177e3b1ab87911db093f61ed5a6e2644cb51e38410f1a23a3b980521ef/analysis/1407697052/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SilencedPlayerCombat-41016-1-0.7z?fid=1000049659&ttl=1535821739&ri=8192&rs=8192&setec=6d88abfbf599309df14b372ca754c22b"
+    },
+    {
+      "fileId": "1000049731",
+      "name": "Silenced attack and power attack only",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Silenced attack and power attack only-41016-1-0.7z",
+      "uploadedUnix": "1377529812",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f21f145dd5a983e8354f648a6f9ea786c6384205c6ce1195a3514a12441ba995/analysis/1407697412/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Silenced%20attack%20and%20power%20attack%20only-41016-1-0.7z?fid=1000049731&ttl=1535821740&ri=8192&rs=8192&setec=dcf8f037743e9d219750e9f7bb39361d"
+    }
+  ]
+}

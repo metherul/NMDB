@@ -1,0 +1,32 @@
+{
+  "modId": 9893.0,
+  "modName": "Hjerim Mess Fix",
+  "summary": "Fixes the bug, where the Windhelm steward won\\'t clean up the mess in Hjerim.",
+  "descriptionHtml": "[i]Are you trying to buy the clean up of Hjerim. You keep throwing money in his face, but that steward just won\\'t help you? Look no further, Dovahkiin. This small fix should take care of any steward-wont-sell-me-serial-killer-mess-clean-up related worries.[/i]\r\n\r\nInstall this and go talk to the steward again. \r\nInstallation: Put the esp in the Data-folder and check it in the launcher or NMM.\r\n\r\nI myself was stuck with the steward telling me that I had bought all upgrades, when acutally I had just saved the clean up for last. I took a look at the dialogue tree for Jorleif, and found the error.\r\n\r\nJorleif\\'s dialogue tree did not check whether or not you had actually purchased this particular upgrade. The only change I had make was to put that check back in there. So now you should be able to buy the upgrade.\r\n\r\nBeware: Cleaning up the mess removes the bloody chest (and it\\'s contents). So make sure to empty that, if you are storing anything in it.\r\n\r\nIf you encounter any related problems, please let me know.",
+  "categoryId": "95",
+  "version": "1",
+  "author": "M60dk",
+  "createdUnix": "1329374522",
+  "updatedUnix": "1329374677",
+  "containsAdultContent": false,
+  "uploadedBy": "m60berserker",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "31934",
+      "name": "Hjerim Mess Fix ",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Hjerim Mess Fix -9893-1.rar",
+      "uploadedUnix": "1329374677",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/ac200fa22b7a2a06f5aed930913b25738f59af95d8edae3d0fe83f703ec76330/analysis/1406686640/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hjerim%20Mess%20Fix%20-9893-1.rar?fid=31934&ttl=1535769842&ri=8192&rs=8192&setec=3836b884ea3b3515e7bc1d0dcab0dc77"
+    }
+  ]
+}

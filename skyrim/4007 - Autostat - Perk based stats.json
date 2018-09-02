@@ -1,0 +1,48 @@
+{
+  "modId": 4007.0,
+  "modName": "Autostat - Perk based stats",
+  "summary": "A Script Dragon plugin that keeps track of your allocated perk points and alters your stats based on the perk category (Magic, Health, Stamina).",
+  "descriptionHtml": "A Script Dragon plugin that keeps track of your allocated perk points and alters your stats based on the perk category (Magic, Health, Stamina).\r\n\r\nCarryweight is derived from stamina.\r\n\r\nIn the default configuration it would follow this logic:\r\n- every point into Destruction implies 10 more stat points in Magicka\r\n- every point into Heavy Armor implies 10 more stat points in Health\r\n...\r\n\r\nThe amount of stat points per perk point is configurable as well as the stat category the perk tree is in. Multiple categories for a tree is of course possible. \r\n\r\nManual stat distribution is getting ignored after activating this plugin. Though it can be disabled at any time to allow further vanilla point allocation.\r\n\r\n\r\nINSTALLATION:\r\n\r\nJust get Script Dragon here and install it: \r\n\r\nWebsite: http://alexander.sannybuilder.com/?category=other&altname=skyrim_script_dragon\r\nDirect Link: http://alexander.sannybuilder.com/Files/tes/ScriptDragon_1.4.21.0.zip\r\n\r\nAfter that just copy the autostat.asi and the autostat.ini into your Skyrim or Skyrim root/asi folder.\r\nWorks with pre-mod savegames.\r\n\r\nSETTINGS\r\n\r\nExample:\r\n\r\n[magicka]\r\nmagicka_base=100\r\nmagicka_factor=10\r\nmagicka_maximum=999\r\n\r\naffects_magicka_alteration=1\r\naffects_magicka_marksman=0\r\naffects_magicka_alchemy=3\r\n\r\nLets say you have 4 perk points into alteration and 2 into alchemy. The Magicka stat would be calculated this way:\r\n\r\naffects_magicka_alteration (1) * magicka_factor (10) * perkpoints (4) \r\n+ affects_magicka_alchemy (3) * magicka_factor (10) * perkpoints (2)\r\n+ magicka_base (100) \r\n= 40 + 60 + 100 = 200 Magicka\r\n\r\nSource: https://gitorious.org/tesv-modifications/tesv-modifications/trees/master/src/AutoStats\r\n\r\nNOTE: Works best in conjunction with my reskill mod [url=file.php?id=3665]here[/url]",
+  "categoryId": "73",
+  "version": "3",
+  "author": "zenofx",
+  "createdUnix": "1324216981",
+  "updatedUnix": "1328368082",
+  "containsAdultContent": false,
+  "uploadedBy": "zenofx",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "14841",
+      "name": "autostats v3b",
+      "version": "3b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "68",
+      "fileName": "autostats v3b-4007-3b.zip",
+      "uploadedUnix": "1325176672",
+      "modVersion": "3b",
+      "virusScanUrl": "https://www.virustotal.com/file/0e1b6e7ec0164b0bb1888ad8f086f6aa7bacbd1fc533897f65525e693d42b613/analysis/1406568136/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/autostats%20v3b-4007-3b.zip?fid=14841&ttl=1535759449&ri=8192&rs=8192&setec=ec5ee86fce8332986344c2299ade9bd9"
+    },
+    {
+      "fileId": "25822",
+      "name": "alternative autostats configuration file",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "alternative autostats configuration file-4007-1.zip",
+      "uploadedUnix": "1328368082",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/a38132b5d27008edb8ae53aac00a984c1affc329fe6ddd32adf825d0eb4e2251/analysis/1406653229/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/alternative%20autostats%20configuration%20file-4007-1.zip?fid=25822&ttl=1535759450&ri=8192&rs=8192&setec=238d02e46996291b50fda92c4cf7f2ef"
+    }
+  ]
+}

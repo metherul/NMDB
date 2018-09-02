@@ -1,0 +1,48 @@
+{
+  "modId": 12572.0,
+  "modName": "Pathfinders Item Alterations",
+  "summary": "What you get:\r\n- Adds All Armor Sets in Standard Loot Tables with Enchants\r\n- New Leveled Robes, Hoods, and Gloves System.\r\n- Enchant Changes ( Critical Hit and Attack Speed Enchants )\r\n- Armor Stat Bonuses.\r\n- Alternate Game Start itemization.",
+  "descriptionHtml": "What you get:\r\n- Adds All Armor Sets in Standard Loot Tables with Enchants\r\n- New Leveled Robes, Hoods, and Gloves System.\r\n- Enchant Changes ( Critical Hit and Attack Speed Enchants )\r\n- Armor Stat Bonuses.\r\n- Alternate Game Start itemization.\r\n\r\nINSTALLING:\r\n- Simply place the extracted mod file into your Skyrim/Data folder and make sure it is selected from the Datafile menu on the game\\'s launchpad.\r\n\r\nUPDATES:\r\n- PATHV1.0B - PathfindersItemAlterationsDefaultGameStart:\r\n> Created an alternate Main Mod File that reverts the changes made to the Game\\'s opening scenes and tutorial dungeon to its original state.\r\n\r\n\r\nDESCRIPTION:\r\nThis Mod makes a large number of different changes to Skyrim\\'s Standard loot tables and Items making the armour and weapon levelling up system much more interesting without being game breaking or overpowered. \r\n\r\nALL ARMOR SETS\r\n\r\n- All of the game\\'s armour sets ( Dark brotherhood armour, Greybeard robes, Imperial Armour, Companions armour, ect. ect. ) have all been added to the standard loot tables with the full range of enchants available on them.\r\n- The Loot Tables have been changed slightly to make armour sets like Iron, Banded Iron, Hide and steel Last a bit longer and sets like Daedric and Dragonplate come sooner.\r\n- Armour sets have been moved into level* Brackets, for example you will find Dwarven armour the same time you will find Blade armour. There should be two Heavy and Light sets per bracket. \r\n- Many Armour and Weapon Values have been changed to fit their bracket better.\r\n\r\nLEVELED ROBES & LOOT CHANGES:\r\n\r\n- New levelled loot list for robes, hoods and gloves to give mages a better levelling experience.\r\n- Equipping any Enchanted or Un-enchanted robe, hood, or hooded-robe will give the player a  bonus to their Magicka Regen based on the level of the item. ( eg. standard coloured robes will be lvl 1, and Greybeard robes found at high levels will be Level 5. )\r\n- Hooded robes combine both the robe and hood magicka bonuses for an equal effect.\r\n- Robes now have the same enchants as Armour as the Magicka Regen comes standard.\r\n- To see the bonuses. Equip a robe, hood, or hooded robe and look at your Active Effects Page in your spell book.\r\n\r\n\r\nNEW ENCHANTS & STAT CHANGES:\r\n\r\n- The Stamina Rate and Health Rate enchants are now available from level 1 and have new level appropriate ranks. They are available on all armour sets.\r\n\r\n- Added new Critical Hit Rating Enchant called Lethality to game for the Gauntlet, Helmet, and Ring Slots.\r\n- Critical Hit Ranks: 1(7%) - 2(15%) - 3(22%) - 4(30%) - 5(37%) - 6(45%)\r\n- Even at 100% Critical Hit, mobs have their own defence value that reduces the chance of being critically hit so consider it a rating not a percentage.\r\n\r\n- Added new Attack Speed Enchant called Haste to the game for the Gauntlets, Chest, and Ring Slots.\r\n- Attack Speed Ranks: 1(10%) - 2(20%) - 3(30%) - 4(40%) - 5(50%) - 6(60%)\r\n- The engine is fairly limited with decimal numbers on enchants so I suggest you do not try to Disenchant these Haste items. \r\n \r\n- Robes now have the same Alteration, Conjuration, Destruction, Illusion, and Restoration Enchants as armour as they provide Magicka Regen for just being equipped.\r\n- Robes and Shields now have the best Fire, Frost, Shock, and Magic Resistance enchants.\r\n\r\n- Players now begin the game with 5% critical hit as standard.\r\n- Players default Actor Value for Weaponattackspeedmult and leftweaponattackspeedmult has been changed from 0.00 to 1.00 so that the enchants can work. ( Perks and Shouts that grant weapon speed have also been changed to work with this. )\r\n\r\n\r\nARMOR SET BONUSES:\r\n\r\n- Nearly all the light and heavy armour chest pieces in the game have been given special stat bonuses for being equipped, for example...\r\n> Steel Armour: 8% Damage\r\n> Imperial Armour: 5% Damage 10% Speechcraft.\r\n> Dwarven Armour: 15% Fire, Frost, and Shock Resistance.\r\n> Blade Armour: 5% Critical Hit, 15% Dragon Damage.\r\n> Leather Armour: 15% Haste.\r\n> Daedra Armour: 15% Damage, 10% Critical Hit, 15% Damage Reflect.\r\n> Dragonscale Armour: 10% damage, 40% Shout Reduction, 25% Stamina Regeneration.\r\n> Thief Armour: 15% Sneak, 40 Points of Carry, 15% Lockpicking.\r\n> Falmer Armour: 10% Damage, 100% Poison Resist, And Grants Nighteye when worn with a Falmer Helmet.\r\n> Warlord Armour: 10% Damage, 15% Run Speed.\r\n\r\n> And that\\'s not all!!!\r\n\r\n> To see the bonuses, Equip the chest piece and look at your Active Effects Page in your spell book.\r\n\r\nALTERNATE GAME START:\r\n\r\n- These changes are to make the Dovakin a little more neutral looking when he leaves to first scene with more basic equipment.\r\n- In the first tutorial dungeon...\r\n> All the Imperial and Stormcloak Armour will be Un-lootable.\r\n> Basic Iron and Hide armour and boots will be found along the way.\r\n> A two handed Iron Warhammer will be found along the way.\r\n> A starter level Grey robe will be found along the way.\r\n\r\n\r\nHOW DOES IT WORK:\r\n\r\n> All the items have been simply added or altered in the database.\r\n> Set bonues are triggered by keywords attached to items. The effects of those keywords can be found as Abilities attached to the PerkSkillBoosts Perk that all players start with.\r\n",
+  "categoryId": "36",
+  "version": "PathV1.01",
+  "author": "Brett Thompson",
+  "createdUnix": "1331380787",
+  "updatedUnix": "1331634379",
+  "containsAdultContent": false,
+  "uploadedBy": "Serious87",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "41969",
+      "name": "PathfinderItemAlterations",
+      "version": "PathV1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "225",
+      "fileName": "PathfinderItemAlterations-12572-PathV1-01.zip",
+      "uploadedUnix": "1331380979",
+      "modVersion": "PathV1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/5c547698cc878a1d5c5782e7426bf2a506ab9eb46e12740e744d8fba5c25c73a/analysis/1406741552/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PathfinderItemAlterations-12572-PathV1-01.zip?fid=41969&ttl=1535774573&ri=8192&rs=8192&setec=6fd91b218c4d16b83aea2a51b5d64a91"
+    },
+    {
+      "fileId": "42891",
+      "name": "DefaultStart_PathfinderItemAlterations",
+      "version": "PathV1.01B",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "226",
+      "fileName": "DefaultStart_PathfinderItemAlterations-12572-PathV1-01B.zip",
+      "uploadedUnix": "1331634379",
+      "modVersion": "PathV1.01B",
+      "virusScanUrl": "https://www.virustotal.com/file/b4e808815224bf83631a501d0c35a8d3c8ac7417b2a36e1dc6034ff46731e024/analysis/1406746575/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DefaultStart_PathfinderItemAlterations-12572-PathV1-01B.zip?fid=42891&ttl=1535774574&ri=8192&rs=8192&setec=39f3f2945e55aebfae5fae1751cf6a04"
+    }
+  ]
+}

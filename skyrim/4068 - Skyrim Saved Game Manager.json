@@ -1,0 +1,32 @@
+{
+  "modId": 4068.0,
+  "modName": "Skyrim Saved Game Manager",
+  "summary": "External program that aids in the management of multiple saved games and characters.",
+  "descriptionHtml": "This program aids in the management of saved games by archiving the user\\'s selected saved games into a single compressed file and restoring the selected archived files upon demand. \r\n\r\nThe archive process is a two step process where you select the files you would like to archive and specify the name and location of the archive file.  The program will place the selected files into the archive file and remove those files from the saved game folder.\r\n\r\nThe restoration process is simple.  Select the archive file you wish to restore and agree to the clearing of all files from the saved game folder before the archive is restored.\r\n\r\nFeatures:\r\n - To prevent any possible conflicts with Skyrim, this is a stand alone application, not integrated into the game.\r\n - Minimalist interface to make the program easy to learn and use.\r\n - Works with both Skyrim and Oblivion (user settings may need to be changed for proper functionality).\r\n - Simple configuration that works with installations that deviate from the defaults.\r\n - Running setup.exe will detect and install any required files for you.\r\n - Any errors that are encountered give you the option to send the error details to me. This does not include any information that is not specific to the error.\r\n - Archives are stored as a standard ZIP readable format.\r\n\r\n>> Version History\r\n\r\n[12-18-2011] 1.0.0 Initial Release\r\n[12-19-2011] 1.0.1 Update - Changed product name in the EULA to reflect that the mod is the Skyrim Saved Game Manager, not Password Generator.\r\n[12-19-2011] 1.0.1 Update - Changed the installation to retain a copy of the EULA in the installation directory.",
+  "categoryId": "39",
+  "version": "1.0.1",
+  "author": "Dalriadic",
+  "createdUnix": "1324261382",
+  "updatedUnix": "1324361486",
+  "containsAdultContent": false,
+  "uploadedBy": "Dalriadic",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "12257",
+      "name": "Skyrim Saved Game Archive Manager",
+      "version": "1.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "884",
+      "fileName": "Skyrim Saved Game Archive Manager-4068-1-0-1.zip",
+      "uploadedUnix": "1324361486",
+      "modVersion": "1.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/9a895dc8196003671cf7b730b365ecc955092e93810703dd1f82d8349f8e0f5d/analysis/1406539144/",
+      "changelogHtml": " Changed password generator to Skyrim Saved Game Manager in the EULA. <br/> \n Changed the EULA restrictions on redistribution to allow free redistribution of the original, unaltered files. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Saved%20Game%20Archive%20Manager-4068-1-0-1.zip?fid=12257&ttl=1535759592&ri=8192&rs=8192&setec=7ed7c408085bf2673e10c44afb726a1d"
+    }
+  ]
+}

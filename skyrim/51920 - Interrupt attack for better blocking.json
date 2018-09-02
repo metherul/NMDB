@@ -1,0 +1,32 @@
+{
+  "modId": 51920.0,
+  "modName": "Interrupt attack for better blocking",
+  "summary": "This mod allows you to interrupt any of your attacks by pressing your default &#39;sheath weapon&#39; button, after wich you can immediatly start blocking incoming attacks. This allows for better blocking and some interesting sword fights without altering vanilla gameplay too much.",
+  "descriptionHtml": "This mod allows you to cancel any of your attack animations by pressing whatever button you assigned to the &#39;sheath weapon&#39; action. After interrupting your own attack, you can start blocking your enemies attacks. This allows for better blocking (especially in those situations where 1 unblocked hit will kill you.)\r<br />\r<br />UPDATE:\r<br />\r<br />To prevent you from sheathing your weapon by accident while fighting, this mod also adds a few conditions to the regular sheath weapon event: you can only sheath your weapon while: Out of combat, while riding mounts, or while SNEAKING. If you want to surrender to a guard while in combat, go into sneak mode and sheath your weapon&#33;&#33;\r<br />\r<br />I recommend using &#39;blockhit&#39; animation replacers for fancy looking sword fights. I myself use 2 block animations from &#34;Pseudo parry animation&#34; by topeira and Krish698. You can find their mod here: http://www.nexusmods.com/skyrim/mods/44014/?\r<br />\r<br />Install: Unzip into data folder, then activate in launcher.\r<br />\r<br />How does it work?\r<br />In 0_master.hkx (accessed through CK) you can find alot of animation events assigned to hardcoded actions or scripts. For example pressing your attack button will start an attack animation event after passing several conditions. These conditions and animation events can be changed/added through the CK&#39;s GUI. This mod removes conditions for the cancel bow attack event (sheathing while aiming with a bow/crossbow). This allows you to cancel all attack related animation events in a similar manner.\r<br />\r<br />It is possible to assign the interrupt attack function to other keys (like pressing &#39;use&#39; would cancel attacks) or by using scripts. However this would also make the mod more complicated/ess compatible. This simple mod should be compatible with just about any version of skyrim and any mod that doesnt change the sheath weapon idle.\r<br />\r<br />Disclaimer: as far as i know no one has made such a modification for skyrim yet. EDIT: it seems a similar mod already existed and i didnt know about it. However, since I had to come up with my version from scratch and mine has a mechanism that prevents you from sheathing weapon by accident i&#39;m going to leave this page. Here&#39;s that similar mod (by tiny lampe):  http://www.nexusmods.com/skyrim/mods/30814/?tab=3&navtag=http%3A%2F%2Fwww.nexusmods.com%2Fskyrim%2Fajax%2Fmodimages%2F%3Fid%3D30814%26user%3D1&pUp=1",
+  "categoryId": "77",
+  "version": "1.01",
+  "author": "Moljka",
+  "createdUnix": "1394313918",
+  "updatedUnix": "1394313902",
+  "containsAdultContent": false,
+  "uploadedBy": "moljka",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000100405",
+      "name": "Interrupt attacks to block",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Interrupt attacks to block-51920-1-0.rar",
+      "uploadedUnix": "1394313902",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/effb7b21fea60876d84bc7c5ac4bf1e9a41415658325504bfbbbe61892564f62/analysis/1407965650/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Interrupt%20attacks%20to%20block-51920-1-0.rar?fid=1000100405&ttl=1535834619&ri=8192&rs=8192&setec=c5743389c6519ba78148f72f029629c6"
+    }
+  ]
+}

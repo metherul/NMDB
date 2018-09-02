@@ -1,0 +1,48 @@
+{
+  "modId": 13546.0,
+  "modName": "UncensorSpell",
+  "summary": "Naked Spell\r\nUndress the target. When time runs out, the actor auto equip.",
+  "descriptionHtml": "Description:\r\nUndressing Spells. When time runs out, the actor auto equip.\r\n\r\nNote: The Images are for older version.\r\n\r\nV2.0:\r\n\r\n3 Spells with effects and equal too 3 without visual shader effects(NFx).\r\n1 Funny Wave Spell.\r\n\r\nAll spells are in Illusion tab.\r\nAll spells are auto lerning. Don\\'t need buy or use console. (Plug & Play)\r\n\r\nSpells Descriptions:\r\nN-Beam: A beam. Undress the target. If you concentrate. Only affect female\r\nN-Beam NFx: Same that N-Beam but without visual shader effect.\r\nN-Explo: A Explosion. Undress all actor in area(50) for 15s.\r\nN-Explo NFx: Same that N-Explo but without visual shader effect.\r\nN-Shot Unisex: Undress any target for 8s.\r\nN-Shot Unisex NFx: Same that N-Shot Unisex but without visual shader effect.\r\nN-Shot Female: Same that N-Shot Unisex but only undress female targets.\r\nN-Shot Female NFx: Same that N-Shot Female but without visual shader effect.\r\nN-Wave: Cast a Red Wave. Undressing all in the way of the wave.\r\n\r\nV2.0.1:\r\nAdded the descriptios to the game.\r\n\r\n\r\nExtra Info:\r\nspell-ids:\r\nxx000D62 N-Shot Unisex\r\nxx000D63 N-Shot Unisex NFx\r\nxx000D66 N-Shot Female\r\nxx000D68 N-Shot Female NFx\r\nxx000D6A N-Beam\r\nxx000D6C N-Beam NFx\r\nxx000D6E N-Explo\r\nxx000D70 N-Explo NFx\r\nxx000D72 N-Wave\r\n\r\nOr write in console: \\'Help \\\"0 N-\\\" 4\\'\r\n\r\n\r\n\r\nEndorse if it like. And have fun.\r\n-------------------------------------------------------------------------------------------------\r\nOLD: (not recommended) everything between \\\"{\\\"   \\\"}\\\" is obsolete\r\n{\r\nV1.2\r\n+New working shout\r\n+Add Other version of Naughty Explosion. Without Effects.\r\nV1.1\r\n+add Naughty Explosion (illusionSPELL) - Like Generic Uncensor with area and self-explosion.\r\n+add Voice Disarm (Naughty Version) - Unequip armors and clothe from agresive targets. (I could not do to throw the equip, only weapons)(the only way to learn is by console)\r\nv1.0\r\n+ Uncensor Bean (illusionSPELL) - Undressing the target while you concentrate. - only for femele\r\n+ Generic Uncensor (illusionSPELL) - Undres the target for 5 seconds\r\nRequirements: patch 1.5 (i use that)\r\nLocation:\r\n- The books seller is in Whiterun - The Drunken Huntsman - Elrindir\r\n- You must buy the books and then learn the spells. Or look the tiny box close there.\r\n---if you need the spellids:\r\n xx000D62 Generic Uncensor\r\n xx0022ef Uncensor Bean\r\n xx00331B Naughty Explosion\r\n xx0048BE Naughty Explosion NoFX\r\n xx0048BA Voice Disarm Naughty (learn by console: player.addshout xx0048BA) NEW!!\r\nThe new cry has 3 phases as the originals.\r\n-First phase: dis-balanced and dis-clothe for 5 seconds.\r\n-Second phase: dis-balanced and dis-clothe for 7 seconds.\r\n-Phase Three: Push and then throws down the equipment.\r\n}\r\n\r\n\r\nMod made by me.",
+  "categoryId": "75",
+  "version": "2.0.1",
+  "author": "Dimitrazzz",
+  "createdUnix": "1332544108",
+  "updatedUnix": "1334961963",
+  "containsAdultContent": true,
+  "uploadedBy": "dimitrazzz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "46845",
+      "name": "UncensorSpell OLD",
+      "version": "1.2",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "UncensorSpell OLD-13546.rar",
+      "uploadedUnix": "1332713237",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/d40f05b1c2d7ae91eac4cc87fee6e88f6efe945b5a63578f90b272edc2963c91/analysis/1406779877/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/UncensorSpell%20OLD-13546.rar?fid=46845&ttl=1535776411&ri=8192&rs=8192&setec=d6076351a0328b6e4ea67ce5bff3efdf"
+    },
+    {
+      "fileId": "54921",
+      "name": "UncensorSpell",
+      "version": "2.0a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "UncensorSpell-13546.zip",
+      "uploadedUnix": "1334961963",
+      "modVersion": "2.0a",
+      "virusScanUrl": "https://www.virustotal.com/file/ac079e852f190aa1f08b34d23b9a581abc624a99f8e269d6911fc24e69ff3808/analysis/1406825843/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/UncensorSpell-13546.zip?fid=54921&ttl=1535776411&ri=8192&rs=8192&setec=140a957a01d5fb09dba42a863211c80d"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 35024.0,
+  "modName": "enb 24 - Eye of Azura",
+  "summary": "enb 24 is a custom configuration of v.0.168 (v.0.172 pending) compatible with CoT & RLO.\r\n\r\nIncludes:\r\n- Near vanilla color palette\r\n- Bright days, soft sunrays & glowing Magnus corona\r\n- Rich shadows, moody grey storms, and dark nights\r\n- Subtle bloom & naturalistic sunsprite\r\n- Soft Depth of Field & Bokeh settings",
+  "descriptionHtml": "[center][img]http://users.rcn.com/zer01chi/enb24-banner.png[/img][/center]\r\n[color=orange]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::features[/color][list]\r\n[*] [b]Near[/b] [color=grey]vanilla color palette[/color]\r\n[*] [b]Bright[/b] [color=grey]days,[/color] [b]soft[/b] [color=grey]sunrays &[/color] [b]glowing[/b] [color=grey]Magnus corona[/color]\r\n[*] [b]Rich[/b] [color=grey]shadows,[/color] [b]moody[/b] [color=grey]grey storms, and[/color] [b]dark[/b] [color=grey]nights[/color]\r\n[*] [b]Subtle[/b] [color=grey]bloom &[/color] [b]naturalistic[/b] [color=grey]lens flare/sunsprite[/color]\r\n[*] [b]Soft[/b] [color=grey]Depth of Field & Bokeh settings[/color][/list]\r\n\r\n[color=orange]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::compatibility[/color]\r\n[center]This has been optimized to work with...\r\n\r\n[url=http://skyrim.nexusmods.com/mods/30450/][IMG]http://imageshack.us/a/img687/4839/rlo.png[/IMG][/url]\r\n[url=http://skyrim.nexusmods.com/mods/17802][IMG]http://imageshack.us/a/img69/9439/coty.png[/IMG][/url]\r\n\r\n[color=grey]... though it [i]should[/i] be fine with any other lighting/weather mod.[/color][/center]\r\n[color=orange]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::installation[/color]\r\n1. Download [url=http://www.enbdev.com/download_mod_tesskyrim.htm]enb v0.168[/url].\r\nUnzip the \\\"WrapperVersion\\\" folder to your game\\'s root folder\r\n[color=grey] [i]([u]ex[/u]. C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim)[/i][/color]\r\n\r\n2. Unzip the \\\"Main File\\\" [color=grey](enb 24 - Configuration Files)[/color] to the game\\'s root folder\r\n\r\n3. Install the enb patch [color=grey][i](also provided for download under \\\"Optional Files\\\" for convenience)[/i][/color]\r\n\r\n* [u]NOTE 1[/u]: Users of SparrowPrince\\'s [url=http://skyrim.nexusmods.com/mods/13268/]W.A.T.E.R. mod[/url] should also grab the compatibility patch [color=grey] found on the [url=http://enbseries.enbdev.com/forum/viewtopic.php?f=6&t=1499]ENB website[/url][/color]\r\n\r\n* [u]NOTE 2[/u]: [i]Khajiit[/i] players [color=grey](including [i]Werewolf[/i] or [i]Vampire[/i] characters that require [i]Beast Vision[/i])[/color] will need to make a simple modification...\r\n[center]edit [color=green]enbseries.ini[/color] [color=grey]([i]under[/i] [EFFECT]) [/color]: ... set [color=red]UseOriginalPostProcessing[/color]=true.[/center]\r\n[color=orange]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::recommendations[/color]\r\n1. Make sure that your monitor is calibrated. [color=grey]\r\nTry the [url=http://www.lagom.nl/lcd-test/]Lagom LCD monitor test pages[/url][/color]\r\n\r\n2. For best results with minimal conflict, disable visual settings on both video card & in game.\r\n\r\nSpecifically, turn off: [list]\r\n[*]video card: Antialiasing - Transparency, Antialiasing -FXAA\r\n[*]game settings: Antialiasing, Anistropic Filtering[/list]\r\n[color=orange]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::troubleshooting & errata[/color]\r\nInformation can be found under related topics in this mod\\'s [i]Forums[/i] section.\r\n\r\n[center][img]http://users.rcn.com/zer01chi/sab_ban.png[/img][/center]\r\n\r\n[color=yellow]NOTE:[/color] [color=orange]Nvidia GeForce320.18[/color] Driver makes a mess of the sun rays effect (resulting in it bleeding through objects).\r\nFor these users, I recommend rolling back to [color=yellow]314.22[/color] or disabling sunrays until a solution is found/provided.\r\n\r\n[color=orange]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::SPECIAL THANKS TO...[/color][list]\r\n[*] [color=red]Bosir Vorontsov[/color] for his [b]ENB[/b] hard work that made it all possible\r\n[*] [color=orange]Polo[/color] for his exquisitely naturalistic [color=grey][i](eyeball not lens effect)[/i][/color] [b]sunsprite[/b]\r\n[*] [color=yellow]americanflyer82[/color] for his 24hr color palette [color=grey][i](first designed for Rex flight simulator)[/i][/color]\r\n[*] [color=green]mindflux[/color] for the particle patch\r\n[*] [color=violet]Matsuo[/color] for the Bokeh code\r\n[i]...and the [b]ENB community[/b] for all your hard work, shared thoughts and inspiration[/i][/list]",
+  "categoryId": "62",
+  "version": "2.1.2",
+  "author": "zer01chi",
+  "createdUnix": "1366428273",
+  "updatedUnix": "1370326347",
+  "containsAdultContent": false,
+  "uploadedBy": "Sabbryn",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000025405",
+      "name": "Skyrim Particle Patch for ENB - All in One",
+      "version": "2013.0224",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "7216",
+      "fileName": "Skyrim Particle Patch for ENB - All in One-35024-.zip",
+      "uploadedUnix": "1366434778",
+      "modVersion": "2013.0224",
+      "virusScanUrl": "https://www.virustotal.com/file/a6ea90df810bff2902cd07a672129794a5fbcc100755cfbb1a4ba27766e81ba6/analysis/1407530645/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Particle%20Patch%20for%20ENB%20-%20All%20in%20One-35024-.zip?fid=1000025405&ttl=1535813286&ri=8192&rs=8192&setec=5b84d554e620983919b6554458130722"
+    },
+    {
+      "fileId": "1000032758",
+      "name": "enb 24 - Eye of Azura - Configuration Files",
+      "version": "2.1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "58",
+      "fileName": "enb 24 - Eye of Azura - Configuration Files-35024-2-1-2.zip",
+      "uploadedUnix": "1370326347",
+      "modVersion": "2.1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/ce36c0d0b4a3dd4e5c50f2865eb0161573d7b553d5909578fb304025d16021af/analysis/1407591668/",
+      "changelogHtml": " - Bokeh/DoF upgraded & configured for soft effect settings <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/enb%2024%20-%20Eye%20of%20Azura%20-%20Configuration%20Files-35024-2-1-2.zip?fid=1000032758&ttl=1535813286&ri=8192&rs=8192&setec=2af2b98d027c1a225843c5d43b48bc24"
+    }
+  ]
+}

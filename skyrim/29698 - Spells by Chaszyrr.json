@@ -1,0 +1,48 @@
+{
+  "modId": 29698.0,
+  "modName": "Spells by Chaszyrr",
+  "summary": "A mod that adds new spells to Skyrim, without breaking gameplay. More will be added over time with updates and the author will be accepting ideas for all things magic.",
+  "descriptionHtml": "Name: Spells by Chaszyrr\r\nVersion: 1.1\r\nDate: 25/1/2013\r\nAuthor: Chaszyrr\r\nSource: http://skyrim.nexusmods.com/mods/29698\r\n\r\nHi Guys, I\\'m no longer working on the mod as I\\'ve pretty much moved on from TESV. Feel free to use any content here however you like.\r\nThanks so much for the DLs and Endorsements. Bye everyone.\r\n\r\n\r\nDescription\r\n===========\r\nAdds new spells to Skyrim that can be learned through spell books.\r\nCurrent spells in the mod are:\r\n - Energy Wave / Mega Flare: Basic expert level concentration damage spell, with a small explosion radius. When dual cast, the beam grows larger with different sounds.\r\n - Kinetic Blast: Adept level alteration, A cone of force very similar to Fus Ro Dah, which also increases in size (and range too) when dual cast.\r\n - Call Lightning: Master Alteration Ritual Spell that changes the weather if cast outside and also knocks most enemies back a little. Bolts of lightning will periodically strike, similar to the Storm Call shout. Will harm followers and non - combat npcs and will cause a bounty if witnessed.\r\n - Weather change: Rain, Snow and Pleasant.\r\n - Temporary Weapon Enchanting Spells: Element damage and paralyze. \r\n - Volley Spells: less damage and cost destruction spells with no charge time so you can spam them.  (not a replacer, new spells added)\r\n - Weakness to Spells: Reduces resistances to elements , causing your destruction spells to do more damage.\r\n\r\n\r\nLocation\r\n========\r\nThe spell books can be found at the Arcaneum in the College of Winterhold, or use the console commands:\r\n\t1. help \\\"Spell tome: Energy Wave\\\" gives you a refID\r\n\t2. player.additem xxxxxxxx (refID) 1 (amount)\r\n\r\nRequirements\r\n============\r\nDLCs Not required.\r\nAny player can be given the spells, however they are of varying levels and some will not be efficient to a low level caster.\r\nI believe npcs will not use spells they don\\'t meet requirements for.\r\n\r\nManual Install\r\n==============\r\n1. Copy the .esp file to your Data folder, in your main Skyrim folder (where TESV.exe is located). This is usually C:\\\\Program Files (x86)\\\\Steam\\\\SteamApps\\\\common\\\\skyrim\\\\Data\r\n2. Start Skyrim Launcher, click \\'Data Files\\', place a checkmark beside the .esp file. Note that SKSE does not load the launcher, startup Skyrim without it or use a mod manager.\r\n\r\nUninstall\r\n=========\r\n1. Start Skyrim Launcher, click Data Files, uncheck the .esp file.\r\n2. Delete the .esp file from the skyrim folder.\r\n\r\n\r\nIncompatibility\r\n===============\r\nThis mod only adds objects. These are created using CK from Skyrim.esm data, and so will be compatible with all mods. No files within the CK were edited, only duplicated and renamed.\r\n\r\nKnown Issues or Bugs\r\n====================\r\nThe Mega Flare projectile\\'s visual carries on after a hit, but as far as I know has no other effect in game.\r\n\r\nThe weapon enchantment spells are slightly buggy, if you drop your weapon they may retain the enchantment\\'s shader and draw sounds. In one instance the enchantment became permanent, but I cannot replicate that one. Basically, don\\'t drop your weapon or quicksave / load too much.\r\n\r\nHistory\r\n=======\r\n1.1, 25/1/2013 - Added spells.\r\n1.0, 10/1/2013 - Initial release.\r\n\r\nContact\r\n=======\r\nMy Skyrim Nexus profile name is Chaszyrr.\r\nhttp://skyrim.nexusmods.com/users/5037407\r\n\r\nYou can message me in the Nexus Forums\r\nOr you can send me an email here: arc271187@hotmail.com\r\n\r\nCredits\r\n=======\r\nThanks to Bethesda for creating Skyrim and the CK.\r\nThanks to NMM team for making modding possible for inexperienced users like myself.\r\n\r\nLicensing/Legal\r\n===============\r\nYou can do whatever you want with this mod but all I ask in return is that you give me credit if you distribute any part of this mod.\r\n\r\n.",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "Chaszyrr",
+  "createdUnix": "1357735790",
+  "updatedUnix": "1359034494",
+  "containsAdultContent": false,
+  "uploadedBy": "Chaszyrr",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000001161",
+      "name": "Spells by Chaszyrr v1",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Spells by Chaszyrr v1-29698-1-0.zip",
+      "uploadedUnix": "1357735891",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/fbc8153af1ae5c654b3ac67ea83c570da100f7fd87dbb97bde24572fb163c201/analysis/1407345139/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Spells%20by%20Chaszyrr%20v1-29698-1-0.zip?fid=1000001161&ttl=1535804018&ri=8192&rs=8192&setec=9deeddc2593c0512d0672754cd12c8a8"
+    },
+    {
+      "fileId": "1000004573",
+      "name": "Spells by Chaszyrr v1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "Spells by Chaszyrr v1_1-29698-1-1.zip",
+      "uploadedUnix": "1359034494",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/b2631312329fa13d4a5aeca965252e21056e657b67760eb238918ed0e5657fc0/analysis/1407376531/",
+      "changelogHtml": " - Weather change: Rain, Snow and Pleasant. <br/> \n - Temporary Weapon Enchanting Spells: Element damage and paralyze.  <br/> \n - Volley Spells: less damage and cost destruction spells with no charge time so you can spam them. (not a replacer, new spells added) <br/> \n - Weakness to Spells: Reduces resistances to elements, causing your destruction spells to do more damage. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Spells%20by%20Chaszyrr%20v1_1-29698-1-1.zip?fid=1000004573&ttl=1535804018&ri=8192&rs=8192&setec=55cde235a2ff5e28bd9465677ad5cfee"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 33085.0,
+  "modName": "NPC Info Spell",
+  "summary": "Adds a spell that will display the target\\'s health, magicka, stamina and skills.",
+  "descriptionHtml": ">> Description\r\n\r\nAdds a spell that will display the target\\'s:\r\nName, level, race and gender;\r\nhealth, magicka and stamina (current and base);\r\nlevel in all combat, magic and stealth skills.\r\n\r\nThe spell will also show if the target is essential, or is commanded by another (i.e. summoned or raised from the dead).\r\n\r\nIt was designed to work on NPCs, but will actually happily work on other creatures as well.\r\n\r\nThe spell is automatically added to the player when the game is started with the mod installed. If for any reason this doesn\\'t work, at the moment you will have to use the console to add the spell (use [code]help \\\"npc info spell\\\"[/code] to get the ID of the spell, then [code]player.addspell xx000d6d[/code] where [code]xx000d6d[/code] is the spell ID).\r\n\r\n>> Compatibility and requirements\r\n\r\nNo requirements. Just adds new bits based upon vanilla game, so should be no compatibility issues.\r\n\r\n>> Inspiration\r\n\r\nThis has pretty much the same effect as the [url=http://skyrim.nexusmods.com/mods/9688]Detect Skills spell[/url] mod, but has been created completely from scratch as that mod didn\\'t include the script source files for me to look at!\r\n\r\nThis was created as a stepping stone for another idea, but can also be useful on followers to see what they are actually best at. I\\'m also hoping that by publishing this mod now I can get some feedback on the outstanding issues (see below).\r\n\r\n>> Known issues / bugs\r\n\r\n- The first time the spell is cast, the message box will just show \\\"[...]\\\" instead of the target\\'s name and race. Casting the spell again should get the correct name.\r\n- A surprising number of targets will show up as \\\"Fox\\\" race (including unique dragons such as Sahloknir, and Whiterun Guards for that matter). This appears to come from the fact that the targets use templates, so the base object does show up as Fox race in the creation kit.\r\n\r\nIf anybody knows (or can work out) a way round these issues, please let me know.\r\n",
+  "categoryId": "75",
+  "version": "0.1",
+  "author": "rbw23",
+  "createdUnix": "1362913536",
+  "updatedUnix": "1362911825",
+  "containsAdultContent": false,
+  "uploadedBy": "rbw23",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000016443",
+      "name": "NPC Info Spell",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "NPC Info Spell-33085-0-1.7z",
+      "uploadedUnix": "1362911825",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/5ce595c3fae02d3ff24fdfb4c66c705b4524a7318585d7cc81632ad5bfb38f87/analysis/1407462663/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NPC%20Info%20Spell-33085-0-1.7z?fid=1000016443&ttl=1535809986&ri=8192&rs=8192&setec=d4666c60cda4c93c9bc3378f9c8f34ab"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 27173.0,
+  "modName": "PsiKotics SkyMo Necromancy Mod - SKYRE PERK COMPATIBILITY",
+  "summary": "Allow the usage of PsiKotics Necromancy Mod (SkyMoMod edition) perks, to work along side the overhaul of the Conjuration Perk Tree provided by SkyRe, flawlessly!",
+  "descriptionHtml": "Name: PsiKotics SkyMo Necromancy Mod - SKYRE PERK COMPATIBILITY\r\nVersion: 1.0\r\nDate: 11/20/2012\r\nCategory: Gameplay effects and changes\r\nAuthor(s): PsiKotics, (Patch By) †TYRANICK†™\r\nSource: SkyrimNexus\r\n\r\nDescription\r\n===========\r\n\r\nAllows the usage of PsiKotics Necromancy Mod (SkyMoMod edition) perks, to work along side the overhaul of the Conjuration Perk Tree provided by SkyRe, flawlessly! I added them all in via the CK and rebuilt the tree to be as like for like as possible and not too spread out (within reason)\r\n\r\nI decided that i loved the mod so much i wanted it to work properly with SkyRe and its perks, so this allows it to work seamlessly by adding the perks added by Psi\\'s mod, to work alongside SkyRe without issue!\r\n\r\nShould work with all future versions of SkyRe/SkyMoMod.\r\n\r\nIf Psi ends up updating his main mod to incorperate this fix, then this is no longer needed :)\r\n\r\n*** I take no responsibilty for the creation of the original mod(s), this is simply a compatibility ESP that allows the correct function of, said described mods, to work without issues, all credit goes to those credited***\r\n\r\nRequirements\r\n===========\r\n\r\nDAWNGUARD\r\nSkyMoMod: http://skyrim.nexusmods.com/mods/9694\r\nPsiKotics SkyMo Necromancy Mod http://skyrim.nexusmods.com/mods/25024\r\nSkyRe: http://skyrim.nexusmods.com/mods/9286\r\n\r\nLoad Order IMPORTANT!\r\n===========\r\n\r\nFor this to work, your load order need to basically be as follows:\r\n00  Skyrim.esm\r\n01  Update.esm\r\n02  Dawnguard.esm\r\n03  SkyMoMod.esm\r\n04  PsikoticsSkyMoNecro.esp\r\n05  SkyRe_Main.esp\r\n>>>Compatibility Patch - PsiNecroSkyMo with SkyRe.esp<<<\r\n\r\nAslong as the masters in are in that order, your fine.\r\n\r\nInstallation\r\n===========\r\n\r\nDrag and drop the ESP into your DATA folder, tick it in the launcher (or more preferably, use Wyre Bash to enable it) and follow the procedure:\r\n\r\nLoad PsikoticsSkyMoNecro.esp mod just BEFORE SkyRe_Main.esp, THEN load my compatibility ESP after it and your done, rebuild your bashed patch as normal and if using ASIS rebuild that aftwards as well (in order, add mod, untick bash, untick ASIS, redo bash, tick, redo ASIS, tick, done!)\r\n\r\nUninstall\r\n===========\r\n\r\nJust remove the esp, thats all, no harm will be done as with SkyRe atm, if your remove a mod, you get a respect potion anyway. So you get your perks refunded\r\n\r\nCompatibilty\r\n===========\r\n\r\nAs the conjuration tree in pretty much complete for SkyRe now, all subsequent versions of skyre will be fine, as i say, this DOES NOT interfere with SkyRe conjuration perks, AT ALL it simple ADDS these perks by Psi\\'s great mod, along side these perks \r\n\r\nHistory\r\n=======\r\n1.0  2012/11/20 - Initial release.\r\n\r\nCredits\r\n=======\r\nThanks to Bethesda for creating Skyrim and the Creation Kit.\r\nThanks to PsiKotics for his AMAZING mod to begin with.\r\nThanks to LHammonds for the Readme Generator this file was based on.\r\n\r\nTools Used\r\n==========\r\n7-Zip - http://www.tesnexus.com/downloads/file.php?id=15579\r\nReadme Generator - http://HammondsLegacy.com/obmm/tools_readme_generator1.asp\r\nCK - Bethesda\r\n\r\n\r\nLicensing/Legal\r\n===============\r\nThis mod is not to be uploaded to any other site for any reason, regardless of whether or not you can contact me or the original author",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Tyranick",
+  "createdUnix": "1353422221",
+  "updatedUnix": "1353422429",
+  "containsAdultContent": false,
+  "uploadedBy": "†TYRANICK†™",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "100690",
+      "name": "PsiNecroAndSkyreCompatibility",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "PsiNecroAndSkyreCompatibility-27173-1-0.rar",
+      "uploadedUnix": "1353422429",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1e4002571cad9672a634a48a7d629660c7d7a2906eda2a4dd03558c8ed0bd9b8/analysis/1407271026/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PsiNecroAndSkyreCompatibility-27173-1-0.rar?fid=100690&ttl=1535799742&ri=8192&rs=8192&setec=4964784a4b312c1c024f3f716e37a8e5"
+    }
+  ]
+}

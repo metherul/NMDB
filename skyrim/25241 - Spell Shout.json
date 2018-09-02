@@ -1,0 +1,32 @@
+{
+  "modId": 25241.0,
+  "modName": "Spell Shout",
+  "summary": "Changes most, if not all, non-concentration spells into lesser powers. No more, no less.\r\nNow you can cast spells without taking up one of your hand slots!",
+  "descriptionHtml": "One of the things that bugged me about Skyrim\\'s magic system is that it takes up your hand slots. This is fine and dandy for a pure mage character, but a bit of an annoyance to hybrids; you have to give up at least one hand slot to use any given spell. As such, I decided to fiddle around with the CK a bit and see what I could come up with to remedy this little pet peeve of mine.\r\n\r\nAn hour later, including a bit of play-testing, and this is the result.\r\n\r\n\\\"Spell Shout\\\" is named mostly because it moves spells to the voice slot, which is shared between various power and the obvious dragon shouts. To make them functional, spells are re-branded as lesser powers (allowing for them to be cast more often than once per day); they just don\\'t seem to work when they\\'re still spells for whatever reason.\r\n\r\nThis comes with a few side-effects:\r\n- Spells effectively have no cost. In terms of balance, this is a borderline cheat as a result. This is at the top of the \\\"fix-it\\\" list.\r\n- Dual-casting spells is no longer possible. There\\'s presumably no way around this problem, so tweaks to the dual-casting perks (and any other perks which make use of it) are more likely to be incorporated in the future.\r\n- There is no indication for when a spell is fully charged. Yes, they\\'ve retained their charge-up times.\r\n- Spells no longer generate sound effects when cast. Things still seem to have audio upon impact.\r\n\r\nConcentration spells, such as Flames and Sparks, were left out of this mod due to how they are cast... though they should be fine in theory, I\\'ll have to test it out. Spells from beyond the base game, such as those from Dawnguard, are unaffected by this mod; the changes are on a spell-to-spell basis. No clue how compatible this is with other magic mods, so use with caution.\r\n\r\nAnyhow, this is mostly a \\\"for-fun\\\" mod which makes magical hybrid classes a bit more viable. Dragon shouts do allow for some variation, but this mod will open up most of the non-shout spells to you as well.",
+  "categoryId": "93",
+  "version": "1.0",
+  "author": "LordThauron",
+  "createdUnix": "1349750581",
+  "updatedUnix": "1349750665",
+  "containsAdultContent": false,
+  "uploadedBy": "LordThauron",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "92875",
+      "name": "Spell Shout - v1-0",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Spell Shout - v1-0-25241-v1-0.7z",
+      "uploadedUnix": "1349750665",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d2f0e963e2d8766183fd271904fda121ef036741acd7d41666fc50aa3a4587fb/analysis/1407210967/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Spell%20Shout%20-%20v1-0-25241-v1-0.7z?fid=92875&ttl=1535796652&ri=8192&rs=8192&setec=612376b8c790862118504b3a379b0998"
+    }
+  ]
+}

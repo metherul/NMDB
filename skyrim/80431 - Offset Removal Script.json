@@ -1,0 +1,32 @@
+{
+  "modId": 80431.0,
+  "modName": "Offset Removal Script",
+  "summary": "An xEdit script that quickly removes attribute offsets from all NPCs.",
+  "descriptionHtml": "This script removes all attribute offsets (i.e. health, magicka, and stamina) from all NPCs. I made it because I was tired of using the Grimy Combat Patcher for the same purpose.\r<br />\r<br />[b]What removing offsets means\r<br />\r<br />[/b]Basically, NPCs generally have offsets for their health, magicka, and stamina, so they&#39;re higher than they would be with the default calculation. As a result, it can take FOREVER to kill some enemies, and draining magicka and stamina is not a viable tactic, since enemies generally have enough of both that it doesn&#39;t make a difference. By removing the offsets, each attribute is much lower, so both of those problems are solved.\r<br />\r<br />This is not going to be for everyone, since 1) enemies now take less time to kill, so those who enjoy whacking away at one enemy for ten minutes will be disappointed, and 2) NPCs are idiots and the offsets are designed to compensate for that. To explain the latter concern a bit better, the enemy AI in the game is designed for the offsets to be there. Enemies will do really dumb things that the offsets are meant to make less suicidal. Without the offsets, those two things are rather dumb to do, but enemies still do them.\r<br />\r<br />To compensate for this, I would recommend following [url=https://www.reddit.com/r/skyrimmods/comments/47ea59/elite5472s_smug_guide_to_skytweaking_and_hard_but/]this guide[/url], which is designed to fix the game&#39;s balance using SkyTweak. I designed this script to accompany the guide, as a replacement for the Grimy Combat Patcher&#39;s part. Basically, if you want to use this script as it was originally intended, follow that guide, substituting this script for the Grimy Combat Patcher.\r<br />\r<br />[b]Installation[/b]\r<br />\r<br />First off, you need MXPF by matortheeternal. Get it [url=https://github.com/matortheeternal/mxpf/releases]here[/url].\r<br />\r<br />Merge the Edit Scripts folder in the archive with the one in your xEdit directory. Then open up TES5Edit and either hit Control, Alt, and H (if you want to use the hotkey) or right click on anything in the left pane, select Apply Script, and select &#34;Offset Remover&#34; in that window.\r<br />\r<br />Let me make this clear: [b]this does not go in the Data folder.[/b]\r<br />\r<br />[b]Uninstallation\r<br />\r<br />[/b]Remove any patch file made with the mod and delete the script from the Edit Scripts folder.\r<br />\r<br />[b]Troubleshooting\r<br />\r<br />[/b]If the Messages tab says that it failed to copy some things because of an assertion failure, run Check for Errors on those mods and see if it finds anything. If it doesn&#39;t, post in the comments section.",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "bigguy132l",
+  "createdUnix": "1479944365",
+  "updatedUnix": "1483733128",
+  "containsAdultContent": false,
+  "uploadedBy": "bigguy132l",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000232999",
+      "name": "Offset Remover",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Offset Remover-80431-1-1.rar",
+      "uploadedUnix": "1483733128",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/e67de1290d661bf401759de2de8cd257eee1dc694a8985b2a979547af16f0dff/analysis/1483733522/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Offset%20Remover-80431-1-1.rar?fid=1000232999&ttl=1535869054&ri=8192&rs=8192&setec=e521716983cc783e705a60ff2f866a63"
+    }
+  ]
+}

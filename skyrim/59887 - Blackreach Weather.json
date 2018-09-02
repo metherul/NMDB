@@ -1,0 +1,32 @@
+{
+  "modId": 59887.0,
+  "modName": "Blackreach Weather",
+  "summary": "A simple edit that eliminates the floating white spots in Blackreach.",
+  "descriptionHtml": "The entire purpose of this mod is to remove the floating white spots inside of Blackreach.  I don&#39;t know if it&#39;s meant to be spores, or dust, or even the snow that it is classed as inside of the weather record, and honestly I don&#39;t really care what it&#39;s meant to be, because what it is, is aggravating.  It has bothered me since the first moment I ventured inside of Blackreach, but it was never successfully resolved until now.  See the images for more information.\r<br />\r<br />For those wanting to know technical specifics, one base weather record (BlackreachWeather [WTHR:00048C14]) was edited in order to remove the precipitation and snow flag from it.  Everything else in the record remains vanilla.  There are no dependencies on any record except for Skyrim.esm; no DLCs are required.  If another mod, such as Pure Weather, edits the same record, then it will be incompatible, but this can easily be resolved via TES5Edit.  In the interest of respecting other mod authors, I will not upload any edits of their works here.\r<br />\r<br />As an additional note, the images showing the snow effect are actually taken using [url=http://www.nexusmods.com/skyrim/mods/52986]SNOW 3_1[/url] and are actually not as severe as the base vanilla snow effect, though it still bothers me.",
+  "categoryId": "74",
+  "version": "1.0",
+  "author": "Lyss",
+  "createdUnix": "1415788633",
+  "updatedUnix": "1415788543",
+  "containsAdultContent": false,
+  "uploadedBy": "Lyss",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000134963",
+      "name": "BlackreachWeather",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "BlackreachWeather-59887-1-0.7z",
+      "uploadedUnix": "1415788543",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ff35ad857f41d1c5e643898779ceeb497b4f15390355cbbd1d7a3da6684efdaa/analysis/1415788622/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BlackreachWeather-59887-1-0.7z?fid=1000134963&ttl=1535847316&ri=8192&rs=8192&setec=63fcc76d01ffef2fd01ae6f8bc286467"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 74398.0,
+  "modName": "Fix para el Creation Kit",
+  "summary": "Modificaciones para poder lanzar varios Master Files con el Creation Kit",
+  "descriptionHtml": "Para poder lanzar el Creation Kit con varios DLC&#39;s hay que añadir unas líneas al SkyrimEditor.ini\r<br />\r<br />[General]\r<br />sLanguage=SPANISH\r<br />bAllowMultipleMasterFiles=1\r<br />bAllowMultipleMasterLoads=1\r<br />\r<br />[Archive]\r<br />SResourceArchiveList=Skyrim - Textures.bsa, Skyrim - Meshes.bsa, Skyrim - Animations.bsa, Skyrim - Voices.bsa, Skyrim - Interface.bsa, Skyrim - Misc.bsa, Skyrim - Sounds.bsa, Skyrim - Voicesixtra.bsa, Skyrim - Dawnguard.bsa, Skyrim - HearthFires.bsa, Skyrim - Dragonborn.bsa\r<br />SResourceArchiveList2=Skyrim - Shaders.bsa, Update.bsa, Dawnguard.bsa, HearthFires.bsa, Dragonborn.bsa\r<br />\r<br />\r<br />Eliminar los DLC&#39;s de las listas de Archive dependiendo de los que tengáis. ",
+  "categoryId": "39",
+  "version": "1.0final",
+  "author": "Unknown",
+  "createdUnix": "1458649550",
+  "updatedUnix": "1458649544",
+  "containsAdultContent": false,
+  "uploadedBy": "raisfas",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000200224",
+      "name": "Fix para el Creation Kit",
+      "version": "1.0final",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Fix para el Creation Kit-74398-1-0final.rar",
+      "uploadedUnix": "1458649544",
+      "modVersion": "1.0final",
+      "virusScanUrl": "https://www.virustotal.com/file/61adb6ab11d80568e06f5510157e4311285b40ef00502495be6bef264e176682/analysis/1458649566/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fix%20para%20el%20Creation%20Kit-74398-1-0final.rar?fid=1000200224&ttl=1535863235&ri=8192&rs=8192&setec=675159be4ca1f33b8122cd41ad70ccff"
+    }
+  ]
+}

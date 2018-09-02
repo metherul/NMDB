@@ -1,0 +1,48 @@
+{
+  "modId": 31516.0,
+  "modName": "Adimals Wintersands Hall",
+  "summary": "A house that reflects your journey through the main quest line as well as the completion of the main Faction quests.",
+  "descriptionHtml": "[color=#4085BD][size=5][b]WINTERSANDS HALL: A PLAYER HOUSE MOD THAT REFLECTS YOUR JOURNEY[/b][/size][/color]\r\n\r\n[color=#4085BD][size=4][b]Description: The short version[/b][/size][/color][size=2]\r\n[list]\r\n[*]Furnishings will change automatically based on the quests you complete\r\n[*]You have to be Thane of Whiterun (or completed \\'Dragon Rising\\')\r\n[*]You need subtitles on to read the silent dialogue\r\n[*]It is located to the west just outside Whiterun\r\n[*]\\'Discover\\' it to start the quest\r\n[*]It costs 4000 gold\r\n[/list][/size]\r\n\r\n[color=#4085BD][size=4][b]IMPORTANT:[/b][/size][/color]\r\n[size=2]IF YOU\\'RE UPDATING FROM V1, MAKE SURE TO REMOVE ALL YOUR STUFF FROM THE HOUSE FIRST![/size]\r\n\r\n[color=#4085BD][size=4][b]Changelog:[/b][/size][/color]\r\n[size=2]Version 1.1\r\n[list]\r\n[*] Thane shields should now appear\r\n[*] Several plants added indoors\r\n[*] Extra lighting downstairs\r\n[*] Lantern added externally\r\n[/list][/size]\r\n\r\n\r\n[color=#4085BD][size=4][b]Description: The normal version[/b][/size][/color]\r\n[size=2]There are plenty of awesome house mods that either have everything you could want available from installation, or make all types of clutter available for purchase. I wanted to do something different. I wanted to create a house mod that rewarded you for questing, without penalising you for not doing so (having said that, you need to complete the quest \\'The Horn of Jurgen Windcaller\\' to unlock all house areas).\r\n\r\nWelcome to Wintersands Hall.\r\n\r\nPrimarily designed for new characters, it reflects your journey through the main quest line as well as the completion of the main Faction quests. During your adventures in Skyrim, it\\'s likely that you may gain followers. Well, with a little help of a mod like [url=http://www.skyrim.nexusmods.com/mods/18045]My home is your home[/url], your followers can join you and bring some life to the Hall!\r\n\r\n\r\n[color=#4085BD][b]Mod: Changes, additions, compatibilities and incompatibilities[/b][/color]\r\n[list]\r\n[*]Additions (the house) and changes to the NavMesh have been made in cell X2, Y-3 (just outside Whiterun, to the west); therefore it will be incompatible with any other mod that makes changes to this cell. It IS compatible with [url=http://skyrim.nexusmods.com/mods/18916]Lanterns of Skyrim[/url].\r\n\r\n[*]Aliases have been used for quest NPC\\'s, therefore it should be compatible with any other well made mod that happens to use the same unique characters.\r\n\r\n[*]The mod adds several new scripts and items, but does not change any base attributes or add any new meshes/textures.\r\n[/list]\r\n\r\n[color=#4085BD][b]Load Order[/b][/color]\r\nCan go earlier in your list, but should go after the Unofficial patches and Lanterns of Skyrim, re changes to the Cell X2, Y-3.\r\n\r\n\r\n[color=#4085BD][b]Mod: Known Issues[/b][/color]\r\n\\'Silent dialogue\\' for existing NPCs:\r\nRecording different voiceacting for existing NPCs seems daft; I might implement the \\'message box\\' system, but for now make sure the Dialogue Subtitles are on under General Settings in game. Suggestions on alternative fixes for this are welcome.\r\n\r\nMannequins:\r\nIf you find the mannequins \\'restless\\', you should install a fix mod like [url=http://skyrim.nexusmods.com/mods/10652]this one[/url].\r\n\r\nThane Shields:\r\nThey appear as soon as you start to help out a Jarl, rather than when you\\'re made Thane. I\\'m working to find the correct, but somewhat elusive \\'Thane variable\\' for my script to reference.\r\n\r\n\r\n[color=#4085BD][b]A list of Quests IDs that create changes for Wintersands Hall:[/b][/color]\r\nMQ105, MQ105Ustengrav, MQ106, MQ201, MQ203, MQ305, C06, DB11, MG08, TG09, Favor250, Favor252, Favor254, Favor255, Favor256, Favor257, Favor258 and FreeformRiftenThane.[/size]",
+  "categoryId": "67",
+  "version": "1.1",
+  "author": "Adimal",
+  "createdUnix": "1360652755",
+  "updatedUnix": "1360807602",
+  "containsAdultContent": false,
+  "uploadedBy": "Adimal",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000009164",
+      "name": "AdimalsWintersandsHall",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "29",
+      "fileName": "AdimalsWintersandsHall-31516-1-0.7z",
+      "uploadedUnix": "1360652561",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/967999acce6b382d9a06aa793d0e269cef2d7d51c228c47ca6d9a89fcc9a9fd6/analysis/1407412481/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AdimalsWintersandsHall-31516-1-0.7z?fid=1000009164&ttl=1535807077&ri=8192&rs=8192&setec=d5801a63d220ed18a2b4b1816de65e5b"
+    },
+    {
+      "fileId": "1000009676",
+      "name": "AdimalsWintersandsHall_1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "30",
+      "fileName": "AdimalsWintersandsHall-31516-1-1.7z",
+      "uploadedUnix": "1360807602",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/5cb9d8f4d0836e600bdde8b77e609e8a9cc892eb6490ff20fd531eee4e880f65/analysis/1407416363/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AdimalsWintersandsHall-31516-1-1.7z?fid=1000009676&ttl=1535807077&ri=8192&rs=8192&setec=51fd0c1372a6bc56956e2755974b954b"
+    }
+  ]
+}

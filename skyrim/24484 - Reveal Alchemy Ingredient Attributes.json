@@ -1,0 +1,15 @@
+{
+  "modId": 24484.0,
+  "modName": "Reveal Alchemy Ingredient Attributes",
+  "summary": "It helps you get all 4 attributes of all ingredients in just a few steps. Especially recommended for new characters, if you don\\'t want to spend a long time trying to find attributes through normal gameplay.",
+  "descriptionHtml": "This gives you the perks that allow you to find all 4 attributes by eating an ingredient.\r\nThen you get all ingredients.\r\nYou eat them, to get the attributes.\r\nYou remove the perks.\r\n\r\nHow it happens is it adds 2 batch files (text documents with console commands in them), which you run ingame via the console with the bat command. That executes all commands in those 2 files. The 2 files are:\r\nia: this one adds the 3 Experimenter Perks in the Alchemy tree and 1 of all ingredients except Crimson Nirnroot. It starts a quest so that\\'s why i didn\\'t add it.\r\nia2: removes the 3 Experimenter Perks in the Alchemy tree\r\n\r\nInstall/Use:\r\n1. Download, extract files\r\n2. Place ia and ia 2 in your Skyrim directory, where SkyrimLauncher and TESV are located (NOT in the Data folder)\r\n3. Start game, load your savegame, open console, click on your character with the mouse and type: bat ia\r\n4. Go to your inventory and eat 1 of each ingredient\r\n5. Open console, (make sure your character is targeted) and type: bat ia2\r\nDone.",
+  "categoryId": "94",
+  "version": "1.0",
+  "author": "Shallala",
+  "createdUnix": "1348343472",
+  "updatedUnix": "1348343472",
+  "containsAdultContent": false,
+  "uploadedBy": "shallala",
+  "primaryFile": null,
+  "files": []
+}

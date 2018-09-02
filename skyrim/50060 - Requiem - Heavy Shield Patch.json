@@ -1,0 +1,15 @@
+{
+  "modId": 50060.0,
+  "modName": "Requiem - Heavy Shield Patch",
+  "summary": "File that modifies Requiem perk allowing heavy shields to have armor rating scaled same as light shields.",
+  "descriptionHtml": "Latest version of Requiem (1.7.3) does not correctly modify the armor rating of heavy shields like it does for light shields.  This will be fixed in the next Requiem update.  Until then you can use this file to set heavy shields to the correct armor rating.\r<br />\r<br />I used Tes5edit to copy the relevant perk as an override to this esp.  Then removed the condition for heavy shields.  You can load this in Tes5edit and see the change that was done.\r<br />\r<br />Load right after Requiem.esp.\r<br />\r<br />1/18/2014 - added version 2 in which I Added ArmorHeavy [KYWD:0006BBD2] to Spellbreaker and Shield Of Solitude for correct armor rating, per request.  ESP has same file name so just overwrite the old one.\r<br />",
+  "categoryId": "84",
+  "version": "2.0",
+  "author": "peter1962",
+  "createdUnix": "1390074164",
+  "updatedUnix": "1390074164",
+  "containsAdultContent": false,
+  "uploadedBy": "peter1962",
+  "primaryFile": null,
+  "files": []
+}

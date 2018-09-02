@@ -1,0 +1,48 @@
+{
+  "modId": 78241.0,
+  "modName": "Culling data glitch fix",
+  "summary": "Fixes holes in water at the north of Winterhold (among various places).",
+  "descriptionHtml": "[color=#ff7700][size=4]This mod is more a Proof-of-Concept than any other thing.[/size][/color]\r<br />\r<br />Culling data&#39;s purpose is to improve performance at various places ingame, more specifically in huge worldspaces such as Skyrim. It&#39;s quite hard to explain (and english is not my birth language), let&#39;s just say it has the same effect as placing dynamic occlusion planes to hide material that is not supposed to be visible. For example, if you are in front of a huge mountain the game engine will use the culling data to force the material located behind to be unrendered, and so save performance.\r<br />\r<br />However, the culling data was improperly generated in the vanilla game or the game engine fails to interpret it correctly, sometimes resulting in rendering oddities. The most famous among them are the big square holes in the sea at the north of Winterhold, but I discovered that it can also happen in very specific places on the landmass.\r<br />\r<br />This plugin just blanks a still undecoded field in Skyrim datas. The trick was discovered by Hexaee/RolloLG several years ago and has to be applied to [i]each cell[/i] of the affected worldspaces, which means an [i]insanely huge amount[/i] of cells. Zilav provided me a xEdit script that handles the job and here&#39;s the result...\r<br />\r<br />[color=#ff0000][size=6]&#33;&#33;&#33; Use at your own risk &#33;&#33;&#33;[/size][/color] : you [color=#b6d7a8]MUST[/color] understand that removing a still undecoded field in the game datas may have undesirable effects or unknown consequences. I only make the assumption that this culling system was setup to improve performance on old-gen consoles poor hardware, but it&#39;s just an [i][color=#b6d7a8]assumption[/color][/i]. I [i][color=#ff0000]cannot[/color][/i] prove it without any access to the game source code. Tested for about 30 hours and the performance drop is totally unnoticeable on my rig, but I have a powerful machine. [color=#b6d7a8]Results may vary depending on your hardware...[/color]\r<br />\r<br />[color=#f1c232]Please do not report this fix to the USLEEP team as I&#39;m already one of their members, and as this plugin is NOT suitable for being merged in it (exactly for the reason I explained above).\r<br />[/color]\r<br />USLEEP fixes are carried over in this plugin, even if you don&#39;t have to have it installed. No further support will be provided. By downloading it you agree to use it &#39;as it is&#39;, with no charge against the uploader.\r<br />\r<br />[color=#93c47d]This plugin should be placed as low as possible in your load order. Last would definitely be the best. No conflict risk AFAIK.\r<br />[/color]\r<br />[color=#f6b26b][size=4]Please do not upload this file anywhere else. I want to keep track of its popularity right here, and nowhere else.[/size][/color]\r<br />\r<br />[color=#d9ead3][size=3]Credits : [/size][/color]\r<br />Hexaee / RolloLG for the original trick discovery.\r<br />Zilav for the xEdit script that allows this plugin creation.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Nico coiN",
+  "createdUnix": "1472303562",
+  "updatedUnix": "1472303623",
+  "containsAdultContent": false,
+  "uploadedBy": "nico21000",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000218521",
+      "name": "English version",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2476",
+      "fileName": "English version-78241-.7z",
+      "uploadedUnix": "1472303558",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/fa733b1dc58c5fc43e76650cdc99c2e07434349a81588ada141c41637ba2bcd3/analysis/1472303582/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/English%20version-78241-.7z?fid=1000218521&ttl=1535866936&ri=8192&rs=8192&setec=e246477b5b4e197af8bf34613b0b5726"
+    },
+    {
+      "fileId": "1000218522",
+      "name": "French version",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2476",
+      "fileName": "French version-78241-.7z",
+      "uploadedUnix": "1472303623",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/76b81579d841ec79bff2369a1bafa469cc2e413bc8c783e91be5b8cb9d36934d/analysis/1472303644/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/French%20version-78241-.7z?fid=1000218522&ttl=1535866937&ri=8192&rs=8192&setec=1ac1ded168baaa3e9f0c69b4cb74c881"
+    }
+  ]
+}

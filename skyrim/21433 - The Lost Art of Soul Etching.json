@@ -1,0 +1,48 @@
+{
+  "modId": 21433.0,
+  "modName": "The Lost Art of Soul Etching",
+  "summary": "Allows smithing of armor with very basic enchantments built in.",
+  "descriptionHtml": "note: I\\'m putting this mod on hiatus until SKSE adds a way to dynamically enchant an item. That would mean that I wouldn\\'t need to make hundreds of new items and crafting recipes for them. I\\'ll still fix any problems that come up and maybe add 3 weapon enchants to go with the thief/mage/warrior theme. We\\'ll see.\r\n---\r\n\r\nCommonly thought lost to the ages, the art of soul etching allows the crushed souls of your enemies to imbue an item with magic properties. Largely replaced by enchanting, soul etching has been forgotten by all but a few. Now you have the chance to rediscover it.\r\n\r\nWhat the mod does:\r\nAdds new recipes for creating magic armor at a forge. This isn\\'t meant to replace enchanting, but rather to give the option of getting a less powerful enchantment for those who aren\\'t yet master enchanters. An etched item should be better than what a noob enchanter could make but weaker than what a semi-experienced one could.\r\n\r\nInstallation: Use NMM. Or drop the contents of the zip file\\'s Data folder into Skyrim\\'s Data folder. It\\'s just an .esp file and two scripts.\r\n\r\nHow it works:\r\nReading a book gives the player the ability to create soul-etched armor. Different effects require different rune books to be in the player\\'s possession. These books can be closed or stored to remove clutter from the crafting menu.\r\n\r\nSpecific items added:\r\n-Soul Etching, a book that allows creating etched items.\r\n-Three rune books--one for magicka and destruction damage enchants, one for sneak and pickpocket, one for health and stamina. The open book must be in the player\\'s inventory for the options to show at the forge (to prevent menu clutter).\r\n-All vanilla-craftable chest armor and gauntlets can be made with enchantments. Magicka, sneak, and health on chest armor and destruction damage, pickpocket, and stamina on gloves. (minus Nord Hero and Gilded Elven for now)\r\n-Circlets equivalent to the novice/apprentice/adept mage hoods provide an alternative for the hood-averse player.\r\n-A mask that calls the showlimitedracemenu() command, allowing the player to change their appearance (but not race/sex/name).\r\n-Soul gem powder can be made at a smelter from filled soul gems. Different sizes provide different amounts. This is required for the etching recipes.\r\n\r\nHow to make the items:\r\nFirst, find a copy of a book called Soul Etching and read it. It\\'s on a body on the way out of Helgen and also in Farengar\\'s shop. Then, find the rune books. Right now, the rune books are all in the same places as Soul Etching, but more are planned to be elsewhere. Use a cooking fire to get the rune books open, which allows you to craft items with the related etchings/enchantments. You can store or close the rune books to clear up the crafting menus. the Soul Etching book is not required after the initial reading.\r\n\r\nCompatibility:\r\nAll the items are new and shouldn\\'t conflict with anything. I added one dead NPC on the way out of Helgen and some books to Farengar\\'s shop, which might conflict with some other mod that also modifies those. Just be aware that whichever loads last will govern what\\'s there.\r\n\r\nNOTE: This is a work in progress. If you run into any problems/errors, please let me know.\r\n\r\nQ&A:\r\nWhy do I need to cook the books to open them?\r\n-Lore-wise, this is explained in a note on the dead mage. Mechanics-wise, if it were at the forge you could repeatedly open and close the book to get infinite smithing skill.\r\n\r\nWhy do the books open and close at all?\r\n-I added 96 recipes to the smithing menu. Being able to hide them is nice.\r\n\r\nI can\\'t find the books. Did I break it?\r\n-HELGENSPOILERSthe dead guy\\'s next to the bear.SPOILERS.   If Farengar isn\\'t selling them, set this mod to load last and try again. you can set it back where it was after you have the items.\r\n\r\nWhat about armors that can\\'t normally be crafted or are from another mod?\r\n-The remaining items may be added as an optional extra file later. Popular armor mods are certainly a possibility as well, if I can get permission.\r\n\r\nWill this work with mods that alter the vanilla items\\' appearance or stats?\r\n-These versions are set to use the normal versions of the armors as a template, so I think they should take on any model/texture/stat changes made to those.",
+  "categoryId": "28",
+  "version": "0.2",
+  "author": "ElfPuncher",
+  "createdUnix": "1343771387",
+  "updatedUnix": "1343942615",
+  "containsAdultContent": false,
+  "uploadedBy": "ElfPuncher",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "77947",
+      "name": "Soul Etching 0_1",
+      "version": "0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Soul Etching 0_1-21433-0-1.7z",
+      "uploadedUnix": "1343771474",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/3dc0b3c59a07154f8aecf4dbb1ae6fa60a6746bfb8d265cda3c57ce02b771596/analysis/1407060667/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Soul%20Etching%200_1-21433-0-1.7z?fid=77947&ttl=1535790325&ri=8192&rs=8192&setec=7e065655c616243e8f80d33934dd9bd3"
+    },
+    {
+      "fileId": "78328",
+      "name": "Soul Etching 0_2",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "Soul Etching 0_2-21433-0-2.7z",
+      "uploadedUnix": "1343942615",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/a06dcd790240b2450e34aeb9dd620fb919c4ebf669b9ce9015e072a79b44f776/analysis/1407064821/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Soul%20Etching%200_2-21433-0-2.7z?fid=78328&ttl=1535790325&ri=8192&rs=8192&setec=9e40ecdbb4562ab47e3d1fdd15b44d32"
+    }
+  ]
+}

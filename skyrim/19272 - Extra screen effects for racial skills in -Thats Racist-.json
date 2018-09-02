@@ -1,0 +1,48 @@
+{
+  "modId": 19272.0,
+  "modName": "Extra screen effects for racial skills in -Thats Racist-",
+  "summary": "Based on top of the mod \"Thats Racist\" this modification adds different berserker style effects to all the races who have an active power that affects the player.",
+  "descriptionHtml": "--Extra Effects v2.0----------------------------------------------------------------------------------------------------------------\r\n> New version!\r\nNow uses the latest version of Thats Racist (v1.03.1)\r\nNew screen effects for all races except Nord and Imperial.\r\nEach race now uses a unique color!\r\nKhajiit activates it by crouching.\r\n\r\n> Colors\r\nArgonian: Green\r\nBreton: Cyan\r\nDarkElf: Orange\r\nHighElf: Blue\r\nWoodElf: Yellow\r\nKhajiit: Light Gray\r\nRedguard: Dark Gray\r\nOrc: Red\r\n\r\n> How this was done (Basically a reminder for myself in case this needs to be changed again):\r\nScript Used: \"magicimodbeginloopend\" which uses....\r\n- bPlayerOnly > boolean: \"true\"\r\n- fDelay > float: \"1.5\"\r\n- fImodStrength > default\r\n- IntroFX > \"BerserkerIntroImod\" < Intro Imod\r\n- LoopFX > \"BerserkerMainImod\" < Main Imod\r\n- OutroFX > \"BerserkerOutroImod\" < Outro Imod\r\n(make copies of the imod's for each race)\r\n\r\nScript is added to:\r\n- Argonian: \"PerkArgonianReflectDamage\"\r\n(R: 63 G: 190 B: 107 - Green)\r\n- Breton: \"RaceBretonAbsorbSpellChance\"\r\n(R: 94 G: 219 B: 225 - Cyan)\r\n- DarkElf: \"PowerDarkElfFireCloakFFSelf\"\r\n(R: 225 G: 114 B: 19 - Orange)\r\n- HighElf: \"RaceHighElfFortifyMagickaRate\"\r\n(R: 63 G: 107 B: 190 - Blue)\r\n- WoodElf: \"PowerWoodElfCloakFFSelf\"\r\n(R: 225 G: 176 B: 13 - Yellow)\r\n- Khajiit: \"RaceKhajiitSensesEffect\"\t\r\n(R: 192 G: 192 B: 192 - Light Gray)\r\n- Redguard: \"RaceRedguardSlowTime\"\r\n(R: 128 G: 128 B: 128 - Dark Gray)\r\n- Imperial: \"RaceImperialPacify\"\r\nCan't find a way to implement well.\r\n- Nord: \"RaceNordBattleCryEffect\"\r\nCan't find a way to implement well.\r\n- Orc: default\r\n\r\n--Extra Effects v1.0----------------------------------------------------------------------------------------------------------------\r\nVideo:\r\nhttp://www.youtube.com/watch?v=OWLU_Dc_BxQ\r\n\r\nSince this mod already includes \"Thats Racist\" 1.02 check the changes it makes in the link below. Suggestions are welcome.\r\n\r\nBased on top of the mod \"Thats Racist\" this modification adds different berserker style effects to all the races who have an active power with duration that affects the player.\r\n\r\nDunmer, Bosmer and Breton all use the generic effect.\r\nNords and Imperials do not have any skills like this, so they remain unchanged.\r\nKhajiit have already the Night Eye effect. \r\n\r\n\"Thats Racist\" mod:\r\nhttp://skyrim.nexusmods.com/mods/18911",
+  "categoryId": "62",
+  "version": "2.0",
+  "author": "Niux",
+  "createdUnix": "1340463454",
+  "updatedUnix": "1385063359",
+  "containsAdultContent": false,
+  "uploadedBy": "Niux",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "69838",
+      "name": "Extra Effects 1",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Extra effects for Racial Skills-19272-1.7z",
+      "uploadedUnix": "1340464031",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e9eb9c6ddecd628fa251a224292ec881cd4f817b0e26f9401efa9f21159ec56e/analysis/1406978109/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Extra%20effects%20for%20Racial%20Skills-19272-1.7z?fid=69838&ttl=1535786635&ri=8192&rs=8192&setec=4fc0a9a6d8f670c38eef023764338214"
+    },
+    {
+      "fileId": "1000081478",
+      "name": "Extra Effects 2",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Extra Effects 2-19272-.7z",
+      "uploadedUnix": "1385063359",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/bbfb0866d96b06e6d2a91590bb7dbed33b3ca762cb8417c0eeee5ed2028c3b6d/analysis/1407802286/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Extra%20Effects%202-19272-.7z?fid=1000081478&ttl=1535786635&ri=8192&rs=8192&setec=6ba932f13f54442c064474db5bde0f06"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 58246.0,
+  "modName": "ToggleWalkRunFix",
+  "summary": "Fix for the bug that the game randomly toggles Walk/Run mode.\r<br />In other words, it switches on its own\r<br />between Walk by [Shift] + [W/A/S/D] and Run by [Shift] + [W/A/S/D],\r<br />inverts the [Shift] key functionality.",
+  "descriptionHtml": "======================================================================\r<br /> ToggleWalkRunFix v0.2 by 4nexus\r<br /> http://www.nexusmods.com/skyrim/mods/58246/?\r<br />======================================================================\r<br />\r<br />----------------------------------------------------------------------\r<br /> Description\r<br />----------------------------------------------------------------------\r<br />\r<br />Fix for the bug that the game randomly toggles Walk/Run mode.\r<br />In other words, it switches on its own\r<br />between &#34;Walk by [Shift] + [W/A/S/D]&#34; and &#34;Run by [Shift] + [W/A/S/D]&#34;,\r<br />inverts the [Shift] key functionality.\r<br />\r<br />Technically, it&#39;s not random.\r<br />This will happen when you enter a dialog or a kill camera starts\r<br />while holding down the [Shift] key.\r<br />The game doesn&#39;t detect its key release in these cases.\r<br />\r<br />For example, you prefer to hold the [Shift] key to walk.\r<br />([W/A/S/D] = &#34;Run&#34; and [Shift] + [W/A/S/D] = &#34;Walk&#34;)\r<br />If you start a conversation during walking (holding the [Shift] key),\r<br />Walk/Run mode will be inverted on leaving the conversation.\r<br />([W/A/S/D] = &#34;Walk&#34; and [Shift] + [W/A/S/D] = &#34;Run&#34;)\r<br />You will now have to hold the [Shift] key to run\r<br />and hit [Caps Lock] to switch back.\r<br />\r<br />Some people have mentioned this issue since a long time ago.\r<br />[url=http://forums.nexusmods.com/index.php?/topic/1014461-walkingrunning-toggle-revert-fix/]http://forums.nexusmods.com/index.php?/topic/1014461-walkingrunning-toggle-revert-fix/[/url]\r<br />[url=http://forums.nexusmods.com/index.php?/topic/489930-toggle-always-run-is-killing-me/]http://forums.nexusmods.com/index.php?/topic/489930-toggle-always-run-is-killing-me/[/url]\r<br />[url=http://www.uesp.net/wiki/Skyrim:Glitches]http://www.uesp.net/wiki/Skyrim:Glitches[/url] (NPC Dialogue section)\r<br />\r<br />\r<br />----------------------------------------------------------------------\r<br /> Requirements\r<br />----------------------------------------------------------------------\r<br />\r<br />Skyrim 1.9.32 (supports only this version)\r<br />SKSE 1.7.1 (may work with other versions, but not tested)\r<br />\r<br />\r<br />----------------------------------------------------------------------\r<br /> Load Order / Compatibility\r<br />----------------------------------------------------------------------\r<br />\r<br />There should be no compatibility issues with other mods,\r<br />so it can be installed in any order.\r<br />\r<br />\r<br />----------------------------------------------------------------------\r<br /> Install\r<br />----------------------------------------------------------------------\r<br />\r<br />NMM or unzip and place a dll file in &#34;Skyrim&#92;Data&#92;SKSE&#92;Plugins&#34; folder.\r<br />\r<br />\r<br />----------------------------------------------------------------------\r<br /> Uninstall\r<br />----------------------------------------------------------------------\r<br />\r<br />It doesn&#39;t affect your save games.\r<br />NMM or just delete the file.\r<br />\r<br />\r<br />----------------------------------------------------------------------\r<br /> Q & A\r<br />----------------------------------------------------------------------\r<br />\r<br />Q. It&#39;s not a bug. You accidentally hit Caps Lock lol.\r<br />A. No, I didn&#39;t.\r<br />\r<br />Q. You can fix this by changing bAlwaysRunByDefault in SkyrimPrefs.ini.\r<br />A. That setting has nothing to do with this.\r<br />\r<br />Q. Does this mod affect Frame Rate?\r<br />A. No, it costs less than 0.01 millisecond per frame.\r<br />\r<br />Q. I&#39;ve bound another key to run instead of shift. Does this mod work?\r<br />A. It usually works unless you bind a mouse button for it.\r<br />\r<br />Q. I play the game with a controller. Do I need this mod?\r<br />A. Generally, controllers don&#39;t have this issue,\r<br />   but if you disable the in-game controller handling and\r<br />   use a controller mapping program like XPadder, JoyToKey, etc,\r<br />   this issue may happen because it&#39;s the same as playing with a keyboard.\r<br />\r<br />Q. What&#39;s this mod doing there?\r<br />A. It prevents the game from tinkering with walk/run mode and serves as a substitute,\r<br />   getting key input and handling it appropriately.\r<br />\r<br />Q. I&#39;ve got the error that says &#34;couldn&#39;t load plugin&#34; in skse.log file.\r<br />A. Since my mod reads and writes some areas of memory in the skyrim process,\r<br />   an anti-virus software could find it malicious and block it.\r<br />   You might be able to avoid this by excluding files or folder from protection.\r<br />\r<br />Q. Doesn&#39;t this program contain a malicious code like trojans?\r<br />A. No. I don&#39;t think it&#39;s a good idea.\r<br />   This dll is only 4KB, even smaller than its readme text.\r<br />   Anyone with a skill can easily look into what the program is doing completely.\r<br />\r<br />\r<br />----------------------------------------------------------------------\r<br /> Change Log\r<br />----------------------------------------------------------------------\r<br />\r<br />Version 0.2\r<br />Added a fix for another similar issue\r<br />that the game ignores &#34;Toggle Always Run&#34; key in some situations.\r<br />\r<br />Version 0.1\r<br />First release.\r<br />\r<br />\r<br />----------------------------------------------------------------------\r<br /> Permissions\r<br />----------------------------------------------------------------------\r<br />\r<br />Not allowed to re-upload nor modify my files in any form.\r<br />\r<br />\r<br />----------------------------------------------------------------------\r<br /> Credits\r<br />----------------------------------------------------------------------\r<br />\r<br />Bethesda Softworks\r<br />SKSE Team\r<br />\r<br />\r<br />----------------------------------------------------------------------\r<br /> Japanese Description 日本語説明\r<br />----------------------------------------------------------------------\r<br />\r<br />歩き/走りの操作方法が意図せず変更されてしまう不具合を修正します。\r<br />例えば、デフォルトでは [W/A/S/D] キーで走り、\r<br />[Shift] + [W/A/S/D] キーで歩く、という操作になっていますが、\r<br />この [Shift] キーを押している最中に、会話を始めたり、\r<br />フィニッシュブローのカットシーンが入ると、歩き/走りの操作が勝手に反転し、\r<br />[Shift] キーを押しながらでないと走れない ([W/A/S/D] で歩く) 操作に\r<br />変更されてしまう問題があります。また同様に、この逆も起こり得ます。",
+  "categoryId": "95",
+  "version": "0.2",
+  "author": "4nexus",
+  "createdUnix": "1411117843",
+  "updatedUnix": "1411300924",
+  "containsAdultContent": false,
+  "uploadedBy": "4nexus",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000127502",
+      "name": "v0.1",
+      "version": "0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "ToggleWalkRunFix-58246-0-1.zip",
+      "uploadedUnix": "1411117162",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/f194708414e89b10a7a7dbba68e45f9fccf694826d13141c2f778cb5a728992a/analysis/1411117262/",
+      "changelogHtml": " First release. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ToggleWalkRunFix-58246-0-1.zip?fid=1000127502&ttl=1535844768&ri=8192&rs=8192&setec=0dc4fb8995cd3b2a8e17f21a0af846b3"
+    },
+    {
+      "fileId": "1000127838",
+      "name": "v0.2",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "v0.2-58246-0-2.zip",
+      "uploadedUnix": "1411300924",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/0ee59bd378d9604d013e5b16b6e36eacd5bb3d153cf1bd9987fc35cef0734edb/analysis/1411301042/",
+      "changelogHtml": " Added a fix for another similar issue that the game ignores &#34;Toggle Always Run&#34; key in some situations. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/v0.2-58246-0-2.zip?fid=1000127838&ttl=1535844768&ri=8192&rs=8192&setec=65697fd92e48550bbff3cf83cdd1769a"
+    }
+  ]
+}

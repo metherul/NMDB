@@ -1,0 +1,48 @@
+{
+  "modId": 10585.0,
+  "modName": "Player Created Map Marker -WIP",
+  "summary": "Adds a spell to the game that allows you to set a custom map marker at your current position as long as you\\'re outside. The marker is also enabled for fast travel and can be tracked with a quest.",
+  "descriptionHtml": "I liked the idea of having map icons for locations that should have had them in the first place e.g. Player Homes/Markets etc but every now and again I\\'d come accross somewhere I wanted a marker but I couldn\\'t have it without messing with mod files every time. I created this to allow me to set it from in-game wherever and whenever I wanted.\r\n\r\nWhat this does is add a spell to the game that allows you to set a map marker at your current position as long as you\\'re outside. You can then fast travel back to the marker at a later time.\r\n\r\nVersion Info:\r\n\r\nV1.1\r\nAdded a quest to allow you to find your map marker quickly - Located under Miscellaneous in the list. Will be enabled the first time you use the spell. (Thanks to Furiant for the suggestion)\r\n \r\nPlanned for next version.\r\nAllow multiple Map Markers\r\n\r\nPlanned for some future version.\r\nAllow renaming of Markers (If I can figure out a way to do it, all attempts so far have been fruitless)\r\n\r\nHow to get it:\r\n\r\nThe spell tome can be bought from Farengar Secret-Fire in Dragonsreach-Whiterun for a very small amount of gold. I will increase this cost in a future version, left at this for testing purposes.\r\n\r\nYou can also add the book through the console by typing \r\n[color=red][b][i]help \\\"Spell Tome: Map Marker\\\"[/i][/b][/color] (Quotes Required) \r\nto get the id and then \r\n[color=red][b][i]player.additem <ItemID> 1[/i][/b][/color]\r\n\r\nOnce you have learned the spell it will be listed in your magic menu under Conjuration as \\\"Create Map Marker\\\". Upon casting you will be presented with  two options \\\"Set Map Marker\\\" and \\\"Remove Map Marker\\\"\r\n\r\nAs far as I can tell it doesn\\'t conflict with any other mods and I have confirmed it is compatible with popular mods that add custom markers and also teleportation mods. It might, however, have issue with any that modify Farengar.\r\n\r\n----------------\r\n\r\nInstallation:\r\nUse Nexus Mod Manager\r\nor \r\nManually copy the files in the archive to Skyrim\\\\Data directory and enable in your launcher\r\n\r\nUninstall:\r\nUse Nexus Mod Manager\r\nor\r\nRemove the three files below from your Skyrim\\\\Data directory\r\n\r\nPlayer Created Map Marker.esp\r\nPlayer Created Map Marker.bsa\r\nPlayer Created Map Marker.bsl\r\n\r\n----------------\r\n\r\nComments and Suggestions are welcome.\r\n\r\nKjodrisc",
+  "categoryId": "42",
+  "version": "1.1",
+  "author": "Kjodrisc",
+  "createdUnix": "1329769823",
+  "updatedUnix": "1330743104",
+  "containsAdultContent": false,
+  "uploadedBy": "kjodrisc",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "34362",
+      "name": "PlayerCreatedMapMarker",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "PlayerCreatedMapMarker-10585.7z",
+      "uploadedUnix": "1329770718",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ed60e13ba174a4eccfd62e78dccf8c35b3ec2a87339ac74930f24357854b6e17/analysis/1406698924/",
+      "changelogHtml": " Initial Release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PlayerCreatedMapMarker-10585.7z?fid=34362&ttl=1535771091&ri=8192&rs=8192&setec=ad5bf2a7e8166f4cdac8558f1d538a20"
+    },
+    {
+      "fileId": "39415",
+      "name": "PlayerCreatedMapMarker1-1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "PlayerCreatedMapMarker1-1-10585-1-1.7z",
+      "uploadedUnix": "1330743104",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c6b8746bdce7fa7cfddd8023690d2e10bae2fcadde34be322c9910a7831f3ac7/analysis/1406726406/",
+      "changelogHtml": " Added a quest that lets you find your created marker quickly <br/> \n Quest is under Micellaneous in the list <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PlayerCreatedMapMarker1-1-10585-1-1.7z?fid=39415&ttl=1535771092&ri=8192&rs=8192&setec=350b63f4bf29457ff4e7162acb223e8e"
+    }
+  ]
+}

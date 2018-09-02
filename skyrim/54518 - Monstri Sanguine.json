@@ -1,0 +1,48 @@
+{
+  "modId": 54518.0,
+  "modName": "Monstri Sanguine",
+  "summary": "A mod which adds a way to improve your character with the blood of monsters.  ",
+  "descriptionHtml": "Name: Monstri Sanguine\r<br />Version: 1.0.0\r<br />Date: 5/31/2014\r<br />Category: Weapons\r<br />Requirements: \t\r<br />[list]\r<br />[*]Skyrim (Updated to 1.9.32.0.8)\r<br />[*]Dawnguard\r<br />[*]Dragonborn\r<br />[*]SkyUI: [url=http://www.nexusmods.com/skyrim/mods/3863/?]Get here.[/url]\r<br />[*]SKSE: [url=http://skse.silverlock.org/]Get here. [/url]\r<br />[/list]\r<br />Author(s): BlackLink16\r<br />\r<br />[heading]MOD INFORMATION[/heading]\r<br />\r<br />Description\r<br />===========\r<br />A mod which adds a way to improve your character with the blood of monsters.  \r<br />\r<br />Details\r<br />=======\r<br />The sanctuary is located in a cave in the north-west, in the coastal mountains.  Within \r<br />is an arena which will take you to the true sanctuary.  \r<br />The storage chests do not respawn, so they are safe for storage.  Near the chests are two\r<br />books which give further details to the various effects the monster blood can have.  \r<br />\r<br />As explained in the books, each ability comes with a certain &#39;corruption&#39;.  There is a \r<br />maximum level of corruption you are allowed to have, meaning not all the abilities can be\r<br />taken.  There are also side-effects to the corruption, increasing along with the corruption.\r<br />\r<br />There are 21 monsters in total.  Each monster is leveled to the character, with a min level of\r<br />20.  No followers are allowed in the sanctuary.  The monsters are split across seven different\r<br />arenas.  The dark forest has torches which can to activated to shed more light.\r<br />\r<br />MCM menu:\r<br />If the arena seems too dark, activate the additional light in MCM menu.\r<br />Depending on individual tastes, the messages can be set to either third person(default) or \r<br />first person.  \r<br />This removes all abilities from the player, although Coiled Springs and Tireless Legs may\r<br />or may not be removed correctly.  Please save before trying to remove the spells.\r<br />\r<br />Descriptions of some of the effects (descriptions of all effects are available in the misc files):\r<br />\r<br />[list]\r<br />[*][i]Name: Positives: Negatives[/i]\r<br />[*]Adaptive Learning: 10% increase to learning skills: -50 Magicka, -50 Stamina, -25 Health\r<br />[*]Eyes of the Night: Adds a Night Eye power, 5% increase to learning Thief skills: -50% Magicka regen\r<br />[*]Heated Blood: +200% Health regen: -50% Magicka regen, 25% weakness of fire\r<br />[*]Coiled Springs: Increase Speed by 10%, Increase jumping height by 100%: Reduce Sneaking effectiveness by 15%\r<br />[*]Nature&#39;s Toxin: Adds another use to poisons: Reduces potion-making effectiveness by 10%\r<br />[/list]\r<br />\r<br />The mod was cleaned with TESVEdit.\r<br />\r<br />Known Issues or Bugs\r<br />====================\r<br />After killing one monster, you can still go and kill another one,\r<br />but you don&#39;t get the power again.\r<br />Coiled Spring and Tireless Legs may interfere with other mods which\r<br />adjust the jumping min and sprinting&#39;s stamina drain values.\r<br />\r<br />[heading]INSTALLATION AND UNINSTALLATION[/heading]\r<br />\r<br />Manual Install\r<br />=============\r<br />1. Extract the files to a temporary folder.\r<br />2. Check the .esp in the Skyrim Launcher. \r<br />\r<br />NMM Install\r<br />===========\r<br />1. Download with the Nexus Mod Manager.\r<br />2. Activate in the NMM.\r<br />\r<br />Manual Uninstall\r<br />================\r<br />1. Start Skyrim Launcher, uncheck the .esp.\r<br />2. Delete the .esp file.\r<br />\r<br />NMM Uninstall\r<br />=============\r<br />1. Deactivate the mod in NMM.\r<br />\r<br />[heading]EXTRA STUFF[/heading]\r<br />\r<br />History\r<br />=======\r<br />1.0.0   2014/05/31 - Initial release.\r<br />\r<br />Other Mods of Mine\r<br />===================\r<br />[url=http://www.nexusmods.com/skyrim/mods/51412/?]Ethereal Blade[/url]: a sword for spellblades, just updated with twelve more spells.\r<br />\r<br />Credits\r<br />=======\r<br />Thanks to the Creation Kit wiki for script help.\r<br />Thanks to SKSE team and schlangster for the MCM menus.  \r<br />Thanks to nexusmods.com for hosting the mods.\r<br />Thanks to LHammonds for the readme generator.\r<br />Thanks to Jokerine for the plates from the mod [url=http://www.nexusmods.com/skyrim/mods/53022/?]Misc Resources[/url].\r<br />\r<br />Tools Used\r<br />==========\r<br />[url=http://www.7-zip.org/]7-zip[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/25859/?]TESVEdit[/url]\r<br />[url=http://HammondsLegacy.com/obmm/tools_readme_generator1.asp]Readme Generator[/url]\r<br />\r<br />Licensing/Legal\r<br />===============\r<br />If you want to make a translations, go ahead and do so.  If you have any suggestions, I’ll take them into consideration.\r<br />",
+  "categoryId": "93",
+  "version": "1.0.0",
+  "author": "BlackLink16",
+  "createdUnix": "1401646728",
+  "updatedUnix": "1401641876",
+  "containsAdultContent": false,
+  "uploadedBy": "BlackLink16",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000111428",
+      "name": "Monstri Sanguine Main File",
+      "version": "1.0.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "202",
+      "fileName": "Monstri Sanguine Main File-54518-1-0-0.7z",
+      "uploadedUnix": "1401641666",
+      "modVersion": "1.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8bdc2346a77c33e1b0179f8b447b9f537e573a78f9145bb02a3633ec5357e91c/analysis/1408107795/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Monstri%20Sanguine%20Main%20File-54518-1-0-0.7z?fid=1000111428&ttl=1535838807&ri=8192&rs=8192&setec=5c632399570aca02c24a5ae627be007d"
+    },
+    {
+      "fileId": "1000111429",
+      "name": "Monstri Sanguine Chart",
+      "version": "1.0.0",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "116",
+      "fileName": "Monstri Sanguine Chart-54518-1-0-0.7z",
+      "uploadedUnix": "1401641876",
+      "modVersion": "1.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8ab4f2dfd4dc162bc66e6808d85cf749b1ae13fbd29cf8f2b194ac51119c67d6/analysis/1408107904/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Monstri%20Sanguine%20Chart-54518-1-0-0.7z?fid=1000111429&ttl=1535838807&ri=8192&rs=8192&setec=de946ee93246af3235c33dd132243b11"
+    }
+  ]
+}

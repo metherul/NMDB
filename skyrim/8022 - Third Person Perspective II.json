@@ -1,0 +1,32 @@
+{
+  "modId": 8022.0,
+  "modName": "Third Person Perspective II",
+  "summary": "An instruction file that gives you camera settings to modify the position of the camera both in and out of combat. The settings reflect a better third person perspective camera.",
+  "descriptionHtml": "[b]Thid Person Perspective II[/b]\r\n\r\n\r\n[b]Instructions[/b]\r\nAdd the following to the Skyrim.ini file, easiest to add it to the bottom of the file.\r\n\r\n[Camera]\r\nfOverShoulderAddY=0.0000\r\nfOverShoulderPosZ=10.0000\r\nfOverShoulderPosX=70.0000\r\nfOverShoulderCombatAddY=10.0000\r\nfOverShoulderCombatPosZ=10.0000\r\nfOverShoulderCombatPosX=50.0000\r\n\r\nSkyrim.ini for me is located here: C:\\\\Users\\\\USERNAME\\\\Documents\\\\My Games\\\\Skyrim\r\n\r\nSave the file, and start Skyrim. The settings won\\'t take effect immediately.\r\nYou will need to go into Third Person View and sheath/unsheath for the changes to take place.\r\n\r\n\r\nAddY modifies the distance the camera is from the character.\r\nPosZ modifies the height of the camera\r\nPosX modifies how far left or right the camera is.\r\n\r\n\r\n\r\n[b]IMPORTANT[/b]\r\nBecause I have a lot of mods that make Skyrim such a beautiful place,\r\nI like to keep as much of the screen as clear as possible, so 70 for\r\nPosX may be too much for your liking, this WILL cut half the character\r\noff the screen to the left.\r\nSo you may want to change it 50 or 60.\r\n\r\n\r\n\r\n[b]UNINSTALL[/b]\r\nJust open up Skyrim.ini and delete the camera settings added.\r\nNext time you play Skyrim, sheath/unsheath to revert the camera settings.",
+  "categoryId": "24",
+  "version": "2.0",
+  "author": "dotSilver",
+  "createdUnix": "1328614320",
+  "updatedUnix": "1328614364",
+  "containsAdultContent": false,
+  "uploadedBy": "dotSilver",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "26609",
+      "name": "Third Person Perspective II",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Third Person Perspective II-8022-2-0.rar",
+      "uploadedUnix": "1328614364",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1cfac9955a210f2fe2f06a99b25f87eb6c24cc83d87ae62bbaf49266a8bde06c/analysis/1406657765/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Third%20Person%20Perspective%20II-8022-2-0.rar?fid=26609&ttl=1535766420&ri=8192&rs=8192&setec=8f013102b1ff946b7cf471b365655bf5"
+    }
+  ]
+}

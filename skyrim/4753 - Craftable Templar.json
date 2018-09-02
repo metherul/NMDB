@@ -1,0 +1,48 @@
+{
+  "modId": 4753.0,
+  "modName": "Craftable Templar",
+  "summary": "Craftable version of Rizaun\\'s Templar Armor",
+  "descriptionHtml": "This mod is a craftable version of Rizaun\\'s Templar Armor. For the original ebony replacer mod, please visit the following:\r\nhttp://www.skyrimnexus.com/downloads/file.php?id=1432\r\n\r\nThis armor mod adds a new unique Templar armor/weapons set into the game. This is not a replacer mod, but allows you to craft all the Templar items at the blacksmith. It does enforse that you have the correct perks to smith ebony armor, and all recipes are the same as the ebony items. All items are also upgradable as well (again assuming you have the right perks).\r\n\r\nLatest Info: Added v1.2 with a fix for to allow mail version of the armor enchantable.\r\n\r\nRecipes:\r\nTemplar Armor (Mail): 3 Leather Strips, 5 Ebony Ingot\r\nTemplar Armor: 3 Leather Strips, 5 Ebony Ingot\r\nTemplar Shield: 1 Leather Strips, 4 Ebony Ingot\r\nTemplar Helmet: 2 Leather Strips, 3 Ebony Ingot\r\nTemplar Gauntlets: 2 Leather Strips, 2 Ebony Ingot\r\nTemplar Boots: 2 Leather Strips, 3 Ebony Ingot\r\nTemplar Warhammer: 3 Leather Strips, 5 Ebony Ingot\r\nTemplar Sword: 1 Leather Strips, 2 Ebony Ingot\r\nTemplar Mace: 1 Leather Strips, 3 Ebony Ingot\r\nTemplar Greatsword: 3 Leather Strips, 5 Ebony Ingot\r\nTemplar Dagger: 1 Leather Strip, 1 Ebony Ingot\r\nTemplar Bow: 3 Ebony Ingot\r\nTemplar Battle Axe: 2 Leather Strips, 5 Ebony Ingot\r\nTemplar War Axe: 2 Leather Strips, 2 Ebony Ingot\r\nTemplar Arrow x25: 2 Firewood, 1 Ebony Ingot\r\n\r\nInstallation:\r\n1.) Use NMM to download and install. This will automatically install in the correct location and activate the .esp file.\r\n2.) Ensure plugins tab shows CraftableTemplar.esp checked and run the game.\r\n- or -\r\n1.) Extract all items into the skyrim data directory usually located at C:\\\\Program Files (x86)\\\\steam\\\\steamapps\\\\common\\\\skyrim\\\\Data\\\\\r\n2.) Run SkyrimLauncher\r\n3.) Click on \\'Data Files\\'\r\n4.) Ensure that CraftableTemplar.esp is checked and click save.\r\n5.) Play Skyrim\r\n\r\nUninstallation:\r\n1.) Use NMM to disable the mod\r\n- or -\r\n1.) Remove CraftableTemplar.esp from skyrim Data directory.\r\n2.) Remove the following directories from the skyrim data directory:\r\n..\\\\meshes\\\\armor\\\\templar\\\\\r\n..\\\\meshes\\\\armor\\\\templarmail\\\\\r\n..\\\\meshes\\\\weapons\\\\templar\\\\\r\n..\\\\textures\\\\armor\\\\templararmor\\\\\r\n..\\\\textures\\\\armor\\\\templarmail\\\\\r\n..\\\\textures\\\\weapons\\\\templar\\\\\r\n\r\nNote on Heavy Armor Perks: There is a bug in the released Skyrim version that the +25% for wearing a whole Ebony Armor doesn´t work. And since this is based on the ebony armor, it will likely suffer from the same bug. Source: http://elderscrolls.wikia.com/wiki/Bugs_%28Skyrim%29\r\n\r\nUpdates:\r\nv1.2 - Fixed unenchantable mail armor bug.\r\nv1.0 - Initial Release\r\n\r\nTODO:\r\n-Look into why heavy armor perk doesn\\'t work.\r\n-Incorporate alternate no-cross texture into the mod.\r\n-Look into separating the plate and mail into a heavy and light armor version respectively.",
+  "categoryId": "36",
+  "version": "v1.2",
+  "author": "Raven42 Rizaun",
+  "createdUnix": "1325061051",
+  "updatedUnix": "1326340378",
+  "containsAdultContent": false,
+  "uploadedBy": "raven42",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "14725",
+      "name": "CraftableTemplar_v1_0",
+      "version": "v1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "15897",
+      "fileName": "CraftableTemplar_v1_0-4753.7z",
+      "uploadedUnix": "1325133333",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/18f2ac11a6163ba2b83fbd7f1cd9aa9f4ced3222e293f26041491e7f41826797/analysis/1406566760/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CraftableTemplar_v1_0-4753.7z?fid=14725&ttl=1535760882&ri=8192&rs=8192&setec=e583633ca4bf7617ee050421387ce4ab"
+    },
+    {
+      "fileId": "19046",
+      "name": "CraftableTemplar_v1_2",
+      "version": "v1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "15897",
+      "fileName": "CraftableTemplar_v1_2-4753-v1-2.7z",
+      "uploadedUnix": "1326340378",
+      "modVersion": "v1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/68651633ff3ab8f6b3e8079df0a89ac890af22f8f92325785e33c2bb50824754/analysis/1406604417/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CraftableTemplar_v1_2-4753-v1-2.7z?fid=19046&ttl=1535760883&ri=8192&rs=8192&setec=5ed5a7dc3611f8450f431dd1405be554"
+    }
+  ]
+}

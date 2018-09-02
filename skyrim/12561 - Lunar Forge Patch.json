@@ -1,0 +1,48 @@
+{
+  "modId": 12561.0,
+  "modName": "Lunar Forge Patch",
+  "summary": "Crafting weapons at the Lunar Forge imbues them with the Lunar Siphon enchantment.",
+  "descriptionHtml": "If you have ever explored the bandit infested Silent Moons Camp you may have happened upon a curious forge at the top of a long stairway known as the Lunar Forge. A nearby book \\\"Notes On The Lunar Forge\\\" describes some unique properties of weapons crafted at the forge. Unfortunately, this forge does not possess these extraordinary qualities in the released game. This mod restores the legacy of the Lunar Forge to its rightful glory. As described in \\\"Notes On The Lunar Forge\\\", weapons crafted at the forge will now be imbued with an enchantment that \\\"While the moons are out, absorb <mag> points of health.\\\"\r\n\r\n------------------------\r\nNotable Changes\r\n------------------------\r\n- The Lunar Forge imbues weapons crafted there with the Lunar Siphon enchantment.\r\n- The enchantment Lunar Siphon now absorbs health as opposed to the precarious effects of the former enchantment.\r\n- Former instances of the enchantment Silent Moons Enchant are now replaced with Lunar Siphon.\r\n- Enchanting is disabled for all items with Lunar Siphon. If you already acquired Silent Moons Enchant, this mod will not unlearn it but will replace it with Lunar Siphon.\r\n\r\nSince 2.0\r\n- Lunar weapons no longer need soul gems to recharge; they are power by the moons.\r\n- The Lunar Forge can be used to create Lunar weapons only while the moons are out. (after 9 pm and before 5 am)\r\n- The Lunar Forge will exhibit a mild blue glow while the moons are out.\r\n\r\nSince 2.1\r\n- Fixed a bug where fast traveling away from the Lunar Forge could cause the game to freeze upon returning to the Silent Moons Camp.\r\n\r\n------------------------\r\nCompatibility\r\n------------------------\r\nThis mod should be compatible with most other mods. Conflicts may occur with any mod that changes the former Silent Moons Enchant enchantment or changes weapons that used it. This mod is incompatible with any other mod that changes forges or weapon recipes (since most of them are overridden by this mod.) New types of forges created by other mods will not contain any standard weapons unless they override their recipes, but overriding a weapon recipe will cause the weapon to show up at the Lunar Forge along with its lunar equivalent. Mods that introduce new weapon recipes can still be crafted at the Lunar Forge but will not have the Lunar Siphon enchantment.\r\n\r\n------------------------\r\nInstallation\r\n------------------------\r\n1) Extract \\\"Lunar Forge Patch 2.1.zip\\\" in the Skyrim data folder. The file path for most users will be: \\\"C:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data\\\\\\\". This folder will also include Skyrim.esm, Update.esm and some *.bsa files. \r\n2) Start the Skyrim Launcher and click on \\\"Data Files\\\".\r\n3) Make sure \\\"Lunar Forge Patch\\\" is checked.\r\n4) Run the game and enjoy!",
+  "categoryId": "95",
+  "version": "2.1",
+  "author": "Christopher Grabowski",
+  "createdUnix": "1331365983",
+  "updatedUnix": "1332365239",
+  "containsAdultContent": false,
+  "uploadedBy": "SamuraiWindu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "41922",
+      "name": "Lunar Forge Patch 1_0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "Lunar Forge Patch 1_0-12561.zip",
+      "uploadedUnix": "1331366127",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e16d65bd335c64e9ea0a1ac79891db5b7b1ca3a97ba60015a6f14a3ce14bf725/analysis/1406741343/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lunar%20Forge%20Patch%201_0-12561.zip?fid=41922&ttl=1535774556&ri=8192&rs=8192&setec=44791dd4a021496cf799c2a23b77a963"
+    },
+    {
+      "fileId": "45514",
+      "name": "Lunar Forge Patch 2_1",
+      "version": "2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "Lunar Forge Patch 2_1-12561.zip",
+      "uploadedUnix": "1332365239",
+      "modVersion": "2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/b0df37e0b4f644d598a832f90e6bd2882610a6c82f8711fa1e7dd1ad493c8726/analysis/1406771781/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lunar%20Forge%20Patch%202_1-12561.zip?fid=45514&ttl=1535774557&ri=8192&rs=8192&setec=b67b55356ba73564a89930a399b1c64d"
+    }
+  ]
+}

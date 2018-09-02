@@ -1,0 +1,32 @@
+{
+  "modId": 36483.0,
+  "modName": "Dragonborn Taunts dialogue bug fix",
+  "summary": "Re-enables combat taunts for NPCs after loading Solstheim",
+  "descriptionHtml": "I found that after I traveled to Solstheim in all of my save files, NPCs would stop using all their taunt dialogue in combat, even though all other dialogue types could still play. Also, this didn\\'t go into effect even after having Dragonborn.esm activated until I actually took the boat to Solstheim for the first time. The really strange part was that NPCs would continue to never use taunts even after traveling back to Skyrim. After some poking around in the CK, I found that the problem was being caused by an \\\"EMPTY\\\" dialogue entry in the taunts section with no associated sound file or text and 100 priority belonging to the quest MH001 or \\\"Retaking Thirsk.\\\"\r\n\r\nIt had no conditions so I assume what was happening was that whenever any NPC tried to use a taunt, this was the highest priority option available to them, and since no sound file was related to it, nothing would happen each time they tried to taunt, with none of the other ones ever becoming available. Instead of deleting the entry entirely (I still don\\'t actually know what it does), I just added some conditions to it that makes it only available to the two different Thirsk factions. So maybe it would be better to delete it overall and those two factions still won\\'t be able to taunt, but at any rate this will fix the bug for all other NPCs in the game including your followers and does not, to my knowledge, break any other aspects in the game.\r\n\r\nPlace it anywhere in your load order, preferably last, and please report if this breaks the Retaking Thirsk quest for you in any way in the comments.",
+  "categoryId": "95",
+  "version": "1",
+  "author": "Gilgamesh",
+  "createdUnix": "1369698777",
+  "updatedUnix": "1369698759",
+  "containsAdultContent": false,
+  "uploadedBy": "guerillamoderno",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000031745",
+      "name": "dialoguepatch",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "dialoguepatch-36483-1.zip",
+      "uploadedUnix": "1369698759",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/349f742ed5b98ba3edd7d5e45152139194b51c709482be8502b7c6ae6419cd6d/analysis/1407583923/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/dialoguepatch-36483-1.zip?fid=1000031745&ttl=1535815688&ri=8192&rs=8192&setec=0c9ab89305714ae1078daaba103b3377"
+    }
+  ]
+}

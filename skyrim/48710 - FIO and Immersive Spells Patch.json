@@ -1,0 +1,48 @@
+{
+  "modId": 48710.0,
+  "modName": "FIO and Immersive Spells Patch",
+  "summary": "This small patch gives lights to the fire created by Fire and Ice Overhaul.",
+  "descriptionHtml": "This patch makes possible for Fire and Ice overhaul and Immersive Spells and Lights to work together.\r<br />\r<br />Mods required:\r<br />\r<br />Immersive Spells and Light http://www.nexusmods.com/skyrim/mods/39759/\r<br />Fire and Ice Overhaul http://www.nexusmods.com/skyrim/mods/43241/\r<br />\r<br />DLC required:\r<br />Dawnguard\r<br />\r<br />My mod must be loaded after FireAndIceOverhaul.esp\r<br />\r<br />Requiem Patch:\r<br />\r<br />Requiem patch is for Immersive spells since that mod alters few Actors like Atronach and Thrall.\r<br />\r<br />The load order:\r<br />Immersive Spells\r<br />Requiem\r<br />FIO\r<br />FireAndIceOverhaulImmersiveSpellsRequiem\r<br />\r<br />There are a couple of .gif to show you the difference with or without this mod.\r<br />\r<br />This is a personal modification that works nice and I decided to share it.\r<br />All credits go to the creators of FIO and Immersive Spells.\r<br />\r<br />F.A.Q.:\r<br />\r<br />Q:Immersive Spells doesn&#39;t work for me. Any advice?\r<br />A:Open the MCM menu, disable the mod and go back to the game. Wait to see the message that tells you that the mod is disabled then open again the MCM and reenable it. Return ingame, see the message of the mod reactivating and save. Now should work fine.\r<br />",
+  "categoryId": "74",
+  "version": "1.0",
+  "author": "marmo1233",
+  "createdUnix": "1386752732",
+  "updatedUnix": "1386751471",
+  "containsAdultContent": false,
+  "uploadedBy": "marmo1233",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000086297",
+      "name": "FireAndIceOverhaulImmersiveSpells",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "FireAndIceOverhaulImmersiveSpells-48710-1-0.zip",
+      "uploadedUnix": "1386750574",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6e0037d19a854f3a2b4ad66a2520d8b7b5bcff263926f3cc6aa089c6752fd6da/analysis/1407830849/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FireAndIceOverhaulImmersiveSpells-48710-1-0.zip?fid=1000086297&ttl=1535829055&ri=8192&rs=8192&setec=8c17e67b7e5779493dc6767cf364fed5"
+    },
+    {
+      "fileId": "1000086299",
+      "name": "FireAndIceOverhaulImmersiveSpellsRequiem",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "FireAndIceOverhaulImmersiveSpellsRequiem-48710-1-0.zip",
+      "uploadedUnix": "1386751471",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c4fe1c014e4a55aed8cf61a02938c7b104f2d2c75dd2afb72d5de45a140ff799/analysis/1407830868/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FireAndIceOverhaulImmersiveSpellsRequiem-48710-1-0.zip?fid=1000086299&ttl=1535829056&ri=8192&rs=8192&setec=5dd8acb72c031aa8a9fedd558117ee2e"
+    }
+  ]
+}

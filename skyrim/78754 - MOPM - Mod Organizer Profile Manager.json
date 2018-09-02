@@ -1,0 +1,48 @@
+{
+  "modId": 78754.0,
+  "modName": "MOPM - Mod Organizer Profile Manager",
+  "summary": "Automatically syncs the mod order list (not load order) between profiles in Mod Organizer. It does this without any user input if it is running in the background. Require .NET 3 for Microsoft Windows. Version 2 has profile grouping and manual copy.",
+  "descriptionHtml": "An application that synchronizes mod order between profiles for [url=http://www.nexusmods.com/skyrim/mods/1334/?]Mod Organizer[/url]. So for example if you makes changes in one profile, the order is copied to other profiles within the same profile group.\r<br />\r<br />[center][/center][center]\r<br />[img]https://staticdelivery.nexusmods.com/mods/110/images/78754-0-1476297136.png[/img][/center]\r<br />\r<br />Right click to get context menu. \r<br />\r<br />[1] Contains path for all Mod Organizer installations whose profile you wish to monitor. You add a new path using the textbox below it and pressing [Add] button.\r<br />\r<br />[2] List of profile for selected Mod Organizer from pane [1]. Profiles are grouped so if you make changes to profile &#34;Alpha 1&#34; the order will only be copied to &#34;Alpha 2&#34; which belongs to the same profile group (Cyan - hotkey 2). You change the group profile by selecting it and just pressing the hokey using the legend for reference. Grayed out profiles are not monitored. The copy button below is for manual copy of selected profile in listbox to the one in the combobox. All function can be accessed through the context menu shown in the image. Right click to access it.\r<br />\r<br />[3] Output log, listing all copies being made.\r<br />\r<br />[4] The rest of the buttons are pretty obvious: Clear log, Toggle MOPM Monitoring...\r<br />\r<br />Feedback is appreciated. ",
+  "categoryId": "39",
+  "version": "3.0.0.1",
+  "author": "HyperMix",
+  "createdUnix": "1473972308",
+  "updatedUnix": "1534148286",
+  "containsAdultContent": false,
+  "uploadedBy": "HyperMix",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000223973",
+      "name": "MOPM 3",
+      "version": "3.0.0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "37",
+      "fileName": "MOPM 3-78754-3-0-0-1.rar",
+      "uploadedUnix": "1476296755",
+      "modVersion": "3.0.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/5b1194a641843c76b3e5a436dc52fba51403f4ec3ba774059ed8ae874109c649/analysis/1476296762/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MOPM%203-78754-3-0-0-1.rar?fid=1000223973&ttl=1535867467&ri=8192&rs=8192&setec=0ac820cdb8891551d6685627b39bdb1d"
+    },
+    {
+      "fileId": "1000279536",
+      "name": "ModOrganizerPM",
+      "version": "3.0.1.484",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "36",
+      "fileName": "ModOrganizerPM-78754-3-0-1-484.rar",
+      "uploadedUnix": "1534148286",
+      "modVersion": "3.0.1.484",
+      "virusScanUrl": "https://www.virustotal.com/file/6bc7ba3fc1111efed0a39c79dbd3973265df1c0d9c6a238e8713f19e561a2458/analysis/1534148463/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ModOrganizerPM-78754-3-0-1-484.rar?fid=1000279536&ttl=1535867468&ri=8192&rs=8192&setec=039b039856b8ac110c1def604a42bb17"
+    }
+  ]
+}

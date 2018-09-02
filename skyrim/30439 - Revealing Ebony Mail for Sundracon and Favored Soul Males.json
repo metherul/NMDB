@@ -1,0 +1,48 @@
+{
+  "modId": 30439.0,
+  "modName": "Revealing Ebony Mail for Sundracon and Favored Soul Males",
+  "summary": "Less bulky version of ebony mail, with subtly transparent leggings and gauntlets. Replaces existing ebony mail armor for males. I\\'ve only tested it with human males.",
+  "descriptionHtml": "To install, copy the contents of the \\\"meshes\\\" and \\\"textures\\\" folder into your Skyrim data folder.\r\n\r\nI never could get the scripts to import NIF files into Blender successfully, so this set of armor is built largely with duct-tape and Nifskope. Mostly Nifskope.\r\n\r\nI took several copies of the base armor and changed the UV mapping on each copy so that only a section was visible, then I morphed the armor shape so the visible section fit more snugly. This means that there are a lot of extra polygons that aren\\'t getting rendered, and so it might put a drag on your system performance (I didn\\'t see any -- I have a 6 year old computer with a brand new mid-grade video card). On the plus side, it makes the armor very modular and easily tweakable in Nifskope.\r\n\r\nRequires:\r\nSundracon Male: http://skyrim.nexusmods.com/mods/2488\r\n\r\nUpdate: Now with a Favored Soul version, which unfortunately does not come with leggings and armbands. Requires Favored Soul: http://skyrim.nexusmods.com/mods/2488",
+  "categoryId": "54",
+  "version": "0.9",
+  "author": "Seedye",
+  "createdUnix": "1359086909",
+  "updatedUnix": "1359524850",
+  "containsAdultContent": true,
+  "uploadedBy": "seedye",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000004681",
+      "name": "Revealing Ebony Mail for Sundracon Male",
+      "version": "0.9",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5555",
+      "fileName": "Revealing Ebony Mail for Sundracon Male-30439-0-9.7z",
+      "uploadedUnix": "1359087025",
+      "modVersion": "0.9",
+      "virusScanUrl": "https://www.virustotal.com/file/edebc9d6f6687d37fe827bafb0fb1b171e79dcb3fd5eec53b61101e99fb97f36/analysis/1407377517/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Revealing%20Ebony%20Mail%20for%20Sundracon%20Male-30439-0-9.7z?fid=1000004681&ttl=1535805244&ri=8192&rs=8192&setec=504c2a1959bc18924b8f9d3a431b48e1"
+    },
+    {
+      "fileId": "1000005833",
+      "name": "Revealing Ebony Mail for Favored Soul Male",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3847",
+      "fileName": "Revealing Ebony Mail for Favored Soul Male-30439-.7z",
+      "uploadedUnix": "1359524850",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/4079a8fa900f6d7fb157f68e8c447e239d54a041541115ac5117b6d2a88a7bc3/analysis/1407386827/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Revealing%20Ebony%20Mail%20for%20Favored%20Soul%20Male-30439-.7z?fid=1000005833&ttl=1535805245&ri=8192&rs=8192&setec=9da7f329185de4eca0eac6fc8ed168c1"
+    }
+  ]
+}

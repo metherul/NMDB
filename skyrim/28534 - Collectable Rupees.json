@@ -1,0 +1,32 @@
+{
+  "modId": 28534.0,
+  "modName": "Collectable Rupees",
+  "summary": "Zelda Rupees coming to Skyrim/Hyrule!\r\nCollectable by simply walking through them.",
+  "descriptionHtml": "NoxyGame and DOSMaster present: - Collectable Rupees (a modders resource)\r\n\r\nHow-To-Use:\r\n#1 The .esm is the main file.\r\n#2 The Demo.esp only works with the .esm activated\r\n\r\n\r\nRequirements:\r\n- none -\r\n\r\n\r\nInfo:\r\n#1 Only the player can collect rupees.\r\n#2 Horse ridden by player can collect rupees too (Epona collectable rupees).\r\n#3 This mod can be used for many more purposes, not only rupees.\r\n\r\n\r\nUsage for modders:\r\n#1 To place a rupee in the CK use the _NoxyGame_Item_Spawner.\r\n\r\n#2 Where do I find the spawner? And where the collectable items?\r\n- In the CreationKit->WorldObjects->Activator->CLUTTER->_NoxyGame->ItemSpawner\r\n- In the CreationKit->WorldObjects->Activator->CLUTTER->_NoxyGame->Rupees\r\n\r\n#3 Why use a spawner instead of directly placing objects/items?\r\n- Because the spawner creates the objects ingame which can then be deleted ingame upon cell change or item collecting to avoid savegame bloating.\r\n- The spawner only creates items on cellAttach and only if the cooldown time has elapsed - so items are never spawned when the Player is nearby.\r\n- The items destroy themselves on cellDetach if not collected.\r\n- The spawner will also be unloaded if no item instance is pointing at the spawner anymore.\r\n\r\n#4 With the spawner script properties you can change the behaviour of the spawned items.\r\n- For example: Cooldown Time, Despawn Time, Item to be spawned (Rupees/Bombs/Arrows/etc.)\r\n- With the collectable item script properties you can change what is put in your inventory, which sound will be played and the amount of the item to be added.\r\n\r\n#5 The triggering (PhantomShape) version of the item is not added to the inventory - instead a havoked version with working collision is added.\r\n- The havoked version can be placed everywhere in the worldspace without a spawner just like regular gold coins.\r\n\r\n\r\nFAQ:\r\n#1 Where do I find the ingame placed rupees (Demo/Location)?\r\n- Eldergleam Sanctuary.\r\n\r\n\r\nCredits to:\r\n#1 Shigeru Miyamoto\r\n#2 Nintendo\r\n#3 Credits to Bethesda Game Studios for The Elder Scroll Series\r\n\r\n\r\nNote:\r\nIf you\\'re thinking about using parts of this mod (Script for example), don\\'t forget to name us (NoxyGame and DOSMaster) in your \\\"Credits to:\\\" section.\r\nIn other words, feel free to use/enhance the script/nif/mod, but give credits to the author! ",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "NoxyGame",
+  "createdUnix": "1355845147",
+  "updatedUnix": "1355845417",
+  "containsAdultContent": false,
+  "uploadedBy": "NoxyGame",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "106005",
+      "name": "Collectable_Rupees_v1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1805",
+      "fileName": "Collectable_Rupees_v1-28534-1-0.zip",
+      "uploadedUnix": "1355845417",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0e6d61555eebf6d3faa67ee3a6f991dcb7b61deb240caabbf5cfdaf946d6b033/analysis/1407310745/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Collectable_Rupees_v1-28534-1-0.zip?fid=106005&ttl=1535801965&ri=8192&rs=8192&setec=91d052c0c6d54a7e512a7e7aa65db7e8"
+    }
+  ]
+}

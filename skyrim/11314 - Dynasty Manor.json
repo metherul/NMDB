@@ -1,0 +1,48 @@
+{
+  "modId": 11314.0,
+  "modName": "Dynasty Manor",
+  "summary": "Adds Dynasty Manor to The game, located North of Solitude and South of Dainty Sload. ",
+  "descriptionHtml": "READ THE MOD NOTES!\r\nBecause no one ever seems to read the mod notes. I will begin by ignoring questions that are already answered here. Read the notes, there may be important information in them about bugs/errors/progress. If you have suggestions or ideas read the mod notes. I may already be working on it. OH LOOK! I even added in an in game mod notes book! (Rule of thumb, with mods always read the notes, you could screw stuff up if you don\\'t)\r\n\r\nAdds Dynasty Manor to the game. The house itself is located just north of Solitude, and South of The Dainty Sload. This is mostly built for people who want to Role play. Not really made for the game crusher types... Stick with Breezehome. There is a lot of \\\"useless space\\\" in this house. For full contents of the house scroll to the bottom.\r\n\r\nKEY-\r\nLocated in THREE areas.\r\n1.Walk around the left hand side all the way until you get to the TWO tombstones. BETWEEN these tombstones is a box. Inside the box is your copy of MODNOTES, a note from the dead owner. And.... the KEY!\r\n2.If you are feeling more adventurous. Turn around from looking at the TWO tombstones. There is a well. Walk over to the well. Look at the well. See the manhole cover? Open it. There should be a bucket. Inside the bucket is a key. Get the key.\r\n3.Hit ~ on your keyboard. Type help dynasty 0. find DynastyManorHousekey. Type player.additem ####### 1. Done.\r\nIf you still manage to not be able to locate one of the three keys... fail. (I get asked this question a lot even though its been here in the mod notes the whole time) Why not eliminate the key? Role-playing wise. Why would the Manor not be locked? Makes no sense.\r\nREAD V2.3 notes for other information regarding keys.\r\n\r\nVAULT-\r\nOpen door to Dynasty Manor Vaults. Go straight. Open Jail door. Go straight. Look down. Look right. There is a lever on the floor. Pull it.\r\n\r\nSPOUSE-\r\nI have set the house with the technicality\\'s required for spouse home functionality. I am not however going to go all the way and get the script frags, and dialogue set up. Instead (I have tested it and it works) go use this mod please, it is light weight and stable:\r\nhttp://skyrim.nexusmods.com/mods/11370\r\n\r\nNPC\\'s-\r\nDue to not knowing how much interest there is in this mod I am not going to deal with creating the Purchase quest, and adding incompatibility issues along with a boat load of script frags.\r\nTo initiate the NPC\\'s in this mod you will need to go to the second chamber of the vault. Under the brazier front and center is now a button. Upon pushing the button you will get some options: Prisoners, Bormir, Day shift, Night Shift, and Animals. Once NPC\\'s are initiated they cannot be removed unless killed. I recommend saving before activating any of them. All NPC\\'s have generic dialogue, pain in the butt getting custom and voice actors. I don\\'t have the time to do that. Most of the NPC\\'s have journals for back story/personality.\r\nALL NPC\\'s ARE PROTECTED. ONLY YOU CAN KILL THEM.\r\nPrisoner-\r\nAdds two misc prisoners to a cell and reintroduces Areo the Khajiit. Areo is a master level trainer in archery.\r\nBormir-\r\nIs not a follower. His job is to manage the household staff and security. He counts as a blacksmith merchant with 3000 gold, and a two-handed weapon master level trainer. His main quarters are the guest bedroom.\r\nDay shift Guards-\r\n3 members, see images for details on each one. All of them are followers.\r\nNight shift Guards-\r\n3 members, see images for details on each one. All of them are followers.\r\nAnimals-\r\nadds 3 chickens, 1 goat, 1 cow, 1 dog, 3 horses. The dog is a repeatable follower, stronger and faster then average dogs. The horses have a set speed of 175 instead of 100. More health, stamina, and will NOT engage in combat.\r\nStaff-\r\nAdds 1 merchant cook, 1 Stable Master, 1 Maid, 1 Bard.\r\n\r\nKNOWN ISSUES-\r\n1- mannequins alive/weird pose. This should go away on an exit/enter. Should be fixed as of 2.3.\r\n2- The double doors in the hall to the pool has a collision object right where the doors close, the ones in the blue palace has that too.\r\n3- Your horse and follower will sometimes move after exiting the house, for example you fast traveled and the horse was at point A, enter/exit the house and your horse magically moved to the right/left by about 20ft. I am working to figure out why. However if you mount your horse park it will stay put. (suspect playerhorsemarker stuff)\r\n4-\\\"If you choose to follow Gaius he might get lost on his way to Solitude, and simply walk/stand around by the water near Solitude (possibly anywhere in Skyrim), or even swim in it. Fast traveling should make him remember what he is doing, and he might suddenly travel at a higher speed than possible for the player, until he has caught up with his schedule.\\\"\r\n\r\nThis is a known bug not caused by this mod.\r\nhttp://www.uesp.net/wiki/Skyrim:Breaching_Security\r\n\r\n----------------------------------------------------------------------------------\r\nRULES.\r\n\r\nYou have full permission to use this mod as you see fit. (Why would I post it if I did not want to share?)\r\n\r\nHowever.\r\nYou are not allowed to take and make changes and repost it as yours.\r\nDONT STEAL. aka don\\'t be a dick.\r\nYou can however, make -----personal---- changes only. Personal means you keep it to yourself. If its something you would like me to implement shoot me a message.\r\n-I will not be expanding the house anymore. At this point only debugging.\r\n\r\nIf you have fixes to any of the issues above please let me know so that I can fix it.\r\n------------------------------------------------------------------------------\r\n\r\nUPDATE-\r\nv2.6\r\nNPC\\'s added as an option for users. General item count cut down for optimization with NPC\\'s. Added journals for each NPC located in their respective quarters. See info above for more detail \\\"NPCs\\\"\r\nv2.5\r\nNavmesh has been laid down in all cells to inhibit NPC follower movement and a foundation for Phase Two NPC creation. Edited lighting in main dome and added FX beams. Edited eminence to various lights to reflect time of day. Fixed Weapon display cases. Added Light Script to exterior lights in order to turn them off during the day time. Added Mage room tablets. Made Exterior friendly to Dragon Attacks. Edited Servant quarters to accommodate future NPC creation. Added the demons to the red room in the vault now that navmesh is done. Changed lighting in Red room to be darker and more dangerous looking. General preparation for NPC/spouse.\r\nv2.4\r\nExterior has been created. Well zone added for ingredient reasons. Key is also located here, see above “KEY” for details. Changed old storage room into a false vault, so that robbers think they got the real vault. The barrels in case you used them for storage have been moved as you will notice. Fixed Portal issues, clipping issues across the board. Added 15 Manneiqunes to the vault along with 12 weapon mounts, and 6 display cases. Some changes made to Main Dynasty manor, mostly plants. Navmesh removed, see above “KNOWN ISSUES”.\r\n\r\nThanks,\r\nEmSull\r\n\r\n",
+  "categoryId": "67",
+  "version": "2.5",
+  "author": "Emsull",
+  "createdUnix": "1330246203",
+  "updatedUnix": "1341803922",
+  "containsAdultContent": false,
+  "uploadedBy": "SpiralDynasty",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "72055",
+      "name": "Dynasty_Manor_2-5",
+      "version": "2.5",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "648",
+      "fileName": "Dynasty_Manor_2-5-11314-2-5.rar",
+      "uploadedUnix": "1341386730",
+      "modVersion": "2.5",
+      "virusScanUrl": "https://www.virustotal.com/file/52c0c2548fcbdc52f84b5236493eedf68c234064b2f9f8b1177689cd5f86257f/analysis/1407000134/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dynasty_Manor_2-5-11314-2-5.rar?fid=72055&ttl=1535772361&ri=8192&rs=8192&setec=e9aa9e3dc9a05acb5d9d15725ff5c198"
+    },
+    {
+      "fileId": "73053",
+      "name": "Dynasty_Manor_2-6",
+      "version": "2.6",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2387",
+      "fileName": "Dynasty_Manor_2-6-11314-2-6.rar",
+      "uploadedUnix": "1341803922",
+      "modVersion": "2.6",
+      "virusScanUrl": "https://www.virustotal.com/file/81d145b5a1733475180fb14a2691ebe120aeced1f0d50be051518ede5c741880/analysis/1407010807/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dynasty_Manor_2-6-11314-2-6.rar?fid=73053&ttl=1535772361&ri=8192&rs=8192&setec=7e4f51ded2af5d251dc193196452dba1"
+    }
+  ]
+}

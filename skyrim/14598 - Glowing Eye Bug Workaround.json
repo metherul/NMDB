@@ -1,0 +1,32 @@
+{
+  "modId": 14598.0,
+  "modName": "Glowing Eye Bug Workaround",
+  "summary": "This will eliminate the Glowing Eye Bug",
+  "descriptionHtml": "Hello\r\n\r\nI released this mod some time ago as my DraugsNoGlowingEyes mod. Now I rerelease it in the BugFix Section (thanks to jroyes for this idea) because it\\'s also a workaround for the glowing eye bug.\r\n\r\nIt will eliminate the meshinfo, which is responsible for the glowing eyes.\r\n\r\nBe aware that this will also remove the glowing eye effect from the draugrs and skeletons.\r\n\r\nSince I don\\'t have a save file with that bug I can\\'t detect which mesh (draugr or skeleton) is the\r\n\\\"bad\\\" one so i let the files as they are.\r\n\r\nAttention: this will overwrite draugr meshes (perhaps from another mod) located in\r\n\r\nDATA\\\\MESHES\\\\ACTORS\\\\DRAUGR\\\\CHARACTER ASSETS\\\\; so make a backup\r\n\r\nTo install:\r\n\r\nextract .7z archive in your data folder located in your Skyrim main folder \r\nor use NexusModManager\r\n\r\nThe mod should work with every draugr retexture\r\n\r\nUse at your own risk.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Wast1980",
+  "createdUnix": "1333826921",
+  "updatedUnix": "1333827000",
+  "containsAdultContent": false,
+  "uploadedBy": "Wast1980",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "50994",
+      "name": "GlowingEyeBugWorkaround",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "589",
+      "fileName": "GlowingEyeBugWorkaround-14598-1.7z",
+      "uploadedUnix": "1333827000",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/8f18b64be98a6a02f6c7105e0c0c621aa57ef6441a9dbf60dc001242d6aa76b5/analysis/1406802613/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/GlowingEyeBugWorkaround-14598-1.7z?fid=50994&ttl=1535778344&ri=8192&rs=8192&setec=56c3546470fcd19d3c44438aa01ca855"
+    }
+  ]
+}

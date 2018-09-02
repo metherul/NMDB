@@ -1,0 +1,48 @@
+{
+  "modId": 19040.0,
+  "modName": "Singerend Glass Sword-V2",
+  "summary": "Adds a glass sword fire counterpart to Chillrend.",
+  "descriptionHtml": "==Update v2==\r\n*Added temper capabilites\r\n*Recolored handle to be a little more orange-red and to reduce cartoony feel\r\n*Added flame effects emanating from handle (this generates a burning noise, which depending on the user, can be an annoying/neat feature)\r\n\r\nThis is my first attempt at a mod. It\\'s a simple STANDALONE reskin of chillrend, turning it into a fire-based version that is anti-magic.\r\n(It\\'s \\\"singe\\\" as in burn, not \\\"singer\\\")\r\nI did not place the sword in-game so you\\'ll have to type\r\nhelp singerend 4\r\nthen use the base id for\r\nplayer.additem XXXXXXXX 1\r\n\r\nIt is meant to scale and be in par with the highest level Chillrend (+46)\r\nStats are:\r\nBase Damage 15\r\nFire Enchant Damage 30\r\nMagicka Damage 15\r\n\r\n==Installation==\r\nPlace contents into Data folder and merge.\r\n\r\n==Uninstallation==\r\n*Delete Singerend.esp from your Data folder\r\n  *Delete singerend folder under Data>meshes>weapons\r\n  *Delete singerend folder under Data>textures>weapons\r\n==Note==\r\nI\\'ve noticed some strange line across the blade, but I\\'m not sure what it is or how to fix it. If you also have it or if any part of this mod malfunctions let me no.\r\n\r\nAnyone can do anything with this file so long as they credit my mediocre work!\r\n\r\nThanks to\r\nneomonkeus and ttl269 - NifTools Forum (for nifskope support)",
+  "categoryId": "55",
+  "version": "2",
+  "author": "Enderverse",
+  "createdUnix": "1340090039",
+  "updatedUnix": "1340295962",
+  "containsAdultContent": false,
+  "uploadedBy": "Enderverse",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "68980",
+      "name": "Singerend_V1",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "363",
+      "fileName": "Singerend_V1-19040-1.zip",
+      "uploadedUnix": "1340090691",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/1cb9e7894b05aaef5560a5380d8be0f84e9c8db1b4a98d5a80c4cb844c76c42f/analysis/1406969288/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Singerend_V1-19040-1.zip?fid=68980&ttl=1535786271&ri=8192&rs=8192&setec=497698794ff9224257d76ed0a1eb000d"
+    },
+    {
+      "fileId": "69422",
+      "name": "Singerend_V2",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "370",
+      "fileName": "Singerend_V2-19040-2.zip",
+      "uploadedUnix": "1340295962",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/5c90a0a3bbb2fa3aca7c80a2a1bf48caac61336901f744a16087b2b8f7b889c8/analysis/1406973737/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Singerend_V2-19040-2.zip?fid=69422&ttl=1535786271&ri=8192&rs=8192&setec=86749bc4aff92390e17368c68f295c48"
+    }
+  ]
+}

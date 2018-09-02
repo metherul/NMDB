@@ -1,0 +1,48 @@
+{
+  "modId": 33271.0,
+  "modName": "BAIN User Defined Language for NotepadPlusPlus",
+  "summary": "BAIN User Defined Language for Notepad++",
+  "descriptionHtml": "BAIN User Defined Language for Notepad++ v1.2 by The_Catman\r\nReleased 2013.03.14\r\n\r\nChangelog\r\n=========\r\n1.2\r\n---\r\nChanged comment lables from [] to {}. Forgot about indexes using []\r\n\r\n1.1\r\n---\r\nMinor tweaks i missed\r\nEscapes for quotes\r\nFixing Elif and Else\r\n\r\n1.0\r\n---\r\nRelease\r\n\r\nDescription\r\n===========\r\nThe title pretty much covers everything.\r\n\r\nFolders: [color=#6200C4]Purple[/color]\r\nOperators: [color=#000000]Black[/color]\r\n\\\"Return\\\" Functions: [color=blue]Blue[/color]\r\n\\\"Do\\\" Functions: [color=#FF00FF]Pink[/color]\r\nDialogs: [color=red]Red[/color]\r\nNumbers/Predefined Variables: [color=salmon]Salmon[/color]\r\nVariables (begining with b, i, s, or d): [color=#0080FF]Light Blue[/color]\r\nStrings: [color=#808080]Gray[/color]\r\nComments: [color=#008040]Green[/color]\r\nComment Lables: [color=#804000]Brown[/color]\r\n\r\nComment folders using ;Sec and ;EndSec defined, uses {} delimiters for lables. If you don\\'t know what this means, don\\'t worry about it.\r\n\r\nUses \\\"wizard.txt\\\" as file extension, remove this if you have a lot of unrelated files that end with \\\"wizard.txt\\\". (Also let me know [i]why[/i] you would have such files all over.)\r\n\r\nWhile there\\'s nothing in the language that requires variables to have prefixes, most scripters i know use simple (b)oolean, (s)tring, (i)nteger, and (d)ecimal prefixes. Variables not using this method will be coloured black, not much i can do about it.\r\n\r\nInstallation\r\n============\r\n1. Download latest 7z.\r\n2. Extract anywhere.\r\n3. Open Notepad++ and go to \\\"Language -> Define Your Language...\\\"\r\n4. Import the BAIN_UDL.xml file.\r\n5. Restart N++ and select BAIN from the bottom of the \\\"Languages\\\" menu.\r\n\r\nKnown Issues\r\n============\r\nNone\r\n \r\nContact\r\n=======\r\nYou can find me most places as CatmanIX or The_Catman.\r\n\r\nCredits\r\n=======\r\nWrye for [url=http://oblivion.nexusmods.com/mods/22368]Bash[/url].\r\nvalda for [url=http://newvegas.nexusmods.com/mods/35003]Flash[/url].\r\nDon-Ho for [url=http://notepad-plus-plus.org/]N++[/url]\r\nBethesda for making awesome games worth modding.\r\n\r\n[url=http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_CA][img]http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png[/img][/url]\r\nBAIN UDL for N++ by The_Catman is licensed under a [url=http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_CA]Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License[/url].\r\n",
+  "categoryId": "39",
+  "version": "1.2",
+  "author": "The_Catman",
+  "createdUnix": "1363237541",
+  "updatedUnix": "1363293820",
+  "containsAdultContent": false,
+  "uploadedBy": "CatmanIX",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000017326",
+      "name": "BAIN UDL v1_1",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "BAIN UDL v1_1-33271-1-1.7z",
+      "uploadedUnix": "1363237354",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/2beb4a7a7c871a5b328fc08ae95b62efecb862d7cf783ba6324d6fff8717d243/analysis/1407468903/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BAIN%20UDL%20v1_1-33271-1-1.7z?fid=1000017326&ttl=1535810312&ri=8192&rs=8192&setec=e39f9b9855dd35784fc586c337073086"
+    },
+    {
+      "fileId": "1000017485",
+      "name": "BAIN UDL v1_2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "BAIN UDL v1_2-33271-1-2.7z",
+      "uploadedUnix": "1363293820",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/746ffa106cd88669676f5e87b8ece63796285afaec29e42e8bf8771f15e1a16b/analysis/1407470108/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BAIN%20UDL%20v1_2-33271-1-2.7z?fid=1000017485&ttl=1535810313&ri=8192&rs=8192&setec=52b6d374441f96bfe8bcc1989947ca87"
+    }
+  ]
+}

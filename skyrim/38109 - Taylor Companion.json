@@ -1,0 +1,48 @@
+{
+  "modId": 38109.0,
+  "modName": "Taylor Companion",
+  "summary": "This mod replaces Camilla with a Ranger named Taylor.",
+  "descriptionHtml": "This mod is working, however it is a work in progress. I will continue to improve on Taylor&#39;s looks. In the future I will make her a stand alone companion. However this is my first mod so it may take a little while for some features.\r<br />\r<br />If anybody knows how to change the greeting for a particular NPC please pm me or let me know how to do this in a post. I did find the dialogue menu in the creation kit but its pretty confusing.\r<br />____________________________________________________________________________________________\r<br />Updates:\r<br />v1.1 Taylor now has her own set of vanilla glass armor. I will add a version with the remodeled armor in the near future.\r<br />\r<br />____________________________________________________________________________________________\r<br />Installation:\r<br />To install simply drop Taylor.esp into your data folder and activate using the NMM. Then click launch.\r<br />\r<br />In order to activate Taylor after the golden claw quest you must open the command console and enter the following lines in this order to turn her into a follower. This is until i can figure out a way to integrate this into the file. You need only do this once so then save.\r<br />\r<br />stopcombat\r<br />removefromallfactions\r<br />setrelationshiprank player 4\r<br />addtofaction 0005a1a4 4\r<br />addtofaction 0005c84d 4\r<br />setplayerteammate 1\r<br />\r<br />After this is entered you should be able to do the normal follower things with her.\r<br />I will be removing her annoying claw related dialogue in a later version.\r<br />\r<br />\r<br />\r<br />Required for mod to work:\r<br />Apachii Skyhair female standalone v1.3\r<br />Caliente&#39;s body replacer CBBE v3.2\r<br />\r<br />\r<br />Recommended:\r<br />Cbbe v3.2 Armor replacer by MAK07 \r<br />\r<br />",
+  "categoryId": "96",
+  "version": "1.1",
+  "author": "CrazyLokiCat",
+  "createdUnix": "1373341527",
+  "updatedUnix": "1373344005",
+  "containsAdultContent": false,
+  "uploadedBy": "CrazyLokiCat",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000037985",
+      "name": "Taylor Companion",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Taylor Companion-38109-1-0.7z",
+      "uploadedUnix": "1373341234",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9e2ccfe881b5fb31355a57dfe69508e01568ad4cce13eb05c2f914ac184cfa2d/analysis/1407636187/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Taylor%20Companion-38109-1-0.7z?fid=1000037985&ttl=1535818275&ri=8192&rs=8192&setec=45e864ec1cc282f276b43c300ba3cbe9"
+    },
+    {
+      "fileId": "1000037988",
+      "name": "Taylor Companion with personal armor",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Taylor Companion with personal armor-38109-1-1.7z",
+      "uploadedUnix": "1373344005",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/6a42c540d7f35050a4297f03ff46bd1d302a9a9ac2264e93485a21ef6e40e85a/analysis/1407636203/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Taylor%20Companion%20with%20personal%20armor-38109-1-1.7z?fid=1000037988&ttl=1535818275&ri=8192&rs=8192&setec=6210411208128d4a785a200bdcf167af"
+    }
+  ]
+}

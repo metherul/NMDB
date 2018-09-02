@@ -1,0 +1,32 @@
+{
+  "modId": 16464.0,
+  "modName": "Shadow Remover",
+  "summary": "This will remove all shadows both interior and exterior but leave intact all lighting fx and will provide a large FPS boost.",
+  "descriptionHtml": "Shadow Remover\r\n\r\n\r\n\r\n\r\nDescription:\r\nThis will remove all shadows both interior and exterior but leave intact all lighting fx and will provide a large FPS boost.\r\n\r\n\r\n\r\n\r\nInstallation:\r\n\r\n[color=red]1. In Documents\\\\My Games\\\\Skyrim\\\\SkyrimSkyrimPrefs.ini amend these values:[/color]\r\n\r\niBlurDeferredShadowMask=20 (Optional, this smooths out the shadow mask on some lights. Set between 0 and 20 as you like. 20 is recommended) \r\nfInteriorShadowDistance=8000.0000 (Required, set this as you wish. Set between 1000 and 8000. 8000 is recommended)\r\nfShadowDistance=0.0000 (Required, Ensures exterior shadows are off. Can be used by itself to only turn off exterior shadows)\r\niShadowMapResolution=1 (Required, turns off exterior and interior shadows)\r\nfShadowBiasScale=0.0000 (Required, exterior shadows will be fully removed now with these settings)\r\niShadowMaskQuarter=3 (Required. set between 3 and 4)\r\n\r\nOther tweaks that may help out but are only recommended if you have problems getting the mod to work:\r\n\r\niShadowSplitCount=0\r\nfShadowLODStartFade=0.0000\r\niShadowMode=0\r\nbTreesReceiveShadows=0\r\nbDrawLandShadows=0\r\nbShadowMaskZPrepass=0\r\nbMainZPrepass=0\r\niShadowFilter=0\r\nbDrawShadows=0\r\n\r\n[color=red]2. Now just add the esp file to the skyrim data folder and tick in the mod manager of your choice.[/color]\r\n\r\nDone.\r\n\r\n\r\n\r\n\r\nDetails:\r\nThis mod will remove all shadows including, player and npc shadows, tree, grass and all interior shadows. It also leaves intact the four different lighting fx. Omni, Shadow Omni, Spotlight and Hemispherical are all still used just without the shadows. Most of the lighting is in its default postition using the default light fx that Bethesda put in place.  \r\n\r\nUpdated testing:\r\n\r\nAmd Athlon II x4 635\r\nGtx 460 768mb\r\nLow end mobo\r\n4gb ddr3 ram\r\n\r\nto -\r\n\r\nIntel i5 3570k\r\nGtx 670 2gb\r\nHigh end mobo\r\n4gb ddr3 ram\r\n\r\n[color=orange]Nvidia beta driver 310.61 now makes ultra shadows possible on my new system. Anything below the 310.61 makes ultra shadows unplayable so make sure to upgrade. Not sure what they did but I saw a huge gain in performance with these new drivers. I now get 60 fps everywhere and anywhere. Rejoice![/color] \r\n\r\n[color=red]The Nvidia beta driver 310.70 is even better but only if you have a GTX 400 card or above. Sorry not sure about ATI cards drivers.[/color] \r\n\r\nKnown bugs:\r\nNone.\r\n\r\n\r\n\r\n\r\n\r\nCompatibility:\r\nMods that change lights position or values will conflict.\r\n\r\n\r\n\r\n\r\nv2.0 fixes:\r\nAll lights in all interior cells that were acting weird in v1.0 are fixed. I went through every single interior cell to check that the lights worked as expected.\r\nAdded other tweaks that will help make the game shadows that remain look seamless. Don\\'t worry the only shadows that remain are interior light shadow masks that are important for the game to look good but are so cpu/gpu limited that they will not affect performance at all.\r\nv3.0 fixes:\r\nFixed Hjerim\\'s lights, fps increased in this cell by 50%. Other Minor tweeks in other cells.",
+  "categoryId": "62",
+  "version": "v3.0",
+  "author": "GriefReaper",
+  "createdUnix": "1336187856",
+  "updatedUnix": "1343502936",
+  "containsAdultContent": false,
+  "uploadedBy": "GriefReaper",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "77153",
+      "name": "Shadow Remover",
+      "version": "v3.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "24",
+      "fileName": "Shadow Remover-16464-v3-0.rar",
+      "uploadedUnix": "1343502936",
+      "modVersion": "v3.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6b3a3e0bd9fed307a323e3bf7b0d0cd7cf322ca08124d44c9c3be595e0afd563/analysis/1407052392/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Shadow%20Remover-16464-v3-0.rar?fid=77153&ttl=1535781669&ri=8192&rs=8192&setec=0ce186f0788c8077ad1166ea80c0f537"
+    }
+  ]
+}

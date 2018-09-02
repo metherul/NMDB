@@ -1,0 +1,32 @@
+{
+  "modId": 14213.0,
+  "modName": "Sai",
+  "summary": "Sai [user request] | Installation:\r\n\r\nCopy meshes + textures folder & SAI.esp to your Skyrim\\\\data directory.\r\nThe folder-structure should look like:\r\n... Skyrim\\\\data\\\\meshes\\\\weapons\\\\SAI\\\\ ALL NIF FILES\r\n... Skyrim\\\\data\\\\textures\\\\weapons\\\\SAI\\\\ ALL DDS FILES\r\n... Skyrim\\\\data\\\\SAI.esp\r\n\r\nMake sure that the plugin is activated in launcher => DA",
+  "descriptionHtml": "Sai [user request]\r\n\r\nInstallation:\r\nCopy meshes + textures folder & SAI.esp to your Skyrim\\\\data directory.\r\n\r\nThe folder-structure should look like:\r\n... Skyrim\\\\data\\\\meshes\\\\weapons\\\\SAI\\\\ ALL NIF FILES\r\n... Skyrim\\\\data\\\\textures\\\\weapons\\\\SAI\\\\ ALL DDS FILES\r\n... Skyrim\\\\data\\\\SAI.esp\r\n\r\nMake sure that the plugin is activated in launcher => DATA FILES.\r\nThe weapon is placed in the forge-menu along with the steel items.\r\n\r\nOR open console (key ^) and enter HELP SAI 4\r\nYou get a code, after that enter PLAYER.ADDITEM CODE 1\r\n(1 = amount) - the weapon will be placed in your inventory.\r\n\r\n(Code should look like XX000D63, XX= the load number of the mod, for example PLAYER.ADDITEM 12000D63 1)\r\n\r\nDamage should scale with your skills/lvl, if you want to adjust the dmg open the Creation Kit, LOAD, check SKYRIM.ESM \r\nand SAI.ESP in the left window, set SAI.ESP to ACTIVE FILE and press OK. In the object window check ITEMS and WEAPONS, \r\nsearch for SAI and open the found form, adjust the dmg/speed values in this window, press OK and SAVE.\r\n\r\ngreetings\r\nGhosu ",
+  "categoryId": "55",
+  "version": "1.3",
+  "author": "Ghosu",
+  "createdUnix": "1333363854",
+  "updatedUnix": "1333392575",
+  "containsAdultContent": false,
+  "uploadedBy": "ghosu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "49416",
+      "name": "Sai V3",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2730",
+      "fileName": "Sai V3-14213-1-3.rar",
+      "uploadedUnix": "1333392575",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/260c84afb1c375b1c6d18e7c06e536bffcf1846f832da15d766edbefff93b4f8/analysis/1406793844/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Sai%20V3-14213-1-3.rar?fid=49416&ttl=1535777686&ri=8192&rs=8192&setec=56eae3030be6845883c45a79b190afb5"
+    }
+  ]
+}

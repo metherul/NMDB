@@ -1,0 +1,32 @@
+{
+  "modId": 10596.0,
+  "modName": "Atronach Forge Daedric Boots Fix",
+  "summary": "Fixes the bug that causes the Atronach Forge to spawn unplayable Dremora boots when using the Daedric Boots recipe.",
+  "descriptionHtml": "This mod is just a very simple bug fix that fixes the Atronach Forge results list to spawn the correct type of Daedric boots, rather than the unplayable Dremora variant, when the player uses the Daedric Boots recipe.\r\n\r\nFor those curious how it works, all it does is replace the \\\"DremoraBoots\\\" entry on the form list that gets referenced by the Atronach Forge\\'s summoning script with the correct entry, \\\"ArmorDaedricBoots\\\".\r\n\r\n= Installation =\r\nSimply add the AtronachForgeBootsFix.esm to your data folder and activate using your preferred mod manager.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Wedge Skyrocket",
+  "createdUnix": "1329772888",
+  "updatedUnix": "1329773015",
+  "containsAdultContent": false,
+  "uploadedBy": "Wedge Skyrocket",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "34387",
+      "name": "Atronach Forge Daedric Boots Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Atronach Forge Daedric Boots Fix-10596-1-0.zip",
+      "uploadedUnix": "1329773015",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b75318111c7bd49211db4021424048a5c4d01d688488fef9a4299c5ac24dc0a8/analysis/1406699044/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Atronach%20Forge%20Daedric%20Boots%20Fix-10596-1-0.zip?fid=34387&ttl=1535771117&ri=8192&rs=8192&setec=c9df3a3173bd315d5f3f81c99cce26ad"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 13737.0,
+  "modName": "No Shout Warnings From Guards",
+  "summary": "Stops guards from bothering you when you use Dragon Shouts inside of settlements. \r\n\r\nIn vanilla Skyrim, guards will force you into a dialogue and request that you not use your Shouts. Initially, it\\'s funny but after a few times it gets annoying. You\\'d think people would be happy that they have a Dragonborn around. Well, now they are, or least th",
+  "descriptionHtml": "Purpose\r\n\r\nStops guards from bothering you when you use Dragon Shouts inside of settlements. In vanilla Skyrim, guards will force you into a dialogue and request that you not use your Shouts. Initially, it\\'s funny but after a few times it gets annoying. You\\'d think people would be happy that they have a Dragonborn around. Well, now they are, or least they can\\'t complain.\r\n\r\nHow To Install/Uninstall\r\n\r\n1. Drop the file, named no_guard_warning_after_shouts.esp, into the Data folder.\r\n2. Make sure the file is selected by checking it\\'s box in the Skyrim game launcher.\r\n3. Just delete the file if you wish to uninstall.\r\n\r\nWhat I Did\r\n\r\nIt\\'s a simple tweak but I will explain what I did in case anyone can improve on HOW I did it:\r\n\r\n1. Open skyrim.esm with the Creation Kit.\r\n2. Locate Quests > WICastMagic03 (Editor ID)\r\n3. Right-click and select delete and click Yes through all the warnings.\r\n4. Save as .esp file.\r\n\r\nNote\r\n\r\nIf you want to test the effects without waiting for Shout cooldowns try using a mod called Thu\\'um Infinium. It can be found here:\r\n\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=8162\r\nhttp://steamcommunity.com/sharedfiles/filedetails/?id=7784\r\n",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "ct",
+  "createdUnix": "1332754614",
+  "updatedUnix": "1332754769",
+  "containsAdultContent": false,
+  "uploadedBy": "cooltrickle",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "46997",
+      "name": "No Shout Warnings From Guards",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "No Shout Warnings From Guards-13737.7z",
+      "uploadedUnix": "1332754769",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e07451b9962125f76dd8e073da936c919b27f0feca45d22a14b6e01be96a69dd/analysis/1406780763/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20Shout%20Warnings%20From%20Guards-13737.7z?fid=46997&ttl=1535776825&ri=8192&rs=8192&setec=16f551ad36b3ba7014f97c2e4bdb44ee"
+    }
+  ]
+}

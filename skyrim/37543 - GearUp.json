@@ -1,0 +1,48 @@
+{
+  "modId": 37543.0,
+  "modName": "GearUp",
+  "summary": "This mod basically activates more weapon slots by overwriting the ini value \\\"bDisableGearedUp\\\" and \r\nprovides script functionality to prevent the glitches associated with it.",
+  "descriptionHtml": "PLEASE READ:\r\nThis mod isn\\'t working as intended and basically dead. I just made it visible again for another modder. Feel free to try it but don\\'t expect any updates for it.\r\n\r\nThis mod basically activates more weapon slots by overwriting the ini value \\\"bDisableGearedUp\\\".\r\nThe problem with this option usually is that many glitches can appear.\r\n\r\nHowever, I wrote a script to make it work, kind of. \r\nIt\\'s not perfect but it\\'s working most of the time.\r\n\r\nIf you mostly use different weapons of different types this should work for you.\r\nBut it seems like I have to add some more code for shields and magic.\r\nI\\'m still figuring out different things.\r\n\r\nEDIT:\r\nI just realized this only works intended if you have equipped a shield all the time.\r\nI\\'m currently looking into this.\r\n\r\nRequires:\r\n- SKSE 1.6.15 or higher -> http://skse.silverlock.org/",
+  "categoryId": "78",
+  "version": "2.0",
+  "author": "grasmann",
+  "createdUnix": "1372071093",
+  "updatedUnix": "1376344139",
+  "containsAdultContent": false,
+  "uploadedBy": "Grasmann",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000035642",
+      "name": "GearUp",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "GearUp-37543-1-0.7z",
+      "uploadedUnix": "1372108733",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c151cc7f381b8db2cf81790f904e0b1f8f1dc055dbfe08ca8faf906ae487522d/analysis/1407615611/",
+      "changelogHtml": " Initial release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/GearUp-37543-1-0.7z?fid=1000035642&ttl=1535817303&ri=8192&rs=8192&setec=0419659200c2585536ce395632bf3ef1"
+    },
+    {
+      "fileId": "1000046427",
+      "name": "GearUp2",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "GearUp2-37543-2-0.7z",
+      "uploadedUnix": "1376344139",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4bf6e447c057a6291691a2bfac6622b44074c738024edda105ce8da957c9d273/analysis/1407680231/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/GearUp2-37543-2-0.7z?fid=1000046427&ttl=1535817304&ri=8192&rs=8192&setec=f910986567fa9c178562770b62cb769b"
+    }
+  ]
+}

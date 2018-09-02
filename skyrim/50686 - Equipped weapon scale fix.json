@@ -1,0 +1,32 @@
+{
+  "modId": 50686.0,
+  "modName": "Equipped weapon scale fix",
+  "summary": "Reduces the scaling of equipped weapons and quivers",
+  "descriptionHtml": "Reduces the scale of equipped weapons and quivers to closer to the size when you are holding it and not anime/WoW sized. Uploaded images says it all really. Changes male, female and beast race skeletons.\r<br />\r<br />Some weapons still look way oversized, thats the weapons model itself. I didnt change placement so daggers that clipped before will be smaller and look like they are clipping even more. Some hammers and war axes on the back may look slightly odd with the head high up on the characters back, theres nothing I can do because the same bone also is used for greatswords. If I lowered the bone then greatswords would be oddly placed.\r<br />\r<br />There may be some weapons that will be floating on the back. That is because of the position of the node in the weapon being further away so the enlarged weapon does not clip. Nothing I can do about that. \r<br />\r<br />There is a chance you can get a CTD after installing the mod and loading a save, so uninstall the mod and unequip any weapons you have on prior to installing again. 1 reported case and I think that is because he was using another mod that modified the quiver placement and his save didnt like it being moved when loading.\r<br />\r<br />This is a skeleton replacer so it is incompatible with any skeleton replacer like XP32&#39;s. Permission is granted for them to use my bone scaling so you can always request that they make the adjustments for an optional file.\r<br />\r<br />It should be compatible with anything that uses the default skeleton since this is the default skeleton except the bones for weapon placement have been reduced in scale.\r<br />\r<br />Install instructions: Unpack to your Skyrims Data directory.\r<br />\r<br />NMM issues: Please direct those to the forums, I will not support NMM or the issues it creates. Default answer for anything to do with NMM from me is &#34;install it manualy&#34; so if you ask I already answered it.\r<br />\r<br />Other mods by me:\r<br />\r<br />[url= http://www.nexusmods.com/skyrim/mods/7802 ] 4 Steel Knights Shields[/url]\r<br />[url= http://www.nexusmods.com/skyrim/mods/52127 ] Arrowsong [/url]\r<br />[url= http://www.nexusmods.com/skyrim/mods/52297 ] BearClaw [/url]\r<br />[url= http://www.nexusmods.com/skyrim/mods/31683 ] Campsites in Skyrim [/url]\r<br />[url= http://www.nexusmods.com/skyrim/mods/51597 ] Dwarven Bows [/url]\r<br />[url= http://www.nexusmods.com/skyrim/mods/49437 ] Modern styled arrows [/url]\r<br />[url= http://www.nexusmods.com/skyrim/mods/50957 ] No Force Greet Patch [/url]\r<br />[url= http://www.nexusmods.com/skyrim/mods/29223 ] No Predators on roads [/url]\r<br />[url= http://www.nexusmods.com/skyrim/mods/50361 ] Not Locked Anymore [/url]\r<br />[url= http://www.nexusmods.com/skyrim/mods/17776 ] Riftwood Bunny Breeders and Fire-Eye Chicken Ranch [/url]\r<br />[url= http://www.nexusmods.com/skyrim/mods/51376 ] Simply Circlets [/url]\r<br />[url= http://www.nexusmods.com/skyrim/mods/29857 ] Subtle Eye Adapting to light [/url]",
+  "categoryId": "51",
+  "version": "1",
+  "author": "jet4571",
+  "createdUnix": "1391389653",
+  "updatedUnix": "1391389643",
+  "containsAdultContent": false,
+  "uploadedBy": "jet4571",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000094959",
+      "name": "equipped weapon scale fix",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "44",
+      "fileName": "equipped weapon scale fix-50686-1.zip",
+      "uploadedUnix": "1391389643",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/7e1a8fb36d508e8f6d3cd5071ed8e99e34a86ea95a8d7588082106254ccc7da0/analysis/1407915553/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/equipped%20weapon%20scale%20fix-50686-1.zip?fid=1000094959&ttl=1535832536&ri=8192&rs=8192&setec=fc66cf74ef29bc67d0a53cdaed0cb6b3"
+    }
+  ]
+}

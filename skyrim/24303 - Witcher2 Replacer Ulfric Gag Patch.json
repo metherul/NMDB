@@ -1,0 +1,32 @@
+{
+  "modId": 24303.0,
+  "modName": "Witcher2 Replacer Ulfric Gag Patch",
+  "summary": "A small patch to make sure Ulfric wears his gag whilst a prisoner.",
+  "descriptionHtml": "This is a small patch for the Witcher2 Replace Mod that ensures Ulfric wears his gag whilst he\\'s a prisoner.\r\n\r\n================\r\nDetails\r\n================\r\n\r\nWitcher5688\\'s replacer mod looks great but for one small problem - Ulfric wears Roche\\'s headgear during the opening sequence (cart ride and execution), but is not gagged. Story-wise, he\\'s supposed to be gagged so that he can\\'t Shout. At one point, General Tullius talks to him and Ulfric attempts to reply, but is muffled by the gag. So for there to be no visual gag was somewhat off-putting. This patch removes Roche\\'s headgear from Ulfric and restores the Gag.\r\n\r\nThis was something of a pain to do. Witcher5688\\'s mod doesn\\'t add a new item for the headgear, it edits the original gag. So to fix, I had to edit the same item - except I couldn\\'t select the original gag nif because it was packed up. So I had to unpack meshes.bsa, drop the Gag folder back into the meshes folder and then select it. But I think it was worth it. Hopefully you will to :)\r\n\r\n================\r\nRequirements\r\n================\r\n\r\nWitcher2 Replace Mod by Witcher5688 - http://skyrim.nexusmods.com/mods/22054\r\n\r\n================\r\nInstallation\r\n================\r\n\r\nDownload & install with NMM, or manually extract to your date folder. Load after Witcher2-v3.0 Ulfric-Roche.esp. Can be before or after the bashed patch, it doesn\\'t matter.\r\n\r\n================\r\nUninstallation\r\n================\r\n\r\nUninstall via NMM,  or delete the following from the data folder:\r\n\r\nWitcher2-v3.0 Ulfric-Roche Gag Patch.esp\r\nmeshes\\\\clothes\\\\gag\\\\gag.nif",
+  "categoryId": "54",
+  "version": "1.0",
+  "author": "zulu9812",
+  "createdUnix": "1347971871",
+  "updatedUnix": "1347971972",
+  "containsAdultContent": false,
+  "uploadedBy": "zulu9812",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "89182",
+      "name": "Witcher2 Replacer Ulfric Gag Patch",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "Witcher2 Replacer Ulfric Gag Patch-24303-1-0.7z",
+      "uploadedUnix": "1347971972",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5fbdd7838120416f0a5513f65c5ff2aff3c32da32a595403ec9261d6b28bba3d/analysis/1407172747/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Witcher2%20Replacer%20Ulfric%20Gag%20Patch-24303-1-0.7z?fid=89182&ttl=1535795114&ri=8192&rs=8192&setec=ba741019a7047ba77061239263aa54b5"
+    }
+  ]
+}

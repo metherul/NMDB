@@ -1,0 +1,32 @@
+{
+  "modId": 30769.0,
+  "modName": "Return to Grace Fix",
+  "summary": "Replaces the Amulet of Talos on Roggvir with a unique \\\"Roggvir\\'s Amulet of Talos\\\" to prevent making standard Amulets of Talos from becoming quest items.",
+  "descriptionHtml": "WARNING! This fix will only take effect on a new game. I currently lack the know-how to make it work on existing saves. \r\nNOTE: The makers of the Unofficial Skyrim Patch have my permission to incorporate this fix into the USKP if they so desire. Anyone else is also permitted to modify and redistribute this file, so long as I\\'m credited as the original author.\r\n\r\nIf you\\'ve ever tried to sell, drop or store an Amulet of Talos, only to find it was a quest item, this mod works around that issue. WARNING: Spoilers Ahead!\r\n\r\n\r\n\r\nThe issue is the Amulet of Talos held by Roggvir, the man who is executed when you first enter Solitude. It is a standard Amulet of Talos that gets marked as a quest item, thus once you pick it up, it marks all instances of that same Amulet of Talos as quest items. This amulet is meant to ultimately be given to Roggvir\\'s sister, Greta. However, it is possible to take the amulet and never know about the quest as taking it gives you no notifications, meaning one could potentially go hours never knowing that their Amulet of Talos is a quest item until they attempt to take it out of their inventory in some manner.\r\n\r\nHow I fixed it: I made a unique Amulet of Talos, based off the standard amulet, called Roggvir\\'s Amulet of Talos, and modified the alias in the quest to point to it instead. This way, even if you don\\'t know about the quest, the amulet still stands out due to the unique name and it prevents all of the standard Amulets of Talos from becoming quest items. However, as stated before, this will only take effect on a new game. Even if you haven\\'t visited Solitude yet, the amulet on Roggvir is already generated and tied to the quest. Should the USKP makers decide to incorporate my fix, they likely have the know-how to make it take effect in an existing game.\r\n\r\nManual Install; Simply drop Return to Grace fix.esp into your skyrim/Data folder, then check it in the Skyrim Launcher/NMM/Your launcher of choice.\r\n\r\nNMM Install; Download it through the Download with Manager button on the mod page and activate it through NMM.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Ritaku",
+  "createdUnix": "1359649255",
+  "updatedUnix": "1359648680",
+  "containsAdultContent": false,
+  "uploadedBy": "Ritaku",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000006148",
+      "name": "Return to Grace Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Return to Grace Fix-30769-1-0.zip",
+      "uploadedUnix": "1359648680",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/25dffc91ba72d5bc515c5e0aa50df6199e685528738a7f1412a0289dc6e4068f/analysis/1407389071/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Return%20to%20Grace%20Fix-30769-1-0.zip?fid=1000006148&ttl=1535805848&ri=8192&rs=8192&setec=94f10bdaaad05e0cc65835d683a29bf7"
+    }
+  ]
+}

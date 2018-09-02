@@ -1,0 +1,32 @@
+{
+  "modId": 69124.0,
+  "modName": "Transcribed Dialogue Filenames",
+  "summary": "Provides rename-pair lists for Bulk Rename Utility, that change the names of Skyrim&#39;s .fuz files to be transcriptions of the dialogue contained within.",
+  "descriptionHtml": "[center][u][b][size=6]Transcribed Dialogue Filenames[/size][/b][/u][/center]\r<br />\r<br />[i][b][center][u]Usage[/u][/center][/b][/i]\r<br />\r<br />\r<br />[list=1]\r<br />\r<br />[*]Extract the .fuz files from Skyrim&#39;s .bsa files, in this order: Dragonborn.bsa, Hearthfires.bsa, Dawnguard.bsa, Skyrim - VoicesExtra, Skyrim - Voices. I recommend using ModOrganizer&#39;s BSA unpacking feature, rather than using BSAOpt.\r<br />[*]Install Bulk Rename Utility, which can be downloaded [url=http://www.bulkrenameutility.co.uk/Download.php]here.[/url]\r<br />[*]Extract the text files from the archive provided by this mod.\r<br />[*]Launch Bulk Rename Utility.\r<br />[*]Select the folder with the extracted .fuz files.\r<br />[*]Options -&gt; Tick &#34;Retain Autonumber&#34;.\r<br />[*]Options -&gt; Tick &#34;Prevent Duplicates&#34;.\r<br />[*]Selections (12) -&gt; Make sure only &#34;Files&#34; & &#34;Subfolders&#34; are ticked.\r<br />[*]Wait for the dialogue files to finish being found in the right pane; go grab a cup of tea whilst you wait.\r<br />[*]On the right pane, select all the files. This can be done by selecting one, then pressing Ctrl+A on your keyboard.\r<br />[*]File -&gt; &#34;Import Rename-Pairs&#34; -&gt; &#34;01DialogueDragonbornUnofficial.txt&#34; file. Take note that the rename-pair lists are numbered for the sake of being intuitive; you apply 01 first, 02 second, 03 third, etc.\r<br />[*]At the bottom right corner of the window, click &#34;Rename&#34;.\r<br />[*]Proceed past the caution message, that comes up for everybody.\r<br />[*]Wait for the files to be processed\r<br />[*]Once done, repeat steps 11-14 until all of the rename pair lists have been used.\r<br />[*]Exit Bulk Rename Utility.\r<br />[/list][center]\r<br />Tadah. Now the dialogue files make sense.[/center]\r<br />\r<br />\r<br />\r<br />\r<br />[center][i][b]Nonsensical ramblings:[/b][/i][/center]\r<br />For those curious how I managed to compile these rename-pair lists, I modified the default TES5Edit script &#34;Export dialogues.pas&#34; to only output the dialogue filename and the actual dialogue text. I then loaded the generated text file into Excel to remove any redundant columns, exported the result as a new text file, then used Notepad++ to replace characters such as &#34;...&#34; &#34;:&#34; &#34;;&#34; &#34;/&#34; &#34;&lt;&#34;, etc.\r<br />\r<br />I had to repeat this process eight times, until the DLC and unofficial patches were covered.\r<br />\r<br />For the last file, 10DialogueMisc.txt, I had to manually transcribe all the dialogue files which were missed by the Tes5Edit script. This was a major pain in the ass; took me five or six days of work. And yes, transcribing is a hellish, boring and tedious endeavor. I don&#39;t like it one bit.\r<br />\r<br />So aye, this should make life a hell of a lot easier for modders that wish to add dialogue to custom NPCs; no longer do you have to listen to thousands of  decompiled .fuz files, just to find a single line of usable dialogue.",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "That would be me",
+  "createdUnix": "1440689887",
+  "updatedUnix": "1440689706",
+  "containsAdultContent": false,
+  "uploadedBy": "FiftyTifty",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000173573",
+      "name": "Rename-Pair Lists",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1016",
+      "fileName": "Rename-Pair Lists-69124-1-0.7z",
+      "uploadedUnix": "1440689706",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c0f157a3d3f8beb95435157357fb09f72678892708c61fee86b6fe51253054ec/analysis/1440689764/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Rename-Pair%20Lists-69124-1-0.7z?fid=1000173573&ttl=1535857456&ri=8192&rs=8192&setec=a81daa722a811bd0d16d1ffd050c6242"
+    }
+  ]
+}

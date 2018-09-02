@@ -1,0 +1,32 @@
+{
+  "modId": 10617.0,
+  "modName": "Erza Scarlet - Titania NPC Follower - BETA -",
+  "summary": "Add Erza Scarlet (Titania) as NPC follower / companion to Skyrim\r\n  - Level 80 Follower\r\n  - Location:  Whiterun: Banner Mare\r\n  - Armor/Gear:  Daedric\r\n  - 2H Combat Type",
+  "descriptionHtml": "This is a my feable attempt to adding Erza Scarlet, an S-class (level 80) Fairy Tail character, into Skyrim.  For those familiar with Fairy Tail, you know who she is ... I\\'m not going to explain her background or Fairy Tail (goto: http://http://fairytail.wikia.com/wiki/Main_Page if you are interested).   Erza can be found in Whiterun Banner Mare\r\n\r\nTO INSTALL:   Extract the esp file from the archive, and place it in you Skyrim data directory. \r\n\r\nRequirement\r\n============\r\nYou need the following for this mod to work:\r\n\r\n   Tera Hair pack - http://www.loverslab.com/showthread.php?tid=4188&pid=99562#pid99562\r\n   Extended Slider Colors - http://skyrim.nexusmods.com/downloads/file.php?id=6923\r\n   NOTE:  I used Extended Colors - Less Selection\r\n\r\nKnow issues and workarounds\r\n===========================\r\n1)  Erza does not found in Whiterun Banner Mare.   Simply find her ID via \\'help erza 4\\' in the command console, and then type \\'player.placeatme <id>\\'  - replace <id> with Erza\\'s id reported back from the first help command.  She wears Daedric Armor Set by default and weld Daedric Greatsword. \r\n\r\n2) Erza face is complexion mismatch with body (dark greyish).   Goto to command console mode, select Erza, then type:   \r\n    setnpcweight 0\r\n    setnpcweight 100\r\n\r\n3) Changing outfit or weapon .. simply goto command console mode, select Erza, and then type \\'removeallitems\\'  ... now you can give her any armor/clothes/weapon and she\\'ll wear/use them.\r\n\r\nVARIATION NOTICE\r\n=================\r\nI also use CBBBLE v2.1 and other mods to have her look the why she does in the image (see References for list of package you may want to consider).   Your version may look difference if you use different face, body, texture, hair, etc.   So, feel free to experiment. \r\n\r\nReferences/Credits\r\n==================\r\nCBBBLE   - http://bbs.3dmgame.com/thread-2862084-1-1.html\r\nCBBE      - http://skyrim.nexusmods.com/downloads/file.php?id=2666\r\nTera Hair- http://www.loverslab.com/showthread.php?tid=4188&pid=99562#pid99562\r\nColor      - http://skyrim.nexusmods.com/downloads/file.php?id=6923\r\n\r\nArmor\r\n--------\r\nSexy Ebony Armor   - http://skyrim.nexusmods.com/downloads/file.php?id=7244\r\nHentai Jamella       - http://skyrim.nexusmods.com/downloads/file.php?id=8859\r\n\r\nErza\\'s Heart Kreuz Armor (Jamella Armor Retextured) can be found here:\r\n     - http://skyrim.nexusmods.com/downloads/file.php?id=9709\r\n\r\nTool used:   Bethesda Skyrim Creation Kit\r\n\r\nFEEL Free to use and experiment.   ENJOY!",
+  "categoryId": "66",
+  "version": "0.1",
+  "author": "rounin",
+  "createdUnix": "1329778193",
+  "updatedUnix": "1329778303",
+  "containsAdultContent": false,
+  "uploadedBy": "rounin3",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "34456",
+      "name": "Erza NPC Follower Beta 1",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Erza NPC Follower Beta 1-10617-0-1.zip",
+      "uploadedUnix": "1329778303",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/4e366c96be853a59e51f428d688035dbde79ca8149b745f0462036109362782d/analysis/1406699582/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Erza%20NPC%20Follower%20Beta%201-10617-0-1.zip?fid=34456&ttl=1535771154&ri=8192&rs=8192&setec=0d13cb76a42de78f05bcb78610d8ef94"
+    }
+  ]
+}

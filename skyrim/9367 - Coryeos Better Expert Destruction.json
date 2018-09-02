@@ -1,0 +1,32 @@
+{
+  "modId": 9367.0,
+  "modName": "Coryeos Better Expert Destruction",
+  "summary": "More useful and efficient Expert class destrcution magics. ",
+  "descriptionHtml": "\r\nI thought it is weird that incinerate costs 10 times more magicka than firebolt but its damage is only 2.4 times better. I looked everywhere to make incinerate(and others) better and I failed, so I made my own.\r\n\r\nI tried to make Expert class magics as Strong as it sounds like while efficient as Apprentice class magics.\r\n\r\nThis mod also makes...\r\n-Incinerate as a medium-damage for small area\r\n-Icy Spear as a high-damage for 1 target\r\n-Thunderbolt as an low-damage(though stronger than Chain Lightning) for medium area\r\n\r\n\r\n\r\nVersion 0.2\r\n\r\n-change log-\r\n\r\n-Damage and Magicka consumption of Incinerate is now triple of Firebolt.\r\n-Incinerate also effects things within 3 ft (1m) radius from target. (Experimental)\r\n\r\n-Thunderbolt\\'s Damage is now 2.8 times better than Lightning Bolt.\r\n-Thunderbolt\\'s Magicka consumption costs 2.2 times more than Lightning Bolt.\r\n-also Thunderbolt leaps to other thing within 6 ft (2m) radius from target. (Experimental)\r\n\r\n-Icy Spear\\'s Damage is now 3.2 times better than Ice Spike\r\n-Icy Spear\\'s Magicka consumption costs 2.7 times more than Ice Spike.\r\n-Icy Spear makes target slower for 5 sec (originally 3)\r\n\r\n\r\n\r\n\r\nVersion 0.3\r\n\r\n-Duration of Slow effect of Ice Spike and Ice Storm have been raised to 5 sec (vanilla 3)\r\n-Base damage of Icy Spear is increased from 80 to 90 (vanilla 60)\r\n-Icy Spear\\'s Slow effect is increased from 50% to 80%\r\n-Thunderbolt now discharges rather than leaping to others. Discharge does base 35 damage within 12ft.\r\n(increased to 52.5 when Augmented Shock is mastered)\r\n-Incinerate\\'s effect radius is increased from 3ft to 6ft.\r\n\r\n\r\nI thought \\\"leaping\\\" is useless as there is no gurantee that it will leap. So I changed Thunderbolt like....discharge? So if there is enemy within 12ft, they will suffer from shock too :)\r\n\r\nAlso area of effect for both Incinerate and Thunderbolt are increased. Hitting more enemies when they are concentrated, Yet smaller than Chain Lightning and Fireball.\r\n\r\nWhile testing my mod, I found that Slow Effect for Ice Spark and Ice Spear don\\'t work well even in Vanilla.\r\nFrost bite works well for now, but don\\'t expect slow effect from spear and spike. maybe Ice storm too.\r\n\r\n\r\n\r\n\r\nVersion 0.4\r\n\r\nExtended my mod from \\\"only expert\\\" to \\\"everything\\\"!\r\nThough I thought there is no problem with novice~apprentice, I did not touched them.\r\nMaybe rune can be better later.\r\n\r\n\r\n-Cloaks now does 20 damage to nearby enemy. (vanilla 10)\r\n\r\n-Wall of Fire now does 10 damage to enemy passing by (vanilla 8)\r\n-Wall of Fire now damages passing enemy for 30 second (vanilla 1)\r\n\r\n-Wall of Frost now damages passing enemy for 30 second (vanilla 1)\r\n\r\n-Wall of Storm now does 12 damage to enemy passing by (vanilla 8)\r\n-Wall of Storm now damages passing enemy for 30 second (vanilla 1)\r\n\r\n\r\nI changed Cloaks and Walls to be more powerful.\r\n\r\nLooks like Walls and Cloaks have their damage locked. I changed the numbers, turned my mod off, but still damage is same. I also check the effect description but they turned out fine.\r\nAnother problem with no solution.. But however, it looks like damage of cloaks are working fine.\r\n\r\nAlso duration works fine. I was surprized when I found out that Wall actually damages enemy for 1 sec, while their fancy effects goes on like 30. So I changed them to last longer. \r\nI didn\\'t balanced magicka consumption and duration, so they may have some balance issue.. \r\nThough I expect no serious harm.\r\n\r\n\r\nBy the way, I\\'m trying to make casting motion & time simplified so master class spells can useful for everyday warfare for those very high leveled mages. \r\n",
+  "categoryId": "93",
+  "version": "0.4",
+  "author": "Coryeo",
+  "createdUnix": "1329119030",
+  "updatedUnix": "1329119222",
+  "containsAdultContent": false,
+  "uploadedBy": "jinu120",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "30232",
+      "name": "Main file",
+      "version": "0.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Main file-9367-0-4.zip",
+      "uploadedUnix": "1329119222",
+      "modVersion": "0.4",
+      "virusScanUrl": "https://www.virustotal.com/file/a3a0b3d5a456abf0365b5766e9503b11c4c492700f0bb423bca2cacb02100148/analysis/1406676553/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Main%20file-9367-0-4.zip?fid=30232&ttl=1535768861&ri=8192&rs=8192&setec=2c5d240124006c5d6f634df35b1e0dc1"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 46320.0,
+  "modName": "Megatherium ENB",
+  "summary": "A colorful and performance friendly preset. Compatible with the latest binaries v305 and up with Dusk & Dawn enabled. ",
+  "descriptionHtml": "[center][img]http://static-1.nexusmods.com/15/mods/110/images/46320-0-1433309660.png[/img]\r<br />[youtube]Ibu7Sf3oizs[/youtube][youtube]tR2D2PD_LI0[/youtube][/center][center][img]https://lh6.googleusercontent.com/-npzbERZTt6Q/U5NJjbL5ksI/AAAAAAAACao/8SF8eZxYbsM/w1018-h69-no/M+ENB+Nexus+Installation.png[/img][/center]\r<br />\r<br />[center][color=#C0C0C0]1. Download the latest v0305 binaries or higher from [url=http://enbdev.com/download_mod_tesskyrim.htm]enbdev.com[/url]\r<br />2. Open the &#34;Wrapper&#34; folder included. Copy & Paste only the d3d9.dll and enbhost into your main Skyrim folder as shown below:\r<br />\r<br />[center][img]https://lh6.googleusercontent.com/-iGZOVWRAQTs/U5NZeE82lwI/AAAAAAAACcE/H5VGNYeCV7M/w991-h404-no/Binary+Copy+and+Paste.PNG[/img][/center]\r<br />\r<br />3. Download Megatherium ENB from the files section.\r<br />\r<br />Once downloaded, copy & paste only the &#34;enbseries&#34; folder, enblocal, and enbseries files into your main Skryim folder as shown below:\r<br />\r<br />[center][img]https://lh6.googleusercontent.com/-COh9w0-WRFc/U5NZfQo69WI/AAAAAAAACcY/8b_fu9FMZ3M/w991-h405-no/Preset+copy+and+paste.PNG[/img][/center]\r<br />\r<br />4. Open up the enblocal file as a txt. and adjust the videomemorysize= under [Memory]. There are a few ways to configure this and I highly recommend watching my [url=https://www.youtube.com/watch?v=FHCYoVB8P_Y]Tutorial video[/url] to properly set this up. For 32 bit OS users with less than 8GB of RAM, use this formula [VRAM + SYSTEM RAM] - [2048]\r<br />or\r<br />For 64-bit, If you have 8GB RAM or more, use this formula [Total Available Graphics Memory] - [170] for Windows 7 users\r<br />For 64-bit, If you have 8GB RAM or more, use this formula [Total Available Graphics Memory] - [350] for Windows 8/10 users\r<br />\r<br />To figure out your Total Available Graphics Memory, use [url=http://www.computerhope.com/issues/ch001307.htm]quick guide that takes less than a minute[/url].\r<br />\r<br />  There is also an autodetect setting in here as well if you are really unsure how to do this, which is the easiest way but not recommended.\r<br />Watch my tutorial video or check out the S.T.E.P. Wiki on ENBoost for more information.\r<br />\r<br />5. If you want beautiful custom ENB Snow FX, now is the time to download the optional ENB Data files from the files section of the mod page. This is Nexus Mod Manager compatible for simple installation. It contains a single ESP you can activate for Mindflux&#39;s amazing falling snow FX to work. \r<br />\r<br />6. Make the following adjustments in your Skyrim pref inis: (You can find this under Documents/Games/Skyrim) \r<br />If these values are not there, you can write them in yourself as long as they are under the [Display] section.\r<br />\r<br />[Display]\r<br />------------------------------------\r<br />bFloatPointRenderTarget=1\r<br />bShadowsOnGrass=1\r<br />bTreesReceiveShadows=1\r<br />bDrawShadows=1\r<br />\r<br />7. Turn off hardware anti-aliasing & anisotropic filtering. ENB handles both of these.\r<br />You can also do this in the Skyrim Launcher OR the Skyrim Pref files as well (recommended)\r<br />You are better off doing them while you are in the Skyrim Pref inis anyway.\r<br />\r<br />[Display]\r<br />-----------------------------------\r<br />\r<br />      iMultisample=0       (Antialiasing)\r<br />                  iMaxAnisotropy=1   (Anisotropic Filtering)\r<br />\r<br />[center][img]https://lh6.googleusercontent.com/-LA9QlluqeZM/UzerJn-7RhI/AAAAAAAABwQ/_cnqcLVyd_g/w874-h425-no/skyrim+launcher+settings.JPG[/img][/center]\r<br />\r<br />8. Launch the game and enjoy. I&#39;d love to see your lovely screenshots :).\r<br />\r<br />[center][img]https://lh3.googleusercontent.com/-JygH4mzxjSg/U5NZfT8kRuI/AAAAAAAACcU/aHzL4L4UIEU/w1018-h69-no/Required+Mods.png[/img][/center]\r<br />[center]None[/center][center][img]https://lh6.googleusercontent.com/-quTofN9YFPg/U5NZeXSBvcI/AAAAAAAACcI/qJnEHwH2xLA/w1018-h69-no/Recommended+Mods.png[/img][/center]\r<br />These mods are not absolutely required but really enhance the preset&#39;s look and feel.\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/4910]Dramatic Clouds[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/54302]Rustic Windows[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/42392]Candle Glow[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/34886]Lorkan&#39;s Vision[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/18916]Lanterns of Skyrim[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/41076]Realistic Water Two by Isoku[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/48938]Watercolor for ENB and Realistic Water 2[/url][url=http://www.nexusmods.com/skyrim/mods/49011]\r<br />Quality Snow HD 4k Darker Option[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/40564]SkyFalls and SkyMills - Animated Distant Waterfalls and Windmills[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/35857]Falmer Glow Retexture[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/12454]Dark Dungeons for ENB by Mindflux/Artem1s[/url]\r<br />\r<br />[center][img]https://lh5.googleusercontent.com/-ZoP9O4g10eg/U5NZc1rK1JI/AAAAAAAACb0/2k9XzSJ0l6M/w1018-h69-no/Credits.png[/img][/center][url=http://www.nexusmods.com/skyrim/mods/45054]Amoebae[/url] - for the Lens Dirt Textures\r<br />[url=http://enbdev.com/]Boris Vorotsov[/url] - for creating the enbseries and making ENB presets possible. \r<br />[url=http://www.nexusmods.com/skyrim/mods/50065]Confidence Man[/url] - I learned everything about ENB weathers from cracking open your beautiful preset & weather files. \r<br />[url=http://www.nexusmods.com/skyrim/users/196978]-Jawz-[/url] - for the atmosphere mesh & providing invaluable resources for those new to ENB. I have a lot of respect for you.\r<br />[url=http://www.nexusmods.com/skyrim/mods/46871]Matso[/url] - for not only inspring me to create ENB presets with Project Matso, but providing the lens effects, Bloom, DOF, & Sunsprite from his SVI series.\r<br />[url=http://www.nexusmods.com/skyrim/users/3211380]Mindflux aka Artem1s[/url] - for the essential particle patch, darker dungeons for ENB mod, and beautiful custom snow FX \r<br />\r<br />[center][img]https://lh4.googleusercontent.com/-8arELrlEvQg/U5NgvGfsrnI/AAAAAAAACcs/UUO8-wy8AQU/w1018-h69-no/Special+Thanks.png[/img][/center]Thank you to nexus user ff7legend for testing and reporting as binaries come out.\r<br />Thank you WolfGrimDark for feedback, support, advice, & for being a good friend. \r<br />Thank you to my subscribers on YouTube for their incredible support. I wouldn&#39;t have as much courage without them.\r<br />[/color][/center]",
+  "categoryId": "97",
+  "version": "v0305",
+  "author": "Sloth",
+  "createdUnix": "1383523429",
+  "updatedUnix": "1458777989",
+  "containsAdultContent": false,
+  "uploadedBy": "dptheslothking",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000162801",
+      "name": "Optional Custom Snow FX and ENB Patches ",
+      "version": "",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "7015",
+      "fileName": "Optional Custom Snow FX and ENB Patches -46320-.7z",
+      "uploadedUnix": "1433306116",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/ef9255d5b3bd661533edb0dc115a240f8858f94387c0aa404817978367352270/analysis/1433306165/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Optional%20Custom%20Snow%20FX%20and%20ENB%20Patches%20-46320-.7z?fid=1000162801&ttl=1535826642&ri=8192&rs=8192&setec=528398588081988945dadc74f0711885"
+    },
+    {
+      "fileId": "1000200407",
+      "name": "Mega ENB v305 ",
+      "version": "v0305",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13316",
+      "fileName": "Mega ENB v305 -46320-v0305.zip",
+      "uploadedUnix": "1458777989",
+      "modVersion": "v0305",
+      "virusScanUrl": "https://www.virustotal.com/file/b9b0ffec10801e1b1afa63dce6acbf3b9ff7167cb6a3a15c0cb52e20d5f3dfc7/analysis/1458778047/",
+      "changelogHtml": " Mega update 3/23\r<br />\r<br />- code optimization\r<br />- new in-game GUI controls for the ENBeffect file (contrast, saturation, tonemapping).\r<br />- enabled/configured reflections\r<br />- enabled Dusk & Dawn time of days (Dusk needs some work)\r<br />- refined bloom, direct lighting, ambient lighting and interior lighting\r<br />- refined image-based lighting \r<br />- enabled particle lights\r<br />- new performance friendly/subtle depth of field (off by default)\r<br />- refined particle lights\r<br />- fixed interior window lighting \r<br />- overhauled sunrise\r<br />- overhauled mist \r<br />- toned down lens dirt\r<br />- cloud adjustments\r<br />- many, many misc. adjustments.  <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Mega%20ENB%20v305%20-46320-v0305.zip?fid=1000200407&ttl=1535826642&ri=8192&rs=8192&setec=91821252a4c0297a1da18c128295c0c0"
+    }
+  ]
+}

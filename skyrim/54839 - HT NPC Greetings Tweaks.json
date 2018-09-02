@@ -1,0 +1,32 @@
+{
+  "modId": 54839.0,
+  "modName": "HT NPC Greetings Tweaks",
+  "summary": "Just a simple set of game setting (GMST) tweaks that make NPCs a bit more believable in how and when they greet you and each other.",
+  "descriptionHtml": "[center][color=#ffff00][b]=== DESCRIPTION ===[/b][/color][/center]This mod reduces the distance before NPCs make comments on the player when passing by. Prevents random comments like &#34;What do you want?&#34; when you were just passing through. You need to pretty much bump into them before they say things like that now.\r<br />\r<br />This mod also affects how often they try to look for conversations, and the time in between conversations. These are very subtle though (but noticeable if you&#39;re the kind of person that likes to watch NPCs interact with each other).\r<br />\r<br />In case you wanna customize this file, you can load it up in the GECK or even in TES5Edit and tweak the values yourself. No need to ask for permission or credit me. It&#39;s just GMST tweaks.\r<br />\r<br />\r<br />[center][color=#ffff00][b]=== Installation and Uninstallation[/b][b] ===[/b][/color][/center][b][left][b][/b]Use your favorite mod manager (BAIN works too), or unpack it yourself and drop it into your [b]Steam/Steamapps/Common/Skyrim/Data[/b] folder using [url=http://www.7-zip.org/]7-zip[/url].\r<br />[/left][/b]\r<br />To uninstall just delete the file. The GMST values should revert to the defaults, except fAiMinGreetingDistance possibly, which doesn&#39;t normally exist.\r<br />\r<br />In case the effect of fAiMinGreetingDistance sticks in your save after you deactivate/delete this file, open up the console and type in &#34;[b]SetGS fAiMinGreetingDistance 150[/b]&#34;, which is the default value.\r<br />\r<br />Unfortunately this mod can&#39;t be merged into a bashed patch due to the new GMST introduced. It can be merged into other mods by using TES5Edit, however, if you know what you&#39;re doing.\r<br />\r<br />Load order isn&#39;t important, as long as it doesn&#39;t load before any .esm files (lol). If another mod happens to edit the same values (I doubt there are many out there), whichever loads later will win. So if you like my changes, put this mod below them or something.\r<br />\r<br />\r<br />[b][center][color=#ffff00]=== Bugs and Known Issues ===[/color][/center][/b]None so far. Some people have told me that there is a bug with NPCs that are supposed to lead you (like Camilla in Riverwood) not moving until you bump them several times. I found out later on that it isn&#39;t related to this mod or mods that edit GMSTs like this.\r<br />\r<br />Instead it seems to be related to scripts. The game seems to process AI packages (what NPCs should be doing at the moment, like idle animations and traveling, including leading the player) at a very low priority, possibly even last. I found the usual culprit to be scripts that add things to NPCs dynamically, such as Cloaks of Skyrim/Wet and Cold. I&#39;ve noticed this is the case because aside from leader NPCs failing to lead and just standing around sometimes, other NPCs like patrols are also just standing around each other when they should be moving (such as the patrols that are escorting a prisoner).\r<br />\r<br />As soon as those scripts finish processing, the NPCs resume whatever they&#39;re supposed to be doing.\r<br />\r<br />\r<br />[color=#ffff00][b][center]=== Change Log ===[/center][/b][/color]1.1a: It seems some values are used differently due to how dialog works in Skyrim (compared to FO3/FNV or Oblivion). This caused NPCs to talk to each other from afar. I reverted the offending value to vanilla (but kept it in the file for easy tweaking later on if necessary). Let me know if any other strange behavior shows up.\r<br />\r<br />1.0: Initial release.",
+  "categoryId": "33",
+  "version": "1.1a",
+  "author": "Ouka",
+  "createdUnix": "1402652451",
+  "updatedUnix": "1402701502",
+  "containsAdultContent": false,
+  "uploadedBy": "HosokawaTakuya",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000112894",
+      "name": "HT Social NPCs",
+      "version": "1.1a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "HT Social NPCs-54839-1-1a.7z",
+      "uploadedUnix": "1402701502",
+      "modVersion": "1.1a",
+      "virusScanUrl": "https://www.virustotal.com/file/3c3dc4ade5aabcffcdae45d4cbe66f58792b1d5ac80f0c9cb67d193d5ae1f05c/analysis/1408125078/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HT%20Social%20NPCs-54839-1-1a.7z?fid=1000112894&ttl=1535839333&ri=8192&rs=8192&setec=bfdfb966dd21f6a03abd19aef8423b68"
+    }
+  ]
+}

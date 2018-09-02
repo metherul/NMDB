@@ -1,0 +1,48 @@
+{
+  "modId": 23315.0,
+  "modName": "Food Tweaks - stamina regen tweak and more",
+  "summary": "Changes and enhances cooked foods (craftable AND non-craftable alike) effects to make cooking more rewarding, while fixing infinite stamina usage from regenerate stamina effect of foods.",
+  "descriptionHtml": "Edit: I\\'ve added a version of this mod integrated with a needs mod called \\\"Nord Needs\\\" which can be found here: http://skyrim.nexusmods.com/mods/21384\r\n\r\nBasically the integrated esp file already has food attributes in \\\"Nord Needs\\\" mod, so you probably won\\'t need Nord Needs esp file(1.5 version). If you insist on using the Nord Needs esp file along with integrated food tweaks esp, load the food tweaks esp after Nord Needs esp, or changed foods tweaks won\\'t be applied.\r\n\r\n\r\nA little tweak mod that changes almost every effect of cooked foods in vanilla skyrim.\r\n\r\nPurpose of this mod is primarily to fix the foods that give regenerate stamina for 720 secs which allows the players to use power attacks and shield bash infinitely for the duration of the effect because you can carryout power attacks and bashes with only 1 stamina. This basically renders useless any investment into stamina, stamina potions and static stamina fortify or restore effect from foods.\r\n\r\nTo overcome this issue I\\'ve shortened the amount of stamina regeneration from 720 secs to 60secs. This way you can tactically balance your usage of static stamina restore and stamina regeneration from cooked foods which still allows limitless power attacks and bashes, but only for much shorter time. Naturally this makes investing in stamina worthwhile too! You can no longer clear a dungeon with one sip of vegetable soup, and if you insist on having stamina regeneration effect all the time you\\'re gonna need 12times the amount of food than before, which means a LOT of farmwork or tedious vendor rushes throughout Skyrim.\r\n\r\nAnother change I made is adding fortify magicka effect to various sweets, such as apple pie or boiled cream treat. One exception is sweetroll, which doesnt\\' have fortify magicka effect, but boasts the largest static health restore effect of all foods in Skyrim.\r\n\r\nLast but not least I\\'ve increased most foods\\' static restore health/stamina effect to compensate for making stamina regen foods less useful. Complete list of changes I\\'ve made is as follows:\r\n\r\n\r\n<Craftable Food Items>\r\nApple Cabbage Stew : Restore stamina 15 pts Restore health 10 pts -> Restore stamina 20 pts Restore health 15 pts\r\n\r\nBeef Stew : Fortify Stamina 25 pts for 720 secs, Restore Stamina 2 pts for 720 secs -> Fortify Stamina 50 pts for 720 secs, Restore Stamina 2 pts for 60 secs\r\n\r\nCabbage Potato Soup : Restore Health 10 pts, Restore Stamina 10pts -> Restore Health 10 pts, Restore Stamina 30pts\r\n\r\nCooked Beef : Restore Health 10pts -> Restore Health 20pts\r\n\r\nGrilled Chicken Breast : Restore Health 5pts -> Restore Health 10pts\r\n\r\nHorker Loaf : Restore Health 10 pts -> Restore Health 20 pts\r\n\r\nHorker Stew : Restore Stamina 15 pts Restore Health 15 pts Restore Health 1 pt for 720 secs -> Restore Stamina 15 pts Restore Health 30 pts Restore Health 1 pt for 720 secs\r\n\r\nHorse Haunch : Restore Health 10 pts -> Restore Health 20 pts\r\n\r\nLeg of Goat Roast : Restore Health 10 pts -> Restore Health 20 pts\r\n\r\nMammoth Steak : Restore Health 10 pts -> Restore Health 30 pts\r\n\r\nPheasant Roast : Restore Health 5 pts -> Restore Health 10 pts\r\n\r\nRabbit Haunch : Restore Health 5 pts -> Restore Health 10 pts\r\n\r\nSalmon Steak : Restore Health 5 pts -> Restore Health 10 pts, Restore Stamina 1 pts for 30 secs\r\n\r\nTomato Soup : Restore Health 10 pts Restore Stamina 10 pts -> Restore Health 15 pts Restore Stamina 20 pts\r\n\r\nVegetable Soup : Restore Health 1 pt for 720 secs Restore Stamina 1 pt for 720 secs -> Restore Health 1 pt for 720 secs Restore Stamina 1 pt for 60 secs\r\n\r\nVenison Chop : Restore Health 5 pts -> Restore Health 15 pts\r\n\r\nVenison Stew : Restore Stamina 15 pts Restore Health 1 pt for 720 secs Restore Stamina 1 pt for 720 secs -> Restore Stamina 30 pts Restore Health 1 pt for 720 secs Restore Stamina 1 pt for 60 secs\r\n\r\n\r\n<Non-Craftable Food Items>\r\nApple Pie : Restore Health 10 pts -> Restore Health 20 pts Fortify Magicka 50 pts for 360 secs\r\n\r\nBaked Potatoes : Restore Health 5 pts -> Restore Health 10 pts\r\n\r\nBoiled Creme Treat : Restore Health 10 pts -> Restore Health 30 pts Fortify Magicka 50 pts for 360 secs\r\n\r\nGrilled Leeks : Restore Health 6 pts -> Restore Health 12 pts\r\n\r\nHoney Nut Treat : Restore Health 5 pts -> Restore Health 15 pts Fortify Magicka 50 pts for 360 secs\r\n\r\nLong Taffy Treat : Restore Health 10 pts Restore Stamina 5 pts -> Restore Health 15 pts Restore Stamina 5 pts Fortify Magicka 50 pts for 360 secs\r\n\r\nMammoth Cheese Bowl : Restore Health 10 pts Restore Stamina 15 pts -> Restore Health 20 pts Restore Stamina 30 pts\r\n\r\nSeared Slaughterfish : Restore Health 5 pts -> Restore Health 10 pts\r\n\r\nSweet Roll : Restore Health 5 pts -> Restore Health 50 pts",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Holemole",
+  "createdUnix": "1346256254",
+  "updatedUnix": "1346386154",
+  "containsAdultContent": false,
+  "uploadedBy": "holicxia",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "85277",
+      "name": "Food Tweaks",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Food Tweaks-23315-1-0.zip",
+      "uploadedUnix": "1346333288",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2dd0398e15efa82481df1ae4c3dad14f50c1b19983e855d38212a3c01d460847/analysis/1407132605/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Food%20Tweaks-23315-1-0.zip?fid=85277&ttl=1535793452&ri=8192&rs=8192&setec=b15684ac62e1e133f2c692138ba43940"
+    },
+    {
+      "fileId": "85467",
+      "name": "Food Tweaks-Nord Needs Compatible",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "Food Tweaks-Nord Needs Compatible-23315-1-0.zip",
+      "uploadedUnix": "1346386154",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ed26bd65bae156da7a903c1491361f502a23442b3118dc442f6150a2b8353e6c/analysis/1407134523/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Food%20Tweaks-Nord%20Needs%20Compatible-23315-1-0.zip?fid=85467&ttl=1535793453&ri=8192&rs=8192&setec=2994464a881b62d3218ebb3801d2c82e"
+    }
+  ]
+}

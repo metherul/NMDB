@@ -1,0 +1,32 @@
+{
+  "modId": 72436.0,
+  "modName": "Morphs Tool",
+  "summary": "3ds Max script for import and export TRI files with morphs",
+  "descriptionHtml": "DESCRIPTION:\r<br />The script is designed to import morphs from *.tri files into the editor 3ds Max, as well exports from the editor to *.tri file.\r<br />\r<br />When you import in the scene creates a object class Editable Mesh base model with one or more modifiers Morpher. This modifier supports 100 channels with morphs, so the more of them added to the required number of modifiers.\r<br />\r<br />The name of the base model in the scene corresponds to the name of the imported *.tri file. Channels names correspond with the\r<br /> names morphs *.tri file. Each morph can be extracted in a separate mesh, pressing the Extract button in the settings modifier Morpher.\r<br />\r<br />To export the *.tri file must click Export TRI File in the script, and select the object in the scene, which must be a class Editable Mesh. The exported model can have any number of modifiers Morpher, which can be freely renamed. Channel names must comply with morphine supported game titles. Before exporting the value of all the channels are checked and cleared.\r<br />\r<br />INSTALLATION:\r<br />To install the script, drag the contents of the archive in the editor window viewport. The script is established by path of directory_editor/Scripts/@perture, from which runs through the menu item or from the control panel script.\r<br />\r<br />UPDATE 1.1:\r<br />Fixed problem with 0 KB weight exported file.\r<br />Fixed problem with empty morphs channels in max 2010.\r<br />\r<br />UPDATE 1.2:\r<br />Added progress bar.\r<br /> Code optimization for different versions of 3ds Max.\r<br />\r<br />Script tested in the:\r<br />[list]\r<br />[*]3ds Max 2010 x64\r<br />[*]3ds Max 2012 x64\r<br />[*]3ds Max 2014 x64\r<br />[*]3ds Max 2016 x64\r<br />[/list]\r<br />\r<br />[url=http://skyrim.pro/stati/instrumentarij/101-morphs-tool]Home page project[/url]\r<br />\r<br />Thanks [url=http://www.nexusmods.com/skyrim/users/437824/?]Anton[/url] for the info about structure TRI files.",
+  "categoryId": "39",
+  "version": "1.2",
+  "author": "apenov",
+  "createdUnix": "1451920689",
+  "updatedUnix": "1452070457",
+  "containsAdultContent": false,
+  "uploadedBy": "apenov",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000190354",
+      "name": "MorphsTool",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "MorphsTool-72436-1-2.7z",
+      "uploadedUnix": "1452070457",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/81a8f26b4fb6ebd19912b3a652f1189724980398a57c929da6e8939bb5708597/analysis/1452070203/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MorphsTool-72436-1-2.7z?fid=1000190354&ttl=1535860997&ri=8192&rs=8192&setec=d4efd706021dfa06343313f30816ff2c"
+    }
+  ]
+}

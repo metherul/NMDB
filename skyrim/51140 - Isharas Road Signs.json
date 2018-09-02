@@ -1,0 +1,32 @@
+{
+  "modId": 51140.0,
+  "modName": "Isharas Road Signs",
+  "summary": "Gives the road signs throughout Skyrim a use other than just being there to point the way.\r<br />Save game and fast travel options now available.",
+  "descriptionHtml": "[center][size=10][color=pink]Ishara&#39;s Road Signs[/color][/size][/center]\r<br />\r<br />[color=orange]Purpose:[/color]\r<br />Give the road signs (in Skyrim) something to do other than being &#34;eye candy&#34;\r<br />\r<br />[color=orange]What it does:[/color]\r<br />Each road sign gives you the follwing options \r<br />1. Save game*\r<br />2. Fast Travel**\r<br />3. Save game and Fast Travel**\r<br />4. Do nothing\r<br />\r<br />*Save game function requires SKSE. Saves are named in the following manner:\r<br />&lt;name of city on sign&gt; Road Sign Save &lt;incremental save #&gt;\r<br />The incremental save # is global to the mod.\r<br />Examples:\r<br />Whiterun Road Sign Save 1\r<br />Riverwood Road Sign Save 2\r<br />\r<br />**Fast Travel options are not available until you&#39;ve visited the town/city in question.  For  cities enclosed by walls you must have entered the city for the option to be present.\r<br />\r<br />FYI - by road sign I mean the specific piece of wood that has the name of the city on it.\r<br />\r<br />[color=orange]Benefits:[/color]\r<br />Gives a in-game means of making a full save without needing to exit and navigate menus.\r<br />By using the road signs that point to your destination city, one can be reminded of where they were going when next they load the game.\r<br />\r<br />[color=orange]Compatibility:[/color]\r<br />Everything is new. If a mod moves a road sign, the activators will still function at the sign&#39;s original location.\r<br />\r<br />[color=orange]Requirements:[/color]\r<br />[url=http://skse.silverlock.org/]SKSE[/url]\r<br />\r<br />[color=orange]Installation:[/color]\r<br />NMM or manual\r<br />\r<br />[color=orange]Uninstallation:[/color]\r<br />NMM or manual\r<br />\r<br />[color=orange]Future Plans:[/color]\r<br />None. I just wanted to give the signs something to do.  The fast travel was added as an after thought.  I had thought of creating a scene that had a carriage with the player getting on board thus turning the signs into &#34;bus stops&#34; but I could not makes sense of the carriage scripts/quests.  However, if there are enough requests, I may be persuaded to create patches/add-ons for DLC/mods.\r<br />\r<br />[color=orange]Permissions:[/color]\r<br />Do what you want with this. Please give credit if you include any of my work in your publicly released projects.\r<br />",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "IsharaMeradin",
+  "createdUnix": "1392487362",
+  "updatedUnix": "1392486959",
+  "containsAdultContent": false,
+  "uploadedBy": "IsharaMeradin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000097202",
+      "name": "Isharas Road Signs v1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "43",
+      "fileName": "Isharas Road Signs v1-51140-1-0.7z",
+      "uploadedUnix": "1392486959",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4d9a6c12be4081f5cfbeb3c5519fb6063d2a0e341362bc6ec245eb53e3442aec/analysis/1407934763/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Isharas%20Road%20Signs%20v1-51140-1-0.7z?fid=1000097202&ttl=1535833312&ri=8192&rs=8192&setec=ca4e8c2f77f9c62d809078f0b59f8f9e"
+    }
+  ]
+}

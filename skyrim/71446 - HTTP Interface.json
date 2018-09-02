@@ -1,0 +1,15 @@
+{
+  "modId": 71446.0,
+  "modName": "HTTP Interface",
+  "summary": "This mod allows external programs to retrieve information about Skyrim and interact with Skyrim by sending JSON requests over HTTP.",
+  "descriptionHtml": "This mod acts as a connector that allows external applications to control Skyrim and retrieve information from it.\r<br />\r<br />The way this works is by starting a small web server inside your game after you load a save.\r<br />\r<br />After this server is started, external programs can send requests to it. These requests could do things like get your position and the name of the cell/world space you are in. Other types of requests could do things like move you to another cell or place in the world.\r<br />\r<br />It&#39;s very much a work in progress right now, and not many features have been implemented.\r<br />\r<br />Installation is very easy. You can either download this mod through a mod manager or you can manually download and extract the contents.\r<br />\r<br />This mod consists of:[list]\r<br />[*][size=2]A regular Skyrim ESP file. This contains the glue needed to start up the scripts responsible for communicating to the native part (An included SKSE plugin) of this mod.[/size]\r<br />[*][size=2]A BSA archive containing the scripts needed for this mod to work.[/size]\r<br />[*][size=2]An SKSE plugin. This is what does all the heavy lifting. It contains a web server and other code necessary to allow this mod to function.[/size]\r<br />[/list]\r<br />This mod also has a dependency on SkyUI. (MCM is used to manage settings)",
+  "categoryId": "82",
+  "version": "0.0",
+  "author": "-",
+  "createdUnix": "1447911433",
+  "updatedUnix": "1447911433",
+  "containsAdultContent": false,
+  "uploadedBy": "somethingbroken",
+  "primaryFile": null,
+  "files": []
+}

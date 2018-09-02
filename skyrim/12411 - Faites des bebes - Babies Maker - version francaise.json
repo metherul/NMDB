@@ -1,0 +1,32 @@
+{
+  "modId": 12411.0,
+  "modName": "Faites des bebes - Babies Maker - version francaise",
+  "summary": "Le module permet la reproduction des personnages non joueurs, de l\\'accouplement à l\\'accouchement.",
+  "descriptionHtml": "Le module permet la reproduction des personnages non joueurs, de l\\'accouplement à l\\'accouchement.\r\nPour celà, le module gère un cycle menstruel distinct pour chaque personnage non joueur féminin croisé en cours de jeu\r\n(dans la limite des 100 premiers) et, en cas d\\'accouplement pendant la période de fécondité, une grossesse a des chance de s\\'enclencher.\r\n\r\nCe module peut être utilisé de manière autonome avec les supplément optionnels simplifiés fournis ou comme une ressource pour d\\'autres applications en n\\'utilisant que le module de base (voir la documentation technique jointe).\r\n\r\nLa gestion des cycles menstruels se fait en 3 phases :\r\n - phase folliculaire \r\n - phase d\\'ovulation (un ovule fécondable est présent)\r\n - phase luthéale\r\n\r\nEn cas de présence de semence pendant la phase d\\'ovulation, une fécondation a des chances de se produire. Si plusieurs spermes différents sont présents un tirage au sort est réalisé pour déterminer le futur père.\r\n\r\nUn ovule fécondé a de fortes chances de devenir un embryon mais peut aussi mourrir pendant les 5 jours suivants l\\'ovulation.\r\n\r\nLa grossesse est déclarée lorsque le PNJ se rend compte que le cycle suivant ne démarre pas.\r\n\r\nLa grossesse se décompose en trois phases de 30 jours et débouche sur un accouchement entre les jours 85 et 95.\r\n\r\nModule de base :\r\n----------------\r\n Le module est constitué de deux fichiers esm (et de leurs BSA associés)\r\n\r\nDR00aDatasIO.esm : module de communication avec l\\'extérieur. \r\n - affectation de la semence d\\'un PNJ masculin sur un PNJ féminin \r\n - récupération des informations sur un accouchement\r\n - paramètrage du module principal\r\n\r\nDR01aFaitesDesBebes.esm : module principal\r\n - référencement des PNJ féminins croisés dans le jeu\r\n - gestion du cycle menstruel de chacun des PNJ féminins\r\n - accouplements aléatoires entre les PNJ proches\r\n - stockage des semences et gestion de leur durée de vie\r\n - fécondation et mise en place d\\'un embryon\r\n - message d\\'information (optionnel) pour chaque début de grossesse\r\n - période de grossesse jusqu\\'à accouchement (message optionnel)\r\n\r\n\r\nModules optionnels :\r\n--------------------\r\n\r\nDR02aDepotSperme.esp : un sort permet au personnage joueur masculin de déposer son sperme sur n\\'importe quel PNJ féminin\r\n\r\nDR03aPetitEnfant.esp : produit un mini-nordique mâle ou femelle après un accouchement, déposé auprès de sa mère.\r\n\r\nDR04aLearn.esp : cours sur la conception des bébés. Attention : les travaux pratiques sont susceptibles de produire des résultats concrets.\r\n\r\n\r\nLes modules optionnels sont actuellement faits au plus simple. Ils seront améliorés (ou non) en fonction des besoins.\r\n\r\nLe module est actuellement en version béta pour réglage des différents paramètrages. En conséquence la déclaration de grossesse est faite environ 3 jour après la fin de la phase d\\'ovulation et la durée de la grossesse est de 3 jours.\r\nL\\'enfant est déposé à côté du joueur en cas d\\'utilisation du module optionnel.",
+  "categoryId": "24",
+  "version": "0.0101",
+  "author": "Strec",
+  "createdUnix": "1331204076",
+  "updatedUnix": "1331204258",
+  "containsAdultContent": true,
+  "uploadedBy": "Strec",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "41307",
+      "name": "Faites des bebes - version francaise",
+      "version": "0.0101",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "195",
+      "fileName": "Faites des bebes - version francaise-12411.7z",
+      "uploadedUnix": "1331204258",
+      "modVersion": "0.0101",
+      "virusScanUrl": "https://www.virustotal.com/file/b9907e0810858a3352e41b6ad2b3f54f93d8dc9af7710d0f22a88a6acaa3eaa4/analysis/1406737564/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Faites%20des%20bebes%20-%20version%20francaise-12411.7z?fid=41307&ttl=1535774273&ri=8192&rs=8192&setec=2882c75ebc372c4750a0cb7f6e2d624d"
+    }
+  ]
+}

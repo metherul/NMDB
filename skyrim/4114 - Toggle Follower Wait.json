@@ -1,0 +1,32 @@
+{
+  "modId": 4114.0,
+  "modName": "Toggle Follower Wait",
+  "summary": "Toggle your followers between waiting and following with a single button.",
+  "descriptionHtml": "--------------\r\nDependencies\r\n--------------\r\nScript Dragon - Not included in download. Get it here:\r\nhttp://alexander.sannybuilder.com/?category=other&altname=skyrim_script_dragon\r\n\r\n--------------\r\nIntroduction\r\n--------------\r\nAs the title suggest, this script will allow you to toggle your followers between waiting and following with the press of a button. No longer must you speak to your followers to order them to wait and follow. This script works for the default followers as well as any followers added with the console or other mods.\r\n\r\n--------------\r\nInstallation\r\n--------------\r\nExtract ToggleFollowerWait.asi and ToggleFollowerWait.ini to your skyrim directory.\r\n\r\n--------------\r\nUninstallation\r\n--------------\r\nDelete ToggleFollowerWait.asi and ToggleFollowerWait.ini from your skyrim directory.\r\n\r\n--------------\r\nUsage\r\n--------------\r\nBefore you can toggle a given follower, you must register him or her. To register a follower:\r\n1) Order your follower to wait.\r\n2) Move to within a few feet of your follower.\r\n3) Face your follower.\r\n4) Press the detectkey (numpad * by default). You should see a message like \\\"Registered Follower FID: XXXXX\\\" confirming the registration.\r\n\r\nAfter you\\'ve registered your follower, press the togglekey (numpad / by default) to toggle your follower\\'s wait status. In order for the toggle to work, your follower(s) must be within 30k units of you, and the cell that he or she is occupying must be loaded.\r\n\r\n--------------\r\nSource\r\n--------------\r\nFor those who\\'re interested in making modifications, I\\'ve uploaded the source as an optional file.\r\n\r\nEDIT: I\\'ll have to upload it later. SkryimNexus is giving me trouble, and I have to go to work.\r\n\r\n--------------\r\nLegal\r\n--------------\r\nDo as you please with the compiled script and source. ",
+  "categoryId": "42",
+  "version": "1.0",
+  "author": "PyroKinesis",
+  "createdUnix": "1324315295",
+  "updatedUnix": "1324315382",
+  "containsAdultContent": false,
+  "uploadedBy": "PyroKinesis",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "12060",
+      "name": "ToggleFollowerWait",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "50",
+      "fileName": "ToggleFollowerWait-4114-1-0.zip",
+      "uploadedUnix": "1324315382",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4f0e38e2dc9594a6536248b3d3ec52b5b79b2828248b6d9fa98baa0e9ced23cb/analysis/1406537110/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ToggleFollowerWait-4114-1-0.zip?fid=12060&ttl=1535759652&ri=8192&rs=8192&setec=d251c26d48f5606310fc7cc5b8314b91"
+    }
+  ]
+}

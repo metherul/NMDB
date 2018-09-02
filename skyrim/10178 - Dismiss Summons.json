@@ -1,0 +1,48 @@
+{
+  "modId": 10178.0,
+  "modName": "Dismiss Summons",
+  "summary": "Dismiss all your Summoned/raised creatures/Thralls no matter where they are, how how many.",
+  "descriptionHtml": "This Mod adds a lesser power, or spell, usable at will and at no cost, that will unsummon all your summoned creatures. Atronachs, Thralls and resurrected undead will vanish no matter where they are; next to you, or lost in a dungeon months ago.\r<br />\r<br />This also provides an easy fix for those who walk into town and get told to douse the &#34;deadly \r<br />magic&#34;\r<br />\r<br />Technically, This will unsummon anything with a &#34;summon&#34; keyword in the editor, so any mod-\r<br />added summons, if they were done properly, will work. if it does not work for a certain mod-\r<br />added ceature, have it&#39;s creator add the keyword for &#34;summon&#34; for that spell.\r<br />\r<br />Getting the power:\r<br />The power is added when you start a new game, to any race. Alternatively, use these console \r<br />commands:\r<br />- help &#34;Dismiss Summons&#34; 0\r<br />This should give you one result, being xx000D63. Enter the following:\r<br />- player.addspell xx000D63 (replace xx with whatever the previous command found)\r<br />\r<br />Install:\r<br />place esp in your data folder and activate.",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "Dreighton",
+  "createdUnix": "1329534606",
+  "updatedUnix": "1329538476",
+  "containsAdultContent": false,
+  "uploadedBy": "Dreighton",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "32913",
+      "name": "Dismiss Summons - Main File",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Dismiss Summons - Main File-10178-1-0.zip",
+      "uploadedUnix": "1329534663",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/bddc63b13835c71b462bfc57f953dbc53e1684b2f257acbef5aa5295cdcdc971/analysis/1406691679/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dismiss%20Summons%20-%20Main%20File-10178-1-0.zip?fid=32913&ttl=1535770363&ri=8192&rs=8192&setec=d919cda6f20144be639b413c9cf07ff3"
+    },
+    {
+      "fileId": "32931",
+      "name": "Dismiss Summons - Spell Edition",
+      "version": "1.0b",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Dismiss Summons - Spell Edition-10178-1-0b.zip",
+      "uploadedUnix": "1329538476",
+      "modVersion": "1.0b",
+      "virusScanUrl": "https://www.virustotal.com/file/c686f0edbdf6d8af47ab678b0362d539e661f92b351bd535d35774aba1ce91bc/analysis/1406691738/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dismiss%20Summons%20-%20Spell%20Edition-10178-1-0b.zip?fid=32931&ttl=1535770364&ri=8192&rs=8192&setec=f322ae98ea2258f87158156b254b7842"
+    }
+  ]
+}

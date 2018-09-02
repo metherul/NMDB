@@ -1,0 +1,48 @@
+{
+  "modId": 5885.0,
+  "modName": "Colorful HDR ENB-FXAA Preset",
+  "summary": "HDR - Bright Colors - Normal nights",
+  "descriptionHtml": "[center][color=lime]-= MOD HAS BEEN UPDATED TO v1.1[/color][/center]\r\n\r\n[center][color=green]-x-x-x-x-x-x-x-x-x-x-[/center]\r\nChangelog v1.1:\r\n- Nights were completely remade. Now they are a bit darker, but still visible.\r\n- No more night bloom. (no sun -> no bloom).\r\n- No more purple glowing snow at nights.\r\n- No more vignette.\r\n- Days now a little bit brighter.\r\n- Fixed HDR adaptive time.\r\n- Fixed Camera Lens FX.\r\n\r\nFXAA Injector 2.1 included.\r\nFXAA Natural Preset included (screenshot added).\r\nSkyboost r3 included.\r\n\r\nKnowing issues:\r\n- Glowing foam and some types of smoke at nights.\r\n- Transparent water at nights.\r\n- Some cave lights looking very bright.\r\n\r\nFPS LOSS:\r\nSpec: i5-2500, 4 GB, GTX 560Ti. AA 2x, AF 16x, Ultra Settings, FXAA On. Skyboost On.\r\nMOD OFF: 46-52 fps.\r\nMOD ON: 29-34 fps.\r\n[center]-x-x-x-x-x-x-x-x-x-x-[/center][/color]\r\n\r\nHi, guys! This is my ENB+FXAA preset. I really like how it looks, and i decided to share it with you.\r\n\r\n[color=yellow]Description:[/color]\r\nIn my work i modified ENB HD6 Lightning Enhancement Preset. I also created my own palette to make colors in Skyrim more realistic and bright. Dark nights are not pleasant to me, so my nights aren\\'t so dark and looking very realistic (see screenshots). I also created FXAA Injector profile to tweak colors and exposure a little.\r\n\r\n[color=yellow]Install:[/color]\r\nThere are 2 folders in the archive. Just copy files all files from \\\"Colorful HDR v.1.1\\\" folder into your Skyrim root folder.\r\n\r\nI also included \\\"Optional\\\" folder in archive. There you can find FXAA Natural preset for this mod. It will make colors more naturally and desaturated. Just copy contents of the folder into your Skyrim root folder.\r\n\r\nAlso I included \\\"Skyboost r3\\\". This is Performance patch for your Skyrim. It based on TESV Acceleration Layer, but it is better. It gives you additional 6-10 fps over TESVAL. Just copy files into your Skyrim root folder. No SKSE needed.\r\n[u]WARNING! You must delete TESVAL (Skyrim\\\\Data\\\\SKSE\\\\Plugins\\\\TESVAL.dll) before using Skyboost.[/u]\r\n\r\n[color=magenta]Notes:[/color]\r\n- FXAA Injector 2.1 is already included with mod.\r\n- bFloatPointRenderTarget=1 must be set in SkyrimPrefs.ini file to make this mod work. \r\n- SSAO is enabled by default (fast mode). If you experience perfomance lags, you can easily switch it off in enbseries.ini: EnableAmbientOcclusion=true -> EnableAmbientOcclusion=false.\r\n\r\n[color=yellow]Thanks to:[/color]\r\n- Boris Vorontsov for the Original ENB series.\r\n- HeliosDoubleSix for his ENB HD6 Lighting Enhancement.\r\n- some_dude for FXAA Injector.\r\n- Bethesda for such a great game.\r\n\r\nSorry for my bad english, guys (i\\'m russian). I will really appreciate you for your regards, suggestions and criticism in comments.\r\n\r\n[color=cyan]Enjoy![/color]",
+  "categoryId": "62",
+  "version": "1.1",
+  "author": "Ortiz",
+  "createdUnix": "1326232426",
+  "updatedUnix": "1326381988",
+  "containsAdultContent": false,
+  "uploadedBy": "Ortiz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "18677",
+      "name": "Colorful HDR ENBA-FXAA preset",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "294",
+      "fileName": "Colorful HDR ENBA-FXAA preset-5885.rar",
+      "uploadedUnix": "1326233184",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/da5048026bf250c23513f162405d4f25c6a6b9f056f3392db703b6d4089379e2/analysis/1406601124/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Colorful%20HDR%20ENBA-FXAA%20preset-5885.rar?fid=18677&ttl=1535762960&ri=8192&rs=8192&setec=61af3e81b2bfe1fdf1609c15311d09e4"
+    },
+    {
+      "fileId": "19144",
+      "name": "Colorful HDR ENB-FXAA Preset",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1025",
+      "fileName": "Colorful HDR ENB-FXAA Preset-5885.rar",
+      "uploadedUnix": "1326381988",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/0b6e096a8abaef2449649519dfd075174183941251e4ea0bcfc04ab53e6c1a70/analysis/1406605146/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Colorful%20HDR%20ENB-FXAA%20Preset-5885.rar?fid=19144&ttl=1535762960&ri=8192&rs=8192&setec=47c53b0a8b9372a3fbe3f9438cb96feb"
+    }
+  ]
+}

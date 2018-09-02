@@ -1,0 +1,32 @@
+{
+  "modId": 8621.0,
+  "modName": "Wintercross Weapon Skills",
+  "summary": "Changed \\'One Handed\\' and \\'Two Handed\\' weapon skills to \\'Blade\\' and \\'Hafted\\' (more like Oblivion)",
+  "descriptionHtml": "UPDATED TO 1.11\r\n\r\n\r\nChangelist:\r\n\r\n\r\n1.11:\r\n\r\nDiscovered issue with sprinting power attack animation; it is linked to the 1 and 2 hand perks in the animation!\r\nTo solve issue removed the perk requirement. This means you can perform the sprinting power attack without the appropriate charge perk; However you will not recive the bonus critical untill you take the perk. \r\nI actualy don\\'t mind it this way.\r\n\r\nReduced the Armor bypass for \\'Combat Rogue\\' so that daggers don\\'t step too much on mace and hammer turf. Armor reduction is now 5% / 15% / 30% instead of 25% / 50% / 75%\r\n\r\n(Still might alter this perk in future when I come up with something unique for daggers. If I can work out how, I might give it a 5% / 10% / 20% chance to bypass ALL armor... simulate getting a clean shot between armor plates or something....)\r\n\r\n\r\n1.1: \r\n\r\nFixed problem with Barbarian Perks (Apparently I only altered the first in the line, and forgot the rest! >_< )\r\n\r\nFixed Requirements of Blademaster and Hack and Slash perk (Blademaster required barbarian and Hack and Slash required armsman)\r\n\r\nAltered the requirements for Dual weilding perks. Although they are still presently in the \\'Blade\\' skill tree, you should be able to take the perks without putting points into blade. (let me know if this works as intended)\r\n\r\n1.0: Initial Release!\r\n\r\n\r\n\r\n\r\nWhats with this mod?:\r\n\r\n\r\nWhile I\\'m sure some people like the new set up of One handed and Two handed weapon skills, I myself prefered the Oblivion set up of Blade and Blunt. (I would prefer over that a more morrowind set up with longblade, shortblade, axe, blunt ect. but that is beyond the scope of this mod)\r\n\r\nSo, after poking around in the CK to my joy I found it isn\\'t too hard to do what I want.\r\n\r\nI have changed the skill settings for the various weapons, and renamed the skills from \\'one handed\\' to \\'Blade\\' and from \\'Two handed\\' to \\'Hafted\\' (just sounds a bit better than blunt since axes are rather sharp =P )\r\n\r\nI\\'ve also tweaked the perks a little where I felt appropriate.\r\nHere\\'s the new perk lists\r\n\r\nHafted:\r\nBarbarian: Affects Warhammers, Maces, War Axes and Battleaxes\r\nSkullcrusher: affects both warhammers and maces.\r\nHack and Slash: Waraxe perk moved from onehanded (Blade)\r\nLimbsplitter: No change\r\nDevestating Blow: Affects Warhammers, Maces, War Axes and Battleaxes\r\nBeserker Charge: Same as \\'Great Critical Charge\\' except now affects Warhammers, Maces, War Axes and Battleaxes\r\nSweep: Now only affects Battleaxes and Warhammers\r\nWarmaster: Affects Warhammers, Maces, War Axes and Battleaxes\r\n\r\nBlade:\r\nArmsman: Affects Swords, Daggers and Greatswords\r\nBladesman: No change\r\nBlademaster: A modifyed Deep Wounds. Gives the increased Critical Damage, but also give greatswords the \\'sweep\\' effect.\r\nCombat Rogue: Replaces Bone Breaker. Lets daggers bypass armor (Might alter this in future)\r\nFighting Stance: Affects Swords, Daggers and Greatswords\r\nMighty Charge: modifyed Critical Charge that affects Swords, Daggers and Greatswords\r\nSavage Strike: Affects Swords and Greatswords (I felt this perk didn\\'t suit daggers)\r\nOverpowering Force: Affects Swords and Greatswords. Instead of paralyzing it causes knockdown. I always hate melee weapons causing paralyze, seems wrong.\r\n\r\nAt the moment I\\'m not sure what to do with the Dual wield perks, so they\\'re in the Blade perk tree for now.\r\nOne other thing to keep in mind, is that in vanilla Skyrim one handed skill progressed fast than the two handed skill due to two handed doing higher base damage. Because of the way weapons are now combined, I changed the skill rate for both skills to be the same as vanilla twohanded.\r\n\r\n\r\nThis mod will not work with other mods that edit the weaponskill perks, and will not work as intended with mods that add new, or edit existing weapons as I had to alter the skill assignment in the weapon records.\r\n\r\nFuture Plans:\r\n-Create a new perk tree background for Hafted, at the moment it still uses the greatsword image\r\n-Work on better balance and uniqueness of weapon skill perks\r\n-Work on any compatability issue that may arise.\r\n-Expand mod to encompass more combat related skills ie: archery, block and armor skills.\r\n\r\nLet me know if there are any bugs, or balance issues.",
+  "categoryId": "24",
+  "version": "1.11",
+  "author": "Wintercross",
+  "createdUnix": "1328840152",
+  "updatedUnix": "1329112736",
+  "containsAdultContent": false,
+  "uploadedBy": "Wintercross",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "30189",
+      "name": "Wintercross Weapon Skills",
+      "version": "1.11",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "12",
+      "fileName": "Wintercross Weapon Skills-8621-1-11.rar",
+      "uploadedUnix": "1329112736",
+      "modVersion": "1.11",
+      "virusScanUrl": "https://www.virustotal.com/file/8afedcd2b63123a6ddd596c86d5037315d56f6da87174e0265414a6952c15730/analysis/1406676190/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Wintercross%20Weapon%20Skills-8621-1-11.rar?fid=30189&ttl=1535767527&ri=8192&rs=8192&setec=1068d7e2fc7a1a5294b3d0b7c2f469db"
+    }
+  ]
+}

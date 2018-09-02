@@ -1,0 +1,32 @@
+{
+  "modId": 55500.0,
+  "modName": "Nexus Mod Manager Plugins.txt Fix",
+  "summary": "A simple workaround for the Crash To Desktop issue caused by Nexus Mod Manager adding two Skryim.esm to the Plugin.txt file.",
+  "descriptionHtml": "So I&#39;ve been having this issue with Nexus Mod manager every time I would apply a mod that it would add Skyrim.esm twice to the list contained in Plugins.txt.  The problem with this is that this causes the game to crash when you try to start a game.\r<br />\r<br />I&#39;ve read around the Internet and it seems that quite a few people have had this issue with Nexus Mod Manager and for whatever reasons it&#39;s something that Nexus has refused to fix. \r<br />\r<br />I got annoyed with having to go in and delete the Skyrim.esm listings myself so I made this .bat script that will do it for me.\r<br />\r<br />The Install.bat script moves the SPF.bat file to the Skyrim directory and adds the Skryim directory to the PATH variable so that SPF.bat can be run from anywhere through either the command line or just from the start menu search.\r<br />\r<br />/////////////\r<br />/Instructions/\r<br />/////////////\r<br />\r<br />1) Run install.bat\r<br />Note: Edit the variable skydir to be the directory containing Skryim\r<br />The default is currently C:Program Files (x86)SteamSteamAppscommonSkyrim\r<br />\r<br />2) Type in SPF in either the windows search or command prompt and it will fix plugins.txt\r<br />\r<br />3) That&#39;s it, the game should run fine now without the plugins.txt error created by Nexus Mod Manager",
+  "categoryId": "84",
+  "version": "1.00",
+  "author": "Norzman5",
+  "createdUnix": "1404240119",
+  "updatedUnix": "1404240112",
+  "containsAdultContent": false,
+  "uploadedBy": "Norzman5",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000115457",
+      "name": "Nexus Mod Manager Plugins.txt Fix",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Nexus Mod Manager Plugins.txt Fix-55500-1-00.zip",
+      "uploadedUnix": "1404240112",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/0ee170fa0ab4d0eb49f88156a0e6e2d72186165f7e221796974a872c253e8258/analysis/1408156395/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Nexus%20Mod%20Manager%20Plugins.txt%20Fix-55500-1-00.zip?fid=1000115457&ttl=1535840314&ri=8192&rs=8192&setec=b0a48094b6918c12747048a0e8c3dc59"
+    }
+  ]
+}

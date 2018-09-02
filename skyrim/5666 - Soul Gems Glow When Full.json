@@ -1,0 +1,32 @@
+{
+  "modId": 5666.0,
+  "modName": "Soul Gems Glow When Full",
+  "summary": "Makes soul gems dim when empty and glowing when full.",
+  "descriptionHtml": "Soul gems now glow more when full, and less when empty. See screenshots.\r<br />\r<br />This mod does three things:\r<br />-Replaces the soul gem meshes with dimmer ones, that have nearly no glow at all.\r<br />-Sets the stock full gems to use new meshes.*\r<br />-Adds those new meshes, which are very brightly glowing copies of the old ones.\r<br />\r<br />The changes were done mainly by making new brighter/dimmer cubemaps, and editing their strength in the nifs. Therefore there are some new (not replacement) textures included as well.\r<br />\r<br />This mod [b]does not[/b] do anything to Azura&#39;s Star. The star is handled differently by the game so it would take scripting to make it glow only when full.\r<br />\r<br />[b]*Skyrim has a KNOWN ISSUE with soul gems that effects this mod. [/b]\r<br />When you fill a soul gem yourself, what you get is a different item from if you bought a full one. That new item has a lower value, can lose its soul if you set it down and pick it back up, and (here&#39;s the important part for this mod) it uses the same mesh as the empty gem.  That bug is a lot more noticeable when you add this mod, because now, the gems look radically different when they&#39;re bugged VS when they&#39;re working.\r<br />\r<br />Unless/until Bethesda fixes that bug, you should use bluedanieru&#39;s bugfix, [url=http://skyrimnexus.com/downloads/file.php?id=5312]Acquisitive Soul Gems[/url]. It is compatible with Soul Gems Glow When Full and the order you load them in should not matter. You&#39;ll [i]still[/i] see the bug when you fill a large gem with a small soul, though, so if you have SKSE you may want to use [url=http://forums.bethsoft.com/topic/1300172-rel-smart-souls]Smart Souls[/url] as well.\r<br />\r<br />[b]Another known issue[/b] is that this mod has to be in English. Editing the soul gem entries means this mod contains their names. Therefore this mod will make full soul gems have English names for everyone. If you want to remake this mod in another language, feel free. Just give me credit for the meshes.\r<br />\r<br />[b]Compatibility with other mods:[/b]\r<br />\r<br />Works with:\r<br />-Acquisitive Soul Gems\r<br />-Smart Souls (probably)\r<br />-Any soul gem texture replacer which only comes with a textures folder, not a meshes folder.\r<br />-Any mod that effects only Azura&#39;s Star.\r<br />\r<br />Does not work with:\r<br />-Transparent Soulgems\r<br />-Anything else that replaces the soul gem models themselves. (Soulgem mods that contain a meshes folder.)\r<br />-All Soul Gems Are Reusable\r<br />-Headbomb&#39;s Better Sorting or any other sorting mod that changes the soul gem names. However, if you load this mod AFTER that one, you will get the glowing full soul gems. They just won&#39;t be sorted/renamed.\r<br />\r<br />This mod still works, but is no longer being updated or supported. I am no longer willing to mod for Steam games, even small mods like this. I have not tested it with Dragonborn or Hearthfire, though it&#39;s very unlikely either of those would break it. It works with Dawnguard.",
+  "categoryId": "29",
+  "version": "1",
+  "author": "KSG",
+  "createdUnix": "1326029479",
+  "updatedUnix": "1326064368",
+  "containsAdultContent": false,
+  "uploadedBy": "KSG",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "18052",
+      "name": "Soul Gems Glow When Full v1",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "192",
+      "fileName": "Soul Gems Glow When Full v1-5666-1.7z",
+      "uploadedUnix": "1326064368",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/6f2130d05f57700bfc72597e0eb045ff1b66d37e82c4282a042154bbe87ad8eb/analysis/1406595427/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Soul%20Gems%20Glow%20When%20Full%20v1-5666-1.7z?fid=18052&ttl=1535762555&ri=8192&rs=8192&setec=6769b2b8a917b8e2bd9368bc384d3ea5"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 24359.0,
+  "modName": "bookshelves script SKSE",
+  "summary": "A PlayerBookShelfContainerScript alternative, using SKSE.",
+  "descriptionHtml": "A PlayerBookShelfContainerScript alternative, using SKSE.\r<br />IT WON&#39;T WORK if you don&#39;t use SKSE (updated and properly installed, with all skse relevant pex files in the script folder)\r<br />SKSE allows the script to get rid of some nasty methods that were, otherwise, unavoidable.\r<br />\r<br />The script allows you to place up to 48 books in one shelf (based on books size).\r<br />\r<br />This script is based on Tiggz&#39; work (http://skyrim.nexusmods.com/mods/23441) who made a cool version without SKSE\r<br />\r<br />You are free to use/modify that script\r<br />\r<br />Some books from the Dragonborn DLC are missing bounds references, so bookshelves script SKSE can&#39;t handle them correctly.  \r<br />You can find a fix for this issue here, made by lessens: [url=http://skyrim.nexusmods.com/mods/39671/?]http://skyrim.nexusmods.com/mods/39671/?[/url] . thanks to him.\r<br />\r<br />[url=http://skyrim.nexusmods.com/mods/35399/?]Book Covers Skyrim[/url] also fixes bounds and other issues for skyrim vanilla, DG and HF dlc&#39;s books.\r<br />\r<br />\r<br />------------------------------------------------------\r<br />\r<br />Install: \r<br />Important: Go outside any house or cell where you can find a bookshelf, Save, exit game\r<br />Then use NMM, or justdrop both *.pex file in your Script folder.\r<br />\r<br />Uninstall:\r<br />Empty any bookshelves that have been filled with that script, then remove the PlayerBookShelfContainerScript.pex and PlayerBookShelfTriggerSCRIPT.pex files from the script folder.\r<br />\r<br />Issues:\r<br />another version of this script (updated, sort of) can be found here:\r<br />[url=http://www.nexusmods.com/skyrim/mods/49770/?]http://www.nexusmods.com/skyrim/mods/49770/?[/url]\r<br />(the script can be replaced silently, it does the same thing with more book tests, and alternate motion placement)\r<br />\r<br />----------------------------------------------------------------------------------\r<br />Sources are included and can be modified freely.\r<br />\r<br />Credits: Bethesda, Tiggz and SKSE team",
+  "categoryId": "67",
+  "version": "0.2",
+  "author": "McGuffin",
+  "createdUnix": "1348096222",
+  "updatedUnix": "1348308234",
+  "containsAdultContent": false,
+  "uploadedBy": "mcguffin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "89826",
+      "name": "bookshelves script SKSE",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "bookshelves script SKSE-24359-0-2.zip",
+      "uploadedUnix": "1348308234",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/e25e78d6a65d98825615484ce0aa326cacc613f4777235c4e89791b112a263e0/analysis/1407180731/",
+      "changelogHtml": " Improved book placement in case the first book in the row is bigger than usual <br/> \n Change in the vanilla PlayerBookShelfTriggerSCRIPT to ensure the grabbed book as the same ref than the stored one <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/bookshelves%20script%20SKSE-24359-0-2.zip?fid=89826&ttl=1535795212&ri=8192&rs=8192&setec=9fa9e9cd838af58bb7804713a57736f0"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 54144.0,
+  "modName": "Requiem - Revenge of the Enemies Patch",
+  "summary": "Makes Revenge of the Enemies compatible with Requiem",
+  "descriptionHtml": "This patch aims to make the mod Revenge of the Enemies (ROTE) compatible with Requiem.\r<br />\r<br />https://www.youtube.com/watch?v=Fk8qjhrRSPU\r<br />\r<br />\r<br />Version 1.15\r<br />\r<br />- Reverted NPCs to Requiem perks only (removed ROTE&#39;s). The additional perks were making some enemy unrealistically strong and damage resistant (especially bandit bosses).\r<br />\r<br />Version 1.14\r<br />\r<br />- Removed almost all ROTE loot.\r<br />- ROTE has unique combat styles and attacks for enemies which were previously overwritten by Requiem. I have now fixed this.\r<br />- I&#39;m currently looking into Bandits that sometimes have too little health. This is more annoying than a game-breaker. Shouldn&#39;t take too long to figure this out.\r<br />\r<br />Version 1.1.\r<br />\r<br />- Requiem based enemies have both Requiem and ROTE spells, abilities and perks They will also have Requiem health, magicka and stamina values. \r<br />- Enemies only seen in ROTE will maintain their own stats, perks and spells. If you find these to be too weak, which I have experienced they are not, then let me know.\r<br />- As per ROTE, some high level enemies are Wabbajack immune (Mercer Frey, Dragon Priests).\r<br />- Removed overpowered ROTE spell tomes from high level enemies.\r<br />- Vast majority of ROTE scaled enemies removed. From level 1 - 34 you can play Requiem as mod authors intended but from level 35+ ROTE exclusive enemies will mix in with normal Requiem enemies.\r<br />\r<br />- Removed almost all ROTE loot drops from enemies and only keep them for high level bosses (Dragon Priests, Red Eagle etc). You will still get Requiem loot drops from those bosses.\r<br />\r<br />\r<br />Going forward, I will only be updating the Requiem with Hard Times version. It takes a lot of time to edit the .esps and two versions doubles the work. \r<br />\r<br />Requirements and Load Order;\r<br />\r<br />Enemy AI Overhaul - Revenge of the Enemies (Rebirth Monster.esp)\r<br />Requiem\r<br />Requiem - Resources\r<br />Requiem - Dragonborn\r<br />Hard Times\r<br />Requiem - Revenge of the Enemies Patch\r<br />\r<br />Let LOOT manage your load order, but after sorting it&#39;s best to make sure my patch is at the bottom of your load order before you Bashed Patch (if you use one).\r<br />\r<br />If you have any complaints I will look into them.\r<br />\r<br />",
+  "categoryId": "84",
+  "version": "1.15",
+  "author": "Kazekage1",
+  "createdUnix": "1400425989",
+  "updatedUnix": "1401371588",
+  "containsAdultContent": false,
+  "uploadedBy": "Kazekage1",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000110954",
+      "name": "Requiem - ROTE and Hard Times",
+      "version": "1.15",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "329",
+      "fileName": "Requiem - ROTE and Hard Times-54144-1-15.rar",
+      "uploadedUnix": "1401371588",
+      "modVersion": "1.15",
+      "virusScanUrl": "https://www.virustotal.com/file/26997787f85a4eca23dfa4ce3c64f5ec2e57f62b17bec3bf2e147443a1eb0f28/analysis/1408101443/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem%20-%20ROTE%20and%20Hard%20Times-54144-1-15.rar?fid=1000110954&ttl=1535838148&ri=8192&rs=8192&setec=cca3886229ceab9876e4e545700184f5"
+    }
+  ]
+}

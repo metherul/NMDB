@@ -1,0 +1,32 @@
+{
+  "modId": 38808.0,
+  "modName": "DejaVu Sans Mono console font",
+  "summary": "Change console font to DejaVu Sans Mono ",
+  "descriptionHtml": "To install:\r\n\r\n- Copy \\\"Data\\\" directory to your Skyrim directory\r\n- Back up Skyrim\\\\Data\\\\Interfaces\\\\fontconfig.txt\r\n- Add this line to the top:\r\n\r\nfontlib \\\"Interface\\\\dvsm.swf\\\"\r\n\r\n- Change the line with $ConsoleFont to this:\r\n\r\nmap \\\"$ConsoleFont\\\" = \\\"DejaVu Sans Mono\\\" Normal\r\n\r\n- And you\\'re done.\r\n\r\nDejaVu font page: http://dejavu-fonts.org/wiki/Main_Page (go here for downloads and license info)",
+  "categoryId": "42",
+  "version": "0.1",
+  "author": "dbbolton",
+  "createdUnix": "1374796926",
+  "updatedUnix": "1374796640",
+  "containsAdultContent": false,
+  "uploadedBy": "dbbolton",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000040783",
+      "name": "DejaVu",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "179",
+      "fileName": "DejaVu-38808-0-1.zip",
+      "uploadedUnix": "1374796640",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/5236837c358893c4035fc45011782a865641ca4f0b14f3c530ba47519aa09e9d/analysis/1407655747/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DejaVu-38808-0-1.zip?fid=1000040783&ttl=1535819231&ri=8192&rs=8192&setec=4c18fd22b9b149db87a7c5a4932511c2"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 23839.0,
+  "modName": "Dawnguard-Different meshes Fix",
+  "summary": "Fixes meshes that have collision errors in the dawnguard DLC",
+  "descriptionHtml": "REQUIRES DAWNGUARD DLC\r\n\r\nTHIS WILL NOT REPLACE ANY MESHES IN THE DAWNGUARD EXPANSION, YOU WILL HAVE TO ADD THEM MANUALLY IN THE MOD YOU\\'RE MAKING\r\n\r\nThis is not actually a mod, it fixes meshes that have error in the collision, this mod contains the fixed meshes and you can use them however you want, if you find a mesh with collision problem, or a texture problem, I may be able to fix the textures, but I\\'m not good at that :(, \r\n\r\nIf you find a collision error in one mesh, PM or give a comment and I try fix this\r\n\r\nThis will not change any existing models, this only fixes the meshes for modders to use\r\n\r\nMeshes Fixed (name of the item)\r\n[List]\r\n[*] DintRCenter01, [url=http://static.skyrim.nexusmods.com/mods/images/23839-1-1347115629.png]this is the image [/url]\r\n[*] dintgate01, [url=http://static.skyrim.nexusmods.com/mods/images/23839-1-1359318882.png] this image [/url]\r\n[/list]\r\n\r\nTools used\r\n[List]\r\n[*] NifScope, for editing models\r\n[*] Chunkmerge, for making mopp collision\r\n[/list]\r\n\r\nHow did I do to fix?\r\n\r\nI make a copy of the model I shall fix, save it with new name, and remove all collision from the object I will remake the collision\r\nthen I use chunkmerge, and first select the file I shall put the collision on, and then the broken one, cause that\\'s the model it will get vertexes from, then you need a third model, not the edited or the other model, and this third one is for the program to know what kind of collision you want to use, for mopp find another object that has mopp collision, and then last you need to pick a material type, then you can generate the collision, the program will tell if it worked, or not, If it works then there might be a issue that the mopp is failed, and you need to check in the CK to see that the mopp is working\r\n\r\nI will always test the meshes with their new collision before adding it here, so I can tell those fixed meshes will not make the game crash",
+  "categoryId": "29",
+  "version": "1",
+  "author": "UnknownFreak",
+  "createdUnix": "1347115017",
+  "updatedUnix": "1359318791",
+  "containsAdultContent": false,
+  "uploadedBy": "UnknownFreak",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "87169",
+      "name": "DintRCenter01",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "MeshFixing-23839-1.7z",
+      "uploadedUnix": "1347115056",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/56161a903717ed445ed6f4e3a766e4444b681f20ad9eb1b2d718ea6899651fe5/analysis/1407153183/",
+      "changelogHtml": " Adds a fix for object DintRCenter01 <br/> \n Dintgate01 <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MeshFixing-23839-1.7z?fid=87169&ttl=1535794334&ri=8192&rs=8192&setec=696eca209a47ce8c9eb9535e0b7b789a"
+    },
+    {
+      "fileId": "1000005304",
+      "name": "dintgate01_MOPP",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "56",
+      "fileName": "dintgate01_MOPP-23839-1.7z",
+      "uploadedUnix": "1359318791",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/d3280d79720655c03b53008f135b253d6f279ee86586ce11cc02ec96b4477372/analysis/1407382584/",
+      "changelogHtml": " Adds a fix for object DintRCenter01 <br/> \n Dintgate01 <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/dintgate01_MOPP-23839-1.7z?fid=1000005304&ttl=1535794335&ri=8192&rs=8192&setec=be5623b2e23dbf887cfb739dbca51df4"
+    }
+  ]
+}

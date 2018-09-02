@@ -1,0 +1,32 @@
+{
+  "modId": 12925.0,
+  "modName": "NPCs Walk at Player Speed",
+  "summary": "When an NPC is leading you somewhere, it will be at YOUR walking pace, so no more of that \\\"walk-walk-walk-RUN\\\" routine to keep up with them.",
+  "descriptionHtml": "When NPCs are leading you somewhere, it will be at YOUR walking pace, so no more of that \\\"walk-walk-walk-RUN\\\" routine to keep up with them.\r\n\r\nThis is just a tiny fix to get rid of a minor irritation, but there\\'s no reason to keep anything irritating in the game, eh?\r\n\r\nAlso, the NPC Jog speed has been upped to be equal to Run speed, because seriously.\r\n\r\n\r\n-- NOTE --\r\nIt has been brought to my attention that someone had already done this. It\\'s worth checking out [url=http://skyrim.nexusmods.com/downloads/file.php?id=9553]this earlier version[/url] because it offers an optional file that further evens out the speeds between characters.\r\n\r\n[b][u]Behind the Curtain:[/u][/b]\r\nAll this does is set the FastWalkInterpolationBetweenWalkAndRun global variable to 0. Normally, NPC guides default to the FastWalk movement mode, which, quite counterintuitively, is fast and walk. Unfortunately, I can\\'t find a way to make the player default to FastWalk, so the solution is just to eliminate the difference between the two modes.\r\n\r\nThe other variable change is JogInterpolationBetweenWalkAndRun, which is changed to 1.\r\n\r\nIn other words, FastWalk now equals Walk, and Jog now equals Run.\r\n",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "NineInchNall",
+  "createdUnix": "1331760900",
+  "updatedUnix": "1331782644",
+  "containsAdultContent": false,
+  "uploadedBy": "NineInchNall",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "43465",
+      "name": "NPCs Move at Player Speed",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "NPCs Move at Player Speed-12925-1-1.rar",
+      "uploadedUnix": "1331782644",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/8723c5f18ad6f7906743fa6c6164d6d0d3f1a00cf9dc41a97dc31d7f44de627b/analysis/1406749645/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NPCs%20Move%20at%20Player%20Speed-12925-1-1.rar?fid=43465&ttl=1535775250&ri=8192&rs=8192&setec=328a6f17ac66c4ad2a0371ebfd229ac3"
+    }
+  ]
+}

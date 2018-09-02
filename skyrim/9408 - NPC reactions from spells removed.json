@@ -1,0 +1,48 @@
+{
+  "modId": 9408.0,
+  "modName": "NPC reactions from spells removed",
+  "summary": "Having summons or other spells active will no longer cause NPC\\'s to react.  No more \\'get away from me\\', \\'that spell looks dangerous\\', etc.  \r\n\r\nThe second ESP (NPCshutUPaboutflames.esp) does the same thing for flaming weapons and such.  Can be used together.",
+  "descriptionHtml": "Removes random chatter and dialogue from NPC\\'s telling you to get away, be careful with that magic, etc, whenever you have summons or other constant effect spells active.\r\n\r\nThe second file removes the same, only in regards to flaming weapons and junk and stuff.  So yeah.  Used them together, didn\\'t notice any conflicts or anything.  \r\n\r\nInstall like any normal ESP.",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "SourGrape",
+  "createdUnix": "1329143210",
+  "updatedUnix": "1329181183",
+  "containsAdultContent": false,
+  "uploadedBy": "SourGrape",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "30351",
+      "name": "NPCshutUP",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "NPCshutUP-9408-1-0.zip",
+      "uploadedUnix": "1329143423",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/55758d36a7562eab783eff1db6faa451fd32522269e27728547a20c98a6693ea/analysis/1406678523/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NPCshutUP-9408-1-0.zip?fid=30351&ttl=1535768933&ri=8192&rs=8192&setec=f25e3eab5164ed3c2c250a5425a915bf"
+    },
+    {
+      "fileId": "30729",
+      "name": "NPCShutUPaboutflames",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "NPCShutUPaboutflames-9408-1-0.7z",
+      "uploadedUnix": "1329181183",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7a5657e7a365d51bfcb6e2fd0572c3c92d87117bed1f7116f8f76e06c4d4bce7/analysis/1406680323/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NPCShutUPaboutflames-9408-1-0.7z?fid=30729&ttl=1535768933&ri=8192&rs=8192&setec=1b1803865ef2341e8a9c6d5810623d07"
+    }
+  ]
+}

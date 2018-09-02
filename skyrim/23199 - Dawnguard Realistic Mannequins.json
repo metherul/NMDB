@@ -1,0 +1,32 @@
+{
+  "modId": 23199.0,
+  "modName": "Dawnguard Realistic Mannequins",
+  "summary": "For those of us that want realistic mannequins.  They don\\'t wander about, they don\\'t change poses and they don\\'t cause lags. (At least not to as great an extent as their vanilla counterparts)\r\nThis esp will not work without dawnguard.  ",
+  "descriptionHtml": "For those of you who\\'ve noticed that the authors of the mannequin script fixes have moved on; here is my attempt to produce a adequate, Dawnguard compatible replacement.  To those of you who are in love with fully posable mannequins, I don\\'t know how to do that.  So this is not an interactive mannequin overhaul.  It won\\'t make your mannequins fart fire, shoot lasers or pose on command.  This is solely for those of us that want to show off their armor and don\\'t want their mannequins eating their popcorn, harrassing their spouse or getting their woody fingerprints all over the household treasures while your sucking the blood from an argonian concubine.  \r\n\r\nWhat it does:\r\nThis mod is in it\\'s beta stage, only because I haven\\'t extensively tested it as of yet.  It\\'s worked fine thusfar and I don\\'t foresee any issues.  Upon entering your home your mannequins many will spawn and the blink to their assigned location; I cannot make them spawn there.  However their travel package has been removed.  That\\'s it.  Removed my mannequin lag altogether, which was the desired effect.\r\n\r\nWhy the old mods don\\'t work with Dawnguard:\r\nDawnguard uses the mannequin race for two other creations.  I\\'m not sure what their main fuction is as I\\'ve played through Dawnguard numerous times and never seen them, leading me to believe they aren\\'t MEANT to be seen.  What I do know, thanks to Creation Kit IDs, is that they relate to Harkon and the Soul Cairn and that they are scripted to function as mannequins.  There may be examples of them in Fort dawnguard thus causing the crash with the altered mannequin script.  So what I\\'ve done is duplicate the mannequin script, repace the travel package with a hold position one and then placed this script on the household mannequins.  Needless to say the other two versions of the mannequin are unaltered, thus preventing the crash.\r\n\r\nHelp Wanted!\r\nI would like to make this mod like the older ones.  Selectable poses etc.  I just don\\'t know how.  I have no problem sharing credit so if any of you expirenced modders out there want to help feel free.  Just credit me and let me know so I can try it out!\r\n\r\n",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Ecremer",
+  "createdUnix": "1346134021",
+  "updatedUnix": "1346134171",
+  "containsAdultContent": false,
+  "uploadedBy": "ecremer",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "84780",
+      "name": "DRM",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "DRM-23199-1-0.zip",
+      "uploadedUnix": "1346134171",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c759c0e24a4f7eaf717614b363bdfbb89a8bada623dff88d151bf09d47628688/analysis/1407127515/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DRM-23199-1-0.zip?fid=84780&ttl=1535793266&ri=8192&rs=8192&setec=d99c1d7097ea192f9c66028b4172f71b"
+    }
+  ]
+}

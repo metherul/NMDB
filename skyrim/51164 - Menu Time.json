@@ -1,0 +1,48 @@
+{
+  "modId": 51164.0,
+  "modName": "Menu Time",
+  "summary": "This mod calculates time while player is in menu and adds it to the in-game time after once menu is closed. This mod does NOT disable pause mode in menus.",
+  "descriptionHtml": "[center][img]http://tinythings.ws/skyrim/menu_time/logo.png[/img][/center]\r<br />[heading]Description[/heading]\r<br />This mod calculates time while player is in menu and adds it to the in-game time once menu is closed. This mod does NOT disable pause mode in menus, it just attempts to bring a little bit more immersion to Skyrim and create a connection between menus and game world.\r<br />Since version 1.1 looting dead creatures takes extra time based on item weight and customizable multiplier (1 hour * Looted object weight * Multiplier). This feature is disabled by default. If you want to activate it, you have to set &#34;Time multiplier for looting creatures&#34; option to value greater than 0.\r<br />With MCM you can specify menus where time calculating feature is active. Also, you can change time fast-forwarding duration and TimeScale value (how fast in-game time passes).\r<br />\r<br />[heading]Requirements[/heading]\r<br />[url=http://skse.silverlock.org/]SKSE[/url] 1.06.0+\r<br />[url=http://www.nexusmods.com/skyrim/mods/3863/]SkyUI[/url] or [url=http://www.nexusmods.com/skyrim/mods/3863/]SkyUI[/url] + [url=http://www.nexusmods.com/skyrim/mods/29440/]SkyUI-Away[/url] (if you want to get cool mod configuration menu)\r<br />\r<br />[heading]Compatibility[/heading]\r<br />Menu Time should be compatible with pretty much everything.\r<br />\r<br />[heading]Installation[/heading]\r<br />Just extract Data folder over your Skyrim Data directory and enable Menu_Time.esp OR use Nexus Mod Manager to install.\r<br />\r<br />[heading]Uninstallation[/heading]\r<br />Delete Menu_Time.bsa and Menu_Time.esp in your Skyrim Data folder OR use Nexus Mod Manager to uninstall.\r<br />\r<br />[heading]Change Log[/heading]\r<br />[b]1.11 - 09/03/2014[/b]\r<br />[list]\r<br />[*]Fixed: MCM for new games\r<br />[/list]\r<br />[b]1.1 - 08/03/2014[/b]\r<br />[list]\r<br />[*]Added: Looting dead creatures takes extra time based on item weight and customizable multiplier (disabled by default). Thanks to [url=http://www.nexusmods.com/skyrim/users/6734287/]danielleonyett[/url] for idea&#33;\r<br />[*]Added: Messages after reading books (&#34;I&#39;ve been reading for X hours and Y minutes&#34;)(disabled by default)\r<br />[*]Fixed: &#34;Time fast-forwarding duration&#34; MCM option\r<br />[/list]\r<br />[b]1.0 - 16/02/2014[/b]\r<br />[list]\r<br />[*]Initial release\r<br />[/list]",
+  "categoryId": "24",
+  "version": "1.11",
+  "author": "TriS",
+  "createdUnix": "1392544512",
+  "updatedUnix": "1394337440",
+  "containsAdultContent": false,
+  "uploadedBy": "Tr1S",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000097302",
+      "name": "Menu Time",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Menu Time-51164-1-0.zip",
+      "uploadedUnix": "1392543143",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e7d20984f1316af67f784eba75768a42011c43ae9a5d941fbc261df03995879f/analysis/1407936005/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Menu%20Time-51164-1-0.zip?fid=1000097302&ttl=1535833347&ri=8192&rs=8192&setec=d46bcc8c43d00bdf979c10a6d8fa8d5b"
+    },
+    {
+      "fileId": "1000100443",
+      "name": "Menu Time",
+      "version": "1.11",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "Menu Time-51164-1-11.zip",
+      "uploadedUnix": "1394337440",
+      "modVersion": "1.11",
+      "virusScanUrl": "https://www.virustotal.com/file/1ae5e256ded2740a5d4f3dedff01a01504c2281b29c333feee6ee78a780640e4/analysis/1407966098/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Menu%20Time-51164-1-11.zip?fid=1000100443&ttl=1535833348&ri=8192&rs=8192&setec=a0c14bd38372a4eb0ff9d78ab19e8f3b"
+    }
+  ]
+}

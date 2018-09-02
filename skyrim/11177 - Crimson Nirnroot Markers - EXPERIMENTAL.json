@@ -1,0 +1,48 @@
+{
+  "modId": 11177.0,
+  "modName": "Crimson Nirnroot Markers - EXPERIMENTAL",
+  "summary": "Adds pillars of blue light above all Crimson Nirnroots to make them easier to find. Currently in development (try the experimental version - for new games only, not ones where you have only been to Blackreach)",
+  "descriptionHtml": "=========================\r<br />NOTE: There is now a mod which adds quest markers to Crimson Nirnroots that you will probably like if you are interested in this one: [url=http://steamcommunity.com/sharedfiles/filedetails/?id=13760]http://steamcommunity.com/sharedfiles/filedetails/?id=13760[/url]\r<br />=========================\r<br />\r<br />When I made my Stones of Barenziah Quest Markers mod, an oft-requested addition was something similar for Crimson Nirnroots. Visit that mod to read my rant about find-and-collect quests. [b]Unfortuantely[/b], the Crimson Nirnroot quest is set up differently, and it is [b]significantly harder[/b] to stick quest markers on them. Instead, I came up with an alternative solution.\r<br />\r<br />This mod adds pillars of blue light above all Crimson Nirnroots to make them easier to find. Ideally, this should be a modification to the model of the nirnroot itself, but until I get the hang of these NIF files and their animation, I&#39;ve made this temporary version that uses scripts. It basically sticks a Standing Stone just under ground under each nirnroot and turns on the beam-of-light animation. It looks quite good, and the blue goes well with Blackreach, but because of the way scripts are handled in saved games, it causes small problems. Specifically, the mod wont work for a save in which you have already been to Blackreach. In addition, deactivating the mod after visiting Blackreach will cause all Crimson Nirnroots to break.\r<br />\r<br />Also check out my other mods:\r<br />[url=http://skyrim.nexusmods.com/mods/9385]Stones of Barenziah Quest Markers[/url]\r<br />[url=http://skyrim.nexusmods.com/mods/14525]Stones of Barenziah DROPPABLE plus Quest Markers[/url]\r<br />[url=http://skyrim.nexusmods.com/mods/22647]Dragon Priest Mask Quest Markers[/url]\r<br />[url=http://skyrim.nexusmods.com/mods/8207]Developer Quickstart[/url]\r<br />[url=http://skyrim.nexusmods.com/mods/15428]Divine Punishment for Mention of Arrows in the Knee[/url]",
+  "categoryId": "24",
+  "version": "0.1",
+  "author": "toaDime",
+  "createdUnix": "1330161058",
+  "updatedUnix": "1330818656",
+  "containsAdultContent": false,
+  "uploadedBy": "toaDime",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "36601",
+      "name": "CrimsonNirnrootMarkers v0-1",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "CrimsonNirnrootMarkers v0-1-11177-0-1.rar",
+      "uploadedUnix": "1330163278",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/1105f9b8f48bb1af0f48c3a060546ed84cbbb1ec1cbb3d7aaec01c552d8db395/analysis/1406712084/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CrimsonNirnrootMarkers%20v0-1-11177-0-1.rar?fid=36601&ttl=1535772174&ri=8192&rs=8192&setec=41da3f62481223f098c7f6e21c1bfed5"
+    },
+    {
+      "fileId": "39749",
+      "name": "Powershrine_nirnroot_nif",
+      "version": "0",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "162",
+      "fileName": "Powershrine_nirnroot_nif-11177-0.rar",
+      "uploadedUnix": "1330818656",
+      "modVersion": "0",
+      "virusScanUrl": "https://www.virustotal.com/file/c1a8d5aea4876d02a3dab138cc52b1e5731c9110403c90262750ff07cfddad45/analysis/1406728203/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Powershrine_nirnroot_nif-11177-0.rar?fid=39749&ttl=1535772174&ri=8192&rs=8192&setec=9608ec24d7002282a65630879e0032e1"
+    }
+  ]
+}

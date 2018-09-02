@@ -1,0 +1,48 @@
+{
+  "modId": 76518.0,
+  "modName": "Skyrim Mod Folder Cleaner",
+  "summary": "This is a simple tool that cleans your Skyrim root directory from any mods you have installed, so no more &#34;fresh install&#34; to keep your skyrim clean for new mods, simply use this tool and keep the re-install process away :D",
+  "descriptionHtml": "[u][size=5]Description[/size]\r<br />\r<br />[/u][size=3]Have you ever been tweaking mods, or testing them, for hours but found the uninstall process for all of them annoying? Well, if you are like me, manually installing mods but then uninstalling them to make fresh installs over and over again, then this tool might come in handy.[/size]\r<br />\r<br />[size=3]It is a very simple tool that helps you clean your Skyrim install directory. Let&#39;s say that you added many mods and many, many files to your game and now you wanna delete them all (for whatever reason), for most of the people who do not trust mod managers, this is a long and harsh task. So instead, use this little tool, which automatically cleans the whole directory (a few steps are required, read the section below) and removes any plugins, or mods, leaving only the plain game and its core files untouched like a fresh install :D\r<br />\r<br />There are two ways to Clean the Skyrim folder, one is the option &#34;DELETE&#34; (which obviously deletes the mods inside the main directory), and the other option is &#34;MOVE&#34;, which moves the mod files to a folder that is right where this tool is placed in.\r<br />\r<br />Added new functionality: now you can select the option &#34;LIST&#34; in the drop-down menu, this action will ONLY create a text file in the folder where the tool is installed, containing the names of the current installed mods in your Skyrim&#92;Data directory. Note that when you press the &#34;Start&#34; button with the &#34;LIST&#34; option enabled, it&#39;ll still warn you about the removal of non-core files, disregard the warning since I forgot to remove it.[/size]\r<br />\r<br />[size=5][u]Instructions\r<br />[/u][/size]\r<br />[size=3]In order to make proper use of this tool, follow these instructions VERY CAREFULLY, step by step: [/size]\r<br />\r<br />[size=3]Obvious step) Unpack the SkyCleaner somewhere, wherever you wish.[/size]\r<br />\r<br />[size=3]1) Make sure you either have a fresh Skyrim installation (that is, NO mods or add-ins, just plain Skyrim ), if you do have mods or add-ins installed, then move them elsewhere (it&#39;s just a minute, you can return them back later when you have finished these steps&#33;).[/size]\r<br />\r<br />[size=3]2) Open the tool, it will prompt you to look for your Skyrim root folder (typically C:&#92;Games&#92;The Elder blablabla). Once you are done, click &#39;OK&#39; and proceed to the next step.[/size]\r<br />\r<br />[size=3]3) Now press the &#39;Scan&#39; button. This process will add all the files inside your Skyrim installation folder to a main index, and will be recognized as &#34;Core Files&#34; whenever you perform a Cleaning action with this tool. Files marked as &#34;Core Files&#34; will NOT be touched when you clean the folder with this tool. (CAREFUL&#33; Only do this step ONCE, next time you will NOT need to Scan files again).[/size]\r<br />\r<br />[size=3]Now you&#39;re ready to go&#33; You can install any mods you wish, and re-install any mods you had moved in Step 1. Whenever you wish to clean your Skyrim root folder, simply open this tool and press the &#34;Clean&#34; button, this operation will remove ALL mods, add-ins, plug-ins, etc, and leave the core game untouched (like a fresh install&#33;). Also, do not press any buttons repeatedly or simultaneously to avoid multiple actions happening at the same time (which will probably fuck your entire skyrim folder up).[/size]\r<br />\r<br />[size=3]* If you have mods or files which you know you ALWAYS use (like ENB, or SweetFX, etc) then you can install them, and then perform the Step number 3. This action will let the SkyCleaner add those files to the main index and mark them as Core Files, so whenever you perform the &#34;Clean&#34; process those files won&#39;t be touched :D[/size]\r<br />\r<br />[u][size=5]VERY IMPORTANT[/size][/u]\r<br />\r<br />[size=3]OK, now two very important things. Please read carefully&#33;[/size]\r<br />\r<br />[size=3]1. The tool may be detected as a trojan by your Anti-Virus, because the scripting language I use to code some of these tools [/size][size=3]is known to be very powerful and &#34;intuitive&#34;. If you&#39;re in doubt, check AutoIt Script official web page: [url=https://www.autoitscript.com/wiki/AutoIt_and_Malware]AutoIt Script[/url].[/size]\r<br />[size=3]\r<br />2. Anything gone wrong with this tool on your computer, is ENTIRELY YOUR responsibility. It is 100% safe, though.[/size]",
+  "categoryId": "39",
+  "version": "0.13",
+  "author": "YeiZoneX",
+  "createdUnix": "1466579396",
+  "updatedUnix": "1467378701",
+  "containsAdultContent": false,
+  "uploadedBy": "YeiZoneX",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000210680",
+      "name": "YzxSkyCleaner",
+      "version": "0.12",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "652",
+      "fileName": "YzxSkyCleaner-76518-0-12.7z",
+      "uploadedUnix": "1466587528",
+      "modVersion": "0.12",
+      "virusScanUrl": "https://www.virustotal.com/file/9e7f5ff612518388d4aa21e2774edd0584689277c91f32f0a96bbcd21cdff931/analysis/1466587565/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/YzxSkyCleaner-76518-0-12.7z?fid=1000210680&ttl=1535865248&ri=8192&rs=8192&setec=5360d95894053077478c0a947d3cb5b6"
+    },
+    {
+      "fileId": "1000211740",
+      "name": "YzxSkyCleaner",
+      "version": "0.13",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "941",
+      "fileName": "YzxSkyCleaner-76518-0-13.zip",
+      "uploadedUnix": "1467378701",
+      "modVersion": "0.13",
+      "virusScanUrl": "https://www.virustotal.com/file/80ba6008757f55eece4d0f8f9c3729f0149ac4ad0dfa244c531f78e78d08eed9/analysis/1467378723/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/YzxSkyCleaner-76518-0-13.zip?fid=1000211740&ttl=1535865248&ri=8192&rs=8192&setec=20e3a63d7ff79f424179036082c9e5f0"
+    }
+  ]
+}

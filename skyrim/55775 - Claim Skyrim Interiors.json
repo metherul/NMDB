@@ -1,0 +1,32 @@
+{
+  "modId": 55775.0,
+  "modName": "Claim Skyrim Interiors",
+  "summary": "Take possession of any interior in the game.\r<br />",
+  "descriptionHtml": "This mod was mostly made for personal use and to aid roleplay. \r<br />It adds a spell to the game called Claim Interior that when cast inside an interior cell will make the caster the new owner of the cell. \r<br />\r<br />Right now I have not added in a spell tome for it and so in order to get and use the spell you must do the following:\r<br />\r<br />- Open the console and type &#34;help claim&#34;  to get the ID of the Claim Interior spell.\r<br />- Type into the console &#34;player.addspell xxxxxxx&#34; with &#34;xxxxxxx&#34; replaced by the ID given from the help command.\r<br />\r<br />After that the spell should be added to your spell book under Alteration. Since I made this spell mostly as a means of roleplaying moving into a fort, dungeon, or house that I like there is no mana cost for the spell. \r<br />\r<br />Known Bugs: \r<br />- In testing I would sometimes have an odd chest left in a house that wouldn&#39;t become claimed after casting. Not sure what causes it but I just manually fixed it with the console by selecting the object and using &#34;setownership&#34;. \r<br />\r<br />This mod has not been thoroughly tested so you should use at your own risk. I&#39;m not 100% at this point whether or not some cells will reset after casting, but I don&#39;t believe so. You might be best to store really valuable gear in somewhere that you KNOW to be safe.",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "RandomUser69",
+  "createdUnix": "1404873793",
+  "updatedUnix": "1404873682",
+  "containsAdultContent": false,
+  "uploadedBy": "RandomUser69",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000116620",
+      "name": "ClaimSkyrimInteriors1.1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "ClaimSkyrimInteriors1.1-55775-1-1.zip",
+      "uploadedUnix": "1404873682",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/f7488ff1f0c24e921a44cf333a87f02327223bf76eea8971174aa9533b8e5cce/analysis/1408170014/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ClaimSkyrimInteriors1.1-55775-1-1.zip?fid=1000116620&ttl=1535840725&ri=8192&rs=8192&setec=376c09276755b0dc3e785a0b663bae8d"
+    }
+  ]
+}

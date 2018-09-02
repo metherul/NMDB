@@ -1,0 +1,48 @@
+{
+  "modId": 14697.0,
+  "modName": "New Spell - Bind And Gag",
+  "summary": "Adds a spell to spawn cuffs and a gag to immobilize the target, leaving them unable to fight for one minute.",
+  "descriptionHtml": "[b]Update 0.3[/b]: Cleaned up the script and added conditions. Now you won't be able to bind dragons, spiders or any creatures that are not humanoid. Children are also excluded. You also can't cast the spell on someone already bound, so you can't mess up animations by doing so. I also replaced the animation for the crafted cuffs to the hands in front animation. That one really only animates the arms and should cause less trouble with other animations.\r\n\r\n[b]Update[/b]: Re-uploded because the file structure within the RAR-archive was wrong. NOW it should work for real.\r\n\r\n[b]Update0.2[/b]: Sorry for the inconvenience. Now everything should work. I also assigned unused slots to the cuffs and gag, so now they won't replace a worn helmet or bracers/gloves. Plus, effect only last one minute now.\r\n\r\n[b]Update0.11[/b]: Somebody punch me. I forgot to include the scripts in the last rar-archive. Fixed now.\r\n\r\n[b]Update[/b]: German version added.\r\n\r\nDon't want to kill anyone in the dungeon but your sneaking sucks? Got found out after breaking into a home? Want to shut up Lydia? Then this mod is for you.\r\n\r\nMy first Skyrim mod: A simple spell that summons leather cuffs and gag to keep the target incapacitated for two minutes. I'm surprised there's nothing like it yet, considering there are already resources in the game I figured some kinkster would have created something like that. But nobody did, so I figured I'd try it.\r\n\r\n[u][b]The Mod[/b][/u]\r\nThis mod adds the alteration spell \"Bind And Gag\", as well as the wearable cuffs and gag and the corresponding crafting recipes.\r\n\r\n[b]The Spell[/b]\r\nIt simply plays the idle animation with the hands behind the character's back, equips modfied versions of Ulfric's gag and the prisoner's cuffs from the game's intro and sets the target as unconscious for 60 seconds, leaving them unable to do anything. You can buy the spelltome from Farengar Secret-Fire in Whiterun.\r\n\r\n[b]Crafting[/b]\r\nYou can craft a player-wearable version of both cuffs and gag, if you ever feel like tying yourself up for whatever reason. You can craft both at the tanning rack. [i]Equipping the cuffs wil set you as restrained, meaning you can't move around or change your camera. You have to unequip them and draw/ sheathe your weapon in order to be able to move again![/i]\r\n\r\n-1 linen wraps make 2 gags\r\n-2 leather strips make 1 pair of cuffs\r\n\r\n[b]Known Issues[/b]\r\n- The gag will look wrong on Argonians. That is because I used the vanilla model, which is designed for Ulfric Stormcloak.\r\n-When the target is playing any scripted or patrol animation (like Ysolda standing at the market stands) the bound animation won't play. The rest of the spell however, will work.\r\n-After unequipping the crafted cuffs the player has to unsheathe their weapons to be able to move again.\r\n\r\n\r\nIf you encounter any bugs or have other suggestions, please let me know. This is my first attempt at modding and I'd love to improve. If you feel like uploading this mod anywhere else or use it for your own mods, feel free to do so. And first and foremost, enjoy! :)",
+  "categoryId": "75",
+  "version": "0.2",
+  "author": "Daniel",
+  "createdUnix": "1333912032",
+  "updatedUnix": "1334405923",
+  "containsAdultContent": true,
+  "uploadedBy": "dkp12020",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "53114",
+      "name": "Spell - Bind and gag",
+      "version": "0.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "440",
+      "fileName": "Spell - Bind and gag-14697-0-3.rar",
+      "uploadedUnix": "1334405875",
+      "modVersion": "0.3",
+      "virusScanUrl": "https://www.virustotal.com/file/b1954f2a3039c3bc2d226d9c9084e97413895d5148db2a8918dd69c1f34f1ea0/analysis/1406814988/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Spell%20-%20Bind%20and%20gag-14697-0-3.rar?fid=53114&ttl=1535778510&ri=8192&rs=8192&setec=83750f265427927b3bff79e6df065a10"
+    },
+    {
+      "fileId": "53116",
+      "name": "German Translation",
+      "version": "",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "German Translation-14697-1.rar",
+      "uploadedUnix": "1334405923",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/50cab6c60a35e1b2b451237385fec1c2f6f30cd9c49a248184ac34f06ee27fab/analysis/1406814989/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/German%20Translation-14697-1.rar?fid=53116&ttl=1535778511&ri=8192&rs=8192&setec=5c9b00858fb2f067810f392f76b2457d"
+    }
+  ]
+}

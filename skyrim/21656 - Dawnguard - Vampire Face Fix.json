@@ -1,0 +1,48 @@
+{
+  "modId": 21656.0,
+  "modName": "Dawnguard - Vampire Face Fix",
+  "summary": "Quick fix for vampires that don\\'t want to look like a monster.",
+  "descriptionHtml": "Changes Player Character Texture only, Nothing to do with NPC\\'s for the shape of the Players Head, This is just a texture fix for those that want it.\r\n\r\n\r\nUpdate (8/6/12): for those that want to change your vampire look(the shape of the head) there is a mod.\r\n\r\nVampire Face Less Sunken Cheeks by Devacore\r\nLink: http://skyrim.nexusmods.com/mods/16506\r\n\r\n--------------------------------------------------------------------------------------------------------------------------------------\r\n\r\nUpdate (8/4/12): New File added with the dirty tint masks all black to fix the dirty look your vampires get, Changes NPC\\'s too so those that had the dirty tint mask will now look cleaner.\r\nFor those that have custom faces and just want the tint masks I have added a new file just extract it to your Skyrim folder.\r\n\r\n--------------------------------------------------------------------------------------------------------------------------------------\r\n\r\nEDIT: So people don\\'t flood the comments with this there is always a Eye fix for those that don\\'t want the glow. There is no need for me to repeat the work someone has already taken the time to do.\r\n\r\nDawnguard Vampire Eyes Fix by Renegadeof79\r\nLink: http://skyrim.nexusmods.com/mods/21669\r\n\r\nAnd to clear things up you don\\'t need to use the \\\"normal character look\\\" you can take a custom texture and use that for your vampire. Like a bloody face texture or whatever suits your fancy. I\\'m here to help not control your game for you. \r\n\r\n--------------------------------------------------------------------------------------------------------------------------------------\r\n\r\nAlright lets get to it. First off the Dawnguard vampire face textures wow not liking that look. Love your game Bethesda but I\\'m not going to walk around looking like that.\r\n\r\nThis is a quick fix for people using vanilla game and well don\\'t want to look like a monster, the file you can download is using the vanilla face textures just copy them over into your Skyrim folder and your good to go.\r\n\r\nNow we get into people using custom face textures that want that fixed too. Just follow these simple steps.\r\n\r\nFirst off is the ladies\r\n1. Go to your Skyrim folder then Data > textures > actors > character > female\r\n2. locate the files femalehead.dds and femalehead_msn.dds and copy and paste to make a copy\r\n3. Good now rename femalehead.dds to \\\"[b]femaleheadvampire.dds[/b]\\\"\r\n4. Next up yep you got it rename femalehead_msn.dds to \\\"[b]femaleheadvampire_msn.dds[/b]\\\"\r\n5. all set\r\n\r\nNow the Men\r\n1. Same concept Go to your Skyrim folder then Data > textures > actors > character > male\r\n2. locate the files malehead.dds and malehead_msn.dds and copy and paste to make a copy\r\n3. Rename malehead.dds to \\\"[b]maleheadvampire.dds[/b]\\\"\r\n4. And finally rename malehead_msn.dds to \\\"[b]maleheadvampire_msn.dds[/b]\\\"\r\n\r\nAll set if i missed anything which I\\'m 99% sure i didn\\'t let me know and i will fix it. Have fun and good hunting.",
+  "categoryId": "29",
+  "version": "v1.1",
+  "author": "CraftyGremlin",
+  "createdUnix": "1344076201",
+  "updatedUnix": "1344211302",
+  "containsAdultContent": false,
+  "uploadedBy": "CraftyGremlin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "78779",
+      "name": "Vanilla Vampire and Dirty Face Fix",
+      "version": "v1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "447",
+      "fileName": "Vanilla Vampire and Dirty Face Fix-21656-v1-1.rar",
+      "uploadedUnix": "1344118568",
+      "modVersion": "v1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/92a604421310b1f2692ab3f68ad867396c2623d288d3e8855e54fb59c32b908e/analysis/1407069785/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vanilla%20Vampire%20and%20Dirty%20Face%20Fix-21656-v1-1.rar?fid=78779&ttl=1535790684&ri=8192&rs=8192&setec=3a0002caef1815892b08898620ebfd6e"
+    },
+    {
+      "fileId": "79092",
+      "name": "Dirty Face Fix",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Dirty Face Fix-21656-v1-0.rar",
+      "uploadedUnix": "1344211302",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b775e16b390d3fe30aee2e4cdb6c471af4ecd53e5edf08e48068a8f6aa3a0538/analysis/1407072909/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dirty%20Face%20Fix-21656-v1-0.rar?fid=79092&ttl=1535790684&ri=8192&rs=8192&setec=b09f3f928197dd8670e9037f23daa8ec"
+    }
+  ]
+}

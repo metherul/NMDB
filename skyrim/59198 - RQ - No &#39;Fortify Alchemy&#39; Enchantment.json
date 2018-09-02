@@ -1,0 +1,48 @@
+{
+  "modId": 59198.0,
+  "modName": "RQ - No &#39;Fortify Alchemy&#39; Enchantment",
+  "summary": "Stops anything enchanted with &#34;Fortify Alchemy&#34; from appearing in the game. ",
+  "descriptionHtml": "Requested by [url=http://http://forums.nexusmods.com/index.php?/user/6256407-elbereth91/]Elbereth91[/url] on the forums. \r<br />\r<br />\r<br />This mod should stop anything with the &#34;Fortify Alchemy&#34; enchantment from being spawned in shops, chests, on NPCS, or given as quest rewards, effectively removing the effect from the game. This means that, assuming you are using [url=http://http://www.nexusmods.com/skyrim/mods/19/?]USKP[/url] (the Unofficial Skyrim Patch), which fixes the &#34;Fortify Restoration&#34; and fortify skill interaction, you can no longer exploit your way to OP potions and gear. \r<br />\r<br />However&#33; There are two classes of exceptions. 1) Anything which has been hand-placed in the world or on an NPC will still exist. I only saw two examples (Muiri&#39;s and Frida&#39;s rings), but if any other[size=2] mod adds them they will still exist, and be a very rare and powerful enchantment. 2) If you load this on a savegame, anything with the enchantment that has already spawned in the world will still be there. If you don&#39;t want it around, go drop it in the ocean or something. You won&#39;t have to worry about any more showing up. [/size]\r<br />\r<br />\r<br />\r<br />There are two files available: \r<br />\r<br />v0.5 - Edits nothing but level lists. It only makes one change (a single deletion, usually) to each of them, but it edits 80ish lists, and will severely make other armor mods unhappy if you don&#39;t bash or merge. \r<br />0.7 - Edits all the same lists and makes Muiri and Frida&#39;s rings non-disenchantable. If you want to get the enchantment, you have to take and wear their rings. \r<br />\r<br />Version listed as 0.7 because if there are reports of things with the enchantment showing up in-game I may track them down. (If you want to report an item, please list what it was, and who had it or where it was.) \r<br />\r<br />[center]==Compatibility==[/center][list][*]0.7 will conflict with anything that changes those two rings. Assuming you want the other changes, load this before it. If you want them to be just like vanilla, but un-disenchantable, load this after.\r<br />[/*]\r<br />[*]Because this does not edit the enchantment itself, it won&#39;t conflict with magic mods.[/*]\r<br />[*]Because this does not edit the armors themselves, it won&#39;t directly conflict with armor mods that edit them. It will, however, assuming you load this late and bash all the lists together, stop them from appearing in the game. (Note that this applies [i]only[/i] to armors and jewelry that are in vanilla enchanted with Fortify Alchemy. Modded armors with it will still exist. And if a mod changes one of them to be something entirely different, well, it will still be blocked.)[/*]\r<br />[/list]",
+  "categoryId": "75",
+  "version": "0.7",
+  "author": "AnkhAscendant",
+  "createdUnix": "1413711409",
+  "updatedUnix": "1413711342",
+  "containsAdultContent": false,
+  "uploadedBy": "AnkhAscendant",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000131636",
+      "name": "0-7 - No Disenchant",
+      "version": "0.7",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "0-7 - No Disenchant-59198-0-7.7z",
+      "uploadedUnix": "1413711312",
+      "modVersion": "0.7",
+      "virusScanUrl": "https://www.virustotal.com/file/ed4610b942877e9c8cc94daca8effcb43fb9de0c6936f7e2832321b9b0af2b45/analysis/1413711421/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/0-7%20-%20No%20Disenchant-59198-0-7.7z?fid=1000131636&ttl=1535846287&ri=8192&rs=8192&setec=7ed820af066e25c9d5abc81ccddc1e5d"
+    },
+    {
+      "fileId": "1000131637",
+      "name": "0-5 - Only Lists",
+      "version": "0.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "0-5 - Only Lists-59198-0-5.7z",
+      "uploadedUnix": "1413711342",
+      "modVersion": "0.5",
+      "virusScanUrl": "https://www.virustotal.com/file/0d44302dd228a96f027e46f30bd41f0d0b42922406745b78b161489c18164cdf/analysis/1413711422/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/0-5%20-%20Only%20Lists-59198-0-5.7z?fid=1000131637&ttl=1535846287&ri=8192&rs=8192&setec=0a307960110702427ceaa1525b395f64"
+    }
+  ]
+}

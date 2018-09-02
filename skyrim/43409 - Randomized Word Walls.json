@@ -1,0 +1,32 @@
+{
+  "modId": 43409.0,
+  "modName": "Randomized Word Walls",
+  "summary": "Shuffles the word walls of Skyrim around, so that each playthrough will be unique.",
+  "descriptionHtml": "Exploration is a big part of Skyrim, but after a dozen or so playthroughs I know which dungeon hosts which word. This bothered me, so I decided to do something about it.\r<br />\r<br />This mod shuffles the Words of Power in Skyrim around, meaning you might learn Storm Call instead of Become Ethereal while retrieving the Horn of Jurgen Windcaller. \r<br />[b]Walls that will not be included at all are:[/b]\r<br />\r<br />- Bleakfalls Barrow&#39;s Unrelenting Force, because it would break the related quest.\r<br />- Shearpoint&#39;s Throw Voice wall, because its a three-in-one wall.\r<br />- DLC walls, due to scripting issues and laziness.\r<br />\r<br />You need to install this on a new, preferably unmodded save. Once the script has done its job you can install more mods. To improve stability and speed of the script, check the .ini edit bellow.\r<br /> \r<br />[b]How it works:[/b]\r<br />When you start the game, you are given a power called Randomize Word Walls. When you cast it, the randomization process begins.\r<br />\r<br />Things to keep in mind before casting the spell:\r<br />- Make sure you are in a safe place. You should more or less go AFK while the script is working, so you don&#39;t want combat to start. The optimal place would be right after you&#39;ve slain the bear during the Helgen attack.\r<br />- You should run this on a fresh save, without any other mods installed. Once the script is finished you can install more mods.\r<br />- Be sure you are no where near a word wall.\r<br />- Save the game before casting.\r<br />- The changes done to your playthrough cannot be reversed, even by uninstalling the mod.\r<br />\r<br />When the script finishes, it also stops any running script and removes the Randomize Word Walls power, making it rather &#34;safe&#34; to uninstall, though uninstalling any mod is not recommended.\r<br />\r<br />\r<br />[b]Sugested .ini edit:[/b]\r<br />In Skyrim.ini add/edit:\r<br />\r<br />[Papyrus]\r<br />fUpdateBudgetMS=800\r<br />fExtraTaskletBudgetMS=800\r<br />fPostLoadUpdateTimeMS=2000\r<br />iMinMemoryPageSize=256\r<br />iMaxMemoryPageSize=512\r<br />iMaxAllocatedMemoryBytes=2457600\r<br />\r<br />You can find the Skyrim.ini file in the Documents/My Games/Skyrim folder. If the &#34;[Papyrus]-line already exists, do not include it. The same goes for every line.\r<br />\r<br />\r<br />[b]Installation:[/b]\r<br />- Download with NMM or install manually.\r<br />\r<br />\r<br />[b]Uninstallation:[/b]\r<br />- If you&#39;ve cast the spell, just remove the mod using NMM or remove it from the Data folder, along with the .BSA package.\r<br />- If you haven&#39;t cast the spell, do it and select the unistall option. Then do the step above.\r<br />- Keep in mind that uninstalling any mod may cause instability in your save.\r<br />\r<br />\r<br />[color=#B0F6FE]&#34;This sounds fun and all, but is there any way I can check if the mod works before I start a new game?&#34;[/color]\r<br />Yes there is actually. Just follow the steps bellow:\r<br />- Start the game. While in the Main Menu, open up the console and type [color=#FFC555][i]coc RwwTestCell[/i][/color]  Do not load an existing save\r<br />- Cast the spell.\r<br />- Once the script finishes, you&#39;ll be taken on a journey to all the word walls affected. In vanilla Skyrim, the first three walls teaches you: Dismay, Ice Form and Slow Time, in that order.\r<br />\r<br />[color=#B0F6FE]&#34;Does this break the Greybeards quest that helps you locate words?&#34;[/color]\r<br />Nope.\r<br />\r<br />[color=#B0F6FE]&#34;Will you ever add DLC support?&#34;[/color]\r<br />No. I tried, but I couldn&#39;t get it to work.\r<br />\r<br />",
+  "categoryId": "91",
+  "version": "1.0",
+  "author": "Sjogga",
+  "createdUnix": "1380739109",
+  "updatedUnix": "1380739079",
+  "containsAdultContent": false,
+  "uploadedBy": "Sjogga",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000060753",
+      "name": "Randomized Word Walls 1_0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "33",
+      "fileName": "Randomized Word Walls 1_0-43409-1-0.rar",
+      "uploadedUnix": "1380739079",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/852f2c70f9128700defd84b8d408a407f57d053dca1702204831fb6a163be467/analysis/1407742864/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Randomized%20Word%20Walls%201_0-43409-1-0.rar?fid=1000060753&ttl=1535824213&ri=8192&rs=8192&setec=ee722a40c7e2081bb4eac9542f225914"
+    }
+  ]
+}

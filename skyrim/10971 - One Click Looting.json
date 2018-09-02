@@ -1,0 +1,32 @@
+{
+  "modId": 10971.0,
+  "modName": "One Click Looting",
+  "summary": "Have you ever been frustrated with looting the same items over and over? Wishing there was a faster way? Now there is!\r\n\r\nOne Click Looting: Upon looting a single item (any item) from a container, every other \\\"desirable\\\" item in the container is also taken. \r\n\r\nConfigurable in-game via reading \\\"A Guide to Efficient Pillaging\\\". This config book",
+  "descriptionHtml": "Have you ever been frustrated with looting the same items over and over? Wishing there was a faster way? Now there is! \r\n\r\nOne Click Looting: Upon looting a single item (any item) from a container, every other \\\"desirable\\\" item in the container is also taken. \r\n\r\nConfigurable in-game via reading \\\"A Guide to Efficient Pillaging\\\". This config book can be found on the very first corpse you loot when beginning a new game. Alternatively, for existing characters, Farengar Secret-Fire owns a copy. It can be found on a bookshelf in his study in Dragonsreach.\r\n\r\nNEW: A spell has been added to allow a player to selectively turn off auto-loot for a location. Instructions can be found within the config book. This spell is learned upon reading the config book for the first time.\r\n\r\nCategories:\r\n- Base (Gold and lockpicks - Enabled by default)\r\n- Ingredients\r\n- Scrolls\r\n- H/M/S Potions\r\n- Gems\r\n- Soul Gems\r\n- Ore/Ingots\r\n- Leather/Pelts\r\n- Jewelry\r\n- Arrows\r\n\r\nDOES NOT AFFECT:\r\n- Pickpocketing\r\n- Companions\r\n- Merchants\r\n- Any player/playerFaction owned container\r\n- A list of excluded locations (currently all player homes)\r\n\r\nCONFLICTS:\r\n- This mod will conflict with any merchant added by another mod, UNLESS you use the included spell to turn off auto-loot within that location. (For example, the Dovahkiin Hideout)\r\n\r\n*****\r\n\r\nChange Log:\r\nv1.0\r\n - Initial Version\r\n\r\nv1.1\r\n- Added notification option to display a notification when auto-looting\r\n- Added configuration for notifications (NOTE: If you have already picked up the config book, you may have to spawn a new copy of it for the notification configuration to work correctly.)\r\n- *technical* Added debug notification global flag\r\n- *technical* Removed hardcoded config message step numbers\r\n\r\nv1.2\r\n- Added spell \\\"Exclude Location (Toggle)\\\" which allows a player to turn auto-looting on and off in a location\r\n\r\nv1.2.1\r\n- Modified logic involving the max number of items to attempt to take.\r\n\r\n*****\r\n\r\nFuture Updates:\r\n- Add config option/logic for minimum arrow damage to pick up (i.e. Dwarven and above, etc)\r\n- WISHFUL: Add ability for a player to add an item to a custom auto-loot list\r\n- WISHFUL: Automatically loot\r\n- WISHFUL: Close loot window automatically if empty after auto-loot\r\n\r\nPlease comment with any questions, feedback, requests, or bug reports! ESPECIALLY if you find yourself auto-looting something you shouldn\\'t be, or from someone you shouldn\\'t be.\r\n",
+  "categoryId": "42",
+  "version": "1.2.1",
+  "author": "Vonwarr",
+  "createdUnix": "1330027035",
+  "updatedUnix": "1330116773",
+  "containsAdultContent": false,
+  "uploadedBy": "Vonwarr",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "36340",
+      "name": "One Click Looting 1_2_1",
+      "version": "1.2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "One Click Looting 1_2_1-10971.zip",
+      "uploadedUnix": "1330116773",
+      "modVersion": "1.2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/9ed8e26a0cabdbcb18c44560c770f8962f7b6976d1dc9a2009076ecf9fa147c1/analysis/1406710744/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/One%20Click%20Looting%201_2_1-10971.zip?fid=36340&ttl=1535771817&ri=8192&rs=8192&setec=a3b805f9edcd0aa94cb4b8af36027b65"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 59447.0,
+  "modName": "Simple Stamina Managment",
+  "summary": "This is a very easy, small and scriptfree Mod, which adds an additional basic Stamina Managment to meelefighting and archery.",
+  "descriptionHtml": "[b][size=5]\r<br />\r<br />\r<br />[/size][/b][center][b][size=5][u][size=6]Simple Stamina Managment[/size][/u][/size][/b]\r<br />[size=4]for Meele Fighting and Archery[/size]\r<br />\r<br />[u][b][size=5]1.3[/size][/b][/u]\r<br />\r<br />\r<br />\r<br />This is a very easy and small Mod, which adds an additional basic Stamina Managment to meelefighting and archery. \r<br />It is only affecting the player. I use it as a Plugin for [url=http://www.nexusmods.com/skyrim/mods/5485/?]Deadly Combat by Borgut1337[/url] together with [url=http://www.nexusmods.com/skyrim/mods/56147/?]Combat envolved by CrushBoss[/url], \r<br />but it also works fully as a standalone, or together with other combat-mods, perk mods etc...\r<br />To Balance the Mod (and all your other Mods) to your taste, use [url=http://www.nexusmods.com/skyrim/mods/37563/?]Fine-Tuned Challenge by Kamikaze1[/url] or similar.\r<br />(it basicly enhances the difficulty-slider, for example you can make only your hits stronger, now that you may can perform less hits)[/center][center]This Mod is Scriptfree&#33;\r<br />\r<br />[size=5]\r<br />[u]Description:[/u][/size]\r<br />[u]\r<br />1a. every normal weapon swing will now cost 10 Stamina[/u]\r<br />[u]1b. keeping a Bow drawn and reloading a crossbow drains 10 Stamina per second[/u]\r<br />a very small amount, but while you keep swinging your weapon, you can&#39;t regenerate stamina[i]\r<br />... now you have to be more carefully with your attacks, because no stamina means no Powerattacks, no Powerbashing and no sprinting[/i]\r<br />... archery-handling and movement gets also more complex\r<br />\r<br />[u]2. while you have more than 80% of your Stamina, you do 30% more damage[/u]\r<br />while you are infight your charcter will have a blue glow if you&#39;re above 80% stamina\r<br />[i]... a rested figther is more likely to do a well placed hit[/i]\r<br />... if you have proper timing in aiming, drawing and shooting your bow, you get a bonus \r<br />\r<br />[u]3. while you have less than 20% of your Stamina, you do 70% less damage[/u]\r<br />your charcter will have a green glow if you have less than 20% stamina\r<br />[i]... [/i][i]if you&#39;re exhausted you can&#39;t hit that hard \r<br />... with Deadly Combat blocking costs stamina, so now evading hits is better than just blocking it[/i]\r<br />... keeping distance as an archer now comes at a price if you use sprint[/center]\r<br />[center][u][size=4]Compatibility:[/size][/u]\r<br />There are no Incompatibilities with other Mods, since I didn&#39;t change any Vanilla-record. I just added new ones.\r<br />Even if you have a Mod, which does exactly the same, the effects would just stack. \r<br />Works with every Mod-added meeleweapon. There is no need for any DLC. You don&#39;t need to start a new game to use the Mod.[/center]\r<br />\r<br />\r<br />[center][u][size=4]Installation:[/size][/u]\r<br />Use Modmanager or simply copy SimpleStaminaManagment.esp in your &#92;Skyrim&#92;Data Folder and activate it.\r<br />\r<br />[b]1. Ingame, open console and type &#34;help staminamanagment&#34; [i](without &#34; &#34;). [/i][/b]\r<br />[i]This will show you a Perk (SimpleStaminaManagment) and its ID.[/i]\r<br />\r<br />[b]2. The ID will look like XXX00D64 [/b]\r<br />[i](XXX will be the position of this Mod in your loadorder, for example &#34;96000D64&#34;).[/i]\r<br />\r<br />[b]3. Then type &#34;player.addperk XXX00D64&#34; [/b]\r<br />[i](replace XXX with the numbers, which showed, type the whole number with all zeros).[/i]\r<br />\r<br />[b]4. Save your game[/b][/center][center]\r<br />\r<br />[b][u]For Update from previous Version:[/u][/b]\r<br />Please follow the Uninstall-section first, then\r<br />install the normal way[/center]\r<br />\r<br />[center][u][size=4]Uninstallation:[/size][/u]\r<br />Uninstallation mid-game works, since this mod does not use scripts.\r<br />\r<br />[b]1. Ingame, open console and type &#34;help staminamanagment&#34; [i](without &#34; &#34;)[/i][/b]\r<br />[i]This will show you a Perk (SimpleStaminaManagment) and its ID.[/i]\r<br />\r<br />[b]2. The ID will look like XXX00D64 [/b]\r<br />[i](XXX will be the position of this Mod in your loadorder, for example &#34;96000D64&#34;).[/i]\r<br />\r<br />[b]3. Then type &#34;player.removeperk XXX00D64&#34; [/b]\r<br />[i](replace XXX with the numbers, which showed, type the whole number with all zeros).[/i]\r<br />\r<br />[b]4. Save your game[/b]\r<br />\r<br />[b]5. Delete SimpleStaminaManagment.esp in your &#92;Skyrim&#92;Data Folder or uninstall with Modmanager.\r<br />[/b][/center]\r<br />\r<br />\r<br />[center]______________________________________________________________________________\r<br />[/center][center][size=3]There is another Mod, similar to mine. Since it&#39;s re-realease, this Mod is way more polished than mine and adds some additional feautures, except for the blue/green glow. \r<br />[url=http://www.nexusmods.com/skyrim/mods/59742/?]Fighting Fatigue by Matthiaswagg\r<br />[/url] [/size][/center][center]______________________________________________________________________________[/center]",
+  "categoryId": "77",
+  "version": "1.3",
+  "author": "JoeKa8",
+  "createdUnix": "1414471785",
+  "updatedUnix": "1414601136",
+  "containsAdultContent": false,
+  "uploadedBy": "JoeKa8",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000133065",
+      "name": "Simple Stamina Managment 1.3",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Simple Stamina Managment 1.3-59447-1-3.zip",
+      "uploadedUnix": "1414601136",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/2131b72f7f4dfcf77e36cfc6e540f798ccf13d4e9b7db2b53085ad8795961fc3/analysis/1414601225/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Simple%20Stamina%20Managment%201.3-59447-1-3.zip?fid=1000133065&ttl=1535846661&ri=8192&rs=8192&setec=727e0d70bc900635259f7a85994521e9"
+    }
+  ]
+}

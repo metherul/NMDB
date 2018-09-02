@@ -1,0 +1,32 @@
+{
+  "modId": 25274.0,
+  "modName": "Investigate the Boethiah Cultist glitch Fix",
+  "summary": "Have that annoying \\\"investigate the Boethiah cultist\\\" miscellaneous quest in your journal?  Here\\'s a fix!",
+  "descriptionHtml": "For the longest time, I couldn\\'t get rid of the quest from my journal, and decided to attempt my first mod ever by removing this quest from your journal.  \r\n\r\nThe quest affected is WEDA02, Which does effect the Boethiah\\'s Calling, quest DA02.  I simply set all stages of the quest to end immediately, and removed the text description.  Because of this, I would recommend downloading and using this mod only after completing the quest Boethiahs Calling.  So to emphasize again...\r\n\r\nONLY USE THIS AFTER COMPLETING BOETHIAHS CALLING!\r\n\r\nTo install, just download it, and place in your data folder.  Activate the boethiah_fix.esp and load up your game.  If the quest doesn\\'t go away, quit the game, and load the boethiah_fix.esp first in your load order.  Then, once the quest is removed from your journal, you no longer need the mod and can remove it, or save it for future play throughs.",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "Dashman112",
+  "createdUnix": "1349829610",
+  "updatedUnix": "1349829833",
+  "containsAdultContent": false,
+  "uploadedBy": "dashman112",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "93028",
+      "name": "Boethiah Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Boethiah Fix-25274-1-0.zip",
+      "uploadedUnix": "1349829833",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3da786addfc949c282298ee17baaa064ed0f385d597cfd6b1bcef7801e1f908d/analysis/1407212607/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Boethiah%20Fix-25274-1-0.zip?fid=93028&ttl=1535796687&ri=8192&rs=8192&setec=925aba3e826463004d0a14bad60102ba"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 60373.0,
+  "modName": "Escape",
+  "summary": "Teleports you back to an entrance in a dungeon.",
+  "descriptionHtml": "This is a re-released version of the very first mod I made of the same name with a few differences. If anyone remembers [b]SpellTome - Escape[/b] I had took it down last year.\r<br />[color=#1155Cc]\r<br />[color=#6fa8dc][size=4]Requires the latest Skyrim patch.[/size][/color][/color]\r<br />\r<br />It is also loosely based on the FFXI spell of the same name. This mod aims to do the same thing with the exception that you&#39;re teleported to the entrance while still inside(In FFXI you&#39;re teleported outside). This works even with multi-level dungeons in that you are teleported to the entrance of that sublevel. The overall intent is to give you a way to get out of a tough situation, &#34;breathing room&#34; if you will, though this can be used also because walking all the way back gets tiresome.\r<br />\r<br />[u][size=3]Things of note:[/size][/u]\r<br />\r<br />[list=1][*][size=2]It is a lesser power spell.[/size][/*]\r<br />[*][size=2]You do [b]not[/b] need to be a mage to use this spell.[/size][/*]\r<br />[*][size=2]You do [b]not[/b] need any specific level of a magic skill to learn it. By vanilla default, all skills start at lvl 15.\r<br />[/size][/*]\r<br />[*][size=2]It is given to you when you load up in game.[/size][/*]\r<br />[/list][u][size=3]\r<br />Technical stuff:[/size][/u]\r<br />\r<br />The spell will do three checks before teleporting you. First it will check if you are inside a dungeon. This will not work in houses, or regular interiors. [b]Dungeons only[/b]. Next it will check if a specific marker to teleport you to, that is near the entrance is within range(the third check). \r<br />\r<br />[u][size=3]Compatibility:[/size][/u]\r<br />\r<br />No issues that I know of.\r<br />[size=3]\r<br />[u]Known Issues:[/u][/size]\r<br />\r<br />There are some areas in the game that this spell will not work in, because the marker it searches for was not placed by Bethesda. You will know that you encounter such an area because a warning message will appear when you use it.\r<br />\r<br />You can&#39;t use it while in werewolf form for obvious reasons.\r<br />\r<br />When teleporting in, the effects are cutoff prematurely.\r<br />\r<br />[u][size=3]Installation:[/size][/u]\r<br />\r<br />Better installed with NMM, or whatever MO you use. If you download manually, just drag and drop the contents to the data folder, click yes for any overwrite prompts.\r<br />[u][size=3]\r<br />Uninstall:[/size][/u]\r<br />\r<br />I don&#39;t recommend uninstalling, but if you must, remove these files:\r<br />\r<br />Scripts&#92;QF_EscapeQuest_02000D66.pex\r<br />Scripts&#92;Source&#92;QF_EscapeQuest_02000D66.psc\r<br />Scripts&#92;EscapeEffectScript.pex\r<br />Scripts&#92;Source&#92;EscapeEffectScript.psc\r<br />Escape.esp\r<br />\r<br />[u][size=3]Credits:[/size][/u]\r<br />\r<br />Bethesda for releasing such a great tool.\r<br />SmkViper the programmer that created Papyrus.",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "Terra Nova",
+  "createdUnix": "1420220832",
+  "updatedUnix": "1420663210",
+  "containsAdultContent": false,
+  "uploadedBy": "Terra Nova",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000141060",
+      "name": "Escape",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Escape-60373-1-0.rar",
+      "uploadedUnix": "1420219857",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e6dce7c58ae75b6fd2133550e95203eae73162d0fba10610cd4665cdc05dc71e/analysis/1420219861/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Escape-60373-1-0.rar?fid=1000141060&ttl=1535848121&ri=8192&rs=8192&setec=5b74e6568a07e9b942266b57d0c50797"
+    },
+    {
+      "fileId": "1000141840",
+      "name": "Escape Fix",
+      "version": "",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Escape Fix-60373-.rar",
+      "uploadedUnix": "1420663210",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/c0b151270483b6ebf0bd9fde1f4c547f6c4d65a2b6692cad86ed40455b6e6953/analysis/1420663262/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Escape%20Fix-60373-.rar?fid=1000141840&ttl=1535848121&ri=8192&rs=8192&setec=d0126ccf60d81d6c843cfc04ab149b1c"
+    }
+  ]
+}

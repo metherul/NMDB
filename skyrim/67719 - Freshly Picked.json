@@ -1,0 +1,32 @@
+{
+  "modId": 67719.0,
+  "modName": "Freshly Picked",
+  "summary": "Freshly Picked allows players to earn Alchemy XP by harvesting ingredients and catching critters.  Nirnroots (and other special flora) are also affected by the Green Thumb perk now.",
+  "descriptionHtml": "[heading]Features[/heading]\r<br />Freshly Picked allows players to earn Alchemy XP by harvesting ingredients and catching critters.  Nirnroots (and the items below) are also affected by the Green Thumb perk now.\r<br />\r<br />The XP gained is equivalent to the gold value of the item(s) harvested before the Green Thumb perk is applied.  If the item does not have a value, 1 XP is earned.\r<br />[heading]Supported Flora[/heading]\r<br />[list]\r<br />[*]Default Flora\r<br />[*]Default Trees\r<br />[*]Nirnroots\r<br />[*]Crimson Nirnroots\r<br />[*]Sleeping Tree Sap\r<br />[*]Eldergleam Sap\r<br />[*]Poison Blooms\r<br />[*]Canticle Bark \r<br />[*]Planter Flora\r<br />[*]Coin Purses*\r<br />[*]Piles of Gold*\r<br />[/list]\r<br />* XP disabled by default.\r<br />[heading]Supported Fauna**[/heading]\r<br />[list]\r<br />[*]Moths\r<br />[*]Butterflies\r<br />[*]Dragonflies\r<br />[*]Torchbugs\r<br />[*]Bees\r<br />[*]Catchable Fish\r<br />[*]Waterfall Salmon\r<br />[*]Dead waterfall salmon\r<br />[*]Wisp Cores\r<br />[/list]\r<br />** Green Thumb disabled by default.\r<br />[heading]Compatibiity[/heading]\r<br />[list]\r<br />[*][url=http://skse.silverlock.org]SKSE v1.7.1[/url] or later is required.\r<br />[*][url=http://www.nexusmods.com/skyrim/mods/3863]Sky UI[/url] is optional but necessary to change the mod&#39;s default settings.\r<br />[*]Dawnguard, Hearthfire, and Dragonborn are supported but not required.\r<br />[/list]\r<br />[heading]FAQ&#39;s[/heading]\r<br />[i]Why are coin purses and piles of gold considered flora?[/i]\r<br />\r<br />Code-wise, there is no difference between a coin purse and a Fly Amanita mushroom.  This is why the Green Thumb perk already applies to things like Egg Sacs and Charred Skeevers by default.  I just kept it consistent with Dragonborn&#39;s piles of gold.\r<br />\r<br />\r<br />[i]How do I know when the Green Thumb perk is being applied?[/i]\r<br />\r<br />The correct item count will always display when harvesting ingredients from flora and tree objects.  For everything else, a second &#34;item added&#34; message will appear to indicate the perk&#39;s effect has been applied.  This secondary message can be disabled in the Mod Configuration Menu if you so desire.\r<br />\r<br />\r<br />[i]Does this mod affect any tracked game stats?[/i]\r<br />\r<br />Yes.  The &#34;Ingredients Harvested&#34; game stat will increment by 1 every time you catch a critter or harvest special flora that is not already tracked.  (Flora and tree objects are tracked by default.  Nirnroots and crimson nirnroots increment the &#34;Nirnroots Found&#34; stat.  Moths and butterflies are covered under the &#34;Wings Plucked&#34; stat.)",
+  "categoryId": "73",
+  "version": "v1.0",
+  "author": "KainXavier",
+  "createdUnix": "1436566114",
+  "updatedUnix": "1436565870",
+  "containsAdultContent": false,
+  "uploadedBy": "KainXavier",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000167378",
+      "name": "Freshly Picked",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "20",
+      "fileName": "Freshly Picked v1.0-67719-v1-0.zip",
+      "uploadedUnix": "1436565870",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/88f574454db9d62f2334d916e2f54ab6c8cc8453972952311434ea567532d285/analysis/1436565903/",
+      "changelogHtml": " Initial release. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Freshly%20Picked%20v1.0-67719-v1-0.zip?fid=1000167378&ttl=1535856167&ri=8192&rs=8192&setec=144c316521dd1719aa8a35c15e72919e"
+    }
+  ]
+}

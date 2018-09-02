@@ -1,0 +1,32 @@
+{
+  "modId": 41864.0,
+  "modName": "SimpleNeeds",
+  "summary": "Don\\'t forget to eat!",
+  "descriptionHtml": "SimpleNeeds is a simple mod that does nothing more than tell the player when he is hungry or sleepy.  No DLC is required, nor is SKSE.\r\n\r\nA simple message appears in the corner of the screen: \\\"You are hungry.\\\"  Eating any food item (which includes ale, mead, etc) sates the Dovahkiin\\'s appetite for six hours, until the next meal.  There is no advantage to eating more than one food item, and there is no penalty for ignoring your hunger.  You will also be hungry one hour after you wake up, regardless of how long it\\'s been since you ate.\r\n\r\nThe player gets sleepy after sixteen hours: a message appears in the corner of the screen saying \\\"You are sleepy.\\\"  There is no advantage to sleeping longer than eight hours, nor any penalty for sleeping less; a one hour nap is as good as a full night\\'s sleep.  Not sleeping at all does not result in any penalty, either.\r\n\r\nOf course, if the Dovahkiin is both hungry AND sleepy, the message says \\\"You are hungry and sleepy.\\\"  Go figure.\r\n\r\nThis mod was inspired by Imp\\'s More Complex Needs ( http://skyrim.nexusmods.com/mods/10639//? ), which struck me as amazingly ... complex.  Since I wanted immersion without making my life difficult, I decided to make something very, very simple.  Think of this mod as your mother, occasionally reminding you \\\"Don\\'t forget to eat!\\\"\r\n\r\nWhen you first start the mod, you should get a notice in the upper left corner of the screen, \\\"Simple Needs 1.0\\\".  The mod is designed to be removed cleanly; simply delete SimpleNeeds.esp.\r\n",
+  "categoryId": "78",
+  "version": "1.0",
+  "author": "Gizmologist",
+  "createdUnix": "1378691456",
+  "updatedUnix": "1378690590",
+  "containsAdultContent": false,
+  "uploadedBy": "gizmologist",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000053313",
+      "name": "SimpleNeeds",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "SimpleNeeds-41864-1-0.zip",
+      "uploadedUnix": "1378690590",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ee7fa7a24f5bb762c5ffa5172ecaca7a1c6779dbb643aa420da1aaf6f0e4cd6a/analysis/1407716117/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SimpleNeeds-41864-1-0.zip?fid=1000053313&ttl=1535822715&ri=8192&rs=8192&setec=b429c2cb8bc2ac18c40eb0337898a25e"
+    }
+  ]
+}

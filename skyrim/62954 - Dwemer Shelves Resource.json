@@ -1,0 +1,48 @@
+{
+  "modId": 62954.0,
+  "modName": "Dwemer Shelves Resource",
+  "summary": "Dwemer Shelves Modders Resource\r<br />\r<br />Static Meshes:\r<br />6 Vanilla Dwemer Shelves (feet removed)\r<br />2 Small Shelves (based on the dresser)\r<br />2 Cube Shelves\r<br />6 Simple Shelves with wall mounts\r<br />Container Mesh:\r<br />1 Dwemer Dresser (feet removed)",
+  "descriptionHtml": "[size=4]Dwemer Shelves Modder&#39;s Resource [/size] \r<br />\r<br />\r<br />[size=3]Contents:[/size]\r<br />\r<br />Static Meshes:\r<br />6 Vanilla Dwemer Shelves (feet removed)\r<br />2 Small Shelves (based on the dresser)\r<br />2 Cube Shelves\r<br />6 Simple Shelves with wall mounts\r<br />Container Mesh:\r<br />1 Dwemer Dresser (feet removed)\r<br />+\r<br />DwemerShelvesResource.esp with all items in a resource cell + shelves preconfigured to be used as bookshelves  (you can simply copy&paste the items into your own mod) \r<br />Remember if you use these in your own mod, you need to load your mod as active esp, and this esp as non-active. Then when you copy the \r<br />bookshelves to your mod cell, you need to rename them to something else to make them appear on your esp.                    \r<br />\r<br />[size=3]Version:[/size]\r<br />\r<br />1.2\r<br />-fixed distorted UV on dresser and small shelves\r<br />1.1 \r<br />-applied MOPP Collision Crash Fixer to all meshes to prevent a rare bug - please [u]update if you already downloaded V1.0[/u]\r<br />\r<br />\r<br />[size=3]Credits:[/size]\r<br />\r<br />Bethesda for the vanilla meshes\r<br />Elianora for the .esp, idea and screenshots\r<br />gunslinger6792 for the idea\r<br />\r<br />\r<br />[size=3]Tools used:[/size]\r<br />\r<br />Blender 2.49b\r<br />Niftools (NifSkope,Nif Scripts,PyFFI)\r<br />Chunkmerge\r<br />Chunkmerge MOPP Collision Crash Fixer\r<br />Creation Kit\r<br />\r<br />\r<br />[size=3]Permission:[/size]\r<br />\r<br />The meshes can be used in your own [u][b]Skyrim[/b][/u] mods as long as you give me proper credits.",
+  "categoryId": "82",
+  "version": "1.2",
+  "author": "Nostromo79",
+  "createdUnix": "1424551847",
+  "updatedUnix": "1424853917",
+  "containsAdultContent": false,
+  "uploadedBy": "Nostromo79",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000148524",
+      "name": "DwemerShelvesResource-1-1",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "922",
+      "fileName": "DwemerShelvesResource-62954-1-1.7z",
+      "uploadedUnix": "1424587251",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/5700685165075772412ba5377361c0f0f4422d6f98ba07586d6876799987bff6/analysis/1424587263/",
+      "changelogHtml": " -applied MOPP Collision Crash Fixer to all meshes to prevent a rare bug - please update if you already downloaded V1.0 <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DwemerShelvesResource-62954-1-1.7z?fid=1000148524&ttl=1535851631&ri=8192&rs=8192&setec=23db385d999fa766cbb9fed909615760"
+    },
+    {
+      "fileId": "1000149034",
+      "name": "DwemerShelvesResource-1-2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "920",
+      "fileName": "DwemerShelvesResource-1-2-62954-1-2.7z",
+      "uploadedUnix": "1424853917",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/611f5e51531e7f1a163c89352bf5d162fced9b42675872a62226cf50ba7187ee/analysis/1424853963/",
+      "changelogHtml": " -fixed distorted UV on dresser and small shelves <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DwemerShelvesResource-1-2-62954-1-2.7z?fid=1000149034&ttl=1535851632&ri=8192&rs=8192&setec=da5080a83297d47aea5d3f31c86a5cda"
+    }
+  ]
+}

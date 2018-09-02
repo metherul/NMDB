@@ -1,0 +1,48 @@
+{
+  "modId": 39917.0,
+  "modName": "ApachiiSkyHair Female NPC Overhaul",
+  "summary": "Replaces most(soon to be all) hair on the women of Skyrim. This even includes bandits, necromancers and others. I'm trying to replace all hair on ALL of the women in the game.",
+  "descriptionHtml": "UPDATE 11/21/2013 - I uploaded an optional file for people that don't want any changes for Housecarls and Aela. This way, you can use this mod and other mods that change said character.\r\n\r\nJust overwrite everything and you'll probably have to do this ...\r\n\r\nGoto ...\r\n\r\nmeshes/actors/character/FaceGenData/FaceGeom/Skyrim.esm\r\n\r\nAnd delete ...\r\n\r\n000A2C8E\r\n000A2C8F\r\n000A2C91\r\n0001A696\r\n\r\nThen goto ...\r\n\r\ntextures/actors/character/FaceGenData/FaceTint/Skyrim.esm\r\n\r\nAnd delete the same files, each have two of the same name, so delete both them and boom! \r\n\r\nUPDATE 8/23/2013 - I don't know if I should put hair on the Forsworn, or leave them as they are? Also, I'm gonna go through the characters in towns and cities again to see if there isn't people with the same haircut and such. Hopefully I can do this before Rome 2 comes out. :)\r\n\r\nUPDATE - Alright, now that I know you need both the meshes and textures folder, I've included them into the mod. Hopefully that gets rid of the gray face bug. Sorry about all the mix up. Derp. \r\n\r\nFirst things first, I got the idea from Spewed who created the lovely ApachiiSkyHair NPC Overhaul (http://skyrim.nexusmods.com/mods/15411/). I didn't, however, just download his mod and replaced the hairs that I didn't like. I started this from scratch(which isn't hard, but time consuming) and really only wanted the women of Skyrim to get the new hair. Although, I did favor some hairstyles than most, which means I left the ones from Apachii's(http://skyrim.nexusmods.com/mods/10168/) mod(like the dreadlocks and the hair touches heaven styles out). I've tried to keep most towns/farms/cities and such with women a mixture of different hairstyles. Although, if you find any places that have the same hair with all the women .. I'm sorry. Please comment and I'll fix it.  This gives new hair to almost all women(still working on the mod but got a ton of them covered) including Bandits, Nercomancers, and so forth. I'm gonna try and get all the women in Skyrim with new hairstyles.\r\n\r\n[b]Required Mods -[/b]\r\nApachiiSkyHair http://skyrim.nexusmods.com/mods/10168/\r\nThis is the only mod you need. Anything else is up to you. However, if you have any mods that change some character in Skyrim, all you have to do is download TESEdit(http://skyrim.nexusmods.com/mods/25859/) and look through my mod for the name of the character and remove her. That way, you can have different character mods and this one at the same time!\r\n\r\nAnyways, a big thanks to Apachii who created an awesome mod and without it, none of this would be possible. If you want to endorse my mod, I recommend you go to Apachii and endorse that one instead. I just threw the hair on the gals.\r\n\r\nAlso, please tell me if you get the gray face bug. I'll see what I can do. Hopefully it doesn't show up. *crosses fingers*\r\n\r\nOH! I also don't know if you need Hearthfire for this mod. You might, you might not. I only have that DLC and I might have changed the hairs on some characters in it. Again, if so, and you don't have Hearthfire, just open TESEdit and see if anything is messed up in the file.\r\n\r\n\r\n\r\n",
+  "categoryId": "79",
+  "version": "2.0",
+  "author": "frostsmith",
+  "createdUnix": "1375978246",
+  "updatedUnix": "1385012033",
+  "containsAdultContent": false,
+  "uploadedBy": "frostsmith",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000045333",
+      "name": "npchairoverhaul",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "132473",
+      "fileName": "npchairoverhaul-39917-2-0.rar",
+      "uploadedUnix": "1375992697",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c127759fc69e8c0be5ac1cc35dc4fa1649373b6daf7d72d93676a7245f37b4eb/analysis/1407674753/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/npchairoverhaul-39917-2-0.rar?fid=1000045333&ttl=1535820391&ri=8192&rs=8192&setec=78dcdc1a581f83d6c57db378179c342b"
+    },
+    {
+      "fileId": "1000081259",
+      "name": "npchairoverhaulnohc",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "129358",
+      "fileName": "npchairoverhaulnohc-39917-1.rar",
+      "uploadedUnix": "1385012033",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/889dae271344e70e88fa251d603ef04d60f31f392743b7df6ad1ffecffb7caf9/analysis/1407801485/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/npchairoverhaulnohc-39917-1.rar?fid=1000081259&ttl=1535820391&ri=8192&rs=8192&setec=1c181662b5042a1841d950f7431ad947"
+    }
+  ]
+}

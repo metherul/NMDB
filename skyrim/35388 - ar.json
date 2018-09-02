@@ -1,0 +1,32 @@
+{
+  "modId": 35388.0,
+  "modName": "ar",
+  "summary": "Une longue quête pour un katana dans un univers japonisant et \\\"fantaisiste\\\".\r\nDojo can be used as player house but quest dialogues are in french.",
+  "descriptionHtml": "Musamara Tadaoki, le célèbre facteur de sabres d’Akavir avait dit-on pour habitude, afin d’éprouver ses lames nouvellement forgées, de les jeter, l’automne venu, dans le méandre d’un ruisseau tranquille. Seules étaient dignes à ses yeux d’être montées en sabres celles qui découpaient les feuilles lentement portées par le courant. Pour une lame et une seule il fit pourtant un jour une exception à sa règle. En effet, tandis que les feuilles mortes dérivaient vers les autres lames forgées la même année, certaines se faisant découper, d’autres se plaquant sur des tranchants qu’elles destinaient ainsi à la refonte, elles semblaient éviter cette lame-ci, la contournant de loin comme si elles étaient portées par une volonté propre, ou par une épouvante au-delà même de la volonté. Une fois montée en sabre cette lame prit donc tout naturellement le nom de ruisseau d’automne et, en dépit de son statut immédiatement légendaire, elle restât longtemps aux mains de son créateur, la plupart des clients de Musumara, tout autant impressionnés par sa couleur sombre inhabituelle que par son histoire, la soupçonnant d’être maudite. Enfin elle advint à un jeune sabreur du nom de Yoshimitsu Takezo, futur maître d’arme du shogun et fondateur du style et de l’école portant son nom, qui la transmit à son fils ainé. Puis sa trace se perd dans les montagnes de Bordeciel, où le grand maître avait choisi de s’installer dans ses vieux jours… \r\nAcquisition de la quête : Sur les hauteurs de Fort Amol trouvez un lieu dit « Dojo oublié ». Une fois entrés adressez-vous au spectre qui se trouve dans un renfoncement sur votre gauche. N’oubliez pas d’activer les sous-titres in game : Echap/Paramètres/Affichage/Sous-titres Dialogues (en bas de la liste)\r\nInstallation : Copiez l’intégralité des éléments du mod, à l’exception du dossier intitulé correctifs (si vous le faites ça n’est pas grave c’est juste que ça ne sert à rien) dans votre répertoire skyrim/data. Je déconseille pour ma part l’installation avec NMM.\r\nDésinstallation : Supprimez l’intégralité des éléments du mod de votre répertoire Skyrim data, à savoir : dojotest.esp ; dojotest.SEQ et, dans le sous répertoire Meshes : « quetem », dans le sous répertoire Textures : « quete » et « oblivionarchi ».     \r\nLes problèmes que vous êtes susceptibles de rencontrer et leurs solutions.\r\nLes dialogues ne se déclenchent pas. Lorsque je m’adresse à un personnage rien ne se passe (Si en revanche vous voyez s’afficher votre réplique mais pas la réponse c’est que vous n’avez pas activé les sous-titres, voir ci-dessus). Solution : Faites une sauvegarde de votre partie. Sortez. Ouvrez le dossier « correctifs » contenu dans les éléments du mod, copiez le fichier dojotest.esp qui s’y trouve et collez le dans votre répertoire data. Acceptez lorsqu’une fenêtre vous demande si vous voulez copier et remplacer le fichier du même nom qui s’y trouve. Relancez Skyrim et reprenez la même sauvegarde (important) qui doit déjà avoir « vue » le mod. Attention, ne pas utiliser la version de l’esp contenue dans le dossier « correctifs » lors de la première installation. Sinon ça ne marchera plus.\r\nCertains dialogues sont passés trop vite, je n’ai pas eu le temps de les lire. Solution : Refaites les passer une seconde fois.\r\nEnnemis pacifistes. Quand je passe à côté d’un ennemi il ne m’attaque pas mais me salue et me demande si ça va bien. Bug rare a priori lié à une certaine configuration du personnage interprété par le joueur. Là je n’ai pas vraiment de solution. Si vous vous trouvez dans ce cas et que vous voulez la baston adressez leur la parole, donnez leur un coup, jetez leur un sort… toute stimulation directe les ramène instantanément à de « meilleurs sentiments ».\r\nJ’ai tué « Bob » mais je ne parviens pas à viser son corps pour ouvrir son inventaire et lui prendre l’herbe sacrée. Solution : Pour des raisons compliquées, et pas très intéressantes, le corps physique de Bob se trouve en léger décalage (à gauche et vers l’arrière) de son corps visible. Cherchez dans le vide autour de son corps visible. Le même problème, mais dans une bien moindre mesure, peut se poser avec Mr patate et R2D2.\r\nAprès avoir achevé la quête, lorsque je reviens à l’intérieur du dojo, il y a de l’herbe qui flotte à mi hauteur du sol au plafond. Solution : Ouvrez la console avec : ² tapez les lettre tg puis entrée. Refermez la console. \r\n",
+  "categoryId": "35",
+  "version": "111",
+  "author": "Leucippe",
+  "createdUnix": "1367238626",
+  "updatedUnix": "1367238137",
+  "containsAdultContent": false,
+  "uploadedBy": "leucippe",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000027066",
+      "name": "akr",
+      "version": "0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "22272",
+      "fileName": "akr-35388-0.7z",
+      "uploadedUnix": "1367238137",
+      "modVersion": "0",
+      "virusScanUrl": "https://www.virustotal.com/file/64c8a0d572df241e65ac29f1bb3ff209069bdbbef1713874ef5c28fdc3de9e21/analysis/1407546919/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/akr-35388-0.7z?fid=1000027066&ttl=1535813900&ri=8192&rs=8192&setec=3c6c495929fe911c6e212a357af00925"
+    }
+  ]
+}

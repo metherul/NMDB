@@ -1,0 +1,32 @@
+{
+  "modId": 6763.0,
+  "modName": "Alternate Lydia with auburn hair",
+  "summary": "Alternate Lydia appearance to include auburn hair, alternate hair styling, brow, eye color. In general a different and more pleasant Lydia.",
+  "descriptionHtml": "Here\\'s an NPC edit of Lydia - giving the following adjustments:\r\n\r\n- Auburn hair\r\n- Alternate hair style\r\n- Changed her voice and mood to be more pleasant\r\n- Made her essential NPC\r\n- Marriage-able\r\n- and other stat changes\r\n\r\nWhat\\'s included:\r\n  HousecarlWhiterun.esp\r\n  meshes\r\n\r\nNOTE:  NPC Editor created the meshes folder along with the esp file, however whenever I use it .. nothing happens.   So if you are having problem seeing the change, try just the esp file (don\\'t include the meshes folder) - that worked for me.   \r\n\r\n02/06/12 UPDATE:  Please copy and use the included meshes or your Lydia skin complexion will be mismatch with her body (dark grayish).\r\n\r\nInstallation:\r\nJust copy the HousecarlWhiterum.esp file in the Data directory, enable the HousecarlWhiterun.esp from the \\'Data Files\\' menu option when you launch Skyrim with Skyrimlaucher.exe.   Or add HousecarlWhiterun.esp entry into the plugin.txt.    Please Google if you have problem with the provided procedure - I\\'m not going to explain in detail when there are tons of resource online describing this.\r\n\r\nTo Marry Lydia\r\n----------------------\r\nMake sure you have the Amulet of Mara and you gone through the dialog wrt Mara from Maramal in Riften.   Now to enable marriage for Lydia do the following.. \r\n\r\nGo into console mode (press the ` key), and enter the following commands \r\n\r\nprid a2c94 \r\naddfac 19809 1 \r\naddfac 19809 1 \r\n\r\nPress the ` key again to exit the console mode ... now Lydia should have the extra dialog for marriage.   NOTE: I found out that you need to enter \\'addfac\\' twice (at least for me) to get it to work.   Oh, this only works for PC version. \r\n\r\nEnjoy.\r\n\r\nKnow issues\r\n----------------\r\nThis mod may conflict with other Lydia mods like Lydia Exchange Armor mod - known to disable the armor exchange and default her back to her steel armor; and Undress Lydia mod.  With the undress mod (if you removed her default armor),  Lydia will show up at the wedding in her birthday suit.  Don\\'t worry though this is remedied once you have her following you again - you will need to \\'trade something\\' with her to get her to put back her armor.  Don\\'t expect it to be automatic.\r\n\r\n=== Credits ===\r\nTool used:\r\n   NPC Editor - http://www.skyrimnexus.com/downloads/file.php?id=4554\r\n\r\nMods you see in the image:\r\n   Fiona Armor - http://www.skyrimnexus.com/downloads/file.php?id=6412\r\n   Better Female by Bella - http://www.skyrimnexus.com/downloads/file.php?id=2812\r\n   Calientes Female Body Mod Big Bottom Edition - http://www.skyrimnexus.com/downloads/file.php?id=2666\r\n   Tattoo is by - http://www.skyrimnexus.com/downloads/file.php?id=4238#content\r\n\r\nYou don\\'t need any of these mods.  However if you want to have Lydia look pretty \\'Better Female by Bella\\' is what I use.",
+  "categoryId": "33",
+  "version": "0.1",
+  "author": "me",
+  "createdUnix": "1327205082",
+  "updatedUnix": "1327205273",
+  "containsAdultContent": false,
+  "uploadedBy": "rounin3",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "21915",
+      "name": "Auburn Lydia",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "123",
+      "fileName": "Auburn Lydia-6763.zip",
+      "uploadedUnix": "1327205273",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7086fd7dc3af2451ecbec3ab44c2acab56f453708d7ea5a7c8d87b82eb979949/analysis/1406629143/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Auburn%20Lydia-6763.zip?fid=21915&ttl=1535764395&ri=8192&rs=8192&setec=ea861c6afb90a4883581d184285338c7"
+    }
+  ]
+}

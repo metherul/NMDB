@@ -1,0 +1,32 @@
+{
+  "modId": 6508.0,
+  "modName": "First Person Camera Fix",
+  "summary": "Fixes the camera height in first person view",
+  "descriptionHtml": "Name: First Person Fix\r\nVersion: 1.0\r\nDate: 1/18/2012\r\nCategory: Miscellaneous\r\nAuthor(s): SoberBarn\r\n\r\nDescription\r\n===========\r\nEver get sick of playing a Nord or Orc and looking at the middle of other races\\' chests? Me too, so I made this mod just for you. This was an easy fix and I was happy to do it for all of you who may not have known how to do this or even know it was possible.\r\n\r\n\r\nDetails\r\n=======\r\nThis mod was calibrated using a Kajhiit set at a scale of 1.04, though I\\'m pretty sure that is the height of a standard Nord or Orc. That being said this perfect for playing a Cathay-raht Kajhiit. Enjoy.\r\n\r\nAlso, in order for third and first person views to line up, insert this line into the bottom of your Skyrim.ini\r\n\r\n[Camera]\r\nfOverShoulderCombatPosZ=7.5000\r\nfOverShoulderPosZ=7.5000\r\n\r\nIf this proves to be too difficult, I can add another file to do it for you.\r\n\r\nInstall\r\n=======\r\nJust unzip the \\\"meshes\\\" folder into your \\\"Skyrim/Data\\\" directory.\r\n\r\nUninstall\r\n=========\r\nWhy?\r\n\r\nWell if you insist just delete \\\"skeleton.nif\\\" from \\\"Meshes/Actors/Character/_1stPerson\\\"\r\n\r\nChange Log\r\n=======\r\n1.0 - Initial release.\r\n\r\nIncompatibility\r\n===============\r\nAnything that also alters \\\"skeleton.nif\\\"\r\n\r\nKnown Issues or Bugs\r\n====================\r\nNone yet, however let me know if you find something.\r\n\r\n\r\nContact\r\n=======\r\nSoberBarn, here on the Nexus\r\n\r\n\r\nCredits\r\n=======\r\nThanks to SaidenStorm who laid out how to do this on the forum.\r\nThanks to Bethesda for creating Oblivion.\r\nThanks to SkyrimNexus.com for the a one-stop-shop resource for authors and players.\r\nThanks to LHammonds for the Readme Generator this file was based on.\r\nThanks to God for creating us all.\r\n\r\nTools Used\r\n==========\r\n7-Zip - http://www.tesnexus.com/downloads/file.php?id=15579\r\nNIFSkope - http://niftools.sourceforge.net/wiki/NifSkope\r\nReadme Generator - http://HammondsLegacy.com/obmm/tools_readme_generator1.asp\r\n\r\nLicensing/Legal\r\n===============\r\nYou can do whatever you want with this mod but don\\'t complain to me if it \r\ndoesn\\'t work or your PC blows up.",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "SoberBarn",
+  "createdUnix": "1326933404",
+  "updatedUnix": "1326933460",
+  "containsAdultContent": false,
+  "uploadedBy": "SoberBarn",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "21027",
+      "name": "First Person Camera Fix",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "First Person Camera Fix-6508-1.7z",
+      "uploadedUnix": "1326933460",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/b5c2d30b4bc64b26e5c3a86938459007236160e129f8cee42fecd3c3439cd538/analysis/1406622184/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/First%20Person%20Camera%20Fix-6508-1.7z?fid=21027&ttl=1535763964&ri=8192&rs=8192&setec=de2c87174fcf2710873df298c9877996"
+    }
+  ]
+}

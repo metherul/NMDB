@@ -1,0 +1,32 @@
+{
+  "modId": 56887.0,
+  "modName": "Fortify Potions Overhaul",
+  "summary": "Now, the potions that fortify health, stamina and magicka no longer increase these stats. ",
+  "descriptionHtml": "This mod was requested by lolteabag101.\r<br />\r<br />It is a simple mod that changes the effect of the potions that fortify health, stamina and magicka. They now only increase the maximum amount of points you can have, rather than also increasing the current amount you have.    \r<br />\r<br />When using the potions, the character will sound as if he is hurt, because he actually ís. I added an extra effect to the potions, and that effect will decrease the amount of health, stamina or magica with the same amount it was increased. \r<br />I also changed the duration of the effect for health in some cases, so that the health-bar would be filled by the time the effect of the potion wears off.\r<br />\r<br />With health, you might notice that sometimes the amount of health you had actually does increase. This is because the game activates the &#39;drain health&#39; effect straight away, and taking 100 health points when you have lost some of your life might cause the character to die from drinking the potion. This is not what we want, and so it takes as much as it can, in steps of 20.\r<br />I don&#39;t think this will cause a problem, though, since you will not regularly encounter these powerful potions, especially when you are a low-leveled character.",
+  "categoryId": "94",
+  "version": "1.00",
+  "author": "ErianDragonborn",
+  "createdUnix": "1407671332",
+  "updatedUnix": "1407671327",
+  "containsAdultContent": false,
+  "uploadedBy": "ErianDragonborn",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000121306",
+      "name": "Fortify Potions",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Fortify Potions-56887-1-00.zip",
+      "uploadedUnix": "1407671327",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/c6d7ea3bb4dae6c0d6e4df9e81de4b9288a4e468f4155e2c1902feebb0a65041/analysis/1407671342/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fortify%20Potions-56887-1-00.zip?fid=1000121306&ttl=1535842498&ri=8192&rs=8192&setec=a2153d027855d0958105467c997e0954"
+    }
+  ]
+}

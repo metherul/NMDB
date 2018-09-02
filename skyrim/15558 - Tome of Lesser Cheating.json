@@ -1,0 +1,32 @@
+{
+  "modId": 15558.0,
+  "modName": "Tome of Lesser Cheating",
+  "summary": "Easily add ultimate health, magicka or stamina potions, or add more carryweight using this tome. Can also enable or disable godmode. Just a few quick cheats I frequently use.",
+  "descriptionHtml": "[u]Description[/u]\r\n\r\nThis mod adds a book to the player\\'s inventory called \\\"The Tome of Lesser Cheating\\\". Activating it opens up a menu that lets you quickly acquire some potions of ultimate healing, magicka, or stamina.\r\n\r\nThere\\'s also two non-item cheats for (a) increasing carry weight and (b) enabling/disabling \\\"god mode\\\".\r\n\r\nThis was mostly just a test project for modding using the creation kit. I use these cheats quite a bit and sometimes I don\\'t want to or can\\'t use or can\\'t remember common console commands (and forget that there\\'s a \\\"help\\\" :P). Maybe someone else will find it useful too.\r\n\r\n[u] Installation [/u]\r\n\r\nExtract the 7zip file and put \\\"Tome Of Lesser Cheating.esp\\\" into your Data folder.\r\n\r\n[u] How it was made [/u]\r\n\r\nIt\\'s nothing fancy. It\\'s composed of:\r\n-an in-game book\r\n-a Papyrus script that runs when you open the book that throws up menus, from which you click what items or effects you\\'d like.\r\n-a dummy quest that runs once.\r\n-the script attached to the dummy quest which adds the item to the player\\'s inventory once the quest is initialized\r\n\r\n[u] Source code [/u]\r\n\r\nAvailable on request.\r\nAlso, you can easily see the scripts using the creation kit, and what specific quest and book were modified, but I guess details on what properties were modified in those are difficult to see via the creation kit.",
+  "categoryId": "40",
+  "version": "",
+  "author": "archerkb",
+  "createdUnix": "1334942510",
+  "updatedUnix": "1334942878",
+  "containsAdultContent": false,
+  "uploadedBy": "archerkb",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "54855",
+      "name": "Tome of lesser cheating",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Tome of lesser cheating-15558-1-0.7z",
+      "uploadedUnix": "1334942878",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f6433c99bd8a7455adc999bf7d6f3ad432b63477ec441b6e99f3c1100cc306ea/analysis/1406825356/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Tome%20of%20lesser%20cheating-15558-1-0.7z?fid=54855&ttl=1535780075&ri=8192&rs=8192&setec=57ae1a2bbccb863c930c0b82746b1655"
+    }
+  ]
+}

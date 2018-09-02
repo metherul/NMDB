@@ -1,0 +1,48 @@
+{
+  "modId": 40492.0,
+  "modName": "Black Books work in Skyrim too",
+  "summary": "Makes the Black Books from Dragonborn work in Skyrim as well.",
+  "descriptionHtml": "I find it strange that you can only reach Apocrypha from Solstheim.  This mod changes that, so the Black Books work from Skyrim as well.  Why would you want that?  [s]STORAGE.  There are many containers in Apocrypha, and I believe they are all safe.[/s]  Access to the Dragonborn perks without having to travel to Soltheim first, as well.\r\n\r\nThis mod replaces a single script, DLC2BookDungeonControllerScript.  All I did was comment out a few of the lines that check to see if you\\'re in Apocrypha or Solstheim, so now it is assumed that if you\\'re not in Apocrypha, then you\\'re good to go.\r\n\r\nINSTALLATION:  Because this is just a change of a script, NO ESP IS REQUIRED.  Just unzip and drop the PEX file in your skyrim/data/scripts folder and you\\'re ready to go.  The other file is the source code, showing the changes I made (the lines that start with double-semi-colons), and you can just ignore it.\r\n\r\nOr just use NMM. \r\n\r\nUNINSTALLATION:  Delete the script from your skyrim/data/scripts folder.\r\n\r\nREQUIREMENTS:  Dragonborn.\r\n\r\nRECOMMENDED: [url=http://skyrim.nexusmods.com/mods/25068//?]Placeable Statics[/url].  Apocrypha makes a pretty interesting player home.  Rather short on furniture and equipment, but all that can be added with Placeable Statics.  I\\'m sure Hermaeus Mora makes an exciting roommate, as well.\r\n\r\nBUGS: Report them as you find them!\r\n\r\nPICS: If you do make your player home on Apocrypha, please share some pics!  I\\'d love to see what chaos I\\'ve influcted on ol\\' Hermaeus.",
+  "categoryId": "85",
+  "version": "1",
+  "author": "Gizmologist",
+  "createdUnix": "1376751131",
+  "updatedUnix": "1376765943",
+  "containsAdultContent": false,
+  "uploadedBy": "gizmologist",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000047546",
+      "name": "Black Books Work Anywhere",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "Black Books Work Anywhere-40492-1-0.zip",
+      "uploadedUnix": "1376750653",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f23de818058274bf1d4ee6fd8f00272abfa26a2b04a2cbc5d2f7d8b1d7bbc556/analysis/1407685323/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Black%20Books%20Work%20Anywhere-40492-1-0.zip?fid=1000047546&ttl=1535821102&ri=8192&rs=8192&setec=f2e03590de88ae5a6c2508f0cd558c7a"
+    },
+    {
+      "fileId": "1000047593",
+      "name": "Black Books Work Anywhere NMM version",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "Black Books Work Anywhere NMM version-40492-1.zip",
+      "uploadedUnix": "1376765943",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/949494046bebdcdddf4eefdc610537f7dec0bfaefc98037ab1574750c19abc96/analysis/1407685503/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Black%20Books%20Work%20Anywhere%20NMM%20version-40492-1.zip?fid=1000047593&ttl=1535821103&ri=8192&rs=8192&setec=32c9013f41336e7ef126a0d1cc96b2a7"
+    }
+  ]
+}

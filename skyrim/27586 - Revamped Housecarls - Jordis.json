@@ -1,0 +1,32 @@
+{
+  "modId": 27586.0,
+  "modName": "Revamped Housecarls - Jordis",
+  "summary": "Changes the face of the Solitude Housecarl - Jordis the Sword Maiden to an alternative look that still stays lore-friendly (IMO). Minor changes are made to the character. More info in the mod description.",
+  "descriptionHtml": "Thanks for dropping by!\r\n\r\nMy reason for making this mod was to add to the thriving modding community but also present further lore-friendly alternatives, from which the individual mod users could choose from.\r\nThis is my first release of an actually working face mod. I really had little success in finding a proper guide, before I had to resort to improvising until it came to me how simple, yet completely obscured it was.\r\nI am happy to give pointers to anyone who might be in the same boat as I was.\r\n\r\nDetails\r\n------------------------------------------------------\r\n- Introduces a more lore-friendly alternative look for Jordis\r\n- Mod is made with vanilla resources\r\n- Changes her voice from FemaleNormal to FemaleSultry\r\n- Max level changed from 50 to 80\r\n- Magicka and Stamina now improve on level-up by +20 and +40 respectively\r\n- No further alterations have been performed\r\n\r\nInstallation\r\n------------------------------------------------------\r\nUse of NMM is recommended, but manual installation is possible as well.\r\n\r\nTo manually install, extract the mod anywhere, and then move the Data folder into your Skyrim directory. (Where the TESV.exe is). Merge the folders.\r\n\r\nUn-installation\r\n-----------------------------------------------------\r\nRemove as any other mod through NMM.\r\nIf installed manually, remove the JordisTheSwordMaiden By Zbox.esp from your data folder and remove both files in the ....\\\\Data\\\\textures\\\\actors\\\\character\\\\FaceGenData\\\\FaceTint\\\\Skyrim.esm folder that are named 000a2c8f.dds and 000a2c8f.tga.\r\n\r\nBugs\r\n-----------------------------------------------------\r\nNone reported yet.\r\n\r\nConflicts\r\n----------------------------------------------------\r\nThis mod will obviously conflict with any other mod that alters Jordis\\' appearance.\r\nAdditionally it will conflict with whatever leftover .dds, .tga, .bsa, .bsl and .esp files from a previously manually installed mod that alters Jordis in any way. To remedy this, it is strongly suggested to revisit that mod\\'s website and find information on how to properly uninstall it\\'s contents.\r\n\r\nLoad order\r\n----------------------------------------------------\r\nAs a general rule of thumb, all big mods that have large alterations to Skyrim are recommended to be loaded at the top, while the smaller ones, like this one is best to be loaded last. For better placement of larger mods, use Boss to set the load order and then manually place the smaller mods at the bottom if it wasn\\'t done so by Boss.\r\n\r\nMods used\r\n----------------------------------------------------\r\nNone, however it should be giving varying results to different normal maps and textures from different mods, for better or for worse. The reason to this is because the resources in making this mod are completely vanilla.\r\n\r\nIf you wish to have the same results as the screenshots, please use the following mods:\r\nLiFE - Lith Face Enhancement by LithiumFlower (http://skyrim.nexusmods.com/mods/26354)\r\nThe Eyes Of Beauty by Gabriel Mailhot (http://skyrim.nexusmods.com/mods/13722)\r\n\r\nYou can try with other texture, mesh and normal map replacers, since the mod is completely based on the vanilla resources.",
+  "categoryId": "66",
+  "version": "1.0",
+  "author": "Zbox",
+  "createdUnix": "1354277786",
+  "updatedUnix": "1354277959",
+  "containsAdultContent": false,
+  "uploadedBy": "Zbox",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "102334",
+      "name": "JordisTheSwordMaiden By Zbox",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "38",
+      "fileName": "JordisTheSwordMaiden By Zbox-27586-1-0.7z",
+      "uploadedUnix": "1354277959",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7c5bc3ab5fe0e9b9cbeae3888a676728baea6dc719dab7c311903507dc7513a9/analysis/1407285134/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/JordisTheSwordMaiden%20By%20Zbox-27586-1-0.7z?fid=102334&ttl=1535800414&ri=8192&rs=8192&setec=01683ebc8d8eaebd340d036265930c57"
+    }
+  ]
+}

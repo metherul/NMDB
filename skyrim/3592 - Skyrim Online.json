@@ -1,0 +1,32 @@
+{
+  "modId": 3592.0,
+  "modName": "Skyrim Online",
+  "summary": "Skyrim Online turns your single experience into an online experience, play with your friends, chat with people worldwide, trade with other players...\r\n\r\nCurrently in the alpha stage you can see other players and animated, you can also chat with everybody.\r\n\r\nOffcia",
+  "descriptionHtml": "[center][b]Skyrim Online[/b]\r\n[i](Alpha)[/i]\r\n[/center]\r\n\tSkyrim online turns your single player experience into an MMO experience. \tSkyrim online will allow you to player with your friends in both a PvP and PvE \tenvironment within the Skyrim universe.\r\n\r\nWatch a demo : http://www.youtube.com/watch?v=vAALSMnkt9w\r\n\r\n[u]Installation of Skyrim Online:[/u]\r\n\r\nJust download the file, follow the installation process and just launch SkyrimOnline.exe !\r\nFor people using ENB series or other addons, create a file called SkyrimOnlineProxy.def write \\\"enbseries.dll\\\" without the quotes.\r\nAnd save the ENB series dll in your Skyrim folder with the same name.\r\nSo you should end up with :\r\n\r\nd3d9.dll (SkyrimOnline\\'s)\r\nenbseries.dll (ENB\\'s)\r\nSkyrimOnlineProxy.def (To proxy SkyrimOnline to ENB)\r\n\r\n[size=\\\"5\\\"]Uninstalling Skyrim Online:[/size]\r\n\r\nDelete SkyrimOnline.asi, SkyrimOnlineProxy.dll, enbpatch.ini, d3d9.dll\r\n\r\n[u]Basic FAQ:[/u]\r\n\r\nWhat is currently implemented:\r\n- Other players in the world are displayed as prisonners with the player\\'s armor.\r\n- Weather and Time are sync\\'d.\r\n- General Chat. Pop in and say hello.\r\n- Region based sync, you only see people in your area\r\n- Basic animations (walking and running)\r\n- Gender sync\r\n- Face morph sync\r\n\r\nWhat is not yet implemented:\r\n- Coop (This includes questing etc)\r\n- Monster Syncronization (Another player will not see the monsters that you see.)\r\n- Party System\r\n- Trading\r\n- Private Chat\r\n- Dueling/PvP\r\n\r\n[u]Basic Q&A:[/u]\r\n\t\r\n\tQ: How do I chat?\r\n\tA: To switch between GUI and play mode, press f3, then click on the chat box at the bottom left of the screen. Press f3 to disable GUI mode and continue playing.\r\n----------------------------------------------------------------------------------------------------------------------------\r\n\tQ: Skyrim is asking for xyz.dll. What am I missing?\r\n\tA: Update DirectX and Visual C++ Redistributable. If that doesn\\'t fix the errors, post a topic on the forum at: http://skyrim-online.com/?page_id=41\r\n----------------------------------------------------------------------------------------------------------------------------\r\n\tQ: I am getting various xyz.asi errors!\r\n\tA: Verify the DragonScript is properly installed.\r\n----------------------------------------------------------------------------------------------------------------------------\r\n\tQ: What are the chat commands from Skyrim Online?\r\n\tA: /total displays the number of players logged in. /count displays how many \tplayer are on your particular shard (server).\r\n----------------------------------------------------------------------------------------------------------------------------\r\n\tQ: When I start a new character, the imperial/stormcloak don\\'t follow me into the keep after the dragon attack! \r\n\tA: This is a very big and complicated mod. This is a known bug. Make a new file on single player, then log in. As usual.. the devs are working on it. =)\r\n----------------------------------------------------------------------------------------------------------------------------\r\n\tQ: How do I switch out of multiplayer mode?\r\n\tA: Press escape. Exit game. Launch Skyrim.exe.\r\n----------------------------------------------------------------------------------------------------------------------------\r\n\tQ: Help! XYZ mod crashes the game!\r\n\tA: Skyrim online can be picky about certain mods. Uninstall the mod.\r\n\r\n\t[u]Bug Reporting:[/u]\r\n\tPlease visit: http://skyrim.ophelia-core.com/ to report bugs. Pop in and say hello on the forums while your there!\r\n----------------------------------------------------------------------------------------------------------------------------\r\n\r\nSources : https://github.com/yamashi/SkyrimOnline\r\n\t",
+  "categoryId": "78",
+  "version": "1",
+  "author": "AwpSoLeet",
+  "createdUnix": "1323809835",
+  "updatedUnix": "1352318207",
+  "containsAdultContent": false,
+  "uploadedBy": "awpsoleet",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "97986",
+      "name": "Skyrim Online - Version 12 11 07",
+      "version": "121107",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1665",
+      "fileName": "Skyrim Online - Version 12 11 07-3592-121107.rar",
+      "uploadedUnix": "1352318207",
+      "modVersion": "121107",
+      "virusScanUrl": "https://www.virustotal.com/file/190d86f170cafc1916b19e8a7a562935ea30de2b92f78a76a1ba0f08941bb59c/analysis/1407253391/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Online%20-%20Version%2012%2011%2007-3592-121107.rar?fid=97986&ttl=1535758765&ri=8192&rs=8192&setec=0d7f931ccdf97e23266e4ef738c88ab2"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 7081.0,
+  "modName": "Skyrim SDR",
+  "summary": "This mod removes HDR effects and bloom from Skyrim.",
+  "descriptionHtml": "[color=red][b]This mod has been updated to support all the DLCs by Niklass.[/b][/color] \r<br />\r<br />[b]Please use the updated version at[/b] [url=http://www.nexusmods.com/skyrim/mods/30805/]http://www.nexusmods.com/skyrim/mods/30805/[/url]\r<br />\r<br />-----------------------------------------------------------------------------------------------------------------------\r<br />\r<br />Name: Skyrim SDR\r<br />Version: 1.0\r<br />Date: 1/26/2012\r<br />Category: Miscellaneous\r<br />Author(s): Slaphead\r<br />Homepage: http://forums.bethsoft.com/topic/1338516-relz-skyrim-sdr/\r<br />\r<br />Description\r<br />===========\r<br />This mod disables HDR effects and bloom from Skyrim.\r<br />\r<br />\r<br />Details\r<br />=======\r<br />I&#39;m one of the people who are annoyed by the &#34;eye adjustment&#34; HDR effect, and find that Bloom makes the image &#34;dreamlike&#34; and takes you out of the game. Of course you might not agree with the above, but in that case this mod isn&#39;t for you.\r<br />Anyway, the technical details:\r<br />\r<br />The settings for HDR and Bloom in SkyrimPrefs.ini don&#39;t actually do anything. The bloom and HDR effects are baked in to the lighting model used by the game, into something called ImageSpaces. So, using the excellent documentation provided by Plutoman, I went through every imagespace individually and disabled the &#34;HDR&#34; eye adjustment effect and bloom in each one.\r<br />\r<br />The above has some side effects, which may or may not be to your liking:\r<br />\r<br />- The game will look darker overall, since the eye adjustment effect isn&#39;t there to make the image brighter at times.\r<br />- The visuals will have better contrast without bloom.\r<br />\r<br />\r<br />Install\r<br />=======\r<br />1. Uncompress and copy SkyrimSDR.esp file to (Skyrim folder)Data\r<br />2. Start Skyrim Launcher, click &#39;Data Files&#39;, place a checkmark beside the .esp file(s).\r<br />\r<br />Uninstall\r<br />=========\r<br />1. Delete SkyrimSDR.esp from your (Skyrim folder)Data-folder.\r<br />\r<br />\r<br />Incompatibility\r<br />===============\r<br />This mod is incompatible with any mod that changes the ImageSpaces used by the game. One example is the popular &#34;Realistic Lighting Without Post-Processing&#34; mod.\r<br />However, post-processing injectors should work fine, if you want to lose the HDR and still get SSAO, for example.\r<br />\r<br />\r<br />Known Issues or Bugs\r<br />====================\r<br />\r<br />--Night Eye stops working, and will blind you until you restart the game or exit a cell. The fix for this is in the works.\r<br />\r<br />--Generally, there&#39;s very little that could be bugged with this mod, since it only makes very minor changes. There&#39;s the risk that I might have missed an imagespace, but I&#39;ve not run into any during 100 hours or so of testing. Please do report any problems you might run into, however.\r<br />\r<br />\r<br />\r<br />Contact\r<br />=======\r<br />\r<br />You can find me on the official Elder Scrolls forums or SkyrimNexus as &#39;Slaphead&#39;\r<br />\r<br />\r<br />Credits\r<br />=======\r<br />\r<br />Thanks to Plutoman for his generous help and documentation.\r<br />\r<br />Tools Used\r<br />==========\r<br />TESsnip - http://www.tesnexus.com/downloads/file.php?id=2114\r<br />Readme Generator - http://HammondsLegacy.com/obmm/tools_readme_generator1.asp\r<br />\r<br />Licensing/Legal\r<br />===============\r<br />You can do whatever you want with this mod but all I ask in return is that\r<br />you give me credit if you distribute any part of this mod. I would also like\r<br />to know what mods are including my work.",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "Slaphead",
+  "createdUnix": "1327577755",
+  "updatedUnix": "1327577848",
+  "containsAdultContent": false,
+  "uploadedBy": "Slaphead",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "23136",
+      "name": "SkyrimSDR",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "SkyrimSDR-7081-1-0.7z",
+      "uploadedUnix": "1327577848",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5e99f176ec0b0c4ecf907e682b017ad5c841bb4551bef3d1b0838e3d9a2746c6/analysis/1406638448/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimSDR-7081-1-0.7z?fid=23136&ttl=1535764922&ri=8192&rs=8192&setec=435de6a75d1eef8ed2adceda31496a9e"
+    }
+  ]
+}

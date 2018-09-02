@@ -1,0 +1,48 @@
+{
+  "modId": 71162.0,
+  "modName": "Ahzidal&#39;s Armory",
+  "summary": "Adds a heavy, light and clothing version and variations of every one of Ahzidal&#39;s relics. ",
+  "descriptionHtml": "[b]Ahzidal&#39;s Armory [/b]is a small mod that adds variations of every one of six Ahzidal&#39;s relics. \r<br />\r<br />First of all, they can now be turned into Light or Clothing versions, since some of these items are perfect for (pure) mages. Secondly, I went a little bit further and created variations of each one. So you can now have Gauntlets of Waterwalking, Boots of Necromancy, Armour of Vision, etc. The main reasoning is this: since you have defeated Ahzidal, you should totally be able to use his enchanting genius to do that.  \r<br />\r<br />Furthermore, you can also turn them into rings, circlets or amulets. \r<br />\r<br />Every recipe appears in your crafting menu once the &#34;Unearthed&#34; quest is finished and only if you have corresponding relic in your inventory (that prevents all the recipes from showing up and cluttering your list, like in the pictures). Each item requires the relic (obviously) and either a piece of Jewellery or Ancient Nord Armour (if you want to shift the enchantment to a different piece) or a Corundum Ingot or Linen Wrap if you want to turn it into light or clothing version).\r<br />\r<br />And yes, each of these items count toward Ahzidal&#39;s Genius full armour bonus. Keep in mind that the game activates the bonus if and only if 4 relics are worn. \r<br />\r<br />[img]http://static-4.nexusmods.com/15/mods/110/images/71162-0-1446697766.jpg[/img]\r<br />\r<br />\r<br />But that&#39;s not all. In most of my previous playthroughs, I only used Ahzidal&#39;s armour when enchanting, because of the +10 Enchanting Bonus. Thus, I created Items of Genius.\r<br />\r<br />You can turn any four relics into one Genius item (this time only Ring, Necklace or Circlet), and they provide the same bonus as the full set. Since you cannot obviously wear both full set and item of genius, it is not overpowered, and saves you a lot of micro-managing.    \r<br />\r<br />\r<br />[img]http://static-4.nexusmods.com/15/mods/110/images/71162-1-1446697766.jpg[/img]\r<br />\r<br />[b]Example[/b]: you decide to create a Ring of Vision, and turn Gauntlets of Warding into Light version. You will need one gold ring and one Corundum Ingot to do so. Then you realise that neither of the remaining four items suit your character, so with one gold necklace you turn them into Amulet of Genius, which boosts your enchanting once worn.     \r<br />\r<br />Most importantly, any of these items can be crafted back. Regular items need a corresponding piece of Ancient nord Armor or Jewelry, and Genius items will need four of them, each for one you sacrificed. \r<br />\r<br />[b]Questions[/b]:\r<br />[size=2]\r<br />[/size][list]\r<br />[*][size=2]Where do I get Ancient Nord Armor?[url=http://www.uesp.net/wiki/Skyrim:Skyforge#Ancient_Nord_Armor][/url][/size]\r<br />[size=2][url=http://www.uesp.net/wiki/Skyrim:Skyforge#Ancient_Nord_Armor]UESP[/url] tells me that you can craft them if you completed Companions&#39; questline, or find them in Forelhost. However, I allowed myself to also put a lot of these items into the boss chest in Kolbjorn barrow. You will find the full set there, as well as linen wrap, rings, necklaces and circlets. If you have already finished this quest and do not want to go back on Solstheim, you can open console (~) and type in [b]setstage _AA_Kolbjorn_quest 20 [/b]. This will open that chest remotely, so you can grab these items.[/size][/list]\r<br />[b]Warning[/b]:\r<br />\r<br />Keep in mind that in order to suit everyone I had to create a crapton of crafting recipes, so it is possible that I might have messed up once or twice. Be sure to save before crafting, and if you find a bug, let me know.   \r<br />\r<br />Perkus Maximus users should also note that if you want to use Light Armor, you will have to edit your Armor.xml file in Patchus maximus (found in \r<br />&#92;SkyProc Patchers&#92;T3nd0_PatchusMaximus&#92;PMxml). That is because no one before has made Ahzidal&#39;s light armour, and upon patching it will become Heavy no matter what. \r<br />\r<br />You will have to substitute\r<br />\r<br />        &lt;binding&gt;\r<br />            &lt;identifier&gt;Ebony&lt;/identifier&gt; &lt;&#33;-- Draugr --&gt;\r<br />            &lt;substring&gt;Ahzidal&lt;/substring&gt;\r<br />        &lt;/binding&gt;\r<br />\r<br />with \r<br />\r<br />        &lt;binding&gt;\r<br />            &lt;identifier&gt;Ebony&lt;/identifier&gt; &lt;&#33;-- Draugr --&gt;\r<br />            &lt;substring&gt;Ahzidal&lt;/substring&gt;\r<br />        &lt;/binding&gt;\r<br />        &lt;binding&gt;\r<br />            &lt;identifier&gt;EbonyLight&lt;/identifier&gt; \r<br />            &lt;substring&gt;Ahzidal&#39;s Light&lt;/substring&gt;\r<br />        &lt;/binding&gt;        \r<br />        &lt;binding&gt;\r<br />            &lt;identifier&gt;EbonyLight&lt;/identifier&gt; \r<br />            &lt;substring&gt;Ahzidal&#39;s Cuirass&lt;/substring&gt;\r<br />        &lt;/binding&gt;\r<br />\r<br />And then re-run patchus. Be sure to keep copies of xmls and patchus, in case you mess up.\r<br />\r<br />And again, if you find any problems, let me know. \r<br />\r<br />[Heading][size=3]Translations [/size][/Heading]\r<br />The mod has been localised in TesVedit, translated in [url=http://www.nexusmods.com/skyrim/mods/29148/?]TesVTranslator[/url]; all of the Strings files are included in the archive. MCM is translatable as well.\r<br />Currently supported languages: [b]English[/b], [b]Polish[/b] [b]and Japanese (1.1 onwards, thanks to BowmoreLover)[/b]. Other languages use English as base. If you are expecting CTDs because of my mod and you are not playing any of the translated languages, contact me. If you would like to translate the mod, contact me, so I can credit you and include your strings in my mod&#33;\r<br />\r<br /> [img width=67,height=45]https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png[/img] [img width=67,height=45]https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/800px-Flag_of_Poland.svg.png[/img] [img width=67,height=45]https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/900px-Flag_of_Japan.svg.png[/img] ",
+  "categoryId": "54",
+  "version": "1.1",
+  "author": "piotrmil",
+  "createdUnix": "1446699404",
+  "updatedUnix": "1469811052",
+  "containsAdultContent": false,
+  "uploadedBy": "piotrmil",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000183807",
+      "name": "Ahzidal&#39;s Armory",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "956",
+      "fileName": "Ahzidal's Armory-71162-1-0.7z",
+      "uploadedUnix": "1446699384",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/830db5df22e335fcbd9fe639572bcc3fdb0f0ebc4abfb0e61cf9074a022290f7/analysis/1446699423/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ahzidal%27s%20Armory-71162-1-0.7z?fid=1000183807&ttl=1535859677&ri=8192&rs=8192&setec=4ddd2bfac944d4c721d81392bf3f1100"
+    },
+    {
+      "fileId": "1000214894",
+      "name": "Ahizdal&#39;s Armory",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "Ahizdal's Armory-71162-1-1.7z",
+      "uploadedUnix": "1469811052",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/b8116db483189d8c50c70889fe80b10364ff29b02cf03fc2cc62a7afb46c4747/analysis/1469811062/",
+      "changelogHtml": " A vew pieces of armor has wrong names. <br/> \n The esp is now open for translation <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ahizdal%27s%20Armory-71162-1-1.7z?fid=1000214894&ttl=1535859677&ri=8192&rs=8192&setec=9e6c22e3c54cd92c1566f1fa2f510bcb"
+    }
+  ]
+}

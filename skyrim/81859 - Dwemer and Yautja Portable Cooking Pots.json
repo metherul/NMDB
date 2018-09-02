@@ -1,0 +1,48 @@
+{
+  "modId": 81859.0,
+  "modName": "Dwemer and Yautja Portable Cooking Pots",
+  "summary": "Portable cookpots that can be deployed anywhere and consume no firewood.",
+  "descriptionHtml": "[color=#ffe599][b]For regular Skyrim, not the Special Edition. No DLC required.\r<br />[/b][/color]\r<br />Adds a portable, infinitely reusable cooking pot.  The cooking pot acts as a normal crafting station and can be used to cook food anywhere, without the need for a campfire or firewood.  (Please forgive the silly branch that the pot is propped up on; for animation reasons, the cookpot has to sit a few feet off the ground, so I had to stick SOMETHING under it so it wouldn&#39;t float in midair.)\r<br />\r<br />\r<br />[b][color=#ffe599][u]To get the cookpot[/u][/color][/b]\r<br />Depending on which version of the mod you&#39;re using, open the console (~) and type either...\r<br />   [color=#00ff00]help &#34;yautja cooking pot&#34;[/color]\r<br />or\r<br />   [color=#00ff00]help &#34;dwemer cooking pot&#34;[/color]\r<br />The console will display codes for two items: a MISC item, and a FURN item.  [color=#ff0000][b]You want the MISC code[/b][/color]: type...\r<br />   [color=#00ff00]player.additem &lt;code&gt; 1[/color]\r<br />Since the cookpot is reusable, you&#39;ll only have to do this once.  See screenshots if you&#39;d like an example.\r<br />\r<br />\r<br />[color=#ffe599][b][u]Works like the bedroll in Realistic Needs & Diseases[/u][/b][/color]\r<br />1. Open your inventory and find the cookpot.\r<br />2. Drop it on the ground. (Be sure you&#39;re in a fairly flat area, or you risk the pot tumbling away&#33;)\r<br />3. While sneaking, activate the cookpot. It will now deploy as a proper, usable cookpot.\r<br />4. Stand up (stop sneaking), and activate it to cook whatever you want.\r<br />5. When you&#39;re done cooking and ready to pack up, sneak again and activate the cookpot. This will put it back in your backpack.\r<br />\r<br />\r<br />[color=#ffe599][b][u]Comes in two versions[/u][/b][/color]\r<br />If you decide to install both versions at the same time, NMM will warn you that you&#39;re overwriting a couple scripts; that&#39;s okay: both mods use the same scripts, so it doesn&#39;t matter if you overwrite them.\r<br />\r<br />[list]\r<br />[*][size=2][color=#ff0000]Predator/Yautja:[/color] Cookpot has been skinned to look like yautja technology, to fit with the [url=http://www.nexusmods.com/skyrim/mods/24543/?]Lost Tribes[/url] mod. (Realistic Needs & Diseases is awesome, but if I can have a shoulder-mounted assault canon, surely I have the tech to heat up a snack without a bag full of firewood...)[/size]\r<br />[/list][size=2]\r<br />[/size][list]\r<br />[*][size=2][color=#00ffff]Dwemer: [/color]For people who want something a bit more lore-friendly :)[/size]\r<br />[/list]\r<br />\r<br />[color=#ffe599][b][u]Requirements/Incompatibilities[/u][/b][/color]\r<br />None\r<br />(I didn&#39;t write the scripts, but I am 99.99% sure that it doesn&#39;t need SKSE)\r<br />\r<br />[b][u][color=#ffe599]Credits[/color][/u][/b]\r<br />Scripts are from [url=http://www.nexusmods.com/skyrim/mods/26228/?]Realistic Needs & Diseases[/url], by perseid9",
+  "categoryId": "100",
+  "version": "0.1",
+  "author": "DaedricSaber1701",
+  "createdUnix": "1485771334",
+  "updatedUnix": "1485771184",
+  "containsAdultContent": false,
+  "uploadedBy": "DaedricSaber1701",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000235000",
+      "name": "Yautja Cooking Pot",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "341",
+      "fileName": "Yautja Cooking Pot-81859-0-1.7z",
+      "uploadedUnix": "1485771162",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/ee6584ccffabd5d41761592e46b4e7eee6c531a43368d5a88e4317d6d19ada55/analysis/1485771423/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Yautja%20Cooking%20Pot-81859-0-1.7z?fid=1000235000&ttl=1535870484&ri=8192&rs=8192&setec=7f322775e30caaadc2dae391e00b8fe1"
+    },
+    {
+      "fileId": "1000235001",
+      "name": "Dwemer Cooking Pot",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "330",
+      "fileName": "Dwemer Cooking Pot-81859-0-1.7z",
+      "uploadedUnix": "1485771184",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/42ba9663ebb23d402a32549e08ef29a7d40077a431ea3777e5b3851e5a1aacfc/analysis/1485771424/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dwemer%20Cooking%20Pot-81859-0-1.7z?fid=1000235001&ttl=1535870484&ri=8192&rs=8192&setec=d1205ab6fb7dbd6a474ea8fd5fc6e7c1"
+    }
+  ]
+}

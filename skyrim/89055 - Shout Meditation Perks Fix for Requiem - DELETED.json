@@ -1,0 +1,32 @@
+{
+  "modId": 89055.0,
+  "modName": "Shout Meditation Perks Fix for Requiem - DELETED",
+  "summary": "Fixes the perks Destructive Urge, Indomitable Force, and Spiritual Equilibrium in Requiem's Speech tree to work as intended.",
+  "descriptionHtml": "The perks Destructive Urge, Indomitable Force, and Spiritual Equilibrium in Requiem's Speech tree are broken and have no effect in Requiem 1.9.4. Destructive Urge is intended to increase the magnitude of your shouts by 15%, Spiritual Equilibrium is intended to increase the duration of your shouts by 15%, and Indomitable Force is intended to reduce the duration and magnitude of hostile shouts that hit the player by 50%. This mod fixes the perks so that they actually work. The other condition that you need to be meditating on the corresponding word of power with Paarthurnax is still intact. Shouts from the Dragonborn DLC are not supported by Requiem and thus not affected.\n<br />\n<br />Shouts Affected by Destructive Urge:\n<br />Disarm\n<br />Dismay\n<br />Drain Vitality\n<br />Elemental Fury\n<br />Fire Breath\n<br />Frost Breath\n<br />Ice Form\n<br />Kyne's Peace\n<br />Marked for Death\n<br />Predator's Might\n<br />Slow Time\n<br />Soul Tear\n<br />Storm Call\n<br />Unrelenting Force\n<br />\n<br />Shouts Affected by Spiritual Equilibrium:\n<br />Aura Whisper\n<br />Become Ethereal\n<br />Call of Valor\n<br />Clear Skies\n<br />Dismay\n<br />Dragonrend\n<br />Drain Vitality\n<br />Elemental Fury\n<br />Ice Form\n<br />Kyne's Peace\n<br />Marked for Death\n<br />Predator's Might\n<br />Slow Time\n<br />Soul Tear\n<br />Storm Call\n<br />Summon Durnehviir\n<br />\n<br />Shouts Affected by Indomitable Force:\n<br />Draugr Shouts\n<br />Dragon breaths (not poison), fire balls, ice balls, Drain Vitality (both magnitude and duration)\n<br />(maybe; I want these to be affected but needs confirming): \n<br />Alduin's Storm Call\n<br />Alduin's Soul Cairn Summon attribute penalty\n<br />\n<br />NOTE: \n<br />- Indomitable Force does NOT provide knockdown immunity or resistance against hostile Unrelenting Force shouts. You still need 51% magic resistance or over 600 health. It reduces the damage taken.\n<br />- Custom shouts from other mods won't work with these perks unless you add them to the respective form lists. This may include mods that change dragon shouts.\n<br />\n<br />If you run into a shout that isn't affected and probably should be, let me know. This problem will most likely apply to hostile shouts.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Naylte",
+  "createdUnix": "1516332176",
+  "updatedUnix": "1516334681",
+  "containsAdultContent": false,
+  "uploadedBy": "Auraxade",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000264295",
+      "name": "Requiem - Meditation Perks Fix",
+      "version": "1.0",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Requiem - Meditation Perks Fix-89055-1-0.zip",
+      "uploadedUnix": "1516334681",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/102f0f13d1c765632a35e7d5812db8ad0cb357aebfbac97772ef58363bdb664d/analysis/1516334822/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem%20-%20Meditation%20Perks%20Fix-89055-1-0.zip?fid=1000264295&ttl=1535878524&ri=8192&rs=8192&setec=06eae44237c4232392556e8a1e373ff7"
+    }
+  ]
+}

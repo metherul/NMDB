@@ -1,0 +1,32 @@
+{
+  "modId": 3539.0,
+  "modName": "Batch file for beginning Sneak Thieves",
+  "summary": "A small boost in the beginning to get your sneak-thief started.",
+  "descriptionHtml": "A small batch file to use at the beginning of your game, after creating your character.\r\nWhat this file does: At the beginning of the game, lets you carry more loot. Adds perks to get you started on your career as a sneak thief in Skyrim.\r\n\r\nInstallation: Drop this file into ...SteamApps/common/Skyrim/data or wherever batch files work for you. (Some people recommend ...SteamApps/common/Skyrim)\r\n\r\nUninstall: Delete this file.\r\n\r\nHow to use this batch file. Open the console within the game, after your character has been chosen, and type \\\"bat startthief\\\" (without the inverted commas). Use it only once per game.\r\n\r\nThe text of this file goes:\r\n\r\n;for carrying loot\r\nplayer.modav carryweight 699\r\n;for making poisons to add to your arrows and blade\r\nplayer.addperk BE127 \r\nplayer.addperk 58215 \r\nplayer.addperk 58217\r\n;for sneaking up behind people \r\nplayer.addperk BE126\r\nplayer.addperk 58210\r\n;for aiming your poison-tipped arrows \r\nplayer.addperk BABED \r\n;for wielding your poisoned blade \r\nplayer.addperk BABE4 \r\n;for picking locks\r\nplayer.addperk F392A \r\n;for picking pockets \r\nplayer.addperk BE124 \r\n ",
+  "categoryId": "40",
+  "version": "1.0",
+  "author": "Pro-Love Girl",
+  "createdUnix": "1323764222",
+  "updatedUnix": "1323767181",
+  "containsAdultContent": false,
+  "uploadedBy": "prolovegirl",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "9967",
+      "name": "Batch file for beginning Sneak Thieves",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Batch file for beginning Sneak Thieves-3539-1-0.rar",
+      "uploadedUnix": "1323767181",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5031ae23c63c96aa80b2c8a092697b91da0ab860ec1366f9e2e089f5f17a717e/analysis/1406514242/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Batch%20file%20for%20beginning%20Sneak%20Thieves-3539-1-0.rar?fid=9967&ttl=1535758657&ri=8192&rs=8192&setec=444cdb2fcfc7e09fe6d954fae59afe09"
+    }
+  ]
+}

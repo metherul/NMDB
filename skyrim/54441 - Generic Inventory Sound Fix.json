@@ -1,0 +1,32 @@
+{
+  "modId": 54441.0,
+  "modName": "Generic Inventory Sound Fix",
+  "summary": "Ever notice when you pick up gold or clothes or many other items, instead of the noise the object should make (gold makes the clinky noise, clothes make a fabric rustling noise) they all make the same generic item picked up swish noise a majority of the time. This mod lowers the priority of the generic sound so the more appropriate noises play.",
+  "descriptionHtml": "Ever since release I was annoyed by the fact that looting gold, clothes, weapons, ammo, potions and many other items all made the same generic swish sound instead of more appropriate noises like clinking noises for gold pickup, metallic noises for weapons, bottle/glassy noise for potions etc... Unless you picked up multiple of the same item type which often doesn&#39;t happen when looting corpses or containers since many items, particularly gold are looted as one lump meaning almost everything has the same generic noise when looted.\r<br />\r<br />The best way to demonstrate the problem is to find some loose gold on a table and notice that the first gold piece picked up makes the generic swish noise while the rest make the proper gold clinking noise. \r<br />\r<br />I made this little fix that lowers the priority of the sound descriptors for the generic sounds. This means that picking up gold will always sound like you are looting gold, weapons sound like weapons... well you get the idea. \r<br />\r<br />Some items do use the generic sounds by default like gems, firewood, soul gems and other misc items so those are unchanged. \r<br />\r<br />For a mod that adds new pickup sounds for these items as well as new sounds for many other things try this mod by lazyskeever http://www.nexusmods.com/skyrim/mods/49084/?\r<br />\r<br />NOTE: A few items in lazyskeever&#39;s mod still have generic sounds on pickup (weapons and certain ammo) and until he updates it, this little fix of mine will take care of it. I have tested them together and our mods are completely compatible at this time and will likely always be compatible since I only altered the priorities of sound descriptors and haven&#39;t added any new sounds, items, or scripts. Will update if this changes.\r<br />\r<br />V 1.1 - changelog\r<br />\r<br />Certain Alchemical ingredients like grasses and falmar ears suffered a similar problem with a low quality generic ingredient sound. lowered the priority of the following:\r<br />\r<br />ITMGenericIngredientUpSD\r<br />ITMGenericIngredientUpLoFi\r<br />ITMGenericIngredientUpFailSD\r<br />ITMGenericIngredientDownSD\r<br />\r<br />I made this mod for myself a while back and figured I would share it with the community. \r<br />\r<br />Requirements - Legitimate copy of Skyrim.\r<br />\r<br />Compatibility\r<br />This shouldn&#39;t conflict with anything unless you have a mod that alters the following sound descriptors:\r<br />\r<br />ITMGenericUpSD\r<br />ITMGenericDownSD\r<br />ITMGenericUpLoFi\r<br />ITMGenericIngredientUpSD\r<br />ITMGenericIngredientUpLoFi\r<br />ITMGenericIngredientUpFailSD\r<br />ITMGenericIngredientDownSD\r<br />\r<br />Please let me know if you encounter any issues with this as it is my first mod upload and I will do what I can to address said issues.\r<br />\r<br />Installation\r<br />Just use NMM, it&#39;s easiest. But if you really want to install it manually just drop the genericSoundFix.esp file in your Skyrim/Data folder. \r<br />\r<br />Also available on the steam workshop.\r<br />",
+  "categoryId": "61",
+  "version": "1.0",
+  "author": "killtacular1",
+  "createdUnix": "1401335690",
+  "updatedUnix": "1401353528",
+  "containsAdultContent": false,
+  "uploadedBy": "killtacular1",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000110932",
+      "name": "genericSoundFix.esp",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "genericSoundFix.esp-54441-1-1.7z",
+      "uploadedUnix": "1401353528",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/b8d099f744cedc4acd1f04dd147485fd999ae585a0232a95c22d82dde1cf8953/analysis/1408101259/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/genericSoundFix.esp-54441-1-1.7z?fid=1000110932&ttl=1535838631&ri=8192&rs=8192&setec=8c96af0ced0e8843b2d53dcb44eeb70a"
+    }
+  ]
+}

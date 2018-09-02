@@ -1,0 +1,48 @@
+{
+  "modId": 40579.0,
+  "modName": "SCRH WindowMode Mod",
+  "summary": "This mod fixes some bugs and adds some functions for window mode.\r<br />All features are independent. You can partly use these you want.",
+  "descriptionHtml": " \r<br />[center][color=#CCC0A0][size=+4][b]SCRH WindowMode Mod[/b][/size][/color][/center]\r<br />[center]This mod fixes some bugs and adds some functions for window mode.\r<br />All features are independent. You can partly use these you want.[/center]\r<br />\r<br />\r<br />[heading][color=#CCC0A0][size=+2]Features[/size][/color][/heading]\r<br />[b][size=+1]Bugs fixed[/size][/b]\r<br />\r<br />[list]\r<br />[*]Double cursor bug\r<br />[*]Always on top bug\r<br />[/list]\r<br />\r<br />[b][size=+1]Additional functions[/size][/b]\r<br />\r<br />[list]\r<br />[*]Auto minimizing Skyrim window when inactive\r<br />[*]positioning Skyrim window on the center on starting\r<br />[*]Notice with dialog when run Skyrim on fullscreen mode\r<br />[*]Pseudo-fullscreen compatible with multi-monitor\r<br />[/list]\r<br />\r<br />For details (feature, usage, ...), see readme.\r<br />\r<br />\r<br />[heading][color=#CCC0A0][size=+2]Requirements[/size][/color][/heading][list]\r<br />  [*]The Elder Scrolls V: Skyrim 1.9.32.0.8 +\r<br />  [*][url=http://skse.silverlock.org/]Skyrim Script Extender (SKSE)[/url] 1.6.16 +\r<br />[/list]\r<br />\r<br />[heading][color=#CCC0A0][size=+2]Installation[/size][/color][/heading]\r<br />Copy or cut [code][color=#EEDDAA]SKSE[/color][/code] folder and paste to Skyrim [code][color=#EEDDAA]Data[/color][/code] folder.\r<br />This mod doesn&#39;t work on the real fullscreen mode at all.\r<br />Make sure your Skyrim is set to window mode.\r<br />\r<br />\r<br />[heading][color=#CCC0A0][size=+2]Uninstallation[/size][/color][/heading]\r<br />Delete all files you installed. This mod leaves nothing in save files.\r<br />\r<br />\r<br />[heading][color=#CCC0A0][size=+2]Compatibility[/size][/color][/heading]\r<br />This mod is SKSE dll plugin. No conflict with esp mods.\r<br />But mods have the same features like below will conflict with this mod.\r<br />[list]\r<br />  [*][url=http://skyrim.nexusmods.com/mods/36177]Borderless Window[/url]\r<br />  [*][url=http://skyrim.nexusmods.com/mods/36125]Double Cursor Fix[/url]\r<br />  [*][url=http://skyrim.nexusmods.com/mods/4]Simple Borderless Window[/url]\r<br />  [*][url=http://skyrim.nexusmods.com/mods/21277]Skyrim Alt-tab mouse fix[/url]\r<br />  [*][url=http://skyrim.nexusmods.com/mods/7347]Skyrim - Unstretched Windowed Fullscreen Mode[/url]\r<br />  [*][url=http://skyrim.nexusmods.com/mods/23664]Windowed Mode Relocator[/url]\r<br />[/list]\r<br />\r<br />[line]\r<br />\r<br />Have a enjoy.\r<br />\r<br /> \r<br />",
+  "categoryId": "39",
+  "version": "1.0.1",
+  "author": "scripthoge",
+  "createdUnix": "1376852336",
+  "updatedUnix": "1376969945",
+  "containsAdultContent": false,
+  "uploadedBy": "scripthoge",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000047863",
+      "name": "SCRH WindowMode Mod",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "67",
+      "fileName": "SCRHWindowModeMod-1_0-40579-1-0.7z",
+      "uploadedUnix": "1376850925",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/274b40ba6e090c613af1ca119f398e5b1fabba1651f659e7584bf6b2778714b9/analysis/1407686907/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SCRHWindowModeMod-1_0-40579-1-0.7z?fid=1000047863&ttl=1535821225&ri=8192&rs=8192&setec=93c8ea430e8f5fd00a6371937629553a"
+    },
+    {
+      "fileId": "1000048238",
+      "name": "SCRH WindowMode Mod",
+      "version": "1.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "72",
+      "fileName": "SCRH WindowMode Mod-40579-1-0-1.7z",
+      "uploadedUnix": "1376969945",
+      "modVersion": "1.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/ad18b39925478b79309349e0a39cea0786fdcba1ccf9e2146cc4eb5a2688dfec/analysis/1407689942/",
+      "changelogHtml": " [bugs of mod fixed] \r<br />- On multi-monitor environment, if the primary monitor is not at the upper left of monitors, \r<br />Skyrim window is positioned incorrectly when MultiMonitor is enabled. \r<br />\r<br />[Feature added] \r<br />- Notice with dialog when run on fullscreen mode. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SCRH%20WindowMode%20Mod-40579-1-0-1.7z?fid=1000048238&ttl=1535821225&ri=8192&rs=8192&setec=0536c35a6ea54f397843af0ceeb906da"
+    }
+  ]
+}

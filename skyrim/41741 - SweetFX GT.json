@@ -1,0 +1,32 @@
+{
+  "modId": 41741.0,
+  "modName": "SweetFX GT",
+  "summary": "A good solution for visual improvements and performance.\r\nPerfect for low-end machines too!",
+  "descriptionHtml": "Welcome to\r\n[center][img]http://s24.postimg.org/rwurw6i1h/titolo.jpg[/img]\r\nA good solution for visual improvements and performance.\r\nPerfect for low-end machines too!\r\n\r\n\r\nComparison:\r\n[img]http://s24.postimg.org/gk6twp93p/900_comparison.jpg[/img][/center]\r\n\r\n\r\n[img]http://s23.postimg.org/t37ymgl3f/overview.jpg[/img]\r\nThis mod, tweaks the colors of Skyrim environment via SweetFX Shader suite v1.4 by CeeJay.dk.\r\nMy goal is to make a bit desaturated and warm colors using DPX and LIFTGAMMA parameters of SweetFX to avoid grayish colors that you usually see in Skyrim.\r\nAlso I tweaked brightness and contrast to avoid high contrasts (\\\"black and white\\\" contrasts like shadows of farmhouses, houses, etc.) which I don\\'t like.\r\n\r\nThe performance is untouched, so this is fully reliable for low-end machines too!\r\nAlso the nightvision effect (Khajiit, Vampire, Werewolf) is working fine ;)\r\n\r\nThere are 4 presets that I\\'ve made. Just choose one!\r\n\r\n01. With vignette only\r\n02. With vignette and SMAA filter (it may take some fps)\r\n03. With SMAA filter only (it may take some fps but a bit less as #02 preset)\r\n04. Base (without vignette and SMAA filter)\r\n\r\n[img]http://s16.postimg.org/ajopsa8vp/install.jpg[/img]\r\n(please read the COMPATIBILITY section too)\r\n- Download the archive and unrar. Choose one folder only then copy files under Skyrim folder (NOT DATA!)\r\n- Play!\r\n\r\n[img]http://s10.postimg.org/ga7q6jm6x/uninstall.jpg[/img]\r\nYou have to delete this files in Skyrim folder:\r\n- d3d9.dll\r\n- d3d9.fx\r\n- dxgi.dll\r\n- dxgi.fx\r\n- injector.ini\r\n- shader.fx\r\n- SweetFX readme.txt\r\n- SweetFX_preset.txt\r\n- SweetFX_settings.txt\r\n- the SweetFX folder\r\n\r\n[img]http://s9.postimg.org/62d3vtd8f/compatibility.jpg[/img]\r\nThis mod is NOT COMPATIBLE with other SweetFX configurations because overwrites the old files.\r\nShould be compatible with any ENB you like, just set it as PROXY in ENB config file.\r\nHowever this is made as standalone config.\r\nIt\\'s compatible with any weather mods, enhancing lighting like Climates of Tamriel and Enhanced Lighting FX\r\n\r\nPartially compatible with RCRN. You may delete all the RCRN dll and files/folders under Skyrim folder, just leave the files under Data folder.\r\n\r\n[center]* CREDITS *\r\nCeeJay.dk the author of SweetFX v1.4\r\n\r\n* FACEBOOK *\r\nJoin me!\r\nhttps://www.facebook.com/MannyGTSkyrimMods[/center]",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "MannyGT",
+  "createdUnix": "1378500408",
+  "updatedUnix": "1378500331",
+  "containsAdultContent": false,
+  "uploadedBy": "mannygt",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000052791",
+      "name": "SweetFX GT",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1651",
+      "fileName": "SweetFX GT-41741-1-0.rar",
+      "uploadedUnix": "1378500331",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b3fb77a444882f05d3840b5ea84cb554e922dc32791af227fd37ad1d71a48c74/analysis/1407711575/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SweetFX%20GT-41741-1-0.rar?fid=1000052791&ttl=1535822569&ri=8192&rs=8192&setec=0c4a564bc2741a0bf04f24ab4c7e820e"
+    }
+  ]
+}

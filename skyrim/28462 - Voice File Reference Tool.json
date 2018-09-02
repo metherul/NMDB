@@ -1,0 +1,32 @@
+{
+  "modId": 28462.0,
+  "modName": "Voice File Reference Tool",
+  "summary": "Utility that allows the user to easily find out the name of the voice file for any line of dialogue in the game.",
+  "descriptionHtml": "VFRT is a utility that allows the user to easily find out the name of the voice file for any line of dialogue in the game. It is mainly intended to be used by those who hear some dialogue in the game, and want to modify or otherwise use that audio (it would normally be a pain to identify which voice file contains the audio).\n<br />\n<br />To use, unpack the files into a new folder, and run \"VFRT.exe\". See the readme file for details.[line]\n<br />[color=#ffaf37][size=4][b][u]Dialogue for DLCs[/u][/b][/size][/color]\n<br />\n<br />The program comes with a data file that contains the dialogue for all DLCs except Hearthfire ([i]vanilla+dawnguard+dragonborn (en).vfr[/i]), which you can drag-and-drop onto the window to load. If you need the dialogue for Hearthfire as well, you can either generate it yourself with the program (Ctrl+N), or you can download this: [url=http://www.nexusmods.com/skyrim/mods/79262?]Voice File Reference Tool - Complete Dialogue DLC Library[/url] (the dialogue for all DLCs in one file).\n<br />[line]\n<br />[color=#ffaf37][size=4][b][u]New in v1.8[/u][/b][/size][/color]\n<br />\n<br />[list]\n<br />[*]ability to filter by file name\n<br />[*]new format for the data file\n<br />[*]the data files are compressed with LZMA\n<br />[*]the data loads much faster (using multiple threads)\n<br />[*]the list control no longer hides the selection when out of focus\n<br />[*]the window accepts .vfr files dropped onto it\n<br />[*]various minor improvements under the hood\n<br />[/list]\n<br />I never thought this would happen, but I've managed to make more than enough significant changes to the program to justify releasing another version. I should mention that the speed increase for loading the data only happens for files saved with this version (files saved with previous versions use the old format and are loaded using the old single-threaded code). I have switched all of the included data files to the new format, except for the Czech data (because apparently I didn't keep a copy of the Czech exported dialogue, and I don't feel like downloading the Czech version of the game again).",
+  "categoryId": "39",
+  "version": "1.8",
+  "author": "greentea101",
+  "createdUnix": "1355722394",
+  "updatedUnix": "1389914364",
+  "containsAdultContent": false,
+  "uploadedBy": "greentea101",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000091808",
+      "name": "Voice File Reference Tool",
+      "version": "1.8",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9279",
+      "fileName": "Voice File Reference Tool-28462-1-8.7z",
+      "uploadedUnix": "1389914364",
+      "modVersion": "1.8",
+      "virusScanUrl": "https://www.virustotal.com/file/4855592a7d85b01fb62b9b48d292cde0cf0ca11e8e702f22e2fab02023c71338/analysis/1407889231/",
+      "changelogHtml": " ▪  ability to filter by file name\r<br />▪  new format for the data file\r<br />▪  the data files are compressed with LZMA\r<br />▪  the data loads much faster (using multiple threads)\r<br />▪  the list control no longer hides the selection when out of focus\r<br />▪  the window accepts .vfr files dropped onto it\r<br />▪  various minor improvements under the hood <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Voice%20File%20Reference%20Tool-28462-1-8.7z?fid=1000091808&ttl=1535801856&ri=8192&rs=8192&setec=00e6b6c211ef595c8f67d385f46f5e3f"
+    }
+  ]
+}

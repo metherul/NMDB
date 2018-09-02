@@ -1,0 +1,48 @@
+{
+  "modId": 49019.0,
+  "modName": "Requiem - Heavy Shield Patch V2",
+  "summary": "File that modifies Requiem perk allowing heavy shields to have armor rating scaled same as light shields.",
+  "descriptionHtml": "8/12/2014 - This file is now hosted on azirok&#39;s Requiem - Patch Central page.\r<br />http://www.nexusmods.com/skyrim/mods/54562/?\r<br />\r<br />\r<br />FILE UPDATED:\r<br />1/18/2014 - I Added ArmorHeavy [KYWD:0006BBD2] to Spellbreaker and Shield Of Solitude for correct armor rating, per request.  ESP has same file name so just overwrite the old one and note the change in the game.\r<br />\r<br />Latest version of Requiem (1.7.3) does not correctly modify the armor rating of heavy shields like it does for light shields.  This will be fixed in the next Requiem update.  Until then you can use this file to set heavy shields to the correct armor rating.\r<br />\r<br />I used Tes5edit to copy the relevant perk as an override to this esp.  Then removed the condition for heavy shields.  You can load this in Tes5edit and see the change that was done.\r<br />\r<br />Load right after Requiem.esp.\r<br />\r<br />Credit to Xarrian for creating Requiem and ogerboss for keeping it going.",
+  "categoryId": "84",
+  "version": "2.0",
+  "author": "Peter1962",
+  "createdUnix": "1387581274",
+  "updatedUnix": "1390075294",
+  "containsAdultContent": false,
+  "uploadedBy": "peter1962",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000087630",
+      "name": "Requiem - Heavy Shield Fix",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Requiem - Heavy Shield Fix-49019-1-0.7z",
+      "uploadedUnix": "1387581195",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7b31563ec46ba4f11fc14121bd3620d8cf8290b93e3395127b6d49f9b381f1a9/analysis/1407850890/",
+      "changelogHtml": " Initial File with perk change <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem%20-%20Heavy%20Shield%20Fix-49019-1-0.7z?fid=1000087630&ttl=1535829531&ri=8192&rs=8192&setec=cc2cc630680c22f1002e1db121018a8e"
+    },
+    {
+      "fileId": "1000092077",
+      "name": "Requiem - Heavy Shield Fix V2",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Requiem - Heavy Shield Fix V2-49019-2-0.7z",
+      "uploadedUnix": "1390075294",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/364d1cca6bb27b4b638dfb34c959510116cf9bd1b29de72b96a82d8b22aba4ec/analysis/1407891609/",
+      "changelogHtml": " Added KEYWORD ArmorHeavy [KYWD:0006BBD2] to Spellbreaker and 3 entries of Shield Of Solitude for correct armor rating <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem%20-%20Heavy%20Shield%20Fix%20V2-49019-2-0.7z?fid=1000092077&ttl=1535829532&ri=8192&rs=8192&setec=3ad52dc154eb3448a2393212a6250d9f"
+    }
+  ]
+}

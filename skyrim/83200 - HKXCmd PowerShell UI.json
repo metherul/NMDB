@@ -1,0 +1,32 @@
+{
+  "modId": 83200.0,
+  "modName": "HKXCmd PowerShell UI",
+  "summary": "A simplistic UI for HKXCmd, written in PowerShell.",
+  "descriptionHtml": "[color=#DDCCBB][size=5][b]HKXCmd PowerShell UI[/b][/size][/color]\r<br />This is a simple PowerShell script that wraps [url=http://www.nexusmods.com/skyrim/mods/1797/][b]HKXCmd[/b][/url], allowing access to some of its features via a menu system. Bear in mind that I created it for my personal use, so not all functions are fully tested.\r<br />\r<br />Menus respond to the up, down, home, end, and enter keys. &#34;Flags&#34; menus support multi-select with enabled flags shown in yellow. After each operation, the script returns to its main menu instead of terminating, so you can run multiple operations reasonably quickly. (Because it&#39;s a command line, you can also use the up and down arrow keys to recycle prior inputs when prompted for a file path or something.)\r<br />\r<br />Includes a basic icon file for all your shortcutting needs\r<br />\r<br />[color=#DDCCBB][size=4][b]Usage[/b][/size][/color]\r<br />Extract to the same directory as hkxcmd.exe itself.\r<br />\r<br />If you want to create a Shortcut to it, use:\r<br />\r<br />[font=Courier New]powershell -ExecutionPolicy UnRestricted -File &#34;WhereverYouInstalledIt&#92;hkxcmd.ps1&#34;[/font]\r<br />\r<br />If you want to execute it from a PowerShell window, use:\r<br />\r<br />[font=Courier New]Set-Location &#34;PathToFolderWhereYouPutTheFile&#34;\r<br />PowerShell.exe -ExecutionPolicy UnRestricted -File .&#92;hkxcmd.ps1[/font]",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "DavidJCobb",
+  "createdUnix": "1491725899",
+  "updatedUnix": "1491725821",
+  "containsAdultContent": false,
+  "uploadedBy": "DavidJCobb",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000241273",
+      "name": "HKXCmd PowerShell UI",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "HKXCmd PowerShell UI-83200-1-0.rar",
+      "uploadedUnix": "1491725821",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/df1502dbb5f2cffaba766989b748a24db184011c6d3da994980a0568fdbd5a95/analysis/1491725883/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HKXCmd%20PowerShell%20UI-83200-1-0.rar?fid=1000241273&ttl=1535872022&ri=8192&rs=8192&setec=0aaa7fd5874fd72bfad0a4bcc8f5cffd"
+    }
+  ]
+}

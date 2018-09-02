@@ -1,0 +1,32 @@
+{
+  "modId": 47853.0,
+  "modName": "SkyrimMusicManager",
+  "summary": "Application that let users manage custom music files using MediaMonkey and the Personalized Music Mod created by No_Aardvarks_Allowed",
+  "descriptionHtml": "[Size=16][b]Skyrim Musci Manager[/b][/Size]\r\n\r\n-----------------------------------------------------\r\n[list=1]\r\n[*]Introduction\r\n[*]Requisitions\r\n[*]How to Use\r\n[*]Notes\r\n[*]Changelog\r\n[/list]\r\n\r\n-----------------------------------------------------\r\n\r\n[b]Introduction[/b]\r\n\r\nSkyrimMusicManager is an application that make it easy for users select and convert musics to be used in [url=http://skyrim.nexusmods.com/mods/13286/?]Personalized Music by No_Aardvarks_Allowed[/url]\r\n\r\n[b]Requisitions[/b]\r\n\r\n- [url=http://skyrim.nexusmods.com/mods/13286/?]Personalized Music by No_Aardvarks_Allowed[/url]\r\n-MediaMonkey - [color=#CC0000]*Not the portable edition*[/color]\r\n- .NET 4.5\r\n\r\n[b]How to Use[/b]\r\n\r\n1- Open Media Monkey\r\n2- Open SMM\r\n3- In the tab settings set the path to your music folder in skyrim (%SKYRIM FOLDER%\\DATA\\MUSIC)\r\n4- Restart SMM\r\n5- Now in the Media Monkey you will see a playlist with the name 'SkyrimMusicManager', inside it will have multiple playlists, each one with correspondent category as name. add the musics that you want to each one.\r\n6- In SMM press Update ALL playlist\r\n7- wait for process to complete (Program could become unresponsive)\r\n8- Start Skyrim.\r\n\r\n[b]Notes[/b]\r\n\r\n- Only MP3 is supported\r\n- Make sure that you have enough space\r\n- Make sure that the skyrim folder have write authorization\r\n\r\n[b]Changelog[/b] \r\n\r\n- ALPHA2 - Inicial public release\r\n\r\n\r\n",
+  "categoryId": "39",
+  "version": "2",
+  "author": "David Pires",
+  "createdUnix": "1385217864",
+  "updatedUnix": "1385217810",
+  "containsAdultContent": false,
+  "uploadedBy": "Bulakaxa",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000082132",
+      "name": "Skyrim Music Manager Alpha2",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1656",
+      "fileName": "Skyrim Music Manager Alpha2-47853-2.zip",
+      "uploadedUnix": "1385217810",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/74f5754090d14b51522cf8129dc80c149c71337c58454c1bfabc059680486305/analysis/1407804631/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Music%20Manager%20Alpha2-47853-2.zip?fid=1000082132&ttl=1535828041&ri=8192&rs=8192&setec=2f5dee76856a7bdfcfa85fd7fd7d7de9"
+    }
+  ]
+}

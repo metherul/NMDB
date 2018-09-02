@@ -1,0 +1,32 @@
+{
+  "modId": 90867.0,
+  "modName": "3PCO CN - 3rd Person Camera Overhaul Chinese translation",
+  "summary": "MCM menu Chinese translation for watang's 3PCO(a script file).",
+  "descriptionHtml": "地址：https://www.nexusmods.com/skyrim/mods/89516\n<br />天际的第三人称镜头向来很僵硬，无美感可言。3PDO的目标是添加流程的镜头以纠正这种情况，该功能出现于很多现在的AAA级大作中，包括黑魂和尼尔·机械纪元。\n<br /> \n<br />原版中，镜头总是被固定于角色上方的位置，镜头的移动枯燥无聊，战斗动作仿佛静止不动。3PCO消除了这些问题，并且允许镜头跟随玩家，从而产生更加美观的视觉效果。这在战斗中效果出众，虽然武器收鞘时的表现很微妙，但是仍然比原版强。\n<br /> \n<br />在现在的AAA级大作中，镜头是相对于世界坐标而放置的，这使得镜头可以跟随玩家的世界坐标。但是在天际，镜头是相对于玩家而放置的。这使得平滑的镜头跟随效果表现变得困难，因为镜头必须根据玩家的速度和位置动态地变化自身位置。通常情况下，这需要大量的数学计算，可能不适用于天际的镜头脚本。本mod根据玩家是向左还是向右移动指定镜头位置而规避此计算。如果玩家向右移动，则镜头以指定的速度向左平移。这使得可以人为地重现平滑的跟随镜头效果。\n<br /> \n<br />安装：\n<br />需要SKYUI作为前置，之后使用你喜欢的mod管理器安装。\n<br />卸载需要使用存档脚本清理器清理后进行清洁卸载。\n<br />强烈建议搭配lock-On这个mod：[url=https://www.nexusmods.com/skyrim/mods/33791﻿]https://www.nexusmods.com/skyrim/mods/33791﻿[/url]\n<br />兼容性：与大部分改变第三人称视角的mod不兼容，但是第一人称不受影响。",
+  "categoryId": "24",
+  "version": "2.3a",
+  "author": "watang",
+  "createdUnix": "1524312413",
+  "updatedUnix": "1524312413",
+  "containsAdultContent": false,
+  "uploadedBy": "syb888",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000271165",
+      "name": "3PCO Full CN",
+      "version": "2.3a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "3PCO Full CN-90867-2-3a.zip",
+      "uploadedUnix": "1524312346",
+      "modVersion": "2.3a",
+      "virusScanUrl": "https://www.virustotal.com/file/5feba70591792e1590f3cab38d91d3d70dd41e8b738fa90704e81bfbb3b0e039/analysis/1524312483/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/3PCO%20Full%20CN-90867-2-3a.zip?fid=1000271165&ttl=1535881191&ri=8192&rs=8192&setec=9116e24cd02e088a7474ed009f365d03"
+    }
+  ]
+}

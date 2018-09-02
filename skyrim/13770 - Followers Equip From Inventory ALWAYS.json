@@ -1,0 +1,32 @@
+{
+  "modId": 13770.0,
+  "modName": "Followers Equip From Inventory ALWAYS",
+  "summary": "Makes followers always wear the equipment you give them, even when not in your service. Let me know of any problems.",
+  "descriptionHtml": "Makes followers always wear the equipment you give them, even when not in your service. Let me know of any problems.\r\n\r\nCurrently Added: ALL FOLLOWERS! :)))\r\n-All Housecarls\r\n-All Hireling Followers\r\n-All Companion Followers\r\n-All Winterhold Followers\r\n-All Dungeon Followers\r\n-All Misc Followers\r\n\r\n****People using the mod with already played games, remove the armor you want them to wear from the inventory and then give it back to them so the mod will recognize it. Armor already in the inventory when you install the mod won\\'t auto equip or stay on until you hand it to them with mod installed.\r\n\r\nKnown Issues:\r\n-The Blades, once you add a follower to the Blades they will start wearing blades armor as default again.\r\nThis is because the blades quest scripts kick in and overwrite my script on that NPC. While I could change this as of right now I will not. First, I dont want to risk breaking any part of the Blades script functions or quest. Secondly, members of the Blades wearing Blades armor makes sense and is meant to be that way. So it doesnt bother me much as of right now. If I change my mind later we\\'ll see but for now I can live with Blades looking like Blades. \r\n\r\nThx and let me know of other problems not listed.\r\n\r\nChanges:\r\n-Removed my inventory window: you can now use the normal Conversation option to trade and it will work.\r\nIf anyone finds any NPCs that still have the quick pop up inventory let me know. It was causing a few problems and i would rather it be problem free than faster to get to. Thx!\r\n-Essential Followers: Made the remaining followers that were not essential into essential. This is so people having the compatability problem with using both can now use just this mod and still have followers not totally die, just fall to the ground.\r\n-Added Custom Follower, Sarah to the BanneredMare in Whiterun. She is the NPC pictured above and I have added her for a short time because she is not edited by any other mod and people having issues with other NPCs can go use her and see that she is there and working properly so they know the mod is working and functioning as meant. If she is working and others aren\\'t, you have a compatability issue with another mod. If she is not there, well you have a bigger problem. Make sure the mod is active. \r\n-Updated how the script loaded and when. Fast traveling should no longer reset them to default gear. Thx!",
+  "categoryId": "66",
+  "version": "1.1",
+  "author": "DistantDeath aka JacobSuitt",
+  "createdUnix": "1332791791",
+  "updatedUnix": "1332791903",
+  "containsAdultContent": false,
+  "uploadedBy": "jacobsuitt",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "47146",
+      "name": "FollowersEquipFromInventoryALWAYS",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "32",
+      "fileName": "FollowersEquipFromInventoryALWAYS-13770-1-1.zip",
+      "uploadedUnix": "1332791903",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/73071f2b4c5d929bab336ab1f32721e838f9286d9a6fa948102a7bae81b5bee1/analysis/1406781665/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FollowersEquipFromInventoryALWAYS-13770-1-1.zip?fid=47146&ttl=1535776881&ri=8192&rs=8192&setec=2ab35543f5563a79e442a6fbd7a35fbd"
+    }
+  ]
+}

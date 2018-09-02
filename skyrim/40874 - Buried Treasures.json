@@ -1,0 +1,48 @@
+{
+  "modId": 40874.0,
+  "modName": "Buried Treasures",
+  "summary": "Adds buried chests dotted all over Skyrim, waiting to be discovered. Also gives you the ability to dig your own personal stashes anywhere you want. All chests and stashes added by the mod are safe to use as storage. Even if the cell around them resets, these won\\'t",
+  "descriptionHtml": "[center][img]https://dl.dropboxusercontent.com/u/108612676/BuriedTreasureV1.png[/img][/center]\r\n\r\n[center][youtube]irXgRzPYK_c[/youtube][/center]\r\n\r\n[center][img]https://dl.dropboxusercontent.com/u/108612676/Description.png[/img][/center][list]\r\n[*]This mods adds buried chests all over the land, waiting for somebody to come along and discover. Where are they and what do they contain? Well, I think we\\'ll leave that one for you to figure out on your own! All the buried chests have unique contents, some of which have small stories behind them, so we hope you enjoy seeking them out.[/*]\r\n\r\n[*]You are looking for mounds of \\\"Disturbed Soil\\\". They are not very easy to spot so you\\'ll need to keep your eyes peeled. You can only dig them up if you have a shovel in your inventory. An animation plays, the screen fades to black, an hour of game time passes and then the screen fades back in revealing the freshly exhumed chest. After picking the lock you are then free to loot the contents.[/*]\r\n\r\n[*]All the buried chests do NOT respawn when the surrounding cell resets, so they can be used as storage, safe in the knowledge that your items won\\'t disappear. To rebury the chest and retrieve your shovel, select it while sneaking to bring up a small options menu.[/*]\r\n\r\n[*]The second feature of this mod gives you the ability to dig your own stash spots anywhere you wish. The first time you load the mod, a new lesser power \\\"Dig Stash\\\" gets added to your character\\'s spell list. Just aim your crosshair at the spot on the ground you wish to place your stash then cast the power (Works best in 1st person. You still need a shovel in your inventory to use this power).[/*]\r\n\r\n[*]You can only have a maximum of 10 separate stashes in the world. Because of this, the sneak menu for your personal stashes will have the extra option \\\"retrieve\\\" which removes that particular stash spot so you can place one somewhere else (on personal stash spots, the sneak menu works even if the sack is still in the ground). To keep track of your stash spots, select the miscellaneous quest and then your stashes will show up on your map.[/*]\r\n\r\n[*]Lastly, if the mod detects you have SKSE installed, then a new stat \\\"Buried Chests Discovered\\\\\\\" will be added directly to the vanilla stats page. This mod does NOT require SKSE to function normally, just this last feature. You can enjoy this mod just the same without SKSE[/*]\r\n[/list]\r\n[center][img]https://dl.dropboxusercontent.com/u/108612676/Requirements.png[/img][/center][list]\r\n[*]A shovel[/*]\r\n[/list]\r\n[center][img]https://dl.dropboxusercontent.com/u/108612676/Installing.png[/img][/center][list]\r\n[*]Install as usual either manually or with NMM. I don\\'t think this mod will conflict with anything so its really up to you where you put it in your load order, but \\\"BuriedTreasure.esp\\\" must always come [i]before[/i] \\\"BuriedTreasure_Outside.esp\\\". If you want the ability to place your own stashes but you don\\'t want the buried chests placed throughout the land, then just load the Core esp on its own\r\n[/list]\r\n[center][img]https://dl.dropboxusercontent.com/u/108612676/Uninstalling.png[/img][/center][list]\r\n[*]Unlike previous Bethesda titles, Skyrim doesn\\'t really support uninstalling mods then continuing on in the same save, so do so at your own risk. Just be sure to retrieve your items first, because they will be lost if you suddenly remove the mod.[/*]\r\n[/list]\r\n[center][img]https://dl.dropboxusercontent.com/u/108612676/Compatability.png[/img][/center][list]\r\n[*]Mods that give you the ability to either \\\"bash\\\" locks or use unlock spells probably will NOT work with the dug up chests, due to how its all set up . By all means, give it a try and let us know if this information is incorrect[/*]\r\n[/list]\r\n[center][img]https://dl.dropboxusercontent.com/u/108612676/Permissions.png[/img][/center][list]\r\n[*]The source files for all scripts used in this mod have been provided inside the bsa, for anybody to do with as they please. The models were made by mashing vanilla models together, so I cannot really call them \\\"mine\\\", so again, you are free to use them as you please.[/*]\r\n\r\n[*]DO NOT upload this mod in its entirety to any other website. We as the authors hold the right to distribute where we want, if we find this mod on a site where we didn\\'t upload it ourselves, action will be taken to get it removed[/*]\r\n\r\n[*]If you wish to translate this mod into another language, feel free. But please contact us and send us the esp so we can provide it as an optional download from within the main download page[/*]\r\n[/list]\r\n[center][img]https://dl.dropboxusercontent.com/u/108612676/Contact.png[/img][/center][list]\r\n[*]Bethesda Forums: hypno88, Matthew_Kaine[/*]\r\n[*]Nexus: hypno88, Matthew_Kaine[/*]\r\n[*]TESAlliance: hypno88, Matthew_Kaine[/*]\r\n[/list]\r\n[center][img]https://dl.dropboxusercontent.com/u/108612676/Reviews.png[/img][/center]\r\n[center][youtube]shx_nKIGnig[/youtube][/center]\r\n[center][youtube]K0G1C7g63eE[/youtube][/center]\r\n\r\n[center][img]https://dl.dropboxusercontent.com/u/108612676/ComingSoon.png[/img][/center]\r\n[center][youtube]Vanluonhijs[/youtube][/center]",
+  "categoryId": "85",
+  "version": "1.0",
+  "author": "Hypno and MatthewKaine",
+  "createdUnix": "1377277279",
+  "updatedUnix": "1377277276",
+  "containsAdultContent": false,
+  "uploadedBy": "hypno88",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000048987",
+      "name": "BuriedTreasure",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1166",
+      "fileName": "BuriedTreasure-40874-1-0.7z",
+      "uploadedUnix": "1377277230",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6972277b45b93fd731872f9a5304051aeef3588166bad95771737fee60201757/analysis/1407693913/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BuriedTreasure-40874-1-0.7z?fid=1000048987&ttl=1535821551&ri=8192&rs=8192&setec=b6dce6f8cfc33b3b3445c25d2741ee53"
+    },
+    {
+      "fileId": "1000048988",
+      "name": "BuriedTreasure - Loose Files",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1165",
+      "fileName": "BuriedTreasure - Loose Files-40874-1-0.7z",
+      "uploadedUnix": "1377277276",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c6e0aa0eee5c1e66cf55f074070e2039598575b23a4da6a0b99a7ba14c0c08d7/analysis/1407693915/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BuriedTreasure%20-%20Loose%20Files-40874-1-0.7z?fid=1000048988&ttl=1535821552&ri=8192&rs=8192&setec=82232223c718b0339762ec892a2aaaf5"
+    }
+  ]
+}

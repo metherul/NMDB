@@ -1,0 +1,32 @@
+{
+  "modId": 13710.0,
+  "modName": "Skyrim Refresh - Skyrim Cleanup Tutorial",
+  "summary": "A WordPad (RTF) text document included.",
+  "descriptionHtml": "[center][b]Skyrim Refresh[/b][/center]\r\nThis may help you refresh your Skyrim.\r\nDescription Note: The download is a rehash of what is written here in this description.\r\nEdit after upload: Read about load ordering here; [url=http://forums.nexusmods.com/index.php?/topic/583662-important-load-order-and-you]Load Order and You[/url], thanks wrinklyninja. Edit #2: Making a new save when you\\'ve removed an addon such as JaySuS Swords, will also obviously remove any swords even after you\\'ve reinstalled the addon. This holds true to any possessable item mods.\r\n\r\n[b]1.)[/b] Mod clean up:\r\n[b]a)[/b] If you use a mod installer/manager; Deactivate your mods and uninstall them.\r\n[b]b)[/b] Copying \\\" %USERNAME%\\\\AppData\\\\Local\\\\Skyrim \\\" to explorer\\\\computer, without quotes, will take you to C:\\\\Users\\\\!YourUserName!\\\\AppData\\\\Local\\\\Skyrim.\r\nOpen \\\"DLCList.txt\\\". Important! Leave \\\"HighResTexturePack01.esp\\\", \\\"HighResTexturePack02.esp\\\" and any other lines that relate to official Skyrim DLC. Remove the other lines and save. Check that \\\"loadorder.txt\\\" and \\\"plugins.txt\\\" are to your liking.\r\n\r\n[b]2.)[/b] If your experiencing major problems:\r\n[b]Warning:[/b] Removing your ini files is not recommended. *\r\nCopying \\\" %USERNAME%\\\\Documents\\\\My Games\\\\Skyrim \\\"  to explorer\\\\computer, without quotes, will take you to C:\\\\Users\\\\!YourUserName!\\\\Documents\\\\My Games\\\\Skyrim. Delete * \\\"Skyrim.ini\\\", \\\"SkyrimPrefs.ini\\\" and \\\"RendererInfo.txt\\\". Leave the saved games folder unless you don\\'t want old saves.\r\n\r\n[b]3.)[/b] Start Skyrim Launcher. Redetect your settings, change as required. Play Skyrim, select an old save if you want to continue it. Load the save, a warning may appear, select Yes. After it loads, Save this game as a New Save. I\\'m all saved out...\r\n\r\n[b]4.)[/b] Download and install the mods you really use and need. If you use a mod manager such as NMM, don\\'t rearrange your mod load ordering with Skyrim Launcher Data Files, as doing so can make the handy BOSS masterlist useless. If you happen to rearrange with the Launcher, start NMM and shuffle a mod up and down in the list. Do any rearranging in your Mod Manager.\r\n\r\n[b]5.)[/b] When you play, use your New Save.\r\n\r\nHope I helped someone out there.",
+  "categoryId": "95",
+  "version": "1",
+  "author": "Guru82",
+  "createdUnix": "1332721669",
+  "updatedUnix": "1332721834",
+  "containsAdultContent": false,
+  "uploadedBy": "Guru82",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "46899",
+      "name": "Skyrim_Refresh_v1",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "Skyrim_Refresh_v1-13710.zip",
+      "uploadedUnix": "1332721834",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/875b017b3bbb681a4e4e0ec72e3f9790d6228cd192d354d382fdf4d86d33092c/analysis/1406780224/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim_Refresh_v1-13710.zip?fid=46899&ttl=1535776720&ri=8192&rs=8192&setec=3ec2d75f25d9a93522527b4788e2150e"
+    }
+  ]
+}

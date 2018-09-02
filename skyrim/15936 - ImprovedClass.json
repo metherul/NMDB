@@ -1,0 +1,32 @@
+{
+  "modId": 15936.0,
+  "modName": "ImprovedClass",
+  "summary": "Chose a class by setting your skills to be Major, Minor or Nonexistant.",
+  "descriptionHtml": ">>This is an Alpha mod. Hardly tested, but it -should- work.<<\r\n\r\nChose a class by setting your skills to be Major, Minor or Nonexistant.\r\n\r\nMajor skills have a minimum of 25 and a maximum of 100. They will be learned at 100% efficiency.\r\nMinor skills have a minimum of 15 and a maximum of 50. They will be learned at 50% efficiency.\r\nNonexistant skills have a minimum of 0 and a maximum of 0. They will be learned at 0% efficiency.\r\n\r\nSource file is included for fellow modders.\r\n\r\n\r\nINSTALL:\r\nUnpack archive into your Skyrim directory.\r\n\r\nHOW TO USE:\r\nFirst open up the archive txt files, it will make a lot more sense to be able to see what you\\'re working with.\r\n\r\n1) Open the text file \\\"CustomClass\\\"\r\n2) Replace the \\\"~\\\" with either 1, 2, or 3. (1 is nonexistant, 2 is minor, 3 is major)\r\n--- For non-professions, I recommend using five 1s, five 2s, and five 3s. For professions, I recommending setting one of them to 3 and the other ones to 1. (professions are alchemy, smithing, enchanting)\r\n3) Start your game.\r\n4) Type \\\"bat CustomClass\\\" in console and hit enter. (To open/close console, use tilda, the button next to the 1 on your keyboard.)\r\nDone\r\n\r\nFAQ:\r\nQ: Why?\r\nA: Because I don\\'t want to have to level up -every- skill to hit the level cap. I want my mage to be a mage and my rogue to be a rogue.\r\n\r\n\r\n\r\nQ: Does this mod conflict with similar skill-advancement slowing mods?\r\nA: No. This mod works on a spell effect system to apply a progression multiplier, while other\\'s mods most likely change the skill\\'s progression value itself.\r\n\r\n\r\n\r\nQ: Will this mod affect my level?\r\nA: No. Your level will remain as it was. Of course, without skills to level up, you can\\'t get to level 81 without another mod to help. But were you going to get to level 81 anyway? Did you really intend to learn each and every skill to 100? Light and heavy armor skills? One-handed and two-handed? I didn\\'t X)\r\n\r\n\r\n\r\nQ: Do I have to go through those steps for every new character I make?\r\nA: Yes. If you want to apply a class to your character, then yes.\r\n\r\n\r\n\r\nQ: Does this mod do anything if I don\\'t do those steps?\r\nA: No.",
+  "categoryId": "73",
+  "version": "1.0.0",
+  "author": "Troy1010",
+  "createdUnix": "1335450853",
+  "updatedUnix": "1335459909",
+  "containsAdultContent": false,
+  "uploadedBy": "Troy1010",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "56504",
+      "name": "Improved Class",
+      "version": "1.1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "Improved Class-15936-1-1-0.rar",
+      "uploadedUnix": "1335459909",
+      "modVersion": "1.1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7a14c05b7bd2f4d4f58510515d99b7e75812857cbbd2ee1ddd67ecd39f5a43b2/analysis/1406841844/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Improved%20Class-15936-1-1-0.rar?fid=56504&ttl=1535780765&ri=8192&rs=8192&setec=cf02b2025e07211ebaf085eaac65ce52"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 18573.0,
+  "modName": "Display Hair with helmet or Hat GUIDE",
+  "summary": "This is a simple guide that let the player display his or her favorite hairstyle while wearing any kind of headgears.",
+  "descriptionHtml": "Good day!\r\nAs a skyrim player and RP fan, I found that there was a certain problem with skyrim itself. This problem I\\'m talking about is baldness. \r\nMany of you most likely noticed that putting any kind of hat or helmet remove the current hair you have. For vanilla hair, it\\'s not so bad as long hair have a model that appear with hats and helmets, so you actually still have hair. Short hair get a texture, but still, it\\'s something.\r\nThe problem become big when you use moded hair styles, like a lot of people, I\\'m sure. This problem is total baldness, which is very annoying as many of us will then be forced to play without hair.\r\n\r\nSO here I come, with a temporary solution to this. I found a way to make hair visible under the helmets or hats. It\\'s very simple, BUT, because there is always a BUT, it\\'s largely untested and might mess with other things.\r\nWhile there is an image guide, I\\'m adding writen instructions.\r\n\r\n1- Open the creation kit.\r\n2- Select \\\"File > Data\\\"\r\n3- Check the hair mod that contains the hair you want to see under your hat. Also check the main file, Skyrim.esm. Note that you must not have an active file yet. You will be creating one here.\r\n4- Now that you have the mods loaded, go in the \\\"Character\\\" section in the object Window, then in \\\"Headpart\\\" and either female or male. In this guide I will be using Appachii hair mod, so you\\'ll see the female section.\r\n5- Now is the \\\"hard\\\" part. You must find the hair you want in the list. A good way to do this is to go edit a random character of the sex you want and change his/her hairstyle to find the one you want, then note the hairstyle name. DO NOT SAVE THE CHANGE ON THIS CHARACTER. It won\\'t work anyway, there is another guide somewhere on the nexus that explains how to change NPC hair.\r\n6- Once you have the name, double-click it.\r\n7- In the new window that is now open, you can edit the hair. HEre, you must go to the \\\"Type\\\" section. It should normaly display \\\"Hair\\\". Change it to \\\"Misc\\\". This is where I am uncertain if the changes affect anything else in the game.\r\n8- Now that you have changed the type, click Ok.\r\n9- Now, go to \\\"File > Save\\\". You will be asked to name your save. Find a good name, something that will show you directly what this mod is, in case you want to remove it later.\r\n10- Now, go to the Skyrim Launcher and make sure the mod is active. Once done, start the game.\r\n11- Now, make sure your character have the hairstyle you just edited, then get a hat and equip it.\r\n12- There, normally, you should have the hat on and the hair displayed!\r\n\r\nRemoving it:\r\nSo, this might happen to everyone as, like I said, I\\'m unsure if anything else is affected. To remove these changes is simple, simply delete the mod you just created from the Data folder.\r\n\r\nIssues:\r\nI have not seen any, but I have not tested enough to be fully sure. Please report anything you find in the comment section.\r\n\r\nNote:\r\nIn the character screenshot, you will likely notice that I\\'m not using much of the vanilla stuff :D\r\nHowever, don\\'t worry, you don\\'t need any of these to make the hair be displayed.\r\n\r\nAlso note that this makes the hair CLIP through the headgear. This means that if you use a fancy, high up in the air hairstyle, it WILL look odd with the helmet on.\r\n\r\nPermission:\r\nIt\\'s not much, but I would like you to ask me before uploading this elsewhere. Thank you.\r\n\r\nCredit:\r\nAn hair modder and Bethesda! :D",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "FireFangs",
+  "createdUnix": "1339378721",
+  "updatedUnix": "1339378945",
+  "containsAdultContent": false,
+  "uploadedBy": "FireFangs",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "67252",
+      "name": "HairAndHeadgear",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1435",
+      "fileName": "HairAndHeadgear-18573-1-0.rar",
+      "uploadedUnix": "1339378945",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9cae77e8d57f6360df3b5203a455f3b535bacb83490ff2eb8e55ca9983020bc8/analysis/1406951766/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HairAndHeadgear-18573-1-0.rar?fid=67252&ttl=1535785512&ri=8192&rs=8192&setec=00933bdebba4871fac0279c561c4f734"
+    }
+  ]
+}

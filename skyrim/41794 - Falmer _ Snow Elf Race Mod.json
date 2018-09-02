@@ -1,0 +1,32 @@
+{
+  "modId": 41794.0,
+  "modName": "Falmer _ Snow Elf Race Mod",
+  "summary": "Does what it says on the title, a Snow Elf Race mod for Skyrim (No Dawnguard required)\r\n",
+  "descriptionHtml": "Does what it says on the title, a Snow Elf Race mod for Skyrim (No Dawnguard required)\r\nHowever, you may need a race compatibility mod.\r\n\r\nYou have a unique ability(Frostbitten-100% resistant to frost) and power(Cloak of Auri-El) Ever so slightly higher starting stats due to the Snow Elves being of the first ancient, pure Mer. \r\nThe diffuses for ages 40 and 50 do not work as of yet, working on it.\r\nTo get the correct eye colour for males, simply slide the sex option to female and back, it should work (Also working on remedying this...)\r\nEnjoy :D\r\nOh, guys, PLEEEEEASE tell me if some diffuses are missing...My archiver is a little faulty.\r\n\r\nFIX FOR FAULTY IN-GAME TEXTURES\r\nIf the race comes out looking all wonky (ei lumo purple skin) this should work:\r\n\r\nYou need to get a .bsa unpacker (Fallout Mod Manager works for this), and expand SnowElfRaceMod, expand textures, expand actors, expand character. You should now see the tier named \\'snowelf\\' Select that tier and unpack it into your Skyrim file directory (Data, Textures, Actors, Character.) \r\nIf it has unpacked into a multi-file named \\'textures\\' etc, etc, simply find \\'snowelf\\' then cut and past it under actors. In the \\'snowelf\\' file you should see multiple eye diffuses and two files marked \\'Male\\' and \\'Female\\' containing their respective head, body, and hand diffuses. This should then load the textures properly in-game. Thanks to NCRForever for bringing this to my attention :)",
+  "categoryId": "34",
+  "version": "1",
+  "author": "MSLexis",
+  "createdUnix": "1378574247",
+  "updatedUnix": "1378574211",
+  "containsAdultContent": false,
+  "uploadedBy": "MSLexis",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000052976",
+      "name": "SnowElfRace",
+      "version": "01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "12062",
+      "fileName": "SnowElfRace-41794-01.rar",
+      "uploadedUnix": "1378574211",
+      "modVersion": "01",
+      "virusScanUrl": "https://www.virustotal.com/file/3b7f4e80f4a7ba6b9e9550c014409f5e0e836ce92665336bdda77b719d684b99/analysis/1407712705/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SnowElfRace-41794-01.rar?fid=1000052976&ttl=1535822637&ri=8192&rs=8192&setec=c058f77b2f85f60a77e8013a53f0da02"
+    }
+  ]
+}

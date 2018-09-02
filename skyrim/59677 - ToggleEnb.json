@@ -1,0 +1,32 @@
+{
+  "modId": 59677.0,
+  "modName": "ToggleEnb",
+  "summary": "A small program to disable and re-enable enb.",
+  "descriptionHtml": "This is something I wrote to make installing, removing and configuring mods faster. Setting up mods often means starting and stopping Skyrim a dozen or so times till you are sure the load order and file layout are correct, and the mods are working correctly. waiting 30 seconds for Enb to load each time is absurd. Simply run ToggleEnb.exe to disable Enb, configure your mods and whatnot, then click OK in ToggleEnb box to re-enable Enb.\r<br />Closing ToggleEnb from Task Manager or killing the process by other means will not re-enable Enb, but that can be fixed by re-running ToggleEnb and closing it via the means I have provided.\r<br />\r<br />You can also use [url=http://www.nexusmods.com/skyrim/mods/36177/?]Borderless Window by [b]virusek[/b][/url] and [url=http://www.nexusmods.com/skyrim/mods/36125/?]Double Cursor Fix by [b]virusek[/b][/url] without them conflicting with Enb&#39;s own borderless window and cursor fix solutions. If you choose to install them then run and close ToggleEnb once to disable them; they will be re-enabled when you start ToggleEnb.\r<br />\r<br />HOW IT WORKS:\r<br />When ToggleEnb is started it renames d3d9.dll in the Skyrim folder to d3d9.disabled, in the SKSE Plugins folder BW_plugin.disabled to BW_plugin.dll and DCF_plugin.disabled to DCF_plugin.dll. When you close the Dialog box, the process is reversed. ToggleEnb doesn&#39;t need to be run from your Skyrim folder, it should find the correct file paths itself using the HKLM&#92;Software&#92;Bethesda Softworks&#92;Skyrim &#34;Installed Path&#34; registry key. If the key does not exist, or does not point to your Skyrim folder then ToggleEnb will not work.\r<br />ToggleEnb only renames the 3 files and reads the registry key above, and does not establish network connections.\r<br />VirusTotal report is [url=https://www.virustotal.com/en/file/63e962454ae1397c24062c5d68087453b001f66f5bcbbd282d87a87ccddac451/analysis/1415167572/]HERE[/url].\r<br />\r<br />Currently, the source code for ToggleEnb is too ugly to show others, so source will be released under the GNU GPL v3 license after it has been re-organized and beautified.",
+  "categoryId": "39",
+  "version": "1.0.0",
+  "author": "overclucker",
+  "createdUnix": "1415168605",
+  "updatedUnix": "1415168595",
+  "containsAdultContent": false,
+  "uploadedBy": "overclucker",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000133980",
+      "name": "ToggleEnb",
+      "version": "1.0.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "ToggleEnb-59677-1-0-0.7z",
+      "uploadedUnix": "1415168595",
+      "modVersion": "1.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/63e962454ae1397c24062c5d68087453b001f66f5bcbbd282d87a87ccddac451/analysis/1415168702/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ToggleEnb-59677-1-0-0.7z?fid=1000133980&ttl=1535847015&ri=8192&rs=8192&setec=06eb0f1e62dd0f1b4c096ebffdde9773"
+    }
+  ]
+}

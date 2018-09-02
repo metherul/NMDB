@@ -1,0 +1,48 @@
+{
+  "modId": 30281.0,
+  "modName": "No Encumbrance Ferryman",
+  "summary": "Allows you to hire the Ferryman even when your character is over-encumbered",
+  "descriptionHtml": "Update: someone requested a BSA version of the mod to keep their script folder clean, so I\\'ve uploaded it. If you are using the Nexus Mod Manager to install mods, I recommend you download the BSA version instead of the loose file version (load order of the \\'NoEncumbranceFerryman.esp\\' does not matter). If you are using the Mod Organizer, then it doesn\\'t really matter which version you use (just make sure you do not install both).\r\n\r\nNo Encumbrance Ferryman\r\n\r\n==================\r\nRequirements:\r\n==================\r\n\r\n- Dawnguard DLC\r\n\r\n\r\n==================\r\nDescription:\r\n==================\r\n\r\n*Dawnguard DLC is required*\r\n\r\nEver wonder why you can\\'t hire the Ferryman when your character is (even slightly) over-encumbered? A Skyrim update removed the encumbrance check for carriages, but hasn\\'t done the same for ferries, so I thought I\\'d take some initiative.\r\n\r\nThis mod removes the encumbrance check for ferries so your character can hire the ferryman even if s/he is over-encumbered.\r\n\r\n\r\n==================\r\nDetails:\r\n==================\r\n\r\nI simply commented out the appropriate lines for the encumbrance check in the ferryman script. Clean and simple.\r\n\r\nThis mod will conflict with any mod that edits the ferryman script from Dawnguard. Otherwise, there will be no possible conflict what-so-ever.\r\n\r\n\r\n==================\r\nInstallation:\r\n==================\r\n\r\nI use the Mod Organizer. I highly recommend it because unlike manual installation or traditional mod managers, it will not install files directly into your game data folder, so there is no chance of leaving behind orphan files when you uninstall mods.\r\n\r\nOtherwise, to install manually, just extract the archive into the game folder. Might want to double check to make sure \\'FerrySystemScript.pex\\' is in the .../data/script/ folder.\r\n\r\n\r\n==================\r\nUn-Installation:\r\n==================\r\n\r\nUninstall using the same mod manager you installed it with. If uninstalling manually, delete \\'FerrySystemScript.pex\\' from .../data/script folder. That\\'s it.\r\n\r\nIt\\'s not a new script, but a modified copy of a base DLC script, so it won\\'t leave orphan crap in your save game or spam your papyrus log.\r\n\r\n\r\n==================\r\nChangelog:\r\n==================\r\n\r\n21/04/2013 - BSA version uploaded\r\n21/01/2013 - Initial Release\r\n\r\n==================\r\nContact Details:\r\n==================\r\n\r\nMy username is Ripple on both the official Bethesday forums and the Nexus. You know the rest.\r\n\r\n\r\n==================\r\nCredits:\r\n==================\r\n\r\nThanks to Bethesda for creating Skyrim.\r\nThanks to the Oblivion/Fallout 3/Fallout NV/Skyrim modding communities for advice and help throughout the years. \r\n\r\n\r\n==================\r\nLicensing/Legal:\r\n==================\r\n\r\nIt\\'s a very simple (and hopefully clean) fix. You can do whatever you want with this. It took me longer to type up this readme than to edit/re-compile the script.\r\n",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Ripple",
+  "createdUnix": "1358801990",
+  "updatedUnix": "1366530075",
+  "containsAdultContent": false,
+  "uploadedBy": "ripple",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000004102",
+      "name": "No Encumbrance Ferryman - loose file version",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "No Encumbrance Ferryman-30281-1-0.7z",
+      "uploadedUnix": "1358802075",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b2c3593f77d863cc10a9bc74fe696cff64043107ac4e533685df8b9ddc1df8b0/analysis/1407372868/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20Encumbrance%20Ferryman-30281-1-0.7z?fid=1000004102&ttl=1535804970&ri=8192&rs=8192&setec=5bd221583ea9e3155a482eead5aac902"
+    },
+    {
+      "fileId": "1000025633",
+      "name": "No Encumbrance Ferryman - BSA version",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "No Encumbrance Ferryman - BSA version-30281-1-0.7z",
+      "uploadedUnix": "1366530075",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/756f6c34f585b4bfd035b63292d1cd77bab657810619fec54b493c3ce2d6d3ea/analysis/1407532382/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20Encumbrance%20Ferryman%20-%20BSA%20version-30281-1-0.7z?fid=1000025633&ttl=1535804970&ri=8192&rs=8192&setec=6a2b9f6f1203875f20b551165fd2b2b0"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 33093.0,
+  "modName": "Skyrim HearthFire LakeViewFix",
+  "summary": "Fix game crash in LakeView manor.",
+  "descriptionHtml": "First of All, sorry for my bad English. I am a Modmaker from Ukraine and my English is very poor.\r\n\r\nI find a bug with game crash in LakeView manor (HearthFire DLC). I try to find FIX in Internet, but without any results.\r\nThe problem is very popular and I just don\\'t understand, why it still hasn\\'t been fixed.\r\n\r\nThen i try to fix it by my own.\r\nThe problem was just in simple collision marker (00000021) in LakeView manor. I just don\\'t understant why developers put market in that place. Collision markers in this DLC are used to block NavMeshes, but this collision is placed in the corner! NPC will newer get over there!\r\n\r\nSo I just delete it. After that, i don\\'t have any problem with crashes.\r\n\r\nInstallation:\r\n\r\n1. Export archive in your Skyrim Data folder.\r\n2. Activate plugin in launcher or NexusModManager.",
+  "categoryId": "95",
+  "version": "",
+  "author": "Mostick",
+  "createdUnix": "1362924135",
+  "updatedUnix": "1362923262",
+  "containsAdultContent": false,
+  "uploadedBy": "Mostick",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000016475",
+      "name": "LakeViewFIX",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "LakeViewFIX-33093-1-0.rar",
+      "uploadedUnix": "1362923262",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/14f89ccc60c26028843fc3b1cc299962f77fe541658256a2116df4c0ac2abe32/analysis/1407462864/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LakeViewFIX-33093-1-0.rar?fid=1000016475&ttl=1535809997&ri=8192&rs=8192&setec=5f5e317c7b584aef6d49a87568aa6235"
+    }
+  ]
+}

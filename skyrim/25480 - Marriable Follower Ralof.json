@@ -1,0 +1,48 @@
+{
+  "modId": 25480.0,
+  "modName": "Marriable Follower Ralof",
+  "summary": "Ralof is marriable and can be a follower.",
+  "descriptionHtml": "Ralof is marriable and can be a follower. Make love, not war&#33;\r<br />\r<br />Be on the side of the Sons of Skyrim and win the Civil War. Then talk to Ralof. Don&#39;t forget an Amulet of Mara.\r<br />\r<br />After the wedding he will not speak about war any more. The &#34;ugly&#34; line can be said only once. You both have Lover&#39;s Comfort at the same time, as in my other marriage mods.\r<br />\r<br />I included here an option for divorcing him, and you&#39;ll be able to remarry after it. How to divorce: dismiss him if he is your current follower, throw all of Bonds of Matrimony out of your inventory, talk to him and say that you want a divorce.\r<br />\r<br />It is compatible with Hearthfire, and doesn&#39;t require it.\r<br />\r<br />---About Hadvar and some vague plans---\r<br />This mod does not include Hadvar, and none of my mods includes Hadvar. He has unique voice, to make a proper mod for him to marry and follow I must create appropriate replies, it can&#39;t be done in a rush. Since many people are interested in Hadvar I&#39;ll try to make a mod of him, but not now. People ask about other NPCs as well, so I&#39;m planning to make anything universal and include Hadvar in there, but it isn&#39;t in the works yet, just plans.\r<br />For now you can use console for Hadvar. He will have follower&#39;s and marriage dialogues and act like a normal marriable follower, but will say nothing.\r<br />prid &#34;0002bfa2&#34; (selecting him)\r<br />addfac 00019809 1 (adding to PotentialMarriageFaction)\r<br />addfac 0005c84d 1 (adding to PotentialFollowerFaction)\r<br />setRelationshipRank player 1 (you are friends now, it&#39;s enough for follower&#39;s and marriage dialogues)\r<br />addFormToFormList 00047a00 001074bf (registering his voice in VoicesMarriageAll)\r<br />addFormToFormList 000cce4e 001074bf (and in VoicesMarriageNord)\r<br />addFormToFormList 0003b4a5 001074bf (and in DefaultNPCVoiceTypes, needed for followers)\r<br />addFormToFormList 000c78e7 001074bf (and in VoicesFollowerAll)\r<br />addFormToFormList 000d23ae 001074bf (and in VoicesFollowerRough)\r<br />If you have used these commands, arrived to the wedding cermony, Maramal and guests are in places and he isn&#39;t there, move him to you while in the Temple of Mara:\r<br />&#34;0002bfa2&#34;.moveto player\r<br />If he got stuck when should say his vow, type this:\r<br />&#34;0002bfa2&#34;.say 00075c9d\r<br />\r<br />On Steam [url=http://steamcommunity.com/sharedfiles/filedetails/?id=78641656]http://steamcommunity.com/sharedfiles/filedetails/?id=78641656[/url]\r<br />\r<br />Version for Skyrim Special Edition:\r<br />on Nexus [url=http://www.nexusmods.com/skyrimspecialedition/mods/7794/?]http://www.nexusmods.com/skyrimspecialedition/mods/7794/?[/url]\r<br />on Bethesda.net [url=https://mods.bethesda.net/#en/workshop/skyrim/mod-detail/3563303]https://mods.bethesda.net/#en/workshop/skyrim/mod-detail/3563303[/url]",
+  "categoryId": "33",
+  "version": "2.0",
+  "author": "Ilhe",
+  "createdUnix": "1350181522",
+  "updatedUnix": "1358116620",
+  "containsAdultContent": false,
+  "uploadedBy": "Ilhelahve",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "93744",
+      "name": "MarriableFollowerRalofAsBsa 1_0",
+      "version": "",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "59",
+      "fileName": "MarriableFollowerRalofAsBsa 1_0-25480-.zip",
+      "uploadedUnix": "1350181645",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/98eb8ebab84a270ef73f8d22906b0593db8f7460ec1b04c1bddba00e926e02fe/analysis/1407220807/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MarriableFollowerRalofAsBsa%201_0-25480-.zip?fid=93744&ttl=1535797029&ri=8192&rs=8192&setec=ea682bab33a3f9d8752a978bb87341bb"
+    },
+    {
+      "fileId": "1000002132",
+      "name": "MarriableFollowerRalofAsBsa 2_0",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "63",
+      "fileName": "MarriableFollowerRalofAsBsa 2_0-25480-.zip",
+      "uploadedUnix": "1358116620",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/2bda250fe182279a3ad4f82bc0f4cfc866f05df528de96664270b6111ad01795/analysis/1407351903/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MarriableFollowerRalofAsBsa%202_0-25480-.zip?fid=1000002132&ttl=1535797030&ri=8192&rs=8192&setec=0975bf8d6d4555b385c193f6bd8e5ade"
+    }
+  ]
+}

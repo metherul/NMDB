@@ -1,0 +1,32 @@
+{
+  "modId": 2909.0,
+  "modName": "PEX Decompiler",
+  "summary": "Decompiler for compiled PEX scripts.",
+  "descriptionHtml": "A utility that decompiles PEX files into human-readable format similar to assembly languages with a touch of C syntax.\r\n\r\nWindows version uploaded only. Tested only on Windows 7 x64 so far. Untested Linux and OSX versions are available and will upload if there are requests.\r\n\r\nI hope to make a compiler for the decompiled script syntax by the end of this week or at the beginning of the next week.\r\n\r\n[b]Changelog[/b]\r\nVersion 0.99a:\r\n[list]\r\n[*] Fixed float decoding for 0 and subnormal numbers.\r\n[/list]\r\nVersion 0.99\r\n[list]\r\n[*] Switched positions of type and name for PROP headers to make it consistent with variable declarations.\r\n[*] Moved property flags to PROP headers, between the property name and user flags.\r\n[*] Converted user flags from hexadecimal number to character-based flags inspired by linux file permission flags.\r\n[*] Properly writing DEFAULT state in debug info.\r\n[*] Made the strings double-quoted to differentiate them from the identifiers.\r\n[*] Added .00 to whole number floats to clearly distinguish them from integers.\r\n[*] Fixed broken property handlers.\r\n[*] Object parent class not written if there is none.\r\n[*] Replaced newlines in a string with whitespaces to make it easier on the compiler.\r\n[/list]\r\n\r\n[b]Installation[/b]\r\nWindows: Unpack the MSI file from the RAR archive and then install it.\r\n\r\n[b]Usage[/b]\r\nThe utility is very simple, with a single \\'Decompile...\\' button which allows selection of file(s) to be decompiled. One or more selected scripts will be decompiled and saved as .dpex files in the same directory as the source .pex scripts. Optionally, the string table and debug info may be written into the decompiled script by checking the appropriate checkboxes.\r\n\r\nThe decompiler assumes that the source .pex script is valid and will not check its format except for the magic signature at the beginning of the file. Attempts to decompile an invalid script may produce garbage results or even crash the program.\r\n\r\nThe utility should display a \\'Done\\' message when it finishes decompilation. Any other message or no message at all means that an error has occurred.\r\n\r\n[b]Syntax[/b]\r\nSyntax of the decompiled scripts will be most familiar to those familiar with assembly languages or at least the format of the binary .pex scripts. Declarations starting with a dot (.) declare a \\'segment\\' of the script. Mandatory segments are .FLAGS, which contains definitions of global user flags, and .OBJECTS which contains the scripts objects (the main code). Optionally, a .STRINGS segment may contain the string table and .DEBUG segment may contain debug info.\r\n\r\nCurved brackets ({}) are used to define user flags for various entities. For example, variables are declared with the following syntax:\r\n[code]type name = value {user_flags}[/code]\r\nSimilarly, function headers are in the following format:\r\n[code]return_type FUNCTION name(arugments) {user_flags}[/code]\r\n\r\n@doc keyword is used for documentation comments, inspired by the Docblock syntax.\r\n\r\nInstruction mnemonics have been taken from the PEX format specification on the uesp.net wiki: http://www.uesp.net/wiki/Tes5Mod:File_Formats\r\n\r\n[b]Todo[/b]\r\n[list]\r\n[*] [s]Properly write DEFAULT state in debug info[/s]\r\n[*] [s]Convert property flags to more human-readable format and move them to PROP header[/s]\r\n[*] More useful error messages.\r\n[*] Recursive directory decompilation\r\n[*] Command line invocation\r\n[*] Nicer interface, maybe\r\n[/list]\r\n",
+  "categoryId": "39",
+  "version": "0.99a",
+  "author": "OnelessName",
+  "createdUnix": "1323255056",
+  "updatedUnix": "1324253728",
+  "containsAdultContent": false,
+  "uploadedBy": "OnelessName",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "11858",
+      "name": "PEX Decompiler 0 point 99 for Windows",
+      "version": "0.99a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "15267",
+      "fileName": "PEX Decompiler 0 point 99 for Windows-2909-0-99a.rar",
+      "uploadedUnix": "1324253728",
+      "modVersion": "0.99a",
+      "virusScanUrl": "https://www.virustotal.com/file/f0b71e56498082063e66e317f6e08700c8a0b10231e98bff56ee79e37c3a277d/analysis/1406535249/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PEX%20Decompiler%200%20point%2099%20for%20Windows-2909-0-99a.rar?fid=11858&ttl=1535757547&ri=8192&rs=8192&setec=ca0d81eb1b1b2c94002fe700bd0478e7"
+    }
+  ]
+}

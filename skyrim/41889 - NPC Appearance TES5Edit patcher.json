@@ -1,0 +1,32 @@
+{
+  "modId": 41889.0,
+  "modName": "NPC Appearance TES5Edit patcher",
+  "summary": "Automatically merge NPC\\\\\\'s appearance changes with other mods",
+  "descriptionHtml": "This is the small TesVEdit script which will make \\\\\\'Inhabitants of Skyrim - NPC Overhaul\\\\\\' or similar mods compatible with other mods which change same NPC (for example Requiem/SkyRe or Immersive Weapons/Immersive Armors for NPC)\r\n\r\nIntended to use with Inhabitants of Skyrim (http://skyrim.nexusmods.com/mods/23755) but should work with similar mods too. \r\n\r\nAlgorithm:\r\n1) Takes NPC record from Inhabitants of Skyrim\r\n2) Finds the last override record\r\n3) Copy the last record to the new file as base\r\n4) Copy appearance data from Inhabitants of Skyrim (or similar mod) to the new file\r\nFollowing records will be copied:\r\n\\\\\\'Head Parts\\\\\\'\r\n\\\\\\'HCLF - Hair Color\\\\\\'\r\n\\\\\\'NAM7 - Weight\\\\\\'\r\n\\\\\\'\\\\\\'FTST - Head texture\\\\\\'\r\n\\\\\\'QNAM - Texture lighting\\\\\\'\r\n\\\\\\'NAM9 - Face morph\\\\\\'\r\n\\\\\\'NAMA - Face parts\\\\\\'\r\n\\\\\\'Tint Layers\\\\\\'\r\n\r\nHow does it differ from \\\"Merged patch\\\" feature of Tes5Edit?\r\nThe Merged patch is merging all changes from records, however this script is copying only appearance changes from base mod and merging it only with last override record. The Merged Patch is the great feature, but it\\'s not intended to use for NPC appearance since the result will include all appearance mod changes which may look totally incorrect.  \r\n\r\nHow to use:\r\n0. Ensure that base NPC appearance mods are placed in the top of the load order. The BOSS isn\\'t recognizing NPC_Overhaul_1.3.esp, so place it at the top manually or add to boss userlist\r\n1. Open TES5Edit and load all active mods (by default all active mods are selected)\r\n2. Select mods which are changing NPC appearance (NPC_Overhaul_1.3.esp and Follower_Addon_V2.esp) (You can select a few of them by holding Ctrl+Left click)\r\n3. Right click on one of the mods and click \\\\\\\"Apply Script\\\\\\\".\r\n4. Choose \\\\\\'Skyrim - NPC Overhaul Patcher\\\\\\' from the dropdown menu and click OK.\r\n5. Enter the name of the new file (without extension), for example \\\\\\'NPC Overhaul patch\\\\\\' and select \\\\\\'OK\\\\\\'\r\n6. Select yes to all \\\\\\'Add masters\\\\\\' messages if they will appear\r\n7. Wait for the patcher to finish\r\n8. Save the new file and place it at the bottom of the load order list (before Bashed Patch 0.esp)\r\n9. You can safely deactivate now NPC_Overhaul_1.3.esp and Follower_Addon_V2.esp to preserve load slots.",
+  "categoryId": "39",
+  "version": "1.1",
+  "author": "pieron",
+  "createdUnix": "1378729243",
+  "updatedUnix": "1379615520",
+  "containsAdultContent": false,
+  "uploadedBy": "Pieron",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000056562",
+      "name": "NPC Appearance patcher",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "NPC Appearance patcher-41889-1-1.zip",
+      "uploadedUnix": "1379615520",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/f3d41528e12364a981008233692505cadc2d5bd5c66e56b1a6784d2ef25cd102/analysis/1407728585/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NPC%20Appearance%20patcher-41889-1-1.zip?fid=1000056562&ttl=1535822765&ri=8192&rs=8192&setec=c72f863fd7f7bd08843274f111c727c9"
+    }
+  ]
+}

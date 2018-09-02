@@ -1,0 +1,32 @@
+{
+  "modId": 4373.0,
+  "modName": "purity of revenge fix",
+  "summary": "Fix for purity of revenge quest",
+  "descriptionHtml": "Fix for purity of revenge quest when kodlak\\'s death doesn\\'t compute :D\r\n\r\nExtract txt to skyrim dir\r\n\r\ningame in console type \\\"bat kodlak\\\" and that\\'s it\r\n\r\ncomment by: Lord Licorice\r\n\r\nI was looking for exactly this bug fix, thank you! For those wondering how to use it, go into Jorrvaskr after you\\'ve retrieved one of the Glenmoril Coven witch heads and speak to Vilkas. When the conversation ends, you\\'ll get the message \\\"Completed: Blood\\'s Honor\\\", but the subsequent quest won\\'t start. Pull up the console (~) and type \\\"bat kodlak\\\". It should immediately replace your follower (if any) with Vilkas and display the message \\\"Started: Purity of Revenge\\\", allowing you to continue and complete the quest line.\r\n\r\nNote that you have to place the kodlak.txt file in the /skyrim/ folder itself, NOT /skyrim/Data/, and you must be inside Jorrvaskr when you run the command. ",
+  "categoryId": "95",
+  "version": "1.3",
+  "author": "droot",
+  "createdUnix": "1324598769",
+  "updatedUnix": "1324598819",
+  "containsAdultContent": false,
+  "uploadedBy": "droot",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "13027",
+      "name": "Kodlak",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Kodlak-4373-1.7z",
+      "uploadedUnix": "1324598819",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/5059d4c9bc8d63d5d825c0e8c1e451177e6a7757e3dd59da0ec224e89abd8173/analysis/1406548687/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Kodlak-4373-1.7z?fid=13027&ttl=1535760101&ri=8192&rs=8192&setec=87c5e45a5905f91a0c58ec683d6cb886"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 21788.0,
+  "modName": "Oblivions Deadlands - Resource",
+  "summary": "Create Mehrunes Dagon\\'s realm of Oblivion - The Deadlands!  This is a resource pack for all mod-makers extracted from Monster Wars.",
+  "descriptionHtml": "Ironman5000 Modders Resource for the Deadlands\r\n==============================================\r\n\r\n\r\nATTENTION: For the full experience use this with [url=http://skyrim.nexusmods.com/mods/18957]Hanaisse\\'s Oblivion Gates in Skyrim Modders Resource[/url]\r\n\r\n\r\nDescription\r\n===========\r\n\r\nIf you have played my latest version of [url=http://skyrim.nexusmods.com/mods/18997]Monster Wars[/url] then there is a good chance you came across The Deadlands, the Oblivion realm of Mehrunes Dagon.  Now you can construct your own!\r\n\r\nWith this package you can make your own realms in the exact same way, I suggest making full use of all all the aspects of this mod together for the right atmosphere,\r\n\r\n- Many static objects for construction including Oblivion cave systems and the Sigil keeps\r\n- Daedra furniture including a throne and a falmer ambush pod\r\n- Sigil Stone with working script (instructions below)\r\n- Weather and Climate, with a new cloud texture for that hellish look\r\n- Imagespaces named for specific areas - Deadlands, caves, and sigil keep\r\n- Land texture with bloodgrass effect, press H in the render window to bring up the landscape edit setting and mine is at the top\r\n- Lighting to suit the weather and imagespaces provided, may look weird in normal cells\r\n- Moveable Blood Banners, 4 wind strengths\r\n- Doors retextured in the daedric theme\r\n\r\nIf I make additional changes to the MoWars Deadlands then I will update this resource file\r\n\r\n\r\nIf you want some daedric looking monsters I have made a few retexture mods that you can use,\r\n\r\n- [url=http://skyrim.nexusmods.com/mods/6962]Daedric Chaurus[/url]\r\n- [url=http://skyrim.nexusmods.com/mods/7320]Daedric Spiders[/url]\r\n- [url=http://skyrim.nexusmods.com/mods/6955]Fiendish Falmer - Retexture Mod[/url]\r\n- [url=http://skyrim.nexusmods.com/mods/6957]Fiendish Falmer Weapons and Armour[/url]\r\n\r\n\r\nHow it Works\r\n============\r\n\r\nTo save a considerable amount of file space much of the data was done using Texture Sets instead of including many mesh files, although there are a few mesh files that have the desired specular and glossiness of deadic furniture.\r\n\r\nTo use this resource there are two options,\r\n\r\n1) Starting from scratch: dump the files into your data folder and load the esp in the CK.  Build your mod from here, rename the esp when you are done!\r\n\r\n2) Add this to you existing mod:\r\n\r\n- This will require using [url=http://skyrim.nexusmods.com/mods/5064]TesVsnip[/url]\r\n- Load your esp first (that\\'s what I do), then this one.\r\n- Drop this esp to see the sub-categories such as TXST, STAT, WTHR.  Right click and \\\"copy to\\\" your esp, do this with all entries.\r\n- Go to your esp, drop it and highlight the \\\"TES\\\" under the title of your file.  Under Spells click \\\"Sanitize\\\" then click \\\"Find duplicate FormID\\\", hopefully there will be no pop-ups but if so...\r\n- ...it will highlight an object, right click it and select \\\"Edit\\\".  You will see the Form ID in this window, change one or more values for it to conform with whatever it clashed with, and that\\'s them working together!\r\n- Repeat the find duplicate ID process until they are gone.\r\n\r\nWhen you are done with this process your mod and this will be successfully merged.\r\n\r\n\r\nHow the Sigil Stone Works\r\n=========================\r\n\r\nThe sigil Stone has been set as a misc object that once activated will teleport the player to a desired location (the oblivion gate exit).  Big thanks to gasti89 for the script ;)\r\n\r\nOpen the script properties and highlight the \\\"teledest\\\" property name, then you will the property type to the right.  The best way to do this is bring up your desired \\'exit\\' object/door in the render window and use the \\\"pick reference in render window\\\" button.  By doing this you have selected your extraction point, click ok and you\\'re done!\r\n\r\n\r\nRedistribution:\r\n===============\r\n\r\nUse this how you will, when preparing your mod I recommend using the Archive program in the Skyrim folder to create a BSA file",
+  "categoryId": "82",
+  "version": "1",
+  "author": "Ironman5000",
+  "createdUnix": "1344232136",
+  "updatedUnix": "1344232874",
+  "containsAdultContent": false,
+  "uploadedBy": "Ironman5000",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "79145",
+      "name": "Resource - The Deadlands",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "67166",
+      "fileName": "Resource - The Deadlands-21788-1.7z",
+      "uploadedUnix": "1344232874",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/dbd8d21f41f8d3e618e2868ffb17416d3b14f06ba2dd39e70dd46fe4b2b1b047/analysis/1407073469/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Resource%20-%20The%20Deadlands-21788-1.7z?fid=79145&ttl=1535790912&ri=8192&rs=8192&setec=f3f4eb891cda70f0904a4714e322cf43"
+    }
+  ]
+}

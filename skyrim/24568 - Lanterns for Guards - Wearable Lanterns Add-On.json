@@ -1,0 +1,48 @@
+{
+  "modId": 24568.0,
+  "modName": "Lanterns for Guards - Wearable Lanterns Add-On",
+  "summary": "Gives hand-held Travel Lanterns to guards throughout Skyrim. Requires Wearable Lanterns.",
+  "descriptionHtml": "[center][color=#00FF00][size=7][font=\\\"Georgia\\\"]Lanterns for Guards[/font][/size][/color][/center]\r\n\r\nThis mod is an add-on for [color=#FBEC5D][b]Wearable Lanterns[/b][/color] that adds carried Travel Lanterns for guards to use randomly throughout Skyrim. They will have as much chance of carrying a lantern as they do torches, so you\\'ll see them sprinkled throughout the game. (They will only carry lanterns, not wear them.) As a side effect of modifying a leveled list (see Compatibility section), you will also see slightly more Travel Lanterns for sale in the Misc items category wherever torches are sold.\r\n\r\n[b]REQUIRES WEARABLE LANTERNS, [url=http://skyrim.nexusmods.com/mods/17416]AVAILABLE HERE.[/url][/b]\r\n\r\n[b][u]I will not be reading the comments on this page.[/u] If you would like to comment about Lanterns for Guards, please do so on the [url=http://skyrim.nexusmods.com/mods/17416]main Wearable Lanterns page[/url]. Thanks![/b]\r\n\r\n[center][color=#33FF33][size=5][font=\\\"Georgia\\\"]REQUIREMENTS[/font][/size][/color][/center]\r\n\r\n[b]REQUIRES[/b] Wearable Lanterns 2.1 or newer.\r\n[b]REQUIRES[/b] Skyrim 1.6.89.0 or newer.\r\n\r\nLoad order should not matter, but it\\'s probably a good idea to load this after Wearable Lanterns.\r\n\r\n[b]Current Lanterns for Guards users[/b]: You can install Lanterns for Guards from this page with no problem if you\\'re a current Lanterns for Guards user from when this file was available on the main Wearable Lanterns download page; the file here is exactly the same as the one you\\'re using now.\r\n\r\n\r\n[center][color=#33FF33][size=5][font=\\\"Georgia\\\"]INSTALLATION[/font][/size][/color][/center]\r\n\r\nJust use the Nexus Mod Manager and enjoy. I suggest you use the same version of this mod as you do Wearable Lanterns (normal, or No BSA version).\r\n\r\nIf you opt for the No BSA version of Wearable Lanterns and/or Lanterns for Guards, you may get a message warning you about overwriting the following files:\r\n\r\n_WL_lampgeneric01.dds\r\n_WL_lampgeneric01_n.dds\r\n\r\nThese are OK to overwrite. They are simply a copy of the lantern textures that are packaged with Wearable Lanterns. For compatibility reasons I needed to redistribute them with this add-on as well.\r\n\r\n[center][color=#33FF33][size=5][font=\\\"Georgia\\\"]KNOWN ISSUES[/font][/size][/color][/center]\r\n\r\nYou may need to play for a while to see guards carrying these lanterns if loading a save-game. This is because they are added with a Leveled List, and that list is only evaluated once when the actor is spawned (usually when you first encounter them). Such is the nature of leveled lists. Forcing them to respawn by whatever mechanism (killing them, and so on) can also work.\r\n\r\nFrom reports from users, users are seeing guards with lanterns without starting a new game. Starting a new game should not be necessary.\r\n\r\n[center][color=#33FF33][size=5][font=\\\"Georgia\\\"]TROUBLESHOOTING[/font][/size][/color][/center]\r\n\r\n[b][color=#FF4444]\\\"None of the guards use lanterns!\\\"[/color][/b]\r\n\r\nWhich guards use a lantern instead of a torch is entirely random; your experience will be completely unique. A guard can select to have a torch, a lantern, or neither, when he is spawned into the world for the first time. You may need to start a new game to see the full effects of this add-on.\r\n\r\n\r\n[b][color=#FF4444]\\\"I looted a lantern from a dead guard, but when I checked my inventory, it wasn\\'t there.\\\"[/color][/b]\r\n\r\nYou are not using Wearable Lanterns 2.1 or newer, which is required.\r\n\r\n[b][color=#FF4444]\\\"I equipped a lantern I looted from a guard, but I played a strange arm animation and I teleport somewhere whenever I exit an interior.\\\"[/color][/b]\r\n\r\nMy script that swaps the \\\"loot\\\" lantern with the \\\"player\\\" lantern failed to run. Verify that you are using Skyrim version 1.6.89.0 or newer. Also verify that you are not using Script Dragon, which has been known to cause certain events in my mods to fail to trigger. If you continue to experience this behavior (you play a \\\"table pick up\\\" animation when equipping a looted Travel Lantern), roll back to an earlier save before you installed the Lanterns for Guards add-on and refrain from using/looting Travel Lanterns from guards.\r\n\r\n\r\n[center][color=#33FF33][size=5][font=\\\"Georgia\\\"]COMPATIBILITY[/font][/size][/color][/center]\r\n\r\nShould be compatible with other mods that alter guards. I did not modify guards or their inventories directly.\r\n\r\nI modify one \\\"vanilla\\\" leveled list: [b]LItemTorch50[/b]. This will seed guards throughout the game with lanterns, as well as additional lanterns for purchase at vendors (under the Misc section). I figured that this would have the biggest impact on the game (nearly every guard in the game uses this list to decide whether or not he has a torch or lantern) while minimizing my incompatibility footprint.\r\n\r\nEnjoy!",
+  "categoryId": "85",
+  "version": "1.0",
+  "author": "Chesko",
+  "createdUnix": "1348513935",
+  "updatedUnix": "1348514240",
+  "containsAdultContent": false,
+  "uploadedBy": "Chesko",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "90259",
+      "name": "Lanterns for Guards - Optional Add-On",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "964",
+      "fileName": "Lanterns for Guards - Optional Add-On-24568-1-0.zip",
+      "uploadedUnix": "1348514154",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/10a1bb5ecfd5fbff342b63df92ad76c1eef6cab114daf4d9a95fe1d26f30cce7/analysis/1407185163/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lanterns%20for%20Guards%20-%20Optional%20Add-On-24568-1-0.zip?fid=90259&ttl=1535795574&ri=8192&rs=8192&setec=6f80f2d0a1bbddc4f374153061ae5b61"
+    },
+    {
+      "fileId": "90260",
+      "name": "Lanterns for Guards - Optional Add-On - No BSA",
+      "version": "1.0NoBSA",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "965",
+      "fileName": "Lanterns for Guards - Optional Add-On - No BSA-24568-1-0NoBSA.zip",
+      "uploadedUnix": "1348514240",
+      "modVersion": "1.0NoBSA",
+      "virusScanUrl": "https://www.virustotal.com/file/c7acd80694a13258754f5b3d954ce8bd3b9bf2144d80c29d22894dc36f3906b5/analysis/1407185165/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lanterns%20for%20Guards%20-%20Optional%20Add-On%20-%20No%20BSA-24568-1-0NoBSA.zip?fid=90260&ttl=1535795574&ri=8192&rs=8192&setec=0c88f18e48b2a11c80820fd458a667e6"
+    }
+  ]
+}

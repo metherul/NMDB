@@ -1,0 +1,32 @@
+{
+  "modId": 37244.0,
+  "modName": "Missing Apprentices",
+  "summary": "This mod implements the unfinished \\\"Missing Apprentices\\\" quest for the College of Winterhold. The quest lives up to its namesake in that you will be searching for four students who have gone missing.",
+  "descriptionHtml": "[b]=SUMMARY=[/b]\r\n\r\nThis mod implements the unfinished Missing Apprentices quest for the College of Winterhold. The quest lives up to its namesake in that you will be searching for four students who have gone missing.\r\n\r\nYou can begin the quest after joining the College by speaking with Phinis Gestor or by attending his lectures.\r\n\r\nNote: Missing Apprentices is not be confused with the Forgotten Names quest which also involves four apprentices.\r\n\r\n[b]=FEATURES=[/b]\r\n\r\n-Players can now complete the Missing Apprentices quest. \r\n--Players will receive a unique piece of clothing for doing so. \r\n\r\n-Players can begin the Missing Apprentices quest without having to listen to Phinis\\' lecture. \r\n\r\n-The Missing Apprentices quest is no longer a Miscellaneous quest. \r\n--It counts as a College of Winterhold quest and features log entries. \r\n\r\n-The quest is fully-voiced and uses the original voice actor to boot!\r\n\r\n[b]=INSTALLATION=[/b]\r\n\r\nPlease extract MissingApprentices.bsa and MissingApprentices.esp to Skyrim\\'s Data folder and ensure the mod is set to load before playing.\r\n\r\n[b]=COMPATIBILITY=[/b]\r\n\r\nThis mod was tested on Skyrim v1.9.32.0.8 and cleaned with TES5Edit v3.0.30.\r\n\r\nIt will not be compatible with any other mod that alters the Missing Apprentices quest or its NPC\\'s.\r\n\r\n[B]=KNOWN ISSUES=[/B]\r\n\r\n-Quest markers may not appear after loading a saved game. \r\n--This will be corrected upon traveling to a cell that does not contain a quest NPC or item.\r\n\r\n-New quest logs may not appear.\r\n--Can occur if mod is loaded after having started the Missing Apprentices quest\r\n\r\n---Stopping and restarting the quest via console will resolve this issue.\r\n----stopquest freeformwinterholdcollegeb\r\n----startquest freeformwinterholdcollegeb\r\n\r\n---Also, please thank myztikrice on Skyrim Nexus for finding this work-around. :)\r\n\r\n-Quest NPC\\'s may spawn with duplicate items.\r\n--An unfortunate but minor problem resulting from the scripts being used to correct quest NPC\\'s.\r\n\r\n[B]=DISCLAIMER=[/B]\r\n\r\n-Support for this modification will be provided at my discretion.\r\n\r\n-Please feel free to distribute this modification provided it remains unaltered.\r\n\r\n-Please contact me if you wish to alter or localize this modification.\r\n--I go by KainXavier on the Nexus network and Kain-Xavier on Steam.\r\n\r\n[B]=CHANGE LIST=[/B]\r\n\r\n[b]--v1.31--[/b]\r\n\r\n-Missing Apprentices quest no longer refires when player hears Phinis\\' lecture\r\n\r\n[b]--v1.3--[/b]\r\n\r\n-Fixed v1.2 patch quest shutting down prematurely.\r\n--This was causing quest NPC\\'s to disappear and quest items to be unobtainable.\r\n\r\n-Added a script to Rundi which will hopefully ensure he always appears frozen.\r\n\r\n[b]--v1.2--[/b]\r\n\r\n-Kick-starter quest is now disabled when the Missing Apprentices quest first loads. \r\n\r\n-v1.1 patch quest is now shut down when the Missing Apprentices quest shuts down.\r\n\r\n[b]--v1.1--[/b] \r\n\r\n-Quest NPC\\'s and items will respawn if they have been deleted or are missing. \r\n\r\n-Phinis will recognize and accept quest items obtained prior to loading the mod. \r\n\r\n-The Robes of Attainment increase Magicka regeneration by 125% in addition to providing the 5% skill gain bonus. \r\n-Thanks goes to Warsun99 for the suggestion! \r\n\r\n-Borvir and Rundi carry their daggers on their person rather than having them at their side.\r\n--This change was made to avoid issues with a script attached to the default dagger references.",
+  "categoryId": "35",
+  "version": "v1.31",
+  "author": "Kain-Xavier",
+  "createdUnix": "1371348553",
+  "updatedUnix": "1376764705",
+  "containsAdultContent": false,
+  "uploadedBy": "KainXavier",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000047588",
+      "name": "Missing Apprentices",
+      "version": "v1.31",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "158",
+      "fileName": "Missing Apprentices-37244-v1-31.zip",
+      "uploadedUnix": "1376764705",
+      "modVersion": "v1.31",
+      "virusScanUrl": "https://www.virustotal.com/file/7044ba863e6f172c7dd762e385f0bc4148bc5b3e48d48afa78f7a78f4885415d/analysis/1407685503/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Missing%20Apprentices-37244-v1-31.zip?fid=1000047588&ttl=1535816812&ri=8192&rs=8192&setec=c206ee75e6852f2356aa76858cb83adb"
+    }
+  ]
+}

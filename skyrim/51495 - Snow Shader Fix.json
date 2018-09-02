@@ -1,0 +1,48 @@
+{
+  "modId": 51495.0,
+  "modName": "Snow Shader Fix",
+  "summary": "Changes the Snow Shader to use the file that Bethesda included in the bsa but left out of the final release.",
+  "descriptionHtml": "Changes Vanilla snow material objects to use the snow shader mesh that was included by Bethesda in the bsa in meshes/landscape, but left out of the game.  This should be compatible with everything except mods that edit the same snow material objects.\r<br />\r<br />Changelog:\r<br />V1.1WH Optional file. Use only if you are experiencing disappearing Windhelm palace.  Use only one esp file.\r<br />v1.1 Edited snow material object I missed first time around  (Kudos to  insaneplumber for catching the error)\r<br />v1.0 Initial release\r<br />\r<br />Installation:  Load the esp file with your favorite manager and use BOSS to sort load order.  If BOSS does not recognize the file, put it somewhere in the middle of your load order.\r<br />\r<br />Uninstallation:  Untick the esp file in your load order or uninstall with your mod manager.\r<br />\r<br />Troubleshooting:  If you do not see snow on some walkways try using Static Mesh Improvement Mod SMIM http://www.nexusmods.com/skyrim/mods/8655/?   SMIM meshes have removed alpha layers which may help the snow shader effect.  If you are still having trouble, post a screenshot of the area so I can find it in my game.\r<br />\r<br />Screenshots are shown with No Snow Under the Roof http://www.nexusmods.com/skyrim/mods/51188/? to show compatibility.  The No Snow mod removes snow from under the roof and adds 3D snow on the roof.\r<br />\r<br />Permissions:  This uses all Vanilla assets modified using the Creation Kit.  You are free to do whatever with the file.\r<br />\r<br />Credits:  Originally got the idea when seeking better compatibility for the great Better Dynamic Snow mod with other mods that edited the farmhouses and other meshes.  If you have no compatibility issues, keep using BDS, however if you do have compatibility issues with No snow under the roof or Better Town Textures or other mods, you might want to try this one.\r<br />\r<br />My other mods:\r<br />Nightingale Hood Nighteye http://www.nexusmods.com/skyrim/mods/24454/?\r<br />Dispel Light Spell and Ring of Light http://www.nexusmods.com/skyrim/mods/24411/? \r<br />",
+  "categoryId": "78",
+  "version": "1.1",
+  "author": "JTT",
+  "createdUnix": "1393546538",
+  "updatedUnix": "1394403867",
+  "containsAdultContent": false,
+  "uploadedBy": "jacktthompson",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000099075",
+      "name": " SnowShaderFix",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": " SnowShaderFix-51495-1-1.7z",
+      "uploadedUnix": "1393574831",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/e0451e016dd4ae0b6c9b7f67bb07d16554729aa1948c0c1fa52664b6a7258882/analysis/1407953109/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/%20SnowShaderFix-51495-1-1.7z?fid=1000099075&ttl=1535833867&ri=8192&rs=8192&setec=5f482b80a7ef03a0282e585a112b0203"
+    },
+    {
+      "fileId": "1000100577",
+      "name": "SnowShaderFixWH",
+      "version": "1.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "SnowShaderFixWH-51495-1-1.7z",
+      "uploadedUnix": "1394403867",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/62830bdf60f30564c9dc6ce70a0a7cebf3c9a168ec714198c8f6de1913ad8f8b/analysis/1407975315/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SnowShaderFixWH-51495-1-1.7z?fid=1000100577&ttl=1535833868&ri=8192&rs=8192&setec=2c49c825fe4897d0fdeb7f4e48821c00"
+    }
+  ]
+}

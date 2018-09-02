@@ -1,0 +1,32 @@
+{
+  "modId": 86422.0,
+  "modName": "Rune Scroll Fix v1",
+  "summary": "A simple fix to make Rune Scrolls behave the same way as the original Rune spells.",
+  "descriptionHtml": "[b]Rune Scroll Fix v1[/b]\r<br />\r<br />---\r<br />[b]Description[/b]\r<br />\r<br />Rune Scrolls in Skyrim have a really annoying bug (maybe it&#39;s intentional but I don&#39;t know) where when you cast it, sometimes it won&#39;t damage the target even though it explodes.\r<br />\r<br />I fixed this by looking at the values of the spell Fire Rune and changing the Scroll&#39;s Area of Effect Ignores LOS to the same value (which is checked).\r<br />\r<br />Now you can proceed to enjoy spamming your 100 Scrolls of Fire Runes you hoarder you~\r<br />\r<br />---\r<br />Scope\r<br />\r<br />Changes are applied to the following spells:\r<br />\r<br />FireRuneScroll\r<br />FrostRuneScroll\r<br />ShockRuneScroll\r<br />\r<br />---\r<br />[b]Installation[/b]\r<br />\r<br />Just copy the .esp to your data folder and activate it in your load order.\r<br />\r<br />---\r<br />[b]Uninstallation[/b]\r<br />\r<br />Just remove the .esp from your data folder.\r<br />\r<br />",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "petrichorofsunday",
+  "createdUnix": "1504334681",
+  "updatedUnix": "1504334507",
+  "containsAdultContent": false,
+  "uploadedBy": "petrichorofsunday",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000253558",
+      "name": "Rune Scroll Fix v1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Rune Scroll Fix v1-86422-1-0.rar",
+      "uploadedUnix": "1504334507",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a3d4f9d8779125ea321286243f673e1ee51ce7c2d7bcac5504fedaa8200510c6/analysis/1504334822/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Rune%20Scroll%20Fix%20v1-86422-1-0.rar?fid=1000253558&ttl=1535875332&ri=8192&rs=8192&setec=265846034470c780b8ae14ea4569131f"
+    }
+  ]
+}

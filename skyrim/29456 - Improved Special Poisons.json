@@ -1,0 +1,48 @@
+{
+  "modId": 29456.0,
+  "modName": "Improved Special Poisons",
+  "summary": "Higher magnitude for Frenzy and Fear poisons, optional duration extension, and new poison types (Sedation and Resuscitation).",
+  "descriptionHtml": "There are two versions of this mod! First, the newer, more elaborate one:\r\n\r\nVersion 1.0b of this mod fixes Alchemy perks to improve special poison types like Fear and Frenzy, which don\\'t get enough of a boost in the vanilla game (see below for a description and leveling table).  After I made it, I decided to release a version in which Frenzy poisons last 30 seconds and Fear lasts 60 as well.\r\n\r\nAlso included are two ALL NEW poison types! These replace certain alchemy effects on the listed ingredients, but only the effects with either plenty of other potential ingredients, or ones which yield a poor-quality potion in their vanilla state.\r\n\r\n- SEDATION! (Lavender + Thistle Branch)\r\n- It\\'ll calm your enemy for 60 seconds, with the same potency as a Fear or Frenzy poison... the perfect gift for the peaceful poisoner in your life. (might be bugged for now... see below)\r\n\r\n- RESUSCITATION! (Briar Heart + Nightshade)\r\n- Give a deceased foe (or friend) a shot of arcane adrenaline with this substance, and they\\'ll have another 60 seconds in \\'em to fight by your side. Then they\\'ll sort of, just... crumble to ashes. You know how it is.\r\n\r\nKNOWN BUGS: In its current state, the Sedation poison may be bugged; if applied with a weapon which also deals physical damage, the damage will instantly cancel out the calm effect. If reverse-pickpocketed, however,  it still works. Also, when you land a hit with the Resuscitation poison, it\\'ll tell you that you have been poisoned and cause a hit effect. I don\\'t know how to fix this, but if someone does, PLEASE let me know! It\\'s irritating, and my CK knowledge is limited.\r\n\r\nAlso, what better to administer the poisons than my [url=http://skyrim.nexusmods.com/mods/29514]Poison Dart Launcher[/url] mod? It\\'ll get them there without harming your enemy... not physically, anyway.\r\n\r\n\r\n===============================================================================\r\nBelow you\\'ll find the description of my original file, which is still available, and only changes the Alchemy perks to affect the magnitude (no duration change, no value fix, no new effects).\r\n===============================================================================\r\n\r\nSo I spec\\'d a stealth archer, and avoided Illusion magic this time around... I thought, \\\"Oh, I\\'ll just make poisons, it fits the character better...\\\" only to find that Frenzy and Fear poisons are almost useless. Even with all the perks and a full set of Fortify Alchemy gear, they max out against enemies at about level 36, and that\\'s just utterly unacceptable. I looked in the CK, and the reason is, alchemy perks actually don\\'t even touch these \\\"influence effects\\\" at all! So this mod adds greater effectiveness to Frenzy and Fear with each tier of the Alchemist perk, as well as giving you the chance to double their effectiveness when you take the Poisoner perk. That way, you can poison enemies up to level 36 with just four perks: Alchemist 1, Alchemist 2, (Phsyician in between), and Poisoner.\r\n\r\nHere\\'s a table to show you what level of enemies you can poison at which perk levels (no fortify gear used). Note that your Alchemy skill level doesn\\'t affect this much:\r\n\r\n100, No Perks: Up to level 6 (ridiculous).\r\n100, Alchemist 1: Up to level 12. Plus Poisoner: Up to level 24.\r\n100, Alchemist 2: Up to level 18. Plus Poisoner: Up to level 36.\r\n100, Alchemist 3: Up to level 24. Plus Poisoner: Up to level 48.\r\n100, Alchemist 4: Up to level 30. Plus Poisoner: Up to level 60.\r\n100, Alchemist 5: Up to level 36. Plus Poisoner: Up to level 72.\r\nAlchemy at 30, Alchemist 1 + 2, Poisoner: Up to level 28.\r\nAlchemy at 50, Alchemist 1 + 2 + 3, Poisoner: Up to level 40.\r\n\r\nThen, with level 100, all perks, andthree pieces of Peerless Alchemy gear (total of 75% improvement), it reached 126. Though that\\'s a little high, it\\'s the only way to do the math, and I think the early-to-mid level scale way better now. If you invest in the perks early on, now it\\'ll actually make a difference.\r\n\r\n===============================================================================\r\n\r\nVERSION 1.0, BETTER FRENZY AND FEAR POISONS (just the Fear/Frenzy maxlevel boost) CONFLICTS: Anything which affects the perks \\\"Alchemist (1-5)\\\" or \\\"Poisoner.\\\"\r\n\r\nVERSION 1.0b, IMPROVED SPECIAL POISONS (max level boost, duration extension, value correction, and two new poison effects) CONFLICTS: Anything which affects the above, as well as anything which affects the ingredients of the aforementioned poisons. Note: Doesn\\'t affect DLC-based ingredients.\r\n\r\nEnjoy!",
+  "categoryId": "94",
+  "version": "1.0b",
+  "author": "rcavanah",
+  "createdUnix": "1357372571",
+  "updatedUnix": "1357441036",
+  "containsAdultContent": false,
+  "uploadedBy": "rcavanah",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000000075",
+      "name": "Better Frenzy and Fear Poison",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Better Frenzy and Fear Poisons-29456-1.zip",
+      "uploadedUnix": "1357372663",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/ebcd1de04fadedeb93e4fa951d37a94ee39b7b2322751722dd88f652a52ad717/analysis/1407337923/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Better%20Frenzy%20and%20Fear%20Poisons-29456-1.zip?fid=1000000075&ttl=1535803578&ri=8192&rs=8192&setec=e34775ce4e5d76458707bced53979e0e"
+    },
+    {
+      "fileId": "1000000326",
+      "name": "Improved Special Poisons",
+      "version": "1.0b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Improved Special Poisons-29456-1-0b.zip",
+      "uploadedUnix": "1357441036",
+      "modVersion": "1.0b",
+      "virusScanUrl": "https://www.virustotal.com/file/a830e2b471b61bf959e9789ecf48074bcd47abcf8f73254dde41e60f67505d9c/analysis/1407339488/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Improved%20Special%20Poisons-29456-1-0b.zip?fid=1000000326&ttl=1535803579&ri=8192&rs=8192&setec=ef961a4c0cd946f5023d5d0a2f305358"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 8127.0,
+  "modName": "3D Vision Water Fix - Creation Kit",
+  "summary": "Fixes water in 3D Vision using the Creation Kit by making water opaque and eliminating water transparency.  ",
+  "descriptionHtml": "Rolled this fix into 3D Vision Complete Compatibility Project: http://skyrim.nexusmods.com/downloads/file.php?id=9718\r\n\r\nPlease use that link for any further updates, thanks!\r\n\r\n======================================================================\r\nFixes water in 3D Vision using the Creation Kit by making the water opaque and eliminating refraction shader transparency.  Also addresses some unresolved issue from previous ENB fix like water in Thieves Guild, Ragged Flagon and Ice lands like Ysgramor\\'s Tomb.  \r\n\r\nDoes not currently work with Realistic Water Textures.  I\\'ll see if I can use only the defaultwater.dds without breaking anything.\r\n\r\nChangelog:\r\n\r\nV1.1 - Adjustments to give water a bit more transparency.  Objects under water are still opaque with silhouette.   Changed color of White Run water.  Fixed water near Whiterun, Icelands.\r\n\r\n====================================\r\nInstallation:\r\n\r\nEasiest way to install is to use Skyrim Mod Manager\r\n\r\nOtherwise place ESP file into your install location:\r\n\r\n%:\\\\\\\\Skyrim\\\\Data   \r\n\r\nThen enable 3DVisionWater.ESP in the Skyrim Launcher.\r\n\r\n====================================\r\n\r\nYou can see some example fixes in the link below: \r\nhttp://photos.3dvisionlive.com/chizow/image/4f31ef1b378501e30d000062/\r\n\r\n-------------------------------------------------------\r\nCredits:\r\nBethesda for releasing Creation Kit\r\n\r\nNvidia for releasing and supporting awesome 3D hardware\r\n\r\nAnyone who has made mods to help make 3D Vision better.",
+  "categoryId": "62",
+  "version": "1.1",
+  "author": "chizow",
+  "createdUnix": "1328668278",
+  "updatedUnix": "1328687658",
+  "containsAdultContent": false,
+  "uploadedBy": "chizow",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "26864",
+      "name": "3DVisionWater",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "3DVisionWater-8127.zip",
+      "uploadedUnix": "1328668652",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/55d7c40e5027600298d3c91cd1dde2213f1b9f09052fa03220c17a51c2368821/analysis/1406659627/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/3DVisionWater-8127.zip?fid=26864&ttl=1535766602&ri=8192&rs=8192&setec=66f1da034d63e6fea3dbf19b958d388b"
+    },
+    {
+      "fileId": "26974",
+      "name": "3D Vision Water 1_1",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "3D Vision Water 1_1-8127.zip",
+      "uploadedUnix": "1328687658",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/f54139efa950e36659c235f59c316b5396e67f0dbd576a1b8bb0067135d46c8f/analysis/1406660176/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/3D%20Vision%20Water%201_1-8127.zip?fid=26974&ttl=1535766602&ri=8192&rs=8192&setec=e778f28eca9cdb0dae74ba9214a4f1ce"
+    }
+  ]
+}

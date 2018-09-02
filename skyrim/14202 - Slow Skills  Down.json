@@ -1,0 +1,48 @@
+{
+  "modId": 14202.0,
+  "modName": "Slow Skills  Down",
+  "summary": "Simple mod to slow down the rate of skill increase on a few skills that tend to go up quickly.",
+  "descriptionHtml": "Description\r\nUpdate: If it is unclear what my modifier values mean just think of it as the Vanilla value of increase being 1 so a modifier of .50 slows the skill to increase at half the speed while .75 slows the skill to 3/4 speed (that is faster than 1/2 for you math-challenged folks!).\r\n\r\nUpdate: Appears to work just fine with 1.9.  Bethesda has not changed the default values of the ones that I altered yet, so this mod will still do what it says.\r\n\r\nUpdate: Appears to be compatible with most recent version of Skyrim (1.7 currently)\r\n\r\nSkyrim 1.5 compatible.  \r\n\r\nThis is my first attempt at anything like this and it is a very simple mod.  I could not find a mod that only slowed down some skills.  They either slowed them all down or completely overhauled the leveling system.  All this mod does is slow down the rate of increase of a few skills that in my opinion go up a little too quickly.  \r\n\r\nThe breakdown is as follows with the Vanilla values first, the multiplier I used second, and the new modded value third:\r\n\r\nSkill\t\tVanilla\t\tMultiplier\t\tModded\r\nOne-Handed\t6.3\t\tx 0.50\t\t3.15\r\nTwo-Handed\t5.95\t\tx 0.50\t\t2.975\r\nMarksman\t\t9.3\t\tx 0.75\t\t6.975\r\nBlock\t\t8.1\t\tx 0.75\t\t6.075\r\nSmithing\t\t1.00\t\tx 0.50\t\t0.50\r\nHeavy Armor\t3.8\t\tx 0.50\t\t1.9\r\nLight Armor\t\t4.0\t\tx 0.75\t\t3.0\r\nSneak\t\t11.25\t\tx 0.75\t\t8.4375\r\nAlchemy\t\t0.75\t\tx 0.75\t\t0.5625\r\nSpeechcraft\t0.36\t\tx 0.75\t\t0.27\r\nDestruction\t\t1.35\t\tx 0.75\t\t1.0125\r\nEnchanting\t\t900.00\t\tx 0.75\t\t675.00\r\n\r\nUpdate:\r\nOptional Standalone .esp added per request for Smithing and Enchanting only.  Both skills are set to go up at 1/4 the Vanilla speed.  You do not need both .esp files.\r\n\r\n\r\nInstallation\r\nChoose one of the .esp files.  Extract the .esp into your Data folder.\r\n\r\nUninstallation\r\nDelete \"Slow Skills Down.esp\" or \"Slow Skills Smithing and Enchanting.esp\"\r\n\r\nCredit\r\nArdvarko - for the screenshot on his slower leveling 1/4 mod which gave me the idea for this mod:\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=10151",
+  "categoryId": "73",
+  "version": "1.0",
+  "author": "Papa_Burrito",
+  "createdUnix": "1333347215",
+  "updatedUnix": "1333397614",
+  "containsAdultContent": false,
+  "uploadedBy": "Papa_Burrito",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "49252",
+      "name": "Slow Skills Down",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Slow Skills Down-14202.7z",
+      "uploadedUnix": "1333347440",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b12478ae04087457308a9712547f72bf252dca078f9880b06e408eca479300aa/analysis/1406792911/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Slow%20Skills%20Down-14202.7z?fid=49252&ttl=1535777667&ri=8192&rs=8192&setec=535edbc5cceb8502e4e629467645bccc"
+    },
+    {
+      "fileId": "49438",
+      "name": "Slow Skills Smithing and Enchanting",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Slow Skills Smithing and Enchanting-14202.7z",
+      "uploadedUnix": "1333397614",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1bbcfb9bf5068b302cac7f4e6a49e5fcee7f2e4219e0c7321889dffdc3de54f5/analysis/1406793938/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Slow%20Skills%20Smithing%20and%20Enchanting-14202.7z?fid=49438&ttl=1535777667&ri=8192&rs=8192&setec=581c6850a6b62950c7cb51c59853f2af"
+    }
+  ]
+}

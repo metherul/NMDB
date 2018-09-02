@@ -1,0 +1,48 @@
+{
+  "modId": 55239.0,
+  "modName": "SoS RLO Patch",
+  "summary": "Compatibility Patch for &#34;Sounds of Skyrim&#34; and &#34;Realistic Lighting Overhaul&#34;",
+  "descriptionHtml": "The compatibility patches available on the mod-pages from &#34;Sounds of Skyrim&#34; have not been up to date for quite some time.\r<br />That&#39;s why I decided to make this new compatibility patch.\r<br />\r<br />[size=15][color=yellow]Description:[/color][/size]\r<br />\r<br />This is a compatibility patch for [url=http://www.nexusmods.com/skyrim/mods/20193/]Sounds of Skyrim - Civilization[/url], [url=http://www.nexusmods.com/skyrim/mods/8601/]Sounds of Skyrim - The Dungeons[/url] and [url=http://www.nexusmods.com/skyrim/mods/30450/]Realistic Lighting Overhaul[/url].\r<br />If, for whatever reason, you never checked out one of those mods, I recommend doing that right now.\r<br />\r<br />[size=5][color=yellow]Features:[/color][/size]\r<br />\r<br />[list]\r<br />[*]Makes SoS and RLO 100% compatible\r<br />[*]Works for all constellations of installed modules from SoS and RLO\r<br />[*]Easy-to-use Fomod/NMM and BAIN-Wizzard installer\r<br />[*]Only one esp, no matter which modules from SoS and RLO you have[/list]\r<br />[size=5][color=yellow]What this mod does:[/color][/size]\r<br />\r<br />While SoS edits sound and RLO edits light, both edit properties of several interior cells.\r<br />SoS edits the &#34;Acoustic Space&#34; and RLo edits the &#34;ImageSpace&#34;. One mod overrides the other.\r<br />The &#34;Acoustic Space&#34; controlls the background &#34;Looping Sound&#34; and the &#34;Reverb Parameter&#34; (How the interior sounds).\r<br />The &#34;ImageSpace&#34; controlls Eye Adaptation, Bloom, Saturation, Tint, Brightnes, Contrast, &#34;Sunlight Scale&#34; and &#34;Sky Scale&#34;.\r<br />Depending on your load order, you lose one of these changes.\r<br />This patch solves that problem.\r<br />\r<br />[size=5][color=yellow]How to check:[/color][/size]\r<br />\r<br />If you want proof, that there is a conflict, check with Tes5Edit, or do the following:\r<br />Make sure, SoS - Civilisation is loaded after RLO - Major City Interiors. This is the WRONG load order, but this way you can see the difference. With the right load order you would have to hear it, which is more difficult.\r<br />Now go to &#34;Whiterun Hall of the Dead&#34;. The room is lit rahter boring and bright. This is because the &#34;ImageSpace&#34; from RLO was overwritten by SoS.\r<br />Now install my patch and try again. The lighting should be noticably different/darker and much nicer. The &#34;ImageSpace&#34; from RLO is back in.\r<br />Again, if your load order was correct, the lighting would not change, but the sound would.\r<br />\r<br />\r<br />[size=15][color=yellow]Installation:[/color][/size]\r<br />\r<br />This mod comes with a Fomod/NMM- and a BAIN-Wizard- Installer. Due to different scripting possibilities they work differently.\r<br />Depending on the modules you have installed you need a different patch. The installer will always install only one esp that is exactly right for your situation.\r<br />I made a German version of the patch. It is available in the Download-Section.\r<br />\r<br />Fomod/NMM:\r<br />Chose the modules you have installed. The right esp will be installed.\r<br />I only tested this with &#34;Nexus Mod Manager&#34;. If you experience any problems with an other tool please post it in the comments.\r<br />\r<br />BAIN Wizard:\r<br />The program detects the modules you have installed automatically and should install the right esp for you.\r<br />I couldn&#39;t test this, since I use NMM. If you experience any problems please post it in the comments.\r<br />\r<br />Manual Installation:\r<br />Follow the instruction in the &#34;Manual Install.txt&#34; that comes with the mod.\r<br />\r<br />If you want to check if the right esp was installed, see below for a list of the abbreviations I used.\r<br />\r<br />\r<br />[size=15][color=yellow]Load Order:[/color][/size]\r<br />\r<br />Since this is a compatibility patch, the right load order is very important for this mod to work.\r<br />This patch must be loaded after the following files:\r<br />\r<br />SoS - Civilization.esp\r<br />SoS - The Dungeons.esp\r<br />Realistic Lighting Overhaul - Dungeons.esp\r<br />Realistic Lighting Overhaul - Major City Interiors.esp\r<br />Realistic Lighting Overhaul - Minor Cities and Town Interiors.esp\r<br />\r<br />[color=red]Attention&#33; LOOT seems to put &#34;Realistic Lighting Overhaul - Major City Interiors.esp&#34; before &#34;SoS - Civilization.esp&#34; and &#34;SoS - The Dungeons.esp&#34;. In my opinion it should be loaded after. So have an eye on that&#33;[/color]\r<br />\r<br />\r<br />[size=15][color=yellow]Compatibility:[/color][/size]\r<br />\r<br />It is likely, that this patch is incompatible with any mod that is incompatible with any of the mods this patch is for.\r<br />Any other compatibility patch for SoS and RLO might override some of the changes this patch makes.\r<br />\r<br />\r<br />[size=5][color=yellow]List of abbreviations:[/color][/size]\r<br />\r<br />SoS ___________ Sounds of Skyrim\r<br />RLO ___________ Realistic Lighting Overhaul\r<br />NMM __________ Nexus Mod Manager\r<br />SoS-C _________ Sounds of Skyrim - Civilization\r<br />SoS-D _________ Sounds of Skyrim - The Dungeons\r<br />RLO-D _________ Realistic Lighting Overhaul - Dungeons\r<br />RLO-Ma ________ Realistic Lighting Overhaul - Major City Interiors\r<br />RLO-Mi ________ Realistic Lighting Overhaul - Minor Cities and Town Interiors\r<br />\r<br />SoS-C RLO-DMa _ Patch for SoS-C, RLO-D and RLO-Ma\r<br />SoS-C RLO-M ___ Patch for SoS-C, RLO-Ma and RLO-Mi\r<br />SoS-C RLO _____ Patch for SoS-C, and all three RLO-Modules\r<br />SoS RLO _______ Patch for both SoS- and all three RLO-Modules\r<br />\r<br />The other esp&#39;s are named in a similar fashion.\r<br />\r<br />\r<br />[size=5][color=yellow]Related Mods:[/color][/size]\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/30450/]Realistic Lighting Overhaul[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/20193/]Sounds of Skyrim - Civilization[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/8601/]Sounds of Skyrim - The Dungeons[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/10886/]Sounds of Skyrim - The Wilds[/url]\r<br />\r<br />\r<br />My other Mods:\r<br />[url=http://www.nexusmods.com/skyrim/mods/40912/]More Sound Options[/url]\r<br />\r<br />Please post any issues and suggestions in the comments. Thx.",
+  "categoryId": "84",
+  "version": "1.01",
+  "author": "Natureboy7",
+  "createdUnix": "1404067807",
+  "updatedUnix": "1404069544",
+  "containsAdultContent": false,
+  "uploadedBy": "Natureboy7",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000115181",
+      "name": "SoS RLO Patch",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "165",
+      "fileName": "SoS RLO Patch-55239-1-01.rar",
+      "uploadedUnix": "1404068987",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/c0533bea96e8d418100032b671c9d04fb44ee946f1da7b63c9efea55a8a26530/analysis/1408153718/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SoS%20RLO%20Patch-55239-1-01.rar?fid=1000115181&ttl=1535839893&ri=8192&rs=8192&setec=d41df14c5d7e8a71f2dd556aadfcacf7"
+    },
+    {
+      "fileId": "1000115184",
+      "name": "SoS RLO Patch DV",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "174",
+      "fileName": "SoS RLO Patch DV-55239-1-01.rar",
+      "uploadedUnix": "1404069544",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/61ecbb9ac6bf7c1e9b742b8cc2b7d6c2e4eb14f2359caadb4711791f0f55340d/analysis/1408153735/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SoS%20RLO%20Patch%20DV-55239-1-01.rar?fid=1000115184&ttl=1535839893&ri=8192&rs=8192&setec=468a995a56e8a2683a93a97237c7e0df"
+    }
+  ]
+}

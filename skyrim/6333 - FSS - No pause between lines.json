@@ -1,0 +1,48 @@
+{
+  "modId": 6333.0,
+  "modName": "FSS - No pause between lines",
+  "summary": "Removes the delay between spoken NPC lines.",
+  "descriptionHtml": "Like the name says, removes the forced padding between spoken (or sung) NPC lines.\r\nBy default there was a global variable adding 0.5 seconds of padding to every line.\r\nIt is really really noticable when bards are singing.\r\n\r\nBy request, an optional 0.1 second padding version for those that found the total removal too much.\r\n\r\nPablosky64 made this nice video showing before and after.\r\n\r\n[youtube]04PoGFrhXU4[/youtube]\r\n\r\n\r\n\r\nPro\\'s and cons:\r\n\r\nExtended exposition on the part of NPCs goes somewhat faster.\r\nHowever occasionally some lines seem to slightly overlap.\r\nBards still have some pauses while singing, but that\\'s due to actual padding in the sound files.\r\n\r\nInstallation and conflicts.\r\n\r\nDrop it in your Skyrim/data/ folder, enable in launcher, good to go.\r\nUninstallation involves deleting the .esp file.\r\nRemember, just use one version.\r\n\r\nThis should not conflict with anything ever.  If a mod lower down in your load order causes\r\nNPCs to go back to pausing between lines please inform that modder to clean up his file.",
+  "categoryId": "61",
+  "version": "1.0",
+  "author": "FuzzySockSucker",
+  "createdUnix": "1326711734",
+  "updatedUnix": "1326733335",
+  "containsAdultContent": false,
+  "uploadedBy": "FuzzySockSucker",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "20323",
+      "name": "No pauses between lines",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "No pauses between lines-6333.rar",
+      "uploadedUnix": "1326711982",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/4fdee869be69798b84e6be9b347ac60e215e69f727ee4bd4ac8abdf37c0a6cc0/analysis/1406615583/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20pauses%20between%20lines-6333.rar?fid=20323&ttl=1535763671&ri=8192&rs=8192&setec=318a6eea82e22883632763d608e19a0c"
+    },
+    {
+      "fileId": "20400",
+      "name": "FSS - Slight pause between lines",
+      "version": "",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "FSS - Slight pause between lines-6333-1.rar",
+      "uploadedUnix": "1326733335",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/efbd8faa892b4543569e40d1c4476b7e99876e546e54ae69433481a859456298/analysis/1406616308/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FSS%20-%20Slight%20pause%20between%20lines-6333-1.rar?fid=20400&ttl=1535763672&ri=8192&rs=8192&setec=aa9c0bda6d4a66bd3fe32b2afee3f318"
+    }
+  ]
+}

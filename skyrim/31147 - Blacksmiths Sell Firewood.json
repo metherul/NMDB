@@ -1,0 +1,48 @@
+{
+  "modId": 31147.0,
+  "modName": "Blacksmiths Sell Firewood",
+  "summary": "Blacksmiths sell firewood",
+  "descriptionHtml": "[center][u][color=red]UPDATE 07-02-2013[/color][/u]: An add-on for Dawnguard has been added! It is only an add-on, not a stand-alone, and requires Dawnguard and Blacksmiths Sell Firewood.[/center]\r\n\r\n[color=red]To-the-point description[/color]: Blacksmiths now have 10 Firewood added to their inventories.\r\nFeel free to skip the silly story below and go to the detailed description. Or skip that, too. Really, it\\'s not like I spent any time on it, or that my feelings will be hurt if you skip it. It\\'s cool. Really...\r\n\r\n[center][u][color=yellow]A Goofy Story[/color][/u][/center]\r\n[color=red]PLAYER[/color]: Ah, fresh out of Helgen and at the village of Riverwood! I\\'m so glad I have this bow, but I don\\'t have many arrows! Fortunately, I have Dawnguard and/or one of the many awesome mods that makes it possible to craft arrows! Oh look, a blacksmith!\r\n\r\n[color=yellow]ALVOR[/color]: Hello, traveler! Did I hear you mention crafting? My name is Alvor, and I\\'m the village blacksmith. I can sell you everything you need to craft your items, and I\\'ll even let you use my forge.\r\n\r\n[color=red]PLAYER[/color]: Sweet! I need to craft some arrows, so I\\'ll need to buy some ingots and some firewood, please.\r\n\r\n[color=yellow]ALVOR[/color]: I have several ingots for you to purchase. Take a look!\r\n\r\n[color=red]PLAYER[/color]: Ooh, I\\'ll take three steel ingots, please, and also three... Wait a minute, where\\'s your firewood?\r\n\r\n[color=yellow]ALVOR[/color]: Oh, I can\\'t sell firewood. But you can cross this bridge right here and go chop your own. If you have a Woodcutter\\'s Axe, that is.\r\n\r\n[color=red]PLAYER[/color]: CHOP MY OWN! What kind of crap is that! I thought you said you could sell me EVERYTHING I needed? Sell me some Firewood!\r\n\r\n[color=yellow]ALVOR[/color]: Sorry, I can\\'t do that. Hod might get mad at me.\r\n\r\n[color=red]PLAYER[/color]: Hod might get mad? HOD might get mad?  Screw, Hod, I\\'M mad! Sell me some Firewood, or I\\'ll kill your daughter Dorthe!\r\n\r\n[color=yellow]ALVOR[/color] Ha! You can\\'t do that! She\\'s a child, and Skyrim children are immortal!\r\n\r\n[color=red]PLAYER[/color]: Oh, but I have [url=http://skyrim.nexusmods.com/mods/17849]Killable and Lootable Children[/url], so I CAN kill her! So I suggest you start selling some Firewood NOW!\r\n\r\n[color=yellow]ALVOR[/color]: Wait! I... I didn\\'t know! I\\'ll find a way to sell you some Firewood!\r\n\r\n[color=red]PLAYER[/color]: And what about all the other Blacksmiths in Skyrim?\r\n\r\n[color=yellow]ALVOR[/color]: I... I will find a way to make sure they all sell Firewood.\r\n\r\n[color=red]PLAYER[/color]: And if I marry and my spouse has a Blacksmith\\'s inventory?\r\n\r\n[color=yellow]ALVOR[/color]: You\\'re spouse will sell Firewood as well.\r\n\r\n[color=red]PLAYER[/color]: Good.\r\n\r\n[center][u][color=yellow]Detailed Description[/color][/u][/center]\r\nI don\\'t like chopping firewood. Period. I\\'m lazy. Oh well. But I like making my own arrows and bolts. I wanted to be able to just buy firewood, and I wanted to be able to do it right next to a forge. So I decided to have Blacksmiths sell Firewood.\r\nI have added 10 Firewood to the vendor chests of:\r\n[list]\r\n[*]Adrianne Avenicci (Whiterun)\r\n[*]Alvor (Riverwood)\r\n[*]Arnskar Ember-Master (Thieves\\' Guild, Riften)\r\n[*]Balimund (Riften)\r\n[*]Beirand (Solitude)\r\n[*]Dushnamub (Gloombound Mine, across the wooden bridge from Narzulbur)\r\n[*]Eorlund Gray-Mane (Skyforge, Whiterun)\r\n[*]Filnjar (Shor\\'s Stone)\r\n[*]Gharol (Dushnikh Yal)\r\n[*]Ghorza gra-Bagol (Markarth)\r\n[*]Lod (Falkreath)\r\n[*]Moth gro-Bagol (Understone Keep, Markarth)\r\n[*]Oengul War-Anvil (Windhelm)\r\n[*]Rustleif (Dawnstar)\r\n[*]Shuftharz (Mor Khazgur)\r\n[*]Vanryth Gatharian (Thieves\\' Guild, Riften)\r\n[/list]\r\nFor the Dawnguard add-on, 10 Firewood has been added to the inventories of:\r\n[list]\r\n[*]Gunmar\r\n[*]Hestla\r\n[/list]\r\nAdditionally, 10 Firewood has been added to the merchant chest used by Spouses to sell Blacksmith goods.\r\n\r\nIn order to get the Firewood to actually show up for sale in a Blacksmith\\'s inventory, I had to add another Keyword to Firewood. Again, I\\'m lazy. So I copied the \\\"VendorItemOreIngot\\\" Keyword from an Iron Ingot and pasted it into the Firewood\\'s list of Keywords. As a result, any merchant that would normally buy Ore and Ingots should probably also now buy Firewood. I haven\\'t run into any other side-effects.\r\n\r\n[color=red]A Note on Requirements[/color]: While this mod technically has no requirements, it isn\\'t really that useful unless you have Dawnguard and/or a mod that allows you to craft arrows. Unless you just like buying wood. You know, for private reasons. The Dawnguard add-on requires Dawnguard as well as Blacksmiths Sell Firewood.\r\n\r\n[color=red]Conflicts[/color]: I have this loaded [b]after[/b] everything else that modifies vendor lists, and haven\\'t had any issues. If you would happen to load it [b]before[/b] other mods that alter these lists, specifically for the above mentioned Blacksmiths, Firewood may well not show up in their inventories. Also, anything else that alters Firewood (excluding textures) will probably conflict with this.",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "dave_n_charity",
+  "createdUnix": "1360199096",
+  "updatedUnix": "1360258545",
+  "containsAdultContent": false,
+  "uploadedBy": "dave_n_charity",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000007697",
+      "name": "Blacksmiths Sell Firewood",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Blacksmiths Sell Firewood-31147-1-0.rar",
+      "uploadedUnix": "1360198610",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f0b1d1de42fd15bd9ce55aa154b610149e222561b624732faabdeb0bf3af7864/analysis/1407402124/",
+      "changelogHtml": " Added \"VendorItemOreIngot\" Keyword to firewood01 <br/> \n Added 10 Firewood to vendor chest of all Blacksmiths <br/> \n Dawnguard add-on added <br/> \n 10 Firewood added to Gunmar and Hestla <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Blacksmiths%20Sell%20Firewood-31147-1-0.rar?fid=1000007697&ttl=1535806509&ri=8192&rs=8192&setec=dd7e31b5b07b01834d9ebc0bb3f7d377"
+    },
+    {
+      "fileId": "1000007831",
+      "name": "Blacksmiths Sell Firewood - Dawnguard Add-On",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Blacksmiths Sell Firewood - Dawnguard Add-On-31147-1-0.rar",
+      "uploadedUnix": "1360258545",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ac16d454058077cb6773daea09dc40ce583a948f4f50e4a0f3f508e92c74459b/analysis/1407403034/",
+      "changelogHtml": " Added \"VendorItemOreIngot\" Keyword to firewood01 <br/> \n Added 10 Firewood to vendor chest of all Blacksmiths <br/> \n Dawnguard add-on added <br/> \n 10 Firewood added to Gunmar and Hestla <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Blacksmiths%20Sell%20Firewood%20-%20Dawnguard%20Add-On-31147-1-0.rar?fid=1000007831&ttl=1535806510&ri=8192&rs=8192&setec=616c8826f3bb809969f939c8fc5e9f5e"
+    }
+  ]
+}

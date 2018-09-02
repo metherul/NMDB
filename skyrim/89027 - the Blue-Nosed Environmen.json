@@ -1,0 +1,48 @@
+{
+  "modId": 89027.0,
+  "modName": "the Blue-Nosed Environmen",
+  "summary": "It becomes BLUE!<br />Don't expect too much of me.  You can do it! Good luck!!",
+  "descriptionHtml": "______________________________________\n<br />________________\n<br />__________________________  DESCRIPTION  ________________\n<br />\n<br />青くなります。\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />[center]﻿﻿[img]http://roomfgh.wpblog.jp/wp-content/uploads/2018/01/Body_01.jpg[/img]\n<br />[img]http://roomfgh.wpblog.jp/wp-content/uploads/2018/01/Body_02.jpg[/img]\n<br />[img]http://roomfgh.wpblog.jp/wp-content/uploads/2018/01/Body_03.jpg[/img]\n<br />[img]http://roomfgh.wpblog.jp/wp-content/uploads/2018/01/Body_05.jpg[/img]\n<br />[right][/right][img]http://roomfgh.wpblog.jp/wp-content/uploads/2018/01/Body_06.jpg[/img]﻿[/center]\n<br />\n<br />\n<br />\n<br />\n<br />______________________________________\n<br />________________\n<br />__________________________  NOTES  +  ADVICE  ____________\n<br />\n<br />未完成です。\n<br />現在、未対応の天候があります。\n<br />\n<br />\n<br />\n<br />ENBSeries v0.3xx以降のバージョンには未対応です。\n<br />v0.272、または、それに近いバージョンが最適です。\n<br />\n<br />\n<br />\n<br />ENBを機能させるために、\"SkyrimPrefs.ini\"に必ず下記の値を記述してください。\n<br />[Display]\n<br />bFloatPointRenderTarget=1\n<br />\n<br />\n<br />\n<br />屋外の霧を50％薄くすることを推奨します。\n<br />霧の濃度が標準の場合、山が白くなりすぎる事があります。\n<br />\n<br />\n<br />\n<br />DOFなどのシェーダーファイルはありません。\n<br />必要な場合は、他のENBプリセットなどから導入してください。\n<br />また、無効にしているシェーダーは、ファイル自体を削除することで無駄なカクツキを減らせる場合があります。\n<br />\n<br />\n<br />\n<br />日の出、日の入りが1時間ずれ、太陽などが設定より明るくなる事があります。\n<br />この不具合は高い負荷がかかると発生するようです。ゲームデータには影響しないので、無視しても問題ありません。\n<br />ゲームを再起動し、負荷が低い状態から開始すると大体直ります。\n<br />\n<br />\n<br />\n<br />貴方の嫁などがガングロメイクにハマってしまったとき、EnableReflection（以下、甲）を有効にした状態でゲームを開始している場合、SHIFT＋ENTER（初期設定）で表示されるENBエディターから甲の有効無効を切り替えると、自分本来の姿で勝負しようとする心を取り戻す事があります（彼女たちが貴方の意見に耳を貸してくれない？おまえの何かをアップデートすればいいんじゃね？（鼻ホジ））。\n<br />\n<br />\n<br />\n<br />他のMODとの親和性は考慮していません。\n<br />\n<br />\n<br />\n<br />\"SkyrimPrefs.ini\"\n<br />[Imagespace]\n<br />bDoDepthOfField=\n<br />[img]http://roomfgh.wpblog.jp/wp-content/uploads/2018/01/20_bDoDepthOfField_640.jpg[/img]\n<br />値が0の場合、水中が透明になり、遠景が鮮明になります。\n<br />[UNDERWATER]のほぼ全ての効果が見かけ上無効になります。\n<br />\n<br />\n<br />\n<br />[img]http://roomfgh.wpblog.jp/wp-content/uploads/2018/01/21_Specular_640.jpg[/img]\n<br />v0.292は目と肌に反射光が追加されます。\n<br />このプリセットでは違いは僅かです。\n<br />\n<br />[img]http://roomfgh.wpblog.jp/wp-content/uploads/2018/01/22_Sunlight_640.jpg[/img]\n<br />太陽光の透過処理に違いがあるようです。\n<br />\n<br />ENBSeries v0.272は上記2つの機能が搭載され、負荷はv0.262と同程度です。\n<br />\n<br />v0.3xx以降のバージョンには新しい項目が追加されています。また、それ以前のものより動作が重くなります。\n<br />このENBプリセットにはv0.3xx用の値が設定されていないため、作者の意図しない映像になる場合があります。\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />______________________________________\n<br />________________\n<br />__________________________  REQUIREMENTS  ______________\n<br />\n<br />ENBSeries for TES Skyrim\n<br />Skyrim ENBHelper\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />______________________________________\n<br />________________\n<br />__________________________  INSTALLATION  _______________\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/110/images/89027/89027-1516224783-1587791282.jpeg[/img]\n<br />\"enbseries.ini\"、\"enbseriesフォルダ\"をSkyrimフォルダにコピーしてください。\n<br />WrapperVersionの\"d3d9.dll\"、\"enbhost.exe\"をSkyrimフォルダにコピーしてください。\n<br />天候ごとの設定を有効にするため、\"enbhelper.dll\"をenbseriesフォルダにコピーしてください。\n<br />\"d3d9.dll\"、\"enbhost.exe\"、\"enbhelper.dll\"は作者様のサイトなどから入手してください。\n<br />\n<br />\n<br />__________________________  UNINSTALLATION  ____________\n<br />\n<br />導入したファイル、フォルダ、\"enblocal.ini\"を削除してください。\n<br />他のENBプリセットなどを使用する場合は\"d3d9.dll\"、\"enbhost.exe\"、\"enblocal.ini\"を削除する必要はありません。\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />______________________________________\n<br />________________\n<br />__________________________  CREDITS  _____________________\n<br />\n<br />Boris Vorontsov : ENBSeries\n<br />Alexander Blade : Skyrim ENBHelper\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />[img]http://roomfgh.wpblog.jp/wp-content/uploads/2018/01/25_Enjoy_640.jpg[/img]",
+  "categoryId": "97",
+  "version": "0.4625",
+  "author": "Japa-Bro",
+  "createdUnix": "1516405144",
+  "updatedUnix": "1516405144",
+  "containsAdultContent": false,
+  "uploadedBy": "JapaBro",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000264187",
+      "name": "the Blue-Nosed Environmen",
+      "version": "0.4625",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "65",
+      "fileName": "the Blue-Nosed Environmen-89027-0-4625.zip",
+      "uploadedUnix": "1516222661",
+      "modVersion": "0.4625",
+      "virusScanUrl": "https://www.virustotal.com/file/ab78d28ef06c31eb8dea5a8e227653a8651d6adcd65b87299ccdc9bc0b216c6d/analysis/1516222862/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/the%20Blue-Nosed%20Environmen-89027-0-4625.zip?fid=1000264187&ttl=1535878474&ri=8192&rs=8192&setec=60366cf8c90939b56f6feb0254b942ae"
+    },
+    {
+      "fileId": "1000264188",
+      "name": "the Blue-Nosed Environmen Screenshot ini",
+      "version": "0.4625",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "the Blue-Nosed Environmen Screenshot ini-89027-0-4625.zip",
+      "uploadedUnix": "1516222935",
+      "modVersion": "0.4625",
+      "virusScanUrl": "https://www.virustotal.com/file/95484cf391002c4f5d5c1ad08e1b66b339f2ba6facd52776082d9fc24ead59ab/analysis/1516223104/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/the%20Blue-Nosed%20Environmen%20Screenshot%20ini-89027-0-4625.zip?fid=1000264188&ttl=1535878474&ri=8192&rs=8192&setec=0a010818b2e9d475fe0af33afe078404"
+    }
+  ]
+}

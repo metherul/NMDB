@@ -1,0 +1,48 @@
+{
+  "modId": 82823.0,
+  "modName": "Nephatrine Tweak Collection",
+  "summary": "Random patches and tweaks made to other plugins.",
+  "descriptionHtml": "Random patches and tweaks made to other plugins. All original mods list Permissions on their Nexus page that allow modifications to be made and released. I&#39;ll be adding more things to this page as time goes by.\r<br />\r<br />[u][b][size=4]Nephatrine Patch - Dragon Stalking Fix - Dragonborn[/size][/b][/u]\r<br />[b]Original Mod:[/b] [url=http://www.nexusmods.com/skyrim/mods/54274/?]Dragon Stalking Fix[/url] v1.2 by [b][u]sevencardz[/u][/b]\r<br />[b]Requires:[/b] Dragonborn\r<br />\r<br />The original script does not carry forward a change made in [url=http://www.nexusmods.com/skyrim/mods/71214/?]USLEEP[/url] by [b][u]Arthmoor[/u][/b] which re-ordered a line so that all intended dialogue options would show up in NPC scenes after a dragon is slain. This is an extremely minor change and will certainly not make or break your game. All I&#39;ve done is carry over that one line change from USLEEP to correct that bug. While you should use it anyways, USLEEP is not required for this mod to function.\r<br />\r<br />This replaces the original dragonActorSCRIPT which is the entirety of the original mod. This means you do not require the original fix to use this, but please go give it a d/l and endorsement if you enjoy this as it would not exist without it.\r<br />\r<br />[u][b][size=4]Nephatrine Patch - Lanterns of Skyrim - Dawnguard[/size][/b][/u]\r<br />[b]Original Mod:[/b] [url=http://www.nexusmods.com/skyrim/mods/26662/?]Lanterns of Skyrim - All In One - Dawnguard Patch[/url] v1.1 by [b][u]selyb[/u][/b]\r<br />[b]Requires:[/b] Dawnguard, [url=http://www.nexusmods.com/skyrim/mods/18916/?]Lanterns of Skyrim - All In One[/url] v2.5 by [u][b]mannygt[/b][/u]\r<br />\r<br />The original Dawnguard patch &#34;works&#34; but it was made for the LoS 1.3 version that does not use an MCM menu and doesn&#39;t work in a consistent fashion with the updated LoS mod. I have changes all the objects to the updated LoS version and slaved all the objects to the parent markers for the Lanterns on Roads option in the MCM menu. If you toggle off lanterns alongside roads, these will now disappear. They will also obey the on/off times configured in the MCM menu just like all the other lanterns.\r<br />\r<br />This replaces the original Dawnguard patch ESP which is the entirety of that mod. This means you do not require the original dawnguard patch to use this, but please go give it a d/l and endorsement if you enjoy this as it would not exist without it.",
+  "categoryId": "95",
+  "version": "",
+  "author": "Nephatrine",
+  "createdUnix": "1489884613",
+  "updatedUnix": "1489886497",
+  "containsAdultContent": false,
+  "uploadedBy": "Nephatrine",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000239487",
+      "name": "Nephatrine Patch - Lanterns of Skyrim - Dawnguard",
+      "version": "2.5",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Nephatrine Patch - Lanterns of Skyrim - Dawnguard-82823-2-5.7z",
+      "uploadedUnix": "1489884840",
+      "modVersion": "2.5",
+      "virusScanUrl": "https://www.virustotal.com/file/a2f32be3b2a5071724e9cafbad6aa00bcb6359c5dfb141d7a2a251f729ae91e0/analysis/1489884850/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Nephatrine%20Patch%20-%20Lanterns%20of%20Skyrim%20-%20Dawnguard-82823-2-5.7z?fid=1000239487&ttl=1535871619&ri=8192&rs=8192&setec=e9952fd0bc09a83d85c0adad7c22e968"
+    },
+    {
+      "fileId": "1000239489",
+      "name": "Nephatrine Patch - Dragon Stalking Fix - Dragonborn",
+      "version": "1.2",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Nephatrine Patch - Dragon Stalking Fix - Dragonborn-82823-1-2.7z",
+      "uploadedUnix": "1489886497",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/7a9cae884f7afbf198faf38a2f00769565ef38a451fae790aa5de42da9abf01a/analysis/1489886762/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Nephatrine%20Patch%20-%20Dragon%20Stalking%20Fix%20-%20Dragonborn-82823-1-2.7z?fid=1000239489&ttl=1535871619&ri=8192&rs=8192&setec=c36fb6b00667bf664ee1a1b0a2c6c0ae"
+    }
+  ]
+}

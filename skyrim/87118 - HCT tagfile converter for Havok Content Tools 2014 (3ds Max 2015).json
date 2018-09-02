@@ -1,0 +1,32 @@
+{
+  "modId": 87118.0,
+  "modName": "HCT tagfile converter for Havok Content Tools 2014 (3ds Max 2015)",
+  "summary": "Converter trying to convert HCT tagfiles from 2014 to 2012. (or 2011. I think I confused the tag file version number when I uploaded the file. It's compatible with the hktcnv.exe.)",
+  "descriptionHtml": "No idea as to whether there already is a converter. I made this one for a friend to replace a few strings in the HCT tagfile XMLs created with the \"Havok Content Tool 2014\" plugin for 3ds Max 2015, in order to make them compatible with the hktcnv.exe found at https://www.nexusmods.com/skyrim/mods/1797/ (files -&gt; hktcnv_1_0).\n<br />\n<br />To use it, one simply places the hktcnv.exe in the same location as the convert.bat, puts the XMLs produced by the Max 2015 exporter into the \"in\" folder and double-clicks the \"convert.bat\" to receive a .hkx file for use in Skyrim. Alternatively one can also use the command line to convert 2014 XMLs by entering: \"convert.exe in.xml out.xml\"\n<br />\n<br />Hasn't been tested extensively, but worked for a few solo player animations created with the HKO configuration also found in the archive.",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "sotaponi",
+  "createdUnix": "1506980282",
+  "updatedUnix": "1506979803",
+  "containsAdultContent": false,
+  "uploadedBy": "sotaponi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000256410",
+      "name": "converter.zip",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "22",
+      "fileName": "converter.zip-87118-1-0.zip",
+      "uploadedUnix": "1506979803",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e64df6b9768dd6e19a9946f67dcbcc73b8c53b8d493168ab9d999f1f7ff4c445/analysis/1506980103/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/converter.zip-87118-1-0.zip?fid=1000256410&ttl=1535876048&ri=8192&rs=8192&setec=7e347715a2269b8a1a2ae18d46f9db6c"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 14797.0,
+  "modName": "deadlyHeadshots WIP - Arrows",
+  "summary": "Modification that implements headshot detections with Skyrim vanilla arrow types. ",
+  "descriptionHtml": "[color=orange] Sorry for the hibernation, I\\'ve been away all summer due to an internship -- and the modding scene and support in general back then really made me want to put this mod on ice until the modding scene grew a bit, the problems I was having with the mod no one else was having and I honestly didn\\'t have time to fix them all myself... I\\'ll be coming back however in order to continue the mod and fix the major issues soon, if they can be fixed hopefully :) [/color]\r\n\r\n[color=yellow]This is a WIP! This is the first release of this mod, I am mainly releasing it for feedback and bug reports. If you download, you are essentially speeding up the testing process! Thanks for the feedback! :)[/color]\r\n\r\n[color=red]A CLEAN SAVE IS RECOMMENDED, BUT WILL WORK WITH EXISTING SAVES (MAKE A BACK-UP, this is an alpha stage mod and I do not know all the bugs that could occur with this mod, and  I would hate to see your only save game of your lvl 56 legit leveled warrior corrupted -- the CK still has a TON of bugs so be [i]SAFE[/i]!!!![/color]\r\n\r\n[color=orange]\r\nKnown Bugs: Game might crash when you load a game that does not use the mod when you are currently playing a save that does\r\n[/color]\r\n\r\n[youtube]kw7RWMQxEgQ[/youtube]\r\n\r\n      This mod aims to add headshots to Skyrim. It is a project I have been working on for some time, and this is more of a groundwork for future branches of the mod. I honestly hated (but saw why) headshots were not instant kill in vanilla Skyrim. However - it broke the immersion for me -- which is honestly why I play Skyrim and people running at me with their heads looking like pincushions really did not do a whole lot for me in that aspect -- which is why I made this mod. \r\n\r\n[b]Some things to consider:[/b]\r\n     It is a groundwork for future branches of the mod -- as for now it will kill any human NPC that gets hit in the head with an arrow. Later branches will probably just do more damage (like double, triple, etc for people who think instant kills are too much [to which I agree with with the current combat system, and I think a more fatal melee system is needed in addition to a fatal ranged system to balance this out]). The arrows that will work are Skyrims vanilla arrows (iron to daedric)\r\n\r\n[color=blue]Once I get enough feedback and test data (from you all and myself) I will extend this to the Ice Spike projectiles as well for spells (currently done, just rather focus on this version first)[/color]\r\n\r\n\r\n[b]Quick notes on compatibility: [/b]\r\n-Anything that modifies the game\\'s vanilla arrows (changes their editorID) will mess the mod up. (Note: if that mod uses the vanilla arrows, that mod will not work)\r\n\r\nI kept compatibility in mind when testing, I tested it with Duel Combat and it works fine. Most mods should work fine. \r\n\r\n\r\n[b]Recommended Mods[/b]\r\nI [i]HIGHLY[/i] recommend getting Crimson Tide for this mod to enhance the bleeding effects used in the mod for headshot kills. \r\n\r\n[b][color=red]Install[/color][/b]\r\nDrop contents into data folder\r\n\r\n[b][color=red]IMPORTANT[/color][/b]\r\nThis mod runs on Papyrus almost entirely. Papyrus is slower than Oblivion\\'s scripting system (I have spent a lot of time optimizing the speed, but papyrus has its limit). The head hitbox has to be estimated and so running targets (walking targets and idle targets are fine) can create a laggy hitbox which will sometimes not register headshots correctly. To counter this I highly recommend you use the slo-mo zoom talent from the marksman tree while performing headshots, it makes the hitbox [i] a lot[/i] more accurate. Shooting targets running up stairs is probably the worst case. Targets running on a flat surface are usually ok, but if you stick to slo-mo zoom (which most probably will) that should be enough.  Hopefully once SKSE supports papyrus a little more it can be improved\r\n\r\n\r\n\r\n",
+  "categoryId": "24",
+  "version": "1.0.0",
+  "author": "oceans",
+  "createdUnix": "1334013247",
+  "updatedUnix": "1334156761",
+  "containsAdultContent": false,
+  "uploadedBy": "mercuito",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "52303",
+      "name": "Headshot_v_1_0_1",
+      "version": "1.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "Headshot_v_1_0_1-14797-1-0-1.rar",
+      "uploadedUnix": "1334156761",
+      "modVersion": "1.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/b21b75a1e685da0e04e679afdd8cdfae12500f234beb911b42116e5bb2bf6715/analysis/1406809753/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Headshot_v_1_0_1-14797-1-0-1.rar?fid=52303&ttl=1535778686&ri=8192&rs=8192&setec=40c0cb806a36db1f57f6a257c5ea8f72"
+    }
+  ]
+}

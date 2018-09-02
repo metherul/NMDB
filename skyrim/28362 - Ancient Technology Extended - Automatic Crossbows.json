@@ -1,0 +1,48 @@
+{
+  "modId": 28362.0,
+  "modName": "Ancient Technology Extended - Automatic Crossbows",
+  "summary": "Extends the radiant quest line Ancient Technology qiven to you by Sorine (Dawnguard). Uses Automatic Crossbows by J3X.",
+  "descriptionHtml": "[heading][color=yellow]Description[/color][/heading]\r\nI really like the [url=http://skyrim.nexusmods.com/mods/26329]automatic crossbows[/url] mod and since J3X and Rizing are kind enough to let their work be used by the community I decided to make my own version of this mod.\r\n\r\nThe mod will extend the ancient technology quest so that you can collect the schematics for the semi auto and full auto versions of the dwemer crossbow. In addition to the original mod I have also added schematics for silver bolts that have the ability to instantly kill Undead, Werewolves and Vampires. The script for this is based on mehrunes razor and has a 10% chance to take effect. You can however adjust the chance using \\'[b]set silverboltkillchance to #[/b]\\' where # is a number between 1 and 100. (It\\'s a separate script, you won’t affect mehrunes razor)\r\n\r\nOther changes that were made:\r\n[list]\r\n[*]The auto crossbow effect will now only work when you have a bolt magazine equipped; so equipping single bolts will still fire one at a time.\r\n[*]Additional bolt magazines - Steel, Silver and Explosive\r\n[*]Items craftable and for sale from Sorine after completing the additional quests (like vanilla)\r\n[*]Renamed new crossbows to be more generic and only use the light crossbow model\r\n[*]Altered Stats\r\n[*]NEW for 1.2 MCM menu\r\n[/list]\r\n\r\nI have tested this mod the best I can but if you find any bugs that are not listed below please leave a comment and I’ll try to fix it. The mod will not be compatible with any mods that modify the Ancient Technology quest. Thanks!\r\n\r\n[heading][color=yellow]Starting the Quest[/color][/heading]\r\nWhen you have finished retrieving the vanilla schematics, Sorine should get an extra \\'how can i help\\' option. It is extra because i have let the vanilla quest carry on as normal as i am guessing most people have already finished it.\r\n\r\n[heading][color=yellow]Recommended Mods[/color][/heading]\r\n[url=http://skyrim.nexusmods.com/mods/21922]Dawnguard Crossbow Explosive Bolts Visualized[/url]\r\n\r\n[heading][color=yellow]My Other Mods[/color][/heading]\r\n[url=http://skyrim.nexusmods.com/mods/30327]Crafting Chest Extension[/url]\r\n[url=http://skyrim.nexusmods.com/mods/28061]Automatic Lockpicking[/url]\r\n[url=http://skyrim.nexusmods.com/mods/4710/]Carry Weight Spells[/url]\r\n\r\n[heading][color=yellow]Known Bugs[/color][/heading]\r\n[list]\r\n[*]Only the last arrow carries the enchantment if the crossbow has any\r\n[*]Quickshot seems to sometimes cause bugs (Should now be fixed thanks to Loshirai14)\r\n[*]Bolt mags can be equipped to vanilla crossbows which looks a bit strange\r\n[/list]\r\n\r\n[heading][color=yellow]Install[/color][/heading]\r\nUse NMM or extract all files to your data folder\r\n\r\n[heading][color=yellow]Uninstall[/color][/heading]\r\nIf after removing the mod the dialog option still remains use \\'stopquest DLC1RH05\\'\r\n\r\nVersion 1.2 has an uninstall option in MCM that simply sets the run count value back to 6. Use this option, save your game, then you can uninstall. If you are updating from 1.1 with a clean save, then just check the uninstall option in MCM so that your run count is put back to normal; otherwise it will still be at whatever number it was before removing 1.1.\r\n\r\n[heading][color=yellow]Credits & Permissions[/color][/heading]\r\n(Please give credit when using assets from this mod. Thanks)\r\nThanks to J3X for creating the automatic crossbow scripts and general Creation Kit work\r\nThanks to Rizing for his excellent crossbow models\r\nSteelChi ancient technology quest modification script and silver bolt script\r\n\r\n",
+  "categoryId": "35",
+  "version": "1.2",
+  "author": "SteelChi",
+  "createdUnix": "1355585217",
+  "updatedUnix": "1358986575",
+  "containsAdultContent": false,
+  "uploadedBy": "SteelChi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "106004",
+      "name": "AncientTechnologyExtended01",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "864",
+      "fileName": "AncientTechnologyExtended-28362-1-1.rar",
+      "uploadedUnix": "1355844858",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7db8af2c52b5423d59265d37f50ed3069a50c520e1797dbd618e3d1f09a7aaa2/analysis/1407310743/",
+      "changelogHtml": " Added fix for Quick Shot perk (Thanks to Loshirai14) <br/> \n Added Steel Mag model. Edited Dwarven Mag model to have bolt tips instead of arrows. Minor changes to crossbow model. <br/> \n Semi and Full auto crossbows are no longer enchantable. (since enchantment only works on last bolt anyway and less OP) <br/> \n Reduced damage of bolt mags. (When changing the bolt mag models, the bolts needed resizing to 80% so thought that could be reflected in stats (less OP)) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AncientTechnologyExtended-28362-1-1.rar?fid=106004&ttl=1535801706&ri=8192&rs=8192&setec=3ca1d879a052b26175b77f0e9c5bc8d2"
+    },
+    {
+      "fileId": "1000004460",
+      "name": "AncientTechnologyExtended",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "697",
+      "fileName": "AncientTechnologyExtended-28362-1-2.rar",
+      "uploadedUnix": "1358986575",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/9ab25460faeefc1306e77d7c773c65e10b7db06f40b7038d88b26eb8b2a2f35c/analysis/1407376040/",
+      "changelogHtml": " FIXED: Broken quest bug when installing before finishing all Sorines quests. (Hopefully) <br/> \n ADDED: MCM support. Can adjust the kill chance of silver bolts. Uninstall option. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AncientTechnologyExtended-28362-1-2.rar?fid=1000004460&ttl=1535801707&ri=8192&rs=8192&setec=2d4111c30e3e7da146e425f52ff53ac7"
+    }
+  ]
+}

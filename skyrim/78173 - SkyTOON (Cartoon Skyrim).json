@@ -1,0 +1,32 @@
+{
+  "modId": 78173.0,
+  "modName": "SkyTOON (Cartoon Skyrim)",
+  "summary": "Its Wabbit Season&#33; Thats right folks&#33; you can turn your Skyrim into a CARTOON&#33;",
+  "descriptionHtml": "[size=4].[/size][color=#ff0000]This will literally turn your game into a cartoon with [size=4][color=#9900ff]RESHADE[/color][/size].\r<br />\r<br />[/color]Requires [url=http://www.nexusmods.com/skyrim/mods/22777/?]Terrible Textures for Weak Computers [/url]by [color=#e69138]gutlessVADER[/color]\r<br />[left]that means this setup can actually [color=#00ff00][size=4]improve performance[/size][/color] by a large margin&#33;[color=#ff0000]\r<br />\r<br />[color=#ff0000][color=#00ff00]Reshade V3 Framework, fully up to date.\r<br />[/color][/color][color=#00ff00]Reshade effects used:\r<br />\r<br />Performance: AdaptiveSharpening, FXAA, Curves (contrast adjustment), Levels (black \r<br />level adj.), Technicolor (color oversaturation), Colorfulness (low \r<br />performance HDR substitute), HQ4X (edge artifact comp.), Deband (color \r<br />smoothing), Gaussian blur (mild, just to kind of smooth everything out)\r<br />\r<br />Full version: (Coming soon) adds (simulated) HDR, Light DOF, MXAO, and RBM\r<br />[/color]\r<br />[/color][color=#ff0000][size=4]This is INCOMPATIBLE with ENB. [/size][/color][/left]\r<br />[color=#e69138]Installation: Mostly just like ENB-\r<br />\r<br />1. Download the latest version of [url=http://reshade.me/]ReShade[/url] V3 framework and install to your Skyrim directory. DL the standard shader pack when prompted\r<br />\r<br />2. Download Skytoon.ini and extract to skyrim dir\r<br />\r<br />4. Download [url=http://www.nexusmods.com/skyrim/mods/22777/?]Terrible Textures for Weak Computers[/url]and extract them to the skyrim/data folder (DL all optional files except shaders (follow his instructions to remove square trees)\r<br />\r<br />5. Open your skyrim.ini  (its usually contained in documents/mygames/skyrim) and input the following lines\r<br />\r<br />[LightingShader]\r<br />fSpecularLODFadeEnd=0.0\r<br />fSpecularLODFadeStart=0.0\r<br />\r<br />6. in-game press SHIFT+F2 to open reshade GUI. Follow the simple tutorial then select my preset &#34;Skytoon&#34; in the drop-down menu.\r<br />\r<br />7. look up the recommended shadow settings (for non-ENB users) on the step website, and if your rig can handle it --obviously mine cannot ;)-- I recommend doubling their suggested resolution to 8192 your shadows should look crisp and perfect.  \r<br />[/color]\r<br />[color=#ff0000]If you get strange shadow behavior set bDeferredShadows=0 in your Skyrimprefs.ini[/color]\r<br />\r<br />I also recommend shutting off Anisotropic Filtering and AA, and max all of your view distances in skyrim launcher options (leave specular at 0)\r<br />you can also just make these changes in Skyrimprefs.ini:\r<br />\r<br />[Display]\r<br />IMultisample=none\r<br />iMaxAnisotropy=1\r<br />\r<br />These mods are optional but Highly recommended:\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/61680/?]No More Blinding Fog\r<br />[/url][url=http://www.nexusmods.com/skyrim/mods/29253/?]Remove Interior Fog\r<br />[/url][url=http://www.nexusmods.com/skyrim/mods/40706/?]OneTweak\r<br />[/url][url=http://www.nexusmods.com/skyrim/mods/50855/?]Shadows[/url]\r<br />\r<br />[color=#ffff00]FAQ:\r<br />\r<br />Q. &#34;My game does not look like your game.&#34;\r<br />A. &#34;There are five mods mentioned. Do you have them all? are you using incompatible mods (ENB)? Did you install correctly?  Is something overwriting the textures? \r<br />\r<br />Q. &#34;My game crashes on startup&#34;\r<br />A. This is usually a DirectX problem. Try deleting d3d9.dll from the Skyrim directory and see if the game starts. If so your DirectX installation is corrupted (dont ask me why, Windows is fragile). Just DL &#34;DirectX End-User Runtime 9.0c&#34; (&lt;---Google this) and install. This should solve the problem. Remember to replace d3d9.dll in your Skyrim folder.\r<br />\r<br />Q.&#34;My game still crashes&#34;\r<br />A. If your game still crashes after deleting d3d9.dll then it is not this mod causing the problem.\r<br />\r<br />Q. &#34;Is this mod compatible with...?\r<br />A. The only thing that is 100% incompatible is ENB. Besides that, just make sure nothing overwrites Terrible Textures.[/color]\r<br />\r<br />[color=#00ff00]Credits: crosire, gutlessVADER\r<br />\r<br />[color=#9900ff]THAT&#39;S ALL FOLKS&#33;[/color][/color]",
+  "categoryId": "62",
+  "version": "3.1beta",
+  "author": "Zoso",
+  "createdUnix": "1472066110",
+  "updatedUnix": "1478064315",
+  "containsAdultContent": false,
+  "uploadedBy": "zosoab70",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000226574",
+      "name": "Toon Skyrim",
+      "version": "3.1beta",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Toon Skyrim-78173-3-1beta.7z",
+      "uploadedUnix": "1478064315",
+      "modVersion": "3.1beta",
+      "virusScanUrl": "https://www.virustotal.com/file/252dcdeb6b95b8ca0417072d0ef51d297a71d31d6c7d6f146cc29170001a652a/analysis/1478064362/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Toon%20Skyrim-78173-3-1beta.7z?fid=1000226574&ttl=1535866847&ri=8192&rs=8192&setec=e9c883015738266cbde58cd031bc2632"
+    }
+  ]
+}

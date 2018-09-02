@@ -1,0 +1,32 @@
+{
+  "modId": 30066.0,
+  "modName": "Bladesman Perk Redone",
+  "summary": "So, I played alot skyrim as one hander warrior, and I got very dissapointed about the bladesman perk(critical). Now with this mod, the critical strike damage stacks with onehanded skill, and it will be much more useful in the entire game.",
+  "descriptionHtml": "In vanilla the Bladesman perk only works off of the base damage of the weapon, which is a fraction of total damage at high levels. \r\nFor example:\r\nUsing a Legendary Daedric sword with 100 One-handed skill and 5/5 Armsman perk levels, you will deliver 72 damage per hit. However, base damage for a Daedric Sword is only 14; so with 3/3 Bladesman perk levels, you would have a 20% chance to cause an additional 10.5 points of damage. For reference, a critical hit with a one-handed iron sword will do an extra 3 points of damage at Bladesman perk level 1, or 4.5 damage at Bladesman level 3 (1.5x the base critical damage). For a one-handed Daedric sword, it would be 7 and 10.5, respectively. Nothing modifies these numbers, so even if you\\'re doing 300 damage per hit \\\"normally\\\", a critical hit would still only do an additional 3 to 10.5 points of damage.\r\n\r\nWhat my mod does:\r\n\r\nIt\\'s increasing the critical damage by the base damage+your skill level. So this perk will become usefull in the later stages of the game also.\r\n\r\nBase formula:\r\nlvl2 bladesman: Vanilla critical damage(for daedric sword its 7)*onehanded*0.15=105(with 100 onehanded)\r\nlvl3 bladesman: Vanilla critical damage(for daedric sword its 7)*onehanded*0.20=140(with 100 onehanded).\r\n\r\nCompability: It\\'s combatible with every mod, except the ones that modify this perk.\r\n\r\nThe only weak point right now is that i cant find a solution to modify the first step of the perk, so basically lvl 1 bladesman will stay as vanilla,but 2-3 are modified correctly.\r\n\r\n\r\nI would gladly hear your suggestions guys. \r\n",
+  "categoryId": "73",
+  "version": "0.9",
+  "author": "axelhacker94",
+  "createdUnix": "1358445507",
+  "updatedUnix": "1358643752",
+  "containsAdultContent": false,
+  "uploadedBy": "axelhacker94",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000003578",
+      "name": "Unlock Medals",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Bladesman perk rework-30066-0-9.rar",
+      "uploadedUnix": "1358643752",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/48801f817ee915892dcdb847900a93ba37429584f3c35d8a84dc9b79049ee234/analysis/1407362197/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bladesman%20perk%20rework-30066-0-9.rar?fid=1000003578&ttl=1535804625&ri=8192&rs=8192&setec=e00d54615f4228c95cd45065917b4596"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 35069.0,
+  "modName": "Stormcloak native Nord join dialogue for Nords or Custom race Nords",
+  "summary": "A Nord joining the Stromcloaks won`t get called a foreigner anymore&#33;\r<br />Workable for roleplaying with &#34;Custom Nord Race&#34; too  -but read long description if playing a custom race.",
+  "descriptionHtml": "1.9.2017 no changes, just changed file name to a better description (used to be Stormcloack join fix for Nords)\r<br /> [font=Comic Sans MS]\r<br />[b][color=#00ffff][size=4]Galmar, the Stormcloak joining quest giver, won`t call a Nord player &#34;foreigner&#34; anymore . \r<br />But he still doupts your skill /motivations, judging  you to be  just a mercenary or whatnot, and then gives the normal initiation quest to prove yourself. Activate plugin, preferably load a save not inside Windhelm Castle, Have Fun&#33;[/size][/color][/b][/font]\r<br />\r<br />[size=4][b][color=#1e84cc]CUSTOM RACE ? :[/color][/b][/size]----For roleplaying &#34;custom race Nords&#34; : for that &#34;nordness&#34; to work in your game just don`t tell Galmar the optional line &#34;Skyrim is home to more than Nords&#34; ,and a custom race player passes to next quest like a true son/daughter of Skyrim&#34; ;P&#33;  Sry, could have fine tuned that but had the Vanilla Nord race more  in mind when doing the plugin last year.\r<br />\r<br />Technical/Compatibility:\r<br />Compatible with any mod that does not change the 1st conversation with Galmar in Windhelm Castle. \r<br />And If you play the &#34;Alternate start -live another life&#34;  mod and start as a Stormcloack, you don`t need my mod cause this 1st quest is completely skipped.\r<br />\r<br />[color=#1e84cc][size=3]FAQ =Why this mod ?[/size][/color]\r<br />Seems Bethesda   wanted a nord character, like other characters caught crossing the border to Skyrim, to be born an &#34;outlander&#34;, maybe cause a new player is new to everything etc. What if you roleplay a nord who went borderhopping to Cyrodiil, say, a week ago, then crossed back and run into trouble?\r<br />Felt too funny having a &#34;Skyrim born and bred&#34; Nord set out for the purpose, in this &#34;Skyrim for Nords faction&#34;, to try roleplay motivation to join  Stromcloacks after a surprising &#34;Why would  a foreigner like you want to fight for Skyrim?&#34; bit from the quest giver:D&#33;\r<br /> My first &#34;true daughter of Skyrim&#34; nord left by Load Previous Save before Galmar could punch back ;).\r<br />\r<br />----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r<br />\r<br />For those who wonder/asked how it works: \r<br />\r<br />Does not add new voiced dialogue. And does not just plain skip the 1 foreigner line, that would not have kept sense in the conversation nor the quest triggers working: instead it changes some of players written lines to Galmar and alters the old dialogue tree so that &#34;foreigner&#34; will not appear, quest triggers work, there is  a tiny talk using old voice dialogue and new player lines where the player wants to fight for his/her homeland, Galmar appears suspicious of the players committment/motivation, and gives the quest (normal vanilla one) that`s given to such suspicious candidates. \r<br />\r<br />Exact changes made are to:\r<br />DIAL CW00BGalmarSkyrimIsHome\r<br />DIAL CW00BGalmarBlockingTopic\r<br />DIAL CW00BGalmarOnlyNords\r<br />INFO &#34;hmmm, Helgen, eh, Ulfric told us...etc...&#34;\r<br />GRUP group:topic (0001AEB6) children\r<br />\r<br />Updates:only updated this description page for mor more informations so far",
+  "categoryId": "25",
+  "version": "1.0",
+  "author": "mistress miaura",
+  "createdUnix": "1366505213",
+  "updatedUnix": "1366503536",
+  "containsAdultContent": false,
+  "uploadedBy": "mistress miaura",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000025591",
+      "name": "Nord Stormcloak Join Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Nord Stormcloak Join Fix-35069-1-0.zip",
+      "uploadedUnix": "1366503536",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b2878d0f8ff5a650cc57ccbca22b2090c1500f12bf3447161cff8659d87464e7/analysis/1407532191/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Nord%20Stormcloak%20Join%20Fix-35069-1-0.zip?fid=1000025591&ttl=1535813355&ri=8192&rs=8192&setec=b9eae1871ceb705e29edbb1dee0fad47"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 28202.0,
+  "modName": "Fires Hurt",
+  "summary": "Standing over normal fires burn player, magic pillars restore player magic and damage health.\r\n",
+  "descriptionHtml": "[youtube]8vNf-iImaY8[/youtube]\r\n[youtube]Q5m16qvmIL8[/youtube]\r\n\r\n[url=http://www.skyrimgems.com][img]http://i.imgur.com/1wXSO.png[/img][/url]Fires Hurt\r\nA Skyrim mod by abot\r\n\r\nDescription:\r\nStanding over normal fires burn player, magic pillars restore player magic and damage health.\r\n\r\nConfiguration from game console:\r\nglobal Variable ab01fhOff +1 = disable magic fire, +2 = disable steam, +4 = disable fire, +1024 = reset\r\nset ab01fhOff to 0 (default) = magic pillar effect on, steam effect on, fires effect on\r\n\r\nset ab01fhOff to 1 to disable magic fire\r\nset ab01fhOff to 2 to disable steam\r\nset ab01fhOff to 4 to disable fire\r\nset ab01fhOff to 3 to disable magic fire, steam\r\nset ab01fhOff to 5 to disable magic fire, fire\r\nset ab01fhOff to 7 to disable magic fire, steam, fire\r\nset ab01fhOff to 6 to disable steam, fire\r\nset ab01fhOff to 1024 to reset mod whenever you update this mod or any listed compatible mod.\r\n\r\nset ab01fhDamage to 0 = standard small scenic damage\r\nset ab01fhDamage to 1 = higher damage\r\n\r\n\r\nRequirements:\r\nTested working with Skyrim version 1.8, may work with some previous version but no guarantees.\r\n\r\n\r\nUsage:\r\nIt is suggested to use the\r\nset ab01fhOff to 1024\r\nconsole command to reset whenever you update this mod or any listed compatible mod.\r\n\r\n\r\nRelease history:\r\n\r\nv 1.09\r\n- added damage from steam sources\r\n- now working with fireplaces added by CampingKitNorthernRanger.esp, CampingKitNorthernRanger - Without Amberwood.esp, Chesko_Frostfall.esp, dynamic fires.esp\r\n\r\nv 1.08\r\n- fixed a detection range bug introduced in version 1.07 \r\n\r\nv 1.07\r\n- should work better with cooking pots\r\n\r\nv 1.06\r\n- added setting for (hopefully) updating compatible mods without clean uninstalling/reinstalling this mod:\r\n from the game console, type:\r\nset ab01fhOff to 3\r\n- added setting for 8x damage \r\n from the game console, type:\r\nset ab01fhDamage to 1\r\n(set ab01fhDamage to 0 to reset to standard small scenic damage)\r\n\r\n\r\nv 1.05\r\n- updated for compatibility with Frostfall 2\r\n\r\nv 1.04\r\n- fixed burning range of small cooking fires\r\n\r\nv 1.03\r\n- changed fire sound\r\n\r\nv 1.02\r\n- tweaked compatibility code with extra mods\r\n\r\nv 1.01\r\n- now working with fireplaces added by CampingKitNorthernRanger.esp, Chesko_Frostfall.esp, dynamic fires.esp\r\n- better effect range of scaled fires\r\n- increased quest priority\r\n\r\nv 1.00\r\ninitial release\r\n\r\nUninstall:\r\nUnload abotFiresHurt.esp and remove Data\\\\Scripts\\\\ab01fhQuest.pex (and optionally Data\\\\Scripts\\\\Source\\\\ab01fhQuest.psc).\r\n\r\nDebugging:\r\nset ab01fhDebug to 10, 11, 12 for some debug info",
+  "categoryId": "78",
+  "version": "1.09",
+  "author": "abot",
+  "createdUnix": "1355322026",
+  "updatedUnix": "1364566812",
+  "containsAdultContent": false,
+  "uploadedBy": "abot",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000020126",
+      "name": "fires_hurt_108",
+      "version": "1.08",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "fires_hurt_108-28202-1-06.7z",
+      "uploadedUnix": "1364216802",
+      "modVersion": "1.08",
+      "virusScanUrl": "https://www.virustotal.com/file/68db5effd6a0378b1d833087636265cc4c8c6490ff5a868b105d8c5569a715b9/analysis/1407487883/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/fires_hurt_108-28202-1-06.7z?fid=1000020126&ttl=1535801446&ri=8192&rs=8192&setec=7ef6aea254fc6f10a619b00f91e91d0b"
+    },
+    {
+      "fileId": "1000020921",
+      "name": "fires_hurt_109",
+      "version": "1.09",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "fires_hurt_109-28202-1-09.7z",
+      "uploadedUnix": "1364566812",
+      "modVersion": "1.09",
+      "virusScanUrl": "https://www.virustotal.com/file/448e6649900168607daa909535f9dd7dfbd0c2d604b98693b8737e934c333c6d/analysis/1407493823/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/fires_hurt_109-28202-1-09.7z?fid=1000020921&ttl=1535801446&ri=8192&rs=8192&setec=144e31677e0dec197e446f2d9e87424e"
+    }
+  ]
+}

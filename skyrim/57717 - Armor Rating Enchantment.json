@@ -1,0 +1,32 @@
+{
+  "modId": 57717.0,
+  "modName": "Armor Rating Enchantment",
+  "summary": "A mod to add an enchantment that gives a base armor rating to clothing or increases the overall armor rating of a piece of armor.",
+  "descriptionHtml": "Name: Armor Rating Enchantment \r<br />Version: 1.1\r<br />Date: 9/4/2014 \r<br />Category: Magic - Spells & Enchantments \r<br />Author(s): Chuckg \r<br />\r<br />Description \r<br />=========== \r<br />This mod adds an enchantment effect called &#34;Protection&#34; that increases the base armor rating of the article of clothing or armor its applied to.\r<br />\r<br />Location \r<br />======== \r<br />The vanilla Black Mage Robes and Blue Mage Robes have been changed to a 100-pt Protection enchantment, so finding and disenchanting one of these will give you the effect. Since the vanilla robes themselves have been changed, the altered robes should show up everywhere in loot lists that they showed up before. Anise, at &#34;Anise&#39;s Cabin&#34; across the river from the Guardian Stones, is a guaranteed drop of Blue Mage Robes and there&#39;s an enchanting station right in her basement for you to use.\r<br />\r<br />Alternately, you can open up the console and type &#34;player.additem C5D11 1&#34; to give yourself a set of enchanted Black Mage Robes.\r<br />\r<br />Although the robes in-game have a strength of 100, the base enchantment strength for purposes of enchanting the object yourself has been reduced to 50.\r<br />\r<br />A bug was discovered that prevented the enchantment from being used; the enchantment slot keywords have been reset to allow the Protection enchantment to be enchanted to any apparel slot.\r<br />\r<br />Details \r<br />======= \r<br />This enchantment should be very useful to enchant your robes with if you&#39;re going pure mage, but don&#39;t want to be recasting an Alteration buff every 60 seconds. If you&#39;ve fully maxed-out your Enchanting with all the relevant perks and using a Grand Soul Gem, it should produce a value of +125 armor rating at skill 100.\r<br />\r<br />Manual Install (if not using NMM or MO)\r<br />======= \r<br />1. Extract the files to a temporary location. \r<br />2. Copy &#34;armorratingenchantment.esp&#34; to (install folder)&#92;Skyrim&#92;Data&#92; \r<br />3. Start Skyrim Launcher, click &#39;Data Files&#39;, place a checkmark beside &#34;armorratingenchantment.esp&#34;.\r<br />\r<br />Uninstall \r<br />========= \r<br />1. Start Skyrim Launcher, click Data Files, uncheck &#34;armorratingenchantment.esp&#34;. \r<br />2. Delete &#34;armorratingenchantment.esp&#34; from your Data folder.\r<br />\r<br />\r<br />Incompatibility \r<br />=============== \r<br />This mod is incompatible with anything that alters the enchantment on the enchanted Blue Mage Robes or Black Mage Robes.\r<br />\r<br />This mod is incompatible with Mighty Magick if you&#39;re using the optional Enchantments Rebalance portion of that mod, as a different version of this same effect is already included in that rebalance.\r<br />\r<br />History \r<br />======= \r<br />1.0 -- 08/31/2014 - Initial release.\r<br />1.0a -- 09/01/2014 - Optional 50 point robe version.\r<br />1.1 -- Base enchantment strength reduced to 50 while robes still remain at 100; bug that prevented enchantment from being used on apparel slots fixed.\r<br />\r<br />Contact \r<br />======= \r<br />None.\r<br />\r<br />Tools Used \r<br />========== \r<br />Readme Generator - http://HammondsLegacy.com/obmm/tools_readme_generator1.asp\r<br />\r<br />Credits \r<br />======= \r<br />Thanks to DamarStiehl and his mod Mighty Magick for Skyrim, for giving me the inspiration to do this. No resources from his mod were reused.\r<br />\r<br />Permissions\r<br />=======\r<br />Feel free to do anything with my mod, just make sure to credit me.",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "Chuckg",
+  "createdUnix": "1409523324",
+  "updatedUnix": "1409895745",
+  "containsAdultContent": false,
+  "uploadedBy": "Chuckg",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000125386",
+      "name": "Armor Rating Enchantment",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Armor Rating Enchantment-57717-1-1.7z",
+      "uploadedUnix": "1409895745",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/8719a59b2bf5a953f6c34c4df3a806c88f3c34f35846ea66dad313f350dfee14/analysis/1409895842/",
+      "changelogHtml": " Bug that prevented enchantment from being used in apparel slots fixed; base enchantment strength adjusted for balance <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Armor%20Rating%20Enchantment-57717-1-1.7z?fid=1000125386&ttl=1535843874&ri=8192&rs=8192&setec=95bece7043d393f9901640a702101097"
+    }
+  ]
+}

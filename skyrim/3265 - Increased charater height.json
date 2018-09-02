@@ -1,0 +1,48 @@
+{
+  "modId": 3265.0,
+  "modName": "Increased charater height",
+  "summary": "Increased character\\'s height for the 1st person camera view",
+  "descriptionHtml": "- [color=orange]01/24/2012[/color] : Added an optional file for exact 1st person scale for races : Argonians males, High Elves, Nords, Orcs and Redguards males. -\r\n\r\n[SIZE=4][color=green]Description[/color][/SIZE]\r\n-----------------------\r\nThis modification Increase the character\\'s height for the 1st person camera view only.\r\nThat doesnt change the height of your character in the 3rd person view.\r\n\r\n[SIZE=4][color=green]Installation [/color][/SIZE]\r\n-----------------------\r\n1. Extract the folder [color=grey]\\\"Meshes\\\"[/color] In your Skyrim [color=grey]\\\"Data\\\" [/color]folder.\r\n\r\n2. You have now the Skeleton scale 1.05x.\r\n\r\n[color=red]To use another Height[/color], choose one of the included .nif files with the scale you want. Then, rename it to [color=grey]\\\" skeleton.nif \\\"[/color] and replace the [color=grey]\\\" skeleton.nif \\\"[/color] that is currently inside [color=grey]Skyrim/Data/meshes/actors/character/_1stperson[/color].\r\n\r\nExample:\r\n\r\nThe newly installed skeleton.nif has a scale of 1.05, but you want a scale of 1.10.\r\n\r\n1. Go to [color=grey]Skyrim/Data/meshes/actors/character/_1stperson[/color]\r\n2. Delete or rename the default [color=grey]\\\" skeleton.nif \\\"[/color]\r\n3. Rename [color=grey]\\\" skeleton1.10.nif \\\"[/color] to [color=grey]\\\" skeleton.nif \\\"[/color] .\r\n\r\nDone! Your scale is now 1.10x. \r\n\r\n[SIZE=4][color=green]Uninstallation[/color][/SIZE]\r\n-----------------------\r\nTo completly uninstall the mod delete the folder [color=grey]\\\" _1stperson \\\"[/color] located in [color=grey]\\\" ...\\\\Skyrim\\\\Data\\\\Meshes\\\\actors\\\\character\\\\ \\\"[/color].\r\n\r\n[SIZE=4][color=green]Infos[/color][/SIZE]\r\n-----------------------\r\nThe vanilla scale is 1.00.\r\n\r\n [color=green]Available Height scale[/color]\r\n\r\nskeleton1.01\r\nskeleton1.02\r\nskeleton1.05 [color=grey]-- installed by default[/color]\r\nskeleton1.10\r\nskeleton1.15\r\nskeleton1.20\r\nskeleton1.25\r\nskeleton1.30\r\nskeleton1.35\r\nskeleton1.40\r\n\r\n [color=green]Changing the 3rd Person Height (optional)[/color]\r\n\r\nIf you want, you can change the 3rd person scale ingame with this console command :\r\n\r\n[color=grey]player.setscale X[/color]\r\n\r\n( \\\"X\\\" is the scale you want to use. 1.00 is the game default )\r\n\r\n\r\n\r\n\r\n",
+  "categoryId": "78",
+  "version": "2.0",
+  "author": "Kacemus",
+  "createdUnix": "1323554675",
+  "updatedUnix": "1328367716",
+  "containsAdultContent": false,
+  "uploadedBy": "Kacemus",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "22530",
+      "name": "Correct 1st person view by races",
+      "version": "",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "25",
+      "fileName": "Correct 1st person view by races-3265.rar",
+      "uploadedUnix": "1327371221",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/f7e64137b1826fd5f66551bbcba8078246c2d5d62541c5885bd1b3f17880c307/analysis/1406634423/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Correct%201st%20person%20view%20by%20races-3265.rar?fid=22530&ttl=1535758177&ri=8192&rs=8192&setec=fd559fc8dec0cf9cb8758bc00019475f"
+    },
+    {
+      "fileId": "25819",
+      "name": "Increased charater height",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "438",
+      "fileName": "Increased charater height-3265-1.rar",
+      "uploadedUnix": "1328367716",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/7ccfdc5941bcf6ae72429e6f873d5e0a71db06c98b9a8a9c0d7d88fc5553a986/analysis/1406653229/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Increased%20charater%20height-3265-1.rar?fid=25819&ttl=1535758177&ri=8192&rs=8192&setec=b2c099ab9bb7bdcdcdde42d33259e942"
+    }
+  ]
+}

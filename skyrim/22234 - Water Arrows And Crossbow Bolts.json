@@ -1,0 +1,48 @@
+{
+  "modId": 22234.0,
+  "modName": "Water Arrows And Crossbow Bolts",
+  "summary": "Adds Thief series style Water Arrows (and crossbow bolts, Dawnguard DLC required) that allow you to extinguish lights from a distance, lowering the light level and making it a bit easier to sneak.\r\n",
+  "descriptionHtml": "IMPORTANT: This version includes crossbow bolts as well as arrows, so it requires Dawnguard.  If you do not have the Dawnguard DLC installed this mod will not work. The pre-Dawnguard version of this mod is available here: http://skyrim.nexusmods.com/mods/12555\r\n\r\n\r\nDescription\r\n=======\r\nAdds Thief series style Water Arrows that allow you to extinguish lights from a distance, lowering the light level and making it a bit easier to sneak.\r\n\r\n[youtube]-dWhVrHPlag[/youtube]\r\n\r\n\r\nHow to Acquire In Game\r\n=======\r\n- Water arrows and bolts are available at the following merchants:\r\n\t- Thieves Guild Fences: Enthir, Endon, Gulum, Mallus, Nirnaye, Tonilia\r\n\t- Falkreath, Gray Pine Goods\r\n\t- Markarth, Arnleif and Sons\r\n\t- Riften, Pawned Prawn\r\n\t- Riverwood, Riverwood Trader\r\n\t- Whiterun, Belethor\\'s General Goods\r\n\t- Solitude, Bits and Pieces\r\n\t- Windhelm, Sadris Used Wares\r\n- To ensure the vendor carries the arrows/bolts, visit one of the vendors above, leave the current area, wait 24 hours and return.\r\n\r\n- There are also recipes for crafting water arrows/bolts, no skill requirements and they can be accessed at any forge (under Misc).\r\n\t- 20 Water Arrows: 1 Frost Salts, 5 Firewood\r\n\t- 20 Water Bolts: 1 Frost Salts, 2 Iron Ingots\r\n\r\n\r\n\r\nDetails\r\n=======\r\nThis mod adds Thief-series style water arrows to extinguish light sources. For those not familiar with Thief: The Dark Project, these arrows allow you to extinguish certain lights, lowering the level of illumination and making it a bit easier to sneak.\r\n\r\nWhen fired, these arrows trigger a script which looks for the nearest object that qualifies as a dousable light (torches, candles, fires, anything you could reasonably expect to be doused by a splash of water). It then looks for the nearest light to that object within a limited radius and disables it. If the light emitter found has a corresponding unlit version (e.g. a fire and a pile of embers) it replaces it with that object (otherwise the original is left there).\r\nAfter 12 hours of game time lights will return to normal. Also, using any fire based spell or ability on an extinguished light will relight it.\r\n\r\n\r\nInstall\r\n=======\r\n1. Extract the files to a temporary location.\r\n2. Examine the folder structure and make corrections where necessary.\r\n3. Copy files to (install folder)\\\\Skyrim\\\\Data\\\\\r\n4. Start Skyrim Launcher, click \\'Data Files\\', place a checkmark beside the .esp file.\r\n\r\nAlternatively, use the Skyrim Nexus Mod Manager, or Steam workshop (http://steamcommunity.com/sharedfiles/filedetails/?id=1279368).\r\n\r\n\r\nUninstall\r\n=========\r\n1. Start Oblivion Launcher, click Data Files, uncheck the .esp file(s).\r\n2. Delete the files/folders associated with the mod.\r\nSkyrim\\\\Data\\\\WaterArrowsAndBolts.esp\r\nSkyrim\\\\Data\\\\Meshes\\\\WaterArrows\\\\*\r\nSkyrim\\\\Data\\\\Textures\\\\WaterArrows\\\\*\r\nSkyrim\\\\Data\\\\Scripts\\\\waterbombscript.pex\r\nSkyrim\\\\Data\\\\Scripts\\\\WA_AddToVendorAliasScript.pex\r\n\r\n\r\nKnown Issues or Bugs\r\n====================\r\n- There are occasionally multiple light emitters right next to each other, at the moment the mod will only replace one of them with the unlit version, leaving the others still lit.\r\n\r\n- Unfortunately Skyrim, at least the official content, is not really designed with this kind of feature in mind. There isn\\'t a 1:1 correspondence between light emitter meshes and the actual light effects (so you could have five torches along a wall but only one light effect for them all). So, if you encounter a light that won\\'t go out there are a number of possibilities. The first is that there isn\\'t a light effect in range, that the light emitter is just for show and doesn\\'t affect any lighting. Also, if there is no unlit version of the object it won\\'t change when hit by the water arrow splash, but it should still disable any nearby light. This is still a WIP so if you do encounter any lights that don\\'t go out (and the previous described cases don\\'t apply) please let me know.\r\n\r\n\r\nHistory\r\n=======\r\n1.1, 2012/8/13 - Exploding Crossbow Bolts of Fire and Sun Fire will now relight extinguished lights.\r\n1.0, 2012/8/8 - Added crossbow bolt version.\r\n\t\t\t  - Arrows and bolts now reliably appear at a wider range of vendors (see above for list)\r\n\t\t\t  - Added a bunch of new unlit emitter meshes, most candle-type light sources should actually look extinguished now.\r\n0.4, 2012/5/11 - Added to vendor lists.\r\n\t       - Extinguished torches can be relit by using any fire based spell or ability (e.g. Flames Spell or Fire Breath shout).\r\n0.3, 2012/4/25 - Trying out a new explosion effect. \r\n0.2, 2012/4/22 - Added timer to relight light sources extinguished by water arrows. After 12 hours of game time any extinguished light sources should return to normal.\r\n\r\n\r\nCredits\r\n=======\r\nThanks to Bethesda for creating Skyrim.\r\nThanks to TESNexus.com for the a one-stop-shop resource for authors and players.\r\nThanks to LHammonds for the Readme Generator this file was based on.\r\n\r\n\r\nTools Used\r\n==========\r\nBSA Commander - http://www.tesnexus.com/downloads/file.php?id=3311\r\nGIMP - http://www.tesnexus.com/downloads/file.php?id=14920\r\nNIFSkope - http://niftools.sourceforge.net/wiki/NifSkope\r\nReadme Generator - http://HammondsLegacy.com/obmm/tools_readme_generator1.asp\r\nSkyrim Creation Kit - http://www.creationkit.com",
+  "categoryId": "27",
+  "version": "1.0",
+  "author": "angryegret",
+  "createdUnix": "1344739633",
+  "updatedUnix": "1344831773",
+  "containsAdultContent": false,
+  "uploadedBy": "angryegret",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "80868",
+      "name": "WaterArrowsAndBolts_1_0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "5240",
+      "fileName": "WaterArrowsAndBolts_1_0-22234-1-0.rar",
+      "uploadedUnix": "1344751781",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/eb62e265aba4111997cabe904d0e3ffe3d0bf2bcf4126ceb3a887d7a20ba0d48/analysis/1407090252/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/WaterArrowsAndBolts_1_0-22234-1-0.rar?fid=80868&ttl=1535791659&ri=8192&rs=8192&setec=500ef606712030cd2abff74220114b27"
+    },
+    {
+      "fileId": "81205",
+      "name": "WaterArrowsAndBolts_1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5240",
+      "fileName": "WaterArrowsAndBolts_1_1-22234-1-1.rar",
+      "uploadedUnix": "1344831773",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/50ed914da62cab3e73827a0d5b7d181ad297440d3a177a7c046485a0693c6d02/analysis/1407093065/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/WaterArrowsAndBolts_1_1-22234-1-1.rar?fid=81205&ttl=1535791659&ri=8192&rs=8192&setec=cbfbca8ddb25a6c1bfe23d8e4ab4808b"
+    }
+  ]
+}

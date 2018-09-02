@@ -1,0 +1,48 @@
+{
+  "modId": 19251.0,
+  "modName": "Hadrhune Sober HD6-ENB Lighting Enhancement",
+  "summary": "Update: - Added NO LETTERBOX version.\r\n\r\nYou can consider this mod as a personal preset of HeliosDoubleSix-ENB Lighting Enhancement v11.3.\r\nI really loved what these guys (HeliosDoubleSix and Boris) have done with their work but I found their idea\r\nmoves a little too distant, for what my tastes are, from what Bethesda artists had in mind.\r\nSo as my",
+  "descriptionHtml": "Hadrhune\\'s Sober HD6-ENB Lighting Enhancement\r\n\r\nYou can consider this mod as a personal preset of HeliosDoubleSix-ENB Lighting Enhancement v11.3.\r\nI really loved what these guys (Helios and Boris) have done with their work but I found their idea\r\nmoves a little too distant, for what my tastes are, from what Bethesda artists had in mind.\r\nSo as my first mod, I just tweaked a version of mine which brings back \r\nthe vanilla palette but with all the cool features of both ENB and HD6-ENB version.\r\nI think screenshots (those with black bars are with mod turned on) do not give enough justice to this mod, sometimes the effects are subtles, sometimes not... I strongly suggest you to TRY IT before judge. \r\n\r\nFEATURES:\r\n- No SSAO at all. Low fps impact.\r\n- Has letterbox bars.\r\n- Bloom is on but contained.\r\n- \\\"Blue shift\\\" pushed higher.\r\n- Less warmer, less red, and generally less saturated than HD6-ENB. \r\n- A little bit darker nights than HD6-ENB but still with shadows of moonlight. Many ENBs preset are so dark that you can\\'t see shadows of moonlight.\r\n- More contrast on clouds. \r\n- Works underwater too. \r\n- Has Depth of Field, and its fade time is quite slow (2 seconds).\r\n- Tweaks here and there.\r\n- Includes Optional Mods (read below). One of these prevents ENB to \\\"overlight\\\" dungeons.\r\n\r\nRemember: this is a post processing effect so it may hit on performances.\r\n\r\nCredit goes all to HeliosDoubleSix and Boris, here the links to their original mods:\r\n\r\nHD6-ENB Lighting Enhancment - Dark Nights by HeliosDoubleSix\r\n\t- MOD by HD6: http://www.skyrimnexus.com/downloads/file.php?id=4142\r\n\r\nOriginal ENB by Boris Vorontsov:\r\n\t- MOD by ENB: http://www.skyrimnexus.com/downloads/file.php?id=2971\r\n\r\nVisit their page and ENDORSE THEM, they absolutely deserve it.\r\n\r\nAs I wrote before, I also suggest you to use these mods which are included in Optional Folder placed inside the archive. \r\nFor more info check:\r\n\r\n- Lush Grass by OpticShooter\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=3288\r\n\r\n- Lush Trees by OpticShooter\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=3385\r\n\r\n- Skyrim Sunglare V3 by Laast\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=116\r\n\r\n- ENB post process tends to \\\"over-light\\\" in dungeons (everything becomes bright even if there\\'s not light sources), so a mod to bring back the atmosphere it\\'s sure required.\r\nThe .esp file included it\\'s Mike Fox Darker Dungeons.\r\nDungeons becomes a little darker than vanilla, so torches becomes useful but without make everything turn to pitch black.\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=11353\r\nIn alternative, if you prefer the vanilla illumination I suggest you to try Further/Original Dark Dungeons for ENB which I both included in .zip files:\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=12454\r\n\r\n\r\nEnjoy and forgive my english.\r\nThank you for watching\r\n\r\n---- Install ----\r\n\r\na) For safety reasons, backup all files in \\\"X:\\\\Users\\\\<username>\\\\Documents\\\\My Games\\\\Skyrim\\\" directory.\r\n\r\nb) This mod will cause a new hardware identification once you\\'ll run the game for the first time with the mod installed.\r\nSo, in order to keep all your personal settings, you should change some values in \r\n\t\\\"X:\\\\Users\\\\<username>\\\\Documents\\\\My Games\\\\Skyrim\\\\SkyrimPrefs.ini\\\"\r\n\r\nIn particular:\r\n\r\n\t1) sD3DDevice=\\\"<YOUR VIDEOCARD NAME>\\\"\r\n\t\r\n\tneeds to be changed to:\r\n\r\n\tsD3DDevice=\\\"ENB\\\"\r\n\r\n\t2) In order to achieve best results \\\"bTreesReceiveShadows\\\" and \\\"bDrawLandShadows\\\" need to be set at 1\r\n\t\r\nc) Extract all files of \\\"Hadrhune\\'s Sober HD6-ENB v11.3.zip\\\" into your Skyrim directory\r\n\\\"...\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\" where TESV.exe is placed.\r\nIf you want to use Lush Grass, Lush Trees and Sunglare just extract them into \\\"...\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\data\\\"\r\n\r\nd) Run Launcher. Go to \\\"Data Files\\\" check the \\\"Load Loose Files\\\". You\\'re good to go.\r\nWith SHIFT + F12 you can turn on and off the mod to see visual and performances differences from vanilla skyrim.\r\n\r\n\r\n\r\n---- Uninstall ----\r\n\r\na) Restore your backup files into \\\"X:\\\\Users\\\\<username>\\\\Documents\\\\My Games\\\\Skyrim\\\" directory.\r\n\r\nb) Delete these files:\r\n\r\nd3d9.dll\r\nenbbloom.fx\r\nenbeffect.fx\r\nenbeffectprepass.fx\r\nenbseries.ini\r\n\r\nfrom Skyrim Directory \\\"...\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\".\r\n\r\n\r\n---- Infos ----\r\nContact: Pluvius.aestivus@gmail.com\r\nHadrhune1 on SkyrimNexus\r\nLet me know if you appreciated it.",
+  "categoryId": "62",
+  "version": "2.0",
+  "author": "Hadrhune - HeliosDoubleSix - Boris Vorontsov",
+  "createdUnix": "1340417789",
+  "updatedUnix": "1341930624",
+  "containsAdultContent": false,
+  "uploadedBy": "Hadrhune1",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "69751",
+      "name": "Hadrhune Sober HD6-ENBv2",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3455",
+      "fileName": "Hadrhune Sober HD6-ENBv2-19251-2-0.rar",
+      "uploadedUnix": "1340418042",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5418070ecc78fe4c169d0238dc451be4cec099ae2bcb54a81fa655ec6a9a95b4/analysis/1406977084/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hadrhune%20Sober%20HD6-ENBv2-19251-2-0.rar?fid=69751&ttl=1535786582&ri=8192&rs=8192&setec=54e7f1d16c428ff6a065f1d6c76b1a12"
+    },
+    {
+      "fileId": "73419",
+      "name": "Enbeffect with NO LETTERBOX",
+      "version": "2.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "12",
+      "fileName": "Enbeffect with NO LETTERBOX-19251-2-0.rar",
+      "uploadedUnix": "1341930624",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a126f6ab4baf1bd08d79c037626c895820d257646c65fad36901712e0474f166/analysis/1407014043/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Enbeffect%20with%20NO%20LETTERBOX-19251-2-0.rar?fid=73419&ttl=1535786582&ri=8192&rs=8192&setec=db870da1ef2901140067ea721326437c"
+    }
+  ]
+}

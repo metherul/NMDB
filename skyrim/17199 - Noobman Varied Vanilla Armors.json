@@ -1,0 +1,48 @@
+{
+  "modId": 17199.0,
+  "modName": "Noobman Varied Vanilla Armors",
+  "summary": "Creates variations of vanilla armors and add them to leveled lists. The variations have the same look, but have different stats (some have lower stats, some have higher stats).",
+  "descriptionHtml": "Noobman\\'s Varied Vanilla Armors\r\nv.0.4\r\n\r\nCreates variations of vanilla armors and add them to leveled lists. The variations have the same look, but have different stats (some have lower stats, some have higher stats). Inspired by NWN and Diablo looting system.\r\n\r\nIn-game, you won\\'t see any difference in the items since I only added variations of the vanilla armors and they were added seamlessly to the leveled lists; also, they use the same name as their original armors. You will only be able to see the difference if you compare the stats. The current version adds two variations, one with lower stats, and one with higher stats.\r\n\r\n==============================================\r\nHistory:\r\nBack in 2004 I was playing Morrowind and NWN at the same time. I loved Morrowind and the mods released back then, but I hated how I knew the armors and their stats even before I get them just by looking at the NPCs. I wanted variations in the loots the same way NWN and Diablo has different kind of stats for their armors. I created a mod for Morrowind, but never released it. Nevertheless, the experience was fun since NPCs have varied armor stats.\r\n\r\n==============================================\r\nProcess:\r\nIt\\'s a lot harder than back then in Morrowind, because the CK is more complex than the TES:CS of Morrowind. \r\nTo create the variations, I simply duplicate the armors, and then modify their stats. As of the moment there are only two variations of the vanilla armors I duplicated. The process is relatively the same with that of my Morrowind mod. The harder part is the leveled list, since the leveled lists of Skyrim is a lot more complex because of how the devs decided to group the items. Anyhow, I add the new armors to the leveled lists by simply looking at the original armors\\' Use Info, and adding the variations to the same leveled lists that use the original armors.\r\n\r\n==============================================\r\nCurrently Added Armors:\r\n-Variations of Fur Armor\r\n-Variations of Hide Armor\r\n-Variations of Scaled Armor\r\n-Variations of Studded Armor\r\n\r\nCURRENTLY DOING LEATHER ARMORS\r\n\r\n==============================================\r\nINSTALLATION:\r\njust extract to your Data folder. Use Wrye Bash - Skyrim to merge the leveled lists with your other mods that add leveled lists.\r\n\r\n==============================================\r\nFuture Plans:\r\n-complete variations for vanilla armors\r\n-create another mod for vanilla weapons\r\n-add enchanted variations for vanilla armors\r\n-add variations for enchantments\r\n\r\nMy ultimate goal is to make the loots more varied, especially with the stats and the enchantments.\r\n\r\n==============================================\r\nVersion history:\r\n05/16/12 - v0.1 - Created variations for Fur Armor category in CK. Added them to leveled lists.\r\n05/18/12 - v0.4 - Added variations for Hide Armor, Scaled Armor, and Studded Armor. Added them to leveled lists.\r\n",
+  "categoryId": "54",
+  "version": "0.4",
+  "author": "imanoobsowhat27",
+  "createdUnix": "1337239701",
+  "updatedUnix": "1337323713",
+  "containsAdultContent": false,
+  "uploadedBy": "imanoobsowhat27",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "61823",
+      "name": "noobman_variedarmors v0_1",
+      "version": "0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "noobman_variedarmors v0_1-17199.rar",
+      "uploadedUnix": "1337239950",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/73e0360b60305da162206571ce1933afb7a94927dfb5ba64e33c5e55fe645cae/analysis/1406897886/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/noobman_variedarmors%20v0_1-17199.rar?fid=61823&ttl=1535783127&ri=8192&rs=8192&setec=c357bb4659310bd67094bb57f5972f95"
+    },
+    {
+      "fileId": "62020",
+      "name": "noobman_variedarmors v0_4",
+      "version": "0.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "noobman_variedarmors v0_4-17199-0-4.rar",
+      "uploadedUnix": "1337323713",
+      "modVersion": "0.4",
+      "virusScanUrl": "https://www.virustotal.com/file/48845364db6ec93f304b6b556689b8d24857e6779ca37e92068c7601f756ce67/analysis/1406899803/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/noobman_variedarmors%20v0_4-17199-0-4.rar?fid=62020&ttl=1535783127&ri=8192&rs=8192&setec=eff6b91ff3ce4336ae41e7d5496f9e93"
+    }
+  ]
+}

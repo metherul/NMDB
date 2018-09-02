@@ -1,0 +1,32 @@
+{
+  "modId": 61790.0,
+  "modName": "Staff of the Gorgon&#39;s Curse",
+  "summary": "A magic staff that turns enemies to stone.",
+  "descriptionHtml": "This mod adds a new weapon, the Staff of the Gorgon&#39;s Curse, to the game. The Staff is inside a locked chest located at the Serpent Standing Stone. The Stone can be found to the East of Winterhold (see screenshot).\r<br />\r<br />\r<br />[color=#ffff00][b][u]Features:[/u][/b][/color]\r<br />\r<br />- The Staff damages targets at a rate of 10 per second. When a target&#39;s health drops below 30%, it will be paralyzed and turned to stone for an hour of real time (roughly 20 hours in the game). The target will also become resistant to harmful magic, but can still take physical damage. The target need not be weakened solely by the Staff; the Petrification effect will still be applied if the target was damaged by other means.\r<br />\r<br />- Actors that are immune to Paralysis will not be turned to stone, but will continue taking damage from the Staff.\r<br />\r<br />- Petrified enemies will still be in combat with the player. This means that, unless you finish them off, you will have to move away from them to fast travel or rest. It also means that any companions you may have will keep hacking away at them.\r<br />\r<br />- The amount of charge on the staff depends on the player&#39;s Alteration skill.\r<br />\r<br />\r<br />[color=#ffff00][b][u]Known Issues:[/u][/b][/color]\r<br />\r<br />- Occasionally, the &#34;Petrified&#34; visual effect will not be applied correctly, because the target is under the effect of other spells. This is due to the way the game handles multiple Effect Shaders on the same actor. The target will still be paralyzed.\r<br />\r<br />- Some actors have a natural resistance to magic, which will reduce the duration of harmful magic effects but not beneficial ones. With these targets, the Paralysis effect will wear off sooner than the Magic Resistance added by the Staff, leaving them temporarily immune to harmful spells. This should only be a problem if you plan to hang around a paralyzed enemy for an hour or so.",
+  "categoryId": "75",
+  "version": "1",
+  "author": "AlanovichRomanov",
+  "createdUnix": "1421583989",
+  "updatedUnix": "1421583979",
+  "containsAdultContent": false,
+  "uploadedBy": "alanovichromanov",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000143375",
+      "name": "Staff of the Gorgon&#39;s Curse",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5070",
+      "fileName": "Staff of the Gorgon's Curse-61790-1.rar",
+      "uploadedUnix": "1421583979",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/faa547acf5d852fecd3286c0081e0cc0d74d9fa13380556d89d9cf2c0b9da608/analysis/1421584027/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Staff%20of%20the%20Gorgon%27s%20Curse-61790-1.rar?fid=1000143375&ttl=1535850328&ri=8192&rs=8192&setec=51e4c3e18fcca385415f449349bd2e03"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 3180.0,
+  "modName": "ControllerInterfaceFix",
+  "summary": "Allows you to remap controller buttons without breaking the interface menus",
+  "descriptionHtml": "ControllerInterfaceFix\r<br />\r<br />Allows you to remap controller buttons without breaking the interface menus\r<br />\r<br />VERSION:  1.01\r<br />AUTHOR:   Danny Warren\r<br />EMAIL:    danny@dannywarren.com\r<br />GITHUB:\t  https://github.com/dannywarren/Skyrim-ControllerInterfaceFix\r<br />NEXUS:    http://www.nexusmods.com/skyrim/mods/3180/?\r<br />\r<br />\r<br />--\r<br />\r<br />ABOUT:\r<br />\r<br />In the 1.2.12.0 patch, bethesda introduced a change to the way the control\r<br />mappings worked.\r<br />\r<br />In the original release, the buttons you use to interact with the user\r<br />interface menus were hardcoded.  This allowed you to remap your in-game actions\r<br />(such as jump, sheath, interact, etc) while still leaving the user interface\r<br />buttons consistent (a is always accept, b is always cancel, etc).\r<br />\r<br />Now, the mappings are set up such that changing the button used for an in-game\r<br />action will also swap the buttons used in the user interface menus.\r<br />\r<br />Not only do the user interface buttons get swapped around, but several actions\r<br />in the menus stop working when remapped.  There are several cases where you are\r<br />unable to accept or cancel menus.  You must unplug your controller and take\r<br />over with the mouse or force quit skyrim.\r<br />\r<br />This fix restores the hardcoded button mappings found in the original skyrim\r<br />release, allowing you to once again remap the in-game actions without breaking\r<br />the user interface menus.\r<br />\r<br />I posted a quick fix for this in the bethesda forums when the 1.2.12.0 patch\r<br />came out.  Unfortunately, the same behavior is present in 1.3.7.0 as well so it\r<br />looks like bethesda is sticking with this behavior.  Might as well make the fix\r<br />official, too.\r<br />\r<br />Please note that this fix does not change any of the keyboard mappings, it only\r<br />applies to the controller.  If there is interest in doing a similar fix for the\r<br />keyboard, please let me know.  I play with a controller so I have no idea which\r<br />new mapping tweaks work better and which would need restored to the original\r<br />release settings.\r<br />\r<br />\r<br />--\r<br />\r<br />INSTALLING:\r<br />\r<br />To install this mod, extract it to your skyrim data folder.\r<br />\r<br />You should end up with:\r<br />\r<br />  Data&#92;Interface&#92;controls&#92;pc&#92;controlmap.txt\r<br />  Data&#92;ControllerInterfaceFix-Readme.txt\r<br />\r<br />\r<br />--\r<br />\r<br />TROUBLESHOOTING:\r<br />\r<br />Not really related to this mod, but handy if your controller configuration is\r<br />stuck or not behaving correctly.\r<br />\r<br />The button mappings for skyrim are not stored in the configuration files, but\r<br />instead are located in a file called ControlMap_Custom.txt that lives in the\r<br />skyrim application directory.\r<br />\r<br />So, on windows xp the file would be located here:\r<br />\r<br />  C:&#92;Program Files&#92;steam&#92;steamapps&#92;common&#92;skyrim&#92;ControlMap_Custom.txt\r<br />\r<br />If you delete this file, you button mappings will be reset and you can remap\r<br />them again as you see fit.\r<br />\r<br />Also note, for anyone that attempts to open the controlmap.txt file and edit\r<br />it themselves, that the tab stops in the file *must* remain in place or else\r<br />skyrim will crash when launched.  It looks like the parser that reads in the\r<br />controlmap.txt file doesn&#39;t have any fallback for tabs as spaces, etc.\r<br />\r<br />\r<br />--\r<br />\r<br />NOTES:\r<br />\r<br />The gamepad.txt file, also in &#34;Skyrim - Interfaces.bsa&#34;, explains which hex\r<br />codes correspond to which buttons.  I&#39;ll include the contents of that file here\r<br />to help explain the above diff and in case you wish to tweak controlmap.txt\r<br />yourself:\r<br />\r<br />  // 1st field: Gamepad button name.  DO NOT ALTER&#33;  This field is used to ID events in the code\r<br />  // 2nd: Key hardware value.  Matches XINPUT_GAMEPAD_* enum values on 360\r<br />  Up        0x0001\r<br />  Down      0x0002\r<br />  Left      0x0004\r<br />  Right     0x0008\r<br />  360_Start 0x0010\r<br />  360_Back  0x0020\r<br />  360_L3    0x0040\r<br />  360_R3    0x0080\r<br />  360_LB    0x0100\r<br />  360_RB    0x0200\r<br />  360_A     0x1000\r<br />  360_B     0x2000\r<br />  360_X     0x4000\r<br />  360_Y     0x8000\r<br />  \r<br />  // NOTE: The below hardware values are arbitrary, since there are no XINPUT_GAMEPAD values for them\r<br />  360_LT    0x0009\r<br />  360_RT    0x000a\r<br />  360_LS    0x000b\r<br />  360_RS    0x000c\r<br />\r<br />\r<br />--\r<br />\r<br />CHANGELOG:\r<br />\r<br />1.00  2011.12.09\r<br />  \r<br />  * initial release\r<br />\r<br />1.01  2011.12.09\r<br />\r<br />  * fixed typos in readme\r<br />",
+  "categoryId": "95",
+  "version": "1.01",
+  "author": "Danny Warren",
+  "createdUnix": "1323477862",
+  "updatedUnix": "1323481224",
+  "containsAdultContent": false,
+  "uploadedBy": "dwarren",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "8725",
+      "name": "ControllerInterfaceFix",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "ControllerInterfaceFix-3180-1-01.7z",
+      "uploadedUnix": "1323481224",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/bc608c9550aab405c804924c53af28dfa1ade7a57d0b9daf289d044b83238d96/analysis/1406499243/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ControllerInterfaceFix-3180-1-01.7z?fid=8725&ttl=1535758020&ri=8192&rs=8192&setec=53af56d45ac460528f65fffbfc2f5dde"
+    }
+  ]
+}

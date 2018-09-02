@@ -1,0 +1,32 @@
+{
+  "modId": 50516.0,
+  "modName": "Purkinje Effect",
+  "summary": "A shader program to simulate human eye perception under dim light condition.",
+  "descriptionHtml": "When luminance falls below a threshold, rod cells&#39; stimuli takes over cone cells&#39;. Rod cells&#39; almost absent sensitivity to red light, and high sensitivity to blue-green light results in the blue images we see at night.\r<br />\r<br />This shader program attempts to correct colour by simulating the above effect. As you can see in the screenshot, dim environment desaturates and &#34;glows&#34; blue while the light cast by blacksmith fire maintains red because light from there is still strong enough for the red cone cells.\r<br />\r<br />Requires ENB\r<br />\r<br />A compiled fx and the source are uploaded. You can add the source to your own enb effect file and change some of the parameters yourselves.\r<br />\r<br />Note: it also makes the night eye spell effect work again and a little differently.\r<br />you may need to tweak the if statement a little bit since i&#39;m not sure how that parameter translates to the spell effect strength and the spell effect strength may be altered by mods.",
+  "categoryId": "62",
+  "version": "2.0",
+  "author": "me",
+  "createdUnix": "1391075086",
+  "updatedUnix": "1391359764",
+  "containsAdultContent": false,
+  "uploadedBy": "ragnaroklucifer",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000094826",
+      "name": "effect and source",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "effect and source-50516-2-0.7z",
+      "uploadedUnix": "1391359764",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/babcc74fa853b90bd5478df21db1487969a082c5c6e4f488c0cca7190109474b/analysis/1407914315/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/effect%20and%20source-50516-2-0.7z?fid=1000094826&ttl=1535832287&ri=8192&rs=8192&setec=3be038be57430d5fa0a17552703a687a"
+    }
+  ]
+}

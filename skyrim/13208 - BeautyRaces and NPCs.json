@@ -1,0 +1,48 @@
+{
+  "modId": 13208.0,
+  "modName": "BeautyRaces and NPCs",
+  "summary": "Allows you to use different textures for player beyond default by adding new textures from popular mods.Also changes the way many npcs look without effecting gameplay or having older lady characters with to much makeup.",
+  "descriptionHtml": "Credits\r\nFountain of Youth - Beauty Project v1-5 by Skree000\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=2535 A big thanks for the creation of your textures and allowing me to use  them in my mod.\r\n\r\nHigh Res Face Maps for Men by Geonox \r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=4141 Thank you its very cool when people release their work for modders like me to use.\r\n\r\n\r\n\r\n\r\nAbout the mod\r\n\r\nAdds textures from fountain of youth and High Res Face Maps for Men \r\n\r\nBeauty races and npcs is really two mods.The  BeautyRaces.esm is the foundation and adds new textures and races without replacing your default\r\nraces allowing you to have your character use a different texture than npcs.It also allows for me to edit npcs with various textures and get different looks.\r\nRight now it only has two texture sets the ones listed in the credits I hope to add more as I get permission to from texture artists.\r\n\r\nBeautyNpcs.esp changes some npcs looks and uses beautyraces as a master.As of now beautynpcs only edits around half the npcs you can marry but I plan on adding \r\nmore in future updates. Not all my edits include the new textures and some are just minor details like getting rid of horrible make up (green eyeshadow on top of eyes and\r\nyellow on bottom yuck!) or dirt on npc faces with minor other details.Others are more noticeable or totally redone in a few cases.\r\n\r\nI personally favor knowing what files are added or changed in mods I download  so heres basic outline for this mod. Nothing has been overwritten theres a esm and esp,textures added\r\nthat came from mods like Fountain of Youth have been renamed from exp. femalehead_msn to femalehead_msnfoy to avoid overwriting, and theres facegendata to edit npc faces.\r\nNpcs edited so far are:AelaTheHuntress,Aeri,Ainethach,Angrenor,Anwen,Benor,CamillaValerius,Cosnach,Erik,Grelka,Belrand,ErikTheSlayer,Marcurio,Stenvar,Vorstag,Argis,Iona,\r\nJordis,Calder,Mjoll,Muiri,NjadaStonearm,Onmund,Orla,QuintusNavale,Ria,Roggi,SorexVinius,Sylgja,Uthgerd,ViolaGiordano,Wilhelm,Ysolda.\r\n\r\n\r\n\r\n\r\n\r\nGoals and Future updates\r\n\r\nI set out with the goal to update as many character faces as possible in skyrim if I thought they needed it.I don\\'t plan on editing every npc just to edit it but I will being \r\nworking on changing npcs that look odd or you see often in town or during quests. I started with marriageable characters and plan on working on jarls and their courts next and\r\nprobably more in the future.\r\n\r\n\r\n\r\nRequirements\r\n\r\n\r\nWhile there is no requirements technically besides skyrim itself I highly recommend XCE - Xenius Character Enhancement by Xenius  http://skyrim.nexusmods.com/downloads/file.php?id=2356\r\nmany of my edits use vanilla textures and look better with his works.\r\n\r\n\r\n\r\nCompatibly and known issues\r\n\r\n\r\nI am not aware of any compatibly issues but I can imagine that any mods that edits npcs might clash with beautynpcs.\r\n\r\nThere is one issue because of how skyrim works,the neck seams can be fairly visable. The only way to really fix neck seams that I know of is with texblend.I wish I could fix this in my release but if the neck seam issues bug you\r\nwhat you need to do is blend them with texblend. I found the simplest way to do this is if you are using cbbe body.Heres step by step what I did.\r\n1. I installed cbbe.\r\n2. installed foy head files as default textures(they are named femalehead_msnfoy in my mod.Rename them to femalehead_msn, before step 3)\r\n3.Run texblendlite that is installed with cbbe in data folder\r\n4.Rename foy textures to femalehead_msnfoy\r\n5.install XCE textures(or whatever you want as game defualt textures)\r\n6.run textblendlite again\r\nthat\\'s it,you should have less noticable neck seams now.Because of how skyrim works you may still see seams if you look closely I will try to fix this in future but not sure I can.\r\n\r\n\r\n\r\n\r\nInstalling and usage\r\n\r\ninstalling if you want the whole package download beautyraces&npcs and extract everything in the skyrim data folder. If you just want the beautyraces without npc edits download \r\nthe beautyraces file and extract/place everything in skyrim data folder.\r\nTheres two ways to use the textures from fountain of youth or High Res Face Maps for Men use the new races I made, or chose your race body info and then in head info under the complexion option choose\r\n the last choice(far right option) that should be new textures which means you will still be seen as a nord or breton etc. by npcs.\r\nMake sure the esm is before the esp but it should be automatic and that they both are checked on in data of launcher.\r\n\r\nOther notes\r\n\r\nThis is my first mod and its still a wip so I am open to suggestions and constructive criticism but be kind to someone new to modding :).I am happy enough just making this for myself but if everyone enjoys\r\n what I have done that would be great I just hope that in the future more texture artists give me their permission to use so I can make this mod better.\r\n\r\n\r\n\r\n\r\nPermissions\r\n\r\nI can\\'t give permission to use any textures in this mod since their not mine. If you want you can use the esm as a master to edit your npcs and direct people to my nexus page to download the esm only file.\r\nPlease don\\'t release this mod files anywhere without my permission.",
+  "categoryId": "33",
+  "version": "1",
+  "author": "Stormsone",
+  "createdUnix": "1332105744",
+  "updatedUnix": "1332107437",
+  "containsAdultContent": false,
+  "uploadedBy": "stormsone",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "44589",
+      "name": "beautyracesandnpcs",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "82936",
+      "fileName": "beautyracesandnpcs-13208-1.rar",
+      "uploadedUnix": "1332106186",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/6fdd1ac81bf940668074417ddf65a964cda9521b9e1e8f5cf87c449117d7c48c/analysis/1406767126/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/beautyracesandnpcs-13208-1.rar?fid=44589&ttl=1535775786&ri=8192&rs=8192&setec=572ebae57f276e7bafed7ab61dc567b8"
+    },
+    {
+      "fileId": "44596",
+      "name": "Beautyraces",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "76631",
+      "fileName": "Beautyraces-13208.rar",
+      "uploadedUnix": "1332107437",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/9b7b1189264721f19b10c677dc8700346ec3268b4221bdb832234be063483514/analysis/1406767050/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Beautyraces-13208.rar?fid=44596&ttl=1535775787&ri=8192&rs=8192&setec=03aed96f98f69736bdd68405af7ae485"
+    }
+  ]
+}

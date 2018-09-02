@@ -1,0 +1,48 @@
+{
+  "modId": 30057.0,
+  "modName": "Correct ps3 button icons and skyui 3 compatibility",
+  "summary": "This is a small list of how to make both mods work together on skyrim version 1.8.x\r<br />Currently working with SkyUI 3.2",
+  "descriptionHtml": "This is just a tutorial on how to manually install &#34;Correct PS3 button icons&#34; over skyui 3.x. - Currently working with SkyUI 3.2\r<br />\r<br />First, download and install the lastest version of SkyUI - http://skyrim.nexusmods.com/mods/3863\r<br />\r<br />Second, download and install SkyUI PS3 icons - http://skyrim.nexusmods.com/mods/29450\r<br />\r<br />Last, download Correct ps3 button icons - http://skyrim.nexusmods.com/mods/92\r<br />\r<br />----------------------------------------------------\r<br />\r<br />List of Correct PS3 buttons SAFE files.\r<br />[you can drag and drop these files into your data folder]\r<br />\r<br />/interface/inventory components/itemcard.swf\r<br />/interface/exported/*\r<br />/interface/controls/*\r<br />/interface/trainingmenu.swf\r<br />/interface/startmenu.swf\r<br />/interface/sleepwaitmenu.swf\r<br />/interface/sharedcomponents.swf\r<br />/interface/lockpickingmenu.swf\r<br />/interface/dialoguemenu.swf\r<br />/interface/craftingmenu.swf\r<br />/interface/bookmenu.swf\r<br />\r<br />\r<br />List of Correct PS3 buttons BROKEN files. \r<br />[not working properly as of version 1.8.x of skyrim]\r<br />\r<br />/interface/map.swf\r<br />\r<br />\r<br />List of Correct PS3 buttons INCOMPATIBLE files. \r<br />[these menus are changed by skyui, making these files incompatible]\r<br />\r<br />/interface/inventory components/bottombar.swf\r<br />/interface/magicmenu.swf\r<br />/interface/inventorymenu.swf\r<br />/interface/giftmenu.swf\r<br />/interface/containermenu.swf\r<br />/interface/bartermenu.swf\r<br />\r<br />\r<br />List of Correct PS3 buttons files with UNKNOWN COMPATIBILITY.\r<br />[I&#39;m not sure what this file does, so I&#39;ve chosen to keep it away, considering the filename]\r<br />\r<br />/interface/inventorylists.swf\r<br />\r<br />---------------------------------------------\r<br />\r<br />With this, most of skyrim interface buttons will show as PS3 icons instead of Xbox. There are still some that remain unchanged [Map and a few more] but this temporary fix will do until a new mod to fix this comes up, or either of said mod is updated to change all buttons.",
+  "categoryId": "42",
+  "version": "1.1",
+  "author": "emieri00",
+  "createdUnix": "1358422522",
+  "updatedUnix": "1358435510",
+  "containsAdultContent": false,
+  "uploadedBy": "emieri00",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000002933",
+      "name": "List of skyui compatible sony icon files",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "List of skyui compatible sony icon files-30057-1-0.7z",
+      "uploadedUnix": "1358422658",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2d50b51a14b0aa59e72acd65271ce096702d74f5a1485024934b1830e13ee511/analysis/1407357844/",
+      "changelogHtml": " Initial release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/List%20of%20skyui%20compatible%20sony%20icon%20files-30057-1-0.7z?fid=1000002933&ttl=1535804613&ri=8192&rs=8192&setec=9016d963c1536a2069ee21143cb37f35"
+    },
+    {
+      "fileId": "1000002968",
+      "name": "Updated list",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Updated list-30057-1-1.7z",
+      "uploadedUnix": "1358435510",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/f9b30fb4b7b87e9196a0b73b97e9a26eb66b1c1e6a2233fe4495b7c80d72339e/analysis/1407358026/",
+      "changelogHtml": " Added a note about bottombar.swf - makes the \"change\" menu button to switch between bagic and items stop working if installed <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Updated%20list-30057-1-1.7z?fid=1000002968&ttl=1535804614&ri=8192&rs=8192&setec=2f38307e1cc1b65108482def5693224b"
+    }
+  ]
+}

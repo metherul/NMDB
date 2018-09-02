@@ -1,0 +1,48 @@
+{
+  "modId": 24338.0,
+  "modName": "Guards comment equipment instead of skills",
+  "summary": "Instead of commenting on your weapon and armor skills, guards comment your current equipment.",
+  "descriptionHtml": "Instead of commenting on your weapon and armor skills, guards comment your current equipment.\r\nI couldn\\'t do so for other skills (like smithing or destruction), so I\\'ve raised the skill condition from >=30 to >=80, because all my skills were above 30.\r\n\r\nIt would be better if the condition for magic school comments would require you to actually wield a spell of that magic school or if you have recently cast it, but I don\\'t know how to do either.\r\nAs for skills like smithing, enchanting and alchemy, I just don\\'t know what other condition could there be other than skill.\r\n\r\nSome of the lines\\' conditions were changed further than just replacing a skill condition with an item condition, like these:\r\n-Two-handed weapon wielding guards no longer say \\\"You\\'re like me, eh? Don\\'t fancy those clunky two-handed weapons.\\\"\r\n-They only say \\\"Favor the bow, eh? I\\'m a sword man myself.\\\" if they have a sword or a greatsword equipped. Another great thing is that they now say things like this if you\\'ve got any bow equipped, while in vanilla it only works with vanilla bows, and not all of them either.\r\n\r\nI\\'ve changed some other minor things as well:\r\n-They only mention sweetrolls or lollygaggin\\' if you\\'re low level.\r\n-Getting shot in the knee is no longer a rite of passage for guards, but just a sad story of one guard who only mentions it once.\r\n\r\n\r\nChangelog:\r\n1.0.1\r\n-\\\"Do you see those warriors from Hammerfell? They\\'ve got curved swords. Curved. Swords.\\\" is now only said in Whiterun and only until the quest In My Time Of Need is completed.",
+  "categoryId": "24",
+  "version": "1.0.1",
+  "author": "peterfaj",
+  "createdUnix": "1348057682",
+  "updatedUnix": "1348090530",
+  "containsAdultContent": false,
+  "uploadedBy": "peterfaj",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "89336",
+      "name": "The file",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "The file-24338-1.zip",
+      "uploadedUnix": "1348057749",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/227161503bd58c19e192035646cede0a2e69c51c982e152c2e2fe19414f3ed9a/analysis/1407174788/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/The%20file-24338-1.zip?fid=89336&ttl=1535795173&ri=8192&rs=8192&setec=793a1c3cf9e03ddbb7d2f59b6a821d74"
+    },
+    {
+      "fileId": "89424",
+      "name": "Curved Swords",
+      "version": "1.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Curved Swords-24338-1-0-1.zip",
+      "uploadedUnix": "1348090530",
+      "modVersion": "1.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/40ea285a7bd9c4f3f882fb7391ed3a224d79f0dda105fd37ec0ee4f95f085e16/analysis/1407175808/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Curved%20Swords-24338-1-0-1.zip?fid=89424&ttl=1535795173&ri=8192&rs=8192&setec=adea86ed98331f08be933ca292de71c5"
+    }
+  ]
+}

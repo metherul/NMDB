@@ -1,0 +1,48 @@
+{
+  "modId": 26033.0,
+  "modName": "The Hobbit LOTR - Weapon Pack",
+  "summary": "Adds 4 new weapons to the game: Orcrist + scabbard (sword), Umraz (axe), Fili\\'s Hunting Knife + altered vanilla scabbard (dagger), Witchking\\'s Dagger + scabbard *restored version* (dagger)",
+  "descriptionHtml": "[center][img]http://666kb.com/i/c8fx3gl6aeuscy1ef.png[/img][/center]\r\n\r\nAdds 4 new weapons to the game: Orcrist + scabbard (sword), Umraz (axe), Fili\\'s Hunting Knife + altered vanilla scabbard (dagger), Witchking\\'s Dagger + scabbard *restored version* (dagger)\r\n\r\n\r\n[img]http://666kb.com/i/c8fx5xszvfh1dep3r.png[/img]\r\n\r\nCopy meshes + textures folder & Ghosu - Hobbit.esp to your Skyrim\\\\data directory.\r\n\r\nThe folder-structure should look like:\r\n... Skyrim\\\\data\\\\meshes\\\\weapons\\\\Ghosu - Hobbit\\\\ ALL NIF FILES\r\n... Skyrim\\\\data\\\\textures\\\\weapons\\\\Ghosu - Hobbit\\\\ ALL DDS FILES\r\n... Skyrim\\\\data\\\\Ghosu - Hobbit.esp\r\n\r\nMake sure that the plugin is activated in launcher => DATA FILES (should be by default).\r\nThe weapons are placed in the forge-menu along with the steel items. (so even low skilled players can craft them)\r\n\r\nOR open console (key ^) and enter HELP ORCRIST or UMRAZ or FILI or WITCHKING\r\nYou get a code, after that enter PLAYER.ADDITEM CODE 1\r\n(1 = quantity) - the weapon will be placed in your inventory.\r\n\r\n(Code should look like XX000D63, XX= the load number of the mod, for example PLAYER.ADDITEM 12000D63 1)\r\n\r\n[img]http://666kb.com/i/c8fx6yemfm450o2on.png[/img]\r\n\r\nThe textures are not perfect yet, i\\'m still in a learning process...texturing is my big weakness but i try to get better with each release.\r\nYou know, it looks quite nice in the external 3D editor but when you load it into the game, Skyrim is like \\\"FU!!1\\\". \r\nAnd i can\\'t afford a new computer atm, it goes like 1fps @ high resolution so ingame testing/tuning is quite a pain in the *ss :D\r\nI altered the axe\\'s shape, the original version looked weird, Witchking\\'s dagger is a restored/clean version, see it as a little extra.\r\n(was not planned to be released, i made it for myself - if you want the \\\"original\\\" version just check out the awesome LOTR weapon pack on TheNexus)\r\n\r\n[img]http://666kb.com/i/c8fx83bgjxbhi2qaf.png[/img]\r\n\r\nDamage should scale with your skills/lvl - if you don\\'t like \\'em just edit and as mentioned below.\r\nif you want to adjust the dmg open the Creation Kit, LOAD, check SKYRIM.ESM and Ghosu-Hobbit.ESP in\r\nthe left window, set Ghosu-Hobbit.ESP to ACTIVE FILE and press OK. In the object window check ITEMS\r\nand WEAPONS, search for GHOSU, 4x4 forms will pop up.\r\n\r\n1stpersonNAME = don\\'t touch them (contains path to the models)\r\nNAME = weapon\\'s stats like dmg, speed, price, description text and more\r\nrecipeweaponNAME = items to craft the weapon\r\ntemperweaponNAME = items to improove the weapon\r\n\r\nAdjust the values, press OK and SAVE.\r\nCheck out the image galery for a CK screenshot.\r\n\r\n[img]http://f.666kb.com/i/c8fx8mk2z82lo1ztj.png[/img]\r\n\r\nThe armor on the screenshots is Crimson Ranger Armor by Patobek (good job)\r\n\r\nThx to WETA for the great designs, ofc to Tolkien and all people that are part of the LOTR \\\"franchise\\\".\r\nI don\\'t own anything of this trademark and i wear no rings - this is just a tiny fan tribute.\r\n\r\nUPDATE: Optional .esp (no item descriptions) in the file section.\r\n\r\nExternal videos:\r\n\r\n[youtube]ANVSK2OJc9s[/youtube]\r\n\r\n[youtube]x_cs306l-9c[/youtube]\r\n\r\n[youtube]dgTmtZJDZWE[/youtube]\r\n\r\n[youtube]7CfUiA8FF9w[/youtube]\r\n@ 0:40\r\n\r\nthx\r\nGhosu ",
+  "categoryId": "55",
+  "version": "1.0",
+  "author": "Ghosu",
+  "createdUnix": "1351271100",
+  "updatedUnix": "1351274703",
+  "containsAdultContent": false,
+  "uploadedBy": "ghosu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "95871",
+      "name": "The Hobbit - Weapon Pack",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9525",
+      "fileName": "The Hobbit - Weapon Pack-26033-1-0.rar",
+      "uploadedUnix": "1351271252",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6f0348b724310b4f8b98a25b6428a05abdf7e8fd57c361c17825a10d5a056e68/analysis/1407236708/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/The%20Hobbit%20-%20Weapon%20Pack-26033-1-0.rar?fid=95871&ttl=1535797815&ri=8192&rs=8192&setec=6f91bf1983f3aef22cee508b08731387"
+    },
+    {
+      "fileId": "95886",
+      "name": "Optional ESP NoText",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Optional ESP NoText-26033-1-0.rar",
+      "uploadedUnix": "1351274703",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d256c9a2a5b534b171380e919a06734564867d0715d5bd2fdefde2ce71c5df53/analysis/1407236942/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Optional%20ESP%20NoText-26033-1-0.rar?fid=95886&ttl=1535797815&ri=8192&rs=8192&setec=d4f17d73d8cfc769186d20cadd55e0f8"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 15899.0,
+  "modName": "Magical Alchemy Harvest-o-tron",
+  "summary": "Adds a Harvest spell and enchantment that collects alchemy ingredients",
+  "descriptionHtml": "Ghostifish\\'s\r\n\tMagical Alchemy Harvest-o-tron! v0.6\r\n\t\r\nDescription:\r\n\r\nAdds a Harvest spell and enchanted amulet that will collect alchemy ingredients near the caster/wearer.\r\nBoth can be found on Farengar\\'s desk in Dragonsreach in Whiterun.\r\nThe longer the spell is cast the greater the range. Max range is determined by the number of loaded cells around the player.\r\n\r\nThe amulet can be disenchanted to so its effect can be added to your own jewelry/clothing/armor etc.\r\nBoth collect ingredients from plants, trees, insects and fish, loose ingredients on the ground and from certain ingredient containers (such as beehives, barrels, alchemy bags and dead hawks)\r\n\r\nNeither will take \\'owned\\' items, or items from \\'owned\\' cells. (This currently includes items that have been marked as owned by the player)\r\n\r\nSpell and Amulet appears to work fine when used by NPCs.\r\n\r\nNotes:\r\n\r\nThe spell (called Harvest) is classed as and listed under Alteration, but does not advance that skill. (It shouldn\\'t advance any skill) and shouldn\\'t be affected by any perks. \r\nIt doesn\\'t get any bonus from dual casting. Casting left and right handed simultaneously is probably a bad idea, so don\\'t do it. \r\nGreen Thumb perk doesn\\'t/shouldn\\'t have any effect while casting.\r\nInitial range is 500 game units, increasing by a 500 for every second of casting.\r\n\r\nThe amulet (called Amulet of The Reaper) constantly collects ingredients around the wearer (range 1000), but at a slower rate than the spell. \\\\\r\nGreen Thumb perk *should* affect collection while wearing the amulet.\r\n\r\nThe script is not as efficient nor exhaustive as the ones for Oblivion (such as Gather Ye Rosebuds, DZ Auto Harvester etc) as the Skyrim Script Extender is not as well developed has OBSE yet and doesn\\'t have the required functions. Currently the script is using a random, haphazard brute force approach to finding harvest-able objects as that is all that is available in Papyrus.\r\n\r\nOn a personal note... i would actually strongly discourage the use of the amulet/enchant-able effect. Its just not good to leave it running for extended periods.\r\n\r\nFeedback/Bug Reports welcomed and encouraged.\r\nHowever, the mod will *not* be expanded to collect non-ingredient items (such as food, gold, gems etc), so don\\'t ask.\r\n\r\nInstallation Instructions:\r\nUse Nexus Mod Manager\r\nRemember to unequip and re-equip any items with the harvesting enchantment after updating.\r\n\r\nUninstall instructions:\r\nBecause of the way skyrim handles scripts, uninstalling this mod *may* lead to issues. In skyrim scripts get loaded into your save game and tend to stay there, this can cause the papyrus script engine to throw errors. Usually this isn\\'t too bad but sometimes it can be fatal. Best advice I have for uninstalling is to revert to an older, pre-mod, save if you can. If that is not possible/practical, then removing the amulet, ensuring the effect has stopped and maybe waiting a few game hours before saving and disabling the mod will give you the best chance of removing it cleanly.\r\nThis issue is not unique to my mod. Its common to all mods that use scripts. Things were much easier in the days of fallout and oblivion.\r\n\r\nKnown bugs: \r\nAmulet/spell sometimes makes constant fish-harvesting splashing noises when near rivers/water even if all fish have been harvested. I have no idea why, seems harmless. There is a mod kicking about to disable these sounds if it annoys you.\r\nMay be able to harvest plants from Honeyside\\'s garden in Riften before you\\'ve bought the garden upgrade. Consider them a happy and unexpected bonus.\r\nThere is no support for ingredients added by the official DLC or from other mods. (Other mods often set ingredients as player owned, preventing the script from harvesting them. This is by design.)\r\n",
+  "categoryId": "75",
+  "version": "0.6",
+  "author": "Ghostifish",
+  "createdUnix": "1335397182",
+  "updatedUnix": "1336598940",
+  "containsAdultContent": false,
+  "uploadedBy": "Ghostifish",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "57722",
+      "name": "Magical Alchemy Harvest-o-tron v05",
+      "version": "0.5",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Magical Alchemy Harvest-o-tron v05-15899.7z",
+      "uploadedUnix": "1335836799",
+      "modVersion": "0.5",
+      "virusScanUrl": "https://www.virustotal.com/file/c1baf99039a7ea77e3a16e75d8a19890e1058de92d2180936f24f47c2fb3fe7b/analysis/1406857922/",
+      "changelogHtml": " Added spider egg sacks to the list \\\"problematic\\\" container that require special treatment within the script. Hopefully fixes the SpiderEgg bug. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Magical%20Alchemy%20Harvest-o-tron%20v05-15899.7z?fid=57722&ttl=1535780696&ri=8192&rs=8192&setec=7c31326c290413679c1f9eaab70a1acc"
+    },
+    {
+      "fileId": "60074",
+      "name": "Magical Alchemy Harvest-o-tron v06",
+      "version": "0.6",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Magical Alchemy Harvest-o-tron v06-15899-0-6.7z",
+      "uploadedUnix": "1336598940",
+      "modVersion": "0.6",
+      "virusScanUrl": "https://www.virustotal.com/file/77cc0c8113c2c844796656b04dba06bc6e748db8131a90b326172aa2b1383b5d/analysis/1406881035/",
+      "changelogHtml": " Added skeversacs to the list of problematic containers. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Magical%20Alchemy%20Harvest-o-tron%20v06-15899-0-6.7z?fid=60074&ttl=1535780697&ri=8192&rs=8192&setec=3e2faa407dd5974c9940285d2ebdba72"
+    }
+  ]
+}

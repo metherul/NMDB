@@ -1,0 +1,48 @@
+{
+  "modId": 9670.0,
+  "modName": "Absorb tint effect removal",
+  "summary": "Removes most tints of player camera due to absorb health/stamina/magicka.",
+  "descriptionHtml": "I got tired of the absorb echantments giving the horrid tint every time, and since I really like the enchantments themselves I decided to remove the visual effect by editing the imagspacemodifiers of the enchantments and spell that use these effects. \r\n\r\nOnly the regular absorb spells and enchants should be affected, the impact on target and funnel  visuals remain so you still can see that the effects are in use.\r\n\r\nIf there are any bugs etc don\\'t hesitate to inform me in comments section.\r\n\r\nInstall either by NMM OR by extracting zip to data folder and clicking it in data files in Skyrim launcher\r\n------\r\nChangelog:\r\nv2 optional\r\nAdded removal of the funnel effect on enchants only.\r\nv2\r\nAll absorb spells and enchantments now don\\'t show tint\r\nv1\r\nOnly the base enchants were affected, but the method of removal caused constant blur effect in certain areas.",
+  "categoryId": "62",
+  "version": "v2",
+  "author": "firas55556",
+  "createdUnix": "1329259860",
+  "updatedUnix": "1330112624",
+  "containsAdultContent": false,
+  "uploadedBy": "firas55556",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "31216",
+      "name": "Absorb effect removal",
+      "version": "v2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Absorb effect removal-9670.zip",
+      "uploadedUnix": "1329259981",
+      "modVersion": "v2",
+      "virusScanUrl": "https://www.virustotal.com/file/aee8df47ee2b7b50540a3d4f53f49ce36a4151653641407b6d04ede47ed2d287/analysis/1406682620/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Absorb%20effect%20removal-9670.zip?fid=31216&ttl=1535769426&ri=8192&rs=8192&setec=e2b6aa357cb05fc2470f922bfcb340c0"
+    },
+    {
+      "fileId": "36318",
+      "name": "Absorb effect removal - no funnel on enchants",
+      "version": "v1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Absorb effect removal - no funnel on enchants-9670.zip",
+      "uploadedUnix": "1330112624",
+      "modVersion": "v1",
+      "virusScanUrl": "https://www.virustotal.com/file/1f71cd0bd3986f9808a1a0a4977505dab3b5ffb95417567db18e00c4b62e3b38/analysis/1406710674/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Absorb%20effect%20removal%20-%20no%20funnel%20on%20enchants-9670.zip?fid=36318&ttl=1535769426&ri=8192&rs=8192&setec=73f6bcdb8c56b0ecfecb792613b178f8"
+    }
+  ]
+}

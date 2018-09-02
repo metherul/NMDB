@@ -1,0 +1,48 @@
+{
+  "modId": 49988.0,
+  "modName": "FXAA Tool",
+  "summary": "Based on Nvidia FXAA by Timothy Lottes.\r<br />\r<br />FXAA Tool adds different post processing methods to games, like Anti Aliasing, Sharpening, Bloom, Color Tones etc.\r<br />It does so by adding the post processing to the game engines last rendered image, and works for all graphic cards that can provide some descent shader calculation performance.\r",
+  "descriptionHtml": "Based on Nvidia FXAA by Timothy Lottes.\r<br />\r<br />FXAA Tool adds different post processing methods to games, like Anti Aliasing, Sharpening, Bloom, Color Tones etc.\r<br />It does so by adding the post processing to the game engines last rendered image, and works for all graphic cards that can provide some descent shader calculation performance.\r<br />\r<br />FXAA is a cost effective Anti Aliasing process done in one single pass, which means that it has virtual no impact on the overall system performance.\r<br />That allows us to add additional passes and still keep the system requirements extremely low.\r<br />\r<br /> It even comes with a graphical user interface, which only needs to run if you want to to make quick adjustments, the FXAA shaders are fully independent from it.\r<br />\r<br />Shaders included so far:\r<br />\r<br />• FXAA - Anti Aliasing\r<br />• Pre Sharpen - Removes FXAA created blur on edges\r<br />• HDR - A HDR effect alike shader\r<br />• Bloom - Makes light texture colors bleed into the scenery\r<br />• Tonemap - Adjusts gamma, exposure, saturation, bleach and defog\r<br />• Technicolor - A three-strip color process, like found on old movies\r<br />• Sepia - Adds Sepia tones to the scenery\r<br />•Anaglyph - For usage with Anaglyph 3D glasses\r<br />•Vignette - Adds a frame around the scenery\r<br />• Post Sharpen - Another way to Removes FXAA created blur on edges\r<br />•Final Limiter - Adds option to limit the color output \r<br />•Splitscreen - Adds splitscreen views, original vs shader\r<br />•Noise - Adds noise as dots and lines\r<br />\r<br />• Radial - Adds from center drawn radial blurred lines\r<br />\r<br />• ScanLines - Adds horizental lines\r<br />• CustomShader - Add your own shader into CustomShader.h, 2 toggles and 6 sliders available for it in the GUI\r<br />\r<br />\r<br />Note: Currently only DirectX9 is fully supported.\r<br />DirectX8 to 9 conversion is supported with the added ENB files.\r<br />\r<br />Many users of this tool even state, that it enhances new game title releases running on older hardware, without adding the performance penalty of the games build in shaders.\r<br />\r<br />\r<br />*May be incompatible with any other form of antialiasing.\r<br />**Can be combined with downsampling. \r<br />",
+  "categoryId": "62",
+  "version": "SVN117",
+  "author": "Violator aka Mineria",
+  "createdUnix": "1389897336",
+  "updatedUnix": "1389897597",
+  "containsAdultContent": false,
+  "uploadedBy": "Mineria",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000091773",
+      "name": "FxaaTool",
+      "version": "SVN117",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "910",
+      "fileName": "FxaaTool-49988-SVN117.zip",
+      "uploadedUnix": "1389897329",
+      "modVersion": "SVN117",
+      "virusScanUrl": "https://www.virustotal.com/file/a1a44459f248e645ed19473de042b6f575382bcc609ed4b8a319063b4b7e3fd5/analysis/1407888199/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FxaaTool-49988-SVN117.zip?fid=1000091773&ttl=1535831406&ri=8192&rs=8192&setec=38c1c25cd77bd7929f881ec6d2d68eb9"
+    },
+    {
+      "fileId": "1000091774",
+      "name": "FxaaTool",
+      "version": "Net2V1",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "930",
+      "fileName": "FxaaTool-49988-Net2V1.zip",
+      "uploadedUnix": "1389897597",
+      "modVersion": "Net2V1",
+      "virusScanUrl": "https://www.virustotal.com/file/4f89bcc41315cdabab48dcf3122f66572215674e0efba87c9eacaa74542f4479/analysis/1407888200/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FxaaTool-49988-Net2V1.zip?fid=1000091774&ttl=1535831406&ri=8192&rs=8192&setec=73f671eb8e84445ab463814f4e10f1f1"
+    }
+  ]
+}

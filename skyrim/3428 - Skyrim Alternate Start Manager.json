@@ -1,0 +1,48 @@
+{
+  "modId": 3428.0,
+  "modName": "Skyrim Alternate Start Manager",
+  "summary": "A tool for more satisfying RP characters.",
+  "descriptionHtml": "---LAST UPDATE---\r\nDec. 12th 2011\r\n\r\n---DESCRIPTION---\r\nThis is just a quick little program to allow you to generate a different start in Skyrim. It\\'s a WIP, so suggestions are welcome.\r\n\r\nBasically, this will ask a 5 questions then generate a starting bat that you can run in the console to generate a start that better fits your character.\r\n\r\nThe main quest is optional using this method. Though, this program is probably best used by people who would rather RP a character without the hassle of being \\\"the dragonborn\\\".\r\n\r\nYou also need to add the following to your My Documents\\\\My Games\\\\Skyrim\\\\Skyrim.ini under the [General] header\r\n\r\nSStartingCell=Riverwood\r\n\r\nThis will start you right outside of Riverwood. My first update to this little program will allow you to pick a starting location from a list of reasonable places.\r\n\r\n---REQUIREMENTS---\r\nMicrosoft .NET 4,0 is required to run this. ([url=http://www.microsoft.com/download/en/details.aspx?id=17851]Get it here[/url])\r\n\r\n[b]---EXPLICIT INSTRUCTIONS---\r\n1) Edit your \\\\My Documents\\\\My Games\\\\Skyrim\\\\Skyrim.ini file by adding the following in the [General] header: SStartingCell=Riverwood\r\n\r\n2) Run this program to generate an alternate start script. Make sure that if you didn\\'t choose to save the script to the same place where you installed Skyrim, that you move it there before running the game.\r\n\r\n3) Start Skyrim\r\n\r\n4) Start a new game\r\n\r\n5) Open the console (` key by default)\r\n\r\n6) Type \\\"bat <your filename>\\\" into the console without quotes and replacing <your filename> with the name you gave to your alternate start script.\r\n\r\n7) Enjoy.[/b]\r\n\r\n---CHANGE LOG---\r\n0.25\r\nChanged \\\"Renowned adventurer\\\" to \\\"Well known Warrior\\\"\r\nAdded support for more than 7 answers to any one question.\r\nAdded support for the main quest. It\\'s optional. If you choose to enable it, you will be told to meet with Alvar in Riverwood.\r\nFixed possible error caused by using the same filename for multiple scripts.\r\nFixed an error where a varible was not being cleared causing unwanted results when you hit next without selecting an option.\r\n\r\n0.1\r\nInital Release\r\n\r\n---WIP---\r\nAdding starting town options -- The code is there in my program, but the game crashes when you run a coc or cow command through a bat. Until that works, there\\'s not much I can do to make this option happen. It is technically possible through INI editing, but I\\'m not going to allow the program to touch any game files just to be on the safe side.",
+  "categoryId": "39",
+  "version": "0.25",
+  "author": "Rlyeh Liberation Front",
+  "createdUnix": "1323668463",
+  "updatedUnix": "1323714120",
+  "containsAdultContent": false,
+  "uploadedBy": "Carlzilla",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "9567",
+      "name": "SASM ver 0_1",
+      "version": "0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "108",
+      "fileName": "SASM ver 0_1-3428.zip",
+      "uploadedUnix": "1323668581",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/2d6efa86c194a2b708287032b443d1385242194c18e2223dbe8824a7e9b475b7/analysis/1406509562/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SASM%20ver%200_1-3428.zip?fid=9567&ttl=1535758479&ri=8192&rs=8192&setec=ea9aecc0d3ffaf720bba3a2a003dbe73"
+    },
+    {
+      "fileId": "9736",
+      "name": "SASM Ver 0_25",
+      "version": "0.25",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "109",
+      "fileName": "SASM Ver 0_25-3428-0-25.zip",
+      "uploadedUnix": "1323714120",
+      "modVersion": "0.25",
+      "virusScanUrl": "https://www.virustotal.com/file/58d518cab6e5e30c7d4d56372881d6b0fea04b88e7309be4c4b0ae1747c35efc/analysis/1406511484/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SASM%20Ver%200_25-3428-0-25.zip?fid=9736&ttl=1535758480&ri=8192&rs=8192&setec=79b2914f092dbc09df777b6d8389a407"
+    }
+  ]
+}

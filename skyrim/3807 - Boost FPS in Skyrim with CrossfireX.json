@@ -1,0 +1,48 @@
+{
+  "modId": 3807.0,
+  "modName": "Boost FPS in Skyrim with CrossfireX",
+  "summary": "I always have sufferd with low FPS in skyrim with max 30-40fps in crossfire.\r\nA Small but efective way for more FPS in Skyrim is ...\r\n\r\nWhen ingame press CTRL-ALT-DEL for taskmanager, then CANCEL and you go auto. back in game with 30FPS MORE !!! works all the time on my system, but when you go fast-travel witch map then you must do CTRL-ALT-DEL + C",
+  "descriptionHtml": "My system :\r\n\r\nAsus Maximus IV GENE-Z\r\nIntel Core i7-2600k CPU O.C. 4,6GHz\r\n16GB DDR3 1600MHz\r\n2x AMD Radeon HD 6970 2GB ( running in crossfire with Ati driver 12.1 preview )\r\nscreen resolution 2560x1600\r\nWindows 7 64bit\r\n\r\nI tested following :\r\n\r\nSettings in skyrim :\r\n\r\nEverything on ULTRA ( except AA on 2 samples - because on this high resolution i don\\'t see a difference) & (AF on 4 -16 samples don\\'t make a difference in performance to my system, so your choice).\r\nResulotion 2560x1600\r\n\r\nSettings CCC :\r\n\r\nWith driver 12.1 ( all settings in CCC op default - application controlled ) triple buffering on.\r\nNo user defined application profile needed because i only have Skyrim on system ;-) but you can make one offcourse if you want.\r\n\r\nAMD CrossfireX - Enabled !\r\nOverdrive is Disabled\r\n\r\nTest 1 - i disabled vsync in skyrim.ini with iPresentInterval=0 under [Display] for testing only with fraps.\r\nStart the game WITH the 4GB PATCH from here !! and i get 35-45 fps all the time in towns, after CTRL-ALT-DEL + Cancel i get 80-120FPS !!! wow ... played for 30min. in town with these steady FPS.\r\n\r\nThen map travel to grass/tree sections and i was again on 30-40 fps, after the CTRL-ALT-DEL + Cancel i get back 70-110FPS !!!\r\n\r\nWorks very good here, hoping for the future for a patch so that we don\\'t need to do Ctrl-Alt-Del anymore.\r\n\r\nAfter testing i played hours without problems so that will fix the FPS drop for me until there\\'s a better solution.\r\n\r\nI also set vsync back on because i hate screentearing, but everything keeps running @ steady 55-60fps\r\n\r\nAll that with MANY HD Graphical Mods from here and also the post Process Injector installed !!\r\n\r\nI also include my own skyrim.ini and SkyrimPrefs.ini files that i use now for playing.\r\n\r\n\r\nUpdate: works also for Single cards - but the fps+ is very minimal, i only get 5 frames more in single-card setting.",
+  "categoryId": "62",
+  "version": "1.0a",
+  "author": "Nightwatcher666",
+  "createdUnix": "1324045353",
+  "updatedUnix": "1324046003",
+  "containsAdultContent": false,
+  "uploadedBy": "nightwatcher666",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "10995",
+      "name": "Skyrim ini file",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Skyrim ini file-3807.zip",
+      "uploadedUnix": "1324045915",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9b8da6cc765d11a2c759b229dca53b4d5988e925c4c2023659522e0820350ec7/analysis/1406524864/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20ini%20file-3807.zip?fid=10995&ttl=1535759133&ri=8192&rs=8192&setec=7cb3ce3fd28740b7f6da2f0b3c203f74"
+    },
+    {
+      "fileId": "10997",
+      "name": "SkyrimPrefs ini file",
+      "version": "1.0",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "SkyrimPrefs ini file-3807-1-0.zip",
+      "uploadedUnix": "1324046003",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0cd4057e5b1ba873f9d810de3d1157f434d3d9b98e9029bfadcecb95db1b4811/analysis/1406524922/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimPrefs%20ini%20file-3807-1-0.zip?fid=10997&ttl=1535759133&ri=8192&rs=8192&setec=c0c1d2bc1cf161664711a88a17ed544f"
+    }
+  ]
+}

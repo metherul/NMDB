@@ -1,0 +1,32 @@
+{
+  "modId": 57923.0,
+  "modName": "ENBInjector Auto Launcher and Closer",
+  "summary": "This simple script is to be used when you have to manually launch ENBInjector.exe before starting Skyrim to get your ENB to work. (normal needed for Nvidia Optimus laptops.) You simply place this launcher into your Skyrim game directory and use it to launch your game instead of skse_loader. The script will automatically launch ENBInjector.exe, then",
+  "descriptionHtml": "This simple script is to be used when you have to manually launch ENBInjector.exe before starting Skyrim to get your ENB to work. (normal needed for Nvidia Optimus laptops.) You simply place this launcher into your Skyrim game directory and use it to launch your game instead of skse_loader. The script will automatically launch ENBInjector.exe, then launch skse_loader.exe and will automatically close ENBInjector.exe once Skyrim has stopped running so you don&#39;t have to. This script is simply for ease of use, just add it to your steam library and never worry about manually launching and closing ENBInjector.exe again&#33;\r<br />\r<br />This will theoretically work with any game as long as you change the name of the .exe&#39;s in this script to the appropriate .exe&#39;s of the game in question. Please feel free to edit and share :)\r<br />\r<br />Troubleshooting:\r<br />\r<br />If your game takes longer than 15 seconds to launch, ENBInjector will close before Skyrim starts, this can be fixed by right clicking on the &#34;ENBInjector Auto Launcer.bat&#34; file you added to your Skyrim directory, clicking edit, and changing &#34;TIMEOUT 15&#34; to a higher number (the amount of time, or longer, it takes your game to launch)\r<br />\r<br />If you have re-named ENBInjector.exe, skse_loader.exe, or TESV.ese, you will have to edit this script to deal with the appropriate names that you have re-named the .exe&#39;s to.\r<br />\r<br />This will not work without skse_loader (everyone should already have it anyways) ",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "null",
+  "createdUnix": "1410108887",
+  "updatedUnix": "1410108866",
+  "containsAdultContent": false,
+  "uploadedBy": "akidwithnoname",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000125861",
+      "name": "ENBInjector Auto Launcher",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "ENBInjector Auto Launcher-57923-1-0.zip",
+      "uploadedUnix": "1410108866",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/865f4b413f88733fab6bd9fd3fb2d90851f469889145b30a3a10b1defece7962/analysis/1410108962/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENBInjector%20Auto%20Launcher-57923-1-0.zip?fid=1000125861&ttl=1535844204&ri=8192&rs=8192&setec=8a48f9eb2a99801f8c40ad12e637db9e"
+    }
+  ]
+}

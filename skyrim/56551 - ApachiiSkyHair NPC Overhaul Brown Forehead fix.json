@@ -1,0 +1,32 @@
+{
+  "modId": 56551.0,
+  "modName": "ApachiiSkyHair NPC Overhaul Brown Forehead fix",
+  "summary": "A fix for the brown forehead glitch for ApachiiSkyHair NPC Overhaul by spewed..http://www.nexusmods.com/skyrim/mods/15411.",
+  "descriptionHtml": "This is a fix for the brown forehead glitch for ApachiiSkyHair NPC Overhaul by spewed..http://www.nexusmods.com/skyrim/mods/15411.\r<br />\r<br />After updates of other mods, this mod needed an update to work correctly again. After waiting for quite awhile for Spewed to fix his mod, I took it upon myself to do.\r<br />\r<br />First install \r<br />ApachiiSkyHair NPC Overhaul by spewed\r<br />http://www.nexusmods.com/skyrim/mods/15411\r<br />\r<br />then install\r<br />Color Mismatch Fix for Elven races\r<br />http://www.nexusmods.com/skyrim/download/66423\r<br />\r<br />then install\r<br />Color Mismatch Fix for Humans and Bretons\r<br />http://www.nexusmods.com/skyrim/download/66391\r<br />\r<br />Then download this file and extract to the location of your choosing (do not use NMM)\r<br />Next go to your skyrim/data/textures/actors/character/FaceGenData/FaceTint and delete the Skyrim.esm folder.\r<br />\r<br />Next go to where you extracted this file, copy the data folder and paste into your Skyrim directory\r<br />\r<br />The reason we cant use the NMM is we are not replacing all the files, if we merged the files we would need to delete the ones that would be left unchanged (not needed) (if we leave them all faces are blacked out) and with 2000 files, it would be too confusing to list them. Easier to delete the whole file and replace. Don&#39;t worry about the deleted files &#33;&#33;, To restore the files just deactivate the original 3 mods and reactivate..will replace all back to original state.\r<br />\r<br />",
+  "categoryId": "26",
+  "version": "V.01",
+  "author": "Skycatcher",
+  "createdUnix": "1406853498",
+  "updatedUnix": "1406853375",
+  "containsAdultContent": false,
+  "uploadedBy": "Skycatcher",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000120092",
+      "name": "ApachiiSkyHair NPC Overhaul Brown forehead fix.",
+      "version": "V.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "48161",
+      "fileName": "ApachiiSkyHair NPC Overhaul Brown forehead fix.-56551-V-01.rar",
+      "uploadedUnix": "1406853375",
+      "modVersion": "V.01",
+      "virusScanUrl": "https://www.virustotal.com/file/61acda64db84f3c34a7c717796485e700700b9baae6d948384a6eeb65dbe8c64/analysis/1406853459/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ApachiiSkyHair%20NPC%20Overhaul%20Brown%20forehead%20fix.-56551-V-01.rar?fid=1000120092&ttl=1535841977&ri=8192&rs=8192&setec=423f25d7e56d981d26726ae8a5eb0881"
+    }
+  ]
+}

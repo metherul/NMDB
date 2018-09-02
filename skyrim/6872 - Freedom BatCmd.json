@@ -1,0 +1,32 @@
+{
+  "modId": 6872.0,
+  "modName": "Freedom BatCmd",
+  "summary": "This adds two batch commands, for viewing and resetting hold bounties.",
+  "descriptionHtml": "This mod adds two batch commands, for viewing and resetting hold bounties.\r\n\r\nUsing the command:  bat freedom\r\nthe script will attempt to set your bounty to zero for all the holds (As well as the Orc Tribes)\r\nBeware there are some situations where you will have a crime modifier applied, which a value of zero will still show as having a bounty.\r\n\r\nAlso provided is the command:  bat freedomcheck\r\nThis will display the current bounty for each hold.\r\n\r\nUse the page up and page down keys to scroll through the list.\r\n\r\n\r\nSome notes on usage during a fight.\r\nThis can be a bad idea, as it doesn\\'t always work as expected.\r\nIf a guard is in pursuit, you can set your bounty to 0 and he will still chase you.\r\nOnce caught, you will be charged with resisting arrest, and get +40 bounty.\r\nYou will still get the normal \\'arrested\\' dialog.\r\n\r\nThis command is best used while out of sight and hidden.  \r\nAfterwards the next guards that see you will not give chase.\r\n\r\nAnother command of interest is:\r\nplayer.payfinethief\r\n\r\nOnce used, guards will still give chase, however when caught they will\r\ninitiate dialog like normal.  You will lose HALF of your bounty in gold,\r\nbut you will retain all of your stolen goods.\r\nThis is normally activated in dialog once you have the thieves guild perk.\r\nWhile I did not have any problems with using it before having that perk,\r\nothers have reported game crashes.\r\nIf that is the case, up until you gain the perk from the thieves guild,\r\nyou can instead try the command:\r\nplayer.payfine\r\n\r\nYou will pay your full bounty in gold, and your stolen goods will be placed\r\nin the closest evidence chest.  You will NOT be teleported to the jail however!\r\n",
+  "categoryId": "40",
+  "version": "1.0",
+  "author": "Dissy",
+  "createdUnix": "1327306119",
+  "updatedUnix": "1327306217",
+  "containsAdultContent": false,
+  "uploadedBy": "dissy614",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "22339",
+      "name": "Freedom BatchCmd",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3207",
+      "fileName": "Freedom BatchCmd-6872-1-0.zip",
+      "uploadedUnix": "1327306217",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ce4c81e1ce25960da0e6c475e6f243ca000d1330fdb62dc1b8663995ef35b1bf/analysis/1406632934/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Freedom%20BatchCmd-6872-1-0.zip?fid=22339&ttl=1535764561&ri=8192&rs=8192&setec=d8dc16e701c15a1beaa5133309d91607"
+    }
+  ]
+}

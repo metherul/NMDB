@@ -1,0 +1,48 @@
+{
+  "modId": 3435.0,
+  "modName": "Treia- Hybrid Female High Elf Breton",
+  "summary": "A High elf hybrid save game blending High elf and Breton races, Starts just after you take a side in Helgen.",
+  "descriptionHtml": "A High elf hybrid save game blending High elf and Breton races, Starts just after you take a side in Helgen. There are files for either siding with the Imperials or the Stormcloaks.\r\n\r\nI used the Player.setrace command to avoid changes to stats, then edited in Showracemenu and changed back. This way I could use certain features (Hair, eyes, skin color) that the High elves don\\'t have access to. If you feel the character needs editing just follow the example below, changing the features in showracemenu, but be aware that some features will change, such as the shape of the face.\r\nIe: Player.setrace bretonrace > Showracemenu > Player.setrace Highelfrace\r\n\r\n\r\nMods Character uses: (Not sure if character height makes a difference, included just in case)\r\nBetter Females by Bella Version 3(http://www.skyrimnexus.com/downloads/file.php?id=2812)\r\nLess Make up Version 2(http://www.skyrimnexus.com/downloads/file.php?id=2812)\r\nIncreased character height(http://www.skyrimnexus.com/downloads/file.php?id=3265)\r\nHigh_Quality_Eyes-1_20(http://www.skyrimnexus.com/downloads/file.php?id=498)",
+  "categoryId": "43",
+  "version": "1.0",
+  "author": "VazolRondeln",
+  "createdUnix": "1323676080",
+  "updatedUnix": "1323676314",
+  "containsAdultContent": false,
+  "uploadedBy": "VazolRondeln",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "9591",
+      "name": "ImperialSave",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1060",
+      "fileName": "ImperialSave-3435-1-0.rar",
+      "uploadedUnix": "1323676234",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b1f2c5f0295b9a2270e4b39df6890cf9a5cf942db7e9befb9407351ee45538c0/analysis/1406509812/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ImperialSave-3435-1-0.rar?fid=9591&ttl=1535758489&ri=8192&rs=8192&setec=90aaaba88594c33dd1f234ee12232610"
+    },
+    {
+      "fileId": "9592",
+      "name": "StormcloakSave",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1097",
+      "fileName": "StormcloakSave-3435-1-0.rar",
+      "uploadedUnix": "1323676314",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0eb6ed81c1a07a5c738cbc107403bcf6608b39b10b6fef88242b46606a29e906/analysis/1406509813/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/StormcloakSave-3435-1-0.rar?fid=9592&ttl=1535758489&ri=8192&rs=8192&setec=73f278103e674f336afa70025dae9a0a"
+    }
+  ]
+}

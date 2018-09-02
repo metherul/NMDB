@@ -1,0 +1,48 @@
+{
+  "modId": 13490.0,
+  "modName": "Vampire Face Fixes",
+  "summary": "Fixes cosmetic bugs that can occur with vampires.",
+  "descriptionHtml": "[center][b][size=1][color=#FF0000]ATTENTION:[/color] While I reserve the right to delete off-topic comments and trolling from my threads, I WILL [u]NEVER[/u] BAN [u]ANY USER[/u] FROM ACCESSING [u]ANY[/u] OF MY FILES, NO MATTER WHAT THEY POST IN THE COMMENT THREAD. THERE ARE [u]NO[/u] EXCEPTIONS TO THIS RULE.[/size][/b][/center]\r\n\r\nVampire Face Fixes - 2.1\r\n\r\nAuthor: bluedanieru\r\n\r\n--------------------------------------------------------------------------------\r\n\r\nThe base game has a few cosmetic bugs with human females and elven males (and Nords of both sexes in Dawnguard), when you become a vampire. Things like: dirt suddenly covering the face, eyes not being set correctly to the vampire eyes, and eyebrows being changed. This mod aims to fix that.\r\n\r\nThe Unofficial Patch (as of 1.02) already fixes the eye problem with Imperial, Nord, and Redguard females. It does not fix Breton females yet. It also does not yet provide fixes for any of the other cosmetic issues that can occur with vampires. Eventually the fixes in this plugin will be incorporated into the patch at which point you can stop using this mod. If you're an optimist. (1.2.1 still does not fix the issue with vampires correctly, and neither does the Unofficial Dawnguard Patch. I have outlined the nature of the problem and the solution on Kivan's bug tracker but they have ignored my advice.)\r\n\r\n2.1 is compatible with Dawnguard and implements vampires the way Bethesda probably intended (honestly it's hard to tell with these things sometimes). That means vampires will have glowing eyes and 'rough-looking' faces. If you don't like the new face textures in Dawnguard (personally I think they look badass), 1.1 should give you everything except that.\r\n\r\nInstallation:\r\n\r\nPlace the contents of the archive in your Skyrim/Data directory. Works with Nexus Mod Manager.\r\n\r\nThe fix to the eyes (for humans as applicable) and to the eyebrows (for elven males) will apply retroactively to existing characters. The fix for the dirty faces will not. You can try curing your vampirism, setting up your character the way you want him or her to look using showracemenu in the console (be sure not to change the race or sex!), then re-contracting the disease. The dirty face bug is a result of the game basically discarding cosmetic data about your character when you become a vampire, so once it's broke, it's broke.\r\n\r\nCompatibility:\r\n\r\nNot compatible with mods that change the vampire character classes. Note that this *does not* necessarily include mods that merely make changes to the spells and abilities of vampires, as those mods tend to leave the character class itself alone. Awesome Vampirism, for example, is compatible with this mod. If the mod changes vampire abilities, it will *probably* be compatible, however if it changes the way vampires look, it is definitely not compatible.\r\n\r\nVersion History:\r\n\r\n1.0: Initial release.\r\n1.1: Added fixes for elder race.\r\n2.0: Update for Dawnguard.\r\n2.1: Fixed issue where many NPCs still did not have the correct eye texture.",
+  "categoryId": "95",
+  "version": "2.1",
+  "author": "bluedanieru",
+  "createdUnix": "1332468615",
+  "updatedUnix": "1350387387",
+  "containsAdultContent": false,
+  "uploadedBy": "bluedanieru",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "45871",
+      "name": "Vampire Face Fixes - 1_1",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "53",
+      "fileName": "Vampire Face Fixes - 1_1-13490-1-1.zip",
+      "uploadedUnix": "1332470799",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/57ad7d641a947bee7114cdc496e167aeb4f5b45704e3c4a0ef9b26914831ed77/analysis/1406773991/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vampire%20Face%20Fixes%20-%201_1-13490-1-1.zip?fid=45871&ttl=1535776299&ri=8192&rs=8192&setec=d1772a1bf314f0bb8df071c855d2713f"
+    },
+    {
+      "fileId": "94151",
+      "name": "Vampire Face Fixes - 2_1",
+      "version": "2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "74",
+      "fileName": "Vampire Face Fixes - 2_1-13490-2-1.zip",
+      "uploadedUnix": "1350387387",
+      "modVersion": "2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c6905764f4e1e2235bf53c8cc174fe4d097f8b90e9cee860fa943beb7e05cb62/analysis/1407224828/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vampire%20Face%20Fixes%20-%202_1-13490-2-1.zip?fid=94151&ttl=1535776299&ri=8192&rs=8192&setec=3bac2c11417b57bd970543bb13bc8604"
+    }
+  ]
+}

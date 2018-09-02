@@ -1,0 +1,32 @@
+{
+  "modId": 22624.0,
+  "modName": "Argonian Decapitation Fix",
+  "summary": "Fix for the invisible head bug when decapitating male argonian NPCs.",
+  "descriptionHtml": "This mod fixes the invisible head bug when decapitating male argonian NPCs.\r\n\r\nHow it was fixed:\r\n\r\nThe male argonian head mesh only had one skin partition, unlike the other head meshes in the game (which use them for things like ears and neck). And even then, it was the WRONG partition (was using head 30 instead of head 130, which made the head disappear).\r\n\r\nWhat I did was I imported the head mesh into 3ds Max, made the appropriate neck/head skin partitions and re-exported all of the argonian males\\' face geometry while using the new, fixed mesh with the Creation Kit.\r\n\r\nThis means the fix is applied to all aleady existing, vanilla, argonian male NPCs.\r\n\r\nTO INSTALL: Simply put the meshes folder included in the .rar in your Skyrim/Data folder\r\n\r\n========================================\r\nHOW TO APPLY THIS FIX TO CUSTOM ARGONIAN NPCs:\r\n========================================\r\n(In theory, not tested)\r\n\r\nThe principle is the same for fixing custom NPCs\\' dark/color mismatch face bug, but this time you must export the face data while having the fixed maleheadargonian.nif in your data folder. ",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Chilean Wolf",
+  "createdUnix": "1345261587",
+  "updatedUnix": "1345261687",
+  "containsAdultContent": false,
+  "uploadedBy": "Chilean Wolf",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "82386",
+      "name": "Argonian Decapitation Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2355",
+      "fileName": "Argonian Decapitation Fix-22624-1-0.rar",
+      "uploadedUnix": "1345261687",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/fb46a908eb4a9d274a4b3fc520db3f80269fab4f6857e5d3c84203603cff938c/analysis/1407104287/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Argonian%20Decapitation%20Fix-22624-1-0.rar?fid=82386&ttl=1535792289&ri=8192&rs=8192&setec=f5eeb92d55f8cca0fd27da79c5c6cffb"
+    }
+  ]
+}

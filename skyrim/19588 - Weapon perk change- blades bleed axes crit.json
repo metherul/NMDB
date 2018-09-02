@@ -1,0 +1,32 @@
+{
+  "modId": 19588.0,
+  "modName": "Weapon perk change- blades bleed axes crit",
+  "summary": "Ever had the thought cross your mind that swords and daggers are more logical to cause bleeding instead of axes?\r\nSwords and daggers now cause bleeding, Axes crit.",
+  "descriptionHtml": "WARNING: MUST COME AFTER \\\"DUEL: COMBAT REALISM\\\" IN THE MOD LOAD ORDER else it won\\'t work (if you have it).\r\n\r\nEver had the thought cross your mind that swords and daggers are more logical to cause bleeding instead of axes?\r\n\r\nSwords and daggers:\r\n\r\n-Daggers are now included in the one handed Bladesman perk\r\n\r\n-Bladesman and Deep Wounds perks now do bleed instead of crit\r\n\r\n-Bleeding damage increased substantially; even more so for two handed swords (to account for the slower swing and less stackability).\r\n\r\n*note- As far as I can tell, bleed is not multiplied by backstabs.\r\n\r\nAxes:\r\n\r\n-Limbsplitter and Hack and Slash perks now have critical hit and damage instead of bleed\r\n\r\n-Crit damage modifier increased from: \r\n\r\nHack and slash 0/25/50 to 25/50/75\r\nLimbsplitter 0/25/50 to 25/50/75\r\n\r\nVanilla crit damage I don\\'t think was enough, plus axes are slower so crit less often\r\n\r\n---\r\n\r\nI also changed the shape of the perk tree to more closely resemble the graphic behind it\r\n\r\nInteresting thing I found while making this; the bleed effect comes from a combat hit spell called PerkBleedSWORD leading me to believe that the game originally worked like how I\\'ve now changed it. \r\n\r\nHad fun drawing the doodles up top while making this.\r\n\r\nFeedback appreciated, I\\'m not 100% sure about the balancing.\r\n\r\nPS: I want to thank Mokz at skyrimforums for giving me a little help and support during the creation of this mod :)\r\n\r\n---\r\n\r\nUpdate] 27/6/12\r\n\r\nHack and slash 25/50/100 to 50/75/100\r\nLimbsplitter 25/50/75 to 50/75/100\r\n\r\nChanged mace description back to default (forgot to change back after experimenting with mace perk).\r\n\r\n--\r\n\r\nUpdate] 29/6/12\r\n\r\nCritical damage reduced to:\r\n\r\nHack and slash from 50/75/100 to 25/50/75 \r\nLimbsplitter from 50/75/100 to 25/50/75\r\n\r\nBleeding damage reduced on most weapon material types:\r\nNow stands at one handed being 50% more powerfull than vanilla, two handed 100%\r\n\r\n--\r\n\r\nUpdate] 30/6/12\r\n\r\nFixed rank 2 and 3 of bladesman (they were left at rank 1 bleed damage by mistake), should be working fine now sorry.",
+  "categoryId": "73",
+  "version": "1.3",
+  "author": "DeadArmour",
+  "createdUnix": "1340930209",
+  "updatedUnix": "1341017817",
+  "containsAdultContent": false,
+  "uploadedBy": "deadarmour",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "71145",
+      "name": "Weapon Perk Change- Blades Bleed Axes Crit 2",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "jnwepmod2-19588-1-4.rar",
+      "uploadedUnix": "1341017817",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/dca1e49cbe663f8d6fa727d8b8c5bfd4856bcb39a8c20b166272e8e0e4048843/analysis/1406991303/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/jnwepmod2-19588-1-4.rar?fid=71145&ttl=1535787135&ri=8192&rs=8192&setec=96dd6a4deb41c623c3f92236d4d109fe"
+    }
+  ]
+}

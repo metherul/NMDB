@@ -1,0 +1,48 @@
+{
+  "modId": 23916.0,
+  "modName": "Invisibility Glitch - Eyes Fix",
+  "summary": "This mod will resolve the invisibility eyes glitch, whereby the player\\'s eyes get messed up after turning invisible/visible.\r\nRequires SKSE.",
+  "descriptionHtml": "[b][u]IMPORTANT: Requires [url=http://skse.silverlock.org]SKSE[/url][/u][/b]\r\n\r\nThis mod attaches a small script to all invisibility effects in the main game that restores the messed up eye textures that result every time the player turns invisible/visible.\r\n\r\n[list][*]I have tested this with invisibility spells (Illusion and Vampiric), potions, Nightingale Shadowcloak ability, the Shadow Warrior perk and (I believe) I\\'ve attached it to every invisibility effect in the vanilla game (as of patch 1.8).\r\n[*]This mod will not work with any custom invisibility spells, effects or abilities added by other mods or future updates (though I\\'m happy to update it or work with mod authors. See below.).\r\n[*]This mod will work fine with any custom eyes mods.\r\n[*]If I have missed any invisibility \\\"sources\\\" please let me know.\r\n[*]There [i]may[/i] be clashes with mods that specifically [i]alter[/i] vanilla invisibility effects. If you are using one such, put this mod lower in the load order. I do however think that clashes are unlikely (the scripts are completely new), but please let me know if that is the case.[/list]\r\n[b][u]Update for new version:[/u][/b]\r\nI have updated this fix such that it no longer affects drawn weapons and further, will also work on NPCs under the effects of \\\"Fade Other\\\" or a self-cast invisibility effect. As such, the script has further been attached to all vanilla invsibility effects which affect NPCs.\r\n\r\nThe weapon was \\\"sheathed\\\" by my original script because the fix was effectively forcing a redraw of the PCs art, which annoyingly included their weapons. The fix to this was to delay the redraw until [b]after[/b] any drawn weapons/spells are sheathed. Thus the textures will remain glitched from the point at which the invisibility effect wears off, until any weapons/spells are put away, at which point the fix kicks in. Please let me know if you find any issues.\r\n\r\n[b][u]Mod Authors:[/u][/b]\r\nIf you\\'re a mod author and have a custom invisbility spell or effect in your mod, I am happy for you to include this fix in it. As such, I have included the scripts\\' source. Open my esp in the CK along with your own (ensuring [b]your[/b] mod is set as active) and note the Ability (InvisibilityEyesFixSpell) and Magic Effect (InvisibilityEyesFix). Duplicate and rename these and attach \\\"eyesfix\\\" script to your invisibility effect (or copy the code within the OnEffectFinish() event if you already have a script attached to it). Ensure the script\\'s properties are correctly set to the duplicated spell above and similarly, that your version of the spell uses the duplicated Magic Effect.\r\n\r\nAlso to reiterate, this fix requires SKSE. Your mod will continue to work perfectly fine without SKSE (if it doesn\\'t currently require it), just this fix won\\'t work.\r\n\r\n[b][u]Installation:[/u][/b]\r\n[list][*]Should work with NMM, or alternatively:\r\n[*]Download the attached archive and unpack the contents inside the Archive/Data folder (Invisibility Eyes Fix.esp and \\\"scripts\\\" folder) to your Skyrim/Data directory.\r\n[*]On starting the Skyrim launcher, click \\\"Data Files\\\" and ensure \\\"Invisibility Eyes Fix\\\" is ticked.\r\n[*]Please remember to start Skyrim with the SKSE loader.[/list]\r\n[b][u]Updating from older version:[/u][/b]\r\n[list][*]Use NMM, or alternatively:\r\n[*]Download the v2 archive and unpack the contents inside the Archive/Data folder (Invisibility Eyes Fix.esp and \\\"Scripts\\\" folder) to your Skyrim/Data directory, answering \\\"Yes\\\" if prompted to overwrite.[/list]\r\n[b][u]Uninstallation:[/u][/b]\r\n[list][*]Delete the Invisibility Eyes Fix.esp file from your Skyrim/Data directory.[/list]\r\n[b][u]My other mods:[/u][/b]\r\n[list][*][url=http://skyrim.nexusmods.com/downloads/file.php?id=14687]Unbound Bow - Fires unlimited arrows[/url]\r\n[*][url=http://skyrim.nexusmods.com/downloads/file.php?id=14730]Shadowcloak Armour - Daedric Stealth Suit[/url]\r\n[*][url=http://skyrim.nexusmods.com/mods/25190]Summon Golden Saint spell[/url][/list]",
+  "categoryId": "95",
+  "version": "2.0",
+  "author": "KingsGambit",
+  "createdUnix": "1347230537",
+  "updatedUnix": "1351722191",
+  "containsAdultContent": false,
+  "uploadedBy": "KingsGambit",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "87679",
+      "name": "Invisibility Eyes Fix",
+      "version": "0.95",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Invisibility Eyes Fix-23916-0-95.rar",
+      "uploadedUnix": "1347298925",
+      "modVersion": "0.95",
+      "virusScanUrl": "https://www.virustotal.com/file/8eeaae2a9af6f0d41d956e0ae42f8e78f68181a2e8b26d9268328894fcdda83b/analysis/1407158232/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Invisibility%20Eyes%20Fix-23916-0-95.rar?fid=87679&ttl=1535794469&ri=8192&rs=8192&setec=99038e5368991e092061866fe59a5c59"
+    },
+    {
+      "fileId": "96903",
+      "name": "Invisibility Eyes Fix v2",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Invisibility Eyes Fix v2-23916-2-0.zip",
+      "uploadedUnix": "1351722191",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/43384ee22b712b384fea80b96fff3a7415bcff3d86ba3eaedc9a0885862bcf4e/analysis/1407244025/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Invisibility%20Eyes%20Fix%20v2-23916-2-0.zip?fid=96903&ttl=1535794470&ri=8192&rs=8192&setec=3d56cc037584ac4d93e7e5f9aca824db"
+    }
+  ]
+}

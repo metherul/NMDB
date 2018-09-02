@@ -1,0 +1,48 @@
+{
+  "modId": 37031.0,
+  "modName": "Prostitutes of Skyrim",
+  "summary": "This mod adds 20 new NPCs which are prostitutes in Skyrim world. They are females, males, different races.\r<br />It&#39;s absolutely lore friendly, immersive, and IT&#39;S NOT A PORN MOD&#33;\r<br />",
+  "descriptionHtml": "[center]Welcome to\r<br />[img]http://s22.postimg.org/81one3amp/titolo.jpg[/img][/center]\r<br />[center][url=http://www.skyrimgems.com][img]http://i.imgur.com/hXQSy.png[/img][/url][/center]\r<br />\r<br />* OVERVIEW *\r<br />This mod adds 20 new NPCs which are prostitutes in Skyrim world. They are females, males, different races.\r<br />It&#39;s absolutely lore friendly, immersive, and IT&#39;S NOT A PORN MOD&#33;\r<br />\r<br />[center][youtube]rCmbduoKzaA[/youtube][youtube]zJ2bkVzF53U[/youtube][/center]\r<br />\r<br />* HOW IT WORKS *\r<br />1. Talk to an NPC and pay her/him\r<br />   (if the NPC is in exterior, the price is 50 golds. If is in interior, the price is 100 golds)\r<br />\r<br />2. Follow the NPC.\r<br />3. When a &#34;secure&#34; location is reached, the NPC will sit somewhere\r<br />4. Game fades to black\r<br />5. Gaem fades out from black\r<br />6. The NPC salutes you and you&#39;ll get:\r<br />   if the NPC is in interior, you&#39;ll get the &#34;Sexual Satisfaction&#34; power spell.\r<br />   if the NPC is in exterior, you&#39;ll have a 35% chance to get &#34;Sexual Disease&#34;, otherwise you&#39;ll get &#34;Sexual Satisfaction&#34;\r<br />\r<br />* WHO AND WHERE ARE THE NPCs? *\r<br />Female Nord    - Hjotra         - Rorikstead - Inside the Frost Fruit Inn\r<br />Male Nord       - Orgnar         - Riften - Near the plaza \r<br />Female Wood Elf   - Samiail         - Whiterun - Plains district\r<br />Male Wood Elf   - Eradrann         - Karthwasten\r<br />Female Khajiit   - Kiseenaji         - Falkreath\r<br />Male Khajiit   - S&#39;Baad         - Dragonbridge\r<br />Female Redguard   - Jalian         - Ivarstead - Inside the Vilemyr inn\r<br />Male Redguard   - Camas            - Markarth - Inside Silver Blood inn\r<br />Female Dark Elf   - Llaala Andala    - Windhelm\r<br />Male Dark Elf   - Vilvan Salvani   - Shor&#39;s Stone\r<br />Female Orc      - Gulfim Gulfish   - Kynesgrove\r<br />Male Orc      - Nargat Rush      - Dawnstar - Inside Wind Peak inn\r<br />Female Argonian   - Jeed-Ei         - Anga&#39;s Mill - West of Windhelm\r<br />Male Argonian   - Han-Za         - Solitude - Along the road to the Blue Palace\r<br />Female Breton   - Sosile Rieluell   - Winterhold - Inside The Frozen Hearth inn\r<br />Male Breton      - Thetri          - Morthal\r<br />Female High Elf   - Erissa          - Solitude Sawmill\r<br />Male High Elf   - Rumarene          - Half-Moon Sawmill\r<br />Female Imperial   - Cania Leonia       - Darkwater Crossing camp\r<br />Male Imperial   - Silian Mercius   - Stonehills mine - East of Morthal\r<br />\r<br />Also I&#39;ve turned in prostitutes these vanilla NPCs:\r<br />- Silda the Unseen               - Windhelm\r<br />- Narri                        - Falkreath\r<br />- Hroki                        - Markarth\r<br />- Haelga                     - Riften\r<br />- Lynly Star-Sung               - Ivarstead - Inside the Vilemyr inn\r<br />\r<br />* INSTALL *\r<br />Download and unpack files in data folder then activate the mod via menu launcher\r<br />\r<br />* UNINSTALL *\r<br />- If you are under the effects of &#34;Sexual Satisfaction&#34;, wait until it finished.\r<br />- Remove ESP and BSA from data folder and the prostitutes.seq file in SEQ folder too.\r<br />\r<br />* REQUIREMENTS *\r<br />No DLCs required. It requires only the latest version of Skyrim.\r<br />\r<br />* BUGS *\r<br />Please report to me if you find any bug&#33; Thank you\r<br />\r<br />* NEXUS FLAG &#34;Does this file contain adult-only content&#34; *\r<br />My answer is &#34;no&#34; because does not contains any sex scene, neither nudity.\r<br />\r<br />* COMPATIBILITY *\r<br />I&#39;ve added some stuff in the interior cells (the inns) and markers in exterior cells where NPCs is in.\r<br />I&#39;ve also added a custom faction on vanilla NPCs.\r<br />For a better compatibilities with loading order use this sequence:\r<br />\r<br />- Unofficial Skyrim Patch (if you have it)\r<br />- Prostitutes of Skyrim\r<br />- Any other mod that modify the same stuff like my mod (ie: RLO and ELFX)\r<br />\r<br />* PATCHES *\r<br />This mod is easily patchable for any your own purposes.\r<br />If you make a patch like adding more NPCs or changing outfits, please PM and send me your patch. I&#39;ll publish it in optional files with your credits.\r<br />\r<br />* TECHNICAL INFOS (for modders) *\r<br />This mod is base on 20 new NPCs and 5 modified vanill NPCs. Every NPC have the faction &#34;manny_POS_Faction&#34;.\r<br />By adding the faction &#34;manny_POS_Faction&#34; on a NPC, the option dialogues are enabled on that NPC.\r<br />If you want to make an NPC a wilderness prostitute, set the LocRefType parameter to &#34;manny_POS_Prostitute_LowPrice&#34;\r<br />\r<br />There are two quests:\r<br />1. manny_POS_QuestDialogues\r<br />The name says all. This quest is for dialogues options. The dialogues are shown on these conditions:\r<br />- getInFaction == manny_POS_Faction\r<br />- getInFaction &#33;= playerMarriedFaction &lt;- this prevent to show the dialogue on your spouse :)\r<br />\r<br />There are 4 topics subdivided in 2 similar groups: one for low prices and one for high prices.\r<br />When you have enough money, the option dialogue script does this:\r<br />- Remove the golds from your inventory\r<br />- Stops and Starts the quest manny_POS_QuestScene to allow to fill the aliases of that quest\r<br />- Starts the scene\r<br />\r<br />2. manny_POS_QuestScene\r<br />This quest contains the scene manny_POS_QuestProstituteScene and the aliases.\r<br />The aliases are:\r<br />- manny_POS_Alias_Actor (the filling method is to closest matching ref faction manny_POS_faction to the player).\r<br />- manny_POS_Alias_Hold_Location (the filling method is to LOADED closest matching ref RefType manny_POS_ProstituteHold to the player).\r<br />- manny_POS_Alias_Furniture (the filling method is to LOADED closest matching ref RefType manny_POS_ProstituteFurniture to the player).\r<br />The scene behavior is:\r<br />1. The NPC travel to the manny_POS_Alias_Hold_Location (it&#39;s an xmarker with the LocRefType manny_POS_ProstituteHold)\r<br />2. Then go to use the furniture manny_POS_Aias_Furniture (it&#39;s a furniture marker with the LocRefType manny_POS_ProstituteFurniture)\r<br />3. Fade to black and fade back from black\r<br />4. scripted phased and talk package (&#34;goodbye&#34;)\r<br />5. Go back to default package\r<br />\r<br />SO, WHAT DO YOU NEED TO MAKE A NEW / MODIFY NPC?\r<br />1. Add to the NPC the faction manny_POS_faction\r<br />2. Set the LocRefType to that NPC the value manny_POS_Prostitute_LowPrice or manny_POS_Prostitute_HighPrice\r<br />3. Add an xmarker near the NPC and set the LocRefType manny_POS_Hold_Position\r<br />4. Add a furniture marker near the above xmarker like a crossed legged marker and set the LocRefType manny_POS_Furniture\r<br />\r<br />* FUTURE PLANS (MAYBE) *\r<br />Brothel house and the Prostitutes&#39; guild\r<br />\r<br />* JOIN ME ON FACEBOOK *\r<br />https://www.facebook.com/MannyGTSkyrimMods\r<br />\r<br />ENJOY&#33;",
+  "categoryId": "78",
+  "version": "1.4",
+  "author": "MannyGT",
+  "createdUnix": "1370777846",
+  "updatedUnix": "1372703388",
+  "containsAdultContent": true,
+  "uploadedBy": "mannygt",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000035276",
+      "name": "Prostitutes of Skyrim",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1599",
+      "fileName": "Prostitutes of Skyrim-37031-1-4.rar",
+      "uploadedUnix": "1371891399",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/ef3ab090216434357749138bd2e9491cd71e495089e708a5d22a05777ce5d391/analysis/1407612747/",
+      "changelogHtml": " Lowered and different prices between interior and exterior prostitutes <br/> \n A little chance to get a disease with exterior prostitutes. <br/> \n No more option dialogue on your married NPC&#33; <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Prostitutes%20of%20Skyrim-37031-1-4.rar?fid=1000035276&ttl=1535816479&ri=8192&rs=8192&setec=eb914c273937ff74f27ed6d5dbd01225"
+    },
+    {
+      "fileId": "1000036749",
+      "name": "Prostitute of Skyrim - Alternative version by pauderek",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1600",
+      "fileName": "Prostitute of Skyrim - Alternative version by pauderek-37031-1-4.rar",
+      "uploadedUnix": "1372703388",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/2dce05d1cdf42442b18e42bbc2263d894c59edf270bcd5ff7bc2cf06a675cdaa/analysis/1407625023/",
+      "changelogHtml": " Lowered and different prices between interior and exterior prostitutes <br/> \n A little chance to get a disease with exterior prostitutes. <br/> \n No more option dialogue on your married NPC&#33; <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Prostitute%20of%20Skyrim%20-%20Alternative%20version%20by%20pauderek-37031-1-4.rar?fid=1000036749&ttl=1535816479&ri=8192&rs=8192&setec=cc72785668491459decdb01a6b78783e"
+    }
+  ]
+}

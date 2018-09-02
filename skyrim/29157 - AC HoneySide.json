@@ -1,0 +1,48 @@
+{
+  "modId": 29157.0,
+  "modName": "AC HoneySide",
+  "summary": "Architecturally Corrected honeyside mod. Made inside of house look more like outside. Moved enchanter room so it is not hanging off a cliff outside and made a guest room for two and small basement down below. Complete the thieves guild main quest to get a bonus in honeyside&#33; NOW HEARTHFIRE COMPATIBLE&#33;",
+  "descriptionHtml": "UPDATE 8/3/2015\r<br />I wonder what those not loaded fragments are in the CK? oh those are the fragments I should have sorted out LAST TIME&#33;&#33;&#33;&#33; \r<br />Ugh... well I fixed the hearthfire problems finally I hope. I first \r<br />noticed the problems when I tried using my solitude home for kids \r<br />adoption and the house wasn&#39;t on the list nor any of my other house mods\r<br /> only the default HF homes so I found that the code not loaded fragments\r<br /> were the places where the calls to the hearthfire scripting should go \r<br />if it wasn&#39;t there already by default or where my code should go to \r<br />enable/disable things. So that is now sorted and things should work \r<br />properly now finally:-)\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />Architecturally Corrected honeyside mod. Made the inside of the house look more like the outside. Moved the enchanter room so it is not hanging off a cliff outside and made a guest room for two and a small basement for essentials down below. Complete the thieves guild main quest and get a bonus in honeyside&#33;\r<br />\r<br />I fixed all the bugs FINALLY&#33;&#33;&#33; fixed that busted shield plaque in the armory and fixed the mannequins moving around too. Put the default noble bed back in there and properly linked it to the house center xmarker with the spouse keyword so the player spouse will find the bed and use it. also linked the housecarl bed to that center xmarker too so she will use it. I used tes5edit to properly remove things and to clean the file so it should be clean and working right.\r<br />\r<br />IMPORTANT\r<br />\r<br />This mod now REQUIRES the unofficial skyrim patch and unofficial hearthfire patch too because this mod won&#39;t get along with those unofficial patches unless they are dependents for the mod.\r<br />\r<br />I have included some of the regular HF scripts with this mod to override the fixes from the unofficial patches related to the enchanter and mannequins because those things are not needed in this mod&#33; This mod allows you to have BOTH the enchanter and the child room. There is a guest room that you can swap out for the child room instead of the enchanter and mannequins. I have tested things in game and they work just fine now:-)\r<br />\r<br />\r<br />This mod is now compatible with hearthfire. I moved the enchanter and armory to their own room so there is a door for them instead of just walking into the room. Honeyside is a sneaky home for sneaky types that don&#39;t want to get caught planning sneaky things why would something like an enchanter and armory be out in the open? This has always bugged me and the walls and floor downstairs were just ugly and nasty so I got rid of them and replaced them with a better looking stone floor and stone and wood walls. I added the missing two windows on the inside above the stairs. Don&#39;t know why they left them out and there is a chimney on the roof where it should be above the fireplace. Why do they always leave out the chimneys?\r<br />\r<br />The enchanter/armory room is now under the garden instead of hanging out over the top of the docks in riften. You can look and see the outside of honeyside there is a quarter of the house just sitting over the cliff for the docks only held up by heavy supports&#33; There is a guest room where the enchanter/armory used to be only half the size so it lines up with the underside of the home properly. has two beds and a standing clothes storage. The armory contains the extra shield rack and storage chest with some crafting and smithing supplies along with all the default stuff it had. The very bottom of the house is a small basement just four floor sections square in size. Holds a water supply/beer supply however you think about it:-) and some firewood and some storage barrels non respawn. \r<br />\r<br />Completing the thieves guild quest will give the player a nice bonus in the armory and another room. Unfortunately if you have already done that it won&#39;t show up you will have to enable it manually. \r<br />\r<br />When you want to disable a marker you type prid 00000000 press enter then type disable and press enter. Then exit console and wait a few seconds it should be gone instantly though. the zeros above are an example just put the marker code there to make it work. Depending on how many mods you have loaded you will have to change the second digit of the code numbers to get them to work. So I have five mods loaded so the number will be 050134f7 instead of 020134f7. you have to keep trying next number for second digit until you get it working.\r<br />\r<br />Here are the prid commands for start and decorate markers for the thieves guild bonus.\r<br />\r<br />START disable this: 05005ef9\r<br />\r<br />DECORATE enable this: 05005ef8\r<br />\r<br />For save game users, things are very different it might not even work for you so save it for your next playthrough.\r<br />\r<br />\r<br />INSTALLATION\r<br />\r<br />Copy the ACHoneySide.esp files and the scripts and meshes folders to your data folder or use nexus mod manager it should work with that. WARNING WARNING&#33; Clear your stuff AND HOUSECARL out of the house BEFORE loading this mod or they will all be LOST TO THE VOID&#33; Don&#39;t try to load this mod with your game saved inside the house lol it would be funny though if you did. The walls and floors are in different places so chances are your character and housecarl will fall into the void trapped forever unless you go outside first then save then go load this mod. Once you have the mod loaded, load your save game outside of the house and use console command resetinterior riftenhoneyside then use another command pcb riftenhoneyside. Use the T key to wait for at least one hour then go inside and everything should be ok.\r<br />\r<br />Find any bugs? Post them in the comments section so I can fix them:-) ",
+  "categoryId": "67",
+  "version": "v1.2",
+  "author": "Dragonslayer2k12",
+  "createdUnix": "1356915717",
+  "updatedUnix": "1438578218",
+  "containsAdultContent": false,
+  "uploadedBy": "dragonslayer2k12",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "108584",
+      "name": "ACHoneySide",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "286",
+      "fileName": "ACHoneySide-29157-v1-0.rar",
+      "uploadedUnix": "1356915770",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/699958176555aed0589ed57329c098b9250f410642af31a1c17a58c28b71162a/analysis/1407329823/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ACHoneySide-29157-v1-0.rar?fid=108584&ttl=1535803053&ri=8192&rs=8192&setec=b06b5baac03741be379c96d43a1adaf4"
+    },
+    {
+      "fileId": "1000170363",
+      "name": "ACHoneySideHF",
+      "version": "v1.2",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "278",
+      "fileName": "ACHoneySideHF-29157-v1-2.rar",
+      "uploadedUnix": "1438578218",
+      "modVersion": "v1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/6359c7de2497bd12c7f0b835d0c77a178e3394c3ccf098f869c865eb51d4f669/analysis/1438578242/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ACHoneySideHF-29157-v1-2.rar?fid=1000170363&ttl=1535803054&ri=8192&rs=8192&setec=ac2632802ced2da546041ec447185325"
+    }
+  ]
+}

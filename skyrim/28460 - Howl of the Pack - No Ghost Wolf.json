@@ -1,0 +1,48 @@
+{
+  "modId": 28460.0,
+  "modName": "Howl of the Pack - No Ghost Wolf",
+  "summary": "Makes a minor change to wolves summoned by Howl of the Pack so that they are no longer ghostly.\r<br />Should be compatible with popular Lycanthropy mods. Requires Dawnguard + Latest Patch",
+  "descriptionHtml": "----------------\r<br />Decription\r<br />----------------\r<br />\r<br />This mod makes slight changes to the Actors summoned by the Werewolf &#34;Howl of the Pack&#34; so that they are no longer ghostly looking. This is done by removing a few lines from their FX script.\r<br />\r<br />This mod no longer requires Dawnguard, but Dawnguard is still required to upgrade your &#34;pack brothers&#34; to Ice Wolves or Werewolves.\r<br />\r<br />---------------\r<br />Changelog\r<br />---------------\r<br />\r<br />1.1\r<br />\r<br />-FX Script re-added, modified to remove ghostly-FX.\r<br />-(Should be) no more despawning issues. Wolves blink out of existence after the timer is up as normal.\r<br />\r<br />1.0\r<br />\r<br />-Removed FX script from howl summoned wolf Actors\r<br />\r<br />----------------------\r<br />Install (Update)\r<br />----------------------\r<br />\r<br />Use NMM\r<br />(1.0 to 1.1: Make sure to remove version 1.0 before activating 1.1)\r<br />\r<br />OR\r<br />\r<br />Extract .rar to your ...Skyrim/Data folder\r<br />(1.0 to 1.1: Make sure to remove &#34;Howl of the Pack - No Ghost Wolf.esp&#34; from your Data folder and load order)\r<br />\r<br />Manual Uninstall (1.1): Delete &#34;HowlSummonWolfFXSSCRIPT.pex&#34; from your Data/Scripts folder.\r<br />\r<br />----------\r<br />Issues\r<br />----------\r<br />\r<br />Wolf despawning issues seem to be fixed. There are no known issues at this time.\r<br />\r<br />-------------------\r<br />Compatibility\r<br />-------------------\r<br />\r<br />This mod should be compatible with anything that doesn&#39;t make changes to the FX script applied to Actors summoned by Howl of the Pack. Changing the Howl itself is OK, as long as it summons the same Actors, or summons new actors that use the same script.\r<br />\r<br />----------------------\r<br />Recommended\r<br />----------------------\r<br />\r<br />Tales of Lycanthropy by Brevi - Tested as compatible\r<br />\r<br />------------------------------\r<br />Credits / Permissions\r<br />------------------------------\r<br />\r<br />Inspired by a forum request from questree.\r<br />\r<br />.esp file made by Dudeman325.\r<br />\r<br />Werewolf skins in screenshot from Tales of Lycanthropy by Brevi.\r<br />\r<br />You do not have my permission to distribute this file, or edit it with the intent of redistribution.\r<br />\r<br />Questions? Comments? Post them on this mod&#39;s page on the Nexus&#33;",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "Dudeman325",
+  "createdUnix": "1355716926",
+  "updatedUnix": "1356224463",
+  "containsAdultContent": false,
+  "uploadedBy": "Dudeman325",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "105691",
+      "name": "Howl of the Pack - NGW",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Howl of the Pack - NGW-28460-1-0.rar",
+      "uploadedUnix": "1355716954",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3e10fb5585c237f2eeec62c5939ce9af0c502fe538b9a2f2a4e662894f2e4578/analysis/1407308347/",
+      "changelogHtml": " Removed script from Actors summoned by Howl of the Pack causing them to be ghostly <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Howl%20of%20the%20Pack%20-%20NGW-28460-1-0.rar?fid=105691&ttl=1535801853&ri=8192&rs=8192&setec=759d58dae142935abae32ba7e750ef1f"
+    },
+    {
+      "fileId": "106941",
+      "name": "Howl of the Pack - No Ghost Wolf",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Howl of the Pack - No Ghost Wolf-28460-1-1.rar",
+      "uploadedUnix": "1356224463",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/e269e3e35ec13ced0939c26faf559f4f609c41cebf8f6321c81d4898a78f69f8/analysis/1407318066/",
+      "changelogHtml": " Re-added script, modified to remove ghostly FX. <br/> \n (Should be) no more despawning issues. Wolves blink away after timer runs out again. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Howl%20of%20the%20Pack%20-%20No%20Ghost%20Wolf-28460-1-1.rar?fid=106941&ttl=1535801853&ri=8192&rs=8192&setec=db0647b61ab38b728699561c11115d94"
+    }
+  ]
+}

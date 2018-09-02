@@ -1,0 +1,48 @@
+{
+  "modId": 42792.0,
+  "modName": "Glowing Fins for Daedric Arrows",
+  "summary": "Makes the fins on Daedric Arrows glow, so you can find and recover them easier in those dark dungeons.",
+  "descriptionHtml": "I find myself hording Daedric Arrows because they\\'re so rare and valuable that I don\\'t want to actually use them and risk losing them.  So I made the fins glow a bright red, making it much easier to find and recover them.  They also look ubercool on the PC\\'s back, as the arrows in the quiver also have red, glowing fins.\r\n\r\nBound Arrows are based on the Daedric Arrows, so this will effect them too.  However, the effect is rather subtle.  Not that it matters, since you can\\'t recover bound arrows anyway.\r\n\r\nThis is a mesh and texture replacer; there is no ESP, so load order is not an issue.  Any other mod that replaces the Daedric Arrow meshes will conflict with this mod, though probably not catastrophically.  Whichever mod you installed (not loaded, INSTALLED) last will win.\r\n\r\n[color=red]There is now a version with a glowing aura as well.[/color]\r\n\r\nINSTALLATION\r\n\r\nEither use NMM, or just extract to your Skyrim folder.\r\n\r\nREMOVAL\r\n\r\nDelete the following four files:\r\n   ...skyrim\\\\Data\\\\meshes\\\\weapons\\\\daedric\\\\daedricarrow.nif\r\n   ...skyrim\\\\Data\\\\meshes\\\\weapons\\\\daedric\\\\daedricarrowprojectile.nif\r\n   ...skyrim\\\\Data\\\\textures\\\\weapons\\\\daedric\\\\daedricarrow.dds\r\n   ...skyrim\\\\Data\\\\textures\\\\weapons\\\\daedric\\\\daedricarrow_g.dds\r\n\r\nSIMILAR\r\n\r\nI\\'ve done several similar mods:\r\nDaedric Arrows: http://skyrim.nexusmods.com/mods/42792/?\r\nNordic Arrows from Dragonborn: http://skyrim.nexusmods.com/mods/43433/?\r\nDragonbone Arrows from Dawnguard: http://skyrim.nexusmods.com/mods/43497/?\r\nNordic Dragonbone Arrows from AeonVita\\'s Dragonbone Weapons mod: http://skyrim.nexusmods.com/mods/43087/?\r\n",
+  "categoryId": "29",
+  "version": "1.0",
+  "author": "Gizmologist",
+  "createdUnix": "1379983644",
+  "updatedUnix": "1380839127",
+  "containsAdultContent": false,
+  "uploadedBy": "gizmologist",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000057509",
+      "name": "Fins of Daedric Arrows glow",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "155",
+      "fileName": "Fins of Daedric Arrows glow-42792-1-0.zip",
+      "uploadedUnix": "1379982361",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/fbc1c0915b0f43ccccefdd976bc052c72ef69a4570f56fe3f1ea226c61053e99/analysis/1407732873/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fins%20of%20Daedric%20Arrows%20glow-42792-1-0.zip?fid=1000057509&ttl=1535823661&ri=8192&rs=8192&setec=ad82a1399a6dd282c73222757c5e5706"
+    },
+    {
+      "fileId": "1000061237",
+      "name": "Glowing Fins for Daedric Arrows - Aura version",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "156",
+      "fileName": "Glowing Fins for Daedric Arrows - Aura version-42792-1-0.zip",
+      "uploadedUnix": "1380839127",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e69d8636464f2dabe57646cf02186a0677938b70620a741985ef0cbf98a84f50/analysis/1407744489/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Glowing%20Fins%20for%20Daedric%20Arrows%20-%20Aura%20version-42792-1-0.zip?fid=1000061237&ttl=1535823661&ri=8192&rs=8192&setec=346b23d3796cf23f8522cc604b476abb"
+    }
+  ]
+}

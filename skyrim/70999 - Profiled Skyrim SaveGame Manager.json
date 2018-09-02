@@ -1,0 +1,32 @@
+{
+  "modId": 70999.0,
+  "modName": "Profiled Skyrim SaveGame Manager",
+  "summary": "Creates and activates Savegame profiles according to your currently active NMM mod profile",
+  "descriptionHtml": "[color=#ff0000][size=5][b]*** IMPORTANT ***[/b][/size][/color]\r<br />[color=#e06666][size=4][i]Back up your stuff if you don&#39;t want to loose it[/i][/size][/color]\r<br />[color=#e06666]I can&#39;t tell how well this works on other computers, only that I had no problems while testing it. I&#39;m using it, and for me it works just fine.\r<br />Your SaveGames are located under your Documents folder in &#92;My Games&#92;Skyrim&#92;Saves[/color]\r<br />\r<br />As Nexus Mod Manager currently does not manage your SaveGames along with profiles, so I wrote this little tool to fill the gap.\r<br />You can add it as custom launcher to NMM or run the app as standalone, so it doesn&#39;t [i]need[/i] NMM.\r<br />NMM might get such a feature on it&#39;s own, but it was a fun little project.\r<br />\r<br />[color=#6d9eeb][size=4] = Installing = [/size][/color]\r<br />Download manually; extract it somewhere you want to keep the application\r<br />You will only need [i][color=#6aa84f]AdminGUI[/color][/i] and [i][color=#6aa84f]AutoNMM[/color] [/i]the other files are still required, but this is the only way I can ask you to safely write files on your hard drive. (As far as I know Windows by default does not allow applications to write in C:&#92; or the applications own Directory for &#34;safety&#34;, so those scripts are somewhat essential)\r<br />\r<br />You can link both scripts to the desktop, or add AutoNMM as launch configuration to the [b]NMM[/b].\r<br />[color=#6aa84f]AdminGUI[/color] will open the SaveGame management window\r<br />[color=#6aa84f]AutoNMM[/color] will try to detect your active NMM profile, switch to the matching SaevGame profile and start Skyrim (through SKSE_launcher.exe if possible, TESV.exe otherwise)\r<br />\r<br />To add the auto functionality to the [b]NMM[/b], go to settings (the gear icon), go to the tab &#34;Skyrim&#34; and under &#34;Custom Launch Command&#34; &gt; &#34;Command&#34; enter the path and name of the AutoNMM script. ([i]e.g. C:&#92;Program Files&#92;Skyrim SaveGame Manager&#92;AutoNMM.vbs[/i])\r<br />After hitting OK you can now select &#34;Launch Custom Skyrim&#34; at the main manager window.\r<br />(If you have troubles with this, there&#39;s a image tutorial in the archive)\r<br />\r<br />[color=#e69138][size=4] = Removing =[/size][/color]\r<br />Activate the Profile you want to keep and delete the SaveGame managers folder.\r<br />As there it currently no way to merge SaveGame profiles, you can only keep one&#33;\r<br />\r<br />[color=#e06666][size=4] = Before relying on this =[/size][/color]\r<br />1. Make sure, Profiling works for you\r<br />2. Backup your SaveGames\r<br />3. Try this app\r<br />4a) If everything works: be happy\r<br />4b) If it doesn&#39;t work: roll back your backup and throw a rotten potato at me (or try to give some feedback)\r<br />\r<br />[color=#f1c232][size=4] = How are SaveGames stored =[/size][/color]\r<br />I zip up your savegames in the applications directory under &#92;Profiles&#92;[PROFILENAME].zip\r<br />Because zipping in Java removes the Timestamps (which are essential for sorting your savegames) the app automatically generates, un-/zips and applies a filemeta.csv that stores those Timestamps.\r<br />For this reason, it is not recommended to manually unpack your savegames, unless you got a file attribute manipulation software you may use to manually apply the timestamps back on.\r<br />There is also no way to automatically merge profiles, if you want to do so:\r<br /> - or every profile you want to merge:\r<br /> - - activate the profile\r<br /> - - copy the saves into an external folder\r<br /> - - delete the profile if you don’t need it anymore\r<br /> - activate or create the profile you want to merge the savegames into\r<br /> - move all savegames from the external folder back to the skyrim save folder\r<br />Similar steps are to be taken to split a profile.\r<br />\r<br />[center][size=5][b][url=http://www.nexusmods.com/skyrim/users/15561039/?tb=mods&pUp=1]More mods I made[/url][/b][/size][/center]",
+  "categoryId": "39",
+  "version": "1",
+  "author": "DosMike",
+  "createdUnix": "1446204902",
+  "updatedUnix": "1446203722",
+  "containsAdultContent": false,
+  "uploadedBy": "DosMike",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000183065",
+      "name": "SaveGame Manager",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "260",
+      "fileName": "SaveGame Manager-70999-1.zip",
+      "uploadedUnix": "1446203722",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/eabe04b204cd70ee2f8ffab2ac9e11f3a36ce0a239eddb84819f372cfca4eb56/analysis/1446203763/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SaveGame%20Manager-70999-1.zip?fid=1000183065&ttl=1535859508&ri=8192&rs=8192&setec=57cad68ee29bd82534b008fcfdf83937"
+    }
+  ]
+}

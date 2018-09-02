@@ -1,0 +1,32 @@
+{
+  "modId": 4177.0,
+  "modName": "Spell Tweaks and Fixes",
+  "summary": "A number of modular spell tweaks that includes fixes for skill abuse from Muffle, Oak/Stone/Iron/Ebonflesh and Dragonhide, as well as options that make Wards cheaper and/or the Telekinesis spell cheaper.",
+  "descriptionHtml": "\r\nTired of the Muffle spell trivializing the Illusion skill?  Or are you sick of feeling the compulsion to grind with magic armor spells?  Or perhaps you\\'d like to have some usable Wards, or maybe a Telekinesis spell that can be held for more than 3 seconds.\r\n\r\nWell, here\\'s some stuff that can probably help you with that.\r\n\r\n---------------\r\n\r\nIncluded are 6 options to modify these spells to your liking.  Here\\'s a list:\r\n\r\n[b]Eld-muffleNoReuseSkillGain.esp[/b]\r\n\t- Skill is gained from Muffle only if the user is not under the effects of the Muffle spell already.\r\n\t\r\n[b]Eld-muffleNoReuseSkillGainHalf.esp[/b]\r\n\t- Half as much skill is gained from Muffle, but only if the user is not under the effects of the Muffle spell already.\r\n\r\n[b]Eld-muffleNoSkillGain.esp[/b]\r\n\t- Prevents any skill gain from Muffle whatsoever.\r\n\t\r\n[b]Eld-armorSpellNoSkillGain.esp[/b]\r\n\t- Prevents any Alteration skill gain from Oakflesh, Ironflesh, etc. whatsoever.\r\n\r\n[b]Eld-cheaperWards.esp[/b]\r\n\t- Wards cost approximately 1/2 as much magicka.\r\n\t\r\n[b]Eld-cheaperTelekinesis.esp[/b]\r\n\t- Telekinesis costs 1/10 as much magicka.\r\n\r\n[u]-Installation-[/u]\r\nPlace the desired .esps in the Data folder, and select them for loading in your preferred mod manager.\r\n\r\n[u]-Uninstalling-[/u]\r\nDelete the .esp files.\r\n\r\n[u]-Credit-[/u]\r\nThanks to Dave Humphrey for the great tool SkyEdit, which made this possible.\r\nhttp://www.uesp.net/wiki/Tes5Mod:SkyEdit",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "Eldiran",
+  "createdUnix": "1324362151",
+  "updatedUnix": "1324362246",
+  "containsAdultContent": false,
+  "uploadedBy": "Eldiran",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "12259",
+      "name": "Spell Tweaks and Fixes",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Spell Tweaks and Fixes-4177-1-0.zip",
+      "uploadedUnix": "1324362246",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4963fe9ff4f0290be89627b2cd8900d97db6f00ffb6c09c52b6cbe64e80a30ee/analysis/1406539144/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Spell%20Tweaks%20and%20Fixes-4177-1-0.zip?fid=12259&ttl=1535759762&ri=8192&rs=8192&setec=1a32213154f2b87fae37702d718bc93f"
+    }
+  ]
+}

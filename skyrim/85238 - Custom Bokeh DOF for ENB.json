@@ -1,0 +1,32 @@
+{
+  "modId": 85238.0,
+  "modName": "Custom Bokeh DOF for ENB",
+  "summary": "This is a custom Depth of Field with Bokeh effect for Snapdragon Prime ENB should work with most.",
+  "descriptionHtml": "Custom Depth of Field with Bokeh effect I tweaked for Snapdragon Prime ENB should work with most ENB&#39;s out there.\r<br />\r<br />Description:\r<br />Just a custom Depth of Field with a stonger Bokeh effect for Snapdragon Prime ENB which makes for artsy screens and even playthrough. \r<br />Goal was a noticable DOF with Bokeh but not too intrusive to gameplay since I actually play the game with it on. Distance blur was pushed back a bit so it doesn&#39;t look like you need glasses... \r<br />Specifics:\r<br />Focus area is clear but surrounding areas that are unimportant get a subtle blur. Very far objects get the Bokeh effect. (The effect is more noticeable at night) So if you want pics like some of the screens with strong Bokeh just slightly move your focus point to the side(literally move the mouse a bit) and you will get it. Just need something in the background to see it like tree leaves or stars or glowing mushrooms,basically something that contrasts the background. I honestly forget its there but smile once in a while when I carelessly camera angle just right and activate it. Btw as you sprint on horse or foot, the distant blur will still move back so your not running blind.\r<br />\r<br />Requirements:\r<br />1. [url=http://skse.silverlock.org/]Skyrim Script Extender(SKSE)[/url] (for iHUD)\r<br />2. Needs an ENB of your flavor, I use [url=http://www.nexusmods.com/skyrim/mods/70451/?]Snapdragon Prime ENB[/url] (Install any enb,tweak to your liking)\r<br />3. Custom Bokeh DOF for Snapdragon Prime ENB ( My file:Overwrite the same file in the [u]enbseries folder in immediate Skyrim game directory[/u] MUST MANUALLY PLACE THIS, NO NMM)\r<br />4. [url=http://www.nexusmods.com/skyrim/mods/3222/?]Immersive Hud -iHUD[/url] (To remove crosshair so you dont notice the focus area tweak, offsets the target center of screen. Note: Don&#39;t worry you aim fine and crosshair reappears during combat, its actually more immersive imo)\r<br />5. Camera adjustments listed in this file &#34;CAMERA ADJUSTMENT SETTINGS.txt&#34; to Skyrim.ini in My Games(Backup your original ini&#33;)\r<br />6. Enjoy&#33;&#33;\r<br />\r<br />Credits:\r<br />tetrodoxin for Snapdragon Prime ENB\r<br />Boris Vorontsov for ENB\r<br />Gopher for Immersive HUD - iHUD \r<br />Ian Patterson, Stephen Abel, Paul Connelly, and Brendan Borthwick (ianpatt, behippo, scruggsywuggsy the ferret, and purple lunchbox) for SKSE",
+  "categoryId": "97",
+  "version": "1.0",
+  "author": "hsk240",
+  "createdUnix": "1499811268",
+  "updatedUnix": "1499808310",
+  "containsAdultContent": false,
+  "uploadedBy": "hsk240",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000249135",
+      "name": "Custom Bokeh DOF for Snapdragon Prime ENB v1.0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Custom Bokeh DOF for Snapdragon Prime ENB v1.0-85238-1-0.zip",
+      "uploadedUnix": "1499808310",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/337a748a76d02b85d5ea92cd13ecc18b1230f3c30c4e68454b69af76977b7203/analysis/1499808542/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Custom%20Bokeh%20DOF%20for%20Snapdragon%20Prime%20ENB%20v1.0-85238-1-0.zip?fid=1000249135&ttl=1535874085&ri=8192&rs=8192&setec=7fb46c63d9d2aa7e2fd91bccd73a2437"
+    }
+  ]
+}

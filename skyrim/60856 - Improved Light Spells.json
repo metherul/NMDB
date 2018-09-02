@@ -1,0 +1,48 @@
+{
+  "modId": 60856.0,
+  "modName": "Improved Light Spells",
+  "summary": "Balances color and brightness levels for the Candlelight and Magelight spells, and increases the Magelight limit to 3.",
+  "descriptionHtml": "This mod balances the Candlelight and Magelight spells&#39; emitted light. Every tweak was carefully tweaked and tested many times to achieve optimum immersion and balance.\r<br />\r<br />There are similar spell light mods like this already available, but more discerning users like myself found them too unbalanced, unimmersive, and/or overcomplicated. This mod simply and elegantly fixes the light spells, adjusting them to how they should have always been.\r<br />This does NOT edit the duration, magicka cost, or textures of the Candlelight and Magelight spells.\r<br />\r<br />FEATURES\r<br />-Less blue color. The light is desaturated, so everything it illuminates isn&#39;t tinted so strongly. Now illuminated objects will be closer to their true colors.\r<br />-Slightly less intense illumination. Now the light won&#39;t ramp gamma and contrast levels to such ridiculous levels, so it won&#39;t be so blindingly bright if you look at anything very bright/close. This also has the added benefit of reducing the contrast between darkness and the spells&#39; light, meaning that it&#39;s easier to see outside the circle of illumination.\r<br />-Slightly increased radius. It&#39;s a balanced and logical distance, yet the area is wide enough that the light doesn&#39;t feel restrictive and nearly useless.\r<br />-Equipped light spells in the hand emit more light, illuminating the character.\r<br />-Magelight can now be cast with a limit of 3 NPC-unbound light sources.\r<br />\r<br />ISSUES\r<br />This mod is probably bug-free, since it&#39;s very small and only edits vanilla values.\r<br />\r<br />However, mods that edit the Candlelight and Magelight spell data will probably conflict.\r<br />\r<br />UNINSTALLATION\r<br />Delete &#34;ImprovedLightSpells.esp&#34; in &#34;&#92;Skyrim&#92;Data&#92;&#34;. There are no scripts or non-vanilla additions/changes, so it won&#39;t cause any problems if you remove it mid-save.",
+  "categoryId": "75",
+  "version": "1.2",
+  "author": "Ithronyar",
+  "createdUnix": "1418865046",
+  "updatedUnix": "1418964848",
+  "containsAdultContent": false,
+  "uploadedBy": "TheMinecraftianGamer",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000139305",
+      "name": "Improved Light Spells",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Improved Light Spells-60856-1-1.zip",
+      "uploadedUnix": "1418906259",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/ac6ad9a6d26f6b359b668c48d74426cc6453abcbc667d3436f39d1e81712eaf3/analysis/1418906282/",
+      "changelogHtml": " -File header version fixed <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Improved%20Light%20Spells-60856-1-1.zip?fid=1000139305&ttl=1535848904&ri=8192&rs=8192&setec=9c20af0547a29243f3a93dd9f384d08f"
+    },
+    {
+      "fileId": "1000139380",
+      "name": "Improved Light Spells (v1.2)",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Improved Light Spells (v1.2)-60856-1-2.zip",
+      "uploadedUnix": "1418964848",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/24a5777ab5ce8f1071c00c9690807965b84148f3f303163b76eca061903c814b/analysis/1418964902/",
+      "changelogHtml": " -Magelight limit increased to 3 at a time <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Improved%20Light%20Spells%20%28v1.2%29-60856-1-2.zip?fid=1000139380&ttl=1535848905&ri=8192&rs=8192&setec=f61ee1bb988ab3ab705aa20e03e72455"
+    }
+  ]
+}

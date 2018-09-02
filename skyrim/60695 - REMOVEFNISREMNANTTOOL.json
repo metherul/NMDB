@@ -1,0 +1,32 @@
+{
+  "modId": 60695.0,
+  "modName": "REMOVEFNISREMNANTTOOL",
+  "summary": "Batch file searches for and removes remnants of FNIS as per FNIS description page.",
+  "descriptionHtml": "[b][font=Georgia][size=4]                                  [color=#00ffff] FNIS Remnant Removal Tool[/color]\r<br />[/size][/font][/b] \r<br />Usage: Extract  batch file to a spare folder or directory and follow prompts. Files and folders of [url=http://www.nexusmods.com/skyrim/mods/11811]FNIS 6.3[/url] will be deleted, and a log of such will be created.\r<br />\r<br />Issues: This may not function as expected (but will not cause damage) if anyone has a [color=#ffff00][size=3]&#33; [/size][/color]in any of their Skyrim directory names leading up from the root directory. The UAC elevation is unpredictable when file is run from the archive. Only removes FNIS remnants for OldRim, with SSE use [url=http://www.nexusmods.com/skyrimspecialedition/mods/6987/?]this[/url].\r<br />\r<br />Why? Wish to clean out Skyrim and start again? Or just uninstall [url=http://www.nexusmods.com/skyrim/mods/11811]FNIS[/url]?\r<br />The authors motivation was that in working with the CK some of the character packages were not as expected with the hkx files installed.\r<br />[url=http://www.nexusmods.com/skyrim/mods/11811]FNIS[/url] is a great program, and though the intention is to retain it permanently for modding purposes, an automated removal tool would be nice.\r<br />\r<br />1.1 update:\r<br />[list][*]Fixed log size\r<br />[/*][*]Cosmetic code edits\r<br />[/*][*]fixed backout at first prompt[/*]\r<br />[/list]1.2 Note for SSE edition\r<br />",
+  "categoryId": "39",
+  "version": "1.2",
+  "author": "lmstearn",
+  "createdUnix": "1418377602",
+  "updatedUnix": "1484886223",
+  "containsAdultContent": false,
+  "uploadedBy": "lmstearn",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000234174",
+      "name": "FNIS Remnant Removal Tool",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "FNIS Remnant Removal Tool-60695-1-2.7z",
+      "uploadedUnix": "1484886223",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/a55e31d7d7262a5f002371fa9d210d435174801920d15e494214e2df5eeff8e6/analysis/1484886541/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FNIS%20Remnant%20Removal%20Tool-60695-1-2.7z?fid=1000234174&ttl=1535848601&ri=8192&rs=8192&setec=5612bc598b5c28b13f341e5faf34ad77"
+    }
+  ]
+}

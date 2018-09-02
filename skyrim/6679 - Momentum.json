@@ -1,0 +1,48 @@
+{
+  "modId": 6679.0,
+  "modName": "Momentum",
+  "summary": "Changes movement within the game for greater immersion.",
+  "descriptionHtml": "[size=10][b]Description[/b][/size]\r\n\r\nMomentum adds new features intending to make motion feel more realistic or controllable. Such features include:\r\n\r\n- A momentum system that causes your character to accelerate the longer they run.\r\n- An encumbrance system offering a gradual decline in speed past a certain threshold.\r\n- The ability to adjust you walk speed VIA your keyboard in real time.\r\n\r\nNote that I\\'m a community oriented author on most games, and I imagine that will include Skyrim. :) Feel free to report problems, suggest improvements, and so on. Just be polite about it.\r\n\r\n[size=10][b]Requirements[/b][/size]\r\n\r\n[list][*]Skyrim v1.3.10.0\r\n[*][url=http://alexander.sannybuilder.com/?category=other&altname=skyrim_script_dragon]Script Dragon[/url][/list]\r\n\r\n[size=10][b]Installation[/b][/size]\r\n\r\nBefore installing, note that this is an alpha release and you use it at your own risk.\r\n\r\nExtract the contents of the .7z to your base Skyrim directory. For most users, this is:\r\n\r\nC:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\skyrim\r\n\r\nThis means you should NOT place any of the files in the Data directory.\r\n\r\nOnce the mod has been extracted, you may adjust momentum.ini to tweak the settings as desired. Please pay attention to any notes within.\r\n\r\n[size=10][b]Uninstallation[/b][/size]\r\n\r\nRemove Momentum.asi from your base Skyrim folder, then whilst in-game use the console command:\r\n\r\nplayer.setav speedmult 100\r\n\r\nTo ensure your character moves at the standard speed.\r\n\t\r\n[size=10][b]Changelog[/b][/size]\r\n\r\n[b]Alpha 0.2[/b]:\r\n\r\n[list][*]Added a Momentum Toggle (default \\'H\\' key).\r\n[*]Added encumberance effects.\r\n[*]Refined momentum system.\r\n[*]Removed walk momentum in favor of adjustable walk speed.\r\n[*]Changed, expanded, and added notes to config file.\r\n[*]Added a walk speed system (default Up Arrow to speed up, default Down Arrow to slow).\r\n[*]NOTE: Using the walk speed adjustment module can result in faster backpedaling, which I hope to alleviate at a later date.[/list]\r\n\r\n[b]Alpha 0.1[/b]:\r\n\r\n[list][*]Initial release.[/list]\r\n\r\n[size=10][b]What\\'s Next?[/b][/size]\r\n\r\nWhat else do I intend to do with Momentum? The following features are on the table and I might be more inclined to implement them if I get a significant response from the community indicating their interests:\r\n\r\n[list][*]More finite control of acceleration/deceleration.\r\n[*]Walk adjustment, which will involve two hotkeys to increase/decrease walk speed so you can keep up with NPCs.\r\n[*]Movement speed bonuses depending on your total Stamina.\r\n[*]Realistic encumberance such that your encumberance slowly decreases your speed, instead of the very silly vanilla system.\r\n[*]Depending on viability, a hotkey allowing you to match the walk speed of the NPC currently in your crosshairs to make the process even easier.\r\n[*]Depending on viability, sprinting jumps, which will allow you to jump much farther than normal.[/list]\r\n\r\n[size=10][b]Credits[/b][/size]\r\n\r\n[b]Alexander Blade[/b]: For Script Dragon and his neatly written and easy to follow example plugins.",
+  "categoryId": "24",
+  "version": "0.2",
+  "author": "NorthWolf",
+  "createdUnix": "1327125001",
+  "updatedUnix": "1327382044",
+  "containsAdultContent": false,
+  "uploadedBy": "NorthWolf",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "21640",
+      "name": "Momentum a01",
+      "version": "0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "38",
+      "fileName": "Momentum a01-6679.7z",
+      "uploadedUnix": "1327125117",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/33da0ccaf97cc1f150cad1e89cb5818d483d4c49aeed68a6ba0ccb7844f69397/analysis/1406626958/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Momentum%20a01-6679.7z?fid=21640&ttl=1535764247&ri=8192&rs=8192&setec=8a261495198305cd732ca4ea951ef4fd"
+    },
+    {
+      "fileId": "22564",
+      "name": "Momentum a02",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "44",
+      "fileName": "Momentum a02-6679-0-2.7z",
+      "uploadedUnix": "1327382044",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/c197c629e5c14f0b2a492b03fc2a9a15c5b56c2dd46ba069c315e8d93f48ed13/analysis/1406634606/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Momentum%20a02-6679-0-2.7z?fid=22564&ttl=1535764247&ri=8192&rs=8192&setec=c78533405731fba9263bad98ba1ec036"
+    }
+  ]
+}

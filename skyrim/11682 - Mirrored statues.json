@@ -1,0 +1,32 @@
+{
+  "modId": 11682.0,
+  "modName": "Mirrored statues",
+  "summary": "Mirrored statues of Dibella, Nocturnal, Azura and Meridia so that they can be used as opposing pairs.",
+  "descriptionHtml": "This is a modders resource, it does not change or add anything in the vanilla game world. It adds mirrored versions of the Dibella, Nocturnal, Azura and Meridia statues, so that they can be used as opposing pairs.\r\n\r\nIf you wish to see other statues mirrored or have worthy statues(3ds max) you wish to be imported into the game, send me a message.\r\n\r\nAzura only had a snowy version so i added a non snowy non mirrored one, same goes for Meridia as it was a load screen art.\r\n\r\nCollision was not mirrored on any of the statues (i have not figured out yet how to properly export it :S) so they have the original collision, which works perfectly fine for the new ones too.\r\n\r\nNew objects can be found in WorldObjects\\\\Static\\\\Clutter\\\\Statues just where their original counterparts were.\r\nMeridia is big and Azura is huge by default, i did not change this so scale them :)\r\n\r\nIf you wish to use these in your mod you will have to add the items to it by yourself, duplicate or rename/create an item in the CK (preferably the base statue) and change the nif file to the new one. Nif file names ending with an M are mirrored the other ones are bases where there were none usable as a statue.\r\n\r\nNew object names used in the esp:\r\n\r\nNocturnalStatueM\r\nStatueDibellaM\r\nShrineOfAzura02\r\nShrineOfAzura02M\r\nStatueOfMeridia02\r\nStatueOfMeridia02M\r\n\r\nTest cell where statues are displayed MirroredStatuesTest, use coc to get there.\r\n\r\nDisclamer:\r\nFeel free to use it in any mod, give credits and a heads up for me. :)",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "McManus82",
+  "createdUnix": "1330537903",
+  "updatedUnix": "1330537990",
+  "containsAdultContent": false,
+  "uploadedBy": "mcmanus82",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "38492",
+      "name": "Mirrored statues",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1041",
+      "fileName": "Mirrored statues-11682-1-0.zip",
+      "uploadedUnix": "1330537990",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b79d630ca7845eb2c7122ccb161bf4440a70a1a053bf57b23b7eb73283018254/analysis/1406721543/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Mirrored%20statues-11682-1-0.zip?fid=38492&ttl=1535773044&ri=8192&rs=8192&setec=65ef866f46fa7588f87eac8429edac68"
+    }
+  ]
+}

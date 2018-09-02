@@ -1,0 +1,48 @@
+{
+  "modId": 14806.0,
+  "modName": "Dialogue Menu UI names subtitles",
+  "summary": "Modify the position of the NPC\\'s names on the dialogue menu screen (move them from the middle of the screen). Also change the fonts for names and subtitles.",
+  "descriptionHtml": "About:\r\n------\r\nThis will modify the position of the NPC\\'s names on the dialogue menu screen (move them from the middle of the screen).\r\nAlso change the fonts for names and subtitles. \r\nAnd the result is:\r\n\r\n- NPC\\'s names moved on the top of the screen under the compass, or on the right side above the topic box.\r\n- Fonts changed from \\'EverywhereMediumFont\\' to \\'DialogueFont\\' for names and subtitles.\r\n\r\n\r\nv1.1:\r\n------\r\nA small fix for 1680x1050 [16:10] res; and an optional version with brighter fonts.\r\nv 1.0:\r\n-------\r\nFixed \\'RIGHT_dialoguemenu.swf\\'- speaker\\'s names have been adjusted a little higher.\r\n\r\n\r\nInstall:\r\n--------\r\n1. Rename 1 of these files \\'DEFAULT_TOP_RIGHT_dialoguemenu.swf\\' to \\'dialoguemenu.swf\\'.\r\n2. Place \\'dialoguemenu.swf\\' in  [Skyrim installation folder]/Data/Interface\r\n\r\n\r\nThanks:\r\n----------\r\n0rava for a very nice modding tutorial (http://skyrim.nexusmods.com/downloads/file.php?id=1800).\r\nA big thanks to Phyber, Spagbol, Agunsthemagi and RoseOfMay for their helpful feedback.",
+  "categoryId": "42",
+  "version": "1.1",
+  "author": "z8eka",
+  "createdUnix": "1334018942",
+  "updatedUnix": "1334153367",
+  "containsAdultContent": false,
+  "uploadedBy": "z8eka",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "51981",
+      "name": "new_dialogmenu_v1",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "827",
+      "fileName": "new_dialogmenu_v1-14806-1-0.zip",
+      "uploadedUnix": "1334074463",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/958380e3a9728a14db8bfc15ff37d8c10dea3ba5269e974d460d1a275df87d74/analysis/1406807774/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/new_dialogmenu_v1-14806-1-0.zip?fid=51981&ttl=1535778698&ri=8192&rs=8192&setec=3dcbee59b9a542030f3ab8885ba54bf7"
+    },
+    {
+      "fileId": "52283",
+      "name": "Optional_dialoguemenu",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "454",
+      "fileName": "Optional_dialoguemenu-14806-1-0.zip",
+      "uploadedUnix": "1334153367",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0ab045eb5e088ec9119888d3c03d141cb191349667d19ea038e9e019591b0f53/analysis/1406809743/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Optional_dialoguemenu-14806-1-0.zip?fid=52283&ttl=1535778699&ri=8192&rs=8192&setec=4c578104f02437cd760b00e6101c6f64"
+    }
+  ]
+}

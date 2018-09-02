@@ -1,0 +1,48 @@
+{
+  "modId": 12713.0,
+  "modName": "Hall Of The Dragon Priests Alpha v 1-0",
+  "summary": "Hall of the Dragon Priests v 1.0 is the first chapter in what is planned to be a major Quest Line for Skyrim. This Alpha adds the quest \\\"A Trip To The Pale\\\" featuring an entirely new Nordic Dungeon, Necromancer\\'s Refuge.",
+  "descriptionHtml": "HALL OF THE DRAGON PRIESTS v 1.0 - A QUEST MOD FOR SKYRIM\r\n\r\nFirst - The All Important Disclaimer\r\n-----------\r\nThere is no reason this mod should interfere with your save games in any way and it never has with mine BUT my mantra is, and always has been, \\\"better safe than sorry\\\" so always back up your save games before installing and using mods.\r\n\r\nLatest News [and always at http://thegrumpyoldlimey.com/gol_skyrim.html]\r\n-----------\r\n03/10/12 - A short break, catch up other web content and get some feedback\r\n03/09/12 - Version 1.0 [Alpha] released\r\n02/28/12 - Project started\r\n\r\nSummary\r\n-----------\r\nHall of the Dragon Priests introduces a new, extensive Quest Line to Skyrim and is based on the premise that the reward [Nahkriin] for completing the pseudo [no Journal entries] quest to collect the Masks of the Dragon Priests is really not that great for such a major undertaking. The MOD will feature multiple dungeons/locations and NPC\\'s, new weapons and armor and eventually a player house.\r\n\r\nVersion Info\r\n-----------\r\nCurrent Version is 1.0 Alpha and contains the initial NPC and triggers to initiate the Quest Line along with the first dungeon; Necromancer\\'s Refuge. I am new to modding not only Skyrim but any game so I am learning as I go - I have already learned that I hate navmeshes. This version while well tested is being put out there so I can get feedback on where I am so far. It makes sense to me to get a feel for what I am doing through the eyes of others before charging on with further development. If there are basic things that need to change now would be the time to do them when there are fewer cells to edit.\r\n\r\nCurrent Issues\r\n-----------\r\nFollowers do not enter - RESOLVED\r\nDraugr ambushes sometimes do not trigger [alcove and seat markers not coffin markers] - not sure why this is; they all work most of the time but every now and again one does not - does not prevent playing the MOD just makes it a little easier - you can always attack them and they wake up - WORKING ON IT [If anyone has a thought as to why this might be I would appreciate it if you would let me know]\r\nIf you leave the cell and come back the navmesh / AI does not work until the game is restarted - Creation Kit wiki says this is a known issue with .esp\\'s and a resolution is on the way - BETHESDA ISSUE [I even had the navmesh break once when my follower turned tail and ran out]\r\n\r\nMod Content\r\n-----------\r\nNPC Herrold [1.0]\r\nHerrold\\'s Basement [1.0]\r\nOne Dungeon - Necromancer\\'s Refuge [1.0]\r\nOne Miscellaneous Task [1.0]\r\nOne Side Quest [1.0]\r\n\r\nPlay Style\r\n-----------\r\nHall of the Dragon Priests has been tested almost exclusively with a level 33 Kahjiit with 90 Sneak, 85 Destruction and 68 Archery and using a \\\"sneak and snipe\\\" play style. That is my normal mode of play, never been one for melee characters and the mod has not been tested with one. Almost every creature in Necromancers Refuge is a leveled actor - most set to either medium or hard - so in theory at least it should work for a melee player as well as for my player. At level 33 a fair number of the Draugr spawn as Deathlords so for me there is a reasonable challenge but I am only one person with a distinct play style and I will be more than happy to tweak based on feedback.\r\n\r\nQuest Markers have been added for all Quest stages as that is how the Vanilla game is constructed. For the \\\"hardcore\\\" among you you should be able to complete without them and I believe you can turn Quest Markers off by editing your SkyrimPrefs.ini file [I have not verified this] as below:\r\n\r\n[GamePlay]\r\nbShowFloatingQuestMarkers=0\r\nbShowQuestMarkers=0\r\n\r\nInstallation\r\n-----------\r\nSimple - download HallOfTheDragonPriests.zip [https://www.onlinefilefolder.com/2seYdMB6jCJ0za here on Nexus or Steam Workshop] and then add HallOfTheDragonPriests.esp and HallOfTheDragonPriests.bsa to the Skyrim Data folder - most commonly:\r\n\r\nProgram Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\data.\r\n\r\nOf course if you use the Nexus Mod Manager that will do it for you.\r\n\r\nRemoval\r\n-----------\r\nDelete HallOfTheDragonPriests.esp and HallOfTheDragonPriests.bsa from the Skyrim Data folder - most commonly:\r\n\r\nProgram Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\data.\r\n\r\nLighting\r\n-----------\r\nThe dungeon Necromancer\\'s Refuge is constructed using a very low ambient light setting and many light sources. On my test machine [Win7 64 Bit, 12 GB RAM, Intel Core i7 8 x 3.07 GHz, Twin AMD Radeon HD6800\\'s in Crossfire configuration, Skyrim video set to high as detected at install, no tweaks] it runs with no perceptible performance issues and the light levels, to my eyes at least, are high enough to be comfortably playable but not too high to spoil the ambiance. I did however also test a couple of times on a Vista machine [32 Bit, 4 GB RAM, Quad Core 2.67 GHz, ATI FirePro V8700] that had video set to low [as detected at install - no tweaks] and the mod was so dark it was unplayable. If you find the mod too dark you can download an the alternative HallOfTheDragonPriests to replace the standard one. This file has a higher ambient light setting.\r\n\r\nVoice Acting\r\n-----------\r\nOK, I know; the voice acting sucks but it was the best I could do given that I had the choice of my limey voice or my limey voice. I will figure something out moving forward to improve the voice acting. For now I wanted to get the Alpha out to see what kind of feedback I got before I start feveloping the Quest Line further.\r\n\r\nCompatibility\r\n-----------\r\nMost of the content is new and has no impact on the vanilla game but of course it has to interface with it. The MOD makes edits to three cells one interior and two in the Tamriel world space. Specifically the three cells edited are - WhiterunOlavaTheFeeblesHouse, DawnstarExterior05 and Wilderness(8.29). If you run mods at the same time as Hall of the Dragon Priests that change any of these cells and load after Hall Of The Dragon Priests in your load order the entrances to the new cells introduced by Hall Of The Dragon Priests will not be there. You could still play the mod by using console commands at a couple of points - see the walkthru - http://thegrumpyoldlimey.com/gol_skyrim2.html - no other conflicts of any sort are expected.\r\n\r\nI Cannot Get Started Or I Am Stuck\r\n-----------\r\nSee the walkthru | http://thegrumpyoldlimey.com/gol_skyrim2.html\r\n\r\nFeedback\r\n-----------\r\nI check comments on the mod anywhere I find them. You can also email\r\nskyrim@thegrumpyoldlimey.com.",
+  "categoryId": "35",
+  "version": "1.0",
+  "author": "The Grumpy Old Limey",
+  "createdUnix": "1331509465",
+  "updatedUnix": "1331509836",
+  "containsAdultContent": false,
+  "uploadedBy": "thegrumpyoldlimey",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "42493",
+      "name": "HallOfTheDragonPriests-1-0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5988",
+      "fileName": "HallOfTheDragonPriests-1-0-12713-1-0.zip",
+      "uploadedUnix": "1331509663",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/25ee8e5486bd67b9343415bfa9d40c6f3ea4a451babf8e0ae1d17dd26b5bcda5/analysis/1406744467/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HallOfTheDragonPriests-1-0-12713-1-0.zip?fid=42493&ttl=1535774856&ri=8192&rs=8192&setec=8d1f427d8c806d50957af320129c982d"
+    },
+    {
+      "fileId": "42494",
+      "name": "HallOfTheDragonPriests-1-0-HiAmbientLight",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "5988",
+      "fileName": "HallOfTheDragonPriests-1-0-HiAmbientLight-12713-1-0.zip",
+      "uploadedUnix": "1331509836",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/da4b0083527c12ff9e556ddc2fdfb6468684cf0035333c126edd533e7a6062ba/analysis/1406744472/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HallOfTheDragonPriests-1-0-HiAmbientLight-12713-1-0.zip?fid=42494&ttl=1535774857&ri=8192&rs=8192&setec=833ff0bc2d7f6a561bfde1706fc3a583"
+    }
+  ]
+}

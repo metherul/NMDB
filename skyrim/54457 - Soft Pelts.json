@@ -1,0 +1,32 @@
+{
+  "modId": 54457.0,
+  "modName": "Soft Pelts",
+  "summary": "Softens the pelt carpets and fixes their normal map behavior",
+  "descriptionHtml": "Didn&#39;t the official pelt textures always look somewhat odd to you?\r<br />\r<br />This is because of two issues: They seem to be flipped, so that they behave wrong when exposed to light. The outer rim darkens and lights up opposed to what you would expect according to the direction the light is coming from.\r<br />Also, the fur looked way too platic like and refined.\r<br />\r<br />To fix this I did two things: I flipped the orientation of the normal map and also used the approach outlined [url=http://blog.wolfire.com/2009/09/soft-normal-maps-for-fur/]here[/url] to make them appear more realistic and soft.\r<br />\r<br />Open the screenshots in two separate tabs and switch back and forth to best see the results.\r<br />\r<br />This fur fix works well with [url=http://www.nexusmods.com/skyrim/mods/37181/]Pelts of Skyrim[/url] and [url=http://www.nexusmods.com/skyrim/mods/3102/]Hi-res Pelts[/url].\r<br />\r<br />Known issues: The normals still look a bit blocky close up and the flipping didn&#39;t fix all parts of all normal, because they are twisted a bit (i.e. some parts seemingly sink into the ground, while others lay on top. i switched which parts go ontop and the end result is now much much better. the parts that seem to sink in are now clearly a minority.)",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Gruftlord",
+  "createdUnix": "1401399860",
+  "updatedUnix": "1401399042",
+  "containsAdultContent": false,
+  "uploadedBy": "Gruftlord",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000110982",
+      "name": "Soft Pelts",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4253",
+      "fileName": "Soft Pelts-54457-1-0.7z",
+      "uploadedUnix": "1401399042",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/230722c4845b651450546e0a39da1732c24f4cd72c67e9e2bf285fe2fe83a722/analysis/1408101907/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Soft%20Pelts-54457-1-0.7z?fid=1000110982&ttl=1535838658&ri=8192&rs=8192&setec=e7f63f945fc8792ea9e5fd3e270e2b22"
+    }
+  ]
+}

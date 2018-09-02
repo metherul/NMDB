@@ -1,0 +1,48 @@
+{
+  "modId": 58249.0,
+  "modName": "No Furniture Activation When Sneaking",
+  "summary": "A simple perk one the player blocks activation of furniture (except those that don&#39;t trigger a player animation like levers and chains) while sneaking. The name of the blocked furniture item will be shown as --- when blocked so you know it can&#39;t be activated while sneaking.",
+  "descriptionHtml": "A simple perk on the player blocks activation of furniture (except those that don&#39;t trigger a player animation like levers and chains) while sneaking. The name of the blocked furniture item will be shown as --- when blocked so you know it can&#39;t be activated while sneaking.\r<br />\r<br />This is intended to avoid sitting or laying down by accident which breaks you out of sneak mode as requested by Taleisen on NexusMods.\r<br />\r<br />May conflict with mods that depend on you activating furniture while sneaking. \r<br />\r<br />Version 1.1 simply removes an unused script reference to keep your papyrus log uncluttered.",
+  "categoryId": "28",
+  "version": "1.1",
+  "author": "CDCooley",
+  "createdUnix": "1411062087",
+  "updatedUnix": "1411158832",
+  "containsAdultContent": false,
+  "uploadedBy": "cdcooley",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000127394",
+      "name": "NoFurnitureActivationWhenSneaking",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "NoFurnitureActivationWhenSneaking-58249-1-0.7z",
+      "uploadedUnix": "1411061820",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/37a81dd4e9e51512c01f6d38c5e2837c6af640d199a69e5d63086a681be78dac/analysis/1411061882/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NoFurnitureActivationWhenSneaking-58249-1-0.7z?fid=1000127394&ttl=1535844773&ri=8192&rs=8192&setec=cb5b4da4874761a25c9459b8352504be"
+    },
+    {
+      "fileId": "1000127600",
+      "name": "NoFurnitureActivationWhenSneaking",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "NoFurnitureActivationWhenSneaking-58249-1-1.7z",
+      "uploadedUnix": "1411158832",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/b32cc1284a9189dd24163e381a59822e303a3197cc2df82240fa30a440e2b1f8/analysis/1411158902/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NoFurnitureActivationWhenSneaking-58249-1-1.7z?fid=1000127600&ttl=1535844773&ri=8192&rs=8192&setec=4a014bfc589bf8cc79e2b3559e6a3867"
+    }
+  ]
+}

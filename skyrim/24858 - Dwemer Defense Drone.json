@@ -1,0 +1,32 @@
+{
+  "modId": 24858.0,
+  "modName": "Dwemer Defense Drone",
+  "summary": "Concept by Proteus Draconis\r\n\r\nAn ancient Dwemer artifact that circles you, stunning nearby enemies. After 5 stuns, it will drop to the ground for a few seconds before recharging itself and defending you once again.\r\n\r\nYou will find this in the Dwemer Museum in Markarth. Looks around and you will see a new artifact on display. Read the note and do ",
+  "descriptionHtml": "Concept by Proteus Draconis\r\n\r\nAn ancient Dwemer artifact that circles you, stunning nearby enemies. After 5 stuns, it will drop to the ground for a few seconds before recharging itself and defending you once again.\r\n\r\nUPDATE: Worked around an RefAlias bug that was preventing the Drone from appearing in the Museum in certain circumstances. If you were one of the 26 people who downloaded the earlier version, you may have to load a game from before you installed the mod in order to complete the quest. Sorry about that.\r\n\r\nLocation\r\n========\r\nYou will find this in the Dwemer Museum in Markarth. Looks around and you will see a new artifact on display. Read the note and do not follow the instructions.\r\n\r\nIMPORTANT: This mod is vulnerable to the so-called \\\"Dialogue\\\" bug that affects all Quest mods. That means you must save and load your game at least once after installing this mod before the Drone will appear in the Museum. \r\n\r\nTips\r\n=====\r\nThe Drone is summoned from your Powers list. Using it a second time will deactivate the drone. \r\n\r\nDetails\r\n=======\r\nThe Drone will stun up to 5 enemies in a row before needing a recharge. After 5 stuns, it will drop to ground (though it will still attempt to follow you) for several seconds, after which it will resume its defense of you.\r\n\r\nThe Drone will only stun enemies you are in active combat with. Although it makes a faint humming noise, it is considered Silent, so just having it active will not alert NPCs to your presence. Summoning it will, though.\r\n\r\n\r\nIncompatibility\r\n===============\r\nThis mod will have problems with any mod that changes the DweIchorBarrel (00048106) in the MarkarthWizardsQuarters01 cell. If this object is moved or removed, the Drone quest will fail to activate. I am not aware of any existing mods that do this, though, so it shouldn\\'t be a problem.\r\n\r\nTHIS SPELL IS VERY SCRIPT-INTENSIVE. That means you need a fast CPU (NOT graphics card!) for it to work right. If your computer just barely runs Skyrim as-is, then this mod will probably behave strangely. \r\n\r\nKnown Issues or Bugs\r\n====================\r\nThis mod is vulnerable to the so-called \\\"Dialogue bug\\\" that affects Quests. That means you must save and load your game at least once after installing this mod before the Drone will appear in the Museum. \r\n\r\nIt is possible for the Drone to get stuck on an obstacle when you move around. If this happens, just use the Dwemer Defense Drone power again to dismiss and re-summon the drone.\r\n\r\nThe Drone will not follow you between maps. Just re-summon it.\r\n\r\nThe Drone will have trouble finding a valid target quickly if there are several dead NPCs near you. \r\n\r\nTodo\r\n====\r\nMake Drone stay active between maps.\r\n\r\nMaybe make the Drone an inventory object that can be charged with Soul Gems. \r\n\r\nPossibly add more types of Drones, such as more a aggressive one or one that restores Health.\r\n\r\nTechnical\r\n=========\r\nScripting. Lots of scripting. All the scripts are included in the mod, so if you want to see how it works, just take a look!\r\n\r\nInstallation\r\n=======\r\n\r\n1. Extract this archive to any folder and then copy the contents to Skyrim\\'s Data folder.\r\n2. Start Skyrim, click Data Files, and enable the DwemerSeeker.esp file.\r\n\r\nOr simply use Nexus Mod Manager.\r\n\r\nUninstall\r\n=========\r\n\r\n1. MAKE SURE THE DRONE IS NOT ACTIVATED IN YOUR SAVE GAME.\r\n2. Start Skyrim Launcher, click Data Files, uncheck the DwemerSeeker.esp file(s).\r\n3. Delete the files/folders associated with the mod.\r\n\r\nSkyrim\\\\Data\\\\DwemerSeeker.esp\r\nSkyrim\\\\Data\\\\Scripts\\\\DWE_*.pex\r\nSkyrim\\\\Data\\\\Scripts\\\\QF_DWE_DroneQuest_02004E17.pex\r\nSkyrim\\\\Data\\\\Scripts\\\\Source\\\\QF_DWE_DroneQuest_02004E17.psc\r\n\r\nOr just use Nexus Mod Manager.\r\n\r\nUpgrade\r\n=======\r\nJust overwrite everything, no problem.\r\n\r\nHistory\r\n=======\r\n1.0, 2012/09/30 – Initial release to Nexus and Steam.\r\n\r\nContact\r\n=======\r\nverteiron@gmail.com\r\n\r\nCredits\r\n=======\r\nThanks to Proteus Draconis for the concept and getting me out of a modding rut :)\r\nThanks to Bethesda for creating Skyrim and the Creation Kit.\r\nThanks to Valve for providing an easy way to take my first baby steps in mod publishing.\r\nThanks to NexusMods for showing me the RIGHT way to publish mods.\r\n\r\nTools Used\r\n==========\r\n7-Zip\r\nCreation Kit\r\n\r\nLicensing/Legal\r\n===============\r\n\r\nYou are free to redistribute this mod for purposes of translation. All I ask is that you let me know where you posted it and send me a link to the translated version.\r\nYou must contact me and obtain my permission before re-packaging this mod for any other reason. If I do not respond within 2 weeks, feel free to do whatever you like with this mod.",
+  "categoryId": "27",
+  "version": "1.01",
+  "author": "Verteiron",
+  "createdUnix": "1349059461",
+  "updatedUnix": "1349061468",
+  "containsAdultContent": false,
+  "uploadedBy": "verteiron",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "91419",
+      "name": "DwemerDrone",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "23",
+      "fileName": "DwemerDrone-24858-1-01.7z",
+      "uploadedUnix": "1349061468",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/8adb06b06034fa7cc77d624696ba1379476f77a80e41d63b33f8abd78dfc64cb/analysis/1407197282/",
+      "changelogHtml": " Fixed a RefAlias bug that prevented the Drone from appearing in certain circumstances. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DwemerDrone-24858-1-01.7z?fid=91419&ttl=1535796068&ri=8192&rs=8192&setec=ecbf5e5e02313d1e26ca671caf9ac0af"
+    }
+  ]
+}

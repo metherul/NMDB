@@ -1,0 +1,32 @@
+{
+  "modId": 76515.0,
+  "modName": "New file path for elder race female",
+  "summary": "just a small mod that just gives the elder race females a custom folder setup for placing meshes that are to be used only by elder race females.",
+  "descriptionHtml": "This is for those of you who are finding that old folks wearing the same skimpy gear as their more youthful counter parts is a bit too confronting, this may be of help to you.\r<br />\r<br />A while back when I tried the &#34;touched by Dibella&#34; body I immediately saw that the elders had uvw related problem with this mod so I took a glance through the creation kit to see how I might be able to fix it.\r<br />\r<br />I was hoping to find the elder race body texture and update it but could not find it in any of the bsa files and not long after that I learned that those texture had apparently been packaged into the skyrim exe file.\r<br />\r<br />After that I reasoned that the only remaining solution was for the meshes used in outfits worn elder race females be placed into their own folder structure in a different location from the default female meshes.\r<br />\r<br />Going through the creation kit to find out what outfits the elder race females are wearing I then extracted the relevant vanilla meshes from the bsa (their aren&#39;t many)  and put them in their own file path.\r<br />\r<br />I used the creation kits &#34;armor add-on&#34; window for those outfits, and made it so that only the elder race female use the new file path for those meshes\r<br />\r<br />The reason I haven&#39;t posted it anywhere before now is because skyrim does (for some reason) indeed take a too long to load when I was testing it but it does load, so I finally decided to post it as is primarily as a back up.\r<br />\r<br />Truthfully do not know how resolve the problem with the loading time, hopefully those who are more experienced and confidant with the creation kit than I am will not mind taking a look at it and hopefully solve the loading time problem and be kind enough to inform me what i did wrong.\r<br />\r<br />Update just tested this with minmal number of mods as opposed to running over 200 mods and it loads faster but still not as fast as it should.\r<br />\r<br />The meshes used in this mod are the default/vanilla meshes extracted from the &#34;skyrim - meshes.bsa&#34; so it should be &#34;safe for work&#34; and can easily be replaced with those that fit match your body replacement mod of choice.\r<br />\r<br />The tools I used are;\r<br />Creation Kit\r<br />BSA Browser\r<br />Tes5Edit (purely to clean the esp)",
+  "categoryId": "84",
+  "version": "0.1",
+  "author": "inkwhiz888",
+  "createdUnix": "1466575552",
+  "updatedUnix": "1466575546",
+  "containsAdultContent": false,
+  "uploadedBy": "inkwhiz888",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000210666",
+      "name": "New file path for female Elders.7z",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1488",
+      "fileName": "New file path for female Elders.7z-76515-0-1.7z",
+      "uploadedUnix": "1466575546",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7fa5efeb309b204129a2360737364604a7ce8d72297d637901b935f73c790b84/analysis/1466575564/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/New%20file%20path%20for%20female%20Elders.7z-76515-0-1.7z?fid=1000210666&ttl=1535865246&ri=8192&rs=8192&setec=0091f7f5775d74b17c1337288564712e"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 50625.0,
+  "modName": "Weight Alteration Spells for Bodyslide",
+  "summary": "Tired of your old body? This mod provides new spells and potions in the Alteration school which increase an decrease an NPC&#39;s weight in game, allowing sort-of-immersive transformations for customized (BodySlide) bodies.",
+  "descriptionHtml": "--====================================--\r<br />[size=5]What do these spells do?[/size]\r<br />--====================================--\r<br />\r<br />[color=#CCCCCC]This mod provides a new family of spells and potions in the Alteration school which will increase or decrease a character&#39;s weight. If you have your bodies/armors/etc set up using BodySlide, this will allow you to transform characters in-game without having to use &#39;setnpcweight&#39; from the console&#33;\r<br />\r<br />[LIST]\r<br />[*]Embiggen (channeled) - increase target&#39;s body weight over time[/*]\r<br />[*]Embiggen Self (charge + fire) - automatically increase player&#39;s body weight by 10%[/*]\r<br />[*]Embiggest (charge + fire) - automatically increase target&#39;s body weight to its maximum[/*]\r<br />[*]Potion of Embiggening - increases body weight by 10%[/*]\r<br />[/LIST]\r<br />[LIST]\r<br />[*]Ensmallen (channeled) - decrease target&#39;s body weight over time[/*]\r<br />[*]Ensmallen Self (charge + fire) - automatically decrease player&#39;s body weight by 10%[/*]\r<br />[*]Ensmallest (charge + fire) - automatically decrease target&#39;s body weight to its minimum[/*]\r<br />[*]Potion of Ensmallening - decreases body weight by 10%[/*]\r<br />[/LIST]\r<br />Please note that any NPC changes made using this spell are [b]permanent[/b] and will stay with your save file forever, even if you uninstall this mod in the future.[/color]\r<br />\r<br />\r<br />--================--\r<br />[size=5]Installation[/size]\r<br />--================--\r<br />\r<br />[color=#CCCCCC]To install the spells, just install this mod using NMM or manually copy the .esp and script folder to your Data directory (no additional files are needed). Spellbooks can be purchased in every major city from the NPCs who normally sell spellbooks, and potions can be purchased from any apothecary.\r<br />\r<br />That is all that is required to get the spells working, however, in order to see much of an effect in-game, you first need to set up your desired proportions using CBBE&#39;s BodySlide utility. If you need help using BodySlide or setting up morphed bodies and armor sets, check out the &#34;how to use bodyslide&#34; section on [url= http://www.nexusmods.com/skyrim/mods/2666/?]CBBE bodies[/url]. \r<br />\r<br />For best results, use a vanilla armor replacer&#33; [/color]\r<br />\r<br />\r<br />--=====================--\r<br />[size=5]Required Mods[/size]\r<br />--=====================--\r<br />\r<br />[color=#CCCCCC]+ Skyrim Script Extender (SKSE), [url=http://skse.silverlock.org/]here[/url] - this mod will crash Skyrim without it&#33;\r<br />+ Calientes Beautiful Bodies (CBBE), [url=http://www.nexusmods.com/skyrim/mods/2666/?]here[/url]\r<br />+ BodySlide 2 for CBBE, [url=http://www.nexusmods.com/skyrim/mods/49015/?]here[/url]\r<br />(Technically no body mod is required, but since the whole point of this mod is to let you see your BodySlide transformations in-game, you probably want one&#33;)[/color]\r<br />\r<br />\r<br />--============================--\r<br />[size=5]Recommended Mods[/size]\r<br />--============================--\r<br />\r<br />[color=#CCCCCC]+ Killer Keos CBBE Armor Replacer, [url=http://www.nexusmods.com/skyrim/mods/3654/?]here[/url]\r<br />+ Calientes Vanilla Outfits, [url=http://www.nexusmods.com/skyrim/mods/12273/?]here[/url]\r<br />+ CT77&#39;s Remodeled Armor for CBBE, [url=http://www.nexusmods.com/skyrim/mods/25259/?]here[/url][/color]\r<br />\r<br />\r<br />--=========================================--\r<br />[size=5]Frequently Asked Questions[/size]\r<br />--=========================================--\r<br />\r<br />[color=#bfd9f7]Q. Will these spells work with other body types (UPNB, SeveNBase, etc)?[/color]\r<br />\r<br />[color=#91dea3]A. Probably, but I don&#39;t use those myself, so YMMV. These spells [i]should[/i] work with any body or outfit that changes its shape based on the character&#39;s current body weight.[/color]\r<br />\r<br />[color=#bfd9f7]Q. Why don&#39;t these spells work on town guards, bandits, forsworn, etc?[/color]\r<br />\r<br />[color=#91dea3]A. There is an issue with leveled characters (temporary/generic ones) and the way their weight is handled by the game. It is a limitation of SKSE and it is unlikely to be fixed in the near future (full explanation [url=http://forums.bethsoft.com/topic/1485027-wipz-skyrim-script-extender-skse/?p=23331218]here[/url]).[/color]\r<br />\r<br />[color=#bfd9f7]Q. My follower dropped out of combat when I cast this on them&#33;[/color]\r<br />\r<br />[color=#91dea3]A. This is intended behavior - changing a character&#39;s weight while they are in a ready/combat state was causing some animations to bug out. If someone has some insight on how to fix this, please drop me a note, otherwise, try not to cast it on your followers in combat or stealth.[/color]\r<br />\r<br />[color=#bfd9f7]Q. A character&#39;s animation is messing up, glitching, or repeating itself after I cast this on them.[/color]\r<br />\r<br />[color=#91dea3]A. Uh oh&#33; Please let me know which character and what they were doing when you cast this spell, so I can take a look and fix it. :)[/color]\r<br />\r<br />[color=#bfd9f7]Q. When I increase a character&#39;s weight, a little gap appears at the base of their neck&#33; How do I fix it?[/color]\r<br />\r<br />[color=#91dea3]A. Unfortunately, this is an old and permanent problem that occurs whenever a character&#39;s weight is changed to something other than their &#34;default&#34; weight. As far as I know, it can only be corrected by manually re-baking the character&#39;s head mesh in the Creation Kit (something that can&#39;t be done in-game, and rebaking all of the heads in the game is a little too ambitious for this mod). Sorry&#33;[/color]\r<br />\r<br />\r<br />--=================--\r<br />[size=5]CHANGELOG[/size]\r<br />--==================--\r<br />\r<br />[color=#AAAAAA]v1.1, 02/08/2014:\r<br />- Created new script to allow concentration/channeled style spells.\r<br />- Changed main spells to concentration/channeled style.\r<br />- Added &#34;Embiggen Self&#34; and &#34;Ensmallen Self&#34; spells to target player character (non-channeled).\r<br />- Added &#34;Embiggest&#34; and &#34;Ensmallest&#34; spells which will animate the character to their biggest/smallest size (non-channeled).\r<br />- Added potions with a 10% change effect.\r<br />- Fixed protections for when the spell target is mounted.\r<br />- Changed some timings to make animation as smooth as possible without choking the script interpreter.\r<br />- Added ability to easily create new MagicEffects in the Creation Kit.\r<br />- Updated script and variable names for future clarity.\r<br />- Corrected number of spell books available from Riverwood Trader.\r<br />- Updated vendors to sell the new spellbooks and potions.\r<br />\r<br />v1.0, 02/01/2014:\r<br />- Initial Release[/color]",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "UwaC",
+  "createdUnix": "1391297779",
+  "updatedUnix": "1391921607",
+  "containsAdultContent": false,
+  "uploadedBy": "UwaC",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000094710",
+      "name": "Weight Alteration Spells for BodySlide",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Weight Alteration Spells for BodySlide-50625-1-0.7z",
+      "uploadedUnix": "1391297652",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/72d1b6999eb99ebdf98462db7d0c67738960a93a24eb23e5c2258f69d43c1b20/analysis/1407913269/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Weight%20Alteration%20Spells%20for%20BodySlide-50625-1-0.7z?fid=1000094710&ttl=1535832445&ri=8192&rs=8192&setec=68db0d585446a9ab6785cedcaee91950"
+    },
+    {
+      "fileId": "1000096012",
+      "name": "Weight Alteration Spells for BodySlide v1-1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Weight Alteration Spells for BodySlide v1-1-50625-1-1.7z",
+      "uploadedUnix": "1391921607",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/1cf4de90ac9f1dae46c04056e502e2a7f204c49278ec8b4d0e53ee9c555250ce/analysis/1407925025/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Weight%20Alteration%20Spells%20for%20BodySlide%20v1-1-50625-1-1.7z?fid=1000096012&ttl=1535832446&ri=8192&rs=8192&setec=d341308db178b6e5cc408d7d2e1207c8"
+    }
+  ]
+}

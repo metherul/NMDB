@@ -1,0 +1,32 @@
+{
+  "modId": 79797.0,
+  "modName": "NifModify",
+  "summary": "A batch processing tool for Skyrim to update tangents/bitangents and optionally replace textures",
+  "descriptionHtml": "[color=#6d9eeb][size=3]NifModify by Ehamloptiran[/size][/color]\r<br />\r<br />A batch mesh processing utility for Skyrim\r<br />\r<br />Usage: NifModify.exe &lt;source path&gt; &lt;destination path&gt; &lt;Skyrim data path&gt; [--nofilecheck] [--replace &#34;&lt;string1&gt;&#34; &#34;&lt;string2&gt;&#34;] [--reportBlocks &lt;BlockName&gt;]\r<br />\r<br />[list]\r<br />[*][size=2]Ensures that UVSets flags is 4097 and updates tangents and bitangents on all shapes, this is always done automatically regardless of provided options[/size]\r<br />[*][size=2]Checks if diffuse texture is equal to normal texture, adding _n in this case to normal (performed by default, disable with --nofilecheck)[/size]\r<br />[*][size=2]Checks if diffuse texture exists in Skyrim data folder, and replaces it with textures&#92;default.dds otherwise (performed by default, disable with --nofilecheck)[/size]\r<br />[*][size=2]Checks if normal texture exists in Skyrim data folder, and replaces it with textures&#92;default_n.dds otherwise (performed by default, disable with --nofilecheck)[/size]\r<br />[*][size=2]Optional --replace switch performs string replacement on all textures in a mesh, string1 is replaced with string2. Can be used to relocate all textures to another folder. Replacement is case insensitive.[/size]\r<br />[/list]\r<br />The log of performed changes is saved into Log.txt next to NifModify.exe\r<br /> \r<br />Examples:\r<br />\r<br />NifModify.exe &#34;e:&#92;1&#34; &#34;e:&#92;2&#34; &#34;c:&#92;games&#92;skyrim&#92;data&#34; --nofilecheck\r<br />Update tangents and bitangents on all meshes in &#34;e:&#92;1&#34; including subdirectories and save them into &#34;e:&#92;2&#34; using the same directories structure\r<br />\r<br />NifModify.exe &#34;e:&#92;1&#34; &#34;e:&#92;2&#34; &#34;c:&#92;games&#92;skyrim&#92;data&#34; --nofilecheck --replace &#34;textures&#92;&#34; &#34;textures&#92;new&#92;&#34;\r<br />Update tangents and bitangents on all meshes in &#34;e:&#92;1&#34; including subdirectories and save them into &#34;e:&#92;2&#34; using the same directories structure\r<br />Additionally update all texture names and replace substring &#34;textures&#92;&#34; with &#34;textures&#92;new&#92;&#34;\r<br />\r<br />NifModify.exe &#34;e:&#92;1&#34; &#34;e:&#92;2&#34; &#34;c:&#92;games&#92;skyrim&#92;data&#34; --nofilecheck --replace &#34;&#34; &#34;new&#92;&#34;\r<br />Update tangents and bitangents on all meshes in &#34;e:&#92;1&#34; including subdirectories and save them into &#34;e:&#92;2&#34; using the same directories structure\r<br />Additionally prepend all texture names with &#34;new&#92;&#34; directory (when what to replace is empty, replacement string is prepended)",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "Ehamloptiran",
+  "createdUnix": "1477729686",
+  "updatedUnix": "1477729530",
+  "containsAdultContent": false,
+  "uploadedBy": "zilav",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000226029",
+      "name": "NifModify",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "NifModify-79797-1-0.zip",
+      "uploadedUnix": "1477729530",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/be5ba3bdaddb14e3efd06745450e3978cddd5b462d55c7e45105b1e38cad169a/analysis/1477729562/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NifModify-79797-1-0.zip?fid=1000226029&ttl=1535868454&ri=8192&rs=8192&setec=519ebabd9d07c495003001479a261078"
+    }
+  ]
+}

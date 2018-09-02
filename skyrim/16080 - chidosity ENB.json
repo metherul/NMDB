@@ -1,0 +1,32 @@
+{
+  "modId": 16080.0,
+  "modName": "chidosity ENB",
+  "summary": "Config for 0.108 ENB and RLWC.  This is my take on ultra-realism for rigs (like mine) that can\\'t run 0.102 ENB without it turning into a slideshow.  Bring sunglasses and a torch.",
+  "descriptionHtml": "[color=green][b]New Version Based on ENB .109 is on the way.  .108 version is discontinued.[/b][/color]\r\n\r\n[color=red][b]Uses ENB 0.108.  I highly recommend reading everything below before downloading this config, it may save you some time.[/b][/color]\r\n[color=yellow]\r\n-----------------------------------\r\nPreface\r\n-----------------------------------\r\n[/color]\r\nThis config is not designed with pretty screenshots in mind.  While I think it looks great, it\\'s foremost intent is to provide an ultra-immersive feel to the game.  \r\n\r\nTo this end, the days are too bright and washed out, the nights are too dark.  You will feel the sun on your face, and you will not get far from Breezehome if you forgot to pack a torch.\r\n\r\nDungeons are dark, but manageable without a torch, most of the time, this is because I kept missing loot when the torch wasn\\'t directly over it.  But trust me, they\\'re still dark. I\\'m trying to simulate an environment lit solely by fire and candles, which means interiors are dark as well.\r\n[color=yellow]\r\n-----------------------------------\r\nMy Specs:\r\n-----------------------------------\r\n[/color]\r\nI\\'m running a mid-range desktop with a mid-range GPU:\r\n\r\nAMD Phenom™ quad-core 2.3ghz\r\n4gb RAM\r\nNvidia GTX 560 ti\r\n\r\nENB 0.102 runs like a slideshow, sub 30fps, even with SSAO and DOF disabled.  \r\n\r\nUsing ENB 0.108 I can run 4x MSAA, SMAA, Transparency 2xSSAA, Nvidia Quality AO, with Ultra settings and only hit sub 30fps in heavy traffic.\r\n[color=yellow]\r\n-----------------------------------\r\nRant:\r\n-----------------------------------\r\n[/color]\r\n[color=red]\r\nManual Installation ONLY -- Uses ENB 0.108\r\n[/color]\r\nThis config is designed with customization in mind, I\\'m uploading it here for advanced users.  \r\n\r\n[color=yellow]\r\nENB Anistrophic filtering  16x is enabled \r\nFrame Limiter is set at 58 fps\r\nproxy d3d9 is disabled, I use the injector version, allowing more flexibility for SMAA, ect...\r\nIf it\\'s too bright for you, I highly recommend reducing daytime brightness through RLWC or the enbeffect.fx file.\r\n[/color]\r\n\r\n I\\'ve cleaned up the enbseries.ini, all unused options have been removed.  It has been customized to fit my needs.  You should customize it to fit yours.  If you have not browsed or edited an enbseries.ini, you probably shouldn\\'t download this config.\r\n\r\nENB 0.108 TrueHDR is a limited version of ENB.  This means it has limitations.  It also has benifits.\r\nHere are some of them:\r\n\r\n1.No water or grass bug\r\n2.Kick-ass performance\r\n3.Distant Mountains often look like crap\r\n4.Things don\\'t look as \\\"shiny\\\".\r\n5.No, you don\\'t get SSAO or DOF\r\n6.You still need to have bFloatPointRenderTarget set to 1\r\n\r\nDon\\'t bother leaving comments about how you hate this config, or how it broke your computer, corrupted your save, or burned down your house.  I offer no support for ENB or RLWC.  Back your stuff up and do your homework.  I made this for myself, and am uploading this config for that one other guy out there who might like it.  If he\\'s happy, I\\'m happy. I seek no fame or fortune.  \r\n[color=red]\r\n-----------------------------------\r\nFull Disclosure:\r\n-----------------------------------\r\n[/color]\r\nIf this config looks familiar, it should.  I based large portions of this config on Superl3 ENB, which I would be using, if my rig could run it.  I have leveraged several aspects of their config to produce the look i wanted, specifically their fire color, portions of their enbeffect.fx file, and several of their custom RLWC brightness and contrast settings to ensure compatibility with RLWC\\'s adverse weather settings.  Alakan and Sung do good work.  I have tried every ENB config available on the interwebs, and IMO their config is still the king of realism, so I am unashamed to attempt to emulate their look using 0.108.   \r\n[color=yellow]\r\n-----------------------------------\r\nCredits:\r\n-----------------------------------\r\n[/color]\r\nBoris Vorontsov - ENB Code Ninja\r\nAlakan and Sung9533 of Superl3 ENB\r\nHeliosdoubleSIX for his cobbled shader \r\nPlutoman - 747823 - Leviathan1753 - Sydney666 of RLWC fame\r\nDaemonui for pointing me in the right direction regarding color changes for RLWC\r\n[color=yellow]\r\n-----------------------------------\r\nShoutouts:\r\n-----------------------------------\r\n[/color]\r\nIn no particular order, Matsuo, Confidence-Man, UnrealWarfare, Sharpshooter, tapioks, Stakado.  I spent weeks studying your configs, without you guys I\\'d still be playing on vanilla.",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "Chidosity",
+  "createdUnix": "1335669423",
+  "updatedUnix": "1335669531",
+  "containsAdultContent": false,
+  "uploadedBy": "chidosity",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "57201",
+      "name": "Chidosity-ENB-1-0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "29",
+      "fileName": "Chidosity-ENB-1-0-16080-1-0.zip",
+      "uploadedUnix": "1335669531",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/fa9dff62b28a3379b46fbee3011dd67b69f94459194f6cbede8a7028aad3e585/analysis/1406852886/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Chidosity-ENB-1-0-16080-1-0.zip?fid=57201&ttl=1535781002&ri=8192&rs=8192&setec=5bde3b0c754cd276ecfdcb53f38af493"
+    }
+  ]
+}

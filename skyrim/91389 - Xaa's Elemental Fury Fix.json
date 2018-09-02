@@ -1,0 +1,32 @@
+{
+  "modId": 91389.0,
+  "modName": "Xaa's Elemental Fury Fix",
+  "summary": "Permits use \"Elemental Fury\" with enchanted and bound weapons, with some limits.",
+  "descriptionHtml": "Basically permits you to use \"Elemental Fury\" with enchanted and bound weapons.  NAWT PERFEKT.  The best I could do was to tweak the shout so that it works with whatever weapon you have in your right hand.  Does NOT help unarmed, left-hand, bows, or speed up any of the dual-wielding stuff.  DOES work with two-handed weapons.  You MUST have a weapon in your hand, or the shout does nothing.  You CAN change weapons before the timer expires.\n<br />\n<br />The best I can tell is that a lot of this is engine-based stuff, particularly left-hand-only attacks and dual-wielding attacks.  Even using the console to boost weapon speed multiplier to the stars, it didn't affect left-handed attacks nor dual-wielding attacks, the animation speed stayed the same.  There may be a way to do this, but I don't know what it is.\n<br />\n<br />So...  If you are using an ordinary two-handed weapon (greatsword, etc), it will work.  Or if you're using a bound weapon and the spell is in your right hand, it will work.\n<br />\n<br />Up-side:  What happens is you draw (or conjure) a weapon, then use the shout.  You'll get a timer, and the timer will last even after you sheath the weapon - so you can pull it out again, or switch to a different one, etcetera.  The shouts don't stack so you don't get the bug of hideously fast speeds that gum up the game, and since the shout affects YOU, not your weapon, there is no chance of the old \"Elemental Fury\" bug where the game hiccuped in figuring out when you sheath your weapon and you have the SFX and sound stuck playing forever.  Nope!  When the timer runs out, the spell stops, whether you have a weapon in your hand or not.\n<br />\n<br />And that's all I got.  It works for me on my box, hope it works for you folks, too.  If it doesn't, hey, it was free, relax, there's other mods you can try.",
+  "categoryId": "75",
+  "version": "0.1",
+  "author": "Xaa",
+  "createdUnix": "1526590532",
+  "updatedUnix": "1526590532",
+  "containsAdultContent": false,
+  "uploadedBy": "Xaa1962",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000273224",
+      "name": "XaaElementalFuryFixTest",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "XaaElementalFuryFixTest-91389-0-1.zip",
+      "uploadedUnix": "1526590003",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d19e92df4dba93d7615d7e2d7b9e270353313e42c3611641c0c570692e500628/analysis/1526590083/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/XaaElementalFuryFixTest-91389-0-1.zip?fid=1000273224&ttl=1535881935&ri=8192&rs=8192&setec=17665cbc5037cb59917a02dca447e7cf"
+    }
+  ]
+}

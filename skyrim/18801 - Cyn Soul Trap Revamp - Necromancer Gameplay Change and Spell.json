@@ -1,0 +1,48 @@
+{
+  "modId": 18801.0,
+  "modName": "Cyn Soul Trap Revamp - Necromancer Gameplay Change and Spell",
+  "summary": "Adds a new spell called \\\"Soul Sap\\\" which collects pieces of souls which you can utilize to avoid death and add to your health attribute. ",
+  "descriptionHtml": "Gameplay/Spell mod that adds a spell called Soul Sap (tome found in Katlas Farm - Outside, with some soul gems to play around with)\r\n\r\nHow it works:\r\n* Cast Soul Sap on a living creature or NPC to gather a piece of their soul. The soul immediately adds 1HP to your Health attribute.\r\n* If the target is killed by Soul Sap or killed while Soul Sap is still affecting them, it will trap the soul into a Soul Gem.\r\n* If you collect 4 or more pieces of souls, should you come close to death, the souls will restore your health to save you from death. Each time this happens, you lose 4 soul pieces.\r\n\r\nPlanned updates:\r\n* Visible effect when your souls allow you to avoid death - currently using a notification at the top - remove 5HP from your Health attribute every time you have to \\\"avoid death\\\"\r\n* Add \\\"Soul Pour\\\" to allow you to use your souls to resurrect the dead permanently, but costs you 10HP from your Health attribute each time you use it.\r\n* Add \\\"Soul Link\\\" to link your soul to another NPC to allow them to resurrect any time they are killed as long as you are living.\r\n\r\nATM I\\'m not sure if this is very balanced (like if it will make your player too powerful too quickly) - that\\'s why I wanted people to try it out and let me know :]\r\n\r\nSpecial Notes:\r\nFirstly, a huuuge thank you to Tytanis for helping me with the scripting - most particularly the avoiding death feature. :]\r\n\r\nSecondly, this mod on its own doesn\\'t add a quest or anything to get this spell because it will be added with my quest: A Fallen Servant once it is out of BETA stage and people are satisfied with how it works.\r\n",
+  "categoryId": "24",
+  "version": "V1",
+  "author": "Cynster",
+  "createdUnix": "1339752577",
+  "updatedUnix": "1341610303",
+  "containsAdultContent": false,
+  "uploadedBy": "Cynster",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "68135",
+      "name": "CynSoulTrapRevamp",
+      "version": "V0.1BETA",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "14",
+      "fileName": "CynSoulTrapRevamp-18801-V0-1BETA.zip",
+      "uploadedUnix": "1339752638",
+      "modVersion": "V0.1BETA",
+      "virusScanUrl": "https://www.virustotal.com/file/396b81101865798d342e2a860ee998eb478ab5f94f0b0e9223bc4f6227f3956e/analysis/1406960642/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CynSoulTrapRevamp-18801-V0-1BETA.zip?fid=68135&ttl=1535785880&ri=8192&rs=8192&setec=c6fbd4eaa2a8a2efdb8b18dfab4b4493"
+    },
+    {
+      "fileId": "72636",
+      "name": "CynSoulTrapRevampV1",
+      "version": "V1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "14",
+      "fileName": "CynSoulTrapRevampV1-18801-V1.zip",
+      "uploadedUnix": "1341610303",
+      "modVersion": "V1",
+      "virusScanUrl": "https://www.virustotal.com/file/b693708b7b640260ed7b6d982b7ea10cd710683e7562652b7339e109aa7cd0c1/analysis/1407005942/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CynSoulTrapRevampV1-18801-V1.zip?fid=72636&ttl=1535785880&ri=8192&rs=8192&setec=acd555a2efebf5d6acc9c3f64b1269db"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 9362.0,
+  "modName": "Clutter Weapons",
+  "summary": "Various clutter, such as kitchen knives, forks, shovels, pitchforks and blacksmith hammer can be used as weapon now.",
+  "descriptionHtml": "[size=3][color=orange]All Forks, Knives, Shovels, Pitchforks and Blacksmith Hammer are Weapons from now![/color][/size]\r\n\r\n[b]- Description -[/b]\r\nNot only me was pissed by forks and knives, which can not be taken in game. I\\'m tried to fix this \\\"issue\\\" and changed their behavior.\r\n\r\nThe damage and price of forks and knives hasn\\'t been changed, but shovels has been modified to be more desirable. Pitchforks are the weapon of enraged peasants. :)\r\n\r\n[color=#9999EE]Blacksmith hammer is weak, but very fast weapon and can be worn in either hand. That means, what you can equip two hammers in both hands![/color]\r\n\r\nThis mod is raised from small plugin \\\"Fork and Knife are Weapons\\\" made by me. Old plugin was very incompatible and therefore obsolete from now.\r\n\r\n[b]- Instalation -[/b]\r\nUnzip all files in Skyrim folder and check \\\"clutter_weapons.esp\\\" in any mod manager.\r\n\r\n[b]- Additional plugins -[/b]\r\nI recommend to use \\\"HD Remodeled Cutlery - Fork and Knife\\\" (http://skyrim.nexusmods.com/downloads/file.php?id=5493) with my mod for more deep immersion.\r\n\r\n[b]- Compatibility and Issues -[/b]\r\nThis mod is [u]NOT[/u] replacing objects in cells as before! It\\'s compatible with almost everything, except mods changing clutter items, such as weight / price balance mods, put my mod after them, because I already made them well ballanced.\r\n\r\n[color=#FF8888][b]Clutter turning into weapons by scripts starting on Load Event, so if some of them had been in cell before mod installed, it remains clutter. The solution is simple - drop on the ground and take the item again, it\\'s becomes a weapon.[/b][/color]\r\n\r\nBig Shovel and Wooden Pitchfork are rotated slightly when worn on the back. I made models looks best in fight and 1st person view, had to sacrifice something.\r\n\r\nNew weapon animations can\\'t be added by now, it seems they are hardcoded as well as their Havok Behaivors. Thats why the Pitchforks behave as swords and Shovels as axes.\r\n\r\n[b]- Uninstall -[/b]\r\nUncheck the plugin in mod manager, then delete all installed files.\r\n\r\n[size=1]Clutter object ID\\'s for instant obtaining:\r\n* Fork:            00104B3F\r\n* Knife:           00104b40\r\n* Shovel:         000F5D05\r\n* Grain Shovel: 000F5D06\r\n* Pitchfork 1:   000F5D07\r\n* Pitchfork 2:   000F5D08\r\n* Hammer:       0005CAE1\r\nUse \\\"player.placeatme XXXXXXXX\\\" console command to acquire appropriate item.[/size]\r\n\r\n[color=pink]Thanks to Bethesda for Game and Creation Kit.[/color]",
+  "categoryId": "85",
+  "version": "0.4",
+  "author": "antaurus",
+  "createdUnix": "1329117257",
+  "updatedUnix": "1329309344",
+  "containsAdultContent": false,
+  "uploadedBy": "antaurus",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "30212",
+      "name": "Clutter weapons",
+      "version": "0.3",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "43",
+      "fileName": "Clutter weapons-9362.zip",
+      "uploadedUnix": "1329117345",
+      "modVersion": "0.3",
+      "virusScanUrl": "https://www.virustotal.com/file/ae9523cdea743408e423d940187960d1155c285b5894625b242bbcd7a4eb9f44/analysis/1406676363/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Clutter%20weapons-9362.zip?fid=30212&ttl=1535768855&ri=8192&rs=8192&setec=4de9d3572fe7d5f13107b09555521141"
+    },
+    {
+      "fileId": "31500",
+      "name": "Clutter weapons Extended",
+      "version": "0.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "131",
+      "fileName": "Clutter weapons Extended-9362-0-4.zip",
+      "uploadedUnix": "1329309344",
+      "modVersion": "0.4",
+      "virusScanUrl": "https://www.virustotal.com/file/7c4e150feb938b274467293a0141785d0ceb6dbc447d231afd147971a1deb4b6/analysis/1406684227/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Clutter%20weapons%20Extended-9362-0-4.zip?fid=31500&ttl=1535768856&ri=8192&rs=8192&setec=293a521883e3916355b22b6384626b26"
+    }
+  ]
+}

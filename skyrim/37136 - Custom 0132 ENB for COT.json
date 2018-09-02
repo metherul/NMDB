@@ -1,0 +1,48 @@
+{
+  "modId": 37136.0,
+  "modName": "Custom 0132 ENB for COT",
+  "summary": "Custom ENB with mid, high & ultra settings for COT, ELFX & SFO. Includes INI tweaks and before/after screens. Also it comes with diferent presets, each with 4 colour settings (warm, cold, more color, sepia). SweetFX included, SMAA, 2xsharpening, Bokeh DOF, SSAO, HDR, dark nights and caves and more.",
+  "descriptionHtml": "[img]http://skyrim.nexusmods.com/mods/images/37136-1-1371117077.jpg[/img]\r\n\r\n[size=4][b][color=red]OBSOLETE. New ENB and Settings here:[/color][/b][/size]\r\n[url=http://skyrim.nexusmods.com/mods/37978/?]Performance and Realistic ENB[/url]\r\n\r\n[size=8][b][color=red]FEATURES:[/color][/b][/size]\r\nSSAO (a little different settings)\r\nBloom (also a bit different with glare)\r\nNice reflection effects from spells and environment\r\nEye adaptation (HDR, little and fast)\r\n2xSharpening (1 from ENB and other from SweetFX)\r\nDark shadows\r\nBokeh Dof (direfent, shiny)\r\nRealistic colours (At least a try, not too much color or too less)\r\nDistant blur (from enb 0132)\r\nDark nights and caves\r\nSunray effect\r\nFSAA, aniso, AA, etc... at your choice.\r\n\r\nLittle vid. tried to get high quality in YouTube but no way.\r\n[youtube]cHl_1Vj7ZGI[/youtube] \r\n\r\nThe mod also contains my ini files to get good fps. You can try later changing settings with skyrim launcher, especially the screen resolution.\r\n\r\nFor medium settings i used core2 6300, HD4850 512gb and 2 gb ram for testing. For high settings i used HD6870 1gb, i5 3570 and 8gb ram.\r\n\r\nThere are many screens in download section with after and before pics, also the diferent color settings cold, warm, sepia or more colour.\r\n\r\nWhy ENB 0132?. Well i like the background image blur compared to others.\r\n\r\n[img]http://skyrim.nexusmods.com/mods/images/37136-1-1371202854.jpg[/img]\r\n\r\n[size=6][b][color=red]Mandatory mods:[/color][/b][/size]\r\n[url=http://skyrim.nexusmods.com/mods/17802/?]Climates of Tamriel 3.1[/url]\r\n-ClimatesOfTamriel.esm\r\n-ClimatesOfTamriel-Nights-Level-3.esp (dont use this or try another level if you dont want dark nights).\r\n[url=http://skyrim.nexusmods.com/mods/27043/?]Enhanced Lights and FX[/url]\r\n[url=http://skyrim.nexusmods.com/mods/141/?]Skyrim Flora Overhaul v179e[/url]\r\n[url=http://skyrim.nexusmods.com/mods/18916/?]Lanterns of Skyrim[/url] (to guide your path in darker nights)\r\n\r\n[size=4][b][color=red]How i make my game to look like in the pics?. Look at this (not really needed, but people normally ask):[/color][/b][/size]\r\n\r\n[url=http://skyrim.nexusmods.com/mods/36141/?]Custom Skyrim[/url]\r\n\r\n\r\n[img]http://skyrim.nexusmods.com/mods/images/37136-2-1371147097.jpg[/img]\r\n\r\n[size=6][b][color=red]Grass:[/color][/b][/size]\r\nGrass eats FPS so is also tweaked it in skyrim.ini because of skyrim flora overhaul v179e (181b does not have any hand placed trees and grass so you probably can lower this next settins). I also tried to fix the bright grass there.\r\n\r\niMinGrassSize=60 medium settings\r\niMinGrassSize=25 high settings \r\niMinGrassSize=5 ultra settings\r\n\r\n[img]http://skyrim.nexusmods.com/mods/images/37136-1-1371149633.jpg[/img]\r\n\r\n[size=6][b][color=red]Settings included:[/color][/b][/size]\r\n\r\n-Ultra = All settings to ultra + SMAA + Dof + Sharpen\r\n-High = Mix of settings + Dof + Sharpen. Must work fine on HD6870+ and GTX470+\r\n-Medium = Medium/Low Settings + Sharpen + Dof. Must work in HD4870+ and GTX9800+\r\n\r\n--Optionals \r\n--4 color options (cold, warm, sepia or more color)\r\n---Less Sharpen\r\n---No Sharpen\r\n---SMAA on/off\r\n---HDR  on/off\r\n---DOF on/off\r\n---DOF off Sharpen off\r\n---DOF off Sharpen less\r\n\r\n[img]http://skyrim.nexusmods.com/mods/images/37136-3-1371147097.jpg[/img]\r\n\r\n[size=8][b][color=red]Installation:[/color][/b][/size]\r\n\r\n1- Download the file from nexus and copy the files you will use to folder /My documents/my games/skyrim (only skyrim.ini and skyrimprefs.ini) and /Skyrim install folder (rest).\r\n\r\n2- Go to [url=http://enbdev.com/mod_tesskyrim_v0132.htm]http://enbdev.com/mod_tesskyrim_v0132.htm[/url] and download the file. Open the Wrapper Version folder and copy the d3d9.dll file (only that file) to your /Skyrim install folder (not /data folder).\r\n\r\n3- Change your screen resolution if you like, better by editing skyrimprefs.ini to avoid skyrimlauncher.exe detection of new hardware and destroying it:\r\n\r\niSize W=1280\r\niSize H=1024\r\n\r\n(example of 1280x1024)\r\n\r\n[img]http://skyrim.nexusmods.com/mods/images/37136-1-1371147096.jpg[/img]\r\n\r\n[size=4][b][color=olive]Things i found:[/color][/b][/size]\r\n- HD textures need a good and fast HD and also ram. So forget them if you have an old IDE hd and 2gb ram. The strange part is that i got them working in the medium settings pc, even with the 512 Ram of the HD4850 until my HD crashed. HD textures seems to not eat FPS, but slow HD and ram will do the job.\r\n- ENB settings DOF, SSAO, Sky lighting, reflection... give over +2 to +5 fps each when turned off.\r\n- COT have some really super sunny days in some places that make some grass type looks little dark (vanilla too?). Tweaking the grass color will make it looks too bright in the normal sunny days.\r\n- I uploaded my .inis because of the tweaked grass and shadows to get good fps. Without them game will eat more fps.\r\n- Other ENBs looks really weird when not using COT.\r\n\r\n[img]http://skyrim.nexusmods.com/mods/images/37136-2-1371202856.jpg[/img]\r\n---------------------------------------------------------------------------------------------------------------------------\r\nAny suggestion is welcome, especially in any parameter since there are too much things to change and i probably missed something. I also only had AMD cards to test.\r\n---------------------------------------------------------------------------------------------------------------------------\r\n\r\n[size=4][b][color=orange]Credits[/color][/b][/size]\r\nBoris Vorontsov (ENB Developer)\r\nHD6 (HeliosDoubleSix) for the nice postprocess.\r\nMatso for the awesome dof.\r\nJorge Jimenez, Jose I. Echevarria, Tiago Sousa, Diego Gutierrez CeeJay.dk for the SweetFX Shaders Suite.",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "32cm",
+  "createdUnix": "1371636326",
+  "updatedUnix": "1371635939",
+  "containsAdultContent": false,
+  "uploadedBy": "32cm",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000034876",
+      "name": "MAIN FILES",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1383",
+      "fileName": "MAIN FILES-37136-1-0.rar",
+      "uploadedUnix": "1371634915",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/88ed28fbf27b5b0b9f0af9779563f64d435a84644d9e2b95315fdcc8dc0a30a7/analysis/1407609009/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MAIN%20FILES-37136-1-0.rar?fid=1000034876&ttl=1535816635&ri=8192&rs=8192&setec=ff3be0124c8aea23d9915799ebbdbcc7"
+    },
+    {
+      "fileId": "1000034877",
+      "name": "SCREENS COMPARISON",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "198752",
+      "fileName": "SCREENS COMPARISON-37136-1-0.rar",
+      "uploadedUnix": "1371635939",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a820422e1971ad0d61da77bbb54bc400893aaadb929a646748f2e5853af5694a/analysis/1407609056/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SCREENS%20COMPARISON-37136-1-0.rar?fid=1000034877&ttl=1535816636&ri=8192&rs=8192&setec=1f22c05b3899cddb2ec7d27032d3a60a"
+    }
+  ]
+}

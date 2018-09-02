@@ -1,0 +1,48 @@
+{
+  "modId": 34141.0,
+  "modName": "Camilla Valerius - A Lovely Letter Marriage Fix",
+  "summary": "Stops Sven and Faednal from fighting over Camilla if you marry her before completing the quest A Lovely Letter.",
+  "descriptionHtml": "[SIZE=5][U]Introduction[/U][/SIZE]\r\nSomething simple I whipped up when I discovered that I still got the quest to help Sven and Faednal fight over Camilla. Needless to say, I was a little weirded out by the prospect of running love letters from two different men back and forth between them and my wife, so I put an end to that.\r\n\r\nThis mod simply force-fails all objectives of the quest A Lovely Letter upon completion of The Bonds of Matrimony if Camilla Valerius is your spouse, it will not affect the state of the quest for any other potential spouse.\r\n\r\n[SIZE=5][COLOR=Red][B]THIS MOD ALTERS THE VANILLA SCRIPTS, ALWAYS BACKUP YOUR SCRIPTS FOLDER![/B][/COLOR][/SIZE]\r\n\r\n[SIZE=5][U]Install[/U][/SIZE]\r\n[LIST]\r\n[*]Use NMM (recommended).\r\n[*]Unzip the contents of the archive to your Skyrim\\'s Data directory.\r\n[/LIST]\r\n\r\n[SIZE=5][U]Uninstall[/U][/SIZE]\r\n[LIST]\r\n[*]Delete <SkyrimDir>/Data/LoveQuadrilateral.esp\r\n[*]Restore the old <SkyrimDir>/Data/Scripts/QF_RelationshipMarriageCourti_00074793.pex file.\r\n[*]Restore the old <SkyrimDir>/Data/Scripts/Source/QF_RelationshipMarriageCourti_00074793.psc file (if using the \\'src\\' version).\r\n[/LIST]\r\n\r\n[SIZE=5][U]Conflicts[/U][/SIZE]\r\nAny mod that alters the quest The Bonds of Matrimony or it\\'s scripts will conflict with this mod, other than it should be perfectly compatible with everything.",
+  "categoryId": "84",
+  "version": "0.1",
+  "author": "Jester335",
+  "createdUnix": "1364665887",
+  "updatedUnix": "1364665151",
+  "containsAdultContent": false,
+  "uploadedBy": "Jester335",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000021244",
+      "name": "Camilla Marriage Fix 0_1",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Camilla Marriage Fix 0_1-34141-0-1.zip",
+      "uploadedUnix": "1364665098",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c6efebdacaff1f810d11f24f9d39f3a7a28148003db82e348086ab65c6283517/analysis/1407496191/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Camilla%20Marriage%20Fix%200_1-34141-0-1.zip?fid=1000021244&ttl=1535811719&ri=8192&rs=8192&setec=7284f579aff4b8bae372bb4d3e9bac17"
+    },
+    {
+      "fileId": "1000021245",
+      "name": "Camilla Marriage Fix 0_1 - Source",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Camilla Marriage Fix 0_1 - Source-34141-0-1.zip",
+      "uploadedUnix": "1364665151",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/72fd0146cd6dd32dab0c56fc83a9635c635c9f7b042c34c3c915e18289319edc/analysis/1407496192/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Camilla%20Marriage%20Fix%200_1%20-%20Source-34141-0-1.zip?fid=1000021245&ttl=1535811720&ri=8192&rs=8192&setec=7c8a853c83f89c4b1ff953f9ba864c7e"
+    }
+  ]
+}

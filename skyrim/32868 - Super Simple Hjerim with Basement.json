@@ -1,0 +1,48 @@
+{
+  "modId": 32868.0,
+  "modName": "Super Simple Hjerim with Basement",
+  "summary": "Changes hjerim player home in windhelm, adds a basement and a guest room for two guests. Fixed the windows at the front door and moved the furniture around in &#34;that room&#34; so the window is visible. Storage in the basement and other places. No OCD smelter or forge that don&#39;t belong&#33; HEARTHFIRE COMPATIBLE&#33;",
+  "descriptionHtml": "Ok updated this mod to use unofficial skyrim patch, unofficial hearthfire patch as dependents to help fix any bugs. That means the unofficial patches are REQUIRED to run this mod. \r<br />\r<br />I adjusted the navmesh under the mannequins so they shouldn&#39;t move around now. I linked the player bed with the spousebed keyword to the center room xmarker so the spouse will find the bed and I linked the housecarl bed to that xmarker too. Fixed some minor bugs like one bar of steel ingot was not assigned to an upgrade xmarker and a few more things like that. This mod is really light, I didn&#39;t alter any scripts and don&#39;t have to include any mesh or texture files it is just the esp&#33; I didn&#39;t even have to alter the housepurchase quest it is that simple.\r<br />\r<br />I tried to add some roombounds but there is no space between floors for it since the floor mesh is also the ceiling mesh:-( so whole house gonna render until you leave it.\r<br />\r<br />I just left the child room in the default place this time but moved the practice dummy to the basement again and so this way the guest room is still available while using child room too&#33; I noticed that by default, two walls and a log don&#39;t go away after buying the child room so I set them to go away when the child room is bought. I also used the mannequin pedestals this time for the three mannequins upstairs instead of just leaving them on rugs, Spotted those pedestals when I was looking at a hearthfire home in falkreath in CK and thought those pedestals would work great in hjerim. I decided to keep the guest room active while child room is active because there is room in this house for both and trying to script in a way to disable the guest room while child room is active would be a disaster because of all the hearthfire scripts and how buggy they are for this house.\r<br />\r<br />I put the hearthfires.bsa file in the list of resources in my skyrimprefs file and this mod worked correctly aka the xmarker number would be found and I could enable/disable it but that wouldn&#39;t work if I just checked off hearthfires.bsa in the data files section.\r<br />\r<br />For anyone testing this the xmarker for the child bedrom decorations is 020041cc and the special disable xmarker is 020041cb. Also adjusted various idlemarkers and child markers for the basement area too so they should roam around down there and do stuff.\r<br />\r<br />This mod changes hjerim player home in windhelm. A decent sized basement has been added but it is not bigger than the house it is slightly smaller and the basement has activity areas like practice dummies and archery targets. There is some barrel storage down there and a treasure chest with some crafting resources like all my other mods and an alcohol collection down there too it is part of the kitchen upgrade. All the stuff in the basement besides alcohol collection and water supply etc are part of the living room upgrade. \r<br />\r<br />The house now has a guest room on the first floor with room for two guests. There is not much room in there so it is just big enough for sleeping and changing clothes. I didn&#39;t want to put any beds in the basement because it is windhelm and freakin COLD&#33;&#33;&#33; lol so who would want to freeze to death in the basement? \r<br />\r<br />The default house had some design bugs like missing windows at the front door and no exhaust for that secondary fire in the kitchen and also a window was covered up in &#34;that room&#34; so I fixed all that stuff check the pictures. The housecarl bed was messed up it had no ownership once the house was upgraded so I fixed that too. \r<br />\r<br />\r<br />This house looks like a hunters house or a huntsmans house not a traditional nord home but kind of so I added some pelts here and there. Also I didn&#39;t want to do a traditional armory for this house because this house is more like a trophy house not just a house with a trophy room so everything is open and easy to get to. By the time the player gets this house they might want a change of design where things are more open anyway. I personally don&#39;t like windhelm or hjerim because everything is so creepy looking outside but I do leave some important stuff in the house in my playthrough and I am probably not the only one that doesn&#39;t like this house. \r<br />\r<br />I moved the plot stuff around as little as possible, only moved the blood stains in the living room so they matched up with the new guest room so those things should not be messed up in the plot. I will update this description soon with xmarker codes for anyone that needs them but I didn&#39;t change anything related to those things this time.\r<br />\r<br />BUGS\r<br />\r<br />For people that have not reached the house yet there should be no bugs from this mod. For people that already have the house you will have a bug with the bookshelf that used to be next to the stairs since I had to move it for access to the basement. To fix this you might try that save game cleaner mod that is floating around here somewhere on the nexus.\r<br />\r<br />\r<br />Installation\r<br />\r<br />Copy the SSHjerimMod.esp file to your data folder or use nexus mod manager it should work with that. \r<br />\r<br />WARNING WARNING&#33; Clear your stuff AND HOUSECARL out of the house BEFORE loading this mod or they will all be LOST TO THE VOID&#33; Don&#39;t try to load this mod with your game saved inside the house lol it would be funny though if you did. Some of the walls and floors are in different places so chances are your character and housecarl will fall into the void trapped forever unless you go outside first then save then go load this mod.\r<br />\r<br />Load this mod AFTER you have made a save game outside the house, then use console and type resetinterior windhelmhjerim and press enter. THEN exit the console and PRESS THE T KEY and press enter. After that you can go in the house and everything should be ok&#33;\r<br />\r<br />Find any bugs? Post them in the comments section so I can fix them:-) ",
+  "categoryId": "67",
+  "version": "v1.1",
+  "author": "Dragonslayer2k12",
+  "createdUnix": "1362563622",
+  "updatedUnix": "1434182515",
+  "containsAdultContent": false,
+  "uploadedBy": "dragonslayer2k12",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000015442",
+      "name": "SSHjerimMod",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "33",
+      "fileName": "SSHjerimMod-32868-v1-0.rar",
+      "uploadedUnix": "1362562516",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2aa184d903efd389378707548b30ec597e1ccb5e53aa2b4f3efc45aa2691eabe/analysis/1407455222/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SSHjerimMod-32868-v1-0.rar?fid=1000015442&ttl=1535809641&ri=8192&rs=8192&setec=dc82a57884abfd2b59c25def6b3cb0f6"
+    },
+    {
+      "fileId": "1000163985",
+      "name": "SSHjerimModHF",
+      "version": "v1.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "34",
+      "fileName": "SSHjerimModHF-32868-v1-1.rar",
+      "uploadedUnix": "1434182515",
+      "modVersion": "v1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/6d4e30019edebda6a3e6eb09c0202b9322db5fca053714cf64b1373fd4d3ec09/analysis/1434182522/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SSHjerimModHF-32868-v1-1.rar?fid=1000163985&ttl=1535809642&ri=8192&rs=8192&setec=0c4e3485d67c15577dfe88b493a2c808"
+    }
+  ]
+}

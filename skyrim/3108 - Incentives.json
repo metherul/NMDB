@@ -1,0 +1,32 @@
+{
+  "modId": 3108.0,
+  "modName": "Incentives",
+  "summary": "Added bonuses and penalties for using/neglecting some (previously untouched) parts of \t\tSkyrim. Eating, drinking, reading, and sleeping are a few of the main problems addressed with this mod.",
+  "descriptionHtml": "Now, we\\'ve all probably shared a good amount of time trudging through Skyrim\\'s frosty landscape. We\\'ve done lots of quests, killed lots of creatures, and have taken quite a few arrows to both of our knees. At the end of the day, we\\'re proud of our beloved Dovahkiin and believe he/she would like to rest in a cozy bed to ensure a refreshment for the day ahead. So we sleep... and nothing really happens (Of course, we get a learning boost... on as little as 1 hour of sleep). Dovahkiin\\'s probably hungry right? Well, it seems the Dragonborn are fleshless killing machines who need not drink nor eat. Maybe Dovahkiin wants to enjoy Skyrim\\'s finest literature? Apparently 5 pages is an epic for the citizens of Tamriel.\r\n\r\nThese examples are but a few of the changes Incentives adds to Skyrim. [url=http://www.facebook.com/socordian.softworks]Socordian Softworks[/url] is here to form Skyrim into a land of more upkeep and immersion than its vanilla counterpart. In some aspects, Incentives can be translated into more of a \\'hardcore\\' mode with its numerous changes. Expected outcomes include:\r\n\r\n-Hunger and Thirst Dependencies\r\n-Sleeping Overhaul\r\n-Reading Incentives\r\n-Thief and Assassin Stabilization (definitely to be optional)\r\n\r\nAnd more to be announced!\r\n\r\n\r\n~==+ Hunger and Thirst Dependencies +==~\r\n1)  Food & Drinking  -  Eating isn\\'t a big part of the core game. Sure, it regenerates some health and cooking is a more refined part of the game, but that\\'s about all the gameplay mechanics call for. In Incentives, eating and drinking become a vital part of the game. Based on an adjustable scale, certain bonuses are derived from stable consumption of food and drink.\r\n\r\n[IMG]http://i.imgur.com/74qSS.jpg[/IMG]\r\n[i](Note that thirst\\'s numeral modifier is less toward the negative range)[/i]\r\n\r\nThe number scale represents \\'hunger/thirst hours\\' to be placed in each bracket. After consuming an item, your hunger/thirst modifier increases for the specific amount of fullness the item gives (i.e. eating and drinking makes your points go up). The points of both modifiers are independent of each other, and both are degraded by elapsed game time.\r\n\r\n/*\r\n     EXAMPLE (1):\r\n        PLAYER currently has a hunger modifier of 0 and a thirst modifier of 0;\r\n        PLAYER = eats item for 1.5 points and drinks an item for 3 points;\r\n        PLAYER\\'s hunger modifier = 1.5 & thirst modifier = 3;\r\n        PLAYER undergoes 3 hours of game time;\r\n        PLAYER\\'s hunger modifier = -1.5 & thirst modifier = 0;\r\n*/\r\n\r\nThe effects of each bracket are labeled in gray and both types of scale are color coded (red for hunger, blue for thirst). Once a bracket is obtained, you receive all additives from that bracket to bracket \\'0\\'. If you are in a negative bracket, you will not receive positive benefits and vice versa.\r\n\r\n/*\r\n\tEXAMPLE(2):\r\n\t\tPLAYER currently has a hunger modifier of -12 and a thirst modifier of +12;\r\n\t\tPLAYER has attributed effects from specific brackets:\r\n \t-5% Stamina, Health, and Magicka Regen [HUNGER, -12]\r\n\t+5% Stamina, Health, and Magicka Regen [THIRST, +6]\r\n\t-15% Stamina Regen / +10% Health and Magicka Regen [THIRST, +12]\r\n*/\r\n\r\nPLAYER now has a net -15% Stamina Regen and +10% Health and Magicka Regen;\r\nAfter reaching the maximum hunger and thirst rates (\\\"starving\\\" and \\\"dehydrated\\\", respectfully), you being to lose all Stamina, Health, and Magicka at a rate of 5 points per hour (+1 per hour). This will continue until food/drink is consumed to bring the player back up to a non-damage afflicting bracket, OR until the player dies.\r\n\r\n/*\r\n\tEXAMPLE(3):\r\n\t\tPLAYER currently has a hunger modifier of -49 and a thirst modifier of -18;\r\n\t\tPLAYER undergoes 1 hour of game time;\r\n\t\tPLAYER now has affliction of (-5 Health, Magicka, and Stamina per hour) (HMS/h) and\r\nloses 5 HMS;\r\n\t\tPLAYER undergoes 1 hour of game time;\r\n\t\tPLAYER\\'s HMS/h affliction increases by 1 (-6 HMS/h) and loses 6 HMS;\r\n\t\tPLAYER undergoes 1 hour of game time;\r\n\t\tPLAYER\\'s HMS/h affliction increases by 1 (-7HMS/h) and loses 7 HMS;\r\n*/\r\n\r\n\r\nAs well as being gaining certain stat modifiers, visual effects are also determined by Incentives. As the player hits the \\\"starving\\\"/\\\"dehydrated\\\" bracket, certain visual anomalies will begin to happen. A common one would be the display of tunnel vision (semi-simulating a real life situation of either starvation or dehydration). The intensity of these effects will increase as the value of the scale decreases (starving/dehydrating longer will intensify the effects).\r\n\r\nWhile sleeping, degradation of modifiers decrease by half (i.e. sleeping for 12 hours will only bring your scales down by 6 hours).\r\n\r\nBenefits of the food eaten will be preserved, but new effects have been added to all food items. Cooking recipes will not only combine these new effects, but also amplify them in a very positive way.",
+  "categoryId": "24",
+  "version": "0.1",
+  "author": "Socordian Softworks",
+  "createdUnix": "1323410615",
+  "updatedUnix": "1323412727",
+  "containsAdultContent": false,
+  "uploadedBy": "IdlingInquisitor",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "8467",
+      "name": "Incentives Synopsis 12-9-11",
+      "version": "12.9.11",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "19",
+      "fileName": "Incentives Synopsis 12-9-11-3108-12-9-11.zip",
+      "uploadedUnix": "1323412727",
+      "modVersion": "12.9.11",
+      "virusScanUrl": "https://www.virustotal.com/file/6814e83eb51f01207a2df057610ea2b6bf029c68039e9e2e38f93f982a2caaff/analysis/1406496304/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Incentives%20Synopsis%2012-9-11-3108-12-9-11.zip?fid=8467&ttl=1535757879&ri=8192&rs=8192&setec=263c49f9697ebbc167f379d1ab1a364d"
+    }
+  ]
+}

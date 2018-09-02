@@ -1,0 +1,48 @@
+{
+  "modId": 20054.0,
+  "modName": "See You Sleep By Madmole",
+  "summary": "See your character sleep in a bed. Sleep wear options for the PC and followers.",
+  "descriptionHtml": "[img]http://downloads.4drulers.com/Skyrim/SeeYouSleep/SeeYouSleepHeader.jpg[/img]\r\n\r\nSee your character sleep in beds, and get up out of bed, just like NPCs do when sleeping. The mod comes with a power you can use to configure sleep options, such as how long your character lays in bed before playing the get out of bed animation, sleep wear options like sleep in default gear, sleep nude, and also you can configure your followers sleep wear. Bethesda made a default sleep wear outfit for NPCs but the game never used it, so I got that working too, on followers.\r\n\r\nThe mod uses a script to dynamically add the script to beds in the game, and has a proper uninstall feature so no dirty scripts left behind infecting your save game.\r\n\r\n[youtube]tkBnL8z9jvk[/youtube] \r\n\r\nScroll to 3:23 to see it in action!\r\n[youtube]4J-FWBRcBAo[/youtube]\r\n\r\nFrom the readme (also in the zip file)\r\n[Game]\r\nSkyrim\r\n[Mod Name]\r\nSee You Sleep By Madmole\r\n[Author(s)]\r\nMadmole\r\n[Contact Info]\r\nhttp://forum.4drulers.com/index.php?/forum/44-skyrim/\r\n[Version]\r\n1.0\r\n[Source]\r\n\r\n\r\n[Description]\r\nI loved the Oblivion mod which let you see your character sleep, so I made this mod for Skyrim. I was unable to get the player to show the animation of getting into bed, so the way the mod works is when you activate a bed, the screen fades to black and then you get the standard sleep menu where you tell the game how long you will sleep for. Then it will fade back in, and you can see your character laying in bed, and then they get out of bed. \r\n\r\nYou can move the camera about freely when your character is sleeping. Also there is a power called Configure See You Sleep that is added when you first install the mod. This allows you to set your preferences of the mod, such as if your character automatically undresses when sleeping, or only undress when in a player home, You can also define if your followers sleep undressed, or only homes just like the player. Finally there is an option which allows you to define how long your player lays in bed before getting up.\r\n[Change Log]\r\n\r\n[Required Files]\r\nSkyrim latest version.\r\n[Installation]\r\nExtract the SeeYouSleep.esp and scripts folder to your data folder.\r\n[Uninstallation]\r\nIn game, use the configure see you sleep power and click uninstall and follow the in game instructions. After saving, delete the files See You Sleep, and the scripts SeeYouSleepAliasScript, updateSeeYouSleepScript, and SeeYouSleepMenuEffectScript.\r\n[Known Issues]\r\nThere is one problem on the dark brotherhood quest when you go to sleep and wake up in the abandoned shack. You should uninstall the mod or sleep in a bed not added by the mod like a bedroll from another mod for that part to work. Once you join the dark brotherhood, you can reinstall seeyousleep. Other than that there isn\\'t really any issues I\\'ve encountered. The mod uses an alias quest which dynamically adds the script to any bed you are near. If you rush into a room and try to sleep really quick it might not have time to apply the script to the nearby beds yet, but under normal play you shouldn\\'t have any problems. The script runs every 4 seconds and looks for beds to apply the script to, and this is done to keep performance optimal. Most people don\\'t reach their bed and sack out faster than 4 seconds so it should be fine.\r\n\r\nI only made 9 aliases, which means up to 9 beds in one room or cell will have the script applied to it. So if you have some mod with a giant harem of NPC\\'s there could be a limit there, but thus far I\\'ve not seen any issues.\r\n[Incompatabilities]\r\n\r\n[Compatabilities]\r\nShould be compatible with nearly anything. \r\n[Troubleshooting/FAQ]\r\n\r\n\r\n[Tools Used]\r\nCreation Kit\r\n[Permissions]\r\nYou may not redistribute this mod in any way without my permission. You can reach me at my forums listed in this document for support issues. If someone can figure out how to get the NPC to show the get into bed animation, I would gladly give you credit and update this mod.\r\n\r\n[Credits]\r\nJustinOther, Amethyst Deceiver, RandomNoob, amgepo, DocClox and other helpful souls over at the bethsoft forums, and to mmmpld for the original mod concept from his Oblivion mod of the same name.\r\n[Thanks To]\r\n\r\nBethesda for making Skyrim and releasing the creation kit.\r\n\r\n[Developers]\r\nJoel \\\"madmole\\\" Huenink.\r\n\r\nBe sure to check out my other mods:\r\nhttp://forum.4drulers.com/index.php?/forum/44-skyrim/\r\n\r\n\r\n\r\n\r\n",
+  "categoryId": "78",
+  "version": "1.0",
+  "author": "Madmole",
+  "createdUnix": "1341658449",
+  "updatedUnix": "1353291939",
+  "containsAdultContent": false,
+  "uploadedBy": "madmole",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "72747",
+      "name": "See You Sleep By Madmole",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "See You Sleep By Madmole-20054-1-0.zip",
+      "uploadedUnix": "1341658548",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6cff9d10dd1d163ea55f88ead1138b3f89b6a7117b315fabd3582ca1086ab69b/analysis/1407007203/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/See%20You%20Sleep%20By%20Madmole-20054-1-0.zip?fid=72747&ttl=1535787960&ri=8192&rs=8192&setec=dff4f0d717851c61eb4b1477f368ddb3"
+    },
+    {
+      "fileId": "100396",
+      "name": "See You Sleep By Madmole",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "See You Sleep By Madmole-20054-1-1.zip",
+      "uploadedUnix": "1353291939",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/735efe56e5b15a291e48e37d26a68fb1f1bf925008708fae8ae43a1058773cbd/analysis/1407269043/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/See%20You%20Sleep%20By%20Madmole-20054-1-1.zip?fid=100396&ttl=1535787960&ri=8192&rs=8192&setec=1d4355636f798b79789b82498dfb58ba"
+    }
+  ]
+}

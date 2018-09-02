@@ -1,0 +1,32 @@
+{
+  "modId": 71753.0,
+  "modName": "College of Winterhold Bridge LOD Fix 1.1 - DELETED",
+  "summary": "When playing on UltraDrawDistance with or without DynDoLOD, when looking out southwest from the Winterhold College bridge just outside the college, a rather large section of the Sea of Ghosts and the landscape behind it simply are there.  Instead there is a black hole with floating trees behind it.\r<br />",
+  "descriptionHtml": "[b][size=4]Winterhold College Bridge LOD Fix[/size][/b]\r<br />\r<br />Update:  Download version 1.1 Version 1.0 had one dirty edit and the trigger area wasn&#39;t big enough\r<br />\r<br />This mod is a tribute to Immersive College of Winterhold by Grantyboy.  It was a shame to enjoy his wonderful creation and then having to face a big black hole in the Sea of Ghosts every time you leave. This mod addresses this LOD problem that seems to have no other solution.   \r<br />\r<br />When playing on UltraDrawDistance with or without DynDoLOD, when looking out southwest from the Winterhold College bridge just outside the college, a rather large section of the Sea of Ghosts and the landscape behind it simply aren&#39;t there.  Instead there is a black hole with floating trees behind it.\r<br />\r<br />This mod addresses this issue by pretending there is a ward around the college that blurs vision and makes noise as the player passes through it.  The LOD mess is still there, it is just too blurry to see it.\r<br />\r<br />This mod was cleaned with TESedit in 1.1.  Version 1.0 had 1 ITM\r<br />\r<br />[b]Do You Need This Mod ?:[/b]\r<br />\r<br />Only if you play on ultra and have the Sea of Ghosts LOD issue where part of the ocean is just a black hole.  Otherwise this mod is just unneeded overhead\r<br />\r<br />[b]What You Need:[/b]\r<br />\r<br />You need only what is present in this archive and it installs automatically with MOD Organizer\r<br />This mod only depends on Skyrim.esm and Update.esm\r<br />It does not depend on Immersive College of Winterhold but was made and tested with this mod present.\r<br />\r<br />[b]Script Load and Uninstalling:\r<br />\r<br />[/b]Tested loaded after Immersive College of Winterhold\r<br />\r<br />This mod installs one primitive and one script into your Skyrim install.  Unless your game is malfunctioning or you have &gt;200ms script lag, this script should run ONLY when you are standing on the bridge in the activator box.  There should be no script load otherwise.\r<br />\r<br />Because it installs the script GAStrig into your savegame, if you uninstall this mod the script will be left behind to cause mischief.  Use a savegame script cleaner to fix this.\r<br />\r<br />You probably shouldn&#39;t save when you are standing in the trigger area.\r<br />\r<br />If you can make a better script by all means post and I will incorporate it.\r<br />\r<br />[b]What Does It Do ?:[/b]\r<br />\r<br />In the small region of the bridge where the LOD problem is visible, it adds a primitive which activates a sound and a blur imagespace so you can&#39;t see the issues any more.  Messages tell you that you are passing though the College&#39;s protective wards.  They are inactivated when leaving the primitive.\r<br />\r<br />Other NPCs and Followers don&#39;t trigger the ward.  It is possible to make them but it has issues.\r<br />\r<br />[b]Credits:[/b]\r<br />\r<br />Bethesda for making a scripting language harder to manage than a herd of rabid weasels\r<br />Various Skyrim scripters on the web that taught me how to herd rabid weasels",
+  "categoryId": "95",
+  "version": "1.1",
+  "author": "Sirandar",
+  "createdUnix": "1449205547",
+  "updatedUnix": "1449208961",
+  "containsAdultContent": false,
+  "uploadedBy": "sirandar",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000186829",
+      "name": "College Winterhold Bridge LOD FIX Version 1-1",
+      "version": "1.1",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "College Winterhold Bridge LOD FIX Version 1-1-71753-1-1.zip",
+      "uploadedUnix": "1449208961",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/6efc027aa8c1a7336c26c44fa3c324b9c6bed4e8ac0326513c379bb89a3e0499/analysis/1449208984/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/College%20Winterhold%20Bridge%20LOD%20FIX%20Version%201-1-71753-1-1.zip?fid=1000186829&ttl=1535860310&ri=8192&rs=8192&setec=38c14b763fd121a2d53a31a8a097a2b8"
+    }
+  ]
+}

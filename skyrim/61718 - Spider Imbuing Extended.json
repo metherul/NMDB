@@ -1,0 +1,48 @@
+{
+  "modId": 61718.0,
+  "modName": "Spider Imbuing Extended",
+  "summary": "A small mod that adds 2 cut spiders (Glowing and pack) back to the game, along with a new way of obtaining albino pods.",
+  "descriptionHtml": "[b][color=#b6d7a8][size=4]Description[/size][/color][/b]\r<br />This mod adds 2 cut spiders (glowing and pack) back to the game, along with a new way of obtaining albino pods. The glowing spiders are basically a less useful alternative to the candlelight spell. The pack spiders follow you and can carry up a weight up to 60 units. Albino spider pods can now be crafted at the imbuing station. Non-elemental spiders have been given unique textures. Most related items have been renamed for better sorting. Dragonborn DLC is required.\r<br />\r<br />[b][color=#93c47d][size=4]Recipes[/size][/color][/b]\r<br />Spider Egg + Bone Meal -&gt; Albino Spider Pod\r<br />Albino Spider Pod + Deathbell -&gt; Damaged Albino Spider Pod\r<br />Albino Spider Pod + Bone Meal -&gt; Pack Spider\r<br />Albino Spider Pod + Glowing Mushroom -&gt; Glowing Spider\r<br />\r<br />[b][color=#6aa84f][size=4]Bugs[/size][/color][/b]\r<br />-You should normally be able to spawn only 1 glowing spider and only 1 pack spider at a time but if you start spamming them then sometimes you can end up with multiple ones staying alive. I don&#39;t know how to fix this so I won&#39;t.\r<br />-Already visited imbuing stations won&#39;t give you the new recipe notes. They will still work, though. You can use the console to give yourself the notes (&#34;Spider Recipe - Glowing&#34; and &#34;Spider Recipe - Pack&#34;) or use the resetinterior command to reset the cell with the imbuing station. (For example this: &#34;resetinterior dlc2whiteridgebarrow02&#34; would reset the cell with the only station in the vanilla game.) The imbuing station in the manually reset cell will give you the new recipes, but it will also give you one more copy of the ones you already found. If the imbuing station is in your home then I wouldn&#39;t recommend using the resetinterior command as it may have side effects.\r<br />\r<br />[b][color=#38761d][size=4]Optional File[/size][/color][/b]\r<br />I added an optional download that changes the color scheme of the shock spider from blue-orange to blue-pink. It is only a texture mod and can be used with or without the main file.\r<br />\r<br />[color=#274e13][size=4][b]FAQ[/b][/size][/color]\r<br />-Can I edit and share this?\r<br />-You are free to do whatever you like with this, although I&#39;d appreciate being listed in the credits or something.\r<br />\r<br />-Is this compatible with other spider imbuing mods?\r<br />-Probably not.\r<br />\r<br />-I just had the most amazing idea, can you implement it?\r<br />-Ask in the comment section, if I like it and it&#39;s not too complicated then I might add it.\r<br />\r<br />-Tes5edit found a dirty edit. Can I clean it?\r<br />-The dirty edit changes the name of &#34;Albino Spider Pod&#34; to &#34;Albino Spider Pod&#34;. I intentionally made it because the [url=http://www.nexusmods.com/skyrim/mods/32759/?#]Better sorting mod for Dragonborn[/url] changed its name to something else and I wanted to use the vanilla name instead. If you don&#39;t use that mod then feel free to clean it. Not cleaning it shouldn&#39;t cause any problems as long as you don&#39;t have any mods that modify that particular item. And I don&#39;t think there are too many mods like that.^^",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Gosthy",
+  "createdUnix": "1421335680",
+  "updatedUnix": "1421335446",
+  "containsAdultContent": false,
+  "uploadedBy": "gosthy",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000142980",
+      "name": "Spider Imbuing Extended 1.0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5777",
+      "fileName": "Spider Imbuing Extended 1.0-61718-1-0.rar",
+      "uploadedUnix": "1421335375",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1b2a28245ee85bb10bcf5d0364a1a0521c79c5bedbb945e40b79740e4088fb13/analysis/1421335393/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Spider%20Imbuing%20Extended%201.0-61718-1-0.rar?fid=1000142980&ttl=1535850212&ri=8192&rs=8192&setec=746e00eb8fc7a640fbc9eed429a85ea3"
+    },
+    {
+      "fileId": "1000142982",
+      "name": "Optional Shock Spider Texture",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "826",
+      "fileName": "Optional Shock Spider Texture-61718-.rar",
+      "uploadedUnix": "1421335446",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/844d47c8dbcb2a0eefea695f73dfaf470bce6ab9839e8bb2909f15ed948a55c7/analysis/1421335510/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Optional%20Shock%20Spider%20Texture-61718-.rar?fid=1000142982&ttl=1535850212&ri=8192&rs=8192&setec=5152f8a3d16fe3dd2d88a9f4e2ae86ea"
+    }
+  ]
+}

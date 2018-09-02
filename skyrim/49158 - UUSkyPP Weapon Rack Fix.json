@@ -1,0 +1,32 @@
+{
+  "modId": 49158.0,
+  "modName": "UUSkyPP Weapon Rack Fix",
+  "summary": "DayDreamer&#39;s fixes for Weapon Racks",
+  "descriptionHtml": "[size=5]Unofficial Unofficial Skyrim Patch Patch - Weapon Racks Fix[/size]\r<br />\r<br />Load after Unofficial Skyrim Patch (USkP), or on its own. May be activated, removed, or updated at any time.\r<br />\r<br />Speedier replacement for USkP 1.3.3 and 2.0.0, so that racks in exteriors and busy interiors load properly. Cleans up racked starting items to vanilla state after leaving area, and ensures remounting after cell resets.\r<br />\r<br />Includes Talenden&#39;s fix for placing previously un-rackable weapons like Dwarven Battleaxe, or Ebony Blade, or Silver swords, or Volendrung, or Wuuthrad&#33;\r<br />\r<br />\r<br />Explanation: USkP 2.0.0 uses an update event with zero time as a replacement cross-script function calling technique, causing significant delay. Other poor coding issues cause additional delay. Timing loops have fence-post errors. There are potential multi-threading timing problems due to improper use of semaphores. Internal states are not well maintained.\r<br />\r<br />USkP has tried 3 times (as of 2.0.0) to fix the weapon racks, two of which had to be abandoned, all of which have had problems. This fixes and updates previous attempts with backward compatibility.\r<br />\r<br />Scripts were independently developed from the vanilla game files for comparison and compatibility.\r<br />",
+  "categoryId": "95",
+  "version": "4.6",
+  "author": "DayDreamer",
+  "createdUnix": "1387938234",
+  "updatedUnix": "1387936687",
+  "containsAdultContent": false,
+  "uploadedBy": "wasite",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000088273",
+      "name": "UUSkyPP Weapon Racks",
+      "version": "4.6",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "47",
+      "fileName": "UUSkyPP Weapon Racks-49158-4-6.7z",
+      "uploadedUnix": "1387936687",
+      "modVersion": "4.6",
+      "virusScanUrl": "https://www.virustotal.com/file/b8cf4b7ae3a052a578e93bad10deeef915870e2899c8631d66dc2125f907bea8/analysis/1407858065/",
+      "changelogHtml": " Clear more pointers prior to error returns, plus trivial code path optimization. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/UUSkyPP%20Weapon%20Racks-49158-4-6.7z?fid=1000088273&ttl=1535829793&ri=8192&rs=8192&setec=975bbcd7330256d2a7d12ddde3d0145c"
+    }
+  ]
+}

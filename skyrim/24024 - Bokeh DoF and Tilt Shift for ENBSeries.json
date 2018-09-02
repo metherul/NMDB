@@ -1,0 +1,32 @@
+{
+  "modId": 24024.0,
+  "modName": "Bokeh DoF and Tilt Shift for ENBSeries",
+  "summary": "Auto Focus, Static Foucs, Tilt Shift, and Bokeh Depth of Field(Cirular and Polygonal).\r\n",
+  "descriptionHtml": "[img]http://i1239.photobucket.com/albums/ff516/gp65cj04/skyrim_dof/TESV2012-09-1600-13-29-02.jpg[/img]\r\n---------------------\r\n\r\n// Parametes :\r\n\r\n#define NOT_BLURRING_SKY_MODE // not blurring the sky, enable this mode will use Gaussian blur only (DEPTH_OF_FIELD_QULITY 0) .\r\n#define DEPTH_OF_FIELD_QULITY 3 // form 0 to 7, higher is more samples.\r\n#define AUTO_FOCUS // enable auto focus\r\n#define TILT_SHIFT // enable tilt shift\r\n#define POLYGONAL_BOKEH // use polygonal shape bokeh or circular bokeh\r\n#define POLYGON_NUM 5\r\n\r\n// for auto focus\r\nfloat2 FocusPoint=float2(0.5, 0.5); // the point you want to focus.\r\nfloat FocusSampleRange=1.00; // sampling range of foucs, 0 is FocusPoint only\r\nfloat NearBlurCurve=1.00; // control the blur from near to focal plane, higher is less blur\r\nfloat FarBlurCurve=1.00; // control the blur from focal plane to far away, higher is less blur\r\nfloat DepthClip=150.0; // the max distance you can see clear, over this distance will be blurred, no matter it\\'s on focus or not.\r\n\r\n// for static dof\r\nfloat FocalPlaneDepth=0.50;\r\nfloat FarBlurDepth=50.00; // the blur will increase from FocalPlaneDepth to FarBlurDepth\r\n\r\n// for tilt shift\r\nfloat\tTiltShiftAngle=30.0; // it will rotate the focal plane\r\n\r\n// common\r\nfloat BokehBias=2.00;\r\nfloat BokehBiasCurve=0.75;\r\nfloat BokehBrightnessThreshold=1.00; // any bright source that its brightness over BokehBrightnessThreshold\r\nfloat BokehBrightnessMultipiler=2.00; // will increase its brightness by BokehBrightnessMultipiler. \r\nfloat RadiusSacleMultipiler=4.00; // blur radius affects the size of bokeh \r\n\r\n// noise grain\r\nfloat\tNoiseAmount=0.35; // the max noise grain amount\r\nfloat\tNoiseCurve=0.50; // lower the value, the noise grain will increase faster when out of foucs. \r\n\r\n\r\nfloat ChromaticAberrationAmount=0.25; // the intensity of chromatic aberration \r\n\r\n------------------------------------- update 0913 -------------------------------------\r\nImproved performance.\r\nImproved chromatic aberration. \r\n\r\n------------------------------------- update 0915 -------------------------------------\r\n\r\nAdded tilt-shift feature\r\n\r\n------------------------------------- update 0915v2 -------------------------------------\r\n\r\nAdded noise grain into blur\r\n(the code is copied from offical effect.txt)\r\n\r\n\r\n",
+  "categoryId": "62",
+  "version": "0915v2",
+  "author": "gp65cj04",
+  "createdUnix": "1347430760",
+  "updatedUnix": "1347714185",
+  "containsAdultContent": false,
+  "uploadedBy": "gp65cj04",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "88594",
+      "name": "Bokeh_DoF_0915v2",
+      "version": "0915v2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Bokeh_DoF_0915v2-24024-0915v2.zip",
+      "uploadedUnix": "1347714185",
+      "modVersion": "0915v2",
+      "virusScanUrl": "https://www.virustotal.com/file/0a8ed1248a8a2c690da62ab5d57c0da16663899cfd6c4a0f3d67cd5b23d76310/analysis/1407166879/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bokeh_DoF_0915v2-24024-0915v2.zip?fid=88594&ttl=1535794636&ri=8192&rs=8192&setec=ef5161b1bf226f7d5e7f9fd16c8e8b50"
+    }
+  ]
+}

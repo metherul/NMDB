@@ -1,0 +1,48 @@
+{
+  "modId": 55134.0,
+  "modName": "RedShift Performance ENB Preset",
+  "summary": "Changes tint from vanilla blue to red. Minimal performance impact, meant for playing.",
+  "descriptionHtml": "[u][b]This mod is no longer supported.[/b][/u]\r<br />\r<br />This was made to fit my personal taste and to maintain 60 fps in most areas on my pc, it is not for everybody. Since the new color is based on red, dark areas have a lot of purple. On average I get 3-6 fps loss. \r<br />This will not look as good as other enb&#39;s because it is made for playing, not for screenshots. \r<br />\r<br />[color=green] Note: [/color] Fps comparison images have AA  in enb and no aa in vanilla. If I turned off aa it would be almost no loss. (For me. Not necessarily for you.) I have a gloss monitor. As with any enb, it will look different on your display than it does on mine. Be sure your display is properly calibrated. In-game brightness display works as vanilla and you can use this just as with the vanilla game, do not turn all the way down as with some enb&#39;s. \r<br />\r<br />If you start turning settings on that I originally had turned off, then don&#39;t expect good performance or visuals, or even help when solving problems. It makes things much harder. If you decide to turn something on then you should read up on exactly what it does and how it works, because I cannot help you with it. \r<br />\r<br />[color=red] How to install: [/color]\r<br />\r<br />-Download the latest enb files from [url=http://enbdev.com/download_mod_tesskyrim.html] here [/url]\r<br />\r<br />-Place d3d9.dll and enbhost.exe from the wrapper folder into your main skyrim folder. Usually located in C:Program Files (x86)SteamSteamAppscommonSkyrim\r<br />\r<br />-Drop all files from this mod into the same folder, as is. \r<br />\r<br />-Open your SkyrimPrefs.ini located in C:Users____DocumentsMy GamesSkyrim\r<br />\r<br />-Change the following lines:\r<br />\r<br />iMultiSample=0\r<br />iMaxAnisotropy0\r<br />bFXAAEnabled=0\r<br />bFloatPointRenderTarget=1\r<br />bTreesReceiveShadows=1\r<br />bDrawLandShadows=1\r<br />bShadowsOnGrass=1\r<br />\r<br />-Install [url=http://www.nexusmods.com/skyrim/mods/27043/?]ELFX,[/url] install everything BUT the enhancer. [color=purple] SKIP THIS STEP IF NOT USING ELFX VERSION. [/color]\r<br />\r<br />[color=red] Problems: [/color]\r<br />\r<br />-As with many other enb&#39;s, this breaks nighteye. To easily fix this, download [url=http://www.nexusmods.com/skyrim/mods/50731/?]  enhanced enb night eye. [/url]\r<br />\r<br />-I will put any other problems here if they are reported\r<br />\r<br />\r<br />[color=red] Compatibility [/color]\r<br />\r<br />-Currently the only version is for vanilla only. This means lighting mods such as realistic lighting, [s]ELFX[/s], and climates of tamriel are NOT supported. Will they still work? Maybe, but I will be making specific versions for each lighting mod soon. \r<br />\r<br />-Added an ELFX version. If using this version you must have ELFX. Install everything BUT the enhancer. \r<br />\r<br />-Working on realistic lighting overhaul now, then CoT. If you use a different lighting mod and want it to work properly with this enb, just ask. \r<br />\r<br />\r<br />[color=red] Mods used in screenshots [/color]\r<br />\r<br />-Enhanced lights and Effects (in ELFX version)\r<br />\r<br />-Realistic Water two with watercolor add on\r<br />\r<br />-Skyrim Floral Overhaul (With grass on steroids and lower grass density for performance)\r<br />\r<br />-Skyrim HD - 2k textures\r<br />\r<br />-SMIM\r<br />\r<br />-aMidianBorn Textures (all armors, some landscape)",
+  "categoryId": "97",
+  "version": "1",
+  "author": "Bretton",
+  "createdUnix": "1403382717",
+  "updatedUnix": "1403560433",
+  "containsAdultContent": false,
+  "uploadedBy": "bretton",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000113952",
+      "name": "RedShift Performance - For Vanilla Lighting",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "69",
+      "fileName": "RedShift Performance - For Vanilla Lighting-55134-1.rar",
+      "uploadedUnix": "1403382402",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/a7da258a376deb281913d2cac737d8dc307f5cf41eb4073726eebf77510a945b/analysis/1408137074/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/RedShift%20Performance%20-%20For%20Vanilla%20Lighting-55134-1.rar?fid=1000113952&ttl=1535839752&ri=8192&rs=8192&setec=83d98a00fdfedd3f220e487bf1871a76"
+    },
+    {
+      "fileId": "1000114298",
+      "name": "ELFX VERSION ",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "69",
+      "fileName": "ELFX VERSION -55134-1.rar",
+      "uploadedUnix": "1403560433",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/ea3e7521b3202ff8f2a4cfddbf12d5f013a902fb4c871c2cbdeb95c5640e25c9/analysis/1408140007/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ELFX%20VERSION%20-55134-1.rar?fid=1000114298&ttl=1535839752&ri=8192&rs=8192&setec=81575b24e1f3789518e6eb0fbd481ce3"
+    }
+  ]
+}

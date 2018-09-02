@@ -1,0 +1,48 @@
+{
+  "modId": 32137.0,
+  "modName": "Reference Books",
+  "summary": "Adds in-game books with Base/Form ID numbers for various items, quests, and NPCs",
+  "descriptionHtml": "[color=\\\"#ff0000\\\"][b]Note:[/b][/color] This project\\'s source is now available on Github. Go here if you want to contribute: \r\nhttps://github.com/dbb/skyrim_ref_books\r\n\r\nAlso available on Steam: http://steamcommunity.com/sharedfiles/filedetails/?id=130791331\r\n\r\n----------------\r\n\r\nThis mod adds a chest behind Breezehome in Whiterun with some weightless books that have very handy information, if you\\'re like me and tired of leaving the game to look up Base IDs when you\\'re testing.\r\n\r\nSo far, it includes these books:\r\n[list]\r\n[*] Main quest reference\r\n[*] Ammunition\r\n[*] Enchanting\r\n[*] Potions\r\n[*] Smithing\r\n[/list]\r\n\r\nFor this preview release, there are four books: Ammunition, Enchanting, Potions, and Smithing.\r\n\r\nI split them into different books because the page-turning animation is impractically slow for larger volumes (note: I have decided to switch to \\\"notes\\\" rather than \\\"books\\\" because notes have no page turn animation). However, I am also planning on releasing a \\\"master\\\" book for those who feel it would be more convenient.\r\n\r\nI want to hear your input on this project: let me know what items and categories you think I should add. \r\n\r\n----------------\r\n\r\n[b]INSTALLATION:[/b]\r\nDownload and extract the zip archive, then copy the ESP file to Skyrim/Data and enable it in your load order.\r\n----------------\r\n\r\nTo Do list:\r\n[list]\r\n[*] Use consistent naming scheme (e.g. \\'Ref: Book Name\\')\r\n[*] Interior cells (for the coc command)\r\n[*] Exterior cells\r\n[*] Followers/important NPCs\r\n[*] Enemies\r\n[*] Stage numbers for buggy quests\r\n[/list]\r\n\r\nChangelog:\r\n[list]\r\n[*]0.2 - add Main Book reference book, use \\\"note\\\" rather than \\\"book\\\" format for faster page turning, use handwritten font, and add zip file with HTML documents plus the ESP\r\n[/list]\r\n\r\n----------------\r\n\r\nIf you are interested in helping out with this project, just create a text file of your book and I\\'ll add it in the mod (with credit of course). If you need help with Github, look over the README.md file.",
+  "categoryId": "27",
+  "version": "0.2",
+  "author": "dbbolton",
+  "createdUnix": "1361476910",
+  "updatedUnix": "1362452479",
+  "containsAdultContent": false,
+  "uploadedBy": "dbbolton",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000011867",
+      "name": "Reference Books",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Reference Books-32137-0-1.zip",
+      "uploadedUnix": "1361476822",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/8cc46afe3ce8e53751676c15680dc485144f09a26ac7bc862e8e7f29f8a0bd35/analysis/1407431342/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Reference%20Books-32137-0-1.zip?fid=1000011867&ttl=1535808184&ri=8192&rs=8192&setec=f0e0c71dac0bd1bfb876454754631d8b"
+    },
+    {
+      "fileId": "1000015133",
+      "name": "Reference Books archive",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "111",
+      "fileName": "Reference Books archive-32137-0-2.zip",
+      "uploadedUnix": "1362452479",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/5291fe13ec9f24b8f5f4b2bedebc75414364268a2c96adeaec099c69fcfd7b5c/analysis/1407453334/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Reference%20Books%20archive-32137-0-2.zip?fid=1000015133&ttl=1535808184&ri=8192&rs=8192&setec=0c5d7cd8b1f30cc253d9becb3f9c54a8"
+    }
+  ]
+}

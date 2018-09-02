@@ -1,0 +1,32 @@
+{
+  "modId": 25795.0,
+  "modName": "Hearthfire Moving Family Bugfix",
+  "summary": "Fixes the problems involved with moving houses with Hearthfire installed.",
+  "descriptionHtml": "This fix is meant to help out with the problems involved in moving your family (with a spouse). \r\n\r\nWhen you get married or ask to move with your spouse, they should now correctly make for the house and set up there. This has (hopefully) addressed the problems with spouses staying in Breezehome, or not going into any home at all and acting as if they weren\\'t married. Originally, there was missing/incorrect end scripting for the dialogue tree stating your place of residence. For example, Lakeview Manor held the exact same scripting as Breezehome.\r\n\r\nYou can also ask the spouse how the children are. The conditions for this have been altered slightly due to bugs (at least on my side) with the NPC you talk to not being recognised by the ReferenceAlias \\'Spouse\\'. It instead runs off the condition that the NPC is set to the player\\'s lover. Should now appear properly.\r\n\r\nTo move your spouse, you simply say you\\'re moving (required with children that you have the right amount of Child\\'s Chests and Child\\'s Beds). If you notice them make their way out the front door, then SUCCESS! The child/children should move with the spouse as well, and will appear in the new home on your next visit there (they won\\'t leave with the Spouse through the front door).",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Machienzo",
+  "createdUnix": "1350788962",
+  "updatedUnix": "1350789052",
+  "containsAdultContent": false,
+  "uploadedBy": "Machienzo",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "94908",
+      "name": "Moving Family Fix - Main File",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "Moving Family Fix - Main File-25795-1-0.zip",
+      "uploadedUnix": "1350789052",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3a9b575cef0974c98aa4b512d23a1520ca4fec9aa97daaad3a4e8a1d44add6b0/analysis/1407230484/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Moving%20Family%20Fix%20-%20Main%20File-25795-1-0.zip?fid=94908&ttl=1535797492&ri=8192&rs=8192&setec=dc15d45d7f080eca7fdffb1e8c303033"
+    }
+  ]
+}

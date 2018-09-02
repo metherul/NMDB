@@ -1,0 +1,32 @@
+{
+  "modId": 20642.0,
+  "modName": "Light Meter",
+  "summary": "Adds a toggled ability that indicates the player\\\\\\\\\\\\\\'s current illumination with a visual effect. While active, the player\\\\\\\\\\\\\\'s vision brightens and shades blue when in darker areas, allowing the player to easily identify how well NPCs can see them (even in first person mode). ",
+  "descriptionHtml": "[youtube]ulGUvYhS__k[/youtube]\r\n\r\nSkyrim Mod Spotlight:\r\n[youtube]NerlX3dmhU0[/youtube]\r\n\r\nDetails\r\n=======\r\nAdds a toggled ability that indicates the player\\\\\\\\\\\\\\'s current illumination with a visual effect. While active, the player\\\\\\\\\\\\\\'s vision brightens and shades blue when in darker areas, allowing the player to easily identify how well NPCs can see them (even in first person mode). \r\n\r\n\r\nBugs\r\n=======\r\nOccasionally the visual effect remains after toggling the ability off, Renabling and disabling usually fixes this.\r\n\r\n\r\nHow to Acquire In Game\r\n=======================\r\nA spell tome for the ability is available at most cities general stores, specifically:\r\n\t- Gray Pine Goods, Falkreath\r\n\t- Arnleif And Sons, Markarth\r\n\t- Pawned Prawn, Riften\r\n\t- Riverwood Trader, Riverwood\r\n\t- Bits and Pieces, Solitude\r\n\t- Belelthors Goods, Whiterun\r\n\t- Sadris Used Wares, Windhelm\r\n- To ensure the vendor carries the tome, visit one of the vendors above, leave the current area, wait 24 hours and return.\r\n- If you\\\\\\\\\\\\\\'d rather just use the console, use the following command:\r\nplayer.addspell XX07ef7b\r\nWhere XX is the number this mod appears in your load order (you can also use the command \\\\\\\\\\\\\\'help \\\\\\\\\\\\\\\"Light Meter\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\' to get the full id).\r\n\r\n\r\nInstall\r\n=======\r\n1. Extract the files to a temporary location.\r\n2. Examine the folder structure and make corrections where necessary.\r\n3. Copy files to (install folder)\\\\\\\\\\\\\\\\Skyrim\\\\\\\\\\\\\\\\Data\\\\\\\\\\\\\\\\\r\n4. Start Skyrim Launcher, click \\\\\\\\\\\\\\'Data Files\\\\\\\\\\\\\\', place a checkmark beside the .esp file.\r\n\r\nAlternatively, use the Skyrim Nexus Mod Manager, or Steam workshop (http://steamcommunity.com/sharedfiles/filedetails/?id=82895728).\r\n\r\n\r\nUninstall\r\n=========\r\n1. Start Skyrim Launcher, click Data Files, uncheck the .esp file(s).\r\n2. Delete the files/folders associated with the mod.\r\nSkyrim/Data/LightMeter.esp\r\nSkyrim/Data/Scripts/TTT_LightMeterEffectScript.pex\r\nSkyrim/Data/Scripts/AddToVendorAliasScript.pex\r\n\r\n\r\nHistory\r\n=======\r\n1.0, 2012/7/16 - First Commit\r\n\r\n\r\nCredits\r\n=======\r\nThanks to Bethesda for creating Skyrim.\r\nThanks to TESNexus.com for the a one-stop-shop resource for authors and players.\r\nThanks to LHammonds for the Readme Generator this file was based on.\r\n\r\nTools Used\r\n==========\r\nReadme Generator - http://HammondsLegacy.com/obmm/tools_readme_generator1.asp\r\nSkyrim Creation Kit - http://www.creationkit.com",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "angryegret",
+  "createdUnix": "1342499900",
+  "updatedUnix": "1342499938",
+  "containsAdultContent": false,
+  "uploadedBy": "angryegret",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "74840",
+      "name": "LightMeter_1_0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "LightMeter_1_0-20642-1-0.rar",
+      "uploadedUnix": "1342499938",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/32280b7dc929e5d0cf752f9272854f9d180cbb4612ff9c6ff03d18cb40c50ca6/analysis/1407027783/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LightMeter_1_0-20642-1-0.rar?fid=74840&ttl=1535788914&ri=8192&rs=8192&setec=bc3a67f0b1652485edb2cb5695eb0750"
+    }
+  ]
+}

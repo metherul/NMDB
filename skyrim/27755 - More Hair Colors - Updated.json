@@ -1,0 +1,48 @@
+{
+  "modId": 27755.0,
+  "modName": "More Hair Colors - Updated",
+  "summary": "Updates [url=14713]More Hair Colors[/url] by Evil4Zerggin to be compatible with the newest version of Skyrim.",
+  "descriptionHtml": "[b][u][size=4]Description:[/size][/u][/b]\r<br />Updates [url=14713]More Hair Colors[/url] by Evil4Zerggin to be compatible with the newest version of Skyrim. This fixes the issues with vampires and horse combat associated with r5. I also resorted the FormIDs of the colors to be displayed in order by hue then saturation. Additionally, a lot of the changes contained herein are made to be compatible with the Unofficial Patches.\r<br />\r<br />&#34;Adds 42 natural and 20 dyed hair colors to the game. Will probably not work with other race modification mods, even those that don&#39;t affect hair color.\r<br />\r<br />The natural colors come in 7 hues: 2 reddish, 3 blondish, and 2 brownish. Each hue has 6 brightnesses. The dyed colors are red, yellow, green, teal, blue, and magenta; each of these has 3 brightnesses. There are also a white and black.&#34;\r<br />\r<br />Example (credit: droarc):\r<br />[img]http://static.skyrim.nexusmods.com/downloads/images/14713-1-1333933741.png[/img]\r<br />\r<br />[b][u][size=4]Installation:[/size][/u][/b]\r<br />You do not need the original to use this update.\r<br />There are two versions, one for the vanilla game and one that is compatible with Dawnguard, make sure you get the right version.\r<br />\r<br />Manual Installation:\r<br />Extract the plugin from the download into your &#92;Skyrim&#92;Data&#92; directory and activate it.\r<br />\r<br />[color=#FFFF00]Due to the change in FormIDs this file may not be compatible with character saves that used the previous versions.\r<br />I recommend the following procedure for anyone moving from the old version to the new version who wants to (hopefully) avoid problems from the aforementioned FormID change:\r<br />1. Grab [url=20394]ShowRaceMenu Alternative[/url] and use it to change to one of the vanilla hair colors (they&#39;re all the way on the left).\r<br />2. Save and exit Skyrim.\r<br />3. Deactivate the old mod and then open [url=1840]Wrye Bash[/url] (or deactivate it in Bash, whatever).\r<br />4. On the Saves tab of Bash, click on the save you just made and then right click in the bottom right pane. Select &#34;Yes&#34; to the popup warning. Unselect the old plugin and choose to save (make sure you make a backup if it asks, if it doesn&#39;t ask it will make one on it&#39;s own).\r<br />5. Activate the new plugin.\r<br />6. Use ShowRaceMenu Alternative again to choose your hair color.[/color]\r<br />\r<br />[b][u][size=4]F.A.Q./Comaptibility:[/size][/u][/b]\r<br />Q: What is this mod compatible with?\r<br />A: This mod is compatible with any other mod that does not change the default races. ECE and any version of RaceMenu grant all the functionality of this mod only without having these specific colors as presets. You may be able to force this mod to be low in your load order to get these preset colors but it&#39;s very possible that doing so could remove preset options added by other mods or overwrite changes other mods make to the default races.\r<br />\r<br />Q: Why use this mod over alternatives that offer more options?\r<br />A: Adding a large number of hair colors and tint masks to the game greatly increases load stutter. If you&#39;re using a mod that does this already, and you have noticeable load stutter when actors pop in to view, either try installing a version of said mod with less options or try out this mod.\r<br />\r<br />[b][u][size=4]Credits:[/size][/u][/b]\r<br />All credit goes to Evil4Zerggin.\r<br />Also, all the people behind the Unofficial Patches and the TES5Edit team.\r<br />Apachii for the hairstyle used in the title image.",
+  "categoryId": "62",
+  "version": "r7",
+  "author": "Evil4Zerggin",
+  "createdUnix": "1354525680",
+  "updatedUnix": "1354544401",
+  "containsAdultContent": false,
+  "uploadedBy": "MShoap13",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "102950",
+      "name": "More Hair Colors Updated",
+      "version": "r6",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "26",
+      "fileName": "More Hair Colors Updated-27755-r6.7z",
+      "uploadedUnix": "1354525780",
+      "modVersion": "r6",
+      "virusScanUrl": "https://www.virustotal.com/file/2a9c14ba5c6b4c13b92e4b3b58257ecab0446a51ca47ae2b31522cd60f123e00/analysis/1407289744/",
+      "changelogHtml": " Initial Update; Added support for the newest version of the game and Dawnguard. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/More%20Hair%20Colors%20Updated-27755-r6.7z?fid=102950&ttl=1535800687&ri=8192&rs=8192&setec=1b09f3be0c47ed49fa357d889bede8c5"
+    },
+    {
+      "fileId": "102994",
+      "name": "More Hair Colors Updated for Dawnguard",
+      "version": "r7",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "27",
+      "fileName": "More Hair Colors Updated for Dawnguard-27755-r7.7z",
+      "uploadedUnix": "1354544401",
+      "modVersion": "r7",
+      "virusScanUrl": "https://www.virustotal.com/file/c180e70ecbdbebe93064d043abdf15dfbde533eca61faaa299fd1face39af37c/analysis/1407289983/",
+      "changelogHtml": " Fixed an issue (in the Dawnguard file) causing one of the Hair Colors from the original mod to be unavailable. This did not affect the vanilla file. <br/> \n Added the \"Albino White\" Hair color from Dawnguard to all races in the Dawnguard file. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/More%20Hair%20Colors%20Updated%20for%20Dawnguard-27755-r7.7z?fid=102994&ttl=1535800687&ri=8192&rs=8192&setec=1afa546bd482eb6a692d2b0206611e97"
+    }
+  ]
+}

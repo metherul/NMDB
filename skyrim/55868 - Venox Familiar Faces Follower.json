@@ -1,0 +1,48 @@
+{
+  "modId": 55868.0,
+  "modName": "Venox Familiar Faces Follower",
+  "summary": "",
+  "descriptionHtml": "Welcome to my mod and have fun playing besides him&#33;\r<br />\r<br />This basically is my Character from my first playthrough and can now be used as a follower which is created by Familiar Faces. He is Level 98, nearly got all maxed stats, nearly all spells and all shouts.\r<br />I created this mod with the help of Familiar Faces http://www.nexusmods.com/skyrim/mods/54509 and JContainers - data storage framework http://www.nexusmods.com/skyrim/mods/49743\r<br />First of all you start with installing the required mods you&#39;ll end up with a Portal Stone in your inventory. You simply go to the Familiar Faces MCM and open the Shrine of Heroes tab. On the right side there is something called &#34;Inactive Alcoves&#34; and some empty alcoves. Just chose some random alcove and select my Character and you&#39;re ready to summon him&#33; But before you do so go to the Character Setup in the MCM of Familiar Faces and locate the spawn of my Character for personal taste. Now activate the Portal Stone by using it in your inventory and you get teleported to the hall where all your characters are located. Open the book which is infront of my Character and select &#34;Open the Book&#34; and he spawned in the location you slected&#33;\r<br />\r<br />\r<br />[b]Requirements: [/b]\r<br />\r<br />DLC Dawnguard\r<br />\r<br />DLC Dragonborn\r<br />\r<br />SKSE 1.7.1 http://skse.silverlock.org/\r<br />\r<br />Familiar Faces 1.0.5 - http://www.nexusmods.com/skyrim/mods/54509\r<br />\r<br />JContainers - data storage framework 0.67.4 - http://www.nexusmods.com/skyrim/mods/49743\r<br />\r<br />RaceMenu 2.8.3 - http://www.nexusmods.com/skyrim/mods/29624\r<br />\r<br />Realistic Teeth 1.31 - http://www.nexusmods.com/skyrim/mods/33117\r<br />\r<br />DVA Dynamic Vampire Appearance 1.1 - http://www.nexusmods.com/skyrim/mods/41634\r<br />\r<br />\r<br />\r<br />[b]Recommended:[/b]\r<br />\r<br />BETTER VAMPIRES - Bessere Vampire - German Version Version 6.5&#33; (english might work too&#33;) - http://www.nexusmods.com/skyrim/mods/25467\r<br />\r<br />Dynamis 2h Sword from DCR - Blade Set 1.1d - http://www.nexusmods.com/skyrim/mods/5284\r<br />(required for having the weapon equiped but not required for the Character itself)\r<br />\r<br />Armor Of Intrigue 1.0.0 without any patch or update - http://www.nexusmods.com/skyrim/mods/36875 (required for having the armor equiped but not required for the Character itself)\r<br />\r<br />Black Sacrement Stachel from Arise - Chapter 1 - The Black Sacrament 4.1 - http://www.nexusmods.com/skyrim/mods/5696 (required for having the armor equiped but not required for the Character itself)\r<br />\r<br />Wearable Lanterns - GERMAN (english might work too) 3.0b.0001 - http://www.nexusmods.com/skyrim/mods/49225 (required for having the lamp equiped but not required for the Character itself)\r<br />\r<br />BVFE - Better Vampire Fangs and Eyes edition - http://www.nexusmods.com/skyrim/mods/38829\r<br />(required for having the eye texture but not required for the Character itself)\r<br />\r<br />\r<br />\r<br />[b]Installation:[/b]\r<br />\r<br />Simply install this via NMM or manual there should be no issue at all.\r<br />\r<br />There should be no issues whatsoever with installing the mods in any order except BVFE - Better Vampire Fangs and Eyes edition and Realistic Teeth. Make sure you install BVFE BEFORE Realistic Teeth so Realistic Teeth overwrites BFVE&#33; This is important due FaceGen export of my Character which uses the Realistic Teeth. If there are indeed some issues post the issue in the comments and I will have a look&#33;\r<br />\r<br />\r<br />[b]Uninstall:[/b] \r<br />\r<br />Simply teleport to the hall, go to the book and activate it and select &#34;Destroy the book&#34;. This should eleminate the Character from the list and you can save your game. BUT there are some files that don&#39;t get deleted. For the total delete go to this paths:\r<br />\r<br />Steam -&gt; SteamApps -&gt; common -&gt; Skyrim -&gt; Data -&gt; vMYC Venox.json\r<br />\r<br />Steam -&gt; SteamApps -&gt; common -&gt; Skyrim -&gt; Data -&gt; skse -&gt;plugins -&gt; CharGen -&gt; Exported Venox.slot\r<br />\r<br />Steam -&gt; SteamApps -&gt; common -&gt; Skyrim -&gt; Data -&gt; Textures -&gt; CharGen -&gt; Exported Venox.dds\r<br />\r<br />\r<br />[b]Changes:\r<br />[/b]\r<br />Version 0.2: Simply Changed the name to Venox Familiar Faces Follower which fits it more likely.",
+  "categoryId": "96",
+  "version": "0.2",
+  "author": "VenoXj1",
+  "createdUnix": "1405087358",
+  "updatedUnix": "1405099600",
+  "containsAdultContent": false,
+  "uploadedBy": "VenoXj1",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000117015",
+      "name": "Venox Character 0.1",
+      "version": "0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "33",
+      "fileName": "Venox Character 0.1-55868-0-1.rar",
+      "uploadedUnix": "1405087355",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/e34c501607525b295267bad2bd2873bcbeb212133728a0dafe1f6ad7f28b31b8/analysis/1405087385/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Venox%20Character%200.1-55868-0-1.rar?fid=1000117015&ttl=1535840874&ri=8192&rs=8192&setec=7f9aa523a4aa3f6aac5561328fcdd2ba"
+    },
+    {
+      "fileId": "1000117032",
+      "name": "Venox Follower 0.2",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "33",
+      "fileName": "Venox Follower 0.2-55868-0-2.rar",
+      "uploadedUnix": "1405099600",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/e34c501607525b295267bad2bd2873bcbeb212133728a0dafe1f6ad7f28b31b8/analysis/1405099625/",
+      "changelogHtml": " Just renamed it to fit the actual mod better <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Venox%20Follower%200.2-55868-0-2.rar?fid=1000117032&ttl=1535840875&ri=8192&rs=8192&setec=94a81c326f7e36e080b83a2d823a8272"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 29285.0,
+  "modName": "Kryptek ENB",
+  "summary": "My first ever mod let alone ENB so go easy. adds a stronger fantasy vibe with more contrasts in colours. hope you enjoy. Always adding more images. Remember to add your own images please. And remember to endorse if you like it. :D",
+  "descriptionHtml": "[img]http://img3.fotos-hochladen.net/uploads/untitled1hfcz9ksdmx.png[/img]\r\n\r\nThis is my first ever mod called Krytpek ENB. Endorse if you like it. :D\r\n\r\n[color=red]To make this work download [url=http://enbdev.com/mod_tesskyrim_v121212.htm]http://enbdev.com/mod_tesskyrim_v121212.htm[/url] the folder from here. just click the down arrow and place it in the skyrim directory where TESV.exe is located. And just if you were wondering I am using the wrapper version.[/color] \r\n\r\nOne More Thing. If you press shift + F12 during game-play you can turn on and off the enb and see the differences for your self. \r\n\r\n[img]http://img3.fotos-hochladen.net/uploads/kryptekenb2rj6khyv153o.jpg[/img]\r\n\r\n[center][color=blue]DESCRIPTION[/color][/center] \r\n\r\n2.0\r\nNew features include much better performance and higher quality SSAO and indirect illumination as well as overall tweaks and refinements to the visual settings. I\\'ve also included SweetFX as a proxy library in place of SMAA. In addition to providing high performance SMAA I\\'m using SweetFX to add additional sharpening and refinement to the visuals. \r\n\r\n1.0\r\nThis ENB preset attempts to enhance Skyrim’s original ambience and visuals by producing a more varied colour palette and enhanced post processing features. This ENB contains two modes, Quality and Performance. Both modes look similar with the Quality mode containing more modern post processing techniques such as Depth of Field, Bokeh DOF and Ambient Occlusion.\r\n\r\n[center][color=green]Setup[/color][/center]\r\nIt’s recommend to disable Anti Aliasing (AA) and Anisotropic Filtering from Skyrim’s graphical options. This will provide the most performance with minor graphical loss.\r\n\r\nNvidia Users should force FXAA for Skyrim through the graphic card control panel or through NvidiaInspector. This will provide a big boost to quality with minimal performance loss. \r\n\r\n[center][color=red]Setting up Skyrimprefs.ini[/color][/center]\r\nGoto your SkyrimPrefs.ini file (typically found in C:/users/(computers name)/mydocuments/mygames/Skyrim/)\r\n\r\nFind and alter the following lines to read.\r\n\r\n[Imagespace]\r\nbDoDepthOfField= 0\r\n\r\nbFloatPointRenderTarget=1 \r\nbTreesReceiveShadows=1\r\nbDrawLandShadows=1\r\nbShadowsOnGrass=1\r\n\r\n[center][color=#DB7900]Installation[/color][/center]\r\nOpen the Kryptek.Rar file. Open the folder of your choice (vignette or no vignette) and extract all the files to your Skyrim folder (ie c:/programfiles/steam/steamapps/common/Skyrim/).\r\n\r\n[center][color=purple]Features[/color][/center]\r\nKryptek is an ENB configuration that aims to bring a more stylized, fantastic, and beautiful look to the land of Skyrim. It\\'s the evolution of the configuration that I\\'ve used for the last few months and is designed pretty specifically to my personal tastes, but a while ago i decided to upload it to skyrim nexus. hope you like it :D\r\n\r\n\r\n\r\n[center][color=blue]Recommended mods for this ENB preset[/color][/center]\r\n\r\n[url=http://skyrim.nexusmods.com/mods/4910]Dramatic coulds[/url]\r\nYou get pretty dramatic clouds for free with this config, but Dramatic Clouds turns them to 11.\r\n\r\n[url=http://skyrim.nexusmods.com/mods/6178]Inside the nebula[/url]\r\nWith this you will get some amazing night skies in skyrim. perfect for screenshots. I only recently started using this and its amazing.\r\n\r\n[url=http://skyrim.nexusmods.com/mods/836]Realistic smoke and embers[/url]\r\nLooks perfect with this enb configuraton plus it adds the HQ texture to them for stunning flames and campfires. \r\n\r\n[center][color=black]F.A.Q\\'s[/color][/center] \r\nNote: I\\'ll be updating this section as I go along. Right now I just want to cover some of the known issues with this config and ENB settings in general, and try to answer questions that other config authors seem to spend a massive amount of time answering.\r\n\r\nAs with all ENB files you must make sure that you have bFloatPointRenderTarget set to 1 in your SkyrimPrefs.ini. If everything looks really dark in your game regardless of time of day or location, that\\'s probably the problem. Make sure you are editing the SkyrimPrefs.ini file that lives in My Documents/My Games/Skyrim - the same location as your saved games by default. There is also a copy of this file in the main Skyrim directory but editing it does nothing.\r\nGame crashing on startup? Almost every crash has come down to users also using overclocking or overlay apps like MSI Afterburner, EVGA Precision, algoboost, etc. Make sure none of this type of app is running if you experience crashes when Skyrim is launching.\r\nIf the crash persists or you aren\\'t running this sort of software, try using the injector version of the ENB binary instead of the wrapper version.\r\nA couple of people have even had problems using the SMAA . To disable it open the enbseries.ini file and change the following line to false:\r\nEnableProxyLibrary=true\r\n\r\n[center]What version of ENB does this preset use?[/center] \r\n\r\nv0.131.\r\n\r\nCredits\r\nENBSeries effect file \r\nvisit http://enbdev.com for updates \r\nCopyright (c) 2007-2011 Boris Vorontsov",
+  "categoryId": "62",
+  "version": "2.0",
+  "author": "sshep58",
+  "createdUnix": "1357121914",
+  "updatedUnix": "1358227345",
+  "containsAdultContent": false,
+  "uploadedBy": "sshep58",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000002469",
+      "name": "Kryptek ENB NEW",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "446",
+      "fileName": "Kryptek ENB NEW-29285-2-0.rar",
+      "uploadedUnix": "1358227345",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8921bb8d621295fbe115b26380b785f5a9d9adc4505bd87ab2db9bb7696ca012/analysis/1407354089/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Kryptek%20ENB%20NEW-29285-2-0.rar?fid=1000002469&ttl=1535803253&ri=8192&rs=8192&setec=9c322eddffb9306ae5a2ff24b011d435"
+    }
+  ]
+}

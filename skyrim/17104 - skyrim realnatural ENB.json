@@ -1,0 +1,32 @@
+{
+  "modId": 17104.0,
+  "modName": "skyrim realnatural ENB",
+  "summary": "aiming to produce the most realistic/natural looking ENB config currently available",
+  "descriptionHtml": "For a long time now i\\'ve seen people touting \\\"realistic\\\", \\\"natural\\\" enb settings that look far more cinematic than would otherwise be suggested, much too high contrast or really overdone processing settings, often relying more on the DOF to achieve \\\"realism\\\" than what\\'s actually important. My aim is to avoid that and cut right to the chase, a naturally vibrant, realistic looking ENB config (in combination with the Realistic Lighting mod) that delivers in terms of performance as well as visuals. So far, i\\'ve made a fair bit of progress, so i\\'m releasing what i\\'ve done so far as a means to show what the game is actually capable of, but there\\'s a lot of work yet to be done\r\n\r\nSo obviously the screenshots will show what\\'s already been accomplished, but I still need to make a lot of alterations to some specific things, mostly to do with the day/night transition as sunrises and sunsets look pretty bad at the moment, but also different weather conditions need to be worked on\r\n\r\nUnfortunately, Boris Vorontsov, the creator of ENB Series does not allow his latest binaries to be uploaded externally, so instead i\\'ll only share my config and link to the latest ENB download\r\n\r\nhttp://enbdev.com/enbseries_skyrim_v0111kage.zip\r\n\r\nInstallation:\r\nInstall the above linked ENB series by extracting the wrapper, or injector (your preference, I suggest wrapper) version to your skyrim root folder\r\n\r\nThen extract realnatural.zip to your skyrim root folder, overwriting all the files (enbseries.ini, enbeffect.fx, eneffectprepass.fx, enbpalette.bmp and the realistic lighting esp/config file in the data folder)\r\n\r\nIn game, i\\'d suggest setting your brightness to slightly below half to avoid a washed out, hazy look. IMPORTANT: It will not look good in all situations as of now, I\\'d suggest venturing out into the forests while it\\'s sunny for the most appealing visuals, any other sort of weather still has not been tweaked. Indoors and night are currently OK but still need tweaking, auroras look terrible as of now\r\n\r\nAlso, thank you to Plutoman101 for this awesome mod: http://skyrim.nexusmods.com/downloads/file.php?id=7654",
+  "categoryId": "62",
+  "version": "0.7a",
+  "author": "Inzal",
+  "createdUnix": "1337092113",
+  "updatedUnix": "1337092181",
+  "containsAdultContent": false,
+  "uploadedBy": "Inzal",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "61468",
+      "name": "Real Natural",
+      "version": "0.7a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1312",
+      "fileName": "Real Natural-17104-0-7a.zip",
+      "uploadedUnix": "1337092181",
+      "modVersion": "0.7a",
+      "virusScanUrl": "https://www.virustotal.com/file/4062f8b7442c077fd501ae79a34ac742089627d5cefc6502b74ccb76e1e2c652/analysis/1406894108/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Real%20Natural-17104-0-7a.zip?fid=61468&ttl=1535782972&ri=8192&rs=8192&setec=3f5a747b4fffb91c036e5222ef5e1973"
+    }
+  ]
+}

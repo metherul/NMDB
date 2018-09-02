@@ -1,0 +1,32 @@
+{
+  "modId": 64357.0,
+  "modName": "ENB Corrective Flame Atronach",
+  "summary": "Makes atronachs properly flamey looking with most ENB setups",
+  "descriptionHtml": "Flame atronachs.  Your first serious Conjuration summon.  You summon it up, and... it looks awful&#33;  Too dark, its &#34;flames&#34; look way too deep red-orange.  That doesn&#39;t look like flame&#33;  After fiddling, you discover that Your ENB setup is doing it, and nothing short of shutting off major components of ENB can correct it.  It doesn&#39;t even seem to respond properly to the fire settings in the ENBSeries INI.\r<br />\r<br />Enter me, one rather well-versed in NIFSkope surgery.  I noticed that the flame trail that Madame de Flambedaedra leaves in her wake is not so affected.  After poking at the two NIFs, I discovered that it was a shader flag lacking in the main flame atro mesh that was present in the flame trail: SLSF1_Soft_Effect.  After setting all pertinent bits on the main flame atro body mesh to have that shader flag, presto&#33;\r<br />\r<br />Sharing for all of you who are partial to siccing daedra against your foes and also have an ENB setup.\r<br />\r<br />Special thanks to Boris Vorontsov for ENBSeries, and for Jonwd7 for his recently revealed massive in-progress overhaul of NIFSkope (I call it &#34;Super-NIFSkope&#34;, it&#39;s that big a deal), to which you can get a piece of from here: [url=https://github.com/jonwd7/nifskope/releases]https://github.com/jonwd7/nifskope/releases[/url]",
+  "categoryId": "95",
+  "version": "1",
+  "author": "MadCat221",
+  "createdUnix": "1428034481",
+  "updatedUnix": "1428034476",
+  "containsAdultContent": false,
+  "uploadedBy": "Madcat221",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000154028",
+      "name": "ENB Fixed Flame Atro",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "275",
+      "fileName": "ENB Fixed Flame Atro-64357-1.7z",
+      "uploadedUnix": "1428034476",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/ac85da2e6808a94a29c938b498a56b3c5b6c6f97f296b8cc72f73739191a41a2/analysis/1428034503/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENB%20Fixed%20Flame%20Atro-64357-1.7z?fid=1000154028&ttl=1535853013&ri=8192&rs=8192&setec=5a8925a5c596819de069afb36a3e3b8e"
+    }
+  ]
+}

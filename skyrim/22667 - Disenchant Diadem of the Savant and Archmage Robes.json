@@ -1,0 +1,48 @@
+{
+  "modId": 22667.0,
+  "modName": "Disenchant Diadem of the Savant and Archmage Robes",
+  "summary": "This mod allows for disenchanting of the Diadem of the Savant, the Archmage Robes, and the Saarthal Amulet.  The vanilla item stats are otherwise unchanged.",
+  "descriptionHtml": "Diadem of the Savant & Archmage Robe (DotSAMRobe) disenchant by Weltnoir\r\n\r\nThis is my first attempt at a mod, I tried to create something not too OP; but as anything else, that is dependant on use. There are likely several enchant unlock mods out there that also cover these two items; but hey, you have to start somewhere.\r\n\r\nThis mod allows for the vanilla Diadem of the Savant and Archmage Robe to be disenchanted. I tried to keep the original items untouched other than the disenchant. The enchants gained through disenchant have been tweaked to be slighly less game breaking; specifically the Archmage enchant has been toned down for use on multiple inventory items.\r\n \r\nThe \\\"new\\\" enchants are Scholastic Mastery (Diadem) and Skein of Magnus (Archmage Robes).\r\n \r\nBase on a Vanilla stat of 100 Enchanting and the associated perks, disregarding alchemy/potion bonus, each each enchant grants 5 to 64 Magicka fortification. The high magicka gain can be balance breaking;so, the user/player can chose how small or large a magicka pool that want.\r\n \r\nThe enchants have the following additional and static affect(s) per item application:\r\n \r\n\\\"Scholastic Mastery\\\" grants +5% for each school of magic (alteration/Conjuration/detruction/etc.)\r\n \r\nRestricted application to Jewelry, Hands, and Head items.\r\n \r\n\\\"Skein of Magnus\\\" grants +5% for each school of magic and +10% magicka regeneration.\r\n \r\nRestricted application to Jewelry, Chest, and Foot items.\r\n \r\nGiven enough equipment mods, it is possible to get each school of magic\\'s magicka cost down 100%.\r\n \r\nFor example, in addition to wearing vanilla gear slot items, wearing Seadog Earrings and Eye Patch from Hothtrooper44\\'s Immersive Armors, wearing a cloak from Nikinoodles\\' Cloaks of Skyrim, wearing both hood/helm and a circlet using rpbraley868\\'s Helms and Circlets, and having the extra enchant perk (100 skill) should be enough to create a set of gear, that should be enough to max out magicka cost for all schools. Not to mention the potential for over +900 magicka when enchanting a complete set with grand/black souls.\r\n \r\nv0.91\r\n \r\nAdded the ability to disenchant the Saarthal Amulet. This allows the player to gain the Power of Saarthal enchant.\r\n \r\nUtilized the Saarthal Amulet\\'s \\\"Spells cost <mag>% less to cast.\\\" for all three enchants. This consolidates the description of the enchants when applied to gear. Previously, each school and its percentage was displayed...it got messy very quickly.  It isn\\'t retroactive, so you will have to recraft and reenchant to see the change.\r\n \r\nThe scaling magicka gain from Scholastic Mastery has been removed.\r\n \r\nIf I can figure it out, I\\'ll eventually try to mod this to allow for scaling percent based on soulgem type.",
+  "categoryId": "75",
+  "version": "0.9.1",
+  "author": "Weltnoir",
+  "createdUnix": "1345338821",
+  "updatedUnix": "1359243251",
+  "containsAdultContent": false,
+  "uploadedBy": "weltnoir",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "82614",
+      "name": "DotSAMRobe_0-9",
+      "version": "0.9",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1472",
+      "fileName": "DotSAMRobe_0-9-22667-0-9.7z",
+      "uploadedUnix": "1345339013",
+      "modVersion": "0.9",
+      "virusScanUrl": "https://www.virustotal.com/file/44e9e742e50169449add905b4f4dd7b68ede08d13654559014f38a4a291dbc13/analysis/1407106453/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DotSAMRobe_0-9-22667-0-9.7z?fid=82614&ttl=1535792365&ri=8192&rs=8192&setec=fa92e0b3385cb74a62890c5a854813f2"
+    },
+    {
+      "fileId": "1000005076",
+      "name": "DotSAMRobe_0-9_1",
+      "version": "0.9.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "DotSAMRobe_0-9_1-22667-0-9-1.7z",
+      "uploadedUnix": "1359243251",
+      "modVersion": "0.9.1",
+      "virusScanUrl": "https://www.virustotal.com/file/3ded687accb8feea77f8b75307b8935025cb7b678a5baf28a4f5a8d19a25c95e/analysis/1407380775/",
+      "changelogHtml": " Made Saarthal Amulet Disenchantable  <br/> \n Consolidated Magicka School Percent in Description <br/> \n Removed Fortify Magicka from Scholastic Mastery <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DotSAMRobe_0-9_1-22667-0-9-1.7z?fid=1000005076&ttl=1535792366&ri=8192&rs=8192&setec=49538ec896e948025e85e6c1e38f3044"
+    }
+  ]
+}

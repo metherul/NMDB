@@ -1,0 +1,32 @@
+{
+  "modId": 51183.0,
+  "modName": "Default_Saturation",
+  "summary": "How I fixed my mod saturation problem. Some modes are great but I wish a few would not change Skyrims defaults. This is a document on how you can fix it like I fixed mine.",
+  "descriptionHtml": "How I fixed my mod saturation problem. Some modes are great but I wish a few would \r<br />not change Skyrims defaults. This is a document on how you can fix it like I fixed \r<br />mine.\r<br />\r<br />Because some modes play with the saturations and colors of Skyrim this will restore \r<br />it back.\r<br />===========================================================\r<br />How to restore Skyrims default saturation into a mode.\r<br />\r<br />1. Copy Skyrim.esm from your data folder to another folder thats safe to work on. \r<br />NOTE: Make sure its a copy and not a move.\r<br />\r<br />2. Rename the Skyrim.esm to Skyrim.esp. \r<br />NOTE: You must be able to see file extensions to do this part.\r<br />\r<br />3. Download TESVSnip from their web site. \r<br />https://code.google.com/p/tesv-snip/downloads/list\r<br />NOTE: This link was good last time I checked. \r<br />(updated link but if broken a web search should find it.)\r<br />\r<br />4. Run TESVSnip after uncompressing and load the Skyrim.esp file.\r<br />NOTE: It will take a while to load so be patient.\r<br />\r<br />5. Open the plus next to the Skyrim.esp and several groups will show.\r<br />\r<br />6. The group we want to save is the IMGS group since it has all the default \r<br />saturation and other color settings.\r<br />\r<br />7, Delete all other groups but the IMGS group. \r<br />NOTE: Select and delete key removes them after comfirmation.\r<br />\r<br />8. After deleting all but the IMGS group you can now save file as \r<br />\r<br />Default_Saturation.esp or whatever is easy for you to remember.\r<br />NOTE: Do not use the &#39;save&#39; ... rename the file to be safe.\r<br />\r<br />9, Copy back into the Skyrim data folder the file you created. Run Skyrim. To use make sure this file is \r<br />last in your load order list.\r<br />\r<br />\r<br />Saturation and color is back to skyrim normal. \r<br />\r<br />You can do this for other parts of Skyrim to restore defaults.",
+  "categoryId": "24",
+  "version": "",
+  "author": "cteakell",
+  "createdUnix": "1392589393",
+  "updatedUnix": "1392596233",
+  "containsAdultContent": false,
+  "uploadedBy": "cteakell",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000097400",
+      "name": "mod saturation problem",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "mod saturation problem-51183-.zip",
+      "uploadedUnix": "1392596233",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/3f813ebc18ef3d1183d6db68866727be82c38a11d4b33b66094b2b978f918dc6/analysis/1407936842/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/mod%20saturation%20problem-51183-.zip?fid=1000097400&ttl=1535833372&ri=8192&rs=8192&setec=9039565885ceca1e88f87f6191e7884c"
+    }
+  ]
+}

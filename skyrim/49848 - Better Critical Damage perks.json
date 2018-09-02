@@ -1,0 +1,48 @@
+{
+  "modId": 49848.0,
+  "modName": "Better Critical Damage perks",
+  "summary": "Modifies Bladesman, Deep Wounds, Critical Shot, Critical Charge & Great Critical Charge perks to increase the bonus critical damage to make these perks worthwhile at higher levels or harder difficulties.",
+  "descriptionHtml": "***Version 1.1***\r<br />\r<br />I made an update to my original mod after playing it a few days. I&#39;ve decided to reduce the multipliers a bit as I feel they&#39;re a bit stronger than I intended due to funny math by Skyrim. They&#39;re still very useful now, but shouldn&#39;t result in quite such drastic damage boosts with top end weapons.\r<br />\r<br />Changes: \r<br />\r<br />1H & 2H multipliers are now 3x / 4x / 5x  for each perk rank\r<br />Bow multipliers are now 4x / 6x / 8x for each perk rank\r<br />\r<br />Use either 1.0 or 1.1, NOT both.\r<br />\r<br />***\r<br />\r<br />This is a perk modification only version of my mod that increased base critical damage of weapons. This version only modifies perks rather than weapons (Thanks to TheThirdRace for the suggestion).\r<br />\r<br />Brief Explanation why this mod, I feel, is needed: I was tired of how useless perks like Bladesman and Critical shot are in the game. The way the game handles critical damage makes it useless beyond level 15 or so, and especially on Expert, Master or Legendary difficulty. In Skyrim, weapons have critical damage value that is added to your damage when you land a critical hit. This value is static and does not improve with weapon skill or improving the weapon through blacksmithing.\r<br />\r<br />For example, a Daedric bow has a critical damage value of 9. This means if you critically hit with the bow (with 1 rank in critical shot), you would only get 9 extra damage ... when your normal attack probally hit for 100+ due to skill level, blacksmithing etc. The damage increase on critical hits isn&#39;t really even perceptible.\r<br />\r<br />I wanted to make critical hit / damage perks useful and worth the perk investment, so I raised the damage multiplier of critical hit perks. This won&#39;t make you suddenly 1 shot enemies that originally need 8-10 hits to kill before, but it will add some extra damage that maybe lets you kill an enemy in 6-7 instead. \r<br />\r<br />What this mod does exactly:\r<br />\r<br />Damage multipliers on perks increased (nothing else, did NOT raise chance to critically hit, does not modify base weapon damage, only the bonus critical damage value a weapon inflicts).\r<br />\r<br />Bladesman Rank 1: Critical damage multiplier increased from *1 to *4\r<br />Bladesman Rank 2: Critical damage multiplier increased from *1.25 to *5\r<br />Bladesman Rank 3: Critical damage multiplier increased from *1.50 to *6\r<br />\r<br />Deep Wounds Rank 1: Critical damage multiplier increased from *1 to *4\r<br />Deep Wounds Rank 2: Critical damage multiplier increased from *1.25 to *5\r<br />Deep Wounds Rank 3: Critical damage multiplier increased from *1.50 to *6\r<br />\r<br />Critical Charge & Great Critical Charge: Critical damage multiplier increased from *2 to *4 (non swords now get a semi-meaningful critical damage boost from these perks, while 1h & 2H swords will inflict considerable critical damage when performing critical charges if Bladesman and / or Deep Wounds are maxed out. I.e. a steel 1h sword&#39;s bonus critical damage would go from 4, to 24 with 3 ranks in Bladesman. Or 96 bonus damage with critical damage during a critical charge attack).\r<br />\r<br />Critical Shot Rank 1: Critical damage multiplier increased from *1 to *6\r<br />Critical Shot Rank 2: Critical damage multiplier increased from *1.25 to *8\r<br />Critical Shot Rank 3: Critical damage multiplier increased from *1.50 to *10\r<br />\r<br />That&#39;s it. This mod does not modify anything else except what I listed above. It is compatible with any mod so long as the mod doesn&#39;t modify Bladesman, Deep Wounds, Critical Shot, Critical Charge & Great Critical Charge perks.\r<br />\r<br />It is also compatible with custom / new weapon mods and all the DLCs (compatible with just Skyrim installed, DLCs not required).",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "Hathur",
+  "createdUnix": "1389570936",
+  "updatedUnix": "1389686723",
+  "containsAdultContent": false,
+  "uploadedBy": "Hathur",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000091255",
+      "name": "Better critical  damage perks",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Better critical  damage perks-49848-1-0.rar",
+      "uploadedUnix": "1389570795",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ecef2ec0046c8f070b87997cea2ebbf98ad25a1a17a05e30dcd3ee6d0a06c43d/analysis/1407884105/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Better%20critical%20%20damage%20perks-49848-1-0.rar?fid=1000091255&ttl=1535831167&ri=8192&rs=8192&setec=3bbe365d25281151da51d206c936b194"
+    },
+    {
+      "fileId": "1000091411",
+      "name": "Better critical damage perks V 1-1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Better critical damage perks V 1-1-49848-1-1.rar",
+      "uploadedUnix": "1389686723",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/e73cb12a03d9b759163dc8fa17cbe8d513b5915794f0ab231970bdd258445a19/analysis/1407885616/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Better%20critical%20damage%20perks%20V%201-1-49848-1-1.rar?fid=1000091411&ttl=1535831167&ri=8192&rs=8192&setec=3a989fe3c690c6e3f234555856f5b090"
+    }
+  ]
+}

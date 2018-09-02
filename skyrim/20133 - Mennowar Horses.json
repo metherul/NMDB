@@ -1,0 +1,48 @@
+{
+  "modId": 20133.0,
+  "modName": "Mennowar Horses",
+  "summary": "Adds some unique horses, which are standing around in Riverwood.",
+  "descriptionHtml": "After my lovely wife saw the slof&#39;s horses, she wanted them. But ... uuhm ... no, not as a replacer for the horse-textures, it had to be new rideables :)\r<br />So this mod just adds 13 unique horses - this is no texture replacer.\r<br />\r<br />[center][img]http://static.skyrim.nexusmods.com/mods/images/20133-1-1341862920.png[/img][/center]\r<br />\r<br />[b]The horses are.. [/b]\r<br />- cowardly, \r<br />- essential,\r<br />- invul,\r<br />- player owned\r<br />- won&#39;t run to their home after dismount,\r<br />- ridable (how surprising ;) )\r<br />and have vanilla speed to avoid CTDs.\r<br />Furthermore they are based on the standard horse race so \r<br />all AI-Changing Mods should apply to them too.\r<br />\r<br />I suggest the &#34;[url=http://skyrim.nexusmods.com/mods/13637]Horse Whisper[/url]&#34; so you easily get your horse back when this cowardly freckle runs away.\r<br />\r<br />Another really great mod working (except the &#34;Set horse Armor Part&#34; - horse will become invisible) is the [url=http://skyrim.nexusmods.com/mods/14950]Convenient Horses by Alek[/url].\r<br />\r<br />\r<br />No - this horse-textures are not highres and as far as I know they will never be.\r<br />\r<br />--\r<br />\r<br />[b]Pre-Requisits:[/b]\r<br />When you got an older Version of the horses, please deinstall the old one; I&#39;m not sure that updating works.\r<br />\r<br />[b]Installation[/b]\r<br />---------------------------\r<br />Easiest way to (de)install is to use the ModManager.\r<br />\r<br />\r<br />[b]Manual Install:[/b]\r<br />---------------------------\r<br />Extract the contents of the archive anywhere and copy the data-folder into your skyrim-directory.\r<br />\r<br />\r<br />[b]Manual Uninstallation:[/b]\r<br />----------------------------\r<br />delete the folder\r<br />data/textures/actors/horse/mennowar,\r<br />data/meshes/actors/horse/mennowar,\r<br />and after that the file \r<br />data/mennowarhorses.esp\r<br />\r<br />and you are done. \r<br />\r<br />\r<br />[b]Options[/b]\r<br />---------------------------\r<br />there are two esp files:\r<br />the standard &#34;MennoHorses.esp&#34; which gathers all horses at Riverwood and the optional &#34;MennoHorses_Spread_Horses.esp&#34; (the horses are spread around the map).\r<br />To use the Spreaded-Version copy the MennoHorses_Spread_Horses.esp from the &#34;OPTIONS&#34;-Directory to your Data-Folder.\r<br />After starting up the Skyrim-Launcher make sure that only one mennoHorses*.esp is checked (alternatively delete the mennoHorses.esp to be safe).\r<br />Have Fun :)\r<br />\r<br />\r<br />[b]Credits[/b]\r<br />---------------------------\r<br />It makes use of the resources from AlienSlof ( [url=http://skyrim.nexusmods.com/mods/18602]http://skyrim.nexusmods.com/mods/18602[/url] )\r<br />and \r<br />e7seif unique horses ([url=http://skyrim.nexusmods.com/mods/10480]http://skyrim.nexusmods.com/mods/10480[/url] )\r<br />\r<br />\r<br />[b]Changes:[/b]\r<br />[b]Version 1.1[/b]\r<br /> - added optional esp for spreading the horses\r<br /> - added 4 new horses\r<br /> - spread-version horses are located\r<br /> -- &#34;Bay&#34; somewhere at the Whiterun Stables\r<br /> -- &#34;Winter&#34; somewhere at Rorikstead\r<br /> -- &#34;Blackberry&#34; near Dragon Bridge\r<br /> -- &#34;Roanie&#34; Katla&#39;s Farm at Solitude\r<br /> -- &#34;Buck&#34; near Windhelm Stables\r<br /> -- &#34;Cappucino&#34; Riften Stables\r<br /> -- &#34;Copper&#34; and &#34;Grey&#34; Markarth Stables\r<br /> -- &#34;Kiger&#34; in Ivarstead \r<br /> -- &#34;Fox&#34; Pelagia Farm\r<br /> -- &#34;Sabino&#34; Battle-Born Farm\r<br /> -- &#34;Strawberry&#34; Loreius Farm\r<br /> \r<br /> \r<br />[b] Version 1.0[/b]\r<br />  - added some horses, round up at Riverwood",
+  "categoryId": "83",
+  "version": "1.1",
+  "author": "mennowar",
+  "createdUnix": "1341776399",
+  "updatedUnix": "1342274134",
+  "containsAdultContent": false,
+  "uploadedBy": "mennowar",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "73205",
+      "name": "MainFile Version 1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6859",
+      "fileName": "MainFile Version 1_1-20133-1-1.7z",
+      "uploadedUnix": "1341862498",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d4477b61e106f049d54d50375f5648a3e32b3d5b8ed237f08fc16d850c964963/analysis/1407012076/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MainFile%20Version%201_1-20133-1-1.7z?fid=73205&ttl=1535788080&ri=8192&rs=8192&setec=a9a0ae61f172bfbddfab1f860bedf2be"
+    },
+    {
+      "fileId": "74202",
+      "name": "MennoHorses_Spread_Around",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7561",
+      "fileName": "MennoHorses_Spread_Around-20133-1-1.7z",
+      "uploadedUnix": "1342274134",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/f734643e41078ffd83e6b22623991f300cda86e9f12cb734fa6e7836b3a92f77/analysis/1407021623/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MennoHorses_Spread_Around-20133-1-1.7z?fid=74202&ttl=1535788081&ri=8192&rs=8192&setec=f842822e2c93f2d7784378ffe4a603f6"
+    }
+  ]
+}

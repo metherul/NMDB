@@ -1,0 +1,48 @@
+{
+  "modId": 54506.0,
+  "modName": "PS CTA Ex - R18PN Shanoa Armor Color Variations",
+  "summary": "PS ColorThatArmor usage example and proof of concept.  In-game swappable color variations of R18PN&#39;s Shanoa armor - 12 color variations included (Original color NOT included). ",
+  "descriptionHtml": " [heading] This is WORKING proof of concept for\r<br />[url=http://www.nexusmods.com/skyrim/mods/54529/?]PS Color That Armor - Automated armor retexture color variation generator[/url]\r<br />\r<br />And main example of how to use MASK to make color variations with CLUT tinting without ruining the gold decoration parts.\r<br />\r<br /> [color=yellow] SKSE required to swap [/color] armor colors during game  [color=yellow] OR use console [/color]&#34;player.additem ## 1&#34; but subtract one off the ID (EX. ##13567 to ##13566) to get all colors at once.\r<br />\r<br /> [color=yellow] READ THIS - load order of &#34;PCTA Shanoa.esp&#34; must by LESS THAN 78 [/color]for the spell color swap to work.\r<br />\r<br /> [color=yellow] Original mod is NOT required [/color]but original color is NOT included\r<br />\r<br />See Image section for fine texture control by using masks with ImageMagick\r<br />\r<br />Texture control option codes (or look at images for how I control them) :[/heading]\r<br />#Red   clut_Red.png -clut   clut_Blue.png -clut\r<br />#Green   clut_Green.png -clut   clut_Yellow.png -clut\r<br />#Blue   clut_Blue.png -clut   clut_Red.png -clut\r<br />#Yellow   clut_Yellow.png -clut   clut_Green.png -clut\r<br />#Purple   clut_Purple.png -clut   clut_Orange.png -clut\r<br />#Magenta   clut_Magenta.png -clut   clut_Red.png -clut\r<br />#Orange   clut_Orange.png -clut   clut_LightSteelBlue.png -clut\r<br />#Light Green   clut_YellowGreen.png -clut   clut_Gold.png -clut\r<br />#Gold   clut_Gold.png -clut   clut_YellowGreen.png -clut\r<br />#Steek   clut_LightSteelBlue.png -clut   clut_Red.png -clut\r<br />#Black   -modulate 100,0   -modulate 305,0\r<br />#White   -modulate 305,0   -modulate 100,0\r<br />\r<br /> [heading] [color=yellow] Usage [/color] [/heading]\r<br /> [color=yellow] - Getting the colored &#34;PCTA ##&#34; armors [/color]\r<br />Craft it from the smithing menu (***You can only craft PCTA 0***)\r<br />\r<br /> [color=yellow] - Switching colors of PCTA armors (OR convert between PCTA0 and original) [/color]\r<br />  *** Each spell comes with &#34;Forward&#34; and &#34;Reverse&#34; which controls the direction of change\r<br /> *** ONLY equipped armors that are selected in settings will switch colors\r<br />  - Player Character : Use &#34;PS CTA Color Change SELF ---&#34; powers\r<br /> [img] http://static-1.nexusmods.com/15/mods/110/images/53925-2-1399751746.jpg [/img]\r<br />  - NPC :  Use &#34;PS CTA Color Change TARGET ---&#34; alteration spells\r<br /> [img] http://static-1.nexusmods.com/15/mods/110/images/53925-1-1399751745.jpg [/img]\r<br />\r<br /> [color=yellow] - Setting which armor pieces to change and/or by how much [/color]\r<br />  - Use &#34;PS CTA Color Change Setting&#34; powers for BOTH PC and NPC\r<br /> [img] http://static-3.nexusmods.com/15/mods/110/images/53925-1-1399751901.jpg [/img]\r<br />\r<br />\r<br /> [heading] --- Credit ---[/heading]\r<br />R18Pn 09 - Shanoa Armor for UNP CBBEV3 7B : http://www.nexusmods.com/skyrim/mods/52431/?",
+  "categoryId": "54",
+  "version": "Ex1",
+  "author": "oscarvonreuenthal",
+  "createdUnix": "1401559727",
+  "updatedUnix": "1401645750",
+  "containsAdultContent": false,
+  "uploadedBy": "oscarvonreuenthal",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000111270",
+      "name": "PS CTA Ex - Shanoa Armor 12 Color Variations",
+      "version": "Ex1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8409",
+      "fileName": "PS CTA Ex - Shanoa Armor 12 Color Variations-54506-Ex1.7z",
+      "uploadedUnix": "1401559582",
+      "modVersion": "Ex1",
+      "virusScanUrl": "https://www.virustotal.com/file/a00811c528ce401c29f6d956d428df4a50fe8df14e26abbcda5a3f4524252dba/analysis/1408105395/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PS%20CTA%20Ex%20-%20Shanoa%20Armor%2012%20Color%20Variations-54506-Ex1.7z?fid=1000111270&ttl=1535838790&ri=8192&rs=8192&setec=f08ef9a8a06362ffcdee6fc6971bf9fa"
+    },
+    {
+      "fileId": "1000111440",
+      "name": "Masks for PS CTA Generator",
+      "version": "Ex1",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "82",
+      "fileName": "Masks for PS CTA Generator-54506-Ex1.7z",
+      "uploadedUnix": "1401645750",
+      "modVersion": "Ex1",
+      "virusScanUrl": "https://www.virustotal.com/file/ca373d7297d88dc3fa4ddd07d072488bbbffa1a57954dd09d6c4ed8d672d4176/analysis/1408107910/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Masks%20for%20PS%20CTA%20Generator-54506-Ex1.7z?fid=1000111440&ttl=1535838790&ri=8192&rs=8192&setec=3a1e189517969f72c1b62b6a27a22c43"
+    }
+  ]
+}

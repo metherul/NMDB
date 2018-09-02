@@ -1,0 +1,48 @@
+{
+  "modId": 70749.0,
+  "modName": "PapyrusVoiceRecorder",
+  "summary": "PapyrusVoiceRecorder is a Voice Recording program made especially for batch recording.\r<br />It reads the Creation Kit Dialogue Export files and builds a list that can be processed as a batch job.\r<br />As a funny addition it allows to use the Windows Speech engine to create Robot voice.",
+  "descriptionHtml": "The Creation Kit Recorder is a bit unhandy - especially if you plan to add a lot of voice data.\r<br />\r<br />PapyrusVoiceRecorder allows you to manage and record voice files with low effort. It can also use the windows speech engine to create Robot voice.\r<br />\r<br />It is very easy to use and it contains a File-Save function that packs all audio files into a zip file: PapyrusVoiceRecorder is a handy tool for Voice Actors with no Skyrim and low PC understanding.\r<br />\r<br />Additionally it is able to convert your sound files into fuz files - they are much smaller.\r<br />\r<br />It contains a management for VoiceTypes - for example you can create a male VoiceType from a female VoiceType.\r<br />\r<br />However: It is not (and will probably never) able to create lip files. They must be generated in CreationKit - if PapyrusVoiceRecorder found lip files during fuz conversion, they will be integrated into the fuz files.\r<br />\r<br />If you miss scene voice prompts in CreationKit dialogueExport this is because CreationKit does not know which VoiceType has to be assigned. You can fix it by assigning an actor with the VoiceType you want and simply whipe him from quest alias in initialization stage. With this hack your dialogueExport contains all scene prompts too.",
+  "categoryId": "82",
+  "version": "1.7",
+  "author": "romanicles",
+  "createdUnix": "1445382175",
+  "updatedUnix": "1478191547",
+  "containsAdultContent": false,
+  "uploadedBy": "romanicles",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000226757",
+      "name": "PapyrusVoiceRecorder-1.7.7z",
+      "version": "1.7",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "656",
+      "fileName": "PapyrusVoiceRecorder-1.7.7z-70749-1-7.7z",
+      "uploadedUnix": "1478191504",
+      "modVersion": "1.7",
+      "virusScanUrl": "https://www.virustotal.com/file/791ee8036d8001f7b601ee4cd2bf57a2961d7fb311184f5ff498ba34656bdba8/analysis/1478191568/",
+      "changelogHtml": " Entries with lip files are colored in dark green <br/> \n New option: Normalize list. CreationKit lip file generation crashes when a wav file has a high volume level (gain). This function normalizes all files in the list to 70% <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PapyrusVoiceRecorder-1.7.7z-70749-1-7.7z?fid=1000226757&ttl=1535859286&ri=8192&rs=8192&setec=f6050d91c85d28849f98024469a5e0b3"
+    },
+    {
+      "fileId": "1000226758",
+      "name": "PapyrusVoiceRecorderSourceCode.7z",
+      "version": "1.7",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "235",
+      "fileName": "PapyrusVoiceRecorderSourceCode.7z-70749-1-7.7z",
+      "uploadedUnix": "1478191547",
+      "modVersion": "1.7",
+      "virusScanUrl": "https://www.virustotal.com/file/b5c0e2947fc77e8540966e1b9790849318599e22c6049c873340cdbedd2b7bc8/analysis/1478191569/",
+      "changelogHtml": " Entries with lip files are colored in dark green <br/> \n New option: Normalize list. CreationKit lip file generation crashes when a wav file has a high volume level (gain). This function normalizes all files in the list to 70% <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PapyrusVoiceRecorderSourceCode.7z-70749-1-7.7z?fid=1000226758&ttl=1535859286&ri=8192&rs=8192&setec=e1bcbf826b54f67934ced30338fa59fb"
+    }
+  ]
+}

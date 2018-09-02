@@ -1,0 +1,32 @@
+{
+  "modId": 9276.0,
+  "modName": "Blood Dragon HD Fix",
+  "summary": "Swamp Dragon HD Alpha fix.",
+  "descriptionHtml": "As with the original Swamp Dragon texture, the new HD Swamp Dragon texture shipped with a bug in the alpha channel that makes the skin membranes not show up properly in game. I just fixed this, so that the Swamp Dragon looks like it should.\r\n\r\nNothing else is changed. \r\n\r\nINSTRUCTIONS:\r\n\r\nTo use your own textures along with the new High-Res pack, do the following:\r\n\r\nStep 1) - Disable the two ESPs, HighResTexturePack01.esp and HighResTexturePack02.esp\r\n\r\nEasiest way to do this is through Skyrims vanilla launcher, under the \\\"Data Files\\\" section. Uncheck each box.\r\n\r\nStep 2) - Add the 2 new entries bolded below to your Skyrim.ini file inside your \\\"My Documents\\\" folder, in the order you see below.\r\n\r\n[Archive]\r\nsResourceArchiveList=Skyrim - Misc.bsa, Skyrim - Shaders.bsa, Skyrim - Textures.bsa, HighResTexturePack01.bsa, HighResTexturePack02.bsa, Skyrim - Interface.bsa, Skyrim - Animations.bsa, Skyrim - Meshes.bsa, Skyrim - Sounds.bsa\r\nsResourceArchiveList2=Skyrim - Voices.bsa, Skyrim - VoicesExtra.bsa\r\n\r\nAgain, the .ini file you need to edit is in your /documents/my games/skyrim folder.. Not your Skyrim installation directory.\r\n\r\nStep 3) Extract the texture to your skyrim\\\\data\\\\textures\\\\actors\\\\dragon folder. \r\n\r\nThis is just a fix of a file that Bethesda created, so I don\\'t need any credit for you to use it, just make sure you use it according to their guidelines.\r\n\r\nHave fun!\r\n ",
+  "categoryId": "83",
+  "version": "",
+  "author": "Bethesda - fixed by Zardalu",
+  "createdUnix": "1329083005",
+  "updatedUnix": "1329083195",
+  "containsAdultContent": false,
+  "uploadedBy": "Zardalu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "29924",
+      "name": "Swamp Dragon HD with Alpha Fix",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6687",
+      "fileName": "Swamp Dragon HD with Alpha Fix-9276-1.rar",
+      "uploadedUnix": "1329083195",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/4c3e2b931f15b3ae767a5582a7cc0a20cab9b2644654315b8a98405cd8889dce/analysis/1406675107/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Swamp%20Dragon%20HD%20with%20Alpha%20Fix-9276-1.rar?fid=29924&ttl=1535768676&ri=8192&rs=8192&setec=e30fb8062b93b25695b6586b87ba8ab0"
+    }
+  ]
+}

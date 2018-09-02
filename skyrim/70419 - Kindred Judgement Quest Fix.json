@@ -1,0 +1,32 @@
+{
+  "modId": 70419.0,
+  "modName": "Kindred Judgement Quest Fix",
+  "summary": "Sometimes after picking up Auriel&#39;s Bow in the quest Touching the Sky (Dawnguard questline), the next quest Kindred Judgement won&#39;t start, this mod fixes this. ",
+  "descriptionHtml": "On some occasions, after Gelebor gives you Auriel&#39;s Bow, the Dawnguard quesline will break and you won&#39;t be able to advance to the next quest (Kindred Judgement), my guess is this is caused by a mod conflict and for some reason the setstage console command doesn&#39;t work, this mod fixes that.\r<br />\r<br />VERY IMPORTANT: AFTER YOU ACTIVATE THE MOD AND PICK UP AURIEL&#39;S BOW, YOU STILL NEED TO USE THE FOLLOWING CONSOLE COMMAND:\r<br />\r<br />setstage DLC1VQ08 20\r<br />\r<br />Remember to only use the command AFTER you pick up Auriel&#39;s Bow.\r<br />\r<br />If you attack Volkihar and the door to the boss room is locked, type in the console: coc DLC1vampirecastlebossroom , this will teleport you to where Harkon is, kill him and leave the room, the quest should be over as soon as you kill him.",
+  "categoryId": "95",
+  "version": "",
+  "author": "Xoninho",
+  "createdUnix": "1444355086",
+  "updatedUnix": "1444354015",
+  "containsAdultContent": false,
+  "uploadedBy": "xoninho",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000179979",
+      "name": "Kindred Judgement Quest Fix",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Kindred Judgement Quest Fix-70419-.rar",
+      "uploadedUnix": "1444354015",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/d15bc7b2d8a6549e182e9e4d335c4a9174291c34de332d680cb2a2e19d69d0ad/analysis/1444354023/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Kindred%20Judgement%20Quest%20Fix-70419-.rar?fid=1000179979&ttl=1535858955&ri=8192&rs=8192&setec=2f047aa46cb5a9b6f5ab65cfa18244ef"
+    }
+  ]
+}

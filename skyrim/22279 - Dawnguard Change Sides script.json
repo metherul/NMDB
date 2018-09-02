@@ -1,0 +1,48 @@
+{
+  "modId": 22279.0,
+  "modName": "Dawnguard Change Sides script",
+  "summary": "Console commands to change the faction you sided with in Dawngaurd.",
+  "descriptionHtml": "Going to officially say I am not supporting this anymore, Read the comments to find out what bugs people are encountering and decide if it is worth your time.\r<br />Overall I think most people get the idea and are able to get this to work from whatever point they are on; while I am terrible about service to this at least it is serving as a jumping off point to work for your individual needs.\r<br />\r<br />After finishing the bloodlines quest I quickly realized vampire lord was useless and wished I had stuck with dawnguard. This was created to swap me back to the dawngaurd faction and get the quest line moving again. I decided to upload it for anyone else who may be hitting this situation right now. (Can also be used to obtain vampire lord earlier and do the dawngaurd line I suppose)\r<br />\r<br />Use:\r<br />1a. Extract text to temporary location\r<br />1b. Copy text below into a notepad file\r<br />2. Place/save file in Skyrim data folder\r<br />3. Finish the Bloodlines quest and be somewhere in the Bloodstone Chalice quest\r<br />4. open console and type bat changesides (or the name you gave it)\r<br />5. quest related messages will appear\r<br />6. You are now on the dawnguard faction quest instead of the vampire and should be associated with them(dawngauard)\r<br />\r<br />This runs the following commands:\r<br />completequest DLC1VampireBaseintro\r<br />set DLC1IntroCompletedVampire to 0\r<br />set DLC1PlayingVampireLine to 0\r<br />resetquest DLC1vq02\r<br />setstage DLC1VQ02 190\r<br />setstage DLC1VQ02 200\r<br />completequest DLC1vq02\r<br />setstage DLC1HunterBaseIntro 20\r<br />\r<br />New to changing global variables so some may not even be needed(resetquest in particular) and at least one might be wrong altogether but it seems to get the job done which was good enough for me. \r<br />\r<br />Other notes:\r<br />There is probably some variable that will allow you to still go and talk to the vampires that I am not resetting so just don&#39;t do that(unless you want to) and hope that Harkon won&#39;t pickup on that if you see him again and break things. I am only this far into the DLC myself so I cannot say if this will cause problems. I figured I could deal with that if the time came and until then I would be able to do the Hunters line.\r<br />\r<br />This does not remove the bloodstone chalice item from you inventory\r<br />I cannot find a &#34;Get item id&#34; command so you will have to run the following:\r<br />help &#34;Bloodstone Chalice&#34;\r<br />player.removeitem &lt; first id that help returned(second if you filled the chalice)&gt;\r<br />\r<br />There are defined factions for vampires and hunters that I do not have the ID for so hopefully they are not joined by the player(thinking not since the &#34;playingvampireline&#34; is what makes the dawnquard talk to you again) if it turns out they are I will put out a fix asap",
+  "categoryId": "25",
+  "version": "1",
+  "author": "superbox",
+  "createdUnix": "1344787932",
+  "updatedUnix": "1349808366",
+  "containsAdultContent": false,
+  "uploadedBy": "superbox",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "81043",
+      "name": "changesides commands",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "changesides commands-22279-1.7z",
+      "uploadedUnix": "1344788080",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/df4b7b2079e5dd5c810672a929c56f5e59ebea546e88ad2821f660f1e9b7ef0f/analysis/1407091565/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/changesides%20commands-22279-1.7z?fid=81043&ttl=1535791724&ri=8192&rs=8192&setec=61ac4fd480fea2731f960aa2b9b12c36"
+    },
+    {
+      "fileId": "92970",
+      "name": "Updated with removed line",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Updated with removed line-22279-2.zip",
+      "uploadedUnix": "1349808366",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/fb48465e1bf8fc2a2e9a60811d1c394b1fb4f53a36b7abb464bfc2cea40f4dc1/analysis/1407211923/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Updated%20with%20removed%20line-22279-2.zip?fid=92970&ttl=1535791725&ri=8192&rs=8192&setec=1c34272987142f9b06163380532fd8d7"
+    }
+  ]
+}

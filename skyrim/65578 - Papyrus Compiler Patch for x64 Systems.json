@@ -1,0 +1,48 @@
+{
+  "modId": 65578.0,
+  "modName": "Papyrus Compiler Patch for x64 Systems",
+  "summary": "This patch allows you to compile Papyrus scripts when using the Creation Kit in conjunction with Mod Organizer when you're using a 64-bit computer.",
+  "descriptionHtml": "[center][/center][color=#a4c2f4][size=5]Description[/size][/color]\n<br />\n<br />This patch allows you to compile Papyrus scripts when using the Creation Kit in conjunction with Mod Organizer when you're using a 64-bit computer. This patcher made in CodeFusion offset patches one single byte at 0x00000218 from 01 (AnyCPU mode) to 03 (32-bit only mode). More explanation can be found here: [url=http://forum.step-project.com/topic/6214-howto-use-creationkit-from-mo/]http://forum.step-project.com/topic/6214-howto-use-creationkit-from-mo/[/url]\n<br />\n<br />[color=#b6d7a8][size=5]Installation[/size][/color]\n<br />[list=1]\n<br />[*]Extract Patcher to the Papyrus Compiler directory inside the Skyrim folder.\n<br />[*]Run [i]Papyrus Compiler Patch for x64 Systems.[/i]\n<br />[*]Click Patch.\n<br />[*]Read log to verify file was successfully patched.\n<br />[/list]\n<br />A backup shall be created with a .BAK file extension. If you run into a permissions issue (possible even if run as admin), try copying both the patch and PapyrusCompiler.exe to your desktop and execute there, moving the new files back to this directory once complete.\n<br />\n<br />[color=#e06666][size=5]Uninstallation[/size][/color]\n<br />[list=1]\n<br />[*]Delete PapyrusCompiler.exe from the Papyrus Compiler directory inside the Skyrim folder.\n<br />[*]Rename PapyrusCompiler.exe.BAK to PapyrusCompiler.exe inside the same folder\n<br />[/list]\n<br />\n<br />[color=#d5a6bd][size=5]Credits[/size][/color]\n<br />Thanks to Tannin42 for discovering this fix.",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "DoubleYou",
+  "createdUnix": "1442960473",
+  "updatedUnix": "1442968524",
+  "containsAdultContent": false,
+  "uploadedBy": "Vuud",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000177451",
+      "name": "Papyrus Compiler Patch for x64 Systems",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "29",
+      "fileName": "Papyrus Compiler Patch for x64 Systems-65578-1-0.exe",
+      "uploadedUnix": "1442959890",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/909ab8cd3e1ebe48330d5b891cf0785368300a247175d4ffc7e53866f4ff9e89/analysis/1442959922/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Papyrus%20Compiler%20Patch%20for%20x64%20Systems-65578-1-0.exe?fid=1000177451&ttl=1535854162&ri=8192&rs=8192&setec=6ea62201fc1a4ad3ae4fa753211fc0f0"
+    },
+    {
+      "fileId": "1000177468",
+      "name": "Source",
+      "version": "1.0",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Source-65578-1-0.zip",
+      "uploadedUnix": "1442968524",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9cd732c6b45251ffba78d0e8b36bb129e610bd48a896ea9673fb51b322c49f77/analysis/1442968563/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Source-65578-1-0.zip?fid=1000177468&ttl=1535854162&ri=8192&rs=8192&setec=c3ff4e085dc9698f5713c73a492cb8a4"
+    }
+  ]
+}

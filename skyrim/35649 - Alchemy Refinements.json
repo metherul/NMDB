@@ -1,0 +1,48 @@
+{
+  "modId": 35649.0,
+  "modName": "Alchemy Refinements",
+  "summary": "This mod fixes a lot of annoying inconsistencies in the Alchemy system. It allows you to craft Restore All potions, improves underpowered Alchemy perks, makes ingredient effects more consistent, and patches a few bugs. Improvements are listed in the full description.",
+  "descriptionHtml": "This mod fixes a lot of annoying inconsistencies in the Alchemy system. It allows you to craft Restore All potions, improves underpowered Alchemy perks, makes ingredient effects more consistent, and patches a few bugs. The improvements are as follows:\r\n\r\n- You can craft Restore Health (All), Restore Magicka (All), and Restore Stamina (All) potions from six hard-to-find ingredients. All six have Ravage Health as their first effect, so the potions will have that side effect if you lack the Purity perk. (The replaced ingredient effects were chosen so that they don\\'t invalidate any recipes in the original game or in my \\\"Improved Potion Recipes\\\" mod.)\r\n\r\n- In order to keep the Restore All potions\\' side effects from worsening with your Alchemy skill, Ravage effects are always 25 points for 30 seconds. Also, Ravage Magicka and Ravage Stamina now work like Ravage Health, temporarily reducing the maximum attribute rather than repeatedly damaging the current attribute.\r\n\r\n- Experimenter and Physician have swapped places in the perk tree. Experimenter has one rank that teaches all effects of an eaten ingredient, while Physician has three ranks that strengthen your Restore potions by 50% per rank. Also, Poisoner grants a 50% increase to poison strength instead of a 25% increase.\r\n\r\n- Potion effects don\\'t get stronger or weaker based on which ingredients you use, with Jarrin Root\\'s Damage Health being the sole exception.\r\n\r\n- For crafted items: Cure Disease potions always have the same value, Damage Health poisons no longer have abysmally low values, Fortify Smithing potions are no longer unusually powerful (i.e. compared to generic Smithing potions), Lingering Damage Health poisons spread their damage out over 20 seconds instead of 10, and Slow poisons are replaced by Stagger poisons.\r\n\r\nIMPORTANT: If you use \\\"I\\'m a Hero, Not a Businessman\\\", put it below this in the load order.\r\n\r\nThis mod was designed to complement \\\"Improved Potion Animation\\\" ([url=http://skyrim.nexusmods.com/mods/35572]http://skyrim.nexusmods.com/mods/35572[/url]). That mod plays an animation when you drink a potion, limiting the usefulness of potion spamming--but a side effect is that it makes Alchemy somewhat less useful compared to Restoration. This mod addresses that imbalance.\r\n\r\nThis mod can also be found on Steam Workshop at [url=http://steamcommunity.com/sharedfiles/filedetails/?id=139574498]http://steamcommunity.com/sharedfiles/filedetails/?id=139574498[/url].\r\n\r\nIf you find any bugs or issues, please note them in the comments so I can promptly address them.",
+  "categoryId": "94",
+  "version": "9",
+  "author": "David Sid",
+  "createdUnix": "1367849057",
+  "updatedUnix": "1367866740",
+  "containsAdultContent": false,
+  "uploadedBy": "DavidSid",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000028103",
+      "name": "Alchemy Refinements",
+      "version": "7",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Alchemy Refinements-35649-7.zip",
+      "uploadedUnix": "1367697178",
+      "modVersion": "7",
+      "virusScanUrl": "https://www.virustotal.com/file/12e21f08d7159ec607fb6bb12d35897cd17ab098043d9ab8d67646ffd3a06c02/analysis/1407554833/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Alchemy%20Refinements-35649-7.zip?fid=1000028103&ttl=1535814311&ri=8192&rs=8192&setec=cb40131f679ab4a7176b5ab6306b9731"
+    },
+    {
+      "fileId": "1000028480",
+      "name": "Alchemy Refinements",
+      "version": "9",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Alchemy Refinements-35649-9.zip",
+      "uploadedUnix": "1367866740",
+      "modVersion": "9",
+      "virusScanUrl": "https://www.virustotal.com/file/030a59d0e9d6512638f13df3be792ad3515a9dca5ac1e333d3319a939c52b30d/analysis/1407558062/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Alchemy%20Refinements-35649-9.zip?fid=1000028480&ttl=1535814312&ri=8192&rs=8192&setec=ae927f607ca2fef06ea7ada7402531fd"
+    }
+  ]
+}

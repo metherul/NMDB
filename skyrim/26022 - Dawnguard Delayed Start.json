@@ -1,0 +1,32 @@
+{
+  "modId": 26022.0,
+  "modName": "Dawnguard Delayed Start",
+  "summary": "This tweak delays/prevents the Dawnguard vampire attacks and quest start.",
+  "descriptionHtml": "This tweak delays/prevents the Dawnguard vampire attacks and quest start.\r<br />I prefer to start this content at a higher level, you can also just prevent the vampire attacks/quest start entirely.\r<br />\r<br />[b]DawnguardDelayedStart999.esp[/b]\r<br />Effectively disables vampire attacks and the quest start (until level 999).\r<br />Use this version if you want to stop both indefinitely, or just until you feel ready&#33;\r<br />\r<br />[b]DawnguardDelayedStart20.esp[/b]\r<br />Vampire attacks start at level 19, Dawnguard Quest at 20.\r<br />\r<br />[b]DawnguardDelayedStart30.esp[/b]\r<br />Vampire attacks start at level 29, Dawnguard Quest at 30.\r<br />\r<br />[b]DawnguardDelayedStart40.esp[/b]\r<br />Vampire attacks start at level 39, Dawnguard Quest at 40.\r<br />\r<br />[b]DawnguardDelayedStart50.esp[/b]\r<br />Vampire attacks start at level 49, Dawnguard Quest at 50.\r<br />\r<br />Notes:\r<br />- Can be added to existing games to prevent further attacks.\r<br />- The Dawnguard quest can be started at any time by travelling to Fort Dawnguard.\r<br />- This will only prevent vampire city raids and traveler encounters, not other encouters.\r<br />- The changes are Constant Global Variables and will not be saved with save game data, removing the .esp will revert the values and attacks will then start (if appropriate level).\r<br />- Confirmed clean in TES5Edit.\r<br />\r<br />Changelog:\r<br />v1.1 - Added tweak to prevent traveler encouters (Thanks WoodsDweller&#33;)\r<br />\r<br />-------\r<br />INSTALLATION:\r<br />1) Install via Nexus Mod Manager.\r<br />(Manual Install: Copy [b]one[/b] .esp to your Data folder.)\r<br />-------\r<br />UNINSTALLATION:\r<br />1) Uninstall via Nexus Mod Manager.\r<br />(Manual Install: Delete copied .esp from your Data folder.)\r<br />-------\r<br />\r<br />Changed variables:\r<br />\r<br />[b]DLC1VQMinLevel[/b]: As per selection above (Default 10)\r<br />Constant - Not saved with save game data.\r<br />\r<br />[b]DLC1VQMinLevelVampireAttacks[/b]: As per selection above (Default 8)\r<br />Constant - Not saved with save game data.\r<br />\r<br />[b]DLC1RadiantDisguisedVampireLordChance[/b]: 0 (default 25)\r<br />Changed to Constant - Not saved with save game data.",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "Okal",
+  "createdUnix": "1351252540",
+  "updatedUnix": "1354107537",
+  "containsAdultContent": false,
+  "uploadedBy": "okal",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "102067",
+      "name": "Dawnguard Delayed Start",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "19",
+      "fileName": "Dawnguard Delayed Start-26022-1-1.7z",
+      "uploadedUnix": "1354107537",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/edd19a06013374c2ec4b7a8a6fe3cc461f1e9ad6cc6fee1b17c099a6d85233f2/analysis/1407281703/",
+      "changelogHtml": " Added tweak to prevent traveler encouters. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dawnguard%20Delayed%20Start-26022-1-1.7z?fid=102067&ttl=1535797807&ri=8192&rs=8192&setec=e955493a90b0bfbb88b8fac0599c6f20"
+    }
+  ]
+}

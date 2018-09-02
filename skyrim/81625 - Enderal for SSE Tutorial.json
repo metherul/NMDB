@@ -1,0 +1,32 @@
+{
+  "modId": 81625.0,
+  "modName": "Enderal for SSE Tutorial",
+  "summary": "If anyone would like to try enderal for SSE you can pretty much do that easily but its gonna require alot of thinking powers to get it running. and lots of waiting. ",
+  "descriptionHtml": "This is somewhat of a simple video version of the tutorial but there&#39;s no on screen text or voice. \r<br />\r<br />[youtube]cexQs4noEg0[/youtube]\r<br />\r<br />So theres a enderal section.. but the mod is on the SSE Page. Welp\r<br />\r<br />-----------&gt; [url=http://www.nexusmods.com/skyrimspecialedition/mods/7514?]Enderal for SSE Tutorial[/url]\r<br />\r<br />If anyone would like to try enderal for SSE you can pretty much do that easily but its gonna require alot of thinking powers to get it running. and lots of waiting.\r<br />\r<br />Ok so this is mainly for Mod Organizer 2 users, like myself. its the only way right now as it needs the virtual folder whatever.\r<br />\r<br />-\r<br />\r<br />So you will need these: \r<br />\r<br />1 - Mod Organizer - [url=http://www.nexusmods.com/skyrimspecialedition/mods/6194/?]http://www.nexusmods...ion/mods/6194/?[/url] \r<br />\r<br />2 - Enderal - [url=http://enderal.com/]http://enderal.com/[/url] \r<br />\r<br />3 - Bethesda Archive Extractor - [url=http://www.nexusmods.com/skyrimspecialedition/mods/974/?]http://www.nexusmods...tion/mods/974/?[/url] \r<br />\r<br />4 - Fores New Idles in Skyrim - FNIS - [url=http://www.nexusmods.com/skyrimspecialedition/mods/3038/?]http://www.nexusmods...ion/mods/3038/?[/url] \r<br />\r<br />5 - Enderal FNIS Patch - [url=http://www.nexusmods.com/skyrim/mods/76979/?]http://www.nexusmods...im/mods/76979/?\r<br />[/url]\r<br />-\r<br />\r<br />SO You will need to download and update to the lastest version of enderal and let it install. after its done installing test run it in 32 bit skyrim, then you will need to uninstall enderal (archive, dont delete it.) \r<br />\r<br />Now you want to go where your enderal backup is and copy all of the loose files and the skyrim.esm and update.esm into a new mod folder for enderal.  \r<br />\r<br />Create a new folder for each of enderal&#39;s bsa files as SSE cannot read the 32 bit skyrim bsa. \r<br />\r<br />Extract all of them into their own folders, there should be 11 folders with the names as the bsa. After that you can drop all of the enderal mod folders into MO&#39;s mods Folder. \r<br />\r<br />[img]http://i.imgur.com/rTRJ94K.png[/img]\r<br />\r<br />You are pretty ready to go&#33; But wait&#33; there appears to be issues here.  \r<br />\r<br />Go into enderals interface and script folder and delete all of the files related to skyui as it will crash upon trying open the menus. Check EEN - Scripts folder as well. \r<br />\r<br />You also need to delete the startmenu.swf and the quest_journal.swf. and quest_journal.gfx inside the exported folder\r<br />\r<br />[img]http://i.imgur.com/KLXveyv.png[/img]\r<br />\r<br />Now after that, the only thing that is left is the animations. Which i already done so you dont have to do that step. \r<br />\r<br />You can play enderal with the updated animations without issue but anything related to SKSE will not work. There may be a few meshes that has red triangles so there that. \r<br />\r<br />I also made a little esp for enderal which is pretty related to the snow shaders and the godrays and water. I copied it from the SSE ESMs and it looks ok. \r<br />\r<br />Now you can somewhat play enderal in SSE with better looking shadows and godrays. \r<br />\r<br />Do note that this is unofficial and it will have issues\r<br />\r<br />You also might wanna run FNIS as well. \r<br />\r<br />Since Enderal does not use any of The 3 dlc resources, it makes them useless. SO I will also include a blank dlc esms if u want to use other mods.\r<br />\r<br />-\r<br />\r<br />Now lets look at some screenshots.\r<br />\r<br />Im also using a sweetfx in these screenshots for a cleaner image. \r<br />\r<br />Sweet HD - Skyrim - [url=http://www.nexusmods.com/skyrimspecialedition/mods/1400/?][u]http://www.nexusmods...ion/mods/1400/?\r<br />\r<br />[/u][/url]If you are confused or whatever, just comment or whatever and ill try to help.",
+  "categoryId": "106",
+  "version": "1.03",
+  "author": "Abbalovesyou",
+  "createdUnix": "1484831850",
+  "updatedUnix": "1484831793",
+  "containsAdultContent": false,
+  "uploadedBy": "Abbalovesyou",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000234111",
+      "name": "ENNNN",
+      "version": "1.03",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "ENNNN-81625-1-03.7z",
+      "uploadedUnix": "1484831793",
+      "modVersion": "1.03",
+      "virusScanUrl": "https://www.virustotal.com/file/12ba12ac887d2522e8997401e8069f39ee076dfff67e021be1a903d66b4ac850/analysis/1484832002/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENNNN-81625-1-03.7z?fid=1000234111&ttl=1535870254&ri=8192&rs=8192&setec=e611e39b4f5fcd9c5f00388e90e8c489"
+    }
+  ]
+}

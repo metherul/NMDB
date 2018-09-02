@@ -1,0 +1,48 @@
+{
+  "modId": 34711.0,
+  "modName": "Vampire Skin Tone Fix",
+  "summary": "Changes skin tone for all human vampire races to palest possible. Dawnguard and Non-Dawnguard version.",
+  "descriptionHtml": "1.1 - I made a version that doesn\\'t require Dawnguard. I haven\\'t tested it, but it should work just as well. Report any findings and I try to look into it.\r\n\r\n#############\r\n\r\nSince my Breton would always look like she\\'s coming from a two week vacation on a sunny beach after turning into a vampire, and there doesn\\'t seem to be any mod to combat that, I attempted to fix this and thought I would share this for anyone else interested. This only changes vampire skin tone and nothing else.\r\n\r\nAll colour tones for vampires should now be pale, at least for human races (Breton, Imperial, Nord and Redguard - the other races are already at the palest setting). I tested it and it didn\\'t seem to have any side effects. Make sure to place this mod after any vampire mod / mod that changes the vampire races to avoid it being overwritten.\r\n\r\n\r\n_________________________________________________________________________\r\n\r\n\r\nIf you want to do it yourself or incorporate the change into a mod of your own, use the Creation Kit, find the vampire races and edit the Default for SkinTone.dds in the Tinting tab of the race to the lowest value (e.g. [i]HumanFemaleSkinWhite01[/i]).\r\n\r\n_________________________________________________________________________\r\n\r\n\r\nInstallation:\r\n\r\nPlace the .esp in your Skyrim/Data folder and enable it in the launcher.\r\n\r\nIf you are already a vampire, you may need to revert back to your default race and become a vampire again for the effects to be visible.\r\nEasiest way to do so is using the console and the\r\n\r\n[b]player.setrace [YourRaceHere][/b]\r\n\r\ncommand. I.e.\r\n\r\n[b]player.setrace BretonRace[/b]\r\n\r\nfollowed by \r\n\r\n[b]player.setrace BretonRaceVampire[/b]\r\n\r\nfor a Breton and analogue for the other races.\r\n\r\nI am fairly inexperienced with the Creation Kit, so if you have any suggestions or find bugs or just find this mod to not work at all, tell me.\r\n\r\n",
+  "categoryId": "62",
+  "version": "1.1",
+  "author": "Nocturnal6969",
+  "createdUnix": "1365813304",
+  "updatedUnix": "1365858239",
+  "containsAdultContent": false,
+  "uploadedBy": "Nocturnal6969",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000024020",
+      "name": "Vampire Skin Tone Fix for human races - Dawnguard",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "28",
+      "fileName": "Vampire Skin Tone Fix for human races-34711-1-0.zip",
+      "uploadedUnix": "1365812872",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e241b3ae9fe13f1b417805ce9512c5bafff8dd1163ad7c34f2257cad997a1c5f/analysis/1407518843/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vampire%20Skin%20Tone%20Fix%20for%20human%20races-34711-1-0.zip?fid=1000024020&ttl=1535812755&ri=8192&rs=8192&setec=56549a79622ad634c77f2df82b268a08"
+    },
+    {
+      "fileId": "1000024138",
+      "name": "Vampire Skin Tone Fix for human races - Non-Dawnguard",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "28",
+      "fileName": "Vampire Skin Tone Fix - Non-Dawnguard-34711-1-1.zip",
+      "uploadedUnix": "1365858239",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/69c25ee3541cb8db68822cf44604cae8dfe3f7edfb368c3eda7a4e216110c2db/analysis/1407520024/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vampire%20Skin%20Tone%20Fix%20-%20Non-Dawnguard-34711-1-1.zip?fid=1000024138&ttl=1535812756&ri=8192&rs=8192&setec=30e7df7331caccf24e3008ebd14a740d"
+    }
+  ]
+}

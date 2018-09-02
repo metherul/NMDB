@@ -1,0 +1,48 @@
+{
+  "modId": 26509.0,
+  "modName": "Astral Merchant and Chest",
+  "summary": "This mod adds two new spells, Astral Merchant and Astral Chest.\r\nAstral Merchant lets you trade with a merchant in the astral plane.\r\nAstral Chest opens a storage chest in the astral plane.",
+  "descriptionHtml": "Astral Merchant and Chest\r\n\r\n\r\n[Author(s)]\r\nMargolotta, distributed via joajo927\r\n\r\n\r\n[Version]\r\n1.1\r\n\r\n\r\n[Description]\r\nThis mod adds two new spells, Astral Merchant and Astral Chest. They are lesser powers and cost no magicka, but they can not be cast during combat. \r\n\r\nThere are 2 versions of this mod: one has no cost attached to casting the spells, while the other severely impairs your magicka, stamina, and health regeneration for three minutes.\r\n\r\n\r\nAstral Merchant\r\n\r\nOpens the barter menu with an astral merchant. This merchant is a general merchant and will buy anything that is not stolen. He has 750+ gold and a lot of useful supplies, and will restock at the same rate as normal merchants.  \r\n\r\n\r\nAstral Chest\r\n\r\nOpens a chest in the astral plane that is safe for storage. Wonderful for geting all the loot out of a tomb.\r\n\r\nBoth spell can be bought at Riverwood Trader in Riverwood, Bits and Pieces in Solitude and Niranye\\'s stand in Windhelm.\r\n\r\n\r\n[Change Log]\r\n1.1 Added a cost version\r\n\r\n1.0 Initial release\r\n\r\n\r\n[Installation]\r\nUse NMM. Or, if you\\'re into that sort of thing, extract the files into your skyrim\\\\data folder, open your mod manager of choise, and check AstralMerchantAndChest.esp.\r\n\r\nTo switch from one version to the other, simply uninstall the old version and install the other. Any characters that already are using these spells will still have them, and the contents of the container and the merchant will not be affected by this procedure.\r\n\r\n\r\n[Uninstallation]\r\nUse NMM. Otherwise, delete AstralMerchantAndChest.esp from your skyrim\\\\data folder, and the AstralChestScript, AstralMerchantScript, and/or AstralSpellScript files from the skyrim\\\\data\\\\script and skyrim\\\\data\\\\script\\\\source folders.\r\n\r\n\r\n[Incompatabilities]\r\nMay conflict with any mod that changes the merchant containers of Riverwood Trader, Bits and Pieces or Niranye.\r\n\r\n\r\n[Tools Used]\r\nCreation Kit\r\nTES5Edit\r\nReadme Generator by DarkSaber2328\r\n\r\n\r\n[Permissions]\r\nFeel free to use this mod any way you like, as long as you give us credit.",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "Margolotta",
+  "createdUnix": "1352116725",
+  "updatedUnix": "1354811678",
+  "containsAdultContent": false,
+  "uploadedBy": "joajo927",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "97629",
+      "name": "Astral Merchant and Chest no cost version",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Astral Merchant and Chest -26509-1-0.7z",
+      "uploadedUnix": "1352116889",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f312579ace2bf2e0dd08463b80410549edb8b5c369876ecb4e81015dc354275b/analysis/1407250456/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Astral%20Merchant%20and%20Chest%20-26509-1-0.7z?fid=97629&ttl=1535798683&ri=8192&rs=8192&setec=051ad17bb5919b32a43213b47f6b97ac"
+    },
+    {
+      "fileId": "103509",
+      "name": "Astral Merchant and Chest balanced version",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Astral Merchant and Chest balanced version-26509-1-1.7z",
+      "uploadedUnix": "1354811678",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/b00da7d582073400f60d7e2a1e59da1940c59d6a35f7acedb64e73a075993b25/analysis/1407293222/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Astral%20Merchant%20and%20Chest%20balanced%20version-26509-1-1.7z?fid=103509&ttl=1535798684&ri=8192&rs=8192&setec=67b7fe0db9b03e5a93832caf05f6f38e"
+    }
+  ]
+}

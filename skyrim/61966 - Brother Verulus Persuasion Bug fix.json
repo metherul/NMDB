@@ -1,0 +1,32 @@
+{
+  "modId": 61966.0,
+  "modName": "Brother Verulus Persuasion Bug fix",
+  "summary": "NOT NEEDED ANYMORE - FIXED IN LATEST USKP\r<br />A simple bug fix for the persuasion of Brother Verulus when doing the &#34;Taste Of Death&#34; Quest.",
+  "descriptionHtml": "NOT NEEDED ANYMORE - FIXED IN LATEST USKP\r<br />[url=http://afkmods.iguanadons.net/Unofficial%20Skyrim%20Patch%20Version%20History.html]Brother Verulus cannot be persuaded to follow the player in Taste of Death (DA11) because the speech check was being done on the wrong target. (Bug #18667)[/url]\r<br />\r<br />\r<br />\r<br />\r<br />This should fix the problem of persuasion always failing with Brother Verulus when doing the &#34;Taste Of Death&#34; Quest.\r<br />The condition was checking if Verulus himself met the Speechcraft requirements. I simply changed it to check if the player fulfills the requirements.\r<br />It&#39;s a bit weird that this wasn&#39;t fixed yet with the USKP. I didn&#39;t find any other file that fixed this bug.\r<br />\r<br />If you want to include this file in any compilation of bug fixes, go right ahead.",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Solcom",
+  "createdUnix": "1422068115",
+  "updatedUnix": "1422067998",
+  "containsAdultContent": false,
+  "uploadedBy": "Solcom",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000144296",
+      "name": "Brother Verulus Bugfix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Brother Verulus Bugfix-61966-1-0.7z",
+      "uploadedUnix": "1422067998",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f2853b504b65815c4d7811d69620d93df9e5f6194bb4089b40cd5d445b3f1f5f/analysis/1422068043/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Brother%20Verulus%20Bugfix-61966-1-0.7z?fid=1000144296&ttl=1535850599&ri=8192&rs=8192&setec=94ddf2b2ac439a8c55b185fd78e4b7aa"
+    }
+  ]
+}

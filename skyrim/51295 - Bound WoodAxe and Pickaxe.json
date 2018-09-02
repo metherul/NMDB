@@ -1,0 +1,32 @@
+{
+  "modId": 51295.0,
+  "modName": "Bound WoodAxe and Pickaxe",
+  "summary": "This mod adds two new spells - Bound Woodcutter&#39;s Axe and Bound Pickaxe.",
+  "descriptionHtml": "I found several mods that added either a bound wood axe or a bound pickaxe, but not both.\r<br />(Yes, I know there are a couple of larger weapons mods that include these, but I didn&#39;t those.)\r<br />\r<br />This mod simply combines the bound wood axe and the bound pickaxe into a single esp.\r<br />So if you&#39;re like me and simply want JUST these two spells, this is the mod for you.\r<br />\r<br />\r<br />Readme:\r<br />Name: Bound Tools\r<br />Version: 1.0\r<br />Date: 02/19/14\r<br />Category: Gameplay effects and changes\r<br />Author: Aellis\r<br />\r<br />Description:\r<br />============\r<br />Tired of carrying araound the extra weight with pickaxe or a woodcutter&#39;s axe?\r<br />This mods adds two spell tomes to the novice conjuration level list to use them as bound weapons.\r<br />You&#39;ll find them at merchants or as loot the same as you would the spell tomes of flames, frost, and sparks.\r<br />\r<br />If you&#39;re impatient, you can always open the console and add the spells directly to your player.\r<br />\r<br />Bound Woodcutter&#39;s Axe:\r<br />player.addspell XX000D70\r<br />Bound Pickaxe:\r<br />player.addspell XX000D71\r<br />\r<br />XX is the load index of wherever you place this mod in your game.\r<br />\r<br />The spells last for a duration of 120 seconds if you use them as weapons, otherwise they dispell just before \r<br />the mining and chopping animations start playing.\r<br />\r<br />\r<br />Installation\r<br />============\r<br />Manual Install\r<br />--------------\r<br />Extract archive to a temporary folder.  \r<br />Copy Bound Tools.esp and Readme - Bound Tools.txt to your Skyrim Data directory.\r<br />\r<br />\r<br />Wrye Bash BAIN Install\r<br />----------------------\r<br />1. Copy the archive to (install folder)Skyrim ModsBash Installers\r<br />2. Start Wrye Bash and click on the Installers tab.\r<br />3. In the Packages window, right click on the Archive and select install.\r<br />4. Click on the Mods tab and check the Bound Tools.esp \r<br />5. Rebuild your Bashed Patch.\r<br />\r<br />\r<br />Uninstall\r<br />=========\r<br />Manual Uninstall\r<br />----------------\r<br />Delete Bound Tools.esp and Readme - Bound Tools.txt from your Skyrim Data directory.\r<br />\r<br />\r<br />Wrye Bash BAIN Uninstall\r<br />------------------------\r<br />1. Start Wrye Bash\r<br />2. Click on the Installers tab.\r<br />3. Right click on the Archive and select Uninstall.\r<br />4. Click on the Mods tab and rebuild your Bashed Patch.\r<br />\r<br />\r<br />Incompatibilities\r<br />================================\r<br />If you don&#39;t use Wyre Bash, any mod that adjusts the LItemSpellTomes00AllConjuration list will conflict.\r<br />Whichever mod is loaded last will negate the changes of the other mod.\r<br />\r<br />\r<br />Change Log\r<br />====================\r<br />02/19/2014, V1.0\r<br />----------------\r<br />Initial Release.\r<br />\r<br />\r<br />Contact\r<br />=======\r<br />You can find me on the official Elder Scrolls forums as &#39;Aellis&#39;\r<br />\r<br />\r<br />Credits\r<br />=======\r<br />Thanks to Bethesda for Skyrim and the Creation Kit.\r<br />Thanks to LHammonds for the Readme Generator this file was based on.\r<br />Thanks to nexusnetwork for the free hosting of thousands upon thousands of mods.\r<br />(Show your appreciation by becoming a Premium member.)\r<br />\r<br />\r<br />Tools Used\r<br />==========\r<br />TES Creation Kit\r<br />TES5Edit\r<br />\r<br />\r<br />Licensing/Legal\r<br />===============\r<br />Please do not upload this mod anywhere else.\r<br />If I have not been active on any nexus site or the BSG forums more than 3 months, this mod is open for anyone\r<br />to modify and release as they see fit.",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Aellis",
+  "createdUnix": "1392837366",
+  "updatedUnix": "1392837360",
+  "containsAdultContent": false,
+  "uploadedBy": "a.ellis",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000097827",
+      "name": "Bound Tools",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Bound Tools-51295-1-0.7z",
+      "uploadedUnix": "1392837360",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/50b70c81420491ea35fd981a26c77b13c86187ba131c7b57ff51b903e524310d/analysis/1407940865/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bound%20Tools-51295-1-0.7z?fid=1000097827&ttl=1535833537&ri=8192&rs=8192&setec=3b4f0574cc8a93f882ea29ec39e4feb1"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 61363.0,
+  "modName": "Bullseye Perk Paralyze Bug Fix",
+  "summary": "This Mod fixes the game bug that, if the player has the Bullseye Perk, on a bow shot that will paralyze the target for a few seconds, the Paralyze Effect and the falling over animation starts the instant the arrow leaves the bow rather than when the arrow actually hits the target. May also fix the Frozen Weapons bug.",
+  "descriptionHtml": "Bullseye Perk Paralyze Bug Fix\r<br />\r<br />This Mod fixes the game bug that, if the player has the Bullseye Perk, on a\r<br />bow shot that will paralyze the target for a few seconds, the Paralyze Effect\r<br />and the &#34;falling over&#34; animation starts the instant the arrow leaves the bow,\r<br />rather than when the arrow actually hits the target.\r<br />\r<br />The Mod creates a replacement Magic Effect Shader similar to the &#34;HitEffectArt&#34;\r<br />Object used by the game to show the target being paralyzed and &#34;delays&#34; its\r<br />start and the start of the &#34;falling over&#34; animation until the health of the\r<br />target actually decreases, indicating they&#39;ve just been hit, plus 0.25 seconds\r<br />more just to make sure the effect and animation start after the hit.\r<br />\r<br />The game entries changed by this Mod are &#34;ParalysisFFContact&#34;, under\r<br />&#34;Magic-Magic Effect&#34;, and &#34;PerkBullseyeParalyze&#34;, under &#34;Magic-Spell&#34;\r<br />so if any other Mod also changes these entries, one or both Mods may not work.\r<br />\r<br />Instructions:\r<br />\r<br />Extract BullseyePerkParalyzeBugFix1_1.7z to your Skyrim install directory.\r<br />\r<br />The BullseyePerkParalyzeBugFix.txt file will go to the Skyrim install directory.\r<br />The BullseyePerkParalyzeBugFix.esp file will go to the &lt;installdir&gt;/Data directory.\r<br />The magicCastDelayedSpellAndShaderScript.pex file will extract to the\r<br />&lt;installdir&gt;/Data/Scripts directory.\r<br />\r<br />Upon starting Skyrim, ensure that the BullseyePerkParalyzeBugFix.esp is active.\r<br />It shouldn&#39;t matter where it loads unless there is another active Mod that alters\r<br />the Bullseye Perk.\r<br />\r<br />Changelog:\r<br />\r<br />Version 1.1\r<br />\r<br />- Changed &#34;PerkBullseyeParalyze&#34;, under &#34;Magic-Spell&#34; to insure that  the visual effect\r<br />  duration lasts 8 seconds, rather than 2.\r<br />\r<br />My Other Skyrim Mods:\r<br />\r<br />No Skyrim Dragons - [url=http://www.nexusmods.com/skyrim/mods/61147/]http://www.nexusmods...rim/mods/61147/[/url]\r<br />Slow Time Shout Tweaks - [url=http://www.nexusmods.com/skyrim/mods/39754/]http://www.nexusmods...rim/mods/39754/[/url]\r<br />New Slow Time Shout Visual - [url=http://www.nexusmods.com/skyrim/mods/39748/]http://www.nexusmods...rim/mods/39748/[/url]\r<br />All Locations Reset - [url=http://www.nexusmods.com/skyrim/mods/39111/]http://www.nexusmods...rim/mods/39111/[/url]\r<br />More Dangerous Enemies - [url=http://www.nexusmods.com/skyrim/mods/42794/]http://www.nexusmods...rim/mods/42794/\r<br />[/url]New Become Ethereal Shout Visual - [url=http://www.nexusmods.com/skyrim/mods/42794/]http://www.nexusmods.com/skyrim/mods/84144/[/url]\r<br />No More Sinking To A Knee On Low Health - [url=http://www.nexusmods.com/skyrim/mods/87121/]http://www.nexusmods.com/skyrim/mods/87121/\r<br />[/url]\r<br />My Skyrim SE Mods:\r<br />\r<br />All Locations Reset - [url=http://www.nexusmods.com/skyrim/mods/87121/]http://www.nexusmods.com/skyrimspecialedition/mods/9778/[/url]\r<br />New Slow Time Shout Visual - [url=http://www.nexusmods.com/skyrim/mods/87121/]http://www.nexusmods.com/skyrimspecialedition/mods/9779/[/url]\r<br />Slow Time Shout Tweaks - [url=http://www.nexusmods.com/skyrim/mods/87121/]http://www.nexusmods.com/skyrimspecialedition/mods/9780/[/url]\r<br />More Dangerous Enemies - [url=http://www.nexusmods.com/skyrim/mods/87121/]http://www.nexusmods.com/skyrimspecialedition/mods/9781/[/url]\r<br />No Skyrim Dragons - [url=http://www.nexusmods.com/skyrim/mods/87121/]http://www.nexusmods.com/skyrimspecialedition/mods/9782/[/url]\r<br />Bullseye Perk Paralyze Bug Fix - [url=http://www.nexusmods.com/skyrim/mods/87121/]http://www.nexusmods.com/skyrimspecialedition/mods/9783/[/url]\r<br />New Become Ethereal Shout Visual - [url=http://www.nexusmods.com/skyrim/mods/87121/]http://www.nexusmods.com/skyrimspecialedition/mods/10087/[/url]\r<br />No More Sinking To A Knee On Low Health - [url=http://www.nexusmods.com/skyrim/mods/87121/]http://www.nexusmods.com/skyrimspecialedition/mods/12640/[/url]",
+  "categoryId": "84",
+  "version": "1.1",
+  "author": "ChessPirate",
+  "createdUnix": "1420415942",
+  "updatedUnix": "1494977602",
+  "containsAdultContent": false,
+  "uploadedBy": "ChessPirate",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000244518",
+      "name": "Bullseye Perk Paralyze Bug Fix",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Bullseye Perk Paralyze Bug Fix-61363-1-1.7z",
+      "uploadedUnix": "1494977602",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/2bc962dfc5e8496b943ccce4e04c43ccdd674dd6be8f203baf747929d8d70d37/analysis/1494977642/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bullseye%20Perk%20Paralyze%20Bug%20Fix-61363-1-1.7z?fid=1000244518&ttl=1535849704&ri=8192&rs=8192&setec=08e887b9a20a200f660fd7424833af40"
+    }
+  ]
+}

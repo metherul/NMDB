@@ -1,0 +1,32 @@
+{
+  "modId": 29822.0,
+  "modName": "Hearthfire Furnishing Fix",
+  "summary": "Fixes the furnishing when buying them from your Steward rather then using materials.",
+  "descriptionHtml": "Introduction:\r\n-------------------\r\nThis fix simply fixes all Hearthfire homes from taking forever to be furnished when buying furniture over your Steward.\r\n\r\nThe Vanilla game handles it rather slowly, it checks on how many days you were gone from your last visit at your home, so lets say you were gone for 3 Days, the game will register that and Enables the same amount of references in your house, that means if the house has like 300+ Refs to be enabled you need to be gone for 300 days without revisiting this Location ever, or else the counter resets back to the current date, in my tests the houses had more then 300 refs to be activated, which means you need to at least wait for like 10 Months to fully enable your house.\r\n\r\nThis will fix that, now once you bought a furnishing from your steward, the next time you visit your home, the room you bought will be completely furnished.\r\n\r\nThis mod does not change anything vanilla, it is completely safe to use with other mods and patches, and once your houses a completely furnished you can simply deactivate the plugin again.\r\n\r\nInstallation:\r\n---------------\r\nDrop the .esp and the script folder into your /data/ folder or simply use NMM, then activate the .esp and start furnishing\r\n\r\nNote: You need to buy the furniture from your steward first, for every room, is simply fixes the time it takes for them to appear.\r\n\r\n\r\nUninstallation: \r\nType \\\"StopQuest HFFFhouseFix\\\", without the quotes into your console and save the game, then restart it without the plugin.",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "Keldis",
+  "createdUnix": "1357997201",
+  "updatedUnix": "1357997970",
+  "containsAdultContent": false,
+  "uploadedBy": "Keldis",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000001850",
+      "name": "Hearthfire Fix - Mainfile",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Hearthfire Fix - Mainfile-29822-1-0.rar",
+      "uploadedUnix": "1357997970",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/00eb9d4385d3b4dae48e78b5c62f849d660ead1ff3fec745b202c0e84a9e4921/analysis/1407349529/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hearthfire%20Fix%20-%20Mainfile-29822-1-0.rar?fid=1000001850&ttl=1535804235&ri=8192&rs=8192&setec=4c4a6e4881c911099b3fc4fb31b56033"
+    }
+  ]
+}

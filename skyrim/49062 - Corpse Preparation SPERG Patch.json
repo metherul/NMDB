@@ -1,0 +1,32 @@
+{
+  "modId": 49062.0,
+  "modName": "Corpse Preparation SPERG Patch",
+  "summary": "Raises your undead minion&#39;s level cap when used with SPERG.",
+  "descriptionHtml": "Raises your undead minion&#39;s level cap when used with SPERG perks.\r<br />\r<br />Corpse Preparation v.1.2.3:\r<br />http://www.nexusmods.com/skyrim/mods/35378/?\r<br />SPERG v.4.0:\r<br />http://www.nexusmods.com/skyrim/mods/24445/?\r<br />\r<br />SPERG does a weird thing that doesn&#39;t seem to be immediately obvious. Instead of utilizing vanilla perks and spells, it does away with them and replaces them with its own. This would be well and good as far as compatibility goes, but if you have a mod like Corpse Preparation that references vanilla perks like the novice-apprentice-adept-etc conjuration perks or dark souls and necromancy to increase your minion&#39;s strength, you&#39;re stuck with level 5 undead, or 10 with the necromancer&#39;s amulet. I got impatient and tried my hand at a patch to fix this.\r<br />\r<br />This patch should replace all references to vanilla perks with appropriate SPERG ones, so novice-apprentice-etc perks are replaced by auto conjuration, dark souls with SPERG&#39;s dark souls, and necromancy by plague carrier. Contains an esp and loose pex and psc files. I have no idea whether this is the proper way of doing this but it finally worked for me after much mucking about.\r<br />\r<br />Thanks to mojo22 for Corpse Preparation and seorin for SPERG",
+  "categoryId": "84",
+  "version": "1",
+  "author": "Friendly Neighbourhood Necromancer",
+  "createdUnix": "1387715280",
+  "updatedUnix": "1387714872",
+  "containsAdultContent": false,
+  "uploadedBy": "Freygon",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000087850",
+      "name": "Corpse Preparation SPERG Patch",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "23",
+      "fileName": "Corpse Preparation SPERG Patch-49062-1.rar",
+      "uploadedUnix": "1387714872",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/cccd53448848983179146f455dcfbb7344a23111ce7032a0ab7f9cf6a732379c/analysis/1407852852/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Corpse%20Preparation%20SPERG%20Patch-49062-1.rar?fid=1000087850&ttl=1535829611&ri=8192&rs=8192&setec=3f4eb4ff9b3bd29435261676fa9e574c"
+    }
+  ]
+}

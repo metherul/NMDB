@@ -1,0 +1,32 @@
+{
+  "modId": 89653.0,
+  "modName": "CHYAL - Change How Your Armor Looks",
+  "summary": "Adds Glamour spells to temporarily change the visual of your equipped armor",
+  "descriptionHtml": "[size=3]This is a simple quality of life mod to temporarily change the visual of your amor. How it work is that on install, you'll be given two lesser powers, [b]Glamour Self[/b] and [b]Glamour Others[/b]. When casted, the script will ask you to input some text, unequip the armor you're wearing, change its display model path base on your input and re-equip the armor. Change the model path to what, you ask? Read on to the Configuration section\n<br />\n<br />[b][u]Features:[/u][/b]\n<br />[list=1]\n<br />[*]Changes only the visual of your armor, not creating a duplicate copy, all enchantments, keyword, and tempered status remain intact\n<br />[*]No need to activate the ESP of a new armor mod, can save some esp slots\n<br />[*]The effects is temporary, and do not go into your save file, no chance of save corruption, bloating or anything\n<br />[*]Scripts are only ran when you cast the lesser power and do not modify any actor values, safe to uninstall any time\n<br />[/list]\n<br />[b][u]Configuration[/u][/b]:\n<br />After installation, you'll see these files\n<br />Data&#92;SKSE&#92;plugins&#92;FISS&#92;CHYAL_Player.xml\n<br />Data&#92;SKSE&#92;plugins&#92;FISS&#92;CHYAL_Lydia.xml\n<br />Data&#92;SKSE&#92;plugins&#92;FISS&#92;CHYAL_BloodMage.xml\n<br />\n<br />These pre-provided files are just example, you are expected to add, edit, and delete them yourselves. CHYAL_Player.xml is used when you cast on yourself and just cancel the text input (tab key default), CHYAL_Lydia.xml is used when you cast it on Lydia and cancel the input, CHYAL_BloodMage.xml is used when you cast on anyone and entered [i]bloodmage [/i]on the text input (provided you have that bloodmage mesh and texture installed).\n<br />\n<br />The format of these files are all the same and is pretty self-explanatory. Open them with any text editor.\n<br />For example: \n<br />&lt;bodyModelPath&gt;Armor&#92;Nightingale&#92;F&#92;Torso_1.nif&lt;/bodyModelPath&gt;\n<br />[list]\n<br />[*]The paths are relative to Data&#92;meshes\n<br />[*]Most armor have different model for male and female\n<br />[*]Most armor have different model for 1st person or 3rd person (usually denote by the _1 at the end)\n<br />[/list]\n<br />Another follower? Just make a copy of the CHYAL_Lydia.xml and replace [i]Lydia [/i]with the name of the follower.\n<br />\n<br />[b][u]Caveat:\n<br />[/u][/b][list]\n<br />[*]The effect is in memory only, it'll persist through loading a save file, but if the armor get reloaded into memory, the effect is lost. So far, I only notice placing the armor into a container triggers a armor  reload, and of-course quit and restart the game.\n<br />[*]This will effect NPCs of the same sex and wearing the same armor, no other way around this that I can see.\n<br />[*]This mod essentially do the same thing as opening up TES5Edit and manually change the model path of the armor addon, and reverting it after quitting the game. I was doing this for every new armor upgrade and I got really tire of it and thus created this mod.\n<br />[/list]\n<br />[b][u]My mods:[/u][/b]\n<br />[url=https://www.nexusmods.com/skyrim/mods/89418]Auto Equip Headgear[/url]﻿\n<br />[url=https://www.nexusmods.com/skyrim/mods/89653]CHYAL [/url][url=https://www.nexusmods.com/skyrim/mods/89653]- Change How Your Armor Looks\n<br />[/url][url=https://www.nexusmods.com/skyrim/mods/90287]More Perks Per Level\n<br />[/url][url=https://www.nexusmods.com/skyrim/mods/90508]Loot Sack[/url][/size]",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "tudoru",
+  "createdUnix": "1518847575",
+  "updatedUnix": "1518847575",
+  "containsAdultContent": false,
+  "uploadedBy": "tudoru",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000266571",
+      "name": "CHYAL",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "CHYAL-89653-1-0.rar",
+      "uploadedUnix": "1518847509",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/24674bae54a6a28af5ee94626262333aeb7bd30edcc6b3f978afe11fa04f3543/analysis/1518847862/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CHYAL-89653-1-0.rar?fid=1000266571&ttl=1535879491&ri=8192&rs=8192&setec=4b43851895b33aab7aaad8923afc785b"
+    }
+  ]
+}

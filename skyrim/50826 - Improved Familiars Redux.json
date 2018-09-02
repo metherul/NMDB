@@ -1,0 +1,32 @@
+{
+  "modId": 50826.0,
+  "modName": "Improved Familiars Redux",
+  "summary": "Based on SubRosa_Florens&#39; Improved Familiars, where the default wolf familiar was enhanced to make it worthwile early game, this mod aims to add familiars for all the tiers of Conjuration (Novice, Apprentice, Adept, Expert, Master).",
+  "descriptionHtml": "Conjuration in Skyrim is great, but somewhat limited in the number of summons you can conjure. This mod aims to alleviate that somewhat. \r<br />\r<br />[u][b]Description: [/u][/b]\r<br />Based on SubRosa_Florens&#39; mod (Improved Familiars), Improved Familiars Redux adds animal familiars to each tier of Conjuration. I tried to balance the spells given their respective tier, and they are as follows:\r<br />\r<br />Novice - Wolf (9e2ab)\r<br />Apprentice - Frostbite Spider (xx000d66)\r<br />Adept - Sabrecat (xx001832)\r<br />Expert - Bear (xx001837)\r<br />Master - Mammoth (xx001d9e)\r<br />\r<br />All spells are tested and working, and each spell comes with its own Spell Tome. The only thing that I haven&#39;t done is add them to the leveled/vendor lists, but since I used duplicate templates for the tomes, they may show up in vendor inventories and out in the wild (not sure how to do this just yet - if you know, drop me a PM, and I&#39;ll make the changes). As of now, you can add the spell tome via the console. The item codes are in parentheses above, &#39;xx&#39; representing the load order. You can find them by typing  &#34;help familiar&#34; in the Console. You may have to PageUp a couple of times to find the spells and/or books to add them to your character. \r<br /> \r<br />Current version is .9 because I would like it to be tested before I make it the full version. And I&#39;d like to add it to vendor/leveled lists. Let me know about any issues.\r<br />\r<br />[b][u]Installation[/b][/u]\r<br />\r<br />Simply place the &#39;Improved Familiars Redux.esp&#39; file into your Game/Data directory. Or use the Mod Manager to do this for you.\r<br />\r<br />[b][u]Known Issues with Current Version[/b][/u]\r<br />\r<br />The cost for the Bear Familiar (Expert) shows as a X magicka per second, although it does work as intended, and the displayed cost is correct. I am unsure as to why it displays this way, and I&#39;m not sure how to correct it. \r<br />\r<br />The Mammoth Familiar can only be summoned outdoors, and apparently outside of walled cities (tested in Whiterun). I am also unsure why this is so.",
+  "categoryId": "75",
+  "version": ".9",
+  "author": "jovalleau",
+  "createdUnix": "1391714350",
+  "updatedUnix": "1391713450",
+  "containsAdultContent": false,
+  "uploadedBy": "jovalleau",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000095638",
+      "name": "Improved Familiars Redux",
+      "version": ".9",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Improved Familiars Redux-50826--9.rar",
+      "uploadedUnix": "1391713450",
+      "modVersion": ".9",
+      "virusScanUrl": "https://www.virustotal.com/file/b93f0f702ed28b9ac76a9f3392ec09863ca0969db7c428d54908b82fa188bfa2/analysis/1407921257/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Improved%20Familiars%20Redux-50826--9.rar?fid=1000095638&ttl=1535832790&ri=8192&rs=8192&setec=ef91e3dc41a6f47a494b799ad9297080"
+    }
+  ]
+}

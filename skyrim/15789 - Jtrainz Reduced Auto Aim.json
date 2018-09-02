@@ -1,0 +1,32 @@
+{
+  "modId": 15789.0,
+  "modName": "Jtrainz Reduced Auto Aim",
+  "summary": "Reduces auto aim but keeps enough so you stay on target with a adjusted third person crosshair, Also some .ini tweaks in the readme",
+  "descriptionHtml": "-Jtrainz Reduced Auto Aim-\r\n\r\n-Description-\r\n\r\nJust a simple mod that reduces but does not entirely remove the auto \r\naim so you can adjust the crosshairs in third person and stay on \r\ntarget.\r\n\r\nNot quite sure on how to make it work with the Nexus Mod Manager so that\\'s disabled until I know for sure or the unlikely possibility of this getting absurdly popular.\r\n\r\n\r\n-Installation-\r\n\r\nDrop the ReducedAutoAim.esp in your Skyrim\\'s data folder, Usually \r\nfound at C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim. \r\nLaunch it the default way, Enable the plugin then either hit play or \r\nexit and launch it with skse if you use that.\r\n\r\n-Optional .ini tweaks and the crosshair position I use-\r\n\r\nThe skyrim .ini file is found in Documents\\\\My Games\\\\Skyrim, The \r\nsettings I have in the screens,\r\n\r\n[Combat]\r\nf1PArrowTiltUpAngle=0.4\r\nf3PArrowTiltUpAngle=1.5\r\n\r\n[Camera]\r\nfOverShoulderAddY=0.0000\r\nfOverShoulderPosZ=-13.0000\r\nfOverShoulderPosX=27.0000\r\nfOverShoulderCombatAddY=-50.0000\r\nfOverShoulderCombatPosZ=0.0000\r\nfOverShoulderCombatPosX=30.0000\r\n\r\nThe [Combat] Section helps bring the arrows more on target, Thanks \r\nto Kevkas and the section on it in Arrow Tweaks info.\r\n\r\nThe [Camera] section is the placement of your crosshairs, The first \r\nthree are standard, The second three are in combat. Thanks to \r\nmtgAzim for giving me the basics on tweaking this to my liking.\r\nAs for adjusting it to your own liking the Z is up and down, The X \r\nis left and right, What I did was minimize skyrim adjust it bring \r\nskyrim back up hit the tilde key ~ to open the console and type \r\nrefini to reload the .ini, Then you sheath and bring your weapon \r\nback out to see the new position.\r\n\r\n-Credit where credit is due-\r\n\r\nmtgAzim and there Third person cambat camera mod/.ini tweak \r\nsuggestion, This gave me the basic idea to start adjusting my own to \r\nmy liking and my default camera position is still the same as he \r\nsuggests.\r\nhttp://www.skyrim.nexusmods.com/downloads/file.php?id=8035&navtag=file/images.php?id=8035&tab=3\r\n\r\nKevkas and there Arrow Tweaks mod, The arrowtiltangle I found due to \r\nhis optional .ini config tweaks, Also I highly recommend his mod.\r\nhttp://www.skyrim.nexusmods.com/downloads/file.php?id=11941\r\n",
+  "categoryId": "62",
+  "version": "",
+  "author": "Jtrainz",
+  "createdUnix": "1335220234",
+  "updatedUnix": "1335220344",
+  "containsAdultContent": false,
+  "uploadedBy": "Jtrainz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "55769",
+      "name": "Jtrainz Reduced Auto Aim",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Jtrainz Reduced Auto Aim-15789.zip",
+      "uploadedUnix": "1335220344",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/6f60d09e833cfe52788400cfa56f3bb28c700a09fa1fda564c17bec3ff888bdd/analysis/1406832618/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jtrainz%20Reduced%20Auto%20Aim-15789.zip?fid=55769&ttl=1535780499&ri=8192&rs=8192&setec=4eee1e9ebaf32cab9f1e2be06c0b3c4a"
+    }
+  ]
+}

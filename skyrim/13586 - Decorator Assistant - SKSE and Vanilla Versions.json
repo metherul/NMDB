@@ -1,0 +1,48 @@
+{
+  "modId": 13586.0,
+  "modName": "Decorator Assistant - SKSE and Vanilla Versions",
+  "summary": "Allows the player more precision in adjusting item placement than the grab function.",
+  "descriptionHtml": "***NOTE***\r\nI am no longer actively playing or modding Skyrim, and haven\\'t been since summer 2012.\r\n\r\nDescription\r\n===========\r\nGives the player greater precision in placing objects than by using the grab function.\r\n\r\nRequired Files\r\n==============\r\nSKSE if you use the SKSE version. Version 1.5.4 or above.\r\n\r\nDetails\r\n=======\r\nWhen the mod is loaded, the player will find the lesser power \\\"Decorator Assistant - SKSE\\\" or \\\"Decorator Assistant - Vanilla\\\" in his/her spells list.\r\n\r\nUsing the lesser power while sneaking will allow the player to adjust the settings for object placement. The menu will let the player choose how much an object should move and rotate for each button click or key press.\r\n\r\nIn the vanilla version, it will also let the player choose between a purely menu driven interface or a \\\"punch driven\\\" interface. There will be instructions given when entering punch driven mode.\r\n\r\nIn the SKSE version, it will also let the player set the hotkeys used when manipulating object placement.\r\n\r\nIf the player is not sneaking when the lesser power is used, then the player has 10 seconds to grab an object (by holding down the activate key) in order to place it with Decorator Assistant. The player could also be already grabbing an object before using the power.\r\n\r\nThis will open up a menu for manipulating object placement. The menus themselves should be self-explanatory.  While moving an object, you can close the menu and then activate the object to re-open the menu.\r\n\r\nIn all versions, you automatically exit DA mode if you leave the cell while manipulating an object.  In the vanilla menu-driven mode, you also automatically exit DA mode if you have been out of the menu for 10 consecutive seconds.\r\n\r\nInstall\r\n=======\r\n1. Download version 1.4\r\n2. Extract the files to a temporary location.\r\n3. Examine the folder structure and make corrections where necessary.\r\n4. Choose either the SKSE or Vanilla version.\r\n5. Copy files to (install folder)\\\\Skyrim\\\\Data\\\\\r\n6. Start Skyrim Launcher, click \\'Data Files\\', place a checkmark beside the .esp file(s).\r\n\r\nUninstall\r\n=========\r\n1. Start Skyrim Launcher, click Data Files, uncheck the .esp file(s).\r\n2. Delete the files/folders associated with the mod. (Check ReadMe for more details.)\r\n\r\nUpgrade\r\n=======\r\n1. Version 1.4 is completely non-compatible with previous versions.  You should only use version 1.4 in saves wherein you have never used Decorator Assistant.\r\n2. If upgrading from 1.3 to 1.3.1, just overwrite the old files with the new files.\r\n3. If upgrading from an even earlier version to 1.3.1, then you will need to make a clean save first (by removing the old version, loading and then saving the game, then installing the new version).\r\n\r\nKnown Issues or Bugs\r\n====================\r\n1. When placing food, potions, or miscellaneous objects dropped from the inventory, these items will mysteriously drop a couple units in the Z axis every time the cell is loaded.\r\n\r\n\tAs of version 1.4, this is no longer a problem because the script now uses TranslateTo instead of MoveTo, SetPosition, or SetAngle functions.\r\n\r\n2. I\\'m using the SKSE version, and the menus work, but the hotkeys don\\'t.\r\n\r\n\tMake sure that you have SKSE 1.5.4 or higher [b]fully[/b] installed.  This includes the compiled .pex script files in the Data\\\\Scripts\\\\ folder.  Make sure that you\\'re launching the game from skse_loader.exe.\r\n\r\nContact\r\n=======\r\nYou can find me on the official Elder Scrolls forums as \\'RandomNoob\\'\r\nYou can find me on TESNexus as \\'fg109\\'\r\n\r\nTools Used\r\n==========\r\nReadme Generator - http://HammondsLegacy.com/obmm/tools_readme_generator1.asp\r\nSKSE - http://skse.silverlock.org/",
+  "categoryId": "67",
+  "version": "1.4",
+  "author": "fg109",
+  "createdUnix": "1332604366",
+  "updatedUnix": "1336292648",
+  "containsAdultContent": false,
+  "uploadedBy": "fg109",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "59110",
+      "name": "Decorator Assistant - 1-3-1",
+      "version": "1.3.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "32",
+      "fileName": "Decorator Assistant - 1-3-1-13586.rar",
+      "uploadedUnix": "1336292132",
+      "modVersion": "1.3.1",
+      "virusScanUrl": "https://www.virustotal.com/file/a52a4c77cc724d27e13d1dd075d078b31b4fa56169e6bb2c69746b02fb1796f4/analysis/1406871004/",
+      "changelogHtml": " Made a small change to the scripts for the vanilla version. <br/> \n For the SKSE version, added the ability to set hotkeys. <br/> \n Repacked all the 1.3.1 files into one archive. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Decorator%20Assistant%20-%201-3-1-13586.rar?fid=59110&ttl=1535776501&ri=8192&rs=8192&setec=7fee07d25cfe741ca991b31e4bbf9ca8"
+    },
+    {
+      "fileId": "59112",
+      "name": "Decorator Assistant - 1-4",
+      "version": "1.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "22",
+      "fileName": "Decorator Assistant - 1-4-13586-1-4.rar",
+      "uploadedUnix": "1336292648",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/7f9de5dd7c547505d46e87c8297d4aec3f9be491795debdab5e6d68936e950e6/analysis/1406871005/",
+      "changelogHtml": " Changed the scripts to the bug is totally avoided. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Decorator%20Assistant%20-%201-4-13586-1-4.rar?fid=59112&ttl=1535776501&ri=8192&rs=8192&setec=71f67745d1deb0f5d8aaef420386fc2a"
+    }
+  ]
+}

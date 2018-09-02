@@ -1,0 +1,32 @@
+{
+  "modId": 34073.0,
+  "modName": "Simple Save Backup",
+  "summary": "A very small batch file that facilitates save backup process.",
+  "descriptionHtml": "It happens that I mess around with my Skyrim so much that I need to be 100% sure I have my saves backed up. This tool makes save backup process dead simple.\r\n\r\nInstallation consists of 2 steps:\r\n1. Unpack the archive contents on your PC (location is irrelevant).\r\n2. Manually edit the bat file, replacing the text SKYRIMSAVES with your Skyrim savegame folder:\r\n\r\n[b]In case of default Skyrim installation on Vista and Windows 7, the last line in bat file would look like this:[/b]\r\n7z.exe a -x!*.7z -x!*.bak \\\"C:\\\\Users\\\\[UserName]\\\\Documents\\\\My Games\\\\Skyrim\\\\Saves\\\\%NAME%\\\" \\\"C:\\\\Users\\\\[UserName]\\\\Documents\\\\My Games\\\\Skyrim\\\\Saves\\\\*.*\\\"\r\n\r\n[b]In case of Windows XP:[/b]\r\n7z.exe a -x!*.7z -x!*.bak \\\"C:\\\\Documents and Settings\\\\[UserName]\\\\My Documents\\\\My Games\\\\Skyrim\\\\Saves\\\\%NAME%\\\" \\\"C:\\\\Documents and Settings\\\\[UserName]\\\\My Documents\\\\My Games\\\\Skyrim\\\\Saves\\\\*.*\\\"\r\n\r\n[u]Of course, also make sure to replace [Username] with your actual user name.[/u]\r\n\r\n[b]Now, every time this file is ran all saves are archived to a file named SaveBackup_currentdate_currenttime.7z.[/b]\r\nBAK files are not archived as it\\'s unnecessary.\r\n\r\nThis utility cannot be simpler but of course I cannot be held responsible if things go awry on your end.\r\n\r\nHappy saving!",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "baal1980",
+  "createdUnix": "1364570233",
+  "updatedUnix": "1364570029",
+  "containsAdultContent": false,
+  "uploadedBy": "baal1980",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000020932",
+      "name": "Main File",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "88",
+      "fileName": "Main File-34073-1-0.7z",
+      "uploadedUnix": "1364570029",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7642f17c1acec4392bb9c4e8685e21e8e037243de12da23421abdc55aa03fbab/analysis/1407493833/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Main%20File-34073-1-0.7z?fid=1000020932&ttl=1535811585&ri=8192&rs=8192&setec=42a1d6094621cb32a62e87983344a827"
+    }
+  ]
+}

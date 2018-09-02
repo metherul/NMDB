@@ -1,0 +1,48 @@
+{
+  "modId": 77838.0,
+  "modName": "NVCPie - NVIDIA Control Panel in English",
+  "summary": "This is a handy Batch (.bat) File that changes the language of your NVIDIA Control Panel to English, instead of your regional language, which can be very useful when installing an ENB for example and you need to adjust some settings while the instructions are in English.",
+  "descriptionHtml": "[size=6][color=#ff0000]NOTE: This tool is only meant for [/color][color=#00ff00]NVIDIA [/color][color=#ff0000]users whose regional language is not English, obviously.[/color]\n<br />[/size]\n<br />[font=Comic Sans MS][color=#999999][size=4][center]________________________________________________________________________________________[/center][/size][/color][/font]\n<br />\n<br />[color=#00ffff][size=5][u]Description\n<br />[/u][/size][/color]\n<br />[size=3]By default, your NVIDIA Control Panel uses your regional language instead of the default language English, or any other language for that matter, no matter which language you select when downloading your drivers. This used to be different in the past though... But this can be rather annoying when you want to understand or compare certain options or settings in your Control Panel on the internet where pretty much everything is in English, or when you're following an English guide, and your Control Panel is not in English by default.\n<br />[/size][size=3]It annoyed me personally because I wanted to make screenshots of my Control Panel settings for my ENB and share them with the community, but since I live in the Netherlands my settings are in Dutch so that didn't help much lol.[/size]\n<br />\n<br />[size=3]But I have the solution!! Let me explain how it works. There's a bunch of .dll files present in your drivers that start with \"nv\" (which stands for NVIDIA) and end with \"r\" (which stands for regional). These .dll files force your Control Panel to use your regional language on startup. But that's not what we want, right?!\n<br />Now, I've made a Batch (.bat) File (a script for CMD) that solves this by automatically deleting those regional .dll files that force your Control Panel to use your regional language, instead of just English. The batch file will automatically stop the processes that use those .dll files, then back up and delete those .dll files and then start those processes back up.\n<br />[/size]\n<br />[size=3]Of course this can be done manually too, but I figured it would be much more convenient to just run a script and press Enter one time instead of having to search for the right folders, then deleting all the right files, making a backup, etc... Besides, making a batch file is fun haha![/size]\n<br />\n<br />\n<br />[u][color=#00ffff][size=5]Requirements\n<br />[/size][/color][/u]\n<br />[list]\n<br />[*][size=3]NVIDIA Control Panel / drivers (duh)[/size]\n<br />[*][size=3]64-bit Windows (32-bit might work as well but I'm unable to test that, but who's running 32-bit anyway lol)[/size]\n<br />[*][size=3]CMD (yeah I know... duh)[/size]\n<br />[/list]\n<br />[size=3]If you don't have at least these 3 things, something is seriously wrong lol...\n<br />[/size]\n<br />\n<br />[color=#00ffff][size=5][u]Instructions\n<br />[/u][/size][/color]\n<br />[list=1]\n<br />[*][size=3]Download the archive from the Files Section[/size]\n<br />\n<br />[*][size=3]Extract the archive[/size]\n<br />\n<br />[*][size=3]Run the batch file[/size]\n<br />\n<br />[*][size=3]Follow the instructions in the Command Prompt (CMD)[/size]\n<br />\n<br />[*][size=3]Done![/size]\n<br />[/list]\n<br />\n<br />[color=#00ffff][size=5][u]Additional Notes / Features\n<br />[/u][/size][/color]\n<br />[list]\n<br />[*][size=3]You want your Control Panel back in your regional language? No problem, just run the batch file again! It will automatically detect that your Control Panel is in English and offer you to restore it.[/size]\n<br />[/list]\n<br />[list]\n<br />[*][size=3]You can safely run the batch file over and over again as it will always detect whether your Control Panel is in English or in your Regional language, and then perform actions accordingly.[/size]\n<br />[/list]\n<br />[list]\n<br />[*][size=3]The batch file will also automatically detect whether your drivers are installed either correctly or incorrectly, not on your system drive or not at all, and it will also automatically detect whether your system is installed on a drive other than \"C:\", so there's a lot of flexibility for users.[/size]\n<br />[/list]\n<br />[list]\n<br />[*][size=3]Lastly, you'll have to rerun the batch file every time you update or reinstall your drivers.[/size]\n<br />[/list]\n<br />[font=Comic Sans MS][color=#999999][size=4][center]________________________________________________________________________________________[/center][/size][/color][/font]\n<br />\n<br />[center][size=4][color=#ffff00]I hope it worked for you! If not, please leave a post and I'll see what I can do![/color]\n<br />[/size][/center]\n<br />[font=Comic Sans MS][color=#999999][size=4][center]________________________________________________________________________________________[/center][/size][/color][/font]",
+  "categoryId": "39",
+  "version": "1.1",
+  "author": "Exalerion",
+  "createdUnix": "1471365706",
+  "updatedUnix": "1511051788",
+  "containsAdultContent": false,
+  "uploadedBy": "Exalerion",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000217200",
+      "name": "NVCPie",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "NVCPie-77838-1-0.rar",
+      "uploadedUnix": "1471363696",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/fddb6c9d3a0403c712ace3815ff2339dd596e413c6ec211df102f2dd92f3e075/analysis/1471363742/",
+      "changelogHtml": " Initial release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NVCPie-77838-1-0.rar?fid=1000217200&ttl=1535866450&ri=8192&rs=8192&setec=0933b144439091432193f32fafb06f7b"
+    },
+    {
+      "fileId": "1000260018",
+      "name": "NVCPie",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "NVCPie-77838-1-1.rar",
+      "uploadedUnix": "1511051788",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/6208af1c0e4afb12586489ccd198f2d50fb37246d0a6a0bfd73f909d75fb046d/analysis/1511052242/",
+      "changelogHtml": " Fixed a warning message about missing nvtray.exe, as this file is no longer distributed with the NVIDIA drivers <br/> \n Added a file existence check for both nvtray.exe and nvcplui.exe for task start <br/> \n Added one .dll file to the list of regional .dll files to remove <br/> \n Cleaned up some code and added an indentation structure to the script <br/> \n Improved some text and instructions <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NVCPie-77838-1-1.rar?fid=1000260018&ttl=1535866450&ri=8192&rs=8192&setec=aaa77dd410a9d40c85266424af2881b9"
+    }
+  ]
+}

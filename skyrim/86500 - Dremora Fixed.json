@@ -1,0 +1,48 @@
+{
+  "modId": 86500.0,
+  "modName": "Dremora Fixed",
+  "summary": "In Skyrim everything Dremora have in their left hand is invisible; moreover they cannot dual wield. It fixes that. - ALL LANGUAGES",
+  "descriptionHtml": "Let&#39;s go back to Skyrim&#33;\r<br />\r<br />Since the first time I started using dead thralls in Skyrim, I decided to use Dremora, because I liked that they keep their vocal clips rather then just moaning. However when I gave them torches and night fell, or we entered in a dark place, I experienced and discovered the &#34;invisible torch&#34; bug. (check screenshots 3 and 4, or test in game without my mod).\r<br />\r<br />I also noticed that if I gave them a Daedric Shield, they tried to equip it, but just failed. And as last thing I observed that they just used, if give in their inventory, one staff per time, nothing more. (both Dremora soldiers and mages)\r<br />So, after turning myself into a dremora through console commands, I just discovered that that troubles were linked to the dremora race itself, and not to broken game mechanics. After some testing and studing from other humanoid race in the Creation Kit, i found it&#33;\r<br />\r<br />This problem was linked to these 2 mistakes in the DremoraRace in the CreationKit:\r<br />- wrong &#34;Shield biped object&#34;: it should be set to SHIELD, like other races, it is instead set to NONE\r<br />- the missing tick in &#34;Can dual wield&#34; box in the &#34;combat data&#34; section (after that, events in attack data must be updated via &#34;Update events&#34; button)\r<br />\r<br />COMPATIBILITY:\r<br />It is compatible with everything except mod that touches the DremoraRace\r<br />However keep in mind that if you already use a mod that touches dremora, in particular if it makes them playable, this problem is probably already solved.\r<br />\r<br />This problem [color=#ff0000][size=4]IS NOT YET[/size][/color] fixed by the &#34;Unofficial Skyrim Legendary Edtion Patch&#34;.\r<br />\r<br />FAQ (Frequently Asked Questions):\r<br />Q: Can I use this with USLEEP?\r<br />A: Sure you can, I added the head track animations, so nothing get lost. Just be sure my mod is loaded after USLEEP (as it should be, since USLEEP needs to be loaded after the Official DLCs)\r<br />\r<br />INSTALLATION:\r<br />Put it in the Data folder of your game, should be:\r<br />C:&#92;Program Files (x86)&#92;Bethesda Softworks&#92;The Elder Scrolls V Skyrim - Legendary Edition&#92;Data\r<br />\r<br />Check if active in your Skyrim Launcher -&gt; Data FIles\r<br />\r<br />\r<br />Good Skyrim you all,\r<br />Rirgaril\r<br />\r<br />=====================================================================================================\r<br />=====================================================================================================\r<br />\r<br />TRADUZIONE ITALIANA\r<br />\r<br />Torniamo su Skyrim&#33;\r<br />\r<br />Sin dalla prima volta che ho cominciato a usare i &#34;Servi Non-Morti&#34; in Skyrim, ho sempre usato i Dremora, in particolare perché mi piaceva che mantenessero i loro clip vocali originali, invece del lamentarsi come fanno molti NPC rianimati. In ogni caso, quando ho dato una torcia and giugeva la notte, o entravamo in un luogo buio, ho scoperto il bug della &#34;torcia invisibile&#34;. (Guarda screenshot 3 e 4, o prova direttamente in game senza la mia mod).\r<br />\r<br />Ho anche notato che se davo loro uno scudo daedrico, provavano ad equipaggiarlo ma senza riuscirci. E come ultima cosa ho osservato che usavano, se messo nel loro inventario, solo un bastone magico per volta, nulla di più. (Sia Dremora soldati che maghi)\r<br />Quindi, dopo essermi trasformato in un Dremora tramite comandi console, ho scoperto che i problemi erano correlati proprio alla razza dremora, e non a problemi nel gioco. Dopo un po&#39; di testing testing e studio delle altre razze umanoidi nel Creation Kit, ce l&#39;ho fatta e ho trovato l&#39;errore&#33;\r<br />\r<br />Questi problemi erano da riferirsi a questi 2 errori nella DremoraRace nel CreationKit:\r<br />- sbagliato &#34;Shield biped object&#34;: dovrebbee essere settato su SHIELD, come per le altre razze, è invece settato su NONE\r<br />- il baffetto mancante in &#34;Can dual wield&#34; box nella sezione &#34;combat data&#34; (dopodiché, gli events in attack data devono essere aggiornati tramite il tasto virtuale &#34;Update events&#34;)\r<br />\r<br />COMPATIBILITY:\r<br />Compatibile con qualsiasi cosa eccetto mod che alterano la DremoraRace\r<br />In ogni caso tieni a mente che se hai già una mod che tocca i Dremora, soprattutto se li rende razza giocabile, è verosimile che il problema sia già stato risolto.\r<br />\r<br />Questo problema [color=#ff0000][size=4]NON [/size][/color][color=#ff0000][size=4][b]È ANCORA[/b][/size][/color] risolto dalla &#34;Unofficial Skyrim Legendary Edtion Patch&#34;.\r<br />\r<br />FAQ (Domande frequenti):\r<br />D: Posso usare la mod con USLEEP?\r<br />A: Certamente, ho aggiunto le &#34;head track animations&#34;, così che nulla sia perduto. Fai solo attenzione che la mia mod sia caricata dopo USLEEP (come dovrebbe essere, dato che USLEEP deve essere caricati subito dopo i DLC ufficiali)\r<br />\r<br />INSTALLATION:\r<br />Metti l&#39;esp nella cartella &#34;Data&#34; del gioco, dovrebbe essere:\r<br />C:&#92;Program Files (x86)&#92;Bethesda Softworks&#92;The Elder Scrolls V Skyrim - Legendary Edition&#92;Data\r<br />\r<br />Controlla se è attiva nello Skyrim Launcher -&gt; FILE DI DATI\r<br />\r<br />\r<br />Felice Skyrim a tutti,\r<br />Rirgaril",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Rirgaril",
+  "createdUnix": "1504655529",
+  "updatedUnix": "1504654311",
+  "containsAdultContent": false,
+  "uploadedBy": "Rirgaril",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000253940",
+      "name": "Dremora Fixed - NO DRAGONBORN DLC - ALL LANGUAGES",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Dremora Fixed - NO DLC-86500-1-0.rar",
+      "uploadedUnix": "1504654222",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/047e8188c31b874f9f4379844ee2f4cfa29b11abba7aa245420e94d71a89e9c1/analysis/1504654502/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dremora%20Fixed%20-%20NO%20DLC-86500-1-0.rar?fid=1000253940&ttl=1535875419&ri=8192&rs=8192&setec=9762c98f7c518464c015636058a50bff"
+    },
+    {
+      "fileId": "1000253941",
+      "name": "Dremora Fixed - Dragonborn DLC- ALL LANGUAGES",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Dremora Fixed - Dragonborn DLC-86500-1-0.rar",
+      "uploadedUnix": "1504654311",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/60f2d00ed20100de2fdbeabf06a7f6fdc5ec9c06d2c5996ce56496342db6d871/analysis/1504654502/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dremora%20Fixed%20-%20Dragonborn%20DLC-86500-1-0.rar?fid=1000253941&ttl=1535875419&ri=8192&rs=8192&setec=f626f820f4e9d477494bf06621b16973"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 8626.0,
+  "modName": "Easier to use Bag of Holding",
+  "summary": "Adds a nifty portable knapsak to the storeroom of Helgen Keep that makes looting dungeons much less of a hassle.",
+  "descriptionHtml": "BAG OF HOLDING v1.1\r\nby pkmcgowan (Patrick K McGowan), 02/09/2012\r\n\r\nWhat it is:\r\n\r\nThis is my first Skyrim mod and it\\'s based on the TES4:Oblivion mod of the same name by Quazzy \r\n\r\nthat he uploaded to TESNexus.com of 5/9/06. The bag is located in Helgen Keep which means you\\'ll \r\n\r\nhave to start a new game or use the console to add one to your inventory (Form ID = 02000D62). \r\n\r\nFollow Ralof or Hadvar to the storeroom and climb up the ladder to the loft with the baskets and \r\n\r\nthe barrel. It looks like a knapsack but can be carried. The Bag of Holding is an absolute must \r\n\r\nhave item when exploring any dungeon, especially Dwarven ruins as you can now carry all the loot \r\n\r\nyou can grab.\r\n\r\n[Update: I now believe it\\'s possible for players who are well into a game to return to Helgen \r\n\r\nKeep and retrieve the bag from the storeroom. You will need the Helgen Keep key (there should be \r\n\r\none in the warden\\'s chest if Ralof didn\\'t get it the first time around). You\\'ll also have to \r\n\r\ndeal with bandits but that should only be a minor nuisance at this point.]\r\n\r\nInstallation:\r\n\r\nSimply extract the ESP plugin into your Skyrim directory (usually \\\\steamapps\\\\common\\\\skyrim\\\\Data\r\n\r\n\\\\) then start the game and select the DATA FILES option and make sure \\'Bag Of Holding.esp\\' is \r\n\r\nchecked. Next select play and either start a new game or use the console command player.additem \r\n\r\n02000D62 1.\r\n\r\n\r\nUsing the Bag Of Holding:\r\n\r\n1) Open the inventory menu and flag the Bag Of Holding as a favorite item.\r\n\r\n2) Open the Quick Menu and assign a quick key to the Bag Of Holding.\r\n\r\n3) Exit the Quick Menu and tap you newly assigned Quick Key to open up the bag\\'s inventory.\r\n\r\nEnjoy dumping your valuable, but heavy loot into your new portable container!\r\n\r\nIf you need to uninstall it then just delete the ESP file from your Skyrim directory.\r\n\r\n\r\nSpecial note:\r\nDue to the limitations of the game\\'s creation engine, I had to define the Bag of Holding as a 2\r\n\r\n-handed weapon. Because of this, using this item in a combat situation is a very BAD idea.\r\n\r\n\r\nChangelog:\r\n\r\nv1.1 fixes a bug where the bag item would not unequip itself after the player equips it. This \r\n\r\nPapyrus fix corrects this in a way that the bag now does this after a 0.1 second wait (even in \r\n\r\nmenu mode).",
+  "categoryId": "27",
+  "version": "1.1",
+  "author": "pkmcgowan",
+  "createdUnix": "1328841772",
+  "updatedUnix": "1329575011",
+  "containsAdultContent": false,
+  "uploadedBy": "pkmcgowan",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "28168",
+      "name": "Bag of Holding",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Bag of Holding-8626.zip",
+      "uploadedUnix": "1328841931",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d9ffcc129b5f182c29eece1498fe479fad31e2ddf30384e306efec4e47a0ca48/analysis/1406665983/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bag%20of%20Holding-8626.zip?fid=28168&ttl=1535767536&ri=8192&rs=8192&setec=911523316ff3b14762a912dfb56ccbb8"
+    },
+    {
+      "fileId": "33146",
+      "name": "Bag Of Holding version 1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Bag Of Holding version 1_1-8626-1-1.zip",
+      "uploadedUnix": "1329575011",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/23c0775350d5ea567a481285da9a9edd3814aed5c83ea7a866e34cb174678eaf/analysis/1406692983/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bag%20Of%20Holding%20version%201_1-8626-1-1.zip?fid=33146&ttl=1535767536&ri=8192&rs=8192&setec=9ed9626ad493f53b019c87b64bb9ffbf"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 25145.0,
+  "modName": "Winter in Skyrim - open alpha proof of concept and mod resource",
+  "summary": "Basic instructions and resources on how to create a Skyrim environment overhaul mod that brings winter into Skyrim. ",
+  "descriptionHtml": " Basic instructions and resources on how to create a Skyrim environment overhaul mod that brings winter into Skyrim. I will never finish this on my own because I don\\'t care for modding or Skyrim, or videos games for that matter, anymore. I stopped months ago and I don\\'t want to just trow away valuable work. This is open source, you can use this for whatever you want or, I hope, create a mod that I envisioned.\r\n\r\n \r\n 1. Idea is to trick the game to use snowy textures instead of already allocated. It can be accomplished by changing various paths within the esp, duplicating and renaming extracted textures manually and changing the paths for textures in meshes if all else fails. I have done most of that stuff in textures and esp you can download here. Although, I do not recommend using my esp for final version of the mod. I recommend starting from the scratch so you know exactly what you are doing. Basically, textures I could not change within the esp I changed manually by replacing actual textures. Some textures can be replaced only by changing the path in .nif files. \r\n\r\n Some textures have to be edited, like Aspen trees and object LOD. I have done Aspen trees already, quite proud of it, but object LOD is not completely finished. You will need photoshop to apply snow on lod objects, I have done this by selecting and copying snow lod texture from the same tamriel.objects.dds and positioning it over the texture I want to look snowy and through layer make it at least 60-80 % opacity depending on the texture. Idea is to preserve shape of the texture but still make it look snowy. So not completely replacing the texture.\r\n\r\n That was the easy part.\r\n\r\n 2. Directional Material - applying snow on objects within the esp.\r\n\r\n Not all snow in Skyrim\\'s objects is simply texture. Actually, all of the Skyrim\\'s static objects that are covered in snow look that way because of Directional Material. If you search in object window for example RockCliff01 and edit it, you will see Directional Material is set to NONE. Change that to SnowMaterialObject1P, and all 145 references within the game will have snow covered over them. That\\'s it, pretty simple ? Not really. Issue is that there are hundreds and hundreds of different types of rocks and cliffs and rubble, buildings, ruins that are placed in the exterior so they would need to be covered in snow. So you need a lot of patience and micro management. After that is done, then comes the hardest part most boring part.\r\n\r\n Some objects like rubble, ruins, rocks, plants(not objects technically), stockade\\'s are used both in exterior and interior. So you will need to manually fix every interior by making a duplicate of the snowy object, disabling snow on it or changing .nif path and finally replacing it within the interior. Lots of boring work, but nothing impossible. I have fixed interiors up till labyrinth cells in this esp.\r\n\r\n As for the roof of the buildings I recommend creating a new directional material that will have the roof completely covered in snow. It looks much better that way and more realistic.\r\n\r\n 3. Land Coloration\r\n\r\n If you run this stuff I uploaded, and run around Skyrim a little bit you will soon notice pink, green colors on the ground in the snow. That is because land is colored regardless of the texture. To fix this you need to discolor the ground with landscape tool, manually. So if you were to do this, I would recommend creating a separate esp just for this. As hard as this may sound, it is not. It looked quite easy work to me.\r\n\r\n 4. Remove/replace all of the unnecessary exterior stuff like plants, cabbage, butterflies. Replace all of the summer sounds with winter sounds so you don\\'t hear birds and insects during blizzard.\r\n\r\n 5. Create weather and climate - if you came this far then I don\\'t think you need an instruction on how to edit weather.\r\n\r\n 6. Less important stuff. Maybe add ice on rivers, snow drifts in cities, winter wind fx etc.\r\n\r\n I want to make 1 thing clear. THIS IS NOT A MOD REQUEST. Reason I am sharing this is because I think the idea is interesting and I could not forgive myself if I just deleted this work. I don\\'t really care if someone makes a mod out of this or not since I won\\'t play Skyrim anymore nor will I have access to gaming rig. Although it would be nice if someone actually succeeds in making this a reality. \r\n\r\n Take care and if you are interested in working on this mod feel free to PM me or post in comments, if you need help or anything.",
+  "categoryId": "82",
+  "version": "",
+  "author": "megatenP",
+  "createdUnix": "1349609167",
+  "updatedUnix": "1349609479",
+  "containsAdultContent": false,
+  "uploadedBy": "megatenP",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "92544",
+      "name": "WIS - alpha proof of concept",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6415",
+      "fileName": "WIS - alpha proof of concept-25145-.rar",
+      "uploadedUnix": "1349609479",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/a753f3e935fdc33b4b7193d0ee62ace6e281a5a05dafa528e6d7668bd5d9a000/analysis/1407208051/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/WIS%20-%20alpha%20proof%20of%20concept-25145-.rar?fid=92544&ttl=1535796522&ri=8192&rs=8192&setec=1094103b2cef39124129c287e34af546"
+    }
+  ]
+}

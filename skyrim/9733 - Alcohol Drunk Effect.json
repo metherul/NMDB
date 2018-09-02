@@ -1,0 +1,48 @@
+{
+  "modId": 9733.0,
+  "modName": "Alcohol Drunk Effect",
+  "summary": "Adds a drunk effect to Alcohol (multilingual [DE, EN])",
+  "descriptionHtml": "Also available at [url=http://steamcommunity.com/sharedfiles/filedetails/?id=11489]Steam Workshop[/url]\r<br />\r<br />This mod is multilingual [DE, EN].\r<br />The Mod is compatible with any version of Skyrim, inclusive Dawnguard.\r<br />Please endorse this mod if you like it.\r<br />\r<br />[center][url=http://www.skyrimgems.com][img]http://i.imgur.com/1wXSO.png[/img][/url][/center]\r<br />\r<br />[color=green][b]Version 3.0:[/b][/color]\r<br />[color=green]Short Description[/color]\r<br />Adds 3rd person drinking animation, animated stumble and visual blur effect over a short time when alcoholic drinks are consumed.\r<br />Works standing and partly when sitting in a chair.\r<br />Following alcohols are using the animation & visual-effect:\r<br />Ale, Alto Wine, Black-Briar Mead, Black-Briar Reserve, Dragon&#39;s Breath Mead, Firebrand Wine, Honningbrew Mead, Nord Mead, Spiced Wine, Wine, Cyrodilic Brandy, Colovian Brandy.\r<br />\r<br />[color=green]Long Description[/color]\r<br />Improved the animation script since v2. For an impression watch the new video.\r<br />For now there are a few stages of drunkenness:\r<br />[list][*]first drink is ok, no problem, we are hard-drinking.[*]the second one makes your vision blur.[*]the third drink makes you drunk an walking is not that easy.[*]the fourth drink repeats stage three but ends with an blackout that will move you to a (not fully)random location.[*]no further drinks after stage four until the counter resets an your character gets sober, to avoid script-loops or stucks.[/list]\r<br />\r<br />Also there is a Hangover-disease, sometimes, after the blackout. You can cure it like other diseases.\r<br />The drunkenness counter resets after one in-game hour after the last drink.\r<br />In-game wait time may longer in certain cases where the game clock jumps ahead by a large amount (i.e. fast travel).\r<br />\r<br />[color=yellow][b]Bugs:[/b][/color]\r<br />[list][*]forward glide while the drunk-stumble animation is active appears after a jump or holster the weapon.[*]sometimes walk doesn&#39;t work during the drunk-stumble animation.(you should be able to walk stumbling while hold or double tab the forward key,in some cases it helps to move quickly around the camera or press the jump key.)[/list]\r<br />\r<br />Please report if you find more.\r<br />\r<br />Fun Fact: Tried out totally random spawn after blackout, but it ends most time dying by falling damage.\r<br />\r<br />[color=yellow][b]Workaround when stuck:[/b][/color]\r<br />- If the blur effect remain on screen:\r<br />In game, open up the Console (default key is ~) and type in [i]rimodcf[/i] to remove the visual effect. (thanks to Jazzerus)\r<br />- If your character stuck in the stumble animation:\r<br />In game, open up the Console (default key is ~) and type in [i]showracemenu[/i], you don&#39;t have to change anything on you character, but only to navigate through the races changes the animation and stop the stumbling.\r<br />\r<br />[color=yellow][b]Install:[/b][/color]\r<br />Copy the &#34;data&#34; folder from the archive to your Skyrim directory.\r<br />If asked to overwrite, say yes.\r<br />Start the Skyrim launcher, go to &#34;Data Files&#34; and make sure the files are activated.\r<br />\r<br />[color=yellow][b]Uninstall:[/b][/color]\r<br />Delete the alcoholiceffect.esp from your &#34;...&#92;Skyrim&#92;data&#34; directory.\r<br />\r<br />[color=yellow][b]Note:[/b][/color]\r<br />This mod is not compatible with other mods that change above named alcoholics.\r<br />\r<br />And take a look at [url=http://skyrim.nexusmods.com/downloads/file.php?id=8888]Skooma Drug Effect[/url]",
+  "categoryId": "27",
+  "version": "3.0",
+  "author": "johnwayne1930",
+  "createdUnix": "1329296645",
+  "updatedUnix": "1338662149",
+  "containsAdultContent": false,
+  "uploadedBy": "johnwayne1930",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "57384",
+      "name": "Script source 3-0",
+      "version": "3.0",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Script source 3-0-9733.7z",
+      "uploadedUnix": "1335728114",
+      "modVersion": "3.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a54b2caf8988df6feb87bb71532a71ac40c76512c13a2d51e0cfb4c009657dff/analysis/1406854564/",
+      "changelogHtml": " improved animation script <br/> \n fixed (hopefully all) script-loop bugs <br/> \n fixed (hopefully all) animation stuck bugs <br/> \n added random location spawn after blackout <br/> \n added \\\"Cyrodilic Brandy\\\" and \\\"Colovian Brandy\\\" to the alcoholic list <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Script%20source%203-0-9733.7z?fid=57384&ttl=1535769527&ri=8192&rs=8192&setec=4bfeb3e7c3e13239d91ae7b7ac77a7f7"
+    },
+    {
+      "fileId": "65462",
+      "name": "Alcohol Drunk Effect",
+      "version": "3.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "Alcohol Drunk Effect-9733-3-0.7z",
+      "uploadedUnix": "1338662149",
+      "modVersion": "3.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b8eaaa1d8caa8bd5bcbe1718f99abe06f98eeacebb3cc3caa52d937ee6571a14/analysis/1406932865/",
+      "changelogHtml": " improved animation script <br/> \n fixed (hopefully all) script-loop bugs <br/> \n fixed (hopefully all) animation stuck bugs <br/> \n added random location spawn after blackout <br/> \n added \\\"Cyrodilic Brandy\\\" and \\\"Colovian Brandy\\\" to the alcoholic list <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Alcohol%20Drunk%20Effect-9733-3-0.7z?fid=65462&ttl=1535769527&ri=8192&rs=8192&setec=15a6d44d180eddcbe918ef0db66b18b7"
+    }
+  ]
+}

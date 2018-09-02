@@ -1,0 +1,32 @@
+{
+  "modId": 18333.0,
+  "modName": "Hidden Quiver",
+  "summary": "Hides the quiver entirely by replacing the skeleton.nif.",
+  "descriptionHtml": "This mod hides the quiver shown in third person by replacing the skeleton.nif file. This may interfere with some body mods like UNPB, though it should not cause problems with CBBE or UNP. It works for all races (including beasts).\r<br />\r<br />To install: just extract to the Skyrim folder.\r<br />\r<br />If you are using another mod that alters the default skeleton file, you can manually hide your quiver through nifskope. Open up the skeleton file you want to use and just change the &#34;Scale float&#34; value under &#34;&lt;number&gt; NiNode QUIVER&#34; from 1.0000 to 0.0001. This will hide the quiver the same as the file I uploaded will. Thanks for SlurpKnak for the suggestion&#33;",
+  "categoryId": "29",
+  "version": "1.0",
+  "author": "iplo472",
+  "createdUnix": "1339012864",
+  "updatedUnix": "1339013406",
+  "containsAdultContent": false,
+  "uploadedBy": "iplo472",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "66395",
+      "name": "Hidden Quiver",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "14",
+      "fileName": "Hidden Quiver-18333-1-0.7z",
+      "uploadedUnix": "1339013406",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0126b4170aeed1fe6bfcb85a2fb43bf3ce18db5268f8c61cd7a16395b788870f/analysis/1406943246/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hidden%20Quiver-18333-1-0.7z?fid=66395&ttl=1535785104&ri=8192&rs=8192&setec=26e2cf5eeb85d1ab1f1b5e9ed6eb2424"
+    }
+  ]
+}

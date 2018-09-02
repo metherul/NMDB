@@ -1,0 +1,48 @@
+{
+  "modId": 5300.0,
+  "modName": "Witchhunter Hat mod - replaces Jester hat",
+  "summary": "This is a reasonably cool looking witchhunter\\'s hat that I made for a first mod after a request on the SkyrimNexus forums. I used 3ds max, Zbrush, Photoshop, Nifskope and Skyrim.",
+  "descriptionHtml": "\r\nHello, thanks for reading this. This is my first mod, made after a request was posted \r\n\r\non this forum: http://www.thenexusforums.com/index.php?/topic/513219-request-\r\n\r\ninquisitor-hatwitchhunter-hat/\r\n-------\r\nThe hat currently replaces the jester hat in the game, and I have not replaced the name \r\n\r\nor statistics from that - it is purely a cosmetic change.\r\n-------\r\nTo install the data, extract the files from the rar into the Data folder. Replace any \r\n\r\nexisting files.\r\n\r\nTo uninstall, delete the files:\r\n(Data Folder)\\\\textures\\\\clothes\\\\jester\\\\witchhunterhat_n.dds\r\n(Data Folder)\\\\textures\\\\clothes\\\\jester\\\\witchhunterhat_d.dds\r\n(Data Folder)\\\\meshes\\\\clothes\\\\jester\\\\jesterhatmk_1.nif\r\n(Data Folder)\\\\meshes\\\\clothes\\\\jester\\\\jesterhatmk_0.nif\r\n(Data Folder)\\\\meshes\\\\clothes\\\\jester\\\\jesterhatma_1.nif\r\n(Data Folder)\\\\meshes\\\\clothes\\\\jester\\\\jesterhatmka_0.nif\r\n(Data Folder)\\\\meshes\\\\clothes\\\\jester\\\\jesterhatm_1.nif\r\n(Data Folder)\\\\meshes\\\\clothes\\\\jester\\\\jesterhatm_0.nif\r\n(Data Folder)\\\\meshes\\\\clothes\\\\jester\\\\jesterhatfk_1.nif\r\n(Data Folder)\\\\meshes\\\\clothes\\\\jester\\\\jesterhatfk_0.nif\r\n(Data Folder)\\\\meshes\\\\clothes\\\\jester\\\\jesterhatfa_1.nif\r\n(Data Folder)\\\\meshes\\\\clothes\\\\jester\\\\jesterhatfa_0.nif\r\n(Data Folder)\\\\meshes\\\\clothes\\\\jester\\\\jesterhatf_1.nif\r\n(Data Folder)\\\\meshes\\\\clothes\\\\jester\\\\jesterhatf_0.nif\r\n(Data Folder)\\\\meshes\\\\clothes\\\\jester\\\\jesterhat_go.nif\r\n-------\r\nTo get the hat onto your character in game (after installing the files), type in the \r\n\r\nconsole (press tilde ~ or `)\r\n\r\n\tplayer.additem 000cee72 1\r\n\r\nThen just equip the Jester\\'s Hat.\r\n-------\r\nThere a couple of small issues that I know about but cannot really fix: \r\n\r\n# The version of the hat that appears in the inventory or on the ground is sparkly as \r\n\r\nif enchanted... which it is technically, but I did not want it to look like this. \r\n\r\n# This version also does not have perfect collision data for flinging around the hat on \r\n\r\nthe ground.\r\n\r\n# There may be hairstyles that clip slightly through the hat.\r\n-------\r\nI welcome comments and bug reports, but I will not necessarily be able to implement improvements and/ or fixes.",
+  "categoryId": "60",
+  "version": "1.0",
+  "author": "Patrick Reece",
+  "createdUnix": "1325671080",
+  "updatedUnix": "1325674001",
+  "containsAdultContent": false,
+  "uploadedBy": "reecpj",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "16488",
+      "name": "Witchhunter Hat",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1947",
+      "fileName": "Witchhunter Hat-5300.rar",
+      "uploadedUnix": "1325671306",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/96bbd2c8cd6590520601a90b5ed32f14535cff765f116eb4380b03e67339aca9/analysis/1406581746/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Witchhunter%20Hat-5300.rar?fid=16488&ttl=1535761921&ri=8192&rs=8192&setec=f4827f8d840748b53a7e35718452d377"
+    },
+    {
+      "fileId": "16500",
+      "name": "Higher res textures 2k resolution with meshes",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "5561",
+      "fileName": "Higher res textures 2k resolution with meshes-5300-1-0.rar",
+      "uploadedUnix": "1325674001",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/222f5fe5f6b9ac4de2b9402543e7f57c1bbc133c2bec529739f068a702b7b9bb/analysis/1406581809/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Higher%20res%20textures%202k%20resolution%20with%20meshes-5300-1-0.rar?fid=16500&ttl=1535761921&ri=8192&rs=8192&setec=146db768dcd4241f131bf033c3b47f69"
+    }
+  ]
+}

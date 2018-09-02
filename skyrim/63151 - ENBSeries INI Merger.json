@@ -1,0 +1,32 @@
+{
+  "modId": 63151.0,
+  "modName": "ENBSeries INI Merger",
+  "summary": "tiny script which is merging enbseries.ini files",
+  "descriptionHtml": "[b][size=4]&#34;INI Merger&#34;, what??[/size][/b]\r<br />\r<br />[line]\r<br />[color=yellow]\r<br />[/color][size=2]You are ENB preset author and a new version of ENBSeries is out, there are new values and features available or got deleted and you are thinking:\r<br />[color=yellow]&#34;Damn, now i have to check my whole enbseries.ini again, i&#39;m too lazy and tired to check each line&#33;&#34;\r<br />\r<br />[/color]You are ENB preset user and a new version of your favorite ENB is out, it is using a new ENBSeries version and you are thinking:\r<br />[/size][color=yellow][size=2]&#34;Damn, i have made adjustments to previous version and now i will have to do this changes again&#33;&#34;[/size]\r<br />[/color]\r<br />[line]\r<br />\r<br />&#34;What can INI Merger do for me?&#34;\r<br />\r<br />[u]Description:[/u]\r<br />\r<br />ENBSeries INI Merger is a tiny script which is merging enbseries.ini files for you. It&#39;s a simple VBscript reading one sourcefile and one comparefile,\r<br />creating a merged file. It uses the sourcefile as template and if same line is found in comparefile, it uses that value instead.\r<br />\r<br />Result is an enbseries.ini that is exactly like the sourcefile but including the values of the comparefile. Could be used by ENB preset authors when updating to new ENBSeries version or by ENB preset users if they have done changes in enbseries.ini and want to update to new version of their favorite ENB but do not want to adjust enbseries.ini for their personal changes every time. Script also works for enblocal.ini.\r<br />\r<br />I&#39;ve made this script because of laziness and to avoid mistakes by manually editing hundreds of lines. human eye tends to get tired ;)\r<br />Maybe it&#39;s helpful for you too.\r<br />\r<br />[line]\r<br />For example:\r<br />My old enbseries.ini was made for 0.262 ENBSeries and now 0.266 is out. The new ini-file contains new lines and others got deleted.\r<br />\r<br />1. Copy ENBmerge.vbs, your old enbseries.ini 0.262 and new original enbseries.ini 0.266 from enbdev.com to a folder\r<br />2. Start ENBmerge.vbs\r<br />3. The script will ask twice for a file, first browse for the sourcefile (enbseries.ini 0.266), then browse for the comparefile (enbseries.ini 0.262)\r<br />4. New file named &#34;merged.ini&#34; will be created. It is exactly like the sourcefile but contains the values of the comparefile\r<br />5. Take the merged.ini, copy it to your Skyrimfolder, rename it to enbseries.ini and go.\r<br />\r<br />Be warned, i&#39;m a hobby coder and NOT free from error. Use it at your own risc. But no panic, you cannot destroy your files, this script is creating a new file and your files will stay untouched. But i recommend to check the result and to decide if everything is working for you.\r<br />\r<br />Improvements, suggestions and tips for better coding or any other info is highly welcome&#33;\r<br />\r<br />best regards,\r<br />SkyrimTuner",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "SkyrimTuner",
+  "createdUnix": "1425036093",
+  "updatedUnix": "1425030938",
+  "containsAdultContent": false,
+  "uploadedBy": "SkyrimTuner",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000149319",
+      "name": "ENBSeries INI Merger",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "ENBSeries INI Merger-63151-1-0.7z",
+      "uploadedUnix": "1425030938",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c61f7c3c3eb1607186f92bd2e6f3ad9e400ce3b7d8b7b500e3e6a7334f99e0b7/analysis/1425030962/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENBSeries%20INI%20Merger-63151-1-0.7z?fid=1000149319&ttl=1535851830&ri=8192&rs=8192&setec=0128c8e52979631125821f5fea4b2aec"
+    }
+  ]
+}

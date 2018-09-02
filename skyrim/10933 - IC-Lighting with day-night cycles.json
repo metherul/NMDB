@@ -1,0 +1,48 @@
+{
+  "modId": 10933.0,
+  "modName": "IC-Lighting with day-night cycles",
+  "summary": "This mod attempts to brighten the inside of building when using a realistic lighting mod so you don\\'t need a torch just to find a bed or nightstand. It attempts to keep the lighting realistic, there are still dark corners and shadows -- but not to the extent it is frustrating or unreasonable. It also turns off lights that would be created by the s",
+  "descriptionHtml": "If you are using a lighting mod like Realistic Lighting you have probably noticed that the inside buildings and dungeons are too dark. The reason is Skyrim lighting was not programmed with a realistic lighting mod in mind. Since I don\\'t believe you shouldn\\'t need a torch just to find your bed I created this mod to fix that issue by changing the way lights work better illuminate those forgotten corners.\r\n\r\nI use [URL=http://skyrim.nexusmods.com/downloads/file.php?id=11]STEP[/URL] with [URL=http://skyrim.nexusmods.com/downloads/file.php?id=7654]Realistic Lighting[/URL] and my own customized ini file that I have included for your convenience.  You don\\'t need to use it -- it\\'s just there if you want it.\r\n\r\nI am also working on making sure that sunlight isn\\'t finding it\\'s way into buildings and dungeons at night.  It works well, and at night places that get a lot of sun during the day can become quite dark. At the moment light just switch off at 7pm and switch back on at 6am -- I am working on a way to fade the lights out so it\\'s only truly dark for a few hours -- but I\\'m note there yet.  If you don\\'t like the idea of instant on/off or just like places to be well lit just download the other version.\r\n\r\nPlease remember this is a work in progress -- the word is too large for me to look at every place all by myself so I need your help.  If you find any places that are too dark/bright please let me know. The best thing to do is to bring up the Console (~ Key) and click on something in the room, that will give you an item ID (like: 000dcc43).  Please post that because I can then look it up and get the exact room you are in.\r\n\r\nDon\\'t forget to come back and endorse if you like my work -- it keeps me motivated and will insure continued work on this mod! If there is something keeping you from endorsing please let me know and I may attempt to fix it.\r\n\r\nv1.2.1 -- updated the realistic lighting ini, making it just a tad bit darker inside buildings -- updated light\\'s out script to be more efficient.\r\n\r\nv1.2 -- Finalized (for now) the day/night cycles, still needs some work -- but it\\'s all I can do for now.  Added a custom ini file to fix areas that were pitch black when they shouldn\\'t have been. \r\n\r\nv1.1 -- Added day/night cycles to buildings and dungeons.  At night it is much darker -- during the day it is a little bit brighter.  (Working on fading this in/out over a few hours, not all places work -- but most do -- please report anything that is getting sunlight after 8pm -- also report things that are dark after 8pm that should not be)\r\n\r\nv1.0 -- All of Skyrim has been adjusted -- Most areas should be better than they were before, a few places may be worse. Please give feed back on problem areas so I can fix them\r\n\r\nv0.1 -- Riverwood \r\n\r\n** THIS IS A NEXUS EXCLUSIVE -- PLEASE DO NOT UPLOAD TO OTHER SITES **",
+  "categoryId": "62",
+  "version": "1.2.1",
+  "author": "JranZU",
+  "createdUnix": "1330008021",
+  "updatedUnix": "1330539934",
+  "containsAdultContent": false,
+  "uploadedBy": "JranZu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "38507",
+      "name": "IC-Lighting - v1_2_1 - Lights Out Version",
+      "version": "1.2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "19",
+      "fileName": "IC-Lighting - v1_2_1 - Lights Out Version-10933-1-2-1.7z",
+      "uploadedUnix": "1330539891",
+      "modVersion": "1.2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/a770041944d191faddbea6c3ab6455893d40f5b5ab543ce36c20c384cb6469c9/analysis/1406721723/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/IC-Lighting%20-%20v1_2_1%20-%20Lights%20Out%20Version-10933-1-2-1.7z?fid=38507&ttl=1535771759&ri=8192&rs=8192&setec=a05617c6921675d09eb52c4c68d6a4f8"
+    },
+    {
+      "fileId": "38508",
+      "name": "IC-Lighting - v1_2_1 - Lights On Version",
+      "version": "1.2.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "18",
+      "fileName": "IC-Lighting - v1_2_1 - Lights On Version-10933-1-2-1.7z",
+      "uploadedUnix": "1330539934",
+      "modVersion": "1.2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/af77bb19081f834e31a8d9fbbd7bcaa8409fcd84ae6f526299fc43474a44e48d/analysis/1406721724/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/IC-Lighting%20-%20v1_2_1%20-%20Lights%20On%20Version-10933-1-2-1.7z?fid=38508&ttl=1535771760&ri=8192&rs=8192&setec=2bbb329c1ab7303f1f7703b0a477b729"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 51876.0,
+  "modName": "Vampiric Strength and Dread Cloak",
+  "summary": "Re-enables the vampire abilities Vampiric Strength and Dread Cloak",
+  "descriptionHtml": "NOTE: The only purpose of this mod is to restore the vanilla/Dawnguard vampirism to what it was originally supposed to be by re-adding Vampiric Strength and Dread Cloak. As such, any other mods that affect Vampire gameplay WILL BE OVERWRITTEN if you use this mod in conjunction with them. If you&#39;re either looking for or using a complete Vampirism overhaul mod like Belua Sanguinare then don&#39;t bother with this mod, as it will probably include some form of unarmed bonuses anyway.\r<br />\r<br />These two abilities were apparently intended to be part of the bonuses you get during the stages of vampirism, as they are still listed in the script files. However, it seems they were disabled at some point by placing semicolons in front of the lines that would normally activate them. The reason for this is unknown. This mod fixes that, and adds them back in so they function exactly as they were intended to across all stages of vampirism.\r<br />\r<br />Dread Cloak is a power you get at Stage Three vampirism that basically acts like a magic-free Frost Cloak that can be used once a day. While not really all that groundbreaking, it at least fills in the awkward gap at Stage Three where you don&#39;t get any new power.\r<br />\r<br />Vampiric Strength is a bonus to unarmed damage that can be particularly useful for those challenging themselves with the unarmed build, as there aren&#39;t many ways to increase unarmed damage in the game. Vampiric Strength starts out at +5 unarmed damage at Stage One and maxes out at +20 at Stage Four. If you have the necromage perk it will max out at +25.\r<br />\r<br />To install, simply copy the Scripts folder for whatever version of the game you have (Vanilla or Dawnguard) and paste it in the Data section. Also included is the original script file in case you want to remove the mod.\r<br />\r<br />Note that this mod will only take effect in-game after you move to a different stage of vampirism. Just feed off of somebody (or wait 24 hours if you&#39;re not at stage four yet) and the two abilities will be added.\r<br />\r<br />Tested it myself and it works perfectly, but if I screwed something up and something&#39;s not working right, let me know (I&#39;m still kind of a noob at this stuff). This mod literally took 2 seconds to make because all I did was remove a few semicolons and compile the script file into a pex, so feel free to do whatever you want with it.\r<br />\r<br />Just to reiterate: this ISN&#39;T compatible with any other mod that changes vampire gameplay. Right now, this is only supposed to be used for vanilla vampires.",
+  "categoryId": "24",
+  "version": "",
+  "author": "KriegsSundayFinest",
+  "createdUnix": "1394235846",
+  "updatedUnix": "1394235348",
+  "containsAdultContent": false,
+  "uploadedBy": "KriegsSundayFinest",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000100257",
+      "name": "VampStrengthDreadCloakFix",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "23",
+      "fileName": "VampStrengthDreadCloakFix-51876-.zip",
+      "uploadedUnix": "1394235348",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/fff6440fe4256281bf114b7118e6fa46e75f3d817050cc37b52e259efb85e12a/analysis/1407964319/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VampStrengthDreadCloakFix-51876-.zip?fid=1000100257&ttl=1535834549&ri=8192&rs=8192&setec=fee4deb77dc59e789d47739af309f6a0"
+    }
+  ]
+}

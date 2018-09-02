@@ -1,0 +1,48 @@
+{
+  "modId": 83639.0,
+  "modName": "One With Nature - Requiem Patch",
+  "summary": "Patches inconsistencies between Requiem and One With Nature, with support for Requiem Minor Arcana and Requiem Behind the Curtain",
+  "descriptionHtml": "[b][color=#1e84cc][size=4]What does this mod do?\r<br />[/size][/color][/b]\r<br />It makes [url=http://www.nexusmods.com/skyrim/mods/54090/?]One With Nature[/url] compatible with [url=http://www.nexusmods.com/skyrim/mods/19281/?]Requiem[/url] while offering support for popular Requiem additions [url=http://www.nexusmods.com/skyrim/mods/72865/?]Minor Arcana[/url] and [url=http://www.nexusmods.com/skyrim/mods/74330/?]Behind the Curtain[/url].\r<br />\r<br />[color=#1e84cc][size=4]Which file do I need?[/size][/color]\r<br />\r<br />There&#39;s a FoMod allowing you to choose between basic Requiem + One With Nature, Requiem + One With Nature + Minor Arcana, and Requiem + One With Nature + Behind the Curtain.\r<br />\r<br />If you use both Behind the Curtain and Minor Arcana you don&#39;t need to download the Behind the Curtain patch. BTC only makes two changes to animals, both slaughterfish, so loading Behind the Curtain after Minor Arcana but before my patch will retain the proper values for both BTC and also One with Nature.\r<br />\r<br />[color=#1e84cc][size=4]What&#39;s my load order?[/size][/color]\r<br />\r<br />Skyrim.esm\r<br />Update.esm\r<br />Dawnguard.esm\r<br />HearthFires.esm\r<br />Dragonborn.esm\r<br />Unofficial Skyrim Legendary Edition Patch.esp\r<br />One With Nature.esp\r<br />Requiem.esp\r<br />Requiem - Bugsmasher Edition.esp\r<br />Requiem_Minor_Arcana.esp (If applicable)\r<br />Requiem - Behind the Curtain.esp (If applicable)\r<br />Requiem - SkyTEST.esp ([b]Only if you downloaded my optional patch, otherwise you&#39;ll overwrite records in this patch[/b])\r<br />Requiem - One With Nature.esp\r<br />Requiem for the Indifferent.esp",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "vram1974",
+  "createdUnix": "1493842082",
+  "updatedUnix": "1495215804",
+  "containsAdultContent": false,
+  "uploadedBy": "vram1974",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000243382",
+      "name": "Requiem One With Nature Patch",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "574",
+      "fileName": "Requiem One With Nature Patch-83639-1-0.7z",
+      "uploadedUnix": "1493842078",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/440ea0b47fa3254c96feba172ef83cb74c5a4b4a5828d24c9301bce29d5168aa/analysis/1493842084/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem%20One%20With%20Nature%20Patch-83639-1-0.7z?fid=1000243382&ttl=1535872468&ri=8192&rs=8192&setec=003ceb5bf15f9e7f4de260c6ca5ebfe2"
+    },
+    {
+      "fileId": "1000244675",
+      "name": "Requiem One With Nature SkyTEST Realistic Animals and Predators Patch",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "43",
+      "fileName": "Requiem One With Nature SkyTEST Realistic Animals and Predators Patch-83639-1-0.7z",
+      "uploadedUnix": "1495215804",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c5a65cefe1f4e6e1fed39c7ec802a4e284d90f44e85754867e076fb145f8df2f/analysis/1495216023/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem%20One%20With%20Nature%20SkyTEST%20Realistic%20Animals%20and%20Predators%20Patch-83639-1-0.7z?fid=1000244675&ttl=1535872469&ri=8192&rs=8192&setec=9c4347feee5c669c1b42734943e923f4"
+    }
+  ]
+}

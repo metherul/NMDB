@@ -1,0 +1,48 @@
+{
+  "modId": 59972.0,
+  "modName": "Really SweetFX Enhanced Lighting",
+  "summary": "Sweet FX setting for Relighting Skyrim + Pure Weather + ELE",
+  "descriptionHtml": "I let my screenshots tells explain this. \r<br />[u]\r<br />Requirement[/u]\r<br />1) [url=http://www.nexusmods.com/skyrim/mods/23364/?]SweetFX Shader Suite[/url] by [b]CeeJay[/b]\r<br />\r<br />[u]Recommended mod[/u] ([size=2][i]more like Requirement tho, as this setting are made with these mods in use[/i][/size])\r<br />1) [url=http://www.nexusmods.com/skyrim/mods/17609/?]Relighting Skyrim [/url]by NovakDalton\r<br />2) [url=http://www.nexusmods.com/skyrim/mods/52423/?]Pure Weather[/url] by Laast\r<br />3) [url=http://www.nexusmods.com/skyrim/mods/59733/?]Enhanced Lighting for ENB (ELE) - LITE[/url] by [b]--JawZ--[/b]\r<br />\r<br />[u]Optional[/u]\r<br />1) [url=http://www.nexusmods.com/skyrim/mods/12525/?]DYNAVISION - Dynamic Depth of Field[/url] by [b]Gopher and MyGoodEye[/b] ([i][size=2]While Pure Weather have its own DoF, having this on dynamic are too awesome to pass.[/size][/i])\r<br />\r<br />[b]Installation[/b]\r<br />  \r<br />1) Install SweetFX.\r<br />2) Extract or copy all the files from this download into the Skyrim directory, allow to overwrite. \r<br />\r<br />The installed files are:\r<br />[i]   SweetFX_preset.txt       \r<br />   Really_SweetFX.txt     \r<br />   [/i]\r<br />Making it compatible with ENBoost.\r<br />1) Unzipped SweetFX package in a different folder.\r<br />2) Rename the file d3d9.dll into Sweet_d3d9.dll\r<br />3) Copy everything in Skyrim directory.\r<br />4) Open file enblocal.ini\r<br />5) Make sure these are set\r<br />   [PROXY]\r<br />   EnableProxyLibrary=[b]true[/b]\r<br />   ProxyLibrary=Sweet_d3d9.dll\r<br />   [GLOBAL]\r<br />   UsePatchSpeedhackWithoutGraphics=[b]true[/b]\r<br />6) Extract or copy all the files from this download into the Skyrim directory, allow to overwrite. \r<br />\r<br />[b].::CREDIT::.[/b]\r<br />CeeJay.dk, for SweetFX .. or all this are not possible \r<br />Gamwich, for his texture mods, which I used all \r<br />Requiem team, Xarrian and now ogreboss, for they make Skyrim a better game overall.\r<br />and Bethesda.. for all the good time back from Arena and Daggerfall till Skyrim.\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/47231/?]ELFX VERSION[/url]",
+  "categoryId": "62",
+  "version": "1.1",
+  "author": "Deane",
+  "createdUnix": "1416048238",
+  "updatedUnix": "1416986874",
+  "containsAdultContent": false,
+  "uploadedBy": "deane9850",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000135368",
+      "name": "Really Sweet",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Really Sweet-59972-1-0.rar",
+      "uploadedUnix": "1416048184",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5ed0108ad422035018b45e856af3eb443f5b5e10e36a5db24fa344bcb16f05bf/analysis/1416048302/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Really%20Sweet-59972-1-0.rar?fid=1000135368&ttl=1535847470&ri=8192&rs=8192&setec=218336553d2c2babcb89226011956859"
+    },
+    {
+      "fileId": "1000136809",
+      "name": "V1.1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "V1.1-59972-1-1.rar",
+      "uploadedUnix": "1416986874",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/99e52cdc07a616c15dbcdb830a1cf5cb5becb22cbb97a82bb7bc6a6242a28f0e/analysis/1416986942/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/V1.1-59972-1-1.rar?fid=1000136809&ttl=1535847471&ri=8192&rs=8192&setec=db64ac9c9f306f75a9be77e010e80bc5"
+    }
+  ]
+}

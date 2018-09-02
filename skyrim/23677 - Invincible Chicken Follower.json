@@ -1,0 +1,32 @@
+{
+  "modId": 23677.0,
+  "modName": "Invincible Chicken Follower",
+  "summary": "The first thing I did when Creation Kit came out was make a chicken follower. It\\'s a rather clunky first effort, but I didn\\'t find any other chicken follower mods, so here you go!",
+  "descriptionHtml": "The chicken can be found in Whiterun.  She is usually lurking around the wooden barrel near The Warmaiden\\'s.  She\\'ll follow you almost anywhere, even into battle, and will even aggressively rush towards your enemies, but she doesn\\'t do them any damage.  Enemies will attack her, but she\\'s essential so she won\\'t die.  She uses an animal slot so you can still have a human follower.\r\n\r\nNeed an egg?  Punch her!  I know some people are very sensitive, so I want you to know that I don\\'t condone animal cruelty.  I thought it would be cool if she could lay eggs, but she doesn\\'t trigger any animation events that I could link to.  However, taking a hit does trigger an event.  So punching it is.  If you are not comfortable with punching fake game chickens, then just don\\'t punch her.\r\n\r\nUpdates:\r\nV3 - Added inital \\\"Follow me\\\" dialog. Punching chicken gets an egg.\r\nV2 - MasterZipZero has kindly added scripts to dismiss the chicken and ask it to wait! It doesn\\'t work correctly all the time for me, but she also linked me to the tutorial video and I\\'ve double-checked and everything looks right, so I would be interested to know if it\\'s just me or if everyone has issues.\r\n\r\nManual Installation\r\n1. Copy ChickenFollower.esp and ChickenFollower.bsa into your Data folder.\r\n2. Launch game.  Go into Data Files and make sure ChickenFollower.esp is checked.\r\n\r\n[b]To get dialog working, you will need to launch your save game, then make a fresh save and reload the save you just made.[/b]\r\n\r\nIf you should ever find yourself unable to select any dialog options, invoking a load screen by changing locations should fix it.\r\n\r\nIf telling the chicken to \\\"Go back home\\\" doesn\\'t dismiss her, you can try, hitting tilde (~) key to get into console, and type:\r\n\r\nset playeranimalcount to 0\r\n",
+  "categoryId": "65",
+  "version": "3",
+  "author": "GnatGoSplat",
+  "createdUnix": "1346851099",
+  "updatedUnix": "1347592248",
+  "containsAdultContent": false,
+  "uploadedBy": "GnatGoSplat",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "88299",
+      "name": "ChickenFollower",
+      "version": "3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "14",
+      "fileName": "ChickenFollower-23677-3.rar",
+      "uploadedUnix": "1347592248",
+      "modVersion": "3",
+      "virusScanUrl": "https://www.virustotal.com/file/734e672b2d376293d069e02261118dbbe7b71d29ed1377f6395a76dadc4d5722/analysis/1407163985/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ChickenFollower-23677-3.rar?fid=88299&ttl=1535794105&ri=8192&rs=8192&setec=b41486b06ceb810cf9f399027192c7ad"
+    }
+  ]
+}

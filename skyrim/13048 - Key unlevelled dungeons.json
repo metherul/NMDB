@@ -1,0 +1,32 @@
+{
+  "modId": 13048.0,
+  "modName": "Key unlevelled dungeons",
+  "summary": "This mod modifies the levels of actors in several dungeons: Mzulft, Labyrinthian, Alftand, and Skuldafn.  It also increases the level of Dwemer machines by 8 levels, Draugr by 6 levels, and sets the minimum level of stormcloaks and imperial soldiers to 25.",
+  "descriptionHtml": "This mod removes the level matching of several key dungeons to create motivations to strive to be better.  \r\n\r\nChanges:\r\n\r\nAll dwemer are 8 levels higher than original\r\nAll draugr are 6 levels higher than original\r\nI also adjusted the levelled character to match these changes.  Ultimately what this means is that Draugr and dwemer ruins will be a tough until you get high enough level to enter them, and late game be tougher than before.\r\n\r\nStormcloaks and imperials minimum level - 25\r\nBasically you need to be near level 25 before you can begin the civil war quests.\r\n\r\nSkuldafn - level 50 (alduin\\'s power base)\r\nAlftand - level 50 (gateway of blackreach and the elder scroll)\r\nSkuldafn has 2 level 50 dragons guarding it, but ultimately none of the other enemies will be level 50.  This is my guess on what level it will take to go through these dungeons.\r\n\r\nLabyrinthian - level 30 (guardian of staff of magnus)\r\nMzulft - level 30 (precursor to Labyrinthian, this was done because the college of winterhold is shut down after this quest) \r\n\r\nAgain, most of the enemies won\\'t be level 30, it\\'s just a guess at what level it will take to beat these dungeons.\r\n\r\n\r\n\r\nUltimately, I haven\\'t played through the game with these settings.   I just beat the game using vanilla settings, and I was a bit disappointed by how early I beat the final boss.  So I made these changes for my second play through.\r\n\r\nIMPORTANT.  As far as I\\'m aware, the ONLY way to get all of the spawning changes are to start a brand new game.  When you first create a game, a lot of the creatures levels are defined.  If you want to test to see if it\\'s working type of the following:\r\nplayer.setav health 10000\r\ncoc skuldafnentrance\r\nThen look around and verify that the majority of the enemies are way higher than you.  I didn\\'t level every single creature, just a majority of them.\r\n",
+  "categoryId": "24",
+  "version": "0.1",
+  "author": "Xanthen",
+  "createdUnix": "1331940925",
+  "updatedUnix": "1331940976",
+  "containsAdultContent": false,
+  "uploadedBy": "Xanthen",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "43943",
+      "name": "Key unlevelled dungeons",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "28",
+      "fileName": "Key unlevelled dungeons-13048-0-1.zip",
+      "uploadedUnix": "1331940976",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/46953f3e89188f960d7757143cfb212a7fc16493d1cd772c78c90b7d36728a3a/analysis/1406752033/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Key%20unlevelled%20dungeons-13048-0-1.zip?fid=43943&ttl=1535775477&ri=8192&rs=8192&setec=8afa305c4d44e03d0c649c46f0f18678"
+    }
+  ]
+}

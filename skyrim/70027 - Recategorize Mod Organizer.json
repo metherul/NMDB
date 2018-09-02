@@ -1,0 +1,48 @@
+{
+  "modId": 70027.0,
+  "modName": "Recategorize Mod Organizer",
+  "summary": "A bash script. It grabs the modid from each installed mods meta.ini. It uses the modid to grab the webpage. It grabs the mod category off the webpage and converts the category to Mod Organizer numbers. In short it recategorizes any mods you may have uncategorized.",
+  "descriptionHtml": " I made a bash script to recategorize mods that I accidentally uncategorized. \r<br />\r<br />It is bash so it only works on linux by default. However I think cygwin and other utilities allow you to run such things on Windows.\r<br /> The script itself has comments that should explain how it works. \r<br />\r<br />[b]You must edit the script to point to your installed mods directory and your mod download directory or it won&#39;t work[/b]\r<br />\r<br />Basically what it does is it searches each of your installed mods for a meta.ini file. It grabs the mod id from the meta file uses the id to navigate to the web page and then grabs the category of the mod off the web page. It then converts the category number to the appropriate number in MO and then writes that number into the meta.ini file. In short it recategorizes any mods you may have uncategorized. \r<br />\r<br />I run Skyrim on Linux and that is why it is a bash script. However I have heard there is a way to get bash scripts to work on Windows. [url=http://stackoverflow.com/questions/6413377/is-there-a-way-to-run-bash-scripts-on-windows]Here[/url] are some options. There is also an alternate file that uses [url=http://www.nexusmods.com/skyrim/mods/69255/?]Updated Mod Organizer Categories[/url] instead of the default categories   \r<br /> \r<br />A final note the script can take some amount of time especially with a slow internet connection and a ton of mods. Also the script probably won&#39;t do a whole lot if your mods never were categorized to begin with. ",
+  "categoryId": "39",
+  "version": "1",
+  "author": "Jambeaux",
+  "createdUnix": "1443213118",
+  "updatedUnix": "1443212732",
+  "containsAdultContent": false,
+  "uploadedBy": "Jambeaux",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000177904",
+      "name": "Recategorize",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Recategorize-70027-1.7z",
+      "uploadedUnix": "1443211194",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/23b454cbc85408450c81e8e33545c472a8f8e34f920ac1d5bdfe2ca60c0b084b/analysis/1443211203/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Recategorize-70027-1.7z?fid=1000177904&ttl=1535858605&ri=8192&rs=8192&setec=2fea03697ef183963852325f070e6321"
+    },
+    {
+      "fileId": "1000177906",
+      "name": "Alternate Recategorizaion",
+      "version": "v1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Alternate Recategorizaion-70027-v1.7z",
+      "uploadedUnix": "1443212732",
+      "modVersion": "v1",
+      "virusScanUrl": "https://www.virustotal.com/file/f959a70f55a768399237d8a2a23d63cfc1fd3226e0bf80e56b04cf6d673ee1a8/analysis/1443212763/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Alternate%20Recategorizaion-70027-v1.7z?fid=1000177906&ttl=1535858605&ri=8192&rs=8192&setec=15130cd18d9230b65c01995c51ecce32"
+    }
+  ]
+}

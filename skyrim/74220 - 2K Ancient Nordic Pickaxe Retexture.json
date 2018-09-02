@@ -1,0 +1,32 @@
+{
+  "modId": 74220.0,
+  "modName": "2K Ancient Nordic Pickaxe Retexture",
+  "summary": "Because the stretchy-squishy texture problem on the grip bugged me.",
+  "descriptionHtml": "[img]http://staticdelivery.nexusmods.com/mods/110/images/74220-3-1457987171.png[/img]\r<br />\r<br />\r<br />Author: MadCat221 (MadCat221@gmail.com)\r<br />\r<br />Version: 1.0\r<br />\r<br />First release: March 14, 2016 (PI DAY&#33;)\r<br />\r<br />1. Introduction\r<br />2: Installation\r<br />3. Version History\r<br />4: Compatibility Issues\r<br />5: Credits\r<br />\r<br />===============\r<br />1. INTRODUCTION\r<br />===============\r<br />\r<br />The Ancient Nordic Pickaxe has some... issues, namely around the grip.  The UVW is stretched along its length, and then the textures were stretched along with it, making it look bad.\r<br />\r<br />So I went in, and completely redid the three grip segments.  I salvaged the original head geometry/UVW and the normal map portions for it, and with some CrazyBump magic, created a new diffuse, specular, and even a proper envirocube mask (instead of the default gray.dds).  I also redirected the texture set to use the more appropriate Ore_Iron_E.dds envirocube texture instead of the Chitin_E_Ebony.dds cubemap.\r<br />\r<br />Additionally, I fixed some silliness with the havok collision hull geometry.\r<br />\r<br />All four instances of the mesh that I could find have been replaced: the weapon mesh, an unidentified-purpose clutter mesh, the animation mesh (when you frob an ore vein to hack at it like a plebe NPC instead of Elemental Fury-hacking away at it with weapon swings), and a load screen mesh.\r<br />\r<br />Diffuse and Normal textures are 2K DXT5, Enviromask is 1k Luminance.  \r<br />\r<br />===============\r<br />2. INSTALLATION\r<br />===============\r<br />\r<br />This is just a loose mesh/texture replacer, so no module needed.  Drag&#39;n&#39;drop to install or make your mod manager of choice handle it.\r<br />\r<br />==================\r<br />3. VERSION HISTORY\r<br />==================\r<br />\r<br />v 1.0:\r<br />First release.\r<br />\r<br />=======================\r<br />4: COMPATIBILITY ISSUES\r<br />=======================\r<br />\r<br />If there are any other Ancient Nordic Pickaxe mesh/texture replacers out there, this will not work with them.\r<br />\r<br />\r<br />==========\r<br />5: CREDITS\r<br />==========\r<br />Nobiax&#39;s Medieval Iron Texture (available on dA: [url=http://nobiax.deviantart.com/art/Commission-Medieval-textures-406572548]http://nobiax.deviantart.com/art/Commission-Medieval-textures-406572548[/url])",
+  "categoryId": "29",
+  "version": "1",
+  "author": "MadCat221",
+  "createdUnix": "1457987431",
+  "updatedUnix": "1457987392",
+  "containsAdultContent": false,
+  "uploadedBy": "Madcat221",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000199311",
+      "name": "2K Ancient Nordic Pickaxe Retextured 1_0",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7354",
+      "fileName": "2K Ancient Nordic Pickaxe Retextured 1_0-74220-1.7z",
+      "uploadedUnix": "1457987392",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/b6291489ba68493ee5da1ae295451e90916b80c1a125b4fd421273561b047be6/analysis/1457987405/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/2K%20Ancient%20Nordic%20Pickaxe%20Retextured%201_0-74220-1.7z?fid=1000199311&ttl=1535862989&ri=8192&rs=8192&setec=988f1ddc430863b1bce86d6bee9c1ecc"
+    }
+  ]
+}

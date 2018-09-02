@@ -1,0 +1,48 @@
+{
+  "modId": 27526.0,
+  "modName": "Transmutation - All",
+  "summary": "Transmutation of all ores to different ingredients.",
+  "descriptionHtml": "This mod adds spells, and books. The books can be found at the Riverwood Trader, in Riverwood.\r\n\r\nYou will not get a message when you transmute, just check your salt/firesalt/etc. and you will notice an increase.\r\n\r\nBuy the books, read them, and you gain spells that allow you to transmute ores to various ingredients. Make sure you have ore, not ingots.\r\n\r\nCurrently, it\\'s just ores to different ingredients. More to come though.\r\n\r\nSpecial thanks to steve40 and Ghaunadaur for helping me create the script.\r\n\r\nRequires SKSE\r\n\r\n\r\nI know this seems like a long tutorial, but honestly it\\'s really short.\r\n\r\nTutorial also included in the file itself, so if you need reminding it\\'s there.\r\n\r\n1.A short tutorial to anyone who wants to add more transmutations. Very simple, open CK. \r\n2.Go to magic effects (the base effects that decide spells)\r\n3.Type \\\"Trans\\\" or \\\"Transmute\\\" into the filter so you only see the things I created so far.\r\n4.Double click one of my effects.\r\n5.In the name bars, make your own ID and name for whatever you want to call it. Click OK.\r\n6.When asked to create a new reference, click yes.\r\n7.Then find the effect you created, double click it.\r\n8.Look to the bottom right, you will see a nice little script named there.\r\n9.I\\'ve made 2 scripts, one for iron to salt, and the second for salt to iron.\r\n10.Choose the script based on ingredient to misc item, or misc item to ingredient.\r\n11.Misc Item based script will be IronToSalt. Ingredient based Script will be SaltToIron.\r\n12.Now on either of the script you will be able to edit properties. Do this.\r\n13.You will notice a small box for ingredient or misc item. Click one of these, and then click the edit box.\r\n14.You will notice you can now choose from a list. Pick the items you wish to be transmuted.\r\n15.The top item will be taken, the bottom will be given.\r\n16.Click OK. And now you have customized the script to do what you want.\r\n17.Click OK, to close the magic effect.\r\n18.Navigate to spells. Right click, create new.\r\n19.Check the boxes -disallow absorb-disallow reflect- this is so magic resistance won\\'t factor.\r\n20.Right click in the spell effects box, and find the name of your magic effect. Also make sure the target is \\\"Self\\\".\r\n21.It\\'s as simple as clicking ok after that. and then going over to books.\r\n22.From here, find a book that you like and change the ID and Name to whatever you want.\r\n23.In the books editor you will notice you can make it so the book allows you to learn something.\r\n24.Change the learning to spell, then select your spell from the list. Click OK.\r\n25.Go to world objects>containers. Now in the filter, type the name of a shop like \\\"riverwoodtrader\\\" or just type merchant.\r\n26.These are the containers that merchants use to sell things. Add your book to any container you want, and click OK.\r\n27.If you don\\'t know how to add the item, you can right click>add item. Or you can drag and drop from the book section.\r\n28.Now click OK, and close all currently open boxes, go to top left and click \\\"file>save\\\".\r\n29.Go Ingame and find the trader you put your book on, and buy it.\r\n30.Use the book to learn the spell, then use it to transmute whatever it is you wanted.",
+  "categoryId": "75",
+  "version": "3",
+  "author": "Hadoumastery",
+  "createdUnix": "1354127977",
+  "updatedUnix": "1354197507",
+  "containsAdultContent": false,
+  "uploadedBy": "hadoumastery",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "102111",
+      "name": "TransmuteOres",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "TransmuteOres-27526-1.rar",
+      "uploadedUnix": "1354128009",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/b3278733e0049012828cc81f69c1137b2f3f93ad71506200a417c119d6f89d32/analysis/1407283392/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TransmuteOres-27526-1.rar?fid=102111&ttl=1535800330&ri=8192&rs=8192&setec=0d29e1538bfaa107fb56246d45ac3a33"
+    },
+    {
+      "fileId": "102218",
+      "name": "Transmute V3",
+      "version": "3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Transmute V3-27526-3.rar",
+      "uploadedUnix": "1354197507",
+      "modVersion": "3",
+      "virusScanUrl": "https://www.virustotal.com/file/28993b9dfdd8c0af11c244a6439bafe914b1b76a3c66d40ec55eb4752d3d81d9/analysis/1407284260/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Transmute%20V3-27526-3.rar?fid=102218&ttl=1535800330&ri=8192&rs=8192&setec=8776e34fa5f59edc780f9b0c563ae87c"
+    }
+  ]
+}

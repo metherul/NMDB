@@ -1,0 +1,48 @@
+{
+  "modId": 52712.0,
+  "modName": "Vanity Mirror",
+  "summary": "The Vanity mirror is a equip-able inventory item that will open the Limited Race Menu to allow you to make changes to your appearance, anywhere, anytime, at no cost.  It is fast, easy, and safe.  ",
+  "descriptionHtml": "     The Vanity mirror is a equip-able inventory item that will open the [b]Limited Race Menu[/b] to allow you to make changes to your appearance, anywhere, anytime, at no cost.  It is fast, easy, and safe. \r<br />[img]http://static-2.nexusmods.com/15/mods/110/images/52712-3-1413660973.jpg[/img]\r<br />One of the things I liked most about character creation in Skyrim was the War Paint overlays on the face.  I thought it was ideal for creating a bad-ass character for going into a dungeon crawl or a boss fight, so of course I went totally overboard with it.  The problem with that is when you go into town to mingle with other citizens or shopping at the local markets, and you&#39;ve got your face all done up to the badest bad and it just looks so totally out of place, a bit of an immersion killer really.\r<br />\r<br />     The options were basically to not use the war paint, or use the [b]ShowRaceMenu[/b] command in the console.  [b]ShowRaceMenu[/b] works, but for me it was a bit of a nuisance - open the console, type in the command and don&#39;t spell it wrong or you do it again, correct the changes that it made automatically to the face, make your changes, type in your character&#39;s name again and then exit back to the game.  I can&#39;t even count how many times I&#39;ve done that, and as a modder you know we are always looking to get rid of things that annoy us.\r<br />\r<br />     If you have ever browsed the papyrus wikki then you have probably seen the [b]ShowLimitedRaceMenu[/b] command.  Every time I saw it my reaction was always the same, [b]&#34;hmm, I really have to do something with that someday&#34;.[/b]  My first thought was to put it on a mirror in a house, and it would be a [b]&#34;mirror mirror on the wall, who is the fairest of them all?&#34;[/b] kind of thing.  Not a bad idea, but wouldn&#39;t really solve the problem of access.  What I wanted was easy access to the race menu no matter where I was, any time any where at no cost.  The obvious answer was to put the script on a small mirror that you carry with you - you equip the mirror and the race menu comes up.  To make it equip-able it needed to be a wearable item, so it is in fact a ring.  It doesn&#39;t look like a ring and doesn&#39;t use the ring slot so it wont interfere with other rings, but it is a ring, that&#39;s how it works.  The inventory item itself is nothing special to look at, just a cheap retexture of a silver plate, but it gets the job done, though I might like to improve on the appearance of it someday.\r<br />\r<br />[img]http://static-4.nexusmods.com/15/mods/110/images/52712-3-1396731095.jpg[/img]\r<br />\r<br />[color=skyblue][b][size=5]Where do I get it?[/size][/b][/color]\r<br />It is craftable at the forge under jewlery.  You need 1 silver ingot, 1 firewood, and 1 leather strip.\r<br />\r<br />[color=skyblue][b][size=5]How do I use it?[/size][/b][/color]\r<br />Equip it in your inventory and the menu will open.  You can favorite it and hot key it to use outside of the inventory menu, which is the way I like to use it, makes it more convenient.  You never have to unequip it because unequipping does the same thing as equipping, it opens the menu.  The reason I set it up like that is I found that I would always forget to unequip it, so when I would go to use it again I would have to unequip it first and then re-equip it and that was annoying, so I made it open the menu on equip or unequip.  Since it does not use any slot, leaving it equipped doesn&#39;t cost you anything.\r<br /> \r<br />[color=skyblue][b][size=5]Is it compatible with the RaceMenu plugin mod?[/size][/b][/color]\r<br />Yes, it works with the vanilla menu or the Race Menu mod, but if you are using the race menu mod then you better be sure your load order is set up right.  When I first tried it with the Race Menu mod I got CTDs and it was all because of my load order.  It is really simple and common sense, SkyUi loads ahead of RaceMenu and RaceMenu loads ahead of it&#39;s plugins.\r<br />\r<br />[img]http://static-4.nexusmods.com/15/mods/110/images/52712-4-1396731095.jpg[/img]\r<br />\r<br />[color=skyblue][b][size=5]What is the difference between ShowRaceMenu and ShowLimitedRaceMenu?[/size][/b][/color]\r<br />The main difference is that ShowLimitedRaceMenu will not allow you to change your race or sex, which is a good thing really because changing your race is what redistributes your stats and screws everything up.  The ShowLimitedRaceMenu is a safe way of making changes to your character&#39;s appearance.\r<br />\r<br />[color=skyblue][b][size=5]Do I really need this mod?[/size][/b][/color]\r<br />No, no one needs this mod, but you might like it.  For anyone who wants to make changes to the appearance of their character, whether it is changing war paint, or changing hair, or endlessly tweaking your character&#39;s face in a quest for perfection, this mod might be for you. \r<br />\r<br />[img]http://static-4.nexusmods.com/15/mods/110/images/52712-5-1396731096.jpg[/img]\r<br />\r<br />[color=yellow]All pictures shown here are using RaceMenu by Expired http://www.nexusmods.com/skyrim/mods/29624\r<br />If you are not using the RaceMenu mod then you will get the default vanilla menu.[/color]\r<br />\r<br />[color=skyblue][b][size=5]***Recommended files to use with Vanity Mirror***[/size][/b][/color] \r<br />[url=http://www.nexusmods.com/skyrim/mods/33526/?]ShowRaceMenu Precache Killer [/url] by kapaer\r<br />Should improve performance and decrease chance of freezing or crashing.\r<br />\r<br />[color=skyblue][b][size=5]Known issues?[/size][/b][/color]\r<br />It can cause the game to freeze if you open the menu in an area where there are too many things going on.  Inside is safer than outside.  If the menu takes a long time to open then this is an indication that it is likely to freeze, and your best move at that point would be to close the menu before it freezes and move to a safer location.\r<br />\r<br />If you are having problems with freezing, you should try downloading [url=http://www.nexusmods.com/skyrim/mods/33526/?]ShowRaceMenu Precache Killer [/url] by kapaer \r<br />\r<br />If opening the menu causes an instant CTD it is most likely a load order issue.",
+  "categoryId": "78",
+  "version": "2.0",
+  "author": "RGM",
+  "createdUnix": "1396736616",
+  "updatedUnix": "1413659341",
+  "containsAdultContent": false,
+  "uploadedBy": "RGMage2",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000103779",
+      "name": "VanityMirror",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "396",
+      "fileName": "VanityMirror-52712-1-0.7z",
+      "uploadedUnix": "1396731749",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3e488f83f558619259a63859167e7336a44145ee0b85b7f0e9a5af813daf796f/analysis/1408008377/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VanityMirror-52712-1-0.7z?fid=1000103779&ttl=1535835870&ri=8192&rs=8192&setec=47bd59d152cd258f87bade934327b7bb"
+    },
+    {
+      "fileId": "1000131546",
+      "name": "RGMsVanityMirror",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "462",
+      "fileName": "RGMsVanityMirror-52712-2-0.rar",
+      "uploadedUnix": "1413659341",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f1aaaded0bae45ef657cea74b75f9fcf6f9e5c17089e7ec7282c68804f5ea623/analysis/1413659346/",
+      "changelogHtml": " Changed the in-game vanity mirror mesh so it looks much better now <br/> \n Changed the name of the inventory item to &#34;A Vanity Mirror&#34; bringing it to the top or near the top of your inventory <br/> \n Changed the way the script works so it now auto-unequips <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/RGMsVanityMirror-52712-2-0.rar?fid=1000131546&ttl=1535835871&ri=8192&rs=8192&setec=3b2341a3381a6304b9f764a1ef3e5dac"
+    }
+  ]
+}

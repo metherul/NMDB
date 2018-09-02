@@ -1,0 +1,32 @@
+{
+  "modId": 38382.0,
+  "modName": "Animation Catcher",
+  "summary": "This is a tool for modders that allows you to log a complete record of all animation events that are triggered for a given race. Useful for discovering when certain events occur in relation to each other or for tracking actor states that are not explicitly defined in the CK.",
+  "descriptionHtml": "THIS IS A RESOURCE FOR MODDERS. IF YOU DON\\'T UNDERSTAND WHAT THIS DOES, YOU DON\\'T NEED IT.\r\nTHIS DOES NOT ALLOW YOU TO CHANGE ANIMATIONS.\r\nTHIS DOES NOT ADD ANYTHING TO THE GAME EXCEPT A HANDFUL OF UTILITY SPELLS.\r\n\r\nDescription\r\n===========\r\nThis is a tool for modders that allows you to log a complete record of all animation events that are triggered for a given race. Useful for discovering when certain events occur in relation to each other or for tracking actor states that are not explicitly defined in the CK.\r\n\r\nRequirements\r\n============\r\n* A real-time log reader like Snaketail (http://snakenest.com/snaketail/)\r\n* A second monitor is very helpful but not required\r\n\r\nHow to use\r\n==========\r\n1) Fire up Snaketail and point it at your papyrus.0.log. If you have a second monitor, move Snaketail over to it, then launch Skyrim on your main monitor. If not, you may want to switch Skyrim to windowed mode temporarily so you can watch the log in real time.\r\n\r\n2) Once in-game, bring up up the console and type\r\nhelp animcatch\r\n\r\nThis will give you a list of all the race-specific AnimCatcher spells. Figure out which one you want to use. For monitoring the player or a humanoid NPC, use the Character catcher. Most of the others should be self-explanatory.\r\n\r\n3) From the console, click the actor you want to monitor to select it (you\\'ll see the target\\'s FormID appear at the top of the console) then type:\r\naddspell 11000abc\r\n\r\nor if you want to monitor the player:\r\nplayer.addspell 11000abc\r\n\r\nWhere 11000abc is the formID of the spell you chose in step 2. It will take between a few seconds and a couple of minutes (the Character Catcher has over 2000 events!) to register all the events, so be patient! If the Catcher has a lot of events, you will get status updates onscreen until everything gets registered. \r\n\r\n4) After adding the spell, you\\'ll see events start to appear in your logfile. Once registration is complete, swing your weapon, cast your spell, do whatever it is you wanted to get an event sequence for, and you will see it logged in real time.\r\n\r\n5) The Catcher spell ends either when the target actor dies, or when you remove it from the console with RemoveSpell. \r\n\r\nTips\r\n====\r\nIf the animation or state you want to intercept doesn\\'t have a specific event tied to it, look for unique sequences of events you can watch for, instead.\r\n\r\nTodo\r\n====\r\nPossibly create creature category spells (all critters, all atronachs, etc) to reduce the total number of spells required. Probably not, though.\r\n\r\nInstallation\r\n=======\r\n\r\n1. Copy the ESP and BSA file into the Skyrim\\\\Data directory.\r\n\r\nUninstall\r\n=========\r\n\r\n1. Delete AnimCatcher.bsa and AnimCatcher.esp.\r\n\r\nContact\r\n=======\r\nverteiron@gmail.com\r\n\r\nCredits\r\n=======\r\nThanks to Antares, gulogulo, tiny lampe and SpookyFX for asking interesting questions.\r\nThanks to rongphale for making me less ignorant about hkx files.\r\nThanks to charlieface88 for letting me know I was missing some events.\r\n\r\nTools Used\r\n==========\r\n7-Zip\r\nCreation Kit\r\nhkxcmd.exe\r\nBSAOpt\r\nPerl\r\nBash\r\n\r\nProcess\r\n=======\r\nAfter extracting all actor-related hkx files from the various BSAs, a combination of bash and perl were used to dump all animation annotations and behavior eventnames. These lists were then automatically assembled into Papyrus scripts by another bash script. The Catcher spells were then created in the CK in the usual fashion.\r\n\r\nLicensing/Legal\r\n===============\r\nDo whatever you want with this except sell it and/or claim it as your own.\r\n",
+  "categoryId": "82",
+  "version": "0.01",
+  "author": "Verteiron",
+  "createdUnix": "1373929088",
+  "updatedUnix": "1373918573",
+  "containsAdultContent": false,
+  "uploadedBy": "verteiron",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000039100",
+      "name": "AnimCatcher001",
+      "version": "0.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "69",
+      "fileName": "AnimCatcher001-38382-0-01.7z",
+      "uploadedUnix": "1373918573",
+      "modVersion": "0.01",
+      "virusScanUrl": "https://www.virustotal.com/file/7829f019e4c269fe59e25df7835a6bbf1f5ef2461388e725d97a868f912943c0/analysis/1407645335/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AnimCatcher001-38382-0-01.7z?fid=1000039100&ttl=1535818687&ri=8192&rs=8192&setec=6654cabba4dab7f54535b1f6e0befcac"
+    }
+  ]
+}

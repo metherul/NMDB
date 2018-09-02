@@ -1,0 +1,48 @@
+{
+  "modId": 41582.0,
+  "modName": "Warriors Ki",
+  "summary": "Gain new spells that use your Stamina instead of Magicka.",
+  "descriptionHtml": "1. Introduction\r\n\r\nWhile roleplaying a warrior character I found myself thinking a bit about the possibility of casting some spells, even while being a complete ignorant about the arcane arts. But I didn\\\\\\'t invest a single point in Magicka (and didn\\\\\\'t want to), and without having Perks the result would have been just weak.\r\nAnd, obviously, casting magic spells wouldn\\\\\\'t fit a Nord warrior (as the mages in the College say, Nord don\\\\\\'t really like magic) or a Redguard, who are known as the best and most talented warriors around Tamriel.\r\n\r\nSo I decided to create some spells that consume your Stamina instead of your Magicka, based on the concept of \\\\\\\"Ki\\\\\\\".\r\n(http://en.wikipedia.org/wiki/Qi    \\\\\\\"Ki\\\\\\\" is the Japanese transliteration)\r\n\r\nA well trained warrior can learn to focus his spiritual energy to let if flow outside his body and use it against his enemies, at the cost of physical distress and fatigue.\r\n\r\n2. The Mod\r\n\r\nShowcase by dptheslothking \r\n\r\n[youtube]glOqe1xCmR8[/youtube]\r\n\r\n\r\nThe mod itself adds 8 new spells, sold by Farengar in Dragonsreach (keep in mind that if you have insane amounts of stamina these spells WILL be overpowered. I used 250-300 stamina as a base):\r\n\r\n1) Warrior\\\\\\'s Mantra: Your training lets you regenerate wounds faster than normal humans, at the cost of physical stress. (Heals 25pts. of health per second at the cost of 25pts. of Stamina per second)\r\n\r\n2) Warrior\\\\\\'s Will: Your will protects you against wounds and incoming spells. (a Ward spell, 100pts. magnitude, costs 20pts. of Stamina per second)\r\n\r\n3) Warrior\\\\\\'s Grip: The warrior can grab his enemies from far away and bend them to his will. (Similar to Vampiric Grip, costs 30pts. of Stamina per second)\r\n\r\n4) Warrior\\\\\\'s Might: Expel your Spiritual Energy in a powerful, thundering blast. Send your enemies flying. (a force push, costs 75pts. of Stamina. ***)\r\n\r\n5) Warrior\\\\\\'s Warcry: The determination and rage in your voice explodes in the air, pushing away all enemies in 30 feet. (an AOE force push, costs 100pts. of Stamina, acts in 30 feet)\r\n\r\n6) Warrior\\\\\\'s Perception: Your trained senses create the illusion of the world around you stopping. (Time freezing spell, costs 200pts. of Stamina)\r\n\r\n*** Due to the limitations of the Creation Kit, and my will to create a script-free mod, Warrior\\\\\\'s Might doesn\\\\\\'t consume stamina. However, it WILL be resisted if you try to cast it with less than 75pts of stamina.\r\n\r\n7) Warrior\\'s Meditation: By meditating the Warrior expels his Ki as a wave of pure Yang energy, resulting in a nearly unbearable physical distress. While the Warrior is Meditating, he is invulnerable and engulfed in Ki, that damages his enemies, while also restoring a very small portion of Health.\r\n\r\n8) Warrior\\'s Yin Side: \\\"From the Void comes life\\\", and by exploring the Void within yourself, you can enter a superior state of being. While in Yin state you are not part of this world, not receiving damage or hurting your opponents. Your stamina regenerates a bit faster while in Yin state. (*** NOTE: Due to the nature of the Ethereal form, the player cannot be harmed while in ghost form, so no Damage Health could be applied. Instead I greatly reduced the Stamina regeneration to 5pts per second, since this spell does not have any drawback).\r\n\r\nThe spells will drain your stamina AFTER being casted, except Warrior\\\\\\'s Might (referring to ***), Warrior\\\\\\'s Will and Warrior\\\\\\'s Mantra (these two are concentration spells, they will drain your Stamina like every other spell).\r\n\r\nKEEP IN MIND: if your Stamina runs LOWER than the requirements, you will still cast the spells (Creation kit won\\\\\\'t allow a magicka-like usage), however they won\\\\\\'t have any effect, and won\\\\\\'t consume your Stamina (except for Mantra and Will, but the requirements are so low that you shouldn\\\\\\'t even feel it).\r\n\r\n3. Coming soon\r\n\r\nNew spells, I hope... sadly the CK won\\\\\\'t let me Drain Stamina on myself while casting Projectile spells, so those won\\\\\\'t be an option. Still, I do have other spells in mind, I\\\\\\'ll update soon when I have the time.\r\n\r\n\r\nCheck out my other mod:\r\n\r\nAmulet of Ysmir:  \r\nhttp://skyrim.nexusmods.com/mods/41569/?tab=1&navtag=%2Fajax%2Fmoddescription%2F%3Fid%3D41569%26preview%3D&pUp=1",
+  "categoryId": "75",
+  "version": "1.02",
+  "author": "Nattens_Madrigal",
+  "createdUnix": "1378244127",
+  "updatedUnix": "1378328273",
+  "containsAdultContent": false,
+  "uploadedBy": "Nattens_Madrigal",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000052049",
+      "name": "Warriors Ki OLD VERSION",
+      "version": "1.00",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Warriors Ki-41582-1-00.rar",
+      "uploadedUnix": "1378243848",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/8a8a68ed396bbae810e71d1cf8a6e4fb8281e6c7658808eb2e83cdfb2981675f/analysis/1407707824/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Warriors%20Ki-41582-1-00.rar?fid=1000052049&ttl=1535822369&ri=8192&rs=8192&setec=8dd6f941f56a79e31625a07b84513903"
+    },
+    {
+      "fileId": "1000052303",
+      "name": "Warriors Ki UPDATED",
+      "version": "1.02",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Warriors Ki UPDATED-41582-1-02.rar",
+      "uploadedUnix": "1378328273",
+      "modVersion": "1.02",
+      "virusScanUrl": "https://www.virustotal.com/file/bf165da7d242714ada04fd4e1664e575ddd4357ba58165d61d94d945b586433e/analysis/1407708784/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Warriors%20Ki%20UPDATED-41582-1-02.rar?fid=1000052303&ttl=1535822369&ri=8192&rs=8192&setec=3deea9279af45a3accd956e4156f7a27"
+    }
+  ]
+}

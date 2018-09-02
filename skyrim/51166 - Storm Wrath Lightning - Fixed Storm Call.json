@@ -1,0 +1,48 @@
+{
+  "modId": 51166.0,
+  "modName": "Storm Wrath Lightning - Fixed Storm Call",
+  "summary": "A smarter version of Storm Call that only targets enemies, and has other improvements like wider radius and better accuracy.",
+  "descriptionHtml": "[i]A Shout to the skies, a cry to the clouds, that awakens the destructive force of Skyrim&#39;s lightning.[/i]\r<br />\r<br />Update: There is is an optional compatibility patch for SkyRe, generously provided by Elementroar.\r<br />\r<br />[size=4]What is This?[/size]\r<br />\r<br />This mod is meant to improve the effects of the dragon shout, Storm Call, which summons lightning bolts from the sky to kill things.  Like many others, I hated how the original shout is considered an offensive attack, and how the lightning just went everywhere, so it would earn you a bounty and hits everyone, including friends.  Unacceptable&#33;\r<br />\r<br />Here are the changes:\r<br />[list]\r<br />[*] Originally, the storm hit everyone, friend, hostile, or neutral, and struck random spots.  Now, the storm [b]only targets NPCs when they are hostile to you.[/b]\r<br />[*] Originally, the storm was stationary and only targets people who were nearby when the shout started.  Now, the storm follows you, and targets any hostile who enters range.\r<br />[*] Originally, only those who were near you when you first shouted can be targeted.  Now, the storm uses a script that dynamically searches for valid targets.\r<br />[*] Now, the storm itself is not considered a hostile attack.  This means that you [b]won&#39;t automatically get a bounty from shouting[/b]. Also, on the ~0.001% chance that neutral/friendly NPCs get hit (example: the bolt misses or they somehow walk into it), they won&#39;t automatically attack you, because they [b]shouldn&#39;t blame you for being struck by lightning[/b].\r<br />[*] For each new word, the area affected by the shout is 3x-6x larger than the vanilla version.\r<br />[*] Lightning bolts travel faster, further, and deal a powerful stagger effect upon impact.\r<br />[*] The damage of lightning bolts vary randomly, depending on the strength of the storm.\r<br />[*] A number of bugs from Bethesda&#39;s original Storm Call effect script have been fixed.\r<br />[*] The spell description for the Storm Call shout is modified, in English.  There is a [url=http://www.nexusmods.com/skyrim/mods/65805/?]Portuguese translation[/url].\r<br />[/list]\r<br />\r<br />Note that this mod does not alter the damage, duration, or recovery time of the shout.  This is because there are several [url=http://www.nexusmods.com/skyrim/mods/14353/?]popular mods[/url] out there that [url=http://www.nexusmods.com/skyrim/mods/31725/?]already do this[/url], and as far as I&#39;m aware, all of them are compatible with Storm Wrath Lightning. Just make sure to put my mod after them in the load order.\r<br />\r<br />[b][i][u]Please, please endorse if you like it&#33;[/u]  I put many hours of effort into debugging, testing, and optimizing the scripts, and so feedback is greatly appreciated.  Any questions, concerns, and ideas should go to the comments section.[/i][/b]\r<br />\r<br />[b]INSTALLATION[/b]\r<br />Use the NMM installer, or manually copy StormWrathLightning.bsa and .esp to your Data folder.\r<br />\r<br />\r<br />[b]UNINSTALLATION[/b]\r<br />For best measure, make sure you have a save file that is at least one in-game hour after the last storm ends. This probably isn&#39;t necessary, but Skyrim&#39;s scripting engine can be unpredictable sometimes.  Use NMM to uninstall, or you can manually delete the StormWrathLightning.bsa and .esp files.  Uninstalling should not break your game. \r<br />\r<br />\r<br />[b]COMPATIBILITY[/b]\r<br />As far as I&#39;m aware, this should be compatible with nearly anything, other than Storm Call Plus.  I have seen a number of other mods that affect the Storm Call shout, but none of them conflict with this.  Just make sure to put the .esp file after those other mods in your load order.\r<br />\r<br />\r<br />[b]KNOWN ISSUES[/b]\r<br />This isn&#39;t really an issue, but some of you might be concerned if you see this in the debug log:\r<br />\r<br />[i]Error: Cannot call GetSize() on a None object, aborting function call\r<br />[Active effect 1 on  (00000014)].magicSetWeatherScript.OnEffectStart() - &#34;magicSetWeatherScript.psc&#34; Line 50\r<br />warning: Assigning None to a non-object variable named &#34;::temp0&#34;\r<br />Error: Unable to call RegisterForSingleUpdate - no native object bound to the script object, or object is of incorrect type\r<br />[None].ultrastormcalla.RegisterForSingleUpdate() - &#34;&lt;native&gt;&#34; Line ?[/i]\r<br />\r<br />[b]These messages are expected, and completely harmless.  The game engine is just saying that the script is different than the original version.  This will not cause a CTD.[/b]",
+  "categoryId": "104",
+  "version": "1.0",
+  "author": "Dajemic",
+  "createdUnix": "1392585527",
+  "updatedUnix": "1393709228",
+  "containsAdultContent": false,
+  "uploadedBy": "Dajemic",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000097305",
+      "name": "Storm Wrath Lightning",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "Storm Wrath Lightning-51166-1-0.zip",
+      "uploadedUnix": "1392546186",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1ce94c087bf8902d26d88f8e07736c6076d0e81197a07d1e0752f7b4540d9db8/analysis/1407936006/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Storm%20Wrath%20Lightning-51166-1-0.zip?fid=1000097305&ttl=1535833350&ri=8192&rs=8192&setec=218cfbb52cd7b79d6aeb4f4f7745cd16"
+    },
+    {
+      "fileId": "1000099345",
+      "name": "Storm Wrath Lightning SkyRe Patch",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Storm Wrath Lightning SkyRe Patch-51166-1-0.zip",
+      "uploadedUnix": "1393709228",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2b9500c518a0cf09591abba84c0e6cc4b4c4a5f71c9cfba66e873f926a2a384f/analysis/1407955835/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Storm%20Wrath%20Lightning%20SkyRe%20Patch-51166-1-0.zip?fid=1000099345&ttl=1535833351&ri=8192&rs=8192&setec=2df9e97e3cdb16e7c809b1e127c15faa"
+    }
+  ]
+}

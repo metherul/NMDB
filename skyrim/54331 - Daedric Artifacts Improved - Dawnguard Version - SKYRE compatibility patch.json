@@ -1,0 +1,48 @@
+{
+  "modId": 54331.0,
+  "modName": "Daedric Artifacts Improved - Dawnguard Version - SKYRE compatibility patch",
+  "summary": "Small patch to make DAI (Aedric Ritual Remake) compatibal with SkyRe. Yep, done it because ReProccer haven&#39;t.",
+  "descriptionHtml": "This small patch will make &#34;Daedric Weapons&#34; that you receive for Daedric Quests usable in T3nd0&#39;s Skyrim Redone. Unfortunaly, SkyProc ReProccer can&#39;t process this patch because BOSS reports it goes after reproccer.esp patch in loading order. Maybe you can overcome that with BUM for BOSS, but I don&#39;t know how to use them, so I took some time and made this patch.\r<br />\r<br />Only thing patched is weapons stats. That involves DAMAGE, REACH, SPEED, CRIT.DMG and keyword tagging (is it a nodachi, broadsword, longsword, shortbow, longbow) and names acompanying that (Dawnbreaker = Dawnbreaker [Longsword]) in SkyRe&#39;s manner. MAGIC is untouched (that&#39;s why I got Daedric Artifacts Improved in the first place).\r<br />\r<br />Prerequisites: Dawnguard\r<br />T3nd0&#39;s Skyrim Redone - http://www.nexusmods.com/skyrim/mods/9286/ (main + reproccer patch)\r<br />Daedric Artifacts Improved - http://www.nexusmods.com/skyrim/mods/53004/?\r<br />\r<br />load order - BOSS will unrecognize AedricRitualsRemade.esp and Patch_AedricRitualsRemade.esp (my esp) but, since patch has it&#39;s proper master it will be automaticly placed after it. just check so in NMM Plugins tab after BOSS sorted other mods. Also, it&#39;s advisable to use my &#34;A Small world patch&#34;  http://www.nexusmods.com/skyrim/mods/54297/ if U have issues with accesing castle Volkihiar or Dayspring Canyon (RealShelter issue)",
+  "categoryId": "84",
+  "version": "v1.1",
+  "author": "RdX995",
+  "createdUnix": "1400969528",
+  "updatedUnix": "1401314234",
+  "containsAdultContent": false,
+  "uploadedBy": "RdX995",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000110334",
+      "name": "Patch_DaedricArtifactsImproved_meets_SkyRe",
+      "version": "1.0Final",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Patch_DaedricArtifactsImproved_meets_SkyRe-54331-1-0Final.rar",
+      "uploadedUnix": "1400969524",
+      "modVersion": "1.0Final",
+      "virusScanUrl": "https://www.virustotal.com/file/7fa48e125b18a98e69baea1df10d94bf565ae7f1dd976324d29e74cb0aac7379/analysis/1408095428/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Patch_DaedricArtifactsImproved_meets_SkyRe-54331-1-0Final.rar?fid=1000110334&ttl=1535838433&ri=8192&rs=8192&setec=735a66d29f996e927dadfc55d6b61015"
+    },
+    {
+      "fileId": "1000110875",
+      "name": "Patch_DaedricArtifactsImproved_meets_SkyRe_v1.1",
+      "version": "v1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "Patch_DaedricArtifactsImproved_meets_SkyRe_v1.1-54331-v1-1.rar",
+      "uploadedUnix": "1401314234",
+      "modVersion": "v1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/e77e6c3997048e0cbdbe34aaf9cf0010b4672ef22066336dc9d6c26d7c7cc02d/analysis/1408100729/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Patch_DaedricArtifactsImproved_meets_SkyRe_v1.1-54331-v1-1.rar?fid=1000110875&ttl=1535838434&ri=8192&rs=8192&setec=552fdd5c62dcdc60f814968ef413aea1"
+    }
+  ]
+}

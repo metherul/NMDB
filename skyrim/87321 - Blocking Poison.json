@@ -1,0 +1,32 @@
+{
+  "modId": 87321.0,
+  "modName": "Blocking Poison",
+  "summary": "A simple scripted mod that prevents the player from being poisoned by successfully blocked attacks.",
+  "descriptionHtml": "[u][b][size=4]Blocking Poison?\r<br />[/size][/b][/u]\r<br />This simple scripted modification will prevent poisoned weapon effects from piercing through a players&#39; block (Spider/chaurus bites, falmer arrows etc). There are some quirks however, as there is no real way that I could find at least, to actually [i]stop[/i] poison from going through the players&#39; block. So instead, when you successfully block an attack, that poison effect will immediately be cured. Thus you will still receive the &#34;I have been poisoned&#34; message once and a while, but you will not take any damage from. Npcs are not affected by this mod.\r<br />\r<br />So basically, it should allow you to no longer take poison damage from the common sources, ie falmer, spiders and so forth.\r<br />\r<br />[b][u]Quirks\r<br />\r<br />[/u][/b]Due to the limitations of how this can be done, blocking an attack will cure all poison effects on you even if they were applied to you before the successful block. Meaning you may be hit by an enemy, be poisoned and then block their next attack, curing that poison. This is simply a limitation of this method, as I wanted this mod to effect ALL poisons from all mods, not just the poison effects I specifically edit. \r<br />\r<br />But honestly it shouldn&#39;t have much of an immersion breaking issue, as most npc applied poisons don&#39;t last very long and/or think of it as gaining a second wind from blocking their following attack. I much prefer it with these limitations than blocking an arrow and dying from it&#39;s poison anyway.\r<br />\r<br />[b][u]Compatiability\r<br />\r<br />[/u][/b]This should be compatible with all mods, including mod added poisons.\r<br />\r<br />[size=4][b][u]Installation\r<br />[/u][/b][/size]\r<br />Just drop the files in your data folder and enable the esp.\r<br />\r<br />[u][b][size=4]Requirements[/size][/b][/u]\r<br />\r<br />None\r<br />[b][u][size=3]\r<br />Uninstall[/size][/u][/b]\r<br />It should be as safe as uninstalling any mod mid-playthrough (mods will always bake into the save file, though you can try a save cleaner), just make sure you type &#34;stopquest _PoisonBlockingQuest&#34; in the console first.\r<br />\r<br />[b][u]Credits[/u][/b]\r<br />\r<br />Thanks to:\r<br />Bethesda for making the game.",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "Drazhar753",
+  "createdUnix": "1507971767",
+  "updatedUnix": "1508169336",
+  "containsAdultContent": false,
+  "uploadedBy": "Drazhar753",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000257517",
+      "name": "Blocking Poison",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Blocking Poison-87321-1-1.zip",
+      "uploadedUnix": "1508169336",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7c05eb0915e431914eeeb7fa57e97f1f4a1d1fc000afbc383da920b9c00f6331/analysis/1508169544/",
+      "changelogHtml": " Made the cure poison script more efficient, ty to SkyLover264 for advice. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Blocking%20Poison-87321-1-1.zip?fid=1000257517&ttl=1535876260&ri=8192&rs=8192&setec=35fe15f7584c6356d52aa13388f0b482"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 81368.0,
+  "modName": "Wish ENB for Vivid Weathers",
+  "summary": "Crisp, clean ENB preset for Vivid Weathers intended for regular gameplay.",
+  "descriptionHtml": "[center][img]https://staticdelivery.nexusmods.com/mods/110/images/81368-0-1511215982.png[/img][/center]\r<br />\r<br />\r<br />[quote]\r<br />[center]Big thanks to [b]CommanderBrightside[/b] and [b]Aiyeen[/b] for permission to use their files&#33;[b] \r<br />[/b][url=http://www.nexusmods.com/skyrim/mods/61968/?]Elder Blood[/url]&#39;s weathers were originally used as a base, and the shaders are from [url=http://www.nexusmods.com/skyrim/mods/48730/?]Skylight[/url].\r<br />\r<br />Also big thanks to CyborgArmGun for helping me track down pitch black nights o&#39; doom.[/center][/quote]\r<br />\r<br />My personal preset with clean colours and  light fantasy feel through heavy use of custom weathers.\r<br />\r<br />\r<br />[size=4]IT&#39;S GOT ...[/size]\r<br />[b]Light bloom:[/b] crisp distant views with no washed out haze\r<br />[b]Performance:[/b] intended for regular gameplay\r<br />[b]Atmosphere:[/b] sunny days are bright and cheery, storms more moody\r<br />[b]DLC support:[/b] Dawnguard/Dragonborn weathers and specialty weathers (Sovngarde, Blackreach etc.) are covered\r<br />\r<br />\r<br />[size=4]it&#39;s not ...[/size]\r<br />[list]\r<br />[*]realistic\r<br />[*]flashy\r<br />[*]a hazy bloom soup\r<br />[*]guaranteed to be your cup of tea\r<br />[/list]\r<br />\r<br />[size=4]REQUIRED[/size]\r<br />[url=http://www.nexusmods.com/skyrim/mods/73937/?]Vivid Weathers[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/17609/?]Relighting Skyrim[/url]**\r<br />[url=http://www.nexusmods.com/skyrim/mods/59733/?]Enhanced Lighting for ENB[/url] (ELE)**\r<br />\r<br />** You won&#39;t crash without these but using other lighting mods won&#39;t look as intended.\r<br />\r<br />\r<br />[size=4]INSTALLATION[/size]\r<br />1. Download the latest binaries from [url=http://enbdev.com/mod_tesskyrim_v0319.htm]enbdev.com[/url] (black arrow in bottom left corner) \r<br />2. Copy & Paste [u]only[/u] [color=#93c47d][b]d3d9.dll[/b][/color] and [color=#93c47d][b]enbhost[/b] [/color]from the WRAPPER folder into your main Skyrim folder\r<br />3. Edit your [b]skyrimprefs.ini [/b]with the changes below:\r<br />\r<br />[Display]\r<br />------------------------------------\r<br />bFloatPointRenderTarget=1\r<br />bShadowsOnGrass=1\r<br />bTreesReceiveShadows=1\r<br />bDrawLandShadows=1\r<br />bDrawShadows=1\r<br />fGamma=1.0000\r<br />\r<br />[color=#ff0000]MOD ORGANIZER USERS[/color] need to make the above edits though MO instead&#33;\r<br />\r<br />4. Turn off hardware anti-aliasing & anisotropic filtering. \r<br />\r<br />5. Set up your enblocal.ini memory values according to [url=http://wiki.step-project.com/Guide:ENBlocal_INI/Memory]this guide[/url].\r<br />\r<br />\r<br />\r<br />\r<br />[b][size=4]COMPATIBLE[/size][/b]\r<br />nighteye effects\r<br />\r<br />\r<br />[size=4]INCOMPATIBLE[/size]\r<br />[url=http://www.nexusmods.com/skyrim/mods/27043/?]ELFX[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/30450/?]RLO[/url]\r<br />Mods that remove/alter fog, such as: [url=http://www.nexusmods.com/skyrim/mods/9930/?]Remove Exterior Fog[/url] | [url=http://www.nexusmods.com/skyrim/mods/29253/?]Remove Interior Fog[/url] | [url=http://www.nexusmods.com/skyrim/mods/9930/?]Revamped Exterior Fog[/url]\r<br />Other weather mods\r<br />\r<br />\r<br />[size=4]RECOMMENDED / IN SCREENSHOTS:[/size]\r<br />[url=http://www.nexusmods.com/skyrim/mods/78745/?]Y.A.L.O.[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/141/?]Skyrim Flora Overhaul[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/68782/?]Enhanced Landscapes\r<br />[/url][url=http://www.nexusmods.com/skyrim/mods/81312/?]Dark Forests of Skyrim[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/41076/?]Realistic Water Two[/url] or WATER\r<br />[url=http://www.nexusmods.com/skyrim/mods/59721/?]DynDOLOD[/url]\r<br />\r<br />[center][img]https://staticdelivery.nexusmods.com/mods/110/images/81368-0-1511218751.png[/img][/center]",
+  "categoryId": "97",
+  "version": ".9b",
+  "author": "Rusey",
+  "createdUnix": "1511219661",
+  "updatedUnix": "1511219661",
+  "containsAdultContent": false,
+  "uploadedBy": "Rusey",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000260136",
+      "name": "Wish ENB",
+      "version": "beta",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "700",
+      "fileName": "Wish ENB-81368--9b.7z",
+      "uploadedUnix": "1511156649",
+      "modVersion": "beta",
+      "virusScanUrl": "https://www.virustotal.com/file/5c91718f74b53f5c7c59bec865f07d7c67339707547960cb21caa0e3d2364fc7/analysis/1511157004/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Wish%20ENB-81368--9b.7z?fid=1000260136&ttl=1535869977&ri=8192&rs=8192&setec=2717199bcbca786a0130ad18c1f34185"
+    }
+  ]
+}

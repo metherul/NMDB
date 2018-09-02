@@ -1,0 +1,48 @@
+{
+  "modId": 25406.0,
+  "modName": "Animated Prostitution _ NCG Patch - WIP - debugging",
+  "summary": "This is a patch for the \\'Animated Prostitution\\' mod that aims to fix a few things with the \\'Pimp Your Companion\\' feature.  Also, adds a new sex option that has the characters to changing positions during sex.  There are currently some problems with the patch that I\\'m working on fixing.",
+  "descriptionHtml": "_______[INTRODUCTION]_______\r\nThis is a patch for the \\'Animated Prostitution\\' v2.34 mod by JoshNZ (http://skyrim.nexusmods.com/mods/10748).  I am very grateful for his great work.\r\n\r\nThis patch has SEVERAL KNOWN ISSUES, and you should consider yourself a tester if you are trying this patch out.  There has been some level of success with using the patch, but other have gotten error messages, CTD, and funky animations in the \\'all sorts of ways\\' option.  See \\'[KNOWN ISSUES]\\' for details.\r\n\r\nProceed with caution- back up your files/saves before proceeding.\r\n\r\nIf you are getting error messages / wierd shit going on, please follow bug reporting guide in [NOTES] section\r\n\r\n_______[DESCRIPTION]_______\r\nThis patch includes the following changes:\r\n - Moves Companion to NPC during \\'Companion Pimping\\' scene\r\n - Adds condition \\'Must be playable race\\' for companion to be pimped (stops NPC from trying to have sex with dog companions)\r\n - Makes NPC/Companion engage in a random type of sex (not just anal sex)\r\n - Stops you from retrying if you fail persuasion/random chance check on \\'Want to f*** my Companion?\\'\r\n  - Adds NPC/Player sex option \\'I want to f*** you in all sorts of ways\\'  (last dialog option). This option makes the players change positions (3 times...) during sex every 20 seconds\r\n\r\n_______[REQUIREMENTS]_______\r\n1. This was made for Animated Prostitution v2.34 - compatibility with older versions is unknown\r\n2. This requires you using AP Skyrim.esm (not AP Skyrim-Dev.esp)\r\n3. This must be loaded AFTER AP Skyrim.esm\r\n\r\n_______[INSTALLATION]_______\r\nIf you are not using NMM, follow these instructions:\r\n1.  Extract AP Skyrim-NCG_patch.esp to your \\'Data\\' Folder\r\n2.  Extract all scripts to \\'Data/scripts\\' folder\r\n3.  Set AP Skyrim-NCG_patch.esp to load after AP Skyrim.esm\r\n\r\n_______[VERSIONS]_______\r\nv0.1 - Initial release\r\nv0.2 - \r\n1. Added debugging support\r\n2. Fixed a couple of minor problems with logic\r\n3. Refactored \r\n\r\n_______[KNOWN ISSUES]_______\r\nI will be spending some time trying to fix these issues.\r\n1. Some people are getting NCG error message caused by this patch\r\n2. There have been CTD\\'s\r\n3. Option to \\'pimp your companion\\' missing\r\n4. Animation for \\'all sorts of ways\\' option are funky\r\n5. There was a report that \\'Uninstall\\' via NMM did not delete script files this mod added.  If you uninstall, make sure the following script files are removed (from Data\\\\Scripts):\r\nTIF__01019343.pex\r\naasexeffectscript.pex\r\naasexeffectscriptnpc.pex\r\naasexeffectscripttwitchs.pex\r\naasexeffectvariedscript.pex\r\naasexscript.pex\r\nfosestripscript.pex\r\nqf_aasexdate_01016d1a.pex\r\nqf_aasexscene01_01005ea5.pex\r\nqf_aasexscene02_01008f9f.pex\r\nsource\\\\tif__02000d63.pex\r\nsource\\\\TIF__01019343.psc\r\nsource\\\\aasexeffectscript.psc\r\nsource\\\\aasexeffectscriptnpc.psc\r\nsource\\\\aasexeffectscripttwitchs.psc\r\nsource\\\\aasexeffectvariedscript.psc\r\nsource\\\\aasexscript.psc\r\nsource\\\\fosestripscript.psc\r\nsource\\\\qf_aasexdate_01016d1a.psc\r\nsource\\\\qf_aasexscene01_01005ea5.psc\r\nsource\\\\qf_aasexscene02_01008f9f.psc\r\nsource\\\\tif__02000d63.psc\r\n\r\n\r\n_______[NOTES]_______\r\n1.  This is my first real work in modding Skyrim, so if you have ANY suggestions about either the mod itself or how I am packaging and documenting the patch, please let me know!!\r\n2.  As of v0.2, there is additional debugging support that enables me to gather more information about what is happening while the patch is running.  If you are getting wierd messages and you\\'d like to help me figure out the problem please do the following:\r\n1.  Enable Debugging/Trace support in your SkyrimPrefs.ini file:\r\nhttp://www.creationkit.com/FAQ:_My_Script_Doesn\\'t_Work!\r\n2. Run Skyrim and try to recreate the problem\r\n3. Send me the log along with a description of what happened.",
+  "categoryId": "51",
+  "version": "0.2",
+  "author": "robotofdafuture",
+  "createdUnix": "1350070197",
+  "updatedUnix": "1350167744",
+  "containsAdultContent": true,
+  "uploadedBy": "robotofdafuture",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "93507",
+      "name": "Animated Prostitution _ NCG Patch v0_1",
+      "version": "0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "22",
+      "fileName": "Animated Prostituion - NCG Patch v0_1-25406-0-1.7z",
+      "uploadedUnix": "1350070400",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/48c4dd5b39633c686c988d0102f323f67967f8e82112eed43f54599f70db14b1/analysis/1407218105/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Animated%20Prostituion%20-%20NCG%20Patch%20v0_1-25406-0-1.7z?fid=93507&ttl=1535796893&ri=8192&rs=8192&setec=6405f067543e226b41dad0922b026c3a"
+    },
+    {
+      "fileId": "93712",
+      "name": "Animated Prostitution _ NCG Patch v0_2",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "26",
+      "fileName": "Animated Prostitution _ NCG Patch v0_2-25406-0-2.7z",
+      "uploadedUnix": "1350167744",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/801080cfb955f02cf9cf8316f64d23044e3ff1374b8f053391bdf24b13229579/analysis/1407220443/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Animated%20Prostitution%20_%20NCG%20Patch%20v0_2-25406-0-2.7z?fid=93712&ttl=1535796894&ri=8192&rs=8192&setec=78cf0af5ce94a7283bf7e645500289d9"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 48454.0,
+  "modName": "ESP Scalpel",
+  "summary": "ESP Scalpel - A command line tool for performing close-to-the-metal operations on ESP files. C source code is included.",
+  "descriptionHtml": "ESP Scalpel is a fast and powerful command line tool for performing surgery on ESP file elements. While primarily intended for modders familiar with ESP file internal structures, it is perfectly suitable for use as an exploration and learning tool for those who aren&#39;t afraid of hexadecimal output. A batch file is included that uses it to extract an NPC from skyrim.esm, rename it, assign a new ID, modify its AI packages and inventory, and drop it into the Bannered Mare as a new NPC. A manual and walkthrough of the NPC extraction process is included.\r<br />\r<br />ESP Scalpel works by loading ESP files into memory as a linked list of groups. Command line switches are used to select a specific group for expansion into subchains of records and subrecords. Records and subrecords that have been expanded can then be operated on using generic primitives such as extract and write to file, delete, insert, replace using previously extracted records, overwrite with string or binary literals, and so on. Changed block sizes are recalculated, compressed sections are recompressed, and files can be created or overwritten. C source code is included.",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "Aaron Logue",
+  "createdUnix": "1385953966",
+  "updatedUnix": "1385952915",
+  "containsAdultContent": false,
+  "uploadedBy": "Xoraxax",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000085115",
+      "name": "ESP Scalpel",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "210",
+      "fileName": "ESP Scalpel-48454-1-0.zip",
+      "uploadedUnix": "1385952915",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/dd36e3a6e9f66e516507e7c270e105802cd9903210b524317cef7e8166169f25/analysis/1407817099/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ESP%20Scalpel-48454-1-0.zip?fid=1000085115&ttl=1535828583&ri=8192&rs=8192&setec=758da9991be28c4db32242593931c8bd"
+    }
+  ]
+}

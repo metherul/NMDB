@@ -1,0 +1,48 @@
+{
+  "modId": 18009.0,
+  "modName": "Crime and Punishment WIP",
+  "summary": "Get marched bound through town to jail, where you must wait out your time.",
+  "descriptionHtml": "[b]Due to starting a new job I no longer have the time I used to to work on this mod.  If anyone wants to take over just send me a PM.[/b]\r\n\r\n\r\n\r\n[b]Description[/b]\r\nWhen I first went to jail in Skyrim I was disappointed with the teleport in, activate bed, teleport out, over in a second thing. This attempts to address that that adds a sequence when the player gets arrested.\r\n\r\nWhen arrested, the guard will bind your hands and march you by foot to the prison to lock you up. If you have to suffer the humiliation of being dragged bound through the busy marketplace that\\'s your own fault. \r\n\r\nAny guard which is a member of the town faction will take you to the town jail, so you may end up like those Stormcloak prisoners and have a long walk through the countryside if somehow you get arrested far from the town.\r\n\r\nOnce in jail, the guard will ask you to hand over all of your equipped armor, remove your belongings, then lock you in your cell. Once in your cell you will have to wait out your sentence, and will be given a notification as to how long this is. You can\\'t just skip it, though you can still use wait or sleep.\r\n\r\nWhen your time is served, assuming you have not attempted escape, you will get a notification and a guard will come and release you. You are then free to get your belongings and go.\r\n\r\n\r\n\r\n[b]Update[/b]\r\n1.02 - Remade corrupted scripts.  Should fix issues, let me know.\r\n\r\n1.01 - Fixed the issue with the Whiterun guards doing nothing after arresting.  If you have this issue please delete your .bsa and download this version.\r\n\r\n\r\n[b]How it works[/b]\r\nYou must follow the guard.  If you stray too far you will get a warning.  If you continue they will consider you attempting to escape and attack.\r\nIf a guard walks through a door you have 10 seconds to follow him before they consider you attempting to escape.\r\nIf you decide to do a runner it will take you 60 seconds to work your bindings loose before you can attack.\r\nWhen asked to remove armour, you must simply unequip all items.\r\n\r\n\r\n\r\n[b]Initial Release[/b]\r\n- In the initial release the jail sentence is set to 1 day per 100 gold bounty, but this may change depending on feedback.\r\n- At the moment there is no penalty for escaping via hidden tunnels, the guards will simply forget about you. This will probably change in the near future.\r\n- Currently only affects the towns of Windhelm, Solitude, Riften, and Whiterun.\r\n\r\n\r\n\r\n[b]Current Issues[/b]\r\n- Stolen items do not currently go into evidence, its all in the prisoner belongings chest.\r\n- No follower support.  They will continue to follow you as normal unless dismissed.\r\n- When released, the guard will often unlock the door, open it, and then close it again.  I do not know why this is, but it remains unlocked and you can open it and leave.\r\n- If you are arrested outside a town, make sure you enter the city gates before the guard or he will teleport to the prison due to the way the game handles AI that is not in the same cell as the player.  Getting arrested inside the town is no problem.\r\n\r\n\r\n\r\n[b]Future Updates[/b]\r\n- Markarth as soon as I can be sure I won\\'t break the mine quest.\r\n- Support for mods that add the need to eat and drink: There is usually bread and cheese in the cells you are put in, but not enough to sustain you over a long sentence. I think this would be best achieved by having a guard bring you food and water every day, also giving you another opportunity to escape.\r\n- No fines, if you commit a crime you WILL go to jail if the bounty is high enough.\r\n- Possible capital punishment.  If your crimes are bad enough you are put in jail for a set amount of time. If you do not escape you are executed.\r\n- Follower support.\r\n- I\\'d like to cut back on the police brutality and have the guards try and incapacitate instead of kill you when you resist arrest or try to escape.\r\n\r\n\r\n[b]Recommended Mods[/b]\r\n[url=http://skyrim.nexusmods.com/downloads/file.php?id=11862]Higher Bounties for Crimes[/url] - Using this mod with mine will get you a 100 day sentence for murder, so your going to have to try to escape or resist arrest.  Big crimes are a lot more serious, as they should be.\r\n[url=http://skyrim.nexusmods.com/mods/18545#]Expanded Jail Cells[/url] - If you use Imps Complex Needs.",
+  "categoryId": "78",
+  "version": "1.02",
+  "author": "EmhyrTyl",
+  "createdUnix": "1338567712",
+  "updatedUnix": "1339015749",
+  "containsAdultContent": false,
+  "uploadedBy": "EmhyrTyl",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "65149",
+      "name": "Crime and Punishment - No BSA",
+      "version": "1.01",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "31",
+      "fileName": "Crime and Punishment - No BSA-18009.zip",
+      "uploadedUnix": "1338579941",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/41e74b8e656e84fc89c0a48a871847412a81ac019d915328af473ea01769fc64/analysis/1406930343/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Crime%20and%20Punishment%20-%20No%20BSA-18009.zip?fid=65149&ttl=1535784517&ri=8192&rs=8192&setec=e63c1d6b15c02b9ee0ed4bcc55045c37"
+    },
+    {
+      "fileId": "66400",
+      "name": "Crime and Punishment 102",
+      "version": "1.02",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "31",
+      "fileName": "Crime and Punishment 102-18009-1-02.zip",
+      "uploadedUnix": "1339015749",
+      "modVersion": "1.02",
+      "virusScanUrl": "https://www.virustotal.com/file/36c2b923950f4231907188d2df3d463e9c3e5f081bcd7dd0718089fb1b83814e/analysis/1406943302/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Crime%20and%20Punishment%20102-18009-1-02.zip?fid=66400&ttl=1535784518&ri=8192&rs=8192&setec=be5eeddb8420465aa4898cf9523bea02"
+    }
+  ]
+}

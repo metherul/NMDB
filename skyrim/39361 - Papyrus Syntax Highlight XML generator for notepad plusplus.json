@@ -1,0 +1,32 @@
+{
+  "modId": 39361.0,
+  "modName": "Papyrus Syntax Highlight XML generator for notepad plusplus",
+  "summary": "Papyrus Syntax Highlight XML generator for notepad++",
+  "descriptionHtml": "[line]\r\n[b]Papyrus Syntax Highlight XML generator for [color=#FF6600]notepad++[/color][/b]\r\n[line]\r\nYou can edit psc files on notepad++ with syntax highliting latest SKSE, \r\nSkyUI MCM APIs, even if any your favorite Framework!\r\n\r\n[img] http://static.skyrim.nexusmods.com/mods/images/39361-1-1375359409.jpg [/img]\r\n\r\n[url=http://www.creationkit.com/Notepad%2B%2B_Setup]Notepad++ Setup page[/url] on creationkit.com was great helpful for me.\r\nBut now syntax hightlighting xml is a little bit old. So I made this tool.\r\nThis tool has only 2 buttons, but these 2 can make world colorful.\r\n\r\n[line]\r\n[b][[color=#FF6600]How to Use[/color]][/b]\r\n[line]\r\n[img=center] http://static.skyrim.nexusmods.com/mods/images/39361-2-1375359409.jpg [/img]\r\n\r\n[color=#FF6600]1[/color]. Create \\\"New Folder\\\" somewhere you like. (Desktop is good choice)\r\n\r\n[color=#FF6600]2[/color]. copy all psc files from SKSE to the new folder.\r\n(option): copy all psc files from SkyUI MCM to the new folder.\r\n(option): copy all psc files from your favorite Framework if you have it.\r\n\r\n[color=#FF6600]3[/color]. Startup tool with double click.\r\n\r\n[color=#FF6600]4[/color]. push [[color=#FF6600]...[/color]] button and select folder you created on step 1.\r\n\r\n[color=#FF6600]5[/color]. push [[color=#FF6600]generate[/color]] and wait 1 sec.\r\n\r\n[color=#FF6600]6[/color]. \\\"userDefineLang.xml\\\" is generated to the tool\\'s folder. then place \r\n   \\\"userDefineLang.xml\\\" to the same folder notepad++.exe exists.\r\n\r\nThat\\'s [color=#FF6600]all[/color] !\r\n\r\n[[color=#FF6600]version 2.0[/color]]\r\n[color=#FF6600]7[/color]. Added \\\"lazy\\\" [color=#FF6600]AutoComplete[/color] XML generation feature.\r\n   copy \\\"Papyrus.xml\\\" to Notepad++/plugins/APIs/\r\n\r\n[line]\r\n[Microsoft Visual C++ 2010 Redistributable Package]\r\n[url=http://www.microsoft.com/en-US/download/details.aspx?id=5555]http://www.microsoft.com/en-US/download/details.aspx?id=5555[/url]\r\n\r\n[Microsoft .NET Framework 4]\r\n[url=http://www.microsoft.com/en-us/download/details.aspx?id=17718]http://www.microsoft.com/en-us/download/details.aspx?id=17718[/url]\r\n[line]",
+  "categoryId": "39",
+  "version": "2.0",
+  "author": "eins",
+  "createdUnix": "1375362207",
+  "updatedUnix": "1375679895",
+  "containsAdultContent": false,
+  "uploadedBy": "einsobl",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000044308",
+      "name": "GenPapyrusSyntax",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "276",
+      "fileName": "GenPapyrusSyntax-39361-2-0.zip",
+      "uploadedUnix": "1375679895",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2f0ae04d28c393843550c05e84f2e7f4b226abaea7863f8fb93c5d1ac1738296/analysis/1407669511/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/GenPapyrusSyntax-39361-2-0.zip?fid=1000044308&ttl=1535819778&ri=8192&rs=8192&setec=9966cdabffb007e5fb2177f6a373f2fd"
+    }
+  ]
+}

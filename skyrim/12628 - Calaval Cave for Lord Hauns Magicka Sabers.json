@@ -1,0 +1,48 @@
+{
+  "modId": 12628.0,
+  "modName": "Calaval Cave for Lord Hauns Magicka Sabers",
+  "summary": "THIS MOD REQUIRES MAGICA SABERS BY LORD HAUN.  Load my mod after Magica Sabers.\r<br />\r<br />Calaval Cave - Uses Magicka sabers by Lord Haun get that here (http://skyrim.nexusmods.com/downloads/file.php?id=3174)\r<br />\r<br />Adds a dungeon (still in beta coc calavalcave to reach it)",
+  "descriptionHtml": "Calaval Cave - Uses Magicka sabers by Lord Haun get that here (http://skyrim.nexusmods.com/downloads/file.php?id=3174)\r<br />\r<br />Adds a dungeon to recover Magicka sabers without having to unlock the daedric smithing perk.\r<br />Also good for an alternative start.  \r<br />\r<br />HOW TO CREATE ALTERNATE START:\r<br />Create a text file in the main skyrim directory called start, not start.txt, but just start.  Open it with notepad and add these lines.\r<br />\r<br />player.removeallitems\r<br />;add tunic\r<br />player.additem 0003c9fe 1\r<br />;remove spells\r<br />player.removespell 00012fcd \r<br />player.removespell 00012fcc\r<br />;Create Character\r<br />showracemenu\r<br />\r<br />Save and close.  At the skyrim main menu, open console and type\r<br />&#34;coc calavalcave&#34; without quotes. The with console open type.  EDIT: Fixed syntax\r<br />\r<br />&#34;bat start&#34;\r<br />\r<br />Have fun with your new character.  Remember if you want to start the main quest you must use the console.  UESP.net is a source of good info for that.\r<br />\r<br />The ultimate goal of this mod is to add a small story for use with Lord Haun&#39;s Magicka Sabers.\r<br />Also, as you explore, a story will reveal itself as to how Magica Sabers had come to the planet of Nirn.",
+  "categoryId": "88",
+  "version": "1.3",
+  "author": "UAL002 and Lord Haun",
+  "createdUnix": "1331427622",
+  "updatedUnix": "1358379761",
+  "containsAdultContent": false,
+  "uploadedBy": "ual002",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "50987",
+      "name": "Calaval Cave 1_2",
+      "version": "1.2",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "7111",
+      "fileName": "Calaval Cave 1_2-12628-1-2.7z",
+      "uploadedUnix": "1333826121",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/b7f550cdabbd4257b4d9edf5d050e5ae5ef30fb75789b340c35289d04c9e08df/analysis/1406802609/",
+      "changelogHtml": " Finalized the cell which will hopefully allow followers to follow. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Calaval%20Cave%201_2-12628-1-2.7z?fid=50987&ttl=1535774677&ri=8192&rs=8192&setec=f018d0997c578e0fd6b10261f6b24dc2"
+    },
+    {
+      "fileId": "1000002838",
+      "name": "Calaval Cave 1_3",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7140",
+      "fileName": "Calaval Cave 1_3-12628-1-3.rar",
+      "uploadedUnix": "1358379761",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/d1515e0704d51b214516cb9e8ff58675614f058a51fcc246c461a8d50db9ee0d/analysis/1407357309/",
+      "changelogHtml": " Added 3 books on the shrine to explain the lore. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Calaval%20Cave%201_3-12628-1-3.rar?fid=1000002838&ttl=1535774677&ri=8192&rs=8192&setec=7e01bcb6231fdf32d14ebbfb6d4512f8"
+    }
+  ]
+}

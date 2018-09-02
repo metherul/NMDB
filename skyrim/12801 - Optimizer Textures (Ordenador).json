@@ -1,0 +1,48 @@
+{
+  "modId": 12801.0,
+  "modName": "Optimizer Textures (Ordenador)",
+  "summary": "Textures Check, Fix, Compress, Improves Perfomace.\r<br />Extra: Optimizer BSA.\r<br />Games: Skyrim, Fallout 3 & NV, Stalker, Oblivion, Morrowind,\r<br />Mount & Blade, GTA4 and others.",
+  "descriptionHtml": "Textures Check, Fix, Compress, Improves Perfomace. Extra: Optimizer BSA.\r<br />Games: Skyrim, Fallout 3 & NV, Stalker, Oblivion, Morrowind, GTA4, Mount & Blade and others.\r<br />\r<br />[youtube]9lfaOEgoNiQ[/youtube]\r<br />Comparison in Youtube by Protocol_48\r<br />\r<br />================================================================\r<br />Features:\r<br />----------------------------------------------------------------\r<br />- Compress BMP, TGA, DDS (unoptimized) to DXT5 and DXT1\r<br />- Remove unused mask in DXT5/DXT3 to DXT1c without losing quality, reducing 50%\r<br />- Make mipmaps to improve performance\r<br />- Delete unnecessary files (identical BMP=TGA=DDS, thumbs.db, pspbrwse.jbf, ...)\r<br />- Resize fills to 4x4 or 16x16\r<br />- Fix Wrong Size - Example: 100x30 =&gt; 128x32\r<br />- Fix when the alpha channel is hiding an image\r<br />- Optionally resize textures\r<br />- Optimizer BSA (Compress, Merge internal files)\r<br />- Backup changed files\r<br />\r<br />consequently:\r<br />- decreases some stuttering\r<br />- fixes crash/CTD caused by bursting of VRAM\r<br />- freedom hard disk space / reduces the size of the MOD\r<br />\r<br />================================================================\r<br />Usage:\r<br />----------------------------------------------------------------\r<br />- Extract the contents of the archive to a folder.\r<br />- Run &#34;Ordenador.exe&#34;.\r<br />- Click in button &#34;plugin/data files&#34; to point the Folder of Game, DATA or TEXTURES.\r<br />- Optional: First Tab (optimize), choose one presets\r<br />- Press &#34;start&#34; ... Go for a coffee, or two ...\r<br />- Done&#33; :)\r<br />\r<br />================================================================\r<br />Same Care\r<br />----------------------------------------------------------------\r<br />1) It does automatic backup &#34;C:&#92;Backup Textures&#34;, check for free space, approximately 1 Gb to textures and 4Gb if optimize BSA.\r<br />2) Rare cases in which you face (no npc) can be distorted. reason: Installing MODs with Facegens not in a folder FaceGen on games in progress. correction: in the game console to do open and close &#34;showracemenu&#34;.\r<br />3) this application works perfectly and does not cause any breaks in the game (CTD) but to secure it makes automatic backup. to do restore the backup, the textures are in RAR or 7zip and BSA just delete the extension files &#34;.000.bak (eg &#34;pacote.bsa.000.bak&#34; to &#34;pacote.bsa&#34;) and put back in the game folder.\r<br />\r<br />================================================================\r<br />Change Log\r<br />----------------------------------------------------------------\r<br />Any help is welcome, thanks. =D\r<br />Ordenador.exe is in VB.net 2010 (it is main GUI). AdPDDS.exe is in C++ (it is optimizer small and fast).\r<br />\r<br />I&#39;m finishing college and taking a break before continuing to update it.\r<br />And I also completed other projects, and then return to update it.\r<br />I&#39;m correcting minor improvements, implementing some features (like fix/otimizer sounds, esm, esp), better usefull optimizer BSA, selectable filter for resized textures (lancoz3, ...), support for working with PyFFI (optimizer meshes).\r<br />Doing some experiments, messed up the source code and I am correcting.\r<br />I&#39;ll be providing CodeSource full so fix it.\r<br />\r<br />0.8.3\r<br />- Fix: do not compress BSA Sound and Voices in maximum preset\r<br />- changed texts in painel\r<br />- small improvements in ordenador.ini \r<br />\r<br />0.8.2\r<br />- fix: memorize backup location\r<br />- fix: bug when access files as protect write\r<br />- improvement in Optimizer BSA\r<br />- general small improvements\r<br />\r<br />0.8.1\r<br />- fix: bug when file in BSA is 0 byte (New Vegas)\r<br />- general small improvements\r<br />\r<br />0.8.0\r<br />- Compressor own, no longer requires nvcompress and nvdxt.\r<br />-- Better quality images with smooth textures (&#34;* _MSN.DDS&#34;)\r<br />-- More Fast and Multitasking\r<br />- Usefull config INI with: set_ARGB, Set_NoResize, Set_Icon, ...\r<br />- Optimizer BSA (w/ Compress, Merge internal files)\r<br />- Backup automatic of changed files\r<br />\r<br />0.7.1 ~ 0.7.9\r<br />- Bypassed rare bug: when use NVDXT\r<br />- Add: Admin right\r<br />- Add: Preserve_file, Set_File_R5G6B5\r<br />- Embedded NVCompress 64 bits\r<br />- Setting preset for safer options\r<br />- Presets use DXT5 instead of DXT3\r<br />- Pattern use 16x16 instead of 4x4\r<br />- Improved Resize decision\r<br />- Translate editable whit notepad in translate.txt\r<br />- Fixed: LUMINANCE is not more became black blocks\r<br />- Fixed: FIX ALPHA CHANNEL\r<br />- Fixed: minor bugs\r<br />- Removed/Updated opcodes used in older version\r<br />\r<br />0.7.0 - START for Skyrim (Migrate of Morrowind)\r<br />\r<br />================================================================\r<br />Requirements:\r<br />----------------------------------------------------------------\r<br />- [url=http://www.microsoft.com/download/en/details.aspx?id=17718].NET Framework 4.0[/url]\r<br />- [url=http://www.microsoft.com/download/en/details.aspx?id=5555]MSVCR2010 32bits[/url] or [url=http://www.microsoft.com/download/en/details.aspx?id=14632]MSVCR2010 64bits[/url]\r<br />\r<br />================================================================\r<br />Performace/Test:\r<br />----------------------------------------------------------------\r<br />Undergroun_2 (Qarl) &#34;C:&#92;tmp&#92;The_Underground_2&#92;&#34;\r<br />Before = 1.319 MB in 8118 Files\r<br />After = 864 Mb in 8112 Files (455 Mb less)\r<br />----------------------------------------------------------------\r<br />Compressed: TGA =&gt; DXT3 = balls01.tga (256Kb =&gt; 85Kb)\r<br />Compressed: RGB =&gt; DXT1c = Lumiere001.dds (1365Kb =&gt; 170Kb)\r<br />Compressed: DXT3 =&gt; DXT1a = bb_dre17.dds (341Kb =&gt; 170Kb)\r<br />Compressed: DXT3 =&gt; DXT1c = angel.dds (170Kb =&gt; 85Kb)\r<br />Compressed: BMP =&gt; DXT1c = 11.bmp (768Kb =&gt; 170Kb)\r<br />Compressed: TGA =&gt; DXT1c = kopiera.tga (384Kb =&gt; 85Kb)\r<br />Compressed: TGA =&gt; DXT1a = Dres_Mod23.tga (1024Kb =&gt; 170Kb)\r<br />Fix: ERROR =&gt; DXT1c = AxeBlade.bmp (1024Kb =&gt; 170Kb)\r<br />Fix: ERROR =&gt; DXT1c = tomato_1.tga (1024Kb =&gt; 170Kb)\r<br />Removed (Duplicate) = Textures&#92;WATER00.tga = Textures&#92;water00.dds\r<br />Fix Ref. = WATER00.TGA =&gt; Textures&#92;water00.dds\r<br />Moved = Textures&#92;db_smoke31.dds =&gt; Textures&#92;Qarl&#92;db_smoke31.dds\r<br />Fix Ref. = Textures&#92;db_smoke31.dds =&gt; Textures&#92;Qarl&#92;db_smoke31.dds\r<br />Fix Ref. = _Dni_Decor001.dds =&gt; Textures&#92;_Dni_Decor001.dds\r<br />\r<br />=====================================================\r<br />Acknowledgment:\r<br />Tanks All for: feedback, suggestions, aid.\r<br />- abot and Community Morrowind/Skyrim for suggestions\r<br />- UnrealWarfare for imagems and evaluating\r<br />-----------------------------------------------------\r<br />- Bugs Reports: apipino @ gmail com",
+  "categoryId": "39",
+  "version": "0.8.3",
+  "author": "AdPipino",
+  "createdUnix": "1331615660",
+  "updatedUnix": "1461798604",
+  "containsAdultContent": false,
+  "uploadedBy": "apipino",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "62689",
+      "name": "DLLs MSVCP100 MSVCR100",
+      "version": "0",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "378",
+      "fileName": "DLLs MSVCP100 MSVCR100-12801.7z",
+      "uploadedUnix": "1337566078",
+      "modVersion": "0",
+      "virusScanUrl": "https://www.virustotal.com/file/0319ac05804040acface7af84351d3f1e0d50b9ee0531ebd5d10d93ecd0d21cd/analysis/1406906499/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DLLs%20MSVCP100%20MSVCR100-12801.7z?fid=62689&ttl=1535775039&ri=8192&rs=8192&setec=1b7fa91ed1c5126bcaff6fc58c668185"
+    },
+    {
+      "fileId": "1000204608",
+      "name": "Ordenador",
+      "version": "0.8.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "378",
+      "fileName": "Ordenador-12801-0-8-3.7z",
+      "uploadedUnix": "1461798604",
+      "modVersion": "0.8.3",
+      "virusScanUrl": "https://www.virustotal.com/file/52484ea0224d83231847d2b0eabdffe5e3f948653c3df2dd24bbddd197da9767/analysis/1461798663/",
+      "changelogHtml": " Fixed: do not compress Sound and Voices in maximum preset <br/> \n Changed texts in painel <br/> \n Acumulative small improvements in ordenador.ini <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ordenador-12801-0-8-3.7z?fid=1000204608&ttl=1535775040&ri=8192&rs=8192&setec=a765620e78fe85cbfbb2c05f885dcaa6"
+    }
+  ]
+}

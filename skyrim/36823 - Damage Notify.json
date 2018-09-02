@@ -1,0 +1,48 @@
+{
+  "modId": 36823.0,
+  "modName": "Damage Notify",
+  "summary": "Pops up a notification message when you damage an actor telling you how much damage you&#39;ve done, with what weapon/projectile/spell, and to whom.",
+  "descriptionHtml": "[color=yellow]OVERVIEW[/color]\r<br />\r<br />This mod displays a notification when you damage an NPC telling you how much damage you caused, what was damaged (health, stamina, magicka), and what you caused the damage with.  As of version 2.0, the text displayed is now configurable through an [url=http://www.nexusmods.com/skyrim/mods/3863]MCM[/url] menu.\r<br />\r<br />[color=yellow]COMPATIBILITY[/color]\r<br />\r<br />There should be no conflicts with this mod.  It does not alter or rely on any base records.\r<br />\r<br />If you wish to adjust the size and position of the messages, I highly recommend [url=http://www.nexusmods.com/skyrim/mods/35154/?]Less Intrusive HUD[/url]\r<br />\r<br />[color=yellow]KNOWN ISSUES[/color]\r<br />\r<br />[list][*]If you are in heavy combat, the notifications may get backed up due to the message persistence delay.  I know of no solution for this.[/*]\r<br />[*]Due to effects on target other than player strikes (target stat regeneration or target stat usage (like magicka drain from target spell casting) or damage from other actors, for example) occuring between the last polling interval and the OnHit event, damage notifications may not always be accurate.  If a strike on the target seems to generate no message, or far too high or too low damage, or strange damage (magicka damage from a steel sword srike, for instance), then this is the issue.  Increasing polling frequency may reduce this issue, but will also increase papyrus engine usage overhead. \r<br />[/*]\r<br />[/list]",
+  "categoryId": "39",
+  "version": "2.0",
+  "author": "Thalioden",
+  "createdUnix": "1370227307",
+  "updatedUnix": "1392598199",
+  "containsAdultContent": false,
+  "uploadedBy": "Thalioden",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000095335",
+      "name": "Damage Notify",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Damage Notify-36823-1-0.7z",
+      "uploadedUnix": "1391576509",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8380d4ce4f213be3b0193508e79b94c2e6a9fd94da3fb3daf9c5bc3100a675da/analysis/1407918847/",
+      "changelogHtml": " Thanks ultraw&#39;s donation, I found the time and motivation to return to this mod and get it working properly. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Damage%20Notify-36823-1-0.7z?fid=1000095335&ttl=1535816105&ri=8192&rs=8192&setec=ac2dc22c96bda1976d90d475345425d9"
+    },
+    {
+      "fileId": "1000097407",
+      "name": "Damage Notify",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Damage Notify-36823-2-0.7z",
+      "uploadedUnix": "1392598199",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/421bc8c139d2fab69e1afba2b7ab23480f24f7727defad014e33ea8b7dddf943/analysis/1407936938/",
+      "changelogHtml": " Added MCM menu to configure text output <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Damage%20Notify-36823-2-0.7z?fid=1000097407&ttl=1535816105&ri=8192&rs=8192&setec=7a0bceecf0e65a3211f4d581416050ae"
+    }
+  ]
+}

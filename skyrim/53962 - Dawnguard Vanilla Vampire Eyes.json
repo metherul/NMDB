@@ -1,0 +1,32 @@
+{
+  "modId": 53962.0,
+  "modName": "Dawnguard Vanilla Vampire Eyes",
+  "summary": "Overrides Dawnguards hilariously conspicuous glowing eyes with the original Skyrim vampire eyes.",
+  "descriptionHtml": "So, I was toying with the idea of actually doing a vampire play-through of Skyrim today... when I realised how much the glowing eyes bugged me, even as a non-vampire. Vampires who were supposed to be subtle/in hiding were painfully obvious, even in the brightest daylight. This defeats the entire purpose of the vampire as a seductive, manipulative, *stealthy* predator... and it goes against the Elder Scrolls lore (well-fed vampires are supposed to be able to blend in).\r<br />\r<br />After searching around for a while, and trying a few texture replacements (none of which addressed the *glowing* aspect), I thought I&#39;d just remind myself of the old vanilla vampire eyes, and ripped them out of the .bsa files (for anyone interested, Dawnguard introduced new .nif files for vampire eyes which seem to control the glow: eyesfemalevampire.nif and eyesmalevampire.nif).\r<br />\r<br />So, here they are. It&#39;s a simple file override; just stick the files (with their folder structure intact) in your data directory, and whoosh&#33; No more neon signs lighting up your face.\r<br />\r<br />NOTES:\r<br />* Serana&#39;s eyes still seem to glow. It&#39;s possible other, more &#34;unique&#34; vampires do the same.\r<br />* If you want the glow without the old texture, or the old texture without the glow, simply remove the .dds files or the .nif files (.dds for texture, .nif for glow). You can also use other textures with the glow override; just make sure you make two copies, and name them &#34;eyevampire_01.dds&#34; and &#34;eyevampire_02.dds&#34; (I have no idea why there are two files, but only _02 seemed to work on my character)\r<br />\r<br />Incidentally, you should totally check out my book. It&#39;s awesome, and available from all good e-book retailers:\r<br />\r<br />http://nickbrakespear.tumblr.com/",
+  "categoryId": "29",
+  "version": "1",
+  "author": "Nick Brakespear",
+  "createdUnix": "1399841546",
+  "updatedUnix": "1399853780",
+  "containsAdultContent": false,
+  "uploadedBy": "Luthrael",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000108797",
+      "name": "Dawnguard Vanilla Vampire Eyes",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "34",
+      "fileName": "Dawnguard Vanilla Vampire Eyes-53962-1.zip",
+      "uploadedUnix": "1399853780",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/d88f3ec361c972269f64d9241a1a3ec22fee8ca729b33216bb3d94ce77086f8b/analysis/1408073570/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dawnguard%20Vanilla%20Vampire%20Eyes-53962-1.zip?fid=1000108797&ttl=1535837830&ri=8192&rs=8192&setec=b2349c42cbf6da7a23c1a6b66289cbba"
+    }
+  ]
+}

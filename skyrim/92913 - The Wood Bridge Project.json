@@ -1,0 +1,48 @@
+{
+  "modId": 92913.0,
+  "modName": "The Wood Bridge Project",
+  "summary": "This is both a resource pack and a demonstration mod which replaces some stone bridges across Skyrim, especially bridge01 and bridgelong01.",
+  "descriptionHtml": "[center][b]The Wood Bridge Project\n<br />[/b]by SA547[/center]\n<br />\n<br />This is both a resource pack and a demonstration mod which through a plugin replaces some stone bridges across Skyrim, especially bridge01 and bridgelong01 with wooden versions. The meshes are named differently so as not to affect the vanilla bridge meshes.\n<br />\n<br />Constructing them from mesh pieces in Bodyslide's Outfit Studio, the wood bridges use vanilla (read: stone) bridges as a base, by aligning parts of the bridge to conform with the originals' collision planes. The bridges are also have been UV-mapped to use mine scaffold textures, as well as to match the existing navmesh.\n<br />\n<br />During testing, there revealed to be little to no effect to overall gameplay performance while using the meshes.\n<br />\n<br />[b]ADDITIONAL INFORMATION FOR ENHANCED LIGHTING AND FX USERS:[/b]\n<br />\n<br />The mod also includes null meshes when using ELFX Exteriors to remove bridge shadows; in Mod Organizer, move the mod after Enhanced Lighting and FX.\n<br />\n<br />[i][b]CAVEATS: [/b][/i]\n<br />\n<br />As a consequence, however, because these bridges are enclosed within the collision shapes, there may be some objects and NPCs floating slightly on the bridge deck, why projectiles cannot pass under guardrails, why the player can't sit in the framework, or why the player can run along the guardrails as if floating mid-air.\n<br />\n<br />[b]INSTALLATION:\n<br />\n<br />[/b]The mod is packaged as loose, to be intended as a modders' resource. Either use your favorite mod manager to install, or extract the file's contents into the Skyrim directory.\n<br />\n<br />[b]UNINSTALLATION: [/b]\n<br />\n<br />Before uninstallation, get into any interior cell and make a gamesave.\n<br />\n<br />For manual removal\n<br />\n<br />[list]\n<br />[*]Delete this directory: meshes&#92;architecture&#92;sa547&#92;woodbridge&#92;\n<br />[*]Delete this directory: meshes&#92;effects&#92;ELFX&#92;\n<br />[*]Delete WoodbridgeProject.esp\n<br />[/list][b]\n<br />\n<br />CREDITS\n<br />\n<br />[/b]I'd like to thank Ousnius for Outfit Studio, which allowed me for experimentation of the utility as a rudimentary model editor.\n<br />\n<br />I also like to thank the gang at /r/skyrimmods' Discord channel (https://discord.gg/t8vpu6) for keeping me sane in these trying times.\n<br />\n<br />[b]Tools Used:\n<br />\n<br />[/b]Nifskope 2.0+\n<br />Bodyslide and Outfit Studio\n<br />\n<br />[b]Licensing/Legal:\n<br />\n<br />[/b]You may use this as you wish as long as you don't charge money for it and you credit me for any work used. Please do not re-host this file without my explicit permission.",
+  "categoryId": "29",
+  "version": "1.0",
+  "author": "sa547",
+  "createdUnix": "1533560804",
+  "updatedUnix": "1533561344",
+  "containsAdultContent": false,
+  "uploadedBy": "sa547",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000279007",
+      "name": "The Wood Bridge Project",
+      "version": "1.0",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "952",
+      "fileName": "The Wood Bridge Project-92913-1-0.7z",
+      "uploadedUnix": "1533560373",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7737443f2d79656ecb49432af04af4d4e5cb0981b0201f064a7fefb04623fc06/analysis/1533560586/",
+      "changelogHtml": " Release version. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/The%20Wood%20Bridge%20Project-92913-1-0.7z?fid=1000279007&ttl=1535884080&ri=8192&rs=8192&setec=b9a8cb3d833fdcfec977c44f504630fc"
+    },
+    {
+      "fileId": "1000279008",
+      "name": "The Wood Bridge Project",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "952",
+      "fileName": "The Wood Bridge Project-92913-1-0.7z",
+      "uploadedUnix": "1533561344",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7737443f2d79656ecb49432af04af4d4e5cb0981b0201f064a7fefb04623fc06/analysis/1533560586/",
+      "changelogHtml": " Release version. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/The%20Wood%20Bridge%20Project-92913-1-0.7z?fid=1000279008&ttl=1535884081&ri=8192&rs=8192&setec=4cd2b02ed453a94810bb495fd85988d3"
+    }
+  ]
+}

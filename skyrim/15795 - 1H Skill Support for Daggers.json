@@ -1,0 +1,48 @@
+{
+  "modId": 15795.0,
+  "modName": "1H Skill Support for Daggers",
+  "summary": "Big fan of daggers? But you\\'re sad \\'cos One Handed Skill doesn\\'t work with it?... Other mods make it consider them swords? Look no further, this mod has a total different approach! One Handed Skill becomes dagger-friendly and the Armsman (sword specialization) perk becomes also useful for daggers!",
+  "descriptionHtml": "Big fan of daggers? But you\\'re sad \\'cos One Handed Skill doesn\\'t work with it?... Other mods make it consider them swords? Look no further, this mod has a total different approach! One Handed Skill becomes dagger-friendly and the Armsman (sword specialization) perk becomes also useful for daggers!\r\n\r\n-----------------------\r\n\r\n(Latest patch required [Info based on the fact I created it on the latest version])\r\nInstallation: \r\nJust place the ESP file on Data folder and add it to the Data Files section on the launcher \r\n(or use Nexus Mod Manager)\r\n\r\n-----------------------\r\n\r\nHow it works?\r\nThe usual approach has been convering Daggers to Swords, or making it a middle-ground kinda thing.\r\nHowever, my approach (do forgive me if weird complications arise, it\\'s my very first mod) consisted of creating a perk on the Sneak Perk Tree, available on 65 Sneak that now allows you to take the One Handed Skill (I mean the skill from potions and enchantments) into account when using Daggers. Also, as a small bonus, Bladesman perk (critical chance) now also affects daggers...\r\nOptional: Two files will be uploaded, one with the possiblity of disenchanting the Dark Brotherhood Gloves to further place the enchantment on other gloves, another without said function.\r\n\r\n---------------\r\n\r\nKnown bugs:\r\n- Removing the perk through console still mantains the bonus as if the perk is still there.\r\n\r\n---------------\r\n\r\nChangelog:\r\n\r\nVersion 0.7b:\r\n- Recreated the ESPs from scratch (They were pretty much copy and paste versions of another ESP from a mod I had installed, as such there were alot of unnecessary stuff being changed in the background... Sorry. It should only focus on the intended aspect).\r\n- File size decreased and author name fixed (finally).\r\n- Some possible mod incompatibilities have been fixed due to the \\\"cleaning\\\".\r\n\r\nVersion 0.7a: \r\n(Formulas got mixed because I mistakenly replaced the good file with a previous bad testing file)\r\n\r\n- Changed formula from (1 + One Handed Mod * 1.00) to (Value* = 1 + One Handed Mod * 0.01)\r\n\r\nVersion 0.6:\r\n- Released\r\n\r\n---------------\r\nIt\\'s my first mod, so give me some slack ^^ Hope you\\'ll like it. (Also, this making daggers easy or not, isn\\'t the question, some people enjoy it that way, some don\\'t. Those who don\\'t are obviously not forced to download this mod, it\\'s pretty much as \\\"You can if you want to\\\")\r\n\r\n---------------\r\n\r\nCredits: Pretty much to everyone who created the game ;)\r\nAnd I guess the whole Skyrim modding community in general, since alot of awesome work they do makes me wanna start modding and try new stuff ^^",
+  "categoryId": "73",
+  "version": "0.7b",
+  "author": "Kurokaze",
+  "createdUnix": "1335230185",
+  "updatedUnix": "1335490278",
+  "containsAdultContent": false,
+  "uploadedBy": "KurokazePT",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "56634",
+      "name": "Daggers-Normal",
+      "version": "0.7b",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Daggers-Normal-15795-0-7b.zip",
+      "uploadedUnix": "1335490254",
+      "modVersion": "0.7b",
+      "virusScanUrl": "https://www.virustotal.com/file/d0e37f4fd86ade7c49aa9b88b44ac18aab3ff830646f27e9b02828e64e47f500/analysis/1406842808/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Daggers-Normal-15795-0-7b.zip?fid=56634&ttl=1535780507&ri=8192&rs=8192&setec=0adec8525e41b7bc25f46c6f00256811"
+    },
+    {
+      "fileId": "56635",
+      "name": "Daggers-DisEnhDB",
+      "version": "0.7b",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Daggers-DisEnhDB-15795-0-7b.zip",
+      "uploadedUnix": "1335490278",
+      "modVersion": "0.7b",
+      "virusScanUrl": "https://www.virustotal.com/file/43bffb0aba8c1d4cb79f537be1eb8f19513be3285b533d52c430ad10082a3a68/analysis/1406842809/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Daggers-DisEnhDB-15795-0-7b.zip?fid=56635&ttl=1535780508&ri=8192&rs=8192&setec=260e7c9ef0f9d2d36867b01d8515f6bf"
+    }
+  ]
+}

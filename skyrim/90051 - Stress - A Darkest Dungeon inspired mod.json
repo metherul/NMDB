@@ -1,0 +1,32 @@
+{
+  "modId": 90051.0,
+  "modName": "Stress - A Darkest Dungeon inspired mod",
+  "summary": "Recreates the stress system from Darkest Dungeon into Skyrim.",
+  "descriptionHtml": "SE Version available here: [url=https://www.nexusmods.com/skyrimspecialedition/mods/15836]https://www.nexusmods.com/skyrimspecialedition/mods/15836[/url][i]\n<br />\n<br />Mods for hunger, mods for thirst, mods for sleep... now there's a mod for stress![/i]\n<br />\n<br />[b]INTRODUCTION[/b]\n<br />One of the most fascinating features in the indie game \"Darkest Dungeon\" is the stress gauge. The idea that a hero has not just physical needs, but mental needs as well. I thought it was a very creative and well thought out system, and so I set out to see if such a feature could be replicated in Skyrim too.\n<br />\n<br />[b]OVERVIEW[/b]\n<br />This mod adds a rudimentary stress system to Skyrim. Going into combat, sneaking aronud, taking heavy damage, traveling outdoors at night, exploring hostile territory; all these actions will slowly increase your stress. Spending time in a house you own, a temple, or an inn will cause stress to gradually decay. Sleeping or simply using the wait feature in one of these establishments will also lower your stress level proportionately. As your character levels up, they will become more resistant to stress and can go longer periods without returning to safety.\n<br />\n<br />[b]RESOLVE[/b]\n<br />Once your stress reaches 100 (out of a maximum 200), your character's resolve will be put to the test. Most of the time, this will result in your character recieving a crippling affliction, but there's also a small chance of getting a virtue instead. What this entails is outlined below.\n<br />\n<br />[b]AFFLICTIONS[/b]\n<br />If your character becomes afflicted, they will randomly recieve one of five debuffs: Hopeless, Masochistic, Paranoid, Lethargic, or Irrational. These debuffs are permanent until you lower your character's stress back down to 60 or less. While you're afflicted, you will also slowly hemorrhage stress until you get treated.\n<br />[b]Hopeless[/b]\n<br />Becoming hopeless will lower your damage and spell durations by 80%\n<br />[b]Masochistic[/b]\n<br />Becoming masochistic will increase your damage taken and spell cost by 4x\n<br />[b]Paranoid[/b]\n<br />Paranoia will decrease your resistance to stress, rapidly increasing the rate at which it is accumulated.\n<br />[b]Lethargic[/b]\n<br />Becoming Lethargic will cause your carryweight to be set to 0 whenever you're in combat, forcing you to fight at a snail's pace\n<br />[b]Irrational[/b]\n<br />Becoming irrational will randomly disable one facet of gameplay while in combat every five seconds. This can be your ability to attack, your ability to sneak, your ability to activate objects, or even your ability to move entirely.\n<br />\n<br />[b]VIRTUES[/b]\n<br />During a resolve check, you have a small chance of gaining a virtue rather than an affliction. Virtues offer a temporary (5 minute) buff to your character, will lower your stress down to 50 and prevent it from going over 100 for the duration of the effect, and will also make you immune to further resolve checks for half an hour of real time. There are 3 virtues added with this mod.\n<br />[b]Vigorous[/b]\n<br />Gain 100 points of health and your health regeneration is increased by 200%\n<br />[b]Powerful[/b]\n<br />Doubles your attack damage and spell magnitudes\n<br />[b]Focused[/b]\n<br />Gain 100 points of stamina and magicka, and regeneration for both is increased 200%\n<br />\n<br />[b]DON'T FREAK OUT![/b]\n<br />If your stress is left unchecked for a prolonged period of time and manages to reach 200 points, your character will suffer a heart attack and die on the spot. \n<br />\n<br />[b]FINALLY, A USE FOR TORCHES![/b]\n<br />Having a torch equipped will cut your passive stress gain from being behind enemy lines and/or traveling at night by 75%. Vampires are immune to passive night time stress entirely, though they still gain stress in hostile territory. Casting the candlelight spell will also offer a small resistance to passive stress.\n<br />\n<br />[b]INTROSPECT[/b]\n<br />When you load up the mod for the first time, you will get a lesser power called \"Introspect\". This spell lets you check your current stress level; it will be printed in the spell's description, or you can cast to spell to have it pop up as a message in the corner of the screen.\n<br />\n<br />[b]REQUIREMENTS[/b]\n<br />Just Skyrim, no DLC needed.\n<br />\n<br />[b]BUGS[/b]\n<br />The introspect spell has a few second delay before it updates the displayed value to the actual one, so this could cause some minor visual oddities like your stress appearing to be negative for a moment, or appearing to go over 100 while you have a virtue effect.\n<br />\n<br />Feedback is much appreciated! I will probably continue to work on this mod down the line, as there's a few smaller features I want to implement once I become more familiar with scripting this game, and I also plan on adding MCM support down the line. For now, consider this mod a functional proof of concept, and enjoy!\n<br />\n<br />Special thanks to RedHook Studios for being the inspiration for this mod; if you haven't played Darkest Dungeon yet, you should all check it out!",
+  "categoryId": "78",
+  "version": "1.0",
+  "author": "grasscid",
+  "createdUnix": "1520634060",
+  "updatedUnix": "1520634060",
+  "containsAdultContent": false,
+  "uploadedBy": "grasscid",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000268062",
+      "name": "Stress",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "Stress-90051-1-0.zip",
+      "uploadedUnix": "1520634036",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3c6459060b1d2ed494b208687c16260a1d57677509e539c95df20ee08c14c6a5/analysis/1520634362/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Stress-90051-1-0.zip?fid=1000268062&ttl=1535880034&ri=8192&rs=8192&setec=161f63b1b18ea09b15ed8d42c8581230"
+    }
+  ]
+}

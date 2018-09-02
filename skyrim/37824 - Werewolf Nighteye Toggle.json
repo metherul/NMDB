@@ -1,0 +1,32 @@
+{
+  "modId": 37824.0,
+  "modName": "Werewolf Nighteye Toggle",
+  "summary": "Adds a togglable NightEye to the ctrl key for werewolf players.",
+  "descriptionHtml": "This mod will let you toggle NightEye while in werewolf form with the control key.  The effect will not wear off unless toggled away, and it will be automatically dispelled upon leaving werewolf form.\r\n\r\nThere are a couple other mods out there that add nighteye to werewolves, but all of them had some caveat I didn\\'t quite like.  One was permanently active, another toggled with a key that was already bound to howls, etc.  I encourage you to check those mods out - you might like them more - but I saw more than one person asking for a bare-bones plain ol\\' nighteye on their ctrl key.  (To those of you looking for something more robust, you might want to check out the Predator Vision mod).\r\n\r\nThis mod requires Skyrim Script Extender (SKSE).\r\n\r\nTo install, simply drop WWNightEye.esp into your steamapps/skyrim/Data directory, and the MyWerewolfNighteyeScript.pex into the steamapps/skyrim/Data/scripts.  To uninstall, remove these files.\r\n\r\nTo those of you who are technically-minded and worried about save bloat, this game DOES attach a small script to the player, and like all mods that attach scripts, this script doesn\\'t go away, even after uninstall.  When you remove the esp file, the effects of the mod will be gone, but your save files will forever be 1kb larger. (Many mods work like this and just don\\'t tell you).\r\n\r\nFinally, obligatory shout out: woo hoo, first time modding anything!  Turned out pretty well.  Maybe I\\'ll do this more often.\r\n\r\n\r\nTroubleshooting:\r\nI\\'ll extend this list when I get more reports, but it\\'s a simple mod that can\\'t break too many ways.  If you\\'re having trouble with the mod, try these steps:\r\n    1) If you install this mod while in werewolf form, you might have to shift out and back before it starts working.\r\n    2) Double check that SKSE is installed properly.  That\\'s much more likely to break than this little thing.\r\n\r\n\r\nVersion List:\r\n1.0 - Neato! First version! Huzzah!  Night eye added to a toggle on the ctrl key for werewolf characters.",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Wivru",
+  "createdUnix": "1372692508",
+  "updatedUnix": "1372692446",
+  "containsAdultContent": false,
+  "uploadedBy": "wivru",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000036724",
+      "name": "Werewolf Nighteye Toggle",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Werewolf Nighteye Toggle-37824-1-0.zip",
+      "uploadedUnix": "1372692446",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/de016d8fc5b920ebf5ed22fc0aebdd2799d1282082e3ffe228d8cad1a1cf3eaa/analysis/1407624786/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Werewolf%20Nighteye%20Toggle-37824-1-0.zip?fid=1000036724&ttl=1535817776&ri=8192&rs=8192&setec=bcf93b072d32306dd7b02635243c4b70"
+    }
+  ]
+}

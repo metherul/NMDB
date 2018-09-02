@@ -1,0 +1,32 @@
+{
+  "modId": 18233.0,
+  "modName": "Harry Potter Spells",
+  "summary": "Adds several Harry Potter Spells.",
+  "descriptionHtml": "Version 0.1.0:\r<br />I realize that there are several bugs, and that not all the spells are extremely reliable, however, bear with me until the beginning of the week when I will have more time to work on it.\r<br />\r<br />Each spell has a Magicka cost of 10 for now, and can only be equipped in the left hand. This is due to a system that I am looking to implement in the future.\r<br />\r<br />You can get the spells by typing &#34;help SPELL_NAME 4&#34; into the cheat console ` and then finding the code for SPELL_NAME and typing &#34;player.addspell &lt;itemcode&gt;&#34;\r<br />NOTE: If the spell has 2 or more words, then use only one of them.\r<br />\r<br />For example, after opening the console, I want to add Avada Kedavra to my spell list. I would type in:\r<br />help avada 4\r<br />it would return a number along the lines of yy00XXXX. Where yy is the load order. You would then type in:\r<br />player.addspell yy00XXXX\r<br />It should tell you a message on the top left of your screen that the spell was added.\r<br />\r<br />Spell Name List:\r<br />Alohamora\r<br />Avada Kedavra\r<br />Expelliarmus\r<br />Stupefy\r<br />\r<br />A not so Future Future note:\r<br />I am adding more spells from Harry Potter in the now. Leave comments if you have any suggestions. I can only remember so many of them off the top of my head.\r<br />\r<br />Thanks\r<br />\r<br />PS:\r<br />Which Professor is your favorite from Harry Potter? Please post in the comments.",
+  "categoryId": "75",
+  "version": "V0.1.0",
+  "author": "GODSBANE123456",
+  "createdUnix": "1338873709",
+  "updatedUnix": "1390600152",
+  "containsAdultContent": false,
+  "uploadedBy": "GODSBANE123456",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000093197",
+      "name": "HPSpells",
+      "version": "V0.1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "HPSpells-18233-V0-1-0.zip",
+      "uploadedUnix": "1390600152",
+      "modVersion": "V0.1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a5341aa33a43e614974220e86a18472bdeae6f8e8fa9b43ff8a5a2367728ebe1/analysis/1407900249/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HPSpells-18233-V0-1-0.zip?fid=1000093197&ttl=1535784942&ri=8192&rs=8192&setec=d6ecd4c54dbbb0603526029fd95448b8"
+    }
+  ]
+}

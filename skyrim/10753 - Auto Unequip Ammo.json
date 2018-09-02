@@ -1,0 +1,48 @@
+{
+  "modId": 10753.0,
+  "modName": "Auto Unequip Ammo",
+  "summary": "This mod will automatically unequip ammo when ranged weapon is unequipped and equip the same ammo back when you equip the ranged weapon again. Optional auto created equp sets - last used ammo can be remembered per each ranged weapon. Supports up to 25 followers from either EFF, UFO or AFT. Custom ammo is fully supported.",
+  "descriptionHtml": "[center][url=http://SkyrimGEMS.com][img]http://SkyrimGEMS.com/images/gems_logo_600.png[/img][/url]\r\n[size=4][b](Category 120 - UI - Timesavers)[/b][/size]\r\n\r\n\r\n[youtube]QUZyx8Ewkpw[/youtube][/center]\r\n\r\n[heading]Features[/heading]\r\n[list]\r\n[*] Ammo is auto-unequipped when ranged weapon is unequipped.\r\n[*] Last used ammo is auto-equipped when ranged weapon is equipped.\r\n[*] Optional auto created equip sets - pair weapon with ammo.\r\n[*] Auto unequip ammo for followers.\r\n[*] MCM configuration.\r\n[*] Dynamic DLC detection and integration - no master file dependencies.\r\n[*] Custom ammo compatibility.\r\n[/list]\r\n\r\n[heading]Basic Mechanics[/heading]\r\nAuto Unequip Ammo will respond when weapon is equipped or unequipped and deal with the ammo respectively. Goal is not to have ammo equipped unless you\\'re using ranged weapons. Arrows and Bolts are tracked separatelly so that valid ammo can be equipped with the corresponding ranged weapon type.\r\n\r\n[heading]Equip Sets[/heading]\r\nIf enabled, equip sets are created automatically when you manually equip ammo to be used with currently equipped ranged weapon. Mod is basically learning which ammo you prefer to use with each weapon so you don\\'t have to swap ammo manually each time you use different bow or crossbow. Up to 50 equip sets can exist at one time and if limit is breached the list with cycle itself by replacing the oldest entry with newest one. Equip sets can be manually cleared at any time.\r\n\r\n[heading]Custom Ammo[/heading]\r\nIf you equip custom ammo that cannot be recongized by the mod a pop-up will appear for you to classify.\r\nChoose one of 3 classes when asked:\r\n[list=1]\r\n[*] Arrows - Bow ammo.\r\n[*] Bolts - Crossbow ammo.\r\n[*] Other - Bound ammo, Quest ammo, etc.\r\n[/list]\r\n\r\nIn order to keep the mod in working condition and free of bloat, if you uninstall any of the mods that add the custom ammo and that ammo is already added to the list, custom ammo list will empty itself. Custom ammo list can be manually cleared at any time.\r\n\r\n[heading]Configuration[/heading]\r\nAuto Unequip Ammo supports the MCM configuration which is highly recommended way of dealing with mod settings. From MCM menu you can toggle features, clear equip sets and custom ammo and preview current equip sets and known ammo.\r\nIf you don\\'t use MCM you can still toggle features and clear custom content via console commands:\r\n[list]\r\n[*] Follower plugin toggle: (StartQuest AUAFollower) or (StopQuest AUAFollower).\r\n[*] Equip set toggle: (Set AUAEqupSetsEnable to 1) or (Set AUAEqupSetsEnable to 0).\r\n[*] Clear equip sets: (Set AUAEquipSetsClear to 1) and you will be notified when done.\r\n[*] Clear custom ammo: (Set AUACustomAmmoClear to 1) and you will be notified when done.\r\n[/list]\r\nIf you don\\'t use MCM you will not be able to preview equip sets and known ammo lists.\r\n\r\n[heading]Uninstallation[/heading]\r\n[list=1]\r\n[*] Type in console ([color=Greenyellow]StopQuest AUA[/color]).\r\n[*] Save the game.\r\n[*] Uninstall the mod.\r\n[/list]\r\n\r\n[heading]Change Log[/heading]\r\n[list]\r\nVersion 5.0:\r\n[*] Dynamic DLC support - one version for all/any/none DLC. Currently supports ammo from Dawnguard and Dragonborn DLC without the need of manual classification.\r\n[*] MCM configuration integration.\r\n[*] Equip set features - pair weapon with ammo.\r\n[*] Follower support is now optional.\r\nVersion 4.2:\r\n[*] Fixed possible CTD if unequipping bow/crossbow via invetory menu.\r\nVersion 4.1:\r\n[*] Removed annoying message when using custom ammo and added interactive classification menu, drastically improving compatibility with custom ammo mods.\r\n[*] Improved compatibility to work with any bound weapon.\r\n[*] Increased follower limit from 15 to 25.\r\n[*] Minor performance tweaks.\r\nVersion 4.0:\r\n[*] Complete rewrite and new mod name.\r\n[*] Added Dawnguard support for crossbows.\r\n[*] Added support for multiple followers from 3 most popular mods.\r\n[*] Removed custom ammo auto-equip support because it is not possible to distinguish arrows from bolts.\r\nVersion 3.0:\r\n[*] Added follower support (will work only with one follower and will not recognize custom arrows).\r\nVersion 2.2:\r\n[*] Script is now directly attached to player via quest alias and not by using spell magic effect. This should fix the problem that results in script not receiving game events (e.g. after using resurrect on player).\r\nVersion 2.1:\r\n[*] Fixed problems with bound arrows.\r\n[*] Script will try to detect worn arrows on first time use of the mod. If you\\'re using custom arrows from other mods you\\'ll still have to re-equip them to initialize script variables and message popup should remind you.\r\nVersion 2.0:\r\n[*] Script will now remember last used arrows and will try to equip them when you equip your bow.\r\n[/list]",
+  "categoryId": "39",
+  "version": "5.0",
+  "author": "Alek",
+  "createdUnix": "1329871059",
+  "updatedUnix": "1361985755",
+  "containsAdultContent": false,
+  "uploadedBy": "mitchalek",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000013611",
+      "name": "Auto Unequip Ammo v5_0",
+      "version": "5.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "45",
+      "fileName": "Auto Unequip Ammo v5_0-10753-5-0.zip",
+      "uploadedUnix": "1361969614",
+      "modVersion": "5.0",
+      "virusScanUrl": "https://www.virustotal.com/file/96d67cf9e58a246589c21d6a6c36a909fa64317820148c31308ca2bc41197f95/analysis/1407442203/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Auto%20Unequip%20Ammo%20v5_0-10753-5-0.zip?fid=1000013611&ttl=1535771354&ri=8192&rs=8192&setec=615be5f6a69be19017a71ec48a0d061e"
+    },
+    {
+      "fileId": "1000013669",
+      "name": "Auto Unequip Ammo v4_2 - Dawnguard",
+      "version": "4.2",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "Auto Unequip Ammo v4_2 - Dawnguard-10753-4-2.zip",
+      "uploadedUnix": "1361985755",
+      "modVersion": "4.2",
+      "virusScanUrl": "https://www.virustotal.com/file/a65595d40a27c739035d72dac3aea8b23a85ab27fed66c413c4be5ed077b26d7/analysis/1407442682/",
+      "changelogHtml": " Fixed possible CTD if unequipping bow/crossbow via invetory menu. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Auto%20Unequip%20Ammo%20v4_2%20-%20Dawnguard-10753-4-2.zip?fid=1000013669&ttl=1535771355&ri=8192&rs=8192&setec=a1095c1b7834e10dcb3d42902f767707"
+    }
+  ]
+}

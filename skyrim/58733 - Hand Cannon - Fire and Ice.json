@@ -1,0 +1,48 @@
+{
+  "modId": 58733.0,
+  "modName": "Hand Cannon - Fire and Ice",
+  "summary": "Adds 2 Spells and Spell Tomes to Skyrim; The Hand Cannon Spells \r<br />- Can be dual cast \r<br />- No prerequisite skills\r<br />- Is standalone and should be compatible with any mod or DLC",
+  "descriptionHtml": "Adds 2 Spells and Spell Tomes to Skyrim; The Hand Cannon Spells \r<br />- Can be dual cast \r<br />- No prerequisite skills \r<br />- Doesn&#39;t need any DLC&#39;s or other mods \r<br />- 2 Versions (Balanced and OP)\r<br />- Very little cast time\r<br />\r<br />OP\r<br />- Doesn&#39;t cost anything to cast\r<br />- Does 1000 damage\r<br />\r<br />Balanced\r<br />- Costs a fair deal of mana\r<br />- Does around 200-250 (base, subject to skills)\r<br />\r<br />- Add to inventory with console: \r<br />- &#39;~&#39; \r<br />- &#39;player.additem xx000D69&#39; 1 - Ice \r<br />xx000D6B&#39; 1 - Fire (Spell Tomes) \r<br />- or &#39;player.addspell xx000D64&#39; - Ice \r<br />xx000D68&#39; - Fire (Spells) (&#39;xx&#39; is the load order) \r<br />\r<br />~~COMMENT WHAT YOU THINK I SHOULD ADD OR CHANGE~~ \r<br />\r<br />Just to clarify: \r<br />What i meant as &#39;xx&#39; is the placement of the mod in the load order so if it was the 56th mod it would be 56000d69 for the Ice Spell Tome for example. \r<br />\r<br />An easy way to find out the load order is to use the console and type &#39;help cannon&#39; and it should come up with the IDs for the Tomes and the Spells\r<br />\r<br />Also, donations would be gratefully appreciated as it encourages me to update the mod with more features and create more mods. ",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "TheSpectral",
+  "createdUnix": "1412474726",
+  "updatedUnix": "1412475537",
+  "containsAdultContent": false,
+  "uploadedBy": "TheSpectral",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000129654",
+      "name": "Hand Cannon - Fire and Ice OP",
+      "version": "V1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Hand Cannon - Fire and Ice OP-58733-V1-0.zip",
+      "uploadedUnix": "1412474536",
+      "modVersion": "V1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/026b60c4600e4589b6fcdba503d81a26745182eb2bb86fdf4ed2974981949e8c/analysis/1412474645/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hand%20Cannon%20-%20Fire%20and%20Ice%20OP-58733-V1-0.zip?fid=1000129654&ttl=1535845585&ri=8192&rs=8192&setec=52ff2a442506c542ce4c56753099c378"
+    },
+    {
+      "fileId": "1000129657",
+      "name": "Hand Cannon - Fire and Ice Balanced-Ish",
+      "version": "V1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Hand Cannon - Fire and Ice Balanced-Ish-58733-V1-0.zip",
+      "uploadedUnix": "1412475537",
+      "modVersion": "V1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/991116e74d346904598b6872afd31b72088fc3e6131a6f5e3f6ae03afab72b43/analysis/1412475603/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hand%20Cannon%20-%20Fire%20and%20Ice%20Balanced-Ish-58733-V1-0.zip?fid=1000129657&ttl=1535845586&ri=8192&rs=8192&setec=e86e5420f2d150dd89ed32145195d6bb"
+    }
+  ]
+}

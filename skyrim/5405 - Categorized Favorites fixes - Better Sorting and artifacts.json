@@ -1,0 +1,48 @@
+{
+  "modId": 5405.0,
+  "modName": "Categorized Favorites fixes - Better Sorting and artifacts",
+  "summary": "A configuration file for Categorized Favorites Menu by favmenumodder \r\n- Adds compability for Better Sorting by headbomb (but is not required)\r\n- Adds support for all unique items (also known as artifacts)\r\n- Fixes some common items showing up in the wrong categories / sublists",
+  "descriptionHtml": "A configuration file for Categorized Favorites Menu that makes it compatible with Better Sorting, adds support for all unique items (arifacts) and fixes some minor issues with the original configuration.\r\n\r\nUse this with:\r\n- Categorized Favorites Menu v0.1.7 by favmenumodder \r\nhttp://www.skyrimnexus.com/downloads/file.php?id=4862\r\n\r\n- Better Sorting v1.67 or higher by Headbomb\r\nhttp://www.skyrimnexus.com/downloads/file.php?id=2730\r\n\r\n\r\n[B]Installation:[/b]\r\n- Install Categorized Favorites Menu first!\r\n- NMM (Nexus Mod Manager, recommended): confirm to overwrite.\r\n- Manual installation: Overwrite Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data\\\\Interface\\\\favoritesmenu.cfg with my file. \r\n\r\n[u]Should anyone find stuff in a wrong category please contact me and i will update the config accordingly.[/u]\r\n\r\n[b]Included fixes:[/b]\r\n- Fix for resolution 1920x1080. You may need to edit the config for other resolutions.\r\n- Fix for Poisons showing up in the health / stamina sublist \r\n- Fix for \\\"Resist poison\\\" showing up in the in the poison sublist\r\n- Fix for some poisons like \\\"Stall...\\\" and potions like \\\"Fortify Barter\\\" that are not recognized in Better Sorting 2.01\r\n\r\n[b]Tested / Included renamed items by Better Sorting[/b]\r\n- Potions: Restore / Regenerate / Fortify / Resist\r\n- Poisons\r\n- Common spells\r\n- All Dragon Shouts\r\n- Common apparel\r\n- Common weapons\r\n- Unique apparel\r\n- Unique weapons\r\n\r\nSupports all artifacts (unique weapons, apparel, etc) as listed in the UESPWiki: http://www.uesp.net/wiki/Skyrim:Artifacts\r\n\r\nI made this config for myself and decided to make it public because both original mods are popular. Personally, I don\\'t use the Hotkey-List, but I left it enabled because it is in the original configuration. You can easily edit the configuration, just take a look at it.\r\n\r\nAll credit for the original mods goes to the original authors: favmenumodder and headbomb\r\nYou guys are awesome!\r\n\r\nOld version info:\r\nIn v1.0 I swapped the order of lists for compability reasons, apparel and weapons now come before potions and spells. Since v1.1 the order of lists is no longer swapped.\r\n",
+  "categoryId": "42",
+  "version": "1.1",
+  "author": "clsShadow",
+  "createdUnix": "1325788705",
+  "updatedUnix": "1326316498",
+  "containsAdultContent": false,
+  "uploadedBy": "clsShadow",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "16891",
+      "name": "CFM-BSC_v10",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "CFM-BSC_v10-5405.zip",
+      "uploadedUnix": "1325789043",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/58bf83cdb794d25472ee9305a39342d22bd461548aed2b80af0a750a2d6a214b/analysis/1406584805/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CFM-BSC_v10-5405.zip?fid=16891&ttl=1535762088&ri=8192&rs=8192&setec=59c43a998f13f7ea8256bd93c115b1c1"
+    },
+    {
+      "fileId": "18943",
+      "name": "CFM-BSC_v11",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "CFM-BSC_v11-5405-1-1.zip",
+      "uploadedUnix": "1326316498",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/a3d769ba7105998097aba2be0bc17aed4bfea9c720c25ee152971147dd5c4f33/analysis/1406603370/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/CFM-BSC_v11-5405-1-1.zip?fid=18943&ttl=1535762088&ri=8192&rs=8192&setec=43c3546da85d85be0898e87eea9dec58"
+    }
+  ]
+}

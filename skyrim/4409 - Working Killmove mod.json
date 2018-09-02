@@ -1,0 +1,32 @@
+{
+  "modId": 4409.0,
+  "modName": "Working Killmove mod",
+  "summary": "working .esp file for killmove and decapitation",
+  "descriptionHtml": "well, I tried to find a killmove/decap mod that WORKS, but all i could find were batch files(more frequent killmove) and .txt files saved as .esp(glamorous combat) which we all know(or should) doesn\\'t work. Well batch file would require you to run it every time you start your game which would be annoying because when saving, decapitationchance values get saved while killmoverandom values doesn\\'t. So basically I got my hands on skyedit, and made a simple .esp file that does exactly that.\r\n\r\n2 versions of the .esp is contained in the zip file(use only one)\r\nkillmove.esp = 100 killmove 75 decap\r\ndecap50.esp = 100 killmove 50 decap\r\n\r\nNOTE: just because killmoverandom is set to 100 doesn\\'t mean that you\\'ll have 100% chance, the higher level the monster, less of a chance you\\'ll have, and the cinematic only works in 1v1 situation, it wasn\\'t what i intended, it\\'s just how the game itself is set up and i don\\'t have the expertise to change it.\r\n\r\nNote2: Decapitationchance value is saved to your character, thus the esp can and will only change new game\\'s values, if i ever figure out how to make it change for saved games as well I\\'ll update.\r\n\r\nneither of the mods i mentioned above contained any information i used to make this mod, they only contained console commands and i didn\\'t make .esp file out of console commands.",
+  "categoryId": "77",
+  "version": "1.0",
+  "author": "yoo203",
+  "createdUnix": "1324627007",
+  "updatedUnix": "1324627063",
+  "containsAdultContent": false,
+  "uploadedBy": "yoo203",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "13151",
+      "name": "Killmove mod",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Killmove mod-4409-1-0.zip",
+      "uploadedUnix": "1324627063",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/61dc19b02169bf48da318b597bce14347f3677c28cb875f9b426a4bd014e4db0/analysis/1406550122/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Killmove%20mod-4409-1-0.zip?fid=13151&ttl=1535760161&ri=8192&rs=8192&setec=50cfce1b3e397ae8ba4d4671d0c8d1b5"
+    }
+  ]
+}

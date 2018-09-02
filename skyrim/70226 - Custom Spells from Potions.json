@@ -1,0 +1,48 @@
+{
+  "modId": 70226.0,
+  "modName": "Custom Spells from Potions",
+  "summary": "Insert the effects of potions or poisons into a spells using this mod.",
+  "descriptionHtml": "Custom Spell from Potions\r<br />\r<br />This mod is currently being tested, but feel free to try it&#33; Just back-up your save(s), okay?\r<br />\r<br />This mod allows you to take the effects of a potion (or poison) and insert them into either aimed or self-oriented spells.\r<br />\r<br />Requires SKSE, and the latest version at that. Older versions may or may not work.\r<br />\r<br />How to Use:\r<br />\r<br />Step 1: Use the Alteration spell called &#34;Submit Spell Potion&#34;. Place a single potion or poison into the magic container \r<br />\r<br />when the inventory trade menu opens. \r<br />\r<br />Step 2: Use either the spell &#34;Create Aimed Spell&#34; or &#34;Create Self Spell&#34;. They&#39;re both Alteration spells. Both will give \r<br />\r<br />you a feedback message box. Note that it will also now ask you for a spell slot. See below for more details on that.\r<br />\r<br />Step 3: Use your custom spell&#33; (See below...)\r<br />\r<br />===New Features===\r<br />\r<br />Spell slots...you have five aimed spell slots and five self spell slots, for a total of up to ten custom spells. All of the \r<br />\r<br />spells are pre-added to your character, but will have empty, generic effects until overwritten.\r<br />\r<br />Oh, and now the spells are created in a &#34;non-hostile mode&#34; when the submitted item was a potion and not a poison.",
+  "categoryId": "93",
+  "version": "2",
+  "author": "DumdogsWorld",
+  "createdUnix": "1443769700",
+  "updatedUnix": "1444045193",
+  "containsAdultContent": false,
+  "uploadedBy": "DumdogsWorld",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000178957",
+      "name": "Beta Version",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "64",
+      "fileName": "Beta Version-70226-1.zip",
+      "uploadedUnix": "1443769655",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/url/0b642ce61f8b7b9aa38b48b7db0cfc82fac9adb5519beb256d3a18095c85ce7f/analysis/1443769687/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Beta%20Version-70226-1.zip?fid=1000178957&ttl=1535858794&ri=8192&rs=8192&setec=cfbefaeeeb79bf95f0a278e560fecfc4"
+    },
+    {
+      "fileId": "1000179559",
+      "name": "Beta Version 2",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "75",
+      "fileName": "Beta Version 2-70226-2.zip",
+      "uploadedUnix": "1444045193",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/url/69d639d682cb50a42eddef5aaeac2c0c2c8a2e637ef230ebeec263271c79bd03/analysis/1444045203/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Beta%20Version%202-70226-2.zip?fid=1000179559&ttl=1535858794&ri=8192&rs=8192&setec=42b9c7a2bbea56f2faeaf61888a2949b"
+    }
+  ]
+}

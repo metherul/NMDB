@@ -1,0 +1,32 @@
+{
+  "modId": 59203.0,
+  "modName": "AutoLockpick",
+  "summary": "Change the lockpicking perks to &#34;Automatically open &lt;LockLevel&gt; locks&#34;",
+  "descriptionHtml": "Bored of the lockpicking minigame after the 500th time? Want your Lockpicking Perks to really mean something?\r<br />\r<br />Each of the main perks now enables you to [b]automatically[/b] open locks of that level. Skill use still increases as if you unlocked it by hand.\r<br />\r<br />No buggy scripts attaching to every lock and bloating savegames. No dialog boxes to click every time.",
+  "categoryId": "24",
+  "version": "1.02",
+  "author": "tesnexus8",
+  "createdUnix": "1413726390",
+  "updatedUnix": "1417661554",
+  "containsAdultContent": false,
+  "uploadedBy": "tesnexus8",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000137639",
+      "name": "AutoLockpick_v102.zip",
+      "version": "1.02",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "AutoLockpick_v102.zip-59203-1-02.zip",
+      "uploadedUnix": "1417661554",
+      "modVersion": "1.02",
+      "virusScanUrl": "https://www.virustotal.com/file/4363122ace343c6eb265585dff398b8b885792c37b8584fe4faf8c48020163b0/analysis/1417661583/",
+      "changelogHtml": " If a lock is pickable but also has a key (Dwemer Museum) and you have the perk for that lock&#39;s level, the key will now be used rather than it being autopicked (avoids skill use that shouldn&#39;t be given).\r<br />\r<br />Skill gain values are now taken from the GameSettings table, so they&#39;ll match the manual skill gain if a mod changes them. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AutoLockpick_v102.zip-59203-1-02.zip?fid=1000137639&ttl=1535846300&ri=8192&rs=8192&setec=6bbe4af7cbf3b4c45ff95b0866eb2825"
+    }
+  ]
+}

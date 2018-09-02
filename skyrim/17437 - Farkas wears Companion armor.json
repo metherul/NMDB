@@ -1,0 +1,32 @@
+{
+  "modId": 17437.0,
+  "modName": "Farkas wears Companion armor",
+  "summary": "Farkas wears Wolf armor, even after Dustman\\'s Cairn.",
+  "descriptionHtml": "I\\'ve seen a couple of mods that do this and have even tried my hand at it a few times myself. It\\'s commonly reported that Farkas switches back to Steel armor after the Silver Hand encounter a Dustman\\'s Cairn. \r\n\r\nI found the script that manages that encounter and tried modding that, but he keeps changing to Steel anyway and I cannot figure out why. So, as most people are want to do in desperate times, I resorted to ugly hacks to get it done.\r\n\r\nThere are 18 references to the ArmorSteelNoHelmet outfit in the game. 16 of them have been changed to a newly created ArmorSteelNoHelmetCopy0000 and the original has been modified to contain Wolf armor pieces. \r\n\r\nThis has been tested up to Dustman\\'s Cairn and is confirmed working. \r\n\r\n",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "HyphenC",
+  "createdUnix": "1337589538",
+  "updatedUnix": "1337589585",
+  "containsAdultContent": false,
+  "uploadedBy": "HyphenC",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "62742",
+      "name": "Farkas Wears Companion Armor",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "Farkas Wears Companion Armor-17437-1-0.zip",
+      "uploadedUnix": "1337589585",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/62a4a906774ca7725f3d45aa94cdb24f3e223becae42b39b2aeccb8934eb13d9/analysis/1406906703/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Farkas%20Wears%20Companion%20Armor-17437-1-0.zip?fid=62742&ttl=1535783511&ri=8192&rs=8192&setec=b9b02c58f211ddfc89c913e1383dfb52"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 10401.0,
+  "modName": "Magicka regen config and enchanting fix",
+  "summary": "Sets base magicka regeneration rates based on the 25 magicka reduction perks.  Allows custom PC only in-combat magicka regeneration rates.  Fix for broken enchantment magicka reduction.  Requires Script Dragon",
+  "descriptionHtml": "This mod requires Script Dragon.\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=8221\r\nor\r\nhttp://alexander.sannybuilder.com/?altname=skyrim_script_dragon\r\n\r\nThis plugin allows you to modify your magicka regeneration rates based on the magicka cost reduction perks found in each of the 5 magic trees.  \r\n\r\nThere are 6 configurable values:\r\nbase regeneration - Default Skyrim value of 3% per second\r\nnovice perk regeneration - Default Skyrim value of 0%\r\napprentice perk regeneration - Default Skyrim value of 0%\r\nadept perk regeneration - Default Skyrim value of 0%\r\nexpert perk regeneration - Default Skyrim value of 0%\r\nmaster perk regeneration - Default Skyrim value of 0%\r\n\r\nA configuration value to modify just the pc\\'s in combat magicka regeneration rate.\r\n\r\nA configuration value to fix the magic skill enchantments.  This fixes enchanted item effects such that they properly scale indefinitely without becoming game breaking\r\n\r\nFor example, say you have 4 items that reduce destruction spells by 25%\r\nVanilla skyrim will reduce the cost by 25% + 25% + 25% + 25% = 100%  Ie. everything is free!\r\n\r\nThis uses the formula: 1 - (0.99 ^ (DestructionPercent * 0.85)) where the 0.85 value is configurable\r\nInstead of fixed percentages, think of them as points to reduce cost\r\nSo say you have 1 ring for 25 points\r\nthe result percent reduction would be 1 - 0.99 ^ (25 * 0.85) = 19.23% reduction or 80.77% of the original cost\r\nNow say you wear an amulet also worth 25 points\r\nthe final percent reduction would be 1 - 0.99 ^ (50 * 0.85) = 34.7% reduction or 65.3% of the original cost\r\nNotice that 65.33 is 80.77% of 80.77%. So each 25 points reduces the cost by an additional 80.77%\r\n\r\nThis only applies to enchantments that modify destruction, conjuration, alteration, illusion, and restoration spell costs.\r\n\r\nEverything is better explained in the ini file.\r\n\r\nAll files go in data\\\\asi\\\\\r\n\r\nBugs:\r\nThe disease that drops your magicka regeneration in half actually reduces your base magicka regeneration by 1.5%, so if you have less than that, you will have 0 magicka regen until the disease is cured.\r\n\r\n\r\n",
+  "categoryId": "24",
+  "version": "1.2",
+  "author": "Xanthen",
+  "createdUnix": "1329669344",
+  "updatedUnix": "1331606239",
+  "containsAdultContent": false,
+  "uploadedBy": "Xanthen",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "42825",
+      "name": "Magicka Regeneration and More",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "61",
+      "fileName": "Magicka Regeneration and More-10401-1-2.zip",
+      "uploadedUnix": "1331606239",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/d173c3696a19fb9c254d6a880d4e6f4d8b26e4a5c890bf7be13331a25ec6c4b4/analysis/1406746213/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Magicka%20Regeneration%20and%20More-10401-1-2.zip?fid=42825&ttl=1535770734&ri=8192&rs=8192&setec=2f3678a28b351be0b2e8ea94649d8bd1"
+    }
+  ]
+}

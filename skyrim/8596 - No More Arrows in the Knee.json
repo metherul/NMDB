@@ -1,0 +1,32 @@
+{
+  "modId": 8596.0,
+  "modName": "No More Arrows in the Knee",
+  "summary": "This mod stops all the guards from repeatedly telling you about how they ended up in their current jobs.\r\n",
+  "descriptionHtml": "Mod:  No More Arrows in the Knee 1_0\r\nGame:  TES V: Skyrim\r\nAuthor:  David Brasher                                          \r\nDate:  2/9/12                   \r\n************************************************************************\r\nCONTENTS                          \r\n************************************************************************\r\n1. Information on the Mod\r\n2. Installation\r\n3. Version History\r\n4. Conflicts, Known Issues, and Troubleshooting\r\n5. Copy Status and Credits\r\n************************************************************************\r\n1. INFORMATION ON THE MOD           \r\n************************************************************************\r\n\t   This mod stops all the guards from repeatedly telling you about how they ended up \r\nin their current jobs.\r\n\r\n\t   It just does not seem reasonable to me that every single guard in Skyrim used to be\r\nan adventurer.\r\n\r\n\t   It does not seem reasonable that every single guard in Skyrim retired from \r\nadventuring because of receiving one particular injury.\r\n\r\n\t   So here is a solution to your problem if you too are tired of hearing this one \r\nover-used line of dialog.\t     \r\n************************************************************************\r\n2. Installation                           \r\n************************************************************************\r\n           Extract (decompress) the .esp to your Skyrim directory.  \r\n(It will be something like *Installation directory*\\\\Skyrim\\\\SteamApps\\\\common\\\\Skyrim\\\\Data)\r\nMark the box next to the \\\"No More Arrows in the Knee\\\" plugin in your mod manager.\r\n \r\n           Alternately, extract someplace else.  Then move the .esp to Skyrim\\\\Data.  Mark the \r\nbox next to the plugin in your mod manager.\r\n************************************************************************\r\n3. Version History    \r\n************************************************************************\r\nV 1.0  2/9/12   Initial release.   \r\n************************************************************************\r\n4. Conflicts, Known Issues, and Troubleshooting\r\n************************************************************************\r\n\t   Other mods already exist to deal with this problem.  For example, there is \r\n\\\"Arrow to the knee dialogue remover\\\" by Lockyy.  \r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=8044\r\n\r\n\t   But I favored a different approach to dealing with the problem.  I was not sure about \r\nsome of the side effects of using other approaches.  I feel that my approach will be clean, \r\nbug-free, and will avoid mod conflicts.\r\n\r\n\t   The way this mod was built, is that on the famous line of dialog this mod disables, I \r\nplaced an additional condition:  If player GetItemCount IronArrow >= 20000.  So if you happen to be \r\ncarrying 20000 or more iron arrows, then you still have the chance of hearing the line of dialog.  \r\n(But please be careful with all those arrows!  For the love of Azura, please, please, please don\\'t \r\ngo shooting any adventurers in the knees with them!)\r\n\r\n\t   In the CK, the infamous line of dialog is checked as random, and is that way in vanilla \r\nSkyrim.  So the effect of placing a condition that will almost never be met on it is that it is \r\nusually disqualified and thrown out of the random selection process, and another random line of \r\ndialog will be selected by chance instead.\r\n\r\n\t   Some people may feel that this is a silly and frivolous mod that just junks up load \r\norders.  Nobody is required to use this mod.  If you think it is silly and frivolous, then that \r\nis a very good reason for you to not use it.  If your load order is too full, but you want the \r\neffect of this mod, then maybe you could merge it into another of your mods.\r\n\t\r\n\t   If you locate a bug, contact David Brasher on TES Nexus so that the situation can be\r\nexamined and can hopefully be fixed. \r\n************************************************************************\r\n5. Copy Status and Credits           \r\n************************************************************************\r\nCredits:  Bethesda for making Skyrim in an open format anyone can mod.\r\n\t\t\r\nCopy Status:  Public domain with no limitations.  You may use things from this mod in your own \r\nmod and distribute it.  You do not need to credit me or notify me.           \r\n************************************************************************\r\n************************************************************************\r\n************************************************************************\r\n************************************************************************",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "David Brasher",
+  "createdUnix": "1328832732",
+  "updatedUnix": "1328832805",
+  "containsAdultContent": false,
+  "uploadedBy": "David Brasher",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "28071",
+      "name": "No More Arrows in the Knee 1_0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "No More Arrows in the Knee 1_0-8596-1-0.7z",
+      "uploadedUnix": "1328832805",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/64711808c410761bbffe3c8245bf4f6858d8831be0af1ec96317cb6929c83b73/analysis/1406665564/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20More%20Arrows%20in%20the%20Knee%201_0-8596-1-0.7z?fid=28071&ttl=1535767463&ri=8192&rs=8192&setec=7e9a108f0675f7e67d12d904fd19f5b5"
+    }
+  ]
+}

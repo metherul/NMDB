@@ -1,0 +1,48 @@
+{
+  "modId": 56171.0,
+  "modName": "Better NPC Spell Caps",
+  "summary": "Makes certain NPC-targeted spells work again at high character levels.",
+  "descriptionHtml": "Note: additional file required if you own Dragonborn or Legendary Edition. See download section.\r<br />\r<br />So I never much liked how certain spells like Raise Undead would simply stop working if you levelled beyond 40-50+. While I understand the need to cap spell effectiveness, it makes no sense to do this for the strongest spells, especially at Legendary character levels. I found one mod that sort of fixed this for a few spells, but it added some secondary features that I didn&#39;t really care for. So I decided to create my own mod instead.\r<br />\r<br />This mod changes the magnitude of certain afflicted spells of the Conjuration, Illusion and Restoration schools so they still work on level 100 creatures and npc&#39;s. I selected only spells that meets the following three criteria:\r<br />\r<br />1. Only the highest spell level available of a given spell type.\r<br />2. One Targeted and one Area of Effect version of each spell (sub)type. Some Expert and one Adept spell had to be included because of this.\r<br />3. &#39;Versions&#39; of the same spell that include secondary spell effects.\r<br />\r<br />--\r<br />\r<br />Here&#39;s a detailed list of the spell effects that had their magnitude modified:\r<br />\r<br />// Conjuration\r<br />\r<br />Dread Thrall:\r<br />From 40 to 80 (100 with Necromage perk)\r<br />\r<br />Dread Zombie:\r<br />From 30 to 80 (100 with Necromage perk) \r<br /> - Added because Dread Thrall only works on people. Levelled creatures can still be turned with Dread Zombie.\r<br /> - An Expert level spell, but I gave it the larger 80 bonus because dual casting Conjuration spells does not increase their magnitude.\r<br />\r<br />// Illusion\r<br />\r<br />&#33; - Calculations were made with Animage instead of Kindred Mage in mind, as it gives the lower bonus of the two perks. It does mean that Illusion spells on NPC&#39;s will overshoot level 100 NPC&#39;s a little, but it shouldn&#39;t reallly pose a problem. I didn&#39;t see any reason to alter the Kindred Mage perk: it would have made little practical difference while creating potential conflicts with mods that alter perks.\r<br />\r<br />Mayhem:\r<br />Frenzy AoE: from 25 to 80 (100 with Animage + Rage perks)\r<br />\r<br />Hysteria:\r<br />Flee AoE: from 25 to 82 (100 with Animage + Aspect of Terror perks)\r<br />\r<br />Harmony:\r<br />Beloved AoE: from 25 to 84 (100 with Animage + Hypnotic Gaze perks)\r<br />\r<br />Frenzy:\r<br />Targeted Frenzy: from 14 to 26 (100 with Animage + Rage  + x2.2 Dualcasting bonus)\r<br />-The only targeted Frenzy spell happens to be an Adept level spell. Odd, but I had no choice but to include it as there is no Expert or Master Targeted Frenzy.\r<br />\r<br />Rout:\r<br />Targeted Flee: from 20 to 28 (100 with Animage + Aspect of Terror + x2.2 Dualcasting bonus)\r<br />\r<br />Pacify:\r<br />Targeted Beloved: from 20 to 30 (100 with Animage + Hypnotic Gaze + x2.2 Dualcasting bonus)\r<br />\r<br />Frenzy Rune: \r<br />Frenzy &#39;mine&#39;: now included with the optional file. Dragonborn DLC required. Changed from 20 to 80 (100 with Necromage perk)\r<br />\r<br />// Restoration\r<br />\r<br />Guardian Circle:\r<br />Turn Undead AoE: from 35 to 80 (100 with necromage perk)\r<br />\r<br />Bane of the Undead:\r<br />Turn Undead AoE: from 30 to 80 (100 with Necromage perk)\r<br /> - included because it&#39;s also a Master level spell, with a slightly different spell effect\r<br />\r<br />Turn Greater Undead: \r<br />Targeted Turn Undead: from 21 to 37 (100 with Necromage perk + x2.2 Dualcasting bonus)\r<br />\r<br />Repel Undead:\r<br />&#39;AoE-ish&#39; Turn Undead: from 16 to 37 (100 with Necromage perk + x2.2 Dualcasting bonus)\r<br />- Added because of the slightly atypical Area of Effect.\r<br />\r<br />\r<br />Note that most are Master level AoE spells that cannot be dual-cast, so they receive a relatively larger bonus than the Expert spells, which tend to all be targeted.",
+  "categoryId": "75",
+  "version": "1.01",
+  "author": "Tricky",
+  "createdUnix": "1405881793",
+  "updatedUnix": "1405930659",
+  "containsAdultContent": false,
+  "uploadedBy": "yunage",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000118554",
+      "name": "Better NPC Spell Caps - Dragonborn Addition",
+      "version": "1.01",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Better NPC Spell Caps - Dragonborn Addition-56171-1-01.rar",
+      "uploadedUnix": "1405929740",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/7a2c1321e76733587c3683724ad2335ffe7c74305d982217bae700889f939694/analysis/1405929794/",
+      "changelogHtml": " Added an optional file for people who also have Dragonborn.  <br/> \n Raised the version of the main file so people using the Nexus Mod Manager will see that something was changed (or in this case, added). <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Better%20NPC%20Spell%20Caps%20-%20Dragonborn%20Addition-56171-1-01.rar?fid=1000118554&ttl=1535841391&ri=8192&rs=8192&setec=4a48bcb7290e6155d5bbcff2f439f59f"
+    },
+    {
+      "fileId": "1000118557",
+      "name": "Better NPC Spell Caps",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Better NPC Spell Caps-56171-1-01.rar",
+      "uploadedUnix": "1405930659",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/a90a0df6b9b0d390573fc09f4fef16287b8bf23c81c5fdfaf5325b9ec86e7c00/analysis/1405930693/",
+      "changelogHtml": " Added an optional file for people who also have Dragonborn.  <br/> \n Raised the version of the main file so people using the Nexus Mod Manager will see that something was changed (or in this case, added). <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Better%20NPC%20Spell%20Caps-56171-1-01.rar?fid=1000118557&ttl=1535841391&ri=8192&rs=8192&setec=f6024daf687d1b8ebb0743b61b80db44"
+    }
+  ]
+}

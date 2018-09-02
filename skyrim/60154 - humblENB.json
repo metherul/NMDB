@@ -1,0 +1,32 @@
+{
+  "modId": 60154.0,
+  "modName": "humblENB",
+  "summary": "ENB+sweetFX preset tweaked with performance in mind and without overusing effects. subtle DOF and beatiful look.",
+  "descriptionHtml": "[center][img]http://i.imgur.com/qCkLpOp.jpg[/img][/center]\r<br />\r<br />[center]Good people of the nexus, i present you:\r<br />[font=Comic Sans MS][color=#f1c232][size=6]humblENB[/size][/color][/font][/center]\r<br />While i was tweaking these settings i kept my eye on the fps counter. this way and depending on the different zones in the game my fps never went lower than 45 capped at a max of 50. effects were never overused so the vanilla feel was mainly kept, only giving a natural enhancement to the final result.\r<br />\r<br />keep in mind that ENB shaders are usualy very hungry performance wise. all of the above was achieved using a GTX760 2GB. performance may vary depending on your system.\r<br />\r<br />This is my first contribution to the nexus so feel free to post your images and insight on this one. harsh comments will be ignored.\r<br />\r<br />\r<br />[center][color=#ff7700][size=4][b]Installation:\r<br />[/b][/size][/color][/center]1- download [url=http://enbdev.com/mod_tesskyrim_v0264.htm]ENB series v0.264[/url] and extract only d3d9.dll and enbhost to your skyrim folder.(usualy located at steam/steamapps/common/skyrim)\r<br />2- download the zip from the downloads section and extract everything to the same location as step 1.\r<br />3- in skyrim launcher disable all forms of AA, AF and FXAA (ENB handles these effects much better and this will also prevent graphycal issues like dissapearing textures)\r<br />4- open skyrimprefs.ini (located in documents/my games/skyrim)\r<br />5- change the following lines as you see fit.\r<br />\r<br />[color=#ffd966]bTreesReceiveShadows=0[/color]    (change to 1 if you want shadows on trees)\r<br />[color=#ffd966]bShadowsOnGrass=0[/color]       (change to 1 if you want shadows on grass)\r<br />(performance impact is minimal unless you use mods that add a lot of density to grass)\r<br />[color=#ffd966]bFloatPointRenderTarget=1     [/color](setting this to 1 is mandatory for all ENBs to work properly)\r<br />\r<br />*I recommend you follow [url=http://wiki.step-project.com/Guide:ENB#tab=Editing_Enblocal_INI]ENB S.T.E.P. guide[/url] to properly configure your Enblocal.ini according to your system.\r<br />\r<br />*(advanced users) you might want to check wich vsync option works best for you.\r<br />\r<br />I recomend using mods like [url=http://www.nexusmods.com/skyrim/mods/32505/?]Skyrim Project Optimization[/url] and unoficial skyrim+dlc patches to keep your game stable and fluid.\r<br />I also used [url=http://www.nexusmods.com/skyrim/mods/12801/?]Optimizer Textures[/url] to compress my textures. this tool gives a huge performance boost and the quality loss is barely noticeable. \r<br />(careful how you use it tho)[center][color=#ff7700][size=4][b]\r<br />Recommended Mods:[/b][/size][/color][/center][url=http://www.nexusmods.com/skyrim/mods/27043/?]Enhanced Lights and FX[/url] - the lighting overhaul that i use. most likely what you need to make your game look like the screenshots\r<br />[url=http://www.nexusmods.com/skyrim/users/1305814/?tb=mods&pUp=1]JK&#39;s cities[/url] - set of mods i use to enhance the major cities in Skyrim\r<br />[url=http://www.nexusmods.com/skyrim/users/139369/?tb=mods&pUp=1]tamriel reloaded mods[/url] - set of mods i use to enhance the world of skyrim\r<br />[url=http://www.nexusmods.com/skyrim/mods/17416/?]wearable lanterns[/url] - when you need that edge on those &#34;dark-interior&#34; situations.\r<br />\r<br />\r<br />[color=#ff7700][size=4][b][center]Credits:[/center][/b][/size][/color][center][size=2]First of all, the amazing nexus comunity. thank you for making even better what was already awesome.\r<br />Bethesda - for making Skyrim.[/size]\r<br />[url=http://www.enbdev.com/]Boris Vorontsov[/url] - creator of ENB series.\r<br />[url=http://www.nexusmods.com/skyrim/users/151807/?]Matso[/url] - DOF effect on this preset\r<br />[url=http://www.nexusmods.com/skyrim/mods/50638/?tab=1&navtag=http%3A%2F%2Fwww.nexusmods.com%2Fskyrim%2Fajax%2Fmoddescription%2F%3Fid%3D50638%26preview%3D&pUp=1]Post-Process Effects Addon for ENB[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/45054/?]Lens Textures for ENB[/url]\r<br />[url=http://pinkfirefly135.deviantart.com/]lensmask texture\r<br />[/url][/center][center]*If anyone feel i should credit them here and i forgot to, please let me know and i&#39;ll fix the problem the best way you see fit.[/center]",
+  "categoryId": "97",
+  "version": "1.0",
+  "author": "humbleiplay",
+  "createdUnix": "1416594603",
+  "updatedUnix": "1416594099",
+  "containsAdultContent": false,
+  "uploadedBy": "humbleiplay",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000136260",
+      "name": "humblENB v1.0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "23747",
+      "fileName": "humblENB v1.0-60154-1-0.zip",
+      "uploadedUnix": "1416594099",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/df8a38b53b2a813e04feaece0f983183506c59ec64fe8c4c9376f410ee97f33d/analysis/1416594194/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/humblENB%20v1.0-60154-1-0.zip?fid=1000136260&ttl=1535847766&ri=8192&rs=8192&setec=72e893d58ed99b2ad4213b63516f1875"
+    }
+  ]
+}

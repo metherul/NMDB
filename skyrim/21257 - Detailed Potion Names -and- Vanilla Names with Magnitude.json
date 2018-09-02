@@ -1,0 +1,48 @@
+{
+  "modId": 21257.0,
+  "modName": "Detailed Potion Names -and- Vanilla Names with Magnitude",
+  "summary": "BETA - Renames potions to include the magnitude, duration, and multiple effects",
+  "descriptionHtml": "BETA\r\nThis mod Requires SKSE - skse.silverlock.org\r\n\r\nNOTE - I have just discovered a method to finalize this mod and move it out of BETA. I am heavily engrossed in my hotkeys mod. Once I get a chance this will be moved out of BETA!\r\n\r\nPLEASE give me your feedback. I am open to changes/improvements.\r\n\r\n\r\nI DON\\'T FEEL LIKE READING ALOT. WHAT DO I DO?\r\n-Make sure you have SKSE\r\n-Choose between Detailed and Vanilla versions.\r\n-Install with NMM.\r\n-You may want to edit your CFM config if using detailed version.\r\n\r\n\r\nBRIEF INTRO\r\nThis is my first mod. I wanted to make a simple mod that included magnitudes in the names of potions. Unfortunately Skyrim does not make this easy and it turned into a huge ordeal and learning process. I have many directions I would like to go with what I have now but I want others input. Therefore this is BETA for now.\r\n\r\n\r\nWHAT IS IT\\'S PUPOSE?\r\nTo more easily find the potion you are looking for, using your favorites menu.\r\n\r\nInstead of:\r\nFortify Health (That has a hidden Restore Health)\r\nRestore Health\r\nRestore Health\r\n\r\nYou will see: (Detailed Version)\r\nHP+ 20/HP^ 50,60s (Restore Health moved to front. Restore is \\\"+\\\", Fortify is \\\"^\\\". List magnitude then duration if applicable)\r\nHP+ 22\r\nHP+ 30\r\n*Names are shortened so that potions with multiple effect will more likely be seen. Instead of seeing the truncated \\\"...\\\" in your favorites menu.\r\n\r\nOR: (Vanilla Version)\r\nRestore Health 20 (That has a hidden Fortify Health. Restore Health used as name now)\r\nRestore Health 22\r\nRestore Health 30\r\n\r\n\r\nWHAT DOES IT DO?\r\n-It renames potion that are in your inventory NOT all potions in the world.\r\n-If you renamed a potion in your inventory and find the same potion it will have the new name.\r\n-Restore effects are moved to the front of the list of multiple effects.\r\nDETAILED POTIONS NAMES\r\n   -Adds magnitude AND duration if applicable\r\n   -List multiple effects separated with a /\r\n   -Health is renamed to HP\r\n   -Stamina is renamed to SP\r\n   -Magicka is renamed to MP\r\n   -Damage is renamed to -\r\n   -Restore and Regenerate are renamed to + (The only difference between the two is the length of the effect)\r\n   -Fortify is renamed to ^ (Does not work with fortify skills or carry weight)\r\n   -Therefore Fortify Health is now HP^ and Damage Stamina is SP-\r\nVANILLA POTION NAMES\r\n   -Adds magnitude OR duration\r\n   -Changes names to always display the restore effect, instead of fortify, etc.\r\n\r\n\r\nTHE RENAME POTIONS LESSER POWER\r\n***This is No Longer A Spell. Happens Every Time You Load Your Client*** (Not every save)\r\nPapyrus does not have an easy way to evaluate what is in your inventory. To accomplish this you must remove all items in your inventory and then add them back. At the same time with papyrus you watch what items are added or removed. It is a roundabout way to see what is in your inventory but it works. \r\n**The unfortunate side effect is that all hotkeyed items will have to be reset.** \r\nThey will still be favorites but not hotkeyed. Thankfully this spell will not have to be used very often. Only upon loading the client will you have to use it. You can load a save and your potions will still be renamed but if you exit the client and re-load it the saved names will not be there. That is just the way skyrim works.\r\nBecause there are alot of string evaluations it may take a a bit for the names to update using the Detailed version. The Vanilla version is very fast.\r\n\r\n\r\nWHAT ABOUT MY CFM CONFIG? (Detailed Version Only)\r\nIts a very simple fix. Just add:\r\nHP+, HP^, HP-, SP+, SP^, SP-, MP+, MP^, MP- under their corresponding sublists.\r\n\r\n\r\nINSTALLATION\r\nPlease install with NMM, and have SKSE installed.\r\n\r\nMany Thanks to steve40 and scrivener07 for helping me break the papyrus language barrier. \r\n\r\nThanks for trying my MOD this is a learning process for me so bare with me.",
+  "categoryId": "27",
+  "version": "0.4",
+  "author": "Spinner385",
+  "createdUnix": "1343503263",
+  "updatedUnix": "1343751690",
+  "containsAdultContent": false,
+  "uploadedBy": "Spinner385",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "77886",
+      "name": "Detailed Potion Names",
+      "version": "0.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Detailed Potion Names-21257-0-4.rar",
+      "uploadedUnix": "1343751626",
+      "modVersion": "0.4",
+      "virusScanUrl": "https://www.virustotal.com/file/aa96b77b0f4929828bc561515307a764b0973332fb77dff4bad52d0591e48d13/analysis/1407059944/",
+      "changelogHtml": " Removed Spell version. Found a way to run inventory evaluation only when the client loads not every save. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Detailed%20Potion%20Names-21257-0-4.rar?fid=77886&ttl=1535789980&ri=8192&rs=8192&setec=5118df96baf71cf20c3399108820488c"
+    },
+    {
+      "fileId": "77887",
+      "name": "Vanilla Potion Names with Magnitude",
+      "version": "0.4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Vanilla Potion Names with Magnitude-21257-0-4.rar",
+      "uploadedUnix": "1343751690",
+      "modVersion": "0.4",
+      "virusScanUrl": "https://www.virustotal.com/file/ad3c59cb6392a9651fba3388af3cd574498168a8169d71f9b2d7544fc86e4398/analysis/1407060004/",
+      "changelogHtml": " Removed Spell version. Found a way to run inventory evaluation only when the client loads not every save. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vanilla%20Potion%20Names%20with%20Magnitude-21257-0-4.rar?fid=77887&ttl=1535789980&ri=8192&rs=8192&setec=7689fea7514698b07f307762d3ebae76"
+    }
+  ]
+}

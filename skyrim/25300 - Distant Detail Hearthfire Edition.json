@@ -1,0 +1,32 @@
+{
+  "modId": 25300.0,
+  "modName": "Distant Detail Hearthfire Edition",
+  "summary": "Makes certain objects and structures visible from great distances, especially in sparse areas like Whiterun.  Hearthfire Compatible!",
+  "descriptionHtml": "ATTENTION:  This is the Hearthfire Edition of Distant Detail.  If you do not own the Hearthfire expansion do NOT download this file!\r\n\r\nIf you are switching from the original Distant Detail to the Hearthfire Edition, please deactivate and/or uninstall the original Distant Detail from Skyrim\\'s \\\"Data\\\" window before installing this version.\r\n\r\nThe original Distant Detail is located here:  http://skyrim.nexusmods.com/mods/12866\r\n\r\n\r\nWHAT IT DOES AND WHO IT\\'S FOR:\r\n\r\nThis mod will make certain objects, like large rocks, stone structures, and bridges visible across Skyrim (mostly in Whiterun) regardless of your distance from them. This helps fill in detail in areas that would otherwise look somewhat sparse and bald from a distance.\r\n\r\nThe mod is intended to be a nice compromise for those of you who want extended rendering distance without having to deal with the performance impact of changing the ugridstoload setting in your .ini file, and without having to procedurally create distant LOD items.\r\n\r\n\r\nINSTALLING:\r\n\r\nSimply download the .ESP and activate it with your mod manager or Skyrim\\'s data manager.\r\n\r\nI recommend keeping your ugridstoload setting at the default value of 5 when using this mod.\r\n\r\nI STRONGLY recommend you also download the following visual enhancers:\r\n\r\n\\\"Enhanced Distant Terrain,\\\" by opticshooter: http://skyrim.nexusmods.com/downloads/file.php?id=1598\r\n\r\n\\\"High Quality LODs,\\\" by Ethatron: http://skyrim.nexusmods.com/downloads/file.php?id=4834\r\n\r\n\\\"Better Distant LOD waterfalls,\\\" by rolloLG: http://skyrim.nexusmods.com/downloads/file.php?id=6161\r\n\r\n\r\nNOTES ON PERFORMANCE AND TECHNICAL LIMITATIONS:\r\n\r\nThe items are made visible by ticking a flag in their properties labeled \\\"is full LOD,\\\" which makes those items render at full detail at ANY distance, regardless of whether or not you can even see them.\r\n\r\nThis is not an ideal situation, but the performance hit should still less than you would experience by increasing the ugridstoload value in your .ini file, and the visual yield is actually better because the draw distance of these objects is no longer bound to grids at all.\r\n\r\nI have only experienced 1 to 2 frames-per-second less using this mod on my system which is running Windows XP, 3 GB of RAM, an ATI HD 4890 GPU with 1 GB on-board vRAM, and a duo core processor (2.8 GHz / 2.8 GHz)\r\n\r\nI am interested in hearing about your experience with the mod, and what performance impact you experience, if any. (Please include your system specs including OS, RAM, graphics card, and processor if you are reporting on performance.)\r\n",
+  "categoryId": "74",
+  "version": "1.0",
+  "author": "Kazoomie - Dovahsbane",
+  "createdUnix": "1349889185",
+  "updatedUnix": "1349889234",
+  "containsAdultContent": false,
+  "uploadedBy": "dovahsbane",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "93125",
+      "name": "Distant Detail Hearthfire Edition",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "127",
+      "fileName": "Distant Detail Hearthfire Edition-25300-1-0.zip",
+      "uploadedUnix": "1349889234",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/17654f72907513d219123f03a372969fe46a626afbb1d9a2308aeba45dccd4be/analysis/1407217366/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Distant%20Detail%20Hearthfire%20Edition-25300-1-0.zip?fid=93125&ttl=1535796723&ri=8192&rs=8192&setec=960ae78cf1774e2ce39f2012c8377ca4"
+    }
+  ]
+}

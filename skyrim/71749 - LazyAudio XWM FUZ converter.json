@@ -1,0 +1,48 @@
+{
+  "modId": 71749.0,
+  "modName": "LazyAudio XWM FUZ converter",
+  "summary": "This script convert audio files to Skyrim&#39;s/Fallout4 xwm (or fuz) and vise versa.",
+  "descriptionHtml": "This script convert audiofiles to Skyrim&#39;s xwm (or fuz) and vise versa.\r<br />\r<br />Usage:\r<br />1. put your music files (xwm, fuz and others) in folder &#34;audio&#34;\r<br />2. run audio2xwm.bat if your need XWM, audio2wav.bat if want WAV\r<br />3. transcoded files will be in folder named &#34;converted&#34;\r<br />4. profit\r<br />\r<br />\r<br />Use audio2xwm-HQ.bat to encode to more quality (useful for music files), audio2xwm.bat is Ok for voices.\r<br />If LIP files lying with files in &#34;audio&#34;, then they will be saved as FUZ.\r<br />\r<br />example:\r<br />file.wav, file.lip  -&gt; audio2xwm.bat = file.fuz\r<br />file.mp3, file.lip  -&gt; audio2xwm.bat = file.fuz\r<br />file.xwm, file.lip  -&gt; audio2xwm.bat = file.fuz\r<br />file.ogg -&gt; audio2xwm.bat = file.xma\r<br />file.ogg -&gt; audio2mp3.bat = file.mp3\r<br />file.xma -&gt; audio2mp3.bat = file.mp3\r<br />file.fuz -&gt; audio2wav.bat = file.wav, file.lip\r<br />\r<br />etc.\r<br />\r<br />file format supported as input:\r<br />mp3, ogg, fuz, xwm, wma\r<br />and\r<br />adx, xm, mod, it, flac, aac, avi, youtube flv and mp4, s3m, spc, vgm\r<br />\r<br />file format supported as output:\r<br />xwm, fuz, mp3, wav.\r<br />\r<br />\r<br />Tested on Win7 64bit and Win10 x64 (v1703 Creator&#39;s Update).\r<br />Should work on WinXP SP3 and Win8.1 too. 64bit & 32bit compatible\r<br />\r<br />ffmpeg, xWMAEncode, sox, fuz_extractor used for the script\r<br />version 1.3RC1\r<br />\r<br />\r<br />\r<br />Changelog:\r<br />[spoiler]\r<br />- build 20170624 v1.3 RC1\r<br />\r<br /> file.xwm + file.lip = file.fuz\r<br />\r<br /> added support of FUZ from XWM + LIP files. Just put your XWM with LIPs and run audio2xwm.bat. Files will not be transcoded, original XWM will be used\r<br />\r<br /> converting FUZ to FUZ now not gives an error anymore. \r<br /> \r<br /> more info reports about encoding process (for large wav&#39;s).\r<br />\r<br /> minor improvements. Now, if you force-exit script during encoding - it will be OK and nothing wrong will not happen when you run it next time\r<br />\r<br />-------------------------------------- \r<br />- build 20170608 v1.2\r<br /> improved log for FUZ.\r<br />\r<br />When your tried to convert more then thousand of FUZ files it can take some time. If you wait, converting will go on, but you might think that the script freezes coz you not see any progress in console. Now you can see report &#34;File is preparing..&#34; for every FUZ that still preparing and you won&#39;t worry &#39;bout something wrong happens.\r<br />\r<br />--------------------------------------\r<br />- build 20151204 v1.1\r<br /> initial release \r<br />[/spoiler]",
+  "categoryId": "39",
+  "version": "1.3",
+  "author": "Oketado",
+  "createdUnix": "1449202679",
+  "updatedUnix": "1498336001",
+  "containsAdultContent": false,
+  "uploadedBy": "cptPauer",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000186835",
+      "name": "LazyAudio XWM and FUZ converter v1.1 stable",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "10453",
+      "fileName": "LazyAudio XWM and FUZ converter-71749-1-1.7z",
+      "uploadedUnix": "1449212378",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/66e05c59cac025b5cafeda15d6260c1dc001b4aeb38e3bf5941d38e9145e3adf/analysis/1449212413/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LazyAudio%20XWM%20and%20FUZ%20converter-71749-1-1.7z?fid=1000186835&ttl=1535860307&ri=8192&rs=8192&setec=6db4849a834cf5181b75bfc9d3a8ac55"
+    },
+    {
+      "fileId": "1000247839",
+      "name": "LazyAudio XWM and FUZ converter v1.3RC1",
+      "version": "1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "13411",
+      "fileName": "LazyAudio XWM and FUZ converter v1.3RC1-71749-1-3.zip",
+      "uploadedUnix": "1498336001",
+      "modVersion": "1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/44e24e0672df8563e5e26654eec400fd0e93c046a6e11427fc3c5d18090a1d11/analysis/1498336189/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/LazyAudio%20XWM%20and%20FUZ%20converter%20v1.3RC1-71749-1-3.zip?fid=1000247839&ttl=1535860308&ri=8192&rs=8192&setec=51f429250f585bf0612afcc204bfd03b"
+    }
+  ]
+}

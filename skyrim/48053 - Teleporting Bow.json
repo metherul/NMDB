@@ -1,0 +1,48 @@
+{
+  "modId": 48053.0,
+  "modName": "Teleporting Bow",
+  "summary": "Adds a spell that will summon a bow that teleports you to wherever its arrows land. If you shoot an NPC, it will teleport you directly behind them, facing them. It does 0 damage, and NPCs will not recognize it as an attack (shoot friendlies as much as you want)\r\n\r\nThe spell tome is located in The Riverwood Trader, on the mantle above the fireplace.",
+  "descriptionHtml": "Adds a spell that will summon a bow that teleports you to wherever its arrows land. If you shoot an NPC, it will teleport you directly behind them, facing them. It does 0 damage, and NPCs will not recognize it as an attack (shoot friendlies as much as you want).\r\n\r\nThe spell tome is located in The Riverwood Trader, on the mantle above the fireplace.\r\n\r\nThere is also a spell to just summon the Teleport Arrows if you want. These arrows can be used with any bow, but they will not have the functionality of placing you behind an NPC you shoot. Type [code]player.additem xx000D68 1[/code] into the console (where xx is this mod's place in your load order) to get the spell tome for it.\r\n\r\nTo install, extract the contents to your Data folder, or just use the Nexus mod manager.\r\n\r\n[url=http://steamcommunity.com/sharedfiles/filedetails/?id=198040344]You can also find this file on the the  Skyrim workshop, should you wish to get it from there instead.[/url]",
+  "categoryId": "55",
+  "version": "1.1",
+  "author": "Cxyrtyx",
+  "createdUnix": "1385419841",
+  "updatedUnix": "1386920737",
+  "containsAdultContent": false,
+  "uploadedBy": "Cxyrtyx",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000083108",
+      "name": "Teleport Bow 1_0",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Teleport Bow-48053-1-0.7z",
+      "uploadedUnix": "1385419558",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/6272aa5eec3aae39f1c50c431498b279e5a92f274a0678b3ef622e7272588c5c/analysis/1407808469/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Teleport%20Bow-48053-1-0.7z?fid=1000083108&ttl=1535828221&ri=8192&rs=8192&setec=9950088b01a31afb2bbe5d9d586d27ba"
+    },
+    {
+      "fileId": "1000086568",
+      "name": "Teleport _Bow_1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Teleport _Bow_1_1-48053-1-1.7z",
+      "uploadedUnix": "1386920737",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/887641fd9a2e456099fd08a329cf8eddad04bbb0589a6e8420f661fb740002be/analysis/1407834519/",
+      "changelogHtml": " Fixed bug that prevented spell from being cast if player had the Mystic Binding perk. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Teleport%20_Bow_1_1-48053-1-1.7z?fid=1000086568&ttl=1535828222&ri=8192&rs=8192&setec=d78a551e574f3e34f6ebcf9188115112"
+    }
+  ]
+}

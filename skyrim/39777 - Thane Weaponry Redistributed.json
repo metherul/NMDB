@@ -1,0 +1,32 @@
+{
+  "modId": 39777.0,
+  "modName": "Thane Weaponry Redistributed",
+  "summary": "Each Jarl now gives you a specific weapon when you become a thane, as opposed to just a randomly generated, leveled weapon.",
+  "descriptionHtml": "I was frustrated at how difficult it was to obtain Thane weaponry that matched your play style so I made this mod to make that easier. \r\n\r\nNow every Jarl will grant you a specific weapon when you become their Thane. This means that if you want a Thane weapon that is a dagger, you can go to the specific Thane that will give you that as a weapon and get one. The same goes for every type of weapon, including the bow which was previously unobtainable as a Thane weapon. \r\n\r\nThe list of which Jarls grant which weapons is below, if you do not want to know don\\'t read this bit. There are also civil war spoilers at the very end of the list. \r\n\r\nEastmarch - Greataxe \r\nWhiterun - Waraxe \r\nFalkreath - Bow \r\nHaafingar - Sword \r\nHjaalmarch - Sword \r\nThe Pale - Warhammer \r\nThe Reach - Greatsword \r\nThe Rift - Dagger \r\nWinterhold - Mace \r\n\r\n!!Civil war spoilers!! \r\nRe-instated Whiterun - Sword \r\n\r\nThese weapons are essentially Skyforge steel weaponry, unenchanted. You are free to enchant them as you please. \r\nYour Thane weaponry is now yours to customize as you please, so it can stay useful for longer. \r\n\r\nInstructions on how to manually add the item if you didn\\'t get it, or installed the mod after finishing one of the required quests: \r\nThis is easy enough to fix. If you haven\\'t gotten your Dagger from Riften for example you need to do the following. \r\n1. Open your console. \r\n2. Type in \\'help blade\\' \r\n3. Look through the list for an entry that says \\'Blade of the Rift\\' \r\n4. Take the code from besides that and type in player.additem \\'code\\' 1, where code is the one that appeared next to Blade of the Rift. \r\n\r\nThat will add the dagger to your inventory. Unfortunately I cannot give generic codes for every item, since it depends upon your load order. \r\nThe things to search for each hold are: \r\nhelp blade = Hjaalmarch, The Reach, The Rift, Haafingar, and Whiterun; \r\nhelp mace = Winterhold; \r\nhelp axe = Whiterun, and Eastmarch; \r\nhelp bow = Falkreath; \r\nhelp hammer = Dawnstar. \r\n\r\nIssues: \r\nWithout starting a new game the old weaponry still exists, and since it\\'s no longer related to the old quests weirdness can happen. Like them appearing somewhere in the Jarl\\'s longhouse. This doesn\\'t break the mod, you can just throw the weapon off a cliff, or if you want to properly delete it open the console, click on it when it\\'s on the ground and use the command \\'disable\\' on it. \r\n\r\nMay be incompatible with hearthfire. You may not get your housecarl for Falkreath, The Pale and Hjaalmarch. \r\nTo activate your housecarl if they do not activate you will have to follow these instructions: \r\n1. Open console. \r\n2. Enter \\'help Valdimar/Gregor/Rayya\\' depending upon which housecarl you wish to activate \r\n3. Enter \\'player.placeatme code\\' where code is the id that appeared next to the housecarls name in step 2. \r\n\r\nThis fix will work, a hearthfire compatibility patch is on its way. \r\n\r\nAvailable on the Steam Workshop:\r\nhttp://steamcommunity.com/sharedfiles/filedetails/?id=165652967",
+  "categoryId": "55",
+  "version": "1.5",
+  "author": "Jokiros",
+  "createdUnix": "1375815640",
+  "updatedUnix": "1376224099",
+  "containsAdultContent": false,
+  "uploadedBy": "Jokiros",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000046042",
+      "name": "TWR ",
+      "version": "1.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "38",
+      "fileName": "TWR -39777-1-5.rar",
+      "uploadedUnix": "1376224099",
+      "modVersion": "1.5",
+      "virusScanUrl": "https://www.virustotal.com/file/2ad4199c9e4ae61fa76887d0e8215a528e6e7c6d43840570dd2852c661e91cec/analysis/1407678243/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TWR%20-39777-1-5.rar?fid=1000046042&ttl=1535820226&ri=8192&rs=8192&setec=4353528c25cde7f03cde0213669b7dac"
+    }
+  ]
+}

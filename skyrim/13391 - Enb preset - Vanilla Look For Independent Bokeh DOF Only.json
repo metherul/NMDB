@@ -1,0 +1,48 @@
+{
+  "modId": 13391.0,
+  "modName": "Enb preset - Vanilla Look For Independent Bokeh DOF Only",
+  "summary": "This preset EXCLUSIVELY reproduces the well achieved Bokeh Depth of Field effect from ENBSeries. Basically, all other visual technologies are disabled. See the screenshots with fps displayed for a quick comparison between Vanilla Skyrim and this preset enabled.\r\nThere is almost no difference, except the Bokeh DOF effect of course.",
+  "descriptionHtml": "Enb preset - Original-Vanilla colors and lighting for Independent Bokeh DOF Only\r\n\r\nAs some may have noticed, I am not much present in the community anymore.\r\nSo please refer to the Readme or the comments below BEFORE POSTING!!! \r\n\r\nIntroduction\r\n============\r\nOn the Nexus, many presets merge ENBSeries with mods that alter the general look of the game.\r\nHere are some of these popular visual mods in no precise order: FXAA Post Process Injector, RCRN, RLwC, IMAGINATOR, URWL, etc..\r\nOne particular problem is that these are meant to be standalone modifications. (IMAGINATOR being the only exception, though.)\r\nIf someone likes the changes from one specific mod, he cannot obtain a DOF effect without indirect visual alterations.\r\n\r\nFor the moment, the only known alternative to this issue is Dynavision.\r\nWhile it is surely good from the performance perspective, it is not yet smooth and STABLE.\r\nThis preset, however, EXCLUSIVELY reproduces the well achieved Bokeh Depth of Field effect from ENBSeries.\r\n\r\nBefore Continuing\r\n=================\r\nNote that my native language is not English. So I would appreciate if anyone out here could invest some time to PM me if any description/meaning is not well presented/explained.\r\nThank you for your comprehension. ;)\r\n\r\nDescription\r\n===========\r\n\\\"What does it do?\\\"\r\nBasically, all other visual technologies are disabled.\r\nSee the screenshots with fps displayed for a quick comparison between Vanilla Skyrim and this preset enabled.\r\nThere is almost no difference, except the Bokeh DOF effect of course.\r\n\r\n\\\"How does it work?\\\"\r\nUnwanted persistent visual alterations (any noticeable color and lighting variations applied when toggling ENBSeries) are dealt with by RESETTING all involved properties every time the game launches in order to make it look like it is default/untouched/vanilla (whatever the exact term is).\r\n\r\n\\\"Why would I want the DOF effect only and ignore the rest of the features from ENBSeries?\\\"\r\nThis preset shares the same main feature than Dynavision: the advantage to separate it from any color and lighting variations, shaders, HDR, SSAO and other graphical technologies.\r\nIn other words, it allows everyone to obtain a smooth and STABLE DOF effect without having to worry about properly blending all effects from two or more visual mods.\r\nFinally, it gives better chances to be satisfied by the graphics while still having decent performances.\r\n\r\nModsssss Present On The Screenshots\r\n===================================\r\n1.\tSTEP - Skyrim Total Enhancement Project by TheCompiler\r\n\t(Without RLwC and the FXAA preset (iCCC) in order to test the preset on Vanilla Skyrim)\r\n\t(I totally recommend this one. It is the perfect overhaul. This mod has its own community website to help newcomers and keep Skyrim updated with the best mods around, even those beyond the Nexus.)\r\n\r\n2.\tENBSeries v0.102 Tatsudoshi\r\n\r\n3.\tThe Bokeh Depth of Field effect tweaked by Matso\r\n\r\nManual Install\r\n==============\r\n1.\tExtract the two files in the game folder (where TESV.exe lies).\r\n\r\n2.\tIf it is not already done, set the attributes of the enbseries.ini file to \\\"Read-only\\\"\r\n\r\n3.\tDownload ENBSeries on the official website. (See Credits below for useful links.)\r\n\tThen, extract the following files from the archive to the game folder according to the chosen version.\r\n\r\n\tv0.102: only the d3d9.dll file is required.\r\n\t(If you plan on using any other mod that uses an identical file, see the [PROXY] section in the enbseries.ini file.)\r\n\r\n\tv0.103/105/106: only the three ENBInjector.exe, enbinjector.ini and enbseries.dll files are required.\r\n\r\n4.\tTo get the Bokeh DOF effect (It is the main purpose of this preset!); search for one on the Nexus.\r\n\tONLY THE enbeffectprepass.fx FILE IS REQUIRED. It is where this effect is mostly coded.\r\n\t(I recommend the optional Vanilla one from Matso, which is used for the screenshots.)\r\n\r\nEssential Information\r\n=====================\r\n1.\tTo adjust the fade time of the DOF effect, tweak the last property in the enbseries.ini file.\r\n\r\n3.\tIf the enbseries.ini file is modified, make sure that its attributes are set back to \\\"Read-only\\\" to avoid a new generated code by ENBSeries.\r\n\r\n4.\tDO NOT OVERWRITE THIS PRESET when updating ENBSeries or installing a particular DOF effect.\r\n\r\n5.\tThe enbbloom.fx and enbpalette.bmp files are not required. Both can be deleted.\r\n\r\n6.\tIt is not required to set the bFloatPointRenderTarget property to 1 in the SkyrimPrefs.ini file.\r\n\tIt is actually preferable to leave it to default.\r\n\r\n7.\tENBSeries v0.108 is obviously not compatible with this preset.\r\n\r\nManual Uninstall\r\n================\r\n1.\tDelete all above-mentioned files.\r\n\r\nIncompatibility\r\n===============\r\n1.\tAll presets that overwrite the included one.\r\n\r\nKnown Issues or Bugs\r\n====================\r\n1.\tThe obvious main issue is the one that has always been present in ENBSeries: inevitable performance loss.\r\n\r\n2.\tSo far, the only noticeable difference is a tiny darker night, making stars a tiny less visible.\r\n\tBUT, as seen on the screenshots, it is still hard to notice.\r\n\t(Note that, depending on the enbeffectprepass.fx file used, some indirect visual effects may be applied through it.\r\n\tIt is possible to code more than just a DOF effect in this file, as specified by Boris)\r\n\r\n3.\t(It is up to you to find the others!) ;)\r\n\r\nNotes\r\n=====\r\n1.\tBugs related to ENBSeries itself are not supported here. See the official forum.\r\n\r\nPersonal Opinion Regarding Future Updates\r\n=========================================\r\nI will only update if any tweaks related to performance can be done.\r\nAnd these modifications will mostly come from your feedback.\r\nSo if you want this preset to get better, tweak it, test it, then tweak it again, then test it again and report in the comments section!\r\n\r\nHistory\r\n=======\r\n1.10, 30/03/2012 - Optimized code for tiny performance gain.\r\n1.01, 29/03/2012 - Clarified Readme.\r\n1.00, 23/03/2012 - Initial release.\r\n\r\nCredits\r\n=======\r\nThanks to Boris Vorontsov for ENBSeries.\r\nThanks to Confidence Man & Matso for their precious time and recommendations.\r\n\r\nENBSeries: \t\t\t\thttp://enbdev.com/\r\nWork by Boris Vorontsov:http://skyrim.nexusmods.com/downloads/file.php?id=2971\r\nWork by Confidence Man:\thttp://skyrim.nexusmods.com/downloads/file.php?id=5253\r\nWork by Matso: \t\t\thttp://skyrim.nexusmods.com/downloads/file.php?id=5587\r\n\r\nTools Used\r\n==========\r\n1.\tNotepad++\t\t\thttp://notepad-plus-plus.org/\r\n\t(Especially useful for *.ini files.)\r\n\r\nPermissions\r\n===========\r\nYou can do whatever you want with this preset, but all I ask in return is that you give credits to me and ALL modders I give credits to. I would also like to know what mods are including my work.",
+  "categoryId": "62",
+  "version": "1.10",
+  "author": "MarMScA",
+  "createdUnix": "1332347000",
+  "updatedUnix": "1333150394",
+  "containsAdultContent": false,
+  "uploadedBy": "marmsca",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "45894",
+      "name": "OLD Vanilla Look For Independent Bokeh DOF Only",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "OLD Vanilla Look For Independent Bokeh DOF Only-13391.rar",
+      "uploadedUnix": "1332481111",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/34e43cfd9e55c05c37f5f2f6183701e446f308337bc0e231db3f59e8c225b2e9/analysis/1406774116/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/OLD%20Vanilla%20Look%20For%20Independent%20Bokeh%20DOF%20Only-13391.rar?fid=45894&ttl=1535776125&ri=8192&rs=8192&setec=ff98b3bf72d0b731f192adcfab4e8139"
+    },
+    {
+      "fileId": "48349",
+      "name": "Vanilla Look For Independent Bokeh DOF Only",
+      "version": "1.10",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Vanilla Look For Independent Bokeh DOF Only-13391.rar",
+      "uploadedUnix": "1333150394",
+      "modVersion": "1.10",
+      "virusScanUrl": "https://www.virustotal.com/file/65ed1e64d26a7bd755ee33367e1e1c944b39e1f7acbe70b2564f427bebce7474/analysis/1406788149/",
+      "changelogHtml": " 1.10, 30/03/2012 - Optimized code for tiny performance gain. <br/> \n 1.01, 29/03/2012 - Clarified Readme. <br/> \n 1.00, 23/03/2012 - Initial release. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vanilla%20Look%20For%20Independent%20Bokeh%20DOF%20Only-13391.rar?fid=48349&ttl=1535776126&ri=8192&rs=8192&setec=60abc1db253ff73baeb592302f8e0dc1"
+    }
+  ]
+}

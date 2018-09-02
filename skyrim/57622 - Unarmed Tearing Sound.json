@@ -1,0 +1,32 @@
+{
+  "modId": 57622.0,
+  "modName": "Unarmed Tearing Sound",
+  "summary": "Makes all unarmed attacks cause visual bleeding, as well as gives them the sound of flesh rending. Unfortunately alters the sounds of all races unarmed attacks, though this is mainly intended for khajiit players who use unarmed a lot.",
+  "descriptionHtml": "I&#39;ve always found it incredibly jarring, as a khajiit player that my claws sound... Blunt for lack of better term. While there are mods to make unarmed combat viable, especially for khajiit characters (I&#39;ll let you in on a little secret, combined with  crowd control spells on one hand+ use of claws it can be EXTREMELY satisfying)... At least...  Other than that horrifically blunt sound upon meleeing your victims.\r<br />\r<br /> Unlike orcs nords or other clawless races khajiit do not need blunt trauma, huge muscles, or to hit with massive amounts of force to do fatal damage with their fists, as you see they have those things called claws that are supposedly very good at brutally rending through organic meaty flesh... But, there&#39;s a tiny little  problem, they sound so horribly blunt it&#39;s terribly immersion breaking. This is INTENDED for khajiit players who use unarmed a lot, to prevent that from happening, even though regretfully it alters the unarmed sound of every race.\r<br />\r<br />So I made this mod to fix that. This is a very simple mod, that alters the sound descriptor named &#34;WPNImpactUnarmedVsFlesh&#34; to use renamed copies of vanilla flesh rending sounds rather than that way too blunt of a sound. It also alters the &#34;unarmed weapon&#34; in the Creation Kit, I added the sounds to it there too, although it&#39;s WPNImpactUnarmedVsFlesh that actually changes the sounds, I also lastly changed the impact data set to FXMeleeWerewolfFleshImpactSet. \r<br />\r<br />Other than that, this mod changes nothing. It&#39;s purely audio, and visual, and doesn&#39;t change stats at all.Now when you melee an enemy blood will gush out, and if they are organic you will hear the sound of flesh being rended. Unfortunately it alters ALL unarmed attack sounds, but seeing as how  humanoid npcs almost NEVER fight unarmed, I don&#39;t think it should be too jarring, and at least less jarring than being a khajiit player with  such blunt sounding claws. \r<br />\r<br />If anyone can tell me how to make it ONLY  change the sound of khajiit unarmed attacks, I&#39;ll make a better version  of this mod, if that&#39;s possible. Though if it&#39;s not, this is the best solution for now I can think of.\r<br />\r<br />Also may suit vampire characters, as well as any other races other than khajiit that have claws.",
+  "categoryId": "61",
+  "version": "",
+  "author": "Lectra",
+  "createdUnix": "1409275145",
+  "updatedUnix": "1409273137",
+  "containsAdultContent": false,
+  "uploadedBy": "Letrarunt",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000124350",
+      "name": "Unarmed Tearing Sounds And Visuals",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "206",
+      "fileName": "Unarmed Tearing Sounds And Visuals-57622-.zip",
+      "uploadedUnix": "1409273137",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/3a93712c599803803809a42d6fc4bb14f548ab12ca94c1e01c57b177e110422c/analysis/1409273222/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Unarmed%20Tearing%20Sounds%20And%20Visuals-57622-.zip?fid=1000124350&ttl=1535843753&ri=8192&rs=8192&setec=dcde5009ed0d601718f1feea27150d82"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 58193.0,
+  "modName": "Peasant Tunic",
+  "summary": "Some recolours of the Belted Tunic dress for lore-friendly casual wear.",
+  "descriptionHtml": "Description\r<br />===========\r<br />Some simple recolours of the vanilla Belted Tunic dress to give a few more clothing options for lore-friendly ladies.\r<br />\r<br />Location\r<br />========\r<br />**New in version 1.1.0** Item is now included in levelled lists so it should show up randomly from time to time as loot.\r<br />One copy of each colour is for sale in Radiant Raimant (Solitude), and randomly selected colours will be sold in Belethor&#39;s General Goods (Whiterun) and The Pawned Prawn (Riften).\r<br />\r<br />You can also craft any of these dresses at forges with a few ingredients, they should appear in the Leather section.\r<br />Or just use the console if you&#39;re feeling lazy, you can find the console instructions and crafting recipes in the Details section below.\r<br />\r<br />Details\r<br />=======\r<br />First off, this is my first mod, so please bear with me if there are any problems.\r<br />This mod recolours the vanilla Belted Tunic dress in five shades; aqua, blue, green, brown and red.\r<br />I kept the fabric a little grubby and worn looking but made the colours a bit more vibrant as opposed to the very faded look of the originals. They are a little bit smarter looking than the vanilla version but still fine for peasants, hunters and casual adventurers. They have no armor rating so don&#39;t go fighting dragons and giants in them unless you want to get you new dress very messy&#33;\r<br />\r<br />As described above they are all craftable at forges and should appear in the Leather section. Each colour has a unique recipe based on leather strips (for the belt), linen wraps (for the dress fabric) and a plant ingredient (for the dye).\r<br />\r<br />Crafting Recipes are as follows:\r<br />Aqua - Leather Strips x1, Linen Wraps x2, Blue Mountain Flower x1\r<br />Blue - Leather Strips x1, Linen Wraps x2, Blue Mountain Flower x2\r<br />Brown - Leather Strips x1, Linen Wraps x2, Mora Tapinella x1\r<br />Green - Leather Strips x1, Linen Wraps x2, Frost Mirriam x2\r<br />Red - Leather Strips x1, Linen Wraps x2, Snowberry x2\r<br />\r<br />If you&#39;re not bothered about the immersion factor of crafting them, just open the console and type:\r<br />help &#34;peasant tunic&#34;\r<br />It will list all the IDs for the dresses and you can then just use the following command (replace the x&#39;s with the numeric ID found in previous step) to add them straight into your inventory:\r<br />player.additem xxxxxx 1\r<br />\r<br />\r<br />Install\r<br />=======\r<br />Using Nexus Mod Manager (Recommended):\r<br />1. Download manually or through NMM.\r<br />2. Add mod to NMM using the &#39;Add Mod from File&#39; button if you have downloaded manually.\r<br />3. Double click mod to install.\r<br />4. Check PeasantTunic.esp is activated in your Plugins list.\r<br />\r<br />Manual installation:\r<br />1. Download the mod and open the archive using 7Zip or WinRar.\r<br />2. Extract PeasantTunic.esp into your Skyrim/Data folder.\r<br />3. Extract the contents of the mod&#39;s &#39;Textures&#39; folder into your Skyrim/Data/Textures folder.\r<br />4. Launch Skyrim and check that the .esp is activated/enabled.\r<br />\r<br />Uninstall\r<br />=========\r<br />Before uninstalling by either method make sure your character (or a follower) is not wearing one of these dresses.\r<br />Using Nexus Mod Manager (Recommended):\r<br />1. Deactivate the .esp in your plugin list.\r<br />2. Double click mod to uninstall it.\r<br />3. Click red cross in sidebar to delete completely.\r<br />\r<br />Manual uninstallation:\r<br />1. Deactivate the .esp in your plugin list.\r<br />2. Delete PeasantTunic.esp from your Skyrim/Data folder.\r<br />3. Delete the folder &#39;Peasant Tunic&#39; from your Skyrim/Data/Textures folder.\r<br />\r<br />Updates\r<br />=======\r<br />To update to the latest version, follow the uninstall instructions to remove the previous version and then install the new version.\r<br />v1.1.0   Added item to leveled lists, now purchasable from several vendors (see above).\r<br />v1.0.0   Original upload\r<br />\r<br />Incompatibility\r<br />===============\r<br />No known incompatibilies, but please let me know if you find something and I can try to fix it or at least notify people here.\r<br />\r<br />Known Issues or Bugs\r<br />====================\r<br />Because of a bug in Creation Kit I&#39;m unable to alter the first person textures for this dress, so if you are in first person pov and can see the sleeves of the dress, for example in combat or when spellcasting, they will be light brown like the vanilla dress.\r<br />I&#39;m hoping to be able to fix this at some point but for now my best advice is to have your character invest in a good pair of bracers&#33;\r<br />\r<br />History\r<br />=======\r<br />v1.1.0   Added item to leveled lists, now purchasable from several vendors (see above).\r<br />v1.0.0   Initial upload.\r<br />\r<br />Contact\r<br />=======\r<br />If you have any questions or issues, drop me a comment or a message on Nexus.\r<br />\r<br />\r<br />Thanks to:\r<br />Bethesda for creating TES games, especially Skyrim and the Creation Kit.\r<br />The teams behind GIMP, Nexus Mod Manager, Fallout Mod Manager and 7Zip for their amazing tools.\r<br />LHammonds for the Readme Generator this file was based on.",
+  "categoryId": "60",
+  "version": "v1.1.0",
+  "author": "CostumeSpangles",
+  "createdUnix": "1410870378",
+  "updatedUnix": "1412036715",
+  "containsAdultContent": false,
+  "uploadedBy": "CostumeSpangles",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000127118",
+      "name": "Peasant Tunic",
+      "version": "v1.0.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "925",
+      "fileName": "Peasant Tunic-58193-v1-0-0.7z",
+      "uploadedUnix": "1410868710",
+      "modVersion": "v1.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/05c09564298b367c50ee951661888b7d88a96a3a583e787f4de2fdcaf6c72379/analysis/1410868806/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Peasant%20Tunic-58193-v1-0-0.7z?fid=1000127118&ttl=1535844695&ri=8192&rs=8192&setec=2698a4471019e1d57406fbeb06930fdc"
+    },
+    {
+      "fileId": "1000129014",
+      "name": "Peasant Tunic v1-1-0",
+      "version": "v1.1.0",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "926",
+      "fileName": "Peasant Tunic v1-1-0-58193-v1-1-0.7z",
+      "uploadedUnix": "1412036715",
+      "modVersion": "v1.1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/0e389b2eea24051b0acc38ac50a7ccf3684d8ecebc3b094f0eba986b890b75d3/analysis/1412036824/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Peasant%20Tunic%20v1-1-0-58193-v1-1-0.7z?fid=1000129014&ttl=1535844695&ri=8192&rs=8192&setec=d505a5895b73c5a2cfbb510c1ceaa248"
+    }
+  ]
+}

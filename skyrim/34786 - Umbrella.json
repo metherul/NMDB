@@ -1,0 +1,48 @@
+{
+  "modId": 34786.0,
+  "modName": "Umbrella",
+  "summary": "Adds 4 umbrellas that equip like torches",
+  "descriptionHtml": "I am an amateur modder and 3d model maker, so this is what it is. \r\nthe umbrella was made in 3ds max and utilizes the handle mesh of \r\nthe imperial sword. Everything else, including the textures, are originals made by myself. \r\n\r\nKnown issue: if wielded, when blocking and bashing with the umbrella it will still catch people on fire. other than that there are no bugs and shouldn\\'t be any compatibility issues.\r\n----------------------------------------------------------------------------------------------------------------------------\r\nThis mod is now supported by the newest version of Isoku\\'s Wet & Cold mod. some cool stuff here:\r\nhttp://skyrim.nexusmods.com/mods/27563/\r\n----------------------------------------------------------------------------------------------------------------------------\r\nrequires:\r\nlatest 1.9 patch\r\n----------------------------------------------------------------------------------------------------------------------------\r\nitem ID\\'s:\r\ncanvas          xx0012D1\r\nDark Canvas  xx002886\r\nleather         xx002887\r\nWolf Skin      xx0038ae\r\n----------------------------------------------------------------------------------------------------------------------------\r\nV1.5\r\nAdded a new variant: Wolf Skin. the wood frame is replaced by steel, with a dark wolf skin texture for the umbrella itself. a nice dark/rugged feel.\r\nImproved UV maps for all variants.\r\n\r\nV1.4\r\nOptimized and fixed meshes, improved normal maps, reduced specular/glossy, new textures for the wood and metal parts, improved textures for the umbrella.\r\n\r\nV1.3\r\nNewer, higher definition textures and a vastly improved (working!) normal maps.\r\nI am leaving the old version up in case anyone prefers it.\r\n\r\nV1.2\r\noptimized textures (removed unnecessary alpha channels)\r\nfixed specular (sun glare looks normal, no weird creases anymore)\r\nsaved normal maps at correct resolution\r\n\r\nv1.1\r\nadded a dark canvas version and a leather version\r\nadjusted the tilt slightly to cover the character better, without obtrusive clipping on the hands.\r\n\r\n-----------------------------------------------------------------------------------------------------------------------------\r\n\r\nShowcased on Skyrim Mod Sanctuary 64:\r\nhttp://www.youtube.com/watch?v=Ch8Wo7vBC0I&feature=player_embedded\r\n----------------------------------------------------------------------------------------------------------------------------\r\nTo Install:\r\n\r\nrecommended: Use NMM to install \r\nor\r\nextract files, drag and drop into skyrim main folder\r\n----------------------------------------------------------------------------------------------------------------------------\r\nto add item open the console with \\\"~\\\" and type player.additem xx0012D1 1 (use the desired version ID)\r\nnote the load order of this mod, as it will denote the \\\"xx\\\" of the item id. \r\ni.e, if you have 3 mods and this is the third, the item id would be 030012D1, followed by item count.\r\n----------------------------------------------------------------------------------------------------------------------------\r\ncompatibility issues:\r\nnone known\r\n\r\n",
+  "categoryId": "78",
+  "version": "1.5",
+  "author": "bonaker",
+  "createdUnix": "1365957050",
+  "updatedUnix": "1368354195",
+  "containsAdultContent": false,
+  "uploadedBy": "seanbonaker",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000026757",
+      "name": "Umbrella - Old",
+      "version": "1.2",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2775",
+      "fileName": "Umbrella-34786-1-2.zip",
+      "uploadedUnix": "1367083021",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/2a6579431c1a00419c45501ab501fb34d8005809aa6d007eb1d86b4218736251/analysis/1407544257/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Umbrella-34786-1-2.zip?fid=1000026757&ttl=1535812923&ri=8192&rs=8192&setec=0b05814cdc85de1274b92033fe7b885b"
+    },
+    {
+      "fileId": "1000029495",
+      "name": "Umbrella",
+      "version": "1.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "19497",
+      "fileName": "Umbrella-34786-1-5.zip",
+      "uploadedUnix": "1368354195",
+      "modVersion": "1.5",
+      "virusScanUrl": "https://www.virustotal.com/file/10c793e105f947ccb6775d4167a89e7260fbee2f6adbfb5722b35dee79190308/analysis/1407566356/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Umbrella-34786-1-5.zip?fid=1000029495&ttl=1535812923&ri=8192&rs=8192&setec=a1a7548a64a3e73a25679629b9fa3bbf"
+    }
+  ]
+}

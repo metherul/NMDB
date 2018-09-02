@@ -1,0 +1,32 @@
+{
+  "modId": 85549.0,
+  "modName": "Convenient Horses Bruma Patch",
+  "summary": "Horse call with a horn will work in Bruma",
+  "descriptionHtml": "[size=5][center][url=http://www.nexusmods.com/skyrim/mods/14950/?][b]Convenient Horses[/b][/url] \r<br />[url=http://www.nexusmods.com/skyrim/mods/84946/?]Beyond Skyrim - Bruma[/url]\r<br />[b]Patch\r<br />\r<br />[img width=575,height=329]https://staticdelivery.nexusmods.com/mods/110/images/85549-2-1500917643.png[/img]\r<br />[url=http://www.nexusmods.com/skyrimspecialedition/mods/11024/?]Convenient Horses Bruma Patch for SSE[/url][/b][/center][/size]\r<br />\r<br />I&#39;m not a script expert but after I&#39;ve looked at the esp there was only one entry that could be changed.\r<br />and it works\r<br />\r<br />\r<br />[size=3][u][b]What the fix do: [/b][/u][/size]\r<br />Horse call with a horn will work in Bruma. So followers can call their own horses.\r<br />\r<br />[size=3][u][b]Changes made:[/b][/u][/size]\r<br />Add:\r<br />FromID List\r<br />    0302AB02  CHRidableWorldList\r<br />          BSHeartland &#34;Tamriel&#34; [WRLD:020A764B]\r<br />\r<br />And the Masterfile entries\r<br />\r<br />[u][b][size=3]Install:[/size]\r<br />[/b][/u]Use NMM to download and place the Patch.esp under Convenient Horses.esp\r<br />\r<br />\r<br />Have fun while riding in Bruma.\r<br />\r<br />Information:\r<br />When the official patch from Alek appears this Mod will be removed.\r<br />\r<br />\r<br />\r<br /> \r<br />[center][size=3][u][b]Credits\r<br />\r<br />[size=4][url=http://www.nexusmods.com/skyrimspecialedition/users/621184]mitchalek[/url] for [/size][/b][/u][/size][u][size=4][url=http://www.nexusmods.com/skyrim/mods/14950/??][b]Convenient Horses[/b][/url][/size][/u][/center]",
+  "categoryId": "101",
+  "version": "1.1",
+  "author": "Stromvik",
+  "createdUnix": "1500917993",
+  "updatedUnix": "1500917990",
+  "containsAdultContent": false,
+  "uploadedBy": "Stromvik",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000250204",
+      "name": "Convenient Horses Bruma Patch",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Convenient Horses Bruma Patch-85549-1-1.7z",
+      "uploadedUnix": "1500917990",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/63b173947ff407e9757a61c25fd1f8de533ea0f4113b3544c4ad775d6293fb38/analysis/1500918251/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Convenient%20Horses%20Bruma%20Patch-85549-1-1.7z?fid=1000250204&ttl=1535874381&ri=8192&rs=8192&setec=c7fe2ae0b71af467deb8e1d6df0a9c31"
+    }
+  ]
+}

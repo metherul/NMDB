@@ -1,0 +1,32 @@
+{
+  "modId": 50135.0,
+  "modName": "Requiem - Friendly Guard Helmets Patch",
+  "summary": "Patch for Friendly Guard Helmets and Requiem so that they work together.",
+  "descriptionHtml": "Previously, if you used the &#34;The Friendly Guard Helmets&#34; mod along with Requiem and it appeared before the Requiem esp, the new helmet model would not appear. To correct this, the helmet mod could be moved to load after Requiem; but then these helmets would lose their balance adjustments. To correct this, I wrote a compatibility patch to preserve the Requiem game balances while allowing the new helmet model to be visible in the game.\r<br />\r<br />It&#39;s safe to use this patch on a previous save game as all it does it adjust the display model and re-balance item weights. If you&#39;re installing both &#34;Friendly Guard Helmets&#34; and this patch at the same time, the transition will be transparent. However, if you were using the helmet mod below Requiem previously, you may now be encumbered.\r<br />\r<br />Load order:\r<br />Skyrim.esm\r<br />..\r<br />FA Guard Helmet.esp\r<br />Requiem.esp\r<br />Requiem - Friendly Guard Helmets.esp\r<br />\r<br />Dependencies:\r<br />[url=http://nexusmods.com/skyrim/mods/19281]Requiem - The Roleplaying Overhaul[/url]\r<br />[url=http://nexusmods.com/skyrim/mods/16886]Friendly Guard Helmets[/url]\r<br />\r<br />As Requiem requires Dawnguard, you will need to own this DLC as well.",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "Kahenraz",
+  "createdUnix": "1390229743",
+  "updatedUnix": "1390238985",
+  "containsAdultContent": false,
+  "uploadedBy": "Kahenraz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000092403",
+      "name": "Requiem - Friendly Guard Helmets",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Requiem - Friendly Guard Helmets-50135-1-0.zip",
+      "uploadedUnix": "1390238985",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/dfe318524df98dcddee2376386f19afb53142792b9131a7b72ee175183ceedbd/analysis/1407894146/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem%20-%20Friendly%20Guard%20Helmets-50135-1-0.zip?fid=1000092403&ttl=1535831682&ri=8192&rs=8192&setec=6510a46d5fbb1bfe7883931de79390c7"
+    }
+  ]
+}

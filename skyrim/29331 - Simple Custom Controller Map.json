@@ -1,0 +1,32 @@
+{
+  "modId": 29331.0,
+  "modName": "Simple Custom Controller Map",
+  "summary": "Expansion on vanilla controller layout to add more hotkeys and quick menus",
+  "descriptionHtml": "[b]Simple Custom Controller Map[/b]\r\n\r\nThis is a map I made for myself after looking at some of the others here on nexus.  This is mostly an expansion of the vanilla controller layout that adds additional hotkeys (8) and quick menus.  This is achieved by using L1 aka LB for X360 users (Sprint) as a \\\"shift\\\" key to add combination options. It should be compatible with SkyUI.\r\n\r\nThis is the PS2/Logitech layout which I use, but it will also work for X360, since I use x360ce.exe to trick the game into thinking I\\'m using a 360 controller.\r\n\r\n[u]Vanilla controls[/u]\r\n[font=\\\"Courier New\\\"]Move                LS\r\nLook                RS\r\nLeft Attack/Block   L2    \r\nRight Attack/Block  R2     \r\nActivate            AB     \r\nReady Weapon        XB\r\nTween Menu          BB\r\nToggle POV          R3\r\nJump                YB\r\nSprint              L1\r\nShout               R1\r\nWait                Sel[/font]\r\n\r\n[u]Changes/Additions[/u]\r\n[font=\\\"Courier New\\\"]Sneak               Start (moved from L3)\r\nFavorites           L1+Sel\r\nHotkey1             DL\r\nHotkey2             DU\r\nHotkey3             DR\r\nHotkey4             DD\r\nHotkey5             L1+DL\r\nHotkey6             L1+DU\r\nHotkey7             L1+DR\r\nHotkey8             L1+DD\r\nJournal             L1+Start (moved to accomodate Sneak)\r\nQuick Inventory     L1+BB\r\nQuick Magic         L1+XB\r\nQuick Map           L1+AB[/font]\r\n\r\nI don\\'t like hitting L3/R3, hence the Sneak move.  I found myself hitting Sprint + YB intending to jump, but it would open the stats menu fairly often instead, so I did not put in Quick Stats as that menu isn\\'t used as often as the others.\r\n\r\nIf you want Quick Stats on L1+YB, change this line:\r\n[font=\\\"Courier New\\\"]Quick Stats\t\t\t0x35\t\t\t\t0xff\t0xff\t\t\t\t1\t1\t0\t0x908[/font]\r\n\r\nto this:\r\n[font=\\\"Courier New\\\"]Quick Stats\t\t\t0x35\t\t\t\t0xff\t0x0100+0x8000\t\t1\t1\t0\t0x908[/font]\r\n\r\n[u]Install[/u]\r\nUse NMM.  If you\\'re not you know what to do with a folder called \\\"data\\\".\r\n\r\n[u]Version History[/u]\r\n0.91 - Fixed favorite menu\r\n0.9 - Initial Release\r\nI don\\'t consider this 1.0 just yet since I haven\\'t had a ton of testing time with it after I made some changes to accommodate the upcoming SkyUI 3.0.  While I don\\'t see any obvious problems, please post if you find something not working right.",
+  "categoryId": "39",
+  "version": "0.91",
+  "author": "Cupressi",
+  "createdUnix": "1357176640",
+  "updatedUnix": "1357184228",
+  "containsAdultContent": false,
+  "uploadedBy": "Cupressi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "109219",
+      "name": "Simple Custom Controller Map",
+      "version": "0.91",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Simple Custom Controller Map-29331-0-91.zip",
+      "uploadedUnix": "1357184228",
+      "modVersion": "0.91",
+      "virusScanUrl": "https://www.virustotal.com/file/65cbae4ee127a8fb4eff2ad63318e245076523356c24e7fab7dd2b19c95bd28f/analysis/1407334445/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Simple%20Custom%20Controller%20Map-29331-0-91.zip?fid=109219&ttl=1535803341&ri=8192&rs=8192&setec=3edf6ccecd3036d0c01a1e5cd3fb959e"
+    }
+  ]
+}

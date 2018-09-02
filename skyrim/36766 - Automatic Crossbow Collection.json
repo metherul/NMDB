@@ -1,0 +1,32 @@
+{
+  "modId": 36766.0,
+  "modName": "Automatic Crossbow Collection",
+  "summary": "Collection of automatic crossbows.",
+  "descriptionHtml": "Achtung!  Important!  READ THIS BEFORE INSTALLING!\r\n\r\nFirst, i think it important to warn you about conflicts, and what to do about them.  This file is derivative of both J3X Automatic Crossbows, and Crossbow Basic Collection.  (with permission of the original authors of course.)  \r\n\r\ni\\'ve recently been informed that it is actually safe to use nmm to uninstall this mod.  tried it myself, and it worked ok for me anyway.\r\n\r\nOne conflict that i have noticed.  Levelers Tower has an item in it called \\\"Enchanter\\'s Ambrosia.\\\"  You must not use this potion while enchanting your automatic crossbows, or they and all future automatic crossbows you create will become normal crossbows in the current, and all future saves.  You can still use Levelers Tower, and you can still use the \\\"Blacksmith\\'s Ambrosia\\\", but you must NOT use the enchanters ambrosia or you will disable the automatic function.  you have been warned...\r\n\r\nAll original specs on these crossbows have been maintained, with the exception of being fully automatic, firing 8 bolts in rapid succession. this makes the crossbows not only more powerful, but able to take more than one opponent at a time in some instances.  be warned, these crossbows are very powerful, especially after being upgraded.  you might want to consider just how much you want to upgrade them, and whether you want to enchant them at all.\r\n\r\nBeing as this is based mostly on the Crossbow Basic Collection mod, i think i should also warn you about bugs that others have reported on that mod.  Some say that the meshes are not smoothed, and create a kind of glittery sparkling effect on the metal parts of the crossbows.  Others have said that the crossbows come out pure black, with no textures.  I am not yet capable of fixing either of these problems, but i am looking into it.  (i do have some modelling experience, but skyrim modding is new to me.)  \r\n\r\nin my case, i have no problems with it at all, but i anticipate that others will have the previously mentioned problems.  If this doesn\\'t work out for you, simply use nexus mod manager to uninstall it.\r\n\r\nJ3X gives vague instructions about how to create your own automatic crossbows using his mod as a base, and actually encourages people to do so.  this is trickier than he leads on, especially when you are trying to apply the same script to a number of different crossbows.  (each crossbow has to have its own copy of the scripts, named differently for each one, or they stop working after you create two different crossbows using these scripts.)\r\n\r\nthis mod doesn\\'t have that problem, because i did re-create the scripts for each crossbow.  however, if you try to do it yourself, you will run into this problem.  with enough encouragement, i could probably be convinced to create a detailed text based tutorial for this.\r\n\r\nI\\'ve been modding off and on since warcraft 2, but this is my first skyrim mod, so be constructive, and if possible actually helpful in your comments.  criticism is ok, i can take it, and learn from it, but don\\'t be a jerk.  (i\\'ve been amazed at how rude people have been to bella, who uses her talents as makeup artist to create some amazing face textures.  people should be grateful for an effort that the modder is not getting paid for.  we do it for the attention.  we are all showoffs.  some of us are just better at it than others.  i certainly don\\'t consider myself amongst the elite.  not yet anyway...)  speaking of which, i would love to see some endorsements. hint hint...\r\n\r\nThis mod does not require anything to my knowledge except the latest version of skyrim, and of course, dawnguard.  yeah, anything is possible, but it is not feasible to create this mod without the requirement of dawnguard.  so, there is not ever going to be a non dawnguard version.  don\\'t ask.  however, i am open to reasonable requests and suggestions, provided that i am capable, or can learn how to make such suggestions happen.  one other thing though.  I promised DJjojo that i would not change the settings on his crossbows other than to make them automatic.  so, i will not be taking requests to shorten the loading time, change the weight, base damage, etc...\r\n\r\n(edit) i forgot to mention how to acquire these crossbows.  there are two methods.  first, you should find them in any normal forge under their respective categories (elven, daedric, glass, ebony, orcish, and dragon)  you will probably have to possess the correct perks for creating them.  also, i have heard that skyre complicates things in this area.  \r\n\r\nalternatively, you can simply bring up the console and type (help \\\"daedric crossbow\\\") -or- (help \\\"glass crossbow\\\") etc.. this will bring up the cheat codes which will allow you to simply summon them by typing (player.additem ###### 1)  ###### actually being replaced by the number you received from the first step.\r\n\r\nthe quote marks are important.  include everything within the brackets, but not the brackets themselves.\r\n\r\nIn closing i want to make certain i have given proper credit where credit is due.  This mod contains scripts from J3X Automatic Crossbows by J3X, and the entirety of the Crossbow Basic Collection mod by DJjojo, two of the most popular nexus crossbow mods.  i only did a little grunt work in the creation kit to combine their features.  ",
+  "categoryId": "55",
+  "version": "0.5",
+  "author": "kar2nz",
+  "createdUnix": "1370127793",
+  "updatedUnix": "1370123240",
+  "containsAdultContent": false,
+  "uploadedBy": "kar2nz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000032395",
+      "name": "Automatic_Crossbow_Collection_EN",
+      "version": ".5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3408",
+      "fileName": "Automatic_Crossbow_Collection_EN-36766--5.rar",
+      "uploadedUnix": "1370123240",
+      "modVersion": ".5",
+      "virusScanUrl": "https://www.virustotal.com/file/8cb38b99a3c519ba97db9e574e900d4b492c9ae5da987efff6d987c5d99dd17f/analysis/1407589023/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Automatic_Crossbow_Collection_EN-36766--5.rar?fid=1000032395&ttl=1535816012&ri=8192&rs=8192&setec=6a797059ce0a5e706a2419320a1a73e5"
+    }
+  ]
+}

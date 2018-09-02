@@ -1,0 +1,32 @@
+{
+  "modId": 54125.0,
+  "modName": "Whiskers",
+  "summary": "Animal whiskers face accessory available in multiple colors.",
+  "descriptionHtml": "[size=5][b][u]Description:[/u][/b][/size]\n<br />\n<br />This mod adds 8 individual animal whiskers accessories of various colors to Skyrim.\n<br />\n<br />Available colors:  Black, Light-Brown, Brown, Dark-Brown, Gray, White, Orange and Yellow.\n<br />\n<br />[size=5][b][u]Acquisition:[/u][/b][/size]\n<br />\n<br />There are two ways to acquire the whiskers within Skyrim:\n<br />\n<br />1 - They can be crafted at any tanning rack for 7 linen scraps.\n<br />2 - Open the console and type \"help whiskers\" (without the \"\") and it will bring up a list of all the whiskers.  Find the code for the color of whiskers you want and type \"player.additem typecodehere 1\" (without the \"\" and replacing typecodehere with the selected code.)\n<br />\n<br />[size=5][b][u]Compatibility:[/u][/b][/size]\n<br />\n<br />Compatible with any other mod that doesn't use slot 47 to display its items.  If another mod uses slot 47 to display an item and you try to equip both the whiskers and that item at the same time, one or the other will likely become unequipped.\n<br />\n<br />For the sake of customization I've allowed all standard races to equip the whiskers.  However, they may look odd if equipped on some races, such as a Khajiit or Argonian.  They will add a second set of whiskers to a Khajiit since they already have a pair of their own, and they may not be fully attached to an Argonian due to the shape of their heads.  They should look just fine on any of the human-form races.\n<br />\n<br />[size=5][b][u]Known Bugs:[/u][/b][/size]\n<br />\n<br />Dropping a Whiskers item will cause it to float high in the air in an unreachable location.  To avoid this, if you want to remove whiskers from your inventory, either place them in a container or use the player.removeitem command in the console.  If you don't know how to do this just follow the instructions in the Acquisition section above but replace player.additem with player.removeitem.  An update to the mod will be released if a fix for this bug is ever found.\n<br />\n<br />[size=5][b][u]Installation:[/u][/b][/size]\n<br />\n<br />[list][*]Download with Nexus Mod Manager and make sure its checked under the Mods tab.\n<br />[*]Or download manually and extract to the Data folder in your Skyrim directory.\n<br />[/list]\n<br />[size=5][b][u]Recommended Accompanying Mods:[/u][/b][/size]\n<br />\n<br />These accompanying mods will help you release your inner cat.  Side effects may include meowing, purring and rubbing up against npc's legs.\n<br />\n<br />[url=http://www.nexusmods.com/skyrim/mods/14205]Calyps Animal Ears[/url]\n<br />[url=www.nexusmods.com/skyrim/mods/13995]Mystic Tails[/url]\n<br />[url=http://www.nexusmods.com/skyrim/mods/22604]KISS - Khajiit Cat Sprint and Sneak[/url]\n<br />[url=http://www.nexusmods.com/skyrim/mods/14871]PC Exclusive Animation Path (Needed with KISS to keep npc's from sprinting and sneaking on all fours)[/url]\n<br />[url=http://www.nexusmods.com/skyrim/mods/11811]Fores New Idles in Skyrim (Needed with KISS)[/url]\n<br />[url=http://www.nexusmods.com/skyrim/mods/54049]Sneak at Run Speed (To allow continuous sneak running on all fours with KISS)[/url]",
+  "categoryId": "60",
+  "version": "1.0",
+  "author": "Quinn Winters",
+  "createdUnix": "1400372324",
+  "updatedUnix": "1400371350",
+  "containsAdultContent": false,
+  "uploadedBy": "QuinnWinters",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000109425",
+      "name": "Whiskers",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "267",
+      "fileName": "Whiskers-54125-1-0.zip",
+      "uploadedUnix": "1400371350",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d6aff39b6501bbe4767d57e84015deb92cc38f400a508bb6cbdcc275bd5afdd6/analysis/1408081803/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Whiskers-54125-1-0.zip?fid=1000109425&ttl=1535838124&ri=8192&rs=8192&setec=85ec71e75e1feb265b2866b1181e24cf"
+    }
+  ]
+}

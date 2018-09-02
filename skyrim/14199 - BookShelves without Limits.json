@@ -1,0 +1,48 @@
+{
+  "modId": 14199.0,
+  "modName": "BookShelves without Limits",
+  "summary": "Greatly expand the number of books that can be stored in bookshelves.  Remove the limits on how many places they can be stored.",
+  "descriptionHtml": "Update 2012-04-03\r\nMaximum number of books per container upgraded to 512.  That should be enough for one of every book in skyrim.\r\n\r\nThis mod does not affect vanilla bookshelves at all.  It is an alternate BookShelfContainer and BookShelfTrigger script based on the vanilla script but utilizing different data structures.  This allows each BookShelfContainer to be linked up to 512 book markers and have unlimited number of BookShelfTriggers (in comparison to Vanilla\\'s 18 book markers and 4 book shelf triggers).  \r\n\r\nSo really the title is a lie, there are still limits they are just significantly larger.\r\n\r\nIn the LoTModRes.esp is a cell named aaaLotDev which has 4 bookshelves in various states of being constructed and the cell contains 4 books describing how each step differs from vanilla.  The final set is actually a two bookcase unit with storage for 180 books in one container.\r\n\r\nInstead of a PlayerBookShelfContainer you will use the included LoTBookShelfContainer and instead of PlayerBookShelfTrigger you will use LoTBookShelfTrigger.  If you use the Vanilla scripts there will be no changes at all.\r\n\r\nThe LotBookShelfContainer will have a link ref to the first DefaultBookShelfBookMarker with a keyword of BookShelfBook01.  Each subsequent book marker will have a link ref to the next book in the chain with the same BookShelfBook01 keyword.\r\n\r\nThe LotBookShelfContainer will have a link ref to the first LotBookShelfTrigger with a keyword of BookShelfTrigger01.  Each trigger will have a link ref to the next trigger with the same keyword.\r\n\r\nPlayerBookShelfClick triggers are unchanged (Needs Player Activation set).\r\n\r\nThe collision planes to keep players from dragging books are also unchanged. (Needs to be L_UNIDENTIFIED)\r\n\r\nFor the basics of bookshelf construction may I recommend: http://www.creationkit.com/Tutorial_Bookshelves  It\\'s quite helpful.",
+  "categoryId": "82",
+  "version": "2.0",
+  "author": "Nephlm",
+  "createdUnix": "1333341468",
+  "updatedUnix": "1333510321",
+  "containsAdultContent": false,
+  "uploadedBy": "nephlm",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "49238",
+      "name": "BookShelves without Limits - Modders Resource",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "30",
+      "fileName": "BookShelves without Limits - Modders Resource-14199.rar",
+      "uploadedUnix": "1333341663",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/81ae841ad23a30da674d9b54930487331b863dc3a4bf87bf9a051f4a08733c3e/analysis/1406792867/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BookShelves%20without%20Limits%20-%20Modders%20Resource-14199.rar?fid=49238&ttl=1535777659&ri=8192&rs=8192&setec=b1aed9e08321210498a76d5f9b97e13d"
+    },
+    {
+      "fileId": "49914",
+      "name": "BookShelves without Limits 2_0 - Modders Resource",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "32",
+      "fileName": "BookShelves without Limits 2_0 - Modders Resource-14199.rar",
+      "uploadedUnix": "1333510321",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/244be119ea0369b4472741d3e95e7db608fc4ab5da0aafbb61f5725dc6547ece/analysis/1406796262/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BookShelves%20without%20Limits%202_0%20-%20Modders%20Resource-14199.rar?fid=49914&ttl=1535777659&ri=8192&rs=8192&setec=f2bdf1c2bc30c3b1fef18fc16f3a0c5e"
+    }
+  ]
+}

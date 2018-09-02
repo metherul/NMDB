@@ -1,0 +1,48 @@
+{
+  "modId": 7723.0,
+  "modName": "SkyrimCharacterHelper",
+  "summary": "Java7-based application. Automated conversion of Skyrim\\'s quicksaves and autosaves into regular character savegames while playing Skyrim. Copying and moving of savegames or complete characters between Skyrim\\'s character folder and a backup folder. Deleting of savegames or complete characters. Sorting the savegames display by character location...",
+  "descriptionHtml": "Release 1.16 is out, fixing a problem with one of the \\\"Launch\\\" buttons when using the latest Java version (1.7.0_05).\r\n\r\nThe tool lets you access the savegames in a character-centric fashion for moving or copying them to a backup directory and vice versa, or for deleting them. You can select complete characters with all of their savegames, selections of savegames or particular savegames for these operations. For instance, you can move your other chars to the backup directory when playing a new one. \r\n\r\nThe application also supports lauching Skyrim with just a single character\\'s savegames or even a single selected savegame with just a mouse-click. Furthermore SkyrimCharacterHelper enables you to define which file to use when launching Skyrim. So if you use any extension for playing Skyrim which rather requires starting an own binary than launching the standard binary (such as SKSE), this can be smoothly integrated into SkyrimCharacterHelper.\r\n\r\nAnother feature is the automated conversion of quicksaves and autosaves into regular savegames while playing Skyrim. Using this feature, you don\\'t need to save games manually anymore.\r\n\r\nRequires Java 7 installed on your machine (JDK or JRE; for pure users I recommend using the JRE, because they don\\'t need the developer\\'s stuff). The latest Java version can be found at http://www.oracle.com/technetwork/java/javase/downloads/index.html.\r\n\r\nAttention, Windows XP users: Please read the documentation carefully! Depending on your XP version, you might need to install another tool to take full advantage of SkyrimCharacterHelper\\'s features .\r\n\r\nAttention, SKSE users: Please read the documentation carefully, your installation procedure is different from the ordinary one.\r\n\r\nYou can find the tool\\'s homepage at http://www.gridlife.info/skyrim - there you can also download the Java source code. If you encounter problems running the application, please refer to the comments section for some hints. \r\n\r\n[i]And please, Read That Fine Manual ;-)[/i]\r\n\r\n",
+  "categoryId": "39",
+  "version": "1.16",
+  "author": "Ulf Wagemann",
+  "createdUnix": "1328313118",
+  "updatedUnix": "1344454559",
+  "containsAdultContent": false,
+  "uploadedBy": "BraveDog",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "79810",
+      "name": "SkyrimCharacterHelper_v116_en",
+      "version": "1.16",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1647",
+      "fileName": "SkyrimCharacterHelper_v116_en-7723-1-16.zip",
+      "uploadedUnix": "1344454513",
+      "modVersion": "1.16",
+      "virusScanUrl": "https://www.virustotal.com/file/d1c4376d7d74ce49a5ad9fddda51a9eb03c045968255d3bd0639809448ae756a/analysis/1407080352/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimCharacterHelper_v116_en-7723-1-16.zip?fid=79810&ttl=1535765971&ri=8192&rs=8192&setec=92316fb1d76076827525425b7401b28f"
+    },
+    {
+      "fileId": "79811",
+      "name": "SkyrimCharacterHelper_116_de",
+      "version": "1.16",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1647",
+      "fileName": "SkyrimCharacterHelper_116_de-7723-1-16.zip",
+      "uploadedUnix": "1344454559",
+      "modVersion": "1.16",
+      "virusScanUrl": "https://www.virustotal.com/file/e6572dacbd8a8962284aa82f9326f1077a1a4a3b74bbeea491c82a2d63eeab33/analysis/1407080404/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimCharacterHelper_116_de-7723-1-16.zip?fid=79811&ttl=1535765971&ri=8192&rs=8192&setec=96d13191e4eed868ca14abed51b5952d"
+    }
+  ]
+}

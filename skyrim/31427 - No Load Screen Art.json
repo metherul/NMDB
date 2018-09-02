@@ -1,0 +1,48 @@
+{
+  "modId": 31427.0,
+  "modName": "No Load Screen Art",
+  "summary": "Hides the load screen art from the main menu and loading screen.  The tips, level meter, and mist stay the same.",
+  "descriptionHtml": "[center][b][color=green][size=5]No Load Screen Art[/size][/color][/b][/center]\r\n[center][color=white]Version 1.1[/color][/center]\r\n\r\n[color=green][size=4][i]Description[/i][/size][/color]\r\nSome people like me may just want to hide the 3D art that is shown during loading.  After playing for over 400 hours, I for one am tired of looking at the same 3D models over and over again.  Also, I consider some of the models to be spoilers.\r\n\r\nOther mods have attempted to hide the art by modifying the swf file, but he art is rendered independent of the swf file.  The modified swf files just cover up the art and in the process also hide the tips and quotes.\r\n\r\nThis mod hides the load screen art from the main menu and loading screen by simply changing the camera parameters.  The tips/quotes, level meter, and mist/fog stay the same.\r\n\r\n[color=green][size=4][i]Installation[/i][/size][/color]\r\nDownload with the Nexus Mod Manager and Activate.  If you want to install as \\\"Loose Files\\\" then don\\'t forget to include the .ini file.\r\n\r\n",
+  "categoryId": "42",
+  "version": "1.1",
+  "author": "ahzaab",
+  "createdUnix": "1360548626",
+  "updatedUnix": "1362252360",
+  "containsAdultContent": false,
+  "uploadedBy": "dgcooper",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000008883",
+      "name": "HideLoadScreenModel_NoMist_1_0",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "HideLoadScreenModel_NoMist_1_0-31427-1-0.7z",
+      "uploadedUnix": "1360549603",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/943417e330cc6f7b8e960f22bc670be5c128d3b0848e4b8e814190004f3c9a6f/analysis/1407410588/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HideLoadScreenModel_NoMist_1_0-31427-1-0.7z?fid=1000008883&ttl=1535806959&ri=8192&rs=8192&setec=eea21996a5678165b620ce46cca71b19"
+    },
+    {
+      "fileId": "1000014476",
+      "name": "HideLoadScreenModel_1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "HideLoadScreenModel_1_1-31427-1-1.7z",
+      "uploadedUnix": "1362252360",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/a0c7f7b0493d0261a30063e896c4f2e7831c8a6fb1a7d9ff3094dc62b70984f5/analysis/1407448491/",
+      "changelogHtml": " All meshes should now be hidden <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HideLoadScreenModel_1_1-31427-1-1.7z?fid=1000014476&ttl=1535806959&ri=8192&rs=8192&setec=ddbda48a54c7473bebc468fde7208138"
+    }
+  ]
+}

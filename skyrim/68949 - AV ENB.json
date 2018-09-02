@@ -1,0 +1,48 @@
+{
+  "modId": 68949.0,
+  "modName": "AV ENB",
+  "summary": "Una semplice modifica visiva, che rende Skyrim più realistico come mondo alieno, non terreno. Perfomance-friendly...",
+  "descriptionHtml": "[center][font=Georgia][b][color=#ff0000][size=5][/size][/color][/b][/font][/center][center][font=Georgia][b][color=#ff0000][size=5]LEGGETE TUTTA LA DESCRIZIONE OPPURE TACETE[/size]\r<br />[/color][/b][size=4][b][color=#ff0000]WARNING:[/color][/b] [i]use [color=#0000ff]G[/color][color=#ff0000]o[/color][color=#ffff00]o[/color][color=#0000ff]g[/color][color=#00ff00]l[/color][color=#ff0000]e[/color][color=#ffff00] [/color][color=#666666]Traslator [/color]for other language, or that preset SPEAR SHIT&#33;[/i][/size][/font]\r<br />\r<br />[font=Georgia][size=2][url=https://icevort.tumblr.com/post/152909168918/skyrim-modding-and-tweak]GUIDA DETTAGLIATA (parziale eppure imparziale) a Skyrim Tweak[/url] by Marco Colonna TOVOT[/size][/font][font=Georgia][size=2][url=https://plus.google.com/u/0/107476483662771750379]\r<br />[/url][/size]\r<br />[/font][font=Georgia][size=6][color=#000000]&gt;[/color][color=#666666]&gt;[/color][color=#b6b6b6]&gt;[/color] SweetFX [url=https://sfx.thelazy.net/games/preset/4072/]preset[/url] correlato&#33; [color=#b6b6b6]&lt;[/color][color=#666666]&lt;[/color][color=#000000]&lt;[/color]\r<br />[/size][i][size=4]\r<br />Le donazioni non sono indispensabili,[/size][/i]\r<br />[/font][font=Georgia][i][size=4]non tutti quanti possono permettersele,[/size]\r<br />[size=4]a me servirebbero risorse per supportare[/size]\r<br />[size=4]gli altri contributi rilevati nel Nexus&#33;\r<br />[/size][/i]\r<br />[/font][b][font=Georgia][size=3]SE UTILIZZATE QUESTO ENB\r<br />[color=#ff0000]CLICCATE ENDORSE[/color] (grazie)&#33;[/size][/font][/b]\r<br />\r<br />[font=Times New Roman][size=6]§[/size][/font][/center]\r<br />[b][color=#ff0000][size=5]INFO. IMPORTANTI &#33;\r<br />[/size][/color][/b]\r<br />\r<br />[u]Modifiche ai file .ini indispensabili:[/u]\r<br />\r<br />Skyrim.ini\r<br />[font=Courier New]\r<br />[Display]\r<br />fSunShadowUpdateTime=0.2\r<br />fSunUpdateThreshold=1.0\r<br />\r<br />[Water]\r<br />bReflectLODObjects=1\r<br />bReflectLODLand=1\r<br />bReflectSky=1\r<br />bReflectLODTrees=1\r<br />[/font]\r<br />\r<br />SkyrimPrefs.ini\r<br />[font=Courier New]\r<br />[General]\r<br />fBrightLightColorB=1.0000\r<br />fBrightLightColorG=1.0000\r<br />fBrightLightColorR=1.0000\r<br />\r<br />[Display]\r<br />fGamma=1.0000\r<br />bTreesReceiveShadows=1\r<br />bDrawLandShadows=1\r<br />bShadowsOnGrass=1\r<br />bDeferredShadows=1\r<br />iMaxAnisotropy=1\r<br />bTransparencyMultisampling=0\r<br />iWaterMultiSamples=0\r<br />iMultiSample=0\r<br />bFXAAEnabled=0\r<br />bFloatPointRenderTarget=1\r<br />\r<br />[Particles]\r<br />iMaxDesired=800\r<br />\r<br />[BlurShaderHDR]\r<br />bDoHighDynamicRange=1\r<br />\r<br />[BlurShader]\r<br />bUseBlurShader=0[/font]\r<br />\r<br />\r<br />\r<br />[u]Altre modifiche indispensabili:[/u]\r<br />\r<br />[b]● ENB v.0.262[/b] (o successiva)\r<br />\r<br />enblocal.ini (modifiche necessarie)\r<br />\r<br />[font=Courier New][PROXY]\r<br />EnableProxyLibrary=true\r<br />InitProxyFunctions=true\r<br />ProxyLibrary=d3d9_SweetFX.dll[/font] [i]&lt;--------------- rinominate il file d3d9.dll della suite SweetFX[/i]\r<br />\r<br />[font=Courier New][GLOBAL]\r<br />UsePatchSpeedhackWithoutGraphics=false\r<br />UseDefferedRendering=true\r<br />IgnoreCreationKit=true\r<br />ForceFakeVideocard=false\r<br />\r<br />[PERFORMANCE]\r<br />SpeedHack=true\r<br />EnableOcclusionCulling=true\r<br />EnableZPrepass=true[/font] [i]&lt;--------------------------- le versioni successive non supportano più questa funzione&#33;[/i]\r<br />\r<br />[font=Courier New][MEMORY]\r<br />ReservedMemorySizeMb=[/font] [i]&lt;--------------------- informatevi in Internet sul valore esatto che dovete impostare&#33;[/i]\r<br />[font=Courier New]VideoMemorySizeMb=[/font][i] ... &lt;-------------------- utilizzate VRamSizeTest per impostare questo valore[/i]\r<br />\r<br />[font=Courier New][ENGINE]\r<br />ForceAnisotropicFiltering=true\r<br />MaxAnisotropy=16\r<br />ForceLodBias=true\r<br />LodBias=-0.38\r<br />AddDisplaySuperSamplingResolutions=false\r<br />\r<br />[FIX]\r<br />FixGameBugs=true\r<br />FixParallaxBugs=true\r<br />FixAliasedTextures=true\r<br />IgnoreInventory=true\r<br />FixSsaoHairTransparency=false\r<br />FixTintGamma=true\r<br />RemoveBlur=false\r<br />FixSubSurfaceScattering=true\r<br />FixSkyReflection=true\r<br />FixCursorVisibility=false[/font]\r<br />\r<br />\r<br />[b]● SweetFX v.1.5/Boulotaur[/b]\r<br />\r<br />Scaricate il preset da me creato (link in capo-pagina).\r<br />\r<br />\r<br />● [b]Enhanced Lighting for ENB[/b] (nel Nexus - curatore: JawZ)\r<br />\r<br />Consiglio di utilizzare la versione che modifica soltanto gli interni.\r<br />\r<br />\r<br />● [b]SOLVEIG[/b] (nel Nexus - curatore: Gamwitch)\r<br />\r<br />Scegliete le texture che preferite e comunque sovrascrivete il file sunglare.dds con il mio file contenuto nell&#39;archivio&#33;\r<br />\r<br />\r<br />● [b]Pure Waters[/b] (nel Nexus - curatore: Laast)\r<br />\r<br />\r<br />\r<br />[u]Modifiche congigliate:[/u]\r<br />\r<br />● [b]Skygazer Moons[/b] (nel Nexus - curatore: fadingsignal)\r<br />\r<br />[b]● True Storms[/b] (nel Nexus - curatore: fadingsignal)\r<br />\r<br />[b]● Supreme Storms[/b] (nel Nexus - curatore: MannyGT)\r<br />\r<br />● [b]Skyrim Lore Friendly Vanilla Nightsky Retexture 4k[/b] (nel Nexus - curatore: HXP)\r<br />\r<br />\r<br />\r<br />\r<br />[i][center][color=#00ffff][size=3]Tanti e tante altre hanno contribuito...\r<br /> li trovate e le trovate nei miei ENDORSMENTs\r<br /> (alcune modifiche votate non le utilizzo).[/size][/color][/center][/i]",
+  "categoryId": "97",
+  "version": "0.1",
+  "author": "Marco Colonna TOVOT",
+  "createdUnix": "1440173809",
+  "updatedUnix": "1440287980",
+  "containsAdultContent": false,
+  "uploadedBy": "TOVOTVortice",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000172782",
+      "name": "AV-ENB",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5216",
+      "fileName": "AV-ENB-68949-0-1.zip",
+      "uploadedUnix": "1440175499",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/b1c48dd213f4003ad915225066ba6be0d7e131046eec94123fde5992a72dbba1/analysis/1440175570/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AV-ENB-68949-0-1.zip?fid=1000172782&ttl=1535857268&ri=8192&rs=8192&setec=1f4d8f8635dbd450670be9a059cfdb18"
+    },
+    {
+      "fileId": "1000172961",
+      "name": "AV-ENB (enbraindrops.tga)",
+      "version": "0.1a",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "AV-ENB (enbraindrops.tga)-68949-0-1a.zip",
+      "uploadedUnix": "1440287980",
+      "modVersion": "0.1a",
+      "virusScanUrl": "https://www.virustotal.com/file/ac9341bfa4d4bf40af5edaf51146fdff75c365a85d134b6c068be1f3ad2f79cd/analysis/1440288003/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AV-ENB%20%28enbraindrops.tga%29-68949-0-1a.zip?fid=1000172961&ttl=1535857268&ri=8192&rs=8192&setec=d07a5d0909c8da2086478fbc19908512"
+    }
+  ]
+}

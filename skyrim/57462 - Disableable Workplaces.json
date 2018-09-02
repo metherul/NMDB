@@ -1,0 +1,32 @@
+{
+  "modId": 57462.0,
+  "modName": "Disableable Workplaces",
+  "summary": "The Hearthfire DLC adds a workplace next to your house when you start building. After completion, you&#39;re stuck with a useless drafting table, carpenter&#39;s workbench etc. This mod makes them removable via the console.",
+  "descriptionHtml": "[b]What&#39;s it for[/b]\r<br />\r<br />The Hearthfire DLC adds a workplace next to your house when you start building. After completion, you&#39;re stuck with a useless drafting table, carpenter&#39;s workbench etc. This mod makes them removable.\r<br />\r<br />[b]What it does[/b]\r<br />\r<br />Due to the modular nature of the houses, whole groups of items have their enable status bound to a parent reference. Unfortunately, the game engine does not allow such objects to be disabled separately.\r<br />\r<br />This plugin clears the &#34;Enable Parent&#34; references from the drafting table, the crafting supply chest, the workbench with its lantern and light effects, and the anvil for each of the three construction sites.\r<br />\r<br />Some people use the &#34;markfordelete&#34; command. I don&#39;t know if this affects the DLC&#39;s heavy scripting. And: it&#39;s irreversible. What if you just want to take a break without keeping those eyesores in your garden, or if you later decide that you needed those mounted goat heads after all? With this mod you can turn the workplace on and off as you like.\r<br />\r<br />[b]What YOU do[/b]\r<br />\r<br />You still have to disable those objects manually via the console. Here are their IDs:\r<br />\r<br />[list]\r<br />[*] Lakeview Manor: drafting table [xx003063], chest [xx003068], workbench [xx003066], anvil [xx003067], lantern [xx000953], lantern light* [xx000954], logpile* [xx003075]\r<br />[*] Windstad Manor: drafting table [xx00a535], chest [xx00b9f5], workbench [xx00a534], anvil [xx007f52], lantern [xx00086b], lantern light* [xx000844], lantern glow* [xx000873], logpile* [xx00b9f2]\r<br />[*] Heljarchen Hall: drafting table [xx00c3b1], chest [xx010fce], workbench [xx00c3b0], anvil [xx00c392], lantern [xx000955], lantern light* [xx000956], logpile* [xx010ddb]\r<br />[/list]\r<br />The objects marked with an asterisk* must be selected with the &#34;prid&#34; command by their number. The others you can click-select from the console.\r<br />\r<br />Replace xx with the mod index of your Hearthfire plugin. This depends on your installation. To find out, click from the console on an object that belongs to Hearthfire (like the drafting table) and take the first two digits from the ID that shows.\r<br />\r<br />For example, to get rid of the Lakeview logpile, enter a command like &#34;prid 05003075&#34; and then &#34;disable&#34;.\r<br />\r<br />If you want to enable those objects again, use the &#34;enable&#34; command instead.\r<br />\r<br />[b]Quirks[/b]\r<br />\r<br />It&#39;s pointless to install this mod until you own at least one construction site. If this mod is active during the dialogue where you buy a new plot of land, the anvil and lantern(+light effects) won&#39;t show up automatically and you&#39;ll have to enable them by hand.\r<br />\r<br />Conversely, you may want to temporarily deactivate the mod (safely ignore the missing content warning) before you&#39;re going to buy your second or third plot of land. In this case, the table, chest, and workbench at your previous houses will pop up again and you&#39;ll just have to re-disable them.\r<br />\r<br />Well, making objects no longer forcibly enabled makes them no longer forcibly enabled... Can&#39;t have your sweetroll and eat it too, I guess. At least not with this simple hack. Choose the lesser of the two inconveniences.\r<br />\r<br />[b]Bottom stuff[/b]\r<br />2014-08-24 --carpetbulge. Permissions: Do what you want with this.\r<br />\r<br />A downloadable description is available from the readme tab, or use this [url=http://www.nexusmods.com/mods/110/readmes/Disableable%20Workplaces_readme.txt]direct link[/url].",
+  "categoryId": "28",
+  "version": "0.1",
+  "author": "carpetbulge",
+  "createdUnix": "1408912670",
+  "updatedUnix": "1408896901",
+  "containsAdultContent": false,
+  "uploadedBy": "carpetbulge",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000123683",
+      "name": "disableable workplaces.7z",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "26",
+      "fileName": "disableable workplaces-57462-0-1.7z",
+      "uploadedUnix": "1408896901",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/009cbc8d0d14e7987149bfbe0a35afcb62325289abb836c6b76b192a30cfb039/analysis/1408896961/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/disableable%20workplaces-57462-0-1.7z?fid=1000123683&ttl=1535843497&ri=8192&rs=8192&setec=943fe7d8ea2a4085f69b2528863f60cc"
+    }
+  ]
+}

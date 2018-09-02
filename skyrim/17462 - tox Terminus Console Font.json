@@ -1,0 +1,48 @@
+{
+  "modId": 17462.0,
+  "modName": "tox Terminus Console Font",
+  "summary": "The archive Includes an .swf-sIFR-embedded font. Intended to replace the console font, but would probably serve as a better alternative for the inventory/container fornt. More so if you don\\'t have SkyUI.",
+  "descriptionHtml": "The image is a gif btw. \r\n\r\n\r\n\r\nTerminus for Skyrim console\r\n===========================\r\n\r\nThe default arial font looks terrible in the console. I\\'m not \r\nsure it\\'s even monospace :\\\\\r\n\r\nThe Terminus font is much better becasue you\\'ll see more lines \r\nand characters will allign between lines. \r\n\r\nInstallation\r\n============\r\nThe archive will not overwrite your original fontconfig.txt\r\nYou will have to manually edit the file to enable this font.\r\n\r\n[list]\r\n[*] Examine the files, compare these declarations: \r\n    skyrim/Data/Interface/fontconfig.txt\r\n    skyrim/Data/Interface/fontconfig.tox2ik.txt\r\n    ==============================================\r\n\r\n    fontlib \\\"Interface\\\\fonts_console.swf\\\"\r\n    map \\\"$ConsoleFont\\\"  = \\\"Arial\\\" Normal\r\n    ----------------------------------------------\r\n    (you will need to add:)\r\n    fontlib \\\"Interface\\\\font_terminus.swf\\\"\r\n    map \\\"$ConsoleFont\\\"  = \\\"Terminus\\\" Normal\r\n[*] add / edit lines to your liking\r\n[*] save fontconfig.txt\r\n[*] run game and profit!\r\n[/list]\r\n\r\n\r\nFuture plans / Plea for help\r\n============================\r\nI will probably try to include Consolas (MS) becasue it\\'s a \r\nnice console font too. I already tried. Read my notes in \r\nData/Readmes/readme.tox bigger console smaller fonts if you \r\ncare to. I would not mind getting some help increating the \r\nheight of the console overlay, becasue I\\'m a total knob \r\nwith flash and don\\'t know which tools to use. A few links \r\nto good and informative videos/text pages will go a long way. \r\n\r\nLicense\r\n=======\r\nI\\'m probably required to include the license in the archive, \r\nbut we\\'ll skip that since no one cares about a silly mod like \r\nthis. \r\nLicense: http://scripts.sil.org/OFL\r\nFont: http://terminus-font.sf.net\r\n",
+  "categoryId": "42",
+  "version": "0.1",
+  "author": "tox2ik",
+  "createdUnix": "1337626350",
+  "updatedUnix": "1338815102",
+  "containsAdultContent": false,
+  "uploadedBy": "tox2ik",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "65860",
+      "name": "skyui config",
+      "version": "",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "skyui config-17462-1.rar",
+      "uploadedUnix": "1338814971",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/3694d307056b6978170fc9248d53f7523efabb316d99eb84fe985cc5f2682ccb/analysis/1406937365/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/skyui%20config-17462-1.rar?fid=65860&ttl=1535783554&ri=8192&rs=8192&setec=36a76250ab73277199274a630be74743"
+    },
+    {
+      "fileId": "65861",
+      "name": "terminus font",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "25",
+      "fileName": "terminus font-17462-1.rar",
+      "uploadedUnix": "1338815102",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/6296c3e2d1b8078b1e13ebaa29c6646eb457a7efa165188792472a78b615e8cd/analysis/1406937365/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/terminus%20font-17462-1.rar?fid=65861&ttl=1535783554&ri=8192&rs=8192&setec=e24500a53cad5681bac243951a1b19bd"
+    }
+  ]
+}

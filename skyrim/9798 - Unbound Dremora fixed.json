@@ -1,0 +1,32 @@
+{
+  "modId": 9798.0,
+  "modName": "Unbound Dremora fixed",
+  "summary": "Unbound Dremora will despawn upon quest completion for the Conjuration Ritual quest.",
+  "descriptionHtml": "In the Conjuration Ritual quest, the unbound dremora will permanently hang around, unkillable, after the quest is completed.  This can cause problems, even breaking other quests, as he can sometimes become hostile and be dragged around and kill other NPC\\'s (dragon attacks can draw him into the courtyard as well).  \r\n\r\nThis is a scripting error on their part, only one script was modified to get it to despawn after quest completion.  No .esp file is necessary.  \r\n\r\nJust unzip the file, and copy the file QF_MGRitual03_00099F27.pex into the Skyrim\\\\Data\\\\Scripts\\\\ folder.\r\n\r\nIgnore the Source folder and the .psc file unless you want to look at the script and see what has changed (it\\'s only one added line, but I figured I\\'d include the source anyways).  \r\n\r\nThis will NOT work if you have already completed the quest and it is already spawned and sitting there.  To get rid of him in this case, open console, target him, and type \\\"markfordelete\\\".\r\n\r\nThen save the game (in a new spot preferably, better safe than sorry), and reload that save, it should be gone.  Thanks to Thingy Person for that tidbit.  ",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "SourGrape",
+  "createdUnix": "1329330077",
+  "updatedUnix": "1329330564",
+  "containsAdultContent": false,
+  "uploadedBy": "SourGrape",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "31616",
+      "name": "DremoraBegone",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "DremoraBegone-9798-1-0.7z",
+      "uploadedUnix": "1329330564",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5c8f85c3e22aaa3fecaf40b5113c73b57517357940f086c26c6b38f80c7f1f32/analysis/1406684890/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DremoraBegone-9798-1-0.7z?fid=31616&ttl=1535769666&ri=8192&rs=8192&setec=2602fb02ef82c641a371c05db4e5155d"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 3281.0,
+  "modName": "Ghostdancers Alternative Character Generation",
+  "summary": "Replaces the intro and your character background as a prisoner with various alternative histories (bandit, necromancer, knight of the Silver Hand).",
+  "descriptionHtml": "In order to change the way Skyrim starts, you first have to edit the Skyrim.ini file, which can be found in your C:\\\\Users\\\\YOUR_USER_NAME\\\\Documents\\\\My Games\\\\Skyrim folder.\r\n\r\n\r\n1)\r\nOpen your Skyrim.ini file and add one of the following line under the [General] tab:\r\n\r\nFor a bandit character add:\r\nSStartingCell=WhiteRiverWatch01\r\n  or\r\nSStartingCell=LostKnifeHideout01\r\n\r\nFor a necromancer character add:\r\nSStartingCell=FellglowKeep02\r\n\r\nFor a knight of the Silver Hand add:\r\nSStartingCell=GallowsRock01\r\n\r\n2)\r\nNow copy the included batch files from this download into your Skyrim folder (where the TESV.exe is located).\r\n\r\n3)\r\nStart your game. Instead of the menu, the game will start directly in the location that you specified in the .ini-file.\r\n\r\n4)\r\nOpen the console with the tilde-key (the key above tab).\r\n\r\n5)\r\nType one of the following codes in the console (you might have to hit backspace once, otherwise the first entered key is missing):\r\n\r\nFor a bandit character type:\r\nbat bandit\r\n\r\nFor a necromancer character type:\r\nbat necromancer\r\n\r\nFor a knight of the Silver Hand type:\r\nbat silverhand\r\n\r\n6)\r\nHit the tilde-key again to close the console and create your character!",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Lars Franke",
+  "createdUnix": "1323561734",
+  "updatedUnix": "1323563481",
+  "containsAdultContent": false,
+  "uploadedBy": "Geistertanz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "9084",
+      "name": "Ghostdancers Alternative Character Generation",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Ghostdancers Alternative Character Generation-3281-1-0.rar",
+      "uploadedUnix": "1323563481",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ce956c9234f82be714a7f72ba8741830113a741cd02833c66569798466ff5097/analysis/1406503982/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ghostdancers%20Alternative%20Character%20Generation-3281-1-0.rar?fid=9084&ttl=1535758190&ri=8192&rs=8192&setec=f09ca285dc934f735071cf18f7262ad1"
+    }
+  ]
+}

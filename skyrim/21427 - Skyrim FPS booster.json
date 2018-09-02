@@ -1,0 +1,48 @@
+{
+  "modId": 21427.0,
+  "modName": "Skyrim FPS booster",
+  "summary": "This is a d3d9.dll file optimized for best performance on skyrim.",
+  "descriptionHtml": "I decided I wanted my Skyrim to run smoother so I spent a couple of hours modifying the d3d9.dll file to optimise it for skyrim. I gained about 5-15 fps outside and about 5-10 fps inside large cells such as Whiterun. It may vary from PC to PC but it definitely helps my Skyrim. Other people have reported improvements in the 7-15 range.\r\n\r\nTHIS MOD MAINLY WORKS ON OBSCURE OR OLD GRAPHICS CARDS. ONE MEMBER WITH NEW GEAR REPORTED A LOSS.\r\n\r\nBasically what this mod does is processes skyrim based on the capabilities of your graphics card rather than using it\\'s name to determine the speed along with some other tweaks.\r\n\r\nThis is my first mod so if you feel it helps you then leave an endorsement, I can try my best to answer any questions.\r\n\r\n-------------------------------------------------------------------------------------------------------------------------------------\r\nInstallation: Simply unzip .zip file and replace your d3d9.dll in your Elder Scrolls V: Skyrim with this one.\r\n\r\nThanks to Beserkerkitten:\r\n\r\nENB USERS: First, don\\'t overwrite the d3d9.dll in your skyrim directory which is part of your ENB. Rename the d3d9.dll that comes with the FPS booster. Let\\'s go with boost_d3d9.dll for now.\r\n\r\nAFTER renaming it, you can copy the boost_d3d9.dll into your skyrim directory without overwriting anything. Now open up enbseries.ini and at the very beginning it should say [PROXY], so you change that bit until it looks like this:\r\n\r\n\r\n[PROXY]\r\nEnableProxyLibrary=true\r\nInitProxyFunctions=true\r\nProxyLibrary=boost_d3d9.dll\r\n\r\nSave the file and that\\'s it.\r\n",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "Tris",
+  "createdUnix": "1343760614",
+  "updatedUnix": "1343842881",
+  "containsAdultContent": false,
+  "uploadedBy": "trishopster",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "77911",
+      "name": "Skyrim FPS Booster",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "43",
+      "fileName": "Skyrim FPS Booster-21427-1.zip",
+      "uploadedUnix": "1343760729",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/bd9b0d7c066fb9c6a6606e8a66db89dfc05294dc735a5c4d11932a89b71850cc/analysis/1407060362/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20FPS%20Booster-21427-1.zip?fid=77911&ttl=1535790314&ri=8192&rs=8192&setec=b90208385f877d11999d63b94c2eb915"
+    },
+    {
+      "fileId": "78093",
+      "name": "Skyrim FPS Booster",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "43",
+      "fileName": "Skyrim FPS Booster-21427-1-1.zip",
+      "uploadedUnix": "1343842881",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/5a5f26cf761ffae49f8520de0778834d194cd454369e609e59feca638ccd9022/analysis/1407062283/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20FPS%20Booster-21427-1-1.zip?fid=78093&ttl=1535790314&ri=8192&rs=8192&setec=b747aab56838ce6ef0f8968d9a5e5b18"
+    }
+  ]
+}

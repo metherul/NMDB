@@ -1,0 +1,48 @@
+{
+  "modId": 31861.0,
+  "modName": "Lootification - Crafting 300",
+  "summary": "Enchant and properly distribute all of Crafting 300\\'s weapons.",
+  "descriptionHtml": "[size=36]Please upgrade to [url=http://skyrim.nexusmods.com/mods/32339/]Lootification[/url]  and download the rebuilt patch for Crafting300 there. To make multiple patches compatible I had to change how some things were handled.[/size]\r\n\r\n----\r\nI\\'m a big fan of [url=http://skyrim.nexusmods.com/mods/2933]Crafting 300[/url], but it has the same drawback eery other weapon and armor mod does: the new weapons are mostly up to you to craft and enchant. Looking for a moonstone nordic dagger of frost? Don\\'t hold your breath.\r\n\r\nThey say that an infinite number of monkeys chained to typewriters will eventually recreate the collected works of Shakespeare. \r\n\r\nMy team of monkeys carefully copied all appropriate enchantments from the vanilla weapons and applied them to each of the crafting 300 weapons. Then with utmost precision combed the leveled lists and inserted the crafting 300 weapons and their newly enchanted versions without changing the odds of getting anything. They are really quite tired.\r\n\r\nBasically this mod adds 19774 weapons over 3071 leveled lists. And a few outfits. I guess you still shouldn\\'t hold your breath for that moonstone nordic dagger of frost but at least its out there.\r\n\r\nHowever this is, at the moment, just a test release. I actually don\\'t know Crafting 300 that well as a mod so I may have accidentally damaged something. The monkeys may have made a mistake and your computer will melt. Back up your save and report any bugs.\r\n\r\nNote: this is a patch only, you still need the full crafting 300 mod. \r\n\r\nTo use it replace your old crafting300.esp and activate GearVariants.esm, crafting300.esp, and crafting300_LLI.esp, and make sure they load in that order. For best results crafting300_LLI.esp should be as late as possible in your load order. Rebuild your bashed/merged patch.\r\n\r\nv0.2 now includes the no perk option. To use it rename it to Crafting300.esp so Crafting300_LLI doesn\\'t get confused about its master files. Also included is , crafting301.esp which isn\\'t needed but may be of interest to those interested in monkeys.\r\n\r\nChangelog:\r\nv0.3:\r\n- Enchanted weapons now have correct charges.\r\n- Enchanted items now use the unenchanted one as a template.\r\nv0.2:\r\n- restored draugr weapons to the crafting 300 versions.\r\n- removed the lunar magic weapons that had wandered all over the leveled lists.\r\n- added no perk esp",
+  "categoryId": "55",
+  "version": "0.31",
+  "author": "Dienes",
+  "createdUnix": "1361132904",
+  "updatedUnix": "1361292316",
+  "containsAdultContent": false,
+  "uploadedBy": "Dienes",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000010877",
+      "name": "Lootification - crafting300 v0_2 fixed",
+      "version": "0.2",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "605",
+      "fileName": "Lootification - crafting300 v0_2 fixed-31861-0-2.7z",
+      "uploadedUnix": "1361197059",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/0031a1708be3abd855a1beb9a7250a7c355e9c130f3b214148492d76d2db8d46/analysis/1407424863/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lootification%20-%20crafting300%20v0_2%20fixed-31861-0-2.7z?fid=1000010877&ttl=1535807711&ri=8192&rs=8192&setec=ec8c8ff39c763346b4100d4bc2e3b643"
+    },
+    {
+      "fileId": "1000011234",
+      "name": "Lootification - crafting300 v0_3",
+      "version": "0.3",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "608",
+      "fileName": "Lootification - crafting300 v0_3-31861-0-3.7z",
+      "uploadedUnix": "1361292316",
+      "modVersion": "0.3",
+      "virusScanUrl": "https://www.virustotal.com/file/0f501c37b50db7b4db6f8ba4e3335eb6948c8a2b734b4307187532b35f43c523/analysis/1407427147/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lootification%20-%20crafting300%20v0_3-31861-0-3.7z?fid=1000011234&ttl=1535807711&ri=8192&rs=8192&setec=bc9f44254aebbb17aac8d5be43f440fa"
+    }
+  ]
+}

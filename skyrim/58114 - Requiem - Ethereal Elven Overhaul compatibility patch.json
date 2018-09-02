@@ -1,0 +1,32 @@
+{
+  "modId": 58114.0,
+  "modName": "Requiem - Ethereal Elven Overhaul compatibility patch",
+  "summary": "Fixes Requiem 1.8.1 compatibility with Ethereal Elven Overhaul",
+  "descriptionHtml": "Ethereal Elven Overhaul has some fairly minor compatibility issues with Requiem. All the textures etc. assets work fine, but the facedata for NPCs and I guess also player presets is overwritten by Requiem so NPCs will use vanilla slider values instead of EEO&#39;s sliders. This patch fixes that.\r<br />\r<br />Because the changes would also get overwritten by USKP, Requiem&#39;s USKP patch by Azirok (as of writing this it&#39;s not available for 1.8.1 from him yet, but you can use something like this: [url=http://www.nexusmods.com/skyrim/mods/58099/]http://www.nexusmods.com/skyrim/mods/58099/[/url]) etc., this patch has support for and thus requires those, too. You&#39;ll need the Unofficial Skyrim Patch (you should already have this, really), Unofficial Dawnguard Patch (you should also have this already), [url=http://www.nexusmods.com/skyrim/mods/46067/?]Ethereal Elven Overhaul USKP patches[/url], Requiem, and Azirok&#39;s (or someone else&#39;s) Requiem USKP support patch.\r<br />\r<br />Load order:\r<br />1) Ethereal Elven Overhaul\r<br />2) EEO USKP Patch\r<br />3) Requiem\r<br />4) Requiem USKP Patch\r<br />5) Requiem Dragonborn patch if you have it\r<br />6) Requiem EEO patch\r<br />\r<br />The Dragonborn support is a little dodgy, but it should work without any real issues with the EEO Dragonborn patch I linked above. The worst that can happen is that the NPCs use vanilla sliders instead of handmade sliders and thus don&#39;t look as pretty as they could.\r<br />\r<br />Also, there are some tiny incompatibilities with Cutting Room Floor (you&#39;ll either get incorrect sliders for elven NPCs that mod affects, or you won&#39;t get CRF changes for those NPCs, depending on which mod you load first) that I didn&#39;t fix for this patch, but it&#39;s no big deal. They don&#39;t have anything to do with Requiem anyway.",
+  "categoryId": "84",
+  "version": "1",
+  "author": "me",
+  "createdUnix": "1410643845",
+  "updatedUnix": "1410643841",
+  "containsAdultContent": false,
+  "uploadedBy": "burneddi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000126755",
+      "name": "Requiem - Ethereal Elven Overhaul patch",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "82",
+      "fileName": "Requiem - Ethereal Elven Overhaul patch-58114-1.7z",
+      "uploadedUnix": "1410643841",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/5cbde1860c94331b6082f1c8f936a6213c7d2a0722a091f093df692d2a48bf32/analysis/1410643922/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem%20-%20Ethereal%20Elven%20Overhaul%20patch-58114-1.7z?fid=1000126755&ttl=1535844523&ri=8192&rs=8192&setec=fb3e2d26e10ba56f7e850c5f943b1b8a"
+    }
+  ]
+}

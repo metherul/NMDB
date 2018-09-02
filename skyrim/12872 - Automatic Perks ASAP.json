@@ -1,0 +1,32 @@
+{
+  "modId": 12872.0,
+  "modName": "Automatic Perks ASAP",
+  "summary": "Automatic Perks  ASAP \r<br />Get perks as you qualify for them&#33;",
+  "descriptionHtml": "[center][heading][size=7]Automatic Perks ASAP[/size][/heading]\r<br />[size=4]and More[/size][/center]\r<br />\r<br />\r<br />You just leveled up.  You have two dozen perks to choose from.  You get [b][i]one[/i][/b] perk point. Or you&#39;re roleplaying a Mage.  As you progress in skills, you&#39;re not getting the perks you should. Or maybe you spent a point on a perk you don&#39;t really need. Sucks, don&#39;t it?\r<br />\r<br />With this mod, you won&#39;t those problems.  Get your perks as you earn the skill level required. You get to choose (within certain limits) which skills are automatically perked when you gain the appropriate level.\r<br />\r<br />Description Detail:\r<br />This mod adds perks to skills as you reach the skill level required for the perk.\r<br />You have option of choosing a Character Class with preset skills, choosing your own skills, or choosing all skills.\r<br />\r<br />In the future, pending SKSE commands, other enhancements may be added.\r<br />This mod does not require any other mods to work, including SKSE.  (Though it is compatible with SKSE and Skyrim -Community- Uncapper.)\r<br />\r<br />Requires Skyrim 1.8.151, earlier versions not supported.\r<br />\r<br />When you load this mod for the first time on an exsiting save, a ring and a book will be added to your inventory.  Read the book for some additional information on Character Classes.  Equip the ring to install, remove, or reset ASAP.\r<br />\r<br />If you start a new game with this mod loaded, you will be given a couple of additional choices to configure your skills in addition to the normal options.\r<br />\r<br />Current features:[list]\r<br />[*]Option to set all skills to 5 or leave at default when starting a new game.\r<br />[*]Option to choose all skills, a Preset Character Class, or your own skills for ASAP to manage.\r<br />[*]Option to add additional skill levels to Racial skill traits when starting a new game (if skill level 5).\r<br />[*]Option to add additional skill levels to Class skills (if skill level 5, not available when choosing to monitor all skills).\r<br />[*]Option to install, remove, reset, or check current settings of ASAP without using the console.\r<br />[*]Option to reverse skill level adjustments on proper removal of ASAP.\r<br />[/list]\r<br />\r<br />[heading][size=4][color=orange]Incompatibilities / Known Issues[/color][/size][/heading]\r<br />[list][*]This mod uses SetActorValue to adjust the skill levels.  You may find it take longer or shorter than expected to increase an adjusted skill the first time after installing ASAP.\r<br />[*]Setting skill levels and race bonus options will only work with the 10 default vanilla races.  Playing a new race mod and selecting that race disables the new game options.\r<br />[*]Setting skill levels and race bonus options will not work with mods that change the quest stages of the main quest before stage 90.\r<br />[*]Removing ASAP from your game without running the uninstall process makes all changes made by ASAP PERMANENT.  \r<br />[*]If removing ASAP, you have the option to reverse the adjustments made to skill levels (if you  chose to adjust them).  Depending on the choices you made, the adjusted skills will increase from 5 to 24 levels.  *** This is not a bug with the mod&#33; *** .\r<br />[*]This mod may not compatible with any mod that alters the vanilla names of perks.\r<br />[*]This mod is not compatible with any mod that alters the skill level conditions for perks.\r<br />[*]This mod is not compatible with any mod that alters the perk trees (though there are some changes that could be made without affecting the vanilla settings that ASAP works with).\r<br />[*]Until and if the SKSE team provides new scripting commands to change / stop / add Perk points, perks points are still awarded on level up.  If you choose to use Class options, you can still use the perk points awarded on skills not adjusted by ASAP.  These point uses are permanent and cannot be changed by ASAP.\r<br />[*]You can disable perk points if you use the Skyrim Community Uncapper, but those points are lost and you cannot get them back if you unistall this mod.\r<br />[*]Scripts, script variables, and objects that are persistant in a saved game are permanent.  Once this mod is removed, EVERY time you load a save that had this mod active at some point, a notation will get written to the papyrus log that some ASAP object or variable &#34;is not found and will be skipped&#34;.  This is not a bug with the mod.[/list]\r<br />\r<br />",
+  "categoryId": "73",
+  "version": "4.2",
+  "author": "Aellis",
+  "createdUnix": "1331703888",
+  "updatedUnix": "1376151440",
+  "containsAdultContent": false,
+  "uploadedBy": "a.ellis",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000045883",
+      "name": "ASAP - Automatic Perks and More v4_2",
+      "version": "4.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "44",
+      "fileName": "ASAP - Automatic Perks and More v4_2-12872-4-2.7z",
+      "uploadedUnix": "1376151440",
+      "modVersion": "4.2",
+      "virusScanUrl": "https://www.virustotal.com/file/8a1cbe9bd8f3cf7b07e4e48b92abb8f524ceea9404c6b2fcad50f7c9f0fcc254/analysis/1407677232/",
+      "changelogHtml": " Uploaded esp with properties saved correctly to fix issue with install script not firing 100%. <br/> \n Changed ASAP Readme.txt somewhat. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ASAP%20-%20Automatic%20Perks%20and%20More%20v4_2-12872-4-2.7z?fid=1000045883&ttl=1535775158&ri=8192&rs=8192&setec=953e980a024ea26cb6656ccd61a514e4"
+    }
+  ]
+}

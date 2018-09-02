@@ -1,0 +1,32 @@
+{
+  "modId": 36867.0,
+  "modName": "Bless You",
+  "summary": "This mini-mod changes the shrine spell effects to new ones that are not based on any magic skill.\r\nThat renders all shrine blessings not to be affected when some mods modify \\\"Mod Spell Magnitude\\\".",
+  "descriptionHtml": "This mini-mod changes the shrine spell effects to new ones that are not based on any magic skill.\r\nThat renders all shrine blessings not to be affected when some mods modify \\\"Mod Spell Magnitude\\\".\r\n\r\nThis patch was specifically made for SkyRe 1.2 where you would get 26 points of stamina at full health and about 18 at low health from a shrine of Kynareth.  \r\nBut it should fix the issue for any other mod that does a similar thing.\r\n\r\nThis mod is likely not compatible with mod that change the blessing spells, but I don\\'t have any.\r\nUnless the mod does it via a script such as Realistic Needs and Diseases.\r\nSo if you use RND the option to remove cure disease from shrine blessings will still work.\r\n\r\n(Un)Installation is very easy as this mod is a single ESP file. \r\nYou may use NMM or similar if you are into that kind of thing.\r\n\r\nA minor issue is that this patch does not affect already activated effects on a character,\r\nbut revisiting a shrine will fix that.\r\n",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "Reunion",
+  "createdUnix": "1370337191",
+  "updatedUnix": "1370335641",
+  "containsAdultContent": false,
+  "uploadedBy": "Reunion",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000032766",
+      "name": "ESP",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "ESP-36867-1-0.7z",
+      "uploadedUnix": "1370335641",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d2d6333aad07da8234ad7da97d8898ed365e6918c7f5a4ee63cf51c26b488eb9/analysis/1407591859/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ESP-36867-1-0.7z?fid=1000032766&ttl=1535816177&ri=8192&rs=8192&setec=a01e7e7f8018c06152fa1108080711df"
+    }
+  ]
+}

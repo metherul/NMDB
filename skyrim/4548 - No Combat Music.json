@@ -1,0 +1,32 @@
+{
+  "modId": 4548.0,
+  "modName": "No Combat Music",
+  "summary": "This plugin disables combat music. Regular music will keep playing during combat.",
+  "descriptionHtml": "== No Combat Music ==\r\n\r\nWhile the combat music behavior is much better in Skyrim than it was in Oblivion I simply don\\'t like combat music. This plugin disables combat music completely. Regular music will keep playing during combat so there is no pause or anything like that, combat music will simply never start when combat starts.\r\n\r\nNote that I\\'m not sure what will happen during scripted sequences like the civil war quests where combat music seems to be forced via script. Probably the combat music will still play in this special case.\r\n\r\n\r\n= Installation =\r\n\r\nPut the esp into your data folder and activate it in the launcher/mod manager/plugins.txt. To remove the mod simply delete the esp.\r\n\r\n\r\n= Changelog =\r\n\r\nv1.0 Initial release\r\n\r\nv1.1 Hopefully fixed the mod so combat music will never start to play, not even in very dangerous situations\r\n\r\nv1.2 Altered some other combat music related game settings so hopefully this time it\\'s the real deal (EDIT: And after many hours of testing it is, works flawlessly now)",
+  "categoryId": "61",
+  "version": "1.2",
+  "author": "Phitt",
+  "createdUnix": "1324805443",
+  "updatedUnix": "1325352666",
+  "containsAdultContent": false,
+  "uploadedBy": "Phitt",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "15473",
+      "name": "No Combat Music V1_2",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "No Combat Music V1_2-4548-1-2.7z",
+      "uploadedUnix": "1325352666",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/84e6957b97fb6980f632ee28109aca09c739f20c5ead7d1e1b9297189f01feff/analysis/1406573581/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20Combat%20Music%20V1_2-4548-1-2.7z?fid=15473&ttl=1535760419&ri=8192&rs=8192&setec=23d345480f74d7cafb9c4c35e39e8915"
+    }
+  ]
+}

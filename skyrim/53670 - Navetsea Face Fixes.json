@@ -1,0 +1,48 @@
+{
+  "modId": 53670.0,
+  "modName": "Navetsea Face Fixes",
+  "summary": "Various fixes for the Navetsea Face.",
+  "descriptionHtml": "[img]http://static-1.nexusmods.com/15/mods/110/images/53670-1-1400005929.jpg[/img]\r<br />\r<br />========================================================================================\r<br />\r<br />[color=GreenYellow][size=3][u][b]Blending the Color:[/b][/u][/size][/color]\r<br />\r<br />1) Navigate to your &#34;skyrim|data|CalienteTools|Navetsea Face Fixes&#34; folder.\r<br />2) Start TexBlender.exe.\r<br />3) Select &#34;Head&#34; from the first dropdown menu.\r<br />4) Select &#34;Color&#34; from the second dropdown menu.\r<br />5) Select &#34;Navetsea Mouth Shadow Fix.png&#34; from the middle.\r<br />6) Click on &#34;Preview&#34; to see the outcome. [color=orange](If the preview shows a black image it will look the same ingame)[/color]\r<br />7) Click on &#34;Blend Images&#34; to blend it.\r<br />\r<br />Done&#33;\r<br />\r<br />========================================================================================\r<br />\r<br />Since the Navetsea Normal Maps come in different details you need to Blend the Nord and Other Races separately.\r<br />\r<br />[color=GreenYellow][size=3][u][b]Blending the Normal Map (NORD ONLY):[/b][/u][/size][/color]\r<br />\r<br />1) Select &#34;Head&#34; from the first dropdown menu.\r<br />2) Select &#34;Normal&#34; from the second dropdown menu.\r<br />3) Select &#34;Navetsea Mouth Corner Fix (Nord Only).png&#34; from the middle.\r<br />4) Deselect all races except &#34;Female&#34;. (see below)\r<br />\r<br />[img]http://static-1.nexusmods.com/15/mods/110/images/53670-1-1399061411.jpg[/img]\r<br />\r<br />5) Click on &#34;Preview&#34; to see the outcome. [color=orange](If the preview shows a black image it will look the same ingame)[/color]\r<br />6) Click on &#34;Blend Images&#34; to blend it.\r<br />\r<br />[color=GreenYellow][size=3][u][b]Blending the Normal Map:[/b][/u][/size][/color]\r<br />\r<br />1) Select &#34;Head&#34; from the first dropdown menu.\r<br />2) Select &#34;Normal&#34; from the second dropdown menu.\r<br />3) Select &#34;Navetsea Mouth Corner Fix.png&#34; from the middle.\r<br />4) Deselect the &#34;Female&#34; race only. (see below)\r<br />\r<br />[img]http://static-1.nexusmods.com/15/mods/110/images/53670-2-1399061412.jpg[/img]\r<br />\r<br />5) Click on &#34;Preview&#34; to see the outcome. [color=orange](If the preview shows a black image it will look the same ingame)[/color]\r<br />6) Click on &#34;Blend Images&#34; to blend it.\r<br />\r<br />Done&#33;\r<br />\r<br />========================================================================================\r<br />\r<br />[color=GreenYellow][size=3][u][b]FAQ:[/b][/u][/size][/color]\r<br />\r<br />Q: How do i uninstall this?\r<br />A: Reinstall your Face/Body Mod.\r<br />\r<br />Q: Why arn&#39;t my files being detected?\r<br />A: Make sure Skyrim [b][u]isn&#39;t[/u][/b] installed in &#34;Programs Files (x86)&#34;. For some reason Texture Blender doesn&#39;t like that folder.\r<br />\r<br />========================================================================================\r<br />\r<br />[color=GreenYellow][size=6][u][b]Failed to Save File or Black Body/Face:[/b][/u][/size][/color]\r<br />\r<br />[size=3][b]Problem:[/b] [color=orange]Failed to Save File.[/color]\r<br />[b]Cause:[/b] Skyrim installed in &#34;Program Files (x86)&#34;.\r<br />[b]Solution:[/b] Adjust &#34;config.xml&#34; as explained below.\r<br />\r<br />[b]Problem:[/b] [color=orange]Black Body/Face after blending.[/color]\r<br />[b]Cause:[/b] No source textures found, unable to detect Skyrim Data folder (could be related to the Skyrim INI files)\r<br />[b]Solution:[/b] Adjust &#34;config.xml&#34; as explained below.[/size]\r<br />\r<br />1) Go to the folder where &#34;TexBlend.exe&#34; is located.\r<br />2) Open &#34;Config.xml&#34; with [url=http://notepad-plus-plus.org/download/v6.6.3.html]NotePad++[/url].\r<br />\r<br />There are two paths shown in Green (Line 6 and 10):\r<br />\r<br />&lt;&#33;-- &lt;GameDataPath&gt;D:|steam|steamapps|common|skyrim|Data|&lt;/GameDataPath&gt;\r<br />\r<br />and\r<br />\r<br />&lt;&#33;-- &lt;TexOutputPath&gt;C:|steam|steamapps|common|skyrim|Data|&lt;/TexOutputPath&gt;\r<br />\r<br />3) Change the path in both lines to where your Skyrim Data Folder is located.\r<br />4) Remove &#34;&lt;&#33;--&#34; infront of both lines. (it should change color to Blue and Black)\r<br />5) Save the file.\r<br />\r<br />Done&#33;\r<br />\r<br />========================================================================================\r<br />\r<br />[color=GreenYellow][size=3][u][b]Credits and Special Thanks:[/b][/u][/size][/color]\r<br />\r<br />Caliente for [url=http://skyrim.nexusmods.com/mods/5737]Texture Blender[/url]\r<br />Navetsea for [url=http://skyrim.nexusmods.com/downloads/file.php?id=6554]Skin Textures[/url]",
+  "categoryId": "29",
+  "version": "1.2",
+  "author": "Lunyra",
+  "createdUnix": "1399061385",
+  "updatedUnix": "1403036740",
+  "containsAdultContent": false,
+  "uploadedBy": "SvarogNL",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000107605",
+      "name": "Pre-Blend - Female Face skin v1_8 Fuller Lips v2",
+      "version": "1.8",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "18627",
+      "fileName": "Pre-Blend - Female Face skin v1_8 Fuller Lips v2-53670-1-8.rar",
+      "uploadedUnix": "1399108878",
+      "modVersion": "1.8",
+      "virusScanUrl": "https://www.virustotal.com/file/f1f8277744baff84d304b774d403d245ee0ad3dd657f50d2422211b54d41eba4/analysis/1408052745/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Pre-Blend%20-%20Female%20Face%20skin%20v1_8%20Fuller%20Lips%20v2-53670-1-8.rar?fid=1000107605&ttl=1535837326&ri=8192&rs=8192&setec=9c2e8e276621dca87382c2ce77c4124d"
+    },
+    {
+      "fileId": "1000113384",
+      "name": "Navetsea Face Fixes",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3425",
+      "fileName": "Navetsea Face Fixes-53670-1-2.rar",
+      "uploadedUnix": "1403036740",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/02ff0e8463f7931edc74a7da5cc0128a7bab5e74c9b53daec723355fef816822/analysis/1408131171/",
+      "changelogHtml": " - NEW&#33; No Nose Makeup (removes makeup on nose between the eyes) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Navetsea%20Face%20Fixes-53670-1-2.rar?fid=1000113384&ttl=1535837327&ri=8192&rs=8192&setec=5ed6304e051eaf54c5a04374bf90f83b"
+    }
+  ]
+}

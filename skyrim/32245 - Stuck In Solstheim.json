@@ -1,0 +1,32 @@
+{
+  "modId": 32245.0,
+  "modName": "Stuck In Solstheim",
+  "summary": "STUCK IN SOLSTHEIM!?\r\nWell I say Stuff That Shiz! Say no to eternal loading screens and try the ultimate in crude workarounds today!",
+  "descriptionHtml": "Stuck In Solstheim!?\r\n\r\nThis is a very small workaround for a problem I, and others, seem to be having. After going to Solstheim I seemed trapped there; fast travel, the boat and coc commands did not work, I always got stuck in an eternal loading screen. I am faaaaaar too lazy to go through turning mods off and on one at a time to try to find the culprit, besides I like all my mods and Skyrim can stuff itself if it thinks im turning off even one.\r\n\r\nWhat this does is give you a trap door at the docks in Raven Rock that goes to a small room. In the room is another trap door that goes through to Candlehearth Hall in Windhelm. This is a one way trip, you will have to take the boat as normal to get back to Solstheim.\r\n\r\nI tried having go it straight onto the docks at Windhelm but that seemed inconsistent, worked once, couldn\\'t get it to work again. Tried having the door go into the East Empire Company but once again the game didn\\'t seem to like loading Skyrim all at once.\r\n\r\nSo here we are, with a three to four loading screen solution so Skyrim doesn\\'t panic too much when it sees you coming.\r\n\r\nGood Luck!\r\n\r\n\r\nPlease note, this probably won\\'t work for everyone. This works for me but who knows what the hell Skyrim does and doesn\\'t like when it comes to mods. If someone comes up with suggestions to improve this half-arsed hack job of a mod then I will do my best.\r\n\r\n\r\nTHINGS TO TRY BEFORE DL\\'ING:\r\nSauce:\r\n\r\nhttp://forums.nexusmods.com/index.php?/topic/912068-dragonborn-dlc-annoying-bug-or-what-fast-traveltravel-by-boat-to-skyrim/?hl=%2Bcan%26%2339%3Bt+%2Breturn#entry7315043\r\n\r\nhttp://forums.nexusmods.com/index.php?/topic/909976-i-cannot-fast-travel-back-to-skyrim/page__p__7306373#entry7306373\r\n\r\nhttp://forums.bethsoft.com/topic/1441787-i-cant-return-to-skyrim/\r\n\r\nhttp://forums.bethsoft.com/topic/1441954-anyone-able-to-return-back-to-skyrim/\r\n\r\n\r\nVarious mods reported to possibly cause the travel problem:\r\n\r\nQuoted from slbrgt (thanks bud!):\r\n\\\"I fiddeled around a bit with my load order and found that moving the companion esp\\'s of WOME, Khaleesi and Tauriel to a position BELOW AFT, solved all problems for me (fast travel as well as doors to other cells).\\\"\r\n\r\nIt has been reported that removing Script Dragon and Tu\\'umic Shouter have worked and travel has been normal afterwards. (This particular method did not work for me, probably because of remaining Script Dragon reliant mods)\r\n\r\nA forumite removed the Apocalypse Spell package and reported successful travel afterwards.\r\n\r\n\r\nOther things to try:\r\n\r\nTry a COC command in the console. Simply type \\\"coc whiterun\\\" (without quotes) into the console. If you successfully travel to Skyrim with this method I recommend it over any mods.\r\n\r\nAnother forumite has reported removing a section from his Skyrim.ini, another deleting it entirely has done the trick. The fellow who removed bits reported removing something in the following did the trick although he removed it all:\r\n\r\n[MapMenu]\r\nsMapCloudNIF=0\r\nfMapWorldMaxPitch=400.0000\r\nfMapWorldMinPitch=0.0000\r\nfMapWorldTransitionHeight=10000.0000\r\nbWorldMapNoSkyDepthBlur=1\r\nfWorldMapDepthBlurScale=0\r\nfWorldMapNearDepthBlurScale=0\r\nfWorldMapMaximumDepthBlur=0\r\nfMapWorldZoomSpeed=0.3700\r\nfMapWorldYawRange=3600.0000\r\nuLockedObjectMapLOD=8\r\nuLockedTerrainLOD=8\r\nfMapWorldCursorMoveArea=0.9000\r\nfMapWorldHeightAdjustmentForce=100.0000\r\nfMapLookMouseSpeed=4.0000\r\nfMapMoveKeyboardSpeed=0.01\r\nfMapZoomMouseSpeed=8.0000\r\n\r\nIn addition from Stevensonzilla (thanks!):\r\n\r\n\\\"It\\'s the uLockedObjectMapLOD=8 and uLockedTerrainLOD=8 entries in the [MapMenu] section that are the culprit. Can also happen if your map.swf file in the Interface folder is corrupted, or was modified before patch 1.8. Check that, too.\\\" \r\n\r\n\r\nThanks to everyone in the comments and forum members!\r\n",
+  "categoryId": "28",
+  "version": "1",
+  "author": "Noxman",
+  "createdUnix": "1361624956",
+  "updatedUnix": "1361623496",
+  "containsAdultContent": false,
+  "uploadedBy": "Noxman",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000012397",
+      "name": "Stuck In Solstheim",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "44",
+      "fileName": "Stuck In Solstheim-32245-1.zip",
+      "uploadedUnix": "1361623496",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/1c7c941f5d6c4651b10e55360fc6a34ea85004d896f4fadb7bc403b1b674724e/analysis/1407434795/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Stuck%20In%20Solstheim-32245-1.zip?fid=1000012397&ttl=1535808483&ri=8192&rs=8192&setec=dd63cb28e920c42690f808664b12e819"
+    }
+  ]
+}

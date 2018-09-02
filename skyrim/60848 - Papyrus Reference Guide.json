@@ -1,0 +1,48 @@
+{
+  "modId": 60848.0,
+  "modName": "Papyrus Reference Guide",
+  "summary": "This is just a small HTA file of the Creation kit papyrus reference page. cleaned up a lot of the junk not needed in the file. ",
+  "descriptionHtml": "[Description]\r<br />This is just a small HTA file of the Creation kit papyrus reference page [url=http://www.creationkit.com/Category:Papyrus]This one[/url]. cleaned up a lot of the junk not needed in the file. \r<br />This mod comes in two different versions one thats packed into a SFX Archive and one that&#39;s just the bare bone hta file with the appropriate files folder (DO NOT DELETE THE FILES FOLDER THAT COMES WITH IT)\r<br />\r<br />The links open up in a new browser window.\r<br />\r<br />This is a completely safe mod as its just a html file but it has an extension of hta which converts the html into a application.\r<br />\r<br />[Version]\r<br />1.0\r<br />\r<br />[Q&A]\r<br />Q: What is a hta file?\r<br />A: hta files are not well known but it stands for HTML Application. [url=http://en.wikipedia.org/wiki/HTML_Application]Read more on the hta files here[/url]\r<br />\r<br />Q: Whats a SFX Archive?\r<br />A: SFX Archives are Self Extracting Archives (with a .exe extention) I have set up the SFX Archive to unpack the files to a temporary directory and run the hta file after extraction (it does this but you cant tell because I hid the extraction window)(This basically makes it function like any other .exe program you have)\r<br />\r<br />Q: How do I find a specific function in the long list?\r<br />A: HTA files themselves have a find function built in. To initialize the find window just press Ctrl+F (Note you have to close the find window before clicking on one of the links)\r<br />\r<br />[Installation]\r<br />   [SFX Archive Version]\r<br />      -Extract and put anywhere you want on your computer\r<br />\r<br />   [HTA Version]\r<br />      -Extract both the HTA and the folder that contains this string &#34;_files&#34; to the same directory (if you dont extract the folder the HTA file won&#39;t have any pics or css styles.)\r<br />\r<br />[Credits]\r<br />   -Bethesda Game studios \r<br />All credit goes to Bethesda Game studios for making their papyrus API available to the community. (This mod is just a cleaned up version of that API page. I thought it would be nice to have the complete API functions in one page)",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "DarkWolfModding",
+  "createdUnix": "1418849999",
+  "updatedUnix": "1418849795",
+  "containsAdultContent": false,
+  "uploadedBy": "DarkWolfModding",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000139217",
+      "name": "HTA Version (Raw files)",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "117",
+      "fileName": "HTA Version (Raw files)-60848-1-0.rar",
+      "uploadedUnix": "1418849737",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/257c895404eaaa1a2b4327e5daefcfc9382d3dde0db8327fd6dc2c4cab674bb6/analysis/1418849763/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HTA%20Version%20%28Raw%20files%29-60848-1-0.rar?fid=1000139217&ttl=1535848893&ri=8192&rs=8192&setec=ac2534e15583fbc3d644122929c4c076"
+    },
+    {
+      "fileId": "1000139219",
+      "name": "Exe version (SFX Archive Version)",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "247",
+      "fileName": "Exe version (SFX Archive Version)-60848-1-0.rar",
+      "uploadedUnix": "1418849795",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4b5bac0746090d999ce86196452e3a830f9203c388b25eb5277b94a43b4e10b1/analysis/1418849825/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Exe%20version%20%28SFX%20Archive%20Version%29-60848-1-0.rar?fid=1000139219&ttl=1535848894&ri=8192&rs=8192&setec=d89a6c34dc7a21ec1ab243ced520a25d"
+    }
+  ]
+}

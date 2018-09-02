@@ -1,0 +1,48 @@
+{
+  "modId": 32020.0,
+  "modName": "Helmet with Dynamic Visor",
+  "summary": "Adds a helmet to the game with a Visor that automatically closes/opens when the player draws/sheathes their weapon. Also, if you are using a bow, by pressing K you can toggle through three levels of zoom.",
+  "descriptionHtml": "[center][color=red]This is a teaser for The Keepers, a guild quest mod currently in development.\r\nPlease visit our[/color] [url=http://sites.google.com/site/thekeepersmod]website[/url][color=red] to find out more[/color][/center]\r\n\r\n[center][IMG]http://imageshack.us/a/img545/8438/keepershelmet9ap.png[/IMG][/center]\r\n[IMG]http://imageshack.us/a/img593/1576/keeperstextdescription2.png[/IMG]\r\nThis mod adds a new unique helmet to the game that is scripted to automatically close or open whenever the player draws or sheathes their weapon. This works for the player character only. If given to a follower, the visor will remain in the open position\r\n\r\nIt is made of ebony, but the stats are just below that of a vanilla ebony helmet because it is thinner/lighter.\r\n\r\nThere are lenses built into the visor that give you 3 levels of zoom when firing a ranged weapon, just press \\\"K\\\" to toggle through them (if you have SkyUI installed, you can set this key to whatever you want by going into the Mod Configuration Menu)\r\n\r\nThe helmet is located inside the vanilla dungeon \\\"Kagrenzel\\\", the only clue i\\'ll give you is that it was left next to a chest...\r\n\r\n[IMG]http://imageshack.us/a/img254/3924/keeperstextrequirements.png[/IMG]\r\nThis mod relies on SKSE to work. You can download it at [url=http://skse.silverlock.org]http://skse.silverlock.org[/url]\r\n\r\n[IMG]http://imageshack.us/a/img705/1536/keeperstextinstall2.png[/IMG]\r\nJust move the esp and bsa into your .../skyrim/data folder\r\n\r\n[IMG]http://imageshack.us/a/img402/3475/keeperstextuninstall2.png[/IMG]\r\n1. Leave the helmet in a container inside one of the taverns.\r\n2. Fast travel to the other side of the map\r\n3. Save (brand new ones, not overwrite) \r\n4. Open the console and enter \\\"setstage KeepersHelmetQuest 999\\\"\r\n5. Wait 30 seconds then save again\r\n6. Exit the game, remove the mod from your load order\r\n7. Load the game and the last save, then immediately make a new save\r\n8. Exit again and remove the mod files from your data folder\r\n9. You can now continue playing from that last save\r\n\r\n[IMG]http://imageshack.us/a/img5/3969/keeperstextcheating2.png[/IMG]\r\nIf you want to get the helmet without going through Kagrenzel, or you just want an extra one for your companion, open up the console and type \\\"coc HelmetTestCell\\\". You\\'ll be transported to the test cell where you will find it on the floor. To get back to Skyrim just type \\\"coc WhiterunBanneredMare\\\"\r\n\r\n[IMG]http://imageshack.us/a/img687/4696/keeperstextknownissues2.png[/IMG]\r\n- Due to the nature of the behind the scenes mechanics, adding the helmet to your favourite list is pointless, it will just get removed the moment you draw your weapon. \r\n- If you have the console command \\\"tfc\\\" running while the switch takes place, the second helmet doesnt render (leaving your character bald) until you open and close the main menu\r\n\r\n\r\n[center][IMG]http://imageshack.us/a/img17/426/keepershelmet9b.png[/IMG][/center]\r\n\r\n[IMG]http://imageshack.us/a/img51/7985/keeperstextkeepers.png[/IMG]\r\nThis is an ambitious quest mod project that adds a new guild to the lands of Tamriel. Once you join The Keepers as an agent, you will experience many expertly written missions, with puzzles and boss battles that push the scripting engine to places not even its writers thought possible.  Unique and interesting locations, with many extra features and services. Plus a brand new guild armor-set\r\n\r\nWho are The Keepers? They are a hidden organization that spans the whole of Tamriel, whose sole purpose is to preserve knowledge and above all else, keep the peace. They work from the shadows, using covert techniques to fulfill their vows for the benefit of all, while making sure the credit is passed on elsewhere\r\n\r\n\r\n\r\n[center][url=http://sites.google.com/site/thekeepersmod][IMG]http://imageshack.us/a/img442/7605/keeperslogo4.png[/IMG][/url][/center]",
+  "categoryId": "54",
+  "version": "1.0",
+  "author": "Hypno  Antares  AtDucey  Ingenue  B1gBadDaddy",
+  "createdUnix": "1361842937",
+  "updatedUnix": "1361842739",
+  "containsAdultContent": false,
+  "uploadedBy": "hypno88",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000013296",
+      "name": "KeepersHelmet",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "397",
+      "fileName": "KeepersHelmet-32020-1-0.7z",
+      "uploadedUnix": "1361842649",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b2edf03ee6da4833ec4cb5fa65825620eccd2c8f02afb8024d71f13937c0ee6a/analysis/1407439932/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/KeepersHelmet-32020-1-0.7z?fid=1000013296&ttl=1535807992&ri=8192&rs=8192&setec=4d10d97ec80cd8f59381caa265e974df"
+    },
+    {
+      "fileId": "1000013297",
+      "name": "KeepersHelmet - loose files",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "398",
+      "fileName": "KeepersHelmet - loose files-32020-.7z",
+      "uploadedUnix": "1361842739",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/32289a8c8310b267c7bc5edc34705dd3dc9892e4d7053982475b271f9fad658d/analysis/1407439934/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/KeepersHelmet%20-%20loose%20files-32020-.7z?fid=1000013297&ttl=1535807992&ri=8192&rs=8192&setec=e2bbfa8819f67fb08be7626fbf4ef300"
+    }
+  ]
+}

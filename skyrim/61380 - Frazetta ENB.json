@@ -1,0 +1,32 @@
+{
+  "modId": 61380.0,
+  "modName": "Frazetta ENB",
+  "summary": "Frazetta ENB is a config for Boris Vorontsov&#39;s ENB mod that is inspired by pulp fantasy illustrations from the likes of Frank Frazetta and Boris Vallejo. It includes optional palettes based on various painters&#39; works and themes.",
+  "descriptionHtml": "[size=6]Frazetta ENB[/size]\r<br />\r<br />Date: 1/04/2015\r<br />Category: ENB Presets\r<br />Requirements: [url=http://www.enbdev.com/]ENB by Boris Vorontsov[/url]\r<br />Authors: Veeblix\r<br />Source: this page\r<br />\r<br />[size=5]Description[/size]\r<br />\r<br />Frazetta ENB is a config for Boris Vorontsov&#39;s ENB mod that is inspired by pulp fantasy illustrations from the likes of Frank Frazetta and Boris Vallejo. It includes optional palettes based on various painters&#39; works.\r<br />\r<br />Immediately available is an enbpalette.png at 1024px square that is designed to reduce color-banding in ENB IBL and a Photoshop template for making your own palettes.\r<br />\r<br />[color=HotPink][b]The main files for the config will be available shortly, once credits and permissions are in order for some of the shaders/techniques used.[/b][/color]\r<br />\r<br />[size=5]Details[/size]\r<br />\r<br />Image-based lighting has a huge impact on visuals when employing anything more than a single-axis black-and-white gradient. My experiments suggest that the use of black-and-white IBL (just because it&#39;s there) could be a reason so many ENB configs have problems with contrast. Perhaps single-axis black-and-white palettes are best avoided altogether, since IBL influences all indirect light. If you aren&#39;t tinting it or using both axes to achieve a particular effect, then there are other, far more precise methods to control ambient light.\r<br />\r<br />So the enbpalette is best used for tinting indirect lighting, the way Tansarville used it in Somber Antique. It can also be used to influence indirect lighting based on screen brightness along the vertical axis (I have yet to see this axis used in a pleasing way). It is best used for creating a fantasy ambience, or one that departs somewhat from reality. ENB configs that pursue verisimilitude might do well to discard ENB IBL because it simply adds noise that needs to be tweaked around--unless it is employed with purpose. However, a carefully considered tinting palette can imbue Skyrim with a new coherence for a motley assortment of mods and add unique character.\r<br />\r<br />Boris&#39;s ENB binary includes a simple, horizontal black-and-white gradient for an example enbpalette. It is just 256px square and is a bitmap, so it weighs in at 193 KB. This one should probably not be used.\r<br />\r<br />Up to now, every enbpallete I&#39;ve seen has been a 256px square bitmap. For single-axis applications, this means that tone-mapping will be influenced by a palette of just 256 shades. This can lead to color-banding under the best conditions.\r<br />\r<br />To mitigate color-banding, the resolution of the enbpalette can be increased. At 1024px square, color-banding issues (appear to) decrease considerably. However, the bitmap is now huge, 3 MB.\r<br />\r<br />In recent versions of ENB, Boris Vorontsov enabled PNG to be used for IBL. Using lossless PNG compression, a 1024 px square gradient is now reduced to just 10 KB&#33; This is over twenty times smaller than the original 256px bitmap, but allows tone-mapping with four times as many shades.\r<br />\r<br />[size=5]Install[/size]\r<br />\r<br />To use this enbpalette.png, first remove or rename any enbpalette.bmp (keep track of it) that may be in your config and replace it with enbpalette.png.\r<br />\r<br />[size=5]Uninstall[/size]\r<br />\r<br />Delete the enbpalette.png and put back or rename your original file.\r<br />\r<br />[size=5]History[/size]\r<br />\r<br />1.0, 2015/1/4 - Initial release of 1024px PNG Enbpalette with main files to follow.\r<br />\r<br />[size=5]Caveats[/size]\r<br />\r<br />ENB Manager and Changer may not yet recognize PNGs as enbpalettes. Anything I&#39;ve said above could be mistaken--please correct me below if so.\r<br />\r<br />[size=5]Credits[/size]\r<br />\r<br />Thanks to Boris Vorontsov, creator of ENB at enbdev.com.\r<br />\r<br />[size=5]Licensing/Legal[/size]\r<br />\r<br />Do whatever you want with this enbpalette.png and enbpalette.psd. Permissions and credit requirements may change for the main files, but the enbpalette file and template are wholly my own work and not influenced any other mod.",
+  "categoryId": "97",
+  "version": "1.0",
+  "author": "Veeblix",
+  "createdUnix": "1420434766",
+  "updatedUnix": "1420436157",
+  "containsAdultContent": false,
+  "uploadedBy": "Veeblix",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000141435",
+      "name": "Frazetta ENB - 1024px Enbpalette PNG and PSD Template",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1108",
+      "fileName": "Frazetta ENB Enbpallette - 1024px PNG-61380-1-0.7z",
+      "uploadedUnix": "1420436157",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f9e2792fdf58ad3bf9d9b2b59f1fdb9ef977ec59ce53c92844fb8112f3b33a92/analysis/1420436163/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Frazetta%20ENB%20Enbpallette%20-%201024px%20PNG-61380-1-0.7z?fid=1000141435&ttl=1535849728&ri=8192&rs=8192&setec=a16f15ea76e81de35f51a4f88cba755d"
+    }
+  ]
+}

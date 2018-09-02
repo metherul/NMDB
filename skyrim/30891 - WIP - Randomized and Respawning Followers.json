@@ -1,0 +1,48 @@
+{
+  "modId": 30891.0,
+  "modName": "WIP - Randomized and Respawning Followers",
+  "summary": "Randomized and Respawning Followers (RRF) adds several followers across Skyrim.  RRF followers are non-essential and non-protected, they also level with the player from 5 to 80.  Each follower\\'s race and appearance are randomized.",
+  "descriptionHtml": "[b]This mod is a work in progress, use at your own risk.[/b]\r\nI\\'m currently looking for help testing and troubleshooting, this project has turned out bigger than intended and I\\'m afraid it will fail without additional help.  Please contact me here at Nexus.\r\n\r\n[b]Randomized and Respawning Followers[/b] (RRF) adds several followers across Skyrim.  RRF followers are non-essential and non-protected, they also level with the player from 5 to 80.  Each follower\\'s race and appearance are randomized.\r\n\r\n[b]Requirements:[/b] Skyrim, latest update.\r\n\r\n[b]RRF followers will die![/b]  They are not protected like vanilla followers, when they get low on health they may take a knee, but they can easily be killed by tougher opponents.  Don\\'t worry though, when one dies a new, randomly generated follower will soon appear (based on your cell-respawn settings) at that follower\\'s spawn location.\r\n\r\n[b]Acquisition:[/b] Speak to an RRF follower and choose \\\"[u]Are you looking for an adventure?[/u]\\\" dialog option, the default follower dialog (\\\"[u]follow me, I need your help[/u]\\\") should then appear, note that not all characters currently have a voice-type that supports follower dialog, for the time being see re-rolling below.\r\n\r\n[b]Re-rolling:[/b] If you would like to change your RRF follower\\'s appearance and/or voice type, first remove all items you have given them and dismiss them.  Then select the dialog option \\\"[u]You\\'re not who I\\'m looking for[/u]\\\", the follower will disappear and a new one will immediately spawn at the original location (not your current location).\r\n\r\n[b]Locations and other details:[/b] (The 45 faces below are but a small sample of the hundreds of possibilities)\r\n[img]http://fc09.deviantart.net/fs71/f/2013/033/d/6/hero2_by_stickyninjaz-d5tkujt.png[/img]\r\nHanging around [b]Ivarstead\\'s Vilemyr Inn[/b], the Hero utilizes a custom fighting style I call \\\"Sword and Ward\\\", which specializes in one handed swords and defensive magic.\r\n---\r\n[img]http://fc09.deviantart.net/fs70/f/2013/033/e/8/mistress2_by_stickyninjaz-d5tkuip.png[/img]\r\nThe center of attention at [b]Rorikstead\\'s Frostfruit Inn[/b] is the Mistress.  She was an experimental mage, I equipped her with frenzy, calm, fear etc. but she just charged into battle with fists.  I finally broke down and gave her bound sword and oakflesh, but I\\'m still hoping she\\'ll surprise me with an illusion spell.\r\n---\r\n[img]http://fc04.deviantart.net/fs70/f/2013/033/7/f/ranger2_by_stickyninjaz-d5tkuhs.png[/img]\r\nSkulking near [b]Dead Man\\'s Drink in Falkreath[/b] you may meet the Ranger, a deadly archer that knows a few conjuration spells.\r\n---\r\n[img]http://fc05.deviantart.net/fs71/f/2013/033/c/6/sorcerer2_by_stickyninjaz-d5tkugq.png[/img]\r\n[b]Morthal[/b] isn\\'t known for it\\'s hospitality towards mages, but the owner of [b]Moorside Inn[/b] can\\'t afford to turn down a paying customer.  Besides, the Sorcerer has found something nearby to aid in the practice of Necromancy.\r\n---\r\n[img]http://fc07.deviantart.net/fs70/f/2013/033/a/8/priestess2_by_stickyninjaz-d5tkuib.png[/img]\r\nShe sleeps at [b]Old Hroldan Inn[/b] but the Priestess spends the day at a nearby [b]Shrine of Dibella[/b], praying and perfecting her magic.\r\n---\r\n[img]http://fc02.deviantart.net/fs71/f/2013/033/b/0/jester2_by_stickyninjaz-d5tkuj9.png[/img]\r\nThis Assassin is a master of disguise, rumor has is that he\\'s posing as a Jester to get close to a target in [b]Solitude\\'s Blue Palace[/b].\r\n---\r\n[img]http://fc07.deviantart.net/fs70/f/2013/033/7/b/shadowstalker2_by_stickyninjaz-d5tkuha.png[/img]\r\nStrange accusations have been aimed at the residents of [b]Half-Moon Mill[/b], the Shadowstalker in particular is accused of being a Master Vampire, stop by for dinner sometime and find out.\r\n---\r\n[img]http://fc02.deviantart.net/fs71/f/2013/033/4/1/harrier2_by_stickyninjaz-d5tkuk3.png[/img]\r\nSoldiers at [b]Shor\\'s Watchtower[/b] have sent for reinforcements, intel suggests a bloodthirsty warrior known only as the Harrier aims to single handedly defeat the unit stationed here.\r\n---\r\n[img]http://fc00.deviantart.net/fs70/f/2013/033/a/2/witchslayer2_by_stickyninjaz-d5tkuge.png[/img]\r\nToo barbaric for the Vigilant of Stendar, but too honest for the Silver Hand.  Hunter of the unholy, killer of fiends, the Witchslayer calls [b]Nightgate Inn[/b] home.\r\n---\r\n\r\nThey all have simple Ai Packages consisting of mainly sleep and sandbox routines, yet most have a wide radius for wandering and some have daily schedules which may put them in harms way (especially if you have difficulty mods and/or monster mods).  It\\'s possible that a follower may be killed before you even meet them.  If you cannot find the follower and they do not return to their sleeping area,  either look for the corpse or wait for the cell to respawn.\r\n\r\n[b]Spells:[/b] Most followers have been given a basic healing spell or two to help them cope with mortality, mages have better healing spells too.  Many elemental spells (Destruction and Atronachs) are randomized just like appearances, outfits and weapons.\r\n\r\n[b]Bugs:[/b] Re-rolling may occasionally spawn followers with no head, -cause; unknown, keep rolling until you get one with a face.\r\nClipping on certain apparel combinations, -cause; some vanilla assets just don\\'t mix well.  In the future I may refine the outfit lists to prevent major clipping but for now, if it bothers you re-roll or use a follower mod like UFO to get them to wear something else.\r\nAs stated above, many voice types lack follower dialog, my plan is to replace these with follower compatible ones, however this will take a while, as it means combing through, duplicating and altering hundreds of NPC templates.\r\nOld version is missing scripts, use the newest version (or extract the scripts folder from the newest version).\r\n\r\nPermission: Feel free to do with this as you wish as long as you keep it exclusive to Nexus.  I would also appreciate a heads up if you are altering my mod.\r\n\r\nCheck out my other mods: [url=http://skyrim.nexusmods.com/mods/29746]The Amulet of Power[/url] and [url=http://skyrim.nexusmods.com/mods/30361]Summon NecroShade[/url].",
+  "categoryId": "66",
+  "version": "0.1",
+  "author": "Mateodon",
+  "createdUnix": "1359835327",
+  "updatedUnix": "1361890447",
+  "containsAdultContent": false,
+  "uploadedBy": "Mateodon",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000006603",
+      "name": "Randomized Followers_Old",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "19",
+      "fileName": "Randomized Followers-30891-0-1.7z",
+      "uploadedUnix": "1359834568",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/bc23b4320bdd1f325b2d208b36a2a168fe9101c98a86c45f69c837db27983f4d/analysis/1407393304/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Randomized%20Followers-30891-0-1.7z?fid=1000006603&ttl=1535806054&ri=8192&rs=8192&setec=b85e9732256e24f9797f5bf8b1c2469d"
+    },
+    {
+      "fileId": "1000013378",
+      "name": "Randomized Followers WIP",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "20",
+      "fileName": "Randomized Followers WIP-30891-0-1.7z",
+      "uploadedUnix": "1361890447",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/0a135ce1ed9420ebcaa61f868f0f1a90889e99e396f2e8e4edf8b0018cfe61b0/analysis/1407440672/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Randomized%20Followers%20WIP-30891-0-1.7z?fid=1000013378&ttl=1535806054&ri=8192&rs=8192&setec=f12b6843cfedf5a71bdfd3b8dd9dacb2"
+    }
+  ]
+}

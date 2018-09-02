@@ -1,0 +1,32 @@
+{
+  "modId": 62022.0,
+  "modName": "jbNPCMap",
+  "summary": "This mod allow you to add any npc to your map/journal.\r<br />\r<br />Any npc including vanila/nonvanilla/custom/follower/non-follower/adult/child/chicken/cow/dog/animal/creature/bandit/enemy/etc\r<br />\r<br />support manage NPC up to 2000 NPC, also more features like: Npc MoveTo Player, Player MoveTo Npc, GetNpcStatus, ...\r<br />",
+  "descriptionHtml": "jbNPCMapReadme.txt\r<br />12:03 PM 1/26/2015\r<br />acaramen @ nexusmods\r<br />\r<br />Table Of Content\r<br />================\r<br />1. Description\r<br />2. Requirement\r<br />3. Install\r<br />4. Uninstall\r<br />5. How to Use\r<br />6. Note\r<br />\r<br />==============\r<br />1. Description\r<br />==============\r<br />    This mod allow you to add any npc to your map/journal.\r<br />    Any npc including vanila/nonvanilla/custom/follower/non-follower/adult/child/chicken/cow/dog/animal/creature/bandit/enemy/etc\r<br />    support manage NPC up to 2000 NPC\r<br />    \r<br />    also more features like:\r<br />    - Npc MoveTo Player\r<br />    - Player MoveTo Npc\r<br />    - GetNpcStatus\r<br />    - Call EvaluatePackage\r<br />    - SetEnable\r<br />    - SetDisable\r<br />    - SetProtected\r<br />    - SetEssential\r<br />    - SetRestrained\r<br />    - SetDontMove\r<br />    \r<br />    GetNpcStatus will tell about npc: \r<br />    - IsDead \r<br />    - IsDeleted \r<br />    - IsDisabled\r<br />    - IsEssential\r<br />    - IsProtected\r<br />    - IsUnique \r<br />\r<br />==============\r<br />2. Requirement\r<br />==============\r<br />    SKYUI and all their requirement\r<br />\r<br />==============  \r<br />3. Install\r<br />==============\r<br />    Copy .esp and .bsa to skyrim/data directory\r<br />    or use your favorite mod manager \r<br />\r<br />==============\r<br />4. Uninstall\r<br />==============\r<br />    Delete .esp and .bsa\r<br />\r<br />==============\r<br />5. How to Use\r<br />==============\r<br />   - Install the mod first just like installing any other mod\r<br />   - Play skyrim like usual\r<br />   - Wait few momment until mcm recognized \r<br />   \r<br />   [5.1 Enabling mod]\r<br />   - open mcm menu, jbNPCMap should be there\r<br />   - open [jbNPCMap] -&gt; [General] tab\r<br />   - tick enable Mod\r<br />   - you can also change your hotkey\r<br />   - exit mcm menu\r<br />   \r<br />   [5.2 Add npc to group]\r<br />   - Find npc you want to add\r<br />   - make sure npc is crosshaired then press hotkey\r<br />   - notification should displayed\r<br />   \r<br />   [5.3 Add npc to map]\r<br />   - Go back to [mcm menu] -&gt; [jbNPCMap] -&gt; [npcGroup1] tab\r<br />   - Your npc name should be here\r<br />   - Click npc name, select &#34;Add To NPCMap List&#34;\r<br />   - Click [Npc Map] your npc name should be here\r<br />     Note: all npc in [Npc Map] tab will be displayed on Journal and Map (only 20 is showed on map)\r<br />\r<br />   [5.4 Check Map and Journal]\r<br />   - exit mcm menu\r<br />   - check your map or press keyboard &#34;M&#34;\r<br />   - check your journal or press keyboard &#34;J&#34;\r<br />   \r<br />   - congratulation at this point you should know how to use this mod\r<br />   - if you still have problem you can ask me\r<br />   \r<br />==============\r<br />6. Note\r<br />==============\r<br />   - Enabling mod means  : registering hotkey and crosshair\r<br />   - Disabling mod means : hotkey and crosshair is unregistered, but you can still manage npc inside npcgroup and npcmap\r<br />   - This mod doesnt use periodic check like OnUpdate event\r<br />   - This mod only use 2 events : crosshair event and hotkey event\r<br />   \r<br />   - Me englis no good plis forgive me",
+  "categoryId": "33",
+  "version": "1",
+  "author": "acaramen",
+  "createdUnix": "1422251541",
+  "updatedUnix": "1422251209",
+  "containsAdultContent": false,
+  "uploadedBy": "acaramen",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000144637",
+      "name": "jbNPCMap",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "jbNPCMap-62022-1.7z",
+      "uploadedUnix": "1422251209",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/9cc8bb963ed392bab9316f077cc921258d0b27b3a95716b54230ea16c5c9022c/analysis/1422251222/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/jbNPCMap-62022-1.7z?fid=1000144637&ttl=1535850707&ri=8192&rs=8192&setec=6feeff528a032040aea9bfb6a5920129"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 57025.0,
+  "modName": "Gentium font",
+  "summary": "A nice font for Skyrim",
+  "descriptionHtml": "[font=Verdana][size=2]I wasn&#39;t satisfied with other font mods, so I scoured the internet in search of how to make a font work with Skyrim. After that, I looked for a good font and I believe I was successful.[/size]\r<br />\r<br />Installation:\r<br />Put the files into Skyrim/Data/Interface. If fontconfig.txt already exists, then you will need to edit your existing fontconfig.txt file or just overwrite it. To edit it, just add[b] fontlib &#34;Interface&#92;Gentium.swf&#34; [/b]to your existing fontconfig.txt under the other fontlib lines and put [b]Gentium [/b]into the quotation marks in the lines starting with map.\r<br />For example:[b] map &#34;&#036;DialogueFont&#34; = &#34;Gentium&#34; Normal [/b]or [b]map &#34;&#036;EverywhereFont&#34; = &#34;Gentium&#34; Normal[/b]\r<br />Put Gentium in any line in which you want it to be.\r<br />Again, if fontconfig.txt doesn&#39;t exist or if you want to use Gentium everywhere except for books, just copy the files to Skyrim/Data/Interface. Downloading with NMM probably works, too.\r<br />\r<br />I got this font from dafont.com and the font is made by SIL International. It is marked as Public domain on the site. I just made it work with Skyrim.\r<br />[b][u]\r<br />I don&#39;t know how to fix the font not fitting in some menu&#39;s. Maybe Bethesda and the SkUI developers should&#39;ve allowed larger spaces for text. [/u][/b][/font][b][u]Sorry for the inconvenience.[/u][/b][font=Verdana]\r<br />\r<br />The font still works perfectly in most instances, but sometimes it is a little too large to fit. See screenshots for details.\r<br />\r<br />[/font]Kudos and endorsements are welcome and appreciated.",
+  "categoryId": "42",
+  "version": "1",
+  "author": "morry16",
+  "createdUnix": "1407968849",
+  "updatedUnix": "1407968775",
+  "containsAdultContent": false,
+  "uploadedBy": "morry16",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000121937",
+      "name": "Gentium font for Skyrim",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "160",
+      "fileName": "Gentium font for Skyrim-57025-1.zip",
+      "uploadedUnix": "1407968775",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/e51a9964ec4f5b271fcbba9427583294089ae345e108a43b4227fbd4f8241b80/analysis/1408178047/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Gentium%20font%20for%20Skyrim-57025-1.zip?fid=1000121937&ttl=1535842753&ri=8192&rs=8192&setec=a73e16ee9db621a92d085242fecee7a1"
+    }
+  ]
+}

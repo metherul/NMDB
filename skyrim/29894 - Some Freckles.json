@@ -1,0 +1,32 @@
+{
+  "modId": 29894.0,
+  "modName": "Some Freckles",
+  "summary": "New freckles texture for females, eventually for males. But I\\'m lazy, so...",
+  "descriptionHtml": "I like freckles, but just a cute little splash across the nose. I tried several other freckle texture replacers/mods, all of which had something I liked. But. They all altered the color of the female\\'s faces causing bad neck seams due, apparently, to artifacting in the DXT compression/decompression. So I made this. It\\'s an uncompressed 512 dds texture. To install, unzip and drop femaleheaddetail_frekles.dds into Data\\\\textures\\\\actors\\\\character\\\\female under your skyrim directory.\r\n\r\nWhat I don\\'t understand is why DXT5 compression causes this problem because reopening the compressed file and doing a point color sample still comes back with Toyo 1015, which is the same color I get from a sample of the vanilla blankdetailmap.dds file. Ah, the great mysteries of life... And so this is as much an experiment as anything else. If this causes a neck seam, I\\'d like to know, because I freaking hate neck seams. Seriously. It makes all the characters look like some kind of Frankensteinian experiment and I keep looking for the sutures around their neck.\r\n\r\nAnyway, hope you like it. Might do more for females, will definitely do one for males (with a plug-in... why don\\'t males get any love in this game, even from Bethesda?). In any case, first I want to figure out what DXT is doing to these textures, since the vanilla textures don\\'t cause this.",
+  "categoryId": "26",
+  "version": "0.1",
+  "author": "narphous",
+  "createdUnix": "1358122871",
+  "updatedUnix": "1358122996",
+  "containsAdultContent": false,
+  "uploadedBy": "narphous",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000002149",
+      "name": "Cute Freckles",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Cute Freckles-29894-.zip",
+      "uploadedUnix": "1358122996",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/95cbee5a4b492202f20bb38c9b44b5c174fcb51c14fc870144375e1a2df53b99/analysis/1407352007/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Cute%20Freckles-29894-.zip?fid=1000002149&ttl=1535804360&ri=8192&rs=8192&setec=acf35af9a8adfd6e366d87a5367a5d58"
+    }
+  ]
+}

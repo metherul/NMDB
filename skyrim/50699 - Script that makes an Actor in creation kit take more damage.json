@@ -1,0 +1,32 @@
+{
+  "modId": 50699.0,
+  "modName": "Script that makes an Actor in creation kit take more damage",
+  "summary": "This is a script that can be attached to any actor to make that actor take more damage from magic and weapon attacks, this is ideal for companions who you want to take more damage. \r<br />\r<br />example: Is Lydia taking all your kills? Add this script to her papyrus scripts for her actor and she&#39;ll take more damage during combat, which means yo",
+  "descriptionHtml": "This is a script that can be attached to any actor to make that actor take more damage from magic and weapon attacks, this is ideal for companions who you want to take more damage. \r<br />\r<br />Example: Is Lydia taking all your kills? Add this script to her papyrus scripts for her actor and she&#39;ll take more damage during combat, which means you need to attack WITH her instead of letting her go at it alone.  You need access to the creation kit for this script.\r<br />\r<br />This script works on ANY Actor under the Actor tab in the Creation Kit.  There are some companions that you can add to your skyrim game as a mod, if you find that companion too overpowered you can use this script to make them weaker so the Dragonborn maintains combat dominance.\r<br />\r<br />You can use this script anyway you want and modify it anyway you want. If you end up using it just let me know for which mod so I can use your mod as well in my game, thanks&#33;\r<br />\r<br />=======================================================================================\r<br />The script - Compile this script then attach to an actor under papayrus scripts in creation kit\r<br />=======================================================================================\r<br />\r<br />Scriptname NPCActorWeaker extends Actor  \r<br />\r<br />event OnHit(ObjectReference akAggressor, Form akSource, Projectile akProjectile, bool abPowerAttack, bool abSneakAttack, \r<br />  bool abBashAttack, bool abHitBlocked)\r<br /> \r<br />  float enemyMageBaseHealth\r<br />  float enemyBaseHealth\r<br />  float enemyLevel\r<br />  float NPCActorDamageResistance\r<br /> \r<br />  ;Get the Base Health of whichever enemy mage is hitting NPCActor and multiply it by 0.005 , mage enemies only\r<br />  enemyMageBaseHealth = (akAggressor as Actor).GetBaseAV(&#34;Health&#34;) * 0.005 ; you can change this value to make magic do more or less damage\r<br /> \r<br />  ;Get the Base Health of whoever is hitting NPCActor with a weapon and multiply it by 0.25\r<br />  ;Example: A bandits health is 110, we multiple 110 by 0.25 and get 27.5\r<br />  enemyBaseHealth = (akAggressor as Actor).GetBaseAV(&#34;Health&#34;) * 0.4 ; you can change this .4 value higher or lower if you want your actor to take more or less damage\r<br /> \r<br />  ;Get the Level of whoever is attacking NPCActor and multiple it by 1.3\r<br />  ;Note: Basically whoever attacks NPCActor adds their level as actual damage value multiplied by 1.3\r<br />  ;Example: I&#39;m level 4, so multiple 4 by 1.5 resulting in 6\r<br />  enemyLevel = (akAggressor as Actor).GetLevel() * 2.5\r<br /> \r<br />  ;Get NPCActor&#39;s armor rating by multiplying her damage resist by 0.12, because for each point of damageresist results in 0.12% damage reduction\r<br />  ;Then divide by 100 so we get a damage reduction percentage\r<br />  ;Example: NPCActor&#39;s DamageResist is -187 so we multiply that by 0.12 and then divide by 100 resulting in -0.2244 aka 22% damage Reduction\r<br />  NPCActorDamageResistance = (self.GetAV(&#34;DamageResist&#34;) * 0.12) / 100\r<br />\r<br />  ;if NPCActor isn&#39;t blocking then perform the damage increase modifier\r<br />  if (abHitBlocked == 0)\r<br />\r<br />    ;is the source of damage a weapon?\r<br />    if (akSource.GetType() == 41)\r<br />        ;Let&#39;s take the adjusted values of enemyBaseHealth and enemyLevel to use as a means of causing extra damage to NPCActor\r<br />        ;add them together then subtract damage based on her damage resistance calculated from her armor rating\r<br />        ;Example based upon above values specific in notes above (27.5 + 6) - (-.21 * (27.5 + 6))\r<br />        DamageActorValue(&#34;Health&#34;, (enemyBaseHealth + enemyLevel) - (NPCActorDamageResistance * (enemyBaseHealth + enemyLevel)))\r<br />    endIf    \r<br />    \r<br />    ;shout\r<br />    if (akSource.GetType() == 119)\r<br />        DamageActorValue(&#34;Health&#34;, enemyMageBaseHealth)\r<br />    endIf    \r<br />\r<br />    ;magic\r<br />    if (akSource.GetType() == 22)\r<br />        DamageActorValue(&#34;Health&#34;, enemyMageBaseHealth)\r<br />    endIf\r<br />    \r<br />  endIf\r<br />    \r<br />endEvent",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "Jackfuzz",
+  "createdUnix": "1391425693",
+  "updatedUnix": "1391425688",
+  "containsAdultContent": false,
+  "uploadedBy": "JackFuzz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000095037",
+      "name": "NPC Actors take more damage Script",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "NPC Actors take more damage Script-50699-1-0.rar",
+      "uploadedUnix": "1391425688",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/041a3f83d8dc24212a3381c72ff3d413099c7da3bd74b35640b0a44898fe5926/analysis/1407916098/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NPC%20Actors%20take%20more%20damage%20Script-50699-1-0.rar?fid=1000095037&ttl=1535832555&ri=8192&rs=8192&setec=1d524d5934f751decc1a2ec7adedf197"
+    }
+  ]
+}

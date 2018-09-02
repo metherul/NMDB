@@ -1,0 +1,48 @@
+{
+  "modId": 22673.0,
+  "modName": "DFB - Patch Functions Modders Resource",
+  "summary": "(Modders Resource) This is just an easy to use and set up \\'patcher\\' for various uses.",
+  "descriptionHtml": "=========================\r\n= DFB - Patch Functions =\r\n=========================\r\n(Modders Resource) This is just an easy to use and set up \\'patcher\\' for various uses.\r\n\r\n-By request. I was asked to upload my \\'patcher\\' I use for my other mod:\r\nDFB - XP Mod: http://skyrim.nexusmods.com/mods/22628\r\nNote: This is edited version of that mods patcher. This was made to be more generic\r\nand support other uses.\r\n\r\n-Currently able to be \\'patched\\':\r\n+Items\r\n++Ammo ( Arrows / Bolts )\r\n++Armors\r\n++Books\r\n++Keys\r\n++Misc. Objects\r\n++Potions\r\n++Scrolls\r\n++Soul Gems\r\n++Weapons\r\n\r\n+Globals\r\n\r\n+Spells\r\n\r\n+Perks\r\n\r\nBy patching, this just can add or remove up to a limit defined by the user.\r\n++ More explained per function.\r\n\r\nBefore using any functions. Copy DFBPatchFunctions.pex to Scripts folder.\r\n++ In your script add:\r\nImport DFBPatchFunctions\r\n\r\nNOTE: When using these functions. They use Form Lists. Before using, make sure to have them.\r\nPlayer Functions ONLY target the Player.\r\nActor Functions ONLY targets Actors.\r\nObject Functions ONLY target Objects.\r\nOther Functions just works with what is given.\r\n\r\nIf you use this in your mod. Do NOT include it with your mod. Link it to the mods page!\r\nhttp://skyrim.nexusmods.com/mods/22673\r\n\r\n===================\r\n= Version History =\r\n===================\r\n== Version 1.1 ==\r\nUpdated all functions. ( They were missing Global option\r\n\r\n============================\r\n=     Player Functions     =\r\n============================\r\n\r\nFunction: DFBPatchItems<Item>(FormList fList, Int iFlag, Int iAmount)\r\nfList: List of Items to Add or Remove.\r\niFlag: 0 = Add, 1 = Remove\r\niAmount: Amount to be added up to or removed down to. ( Using 0 to remove, removes all. )\r\nExample 1: DFBPatchItems<Item>(Add<Item>, 0, 30)\r\n++ This will check the player. If they have less then 30, this will add up to 30.\r\nExample 2: DFBPatchItems<Item>(Remove<Item>, 1, 10)\r\n++ This will check the player. If they have more then 10, this will remove down to 10, using 0 will remove all.\r\n\r\nFunction: DFBPatchPerks(FormList fList, Int iFlag)\r\nfList: List of Perks to Add or Remove.\r\niFlag: 0 = Add, 1 = Remove\r\nExample 1: DFBPatchPerks(MyPerkListAdd, 0)\r\n++ Checks if the player has these perks, if not, it is added.\r\nExample 2: DFBPatchPerks(MyPerkListRemove, 1)\r\n++ Checks if the player has these perks, if so, it is removed.\r\n\r\nFunction: DFBPatchSpells(FormList fList, Int iFlag)\r\nfList: List of Spells to Add or Remove.\r\nExample 1: DFBPatchSpells(MySpellAddList, 0)\r\n++ Checks if the player has these spells, if not, it is added.\r\nExample 2: DFBPatchSpells(MySpellRemoveList, 1)\r\n++ Checks if the player has these spells, if so, it is removed.\r\n\r\n===============================\r\n=       Other Functions       =\r\n===============================\r\n\r\nFunction: DFBPatchGlobal<Float / Int>(GlobalVariable iGlobal, Float iOld, Float iNew)\r\niGlobal: Global that needs to be updated.\r\niOld: Checks this Int or Float. If -1, overwrites regardless. Otherwise, checks if the value is the original old\r\none. This was to make sure it did not overwrite user settings.\r\niNew: Value to be changed to.\r\nExample 1: DFBPatchGlobalFloat(MyGlobal, 10, 15)\r\n++ This will check if it is 10, if it is, change to 15.\r\nExample 1: DFBPatchGlobalFloat(MyGlobal, 10.5, 15.7)\r\n++ This will check if it is 10.5, if it is, change to 15.7.\r\nExample 2: DFBPatchGlobalFloat(MyGlobal, -1, 50.5)\r\n++ This will overwrite any value and change it to 50.5.\r\nExample 3: DFBPatchGlobalInt(MyGlobal, 100, 50)\r\n++ This will check if it is 100, if it is, change to 50.\r\nExample 4: DFBPatchGlobalInt(MyGlobal, -1, 50)\r\n++ This will overwrite any value and change it to 50.\r\n\r\n=============================\r\n=      Actor Functions      =\r\n=============================\r\nFunction: DFBPatchItems<Item>Actor(Actor Target, FormList fList, Int iFlag, Int iAmount)\r\nfList: List of Items to Add or Remove.\r\niFlag: 0 = Add, 1 = Remove\r\niAmount: Amount to be added up to or removed down to. ( Using 0 to remove, removes all. )\r\nExample 1: DFBPatchItems<Item>Actor(MyRef, Add<Item>, 0, 30)\r\n++ This will check the target. If they have less then 30, this will add up to 30.\r\nExample 2: DFBPatchItems<Item>Actor(MyRef, Remove<Item>, 1, 10)\r\n++ This will check the target. If they have more then 10, this will remove down to 10, using 0 will remove all.\r\n\r\nFunction: DFBPatchPerksActor(Actor Target, FormList fList, Int iFlag)\r\nfList: List of Perks to Add or Remove.\r\niFlag: 0 = Add, 1 = Remove\r\nExample 1: DFBPatchPerks(MyRef, MyPerkListAdd, 0)\r\n++ Checks if the target has these perks, if not, it is added.\r\nExample 2: DFBPatchPerks(MyRef, MyPerkListRemove, 1)\r\n++ Checks if the target has these perks, if so, it is removed.\r\n\r\nFunction: DFBPatchSpellsActor(Actor Target, FormList fList, Int iFlag)\r\nfList: List of Spells to Add or Remove.\r\nExample 1: DFBPatchSpells(MyRef, MySpellAddList, 0)\r\n++ Checks if the target has these spells, if not, it is added.\r\nExample 2: DFBPatchSpells(MyRef, MySpellRemoveList, 1)\r\n++ Checks if the target has these spells, if so, it is removed.\r\n\r\n=============================\r\n=      Object Functions     =\r\n=============================\r\nFunction: DFBPatchItems<Item>Object(ObjectReference Target, FormList fList, Int iFlag, Int iAmount)\r\nfList: List of Items to Add or Remove.\r\niFlag: 0 = Add, 1 = Remove\r\niAmount: Amount to be added up to or removed down to. ( Using 0 to remove, removes all. )\r\nExample 1: DFBPatchItems<Item>Object(MyObjRef, Add<Item>, 0, 30)\r\n++ This will check the target. If they have less then 30, this will add up to 30.\r\nExample 2: DFBPatchItems<Item>Object(MyObjRef, Remove<Item>, 1, 10)\r\n++ This will check the target. If they have more then 10, this will remove down to 10, using 0 will remove all.",
+  "categoryId": "82",
+  "version": "1.1a",
+  "author": "Darkfirebird",
+  "createdUnix": "1345352816",
+  "updatedUnix": "1346604226",
+  "containsAdultContent": false,
+  "uploadedBy": "Darkfirebird",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "82646",
+      "name": "Patch Functions 1_0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "Patch Functions 1_0-22673-1-0.zip",
+      "uploadedUnix": "1345352897",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/28e1d7f14146c88dd69a0dc770f4ada4b84537a55ac33bdc38a418f40dee24b7/analysis/1407106864/",
+      "changelogHtml": " -Initial Release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Patch%20Functions%201_0-22673-1-0.zip?fid=82646&ttl=1535792376&ri=8192&rs=8192&setec=2d8f7121559b6f0ae2beb289539f8640"
+    },
+    {
+      "fileId": "85986",
+      "name": "Patch Functions 1_1a",
+      "version": "1.1a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "12",
+      "fileName": "Patch Functions 1_1a-22673-1-1a.zip",
+      "uploadedUnix": "1346604226",
+      "modVersion": "1.1a",
+      "virusScanUrl": "https://www.virustotal.com/file/17e5f5766be8d141c0aac5696e415eeb61f4e9a9bdd544f61b8ae802e991eb84/analysis/1407140883/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Patch%20Functions%201_1a-22673-1-1a.zip?fid=85986&ttl=1535792377&ri=8192&rs=8192&setec=c5e863deb5cd871179463189a3676d5d"
+    }
+  ]
+}

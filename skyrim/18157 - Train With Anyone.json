@@ -1,0 +1,32 @@
+{
+  "modId": 18157.0,
+  "modName": "Train With Anyone",
+  "summary": "Allows the player to receive training from anyone.*",
+  "descriptionHtml": "Description\r\n===========\r\nAllows the player to receive training from anyone.*\r\n\r\n*More info below.\r\n\r\nRequired Files\r\n==============\r\nNone.\r\n\r\nDetails\r\n=======\r\nThe player will now be able to receive training from potentially any NPC with some requirements:\r\n\r\n\t1. The NPC is not a trainer in the original game (to prevent any possible conflicts).\r\n\t2. The NPC must be at least a friend of the player (so you\\'ve done a favor for him/her).\r\n\t3. The NPC must have at least one skill that is higher than the player.\r\n\t4. The NPC\\'s level in that skill must be at least 50 (or whatever the journeyman skill level happens to be).\r\n\r\nInstall\r\n=======\r\n1. Download the file.\r\n2. Extract the files to a temporary location.\r\n3. Examine the folder structure and make corrections where necessary.\r\n4. Copy files to (install folder)\\\\Skyrim\\\\Data\\\\\r\n5. Start Skyrim Launcher, click \\'Data Files\\', place a checkmark beside the .esp file(s).\r\n\r\nUninstall\r\n=========\r\n1. Load your game.\r\n2. Type \\\"StopQuest fg109_Trainers_Quest\\\" into the console (without the quotes).\r\n3. Save and exit.\r\n4. Delete the \\\"Train With Anyone.esp\\\" and \\\"Train with Anyone.bsa\\\" files.\r\n\r\nUpgrade\r\n=======\r\n1. This is the only release so far.\r\n\r\nKnown Issues or Bugs\r\n====================\r\n1. The dialogue speeds by too fast.\r\n\r\n\tThere are no sound files, so there\\'s nothing to be done about it.  Try using Fuz Ro D\\'oh: http://skyrim.nexusmods.com/downloads/file.php?id=14884.\r\n\r\n2. The dialogue options don\\'t show up, and I know that the NPC meets the requirements.\r\n\r\n\tThe scripts controlling it might be a bit slow.  Exit dialogue, wait a couple seconds, perhaps move around, and try again.\r\n\r\nContact\r\n=======\r\nYou can find me on the official Elder Scrolls forums as \\'RandomNoob\\'\r\nYou can find me on TESNexus as \\'fg109\\'\r\n\r\nTools Used\r\n==========\r\nReadme Generator - http://HammondsLegacy.com/obmm/tools_readme_generator1.asp\r\n\r\nLicensing/Legal\r\n===============\r\nYou can do whatever you want with this mod but all I ask in return is that you give me credit if you distribute any part of this mod.",
+  "categoryId": "73",
+  "version": "0.5",
+  "author": "fg109",
+  "createdUnix": "1338749406",
+  "updatedUnix": "1338750289",
+  "containsAdultContent": false,
+  "uploadedBy": "fg109",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "65726",
+      "name": "Train With Anyone - 0-5",
+      "version": "0.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "12",
+      "fileName": "Train With Anyone - 0-5-18157-0-5.rar",
+      "uploadedUnix": "1338750289",
+      "modVersion": "0.5",
+      "virusScanUrl": "https://www.virustotal.com/file/ccd99d82e71420cb53091bd8245811731bfcfa43067acb9a9d2b8fabbbd141bd/analysis/1406935865/",
+      "changelogHtml": " Beta release. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Train%20With%20Anyone%20-%200-5-18157-0-5.rar?fid=65726&ttl=1535784809&ri=8192&rs=8192&setec=b49cb742e390f39bb6c537d678b87645"
+    }
+  ]
+}

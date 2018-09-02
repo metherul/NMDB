@@ -1,0 +1,48 @@
+{
+  "modId": 13071.0,
+  "modName": "AMD ATI Pixelization Square Artifacts Pixelation Hotfix",
+  "summary": "ATI AMD 12.3 driver pixelization bug Hotfix using 12.1 dll",
+  "descriptionHtml": "[color=yellow][size=6][b]Catalyst Software Suite 12.4 available!\r\n1. Uninstall this hotfix with \\\"ATI_AA_Pixelization_Hotfix_Uninstall\\\".\r\n2. Update your driver.[/b][/size][/color]\r\n[color=orange]AMD Site:[/color] [url=http://support.amd.com/us/gpudownload/windows/Pages/radeonaiw_vista64.aspx]AMD Catalyst 12.4 WHQL 64-bit[/url]\r\n[color=orange]AMD Site:[/color] [url=http://support.amd.com/us/gpudownload/windows/Pages/radeonaiw_vista32.aspx]AMD Catalyst 12.4 WHQL 32-bit[/url]\r\nNote: Refresh with Ctrl+F5 if it still says 12.2.\r\nAt Guru3D, you\\'ll see the release notes right before your eyes :D\r\n[color=gold]Guru3D:[/color] [url=http://downloads.guru3d.com/AMD-Catalyst-12.4-WHQL-64-bit-download-2905.html]AMD Catalyst 12.4 WHQL 64-bit[/url]\r\n[color=gold]Guru3D:[/color] [url=http://downloads.guru3d.com/AMD-Catalyst-12.4-WHQL-32-bit-download-2904.html]AMD Catalyst 12.4 WHQL 32-bit[/url]\r\n\r\n[size=4][color=lime][b]Currently, this hotfix shouldn\\'t be needed, just update your driver with the 12.4 cat suite. If you have my hotfix installed, I recommend that you remove it with \\\"ATI_AA_Pixelization_Hotfix_Uninstall\\\" or at least delete the atiumdag.dll from your Skyrim folder.[/b][/color][/size]\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n[color=aqua][b]ATI Anti-Aliasing Pixelization Hotfix[/b][/color]\r\nAMD Catalyst Software Suite 12.2 (12.3 was displayed in cat ctrl cntr) driver has created a problem for some users.\r\nHere is a workaround until the problem is addressed officially.\r\n\r\n[center][color=yellow][size=4][b]Don\\'t forget to uninstall this hotfix when the new driver is made available.[/b][/size][/color][/center][center]^^ ATI_AA_Pixelization_Hotfix_Uninstall can do the job with ease. ^^[/center]\r\n\r\nFor [b]Windows 7 32bit and 64bit[/b] the dll was taken from 12.1 driver.\r\nThe dll is the same in both 32bit and 64bit.\r\n\r\n[color=aqua][b]Install:[/b][/color]\r\n1. Extract all the files into your Skyrim folder.\r\nCommon Skyrim directory:\r\n32-bit; \\\"C:\\\\Program Files\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\\\\"\r\n64-bit; \\\"C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\\\\"\r\n2. Run [color=yellow][size=4][b]ATI_Expand_DLL[/b][/size][/color] to expand the Dll file\r\n3. Turn on Skyrim Anti-Aliasing and test.\r\n4. Enjoy if it worked for you. Comment if it doesn\\'t.\r\nNote: You can easily uninstall this Hotfix by running ATI_AA_Pixelization_Hotfix_Uninstall\r\n\r\n[b]Just a note to all. Don\\'t forget this Hotfix is installed if your going to be using it. When a new driver that fixes the issue properly is made available, you will want to uninstall this.[/b]\r\n\r\nAccording to comments, this works for some and not for others. I do not have various systems to test this on and try and solve the issues for those that it does not help. It will take troubleshooting by those that still have the problem after applying this hotfix. I\\'m sorry if it does not work for you.\r\n\r\n[b]Credits:[/b]\r\ncarbonic at [url=http://forums.steampowered.com/forums/showthread.php?t=2554717&p=29311870]http://forums.steampowered.com/forums/showthread.php?t=2554717&p=29311870[/url]\r\nBra support pic was found with google and edited by me... [url=http://cdn.overclock.net/f/f8/f858e343_IMG_2167.jpeg]http://cdn.overclock.net/f/f8/f858e343_IMG_2167.jpeg[/url]\r\n\r\n[color=yellow][size=8]Don\\'t forget it is installed when a new driver is made available.[/size][/color]\r\n\r\nMy other Skyrim stuffs:\r\n[url=http://skyrim.nexusmods.com/downloads/file.php?id=13575]AiM - Auto ini Mod[/url]\r\n[url=http://skyrim.nexusmods.com/downloads/file.php?id=11034]Direct Input Paste[/url]",
+  "categoryId": "95",
+  "version": "12.1",
+  "author": "Guru82",
+  "createdUnix": "1331974526",
+  "updatedUnix": "1332983027",
+  "containsAdultContent": false,
+  "uploadedBy": "Guru82",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "44058",
+      "name": "ATI_Anti-Aliasing_Pixelization_Hotfix",
+      "version": "12.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4014",
+      "fileName": "ATI_Anti-Aliasing_Pixelization_Hotfix-13071.zip",
+      "uploadedUnix": "1331974659",
+      "modVersion": "12.1",
+      "virusScanUrl": "https://www.virustotal.com/file/cb44a73f836c95267990f54b255fa98abc47c0e33bd418d0cf94aecad63cf9c3/analysis/1406752724/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ATI_Anti-Aliasing_Pixelization_Hotfix-13071.zip?fid=44058&ttl=1535775519&ri=8192&rs=8192&setec=dd8641d697423edc0ae6499223b83253"
+    },
+    {
+      "fileId": "47790",
+      "name": "Hotfix_Not_Needed",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Hotfix_Not_Needed-13071.zip",
+      "uploadedUnix": "1332983027",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/0d69003e42c5e73f4470d7c70d3629dbd99af68906aaecc533979ea6e0dad790/analysis/1406785096/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hotfix_Not_Needed-13071.zip?fid=47790&ttl=1535775520&ri=8192&rs=8192&setec=6b0c4337ab5b3a252d0fdace199cd749"
+    }
+  ]
+}

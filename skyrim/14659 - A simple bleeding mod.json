@@ -1,0 +1,48 @@
+{
+  "modId": 14659.0,
+  "modName": "A simple bleeding mod",
+  "summary": "Makes victims bleed from torso on killmoves and head on decapitations without touching vanilla perks.",
+  "descriptionHtml": "[b][center][size=18]The mod is outdated[/size][/center][/b]\r\n\r\n\r\nThe scripts are integrated into [url=http://skyrim.nexusmods.com/mods/60]Enhanced Blood Textures[/url] by dDefinder and it\\'s updated frequently, I recommend you to install that mod instead.\r\n\r\n[url=http://skyrim.nexusmods.com/mods/12798]Crimson Tide - Blood[/url] by Magus/MuteDivinity also uses this scripts, but it uses even more outdated scripts.\r\n\r\n\r\n\r\nThis simple mod was inspired by Bloodier Combat by Monkmidon.\r\n\r\nI liked the bleed effects of Bloodier Combat, but it annoyed me that the victim only bleed from the head, so I decided to make this mod.\r\n\r\n[b][color=#bb9900]FEATURES:[/color][/b]\r\n- On a killmove the victim will bleed from the torso.\r\n- On a decapitation the victim will bleed from the neck.\r\n- Decapitations from the executioners scenes will have blood.\r\n- While the victim is crouching on the ground he will bleed until he stands up.\r\n- Only one vanilla record modified. All the perks are left untouched.\r\n\r\n[b][color=#bb9900]COMPATIBILITY:[/color][/b]\r\nThe mod should be compatible with any other mod, except EBT and Crimson tide (it\\'s included in them)\r\n\r\n[b][color=#bb9900]ISSUES:[/color][/b]\r\n- On some killmoves the victim dies too quickly, making the script not apply the effects sometimes. These are the quick slash with a 2-handed sword, the quick smash with a 2-handed axe/hammer and the normal killmove while the victim is bleeding out.\r\n- The above bug also applies for the new bleeding effects for npcs\r\n\r\n[b][color=#bb9900]NOTES:[/color][/b]\r\n- This mod does NOT modify blood textures nor add new impact data sets, it only apply the bleeding effects. If you want different blood textures and increased blood on bodies you can instead use Enhanced Blood Textures or Crimson Tide.\r\n\r\n[b][color=#bb9900]VERSION HISTORY:[/color][/b]\r\n[b]v1.6a[/b]\r\n- Added bleeding from arrows if target has low health\r\n- Fixed Papyrus log errors (suspended stacks)\r\n*NOTE: This mod no longer causes suspended stacks by itself, [b]but[/b] if used with other mods that call the OnHit() event without a fix it can cause them again, it\\'s not this mod\\'s fault\r\n\r\n[b]1.6[/b]\r\n- Quickfix for a bug with guards from Forsworn Conspiracy quest\r\n- Player will use the same method as npcs use for bleeding, this means:\r\n-- No more conflicts with mods that use a combat hit spell\r\n-- No more blood pooling for ranged killcams (sorry archers)\r\n\r\n[b]v1.5a[/b]\r\n- Fixed an error that caused the papyrus log to constantly report errors\r\n\r\n[b]v1.5[/b]\r\n- Fixed bug with brawling events\r\n- Bug with Vilkas complaining about you casting magic on him [b]should[/b] be fixed as it was caused by the same bug that the brawling bug \r\n\r\n[b]v1.4c[/b]\r\n- People decapitated without being a killmove (like the executioner scenes) will bleed too\r\n(There is a small delay before the bleeding appears, it is because the decapitated victim is not considered dead by the game until he hits the floor, nothing I can do to fix it)\r\n\r\n[b]v1.4b[/b]\r\n- Added conditionals inside the scripts so extra bleeding effects can be used out of a killmove without bugs\r\n- Bleeding cloak magic effect will no longer be visible on the active magic effects tab\r\n\r\n[b]v1.4a[/b]\r\n- Fixed a bad conditional check that applied the bleeding effects to creatures that are not supposed to bleed if killmoved by an npc\r\n\r\n[b]v1.4[/b]\r\n- Redone the new bleeding script for npcs\r\n- Fixed a bug with the new bleeding effects for npcs duplicating sometimes\r\n- Fixed a bug where if a npc was hit by another npc while doing a killmove, that npc will bleed too\r\n- Partially fixed a bug where if a npc was hit by the player while doing a killmove, that npc will bleed too\r\n\r\n[b]v1.3a[/b]\r\n- Now the NPCs will apply the bleeding effects to their victims too\r\n\r\n[b]v1.2[/b]\r\n- The error with bleeding effects overriding some vanilla effects is handled on a different way\r\n- Fixed the error with bleeding not showing sometimes due to the latest fix with vanilla effects\r\n- Bleeding while victim is crouching on ground is back again\r\n- Fixed decapitated bleeding while victim is crouching on ground\r\n- Added a little more visual blood to decapitations\r\n- A decapitated victim will have spasms for a few seconds\r\n\r\n[b]v1.1b[/b]\r\n- Fixed an error with the bleeding effects overriding some vanilla effects like the ones applied by the perks limbsplitter or hack and slash\r\n- Due to the new fix, the bleeding while victim is crouching on ground won\\'t work\r\n\r\n[b]v1.1a[/b]\r\n- Fixed draugs bleeding\r\n\r\n[b]v1.1[/b]\r\n- Added bleeding for ranged killcams (Skyrim 1.5 necessary) \r\n\r\n[b]v1.0[/b]\r\n- Fixed warhammer decapitation bleeding from torso instead of neck\r\n- Changed the bleeding node depending on victim\\'s race\r\n- Fixed bleeding effects not playing if victim was killmoved while bleeding out (crouching). NOTE: 1handed decapitation doesn\\'t play the bleeding sometimes while victim is crouching, 2handed works just fine\r\n\r\n[b]v0.2[/b]\r\n- Some minor changes to scripts\r\n- Added compatibility for creatures bleeding\r\n- Removed Enhanced Blood Textures compatible plugin, as it is no longer necessary\r\n\r\n[b]v0.1[/b]\r\n- Initial release\r\n\r\n--Enjoy the mod\r\npauderek",
+  "categoryId": "78",
+  "version": "1.6a",
+  "author": "pauderek",
+  "createdUnix": "1333883931",
+  "updatedUnix": "1343172252",
+  "containsAdultContent": true,
+  "uploadedBy": "pauderek",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "71063",
+      "name": "Simple bleeding v1_6",
+      "version": "1.6",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "Simple bleeding v1_6-14659-1-6.rar",
+      "uploadedUnix": "1340991429",
+      "modVersion": "1.6",
+      "virusScanUrl": "https://www.virustotal.com/file/51b0e79372aeff93d3fb6b64b0ab69915ec97fb4726a824ef66378a5844b9fcc/analysis/1406990643/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Simple%20bleeding%20v1_6-14659-1-6.rar?fid=71063&ttl=1535778443&ri=8192&rs=8192&setec=e082896d05eb1256af63d256dc253b97"
+    },
+    {
+      "fileId": "76465",
+      "name": "Simple bleeding v1_6a",
+      "version": "1.6a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "Simple bleeding v1_6a-14659-1-6a.rar",
+      "uploadedUnix": "1343172252",
+      "modVersion": "1.6a",
+      "virusScanUrl": "https://www.virustotal.com/file/15156eecd82e8f143384a6b228b0ab0a09c6da43f8100a768375ccaebcc719da/analysis/1407044167/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Simple%20bleeding%20v1_6a-14659-1-6a.rar?fid=76465&ttl=1535778444&ri=8192&rs=8192&setec=8a97933de39387a0a1f55bee58e16153"
+    }
+  ]
+}

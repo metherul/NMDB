@@ -1,0 +1,48 @@
+{
+  "modId": 93296.0,
+  "modName": "Dev Aveza working LOD proof of concept",
+  "summary": "Dev Aveza airship working LOD Proof Of Concept",
+  "descriptionHtml": "I've managed to get working LOD for the flying version of Dev Aveza airship. I saw the topic come up in [url=https://old.reddit.com/r/skyrimmods/comments/96qtpv/how_do_i_get_the_lod_for_the_airship_dev_aveza_in/]this[/url] thread by [url=https://old.reddit.com/u/arcline111]/u/arcline111[/url] and got the solution thanks to [url=https://old.reddit.com/u/yausd]/u/yausd[/url]. The ship has full LOD and still functions correctly in flight. However, it requires more work out with my current skill set, so I am posting for visibility in the hope the community can help me finish this.\n<br />\n<br />This method works by exploiting the different versions of the same model available to the player, original, and dark. How the method works is to apply the 'IsFullLOD' flag to one of the ship references (dark), whilst leaving the other model (original) as is. Applying the IsFullLOD Flag renders the ship model \"un-sailable\". But, (light bulb moment) you can switch to the other ship model, which doesn't have the flag set and voila, back to a fully functioning ship. By swapping between the two models, you can fly, disembark, leave the cell, view the airship LOD, return to your ship and fly away. \n<br />\n<br />However, this all has to be done manually via the MCM currently and that's where I need help in coming up with a more elegant solution to make an efficient method of swapping between the two ship models. So how can this be done? \n<br />\n<br />I don't want to touch any of the existing Dev Aveza scripts or nifs, at all. It's already fragile enough. It needs to be something light and efficient. Perhaps some kind of script?\n<br />\n<br />Notes:[list]\n<br />[*]Despite the models having different appearances, a simple texture replacer on install will do the job of making both models look identical. You can have one or the other.\n<br />[*]I don't think it's possible to bring the armed version into this as it has separate nifs, plus I never used it anyway so ignore that for now.\n<br />[*]Doesn't work on an existing game with Dev Aveza. Doesn't require DynDOLOD.\n<br />[*]Currently, you don't see the LOD on the first visit as the author set the dark variant as the default. You can see the LOD after your first flight by switching the model in the MCM.\n<br />[/list][url=https://imgur.com/bEugfzR]\n<br />[/url]Airship dark without LOD that CAN fly [url=https://imgur.com/NNOdbd9](NIF)\n<br />[/url]Airship dark without LOD that CAN fly [url=https://imgur.com/WUfTzhL](Tes5Edit)\n<br />[/url]Airship original with LOD that CANNOT fly [url=https://imgur.com/PseP4Iz](NIF)\n<br />[/url]Airship original with LOD that CANNOT fly ([url=https://imgur.com/MooaUAy]Tes5Edit[/url])\n<br />\n<br />[url=https://imgur.com/E4IkJ3u]Scripts available in download [/url] \n<br />\n<br />\n<br />Pastebin links to script source\n<br />\n<br />A[url=https://pastebin.com/Gbakk55a] _DA_Skyship_MCM_ConfigMenu_v1 [/url]\n<br />B [url=https://pastebin.com/SLJLytp0]_DA_Skyship_v1 [/url]\n<br />C [url=https://pastebin.com/ieEtHnzv]_DA_Skyship_Ladder_Switch_v1[/url]\n<br /> \n<br />\n<br />\n<br />Script suggestions (Click on Spoilers)\n<br />\n<br />1.\n<br />A distance check every few seconds between the ship and the player - you could do the distance check between the player and the currently enabled ship whichever version it might be at the moment. DavidJCobb and he also suggested: \"If you're going to poll for distance, you may as well use an ability spell on the player (added via a quest alias) whose spell-side conditions check GetDistance\".[\n<br />\n<br />2.\n<br />Doing it in the MCM, then you have code that makes the switch, correct? Have you tried to put that code into an OnActivate event for the ladder or any of the movement controls? Suggestion, have a Global Variable that tracks which model is active. If you don't want to edit the scripts on the ship, perhaps add a new activator to the deck that \"prepares the rigging for flight\" and use that to switch the models. You can also have it \"secure the rigging\" to switch back to the LOD model.\"",
+  "categoryId": "67",
+  "version": "POC",
+  "author": "Deapri",
+  "createdUnix": "1535322812",
+  "updatedUnix": "1535323685",
+  "containsAdultContent": false,
+  "uploadedBy": "kojak747",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000280593",
+      "name": "Airship Dev Aveza working LOD POC plugin file",
+      "version": "WIP",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "42128",
+      "fileName": "Airship Dev Aveza working LOD POC plugin file-93296-WIP.7z",
+      "uploadedUnix": "1535323567",
+      "modVersion": "WIP",
+      "virusScanUrl": "https://www.virustotal.com/file/d006a808ef8146baca3d7cb90ecbba17f5bad1a020e01f214a4fae042e53da1d/analysis/1535323757/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Airship%20Dev%20Aveza%20working%20LOD%20POC%20plugin%20file-93296-WIP.7z?fid=1000280593&ttl=1535884640&ri=8192&rs=8192&setec=256822bf0ffb70f13062ba08e7fbbf01"
+    },
+    {
+      "fileId": "1000280594",
+      "name": "test",
+      "version": "testr",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "172",
+      "fileName": "test-93296-testr.7z",
+      "uploadedUnix": "1535323685",
+      "modVersion": "testr",
+      "virusScanUrl": "https://www.virustotal.com/file/f0888388d3a5f693582a9e4e18293ff0db89b2c3d378515bbd65cbbef5c4ed3a/analysis/1535323767/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/test-93296-testr.7z?fid=1000280594&ttl=1535884641&ri=8192&rs=8192&setec=04479eaa8d82689a888f22efbd500dac"
+    }
+  ]
+}

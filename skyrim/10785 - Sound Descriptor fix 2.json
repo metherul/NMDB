@@ -1,0 +1,32 @@
+{
+  "modId": 10785.0,
+  "modName": "Sound Descriptor fix 2",
+  "summary": "Adds the missing file \\\"ui_menu_inactive.wav\\\" to fix a problem with the Sound Descriptor\r\n\\\"UIMenuInactiveSD\\\" inside CK.",
+  "descriptionHtml": "Sound Descriptor fix2\r\n\r\nInside CK there is the Sound Descriptor \\\"UIMenuInactiveSD\\\" but this SD have a wrong referencepath\r\nthe current path and file is \\\"data\\\\sound\\\\fx\\\\ui\\\\ui_menu_inactive.wav\\\" but this file is not existing\r\nat all (not inside the \\\"Skyrim - Sounds.bsa\\\" and not in the Data folder), so i\\'ve added it to the\r\ndata folder. (also the Path for the SD (should be) \\\"fx\\\\ui\\\\\\\" like the other MenuSD\\'s but this one\r\npoints to \\\"data\\\\sound\\\\fx\\\\ui\\\\\\\"), editing the SD parameter for this tells that the file is missing.\r\nOk, ive no idea what the UIMenuInactiveSD normaly is doing, however if somebody is missing the file,\r\nhere is a replacement.\r\n\r\nhave fun, triplex2011 ",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "triplex2011",
+  "createdUnix": "1329896238",
+  "updatedUnix": "1329896329",
+  "containsAdultContent": false,
+  "uploadedBy": "triplex2011",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "35164",
+      "name": "SDfix2",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "SDfix2-10785-1-0.7z",
+      "uploadedUnix": "1329896329",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2f9dc29de0354d24cd78293bf69000e33976532f14241986990516aabdf1ce56/analysis/1406704447/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SDfix2-10785-1-0.7z?fid=35164&ttl=1535771399&ri=8192&rs=8192&setec=68199ebb6bc06e7822e492c39d0bfc0a"
+    }
+  ]
+}

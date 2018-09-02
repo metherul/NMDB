@@ -1,0 +1,32 @@
+{
+  "modId": 28399.0,
+  "modName": "lockpicking problem solved",
+  "summary": "Makes it really hard do gain XP from picking locks or breaking picks, thus alleviating the unwanted high-paced leveling of a stealth or mercantile based characters classes. ",
+  "descriptionHtml": "Short info\r\n-------------\r\nInstead of disabling the mini game, or resorting to \\\"fun\\\" alternatives such as brute-forcing the locks with random chance or smashing them with axes, my approach ignores the problem at early levels and I discard the whole lock picking perk tree as broken and uninteresting for any play-through after the first one. \r\n\r\nThis is not to be taken as criticism to mods taking a more adventure-like approach to solving the problem. I just prefer to feel like a master thief who can open any lock at level 1 with only 4-5 picks and some patience. I prefer opening locks with Alteration after the spells become affordable, anyhow. \r\n\r\nRationale\r\n-------------\r\nThe lock-picking in Vanilla is too easy. For a non-combat based character, this means they will get really tough enemies at early levels, since they have no armor or fighting skills (not even destruction). To make this problem less harsh, I simply decreased the skill-gain from breaking picks and opening locks.\r\n\r\nRecommended mods\r\n----------------------------\r\nimmersiveUI_LockpickPlus: http://skyrim.nexusmods.com/mods/1639\r\nLess Lockpicks: http://skyrim.nexusmods.com/mods/11540\r\nLockpick weight: http://skyrim.nexusmods.com/mods/8263\r\n\r\nFYI (uesp.net)\r\n--------------------\r\nThe skill XP needed for the next skill level grows near-quadratically, as given by:\r\n> Skill Improve Mult * skill level^(1.95) + Skill Improve Offset\r\n\r\nUsing a skill gives XP according to:\r\n> Skill Use Mult * base XP + Skill Use Offset (?)\r\n\r\nLock picking XP sources\r\n--------------------------------\r\n0.25 base XP for a broken pick.\r\n2, 3, 5, 8, or 13 base XP for successfully picking a lock.\r\n\r\nModifications to \\'Actor Value: Lockpick\\' (skill)\r\n------------------------------------------------------\r\nskill use mult: 45 -> 10\r\nskill use offset: 10 -> 2\r\nskill improve mult: 0.25 -> 0.15\r\nskill improve offset: 300 -> 900\r\n\r\nChanging offset to 900 means that to advance lockpicking from 15 to 16 you will\r\nhave to gain as much xp as you would in vanilla to advance lockpicking from 54 \r\nto 55. \r\n\r\nDecreasing the improve multiplier to 0.15 means that the xp requirement for \r\nskill advancement will not grow as fast, but still reach about the same value\r\nas vanilla on level 100.\r\n\r\nReducing use mult and use offset grants very small xp gains on breaking picks \r\nand requires the player to pick about five times as many locks to gain the same \r\namount xp as they would in vanilla. \r\n\r\nWith these values, the average xp gain value between picking an expert and a \r\nmaster lock (82 expert, 132 master) is aproximatelly equal to the xp gain from\r\npicking a novice lock in vanilla (100 novice).\r\n\r\nPossible problems \r\n------------------------\r\nThere may not be enough locks in the game to get 100 in lockpicking and the author does not care. \r\n\r\n",
+  "categoryId": "73",
+  "version": "1",
+  "author": "tox2ik",
+  "createdUnix": "1355641994",
+  "updatedUnix": "1355642353",
+  "containsAdultContent": false,
+  "uploadedBy": "tox2ik",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "105463",
+      "name": "lockpicking problem solved",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "lockpicking problem solved-28399-1.rar",
+      "uploadedUnix": "1355642353",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/9d63a74385bc7d132f1858b1e99752a88e0cde0b85b563719003625e5956dd42/analysis/1407306723/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/lockpicking%20problem%20solved-28399-1.rar?fid=105463&ttl=1535801761&ri=8192&rs=8192&setec=f37570cd679469eff4ff1059cb618856"
+    }
+  ]
+}

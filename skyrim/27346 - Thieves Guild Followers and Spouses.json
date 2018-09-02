@@ -1,0 +1,48 @@
+{
+  "modId": 27346.0,
+  "modName": "Thieves Guild Followers and Spouses",
+  "summary": "Marry certain NPCs who are involved with the Thieves Guild quests; some may also be taken as followers.",
+  "descriptionHtml": "DESCRIPTION:\r<br />\r<br />If you&#39;ve been aching to take a sneak thief as your lawfully wedded wife or husband, you&#39;re in luck. You may now wed certain Thieves Guild members and associates after their related quests are done. Some can even be taken as followers.\r<br />\r<br />The following NPCs may be both taken as followers and married: Gulum-Ei, Sapphire, Rune, Garthar, Ravyn Imyan, and Vipir the Fleet.\r<br />\r<br />The following NPCs lack the required voice files for following but may still be married: Etienne Rarnis, Cynric Endell, Niruin, Enthir, Niranye, and Mallus Maccius.\r<br />\r<br />To win the favor of fences, simply complete their related quest. For the rest, become Thieves Guild master (except for Etienne Rarnis -- for him, complete &#34;Diplomatic Immunity&#34; without torturing him; for Sapphire, you must also finish up Shadr&#39;s debt favor).\r<br />\r<br />All the Thieves Guild grunts are light armor-wearing, bow-using, one-handers; all except Sapphire will dual-wield. Gulum-Ei is a nightblade who uses light armor and one-handed weapons in addition to frost magic.\r<br />\r<br />REQUIREMENTS:\r<br />\r<br />A working copy of the Elder Scrolls V: Skyrim.\r<br />\r<br />INSTALLATION:\r<br />\r<br />Place the contents of the .7z file in your &#34;Data&#34; folder, which is usually located under Steam/steamapps/common/Skyrim.\r<br />\r<br />The ReadMe document and the .bsl file are not required for the mod to run -- you may keep them or discard them.\r<br />\r<br />UNINSTALLATION:\r<br />\r<br />Delete the included .esp and .bsa file.\r<br />\r<br />The nature of Skyrim’s scripting language, Papyrus, means that, even following this procedure, your Papyrus log will continue to throw errors about missing scripts, potentially leading to save game bloat. There is, lamentably, nothing that I can do about this -- you have been warned.\r<br />\r<br />UPDATING:\r<br />\r<br />Replace all older files with newer versions. If in doubt, replace all mod files with the contents of the latest uploaded archive.\r<br />\r<br />No in-game configuration is necessary.\r<br />\r<br />BUGS:\r<br />\r<br />As of yet, none.\r<br />\r<br />The scripts are run on change location events; if you&#39;ve finished up a good deal of the Thieves Guild quests already, you may have to change areas several times to trigger all the events, so be patient.\r<br />\r<br />COMPATIBILITY:\r<br />\r<br />This should be compatible with practically any mod. Changes have been made to Gulum-Ei, but it has been made to mesh with the changes made by the Unofficial Skyrim Patch, which is the only mod which edits him that I know of.\r<br />\r<br />ADD-ONS:\r<br />\r<br />There&#39;s a module available that will extend the behavior from my Change Follower Outfits mod to the Thieves Guild followers. It requires the [url=http://skyrim.nexusmods.com/mods/23798]original file[/url] to run, which can be found here.\r<br />\r<br />Unfortunately, the NPC Thieves Guild armor is not playable, which causes it to disappear when the grunts are recruited. To rectify this, the armor needs to be playable. One solution is an [url=http://skyrim.nexusmods.com/mods/23801]optional file[/url] available for my Playable Alternate Thieves Guild Armor mod.\r<br />\r<br />Of course, there&#39;s nothing stopping you from simply giving the thieves different armor instead.",
+  "categoryId": "33",
+  "version": "1.0.2a",
+  "author": "PrinceShroob",
+  "createdUnix": "1353747484",
+  "updatedUnix": "1404786725",
+  "containsAdultContent": false,
+  "uploadedBy": "PrinceShroob",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000096154",
+      "name": "Change Follower Outfits -- Thieves Guild",
+      "version": "1.0.2",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "25",
+      "fileName": "Change Follower Outfits -- Thieves Guild-27346-1-0-2.7z",
+      "uploadedUnix": "1391971010",
+      "modVersion": "1.0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/40e19c3c4efee4bb54ae5934d1702f3ca273823f23395ebdf11df1ac6425f40a/analysis/1407926172/",
+      "changelogHtml": " For Change Follower Outfits add-on, synched to Change Follower Outfits version 1.5 <br/> \n Made minor adjustments to fence dialogue so that they can still use their normal lines if you asked one to marry you but changed your choice later <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Change%20Follower%20Outfits%20--%20Thieves%20Guild-27346-1-0-2.7z?fid=1000096154&ttl=1535799995&ri=8192&rs=8192&setec=f8ec5089e2779eaf0ae82c74cc46cfe8"
+    },
+    {
+      "fileId": "1000116452",
+      "name": "Thieves Guild Followers and Spouses",
+      "version": "1.0.2a",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "34",
+      "fileName": "Thieves Guild Followers and Spouses-27346-1-0-3.7z",
+      "uploadedUnix": "1404786725",
+      "modVersion": "1.0.2a",
+      "virusScanUrl": "https://www.virustotal.com/file/d2a1e4307415fd7327dec231031b6e5dae102f99d219eb1b2ada2386f1ae7312/analysis/1408167522/",
+      "changelogHtml": " Synched file to Unofficial Skyrim Patch version 2.0.5 <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Thieves%20Guild%20Followers%20and%20Spouses-27346-1-0-3.7z?fid=1000116452&ttl=1535799996&ri=8192&rs=8192&setec=ee18598a3ccdbc1007294d369afde6e3"
+    }
+  ]
+}

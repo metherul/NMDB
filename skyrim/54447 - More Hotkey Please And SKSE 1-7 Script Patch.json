@@ -1,0 +1,32 @@
+{
+  "modId": 54447.0,
+  "modName": "More Hotkey Please And SKSE 1-7 Script Patch",
+  "summary": "More Hot Keys Please has a script that checks the SKSE version in a way that prevents it from working correctly with the latest SKSE 1.7.0 Alpha version.  This mod has just the one script, modified to work with all versions of SKSE 1.6+.  It removes the check for the beta version.",
+  "descriptionHtml": "MORE HOT KEYS PLEASE + SKSE 1.7.0 PATCH\r<br />\r<br />This mod has the one MHP script that prevented MHP from working correctly with SKSE 1.7.0.  I do not know Papyrus.  I found the solution on the MHP page, changed the script, and used the Construction Kit to compile the modified script.\r<br />\r<br />For all I know, the SKSE check only stopped me from setting a hotkey that allows me to setup a basic hotkey.  I only use MHP in for various basic hotkeys that either equip or auto-cast a spell.  So, my usage is very basic.\r<br />\r<br />Let me know if you have any other problems.\r<br />\r<br />INSTALLATION:\r<br />\r<br />Install MHP and SKSE first&#33;  This zip file has a single script file (and its source file) that will over-write the following files from MHP in your Skyrim/data folder:\r<br />\r<br />Scripts/MHP_Write.pex\r<br />Scripts/Source/MHP_Write.psc\r<br />\r<br />There is no esp to activate&#33;\r<br />\r<br />UNINSTALL:\r<br />\r<br />To untinstall this mod and return to the script provided by MHP, you will need to uninstall this mod and reinstall MHP.\r<br />\r<br />DO IT YOURSELF WITH THE CK\r<br />\r<br />If you want to just make the change yourself and recompile the script, you will first need to install the SkyUI SDK 4.1 files from here: [url=https://github.com/schlangster/skyui/wiki]SkyUI Wiki[/url]\r<br />\r<br />And, of course you need to have SKSE installed correctly.\r<br />\r<br />CREDITS\r<br />\r<br />UlithiumDragon - for supplying the script solution&#33;\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/23416/?]More Hotkeys Please[/url]\r<br />[url=http://skse.silverlock.org/]SKSE[/url]\r<br />",
+  "categoryId": "42",
+  "version": "1",
+  "author": "GamerRick",
+  "createdUnix": "1401354373",
+  "updatedUnix": "1401354368",
+  "containsAdultContent": false,
+  "uploadedBy": "GamerRick",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000110936",
+      "name": "MHP and SKSE 1-7 Patch",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "21",
+      "fileName": "MHP and SKSE 1-7 Patch-54447-1.zip",
+      "uploadedUnix": "1401354368",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/8996653dd2586b11b98e4883245332d25b833448c53288702ba054813cad85f2/analysis/1408101260/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MHP%20and%20SKSE%201-7%20Patch-54447-1.zip?fid=1000110936&ttl=1535838637&ri=8192&rs=8192&setec=f3dbb131b22a9d07474bfca69e540212"
+    }
+  ]
+}

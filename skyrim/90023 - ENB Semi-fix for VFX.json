@@ -1,0 +1,48 @@
+{
+  "modId": 90023.0,
+  "modName": "ENB Semi-fix for VFX",
+  "summary": "Partial Fix for khajiit, vampire, etc. Night Vision and other VFX (like from frostfall coldness) that are disabled by ENB. No esps needed.",
+  "descriptionHtml": "=================  Description  =============================\n<br />\n<br />Have you ever played your edgy vampire and thought \"damn, I wish my night vision was actually useful\"? Are you tired of pulling out a lantern/torch when you need to see in dark instead of using superior night vision you have? Well, this may work for you, if you are fine compromising between vanilla colors and enb colors. Depending on enb it may change a lot or not at all.\n<br />\n<br />[b]Sadly more testing proved that it does reintroduce a lot of Bethesdas crappy color correction in some areas, so expect it to be screwed up. As of to date there doesn't seem to be any way to resolve night vision but except toggling off enb/turning on original postprocessing when activating it. So much for the fix.[/b]\n<br />\n<br />=================  Installation  =============================\n<br />\n<br />Only MANUAL installation possible, DON'T use NMM/MO/whatever else. You have 2 options: a) do it yoself, b) copy my file. Pros and cons described with each option\n<br />\n<br />A) Do it yoself. This will guarantee you keep your ENB almost in its original state. And won't break anything.... too much.\n<br />\n<br />   ﻿﻿1. Go to your Skyrim folder (yes, the one where you dropped off d3d9.dll, enbhost.exe, and all this other ENB goodness.\n<br />   ﻿2. Locate file enbeffect.fx  (NOT enbeffect.fx.ini!!!!)\n<br />   ﻿   ﻿\n<br />   ﻿   ﻿[img]https://staticdelivery.nexusmods.com/mods/110/images/90023/90023-1520526052-380960177.jpeg[/img]﻿\n<br />\n<br />   ﻿3. Open it with Notepad. Please don't use anything fancy schmancy so you don't introduce any weird bs that Word likes to add or screw up encoding.\n<br />   ﻿4. Locate line\n<br />   ﻿   [quote]   ﻿   ﻿//﻿#define APPLYGAMECOLORCORRECTION[/quote]\n<br />   5. Remove // so it is instead #define APPLYGAMECOLORCORRECTION\n<br />\n<br />      ﻿﻿[img]https://staticdelivery.nexusmods.com/mods/110/images/90023/90023-1520525797-639243826.jpeg[/img]\n<br />\n<br />   ﻿﻿6. Your job here is done, hit Ctrl+S (or just click File -&gt; Save) and close Notepad.\n<br />   ﻿7. Night Vision now works, but your color correction will be somewhat middle-ground between intended ENB and vanilla.\n<br />\n<br />B) Copy my file. Using provided file shouldn't cause any issues in theory, but if your preset is using altered enbeffect.fx (NOT enbeffect.fx.ini!!!!) it may break stuff. Or if Boris changed it in the newest version and you slap in my possibly outdated one. I will name download file accordingly to give you an idea what ENB it is and what version.\n<br />\n<br />   ﻿﻿1. Go to your Skyrim folder (yes, the one where you dropped off d3d9.dll, enbhost.exe, and all this other ENB goodness.\n<br />   ﻿2. Drop my file from the archive in there, if it will most certainly ask if you want to replace - answer yes (we want the fix, don't we?).\n<br />   ﻿3. Night Vision now works, but your color correction will be somewhat middle-ground between intended ENB and vanilla.\n<br />\n<br />=================  Q&amp;A  =============================\n<br />\n<br />Q: Will it break my ENB preset?\n<br />A: Sort of. It will apply color correction from the vanilla game, then ENB on top of it. This means things will get screwed up. It will be middle-ground of ENB intended and vanilla, sorry. The result may vary on per ENB preset basis.",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "Mercer",
+  "createdUnix": "1520531994",
+  "updatedUnix": "1520531994",
+  "containsAdultContent": false,
+  "uploadedBy": "nomaddc",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000267959",
+      "name": "ENB NightVision and more fix",
+      "version": "1.0",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "ENB NightVision and more fix-90023-1-0.7z",
+      "uploadedUnix": "1520531793",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/024b3b0f2c3fd9c8d15c0f782ec7eba395aa6b3901229a8a3c7067f957be6453/analysis/1520531943/",
+      "changelogHtml": " Uploaded <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENB%20NightVision%20and%20more%20fix-90023-1-0.7z?fid=1000267959&ttl=1535880005&ri=8192&rs=8192&setec=ea2c4bd450ccbc45909851d60689f44b"
+    },
+    {
+      "fileId": "1000267960",
+      "name": "ENB NightVision and more fix - Real Vision 315b",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "ENB NightVision and more fix-90023-1-0.7z",
+      "uploadedUnix": "1520531908",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/024b3b0f2c3fd9c8d15c0f782ec7eba395aa6b3901229a8a3c7067f957be6453/analysis/1520531943/",
+      "changelogHtml": " Uploaded <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENB%20NightVision%20and%20more%20fix-90023-1-0.7z?fid=1000267960&ttl=1535880005&ri=8192&rs=8192&setec=56e417782e3431d0bcf638948ddefdd6"
+    }
+  ]
+}

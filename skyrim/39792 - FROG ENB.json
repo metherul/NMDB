@@ -1,0 +1,48 @@
+{
+  "modId": 39792.0,
+  "modName": "FROG ENB",
+  "summary": "My attempt to add photorealism into original game.",
+  "descriptionHtml": " Lighting and weather mods are not supported!\r\n\r\n Version 1.1\r\n\r\nSubsurface scattering from ENBSeries 0.221, added color filters, switched some effects to higher quality and other tweaks.\r\n\r\n Features:\r\n\r\nBetter bloom.\r\nAmbient occlusion.\r\nDetailed shadows.\r\nSun rays.\r\nSky lighting.\r\nImageBasedLighting.\r\nSoft particles.\r\nParticle lights.\r\nRain drops.\r\nDarker nights and dungeons.\r\nNatural colors.\r\nDepth of field isn\\'t presented in the preset, because i amn\\'t interested in this effect. Reflections are not activated due to performance, besides i dont know how to make them looks decent indoors.\r\n\r\n Known Issues:\r\n\r\nUgly horizont.\r\nNight eye isn\\'t working.\r\nSometimes you can see strange light aura around your character. It is caused by ambient occlusion.\r\n\r\n Performance:\r\n\r\nWell, actually i can\\'t predict how much FPS you will lose, but i think it is going to be 10 and more. You can minimaze performance drop by setting UseDefferedRendering to false in enblocal.ini, but this step will disable most ENB effects.\r\n\r\n Installation:\r\n\r\nFirst you should go to your SkyrimPrefs.ini (\\\\My Documents\\\\My Games\\\\Skyrim) and set those lines to 1:\r\nbFloatPointRenderTarget=1\r\nbTreesReceiveShadows=1\r\nbDrawLandShadows=1\r\nbShadowsOnGrass=1\r\nNext go to Vorontsov\\'s site (http://enbdev.com/index_en.htm) and download ENB Graphic modification for Skyrim. I am using version 0.199.\r\nThen unpack it, choose wrapper or injector version and replace files from the folder with my files.\r\nFinally, grab and drop ENB files in your Skyrim folder (where TESV.exe is).\r\nIn this preset i activated ENB edge antialiasing and anisotropic filtering, so disable them in game or/and in videocard driver. ENB VSync also enabled in my preset.\r\n\r\n Thanks to:\r\n\r\nBoris Vorontsov for creating ENB (http://enbdev.com/index_en.htm).\r\n--JawZ-- for guide to ENB and enbeffect.fx with DNI separation (http://skyrim.nexusmods.com/users/196978).\r\n\r\n\r\n\r\n",
+  "categoryId": "97",
+  "version": "1.1",
+  "author": "Kayfrost",
+  "createdUnix": "1375826681",
+  "updatedUnix": "1380597549",
+  "containsAdultContent": false,
+  "uploadedBy": "Kayfrost",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000044777",
+      "name": "FROG ENB",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "9",
+      "fileName": "FROG ENB-39792-1-0.7z",
+      "uploadedUnix": "1375825521",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/052f42f52cf8d920dd0ba248415db35fa9e787766ecb7a7dbf920f5c5b0865da/analysis/1407671963/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FROG%20ENB-39792-1-0.7z?fid=1000044777&ttl=1535820247&ri=8192&rs=8192&setec=f8396424c396db549268e36b40ec49fa"
+    },
+    {
+      "fileId": "1000060049",
+      "name": "FROG ENB ",
+      "version": "1.1",
+      "categoryId": "2",
+      "categoryName": "UPDATE",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "FROG ENB -39792-1-1.7z",
+      "uploadedUnix": "1380597549",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/7317872f9b8885b843591405f940d6ff835b1198b330f855ada8c29d61d6ab3d/analysis/1407741062/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FROG%20ENB%20-39792-1-1.7z?fid=1000060049&ttl=1535820247&ri=8192&rs=8192&setec=b97c1f8d9d7a7a8c79ea52a2b30a6e18"
+    }
+  ]
+}

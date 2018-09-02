@@ -1,0 +1,48 @@
+{
+  "modId": 57600.0,
+  "modName": "Deadly Hit",
+  "summary": "A perk that makes sneak attack always instakill",
+  "descriptionHtml": "[i][color=#ff0000][u][size=4]Future Updates:[/size][/u][/color][/i]\r<br />[list][*][u][b][i][color=#ff0000][size=2]Currently Working on a SKYUI slider so users may tweak the crit damage as they desire. (I&#39;m working on it right now, it&#39;s kind of hard to script the menu but I think i can do it somehow :3)[/size][/color][/i][/b][/u][/*]\r<br />[*][u][b][i][color=#ff0000][size=2]You can see a picture of the prototype menu in the pictures section on this page.[/size][/color][/i][/b][/u][/*]\r<br />[*][u][b][i][color=#ff0000][size=2]For the sake of the sliders I might have to discard the idea of a perk and go straight for 2 sliders that modify crits.[/size][/color][/i][/b][/u][/*]\r<br />[/list][u]\r<br />[color=#ffd966]Introduction:[/color][/u]\r<br />\r<br />So one day (today) I woke up with the thought of making a small and easy mod that increases your critical damage multiplier (by 50) and allows for instakills with every weapon when in sneak mod. Hitting an enemy unaware of your presence will kill him instantly due to the crazy high crit multiplier I applied to make this possible :3. I was tired of having enemies survive backstabs all the time because of the vanilla x15 crit multipllier, I&#39;m sure this happened to you too, you know, failing to kill an enemy just after having planned the perfect murder plan in the history of mankind.\r<br />\r<br />[u]This mod affects ONLY sneak crits on unaware enemies, I haven&#39;t touched the global crit multiplier at all.[/u]\r<br />\r<br />\r<br />\r<br />[u][color=#ffd966]Requirements:[/color][/u]\r<br />\r<br />A copy of the game &#34;The Elder Scrolls V: Skyrim&#34;\r<br />\r<br />\r<br />[color=#ffd966][u]Details:[/u]\r<br />[/color]\r<br />The perk is located in the sneak skill tree (duh&#33;) and it requires you to have at least 80 sneak attribute (Although I am considering upping the requirements some people may consider this too op).\r<br />This mod is designed for high level characters with a high sneak attribute to ensure a one hit kill, since at that level of skill you&#39;ve mastered the art of assassination and became a master assassin.\r<br />This is the perk ID if you ever need it for some reason: XX000D62 (XX varies depending on your load order)\r<br />\r<br />\r<br />[u][color=#ffd966]Compatibility:[/color][/u]\r<br />\r<br />Should be compatible with everything.\r<br />\r<br />\r<br />[u][color=#ffd966]Installation:[/color][/u]\r<br />\r<br />Unpack DeadlyHit.esp and move it in your Data folder then activate it from either the vanilla launcher or NMM.\r<br />\r<br />\r<br />[u][color=#ffd966]Uninstallation:[/color][/u]\r<br />\r<br />Remove DeadlyHit.esp from your Data folder.\r<br />\r<br />[b]Many thanks to whoever downloads this mod (my first mod) and remember feedback is much appreciated :) \r<br />Yay&#33; 100 Unique downloads goal is reached, I thank every single one of you that downloaded this mod, thank you :3\r<br />[/b]",
+  "categoryId": "76",
+  "version": "1.00",
+  "author": "sogabaloga",
+  "createdUnix": "1409225424",
+  "updatedUnix": "1409313733",
+  "containsAdultContent": false,
+  "uploadedBy": "sogabaloga",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000124286",
+      "name": "Deadly Hit",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Deadly Hit-57600-1-00.rar",
+      "uploadedUnix": "1409236818",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/45dadf6ca20ea3ad10b1a0b234d4a26eaf47c812709061bdd00ec666ca3726f0/analysis/1409240761/",
+      "changelogHtml": " Mod release:\r<br />\r<br />Added multiplier to crit damage (x50) when attacking an unaware enemy while hidden. <br/> \n Added a nerfed bow version that reduces the crit damage from x75 to x7.5 <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Deadly%20Hit-57600-1-00.rar?fid=1000124286&ttl=1535843720&ri=8192&rs=8192&setec=6ba794f72134abfff910b38a264af859"
+    },
+    {
+      "fileId": "1000124409",
+      "name": "Deadly Hit Nerfed bow edition",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "DeadlyHit Nerfed bow edition-57600-1-00.rar",
+      "uploadedUnix": "1409313733",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/b813770645234d85a3387834bd7f5fc9db7770824df8b3f70f99023869da056e/analysis/1409313842/",
+      "changelogHtml": " Mod release:\r<br />\r<br />Added multiplier to crit damage (x50) when attacking an unaware enemy while hidden. <br/> \n Added a nerfed bow version that reduces the crit damage from x75 to x7.5 <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DeadlyHit%20Nerfed%20bow%20edition-57600-1-00.rar?fid=1000124409&ttl=1535843721&ri=8192&rs=8192&setec=0e2dbf4ef6cb1d80e7f384c8902daab5"
+    }
+  ]
+}

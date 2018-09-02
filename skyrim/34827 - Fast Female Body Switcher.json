@@ -1,0 +1,48 @@
+{
+  "modId": 34827.0,
+  "modName": "Fast Female Body Switcher",
+  "summary": "Allows you to switch fastly and easily between CBBE (base,slim)/ UNP (base,skinny,blessed), nude females and realistic nude female. You althought can easily add your own custom body/head/hands combo. All You need to make this work is included. (textures no seamless)",
+  "descriptionHtml": "Fast Female Body Switcher :\r\n\r\n\r\nThis program allows you to switch body (female) very fastly. I don\\'t think it will interests lot of people,\r\nbut it permits you to download every female Amrors mod you want without care of the body you have.\r\n(if you\\'re not a hurry player, because you still have to quit the game to switch)\r\n\r\nWARNINGS : all the bodies are nudes (you can change this by replacing nude textures by underwear textures, not included)\r\nREQUIREMENTS : nothing, all is included\r\n\r\n\r\n\r\n0) Installation :\r\n\r\n\t- install Python 2.6.5 (included) where you want on your computer\r\n\t- Copy the \\\"BODIES_src\\\" folder and the \\\"changeBody.py\\\" file in the same folder than your \\\"The Elder Scrolls V Skyrim\\\" folder, AND NOT IN THE DATA FOLDER!!!\r\n\t  (you must have in the same Folder :\r\n\t\t- \\\"BODIES_src\\\"\r\n\t\t- \\\"The Elder Scrolls V Skyrim\\\"  (wich contains the \\\"Data\\\" folder)\r\n\t\t- \\\"ChangeBody.py\\\"\r\n\t\r\n\t- if your game is not called \\\"The Elder Scrolls V skyrim\\\", 2 solutions :\r\n\t\t- change your game\\'s name ^^\r\n\t\t- or modify the program, very easy :\r\n\t\t\t- open it (right click on \\\"changeBody.py\\\" --> \\\"Edit with IDLE\\\")\r\n\t\t\t- Line 23, put your game\\'s name instead of \\\"The Elder Scrolls V Skyrim\\\"\r\n\r\n\r\n\r\n1) Usage :\r\n\t- Just launch \\\"changeBody.py\\\"\r\n\t- select the body you want to install by writing is reference, and pressing \\\"Enter\\\"\r\n\r\n\t- If you want to make your custom body/head pack, very easy :\r\n\t\t- create a new folder in \\\"BODIES_src\\\" folder, whith the name of your pack\r\n\t\t- copy into it the \\\"Meshes\\\" and \\\"textures\\\" you want to install (AND NOT DATA!!!)\r\n\t\t- open the \\\".txt\\\" file in \\\"BODIES_src\\\" (called \\\"0srcFolderPathsList.txt\\\")\r\n\t\t- add a line with the exact name of your pack BEFORE the \\\"End\\\" line (characters after \\\"End\\\" line won\\'t be compiled, so you can write commentaries)\r\n\t\t- MAKE SURE THERE ARE NO SPACES AT ALL ON THE LINE YOU ADDED !!!\r\n\t\t- That\\'s it, you can change lines order to organise your packs \r\n\r\n\r\n\r\n2) !!!WARNINGS!!! :\r\n\r\n\t- the program will delete your \\\"Data\\\\\\\\Textures\\\\\\\\actors\\\\\\\\character\\\\\\\\female\\\" folder.\r\n\t  so, if you have other mods than a female body and female head, you will loose it\r\n\t  (It will not delete your meshes folder)\r\n\r\n\t- I strongly recomand you to make a back up of the following folders :\r\n\t\t- \\\"Data\\\\\\\\Textures\\\\\\\\actors\\\\\\\\character\\\\\\\\female\\\"\r\n\t\t- \\\"Data\\\\\\\\Meshes\\\\\\\\actors\\\\\\\\character\\\\\\\\character assets\\\"\r\n\r\n\t- I only included in base packs bodies and head. Idid not have included :\r\n\t\t- Astrid Female Head\r\n\t\t- Vampire Female Head\r\n\t\t- 1st person female hands\r\n\t  You can add them easily, but for an unknown reason, It made my PC crash\r\n\t  (My Skyrim Game takes 18.5Gb memory, so it can be linked with other mods I installed)\r\n\r\n\r\n\r\n3) Known bugs :\r\n\r\n\t- The program itself is very very easy and short, so I tested it well and I\\'me sure It can\\'t bugs.\r\n\t  However, I often have \\\"crashes\\\" while loading my last save (don\\'t know why, may be linked with other mods)\r\n\t\r\n\t- if You can\\'t load your save :\r\n\t\t- try loading it a second time (the exact same save), most of the times it worked for me\r\n\t\t- if that still crashes, load your oldest save, and then reload your last crashing save . IT NEVER CRASHED FOR ME THAT WAY,\r\n                  so I did not lost any save.\r\n\r\n\r\n4) Modifications :\r\n\r\n\t- That\\'s the first time I share a program, and I usually no comment it, but this time I did and The code is very very short,\r\n\t  So I thonk It\\'s perfectly understandable.\r\n\r\n\t- You can easily convert It for male bodies (you just have to change deleted textures folder\\'s name, line 18, and it should work)\r\n\r\n\t- be free to do whatever you want with that, all the people who made original mods agree to share at the conditions to \\\"credit\\\" them\r\n\t  and not upload their modes in other sites than the Nexus, unless asking them.\r\n\r\n\t- If Someone could do a program like that working in-game, this would be really great, but I think It coul be Hard, because\r\n\t  skyrim loads bodies textures just one time when launching the game\r\n\r\n\r\n5) thanks to :\r\n\r\nDIMONIZED UNP female body (http://skyrim.nexusmods.com/mods/6709)\r\n        - Dimon99\r\nCalientes Female Body Mod Big Bottom Edition - CBBE (http://skyrim.nexusmods.com/mods/2666)\r\n\t- Caliente, raiar, Exnem, AluminumFoil, and tktk1\r\nRealistic nude female (http://skyrim.nexusmods.com/mods/7841)\r\n\t- KornFlax\r\nNude females body (http://skyrim.nexusmods.com/mods/70)\r\n\t- Thepal\r\nBetter females by Bella (http://skyrim.nexusmods.com/mods/2812)\r\n\t- BellaGail, Danariel and Xenius\r\nAlt Navetsea Seamless (http://skyrim.nexusmods.com/mods/30181)\r\n\t- Alt3rn1ty and sister, Navetsea, Nuska, yllib, ShadowGearX, and Lorelai\r\nElewin Tatoos (http://skyrim.nexusmods.com/mods/29912)\r\n\t- Elewin\r\n\r\nAll those people did really Amazing job, so great thanks to them!!!\r\n\r\n- forgetting Bethesda for the original game, even if It really sucks without mods",
+  "categoryId": "29",
+  "version": "1.0",
+  "author": " MCyrille _dont look to my nexus pseudo it s kind of bad joke between friends Haha",
+  "createdUnix": "1366027542",
+  "updatedUnix": "1366027285",
+  "containsAdultContent": true,
+  "uploadedBy": "MCphylyss561",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000024573",
+      "name": "Fast Female Body Switcher - normal textures",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "196909",
+      "fileName": "Fast Female Body Switcher - normal textures-34827-1-0.rar",
+      "uploadedUnix": "1366026523",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/56a52db74826d5c49820fd2587a232627535321b6841a819f3b56c9af5fed957/analysis/1407523521/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fast%20Female%20Body%20Switcher%20-%20normal%20textures-34827-1-0.rar?fid=1000024573&ttl=1535812993&ri=8192&rs=8192&setec=9710a92d596a52e9be2dd9278f0c6968"
+    },
+    {
+      "fileId": "1000024579",
+      "name": "Fast Female Body Switcher - normal tex - pubicHair and Tatoo tex",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "326367",
+      "fileName": "Fast Female Body Switcher - normal tex - pubicHair and Tatoo tex-34827-1-0.rar",
+      "uploadedUnix": "1366027285",
+      "modVersion": "1.0",
+      "virusScanUrl": null,
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Fast%20Female%20Body%20Switcher%20-%20normal%20tex%20-%20pubicHair%20and%20Tatoo%20tex-34827-1-0.rar?fid=1000024579&ttl=1535812993&ri=8192&rs=8192&setec=df8f22dc01e1e9290b8a923d7f3ec98d"
+    }
+  ]
+}

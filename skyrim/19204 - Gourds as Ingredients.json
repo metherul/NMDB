@@ -1,0 +1,48 @@
+{
+  "modId": 19204.0,
+  "modName": "Gourds as Ingredients",
+  "summary": "This is a very simple mod that makes gourds alchemical ingredients (as Bethesda appears to have initially intended), replacing instances of the food item gourd.  The ingredient version of gourd uses the same mesh & texture as the food item gourd.  \r\n",
+  "descriptionHtml": "DESCRIPTION\r\n===========\r\n\r\nThis is a very simple mod that makes gourds alchemical ingredients (as Bethesda appears to have initially intended), replacing instances of the food item gourd.  The ingredient version of gourd uses the same mesh & texture as the food item gourd.  \r\n\r\nGourds have a weight of 0.25 (shows up as 0.3 in-game).  The value of gourds is set at 1.  In terms of the leveling lists, which determines what items spawn in containers, sellers of alchemy reagents, etc gourds are set to common.  \r\n\r\nFor a spoiler-alert list of the four alchemical properties of gourds scroll to the bottom of this file.\r\n\r\nI also fixed an in-game recipe to reflect this mod.  I have also fixed a mixup between Fire and Frost Salts on two recipes (see bottom). \r\n\r\n\r\nINSTALLATION\r\n============\r\n\r\n1. Put the CP_GourdIngredient.esp file into your Skyrim/Data folder.\r\n2. Click \\\"Data Files\\\" from the Skyrim launcher and check the ESP on the list.\r\n3. Play the game.\r\n\r\n\r\nUPDATE\r\n======\r\n\r\n1. Simply replace the old CP_GourdIngredient.esp in the Skyrim/Data folder with the new one.\r\n\r\n\r\nUNINSTALLATION\r\n==============\r\n\r\nRemove the CP_GourdIngredient.esp file from your Skyrim/Data folder or uncheck the ESP on the data files list from the launcher.\r\n\r\n\r\nKNOWN ISSUES\r\n============\r\n\r\nNone that I know of.  Please let me know if you have any issues.\r\n\r\n\r\nPOSSIBLE FUTURE CHANGES\r\n=======================\r\n\r\nNone. \r\n\r\n\r\nCHANGE LOG\r\n==========\r\n\r\n4/14/2013 1.1\r\nReplaced instances of the food item gourd with the alchemical item gourd including via harvesting.  Renamed alchemical ingredient from prepared gourd to gourd.\r\n\r\n6/22/2012 1.0 \r\nInitial release.  Added prepared gourds as an alchemical ingredient available via vendors and loot.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n**Spoiler Alert**  Do NOT scroll any further unless you wish to know the alchemical properties of \\\"prepared gourds\\\".\r\n\r\n\r\n\r\n\r\n\r\nPrepared Gourd Alchemical Properties:\r\n\r\n1. Resist Fire\r\n2. Weakness to Shock\r\n3. Resist Frost*\r\n4. Ravage Stamina\r\n\r\n*This property was chosen based on the presence of a potion recipe in-game which claims that a Gourd + Fire Salts makes a Resist Frost Potion.  Not only were Gourds not included as alchemy reagents, but Resist Frost isn\\'t a property of Fire Salts.  Also, a recipe for a Resist Fire potion claims that Bonemeal plus Frost Salts (should be Fire Salts) makes such a potion.  I have changed the Resist Frost recipe to list Gourd and Frost Salts and the Resist Fire recipe to list Bonemeal and Fire Salts.  ",
+  "categoryId": "94",
+  "version": "1.1",
+  "author": "Candlepin",
+  "createdUnix": "1340341776",
+  "updatedUnix": "1365969127",
+  "containsAdultContent": false,
+  "uploadedBy": "candlepin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "69561",
+      "name": "Gourds as Ingredients",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Gourds as Ingredients-19204-1-0.zip",
+      "uploadedUnix": "1340341966",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/144c612953280794a59680cd267668dc723744687686e7e1064d2207294fe864/analysis/1406975285/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Gourds%20as%20Ingredients-19204-1-0.zip?fid=69561&ttl=1535786500&ri=8192&rs=8192&setec=b4bee7f6252d03cbb73c9c4ba251132e"
+    },
+    {
+      "fileId": "1000024443",
+      "name": "Gourds as Ingredients",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "40",
+      "fileName": "Gourds as Ingredients-19204-1-1.zip",
+      "uploadedUnix": "1365969127",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/8da8d5a3fc8386d5f9d54128c5f5f551d7d9ce40ad709b5b3157faa0842bb954/analysis/1407522182/",
+      "changelogHtml": " Replaced instances of the food item gourd with the alchemical item gourd.   <br/> \n Renamed alchemical ingredient from prepared gourd to gourd. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Gourds%20as%20Ingredients-19204-1-1.zip?fid=1000024443&ttl=1535786501&ri=8192&rs=8192&setec=6ff87e47daa48ce70b160c86620507ec"
+    }
+  ]
+}

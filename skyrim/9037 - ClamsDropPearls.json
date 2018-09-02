@@ -1,0 +1,32 @@
+{
+  "modId": 9037.0,
+  "modName": "ClamsDropPearls",
+  "summary": " found it odd that you can buy pearls from Alchemist, but, when you search clam all you get is clam meat. \r\n\r\nThis changes the three types of Clams (thin, normal, large) so that you have a chance to harvest a pearl from them\r\n",
+  "descriptionHtml": "I found it odd that you can buy pearls from Alchemist, but, when you search clam all you get is clam meat. \r\n\r\nThis changes the three types of Clams (thin, normal, large) so that you have a chance to harvest a pearl from them\r\n\r\nThere are three types of clam\\'s in Skyrim thin, normal, large. From what I read on the wiki larger clam have large pearl, while smaller ones have small pearls. So I adjusted the clams like so.\r\n\r\nIn skyrim Clams are a flora object, which acts like a container. So it allows you to add all types of items including item leveledlist.\r\n\r\nSo I created Custom Leveled named ClamsDropPearlsThin,Normal,Large this contain crab meat and another leveledlist that controls the chance of pearls actually spawing on the clam when you open them. ClamDropPearlsLvl10,lvl20,lvl30 are list with a pearl in them.\r\n\r\n\r\nLarge Clam have 10% chance of having a Large Pearl\r\n\r\nWhile Normal Clam have a 20% chance of the having a small pearl\r\n\r\nThin have 30% chance of a small pearl \r\n\r\nMany Clams are placed in the water and various locations. But remember no underwater combat so some areas may be dangerous..\r\n\r\n============\r\n\r\nInstall\r\nUnzip to steam\\\\steamapps\\\\common\\\\skyrim\\\\data directory\r\nand select \\\"ClamsDropPearls\\\" from the data files launcher\r\n\r\nUninstall deselect \\\"ClamDropPearls\\\"\r\n\r\n============\r\n\r\nKnown Issue\r\nNone at this Time\r\n\r\nCompatiblity with Other Mod -\r\n\r\nI have not seen anything else like this yet. But If you have mod that changes the Flora Clam itself this will conflict with that.\r\n\r\n==============\r\n\r\nCorepc\r\n\r\n",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Corepc",
+  "createdUnix": "1329003658",
+  "updatedUnix": "1329003778",
+  "containsAdultContent": false,
+  "uploadedBy": "CorepcMMP",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "29214",
+      "name": "ClamsDropPearls",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "ClamsDropPearls-9037-1-0.7z",
+      "uploadedUnix": "1329003778",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6326b7617aea92712587d758707ec10730019e310972ee1f3f8aad35d962a2a8/analysis/1406671526/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ClamsDropPearls-9037-1-0.7z?fid=29214&ttl=1535768238&ri=8192&rs=8192&setec=37a80174e7c6f3eda635870a158bd2a8"
+    }
+  ]
+}

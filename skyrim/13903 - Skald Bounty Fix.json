@@ -1,0 +1,48 @@
+{
+  "modId": 13903.0,
+  "modName": "Skald Bounty Fix",
+  "summary": "The Bounty quests given by Skald the Elder are normaly not removed from the journal. This Scripts are fixing this issue by adding a line into the questscripts of the four radiant bounty variants. Optional also alters Goldreward depending on playerlevel.",
+  "descriptionHtml": "[b]Skald Bounty Fix[/b]\r\n\r\nThe Bounty quests given by Skald the Elder are normaly not removed from the journal. This Scripts are fixing this issue by adding a line into the questscripts of the four radiant bounty variants.\r\nDoes\\'nt affect journal entries allready in the journal but fixes all bounty quests of skald after installing those scripts.\r\n\r\n==============\r\nOPTIONAL FILE:\r\n==============\r\nSkald Bounty and Reward Fix Scripts\r\n\r\nFixes the not removing journalentry and also alters the reward given by all bountyquests depending on the playerlevel:\r\n\r\nBandits: Up to level 10: 100 Gold\r\n\t From there: Playerlevel x 10 Gold\r\n\r\nForsworn:Up to level 10: 150 Gold\r\n\t From there: Playerlevel x 15 Gold\r\n\r\nGiants : Up to level 10: 250 Gold\r\n\t From there: Playerlevel x 25 Gold\r\n\r\nDragons: Up to level 10: 400 Gold\r\n\t From there: Playerlevel x 40 Gold \r\n\r\n=============\r\nINSTALLATION:\r\n=============\r\nDrop the \\'Scripts\\' folder into your /steam/steamapps/common/skyrim/Data folder. No esp, works for all languages.\r\n\r\n===============\r\nDEINSTALLATION:\r\n===============\r\nTo get the adorable Skald-Bug back (or if Bethesda fixes this one day) simply remove the four Scripts from your /steam/steamapps/common/skyrim/Data/scripts folder:\r\n\r\nQF_BQ01_00095125.pex\r\nQF_BQ02_000BD77F.pex\r\nQF_BQ03_000BD78C.pex\r\nQF_BQ04_000CBA9A.pex\r\nBQScript.pex if optionale scripts were used\r\n\r\nHave Fun!",
+  "categoryId": "84",
+  "version": "1",
+  "author": "wallice",
+  "createdUnix": "1332961505",
+  "updatedUnix": "1333223750",
+  "containsAdultContent": false,
+  "uploadedBy": "wallice",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "47731",
+      "name": "Skald Bounty Fix",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Skald Bounty Fix-13903-1.7z",
+      "uploadedUnix": "1332961566",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/2350a943f20a746e759ef9222424325c1c4f431891cbc44b20a6cf5d87d172f4/analysis/1406784726/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skald%20Bounty%20Fix-13903-1.7z?fid=47731&ttl=1535777098&ri=8192&rs=8192&setec=c578c53d6d70595c4ab9c70bb387924a"
+    },
+    {
+      "fileId": "48683",
+      "name": "Skald Bounty and Reward Fix Scripts",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Skald Bounty and Reward Fix Scripts-13903-1.7z",
+      "uploadedUnix": "1333223750",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/933617f8d1077fa16111551eb050b46b06f8bf80744b5054a976c69b824622b3/analysis/1406789979/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skald%20Bounty%20and%20Reward%20Fix%20Scripts-13903-1.7z?fid=48683&ttl=1535777098&ri=8192&rs=8192&setec=139a7c16c2d1d5eaf416dde1f03d95bd"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 31967.0,
+  "modName": "Disenchantment Font - Wipe old enchantments from items",
+  "summary": "Adds a way to remove enchantments from any player enchanted item and certain items that spawn with enchantments.",
+  "descriptionHtml": "==========Disenchantment Font - Wipe Enchantments from items!==========\r\nauthor: lexman6\r\nversion: 1.1\r\ncredits: Bethesda for the game and the creation kit wiki\r\n\r\nAvaliable on the Steam Workshop and on Skyrim Nexus\r\n\r\nNOTE: Requires SKSE http://skse.silverlock.org\r\n\r\n===About===\r\nThis mod allows you to remove enchantments from weapons and armour, reverting them to their base item state via the use of a \\'Disenchantment Font\\'.\r\n\r\nTo remove an enchantment from an item, search the Disenchantment Font then \\'store\\' any item you want disenchanted into the Disenchantment Font. The font will then spend a few seconds removing the enchantment then it will put the disenchanted item back into your inventory. If a disenchantment couldn\\'t be performed then the item will be placed back into your inventory the same as you put it in.\r\n\r\nDisenchantment Fonts can be located in\r\n-Hjirm, Honeyside, Vilendral Hall, Proudspire Manor once the Enchanting addon is purchased\r\n-Dragonsreach, in the mage\\'s room next to the Alchemy table and Arcane Enchanter.\r\n\r\n\r\n\r\n===Restrictions===\r\nAny item that has been enchanted by the player can be eaisly disenchanted.\r\n\r\nItems spawned with an enchantment can also be disenchanted provided there is a version of the item that lacks the enchantment.\r\n\r\nDoes not disenchant DLC items or items that have a unique shape (such as Dragon Masks, Nightingale equipment, Ebony Mail, etc) or staffs.\r\n\r\nAny smithing improvements will be removed on disenchantment regardless if the enchantment was actually removed.\r\n\r\n\r\n\r\n===Installation===\r\n1. Copy disenchantment_font.bsa and disenchantment_font.esp to Skyrim/Data/\r\n2. Enable disenchantment_font.esp in your load order\r\n\r\n===Uninstallation===\r\n1. Delete disenchantment_font.bsa and disenchantment_font.esp\r\n\r\n\r\n\r\n===Compatbility===\r\nShouldn\\'t cause any problems with any other mod.\r\n\r\n\r\n\r\n===Issues/Bugs===\r\n-Some robes may slightly change appearance upon disenchanting\r\n-Hooded robe versions will likely be replaced with non hooded versions\r\n-Disenchanting certain (scaled) quest reward items can result in a different base value\r\n-Disenchanting DB items usually increases the base stats a little\r\n-The font also cleans any items of stolen status :)\r\n\r\n\r\n===Future versions===\r\n\r\n-Include all possible vanilla items\r\n-Switch from a disenchantment font to a menu option in the Arcane Enchanter (Anyone out there good with flash?)\r\n-Make script compatiable with all possible enchanted items (Unique, items from other mods, DLCs)\r\n\r\n===Changelog===\r\n\r\n=v1.1=\r\n-Drastically improved disenchanting time\r\n-Added a Disenchanting Font to qasmoke\r\n\r\n-The follow now can be also be disenchanted\r\nAll Dragon Masks (excluding DLC)\r\nAll Daedric artifacts (excluding jewelry and DLC)\r\nDragur \\'ghostly\\' weapons",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "lexman6",
+  "createdUnix": "1361262290",
+  "updatedUnix": "1361355894",
+  "containsAdultContent": false,
+  "uploadedBy": "Lexman6",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000011121",
+      "name": "Disenchantment Font - Main",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Disenchantment Font - Main-31967-1-0.zip",
+      "uploadedUnix": "1361261422",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/83ad399e239c9d4be1debfe26edf7d9c033a22dcd57b86351c8da223152a3505/analysis/1407426452/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Disenchantment%20Font%20-%20Main-31967-1-0.zip?fid=1000011121&ttl=1535807909&ri=8192&rs=8192&setec=f6ddbbc28157d58a67c7e7129eb61211"
+    },
+    {
+      "fileId": "1000011454",
+      "name": "Disenchantment Font - v1-1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "Disenchantment Font - v1-1-31967-1-1.zip",
+      "uploadedUnix": "1361355894",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/6f06b77b1ce82e89fb09daf3a3094ea96262d4b2a50ca857d5ad89f576687dca/analysis/1407428591/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Disenchantment%20Font%20-%20v1-1-31967-1-1.zip?fid=1000011454&ttl=1535807909&ri=8192&rs=8192&setec=51863e32f8029c98218a53251fa7c9de"
+    }
+  ]
+}

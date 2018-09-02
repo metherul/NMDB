@@ -1,0 +1,48 @@
+{
+  "modId": 51137.0,
+  "modName": "Compatibility Hotfix for ETaC and ELFX",
+  "summary": "Prevents crashes and incompatibility problems when using both mods.",
+  "descriptionHtml": "Version 1.1 uploaded, please update if you&#39;re still using the original file.\r<br />\r<br />This hotfix is a very basic, no-frills band-aid to make missjennabee&#39;s [url=http://www.nexusmods.com/skyrim/mods/13608/?]Expanded Towns and Cities[/url] and anamorfus&#39; [url=http://www.nexusmods.com/skyrim/mods/27043/?]Enhanced Lights and FX[/url] play nicely together.\r<br />\r<br />It prevents major conflicts and crashes that may be encountered using these two mods together. It does NOT balance lighting issues that may result from getting rid of the conflicts.\r<br />\r<br />Simply activate the .esp and place it beneath ELFX and ETaC in your load order, or merge the changes into your own custom patch file (TES5Edit users).\r<br />\r<br />If you don&#39;t use ELFX Exteriors, then don&#39;t use the ELFX Exteriors version. Obviously. :)\r<br />\r<br />If you&#39;re also using ELFXEnhancer or ELE - Interiors, it is safe to load those files AFTER this hotfix in your load order:\r<br />\r<br />1. ETaC\r<br />2. ELFX\r<br />3. This hotfix\r<br />4. ELFXEnhancer (or ELE - Interiors)",
+  "categoryId": "84",
+  "version": "1.1",
+  "author": "Moogiefluff",
+  "createdUnix": "1392487442",
+  "updatedUnix": "1392596963",
+  "containsAdultContent": false,
+  "uploadedBy": "Moogiefluff",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000097394",
+      "name": "ETaC - ELFX Hotfix",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "37",
+      "fileName": "ETaC - ELFX Hotfix-51137-.zip",
+      "uploadedUnix": "1392590892",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/8be9cea4b01d0d79ccf35670d37f77ec3284272ca550d84126259b280eb18100/analysis/1407936831/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ETaC%20-%20ELFX%20Hotfix-51137-.zip?fid=1000097394&ttl=1535833307&ri=8192&rs=8192&setec=c57e330eb894498cfe2555ae9e177c0a"
+    },
+    {
+      "fileId": "1000097402",
+      "name": "ETaC - ELFX Hotfix",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "46",
+      "fileName": "ETaC - ELFX Hotfix-51137-1-1.zip",
+      "uploadedUnix": "1392596963",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/e3f6b3d8734e6210edbcb1fa246736222a080c5fc8f5213af9172906d1d96ac4/analysis/1407936905/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ETaC%20-%20ELFX%20Hotfix-51137-1-1.zip?fid=1000097402&ttl=1535833308&ri=8192&rs=8192&setec=fe086a4e7a50542b31c1456fcce72b47"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 28136.0,
+  "modName": "No Wussy Drinking Sounds Milkdrinker",
+  "summary": "Removes the \\\"harmed by hostile effect\\\" sound from alcohol. Clinking bottle sound remains.",
+  "descriptionHtml": "--------------------------\r\nDescription\r\n--------------------------\r\n\r\nRemoves the sound effect from drinking alcohol that sounds like you are being hurt by a magic spell. This is done by making a minor change to a FoodDamageStaminaRegen (or something) effect, no longer marking it as a hostile action. I didn\\'t like the idea that the Dovahkiin was a wussy that couldn\\'t take a swig without making a face and crying like a girly-man. If you don\\'t either, try this mod. The clinking bottle sound is still there, so pound that brew, smash the bottle, and handle your liquor, Milkdrinker!\r\n\r\n---------------------\r\nInstall\r\n---------------------\r\n\r\nUse NMM\r\n\r\nOR\r\n\r\nUnpack the contents of the .rar into your ...Skyrim/data folder, and check the mod on your load order.\r\n\r\n-------------------\r\nCompatibility\r\n-------------------\r\n\r\nThis mod should play nice with just about everything. If another mod makes changes to alcohol\\'s stamina regen drain effect, then the mod that loads lower on your load order will be used. I can\\'t think of any mods that make any changes to this effect on alcoholic drinks. This should work just fine with other mods that have drinks that work in the vanilla style (+stamina now, -stamina drain). If they don\\'t have any negative effects, everything should work fine. If they have different negative effects, this mod won\\'t help.",
+  "categoryId": "61",
+  "version": "1.0",
+  "author": "Dudeman325",
+  "createdUnix": "1355215269",
+  "updatedUnix": "1355215305",
+  "containsAdultContent": false,
+  "uploadedBy": "Dudeman325",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "104564",
+      "name": "No Drink Sound",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "No Drink Sound-28136-1-0.rar",
+      "uploadedUnix": "1355215305",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2d698fc3734b1245a7fc681cd3977dd306fa9b07a22d6a905f25f2768aec6675/analysis/1407299585/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20Drink%20Sound-28136-1-0.rar?fid=104564&ttl=1535801353&ri=8192&rs=8192&setec=e05aaca489154fe1bcda5be0a4a2cb7b"
+    }
+  ]
+}

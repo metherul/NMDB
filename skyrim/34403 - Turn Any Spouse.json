@@ -1,0 +1,48 @@
+{
+  "modId": 34403.0,
+  "modName": "Turn Any Spouse",
+  "summary": "Allows player vampires to receive \\\"The Gift\\\" quest from Vingalmo to turn their spouse into a vampire, regardless of the spouse\\'s voice type.",
+  "descriptionHtml": "WHAT THIS MOD DOES\r\n\r\nThis mod adds the non-unique voice types that were previously not included to the conditions on \\\"The Gift\\\" quest so that it can now be accepted to turn any spouse.  It will also change the spouse into the vampire version of their race and adds basic vampire abilities, drain spell and raise dead spell, where previously it only gave them vampire eyes and did not change their race.\r\n\r\n**NOTE*** this mod, at the moment, is only aimed so you can complete \\\"The Gift\\\" quest to turn your spouse into a vampire regardless of their voice type (assuming their voice type isn\\'t any of the unique voice types.)  It will not allow you to turn other random npcs anytime you bite them and such.  The vampire race changes, in theory, will also take effect on the other targets of the Vampire Turn quests Vingalmo offers, assuming they arent already completed.  \r\n\r\nOf course... DAWNGUARD IS REQUIRED!!!\r\n\r\nTO USE\r\n(Assuming you sided with the vampires) Simply do the vampire radiant quests until Vingalmo offers it to you.  Hopefully you shouldn\\'t have any problems, as Vingalmo offered it right away for me. \r\n\r\nThere is an optional file for the .ESP only if you only want the voice types added to the quest conditions without any of the changing over to vampire race and/or getting vampire spells.\r\n\r\nv1.1\r\n-fixes the original mod to truly only use Dawnguard for the dlc masterfiles.  Apparently I accidently loaded both dawnguard and hearthfire masterfile (eventhough no hearthfire files were modfied..) and saved it when I created the original .esp.  \r\n============================================================================================\r\nKNOWN ISSUES\r\n\r\n-the voice types that were originally not included in the quests conditions will not have sound, though can still be seen via subtitles.  Some dialogue may show up quickly and disappear.\r\n\r\n- spouses being changed to vampire race may slightly alter in appearance, as in the screenshots, Jenassa lost her war paint, and her hair was darkened and skin is more pale. \r\n\r\n-perhaps not necessarily an issue, but something I figured I would make note of : spouses that can also double as followers may change up their prefered weapons/spells for the added spells.\r\n\r\n*NOTE* I have only seen how this mod works with Jenassa as I only have one character at this point in time, if for some reason Vingalmo does not offer the quest let me know the name of the spouse so I can see what voice type it is and double check that it is indeed on the proper formslist.\r\n\r\n============================================================================================\r\nCOMPATIBILITY\r\n\r\nWhile I have don\\'t use mods that would conflict with this at the moment, mods that add custom voices to a spouse will not work as their voice type would not be included in the required formslist.  If using mods that have custom race spouses, changing to vampire race will also not work due to not having the custom races added into the script.\r\n\r\nOther than that, there are only very slight changes in the dlc1vampireturnscript (like.. literally the removal of 4 semi colons, and the adding of 3 spells) so unless something happens to modify that script, The conditions of The Gift quest, or the voices listed on the formslist, then there shouldn\\'t be any issues besides ones already mentioned.  \r\n\r\n-NOTE- that I am using the Every Vampire Eyes Glow mod and Female Vampires Have Fangs mod.\r\n============================================================================================\r\nINSTALLATION\r\n\r\n-Drop the .esp into the Data folder, and the .pex into the scripts folder, otherwise, NMM should suffice\r\n\r\n============================================================================================\r\nFUTURE PLANS\r\n\r\nIf I can get it to work properly, I would like to make it so that any spouses that double as followers will transform into Vampire Lord form when you do.  I swear I saw another mod somewhere that did that with Serana (which inspired the idea and I would like to use as a reference for scripting it, if that\\'s okay with the mod author) but I cannot remember what it\\'s called and I can\\'t seem to find it anymore.  ",
+  "categoryId": "28",
+  "version": "v1.1",
+  "author": "aharttsx",
+  "createdUnix": "1365141615",
+  "updatedUnix": "1365227115",
+  "containsAdultContent": false,
+  "uploadedBy": "aharttsx",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000022720",
+      "name": "Turn_Any_Spouse_V1-1",
+      "version": "v1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Turn_Any_Spouse_V1-1-34403-v1-1.rar",
+      "uploadedUnix": "1365226980",
+      "modVersion": "v1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/b676d66ef093d853036769a0af843c1f62ed7126c0d280f373340535aa15567c/analysis/1407508979/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Turn_Any_Spouse_V1-1-34403-v1-1.rar?fid=1000022720&ttl=1535812234&ri=8192&rs=8192&setec=234949fc7d8db77b5e019246876911e9"
+    },
+    {
+      "fileId": "1000022721",
+      "name": "Turn_Any_Spouse_v1-1_ESP_ONLY",
+      "version": "v1.1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Turn_Any_Spouse_v1-1_ESP_ONLY-34403-v1-1.rar",
+      "uploadedUnix": "1365227115",
+      "modVersion": "v1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/9992f1dd210347c1080140459138f6d0c45e379b67c17e415b8f8fdaffb36006/analysis/1407508980/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Turn_Any_Spouse_v1-1_ESP_ONLY-34403-v1-1.rar?fid=1000022721&ttl=1535812235&ri=8192&rs=8192&setec=f415ddf3b965812a60757a2c25bd078c"
+    }
+  ]
+}

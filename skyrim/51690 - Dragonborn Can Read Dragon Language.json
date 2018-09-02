@@ -1,0 +1,48 @@
+{
+  "modId": 51690.0,
+  "modName": "Dragonborn Can Read Dragon Language",
+  "summary": "You will be able to read carvings on word walls.",
+  "descriptionHtml": "Updating the mod:\r<br />Replace old files with new ones.\r<br />\r<br />Description:\r<br />After you find the book titled &#34;Dragon language: Myth no more&#34; (to add the book to your inventory use console command &#34;player.additem EF2C0 1&#34;) you will be able to translate carvings on word walls. When you are near a word wall a quest named &#34;Word wall translation&#34; will appear in your journal. If you walk away from the word wall the journal entry will disappear.\r<br />You can also translate the stone tablet that you find in Bleak Falls Barrow (after you give it to Farengar it will stay on his desk). If you already completed Bleak Falls Barrow quest you will find it on his desk next time you enter Dragonsreach. \r<br />\r<br />Also see [url=http://www.nexusmods.com/skyrim/mods/45065/?]Followers Can Read Dragon Language[/url]\r<br />\r<br />Requirements:\r<br />SKSE.\r<br />\r<br />Compatability:\r<br />Compatable with anything that does not edit WordWallTrigger.\r<br />\r<br />Bugs:\r<br />You won&#39;t be able to translate word walls that you visited (and learned the shouts on them) while playing without the mod.\r<br />\r<br />Installation:\r<br />Use Nexus Mod Manager or copy files to your Skyrim/data folder.\r<br />\r<br />Uninstallation:\r<br />Enter console command &#34;stopquest DBRDL&#34;, save your game and remove the mod from your load order",
+  "categoryId": "78",
+  "version": "1.03",
+  "author": "qqqbbb",
+  "createdUnix": "1393789207",
+  "updatedUnix": "1409980535",
+  "containsAdultContent": false,
+  "uploadedBy": "qqqbbb",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000125505",
+      "name": "Dragonborn Can Read Dragon Language for DLC",
+      "version": "1.03",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "45",
+      "fileName": "Dragonborn Can Read Dragon Language for DLCs-51690-1-03.rar",
+      "uploadedUnix": "1409980461",
+      "modVersion": "1.03",
+      "virusScanUrl": "https://www.virustotal.com/file/a281933d6a39724b08347b8a90c95741499748d66b2b603fa86a41b7559f8db9/analysis/1409980562/",
+      "changelogHtml": " minor script optimization <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dragonborn%20Can%20Read%20Dragon%20Language%20for%20DLCs-51690-1-03.rar?fid=1000125505&ttl=1535834263&ri=8192&rs=8192&setec=8d34681da49e1e75078ba6bb04f6efc3"
+    },
+    {
+      "fileId": "1000125506",
+      "name": "Dragonborn Can Read Dragon Language for vanilla game",
+      "version": "1.03",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "38",
+      "fileName": "Dragonborn Can Read Dragon Language for vanilla game-51690-1-03.rar",
+      "uploadedUnix": "1409980535",
+      "modVersion": "1.03",
+      "virusScanUrl": "https://www.virustotal.com/file/1b0bb59ce63480a82c886bb8b88c2dfb4c97b2d60db0ab4def51273793690190/analysis/1409980621/",
+      "changelogHtml": " minor script optimization <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dragonborn%20Can%20Read%20Dragon%20Language%20for%20vanilla%20game-51690-1-03.rar?fid=1000125506&ttl=1535834263&ri=8192&rs=8192&setec=eb7e16dc897eb2f76544f7246bc570df"
+    }
+  ]
+}

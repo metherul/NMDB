@@ -1,0 +1,48 @@
+{
+  "modId": 24625.0,
+  "modName": "Dawnguard - Auriels Bow fix",
+  "summary": "Fixes the description for Auriel\\'s Bow\\'s enchantment effect and makes it belong to the Restoration school as would be expected.",
+  "descriptionHtml": "UPDATE: As of version 1.1.1 this fix is now included in the Unofficial Dawnguard Patch.\r\n\r\n\r\nThe description of Auriel\\'s Bow\\'s enchantment says it deals 20 point of sun damage and triple to undead, when in fact it only deals 10 points and triple of that to undead.\r\n\r\nThis is because it applies two damage effects. The first with a magnitude of 10 to every target and a second effect with a magnitude of 20 only to undead targets so for undead they add up to 30 points of damage.\r\nThe complete description is included in the second effect and accordingly displays that magnitude in it\\'s text.\r\nThis fix splits the description so the first sentence containing the base magnitude is given by the first effect and the second sentence by the second effect. This looks the same in game but with the correct magnitude.\r\n\r\nAlso these effects aren\\'t associated with any magic school resulting in very few charges for the enchantment. Because all the spells added by Dawnguard that are described as dealing sun damage are Restoration spells it is reasonable for the player to assume that Auriel\\'s Bow\\'s enchantment profits from Restoration skill.\r\nThis is fixed too, making the bow as useful as you would expect it to be.\r\n\r\nForms edited by this plugin:\r\nDLC1EnchSunDamage\r\nDLC1EnchSunDamageUndead\r\nDLCEnchAurielsBow (increased damage version only)",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Krill",
+  "createdUnix": "1348646531",
+  "updatedUnix": "1348656794",
+  "containsAdultContent": false,
+  "uploadedBy": "Dovahkrill",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "90505",
+      "name": "Auriels Bow fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Auriels Bow fix-24625-1-0.7z",
+      "uploadedUnix": "1348646664",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/79ad7b22149f7de0b4dc9d4a83b3be04a681ba93b5e78c9244fe3e580eccb908/analysis/1407187682/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Auriels%20Bow%20fix-24625-1-0.7z?fid=90505&ttl=1535795674&ri=8192&rs=8192&setec=533c4c6ca5882d88a0a597b25ac3c107"
+    },
+    {
+      "fileId": "90514",
+      "name": "Auriels Bow fix - 20 Base Sun Damage",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Auriels Bow fix - 20 Base Sun Damage-24625-1-0.7z",
+      "uploadedUnix": "1348656794",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/87fe81e5220bd158b210da6d777794cb73594e4381f3c8cda974f1cd5abc5291/analysis/1407187802/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Auriels%20Bow%20fix%20-%2020%20Base%20Sun%20Damage-24625-1-0.7z?fid=90514&ttl=1535795675&ri=8192&rs=8192&setec=8b8e51814d9f2d6c3432bae7e537e80e"
+    }
+  ]
+}

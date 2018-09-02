@@ -1,0 +1,48 @@
+{
+  "modId": 26736.0,
+  "modName": "Console Commands and Item Codes",
+  "summary": "This mod contains 4 in-game guidebooks for console commands & item codes, DawnGuard-HearthFires|Dragonborn|perks/shouts/spells",
+  "descriptionHtml": "This mod contains a series of 4 in-game guidebooks: console commands and item codes, DawnGuard and HearthFires item codes, Dragonborn item codes & Item codes for perks, shouts & spells.\r\nThe only requirement to install this mod is Syrim 1.8.15  ...\r\n...\r\n...HOWEVER...it is probably not a good idea to try to call up items for DLCs you don\\'t have installed - the game can get a bit buggy when you start throwing unknowns at it ;)\r\n\r\nAll books are craftable using 1 leather & 2 rolls of paper at the tanning rack.\r\n\r\nPlease note that in the DLC item code books any time a code looks something like xx12345 that you will need to substitue the load order number for that DLC as installed in your game.\r\nIf you\\'re not sure of the load order you can use BOSS, Wrye Bash or Nexus mod manager to see it or you can Pull up your game with the Skyrim launcher, select \\\"Data Files\\\" and count.\r\nHere\\'s my load order:\r\n00 Skyrim.esm\r\n01 Update.esm\r\n02 Dawnguard.esm\r\n03 HearthFires.esm\r\n04 Dragonborn.esm\r\n\r\nSo...If I wanted Dragonborn item xx12345 I would type in 0412345\r\n\r\nif you\\'d rather not go down to the tanning rack to craft the books, just drop into console by hitting the tilde key ~ and type help \\\"item codes\\\"  WITH the quotes\r\n\r\n\r\nFeel free to leave any comments, questions, suggestions or requests you may have.\r\n\r\n\r\n!--->If upgrading from a previous version, please uninstall & delete the earlier version before installing<---!\r\n\r\n\r\nInstallation\r\nUse Nexus MOD manager or extract both files to your skyrim/Data directory\r\n\r\nUninstall\r\nUse Nexus MOD manager or simply delete:\r\n Data/consolecommandsanditemcodes.esp & Data/consolecommandsanditemcodes.bsa\r\n    *for R4 filenames are consolecommandsanditemcodesR4.bsa/esp\r\n\r\nThis mod did not alter any vanilla places or items, should not conflict with anything and can be placed anywhere in the load order.\r\nFiles checked for errors/conflicts using TES5Edit 3.0.26 before uploading\r\n\r\nChangelog\r\nR4 - Added Dragonborn item code volume, tweaked compression; reduced file size to 1/2 of the original -- Skyrim 1.8.15 (update 11) required\r\n\r\nR3.1 - Added Morokei mask, inserted a breif description of how to determine the first 2 digits of Dawnguard/HearthFires item codes, minor formatting changes\r\n\r\nR3 - No DawnGuard or HearthFires required - Skyrim 1.8.15 (update 11) required\r\n\r\nR2 - added 3rd volume - Perks, Shouts & Spells;consolidated inventory art to reduce file size;increased price to 25 each\r\n\r\nR1 (redux) - Added Dawnguard & HearthFires Item Codes volume; added custom inventory art for the books, removed blatant pandering from the end of the volume ;)\r\n\r\nFinal-rev - revised incorrect item code(s)\r\n\r\nFinal - corrected the startup message & removed a mistaken console command\r\n\r\nV2.5 - packed the 1 script & source into the archive; added a few more console commands; minor formatting\r\n\r\nV2.3 - no quest; smaller font size & reformatted the text - all items/codes now fit on one line; less page flipping!; added a few more console commands\r\n\r\nV2.2 - a no-quest version, automatically adding the guidebook to player inventory\r\n\r\nV2.1 - added ammunition, weapons, armor & clothing item codes\r\n\r\nV1.1 - initial release - Console commands, crafting, soulgems, alchemy ingredients & HearthFires building materials",
+  "categoryId": "40",
+  "version": "R4",
+  "author": "scrapperrm",
+  "createdUnix": "1352604688",
+  "updatedUnix": "1360451060",
+  "containsAdultContent": false,
+  "uploadedBy": "scrapperrm",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000002107",
+      "name": "Console Commands and Item Codes V R3_1",
+      "version": "R3.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2699",
+      "fileName": "Console Commands and Item Codes V R3_1-26736-R3-1.7z",
+      "uploadedUnix": "1358107279",
+      "modVersion": "R3.1",
+      "virusScanUrl": "https://www.virustotal.com/file/91c9469b0d4ed754f8e1cb18446773cd2f96ddc69d4d93d30806366e379df2cc/analysis/1407351666/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Console%20Commands%20and%20Item%20Codes%20V%20R3_1-26736-R3-1.7z?fid=1000002107&ttl=1535799018&ri=8192&rs=8192&setec=e37049dbfc6f807e1679b1a0aa52c539"
+    },
+    {
+      "fileId": "1000008528",
+      "name": "ConsoleCommandsandItemCodesR4",
+      "version": "R4",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1319",
+      "fileName": "ConsoleCommandsandItemCodesR4-26736-R4.7z",
+      "uploadedUnix": "1360451060",
+      "modVersion": "R4",
+      "virusScanUrl": "https://www.virustotal.com/file/c4fc3ca9f62377dff2ec55ccab3ce982f6536e8f38e55b1661d12e8afee84d02/analysis/1407408248/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ConsoleCommandsandItemCodesR4-26736-R4.7z?fid=1000008528&ttl=1535799019&ri=8192&rs=8192&setec=db1d938107252e9793deed506d900303"
+    }
+  ]
+}

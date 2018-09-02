@@ -1,0 +1,48 @@
+{
+  "modId": 52456.0,
+  "modName": "Darker Than Black Mask",
+  "summary": "The mask from Hei also known as BK-201",
+  "descriptionHtml": "Darker Than Black Mask\r<br />======================\r<br />\r<br />The Mask from Hei aka BK-201 originating from the anime series Darker Than Black.\r<br />\r<br />This mask comes in two versions where there is a complete and a broken version. \r<br />Both can be crafted under the ebony section requiring two letter straps and two moonstone ingots.\r<br />\r<br />This mask perfectly fits together with Hei&#39;s dagger which can be found here: http://www.nexusmods.com/skyrim/mods/35962\r<br />\r<br />Additional Notes\r<br />================\r<br />\r<br />This mask makes use of a hair tint value therefore the hair will be the color you created your character with. (all variations possible)\r<br />The mask is rather thing so large noses or beards might clip through the mask so in case you&#39;d like to change your characters appearance open up console and write:\r<br />\r<br />showracemenu\r<br />\r<br />Edit where necessary and exit the menu. The mask also only works on the human like races so not all are able to wear this item.\r<br />\r<br />ID Code\r<br />========\r<br />\r<br />To get the ID code for these masks simply open up the console and type:\r<br />\r<br />help mask \r<br />\r<br />Then more than 2 items will appear but you&#39;ll have to search for the &#34;Darker Than Black Mask&#34; and the &#34;Darker Than Black Mask-B&#34; item code, now simply write down the id code and add player.additem before it with then the amount you want so you can spawn it.\r<br />\r<br />Example:\r<br />\r<br />Player.additem 13000D62 1\r<br />\r<br />Credits\r<br />========\r<br />\r<br />Rafaël De Jongh: Mask Model/Textures, Hair Textures, Compile, Render\r<br />Corvalho: Mask Broken Edits, Hair Model\r<br />jet4571: Compile Assistance",
+  "categoryId": "54",
+  "version": "1",
+  "author": "Rafael De Jongh",
+  "createdUnix": "1395892301",
+  "updatedUnix": "1396660170",
+  "containsAdultContent": false,
+  "uploadedBy": "RafaelDeJongh",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000102589",
+      "name": "DTBMaskMainFile",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2615",
+      "fileName": "DTBMaskMainFile-52456-.rar",
+      "uploadedUnix": "1395892295",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/e4aa737068b7d47e53b107d87a5757f71ae5e72cb156773c0129ae74a982c8e6/analysis/1407996686/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DTBMaskMainFile-52456-.rar?fid=1000102589&ttl=1535835495&ri=8192&rs=8192&setec=54732f4df2667b8d8790eb36a76fec7b"
+    },
+    {
+      "fileId": "1000103682",
+      "name": "No Hair Edition",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1168",
+      "fileName": "No Hair Edition-52456-1.rar",
+      "uploadedUnix": "1396660170",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/9e620f571cd1e64c2423d5d13d110d14e30d105801b55ef92df8d587796af246/analysis/1408007470/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/No%20Hair%20Edition-52456-1.rar?fid=1000103682&ttl=1535835496&ri=8192&rs=8192&setec=21fb0f13bd1c55acf794f37b0ee62d4b"
+    }
+  ]
+}

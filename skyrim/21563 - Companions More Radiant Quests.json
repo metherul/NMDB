@@ -1,0 +1,48 @@
+{
+  "modId": 21563.0,
+  "modName": "Companions More Radiant Quests",
+  "summary": "Moves the Companions radiant quests from the end to the beginning. ",
+  "descriptionHtml": "Companions Radiant Quests Anytime v1 Optional (activate only 1 at a time)\r\n\r\nAdded another version of this mod where Radiant quests will be offered at all times once you join the Companions. Unlike my Main File version you can activate this one at any time, even new games. I changed the Radiant quests from checking if the main quest was active to just check if you\\'re in the Companions guild using a SetStage check command. So now as soon as Farkas shows you to your room all Radiant jobs will be offered.\r\n\r\n\r\nCompanions More Radiant Quests v1 Main File (activate only 1 at a time)\r\n\r\nModifies the radiant quest condition check of C00 (Companions main quest) from 0 to 1.\r\nResulting in the radiant quests are now offered once you join, instead of after the main quest completes.\r\n\r\nI have been always annoyed that almost immediately as I join the Companions, they throw me into their issues, and only offer the repeatable radiant quests at the end of the quest line. I\\'ve tried the only other mod I could find that makes you do more quests before you are offered their \\\"gift\\\" and the mod did not work for me or my wifes game.\r\n\r\nSo I\\'ve modified all the radiant quests to be offered right away. Well mostly right away. You can now take all the radiant quests from the Inner Circle NPCs at any time, up until you complete the companions quest line.\r\n\r\nPlease note, do not activate this mod until after you have turned in TAKE UP ARMS and taken the first radiant quest from Aela. Any time after that it will work with out issues. Otherwise Aela will not offer you the first radiant quest, thus not allowing you to continue the quest lines.\r\n\r\nAnother note is you will still get all the normal companion quests that ask you to talk to Skjor, HOWEVER, you do not have to talk to Skjor about those quests, just take jobs from him.\r\n\r\nSome Spoilers below.\r\n\r\nIf you take The Silver Hand, and talk to Skjor \\\"You wanted to see me\\\" he and Alea will go to the underforge and wait for you, forever. So don\\'t select \\\"You wanted to see me\\\" from Skjor until you want to continue further into the main companion quest line.\r\n\r\nBugs: These are kind of bugs, but as you may know, the more radiant quests you do determine when the main companion quests appear, so you will get Proving Honor, The Silver Hand, Blood\\'s Honor, etc as you complete more radiant quests. As before just don\\'t select \\\"You wanted to see me\\\" from Skjor or Kodlak, and just select \\\"I\\'m looking for work\\\" from the list.\r\n\r\nAs long as you always select \\\"I\\'m looking for Work\\\" from the lists you can do the radiant quests over and over from each Companion and never have to turn into a werewolf (my main complaint about the Companions, I mean Skjor I don\\'t care if I can\\'t join the Inner Circle, I just want jobs)\r\n\r\nI\\'ve tested this for a few weeks now (so sorry for sitting on it for so long) and my wife has tested it as well, and there doesn\\'t seem to be any negative effects on the quest line.\r\nThe only note is that when you do decide to continue the main companion quest line to do them in order. Save first and talk to Skjor and select one of the \\\"you wanted to see me\\\" and as long as it says The Silver Hand has started your good to go from there. Aela and Him will go to the underforge bla bla bla.\r\n\r\nWhen you become Harbinger the radiant quests will not appear anymore, as they shouldn\\'t, they are for Whelps.\r\n",
+  "categoryId": "35",
+  "version": "2",
+  "author": "E2B2",
+  "createdUnix": "1343960835",
+  "updatedUnix": "1344910658",
+  "containsAdultContent": false,
+  "uploadedBy": "epbreen",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "78473",
+      "name": "More Radiant Quests",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Main File-21563-1.7z",
+      "uploadedUnix": "1344002288",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/ce3e576601ecd90e4862433e34826b9935070c0ebb19dd0ed4fcdb2580afd7ea/analysis/1407066497/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Main%20File-21563-1.7z?fid=78473&ttl=1535790544&ri=8192&rs=8192&setec=4541dc34014c3c1c52a6b4cffae0826f"
+    },
+    {
+      "fileId": "81429",
+      "name": "Radiant Quests Anytime",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Radiant Quests Anytime-21563-1.7z",
+      "uploadedUnix": "1344910658",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/7d0d6d7fdf881110cd610a0fe5dc173c078742a32db6e465a1b9837a984a5a6f/analysis/1407095223/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Radiant%20Quests%20Anytime-21563-1.7z?fid=81429&ttl=1535790544&ri=8192&rs=8192&setec=3bf40cea35bbf9c6ce2b40dce804ab82"
+    }
+  ]
+}

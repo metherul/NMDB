@@ -1,0 +1,48 @@
+{
+  "modId": 60170.0,
+  "modName": "Serana Learns Soul Cairn Spells",
+  "summary": "Serana will learn Conjure Boneman, Conjure Mistman, and Conjure Wrathman and you can control which other spells she learns too.",
+  "descriptionHtml": "[i]Do you get tired of Serana raising undead?\r<br />\r<br />Do you think she should be rewarded for exploring the Soul Cairn with you?\r<br />\r<br />Do you hate her Chain Lightning and Ice Storm spells?[/i]\r<br />\r<br />This mods gives you control over which spells she can use.\r<br />\r<br />By default, Serana will now learn Conjure Boneman, Conjure Mistman, and Conjure Wrathman along with the player. She will no longer use the area effect Chain Lighting and Ice Storm spells. After learning the Soul Cairn conjuring spells she will stop raising dead. And if cured of her vampirism will stop using Drain spells.\r<br />\r<br />Her spell list is normally updated approximately one game day after you gain a level. You can change settings and update her spells immediately using either the MCM (if you have SkyUI) or the console commands described in the ReadMe.\r<br />\r<br />You can set options allowing her to use the Ice Storm and Chain Lightning spells, prevent her from ever raising the dead, continue raising the dead even after learning the Soul Cairn conjuring spells, or even to not learn those conjuring spells.\r<br />\r<br />\r<br />[size=4][u][b]Resolving conflicts with other mods that modify Serana[/b][/u][/size]\r<br />\r<br />[b]Step 1:[/b] Load this mod early in your load order so that other mods you have can edit Serana&#39;s appearance.\r<br /> \r<br />If another mod overwrites this one she&#39;ll know the basic Raise Dead and Drain spells but everything else should work.\r<br /> \r<br />[b]Step 2 (optional):[/b] Remove the extra spells by editing the other mod.\r<br /> \r<br />The easiest way to remove the spells is with [url=http://www.nexusmods.com/skyrim/mods/25859]TES5Edit[/url]. Just select the two conflicting mods and when everything finishes loading, expand the list on the left side, select the DLC1Serana entry, scroll the right side view until you find the Actor Effects section (which is red to show the conflict).  Drag the (empty) Actor Effects block from the SeranaLearnsSouldCharinSpells.esp column into the column for the conflicting mod as shown in the top of this diagram and TES5Edit should update the spells and spell counts to match the view shown in the bottom half. Then simply exit TES5Edit and allow it to save the changes.\r<br />\r<br />[img]http://static-7.nexusmods.com/15/mods/110/images/60170-1-1424128144.jpg[/img]",
+  "categoryId": "96",
+  "version": "1.1",
+  "author": "CDCooley",
+  "createdUnix": "1416803500",
+  "updatedUnix": "1416815053",
+  "containsAdultContent": false,
+  "uploadedBy": "cdcooley",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000136537",
+      "name": "SeranaLearnsSoulCairnSpells",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "SeranaLearnsSoulCairnSpells-60170-1-0.7z",
+      "uploadedUnix": "1416799003",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/bb69d080b293ede1acfe869dc5ff8326c12467b4f4414783ecae9bb90cfa6dc5/analysis/1416799081/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SeranaLearnsSoulCairnSpells-60170-1-0.7z?fid=1000136537&ttl=1535847788&ri=8192&rs=8192&setec=cdb1b765b69d91d3dd61e737faa650dd"
+    },
+    {
+      "fileId": "1000136571",
+      "name": "SeranaLearnsSoulCairnSpells-MCM",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "SeranaLearnsSoulCairnSpells-MCM-60170-1-1.7z",
+      "uploadedUnix": "1416815053",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d7e43592573c9c06e7c367d7b2d547ceb347b0bdc57d6a1a8f744142ce9c4616/analysis/1416815162/",
+      "changelogHtml": " Added MCM allowing SkyUI users to change settings without using the console. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SeranaLearnsSoulCairnSpells-MCM-60170-1-1.7z?fid=1000136571&ttl=1535847788&ri=8192&rs=8192&setec=4e4e6a5690a7adaf5611c470108edd31"
+    }
+  ]
+}

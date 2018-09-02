@@ -1,0 +1,48 @@
+{
+  "modId": 18324.0,
+  "modName": "Thieves Guild - Thief Encounter Tweak",
+  "summary": "Sick of having thieves trying to mug you out in the world when you aren\\'t wearing your Guild Armor? Then this fix is for you, now been recognised as a guild member is not longer solely dependent onn what armor you\\'re wearing.",
+  "descriptionHtml": "************** Thieves Guild - Thief Encounter Tweak **************\r\n\r\n*Description*\r\n\r\nPicture the scene you\\'re running from Whiterun to Riverwood. A thief runs out stopping you, demanding your money, you tell him to back off but it fails, again the thief demands your ill-gotten gains, you declare you don\\'t have time for this. He attacks wasting your time and effort in a short and futile fight.\r\n\r\nBut wait a minute...\r\n\r\nYou\\'re a member/leader of the the Thieves Guild! Why are these guys trying to mug you? Why do they only recognise you when you\\'re in guild armor? Despite the dialogue claiming the thief \\\"recongises\\\" you from the flagon. \r\n\r\nWell this mod is for you, now those wayward thieves will recognise you not only by the armor you\\'re wearing!\r\n\r\n*What it does*\r\n\r\nThis mod changes the flags that allow you to select the dialogue alerting the thief to your membership by setting an extra condition to check if you completed the \\\"membership\\\" quest that rewards you with the guild armor.\r\n\r\nNow no matter what you are wearing you can still claim to be a Thieves Guild member!\r\n\r\nThe requirement for the Nightingale responses remain the same as not to effect the mysteriousness of the Nightingales (Seems more fitting to me that you are only acknowledged as a Nightingale while armored as one.)\r\n\r\n*Installation*\r\n\r\nEither download and use the NMM version, or download and extract the .esp into your Skyrim/Data folder.\r\n\r\n*Conflicts & Bugs*\r\nAnything that changes this encounters dialogue.\r\nNo expected bugs.\r\n\r\n*Coming Soon*\r\nOriginally created to solve the problem for myself, but seems like no-one else has bothered doing this so enjoy!\r\nI intend to add an extra option once you become guild master allowing you to berrate these unruly members of your guild for even trying to mug you.\r\n\r\nNEW: 1.1Beta Update!\r\n\r\n- Thief Gender Specific Response\r\n\r\nAfter making this change it occured to me that regardless of your would-be mugger\\'s gender, the vanilla response wrote by Beth begins with \\\"Whoa brother....\\\" So in an attempt to improve immersion i\\'ve fixed this small oversight by creating a extra line of dialogue and adding in a gender check for the thief. \r\n\r\n- Assistence/item Offering Fix\r\n\r\nThe other part of this encounter is that rather then mugging you there\\'s a chance the thief will offer you an item or money. Although I\\'ve never had it myself happen, this is also dependent of wearing guild armor. This has also now been changed to either Guild Armor or having completed the Guild membership quest.\r\n\r\n*UPDATE*\r\nSince my Beta update, some of the encounted thieves are not speaking their lines, mainly the first hold-up phrase, and the remembered from the flagon phrase are both subtitiled but there is no spoken dialogue.\r\n\r\nHowever due to the nature of the encounter I have only experienced this twice and it\\'s been far to late to make a save for testing purposes. I\\'m unsure how my small change could cause this but If anyone also encounters this please comment here.\r\n\r\n",
+  "categoryId": "95",
+  "version": "1.1Beta",
+  "author": "Tatsu Ishida",
+  "createdUnix": "1339002125",
+  "updatedUnix": "1339265092",
+  "containsAdultContent": false,
+  "uploadedBy": "TatsuIshida",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "66369",
+      "name": "Thief Encounter Fix",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Thief Encounter Fix-18324-1-0.rar",
+      "uploadedUnix": "1339002498",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2e3733cfa6cfa01ff40a00f2da72c90d4b4e7a75d974d33dc439ec3cf7244029/analysis/1406942942/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Thief%20Encounter%20Fix-18324-1-0.rar?fid=66369&ttl=1535785095&ri=8192&rs=8192&setec=0a56491761bc24e7d8de62b775a37ba7"
+    },
+    {
+      "fileId": "66953",
+      "name": "Thief Encounter Fix 1-1 Beta",
+      "version": "1.1Beta",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Thief Encounter Fix 1-1 Beta-18324-1-1Beta.rar",
+      "uploadedUnix": "1339265092",
+      "modVersion": "1.1Beta",
+      "virusScanUrl": "https://www.virustotal.com/file/4dda03517a01016b6d5e51586b3adaebd6173dd57aaa78bcfc2b20174a8ec911/analysis/1406948702/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Thief%20Encounter%20Fix%201-1%20Beta-18324-1-1Beta.rar?fid=66953&ttl=1535785096&ri=8192&rs=8192&setec=dae537585b81f2c1896a8f8d4b4391d1"
+    }
+  ]
+}

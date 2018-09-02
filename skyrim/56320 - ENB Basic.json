@@ -1,0 +1,48 @@
+{
+  "modId": 56320.0,
+  "modName": "ENB Basic",
+  "summary": "ENB for those of you who can&#39;t run a powerful ENB, I give you the the most basic form of what ENB can be while still giving you benefits of ENBoost and other fixes.",
+  "descriptionHtml": "Notice - There are two files in the download section, You should choose Non Graphical if you absolutely can not run enb at all and only want the benefits of running the fixes that ENB includes as well as ENBoost. You should choose Graphical if you can run ENB but very little of it, I have very little of what it does turned on and the majority is stock ENB settings. No matter which you choose you must make one change  yourself depending on your computer. You MUST open enblocal.ini and search for VideoMemorySizeMb, using the math problem I added you must add your system ram plus video ram together and subtract 2048 from the outcome and place this number where 2000 sits now. If you do not know either of these or you question your knowledge then remove the 2000 and leave it blank, then change AutodetectVideoMemorySize to true.\r<br />\r<br />Installation - Non Graphical\r<br />1. Download the latest version\r<br />2. Download the latest version of ENB\r<br />3. Copy the  d3d9.dll, enbhost.exe and enbseries.ini from the WrapperVersion folder in the enb file into your Skyrim folder with TESV.exe.\r<br />4. Copy the enblocal.ini from the file you downloaded from here and place in the Skyrim folder as well.\r<br />5. Done\r<br />\r<br />Installation - Graphical\r<br />1. Download the latest version\r<br />2. Download the latest version of ENB\r<br />3. Copy the  d3d9.dll and enbhost.exe from the WrapperVersion folder in the enb file into your Skyrim folder with TESV.exe.\r<br />4. Copy the enblocal.ini and enbseries.ini from the file you downloaded from here and place in the Skyrim folder as well.\r<br />5. Done",
+  "categoryId": "97",
+  "version": "1.1",
+  "author": "DavecFatal",
+  "createdUnix": "1406259721",
+  "updatedUnix": "1424701136",
+  "containsAdultContent": false,
+  "uploadedBy": "DaveCfatal",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000148772",
+      "name": "ENB - Basic (Graphical)",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "ENB - Basic (Graphical)-56320-1-1.7z",
+      "uploadedUnix": "1424701077",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/811c1fa10cd75726fe90a1331e3a5e67c557b8f5740a71ee0cd0a2cd7f71615c/analysis/1424701082/",
+      "changelogHtml": " Updated to ENB version .266 <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENB%20-%20Basic%20%28Graphical%29-56320-1-1.7z?fid=1000148772&ttl=1535841599&ri=8192&rs=8192&setec=d300afb8b9a4781fdf473248ac53afb0"
+    },
+    {
+      "fileId": "1000148773",
+      "name": "ENB - Basic (Non Graphical)",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "ENB - Basic (Non Graphical)-56320-1-1.7z",
+      "uploadedUnix": "1424701136",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/40c36bc148df114ca2453814c8bc35e3fa5214ec17f653e777ba1f37b0dfa05c/analysis/1424701203/",
+      "changelogHtml": " Updated to ENB version .266 <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ENB%20-%20Basic%20%28Non%20Graphical%29-56320-1-1.7z?fid=1000148773&ttl=1535841600&ri=8192&rs=8192&setec=4ae5511bd2901fb07527ab7a07836d4a"
+    }
+  ]
+}

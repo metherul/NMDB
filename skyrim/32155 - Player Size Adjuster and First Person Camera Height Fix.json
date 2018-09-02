@@ -1,0 +1,48 @@
+{
+  "modId": 32155.0,
+  "modName": "Player Size Adjuster and First Person Camera Height Fix",
+  "summary": "An MCM menu for adjusting your character\\'s height, and their height when in werewolf or vampire lord form. It also corrects your 1st person camera height, without swapping out skeleton nifs (if you don\\'t have MCM, it still works as a first person camera height fix for your character\\'s racial default scale.) SKSE v1.6.9 or later requred.",
+  "descriptionHtml": "[size=6][font=verdana, geneva, sans-serif][b]Player Size Adjuster[/b][/font][/size]\r\n\r\nby Imp of the Perverse\r\n\r\n\r\n[center][url=http://www.skyrimgems.com][img]http://i.imgur.com/hXQSy.png[/img][/url][/center]\r\n\r\n\r\nDescription\r\n___________________\r\n\r\nThis mod lets you adjust your character\\'s height, as well as their height when transformed into a werewolf or vampire lord. First person camera height is also adjusted to reflect your chosen height. By default your run speed and jump height will change to reflect your character\\'s appearance (taller characters will run faster and jump higher, etc.) but that scale can also be adjusted independently.\r\n\r\n\r\n\r\nRequirements\r\n___________________\r\n\r\n[list]\r\n[*][url=http://skse.silverlock.org/]SKSE[/url][color=#ff0000] v1.6.9 or later[/color]\r\n[*][url=http://skyrim.nexusmods.com/mods/3863]SkyUI[/url]\\'s MCM - If you don\\'t have MCM installed, your character\\'s height will be left unchanged, but their first person camera height will be adjusted to reflect their current height, something the vanilla game doesn\\'t do. No more swapping out 1st person skeleton nifs!\r\n[*]Dawnguard is supported but not required. The mod checks for its presence via script and makes the necessary changes depending on if it\\'s detected.\r\n[/list]\r\n\r\n\r\n\r\nInstallation\r\n___________________\r\n\r\nFirst install SKSE v1.6.9 or later (absolutely required), and SkyUI (required for height adjustment.)\r\n\r\nInstall via NMM, or paste Player Size Adjuster.esp and Player Size Adjuster.bsa into your Data directory. Load order is unimportant.\r\n\r\n\r\n\r\nUninstall\r\n___________________\r\n\r\nBefore uninstalling, get off of your horse and disable from the MCM menu (scroll down to the bottom and click \\\"Disable\\\") then save. If you forget to do this, just enter the console and type \\\"player.setscale 1\\\".\r\n\r\n\r\n\r\nUpdating\r\n___________________\r\n\r\nReplace old files with new, or if you\\'re using NMM, choose the upgrade option.\r\n\r\n\r\n\r\nCompatibility\r\n___________________\r\n\r\nThis mod uses a combination of SetScale and SetNodeScale to adjust your visual height and run speed/jump height. It will conflict with other mods that rely on SetScale, or that edit the same nif node (PSA adjusts the base node of the player\\'s skeleton, \\\"skeleton.nif\\\", or \\\"skeleton_female.nif\\\" for female characters.) If you\\'re using a custom skeleton nif that is named something else, let me know and I can make this mod compatible with it.\r\n\r\nIf you\\'re using a custom werewolf or vampire lord race, your height when transformed will be determined by your un-transformed settings.\r\n\r\nI\\'ll be building this into the next update of [url=http://skyrim.nexusmods.com/mods/10639]Imp\\'s More Complex Needs[/url] (v0.40) so if you\\'re using that, Player Size Adjuster will disable itself and you\\'ll be able to adjust your height from IMCN\\'s character tab.\r\n\r\nThe vampire lord form is adjustable if you have the Dawnguard DLC, but Dawnguard is not required.\r\n\r\nThis mod should be compatible with Expired\\'s RaceMenu mod, it\\'s been working fine for me so far.",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "Imp of the Perverse",
+  "createdUnix": "1361497158",
+  "updatedUnix": "1361537961",
+  "containsAdultContent": false,
+  "uploadedBy": "Imp of the Perverse",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000011943",
+      "name": "Player Size Adjuster v1_0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "12",
+      "fileName": "Player Size Adjuster v1_0-32155-1-0.7z",
+      "uploadedUnix": "1361495272",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/11575d76e21aa6f4a55ec9fccf74efeebaef0ef5c639b2ef61d9ee17060769a7/analysis/1407431886/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Player%20Size%20Adjuster%20v1_0-32155-1-0.7z?fid=1000011943&ttl=1535808217&ri=8192&rs=8192&setec=21d60f6f2cd25b42aeff2ec68a4263e3"
+    },
+    {
+      "fileId": "1000012066",
+      "name": "Player Size Adjuster v1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "12",
+      "fileName": "Player Size Adjuster v1_1-32155-1-1.7z",
+      "uploadedUnix": "1361537961",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/99af1ccdb937a241312bb4485413242ea7e7cfd2f9820828d21866420a0dbb16/analysis/1407432833/",
+      "changelogHtml": " Bugfix - now reapplies height and scale when a save is loaded <br/> \n Bugfix - temporarily disables the mod while in the race menu to prevent conflicts <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Player%20Size%20Adjuster%20v1_1-32155-1-1.7z?fid=1000012066&ttl=1535808218&ri=8192&rs=8192&setec=a0970fcdd33464f9d17d231403d40d1b"
+    }
+  ]
+}

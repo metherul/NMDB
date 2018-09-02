@@ -1,0 +1,15 @@
+{
+  "modId": 20166.0,
+  "modName": "Magical Alchemy Harvest-o-tron 83Willows_101BUGS Source or how to autoharvest ingredients6",
+  "summary": "GhostifishMagical Alchemy Harvest-o-tron for 83Willows_101BUGS_V4_HighRes . this is only source for Ghostifish and 83Willows. It working. If you have both mods.",
+  "descriptionHtml": "Download Magical Alchemy Harvest-o-tron.http://skyrim.nexusmods.com/mods/15899\r\nDownload 83Willows 101BugsHD Butterfly Dragonfly Luna-Moth Torchbug  HiRes http://skyrim.nexusmods.com/mods/4955\r\nInstall Them.\r\nMagical Alchemy Harvest-o-tron by Ghostifish is working with 83Willows 101BugsHD Butterfly Dragonfly Luna-Moth Torchbug high resolution not tested with low resolution but I assume that both files have same ID of Activator and Ingredients \r\nhttp://skyrim.nexusmods.com/mods/20166\r\nDownload it.\r\nMagical Alchemy Harvest-o-tron 83Willows_101BUGS Source \r\nDownload Magical Alchemy Harvest-o-tron.http://skyrim.nexusmods.com/mods/15899\r\nDownload 83Willows 101BugsHD Butterfly Dragonfly Luna-Moth Torchbug HiRes http://skyrim.nexusmods.com/mods/4955\r\nInstall Them.\r\n\r\nESM 83Willows_101BUGS_V4_HighRes.Esm must be 3rd\r\nProblem is that game do not track ID of Ingredients.\r\n\r\nTo avoid that 83Willows_101BUGS_V4_HighRes must be ESM\r\n\r\n You Must ESMed 83Willows_101BUGS_V4_HighRes with Wrye Bash (right Click select copy to ESM). Then put the esm as 3rd in load order.\r\n Use CreationKit. Select [83Willows_101BUGS_V4_HighRes.Esm] then select [GhostifishMagical Alchemy Harvest-o-tron] as ACTIVE FILE. \r\nFind in Miscellaneous > FormLst >GhostifishHarvestList. Right-click it. Select Edit. \r\nLive It open for now.\r\n Go To Items > Ingredients. Click Ingredients.\r\n Copy Files / drag them when they are selected from 00BlackLime_Ingred to 00TB_Ladybird_Ingred (first 28 ingredients) to GhostifishHarvestList Windov(one that we open earlier). \r\nThen open WorldObjects > Activator. Select first 28 items (from 00Dragonfly_Blue2 to 00TB_Ladybird) drag them to GhostifishHarvestList Window.\r\n\r\n Find in Miscellaneous > FormLst >GhostifishIngredientList. Right-click it. Select Edit. Live It open for now.\r\n Go To Items > Ingredients. Click Ingredients.\r\n Copy Files / drag them when they are selected from 00BlackLime_Ingred to 00TB_Ladybird_Ingred (first 28 ingredients) to GhostifishIngredientList Windov(one that we open earlier, second one)\r\nClose both GhostifishIngredientList Windov and GhostifishHarvestList Windov.\r\nSave.\r\nLoad order\r\nSkyrim.esm [1]\r\nUpdate [2]\r\n83Willows_101BUGS_V4_HighRes.Esm [3]\r\n83Willows_101BUGS_V4_HighRes.Esp ----- DEACTIVATE IT\r\nGhostifishMagical Alchemy Harvest-o-tron [xxxxxxxxxxxxxx] no matter\r\nBashed Patch [last] - actualy you do not need it \r\nUse Wrye Bash only to create Esm because TESVsnip do not work properly (even that you can save Esp as Esm CK still recognise it as Esp.",
+  "categoryId": "94",
+  "version": "1",
+  "author": "SonnyWiFiHr",
+  "createdUnix": "1341835280",
+  "updatedUnix": "1341835280",
+  "containsAdultContent": false,
+  "uploadedBy": "SonnyWiFiHr",
+  "primaryFile": null,
+  "files": []
+}

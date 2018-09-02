@@ -1,0 +1,48 @@
+{
+  "modId": 62078.0,
+  "modName": "Daedric and Ebony Smithing and Tempering Fixes",
+  "summary": "A fix for mods that inadvertently remove the Daedric and Ebony smithing and tempering recipes.",
+  "descriptionHtml": "While playing Skyrim the other day, I noticed a bit of a glitch. I had tried to craft some Daedric weapons to test a retex, but to my surprise were missing from the forge menu. Upon further investigation with TESVEdit, I found that [url=http://www.nexusmods.com/skyrim/mods/50740/?]Morrowloot 4E Edition[/url] had caused not only this issue, but removed the Ebony category AS WELL. \r<br />\r<br />This mod aims to correct it by reissuing new form ids for the affected recipes. In fact, this mod will correct the issue caused by ANY mod (not JUST Morrowloot). All retextures, stat adjustments, etc. WILL STILL FUNCTION PROPERLY (at least I haven&#39;t seen one that DOESN&#39;T as of yet.)\r<br />\r<br />I&#39;m adding BOTH files separately here, but on one page for convenience.\r<br />\r<br />Load the esps at the VERY BOTTOM of the load order to make sure the changes take effect. \r<br />\r<br />No DLCs or other files aside from the MAIN ESMS (Skryim.esm and Update.esm) are required for these to work. \r<br />\r<br />Feel free to use these files in your mods if need be, just the old &#34;credit where credit is due&#34; thing applies, my friends :)\r<br />\r<br />Update: \r<br />\r<br />Me being the absent-minded one that I am completely overlooked the fact that the Morrowloot removals were INTENTIONAL. I apologize for the inaccuracies. \r<br />\r<br />So, to better describe this, this will add the categories BACK for testing purposes and the like (retexture previews and all that good stuff)\r<br />\r<br />\r<br />Special thanks to [url=http://www.nexusmods.com/skyrim/users/145360]}{ellKnight[/url] for pointing out my, ahem, mistakes. ",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "AbraxasMorte88",
+  "createdUnix": "1422422552",
+  "updatedUnix": "1422422547",
+  "containsAdultContent": false,
+  "uploadedBy": "AbraxasMorte88",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000144906",
+      "name": "Daedric Smithing and Tempering Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Daedric Smithing and Tempering Fix-62078-1-0.zip",
+      "uploadedUnix": "1422422506",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/fae36478fa2167ed2a2b58d03267af4d568a247d0c819678e4ed0ee841d70281/analysis/1422422522/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Daedric%20Smithing%20and%20Tempering%20Fix-62078-1-0.zip?fid=1000144906&ttl=1535850787&ri=8192&rs=8192&setec=ff3077ab5b1c1db279e067bd26845d30"
+    },
+    {
+      "fileId": "1000144907",
+      "name": "Ebony Smithing and Tempering Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Ebony Smithing Fix-62078-1-0.zip",
+      "uploadedUnix": "1422422547",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b3e026df952d3ca6305ded7a7d84e1391a5ec5c0eae2cdc3419b9154a5a5299f/analysis/1422422582/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Ebony%20Smithing%20Fix-62078-1-0.zip?fid=1000144907&ttl=1535850787&ri=8192&rs=8192&setec=62f81ded230a2cfa2e7226d3ff7a0ea0"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 17193.0,
+  "modName": "Thuum cooldown overhaul",
+  "summary": "A mod that changes cooldown times from progressively increasing to progressively decreasing, based on a consistent formula.",
+  "descriptionHtml": "Increasing cooldown times along with more powerful shouts didn\\'t seem to lend itself to feeling that the Dragonborn was getting more powerful. In fact, using this model felt as though you were being punished for using more powerful shouts (why use a tier three shout if it\\'s only slightly more powerful than tier one and take 10,000x longer to use again?).\r\n\r\nI revamped the Thu\\'um cooldowns using the following structure:\r\nTier 1 - unchanged (in most cases. Fire Breath still has a 30 second cooldown, but Unrelenting Force is now 40 seconds). Cooldown = Base * (1/(1 + 1))\r\nTier 2 - 100%, or half of Tier 1. Cooldown = Base * (1/(1 + 2))\r\nTier 3 - 200%. Cooldown = Base * (1/(1 + 3))\r\n\r\nExample 1:\r\nUnrelenting Force (originally 15, 20, 45)\r\n40 seconds = 40 * (1/(1 + 1))\r\n20 seconds = 40 * (1/(1 + 2))\r\n13 seconds = 40 * (1/(1 + 3))\r\n\r\nExample 2:\r\nStorm Call (originally 300, 480, 600 aka 10 freakin\\' minutes!)\r\n300 seconds = 300 * (1/(1 + 1))\r\n150 seconds = 300 * (1/(1 + 2))\r\n100 seconds = 300 * (1/(1 + 3))\r\n\r\nTier 1 shouts were left intact as much as possible to keep initial balance. Again, there are one or two exceptions to this. You still have to work to find word walls, but now when you do, you\\'ll be encouraged to use the more powerful shout. Storm Call still takes a long time to cool down, but now you can do so without having to hope that you won\\'t want to use your Thu\\'um again for several minutes.\r\n\r\nSummoning shouts (i.e. Call Dragon) were not modified. ",
+  "categoryId": "79",
+  "version": "1.0",
+  "author": "HyphenC",
+  "createdUnix": "1337233040",
+  "updatedUnix": "1337233170",
+  "containsAdultContent": false,
+  "uploadedBy": "HyphenC",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "61805",
+      "name": "Thuum Time Overhaul",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Thuum Time Overhaul-17193-1-0.zip",
+      "uploadedUnix": "1337233170",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/83dee18d13978382ad1e492bd2bb0d223e2482d1ad1caeedc686cca266734669/analysis/1406897822/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Thuum%20Time%20Overhaul-17193-1-0.zip?fid=61805&ttl=1535783120&ri=8192&rs=8192&setec=6a872a19bdd170aa0b904588554a8004"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 30850.0,
+  "modName": "Diffusion DOF for ENB",
+  "summary": "DOF effects using the Heat Diffusion Formula",
+  "descriptionHtml": "It uses anisotropic diffusion (see http://en.wikipedia.org/wiki/Anisotropic_diffusion) to blur area without affecting the edges. The image stored in the colour sample is preprocessed to soften edges for objects in front of focal point to allow blurring over them.\r\n\r\nThe result is not quite good due to insufficient amount of iterations, especially on higher resolution. Even though Increasing the radius sample can make the effect more dramatic, it can also lead to artifacts.\r\n\r\nI may try downsampling later...\r\n\r\n2 parameters can be modified in case you don\\'t find it realistic. They are listed here:\r\nBlurCoefficient //It changes the multiplier for the calculation of the circle of confusion (CoC) diameter. Keep in mind, though, the maximum value of the result is 1. You may not want to raise it too high.\r\nSampleRaidusMultiplier //It changes the radius of sampled textures; increases it to increase the amount of blurring. But it can also cause artifacts",
+  "categoryId": "62",
+  "version": "0.11",
+  "author": "Ragnarok Lucifer",
+  "createdUnix": "1359791241",
+  "updatedUnix": "1360561118",
+  "containsAdultContent": false,
+  "uploadedBy": "ragnaroklucifer",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000008918",
+      "name": "enbeffectprepass",
+      "version": "0.11",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "enbeffectprepass-30850-0-11.7z",
+      "uploadedUnix": "1360561118",
+      "modVersion": "0.11",
+      "virusScanUrl": "https://www.virustotal.com/file/e0d0f875f7dd7fcc12fa82c4be50ed374d5ddc98947eaaf4335fd912c61450b6/analysis/1407410839/",
+      "changelogHtml": " fixed bug with edges for stuff in front of the point of perfect focus <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/enbeffectprepass-30850-0-11.7z?fid=1000008918&ttl=1535805992&ri=8192&rs=8192&setec=3388cf994b22393a5ac487880cfa2a69"
+    }
+  ]
+}

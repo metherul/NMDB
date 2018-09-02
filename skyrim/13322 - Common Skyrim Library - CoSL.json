@@ -1,0 +1,32 @@
+{
+  "modId": 13322.0,
+  "modName": "Common Skyrim Library - CoSL",
+  "summary": "Skyrim Common Library is (or will be after future updates):\r\nA world enrichment mod that adds lots of little things that enriches your gameplay experience\r\nA shared library that acts as a resource for other mods\r\nA integration tool that allows different mods to \\\"talk\\\" to each other\r\n",
+  "descriptionHtml": "[size=5][u]Common Skyrim Library is (or will be after future updates):[/u][/size][list=1]\r\n[*]A world enrichment mod that adds lots of little things that enriches your gameplay experience\r\n[*]A shared library that acts as a resource for other mods\r\n[*]A integration tool that allows different mods to \\\"talk\\\" to each other\r\n[/list]\r\n[b]A list of all implemented features will be maintained at the bottom of this post. [/b]\r\nA detailed guide for how modders can take advantage of CoSL will be added as the mod progresses.\r\n\r\n[size=5][u]The layout of CoSL:[/u][/size]\r\n\r\n[u]CoSL Templates.esm[/u][list]\r\n[*]Will contain templates for items. For example, will contain a beer template, and players will be able to run a [url=\\\"http://forums.bethsoft.com/topic/1345503-rel-skyproc-skyrim-processing-library/\\\"]SkyProc[/url] program (which I\\'ll write) to allow mods which add beer to inherit beer behaviours. Alternatively modders can create CoSL patches themselves.\r\n[*]Allows a modder to create an item, and if the item has one of CoSL\\'s keywords attached to it (such as CoSLBeer), the patcher will attach the beer behaviour scripts to the beer.\r\n[*]This would allow modders/mod teams to create plugins that don\\'t require CoSL, but if ran with CoSL the plugins will be significantly enhanced.\r\n[/list]\r\n[u]CoSL Main.esm[/u][list]\r\n[*]Will contain common resources, i.e. The Luggage, Tamriel Ingredients etc. Required for CoSL Glue.esp, but not needed unless another mod has this as a parent.\r\n[*]Modders can use this to place The Luggage in their house mod, add common ingredients to their taverns or a water fountain to a town.\r\n[/list]\r\n[u]CoSL Glue.esp[/u][list]\r\n[*]Places things from CoSL Main like The Luggage and ingredients in the world. Entirely optional\r\n[/list]\r\n\r\n\r\n[u]Enrichment[/u][list]\r\n[*]The Luggage (a hold all container accessible from pubs, guild halls, homes)\r\n[*]CoSL Clock (configurable on screen clock)\r\n[*]Lore Books (lore books from previous Elder Scroll games)\r\n[*]Tamrielic Ingredients (ingredients from Morrowind and Daggerfall)\r\n[*]Etc. etc.\r\n[/list]\r\n[u]Shared Library[/u]\r\n\r\nAll the items listed above will be available for use in mods. Home mods will be able to make use of foods, water sources, mage altars, etc. that are defined in CoSL. Other mods may make use of more advanced features, like CoSL\\'s Death Handling, which allows the player\\'s death to be safely intercepted and modified. Or more simply, CoSL provides a shared Options menu, which any mod can use to make their options easy to find and configure.\r\n\t\t\r\nNot only does CoSL make modding easier, it also makes CoSL aware mods richer since mods able to draw form a much richer set of objects at no cost. E.g. if you go into a pub, you\\'ll be more likely to find interesting beers and/or foods for sale. If you visit a house, you\\'re more likely to find an odd collection of books, or perhaps some Adamantium ore from Mournhold.\r\n\t\t\r\nAnd if you become tired of seeing multiple types of pearl dust, multiple types of mountain lion meat, etc., CoSL is on the path to fixing those problems as well.\r\n\t\t\r\n[u]Mod Communication[/u]\r\n\t  \r\nCoSL will provide several interfaces that allow mods to communicate information.\r\nFoods added by one mod can be used to satisfy hunger requirements of a hunger mod.\r\nWater wells placed by a village mod can fill water containers of a thirst mod.\r\nAnd afterlife mod can suspend the activity and penalties of hunger/thirst/sleep mods.\r\nEtc. etc.\r\n\r\n[size=5][u]Implemented Features:[/u][/size]\r\n[list]\r\n[*]The Luggage (will appear in inns when you rent a bed and owned player homes. Guilds and more locations to come in further updates).\r\n[/list]",
+  "categoryId": "82",
+  "version": "v1.02",
+  "author": "AliTheLord",
+  "createdUnix": "1332248602",
+  "updatedUnix": "1332260475",
+  "containsAdultContent": false,
+  "uploadedBy": "AliTheLord",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "45118",
+      "name": "Skyrim Common Library",
+      "version": "v1.02",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "17",
+      "fileName": "Skyrim Common Library-13322-v1-02.7z",
+      "uploadedUnix": "1332260475",
+      "modVersion": "v1.02",
+      "virusScanUrl": "https://www.virustotal.com/file/8be2269e2ad03df91f75c8e3a04db93244ff7f9cb7ad0a702eb6b5a9e05ab7e4/analysis/1406769634/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Common%20Library-13322-v1-02.7z?fid=45118&ttl=1535776003&ri=8192&rs=8192&setec=6ccc4b5c5dcb7dc8a838f2c916820e0f"
+    }
+  ]
+}

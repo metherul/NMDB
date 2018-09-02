@@ -1,0 +1,32 @@
+{
+  "modId": 77201.0,
+  "modName": "NormalWeaponImmuneDaedraGhosts",
+  "summary": "Makes the majority of Daedra/Familiars/Ghosts immune to normal weapons so long as they have the proper keywords, very tiny simple Esp/One time run script, compatible with EVERYTHING.",
+  "descriptionHtml": "[b]\r<br />\r<br />[/b]\r<br />After a huge amount of brainstorming, I&#39;ve come the closest I likely ever will to a Normal Weapons Immune Daedra and Ghosts mod. The good \r<br />news is it&#39;s compatible with literally everything, and an extremely tiny file. It only uses one script that runs only once adding a perk to the \r<br />player at game start via quest. It also works with many creatures added by other mods as well.\r<br /> \r<br />How does it do this? Anything with the keyword &#34;ActorTypeDaedra&#34; or &#34;ActorTypeFamiliar&#34; or &#34;ActorTypeGhost&#34; cannot be hurt with Wood, Steel,\r<br /> Iron or Imperial weapons (tried to create an immunity to fists too though that seems a bit buggy). Meaning- if anyone at this point ever goes on a project to ensure every vanilla as well as modded creature just has proper keywords that make sense, that one day EVERY ghost would be immune to normal weapons&#33;The ESP is very small being literally 1 KB. This isn&#39;t guaranteed to work against all ghost enemies sadly, as some of them don&#39;t seem to have the keyword ActorTypeGhost... However so long as modded in NPCs have the proper keywords added in it will work, and any mod that adds ActorTypeGhosts to all ghostly enemies in game will make this mod fully operational.\r<br />\r<br />(The downside is that this perk is ONLY provided to the player, as in, unfortunately NPCs can still damage said supernatural \r<br />creatures with normal weapons... I might try to change that if I can \r<br />ever figure out how to make a Dynamic patcher).",
+  "categoryId": "24",
+  "version": "",
+  "author": "Lectra",
+  "createdUnix": "1468914842",
+  "updatedUnix": "1468914710",
+  "containsAdultContent": false,
+  "uploadedBy": "Letrarunt",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000213709",
+      "name": "NormalWeaponImmuneDaedraGhosts",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "NormalWeaponImmuneDaedraGhosts-77201-.7z",
+      "uploadedUnix": "1468914710",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/9e7c6bd98ee9a6019882e75b4267168f8aab8178fea188a274c5b727ee9cfa94/analysis/1468914747/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NormalWeaponImmuneDaedraGhosts-77201-.7z?fid=1000213709&ttl=1535865858&ri=8192&rs=8192&setec=4d6df7ab33fc72866762e23a03a226ce"
+    }
+  ]
+}

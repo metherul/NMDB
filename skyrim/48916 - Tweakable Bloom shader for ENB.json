@@ -1,0 +1,32 @@
+{
+  "modId": 48916.0,
+  "modName": "Tweakable Bloom shader for ENB",
+  "summary": "This shader for ENB allows you to tweak the bloom effect in game.",
+  "descriptionHtml": "[b][color=green]Remember to read the sticky post for news and instructions.[/color][/b]\r<br />\r<br />[b][color=red]Features[/color][/b]\r<br />[list]\r<br />[*]Gaussian blur with anamorphic option\r<br />[*]Inverted Gaussian blur for more dreamy scenes (star blur in the shader)\r<br />[*]Luma and Chroma settings for the bloom with two types of luma\r<br />[*]Two separate add settings for light spread and stronger glow\r<br />[/list]\r<br />\r<br />[line]\r<br />\r<br />[b][color=red]Future plans[/color][/b]\r<br />-Bloom radius setting with more taps.\r<br />-Different types of blur\r<br />\r<br />[line]\r<br />\r<br />[b][color=red]Installation[/color][/b]\r<br />-Have your ENB working, with a profile or not.\r<br />-Backup enbbloom.fx in your main skyrim folder\r<br />-Copy my enbbloom.fx to the main skyrim folder\r<br />-Edit enbbloom.fx to change #defines and read some setting explanations\r<br />-Use shift+enter in game to toy with settings",
+  "categoryId": "62",
+  "version": "3",
+  "author": "Soulwynd",
+  "createdUnix": "1387320663",
+  "updatedUnix": "1387462326",
+  "containsAdultContent": false,
+  "uploadedBy": "soulwynd",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000087420",
+      "name": "Bloom v3",
+      "version": "3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Bloom v3-48916-.7z",
+      "uploadedUnix": "1387462326",
+      "modVersion": "3",
+      "virusScanUrl": "https://www.virustotal.com/file/0c008b2d84ee8ee841309b86871a7ac0b01779b604359e2dcf5862f7ffbedb1f/analysis/1407848829/",
+      "changelogHtml": " Added streak blur <br/> \n Changed how the blur builds up <br/> \n Added some DNI integration <br/> \n Fixed some derpy thing with the bloom samplers <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bloom%20v3-48916-.7z?fid=1000087420&ttl=1535829370&ri=8192&rs=8192&setec=b040c13bb0fa3b03b6ca4befc977072a"
+    }
+  ]
+}

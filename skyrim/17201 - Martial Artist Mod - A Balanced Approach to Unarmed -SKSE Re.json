@@ -1,0 +1,48 @@
+{
+  "modId": 17201.0,
+  "modName": "Martial Artist Mod - A Balanced Approach to Unarmed -SKSE Re",
+  "summary": "This makes Unarmed strikes comparable to Daggers in terms of their overall damage progression,\r\nspeed, and reach. Unarmed now scales with One-Handed, and gives appropriate experience as well. Armor bonus of gauntlets applies to Unarmed strikes. ",
+  "descriptionHtml": "Martial Artist Mod: A Balanced Approach to Unarmed Combat\r\nSKSE Required!\r\nCan eb downloaded here: http://skse.silverlock.org/\r\nHow this mod works:\r\nUnarmed is now a specialization of the One Handed skill tree. All perks that\r\nwork with One Handed weapons now work with unarmed strikes. Furthermore,\r\nas with other specializations the One Handed tree offers a specialization \r\nperk with three ranks. This perk gives One Handed attacks a 5, 8, and 10%\r\nchance of disarming the opponent. Unarmed strikes will grant experience\r\nin One Handed according to their damage, as per other weapons. Also,\r\nregardless of whether or not you choose to specialize in Unarmed,\r\nall characters will now receive a bonus to their Unarmed strikes equal to\r\nthe (total armor of their gauntlets including smithing and skill bonus)/4.\r\nI feel it is sensible that if you are wearing a big heavy glove, punching \r\npeople in the face would hurt them more. Your unarmed damage also now\r\nscales with your One-Handed skill.\r\nA few notes:\r\nIn order to get this mod to fully function you will have to have a \\\"weapon\\\"\r\nequipped called Pugilism. This is a set of boxing glove looking things\r\nin a chest in the CTest room. (To get there type \\\"coc ctest\\\" into the console)\r\nDon\\'t worry, they are invisible once equipped. All they do is get out your dukes\r\nat which point it behaves like normal unarmed, with the differences outlined above.\r\nThere is another small difference, in that it has a slightly lower reach\r\nand faster attack speed when compared with daggers, rather than those of a sword\r\nI feel this adds an RP element to using your fists.\r\nKhajiit now have a smaller, but still present, advantage in unarmed over other\r\nplayable races. All race now have an Unarmed Damage value of 6 rather than 4,\r\nbut where Khajiit originally began at a whopping 22 (which would break my mod\r\nrather severely, making Khajiit into the cat gods of ancient egypt)\r\nthey begin at 9.\r\nThe Fists of Steel perk was removed from Heavy Armor, because it was\r\nfunctionally redundant. I already took care of that.\r\n\r\nBecause your Unarmed damage scales with One-Handed, and your bonus from gauntlets\r\nscales with your armor, you have the advantage of scaling damage with two\r\ntrees simultaneously. I have scaled the damage such that with 100 ranks\r\nof Heavy Armor and One Handed, all five ranks of Juggernaut and Armsman, and \r\nfully smithed (with items that improve smithing) Daedric Gauntlets you will have\r\na 30% advantage in terms of damage output over fully smithed daedric daggers\r\nwith the same perks.\r\n\r\nPugilism is fully enchantable, and when you need to apply a new enchantment you can get\r\nanother copy from the chest in CTest.\r\n\r\nAll in all, I think I\\'ve made Unarmed into a potentially very powerful, but\r\nnot gamebreaking skill progression.",
+  "categoryId": "77",
+  "version": "v.2",
+  "author": "Alex Ducey",
+  "createdUnix": "1337244752",
+  "updatedUnix": "1337250219",
+  "containsAdultContent": false,
+  "uploadedBy": "atducey",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "61830",
+      "name": "Martial Artist 1st Release",
+      "version": "v.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "150",
+      "fileName": "Martial Artist 1st Release-17201.rar",
+      "uploadedUnix": "1337244800",
+      "modVersion": "v.1",
+      "virusScanUrl": "https://www.virustotal.com/file/f7fadaf1c0a7c99778789ee1dced722554239340da2893a3e88bc04c671c17ca/analysis/1406898004/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Martial%20Artist%201st%20Release-17201.rar?fid=61830&ttl=1535783130&ri=8192&rs=8192&setec=350e8606c92a97d953b537dee4dbc60b"
+    },
+    {
+      "fileId": "61839",
+      "name": "Martial Artist - Invisible Pugilist Fix",
+      "version": "v.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "150",
+      "fileName": "Martial Artist - Invisible Pugilist Fix-17201-v-2.rar",
+      "uploadedUnix": "1337250219",
+      "modVersion": "v.2",
+      "virusScanUrl": "https://www.virustotal.com/file/0e45c805fd3b51ccda4cf05589253417fc41cd12e1a0e8de6c22be0e123e8948/analysis/1406898123/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Martial%20Artist%20-%20Invisible%20Pugilist%20Fix-17201-v-2.rar?fid=61839&ttl=1535783130&ri=8192&rs=8192&setec=018c8f5b6bc1865e804694992bc384ca"
+    }
+  ]
+}

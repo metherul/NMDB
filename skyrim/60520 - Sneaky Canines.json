@@ -1,0 +1,48 @@
+{
+  "modId": 60520.0,
+  "modName": "Sneaky Canines",
+  "summary": "Dogs, huskies, and Death Hounds will no longer bark outside of combat. Simply replaces idle barking animations with equivalent non-barking ones, compatible with literally everything.",
+  "descriptionHtml": "Upon further testing and confirming that dogs still bark in combat I have renamed the file Sneaky Canines to be more accurate.\r<br />\r<br />First things first: This was first accomplished with [url=http://www.nexusmods.com/skyrim/mods/22124/?]Hush Doggy[/url] by a user named Luthrael, whom I feel deserves any endorsements as much as myself since it appears he was the first to realize the barking audio was tied to the animations, I simply read through the comments and followed the suggestions made by another user - Lycanthrops - who deserves equal credit, I then added a copy of the normal running animation to replace the running combat bark due to it playing repeatedly while any dog follows me on horseback and occasionally when they transition from running to walking or walking to running (which would explain the frequency while mounted).\r<br />\r<br />Replaced all canine animation files that play the barking sound outside of combat with normal run sit and stand idles. This will apply to all vanilla canines including death hounds and huskies and any custom animals that use the default canine behavior.\r<br />\r<br />replaces following files in meshes/actors/canine/animations:\r<br />\r<br />dog_spice_sit_bark.hkx\r<br />dog_spice_bark.hkx\r<br />\r<br />Option 2 replaces idlecombat_barkrun.hkx in addition to the two above files in case you still get barking during animation transitions (particularly when dogs follow you while on horseback or walking backward)",
+  "categoryId": "83",
+  "version": "1.0",
+  "author": "Nakoichi",
+  "createdUnix": "1417776406",
+  "updatedUnix": "1418886479",
+  "containsAdultContent": false,
+  "uploadedBy": "Nakoichi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000137766",
+      "name": "Sneaky Canines option 2",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "13",
+      "fileName": "Silent Canines-60520-1-0.rar",
+      "uploadedUnix": "1417776397",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e4af9a08e84a66033b91596372c447f65cb6c4c192ccd1a689f44baa3b047754/analysis/1417776423/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Silent%20Canines-60520-1-0.rar?fid=1000137766&ttl=1535848316&ri=8192&rs=8192&setec=eed37fe23a6314804fc9b571b60862b8"
+    },
+    {
+      "fileId": "1000139287",
+      "name": "Sneaky Canines",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "Sneaky Canines-60520-1-0.rar",
+      "uploadedUnix": "1418886479",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f85626ffd4fc52786c5a68a7b600af61ce01b3a4a44987259a437b6f3efb4df0/analysis/1418886482/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Sneaky%20Canines-60520-1-0.rar?fid=1000139287&ttl=1535848317&ri=8192&rs=8192&setec=64eebace14dbf86128bbab11a8d6a71c"
+    }
+  ]
+}

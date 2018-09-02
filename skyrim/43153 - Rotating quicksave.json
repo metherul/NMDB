@@ -1,0 +1,48 @@
+{
+  "modId": 43153.0,
+  "modName": "Rotating quicksave",
+  "summary": "Adds multiple numbered quicksaves with a new quicksave key.",
+  "descriptionHtml": "This mod adds multiple quicksaves (instead of the default one) and does it by adding its own quicksave button (F6 by default), with its own numbered saves. After all the saves are used, the numbering is started again from one, overwriting (usually) the oldest save. By default the amount of saves kept is 3, and can be increased to 15 from MCM.\r<br />\r<br />The included quickload only loads saves made by this mod, so you need to actually save once with it for the quickload to work. \r<br />\r<br />The saves are named &#34;QS &lt;Character name&gt; &lt;#&gt;&#34;, making it easier to play with multiple characters as well.\r<br />\r<br />Requires SKSE & SkyUI.\r<br />\r<br />----------------------------\r<br />\r<br />My other mods:\r<br />- [url=http://www.nexusmods.com/skyrim/mods/50074/?]Just Sleep[/url] - Immersive sleep and exhaustion\r<br />- [url=http://www.nexusmods.com/skyrim/mods/16810/?]Ruined Prison[/url] - A new dungeon in the Reach",
+  "categoryId": "39",
+  "version": "1.2",
+  "author": "BuGi",
+  "createdUnix": "1380484104",
+  "updatedUnix": "1391952320",
+  "containsAdultContent": false,
+  "uploadedBy": "BuGi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000059672",
+      "name": "Rotating quicksave",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Rotating quicksave-43153-1-0.7z",
+      "uploadedUnix": "1380483987",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/647d1ec619ce2b5351d42e1351da26ac1093353cfe1d882917fad6ada0e9b74a/analysis/1407739515/",
+      "changelogHtml": " Initial release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Rotating%20quicksave-43153-1-0.7z?fid=1000059672&ttl=1535823994&ri=8192&rs=8192&setec=e738a2d838573ad30885148136d0148e"
+    },
+    {
+      "fileId": "1000096087",
+      "name": "Rotating quicksave",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Rotating quicksave-43153-1-2.7z",
+      "uploadedUnix": "1391952320",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/a6107fb1b389dd05a27d1f97f6be729a0675b21afb008fc573fb1c82f88271ea/analysis/1407925923/",
+      "changelogHtml": " Fixed save name not changing after changing player name <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Rotating%20quicksave-43153-1-2.7z?fid=1000096087&ttl=1535823995&ri=8192&rs=8192&setec=283220c0366a2103ccf081d17e42a89e"
+    }
+  ]
+}

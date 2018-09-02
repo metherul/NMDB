@@ -1,0 +1,48 @@
+{
+  "modId": 73266.0,
+  "modName": "NewRuFix",
+  "summary": "Некоторые skse моды не работают с русской версией, отображаются квадраты вместо букв. Этот плагин исправляет это.  ",
+  "descriptionHtml": "Некоторые skse моды не работают с русской версией (например QuickLoot и MfgConsole), отображаются квадраты вместо букв. Этот плагин исправляет это.  \r<br />\r<br />Технические детали:\r<br />Метод CreateString(GFxValue* pValue, const char* pstring) класса GFxMovieView ожидает, что строка pstring будет в utf-8 кодировке, но так как в русской версии строки хранятся в ASCII, получались квадратики. Плагин перехватывает метод CreateString, проверяет кодировку pstring, и если она не utf-8, то перекодирует.",
+  "categoryId": "84",
+  "version": "1.0",
+  "author": "HellGhost87",
+  "createdUnix": "1454763672",
+  "updatedUnix": "1454763563",
+  "containsAdultContent": false,
+  "uploadedBy": "HellGhost87",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000194426",
+      "name": "Source",
+      "version": "1.0",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Source-73266-1-0.rar",
+      "uploadedUnix": "1454763165",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e7525d673edaafb52b699bd383ee8e05f65c367eadcc8cac336f6a20f098b33e/analysis/1454763207/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Source-73266-1-0.rar?fid=1000194426&ttl=1535861938&ri=8192&rs=8192&setec=1b3227c42d050fd72c21fa2e99d609d3"
+    },
+    {
+      "fileId": "1000194429",
+      "name": "NewRuFix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "50",
+      "fileName": "NewRuFix-73266-1-0.rar",
+      "uploadedUnix": "1454763563",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4bc83ff24e126de3d47dab86e773d1a8f41c9948c71c0948c443acd7e519dbce/analysis/1454763424/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NewRuFix-73266-1-0.rar?fid=1000194429&ttl=1535861939&ri=8192&rs=8192&setec=54a782b20a6da3625df1d40ac5bc2eb8"
+    }
+  ]
+}

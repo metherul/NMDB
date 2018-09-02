@@ -1,0 +1,48 @@
+{
+  "modId": 31696.0,
+  "modName": "Vlindrel Hall Plus",
+  "summary": "I always thought the name was vindrel hall not vlindrel hall until I made a mod for it. Vlindrel sounds like mystery meat sold at sporting events that nobody buys. I kinda went overboard this time, large armory with many weapon plaques and three mannequins&#33; Library with display cases, an elevator with a balcony with a view&#33; HF compatible.",
+  "descriptionHtml": "UPDATE 8/3/2015\r<br />I wonder what those not loaded fragments are in the CK? oh those are the fragments I should have sorted out LAST TIME&#33;&#33;&#33;&#33; Ugh... well I fixed the hearthfire problems finally I hope. I first noticed the problems when I tried using my solitude home for kids adoption and the house wasn&#39;t on the list nor any of my other house mods only the default HF homes so I found that the code not loaded fragments were the places where the calls to the hearthfire scripting should go if it wasn&#39;t there already by default or where my code should go to enable/disable things. So that is now sorted and things should work properly now finally:-)\r<br />\r<br />\r<br />\r<br />Ok I have used TES5EDIT to get rid of the custom bed so the default player bed is back and I linked it to the central house marker with the spousebed keyword so spouse should use it now. This mod now REQUIRES the unofficial skyrim patch and the unofficial hearthfire patch to work properly. I used TES5EDIT to completely remove the housepurchase setup I had and started over so new scripts only two of them this time and things should work properly now. \r<br />\r<br />I got rid of that rug going up the hallway that caused the player to get stuck on it. I just could not position that rug so it wouldn&#39;t do that stuck thing so it is gone I disabled it and moved it far away.\r<br />\r<br />I adjusted the navmesh under the mannequins to work better so they shouldn&#39;t be moving around at all now. Fixed the shield racks so the weapons can be added and removed.\r<br />\r<br />\r<br />Vlindrel Hall Plus has plenty of room for your early game stuff that you probably won&#39;t carry around later on but would like to display somewhere. I use this house as a place to store bad/evil weapons after they are upstaged by better weapons. So the armory was arranged as a kind of ancient storage area to seal evil things away like ebony blade or that mace of malog bal etc. I wanted to dwemerize the house a bit with some dwemer furniture so there are some fancy dwemer stuff where it really counts.\r<br />\r<br />I moved the housecarl&#39;s room out of the kitchen and put it where the enchanting room was and then I made a section further down a long hall for enchanter and armory so now it actually has a hall to live up to the name with. There is a guest room for four people to stay in. Not much to do there but just enough for sleeping. The guests would occupy the rest of the living space during the day if they don&#39;t go out much. There is a laundry room/storage/water supply room complete with dwemer tech for running water and a noisy old exhaust fan over the fire pit in there where clothes are dried and ironed.\r<br />\r<br />There is a small treasure room just across from the enchanting room with a treasure chest and some resources. The armory has 22 weapon plaques and five storage boxes with an old dwemer storage chest in the center of the room. The enchanting room now has many simply weapon holders not just four and the housecarl room has two simple weapon holders now and also the player bedroom has two simple weapon holders.\r<br />\r<br />The balcony outside is accessed from the elevator inside and the door on the balcony outside requires the house key to open. There is just enough room out there for a few people maybe four people to sit down and relax and maybe have a small party and get drunk and do some dumb stuff like dare someone to jump off lol.\r<br />\r<br />Here are the xmarker codes for anyone that needs them.\r<br />\r<br />Alchemy: 000e2d55\r<br />\r<br />Bedroom: 000e2d52\r<br />\r<br />Enchanting/Armory: 000e2d56\r<br />\r<br />Housecarl Bedroom: 000e2d54\r<br />\r<br />Hallways/Guest Room/Laundry etc: 000e2d57\r<br />\r<br />Livingroom: 000e2d53\r<br />\r<br />\r<br />UPDATED XMARKERS for HEARTHFIRE\r<br />\r<br />guest room: 0501cb97\r<br />\r<br />guest room start: 02004207 disable this\r<br />\r<br />Child room: 02004206\r<br />\r<br />Guest beds replaced: 02004205 they enable when you buy them again and disable child room normally.\r<br />\r<br />This mod is NOW COMPATIBLE with HEARTHFIRE&#33; Check the downloads section for the HF version of this mod.\r<br />\r<br />\r<br />Now there are some bugs with the house, navmesh for balcony was not easy so there are some disabled navmesh up there moved out of the way and not seen but they are there &#34;islands&#34; but the npc should ignore them. Check the pics here you can see the housecarl properly using the elevator when told to go home.\r<br />\r<br />I have tested the display cases and they don&#39;t lose stuff after using them&#33; I stored some stuff in there and went away and came back a long time later and the stuff was exactly where I left it in any of the cases and this with my crappy save game file from so many updates and mods added and removed so the cases should work for everyone else too.\r<br />\r<br />Installation\r<br />\r<br />Copy the VindrelHallPlus.esp files and scripts folder to your data folder or use nexus mod manager it should work with that. Yeah I purposely mispelled the name hehe but it doesn&#39;t affect anything. \r<br />\r<br />Once you have the mod loaded, load your save game outside of the house and use console command resetinterior markarthvlindrelhall then use another command pcb markarthvlindrelhall. Use the T key to wait for at least one game hour then go inside and everything should be ok.",
+  "categoryId": "67",
+  "version": "v1.3",
+  "author": "Dragonslayer2k12",
+  "createdUnix": "1360911857",
+  "updatedUnix": "1438576970",
+  "containsAdultContent": false,
+  "uploadedBy": "dragonslayer2k12",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000009999",
+      "name": "VlindrelHallPlus",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "98",
+      "fileName": "VlindrelHallPlus-31696-v1-0.rar",
+      "uploadedUnix": "1360909453",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d99340c63e0a214f6c3643cf769c8b2bb743b63157482f6ee5cb5c2501e9ab0d/analysis/1407418504/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VlindrelHallPlus-31696-v1-0.rar?fid=1000009999&ttl=1535807427&ri=8192&rs=8192&setec=47cf0ff98ee02b801e906fa4ea290f5c"
+    },
+    {
+      "fileId": "1000170360",
+      "name": "VlindrelHallPlusHF",
+      "version": "v1.3",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "109",
+      "fileName": "VlindrelHallPlusHF-31696-v1-3.rar",
+      "uploadedUnix": "1438576970",
+      "modVersion": "v1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/8184bca51b3642c1d1e7bee4eab68addb361b39f6e33f5ed8cb5130b7fa4ec97/analysis/1438576982/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VlindrelHallPlusHF-31696-v1-3.rar?fid=1000170360&ttl=1535807427&ri=8192&rs=8192&setec=405f29bb079228d919afbc11c0206ed3"
+    }
+  ]
+}

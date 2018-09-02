@@ -1,0 +1,32 @@
+{
+  "modId": 9916.0,
+  "modName": "Drizzt DoUrden Sword Twinkle",
+  "summary": "Weapon created by user request so i didn\\'t spend much time on the texture - as usual.\r\nIF i ever add the 2nd sword i will update the file.",
+  "descriptionHtml": "Installation:\r\n\r\nCopy textures and meshes folder & Drizzt1.esp to your Skyrim\\\\data directory.\r\n\r\nThe folder-structure should look like:\r\n... Skyrim\\\\data\\\\textures\\\\weapons\\\\Drizzt\\\\ ALL DDS FILES\r\n... Skyrim\\\\data\\\\meshes\\\\weapons\\\\Drizzt\\\\ ALL NIF FILES\r\n... Skyrim\\\\data\\\\Drizzt1.esp\r\n\r\nMake sure that the plugin is activated in startmenu | DATA FILES.\r\nThe sword is placed in the forge-menu along with the Elven-items.\r\n\r\nIf you don\\'t have the necessary perk use the console (key ^) to receive the swords, enter:\r\nhelp \\\"Twinkle\\\" 4\r\nwrite down the displayed code and enter:\r\nplayer.additem CODE 1\r\n\\\"1\\\" = amount\r\n\r\nOR\r\n\r\nplayer.addperk 000cb40f\r\nto unlock the Elven smithing perk.\r\n\r\nTo uninstall the weapon just delete the extracted files.\r\n\r\nThx & have fun! ",
+  "categoryId": "55",
+  "version": "0.1",
+  "author": "Ghosu",
+  "createdUnix": "1329396946",
+  "updatedUnix": "1329397772",
+  "containsAdultContent": false,
+  "uploadedBy": "ghosu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "32054",
+      "name": "Twinkle RAR",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2048",
+      "fileName": "Twinkle RAR-9916-0-1.rar",
+      "uploadedUnix": "1329397772",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c8ebdf6cf3c62024ed88922f42a1f4310a39293fcf15206c88b323714e21740d/analysis/1406687231/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Twinkle%20RAR-9916-0-1.rar?fid=32054&ttl=1535769876&ri=8192&rs=8192&setec=6610113971ff93f237efeb29179b0aed"
+    }
+  ]
+}

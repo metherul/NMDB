@@ -1,0 +1,48 @@
+{
+  "modId": 51861.0,
+  "modName": "Skyrim Saver",
+  "summary": "Application written C# to manage saved games for skyrim.",
+  "descriptionHtml": "A simple application to manage different saved games in skyrim. The program initially copies all the save game files in &#34;My Documents/My Games/Skyrim/Saves&#34; to a new folder in that same directory called &#34;OldSaves&#34;, which you can then double click on in the window and rename. \r<br />You can then create, rename, and delete any saved game groups from there. \r<br />\r<br />The program edits your Skyrim.ini file to reflect whatever save folder you have chosen. The line that does this is the ONLY one that is changed. \r<br />\r<br />For security&#39;s sake, I&#39;m including the full source code with the program. You can tweak it as you see fit. \r<br />\r<br />The program is provided AS-IS. I don&#39;t plan on making any changes. I wrote this a few months back, and haven&#39;t been playing Skyrim lately. \r<br />\r<br />I have only tested this on my own machine, under Windows 8/8.1, x64 (however, it is compiled as 32-bit. No reason to make it x64). \r<br />\r<br />If you make any edits, please, only upload them to this website (The Nexus), and please credit me. ",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "Jack B",
+  "createdUnix": "1394203333",
+  "updatedUnix": "1394203294",
+  "containsAdultContent": false,
+  "uploadedBy": "Vouksh",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000100212",
+      "name": "SkyrimSaver Exe Only",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "88",
+      "fileName": "SkyrimSaver Exe Only-51861-1-0.zip",
+      "uploadedUnix": "1394203236",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/154a131e864fe984b94e082e4ce4e94947098b9c99c68e5cdc5be2398e85fad9/analysis/1407963723/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimSaver%20Exe%20Only-51861-1-0.zip?fid=1000100212&ttl=1535834529&ri=8192&rs=8192&setec=9bf2dd9d351791fcf96e5082d1dbcd9e"
+    },
+    {
+      "fileId": "1000100214",
+      "name": "SkyrimSave Source Only",
+      "version": "1.0s",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "127",
+      "fileName": "SkyrimSave Source Only-51861-1-0s.zip",
+      "uploadedUnix": "1394203294",
+      "modVersion": "1.0s",
+      "virusScanUrl": "https://www.virustotal.com/file/d0d1743774a548c23a9f8f64a4204ac8ea6a0818699bc0b972c6edec5ead1628/analysis/1407963725/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyrimSave%20Source%20Only-51861-1-0s.zip?fid=1000100214&ttl=1535834529&ri=8192&rs=8192&setec=c5ad1aaaf04191985e80675622b4c8d1"
+    }
+  ]
+}

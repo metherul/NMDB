@@ -1,0 +1,48 @@
+{
+  "modId": 18938.0,
+  "modName": "Disabled Ranged and Magic KillCams",
+  "summary": "Disabled Ranged and Magic KillCams for Skyrim Update 1.6",
+  "descriptionHtml": "This mod disables [s]all[/s] [b]ranged and magic[/b] KillCams as of Skyrim Patch 1.6.\r\n\r\nIt does that by adding the constraint \\\"GetRandomPercent < 0.00\\\" (which is never true) to MagicOrBowCams, [s]MeleeCams and PairedKillTest (which is probably not used yet anyways)[/s].\r\n[color=\\\"red\\\"][b]Turns out melee KillCams cannot be disabled that easily.[/b][/color]\r\n\r\nIt also sets these variables to 0:\r\n\r\nName (Original value)\r\n\r\nfKillCamBaseOdds (1.0)\r\nfKillCamLevelBias (0.01)\r\nfKillCamLevelFactor (0.5)\r\nfKillCamLevelMaxBias (0.1)\r\nfKillCamLevelOffset (4)\r\n\r\nThis SHOULD disable every KillCam.\r\n\r\nFeel free to edit or redistribute, wouldn\\'t want to force KillCams on anyone...",
+  "categoryId": "78",
+  "version": "1.1",
+  "author": "ravenmast0r",
+  "createdUnix": "1339944100",
+  "updatedUnix": "1339968259",
+  "containsAdultContent": false,
+  "uploadedBy": "ravenmast0r",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "68607",
+      "name": "Disable KillCams",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Disable KillCams-18938-1-0.7z",
+      "uploadedUnix": "1339944193",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5b551b92f2e761b678477ebfb5945d609c9c761a6c41bde045ed5d09514389cd/analysis/1406965142/",
+      "changelogHtml": " Initial release. <br/> \n Causes bugs with melee and stealth-melee KillCams. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Disable%20KillCams-18938-1-0.7z?fid=68607&ttl=1535786096&ri=8192&rs=8192&setec=a836ec4c8be73d8d49a71dadd81cd662"
+    },
+    {
+      "fileId": "68683",
+      "name": "Disable Ranged KillCams",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Disable Ranged KillCams-18938-1-1.7z",
+      "uploadedUnix": "1339968259",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/e33b6c56fc899ee72bf3c4bf07c451473e7987999b5fdbf0b676cc85ede7ba5c/analysis/1406966043/",
+      "changelogHtml": " Disables only ranged and magic KillCams. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Disable%20Ranged%20KillCams-18938-1-1.7z?fid=68683&ttl=1535786096&ri=8192&rs=8192&setec=df645d8789ac67065d0d87f73059c4e1"
+    }
+  ]
+}

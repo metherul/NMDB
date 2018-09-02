@@ -1,0 +1,32 @@
+{
+  "modId": 40313.0,
+  "modName": "A Better Armor Formula",
+  "summary": "Changes the armor formula from scaling exponentially to scaling linearly with a balanced way to have infinite armor.",
+  "descriptionHtml": "[center][b][u][size=7]TL;DR[/size][/u][/b]\r\n-No armor cap\r\n-MUCH better armor scaling\r\n-Improvements to Troy1010\\'s http://skyrim.nexusm...m/mods/15860//?\r\n\r\n[b][i][size=5]What does this mod do for gameplay?[/size][/i][/b]\r\nHere are some scenarios to consider:\r\n\r\nCasting oakflesh as a low level mage will actually have a significant impact! No longer are the first 300 points of armor so ridiculously useless.\r\n\r\nThe Hidden Armor Rating is archaic and only existed to help counter balance the poor scaling of low level armor. It is gone!\r\n\r\nThere is no armor cap! In Vanilla, between enchanting, alchemy, smithing, and armor perks it was waay to easy to get the cap. Even altering the formula to make it harder to reach the cap just damage the effectiveness of armor early on. \r\n\r\nNow\r\n---567=80% or 500% effective health\r\n---1000=88% or 814% effective health\r\n---1500=91% or 1171% effective health.\r\n\r\n[size=7][i][b][u]IT\\'S MATH VOODOO!![/u][/b][/i][/size]\r\n\r\n***************************************************************************************************************************************\r\n[/center]\r\n[size=3][u]Now, I\\'ll explain the difference between this mod and the default armor system:[/u][/size]\r\n\r\n[i][u]The default armor scaling system is CRAP:[/u][/i]\r\n\r\n<%dmgReduction>=<Armor rating>*.0012\r\n\r\nYour first 100 armor allows you to take a paltry (that means pathetically small) 13 extra physical damage with 100 base hp.\r\nBut going from 550 to 650 allows you to take an egregious (that means stupid high) 160 extra physical damage with the same base hp.\r\n\r\nStupid Stupid Stupid!!\r\n\r\nThis system is so incredibly awful that Bethesda had to give you a free 25 armor for each piece you equipped to help make it somewhat useful early on. And THEN they had to cap the armor at 80% because the player could easily get enough smithing/heavy armor stats to go over 100%.\r\n\r\nSooo dumb.\r\n\r\n[i][u]This new armor scaling system is CRAZY. FRICKIN\\'. AWESOME:[/u][/i]\r\n\r\n<%dmgReduction>=<Armor rating>/(<Armor rating>+140)\r\n\r\nYour first 100 armor allows you to take 71 extra phisical damage with 100 base hp.\r\nBut going from 550 to 650 allows you to take....TA DAAAA 71 extra physical damage.\r\n\r\n\r\n\r\n<<<more to write>>>",
+  "categoryId": "24",
+  "version": "5.0.0",
+  "author": "Solace",
+  "createdUnix": "1376502997",
+  "updatedUnix": "1376503851",
+  "containsAdultContent": false,
+  "uploadedBy": "chrisnic6",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000046922",
+      "name": "Better_Armor_Formula",
+      "version": "5.0.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Better_Armor_Formula-40313-5-0-0.zip",
+      "uploadedUnix": "1376503851",
+      "modVersion": "5.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4f542eaf7d62be136940d83f66cb5c22093b22925ccaea6d2ab59bd4796cef66/analysis/1407681965/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Better_Armor_Formula-40313-5-0-0.zip?fid=1000046922&ttl=1535820903&ri=8192&rs=8192&setec=ccb95910a71c75ddd500d0689277a372"
+    }
+  ]
+}

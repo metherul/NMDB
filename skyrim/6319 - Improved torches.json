@@ -1,0 +1,48 @@
+{
+  "modId": 6319.0,
+  "modName": "Improved torches",
+  "summary": "Improves torches lights: warmer color and a bit smaller radius for natural looking torches!",
+  "descriptionHtml": "[SIZE=5]Better torches, brighter when closer and with a warmer realistic light[/SIZE]\r\n\r\nThis mod was previously known as Dimmed torches. To avoid confusion (actually aren\\'t \\\"dimmed\\\") this has been renamed.\r\n\r\nAlways hated that unnatural white-blue light casted by torches in the vanilla game: they look like powerful electric torches from the future, instead of real burning flames! This mod tries to improve their casted light for a more immersive experience.\r\nTorches have now a warmer light with a slightly reduced radius and better brightness. Enjoy!\r\n(No performance hit at all)\r\n\r\nManual Installation:\r\njust unzip the .esp file into Data directory and enjoy, but don\\'t forget to activate only the mod version for your language (ITA, GER, ENG, FR).\r\n\r\nEDIT:\r\nAdded English, German, French, Spanish, Italian versions.\r\nSorry for Japanese friends but the editor ATM has no extended Unicode support.\r\n\r\nHistory:\r\n1.1 Improved brightness, increased range a bit, added shadowed version too (identical for the rest to the non-shadowed version).\r\n1.2 Improved color: less orange in the mines. Drawbacks: they look more white than before (previous screenshots) at Witherun for example, but that\\'s ok since also the other fires outside are whiter. Previous version had a warmer color at Whiterun but looked too orange in interiors...\r\n1.3 Increased radius. Minor retouch to colors, now suitable for all interiors and exteriors.\r\n1.4 Multilanguage now!\r\n1.5 Improved brightness. Fixed torch sound.\r\n\r\n\r\nWARNING!\r\nShadowed version is buggy (bugs in the original Bethesda engine! It\\'s not my fault) and suffers these known issues:\r\n- some fps hits, depending on your hardware\r\n- guards and NPC will have 0.5+ brighter torches compared to player\\'s torch.\r\n- sometimes lights may disappear depending on the view angle (just move the mouse)\r\n- circle-shadows artifacts on the ground and on top (if you want you could use the alternative .NIF file from the mod [url=http://www.skyrimnexus.com/downloads/file.php?id=5848]Torches Cast Shadows[/url] to mitigate the issue (hi Phitt! ;))\r\n\r\n[B]With Skyrim v1.5+ the shadowed version seem not to work anymore outdoor. Indoor does work. For this reason has been dropped support.[/B]\r\n\r\nFAQ:\r\nQ) Sometimes when I exit inns guards are carrying a torch with no light. Something is broken?\r\nA) No, it\\'s just a bug in the original game engine.\r\n\r\nQ) Why guards/NPCs torches aren\\'t flickering like mine?\r\nA) It\\'s the same in the original game engine. Can\\'t fix it. I could downgrade player torches too removing flickering if you want...\r\n\r\nQ) Why can\\'t you add real light and shadows to torches?\r\nA) Long answer. Light system in Skyrim is somewhat buggy and primitive and has been simplified since Skyrim 1.6.x.x. After this version outdoor shadows from torches stopped working and now, if enabled, they just intensify the shadows casted by the ambient light! I suspect they did some changes to optimize the game speed. As a result if you have a torch at Markarth (and other places...) you\\'ll see randomly missing casted light against walls, rocks, and the floor, depending on your camera view angle.\r\nAs far as I can remember, before 1.6 everything worked better and without these (new) bugs. No disappearing lights for walls etc. and also shadows were working flawlessly indoor and outdoor (see pic \\'Brighter with shadows\\').",
+  "categoryId": "85",
+  "version": "1.5",
+  "author": "hexaae",
+  "createdUnix": "1326676333",
+  "updatedUnix": "1353894085",
+  "containsAdultContent": false,
+  "uploadedBy": "rolloLG",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "68867",
+      "name": "Dimmed torches multilanguage",
+      "version": "1.4",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Dimmed torches multilanguage-6319-1-4.zip",
+      "uploadedUnix": "1340042309",
+      "modVersion": "1.4",
+      "virusScanUrl": "https://www.virustotal.com/file/c61ff5b741c82807c0401942e5c7036531934656efd5fdde44b5fe5a7f9eb7cc/analysis/1406967910/",
+      "changelogHtml": " Multilanguage (CZ, ENG, FR, GER, ITA, PL, RUS, SPA) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dimmed%20torches%20multilanguage-6319-1-4.zip?fid=68867&ttl=1535763648&ri=8192&rs=8192&setec=3bc3212a03bbece790ffaccc4cd00cc7"
+    },
+    {
+      "fileId": "101673",
+      "name": "Improved torches",
+      "version": "1.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Improved torches-6319-1-5.zip",
+      "uploadedUnix": "1353894085",
+      "modVersion": "1.5",
+      "virusScanUrl": "https://www.virustotal.com/file/7121b26525c1f4e8dacc9e44ce53cf9b48c544a7fce5ddf485144fa9c30f7116/analysis/1407278346/",
+      "changelogHtml": " Better brightness. Fixed crackling fire sound. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Improved%20torches-6319-1-5.zip?fid=101673&ttl=1535763649&ri=8192&rs=8192&setec=e09d0b8b1a348f2d2fb41c1fcb7cf435"
+    }
+  ]
+}

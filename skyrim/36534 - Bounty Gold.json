@@ -1,0 +1,32 @@
+{
+  "modId": 36534.0,
+  "modName": "Bounty Gold",
+  "summary": "Lets you configure how much gold you get for Bounty Quests.",
+  "descriptionHtml": "[center][img]http://static-3.nexusmods.com/15/mods/110/images/36534-1-1369837619.png[/img][/center]\r<br />\r<br />[center][url=http://www.skyrimgems.com][img]http://i.imgur.com/1wXSO.png[/img][/url][/center]\r<br />\r<br />[b][size=4]DESCRIPTION:[/size][/b]\r<br />Tired of getting 100 gold at level 50 for killing a dragon?  Then change it&#33;&#33;\r<br />\r<br />The successor to my popular [url=http://skyrim.nexusmods.com/mods/11278]Increased Bounty Rewards[/url] modification. This version is completely configurable through the SkyUI Mod Customization Menu. It is save game friendly. Change the values at any time, before, during, or just prior to turning in the quest. Doesn&#39;t matter. Changes are saved immediately. Uninstalling the mod will revert the values back to default.\r<br />\r<br />[b][color=yellow]Changing over to this one from the previous mod?[/color][/b]\r<br />Just uninstall the previous one and install this one. There should be no issues whatsoever.\r<br />\r<br />\r<br />[center][youtube]Iqb37xj7LJc[/youtube][/center]\r<br />\r<br />\r<br />[b][size=4]REQUIREMENTS:[/size][/b]\r<br />[url=http://skyrim.nexusmods.com/mods/3863/?]SkyUI[/url]\r<br />Note: See the sticky on the comments page for how to use it without SkyUI.\r<br />\r<br />[b][size=4]COMPATIBILITY:[/size][/b]\r<br />Compatible with anything that doesn&#39;t mess with the QF_BQxx_xxxx scripts (there are 4 of them)\r<br />\r<br />[b][color=yellow]Special Note:[/color][/b]\r<br />The edited base game scripts for this mod are packed in the accompanying .bsa file, so the Nexus Mod Manager won&#39;t complain if another mod has already installed their own versions of those same scripts. If you are unsure, check your skyrim/data/scripts/ folder and make sure there are no QF_BQxx_xxxx.pex scripts present (there are 4 of them). If you see any, get rid of them, as they will take precedence over the ones in this mod&#39;s .bsa file.\r<br />\r<br />\r<br />[b][size=4]CHANGE LOG:[/size][/b]\r<br />[b][color=yellow]Version 1.1[/color][/b]\r<br />Increased the slider maximums.\r<br />Base Gold increased from 1,000 to 5,000\r<br />Leveled Gold increased from 100 to 500\r<br />\r<br />Slider increments are now in steps of 10 for Base Gold, and steps of 5 for Leveled Gold. This was done to make such a large range of values less cumbersome to input.\r<br />\r<br />If you absolutely must have more gold, you can set larger values through the console.\r<br />\r<br />example:\r<br />set BG_DragonBaseGold to 7000\r<br />\r<br />Complete list of variables:\r<br />BG_BanditBaseGold\r<br />BG_BanditLeveledGold\r<br />BG_GiantBaseGold\r<br />BG_GiantLeveledGold\r<br />BG_ForswornBaseGold\r<br />BG_ForswornLeveledGold\r<br />BG_DragonBaseGold\r<br />BG_DragonLeveledGold\r<br />\r<br />\r<br />[b][color=yellow]Version 1.0[/color][/b]\r<br />Initial Release. Shut up and pay me&#33;\r<br />\r<br />\r<br />\r<br />[b]Other mods by me:[/b]\r<br />[url=http://skyrim.nexusmods.com/mods/36534]Bounty Gold[/url] - 100 gold for killing a dragon? No thanks&#33;\r<br />[url=http://skyrim.nexusmods.com/mods/11025]Transmute Iorn Ore First[/url] - Essential if you like crafting jewelry.\r<br />[url=http://skyrim.nexusmods.com/mods/22940]Functional Homes[/url] - Make every home your current home.\r<br />[url=http://skyrim.nexusmods.com/mods/36512]Light Foot Only While Sneaking[/url] - Don&#39;t sneak without it&#33;\r<br />[url=http://skyrim.nexusmods.com/mods/36514]Alchemy Tree Re-organized[/url] - Specialize in Potions or Poisons.\r<br />[url=http://skyrim.nexusmods.com/mods/22996]No Leveled Item Rewards[/url] - Get the best reward item regardless of your level.",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "gorey666",
+  "createdUnix": "1369839477",
+  "updatedUnix": "1369882371",
+  "containsAdultContent": false,
+  "uploadedBy": "gorey666",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000032068",
+      "name": "Bounty Gold",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "32",
+      "fileName": "Bounty Gold-36534-1-1.zip",
+      "uploadedUnix": "1369882371",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/e3a38b5786d251298a83354daa7d839ae7c950235946acf8827d3ba210a32905/analysis/1407586313/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bounty%20Gold-36534-1-1.zip?fid=1000032068&ttl=1535815769&ri=8192&rs=8192&setec=b20eed777155dbec8a535dd22600468b"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 8778.0,
+  "modName": "Spell Ordering By descending Skill Mastery",
+  "summary": "This mod orders all spells by the skill mastery feat requires to learn it (and by starting letter within those categories). Higher levels are higher in the list, since you are most likely to want to use them the higher your skill (and level) is.",
+  "descriptionHtml": "This mod tries a quick and dirty fix for one of The Elder Scrolls older problems: spells are simply ordered lexicographically and thus by designer naming whim.\r\nThe mod simply adds a number of leading whitespaces equal to the mastery level to the spell name. Since both the spell and favorites menus are aligned to the right, this should not introduce graphical artifacts.\r\nIn consequence, higher level spells are higher in the list (still ordered by starting letter within its grouping).",
+  "categoryId": "42",
+  "version": "1.0",
+  "author": "Pupsmonster",
+  "createdUnix": "1328911520",
+  "updatedUnix": "1328912269",
+  "containsAdultContent": false,
+  "uploadedBy": "Pupsmonster",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "28595",
+      "name": "SpellReorder_v1_0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "SpellReorder_v1_0-8778-1-0.rar",
+      "uploadedUnix": "1328912269",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f1aa424999014e78c9232fff38875e71acbf5936acdae1ef7850d574299912c8/analysis/1406667910/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SpellReorder_v1_0-8778-1-0.rar?fid=28595&ttl=1535767823&ri=8192&rs=8192&setec=279e5f42eeb4086c90c268d933710a2f"
+    }
+  ]
+}

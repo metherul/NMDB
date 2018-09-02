@@ -1,0 +1,48 @@
+{
+  "modId": 59199.0,
+  "modName": "Atronach Forge Soul Gem Crafting",
+  "summary": "Create unfilled soul gems at the Atronach Forge by combining lower-tier gems. Create black soul gems every 8 days during the Shade of Revenant",
+  "descriptionHtml": "Offload your useless low tier soul gems by combining them into more powerful ones in a more immersive way than doing it at a regular smithing station. This mod gives the Midden Atronach Forge underneath the College of Winter the ability to merge soul gems into higher tiered ones, and, every 8th day, on the Shade of Revenant, darken grand soul gems into black soul gems like in Oblivion.\r<br />\r<br />[b]The crafting recipes are as follows:[/b]\r<br />[list][*][size=2]2 soul gem fragments (any of the 5 variants) =&gt; 1 unfilled petty soul gem[/size][/*]\r<br />[*][size=2]2 filled or unfilled petty soul gems =&gt; 1 unfilled lesser soul gem[/size][/*]\r<br />[*][size=2]2 filled or unfilled lesser soul gems =&gt; 1 unfilled common soul gem[/size][/*]\r<br />[*][size=2]2 filled or unfilled common soul gems =&gt; 1 unfilled greater soul gem[/size][/*]\r<br />[*][size=2]2 filled or unfilled greater soul gem =&gt; 1 unfilled grand soul gem[/size][/*]\r<br />[*][size=2]1 filled or unfilled grand soul gem =&gt; 1 unfilled black soul gem (available every 8th day from the start of the game)[/size][/*]\r<br />[/list]\r<br />[b]F.A.Q.[/b]\r<br />[list][*][u]The forge used more than 2 gems when combining&#33;[/u]\r<br />[/*]\r<br />[*]This behaviour is also present in the original Atronach Forge recipes with regards to gem stones and soul gems. This is due to the way RemoveItem function deals with FormLists in Skyrim. When RemoveItem is called for a FormList, it will remove n of each item in the list. In this case, it will try to remove 2 of both filled and unfilled gem from the offering box. I could fix it, but that would make the recipe lists and Papyrus code messy. Just put in the minimum of what is needed; the offering box is always hungry for more.\r<br />[/*]\r<br />[/list]\r<br />[list][*][u]When is the Shade of Revenant?[/u]\r<br />[/*]\r<br />[*]For simplicity, I set it to be every 8 days since the first day your Dragonborn started Skyrim. If in your general stats, the number of days passed is divisible by 8, then you can craft black soul gems.\r<br />[/*]\r<br />[/list]\r<br />[size=2][b]Install[/b]\r<br />[list][*][size=2]Install with your mod organizer, or just extract &#34;Atronach Forge Soul Gem Crafting.esp&#34; into your &#34;Skyrim/data&#34; folder and &#34;AtronachForgeSCRIPT.pex&#34; into your &#34;Skyrim/data/scripts&#34; folder.[/size][/*]\r<br />[/list]\r<br />[b]Uninstall[/b][/size][list][*][size=2]Deactivate the mod with your mod organizer, or just delete Atronach Forge Soul Gem Crafting.esp from your &#34;Skyrim/data&#34; folder and &#34;AtronachForgeSCRIPT.pex&#34; from your &#34;Skyrim/data/scripts&#34; folder. The Atronach Forge should go back to its original behaviour.[/size][/*]\r<br />[/list]\r<br />[size=2][b]Compatibility[/b][/size]\r<br />[list][*][size=2]Any mod that simply adds recipes to the Atronach Forge should be compatible. This mod do not change any of the original recipe lists. Any changes to the script or the pull bar are probably not safe.[/size][/*]\r<br />[/list]",
+  "categoryId": "28",
+  "version": "1.1",
+  "author": "WankingSkeever",
+  "createdUnix": "1413713487",
+  "updatedUnix": "1415271795",
+  "containsAdultContent": false,
+  "uploadedBy": "theregisteredone",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000131639",
+      "name": "Atronach forge soul gem crafting",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Atronach forge soul gem crafting-59199-1-0.rar",
+      "uploadedUnix": "1413712717",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ca8b44f0235e912b790f232e07a181c4def1c5b67a4082d78cab3e39608fbe7d/analysis/1413712802/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Atronach%20forge%20soul%20gem%20crafting-59199-1-0.rar?fid=1000131639&ttl=1535846289&ri=8192&rs=8192&setec=ab01d74eefc22d3b8fd5c8a51fc258ea"
+    },
+    {
+      "fileId": "1000134120",
+      "name": "Atronach forge soul gem crafting",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Atronach forge soul gem crafting-59199-1-1.rar",
+      "uploadedUnix": "1415271795",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/2ad038bbd31999ca41674ac405995936cd32cc828f89eb4f7d272c12696fe361/analysis/1415271843/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Atronach%20forge%20soul%20gem%20crafting-59199-1-1.rar?fid=1000134120&ttl=1535846289&ri=8192&rs=8192&setec=d14e8cfc12991a396464af5dd2b610e2"
+    }
+  ]
+}

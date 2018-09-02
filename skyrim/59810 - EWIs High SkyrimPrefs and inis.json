@@ -1,0 +1,48 @@
+{
+  "modId": 59810.0,
+  "modName": "EWIs High SkyrimPrefs and inis",
+  "summary": "EWIs High SkyrimPrefs and inis\r<br />customizable inis for ENB and non-ENB Users.\r<br />i have the inis added some notes. thus, you can easy customize everything to your hardware.\r<br />",
+  "descriptionHtml": "[url=http://www.fotos-hochladen.net][img]http://img5.fotos-hochladen.net/uploads/min36resizeglqw2vb0th.jpg[/img][/url]\r<br />\r<br />[color=#ffff00][size=5]EWIs High SkyrimPrefs and inis[/size][/color]\r<br />customizable inis for ENB and non-ENB Users.\r<br />i have the inis added some notes. thus, you can easy customize everything to your hardware.\r<br />\r<br />[color=#00ffff]Installation:[/color]\r<br />make a backup of your inis before installing my files.\r<br />-start your game launcher and set all to ultra.\r<br />-overwrite your inis with mine. the inis are located in C/user/documents/my games/skyrim.\r<br />-right-click on skyrim.ini, click properties and select the read-only checkbox.\r<br />-save.\r<br />the file is now protected if you ever start the game launcher.\r<br />the launcher would change some settings again.\r<br />\r<br />[color=#00ffff]Mod Organizer Users:[/color]\r<br />Mod Organizer makes and uses its own Skyrim.ini and Skyrimprefs.ini\r<br />located at Mod Organizer/profiles/your profiles name.\r<br />[color=#ff0000]------------------------------[/color]\r<br />skyrim uses default 4 cores.\r<br />so we have nothing to add to the INI but if you have 8 cores (hyperthreaded),\r<br />you can telling skyrim that you have 8 cores. add this lines to your\r<br />Skyrim.ini, if you have 8 cores:\r<br />\r<br />[General]\r<br />iNumHWThreads=8\r<br />iHWThread6=6\r<br />iHWThread5=6\r<br />iHWThread4=6\r<br />iHWThread3=2\r<br />iHWThread2=2\r<br />iHWThread1=2\r<br />iAIThread2HWThread=3\r<br />iAIThread1HWThread=2\r<br />iRenderingThread2HWThread=1\r<br />iRenderingThread1HWThread=0\r<br />\r<br />for 6 Cores:\r<br />\r<br />[General]\r<br />iNumHWThreads=6\r<br />iHWThread6=5\r<br />iHWThread5=5\r<br />iHWThread4=4\r<br />iHWThread3=4\r<br />iHWThread2=1\r<br />iHWThread1=0\r<br />iAIThread2HWThread=3\r<br />iAIThread1HWThread=2\r<br />iRenderingThread2HWThread=1\r<br />iRenderingThread1HWThread=0\r<br />[color=#ff0000]------------------------------[/color]\r<br />[color=#00ffff]How To Disable CPU Core Parking?[/color]\r<br />\r<br />1. Copy the following registry key entry between the brackets [ 0cc5b647-c1df-4637-891a-dec35c318583 ].\r<br />2. Select your start button.\r<br />3. In the search box, type ‘regedit’ and press enter.\r<br />4. Once your registry editor is open, select ‘Edit’ and ‘Find…’.\r<br />5. Paste the above registry key in the box and select ‘Find’.\r<br />6. Once it has located it, look for the keys on the right hand side labeled MinValue and MaxValue.\r<br />7. Double click on each value and make sure they are both set to ’0&#39;.\r<br />8. Close the registry editor and shut down your computer.\r<br />9. Power the computer back up.\r<br />10. Core Parking should now be disabled.\r<br />[color=#ff0000]------------------------------[/color]\r<br />[color=#00ffff]z-fighting?[/color]\r<br />\r<br />z-fighting (LOD flicker caused by competing planar textures)\r<br />before you tweak your inis make sure you have z-fighting.\r<br />before testing, copy your Skyrim.ini and your SkyrimPrefs.ini located in your Documents/My Games/ Skyrim folder\r<br />to a separate folder.\r<br />there is no solution which eliminates all but it can be reduced. important for you is, this fix costs you some FPS.\r<br />this fix is only approved for Skyrim Ultra settings:\r<br />\r<br />Fix:\r<br />open your SkyrimPrefs.ini, located in Documents/My Games/ Skyrim\r<br />edit this sections of the INI like so:\r<br />\r<br />[TerrainManager]\r<br />fBlockMaximumDistance=500000.0000\r<br />fBlockLevel1Distance=140000.0000\r<br />fBlockLevel0Distance=75000.0000\r<br />fSplitDistanceMult=4.0\r<br />\r<br />[MAIN]\r<br />fSkyCellRefFadeDistance=500000.0000\r<br />\r<br />Save and exit.\r<br />\r<br />open Skyrim.ini. Under [Display] add the following line:\r<br />fNearDistance=20.0000\r<br />\r<br />Save and exit.\r<br />\r<br />the normal setting is 15.0000. 25.0000 is the maximum approved value. to be precise:\r<br />you&#39;ll get clipping and see through objects as if they were transparent if you move close to them.\r<br />this CAN happen by increasing fNearDistance to anything above 15. so try out values between\r<br />15.0000 and 25.0000 to find your own sweet spot. it&#39;s up to you wheter you want that issue\r<br />to be sorted out or z-fighting. as it helps a lot, doesn&#39;t costs performance and the side effect is negligible.\r<br />ALSO:\r<br />the fNearDistance-clipping effect is getting greatly increased if you use FOV (field of view) tweaks.\r<br />any FOV greather than 70 will increase clipping. for standard FOV fNearDistance=25.0000 works ok. you get\r<br />clipping but in no problematic game ruining way, since you usually don&#39;t want to run into things.\r<br />using a bigger FOV makes the clipping effect far more noticeable in game. the fix will still improve\r<br />z-fighting-issues even though you keep fNearDistance=15.0000 or delete the line completely from\r<br />your Skyrim.ini, just not as well.\r<br />\r<br />Reference Guide: S.T.E.P. Project Wiki, thanks to Gopher.\r<br />[color=#ff0000]----------------------------------[/color]\r<br />[url=http://www.fotos-hochladen.net][img]http://img5.fotos-hochladen.net/uploads/logofjpc3oeyan.jpg[/img][/url]",
+  "categoryId": "39",
+  "version": "V09",
+  "author": "ewi65",
+  "createdUnix": "1415554095",
+  "updatedUnix": "1416094822",
+  "containsAdultContent": false,
+  "uploadedBy": "ewi65",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000135462",
+      "name": "EWIs High SkyrimPrefs and inis v09",
+      "version": "V09",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "EWIs High SkyrimPrefs and inis v09-59810-V09.rar",
+      "uploadedUnix": "1416094800",
+      "modVersion": "V09",
+      "virusScanUrl": "https://www.virustotal.com/file/c069092445fcc7819a8a6c94f9d5fe2aab1c8b11b665d37c48d226b277b614b1/analysis/1416094862/",
+      "changelogHtml": " new lines added for Tamriel Reloaded Grass Plants and enhanced wetness and puddles <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/EWIs%20High%20SkyrimPrefs%20and%20inis%20v09-59810-V09.rar?fid=1000135462&ttl=1535847203&ri=8192&rs=8192&setec=58ea0e4d3c66b07145bff387d2fa5117"
+    },
+    {
+      "fileId": "1000135464",
+      "name": "EWIs Medium SkyrimPrefs and inis V09",
+      "version": "V09",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "EWIs Medium SkyrimPrefs and inis V09-59810-V09.rar",
+      "uploadedUnix": "1416094822",
+      "modVersion": "V09",
+      "virusScanUrl": "https://www.virustotal.com/file/090fb91c1376a07144b8b474f19421342a9e9cccf72e7774fdd9e2ef794e2a1e/analysis/1416094922/",
+      "changelogHtml": " new lines added for Tamriel Reloaded Grass Plants and enhanced wetness and puddles <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/EWIs%20Medium%20SkyrimPrefs%20and%20inis%20V09-59810-V09.rar?fid=1000135464&ttl=1535847203&ri=8192&rs=8192&setec=434d1029db7fbb470b4de3ceafe6998f"
+    }
+  ]
+}

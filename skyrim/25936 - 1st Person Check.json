@@ -1,0 +1,48 @@
+{
+  "modId": 25936.0,
+  "modName": "1st Person Check",
+  "summary": "An ESM that provides a global variable for mod authors to use to check the player&#39;s camera position.\r<br />An ESP that provides the same which mod authors could build upon.\r<br />Tutorial instructions for mod authors to recreate the process.",
+  "descriptionHtml": "1st Person Check is my offering to the mod community for mod authors to either use as a master, a base to build on or to recreate by following the tutorial.  The purpose is to provide a global variable which can be used in Papyrus scripts so that authors may script different actions depending upon whether the player is in 1st person view or 3rd person view.\r<br />\r<br />This is not a new idea.  A tutorial, which for the uninitiated can be confusing, is located at [url=http://www.creationkit.com/Passing_Conditions_to_Papyrus]http://www.creationkit.com/Passing_Conditions_to_Papyrus[/url]. There may even already be mods out that use this process. \r<br />\r<br />I have expanded upon this method and outlined the steps to be a bit more clear and precise so that even new mod authors should be able to replicate. Please locate the tutorial in the Articles section [url=http://forums.nexusmods.com/index.php?/topic/814571-tutorial-to-recreate-1st-person-check]http://forums.nexusmods.com/index.php?/topic/814571-tutorial-to-recreate-1st-person-check[/url].  It is recommended that you read both the original and my tutorial. The original explains that the idea is possible on other conditions. Whereas my tutorial is a specific walk through for setting up to check the status of 1st person view\r<br />\r<br />There is also available an ESM as the main download which could be used as a required master file. In the optional downloads is an ESP file (identical to the ESM) which could be used to build a new mod upon.\r<br />\r<br />To test either the ESM or ESP install one (not both) to your Skyrim &gt; Data directory. Start a game (new or old). Bring up the console and type [color=orange]help abim[/color] You should get as a result a global variable called abIM_1stPersonView.  When the value is at 1 you should be in 1st person view. When the value is at 0 you should be in 3rd person view.\r<br />",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "IsharaMeradin",
+  "createdUnix": "1351047743",
+  "updatedUnix": "1351048144",
+  "containsAdultContent": false,
+  "uploadedBy": "IsharaMeradin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "95488",
+      "name": "1st Person View ESM",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "1st Person View ESM-25936-1-0.7z",
+      "uploadedUnix": "1351048101",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2601495d73f1d2541ace6b6f06e79b25a53b6a6973f420be55e3bbddf3851931/analysis/1407233882/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/1st%20Person%20View%20ESM-25936-1-0.7z?fid=95488&ttl=1535797683&ri=8192&rs=8192&setec=f1b3925a52cdcc3a38992597c6ebb728"
+    },
+    {
+      "fileId": "95489",
+      "name": "1st Person View ESP",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "1st Person View ESP-25936-1-0.7z",
+      "uploadedUnix": "1351048144",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/07ad3a40a06f8195b9c877b6d76a5378d067dacbd94d768ccc529e1d360b17dd/analysis/1407233882/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/1st%20Person%20View%20ESP-25936-1-0.7z?fid=95489&ttl=1535797683&ri=8192&rs=8192&setec=6288a84782c249dc0b22c609a2b96a14"
+    }
+  ]
+}

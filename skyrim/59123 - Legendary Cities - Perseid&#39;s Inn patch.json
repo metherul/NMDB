@@ -1,0 +1,32 @@
+{
+  "modId": 59123.0,
+  "modName": "Legendary Cities - Perseid&#39;s Inn patch",
+  "summary": "This is a quickly made patch for Legendary Cities - Tes Arena and Perseid&#39;s Inns and Taverns, for the NIghtgate Inn area.",
+  "descriptionHtml": "[size=3][b]As of version 2.0 of Legendary Cities, there&#39;s no more problematic occlusion planes on that mod, so this patch is pretty unnecessary. Howerver Cutting room floor&#39;s occlusion planes still conflict with perseid&#39;s inn in the same way, so now you know how to fix it.\r<br />\r<br />\r<br />NEW INFORMATION: The incompatibility is clearly an occlusion plane issue caused by occlusion planes added by Legendary Cities all over the insides of the vanilla Nightgate Inn, which is why suddenly being able to walk around there caused objects to not render, I don&#39;t really know how to deal with maps in the CK, but just outright removing the occlusion planes will [/b]lead to performance issues.[/size]\r<br />\r<br />\r<br />There&#39;s some sort of rendering issue or LOD or NAVMesh issue or who knows issue or something between [url=http://www.nexusmods.com/skyrim/mods/47989/]Legendary Cities  - Tes Arena[/url] and  [url=http://www.nexusmods.com/skyrim/mods/25029/]Perseids Inns and Taverns[/url] that happens in the Nightgate Inn area. This is a quick patch for that and should only remain here until a proper compatibility patch is made.\r<br />\r<br />This replaces the modified Nightgate Inn from Perseid&#39;s mod back to the vanilla big Nightgate Inn, it&#39;s only the exterior so the interior is still modified to Perseid&#39;s specification. Of course this means the outside and the inside don&#39;t look anything alike in a way that makes sense. This is why I&#39;d like to see a proper patch. Also changes the door destination on the inside to the vanilla destination for the Nightgate Inn exterior door.\r<br />\r<br />Basically Perseid&#39;s Inns and Taverns replaced the big Nightgate Inn with a much cozier smaller building more realistic for its new small interior. This has some sort of conflict with Legendary Cities because if you walk on ground that would otherwise be occupied by the big Nighgate Inn, the result is that buildings and rocks and trees all around you won&#39;t render anymore because I guess you wouldn&#39;t be able to see them anymore if the vanilla big Nighgate Inn would be on top of you.\r<br />\r<br />Frankly I&#39;m sure there&#39;s an actual easy solution to make them compatible, but until someone who actually knows what the problem is can fix it I&#39;m just gonna post my patch to get some attention to this incompatibility. ",
+  "categoryId": "84",
+  "version": "0.1",
+  "author": "patito",
+  "createdUnix": "1413525192",
+  "updatedUnix": "1413524923",
+  "containsAdultContent": false,
+  "uploadedBy": "patito",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000131320",
+      "name": "Patched NIghtgate Inn for Legendary cities and Realistic Room Rental",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Patched NIghtgate Inn for Legendary cities and Realistic Room Rental-59123-0-1.7z",
+      "uploadedUnix": "1413524923",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/0f22fed603cbd798d22f7479f399cbeeb74f9dc95416de4265d839b3086d8830/analysis/1413525002/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Patched%20NIghtgate%20Inn%20for%20Legendary%20cities%20and%20Realistic%20Room%20Rental-59123-0-1.7z?fid=1000131320&ttl=1535846154&ri=8192&rs=8192&setec=e6e1373b27efd98e76879472d69ce59c"
+    }
+  ]
+}

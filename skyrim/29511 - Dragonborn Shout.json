@@ -1,0 +1,32 @@
+{
+  "modId": 29511.0,
+  "modName": "Dragonborn Shout",
+  "summary": "Provides the player with a visually distinct, buff-oriented shout.",
+  "descriptionHtml": "\\\"Dragonborn Shout\\\" adds a single shout into the game, with some interesting and powerful effects.\r\n\r\nThe shout currently implemented, \\\"Might of the Dragonborn\\\", uses the same words as \\\"Unrelenting Force\\\". As you unlock the words for \\\"Unrelenting Force\\\", so shall you unlock \\\"Might of the Dragonborn\\\"; essentially, you\\'re unlocking two shouts at once. The unfortunate side-effect is that this shout doesn\\'t unlock automatically if you already have any part of \\\"Unrelenting Force\\\" unlocked; console commands need to be used to add to your character in this case. Depending on how well this little experiment works, this could be expanded on in the future.\r\n\r\nCurrently, the shout is a \\\"staged buff\\\", providing you with useful additional effects; these effects do not increase in effect (though the duration is), but rather different effects are added. Each stage is visually distinct as well, with different (but not excessive) visual effects being applied with each addition stage. Details below:\r\n\r\n*STAGE 1* -- \\\"Dragonborn\\'s Revitalization\\\" and \\\"Dragonborn\\'s Regeneration\\\"\r\nLasts 15 seconds, 20 second cooldown.\r\nHeals 20 health per second (yes, you finally have a healing shout), increases stamina and magicka regeneration by 1000%.\r\nGrants \\\"Dragonborn\\'s Vitality\\\" perk, increases health recovered by 50% (yes, it\\\\\\'s permanent).\r\nGrants \\\"Dragonborn\\'s Endurance\\\" perk, reducing the cost of all spells and power attacks by 50%.\r\n\r\n*STAGE 2* -- \\\"Dragonborn\\'s Cunning\\\"\r\nEffects of stage 1 included. Lasts 25 seconds, 30 second cooldown.\r\nProvides 50% spell absorb and magic resistance.\r\nGrants \\\"Dragonborn\\'s Wisdom\\\" perk, increasing spell power and duration by 50%.\r\n\r\n*STAGE 3* -- \\\"Dragonborn\\'s Might\\\"\r\nEffects of stages 1 and 2 included. Lasts 35 seconds, 40 second cooldown.\r\nProvides 50% damage resistance and increases damage by 250%.\r\nGrants \\\"Dragonborn\\'s Dominance\\\" perk, making you immune to stagger and doubling stagger effects you inflict on enemies.\r\n\r\n\r\nThis shout will turn you into a powerhouse, as befitting one with the soul of a dragon.",
+  "categoryId": "75",
+  "version": "v1.0.0",
+  "author": "Lord Thauron",
+  "createdUnix": "1357435645",
+  "updatedUnix": "1357435696",
+  "containsAdultContent": false,
+  "uploadedBy": "LordThauron",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000000313",
+      "name": "Dragonborn Shout v1_0_0",
+      "version": "v1.0.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Dragonborn Shout v1_0_0-29511-v1-0-0.7z",
+      "uploadedUnix": "1357435696",
+      "modVersion": "v1.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b25d0b93f79445dc03f106af38504bfe5eb6a29cf91d497c013fcf87ec348955/analysis/1407339322/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dragonborn%20Shout%20v1_0_0-29511-v1-0-0.7z?fid=1000000313&ttl=1535803697&ri=8192&rs=8192&setec=6b464b441373e24bbed29bceae7ace68"
+    }
+  ]
+}

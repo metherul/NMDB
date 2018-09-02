@@ -1,0 +1,48 @@
+{
+  "modId": 9106.0,
+  "modName": "An Extended Math Library",
+  "summary": "An extended math library for more ... complicated arithmetic.",
+  "descriptionHtml": "Adds a math library.\r\n\r\nWhile math support has been substantially improved from Oblivion (yay, no more Taylor expansions for trig!), there\\'s still a lot lacking. This library will be a work in progress project to address these ... shortcomings.\r\n\r\nCurrently supported functions:\r\n\r\nexp (exponential)\r\nln (natural log)\r\nnormdist (normal distribution)\r\nnormdistCDF (the cumulative normal distribution)\r\nhyperbolic functions (sinh,cosh,tanh,coth,sech,csch)\r\narea hyperbolic functions(arsinh,arcosh,artanh,arcoth,arsech,arcsch)\r\nBlack-Scholes approximation (please see source) - BlackScholes (call/put,spot,strike,time,riskfreerate,volatility)\r\n\r\nv2 - improved the ln approximation by separating the base and mantissa. The default number of steps (4) should now generate ln up to floating point accuracy for all positive reals.\r\n\r\nFor iterated approximations (like ln), an optional \\\"steps\\\" parameter can be specified to trade off accuracy for speed, and vice versa.\r\n\r\nAll approximations will try to make use of basic arithmetic (as that\\'s fast).\r\n\r\nSources for approximations are credited, if available.\r\n\r\n[b]If you really want to see a specific function appear, leave a comment. Preferably a link too if you manage to locate an approximation.[/b]\r\n\r\n----\r\n\r\nTo enter the demo cell, type \\\"coc aaaExtendedMathTestCell\\\"\r\n\r\n----\r\n\r\nThis release can be reused/modified/edited in any way without prior contact of the author. Would appreciate a word or two of credit, though even this is not mandatory.",
+  "categoryId": "82",
+  "version": "2",
+  "author": "jimhsu",
+  "createdUnix": "1329026299",
+  "updatedUnix": "1329068366",
+  "containsAdultContent": false,
+  "uploadedBy": "jimhsu",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "29416",
+      "name": "Math library with demo",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "Math library with demo-9106.zip",
+      "uploadedUnix": "1329026343",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/fa1578653a59561622d539c472bdf194e325eb823b9e471c7d766d38d47e2c74/analysis/1406672345/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Math%20library%20with%20demo-9106.zip?fid=29416&ttl=1535768365&ri=8192&rs=8192&setec=1178f47bebbbbcacdb42f9fc7ac54519"
+    },
+    {
+      "fileId": "29759",
+      "name": "Math Library with demo v2",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "16",
+      "fileName": "Math Library with demo v2-9106-2.zip",
+      "uploadedUnix": "1329068366",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/44d6744ca8459c2a64b3edfc4cbe060b617cdb41594669279f05bba03eba5397/analysis/1406674203/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Math%20Library%20with%20demo%20v2-9106-2.zip?fid=29759&ttl=1535768365&ri=8192&rs=8192&setec=d28c24b203617bdf5c047ce954b77de2"
+    }
+  ]
+}

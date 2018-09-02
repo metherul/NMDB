@@ -1,0 +1,32 @@
+{
+  "modId": 8784.0,
+  "modName": "Jackalheads Complete Playable Monsters Fix",
+  "summary": "The final version of my monster fix mod.  The first version only fixed the camera, but this version fixes both the camera AND allows monsters to attack.  In addition, it also creates tons of new races based off of different variations of monsters, so now you can use player.setrace to be just about any monster or animal you can think of.",
+  "descriptionHtml": "NEW VERSION AVAILABLE!!!\r\nMaster Shape Shifter Mod:\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=11601\r\n\r\nThe download link is in the file\\'s description.  NOT hosted on Skyrim Nexus.\r\n--------------------------------------------------------------------------------------------------------------------------------------\r\n\r\n\r\nIf you are a fan of Health & Fitness and wish to support me, please visit and or subscribe to my Health & Fitness Blog at http://www.ab-pocalypse.com\r\n--------------------------------------------------------------------------------------------------------------------------------------\r\nFULL TUTORIAL ON HOW TO MAKE ANY MONSTER FULLY PLAYABLE ON MY HUBPAGES ACCOUNT:\r\nhttp://jaredbangerter.hubpages.com/hub/How-to-Play-as-Monsters-In-Skyrim?done\r\n--------------------------------------------------------------------------------------------------------------------------------------\r\n\r\nWARNING:  This mod uses the cell \\'unownedcell\\' that is probably used by a lot of people from the Creation Kit tutorials.  It adds a hideout that connects into Forsaken Cave.  Therefore, if your mod or another mod you have installed uses unownedcell, there will most likely be conflicts unless you disable that other mod.  Feel free to experiment.  In hind sight, I realized I was building my monster fix mod in the same mod I was making this hideout in. If you don\\'t like it, then make your own monster fix mod! :P\r\n\r\nThis is the final version of my monster fix mod.  The first version only fixed the camera, but this version fixes both the camera AND allows monsters to attack.  In addition, it also creates tons of new races based off of different variations of monsters, so now you can use player.setrace to be just about any monster or animal you can think of.\r\n\r\nEvery single monster and animal (except fox) in the game is now playable thanks to this mod.  Read below to make sure you understand completely how to use it and have fun!\r\n\r\nBUG FIXES:\r\n- No more accidental nude females.  If you installed my \\'monster camera fix\\', please delete all the files that came with, before installing this one.\r\n- Fixed camera for skeleton and female draugr\r\n- Fixed majorly shaking camera for the frostbite spider.  The camera and spider model used to vibrate and shake uncontrollably and I found a way to fix this.\r\n- Monsters can now attack!\r\no Could NOT fix the fox.  The camera and attacks work perfectly for the fox, but he is invisible and I have no idea how to make him visible.\r\n\r\nHOW TO USE:\r\n//Changing Your Appearance//\r\nSTEP 1 - Once installed, in game, press ~ to open the console.  \r\nSTEP 2 - Enter \\'findform race <keyword of the type of monster you wish to play as>.  This will return a list of all of the races I have created for each variation of monster.  \r\nSTEP 3 - Enter \\'player.setrace <name of monster from list in STEP 2\\'\r\n\r\n//Adding Monster Specific Spells, Weapons & Armor//\r\nSTEP 1 - Press ~ to open the console.\r\nSTEP 2 - Enter \\'help <keyword from name of monster> 4\\'.  This will return a list of every instance in the game from NPCs, SPELLS, ITEMs, etc where your monster\\'s keyword is named.  \r\nSTEP 3 - Use Page Up and Page Down to scroll through this list to find the spell, armor or weapon you want that is specific to this character.  For example, the Spriggan\\'s Spray or Frostbite Spider\\'s Poisonous Spit.  Take note of the numeric code next to it.\r\nSTEP 4 - Enter \\'player.add<spell, item, etc.> <numeric code from STEP 3>\r\nSTEP 5 - Enter \\'player.equip<spell, item, etc.> <numeric code from STEP 3>.  Note:  Armor does not need you to specify which hand you want to equip the item to, but if it\\'s a weapon or spell, you must put \\'left\\' or \\'right\\' at the end of the console command for STEP 5.\r\n\r\nIMPORTANT NOTE:  The monsters that use spells to attack with melee attacks as well require you equip the spell in a specific hand.  If you don\\'t equip the spell to the correct hand, the monster will not be able to attack at all any more - not even melee.  If this happens, just do player.setrace <a different race>, then player.setrace back to the race you were just on and try equipping the spell in the opposite hand.  It should work then.\r\n\r\n//Monster Melee Attacks//\r\nOnce you are whatever monster you want, use the left mouse button for attack 1, right mouse button for attack 2, both mouse buttons simultaneously for power attack 1 and the space bar or jump button for power attack 2.\r\n\r\nSOME monsters do NOT have the space bar power attack and some don\\'t have the dual mouse click power attack. Few monsters, usually ones that can equip ranged weapons or spells, only can attack with one of the mouse buttons.  Just test each monster out to get an idea of how it works.\r\n",
+  "categoryId": "95",
+  "version": "2.0",
+  "author": "Jackalhead",
+  "createdUnix": "1328913494",
+  "updatedUnix": "1328943614",
+  "containsAdultContent": false,
+  "uploadedBy": "jackalhead",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "28795",
+      "name": "Jackalheads Complete Playable Monsters Fix",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "367256",
+      "fileName": "Jackalheads Complete Playable Monsters Fix-8784-2-0.rar",
+      "uploadedUnix": "1328943614",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/68b648932e0da338ab78b6ce8dadbef636e5bac5462fac310207e4f6c41eb2b6/analysis/1408373460/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jackalheads%20Complete%20Playable%20Monsters%20Fix-8784-2-0.rar?fid=28795&ttl=1535767840&ri=8192&rs=8192&setec=8bff2d2a908ef84ec29b493e489b5c08"
+    }
+  ]
+}

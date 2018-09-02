@@ -1,0 +1,48 @@
+{
+  "modId": 53118.0,
+  "modName": "Lootification Improved XML File",
+  "summary": "Support for over twenty new mods, including Immersive Armors 7.1.",
+  "descriptionHtml": "[center]Consider checking out my other stuff&#33;[/center]\r<br />[center][url=http://www.nexusmods.com/skyrim/mods/53047]ASIS Improved INI Files[/url] (Skyrim) | [url=http://www.nexusmods.com/skyrim/mods/53023]Automatic Variants Pack for Dragonborn Lurkers[/url] (Skyrim) | [url=http://www.nexusmods.com/skyrim/mods/50248]Hearthfire Building Materials out of More Metals[/url] (Skyrim) | [url=http://www.nexusmods.com/skyrim/mods/53107]SPERG - Midas Magic Evolved and Dwemer Certified Compatibility Patches[/url] (Skyrim) | [url=http://www.nexusmods.com/skyrim/mods/53118]Lootification Improved XML File[/url] (Skyrim) | [url=http://www.nexusmods.com/newvegas/mods/56352]SimpleStation[/url] (Fallout: New Vegas) | [url=http://www.nexusmods.com/skyrim/mods/61514][s]Immersive[/s] HD Dickbutt Rune Spells[/url] (Skyrim) | [url=http://www.nexusmods.com/skyrim/mods/61157]Vanilla Warpaints as Racemenu Facepaints[/url] (Skyrim) | [url=http://www.nexusmods.com/skyrim/mods/60884]Happy Little Trees: A Bob Ross follower mod[/url] (Skyrim) | [url=http://www.nexusmods.com/skyrim/mods/61707]Improved D-Pad Bindings[/url] (Skyrim) | [url=http://www.nexusmods.com/skyrim/mods/62597]Brelvu Manor[/url] (Skyrim) | [url=http://www.nexusmods.com/skyrim/mods/62575]EggOver&#39;s Automatic Variants Pack[/url] (Skyrim) | [url=http://www.nexusmods.com/skyrim/mods/62578]EggOver&#39;s Automatic Variants Ports[/url] (Skyrim) [/center] \r<br />[line]\r<br />\r<br />\r<br />These improved XML files add support for the following mods:\r<br />[list][*]FF7 Blades at the Forge\r<br />[*]Keyblades\r<br />[*]JSwords\r<br />[*]Crossbows Basic Collection\r<br />[*]Immersive Weapons\r<br />[*]OBIS\r<br />[*]Cloaks of Skyrim\r<br />[*]Winter is Coming\r<br />[*]Armored Circlets\r<br />[*]Frostfall\r<br />[*]Ezuka&#39;s Bracelts\r<br />[*]Project Flintlock\r<br />[*]Bonemold Expanded\r<br />[*]Dragonbone Crossbow\r<br />[*]Dragonbone Weapons Complete\r<br />[*]Falmer Crossbow\r<br />[*]Actualize Apparel\r<br />[*]Tribunal Robes and Tribunal Masks\r<br />[*]DFB Crossbow Expansion\r<br />[*]Aetherium Swords and Armor\r<br />[*]Heisenberg&#39;s Equipment\r<br />[*]Ragna-Rok&#39;s Mudcrab Armor\r<br />[*]Bandoliers\r<br />[*]The Witcher 2 Models\r<br />[*]Isil Narsil&#39;s LotR Weapons\r<br />[*]Deadly Dragons Armory\r<br />[*]Falskaar\r<br />[*]Katana Crafting\r<br />[*]Warmonger Armory\r<br />[*]Complete Crafting Overhaul Remade[size=4] [color=red]My CCOR settings assume you have [i]all[/i] the files for the mods listed under &#34;Incorporated Mods&#34; on the CCOR page. If you don&#39;t and you use these CCOR settings without editing them, you&#39;ll have a lot of missing meshes and textures.[/color][/size]\r<br />[*]Netch Leather Armor\r<br />[*]Velvet Robes and Cloaks\r<br />[*]Ket WEAPONIZER\r<br />[*]Dwemerverse\r<br />[/list]\r<br />\r<br />[size=4]Installation: [/size]Other than the Immersive Armors 7(.1) settings, detailed below, there are two ways to use these:\r<br />[list=1]\r<br />[*]Open my Custom.xml and cut and paste the entries you want into your Custom.xml\r<br />[*]Overwrite your Custom.xml with my Custom.xml\r<br />[/list]\r<br />\r<br />The first is better if you&#39;ve already lootified some stuff and don&#39;t want to lose your work, but it&#39;s up to you.\r<br />\r<br />[size=5]Immersive Armors 7(.1&#33;):[/size] I also have settings for Immersive Armors 7 which are included (7.1 is a seperate download, but do it the same way), but those have to be handled slightly differently:To use them, unlike the other settings, you must:\r<br />[list=1]\r<br />[*]Open your Lootification.xml (Not Custom.xml)\r<br />[*]CTRL-F and find &#34;Hothtrooper44_ArmorCompilation.esp&#34;\r<br />[*][i]Completely[/i] remove the old Hothtrooper44_ArmorCompilation.esp section from [font=Courier New][color=#00ff00][size=3]&lt;mod modName=&#34;Hothtrooper44_ArmorCompilation.esp&#34;&gt; [/size][/color][/font]to [font=Courier New][color=#00ff00][size=3]&lt;/mod&gt;[/size][/color][/font]\r<br />[*]Replace it with my settings.\r<br />[/list]\r<br />The reason for this is that Lootification doesn&#39;t like having settings for the same file in both Lootification.xml and Custom.xml, and will crash with a cryptic error message. The reason you need all new settings is because Immersive Armors 7 changes a lot of things under the hood, like, for instance: [color=red][b]EVERY SINGLE EDID[/b][/color]. Anyhow, enjoy&#33;",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "EggOver",
+  "createdUnix": "1397839410",
+  "updatedUnix": "1406132416",
+  "containsAdultContent": false,
+  "uploadedBy": "EggOver1979",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000105433",
+      "name": "Lootification Improved XML File",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "18",
+      "fileName": "Lootification Improved XML File-53118-1-0.7z",
+      "uploadedUnix": "1397839406",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/9d2cb24289e931aca26af6c6adb36af273a4859201f02e6a45c5b37d2b57cde4/analysis/1408028060/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Lootification%20Improved%20XML%20File-53118-1-0.7z?fid=1000105433&ttl=1535836524&ri=8192&rs=8192&setec=1ef229f5ea7a3e0ebc0b6cabfc2a4dba"
+    },
+    {
+      "fileId": "1000118923",
+      "name": "Immersive Armor 7.1 Lootification.",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Immersive Armor 7.1 Lootification.-53118-1-1.7z",
+      "uploadedUnix": "1406132416",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d81713792bcb6521138ce7beddc7a8ca266493f1ecf1447dbd81c3f03e884762/analysis/1406132478/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Immersive%20Armor%207.1%20Lootification.-53118-1-1.7z?fid=1000118923&ttl=1535836525&ri=8192&rs=8192&setec=80578c9a7b41e262f9468a61f765db10"
+    }
+  ]
+}

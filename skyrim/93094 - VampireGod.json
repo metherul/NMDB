@@ -1,0 +1,48 @@
+{
+  "modId": 93094.0,
+  "modName": "VampireGod",
+  "summary": "Came across an old post about someone wanting to start the game as a vampire lord without wanting to do the quests.  Now, with a simple bat file, you can start as a moderately powerful vampire lord.",
+  "descriptionHtml": "Inspired by people who want to start as vampire lords but not go through the pain of significant modding.  Just type bat vampiregod in console and your good to go.\n<br />\n<br />What the bat file does:\n<br />1.  Inflicts sanguinaire vampiris (however you spell it)  (If you have the sacrosanct mod it should also give you 1 potion of embracing to skip the wait)\n<br />2.  Gives you the vampire lord power (obviously needs dawnguard for this part)\n<br />3.  Provides 30 vampire perk points (spend as you wish)\n<br />4.  If you have the mod, grants a power to a summon vampire cattle/thrall once per day.  (I will link this mod and Sacrosanct).\n<br />\n<br />As a bat file it should be universally compatible HOWEVER, I have not tested it with the better vampires.  I was never able to get better vampires working (my characters never got flagged as vampires due to scripting issues) so I actually cannot test it.  But the methods this bat file gives you vampire should not conflict, and you should be flagged in game as a vampire.  Even though I couldn't get better vampires to work I understand it is very popular so I intentionally made an effort to ensure compatible methods.\n<br />\n<br />If there are any other vampire suggestions (auto adding vanilla vampire armors, dust, blood potions, etc.)  I will happily add to this bat file.  I find bat files exceptionally useful, especially for new characters (and new modders due to their simple nature).  This Bat file is intended only for vampire related things.  I do have other bat files I use and I may post them or some variation of them at a later date.\n<br />\n<br />Installation is simple.  Just drop the bat file into the appropriate folder (for me it is the folder that contains the data, edit scripts, skyrim, fomod, and uninstall folders).\n<br />\n<br />This is my first contribution and I know it isn't much but this seems to be a regular request people have (and it has been fulfilled by a number of mods).  I merely aimed for simplicity and ease of use.  Even if you don't have any of the other mods or dlc, it should still work (though all it will due is make you infected with the vampire virus in that case).  Enjoy, let me know what you think.\n<br />\n<br />Final Note: I'm using classic Skyrim, but as far as I can tell as long as you have console access it should still work with any version unless the values are different.\n<br />\n<br />Sacrosanct mod-https://www.nexusmods.com/skyrim/mods/80159\n<br />Summon Vampire Cattle Mod- https://www.nexusmods.com/skyrim/mods/29134\n<br />\n<br />UPDATE:  So...admittedly I'm new to this.  Did not realize that mod item values changed based on load order.  So if using summon vampire cattle, replace the first two numbers with the correct value (where the mod is in your load order).  For the sacrosanct mod, I'm just going to change it so it gives the ingredients for a potion of embracing since those values are vanilla and therefor should always remain the same.  It kind of sucks to have to keep changing values every time the load order changes but those are the breaks it seems.  Will have the update shortly...once I figure out the proper values.",
+  "categoryId": "39",
+  "version": "1",
+  "author": "Wakahisa Sensei",
+  "createdUnix": "1534373512",
+  "updatedUnix": "1534453481",
+  "containsAdultContent": false,
+  "uploadedBy": "WakahisaSensei",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000279765",
+      "name": "BatVampireGod",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "BatVampireGod-93094-1.rar",
+      "uploadedUnix": "1534373206",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/7454ebfd007bb2d05b00a2d70a38eaf4024cb461d844b89c3982eb4097e6419c/analysis/1534373283/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BatVampireGod-93094-1.rar?fid=1000279765&ttl=1535884353&ri=8192&rs=8192&setec=c9e76758e5a4809e996ff8e4ac79b606"
+    },
+    {
+      "fileId": "1000279840",
+      "name": "VampireGod",
+      "version": "2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "VampireGod-93094-2.rar",
+      "uploadedUnix": "1534453481",
+      "modVersion": "2",
+      "virusScanUrl": "https://www.virustotal.com/file/a2b97a67af338236d6a0c92a52dfbd0fab04e3b14760e55b976ce7d4c49011df/analysis/1534453562/",
+      "changelogHtml": " To streamline, no longer gives potion of embracing but ingredients to make potion since those values are vanilla and therefor don't change with load order (as far as I know) <br/> \n Nothing I can do about vampire cattle spell.  Either edit the bat file with your value or just use console commands if you have the mod.  Its an easy one, I was just hoping to make it easier. <br/> \n Noticing some bugs with vampiris disease.  Might try to figure out another option.  Let me know if you experience any weirdness like the disease not going away after you become a vampire.  That could just be on my end. <br/> \n Suggest stuff and I might give it a try.  Generally works better with vanilla or dlc since values are static. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VampireGod-93094-2.rar?fid=1000279840&ttl=1535884353&ri=8192&rs=8192&setec=83df174b1b4afbb83d1c32e4eb47eb2a"
+    }
+  ]
+}

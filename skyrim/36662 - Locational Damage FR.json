@@ -1,0 +1,32 @@
+{
+  "modId": 36662.0,
+  "modName": "Locational Damage FR",
+  "summary": "Traduction française du mod de Kahmul Locational Damage.",
+  "descriptionHtml": "Locational Damage a été conçu pour être utilisé en conjonction avec d\\'autres mod affectant le combat afin de leur donner une orientation plus stratégique et augmenter leur réalisme (Ndt : Pour ma part je l\\'associe à Duel et Skyrim Unleashed). Il peut également être utilisé seul.\r\nIl modifie la manière dont vous devrez anticiper vos actions au cœur de la bataille. Vous devrez être précis et patients pour être récompensés. Attention vos ennemis savent également utiliser les avantages donnés par cette extension, préparez vous à être jetés au sol, désarmés ou saignés à mort...\r\n\r\n[b][u]Installation :[/u][/b]\r\nPrérequis : [url=http://skse.silverlock.org/]SKSE[/url]\r\nRecommandé pour pouvoir utiliser le menu de configuration en jeu : [url=http://skyrim.nexusmods.com/mods/3863/?]SkyUI[/url] \r\n\r\nAvant cette traduction vous devez installer (et endorser) le mod originel de Kahmul : [url=http://skyrim.nexusmods.com/mods/12615/?]Locational Damage[/url] \r\nLes fichiers de traduction doivent simplement être extraits dans le dossier du jeu en écrasant les fichiers d\\'origine.\r\n\r\n[u][b]Passage en revue rapide du contenu :[/b][/u]\r\n-De nouveaux coups critiques spécifiques aux 14 zones du corps prédéfinies. Chaque coup est commenté de manière technique ou immersive (au choix).\r\n-De nouveaux effets : saignement, chute, désarmement, etc. adaptés aux zones touchées.\r\n-Support de la mêlée, des archers ou des mages avec les commentaires adaptés à chaque style de joueurs.\r\n-Une AI spécifique qui détermine la capacité des PNJs à cibler les zones de votre corps qui vous handicaperont le plus.\r\n-Une modification des dégâts suivant la qualité des armures portées sur chaque zones.\r\nLe menu MCM en jeu vous permettra de trouver des informations plus détaillées sur chacune de ces caractéristiques et sur les effets liés aux différentes parties du corps.\r\n\r\n[b][u]Procédure de mise à jour :[/u][/b]\r\nSi vous avez déjà utilisé la version anglaise de Locational Damage avant d\\'installer ma traduction vous DEVEZ faire une clean save, comme cela devrait être le cas pour toute mise à jour. Sans quoi le menu MCM sera bogué.\r\nSi vous utilisez le mod et sa traduction pour la première fois vous ne rencontrerez pas de problème bien entendu. Mais cette procédure pourra être utile ultérieurement pour des mises à jour.\r\n\r\nClean save :\r\n-Allez dans un intérieur, vérifiez bien qu\\'aucun buff ou débuff du mod n\\'est appliqué.\r\n-Allez dans le menu MCM du mod et cochez \\\"Freeze mod\\\" (Pause en français) (si vous n\\'utilisez pas SkyUI tapez \\\"set KahmulLOCFreeze to 1\\\" dans la console)\r\n-Quittez le menu MCM, attendez une vingtaine de secondes sans bouger, sauvez et quittez le jeu.\r\n-Désactivez Locational Damage.esp dans la liste de votre manager/launcher.\r\n-Lancez le jeu, chargez votre sauvegarde précédente, ne bougez pas pendant une vingtaine de secondes, sauvez, quittez.\r\nVous avez désormais votre clean save, vous pouvez donc :\r\n-Installer la traduction (en écrasant les fichiers du mod original), re-sélectionner l\\'esp dans la liste, lancer le jeu et charger la dernière sauvegarde.\r\n\r\n[center][URL=http://skyrim.nexusmods.com/mods/35320/?][IMG]http://www.ushareimg.com/images/286T3R.png[/IMG][/URL][/center]",
+  "categoryId": "77",
+  "version": "2.2",
+  "author": "Kahmul traduit par Lyim",
+  "createdUnix": "1370075627",
+  "updatedUnix": "1370005360",
+  "containsAdultContent": false,
+  "uploadedBy": "Lyimee",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000032166",
+      "name": "Locational Damage FR",
+      "version": "2.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "31",
+      "fileName": "Locational Damage FR-36662-2-2.7z",
+      "uploadedUnix": "1370005360",
+      "modVersion": "2.2",
+      "virusScanUrl": "https://www.virustotal.com/file/b6e84ffcd6dec3d08cb1059dc585d2469987b61e43e7a07ef1dba9db070ef1e6/analysis/1407586891/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Locational%20Damage%20FR-36662-2-2.7z?fid=1000032166&ttl=1535815857&ri=8192&rs=8192&setec=ed3aed68540b9ac80d7797f5e70ce279"
+    }
+  ]
+}

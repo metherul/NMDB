@@ -1,0 +1,32 @@
+{
+  "modId": 29451.0,
+  "modName": "Breezehome Rustic Basement Workshop",
+  "summary": "Adds a rustic lair to Breezehome equipped with all essential elements to progress your Player Character.  ",
+  "descriptionHtml": "[IMG]http://i12.photobucket.com/albums/a216/wskof/BreezehomeBasementSmall_zpsc204908d.jpg[/IMG]\r\n\r\nThere were reports of this mod causing CTD\\'s.  Version 1.1 is up and has been cleaned with TES5EDIT.  I was not able to recreate the mentioned CTD on my system, however, I removed any and all suspicious records in the ESP.  If you are upgrading, please clean out all the loot from previous version!!!!!\r\n\r\n[b]Update:  There are reports about that Hearthfire DLC does not play nice with mods that change Breezehome Navmesh.  I do not have Hearthfire (nor am I particularly inclined to get it) so I cannot confirm if my mod will conflict but it does seem likely.  Appreciate if anybody with Hearthfire please confirm if this is the case.  Having said that, I have removed all Breezehome Navmesh changes in Version 1.1 which may alleviate the problem, mod is still fully functional.[/b]\r\n\r\n[size=15][b]General Description[/b][/size]\r\nI had used a number of different basement lair mods to simplify the act of \\'pack-ratting\\' in the past and just never ran into one that I thought fit properly.  Nothing against those styles at all, simply not for me.  Hence, I decided to give this a shot and built my own in the rustic style that I wanted.\r\n\r\nThis is a modification of one of the existing dungeons (Clearwater or something like that) and certainly not built from scratch.  It contains all of the requirements to progress your character namely:\r\n[b]\r\n-Forge\r\n-Smelter\r\n-Hide Rack\r\n-Smithing table and wheel\r\n-Alchemy table\r\n-Enchanting table\r\n[/b]\r\nI added a good suply of chests as well to keep gear.  All containers are set to [i]not[/i] re-spawn and the entire cell is set to not reset, loot should be safe.  I had originally thought about adding mannequins as well but abandoned the idea after I could not resolve an issue whereby they moved from one spot to another whilst I was not in the cell.  Quite creepy actually :-0.\r\n\r\nI have been using this basement mod in my own gameplay for months with no noticed respawn related issues.  If you run across any, please do let me know asap so I can resolve it.\r\n\r\nThe mod is Follower friendly so bring them along.  The navmesh has been updated to ensure proper pathing for them.  Additionally, you can Fast Travel from this location as well should you choose to do so.\r\n\r\nThe mod modifies Breezehome slightly in that it adds a trapdoor in the kitchen area, under the stairs to enter the workshop.  Please note I also removed a barrel from that location to make room.  If you are keeping loot in the barrels under the stairs, clear them out before using this mod!\r\n\r\nYou may notice light popping in and out on the side of the floor texture just above the Forge.  The model used there is rather large and I guess I exceed the max number of light sources that are lighting it.  Its the light shining through the gaps in the floor that is the culprit.  Its pretty minor and the only way I can fix it is to change the lighting, which I am unlikely to do as I like it as is.  Like I said, its pretty minor and may go unnoticed altogether.  There may be additional issues if a hand held torch is used.  The lighting was developed with my ENB settings (I like things dark, screenshots depict my view of the cell) although, without ENB it is fairly bright, maybe overly so.  Let me know what you think and I can make a different version.\r\n\r\nI use the max allowed shadow lights all visible at the same time (4) therefore if you enter using any shadow enabled torch in this cell is most likely to be an issue.\r\n\r\n[size=15][b]Installation:[/b][/size]\r\nVery simple, copy the contents of data folder in this mod (1 esp) into your data folder, activate the mod in plugins file and you are good to go.  Always a good idea to make a good save prior to trying out mods to return to should things go awry or you do not like the mod.\r\n\r\n[size=15][b]Removal:[/b][/size]\r\nTo remove the mod, disable it in your plugins file and restart.  Remember to clean out the workshop of all loot prior to doing so!\r\n\r\nAppreciate reports of any and all problems encountered.\r\n\r\nHave fun!\r\n\r\nHave a look at my other mod [url=http://skyrim.nexusmods.com/mods/28954]Nord Follower - SarLia[/url] should you be in the hunt for a Follower.\r\n\r\n[b]Permissions:[/b]\r\nNothing here was explicitly created by me, I only placed items about.  Feel free to do with this whatever you wish.",
+  "categoryId": "67",
+  "version": "1.1",
+  "author": "Dinkledorf",
+  "createdUnix": "1357358016",
+  "updatedUnix": "1357417224",
+  "containsAdultContent": false,
+  "uploadedBy": "Dinkledorf",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000000205",
+      "name": "BreezehomeWorkshopV1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "17",
+      "fileName": "BreezehomeWorkshopV1_1-29451-1-1.rar",
+      "uploadedUnix": "1357417224",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c7a77872ba5fa54ea88382ec9e77c3c3cd5831d0081c2bf562f8473d115db4db/analysis/1407338791/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/BreezehomeWorkshopV1_1-29451-1-1.rar?fid=1000000205&ttl=1535803567&ri=8192&rs=8192&setec=13e32aecda9ca58ab5fb8a08914e271a"
+    }
+  ]
+}

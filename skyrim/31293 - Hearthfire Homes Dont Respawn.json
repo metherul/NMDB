@@ -1,0 +1,32 @@
+{
+  "modId": 31293.0,
+  "modName": "Hearthfire Homes Dont Respawn",
+  "summary": "A little mod put together to prevent the Hearthfire house interior cells from repawning their contents.",
+  "descriptionHtml": "[b][color=Red]This is my first mod so please forgive me if it doesnt work for everyone or if I could have done something better. If you leave a comment I will attempt to fix any problems.[/b][/color]\r\n\r\n[size=3]DESCRIPTION[/size]\r\nHave you ever decorated a Hearthfire home? Lovingly and carefully placed every trophy and decoration into its own little place? Have you ever felt the frustration of coming back to your house after a long adventure away from home only to find everything on the floor, the junk that you replaced mysteriously reappearing after having sold it to the vendor?\r\n\r\nThis mod will disable the interior cells of the Hearthfire homes from resetting every 10 days. This is achieved by modifying the cell type for the Main and Basement cells to the same as the houses included in Vanilla Skyrim (NoReset).\r\n\r\nThis mod will allow you to safetly display your trophies and decorations without having them redistributed to the floor by magical junk. No longer will you have to return every 10 days, interrupting those adventures.\r\n\r\n[size=3]REQUIREMENTS[/size]\r\n- Skyrim and Hearthfires DLC (Obviously)\r\n- Version 1.8.151.0.7 or later. (The version it was built on)\r\n\r\n[size=3]READ ME!!![/size]\r\nThis mod changes spawn timers. Therefore IT WILL CONFLICT with mods that change respawns (ie:SkyRE). If you want to use both load my mod AFTER the others. This way you get your custom respawn timer and my mod only alters the Hearthfire homes.\r\n\r\nThis IS my first mod for skyrim and despite the fact it has so far worked flawlessly on my own computer I am unsure if the effects will replicate on other machines. PLEASE make a save before installing my mod as I accept no responsibility for destroying your saves, characters, homes or items. If you do encounter a bug, error or something you think I should know/fix, please leave a comment. And please be civil. I will not help rude people.\r\n\r\n[size=3]NOTES ON DECORATING HOUSES[/size]\r\nHOW TO DECORATE A HOUSE:\r\n1. Enter house/cell you wish to decorate.\r\n2. Drop all decorations you wish to display on the floor.\r\n3. Exit house/cell (This is important)\r\n4. Reenter house/cell\r\n5. Place items where you would like them \r\n\r\n- Using quicksave [F5] and quickload [F9] helps incase you knock a previously positioned item from where you wanted it\r\n- Be careful to keep the dropped items out of your inventory. If you accidentally pick them up you have to begin the above steps again.\r\n\r\nREMOVING CONTAINERS, FURNITURE AND OTHER STATIC ITEMS:\r\n-[color=red]WARNING:[/color] The below method is not recommended if you are worried about the possibility of destroying your save. It is possible that removing something in a cell with \\\"markfordelete\\\" may cause instability if the removed object or item is later patched (officially or unofficially). This may or may not cause your saves to be unplayable. [color=red]USE AT YOUR OWN RISK.[/color] If you are worried and choose not to use \\\"markfordelete\\\" you can simply use \\\"disable\\\" as it only phases the item out. This however will not decrease the load time for the cell as the item is still technically there.\r\n\r\n- It is highly recommended you make a save before doing this as it cant easily be undone and you may not like the change after you do it.\r\n\r\n1. Open console with [`]\r\n2. Click on Item/Container/Furniture that you wish gone\r\n3. Type \\\"markfordelete\\\" without the quotations\r\n4. Quicksave [F5] (Exiting and reentering the cell works too)\r\n5. Quickload [F9]\r\n6. Item/Container/Furniture that was marked should now be gone.\r\n\r\n[size=3]PLANS[/size]\r\nI am possibly looking at expanding on the mod and seperating the greenhouse into a cell of its own. This would add in a loading screen as you switch from the house to the greenhouse but would prevent the bugs from escaping and wreaking havok on your decorations. \r\nAlso I have always thought the greenhouse needed just a bit more walkway space. That room is way too cramped, may reorganise a little or just make the room a bit bigger.\r\nMay attempt to change the Display cases to ones that can ACTUALLY hold things too. Though, I have only just started on the CK so may take some learning.",
+  "categoryId": "24",
+  "version": "0.5",
+  "author": "Kallale",
+  "createdUnix": "1360406817",
+  "updatedUnix": "1360405134",
+  "containsAdultContent": false,
+  "uploadedBy": "Kallale",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000008316",
+      "name": "Hearthfire Homes Dont Respawn",
+      "version": "0.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Hearthfire Homes Dont Respawn-31293-0-5.7z",
+      "uploadedUnix": "1360405134",
+      "modVersion": "0.5",
+      "virusScanUrl": "https://www.virustotal.com/file/5fe63e89e026cc842efcf52a8dbffd45dd2808fda41057cf7d72e99e120f77fc/analysis/1407406924/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Hearthfire%20Homes%20Dont%20Respawn-31293-0-5.7z?fid=1000008316&ttl=1535806735&ri=8192&rs=8192&setec=ab49fbbb63b468db84f298abedd5b14c"
+    }
+  ]
+}

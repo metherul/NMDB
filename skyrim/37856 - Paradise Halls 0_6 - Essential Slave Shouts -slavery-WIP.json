@@ -1,0 +1,32 @@
+{
+  "modId": 37856.0,
+  "modName": "Paradise Halls 0_6 - Essential Slave Shouts -slavery-WIP",
+  "summary": "UFO inspired slave field commands, and Mgmt utilities. ",
+  "descriptionHtml": "*****THIS MOD IS NOT SUPPORTED BY PAH 0.7 YET!!*****\r\n\r\n\r\nDisclaimer: I do not endorse Slavery\r\n\r\n\r\n\r\n\r\n-This should work with all 0.6 versions of Paradise Halls (I have tested on PAH 0.6.2 only).\r\n\r\n*****NOTE***** You will need to know the first level of unrelenting force shout to get the shouts to work, because they are based on the word of power \\'fus\\'. I am sure I will change this as we go along.\r\n\r\n***NOTE*** Make sure you keep any slave that you don\\'t want purged a good 10-15 feet away when using the purge all slaves shout**** \r\n\r\n\r\n\r\nThe Mod\r\n\r\nThese are some group-based slave commands that I really can\\'t be without, these days. They are inspired by the UFO Field Command Book. \r\n\r\nLike UFO, these are not really \\\"shouts\\\". I haven\\'t found good voice samples for the shouts yet, so I used other sounds. This will change as the mod grows.\r\n\r\nRequirements:\r\n\r\n* SKSE: http://skse.silverlock.org/\r\n* Paradise Halls: http://skyrim.nexusmods.com/mods/29886\r\n\r\n\r\nInstallation:\r\nUse NMM or unpack into data folder.\r\n\r\n>correct loadorder:\r\n\r\nparadise_halls_base.esm\r\nparadise_halls_core.esm\r\nparadise_halls_fellglow... .esp\r\nparadise_halls_farengars_study.esp\r\n\r\nESSB.esp <------- This is the .esp for Essential Slave Shouts\r\n\r\nU.F.O. (for UFO users)\r\n\r\n\r\nInstructions\r\n\r\nGo to Whiterun, check in Farengar\\'s study. The book can be found underneath the desk. After reading, you will have learned the 4 new shouts.\r\n\r\n-The allFollow, and AllWait shouts are very similar to UFO\\'s. they both control up to 15 slaves, up to 1500 units away from you.  \r\n\r\n-The purge command is actually a utility to remove dropped pointers. This is especially useful for Warzone players who keep finding the slave tracker pointers on the ground. \r\n\r\nIf you do find such pointers, stand on or near (within 300 units, or 5-10 feet) it and use the purge all slaves shout to clean those slave references out of your slave list. The pointers will disappear.\r\n\r\n-The teleport shout pulls every slave, from your owned slave list, to your position. So, only use it if you need ALL of your slaves to be together. \r\n\r\nThis is a very helpful utility for spring cleaning those pesky pointers, as it will pull those references to your location too! Simply move your slaves away from the pointers and use the purge shout (on the pointers). Now you have a clean list. \r\n\r\n\r\n\r\n ",
+  "categoryId": "39",
+  "version": "0.1.0",
+  "author": "RET45",
+  "createdUnix": "1372745155",
+  "updatedUnix": "1372752744",
+  "containsAdultContent": false,
+  "uploadedBy": "RET45",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000036868",
+      "name": "ESSB_0_1_0",
+      "version": "0.1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "ESSB-37856-0-1-0.rar",
+      "uploadedUnix": "1372752744",
+      "modVersion": "0.1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4fbe2568616941b9dee6d48d46b1e80357fa19604012dbf72af623721222aae0/analysis/1407625682/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ESSB-37856-0-1-0.rar?fid=1000036868&ttl=1535817830&ri=8192&rs=8192&setec=44ef44bdc219ae152f257c16ad797ec7"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 74958.0,
+  "modName": "Requiem - Invisibility Eye Fix",
+  "summary": "",
+  "descriptionHtml": "Requiem - Invisibility Glitch - Eyes Fix\r<br />A requified patch to [url=http://www.nexusmods.com/skyrim/users/6335298]jimkaiseriv[/url]&#39;s combination of eye fixes, to remove the eye glitch people were somehow having, I have no idea how the glitch works but I&#39;m providing a patch for Requiem.\r<br />\r<br />This will not work for follower frameworks such as EFF because it uses it&#39;s own invisibility spell to hide followers.\r<br />\r<br />You need this mod for the patch to work&#33; [size=3]http://www.nexusmods.com/skyrim/mods/63451/? \r<br />\r<br />Installation:\r<br />[/size]Either install with your favorite mod manager or just copy to Skyrim data folder.\r<br />\r<br />If installing with a Mod Organizer you can merge with the original mod to save a mod folder slot. Otherwise manage this however you want.\r<br />\r<br />Also, it&#39;s important to note that you need to disable the original eye fix esp&#33; That&#39;s why i haven&#39;t put it in this load order below.\r<br />\r<br />[size=3]Load order:[/size]\r<br />\r<br />Skyrim.esm\r<br />Update.esm\r<br />Dawnguard.esm\r<br />-\r<br />AOS.esp\r<br />.\r<br />Requiem.esp\r<br />Requiem - Legendary Bugsmasher Edition.esp\r<br />.\r<br />\r<br />Requiem - Audio Overhaul for Skyrim.esp - If you have this patch\r<br />.\r<br />Requiem - InvisEyeFixes (- AOS)\r<br />.\r<br />\r<br />[size=4]This is a MUST, even if LOOT tells you otherwise&#33;[/size]\r<br />\r<br />[b][size=3]Credits[/size][/b]\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/users/3021900]bellywood2206[/url] for the meshes in their mod [url=http://www.nexusmods.com/skyrim/mods/50132/?]Eye Glitch Fix[/url].\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/users/1892262]KingsGambit[/url] for their mod [url=http://www.nexusmods.com/skyrim/mods/23916/?]Invisibility Glitch - Eyes Fix[/url]. The scripts used here are entirely new, but the use of QueueNiNodeUpdate() is based on their approach.\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/users/6335298]jimkaiseriv[/url] for combining both mods to make the fix more effective.",
+  "categoryId": "84",
+  "version": "0.2",
+  "author": "darkangelmn",
+  "createdUnix": "1460520762",
+  "updatedUnix": "1460547980",
+  "containsAdultContent": false,
+  "uploadedBy": "Darkangelmn",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000202965",
+      "name": "Requiem - Invisibility Eye Fix",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Requiem - Invisibility Eye Fix-74958-0-2.7z",
+      "uploadedUnix": "1460547963",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/d16cbe286c04e70217acb481daae8627ce9cbc161a251123949828d7b40072f9/analysis/1460548023/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem%20-%20Invisibility%20Eye%20Fix-74958-0-2.7z?fid=1000202965&ttl=1535863739&ri=8192&rs=8192&setec=2f9ae5eb4f0c87b1761c59a075744473"
+    },
+    {
+      "fileId": "1000202966",
+      "name": "Requiem - Invisibility Eye Fix - Audio Overhaul for Skyrim",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Requiem - Invisibility Eye Fix - Audio Overhaul for Skyrim-74958-0-2.7z",
+      "uploadedUnix": "1460547980",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/52a22d9e5fa159c5c6a20dd6ba85e64c97376d9273f8e7e519e900fac6ae4cc3/analysis/1460548024/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Requiem%20-%20Invisibility%20Eye%20Fix%20-%20Audio%20Overhaul%20for%20Skyrim-74958-0-2.7z?fid=1000202966&ttl=1535863740&ri=8192&rs=8192&setec=f68b774b0c1101257735507fb449574e"
+    }
+  ]
+}

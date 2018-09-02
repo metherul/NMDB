@@ -1,0 +1,32 @@
+{
+  "modId": 15778.0,
+  "modName": "SSAO",
+  "summary": "Enables just SSAO (Ambient Occlusion)! Incompatible with all other ENB series.",
+  "descriptionHtml": "Enables just SSAO (Ambient Occlusion) alone, this does not add any ENB Series effects except just this. This file is mainly for people who prefer the vanilla look, who use FXAA or just want to add SSAO without the trouble of doing so themselves.\r\n\r\nPerformance issues are to be expected on weaker machines as SSAO is resource-hungry, but that\\'s the drawback for wanting your game to look even better.\r\n\r\nDownload with NMM is permanently disabled, manual installation is [b]required.[/b]\r\n\r\n[center][size=6][color=green][b]Installation[/b][/color][/size][/center]\r\nExtract the .7z (you will need [url=http://www.7-zip.org/download.html]7zip[/url] first) to your Skyrim game directory (where TESV.exe is located).\r\n\r\n[center][size=6][color=red][b]Uninstallation[/b][/color][/size][/center]\r\nRemove the following files:\r\n. d3d9.dll\r\n. d3d9_fix.dll\r\n. enbseries.ini\r\n. enbeffect\r\n. enbeffectprepass\r\n\r\n[center][size=6][color=Purple][b]Incompatibilities[/b][/color][/size][/center]\r\nIncompatible with all other ENB series and any other currently used d3d9.dll.\r\n\r\n[center][size=6][color=yellow][b]Change Log[/b][/color][/size][/center]\r\n0.1 - Initial release.\r\n\r\n[center][size=6][color=blue][b]Credits[/b][/color][/size][/center]\r\n[url=http://enbdev.com/license_en.htm]Boris Vorontsov (for the ENB files)[/url]\r\nyafi",
+  "categoryId": "62",
+  "version": "0.1",
+  "author": "yafi",
+  "createdUnix": "1335203512",
+  "updatedUnix": "1335203663",
+  "containsAdultContent": false,
+  "uploadedBy": "yafi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "55710",
+      "name": "SSAO",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "237",
+      "fileName": "SSAO-15778.7z",
+      "uploadedUnix": "1335203663",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/17a4ba1d9c35ea2410db7bde60fee64b0301259d83f7f65d216cdbdcee467e9b/analysis/1406831730/",
+      "changelogHtml": " Initial release. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SSAO-15778.7z?fid=55710&ttl=1535780479&ri=8192&rs=8192&setec=0d57e892a6c251a748ba702c299f7374"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 33619.0,
+  "modName": "Uninstaller Creator Update",
+  "summary": "This will create a BAT file for uninstalling mods...READ the full TXT file.",
+  "descriptionHtml": "THIS IS NO LONGER IN THE FILE. READ BEFORE USING.  THIS IS IMPORTANT.\r\n\r\nhttp://skyrim.nexusmods.com/mods/27718/?tab=3&navtag=%2Fajax%2Fmodimages%2F%3Fuser%3D0%26id%3D27718\r\n\r\nx64 version now available. The above is the original link for the file.  Given permissions to reupload to get a more current date on the file.\r\n\r\nThis IS an excellent BAT file for manual mod installers but you must be VERY careful in using it. It\\'s perfect for people who have HUGE texture replacer mods that NMM may NOT uninstall fully but I am not sure if NMM erases the BAT file. Personally I make UNINSTALLER files for all mods I install thru NMM and just use my file to uninstall what I\\'m using.  Unfortunately NMM isn\\'t seeing that my mod has been uninstalled as of 44.13.\r\n\r\nIf your mod ONLY has a BSA and a single ESP you REALLY don\\'t need this.  It\\'s mainly for people who extract all the BSAs and have tons of files.\r\n\r\nCreate a TEMP folder to use.\r\n\r\nUnzip the downloaded mod in it\\\\\\'s own separate folder preferably under the mod file name.\r\n\r\nPut the BAT file in the root of that new directory.\r\n\r\nRun the bat file. a NEW bat file will be made.  \r\n\r\nI suggest renaming the NEW bat file as FILENAME Uninstaller.bat that way if you use your file explorer in alphabetical view you can find your installed ESM and the like with the uninstaller just below it..or above.. depends on how you named it.\r\n\r\nThe BAT file will uninstall all the files associated with the manual installation of the mod you wanted BUT...if your mod has a crosslinked file with say like.. CBBE or UNP or a hairstyle...something that ANOTHER mod or mods is dependent on...so...just be careful and try not to crosslink files with other mods.  STANDALONE packages are AWESOME ...IF...they don\\\\\\'t use or overwrite another file.  That\\\\\\'s why we have BSA\\\\\\'s for STANDALONEs.\r\n\r\nNOW...you can rezip the mod or move/copy it to your skyrim data directory.  If you simply move it over you\\'ll find out whether or not YOUR files are being used by another mod. If you rezip i hope you know HOW to do that correctly.  If not.. get my NMM compatibility guide. It\\'s a text file also.\r\n\r\nOK.. now here\\\\\\'s the original author\\\\\\'s description:\r\n\r\nThis is for people who install mods manually. Copy this bat script to a mod folder and run it. A file named \\\\\\\"uninstall \\\\\\\"mod folder name\\\\\\\".bat\\\\\\\" will be created. Copy mod (with \\\\\\\"uninstall xxx.bat\\\\\\\") to your skyrim\\\\\\\\data folder. When you want to remove the mod run \\\\\\\"uninstall xxx.bat\\\\\\\". There are some limitations since its just a bat script, e.g. there should not be any apostrophes in mod folder\\\\\\'s name.\r\nIf created bat file does not contain any filenames rename the mod folder to something simple, copy it to root folder and run \\\\\\\"make uninstaller.bat\\\\\\\" again. \r\n\r\nOther uploads by me:\r\n\r\nTESV HiRes Texture Packs List\r\nhttp://skyrim.nexusmods.com/mods/33284/?tab=3&navtag=%2Fajax%2Fmodimages%2F%3Fuser\r\n\r\n%3D0%26id%3D33284\r\n\r\nNMM Compatibility Checklist Guide\r\nhttp://skyrim.nexusmods.com/mods/33616/?tab=3&navtag=%2Fajax%2Fmodimages%2F%3Fuser\r\n\r\n%3D0%26id%3D33616\r\n\r\nUninstaller Creator Updated 2013\r\nhttp://skyrim.nexusmods.com/mods/33619/?tab=3&navtag=%2Fajax%2Fmodimages%2F%3Fuser\r\n\r\n%3D0%26id%3D33619\r\n\r\nTESV Main BSA Files List\r\nhttp://skyrim.nexusmods.com/mods/33649/?tab=3&navtag=%2Fajax%2Fmodimages%2F%3Fuser\r\n\r\n%3D0%26id%3D33649",
+  "categoryId": "39",
+  "version": "",
+  "author": "Thorne67",
+  "createdUnix": "1363780984",
+  "updatedUnix": "1371261581",
+  "containsAdultContent": false,
+  "uploadedBy": "Thorne67",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000018907",
+      "name": "Uninstaller Creator Updated",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Uninstaller Creator Updated-33619-.zip",
+      "uploadedUnix": "1363781847",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/2dd5bf6568c06cceca583f5fdea34a5b565a9f6ff84d947b69cb4777802f3de4/analysis/1407478628/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Uninstaller%20Creator%20Updated-33619-.zip?fid=1000018907&ttl=1535810908&ri=8192&rs=8192&setec=9fd19fdc6e0f0a7bcac1f56390994f1a"
+    },
+    {
+      "fileId": "1000034281",
+      "name": "Uninstaller Creator x64",
+      "version": "",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Uninstaller Creator x64-33619-.rar",
+      "uploadedUnix": "1371261581",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/e9822f58ff475db1757c0fdafa4841cddba359620f42e6bee08018cc079cc5a2/analysis/1407604468/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Uninstaller%20Creator%20x64-33619-.rar?fid=1000034281&ttl=1535810908&ri=8192&rs=8192&setec=38f61ccb5a0110d4710caef777334310"
+    }
+  ]
+}

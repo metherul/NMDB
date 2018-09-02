@@ -1,0 +1,32 @@
+{
+  "modId": 10425.0,
+  "modName": "Shadowmeres Shade",
+  "summary": "Shadowmere spawns a shadow version of himself for the players companion when ridden.",
+  "descriptionHtml": "A mount for your companion!\r\n\r\nShadowmere\\'s Shade is spawned when Shadowmere is ridden and your current follower is directed to mount up.\r\n\r\nThe shade fades away when the player dismounts or enters an area where horses shouldn\\'t be.\r\n\r\n===Installation===\r\nExtract files to Data folder of your Skyrim directory\r\n\r\n===Uninstallation===\r\nDelete ShadowmeresShade.esp under Data\r\nDelete ShadowmereShadeScript.pex and ShadowmereShadeScript2.pex under Script\r\n\r\n===Known Issues===\r\nThe new scripts may not be attached when loading a save game where Shadowmere is currently loaded and near the player. This will only happen the first time you load a save after installation of this mod. Fast travel or disable and enable Shadowmere to make sure the scripts are attached.\r\n\r\n===Updates===\r\nCompanion is now much more eager to ride and should run to the shade when it is spawned.\r\nAdded a fail safe that shouldn\\'t allow more than one shade to be spawned at a time.",
+  "categoryId": "66",
+  "version": "1.2",
+  "author": "girinzabi",
+  "createdUnix": "1329681071",
+  "updatedUnix": "1330358324",
+  "containsAdultContent": false,
+  "uploadedBy": "girinzabi",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "37608",
+      "name": "ShadowmeresShade",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "ShadowmeresShade-10425-1-2.rar",
+      "uploadedUnix": "1330358324",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/b2bde3fc40c642ee1a9c7cf596a4d7b204de8be9c9462627e6ea8709069123a3/analysis/1406717237/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ShadowmeresShade-10425-1-2.rar?fid=37608&ttl=1535770790&ri=8192&rs=8192&setec=2a56cba0de5814716727ad9893757ef3"
+    }
+  ]
+}

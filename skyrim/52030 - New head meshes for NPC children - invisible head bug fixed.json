@@ -1,0 +1,32 @@
+{
+  "modId": 52030.0,
+  "modName": "New head meshes for NPC children - invisible head bug fixed",
+  "summary": "Added a few new child head meshes. All of them were modified from vanilla head mesh. Assigned the new faces to many child NPCs in vanilla Skyrim, but kept some in the vanilla look to allow diversity. DLCs are not covered at this stage.",
+  "descriptionHtml": "v1.02 Update: \r<br />\r<br />Fixed invisible head glitch. It turns out it was caused by a misnamed folder in the zip file. \r<br />\r<br />The old file path in the .zip file went like this: &#34;Data/Meshes/Actors/Characters/Character Assets&#34;\r<br />When it should in fact have been: &#34;Data/Meshes/Actors/Character/Character Assets&#34;\r<br />\r<br />Please redownload this latest update. Alternatively you can try to fix the issue yourself by going to your Skyrim directories DataMeshesActors and renaming the &#34;characters&#34; folder to &#34;character&#34;.\r<br />\r<br />Apologies for my carelessness and all the inconveniences caused. It&#39;s been a busy week at work I didn&#39;t have much free time to spend\r<br />\r<br />------------------------\r<br />\r<br />I&#39;ve always felt that the child NPCs in Skyrim looked strange. They look like they come from a completely different ethnic group than all the grown up NPCs in the game. This is immersion breaking and I&#39;ve gotta fix it I thought. In fact lately I&#39;ve also found out that this has been a common complaint on the forums.\r<br />\r<br />I&#39;ve added a few new child head meshes. All were created by re-sculpturing the vanilla head mesh in Blender (loaded with nif import and export scripts). I&#39;ve then assigned the new faces to many child NPCs in vanilla Skyrim using CK and exported the face textures with the Ctrl+F4 trick. \r<br />\r<br />DLCs aren&#39;t covered yet at this stage.\r<br />\r<br />Please do report bugs in the Posts section or pm me.\r<br />\r<br />Please note the light grey colored eyeball meshes used in this mod were made by Vergis http://www.nexusmods.com/skyrim/mods/4572/?\r<br />\r<br />Screen caps were taken with Climates of Tamriel and Project Enb installed",
+  "categoryId": "26",
+  "version": "1.02",
+  "author": "h1zchan",
+  "createdUnix": "1394639838",
+  "updatedUnix": "1394794553",
+  "containsAdultContent": false,
+  "uploadedBy": "h1zchan",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000101165",
+      "name": "newkidsheads_v1_02",
+      "version": "1.02",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4834",
+      "fileName": "newkidsheads_v1_02-52030-1-02.zip",
+      "uploadedUnix": "1394794553",
+      "modVersion": "1.02",
+      "virusScanUrl": "https://www.virustotal.com/file/88778de49b7e3f7b2dc0b5acceb986975b2a911065a82b7866a29ff284b0ab9b/analysis/1407981979/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/newkidsheads_v1_02-52030-1-02.zip?fid=1000101165&ttl=1535834791&ri=8192&rs=8192&setec=252419c366ad914eb401fca45cb10932"
+    }
+  ]
+}

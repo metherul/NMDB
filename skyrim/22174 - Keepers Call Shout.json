@@ -1,0 +1,32 @@
+{
+  "modId": 22174.0,
+  "modName": "Keepers Call Shout",
+  "summary": "Summon a Keeper from Dawnguard through a shout",
+  "descriptionHtml": "Adds a shout that summons the Keepers from the Soul Cairn.\r\n\r\nShouts summons the keepers in this order based on how long you hold the button for\r\nMace & Shield > Bow > 2H Sword\r\n\r\nRequirements\r\nDawnguard\r\n\r\nInstallation\r\nplace \\\"Summon Keeper.esp\\\" into the data folder then enable it.\r\n\r\nTo access the words in-game use the console command\r\n\r\nplayer.teachword xx005745\r\nplayer.teachword xx005746\r\nplayer.teachword xx005747\r\n\r\nReplace xx with the load order index. The command will give you the words locked and will require dragon souls. Otherwise use the player.unlockword command to enable you to use them straight away.",
+  "categoryId": "75",
+  "version": "0.5",
+  "author": "lilaznkilla",
+  "createdUnix": "1344674618",
+  "updatedUnix": "1344674746",
+  "containsAdultContent": false,
+  "uploadedBy": "lilaznkilla",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "80558",
+      "name": "Summon Keeper",
+      "version": "0.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Summon Keeper-22174-0-5.zip",
+      "uploadedUnix": "1344674746",
+      "modVersion": "0.5",
+      "virusScanUrl": "https://www.virustotal.com/file/89d3c7235eed0448988f0e6e8670bec88083174684a114495292e0bfeafe2bd6/analysis/1407087362/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Summon%20Keeper-22174-0-5.zip?fid=80558&ttl=1535791562&ri=8192&rs=8192&setec=e39161b0655e5bc2948c9398a92b91f1"
+    }
+  ]
+}

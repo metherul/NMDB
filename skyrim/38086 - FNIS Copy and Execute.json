@@ -1,0 +1,48 @@
+{
+  "modId": 38086.0,
+  "modName": "FNIS Copy and Execute",
+  "summary": "Program that copies FNIS files and executes FNIS Generator right after.",
+  "descriptionHtml": "WHAT IS IT?\r<br />This little program is a tool I wrote for my personal use.\r<br />I just hated to have to browse for that FNIS Generator in Data files.\r<br />\r<br />(IN)COMPATIBILITIES\r<br />It should work with any version of FNIS. Also those yet to come. If it doesn&#39;t, I will update it.\r<br />It will NOT work with Nexus Mod Manager. It&#39;s only for people who install manually. I dislike NMM, deal with it.\r<br />\r<br />WHAT IT DOES?\r<br />It automates the process of installing FNIS. At least a little.\r<br />First it handles copying FNIS files to where they should be.\r<br />Then it starts GenerateFNISForUsers.exe for you, so you don&#39;t need to look for the file yourself.\r<br />\r<br />HOW TO USE IT?\r<br />1. Download FNIS and extract it from archive\r<br />2. Open what was extracted and locate the Data folder in it\r<br />3. Place FNIS_Setup.exe next to the Data folder\r<br />4. Again, make sure that Data folder and FNIS_Setup.exe are in the same directory\r<br />5. Execute FNIS_Setup.exe (which will copy FNIS files and launch FNIS Generator)\r<br />6. Now make sure all FNIS-dependent mods are installed and use FNIS Generator\r<br />\r<br />ADDITIONAL NOTES\r<br />The program runs many many checks before it does anything. It&#39;s because I want it to be as idiot-proof as possible.\r<br />If it encounters any problems, it will do nothing but giving you an error message.\r<br />If you get an error, it&#39;s totally your fault. Read the error message to figure out, what exactly is wrong.\r<br />If there is a problem with finding your game in registry, start Skyrim Launcher.exe, exit it, and try my program again.\r<br />Other errors are not as easy to get by. Use your brain to fix it. Or just don&#39;t use my program, simple :)",
+  "categoryId": "39",
+  "version": "1.2",
+  "author": "Erundil",
+  "createdUnix": "1373300943",
+  "updatedUnix": "1374349196",
+  "containsAdultContent": false,
+  "uploadedBy": "erundil444",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000039460",
+      "name": "FNIS - Copy and Execute",
+      "version": "1.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "52",
+      "fileName": "FNIS - Copy and Execute-38086-1-1.7z",
+      "uploadedUnix": "1374119893",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/0971e4881215ae8a73acc3d1776cd73736c3a959c0b6a1ac29e76a863d0b957f/analysis/1407647712/",
+      "changelogHtml": " Added a way to stop the program, when ran accidentally. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FNIS%20-%20Copy%20and%20Execute-38086-1-1.7z?fid=1000039460&ttl=1535818248&ri=8192&rs=8192&setec=97a8705b31551a610f990e6ddabaf942"
+    },
+    {
+      "fileId": "1000039838",
+      "name": "FNIS - Copy and Execute",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "52",
+      "fileName": "FNIS - Copy and Execute-38086-1-2.7z",
+      "uploadedUnix": "1374349196",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/2f7fbf97c71502914e86be83647150c4b495e255cb8466942f8b7e0fcead4681/analysis/1407650774/",
+      "changelogHtml": " Cosmetic changes to 1 messagebox. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/FNIS%20-%20Copy%20and%20Execute-38086-1-2.7z?fid=1000039838&ttl=1535818249&ri=8192&rs=8192&setec=4beb9f7604770e64984a5f6268c0ced6"
+    }
+  ]
+}

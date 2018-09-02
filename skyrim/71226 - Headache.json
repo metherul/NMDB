@@ -1,0 +1,32 @@
+{
+  "modId": 71226.0,
+  "modName": "Headache",
+  "summary": "The mod dynamically substitutes the Nordic puzzle heads with damaged ones, making puzzles more realistic and harder.",
+  "descriptionHtml": "[center][size=3][b]\r<br />You enter a dungeon...\r<br />\r<br />[img]http://staticdelivery.nexusmods.com/mods/110/images/71226-0-1447422385.jpg[/img]\r<br />\r<br />You defeat your opponents - bandits, monsters, undead...\r<br />\r<br />And then you find them: The sacred animals guarding the treasure.[/b][/size]\r<br />\r<br />[img]http://staticdelivery.nexusmods.com/mods/110/images/71226-0-1447422277.jpg[/img]\r<br />\r<br />[b][size=3]The lock, crafted by the Ancient Nords, masters of stonework is a test of your skills, as only the most perceptive and cunni-\r<br />Oh, wait no, there&#39;s an answer there.[/size][/b]\r<br />\r<br />[img]http://staticdelivery.nexusmods.com/mods/110/images/71226-2-1447422277.jpg[/img]\r<br />\r<br />[b][size=3]Huh. That was eas- wait, one of the heads is missing&#33; Well, that means you will have to try at mos- \r<br />Oh, no, hang on, it&#39;s there. \r<br />[/size][/b]\r<br />\r<br />[img]http://staticdelivery.nexusmods.com/mods/110/images/71226-1-1447422277.jpg[/img]\r<br />[b][size=3]It fell to the ground, and somehow it is still intact. [/size][/b]  \r<br />\r<br />[size=3][b]Yes... this needs to be fixed. [/b][/size][/center]\r<br />&#34;[b]Headache[/b]&#34; is a simple mod that dynamically adjusts the &#34;heads&#34; that serve as solutions to most puzzles in Nordic Ruins. Even though technically there is an in-universe explanation to why these puzzles seem so simple (since they were [url=http://www.uesp.net/wiki/Skyrim:Death_of_a_Wanderer]meant to keep the Draugr in[/url]), that still doesn&#39;t excuse why are they still in perfect conditions. So, I made a mod that dynamically adjusts that.\r<br />\r<br />[center]\r<br />[youtube]x4kBZO5XCUc[/youtube][/center]\r<br />[size=3][b]How does it work?\r<br />[/b][/size][center][size=3][b]\r<br />[img]http://staticdelivery.nexusmods.com/mods/110/images/71226-0-1447428587.gif[/img][/b][/size][/center]\r<br />Whenever you enter a dungeon or a cave, this mod will try to find from 1 up to 9 of these heads (number can be controlled in MCM), and then overlay them with blank ones. It is not unreasonable to think that at least some of these markings would be destroyed after hundreds, or thousand of years. \r<br />\r<br />If you want, you can also check that only the tilted heads are affected (since that would usually mean the head has fallen to the ground).\r<br />\r<br />Each change is being listed and can be viewed in the MCM. Most importantly, each change can be undone with one click. \r<br />\r<br />[size=3][b]Compatibility:[/b][/size]\r<br />\r<br />Should be compatible with absolutely every dungeon mod out there, as long as authors use the heads from the game (not their own assets). My mod [b]doesn&#39;t[/b] initially modify any of the cells.\r<br />\r<br />That being said, however, you might be a little cautious when entering non-vanilla or non-dlc dungeon. My mod doesn&#39;t modify the heads, it simply places a blank one over them. As a result, access to the original head is limited. Even though probably nothing bad will happen, I can imagine some very creative modder out there using one of these heads as more that just an ornament or clue (and, for example, using it in a script). I haven&#39;t personally encountered such a case, but I haven&#39;t played every modded dungeon in existence. \r<br />\r<br />As a precaution, my mod can be enabled or disabled at any moment. When disabled, no changes will be made. And of course, and change can be undone. \r<br />\r<br />[size=3][b]Unistallation[/b][/size]\r<br />\r<br />If you wish to uninstall my mod, you [size=3][b]need[/b][/size] to either manually undo all of the changes made by my mod, [b]or [/b]click &#34;Uninstall&#34; button in MCM which will do that for you. If you don&#39;t do that, then the new heads will still be in the dungeons after removing the esp. \r<br />\r<br />[size=3][b]Known problems\r<br />\r<br />[/b][/size]In the MCM the heads will not be recognised if you are not in the same cell as them; in other cases they will be marked as &#34;unknown&#34;, though still can be undone. As far as I know, this is engine&#39;s limitation. \r<br />\r<br />If you find any problems, or have any comments let me know. \r<br />[b][size=3]\r<br />Other mods you might want to try[/size][/b]\r<br />\r<br />[list]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/19403/?]Killing traps[/url][/size]\r<br />[*][size=2][url=http://www.nexusmods.com/skyrim/mods/31799/?]Traps make noise[/url][/size]\r<br />[*][size=2][/size][size=2][url=http://www.skyrimnexus.com/downloads/file.php?id=2653]Subliminal Traps[/url][/size]\r<br />[/list]\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />\r<br />  ",
+  "categoryId": "78",
+  "version": "1.0",
+  "author": "piotrmil",
+  "createdUnix": "1447588118",
+  "updatedUnix": "1447587915",
+  "containsAdultContent": false,
+  "uploadedBy": "piotrmil",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000184966",
+      "name": "Headache 1.0",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "10",
+      "fileName": "Headache 1.0-71226-1-0.7z",
+      "uploadedUnix": "1447587915",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/444165a25b30b689f41a60ed1c41ec1f74f442b8d7faf5eef3d9713ed4bb909a/analysis/1447587963/",
+      "changelogHtml": " Initial release <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Headache%201.0-71226-1-0.7z?fid=1000184966&ttl=1535859748&ri=8192&rs=8192&setec=ea9ba246a6834f96c23cf6f4933eef18"
+    }
+  ]
+}

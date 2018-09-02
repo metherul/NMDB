@@ -1,0 +1,48 @@
+{
+  "modId": 35799.0,
+  "modName": "Jzargo Can Live Everywhere",
+  "summary": "Provides a set of abilities to customize where J&#39;zargo goes about his day and practices his magic. This mod is a result of J&#39;zargo&#39;s default behavior making him incompatible with the [url=http://skyrim.nexusmods.com/mods/11370/]&#34;Spouses Can Live Everywhere&#34; mod by Amgepo and Emma[/url].  It [i]does not[/i] attempt to modify his ",
+  "descriptionHtml": "(Edit: The mod itself hasn&#39;t changed since 2013. The update cited is just this description, which I edited to note the Khajiit Marriage Mod got an update.)\r<br />This mod is a result of J&#39;zargo&#39;s default behavior making him incompatible with the [url=http://skyrim.nexusmods.com/mods/11370/]&#34;Spouses Can Live Everywhere&#34; mod by Amgepo and Emma[/url].  The reason for this is that he goes to practice his magic at a set time of the day, which would cause him to run off far from wherever his home is set.  \r<br />\r<br />[i]This mod is not tied to whether your character has married J&#39;zargo[/i].  In its infancy that was its purpose and if any remnants of that are left in the mod that I failed to delete long ago that would be a bug.  I would not have been as inspired to create this mod without the [url=http://skyrim.nexusmods.com/mods/16097/]Khajiit Marriage And Follower Mod by Clarota[/url] (Edit: The mod was updated again to be compatible with Skyrim&#39;s final version, thanks&#33; There are several Khajiit marriage mods now but it&#39;s great to see the one I originally used updated.)  This mod also preserves J&#39;zargo&#39;s personal magic practice routine anywhere in the game, something the default marriage option disables when the spouse moves in with the player.\r<br />\r<br />[u]Installation:[/u]\r<br />Put &#34;CustomJzargoPlaces.esp&#34; in the Skyrim&#92;Data folder.\r<br />Put &#34;JzargoCustomSpotSetSpellsGive.pex&#34; and &#34;SetJzargoCustomSpots.pex&#34; in the Skyrim&#92;Data&#92;Scripts folder.\r<br />OPTIONAL: Put &#34;JzargoCustomSpotSetSpellsGive.psc&#34; and &#34;SetJzargoCustomSpots.psc&#34; in the Skyrim&#92;Data&#92;Source folder.\r<br />\r<br />The zip file also contains two screenshots to show the barrel that gives/removes the effects and a copy of this description.\r<br />\r<br />[u]Information:[/u]\r<br />Opening the sack on the barrel in the back left portion of J&#39;zargo&#39;s room/cubby in the Hall of Attainment in the College of Winterhold will display a dialog to add or remove the minor powers that control where J&#39;zargo goes. They can be removed so they don&#39;t clutter the player&#39;s spell lists after J&#39;zargo is behaving as desired, but revisiting the sack on the barrel again will provide the option to once again give the spells back if more adjustments are needed.\r<br />\r<br />[i]Set J&#39;zargo&#39;s Morning Spot[/i]\r<br />This sets where J&#39;zargo will spend his time from 6AM to 10AM.\r<br />\r<br />[i]Set J&#39;zargo&#39;s Practice Spot[/i]\r<br />This sets where J&#39;zargo will go to practice his magic from 10AM to 2PM.  Because I copied his default packages as much as possible, J&#39;zargo will not attempt to practice his magic during a certain part of the College of Winterhold quest line.\r<br />\r<br />[i]Set J&#39;zargo&#39;s Practice Target[/i]\r<br />This sets where J&#39;zargo will aim while practicing his magic.  It has an offset so he should aim relatively straight ahead.  You can activate this mid air and he will attempt to aim wherever it is.  This target should be in the same cell as his practice spot.\r<br />\r<br />[i]Set J&#39;zargo&#39;s Afternoon Spot[/i]\r<br />This sets where J&#39;zargo will spend his afternoon and eat dinner, from 2PM to 7PM.\r<br />\r<br />[i]Set J&#39;zargo&#39;s Evening Spot[/i]\r<br />This sets where J&#39;zargo will spend his time before bed, from 7PM to 10PM.\r<br />\r<br />[i]Set J&#39;zargo&#39;s Sleep Spot[/i]\r<br />This sets where J&#39;zargo will go to sleep, from 10PM to 6AM.  Ideally this should be set next to the bed where you want him to sleep.\r<br />\r<br />By default, before the use of the powers, all of these are set almost identically to his default behavior.\r<br />\r<br />[u]In depth description:[/u]\r<br />This is my very first mod and I&#39;m no expert on mod conflicts, so I&#39;ll list what this mod does in much more detail.  It&#39;s been nearly a year since I did most of the creation of this mod so I hope I remember all of this correctly.\r<br />\r<br />*Adds two new x-markers in the Hall of Elements: one for J&#39;zargo&#39;s practice spot and the other for his target.  These start close to where his default ones are.\r<br />\r<br />*Adds four new x-markers in the Hall of Attainment for J&#39;zargo&#39;s packages to allow more direct customization of his behavior, near J&#39;zargo&#39;s default.\r<br />\r<br />*Adds a new set of packages of higher priority than J&#39;zargo&#39;s default, copied in functionality, that use the new moveable x-markers instead of the defaults, in addition to a test package to totally block the defaults to make sure the defaults are never used with the mod active.  I did this to avoid outright removing anything from the default J&#39;zargo.  By default, the functionality is virtually identical to an unmodded J&#39;zargo, and some of the default x-marker positions are redundant.  The extras are for more fine tuning of his daily behavior and are used with the six spells.\r<br />\r<br />*Adds effects that move the six x markers added to where the player is standing.  All of these effects call the script &#34;SetJzargoCustomSpots.pex&#34; and contain properties defining which objects to move, what text is shown to the player, and whether they have a height offset (this is to make sure the practice spot doesn&#39;t sit on the floor unintentionally).  That script is a general script that could be easily re-used in a similar mod, and because the very idea is a direct copy of the concepts from another mod, I expect no credit if the source is outright copy/pasted in the unlikely event another wants to use it.\r<br />\r<br />*Adds six lesser powers that call those effects.  \r<br />\r<br />*Adds a script &#34;JzargoCustomSpotSetSpellsGive.pex&#34; to a new sack placed on a barrel in J&#39;zargo&#39;s room that on activation displays a message box added in the mod.  This message box controls the options in the script and passes along six spell IDs to add/remove from the player.  The message box values passed along are &#34;0 = add the spells from the properties, 1 = remove them, 2 = do nothing.&#34;  Option 0 has a condition that it only appears if the player does not have a certain spell in the set, and option 1 has a condition that it only appears if the player does have a certain spell in the set.  Option 2 has no conditions.\r<br />\r<br />The scripts used in this mod, especially the one that outright moves the x markers used in the custom J&#39;zargo packages (the core mechanic inspired by/imitated from the &#34;Spouses Can Live Everywhere&#34; mod), are designed to be easily reused for other mods if any other NPCs have similar incompatibilities, or in the unlikely event someone wants to copy the functionality for another mod.\r<br />\r<br />Changes:\r<br />1.1 - Removed the script from the existing barrel in J&#39;zargo&#39;s room and added a sack atop the barrel with the script.  This was to fix an issue in which the script would be forever removed from the barrel if the mod were deactivated and then activated again later on the same saved game.  If you like the mod please do let me know of any issues if you run into them.",
+  "categoryId": "66",
+  "version": "1.1",
+  "author": "Zeopard",
+  "createdUnix": "1368001558",
+  "updatedUnix": "1369061567",
+  "containsAdultContent": false,
+  "uploadedBy": "Zeopard",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000028778",
+      "name": "Jzargo Can Live Everywhere",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "214",
+      "fileName": "Jzargo Can Live Everywhere-35799-1-0.zip",
+      "uploadedUnix": "1368000745",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4954067da501223ac33542bfe1b59da90f5178b155efc05dd09ae32d91c52d9e/analysis/1407560552/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jzargo%20Can%20Live%20Everywhere-35799-1-0.zip?fid=1000028778&ttl=1535814564&ri=8192&rs=8192&setec=ef566cc491fc50cff03d2ea0ee17a300"
+    },
+    {
+      "fileId": "1000030680",
+      "name": "Jzargo Can Live Everywhere",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "214",
+      "fileName": "Jzargo Can Live Everywhere-35799-1-1.zip",
+      "uploadedUnix": "1369061567",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/f1116794379535b17963a5069e87d883e5a45084896efba3b2c8c3fed8542498/analysis/1407575947/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jzargo%20Can%20Live%20Everywhere-35799-1-1.zip?fid=1000030680&ttl=1535814565&ri=8192&rs=8192&setec=4001f8d89c8ee56e4a7e1ff30bd6c19e"
+    }
+  ]
+}

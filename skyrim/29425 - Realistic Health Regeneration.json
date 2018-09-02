@@ -1,0 +1,32 @@
+{
+  "modId": 29425.0,
+  "modName": "Realistic Health Regeneration",
+  "summary": "Reduces the players health regeneration to a more realistic level.",
+  "descriptionHtml": "Project: Realistic Health Regeneration\r\nAuthor: Beagle2\r\nVersion: 1.0\r\nRelease Date: 04.01.2013\r\nCategory: Gameplay effects and changes\r\nWebsite(s): http://skyrim.nexusmods.com/mods/29425/\r\n\r\n\r\n==================\r\nDescription:\r\n==================\r\n\r\nThis mod changes Skyrim\\'s health regeneration to more realistic levels. \r\n\r\n\r\n==================\r\nDetails:\r\n==================\r\n\r\nIn Skyrim the player usually regenerates from 1%  to 100% health within 142 seconds (when not in combat), without doing anything. For realism and role-playing reasons, this mod reduces the players health regeneration. It will now take about 14 days for the PC to heal completely, unless you speed it up by using magic, potions, shrines, food, etc.\r\n\r\nThere are other good mods on the nexus which do the same, but to me they had unwanted side-effcts: Some make potions of regeneration effectless, or change every potion in the game to avoid that, some change race data (which is bad). The goal of this mod was to avoid all of that and be as compatible as possible.\r\n\r\nThere is one unwanted side-effect though: Potions, spells or magic effects which increase the players health regeneration are less effective (1/3 of the vanilla effectivity). This means a potion of regeneration will still heal you pretty quick, just not as quick as in vanilla skyrim. This is impossible to avoid due to the way skyrim calculates the healrates, unless you alter every healrate-modifying item, potion or spell in skyrim (which would be aginst what this mod tries to achieve).\r\n\r\n==================\r\nInstallation:\r\n==================\r\n\r\nSimply use NMM\r\n\r\nor\r\n\r\ncopy the file RealisticRegeneration.esp to your skyrim/data folder and activate the file using the Skyrim starter or your favorite Mod Manager.\r\n\r\n\r\n==================\r\nUn-Installation:\r\n==================\r\n\r\nSimply use NMM\r\n\r\nor\r\n\r\nDeactivate or delete RealisticRegeneration.esp from your skyrim/data folder, and load your savegame.\r\n\r\nPLEASE NOTE: When you load your savegame for the first time after you uninstalled this Mod, it will take up to 2 (real-time) Minutes, before the changes to the health regeneration are reverted to the default settings.\r\n\r\nJust continue playing the game as usual, and after two minutes you will notice that your health regen is back to normal.\r\n\r\n\r\n==================\r\nIncompatible:\r\n==================\r\n\r\nThis mod changes (sets) the players healratemultiplier. If you already use a mod which sets the players healratemultiplier, my mod will simply uninstall itself and do nothing. (you should get a message at startup when this happens)\r\n\r\n\r\n==================\r\nToDo\\'s:\r\n==================\r\n- Increase health regeneration rate while resting\r\n\r\n\r\n==================\r\nChangelog:\r\n==================\r\n\r\n04.01.2013 - Initial Release\r\n\r\n\r\n==================\r\nCredits:\r\n==================\r\n\r\nThanks to Bethesda for creating Skyrim.\r\nThanks to InsanitySorrow for the ReadMe Generator this ReadMe is based on.\r\n\r\n\r\n\r\n==================\r\nTools Used:\r\n==================\r\n\r\nReadMe Generator",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Beagle2",
+  "createdUnix": "1357330969",
+  "updatedUnix": "1357337416",
+  "containsAdultContent": false,
+  "uploadedBy": "Beagle2",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "109571",
+      "name": "Realistic Health Regeneration",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "1-29425-1-0.zip",
+      "uploadedUnix": "1357337416",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/4bc4ed812e375a8c561ee90d3c8d1eb4fafedeb69decb06764dca4e64e790a66/analysis/1407336964/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/1-29425-1-0.zip?fid=109571&ttl=1535803521&ri=8192&rs=8192&setec=108deeda5de8f834349d54c974823aa7"
+    }
+  ]
+}

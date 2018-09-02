@@ -1,0 +1,48 @@
+{
+  "modId": 53967.0,
+  "modName": "Meta Morphosis Armor",
+  "summary": "It change his morphing that you want.",
+  "descriptionHtml": "・Feature\r<br />This armor can change his morphing your choosed.\r<br />It is sold by Farengar in Dragonsreach.\r<br />\r<br />・Requirement\r<br />SKSE  1.6.16  http://skse.silverlock.org/\r<br />Skyrim 1.9.32\r<br />\r<br />And supporting Dawnguard and Dragonborn(Not Requirement)\r<br />\r<br />・How to use\r<br />Cast &#34;Meta Morphosis Model Set&#34; and choose outfit.\r<br />\r<br />-Custom\r<br />Cast &#34;Meta Morphosis Save Custom&#34; and choose slot.\r<br />Later,Cast &#34;Meta Morphosis Model Set&#34; and choose slot your saved.\r<br />It support outfit added by Mod.\r<br />\r<br />-Option\r<br />References change 1st/3rd person vanilla outfit.\r<br />it reference Data/Meshes/Metamorphosis/\r<br />\r<br />example Steel Armor\r<br />male 3rdperson Data/Meshes/Armor/Steel/CuirassLight_1.nif\r<br />     1stperson Data/Meshes/Armor/Steel/1stPersonCuirassLight_1.nif\r<br />female 3rdperson Data/Meshes/Armor/Steel/FCuirassLight_1.nif\r<br />       1stperson Data/Meshes/Armor/Steel/F1stPersonCuirassLight_1.nif\r<br />after choose 3rdperson,yes\r<br />male 3rdperspn Data/Meshes/MetaMorphosis/Armor/Steel/CuirassLight_1.nif\r<br />     1stperson Data/Meshes/Armor/Steel/1stPersonCuirassLight_1.nif\r<br />female 3rdperson Data/Meshes/Metamorphosis/Armor/Steel/FCuirassLight_1.nif\r<br />       1stperson Data/Meshes/Armor/Steel/F1stPersonCuirassLight_1.nif\r<br />\r<br />in case Dawnguard\r<br />vanilla vampire robes\r<br />male 3rdperson Data/Meshes/DLC01/Clothes/Vampire/VampireRobes_1.nif\r<br />after 3rdperson,yes\r<br />male 3rdperson Data/Meshes/Metamorphosis/DLC01/Clothes/Vampire/VampireRobes_1.nif\r<br />\r<br />I recommend to use replacer.\r<br />\r<br />・Credit\r<br />Skyrim -Bethesda\r<br />SKSE - SKSE team",
+  "categoryId": "54",
+  "version": "1.0",
+  "author": "pepereke",
+  "createdUnix": "1399881262",
+  "updatedUnix": "1399880926",
+  "containsAdultContent": false,
+  "uploadedBy": "pepereke",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000108808",
+      "name": "MetaMorphosisArmor",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "MetaMorphosisArmor-53967-1-0.rar",
+      "uploadedUnix": "1399880803",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e318ebac074ac1b3606b1e991769d64973e7ca5768db758936757b63cb97f8a0/analysis/1408073884/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MetaMorphosisArmor-53967-1-0.rar?fid=1000108808&ttl=1535837835&ri=8192&rs=8192&setec=019e4aedcc8a59dfc666f12a9b272280"
+    },
+    {
+      "fileId": "1000108809",
+      "name": "Japanese translated",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Japanese translated-53967-1-0.rar",
+      "uploadedUnix": "1399880926",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/146570879e8f3b4fea3a3c98f122bc8803c9875e00355b272aeccd10e84ef230/analysis/1408073943/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Japanese%20translated-53967-1-0.rar?fid=1000108809&ttl=1535837836&ri=8192&rs=8192&setec=49df9b2582e3ee20c30e16680b9a9116"
+    }
+  ]
+}

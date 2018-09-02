@@ -1,0 +1,48 @@
+{
+  "modId": 28647.0,
+  "modName": "Weapon Grade Variants",
+  "summary": "Adds 6 new variations to each existing non-unique weapon in vanilla Skyrim.\r<br />\r<br />I found myself not paying any attention to weapons enemies were carrying unless they were shiny (enchanted) or if they were of the next tier (roughly every 6 levels). This mod aims to add some more weapon variety so looting is made a little more interesting whe",
+  "descriptionHtml": "Adds 6 new variations to each existing non-unique weapon in vanilla Skyrim.\r<br />\r<br />I found myself not paying any attention to weapons enemies were carrying unless they were shiny (enchanted) or if they were of the next tier (roughly every 6 levels). This mod aims to add some more weapon variety so looting is made a little more interesting when you are always looking for that better weapon.\r<br />\r<br />Adds the following weapon grades into the Item Leveled List:\r<br />\r<br />Cracked (-15% atk speed)\r<br />Crude (-10% atk speed)\r<br />Damaged (-5% atk speed)\r<br />Solid (+5% atk speed)\r<br />Balanced (+10% atk speed)\r<br />Masterwork (+15% atk speed)\r<br />\r<br />Examples...\r<br />Cracked Dwarven Dagger\r<br />Crude Glass Mace\r<br />Masterwork Iron Warhammer\r<br />\r<br />--------------------------------\r<br />All Unenchanted vanilla weapons have variants added..\r<br />--------------------------------\r<br />\r<br />Iron\r<br />Steel\r<br />Orcish\r<br />Dwarven\r<br />Glass\r<br />Elven\r<br />Ebony\r<br />Daedric\r<br />Skyforge Steel\r<br />Draugr* -- NEW\r<br />Nord Hero --NEW\r<br />Forsworn --NEW\r<br />Imperial --NEW\r<br />Falmer*\r<br />Silver\r<br />\r<br />* -Honed weapons are currently being considered as another variant, therefore won&#39;t get variants of their own.\r<br />=====================\r<br />\r<br />Battleaxes\r<br />Bows\r<br />Daggers\r<br />Greatswords\r<br />Maces\r<br />Swords\r<br />Waraxes\r<br />Warhammers\r<br />Scimitars -- NEW\r<br />\r<br />-------------------\r<br />Compatibilities\r<br />-------------------\r<br />Compatible with anything that doesn&#39;t alter the Leveled Lists. If you want this to be compatible with another mod that uses the Leveled Lists, take a look into Wyre Bash or TES5edit.\r<br />\r<br />\r<br />End Notes\r<br />-------------\r<br />-Variants can be sharpened at the grinding stone, but they are not yet craftable at the forge.\r<br />-The further away from the base item, the rarer it is. (1 in 15 chance to be Masterwork)\r<br />-No plans currently for unique models/textures.\r<br />\r<br />Be sure to let me know what you think and leave a comment below; good or bad I don&#39;t care.\r<br />\r<br />---------------------------------------------------------------------------\r<br />\r<br />[b]NOTICE[/b]: [b]I am no longer working on this mod[/b]. I have uploaded the SkyProc java project (google for further information), which helped me create this mod. The version I uploaded is the version I use for myself, and is quite different in some ways from the existing mod.\r<br />\r<br />It features the following mods to weapons:\r<br />\r<br />&#34;Balanced&#34;:  +10% attack speed\r<br />&#34;Damaged&#34;: -10% attack speed\r<br />&#34;Hardened&#34;: +1 damage\r<br />&#34;Weak&#34;: -1 damage\r<br />&#34;Unwieldy&#34;: +20% weight\r<br />&#34;Weightless&#34;: -20% weight\r<br />&#34;Solid&#34;: +10% stagger\r<br />&#34;Crude&#34;: -10% stagger\r<br />&#34;Wicked&#34;: +2 Crit Damage\r<br />&#34;Dull&#34;: -2 Crit Damage\r<br />&#34;High Quality&#34;: +1 Damage, +10% attack speed\r<br />&#34;Low Quality&#34;: -1 Damage, -10% attack speed\r<br />&#34;Slender&#34;: -1 Damage, +20% attack speed\r<br />&#34;Elongated&#34;: -10% attack speed, +10% reach\r<br />&#34;Compact&#34;: +10% attack speed, -10% reach\r<br />&#34;Masterwork&#34;: +1 damage, +10% attack speed, +1 crit damage, +10% stagger, -10% weight\r<br />&#34;Ruined&#34;: -1 damage, -10% attack speed, -10% stagger, +10% weight, \r<br />\r<br />I don&#39;t entirely remember how to run SkyProc, (Sorry&#33;). I remember it would import a list of mods (possibly from whatever mods are in the same folder as the base project folder?) - and the SkyProcStarter.java file is where the majority(all?) of the code went - in the &#34;runChangesToPatch()&#34; method. You could customize or add to this if you wished.\r<br />\r<br />---------------------------------------------------------------------------\r<br />\r<br />Credits\r<br />------------\r<br />SkyUI is the mod I use to change my inventory layout like in the screenshot. It can be found on the workshop or nexus but it also requires a 3rd party tool called Skyrim Script Extender. (SKse)",
+  "categoryId": "55",
+  "version": "v1.0",
+  "author": "Corrupti0n",
+  "createdUnix": "1356047419",
+  "updatedUnix": "1448854901",
+  "containsAdultContent": false,
+  "uploadedBy": "corruptivesilence",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "106673",
+      "name": "WeaponGradeVariants",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "38",
+      "fileName": "WeaponGradeVariants-28647-v1-0.zip",
+      "uploadedUnix": "1356131419",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d81f122ca7193103316c64df8aa9eec24a6e790b1d7c5d5a35bf9463dc2c3446/analysis/1407316160/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/WeaponGradeVariants-28647-v1-0.zip?fid=106673&ttl=1535802131&ri=8192&rs=8192&setec=cd63dd66de022a5efba5bba724b6a8d3"
+    },
+    {
+      "fileId": "1000186459",
+      "name": "Create Your Own - With Java Project SkyProc",
+      "version": "1",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1535",
+      "fileName": "Create Your Own - With Java Project SkyProc-28647-1.zip",
+      "uploadedUnix": "1448854901",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/8a5e6ee4fa4fec1bfd25ff068f7d2eab468e4b86df62d5991098046b2d43c60e/analysis/1448854933/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Create%20Your%20Own%20-%20With%20Java%20Project%20SkyProc-28647-1.zip?fid=1000186459&ttl=1535802131&ri=8192&rs=8192&setec=57e08a0ec169106a00e18159236bf12e"
+    }
+  ]
+}

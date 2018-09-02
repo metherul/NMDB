@@ -1,0 +1,32 @@
+{
+  "modId": 69327.0,
+  "modName": "No Fall Damage",
+  "summary": "Simply removes falling damage for the player.",
+  "descriptionHtml": "No Fall Damage\r<br />------------------\r<br />\r<br />[u]Short story[/u]: This mod simply removes falling damage for the player.\r<br />\r<br />Doesn&#39;t require the DLC. Still works if you do have the DLC.\r<br />\r<br />Please note: As user nintai83 pointed out, this mod may not be compatible with Better Vampires. Sorry.\r<br />\r<br />[u]Longer and slightly more technical explanation[/u]: After browsing the Nexus, I found there were only a few mods that dealt with falling damage, and many seemed to revolve around increasing fall damage or lowering it in incrementations. However, I wanted to eliminate falling damage for myself and felt others might find this useful as well, hence this mod.\r<br />\r<br />How exactly does it work? Well, as far as I understand, the game actually attributes damage to falling when you achieve &#39;velocity&#39; during falling. This &#39;velocity&#39; is triggered once you fall farther than a certain distance, and damage is attributed relative to the amount of velocity achieved (the longer you fall, the more velocity). What this mod does is edit a single game setting, fJumpFallHeightMin. What it does exactly is the equivalent of typing in the console: &#34;setgs fJumpFallHeightMin 100000&#34; (though, if you were to do that instead of having this mod active, your setting would be lost upon restarting your game. This mod is for convenience and saves you having to use the console). \r<br />What this setting means is that the game will only start to attribute &#39;velocity&#39; once you fall further than a distance of 100,000 units. I&#39;ve tested this in my game using the console command &#39;tcl&#39; to take me up to extreme heights before toggling collision back on, and it seems to prevent you from taking damage even when dropping from about as high up as Meridia takes you to have a personal chat. This kind of distance is likely, BTW, a greater distance than 100,000 units - but I&#39;m guessing 100,000 extends past a built-in game maximum value for fJumpFallHeightMin, meaning it&#39;ll work for any distance. I don&#39;t know what the actual maximum boundary value for fJumpFallHeightMin is, and I don&#39;t really feel like trial-and-erroring for ages to find out - for the purposes of this mod, it&#39;s irrelevant anyway. If you happen to know what the value is, feel free to share.\r<br />\r<br />I got all the information I needed to create this mod in the Creation Kit by applying the knowledge in this thread: http://forums.nexusmods.com/index.php?/topic/549054-jump-and-fall-settings-please/. If you&#39;re looking to try your own hand at modding jumping/falling parameters, or simply wish to understand them better, it might come in handy for you.\r<br />\r<br />In any case, this mod should prevent the player from taking any damage from falling, no matter the height. Feel free to report if you have this mod on and somehow you do still end up taking damage from falling - mind that it has to be [u]falling[/u] damage, not damages incurred from being pushed or flung into scenery, for example, by an Unrelenting Force shout from a pissy Draugr. If you do find a fault, please let me know how it happened. I may not be able to figure out how to fix it, but it&#39;s good to know nonetheless.\r<br />\r<br />Also note: I&#39;m pretty sure this mod only affects player falling damage, and not falling damage incurred by NPCs, since they have a separate game setting. Friends and foes alike should not be affected by this mod, only the player (you).\r<br />\r<br />Redundant note: I guess this mod will conflict with any other mod that changes the value of fJumpFallHeightMin. If you want to have no falling damage, load this below any other mod that might influence that setting.\r<br />\r<br />\r<br />Have fun&#33;",
+  "categoryId": "24",
+  "version": "",
+  "author": "lucidaxe",
+  "createdUnix": "1441237996",
+  "updatedUnix": "1441237870",
+  "containsAdultContent": false,
+  "uploadedBy": "lucidaxe",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000174409",
+      "name": "NoFallDamage.esp",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "NoFallDamage.esp-69327-.zip",
+      "uploadedUnix": "1441237870",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/653b333959babcc5c40dcc3c8234be276a65c4cd9207d0d0ce8a0057692cc145/analysis/1441237922/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NoFallDamage.esp-69327-.zip?fid=1000174409&ttl=1535857856&ri=8192&rs=8192&setec=fc83ef1319eeebe036a0e5763c8ef579"
+    }
+  ]
+}

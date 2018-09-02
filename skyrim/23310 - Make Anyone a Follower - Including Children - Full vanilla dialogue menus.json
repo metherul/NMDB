@@ -1,0 +1,48 @@
+{
+  "modId": 23310.0,
+  "modName": "Make Anyone a Follower - Including Children - Full vanilla dialogue menus",
+  "summary": "Removes the VoicesFollowersNeutral form list prerequisite for followers. Full vanilla dialogue menus for everyone, including children.",
+  "descriptionHtml": "I wouldn\\'t be surprised if this has been done before, but I couldn\\'t find it anywhere when I needed it, so here it is for convenience.\r\n\r\nI just removed the prerequisites that restrict follower dialogue to a select few NPC voices. This should allow you to set any NPC as a follower through console commands, or the included batch file.\r\n\r\nInstall/Use:\r\n1. Download with NMM or extract\r\n2. Check VoicesFollowerNeutral.esp in your mod manager or data files\r\n3. Open the console and select the NPC you want as a follower\r\n4. Type \\\"bat follower\\\"\r\n\r\nCharacters with voices that aren\\'t on the restricted form list will obviously be partially or entirely unvoiced, but other than that I haven\\\\\\'t found any downsides or conflicts. Works with most NPCs from other mods as well.\r\n\r\nfollower.txt modified from http://skyrim.nexusmods.com/mods/13120",
+  "categoryId": "28",
+  "version": "",
+  "author": "asdf",
+  "createdUnix": "1346245643",
+  "updatedUnix": "1346262712",
+  "containsAdultContent": false,
+  "uploadedBy": "nottaj",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "85090",
+      "name": "maekandioneaflower",
+      "version": "",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "maekandioneaflower-23310-.7z",
+      "uploadedUnix": "1346246001",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/081444511a080f8488c8bc12f5c83a32dc52ec8358595dc821d96ed5fee3ffb4/analysis/1407130805/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/maekandioneaflower-23310-.7z?fid=85090&ttl=1535793443&ri=8192&rs=8192&setec=ee91844de183a3738ffa2424316c210d"
+    },
+    {
+      "fileId": "85136",
+      "name": "Followers",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Followers-23310-.7z",
+      "uploadedUnix": "1346262712",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/7d75bc883cbcf749681369ce03759c44f44a466af410188c8d6b0ba1dd7146a1/analysis/1407131287/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Followers-23310-.7z?fid=85136&ttl=1535793444&ri=8192&rs=8192&setec=7651b32d3883ea7b4e8f04924a9072dc"
+    }
+  ]
+}

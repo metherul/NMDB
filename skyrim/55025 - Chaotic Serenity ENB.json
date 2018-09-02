@@ -1,0 +1,32 @@
+{
+  "modId": 55025.0,
+  "modName": "Chaotic Serenity ENB",
+  "summary": "Lite version of ENB, mainly focused on Shadows, Ambient Occlusion and Depth of Field.",
+  "descriptionHtml": "Ok, so through tedious and long days upon days of testing, I came down to this. It is an ENB preset based on ENB 0.119. Yes I know, it&#39;s bit of an older version but newer isn&#39;t always better. It was the only one I could come up with that didn&#39;t smash my FPS and performance but give me what I want, almost. However it did not have any working Depth of Field. I changed that and finally found a working Depth of Field to merge with it.\r<br />\r<br />This preset isn&#39;t for those players who want all the bells and whistles of ENB 0.254 but more for people with lower end rigs and those that just want a simplistic ENB enhancement. I had read throughout numerous posts on the web about people who were looking for something like this but could never find one. Well here it is.\r<br />\r<br />I also included the ENB Customizer v2 fixed with a default preset. Feel free to customize your own settings. \r<br />\r<br />Download the required D3D9.dll here as I can not include it in the preset :\r<br />https://drive.google.com/file/d/0B5VegY4UIkLGTFIydVRCLVNERTA/edit?usp=sharing\r<br />\r<br />Or download the stock 0.119 archive here and extract the D3D9.dll to your Skyrim directory :\r<br />http://enbdev.com/enbseries_skyrim_v0119.zip\r<br />\r<br />Also be sure that bFloatPointRenderTarget= is set to 1 in your skyrimprefs.ini\r<br />\r<br />Make sure the shadows are modified under [Display] in SkyrimPrefs.ini to : \r<br />bShadowsOnGrass=1\r<br />bTreesReceiveShadows=1\r<br />bDrawLandShadows=1\r<br />bDrawShadows=1\r<br />\r<br />Skyrim.ini\r<br />[Grass]\r<br />bAllowCreateGrass=1\r<br />bAllowLoadGrass=0\r<br />iMaxGrassTypesPerTexure=7\r<br />iMaxGrassTypesPerTexture=8\r<br />bDrawShaderGrass=1\r<br />bGrassPointLighting=1\r<br />\r<br />Yes I know the &#34;iMinGrassSize=**&#34; is missing. By pure coincedence I found this out when I reinstalled the game, however the results in my screenshots speak for themselves. Pure and true lush grass at max. I keep a steady 45-55 FPS so I never changed it I just left the field out. I suggest for people with lower end rigs adding in the line iMinGrassSize=40 or iMinGrassSize=60.\r<br />\r<br />Mods I used :\r<br />Realistic Water Two\r<br />Watercolor for ENB RWT\r<br />Water Plants and Greenwaterfix from W.A.T.E.R\r<br />Climates of Tamriel\r<br />Tamriel Reloaded\r<br />Skyrim Flora Overhaul w/ Diverse Trees Expanded\r<br />Unique Grasses and Groundcovers\r<br />Unbelievable Grasses\r<br />Lanterns of Skyrim\r<br />Riverwood Enhanced\r<br />Trees for Whiterun\r<br />Footprints\r<br />Wet and Cold\r<br />Willows Bugs\r<br />Smoking Torches\r<br />Better Embers\r<br />Realistic Lighting\r<br />Real Effect Candle (Softer)\r<br />EWIs Galaxy (Brightness Reduced)\r<br />Skybirds\r<br />Birds of Skyrim\r<br />Seaside Seagulls\r<br />26 Moon Size Tweaks\r<br />\r<br />Texture Mods :\r<br />4K Quality Snow\r<br />Benjamin318s Alternate Dirtcliffs Texture 8k\r<br />Rocking Stones Parallax for ENB - 2k (BROWNISH)\r<br />Quality SnowFlakes (Alternative)",
+  "categoryId": "97",
+  "version": "1.0",
+  "author": "DeviantHitman",
+  "createdUnix": "1403128733",
+  "updatedUnix": "1403128712",
+  "containsAdultContent": false,
+  "uploadedBy": "DeviantHitman",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000113513",
+      "name": "Chaotic Serenity ENB",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "193",
+      "fileName": "Chaotic Serenity ENB-55025-1-0.7z",
+      "uploadedUnix": "1403128712",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/743a0febf0dc4611dbdef861996497e5aa2ca153fe6fc77c3cd17d9aa9ed1e9e/analysis/1408132586/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Chaotic%20Serenity%20ENB-55025-1-0.7z?fid=1000113513&ttl=1535839610&ri=8192&rs=8192&setec=8870de95abeed94368a38c5a6d4937a8"
+    }
+  ]
+}

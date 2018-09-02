@@ -1,0 +1,48 @@
+{
+  "modId": 37207.0,
+  "modName": "Forge Menu Overhaul Smithing Experience Fix",
+  "summary": "Prevents the category items from generating smithing experience.",
+  "descriptionHtml": "This proof of concept is intended to be used with: \r\n[url=http://skyrim.nexusmods.com/mods/37003/?]Forge Menu Overhaul[/url]\r\nIt addresses the issue of gaining free experience when expanding and collapsing the special category items. \r\n\r\nThe author of that mod (matortheeternal) will probably want to release his own version of this. \r\nCheck out his Tes5Edit script (~1500 lines of pascal) if you would like to have a neat smithing menu  with material subcategories. \r\n\r\nI think FMO deserves some momentum, so go and at least check it out. If you want to talk, use\r\n[url=http://forums.bethsoft.com/topic/1462654-rel-fmo-forge-menu-overhaul/]the bethesda thread[/url] or the comments thread on his mod page, obviously. \r\n\r\n\r\n::: Compatibility :::\r\n\r\nUsing this mod with any other that modifies Skill Use Mult in AVSmithing (0x450) back to Skyrim.esm or Update.esm values (160 or 1) will cause any crafted item to give huge amounts of smithing experience. Sounds scary? It\\'s not. The script is harmless and consumes very few resources.\r\n\r\n::: Changelog :::\r\n\r\n== 0.1 ==\r\nKeep in mind that I [i]barely[/i] tested this XP Fix. The XP formula is probably wrong and there are bound to be issues. For one, I was expecting this to advance smithing when the enchanting table is used. Seemingly this is not an issue. \r\n\r\n== 0.2 ==\r\nWell, the formula was wrong. XP gain is down by 37.5 % in version 0.2 and is now hopefully equal to Vanilla XP gain.  ",
+  "categoryId": "42",
+  "version": "0.2",
+  "author": "tox2ik",
+  "createdUnix": "1371241985",
+  "updatedUnix": "1371901762",
+  "containsAdultContent": false,
+  "uploadedBy": "tox2ik",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000034244",
+      "name": "Forge Menu Overhaul Smithing Experience Fix",
+      "version": "0.1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Forge Menu Overhaul Smithing Experience Fix-37207-0-1.7z",
+      "uploadedUnix": "1371240141",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/87830b43a4b5e780ca50185723b8143e5aed9ca9f13c65969172989a6a7d2fc1/analysis/1407604051/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Forge%20Menu%20Overhaul%20Smithing%20Experience%20Fix-37207-0-1.7z?fid=1000034244&ttl=1535816756&ri=8192&rs=8192&setec=2f57a8a203887e8b7524a4e9bb833d96"
+    },
+    {
+      "fileId": "1000035291",
+      "name": "Forge Menu Overhaul Smithing Experience Fix",
+      "version": "0.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6",
+      "fileName": "Forge Menu Overhaul Smithing Experience Fix-37207-.7z",
+      "uploadedUnix": "1371901762",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/2d66c0bfb486680610dc9a1aaf0b4b807fb271a05f7c09fbba3b8ea07326caf7/analysis/1407612821/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Forge%20Menu%20Overhaul%20Smithing%20Experience%20Fix-37207-.7z?fid=1000035291&ttl=1535816756&ri=8192&rs=8192&setec=54ed2e0091d054f6d449e1d024b76708"
+    }
+  ]
+}

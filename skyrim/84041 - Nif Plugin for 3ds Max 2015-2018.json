@@ -1,0 +1,48 @@
+{
+  "modId": 84041.0,
+  "modName": "Nif Plugin for 3ds Max 2015-2018",
+  "summary": "Nif Plugin for 3ds Max 2015-2018 versions",
+  "descriptionHtml": "[color=#ff7700]This is an beta version of the plugin, and are designed to test for the purpose of further development.\r<br />\r<br />[color=#ff0000][size=4]Version for the 3ds Max 2015 - 2018.[/size][/color][/color]\r<br />\r<br />\r<br />4.0.0.0 beta2\r<br />Exporter\r<br />      - Fix export vertex color for Skyrim profile and flags SLSF2_VERTEX_COLORS and SLSF1_VERTEX_ALPHA\r<br />      - Fix export skinned mesh if skeleton hidden\r<br />      - Fix export flags SLSF1_FACEGEN_DETAIL_MAP, SLSF1_FACEGEN_RGB_TINT, SLSF2_BACK_LIGHTING and SLSF1_MODEL_SPACE_NORMALS for SkinTint and FaceTint shaders\r<br />      - Added new setting &#34;Root Node Name&#34; in to export dialog\r<br />\r<br />4.0.0.0 beta1\r<br />All\r<br />      - Removed NifMopp.exe, NifMopp.dll and NifMagic.dll\r<br />      - Added HavokEngine.exe with functions:\r<br />            - compile and decompile bhkCompressedMeshShape;\r<br />            - calculate MOPP code;\r<br />            - calculate inertia for dynamic models;\r<br />            - calculate convex hull and capsule;\r<br />            - compute tangents and bitangents;\r<br />      - Added new helper NiNode\r<br />\r<br />Collision\r<br />      - Removed bhkRigidBody, bhkCollProxy, bhkBox, bhkSphere, bhkCapsule, bhkRigidBodyModifier and util NifProps\r<br />      - Added helper bhkCollisionObject with full functionality for collision settings\r<br />      - For collisions settings added parameter &#34;Solver Deactivation&#34;\r<br />\r<br />Importer\r<br />      - Fix read registry for installed games\r<br />      - Fix import normal map\r<br />      - Automatic profile definition for some games\r<br />      - Checkboxes &#34;Auto Smooth Mesh&#34; &#34;Vertex Colors&#34; are divided into two by two, because in max 2107 and 2018 an incorrect checkbox with three states\r<br />\r<br />Exporter\r<br />      - &#34;Normals&#34; checkbox uses for Skyrim, Skyrim Special Edition and Fallout 4\r<br />\r<br />And other small changes...\r<br />\r<br />3.9.0.1\r<br />      - Fixed a bug with the violation of the UVs, and skin while exporting the model in the case of automatic partitioning thereof to smoothing groups.\r<br />      - Added new features. In the object properties of some export options can be set, which will have priority over the general parameters set by the export window. Set can be the following:\r<br />\r<br />            - normal = 1\r<br />            - tangent = 1\r<br />            - vcolor = 1\r<br />\r<br />Accordingly, the values ??may be zero. What is it for? For example, in the scene we have the armor and body fragment. The armor shader uses normal, body - no. We put in the properties of the body normal = 0, thus disabling the normal export only for this mesh. In the Export window, set the normal export and tangentsov for all other meshes. Details on screen.\r<br />\r<br />[url=http://radikal.ru/F/s020.radikal.ru/i707/1611/ad/206eef7dd28d.jpg][img]http://s020.radikal.ru/i707/1611/ad/206eef7dd28dt.jpg[/img][/url] [url=http://s009.radikal.ru/i309/1611/6e/03f541b0bd88.jpg][img]http://s009.radikal.ru/i309/1611/6e/03f541b0bd88t.jpg[/img][/url]\r<br />\r<br />[url=http://s48.radikal.ru/i119/1611/74/af840f2f18ed.jpg][img]http://s48.radikal.ru/i119/1611/74/af840f2f18edt.jpg[/img][/url] [url=http://s03.radikal.ru/i176/1611/6b/ce154474d86d.jpg][img]http://s03.radikal.ru/i176/1611/6b/ce154474d86dt.jpg[/img][/url]\r<br /> \r<br />\r<br />3.9.0.0\r<br />Supported by:\r<br />      - Import and export of most models SSE, including models of head and head parts. When you export the head or the head parts be set checkbox &#34;Head or Head part&#34;\r<br />      - Checkbox &#34;Auto Smooth Mesh&#34; has three states. In the third state, all faces are assigned to one smoothing group. In the export dialog added checkbox &#34;Normals&#34;, for export normals in model. Work only in SSE profile.\r<br />\r<br />Not supported:\r<br />      - Import and export models of particle and eyes.\r<br />[url=http://skyrim.pro/stati/instrumentarij/131-nif-plagin-dlya-3ds-max]\r<br />[/url][size=3][url=http://apertureit.blogspot.ru/]Unofficial development page[/url][/size]",
+  "categoryId": "39",
+  "version": "4.0.0.0.b2",
+  "author": "apenov",
+  "createdUnix": "1495454622",
+  "updatedUnix": "1496461524",
+  "containsAdultContent": false,
+  "uploadedBy": "apenov",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000244964",
+      "name": "NifPlugin for 3ds Max",
+      "version": "4.0.0.0.b1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4462",
+      "fileName": "NifPlugin for 3ds Max-84041-4-0-0-0.7z",
+      "uploadedUnix": "1495452544",
+      "modVersion": "4.0.0.0.b1",
+      "virusScanUrl": "https://www.virustotal.com/file/349ea598ca43cdeaf6bf1bf3719f4139a6baa73217fc57c8c57e4c024916be88/analysis/1495452618/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NifPlugin%20for%203ds%20Max-84041-4-0-0-0.7z?fid=1000244964&ttl=1535872856&ri=8192&rs=8192&setec=a675b3a8f6f8fb980d00b62714625287"
+    },
+    {
+      "fileId": "1000245924",
+      "name": "NifPlugin for 3ds Max",
+      "version": "4.0.0.0.b2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4433",
+      "fileName": "NifPlugin for 3ds Max-84041-4-0-0-0-b2.7z",
+      "uploadedUnix": "1496461524",
+      "modVersion": "4.0.0.0.b2",
+      "virusScanUrl": "https://www.virustotal.com/file/99a32ac1a20f26104372aa7f423d777a0d4de935d336eca125d39eb795d75798/analysis/1496461637/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NifPlugin%20for%203ds%20Max-84041-4-0-0-0-b2.7z?fid=1000245924&ttl=1535872856&ri=8192&rs=8192&setec=855cebba2e04ac56cc52d90e88c7cb25"
+    }
+  ]
+}

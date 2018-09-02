@@ -1,0 +1,32 @@
+{
+  "modId": 25762.0,
+  "modName": "Blacksmiths Temper",
+  "summary": "Hire smiths to temper your equipment.",
+  "descriptionHtml": "Name: Blacksmiths Temper\r\nVersion: 0.1\r\nDate: 10/20/2012\r\nCategory: Gameplay\r\nAuthor: Dienes\r\n\r\nDescription\r\n===========\r\nSmiths will use their smithing skill to temper for you. They will need an appropriate material and a varying amount of gold. Different smiths have different skill levels and perks, although there is not much diversity yet. Better smiths will charge more but will improve the item more.\r\n\r\nOnly give them one item or a time or they might think the rest are gifts.\r\n\r\nBe sure that the /SEQ/Blacksmiths Temper.seq file ends up in skyrim/data/SEQ/Blacksmiths Temper.seq or the quest dialogue may not show up. ModOrganizer will do this on its own, I don\\'t know about NMM.\r\n\r\nIf the tempering recipe asks for an Unobtainium bar it means the script was not able to identify what the item is made of. Let me know and I\\'ll try and fix it.\r\n\r\nI\\'m still balancing the skills, perks, and costs of tempering so any feedback is very welcome.\r\n\r\nRequirements\r\n============\r\nYou must have SKSE.\r\n\r\nToDo List\r\n=========\r\n-Diversify and balance skill levels and perks\r\n-More balanced cost of tempering\r\n-Quests to get access to high level tempering\r\n-Finish framework to support blacksmiths from other mods\r\n-Dialogue for how good each smith is before temper menu\r\n\r\nInstall\r\n=======\r\n1. Use ModOrganizer, its great.\r\n1b. Or extract the archive to the data folder of your skyrim directory and enable it in your data files.\r\n\r\nUninstall\r\n=========\r\n0. Use ModOrganizer.\r\n1. Start Skyrim Launcher, click Data Files, uncheck the Blacksmiths Temper.esp file.\r\n2. Delete the files/folders associated with the mod.\r\n\r\n\r\nIncompatibility\r\n===============\r\nThis mod should not conflict with any other mod unless it does weird things to the base blacksmiths. This mod does not modify the smiths at all.\r\n\r\n\r\nHistory\r\n=======\r\n0.1, 10/20/2012 -  First release\r\n\r\nContact\r\n=======\r\nDienes on nexusmods.com\r\nLtSmash on SA\r\n\r\nCredits\r\n=======\r\nThanks for the SKSE team for making this possible and to the creationkit.com wiki contributors.\r\nThanks to Thomas Kaira of Economics of Skyrim for some inspiration.",
+  "categoryId": "24",
+  "version": "0.1",
+  "author": "Dienes",
+  "createdUnix": "1350739931",
+  "updatedUnix": "1350795037",
+  "containsAdultContent": false,
+  "uploadedBy": "Dienes",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "94922",
+      "name": "Blacksmiths Temper 0_1",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "22",
+      "fileName": "Blacksmiths Temper 0_1-25762-0-1.7z",
+      "uploadedUnix": "1350795037",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/162132eec2a120e2ffd117d4202dcd16d975f22aa1d5e75ebaeb34f1758c303d/analysis/1407230657/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Blacksmiths%20Temper%200_1-25762-0-1.7z?fid=94922&ttl=1535797449&ri=8192&rs=8192&setec=edb8ce46bd85b9f0ebbfa317d3678e3c"
+    }
+  ]
+}

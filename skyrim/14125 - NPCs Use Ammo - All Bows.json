@@ -1,0 +1,32 @@
+{
+  "modId": 14125.0,
+  "modName": "NPCs Use Ammo - All Bows",
+  "summary": "An extremely quick and simple mod that makes NPCs use up their arrow stocks. Any ranged weapon, any DLC, any mod compatible.",
+  "descriptionHtml": "16th April 2014 - Thanks to Keldis in the comments, this mod has been completely changed. It&#39;s now extremely small and completely compatible with everything.\r<br />\r<br />---------\r<br />\r<br />Vanilla Skyrim allows NPCs to fire endless ammunition as long as they have at least 1 ammo in their inventory. This is for balance purposes, but isn&#39;t very realistic. If you&#39;re the sort who, like me, prefers to dodge and weave until an archer runs out of stock and is forced to charge you with a crappy handaxe, then you&#39;ll need this mod (or the simple .ini tweak, for a more permanent solution) to make that strategy possible.\r<br />\r<br />Just put the .esp and .ini files included into your Skyrim/Data folder, and activate the .esp. Load order does not matter. You can also disable this mod at any time without danger.\r<br />\r<br />The .esp is empty, but activating it tells Skyrim to look at NPCsUseAmmoAllBows.ini and execute the tweak found there.\r<br />\r<br />If you don&#39;t want an empty .esp cluttering up your load order, or just want to add this tweak to your game permanently, open up your Skyrim.ini file and copy the line found in NPCsUseAmmoAllBows.ini into the [COMBAT] section of your Skyrim.ini file. (If your Skyrim.ini doesn&#39;t have a [COMBAT] section, just add it yourself)\r<br />\r<br />And that&#39;s it. No more messing around with compatibility patches and all that BS&#33; Sorry I didn&#39;t update this sooner, but you know how it goes.\r<br />\r<br />(Also, I give up attempting to write &#34;Skyrim BACKSLASH Data&#34;, the bbcode keeps stripping the character out no matter what I try. I know forward slash is wrong.)\r<br />\r<br />[center][url=http://www.skyrimgems.com][img]http://i.imgur.com/1wXSO.png[/img][/url]\r<br />(Category 350 - Arrows)[/center]",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Moogiefluff",
+  "createdUnix": "1333269499",
+  "updatedUnix": "1397652800",
+  "containsAdultContent": false,
+  "uploadedBy": "Moogiefluff",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000105175",
+      "name": "NPCsUseAmmoAllBows",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "NPCsUseAmmoAllBows-14125-1-0.zip",
+      "uploadedUnix": "1397652800",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/2dbdc5911fae9cdf4b96609085909f6a69af89291573425648b581a993aa5e44/analysis/1408023979/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/NPCsUseAmmoAllBows-14125-1-0.zip?fid=1000105175&ttl=1535777486&ri=8192&rs=8192&setec=04e1f986f148c8bbe295f49a71f94756"
+    }
+  ]
+}

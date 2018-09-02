@@ -1,0 +1,32 @@
+{
+  "modId": 54836.0,
+  "modName": "Armored Leap",
+  "summary": "Armored Leap allows players to jump higher, fall further, and build skill for Light and Heavy Armor.",
+  "descriptionHtml": "[b][u]Summary[/u][/b]\r<br />\r<br />Armored Leap is an add-on for [url=http://www.nexusmods.com/skyrim/mods/38201]Armored Sprint[/url] that allows players to improve their Light and Heavy Armor skills by jumping while wearing armor.\r<br />\r<br />Increasing Light Armor results in being able to jump higher whereas improving Heavy Armor allows one to fall further without taking damage.\r<br />\r<br />Jumping now features a minor stamina penalty.  This penalty can be offset by the [url=http://www.uesp.net/wiki/Skyrim:Light_Armor#Skill_Perks]Unhindered[/url] and [url=http://www.uesp.net/wiki/Skyrim:Heavy_Armor#Skill_Perks]Conditioning[/url] perks or can be adjusted and even disabled through the mod&#39;s configuration menus.\r<br />\r<br />[b][u]Compatibility[/u][/b]\r<br />\r<br />Armored Leap requires the latest version of Skyrim, [url=http://skse.silverlock.org]SKSE[/url], and Armored Sprint.\r<br />\r<br />It will not be compatible with any other mod that modifies the [i]fJumpHeightMin[/i] or [i]fJumpFallHeightMin[/i] game settings.\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/3863]SkyUI[/url] is supported but not required.\r<br />\r<br />[b][u]Installation[/u][/b]\r<br />\r<br />To install Armored Leap, simply copy the included BSA and ESP files to Skyrim&#39;s data folder. Then launch Skyrim and create a new save file with the mod loaded.\r<br />\r<br />Once installed, Armored Leap can be configured in-game by casting the self-titled lesser power or through SkyUI&#39;s Mod Configuration Menu.\r<br />\r<br />For removal, deactivate the mod in-game and create a new save file.  Then delete the associated BSA and ESP.\r<br />\r<br />[b][u]Q & A[/u][/b]\r<br />\r<br />[i]Does taking fall damage earn XP?[/i]\r<br />\r<br />No.  Fall damage ignores armor when being applied.\r<br />\r<br />[i]Why does this mod require SKSE?[/i]\r<br />\r<br />Skyrim does not feature a way to alter the player&#39;s jump height.  SKSE does.\r<br />\r<br />[i]Why does this mod require Armored Sprint?[/i]\r<br />\r<br />Armored Sprint features an armor monitor spell that tracks how many pieces of Light and Heavy armor the player is wearing.  Armored Leap makes use of this spell to reward XP for jumping.",
+  "categoryId": "73",
+  "version": "v1.0",
+  "author": "Kain-Xavier",
+  "createdUnix": "1402640388",
+  "updatedUnix": "1402639557",
+  "containsAdultContent": false,
+  "uploadedBy": "KainXavier",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000112826",
+      "name": "Armored Leap",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "21",
+      "fileName": "Armored Leap-54836-v1-0.zip",
+      "uploadedUnix": "1402639557",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d6135461efc3c8043c87302b104b19127238342400f84b0e1c9fe13cf400dc59/analysis/1408124178/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Armored%20Leap-54836-v1-0.zip?fid=1000112826&ttl=1535839330&ri=8192&rs=8192&setec=a82dca7bb3685554c794fee9583f7177"
+    }
+  ]
+}

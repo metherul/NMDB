@@ -1,0 +1,32 @@
+{
+  "modId": 76698.0,
+  "modName": "Custom Notifications and Messages",
+  "summary": "Allows you to easily add a custom message-box or notification to an activator.",
+  "descriptionHtml": "Attach this script to an activator (or to a chair, or anything else the character can click on) to show a message that you determine when you attach the script.  You can either enter the text manually and set the value for &#39;UsesGlobalMessageForm&#39; to false, or you can set it to true and then select a pre-made message form.  Please note that if you use an instanced message that you type in when you attach the script instead of a global message form saved out separately, this makes localization/translation a lot more difficult, because instead of a folder of set global messages to be displayed you can run through and translate, you need to go through and translate each individual instance of the script wherever it was used.  However, if localization is not a concern (I.E. you don&#39;t care if people have trouble translating your mod to Polish or French or whatever), then this is what you want, because it allows you to enter text immediately and on the fly without having to create a separate message form.",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "Jim Farris",
+  "createdUnix": "1467147584",
+  "updatedUnix": "1467147580",
+  "containsAdultContent": false,
+  "uploadedBy": "Xaa1962",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000211455",
+      "name": "Custom Notifications and Messages",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Custom Notifications and Messages-76698-1-0.zip",
+      "uploadedUnix": "1467147580",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/07001209cff35daf31a0d9ecb8d89a7998047a1aa8e1eb110892ccd047c8a829/analysis/1467148503/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Custom%20Notifications%20and%20Messages-76698-1-0.zip?fid=1000211455&ttl=1535865410&ri=8192&rs=8192&setec=74c013f8c0ecdfbc7495c556090ce67d"
+    }
+  ]
+}

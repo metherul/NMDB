@@ -1,0 +1,48 @@
+{
+  "modId": 44966.0,
+  "modName": "Chaurus Lights",
+  "summary": "Makes the Chaurus bio-luminescence respond to what the creature is doing.",
+  "descriptionHtml": "[color=#CCCCFF]This is a very simple mod that alters and animates the bioluminescence on Chauruses in the following ways:\r\n\r\n[list]\r\n[*]Chaurus lights are dimmed when they are calm or idling, making them harder to see.\r\n[*]If the Chaurus is sleeping (i.e. waiting to ambush you), its lights are almost out entirely.\r\n[*]When it spots you or enters combat, the Chaurus will flash brightly.\r\n[*]During combat it will glow at full brightness. \r\n[*]Upon death, a Chaurus\\'s glow will slowly fade away into darkness.\r\n[/list]\r\n\r\n[i]The second image above is an animated gif demoing the effect, it may take a moment to load[/i]. See the video for a longer demonstration.\r\n\r\nIt affects Chauruses and Chaurus Reapers. As far as I can tell, Chaurus Hunters do not glow, so this does not affect them (though I may add a glow to the hunters later and make it work like the others). \r\n\r\nAlso available on Steam, if that\\'s your thing:\r\nhttp://steamcommunity.com/sharedfiles/filedetails/?id=188097885\r\n\r\n[b]Updates[/b]\r\n\r\n1.01\r\n[list]\r\n[*]Fixed a bug where a dead chaurus would start glowing again if its cell was reloaded.\r\n[*]Added extra check to avoid multiple shaders getting stacked up. Shouldn\\'t happen, but you never know.\r\n[*]Hopefully fixed the flickering light glitch on death.\r\n[/list]\r\n\r\n[b]Note[/b]\r\n\r\nThe effects of this mod are (and are intended to be) subtle. This is not going to make Chauruses glow like a Christmas tree or flash different colors (though I may include some subtle color shifts in future). It just adds a bit of pizazz to what I already think are some of the coolest critters in Skyrim.\r\n\r\n[b]Compatibility[/b]\r\n\r\nThis should be compatible with all mods unless they radically alter the shape or position of the Chaurus glow map. I am not aware of any mods that do this; if you find one, please let me know. \r\n\r\nIt is tested and confirmed to work with Automatic Variants and the most common variant packages.\r\n\r\nIf you are not using the high resolution texture pack, the darkened glow may look a little odd when the Chaurus is well-lit, but it shouldn\\'t be noticeable most places you\\'re likely to encounter one.\r\n\r\n[b]Todo[/b]\r\n\r\n[list]\r\n[*]Possibly make the glow respond to a few more things, like when the creature flees battle.\r\n[*]Add glow to Chaurus Hunters.\r\n[*]Make glow brightness configurable.\r\n[*]If Brendan ever gets nioveride working with glowmaps, optionally use that instead to control the glow.\r\n[/list]\r\n\r\n[b]Known bugs[/b]\r\n\r\n[list]\r\n[*]If a Chaurus is disabled and enabled while in the loaded cell, sometimes the glow script stops running. Probably won\\'t be fixed since there\\'s almost no way this can happen by accident.\r\n[/list]\r\n\r\n[b]Technical Details[/b]\r\n\r\nThis works by adding an ability spell to the Chaurus and Chaurus Reaper races. This spell uses a very safe and simple script apply various effectshaders to the creature\\'s model based on various events. The effectshader is a membrane shader based on a black copy of the Chaurus glowmap. By varying the transparency of this shader, the glow of the Chaurus can be dimmed or brightened at will. As usual, the script source is included.\r\n\r\n[b]History[/b]\r\n2013/10/21 - v1.01 release, minor bugfixes.\r\n2013/10/20 - Initial release.\r\n\r\n[/color]",
+  "categoryId": "62",
+  "version": "1.01",
+  "author": "Verteiron",
+  "createdUnix": "1382252982",
+  "updatedUnix": "1382332768",
+  "containsAdultContent": false,
+  "uploadedBy": "verteiron",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000068118",
+      "name": "ChaurusLights",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "17",
+      "fileName": "ChaurusLights100-44966-1-0.7z",
+      "uploadedUnix": "1382252107",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c38e0bc32b25fa69b1df5c5369cea4beebda5ca95656089adec62e0fe97640ef/analysis/1407762023/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ChaurusLights100-44966-1-0.7z?fid=1000068118&ttl=1535825543&ri=8192&rs=8192&setec=6c5bd5651ad921808d69371e0663a727"
+    },
+    {
+      "fileId": "1000068723",
+      "name": "ChaurusLights101",
+      "version": "1.01",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "18",
+      "fileName": "ChaurusLights101-44966-1-01.7z",
+      "uploadedUnix": "1382332768",
+      "modVersion": "1.01",
+      "virusScanUrl": "https://www.virustotal.com/file/0e25caaa999768ccd7e318ced218683732aac758b140da25223dd519e9c095fd/analysis/1407763093/",
+      "changelogHtml": " Fixed a bug where a dead chaurus would start glowing again if its cell was reloaded. <br/> \n Added extra check to avoid multiple shaders getting stacked up. Shouldn&#39;t happen, but you never know. <br/> \n Hopefully fixed the flickering light glitch on death. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ChaurusLights101-44966-1-01.7z?fid=1000068723&ttl=1535825544&ri=8192&rs=8192&setec=98e1f33c5aa5e15c74f961329f051461"
+    }
+  ]
+}

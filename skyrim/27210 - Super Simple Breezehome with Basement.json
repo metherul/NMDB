@@ -1,0 +1,48 @@
+{
+  "modId": 27210.0,
+  "modName": "Super Simple Breezehome with Basement",
+  "summary": "Super simple breezehome mod with basement, changed fire pit for fireplace added chimney outside too. There is a guest bedroom for follower mods. Fixed lydia&#39;s bedroom so she sleeps, no more stuck lydia&#33; No forges or smelters or gaudy furniture&#33; Basement and armory with two mannequins. NOW HEARTHFIRE COMPATIBLE&#33;",
+  "descriptionHtml": "UPDATE 8/3/2015\r<br />I wonder what those not loaded fragments are in the CK? oh those are the fragments I should have sorted out LAST TIME&#33;&#33;&#33;&#33; \r<br />Ugh... well I fixed the hearthfire problems finally I hope. I first \r<br />noticed the problems when I tried using my solitude home for kids \r<br />adoption and the house wasn&#39;t on the list nor any of my other house mods\r<br /> only the default HF homes so I found that the code not loaded fragments\r<br /> were the places where the calls to the hearthfire scripting should go \r<br />if it wasn&#39;t there already by default or where my code should go to \r<br />enable/disable things. So that is now sorted and things should work \r<br />properly now finally:-)\r<br />\r<br />I don&#39;t know why but proventus will disable your alchemy lab after buying the kids room&#33;&#33;&#33;&#33; so if you want to upgrade for kids do it first then buy the alchemy lab. I even changed what object was linked in the house purchase quest under the scripts section to say guest room instead of alchemy lab so the BYOH script would change the guest room instead of alchemy and I think it changes out alchemy lab anyway. After buying the kids room or changing out the guest room for kids room there should be the alchemy lab buy option again you can try that but I just re enable alchemy when I get back to the house. So if you bought the alchemy lab and want to upgrade for kids make sure you get your books off the book shelves in the hall way and downstairs first they might go missing if you don&#39;t. \r<br />\r<br />\r<br />\r<br />UPDATE I fixed it I hope:-) DO NOT OVERWRITE the other mod with this one they are slightly different now&#33; Use one or the other ONLY&#33;\r<br />\r<br />\r<br />This is the basement version of my other breezehome mod seen here: http://skyrim.nexusmods.com/mods/26343\r<br />\r<br />\r<br />\r<br />You need to be running v1.9 of skyrim, old v1.8 or older saves really bug out with this mod.\r<br />\r<br />This mod now REQUIRES dawnguard and hearthfire DLC as well as the unofficial skyrim patch, unofficial dawnguard patch, and unofficial hearthfire patch. Those things just fix so many things wrong specifically weapon racks and mannequins so it makes sense to make them dependents for this mod.\r<br />\r<br />\r<br />Here are the xmarker codes for anyone that needs them.\r<br />\r<br />Start markers: disable these.\r<br />\r<br />BasementStart: 07008f9f\r<br />\r<br />ArmoryStart: 0700954d\r<br />\r<br />GuestRoom: 07016839\r<br />\r<br />\r<br />Decorate markers: enable these.\r<br />\r<br />DecorateBasement: 07008a3a\r<br />\r<br />DecorateArmory: 0700954c\r<br />\r<br />DecorateGuestRoom: 070137bb\r<br />\r<br />child room decorate marker: 03004274\r<br />\r<br />\r<br />\r<br />I have used tes5edit to REMOVE the dialogue and housepurchase stuff from my mod then added them back in with the CK correctly. I carefully changed the alchemy lab conditions for child bedroom to guest room so buying the child room swaps out the guest room and vice versa. I changed out lydia&#39;s room with the child room so now the kids sleep in lydia&#39;s default room and lydia sleeps just outside the player bedroom. I linked the house center xmarker with keyword spousebed to the player bed in the bedroom upgrade and I linked lydia&#39;s bed to that xmarker too so she should get in her dam bed instead of other beds. I moved lydia to the main floor from upstairs so she won&#39;t constantly wander in and out of that room up there. I added a room occlusion box for the main floor and upstairs and another for the basement so everything won&#39;t be rendered at once anymore. So your fps should be better now with this house. I ran this mod through tes5edit and followed the mod cleaning guides for that program so this mod should be as clean as it can be.\r<br />\r<br />\r<br />\r<br />Find any bugs? Post them in the comments section so I can fix them:-)",
+  "categoryId": "67",
+  "version": "v1.3",
+  "author": "Dragonslayer2k12",
+  "createdUnix": "1353474622",
+  "updatedUnix": "1438577381",
+  "containsAdultContent": false,
+  "uploadedBy": "dragonslayer2k12",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "100832",
+      "name": "SSBreezeHomeModBasement",
+      "version": "v1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "161",
+      "fileName": "SSBreezeHomeModBasement-27210-v1-0.rar",
+      "uploadedUnix": "1353474692",
+      "modVersion": "v1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ffa21c15351f73e464530591f93da261289c125845306910f9da83e40e623736/analysis/1407271992/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SSBreezeHomeModBasement-27210-v1-0.rar?fid=100832&ttl=1535799807&ri=8192&rs=8192&setec=94f4378d69a8933541584de25167c960"
+    },
+    {
+      "fileId": "1000170361",
+      "name": "SSBreezeHomeModBasementHF",
+      "version": "v1.3",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "203",
+      "fileName": "SSBreezeHomeModBasementHF-27210-v1-3.rar",
+      "uploadedUnix": "1438577381",
+      "modVersion": "v1.3",
+      "virusScanUrl": "https://www.virustotal.com/file/f40d240e0e2ebae9ea29ec14680066d9423916f3d6066e70851e56320eff8e6f/analysis/1438577402/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SSBreezeHomeModBasementHF-27210-v1-3.rar?fid=1000170361&ttl=1535799807&ri=8192&rs=8192&setec=30c1be1336e609411aa2fa0b0f88df7c"
+    }
+  ]
+}

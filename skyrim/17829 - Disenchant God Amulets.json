@@ -1,0 +1,48 @@
+{
+  "modId": 17829.0,
+  "modName": "Disenchant God Amulets",
+  "summary": "Allows you to disenchant any god amulet, and also fixes the Blessing of Talos enchantment.",
+  "descriptionHtml": "The mod simply allows you to disenchant every god amulet (Amulet of Talos, Amulet of Mara, etc.), and fixes the Blessing of Talos enchantment so it is always a fixed 20% shout cooldown reduction. \r<br />\r<br />Have fun&#33;\r<br />\r<br />If you&#39;re wondering why Talos enchantments are always set to 20%, it&#39;s because the only way of making it scale correctly would be to modify the game&#39;s source code, which only Bethesda can do. There&#39;s no way of accessing the scaling formula otherwise. And since the enchantment wasn&#39;t intended to be playable, it has a really dodgy scaling formula by default.\r<br />The vanilla enchantment does not scale - at all. It only has an integer magnitude, meaning it&#39;s either 0 (0% - no effect on shout cooldown) or 1 (100% - instant shout cooldown). Or even higher, making the cooldown go negative. \r<br />So instead of allowing the player to use either a useless, game-breaking, or game-breaking and glitched enchantment... I just made it so that it&#39;s always a 20% shout cooldown reduction.\r<br />Also, I removed my fix for the vanilla Amulet of Talos descriptions (where they would always say 0% instead of 20%), because that fix is now included in the [url=http://skyrim.nexusmods.com/mods/19]Unofficial Skyrim Patch[/url], which you should definitely use if you aren&#39;t already.\r<br />\r<br />\r<br />And check out my other mods: \r<br />[url=http://skyrim.nexusmods.com/mods/27588/]Exciting Skill Ranks[/url]\r<br />[url=http://skyrim.nexusmods.com/mods/27873/]Dawnfang and Duskfang - Fully Functional[/url]",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "Jules",
+  "createdUnix": "1338269448",
+  "updatedUnix": "1354362988",
+  "containsAdultContent": false,
+  "uploadedBy": "Teh Masterer",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "64384",
+      "name": "Disenchant God Amulets v1_0b",
+      "version": "1.0b",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Disenchant God Amulets v1_0b-17829-1-0b.zip",
+      "uploadedUnix": "1338290517",
+      "modVersion": "1.0b",
+      "virusScanUrl": "https://www.virustotal.com/file/4f5df2ccdf802dc243b9903b60c7038c7119b3b405ad4ba37eee283210ba8ae8/analysis/1406923264/",
+      "changelogHtml": " Fixed vanilla Amulet of Talos descriptions. <br/> \n Concatenated \\\"00\\\" on the end of player-enchanted magnitudes (temporary fix). <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Disenchant%20God%20Amulets%20v1_0b-17829-1-0b.zip?fid=64384&ttl=1535784211&ri=8192&rs=8192&setec=11ee9adeee341b91c2beb4c09b72ae31"
+    },
+    {
+      "fileId": "102529",
+      "name": "Disenchant God Amulets v1_1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Disenchant God Amulets v1_1-17829-1-1.zip",
+      "uploadedUnix": "1354362988",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/4ac9f2cc4fcfaf40ca56f255572c505155afaa55fe7d7fc256f155b4747a2bb7/analysis/1407286743/",
+      "changelogHtml": " Set all Talos enchantments to have a fixed 20% shout cooldown reduction <br/> \n Removed the Amulet of Talos vanilla description fix, as the Unofficial Skyrim Patch now fixes it <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Disenchant%20God%20Amulets%20v1_1-17829-1-1.zip?fid=102529&ttl=1535784211&ri=8192&rs=8192&setec=f18f3aac2b20d1c6385712b71996dd7c"
+    }
+  ]
+}

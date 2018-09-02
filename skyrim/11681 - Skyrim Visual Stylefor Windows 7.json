@@ -1,0 +1,32 @@
+{
+  "modId": 11681.0,
+  "modName": "Skyrim Visual Stylefor Windows 7",
+  "summary": "Fully functional Skyrim Visual Style for Windows 7\r\nBeta stage.",
+  "descriptionHtml": "FIRST OF ALL\r\nThis is just a beta! There still are some \r\nunfinished parts. For example the start menu isn\\'t \r\nskinned yet. You can also use the taskbar only on the \r\nbuttom. I didn\\'t touch the pin left and right option.\r\nSome fonts may be hard to read, too.\r\n\r\nPlease let me know what you think of it! Since this is\r\na WIP I\\'m still open for suggestions!\r\n\r\n\r\nWHAT IS THIS?\r\nThis is not a game modification.\r\nThis is a Visual Style for Windows 7 which is fully\r\ncompatible with 32x and 64x versions.\r\nIt changes the look of your operating system to match \r\nthe Skyrim UI design.\r\n\r\n\r\n\r\n______________________________________________________\r\n\r\nINSTALLATION INSTRUCTIONS\r\n______________________________________________________\r\n\r\n\r\n0 - PROLOGUE\r\nThis is not a themepack, which only changes the \r\nwallpaper or color of your explorer frame.\r\nThis means you need to replace some system files.\r\nI advise you to only modify your system files if you\r\nknow what you are doing! I won\\'t be held responsible \r\nfor any damage on your system! Windows 7 only!\r\n\r\nBut don\\'t be scared. It\\'s an easy process and there are\r\ntools that do most of the work.\r\n\r\nThere isn\\'t a custom explorerframe (the .dll file\r\nresponsible for the back/forward buttons in the\r\nexplorer window) yet. As for now, I suggest you to use \r\nthe file from this Visual Style:\r\nhttp://snipes2.deviantart.com/gallery/#/d4kq0l8\r\n\r\n\r\nI - PATCHING YOUR SYSTEM FILES\r\nThis is necessary to enable third party Visual Styles\r\nThey are uxtheme.dll, themeui.dll and themeservice.dll\r\n> Open the folder \\\"Universal Theme Patcher\\\"\r\n> If you are running 32-Bit version of Windows 7, \r\n  choose \\\"UniversalThemePatcher-x86.exe\\\". \r\n  For 64-Bit version of Windows 7, choose\r\n  \\\"UniversalThemePatcher-x64.exe\\\".\r\n> right-click on the file and \\\"run as Administrator\\\"\r\n> Choose your language (only for the U.T. Patcher)\r\n> Patch all three files\r\n> restart you PC (really necessary)\r\n\r\nII - REMOVING THE WINDOWS BLUR\r\nSince i Had to use parts of the exlorer shadow images\r\nfor the explorer frames you will need to disable \r\nthe windows blur (the VS will be usable without\r\nthis step, but your explorer frames will have a crappy look)\r\nI also advise you to take a look at the readme inside.\r\nIf you mess it up here, you\\'ll probably break your \r\nWindows 7.\r\n> Open the folder \\\"Hide Blur Tool\\\"\r\n> If you are running 32-Bit version of Windows 7, \r\n  choose \\\"Patch 32-bit System Files.bat\\\". \r\n  For 64-Bit version of Windows 7, choose\r\n  \\\"Patch 64-bit System Files.bat\\\".\r\n> right-click on the file and \\\"run as Administrator\\\"\r\n> Wait a few seconds for the files getting replaced.\r\n  (Your explorer will have to switch t the basic mode)\r\n> The blur effect of the window frames is removed\r\n  That\\'s it\r\n\r\nIII - ADDING THE VISUAL STYLE\r\nThis one is actually pretty simple\r\n> Copy \\\"Skyrim 0.5.theme\\\" and the folder \\\"Skyrim 0.5\\\"\r\n  to \\\"C/WINDOWS/ReSOURCES/THEMES\\\"\r\n> Double click on \\\"Skyrim 0.5.theme\\\"\r\n> Wait a few seconds\r\n\r\n\r\n\r\n______________________________________________________\r\n\r\nFAQ\r\n______________________________________________________\r\n\r\n\r\nWHEN WILL IT BE FINISHED?\r\nThe final version will be ready in the next few weeks.\r\nIt is a lot of work to do, please be patient.\r\nI\\'ll keep you updated with the latest screenshots.\r\n\r\nWHO ARE YOU?\r\nI\\'m a graphic designer, photographer and \r\ncustomization artist. I mostly create wallpapers and \r\nVisual Styles. You can find more Visual Styles, \r\nwallpapers, icons photos, photo manipulations and much \r\nmore at my profile on deviantart.com:\r\nhttp://snipes2.deviantart.com\r\n\r\nREQUIREMENTS?\r\n- PC with Windows 7\r\n- any version with aero enabled will do\r\n\r\nWILL THIS SLOW MY COMPUTER DOWN?\r\nNo! Only if you run an additional program like \r\nWindowblinds. \r\n\r\nWHO ARE YOU?\r\nI\\'m a graphic designer, photographer and \r\ncustomization artist. I mostly create wallpapers and \r\nVisual Styles. You can find more Visual Styles, \r\nwallpapers, icons photos, photo manipulations and much \r\nmore at my profile on deviantart.com:\r\nhttp://snipes2.deviantart.com\r\n\r\n\r\n\r\n______________________________________________________\r\n\r\nRANDOM\r\n______________________________________________________\r\n\r\nQUICK HELP\r\nIf you messed anything up follow these steps:\r\n> start \r\n> run \r\n> cmd \r\n> type sfc /scannow and let it scan\r\nThis will fix all the files that are incorrect. \r\nHowever once it\\'s done you will have to run the \r\nuxtheme patcher again to use thisd party visual styles.\r\n\r\nOther tutorials to change Windows7 Visual Styles:\r\nhttp://www.thewindowsplanet.com/634/install-custom-visual-styles-themes-windows-7.htm\r\nhttp://neiio.deviantart.com/art/How-to-Install-Custom-Themes-262833454\r\nhttp://www.youtube.com/watch?v=qXqlQPnTcMc\r\n",
+  "categoryId": "28",
+  "version": "0.5",
+  "author": "snipes2",
+  "createdUnix": "1330537840",
+  "updatedUnix": "1331064285",
+  "containsAdultContent": false,
+  "uploadedBy": "snipesishere",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "40830",
+      "name": "Skyrim Visual Style BETA",
+      "version": "0.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2249",
+      "fileName": "Skyrim Visual Style BETA-11681-0-5.zip",
+      "uploadedUnix": "1331064285",
+      "modVersion": "0.5",
+      "virusScanUrl": "https://www.virustotal.com/file/f7fa63ea9f95ab891372105ed9673866499dbaf42e08f865302a2356b14c245e/analysis/1406735104/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Skyrim%20Visual%20Style%20BETA-11681-0-5.zip?fid=40830&ttl=1535773042&ri=8192&rs=8192&setec=5424fb251293bfb11fa9a43eb74f2cc9"
+    }
+  ]
+}

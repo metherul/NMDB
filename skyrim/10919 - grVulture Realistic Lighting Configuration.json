@@ -1,0 +1,48 @@
+{
+  "modId": 10919.0,
+  "modName": "grVulture Realistic Lighting Configuration",
+  "summary": "Realistic configuration for Realistic Lighting!",
+  "descriptionHtml": "NOTICE: Screenshots do not really reflect what you actually get in game. Have to play it to understand it... ;)\r\n\r\nOK, so I\\'ve customized Realistic Lighting and I got the perfect results for my taste, textures, and monitor calibration. I thought I\\'d share it, as more could benefit from using it.\r\n\r\nThis is for all of you who don\\'t like a colorful world, but a more bleak one.\r\n\r\nYou need to download Realistic Lighting main file (no ENB or Vanilla) from here:\r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=7654\r\nLoad Realistic Lighting Patcher.esp found in my zip file after Realistic Lighting\\'s esp file. Both files go into Skyrim\\'s Data folder.\r\n\r\nFor those that don\\'t know what Realistic Lighting is, it makes the lighting more realistic without the use of screen shader injections or other post-processing. This means there will be no performance decrease at all, and all weather and locations have unique light settings.\r\n\r\nENB/FXAA injectors don\\'t affect sneaking. This DOES affect sneaking calculations. \r\nAlso note this will not decrease performance at all, and for some people the removal of bloom may actually improve performance. ENB/FXAA injectors always decrease performance.\r\n\r\nWhat you\\'ll get:\r\n- no more overexposured surfaces. Nothing should blind you anymore! If it does, then the normal map of the texture is wrong, this is not a problem of this mod.\r\n- no more blinding snow.\r\n- rich and warm sunsets and sunrises.\r\n- rich shadows but no overburning. Just as they should be.\r\n- natural sun behavior. Day light depends heavilly on sun light. Cloudy days are dull, watch the sun appear between the clouds and you instantly see the difference. Sunny days are sunny, cloudy days are cloudy.\r\n- days do not produce a hard light anymore even on strong sunny days, where the shadows and exposure was overkill. Days will be subtle as in real life.\r\n- dynamic nights. Cloudy skies turn the night dark, watch the skies clear, and you get a nice subtle blue light on land. Nothing major to kill your immersion. Aurora will emmit a strong reddish blue light. Rainy nights are pitch black. *\r\n- interiors litten by sunlight in daytime, and ambient light of day as they should. During night, interiors will be dark, but not so ridiculous that you will have to carry a torch in the tavern! **\r\n- real light from torches and other fire light sources.\r\n- dungeons are still dark, but brighter than normal RL, by better use of light sources. Image has been smoothen out and desaturated to produce a more natural feeling. \r\n- natural transitions. No more dusk blue sky and pitch darkness on land.\r\n- no grey, white, cyan, or whatever mountains during sunset/sunrise, and various weather conditions. Fixed all these problems 99.9%. Eye adjustment was removed outside, as this for some reason was playing a big role in producing this bug. I didn\\'t like eye adjustment anyway. ***\r\n\r\n* Grass seems to \\\"glow\\\" a little in the night. This is a problem of the texture, and not that of Real Lighting\r\n** This is the normal behavior. Bethesda however was lazy on this, some places (eg. Dragonsreach) still have daylight, even during the night! Actually, interiors must be the most broken part of Skyrim! Some look good with some settings, some look good with other settings. I tried to keep a good balance for all. The problem is how Bethesda have put random lights everywhere without any logic.\r\n*** Fog under certain weather conditions such as rain/mist may produce very very slightly coloured mountains. Have tried all weather combinations, this is the only one I cannot fix without breaking the others. RL will get an update which will fix this.\r\n\r\nJust try it, if you don\\'t like it, simply uncheck the esp that comes with it. :)\r\n\r\nLet\\'s all say a big \\\"thank you\\\" to Plutoman for Realistic Lighting!\r\n\r\nMODS used in the screenshots:\r\nUltimate Solitude\r\nAlternative Sunglare\r\nBetter Dynamic Snow\r\nSnow HQ Texture\r\nRealistic Water Textures\r\nReal Effect Candle\r\n...and mostly my own textures which I can\\'t share because I don\\'t know anymore which are mine and which are based on others, and who these \\\"others\\\" are... :/",
+  "categoryId": "62",
+  "version": "1.0",
+  "author": "grVulture",
+  "createdUnix": "1329998799",
+  "updatedUnix": "1332524349",
+  "containsAdultContent": false,
+  "uploadedBy": "grvulture",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "35681",
+      "name": "grVulture_RL_Config",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "grVulture_RL_Config-10919-1-0.zip",
+      "uploadedUnix": "1329998891",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/c65ec1e103469c5c80607fd5f4ab40b7db44fb2baf37a97617bdebb97e166e66/analysis/1406707392/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/grVulture_RL_Config-10919-1-0.zip?fid=35681&ttl=1535771734&ri=8192&rs=8192&setec=094fa3637f3fcc9b9b3a57ac5b35fd52"
+    },
+    {
+      "fileId": "46047",
+      "name": "grVulture Enhanced Shaders",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "471",
+      "fileName": "grVulture Enhanced Shaders-10919.7z",
+      "uploadedUnix": "1332524349",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/012717ec5b1ab8f6823ccd93b373e5d3798ca859f8a8148176dc0791d938c9a1/analysis/1406774888/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/grVulture%20Enhanced%20Shaders-10919.7z?fid=46047&ttl=1535771734&ri=8192&rs=8192&setec=d60c5a2dee3886fbcec45a1a0813e403"
+    }
+  ]
+}

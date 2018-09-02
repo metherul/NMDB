@@ -1,0 +1,32 @@
+{
+  "modId": 35743.0,
+  "modName": "Modified Mining Script for SkyRe",
+  "summary": "Adjusted mining script to increase ore gained based on smithing experience.",
+  "descriptionHtml": "I hate mining.  It\\'s slow.  It\\'s tedious.  And it never gives you enough ore to do anything with, especially in SkyRe, where you need 3 pieces of ore to make an ingot instead of 2.  Add to that the fact that I like to play with all my starting skills at zero using Epic Glory (http://skyrim.nexusmods.com/mods/12140), and it becomes even more tedious just to get smithing to 15 so I can temper an iron dagger :p\r\n\r\nSo I made this script to change that.\r\n\r\nThis script is just the SkyRe mining script with two small changes:\r\n\r\n1) The amount of ore that you normally receive per ore vein is 3, spaced out over 9 whacks with your pickaxe.  Every three whacks, you\\'d get one ore.  This script changes it so that every three whacks, you get 10% of your Smithing skill in ore, rounded down, with a minimum of one piece.  \r\n\r\nEx:  1 Smithing = 1 ore, 10 Smithing = 1 ore, 25 Smithing = 2 ore, 58 Smithing = 5 ore, 100 Smithing = 10 ore, etc.\r\n\r\n2) In the SkyRe mining script, you gain 2 smithing xp each time you get a piece of ore (4 xp for a gem).  In this version, you get slightly more xp at the beginning, and less over time as your skill increases.  The formula is now:  10 / [# pieces of ore gained] (x2 for gems).  \r\n\r\nSo, 0 Smithing = 10 xp, 15 Smithing = 10 xp, 28 Smithing = 5 xp, 55 Smithing = 2 xp, 100 Smithing = 1 xp, etc.  \r\n\r\nHaving over 100 in Smithing means you will no longer get experience from mining ore.  Experience from mining gems caps at 200.\r\n",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "Madd Mugsy",
+  "createdUnix": "1367868408",
+  "updatedUnix": "1367868326",
+  "containsAdultContent": false,
+  "uploadedBy": "Madd_Mugsy",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000028486",
+      "name": "SkyRe MineOreScript",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "SkyRe MineOreScript-35743-1-0.rar",
+      "uploadedUnix": "1367868326",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/68ddd35eec1835af846c0965158e7eb741fd47b8c3f01cf4fa45f6b4977296c1/analysis/1407558122/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyRe%20MineOreScript-35743-1-0.rar?fid=1000028486&ttl=1535814471&ri=8192&rs=8192&setec=d8fd8e9e4d481eb993bdae76bb963985"
+    }
+  ]
+}

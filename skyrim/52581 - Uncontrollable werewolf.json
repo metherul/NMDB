@@ -1,0 +1,32 @@
+{
+  "modId": 52581.0,
+  "modName": "Uncontrollable werewolf",
+  "summary": "When transforming into werewolf you have a chance of losing control over your character. Your character will be AI driven until he transforms back into human.",
+  "descriptionHtml": "When transforming into werewolf you have a chance of losing control over your character. Your character will be AI driven until he transforms back into human. Options in MCM menu allows you to change chance of losing controls.\r<br />[youtube]sV3EIKZrBV8[/youtube]\r<br />In the current version if you lose controls, your character will be replaced with werewolf NPC because I didn&#39;t manage to force player to use AI packeges. It means that werewolf&#39;s stats won&#39;t match your stats. But the script has 6 different werewolfs and will choose more powerfull if the player has higher level.\r<br />AI driven werewolf can&#39;t feed or use abilities from Dawnguard.\r<br />Trying to solve these two problems is planned for updates as well as other interesting features.\r<br />\r<br />[url=http://skse.silverlock.org/]SKSE[/url] & [url=http://www.nexusmods.com/skyrim/mods/3863/?]SkyUI[/url] are required.\r<br />\r<br />[b]Options in MCM[/b]:\r<br />[list]\r<br />[*]Enable/disable the mod\r<br />[*]Transformation type:\r<br /> - Always (Will always lose controls of the werewolf) - Random (There is a chance that you will loose controls and you can set this chance) - Complete random (There is a chance that you will loose controls and you don&#39;t know the chances)[*]Level affects chance (The higher you level, the lower the chance of losing control)\r<br />[*]Chance for random mode\r<br />[/list]\r<br />[heading]Compatibility[/heading]\r<br />Doesn&#39;t change any object in the game. Should be compatible with anything.",
+  "categoryId": "24",
+  "version": "1",
+  "author": "Genebriss",
+  "createdUnix": "1396281808",
+  "updatedUnix": "1396281800",
+  "containsAdultContent": false,
+  "uploadedBy": "Genebriss",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000103176",
+      "name": "Uncontrollable werewolf",
+      "version": "1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "242",
+      "fileName": "Uncontrollable werewolf-52581-1.rar",
+      "uploadedUnix": "1396281800",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/86e1f916c89fee6c0f94fe50b5406652697c06e7a5378c553b589d52badee203/analysis/1408002183/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Uncontrollable%20werewolf-52581-1.rar?fid=1000103176&ttl=1535835680&ri=8192&rs=8192&setec=0511af85b1b6e63a0b679896a8ab9f81"
+    }
+  ]
+}

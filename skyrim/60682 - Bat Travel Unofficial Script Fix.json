@@ -1,0 +1,32 @@
+{
+  "modId": 60682.0,
+  "modName": "Bat Travel Unofficial Script Fix",
+  "summary": "Fixes a script error that prevented setting of the last 5 custom locations. See the original mod (http://www.nexusmods.com/skyrim/mods/21689/?) for more details. ",
+  "descriptionHtml": "[size=5][center][color=#1e84cc]Bat Travel Unofficial Script Fix[/color][/center][/size]\r<br />[color=#ff0000]Requires[/color] SKSE, Dawnguard and Dragonborn and also [url=http://www.nexusmods.com/skyrim/mods/21689/?]the original mod[/url].\r<br />\r<br />[color=#ff7700][size=4]Purpose of this mod:[/size][/color]\r<br />\r<br />Fixes a script error that prevented setting of the last 5 custom locations. See the original mod for more details.\r<br />\r<br />[color=#ff7700][size=4]Installation:[/size][/color]\r<br />\r<br />First install the original mod and then install this mod, choosing yes to all overwrites. \r<br />\r<br />This mod includes an edited esp, an edited script file and it&#39;s source file. That is why  [b][color=#ff0000][size=4][u]you must download and install the original mod[/u][/size][/color][/b].\r<br />\r<br />[color=#ff7700][size=4]Details of the Error:[/size][/color]\r<br />\r<br />I noticed that when attempting to set a custom location for Bat Travel that when I chose next to the see the next 5 options the menu would quit and would get the following errors:\r<br />\r<br />[font=Courier New][size=1][06/18/2014 - 05:32:06PM] Error: Property SetDestination on script _GPBatsTeleFXScript attached to Active effect 5 on (00000014) cannot be bound because &lt;NULL form&gt; (5601E36F) is not the right type\r<br />[06/18/2014 - 05:32:13PM] Error: Cannot call Show() on a None object, aborting function call\r<br />stack:\r<br />[Active effect 5 on (00000014)]._GPBatsTeleFXScript.SetLocation02() - &#34;_GPBatsTeleFXScript.psc&#34; Line 327\r<br />[Active effect 5 on (00000014)]._GPBatsTeleFXScript.SetLocation() - &#34;_GPBatsTeleFXScript.psc&#34; Line 320\r<br />[Active effect 5 on (00000014)]._GPBatsTeleFXScript.CustomMenu() - &#34;_GPBatsTeleFXScript.psc&#34; Line 221\r<br />[Active effect 5 on (00000014)]._GPBatsTeleFXScript.MainMenu() - &#34;_GPBatsTeleFXScript.psc&#34; Line 93\r<br />[Active effect 5 on (00000014)]._GPBatsTeleFXScript.OnEffectStart() - &#34;_GPBatsTeleFXScript.psc&#34; Line 73\r<br />[06/18/2014 - 05:32:13PM] Warning: Assigning None to a non-object variable named &#34;::temp49&#34;\r<br />stack:\r<br />[Active effect 5 on (00000014)]._GPBatsTeleFXScript.SetLocation02() - &#34;_GPBatsTeleFXScript.psc&#34; Line 327\r<br />[Active effect 5 on (00000014)]._GPBatsTeleFXScript.SetLocation() - &#34;_GPBatsTeleFXScript.psc&#34; Line 320\r<br />[Active effect 5 on (00000014)]._GPBatsTeleFXScript.CustomMenu() - &#34;_GPBatsTeleFXScript.psc&#34; Line 221\r<br />[Active effect 5 on (00000014)]._GPBatsTeleFXScript.MainMenu() - &#34;_GPBatsTeleFXScript.psc&#34; Line 93\r<br />[Active effect 5 on (00000014)]._GPBatsTeleFXScript.OnEffectStart() - &#34;_GPBatsTeleFXScript.psc&#34; Line 73\r<br />[Active effect 5 on (00000014)]._GPBatsTeleFXScript.OnEffectStart() - &#34;_GPBatsTeleFXScript.psc&#34; Line 73[/size][/font]\r<br />\r<br />xx01E36F [u]was[/u] a Spell Property Called Set Destination which is not being used anywhere in that script. It&#39;s value was unset. The real problem was that the Message Property SetLocationMessage02 was not filled and thus, &#34;cannot call Show() on a none object.&#34; The script continues and everything ends because it should.\r<br />\r<br />I have corrected the properties and recompiled _GPBatsTeleFXScript. Also I cleaned the ITM records.\r<br />\r<br />After the changes, I was able to set all 10 custom destinations and I had no further issue with the mod.\r<br />\r<br />[color=#ff7700][size=4]Credit:[/size][/color]\r<br />All credit goes to the original author, [url=http://www.nexusmods.com/skyrim/users/5103029/?]DidymusEi[/url] for [url=http://www.nexusmods.com/skyrim/mods/21689/?]the original mod[/url].\r<br />\r<br />[color=#ff7700][size=4]Permission Notes:[/size][/color]\r<br />At the time of this writing, the permissions on the original mod included (as stated), &#34;You are allowed to modify my files and release bug fixes or improve on the features so long as you credit me as the original creator.&#34; Please inform me if this status changes.",
+  "categoryId": "75",
+  "version": "2.2.1",
+  "author": "Trilioth",
+  "createdUnix": "1418298710",
+  "updatedUnix": "1418298706",
+  "containsAdultContent": false,
+  "uploadedBy": "trilioth",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000138451",
+      "name": "Bat Travel Unofficial Script Fix v2.2.1",
+      "version": "2.2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "42",
+      "fileName": "Bat Travel Unofficial Script Fix v2.2.1-60682-2-2-1.7z",
+      "uploadedUnix": "1418298706",
+      "modVersion": "2.2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/394dd0ff13d6093efacd729a92c7044a3e404ae15d1098dd581fe519379e3d03/analysis/1418298722/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bat%20Travel%20Unofficial%20Script%20Fix%20v2.2.1-60682-2-2-1.7z?fid=1000138451&ttl=1535848570&ri=8192&rs=8192&setec=1d76f3a8d02e57e5ec23ff80e9644e8f"
+    }
+  ]
+}

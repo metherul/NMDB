@@ -1,0 +1,32 @@
+{
+  "modId": 23319.0,
+  "modName": "Sagittarius22 Custom Scripting Functions Library - CSFL",
+  "summary": "Adds 8 new custom functions for your scripting needs.",
+  "descriptionHtml": "This \\\"mod\\\" is to use as a modder resource. It provides new functions that should make life easier for some of us. Please, don\\'t upload it anywhere; make it a requirement for your mods.\r\nThose functions are based on vanilla functions and do not need SKSE to work. It can help you to shorten your scripts without using properties. The only requirement is the latest Skyrim patch.\r\n\r\nNew functions and descriptions:\r\n\r\n* Int Function RewardGold(ObjectReference rObject, int Amount, bool bSilent)\r\nGives the specified amount of gold to this reference. Three parameters:\r\nrObject - the reference that will get the gold\r\nAmount - the amount of gold\r\nbSilent (optional, default = false) - if true, no message will pop-up if the gold has been added to the player.\r\nExample: RewardGold(BobRef,200) ; adds 200 gold to Bob.\r\n\r\n* Bool Function IsPlayerVampire()\r\nReturns true if the player is a vampire.\r\n\r\n* Bool Function CanPlayerShout() \r\nReturns true if the player can shout, false if he/she has not learnt to shout yet.\r\n\r\n* Bool Function IsPlayerWereWolf()\r\nReturns true if the player is a Werewolf, false otherwise.\r\n\r\n* Bool Function IsPlayerCannibal()\r\nReturns true if the player is a cannibal, false otherwise.\r\n\r\n* Race Function GetLastMountRace() \r\nReturns the race if the player\\'s last mount.\r\nExample: \r\nif GetLastMountRace() == DragonRace\r\n; my mount is a badass dragon!\r\nendif\r\n\r\n* Int Function GetPlayerAllegiance()\r\nReturns the player\\'s allegiance during the Civil War.\r\n1 = Imperial\r\n2= StormCloaks\r\n\r\n* Actor Function GetJarl(string Hold)\r\nReturns the current Jarl for the specified capital.\r\nValid parameters:\r\n\\\"Whiterun\\\"\r\n\\\"WindHelm\\\"\r\n\\\"Markarth\\\"\r\n\\\"Riften\\\"\r\n\\\"Solitude\\\"\r\n\r\nNew functions may come later.",
+  "categoryId": "39",
+  "version": "1.0",
+  "author": "Sagittarius22",
+  "createdUnix": "1346259096",
+  "updatedUnix": "1346259118",
+  "containsAdultContent": false,
+  "uploadedBy": "sagittarius22",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "85127",
+      "name": "Sagittarius22 Custom Scripting Functions Library - CSFL",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Sagittarius22 Custom Scripting Functions Library - CSFL-23319-1-0.7z",
+      "uploadedUnix": "1346259118",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/90c3272ca8a13f50eca80086d4bdc6cca1ed28d78c2fd434e25d4987ea7c7f7c/analysis/1407131282/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Sagittarius22%20Custom%20Scripting%20Functions%20Library%20-%20CSFL-23319-1-0.7z?fid=85127&ttl=1535793462&ri=8192&rs=8192&setec=f4c53bf181911fd6aa0ee8a7d19239e5"
+    }
+  ]
+}

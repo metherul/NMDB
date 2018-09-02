@@ -1,0 +1,32 @@
+{
+  "modId": 41317.0,
+  "modName": "Different needs for different roads",
+  "summary": "This mod differentiates roads from snowy roads",
+  "descriptionHtml": "[heading]Description[/heading]\r\nThis mod is mainly aimed at  [b]parallax map users[/b] who have mismatching textures for snowy and regular roads.\r\n\r\n[heading]FAQ[/heading]\r\n[list]\r\n[*]How does it work?\r\n[*]It adds vanilla meshes for snowy roads.\r\n\r\n[*]Why would I need that?\r\n[*]In case you are using parallax mapping that makes your roads look awesome but have mismatching snowy road textures your snowy roads may look bad.\r\n\r\n[*]Explain that again!\r\n[*]Skyrim utilizes the same road meshes for everything, no matter the texture. If you like textures from texture pack #A but you prefer the snow from texture pack #B and your parallax maps won\\'t work properly on both then this is for you!\r\n\r\n[*]You said it uses vanilla meshes for snowy roads, but what if I have compatible meshes for my snowy roads as well?! Can I use both?\r\n[*]Sure!\r\n\r\n[*]How do I do that?\r\n[*]Simply take the meshes that are compatible with your snowy roads and rename them; add \\\"[i]snow[/i]\\\" in front of each of the files. For example [i]roadscurver01.nif[/i] will become [i]snowroadscurver01.nif[/i]. Now overwrite my files with your newly renamed files.\r\n\r\n[*]Can I use the Nexus Mod Manager to install this?\r\n[*]Not at the moment.\r\n\r\n[*]And in the near future?\r\n[*]I\\'ve never tried before, but if I figure it out or get some help I could make a NMM compatible version.\r\n[/list]\r\n\r\n[heading]Compatiblity[/heading]\r\nAs far as I know it should be compatible with pretty much everything.\r\n\r\n[heading]Manual installation[/heading]\r\nSimply extract everything into your Skyrim\\\\Data folder\r\n\r\n[heading]Manual removal[/heading]\r\nDelete Different needs for different roads.esp\r\nDelete every .nif file starting with \\\"snow\\\" in your Skyrim\\\\Data\\\\Meshes\\\\Landscape\\\\Roads folder",
+  "categoryId": "74",
+  "version": "0.1",
+  "author": "dukefx",
+  "createdUnix": "1377897501",
+  "updatedUnix": "1377897492",
+  "containsAdultContent": false,
+  "uploadedBy": "dukefx",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000050878",
+      "name": "Different needs for different roads",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1194",
+      "fileName": "Different needs for different roads-41317-0-1.zip",
+      "uploadedUnix": "1377897492",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/89d34983e07bac38dc56b950b25754102e2e8e6b2570dc832f7c396402fdc976/analysis/1407702730/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Different%20needs%20for%20different%20roads-41317-0-1.zip?fid=1000050878&ttl=1535822067&ri=8192&rs=8192&setec=56bfacd20e81728e40d862e25e6d327c"
+    }
+  ]
+}

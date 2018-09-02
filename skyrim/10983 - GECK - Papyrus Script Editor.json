@@ -1,0 +1,48 @@
+{
+  "modId": 10983.0,
+  "modName": "GECK - Papyrus Script Editor",
+  "summary": "A fairly complete Editor for GECK/Papyrus Script. I got tired of making syntax files for the text editors out there started to write a editor and found this great library.",
+  "descriptionHtml": "If you like it please endorse it is the only I can tell if it is good.\r\n\r\nFirst I take no credit for the base code of the Fast Colored Textbox for Syntax Highlighting or the Editor, that goes to Pavel Torgashov. I modified the code to work with the GECK / Papyrus Script languages.\\'\r\n\r\nUpdate 1.15\r\nAdded support for LUA \r\nCode Hinting\r\nSyntax Highlighting\r\nType a couple of letters and code hinter will appear as in other languages\r\n\r\nUninstall old version and download, extract then run installer\r\n\r\nUpdate 1.14\r\nAdded new script choices at startup.\r\nAdded support for Bethesda .psc script file extension\r\nEditor now saves to .psc in Papyrus Script Mode ( opens in .crk or .psc)\r\nInternal function syntax highlight fixes\r\n\r\nFound a command line ScriptDumper for .pex here use the .psc for the dumpfile \r\nhttp://skse.silverlock.org/download/skyrimtools_0001.7z\r\n\r\nUninstall thru Control Panel then run Installer\r\n\r\nUpdate 1.13\r\nQuick fix for file loading problem. I added a choice box upon startup, choose the Script language you want and it loads a blank script file for that language. This does two things it sets the language to what you want and it activates the highlighter for that language. You can copy paste a file into it or write your script then do a SAVE AS to name the blankfile and put it where you want.\r\nFixed issue of loosing last letter in chosen Function\r\n\r\nPS Donot delete the blank.crk or the blank.gek from the application folder the app will crash, I promise!\r\n\r\n\r\n\r\nUpdate 1.12\r\nAdded Creation Kit function reference link\r\n\r\n\r\nUpdate 1.11\r\nFixed a txt file loading issue for .gek files \r\n\r\n\r\n\r\nRelease 1.1\r\n\r\nNew features added:\r\nSyntax highlighting for php, sql, html, jscript, and CreationKit script\r\nSyntax highlighting is set by file type that you open\r\n\r\nSkyrim support:\r\n\r\nYOU MUST CHANGE YOUR EXISTING CREATION KIT SCRIPT FILES TO THE CRK EXTENSION TO OPEN, THE APP SAVES TO THE CRK EXTENSION AUTOMATICALLY\r\n\r\nFiles have to have extension .crk, sorry can\\'t have two types for .txt\r\nAll Skyrim events - code hinting\r\nAll Skrim Functions - code hinting\r\nSyntax Highlighting\r\nSnippet insertion for Functions, If Else EsleIf, Property, Events\r\n\r\nWhen you open the app choose from file type in dialog box ie crk, gek, php etc\r\n\r\nIf you find events or functions missing PM with the function - event name and I will add them.\r\n\r\n\r\nUpdate 2-21\r\nSome internal code tweaks, changed Icon\r\n\r\nUpdate 2-20\r\nAdded more function fixes and Abbrev for functions\r\n\r\nUpdate 2-18\r\nAdded code so you can\\'t reopen an open file\r\n\r\nUpdate 2-17\r\nSmall update fixing syntax highlighting on some functions and syntax highlight color change\r\n\r\nA fairly complete Editor for GECK Script. I got tired of making syntax files for the text editors out there started to write a editor and found this great library.\r\nFeatures:\r\n\r\nCode hinting for all GECK and NVSE Functions, type the first two or three letters (the more letters you type the more specific the search) and the hint dialog will appear choose the function you want and hit enter or left click with mouse. ( You can also just type the complete function and not use the hinter )\r\nSyntax Highlighting (NVSE Functions in deep red)\r\nSyntax Highlighting is case sensitive except for short, float, int, ref and return. If you choose from the code hinter you will be okay: example additem will not highlight, AddItem will etc\r\nCode Folding\r\nQuick Load file box after loading first file all files in that folder will show in list just click to load\r\nAuto-Indenting - hit the tab key once and it will keep the indent for each line after\r\nSnippet insertion - type If or Begin and a dialog will appear choose then hit enter or left click with mouse ( I will be adding more )\r\nOpens and saves to the .gek file extension\r\nComplete Find and Replace function\r\nBookmarking and Bookmarking removal\r\nShow hidden charactors\r\nKeep Editor On Top choice\r\nLine cloning with or without commenting from context menu\r\nLine Auto-Indenting from context menu\r\nLine commenting or removal of commenting from context menu\r\nQuick Link to GECK Function reference\r\nTabbed interface\r\nBlock navigation panel\r\nFull Copy, Paste and Print\r\n\r\nIf you find any functions that are correct camel and do not highlight pm me with the function, there are quirks when the function has a couple of other function parts in it like GetInSameCell I had to use a different regex expression to make these highlight correctly. I did not have the chance to check them all so you can help if you find one or two pm me and I will correct the highlighting\r\n\r\nAny bugs or suggestions are welcome, post in this forum or at http://falloutmodsforum.com in the GECK Editor board\r\n\r\nSee Images for references to commands available\r\n\r\nSuggestion:\r\n\r\nInstall the lastest GECK Powerup to stop some issues before they happen when you paste the code from the GECK Script Editor into the Script editor in GECK for compiling.\r\nLink:\r\nhttp://newvegas.nexusmods.com/downloads/file.php?id=41642\r\n\r\nRequirements:\r\nWindows OS XP? Vista and Win 7\r\nmust have at least NET 3.5 installed and updated\r\nScript files must have the .gek or .txt extension to open, Editor automatically saves to .gek extension\r\n\r\n\r\nInstallation:\r\nDownload and extract to a known location, then run installer it will place an Icon on your desktop\r\n\r\nUnInstall:\r\nRun UnInstaller from control panel\r\n\r\nCREDITS:\r\nPavel Torgashov for code base of this application\r\n\r\nSee full project at: http://www.codeproject.com/Articles/161871/Fast-Colored-TextBox-for-syntax-highlighting",
+  "categoryId": "39",
+  "version": "1.15",
+  "author": "Pavel Torgashov - Modified by DieHard for GECK-Papyrus Script",
+  "createdUnix": "1330034561",
+  "updatedUnix": "1330915476",
+  "containsAdultContent": false,
+  "uploadedBy": "DieHard3303",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "39778",
+      "name": "GECK-Papyrus Script Editor ver 1-14",
+      "version": "1.14",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "812",
+      "fileName": "GECK-Papyrus Script Editor ver 1-14-10983.7z",
+      "uploadedUnix": "1330825255",
+      "modVersion": "1.14",
+      "virusScanUrl": "https://www.virustotal.com/file/00558505e864bd66ea019835fdcc1a833d127df6c6f755341587dba02a7930d1/analysis/1406732102/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/GECK-Papyrus%20Script%20Editor%20ver%201-14-10983.7z?fid=39778&ttl=1535771833&ri=8192&rs=8192&setec=8a48f3761e2bd803555d70da31410526"
+    },
+    {
+      "fileId": "40222",
+      "name": "GECK - Papyrus Script Editor  Version 1-15",
+      "version": "1.15",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "887",
+      "fileName": "GECK - Papyrus Script Editor  Version 1-15-10983-1-15.7z",
+      "uploadedUnix": "1330915476",
+      "modVersion": "1.15",
+      "virusScanUrl": "https://www.virustotal.com/file/dfbb8cfd0102d02556602958c6bb4f9414816cf26caf782b9b3e29ecf1efc7d3/analysis/1406731519/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/GECK%20-%20Papyrus%20Script%20Editor%20%20Version%201-15-10983-1-15.7z?fid=40222&ttl=1535771834&ri=8192&rs=8192&setec=50e4f3d8924d2da363a4336b56b822e7"
+    }
+  ]
+}

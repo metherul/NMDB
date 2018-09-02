@@ -1,0 +1,32 @@
+{
+  "modId": 23128.0,
+  "modName": "Dragonbone Weapons Improving Pseudo-Fix",
+  "summary": "Allows you to improve official dragonbone weapons beyond epic.",
+  "descriptionHtml": "Description:\r\nIf you have any mods that altered the smithing perk tree, you might have noticed that you can\\'t improve dragonbone weapons (Those added with Dawnguard DLC) very much. This pseudo-fix basically reverts the Dragon smithing perk back to Dawnguard default so you can improve dragon weapons twice as much.\r\n\r\nNote:\r\nThis isn\\'t a bug by Bethesda (hence pseudo-fix), it\\'s a problem introduced by modders altering the smithing perk tree prior to the Dawnguard DLC being released.\r\n\r\nInstallation:\r\nMerely ensure the esp is at the bottom of your load order. You will need the Dawnguad DLC.\r\nThis will revert the Dragon smithing perk back to Dawnguard default.\r\n\r\nConflicts;\r\nThis WILL conflict with any mod that alters the smithing perk tree.\r\nI believe \\\"Smithing Perks Overhaul\\\" and \\\"No Perk Prereqs\\\" will conflict.\r\n\r\nFun fact:\r\nThis fix was so simple it took me longer to get the creation-kit working with Dawnguard than fixing the perk. I merely added a random space into the perk description.\r\n\r\nFor modders/people who want to fix their/others mods:\r\nJust make the DragonArmor perk under Perk be the same as the Dawnguard version.\r\nMore specifically you need to add the keyword \\\"DLC1WeapMaterialDragonbone\\\" to the perk entry conditions.\r\nYou still need permission from the original mod makers if you want to upload the fix.\r\n\r\nPermissions:\r\nDo whatever you want with this. Most likely though since this is a stupid/simple fix, you\\'d want to implement this yourself in the CK. In which case you don\\'t have to credit me.\r\n",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Sibble",
+  "createdUnix": "1346024352",
+  "updatedUnix": "1346024523",
+  "containsAdultContent": false,
+  "uploadedBy": "sibble",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "84495",
+      "name": "DragonBone_Smith_PseudoFix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "DragonBone_Smith_PseudoFix-23128-1-0.7z",
+      "uploadedUnix": "1346024523",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7258acc2fb38d46f956ab89c2eba6521a093262df437534f0c4b4a06c2951224/analysis/1407124529/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DragonBone_Smith_PseudoFix-23128-1-0.7z?fid=84495&ttl=1535793140&ri=8192&rs=8192&setec=ee1199d5cc2f526afaf7a29867387b74"
+    }
+  ]
+}

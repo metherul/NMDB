@@ -1,0 +1,32 @@
+{
+  "modId": 47508.0,
+  "modName": "Dwemer Odysei_Dwemerska Odyseja_beta WIP",
+  "summary": "2 first quests (WIP) for my Dwemer Odysei Adventure quest-new dwemer ruins, new adventures. For now only Polish version (hope soon will come English translation).",
+  "descriptionHtml": "Hi\r<br />first of all I apologize for my poor English,I hope you will understand me.\r<br />I&#39;ve decided to post  WIP,beta version of my first quest mod-Dwemer Odysei,because I need your help.\r<br />I&#39;m totally new in modding,especially in scripting. I&#39;ve mixed knowledge from a few  youtube tutorials about making quests\r<br />for Skyrim,but of course sth doesn&#39;t work and I don&#39;t know where are mistakes.\r<br />\r<br />Could you try my mod, edit in in SCK and see what isn&#39;t OK,fix it?Or send me a PW and tell what I should change,add or remove in scripts,conditions,etc.\r<br />First quest works fine.\r<br />But second- (id DWODwemerLanguage) isn&#39;t. Some things, objectives works (I used setstage command to try it) but some not,espiecially:\r<br />a)didn&#39;t work setting stage from 10 to 20 (and after conversation Tirian didn&#39;t take ArkchnadumzNotes from me)\r<br />b)at stage 20, when I wait for an hour in Markarth, courier appears and give me note(Wezwanie Tiriana), I read it,etc. but stages and objectives 24,25,30 didnt set\r<br />c)I continue conversation with Tirian, but at the end stage 35 didn&#39;t set and that&#39;s why he didn&#39;t give me &#34;Translated Notes-Przet?umaczone notatki z Arkchnadumz&#34;\r<br />\r<br />Could you see it and try to fix it,or tell me what I should do fix it, where I&#39;m wrong?\r<br /> I hope you will like dungeons and my fist quest;)\r<br />\r<br />\r<br />Witam.\r<br />To jest mój pierwszy mod, wst?pne questy do Dwemerskiej Odyseji. \r<br />Postanowi?em wypu?cic wersj? beta, z niedzia?aj?cym jeszcze poprawnie questem drugim, poniewa? chc? was prosi? o pomoc w jego naprawie.\r<br />Jestem nowicjuszem w tworzeniu modów, tym bardziej w jakimkolwiek skryptowaniu. To co uda?o mi si? do tej pory zrobic to szczyt mojego skryptowania. Nie mam poj?cia gdzie s? b??dy w tym drugim, prosze o pomoc w ich poprawieniu:\r<br />\r<br />a)po zako?czeniu pierwszej rozmowy z Tirianem,nie zabiera ode mnie DwemerskichSchematów do przet?umaczeni, nie stage questu nie zmienia si? z 10 na 20\r<br />b)kuriera jako? uda?o mi si? zaprogramowa?, pojawia si? np. jak godzink? poczekam w Markarcie, daje notake &#34;Wezwanie Tiriana&#34; i znika, ale nie zmieniaj? si? kolejne etapy i cele (stage 24,25)\r<br />c)zaczynam dalsz? rozmow? z Tirianem (powienien by? stage 30), a na zako?czenie powienien wskoczy? stage 35 i wtedy on przekazuje mi &#34;Przet?umaczone notatki z Arkchnadumz&#34;\r<br />To nie dzia?a. Dla próby popycha?em stage komendami z konsoli (setstage dwodwemerlanguage i numer stage&#39;a) i cz??? rzeczy dzia?a, ale powinny one dzia?a? w grze bez korzystania z konsoli...;)\r<br />\r<br />Czy mo?ecie mi pomóc w naprawieniu, dopracowaniu skryptów, warunków, nie wiem czego jeszcze aby drugi quest by? na chodzie?\r<br />P.S. czy znajdzie sie ch?tny do wydania &#34;zangielszczenia&#34; tych kilkunastu linijek dialogu (i dziennika) tego moda\r<br />Mam nadziej?,?e pomys? i pierwsze ruiny,quest sie Wam spodobaj?. Z góry dziekuj? za konstruktywne rady, uwagi. Pozdrawiam\r<br />\r<br />Because I&#39;m just learning you may see that I&#39;ve used some single rooms (fragment of cave and debate hall) from Skyrim Vanilla Interiors, but I rebuild them a lot. I hope it won&#39;t be considered as using other peoples resources.\r<br />\r<br /> Update COMING SOON \r<br />\r<br />v 1.1\r<br />\r<br />Hi. Right now I&#39;m creating a &#34;base city&#34;- It&#39;s called &#34;Pchli Targ&#34; (eng. &#34;FLEA MARKET.&#34;)\r<br />and is situated in huge cave near Narzulbur.\r<br />\r<br />I hope it wan&#39;t be to heavy for computers, beacuse for now it is one,huge interior \r<br />with 7 shack buildings (tawern (restaurant,pub...?) +owner house, inn, alchemist+bookstore, \r<br />dwemer stuff merchant,guard barracks, blacksmith)\r<br />accesed without any load door.There is a lot of clutters too.\r<br />\r<br />It will sth like &#34;Robin Hodd&#39;s city&#34;- for hirelings, adventurers (with &#34;guild&#34;, group of Dwemer Maniacs), runaways,etc.  which don&#39;t like Thalmor, but they&#39;re not Stormcloacs neither.\r<br />\r<br />I started to place NPC&#39;s in it,and of course the last stage will be making dialogues, quests for them.\r<br />\r<br />Of course if somebody would like to help me with anything, especially NPCs,dialogues and quests, \r<br />I will appreciate any kind of help.\r<br />I hope I will be able to upload this part of &#34;Dewmer Odyssei&#34; in January.\r<br />\r<br />I&#39;ve uploaded few screenshots from &#34;building site&#34; . I hope you will like it\r<br />",
+  "categoryId": "35",
+  "version": "1.0",
+  "author": "DwemerManiac",
+  "createdUnix": "1384851587",
+  "updatedUnix": "1384851540",
+  "containsAdultContent": false,
+  "uploadedBy": "DwemerManiac",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000080718",
+      "name": "DwemerOdysei",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "202",
+      "fileName": "DwemerOdysei-47508-1-0.rar",
+      "uploadedUnix": "1384851540",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/1b1090a88c162eb5fb662741577d606fbb767e87272eede363ea1b399a22540e/analysis/1407799202/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/DwemerOdysei-47508-1-0.rar?fid=1000080718&ttl=1535827743&ri=8192&rs=8192&setec=850d11d1ade65e8f75cfa5119026d3db"
+    }
+  ]
+}

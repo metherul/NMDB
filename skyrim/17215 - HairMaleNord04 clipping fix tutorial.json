@@ -1,0 +1,32 @@
+{
+  "modId": 17215.0,
+  "modName": "HairMaleNord04 clipping fix tutorial",
+  "summary": "This fix aims to remove the clipping bug that occurs when wearing an Iron Helmet with the vanilla male 4-braided hairstyle (HairMaleNord04)",
+  "descriptionHtml": "It always annoyed me that one of the coolest hairstyles in the game was clipping through the helmet. Since i didn\\'t find any fix i looked into it myself and discovered that the hairline-mesh file was the problem, so i replaced it with another hairstyle\\'s hairline-mesh.\r\nSince i am probably not allowed to upload the file, here is a short tutorial on how to fix this yourself within 5 minutes.\r\n\r\nHow to:\r\n-You\\'ll need an BSA Archive browser, such as Fallout Mod Manager .\r\n-Check Skyrim-Meshes.BSA and search for \\'hair\\'.\r\n-find:\r\nmeshes/actors/character/character assets/hair/male/hairline06.nif\r\nmeshes/actors/character/character assets/hair/male/hairline06.tri\r\n-extract them and rename them to \\'hairline04.nif\\' and \\'hairline04.tri\\'\r\n-drop these files in:\r\nskyrim/data/meshes/actors/character/character assets/hair/male\r\n-Done\r\n\r\nUninstall:\r\nRemove \\'hairline04.nif\\' and \\'hairline04.tri\\' from\r\nskyrim/data/meshes/actors/character/character assets/hair/male.\r\n\r\nConflict:\r\nThis fix will most likely conflict with any mod that alters the vanilla hairstyle-hairlines meshes.\r\n\r\nPlease do not hesitate to ask if you have questions. \r\n\r\n\r\n",
+  "categoryId": "95",
+  "version": "1",
+  "author": "Kyuubi no Youko",
+  "createdUnix": "1337259701",
+  "updatedUnix": "1337280308",
+  "containsAdultContent": false,
+  "uploadedBy": "Kyuubi no Youko",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "61913",
+      "name": "Tutorial male 4-braided Hair clipping fix",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Tutorial male 4-braided Hair clipping fix-17215-1.zip",
+      "uploadedUnix": "1337280308",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/108c7c1e2af5876785cc1ef018114517fff9b18a619b5215832beccb7ab5f8fc/analysis/1406898844/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Tutorial%20male%204-braided%20Hair%20clipping%20fix-17215-1.zip?fid=61913&ttl=1535783151&ri=8192&rs=8192&setec=ca4d4289189d01be1b082ce35b5c681e"
+    }
+  ]
+}

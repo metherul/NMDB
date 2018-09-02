@@ -1,0 +1,32 @@
+{
+  "modId": 32523.0,
+  "modName": "Smart Training",
+  "summary": "Small mod allowing you to bank unused training sessions for later levels (training point rollover). Requires SKSE.",
+  "descriptionHtml": "Sick of going out of your way to earn enough gold for training each level while keeping the skill progression slow enough to not level up more than one level at a time? Fed up with Bethesda&#39;s retarded way to implement skill training and level gains? This mod allows you to save your unused training sessions for later levels, for example if you&#39;ve trained twice on level 1 and then level up you will have a limit of 8 training sessions on level 2 (if you are using the default training limit of 5 sessions per level). Thus you get all your training sessions and you don&#39;t cheat, because the mod won&#39;t allow you to train any more than you (theoretically) could in vanilla skyrim. It just takes away the inconvenience to actually do this.\r<br />\r<br />INSTALLATION\r<br />Extract &#34;SmartTraining.esp&#34; into your skyrim/Data folder. Activate it by starting the Skyrim launcher, selecting &#34;Data Files&#34; and ticking it or use a mod manager.\r<br />\r<br />UNINSTALLATION\r<br />Simply deactivate the plugin in the launcher or your mod manager.\r<br />\r<br />REQUIREMENTS \r<br />This mod needs the skyrim script extender (SKSE) to work. Get it here: http://skse.silverlock.org/ \r<br />\r<br />COMPATIBILITY \r<br />Do not use together with mods that increase the training limit per level to absurdly high values (there&#39;s a mod that sets it to 1000 for example). The training sessions will accumulate over your levels to values that are too high to display any more. \r<br />SmartTraining doesn&#39;t outright overwrite the number of training sessions per level variable setting in the configuration but rather uses an SKSE function to dynamically change it at run time (while you are playing). It checks for the current value of the setting when it is first initialized and uses that as a base so you can use it together with mods that change the number of training sessions per level (within reason of course). There is continual access to this variable throughout the game every time you level up, this implicitly means that if any other mod is also running a script that modifies this same variable, the changes made by SmartTraining might be overridden and will have no effect. Load order won&#39;t matter unless there is another mod which happens to use the exact same script name and / or quest name (for the hidden quest which starts the script) which is rather unlikely. You can put it anywhere you like in your load order without it having any effect on compatibility - either it&#39;s compatible with what you use or it isn&#39;t, with the former I found being much more likely.\r<br />\r<br />KNOWN ISSUES \r<br />If you install this mod and load a save game where you have already trained on your current level, the training limit will not be set correctly. This is because I could not find a way to access the &#34;times trained this level&#34; value as shown in the training menu, but only the total number of times you trained as displayed in the general stats section of the journal. Thus the newly initialized script has no way to know how many times you have trained on your current level. The problem can only appear on the first level you use this mod with and will be fixed once you gain a level. \r<br />Also, the script updates once every 5 seconds (outside of menus, the inventory etc) to check if you leveled up, so wait at least that time before you train again after you gained a level.\r<br />I have had a few reports about the training caps being set incorrectly, but was unable to reproduce them. If this is happening to you, it&#39;s most likely due to interference with another script within another mod, which unfortunately I can do nothing about.\r<br />\r<br />If there are any other problems, let me know.",
+  "categoryId": "28",
+  "version": "0.11",
+  "author": "WinterFlame",
+  "createdUnix": "1362050709",
+  "updatedUnix": "1362347217",
+  "containsAdultContent": false,
+  "uploadedBy": "WinterFlame",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000014821",
+      "name": "Smart Training",
+      "version": "0.11",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Smart Training-32523-0-11.rar",
+      "uploadedUnix": "1362347217",
+      "modVersion": "0.11",
+      "virusScanUrl": "https://www.virustotal.com/file/2aee9b425d718727ca8c484df20964cabd25f96ae28ef6aeaef33085eace1182/analysis/1407451153/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Smart%20Training-32523-0-11.rar?fid=1000014821&ttl=1535809051&ri=8192&rs=8192&setec=1900b160a6c44a05d6234e8d65a83aa0"
+    }
+  ]
+}

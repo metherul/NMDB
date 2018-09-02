@@ -1,0 +1,32 @@
+{
+  "modId": 7180.0,
+  "modName": "Paladin Armor",
+  "summary": "White and Gold Hero Armor",
+  "descriptionHtml": "I had seen a few white and gold \\\"Good Guy\\\" armor texture replacers on Skyrim Nexus. I like the style of these armors but was really wanting to see what the tough dragonplate armor would look like.  I played around with Photoshop and figured out how to colorize existing textures.  My dragonplate looked great. I have not yet run into any NPCs wearing dragonplate but I decided I did not want to look up and see some killer thug in my hero armor. I dove into NifSkope to see how to point meshes to another texture.  Having figured that out I copied the original meshes to an appropriate folder and edited them to point to a folder with my new textures. After that I fired up TESnip and built a plugin for the new armors.\r\n\r\nThe new armors are craftable at any forge, upgradeable, and enchantable. They have the same prerequisites as the original dragonplate and are on the Dragon smithing menu. I changed up the the \\\"ingredients\\\" to have fewer dragon scales and more dragon bones.  I also added the reqirement of a gold ingot. since they are gilded.\r\n\r\nI showed a couple images of KillerKeo\\'s skimpy armor but they will not be included in the upload until I get permission from KillerKeo. If you have the skills to change the texture in a nif the mesh works the texture well.\r\n\r\nLet me know what you think.  Enjoy!\r\n\r\nInstallation: Unzip the files to your Skyrim folder or use Nexus Mod Manager. Remember to select PaladinArmor plugin if you manually install.\r\n\r\nUninstall: Delete PaladinArmor.esp and the PaladinDragonArmor folders in Data\\\\Meshes\\\\Armor and Data\\\\Textures\\\\Armor under your Skyrim folder or disable and remove them using Nexus Mod Manager if you chose that installation.\r\n\r\nRelease History: \r\n\r\n1.0 - Initial release. Dragonplate only\r\n\r\n(Possible) Future plans:\r\n- More gold and white armors\r\n- Fomod (or whatever it becomes when the CK comes out)\r\n- Inclusion of KillerKeo\\'s meshes\r\n- Other meshes as seperately craftable items (i.e. a vanilla or a KillerKeo version at the forge). This would be better if I knew how to make an armor male only or female only.\r\n- Options in an Fomod\r\n- Suggestions from others\r\n\r\nThanks to:\r\nBethesda Softworks - Created a fantastic game\r\nPoliorketika - Inspiration with Gilded Plate  - http://skyrim.nexusmods.com/downloads/file.php?id=6479\r\nfyrestorm - Inspiration with Heroic Dragonscale - http://skyrim.nexusmods.com/downloads/file.php?id=3855\r\n\r\n- Feel free to modify this to your liking or use it in your more complex mods.  Just credit me if you upload your work somwhere. ",
+  "categoryId": "54",
+  "version": "1.0",
+  "author": "mlandstreet",
+  "createdUnix": "1327721576",
+  "updatedUnix": "1327726278",
+  "containsAdultContent": false,
+  "uploadedBy": "mlandstreet",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "23602",
+      "name": "PaladinArmor",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5855",
+      "fileName": "PaladinArmor-7180-1-0.zip",
+      "uploadedUnix": "1327726278",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/6f496a4e4a8e5c48e59208f8b8765b158c4508b9ea8ccc843ca47e4672cab9ed/analysis/1406641451/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PaladinArmor-7180-1-0.zip?fid=23602&ttl=1535765081&ri=8192&rs=8192&setec=6e5c84f5d329fc16f62ddcd5af368c8e"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 79326.0,
+  "modName": "Solitude Lighthouse interior revamp",
+  "summary": "Redesigned the interior layout for the Solitude lighthouse to actually fit inside the exterior model, while also trying to make it a little more interesting.",
+  "descriptionHtml": "I was looking at building a lighthouse for the Windhelm area and examined the Solitude lighthouse as a model. Whoever designed it must have been a Doctor Who fan, because like many other interior structures in Skyrim (aka the Tardis), it doesn&#39;t fit into the exterior model. Three elements combine to cause the problem: the exit door, the window and the chimney. I can go into a long exposition about this, but it&#39;s pretty easy to see if you open up the CK and examine the layout of the interior versus the exterior structure.\r<br />\r<br />This probably doesn&#39;t bother most people, but it drove me a little bonkers. I started off with the idea of just moving the door around and adding a hallway, but ended up going full redesign. This mod&#39;s interior wall layout *should* fit entirely within the exterior model, with a little room to spare. \r<br />\r<br />- Original interior cell was used.\r<br />- Static architecture make up the majority of what was added. Most of Ma&#39;zaka&#39;s original clutter was relocated. Some of his furniture was removed and replaced with versions to fit the layout (right-entry bed instead of left, etc).\r<br />- New light sources replace the old ones, and cell lighting was dimmed a bit. I am working on a patch for ELFX (as of 10/10/2016); right now ELFX works with this mod, but has an odd light source near the front door.\r<br />- Fully navmeshed; cleaned with TESVEdit.\r<br />\r<br />Vanilla Skyrim is all that&#39;s required for this mod. I did not build the mod with any of the unofficial patches loaded, but I have played it with and without them and haven&#39;t found a problem yet. I haven&#39;t tried merging this plugin with anything yet, so I can&#39;t say if it&#39;s possible. I will probably try to work up a version that allows for NMM/MO install, but right now I don&#39;t know how. For the time being, the manual install just requires dropping the esp file in the data directory of Skyrim and enabling it. MO users can create a mod for it in normal way and drop it in there (that&#39;s the way I&#39;ve been using it). Any suggestions are welcome, hope you get some enjoyment out of it.\r<br />\r<br />Note: I did not alter Ma&#39;zaka&#39;s Ai packages or schedule. In testing, I noticed he unlocked the door on schedule but he is usually always asking you to leave if he&#39;s aware of you, locked door or not. However, he seems to do that in the unmodified game as well, so I don&#39;t think I broke him. ",
+  "categoryId": "90",
+  "version": "0.203",
+  "author": "anothersunday",
+  "createdUnix": "1476132570",
+  "updatedUnix": "1476806110",
+  "containsAdultContent": false,
+  "uploadedBy": "grimjaw5",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000223781",
+      "name": "tatT-solitudelighthouse.esp",
+      "version": "0.201",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "15",
+      "fileName": "tatT-solitudelighthouse.esp-79326-0-201.zip",
+      "uploadedUnix": "1476132561",
+      "modVersion": "0.201",
+      "virusScanUrl": "https://www.virustotal.com/file/b08358b295240bc8635d9cb8de400602c16915825f51f291c8e177c470ae6990/analysis/1476132604/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/tatT-solitudelighthouse.esp-79326-0-201.zip?fid=1000223781&ttl=1535868010&ri=8192&rs=8192&setec=17c6774a3edb2b113817d8753b196368"
+    },
+    {
+      "fileId": "1000224689",
+      "name": "tatT-solitudelighthouse.esp",
+      "version": "0.203",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "16",
+      "fileName": "tatT-solitudelighthouse.esp-79326-0-203.zip",
+      "uploadedUnix": "1476806110",
+      "modVersion": "0.203",
+      "virusScanUrl": "https://www.virustotal.com/file/084ebc8ff2bb3c427025a91b23b139ab3a1d7a24f3700f69fcf9691798a09a78/analysis/1476806163/",
+      "changelogHtml": " - Added smokestack and smoke FX to top of lighthouse exterior.\r<br />- Moved NPC and xmarker closer to active sandboxing areas. NPC wasn&#39;t reaching them in 0.201.\r<br />- Repositioned items in front of fireplace so NPC is less likely to boot them around.\r<br />- Corrected a couple places in bedroom where seams were visible. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/tatT-solitudelighthouse.esp-79326-0-203.zip?fid=1000224689&ttl=1535868010&ri=8192&rs=8192&setec=1d4d7084c1a4ab46b35156aba0ee47df"
+    }
+  ]
+}

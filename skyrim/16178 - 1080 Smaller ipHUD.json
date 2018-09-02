@@ -1,0 +1,48 @@
+{
+  "modId": 16178.0,
+  "modName": "1080 Smaller ipHUD",
+  "summary": "ipHUD v2.0 (http://skyrim.nexusmods.com/downloads/file.php?id=4210) scaled down further for 1920x1080 resolution.  Just option 2 with fading, not including the favorites menu or map changes.  Tested with SkyUI, Categorized Favorites Menu, various map hud mods and a slew of other unrelated mods.",
+  "descriptionHtml": "First, all of the credit for this mod goes to IcePenguin.  The original ipHUD can be found at http://skyrim.nexusmods.com/downloads/file.php?id=4210.  But I (and many other people if you look at the discussion thread) wanted the HUD elements even smaller, especially for high resolutions like 1920x1080.  So using tools and tutorials from LiHUDMap (http://skyrim.nexusmods.com/downloads/file.php?id=4329 and much thanks to DragonBoon whose instructions were invaluable)  I shrunk six of the main hud elements down and repositioned them.\r<br />\r<br />NOTE: Currently, this is only set up for 1920x1080 resolution.\r<br />\r<br />What this mod does:\r<br />Greatly shrinks the health, mana and stamina bars, the compass and both left and right &#39;charge&#39; bars (the charge available on your weapons)\r<br />Moves all these parts of the hud into a visually pleasing formation at the center bottom of the screen\r<br />Sets all hud elements other than the compass and crosshair to fade when not in use\r<br />\r<br />What this mod doesn&#39;t do:\r<br />Anything else... so enemy name, dialogue screen, menus (including the favorites) are untouched.\r<br />\r<br />What is this mod compatible with:\r<br />As far as I can tell, everything except other mods touching the exact same file, hudmenu.gfx.  So categorized favorites menu and SkyUI will be fine (I&#39;m using both) but iHUD will conflict even though technically its file is hudmenu.swf.\r<br />Also, this file is ONLY set up for 1920x1080 resolution.  If you have ANY other resolution, this will not look right.  Of course, you could always do what i did and tweak it yourself.  If you do, you can PM me and I&#39;ll put it up or you can post it yourself&#33;\r<br />\r<br />So why use this instead of iHUD?\r<br />Take a look at the screenshots.  iHUD will hide all elements of the HUD when not using them, this mod hides everything but the compass.  But while iHUD has everything jumbo xbox sized for people playing 12 feet away from their screen on 640x480 resolution (or whatever xbox&#39;s run skyrim at) this mod shrinks it down to a reasonable size for PC.  So if like me you used DarnUI for oblivion, you&#39;ll probably agree that the trade off is well worth it.  (Personally, I found the hiding of the compass a little annoying.  On the one hand I wanted a perfectly clear screen, on the other hand I got sick of having to force the compass to reappear ever time I wanted to know where I was going.  Plus, if you turn the hud opacity down, which is in the options menu for Skyrim, this mod&#39;s tiny  compass on the bottom of your screen is very unobtrusive.)\r<br />\r<br />Install:\r<br />Just merge with your data file in the main Skyrim folder.  Nothing should be overwritten.\r<br />\r<br />Uninstall:\r<br />Delete data&#92;Interface&#92;exported&#92;hudmenu.gfx.  Shouldn&#39;t cause any save issues.\r<br />\r<br />Future Updates:\r<br />More resolutions, if people want them.\r<br />NMM installer, again, if people care.\r<br />Other HUD elements, if I feel like it.\r<br />\r<br />Changelog:\r<br />v1.0 - Initial Release\r<br />v1.1 - Fixed Shout bar\r<br />\r<br />I&#39;d like to thank:\r<br />Bethesda, cause this game does rule\r<br />IcePenguin, for creating the original mod\r<br />Most of all, the nexus team, without whom all we would have is the six mods from fileplanet and some weird forums nobody goes to.  I don&#39;t want to rant too much, but you young whippersnappers don&#39;t appreciate how amazing a centralized modding website is.",
+  "categoryId": "42",
+  "version": "1.1",
+  "author": "IVmM7",
+  "createdUnix": "1335794002",
+  "updatedUnix": "1335841491",
+  "containsAdultContent": false,
+  "uploadedBy": "IVmM7",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "57610",
+      "name": "1080 Smaller ipHUD",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "344",
+      "fileName": "1080 Smaller ipHUD-16178.zip",
+      "uploadedUnix": "1335802493",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d20a2814ae5870f4b5fcd52c30d8ef3d8108237e4363a9af8c1c4cc9004f7fcf/analysis/1406856844/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/1080%20Smaller%20ipHUD-16178.zip?fid=57610&ttl=1535781167&ri=8192&rs=8192&setec=85b61af821ba1ec0682a2840d33261a7"
+    },
+    {
+      "fileId": "57726",
+      "name": "1080 Smaller ipHUD v1 1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "344",
+      "fileName": "1080 Smaller ipHUD v1 1-16178.zip",
+      "uploadedUnix": "1335841491",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/5b23e4fe0aa7b00688f3ed382e664a948f1f5612a1dbd7838cdf8818121b6be6/analysis/1406857983/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/1080%20Smaller%20ipHUD%20v1%201-16178.zip?fid=57726&ttl=1535781168&ri=8192&rs=8192&setec=b267b3ce92fe24131828ce9d3e93e8b0"
+    }
+  ]
+}

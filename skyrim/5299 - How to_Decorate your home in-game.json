@@ -1,0 +1,32 @@
+{
+  "modId": 5299.0,
+  "modName": "How to_Decorate your home in-game",
+  "summary": "Small guide on how to spawn and positioning objects in Skyrim with console directly in-game.",
+  "descriptionHtml": "[b][color=\\\"#FF8C00\\\"][size=\\\"4\\\"]HOW TO DECORATE YOUR HOME IN SKYRIM:[/size][/color][/b]\r\n\r\nThis tutorial explains how to decorate your home in skyrim directly in-game,using only console commands:\r\n\r\n[color=\\\"#FF8C00\\\"][b]Console commands:[/b][/color]\r\nopen console with tilde (~).\r\n\r\n[b][color=\\\"#FF8C00\\\"]Free movement:[/color][/b]\r\ntcl\r\n\r\n[color=\\\"#FF8C00\\\"][b]Spawn object:[/b][/color]\r\nHelp \\\"name of object\\\" 0\r\nshows \\\"name of object\\\" IDs\r\n\r\n[color=\\\"#FF8C00\\\"][b]delete object:[/b][/color]\r\nmarkfordelete\r\ndelete selected object.\r\nspawned objects are immediatly delete,\r\npre-existent objects need save/load to be deleted.\r\n\r\n[color=\\\"#FF8C00\\\"][b]Set angle of object:[/b][/color]\r\nsetangle x \\\"-+ number\\\"\r\nsetangle y \\\"-+ number\\\"\r\nsetangle z \\\"-+ number\\\"\r\n\r\n[b][color=\\\"#FF8C00\\\"]Set position of object:[/color][/b]\r\nsetpos x \\\"-+ number\\\"\r\nsetpos y \\\"-+ number\\\"\r\nsetpos z \\\"-+ number\\\"\r\n\r\n[color=\\\"#FF8C00\\\"][b]Let\\'s start:[/b][/color]\r\nLook images I uploaded from 1 to 10 to see how to use commands mentioned above:)\r\n\r\n[b][color=\\\"#FF8C00\\\"]PS-[/color][/b]\r\nIf an object you spawned hasn\\'t got collision:\r\n[color=\\\"#FF8C00\\\"][b]1)[/b][/color]open console and select the object\r\n[b][color=\\\"#FF8C00\\\"]2)[/color][/b]type:\r\n  placeatme \\\"object ID\\\" 1 (use ID found with help \\\"Object name\\\" 0, NOT id shown by console when you select the object)\r\n[color=\\\"#FF8C00\\\"][b]3)[/b][/color]markfordelete\r\nit spawns a copy of the object in same position and angulation and remove the old no-collision object.\r\n\r\n\r\n[b][color=\\\"#FF8C00\\\"]PS2-[/color][/b]\r\nYou can use setangle commando on objects you throw out of inventory simply when object is on the floor use command and when you pick up it again it will rotate.\r\n\r\nIf anyone knows a way to make object position permanent i\\'d like to know how to do this,\r\nbecause only forniture maintain position.\r\nThanks\r\n\r\nby i3vdone",
+  "categoryId": "82",
+  "version": "1.0",
+  "author": "i3vdone",
+  "createdUnix": "1325669545",
+  "updatedUnix": "1325685336",
+  "containsAdultContent": false,
+  "uploadedBy": "i3vdone",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "16537",
+      "name": "Tutorial Images",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "6246",
+      "fileName": "Tutorial Images-5299-1-0.rar",
+      "uploadedUnix": "1325685336",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/7ab2878348be75af77435669f61339129e67db826ed6fdff30824f3fa33ce98f/analysis/1406582014/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Tutorial%20Images-5299-1-0.rar?fid=16537&ttl=1535761919&ri=8192&rs=8192&setec=1403a1f5bb5c3664f833f0de5ad4cf20"
+    }
+  ]
+}

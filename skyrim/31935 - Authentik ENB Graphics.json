@@ -1,0 +1,48 @@
+{
+  "modId": 31935.0,
+  "modName": "Authentik ENB Graphics",
+  "summary": "AENB is about achieving a BALANCED look, enhancing the color, mood and shadows without hindering visibility",
+  "descriptionHtml": "[center][IMG]https://dgnmoa.bay.livefilestore.com/y2paliNA_ax2Z8cfDoiIibbv7OH5EkB0O40ygVR3A3Gk9YymC8HGH6-Pd-Jg7OWesJjLWdl4y8wajF0IGcbcRIzreCNzia-gmF1XJPmH1Ls21kr-y5Pp0Fr60K0YLI_8VSC/skyrimheading.jpg[/IMG][/center]\r\n\r\n\r\n[center][IMG]https://dgnmoa.bay.livefilestore.com/y2pqb1wGfbf8VD9PBx7pG6l55Plz3nLkNVhgvbYfkULRDZPgRlVbvwoigfzlnaBS_8jR5X7Oj-wyT7yJwUoQQiacgKujCjY4FK6vDlhPTeey83yTynPPHk0ccqDu2nWk1pg/about.jpg[/IMG][/center]\r\n\r\n\r\nAENB is an ongoing effort to improve Skyrim with cutting edge graphics enhancements.\r\n\r\nHigh contrast, high saturation, eye-popping visuals might be impressive for screenshots, but they are not viable for REAL gaming. The goal of this mod is to give Skyrim a complete visual make over, pushing modern PC hardware to its limits, without sacrificing the authenticity of the game. AENB is about achieving a BALANCED look, enhancing the color, mood and shadows without hindering visibility. It is based on the ENB Series modification by Boris Vorontsov and I try to keep it up to date regularly. Some features :\r\n\r\n\r\n[color=#FF9900][b]- [/b][/color]Night times are dark and dangerous\r\n[color=#FF9900][b]- [/b][/color]Day times are beautiful and vibrant\r\n[color=#FF9900][b]- [/b][/color]Blizzards are bright but not blinding\r\n[color=#FF9900][b]- [/b][/color]Ambient Occlusion adds better shadows, more depth and realism\r\n[color=#FF9900][b]- [/b][/color]Real time reflections on certain objects\r\n[color=#FF9900][b]- [/b][/color]Bokeh Depth of Field\r\n[color=#FF9900][b]- [/b][/color]Sun rays and Sky Lighting\r\n[color=#FF9900][b]- [/b][/color]The sun even brightens indoors during the day\r\n[color=#FF9900][b]- [/b][/color]SweetFX post process filters to improve clarity and color\r\n[color=#FF9900][b]- [/b][/color]etc etc..\r\n\r\n\r\n[center][IMG]https://dgnmoa.bay.livefilestore.com/y2pFAzPYXRKCExHPNUEA7h1S4_Fk8_lcsg4EdDeq4iZHWBwOnBBOkC4O3Dp19Y3REAoWt6BbfXR0ixqQgZnyFq7nq5RBhLR7XVqFjPz39P4B4_zPyGGBTxgZx-c74bB1Ffg/install.jpg[/IMG][/center]\r\n\r\n\r\n[color=#FF9900][b]Note for Windows 8 users : [/b][/color]In order to use this MOD you may have to download the [url=http://www.microsoft.com/en-au/download/details.aspx?id=35]DirectX End-User Runtime[/url] from Microsoft.\r\n\r\n[color=#FF9900][b]- [/b][/color]Download the ENBSeries v13.7.13 for Skyrim [url=http://www.enbdev.com/mod_tesskyrim_v13713.htm]HERE[/url] (if this link is broken, try grabbing the latest version from [url=http://www.enbdev.com/download_mod_tesskyrim.htm]THIS[/url] page)\r\n\r\n[color=#FF9900][b]- [/b][/color]Extract the download and copy the files from the \\\"wrapper\\\" folder into your Skyrim directory, usually \\\"Steam\\\\steamapps\\\\common\\\\Skyrim\\\" or something similar (you actually only need one file called \\\"d3d9.dll\\\" but you can copy all of them, as the rest can be overwritten)\r\n\r\n[color=#FF9900][b]- [/b][/color]Download and extract all files and folders for this mod into the SAME DIRECTORY as above, overwrite if prompted\r\n\r\n[color=#FF9900][b]- [/b][/color]Open \\\"SkyrimPrefs.ini\\\" using notepad, this file is usually found in \\\"C:\\\\Users\\\\USERNAME\\\\Documents\\\\My Games\\\\Skyrim\\\\\\\"\r\n\r\n[color=#FF9900][b]- [/b][/color]Find the following lines in \\\"SkyrimPrefs.ini\\\" and make sure they match the values shown below, then save (bFloatPointRenderTarget and iMultiSample are especially important!):\r\n\r\niMultiSample=1\r\niMaxAnisotropy=1\r\nbTreesReceiveShadows=1\r\nbDrawLandShadows=1\r\nbShadowsOnGrass=1\r\nbFloatPointRenderTarget=1\r\n\r\n\r\n[color=#FF9900][b]NOTE : [/b][/color]Depth of field is enabled by default. To disable it :\r\n\r\n[color=#FF9900][b]- [/b][/color]Open enbseries.ini (with any text editor)\r\n[color=#FF9900][b]- [/b][/color]Scroll down until you find a heading entitled [EFFECT]\r\n[color=#FF9900][b]- [/b][/color]Look for the line \\\"EnableDepthOfField=true\\\"\r\n[color=#FF9900][b]- [/b][/color]Change this value to \\\"EnableDepthOfField=false\\\"\r\n\r\n[color=#FF9900][b]- [/b][/color] DONE! Good luck, Don\\'t hesitate to post any questions or bugs :)\r\n\r\n\r\n[center][url=http://fallout3.nexusmods.com/mods/18571][img]https://dgnmoa.bay.livefilestore.com/y2ppEy3QyBxWjALd1_cxvwFHXQKgP4TYPp9iEiUswTMPeQIVdf9Qe0O4l_Q7rHv4XD-_8a_io13vmwuhhJzYmH9aN5d82u_3bk6Xa8lvgkvkoNDIsk9GzE_lR_Htu-7RO21/fallout3heading.jpg[/img][/url][/center]",
+  "categoryId": "62",
+  "version": "2.0",
+  "author": "JMFruitSalad",
+  "createdUnix": "1361216978",
+  "updatedUnix": "1373973197",
+  "containsAdultContent": false,
+  "uploadedBy": "Freemanhl2",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000039064",
+      "name": "AENB_SKYRIM_20",
+      "version": "2.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "18",
+      "fileName": "AENB_SKYRIM_20-31935-2-0.zip",
+      "uploadedUnix": "1373901509",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a75de4bf285ebfdb7e3f56901c1d90f13f9add4c976717f8a26b00e5ca0c1631/analysis/1407645130/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/AENB_SKYRIM_20-31935-2-0.zip?fid=1000039064&ttl=1535807841&ri=8192&rs=8192&setec=57e4ff7546ed8942550283fc27bc0e14"
+    },
+    {
+      "fileId": "1000039205",
+      "name": "Optional SMAA Injector",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "88",
+      "fileName": "Optional SMAA Injector-31935-.zip",
+      "uploadedUnix": "1373973197",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/42654cd6b67f402088d52b3ec04ca78faa1857d66dcf40e95b24c60ddfccb5ae/analysis/1407646082/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Optional%20SMAA%20Injector-31935-.zip?fid=1000039205&ttl=1535807842&ri=8192&rs=8192&setec=3d9ff29b45f4826f51b7cb9c48335729"
+    }
+  ]
+}

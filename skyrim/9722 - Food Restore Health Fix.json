@@ -1,0 +1,32 @@
+{
+  "modId": 9722.0,
+  "modName": "Food Restore Health Fix",
+  "summary": "Fixes Food that was not healing over time as stated in description such as vegetable soup.",
+  "descriptionHtml": "Restore Health over duration not working\r\n\r\nAfter someone pointed out, that the 720s Restore Health of Venison Stew is not working, I increased the regeneration rate with SkyEdit to 30 points a second. It seems that this had no effect at all. So my suspicion is that the whole effect is not working. --Killfetzer 08:10, 27 December 2011 (UTC)\r\n\r\nConfirmed when testing a food mod and the console commands health regeneration set to zero. None of the Restore Health effects over time of Venison stew, or Vegetable Soup work. The Restore Stamina is there in some singular capacity though. Maybe fix it by using the Creation Kit and change FoodRestoreHealthDuration similar to FoodRestoreStaminaDuration effect. Confirmed fix. Use my FoodRestoreHealthFix.esp mod. The only change was to the magic effect \\'FoodRestoreHealthDuration\\' change variable name reference from \\'HealthRateMult\\' to selection \\'Health\\' (parallel FoodRestoreStaminaDuration scheme).\r\n\r\nPlace in skyrim/data folder, load in using skyrim launcher select file and play.\r\n\r\nXerxes712",
+  "categoryId": "95",
+  "version": "1.0",
+  "author": "Xerxes712",
+  "createdUnix": "1329285710",
+  "updatedUnix": "1329286318",
+  "containsAdultContent": false,
+  "uploadedBy": "Xerxes712",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "31400",
+      "name": "Food Restore Health Fix",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "0",
+      "fileName": "Food Restore Health Fix-9722-1-0.rar",
+      "uploadedUnix": "1329286318",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e655d2d244172956b3a30a0120803189cdbc178f2e358bea8eae6cc4ef26d36c/analysis/1406683669/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Food%20Restore%20Health%20Fix-9722-1-0.rar?fid=31400&ttl=1535769508&ri=8192&rs=8192&setec=32d204db83369283919cdefb06d57a41"
+    }
+  ]
+}

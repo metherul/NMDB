@@ -1,0 +1,48 @@
+{
+  "modId": 16332.0,
+  "modName": "Growlfs TES5 Blender Animation Chain",
+  "summary": "A Blender 2.49b tool to optimize your weightpainting for clipping- free meshes.\r\n[u][b]New version 1.1[/b][/u]: finger distortion repaired (big thx to MALO for permission to use his corrected skeleton), advanced animation length",
+  "descriptionHtml": "Growlfs TES5 Blender Animation Chain for animation- based weightpainting\r\n===================================================================\r\n\r\nVersion: 1.1\r\nCreated with: Blender 2.49b (32bit), PyFFI2.1.10, Blender NIFscripts 2.5.8, CBBE Body version 3.1, Hkxcmd version 1.4, Malo\\'s armature from http://skyrim.nexusmods.com/downloads/file.php?id=13648\r\n\r\nDescription:\r\n============\r\nTo weightpaint an imported or created mesh for TES 5 - Skyrim in Blender standard pose is a hard job, although the BWC (Bone Weight Copy) script makes it easier than before.\r\n\r\nThe created \\\"Animation Chain\\\" allowes to precisely weightpaint every vertex manually and/ or control the effect of BWC script.\r\nWhile interconnecting the animations you can see your weightpaint mistakes and clippings as good as ingame.\r\nIf you change a vertex weight while using animations you can instantly see the movement of this vertex to another position.\r\n\r\nThe \\\"Animation Chain\\\" contains only original Bethesda Skyrim animations (no self- created anims from pose mods because of partially extremely differences from original body movement).\r\n\r\n\r\nHow to use\r\n==========\r\nExtract the archive with 7zip > 2.55 or a newer WinRAR version.\r\n\r\nOpen the .blend with Blender 2.49b. Newest PyFFI and NIFscripts versions are recommended. (see above)\r\nChange the window arrangement if you don\\'t like my theme.\r\n\r\nNow you can check the body movement by using the ARROW KEYS of your keyboard:\r\nARROW RIGHT: interconnects through the animations key by key ( or step by step)\r\nARROW LEFT: the same backwards\r\nARROW UP: 10 keys forward\r\nARROW DOWN: 10 keys backwards\r\n\r\nCreate a mesh, unwrap, texturize, parent it to armature and weightpaint it via Bone Weight Copy (BWC) script, or import one (armor, clothing or another body type) to rework it.\r\n\r\nTo optimize the weightpainting manually switch from OBJECT to WEIGHTPAINT MODE. \r\nCheck out the movement while interconnecting the animation keys. \r\nIf a vertex is painted with new weights you can instantly see the effect (vertex moves to another position).\r\n\r\nBut be carefully:\r\nIt seems in Skyrim (like in Oblivion) the engine animates only the 4 strongest weights per vertex. Blender in contrast supports up to 14 weights per vertex.\r\nIf you don\\'t work properly you will get unclean meshes especially while using the BWC script.\r\nCheck this out before exporting your mesh by using the WEIGHT SQUASH script (in EDIT MODE: MESH > SCRIPTS > WEIGHT SQUASH).\r\n\r\n\r\nChangings to TES4 version\r\n=========================\r\nSkyrim uses a different .nif file version (20.2.0.7). At the moment it\\'s impossible to directly import this format into Blender so you have to use some tricks (see \\\"How to change body type or import a clothing/ armor mesh\\\").\r\n\r\nThe .blend file contains\r\n- fullbody based on CBBE version 3.1 (femalebody_0.nif)\r\n- skeleton_female.nif\r\n- a couple of animation keys:\r\n-- The first 10 keys of my \\\"Animation Chain\\\" are a \\\"standard pose animation\\\" to build/ rework a mesh like known. They are followed by\r\n-- sneakwalk_forward.hkx\r\n-- idlehandsbehindback.hkx (shortened)\r\n-- combatidlea.hkx\r\n-- mag_walkforwardleft.hkx\r\n-- dwwalkright_attackright.hkx\r\n-- magic_sprintforward.hkx\r\n\r\nHow to change body type or import a clothing/ armor mesh\r\n==========================\r\nPreparing .nif files for import\r\n--------------------------\r\n1. Open the .nif in NIFskope, don\\'t click anything!\r\n2. in BLOCK DETAILS window open NIHEADER and change USER VERSION from 12 to 11; USER VERSION 2 from 83 to 34\r\n3. in BLOCK LIST window delete all BSLightingShaderProperties from all NiTriShapes.\r\n4. save the .nif to a secure place.\r\n\r\nImport the .nif\r\n---------------\r\nCurrently it\\'s not possible to import a mesh directly to the included armature. So follow this procedure:\r\n1. Open a second Blender window and import the prepared .nif as known (FILE > IMPORT > NETIMMERSE > select .nif, in next window highlight only the IMPORT EXTRA NODES button .\r\n2. Save this import as .blend file.\r\n3. Then switch to fullbody _animchain Blender window, delete unused body parts and import your saved mesh via SHIFT+ F1, select saved .blend, OBJECT > select correct object. \r\nDon\\'t forget to parent every imported mesh to the armature (CTRL +P > Armature > Name Groups)!\r\n4. Add a new texture via F5/ F6 and set MAP INPUT to UV.\r\n5. delete ARMATURE modifier in OBJECT MODE\r\n6. Repeat this procedure until body or armor is completely imported.\r\n7. Save the created file as .blend for further use.\r\n\r\nVersion history\r\n===============\r\nVersion 1.1\r\n-----------\r\n- Finger bones reworked\r\n- missed keys added to protect from 360 degrees torsion\r\n- dwwalkright_attackright.hkx added to animation chain\r\n\r\nVersion 1.0\r\n-----------\r\nPrimary release\r\n\r\nPermission to use\r\n=================\r\nFeel free to use and develop this file but don\\'t forget credits.\r\n\r\n\r\nSpecial thanks to\r\n=================\r\n- Caliente for his CBBE body\r\n- TheFigment for the unbelievable hkxcmd tool\r\n- Spieleabend Members, especially Malo for his patience while calling him to solve problems und for permission to use parts of his repaired armature :-))\r\n- the girls and boys from NIFtools.org for permanently development of all the tools we need to create items with Blender\r\n- the Blender developers\r\n- and Bethesda Softworks for a never ending story.",
+  "categoryId": "82",
+  "version": "1.1",
+  "author": "Growlf",
+  "createdUnix": "1335980507",
+  "updatedUnix": "1335991701",
+  "containsAdultContent": false,
+  "uploadedBy": "Growlf",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "58187",
+      "name": "GrowlfsTES5BlenderAnimationChain10",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2217",
+      "fileName": "GrowlfsTES5BlenderAnimationChain10-16332.7z",
+      "uploadedUnix": "1335980619",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/b5d8b7f8021bda3afac1a60c2ea313bdab7b01d5ed520794e864faab67c0af6a/analysis/1406861889/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/GrowlfsTES5BlenderAnimationChain10-16332.7z?fid=58187&ttl=1535781402&ri=8192&rs=8192&setec=1a323b650f1dcd54e977acf04713ab3d"
+    },
+    {
+      "fileId": "58225",
+      "name": "GrowlfsTES5BlenderAnimationChain11",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2302",
+      "fileName": "GrowlfsTES5BlenderAnimationChain11-16332-1-1.7z",
+      "uploadedUnix": "1335991701",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/e1345d213a3adedcaba40b3a0421417318e054920688f6b2e0150f384b6d9242/analysis/1406862306/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/GrowlfsTES5BlenderAnimationChain11-16332-1-1.7z?fid=58225&ttl=1535781403&ri=8192&rs=8192&setec=b72a6848c2b801f082ea127452bda425"
+    }
+  ]
+}

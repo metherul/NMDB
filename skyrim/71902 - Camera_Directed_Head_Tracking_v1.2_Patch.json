@@ -1,0 +1,32 @@
+{
+  "modId": 71902.0,
+  "modName": "Camera_Directed_Head_Tracking_v1.2_Patch",
+  "summary": "Fixes some papyrus log spam with HeadTrack.pex script.",
+  "descriptionHtml": "The camera directed head tracking mod was throwing lots of messages into the Papyrus log about calling SetLookAt() against a none value as seen below.\r<br />\r<br />[12/10/2015 - 09:56:48PM] Error: Cannot look at a None target\r<br />stack:\r<br />[ (00000014)].Actor.SetLookAt() - &#34;&lt;native&gt;&#34; Line ?\r<br />[HeadTrackQuest (54000D63)].HeadTrack.OnUpdate() - \r<br />\r<br />My assumption is this call is supposed to clear headtracking which can be done by calling it against the PlayerRef instead. So this patch is just a tweak and recompile of the HeadTrack.pex script with that change. Seems to have fixed it for me and didn&#39;t require any special steps beside dropping the script into the directory.",
+  "categoryId": "51",
+  "version": "1.0",
+  "author": "NaughtyColt",
+  "createdUnix": "1449854579",
+  "updatedUnix": "1449854576",
+  "containsAdultContent": false,
+  "uploadedBy": "NaughtyColt",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000187542",
+      "name": "Camera_Directed_Head_Tracking_v1.2_Patch",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Camera_Directed_Head_Tracking_v1.2_Patch-71902-.rar",
+      "uploadedUnix": "1449854576",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/b355868258480fa0a2c268bddd0bb929db8187739507a1cdeb922f7ca0c7be42/analysis/1449854583/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Camera_Directed_Head_Tracking_v1.2_Patch-71902-.rar?fid=1000187542&ttl=1535860451&ri=8192&rs=8192&setec=605af18240835dd281b20160e61346ae"
+    }
+  ]
+}

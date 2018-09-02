@@ -1,0 +1,32 @@
+{
+  "modId": 52181.0,
+  "modName": "Silence Spell and Spiritual Channel Spell",
+  "summary": "Silence spell and Spiritual channel spell, script-free.\r<br />\r<br />Silence spell in older DnD style (Silences player + enemies, no save possible), 2 minute cooldown\r<br />Spiritual channel spell (Heavily encumbers player while granting huge magicka regen), 5 minute cooldown",
+  "descriptionHtml": "[color=#fff2cc]**Feel free to edit in the CK as you like. You can upload an edited or derivative version, just notify me by PM and give credit**[/color]\r<br />\r<br />In old-school RPGs, my favorite tactic was casting silence on myself and then getting in the personal space of enemy spellcasters.\r<br />Now you can cheese (or roleplay) through Skyrim as well&#33; \r<br />\r<br />This mod adds two Level 0 Restoration spells. \r<br />1) Silence spell in older DnD style (Silences player + enemies, no save possible), 2 minute cooldown\r<br />2) Spiritual channel effect (Heavily encumbers player while granting huge magicka regen), 5 minute cooldown\r<br />\r<br />--&gt; No perk requirements, available in merchant level lists for ALL LEVELS OF PLAYER FROM ZERO UP \r<br />--&gt; Buy them from your nearest spell merchant, or add them via console commands.\r<br />--&gt; No scripts or external resources used. Made by mixing and matching vanilla effects only\r<br />\r<br />...............................................................................................................\r<br />\r<br />SILENCE AREA spell (7b000D68; spell tome 7b0012cd)\r<br />\r<br />Purpose: \r<br />--&gt; Functioning silence spell (works by draining magicka to zero for duration). \r<br />--&gt; Silences player + nearby enemies for 60 seconds. \r<br />--&gt; Magicka will slowly regenerate back from 0 at the end of the time period.\r<br />\r<br />Level: 0\r<br />Cost: 50\r<br />Hostile: NO (so you can use it to make followers and allies be silent)\r<br />Cooldown: 2 minutes after effect wears off \r<br /> \r<br />...............................................................................................................\r<br />\r<br />SPIRITUAL CHANNEL spell (7b002871; spell tome 7b002874)\r<br />\r<br />Purpose: \r<br />--&gt; Heavily encumbers player (carry weight - 10,000) during 60s duration of very large magicka regen (magicka effectively stays at 100%)\r<br />--&gt; Magicka goes back to normal after 60s, and will not regenerate at all for 5 minutes (atronach-style). \r<br />\r<br />Level: 0\r<br />Cost: 50\r<br />Hostile: NO\r<br />Cooldown: 5 minutes after magicka boost wears off. Recasting the spell before then will reset timers for the negative effects (60s encumberance, 360s nerfed magicka regen) but will NOT give you the magicka boost again.\r<br />\r<br />\r<br />...............................................................................................................\r<br />...............................................................................................................\r<br />\r<br />REQUIRED: No required mods.\r<br />\r<br />RECOMMENDED:\r<br />Dynamic magicka and stamina growth, by zenith44\r<br />http://www.nexusmods.com/skyrim/mods/44562/?\r<br />\r<br />UNINSTALL: Just deactivate the .esp. This mod does not use any scripts or external resources.\r<br />\r<br />CONFLICTS: None. \r<br />This mod works by adding and subtracting amounts of attributes. If you use mods that DRASTICALLY alter player base magicka regen, carry weight or magicka pool, then this mod may not have the desired effects.",
+  "categoryId": "75",
+  "version": "1.0",
+  "author": "Dgtlsrcrss",
+  "createdUnix": "1395098702",
+  "updatedUnix": "1395098161",
+  "containsAdultContent": false,
+  "uploadedBy": "Dgtlsrcrss",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000101542",
+      "name": "Silence Spell and Spiritual Channel Spell",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Silence Spell and Spiritual Channel Spell-52181-1-0.zip",
+      "uploadedUnix": "1395098161",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/25047ba269d427e66b8c8611ba7fbd9bfdb044607b757d87b36842f7f67999b0/analysis/1407986103/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Silence%20Spell%20and%20Spiritual%20Channel%20Spell-52181-1-0.zip?fid=1000101542&ttl=1535835002&ri=8192&rs=8192&setec=9f458c566d026e0f9b666183e04db835"
+    }
+  ]
+}

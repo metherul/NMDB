@@ -1,0 +1,48 @@
+{
+  "modId": 56485.0,
+  "modName": "Smart Potions",
+  "summary": "New potions you can use any time and not waste a drop (and a few spells).",
+  "descriptionHtml": "[color=#00ff00]What is it?[/color]\r<br />This mod adds the ability to add magicka, health, and stamina to a pool which will restore that attribute when it&#39;s lowered. There are three ways to do this.\r<br />1: Spells - There are three new restoration spells which will drain your attributes (one spell per attribute) and add the drained amount to your reserves.\r<br />2: Stock potions - Stock potions that restore a single attribute can be converted to add to your pool instead, allowing them to restore as needed.\r<br />3: Alchemy Potions - Ingredients can be converted so the produced potions add to your reserves instead of directly restoring the attributes.\r<br />\r<br />[color=#00ff00]Where can I find these things?[/color]\r<br />Everything is currently in the Arcanaeum. There are two cabinets (Dwemer dressers) there, each containing a book. One book is just a (crappy) back-story. The other is the last piece of the back-story along with the actual instructions. Each cabinet contains a diamond. Grab the diamonds to learn the spells. Put the normal potions into the potion cabinet to convert them to smart potions. Put normal ingredients into the ingredient cabinet to convert them. Convert multiple smart potions at once to combine them into larger potions (same amount of restoration power, but in fewer bottles).\r<br />\r<br />[color=#00ff00]If there is interest in this, I&#39;ll expand the options to include:[/color]\r<br />-Convert potions and ingredients anywhere.\r<br />-Synchronize the effects known on the vanilla and the smart ingredients. (Currently, because they&#39;re technically different ingredients, the effects you know on one do not affect the effects you know on the counterpart.)\r<br />-A small quest to dig into the back story (there&#39;s a journal, so the quest would be adding the ability to return that journal).\r<br />-Make other types of potions work the same way.\r<br />-Option to automatically convert potions and ingredients as they&#39;re put into your inventory.\r<br />\r<br />[color=#00ff00]Installation and Uninstallation:[/color]\r<br />Install like normal. However, there is an updating script in this, so do not uninstall on a whim. To uninstall it, you need to either have SKSE&#39;s ini set to clean up abandoned updates (this is off by default, I believe) or you need to use the console to type:\r<br />StopQuest SP_ManagerQuest\r<br />\r<br />After you&#39;ve typed this, the quest should stop itself, which will also stop the script, making it safe to uninstall without risking save-game bloat.\r<br />\r<br />[color=#00ff00]Compatibility:[/color]\r<br />While it&#39;s unlikely any mods will interfere with this one, they also aren&#39;t going to exactly cooperate with it. Potions and ingredients that other mods add won&#39;t be affected adversely, but they also won&#39;t be convertible. I have an idea for how to fix this, but that idea is a long-shot. If there&#39;s interest, I&#39;ll see if it&#39;s be possible.",
+  "categoryId": "94",
+  "version": "1.0.1",
+  "author": "Xander9009",
+  "createdUnix": "1406736650",
+  "updatedUnix": "1406815659",
+  "containsAdultContent": false,
+  "uploadedBy": "Xander9009",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000119933",
+      "name": "Smart Potions",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "58",
+      "fileName": "Smart Potions-56485-1-0.zip",
+      "uploadedUnix": "1406735567",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a3bbdcf23ab19b0d95640b82fb1a53228da72282035ced653c7afd25e162ae64/analysis/1406735620/",
+      "changelogHtml": " Initial release. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Smart%20Potions-56485-1-0.zip?fid=1000119933&ttl=1535841867&ri=8192&rs=8192&setec=cf511056364ba8f84ac1d1729cd98d7f"
+    },
+    {
+      "fileId": "1000120031",
+      "name": "Smart Potions",
+      "version": "1.0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "57",
+      "fileName": "Smart Potions-56485-1-0-1.zip",
+      "uploadedUnix": "1406815659",
+      "modVersion": "1.0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/c5166b28821250d70be8622a25a0389a7f53ac87c69a06b1ffd79c5480d8c90c/analysis/1406815720/",
+      "changelogHtml": " Removed unnecessary expansion requirements.\r<br />Added delay to Magicka re-activation (to hopefully prevent spell from immediately restoring the magicka used to cast Store Magicka).\r<br />Corrected typo in instructions. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Smart%20Potions-56485-1-0-1.zip?fid=1000120031&ttl=1535841868&ri=8192&rs=8192&setec=2fa1f474ed613a802da4eb0b1b83dc19"
+    }
+  ]
+}

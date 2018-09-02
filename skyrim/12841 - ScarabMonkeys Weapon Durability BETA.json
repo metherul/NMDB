@@ -1,0 +1,48 @@
+{
+  "modId": 12841.0,
+  "modName": "ScarabMonkeys Weapon Durability BETA",
+  "summary": "This mod provides a system for weapons to break during combat, this forces an unequip.",
+  "descriptionHtml": "Updated version uploaded - please delete v0.4 it was incomplete!\r\n\r\nBETA - Use at your own peril - and then give good feedback :D (make sure you keep a save)\r\n\r\nWeapons break after some use, on BEING hit, not you hitting  - this affects NPCs and Player.\r\n\r\nNPC\\'s will drop their weapon, player will just unequip - and have a flag set to prevent you from re-equipping. \r\n\r\n--\r\nCaveats:\r\nUnfortunately this \\'[url=http://www.creationkit.com/UnequipItem_-_Actor]no re-equip[/url]\\' flag is currently totally ignored so you can just go back into your inventory and re-equip.\r\nThus, this is mostly just a proof of concept. I will try to add a better break/repair mechanism\r\nThis is only capable of tracking 128 types of item due to a limitation of Papyrus that I didn\\'t want to code around (because it would then be inefficient) - I am working on making this limit apply per character, rather than globally, which should alleviate the issue.\r\n\r\n--\r\nCredits:\r\nKudos to kuertee for his discussion on [url=http://forums.bethsoft.com/topic/1357897-getting-an-objectreference-for-an-equipped-item]my thread here[/url] \r\nKudos to Borgut1337 for [url=http://forums.bethsoft.com/topic/1349649-dynamically-attaching-scripts-to-actors-near-the-player]this thread[/url] ",
+  "categoryId": "24",
+  "version": "0.4.1",
+  "author": "ScarabMonkey",
+  "createdUnix": "1331668670",
+  "updatedUnix": "1331769607",
+  "containsAdultContent": false,
+  "uploadedBy": "ScarabMonkey",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "43083",
+      "name": "ScarabMonkeyDurabilityBETA_0-4-1",
+      "version": "0.4.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "ScarabMonkeyDurabilityBETA_0-4-1-12841-0-4-1.7z",
+      "uploadedUnix": "1331680734",
+      "modVersion": "0.4.1",
+      "virusScanUrl": "https://www.virustotal.com/file/778b94654ada88f9c84ff5c66d0a4d114c47083db437bbee26b7ee2e9e9eb4bc/analysis/1406747529/",
+      "changelogHtml": " Removed debugging messages - sorry about those! <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ScarabMonkeyDurabilityBETA_0-4-1-12841-0-4-1.7z?fid=43083&ttl=1535775107&ri=8192&rs=8192&setec=de71402de19cb32a398c5b198aee0329"
+    },
+    {
+      "fileId": "43428",
+      "name": "ScarabDurabilityActorEffectScript_0-4-2",
+      "version": "0.4.2",
+      "categoryId": "5",
+      "categoryName": "MISCELLANEOUS",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "ScarabDurabilityActorEffectScript_0-4-2-12841.7z",
+      "uploadedUnix": "1331769607",
+      "modVersion": "0.4.2",
+      "virusScanUrl": "https://www.virustotal.com/file/31915e709dea99b8f2255b1dad66dd60a9885bdf23c223ce3f961118b8471d75/analysis/1406749503/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/ScarabDurabilityActorEffectScript_0-4-2-12841.7z?fid=43428&ttl=1535775107&ri=8192&rs=8192&setec=a9e04e5d47d3b5e3e7114ac4f58bfc92"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "modId": 73464.0,
+  "modName": "PC Sophisticate Voice Pack",
+  "summary": "This is a small addon for Player Voicesets by ChizfoShiz adding a custom voice suited to a classy female character.",
+  "descriptionHtml": "[youtube]b1eVhKrMKMs[/youtube]\r<br />\r<br />This is a small addon for Player Voicesets by ChizfoShiz adding a custom voice suited to a classy female character, slightly more in depth than my [url=http://www.nexusmods.com/skyrim/mods/73327/?]PC Innocent Voice Pack[/url]. This mod also includes an optional extra which adds the voice to alchemy, enchanting, lockpicking & weapon swings (as a workaround for the bug in VoiceSets which prevents custom voice weapon swings from working). It has been split in this way as the sounds in the optional file are NOT controlled by a .esp. meaning that they will act as replacers for default sounds&#33;\r<br />\r<br />I&#39;m releasing it in this form as an addon for ChizfoShiz&#39; mod as something of a trial version. IF SOMEONE WITH THE RIGHT SKILLS CAN HELP I have plans to create an entirely new mod using this voice and adding player dialogue to more events and conversations than ever before (see Development section below).\r<br />\r<br />[u]DEVELOPMENT[/u]: (HELP WANTED&#33;)\r<br />\r<br />As stated above, I have big plans for this mod and - to give a sense of scale to it - am currently sorting out thousands of samples&#33; Whilst I am no stranger to modding, my time will only permit so much and so if this is ever to come to fruition I will need to find someone who can assist. What I need in particular is someone familiar with [i]event triggered scripting and - preferably - voice file & dialogue experience[/i]. If this sounds like you and you would like to participate please send me a PM&#33; I do [b][u]NOT[/u] [/b]require someone to spend endless hours compiling, just developing the scripts efficiently.\r<br />\r<br />[u][b]REQUIRED:[/b][/u]\r<br />\r<br />[url=http://www.nexusmods.com/skyrim/mods/51387/?]Player VoiceSets[/url] (Custom Voice Version)\r<br />\r<br />[b][u]INSTALLATION (MAIN MOD):[/u][/b]\r<br />\r<br />1) Install Player Voicesets as per it&#39;s requirements\r<br />2) BACKUP any existing custom voice installation - this will overwrite those files\r<br />3) Install the content of this mod to your Data/Sound/fx folder\r<br />4) Activate the &#39;Custom Voice&#39; voice option via the Player Voice MCM menu in game\r<br />5) Enjoy&#33;\r<br />[u]\r<br />INSTALLATION (ADDON):[/u]\r<br />1) BACKUP the following folders from your Data/Sound/fx folder if they are present as this will overwrite files:\r<br />   /ui\r<br />   /wpn/swing \r<br />2) Extract the download content to your Data/Sound/fx folder.\r<br />3)Enjoy&#33;\r<br />\r<br />NB: Given the nature of the evented scripting within the orignal mod, many of this custom voice&#39;s comments are tied to a &#39;chit chat&#39; feature which is activated by the &#39;Taunt&#39; keybind in game (setup from the same MCM menu). Think of it less as a taunt and more like pulling the chord on the back of a talking teddy bear&#33; The default keybind for this is &#39;Esc&#39; so I recommend rebinding to something more amenable.  \r<br />\r<br />[b][u]UNINSTALLATION:[/u][/b]\r<br />\r<br />1) (MAIN MOD) Remove all content from the Data/Sound/Fx/Custom Voice folder\r<br />2) (ADDON) Remove all content from the following folders:\r<br />   Data/Sound/Fx/ui \r<br />   Data/Sound/Fx/Weapon/Swing\r<br />3) Restore any backups of previously installed files\r<br />\r<br />[b][u]CREDITS:[/u][/b]\r<br />\r<br />ChizFoShiz for the great Player Voicesets mod in the first place",
+  "categoryId": "61",
+  "version": "1.0",
+  "author": "LegacyCloud",
+  "createdUnix": "1455365485",
+  "updatedUnix": "1455365456",
+  "containsAdultContent": false,
+  "uploadedBy": "LegacyCloud",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000195370",
+      "name": "PC Sophisticate",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5151",
+      "fileName": "PC Sophisticate-73464-1-0.7z",
+      "uploadedUnix": "1455365368",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/3e12abee1f7bd69dfa2eeff463ac2923818e11f54c9b458155a850be266d78fd/analysis/1455365419/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/PC%20Sophisticate-73464-1-0.7z?fid=1000195370&ttl=1535862142&ri=8192&rs=8192&setec=0e190e2edab17879bcde1497c69221b6"
+    },
+    {
+      "fileId": "1000195371",
+      "name": "Sophisticate Plus",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "2269",
+      "fileName": "Sophisticate Plus-73464-1-0.7z",
+      "uploadedUnix": "1455365456",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ca282d865b192bcc4f10a971175e0e0b34f6eebce53fb7659a007f45e30ebc8f/analysis/1455365465/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Sophisticate%20Plus-73464-1-0.7z?fid=1000195371&ttl=1535862143&ri=8192&rs=8192&setec=b4de4d6fa656ef9afab095d5dd195f84"
+    }
+  ]
+}

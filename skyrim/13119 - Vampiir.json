@@ -1,0 +1,32 @@
+{
+  "modId": 13119.0,
+  "modName": "Vampiir",
+  "summary": "Tribute to DAoC\\'s vampiir class (best game ever)\r\nno typo!",
+  "descriptionHtml": "simple mod inspired DAoC\\'s vampiir class (best game ever)\r\nTHIS is not a vampire mod (yet?) , Works at all times regardless of race...\r\n\r\n\r\n=======================================================================\r\n\r\n\r\n-Regeneration of magicka/health/stam reduced by 100% in combat \r\n\r\n-Magicka \\\"ticks\\\" down by 10/sec down to 30%\r\n\r\n-Melee attacks restore 10/15/30 magicka based on power of attack ex: sprinting power attack restores 30  a bash restores 10\r\n\r\n-added spell VAMPIIRIC REGENERATION -restores 10 health/s and 2 stamina/s over 15 seconds +25health/sec for first 2 seconds. xx001837\r\n\r\n-added spell DEVOURING BOLT - absorbs 150 stam and 75 health from enemies in a small area - direct hit staggers the npc. xx00183a\r\n========================================================\r\n\r\ntoo add spells type\r\nplayer.addspell xx001837  and player.addspell xx00183a\r\n\r\nXX is the load order number, if your unsure in console type \\\"help vampiiric\\\" it will give you the numbers you need.\r\n\r\nalso if you have another mod that makes changes to the \\\"player\\\" object, the magicka on melee attacks may or may not work if that esp is loaded after this.(change the order if this happens)\r\n==========================================================\r\nnumbers probably not balanced at all levels /play styles, low level dual wielding would prob be OP and be pretty useless for pure caster yadda yadda etc.  \r\n\r\nmight make changes later if its t0o strong......\r\n\r\nrecommended mods: PISE, Enhanced high level game play, Improved difficulty .......\r\n==========================================================\r\nsuggestions welcome!!!\r\n\r\n\r\n\r\n\r\n\r\n[youtube]qeSPDZ5fvAs[/youtube]\r\n\r\n\r\n\r\n ",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "pepsii",
+  "createdUnix": "1332019750",
+  "updatedUnix": "1332019847",
+  "containsAdultContent": false,
+  "uploadedBy": "RMD768",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "44243",
+      "name": "Vampiir",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Vampiir-13119-1-1.rar",
+      "uploadedUnix": "1332019847",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/ebba6d1eb21539df863d7c92d0e7fa3614211d0269a30cae36e82c0b6a01ac85/analysis/1406764869/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Vampiir-13119-1-1.rar?fid=44243&ttl=1535775598&ri=8192&rs=8192&setec=cba9cd4c50f817bdc683f59a7b7c8057"
+    }
+  ]
+}

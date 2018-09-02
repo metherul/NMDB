@@ -1,0 +1,48 @@
+{
+  "modId": 13108.0,
+  "modName": "Summons Difficulty Adjustment",
+  "summary": "Less health for your summons when you play on master difficulty.",
+  "descriptionHtml": "== Summons Difficulty Adjustment ==\r\n\r\nWhen you increase difficulty enemies deal more damage to you. Unfortunately your summons are not affected by this. A tough enemy may kill you with one hit on master difficulty, but the same enemy needs ten hits to kill your summoned Frost Atronach. That is pretty lame and makes the game far too easy as your Atronachs will block any enemy for a very long time - enough to regenerate all your magicka and fire a few destruction spells before you have to summon the next Atronach. No one but the most overpowered enemies will ever get close to you.\r\n\r\nThis mod automatically cuts the health of your summoned Atronachs (and Dremoras or Dragon Priests) in half. Summons of enemy mages are not affected of course. I also slightly adjusted the health levels of potent summons - the perk description says they are 50% more powerful, but in the vanilla game they had some random health values assigned making some of them more than 60% more powerful. \r\n\r\nThis mod is meant to be used with master difficulty, if there is a request for expert (with 75% health for summons) I\\'ll upload an alternate version.\r\n\r\n\r\n= Installation =\r\n\r\nExtract the archive into your data folder and enable the PTSummonsAdjusted.esp. To uninstall remove the esp and the PTAtronachAdjust.pex script in the scripts folder.",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "Phitt",
+  "createdUnix": "1332008741",
+  "updatedUnix": "1332011003",
+  "containsAdultContent": false,
+  "uploadedBy": "Phitt",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "44196",
+      "name": "Summons Adjusted",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Summons Adjusted-13108-1-0.7z",
+      "uploadedUnix": "1332008775",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/23c3744239b1293e6fda6fe28552872a4cd91d8aa06cccac20956397a7766303/analysis/1406753403/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Summons%20Adjusted-13108-1-0.7z?fid=44196&ttl=1535775577&ri=8192&rs=8192&setec=2f65d9fe3b7ba5e134301dbc9eb02d13"
+    },
+    {
+      "fileId": "44206",
+      "name": "Optional difficulties",
+      "version": "1.0",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "Optional difficulties-13108-1-0.7z",
+      "uploadedUnix": "1332011003",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e67dc391ea20d2d310dcc0d8ab03d314d630dbf26559f3a77470d1562619ec50/analysis/1406753414/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Optional%20difficulties-13108-1-0.7z?fid=44206&ttl=1535775578&ri=8192&rs=8192&setec=627509dcf782d2096bc7c880949cded7"
+    }
+  ]
+}

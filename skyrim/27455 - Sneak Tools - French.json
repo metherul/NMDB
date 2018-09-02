@@ -1,0 +1,48 @@
+{
+  "modId": 27455.0,
+  "modName": "Sneak Tools - French",
+  "summary": "Version francaise du mod Sneak Tools par Borgut1337.\r\nAjoute un équipement parfait pour un gameplay furtif. Nouvelles flèches de feu, eau, corde.. Nouveau masque afin de masquer son identité..",
+  "descriptionHtml": "[center][color=#ffd700][size=6][b]Sneak Tools - Outils de voleur\r\nFrench translation[/b][/size][/color][/center]\r\n \r\n[b]Version :[/b] 1.00\r\n[b]Auteur / Author :[/b] [url=http://skyrim.nexusmods.com/users/2141257]Borgut1337[/url]\r\n[b]Lien original du mod / Link to original mod:[/b] [url=http://skyrim.nexusmods.com/mods/19447]Sneak Tools[/url]\r\n \r\n[color=#ffd700][size=4][u][b]Prérequis[/b][/u][/size][/color]\r\nSkyrim 1.8+\r\nSkyrim Script Extender (SKSE) version 1.6.6+\r\nTéléchargement : [url=http://skse.silverlock.org]http://skse.silverlock.org[/url]\r\n \r\n[color=#ffd700][size=4][u][b]Recommandé / Optionnel[/b][/u][/size][/color]\r\n- SkyUI 3.x: [url=http://skyrim.nexusmods.com/mods/3863]http://skyrim.nexusmods.com/mods/3863[/url]\r\nSans ce mod, le menu de configuration MCM ajouté par la version 1.00 ne sera pas disponible, il faudra configurer certaines fonctions du mod grâce au PNJ Horstar.\r\n- Dawnguard: Sans le DLC, l\\'accès aux carreaux d’arbalète ne sera pas possible.\r\n \r\n[color=#ff0000][size=4][b]Merci de lire le fichier lisez-moi inclus dans l\\'archive du mod pour avoir tout les détails de son fonctionnement.[/b][/size][/color]\r\n \r\n \r\n[color=#ffd700][size=4][u][b]Description du mod[/b][/u][/size][/color]\r\nLe mod ajoute une panoplie d\\'objets principalement utiles pour ceux qui ont un personnage axé sur un gameplay furtif. \r\nTout le monde peut bien sur utiliser ce mod, tout dépend de si vous jouez RP ou pas.\r\n \r\nCe qu\\'ajoute le mod :\r\n- Flèches/Carreaux de feu\r\n- Flèches/Carreaux d\\'eau\r\n- Flèches/Carreaux à huile\r\n- Flèches/Carreaux de distraction\r\n- Flèches/Carreaux d\\'escalade\r\n- Cagoule sombre\r\n- Une zone secrète, le Refuge Sombre, avec un vendeur qui propose les articles du mod\r\n- De nouvelles actions en mod furtif, égorger, assommer, déplacer le corps..\r\n \r\nLa vidéo sur Sneak Tools commence à partir de 1min 35sec environ, cette vidéo montre le mod sur une version plus ancienne que l\\'actuelle (1.00). La 2ème vidéo propose un aperçue de la version 1.00 du mod.\r\n[youtube]sf3BINEv0Ds[/youtube] [youtube]7U-N4Jo4tgs[/youtube]\r\n \r\nPour un détails de tout les éléments et fonctionnalités du mod, merci de consulter le fichier lisez-moi.\r\n \r\n \r\n[color=#ffd700][size=4][u][b]Installation du mod[/b][/u][/size][/color]\r\nDécompressez l\\'archive et déplacez les éléments suivants dans le répertoire Data du jeu :\r\nSneak Tools.esp\r\nSneak Tools Vanilla Hoods.esp\r\nSneak Tools Vanilla Masks.esp\r\nSneak Tools.bsa\r\n \r\n \r\nActivez ensuite le(s) plugin(s) via le SkyrimLauncher.\r\n \r\n \r\n[size=4][color=#ffd700][u][b]Mise à jour depuis une version précédente[/b][/u][/color][/size]\r\nLa mise à jour implique la perte des objets du mod que le joueur a dans son inventaire.\r\nPensez à déséquiper les objets du mod, tout particulièrement la cagoule.\r\n \r\n- Désactiver le(s) fichier(s) esp du mod via le Skyrim Launcher ou via le Nexus Mod Manager\r\n- Lancer le jeu, charger une sauvegarde et sauvegarder pour effacer les traces du mod.\r\n- Quitter le jeu et installer la nouvelle version du mod\r\n- Activer le(s) fichier(s) esp\r\n- Lancer le jeu et charger la sauvegarde souhaitée.\r\n \r\n \r\nLe plugin Vanilla Hoods permet d\\'ajouter l\\'effet de la cagoule sombre à différents capuchons du jeu dont voici la liste :\r\n- Capuchon de Rossignol\r\n- Coule sibyline antique\r\n- Coule sibyline\r\n- Coule sibyline usée\r\n \r\nLe plugin vanilla Masks permet d\\'ajouter l\\'effet de la cagoule sombre à tout les masques de prêtre dragon.\r\n \r\n \r\n[size=4][color=#ffd700][u][b]Ordre de chargement[/b][/u][/color][/size]\r\nL\\'ordre de chargement si plusieurs esp sont chargés est le suivant :\r\nSneak Tools.esp\r\nSneak Tools Vanilla Hoods.esp\r\nSneak Tools Vanilla Masks.esp\r\n \r\nSi vous utilisez des mods qui modifient les armes ou fixent des bugs liés aux armes vanilla, Sneak Tools dois se charger après ces mods.\r\n \r\nIl est également possible de charger directement l\\'archive du mod dans Nexus Mod Manager pour faciliter son installation et sa désinstallation.\r\n \r\n \r\n[size=4][color=#ffd700][u][b]Désinstallation du mod[/b][/u][/color][/size]\r\nDésactivez le mod via le SkyrimLauncher.\r\nSupprimez manuellement les éléments dans le répertoire Data.\r\n \r\nOu désinstallez le depuis le Nexus Mod Manager.\r\n \r\n \r\n[size=4][color=#ffd700][u][b]Incompatibilités et bugs[/b][/u][/color][/size]\r\n- Incompatible avec certains mods qui ajoutent des actions quand un PNJ est ciblé, peut entrer en conflit avec les actions égorger, assommer ou assassiner. Le mod \\\"Belua Sanguinare Revisited - Dynamic Vampires\\\" est un exemple de mod qui peut créer des problèmes, surtout si vous avez configuré auprès de Horstar pour que la boite de dialogue pour confirmer l\\'action n\\'apparaissent pas ; vous aurez donc l\\'action de Sneak Tools qui va se déclencher, mais l\\'action qui vous permet de vous nourrir de votre victime (Nous sommes toujours sur l\\'exemple du mod Belua) ne sera plus disponible.\r\n \r\n- Un PNJ inconscient, donc après avoir été assommé, peut faire en sorte que le réticule de furtivité laisse penser qu\\'on est détecté, car le champs de vision du PNJ reste actif, mais ce dernier n\\'activera pas d\\'alerte et le joueur n\\'est en réalité pas détecté.\r\n \r\n- Les primes ajoutées à la Cagoule ne se limitent pas à la zone où le joueur a été reporté comme fauteur de troubles en cas de détection, mais à tout Bordeciel. Un crime commis à Blancherive n\\'empêchera pas le joueur de se promener librement avec la Cagoule dans Solitude par exemple, les nouvelles circulent vite. Patientez 48h dans une zone sure afin de réinitialiser les primes sur la Cagoule. Ceci n\\'est valable bien sur que si le joueur retire la Cagoule et est découvert, si la Cagoule est enlevée en lieu sur, ce point ne compte pas.\r\n \r\n- La Cagoule ne fonctionne que dans les 9 cités principales de Bordeciel, car les primes sont liées aux différentes factions. De ce fait, le mod peut être incompatible avec des mods qui intègrent un système de primes. Sneak Tools fonctionne sur le système de primes vanilla uniquement.\r\n \r\n- Certaines zones lumineuses affichent à l\\'écran plusieurs sources, mais ne sont réellement considérées que comme une seule et unique source. Prenons l\\'exemple des deux braseros à l\\'entrée de Blancherive ; si l\\'un des deux est éteint avec une flèche d\\'eau, tout la zone est plongée dans l\\'ombre alors que le deuxième brasero est toujours allumé, mais ne génère plus de lumière. Ce problème viens de Bethesda qui a scripté le système de lumière de cette façon dans certaines zones, ça n\\'est pas un bug du mod.\r\n \r\n- Les flaques d\\'huile générées par les flèches/carreaux à huile peuvent rester visibles après les avoir enflammées.\r\n \r\n[center][img]http://www.confrerie-des-traducteurs.fr/forum/images/conf.png[/img]\r\n[url=http://www.confrerie-des-traducteurs.fr/skyrim/index.php]Site Skyrim[/url]\r\n[url=http://www.confrerie-des-traducteurs.fr/forum/index.php]Forum[/url][/center]",
+  "categoryId": "76",
+  "version": "1.00",
+  "author": "antiseptique",
+  "createdUnix": "1353954973",
+  "updatedUnix": "1359832865",
+  "containsAdultContent": false,
+  "uploadedBy": "antiseptique",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "101801",
+      "name": "Outils de voleur 061b",
+      "version": "0.61BETA",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1589",
+      "fileName": "Outils de voleur 061b-27455-0-61BETA.7z",
+      "uploadedUnix": "1353955442",
+      "modVersion": "0.61BETA",
+      "virusScanUrl": "https://www.virustotal.com/file/354686195f60f4a1a542eabdcd10e3b089d8f60e346008b3b039fbe6a2e9fc6e/analysis/1407279426/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Outils%20de%20voleur%20061b-27455-0-61BETA.7z?fid=101801&ttl=1535800205&ri=8192&rs=8192&setec=d3adea3a74a6f5562c5f0fc6939599ac"
+    },
+    {
+      "fileId": "1000006597",
+      "name": "Outils de voleur v1",
+      "version": "1.00",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2345",
+      "fileName": "Outils de voleur v1-27455-1-00.7z",
+      "uploadedUnix": "1359832865",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/7bcf082bd22488a4eb91dad14f50b94a8670073523b3c6018b9c4b206c83ddc1/analysis/1407393020/",
+      "changelogHtml": " FIX - Plusieurs sources de lumière n&#39;affichaient pas la bonne flamme après s&#39;être éteintes puis de nouveau allumées. <br/> \n FIX - Dégâts de feu en mêlée si le joueur avait les flèches de feu équipées. <br/> \n L&#39;action égorger n&#39;est désormais plus sûre de réussir et dépend de plusieurs facteurs. <br/> \n Ajout de carreaux d&#39;arbalète aux effets identiques à ceux des flèches si le joueur dispose du DLC Dawnguard. <br/> \n Ajout d&#39;un menu de configuration MCM en jeu si le joueur a installé le mod SkyUI. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Outils%20de%20voleur%20v1-27455-1-00.7z?fid=1000006597&ttl=1535800206&ri=8192&rs=8192&setec=fd1ba1a0f9e223ec40a5635730e74bb3"
+    }
+  ]
+}

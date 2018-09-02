@@ -1,0 +1,32 @@
+{
+  "modId": 59618.0,
+  "modName": "Loffeno&#39;s INI&#39;s",
+  "summary": "Tweaked INI&#39;s for high end graphics.",
+  "descriptionHtml": "[b][u][size=5]Description (Please Read)[/size][/u][/b]\r<br />I have tweaked many things in the INI&#39;s, the most noticeable being the tweak to shadows.  They are now extremely high res and move at a much more realistic pace (so no more jumpy shadows).  There are a few other improvements (which I can&#39;t honestly remember right now, but you can check the files to see for yourself).  I recommend you use an ENB with the INI&#39;s otherwise you may encounter some issues (not certain though).  These INI&#39;s are based on EWI&#39;s INI&#39;s.  You may get a significant performance hit though I am not entirely sure.  If you do have performance issues, try lowering the ShadowMapResolution to 4096 or 2048 (remember to do this to all ShadowMapResolution lines in both INI files).\r<br />[b][u][size=5]Installation\r<br />[/size][/u][/b][size=4][b][i]BACKUP YOUR CURRENT INI&#39;s BEFORE DOING ANYTHING ELSE&#33;\r<br />[/i][/b][/size]\r<br />Extract the included files to User&#92;Documents&#92;my games&#92;Skyrim\r<br />\r<br />The only tweaking to the files you will have to do is under the Skyrimprefs.ini, change the sD3DDevice to your device.\r<br />\r<br />There is another thing you may have to tweak which is uGridsToLoad under the Skyrim.ini.  Make sure it is set to whatever you had it set to in your previous INI files, otherwise it WILL cause save game issues.  I recommend setting it to 5 for stability.\r<br />\r<br />If you wish to mess around with other settings or see what I have changed (which I recommend you do), do that now (or really when ever).\r<br />\r<br />After you are done, be sure to save the files.\r<br />\r<br />Then right click both INI files and go to properties and check off read only.  By doing this, Skyrim will not change any of the values when you launch Skyrim launcher (this is important for SKSE and ENB users).\r<br />\r<br />Run the game and see how it looks&#33;\r<br />\r<br />[size=5][b][u]Disclaimer\r<br />[/u][/b][/size]If you do have any issues, I do not take blame.  I am expecting you to have a basic understanding of what an INI file is and what it does to Skyrim.  If it completely fails after following my instructions, just revert back to your old INI&#39;s.  There should be no issues AS LONG AS YOUR UGRIDS ARE STILL THE SAME.",
+  "categoryId": "62",
+  "version": "3.0",
+  "author": "Loffeno",
+  "createdUnix": "1414983513",
+  "updatedUnix": "1465953818",
+  "containsAdultContent": false,
+  "uploadedBy": "Loffeno",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000209861",
+      "name": "Loffeno&#39;s INIs",
+      "version": "3.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "Loffeno's INIs-59618-3-0.zip",
+      "uploadedUnix": "1465953818",
+      "modVersion": "3.0",
+      "virusScanUrl": "https://www.virustotal.com/file/d814a36c83647abed08a2255898dbf1077d6d3e31e28d80402e400e6319d7414/analysis/1465953843/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Loffeno%27s%20INIs-59618-3-0.zip?fid=1000209861&ttl=1535846934&ri=8192&rs=8192&setec=7a6feed559f20a7ce71d92c03443d162"
+    }
+  ]
+}

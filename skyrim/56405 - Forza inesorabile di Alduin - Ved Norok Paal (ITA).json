@@ -1,0 +1,48 @@
+{
+  "modId": 56405.0,
+  "modName": "Forza inesorabile di Alduin - Ved Norok Paal (ITA)",
+  "summary": "&#34;La voce di Alduin è entrata in te diventando puro potere, capace di spazzare via qualsiasi cosa che intralci il tuo cammino.&#34;",
+  "descriptionHtml": "=====================================================================================================================================\r<br />&#34;La voce di Alduin è entrata in te diventando puro potere, capace di spazzare via qualsiasi cosa che intralci il tuo cammino.&#34;\r<br />=====================================================================================================================================\r<br />DESCRIZIONE:\r<br />Questa mod mira ad aggiungere un nuovo urlo ispirato dal Fus Ro Dah e in ricordo di un degno avversario come Alduin. Per ora è solo un alpha e quindi ci sono ancora numerosi miglioramenti da apportare. Per adesso manca ancora il suono dell&#39;urlo (le parole) e la possibilità di ottenerlo. L&#39;obiettivo finale è quello di farci una quest. Per il momento dovrete aggiungerlo con la console:\r<br />\r<br />player.addshout xx0012CE\r<br />player.teachword xx0012CB\r<br />player.teachword xx001D9A\r<br />player.teachword xx0012CC\r<br />\r<br />Sostituire le due xx iniziali con la posizione del vostro plugin (esempio se è il decimo plugin che caricate inserite 10).\r<br />\r<br />Dato che è ancora un alpha, QUALSIASI GENERE DI CONSIGLIO È BEN ACCETTO.\r<br />\r<br />=====================================================================================================================================\r<br />VERSIONE:\r<br />1.0.1alpha - Ultimato l&#39;urlo\r<br />1.0alpha - Main file (alpha)\r<br />\r<br />Nel prossimo aggiornamento (1.1alpha) verrà aggiunto il suono della voce dell&#39;urlo per ogni parola.\r<br />=====================================================================================================================================\r<br />ISTRUZIONI:\r<br />1) Inserire il file .esp nella cartella Data.\r<br />2) Prima di avviare il gioco accertarsi di aver selezionato il plugin.\r<br />3) Ricordo che per ottenere l&#39;urlo dovrete inserire il codice precedente.",
+  "categoryId": "104",
+  "version": "1.0.1alpha",
+  "author": "GabryDX",
+  "createdUnix": "1406453220",
+  "updatedUnix": "1406540705",
+  "containsAdultContent": false,
+  "uploadedBy": "GabryDX",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000119466",
+      "name": "VedNorokPaal",
+      "version": "1.0alpha",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "VedNorokPaal-56405-1-0alpha.rar",
+      "uploadedUnix": "1406453215",
+      "modVersion": "1.0alpha",
+      "virusScanUrl": "https://www.virustotal.com/file/1c54b4e342ccc518bd19480e8939f0d6e51d345216871777d211ed465d44b7c2/analysis/1406453226/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VedNorokPaal-56405-1-0alpha.rar?fid=1000119466&ttl=1535841727&ri=8192&rs=8192&setec=acd56b0caad2807ebfb8fe0d0568cb22"
+    },
+    {
+      "fileId": "1000119657",
+      "name": "VedNorokPaal",
+      "version": "1.0.1alpha",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "VedNorokPaal-56405-1-0-1alpha.rar",
+      "uploadedUnix": "1406540705",
+      "modVersion": "1.0.1alpha",
+      "virusScanUrl": "https://www.virustotal.com/file/9ca0889b42a5f9b4f40c60ad606bb2c76003a4803d29c5fb32611c31e8914ca9/analysis/1406540767/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/VedNorokPaal-56405-1-0-1alpha.rar?fid=1000119657&ttl=1535841728&ri=8192&rs=8192&setec=de36198ab28d687108266f95b6ca9876"
+    }
+  ]
+}

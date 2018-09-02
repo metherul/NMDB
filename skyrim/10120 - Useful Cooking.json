@@ -1,0 +1,48 @@
+{
+  "modId": 10120.0,
+  "modName": "Useful Cooking",
+  "summary": "Lose all stat regenerations and gain them back by eating cooked meals. Different food types regenerate different stats.",
+  "descriptionHtml": "[b][size=5]Useful Cooking[/size][/b]\r\n\r\nYou no longer naturally regenerate Health Stamina and Magicka, but instead get them from cooked food. There are 3 different types of recipes, each one doing a different stat.\r\n\r\nStew & Soup: Stamina\r\nCooked Fish: Magicka\r\nCooked Meat: Health\r\n\r\nEach recipe only requires basic ingredients you find all over Skyrim in barrels, at stall Merchants, Inns, and just laying around on tables too. The effects will last 45 minutes (in real time) on each their own timer.\r\n\r\n[color=green]UPDATES:[/color]\r\n[color=yellow]v1.1:[/color] [color=green]\r\n- Changed recipes to be slightly harder to make but last longer for less management\r\n- Added messages to warn when hungry \r\n- Changed cooked food to be more expensive from merchants so that it could be cheaper to cook it yourself[/color]\r\n\r\n Installation:\r\n1) Install with Nexus Mod Manager, or if manually installing, unpack into Data folder\r\n   (The Drinks plugin is optional)\r\n2) Make sure esp file(s) are checked in the Skyrim launcher or mod manager\r\n3) When in the game, bring up console with ~ key and type \\\"bat UsefulCookingInstall\\\" without the quotes. Do this only once!\r\n\r\n Extra Notes:\r\n- Each category has its own timer. You will usually notice you\\'re hungry if your bars stop moving. For Mages, your Magicka will still regenerate from enchanted gear even if you\\'re hungry, but remember it will be slower until you eat (equal to taking away 100% Magicka Regeneration)!\r\n\r\n- This mod adds recipes for cooking the fish you find swimming in water, which can be cooked to regenerate your Magicka. You may be able to find them elsewhere too, like fishers and maybe Alchemist stores.\r\n\r\n- Cooked food is renamed to be sorted by category in your inventory, so you can find it easily when you\\'re hungry. This kinda conveniently also changes it in the cooking pots and merchants.\r\n\r\n- Useful Cooking - Drinks.esp:\r\nThis is an optional file for renaming common alcoholic drinks into non-alcoholic drinks like Water, Tea, Soda... Fish require these to be cooked. I just didn\\'t like the idea of making everyone get drunk every time for Magicka. Plus, I\\'m not a drinker. :) Also it swaps some of the graphics so you don\\'t see \\\"mead\\\" labels on Water etc. This plugin actually doesn\\'t require Useful Cooking, so you can use it on its own if you like it.\r\n\r\n Incompatibility:\r\n- If you use alcoholic mods, you should disable the optional drinks esp because it renames them and their graphics. It would be odd to get drunk from Water or Milk...\r\n- Please report to me if you have any problems my mod causes\r\n\r\n Uninstallation:\r\n1) When in the game, bring up console with ~ key and type \\\"bat UsefulCookingUninstall\\\" without the quotes. Do this only once!\r\n2) Uncheck or delete the Useful Cooking .esp files\r\n\r\n Contact/Info:\r\nIf you need to contact me, please do it through one of these:\r\n- SkyrimNexus: PrincessBridget\r\n- YouTube: www.youtube.com/user/xprincessbridget",
+  "categoryId": "24",
+  "version": "1.1",
+  "author": "PrincessBridget",
+  "createdUnix": "1329501361",
+  "updatedUnix": "1329546409",
+  "containsAdultContent": false,
+  "uploadedBy": "PrincessBridget",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "32702",
+      "name": "Useful Cooking 1-0",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Useful Cooking 1-0-10120.rar",
+      "uploadedUnix": "1329502942",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/998d4b44496b1f4c9afce562f258326a907abe5e76f68ef4fb00720ce514407d/analysis/1406690640/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Useful%20Cooking%201-0-10120.rar?fid=32702&ttl=1535770258&ri=8192&rs=8192&setec=e9b340dbcd5242ec7aeb96c28422d2d6"
+    },
+    {
+      "fileId": "32983",
+      "name": "Useful Cooking 1-1",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Useful Cooking 1-1-10120-1-1.rar",
+      "uploadedUnix": "1329546409",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/2909aa91e5e321d45597f531199ea1bc518c8e7e099e8db9591837d913ecefe4/analysis/1406692094/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Useful%20Cooking%201-1-10120-1-1.rar?fid=32983&ttl=1535770258&ri=8192&rs=8192&setec=ff030e981ad376ae9b9826f1ab41ffa5"
+    }
+  ]
+}

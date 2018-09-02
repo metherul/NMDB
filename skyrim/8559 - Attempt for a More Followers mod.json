@@ -1,0 +1,32 @@
+{
+  "modId": 8559.0,
+  "modName": "Attempt for a More Followers mod",
+  "summary": "This file is requested by a member on the official Bethesda forums.\r\nRight now, it can allow you to recruit 5 followers.\r\nAs of now, this file is obsolete.",
+  "descriptionHtml": "NOTICE! - Foobar92 of the official forums created a mod that does exactly as I intend to do here, rendering this mod obsolete. Please take a look at his mod here: http://forums.bethsoft.com/topic/1345602-wiprel-multiple-followers/ - NOTICE OVER.\r\n\r\nWARNING! - This is a test file, not a proper mod. Using it might mess up your game. So either do not use it on a serious save game or use it at your own risk. - WARNING OVER\r\n\r\nI am trying to create a mod that allows players to recruit more followers. Regrettably, its a lot harder than I thought, so I could not create a good mod. \r\n\r\nI started the following thread on the official forums to discuss this idea with other members:\r\nhttp://forums.bethsoft.com/topic/1344111-help-multiple-followers \r\nThe member IMissLeeches asked me to upload my current attempt, so she could take a look at it. So here it is.\r\n\r\nThe current file only removes the \\'check for existing follower\\' condition in the recruitment dialogue and adds some extra Aliases in the hope of duplicating the \\'2nd follower takes Dogs place\\' trick stated here: \r\nhttp://skyrim.nexusmods.com/downloads/file.php?id=3758\r\n \r\nIf you know anything about this subject, please join the discussion on the official forums. \r\nI have also purposefully disabled comments, ratings and other user input for this file to centralize discussion for this problem to one point.\r\n\r\n[b][u]The file itself[/u][/b]\r\n\r\n[b](de)Installation[/b]\r\nExtract the file into the C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data directory.\r\nActivate the file opening the Data Files menu on the Skyrim launcher and double clicking on MOARFOLLOWERS.esp.\r\nTo De-install, simply delete the file from your C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\skyrim\\\\Data directory.\r\n\r\n[b]To recruit more followers:[/b]\r\n\r\n1. recruit your first follower as normally.\r\n\r\n2. Go to a another follower and recruit them. Your first follower walks away from you.\r\n\r\n3. Now open the console by pressing the ~ key and type \\'SSQ 750BA\\' without quotes\r\nThe console should say: ConsoleScopeQuest >> DialogueFollower (750BA)\r\n\r\n4. Now click on your first follower and type \\'ForceRefIntoAlias Follower2\\' without quotes. Close the console. If done correctly, this NPC now acts like a real follower.\r\n\r\n5. To recruit a third follower repeat steps 2 and 3. But now your second follower walks away.\r\nOpen the console, click on them and type \\'ForceRefIntoAlias Follower3\\'. Close the console. You can go up to 5 followers in this way.\r\n\r\n[b]Bugs and Issues[/b]\r\nListing whats NOT wrong with this file right now is easier...:P\r\n\r\n* Only your last recruited follower will leave you alone when you tell them. The others will turn into permanent stalkers.\r\n\r\n* It is not a proper mod right now, requiring too much console codes and user input right now.\r\n\r\n[b][u]Legal Stuff[/u][/b]\r\n\r\nIf you want to expand and improve this \\'mod\\', please do. It only improves the chance for the community to get a true \\'multiple followers\\' mod. If you do, please share what you changed to the Bethesda thread: \r\nhttp://forums.bethsoft.com/topic/1344111-help-multiple-followers\r\n\r\nSkyrim and the Creation Kit belong to Bethesda Softworks etc.",
+  "categoryId": "66",
+  "version": "0.001",
+  "author": "DarkLordRoy",
+  "createdUnix": "1328821675",
+  "updatedUnix": "1328822517",
+  "containsAdultContent": false,
+  "uploadedBy": "Darklordroy",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "27964",
+      "name": "MOAR FOLLOWERS",
+      "version": "0.001",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3",
+      "fileName": "MOAR FOLLOWERS-8559.zip",
+      "uploadedUnix": "1328822517",
+      "modVersion": "0.001",
+      "virusScanUrl": "https://www.virustotal.com/file/2009f4e95cb21a59a283830aefe3a925e0d7bc5ecc6e1768e6927d5a51ba0d21/analysis/1406665089/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MOAR%20FOLLOWERS-8559.zip?fid=27964&ttl=1535767377&ri=8192&rs=8192&setec=babd393ba2b021dbd21f31439c6986b1"
+    }
+  ]
+}

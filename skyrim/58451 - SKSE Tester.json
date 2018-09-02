@@ -1,0 +1,48 @@
+{
+  "modId": 58451.0,
+  "modName": "SKSE Tester",
+  "summary": "Test proper SKSE and SkyUI installation",
+  "descriptionHtml": "[center][size=6][color=#F5C908][b]Is it REALLY Installed Correctly?[/b][/color][/size]\r<br />[size=4]A simple utility to validate SKSE and SkyUI installations.[/size][/center] \r<br />\r<br />[color=#F5C908][heading]Features[/heading][/color]\r<br />[list][*]Thoroughly tests SKSE version and functionality each time you start/load a game.[*]Also tests that SkyUI is installed.[*]Provides a {Test SKSE} spell that gives access to deeper diagnostics, global settings, and helpful tips.[*]User-configurable warning level so that it doesn&#39;t bug you unless something is wrong.[/list]\r<br />\r<br />[color=#F5C908][heading]We LOVE SKSE and SkyUI[/heading][/color]\r<br />SKSE and SkyUI are great tools that enable us to make some fantastic mods. However, if they aren&#39;t installed correctly things wont work. Statistically, it seems that ~90% of mod issues are traceable to incorrect SKSE installation.\r<br />\r<br />This is a requested update and re-posting of one of my older mods. I had hoped it would no longer be necessary, given that SKSE now has an automated installer. However, experience is showing that this is still a significant hurdle for many players, especially with properly updating SKSE.\r<br />I highly recommend [url=http://www.youtube.com/watch?v=jGKhdiJYBqo?t=11m7s]Gopher&#39;s tutorial video on installing SKSE[/url] to anyone having difficulties with installing SKSE.\r<br />\r<br />SKSE and SkyUI validation is already built into most other Jaxonz mods. If you use one of them already, you may not need this.\r<br />\r<br />[color=#F5C908][heading]Requirements[/heading][/color]\r<br />[list][*][url=http://skse.silverlock.org]SKSE 1.7.1[/url][*][url=http://www.nexusmods.com/skyrim/mods/3863/?]SkyUI[/url][/list]\r<br />[color=#F5C908][heading]Compatibility[/heading][/color]\r<br />[list][*]Fully compatible with DLC and 3rd party mods.[*]Not known to conflict with any other mod. Any load order works.[/list]\r<br />[color=#F5C908][heading]Game Safe[/heading][/color]\r<br />[list][*]Adds no scripts to objects.[*]Safely and easily remove at any time.[/list]\r<br />\r<br />Keywords: test, SKSE, SkyUI, install, installation, validate\r<br />\r<br />[color=#F5C908][heading]Other Great Mods from Jaxonz[/heading][/color]\r<br />[list][*][url=http://www.nexusmods.com/skyrim/mods/52583]Positioner[/url]: The decorator&#39;s most powerful tool to accurately and easily move/copy/scale any object in-game.[*][url=http://www.nexusmods.com/skyrim/mods/57335]Renamer[/url]: Easily rename objects, equipment, containers, people, creatures, horses, pets, player homes, and just about anything.[*][url=http://www.nexusmods.com/skyrim/mods/52927]Smart Looter[/url]: Automatically gathers the good stuff and leaves the junk, allowing you to focus on the adventure.[*][url=http://www.nexusmods.com/skyrim/mods/53641]Blink Teleport[/url]: Amazingly powerful and fun&#33; Blip to anywhere in the blink of an eye.[*][url=http://www.nexusmods.com/skyrim/mods/56545]Subtle Cloak Graphics[/url]: Be able to actually see when using a flame/frost/lightning cloak.[*][url=http://www.nexusmods.com/skyrim/mods/55474]Lights Please[/url]: Easily use magical lighting spells without disarming.[*][url=http://www.nexusmods.com/skyrim/mods/53365]Archery Focus[/url]: Automatically helps you aim when using bows and crossbows.[*][url=http://www.nexusmods.com/skyrim/mods/53268]Archery Perks[/url]: Adds tracer shots and automated arrow collection to the archery perk tree.[/list]\r<br />All Jaxonz mods are professionally coded for stability and high quality.",
+  "categoryId": "39",
+  "version": "2.1",
+  "author": "Jaxonz",
+  "createdUnix": "1411667506",
+  "updatedUnix": "1421981569",
+  "containsAdultContent": false,
+  "uploadedBy": "jaxonz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000128393",
+      "name": "SKSE Tester",
+      "version": "2.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "SKSE Tester-58451-2-0.zip",
+      "uploadedUnix": "1411667495",
+      "modVersion": "2.0",
+      "virusScanUrl": "https://www.virustotal.com/file/ec695f8ab3976cee8132e764f4fa87460d59c109b68d7f6e68df8abb8cb5c717/analysis/1411667582/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SKSE%20Tester-58451-2-0.zip?fid=1000128393&ttl=1535845140&ri=8192&rs=8192&setec=feab46efbd796e7e6db66b81c9125d59"
+    },
+    {
+      "fileId": "1000144143",
+      "name": "Jaxonz SKSE Tester",
+      "version": "2.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "11",
+      "fileName": "Jaxonz SKSE Tester-58451-2-1.zip",
+      "uploadedUnix": "1421981569",
+      "modVersion": "2.1",
+      "virusScanUrl": "https://www.virustotal.com/file/56a447bf79de63bc7ce19ed65fc638ad45ae69aebfc18a7ed710feddd691545d/analysis/1421981583/",
+      "changelogHtml": " Changed default to only notify if tests fail. <br/> \n Revised battery of SKSE function tests. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jaxonz%20SKSE%20Tester-58451-2-1.zip?fid=1000144143&ttl=1535845140&ri=8192&rs=8192&setec=5dbe808c41347cd9486a383b4cf715b1"
+    }
+  ]
+}

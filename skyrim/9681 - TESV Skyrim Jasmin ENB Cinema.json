@@ -1,0 +1,32 @@
+{
+  "modId": 9681.0,
+  "modName": "TESV Skyrim Jasmin ENB Cinema",
+  "summary": "Jasmin\\'s next ENB version which includes DOF and 3D Anaglyph effects :)",
+  "descriptionHtml": " \r\nTESV Skyrim Jasmin ENB v3.5 cinema \r\n \r\n \r\n \r\nSpecifications of Jasmin\\'s System: CPU E6600 Core2Duo/ 3G Ram/ GPU GTS250 early model\r\n\r\nTested OS: windows 7  32 bit/   latest window update/  \r\n\r\n\r\nThe author only used some retexture mods while testing this enb. \r\n\r\n \r\n\r\n\r\n \r\nInstructions to use Jasmin v3.5 cinema <PC>\r\n \r\n\r\n1. Open SkyrimPrefs.ini located in My Document\\\\My Games\\\\Skyrim\r\n \r\n\r\n2. Find the line, bFloatPointRenderTarget=0 from [Display] tap, and replace the number 0 with 1\r\n   Save and exit   \r\n   If that command line doesn\\'t exist, input manually. This is a must to activate all the functions to use enb.\r\n     \r\n\r\n3. Make sure you don\\'t use other graphic mods. If you have some installed already, delete those. \r\n\r\n   \r\n4. When you extract TESV Skyrim Jasmin ENB v3.5 cinema, you would find 3 folders.\r\n\r\n    a. AO+DOF+anaglyph  <high-end setting>\r\n \r\n    b. DOF+anaglyph  <high, mid, low setting> \r\n \r\n    c. LOW ENB   <low-end setting>\r\n \r\n   \r\n\r\n   Open the enb folder including DOF.\r\n\r\n   DOF + Anaglyph(Low)  <- \\\"Low\\\" represents the intensity of 3D anagpyph effect\r\n\r\n\r\n\r\n   Open the next folder\r\n \r\n   Jasmin ENB v3.5 cinema DOF 1 (Low) + anaglyph 1 (Low)\r\n\r\n   DOF 1 (Low)  ->  This represents the intensity of Depth of Field Effect\r\n\r\n\r\n\r\nAs you can see, this version has many options included.\r\nChoose one of them to your taste :) And open the folder. \r\nCopy all the contents including d3d9.dll and paste them \r\ninto your Skyrim folder (not Data folder)\r\n  \r\n\r\n\r\nWhat is Anaglyph?\r\n\r\n- it\\'s an effect implementing virtual 3D environment by using color differences.\r\n\r\n\r\nWhat is DOF?\r\n\r\n- It\\'s an acronym of Depth Of Field. Simply put, Depth of field is the amount of distance between \r\n\r\nthe nearest and farthest objects that appear in acceptably sharp focus in a scene.\r\n\r\n\r\n\r\n5. (Optional) I would recommend Installing any HD retexture mods (or DLC HR pack) as you desire \r\n\r\n   and it would help the game look much, much better. \r\n   \r\n   In case you\\'re worrying about frame drop due to low system specifications, \r\n   \r\n   I recommend the following retexture mods.\r\n\r\n  \r\n    Hybrids HD Plants and Herbs Retexture \r\n    http://skyrim.nexusmods.com/downloads/file.php?id=1546\r\n  \r\n    83Willows -101BugsHD- Butterfly Dragonfly Luna-Moth Torchbug \r\n    http://www.skyrimnexus.com/downloads/file.php?id=4955\r\n \r\n    Pure Waters - Adaptive Flow\r\n    http://skyrimnexus.com/downloads/file.php?id=1111\r\n \r\n    Real Ice ALL-IN-ONE \r\n    http://www.skyrimnexus.com/downloads/file.php?id=5388\r\n \r\n    Improved_LOD_trees \r\n    http://www.skyrimnexus.com/downloads/file.php?id=6245#content\r\n \r\n    Real_Snow_Flakes\r\n    http://www.skyrimnexus.com/downloads/file.php?id=4252\r\n \r\n    Better Butterflies\r\n    http://www.skyrimnexus.com/downloads/file.php?id=4082\r\n \r\n    HD Furniture and barrels final __ hi-res texture replacer  \r\n    http://skyrim.nexusmods.com/downloads/file.php?id=238 \r\n \r\n    Lush Grass\r\n    http://www.skyrimnexus.com/downloads/file.php?id=3288\r\n  \r\n    1024x1024 HQ chicken \r\n    http://www.skyrimnexus.com/downloads/file.php?id=2850&navtag=file/images.php?id=2850&tab=3#content\r\n \r\n    High Quality Food and Ingrediants (Partially Retextured)\r\n    http://www.skyrimnexus.com/downloads/file.php?id=280&navtag=file/images.php?id=280&tab=3\r\n  \r\n    High Quality Food and Ingredients (Retextured mostly)\r\n    http://www.skyrimnexus.com/downloads/file.php?id=1192\r\n \r\n\r\n \r\n7. To uninstall, all you have to do is deleting d3d9.dll from your Skyrim folder.\r\n\r\n\r\n\r\n\r\nMod Introduction (Jasmin ENB v3.5 Cinema)\r\n \r\nI would gladly introduce Jasmin ENB which is an outcome of a lot of user feedbacks.\r\n\r\nAny future feedbacks to improve the next version will be appreciated and welcomed :)\r\n \r\nJasmin ENB can always be modified and shared with the author\\'s permission.\r\n\r\nThe most important content of ENB is a palette file which has bmp as the file extension.\r\nModify the palette with photoshop first, and then configure enbseries.ini based on it.\r\n\r\nYou can press Shift+F12 to turn on and off the enb. You can provisionally increase loading speed\r\nif you turn it off before loading.\r\n \r\n\r\n\r\nA tip to improve loading speed:\r\n\r\nOpen Skyrim.ini contained in My Document\\\\My Games\\\\Skyrim.\r\n\r\nFind [Display] tap and add the line, iPresentInterval=0\r\n\r\nIt basically turns off V-sync and it would help increasing loading speed.\r\n\r\n\r\n\r\n\r\nScrapped from: http://blog.naver.com/r6angel/120152373958\r\nAuthor\\'s e-mail: r6angel@naver.com",
+  "categoryId": "62",
+  "version": "3.5",
+  "author": "Jasmin",
+  "createdUnix": "1329262307",
+  "updatedUnix": "1329262470",
+  "containsAdultContent": false,
+  "uploadedBy": "smdongreeman",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "31247",
+      "name": "TESV Skyrim Jasmin ENB Cinema",
+      "version": "3.5",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "220",
+      "fileName": "TESV Skyrim Jasmin ENB Cinema-9681-3-5.7z",
+      "uploadedUnix": "1329262470",
+      "modVersion": "3.5",
+      "virusScanUrl": "https://www.virustotal.com/file/7e1c54c02bf1d5087d3d6b6c42a391b029905e9aa2ffbe24926524aed2be789e/analysis/1406682735/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/TESV%20Skyrim%20Jasmin%20ENB%20Cinema-9681-3-5.7z?fid=31247&ttl=1535769441&ri=8192&rs=8192&setec=901caf4930c7216926efa550cf9223a7"
+    }
+  ]
+}

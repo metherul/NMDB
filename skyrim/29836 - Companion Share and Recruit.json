@@ -1,0 +1,48 @@
+{
+  "modId": 29836.0,
+  "modName": "Companion Share and Recruit",
+  "summary": "Ever wanted to bring your favourite NPCs out adventuring with you? Wished your followers did more than just act as meatshields, and were easy to order around? Wanted a D&D-esque party, where everyone has their own role and plays off each other? Just wanted an easy way of making new companions? CSR is probably for you!",
+  "descriptionHtml": "Ever wanted to bring your favourite NPCs out adventuring with you? Wished your followers did more than just act as meatshields, and were easy to order around? Wanted a D&D-esque party, where everyone has their own role and plays off each other? Just wanted an easy way of making new companions? CSR is probably for you!\r\n\r\nCSR adds a handful of perks to the Speech tree allowing you to persuade, befriend and recruit any unique, named NPC in the game- getting them to follow you, carry your stuff, contribute special abilities and so on. Take extra perks to grow your party, make them more effective, grant them new abilities, and then go on to save Skyrim with your buddies. \r\n\r\n[b]FEATURE LIST:[/b]\r\n-Give gifts to NPCs to befriend them\r\n-Recruit up to 5 unique friendly NPCs to follow you\r\n-Order your party around with a power\r\n-Teach friends & allies new spells\r\n-Teach friends & allies new Shouts\r\n-Teach friends & allies to level up with you\r\n-Teach friends & allies special party abilities\r\n-Recruit some NPCs who come with special abilities (dependent on their profession)\r\n\r\n[b]CARE & MAINTENANCE: [/b]\r\nNPCs will continue to follow you as long as they\\'re your friend. Gifting equipment to them will continue to increase their opinion of you, but taking their stuff risks their disapproval. If an NPC drops below \\'Friend\\' status, you get the chance to offer a gift to placate them or they\\'ll leave. \r\n\r\nNPCs can\\'t be killed in combat- when reduced to 0 HP, they begin to bleed out for 30 seconds- during that time you can activate them to give them a healing potion, cast healing spells, or wait for your Priest or Alchemist to heal them up. Whilst bleeding out: \r\n- After 15 seconds they lose disposition \r\n- After 30 seconds, they die or storm off in disgust \r\nNPCs will recover automatically after a combat ends. \r\n\r\nSo you can\\'t accidentally kill companions recruited via CSR, but equally they\\'re not invulnerable. \r\n\r\nThe special abilities come in 5 types, by profession.\r\n[b]Defender[/b]\r\nThese professions focus on protecting allies.\r\n--[b]Companion[/b] – Forces targets they strike to duel them.\r\n--[b]Guard[/b] – Nearby enemies are greatly slowed.\r\n--[b]Legionary[/b] – Nearby allies have increased armour.\r\n--[b]Housecarl[/b] – Pins targets they strike in place.\r\n\r\n[b]Striker[/b]\r\nThese professions focus on dealing damage.\r\n--[b]Assassin[/b] – Deals extra damage to targets they hit from the side or rear.\r\n--[b]Stormcloak[/b] – Nearby allies deal extra damage to targets of other races.\r\n--[b]Thief[/b] – Steals potions & poisons from targets they hit to use themselves.\r\n--[b]Tribal Orc[/b] – Deals more damage each time an ally goes down.\r\n\r\n[b]Controller[/b]\r\nThese professions focus on providing disadvantages to enemies and advantages to allies.\r\n--[b]Forsworn[/b] – Targets they hit are less able to block & power attack.\r\n--[b]Greybeard[/b] – Nearby allies can stagger foes more easily.\r\n--[b]Mage[/b] – Nearby enemies recharge the party\\'s weapons on death. Mages can also be given orders to keep up a Light spell at night and indoors.\r\n--[b]Thalmor Inquisitor[/b] – Nearby humanoid enemies have reduced confidence.\r\n\r\n[b]Leader[/b]\r\nThese professions focus on keeping the rest of your party on their peak performance.\r\n--[b]Alchemist[/b] – Heals groups of wounded allies in combat with potions.\r\n--[b]Bard[/b] – Nearby allies regain health & fatigue on attacking enemies.\r\n--[b]Officer[/b] – Nearby allies have increased health & fatigue regeneration. (Officers include Jarls and military officers)\r\n--[b]Priest[/b] – Heals wounded allies in combat with spells.\r\n\r\n[b]Supporter[/b]\r\nThese professions aren\\'t really much use as adventurers, but they can make useful pack mules.\r\n--[b]Commoner[/b] – Has an extra 200 carry weight. \r\n(Commoners include Farmers and Miners)\r\n--[b]Hunter[/b] – +25 Sneak to every companion when outdoors\r\n--[b]Merchant[/b] – Increases the money found on corpses.\r\n--[b]Smith[/b] – Can sharpen weapons via dialogue.\r\n\r\n[b]RECOMMENDED:[/b] If you have issues with the voiceless dialogue going too fast, I recommend using the mod Fus Ro Doh - Silent Voice as well: [url]http://skyrim.nexusmods.com/mods/14884[/url]\r\n[b]COMPATIBILITY:[/b] If you use another mod altering the Speech tree, as long as you have SKSE installed you can take the perks using the Tome of Companionship in Jorrvaskr. SKSE is also required for the Quick Favours feature. It is not otherwise required.\r\n\r\n[b]FAQS:[/b]\r\n[i]Can I increase or remove the recruitment cap?[/i]\r\nYou can\\'t. Each recruitment slot has to be added via the editor, and involves changing a bunch of scripts. 5 is about right as a maximum IMO, and 3 is really the most practical party size.\r\n\r\n[i]Can I recruit nameless mook NPCs?[/i]\r\nFor technical reasons, no. You can only recruit unique, adult NPCs- so take good care of them.\r\n\r\n[i]Is this compatible with $Companion_Mod?[/i]\r\nIncompatibility occurs when two mods try to change the same thing. So if you try to recruit a current companion from another mod with CSR, then things will go wrong as both mods try to give them orders- but that\\'s a no-brainer, really.",
+  "categoryId": "66",
+  "version": "1.2",
+  "author": "Talkie Toaster",
+  "createdUnix": "1358022607",
+  "updatedUnix": "1369426634",
+  "containsAdultContent": false,
+  "uploadedBy": "TheTalkieToaster",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000001931",
+      "name": "Companion Share and Recruit",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "267",
+      "fileName": "Companion Share and Recruit-29836-1-0.zip",
+      "uploadedUnix": "1358022727",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/548450a39cecd05cdc2359c43f09effbc83e2efce87d7382eb01b2cff8e7d464/analysis/1407350289/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Companion%20Share%20and%20Recruit-29836-1-0.zip?fid=1000001931&ttl=1535804283&ri=8192&rs=8192&setec=5b2cc52adcf8f4d6123b2e8623fb06f5"
+    },
+    {
+      "fileId": "1000031273",
+      "name": "Companion Share and Recruit",
+      "version": "1.2",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "282",
+      "fileName": "Companion Share and Recruit-29836-1-2.zip",
+      "uploadedUnix": "1369426634",
+      "modVersion": "1.2",
+      "virusScanUrl": "https://www.virustotal.com/file/3493e9fe60ad4f1b346eba507d7129476d0697438ec70020ec850f943a896c11/analysis/1407580505/",
+      "changelogHtml": " Switched shout teaching to presets <br/> \n Fixed over-enthusiastic horse riding <br/> \n Added Quick Favours (hold Use whilst using command power to skip straight to favours) <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Companion%20Share%20and%20Recruit-29836-1-2.zip?fid=1000031273&ttl=1535804284&ri=8192&rs=8192&setec=257e62c3567e1e96a85f00477de09637"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 88358.0,
+  "modName": "Dummy MO for PapyrusCompilerPlus",
+  "summary": "Fix for users of PapyrusCompilerPlus (1.2) + Mod Organizer (1.3.X)",
+  "descriptionHtml": "[size=3]If you use [url=https://www.nexusmods.com/skyrim/mods/74672/]PapyrusCompilerPlus 1.2[/url] with Mod Organizer 1.3.X, you can see that when you check \"[/size][size=3]Automatically add active sources\" option, you get mod-order in PCP like [url=http://i.imgur.com/SXdXOBE.png]this[/url]﻿. Looks like everything is fine, but actually it's not. The real mod import order in PCP is inverted, so mods at top of the list have higher priority. I've noticed this when get [url=http://i.imgur.com/QdUjC6y.png]some errors[/url]﻿. Yeah, there are no SKSE functions in my PCP mod-order, because vanilla scripts are at top and overwrite their SKSE versions.\n<br />\n<br />If you try to solve this issue via inverting modlist in MO (you can't do it in PCP auto-mode), your PCP [url=http://i.imgur.com/R1nJXQU.png]will work fine[/url] but MO (and game too) will be totally crazy-broken.\n<br />\n<br />While Amadar re-build his PapyrusCompilerPlus, I've decided to fix this via some kind of pseudo-MO, that has the same modorder as your main - but inverted. So, this is the \"Dummy MO\". Note: it's only a temporary solution, we all should wait for Amadar's fix.\n<br />\n<br />Attention: it works only if you have your \"mods\" folder in main MO folder (portable instance). Well, I don't know any good reason to transfer it.\n<br />\n<br />Installation process is in Readme, read it carefully!\n<br />\n<br />Requirements:\n<br />[url=https://www.nexusmods.com/skyrim/mods/1334/]MO 1.3.11[/url] or [url=https://www.nexusmods.com/skyrimspecialedition/mods/6194/]MO 1.3.X (Legacy)[/url]\n<br />[url=https://www.nexusmods.com/skyrim/mods/74672/]PCP 1.2[/url][/size]",
+  "categoryId": "39",
+  "version": "Final",
+  "author": "Meridiano",
+  "createdUnix": "1513022448",
+  "updatedUnix": "1513022448",
+  "containsAdultContent": false,
+  "uploadedBy": "MeridianoRus",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000261786",
+      "name": "Dummy MO for PCP",
+      "version": "Final",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1157",
+      "fileName": "Dummy MO for PCP-88358-Final.7z",
+      "uploadedUnix": "1513022416",
+      "modVersion": "Final",
+      "virusScanUrl": "https://www.virustotal.com/file/855d7afa3f0962f949c411bbc63acf412e970c68a3a99448e95aa2537a2b7a26/analysis/1513022466/",
+      "changelogHtml": " First and final release with no changes in future.\n<br />When PCP will be fixed, this addon become obsolete. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dummy%20MO%20for%20PCP-88358-Final.7z?fid=1000261786&ttl=1535877517&ri=8192&rs=8192&setec=1a27f28ffd5da1ebe7e8c70a33d50995"
+    }
+  ]
+}

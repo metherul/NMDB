@@ -1,0 +1,32 @@
+{
+  "modId": 79995.0,
+  "modName": "Whiterun texture memory usage reduction",
+  "summary": "A mod that fixes a texture duplicate in Whiterun. Spares VRAM utilization. When using 4k textures, anything helps. ",
+  "descriptionHtml": "So, I was checking 4k textures for my Skyrim, particularly Whiterun. I&#39;m digressing already... And In the process of choosing I found out that there&#39;s two identical textures with different names to them, so I wondered, what could possibly  make bethesda waste memory (specially when they were porting this game to consoles) with an unnecessary exact copy of a texture and tie it to a SINGLE mesh in the game? Why not just link the mesh with the original texture instead and by doing that sparing Vram? Answer? There isn&#39;t. It&#39;s an exact duplicate of another texture, it has no purpose other than it being a huge mistake by bethesda, both the &#34;wrstonefloor01&#34; and &#34;wrstonefloor01_n&#34; are only used by one mesh &#34;wrgreathouseplatform02&#34;. Funnily enough, it&#39;s the &#34;wrstonefloor02&#34; that is the main texture, for the ground in Whiterun, not \r<br />&#34;wrstonefloor01&#34;. Making me believe that they made the texture & linked it to one mesh first, then copied it for SOME REASON and applied it to pretty much every mesh in Whiterun (ground meshes that is) instead of using the base texture instead. Figures...\r<br />\r<br />\r<br />I&#39;ve created an 8K texture to see if by swapping the texture this mesh used, it would not be loaded by the game. It was 8k so I could clearly notice when it was loaded and when wasn&#39;t, because it would occupy 150+ MB of VRAM (~75MB EACH). YES, it IS only ONE single mesh that uses this texture, wich is a duplicate of another texture. This texture is not used in Whiterun, at all, or byany other mesh in the game as far as I know because it&#39;s a very characteristic texture from Whiterun. So yeah it was using VRAM when it didn&#39;t need to.\r<br />\r<br />[color=#ff7700]\r<br />[size=5]Conclusion: [/size][/color]\r<br />When using the &#34;aMidianBorn Whiterun 2k&#34; mod, these 4 of these textures would use up to 40 MB of VRAM. Now the game uses 20.\r<br />When using the &#34;[url=http://www.nexusmods.com/skyrim/ajax/downloadfile?id=1000094066]Texture Whiterun street[/url] (optional file)&#34; from the &#34;4K Parallax Skyrim by Pfuscher&#34;&#34; mod, these 4 textures used 64 MB of VRAM. Now the game only uses 32.\r<br />\r<br />[size=3]So yeah, now a 4k retexture of the ground in Skyrim will use [color=#6aa84f]LESS 8 MB of VRAM than if you used a 2k retexture WITHOUT my mod.[/color] - Pretty cool huh?[/size]",
+  "categoryId": "29",
+  "version": "1.1",
+  "author": "DDVIL",
+  "createdUnix": "1478349143",
+  "updatedUnix": "1478352542",
+  "containsAdultContent": false,
+  "uploadedBy": "DDVIL",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000226998",
+      "name": "Whiterun Vram Texture Mod",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "124",
+      "fileName": "Whiterun Vram Texture Mod-79995-1-1.rar",
+      "uploadedUnix": "1478352542",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/d33724885a362fd3f322caf76ba7b8fe0f5d6650b837a2264c91c1d077b954cf/analysis/1478352604/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Whiterun%20Vram%20Texture%20Mod-79995-1-1.rar?fid=1000226998&ttl=1535868646&ri=8192&rs=8192&setec=66d0ce6dd7847e507817d6b8b6e397f2"
+    }
+  ]
+}

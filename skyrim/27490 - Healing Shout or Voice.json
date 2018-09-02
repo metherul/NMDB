@@ -1,0 +1,48 @@
+{
+  "modId": 27490.0,
+  "modName": "Healing Shout or Voice",
+  "summary": "a Shout that Heals you and your allies",
+  "descriptionHtml": "[img]http://static.skyrim.nexusmods.com/mods/images/27490-2-1354089198.jpg[/img]\r\nHealing Voice\r\na request by Nimbus21\r\n\r\nAdds a Shout named \\\"Healing Voice\\\" that heals you and your allies, each word added to the Shout increases the amount of health you regain but each word added to the shout makes the recharge time longer\r\n\r\n= Stats\r\n- 1st Word - 50 hp / 15 seconds\r\n- 2nd Word - 100 hp / 25 seconds\r\n- 3rd Word - 200 hp / 35 seconds\r\n\r\n= Installation \r\n- Just paste the ESP in your Data folder and activate ESP\r\n\r\n= How to obtain Shout\r\n- to add the Shout bring up the console (to open the console press ~)\r\n- type help \\\"Healing Voice\\\" \r\n- some numbers and words will appear on the console like SHOU: (d000d68) \\'Healing Voice\\'\r\n- now type player.addshout (numbers), example = player.addshout d000d68\r\n- so now you\\'ve obtain the Shout, all you need to do next is to find the words Laas/Life, Slen/Flesh and Haas/Health in dungeon, caves etc.\r\n- check the images for more details\r\n\r\n= Changelog\r\n- v1 initial Release\r\n- v1.1 the Shout also heals your allies around you and your character shouts the words now\r\n\r\n= Possible Future Updates/Additions and Changes\r\n- Make the Shout obtainable through a Word Wall or Book or Altar\r\n\r\n= Notes\r\n- requires Dawnguard DLC\r\n- your character will only say the words if you use all 3 words but the shout will still work even if you just use 1 or 2 words, he just won\\'t say it\r\n- does not heal robot, undead and daedra allies\r\n\r\n=== Check out these sites to find more of my mods and video demos ===\r\nhttp://www.youtube.com/user/gh0strec0n141\r\nhttp://ghostrecon123skyrimmods.blogspot.com/\r\n\r\n= SPOILERS =\r\n- if you just want to get the words quickly just type the following in the console\r\nplayer.teachword 60294\r\nplayer.teachword 602a4\r\nplayer.teachword XX008a63\r\n- XX means the load order of Dawnguard.ESM, so if your Dawnguard.ESM is second in the load order then replace XX with 02\r\n- adding the words by console might cause bugs though, i\\'m not really sure so use those commands at your own risk or just find the words in caves and dungeons normally to avoid bugs",
+  "categoryId": "75",
+  "version": "1.1",
+  "author": "ghostrecon123",
+  "createdUnix": "1354043178",
+  "updatedUnix": "1354089465",
+  "containsAdultContent": false,
+  "uploadedBy": "ghostrecon123",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "101957",
+      "name": "v1",
+      "version": "1",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1",
+      "fileName": "v1 main file-27490-1.rar",
+      "uploadedUnix": "1354043222",
+      "modVersion": "1",
+      "virusScanUrl": "https://www.virustotal.com/file/cbd9f03165d829d2613fbffde738855c9d15cf8263db3be5713dfbb1a6af9236/analysis/1407280819/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/v1%20main%20file-27490-1.rar?fid=101957&ttl=1535800262&ri=8192&rs=8192&setec=9861e3a3f7bafafa32ca5201086f2a77"
+    },
+    {
+      "fileId": "102044",
+      "name": "v1dot1 main file",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "140",
+      "fileName": "v1dot1 main file-27490-1-1.rar",
+      "uploadedUnix": "1354089465",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/87c9a014118265fe9ef7f711c539a56f199347a6f5b24e2eedcc46c2567d4fea/analysis/1407281530/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/v1dot1%20main%20file-27490-1-1.rar?fid=102044&ttl=1535800263&ri=8192&rs=8192&setec=9b83291e2b0deca1cb73a030f32617a0"
+    }
+  ]
+}

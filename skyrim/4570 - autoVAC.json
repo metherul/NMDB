@@ -1,0 +1,32 @@
+{
+  "modId": 4570.0,
+  "modName": "autoVAC",
+  "summary": "An addon to Thu\\'uMic.\r\nThis will auto enable and disable the \\\"VAC System\\\" when in combat and out of combat.\r\n",
+  "descriptionHtml": "This is an addon to [url=file.php?id=3251]\\\"ThuuMic - Real Life Dragon Shouts by DeadlyAzuril and PsychoHampster\\\"[/url].\r\n\r\nIt is programmed to activate the \\\"VAC System\\\" when the player is in combat and then disable it once out of combat.\r\n\r\nJust so there won\\'t be any sudden shouts going on here and there form sneezing and stuff like that.\r\n\r\nIt doesn\\'t really know to activate the \\\"VAC System\\\" but instead it knows to press the keys you choose as the \\\"Select key set for VAC On/Off Switch\\\".\r\n\r\nYou need to specify it in the VAC builder under \\\"Select key set for VAC On/Off Switch\\\" and also  in the \\\"autoVAC.ini\\\" file.\r\n\r\nThu\\'uMic has \\\"Left Alt + Down Arrow\\\" set as a default, so that\\'s what this mod has as default as well.\r\nIf you need to, change it in the .ini file to whatever you have under \\\"Select key set for VAC On/Off Switch\\\" in the \\\"VAC Builder\\\".\r\n\r\n[color=\\\"#00FF00\\\"][u]How to install[/u][/color]\r\n1. You must have Script Dragon installed for this to work.\r\nBut you probably already got it if you have Thu\\'uMic.\r\n[u]http://alexander.sannybuilder.com/?category=other&altname=skyrim_script_dragon[/u]\r\n\r\n2. Copy both the .dll file and the .ini file from the archive into your skyrim folder (not data folder).\r\n\r\n3. Make sure the \\\"Select key set for VAC On/Off Switch\\\" in the \\\"VAC Builder\\\" has the following combination:\r\n\\\"L-ALT + DOWN_ARROW\\\" (or choose any other combination that suites you, just make sure to change it also in the .ini file)\r\n\r\n4. Launch Skyrim while the \\\"VAC System\\\" is set to \\\"Off\\\".\r\n\r\n[color=\\\"#FF0000\\\"]IMPORTANT![/color]\r\nYou must launch the game while VAC is set to \\\"Off\\\".\r\nJust load a profile and leave it there, without turning the \\\"VAC System\\\" on (indicated by a little green circle on the icon of \\\"VAC System\\\").\r\n\r\nWhy is that so?\r\nBecause this little script is just pressing the keys you specify for it, it will not know if the \\\"VAC System\\\" is already on or already off, it will only know to switch it, either on or off, depending on the situation (in combat or not).\r\n\r\nHave fun!\r\n",
+  "categoryId": "39",
+  "version": "0.1",
+  "author": "Sagi",
+  "createdUnix": "1324833990",
+  "updatedUnix": "1324836673",
+  "containsAdultContent": false,
+  "uploadedBy": "Sagiy19",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "13773",
+      "name": "autoVACv01",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "164",
+      "fileName": "autoVACv01-4570-0-1.rar",
+      "uploadedUnix": "1324836673",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/a20be814ec9ed6e540c39909aa9bb63dcad8907aa02d9e08cba3ffc1146b5b46/analysis/1406557501/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/autoVACv01-4570-0-1.rar?fid=13773&ttl=1535760467&ri=8192&rs=8192&setec=16462bd9b3d3477b2154cc36076ff3ab"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modId": 18337.0,
+  "modName": "Dragon dies on Touchdown - Fix - Beta",
+  "summary": "A simple fix to the glitch, where a Dragon on full health dies the moment he touches the ground.",
+  "descriptionHtml": "[b]Description[/b]\r\n\r\nThis is a rather simple fix to a longknown bug.\r\nThanks to [url=http://skyrim.nexusmods.com/modules/members/index.php?id=98083]Wubbledee[/url] for pointing me in the right direction.\r\n\r\nThere is an event, where some reamins of a dragon attack are meant to spawn. Including a carriage, a surviving dog and a dead dragon.\r\nHowever in vanilla, this dragon spawns sometimes alive and somehow seeming disoriented. I think this is casued by the fact, that the quests uses\r\na normal dragon, which has his scripts which prevent him from spawning dead. This results in a dragon who flies around and attacks stuff and then\r\nhe suddenly dies as soon as he touches the ground.\r\n\r\nAll i did was making a copy of one of the existing vanilla NoScript-dragons, removed the actorbase, removed the AI-Packages and assignet him to the quest.\r\nThis should make him spawn dead as he should.\r\n\r\n\r\nAs this is a very rare event to happen at all, and possibly the dragon sometimes spawns dead as it should, it\\'ll be pretty hard to tell if this fix actualy works.\r\n\r\nFor that reason, i decided to give him a name to make him unique and recognizeable. In the current beta-version he\\'ll be called \\\"Crashtest-Dummy\\\".\r\n\r\nAt this point, i have severall request:\r\n\r\n1. Please report every \\\"Crashtest-Dummy\\\" you spot flying around in the air.\r\n2. Please report every dragon who dies on touchdown and is not called \\\"Crashtest-Dummy\\\".\r\n3. Please report if you find dead Crashtest-Dummys lying around dead as they should be.\r\n4. If anyone knows a way how to force an event to happen via the console, this would be most welcome!\r\n\r\n5. Please tell me how to translate \\\"Dragon\\\" to your native language.\r\nFor now i got:\r\nDragon - English\r\nDragon - Français\r\nDrachen - Deutsch\r\nDrago - Italian\r\n\r\n\r\n-> When i get enough of this informations, i\\'ll upload a final version of this mod, hopefully providing esp\\'s for\r\na lot of localisations, where \\\"Crashtest-Dummy\\\" is called \\\"Dragon\\\" again.\r\n\r\n\r\nShouldn\\'t interfere with anything.",
+  "categoryId": "95",
+  "version": "beta",
+  "author": "Alina Halo",
+  "createdUnix": "1339015144",
+  "updatedUnix": "1339015387",
+  "containsAdultContent": false,
+  "uploadedBy": "alinahalo",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "66399",
+      "name": "Dragon dies on Touchdown - Fix - Beta",
+      "version": "beta",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Dragon dies on Touchdown - Fix - Beta-18337-beta.zip",
+      "uploadedUnix": "1339015387",
+      "modVersion": "beta",
+      "virusScanUrl": "https://www.virustotal.com/file/0887976ce7db0233d66ffda5e0d8af0afed11b63c21a07bb44b0e3c6702ad0ed/analysis/1406943302/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Dragon%20dies%20on%20Touchdown%20-%20Fix%20-%20Beta-18337-beta.zip?fid=66399&ttl=1535785111&ri=8192&rs=8192&setec=d42cc6ab02dc19801ea4dddc04e20f57"
+    }
+  ]
+}

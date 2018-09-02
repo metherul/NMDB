@@ -1,0 +1,15 @@
+{
+  "modId": 79900.0,
+  "modName": "Equal Racial Speed (Special Edition)",
+  "summary": "Makes all races move at the same speed regardless of height.  No character is slower than another.",
+  "descriptionHtml": "Makes each race in Skyrim move at the same speed of an altmer regardless of height rather than being slower if they were shorter.\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;In vanilla Skyrim, each race has a scale which multiplies their height (the default scale being 1.0) but also has the side effect of multiplying their speed as well.  This means that an Altmer with a scale of 1.08 is slightly faster than a female Khajiit with a scale of 0.95.  This difference is small, but to me it&#39;s actually rather noticeable, and I keep not wanting to play as the shorter races because they feel slower.\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;This mod aim to fix this issue by giving each race a slight speed bonus to compensate for their scale, making each have an effective speed of 1.08.\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;To facilitate this fix, I&#39;ve also made it so that males and females of the same race have the same scale.  This effects Khajiit (now 1.0), Redguards (now 1.0), Argonians (now 1.0), Bretons (now 0.98), and Bosmer (now 0.95).  So make sure this is loaded after any other mod that might change scale.\r<br />&lt;br /&gt;&lt;br /&gt;\r<br />&lt;br /&gt;&lt;br /&gt;Notes: since this works by adding abilities to preexisting races (and their vampire counterparts) this means that any custom race added will not gain any sort of speed bonus to compensate for their height.\r<br />&lt;br /&gt;&lt;br /&gt;I probably could have made it so that each race moves at 1.0, but I like being faster rather than slower.\r<br />&lt;br /&gt;&lt;br /&gt;Although the base game has no fortify speed effect, any fortify speed effect added by another mod will still be slightly more effective on races with a higher scale.",
+  "categoryId": "28",
+  "version": "1.0",
+  "author": "Squid AKA Lorkrish",
+  "createdUnix": "1478015320",
+  "updatedUnix": "1478015320",
+  "containsAdultContent": false,
+  "uploadedBy": "Lorkrish",
+  "primaryFile": null,
+  "files": []
+}

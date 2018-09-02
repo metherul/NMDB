@@ -1,0 +1,32 @@
+{
+  "modId": 48748.0,
+  "modName": "Paradise Halls Addon - More Slaves",
+  "summary": "Increases the slave limit in Paradise Halls v0.7.3 from 15 to 50.",
+  "descriptionHtml": "[b]EDIT[/b]: I&#39;ve been MIA on this for quite awhile and basically just comes as is, don&#39;t plan on continuing it. As an alternative I do suggest Paradise Halls SLextension which bumps up the slave limit to 50 plus other goodies added in. Google search it up, its not on nexus.\r<br />\r<br />Just a small plugin file that increases the number limit of slaves that you can have in Paradise Halls v0.7.3 from 15 to 50. I don&#39;t think I&#39;ll increase the limit any further as its pretty tedious work just to do this many. Place after paradise_halls_fellglow_slaver_camp.esp\r<br />\r<br />[b]Known Issues[/b]: \r<br />You might have to start a new game or from a hard save before you installed Paradise Halls and/or activated it. Since it seems like Paradise halls won&#39;t recognize that it has more slaves it can add.\r<br />\r<br />Possible fix for this suggested in posts:\r<br />1. Save your game with Paradise Halls, and then exit the game\r<br />2. Untick Paradise Halls from your mod list. Start Skyrim, load your saved game\r<br />2. Save your game without Paradise Halls, and then exit the game\r<br />3. Tick Paradise Halls and MoreSlaves (this mod). Start Skyrim, load your saved game without Paradise Halls.\r<br />4. Cast the Reboot spell and everything should work properly.\r<br />(You will have to re-enslave everyone you presently have with this method more then likely.)\r<br />\r<br />Can try to use the reboot spell to see if it will go after that but not guaranteed to work. Type in help reboot in the console. Then player.addspell and insert the spell form ID. Which is also helpful if you can&#39;t enslave anyone, get the enslave menus, use alternative start or similar mods, etc...",
+  "categoryId": "66",
+  "version": "1.0",
+  "author": "Xorgroth",
+  "createdUnix": "1386845462",
+  "updatedUnix": "1386845454",
+  "containsAdultContent": false,
+  "uploadedBy": "xorgroth",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000086444",
+      "name": "MoreSlaves",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "8",
+      "fileName": "MoreSlaves-48748-1-0.zip",
+      "uploadedUnix": "1386845454",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/38d551008a6fe56609b840e9867041168cc55dfd7d32d4273254b7565ca26b57/analysis/1407832570/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/MoreSlaves-48748-1-0.zip?fid=1000086444&ttl=1535829114&ri=8192&rs=8192&setec=ca26670234ddd9bce2612bbe0291e595"
+    }
+  ]
+}

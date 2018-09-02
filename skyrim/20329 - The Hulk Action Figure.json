@@ -1,0 +1,48 @@
+{
+  "modId": 20329.0,
+  "modName": "The Hulk Action Figure",
+  "summary": "Adds a Hulk Action Figure into the game.\r\nOptional File With Pickup Sound Effect Available",
+  "descriptionHtml": "[center]The Hulk Action Figure\r\n\r\n[img]http://static.skyrim.nexusmods.com/mods/images/20329-1-1342054070.png[/img]\r\n\r\nDescription:\r\n============\r\n\r\nSimply put.\r\n\r\nAdds The Hulk Action Figure into the game\r\n\r\n(This is my first mod so i thought i would start with something simple)\r\n\r\n===============\r\nInstallation:\r\n===============\r\n\r\nInstall With NMM\r\n\r\nOr\r\n\r\n1. Extract the contents into your Data Folder\r\n2. Enable the .esp\r\n\r\nIngame\r\n===============\r\n\r\nLoad Console\r\nType help hulk\r\nshould see: MISC: (xxxxxxxx) \\\"Hulk Action Figure\\\"\r\nplayer.additem xxxxxxxx 1\r\n\r\nWill be located in Inventory | Misc\r\n\r\n=================\r\nUn-Installation:\r\n=================\r\n\r\nUninstall using NMM\r\n\r\nOr\r\n\r\nDelete the following:\r\n\r\nData\\\\ *xhulk.esp*\r\nData\\\\meshes\\\\ *clutter\\\\toy\\\\The Hulk*\r\nData\\\\textures\\\\ *clutter\\\\toy\\\\The Hulk*\r\n\r\nIf you picked up the Optional File, must delete\r\n\r\nData/sound/fx/ *hulk.esp/* as well\r\n\r\n=================\r\nUpdate 7-15-12\r\n=================\r\n\r\n*Optional File Added*\r\n\r\n[youtube]8lSwsGkQffE?hd=1&feature=player_embedded[/youtube]\r\n\r\n=================\r\nCredits:\r\n=================\r\n\r\n[url=http://thefree3dmodels.com/index/8-667]3dregenerator[/url]\r\n-for providing the model and texture-\r\n\r\n[url=http://skyrim.nexusmods.com/users/1050456]Lateraliss[/url]\r\n[url=http://skyrim.nexusmods.com/users/3076419]Nightasy[/url]\r\n-For Providing Great Tutorials-\r\n\r\n[url=http://skyrim.nexusmods.com/users/131368]micalov[/url]\r\n-For Helping Me Create World Model Meshes-\r\n\r\n[url=http://skyrim.nexusmods.com/users/2351500]PlayerTwO[/url]\r\n-For Adding the Optional File with sound-\r\n\r\nand of course\r\n\r\n[url=http://www.bethsoft.com]Bethesda[/url]\r\n&\r\n[url=http://marvel.com]Marvel[/url]\r\n\r\n[/center]",
+  "categoryId": "27",
+  "version": "0.2",
+  "author": "Xrated",
+  "createdUnix": "1342053615",
+  "updatedUnix": "1342366843",
+  "containsAdultContent": false,
+  "uploadedBy": "Xrated",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "73729",
+      "name": "The Hulk Action Figure",
+      "version": "0.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "877",
+      "fileName": "The Hulk Action Figure-20329-0-1.zip",
+      "uploadedUnix": "1342056286",
+      "modVersion": "0.1",
+      "virusScanUrl": "https://www.virustotal.com/file/55f748e7787c1d7d5de0837bb00138aec9f40d5c7529ceec99b920f3a2b29513/analysis/1407017164/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/The%20Hulk%20Action%20Figure-20329-0-1.zip?fid=73729&ttl=1535788405&ri=8192&rs=8192&setec=636106dae82caba7facc0b5b10bafaf5"
+    },
+    {
+      "fileId": "74470",
+      "name": "The Hulk Action Figure with sound",
+      "version": "0.2",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1037",
+      "fileName": "The Hulk Action Figure with sound-20329-0-2.zip",
+      "uploadedUnix": "1342366843",
+      "modVersion": "0.2",
+      "virusScanUrl": "https://www.virustotal.com/file/7f2c91fc2a0b79867e3f49c29c345b0972b5f295decebc25b0d263b7bd6f85ba/analysis/1407024244/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/The%20Hulk%20Action%20Figure%20with%20sound-20329-0-2.zip?fid=74470&ttl=1535788406&ri=8192&rs=8192&setec=03a93a0687e47599f65add20f90f288b"
+    }
+  ]
+}

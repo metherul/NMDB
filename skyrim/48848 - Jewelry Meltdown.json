@@ -1,0 +1,32 @@
+{
+  "modId": 48848.0,
+  "modName": "Jewelry Meltdown",
+  "summary": "Melt down your rings and necklaces",
+  "descriptionHtml": "[heading] With this little mod you can melt down your rings and necklaces.  [/heading] \r<br />Primary use is for stolen ones, but it works with every regulary jewelry (gold and silver rings/necklaces) even the enchanted ones. \r<br />\r<br />Jewelry with a stone can be recycled at the forge, you&#39;ll get the stone in correct quantity. If it&#39;s a jewelry without stone you can melt it down in the melter and you&#39;ll get ore.\r<br />\r<br />[list] \r<br />[*]It doesn&#39;t use any scripts, is very simple and should be compatible with every mod.\r<br />[*]It doesn&#39;t use custom text, so it should be fully compatible with all your language versions.\r<br />[/list] \r<br />Best to use together with an inventory mod with sort function like [b]SkyUI[/b].\r<br />\r<br />[color=red] [b]CAUTION:[/b][/color] \r<br />It needs a little trick to seperate your regular items from your stolen ones. If you don&#39;t seperate them you&#39;ll melt down your regular items, and most of the time you don&#39;t want this.\r<br />How to do this is descriped under the instalation section.\r<br />\r<br />[line]\r<br />\r<br />====== Instalation ======\r<br />\r<br />NMM:[list] \r<br />[*] Download the mod and activate it, move at the end of your load order.\r<br />[/list] \r<br />Manual:[list] \r<br />[*] Download the mod, open the archive and unpack the only file in the data folder into your data folder of your Skyrim installation path.\r<br />[/list]\r<br />[line]\r<br />\r<br />====== Comments ======\r<br />\r<br />To melt down only your stolen jewelry with the help of SkyUI and two containers do the following steps:[list]\r<br />[*]in the options of your SkyUI under general configure the &#34;Quantity Menu min Count&#34; to something like 20.\r<br />[*]open 1. container, sort your inventory to show your stolen parts at the top\r<br />[*]put your stolen jewelry into the container piece by piece. Because your stolen items are on top of the stack and you put only one piece by time into the container, your item-stack will jump down when all your stolen items are transfered.\r<br />[*]open 2. container and put your remaining jewelry into this one.\r<br />[*]now grap your stolen jewelry from your first container again.\r<br />[/list] \r<br />now there should be only stolen jewelry in your inventory. You can melt it down and recycle them :-)\r<br />\r<br />[line]\r<br />\r<br />====== TODO ======[list]\r<br />[*] use only stolen items in the crafting menu [/list]",
+  "categoryId": "24",
+  "version": "1.0",
+  "author": "bastrath",
+  "createdUnix": "1387114097",
+  "updatedUnix": "1387120188",
+  "containsAdultContent": false,
+  "uploadedBy": "bastrath",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000086881",
+      "name": "Jewelry Meltdown",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Jewelry Meltdown-48848-0-8-4.7z",
+      "uploadedUnix": "1387120188",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/e443d67dac2f048b0fb653ac67c45c621157a41bc38fd72eb825db5e0ebdb8ce/analysis/1407843428/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Jewelry%20Meltdown-48848-0-8-4.7z?fid=1000086881&ttl=1535829275&ri=8192&rs=8192&setec=c7a643567dbf7597cc690bcbfb5ed661"
+    }
+  ]
+}

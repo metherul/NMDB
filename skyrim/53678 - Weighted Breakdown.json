@@ -1,0 +1,48 @@
+{
+  "modId": 53678.0,
+  "modName": "Weighted Breakdown",
+  "summary": "Weighted Breakdown allows you to breakdown weapons and armor into their component parts based on the weight of the given item. This mod does not use recipes, but rather relies on keywords to breakdown the items. Since the mod uses keywords 3rd party mods are usually supported without a patch. ",
+  "descriptionHtml": "[center][url=https://www.youtube.com/user/GrantizEN/videos][img]http://i.imgbox.com/bY3cutRO[/img][/url][/center]\r<br />\r<br />[center][img]http://i.imgbox.com/nDRfz3qP[/img][/center]\r<br />\r<br />[color=red]SKSE Required[/color]\r<br />[color=red]SkyUI Required[/color]\r<br />[color=#FFC90E]Dawnguard Optional[/color]\r<br />[color=#FFC90E]Dragonborn Optional[/color]\r<br />\r<br />Weighted Breakdown allows you to breakdown weapons and armor into their component parts based on the weight of the given item. This mod does not use recipes, but rather relies on keywords to breakdown the items. Since the mod uses keywords 3rd party mods are usually supported without a patch. \r<br />\r<br />CONTENTS\r<br />[color=#FFC90E]--Features[/color]\r<br />Summary of Features\r<br />[color=#FFC90E]--Requirements and Installation[/color]\r<br />--------Requirements\r<br />--------Installation though Nexus Mod Manager\r<br />--------Installation without Nexus Mod Manager\r<br />[color=#FFC90E]--Compatibility[/color]\r<br />--------Information\r<br />--------Skyrim Redone\r<br />[color=#FFC90E]--Other Information[/color]\r<br />--------Credits (Thanks Everyone)\r<br />\r<br />[center][img]http://i.imgbox.com/3IQ129nV[/img][/center]\r<br />\r<br />*Contains NO recipes all breakdowns are done by adding Weapons and Armor to the Smelter/Tranning Rack\r<br />*Breaking Down equipment is based from keywords and the weight of the item.\r<br />*Several Options in the MCM to adjust gameplay\r<br />*Support for almost all third party mods\r<br />*Univerial Storage - Store ingots and crafting materials at the Smelter or Tanning rack which can be claimed at any other smelter or tanning rack. (optional)\r<br />*Item can only be broken down if you have the correct smithing skills (optional)\r<br />\r<br />[color=#FFC90E]MCM Menu options explained:[/color]\r<br />(from top to bottom)\r<br />\r<br />[color=#FFC90E]Smithing Skill Requirement:[/color]\r<br />Allows you to bypass the smithing perk requirements and breakdown items at your whim.\r<br />\r<br />[color=#FFC90E]Smithing Experience:[/color]\r<br />This will give you smithing experience for breaking down items. it uses the same equation that is used to create items, but only returns 1/3 the experience. \r<br />\r<br />[color=#FFC90E]Smithing Multiplier:[/color]\r<br />If you want more ingots returned after breakdown simply increase the multiplier to the desired level. \r<br />\r<br />[color=#FFC90E]Universal Storage:[/color]\r<br />This will allow you to store ingots and ores at the smelter or leather items at the tanning rack. Then you can retrieve these items at any smelter or tanning rack in Skyrim. (Frostfall&#39;s portable tanning rack is excluded.)\r<br />\r<br />[color=#FFC90E]Destroy Dialog box:[/color]\r<br />When you breakdown an item you get a dialog box that displays what will be returned to you after you break it down. This option disables that box and lets you spam the breakdown inventory menu. \r<br />\r<br />\r<br />[center][img]http://i.imgbox.com/FWexWA6B[/img][/center]\r<br />\r<br />[center][color=red]SKSE Required[/color][/center]\r<br />[center][color=red]SkyUI Required[/color][/center]\r<br />[center][color=#FFC90E]Dawnguard Optional[/color][/center]\r<br />[center][color=#FFC90E]Dragonborn Optional[/color][/center]\r<br />\r<br />[center][img]http://i.imgbox.com/Ucd67KH5[/img][/center]\r<br />\r<br />Installation is simple if you are using the Nexus Mod Manager. Simply download the mod using the &#34;Download with manager&#34; button. Follow the prompts and select the one that best supports your needs.\r<br />\r<br />[center][img]http://i.imgbox.com/DNqy6lTx[/img][/center]\r<br />\r<br />Installation without the Nexus Mod Manager is hopefully simple too. Click manual download and open up the zip file and copy the contents to your Skyrim &#34;Data&#34; folder. These folders are for:\r<br />\r<br />WBAllDLC = for users with both dawnguard and dragonborn\r<br />WBDawnguard = for users with only Dqwnguard\r<br />WBDragonborn = for users with only Dragonborn\r<br />WBSkyre = for users of T3ndo&#39;s Skyrim Redone\r<br />WBSkyrim = for users without any DLC\r<br />\r<br />[center][img]http://i.imgbox.com/WFlRijYd[/img][/center]\r<br />\r<br />This mod does not use recipes. Instead it uses keywords that have already been associated with most weapons and armor. This is good because most 3rd party weapons and armor add-ons also contain these same keywords. Therefore no extra patches are needed. \r<br />\r<br />I have added a Skyrim Redone version. This version will hold back the breakdown menus until you have the Meltdown Perk. Otherwise this is the same version as Legendary. \r<br />\r<br />Current ISSUES:\r<br />\r<br />*Currently you can breakdown items enchanted by you without the Arcane Smithing perk. \r<br />*Arrows are not yet supported. will be in the near future.\r<br />\r<br />[center][img]http://i.imgbox.com/FnWaqJE9[/img][/center]\r<br />\r<br />I would like to thank the several people who helped me test this mod in the beginning&#33;\r<br />\r<br />Thynar\r<br />Khenta\r<br />nagothm\r<br />Ogdar\r<br />Jack Wow\r<br />sgtsnorkles\r<br />FenfisSulfr\r<br />physicser\r<br />bal08\r<br />MonoGami\r<br />aderek79\r<br />Sinistas\r<br />thor4506",
+  "categoryId": "24",
+  "version": "1.10",
+  "author": "Grantiz",
+  "createdUnix": "1399077811",
+  "updatedUnix": "1400588277",
+  "containsAdultContent": false,
+  "uploadedBy": "Grantiz",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000107565",
+      "name": "Weighted Breakdown",
+      "version": "1.00",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "1383",
+      "fileName": "Weighted Breakdown-53678-1-00.zip",
+      "uploadedUnix": "1399077793",
+      "modVersion": "1.00",
+      "virusScanUrl": "https://www.virustotal.com/file/0f36eb9136397a891694ccf0979ba39b530ed2cfd78cd6cf07d213606976797c/analysis/1408052164/",
+      "changelogHtml": " Initial release  <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Weighted%20Breakdown-53678-1-00.zip?fid=1000107565&ttl=1535837334&ri=8192&rs=8192&setec=21c93f792d0ee806c30b0bd68295a184"
+    },
+    {
+      "fileId": "1000109763",
+      "name": "Weighted Breakdown",
+      "version": "1.10",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "1383",
+      "fileName": "Weighted Breakdown-53678-1-10.zip",
+      "uploadedUnix": "1400588277",
+      "modVersion": "1.10",
+      "virusScanUrl": "https://www.virustotal.com/file/5c272e68dd328d546b68760b4a246ff07e4a3ab2edb47acda30d2f993c895ffd/analysis/1408086850/",
+      "changelogHtml": " Breaking down Elven Weapons will now report the proper returned crafting material. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Weighted%20Breakdown-53678-1-10.zip?fid=1000109763&ttl=1535837335&ri=8192&rs=8192&setec=21c99c7bd65a88aa9dc32a5f14986367"
+    }
+  ]
+}

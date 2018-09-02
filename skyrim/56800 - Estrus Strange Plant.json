@@ -1,0 +1,48 @@
+{
+  "modId": 56800.0,
+  "modName": "Estrus Strange Plant",
+  "summary": "Add on for EstrusForSkyrim",
+  "descriptionHtml": "[center][size=4]Estrus Plant  [/size][/center]\r<br />This mod uses EstrusForSkyrim to create a &#34;Strange Plant&#34; that captures nearby unwary girls and milks them for their climatic  juices.\r<br />  There are two parts to the mod, zzEstrus.esm/bsa/bsl and BBLuxEStrus.esp.  The first three are the mod itself.  It contains some recolorized world objects, a book and a script.\r<br />\r<br />  You can find them all by visiting zzessptestcell   like:\r<br />  coc zzessptestcell\r<br />\r<br />  Take a female companion with you to see it. Companions will, as part of their default sandbox wander into the danger zone.\r<br />\r<br />  This mod is really nothing.  All the credit goes to [b]Cotyounoyume[/b][b]for his amazing animation work in Estrus as well as his help generally.  THANKS&#33;&#33;[/b]\r<br />\r<br />  Using this mod, I also modified LuxurySuite and added two strange plants near the indoor pool as well as placing a couple  of books.  I also modified three of the actor packages so they are more likely  to stray into plants path around 9PM.\r<br />\r<br />  [size=4]Usage  [/size]\r<br />To use this mod, put a few &#34;attractors&#34; in the zone you are modifying .  Things like idlemarkers, plants with flowers or food and the  like work well to attract NPCs.  Put an xMakerHeading where you want the animation to take place and then surround your zone with  a Trigger to which you have attached the script &#34;zzEsSpStrangePlantIgnore&#34;.  This script requires your xMarkerHeading as a property as well as PlayerRef.  PlayerRef  is cell any-Player.  Again, you can use zEsSPTestCell as an example.  Make sure you put the xMarkerHeading pointing AWAY from where you want ejected male players to land.\r<br />\r<br />  There are several background clutter pieces that you can use to get the color of the background and the Estrus animation to look natural.  The clutter pieces  all start with &#34;Muc&#34; and include mucosBorder1, MucosFloor512, etc.  (Please, I know Musos is spelled mucus.)  The recolorized     deathbell is called TreeFloraStrangePlant.\r<br />   \r<br />  [size=4]Installation[/size]\r<br />  Install just zzEsSp.7z for just the mod itself or zzEsSPLux.7z to get both the mod and the Luxury Suite example. Both can be used with Nexus Mod Manager.  [b]Make sure you are using EstrusForSkyrim version 110 or greater.[/b]  It will not work without it.\r<br />   \r<br />  [size=4]Requirements:[/size]\r<br />  http://www.nexusmods.com/skyrim/mods/33102/?\r<br />  For the luxury suite:\r<br />  http://www.nexusmods.com/skyrim/mods/11427/?\r<br />\r<br />I also want to reiterate that EstrusforSkyrim requires SKSE 1.71.  Make sure you have this version.  Google SKSE 1.71 download and you&#39;ll find it right there.\r<br />\r<br />  Known Issues:\r<br />  1.  Occasionally (like 1 in 3 times), the Estrus spell fails and nothing happens.  Hope to have this fixed sometime soon.  (With SKSE 1.71 this is reduced to like 1 in 5).\r<br />\r<br />2.  &#34;a little sexy apparel replacer - for CBBE/UNP/ADEC&#34; recommended  by Cotyounoyume causes CTDs for me.  Recommend that  you do not use it.  [i] [/i]I have no issues on three test machines without it.  This is likely the result of my skeleton choices or another mod conflict, but it does cause me issues.",
+  "categoryId": "84",
+  "version": ".9",
+  "author": "fishburger67",
+  "createdUnix": "1407453510",
+  "updatedUnix": "1407454649",
+  "containsAdultContent": true,
+  "uploadedBy": "fishburger67",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000121037",
+      "name": "zzEsSp.7z",
+      "version": ".9",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3843",
+      "fileName": "zzEsSp.7z-56800--9.7z",
+      "uploadedUnix": "1407453503",
+      "modVersion": ".9",
+      "virusScanUrl": "https://www.virustotal.com/file/589e602d3fc08696c9c2a75b07359a043bbdd79260474390b08e503c3a264fc8/analysis/1407453552/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/zzEsSp.7z-56800--9.7z?fid=1000121037&ttl=1535842378&ri=8192&rs=8192&setec=f532e86b6c655e535208673dcb8b060e"
+    },
+    {
+      "fileId": "1000121039",
+      "name": "zzEsSPLux.7z",
+      "version": ".9",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "3867",
+      "fileName": "zzEsSPLux.7z-56800--9.7z",
+      "uploadedUnix": "1407454649",
+      "modVersion": ".9",
+      "virusScanUrl": "https://www.virustotal.com/file/dc9f85302301b7b58e57af879787226bc1edc158f0691beea342f662bc5214e3/analysis/1408176017/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/zzEsSPLux.7z-56800--9.7z?fid=1000121039&ttl=1535842379&ri=8192&rs=8192&setec=1b5d14da0e7367f08a15a0b13bdd3a22"
+    }
+  ]
+}

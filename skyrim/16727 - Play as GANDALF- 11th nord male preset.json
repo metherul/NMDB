@@ -1,0 +1,48 @@
+{
+  "modId": 16727.0,
+  "modName": "Play as GANDALF- 11th nord male preset",
+  "summary": "Play as GANDALF! Wisest of the Maiar, and friend to the good people of Middle Earth!",
+  "descriptionHtml": "[u]Description:[/u]\r\nAdds a face that looks remarkably like gandalf to the nord male presets.\r\n\r\nTo use this, you have three options:\r\n(1) Type \\\"showracemenu\\\" in console to change your face without restarting your game from scratch; OR\r\n(2) Create a new character and start from scratch; OR\r\n(3) Put the Level 1 save file I\\'ve provided under \\\"optional files\\\" in your skyrim save file directory to start the game as Gandalf, from after Helgen Keep.\r\n\r\nIf you use one of the first two options, to find the preset in the character face customization dialog, \\\"click on nord\\\", and then move on to \\\"body\\\" options, ensure that you choose \\\"male\\\", and then under \\\"presets\\\", choose the 11th one.\r\n\r\nBased on ubernoobjp\\'s AWESOME video instructions here: http://www.youtube.com/watch?v=Mofn002JgWM\r\n\r\nFeedback and bug reports are appreciated.\r\n\r\n(update: added an save file (under \\\"optional files\\\") with Gandalf as a level 1 character from after the helgen keep area, in case you prefer using that over an .esp file)\r\n\r\n[u]Install:[/u]\r\nextract the gandalfnordmalepreset.esp file into your /Data/ folder within your skyrim directory. To extract it, you may need 7zip if you don\\'t have it already.\r\n\r\n[u]Recommended enhancements:[/u]\r\nYou may also want to look into these various awesome mods:\r\n-Greybeards robes: http://skyrim.nexusmods.com/downloads/file.php?id=781\r\n-Gandalf-esque White robes: http://skyrim.nexusmods.com/downloads/file.php?id=7846\r\n-LOTR Weapons collection including GLAMDRING: http://skyrim.nexusmods.com/downloads/file.php?id=5727\r\n-Gandalf staff: http://skyrim.nexusmods.com/downloads/file.php?id=11956\r\n\r\n[u]Conflicts:[/u]\r\nSince this may conflict if you have another mod that adds or changes the 11th nord male preset, whichever is loaded LAST will take precedence. So if you want gandalf, put this last. If you want the other mod\\'s 11th preset put that one last. ;D\r\n\r\n[u]Credits:[/u]\r\n-ubernoobjp for his AMAZING instructions and design skills: http://www.youtube.com/watch?v=Mofn002JgWM\r\n\r\n[u]How it was done:[/u]\r\n1) I followed ubernoobjp\\'s instructions in his video and made the gandalf face.\r\n2) Learning from brokefoot\\'s NPC Data Export Tutorial (http://skyrim.nexusmods.com/downloads/file.php?id=14193), I typed \\\"spf gandalf\\\" to export his face data to a text file.\r\n3) Opened up the creation kit, found the nord preset files by typing preset under *all in the object window\\'s search bar\r\n4) Duplicated a preset.\r\n5) Modified the duplicated preset to be the 11th preset, and navigated to the \\\"Character Gen Parts Tab\\\", clicked on Import, and imported the gandalf.npc file from before.",
+  "categoryId": "26",
+  "version": "",
+  "author": "face by ubernoobjp and mod by archerkb",
+  "createdUnix": "1336551760",
+  "updatedUnix": "1336592350",
+  "containsAdultContent": false,
+  "uploadedBy": "archerkb",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "59938",
+      "name": "Gandalf Nord Male Preset",
+      "version": "",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Gandalf Nord Male Preset-16727-1.7z",
+      "uploadedUnix": "1336551856",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/40e0322e496cb8541d402f8fa93a015084695a2294b4c838d6ffff78beebe3cb/analysis/1406879942/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Gandalf%20Nord%20Male%20Preset-16727-1.7z?fid=59938&ttl=1535782286&ri=8192&rs=8192&setec=f1d8f8da161c1510aa479640d86037e2"
+    },
+    {
+      "fileId": "60049",
+      "name": "Gandalf Level 1 Save- Just After Helgen Keep",
+      "version": "",
+      "categoryId": "3",
+      "categoryName": "OPTIONAL",
+      "isPrimary": false,
+      "size": "1008",
+      "fileName": "Gandalf Level 1 Save- Just After Helgen Keep-16727-1.7z",
+      "uploadedUnix": "1336592350",
+      "modVersion": null,
+      "virusScanUrl": "https://www.virustotal.com/file/553c9f36826f49c5183dc1c64bf576c892d5f3f29c5bef47ff8475cd159b44de/analysis/1406880852/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Gandalf%20Level%201%20Save-%20Just%20After%20Helgen%20Keep-16727-1.7z?fid=60049&ttl=1535782287&ri=8192&rs=8192&setec=a0b10c4701a59281df72d05821461692"
+    }
+  ]
+}

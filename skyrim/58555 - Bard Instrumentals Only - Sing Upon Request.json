@@ -1,0 +1,48 @@
+{
+  "modId": 58555.0,
+  "modName": "Bard Instrumentals Only - Sing Upon Request",
+  "summary": "Changes a single line of the vanilla bard script so they will only play instrumentals, unless a song with vocals is specifically requested.  Does not edit weddings, quests, AI packages, or anything else.  Minor annoyance I had to fix and thought others may enjoy. Does not gag Bards, as pictured :)  No, ESPs, just a single .PEX file.",
+  "descriptionHtml": "[img]http://i.imgur.com/6u1bPaa.jpg[/img]\r<br />\r<br />\r<br />[center][img]http://i.imgur.com/1wXSO.png[/img][/center]\r<br />\r<br />Tired of hearing the same 3 songs over, and over, and over again?  OK, a whopping FOUR if you&#39;ve completed the main quest.\r<br />\r<br />They annoyed the crap out of me, so I fixed it, and thought others might find it useful.  This mod changes a single line of the vanilla bard script so they will only play instrumentals, unless a song with singing is specifically requested.  This does [u]not[/u] mess with dialogue, weddings, quests, AI packages, or anything else (details below.) and is a single loose file (.PEX) so there are no ESPs.\r<br />\r<br />This does not add a gag to the bards like the pictures show, I just thought that would make a funny image :)\r<br />\r<br />There are a couple mods that do this, but they don&#39;t do it cleanly.  They either mute the sound/voice files, so the bard stands there going through the motions silently, or they modify the scripts in such a way that some bugs and odd behaviors are introduced (not judging, just saying.)\r<br />\r<br />[b]TECHNICAL DETAILS:[/b]\r<br />\r<br />In the BardSongsScript that all bards use, there is a function called GetRandomSong() that is executed when the Bard hits the sandbox marker for playing a song.  Here is what I changed:\r<br />[quote]Original code (songs 1, 2, 3 and 10 are the vocal songs)\r<br />\r<br />[list][*]BardSongToPlay = Utility.RandomInt(2,10)\r<br />[/*][/list]\r<br />Modified code (songs 4 through 9 are instrumentals)\r<br />\r<br />[list][*][size=2]BardSongToPlay = Utility.RandomInt(4,9)[/size][/*]\r<br />[/list][/quote][size=2]That&#39;s it&#33;  When the function is called, it only grabs instrumentals.  This way, all dialog, quests, etc. are completely untouched.\r<br />\r<br />[/size][b]INSTALLATION:[/b]\r<br />\r<br />[b]lilrosaleen[/b] pointed out (thank you&#33;) that MO will warn you that it overwrites files from USKP.  This is correct, as it is a loose .PEX script file.  However, there is now a version available in the main files that includes USKP code up to 2.0.6 so it is fully compatible.  The USKP changes to the Bard script are minor cleanup and bugfixes, and I will keep this up-to-date if/when more USKP fixes are added to that script.",
+  "categoryId": "74",
+  "version": "1.0",
+  "author": "fadingsignal",
+  "createdUnix": "1411967149",
+  "updatedUnix": "1411990905",
+  "containsAdultContent": false,
+  "uploadedBy": "fadingsignal",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000128867",
+      "name": "Bard Instrumentals Only - Sing Upon Request",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Bard Instrumentals Only - Sing Upon Request-58555-1-0.rar",
+      "uploadedUnix": "1411966693",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/51dcee4e893ea9a9f87ad8a1f32bc781dbae57eb278f33ce2acfa19ba34ffd2d/analysis/1411966802/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bard%20Instrumentals%20Only%20-%20Sing%20Upon%20Request-58555-1-0.rar?fid=1000128867&ttl=1535845320&ri=8192&rs=8192&setec=ac355f132b9a382f11af1fa1ba81677d"
+    },
+    {
+      "fileId": "1000128912",
+      "name": "Bard Instrumentals Only - Sing Upon Request - USKP Version",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "7",
+      "fileName": "Bard Instrumentals Only - Sing Upon Request USKP-58555-1-0.rar",
+      "uploadedUnix": "1411990905",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/a33286521adde60a464f61f2c92a3425481483d783f4d49efd8ad137351e089a/analysis/1411990982/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Bard%20Instrumentals%20Only%20-%20Sing%20Upon%20Request%20USKP-58555-1-0.rar?fid=1000128912&ttl=1535845321&ri=8192&rs=8192&setec=d5f79c0f1347a331ca31fafc68d89ed7"
+    }
+  ]
+}

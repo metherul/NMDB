@@ -1,0 +1,48 @@
+{
+  "modId": 46736.0,
+  "modName": "Destruction Scaling for SkyRe",
+  "summary": "Requires SkyRe.\r\nMakes Destruction spell damage increase with skill level, while balancing against SkyRe's original concept and against other magic and combat skills.",
+  "descriptionHtml": "[b][color=#FF0000][size=4]Quick description[/size][/color][/b]\r\n\r\nThis mod aims to introduce Destruction spell scaling in SkyRe, by replacing some SkyRe perks:\r\n- Novice, Apprentice, Adept, Expert and Master Destruction are back to vanilla: 50% reduced casting cost.\r\n- The five ranks of Rash Studies have been replaced by three ranks of \"Destructive Power\":\r\n[list]\r\n[*]Rank 1 (25 Destruction): Destruction spells are a little stronger for each Destruction skill level above 25. Technically speaking: they are 0.8% stronger for each skill level over 25.\r\n[*]Rank 2 (55 Destruction): Destruction spells are stronger for each Destruction skill level. Technically: 0.9% stronger for each skill level.\r\n[*]Rank 3 (85 Destruction): Destruction spells are much stronger for each Destruction skill level. Technically: 1% stronger for each skill level.\r\n[/list]\r\n\r\nSee the detailed Description for insights on why this is balanced.\r\n\r\n\r\n\r\n[b][color=#FF0000][size=4]Version history[/size][/color][/b]\r\n\r\n[b]Version 1.1[/b]\r\nDestructive Power has been slightly tuned down. It now takes three perks instead of two to reach maximum scaling. The remainder of this description has been updated accordingly.\r\n\r\n\r\n\r\n[b][color=#FF0000][size=4]Detailed description[/size][/color][/b]\r\n\r\nT3nd0s has done a great work with his SkyRe, but with such an huge mod it's easy to miss on a few details. Destruction, for example, is quite unbalanced against other magic and combat skills. This mod aims to fix that, by making very few but very important changes.\r\n\r\n\r\n\r\n[b]The problems[/b]\r\n\r\nProblem 1:\r\n- Combat damage increases with perks, skill level, weapons, blacksmithing, poisons, weapon enchantments, fortify skill enchantments/potions.\r\n- Destruction damage only increases with perks (but you need far more perks than with weapon skills in SkyRe), spells (but stronger spells also come with higher mana costs) and fortify skill enchantments/potions.\r\n\r\nProblem 2:\r\n- Combat damage is affected by fatigue, but you're not completely useless when you run out of it.\r\n- Destruction's damage output is limited by your magicka pool. You can't deal damage at all if you run out of magicka. And it regenerates much slower than fatigue.\r\n- Combine this with problem 1, and you obtain that destruction damage is weaker and resource-bound while combat damage is stronger and unbound.\r\n\r\nProblem 3:\r\n- Because of problem 2, a mage must invest a lot into magicka and sacrifice health and survivability. Things get worse in SkyRe because you can't reduce destruction's casting costs through enchantments, and you need 10 perks to achieve the 50% reduction cost.\r\n- A warrior/thief can just put everything into health and stay happy with his 100 fatigue (and also cast the occasional spell with his 100 magicka).\r\n\r\nProblem 4:\r\nLet's talk about other magic skills\r\n- Conjuration is very cheap compared to Destruction... let's think of a creature like an intelligent projectile that deals damage over time and also tanks enemies away. You don't even need to worry about aiming correctly! You spend a little more magicka to cast each spell, but you cast much less spells. So, in the long run, you need much less magicka. And you also need just a few perks to be effective! Finally, you don't need any support skill, because you don't have to worry about taking damage or hiding or anything else.\r\n- I won't talk about Restoration, Illusion and Alteration, but they usually need much less magicka than Destruction.\r\n- Destruction needs TONS of magicka, because you have to spam a spell after the other. Things get even worse in SkyRe, because you need 100 skill level (and 10 perks) to achieve 50% cost reduction! This is crazy! Any other magic skill gets the cost reduction for a certain spell as soon as it reaches its proficiency level (novice, apprentice, etc)!\r\n\r\nCombine all these problems together, and you get a skill that needs lots of magicka (leaving you with little health) and lots of perks to deal limited damage in a limited timeframe (until you eventually run out of magicka).\r\nDestruction sucks! :(\r\n\r\n\r\n\r\n[b]The solutions[/b]\r\n\r\nFirst of all: this is not a mod that makes Destruction super-powerful. It just eases its burden a little. It does this with just two modifications:\r\n\r\nThe 5 \"Rash Studies\" perks are replaced by 3 \"Destructive Power\" perks, which introduce damage scaling:\r\n- [b]Destructive Power rank 1[/b] (25 destruction needed) makes destruction spells 0.8% stronger for each skill level above 25. Spells will be 100% stronger at Destruction 150.\r\n- [b]Destructive Power rank 2[/b] (55 destruction needed) makes destruction spells 0.9% stronger for each skill level (above 0).\r\n- [b]Destructive Power rank 3[/b] (85 destruction needed) makes destruction spells 1% stronger for each skill level (above 0). Spells will be 100% stronger at Destruction 100.\r\n- This introduces automatic damage scaling, similar to combat damage scaling. Note that combat damage scales much less due to the skill level, but it also scales due to weapons, blacksmith, etc.\r\n- This reduces the number of perks needed to be effective with Destruction, so that it can also be used as a support skill.\r\n- This makes spells a little weaker than unmodded SkyRe at lower levels. This is balanced by early access to magicka cost reductions (see the next point)\r\n- This removes Rash Studies. These perks were meant to be the counterparts of basic weapon perks, but these counterparts already existed in the form of the \"proficience\" perks! (Novice Destruction, etc)\r\n\r\nProficience perks (Novice Destruction, etc) are reverted back to vanilla Skyrim.\r\n- This removes damage increase from these perks, because it is already provided through \"Destructive Power\"\r\n- This makes Destruction spells viable at lower levels, just like spells from other schools are\r\n- This should partially address the huge magicka requirements to be proficient with destruction\r\n\r\n\r\n\r\n[b]Some numbers[/b]\r\nCalculations are done assuming appropriate proficience perk has been acquired to cast the given spell.\r\n\r\nLegend:\r\nCost = Casting Cost: how much magicka do I need to cast the spell?\r\nDPS = Damage-Per-Second: how much damage I deal per second?\r\nDPM = Damage-Per-Magicka: how much damage I deal per Magicka point?\r\n\r\n[code]\r\nLevel 15:\r\n- Cost = 100%; DPS = 100%; DPM = 100%; Perks: none\r\n\r\nLevel 30:\r\n- Without mod: cost = 70%; DPS = 135%; DPM = 192%; Perks: 1 x Rash Studies\r\n- With mod _ : cost = 50%; DPS = 104%; DPM = 208%; Perks: 1 x Destructive Power\r\n\r\nLevel 60:\r\n- Without mod: cost = 60%; DPS = 155%; DPM = 258%; Perks: 3 x Rash Studies\r\n- With mod _ : cost = 50%; DPS = 144%; DPM = 288%; Perks: 2 x Destructive Power\r\n\r\nLevel 100:\r\n- Without mod: cost = 50%; DPS = 175%; DPM = 350%; Perks: 5 x Rash Studies\r\n- With mod _ : cost = 50%; DPS = 200%; DPM = 400%; Perks: 3 x Destructive Power\r\n\r\nLevel 150:\r\n- Without mod: cost = 50%; DPS = 175%; DPM = 350%; Perks: 5 x Rash Studies\r\n- With mod _ : cost = 50%; DPS = 250%; DPM = 500%; Perks: 3 x Destructive Power\r\n[/code]\r\n\r\nAs you can see, DPM is always better with the mod. This should help rebalance Destruction against Conjuration.\r\nDPS is worse with the mod at lower levels, but enemies are also weaker, so you should need less firepower. DPS improves a lot at higher levels. This should help rebalance Destruction against combat skills.\r\n\r\n\r\n\r\nThat's all folks!\r\nI want to thank T3nd0s for his wonderful mod, and I hope my minor corrections will help to make it even better!",
+  "categoryId": "93",
+  "version": "1.1",
+  "author": "AG",
+  "createdUnix": "1384030571",
+  "updatedUnix": "1385232089",
+  "containsAdultContent": false,
+  "uploadedBy": "kusanagi97",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000077063",
+      "name": "SkyRe_Destruction_Scaling",
+      "version": "1.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "Destruction_Scaling_for_SkyRe-46736-1-0.7z",
+      "uploadedUnix": "1384029631",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5a513d005a4477e855fc48a816c272effb9a815ba20dc2755c8b6800b33a55f6/analysis/1407786663/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Destruction_Scaling_for_SkyRe-46736-1-0.7z?fid=1000077063&ttl=1535827036&ri=8192&rs=8192&setec=b37dc75c807433772c1404e7e63ced0d"
+    },
+    {
+      "fileId": "1000082219",
+      "name": "SkyRe_Destruction_Scaling",
+      "version": "1.1",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2",
+      "fileName": "SkyRe_Destruction_Scaling-46736-1-1.7z",
+      "uploadedUnix": "1385232089",
+      "modVersion": "1.1",
+      "virusScanUrl": "https://www.virustotal.com/file/a3eea8c9185525d28f8377844a0d4b636856f90a518141792200c2a5c8ef3028/analysis/1407805146/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/SkyRe_Destruction_Scaling-46736-1-1.7z?fid=1000082219&ttl=1535827037&ri=8192&rs=8192&setec=cf79d906247801588d14d4567a591567"
+    }
+  ]
+}

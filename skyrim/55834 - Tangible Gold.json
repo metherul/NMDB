@@ -1,0 +1,48 @@
+{
+  "modId": 55834.0,
+  "modName": "Tangible Gold",
+  "summary": "Tangible Gold makes in-game currency show up in the inventory menu as separate item and in-game currency can be dropped from the inventory menu.",
+  "descriptionHtml": "Author: MrJack\r<br />\r<br />Table of contents\r<br />- Description\r<br />- Requirements\r<br />- Compatibility\r<br />- How to install\r<br />- How to uninstall\r<br />- Known issues\r<br />- Credits\r<br />- How to contact the author\r<br />- Changelog\r<br />\r<br />\r<br />--Description--\r<br />Tangible Gold makes in-game currency show up in the inventory menu as separate item and in-game currency can be dropped from the inventory menu.\r<br />\r<br />\r<br />--Requirements--\r<br />Skyrim (&gt;= 1.9.32.0.8)\r<br />SKSE (Minimum: &gt;= 1.5.11, recommended: &gt;= 1.7.1)\r<br />\r<br />Version 1.5.11 of SKSE is required for basic functionality, but version 1.7.1 is required to support the case where Gold001 is not set as the in-game currency.\r<br />\r<br />\r<br />--Compatibility--\r<br />Changes done to Gold001 by other mods, as long as the change isn&#39;t done at runtime, are compatible. If you have an SKSE version older than 1.7.1, then only weight, name, and value are copied from Gold001. If you have version 1.7.1 (or newer) of SKSE installed, then weight, name, value, and model are copied from the form designated in Default Object Manager as the in-game currency.\r<br />\r<br />\r<br />--How to install--\r<br />1. Extract all files to &#34;SkyrimData&#34; or install with your favorite mod manager.\r<br />2. Activate Tangible Gold.esp.\r<br />\r<br />\r<br />--How to uninstall--\r<br />Uninstalling this mod in the middle of a playthrough is not officially supported. Once the files have been removed, then you should either start a new game\r<br />or revert to a save that has not seen this mod.\r<br />\r<br />Remove the following files:\r<br />&#92;Skyrim&#92;Data&#92;Tangible Gold.esp\r<br />&#92;Skyrim&#92;Data&#92;Tangible Gold.bsa\r<br />\r<br />\r<br />--Known issues--\r<br />The process of copying the name of the in-game currency to the dummy item, which is shown in the inventory, may result in the dummy form having a name with only lower-case letters, upper-case letters, or an unexpected mix of lower-case and upper-case letters. This is due to the way strings are stored by the game engine.\r<br />\r<br />\r<br />--Credits--\r<br />The entire SKSE team for making this mod possible.\r<br />Dienes for helping.\r<br />\r<br />\r<br />--How to contact the author--\r<br />PM MrJack on the official Bethesda forums or mrpwn on Nexus.\r<br />\r<br />\r<br />Other mods:\r<br />[url=http://www.nexusmods.com/skyrim/mods/40953]All Geared Up[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/57873/]Extended UI[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/27153]Field Alchemy[/url]\r<br />[url=http://www.nexusmods.com/skyrim/mods/49994/]Five O&#39;Clock Shadow[/url]",
+  "categoryId": "28",
+  "version": "1.1.0",
+  "author": "MrJack",
+  "createdUnix": "1405016612",
+  "updatedUnix": "1417897863",
+  "containsAdultContent": false,
+  "uploadedBy": "mrpwn",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000116895",
+      "name": "Tangible Gold",
+      "version": "1.0.0",
+      "categoryId": "4",
+      "categoryName": "OLD_VERSION",
+      "isPrimary": false,
+      "size": "4",
+      "fileName": "Tangible Gold-55834-1-0-0.zip",
+      "uploadedUnix": "1405016546",
+      "modVersion": "1.0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/f876981898351a1cfe398f186ad22c4049041f900d11065f2ce0f987b813aa53/analysis/1405016583/",
+      "changelogHtml": " - Initial release. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Tangible%20Gold-55834-1-0-0.zip?fid=1000116895&ttl=1535840822&ri=8192&rs=8192&setec=38a968d619a41d4eb20f87cb75bef1c0"
+    },
+    {
+      "fileId": "1000137968",
+      "name": "Tangible Gold",
+      "version": "1.1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "5",
+      "fileName": "Tangible Gold-55834-1-1-0.7z",
+      "uploadedUnix": "1417897863",
+      "modVersion": "1.1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/474dc3fbe6f7831d12c15b1891bdc6429fc2eee9fec12f9cf89f848243fc19ff/analysis/1417897923/",
+      "changelogHtml": " - Added the ability to drop stacks of gold as a coin purse. Dropping more than 10 coins at once leads to a coin purse being dropped. <br/> \n",
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Tangible%20Gold-55834-1-1-0.7z?fid=1000137968&ttl=1535840823&ri=8192&rs=8192&setec=fcccd4078a75f05847a567b17e4379e8"
+    }
+  ]
+}

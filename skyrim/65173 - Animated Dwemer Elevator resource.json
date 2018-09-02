@@ -1,0 +1,32 @@
+{
+  "modId": 65173.0,
+  "modName": "Animated Dwemer Elevator resource",
+  "summary": "A NIF file, source Blender file and wav file to use to include an animated Dwemer elevator into your own mod.",
+  "descriptionHtml": "This file contains resources for adding a fully animated Dwemer elevator into your own mod.\r<br />\r<br />The files included in the archive are;\r<br />\r<br />dwe_elevator_mesh.nif\r<br />dwe_elevator.blend\r<br />dwe_elevator_sound.wav\r<br />Sound Descriptor Info.rtf\r<br />\r<br />This is *not* a &#39;plug &#39;n play&#39; resource, so some familiarity with nif files, activators, preparing nifs from Blender, and Papyrus scripting is recommended. The elevator nif should be used in an activator, and can be lowered using the Papyrus command\r<br />\r<br />PlayGamebryoAnimation (&#34;ElevatorDown&#34;, True)\r<br />\r<br />and raised using\r<br />\r<br />PlayGamebryoAnimation (&#34;ElevatorUp&#34;, True)\r<br />\r<br />Default position is raised.",
+  "categoryId": "82",
+  "version": "0.0",
+  "author": "Andy",
+  "createdUnix": "1430082618",
+  "updatedUnix": "1430082359",
+  "containsAdultContent": false,
+  "uploadedBy": "AndyW1384",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000157358",
+      "name": "Animated Dwemer Elevator resource",
+      "version": "0.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "2105",
+      "fileName": "Animated Dwemer Elevator resource-65173-0-0.7z",
+      "uploadedUnix": "1430082359",
+      "modVersion": "0.0",
+      "virusScanUrl": "https://www.virustotal.com/file/5ba60a80aa1524e24f63ae5e4c2ca11607334d596790b068be461fc51160b9f0/analysis/1430082424/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/Animated%20Dwemer%20Elevator%20resource-65173-0-0.7z?fid=1000157358&ttl=1535853762&ri=8192&rs=8192&setec=36fbe1c92950a4013057f16fe235a97e"
+    }
+  ]
+}

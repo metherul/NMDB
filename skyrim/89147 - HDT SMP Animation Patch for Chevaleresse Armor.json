@@ -1,0 +1,48 @@
+{
+  "modId": 89147.0,
+  "modName": "HDT SMP Animation Patch for Chevaleresse Armor",
+  "summary": "Thanks yurica for creating such an elegant armor so that I can animate it with HDT-SMP. <br />You will need to download \"Chevaleresse II Armor\" at first.",
+  "descriptionHtml": "[size=3]This armor is created by Yurica. What I have done was just animating this armor with HDT-SMP.\n<br />[b][url=https://www.nexusmods.com/skyrim/mods/53996]\n<br />[color=#ffffff]Requirement:[/color]\n<br />[color=#cc0000]1.[/color][b][color=#3c78d8]HDT Physics Extensions[/color]\n<br />[/b][/url]2. [url=https://www.nexusmods.com/skyrim/mods/68000]XP32 Maximum Skeleton Extended-XPMSE[/url]\n<br />[/b]3.[color=#3c78d8][b]HDT Skinned Mesh Physics[/b][url=http://www.9damao.com/thread-10197-1-1.html] [/url][/color](short for SMP). \n<br />   This is a chinese site. Most people don't know chinese language I suppose.  \n<br />   But I can't upload it here even though I am associated with the author.  But You can download it from this nexus link [url=https://www.nexusmods.com/skyrim/mods/88416]yundao_hdt hair V2.7[/url] [color=#ffffff]just check \"[b]SMP-  PE[/b]\"  from  its main files section. “SMP-PE” is the result of installing[b] HDT Physics Extension[/b] and [b]HDT Skinned Mesh Physics. [/b] After download[b] \"SMP-PE\"[/b], just overwrite [b]HDT Physics Extension[/b].[/color][color=#ffffff]\n<br />[/color]4.[b][color=#3c78d8]hdtSkyrimMemPatch[/color]\n<br />[/b]   This is optional. You can go to chinese site [u][color=#6d9eeb][b][url=http://www.9damao.com/thread-10191-1-1.html]hdtSkyrimMemPatch[20170903][/url]﻿\n<br />[/b][/color][/u]   Don't worry, \"SMP-PE\" above has already involved  [b]HDT Skinned Mesh Physics [/b]and[b] hdtSkyrimMemPatch.\n<br />[/b]\n<br />5.You have to download \"[u][b][url=http://www.nexusmods.com/skyrim/mods/69776]Chevaleresse II Armor[/url][/b][/u]\"\n<br />\n<br />After dowloading the armor, you just need to overwrite it with the patch I submitted. \n<br />\n<br />Warning:  1. HDT Skinned Mesh Physics is not compatible with some AMD CPU, because SMP need CPU to support the SSE4.2 instruction set .\n<br />                      If your cpu don't support it,  you will CTD when you equip smp animated items,  but HDT-PE animated items will be normal. If your cpu                                                  support  SSE4.2 instruction set ,you can use both SMP and PE animated items,  no need to worry about anything.\n<br />                  2. Please note that visual c++ redistributable package 2014 or above is required.\n<br />\n<br />Video as below:[/size]\n<br />[youtube]CqgCWfRjr-c[/youtube]",
+  "categoryId": "54",
+  "version": "1.0",
+  "author": "SkyrimDelphin",
+  "createdUnix": "1516710918",
+  "updatedUnix": "1516718344",
+  "containsAdultContent": false,
+  "uploadedBy": "SkyrimDelphin",
+  "primaryFile": null,
+  "files": [
+    {
+      "fileId": "1000264597",
+      "name": "HDT-SMP Animation Patch for Chevaleresse II Armor",
+      "version": "1.0",
+      "categoryId": "1",
+      "categoryName": "MAIN",
+      "isPrimary": false,
+      "size": "3024",
+      "fileName": "HDT-SMP Animation Patch for Chevaleresse II Armor-89147-1-0.rar",
+      "uploadedUnix": "1516710790",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/39ddeb81380f0c693a2fe7379b10ada21d7da350a939c9b2db5c51b4b98d7d96/analysis/1516711032/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/HDT-SMP%20Animation%20Patch%20for%20Chevaleresse%20II%20Armor-89147-1-0.rar?fid=1000264597&ttl=1535878645&ri=8192&rs=8192&setec=826930044bfa0bbbf24cbd8d92f21135"
+    },
+    {
+      "fileId": "1000264600",
+      "name": "hdtSkyriMemPatch",
+      "version": "1.0",
+      "categoryId": "6",
+      "categoryName": null,
+      "isPrimary": false,
+      "size": "46",
+      "fileName": "hdtSkyriMemPatch-89147-1-0.rar",
+      "uploadedUnix": "1516718344",
+      "modVersion": "1.0",
+      "virusScanUrl": "https://www.virustotal.com/file/96f88e49e4fdd17832823ad2963596a48b3e65ed741d44c6df7077b1342c9214/analysis/1516784344/",
+      "changelogHtml": null,
+      "cdnName": "Nexus Global Content Delivery Network",
+      "downloadUrl": "https://filedelivery.nexusmods.com/110/hdtSkyriMemPatch-89147-1-0.rar?fid=1000264600&ttl=1535878646&ri=8192&rs=8192&setec=ba75ae76bae1bacded78007dba122134"
+    }
+  ]
+}
